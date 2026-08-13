@@ -6,7 +6,8 @@
     "omdsh-dev/dsh-genui": "ui-experience",
     "ZSeven-W/dsh-openpencil": "media-vision",
     "vlln/whale-girl": "ui-experience",
-    "Nwflower/dsh-chat-import": "integrations-sharing"
+    "Nwflower/dsh-chat-import": "integrations-sharing",
+    "KinGao294/dsh-skin": "ui-experience"
   },
   "scenarios": [
     {
@@ -71,6 +72,13 @@
       "repos": ["Nwflower/dsh-chat-import"],
       "why_zh": "全保真导入 Claude Code / Codex / ChatGPT / Cursor 的聊天记录（含工具调用/思考块），导入后可直接续聊。",
       "why_en": "Full-fidelity import of Claude Code / Codex / ChatGPT / Cursor transcripts (tools + thinking) as resumable DSH sessions."
+    },
+    {
+      "goal_zh": "换皮肤、自定义背景",
+      "goal_en": "Change the skin / set a custom wallpaper",
+      "repos": ["KinGao294/dsh-skin"],
+      "why_zh": "内置多套 --dsw-alias-* 配色一键切换，半透明壁纸支持透明度与模糊调节（Codex 风格）。",
+      "why_en": "One-click --dsw-alias-* palette switching plus a translucent wallpaper with opacity and blur controls (Codex-style)."
     }
   ],
   "starter_kits": [
