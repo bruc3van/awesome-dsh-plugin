@@ -1,0 +1,30 @@
+name: Validate curated data
+
+on:
+  pull_request:
+    paths:
+      - 'data/curated.json'
+      - 'scripts/**'
+      - '.github/workflows/validate-curated.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-curated-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Validate data/curated.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/validate-curated.mjs
+      - name: Rebuild pages from the stored snapshot
+        run: node scripts/update.mjs --from-snapshot

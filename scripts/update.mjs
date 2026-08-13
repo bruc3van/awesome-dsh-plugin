@@ -1,25 +1,14 @@
 #!/usr/bin/env node
 
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { appendFile, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { assignableCategories, categoryFallback, categoryRules } from './categories.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const query = 'topic:dsh-plugin';
 const fromSnapshot = process.argv.includes('--from-snapshot');
 
-const categoryRules = [
-  ['ecosystem-resources', '生态与资源', 'Ecosystem & Resources', /awesome|hub|find-plugin|plugin-registry|plugin-check|plugin-dev|template|community/i],
-  ['ui-experience', '界面与体验', 'UI & Experience', /\bui\b|web-ui|sidebar|navbar|side-panel|skin|theme|css|chat-width|focus-chat|input|paste|status|notification|split-pane|annotation|genui|emoji|sticker|pet|whale/i],
-  ['media-vision', '设计、媒体与视觉', 'Design, Media & Vision', /vision|photo|canvas|aigc|visual|multimodal|qwen-mm|image|openpencil|design/i],
-  ['web-browser', '网页与浏览器', 'Web & Browser', /web|browser|archive|computer-use|spotlight|launcher|desktop|deeplink|drag-and-drop/i],
-  ['integrations-sharing', '集成与分享', 'Integrations & Sharing', /share|github|telegram|qq|zotero|acp|connect|remote|teleport|tonghuashun|stock-market|identity/i],
-  ['knowledge-research', '知识与研究', 'Knowledge & Research', /knowledge|research|kb|distill|mnemon|math|lean|sieve|mineru|memory|scholar/i],
-  ['developer-tools', '开发者工具', 'Developer Tools', /vscode|git|diff|inspect|custom-tool|tool-search|doctor|runtime|sandbox|encoding|schema|regex|json|csv|calculator|\bstat\b/i],
-  ['agents-workflows', 'Agent、自动化与工作流', 'Agents, Automation & Workflows', /agent|workflow|harness|advisor|approval|subagent|budget|fallback|deep-research|evolve|team|loop|sentinel|checkpoint/i],
-];
-
-const categoryFallback = ['utilities', '实用工具与其他', 'Utilities & Other'];
 const curated = JSON.parse(await readFile(resolve(root, 'data/curated.json'), 'utf8'));
 const categoryOverrides = new Map(
   Object.entries(curated.category_overrides || {}).map(([fullName, category]) => [fullName.toLowerCase(), category]),
@@ -40,11 +29,14 @@ async function fetchPage(page) {
   return response.json();
 }
 
+const unknownOverrides = new Set();
+
 function categoryFor(repo) {
   const override = categoryOverrides.get(repo.full_name.toLowerCase());
   if (override) {
-    const match = categoryRules.find(([key]) => key === override);
+    const match = assignableCategories.find(([key]) => key === override);
     if (match) return match;
+    unknownOverrides.add(`${repo.full_name} -> ${override}`);
   }
   const haystack = [repo.name, repo.description, ...(repo.topics || [])].filter(Boolean).join(' ');
   return categoryRules.find((rule) => rule[3].test(haystack)) || categoryFallback;
@@ -122,14 +114,22 @@ const totals = {
 
 const esc = (value) => String(value ?? '').replaceAll('|', '\\|').replaceAll('\n', ' ');
 const repoName = (fullName) => fullName.split('/')[1];
+// A curated entry can drop out of the topic snapshot when its repository is deleted,
+// made private, or loses the dsh-plugin topic — and a freshly submitted repository is
+// simply newer than the stored snapshot. Neither case should fail the whole refresh:
+// skip the entry, keep the catalog building, and report the gap at the end.
+const missingCurated = new Set();
 const repoFor = (fullName) => {
   const repo = repoMap.get(fullName.toLowerCase());
-  if (!repo) throw new Error(`Curated repository is missing from the topic snapshot: ${fullName}`);
+  if (!repo) {
+    missingCurated.add(fullName);
+    return null;
+  }
   return repo;
 };
 const repoLink = (fullName) => {
   const repo = repoFor(fullName);
-  return `[${repoName(repo.full_name)}](${repo.html_url})`;
+  return repo ? `[${repoName(repo.full_name)}](${repo.html_url})` : null;
 };
 const updated = (repo) => repo.updated_at.slice(0, 10);
 
@@ -137,26 +137,30 @@ function scenarioTable(language) {
   const header = language === 'zh'
     ? '| 我想要…… | 推荐从这里开始 | 为什么 |\n| --- | --- | --- |'
     : '| I want to… | Start here | Why |\n| --- | --- | --- |';
-  const rows = curated.scenarios.map((item) => {
-    const links = item.repos.map(repoLink).join(' · ');
-    return `| ${item[`goal_${language}`]} | ${links} | ${item[`why_${language}`]} |`;
-  });
+  const rows = curated.scenarios
+    .map((item) => ({ item, links: item.repos.map(repoLink).filter(Boolean) }))
+    .filter((entry) => entry.links.length)
+    .map(({ item, links }) => `| ${item[`goal_${language}`]} | ${links.join(' · ')} | ${item[`why_${language}`]} |`);
   return `${header}\n${rows.join('\n')}`;
 }
 
 function starterKits(language) {
-  return curated.starter_kits.map((kit) => {
-    const links = kit.repos.map(repoLink).join(' · ');
-    return `### ${kit[`title_${language}`]}\n\n${kit[`summary_${language}`]}\n\n${links}`;
-  }).join('\n\n');
+  return curated.starter_kits
+    .map((kit) => ({ kit, links: kit.repos.map(repoLink).filter(Boolean) }))
+    .filter((entry) => entry.links.length)
+    .map(({ kit, links }) => `### ${kit[`title_${language}`]}\n\n${kit[`summary_${language}`]}\n\n${links.join(' · ')}`)
+    .join('\n\n');
 }
 
 function editorPicks(language) {
-  return curated.editor_picks.map((pick) => {
-    const repo = repoFor(pick.repo);
-    const labels = pick[`labels_${language}`].map((label) => `\`${label}\``).join(' ');
-    return `### [${pick[`title_${language}`]}](${repo.html_url})\n\n${pick[`summary_${language}`]}\n\n${labels}`;
-  }).join('\n\n');
+  return curated.editor_picks
+    .map((pick) => ({ pick, repo: repoFor(pick.repo) }))
+    .filter((entry) => entry.repo)
+    .map(({ pick, repo }) => {
+      const labels = pick[`labels_${language}`].map((label) => `\`${label}\``).join(' ');
+      return `### [${pick[`title_${language}`]}](${repo.html_url})\n\n${pick[`summary_${language}`]}\n\n${labels}`;
+    })
+    .join('\n\n');
 }
 
 function recentProjects(language) {
@@ -203,3 +207,26 @@ await writeFile(resolve(root, 'README_EN.md'), readmeEn);
 await writeFile(resolve(root, 'CATALOG.md'), catalog);
 
 console.log(`${fromSnapshot ? 'Generated from snapshot' : 'Updated'} ${repositories.length} repositories at ${snapshot.fetched_at}`);
+
+const warnings = [];
+if (missingCurated.size) {
+  warnings.push(
+    `Curated entries missing from the topic snapshot (skipped in the generated pages): ${[...missingCurated].join(', ')}`,
+    fromSnapshot
+      ? 'Snapshot mode only sees stored data — run `node scripts/update.mjs` to check against live GitHub results.'
+      : 'These repositories no longer appear under the dsh-plugin topic. Remove or replace them in data/curated.json.',
+  );
+}
+if (unknownOverrides.size) {
+  warnings.push(`Unknown category_overrides values (ignored, repository fell back to pattern matching): ${[...unknownOverrides].join(', ')}`);
+}
+
+if (warnings.length) {
+  for (const warning of warnings) console.warn(`Warning: ${warning}`);
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    await appendFile(
+      process.env.GITHUB_STEP_SUMMARY,
+      `### Curated data warnings\n\n${warnings.map((warning) => `- ${warning}`).join('\n')}\n`,
+    );
+  }
+}
