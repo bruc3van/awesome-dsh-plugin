@@ -5,7 +5,8 @@
     "fuhefei/dsh-sentinel": "agents-workflows",
     "omdsh-dev/dsh-genui": "ui-experience",
     "ZSeven-W/dsh-openpencil": "media-vision",
-    "vlln/whale-girl": "ui-experience"
+    "vlln/whale-girl": "ui-experience",
+    "Nwflower/dsh-chat-import": "integrations-sharing"
   },
   "scenarios": [
     {
@@ -63,6 +64,13 @@
       "repos": ["vlln/whale-girl"],
       "why_zh": "可拖拽、投喂和玩耍的积累型鲸鱼娘桌面伙伴。",
       "why_en": "A draggable companion with feeding, play, and persistent progression."
+    },
+    {
+      "goal_zh": "把其他工具的历史会话搬进 DSH",
+      "goal_en": "Migrate chat histories from other tools into DSH",
+      "repos": ["Nwflower/dsh-chat-import"],
+      "why_zh": "全保真导入 Claude Code / Codex / ChatGPT / Cursor 的聊天记录（含工具调用/思考块），导入后可直接续聊。",
+      "why_en": "Full-fidelity import of Claude Code / Codex / ChatGPT / Cursor transcripts (tools + thinking) as resumable DSH sessions."
     }
   ],
   "starter_kits": [
