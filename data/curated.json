@@ -27,6 +27,13 @@
       "why_en": "Manage repository plugins in a browser console with plugin-development guidance."
     },
     {
+      "goal_zh": "把现有业务代码转成 Agent 可调用能力",
+      "goal_en": "Turn existing application code into agent-callable capabilities",
+      "repos": ["leechen298/Code2Skill"],
+      "why_zh": "从用户授权的前端、后端或全栈源码生成 Function、MCP Tools、业务 Skills 和离线测试，并可作为 DSH Bundle 安装。",
+      "why_en": "Generate Functions, MCP tools, workflow Skills, and offline tests from user-authorized frontend, backend, or full-stack source code, packaged as an installable DSH bundle."
+    },
+    {
       "goal_zh": "看清后台任务进度",
       "goal_en": "Track background tasks",
       "repos": ["vlln/dsh-task-status"],
