@@ -9,92 +9,128 @@
     "Nwflower/dsh-chat-import": "integrations-sharing",
     "KinGao294/dsh-skin": "ui-experience",
     "bpc-oss/dsh-web-billing": "ui-experience",
-    "ccch1mneyyy/dsh-TUI": "ui-experience"
+    "ccch1mneyyy/dsh-TUI": "ui-experience",
+    "howlma/dsh-desktop": "ui-experience"
   },
   "scenarios": [
     {
       "goal_zh": "更方便地管理和发现插件",
       "goal_en": "Manage and discover plugins",
-      "repos": ["vlln/plugin-registry"],
+      "repos": [
+        "vlln/plugin-registry"
+      ],
       "why_zh": "在浏览器面板中管理 repository 插件，并提供开发引导。",
       "why_en": "Manage repository plugins in a browser console with plugin-development guidance."
     },
     {
       "goal_zh": "看清后台任务进度",
       "goal_en": "Track background tasks",
-      "repos": ["vlln/dsh-task-status"],
+      "repos": [
+        "vlln/dsh-task-status"
+      ],
       "why_zh": "在对话页显示任务进度和实时输出 tail。",
       "why_en": "Show task progress and a live output tail in the conversation view."
     },
     {
       "goal_zh": "定时或按事件唤醒 Agent",
       "goal_en": "Wake an agent on a schedule or event",
-      "repos": ["vlln/dsh-loop", "fuhefei/dsh-sentinel"],
+      "repos": [
+        "vlln/dsh-loop",
+        "fuhefei/dsh-sentinel"
+      ],
       "why_zh": "覆盖周期任务，以及文件、命令、HTTP、进程和 Webhook 事件。",
       "why_en": "Cover scheduled runs plus file, command, HTTP, process, and webhook events."
     },
     {
       "goal_zh": "更顺手地阅读和操作长对话",
       "goal_en": "Navigate and annotate long conversations",
-      "repos": ["vlln/dsh-navbar", "omdsh-dev/dsh-annotation"],
+      "repos": [
+        "vlln/dsh-navbar",
+        "omdsh-dev/dsh-annotation"
+      ],
       "why_zh": "快速跳转用户消息节点，并像 Codex 一样选中文本批注。",
       "why_en": "Jump between user-message nodes and attach Codex-style annotations."
     },
     {
       "goal_zh": "在对话中生成交互式界面",
       "goal_en": "Render interactive UI in chat",
-      "repos": ["omdsh-dev/dsh-genui"],
+      "repos": [
+        "omdsh-dev/dsh-genui"
+      ],
       "why_zh": "在回复中渲染图表、表单、测验、Mermaid 和 3D 场景。",
       "why_en": "Render charts, forms, quizzes, Mermaid diagrams, and 3D scenes inline."
     },
     {
       "goal_zh": "让 Agent 操作真实设计画布",
       "goal_en": "Let agents operate a real design canvas",
-      "repos": ["ZSeven-W/dsh-openpencil"],
+      "repos": [
+        "ZSeven-W/dsh-openpencil"
+      ],
       "why_zh": "创建、编辑、预览和验证可交互的多页面 OpenPencil 设计稿。",
       "why_en": "Create, edit, preview, and validate interactive multi-page OpenPencil designs."
     },
     {
       "goal_zh": "给 DSH 增加视觉理解能力",
       "goal_en": "Add visual understanding to DSH",
-      "repos": ["Anionex/dsh-vision-toolkit"],
+      "repos": [
+        "Anionex/dsh-vision-toolkit"
+      ],
       "why_zh": "覆盖图片问答、长截图 OCR、UI 还原、定位和像素对比。",
       "why_en": "Add image Q&A, long-screenshot OCR, UI restoration, grounding, and pixel diffs."
     },
     {
       "goal_zh": "给工作区增加一个陪伴型宠物",
       "goal_en": "Add a companion to the workspace",
-      "repos": ["vlln/whale-girl"],
+      "repos": [
+        "vlln/whale-girl"
+      ],
       "why_zh": "可拖拽、投喂和玩耍的积累型鲸鱼娘桌面伙伴。",
       "why_en": "A draggable companion with feeding, play, and persistent progression."
     },
     {
       "goal_zh": "把其他工具的历史会话搬进 DSH",
       "goal_en": "Migrate chat histories from other tools into DSH",
-      "repos": ["Nwflower/dsh-chat-import"],
+      "repos": [
+        "Nwflower/dsh-chat-import"
+      ],
       "why_zh": "全保真导入 Claude Code / Codex / ChatGPT / Cursor 的聊天记录（含工具调用/思考块），导入后可直接续聊。",
       "why_en": "Full-fidelity import of Claude Code / Codex / ChatGPT / Cursor transcripts (tools + thinking) as resumable DSH sessions."
     },
     {
       "goal_zh": "换皮肤、自定义背景",
       "goal_en": "Change the skin / set a custom wallpaper",
-      "repos": ["KinGao294/dsh-skin"],
+      "repos": [
+        "KinGao294/dsh-skin"
+      ],
       "why_zh": "内置多套 --dsw-alias-* 配色一键切换，半透明壁纸支持透明度与模糊调节（Codex 风格）。",
       "why_en": "One-click --dsw-alias-* palette switching plus a translucent wallpaper with opacity and blur controls (Codex-style)."
     },
     {
       "goal_zh": "查看 Token 用量与费用",
       "goal_en": "Track token usage and costs",
-      "repos": ["bpc-oss/dsh-web-billing"],
+      "repos": [
+        "bpc-oss/dsh-web-billing"
+      ],
       "why_zh": "按官方政策自动计价（含峰谷时段），逐条消息记账，显示账号余额；界面语言自动切换人民币/美元。",
       "why_en": "Auto-bill per message with official pricing (incl. peak/off-peak hours), keep a persistent cost ledger, show the account balance, and switch ¥/$ with the UI language."
     },
     {
       "goal_zh": "让外部 Agent 驱动 Harness 执行任务",
       "goal_en": "Drive Harness from an external agent",
-      "repos": ["chushixixin/dsh-harness-mcp-server"],
+      "repos": [
+        "chushixixin/dsh-harness-mcp-server"
+      ],
       "why_zh": "在 Harness 内部启动 MCP server，让任意 MCP 客户端（如 Hermes）下发任务给 Harness 执行，实现「大脑 + 胳膊」协作。",
       "why_en": "Runs an MCP server inside Harness so any MCP client (e.g. Hermes) can delegate coding tasks to Harness — a 'brain + arms' setup."
+    },
+    {
+      "goal_zh": "开机一键拉起 Harness 桌面客户端",
+      "goal_en": "Open a Harness desktop client with one click",
+      "repos": [
+        "howlma/dsh-desktop"
+      ],
+      "why_zh": "双击即拉起或复用 Harness 网关，窗口内嵌官方 Web 界面；托盘常驻，可选开机自启。",
+      "why_en": "Double-click boots or reuses the Harness gateway and embeds the official UI; tray-resident with optional launch-at-login."
     }
   ],
   "starter_kits": [
@@ -103,21 +139,32 @@
       "title_en": "Everyday experience kit",
       "summary_zh": "先解决插件管理、后台状态和长对话导航这三个最常见的问题。",
       "summary_en": "Start with plugin management, background-task visibility, and long-conversation navigation.",
-      "repos": ["vlln/plugin-registry", "vlln/dsh-task-status", "vlln/dsh-navbar"]
+      "repos": [
+        "vlln/plugin-registry",
+        "vlln/dsh-task-status",
+        "vlln/dsh-navbar"
+      ]
     },
     {
       "title_zh": "自动化套装",
       "title_en": "Automation kit",
       "summary_zh": "同时拥有定时循环和事件驱动唤醒，适合长时间、无人值守任务。",
       "summary_en": "Combine scheduled loops with event-driven wakeups for long-running or unattended work.",
-      "repos": ["vlln/dsh-loop", "fuhefei/dsh-sentinel"]
+      "repos": [
+        "vlln/dsh-loop",
+        "fuhefei/dsh-sentinel"
+      ]
     },
     {
       "title_zh": "创作与界面套装",
       "title_en": "Creation and interface kit",
       "summary_zh": "让 Agent 生成交互式 UI、操作真实设计画布，并理解视觉内容。",
       "summary_en": "Let agents render interactive UI, operate a real design canvas, and understand visual content.",
-      "repos": ["omdsh-dev/dsh-genui", "ZSeven-W/dsh-openpencil", "Anionex/dsh-vision-toolkit"]
+      "repos": [
+        "omdsh-dev/dsh-genui",
+        "ZSeven-W/dsh-openpencil",
+        "Anionex/dsh-vision-toolkit"
+      ]
     }
   ],
   "editor_picks": [
@@ -127,8 +174,16 @@
       "title_en": "plugin-registry — move from browsing to managing plugins",
       "summary_zh": "面向普通用户的可视化插件管理入口，同时给开发者提供 make-dsh-plugin 引导。适合第一次进入 DSH 插件生态的人。",
       "summary_en": "A visual plugin-management entry point for users, paired with make-dsh-plugin guidance for developers. A strong first stop for the ecosystem.",
-      "labels_zh": ["新手友好", "插件管理", "开发引导"],
-      "labels_en": ["beginner-friendly", "plugin management", "developer guidance"]
+      "labels_zh": [
+        "新手友好",
+        "插件管理",
+        "开发引导"
+      ],
+      "labels_en": [
+        "beginner-friendly",
+        "plugin management",
+        "developer guidance"
+      ]
     },
     {
       "repo": "fuhefei/dsh-sentinel",
@@ -136,8 +191,16 @@
       "title_en": "dsh-sentinel — event-driven wakeups beyond schedules",
       "summary_zh": "监听文件、命令、HTTP、进程或 Webhook，在条件满足时唤醒 DSH。适合自动化监控、长任务和无人值守工作流。",
       "summary_en": "Watch files, commands, HTTP endpoints, processes, or webhooks and wake DSH when conditions match. Built for monitoring and unattended workflows.",
-      "labels_zh": ["事件驱动", "持久监控", "自动化"],
-      "labels_en": ["event-driven", "durable watches", "automation"]
+      "labels_zh": [
+        "事件驱动",
+        "持久监控",
+        "自动化"
+      ],
+      "labels_en": [
+        "event-driven",
+        "durable watches",
+        "automation"
+      ]
     },
     {
       "repo": "vlln/dsh-task-status",
@@ -145,8 +208,16 @@
       "title_en": "dsh-task-status — see what background work is doing",
       "summary_zh": "把后台任务进度和实时输出 tail 放回对话页面，尤其适合构建、下载、测试等长时间命令。",
       "summary_en": "Bring background-task progress and a live output tail into the conversation view, especially for builds, downloads, and long-running tests.",
-      "labels_zh": ["后台任务", "实时输出", "可观察性"],
-      "labels_en": ["background tasks", "live output", "observability"]
+      "labels_zh": [
+        "后台任务",
+        "实时输出",
+        "可观察性"
+      ],
+      "labels_en": [
+        "background tasks",
+        "live output",
+        "observability"
+      ]
     },
     {
       "repo": "omdsh-dev/dsh-annotation",
@@ -154,8 +225,16 @@
       "title_en": "dsh-annotation — Codex-style annotations for DSH",
       "summary_zh": "选中文字、添加批注并随消息发送，回复可以逐条对照 Annotation，适合审稿、代码评审和精确反馈。",
       "summary_en": "Select text, attach annotations to the next message, and receive annotation-aware replies. Useful for review and precise feedback.",
-      "labels_zh": ["批注", "精确反馈", "零核心改动"],
-      "labels_en": ["annotations", "precise feedback", "zero core changes"]
+      "labels_zh": [
+        "批注",
+        "精确反馈",
+        "零核心改动"
+      ],
+      "labels_en": [
+        "annotations",
+        "precise feedback",
+        "zero core changes"
+      ]
     },
     {
       "repo": "omdsh-dev/dsh-genui",
@@ -163,8 +242,16 @@
       "title_en": "dsh-genui — turn replies into interactive interfaces",
       "summary_zh": "在对话中直接呈现图表、表单、测验、Mermaid、3D 场景，并把用户操作重新送回模型。",
       "summary_en": "Render charts, forms, quizzes, Mermaid diagrams, and 3D scenes inline, with user actions flowing back to the model.",
-      "labels_zh": ["生成式 UI", "交互", "可视化"],
-      "labels_en": ["generative UI", "interactive", "visualization"]
+      "labels_zh": [
+        "生成式 UI",
+        "交互",
+        "可视化"
+      ],
+      "labels_en": [
+        "generative UI",
+        "interactive",
+        "visualization"
+      ]
     },
     {
       "repo": "ZSeven-W/dsh-openpencil",
@@ -172,8 +259,16 @@
       "title_en": "DSH OpenPencil — let agents work on a real design canvas",
       "summary_zh": "连接 DSH 与 OpenPencil，让 Agent 理解画布结构、节点和组件关系，直接创建、修改、预览并验证可编辑的多页面设计，而不是只返回一张图片。",
       "summary_en": "Connect DSH to OpenPencil so agents can understand canvas structure and directly create, edit, preview, and validate editable multi-page designs instead of returning a flat image.",
-      "labels_zh": ["设计画布", "多页面", "可编辑"],
-      "labels_en": ["design canvas", "multi-page", "editable"]
+      "labels_zh": [
+        "设计画布",
+        "多页面",
+        "可编辑"
+      ],
+      "labels_en": [
+        "design canvas",
+        "multi-page",
+        "editable"
+      ]
     },
     {
       "repo": "Anionex/dsh-vision-toolkit",
@@ -181,8 +276,16 @@
       "title_en": "dsh-vision-toolkit — a vision toolbox for text-first models",
       "summary_zh": "覆盖图片问答、长截图 OCR、UI 还原、视觉定位、像素对比和 Artifacts，适合前端与视觉任务。",
       "summary_en": "Cover image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diffs, and artifacts for frontend and visual work.",
-      "labels_zh": ["视觉理解", "OCR", "UI 还原"],
-      "labels_en": ["vision", "OCR", "UI restoration"]
+      "labels_zh": [
+        "视觉理解",
+        "OCR",
+        "UI 还原"
+      ],
+      "labels_en": [
+        "vision",
+        "OCR",
+        "UI restoration"
+      ]
     },
     {
       "repo": "vlln/whale-girl",
@@ -190,8 +293,16 @@
       "title_en": "whale-girl — a companion for vibe coding",
       "summary_zh": "可拖拽、投喂和玩耍的 DSH Web GUI 桌面宠物，为长时间 Agent 工作增加一点陪伴感。",
       "summary_en": "A draggable DSH Web GUI companion with feeding and play interactions for a little personality during long agent sessions.",
-      "labels_zh": ["桌面宠物", "陪伴", "Web UI"],
-      "labels_en": ["desktop pet", "companion", "Web UI"]
+      "labels_zh": [
+        "桌面宠物",
+        "陪伴",
+        "Web UI"
+      ],
+      "labels_en": [
+        "desktop pet",
+        "companion",
+        "Web UI"
+      ]
     },
     {
       "repo": "modusensus/dsh-mneme",
@@ -199,8 +310,16 @@
       "title_en": "dsh-mneme — memory sovereignty: human-editable cross-session memory",
       "summary_zh": "SQLite + 可人工编辑的 Markdown 镜像，记忆不再黑盒；autoDream 后台自动去重/合并/裁决，越用越精炼。106 个测试护航，记忆这回事不该让 agent 一个人说了算。",
       "summary_en": "SQLite + human-editable Markdown mirror keeps memory transparent — you hold the memory, not the agent. autoDream consolidates in the background; 106 tests back it up.",
-      "labels_zh": ["记忆主权", "跨会话记忆", "autoDream"],
-      "labels_en": ["memory sovereignty", "cross-session", "autoDream"]
+      "labels_zh": [
+        "记忆主权",
+        "跨会话记忆",
+        "autoDream"
+      ],
+      "labels_en": [
+        "memory sovereignty",
+        "cross-session",
+        "autoDream"
+      ]
     },
     {
       "repo": "ccch1mneyyy/dsh-TUI",
@@ -208,8 +327,16 @@
       "title_en": "dsh-TUI — a full-screen terminal UI for DSH",
       "summary_zh": "Claude Code 风格的全屏交互终端插件：像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条与 TPS 仪表，npm 一键安装，为偏爱 CLI 的用户补上 DSH 官方尚缺的 TUI 体验。",
       "summary_en": "A Claude Code-style full-screen terminal UI for DSH — pixel-whale header, a live status line, streaming thought expansion, double-Esc rollback, and a context/TPS gauge. One-command npm install, filling the TUI gap for CLI-first users.",
-      "labels_zh": ["终端 TUI", "全屏交互", "CLI 优先"],
-      "labels_en": ["terminal UI", "full-screen", "CLI-first"]
+      "labels_zh": [
+        "终端 TUI",
+        "全屏交互",
+        "CLI 优先"
+      ],
+      "labels_en": [
+        "terminal UI",
+        "full-screen",
+        "CLI-first"
+      ]
     }
-]
+  ]
 }
