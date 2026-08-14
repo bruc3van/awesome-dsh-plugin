@@ -12,7 +12,9 @@
     "Han-1413141/dsh-cost-meter": "ui-experience",
     "ccch1mneyyy/dsh-TUI": "ui-experience",
     "flymysql/dsh-remote": "integrations-sharing",
-    "howlma/dsh-desktop": "ui-experience"
+    "howlma/dsh-desktop": "ui-experience",
+    "Noob-stupid/dsh-plugin-hub": "ecosystem-resources",
+    "Noob-stupid/dsh-github-login": "ecosystem-resources"
   },
   "excluded_repos": {
     "AdamPlatin123/awesome-dsh-plugins": "Not a DSH plugin — a competing/duplicate plugin-catalog site that tags itself with the dsh-plugin topic."
@@ -28,9 +30,9 @@
     {
       "goal_zh": "更方便地管理和发现插件",
       "goal_en": "Manage and discover plugins",
-      "repos": ["vlln/plugin-registry"],
-      "why_zh": "在浏览器面板中管理 repository 插件，并提供开发引导。",
-      "why_en": "Manage repository plugins in a browser console with plugin-development guidance."
+      "repos": ["vlln/plugin-registry", "Noob-stupid/dsh-plugin-hub"],
+      "why_zh": "在浏览器面板中管理插件：plugin-registry 面向 repository 插件并提供开发引导；dsh-plugin-hub 提供已安装插件的一键启用/停用、GitHub dsh-plugin 插件市场、插件详情与一键安装。",
+      "why_en": "Manage plugins in a browser panel: plugin-registry manages repository plugins with development guidance; dsh-plugin-hub offers one-click enable/disable for installed plugins, a GitHub dsh-plugin marketplace, plugin details, and one-click installs."
     },
     {
       "goal_zh": "把现有业务代码转成 Agent 可调用能力",
@@ -136,6 +138,13 @@
       "repos": ["flymysql/dsh-remote"],
       "why_zh": "打印当前实例的精确连接命令：SSH 本地转发、autossh 保活、反向隧道（NAT 友好）与带 --trusted-host 的反向代理，设置页一键复制；遵循官方安全设计，不碰 0.0.0.0。",
       "why_en": "Prints the exact commands for the live instance — SSH local forward, autossh keepalive, NAT-friendly reverse tunnel, and reverse-proxy access with --trusted-host — with one-click copy from the settings page. Respects the official safety design: no 0.0.0.0 hacks."
+    },
+    {
+      "goal_zh": "不碰终端就能登录 GitHub，并让 gh CLI 直接可用",
+      "goal_en": "Log in to GitHub without a terminal, and make the gh CLI work immediately",
+      "repos": ["Noob-stupid/dsh-github-login"],
+      "why_zh": "可视化设备码流程：打开窗口 → 浏览器输码授权 → 完成；令牌落盘并同步 gh 配置，无 keyring 时 gh 立即可用，支持退出登录与托盘常驻。",
+      "why_en": "Visual device flow: open the window, authorize in the browser, done. The token is persisted and synced into gh config, so the CLI works immediately without a keyring, with logout and tray residency included."
     }
   ],
   "starter_kits": [
