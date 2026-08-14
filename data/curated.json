@@ -168,6 +168,15 @@
       "summary_en": "A draggable DSH Web GUI companion with feeding and play interactions for a little personality during long agent sessions.",
       "labels_zh": ["桌面宠物", "陪伴", "Web UI"],
       "labels_en": ["desktop pet", "companion", "Web UI"]
+    },
+    {
+      "repo": "modusensus/dsh-mneme",
+      "title_zh": "dsh-mneme — 记忆主权还给你：可读可改的跨会话记忆",
+      "title_en": "dsh-mneme — memory sovereignty: human-editable cross-session memory",
+      "summary_zh": "SQLite + 可人工编辑的 Markdown 镜像，记忆不再黑盒；autoDream 后台自动去重/合并/裁决，越用越精炼。106 个测试护航，记忆这回事不该让 agent 一个人说了算。",
+      "summary_en": "SQLite + human-editable Markdown mirror keeps memory transparent — you hold the memory, not the agent. autoDream consolidates in the background; 106 tests back it up.",
+      "labels_zh": ["记忆主权", "跨会话记忆", "autoDream"],
+      "labels_en": ["memory sovereignty", "cross-session", "autoDream"]
     }
-  ]
+]
 }
