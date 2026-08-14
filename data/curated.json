@@ -9,6 +9,7 @@
     "Nwflower/dsh-chat-import": "integrations-sharing",
     "KinGao294/dsh-skin": "ui-experience",
     "bpc-oss/dsh-web-billing": "ui-experience",
+    "Han-1413141/dsh-cost-meter": "ui-experience",
     "ccch1mneyyy/dsh-TUI": "ui-experience"
   },
   "scenarios": [
@@ -92,7 +93,7 @@
     {
       "goal_zh": "查看 Token 用量与费用",
       "goal_en": "Track token usage and costs",
-      "repos": ["bpc-oss/dsh-web-billing"],
+      "repos": ["bpc-oss/dsh-web-billing", "Han-1413141/dsh-cost-meter"],
       "why_zh": "按官方政策自动计价（含峰谷时段），逐条消息记账，显示账号余额；界面语言自动切换人民币/美元。",
       "why_en": "Auto-bill per message with official pricing (incl. peak/off-peak hours), keep a persistent cost ledger, show the account balance, and switch ¥/$ with the UI language."
     },
