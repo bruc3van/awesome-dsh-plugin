@@ -742,7 +742,7 @@
       "title_zh": "dsh-lark-meeting-notifier — 只有副作用的飞书会议提醒",
       "title_en": "dsh-lark-meeting-notifier — the meeting reminder with only side effects",
       "summary_zh": "一个只有副作用的 dsh-plugin：在你跟 AI 聊得神魂颠倒时提醒你「不得不去跟碳基生命开会了」。右侧悬浮框显示今日/明日飞书会议，多闹钟闪烁、点击关闭。",
-      "summary_en": "A dsh-plugin whose only side effect is reminding you, mid-flow with AI, that you \"have to go meet carbon-based lifeforms\". A right-side floating panel lists today's/tomorrow's Feishu meetings with flashing alarms you can dismiss.",
+      "summary_en": "A dsh-plugin which has only side effect: reminding you, mid-flow with AI, that you \"have to go meet carbon-based lifeforms\". A right-side floating panel lists today's/tomorrow's Feishu meetings with flashing alarms you can dismiss.",
       "labels_zh": [
         "飞书",
         "会议提醒",
