@@ -88,7 +88,7 @@ mindmap
 | 像 Codex 一样用 @ 引用工作区文件 | [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 在输入框内按 @ 搜索工作区文件并把内容附进 prompt，免去手动复制粘贴。 |
 | 在对话中生成交互式界面 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | 在回复中渲染图表、表单、测验、Mermaid 和 3D 场景。 |
 | 让 Agent 操作真实设计画布 | [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) | 创建、编辑、预览和验证可交互的多页面 OpenPencil 设计稿。 |
-| 给 DSH 增加视觉理解能力 | [modlens](https://github.com/liustack/modlens) · [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) · [dsh-luna-vision-bridge](https://github.com/ycp424c/dsh-luna-vision-bridge) | modlens 把图片转成 OCR/布局/语义结构化证据；dsh-vision-toolkit 覆盖图片问答、长截图 OCR、UI 还原与像素对比；纯文本模型也可经 Luna 转写桥接继续处理图片。 |
+| 给 DSH 增加视觉理解能力 | [modlens](https://github.com/liustack/modlens) · [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) · [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) · [dsh-luna-vision-bridge](https://github.com/ycp424c/dsh-luna-vision-bridge) | modlens 把图片转成 OCR/布局/语义结构化证据；dsh-vision-toolkit 覆盖图片问答、长截图 OCR、UI 还原与像素对比；dsh-vision-router 内置免 Key 视觉链与像素级工具、粘贴图片即可用；纯文本模型也可经 Luna 转写桥接继续处理图片。 |
 | 让 Agent 自己搜索网页和 X，答案带引用 | [modsearch](https://github.com/liustack/modsearch) · [anysearch-dsh](https://github.com/anysearch-team/anysearch-dsh) | modsearch 在对话中直接搜索、抓取并返回带引用的结构化证据；anysearch-dsh 提供 AnySearch 搜索源与高级搜索工具，可作补充搜索后端。 |
 | 在开发对话里直接检查和操作当前网页 | [dsh-browser-bridge](https://github.com/ycp424c/dsh-browser-bridge) | 把完整 DSH Web 嵌进 Chrome 侧边栏，按 prompt 显式授权当前标签页，DSH 能在同一对话里读取 DOM、样式、console 报错并操作页面，无需另开浏览器专用对话。 |
 | 把侧边栏升级成完整工作台 | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 内置文件渲染编辑、终端、Git 与子代理，并支持第三方扩展注册新 Tab。 |
@@ -111,7 +111,7 @@ mindmap
 | --- | --- | --- |
 | 日常体验 | 第一次装插件，先解决管理、状态和导航 | [plugin-registry](https://github.com/vlln/plugin-registry) · [dsh-task-status](https://github.com/vlln/dsh-task-status) · [dsh-navbar](https://github.com/vlln/dsh-navbar) |
 | 自动化 | 定时循环 + 事件驱动唤醒，长时间无人值守任务 | [dsh-loop](https://github.com/vlln/dsh-loop) · [dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) |
-| 视觉与搜索 | 让纯文本模型看得见、搜得到 | [modlens](https://github.com/liustack/modlens) · [modsearch](https://github.com/liustack/modsearch) · [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) |
+| 视觉与搜索 | 让纯文本模型看得见、搜得到 | [modlens](https://github.com/liustack/modlens) · [modsearch](https://github.com/liustack/modsearch) · [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) · [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) |
 | 创作与界面 | 生成式 UI、真实设计画布与视觉理解 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) · [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) · [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) |
 | 记忆与持续运行 | 跨会话记忆 + 中断自动续跑的无人值守项目 | [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) · [dsh-mneme](https://github.com/modusensus/dsh-mneme) · [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) |
 
@@ -136,6 +136,7 @@ mindmap
 - **[modlens](https://github.com/liustack/modlens)**（⭐ 1.2k）— 生态内 Star 最高的第三方插件（MIT）：粘贴图片即可得到带 OCR、布局与语义的结构化 JSON 证据，让纯文本模型也能可靠地看图；配套 Web UI。 `视觉` `OCR` `结构化证据`
 - **[modsearch](https://github.com/liustack/modsearch)**（⭐ 86）— 让 DSH 直接搜索网页和 X，返回带引用的结构化 JSON 证据（搜索/抓取/引用），纯文本模型也能基于证据回答；与 modlens 组成「看」+「搜」组合。 `搜索` `引用` `证据`
 - **[dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit)**（⭐ 308）— 覆盖图片问答、长截图 OCR、UI 还原、视觉定位、像素对比和 Artifacts，适合前端与视觉任务。 `视觉理解` `OCR` `UI 还原`
+- **[dsh-vision-router](https://github.com/ysr666/dsh-vision-router)**（⭐ 13）— 内置免 Key 视觉链（OVHcloud 匿名端点）+ 像素级视觉工具（看图问答、定位、裁剪、像素对比、取色、OCR、矢量化、抠图、截图）；粘贴图片即可用，无 Python，一条命令安装，图片轮可像文本轮一样连续多步调用工具。 `视觉理解` `免 Key` `像素工具`
 
 ### 🧠 记忆与无人值守
 
