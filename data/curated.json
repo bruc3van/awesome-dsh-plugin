@@ -112,6 +112,13 @@
       "repos": ["chushixixin/dsh-harness-mcp-server"],
       "why_zh": "在 Harness 内部启动 MCP server，让任意 MCP 客户端（如 Hermes）下发任务给 Harness 执行，实现「大脑 + 胳膊」协作。",
       "why_en": "Runs an MCP server inside Harness so any MCP client (e.g. Hermes) can delegate coding tasks to Harness — a 'brain + arms' setup."
+    },
+    {
+      "goal_zh": "请求经常因网络波动或超时中断，不想每次都手动补一句「继续」",
+      "goal_en": "Keep requests from dying to network hiccups and timeouts without manually saying \"continue\" every time",
+      "repos": ["HsiangNianian/dsh-auto-continue"],
+      "why_zh": "dsh-auto-continue 监听实时事件流，回合因非人为原因失败后自动补发「继续」：错误分类只恢复临时性故障，自适应退避避免对故障上游狂轰滥炸，支持模板化继续文本与浏览器通知，全部参数在插件设置卡片中可调。",
+      "why_en": "dsh-auto-continue watches the live event streams and auto-sends a queued \"继续\" after non-human failures: error classification resumes only transient faults, adaptive backoff avoids hammering a broken upstream, and templated continue text plus browser notifications keep you in the loop — all configurable from the plugin settings card."
     }
   ],
   "starter_kits": [
@@ -245,6 +252,15 @@
       "summary_en": "An all-in-one bundle for the DSH Web UI — task board, git graph, a side panel, a remote mobile UI, a desktop pet, live token stats, and a skin center — covering several common UI needs in a single install.",
       "labels_zh": ["功能合集", "皮肤中心", "移动端"],
       "labels_en": ["all-in-one", "skin center", "mobile UI"]
+    },
+    {
+      "repo": "HsiangNianian/dsh-auto-continue",
+      "title_zh": "dsh-auto-continue — 请求中断后自动「继续」",
+      "title_en": "dsh-auto-continue — auto-resume interrupted requests",
+      "summary_zh": "网络波动、超时或宿主崩溃导致回合失败后，自动向会话发送「继续」续跑：错误分类（认证/余额等永久性错误跳过）、自适应退避、模板化继续文本与浏览器通知，全部可在插件设置卡片中调整，无人值守也能自己爬起来。",
+      "summary_en": "Auto-resumes turns that failed to network hiccups, timeouts, or host crashes by sending a queued \"继续\": error classification skips permanent failures, adaptive backoff spaces out retries, continue text supports templates, and browser notifications keep you informed — all configurable from the plugin settings card.",
+      "labels_zh": ["自动续跑", "无人值守", "错误分类"],
+      "labels_en": ["auto-resume", "unattended", "error classification"]
     }
 ]
 }
