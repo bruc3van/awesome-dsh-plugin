@@ -501,6 +501,15 @@
       "summary_en": "Auto-resumes turns that failed to network hiccups, timeouts, or host crashes by sending a queued \"继续\": error classification skips permanent failures, adaptive backoff spaces out retries, continue text supports templates, and browser notifications keep you informed — all configurable from the plugin settings card.",
       "labels_zh": ["自动续跑", "无人值守", "错误分类"],
       "labels_en": ["auto-resume", "unattended", "error classification"]
+    },
+    {
+      "repo": "GIT121995/dsh-memory-gate",
+      "title_zh": "dsh-memory-gate — 检索到≠注入：带权威门控的本地长期记忆",
+      "title_en": "dsh-memory-gate — retrieved ≠ injected: authority-gated local long-term memory",
+      "summary_zh": "纯本地 SQLite + FTS5 长期记忆：每条记忆须通过 CBDC（Claim→Belief→Decision→Consumption）四段权威门控才会进入上下文，输出 use/verify/ignore 可解释决策并保留完整检索/注入审计；shadow/assist/enforce 三种模式，默认每次最多注入 3 条、1200 字符，不增加第二次模型调用。",
+      "summary_en": "Local SQLite + FTS5 long-term memory: every memory must pass CBDC (Claim→Belief→Decision→Consumption) authority gating before entering context, with explainable use/verify/ignore decisions and a full retrieval/injection audit trail; shadow/assist/enforce modes, default injection capped at 3 claims / 1200 characters, no extra model call.",
+      "labels_zh": ["记忆闸门", "可审计", "零额外调用"],
+      "labels_en": ["memory gate", "auditable", "no extra call"]
     }
   ]
 }
