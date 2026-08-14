@@ -152,6 +152,7 @@ You do not need to install everything. Start with the kit closest to the problem
 - **[dsh-navbar](https://github.com/vlln/dsh-navbar)** (⭐ 15) — Jump to any user message node in long conversations. `long-conversations` `navigation`
 - **[dsh-task-status](https://github.com/vlln/dsh-task-status)** (⭐ 7) — Puts background-task progress and a live output tail back into the conversation view — great for builds, downloads, and long test runs. `background-tasks` `live-output` `observability`
 - **[dsh-notification](https://github.com/omdsh-dev/dsh-notification)** (⭐ 38) — Desktop notifications when a turn completes, per outcome (success/failure) with keyword include/exclude rules. `notifications` `unattended` `keyword-rules`
+- **[dsh-outline](https://github.com/urzeye/dsh-outline)** (⭐ 3) — Real-time outline panel for the conversation page: a tree of user questions and Markdown headings (H1-H6) that updates live while streaming, with click-to-jump highlight, expand-depth control, search, and per-session favorites. `outline` `navigation` `web-ui`
 
 ### 🎨 Creation & fun
 

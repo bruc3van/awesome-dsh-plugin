@@ -152,6 +152,7 @@ mindmap
 - **[dsh-navbar](https://github.com/vlln/dsh-navbar)**（⭐ 15）— 长对话里快速跳转到任意用户消息节点。 `长对话` `导航`
 - **[dsh-task-status](https://github.com/vlln/dsh-task-status)**（⭐ 7）— 把后台任务进度和实时输出 tail 放回对话页面，尤其适合构建、下载、测试等长时间命令。 `后台任务` `实时输出` `可观察性`
 - **[dsh-notification](https://github.com/omdsh-dev/dsh-notification)**（⭐ 38）— 回合完成后发送桌面通知，按成功/失败等结果分别控制，支持关键词包含/排除规则。 `桌面通知` `无人值守` `关键词规则`
+- **[dsh-outline](https://github.com/urzeye/dsh-outline)**（⭐ 3）— 会话页实时大纲面板：用户问题与 Markdown 标题（1~6 级）组成大纲树，流式生成时实时更新，点击节点定位并高亮，支持展开深度调节、搜索与会话级收藏。 `大纲` `导航` `Web UI`
 
 ### 🎨 创作与乐趣
 
