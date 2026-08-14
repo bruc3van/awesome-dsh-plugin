@@ -7,7 +7,8 @@
     "ZSeven-W/dsh-openpencil": "media-vision",
     "vlln/whale-girl": "ui-experience",
     "Nwflower/dsh-chat-import": "integrations-sharing",
-    "KinGao294/dsh-skin": "ui-experience"
+    "KinGao294/dsh-skin": "ui-experience",
+    "bpc-oss/dsh-web-billing": "ui-experience"
   },
   "scenarios": [
     {
@@ -79,6 +80,13 @@
       "repos": ["KinGao294/dsh-skin"],
       "why_zh": "内置多套 --dsw-alias-* 配色一键切换，半透明壁纸支持透明度与模糊调节（Codex 风格）。",
       "why_en": "One-click --dsw-alias-* palette switching plus a translucent wallpaper with opacity and blur controls (Codex-style)."
+    },
+    {
+      "goal_zh": "查看 Token 用量与费用",
+      "goal_en": "Track token usage and costs",
+      "repos": ["bpc-oss/dsh-web-billing"],
+      "why_zh": "按官方政策自动计价（含峰谷时段），逐条消息记账，显示账号余额；界面语言自动切换人民币/美元。",
+      "why_en": "Auto-bill per message with official pricing (incl. peak/off-peak hours), keep a persistent cost ledger, show the account balance, and switch ¥/$ with the UI language."
     }
   ],
   "starter_kits": [
