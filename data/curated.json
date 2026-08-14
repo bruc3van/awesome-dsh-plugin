@@ -739,10 +739,10 @@
     },
     {
       "repo": "yeruizhi/dsh-lark-meeting-notifier",
-      "title_zh": "dsh-lark-meeting-notifier — 飞书会议提醒",
-      "title_en": "dsh-lark-meeting-notifier — a Feishu meeting reminder",
-      "summary_zh": "在工作区右侧显示一个可展开/收起的悬浮框，列出今天/明天的飞书会议；多闹钟到点闪烁提醒、点击关闭提醒，避免埋头写代码时错过会议。",
-      "summary_en": "A right-side floating panel listing today's/tomorrow's Feishu meetings, with multi-alarm flashing reminders you can dismiss per meeting — so you never miss a meeting while coding.",
+      "title_zh": "dsh-lark-meeting-notifier — 只有副作用的飞书会议提醒",
+      "title_en": "dsh-lark-meeting-notifier — the meeting reminder with only side effects",
+      "summary_zh": "一个只有副作用的 dsh-plugin：在你跟 AI 聊得神魂颠倒时提醒你「不得不去跟碳基生命开会了」。右侧悬浮框显示今日/明日飞书会议，多闹钟闪烁、点击关闭。",
+      "summary_en": "A dsh-plugin whose only side effect is reminding you, mid-flow with AI, that you \"have to go meet carbon-based lifeforms\". A right-side floating panel lists today's/tomorrow's Feishu meetings with flashing alarms you can dismiss.",
       "labels_zh": [
         "飞书",
         "会议提醒",
