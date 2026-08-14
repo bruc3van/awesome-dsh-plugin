@@ -87,6 +87,13 @@
       "repos": ["bpc-oss/dsh-web-billing"],
       "why_zh": "按官方政策自动计价（含峰谷时段），逐条消息记账，显示账号余额；界面语言自动切换人民币/美元。",
       "why_en": "Auto-bill per message with official pricing (incl. peak/off-peak hours), keep a persistent cost ledger, show the account balance, and switch ¥/$ with the UI language."
+    },
+    {
+      "goal_zh": "让外部 Agent 驱动 Harness 执行任务",
+      "goal_en": "Drive Harness from an external agent",
+      "repos": ["chushixixin/dsh-harness-mcp-server"],
+      "why_zh": "在 Harness 内部启动 MCP server，让任意 MCP 客户端（如 Hermes）下发任务给 Harness 执行，实现「大脑 + 胳膊」协作。",
+      "why_en": "Runs an MCP server inside Harness so any MCP client (e.g. Hermes) can delegate coding tasks to Harness — a 'brain + arms' setup."
     }
   ],
   "starter_kits": [
