@@ -188,9 +188,9 @@
     {
       "goal_zh": "给 DSH 增加视觉理解能力",
       "goal_en": "Add visual understanding to DSH",
-      "repos": ["liustack/modlens", "Anionex/dsh-vision-toolkit", "ycp424c/dsh-luna-vision-bridge"],
-      "why_zh": "modlens 把图片转成 OCR/布局/语义结构化证据；dsh-vision-toolkit 覆盖图片问答、长截图 OCR、UI 还原与像素对比；纯文本模型也可经 Luna 转写桥接继续处理图片。",
-      "why_en": "modlens turns images into structured OCR/layout/semantics evidence; dsh-vision-toolkit covers image Q&A, long-screenshot OCR, UI restoration, and pixel diffs — or bridge pure-text models to image input via a Luna transcription adapter."
+      "repos": ["liustack/modlens", "Anionex/dsh-vision-toolkit", "ycp424c/dsh-luna-vision-bridge", "Flyvhidbwo/dsh-vision-proxy"],
+      "why_zh": "modlens 把图片转成 OCR/布局/语义结构化证据；dsh-vision-toolkit 覆盖图片问答、长截图 OCR、UI 还原与像素对比；纯文本模型也可经 Luna 转写桥接继续处理图片。dsh-vision-proxy 则保持 DeepSeek 大脑，把附加图片自动经任意 OpenAI 兼容 VLM 转译成文字（默认免费匿名端点，零配置）。",
+      "why_en": "modlens turns images into structured OCR/layout/semantics evidence; dsh-vision-toolkit covers image Q&A, long-screenshot OCR, UI restoration, and pixel diffs — or bridge pure-text models to image input via a Luna transcription adapter. dsh-vision-proxy keeps DeepSeek the brain and auto-transcribes attached images via any OpenAI-compatible VLM (free anonymous endpoint by default)."
     },
     {
       "goal_zh": "让 Agent 自己搜索网页和 X，答案带引用",
