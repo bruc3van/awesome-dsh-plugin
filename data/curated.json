@@ -165,6 +165,13 @@
       "why_en": "Jump between user-message nodes and attach Codex-style annotations."
     },
     {
+      "goal_zh": "通过 URL 直达、收藏或分享指定会话",
+      "goal_en": "Open, bookmark, or share a specific session by URL",
+      "repos": ["R3alloc/dsh-session-deeplink"],
+      "why_zh": "为 DSH Web 增加 /?session=<id> 深链接：切换会话时自动同步地址栏，打开链接即可恢复仍存在的目标会话，并保留其他查询参数和 fragment。",
+      "why_en": "Adds /?session=<id> deep links to DSH Web: the address bar follows the active session, reopening a link restores an existing target session, and unrelated query parameters and fragments are preserved."
+    },
+    {
       "goal_zh": "像 Codex 一样用 @ 引用工作区文件",
       "goal_en": "Reference workspace files with @ mentions",
       "repos": ["omdsh-dev/dsh-at-file"],
@@ -501,6 +508,15 @@
       "summary_en": "Auto-resumes turns that failed to network hiccups, timeouts, or host crashes by sending a queued \"继续\": error classification skips permanent failures, adaptive backoff spaces out retries, continue text supports templates, and browser notifications keep you informed — all configurable from the plugin settings card.",
       "labels_zh": ["自动续跑", "无人值守", "错误分类"],
       "labels_en": ["auto-resume", "unattended", "error classification"]
+    },
+    {
+      "repo": "R3alloc/dsh-session-deeplink",
+      "title_zh": "dsh-session-deeplink — 让每个会话都有可复用链接",
+      "title_en": "dsh-session-deeplink — give every session a reusable URL",
+      "summary_zh": "为 DSH Web 补上稳定的会话深链接：当前会话自动写入 /?session=<id>，链接可复制、收藏或在刷新后恢复；纯浏览器端实现，不增加 host 服务，并保留 URL 中其他查询参数和 fragment。",
+      "summary_en": "Adds stable session deep links to DSH Web: the active session is reflected in /?session=<id>, so its URL can be copied, bookmarked, or restored after a refresh. Runs entirely in the browser with no host service and preserves unrelated query parameters and fragments.",
+      "labels_zh": ["会话深链接", "可收藏", "纯浏览器端"],
+      "labels_en": ["session deep links", "bookmarkable", "browser-only"]
     }
   ]
 }
