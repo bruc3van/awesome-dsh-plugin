@@ -152,6 +152,7 @@ mindmap
 - **[dsh-navbar](https://github.com/vlln/dsh-navbar)**（⭐ 15）— 长对话里快速跳转到任意用户消息节点。 `长对话` `导航`
 - **[dsh-task-status](https://github.com/vlln/dsh-task-status)**（⭐ 7）— 把后台任务进度和实时输出 tail 放回对话页面，尤其适合构建、下载、测试等长时间命令。 `后台任务` `实时输出` `可观察性`
 - **[dsh-notification](https://github.com/omdsh-dev/dsh-notification)**（⭐ 38）— 回合完成后发送桌面通知，按成功/失败等结果分别控制，支持关键词包含/排除规则。 `桌面通知` `无人值守` `关键词规则`
+- **[dsh-outline](https://github.com/urzeye/dsh-outline)**（⭐ 3）— 会话页实时大纲面板：用户问题与 Markdown 标题（1~6 级）组成大纲树，流式生成时实时更新，点击节点定位并高亮，支持展开深度调节、搜索与会话级收藏。 `大纲` `导航` `Web UI`
 
 ### 🎨 创作与乐趣
 
@@ -200,7 +201,7 @@ mindmap
 
 ## 📣 作者自荐
 
-插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 15 条，区满后先进先出；条目若被编辑精选收录，会从本区移除。
+插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 30 条，区满后先进先出；条目若被编辑精选收录，会从本区移除。
 
 - **[dsh-skin-amis](https://github.com/wanzhiwei5/dsh-skin-amis)**（[@wanzhiwei5](https://github.com/wanzhiwei5) · 2026-08-14）— 以鸣潮角色「爱弥斯」为灵感的粉白主题皮肤：樱花粉渐变、赛博霓虹深色模式、内置角色背景图与半透明毛玻璃面板，浅深双主题一键切换。
 - **[dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub)**（[@Noob-stupid](https://github.com/Noob-stupid) · 2026-08-14）— 插件管理面板：已安装插件一键启用/停用，内置 GitHub `dsh-plugin` 插件市场，支持查看插件详情与一键安装。
@@ -211,8 +212,23 @@ mindmap
 - **[dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier)**（[@yeruizhi](https://github.com/yeruizhi) · 2026-08-14）— 飞书会议提醒悬浮框：展示今日/明日会议、多闹钟闪烁提醒，在你跟 AI 聊得忘我时提醒「该去跟碳基生命开会了」。
 - **[dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill)**（[@dhicoc](https://github.com/dhicoc) · 2026-08-14）— 85 个 SKILL.md 组成的逆向工程、授权渗透测试与安全研究技能包，安装后按任务自动路由对应技能。
 - **[dsh-vision-router](https://github.com/ysr666/dsh-vision-router)**（[@ysr666](https://github.com/ysr666) · 2026-08-14）— 给纯文本 DSH Agent 装上眼睛：内置免 key 视觉链路（匿名端点）+ 像素级工具集（问答/定位/裁剪/像素对比/取色/OCR/SVG 描摹/抠图/截图），无需 Python，一条命令安装，图片回合像普通工具调用回合一样工作。注意：默认匿名端点会把图片发往第三方，介意隐私请自行配置端点。
+- **[dsh-web-open](https://github.com/dawsondx/dsh-web-open)**（[@dawsondx](https://github.com/dawsondx) · 2026-08-14）— `dsh web` 冷启动（实测本机约 25 秒）期间零手动操作：服务一就绪，完整链接自动打印、浏览器自动打开直达 GUI，不用盯终端、不用复制 URL；跨平台、零运行时依赖、故障安全。
+- **[dsh-rigorquant](https://github.com/linxichen/dsh-rigorquant)**（[@linxichen](https://github.com/linxichen) · 2026-08-14）— 无人值守实证/计算数学研究框架：隔离多智能体探索 + 双轨真值推导 + 仅反例淘汰的对抗审计；实现前跑四重校验（闭式解相等、精确不变量、解析界、统计强化），固定种子大数定律约定，jacobian/Lean 升级通道处理证明关键断言。
+- **[dsh-plugins](https://github.com/Ceelog/dsh-plugins)**（[@Ceelog](https://github.com/Ceelog) · 2026-08-15）— 两款 DSH Web 插件：按项目定时运行提示词并保留持久化历史；在设置面板中添加、编辑、删除和启停 MCP 服务器，保存后热重载。
+- **[dsh-theme-plugin](https://github.com/BeiZi6/dsh-theme-plugin)**（[@BeiZi6](https://github.com/BeiZi6) · 2026-08-15）— DSH Web GUI 主题工作室：5 套内置预设（codex-warm / nord / solarized / graphite / stock）+ 完全可自定义的浅/深配色（强调色、背景、前景、UI 与代码字体、半透明侧栏、对比度），经官方主题接口即时热切换并持久化到 localStorage，纯官方接缝、无补丁文件。
+- **[dsh-opencodego-usage](https://github.com/BeiZi6/dsh-opencodego-usage)**（[@BeiZi6](https://github.com/BeiZi6) · 2026-08-15）— OpenCodeGo 剩余额度监视器：输入框右下角呼吸指示灯（按剩余额度绿/黄/红），液态玻璃面板显示滚动/周/月用量窗口与重置时间，每 30 秒自动刷新，API Key 自动读取 DSH 凭据（仅限 opencode-go 提供商），也可手动覆盖。
+- **[dsh-git-status](https://github.com/Wongzexu/dsh-git-status)**（[@Wongzexu](https://github.com/Wongzexu) · 2026-08-15）— **专精于 Git 分支与状态处理**的 DSH 插件：Web 右缘 Git 状态浮窗，commit DAG 泳道图 + 未提交改动/stash 虚拟行 + 行内详情 diff，右键分支/tag 一键切换、合并、重命名、删除、新建，头部一键拉取全部远程，日常 Git 操作无需离开聊天界面。
+- **[dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— Claude Code 风格的声明式权限规则：在 tools/pre-execute 瀑布上按序匹配 allow/deny/ask YAML 规则（工具名、参数、工作区路径、agent 身份），带完整会话日志审计、干跑模式与热重载，可与 dsh-auto-review 组成「规则先行、AI 兜底」闭环。
+- **[dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 官方 MCP 客户端（dsh-mcp-client）的只读运行时管理面板：/mcp 命令与设置页 MCP 页签展示连接状态、已注册工具、错误与重连计数，附连通性探测与受控启停 patch 建议；脱敏展示，绝不改写配置。
+- **[dsh-memento](https://github.com/PerryLink/dsh-memento)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 有界、分层、带审批门、可审计的跨会话记忆：类型化 `ctx.memory` 服务 + 零依赖 SQLite Provider + `memory` 工具与冻结快照注入；写必过审批门、模型可见 ⟺ 可自会话日志重建。
+- **[dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— DSH 的 Claude Code /rewind 等价能力：每次变更型工具执行前捕获 git 优先的工作区快照，轮次边界 fork 会话，一条 /rewind 命令恢复文件并把会话回退到检查点；附 preview 只读预览与保护检查点，回退本身可撤销。
+- **[dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 工程纪律插件：动笔前审讯需求、红绿测试证据门、交付后对抗评审，并汇总交付报告与逐维度核对；/doublecheck 会话命令，en/zh 双语。
+- **[mirage-dsh](https://github.com/strukto-ai/mirage)**（[@zechengz](https://github.com/zechengz) · 2026-08-15）— 把 DSH 的文件系统与 bash 提供者换成 mirage 虚拟工作区：文件工具与 shell 命令作用于挂载的资源（RAM、S3、Redis、Slack、Gmail、Notion、Postgres）而非宿主磁盘，支持按挂载点设置读/写/执行模式、按命令选择沙箱（进程内 monty、pyodide、quickjs；远程 docker、e2b、daytona），并可在虚拟终端中安装 CLI（git、gh、slack、linear、ntn、gws，或自行注册的程序树）作为命令头词。npm 包名 `@struktoai/mirage-dsh`，插件源码在 [typescript/packages/dsh](https://github.com/strukto-ai/mirage/tree/main/typescript/packages/dsh)。
+- **[dsh-output-styles](https://github.com/PerryLink/dsh-output-styles)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 对标 Claude Code outputStyles 的运行时输出风格切换：/style 命令即时生效、按会话持久化、六个内置风格 + 自定义 Markdown/JSON 风格库与热重载，附 Web 选择器与五语文档。
+- **[dsh-composer-history](https://github.com/PerryLink/dsh-composer-history)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 作曲器终端风格输入历史：边缘优先方向键召回并精确还原草稿与光标、浏览器本地持久化历史、Ctrl+R 反向搜索与滑动上下文感知；适合每天都在 Web 输入框写提示词的 dsh 用户。
 - **[dsh-config-sync](https://github.com/muyifc/dsh-config-sync)**（[@muyifc](https://github.com/muyifc) · 2026-08-15）— DSH 配置备份与迁移：一键导出/恢复 API 设置、凭据、profile 插件补丁与用户 agent presets；支持口令加密单文件（.dshsync，AES-256-GCM + PBKDF2），导入前先预览、覆盖前自动备份，密钥内容永不进入对话。
 
+- **[dsh-tray](https://github.com/KAIbsb/dsh-tray)**（[@KAIbsb](https://github.com/KAIbsb) · 2026-08-15）— Windows 托盘管家:一键启动/重启/停止 DSH Web、崩溃自动拉起、状态鲸鱼图标与开机自启,配合浏览器 APP 模式窗口更顺手。
 ## 🔍 我们如何维护这个列表
 
 - **面向使用者，而不是爬虫：** 从「我想完成什么」出发组织首页，而不是让你阅读几百行仓库名称。
