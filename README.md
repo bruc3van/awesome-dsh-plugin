@@ -119,6 +119,8 @@ mindmap
 ### 🛠️ 开发与工作流
 
 - **想把现有业务代码转成 Agent 可调用能力**：[Code2Skill](https://github.com/leechen298/Code2Skill) —— 从用户授权的前端、后端或全栈源码生成 Function、MCP Tools、业务 Skills 和离线测试，并可作为 DSH Bundle 安装。
+- **想拦截并审计 agent 的所有工具调用，命中敏感操作先人工确认**：[cdxiaodong/dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) —— Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。
+- **想统一检查 LLM 请求/响应、调 reasoning effort、导出外部思考**：[cdxiaodong/dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) —— 统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。
 
 ### 🔀 迁移与集成
 
