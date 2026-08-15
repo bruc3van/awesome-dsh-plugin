@@ -211,6 +211,7 @@ mindmap
 - **[dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier)**（[@yeruizhi](https://github.com/yeruizhi) · 2026-08-14）— 飞书会议提醒悬浮框：展示今日/明日会议、多闹钟闪烁提醒，在你跟 AI 聊得忘我时提醒「该去跟碳基生命开会了」。
 - **[dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill)**（[@dhicoc](https://github.com/dhicoc) · 2026-08-14）— 85 个 SKILL.md 组成的逆向工程、授权渗透测试与安全研究技能包，安装后按任务自动路由对应技能。
 - **[dsh-vision-router](https://github.com/ysr666/dsh-vision-router)**（[@ysr666](https://github.com/ysr666) · 2026-08-14）— 给纯文本 DSH Agent 装上眼睛：内置免 key 视觉链路（匿名端点）+ 像素级工具集（问答/定位/裁剪/像素对比/取色/OCR/SVG 描摹/抠图/截图），无需 Python，一条命令安装，图片回合像普通工具调用回合一样工作。注意：默认匿名端点会把图片发往第三方，介意隐私请自行配置端点。
+- **[dsh-lark-link](https://github.com/amlyczz/dsh-lark-link)**（[@amlyczz](https://github.com/amlyczz) · 2026-08-15）— High-reliability Feishu/Lark 双向桥接：扫码 30 秒上线、CardKit 流式卡片、at-least-once 零丢失出站队列、每飞书会话独立 DSH Agent、自愈长连接，媒体收发 + 会话日志 /doctor 归档，并复用官方 DSH Web GUI。
 
 ## 🔍 我们如何维护这个列表
 
