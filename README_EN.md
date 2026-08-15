@@ -201,7 +201,7 @@ Manually screened recent projects, updated from time to time:
 
 ## 📣 Author showcase
 
-Self-submitted recommendations from plugin authors, following the [contributing rules](./CONTRIBUTING.md#作者自荐--self-promotion). **These entries are not editorially reviewed and carry no quality or security endorsement** — evaluate them yourself before installing (see Usage & safety below). At most 15 entries are kept — first in, first out; entries promoted to Editor's picks are removed from this section.
+Self-submitted recommendations from plugin authors, following the [contributing rules](./CONTRIBUTING.md#作者自荐--self-promotion). **These entries are not editorially reviewed and carry no quality or security endorsement** — evaluate them yourself before installing (see Usage & safety below). At most 30 entries are kept — first in, first out; entries promoted to Editor's picks are removed from this section.
 
 - **[dsh-skin-amis](https://github.com/wanzhiwei5/dsh-skin-amis)** ([@wanzhiwei5](https://github.com/wanzhiwei5) · 2026-08-14) — A Wuthering Waves Amis-inspired pink-white skin: sakura gradients, a cyber-neon dark mode, a bundled character wallpaper and translucent glass panels, with one-click light/dark switching.
 - **[dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub)** ([@Noob-stupid](https://github.com/Noob-stupid) · 2026-08-14) — Plugin manager panel: one-click enable/disable for installed plugins, plus a GitHub `dsh-plugin` marketplace with plugin details and one-click installs.
@@ -212,6 +212,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **[dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier)** ([@yeruizhi](https://github.com/yeruizhi) · 2026-08-14) — A Feishu/Lark meeting-reminder panel: today's and tomorrow's meetings with flashing alarms, nudging you when it's time to "go meet carbon-based lifeforms".
 - **[dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill)** ([@dhicoc](https://github.com/dhicoc) · 2026-08-14) — A pack of 85 SKILL.md files covering reverse engineering, authorized pentesting, and security research, routed on demand.
 - **[dsh-vision-router](https://github.com/ysr666/dsh-vision-router)** ([@ysr666](https://github.com/ysr666) · 2026-08-14) — Eyes for text-only DSH agents: a built-in keyless vision chain plus pixel-level tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots) — no Python, one-command install, and image turns behave like ordinary tool-calling turns. Note: the default anonymous endpoint sends images to a third party — configure your own endpoint if that matters to you.
+- **[dsh-web-open](https://github.com/dawsondx/dsh-web-open)** ([@dawsondx](https://github.com/dawsondx) · 2026-08-14) — Zero manual steps during a cold `dsh web` boot (~25s measured on this machine): the moment the server is ready, the full URL is printed and the browser opens straight to the GUI — no watching the terminal, no copy-paste; cross-platform, zero runtime dependencies, fail-safe.
 
 ## 🔍 How this list is maintained
 

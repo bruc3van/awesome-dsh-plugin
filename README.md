@@ -201,7 +201,7 @@ mindmap
 
 ## 📣 作者自荐
 
-插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 15 条，区满后先进先出；条目若被编辑精选收录，会从本区移除。
+插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 30 条，区满后先进先出；条目若被编辑精选收录，会从本区移除。
 
 - **[dsh-skin-amis](https://github.com/wanzhiwei5/dsh-skin-amis)**（[@wanzhiwei5](https://github.com/wanzhiwei5) · 2026-08-14）— 以鸣潮角色「爱弥斯」为灵感的粉白主题皮肤：樱花粉渐变、赛博霓虹深色模式、内置角色背景图与半透明毛玻璃面板，浅深双主题一键切换。
 - **[dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub)**（[@Noob-stupid](https://github.com/Noob-stupid) · 2026-08-14）— 插件管理面板：已安装插件一键启用/停用，内置 GitHub `dsh-plugin` 插件市场，支持查看插件详情与一键安装。
@@ -212,6 +212,7 @@ mindmap
 - **[dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier)**（[@yeruizhi](https://github.com/yeruizhi) · 2026-08-14）— 飞书会议提醒悬浮框：展示今日/明日会议、多闹钟闪烁提醒，在你跟 AI 聊得忘我时提醒「该去跟碳基生命开会了」。
 - **[dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill)**（[@dhicoc](https://github.com/dhicoc) · 2026-08-14）— 85 个 SKILL.md 组成的逆向工程、授权渗透测试与安全研究技能包，安装后按任务自动路由对应技能。
 - **[dsh-vision-router](https://github.com/ysr666/dsh-vision-router)**（[@ysr666](https://github.com/ysr666) · 2026-08-14）— 给纯文本 DSH Agent 装上眼睛：内置免 key 视觉链路（匿名端点）+ 像素级工具集（问答/定位/裁剪/像素对比/取色/OCR/SVG 描摹/抠图/截图），无需 Python，一条命令安装，图片回合像普通工具调用回合一样工作。注意：默认匿名端点会把图片发往第三方，介意隐私请自行配置端点。
+- **[dsh-web-open](https://github.com/dawsondx/dsh-web-open)**（[@dawsondx](https://github.com/dawsondx) · 2026-08-14）— `dsh web` 冷启动（实测本机约 25 秒）期间零手动操作：服务一就绪，完整链接自动打印、浏览器自动打开直达 GUI，不用盯终端、不用复制 URL；跨平台、零运行时依赖、故障安全。
 
 ## 🔍 我们如何维护这个列表
 
