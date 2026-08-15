@@ -27,7 +27,7 @@ const errors = [];
 const validCategories = new Set(categoryKeys);
 const ownerRepoPattern = /^[\w.-]+\/[\w.-]+$/;
 
-const showcaseCap = 15;
+const showcaseCap = 30;
 const showcaseEntryPattern =
   /^-\s+\*\*\[[^\]]+\]\(https:\/\/github\.com\/([\w.-]+\/[\w.-]+)\)\*\*\s*[（(]\[@[\w.-]+\]\(https:\/\/github\.com\/[\w.-]+\)\s*·\s*(\d{4}-\d{2}-\d{2})[)）]\s*[—-]\s*\S/;
 
