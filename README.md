@@ -197,7 +197,6 @@ mindmap
 
 插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 30 条，区满后先进先出；条目若被上方[精选推荐](#-精选推荐)收录，会从本区移除、不占名额。首页只展示**最近 10 条**，完整列表见 [SHOWCASE.md](./SHOWCASE.md)。
 
-- **[mirage-dsh](https://github.com/strukto-ai/mirage)**（[@zechengz](https://github.com/zechengz) · 2026-08-15）— 把 DSH 的文件系统与 bash 提供者换成 mirage 虚拟工作区：文件工具与 shell 命令作用于挂载的资源（RAM、S3、Redis、Slack、Gmail、Notion、Postgres）而非宿主磁盘，支持按挂载点设置读/写/执行模式、按命令选择沙箱（进程内 monty、pyodide、quickjs；远程 docker、e2b、daytona），并可在虚拟终端中安装 CLI（git、gh、slack、linear、ntn、gws，或自行注册的程序树）作为命令头词。npm 包名 `@struktoai/mirage-dsh`，插件源码在 [typescript/packages/dsh](https://github.com/strukto-ai/mirage/tree/main/typescript/packages/dsh)。
 - **[dsh-output-styles](https://github.com/PerryLink/dsh-output-styles)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 对标 Claude Code outputStyles 的运行时输出风格切换：/style 命令即时生效、按会话持久化、六个内置风格 + 自定义 Markdown/JSON 风格库与热重载，附 Web 选择器与五语文档。
 - **[dsh-composer-history](https://github.com/PerryLink/dsh-composer-history)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 作曲器终端风格输入历史：边缘优先方向键召回并精确还原草稿与光标、浏览器本地持久化历史、Ctrl+R 反向搜索与滑动上下文感知；适合每天都在 Web 输入框写提示词的 dsh 用户。
 - **[dsh-config-sync](https://github.com/muyifc/dsh-config-sync)**（[@muyifc](https://github.com/muyifc) · 2026-08-15）— DSH 配置备份与迁移：一键导出/恢复 API 设置、凭据、profile 插件补丁与用户 agent presets；支持口令加密单文件（.dshsync，AES-256-GCM + PBKDF2），导入前先预览、覆盖前自动备份，密钥内容永不进入对话。
@@ -207,6 +206,7 @@ mindmap
 - **[dsh-auto-review](https://github.com/PerryLink/dsh-auto-review)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 审批链上的第二模型 AI 自动审查：只读审查子代理返回带理由与风险等级的 allow/deny 结构化裁决，fail-closed 兜底，全量会话日志可审计；/auto-review 命令 + Web 审查面板，npm 可装，可与 dsh-permission-rules 组成「规则先行、AI 兜底」闭环。
 - **[dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— DeepSeek Harness 的 LSP 动作面：诊断、格式化、补全、代码动作、符号、签名提示、inlay 提示与重命名 8 个工具，由真实语言服务器驱动；写入走 write-intent 与沙箱策略，其余只读。
 - **[dsh-doc-share](https://github.com/dawsondx/dsh-doc-share)**（[@dawsondx](https://github.com/dawsondx) · 2026-08-15）— 把 DSH 对话重排成带封面、摘要统计与章节排版的正式报告：轮次选择弹窗（搜索/全选/加载更早历史）、单轮快捷分享、兼容 gen-UI 富组件，一次生成 PNG / 单 HTML / PDF / Markdown 四种格式。
+- **[dsh-movein](https://github.com/sjh9714/dsh-movein)**（[@sjh9714](https://github.com/sjh9714) · 2026-08-16）— 把整套 Claude Code 配置一条命令搬进 DSH：技能、MCP、hooks、子代理、权限规则（deny/ask 桥接 + 迁移差异报告），默认 dry run 先出搬家清单；v0.4 起 `--reverse` 把 DSH 里长出来的技能搬回去，双栖不二选。
 
 [查看全部 30 条自荐 →](./SHOWCASE.md)
 
