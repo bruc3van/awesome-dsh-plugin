@@ -99,7 +99,6 @@ mindmap
 | 回退对话与工作区状态 | [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) | 基于持久化 Change Ledger 回退到任意早期回合，对话与代码状态一起恢复。 |
 | 给工作区增加一个陪伴型宠物 | [whale-girl](https://github.com/vlln/whale-girl) | 可拖拽、投喂和玩耍的积累型鲸鱼娘桌面伙伴。 |
 | 把其他工具的历史会话搬进 DSH | [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) | 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话，并支持反向导出/同步回 Claude Code。 |
-| 从 Claude 项目迁移配置到 DSH（skills/rules/MCP 自动识别） | [dsh-claude-migrator](https://www.npmjs.com/package/dsh-claude-migrator) | 用户主目录（~/.agents/skills、~/.claude/skills）与项目根（.claude/、.mcp.json）的 Claude 配置零拖动自动识别；skill 按工作区隔离唤醒（provider 机制），MCP 动态注册真实连接（密钥 ${VAR} 环境变量展开 + 自动重连）；内置可折叠看板（全局/项目来源徽标、连接状态、点击工作区自动切换、主题自适应）。 |
 | 换皮肤、自定义背景 | [dsh-skin](https://github.com/KinGao294/dsh-skin) · [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | dsh-skin 一键切换多套 --dsw-alias-* 配色并支持半透明壁纸（Codex 风格）；dsh-deep-whale 是生态内最受欢迎的鲸鱼娘皮肤系列（CC BY-NC-SA，不可商用）。 |
 | 查看 Token 用量与费用 | [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) · [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) | 按官方政策自动计价（含峰谷时段），逐条消息记账，显示账号余额；界面语言自动切换人民币/美元。 |
 | 让外部 Agent 驱动 Harness 执行任务 | [dsh-harness-mcp-server](https://github.com/chushixixin/dsh-harness-mcp-server) | 在 Harness 内部启动 MCP server，让任意 MCP 客户端（如 Hermes）下发任务给 Harness 执行，实现「大脑 + 胳膊」协作。 |
