@@ -211,6 +211,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **[dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier)** ([@yeruizhi](https://github.com/yeruizhi) · 2026-08-14) — A Feishu/Lark meeting-reminder panel: today's and tomorrow's meetings with flashing alarms, nudging you when it's time to "go meet carbon-based lifeforms".
 - **[dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill)** ([@dhicoc](https://github.com/dhicoc) · 2026-08-14) — A pack of 85 SKILL.md files covering reverse engineering, authorized pentesting, and security research, routed on demand.
 - **[dsh-vision-router](https://github.com/ysr666/dsh-vision-router)** ([@ysr666](https://github.com/ysr666) · 2026-08-14) — Eyes for text-only DSH agents: a built-in keyless vision chain plus pixel-level tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots) — no Python, one-command install, and image turns behave like ordinary tool-calling turns. Note: the default anonymous endpoint sends images to a third party — configure your own endpoint if that matters to you.
+- **[dsh-plugins](https://github.com/Ceelog/dsh-plugins)** ([@Ceelog](https://github.com/Ceelog) · 2026-08-15) — Two DSH Web plugins: run per-project prompts on schedules with durable history; add, edit, remove and enable or disable MCP servers from Settings, with hot reload on save.
 
 ## 🔍 How this list is maintained
 
