@@ -99,6 +99,7 @@ mindmap
 | 回退对话与工作区状态 | [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) | 基于持久化 Change Ledger 回退到任意早期回合，对话与代码状态一起恢复。 |
 | 给工作区增加一个陪伴型宠物 | [whale-girl](https://github.com/vlln/whale-girl) | 可拖拽、投喂和玩耍的积累型鲸鱼娘桌面伙伴。 |
 | 把其他工具的历史会话搬进 DSH | [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) | 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话，并支持反向导出/同步回 Claude Code。 |
+| 从 Claude 项目迁移配置到 DSH（skills/rules/MCP 拖入即用） | [dsh-claude-migrator](https://www.npmjs.com/package/dsh-claude-migrator) | 把 .claude/skills、.claude/rules、.mcp.json、CLAUDE.md 拖进插件 import/ 目录即自动加载为 DSH 能力，内置 skills/rules/MCP 连接状态看板（浅色/深色主题自适应），一条命令安装。 |
 | 换皮肤、自定义背景 | [dsh-skin](https://github.com/KinGao294/dsh-skin) · [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | dsh-skin 一键切换多套 --dsw-alias-* 配色并支持半透明壁纸（Codex 风格）；dsh-deep-whale 是生态内最受欢迎的鲸鱼娘皮肤系列（CC BY-NC-SA，不可商用）。 |
 | 查看 Token 用量与费用 | [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) · [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) | 按官方政策自动计价（含峰谷时段），逐条消息记账，显示账号余额；界面语言自动切换人民币/美元。 |
 | 让外部 Agent 驱动 Harness 执行任务 | [dsh-harness-mcp-server](https://github.com/chushixixin/dsh-harness-mcp-server) | 在 Harness 内部启动 MCP server，让任意 MCP 客户端（如 Hermes）下发任务给 Harness 执行，实现「大脑 + 胳膊」协作。 |
@@ -211,6 +212,7 @@ mindmap
 - **[dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier)**（[@yeruizhi](https://github.com/yeruizhi) · 2026-08-14）— 飞书会议提醒悬浮框：展示今日/明日会议、多闹钟闪烁提醒，在你跟 AI 聊得忘我时提醒「该去跟碳基生命开会了」。
 - **[dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill)**（[@dhicoc](https://github.com/dhicoc) · 2026-08-14）— 85 个 SKILL.md 组成的逆向工程、授权渗透测试与安全研究技能包，安装后按任务自动路由对应技能。
 - **[dsh-vision-router](https://github.com/ysr666/dsh-vision-router)**（[@ysr666](https://github.com/ysr666) · 2026-08-14）— 给纯文本 DSH Agent 装上眼睛：内置免 key 视觉链路（匿名端点）+ 像素级工具集（问答/定位/裁剪/像素对比/取色/OCR/SVG 描摹/抠图/截图），无需 Python，一条命令安装，图片回合像普通工具调用回合一样工作。注意：默认匿名端点会把图片发往第三方，介意隐私请自行配置端点。
+- **[dsh-claude-migrator](https://github.com/huanghouchun/dsh-claude-migrator)**（[@huanghouchun](https://github.com/huanghouchun) · 2026-08-15）— Claude → DSH 配置迁移插件：把 .claude/skills、.claude/rules、.mcp.json、CLAUDE.md 拖进插件 import/ 目录即自动加载，rules 自动转 skill（whenToUse 保留 paths 路径语义），MCP 密钥走环境变量占位符；内置完整看板（Skills / Rules / MCP 服务器 / 连接状态，已连接绿色标签，主题自适应）。npm 安装：dsh plugin --profile web add dsh-claude-migrator。
 
 ## 🔍 我们如何维护这个列表
 
