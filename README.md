@@ -211,7 +211,6 @@ mindmap
 - **[dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier)**（[@yeruizhi](https://github.com/yeruizhi) · 2026-08-14）— 飞书会议提醒悬浮框：展示今日/明日会议、多闹钟闪烁提醒，在你跟 AI 聊得忘我时提醒「该去跟碳基生命开会了」。
 - **[dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill)**（[@dhicoc](https://github.com/dhicoc) · 2026-08-14）— 85 个 SKILL.md 组成的逆向工程、授权渗透测试与安全研究技能包，安装后按任务自动路由对应技能。
 - **[dsh-vision-router](https://github.com/ysr666/dsh-vision-router)**（[@ysr666](https://github.com/ysr666) · 2026-08-14）— 给纯文本 DSH Agent 装上眼睛：内置免 key 视觉链路（匿名端点）+ 像素级工具集（问答/定位/裁剪/像素对比/取色/OCR/SVG 描摹/抠图/截图），无需 Python，一条命令安装，图片回合像普通工具调用回合一样工作。注意：默认匿名端点会把图片发往第三方，介意隐私请自行配置端点。
-- **[dsh-claude-migrator](https://github.com/huanghouchun/dsh-claude-migrator)**（[@huanghouchun](https://github.com/huanghouchun) · 2026-08-15）— Claude → DSH 配置迁移插件（v0.2.0）：用户主目录与项目根的 Claude 配置（.claude/skills、.claude/rules、.mcp.json、CLAUDE.md）零拖动自动识别；skill 走 provider 机制按工作区隔离唤醒（.claude/skills 项目级可正常使用，互不串扰），rules 自动转 skill（whenToUse 保留 paths 路径语义）；MCP 动态注册真实连接（密钥 ${VAR} 环境变量展开 + 自动重连）；内置可折叠看板（全局/项目来源徽标、连接状态、点击工作区自动切换、主题自适应）。npm 安装：dsh plugin --profile web add dsh-claude-migrator。
 
 ## 🔍 我们如何维护这个列表
 
