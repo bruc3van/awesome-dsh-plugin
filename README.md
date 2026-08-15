@@ -211,6 +211,7 @@ mindmap
 - **[dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier)**（[@yeruizhi](https://github.com/yeruizhi) · 2026-08-14）— 飞书会议提醒悬浮框：展示今日/明日会议、多闹钟闪烁提醒，在你跟 AI 聊得忘我时提醒「该去跟碳基生命开会了」。
 - **[dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill)**（[@dhicoc](https://github.com/dhicoc) · 2026-08-14）— 85 个 SKILL.md 组成的逆向工程、授权渗透测试与安全研究技能包，安装后按任务自动路由对应技能。
 - **[dsh-vision-router](https://github.com/ysr666/dsh-vision-router)**（[@ysr666](https://github.com/ysr666) · 2026-08-14）— 给纯文本 DSH Agent 装上眼睛：内置免 key 视觉链路（匿名端点）+ 像素级工具集（问答/定位/裁剪/像素对比/取色/OCR/SVG 描摹/抠图/截图），无需 Python，一条命令安装，图片回合像普通工具调用回合一样工作。注意：默认匿名端点会把图片发往第三方，介意隐私请自行配置端点。
+- **[mirage-dsh](https://github.com/strukto-ai/mirage)**（[@zechengz](https://github.com/zechengz) · 2026-08-15）— 把 DSH 的文件系统与 bash 提供者换成 mirage 虚拟工作区：文件工具与 shell 命令作用于挂载的资源（RAM、S3、Redis、Slack、Gmail、Notion、Postgres）而非宿主磁盘，支持按挂载点设置读/写/执行模式、按命令选择沙箱（进程内 monty、pyodide、quickjs；远程 docker、e2b、daytona），并可在虚拟终端中安装 CLI（git、gh、slack、linear、ntn、gws，或自行注册的程序树）作为命令头词。npm 包名 `@struktoai/mirage-dsh`，插件源码在 [typescript/packages/dsh](https://github.com/strukto-ai/mirage/tree/main/typescript/packages/dsh)。
 
 ## 🔍 我们如何维护这个列表
 
