@@ -195,9 +195,9 @@ mindmap
 
 ## 📣 作者自荐
 
+
 插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 30 条，区满后先进先出；条目若被上方[精选推荐](#-精选推荐)收录，会从本区移除、不占名额。首页只展示**最近 10 条**，完整列表见 [SHOWCASE.md](./SHOWCASE.md)。
 
-- **[dsh-lark-link](https://github.com/amlyczz/dsh-lark-link)**（[@amlyczz](https://github.com/amlyczz) · 2026-08-15）— High-reliability Feishu/Lark 双向桥接：扫码 30 秒上线、CardKit 流式卡片、at-least-once 零丢失出站队列、每飞书会话独立 DSH Agent、自愈长连接，媒体收发 + 会话日志 /doctor 归档，并复用官方 DSH Web GUI。
 - **[dsh-tray](https://github.com/KAIbsb/dsh-tray)**（[@KAIbsb](https://github.com/KAIbsb) · 2026-08-15）— Windows 托盘管家:一键启动/重启/停止 DSH Web、崩溃自动拉起、状态鲸鱼图标与开机自启,配合浏览器 APP 模式窗口更顺手。
 - **[dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— DSH 插件开发知识库：官方约束、任务工作流、API 参考与社区踩坑，作为按需加载的智能体技能随 bundle 安装，开发插件时让 DSH 自己查。
 - **[dsh-auto-review](https://github.com/PerryLink/dsh-auto-review)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 审批链上的第二模型 AI 自动审查：只读审查子代理返回带理由与风险等级的 allow/deny 结构化裁决，fail-closed 兜底，全量会话日志可审计；/auto-review 命令 + Web 审查面板，npm 可装，可与 dsh-permission-rules 组成「规则先行、AI 兜底」闭环。
@@ -207,6 +207,7 @@ mindmap
 - **[dsh-abyss](https://github.com/Zongwei9888/dsh-abyss)**（[@Zongwei9888](https://github.com/Zongwei9888) · 2026-08-15）— 深海事务所：把一次多 agent 运行画成看得见的事务所。每个 agent 一张卡片（厂商 / 模型 / 委派层级 / 令牌与花费 / 上下文水位），派活、私聊、汇报按会话日志原文实时演出；另有整棵会话树的成本与失败统计、考勤泳道、委派谱系，以及从 durable 日志回放任意历史案子并一键导出 Markdown 复盘。零运行时依赖，不改 dsh 代码，数据挂在产品同源的 `/abyss` 下。
 - **[dsh-mcp-lens](https://github.com/labmimors/dsh-mcp-lens)**（[@labmimors](https://github.com/labmimors) · 2026-08-15）— 把大型 MCP 工具目录保持为 `mcp_search` 和 `mcp_call` 两个模型可见接口，按需返回少量精确 schema，再以 `allowTools` / `denyTools` 同时约束搜索和调用；适合接入几十到上千个 MCP 工具的 DSH 用户，并附本地 schema 字节计算器与 CI 预算 Action。
 - **[dsh-movein](https://github.com/sjh9714/dsh-movein)**（[@sjh9714](https://github.com/sjh9714) · 2026-08-16）— 把整套 Claude Code 配置一条命令搬进 DSH：技能、MCP、hooks、子代理、权限规则（deny/ask 桥接 + 迁移差异报告），默认 dry run 先出搬家清单；v0.4 起 `--reverse` 把 DSH 里长出来的技能搬回去，双栖不二选。
+- **[dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin)**（[@Zhangbo-cn](https://github.com/Zhangbo-cn) · 2026-08-16）— 输入框麦克风：点击持续监控、按住对话；浏览器语音识别逐字上屏，回复由 host Edge TTS 边生成边朗读，朗读时暂停识别防回声，点击可停止。
 
 [查看全部 30 条自荐 →](./SHOWCASE.md)
 
