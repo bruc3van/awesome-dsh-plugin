@@ -39,6 +39,8 @@ The complete Author showcase list: self-submitted recommendations from plugin au
 - **[dsh-mcp-lens](https://github.com/labmimors/dsh-mcp-lens)**（[@labmimors](https://github.com/labmimors) · 2026-08-15）— 把大型 MCP 工具目录保持为 `mcp_search` 和 `mcp_call` 两个模型可见接口，按需返回少量精确 schema，再以 `allowTools` / `denyTools` 同时约束搜索和调用；适合接入几十到上千个 MCP 工具的 DSH 用户，并附本地 schema 字节计算器与 CI 预算 Action。
 - **[dsh-movein](https://github.com/sjh9714/dsh-movein)**（[@sjh9714](https://github.com/sjh9714) · 2026-08-16）— 把整套 Claude Code 配置一条命令搬进 DSH：技能、MCP、hooks、子代理、权限规则（deny/ask 桥接 + 迁移差异报告），默认 dry run 先出搬家清单；v0.4 起 `--reverse` 把 DSH 里长出来的技能搬回去，双栖不二选。
 
+- **[dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin)** ([@Zhangbo-cn](https://github.com/Zhangbo-cn) · 2026-08-16) — 输入框麦克风：点击持续监控、按住对话；浏览器语音识别逐字上屏，回复由 host Edge TTS 边生成边朗读，朗读时暂停识别防回声，点击可停止。
+
 ## 📣 Author showcase
 
 - **[dsh-session-deeplink](https://github.com/R3alloc/dsh-session-deeplink)** ([@R3alloc](https://github.com/R3alloc) · 2026-08-14) — Gives every session a reusable `/?session=<id>` deep link: the address bar follows the active session, links can be bookmarked or shared and restore the session after a refresh; browser-only, no host service added.
