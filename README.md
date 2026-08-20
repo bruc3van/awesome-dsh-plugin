@@ -254,7 +254,6 @@ mindmap
 
 插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 30 条，区满后先进先出；条目若被上方[精选推荐](#-精选推荐)收录，会从本区移除、不占名额。首页只展示**最近 10 条**，完整列表见 [SHOWCASE.md](./SHOWCASE.md)。
 
-- **[dsh-auto-review](https://github.com/PerryLink/dsh-auto-review)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 审批链上的第二模型 AI 自动审查：只读审查子代理返回带理由与风险等级的 allow/deny 结构化裁决，fail-closed 兜底，全量会话日志可审计；/auto-review 命令 + Web 审查面板，npm 可装，可与 dsh-permission-rules 组成「规则先行、AI 兜底」闭环。
 - **[dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— DeepSeek Harness 的 LSP 动作面：诊断、格式化、补全、代码动作、符号、签名提示、inlay 提示与重命名 8 个工具，由真实语言服务器驱动；写入走 write-intent 与沙箱策略，其余只读。
 - **[dsh-doc-share](https://github.com/dawsondx/dsh-doc-share)**（[@dawsondx](https://github.com/dawsondx) · 2026-08-15）— 把 DSH 对话重排成带封面、摘要统计与章节排版的正式报告：轮次选择弹窗（搜索/全选/加载更早历史）、单轮快捷分享、兼容 gen-UI 富组件，一次生成 PNG / 单 HTML / PDF / Markdown 四种格式。
 - **[dsh-llm-ollama](https://github.com/NOirBRight/dsh-llm-ollama)**（[@NOirBRight](https://github.com/NOirBRight) · 2026-08-15）— Ollama Cloud 原生聊天适配器：注册 `ollama-cloud` LLM 路由，原生模型发现（上下文窗口、视觉、推理、工具调用），并接入 web 搜索/抓取 provider。
@@ -264,6 +263,7 @@ mindmap
 - **[dsh-compressor](https://github.com/lifeodyssey/dsh-compressor)**（[@lifeodyssey](https://github.com/lifeodyssey) · 2026-08-16）— Headroom 的精简移植：压工具输出，至多少 20% 上下文，不动模型缓存。适合工具日志 / JSON / diff 把上下文撑满、又不想改已发给模型的前缀的人。
 - **[dsh-smooth-stream](https://github.com/Laplace-bit/dsh-smooth-stream)**（[@Laplace-bit](https://github.com/Laplace-bit) · 2026-08-16）— DSH Web 界面丝滑流式渲染：打字机跟随 token 到达、Markdown 边流边渲染、换行滑入、不闪烁，滚动归用户，尊重 prefers-reduced-motion。
 - **[dsh-win32](https://github.com/sjh9714/dsh-win32)**（[@sjh9714](https://github.com/sjh9714) · 2026-08-18）— 在 Windows 上跑起 DSH 极简模式的持久 shell：补上 win32 进程检查器让 `createProcessInspector()` 不再 throw，一条命令装好预设与 bundle；另有 busybox-w32 沙箱变体，在 `workspace-write` 受限令牌下同样有持久 shell（MSYS/Git Bash 在同一条路径上死于 cygheap 初始化，`NtSetInformationToken` 被拒），windows-latest CI 上有完整 send/read 往返与中断实测，`doctor` 逐项指出已知安装坑。
+- **[SandBase Skills](https://github.com/sandbaseai/sandbase-skills)**（[@sandbaseai](https://github.com/sandbaseai) · 2026-08-19）— 为研究、社交情报、营销和商业工作流提供 88 个 Agent Skills；原生 DSH bundle 一次挂载完整技能目录，也可把带离线证据账本校验器的 multi-source-search 单独装进项目。
 
 [查看全部 30 条自荐 →](./SHOWCASE.md)
 
