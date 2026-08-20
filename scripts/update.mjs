@@ -113,13 +113,79 @@ function normalizeRepository(repo) {
   };
 }
 
+// The Search API's index lags behind reality: repositories that were recently
+// pushed, renamed, or re-tagged can transiently drop out of topic search
+// results (the topics page itself can show a higher count than the search API
+// returns). Reconcile the search snapshot against the sources where a silent
+// drop would hurt — every curated reference (approved.json / curated.json) plus
+// the market-relevant tier of the previous snapshot — by fetching each missing
+// candidate directly from the REST core API, which reports live topics and
+// follows renames.
+const PREVIOUS_SNAPSHOT_STAR_FLOOR = 3;
+
+async function fetchRepo(fullName) {
+  const response = await fetch(`https://api.github.com/repos/${fullName}`, { headers: apiHeaders });
+  if (response.status === 404) return null;
+  if (!response.ok) throw new Error(`GitHub API ${response.status} for ${fullName}: ${await response.text()}`);
+  return response.json();
+}
+
+async function reconcileSnapshot(items, previousRepositories) {
+  const seenIds = new Set(items.map((item) => item.id));
+  const seenNames = new Set(items.map((item) => item.full_name.toLowerCase()));
+  const candidates = new Map();
+  const addCandidate = (name) => {
+    if (!seenNames.has(name.toLowerCase())) candidates.set(name.toLowerCase(), name);
+  };
+  const [approved, curated] = await Promise.all([
+    readFile(resolve(root, 'data/approved.json'), 'utf8').then(JSON.parse),
+    readFile(resolve(root, 'data/curated.json'), 'utf8').then(JSON.parse),
+  ]);
+  for (const name of Object.keys(approved)) addCandidate(name);
+  for (const section of Object.values(curated)) {
+    for (const name of Object.keys(section)) addCandidate(name);
+  }
+  for (const repo of previousRepositories) {
+    if (repo.stargazers_count >= PREVIOUS_SNAPSHOT_STAR_FLOOR) addCandidate(repo.full_name);
+  }
+  const recovered = [];
+  const renames = [];
+  for (const name of candidates.values()) {
+    const repo = await fetchRepo(name);
+    if (!repo || !repo.topics?.includes('dsh-plugin') || seenIds.has(repo.id)) continue;
+    if (repo.full_name.toLowerCase() !== name.toLowerCase()) renames.push(`${name} -> ${repo.full_name}`);
+    recovered.push(repo);
+    seenIds.add(repo.id);
+    seenNames.add(repo.full_name.toLowerCase());
+  }
+  return { recovered, renames, checked: candidates.size };
+}
+
 async function refreshSnapshot() {
   const fetchedAt = new Date();
+  let previousRepositories = [];
+  try {
+    previousRepositories =
+      JSON.parse(await readFile(resolve(root, 'data/repositories.json'), 'utf8')).repositories ?? [];
+  } catch {
+    // first run — nothing to reconcile against
+  }
   const items = await fetchRange(query, new Date('2008-01-01T00:00:00Z'), fetchedAt);
-  const byId = new Map(items.map((item) => [item.id, item]));
+  const { recovered, renames, checked } = await reconcileSnapshot(items, previousRepositories);
+  for (const rename of renames) {
+    partitionWarnings.push(
+      `${rename} — renamed on GitHub; update the approved.json / curated.json keys manually.`,
+    );
+  }
+  const byId = new Map([...items, ...recovered].map((item) => [item.id, item]));
   const repositories = [...byId.values()]
     .map(normalizeRepository)
     .sort((a, b) => b.stargazers_count - a.stargazers_count || a.full_name.localeCompare(b.full_name));
+  if (recovered.length) {
+    console.log(
+      `Reconciled ${recovered.length} of ${checked} search-missing candidates back into the snapshot via the REST API.`,
+    );
+  }
   return {
     source: 'https://github.com/topics/dsh-plugin',
     query,

@@ -28,44 +28,44 @@
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-08-19 the catalog lists **6,628** verified repositories. Here is the shape of it:
+As of 2026-08-20 the catalog lists **6,621** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 6628))
-    Agents automation workflows · 2129
+  root((DSH ecosystem 6621))
+    Agents automation workflows · 2120
       Scheduled loops and event wakeups
       Multi-agent teamwork
       Long-term memory and self-evolution
       Approval budget and checkpoints
-    UI and experience · 1379
+    UI and experience · 1384
       Desktop clients and terminal TUI
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Web and browser · 1098
+    Web and browser · 1097
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
     Design media and vision · 394
       Image understanding and OCR
       Design canvas and UI restoration
+    Knowledge and research · 363
+      Knowledge bases and cross-session memory
+      Deep research
+      Academia and math
     Ecosystem and resources · 362
       Plugin markets and registries
       Templates and scaffolds
       Guides and handbooks
-    Knowledge and research · 360
-      Knowledge bases and cross-session memory
-      Deep research
-      Academia and math
-    Utilities and more · 346
+    Utilities and more · 340
       Files and encodings
       Format conversion
-    Developer tools · 332
+    Developer tools · 334
       Git and diff
       Sandbox and runtimes
       Debugging and diagnostics
-    Integrations and sharing · 228
+    Integrations and sharing · 227
       Chat import and sharing
       Remote access
       IM and external integrations
@@ -206,31 +206,31 @@ You do not need to install everything. Start with the kit closest to the problem
 
 ## 🏆 Community leaderboard
 
-Community popularity by stars, from the 2026-08-19 snapshot. Repositories riding the `dsh-plugin` topic without being plugins, and editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json); new repositories first enter the [review queue](./data/review/pending.md) and rank only after the maintainer has verified them ([data/approved.json](./data/approved.json)). The home page shows the Top 20; the full Top 200 is in [TOP200.md](./TOP200.md). Ranking reflects popularity only — not quality, compatibility, or security.
+Community popularity by stars, from the 2026-08-20 snapshot. Repositories riding the `dsh-plugin` topic without being plugins, and editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json); new repositories first enter the [review queue](./data/review/pending.md) and rank only after the maintainer has verified them ([data/approved.json](./data/approved.json)). The home page shows the Top 20; the full Top 200 is in [TOP200.md](./TOP200.md). Ranking reflects popularity only — not quality, compatibility, or security.
 
 <!-- dsh:leaderboard:start -->
 | # | Project | ⭐ Stars | License |
 | ---: | --- | ---: | --- |
-| 1 | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 4838 | Apache-2.0 |
-| 2 | [liustack/modlens](https://github.com/liustack/modlens) | 3254 | MIT |
-| 3 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 2306 | MIT |
-| 4 | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 2063 | MIT |
-| 5 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 1448 | — |
-| 6 | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 1209 | MIT |
-| 7 | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | 1178 | MIT |
-| 8 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 829 | MIT |
-| 9 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | 794 | AGPL-3.0 |
-| 10 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 747 | MIT |
-| 11 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | 653 | MIT |
-| 12 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 602 | MIT |
-| 13 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 531 | — |
-| 14 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 510 | BSD-3-Clause |
-| 15 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 480 | Apache-2.0 |
-| 16 | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | 458 | NOASSERTION |
-| 17 | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 415 | MIT |
-| 18 | [ZJU-LLMs/OpenStory](https://github.com/ZJU-LLMs/OpenStory) | 380 | Apache-2.0 |
-| 19 | [morluto/rea](https://github.com/morluto/rea) | 354 | MIT |
-| 20 | [fufankeji/deepseek-harness-studio](https://github.com/fufankeji/deepseek-harness-studio) | 339 | MIT |
+| 1 | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 5130 | Apache-2.0 |
+| 2 | [liustack/modlens](https://github.com/liustack/modlens) | 3388 | MIT |
+| 3 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 2447 | MIT |
+| 4 | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 2176 | MIT |
+| 5 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 1505 | — |
+| 6 | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 1426 | MIT |
+| 7 | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | 1221 | MIT |
+| 8 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 894 | MIT |
+| 9 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | 796 | AGPL-3.0 |
+| 10 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 783 | MIT |
+| 11 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 681 | MIT |
+| 12 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | 654 | MIT |
+| 13 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 600 | Apache-2.0 |
+| 14 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 572 | — |
+| 15 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 519 | BSD-3-Clause |
+| 16 | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | 459 | NOASSERTION |
+| 17 | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 438 | MIT |
+| 18 | [fufankeji/deepseek-harness-studio](https://github.com/fufankeji/deepseek-harness-studio) | 403 | MIT |
+| 19 | [ZJU-LLMs/OpenStory](https://github.com/ZJU-LLMs/OpenStory) | 381 | Apache-2.0 |
+| 20 | [morluto/rea](https://github.com/morluto/rea) | 361 | MIT |
 <!-- dsh:leaderboard:end -->
 
 [See the full Star Top 200 →](./TOP200.md)
@@ -276,7 +276,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Downstream market file:** [data/market.json](./data/market.json) is the curated file downstream markets consume (e.g. the DSH desktop plugin market): the snapshot plus curation, filtered, cleaned, and dealt round-robin across categories (≤600 rows, ≤500 KB). It is rebuilt on every daily snapshot refresh and immediately after every curation merge; the field and generation rules live in the downstream [publishing spec](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md). The same runs also publish [MARKET.md](./MARKET.md), a read-only star-ranked rendering of the file for previewing the market on GitHub without installing anything.
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-08-19, the catalog lists **6,628** repositories across **26** primary languages; **5,733** declare a license and **6,611** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-08-20, the catalog lists **6,621** repositories across **25** primary languages; **5,737** declare a license and **6,603** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 
