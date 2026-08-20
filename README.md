@@ -170,7 +170,7 @@ mindmap
 
 - **想用手机或平板访问 DSH**：[dsh-mobile-apk](https://github.com/kelai141/dsh-mobile-apk) —— dsh 安卓壳 APK：WebView UI + 内嵌 Termux 运行时、SAF 目录桥、保活服务与看门狗。
 - **想让外部 Agent 驱动 Harness 执行任务**：[dsh-harness-mcp-server](https://github.com/chushixixin/dsh-harness-mcp-server) —— 在 Harness 内部启动 MCP server，让任意 MCP 客户端（如 Hermes）下发任务给 Harness 执行，实现「大脑 + 胳膊」协作。
-- **想从外部设备安全访问本机 Harness**：[dsh-remote](https://github.com/flymysql/dsh-remote) —— 打印当前实例的精确连接命令：SSH 本地转发、autossh 保活、反向隧道（NAT 友好）与带 --trusted-host 的反向代理，设置页一键复制；遵循官方安全设计，不碰 0.0.0.0。
+- **想从外部设备安全访问本机 Harness / 操作远程主机**：[dsh-remote](https://github.com/flymysql/dsh-remote) —— 远程工作助手：多机 SSH（密码/密钥）+ 远程工作区选择 + `rw_*` 工具集（列目录/读文件/执行命令/全局搜索/SFTP 双向同步镜像）；内置「🌐 远程文件」侧边栏（内嵌 dsh-better-sidebar），也可打印 SSH 隧道命令；遵循官方安全设计，不碰 0.0.0.0。
 
 ### 💰 用量与账单
 
