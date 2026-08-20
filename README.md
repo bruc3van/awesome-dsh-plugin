@@ -28,11 +28,11 @@
 ## 🗺️ 生态全景
 
 <!-- dsh:panorama:start -->
-截至 2026-08-19 共收录 **6630** 个经核实的仓库。它们长这样：
+截至 2026-08-19 共收录 **6628** 个经核实的仓库。它们长这样：
 
 ```mermaid
 mindmap
-  root((DSH 插件生态 6630))
+  root((DSH 插件生态 6628))
     Agent 自动化与工作流 · 2129
       定时循环与事件唤醒
       多 Agent 协作
@@ -43,7 +43,7 @@ mindmap
       侧边栏工作台
       皮肤与桌面宠物
       通知与输入增强
-    网页与浏览器 · 1100
+    网页与浏览器 · 1098
       浏览器桥接与页面操作
       网页搜索与引用
       归档与网页取证
@@ -223,14 +223,14 @@ mindmap
 | 10 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 747 | MIT |
 | 11 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | 653 | MIT |
 | 12 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 602 | MIT |
-| 13 | [hairyf/deepseek-harness-desktop](https://github.com/hairyf/deepseek-harness-desktop) | 595 | MIT |
-| 14 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 531 | — |
-| 15 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 510 | BSD-3-Clause |
-| 16 | [vibeinging/deepseek-harness-desktop-app](https://github.com/vibeinging/deepseek-harness-desktop-app) | 490 | MIT |
-| 17 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 480 | Apache-2.0 |
-| 18 | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | 458 | NOASSERTION |
-| 19 | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 415 | MIT |
-| 20 | [ZJU-LLMs/OpenStory](https://github.com/ZJU-LLMs/OpenStory) | 380 | Apache-2.0 |
+| 13 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 531 | — |
+| 14 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 510 | BSD-3-Clause |
+| 15 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 480 | Apache-2.0 |
+| 16 | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | 458 | NOASSERTION |
+| 17 | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 415 | MIT |
+| 18 | [ZJU-LLMs/OpenStory](https://github.com/ZJU-LLMs/OpenStory) | 380 | Apache-2.0 |
+| 19 | [morluto/rea](https://github.com/morluto/rea) | 354 | MIT |
+| 20 | [fufankeji/deepseek-harness-studio](https://github.com/fufankeji/deepseek-harness-studio) | 339 | MIT |
 <!-- dsh:leaderboard:end -->
 
 [查看完整 Star Top 200 →](./TOP200.md)
@@ -276,7 +276,7 @@ mindmap
 - **下游市场文件：** [data/market.json](./data/market.json) 是给下游市场（如 DSH 桌面端插件市场）消费的精选小文件——在快照与 curation 之上过滤、清洗并按类目均衡发牌（≤600 条、≤500 KB），每日快照刷新与 curation 合并后自动重建；字段与生成规则见下游的[发布规范](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md)。同一时序下同步生成根目录 [MARKET.md](./MARKET.md)——这份文件的只读可视化（按 Star 数排名），可在 GitHub 上直接预览市场内容，无需安装下游插件。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
-截至 2026-08-19，全量目录收录 **6630** 个仓库、**26** 种主要语言；其中 **5735** 个声明了许可证，**6613** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
+截至 2026-08-19，全量目录收录 **6628** 个仓库、**26** 种主要语言；其中 **5733** 个声明了许可证，**6611** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
 
 ## ⚠️ 使用与安全
 

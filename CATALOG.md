@@ -2,13 +2,13 @@
 
 [返回中文首页](./README.md) · [Back to English home](./README_EN.md) · [Star Top 200](./TOP200.md) · [作者自荐 / Author showcase](./SHOWCASE.md) · [JSON data](./data/repositories.json)
 
-本页自动收录 GitHub [`dsh-plugin` Topic](https://github.com/topics/dsh-plugin) 下已提供项目简介、并经维护者核实（[data/approved.json](./data/approved.json)）的公开仓库。358 个蹭 Topic 的非插件仓库（平台本体、其他 Agent 工具、同名目录站等）以及经编辑部拉黑的仓库已剔除，清单与理由见 [data/curated.json](./data/curated.json)。新增仓库先进入[待审核队列](./data/review/pending.md)，经人工核实后才会收录。本页是索引，不代表人工推荐、兼容性验证或安全背书。
+本页自动收录 GitHub [`dsh-plugin` Topic](https://github.com/topics/dsh-plugin) 下已提供项目简介、并经维护者核实（[data/approved.json](./data/approved.json)）的公开仓库。360 个蹭 Topic 的非插件仓库（平台本体、其他 Agent 工具、同名目录站等）以及经编辑部拉黑的仓库已剔除，清单与理由见 [data/curated.json](./data/curated.json)。新增仓库先进入[待审核队列](./data/review/pending.md)，经人工核实后才会收录。本页是索引，不代表人工推荐、兼容性验证或安全背书。
 
-This page automatically lists public repositories under GitHub's [`dsh-plugin` topic](https://github.com/topics/dsh-plugin) that have a description set and have been verified by the maintainer ([data/approved.json](./data/approved.json)). 358 repositories that ride the topic without being DSH plugins (the platform itself, other agent tools, competing catalogs), plus editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json) for the full list and reasons. New repositories enter the [review queue](./data/review/pending.md) first and appear here only after human verification. It is an index, not a claim of editorial recommendation, compatibility, or security review.
+This page automatically lists public repositories under GitHub's [`dsh-plugin` topic](https://github.com/topics/dsh-plugin) that have a description set and have been verified by the maintainer ([data/approved.json](./data/approved.json)). 360 repositories that ride the topic without being DSH plugins (the platform itself, other agent tools, competing catalogs), plus editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json) for the full list and reasons. New repositories enter the [review queue](./data/review/pending.md) first and appear here only after human verification. It is an index, not a claim of editorial recommendation, compatibility, or security review.
 
-- Repositories: **6630**
+- Repositories: **6628**
 - Primary languages: **26**
-- Declared licenses: **5735**
+- Declared licenses: **5733**
 - Refreshed: **2026-08-19 UTC**
 - 最近人工复核 / Last review merge: **2026-08-20**
 
@@ -2162,14 +2162,12 @@ This page automatically lists public repositories under GitHub's [`dsh-plugin` t
 | [zoahdev/dsh-artifacts](https://github.com/zoahdev/dsh-artifacts) | Claude-Artifacts-style rendering for DeepSeek Harness: Markdown + JSON -> beautiful self-contained HTML documents, cards, dashboards, and galleries. Zero runtime dependencies. | TypeScript | 0 | MIT | 2026-08-16 |
 | [zoahdev/dsh-vision](https://github.com/zoahdev/dsh-vision) | Give DeepSeek Harness eyes: analyze images with an OpenAI-compatible vision model via a vision_analyze tool. | TypeScript | 0 | MIT | 2026-08-17 |
 
-## 网页与浏览器 / Web & Browser (1100)
+## 网页与浏览器 / Web & Browser (1098)
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |
 | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent. | TypeScript | 1178 | MIT | 2026-08-19 |
 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | Local security audit for AI API relays and LLM proxies: detects prompt injection, model substitution, tool-call rewriting, SSE anomalies, error leakage, and Web3 wallet risks. | Python | 794 | AGPL-3.0 | 2026-08-19 |
-| [hairyf/deepseek-harness-desktop](https://github.com/hairyf/deepseek-harness-desktop) | DeepSeek Harness Tauri 桌面版 \| Only 5mb installer, zero environment setup, preset plugins, Windows / macOS / Linux. | Rust | 595 | MIT | 2026-08-19 |
-| [vibeinging/deepseek-harness-desktop-app](https://github.com/vibeinging/deepseek-harness-desktop-app) | DeepSeek Harness Desktop App: a local AI desktop workspace for DSH Sessions, projects, files, web research, plugins, and Office artifacts. | JavaScript | 490 | MIT | 2026-08-19 |
 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | Best DeepSeek Harness plugin for context insight and management, with context dashboard / browser and context command, for context statistics, composition, breakdown, evolution details, understanding how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context 命令，透视上下文组成、演进、压缩、剪枝等事件与动作。 | TypeScript | 480 | Apache-2.0 | 2026-08-19 |
 | [fufankeji/deepseek-harness-studio](https://github.com/fufankeji/deepseek-harness-studio) | DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。 | TypeScript | 339 | MIT | 2026-08-19 |
 | [hust-open-atom-club/oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) |  一套 DSH runtime，Desktop、Web 与 TUI 三种开发体验。 | TypeScript | 257 | MIT | 2026-08-19 |

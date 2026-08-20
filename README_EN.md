@@ -28,11 +28,11 @@
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-08-19 the catalog lists **6,630** verified repositories. Here is the shape of it:
+As of 2026-08-19 the catalog lists **6,628** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 6630))
+  root((DSH ecosystem 6628))
     Agents automation workflows · 2129
       Scheduled loops and event wakeups
       Multi-agent teamwork
@@ -43,7 +43,7 @@ mindmap
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Web and browser · 1100
+    Web and browser · 1098
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
@@ -223,14 +223,14 @@ Community popularity by stars, from the 2026-08-19 snapshot. Repositories riding
 | 10 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 747 | MIT |
 | 11 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | 653 | MIT |
 | 12 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 602 | MIT |
-| 13 | [hairyf/deepseek-harness-desktop](https://github.com/hairyf/deepseek-harness-desktop) | 595 | MIT |
-| 14 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 531 | — |
-| 15 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 510 | BSD-3-Clause |
-| 16 | [vibeinging/deepseek-harness-desktop-app](https://github.com/vibeinging/deepseek-harness-desktop-app) | 490 | MIT |
-| 17 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 480 | Apache-2.0 |
-| 18 | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | 458 | NOASSERTION |
-| 19 | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 415 | MIT |
-| 20 | [ZJU-LLMs/OpenStory](https://github.com/ZJU-LLMs/OpenStory) | 380 | Apache-2.0 |
+| 13 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 531 | — |
+| 14 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 510 | BSD-3-Clause |
+| 15 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 480 | Apache-2.0 |
+| 16 | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | 458 | NOASSERTION |
+| 17 | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 415 | MIT |
+| 18 | [ZJU-LLMs/OpenStory](https://github.com/ZJU-LLMs/OpenStory) | 380 | Apache-2.0 |
+| 19 | [morluto/rea](https://github.com/morluto/rea) | 354 | MIT |
+| 20 | [fufankeji/deepseek-harness-studio](https://github.com/fufankeji/deepseek-harness-studio) | 339 | MIT |
 <!-- dsh:leaderboard:end -->
 
 [See the full Star Top 200 →](./TOP200.md)
@@ -276,7 +276,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Downstream market file:** [data/market.json](./data/market.json) is the curated file downstream markets consume (e.g. the DSH desktop plugin market): the snapshot plus curation, filtered, cleaned, and dealt round-robin across categories (≤600 rows, ≤500 KB). It is rebuilt on every daily snapshot refresh and immediately after every curation merge; the field and generation rules live in the downstream [publishing spec](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md). The same runs also publish [MARKET.md](./MARKET.md), a read-only star-ranked rendering of the file for previewing the market on GitHub without installing anything.
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-08-19, the catalog lists **6,630** repositories across **26** primary languages; **5,735** declare a license and **6,613** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-08-19, the catalog lists **6,628** repositories across **26** primary languages; **5,733** declare a license and **6,611** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 
