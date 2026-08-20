@@ -28,11 +28,11 @@
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-08-19 the catalog lists **6,638** verified repositories. Here is the shape of it:
+As of 2026-08-19 the catalog lists **6,630** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 6638))
+  root((DSH ecosystem 6630))
     Agents automation workflows · 2129
       Scheduled loops and event wakeups
       Multi-agent teamwork
@@ -47,10 +47,10 @@ mindmap
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
-    Design media and vision · 395
+    Design media and vision · 394
       Image understanding and OCR
       Design canvas and UI restoration
-    Ecosystem and resources · 370
+    Ecosystem and resources · 362
       Plugin markets and registries
       Templates and scaffolds
       Guides and handbooks
@@ -61,7 +61,7 @@ mindmap
     Utilities and more · 346
       Files and encodings
       Format conversion
-    Developer tools · 331
+    Developer tools · 332
       Git and diff
       Sandbox and runtimes
       Debugging and diagnostics
@@ -218,19 +218,19 @@ Community popularity by stars, from the 2026-08-19 snapshot. Repositories riding
 | 5 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 1448 | — |
 | 6 | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 1209 | MIT |
 | 7 | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | 1178 | MIT |
-| 8 | [Anil-matcha/awesome-dsh-plugin](https://github.com/Anil-matcha/awesome-dsh-plugin) | 952 | — |
-| 9 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 829 | MIT |
-| 10 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | 794 | AGPL-3.0 |
-| 11 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 747 | MIT |
-| 12 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | 653 | MIT |
-| 13 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 602 | MIT |
-| 14 | [hairyf/deepseek-harness-desktop](https://github.com/hairyf/deepseek-harness-desktop) | 595 | MIT |
-| 15 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 531 | — |
-| 16 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 510 | BSD-3-Clause |
-| 17 | [vibeinging/deepseek-harness-desktop-app](https://github.com/vibeinging/deepseek-harness-desktop-app) | 490 | MIT |
-| 18 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 480 | Apache-2.0 |
-| 19 | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | 458 | NOASSERTION |
-| 20 | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 415 | MIT |
+| 8 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 829 | MIT |
+| 9 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | 794 | AGPL-3.0 |
+| 10 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 747 | MIT |
+| 11 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | 653 | MIT |
+| 12 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 602 | MIT |
+| 13 | [hairyf/deepseek-harness-desktop](https://github.com/hairyf/deepseek-harness-desktop) | 595 | MIT |
+| 14 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 531 | — |
+| 15 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 510 | BSD-3-Clause |
+| 16 | [vibeinging/deepseek-harness-desktop-app](https://github.com/vibeinging/deepseek-harness-desktop-app) | 490 | MIT |
+| 17 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 480 | Apache-2.0 |
+| 18 | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | 458 | NOASSERTION |
+| 19 | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 415 | MIT |
+| 20 | [ZJU-LLMs/OpenStory](https://github.com/ZJU-LLMs/OpenStory) | 380 | Apache-2.0 |
 <!-- dsh:leaderboard:end -->
 
 [See the full Star Top 200 →](./TOP200.md)
@@ -276,7 +276,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Downstream market file:** [data/market.json](./data/market.json) is the curated file downstream markets consume (e.g. the DSH desktop plugin market): the snapshot plus curation, filtered, cleaned, and dealt round-robin across categories (≤600 rows, ≤500 KB). It is rebuilt on every daily snapshot refresh and immediately after every curation merge; the field and generation rules live in the downstream [publishing spec](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md). The same runs also publish [MARKET.md](./MARKET.md), a read-only star-ranked rendering of the file for previewing the market on GitHub without installing anything.
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-08-19, the catalog lists **6,638** repositories across **26** primary languages; **5,741** declare a license and **6,621** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-08-19, the catalog lists **6,630** repositories across **26** primary languages; **5,735** declare a license and **6,613** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 
