@@ -28,44 +28,44 @@
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-08-20 the catalog lists **6,621** verified repositories. Here is the shape of it:
+As of 2026-08-20 the catalog lists **7,740** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 6621))
-    Agents automation workflows · 2120
+  root((DSH ecosystem 7740))
+    Agents automation workflows · 2804
       Scheduled loops and event wakeups
       Multi-agent teamwork
       Long-term memory and self-evolution
       Approval budget and checkpoints
-    UI and experience · 1384
+    UI and experience · 1502
       Desktop clients and terminal TUI
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Web and browser · 1097
+    Web and browser · 1179
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
-    Design media and vision · 394
+    Design media and vision · 432
       Image understanding and OCR
       Design canvas and UI restoration
-    Knowledge and research · 363
+    Utilities and more · 431
+      Files and encodings
+      Format conversion
+    Knowledge and research · 392
       Knowledge bases and cross-session memory
       Deep research
       Academia and math
-    Ecosystem and resources · 362
+    Ecosystem and resources · 384
       Plugin markets and registries
       Templates and scaffolds
       Guides and handbooks
-    Utilities and more · 340
-      Files and encodings
-      Format conversion
-    Developer tools · 334
+    Developer tools · 376
       Git and diff
       Sandbox and runtimes
       Debugging and diagnostics
-    Integrations and sharing · 227
+    Integrations and sharing · 240
       Chat import and sharing
       Remote access
       IM and external integrations
@@ -241,14 +241,14 @@ Manually screened recent projects, updated from time to time:
 
 | Project | Description | Created |
 | --- | --- | --- |
-| [kingOfSoySauce/dsh-skin-market](https://github.com/kingOfSoySauce/dsh-skin-market) | DSH skin market plugin: browse, install, update and uninstall community skins from a 100+-skin, community-reviewed catalog with an online preview. | 2026-08-16 |
-| [openma-ai/Martty](https://github.com/openma-ai/Martty) | Self-improvement TUI plugin for DeepSeek Harness (formerly deepseek-harness-tui): streaming reasoning, tool calls, skills, multi-image prompts, persistent sessions. | 2026-08-13 |
-| [Phant0Meow/dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) | Cross-session memory plugin: seven-layer SQLite store (soul/user/project/fact/lesson/topic/rules), BM25 retrieval, per-window dream consolidation. | 2026-08-14 |
-| [limuyang2/agent-team](https://github.com/limuyang2/agent-team) | Multi-agent team collaboration for DeepSeek Harness, with independent models, skills, MCP tools, contexts, and a shared workspace. | 2026-08-17 |
-| [kuangre123/deepseek-harness-mac](https://github.com/kuangre123/deepseek-harness-mac) | Native macOS wrapper for DeepSeek Harness with bundled Node.js runtime, Keychain API key setup, and one-click startup. | 2026-08-19 |
-| [JUSTMONIKA2022/dsh-sandbox-escalation-fix](https://github.com/JUSTMONIKA2022/dsh-sandbox-escalation-fix) | Zero-configuration compatibility plugin that fixes third-party-model session sandbox escalation in DeepSeek Harness. | 2026-08-16 |
-| [sfyyy/dsh-vision-bridge](https://github.com/sfyyy/dsh-vision-bridge) | On-demand vision for text-only DSH sessions: images become markers, and a vision_describe tool sends only image + question to an OpenAI-compatible vision model. | 2026-08-16 |
-| [ForgeaX-Games/forgeax-dsh-game-plugin](https://github.com/ForgeaX-Games/forgeax-dsh-game-plugin) | DSH bundle plugin for ForgeaX game development — wires the @forgeax/game MCP server, bundled ForgeaX skills, and a workspace guard into a DSH session. | 2026-08-19 |
+| [Huauauaa/dsh-ppt-studio](https://github.com/Huauauaa/dsh-ppt-studio) | Turns Markdown (or agent-read attachments) into a self-contained HTML slideshow, an editable .pptx, and a JSON manifest, with theme picking in Web Settings. | 2026-08-20 |
+| [lhwu1/dsh-withSsh](https://github.com/lhwu1/dsh-withSsh) | Session-level SSH console embedded in the conversation: a real terminal inside the chat where human and AI co-drive commands, each AI step annotated in Chinese, leaving a reviewable trail. | 2026-08-20 |
+| [ZSeven-W/dsh-ios](https://github.com/ZSeven-W/dsh-ios) | DSH plugin that brings a live iOS Simulator — and a USB-connected iPhone — into the conversation for building, running, and testing iOS apps. | 2026-08-19 |
+| [Han-Yao94/dsh-session-toolkit](https://github.com/Han-Yao94/dsh-session-toolkit) | Six-in-one workbench toolkit merging session identity, auto-resume, log-button relocation, peer-session messaging, a global prompt, and a web restart service. | 2026-08-19 |
+| [cqnxnzg/dsh-llm-openai-compatible](https://github.com/cqnxnzg/dsh-llm-openai-compatible) | Universal plug adapter connecting DeepSeek Harness to any OpenAI-compatible endpoint — local vLLM / LM Studio / llama.cpp / Ollama, or remote gateways like OpenRouter. | 2026-08-19 |
+| [TiantianFlow/dsh-tailscale-gateway](https://github.com/TiantianFlow/dsh-tailscale-gateway) | Private Tailscale access for DeepSeek Harness Web: exact user allowlists and a loopback-only gateway, no public exposure. | 2026-08-16 |
+| [Yuer6327/NoLetMe](https://github.com/Yuer6327/NoLetMe) | Reasoning-trace panel for the DSH web UI: a live keyword stream of the model’s thinking pinned to the right edge of the session page. | 2026-08-16 |
+| [dsh-external/dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) | Hand-drawn pixel whale companion for the DSH Web UI: blinks while idle, swims hard while the agent thinks, spouts on turn completion — zero core changes. | 2026-08-05 |
 
 ## 📣 Author showcase
 
@@ -276,7 +276,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Downstream market file:** [data/market.json](./data/market.json) is the curated file downstream markets consume (e.g. the DSH desktop plugin market): the snapshot plus curation, filtered, cleaned, and dealt round-robin across categories (≤600 rows, ≤500 KB). It is rebuilt on every daily snapshot refresh and immediately after every curation merge; the field and generation rules live in the downstream [publishing spec](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md). The same runs also publish [MARKET.md](./MARKET.md), a read-only star-ranked rendering of the file for previewing the market on GitHub without installing anything.
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-08-20, the catalog lists **6,621** repositories across **25** primary languages; **5,737** declare a license and **6,603** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-08-20, the catalog lists **7,740** repositories across **27** primary languages; **6,780** declare a license and **7,720** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 

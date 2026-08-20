@@ -28,44 +28,44 @@
 ## 🗺️ 生态全景
 
 <!-- dsh:panorama:start -->
-截至 2026-08-20 共收录 **6621** 个经核实的仓库。它们长这样：
+截至 2026-08-20 共收录 **7740** 个经核实的仓库。它们长这样：
 
 ```mermaid
 mindmap
-  root((DSH 插件生态 6621))
-    Agent 自动化与工作流 · 2120
+  root((DSH 插件生态 7740))
+    Agent 自动化与工作流 · 2804
       定时循环与事件唤醒
       多 Agent 协作
       长期记忆与自我进化
       审批、预算与检查点
-    界面与体验 · 1384
+    界面与体验 · 1502
       桌面客户端与终端 TUI
       侧边栏工作台
       皮肤与桌面宠物
       通知与输入增强
-    网页与浏览器 · 1097
+    网页与浏览器 · 1179
       浏览器桥接与页面操作
       网页搜索与引用
       归档与网页取证
-    设计媒体与视觉 · 394
+    设计媒体与视觉 · 432
       图片理解与 OCR
       设计画布与 UI 还原
-    知识与研究 · 363
+    实用工具与其他 · 431
+      文件与编码
+      格式转换
+    知识与研究 · 392
       知识库与跨会话记忆
       深度研究
       学术与数学
-    生态与资源 · 362
+    生态与资源 · 384
       插件市场与注册表
       开发模板与脚手架
       教程与手册
-    实用工具与其他 · 340
-      文件与编码
-      格式转换
-    开发者工具 · 334
+    开发者工具 · 376
       Git 与 diff
       沙箱与运行时
       调试与诊断
-    集成与分享 · 227
+    集成与分享 · 240
       会话导入与分享
       远程访问
       IM 与外部集成
@@ -241,14 +241,14 @@ mindmap
 
 | 项目 | 简介 | 创建日期 |
 | --- | --- | --- |
-| [kingOfSoySauce/dsh-skin-market](https://github.com/kingOfSoySauce/dsh-skin-market) | DSH skin market plugin: browse, install, update and uninstall community skins from a 100+-skin, community-reviewed catalog with an online preview. | 2026-08-16 |
-| [openma-ai/Martty](https://github.com/openma-ai/Martty) | Self-improvement TUI plugin for DeepSeek Harness (formerly deepseek-harness-tui): streaming reasoning, tool calls, skills, multi-image prompts, persistent sessions. | 2026-08-13 |
-| [Phant0Meow/dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) | Cross-session memory plugin: seven-layer SQLite store (soul/user/project/fact/lesson/topic/rules), BM25 retrieval, per-window dream consolidation. | 2026-08-14 |
-| [limuyang2/agent-team](https://github.com/limuyang2/agent-team) | Multi-agent team collaboration for DeepSeek Harness, with independent models, skills, MCP tools, contexts, and a shared workspace. | 2026-08-17 |
-| [kuangre123/deepseek-harness-mac](https://github.com/kuangre123/deepseek-harness-mac) | Native macOS wrapper for DeepSeek Harness with bundled Node.js runtime, Keychain API key setup, and one-click startup. | 2026-08-19 |
-| [JUSTMONIKA2022/dsh-sandbox-escalation-fix](https://github.com/JUSTMONIKA2022/dsh-sandbox-escalation-fix) | Zero-configuration compatibility plugin that fixes third-party-model session sandbox escalation in DeepSeek Harness. | 2026-08-16 |
-| [sfyyy/dsh-vision-bridge](https://github.com/sfyyy/dsh-vision-bridge) | On-demand vision for text-only DSH sessions: images become markers, and a vision_describe tool sends only image + question to an OpenAI-compatible vision model. | 2026-08-16 |
-| [ForgeaX-Games/forgeax-dsh-game-plugin](https://github.com/ForgeaX-Games/forgeax-dsh-game-plugin) | DSH bundle plugin for ForgeaX game development — wires the @forgeax/game MCP server, bundled ForgeaX skills, and a workspace guard into a DSH session. | 2026-08-19 |
+| [Huauauaa/dsh-ppt-studio](https://github.com/Huauauaa/dsh-ppt-studio) | Turns Markdown (or agent-read attachments) into a self-contained HTML slideshow, an editable .pptx, and a JSON manifest, with theme picking in Web Settings. | 2026-08-20 |
+| [lhwu1/dsh-withSsh](https://github.com/lhwu1/dsh-withSsh) | Session-level SSH console embedded in the conversation: a real terminal inside the chat where human and AI co-drive commands, each AI step annotated in Chinese, leaving a reviewable trail. | 2026-08-20 |
+| [ZSeven-W/dsh-ios](https://github.com/ZSeven-W/dsh-ios) | DSH plugin that brings a live iOS Simulator — and a USB-connected iPhone — into the conversation for building, running, and testing iOS apps. | 2026-08-19 |
+| [Han-Yao94/dsh-session-toolkit](https://github.com/Han-Yao94/dsh-session-toolkit) | Six-in-one workbench toolkit merging session identity, auto-resume, log-button relocation, peer-session messaging, a global prompt, and a web restart service. | 2026-08-19 |
+| [cqnxnzg/dsh-llm-openai-compatible](https://github.com/cqnxnzg/dsh-llm-openai-compatible) | Universal plug adapter connecting DeepSeek Harness to any OpenAI-compatible endpoint — local vLLM / LM Studio / llama.cpp / Ollama, or remote gateways like OpenRouter. | 2026-08-19 |
+| [TiantianFlow/dsh-tailscale-gateway](https://github.com/TiantianFlow/dsh-tailscale-gateway) | Private Tailscale access for DeepSeek Harness Web: exact user allowlists and a loopback-only gateway, no public exposure. | 2026-08-16 |
+| [Yuer6327/NoLetMe](https://github.com/Yuer6327/NoLetMe) | Reasoning-trace panel for the DSH web UI: a live keyword stream of the model’s thinking pinned to the right edge of the session page. | 2026-08-16 |
+| [dsh-external/dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) | Hand-drawn pixel whale companion for the DSH Web UI: blinks while idle, swims hard while the agent thinks, spouts on turn completion — zero core changes. | 2026-08-05 |
 
 ## 📣 作者自荐
 
@@ -276,7 +276,7 @@ mindmap
 - **下游市场文件：** [data/market.json](./data/market.json) 是给下游市场（如 DSH 桌面端插件市场）消费的精选小文件——在快照与 curation 之上过滤、清洗并按类目均衡发牌（≤600 条、≤500 KB），每日快照刷新与 curation 合并后自动重建；字段与生成规则见下游的[发布规范](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md)。同一时序下同步生成根目录 [MARKET.md](./MARKET.md)——这份文件的只读可视化（按 Star 数排名），可在 GitHub 上直接预览市场内容，无需安装下游插件。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
-截至 2026-08-20，全量目录收录 **6621** 个仓库、**25** 种主要语言；其中 **5737** 个声明了许可证，**6603** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
+截至 2026-08-20，全量目录收录 **7740** 个仓库、**27** 种主要语言；其中 **6780** 个声明了许可证，**7720** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
 
 ## ⚠️ 使用与安全
 
