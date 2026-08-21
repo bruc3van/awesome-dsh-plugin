@@ -95,6 +95,7 @@ mindmap
 - **想把侧边栏升级成完整工作台**：[DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) —— 内置文件渲染编辑、终端、Git 与子代理，并支持第三方扩展注册新 Tab。
 - **想让工作状态行活过来**：[working-activity](https://github.com/ccch1mneyyy/working-activity) —— 实时显示工具动态与进度、俏皮文案、模型自述与上下文预警，等待时不再无聊。
 - **想在开发对话里直接检查和操作当前网页**：[dsh-browser](https://github.com/Lum1104/dsh-browser) —— Chrome 侧边栏扩展，让 DSH 直接操作你的浏览器：无需视觉能力，即可在当前对话里授权页面、读取并执行网页操作。
+- **想集中管理已装插件、从多源市场一键装配**：[dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) —— DSH 插件管理面板：一键启停 + 多源市场 + 静态索引（500+ 插件 / 300 技能）+ 技能安装/停用 + 套装一键装配 + 框架升级适配。
 
 | | | |
 | :---: | :---: | :---: |
