@@ -28,44 +28,44 @@
 ## 🗺️ 生态全景
 
 <!-- dsh:panorama:start -->
-截至 2026-08-20 共收录 **7740** 个经核实的仓库。它们长这样：
+截至 2026-08-21 共收录 **8787** 个经核实的仓库。它们长这样：
 
 ```mermaid
 mindmap
-  root((DSH 插件生态 7740))
-    Agent 自动化与工作流 · 2804
+  root((DSH 插件生态 8787))
+    Agent 自动化与工作流 · 3582
       定时循环与事件唤醒
       多 Agent 协作
       长期记忆与自我进化
       审批、预算与检查点
-    界面与体验 · 1502
+    界面与体验 · 1597
       桌面客户端与终端 TUI
       侧边栏工作台
       皮肤与桌面宠物
       通知与输入增强
-    网页与浏览器 · 1179
+    网页与浏览器 · 1237
       浏览器桥接与页面操作
       网页搜索与引用
       归档与网页取证
-    设计媒体与视觉 · 432
+    设计媒体与视觉 · 464
       图片理解与 OCR
       设计画布与 UI 还原
-    实用工具与其他 · 431
+    实用工具与其他 · 436
       文件与编码
       格式转换
-    知识与研究 · 392
+    知识与研究 · 420
       知识库与跨会话记忆
       深度研究
       学术与数学
-    生态与资源 · 384
-      插件市场与注册表
-      开发模板与脚手架
-      教程与手册
-    开发者工具 · 376
+    开发者工具 · 406
       Git 与 diff
       沙箱与运行时
       调试与诊断
-    集成与分享 · 240
+    生态与资源 · 401
+      插件市场与注册表
+      开发模板与脚手架
+      教程与手册
+    集成与分享 · 244
       会话导入与分享
       远程访问
       IM 与外部集成
@@ -206,31 +206,31 @@ mindmap
 
 ## 🏆 社区热度榜
 
-按 Star 排序的社区热度参考，数据取自 2026-08-20 快照；蹭 `dsh-plugin` Topic 的非插件仓库与编辑部拉黑的仓库均已剔除，新仓库先进入[待审核队列](./data/review/pending.md)、经人工核实（[data/approved.json](./data/approved.json)）后才进入榜单，剔除清单见 [data/curated.json](./data/curated.json)。首页展示前 20 名，完整 Top 200 见 [TOP200.md](./TOP200.md)。排名反映受欢迎程度，不代表质量、兼容性或安全背书。
+按 Star 排序的社区热度参考，数据取自 2026-08-21 快照；蹭 `dsh-plugin` Topic 的非插件仓库与编辑部拉黑的仓库均已剔除，新仓库先进入[待审核队列](./data/review/pending.md)、经人工核实（[data/approved.json](./data/approved.json)）后才进入榜单，剔除清单见 [data/curated.json](./data/curated.json)。首页展示前 20 名，完整 Top 200 见 [TOP200.md](./TOP200.md)。排名反映受欢迎程度，不代表质量、兼容性或安全背书。
 
 <!-- dsh:leaderboard:start -->
 | # | 项目 | ⭐ Stars | License |
 | ---: | --- | ---: | --- |
-| 1 | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 5130 | Apache-2.0 |
-| 2 | [liustack/modlens](https://github.com/liustack/modlens) | 3388 | MIT |
-| 3 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 2447 | MIT |
-| 4 | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 2176 | MIT |
-| 5 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 1505 | — |
-| 6 | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 1426 | MIT |
-| 7 | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | 1221 | MIT |
-| 8 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 894 | MIT |
-| 9 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | 796 | AGPL-3.0 |
-| 10 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 783 | MIT |
-| 11 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 681 | MIT |
-| 12 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | 654 | MIT |
-| 13 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 600 | Apache-2.0 |
-| 14 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 572 | — |
-| 15 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 519 | BSD-3-Clause |
+| 1 | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 5377 | Apache-2.0 |
+| 2 | [liustack/modlens](https://github.com/liustack/modlens) | 3500 | MIT |
+| 3 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 2561 | MIT |
+| 4 | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 2253 | MIT |
+| 5 | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 1600 | MIT |
+| 6 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 1554 | — |
+| 7 | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | 1249 | MIT |
+| 8 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 929 | MIT |
+| 9 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 803 | MIT |
+| 10 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | 797 | AGPL-3.0 |
+| 11 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 751 | MIT |
+| 12 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 721 | Apache-2.0 |
+| 13 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | 654 | MIT |
+| 14 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 606 | — |
+| 15 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 528 | BSD-3-Clause |
 | 16 | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | 459 | NOASSERTION |
-| 17 | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 438 | MIT |
-| 18 | [fufankeji/deepseek-harness-studio](https://github.com/fufankeji/deepseek-harness-studio) | 403 | MIT |
+| 17 | [FSMargoo/dsh-at-file](https://github.com/FSMargoo/dsh-at-file) | 445 | MIT |
+| 18 | [fufankeji/deepseek-harness-studio](https://github.com/fufankeji/deepseek-harness-studio) | 428 | MIT |
 | 19 | [ZJU-LLMs/OpenStory](https://github.com/ZJU-LLMs/OpenStory) | 381 | Apache-2.0 |
-| 20 | [morluto/rea](https://github.com/morluto/rea) | 361 | MIT |
+| 20 | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 372 | MIT |
 <!-- dsh:leaderboard:end -->
 
 [查看完整 Star Top 200 →](./TOP200.md)
@@ -241,14 +241,14 @@ mindmap
 
 | 项目 | 简介 | 创建日期 |
 | --- | --- | --- |
-| [Huauauaa/dsh-ppt-studio](https://github.com/Huauauaa/dsh-ppt-studio) | Turns Markdown (or agent-read attachments) into a self-contained HTML slideshow, an editable .pptx, and a JSON manifest, with theme picking in Web Settings. | 2026-08-20 |
-| [lhwu1/dsh-withSsh](https://github.com/lhwu1/dsh-withSsh) | Session-level SSH console embedded in the conversation: a real terminal inside the chat where human and AI co-drive commands, each AI step annotated in Chinese, leaving a reviewable trail. | 2026-08-20 |
-| [ZSeven-W/dsh-ios](https://github.com/ZSeven-W/dsh-ios) | DSH plugin that brings a live iOS Simulator — and a USB-connected iPhone — into the conversation for building, running, and testing iOS apps. | 2026-08-19 |
-| [Han-Yao94/dsh-session-toolkit](https://github.com/Han-Yao94/dsh-session-toolkit) | Six-in-one workbench toolkit merging session identity, auto-resume, log-button relocation, peer-session messaging, a global prompt, and a web restart service. | 2026-08-19 |
-| [cqnxnzg/dsh-llm-openai-compatible](https://github.com/cqnxnzg/dsh-llm-openai-compatible) | Universal plug adapter connecting DeepSeek Harness to any OpenAI-compatible endpoint — local vLLM / LM Studio / llama.cpp / Ollama, or remote gateways like OpenRouter. | 2026-08-19 |
-| [TiantianFlow/dsh-tailscale-gateway](https://github.com/TiantianFlow/dsh-tailscale-gateway) | Private Tailscale access for DeepSeek Harness Web: exact user allowlists and a loopback-only gateway, no public exposure. | 2026-08-16 |
-| [Yuer6327/NoLetMe](https://github.com/Yuer6327/NoLetMe) | Reasoning-trace panel for the DSH web UI: a live keyword stream of the model’s thinking pinned to the right edge of the session page. | 2026-08-16 |
-| [dsh-external/dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) | Hand-drawn pixel whale companion for the DSH Web UI: blinks while idle, swims hard while the agent thinks, spouts on turn completion — zero core changes. | 2026-08-05 |
+| [swarm-apps/dsh-swarmdrop](https://github.com/swarm-apps/dsh-swarmdrop) | Send files from your DeepSeek Harness agent straight to your phone, and reference what your phone sent back — no account, no public IP, end-to-end encrypted. | 2026-08-21 |
+| [Quan-Chan/Weave-for-DSH](https://github.com/Quan-Chan/Weave-for-DSH) | Offline single-HTML node-graph editor with an AI teaching skill, installed as one DSH bundle. | 2026-08-21 |
+| [jiaererw/dsh-plugin-chrome](https://github.com/jiaererw/dsh-plugin-chrome) | Browser visualization: a visible Chrome window per session, 16 chrome_* agent tools, and a live view in the Web GUI. | 2026-08-20 |
+| [ai-yucheng/dsh-audio-copilot](https://github.com/ai-yucheng/dsh-audio-copilot) | Audio Copilot: transcribe audio (ASR) and synthesize speech (TTS), with an in-composer voice-input mic button. | 2026-08-20 |
+| [PolinniZhong/dsh-personal-center](https://github.com/PolinniZhong/dsh-personal-center) | Personal center in Settings: usage stats, custom instructions, cost estimation, and a local-only desktop pet. | 2026-08-19 |
+| [beihzb/dsh-notebook](https://github.com/beihzb/dsh-notebook) | Native Jupyter-style notebook for DeepSeek Harness: real ipykernel sidecar, VS Code-aligned cell UI, inline figures, per-cell AI revision. | 2026-08-19 |
+| [Asif2BD/JARVIS-Mission-Control-DeepSeek](https://github.com/Asif2BD/JARVIS-Mission-Control-DeepSeek) | Mission Control dashboard and human-review workflow for DeepSeek Harness sessions, turns, and tool activity. | 2026-08-17 |
+| [liangmianya/dsh-synapse](https://github.com/liangmianya/dsh-synapse) | A visual, non-linear conversation workspace: a canvas-based session explorer and branching workspace over DSH's native sessions. | 2026-08-16 |
 
 ## 📣 作者自荐
 
@@ -276,7 +276,7 @@ mindmap
 - **下游市场文件：** [data/market.json](./data/market.json) 是给下游市场（如 DSH 桌面端插件市场）消费的精选小文件——在快照与 curation 之上过滤、清洗并按类目均衡发牌（≤600 条、≤500 KB），每日快照刷新与 curation 合并后自动重建；字段与生成规则见下游的[发布规范](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md)。同一时序下同步生成根目录 [MARKET.md](./MARKET.md)——这份文件的只读可视化（按 Star 数排名），可在 GitHub 上直接预览市场内容，无需安装下游插件。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
-截至 2026-08-20，全量目录收录 **7740** 个仓库、**27** 种主要语言；其中 **6780** 个声明了许可证，**7720** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
+截至 2026-08-21，全量目录收录 **8787** 个仓库、**28** 种主要语言；其中 **7792** 个声明了许可证，**8766** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
 
 ## ⚠️ 使用与安全
 
