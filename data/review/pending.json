@@ -1,2616 +1,316 @@
 {
-  "generated_at": "2026-08-20T16:17:09.522Z",
-  "snapshot_date": "2026-08-20",
+  "generated_at": "2026-08-22T04:03:46.162Z",
+  "snapshot_date": "2026-08-21",
   "pending": [
     {
-      "first_seen": "2026-08-20",
-      "full_name": "dshplugin/dsh-plugin-hub",
-      "html_url": "https://github.com/dshplugin/dsh-plugin-hub",
-      "description": "DeepSeek Harness 社区内置插件市场（dsh-plugin）— 搜索插件、下载并安装 4000+ 人工精选社区插件，每日更新、完全免费。内置在 Harness「设置 → 插件中心」，无需离开应用即可浏览、搜索、安装各类 AI 插件。",
-      "language": "TypeScript",
-      "stargazers_count": 12,
-      "forks_count": 3,
-      "license": "MIT",
-      "created_at": "2026-08-20T03:32:27Z",
-      "pushed_at": "2026-08-20T10:56:32Z",
-      "topics": [
-        "agent",
-        "ai",
-        "cli",
-        "community-plugins",
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugin",
-        "dsh-plugin-org",
-        "harness",
-        "open-source",
-        "plugin-hub",
-        "plugin-marketplace",
-        "plugins",
-        "typescript"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "hibays/DSHL",
-      "html_url": "https://github.com/hibays/DSHL",
-      "description": "极简 DeepSeek Harness 桌面版：单EXE，~4M，即开即用；自动复用本地 dsh 安装、自安装/更新 dsh，启动完全可配置；托盘收纳时自动销毁UI层，内存占用极低，dsh 后台持续服务、随时唤回。",
-      "language": "Rust",
+      "first_seen": "2026-08-21",
+      "full_name": "soyoungzsy/soya-workflows",
+      "html_url": "https://github.com/soyoungzsy/soya-workflows",
+      "description": "🏭 SOYA Workflows — enterprise workflow skills for DeepSeek Harness: notify (webhook), docs (Yuque API), intel (RSS), report (daily/weekly/monthly).  企业工作流四件套 AI 技能。",
+      "language": "Python",
       "stargazers_count": 3,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-15T20:39:53Z",
-      "pushed_at": "2026-08-20T15:05:10Z",
-      "topics": [
-        "browser",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugin-desktop",
-        "dsh-runner",
-        "launcher",
-        "portable",
-        "rust",
-        "tray",
-        "webui",
-        "webview"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "Lheyang/orca-dsh-launcher",
-      "html_url": "https://github.com/Lheyang/orca-dsh-launcher",
-      "description": "🐋 Orca DSH Launcher：DSH 更新检查 + 服务器启停 + 系统托盘 + 图形控制台 + 一键安装（Cordis 插件 + 桌面端）",
-      "language": "PowerShell",
-      "stargazers_count": 3,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-16T14:26:28Z",
-      "pushed_at": "2026-08-20T14:45:11Z",
-      "topics": [
-        "cordis",
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "launcher",
-        "orca",
-        "plugin",
-        "powershell",
-        "tray",
-        "windows",
-        "wpf"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "sandbaseai/dsh-plugin-store",
-      "html_url": "https://github.com/sandbaseai/dsh-plugin-store",
-      "description": "Native plugin marketplace for DeepSeek Harness: discover, filter, install, and manage 4,000+ community plugin packages.",
-      "language": "TypeScript",
-      "stargazers_count": 3,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-17T05:45:38Z",
-      "pushed_at": "2026-08-20T04:25:16Z",
-      "topics": [
-        "agent-harness",
-        "ai-agents",
-        "cordis",
-        "deepseek",
-        "deepseek-harness",
-        "deepseek-harness-plugin",
-        "developer-experience",
-        "developer-tools",
-        "dsh",
-        "dsh-plugin",
-        "extension-marketplace",
-        "local-first",
-        "marketplace",
-        "open-source",
-        "plugin-manager",
-        "plugin-marketplace",
-        "plugin-store",
-        "plugins",
-        "self-hosted",
-        "typescript"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "fancr-code/dsh-tray-launcher",
-      "html_url": "https://github.com/fancr-code/dsh-tray-launcher",
-      "description": "DeepSeek Harness 的 Windows 桌面托盘启动器：无窗口运行 dsh web，快捷方式 + 系统托盘（打开界面/日志/退出即全退），一键安装。",
-      "language": "PowerShell",
-      "stargazers_count": 2,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-19T06:14:53Z",
-      "pushed_at": "2026-08-20T10:02:42Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "launcher",
-        "powershell",
-        "system-tray",
-        "windows"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "zhenghaoyang24/dsh-desktop",
-      "html_url": "https://github.com/zhenghaoyang24/dsh-desktop",
-      "description": "DeepSeek Harness desktop.DeepSeek Harness 桌面端。",
-      "language": "JavaScript",
-      "stargazers_count": 2,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-14T05:56:19Z",
-      "pushed_at": "2026-08-20T13:17:02Z",
-      "topics": [
-        "deepseek",
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugin-desktop",
-        "dsh-plugins",
-        "harness"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "dreamer0323/dsh-desktop",
-      "html_url": "https://github.com/dreamer0323/dsh-desktop",
-      "description": "一个dsh桌面端应用，可自定义主题以及桌宠，内置了雾雨魔理沙主题。",
-      "language": "JavaScript",
-      "stargazers_count": 1,
-      "forks_count": 0,
-      "license": null,
-      "created_at": "2026-08-17T08:27:32Z",
-      "pushed_at": "2026-08-19T10:18:02Z",
-      "topics": [
-        "agent",
-        "ai",
-        "dsh-desktop",
-        "dsh-plugin",
-        "dsh-plugins"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "R2h1/deepseek-harness-app",
-      "html_url": "https://github.com/R2h1/deepseek-harness-app",
-      "description": "DeepSeek Harness 桌面端 —— 自包含的 ElectroBun 外壳，内置可自动更新的 dsh 引擎，附带 Windows 图形化安装程序",
-      "language": "TypeScript",
-      "stargazers_count": 1,
-      "forks_count": 0,
-      "license": null,
-      "created_at": "2026-08-16T09:40:51Z",
-      "pushed_at": "2026-08-20T12:18:29Z",
-      "topics": [
-        "agent",
-        "ai-assistant",
-        "bun",
-        "deepseek",
-        "deepseek-harness",
-        "desktop-app",
-        "dsh-plugin",
-        "electrobun",
-        "typescript",
-        "windows"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "386842536/dsh-launcher",
-      "html_url": "https://github.com/386842536/dsh-launcher",
-      "description": "DSH 启动器 — 双击一键启动 DeepSeek Harness / Double-click macOS launcher",
-      "language": "Shell",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-19T15:57:18Z",
-      "pushed_at": "2026-08-19T16:11:45Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "dsh-plugin-market",
-        "launcher",
-        "macos",
-        "shell-script"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "Alvinpro/DSH-Launcher",
-      "html_url": "https://github.com/Alvinpro/DSH-Launcher",
-      "description": "A single-file Rust Windows OS launcher for the dsh (DeepSeek Harness) web UI — no WebView2, no runtime deps, just a few hundred KB. Double-click to start; close the browser and the whole process tree is torn down — no terminal to babysit, no leftover node processes holding the port, no console flash.",
-      "language": "Rust",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-19T17:03:41Z",
-      "pushed_at": "2026-08-19T17:04:12Z",
-      "topics": [
-        "dsh",
-        "dsh-plugin",
-        "dsh-web",
-        "launcher",
-        "no-webview",
-        "rust"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "Ayle5678/dsh-auto-guard",
-      "html_url": "https://github.com/Ayle5678/dsh-auto-guard",
-      "description": "一款DSH (DeepSeek Harness) 插件：类似 Claude Code 中 Auto Mode 的一种命令通过机制，给 dsh中的full access 加一层 LLM 安全网的自动审批插件。",
-      "language": "TypeScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:20:59Z",
-      "pushed_at": "2026-08-20T15:40:19Z",
-      "topics": [
-        "dsh-plugin",
-        "dsh-plugins"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "BigAdam-h/dsh-api-meter",
-      "html_url": "https://github.com/BigAdam-h/dsh-api-meter",
-      "description": "多供应商 API 用量/余额监控插件（DeepSeek Harness）",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": null,
-      "created_at": "2026-08-20T15:07:30Z",
-      "pushed_at": "2026-08-20T15:21:37Z",
-      "topics": [
-        "api-balance",
-        "api-usage",
-        "deepseek-harness",
-        "dsh-plugin",
-        "openai-compatible"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "boomzikazita/dsh-spec-gate",
-      "html_url": "https://github.com/boomzikazita/dsh-spec-gate",
-      "description": "Specification gate plugin for DeepSeek Harness: Socratic interview (ambiguity scoring) + immutable Seed locking + pre-delivery acceptance gate",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:21:18Z",
-      "pushed_at": "2026-08-20T15:22:29Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "quality-gate",
-        "specification"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "Cruciforms/dsh-socrates",
-      "html_url": "https://github.com/Cruciforms/dsh-socrates",
-      "description": "Socratic clarify-first deep research plugin for DeepSeek Harness: adaptive multi-round research with evidence-closed cited reports, cross-verification, and citation auditing.",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:46:24Z",
-      "pushed_at": "2026-08-20T15:10:27Z",
-      "topics": [
-        "cordis",
-        "deep-research",
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "DevRico003/dsh-verifier",
-      "html_url": "https://github.com/DevRico003/dsh-verifier",
-      "description": "LLM-as-a-verifier plugin for DeepSeek Harness: end-of-turn quality gate, best-of-N selection and assessment tools (port of llm-as-a-verifier)",
-      "language": "TypeScript",
-      "stargazers_count": 0,
       "forks_count": 0,
       "license": "NOASSERTION",
-      "created_at": "2026-08-20T15:09:37Z",
-      "pushed_at": "2026-08-20T15:49:55Z",
+      "created_at": "2026-08-20T15:21:13Z",
+      "pushed_at": "2026-08-20T15:35:29Z",
       "topics": [
+        "agent-skills",
         "deepseek-harness",
         "dsh-plugin",
-        "llm-as-a-judge"
+        "workflow"
       ]
     },
     {
-      "first_seen": "2026-08-20",
-      "full_name": "Esperi/dsh-uispec",
-      "html_url": "https://github.com/Esperi/dsh-uispec",
-      "description": "规格驱动的 UI 原型生成插件（DeepSeek Harness）：解析 .uispec YAML 规格并生成自包含 HTML 预览",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:18:45Z",
-      "pushed_at": "2026-08-20T15:30:25Z",
-      "topics": [
-        "dsh-plugin",
-        "poor-code",
-        "vibe-coding"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "jw0507/dsh-shell",
-      "html_url": "https://github.com/jw0507/dsh-shell",
-      "description": "dsh桌面端，windows版，无依赖，纯壳启动器，DSH原生更新，免维护，独立视窗",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T12:21:57Z",
-      "pushed_at": "2026-08-20T15:46:51Z",
-      "topics": [
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugin-desktop",
-        "dsh-plugins"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "Liaominduyh/GitHub-dsh-plugin-market",
-      "html_url": "https://github.com/Liaominduyh/GitHub-dsh-plugin-market",
-      "description": "github-dsh插件市场：DSH 插件市场（双源聚合 2830+ 插件浏览、官方一键安装、自动翻译、git 订阅管理）",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": null,
-      "created_at": "2026-08-20T13:05:57Z",
-      "pushed_at": "2026-08-20T14:43:39Z",
-      "topics": [
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "oli-bot/dsh-desktop",
-      "html_url": "https://github.com/oli-bot/dsh-desktop",
-      "description": "DeepWork — community desktop shell for DeepSeek Harness: Electron + sidecar DSH engine + stock DSH web UI, sharing $DSH_HOME (unofficial, MIT)",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-18T05:54:41Z",
-      "pushed_at": "2026-08-20T05:46:02Z",
-      "topics": [
-        "agent",
-        "deepseek",
-        "deepseek-harness",
-        "desktop-app",
-        "dsh",
-        "dsh-plugin",
-        "electron"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "oriliz/dsh-mcp-apps-host",
-      "html_url": "https://github.com/oriliz/dsh-mcp-apps-host",
-      "description": "MCP Apps Host plugin for DeepSeek Harness: renders interactive HTML cards from MCP _meta.ui in sandboxed iframes, bridges postMessage to MCP tools/call and resources/read",
+      "first_seen": "2026-08-21",
+      "full_name": "amazing-tree-keeper/dsh-easy-lsp",
+      "html_url": "https://github.com/amazing-tree-keeper/dsh-easy-lsp",
+      "description": "Language-server (LSP) manager for DeepSeek Harness: self-contained engine, one-click installer and proactive diagnostics",
       "language": "TypeScript",
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "forks_count": 0,
-      "license": null,
-      "created_at": "2026-08-20T15:34:33Z",
-      "pushed_at": "2026-08-20T15:38:21Z",
+      "license": "MIT",
+      "created_at": "2026-08-20T02:41:36Z",
+      "pushed_at": "2026-08-21T10:25:00Z",
       "topics": [
         "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh-plugin",
+        "language-server-protocol",
+        "lsp"
+      ]
+    },
+    {
+      "first_seen": "2026-08-21",
+      "full_name": "amazing-tree-keeper/dsh-easy-mcp",
+      "html_url": "https://github.com/amazing-tree-keeper/dsh-easy-mcp",
+      "description": "Visual MCP server manager for DeepSeek Harness: manage MCP servers from a settings UI with live updates, connect test and auto backup",
+      "language": "TypeScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-20T02:41:30Z",
+      "pushed_at": "2026-08-21T10:26:11Z",
+      "topics": [
+        "deepseek-harness",
+        "deepseek-harness-plugin",
         "dsh-plugin",
         "mcp",
-        "mcp-apps"
+        "model-context-protocol"
       ]
     },
     {
-      "first_seen": "2026-08-20",
-      "full_name": "Pagemalthusian934/deepseek-desktop",
-      "html_url": "https://github.com/Pagemalthusian934/deepseek-desktop",
-      "description": "Unify DeepSeek Chat and Harness in one native desktop app for macOS and Windows.",
-      "language": null,
-      "stargazers_count": 0,
+      "first_seen": "2026-08-21",
+      "full_name": "songying2024/dsh-plugin-lingxi",
+      "html_url": "https://github.com/songying2024/dsh-plugin-lingxi",
+      "description": "dsh-plugin: 把 DeepSeek Harness 会话记录与工作区产物导入为灵犀（金山办公）可接手的新任务",
+      "language": "JavaScript",
+      "stargazers_count": 1,
       "forks_count": 0,
       "license": null,
-      "created_at": "2026-08-20T07:59:48Z",
-      "pushed_at": "2026-08-20T07:59:56Z",
+      "created_at": "2026-08-21T12:18:00Z",
+      "pushed_at": "2026-08-21T12:18:35Z",
       "topics": [
-        "agentic-workflows",
-        "ai-coding",
-        "claude-code",
-        "codex",
-        "codex-design",
-        "cordis",
-        "cordis-plugin",
-        "data-analysis",
-        "deepseek",
-        "design-systems",
-        "desktop",
-        "dsh-plugin",
-        "dsh-plugin-desktop",
-        "dsh-plugins",
-        "electron",
-        "hermes-agent",
-        "local-first",
-        "vibe-coding"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "pinkear/deepseek-harness-liverpool-theme",
-      "html_url": "https://github.com/pinkear/deepseek-harness-liverpool-theme",
-      "description": "Liverpool-inspired DSH theme plugin with local custom pattern backgrounds.",
-      "language": "TypeScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:28:43Z",
-      "pushed_at": "2026-08-20T15:33:31Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin",
-        "liverpool",
-        "theme-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "SchrodiL/dsh-chrome-app-launcher",
-      "html_url": "https://github.com/SchrodiL/dsh-chrome-app-launcher",
-      "description": "Desktop launcher for Deepseek Harness as a Chrome APP",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": null,
-      "created_at": "2026-08-20T12:38:34Z",
-      "pushed_at": "2026-08-20T12:41:01Z",
-      "topics": [
-        "dsh-plugin",
-        "dsh-plugin-desktop",
-        "dsh-plugin-market",
-        "dsh-plugins"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "shaun5297/dsh-launcher",
-      "html_url": "https://github.com/shaun5297/dsh-launcher",
-      "description": "One-click launcher for DeepSeek Harness: detect → start backend (dsh web) → wait ready → open Chrome new window. Zero-dependency CLI, cross-platform.",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 1,
-      "license": "MIT",
-      "created_at": "2026-08-20T08:15:20Z",
-      "pushed_at": "2026-08-20T09:38:15Z",
-      "topics": [
-        "cli",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "launcher",
-        "one-click"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "shellexy/dsh-webviewgtk",
-      "html_url": "https://github.com/shellexy/dsh-webviewgtk",
-      "description": "A GTK4 + WebKitGTK 6.0 based web launcher for dsh",
-      "language": "Python",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:40Z",
-      "pushed_at": "2026-08-20T15:08:51Z",
-      "topics": [
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugin-desktop"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "simune/dsh-desktop",
-      "html_url": "https://github.com/simune/dsh-desktop",
-      "description": "DeepSeek Harness 的插件管理工作区与一个基于 Tauri 的桌面客户端（dsh-desktop），把 dsh Web 服务捆绑并以原生窗口呈现，简化桌面端部署与使用体验。",
-      "language": "Rust",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-15T11:19:52Z",
-      "pushed_at": "2026-08-20T10:06:58Z",
-      "topics": [
-        "dsh",
-        "dsh-bundle",
-        "dsh-ctest",
-        "dsh-plugin",
-        "dsh-plugin-market",
-        "dsh-plugin-verify",
-        "dsh-plugins",
-        "dsh-skill"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "sjk1949/orca-cat",
-      "html_url": "https://github.com/sjk1949/orca-cat",
-      "description": "A third-party launcher for the DeepSeek Harness.",
-      "language": "C#",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-19T18:01:55Z",
-      "pushed_at": "2026-08-20T11:54:51Z",
-      "topics": [
-        "desktop-app",
-        "dsh-plugin",
-        "vibe-coding",
-        "windows"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "sol5766/dshm_client",
-      "html_url": "https://github.com/sol5766/dshm_client",
-      "description": "deepseek harnes HarmonyOS PC client",
-      "language": "Shell",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T13:28:50Z",
-      "pushed_at": "2026-08-20T13:44:07Z",
-      "topics": [
-        "deepseek-harness",
-        "deepseek-harness-plugins",
-        "dsh-plugin",
-        "dsh-plugin-market",
-        "dsh-plugins",
-        "sentation"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "SpookySandwich/dsh-plugin-rollout-scout",
-      "html_url": "https://github.com/SpookySandwich/dsh-plugin-rollout-scout",
-      "description": "DSH 刷灰测模型插件。DeepSeek Harness plugin: fish for a limited-rollout conversation model by scoring live chain-of-thought. ",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:23:17Z",
-      "pushed_at": "2026-08-20T15:42:05Z",
-      "topics": [
-        "ab-test",
-        "cordis-plugin",
         "deepseek",
         "deepseek-harness",
         "dsh",
         "dsh-plugin",
-        "llm",
-        "model-detection",
-        "rollout"
+        "lingxi",
+        "plugin",
+        "wps"
       ]
     },
     {
       "first_seen": "2026-08-20",
       "full_name": "T-MKT/dsh-ui-settings",
       "html_url": "https://github.com/T-MKT/dsh-ui-settings",
-      "description": "Provide general UI settings for DeepSeek Harness, suiting your personalization. ",
+      "description": "Provide generic UI customization settings for DeepSeek Harness, like wallpaper, theme color, etc. ",
       "language": null,
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "forks_count": 0,
       "license": null,
       "created_at": "2026-08-19T15:12:02Z",
-      "pushed_at": "2026-08-19T15:29:16Z",
+      "pushed_at": "2026-08-21T14:35:59Z",
       "topics": [
-        "deepseek-harness",
         "deepseek-harness-plugin",
         "deepseek-harness-plugins",
+        "dsh-plugin",
+        "dsh-plugins"
+      ]
+    },
+    {
+      "first_seen": "2026-08-21",
+      "full_name": "MisRightW/dsh-taskboard",
+      "html_url": "https://github.com/MisRightW/dsh-taskboard",
+      "description": "dsh-taskboard",
+      "language": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-20T06:32:24Z",
+      "pushed_at": "2026-08-20T06:32:25Z",
+      "topics": [
         "dsh",
         "dsh-plugin",
         "dsh-plugins"
       ]
     },
     {
-      "first_seen": "2026-08-20",
-      "full_name": "taltara/capmark",
-      "html_url": "https://github.com/taltara/capmark",
-      "description": "Capability manifests for AI agent plugins. Declare what a plugin may do, in Markdown, and check it.",
-      "language": "TypeScript",
+      "first_seen": "2026-08-21",
+      "full_name": "SeireiA/dsh-plugin-rtk",
+      "html_url": "https://github.com/SeireiA/dsh-plugin-rtk",
+      "description": "DeepSeek Harness plugin for RTK-powered shell output compaction",
+      "language": "JavaScript",
       "stargazers_count": 0,
       "forks_count": 0,
       "license": "MIT",
-      "created_at": "2026-08-20T15:04:28Z",
-      "pushed_at": "2026-08-20T15:49:36Z",
+      "created_at": "2026-08-21T04:48:35Z",
+      "pushed_at": "2026-08-21T10:13:01Z",
       "topics": [
-        "agent",
-        "capabilities",
         "deepseek-harness",
         "dsh-plugin",
-        "markdown",
-        "mcp",
-        "permissions",
-        "security"
+        "rtk",
+        "token-saver"
       ]
     },
     {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-ab-sample",
-      "html_url": "https://github.com/uckkk/dsh-ab-sample",
-      "description": "A/B测试样本量",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:54:54Z",
-      "pushed_at": "2026-08-20T14:55:02Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-accounting-cert",
-      "html_url": "https://github.com/uckkk/dsh-accounting-cert",
-      "description": "会计证书要求",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:03:18Z",
-      "pushed_at": "2026-08-20T15:03:29Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-ad-bid",
-      "html_url": "https://github.com/uckkk/dsh-ad-bid",
-      "description": "广告出价上限",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:03:56Z",
-      "pushed_at": "2026-08-20T15:04:06Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-ai-terms",
-      "html_url": "https://github.com/uckkk/dsh-ai-terms",
-      "description": "AI 术语",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:52:20Z",
-      "pushed_at": "2026-08-20T14:54:30Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-airport-time",
-      "html_url": "https://github.com/uckkk/dsh-airport-time",
-      "description": "机场提前时间",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:37:26Z",
-      "pushed_at": "2026-08-20T15:37:36Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-albania",
-      "html_url": "https://github.com/uckkk/dsh-albania",
-      "description": "阿尔巴尼亚国家",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:56:32Z",
-      "pushed_at": "2026-08-20T14:56:42Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-algeria",
-      "html_url": "https://github.com/uckkk/dsh-algeria",
-      "description": "阿尔及利亚国家",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:51Z",
-      "pushed_at": "2026-08-20T14:59:00Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-aluminium",
-      "html_url": "https://github.com/uckkk/dsh-aluminium",
-      "description": "铝元素",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:01:03Z",
-      "pushed_at": "2026-08-20T15:01:32Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-americium",
-      "html_url": "https://github.com/uckkk/dsh-americium",
-      "description": "镅元素",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:03:36Z",
-      "pushed_at": "2026-08-20T15:03:46Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-angola",
-      "html_url": "https://github.com/uckkk/dsh-angola",
-      "description": "安哥拉国家",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:38:03Z",
-      "pushed_at": "2026-08-20T15:41:32Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-anniversary",
-      "html_url": "https://github.com/uckkk/dsh-anniversary",
-      "description": "纪念日计算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:41:19Z",
-      "pushed_at": "2026-08-20T15:41:29Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-aov-up",
-      "html_url": "https://github.com/uckkk/dsh-aov-up",
-      "description": "客单价提升测算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:01:31Z",
-      "pushed_at": "2026-08-20T15:01:41Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-battery-life",
-      "html_url": "https://github.com/uckkk/dsh-battery-life",
-      "description": "电池续航估算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:52:48Z",
-      "pushed_at": "2026-08-20T14:52:58Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-bilibili-live",
-      "html_url": "https://github.com/uckkk/dsh-bilibili-live",
-      "description": "B站视频信息",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:56:00Z",
-      "pushed_at": "2026-08-20T14:56:12Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-bleach-safety",
-      "html_url": "https://github.com/uckkk/dsh-bleach-safety",
-      "description": "漂白安全",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:37:51Z",
-      "pushed_at": "2026-08-20T15:40:32Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-blood-pressure",
-      "html_url": "https://github.com/uckkk/dsh-blood-pressure",
-      "description": "血压分类",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:19Z",
-      "pushed_at": "2026-08-20T14:58:29Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-brushing-time",
-      "html_url": "https://github.com/uckkk/dsh-brushing-time",
-      "description": "刷牙时长",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:03:10Z",
-      "pushed_at": "2026-08-20T15:03:26Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-cable-power",
-      "html_url": "https://github.com/uckkk/dsh-cable-power",
-      "description": "充电功率计算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:37:42Z",
-      "pushed_at": "2026-08-20T15:39:48Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-caffeine",
-      "html_url": "https://github.com/uckkk/dsh-caffeine",
-      "description": "咖啡因半衰期",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:56:03Z",
-      "pushed_at": "2026-08-20T14:56:13Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-cet-score",
-      "html_url": "https://github.com/uckkk/dsh-cet-score",
-      "description": "四六级估分",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:56:18Z",
-      "pushed_at": "2026-08-20T14:56:29Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-charge-time",
-      "html_url": "https://github.com/uckkk/dsh-charge-time",
-      "description": "充电时间估算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:55:01Z",
-      "pushed_at": "2026-08-20T14:55:12Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-city-oslo-city",
-      "html_url": "https://github.com/uckkk/dsh-city-oslo-city",
-      "description": "奥斯陆市",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T00:16:33Z",
-      "pushed_at": "2026-08-20T00:20:03Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-civil-exam",
-      "html_url": "https://github.com/uckkk/dsh-civil-exam",
-      "description": "行测答题节奏",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:01:03Z",
-      "pushed_at": "2026-08-20T15:01:14Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-coupon-opt",
-      "html_url": "https://github.com/uckkk/dsh-coupon-opt",
-      "description": "优惠券判断",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:06:05Z",
-      "pushed_at": "2026-08-20T15:06:15Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-ctr-significance",
-      "html_url": "https://github.com/uckkk/dsh-ctr-significance",
-      "description": "转化率显著性",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:57:07Z",
-      "pushed_at": "2026-08-20T14:57:14Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-ctr-split",
-      "html_url": "https://github.com/uckkk/dsh-ctr-split",
-      "description": "点击率拆解",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:05:34Z",
-      "pushed_at": "2026-08-20T15:05:43Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-currency-tips",
-      "html_url": "https://github.com/uckkk/dsh-currency-tips",
-      "description": "货币使用提示",
-      "language": null,
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:38:48Z",
-      "pushed_at": "2026-08-20T15:39:34Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-dental-check",
-      "html_url": "https://github.com/uckkk/dsh-dental-check",
-      "description": "口腔自检",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:42:02Z",
-      "pushed_at": "2026-08-20T15:42:12Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-detergent-dose",
-      "html_url": "https://github.com/uckkk/dsh-detergent-dose",
-      "description": "洗衣液用量",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:01:00Z",
-      "pushed_at": "2026-08-20T15:01:12Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-deworm",
-      "html_url": "https://github.com/uckkk/dsh-deworm",
-      "description": "驱虫计划",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:16Z",
-      "pushed_at": "2026-08-20T14:58:27Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-dish-margin",
-      "html_url": "https://github.com/uckkk/dsh-dish-margin",
-      "description": "菜品毛利计算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:43:46Z",
-      "pushed_at": "2026-08-20T15:43:56Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-dry-guide",
-      "html_url": "https://github.com/uckkk/dsh-dry-guide",
-      "description": "晾晒烘干指南",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:05:33Z",
-      "pushed_at": "2026-08-20T15:05:42Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-egg-size",
-      "html_url": "https://github.com/uckkk/dsh-egg-size",
-      "description": "鸡蛋大小",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:52:02Z",
-      "pushed_at": "2026-08-20T14:52:13Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-email-length",
-      "html_url": "https://github.com/uckkk/dsh-email-length",
-      "description": "邮件字数建议",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:53:38Z",
-      "pushed_at": "2026-08-20T14:53:52Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-fabric-care",
-      "html_url": "https://github.com/uckkk/dsh-fabric-care",
-      "description": "面料护理",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:44:51Z",
-      "pushed_at": "2026-08-20T15:44:59Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-figure-genghis",
-      "html_url": "https://github.com/uckkk/dsh-figure-genghis",
-      "description": "成吉思汗",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T00:07:15Z",
-      "pushed_at": "2026-08-20T00:07:23Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-figure-lincoln",
-      "html_url": "https://github.com/uckkk/dsh-figure-lincoln",
-      "description": "林肯",
+      "first_seen": "2026-08-21",
+      "full_name": "uckkk/dsh-fat-loss-cal",
+      "html_url": "https://github.com/uckkk/dsh-fat-loss-cal",
+      "description": "减脂热量计算",
       "language": null,
       "stargazers_count": 0,
       "forks_count": 0,
       "license": null,
-      "created_at": "2026-08-20T00:14:55Z",
-      "pushed_at": "2026-08-20T00:14:56Z",
+      "created_at": "2026-08-20T17:45:45Z",
+      "pushed_at": "2026-08-20T17:45:46Z",
       "topics": [
         "deepseek-harness",
         "dsh-plugin"
       ]
     },
     {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-figure-mao",
-      "html_url": "https://github.com/uckkk/dsh-figure-mao",
-      "description": "毛泽东",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T00:32:36Z",
-      "pushed_at": "2026-08-20T00:32:44Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-figure-petra1",
-      "html_url": "https://github.com/uckkk/dsh-figure-petra1",
-      "description": "彼得大帝",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T00:30:21Z",
-      "pushed_at": "2026-08-20T00:30:34Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-first-maintenance",
-      "html_url": "https://github.com/uckkk/dsh-first-maintenance",
-      "description": "首保提醒",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:55:53Z",
-      "pushed_at": "2026-08-20T14:56:01Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-flour-swap",
-      "html_url": "https://github.com/uckkk/dsh-flour-swap",
-      "description": "面粉替代",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:54:18Z",
-      "pushed_at": "2026-08-20T14:54:30Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-follower-goal",
-      "html_url": "https://github.com/uckkk/dsh-follower-goal",
-      "description": "涨粉目标拆解",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:56:37Z",
-      "pushed_at": "2026-08-20T14:56:47Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-food-transition",
-      "html_url": "https://github.com/uckkk/dsh-food-transition",
-      "description": "换粮过渡",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:00:31Z",
-      "pushed_at": "2026-08-20T15:03:10Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-gaokao-split",
-      "html_url": "https://github.com/uckkk/dsh-gaokao-split",
-      "description": "备考时间拆解",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:05:33Z",
-      "pushed_at": "2026-08-20T15:05:43Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-gift-budget",
-      "html_url": "https://github.com/uckkk/dsh-gift-budget",
-      "description": "送礼预算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:38:29Z",
-      "pushed_at": "2026-08-20T15:39:15Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-github-live",
-      "html_url": "https://github.com/uckkk/dsh-github-live",
-      "description": "GitHub仓库信息",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:55:52Z",
-      "pushed_at": "2026-08-20T14:56:00Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-graduate-exam",
-      "html_url": "https://github.com/uckkk/dsh-graduate-exam",
-      "description": "考研过线判断",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:33Z",
-      "pushed_at": "2026-08-20T14:58:42Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-group-buy",
-      "html_url": "https://github.com/uckkk/dsh-group-buy",
-      "description": "拼单团购",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:51Z",
-      "pushed_at": "2026-08-20T14:59:00Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-grout-calc",
-      "html_url": "https://github.com/uckkk/dsh-grout-calc",
-      "description": "美缝剂用量",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:52:01Z",
-      "pushed_at": "2026-08-20T14:53:33Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-hair-wash",
-      "html_url": "https://github.com/uckkk/dsh-hair-wash",
-      "description": "洗头频率",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:51:43Z",
-      "pushed_at": "2026-08-20T14:52:28Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-hongbao",
-      "html_url": "https://github.com/uckkk/dsh-hongbao",
-      "description": "红包计算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:56:36Z",
-      "pushed_at": "2026-08-20T14:56:47Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-hotel-tax",
-      "html_url": "https://github.com/uckkk/dsh-hotel-tax",
-      "description": "酒店税费计算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:55:52Z",
-      "pushed_at": "2026-08-20T14:56:02Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-humidity",
-      "html_url": "https://github.com/uckkk/dsh-humidity",
-      "description": "湿度参考",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:52:29Z",
-      "pushed_at": "2026-08-20T14:54:24Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-hydroponics",
-      "html_url": "https://github.com/uckkk/dsh-hydroponics",
-      "description": "水培营养液配比",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:56:28Z",
-      "pushed_at": "2026-08-20T14:56:41Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-index-live",
-      "html_url": "https://github.com/uckkk/dsh-index-live",
-      "description": "大盘指数行情",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:52:24Z",
-      "pushed_at": "2026-08-20T14:53:57Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-insurance-estimate",
-      "html_url": "https://github.com/uckkk/dsh-insurance-estimate",
-      "description": "车险费用估算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:52:11Z",
-      "pushed_at": "2026-08-20T14:53:48Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-ip-live",
-      "html_url": "https://github.com/uckkk/dsh-ip-live",
-      "description": "公网IP归属地",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:05Z",
-      "pushed_at": "2026-08-20T14:58:16Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-iron-temp",
-      "html_url": "https://github.com/uckkk/dsh-iron-temp",
-      "description": "熨烫温度",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:42:35Z",
-      "pushed_at": "2026-08-20T15:42:47Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-kpi-reach",
-      "html_url": "https://github.com/uckkk/dsh-kpi-reach",
-      "description": "KPI缺口拆解",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:02:45Z",
-      "pushed_at": "2026-08-20T15:02:55Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-laundry-temp",
-      "html_url": "https://github.com/uckkk/dsh-laundry-temp",
-      "description": "洗涤水温",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:46Z",
-      "pushed_at": "2026-08-20T14:58:56Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-leave-days",
-      "html_url": "https://github.com/uckkk/dsh-leave-days",
-      "description": "年假天数",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:56:02Z",
-      "pushed_at": "2026-08-20T14:56:12Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-live-stream",
-      "html_url": "https://github.com/uckkk/dsh-live-stream",
-      "description": "直播带货拆解",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:01:41Z",
-      "pushed_at": "2026-08-20T15:01:50Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-log-volume",
-      "html_url": "https://github.com/uckkk/dsh-log-volume",
-      "description": "日志量估算",
+      "first_seen": "2026-08-21",
+      "full_name": "uckkk/dsh-future-cbdc",
+      "html_url": "https://github.com/uckkk/dsh-future-cbdc",
+      "description": "央行数字货币",
       "language": null,
       "stargazers_count": 0,
       "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:43:18Z",
-      "pushed_at": "2026-08-20T15:43:27Z",
+      "license": null,
+      "created_at": "2026-08-21T10:59:06Z",
+      "pushed_at": "2026-08-21T10:59:07Z",
       "topics": [
         "deepseek-harness",
         "dsh-plugin"
       ]
     },
     {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-luggage-size",
-      "html_url": "https://github.com/uckkk/dsh-luggage-size",
-      "description": "行李箱尺寸",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:41:38Z",
-      "pushed_at": "2026-08-20T15:41:46Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-luggage-weight",
-      "html_url": "https://github.com/uckkk/dsh-luggage-weight",
-      "description": "行李超重计算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:05:01Z",
-      "pushed_at": "2026-08-20T15:05:14Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-meeting-cost",
-      "html_url": "https://github.com/uckkk/dsh-meeting-cost",
-      "description": "会议成本计算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:51:24Z",
-      "pushed_at": "2026-08-20T14:51:33Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-monitor-ppi",
-      "html_url": "https://github.com/uckkk/dsh-monitor-ppi",
-      "description": "显示器PPI",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:50:34Z",
-      "pushed_at": "2026-08-20T14:50:43Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-nail-trim",
-      "html_url": "https://github.com/uckkk/dsh-nail-trim",
-      "description": "剪指甲周期",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:05:13Z",
-      "pushed_at": "2026-08-20T15:05:23Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-neuter",
-      "html_url": "https://github.com/uckkk/dsh-neuter",
-      "description": "绝育时机",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:37:35Z",
-      "pushed_at": "2026-08-20T15:37:43Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-newborn-care",
-      "html_url": "https://github.com/uckkk/dsh-newborn-care",
-      "description": "新生儿护理",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:56:06Z",
-      "pushed_at": "2026-08-20T14:56:17Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-npm-live",
-      "html_url": "https://github.com/uckkk/dsh-npm-live",
-      "description": "npm包最新版本",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:50:52Z",
-      "pushed_at": "2026-08-20T14:51:22Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-okr-split",
-      "html_url": "https://github.com/uckkk/dsh-okr-split",
-      "description": "OKR目标拆解",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:00:30Z",
-      "pushed_at": "2026-08-20T15:00:40Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-order-threshold",
-      "html_url": "https://github.com/uckkk/dsh-order-threshold",
-      "description": "凑单满减",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:01:03Z",
-      "pushed_at": "2026-08-20T15:01:49Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-packing-list",
-      "html_url": "https://github.com/uckkk/dsh-packing-list",
-      "description": "打包清单",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:59:22Z",
-      "pushed_at": "2026-08-20T14:59:30Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-paint-tint",
-      "html_url": "https://github.com/uckkk/dsh-paint-tint",
-      "description": "乳胶漆调色",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:57:56Z",
-      "pushed_at": "2026-08-20T14:58:05Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-pet-bath",
-      "html_url": "https://github.com/uckkk/dsh-pet-bath",
-      "description": "宠物洗澡频率",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:55:51Z",
-      "pushed_at": "2026-08-20T14:56:03Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-pet-travel",
-      "html_url": "https://github.com/uckkk/dsh-pet-travel",
-      "description": "带宠出行",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:44:16Z",
-      "pushed_at": "2026-08-20T15:44:26Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-pixel-print",
-      "html_url": "https://github.com/uckkk/dsh-pixel-print",
-      "description": "像素打印尺寸",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:05:14Z",
-      "pushed_at": "2026-08-20T15:05:26Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-play-revenue",
-      "html_url": "https://github.com/uckkk/dsh-play-revenue",
-      "description": "播放收益估算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:52Z",
-      "pushed_at": "2026-08-20T14:59:02Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-plug-type",
-      "html_url": "https://github.com/uckkk/dsh-plug-type",
-      "description": "电源插头查询",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:57:06Z",
-      "pushed_at": "2026-08-20T14:57:16Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-post-frequency",
-      "html_url": "https://github.com/uckkk/dsh-post-frequency",
-      "description": "更新频率建议",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:03:19Z",
-      "pushed_at": "2026-08-20T15:03:29Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-ppt-pages",
-      "html_url": "https://github.com/uckkk/dsh-ppt-pages",
-      "description": "PPT页数建议",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:17Z",
-      "pushed_at": "2026-08-20T14:58:26Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-project-schedule",
-      "html_url": "https://github.com/uckkk/dsh-project-schedule",
-      "description": "项目排期估算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:04:59Z",
-      "pushed_at": "2026-08-20T15:05:12Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-pypi-live",
-      "html_url": "https://github.com/uckkk/dsh-pypi-live",
-      "description": "PyPI包最新版本",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:53:30Z",
-      "pushed_at": "2026-08-20T14:53:47Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-qps-calc",
-      "html_url": "https://github.com/uckkk/dsh-qps-calc",
-      "description": "峰值QPS估算",
+      "first_seen": "2026-08-21",
+      "full_name": "uckkk/dsh-future-fusion",
+      "html_url": "https://github.com/uckkk/dsh-future-fusion",
+      "description": "核聚变能源",
       "language": null,
       "stargazers_count": 0,
       "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:40:29Z",
-      "pushed_at": "2026-08-20T15:41:14Z",
+      "license": null,
+      "created_at": "2026-08-21T11:22:10Z",
+      "pushed_at": "2026-08-21T11:22:11Z",
       "topics": [
         "deepseek-harness",
         "dsh-plugin"
       ]
     },
     {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-rent-vs-buy",
-      "html_url": "https://github.com/uckkk/dsh-rent-vs-buy",
-      "description": "租还是买",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:44:20Z",
-      "pushed_at": "2026-08-20T15:44:33Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-rental-insurance",
-      "html_url": "https://github.com/uckkk/dsh-rental-insurance",
-      "description": "租车保险建议",
+      "first_seen": "2026-08-21",
+      "full_name": "uckkk/dsh-future-longevity",
+      "html_url": "https://github.com/uckkk/dsh-future-longevity",
+      "description": "长寿医学",
       "language": null,
       "stargazers_count": 0,
       "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:36:32Z",
-      "pushed_at": "2026-08-20T15:36:44Z",
+      "license": null,
+      "created_at": "2026-08-21T11:48:58Z",
+      "pushed_at": "2026-08-21T11:48:59Z",
       "topics": [
         "deepseek-harness",
         "dsh-plugin"
       ]
     },
     {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-repurchase",
-      "html_url": "https://github.com/uckkk/dsh-repurchase",
-      "description": "复购率计算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:59:18Z",
-      "pushed_at": "2026-08-20T14:59:27Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-road-trip-cost",
-      "html_url": "https://github.com/uckkk/dsh-road-trip-cost",
-      "description": "自驾费用估算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:52:52Z",
-      "pushed_at": "2026-08-20T14:53:47Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-salary-per-hour",
-      "html_url": "https://github.com/uckkk/dsh-salary-per-hour",
-      "description": "时薪计算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:37:21Z",
-      "pushed_at": "2026-08-20T15:37:36Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-score-rank",
-      "html_url": "https://github.com/uckkk/dsh-score-rank",
-      "description": "分数百分位",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:37:54Z",
-      "pushed_at": "2026-08-20T15:39:50Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-screen-break",
-      "html_url": "https://github.com/uckkk/dsh-screen-break",
-      "description": "用眼休息提醒",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:37:52Z",
-      "pushed_at": "2026-08-20T15:38:02Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-script-words",
-      "html_url": "https://github.com/uckkk/dsh-script-words",
-      "description": "口播稿字数",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:54:23Z",
-      "pushed_at": "2026-08-20T14:54:33Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-sd-capacity",
-      "html_url": "https://github.com/uckkk/dsh-sd-capacity",
-      "description": "录像存储容量",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:01:54Z",
-      "pushed_at": "2026-08-20T15:03:09Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-shower-size",
-      "html_url": "https://github.com/uckkk/dsh-shower-size",
-      "description": "淋浴房尺寸",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:55:38Z",
-      "pushed_at": "2026-08-20T14:55:50Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-sla-calc",
-      "html_url": "https://github.com/uckkk/dsh-sla-calc",
-      "description": "SLA可用性计算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:38:12Z",
-      "pushed_at": "2026-08-20T15:38:23Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-sleep-debt",
-      "html_url": "https://github.com/uckkk/dsh-sleep-debt",
-      "description": "睡眠债务计算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:53:30Z",
-      "pushed_at": "2026-08-20T14:54:00Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-split-bill",
-      "html_url": "https://github.com/uckkk/dsh-split-bill",
-      "description": "AA分摊",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:54:22Z",
-      "pushed_at": "2026-08-20T14:54:32Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-stain-removal",
-      "html_url": "https://github.com/uckkk/dsh-stain-removal",
-      "description": "去渍方法",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:03:16Z",
-      "pushed_at": "2026-08-20T15:03:26Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-stock-level",
-      "html_url": "https://github.com/uckkk/dsh-stock-level",
-      "description": "再订货点",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:38:05Z",
-      "pushed_at": "2026-08-20T15:38:13Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-takeout-tip",
-      "html_url": "https://github.com/uckkk/dsh-takeout-tip",
-      "description": "外卖费用",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:03:52Z",
-      "pushed_at": "2026-08-20T15:04:01Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-tax-refund",
-      "html_url": "https://github.com/uckkk/dsh-tax-refund",
-      "description": "退税估算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:06Z",
-      "pushed_at": "2026-08-20T14:58:14Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-teacher-cert",
-      "html_url": "https://github.com/uckkk/dsh-teacher-cert",
-      "description": "教师资格证科目",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:43Z",
-      "pushed_at": "2026-08-20T14:58:54Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-tip-calc",
-      "html_url": "https://github.com/uckkk/dsh-tip-calc",
-      "description": "小费计算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:02:42Z",
-      "pushed_at": "2026-08-20T15:02:55Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-tire-wear",
-      "html_url": "https://github.com/uckkk/dsh-tire-wear",
-      "description": "轮胎磨损判断",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:06Z",
-      "pushed_at": "2026-08-20T14:58:21Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-title-length",
-      "html_url": "https://github.com/uckkk/dsh-title-length",
-      "description": "标题字数建议",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:01:05Z",
-      "pushed_at": "2026-08-20T15:01:15Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-toddler-height",
-      "html_url": "https://github.com/uckkk/dsh-toddler-height",
-      "description": "幼儿身高标准",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:51:20Z",
-      "pushed_at": "2026-08-20T14:54:00Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-travel-docs",
-      "html_url": "https://github.com/uckkk/dsh-travel-docs",
-      "description": "旅行证件",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:01:34Z",
-      "pushed_at": "2026-08-20T15:02:04Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-travel-insurance",
-      "html_url": "https://github.com/uckkk/dsh-travel-insurance",
-      "description": "旅行险价格估算",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:00:17Z",
-      "pushed_at": "2026-08-20T15:00:32Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-travel-med",
-      "html_url": "https://github.com/uckkk/dsh-travel-med",
-      "description": "旅行药品清单",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:04:09Z",
-      "pushed_at": "2026-08-20T15:04:21Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-trip-itinerary",
-      "html_url": "https://github.com/uckkk/dsh-trip-itinerary",
-      "description": "行程规划",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:00:28Z",
-      "pushed_at": "2026-08-20T15:00:36Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-vaccine-boost",
-      "html_url": "https://github.com/uckkk/dsh-vaccine-boost",
-      "description": "疫苗加强",
+      "first_seen": "2026-08-21",
+      "full_name": "uckkk/dsh-gift-etiquette",
+      "html_url": "https://github.com/uckkk/dsh-gift-etiquette",
+      "description": "送礼避讳",
       "language": null,
       "stargazers_count": 0,
       "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:39:47Z",
-      "pushed_at": "2026-08-20T15:39:57Z",
+      "license": null,
+      "created_at": "2026-08-21T11:49:11Z",
+      "pushed_at": "2026-08-21T11:49:12Z",
       "topics": [
         "deepseek-harness",
         "dsh-plugin"
       ]
     },
     {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-video-length",
-      "html_url": "https://github.com/uckkk/dsh-video-length",
-      "description": "视频时长建议",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:52:05Z",
-      "pushed_at": "2026-08-20T14:52:15Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-vision-check",
-      "html_url": "https://github.com/uckkk/dsh-vision-check",
-      "description": "视力屈光度",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:00:34Z",
-      "pushed_at": "2026-08-20T15:01:05Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-voltage-drop",
-      "html_url": "https://github.com/uckkk/dsh-voltage-drop",
-      "description": "电压降校核",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:51:13Z",
-      "pushed_at": "2026-08-20T14:52:30Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-water-electrolyte",
-      "html_url": "https://github.com/uckkk/dsh-water-electrolyte",
-      "description": "出汗电解质",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:05:30Z",
-      "pushed_at": "2026-08-20T15:05:41Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-wiper-replace",
-      "html_url": "https://github.com/uckkk/dsh-wiper-replace",
-      "description": "雨刮更换",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:00:25Z",
-      "pushed_at": "2026-08-20T15:01:11Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "uckkk/dsh-workout-split",
-      "html_url": "https://github.com/uckkk/dsh-workout-split",
-      "description": "训练分化计划",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:52:01Z",
-      "pushed_at": "2026-08-20T14:52:10Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh-plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "YeqingTang/dsh-task-watcher-plugin",
-      "html_url": "https://github.com/YeqingTang/dsh-task-watcher-plugin",
-      "description": "Windows tray monitor shell plugin for DeepSeek Harness: deploys & manages the standalone DshTaskWatcher tray app, with a start/stop switch in Settings > Plugins.",
-      "language": "PowerShell",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:58:43Z",
-      "pushed_at": "2026-08-20T15:26:59Z",
-      "topics": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "notify",
-        "plugin"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "yihefeikong-rgb/dsh-cc-haha-dream",
-      "html_url": "https://github.com/yihefeikong-rgb/dsh-cc-haha-dream",
-      "description": "DSH 自动做梦插件：后台定期回顾会话与记忆整合去重（复刻 CC-HAHA autoDream）· Auto memory consolidation (dream) plugin for DeepSeek Harness, inspired by CC-HAHA",
-      "language": "JavaScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T14:52:57Z",
-      "pushed_at": "2026-08-20T14:57:20Z",
-      "topics": [
-        "cc-haha",
-        "deepseek-harness",
-        "dream",
-        "dsh",
-        "dsh-plugin",
-        "memory"
-      ]
-    },
-    {
-      "first_seen": "2026-08-20",
-      "full_name": "Zhaokaka21/daily-sanxing",
-      "html_url": "https://github.com/Zhaokaka21/daily-sanxing",
-      "description": "一日三省 — 个人日常三件套（日结/日启/反思）：Claude Code 命令 + DSH skill | A battle-tested personal daily workflow trio: Close, Start, Reflect.",
+      "first_seen": "2026-08-21",
+      "full_name": "uckkk/dsh-k2c",
+      "html_url": "https://github.com/uckkk/dsh-k2c",
+      "description": "开尔文转摄氏",
       "language": null,
       "stargazers_count": 0,
       "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T15:01:27Z",
-      "pushed_at": "2026-08-20T15:09:04Z",
+      "license": null,
+      "created_at": "2026-08-21T11:21:41Z",
+      "pushed_at": "2026-08-21T11:21:42Z",
       "topics": [
-        "claude-code",
         "deepseek-harness",
-        "dsh-plugin",
-        "productivity"
+        "dsh-plugin"
       ]
     },
     {
-      "first_seen": "2026-08-20",
-      "full_name": "zhuoxuanliu53-svg/dsh-plugin-market",
-      "html_url": "https://github.com/zhuoxuanliu53-svg/dsh-plugin-market",
-      "description": "可视化插件市场：双源(curated + GitHub topic)浏览/搜索/排序/关注/一键安装/更新/卸载/自动更新/热禁用/组合包导入导出 (DSH bundle plugin)",
-      "language": "JavaScript",
+      "first_seen": "2026-08-21",
+      "full_name": "uckkk/dsh-kenya",
+      "html_url": "https://github.com/uckkk/dsh-kenya",
+      "description": "肯尼亚国家",
+      "language": null,
       "stargazers_count": 0,
       "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-08-20T11:35:51Z",
-      "pushed_at": "2026-08-20T14:36:38Z",
+      "license": null,
+      "created_at": "2026-08-21T11:49:02Z",
+      "pushed_at": "2026-08-21T11:49:03Z",
       "topics": [
-        "deepseek",
         "deepseek-harness",
-        "dsh-plugin",
-        "marketplace",
-        "plugin-manager"
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-08-21",
+      "full_name": "uckkk/dsh-palau",
+      "html_url": "https://github.com/uckkk/dsh-palau",
+      "description": "帕劳国",
+      "language": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-08-21T10:59:06Z",
+      "pushed_at": "2026-08-21T10:59:07Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin"
       ]
     }
   ],
-  "missing": []
+  "missing": [
+    "dsh-external/chat-width",
+    "dsh-external/dsh-agent-teams",
+    "dsh-external/dsh-at-file",
+    "dsh-external/dsh-automation",
+    "dsh-external/dsh-bash-encoding",
+    "dsh-external/dsh-better-browser",
+    "dsh-external/dsh-book2skill",
+    "dsh-external/dsh-computer-use",
+    "dsh-external/dsh-custom-tool",
+    "dsh-external/dsh-cyber-sec",
+    "dsh-external/dsh-daily-fortune",
+    "dsh-external/dsh-deepcel",
+    "dsh-external/dsh-deeplink",
+    "dsh-external/dsh-doctor",
+    "dsh-external/dsh-easy-ctx-manager",
+    "dsh-external/dsh-fun-ticker",
+    "dsh-external/dsh-fun-typewriter",
+    "dsh-external/dsh-fun-weather",
+    "dsh-external/dsh-genui",
+    "dsh-external/dsh-grok-tui",
+    "dsh-external/dsh-handoff",
+    "dsh-external/dsh-input-history",
+    "dsh-external/dsh-island",
+    "dsh-external/dsh-minigames",
+    "dsh-external/dsh-my-rsi",
+    "dsh-external/dsh-notification",
+    "dsh-external/dsh-nowledge-mem",
+    "dsh-external/dsh-open-in-vscode",
+    "dsh-external/dsh-openmaic",
+    "dsh-external/dsh-paste-input",
+    "dsh-external/dsh-pet",
+    "dsh-external/dsh-pet-corner",
+    "dsh-external/dsh-pi-adapter",
+    "dsh-external/dsh-plan-execute",
+    "dsh-external/dsh-plannotator",
+    "dsh-external/dsh-plugin-guide",
+    "dsh-external/dsh-qq2006",
+    "dsh-external/dsh-revive",
+    "dsh-external/dsh-session-hub",
+    "dsh-external/dsh-spotlight",
+    "dsh-external/dsh-STAGE",
+    "dsh-external/dsh-STAR",
+    "dsh-external/dsh-tps",
+    "dsh-external/dsh-turn-rewind",
+    "dsh-external/dsh-ui-progress",
+    "dsh-external/dsh-ui-whale",
+    "dsh-external/dsh-vision-toolkit",
+    "dsh-external/dsh-visualize",
+    "dsh-external/dsh-webui-live-html",
+    "dsh-external/oh-my-dsh"
+  ]
 }
