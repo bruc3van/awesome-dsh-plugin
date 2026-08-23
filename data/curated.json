@@ -300,7 +300,6 @@
     "lwmxiaobei/dsh-plugins": "Not a DSH plugin — a community plugin-directory site.",
     "mcsam163/shared-memory-layer": "Generic multi-agent shared-memory layer aimed at any agent, with no DSH install path.",
     "melandlabs/opencontext": "Not a DSH plugin — a standalone agentic context runtime \"designed to be embedded into any host process\"; the dsh-opencontext plugin is one integration target, not the repo's primary purpose.",
-    "mem9-ai/mem9": "Not a DSH plugin — a standalone multi-host memory product (OpenClaw-first); the dsh-plugin/ adapter directory is a bundled add-on, not the repo's purpose; stars accrued by the generic product (same rider pattern as MemTensor/MemOS).",
     "menantonio83-hue/tnt-house": "Not a DSH plugin — a Solana token-audit platform + generic MCP server (Claude/Cursor); unrelated to DSH, rides the topic.",
     "mnemon-dev/mnemon": "Not a DSH plugin — memory for Claude Code/OpenClaw and other CLIs.",
     "morluto/internalcot": "Not a DSH plugin — an opt-in reasoning-workspace skill for Codex and Claude Code (npx internalcot@latest setup); zero DSH integration, rides the dsh-plugin topic.",
