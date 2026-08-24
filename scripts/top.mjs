@@ -5,7 +5,8 @@
 //
 // The board only contains repositories the maintainer has verified
 // (data/approved.json); new repositories wait in data/review/pending.md until
-// they are approved. In the normal workflow this script runs as part of
+// they are approved. The full catalog lives in CATALOG.md plus its catalog/
+// volumes, written by the same review merge. In the normal workflow this script runs as part of
 // scripts/merge.mjs after a review — the daily automation never regenerates
 // the board on its own.
 //

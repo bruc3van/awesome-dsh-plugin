@@ -13,18 +13,18 @@ This directory is the review stage of the "raw data → human verification → u
 | `data/curated.json` | 维护者 / AI 审核 | 编辑部裁决：`excluded_repos`（整体剔除 + 理由）、`leaderboard_exclusions`（只进目录不进榜单）、`market_exclusions`（可进目录/榜单、不进下游市场——非插件形态与 market / 商店 / 目录 / 技能商城类；规则：**市场不能包含市场**）、`category_overrides`（分类） |
 | `data/review/pending.json` / `pending.md` | 脚本（`scripts/update.mjs`，每日） | 待审核队列：新增到 Topic、带简介、尚未核实的仓库（自动生成，勿手改） |
 | `data/market.json` | 脚本（`scripts/market.mjs`，每日 cron 与 curation 合并后） | 下游市场（dsh-desktop-safe-market）消费的精选文件：快照 + curation 的纯投影，按类目均衡发牌、≤600 条、≤500 KB。**不受 `approved.json` 门控**（只按排除名单过滤），接口约定见下游 `docs/market-json-spec.md` |
-| `CATALOG.md`、`TOP200.md`、README 数据区 | `scripts/merge.mjs`（仅审核合并时） | 用户可见页面；**脚本不会自动更新它们**。README.md / README_EN.md 仅三个数据区随合并自动刷新：「生态全景」思维导图（`<!-- dsh:panorama:start/end -->` 标记界定）、「社区热度榜」Top 20 表格（`<!-- dsh:leaderboard:start/end -->` 标记界定）与目录统计句（快照日期 + 收录/语言/许可证/活跃数）。此外，README 首页的「最近加入生态 / Recently joined」表随每次审核合并由维护者（或 AI）**手工轮换**：约 8 条、选自本次新核准仓库中最有代表性者，中英两表条目同步（脚本不代写）。其余内容仍手工维护 |
+| `CATALOG.md`、`catalog/*.md`、`TOP200.md`、README 数据区 | `scripts/merge.mjs`（仅审核合并时） | 用户可见页面；**脚本不会自动更新它们**。`CATALOG.md` 是目录索引，各分类的完整名单在 `catalog/<category>.md` 分册中（单页曾达 2.14 MB，超过 GitHub 1 MB 的 Markdown 渲染上限，故拆分；生成时若某分册逼近上限会告警）。README.md / README_EN.md 有四处随合并自动刷新：「生态全景」思维导图（`<!-- dsh:panorama:start/end -->`）、「社区热度榜」Top 20 表格（`<!-- dsh:leaderboard:start/end -->`）、「作者自荐」预览（`<!-- dsh:showcase:start/end -->`，取自 `SHOWCASE.md` 末尾 10 条，**勿手工同步**）与目录统计句（快照日期 + 收录/语言/许可证/活跃数）。此外，README 首页的「最近加入生态 / Recently joined」表随每次审核合并由维护者（或 AI）**手工轮换**：约 8 条、选自本次新核准仓库中最有代表性者，中英两表条目同步（脚本不代写）。其余内容仍手工维护 |
 
 ## 工作流 / Workflow
 
-1. **每日自动化**（`.github/workflows/update-catalog.yml`）运行 `scripts/update.mjs`：抓取快照写 `data/repositories.json`，刷新待审核队列 `data/review/pending.*`，随后重建并提交 `data/market.json`。搜索索引有滞后（topic 页的计数常高于搜索 API 返回数），脚本会用 REST API 对账补捞「核准名单 + curated 引用 + 上一版快照中 ≥3★」但被搜索漏掉的仓库；改名仓库会在日志与 CI step summary 中提示，需人工更新 `approved.json` / `curated.json` 的 key。它**不修改任何用户可见页面**——蹭热度的仓库只会出现在待审核队列里，进不了 CATALOG 和榜单。
+1. **每日自动化**（`.github/workflows/update-catalog.yml`）运行 `scripts/update.mjs`：抓取快照写 `data/repositories.json`，刷新待审核队列 `data/review/pending.*`，随后重建并提交 `data/market.json`。搜索索引有滞后（topic 页的计数常高于搜索 API 返回数），脚本会用 REST API 对账补捞「核准名单 + curated 引用 + 上一版快照中 ≥3★」但被搜索漏掉的仓库；改名仓库会在日志与 CI step summary 中提示，需人工更新 `approved.json` / `curated.json` 的 key。它**不修改任何用户可见页面**——蹭热度的仓库只会出现在待审核队列里，进不了 CATALOG 和榜单。若本次抓到的仓库数不足上一版快照的 80%（搜索索引抖动、限流吃掉整个分片等），脚本会中止且**不写任何文件**，保留昨天的快照并让工作流报红（与 `market.mjs` 的熔断同一思路）。
 2. **审核**：维护者（或 AI 助手）审阅 `data/review/pending.md`，对每个新仓库做决定：
    - **通过** → 加入 `data/approved.json`（`"owner/name": "2026-08-16"` 这样的日期值）
    - **剔除** → 加入 `data/curated.json` 的 `excluded_repos`，理由只写「不是 DSH 插件 + 它实际是什么」（不使用 competing / 竞品 / market-in-market conflict 等竞争性措辞），并**同步从 `approved.json` 移除**（两份名单不得重叠，`validate-curated.mjs` 强制）。同类目录站 / awesome-list / 榜单站（如 `awesome-dsh-plugin*` 系列）一律整体剔除，不留目录
    - **只进目录、不进榜单** → 同时加入 `approved.json` 与 `curated.json` 的 `leaderboard_exclusions`（榜单排除同时也会排除出下游市场）
    - **非插件形态（desktop 客户端/桌面壳/启动器、Docker 部署、手册教程、VS Code 扩展等）**：可留在目录与榜单，但加入 `curated.json` 的 `market_exclusions` 以免进入下游市场文件
    - **market 类（插件市场 / 商店 / 目录 / registry / 插件中心 / 技能商城，包括内置插件市场或技能市场的插件与桌面端）**：可留在目录与榜单，但必须加入 `curated.json` 的 `market_exclusions`——规则很简单：**市场不能包含市场**；理由统一以 “the market cannot include another market” 表述
-3. **合并**：运行 `node scripts/merge.mjs`，重新生成 `CATALOG.md`、`TOP200.md` 与待审核队列，并就地刷新 `README.md` / `README_EN.md` 的三个数据区（生态全景思维导图计数、社区热度榜 Top 20、目录统计句与快照日期；标记注释与匹配句式之外的 README 内容不受影响）。若本次决定涉及 `excluded_repos` / `market_exclusions`，再运行 `node scripts/market.mjs --from-snapshot` 重建 `data/market.json` 并 `node scripts/validate-market.mjs` 校验（推送后 `refresh-market` 工作流也会自动重建一次）——**market.json 只能收录真实插件，desktop / awesome / market 三类绝不能出现在里面**。随后**手工轮换** README.md / README_EN.md 的「最近加入生态 / Recently joined」表——从本次新核准的仓库中挑选约 8 个最有代表性的项目（关注度、功能亮点、可展示性），替换旧批次，中英两表条目与描述保持一致；再提交推送。
+3. **合并**：运行 `node scripts/merge.mjs`，重新生成 `CATALOG.md`（索引）、`catalog/*.md`（各分类分册）、`TOP200.md` 与待审核队列，并就地刷新 `README.md` / `README_EN.md` 的四处数据区（生态全景思维导图计数、社区热度榜 Top 20、作者自荐预览、目录统计句与快照日期；标记注释与匹配句式之外的 README 内容不受影响）。页面里的「最近人工复核」日期取自 `approved.json` 里最新的核准日期，不是脚本的运行日期——同样的数据重复生成会得到完全一样的文件，因此 `node scripts/merge.mjs --check` 可以用来核对页面是否还和 curation 数据一致。若本次决定涉及 `excluded_repos` / `market_exclusions`，再运行 `node scripts/market.mjs --from-snapshot` 重建 `data/market.json` 并 `node scripts/validate-market.mjs` 校验（推送后 `refresh-market` 工作流也会自动重建一次）——**market.json 只能收录真实插件，desktop / awesome / market 三类绝不能出现在里面**。随后**手工轮换** README.md / README_EN.md 的「最近加入生态 / Recently joined」表——从本次新核准的仓库中挑选约 8 个最有代表性的项目（关注度、功能亮点、可展示性），替换旧批次，中英两表条目与描述保持一致；再提交推送。
 
 ## AI 一句话审核 / One-line AI review
 
@@ -37,7 +37,8 @@ Tell the AI assistant: **"Review the new repositories in data/review/pending.md 
 ```bash
 node scripts/update.mjs                 # 抓快照 + 刷新待审核队列（需 GITHUB_TOKEN）
 node scripts/update.mjs --from-snapshot # 仅用现有快照刷新待审核队列
-node scripts/merge.mjs                  # 审核合并：重新生成 CATALOG.md / TOP200.md / 队列
+node scripts/merge.mjs                  # 审核合并：重新生成 CATALOG.md / catalog 分册 / TOP200.md / 队列
+node scripts/merge.mjs --check          # 只核对：分册收录集合、重复项及 CATALOG 索引链接/计数是否一致（CI 用，不比较易波动的字节）
 node scripts/top.mjs                    # 单独重新生成 TOP200.md（同样受 approved 门控）
 node scripts/market.mjs --from-snapshot # 重建 data/market.json（下游市场文件）
 node scripts/validate-market.mjs        # 校验 data/market.json（§8 全项检查）

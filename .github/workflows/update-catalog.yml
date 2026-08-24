@@ -8,9 +8,14 @@ on:
 permissions:
   contents: write
 
+# Shared with refresh-market.yml: both workflows commit generated data files to
+# main, and running them at once produces a non-fast-forward push for whichever
+# finishes second. One group serialises them. cancel-in-progress is false — the
+# daily run spends minutes on paced API calls, and a curation push arriving
+# mid-run must queue behind it rather than throw that work away.
 concurrency:
-  group: update-catalog
-  cancel-in-progress: true
+  group: main-data-push
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -21,10 +26,13 @@ jobs:
         with:
           node-version: 22
       # Fetch the topic snapshot and refresh the review queue.
-      # CATALOG.md / TOP200.md are intentionally NOT regenerated here — they
-      # only change via scripts/merge.mjs after the maintainer has reviewed
-      # data/review/pending.md and recorded decisions in data/approved.json /
-      # data/curated.json. See data/review/README.md.
+      # CATALOG.md, its catalog/ volumes, and TOP200.md are intentionally NOT
+      # regenerated here — they only change via scripts/merge.mjs after the
+      # maintainer has reviewed data/review/pending.md and recorded decisions
+      # in data/approved.json / data/curated.json. See data/review/README.md.
+      # update.mjs aborts without writing anything if the fetched snapshot
+      # collapses below 80% of the previous one, so a half-failed crawl keeps
+      # yesterday's data instead of publishing a truncated one.
       - name: Refresh snapshot and review queue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,8 +52,36 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/repositories.json data/review data/market.json MARKET.md
           if git diff --cached --quiet; then
-            echo "Snapshot and review queue are already current."
+            # Not the quiet-day path it reads like. Two real consecutive
+            # snapshots of this topic differed by 366 new repositories, 16
+            # disappeared ones, and 5,326 changed fields across 1,841
+            # repositories — a topic this size is never byte-identical two days
+            # running. Identical output means the crawl came back with
+            # yesterday's data (a cached or degraded API response), not that
+            # nothing happened. There is nothing to commit either way and an
+            # empty `git commit` would fail the job, so the guard stays and the
+            # run succeeds — but it is flagged instead of passing in silence.
+            echo "::warning::Snapshot, review queue and market file are byte-identical to the previous run — the crawl likely returned stale data; check this run before trusting today's snapshot."
             exit 0
           fi
           git commit -m "data: refresh dsh-plugin snapshot, review queue, and market file"
-          git push
+          # The concurrency group keeps the two workflows apart, but a
+          # maintainer's own push can still land between checkout and here.
+          # Rebase onto the new tip and retry. actions/checkout clones shallow,
+          # so deepen first — a rebase needs a merge base with the new tip. A
+          # conflict on generated files is not something CI should guess at:
+          # abort and fail loudly so the run is retried against a clean tree.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto origin/main."
+            git fetch --deepen=50 origin main || git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "Rebase onto origin/main conflicted — re-run this workflow."
+              exit 1
+            fi
+          done
+          echo "Push still rejected after 3 attempts."
+          exit 1

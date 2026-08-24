@@ -22,9 +22,13 @@ on:
 permissions:
   contents: write
 
+# Shared with update-catalog.yml — see the note there. Both workflows commit
+# generated data files to main, so they must never run at once; queueing rather
+# than cancelling means a curation push waits for the daily run to finish
+# instead of aborting it mid-crawl.
 concurrency:
-  group: refresh-market
-  cancel-in-progress: true
+  group: main-data-push
+  cancel-in-progress: false
 
 jobs:
   market:
@@ -46,8 +50,31 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/market.json MARKET.md
           if git diff --cached --quiet; then
-            echo "market.json is already current."
+            # The expected outcome whenever a curation change does not reach the
+            # published feed: an exclusion for a repository the market already
+            # filtered out, a category override that matched the pattern anyway,
+            # a reworded reason. Same snapshot + same projection = same payload,
+            # and market.mjs then keeps the previous file bit for bit (its
+            # generated_at included), so there is genuinely nothing to publish.
+            # Unlike the daily workflow's guard, this one fires regularly.
+            echo "market.json is already current — this curation change does not affect the published feed."
             exit 0
           fi
           git commit -m "data: rebuild market.json and its MARKET.md preview after curation change"
-          git push
+          # Same retry as update-catalog.yml: deepen the shallow clone, rebase
+          # onto whatever landed on main since checkout, and fail loudly on a
+          # conflict rather than letting CI guess at a merge of generated files.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto origin/main."
+            git fetch --deepen=50 origin main || git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "Rebase onto origin/main conflicted — re-run this workflow."
+              exit 1
+            fi
+          done
+          echo "Push still rejected after 3 attempts."
+          exit 1

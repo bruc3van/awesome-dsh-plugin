@@ -35,6 +35,7 @@ import { readFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { categoryKeys } from './categories.mjs';
+import { fetchWithRetry, githubHeaders } from './github.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const errors = [];
@@ -208,12 +209,7 @@ const showcaseCount = new Set(
   ['zh', 'en'].flatMap((label) => showcaseReposByLabel.get(`full:${label}`) ?? []),
 ).size;
 
-const headers = {
-  Accept: 'application/vnd.github+json',
-  'User-Agent': 'awesome-dsh-plugin',
-  'X-GitHub-Api-Version': '2022-11-28',
-};
-if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+const headers = githubHeaders();
 
 // In --from-snapshot mode the live API is replaced by the stored topic snapshot
 // (data/repositories.json). The snapshot already proves existence, publicity,
@@ -249,39 +245,15 @@ if (fromSnapshot) {
     }
   }
 } else {
-  // Live mode: retry transient API failures (rate limit / 504) with backoff, and
-  // degrade to warnings only when GitHub itself is unavailable — a repository
-  // that is really gone still hard-fails with 404.
-  const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-  const fetchWithRetry = async (fullName) => {
-    for (let attempt = 0; ; attempt++) {
-      let response;
-      try {
-        response = await fetch(`https://api.github.com/repos/${fullName}`, { headers });
-      } catch (error) {
-        if (attempt < 2) {
-          await delay(1000 * 2 ** attempt);
-          continue;
-        }
-        throw error;
-      }
-      if (response.status === 403 || response.status === 429 || response.status === 502 || response.status === 503 || response.status === 504) {
-        const retryAfter = Number(response.headers.get('retry-after'));
-        const backoff = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 1000 * 2 ** attempt;
-        if (attempt < 2) {
-          await delay(backoff);
-          continue;
-        }
-      }
-      return response;
-    }
-  };
-
+  // Live mode: transient API failures (rate limit / 504) are retried with
+  // backoff inside fetchWithRetry (scripts/github.mjs, shared with update.mjs),
+  // and degrade to warnings only when GitHub itself stays unavailable — a
+  // repository that is really gone still hard-fails with 404.
   await Promise.all([...referenced.keys()].map(async (fullName) => {
     const label = referenced.get(fullName);
     let response;
     try {
-      response = await fetchWithRetry(fullName);
+      response = await fetchWithRetry(`https://api.github.com/repos/${fullName}`, { headers });
     } catch (error) {
       warnings.push(`${fullName}: GitHub API unreachable (${error.message}) — skipped, re-run when the network/API recovers (${label})`);
       return;

@@ -72,7 +72,7 @@ mindmap
 ```
 <!-- dsh:panorama:end -->
 
-按分类浏览每个分类下的全部项目，见 [CATALOG.md](./CATALOG.md)。
+按分类浏览每个分类下的全部项目，见 [CATALOG.md](./CATALOG.md)——目录按类目分册，索引页列出每一册。
 
 ## ⭐ 精选推荐
 
@@ -254,6 +254,7 @@ mindmap
 
 插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 30 条，区满后先进先出；条目若被上方[精选推荐](#-精选推荐)收录，会从本区移除、不占名额。首页只展示**最近 10 条**，完整列表见 [SHOWCASE.md](./SHOWCASE.md)。
 
+<!-- dsh:showcase:start -->
 - **[dsh-mcp-lens](https://github.com/labmimors/dsh-mcp-lens)**（[@labmimors](https://github.com/labmimors) · 2026-08-15）— 把大型 MCP 工具目录保持为 `mcp_search` 和 `mcp_call` 两个模型可见接口，按需返回少量精确 schema，再以 `allowTools` / `denyTools` 同时约束搜索和调用；适合接入几十到上千个 MCP 工具的 DSH 用户，并附本地 schema 字节计算器与 CI 预算 Action。
 - **[dsh-movein](https://github.com/sjh9714/dsh-movein)**（[@sjh9714](https://github.com/sjh9714) · 2026-08-16）— 把整套 Claude Code 配置一条命令搬进 DSH：技能、斜杠命令、MCP、hooks、子代理、权限规则（deny/ask 桥接 + 迁移差异报告），默认 dry run 先出搬家清单；`--reverse` 把 DSH 里长出来的技能搬回去实现双栖，v0.5 新增 doctor 搬家体检（含检测会被 DSH 静默丢弃的技能 frontmatter）与写入前自动备份、一键回滚。
 - **[dsh-compressor](https://github.com/lifeodyssey/dsh-compressor)**（[@lifeodyssey](https://github.com/lifeodyssey) · 2026-08-16）— Headroom 的精简移植：压工具输出，至多少 20% 上下文，不动模型缓存。适合工具日志 / JSON / diff 把上下文撑满、又不想改已发给模型的前缀的人。
@@ -263,15 +264,15 @@ mindmap
 - **[dsh-trace-compare](https://github.com/lamost423/dsh-trace-compare)**（[@lamost423](https://github.com/lamost423) · 2026-08-20）— 轨迹对比 + 实时迷宫：把 agent 真实的探索过程画在墙钟时间轴上——主干、失败/扑空的支路、折返点、子代理支路；上传 1–2 个 session log 做单跑复盘或同轴对比（按轮次自动对齐 + 支路盘点表），也可在会话页签实时看迷宫生长；判定全部是确定性规则、悬停可见依据，不调 LLM。
 - **[dsh-feishu](https://github.com/PGZXB/dsh-feishu)**（[@PGZXB](https://github.com/PGZXB) · 2026-08-20）— 把 DeepSeek Harness 装进飞书：一个聊天对应一个 dsh 会话，命令面板、审批与提问全部卡片化，流式卡片实时展示，扫码一次完成配置，随时在手机/桌面指挥本地 agent；已发布 npm `@dsh-feishu/dsh-feishu`。
 - **[dsh-easyrewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite)**（[@Renzic-Stone](https://github.com/Renzic-Stone) · 2026-08-21）— DSH Web 用户消息气泡内联编辑与撤回插件：单击气泡原位编辑、撤回键一键截断重发，惰性提交、无痕替换，版本翻页器回看历史版本，草稿按会话持久化并超时自动备份，界面三语（中文 / English / 日本語），纯官方扩展点实现、零源码补丁。
-
 - **[tabbit-browser](https://github.com/Tabbit-Browser/dsh-tabbit)**（[@Tabbit-Browser](https://github.com/Tabbit-Browser) · 2026-08-21）— 让 DSH agent 接管你的 Tabbit 浏览器：通过浏览器自带的任务隔离 Playwright CLI（`tabbit-cli`）操作真实页面、真实登录态与真实交互，用于网页自动化、信息抽取、QA 与基准测试。自带 `tabbit-browser` 技能（持久任务空间、定位器与等待、截图、回执与恢复，随插件自动注册，`/tabbit-browser` 调用）与 `tabbit_browser_install` 环境预检工具（检测稳定版 ≥1.9.0 与运行时，缺失或过旧则按系统区域后台下载对应安装包）。一条命令安装：`dsh plugin --profile web add github:Tabbit-Browser/dsh-tabbit`。⚠️ 仓库暂无 LICENSE 文件（README 标注 MIT）。
+<!-- dsh:showcase:end -->
 
 [查看全部 30 条自荐 →](./SHOWCASE.md)
 
 ## 🔍 我们如何维护这个列表
 
 - **面向使用者，而不是爬虫：** 从「我想完成什么」出发组织首页，而不是让你阅读几百行仓库名称。
-- **人工推荐 + 全量索引分层：** 首页只放经过人工筛选的精选推荐与自荐预览；[CATALOG.md](./CATALOG.md) 收录全部经核实的仓库；新增仓库先进入[待审核队列](./data/review/pending.md)，核实后合并（约定见 [data/review/README.md](./data/review/README.md)）。
+- **人工推荐 + 全量索引分层：** 首页只放经过人工筛选的精选推荐与自荐预览；[CATALOG.md](./CATALOG.md) 及其分类分册收录全部经核实的仓库；新增仓库先进入[待审核队列](./data/review/pending.md)，核实后合并（约定见 [data/review/README.md](./data/review/README.md)）。
 - **数据自动、页面人工：** 原始快照与待审核队列每天由脚本自动刷新；全量目录与 Top 200 热度榜只在人工核实合并后重新生成（生成逻辑见 [scripts/merge.mjs](./scripts/merge.mjs) 与 [scripts/top.mjs](./scripts/top.mjs)，可随时切回 Top 100）；首页精选推荐、自荐与最近加入由人工维护，避免刷星、蹭 Topic 等被污染的接口数据直接改写推荐内容。
 - **剔除蹭热度条目：** 带 `dsh-plugin` Topic 但并非 DSH 插件的仓库（平台本体、其他 Agent 工具、同名目录站等）以及编辑部拉黑的仓库不计入目录与榜单，理由逐条记录在 [data/curated.json](./data/curated.json)（榜单另有 `leaderboard_exclusions`：保留在目录中、但不参与榜单排序的仓库），可随时复查与质疑。
 - **下游市场文件：** [data/market.json](./data/market.json) 是给下游市场（如 DSH 桌面端插件市场）消费的精选小文件——在快照与 curation 之上过滤、清洗并按类目均衡发牌（≤600 条、≤500 KB），每日快照刷新与 curation 合并后自动重建；字段与生成规则见下游的[发布规范](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md)。同一时序下同步生成根目录 [MARKET.md](./MARKET.md)——这份文件的只读可视化（按 Star 数排名），可在 GitHub 上直接预览市场内容，无需安装下游插件。
