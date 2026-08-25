@@ -363,8 +363,8 @@ const PANORAMA_START = '<!-- dsh:panorama:start -->';
 const PANORAMA_END = '<!-- dsh:panorama:end -->';
 const LEADERBOARD_START = '<!-- dsh:leaderboard:start -->';
 const LEADERBOARD_END = '<!-- dsh:leaderboard:end -->';
-const SHOWCASE_START = '<!-- dsh:showcase:start -->';
-const SHOWCASE_END = '<!-- dsh:showcase:end -->';
+export const SHOWCASE_START = '<!-- dsh:showcase:start -->';
+export const SHOWCASE_END = '<!-- dsh:showcase:end -->';
 
 // Mindmap node per category: [key, label_zh, label_en, bullets_zh, bullets_en].
 // Labels intentionally drop the "、" separator used in category_zh and keep the
@@ -405,7 +405,7 @@ const MINDMAP_NODES = [
 // validate-curated.mjs could only catch after the fact — generating the two
 // previews from SHOWCASE.md removes the failure mode instead of policing it.
 // SHOWCASE.md itself, and the entry wording, stay hand-written.
-const SHOWCASE_PREVIEW = 10;
+export const SHOWCASE_PREVIEW = 10;
 
 function showcaseEntries(markdown, header) {
   const lines = markdown.split('\n');
@@ -415,7 +415,7 @@ function showcaseEntries(markdown, header) {
   return lines.slice(start + 1, end === -1 ? undefined : end).filter((line) => line.startsWith('- '));
 }
 
-async function loadShowcase(warnings) {
+export async function loadShowcase(warnings) {
   let markdown;
   try {
     markdown = await readFile(resolve(root, 'SHOWCASE.md'), 'utf8');
@@ -470,7 +470,7 @@ function leaderboardBody(top, lang) {
   return [header, '| ---: | --- | ---: | --- |', ...rows].join('\n');
 }
 
-function replaceRegion(content, startMarker, endMarker, body, label, warnings) {
+export function replaceRegion(content, startMarker, endMarker, body, label, warnings) {
   const start = content.indexOf(startMarker);
   const end = content.indexOf(endMarker);
   if (start === -1 || end === -1 || end < start) {

@@ -1,0 +1,73 @@
+name: Refresh showcase previews
+
+# The home-page author-showcase previews are generated from SHOWCASE.md, and
+# the review merge is the wrong moment for that dependency: a showcase PR
+# merged between review merges leaves the README previews visibly stale, and
+# that staleness is exactly what pushed two consecutive contributors into
+# hand-editing the generated region (against the CONTRIBUTING rules). This
+# workflow closes the gap: every push to main that changes SHOWCASE.md
+# regenerates the two preview regions immediately.
+#
+# The commit only touches README.md and README_EN.md, so it cannot re-trigger
+# this workflow (its path filter is SHOWCASE.md).
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'SHOWCASE.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Shared with update-catalog.yml / refresh-market.yml — see the note there.
+# All three commit generated files to main and must never run at once;
+# queueing rather than cancelling keeps a showcase push waiting behind the
+# daily crawl instead of aborting it.
+concurrency:
+  group: main-data-push
+  cancel-in-progress: false
+
+jobs:
+  showcase-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Regenerate the showcase preview regions
+        run: node scripts/showcase-preview.mjs
+      - name: Commit the refreshed previews
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README_EN.md
+          if git diff --cached --quiet; then
+            # Expected on manual dispatch runs, and whenever a SHOWCASE.md
+            # edit stays outside the newest ten entries — the preview window
+            # did not move, so there is nothing to publish.
+            echo "Showcase previews already current — nothing to publish."
+            exit 0
+          fi
+          git commit -m "docs: refresh showcase previews from SHOWCASE.md"
+          # Same retry as update-catalog.yml: a maintainer push can land
+          # between checkout and here, so rebase onto the new tip and retry.
+          # actions/checkout clones shallow — deepen before rebasing, and fail
+          # loudly on a conflict instead of guessing at a merge.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto origin/main."
+            git fetch --deepen=50 origin main || git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "Rebase onto origin/main conflicted — re-run this workflow."
+              exit 1
+            fi
+          done
+          echo "Push still rejected after 3 attempts."
+          exit 1
