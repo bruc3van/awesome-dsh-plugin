@@ -25,7 +25,9 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 22
-      # Fetch the topic snapshot and refresh the review queue.
+      # Fetch the topic snapshot and refresh the review queue (including
+      # star-growth alerts vs the previous snapshot, written into
+      # data/review/pending.* and this job's step summary).
       # CATALOG.md, its catalog/ volumes, and TOP200.md are intentionally NOT
       # regenerated here — they only change via scripts/merge.mjs after the
       # maintainer has reviewed data/review/pending.md and recorded decisions

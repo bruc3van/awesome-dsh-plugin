@@ -15,7 +15,6 @@ import {
   CATALOG_DIR,
   buildBoard,
   buildCatalog,
-  computePending,
   loadState,
   updateReadmePages,
   writePending,
@@ -163,8 +162,6 @@ if (checkOnly) {
 
 const board = buildBoard(state, TOP_N);
 const readme = await updateReadmePages(state);
-const { pending, missing } = computePending(state);
-
 // CATALOG.md is the index; the volumes live under catalog/.
 await writeFile(resolve(root, 'CATALOG.md'), catalog);
 await mkdir(resolve(root, CATALOG_DIR), { recursive: true });
@@ -182,10 +179,13 @@ for (const name of await readdir(resolve(root, CATALOG_DIR))) {
   }
 }
 await writeFile(resolve(root, 'TOP200.md'), board);
-await writePending(state);
+const written = await writePending(state);
+const pendingCount = written.pending.length;
+const missingCount = written.missing.length;
+const alertCount = written.starAnomalies?.alerts?.length ?? 0;
 
 console.log(
-  `Review merge done — catalog lists ${stats.repositories} repositories (${stats.languages} languages, ${stats.licenses} licensed, ${stats.active} active) across ${stats.volumes} volumes under ${CATALOG_DIR}/, board holds ${TOP_N} entries, README data islands refreshed in ${readme.updated.join(', ') || 'no files'} (panorama total ${readme.total}, leaderboard top ${readme.top20}, showcase preview ${readme.showcase}), review queue holds ${pending.length} pending, ${missing.length} approved repositories missing from the snapshot.`,
+  `Review merge done — catalog lists ${stats.repositories} repositories (${stats.languages} languages, ${stats.licenses} licensed, ${stats.active} active) across ${stats.volumes} volumes under ${CATALOG_DIR}/, board holds ${TOP_N} entries, README data islands refreshed in ${readme.updated.join(', ') || 'no files'} (panorama total ${readme.total}, leaderboard top ${readme.top20}, showcase preview ${readme.showcase}), review queue holds ${pendingCount} pending, ${missingCount} approved repositories missing from the snapshot${alertCount ? `, ${alertCount} star-growth alert(s)` : ''}.`,
 );
 
 for (const warning of oversized) {

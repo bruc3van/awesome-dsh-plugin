@@ -72,7 +72,7 @@ node scripts/update.mjs                 # 从 GitHub 刷新快照 + 待审核队
 node scripts/update.mjs --from-snapshot # 仅用现有快照刷新待审核队列
 ```
 
-2. **审核后合并。** 维护者审阅 `data/review/pending.md`，把决定记入 `data/approved.json`（通过）与 `data/curated.json`（剔除 / 不进榜单），然后运行：
+2. **审核后合并。** 维护者审阅 `data/review/pending.md`（**先看「Star 异常增长」告警节**：一天内 +100★ 或突然窜上榜单的仓库要做增强分析，热度并非来自 DSH 插件本身时写入 `leaderboard_exclusions`），把决定记入 `data/approved.json`（通过）与 `data/curated.json`（剔除 / 不进榜单），然后运行：
 
 ```bash
 node scripts/merge.mjs   # 重新生成 CATALOG.md、catalog/ 分册、TOP200.md 与待审核队列
@@ -90,7 +90,7 @@ node scripts/update.mjs                 # refresh snapshot + review queue from G
 node scripts/update.mjs --from-snapshot # refresh the review queue from the stored snapshot only
 ```
 
-2. **Merge after review.** The maintainer reviews `data/review/pending.md`, records decisions in `data/approved.json` (approve) and `data/curated.json` (exclude / keep out of the board), then runs:
+2. **Merge after review.** The maintainer reviews `data/review/pending.md` (**start with the Star-growth alerts section**: extra analysis for repos that gained ≥100 stars in a day or leapt onto the board; if the popularity is not from the DSH plugin itself, add `leaderboard_exclusions`), records decisions in `data/approved.json` (approve) and `data/curated.json` (exclude / keep out of the board), then runs:
 
 ```bash
 node scripts/merge.mjs   # regenerate CATALOG.md, TOP200.md, and the review queue

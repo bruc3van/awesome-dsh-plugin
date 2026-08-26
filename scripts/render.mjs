@@ -23,6 +23,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { assignableCategories, categoryFallback, categoryRules } from './categories.mjs';
+import { detectStarAnomalies } from './star-anomaly.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -116,15 +117,17 @@ export function clip(value, max = BOARD_DESCRIPTION_MAX) {
   return `${chars.slice(0, max - 1).join('').trimEnd()}…`;
 }
 
-export async function writePending(state) {
+export async function writePending(state, { previousRepositories = null, previousDate = null } = {}) {
   const { pending, missing } = computePending(state);
   const pendingPath = resolve(root, 'data/review/pending.json');
   let previousFirstSeen = new Map();
+  let previousAnomalies = null;
   try {
     const previous = JSON.parse(await readFile(pendingPath, 'utf8'));
     for (const entry of previous.pending || []) {
       previousFirstSeen.set(entry.full_name.toLowerCase(), entry.first_seen);
     }
+    previousAnomalies = previous.star_anomalies ?? null;
   } catch {
     // First run — no queue yet.
   }
@@ -133,28 +136,109 @@ export async function writePending(state) {
     first_seen: previousFirstSeen.get(entry.full_name.toLowerCase()) ?? today,
     ...entry,
   }));
+  // Recompute when the caller still has yesterday's snapshot (the daily
+  // refresh). merge.mjs does not — it keeps the alerts that belong to this
+  // snapshot_date so a review merge does not wipe the warning the maintainer
+  // has not acted on yet.
+  let starAnomalies = null;
+  if (previousRepositories) {
+    starAnomalies = detectStarAnomalies({
+      current: state.snapshot.repositories,
+      previous: previousRepositories,
+      currentDate: state.date,
+      previousDate,
+      approvedNames: state.approvedNames,
+      excluded: state.excluded,
+      leaderboardExclusions: state.leaderboardExclusions,
+    });
+  } else if (previousAnomalies?.snapshot_date === state.date) {
+    starAnomalies = previousAnomalies;
+  }
   const queue = {
     generated_at: new Date().toISOString(),
     snapshot_date: state.date,
     pending: entries,
     missing,
   };
+  if (starAnomalies) queue.star_anomalies = starAnomalies;
   await mkdir(resolve(root, 'data/review'), { recursive: true });
   await writeFile(pendingPath, `${JSON.stringify(queue, null, 2)}\n`);
   await writeFile(resolve(root, 'data/review/pending.md'), renderPendingMarkdown(queue));
+  return { pending: entries, missing, starAnomalies };
+}
+
+const SIGNAL_LABELS = {
+  star_surge: '日增百星',
+  board_entry: '新入 Top 200',
+  board_leap: '榜单跃升',
+  top20_entry: '冲入 Top 20',
+  pending_high: '待审高星',
+};
+
+function renderStarAnomalySection(anomalies) {
+  if (!anomalies) return '';
+  const alerts = anomalies.alerts || [];
+  const compared = anomalies.previous_snapshot_date
+    ? `对比上一份快照 **${anomalies.previous_snapshot_date}** / vs previous snapshot **${anomalies.previous_snapshot_date}**`
+    : '对比上一份快照 / vs previous snapshot';
+  const rows = alerts.length
+    ? alerts
+        .map((alert) => {
+          const delta = alert.delta == null ? '—' : `${alert.delta >= 0 ? '+' : ''}${alert.delta}`;
+          const age = alert.age_days == null ? '—' : `${alert.age_days}d`;
+          const signals = (alert.signals || []).map((id) => SIGNAL_LABELS[id] || id).join('、') || '—';
+          const hint = (alert.hints || []).join('；') || esc(alert.reviewer_note || '—');
+          const queue = alert.queue === 'pending' ? '待审 / pending' : '已核准 / approved';
+          return `| ⚠️ [${alert.full_name}](${alert.html_url}) | ${queue} | ${alert.stars} | ${delta} | ${alert.forks} | ${age} | ${signals} | ${esc(hint)} |`;
+        })
+        .join('\n')
+    : '| — | — | — | — | — | — | — | 本次无异常 / no alerts this snapshot |';
+  return `
+## ⚠️ Star 异常增长 / Star-growth alerts
+
+**审查员请先看本节。** 对照上一份快照，把「一天内 +100★」或「突然进入 / 大幅跃升榜单」的仓库单独列出。这些条目**必须做增强分析**后再决定，不要只看 README 就核准进榜。
+
+**Reviewers: start here.** Repositories that gained ≥100 stars in one snapshot interval, or that would suddenly appear on / leap up the star board. Do extra analysis before approving them onto the board — a README check is not enough.
+
+${compared}。规则：日增 ≥100★；已核准仓新入 Top 200（且 Δ≥50）/ 名次跃升 ≥50 / 冲入 Top 20；待审仓 ≥100★ 且核准后将进入 Top 200。
+
+- 看 Star 是否与 fork、提交活跃度、仓库年龄匹配（高星零 fork、创建当天几百星，多为刷星）
+- 是否把已有高星的通用项目贴上 \`dsh-plugin\` Topic 蹭榜——插件本身可进目录，但应加入 \`leaderboard_exclusions\`，理由写清 stars accrued as …
+- 待审仓若核准会直接冲进 Top 20 / Top 200，先确认热度来自 **DSH 插件本身**
+- 已核准仓的异常跃升：确认后同样可记入 \`leaderboard_exclusions\`，不必下架目录
+
+Check stars against forks, commit activity and age (hundreds of stars on day one, or high stars with zero forks, usually look bought). A generic high-star project that only just tagged \`dsh-plugin\` can stay in the catalog but should go to \`leaderboard_exclusions\` (reason: stars accrued as …). If approving a pending repo would drop it into Top 20 / Top 200, confirm the audience is the DSH plugin itself.
+
+- 告警数 / Alerts: **${alerts.length}**
+
+| Project | Queue | Stars | Δ | Forks | Age | Signals | 审核提示 / Hint |
+| --- | --- | ---: | ---: | ---: | ---: | --- | --- |
+${rows}
+
+`;
 }
 
 function renderPendingMarkdown(queue) {
   // queue.pending is stored in stable name order to keep the committed JSON
   // diff readable; the review page itself is most useful ranked by stars.
+  const flagged = new Set(
+    (queue.star_anomalies?.alerts || [])
+      .filter((alert) => alert.queue === 'pending')
+      .map((alert) => alert.full_name.toLowerCase()),
+  );
   const rows = [...queue.pending]
     .sort((a, b) => b.stargazers_count - a.stargazers_count || a.full_name.localeCompare(b.full_name))
-    .map(
-      (entry, index) =>
-        `| ${index + 1} | [${entry.full_name}](${entry.html_url}) | ${entry.stargazers_count} | ${entry.created_at.slice(0, 10)} | ${entry.first_seen} | ${esc(entry.description || '—')} |`,
-    )
+    .map((entry, index) => {
+      const mark = flagged.has(entry.full_name.toLowerCase()) ? ' ⚠️' : '';
+      return `| ${index + 1} | [${entry.full_name}](${entry.html_url})${mark} | ${entry.stargazers_count} | ${entry.created_at.slice(0, 10)} | ${entry.first_seen} | ${esc(entry.description || '—')} |`;
+    })
     .join('\n');
   const missingLines = queue.missing.length ? queue.missing.map((name) => `- ${name}`).join('\n') : '- （无 / none）';
+  const alertCount = queue.star_anomalies?.alerts?.length;
+  const alertStat =
+    alertCount == null
+      ? ''
+      : `- Star 异常增长 / Star-growth alerts: **${alertCount}**${alertCount ? ' — 先看下方告警节 / see the alert section first' : ''}\n`;
   return `# 待审核仓库 / Pending review
 
 > 新增到 \`dsh-plugin\` Topic 下、带有简介、尚未经维护者核实的仓库。本文件由 \`scripts/update.mjs\` 每日刷新，仅供审核使用，不是用户可见页面。
@@ -165,7 +249,7 @@ function renderPendingMarkdown(queue) {
 - 快照日期 / Snapshot date: **${queue.snapshot_date} (UTC)**
 - 待审核 / Pending: **${queue.pending.length}**
 - 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **${queue.missing.length}**
-
+${alertStat}
 审核决定记到数据文件后运行 \`node scripts/merge.mjs\` 生效：
 
 - 通过 → 加入 [data/approved.json](../approved.json)（\`"owner/name": "YYYY-MM-DD"\`）
@@ -173,6 +257,7 @@ function renderPendingMarkdown(queue) {
 - 只进目录、不进榜单 → 加入 \`approved.json\` + \`curated.json\` 的 \`leaderboard_exclusions\`
 - 非插件形态 / market 类（插件市场、商店、技能商城、内置市场的桌面端等）→ 加入 \`curated.json\` 的 \`market_exclusions\`（市场不能包含市场）
 - 目录站 / awesome-list / 榜单站（如 \`awesome-dsh-plugin*\` 系列）→ \`excluded_repos\` 整体剔除，不留目录
+- Star 异常增长（见告警节）→ 先做增强分析；热度并非来自 DSH 插件本身时，核准也加入 \`leaderboard_exclusions\`
 
 完整约定见 [data/review/README.md](./README.md)。
 
@@ -183,11 +268,12 @@ Record decisions in the data files, then run \`node scripts/merge.mjs\`:
 - Catalog-only (not in the board) → add to \`approved.json\` + \`leaderboard_exclusions\` in \`curated.json\`
 - Non-plugin form / market class (plugin market, store, skill mall, desktop with a built-in market) → \`market_exclusions\` in \`curated.json\` (the market cannot include another market)
 - Directory sites / awesome-lists / leaderboards (e.g. the \`awesome-dsh-plugin*\` family) → \`excluded_repos\` outright
+- Star-growth alerts (see the section below) → extra analysis first; if the stars are not from the DSH plugin itself, approve into \`leaderboard_exclusions\` as well
 
 See [data/review/README.md](./README.md) for the full convention.
-
+${renderStarAnomalySection(queue.star_anomalies)}
 | # | Project | Stars | Created | First seen | Description |
-| ---: | --- | ---: | --- | --- | --- |
+| ---: | --- | ---: | ---: | ---: | --- |
 ${rows}
 
 ## 从快照消失的已核准仓库 / Approved repositories missing from the snapshot

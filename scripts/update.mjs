@@ -14,7 +14,8 @@ import { appendFile, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchWithRetry, githubHeaders } from './github.mjs';
-import { computePending, loadState, writePending } from './render.mjs';
+import { loadState, writePending } from './render.mjs';
+import { formatStarAnomalySummary } from './star-anomaly.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const query = 'topic:dsh-plugin';
@@ -241,13 +242,13 @@ async function reconcileSnapshot(items, previousRepositories) {
 
 async function refreshSnapshot() {
   const fetchedAt = new Date();
-  let previousRepositories = [];
+  let previousSnapshot = { repositories: [], fetched_at: null };
   try {
-    previousRepositories =
-      JSON.parse(await readFile(resolve(root, 'data/repositories.json'), 'utf8')).repositories ?? [];
+    previousSnapshot = JSON.parse(await readFile(resolve(root, 'data/repositories.json'), 'utf8'));
   } catch {
     // first run — nothing to reconcile against
   }
+  const previousRepositories = previousSnapshot.repositories ?? [];
   const items = await fetchRange(
     query,
     new Date('2008-01-01T00:00:00Z'),
@@ -295,11 +296,15 @@ async function refreshSnapshot() {
     );
   }
   return {
-    source: 'https://github.com/topics/dsh-plugin',
-    query,
-    fetched_at: fetchedAt.toISOString(),
-    total_count: repositories.length,
-    repositories,
+    snapshot: {
+      source: 'https://github.com/topics/dsh-plugin',
+      query,
+      fetched_at: fetchedAt.toISOString(),
+      total_count: repositories.length,
+      repositories,
+    },
+    previousRepositories,
+    previousDate: typeof previousSnapshot.fetched_at === 'string' ? previousSnapshot.fetched_at.slice(0, 10) : null,
   };
 }
 
@@ -308,11 +313,16 @@ async function refreshSnapshot() {
 // user-facing pages are derived from it (plus data/approved.json / data/curated.json),
 // so manual analysis of the raw data always has the complete picture.
 let snapshot;
+let previousRepositories = null;
+let previousDate = null;
 if (fromSnapshot) {
   snapshot = JSON.parse(await readFile(resolve(root, 'data/repositories.json'), 'utf8'));
 } else {
   try {
-    snapshot = await refreshSnapshot();
+    const refreshed = await refreshSnapshot();
+    snapshot = refreshed.snapshot;
+    previousRepositories = refreshed.previousRepositories;
+    previousDate = refreshed.previousDate;
   } catch (error) {
     if (!(error instanceof SnapshotCollapse)) throw error;
     // Nothing is written: neither the snapshot nor the review queue, so the
@@ -332,12 +342,26 @@ if (fromSnapshot) {
 }
 
 const state = await loadState();
-const { pending, missing } = computePending(state);
-await writePending(state);
+const pendingOptions = fromSnapshot ? {} : { previousRepositories, previousDate };
+const { pending, missing, starAnomalies } = await writePending(state, pendingOptions);
 
+const anomalySummary = formatStarAnomalySummary(starAnomalies);
 console.log(
-  `${fromSnapshot ? 'Generated from snapshot' : 'Updated snapshot'} with ${snapshot.repositories.length} repositories at ${snapshot.fetched_at}; review queue holds ${pending.length} pending, ${missing.length} approved repositories missing from the snapshot.`,
+  `${fromSnapshot ? 'Generated from snapshot' : 'Updated snapshot'} with ${snapshot.repositories.length} repositories at ${snapshot.fetched_at}; review queue holds ${pending.length} pending, ${missing.length} approved repositories missing from the snapshot${anomalySummary ? `; ${anomalySummary}` : ''}.`,
 );
+if (anomalySummary) console.warn(`Warning: ${anomalySummary}`);
+if (starAnomalies?.alerts?.length && process.env.GITHUB_STEP_SUMMARY) {
+  const lines = starAnomalies.alerts
+    .slice(0, 40)
+    .map((alert) => {
+      const delta = alert.delta == null ? 'n/a' : `${alert.delta >= 0 ? '+' : ''}${alert.delta}`;
+      return `- [${alert.full_name}](${alert.html_url}) — ${alert.queue}, ${alert.stars}★ (Δ ${delta}), ${alert.signals.join(', ')}`;
+    });
+  await appendFile(
+    process.env.GITHUB_STEP_SUMMARY,
+    `### ⚠️ Star-growth alerts\n\n${anomalySummary} See \`data/review/pending.md\`. Extra analysis required before these land on the star board.\n\n${lines.join('\n')}${starAnomalies.alerts.length > 40 ? `\n- … and ${starAnomalies.alerts.length - 40} more` : ''}\n`,
+  );
+}
 
 const warnings = [...partitionWarnings];
 if (warnings.length) {
