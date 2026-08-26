@@ -5,9 +5,9 @@
 > Repositories newly added to the `dsh-plugin` topic that the maintainer has not verified yet. Refreshed daily by `scripts/update.mjs`; review-only, not a user-facing page.
 
 - 生成时间 / Generated: **2026-08-26**
-- 快照日期 / Snapshot date: **2026-08-25 (UTC)**
-- 待审核 / Pending: **2**
-- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **1**
+- 快照日期 / Snapshot date: **2026-08-26 (UTC)**
+- 待审核 / Pending: **0**
+- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **0**
 
 审核决定记到数据文件后运行 `node scripts/merge.mjs` 生效：
 
@@ -31,8 +31,7 @@ See [data/review/README.md](./README.md) for the full convention.
 
 | # | Project | Stars | Created | First seen | Description |
 | ---: | --- | ---: | --- | --- | --- |
-| 1 | [pan17/dsh-github-token-injector](https://github.com/pan17/dsh-github-token-injector) | 1 | 2026-08-24 | 2026-08-25 | DSH Web client plugin: auto-inject GitHub Authorization header on api.github.com requests to defeat shared-IP rate limits. |
-| 2 | [todayer/todayer-dsh-telegram-channel](https://github.com/todayer/todayer-dsh-telegram-channel) | 0 | 2026-08-24 | 2026-08-25 | DeepSeek Harness Telegram channel plugin (Hermes-style gateway): per-topic sessions, DM topics, group gating, media, commands. Fork/extension of hi-wenw/dsh-telegram-channel. |
+
 
 ## 从快照消失的已核准仓库 / Approved repositories missing from the snapshot
 
@@ -40,4 +39,4 @@ See [data/review/README.md](./README.md) for the full convention.
 
 Approved but no longer present in the current snapshot (deleted or renamed) — after checking, remove them from [data/approved.json](../approved.json) or update the name.
 
-- todayer/todayer-dsh-telegram-bridge
+- （无 / none）
