@@ -5,10 +5,10 @@
 > Repositories newly added to the `dsh-plugin` topic that the maintainer has not verified yet. Refreshed daily by `scripts/update.mjs`; review-only, not a user-facing page.
 
 - 生成时间 / Generated: **2026-08-27**
-- 快照日期 / Snapshot date: **2026-08-26 (UTC)**
+- 快照日期 / Snapshot date: **2026-08-27 (UTC)**
 - 待审核 / Pending: **0**
-- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **52**
-- Star 异常增长 / Star-growth alerts: **2** — 先看下方告警节 / see the alert section first
+- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **0**
+- Star 异常增长 / Star-growth alerts: **3** — 先看下方告警节 / see the alert section first
 
 审核决定记到数据文件后运行 `node scripts/merge.mjs` 生效：
 
@@ -47,12 +47,13 @@ See [data/review/README.md](./README.md) for the full convention.
 
 Check stars against forks, commit activity and age (hundreds of stars on day one, or high stars with zero forks, usually look bought). A generic high-star project that only just tagged `dsh-plugin` can stay in the catalog but should go to `leaderboard_exclusions` (reason: stars accrued as …). If approving a pending repo would drop it into Top 20 / Top 200, confirm the audience is the DSH plugin itself.
 
-- 告警数 / Alerts: **2**
+- 告警数 / Alerts: **3**
 
 | Project | Queue | Stars | Δ | Forks | Age | Signals | 审核提示 / Hint |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| ⚠️ [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 已核准 / approved | 20657 | +326 | 1002 | 12d | 日增百星 | 日增 +326★ |
-| ⚠️ [Minglink/dsh-infinite-gen-2](https://github.com/Minglink/dsh-infinite-gen-2) | 已核准 / approved | 483 | +173 | 21 | 10d | 日增百星 | 日增 +173★ |
+| ⚠️ [platonai/Browser4](https://github.com/platonai/Browser4) | 待审 / pending | 1112 | — | 150 | 3089d | 待审高星 | 核准即 Top 13 |
+| ⚠️ [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 已核准 / approved | 2607 | +115 | 137 | 12d | 日增百星 | 日增 +115★ |
+| ⚠️ [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web) | 已核准 / approved | 6274 | +101 | 410 | 14d | 日增百星 | 日增 +101★ |
 
 
 | # | Project | Stars | Created | First seen | Description |
@@ -65,55 +66,4 @@ Check stars against forks, commit activity and age (hundreds of stars on day one
 
 Approved but no longer present in the current snapshot (deleted or renamed) — after checking, remove them from [data/approved.json](../approved.json) or update the name.
 
-- dsh-external/chat-width
-- dsh-external/dsh-agent-teams
-- dsh-external/dsh-at-file
-- dsh-external/dsh-automation
-- dsh-external/dsh-bash-encoding
-- dsh-external/dsh-better-browser
-- dsh-external/dsh-book2skill
-- dsh-external/dsh-browser4
-- dsh-external/dsh-computer-use
-- dsh-external/dsh-custom-tool
-- dsh-external/dsh-cyber-sec
-- dsh-external/dsh-daily-fortune
-- dsh-external/dsh-deepcel
-- dsh-external/dsh-deeplink
-- dsh-external/dsh-deeptag
-- dsh-external/dsh-doctor
-- dsh-external/dsh-easy-ctx-manager
-- dsh-external/dsh-fun-ticker
-- dsh-external/dsh-fun-typewriter
-- dsh-external/dsh-fun-weather
-- dsh-external/dsh-genui
-- dsh-external/dsh-grok-tui
-- dsh-external/dsh-handoff
-- dsh-external/dsh-input-history
-- dsh-external/dsh-island
-- dsh-external/dsh-minigames
-- dsh-external/dsh-notification
-- dsh-external/dsh-nowledge-mem
-- dsh-external/dsh-open-in-vscode
-- dsh-external/dsh-openmaic
-- dsh-external/dsh-paste-input
-- dsh-external/dsh-pet
-- dsh-external/dsh-pet-corner
-- dsh-external/dsh-pi-adapter
-- dsh-external/dsh-plan-execute
-- dsh-external/dsh-plannotator
-- dsh-external/dsh-plugin-guide
-- dsh-external/dsh-qq2006
-- dsh-external/dsh-revive
-- dsh-external/dsh-sentinel
-- dsh-external/dsh-session-hub
-- dsh-external/dsh-spotlight
-- dsh-external/dsh-tps
-- dsh-external/dsh-turn-rewind
-- dsh-external/dsh-ui-progress
-- dsh-external/dsh-ui-whale
-- dsh-external/dsh-vision-toolkit
-- dsh-external/dsh-visualize
-- dsh-external/dsh-web-workbench
-- dsh-external/dsh-webui-live-html
-- dsh-external/oh-my-dsh
-- yustillrain/dsh-skill-browser
+- （无 / none）
