@@ -7,6 +7,7 @@
 [![Snapshot & review queue](https://github.com/bruc3van/awesome-dsh-plugin/actions/workflows/update-catalog.yml/badge.svg)](https://github.com/bruc3van/awesome-dsh-plugin/actions/workflows/update-catalog.yml)
 [![Refreshed](https://img.shields.io/github/last-commit/bruc3van/awesome-dsh-plugin?label=refreshed&color=10b981)](./CATALOG.md)
 ![License](https://img.shields.io/badge/license-MIT-f59e0b)
+[![dshfind](https://dshfind.com/api/badge/bruc3van/awesome-dsh-plugin?lang=en)](https://dshfind.com/en/plugins/bruc3van/awesome-dsh-plugin?ref=badge)
 
 [中文](./README.md) · [Full catalog](./CATALOG.md) · [Star Top 200](./TOP200.md) · [Author showcase](./SHOWCASE.md) · [Recommend a plugin](./CONTRIBUTING.md) · [Machine-readable data](./data/repositories.json)
 
