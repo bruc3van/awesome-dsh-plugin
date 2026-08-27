@@ -1,6 +1,5 @@
 ## 📣 作者自荐
 
-- **[dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— Claude Code 风格的声明式权限规则：在 tools/pre-execute 瀑布上按序匹配 allow/deny/ask YAML 规则（工具名、参数、工作区路径、agent 身份），带完整会话日志审计、干跑模式与热重载，可与 dsh-auto-review 组成「规则先行、AI 兜底」闭环。
 - **[dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 官方 MCP 客户端（dsh-mcp-client）的只读运行时管理面板：/mcp 命令与设置页 MCP 页签展示连接状态、已注册工具、错误与重连计数，附连通性探测与受控启停 patch 建议；脱敏展示，绝不改写配置。
 - **[dsh-memento](https://github.com/PerryLink/dsh-memento)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 有界、分层、带审批门、可审计的跨会话记忆：类型化 `ctx.memory` 服务 + 零依赖 SQLite Provider + `memory` 工具与冻结快照注入；写必过审批门、模型可见 ⟺ 可自会话日志重建。
 - **[dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— DSH 的 Claude Code /rewind 等价能力：每次变更型工具执行前捕获 git 优先的工作区快照，轮次边界 fork 会话，一条 /rewind 命令恢复文件并把会话回退到检查点；附 preview 只读预览与保护检查点，回退本身可撤销。
@@ -34,7 +33,6 @@
 
 ## 📣 Author showcase
 
-- **[dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules)** ([@PerryLink](https://github.com/PerryLink) · 2026-08-15) — Claude Code-style declarative permission rules: ordered allow/deny/ask YAML rules matched on the tools/pre-execute waterfall (tool names, arguments, workspace paths, agent identity), with full session-log audit, dry-run mode, and hot reload; pairs with dsh-auto-review for a rules-first, AI-backstop loop.
 - **[dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel)** ([@PerryLink](https://github.com/PerryLink) · 2026-08-15) — Read-only runtime management panel for the official DSH MCP client: connection status, registered tools, errors and reconnect counts via the /mcp command and a Settings tab, with connectivity probes and controlled enable/disable patch suggestions; sanitized display, never writes your config.
 - **[dsh-memento](https://github.com/PerryLink/dsh-memento)** ([@PerryLink](https://github.com/PerryLink) · 2026-08-15) — Bounded, layered, approval-gated, auditable cross-session memory: a typed ctx.memory service seam with a zero-dependency SQLite provider, a memory tool, and frozen snapshot injection; every write passes the approval gate and stays reconstructable from the session log.
 - **[dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind)** ([@PerryLink](https://github.com/PerryLink) · 2026-08-15) — Claude Code /rewind for DSH: git-first workspace snapshots before every mutating tool, turn-boundary session forks, and a one-shot /rewind command that restores files and forks the session back to a checkpoint; a read-only preview and guard checkpoints make rewinds reversible.
