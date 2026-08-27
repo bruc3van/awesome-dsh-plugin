@@ -194,14 +194,36 @@ if (showcaseReposByLabel.has('full:zh') && showcaseReposByLabel.has('full:en')) 
     errors.push('SHOWCASE.md zh/en sections list different repositories or orders — keep both sections in sync');
   }
 }
+// Preview freshness is context-dependent. A showcase PR appends to
+// SHOWCASE.md and deliberately leaves the generated README previews
+// untouched (CONTRIBUTING forbids hand-syncing them; refresh-showcase.yml
+// regenerates them the moment the merge lands on main), so on a pull
+// request — and on a contributor's local pre-submit run — a preview that
+// still matches an earlier stretch of the list is the expected
+// pending-refresh state, not drift. In every other CI context the previews
+// must already be current. A preview matching no contiguous stretch of
+// SHOWCASE.md is a hand edit or real drift, and fails everywhere.
+const strictPreviewSync = Boolean(process.env.GITHUB_EVENT_NAME) && process.env.GITHUB_EVENT_NAME !== 'pull_request';
 for (const label of ['zh', 'en']) {
   const fullList = showcaseReposByLabel.get(`full:${label}`);
   const preview = showcaseReposByLabel.get(`preview:${label}`);
   if (!fullList || !preview) continue;
+  const file = label === 'zh' ? 'README.md' : 'README_EN.md';
   const expected = fullList.slice(-showcasePreviewCap);
-  if (preview.join() !== expected.join()) {
+  if (preview.join() === expected.join()) continue;
+  const lagStart = preview.length ? fullList.indexOf(preview[0]) : -1;
+  const lagsBehind =
+    preview.length <= showcasePreviewCap &&
+    lagStart !== -1 &&
+    preview.every((repo, index) => fullList[lagStart + index] === repo);
+  if (lagsBehind) {
+    const message =
+      `${file}: the home-page showcase preview lags SHOWCASE.md (expected its ${showcasePreviewCap} most recent entries) — ` +
+      'refresh-showcase.yml will regenerate it when this change lands on main, or run "node scripts/showcase-preview.mjs" locally';
+    (strictPreviewSync ? errors : warnings).push(message);
+  } else {
     errors.push(
-      `${label === 'zh' ? 'README.md' : 'README_EN.md'}: the home-page showcase preview must show the ${showcasePreviewCap} most recent SHOWCASE.md entries in order — keep it in sync`,
+      `${file}: the home-page showcase preview matches no stretch of SHOWCASE.md — regenerate it with "node scripts/showcase-preview.mjs"`,
     );
   }
 }

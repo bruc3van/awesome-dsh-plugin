@@ -13,7 +13,8 @@
 // merged showcase PR shows up on the home pages immediately instead of at the
 // next review merge. That closes the window that tempts contributors into
 // hand-editing the generated region (CONTRIBUTING forbids it, and
-// validate-curated.mjs enforces preview == SHOWCASE.md tail either way).
+// validate-curated.mjs enforces preview == SHOWCASE.md tail once merged —
+// on pull requests a lagging preview only warns).
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
