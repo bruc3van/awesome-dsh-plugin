@@ -185,7 +185,7 @@ const missingCount = written.missing.length;
 const alertCount = written.starAnomalies?.alerts?.length ?? 0;
 
 console.log(
-  `Review merge done — catalog lists ${stats.repositories} repositories (${stats.languages} languages, ${stats.licenses} licensed, ${stats.active} active) across ${stats.volumes} volumes under ${CATALOG_DIR}/, board holds ${TOP_N} entries, README data islands refreshed in ${readme.updated.join(', ') || 'no files'} (panorama total ${readme.total}, leaderboard top ${readme.top20}, showcase preview ${readme.showcase}), review queue holds ${pendingCount} pending, ${missingCount} approved repositories missing from the snapshot${alertCount ? `, ${alertCount} star-growth alert(s)` : ''}.`,
+  `Review merge done — catalog lists ${stats.repositories} repositories (${stats.languages} languages, ${stats.licenses} licensed, ${stats.active} active) across ${stats.volumes} volumes under ${CATALOG_DIR}/, board holds ${TOP_N} entries, README data islands refreshed in ${readme.updated.join(', ') || 'no files'} (panorama total ${readme.total}, leaderboard top ${readme.top50}, showcase preview ${readme.showcase}), review queue holds ${pendingCount} pending, ${missingCount} approved repositories missing from the snapshot${alertCount ? `, ${alertCount} star-growth alert(s)` : ''}.`,
 );
 
 for (const warning of oversized) {

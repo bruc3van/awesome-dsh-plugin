@@ -6,7 +6,7 @@
 // maintainer has reviewed the queue and recorded decisions in
 // data/approved.json and data/curated.json. merge.mjs also refreshes the three
 // data islands inside README.md / README_EN.md (the ecosystem mindmap, the
-// Top 20 leaderboard table, and the author-showcase preview) between dsh:*
+// Top 50 leaderboard table, and the author-showcase preview) between dsh:*
 // marker comments — the rest of those pages stays hand-maintained.
 //
 // CATALOG.md is an index; the catalog itself lives in one page per category
@@ -433,7 +433,7 @@ export function buildBoard(state, topN) {
 // by scripts/merge.mjs:
 //
 //   <!-- dsh:panorama:start --> … <!-- dsh:panorama:end -->      ecosystem mindmap
-//   <!-- dsh:leaderboard:start --> … <!-- dsh:leaderboard:end -->  Top 20 table
+//   <!-- dsh:leaderboard:start --> … <!-- dsh:leaderboard:end -->  Top 50 table
 //   <!-- dsh:showcase:start --> … <!-- dsh:showcase:end -->      author-showcase preview
 //
 // The snapshot date embedded in the leaderboard intro sentence is refreshed by
@@ -548,12 +548,46 @@ function panoramaBody(state, counts, total, lang) {
   return lines.join('\n');
 }
 
-function leaderboardBody(top, lang) {
-  const header = lang === 'zh' ? '| # | 项目 | ⭐ Stars | License |' : '| # | Project | ⭐ Stars | License |';
+// How many board entries the home pages preview inside the leaderboard data
+// island (TOP200.md keeps the full board).
+export const LEADERBOARD_PREVIEW = 50;
+
+// The home-page leaderboard shows a preview of each repository's description.
+// README.md renders the editorially translated Chinese descriptions from
+// data/leaderboard-descriptions-zh.json — same philosophy as curated.json:
+// pages stay script-generated, the human-maintained content lives in data/.
+// README_EN.md keeps the upstream descriptions. Repositories without a
+// translation fall back to the upstream text and are reported as a warning.
+export async function loadZhLeaderboardDescriptions(warnings) {
+  const path = resolve(root, 'data/leaderboard-descriptions-zh.json');
+  try {
+    const parsed = JSON.parse(await readFile(path, 'utf8'));
+    const map = new Map();
+    for (const [fullName, description] of Object.entries(parsed)) {
+      if (typeof description !== 'string' || !description.trim()) {
+        warnings.push(`data/leaderboard-descriptions-zh.json: "${fullName}" has an empty or non-string description — ignored`);
+        continue;
+      }
+      map.set(fullName.toLowerCase(), description);
+    }
+    return map;
+  } catch (error) {
+    warnings.push(`data/leaderboard-descriptions-zh.json could not be read (${error.message}) — Chinese descriptions left untranslated`);
+    return new Map();
+  }
+}
+
+function leaderboardBody(top, lang, zhDescriptions) {
+  const zh = lang === 'zh';
+  const header = zh
+    ? '| # | 项目 | 简介 | ⭐ Stars | License |'
+    : '| # | Project | Description | ⭐ Stars | License |';
+  const describe = (repo) => (zh ? zhDescriptions?.get(repo.full_name.toLowerCase()) ?? repo.description : repo.description);
   const rows = top.map(
-    (repo, index) => `| ${index + 1} | [${repo.full_name}](${repo.html_url}) | ${repo.stargazers_count} | ${repo.license || '—'} |`,
+    (repo, index) =>
+      `| ${index + 1} | [${repo.full_name}](${repo.html_url}) | ${esc(clip(describe(repo) || '—'))} | ${repo.stargazers_count} | ${repo.license || '—'} |`,
   );
-  return [header, '| ---: | --- | ---: | --- |', ...rows].join('\n');
+  return [header, '| ---: | --- | --- | ---: | --- |', ...rows].join('\n');
 }
 
 export function replaceRegion(content, startMarker, endMarker, body, label, warnings) {
@@ -576,9 +610,16 @@ export async function updateReadmePages(state) {
     licenses: repositories.filter((repo) => repo.license).length,
     active: repositories.filter((repo) => !repo.archived && !repo.disabled).length,
   };
-  const top20 = boardRepositories(state)
+  const top50 = boardRepositories(state)
     .sort((a, b) => b.stargazers_count - a.stargazers_count || a.full_name.localeCompare(b.full_name))
-    .slice(0, 20);
+    .slice(0, LEADERBOARD_PREVIEW);
+  const zhDescriptions = await loadZhLeaderboardDescriptions(warnings);
+  const missingZh = top50.filter((repo) => !zhDescriptions.has(repo.full_name.toLowerCase())).map((repo) => repo.full_name);
+  if (missingZh.length) {
+    warnings.push(
+      `README.md: ${missingZh.length} leaderboard repositories have no Chinese description in data/leaderboard-descriptions-zh.json — showing the upstream description instead: ${missingZh.slice(0, 5).join(', ')}${missingZh.length > 5 ? '…' : ''}`,
+    );
+  }
   const fmt = (value) => value.toLocaleString('en-US');
   const statsZh = `截至 ${state.date}，全量目录收录 **${repositories.length}** 个仓库、**${totals.languages}** 种主要语言；其中 **${totals.licenses}** 个声明了许可证，**${totals.active}** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。`;
   const statsEn = `As of ${state.date}, the catalog lists **${fmt(repositories.length)}** repositories across **${totals.languages}** primary languages; **${fmt(totals.licenses)}** declare a license and **${fmt(totals.active)}** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).`;
@@ -593,7 +634,7 @@ export async function updateReadmePages(state) {
       statsPattern: /截至 \d{4}-\d{2}-\d{2}，全量目录收录 [^\n]*为准）。/,
       statsReplacement: statsZh,
       panorama: panoramaBody(state, counts, repositories.length, 'zh'),
-      leaderboard: leaderboardBody(top20, 'zh'),
+      leaderboard: leaderboardBody(top50, 'zh', zhDescriptions),
       showcase: showcase && showcase.zh.slice(-SHOWCASE_PREVIEW).join('\n'),
       showcaseTotalPattern: /查看全部 \d+ 条自荐/,
       showcaseTotalReplacement: showcase && `查看全部 ${showcase.total} 条自荐`,
@@ -606,7 +647,7 @@ export async function updateReadmePages(state) {
       statsPattern: /As of \d{4}-\d{2}-\d{2}, the catalog lists [^\n]*for current numbers\)\./,
       statsReplacement: statsEn,
       panorama: panoramaBody(state, counts, repositories.length, 'en'),
-      leaderboard: leaderboardBody(top20, 'en'),
+      leaderboard: leaderboardBody(top50, 'en'),
       showcase: showcase && showcase.en.slice(-SHOWCASE_PREVIEW).join('\n'),
       showcaseTotalPattern: /See all \d+ showcase entries/,
       showcaseTotalReplacement: showcase && `See all ${showcase.total} showcase entries`,
@@ -640,7 +681,7 @@ export async function updateReadmePages(state) {
     updated,
     warnings,
     total: repositories.length,
-    top20: top20.length,
+    top50: top50.length,
     showcase: showcase ? Math.min(showcase.total, SHOWCASE_PREVIEW) : 0,
   };
 }
