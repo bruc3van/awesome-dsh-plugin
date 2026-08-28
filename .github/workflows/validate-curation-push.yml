@@ -1,0 +1,42 @@
+name: Validate curation changes on main
+
+# Review merges are pushed straight to main (see data/review/README.md), so the
+# pull_request-only gates in validate-curated.yml never see them. This workflow
+# is the backstop for exactly those pushes: whenever approved.json or
+# curated.json lands on main, it re-runs the two checks the one-line AI review
+# is supposed to run locally — validate-curated.mjs (live GitHub API) and
+# merge.mjs --check (did the generated catalog pages get committed together
+# with the curation change, or does main now hold stale pages?). A red X on the
+# push commit means the merge was incomplete, not that this workflow is broken.
+#
+# Read-only: it commits nothing, so it shares no concurrency group with the
+# workflows that do (update-catalog / refresh-market / refresh-showcase). The
+# bot-driven pushes never touch approved.json or curated.json, so this only
+# fires for maintainer review merges and direct curation edits.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/approved.json'
+      - 'data/curated.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Validate curated data and the review gate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/validate-curated.mjs
+      - name: Check the published catalog against the curation data
+        run: node scripts/merge.mjs --check

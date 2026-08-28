@@ -4,7 +4,7 @@ DSH 插件全量目录的「实用工具与其他」分册 / The "Utilities & Ot
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **493**
+- 本册收录 / Entries in this volume: **490**
 - 快照日期 / Snapshot date: **2026-08-28 UTC**
 - 最近人工复核 / Last review merge: **2026-08-28**
 
@@ -78,7 +78,6 @@ DSH 插件全量目录的「实用工具与其他」分册 / The "Utilities & Ot
 | [omdsh-dev/dsh-tool-markdown](https://github.com/omdsh-dev/dsh-tool-markdown) | DSH Markdown 工具插件：HTML↔Markdown 转换、GFM 表格规范化、目录生成，零依赖轻量解析器，注册 markdown 工具 | TypeScript | 4 | MIT | 2026-08-25 |
 | [omdsh-dev/dsh-tool-time](https://github.com/omdsh-dev/dsh-tool-time) | DSH 时间工具插件：严格 ISO 8601 解析、IANA 时区转换、UTC 日历运算、固定时长差，零依赖 | TypeScript | 4 | MIT | 2026-08-25 |
 | [opensetk/dsh-xiaohei](https://github.com/opensetk/dsh-xiaohei) | dsh的罗小黑插件 | TypeScript | 4 | MIT | 2026-08-25 |
-| [wangzhuo-coding/geo-content-optimizer](https://github.com/wangzhuo-coding/geo-content-optimizer) | GEO生成式引擎优化智能体 — 7类关键词+七层架构+EE-A-T权威框架+8维度降痕改写 | Python | 4 | MIT | 2026-08-19 |
 | [WJNCT55555/dsh-achievements](https://github.com/WJNCT55555/dsh-achievements) | 为了探索dsh 让vibecoding像游戏一样有趣 | TypeScript | 4 | MIT | 2026-08-27 |
 | [ai4paper/apaper-plugin](https://github.com/ai4paper/apaper-plugin) | Claude Code plugin for academic paper authoring: bundles writing/figure/PDF skills with the apaper-mcp server. | Typst | 3 | MIT | 2026-08-24 |
 | [aispin-dev/llm-as-a-Verifier-dsh](https://github.com/aispin-dev/llm-as-a-Verifier-dsh) | LLM-as-a-Verifier (arXiv:2607.05391) as a dsh plugin — Best-of-N conversation mode: give DeepSeek V4 Flash test-time scaling. Bo5 self-verification hits 88% on Terminal-Bench 2.1, beating some frontier models at a fraction of the cost. Fine-grained logprob-expectation scoring, PPT tournament, zero-config. | TypeScript | 3 | MIT | 2026-08-26 |
@@ -141,7 +140,6 @@ DSH 插件全量目录的「实用工具与其他」分册 / The "Utilities & Ot
 | [cjz-wr/background-plugin](https://github.com/cjz-wr/background-plugin) | 修改DSH的背景，支持静态动态背景，支持网页图片视频，支持修改透明度 | TypeScript | 2 | MIT | 2026-08-25 |
 | [clarkzhao/dsh-llm-grok](https://github.com/clarkzhao/dsh-llm-grok) | dsh plugin for grok  | TypeScript | 2 | — | 2026-08-25 |
 | [CMSKL/dsh-plugin-observatory](https://github.com/CMSKL/dsh-plugin-observatory) | DSH plugin compatibility audit and bounded Loader lifecycle observation | TypeScript | 2 | MIT | 2026-08-25 |
-| [cocofhu/dsh-testsuite](https://github.com/cocofhu/dsh-testsuite) | testsuite of dsh plugins | Go | 2 | MIT | 2026-08-24 |
 | [coder-wu/dsh-finance-data](https://github.com/coder-wu/dsh-finance-data) | 增量收集金融数据 | JavaScript | 2 | MIT | 2026-08-19 |
 | [Creakono/dsh-cost-meter](https://github.com/Creakono/dsh-cost-meter) | Automatically calculate the cost based on the configured price list. 自动按配置的价目表算价格花费。默认未启用峰谷价格，后续还请自行在配置页添加 | TypeScript | 2 | — | 2026-08-27 |
 | [daizihan233/dsh-my-go](https://github.com/daizihan233/dsh-my-go) | My tasks, where to GO????? | JavaScript | 2 | MIT | 2026-08-27 |
@@ -356,7 +354,6 @@ DSH 插件全量目录的「实用工具与其他」分册 / The "Utilities & Ot
 | [dsh-external/dsh-island](https://github.com/dsh-external/dsh-island) | DSH Dynamic Island — macOS notch panel for DSH；macOS 上的 codeisland 复刻 | Swift | 0 | — | 2026-08-13 |
 | [dsh-external/dsh-nowledge-mem](https://github.com/dsh-external/dsh-nowledge-mem) | DSH plugin for Nowledge Mem™ | TypeScript | 0 | — | 2026-08-13 |
 | [dsh-external/dsh-openmaic](https://github.com/dsh-external/dsh-openmaic) | Generate OpenMAIC classrooms (interactive AI lessons) and return a playable classroom link | JavaScript | 0 | MIT | 2026-08-13 |
-| [dsh-external/dsh-plugin-guide](https://github.com/dsh-external/dsh-plugin-guide) | DSH 插件开发指南：从零到精通 | — | 0 | — | 2026-08-13 |
 | [dsh-external/dsh-revive](https://github.com/dsh-external/dsh-revive) | DSH 一键复活：重启后给所有被打断的会话自动发送「继续」指令（/revive 命令 + revive_sessions 工具 + 浏览器一键按钮） | TypeScript | 0 | BSD-3-Clause | 2026-08-13 |
 | [dsh-external/dsh-tps](https://github.com/dsh-external/dsh-tps) | 只是一个 tps 插件 | TypeScript | 0 | BSD-3-Clause | 2026-08-13 |
 | [edelah/dsh-task-board-model](https://github.com/edelah/dsh-task-board-model) | dsh-task-board-model | TypeScript | 0 | BSD-3-Clause | 2026-08-25 |

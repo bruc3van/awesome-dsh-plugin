@@ -87,9 +87,14 @@ for (const fullName of Object.keys(curated.market_exclusions || {})) {
 }
 
 // data/approved.json is the maintainer's review gate: only approved repositories
-// appear on CATALOG.md / TOP200.md. It must parse, hold valid owner/repo keys,
-// and never overlap with excluded_repos (an excluded repository must not stay
-// approved — scripts/merge.mjs would otherwise re-list it).
+// appear on CATALOG.md / TOP200.md. It must parse, hold valid owner/repo keys
+// paired with YYYY-MM-DD approval dates (the pages report the newest one as the
+// last review merge via plain string comparison), never overlap with
+// excluded_repos (an excluded repository must not stay approved —
+// scripts/merge.mjs would otherwise re-list it), and contain every
+// leaderboard_exclusions entry ("in the catalog, off the board" still requires
+// approval; the pending queue does not consult that list, so an unapproved
+// entry would sit in the queue unnoticed forever).
 let approved = {};
 try {
   approved = JSON.parse(await readFile(resolve(root, 'data/approved.json'), 'utf8'));
@@ -98,12 +103,24 @@ try {
 }
 const approvedNames = Object.keys(approved);
 const excludedNames = new Set(Object.keys(curated.excluded_repos || {}).map((fullName) => fullName.toLowerCase()));
-for (const fullName of approvedNames) {
+const approvedLower = new Set(approvedNames.map((fullName) => fullName.toLowerCase()));
+for (const [fullName, date] of Object.entries(approved)) {
   if (!ownerRepoPattern.test(fullName)) {
     errors.push(`approved.json key "${fullName}" is not a valid owner/repo reference`);
+    continue;
   }
   if (excludedNames.has(fullName.toLowerCase())) {
     errors.push(`approved.json entry "${fullName}" is also listed in excluded_repos — remove it from one of the two lists`);
+  }
+  if (typeof date !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(date) || Number.isNaN(Date.parse(date))) {
+    errors.push(`approved.json["${fullName}"]: approval date "${date}" is not a valid YYYY-MM-DD value`);
+  }
+}
+for (const fullName of Object.keys(curated.leaderboard_exclusions || {})) {
+  if (!approvedLower.has(fullName.toLowerCase())) {
+    errors.push(
+      `leaderboard_exclusions entry "${fullName}" is not approved — a catalog-only board exclusion still needs its data/approved.json entry`,
+    );
   }
 }
 

@@ -4,7 +4,7 @@ DSH 插件全量目录的「界面与体验」分册 / The "UI & Experience" vol
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1984**
+- 本册收录 / Entries in this volume: **1978**
 - 快照日期 / Snapshot date: **2026-08-28 UTC**
 - 最近人工复核 / Last review merge: **2026-08-28**
 
@@ -236,7 +236,6 @@ DSH 插件全量目录的「界面与体验」分册 / The "UI & Experience" vol
 | [lssyd20070106/dsh-ui-preset-enhance](https://github.com/lssyd20070106/dsh-ui-preset-enhance) | Third-party DSH WebUI enhancement plugin: custom backgrounds, theme colors, prompt presets, token/context visibility, and manual compact. | JavaScript | 7 | MIT | 2026-08-22 |
 | [minybear/DeepSeek-Harness-Pet](https://github.com/minybear/DeepSeek-Harness-Pet) | Codex-style desktop pet plugin for DeepSeek Harness | JavaScript | 7 | MIT | 2026-08-24 |
 | [MrElysium/dsh-md-quiz](https://github.com/MrElysium/dsh-md-quiz) | DeepSeek Harness plugin: quiz-style reading (答题式阅读) of any Markdown document — 5-stage game loop with a sidebar panel and a reading-area tab. | JavaScript | 7 | MIT | 2026-08-25 |
-| [NEXTINDIE/DeepSeek-Harness-for-VS-Code](https://github.com/NEXTINDIE/DeepSeek-Harness-for-VS-Code) | DeepSeek Harness for VS Code: @dsh chat participant, sidebar & standalone chat, plan mode, goals, subagents, turn-level Git rollback, workspaces/jobs/settings panels, 13-language UI. | TypeScript | 7 | NOASSERTION | 2026-08-23 |
 | [omdsh-dev/dsh-minigames](https://github.com/omdsh-dev/dsh-minigames) | DSH Web UI 右侧小游戏面板：18 款离线小游戏（恐龙跳一跳 / 俄罗斯方块 / 坦克大战 / 扫雷 / 2048 / 数独 / 吃豆人 / 跟枪练习等），可扩展游戏注册表，等待模型回复或修 bug 时的摸鱼神器 | TypeScript | 7 | BSD-3-Clause | 2026-08-22 |
 | [SamizuHM/dsh-client-ui-theme-xp](https://github.com/SamizuHM/dsh-client-ui-theme-xp) | Windows XP Luna desktop theme for the DeepSeek Harness web GUI: multi-window desktop, XP chrome, taskbar, Bliss wallpaper. | JavaScript | 7 | MIT | 2026-08-21 |
 | [SnowCrescenter-tech/dsh-desktop](https://github.com/SnowCrescenter-tech/dsh-desktop) | DeepSeek Harness 桌面版 — 原生 Windows 桌面壳（无边框窗口 / 系统托盘 / 原生通知 / 单实例 / 开机自启）\| Native Windows desktop shell for DeepSeek Harness (frameless window, tray, native notifications, single-instance, auto-launch) | TypeScript | 7 | MIT | 2026-08-24 |
@@ -278,7 +277,6 @@ DSH 插件全量目录的「界面与体验」分册 / The "UI & Experience" vol
 | [skr311/dsh-codex-pet](https://github.com/skr311/dsh-codex-pet) | dsh-codex-pet · DSH 桌面宠物插件 — 导入精灵图序列帧宠物，悬浮浮层渲染 + Agent 状态联动 | JavaScript | 6 | MIT | 2026-08-25 |
 | [TianYa-DAO/dsh-wallpaper-engine](https://github.com/TianYa-DAO/dsh-wallpaper-engine) | deepseek-和人生是、 | TypeScript | 6 | MIT | 2026-08-25 |
 | [xiaoyangcheng84-svg/dsh-skin-manager](https://github.com/xiaoyangcheng84-svg/dsh-skin-manager) | 一个可以管理皮肤的dsh插件 | JavaScript | 6 | MIT | 2026-08-25 |
-| [Xizhi1024/deepseek-harness-dsh-for-vscode](https://github.com/Xizhi1024/deepseek-harness-dsh-for-vscode) | DeepSeek Harness(dsh) for VS Code | JavaScript | 6 | MIT | 2026-08-28 |
 | [yangfch3/dsh-mcp-mgr](https://github.com/yangfch3/dsh-mcp-mgr) | MCP server manager for DeepSeek Harness — workspace mcp.json discovery, hot sync, and a web settings UI. | TypeScript | 6 | — | 2026-08-27 |
 | [Yuuhann1999/dsh-bloub-mood](https://github.com/Yuuhann1999/dsh-bloub-mood) | 动态心情图标 · DeepSeek Harness 插件 — bloub 表情随会话状态切换 favicon 与 logo，形状/颜色/文字可配置（8 shapes × 12 colors, animated SVG, MIT） | JavaScript | 6 | MIT | 2026-08-26 |
 | [yuxino/dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) | DeepSeek Harness 桌宠插件。 | JavaScript | 6 | NOASSERTION | 2026-08-27 |
@@ -504,7 +502,6 @@ DSH 插件全量目录的「界面与体验」分册 / The "UI & Experience" vol
 | [izwarm195/dsh-net-tools](https://github.com/izwarm195/dsh-net-tools) | dsh-net-tools: reliable outbound networking for sandboxed DSH agents — net_fetch (proxy CONNECT-tunnel HTTP fetch) and net_proxy_status (proxy diagnostics). | JavaScript | 3 | MIT | 2026-08-25 |
 | [izz-BLUE/dsh-deepseek-usage-dashboard](https://github.com/izz-BLUE/dsh-deepseek-usage-dashboard) | DeepSeek Harness Web UI plugin for daily API token usage, cost estimates, and balance monitoring | TypeScript | 3 | BSD-3-Clause | 2026-08-25 |
 | [Jarad-z/dsh-goalmesh](https://github.com/Jarad-z/dsh-goalmesh) | Goal-driven multi-agent orchestration for DeepSeek Harness — bounded DAG scheduling, nested delegation, typed evidence, and durable trajectory UI. | TypeScript | 3 | MIT | 2026-08-25 |
-| [joygqz/vscode-dsh](https://github.com/joygqz/vscode-dsh) | Start, open, and manage the DeepSeek Harness Web UI from VS Code. | TypeScript | 3 | MIT | 2026-08-22 |
 | [Julyves/dsh-git-ui](https://github.com/Julyves/dsh-git-ui) | DeepSeek Harness (dsh) plugin: Git status pill in the session header — branch, dirty counts, ahead/behind, recent commits & changed files. | TypeScript | 3 | MIT | 2026-08-27 |
 | [KevinWen7415/dsh-virtual-workspace](https://github.com/KevinWen7415/dsh-virtual-workspace) | Virtual Workspaces for DeepSeek Harness: a dynamic Cordis Plugin that groups multiple project directories under one name for cross-project read/search/write, with native sidebar integration and sandbox-consistent escalation. | JavaScript | 3 | MIT | 2026-08-16 |
 | [keyiadiannao/dsh-power-button](https://github.com/keyiadiannao/dsh-power-button) | Self-contained power control for DeepSeek Harness: sidebar power button with upward restart/shutdown menu, Windows-shutdown-style overlay, own restart & shutdown engine (no dependency on other plugins). | TypeScript | 3 | MIT | 2026-08-25 |
@@ -804,7 +801,6 @@ DSH 插件全量目录的「界面与体验」分册 / The "UI & Experience" vol
 | [MuYu-Zh/dsh-open-browser](https://github.com/MuYu-Zh/dsh-open-browser) | 源码启动自动唤醒web ui | TypeScript | 2 | — | 2026-08-17 |
 | [Mystery-God/dsh-chime](https://github.com/Mystery-God/dsh-chime) | 任务完成提示音插件 for DeepSeek Harness Web GUI — task-completion chime, volume control, custom audio, Plugins settings page | JavaScript | 2 | MIT | 2026-08-25 |
 | [NagasakiSoyo-ui/dsh-llm-deepseek-vision](https://github.com/NagasakiSoyo-ui/dsh-llm-deepseek-vision) | Vision-augmented DeepSeek adapter plugin for DeepSeek Harness: a vision-capable model describes image input, then a text-only DeepSeek model reasons over the description | TypeScript | 2 | MIT | 2026-08-25 |
-| [name-loading/dsh-vscode](https://github.com/name-loading/dsh-vscode) | Use DeepSeek Harness (DSH) directly inside the VS Code sidebar by embedding its web UI. Reuses an already-running `dsh web` server, or launches one for you. | JavaScript | 2 | MIT | 2026-08-18 |
 | [nanami-0713/dsh-notifier](https://github.com/nanami-0713/dsh-notifier) | DSH 插件：任务结束 / 需要用户决策时弹窗提醒（web toast + 桌面通知），类似 Codex / Claude Code 体验 | TypeScript | 2 | MIT | 2026-08-25 |
 | [ne-ilyxa/dsh-session-drafts](https://github.com/ne-ilyxa/dsh-session-drafts) | Cursor-style draft chats for DeepSeek Harness (DSH): New Session reuses the empty draft — and only mints a fresh one when every draft has unsent text — so empty placeholders never stack, exactly like Cursor's (or Telegram's) chat list. | JavaScript | 2 | BSD-3-Clause | 2026-08-26 |
 | [nineandnine-9/dsh-theme-rheostat](https://github.com/nineandnine-9/dsh-theme-rheostat) | Sliding-rheostat theme plugin for the DeepSeek Harness web GUI: model + reasoning-effort driven accents, composer glow, and a whale slider. | TypeScript | 2 | MIT | 2026-08-25 |
@@ -1257,7 +1253,6 @@ DSH 插件全量目录的「界面与体验」分册 / The "UI & Experience" vol
 | [oppnc/dsh-kernel-mesh](https://github.com/oppnc/dsh-kernel-mesh) | Harness-kernel mesh for DeepSeek Harness: kimi/grok/codex/minimax model routes (L1), distilled subagent recipes (L2) and kernel_run/kernel_status/kernel_switch tools. | JavaScript | 1 | MIT | 2026-08-25 |
 | [oriliz/dsh-mcp-apps-host](https://github.com/oriliz/dsh-mcp-apps-host) | MCP Apps Host plugin for DeepSeek Harness: renders interactive HTML cards from MCP _meta.ui in sandboxed iframes, bridges postMessage to MCP tools/call and resources/read | TypeScript | 1 | — | 2026-08-20 |
 | [orpheus0829/dsh-identity-control](https://github.com/orpheus0829/dsh-identity-control) | 为 DeepSeek Harness (DSH) 打造的自定义人设控制插件。 在对话输入栏旁自由填写你的人设文本，一键开关，所有新对话自动生效、免重启。 人设纯粹是你设定的风格，不覆盖 DSH 安全护栏，安装即用、状态持久化。 | JavaScript | 1 | MIT | 2026-08-22 |
-| [osmondlee/dsh-web-tailscale](https://github.com/osmondlee/dsh-web-tailscale) | Remote access to the DeepSeek Harness (dsh) Web UI over Tailscale with dsh-web-auth password gate: overlay patch, PowerShell launcher, docs | PowerShell | 1 | — | 2026-08-16 |
 | [ovensi/dsh-plugin-minimax-usage](https://github.com/ovensi/dsh-plugin-minimax-usage) | DeepSeek Harness plugin: MiniMax Coding Plan quota monitor with progress bars in sidebar | JavaScript | 1 | MIT | 2026-08-16 |
 | [overact/dsh-peak-indicator](https://github.com/overact/dsh-peak-indicator) | DeepSeek Peak / Off-Peak Time Indicator for DSH Web GUI (live status, timezone auto-detection, countdown, SVG icons, discount schedule) | JavaScript | 1 | — | 2026-08-25 |
 | [oxlyn/dsh-model-health](https://github.com/oxlyn/dsh-model-health) | dsh model health status check | TypeScript | 1 | MIT | 2026-08-27 |
@@ -1448,7 +1443,6 @@ DSH 插件全量目录的「界面与体验」分册 / The "UI & Experience" vol
 | [Zenjibad/llmtrim-stats-plugin](https://github.com/Zenjibad/llmtrim-stats-plugin) | Live llmtrim savings dashboard inside the DeepSeek Harness (DSH) Web UI: a settings dashboard plus a rotating carousel stats strip under the composer. | TypeScript | 1 | MIT | 2026-08-25 |
 | [zepeng-jin/dsh-particle-whale](https://github.com/zepeng-jin/dsh-particle-whale) | 🐳 DeepSeek official 3D particle whale plugin for DeepSeek Harness / DSH Desktop (Three.js WebGL) | TypeScript | 1 | MIT | 2026-08-25 |
 | [zhaoryder/ds-pet](https://github.com/zhaoryder/ds-pet) | Cartoon desktop pet for DeepSeek Harness (DSH) with real-time status, selectable styles, offline launcher, and native Windows, macOS, and Linux builds. | JavaScript | 1 | NOASSERTION | 2026-08-16 |
-| [zhaoxuejie/dsh-plugin-learning-path](https://github.com/zhaoxuejie/dsh-plugin-learning-path) | DeepSeek Harness 插件开发学习教程：15 节课程 + 4 个实战项目 + 发布课，交互式单页应用，纯 HTML/CSS/JS 零构建 | JavaScript | 1 | — | 2026-08-27 |
 | [zheng16965/dsh-deliverables-toggle](https://github.com/zheng16965/dsh-deliverables-toggle) | 为 DeepSeek Harness 对话产物列表增加主动展开与收起功能的 Web UI 插件。 | TypeScript | 1 | MIT | 2026-08-24 |
 | [zhengjy01/dsh-flomo](https://github.com/zhengjy01/dsh-flomo) | Send notes and memos to flomo (浮墨笔记) from DeepSeek Harness: flomo_send / flomo_config / flomo_status agent tools | TypeScript | 1 | MIT | 2026-08-25 |
 | [zhengjy01/dsh-notify](https://github.com/zhengjy01/dsh-notify) | System-level desktop notifications for DeepSeek Harness: turn-completion / workflow-end banners and a modal approval alert (macOS osascript, Linux notify-send) | JavaScript | 1 | — | 2026-08-25 |

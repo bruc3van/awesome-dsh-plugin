@@ -4,7 +4,7 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **542**
+- 本册收录 / Entries in this volume: **539**
 - 快照日期 / Snapshot date: **2026-08-28 UTC**
 - 最近人工复核 / Last review merge: **2026-08-28**
 
@@ -171,7 +171,6 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 | [chouyong/dsh-fork-graph](https://github.com/chouyong/dsh-fork-graph) | See your DSH conversation's fork history as a git graph — coloured branch lanes in the session header, click to jump. A pure-derivation DeepSeek Harness Web plugin. | TypeScript | 2 | MIT | 2026-08-25 |
 | [cloud-pkumdl/dsh-pdb](https://github.com/cloud-pkumdl/dsh-pdb) | dsh-pdb (Protein Design for Binder): agent-driven workflow orchestration for protein binder design. DAG-based plan visualization with human-in-the-loop review — unifying GUI-less protein design tools under one agentic pipeline. | — | 2 | MIT | 2026-08-21 |
 | [DDDFXYqiming/dsh-vision-skill](https://github.com/DDDFXYqiming/dsh-vision-skill) | Vision skill plugin for DeepSeek Harness (image analysis and OCR) | JavaScript | 2 | MIT | 2026-08-24 |
-| [devLythen/dsh-docker](https://github.com/devLythen/dsh-docker) | Docker image for DeepSeek Harness, with self-hosted deployment supported | JavaScript | 2 | MIT | 2026-08-24 |
 | [Elohia/pi-mm-vision](https://github.com/Elohia/pi-mm-vision) | Synesthesia Encoder (通感编码器) — give any text-only LLM (DeepSeek, etc.) the ability to see images via structured spatial text encoding. A Pi agent extension. | TypeScript | 2 | MIT | 2026-08-14 |
 | [ethanweave/glm4v-vision-mcp](https://github.com/ethanweave/glm4v-vision-mcp) | GLM-4.6V 图像理解 MCP：识图/OCR/图表解析，原生接入 DeepSeek Harness（dsh-mcp-client），也兼容 Codex/Cline 等 | Python | 2 | — | 2026-08-14 |
 | [fengs2021/dsh-image-mmx](https://github.com/fengs2021/dsh-image-mmx) | 给 DSH 文本模型装眼睛：图片自动调用 mmx（MiniMax VLM）识别，识别结果注入模型上下文 | JavaScript | 2 | MIT | 2026-08-25 |
@@ -200,12 +199,10 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 | [Leeminjing/dsh-eyes](https://github.com/Leeminjing/dsh-eyes) | Give text-only DeepSeek models on-demand vision: upload images, DeepSeek answers by calling a view_image tool backed by any OpenAI-compatible vision endpoint (Qwen/DashScope by default). | JavaScript | 2 | MIT | 2026-08-25 |
 | [LeslieWylie/review-workflow](https://github.com/LeslieWylie/review-workflow) | A structured multi-panelist review workflow for the DeepSeek Harness: N panelists score in isolated subagents, blind to each other; a chair reconciles disagreement by anchor match then Δ-level adjudication; an independent critic audits the process. Works for design, code, paper or project review. | JavaScript | 2 | MIT | 2026-08-25 |
 | [Lhy723/dsh-agent-canvas](https://github.com/Lhy723/dsh-agent-canvas) | Agent / Subagent / Workflow canvas tab for DSH Web | TypeScript | 2 | — | 2026-08-25 |
-| [linxuhao/AItelier](https://github.com/linxuhao/AItelier) | AI-Atelier, the all in one personal "atelier" (means handcraft studio in french) that can adapt to your need. | Python | 2 | MIT | 2026-08-27 |
 | [linxuhao/Deepseek-Continuity](https://github.com/linxuhao/Deepseek-Continuity) | DeepSeek Harness plugin for local image / voice / music / SFX generation: the same character stays the same character across calls, degenerate output is refused rather than returned, and the GPU is untouched when idle. Hand the image half to any OpenAI-shaped API instead and its engine and 10.1 GiB of weights are never installed. | Python | 2 | MIT | 2026-08-25 |
 | [liznee/dsh-file-resource](https://github.com/liznee/dsh-file-resource) | DeepSeek Harness Web 的本地文件输入插件。在输入框原有的 + 菜单顶部增加 attach，并用分隔线与 Harness 原生命令区分；不会再增加一个单独按钮。Private local file attachments for DeepSeek Harness with native images and bounded document reading. | JavaScript | 2 | MIT | 2026-08-27 |
 | [lkh081231/screenshot-feedback-hook-mcp](https://github.com/lkh081231/screenshot-feedback-hook-mcp) | Let your coding agent SEE what it builds. Cross-platform screenshot feedback for AI agents: an MCP server, a Claude Code hook, and a native DeepSeek Harness plugin that drops screenshots straight into the conversation as images. Python + uv, zero install via uvx. Windows / Linux / macOS. | TypeScript | 2 | MIT | 2026-08-27 |
 | [llmpolska/oh-my-dsh](https://github.com/llmpolska/oh-my-dsh) | oh-my-dsh — tiered model routing plugin for DeepSeek Harness: think/build tiers, vision delegation, image generation. MIT. | JavaScript | 2 | MIT | 2026-08-25 |
-| [lonelymoon87/dsh-vscode](https://github.com/lonelymoon87/dsh-vscode) | VS Code client for the DeepSeek Harness SDK runtime. | TypeScript | 2 | MIT | 2026-08-26 |
 | [Mappedinfo/dsh-tool-vision-read](https://github.com/Mappedinfo/dsh-tool-vision-read) | DSH plugin: vision_read — route image reading to a dedicated vision model (e.g. Kimi K3) so text-only agents can see images | TypeScript | 2 | MIT | 2026-08-25 |
 | [marlonLau/dsh-wallpaper-engine](https://github.com/marlonLau/dsh-wallpaper-engine) | One-click DSH background switcher backed by local Wallpaper Engine images/videos | JavaScript | 2 | MIT | 2026-08-25 |
 | [mochgolf/dsh-deepseek-vision-router](https://github.com/mochgolf/dsh-deepseek-vision-router) | Transparent image preprocessing route for DeepSeek Harness | JavaScript | 2 | MIT | 2026-08-25 |

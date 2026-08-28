@@ -4,7 +4,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **293**
+- 本册收录 / Entries in this volume: **291**
 - 快照日期 / Snapshot date: **2026-08-28 UTC**
 - 最近人工复核 / Last review merge: **2026-08-28**
 
@@ -21,7 +21,6 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [PlutoKeating/dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot) | DeepSeek Harness (dsh) 接入飞书/Lark bot，扫码即用：流式卡片、项目工作区、并行任务、多角色 Agent、跨会话通知、对话内模型/密钥管理与安全网守护（dsh 崩溃后飞书仍可自救）。A scan-to-connect bridge bot connecting DeepSeek Harness (dsh) into Feishu/Lark: streaming cards, workspaces, parallel tasks, multi-role agents, cross-session notify, in-chat model/key management, and a safety-net guardian. | TypeScript | 36 | AGPL-3.0 | 2026-08-28 |
 | [hellodigua/dsh-share](https://github.com/hellodigua/dsh-share) | DSH 对话分享插件，分享单轮或多轮对话，可导出为图片或 Markdown。Share DSH Q&As or selected conversation groups as PNG or Markdown. | JavaScript | 35 | MIT | 2026-08-25 |
 | [Chinesezjc/dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) | Cross-instance message/event handoff plugins for DSH (interconnect service + tools) | TypeScript | 34 | MIT | 2026-08-25 |
-| [slywalker2006/dsh-passwords](https://github.com/slywalker2006/dsh-passwords) | Server-grade gateway that turns DeepSeek Harness into a multi-tenant platform: remote access + auto HTTPS, subuser permissions & quotas, sandbox enforcement, encrypted auth, audit log. | TypeScript | 31 | GPL-3.0 | 2026-08-28 |
 | [Blank-not-black/dsh-Remote](https://github.com/Blank-not-black/dsh-Remote) | DSH Remote · 口袋里的 DSH 控制台 会话 · 审批 · 提问 · 文件传输，局域网 / Tailscale 直连 多服务器自动选优，聊天记录离线可看 带 Token 鉴权，数据只在你的设备之间流动 Sessions · approvals · questions · file transfer over LAN / Tailscale. Automatic fastest-server selection. Chat history available offline. Token-authenticated — your data flows only between your devices. | JavaScript | 30 | MIT | 2026-08-27 |
 | [zexadev/dsh-tether](https://github.com/zexadev/dsh-tether) | Mobile client for the DeepSeek Harness — use the dsh on your dev machine from your Android or iOS phone, remotely across networks, peer-to-peer with no server in between (iroh) | JavaScript | 25 | MIT | 2026-08-28 |
 | [limuyang2/agent-team](https://github.com/limuyang2/agent-team) | Multi-agent team collaboration for DeepSeek Harness, with independent models, skills, MCP tools, contexts, and a shared workspace. | TypeScript | 24 | MIT | 2026-08-26 |
@@ -75,7 +74,6 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [pzc2004/dsh-frostfin](https://github.com/pzc2004/dsh-frostfin) | 月芒霜鳍鲸——让 Kimi Code 本人直接驱动 DeepSeek Harness 会话的 loop 插件。DSH 的壳，Kimi 的脑，ACP 直连，无中间层。 Moonglow Frostfin — Kimi Code itself as the agent loop of DeepSeek Harness. ACP-bridged, no middleman: DSH's shell, Kimi's brain. | TypeScript | 5 | MIT | 2026-08-25 |
 | [Yan-Zero/dsh-remote-ssh](https://github.com/Yan-Zero/dsh-remote-ssh) | Use SSH hosts as transparent workspaces in DeepSeek Harness. | TypeScript | 5 | Apache-2.0 | 2026-08-24 |
 | [Chhlafiu4312/dsh-mcp-bridge](https://github.com/Chhlafiu4312/dsh-mcp-bridge) | Zero-dependency MCP client bridge for DeepSeek Harness: connect stdio/HTTP MCP servers and auto-register their tools for the agent. | JavaScript | 4 | MIT | 2026-08-25 |
-| [dqsjqian/agent-guild](https://github.com/dqsjqian/agent-guild) | A protocol that lets any sufficiently intelligent AI agent join your shared memory by simply reading one file. | Python | 4 | MIT | 2026-08-18 |
 | [jeremy9682/dsh-skill-pack](https://github.com/jeremy9682/dsh-skill-pack) | 11 shareable workflow skills for DeepSeek Harness: handoffs, triage, specs, tickets, wayfinding, teaching, mode routing, overnight runs | JavaScript | 4 | MIT | 2026-08-25 |
 | [MicroHEROX/dsh-exa-mcp](https://github.com/MicroHEROX/dsh-exa-mcp) | Exa Search MCP for DeepSeek Harness: mounts the remote Exa MCP endpoint (https://mcp.exa.ai/mcp) through the in-box @deepseek-ai/dsh-mcp-client bridge | — | 4 | MIT | 2026-08-28 |
 | [Piccolo123/url-manager](https://github.com/Piccolo123/url-manager) | AI 足迹 — 跨平台智能收藏管理工具。AI自动分类整理、共享协作、Agent API接入。支持PC/手机H5/浏览器扩展。 | Python | 4 | MIT | 2026-08-25 |

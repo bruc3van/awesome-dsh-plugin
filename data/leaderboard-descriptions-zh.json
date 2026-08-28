@@ -48,5 +48,21 @@
   "omdsh-dev/dsh-mnemon": "面向 DeepSeek Harness 的可组合三层记忆控制平面：持久运行时上下文、可检索项目文档、可插拔长期记忆与护栏策略，含 WebUI。",
   "op7418/pilot-harness": "Pilot Harness：CodePilot 启发的 DeepSeek Harness 桌面客户端与插件套件，支持三大桌面系统。",
   "ZSeven-W/dsh-ios": "DSH 插件：在对话里运行实时 iOS 模拟器（或 USB 连接的 iPhone），22 个工具按无障碍标识启动、构建、驱动 UI。",
-  "kelai141/dsh-mobile-apk": "dsh 安卓壳 APK——WebView UI + 内嵌 Termux 运行时快照（解压即跑），为 dsh 本地运行设计的高性能方案。"
+  "kelai141/dsh-mobile-apk": "dsh 安卓壳 APK——WebView UI + 内嵌 Termux 运行时快照（解压即跑），为 dsh 本地运行设计的高性能方案。",
+  "shanliuling/dsh-image-gen": "在 DSH 对话里直接生成图片的轻量插件。",
+  "csyangwen/dsh-memory-evolve": "跨会话长期记忆 + 后台自我进化：五轨记忆、git 分支感知、技能自我进化与四轨待办，零核心修改。",
+  "liangmianya/dsh-synapse": "可视化非线性对话工作区：画布式会话探索与分支工作台。",
+  "huiliyi37/dsh-tianshu-tui": "交互式终端 UI 插件：ANSI 极简渲染、流式 Markdown/工具卡、16+ 主题、slash 命令与 LSP 诊断。",
+  "Nagi-ovo/dsh-visualize": "在 DSH 对话中生成交互式可视化卡片。",
+  "Han-1413141/dsh-cost-meter": "会话成本仪表：会话/日成本、预算与各家余额查询、token 热力图与峰谷定价切换提醒。",
+  "zenstory-ai/oh-story-dsh": "小说写作与短剧生产插件，由 Oh Story 与 Drama Skills 驱动。",
+  "elysia395/dsh-wallpaper-engine": "把本机 Wallpaper Engine 壁纸变成 DSH 网页背景：动态视频播放、液态玻璃设置窗与自动轮播。",
+  "d-dev0101/open-sea-skin": "WebGPU 海洋皮肤：DSH 插件、Chrome/Edge 扩展与原生集成多种安装方式。",
+  "EthanYoQ/Invoice-Downloader": "电子发票整理与报销准备：邮箱批量收集 PDF/OFD 发票、OCR 识别归档并生成 Excel 汇总，含桌面版与 DSH 插件。",
+  "dream-num/dsh-univer-office": "给 DSH 装上真正的 Office：Univer 运行时把表格、文档、幻灯片、画布与关系表带进对话。",
+  "omdsh-dev/dsh-data-agent": "把 DSH 连上数据库：对话式数据分析与可执行的业务洞察。",
+  "zh667/TokenLedger": "DSH 令牌用量账本：中转站归因，零配置、无需凭据。",
+  "shengsheng90/DSH-taskboard": "DSH 原生本地任务板：SQLite 项目、Agent 认领/评审与原生 Web UI，无 iframe。",
+  "weijiafu14/pi2dsh": "打通 Pi 与 DSH 生态：一套 Pi Host ABI 让未改动的 Pi 扩展原生变成 DSH 插件。",
+  "Nagi-ovo/dsh-find-plugins": "帮 DSH 搜索、安装并验证 GitHub 插件的 Skill。"
 }
