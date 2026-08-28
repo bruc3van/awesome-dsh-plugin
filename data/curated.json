@@ -514,7 +514,12 @@
     "MerlinShieh/AgentMemHub": "Not a DSH plugin — a standalone multi-harness session-history extractor (ZCode/OpenCode/Hermes/DSH as data sources) with no dsh plugin install path.",
     "ktao732084-arch/vibegap": "Not a DSH plugin — the generic VibeGap companion mini-window for Claude Code/Codex agents; its DSH plugin lives in ktao732084-arch/dsh-vibegap.",
     "PerryLink/dsh-plugin-portal": "Not a DSH plugin — a static portal/index page for the author's plugins; nothing installable.",
-    "vb2250158/dsh-plugins": "Not a DSH plugin — a personal plugin index/migration-notes page; each plugin lives in its own repo."
+    "vb2250158/dsh-plugins": "Not a DSH plugin — a personal plugin index/migration-notes page; each plugin lives in its own repo.",
+    "RGarvel/dsh-channel-spec": "Not a DSH plugin — an RFC/spec document repository for session-channel classification; the reference implementation lives in RGarvel/dsh-channel-view.",
+    "dennisrongo/dsh-plugins": "Not a DSH plugin — a private pnpm monorepo for the author's @dennisrongo plugins; each plugin installs separately from npm, not this repo.",
+    "youridol/dsh-plugin": "Not a DSH plugin — a plugin registry/index that auto-syncs upstream metadata; the self-authored plugins install from subdirectories.",
+    "ddtcorex/govard": "Not a DSH plugin — a Go-based local-development orchestrator for Magento/Laravel/Symfony/WordPress stacks with no DSH content in its README; rides the dsh-plugin topic.",
+    "xiaoxiao44443/dfy-dsh-plugins": "Not a DSH plugin — a personal pnpm-workspace monorepo of @dfy-plugins plugins; each plugin publishes and installs separately from npm, not this repo."
   },
   "market_exclusions": {
     "01men/ybkk-AIOS": "An enterprise AI-resource platform bundling skill/plugin markets — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -665,7 +670,6 @@
     "MerlinShieh/deepseek-herness-desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "MichengAI/dsh-codex-desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "MichengAI/dsh-codex-desktop-website": "Not an installable DSH plugin — a project website; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "Mikoribbit/odsh-bridge": "Not an installable DSH plugin — a Docker connectivity bridge between OpenClaw and DSH; stays in the catalog and leaderboard, excluded from the downstream market.",
     "MochiNek0/dsh-desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "Modole/dsh-plugin-market-laoboshi": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "MoneShadow/DeepSeek-Harness-linux-": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -1237,6 +1241,13 @@
     "jing-hy/dsh-unified-market": "A unified plugin storefront aggregating GitHub/npm/catalog sources inside DSH Desktop — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "Olina1Ye/internal-skill-workshop-plugin": "A read-only Skill Base catalog browser — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "ihorleleka/Local-Rag-Wiki": "Not an installable DSH plugin — a Docker-hosted per-repo MCP knowledge service; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "zhaoxuejie/dsh-plugin-learning-path": "Not an installable DSH plugin — a plugin-development tutorial course (interactive HTML app); stays in the catalog and leaderboard, excluded from the downstream market."
+    "zhaoxuejie/dsh-plugin-learning-path": "Not an installable DSH plugin — a plugin-development tutorial course (interactive HTML app); stays in the catalog and leaderboard, excluded from the downstream market.",
+    "NimuStudio/NimuQDock-dsh": "Not an installable DSH plugin — a standalone QQ-bridge companion app with its own bridge process and web console talking to a running DSH instance; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "daishengli/dsh-docker": "Not an installable DSH plugin — a Docker/Caddy deployment packaging of the DSH web service; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "ddtcorex/dsh-maestro-ci": "Not an installable DSH plugin — reusable GitHub Actions workflows for the dsh-maestro plugin suite; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "ddtcorex/dsh-maestro-config-lib": "Not an installable DSH plugin — a shared settings-store npm library for the dsh-maestro-* plugins (no Cordis surface); stays in the catalog and leaderboard, excluded from the downstream market.",
+    "guoxiucai/dsh-code": "Not an installable DSH plugin — a standalone TUI coding-agent client built on the dsh runtime; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "limlnx523/dsh-plus-plus": "Not an installable DSH plugin — a standalone local companion (CLI + web console) managing the DSH installation and its state; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "Mikoribbit/ODSH-Bridge": "Not an installable DSH plugin — a Docker connectivity bridge between OpenClaw and DSH; stays in the catalog and leaderboard, excluded from the downstream market."
   }
 }

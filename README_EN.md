@@ -28,44 +28,44 @@
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-08-27 the catalog lists **10,310** verified repositories. Here is the shape of it:
+As of 2026-08-28 the catalog lists **10,383** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 10310))
-    Agents automation workflows · 4033
+  root((DSH ecosystem 10383))
+    Agents automation workflows · 4057
       Scheduled loops and event wakeups
       Multi-agent teamwork
       Long-term memory and self-evolution
       Approval budget and checkpoints
-    UI and experience · 1971
+    UI and experience · 1984
       Desktop clients and terminal TUI
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Web and browser · 1520
+    Web and browser · 1530
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
-    Design media and vision · 540
+    Design media and vision · 542
       Image understanding and OCR
       Design canvas and UI restoration
-    Knowledge and research · 502
+    Knowledge and research · 511
       Knowledge bases and cross-session memory
       Deep research
       Academia and math
-    Ecosystem and resources · 500
+    Ecosystem and resources · 504
       Plugin markets and registries
       Templates and scaffolds
       Guides and handbooks
-    Utilities and more · 489
+    Utilities and more · 493
       Files and encodings
       Format conversion
-    Developer tools · 466
+    Developer tools · 469
       Git and diff
       Sandbox and runtimes
       Debugging and diagnostics
-    Integrations and sharing · 289
+    Integrations and sharing · 293
       Chat import and sharing
       Remote access
       IM and external integrations
@@ -223,31 +223,31 @@ You do not need to install everything. Start with the kit closest to the problem
 
 ## 🏆 Community leaderboard
 
-Community popularity by stars, from the 2026-08-27 snapshot. Repositories riding the `dsh-plugin` topic without being plugins, and editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json); new repositories first enter the [review queue](./data/review/pending.md) and rank only after the maintainer has verified them ([data/approved.json](./data/approved.json)). The home page shows the Top 20; the full Top 200 is in [TOP200.md](./TOP200.md). Ranking reflects popularity only — not quality, compatibility, or security.
+Community popularity by stars, from the 2026-08-28 snapshot. Repositories riding the `dsh-plugin` topic without being plugins, and editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json); new repositories first enter the [review queue](./data/review/pending.md) and rank only after the maintainer has verified them ([data/approved.json](./data/approved.json)). The home page shows the Top 20; the full Top 200 is in [TOP200.md](./TOP200.md). Ranking reflects popularity only — not quality, compatibility, or security.
 
 <!-- dsh:leaderboard:start -->
 | # | Project | ⭐ Stars | License |
 | ---: | --- | ---: | --- |
-| 1 | [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | 6898 | MIT |
-| 2 | [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web) | 6274 | Apache-2.0 |
-| 3 | [liustack/modlens](https://github.com/liustack/modlens) | 3725 | MIT |
-| 4 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 3013 | MIT |
-| 5 | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 2624 | MIT |
-| 6 | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 2607 | MIT |
-| 7 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 1770 | — |
-| 8 | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | 1406 | MIT |
-| 9 | [dsh-tauri-desk/deepseek-harness-desktop](https://github.com/dsh-tauri-desk/deepseek-harness-desktop) | 1281 | MIT |
+| 1 | [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | 6914 | MIT |
+| 2 | [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web) | 6309 | Apache-2.0 |
+| 3 | [liustack/modlens](https://github.com/liustack/modlens) | 3732 | MIT |
+| 4 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 3031 | MIT |
+| 5 | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 2635 | MIT |
+| 6 | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 2625 | MIT |
+| 7 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 1776 | — |
+| 8 | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | 1421 | MIT |
+| 9 | [dsh-tauri-desk/deepseek-harness-desktop](https://github.com/dsh-tauri-desk/deepseek-harness-desktop) | 1304 | MIT |
 | 10 | [mem9-ai/mem9](https://github.com/mem9-ai/mem9) | 1202 | Apache-2.0 |
-| 11 | [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) | 1166 | MIT |
-| 12 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 1118 | MIT |
-| 13 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 1109 | Apache-2.0 |
-| 14 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 1007 | MIT |
-| 15 | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 910 | MIT |
-| 16 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 837 | MIT |
+| 11 | [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) | 1190 | MIT |
+| 12 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 1133 | MIT |
+| 13 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 1120 | Apache-2.0 |
+| 14 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 1009 | MIT |
+| 15 | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 918 | MIT |
+| 16 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 836 | MIT |
 | 17 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | 812 | AGPL-3.0 |
-| 18 | [shaobeichen/dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | 723 | GPL-2.0 |
-| 19 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 693 | — |
-| 20 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | 654 | MIT |
+| 18 | [shaobeichen/dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | 737 | GPL-2.0 |
+| 19 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 695 | — |
+| 20 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | 655 | MIT |
 <!-- dsh:leaderboard:end -->
 
 [See the full Star Top 200 →](./TOP200.md)
@@ -258,14 +258,14 @@ Manually screened recent projects, updated from time to time:
 
 | Project | Description | Created |
 | --- | --- | --- |
-| [LaoYueHanNi/dsh-token-usage](https://github.com/LaoYueHanNi/dsh-token-usage) | Token usage stats in native DSH style: live per-request usage and cost, trend charts, per-model pricing details and provider quota display. | 2026-08-14 |
-| [RiemannRe3/DSH-RolePlay](https://github.com/RiemannRe3/DSH-RolePlay) | Tavern character-card compatible native RolePlay plugin: import Character Card V2/V3 and play right inside DSH sessions. | 2026-08-25 |
-| [extracurricular-ai/dsh-filesnap](https://github.com/extracurricular-ai/dsh-filesnap) | Rewind without a git repo: roll the conversation and the files it changed back to before any chosen turn. | 2026-08-27 |
-| [BlueChonk/dsh-cli-anything](https://github.com/BlueChonk/dsh-cli-anything) | CLI-Anything integration: browse, install, launch and manage 100+ CLI tools through natural-language chat. | 2026-08-27 |
-| [Fakek0f3sT/dsh-mcp-diff](https://github.com/Fakek0f3sT/dsh-mcp-diff) | Uniform diff cards for every file mutation: MCP filesystem and built-in edit/write treated alike, collapsed by default with per-line highlighting. | 2026-08-27 |
-| [mastergo-design/dsh-canvas](https://github.com/mastergo-design/dsh-canvas) | The official MasterGo canvas MCP plugin: let DSH agents read and write MasterGo boards for design collaboration. | 2026-08-27 |
-| [Kilganon725/dsh-mic-dictation](https://github.com/Kilganon725/dsh-mic-dictation) | A mic dictation button plugin: one-click voice input next to the Full access control, dropping the transcript into the composer. | 2026-08-26 |
-| [everclear077/dsh-progressive-tools](https://github.com/everclear077/dsh-progressive-tools) | Progressive tool discovery: a tiny stable tool surface plus a searchable catalog, real pipeline execution with the context cache intact. | 2026-08-24 |
+| [Lsc-91-69/dsh-brain-compaction](https://github.com/Lsc-91-69/dsh-brain-compaction) | Human-brain-style context compaction: composes seven community compression/memory plugins into one coordinated, verifiable system to cut long-task token usage. | 2026-08-28 |
+| [liiiubai/dsh-mcp-bridge](https://github.com/liiiubai/dsh-mcp-bridge) | Exposes a running DSH's tools as a standard MCP server: any MCP client (Claude Code, Codex…) calls them through a safe allowlist. | 2026-08-28 |
+| [NimuStudio/NimuQDock-dsh](https://github.com/NimuStudio/NimuQDock-dsh) | Docks DSH into QQ with a persona engine: mood, energy and memory make the agent a lifelike group member that lurks and joins in. | 2026-08-27 |
+| [xiaoshi7915/dsh-kb-manager](https://github.com/xiaoshi7915/dsh-kb-manager) | Local knowledge-base lifecycle: multi-format import, smart chunking, hybrid retrieval (vector + BM25 → RRF), 16 agent tools plus an optional web panel. | 2026-08-27 |
+| [Luawig/dsh-cloudflare-access](https://github.com/Luawig/dsh-cloudflare-access) | Cloudflare Access JWT verification and remote privileged authorization: serve DSH behind a public hostname with Settings, Credentials and presets still working. | 2026-08-27 |
+| [Tkingxiao/dsh-novel-solo](https://github.com/Tkingxiao/dsh-novel-solo) | Single-author novel pipeline hardened for quantized small models: slimmed tool catalog and output protocol so a local model can finish a full-length novel. | 2026-08-27 |
+| [Niceck/dsh-hhxg-market](https://github.com/Niceck/dsh-hhxg-market) | A-share quant-data plugin: 7 free + 5 VIP tools covering daily snapshots, margin flows, market sentiment and theme heat — real data on ask. | 2026-08-27 |
+| [gwsbhqt/dsh-insight](https://github.com/gwsbhqt/dsh-insight) | Insight panel: one screen showing where every plugin/service/tool/model in a profile came from, which config layer inserted or disabled it, and what runs right now (read-only). | 2026-08-25 |
 
 ## 📣 Author showcase
 
@@ -295,7 +295,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Downstream market file:** [data/market.json](./data/market.json) is the curated file downstream markets consume (e.g. the DSH desktop plugin market): the snapshot plus curation, filtered, cleaned, and dealt round-robin across categories (≤600 rows, ≤500 KB). It is rebuilt on every daily snapshot refresh and immediately after every curation merge; the field and generation rules live in the downstream [publishing spec](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md). The same runs also publish [MARKET.md](./MARKET.md), a read-only star-ranked rendering of the file for previewing the market on GitHub without installing anything.
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-08-27, the catalog lists **10,310** repositories across **31** primary languages; **9,152** declare a license and **10,275** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-08-28, the catalog lists **10,383** repositories across **32** primary languages; **9,211** declare a license and **10,348** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 

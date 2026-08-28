@@ -4,10 +4,10 @@
 >
 > Repositories newly added to the `dsh-plugin` topic that the maintainer has not verified yet. Refreshed daily by `scripts/update.mjs`; review-only, not a user-facing page.
 
-- 生成时间 / Generated: **2026-08-27**
-- 快照日期 / Snapshot date: **2026-08-27 (UTC)**
-- 待审核 / Pending: **32**
-- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **51**
+- 生成时间 / Generated: **2026-08-28**
+- 快照日期 / Snapshot date: **2026-08-28 (UTC)**
+- 待审核 / Pending: **0**
+- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **0**
 - Star 异常增长 / Star-growth alerts: **0**
 
 审核决定记到数据文件后运行 `node scripts/merge.mjs` 生效：
@@ -56,38 +56,7 @@ Check stars against forks, commit activity and age (hundreds of stars on day one
 
 | # | Project | Stars | Created | First seen | Description |
 | ---: | --- | ---: | ---: | ---: | --- |
-| 1 | [caopu16/dsh-local-memory](https://github.com/caopu16/dsh-local-memory) | 1 | 2026-08-27 | 2026-08-27 | DSH（DeepSeek Harness）本地跨会话记忆插件：捕获每轮对话摘要、注入最近几天记忆，并提供 memory_search 工具按需检索全部历史记忆。 |
-| 2 | [d86e/dsh-doctor](https://github.com/d86e/dsh-doctor) | 1 | 2026-08-27 | 2026-08-27 | dsh-doctor: self-healing watchdog for the DeepSeek Harness web profile. Recovers from plugin-induced boot failures within 60s, runs an unbounded CLI doctor, captures every tool error, and watches all live sessions for stuck turns. |
-| 3 | [dat-lequoc/dsh-subagent-model](https://github.com/dat-lequoc/dsh-subagent-model) | 1 | 2026-08-27 | 2026-08-27 | Force DeepSeek Harness subagents onto a chosen model route and reasoning effort instead of inheriting the parent agent's model |
-| 4 | [FranklinZaneDurant/agent-discipline](https://github.com/FranklinZaneDurant/agent-discipline) | 1 | 2026-08-27 | 2026-08-27 | 给 AI 编码 Agent 的仓库工作纪律插件（DeepSeek Harness bundle）：方法论提示段 + 工件脚手架（AGENTS.md/特性清单/验证门）+ 合规审计。 |
-| 5 | [NimuStudio/NimuQDock-dsh](https://github.com/NimuStudio/NimuQDock-dsh) | 1 | 2026-08-27 | 2026-08-27 | 把 DeepSeek Harness接入QQ的对接坞——带人格引擎的仿真群友：心情、精力、记忆，像真人一样潜水与参与。 |
-| 6 | [patrickluvsoj/dsh-llm-nous](https://github.com/patrickluvsoj/dsh-llm-nous) | 1 | 2026-08-21 | 2026-08-27 | Nous Portal LLM plugin bundle for DeepSeek Harness |
-| 7 | [qiyeren/dsh-eac-popup](https://github.com/qiyeren/dsh-eac-popup) | 1 | 2026-08-27 | 2026-08-27 | DSH plugin: ???? agent ??/?????,EAC ????(??????)+?????5?+?????? |
-| 8 | [Raphaelutumn/dsh-mood](https://github.com/Raphaelutumn/dsh-mood) | 1 | 2026-08-27 | 2026-08-27 | A tiny behavioral mood ring for your AI coding agent: a four-state session-header status light (GOOD/CONFUSED/FRUSTRATED/OVERWHELMED) for DeepSeek Harness |
-| 9 | [RGarvel/dsh-channel-spec](https://github.com/RGarvel/dsh-channel-spec) | 1 | 2026-08-27 | 2026-08-27 | RFC: 按来源渠道对 DSH 会话分类展示（session header channel 字段 + GUI 渠道视图）— 源自 deepseek-harness discussion #3897 |
-| 10 | [RGarvel/dsh-channel-view](https://github.com/RGarvel/dsh-channel-view) | 1 | 2026-08-27 | 2026-08-27 | DSH 渠道会话视图 spike：侧边栏 Channels tab 注入 + 会话投影数据链（RFC-0001, discussion #3897） |
-| 11 | [xiaoshi7915/dsh-kb-manager](https://github.com/xiaoshi7915/dsh-kb-manager) | 1 | 2026-08-27 | 2026-08-27 | Local knowledge base lifecycle manager for dsh: multi-format import, hybrid search with per-stage debug scores, snapshots, and .kbpack portability. |
-| 12 | [yuan-source-666/dsh-research-autoresearch](https://github.com/yuan-source-666/dsh-research-autoresearch) | 1 | 2026-08-27 | 2026-08-27 | AutoResearch 科研协议 DSH 全家桶插件：arXiv recall + LQS 评分 + 状态持久化 + 停滞红绿灯 + 五人格中位数评审 + 可视化总控台卡片。灵感：Deli Chen "From Draft to Strong-Accept: How a Self-Play Survey Hit 8.6"。 |
-| 13 | [Cmjingahaha/dsh-dudulu](https://github.com/Cmjingahaha/dsh-dudulu) | 0 | 2026-08-27 | 2026-08-27 | 嘟一声 · DSH 任务完成提示音插件：Agent 回合完成时播放提示音，带设置面板（音量/试听/上传） |
-| 14 | [dennisrongo/dsh-plugins](https://github.com/dennisrongo/dsh-plugins) | 0 | 2026-08-23 | 2026-08-27 | Dennis Rongo's plugin collection for DeepSeek Harness (dsh)  |
-| 15 | [dusbin/voice-plugin](https://github.com/dusbin/voice-plugin) | 0 | 2026-08-27 | 2026-08-27 | Dsh(deepseek harness)语音输入插件 Ps: 朗读功能目前还不是很棒。 |
-| 16 | [ExplorerZYzhou/DSH-freeweb](https://github.com/ExplorerZYzhou/DSH-freeweb) | 0 | 2026-08-27 | 2026-08-27 | DSH 免费联网搜索插件（Parallel 后端，零依赖） |
-| 17 | [force-push/dsh-llm-fallback](https://github.com/force-push/dsh-llm-fallback) | 0 | 2026-08-27 | 2026-08-27 | Self-healing cross-provider model fallback plugin for the DeepSeek Harness (DSH) — retries exhausted, re-bind the session to the next healthy model. |
-| 18 | [gwsbhqt/dsh-insight](https://github.com/gwsbhqt/dsh-insight) | 0 | 2026-08-25 | 2026-08-27 | 洞察 — read-only insight panel for a DeepSeek Harness profile: where every plugin, service, tool and model came from, which config layer inserted or disabled it, and what is running right now. |
-| 19 | [liuwenji007/dsh-trust-check](https://github.com/liuwenji007/dsh-trust-check) | 0 | 2026-08-27 | 2026-08-27 | Static capability disclosure for DeepSeek Harness plugins — evidence-backed, zero-token, no safety claims. |
-| 20 | [Luawig/dsh-cloudflare-access](https://github.com/Luawig/dsh-cloudflare-access) | 0 | 2026-08-27 | 2026-08-27 | Cloudflare Access JWT verification and remote privileged authorization for DeepSeek Harness |
-| 21 | [lumose0/dsh-file-reference-everything](https://github.com/lumose0/dsh-file-reference-everything) | 0 | 2026-08-27 | 2026-08-27 | Whole-disk @ file references for DeepSeek Harness — Everything-backed instant search with fuzzy/regex and a cross-platform fallback index |
-| 22 | [MauricioPerera/kdd-gates](https://github.com/MauricioPerera/kdd-gates) | 0 | 2026-08-27 | 2026-08-27 | KDD methodology gates as DeepSeek Harness (dsh) plugin tools |
-| 23 | [Mide69/dsh-boot-doctor](https://github.com/Mide69/dsh-boot-doctor) | 0 | 2026-08-27 | 2026-08-27 | DeepSeek Harness plugin: console log sink and stuck-plugin warnings |
-| 24 | [mycodesite/dsh-rules](https://github.com/mycodesite/dsh-rules) | 0 | 2026-08-26 | 2026-08-27 | DeepSeek Harness (dsh) 插件：全局+项目两级 Markdown 规则注入（RuleBase） |
-| 25 | [Niceck/dsh-hhxg-market](https://github.com/Niceck/dsh-hhxg-market) | 0 | 2026-08-27 | 2026-08-27 | 恢恢量化 hhxg.top A股量化数据插件 for DeepSeek Harness (dsh)：6 个免费工具 + 5 个 VIP 工具（MCP 桥接）· A-share quant data plugin |
-| 26 | [nickkkkkk123123/dsh-whale-girl](https://github.com/nickkkkkk123123/dsh-whale-girl) | 0 | 2026-08-27 | 2026-08-27 | 鲸鱼娘·灵动挂件 — 会卖萌、会记账、会弹跳的 DSH 桌面挂件插件（余额/用量/上下文/峰谷/右键菜单/拖动甩抛） |
-| 27 | [perinchiang/dsh-memory-dashboard](https://github.com/perinchiang/dsh-memory-dashboard) | 0 | 2026-08-27 | 2026-08-27 | DeepSeek Harness embedded read-only viewer for TencentDB Agent Memory's four-layer local memory |
-| 28 | [Tkingxiao/dsh-novel-solo](https://github.com/Tkingxiao/dsh-novel-solo) | 0 | 2026-08-27 | 2026-08-27 | DeepSeek Harness 的「单核写作」插件：面向量化小模型做了充分的工具瘦身与输出加固，适合在本机用本地模型跑长篇小说流水线。 |
-| 29 | [unknowbug/dsh-thinking-loop-guard](https://github.com/unknowbug/dsh-thinking-loop-guard) | 0 | 2026-08-27 | 2026-08-27 | Detect & break thinking-chain loops in DSH agents at the turn boundary (no proxy). Ported from ollama-loop-guard. |
-| 30 | [xarleyn/dsh-sleev](https://github.com/xarleyn/dsh-sleev) | 0 | 2026-08-26 | 2026-08-27 | Sleev integration for DeepSeek Harness with route-aware LLM telemetry and context-optimization observability |
-| 31 | [xiaoxingyuemiao/dsh-bg-plugin](https://github.com/xiaoxingyuemiao/dsh-bg-plugin) | 0 | 2026-08-27 | 2026-08-27 | DSH 自定义背景插件：为 DSH Web GUI 应用远程/本地图片背景，支持清晰度、压暗、模糊调节，设置面板保持默认外观。 |
-| 32 | [youridol/dsh-plugin](https://github.com/youridol/dsh-plugin) | 0 | 2026-08-27 | 2026-08-27 | DeepSeek Harness 插件收录总库：收录遵循 Cordis 框架、经官方 profile 机制挂载的 DSH 插件。收录插件自动同步上游，自研插件可手动维护。 |
+
 
 ## 从快照消失的已核准仓库 / Approved repositories missing from the snapshot
 
@@ -95,54 +64,4 @@ Check stars against forks, commit activity and age (hundreds of stars on day one
 
 Approved but no longer present in the current snapshot (deleted or renamed) — after checking, remove them from [data/approved.json](../approved.json) or update the name.
 
-- dsh-external/chat-width
-- dsh-external/dsh-agent-teams
-- dsh-external/dsh-at-file
-- dsh-external/dsh-automation
-- dsh-external/dsh-bash-encoding
-- dsh-external/dsh-better-browser
-- dsh-external/dsh-book2skill
-- dsh-external/dsh-browser4
-- dsh-external/dsh-computer-use
-- dsh-external/dsh-custom-tool
-- dsh-external/dsh-cyber-sec
-- dsh-external/dsh-daily-fortune
-- dsh-external/dsh-deepcel
-- dsh-external/dsh-deeplink
-- dsh-external/dsh-deeptag
-- dsh-external/dsh-doctor
-- dsh-external/dsh-easy-ctx-manager
-- dsh-external/dsh-fun-ticker
-- dsh-external/dsh-fun-typewriter
-- dsh-external/dsh-fun-weather
-- dsh-external/dsh-genui
-- dsh-external/dsh-grok-tui
-- dsh-external/dsh-handoff
-- dsh-external/dsh-input-history
-- dsh-external/dsh-island
-- dsh-external/dsh-minigames
-- dsh-external/dsh-notification
-- dsh-external/dsh-nowledge-mem
-- dsh-external/dsh-open-in-vscode
-- dsh-external/dsh-openmaic
-- dsh-external/dsh-paste-input
-- dsh-external/dsh-pet
-- dsh-external/dsh-pet-corner
-- dsh-external/dsh-pi-adapter
-- dsh-external/dsh-plan-execute
-- dsh-external/dsh-plannotator
-- dsh-external/dsh-plugin-guide
-- dsh-external/dsh-qq2006
-- dsh-external/dsh-revive
-- dsh-external/dsh-sentinel
-- dsh-external/dsh-session-hub
-- dsh-external/dsh-spotlight
-- dsh-external/dsh-tps
-- dsh-external/dsh-turn-rewind
-- dsh-external/dsh-ui-progress
-- dsh-external/dsh-ui-whale
-- dsh-external/dsh-vision-toolkit
-- dsh-external/dsh-visualize
-- dsh-external/dsh-web-workbench
-- dsh-external/dsh-webui-live-html
-- dsh-external/oh-my-dsh
+- （无 / none）

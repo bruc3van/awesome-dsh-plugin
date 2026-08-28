@@ -28,44 +28,44 @@
 ## 🗺️ 生态全景
 
 <!-- dsh:panorama:start -->
-截至 2026-08-27 共收录 **10310** 个经核实的仓库。它们长这样：
+截至 2026-08-28 共收录 **10383** 个经核实的仓库。它们长这样：
 
 ```mermaid
 mindmap
-  root((DSH 插件生态 10310))
-    Agent 自动化与工作流 · 4033
+  root((DSH 插件生态 10383))
+    Agent 自动化与工作流 · 4057
       定时循环与事件唤醒
       多 Agent 协作
       长期记忆与自我进化
       审批、预算与检查点
-    界面与体验 · 1971
+    界面与体验 · 1984
       桌面客户端与终端 TUI
       侧边栏工作台
       皮肤与桌面宠物
       通知与输入增强
-    网页与浏览器 · 1520
+    网页与浏览器 · 1530
       浏览器桥接与页面操作
       网页搜索与引用
       归档与网页取证
-    设计媒体与视觉 · 540
+    设计媒体与视觉 · 542
       图片理解与 OCR
       设计画布与 UI 还原
-    知识与研究 · 502
+    知识与研究 · 511
       知识库与跨会话记忆
       深度研究
       学术与数学
-    生态与资源 · 500
+    生态与资源 · 504
       插件市场与注册表
       开发模板与脚手架
       教程与手册
-    实用工具与其他 · 489
+    实用工具与其他 · 493
       文件与编码
       格式转换
-    开发者工具 · 466
+    开发者工具 · 469
       Git 与 diff
       沙箱与运行时
       调试与诊断
-    集成与分享 · 289
+    集成与分享 · 293
       会话导入与分享
       远程访问
       IM 与外部集成
@@ -223,31 +223,31 @@ mindmap
 
 ## 🏆 社区热度榜
 
-按 Star 排序的社区热度参考，数据取自 2026-08-27 快照；蹭 `dsh-plugin` Topic 的非插件仓库与编辑部拉黑的仓库均已剔除，新仓库先进入[待审核队列](./data/review/pending.md)、经人工核实（[data/approved.json](./data/approved.json)）后才进入榜单，剔除清单见 [data/curated.json](./data/curated.json)。首页展示前 20 名，完整 Top 200 见 [TOP200.md](./TOP200.md)。排名反映受欢迎程度，不代表质量、兼容性或安全背书。
+按 Star 排序的社区热度参考，数据取自 2026-08-28 快照；蹭 `dsh-plugin` Topic 的非插件仓库与编辑部拉黑的仓库均已剔除，新仓库先进入[待审核队列](./data/review/pending.md)、经人工核实（[data/approved.json](./data/approved.json)）后才进入榜单，剔除清单见 [data/curated.json](./data/curated.json)。首页展示前 20 名，完整 Top 200 见 [TOP200.md](./TOP200.md)。排名反映受欢迎程度，不代表质量、兼容性或安全背书。
 
 <!-- dsh:leaderboard:start -->
 | # | 项目 | ⭐ Stars | License |
 | ---: | --- | ---: | --- |
-| 1 | [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | 6898 | MIT |
-| 2 | [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web) | 6274 | Apache-2.0 |
-| 3 | [liustack/modlens](https://github.com/liustack/modlens) | 3725 | MIT |
-| 4 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 3013 | MIT |
-| 5 | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 2624 | MIT |
-| 6 | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 2607 | MIT |
-| 7 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 1770 | — |
-| 8 | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | 1406 | MIT |
-| 9 | [dsh-tauri-desk/deepseek-harness-desktop](https://github.com/dsh-tauri-desk/deepseek-harness-desktop) | 1281 | MIT |
+| 1 | [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | 6914 | MIT |
+| 2 | [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web) | 6309 | Apache-2.0 |
+| 3 | [liustack/modlens](https://github.com/liustack/modlens) | 3732 | MIT |
+| 4 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 3031 | MIT |
+| 5 | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 2635 | MIT |
+| 6 | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 2625 | MIT |
+| 7 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | 1776 | — |
+| 8 | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | 1421 | MIT |
+| 9 | [dsh-tauri-desk/deepseek-harness-desktop](https://github.com/dsh-tauri-desk/deepseek-harness-desktop) | 1304 | MIT |
 | 10 | [mem9-ai/mem9](https://github.com/mem9-ai/mem9) | 1202 | Apache-2.0 |
-| 11 | [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) | 1166 | MIT |
-| 12 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 1118 | MIT |
-| 13 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 1109 | Apache-2.0 |
-| 14 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 1007 | MIT |
-| 15 | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 910 | MIT |
-| 16 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 837 | MIT |
+| 11 | [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) | 1190 | MIT |
+| 12 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | 1133 | MIT |
+| 13 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 1120 | Apache-2.0 |
+| 14 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 1009 | MIT |
+| 15 | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 918 | MIT |
+| 16 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 836 | MIT |
 | 17 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | 812 | AGPL-3.0 |
-| 18 | [shaobeichen/dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | 723 | GPL-2.0 |
-| 19 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 693 | — |
-| 20 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | 654 | MIT |
+| 18 | [shaobeichen/dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | 737 | GPL-2.0 |
+| 19 | [Electricitysheep/dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) | 695 | — |
+| 20 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | 655 | MIT |
 <!-- dsh:leaderboard:end -->
 
 [查看完整 Star Top 200 →](./TOP200.md)
@@ -258,14 +258,14 @@ mindmap
 
 | 项目 | 简介 | 创建日期 |
 | --- | --- | --- |
-| [LaoYueHanNi/dsh-token-usage](https://github.com/LaoYueHanNi/dsh-token-usage) | 贴近 DSH 原生风格的 token 用量统计：实时记录每次请求的用量与费用，趋势图表、按模型定价明细与供应商配额显示。 | 2026-08-14 |
-| [RiemannRe3/DSH-RolePlay](https://github.com/RiemannRe3/DSH-RolePlay) | Tavern 角色卡兼容与原生 RolePlay 插件：导入 Character Card V2/V3，在 DSH 原生会话里直接开玩。 | 2026-08-25 |
-| [extracurricular-ai/dsh-filesnap](https://github.com/extracurricular-ai/dsh-filesnap) | 无需 git 仓库的回退插件：把对话和它改过的文件一起回退到某一轮之前。 | 2026-08-27 |
-| [BlueChonk/dsh-cli-anything](https://github.com/BlueChonk/dsh-cli-anything) | CLI-Anything 集成插件：自然语言对话即可浏览、安装、启动和管理 100+ CLI 工具。 | 2026-08-27 |
-| [Fakek0f3sT/dsh-mcp-diff](https://github.com/Fakek0f3sT/dsh-mcp-diff) | 统一的文件变更 diff 卡片：MCP filesystem 与内置编辑/写入一视同仁，默认折叠、逐行高亮。 | 2026-08-27 |
-| [mastergo-design/dsh-canvas](https://github.com/mastergo-design/dsh-canvas) | MasterGo 官方画板 MCP 插件：让 DSH agent 直接读写 MasterGo 画布进行设计协作。 | 2026-08-27 |
-| [Kilganon725/dsh-mic-dictation](https://github.com/Kilganon725/dsh-mic-dictation) | 麦克风听写按钮插件：在全能控制旁一键语音输入，说完即填入输入框。 | 2026-08-26 |
-| [everclear077/dsh-progressive-tools](https://github.com/everclear077/dsh-progressive-tools) | 渐进式工具发现：极小的稳定工具面 + 可搜索目录，真实流水线执行且不挤占上下文缓存。 | 2026-08-24 |
+| [Lsc-91-69/dsh-brain-compaction](https://github.com/Lsc-91-69/dsh-brain-compaction) | 人脑式上下文压缩组合插件：把 7 个社区压缩/记忆插件编排成一套可验证的统一系统，长任务 token 占用大幅下降。 | 2026-08-28 |
+| [liiiubai/dsh-mcp-bridge](https://github.com/liiiubai/dsh-mcp-bridge) | 把运行中的 DSH 工具暴露为标准 MCP 服务器：Claude Code、Codex 等任意 MCP 客户端经安全白名单直接调用。 | 2026-08-28 |
+| [NimuStudio/NimuQDock-dsh](https://github.com/NimuStudio/NimuQDock-dsh) | 把 DSH 接入 QQ 的对接坞：带人格引擎的仿真群友，有心情、精力与记忆，像真人一样潜水与参与。 | 2026-08-27 |
+| [xiaoshi7915/dsh-kb-manager](https://github.com/xiaoshi7915/dsh-kb-manager) | 本地知识库生命周期管理：多格式导入 → 智能分块 → 混合检索（向量 + BM25 → RRF），16 个工具加可选 Web 面板。 | 2026-08-27 |
+| [Luawig/dsh-cloudflare-access](https://github.com/Luawig/dsh-cloudflare-access) | Cloudflare Access JWT 校验与远程特权授权：把 DSH 挂到公网域名后，设置、凭据与预设管理照常工作。 | 2026-08-27 |
+| [Tkingxiao/dsh-novel-solo](https://github.com/Tkingxiao/dsh-novel-solo) | 「单核写作」长篇小说流水线：面向量化小模型做工具瘦身与输出加固，本地小模型也能跑完整部长篇。 | 2026-08-27 |
+| [Niceck/dsh-hhxg-market](https://github.com/Niceck/dsh-hhxg-market) | 恢恢量化 A股数据插件：7 个免费 + 5 个 VIP 工具覆盖日报快照、融资融券、市场情绪、题材热度，问一句就拿真实数据。 | 2026-08-27 |
+| [gwsbhqt/dsh-insight](https://github.com/gwsbhqt/dsh-insight) | 洞察面板：一屏看清 profile 里每个插件/服务/工具/模型的来源、被哪层配置插入或禁用、当前是否在运行（只读）。 | 2026-08-25 |
 
 ## 📣 作者自荐
 
@@ -295,7 +295,7 @@ mindmap
 - **下游市场文件：** [data/market.json](./data/market.json) 是给下游市场（如 DSH 桌面端插件市场）消费的精选小文件——在快照与 curation 之上过滤、清洗并按类目均衡发牌（≤600 条、≤500 KB），每日快照刷新与 curation 合并后自动重建；字段与生成规则见下游的[发布规范](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md)。同一时序下同步生成根目录 [MARKET.md](./MARKET.md)——这份文件的只读可视化（按 Star 数排名），可在 GitHub 上直接预览市场内容，无需安装下游插件。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
-截至 2026-08-27，全量目录收录 **10310** 个仓库、**31** 种主要语言；其中 **9152** 个声明了许可证，**10275** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
+截至 2026-08-28，全量目录收录 **10383** 个仓库、**32** 种主要语言；其中 **9211** 个声明了许可证，**10348** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
 
 ## ⚠️ 使用与安全
 
