@@ -13,7 +13,8 @@
     "omdsh-dev/dsh-genui": "ui-experience",
     "vlln/dsh-loop": "agents-workflows",
     "vlln/plugin-registry": "ecosystem-resources",
-    "vlln/whale-girl": "ui-experience"
+    "vlln/whale-girl": "ui-experience",
+    "chumingjun/dsh-harness-one": "agents-workflows"
   },
   "leaderboard_exclusions": {
     "01men/ybkk-AIOS": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
