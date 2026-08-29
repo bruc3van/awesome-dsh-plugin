@@ -4,7 +4,7 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **542**
+- 本册收录 / Entries in this volume: **541**
 - 快照日期 / Snapshot date: **2026-08-29 UTC**
 - 最近人工复核 / Last review merge: **2026-08-29**
 
@@ -33,7 +33,6 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 | [BlockRunAI/dsh-clawrouter](https://github.com/BlockRunAI/dsh-clawrouter) | A safety gate for DeepSeek Harness: a stronger model reviews dangerous tool calls before they run. Plus vision and BlockRun's full model catalog from one wallet, paid per request over x402. | TypeScript | 20 | MIT | 2026-08-23 |
 | [omdsh-dev/dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) | Adaptive deep-research orchestrator plugin for DeepSeek Harness (official workflow engine, cybernetics/information-theory design) | TypeScript | 20 | MIT | 2026-08-26 |
 | [xlight/deepseek-visionary](https://github.com/xlight/deepseek-visionary) | 使用 DeepSeek 官方多模态视觉模型让你的 Agent 不再眼瞎（支持 DSH、Zed、OpenCode、Codex、Claude Code、Cursor、Claude Desktop） | Rust | 17 | — | 2026-08-27 |
-| [chumingjun/dsh-harness-one](https://github.com/chumingjun/dsh-harness-one) | Visual AI workflow orchestrator for DeepSeek Harness (dsh): multi-agent DAGs, live execution, recovery, and Feishu integration. | JavaScript | 16 | MIT | 2026-08-28 |
 | [HR2AY/DSH-Plan-Graph](https://github.com/HR2AY/DSH-Plan-Graph) | another version of deepseek herness trajectory (DIY) | JavaScript | 16 | MIT | 2026-08-26 |
 | [HuanLinOTO/dsh-plugin-aigc-canvas](https://github.com/HuanLinOTO/dsh-plugin-aigc-canvas) | provider-agnostic AIGC HTTP 桥 + 无限画布 + ffmpeg 后处理，13 个工具含画布连边/reroll/媒体编辑 \| Provider-agnostic AIGC HTTP bridge + infinite canvas + ffmpeg post-processing; 13 tools incl. canvas linking/reroll/media-edit | TypeScript | 16 | — | 2026-08-24 |
 | [LaplaceYoung/dsh-directorx](https://github.com/LaplaceYoung/dsh-directorx) | DirectorX as a DeepSeek Harness plugin: AI video/image/audio skills, knowledge corpus, and configurable vision/image/video/audio model tools. | JavaScript | 16 | Apache-2.0 | 2026-08-28 |

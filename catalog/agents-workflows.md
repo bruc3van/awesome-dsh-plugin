@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流」分册 / The "Agents
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **4087**
+- 本册收录 / Entries in this volume: **4088**
 - 快照日期 / Snapshot date: **2026-08-29 UTC**
 - 最近人工复核 / Last review merge: **2026-08-29**
 
@@ -112,6 +112,7 @@ DSH 插件全量目录的「Agent、自动化与工作流」分册 / The "Agents
 | [Js2Hou/dsh-mcp-manager](https://github.com/Js2Hou/dsh-mcp-manager) | 用于 DeepSeek Harness 的 MCP 可视化管理插件：在「设置 → MCP」中查看已安装/启用的 MCP 服务器，支持增删、启用/停用，并实时查看连接状态。 | TypeScript | 17 | MIT | 2026-08-28 |
 | [omdsh-dev/dsh-office](https://github.com/omdsh-dev/dsh-office) | 办公三件套！Office document tools for DeepSeek Harness (dsh): generate, read, and edit spreadsheets (.xlsx), PDFs, and presentations (.pptx). | TypeScript | 17 | Apache-2.0 | 2026-08-28 |
 | [ai-shushu/dsh-quota-meter](https://github.com/ai-shushu/dsh-quota-meter) | Per-session quota meter for DSH: real-token billing, live progress bar, budget blocking, configurable multi-model pricing. 会话额度监控：真实记账、进度条、额度拦截、价目可配。 | JavaScript | 16 | — | 2026-08-26 |
+| [chumingjun/dsh-harness-one](https://github.com/chumingjun/dsh-harness-one) | Visual AI workflow orchestrator for DeepSeek Harness (dsh): multi-agent DAGs, live execution, recovery, and Feishu integration. | JavaScript | 16 | MIT | 2026-08-28 |
 | [ExElectron/dsh-tool-hongtou](https://github.com/ExElectron/dsh-tool-hongtou) | DeepSeek Harness 红头公文插件：两阶段解耦流水线（LLM 结构化提纲 + 确定性 Word 2003 XML 版式渲染）生成标准红头公文 | JavaScript | 16 | MIT | 2026-08-27 |
 | [hytime/dsh-thinking-effort](https://github.com/hytime/dsh-thinking-effort) | Configurable reasoning levels for hand-declared DSH llm-pi-ai models, with bilingual settings and subagent defaults. | JavaScript | 16 | MIT | 2026-08-28 |
 | [klarkxy/zhihu-search](https://github.com/klarkxy/zhihu-search) | 知乎开放平台接口，官方Zhihu Cli开源平替。 | Python | 16 | NOASSERTION | 2026-08-27 |
