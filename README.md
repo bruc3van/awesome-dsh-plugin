@@ -313,7 +313,6 @@ mindmap
 插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 30 条，区满后先进先出；条目若被上方[精选推荐](#-精选推荐)收录，会从本区移除、不占名额。首页只展示**最近 10 条**，完整列表见 [SHOWCASE.md](./SHOWCASE.md)。
 
 <!-- dsh:showcase:start -->
-- **[dsh-win32](https://github.com/sjh9714/dsh-win32)**（[@sjh9714](https://github.com/sjh9714) · 2026-08-18）— 无需 WSL 的 DSH 原生 Windows shell 与 Workspace Write 沙箱预设。沙箱会话使用 busybox-w32，非受限会话使用 Git Bash。保留 GBK/UTF-16 读取，`doctor` 会检查预设、bundle、写入边界与已知安装问题，Windows CI 覆盖受限令牌下的持久 shell 往返与中断。
 - **[dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory)**（[@Phant0Meow](https://github.com/Phant0Meow) · 2026-08-19）— 跨会话长期记忆插件：node:sqlite 七层存储（soul/user/project/fact/lesson/topic/rules），首条消息缓存友好注入，memory_* 检索/读写/整理工具，逐消息关键词命中，BM25×艾宾浩斯加权检索，夜间按窗口自动整理（dream）。
 - **[dsh-maze](https://github.com/lamost423/dsh-maze)**（[@lamost423](https://github.com/lamost423) · 2026-08-20）— 轨迹对比 + 实时迷宫：把 agent 真实的探索过程画在墙钟时间轴上——主干、失败/扑空的支路、折返点、子代理支路；上传 1–2 个 session log 做单跑复盘或同轴对比（按轮次自动对齐 + 支路盘点表），也可在会话页签实时看迷宫生长；判定全部是确定性规则、悬停可见依据，不调 LLM。
 - **[dsh-feishu](https://github.com/PGZXB/dsh-feishu)**（[@PGZXB](https://github.com/PGZXB) · 2026-08-20）— 把 DeepSeek Harness 装进飞书：一个聊天对应一个 dsh 会话，命令面板、审批与提问全部卡片化，流式卡片实时展示，扫码一次完成配置，随时在手机/桌面指挥本地 agent；已发布 npm `@dsh-feishu/dsh-feishu`。
@@ -323,6 +322,7 @@ mindmap
 - **[dsh-codex-subscription](https://github.com/WSL043/dsh-codex-subscription)**（[@WSL043](https://github.com/WSL043) · 2026-08-21）— 把现有 ChatGPT/Codex 订阅作为 DSH Web 原生模型提供方：独立 OAuth 登录，无需 API Key 或 Codex CLI；在同一设置页选择订阅搜索、查看服务端返回的普通 Codex/Spark 额度并生成脱敏支持诊断，对话中支持图片生成。适合希望直接在 DSH 中使用订阅模型、又不想额外配置 API Key 的用户。
 - **[dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth)**（[@Phant0Meow](https://github.com/Phant0Meow) · 2026-08-24）— 喵丝滑：让 DSH 在手机上像原生 App 一样好摸——输入框失焦自动折叠、触屏 Enter 正常换行、锁死误触缩放、窄屏选中会话自动收起侧边栏等十余项移动端细节优化；自带长任务完成/失败通知推送（iOS PWA Web Push + Bark 兜底），内置可选压缩代理（手机蜂窝网络下历史响应压缩 70–90%）。纯 client 自包含、零 dsh 本体改动，npm 包 meow-smooth。
 - **[dsh-rewind](https://github.com/SiriLee/dsh-rewind)**（[@SiriLee](https://github.com/SiriLee) · 2026-08-26）— DSH Web 同窗口原地回退（Claude Code /rewind 语义）：每条用户消息旁 ↶ 按钮把模型上下文截断回任意一条消息，可选 Claude Code 风格文件回滚（磁盘持久化 before 备份），纯官方扩展点实现、零源码补丁。
+- **[dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume)**（[@Sutera-Diffusus](https://github.com/Sutera-Diffusus) · 2026-08-28）— 元气鲸鱼娘桌宠：摸头养成、工作状态联动、494 条台词与 30 项成就；v2.0.0 新增余额关心（本机代理，密钥不落地）、主动关怀、无障碍、成长日记与主题适配，全本地零遥测（MIT，102 项单测）。
 <!-- dsh:showcase:end -->
 
 [查看全部 30 条自荐 →](./SHOWCASE.md)
