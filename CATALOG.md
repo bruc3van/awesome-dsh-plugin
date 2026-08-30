@@ -10,25 +10,25 @@ This page automatically lists public repositories under GitHub's [`dsh-plugin` t
 
 The catalog is split into one volume per category — the full list outgrew GitHub's single-page Markdown rendering limit. Each row below is a complete volume.
 
-- Repositories: **10318**
-- Primary languages: **31**
-- Declared licenses: **9157**
-- Refreshed: **2026-08-28 UTC**
-- 最近人工复核 / Last review merge: **2026-08-28**
+- Repositories: **10465**
+- Primary languages: **30**
+- Declared licenses: **9295**
+- Refreshed: **2026-08-29 UTC**
+- 最近人工复核 / Last review merge: **2026-08-29**
 
 ## 分册 / Volumes
 
 | 类目 / Category | 条目 / Entries |
 | --- | ---: |
-| [生态与资源 / Ecosystem & Resources](./catalog/ecosystem-resources.md) | 497 |
-| [界面与体验 / UI & Experience](./catalog/ui-experience.md) | 1978 |
-| [设计、媒体与视觉 / Design, Media & Vision](./catalog/media-vision.md) | 539 |
-| [网页与浏览器 / Web & Browser](./catalog/web-browser.md) | 1521 |
-| [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 291 |
-| [知识与研究 / Knowledge & Research](./catalog/knowledge-research.md) | 507 |
-| [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 455 |
-| [Agent、自动化与工作流 / Agents, Automation & Workflows](./catalog/agents-workflows.md) | 4040 |
-| [实用工具与其他 / Utilities & Other](./catalog/utilities.md) | 490 |
+| [生态与资源 / Ecosystem & Resources](./catalog/ecosystem-resources.md) | 508 |
+| [界面与体验 / UI & Experience](./catalog/ui-experience.md) | 2015 |
+| [设计、媒体与视觉 / Design, Media & Vision](./catalog/media-vision.md) | 541 |
+| [网页与浏览器 / Web & Browser](./catalog/web-browser.md) | 1545 |
+| [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 295 |
+| [知识与研究 / Knowledge & Research](./catalog/knowledge-research.md) | 513 |
+| [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 459 |
+| [Agent、自动化与工作流 / Agents, Automation & Workflows](./catalog/agents-workflows.md) | 4088 |
+| [实用工具与其他 / Utilities & Other](./catalog/utilities.md) | 501 |
 
 ## Data source
 
