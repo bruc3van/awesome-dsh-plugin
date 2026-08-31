@@ -6,6 +6,7 @@
   "Electricitysheep/dsh-handbook": "DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装、插件开发、性能调优、多 Agent 实测对比（中英 PDF）。",
   "EthanYoQ/Invoice-Downloader": "电子发票整理与报销准备：邮箱批量收集 PDF/OFD 发票、OCR 识别归档并生成 Excel 汇总，含桌面版与 DSH 插件。",
   "FSMargoo/dsh-at-file": "面向 DeepSeek Harness 的 Codex 风格 @file 引用：在输入框中搜索工作区文件并把路径附到提示词。",
+  "GraySilver/dsh-evolve-modes": "可组合任务控制 + 隔离且经人工复核的 Agent 自进化，让工作方式可持续改进。",
   "Han-1413141/dsh-cost-meter": "会话成本仪表：会话/日成本、预算与各家余额查询、token 热力图与峰谷定价切换提醒。",
   "Lum1104/dsh-browser": "一款 Chrome 侧边栏扩展程序，可让 DeepSeek Harness 直接操控您的浏览器，无需视觉能力。",
   "MeteorNOX/DeepSeek-Balance-Whale-Widget": "住在 DSH 界面右下角的小鲸鱼娘，帮你盯着 DeepSeek 账户余额：QQ 弹弹、拖拽吸附、左吸附翻转、数字滚动动画，随界面自动启用。",
