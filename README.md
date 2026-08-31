@@ -94,6 +94,8 @@ mindmap
 - **想一次安装补齐常用界面功能**：[dsh-web](https://github.com/zhu1090093659/dsh-web) —— 任务看板、Git 关系图、侧边面板、远程移动端界面、桌面宠物、实时 Token 用量统计与皮肤中心，一站式功能合集（仓库由 `dsh-web-ui` 更名而来）。
 - **想看清上下文窗口里装了什么**：[dsh-context](https://github.com/bowenliang123/dsh-context) —— 在 Web UI 增加 Context 面板，展示上下文由什么构成、如何演化，辅助把握 token 控制与裁剪时机。
 - **想把侧边栏升级成完整工作台**：[DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) —— 内置文件渲染编辑、终端、Git 与子代理，并支持第三方扩展注册新 Tab。
+- **想把所有 Agent 项目收进一个管理台**：[dsh-worktable](https://github.com/Aisland-SJL/dsh-worktable) —— 侧边栏应用抽屉 + 可停靠分屏工作区，外加实时监控所有项目的控制室。
+- **想让 DSH 拥有真正的 Office 环境**：[dsh-univer-office](https://github.com/dream-num/dsh-univer-office) —— Univer 官方厂商出品：把表格、文档、幻灯片、画布与关系表装进对话，数据相互联动。
 - **想让工作状态行活过来**：[working-activity](https://github.com/ccch1mneyyy/working-activity) —— 实时显示工具动态与进度、俏皮文案、模型自述与上下文预警，等待时不再无聊。
 - **想让 Agent 操作浏览器**：[dsh-browser](https://github.com/Lum1104/dsh-browser) · [BrowserSkill](https://github.com/Tencent/BrowserSkill) —— dsh-browser 是 Chrome 侧边栏扩展，在当前对话里授权页面并执行操作；BrowserSkill 是腾讯出品的真实已登录浏览器桥（独立 Agent 窗口，不打断你自己的浏览），DSH 通过官方 npm 插件 `@wxg-prc-cpg/browser-skill-dsh-plugin` 接入。
 
@@ -131,6 +133,7 @@ mindmap
 - **想像 Codex 一样用 @ 引用工作区文件**：[dsh-at-file](https://github.com/FSMargoo/dsh-at-file) —— 在输入框内按 @ 搜索工作区文件并把路径附进 prompt；官方近期已内置 `@file` / `@session`，新安装可优先用官方实现，本插件适合需要路径选择器与过滤规则的用户。
 - **想调节思考强度**：[dsh-reasoning-effort](https://github.com/HanaAyane/dsh-reasoning-effort) —— Codex 风格的思考强度滑块，以及大肥鱼跑步滑块。
 - **想更顺手地阅读和操作长对话**：[dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) · [dsh-navbar](https://github.com/vlln/dsh-navbar) —— 像 Codex 一样选中文本批注，并快速跳转用户消息节点。
+- **想把对话摊上画布、按分支整理**：[dsh-synapse](https://github.com/liangmianya/dsh-synapse) —— 画布式会话探索与分支工作台，非线性梳理长对话里的多条思路。
 
 | | | |
 | :---: | :---: | :---: |
@@ -139,8 +142,10 @@ mindmap
 ### 🎨 创作与乐趣
 
 - **想换皮肤、自定义背景**：[dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) · [DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) —— dsh-deep-whale 是生态内最受欢迎的鲸鱼娘皮肤系列（CC BY-NC-SA，不可商用）；DSH-Transparent-UI-Plugin 是一层高自由度的玻璃质感主题，模糊/磨砂/背景全可调，一键回到原生界面。
+- **想用本机 Wallpaper Engine 壁纸当背景**：[dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) —— 把本机动态壁纸搬进 DSH 网页界面：视频直出、液态玻璃设置窗、内容分级过滤与自动轮播（⚠️ 仓库暂未标注许可证）。
 - **想在对话中生成交互式界面**：[dsh-genui](https://github.com/omdsh-dev/dsh-genui) · [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) —— 在回复中渲染图表、表单、测验、Mermaid 和 3D 场景，或让模型生成交互式可视化卡片。
 - **想让 Agent 操作真实设计画布 / 做 PPT**：[dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) · [deepseek-design](https://github.com/Devin-AXIS/deepseek-design) —— OpenPencil 负责可交互多页面设计稿的创建、编辑、预览和验证；deepseek-design 是原生 Design / PPT / Video 工作室（模板市场、画布精调、选区 Ask AI）。
+- **想写小说、做短剧**：[oh-story-dsh](https://github.com/zenstory-ai/oh-story-dsh) —— 面向小说写作与短剧生产的插件，由 Oh Story 与 Drama Skills 驱动。
 - **想给工作区增加一个陪伴型宠物**：[whale-girl](https://github.com/vlln/whale-girl) · [dsh-pet](https://github.com/PC2005-cloud/dsh-pet) —— 可拖拽、投喂和玩耍的积累型鲸鱼娘；或一行命令安装现成宠物（28 个透明动画），并从 AI 视频自造专属宠物。
 - **想要点乐子**：[dsh-ads](https://github.com/Nagi-ovo/dsh-ads) · [anime-find](https://github.com/cocofhu/anime-find) · [dsh-minigames](https://github.com/lhh010/dsh-minigames) —— 把 DSH 变成 2005 年门户网站；对话内多源搜番并展示 Bangumi 评分；等模型回复时玩 18 款离线小游戏。
 
@@ -155,6 +160,10 @@ mindmap
 - **想把一个会话变成一支协作团队**：[dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) —— 当前会话作为队长：创建可续聊的子 Agent、把目标拆成带依赖的任务，并通过直达消息协调成员工作，实时 Web UI 呈现活动面板。
 - **想把一次性多 Agent 调度升级为 Workflow 层**：[dsh_workflow](https://github.com/omdsh-dev/dsh_workflow) —— 把 Claude Code 的 UltraCode 模式带给 DSH：可生成、可保存、可治理、可观察、可恢复。
 - **想少点手动确认、又要安全**：[dsh-auto-mode](https://github.com/NanmiCoder/dsh-auto-mode) —— 为 DSH 提供安全的自动权限（Safe automatic permissions）。
+- **想给 Agent 团队配一块本地任务板**：[DSH-taskboard](https://github.com/shengsheng90/DSH-taskboard) —— SQLite 原生任务板：项目、认领、评审一体，原生 Web UI、无 iframe、无第二聊天运行时。
+- **想让 Agent 驱动 iOS 模拟器或真机**：[dsh-ios](https://github.com/ZSeven-W/dsh-ios) —— 在对话里运行实时 iOS 模拟器（或 USB 连接的 iPhone），22 个工具按无障碍标识启动、构建、驱动 UI。
+- **想让 Agent 的工作方式可组合、可持续进化**：[dsh-evolve-modes](https://github.com/GraySilver/dsh-evolve-modes) —— 可组合任务控制 + 隔离且经人工复核的自进化，改进先审查再生效。
+- **想让 DSH 直连数据库做分析**：[dsh-data-agent](https://github.com/omdsh-dev/dsh-data-agent) —— 把 DSH 连上你的数据库：对话式数据分析与可执行的业务洞察。
 
 | | | |
 | :---: | :---: | :---: |
@@ -163,6 +172,7 @@ mindmap
 ### 🔀 迁移与集成
 
 - **想把其他工具的历史会话搬进 DSH**：[dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) —— 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话，并支持反向导出/同步回 Claude Code。
+- **想把 Pi 生态的扩展直接搬进 DSH**：[pi2dsh](https://github.com/weijiafu14/pi2dsh) —— 一套 Pi Host ABI 让未改动的 Pi 扩展原生运行为 DSH 插件，打通两个生态。
 - **想从微信 / 飞书 / QQ 等聊天软件指挥 DSH**：[dsh-im](https://github.com/xmanrui/dsh-im) · [dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot) —— dsh-im 一个设置页接入飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord、WhatsApp 九个渠道；只要腾讯官方 QQ Bot 时用 dsh-qqbot。
 
 | | | |
@@ -182,6 +192,7 @@ mindmap
 
 - **想在右下角盯着余额和每轮花费**：[DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) —— 右下角可拖拽的小鲸鱼挂件：账户余额、今日已用、每轮消耗气泡，开箱即用（默认用余额差值记账，不必另配平台令牌）。
 - **想查看 Token 用量与费用面板**：[dsh-usage-stats](https://github.com/Ychris12138/dsh-usage-stats) · [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) —— dsh-usage-stats 提供 GitHub 风格用量热力图、按模型拆解与 DeepSeek 账户余额；dsh-cost-meter 按官方价格同步统计本会话/当日费用。
+- **走中转站、想按站点算清用量**：[TokenLedger](https://github.com/zh667/TokenLedger) —— 令牌用量账本按中转站归因：零配置、无需凭据。
 
 | | | |
 | :---: | :---: | :---: |
@@ -189,6 +200,7 @@ mindmap
 
 ### 🔑 模型与订阅
 
+- **想让推理模式按任务自动路由**：[dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) —— 社区热度榜第一名的路由套装：先装运行时注入器，再装任务感知的推理模式路由预设（实测覆盖 P1–P23）；注入器会修改运行时行为，安装前先读仓库说明。
 - **想用已有 ChatGPT / Claude / Grok 订阅当模型**，不想再配 API Key：[dsh-plugin-subscriptions](https://github.com/V1ki/dsh-plugin-subscriptions) —— 在设置页用 OAuth 接入 ChatGPT（Codex）、Claude、Grok（X Premium）和 GitHub Copilot 订阅；登录后出现在模型选择器里，并带用量窗口、生图/生视频工具。
 
 | | | |
@@ -210,6 +222,7 @@ mindmap
 
 - **想先审查、再安装插件（安全第一）**：[dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market) —— 先审查再安装的 DSH 市场：目录来自本清单每日快照 + 人工精选，「安全安装」不执行任何命令——把安全审查提示词交给 Agent 实际读仓库代码，确认干净后由你决定是否用官方命令安装；市场默认关闭、开启才联网，插件自身没有任何执行安装的接口。
 - **想在 DSH 界面里直接逛插件市场**：[dsh-market](https://github.com/dsh-market/dsh-market) · [DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) · [dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) —— dsh-market 把市场做进 DSH：浏览、搜索、一键安装；DSH-Plugins-Marketplace 覆盖全部 GitHub dsh-plugin 插件的一键浏览、安装与更新；dsh-plugin-hub 插件管理面板 + 市场：一键启停/检测更新/框架一键升级，覆盖全部 GitHub dsh-plugin 插件与技能。
+- **想让 DSH 自己找插件、装插件**：[dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) —— 一个 Skill：让 DSH 搜索、安装并验证 GitHub 上的插件。
 
 | | | |
 | :---: | :---: | :---: |
