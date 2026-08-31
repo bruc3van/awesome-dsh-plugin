@@ -238,12 +238,13 @@ mindmap
 
 | 套装 | 适合 | 组合 |
 | --- | --- | --- |
-| 日常体验 | 第一次装插件：先装桌面客户端，再补常用输入 | [dsh-desktop](https://github.com/bruc3van/dsh-desktop) · [dsh-at-file](https://github.com/FSMargoo/dsh-at-file) |
-| 终端控 | 喜欢命令行，想要全屏交互终端 | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) |
-| 视觉与搜索 | 让纯文本模型看得见、搜得到、画得出 | [modlens](https://github.com/liustack/modlens) · [modsearch](https://github.com/liustack/modsearch) · [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) |
+| 日常体验 | 第一次装插件：先装桌面客户端，再把侧边栏变成工作台 | [dsh-desktop](https://github.com/bruc3van/dsh-desktop) · [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) |
+| 安全逛市场 | 先审查再安装；桌面端已内置，纯 Web 用户搜索安装 `bruc3van/dsh-desktop-safe-market` | [dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market) |
+| 终端控 | 喜欢命令行，想要全屏交互终端（二选一） | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) |
+| 搜索与生图 | 对话里搜网页、直接出图（官方已能看图，不必再装视觉插件） | [modsearch](https://github.com/liustack/modsearch) · [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) |
 | 界面美化 | 换皮肤、玻璃质感、桌面宠物 | [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) · [DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) · [whale-girl](https://github.com/vlln/whale-girl) |
 | 多 Agent 协作 | 把复杂任务交给一支 Agent 团队 | [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) · [dsh_workflow](https://github.com/omdsh-dev/dsh_workflow) · [dsh-auto-mode](https://github.com/NanmiCoder/dsh-auto-mode) |
-| 记忆与持续运行 | 跨会话记忆 + 中断自动续跑的无人值守项目 | [mem9](https://github.com/mem9-ai/mem9) · [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) · [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) |
+| 记忆与持续运行 | 跨会话记忆（二选一）+ 中断自动续跑的无人值守项目 | [mem9](https://github.com/mem9-ai/mem9) 或 [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) · [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) |
 | 手机远程 | 人在外面看电脑上的 DSH | [dsh-pocket](https://github.com/shaobeichen/dsh-pocket) |
 | 订阅模型 | 用已有 ChatGPT / Claude / Grok 订阅，不用 API Key | [dsh-plugin-subscriptions](https://github.com/V1ki/dsh-plugin-subscriptions) |
 
