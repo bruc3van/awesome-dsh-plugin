@@ -10,6 +10,7 @@
   "Han-1413141/dsh-cost-meter": "会话成本仪表：会话/日成本、预算与各家余额查询、token 热力图与峰谷定价切换提醒。",
   "Lum1104/dsh-browser": "一款 Chrome 侧边栏扩展程序，可让 DeepSeek Harness 直接操控您的浏览器，无需视觉能力。",
   "MeteorNOX/DeepSeek-Balance-Whale-Widget": "住在 DSH 界面右下角的小鲸鱼娘，帮你盯着 DeepSeek 账户余额：QQ 弹弹、拖拽吸附、左吸附翻转、数字滚动动画，随界面自动启用。",
+  "Minglink/dsh-infinite-gen-3": "面向 DeepSeek-V4 的系统提示注入插件「无限三代」：破甲版只保留提示词注入与客户端状态条，砍掉工具增强面。",
   "Nagi-ovo/dsh-ads": "把 DSH 变成 2005 年门户网站：恶搞广告、假游戏与弹窗。",
   "Nagi-ovo/dsh-find-plugins": "帮 DSH 搜索、安装并验证 GitHub 插件的 Skill。",
   "Nagi-ovo/dsh-visualize": "在 DSH 对话中生成交互式可视化卡片。",
