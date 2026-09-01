@@ -325,6 +325,8 @@ Manually screened recent projects, updated from time to time:
 | [addozhang/dsh-discord](https://github.com/addozhang/dsh-discord) | Discord-first adapter: sessions, streaming, approvals and controls from a Discord guild, so Harness lives in the channel. | 2026-08-30 |
 | [liyi3068238601-oss/dsh-comfyui-ctl](https://github.com/liyi3068238601-oss/dsh-comfyui-ctl) | Native ComfyUI control: inspect queues, cancel/clear jobs, browse history and outputs, inventory models, upload images and submit generation workflows. | 2026-08-31 |
 | [Crosery/dsh-viewer](https://github.com/Crosery/dsh-viewer) | Everything renders: one `display_file` tool that puts images, video, audio, PDF, Office docs and local web pages inline in the web UI with a real player. | 2026-08-31 |
+| [pn1024/dsh-ppt-master](https://github.com/pn1024/dsh-ppt-master) | PPT Master: AI-driven presentation workflow - generate editable PPTX decks, SVG snapshots, native template filling, and PPTX enhancement in one plugin. | 2026-09-01 |
+| [pn1024/dsh-skill-hub](https://github.com/pn1024/dsh-skill-hub) | Skill marketplace: aggregated SkillHub + ClawHub search, sidebar entry + overlay panel with README preview, one-click install/uninstall, and a chat-input skill quick-pick. | 2026-09-01 |
 
 ## 📣 Author showcase
 
