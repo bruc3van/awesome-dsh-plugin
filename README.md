@@ -325,6 +325,8 @@ mindmap
 | [addozhang/dsh-discord](https://github.com/addozhang/dsh-discord) | Discord 优先适配器：在 Discord 服务器里开会话、流式输出、审批与控制，把 Harness 接到公会频道。 | 2026-08-30 |
 | [liyi3068238601-oss/dsh-comfyui-ctl](https://github.com/liyi3068238601-oss/dsh-comfyui-ctl) | 原生 ComfyUI 控制：查队列、中断/清理任务、看历史与产出、盘点模型，上传图片并提交生成工作流。 | 2026-08-31 |
 | [Crosery/dsh-viewer](https://github.com/Crosery/dsh-viewer) | Everything renders：一张 `display_file` 工具把图片、视频、音频、PDF、Office 与本地网页以内联播放器渲到 Web UI。 | 2026-08-31 |
+| [pn1024/dsh-ppt-master](https://github.com/pn1024/dsh-ppt-master) | PPT Master：AI 驱动的演示文稿工作流——生成可编辑 PPTX、SVG 快照、原生模板填充与 PPTX 增强，一站式完成幻灯片制作。 | 2026-09-01 |
+| [pn1024/dsh-skill-hub](https://github.com/pn1024/dsh-skill-hub) | 技能市场：聚合 SkillHub + ClawHub 双源搜索技能，侧边栏入口 + 浮层面板预览 README，一键安装/卸载，聊天栏快速选择技能。 | 2026-09-01 |
 
 ## 📣 作者自荐
 
