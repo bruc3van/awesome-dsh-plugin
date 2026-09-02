@@ -11,7 +11,8 @@
 //
 // CATALOG.md is an index; the catalog itself lives in one page per category
 // under catalog/, because a single page outgrew GitHub's 1 MB Markdown
-// rendering limit.
+// rendering limit. Categories that stay oversized despite that split into
+// letter-range volumes (VOLUME_SPLITS below).
 //
 // Convention (see data/review/README.md):
 //   data/repositories.json  raw topic snapshot, scripts-only
@@ -331,6 +332,32 @@ export const CATALOG_DIR = 'catalog';
 // further (or to tighten what the catalog admits).
 export const CATALOG_PAGE_WARN_BYTES = 850 * 1024;
 
+// Some categories are semantic catch-alls (the agents-workflows pattern matches
+// "harness", which every DSH plugin description carries), so no keyword split
+// can halve them — as of 2026-09-02 the multi-agent subcategory carves out only
+// ~4% of entries. Those categories split into letter-range volumes instead: the
+// first character of the owner name decides the volume (digits land in the
+// first range), and the boundary is tuned on byte share, not entry count,
+// because description length, not row count, drives page size. The first volume
+// keeps the bare category key so existing catalog/<key>.md links survive; extra
+// volumes append a range suffix. Only the catalog pages divide — repo.category
+// (the README mindmap, market.json dealing) stays at category granularity.
+const VOLUME_SPLITS = {
+  // Owner-letter byte share as of 2026-09-02: A–M 49% / N–Z 51%.
+  'agents-workflows': [
+    { key: 'agents-workflows', upTo: 'm', label: 'A–M' },
+    { key: 'agents-workflows-n-z', upTo: 'z', label: 'N–Z' },
+  ],
+};
+
+// Assign a repository to one of a category's letter-range volumes: the first
+// range whose upper bound covers the owner's first character wins; anything
+// past the last bound (defensive — owner names start with ASCII alphanumerics)
+// falls into the final volume.
+function volumeRangesFor(categoryKey) {
+  return VOLUME_SPLITS[categoryKey] ?? null;
+}
+
 const catalogHeader = (repo) =>
   `| [${repo.full_name}](${repo.html_url}) | ${esc(repo.description || '—')} | ${repo.language || '—'} | ${repo.stargazers_count} | ${repo.license || '—'} | ${updated(repo)} |`;
 
@@ -354,10 +381,37 @@ export function buildCatalog(state) {
     .map(([key, zh, en]) => ({ key, zh, en, group: repositories.filter((repo) => repo.category === key) }))
     .filter(({ group }) => group.length);
 
-  // One page per category. Links are written relative to catalog/, one level
-  // below the repository root.
-  const pages = groups.map(({ key, zh, en, group }) => {
-    const siblings = groups
+  // One page per category — except categories in VOLUME_SPLITS, which get one
+  // page per owner-letter range. Links are written relative to catalog/, one
+  // level below the repository root. Letter ranges fold into the page labels
+  // here, so everything downstream (titles, sibling links, the CATALOG index)
+  // shows them without special cases.
+  const splitPages = groups.flatMap(({ key: categoryKey, zh, en, group }) => {
+    const ranges = volumeRangesFor(categoryKey);
+    let volumes;
+    if (!ranges) {
+      volumes = [{ key: categoryKey, label: null, group }];
+    } else {
+      const members = ranges.map(() => []);
+      for (const repo of group) {
+        const first = (repo.full_name[0] || '').toLowerCase();
+        const index = ranges.findIndex((range) => first <= range.upTo);
+        members[index === -1 ? ranges.length - 1 : index].push(repo);
+      }
+      volumes = ranges
+        .map((range, index) => ({ key: range.key, label: range.label, group: members[index] }))
+        .filter((page) => page.group.length);
+    }
+    return volumes.map((volume) => ({
+      key: volume.key,
+      group: volume.group,
+      zh: volume.label ? `${zh}（${volume.label}）` : zh,
+      en: volume.label ? `${en} (${volume.label})` : en,
+    }));
+  });
+
+  const pages = splitPages.map(({ key, zh, en, group }) => {
+    const siblings = splitPages
       .filter((other) => other.key !== key)
       .map((other) => `[${other.zh} / ${other.en}](./${other.key}.md)`)
       .join(' · ');
@@ -461,8 +515,11 @@ export const SHOWCASE_END = '<!-- dsh:showcase:end -->';
 // wording that already lives on the README pages.
 const MINDMAP_NODES = [
   ['agents-workflows', 'Agent 自动化与工作流', 'Agents automation workflows',
-    ['定时循环与事件唤醒', '多 Agent 协作', '长期记忆与自我进化', '审批、预算与检查点'],
-    ['Scheduled loops and event wakeups', 'Multi-agent teamwork', 'Long-term memory and self-evolution', 'Approval budget and checkpoints']],
+    ['定时循环与事件唤醒', '长期记忆与自我进化', '审批、预算与检查点'],
+    ['Scheduled loops and event wakeups', 'Long-term memory and self-evolution', 'Approval budget and checkpoints']],
+  ['multi-agents', '多 Agent 编排协作', 'Multi-agent orchestration',
+    ['子代理与编排看板', '舰队与团队协作', '角色分工与任务验收'],
+    ['Subagents and orchestration boards', 'Fleets and agent teams', 'Role division and acceptance checks']],
   ['ui-experience', '界面与体验', 'UI and experience',
     ['桌面客户端与终端 TUI', '侧边栏工作台', '皮肤与桌面宠物', '通知与输入增强'],
     ['Desktop clients and terminal TUI', 'Sidebar workbenches', 'Skins and desktop pets', 'Notifications and input']],

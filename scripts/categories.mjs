@@ -9,6 +9,10 @@ export const categoryRules = [
   ['integrations-sharing', '集成与分享', 'Integrations & Sharing', /share|github|telegram|qq|zotero|acp|connect|remote|teleport|tonghuashun|stock-market|identity/i],
   ['knowledge-research', '知识与研究', 'Knowledge & Research', /knowledge|research|kb|distill|mnemon|math|lean|sieve|mineru|memory|scholar/i],
   ['developer-tools', '开发者工具', 'Developer Tools', /vscode|git|diff|inspect|custom-tool|tool-search|doctor|runtime|sandbox|encoding|schema|regex|json|csv|calculator|\bstat\b/i],
+  // Multi-agent orchestration is carved out of the agent catch-all below so the
+  // subcategory gets its own catalog volume; the pattern is matched before it,
+  // so nothing outside the old agents-workflows pool can move categories.
+  ['multi-agents', '多 Agent 编排与协作', 'Multi-Agent Orchestration & Teams', /subagent|multi[- ]?agent|agent[- ]?team|\bteams?\b|swarm|fleet|crew|squad|orchestrat|commander/i],
   ['agents-workflows', 'Agent、自动化与工作流', 'Agents, Automation & Workflows', /agent|workflow|harness|advisor|approval|subagent|budget|fallback|deep-research|evolve|team|loop|sentinel|checkpoint/i],
 ];
 

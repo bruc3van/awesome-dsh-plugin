@@ -27,7 +27,9 @@ The catalog is split into one volume per category — the full list outgrew GitH
 | [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 313 |
 | [知识与研究 / Knowledge & Research](./catalog/knowledge-research.md) | 543 |
 | [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 484 |
-| [Agent、自动化与工作流 / Agents, Automation & Workflows](./catalog/agents-workflows.md) | 4307 |
+| [多 Agent 编排与协作 / Multi-Agent Orchestration & Teams](./catalog/multi-agents.md) | 171 |
+| [Agent、自动化与工作流（A–M） / Agents, Automation & Workflows (A–M)](./catalog/agents-workflows.md) | 1743 |
+| [Agent、自动化与工作流（N–Z） / Agents, Automation & Workflows (N–Z)](./catalog/agents-workflows-n-z.md) | 2393 |
 | [实用工具与其他 / Utilities & Other](./catalog/utilities.md) | 522 |
 
 ## Data source

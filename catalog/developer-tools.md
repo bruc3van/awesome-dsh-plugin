@@ -497,7 +497,7 @@ DSH 插件全量目录的「开发者工具」分册 / The "Developer Tools" vol
 
 ## 其他分册 / Other volumes
 
-[生态与资源 / Ecosystem & Resources](./ecosystem-resources.md) · [界面与体验 / UI & Experience](./ui-experience.md) · [设计、媒体与视觉 / Design, Media & Vision](./media-vision.md) · [网页与浏览器 / Web & Browser](./web-browser.md) · [集成与分享 / Integrations & Sharing](./integrations-sharing.md) · [知识与研究 / Knowledge & Research](./knowledge-research.md) · [Agent、自动化与工作流 / Agents, Automation & Workflows](./agents-workflows.md) · [实用工具与其他 / Utilities & Other](./utilities.md)
+[生态与资源 / Ecosystem & Resources](./ecosystem-resources.md) · [界面与体验 / UI & Experience](./ui-experience.md) · [设计、媒体与视觉 / Design, Media & Vision](./media-vision.md) · [网页与浏览器 / Web & Browser](./web-browser.md) · [集成与分享 / Integrations & Sharing](./integrations-sharing.md) · [知识与研究 / Knowledge & Research](./knowledge-research.md) · [多 Agent 编排与协作 / Multi-Agent Orchestration & Teams](./multi-agents.md) · [Agent、自动化与工作流（A–M） / Agents, Automation & Workflows (A–M)](./agents-workflows.md) · [Agent、自动化与工作流（N–Z） / Agents, Automation & Workflows (N–Z)](./agents-workflows-n-z.md) · [实用工具与其他 / Utilities & Other](./utilities.md)
 
 ## Data source
 
