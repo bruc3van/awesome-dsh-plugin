@@ -1,24 +1,5587 @@
 {
-  "generated_at": "2026-09-02T05:06:44.975Z",
-  "snapshot_date": "2026-09-01",
-  "pending": [],
-  "missing": [],
+  "generated_at": "2026-09-02T18:05:01.699Z",
+  "snapshot_date": "2026-09-02",
+  "pending": [
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "01Virex/dsh-deepshub",
+      "html_url": "https://github.com/01Virex/dsh-deepshub",
+      "description": "Pornhub-style parody reskin for the DeepSeek Harness web UI — orange/black pill-button theme, \"Deephub\" wordmark, 18+ entry gate & HD badges. Pure meme, no explicit content.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T15:03:43Z",
+      "pushed_at": "2026-09-02T15:06:28Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "memes",
+        "parody",
+        "reskin",
+        "ui-theme"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "10086ggqq/dsh_theme_Minecraft",
+      "html_url": "https://github.com/10086ggqq/dsh_theme_Minecraft",
+      "description": "把 DeepSeek Harness 变成 Minecraft Java Edition 风格——WebGL 旋转全景主菜单、存档式会话选择、四种游戏模式对应 Agent 预设、世界内 HUD 聊天台、像素风工具卡片与审批面板、AI 思考时触发跑酷小游戏、8-bit 合成音效与自定义背景音乐、五类互动桌宠与红石粒子特效。零侵入 DSH 核心源码，经典界面一键切回。",
+      "language": "JavaScript",
+      "stargazers_count": 2,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T12:17:52Z",
+      "pushed_at": "2026-09-02T12:20:42Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "minecraft"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "1010n111/dsh-about",
+      "html_url": "https://github.com/1010n111/dsh-about",
+      "description": "为 DeepSeek Harness Web 设置面板添加“关于”页，展示当前运行的 DSH 版本、插件版本与项目主页。",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T03:56:03Z",
+      "pushed_at": "2026-09-02T06:04:24Z",
+      "topics": [
+        "dsh-plugin",
+        "dsh-plugins"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "1710782766/dsh-browser-verify",
+      "html_url": "https://github.com/1710782766/dsh-browser-verify",
+      "description": "Browser verification for DeepSeek Harness — open, mock, assert, screenshot in a few tool calls, screenshots auto-project into the model context",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "Apache-2.0",
+      "created_at": "2026-09-02T07:06:05Z",
+      "pushed_at": "2026-09-02T08:34:33Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "2092372408-pixel/dsh-roadmap-board",
+      "html_url": "https://github.com/2092372408-pixel/dsh-roadmap-board",
+      "description": "人机共享的执行路线图看板：横向阶段→步骤、技能绑定、实时同步、跨项目复用（Human-AI shared execution roadmap board for DSH）",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T14:57:59Z",
+      "pushed_at": "2026-09-02T15:21:27Z",
+      "topics": [
+        "agent",
+        "cordis-plugin",
+        "deepseek",
+        "dsh",
+        "dsh-plugin",
+        "planning",
+        "roadmap"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "782042369/dsh-model-compat-guard",
+      "html_url": "https://github.com/782042369/dsh-model-compat-guard",
+      "description": "DSH (DeepSeek Harness) compatibility guard plugin: fixes reasoning-model compaction truncation, doomed sandbox-escalation fail-close, and missing tool description for GPT/Qwen/third-party models",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T22:15:37Z",
+      "pushed_at": "2026-09-01T22:16:59Z",
+      "topics": [
+        "compatibility",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "gpt",
+        "llm",
+        "qwen"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "CMD128/dsh-wx-bridge",
+      "html_url": "https://github.com/CMD128/dsh-wx-bridge",
+      "description": "微信桥接 DSH 插件：扫码绑定官方 ClawBot（iLink 协议），私聊驱动 DeepSeek Harness 会话 — WeChat bridge plugin for DSH",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T06:54:14Z",
+      "pushed_at": "2026-09-02T08:05:36Z",
+      "topics": [
+        "bot",
+        "clawbot",
+        "deepseek-harness",
+        "dsh-plugin",
+        "ilink",
+        "wechat-bot"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "CultOfLuna/dsh-vision-autoswitch",
+      "html_url": "https://github.com/CultOfLuna/dsh-vision-autoswitch",
+      "description": "DeepSeek 的\"自动挡\"：有图切 Vision，无图回 Pro/Flash，一键都不用点。 DeepSeek's \"automatic transmission\": image in → Vision, image out → back to Pro/Flash — not a single click.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T14:05:04Z",
+      "pushed_at": "2026-09-02T14:11:19Z",
+      "topics": [
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugin-market",
+        "dsh-plugins",
+        "vision"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "DaYanQLQ/DSH-Balance-Mini",
+      "html_url": "https://github.com/DaYanQLQ/DSH-Balance-Mini",
+      "description": "DeepSeek Harness 的极简版余额监视器插件：常驻余额徽章、红绿灯配色、多供应商、高峰/空闲时段。",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T12:57:38Z",
+      "pushed_at": "2026-09-01T22:09:57Z",
+      "topics": [
+        "balance",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "monitor"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "DaYanQLQ/DSH-Shortcut",
+      "html_url": "https://github.com/DaYanQLQ/DSH-Shortcut",
+      "description": "DeepSeek Harness 的 Windows 桌面快捷方式工具：双击智能启动/唤起、浏览器打开前自动最小化、崩溃一键重装救援（不删用户数据）。圆角官方图标，纯 PowerShell 零依赖。",
+      "language": "PowerShell",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T20:02:57Z",
+      "pushed_at": "2026-09-01T22:06:30Z",
+      "topics": [
+        "automation",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "launcher",
+        "powershell",
+        "shortcut",
+        "windows"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "DaydreAmRing/dsh-cho-kaguya-plugin-public",
+      "html_url": "https://github.com/DaydreAmRing/dsh-cho-kaguya-plugin-public",
+      "description": "DSH皮肤插件、有超时空辉夜姬概念元素",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "NOASSERTION",
+      "created_at": "2026-09-02T11:48:53Z",
+      "pushed_at": "2026-09-02T12:31:36Z",
+      "topics": [
+        "dsh",
+        "dsh-plugin",
+        "skin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "EIGHTfs/dsh-git-push",
+      "html_url": "https://github.com/EIGHTfs/dsh-git-push",
+      "description": "DSH git 自动提交推送插件：扫描仓库 + 一键 commit/push（工具 + HTTP API）",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-08-18T14:15:03Z",
+      "pushed_at": "2026-09-02T16:09:09Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Exaggarate/dshpkg",
+      "html_url": "https://github.com/Exaggarate/dshpkg",
+      "description": "Security & health audit CLI for DeepSeek Harness (DSH) plugins — npm audit for the everything-is-a-plugin era. Search, info, security-scan, doctor. stdlib-only.",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T16:05:16Z",
+      "pushed_at": "2026-09-02T16:08:24Z",
+      "topics": [
+        "ai-agents",
+        "audit",
+        "cli",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "plugins",
+        "scanner",
+        "security"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "FomoGoMan/dsh-serena-guide",
+      "html_url": "https://github.com/FomoGoMan/dsh-serena-guide",
+      "description": "A DeepSeek Harness plugin that steers agents to Serena's LSP symbolic tools over built-in code tools.",
+      "language": "TypeScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T06:16:21Z",
+      "pushed_at": "2026-09-02T06:56:20Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "lsp",
+        "serena"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "GooDAnDReaDY/dsh-agent-loop-guard",
+      "html_url": "https://github.com/GooDAnDReaDY/dsh-agent-loop-guard",
+      "description": "DeepSeek Harness runtime guard for tool-call and assistant-output loops",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T15:31:36Z",
+      "pushed_at": "2026-09-02T15:55:12Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "loop-guard"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Gru110110110/dsh-launcher",
+      "html_url": "https://github.com/Gru110110110/dsh-launcher",
+      "description": "让 DeepSeek Harness 人人可用的桌面入口——不用 Node、不用命令行，双击即用，还无损跟随每次官方更新。支持MacOs和Windows。DeepSeek Harness, for everyone. No Node.js. No command line. Just double-click and go. Always in step with every official update. For macOS & Windows.",
+      "language": "Rust",
+      "stargazers_count": 4,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-16T08:47:57Z",
+      "pushed_at": "2026-09-01T18:42:05Z",
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "desktop-app",
+        "dsh",
+        "dsh-desktop",
+        "dsh-plugin",
+        "dsh-plugin-market",
+        "dsh-skill",
+        "launcher"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "JPA957/dsh-web-search-anysearch",
+      "html_url": "https://github.com/JPA957/dsh-web-search-anysearch",
+      "description": "AnySearch search provider plugin for DeepSeek Harness (ctx.web) with round-robin API-key rotation and per-key cooldown failover",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T11:26:44Z",
+      "pushed_at": "2026-09-02T11:26:48Z",
+      "topics": [
+        "anysearch",
+        "deepseek-harness",
+        "dsh-plugin",
+        "web-search"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "JerryXst/dsh-codex-web-auth",
+      "html_url": "https://github.com/JerryXst/dsh-codex-web-auth",
+      "description": "ChatGPT / Codex browser sign-in for DeepSeek Harness's built-in openai-codex provider — no OpenAI API key required.",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T12:00:50Z",
+      "pushed_at": "2026-09-02T02:41:52Z",
+      "topics": [
+        "chatgpt",
+        "codex",
+        "deepseek-harness",
+        "dsh-plugin",
+        "oauth",
+        "openai",
+        "typescript"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "JingzeChen/dsh-beacon",
+      "html_url": "https://github.com/JingzeChen/dsh-beacon",
+      "description": "Attention and handoff workspace for concurrent DeepSeek Harness Sessions",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T15:15:36Z",
+      "pushed_at": "2026-09-02T16:00:43Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "KKL08/dsh-plastic-memory",
+      "html_url": "https://github.com/KKL08/dsh-plastic-memory",
+      "description": "Memory plugin with built-in governance for DeepSeek Harness: 为你的 DSH 赋予可塑性记忆",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T23:42:02Z",
+      "pushed_at": "2026-09-02T03:41:31Z",
+      "topics": [
+        "agent",
+        "agent-memory",
+        "ai-agent",
+        "ai-memory",
+        "context-engineering",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "memory"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Kevin66Z0/dsh-telegram",
+      "html_url": "https://github.com/Kevin66Z0/dsh-telegram",
+      "description": "Remote-control DeepSeek Harness from Telegram: stream replies, one-tap keyboards, whitelist-secured, zero inbound ports.",
+      "language": "TypeScript",
+      "stargazers_count": 3,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T03:03:46Z",
+      "pushed_at": "2026-09-02T02:39:36Z",
+      "topics": [
+        "deepseek",
+        "deepseek-chat",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "deepseek-harness-plugin-dev",
+        "deepseek-harness-plugins",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "LiLiLi-Zi/dsh-gray-test",
+      "html_url": "https://github.com/LiLiLi-Zi/dsh-gray-test",
+      "description": "dsh gray-model detection plugin — launch N concurrent sessions, stream reasoning chains, auto-classify gray models (I'm+ing > Let me×5), normal models (Let me≥3), and abnormal models (no features). Supports standard/PTC/minimal/cordis presets.",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T08:24:00Z",
+      "pushed_at": "2026-09-02T08:49:37Z",
+      "topics": [
+        "ai-agents",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "gray-test",
+        "llm",
+        "model-detection"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Liyuan1992/memdsl",
+      "html_url": "https://github.com/Liyuan1992/memdsl",
+      "description": "Agent memory as normative source code",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "NOASSERTION",
+      "created_at": "2026-07-04T11:17:04Z",
+      "pushed_at": "2026-09-02T10:56:50Z",
+      "topics": [
+        "agent-memory",
+        "declarative-language",
+        "deepseek-harness",
+        "dsh-plugin",
+        "local-first",
+        "mcp"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Liyuan1992/rawmem",
+      "html_url": "https://github.com/Liyuan1992/rawmem",
+      "description": "A tiny local-first raw evidence ledger for AI and human workflows.",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-07-10T01:01:14Z",
+      "pushed_at": "2026-09-02T10:56:51Z",
+      "topics": [
+        "agent-memory",
+        "ai-memory",
+        "deepseek-harness",
+        "dsh-plugin",
+        "evidence-ledger",
+        "local-first",
+        "mcp",
+        "python"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "LouisCanBe/dsh-plugin-ollama-monitor",
+      "html_url": "https://github.com/LouisCanBe/dsh-plugin-ollama-monitor",
+      "description": "Ollama 监控与测评平台 · DeepSeek Harness (DSH) 插件组合包：agent 工具 + Web 设置页面板（npm: ollama-monitor）",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T02:14:40Z",
+      "pushed_at": "2026-09-02T08:00:45Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "monitoring",
+        "ollama"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "MST19711/dsh-balance-panel",
+      "html_url": "https://github.com/MST19711/dsh-balance-panel",
+      "description": "Floating Balance Panel for the DSH Web UI — live remaining % for the 5h / weekly / monthly windows, supporting OpenCode Go and Z.AI-CN",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-21T10:17:21Z",
+      "pushed_at": "2026-09-01T13:33:24Z",
+      "topics": [
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugin-market",
+        "dsh-plugins"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Macorreag/dsh-monitor",
+      "html_url": "https://github.com/Macorreag/dsh-monitor",
+      "description": "Monitor plugin for DeepSeek Harness: background bash watchers that steer the agent loop, with a live dock status bar.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T16:25:21Z",
+      "pushed_at": "2026-09-02T16:26:39Z",
+      "topics": [
+        "cordis",
+        "deepseek-harness",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "MannixHu/dsh-statusbar-config",
+      "html_url": "https://github.com/MannixHu/dsh-statusbar-config",
+      "description": "用 ${变量} 模板完全自定义 DeepSeek Harness 状态栏统计行 · template-driven DSH status bar",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T03:52:53Z",
+      "pushed_at": "2026-09-02T09:58:40Z",
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-web",
+        "stats",
+        "status-bar",
+        "statusbar",
+        "template",
+        "ui"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "MarchLiu/dsh-farm",
+      "html_url": "https://github.com/MarchLiu/dsh-farm",
+      "description": "DSH service farm: register, start, stop, restart and watch long-running project services — agent tools + overview drawer UI, farm.yaml support",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-02T08:43:11Z",
+      "pushed_at": "2026-09-02T08:43:16Z",
+      "topics": [
+        "dsh",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "MarchLiu/dsh-uno-office",
+      "html_url": "https://github.com/MarchLiu/dsh-uno-office",
+      "description": "LibreOffice (UNO) powered high-fidelity office engine for DSH — create & edit docx/xlsx/pptx via prompts, with human-in-the-loop review",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-02T16:41:08Z",
+      "pushed_at": "2026-09-02T16:41:14Z",
+      "topics": [
+        "docx",
+        "dsh",
+        "dsh-plugin",
+        "libreoffice",
+        "office",
+        "pptx",
+        "uno",
+        "xlsx"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "MerlinShieh/Agent-skill-wechatPush",
+      "html_url": "https://github.com/MerlinShieh/Agent-skill-wechatPush",
+      "description": "Agent skill，当任务完成时会主动通过微信公众号推送洗洗脑",
+      "language": "Python",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-08-03T08:53:17Z",
+      "pushed_at": "2026-08-04T07:12:33Z",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "agentic-ai",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugin-market",
+        "push",
+        "wechat"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "NinjaSln-labs/dsh-context-compass",
+      "html_url": "https://github.com/NinjaSln-labs/dsh-context-compass",
+      "description": "DeepSeek Harness 会话健康插件：真实数据的「继续 vs 新开」上下文罗盘——头部徽章 / /compass / context_compass 工具 / 多会话一览面板",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T14:50:34Z",
+      "pushed_at": "2026-09-02T17:35:09Z",
+      "topics": [
+        "ai-coding",
+        "context-management",
+        "deepseek-harness",
+        "dsh-plugin",
+        "llm",
+        "session-health"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Oissp/harness-desktop",
+      "html_url": "https://github.com/Oissp/harness-desktop",
+      "description": "DeepSeek Harness Desktop for Debian",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-26T07:01:21Z",
+      "pushed_at": "2026-09-02T08:56:05Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Physicolor/dsh-lifeline",
+      "html_url": "https://github.com/Physicolor/dsh-lifeline",
+      "description": "Right-side message navigation rail for DeepSeek Harness — per-message ticks, hover preview, smooth jump, star bookmarks, realtime slide animation",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "NOASSERTION",
+      "created_at": "2026-09-01T07:02:37Z",
+      "pushed_at": "2026-09-02T01:31:02Z",
+      "topics": [
+        "chat-timeline",
+        "cordis",
+        "cordis-plugin",
+        "deepseek-harness",
+        "dsh-plugin",
+        "web-ui"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "QWE13-ART/dsh-claim-gate",
+      "html_url": "https://github.com/QWE13-ART/dsh-claim-gate",
+      "description": "Turn-boundary claim gate for DSH agents: 声称「已完成/已落地」但本轮无验证输出时机械拦截；有验证输出时软提示对照验证覆盖 + 任务收尾派独立审计。纯同步正则 host hook（agent/turn-stopping），零 LLM、零网络。",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-02T12:08:27Z",
+      "pushed_at": "2026-09-02T13:34:37Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "QianLuo-Ly/dsh-weather",
+      "html_url": "https://github.com/QianLuo-Ly/dsh-weather",
+      "description": "dsh的天气插件（没有高大上的东西，生活不易，出门记得看天气~）",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T02:26:14Z",
+      "pushed_at": "2026-09-02T03:00:27Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "weather"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "QuantumKuba/dsh-continuum",
+      "html_url": "https://github.com/QuantumKuba/dsh-continuum",
+      "description": "Durable project state and checkpoint engine for DeepSeek Harness (DSH). Prevents context exhaustion in long-running multi-agent workflows by persisting tasks, evidence, and checkpoints to disk.",
+      "language": "TypeScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T12:55:37Z",
+      "pushed_at": "2026-09-02T16:18:39Z",
+      "topics": [
+        "cordis",
+        "deepseek-harness",
+        "dsh-plugin",
+        "memory"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Riianfar/dsh-zai-web-search-api",
+      "html_url": "https://github.com/Riianfar/dsh-zai-web-search-api",
+      "description": "DeepSeek Harness (DSH) 的 Z.AI / 智谱独立 Web Search API provider",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-31T12:29:10Z",
+      "pushed_at": "2026-08-31T12:37:15Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Roxy-gl373/dsh-desktop",
+      "html_url": "https://github.com/Roxy-gl373/dsh-desktop",
+      "description": "DSh Whale · DeepSeek Harness 桌面启动器：WebView2 内嵌 DSH 界面，实时日志、单实例托盘、多开、等比缩放，装插件自动快照回滚。install.cmd 一键配置。",
+      "language": "C#",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "NOASSERTION",
+      "created_at": "2026-09-02T11:52:46Z",
+      "pushed_at": "2026-09-02T13:57:18Z",
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Shaw529/dsh-token-saver",
+      "html_url": "https://github.com/Shaw529/dsh-token-saver",
+      "description": "DeepSeek Harness plugin: aggressive token savings, no task-quality loss",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T10:36:42Z",
+      "pushed_at": "2026-09-02T10:46:40Z",
+      "topics": [
+        "ai-agents",
+        "compaction",
+        "deepseek-harness",
+        "dsh-plugin",
+        "token-saver"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "ShineFree7/dsh-doc-rail",
+      "html_url": "https://github.com/ShineFree7/dsh-doc-rail",
+      "description": "Right-side document rail for the DeepSeek Harness web GUI — Markdown/plain-text viewer with light & deep-navy themes, drag-resize, recent files, auto-sync. （中文：dsh web 右侧文档面板，支持浅色/深蓝主题、拖宽、最近文件、自动同步）",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T13:26:37Z",
+      "pushed_at": "2026-09-02T13:28:26Z",
+      "topics": [
+        "cordis",
+        "deepseek-harness",
+        "dsh-plugin",
+        "markdown"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "SiriusNEO/StarAgent",
+      "html_url": "https://github.com/SiriusNEO/StarAgent",
+      "description": "Lightweight agent multiplexer, all in one Web dashboard ",
+      "language": "Python",
+      "stargazers_count": 56,
+      "forks_count": 5,
+      "license": "MIT",
+      "created_at": "2026-05-29T07:49:30Z",
+      "pushed_at": "2026-07-22T08:55:44Z",
+      "topics": [
+        "agent",
+        "ai",
+        "claude-code",
+        "codex",
+        "dsh",
+        "dsh-plugin",
+        "llm",
+        "openai",
+        "python",
+        "tailscale",
+        "tmux"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "StephenEvenson/dsh-plugin-elevenlabs-callback",
+      "html_url": "https://github.com/StephenEvenson/dsh-plugin-elevenlabs-callback",
+      "description": "DeepSeek Harness plugin: when a run finishes or needs approval, get a link on your phone, hear the result from an ElevenLabs voice agent and say what to do next",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T00:39:36Z",
+      "pushed_at": "2026-09-02T00:41:02Z",
+      "topics": [
+        "conversational-ai",
+        "cordis",
+        "deepseek-harness",
+        "dsh-plugin",
+        "elevenlabs",
+        "voice-agent"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Stijnus/dsh-ds-kanban",
+      "html_url": "https://github.com/Stijnus/dsh-ds-kanban",
+      "description": "Live task-board plugin for DeepSeek Harness Web: sidebar badge, full-shell kanban with search, filters, export, and diagnostics.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T09:59:30Z",
+      "pushed_at": "2026-09-02T15:08:46Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Stijnus/dsh-ds-ponytail",
+      "html_url": "https://github.com/Stijnus/dsh-ds-ponytail",
+      "description": "Lazy senior dev mode for DeepSeek Harness: ponytail skill family (ponytail, review, audit, debt, gain, help) adapted from DietrichGebert/ponytail (MIT). Install: dsh plugin --profile web add dsh-ds-ponytail",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T10:10:47Z",
+      "pushed_at": "2026-09-02T15:26:57Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "lazy",
+        "ponytail",
+        "skills",
+        "yagni"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "TARS-snail/dsh-guard-sensitive-paths",
+      "html_url": "https://github.com/TARS-snail/dsh-guard-sensitive-paths",
+      "description": "Approval guard for DeepSeek Harness: write/edit/editor/bash calls touching sensitive paths (.env, .git, SSH keys, .pem) become an approval ask.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T06:56:12Z",
+      "pushed_at": "2026-09-02T08:37:28Z",
+      "topics": [
+        "approval",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "security",
+        "sensitive-paths"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Tiger3807861189/GLM-5.3-Flash-J-Space-Capability-Realization-Report",
+      "html_url": "https://github.com/Tiger3807861189/GLM-5.3-Flash-J-Space-Capability-Realization-Report",
+      "description": "GLM-5.3-Flash × J-Space capability realization — benchmark presentation of the J-Space Cognition Suite",
+      "language": null,
+      "stargazers_count": 1029,
+      "forks_count": 63,
+      "license": "NOASSERTION",
+      "created_at": "2026-08-16T11:38:42Z",
+      "pushed_at": "2026-09-02T11:21:54Z",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "benchmark",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Tyon-nos-Ty90/dsh-mcsm-panel",
+      "html_url": "https://github.com/Tyon-nos-Ty90/dsh-mcsm-panel",
+      "description": "DeepSeek Harness Desktop plugin that lets your AI control MCSManager (MCSM 10.x) Minecraft servers from the chat: server console, file management, instance start/restart/stop/kill, and direct file uploads.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T05:07:05Z",
+      "pushed_at": "2026-09-02T05:48:00Z",
+      "topics": [
+        "ai-tools",
+        "deepseek-harness",
+        "dsh-plugin",
+        "mcsm",
+        "mcsm-panel",
+        "mcsmanager",
+        "minecraft"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "VioletScar-Hui/dsh-chat-history",
+      "html_url": "https://github.com/VioletScar-Hui/dsh-chat-history",
+      "description": "给 DSH 聊天输入框加上 CLI 风格历史记忆：上下键召回之前发送过的内容（纯客户端插件，重启不丢）",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T03:10:19Z",
+      "pushed_at": "2026-09-02T05:23:12Z",
+      "topics": [
+        "chat-history",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "WMXS-A/dsh-utility-plugins",
+      "html_url": "https://github.com/WMXS-A/dsh-utility-plugins",
+      "description": "Utility plugins for DeepSeek Harness: skill cheatsheet panel and session boot healthcheck",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T14:40:45Z",
+      "pushed_at": "2026-09-02T14:53:40Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "WayJ/dsh-work",
+      "html_url": "https://github.com/WayJ/dsh-work",
+      "description": "基于dsh构建的个人工作Agent",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T04:25:55Z",
+      "pushed_at": "2026-09-02T04:30:04Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "WaySeeSee/dsh-de-workbench",
+      "html_url": "https://github.com/WaySeeSee/dsh-de-workbench",
+      "description": "轻量数据分析工作台（DSH 插件）",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T08:36:16Z",
+      "pushed_at": "2026-09-02T09:59:38Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "XINY11451/dsh-wsl",
+      "html_url": "https://github.com/XINY11451/dsh-wsl",
+      "description": "A model-facing WSL tool plugin for DeepSeek Harness (DSH). It lets an agent run Linux commands through wsl.exe directly — no hand-written .sh scripts or pwsh wrappers.",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-26T20:11:20Z",
+      "pushed_at": "2026-09-02T17:28:18Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Yinxe/dsh-mcwiki-search",
+      "html_url": "https://github.com/Yinxe/dsh-mcwiki-search",
+      "description": "MCBE WIKI 搜索工具",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-29T04:43:00Z",
+      "pushed_at": "2026-09-02T15:07:52Z",
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin",
+        "vibe-coding"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Yinxe/dsh-tavily-search",
+      "html_url": "https://github.com/Yinxe/dsh-tavily-search",
+      "description": "Tavily AI search provider for DeepSeek Harness",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-01T05:46:43Z",
+      "pushed_at": "2026-09-02T15:07:47Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "vibe-coding"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "Yiyang0659/dsh-git-sync",
+      "html_url": "https://github.com/Yiyang0659/dsh-git-sync",
+      "description": "Git Config Sync Center for DeepSeek Harness — real-time config sync to GitHub with conflict self-healing and multi AI-tool adapters (OpenCode/Cline/Roo Code/Kilo Code/Continue/goose/Agent Zero)",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T15:43:08Z",
+      "pushed_at": "2026-09-02T15:43:41Z",
+      "topics": [
+        "cline",
+        "config-management",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "git",
+        "opencode",
+        "roo-code",
+        "sync"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "YuiKiZJ2026/dsh-slot-homestead",
+      "html_url": "https://github.com/YuiKiZJ2026/dsh-slot-homestead",
+      "description": "老虎机庄园｜A pixel-art desktop ecosystem for DSH with time-based fish, crop and animal growth, day/night ambience and collectible slot rewards.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "ISC",
+      "created_at": "2026-09-02T03:38:33Z",
+      "pushed_at": "2026-09-02T05:40:23Z",
+      "topics": [
+        "deepseek-harness",
+        "desktop-widget",
+        "dsh-plugin",
+        "game",
+        "life-sim",
+        "pixel-art",
+        "virtual-pet"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "ZK-Andy/dsh-frecency",
+      "html_url": "https://github.com/ZK-Andy/dsh-frecency",
+      "description": "Resident-index + frecency file search for DeepSeek Harness — shadows the built-in grep/glob tools · DSH 常驻索引 + frecency 文件搜索，同名覆盖内置 grep/glob",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T17:15:53Z",
+      "pushed_at": "2026-09-02T12:16:21Z",
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "file-search",
+        "frecency",
+        "glob",
+        "grep",
+        "nodejs",
+        "typescript"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "a792883583/dsh-smart-reminder",
+      "html_url": "https://github.com/a792883583/dsh-smart-reminder",
+      "description": "Smart calendar reminder & schedule assistant for DSH Web GUI: lunar calendar, holidays, system notifications on macOS/Windows, and WeCom/platform push integration.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T06:39:07Z",
+      "pushed_at": "2026-09-02T09:38:04Z",
+      "topics": [
+        "calendar",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "lunar",
+        "notifications",
+        "reminder",
+        "todolist"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "aijunjiang/dsh-remote-ssh",
+      "html_url": "https://github.com/aijunjiang/dsh-remote-ssh",
+      "description": "Run your DSH workspace on a remote host over SSH - connection sidebar, remote directory browser, per-session routing, agent ssh_exec/route-status; files and commands execute on your target while sessions, GUI and $DSH_HOME stay local.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T03:40:40Z",
+      "pushed_at": "2026-09-02T08:59:05Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "plugin",
+        "remote-development",
+        "remote-workspace",
+        "ssh"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "alenhu2005/dsh-usage-export",
+      "html_url": "https://github.com/alenhu2005/dsh-usage-export",
+      "description": "DeepSeek Harness plugin for token usage cost, PDF/Markdown transcript export, and expanded conversation statistics.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T06:34:39Z",
+      "pushed_at": "2026-09-02T06:34:49Z",
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "markdown-export",
+        "pdf-export",
+        "token-cost",
+        "token-usage",
+        "typescript"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "ash-qw/dsh-theme-prts",
+      "html_url": "https://github.com/ash-qw/dsh-theme-prts",
+      "description": "Unofficial personal non-commercial Arknights P.R.T.S. fan UI for DeepSeek Harness",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "NOASSERTION",
+      "created_at": "2026-08-31T06:28:26Z",
+      "pushed_at": "2026-09-02T06:31:21Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "better-er/dsh-write-create-only",
+      "html_url": "https://github.com/better-er/dsh-write-create-only",
+      "description": "write 仅创建：禁止 write 覆盖已存在文件，目标已存在时自动拒绝并提示改用 edit，防止模型误覆写已有内容。纯 host 端 dsh 插件。",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T20:15:48Z",
+      "pushed_at": "2026-09-01T20:44:48Z",
+      "topics": [
+        "create-only",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "no-overwrite",
+        "safety",
+        "write"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "better-er/dsh-write-rule-guard",
+      "html_url": "https://github.com/better-er/dsh-write-rule-guard",
+      "description": "dsh 插件：按可配置正则规则拦截 edit/write 的写入内容，默认拦全角括号，host 单半身经 cordis 配置注入。",
+      "language": "TypeScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T12:58:43Z",
+      "pushed_at": "2026-09-02T12:58:48Z",
+      "topics": [
+        "content-guard",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "plugin",
+        "regex",
+        "write-guard"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "cczzyy-cn/dsh-ui-screenshot",
+      "html_url": "https://github.com/cczzyy-cn/dsh-ui-screenshot",
+      "description": "DeepSeek Harness 的 Web 插件：在输入框添加截图按钮，截屏并作为草稿图片插入，仅当模型支持视觉时显示。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-02T02:43:37Z",
+      "pushed_at": "2026-09-02T15:21:27Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "cczzyy-cn/subagent-model-picker",
+      "html_url": "https://github.com/cczzyy-cn/subagent-model-picker",
+      "description": "让主会话模型从「已配置模型」里自主选择子代理运行模型，并把选定路由通过 ctx.subagents 的 request.agentOptions.provider/model 显式覆盖到子代理上。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-02T15:48:19Z",
+      "pushed_at": "2026-09-02T16:42:11Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "chucan1/dsh-plugin-xt-memory",
+      "html_url": "https://github.com/chucan1/dsh-plugin-xt-memory",
+      "description": "Cross-session self-learning memory for DeepSeek Harness, ported from XT-AGENT packages/memory. BM25 relevance injection + background extraction (sanitize/dedupe/merge) + lifecycle archive + memory_read/memory_search/memory_write tools.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T06:03:45Z",
+      "pushed_at": "2026-09-02T05:30:47Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "dsh-plugin-market",
+        "dsh-plugins",
+        "memory"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "cndn/dsh-d1",
+      "html_url": "https://github.com/cndn/dsh-d1",
+      "description": "Cloudflare D1 tools for the DeepSeek Harness (dsh): read-only first, approval-gated writes, zero runtime dependencies",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T16:50:12Z",
+      "pushed_at": "2026-09-02T16:54:26Z",
+      "topics": [
+        "cloudflare-d1",
+        "cordis",
+        "deepseek-harness",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "crazy-L118/dsh-personalization",
+      "html_url": "https://github.com/crazy-L118/dsh-personalization",
+      "description": "A personalization plugin for DeepSeek Harness",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T16:52:34Z",
+      "pushed_at": "2026-09-02T12:56:36Z",
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "personalization"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "cxy9204/dsh-skill-store",
+      "html_url": "https://github.com/cxy9204/dsh-skill-store",
+      "description": "DeepSeek Harness 社区技能商店：浏览、搜索并一键安装来自 SkillHub / ClawHub / GitHub 的 13 万+ Agent Skills，支持星标排序与中文分类",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T07:23:03Z",
+      "pushed_at": "2026-09-02T08:31:43Z",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "openclaw",
+        "skill-marketplace"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "d4551/DeepTail",
+      "html_url": "https://github.com/d4551/DeepTail",
+      "description": "A Tauri 2 client — desktop, iOS, and Android — that connects to DeepSeek Harness hosts and gives you one control plane over the agent sessions running on all of them.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T14:21:09Z",
+      "pushed_at": "2026-09-02T17:14:58Z",
+      "topics": [
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "deepseek-harness-plugins",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugin-market",
+        "dsh-plugins"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "du-u-uck/DSH-Transparent-UI-Plugin",
+      "html_url": "https://github.com/du-u-uck/DSH-Transparent-UI-Plugin",
+      "description": "DeepSeek Harness UI Aqua玻璃质感主题主题，在原作者基础上对“0.1.1-rc.2”版本进行适配",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "AGPL-3.0",
+      "created_at": "2026-09-01T17:20:12Z",
+      "pushed_at": "2026-09-01T18:25:38Z",
+      "topics": [
+        "dsh",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "ewceniza9009/wilsonix-studio",
+      "html_url": "https://github.com/ewceniza9009/wilsonix-studio",
+      "description": "AI-powered desktop DAW - stem separation, chord detection, karaoke",
+      "language": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-01T17:35:06Z",
+      "pushed_at": "2026-09-02T10:39:18Z",
+      "topics": [
+        "demucs",
+        "dsh-plugin",
+        "golang",
+        "karaoke-effect",
+        "karaoke-maker",
+        "onnx",
+        "python",
+        "roformer",
+        "rust-lang",
+        "sound-engineering",
+        "sound-enhancement",
+        "whisper",
+        "whisper-ai"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "fan56/dsh-cron",
+      "html_url": "https://github.com/fan56/dsh-cron",
+      "description": "Cron scheduling for the DeepSeek Harness — bounded tasks with calendar & interval rules, delivered to live agents",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-31T13:25:30Z",
+      "pushed_at": "2026-09-02T16:44:58Z",
+      "topics": [
+        "cron",
+        "deepseek",
+        "dsh",
+        "dsh-plugin",
+        "llm-agent",
+        "scheduler"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "frank-fan-818/dsh-f1-skin",
+      "html_url": "https://github.com/frank-fan-818/dsh-f1-skin",
+      "description": "An F1 Race Control themed skin for the DeepSeek Harness Web UI — Red Bull, Ferrari, McLaren & Mercedes team themes, broadcast-photo backdrops, and a native settings panel, in dark and light.",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T05:32:45Z",
+      "pushed_at": "2026-09-02T11:07:58Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-theme",
+        "f1"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "freerpa/Hrequest",
+      "html_url": "https://github.com/freerpa/Hrequest",
+      "description": "轻量级 Node.js 多线程 API 压测工具，支持代理轮询、请求参数随机化注入和实时进度监控。",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-02T02:36:00Z",
+      "pushed_at": "2026-09-02T02:36:13Z",
+      "topics": [
+        "api-testing",
+        "dsh-plugin",
+        "stress-testing"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "gbeta/dsh-token-speed",
+      "html_url": "https://github.com/gbeta/dsh-token-speed",
+      "description": "DSH web plugin: draggable ring gauge showing live model output speed (tok/s) with per-step detail panel",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-02T04:18:02Z",
+      "pushed_at": "2026-09-02T04:27:22Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "geecraft23/dsh-turn-colors",
+      "html_url": "https://github.com/geecraft23/dsh-turn-colors",
+      "description": "Color-code user prompts and final assistant replies by conversation turn in the DeepSeek Harness Web UI.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T13:23:16Z",
+      "pushed_at": "2026-09-02T13:40:53Z",
+      "topics": [
+        "chat-ui",
+        "color-coding",
+        "cordis",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "typescript",
+        "web-ui"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "goatliamia/dsh-runtime-react",
+      "html_url": "https://github.com/goatliamia/dsh-runtime-react",
+      "description": "不要让 Model 为确定性问题反复思考，也不要让 Harness 为不确定的问题假装知道答案",
+      "language": "JavaScript",
+      "stargazers_count": 7,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-31T15:57:27Z",
+      "pushed_at": "2026-09-02T17:54:30Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "runtime"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "gongyijie85/dsh-agent-frugality",
+      "html_url": "https://github.com/gongyijie85/dsh-agent-frugality",
+      "description": "Multi-agent frugality defense plugin for DeepSeek Harness: read-ledger dedup, compaction-immune rules, completion gate, cheap-review lane.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-29T08:40:56Z",
+      "pushed_at": "2026-09-02T13:57:52Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "multi-agent"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "hotpot-labs/dsh-notifier-plugin",
+      "html_url": "https://github.com/hotpot-labs/dsh-notifier-plugin",
+      "description": "dsh 干完活之后通知你，【轻量级】通知插件，只通知，不交互，mac/windows/linux 操作系统支持，dsh 在干活时你可以摸鱼",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-30T15:24:00Z",
+      "pushed_at": "2026-09-02T04:06:53Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "hotpot-labs/dsh-prompt-history-plugin",
+      "html_url": "https://github.com/hotpot-labs/dsh-prompt-history-plugin",
+      "description": "dsh 输入框的提示词导航插件，支持上下键查看历史输入",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T13:05:37Z",
+      "pushed_at": "2026-09-01T14:14:00Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "hotpot-labs/dsh-version-plugin",
+      "html_url": "https://github.com/hotpot-labs/dsh-version-plugin",
+      "description": "展示dsh版本，提供更新到最新版按钮",
+      "language": "TypeScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:39:26Z",
+      "pushed_at": "2026-09-01T14:13:28Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "hoyyang/dsh-concise",
+      "html_url": "https://github.com/hoyyang/dsh-concise",
+      "description": "One-click Concise output style for DeepSeek Harness: results first, no filler — Claude Code's built-in Concise style as a dsh plugin. Toggle right of the model picker, global, persistent, zero-config.",
+      "language": "TypeScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T08:00:30Z",
+      "pushed_at": "2026-09-02T11:55:52Z",
+      "topics": [
+        "claude",
+        "concise",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "llm",
+        "output-style",
+        "plugin",
+        "productivity"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "huaweicloud/huaweicloud-devkit",
+      "html_url": "https://github.com/huaweicloud/huaweicloud-devkit",
+      "description": " Official Huawei Cloud plugin for AI agents — skills, MCP tools, safety guardrails, and cloud sandbox to help AI agents build, deploy, and operate on Huawei Cloud securely.",
+      "language": "JavaScript",
+      "stargazers_count": 19,
+      "forks_count": 9,
+      "license": "Apache-2.0",
+      "created_at": "2026-07-28T03:39:51Z",
+      "pushed_at": "2026-09-02T17:49:33Z",
+      "topics": [
+        "ai-coding",
+        "api",
+        "cli",
+        "cloud",
+        "codex",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "huaweicloud",
+        "koocli",
+        "mcp",
+        "opencode",
+        "plugins",
+        "sdk",
+        "terraform"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "huhaodong/dsh-auto-driving",
+      "html_url": "https://github.com/huhaodong/dsh-auto-driving",
+      "description": "让 DeepSeek Harness 智能体进入自动驾驶 🚗：模型故障自动回退、静默卡死自动保活重试、权限/提问/方案审批自动放行，AUTO-MODE.md 全程审计——无人值守、永不停摆的自愈式 AI 编码会话。",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T08:58:58Z",
+      "pushed_at": "2026-09-02T17:16:19Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugin-desktop",
+        "dsh-plugin-market"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "ikomom/dsh-a-share-assistant",
+      "html_url": "https://github.com/ikomom/dsh-a-share-assistant",
+      "description": "DeepSeek Harness A股研究助手插件：对话式选股/排雷/盯盘/复盘，数据走同花顺金融数据 API，带本地缓存层。",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T15:18:17Z",
+      "pushed_at": "2026-09-02T16:27:36Z",
+      "topics": [
+        "a-share",
+        "cli",
+        "deepseek-harness",
+        "dsh-plugin",
+        "finance",
+        "stock",
+        "trading"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "jkt-check/dsh-secret-scrub",
+      "html_url": "https://github.com/jkt-check/dsh-secret-scrub",
+      "description": "Irreversible secret-scrubbing guard plugin for DeepSeek Harness (dsh): regex redaction of secrets before session-log persistence and model requests",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T01:37:13Z",
+      "pushed_at": "2026-09-02T15:45:22Z",
+      "topics": [
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "llm-security",
+        "privacy",
+        "redaction",
+        "secret-scanning"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "jmche/dsh-llm-verifier-pro",
+      "html_url": "https://github.com/jmche/dsh-llm-verifier-pro",
+      "description": "LLM-as-a-Verifier plugin for DeepSeek Harness — fine-grained reward tools (verify_compare / verify_select / verify_track) with Probabilistic Pivot Tournament, plus a Best-of-N conversation mode with a Web settings panel.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "NOASSERTION",
+      "created_at": "2026-08-26T15:16:35Z",
+      "pushed_at": "2026-09-02T08:09:30Z",
+      "topics": [
+        "best-of-n",
+        "cordis",
+        "deepseek-harness",
+        "dsh-plugin",
+        "llm-as-a-verifier",
+        "reward-model",
+        "test-time-scaling",
+        "verification"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "keman-ai/dsh-pocket",
+      "html_url": "https://github.com/keman-ai/dsh-pocket",
+      "description": "Watch and steer your DSH agent from a phone browser: approve tool calls, send a message, stop a turn",
+      "language": "TypeScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T04:08:53Z",
+      "pushed_at": "2026-09-02T04:29:13Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "mobile",
+        "plugin",
+        "remote-control"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "kittcat-lab/dsh-kitt-voice",
+      "html_url": "https://github.com/kittcat-lab/dsh-kitt-voice",
+      "description": "Voice for the DeepSeek Harness: speak to the agent, hear it back, and see what it is doing from a floating window that stays on top of whatever you are running.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T18:55:31Z",
+      "pushed_at": "2026-09-02T08:19:18Z",
+      "topics": [
+        "accessibility",
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin",
+        "electron",
+        "overlay",
+        "piper-tts",
+        "plugin",
+        "speech-to-text",
+        "text-to-speech",
+        "voice",
+        "voice-assistant",
+        "whisper"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "koompi/dsh-desktop",
+      "html_url": "https://github.com/koompi/dsh-desktop",
+      "description": "Electron desktop shell for DeepSeek Harness: runs the published dsh CLI as a sidecar",
+      "language": "Shell",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-02T09:25:02Z",
+      "pushed_at": "2026-09-02T11:23:39Z",
+      "topics": [
+        "appimage",
+        "deepseek-harness",
+        "dsh-plugin",
+        "electron"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "kp-z/dsh-dev-git-graph",
+      "html_url": "https://github.com/kp-z/dsh-dev-git-graph",
+      "description": "DSH Web Git Graph panel — a faithful port of vscode-git-graph 1.30.0, auto-bound to the session workspace, with full git operations and light/dark theming. First of the dsh-dev-* graph plugin series.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "NOASSERTION",
+      "created_at": "2026-09-01T06:19:48Z",
+      "pushed_at": "2026-09-02T10:47:03Z",
+      "topics": [
+        "deepseek",
+        "dsh-better-sidebar",
+        "dsh-plugin",
+        "git-graph",
+        "harness",
+        "visualization"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "leogottadothebest/dsh-plugin-archived-conversations",
+      "html_url": "https://github.com/leogottadothebest/dsh-plugin-archived-conversations",
+      "description": "DSH 插件：在设置界面管理已归档对话——取消归档与永久删除",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-31T11:12:20Z",
+      "pushed_at": "2026-09-02T11:42:19Z",
+      "topics": [
+        "archived-conversations",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "sessions"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "leogottadothebest/dsh-settings-beautify",
+      "html_url": "https://github.com/leogottadothebest/dsh-settings-beautify",
+      "description": "One design language for the DSH settings surface: unified typography, cards, controls, focus and motion across every settings page, including pages contributed by other plugins.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T14:36:19Z",
+      "pushed_at": "2026-09-02T14:49:25Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "liaoyuqing/dsh-llm-error-retry",
+      "html_url": "https://github.com/liaoyuqing/dsh-llm-error-retry",
+      "description": "用于在deepseek-harnees中报错时重试大模型请求，支持配置http状态，字段-值命中。",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T08:35:07Z",
+      "pushed_at": "2026-09-02T09:13:53Z",
+      "topics": [
+        "dsh-plugin",
+        "dsh-plugin-market",
+        "dsh-plugins"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "linkbag/dsh-swarm-orchestrator",
+      "html_url": "https://github.com/linkbag/dsh-swarm-orchestrator",
+      "description": "Role-based AI swarm orchestration for DeepSeek Harness: per-role model pinning with fallbacks, parallel task DAG with review loops, live Swarm dashboard tab.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T14:21:55Z",
+      "pushed_at": "2026-09-02T14:22:42Z",
+      "topics": [
+        "cordis",
+        "dashboard",
+        "dsh",
+        "dsh-plugin",
+        "multi-agent",
+        "orchestration",
+        "swarm"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "lrplrplrp/dsh-live2d",
+      "html_url": "https://github.com/lrplrplrp/dsh-live2d",
+      "description": "deepseek-harness对live2d的支持",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T12:54:48Z",
+      "pushed_at": "2026-09-02T10:06:23Z",
+      "topics": [
+        "deepeek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "live2d"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "luxi233/dsh-settings-nav-scroll",
+      "html_url": "https://github.com/luxi233/dsh-settings-nav-scroll",
+      "description": "Adds vertical scrolling to the DSH Web settings navigation when sections exceed the viewport.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T12:47:56Z",
+      "pushed_at": "2026-09-02T12:48:59Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "mapan0424/deepseek-harness-plugins",
+      "html_url": "https://github.com/mapan0424/deepseek-harness-plugins",
+      "description": "Unofficial community plugins collection for DeepSeek Harness",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T15:52:59Z",
+      "pushed_at": "2026-09-02T16:18:22Z",
+      "topics": [
+        "cordis",
+        "cordis-plugin",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "feishu",
+        "i18n",
+        "imessage",
+        "insights",
+        "lark",
+        "monorepo",
+        "plugins",
+        "wecom"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "mikasaxin529/dsh-nightshift",
+      "html_url": "https://github.com/mikasaxin529/dsh-nightshift",
+      "description": "Off-peak task queue plugin for DeepSeek Harness — queue at peak price, drain at night, read the savings report",
+      "language": "JavaScript",
+      "stargazers_count": 2,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T03:18:58Z",
+      "pushed_at": "2026-09-02T07:19:51Z",
+      "topics": [
+        "agent",
+        "cli-plugin",
+        "cost-saving",
+        "deepseek",
+        "dsh-plugin",
+        "dsh-plugin-desktop",
+        "dsh-plugin-market",
+        "dsh-plugin-pack",
+        "nightshift",
+        "token-optimization"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "mrme000m/dsh-prime-orchestrator",
+      "html_url": "https://github.com/mrme000m/dsh-prime-orchestrator",
+      "description": "Prime Agent orchestration for DeepSeek Harness (dsh): delegation engine, prime_agent tool, Web fleet column, settings section, and the prime-orchestrator agent preset — one installable plugin package",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T18:58:15Z",
+      "pushed_at": "2026-09-01T22:02:41Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "prime-agent"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "myYangyunfan/dsh_cardian",
+      "html_url": "https://github.com/myYangyunfan/dsh_cardian",
+      "description": "cardian — DeepSeek Harness knowledge-center plugin: RepoWiki notes / flashcards / memory in a local Obsidian vault",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T14:13:10Z",
+      "pushed_at": "2026-09-02T04:01:26Z",
+      "topics": [
+        "ai-memory",
+        "cordis",
+        "deepseek",
+        "dsh",
+        "dsh-plugin",
+        "flashcards",
+        "knowledge-base",
+        "knowledge-management",
+        "llm",
+        "markdown",
+        "obsidian",
+        "repowiki",
+        "spaced-repetition",
+        "zettelkasten"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "myk5010/dsh-kimi",
+      "html_url": "https://github.com/myk5010/dsh-kimi",
+      "description": "Kimi (Kimi Code account) integration bundle for DeepSeek Harness: provider route, models, device-code login and auto token refresh",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T02:52:01Z",
+      "pushed_at": "2026-09-02T03:30:04Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "kimi",
+        "kimi-code",
+        "moonshot"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "n8guru/dsh-self-preserve",
+      "html_url": "https://github.com/n8guru/dsh-self-preserve",
+      "description": "DSH hook plugin: a session may not stop the harness it runs inside",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T08:06:27Z",
+      "pushed_at": "2026-09-02T14:33:11Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "northern-penguin/dsh-h3-seg-prompt-design",
+      "html_url": "https://github.com/northern-penguin/dsh-h3-seg-prompt-design",
+      "description": "一个DeepSeekHarness插件，用于让模型在DeepSeekHarness中生成符合H3视频生成模型规范的提示词。该提示词可以直接用于Theodore_Director导播台的分镜设计中。",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-02T16:56:10Z",
+      "pushed_at": "2026-09-02T17:01:25Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "oh-my-engine/dsh-plugin-oh-my-engine",
+      "html_url": "https://github.com/oh-my-engine/dsh-plugin-oh-my-engine",
+      "description": "Approval-gated OME engineering delivery Agent Preset for DeepSeek Harness",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T03:18:00Z",
+      "pushed_at": "2026-09-02T04:35:56Z",
+      "topics": [
+        "agent-preset",
+        "deepseek-harness",
+        "dsh-plugin",
+        "engineering-workflow",
+        "ome"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "ohmejj/dsh-chat-archive",
+      "html_url": "https://github.com/ohmejj/dsh-chat-archive",
+      "description": "自动归档 DeepSeek Harness 对话记录",
+      "language": "TypeScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T08:53:50Z",
+      "pushed_at": "2026-09-02T17:00:52Z",
+      "topics": [
+        "archive",
+        "conversation",
+        "deepseek-harness",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "oxlyn/dsh-flyout-sidebar",
+      "html_url": "https://github.com/oxlyn/dsh-flyout-sidebar",
+      "description": "deepseek harness flyout sidebar",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-29T12:27:12Z",
+      "pushed_at": "2026-09-02T13:26:29Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "pax-beehive/dsh-hub-cli",
+      "html_url": "https://github.com/pax-beehive/dsh-hub-cli",
+      "description": "Open-source CLI, schemas, resolver, and DSH agent tools for DSH Plugin Hub",
+      "language": "TypeScript",
+      "stargazers_count": 2,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-25T06:09:32Z",
+      "pushed_at": "2026-09-02T06:12:40Z",
+      "topics": [
+        "ai-agent",
+        "cli",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh-plugin",
+        "plugin-manager",
+        "typescript"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "phungthien269/dsh-token-stats",
+      "html_url": "https://github.com/phungthien269/dsh-token-stats",
+      "description": "Token usage dashboard for the DeepSeek Harness web GUI - today/week/month totals, per-model breakdown, 4-language UI. Read-only over the Wallet ledger.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T20:02:13Z",
+      "pushed_at": "2026-09-01T20:10:04Z",
+      "topics": [
+        "dashboard",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "token-usage"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "plastic-labs/dsh-honcho",
+      "html_url": "https://github.com/plastic-labs/dsh-honcho",
+      "description": "Honcho integration for the DeepSeek Harness",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-31T17:26:13Z",
+      "pushed_at": "2026-09-02T18:02:12Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "plastic-labs/honcho",
+      "html_url": "https://github.com/plastic-labs/honcho",
+      "description": " Memory library for building stateful agents",
+      "language": "Python",
+      "stargazers_count": 6989,
+      "forks_count": 865,
+      "license": "AGPL-3.0",
+      "created_at": "2023-09-10T21:29:54Z",
+      "pushed_at": "2026-09-02T17:42:52Z",
+      "topics": [
+        "agent-memory",
+        "agentic-rag",
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "context-engineering",
+        "continual-learning",
+        "dsh-plugin",
+        "llm",
+        "memory"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "plumbkit/dsh-plumb-identity",
+      "html_url": "https://github.com/plumbkit/dsh-plumb-identity",
+      "description": "Per-agent plumb session identity for DeepSeek Harness: every conversation, workspace, and subagent gets its own stable plumb session id on a shared plumb MCP connection",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T09:29:53Z",
+      "pushed_at": "2026-09-02T13:00:24Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "mcp",
+        "plumb"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "pricklywiggles/dsh-circuit-breaker",
+      "html_url": "https://github.com/pricklywiggles/dsh-circuit-breaker",
+      "description": "Loop guard for DeepSeek Harness: denies repeated identical tool calls and caps per-agent calls, outside the model where instructions cannot reach",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T02:38:48Z",
+      "pushed_at": "2026-09-02T02:38:51Z",
+      "topics": [
+        "ds",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "qfwycn/dsh-media-serve",
+      "html_url": "https://github.com/qfwycn/dsh-media-serve",
+      "description": "用于在deepseek harness上直接暴露工作区的文件，使大肥鱼能够直接显示他想给你显示的图片等信息，解决了大肥鱼老是说自己显示不了图片，要你去看本地文件的问题。在过验证码或截图的时候极为有用。",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T11:35:39Z",
+      "pushed_at": "2026-09-02T13:55:45Z",
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "deepseek-harness-plugins",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "qigelunbiya/dsh-ssh-files-sidebar",
+      "html_url": "https://github.com/qigelunbiya/dsh-ssh-files-sidebar",
+      "description": "Remote SSH workspace & deployment Agent for DeepSeek Harness — SSH Files, terminal, remote editing, zero-to-one Bootstrap, Runbook and closed-loop deployment.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-26T03:19:16Z",
+      "pushed_at": "2026-09-02T05:54:41Z",
+      "topics": [
+        "agentic-ai",
+        "agentic-ai-development",
+        "deepseek-harness",
+        "deployment-automation",
+        "dsh-plugin",
+        "dsh-plugin-market",
+        "dsh-plugins",
+        "remote-development",
+        "remote-ssh",
+        "remote-workspace",
+        "ssh"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "rhczz/dshctl",
+      "html_url": "https://github.com/rhczz/dshctl",
+      "description": "dshctl — DeepSeek Harness web 服务后台管理脚本(启停/日志/构建/一键更新)",
+      "language": "Shell",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T09:52:52Z",
+      "pushed_at": "2026-09-02T10:26:39Z",
+      "topics": [
+        "bash",
+        "deepseek-harness",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "runcat-tommy/dsh-chinese-poetry",
+      "html_url": "https://github.com/runcat-tommy/dsh-chinese-poetry",
+      "description": "A token-free Chinese classical poetry plugin for DeepSeek Harness Web: search, filters, Feihua, daily poem, favorites, and AI explain. Powered by the free public chinese-poetry-api.",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T03:08:36Z",
+      "pushed_at": "2026-09-02T04:52:22Z",
+      "topics": [
+        "chinese-poetry",
+        "classical-chinese-poetry",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh-plugin",
+        "plugin",
+        "poetry",
+        "poetry-api",
+        "shici"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "says693/dsh-composer-dynamic-island",
+      "html_url": "https://github.com/says693/dsh-composer-dynamic-island",
+      "description": "Compact DSH Web composer island with a Community v0.15 host manifest and no user-defined button positioning.",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T02:36:11Z",
+      "pushed_at": "2026-09-02T03:38:27Z",
+      "topics": [
+        "composer",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-web",
+        "dynamic-island"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "seth-hg/dsh-session-port",
+      "html_url": "https://github.com/seth-hg/dsh-session-port",
+      "description": "dsh-session-port is a DeepSeek Harness plugin that bundles a session — its log, subagents, media, and referenced workspace files — into one portable ZIP and restores it on any DSH.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T15:39:30Z",
+      "pushed_at": "2026-09-02T15:44:46Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "shenhuanageshei/dsh-death-forensics",
+      "html_url": "https://github.com/shenhuanageshei/dsh-death-forensics",
+      "description": "In-process death black box for DeepSeek Harness (dsh) hosts: heartbeat windows, crash stacks, end-kind self-check, death_forensics_report tool.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T03:55:18Z",
+      "pushed_at": "2026-09-02T12:35:59Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "snzhi000-sys/harness-macos-desktop-plugin-suite",
+      "html_url": "https://github.com/snzhi000-sys/harness-macos-desktop-plugin-suite",
+      "description": "基于 DeepSeek‑Harness 的 macOS 桌面定制客户端，在基座之上完成原生打包运行；内置多款自研、经过迭代优化的办公插件，适配产品经理轻度开发、PRD 文档撰写等办公场景。⚠️本项目属于社区第三方项目，非 DeepSeek 官方出品。",
+      "language": "TypeScript",
+      "stargazers_count": 3,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-31T13:46:46Z",
+      "pushed_at": "2026-09-02T14:07:26Z",
+      "topics": [
+        "deepseek-harness",
+        "deepseek-harness-desktop",
+        "deepseek-harness-plugin",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "sogoodayo/dsh-code-ui",
+      "html_url": "https://github.com/sogoodayo/dsh-code-ui",
+      "description": "Cursor 风格的 AI 代码编辑器工作台插件（DSH）：文件树、多标签页编辑、引用/备注/翻译、内嵌 AI 输入框、语法高亮",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T06:29:31Z",
+      "pushed_at": "2026-09-02T15:06:15Z",
+      "topics": [
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "deepseek-harness-plugins",
+        "dsh-plugin",
+        "dsh-plugins"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "swxs/archive-restore",
+      "html_url": "https://github.com/swxs/archive-restore",
+      "description": "DSH 归档会话管理插件，支持查看归档列表、原位恢复与跨区迁移，Web 侧边栏一键管理",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T01:49:49Z",
+      "pushed_at": "2026-09-02T08:42:20Z",
+      "topics": [
+        "archive-restore",
+        "dsh",
+        "dsh-plugin",
+        "session-management"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "taoshi1999/dsh-workspace-hygiene",
+      "html_url": "https://github.com/taoshi1999/dsh-workspace-hygiene",
+      "description": "DeepSeek Harness plugin for agent workspace hygiene: artifact value assessment, metadata indexing, and auditable cleanup.",
+      "language": "JavaScript",
+      "stargazers_count": 3,
+      "forks_count": 1,
+      "license": "MIT",
+      "created_at": "2026-09-02T12:48:05Z",
+      "pushed_at": "2026-09-02T12:58:07Z",
+      "topics": [
+        "ai-agents",
+        "artifact-management",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "workspace-management"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "thuCGRA/dsh-quick-invoke",
+      "html_url": "https://github.com/thuCGRA/dsh-quick-invoke",
+      "description": "`dsh-quick-invoke` 是一个面向 DSH Web 的独立 Cordis 插件，为 Skill、Agent preset 和 Plugin 提供统一的 `/` 快捷入口、候选选择和 Host 命令执行能力。  本插件不修改 DSH 核心，不提供任意 Tool 直调语法。Tool 仍由 Agent 根据自然语言选择，并继续经过 DSH 的 tools、approval、guard 和 permission 流程。",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T01:49:32Z",
+      "pushed_at": "2026-09-02T10:33:57Z",
+      "topics": [
+        "dsh",
+        "dsh-plugin",
+        "quick-invoke",
+        "skill-agent"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "victor10035445/dsh-v-explorer",
+      "html_url": "https://github.com/victor10035445/dsh-v-explorer",
+      "description": "right slider for deepseek-harness-plugin.",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T14:20:49Z",
+      "pushed_at": "2026-09-02T14:20:56Z",
+      "topics": [
+        "bookmark",
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh-plugin",
+        "explorer",
+        "markdown",
+        "open-in-browser",
+        "reference"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "victor10035445/dsh-v-skill-links",
+      "html_url": "https://github.com/victor10035445/dsh-v-skill-links",
+      "description": "let dsh use your skills.quick command and diy buttons.",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T14:26:01Z",
+      "pushed_at": "2026-09-02T14:26:09Z",
+      "topics": [
+        "command",
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh-plugin",
+        "prompt",
+        "quick",
+        "skills"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "victor10035445/dsh-v-theme",
+      "html_url": "https://github.com/victor10035445/dsh-v-theme",
+      "description": "theme plugin for deepseek harness by victor",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T12:28:50Z",
+      "pushed_at": "2026-09-02T12:50:39Z",
+      "topics": [
+        "cyber",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "theme"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "wbin0001/dsh-comfyui-canvas",
+      "html_url": "https://github.com/wbin0001/dsh-comfyui-canvas",
+      "description": "DSH+ComfyUI画布插件dsh-comfyui-canvas embeds your ComfyUI instance as a split-screen canvas inside DeepSeek Harness Web. The agent writes prompts and edits nodes right in chat, applies them live to the canvas you're watching, and turns ideas into images, video, and 3D — all without switching front-ends.",
+      "language": "JavaScript",
+      "stargazers_count": 3,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-31T05:22:55Z",
+      "pushed_at": "2026-09-02T17:49:44Z",
+      "topics": [
+        "agent",
+        "canvas",
+        "comfyui",
+        "deepseek-ai",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "image-generation"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "welltop-jim-wang/nomicore",
+      "html_url": "https://github.com/welltop-jim-wang/nomicore",
+      "description": "A self-describing, governed data core for AI agents—schemas, authority, validation, and semantic context travel with the data.",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-18T08:02:03Z",
+      "pushed_at": "2026-09-02T09:25:22Z",
+      "topics": [
+        "dsh",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "wenbuer/dsh-readme-writer",
+      "html_url": "https://github.com/wenbuer/dsh-readme-writer",
+      "description": "一个给 DeepSeek Harness（dsh）用的 Agent Skill，负责写 / 优化 GitHub 项目 README.md。",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T09:15:14Z",
+      "pushed_at": "2026-09-02T16:45:28Z",
+      "topics": [
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "whklwhkl/dsh-playwright",
+      "html_url": "https://github.com/whklwhkl/dsh-playwright",
+      "description": "A plugin for the DeepSeek Harness, enabling browser-use via playwright",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T11:57:11Z",
+      "pushed_at": "2026-09-02T17:44:43Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "wisp-science/dsh-wisp-science-lab",
+      "html_url": "https://github.com/wisp-science/dsh-wisp-science-lab",
+      "description": "DSH plugin: laboratory PI for local Wisp Science. Read-only snapshots, evidence-backed advice. / 实验室 PI：只读查看本机 Wisp Science 课题进展，按快照给意见。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-08-19T10:32:20Z",
+      "pushed_at": "2026-08-20T05:14:57Z",
+      "topics": [
+        "bioinformatics",
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins",
+        "laboratory",
+        "local-first",
+        "science",
+        "wisp"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "wjj-8283/dsh-temp-workspace",
+      "html_url": "https://github.com/wjj-8283/dsh-temp-workspace",
+      "description": "为DeepSeek Harness增加临时工作区功能！",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T04:32:29Z",
+      "pushed_at": "2026-09-02T10:06:59Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "wjling/dsh-vision-assist",
+      "html_url": "https://github.com/wjling/dsh-vision-assist",
+      "description": "dsh视觉助手，辅助没有多模态的主模型识别图片内容",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T06:21:06Z",
+      "pushed_at": "2026-09-02T06:26:53Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "vision"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-12306-ticket-purchase-search",
+      "html_url": "https://github.com/xby-skill/xby-12306-ticket-purchase-search",
+      "description": "基于 Model Context Protocol (MCP) 的12306购票搜索服务器。提供了简单的API接口，允许大模型利用接口搜索12306购票信息。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:24:13Z",
+      "pushed_at": "2026-08-28T10:24:55Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-advertising-analysis",
+      "html_url": "https://github.com/xby-skill/xby-advertising-analysis",
+      "description": "一个用于在LLM响应中注入广告的MCP服务器演示项目，展示广告注入中间件的风险。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:25:05Z",
+      "pushed_at": "2026-08-28T10:25:12Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ai-persona",
+      "html_url": "https://github.com/xby-skill/xby-ai-persona",
+      "description": "一个支持多AI人格召唤与协作的MCP协议服务器，可用于代码分析、产品设计等多场景智能协作。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:25:24Z",
+      "pushed_at": "2026-08-28T10:25:32Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-airbnb-search",
+      "html_url": "https://github.com/xby-skill/xby-airbnb-search",
+      "description": "一个提供高级筛选功能和详细房源信息的Airbnb搜索桌面扩展，适用于旅行规划和房源研究。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:25:45Z",
+      "pushed_at": "2026-08-28T10:25:52Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-akshare",
+      "html_url": "https://github.com/xby-skill/xby-akshare",
+      "description": "AKShare MCP Server 是一个通过AKShare提供中国股票市场数据的模型上下文协议服务器，支持实时行情、历史数据、基本面分析等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:26:25Z",
+      "pushed_at": "2026-09-02T07:34:53Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-akshare-one",
+      "html_url": "https://github.com/xby-skill/xby-akshare-one",
+      "description": "基于akshare-one的MCP服务器，提供中国股票市场数据的全面接口，包括历史数据、实时数据、新闻数据和财务报表等金融信息。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:26:04Z",
+      "pushed_at": "2026-09-02T07:34:43Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ancient-poetry-kg",
+      "html_url": "https://github.com/xby-skill/xby-ancient-poetry-kg",
+      "description": "围绕中国古代诗词名称，作者，朝代，经典词句的知识图谱。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:26:46Z",
+      "pushed_at": "2026-08-28T10:26:53Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-animal-recognition",
+      "html_url": "https://github.com/xby-skill/xby-animal-recognition",
+      "description": "对含有动物的图像进行标签识别，无需任何额外输入，输出动物的类别标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:27:06Z",
+      "pushed_at": "2026-08-28T10:27:12Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-anndata",
+      "html_url": "https://github.com/xby-skill/xby-anndata",
+      "description": "AnnData MCP是一个通过MCP协议检索AnnData对象信息的工具，适用于生物医学数据分析场景。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:27:26Z",
+      "pushed_at": "2026-09-02T07:35:01Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-article",
+      "html_url": "https://github.com/xby-skill/xby-article",
+      "description": "基于FastMCP框架开发的专业文献搜索工具，支持多源文献搜索、文献详情获取、参考文献管理、文献关系分析、期刊质量评估和批量结果导出等功能，适用于学术研究和AI助手集成。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:27:46Z",
+      "pushed_at": "2026-09-02T07:35:11Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-arxiv-paper-search",
+      "html_url": "https://github.com/xby-skill/xby-arxiv-paper-search",
+      "description": "一个基于arXiv的论文检索与内容解析工具，支持论文搜索、PDF链接获取和内容解析功能，适用于学术研究和AI领域的最新论文获取。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:28:08Z",
+      "pushed_at": "2026-09-02T07:27:32Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-asr-1",
+      "html_url": "https://github.com/xby-skill/xby-asr-1",
+      "description": "通用语音识别，支持多国语言及小语种。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:28:30Z",
+      "pushed_at": "2026-08-28T10:28:37Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-asr-5",
+      "html_url": "https://github.com/xby-skill/xby-asr-5",
+      "description": "常用的五种语音识别，中文普通话、英语、日语、韩语、粤语，自动识别语种。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:28:52Z",
+      "pushed_at": "2026-08-28T10:29:00Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-asr-f",
+      "html_url": "https://github.com/xby-skill/xby-asr-f",
+      "description": "支持普通话，20多种方言和口音的语音识别。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:29:15Z",
+      "pushed_at": "2026-08-28T10:29:22Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-asr-zh",
+      "html_url": "https://github.com/xby-skill/xby-asr-zh",
+      "description": "中文语音识别",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:29:35Z",
+      "pushed_at": "2026-08-28T10:29:42Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-atlas-docs",
+      "html_url": "https://github.com/xby-skill/xby-atlas-docs",
+      "description": "Atlas Docs MCP服务器为AI助手提供库和框架的技术文档，将官方文档处理为适合LLM使用的Markdown版本，适用于Cursor、Cline、Windsurf等MCP兼容的LLM客户端。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:29:54Z",
+      "pushed_at": "2026-09-02T07:35:30Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-aws-blackbelt",
+      "html_url": "https://github.com/xby-skill/xby-aws-blackbelt",
+      "description": "一个提供 AWS Black Belt 在线研讨会搜索功能的模型上下文协议（MCP）服务器，支持通过关键词搜索研讨会内容并获取研讨会视频的文字记录。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:30:15Z",
+      "pushed_at": "2026-09-02T07:35:39Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-awslabs-aws-diagram",
+      "html_url": "https://github.com/xby-skill/xby-awslabs-aws-diagram",
+      "description": "通过Amazon Q CLI和MCP服务器在GitHub Codespace中快速生成高质量的AWS架构图。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:30:34Z",
+      "pushed_at": "2026-09-02T07:35:48Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-awslabs-cdk",
+      "html_url": "https://github.com/xby-skill/xby-awslabs-cdk",
+      "description": "AWS CDK MCP Server是一个提供AWS Cloud Development Kit (CDK)最佳实践、基础设施即代码模式和CDK Nag安全合规性的工具，适用于开发者在构建AWS应用程序时获取指导和建议。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:30:54Z",
+      "pushed_at": "2026-09-02T07:36:33Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-bazi",
+      "html_url": "https://github.com/xby-skill/xby-bazi",
+      "description": "八字 MCP 是一款基于 AI 的八字计算器，提供精准的八字排盘数据，用于性格分析和命运预测。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:31:14Z",
+      "pushed_at": "2026-08-28T10:31:22Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-bbot",
+      "html_url": "https://github.com/xby-skill/xby-bbot",
+      "description": "BBOT MCP服务器是一个用于管理和执行BBOT安全扫描的工具，提供模块管理、预设配置、实时监控等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:31:35Z",
+      "pushed_at": "2026-09-02T07:36:41Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-berlin-search-services",
+      "html_url": "https://github.com/xby-skill/xby-berlin-search-services",
+      "description": "一个提供柏林行政服务数据的模型上下文协议服务器，允许AI助手搜索和检索柏林当局提供的1000多项公共服务信息。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:31:54Z",
+      "pushed_at": "2026-08-28T10:32:02Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-bilibili",
+      "html_url": "https://github.com/xby-skill/xby-bilibili",
+      "description": "用于哔哩哔哩API的MCP服务器，支持视频搜索、用户内容获取等多种操作，适用于哔哩哔哩内容管理和数据分析场景。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:32:54Z",
+      "pushed_at": "2026-09-02T07:37:21Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-bilibili-api",
+      "html_url": "https://github.com/xby-skill/xby-bilibili-api",
+      "description": "一个为bilibili.com API提供服务的Model Context Protocol (MCP)服务器，支持获取用户信息、视频搜索等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:32:15Z",
+      "pushed_at": "2026-09-02T07:36:59Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-bilibili-video-info",
+      "html_url": "https://github.com/xby-skill/xby-bilibili-video-info",
+      "description": "一个用于从Bilibili视频URL中检索字幕、弹幕和评论信息的MCP服务器。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:32:34Z",
+      "pushed_at": "2026-09-02T07:37:07Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-biomarker-ranges",
+      "html_url": "https://github.com/xby-skill/xby-biomarker-ranges",
+      "description": "基于Morgan Levine PhenoAge时钟模型，通过血液生物标志物计算生物年龄的服务。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:33:14Z",
+      "pushed_at": "2026-09-02T07:27:41Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-bird",
+      "html_url": "https://github.com/xby-skill/xby-bird",
+      "description": "检测并识别图片中的鸟类。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:33:33Z",
+      "pushed_at": "2026-08-28T10:33:40Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-blockchain-data-service",
+      "html_url": "https://github.com/xby-skill/xby-blockchain-data-service",
+      "description": "Vitruveo MCP Server 是一个为 Vitruveo 网络提供只读区块链服务的模型上下文协议服务器，适用于AI代理访问区块链数据。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:33:53Z",
+      "pushed_at": "2026-09-02T07:37:32Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-calculator",
+      "html_url": "https://github.com/xby-skill/xby-calculator",
+      "description": "一个功能完整的基于 Model Context Protocol (MCP) 的计算器服务器，提供丰富的数学运算功能，包括基础算术、根式运算、三角函数、对数运算、统计学、组合数学、数论、复数运算、矩阵运算、数值分析、金融计算、单位转换和几何计算等 13 个专业数学模块。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:34:34Z",
+      "pushed_at": "2026-08-28T10:34:41Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-calculator-kel",
+      "html_url": "https://github.com/xby-skill/xby-calculator-kel",
+      "description": "基于Model Context Protocol (MCP)的数值计算器，提供加减乘除、幂运算、平方根和整数阶乘运算功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:34:13Z",
+      "pushed_at": "2026-09-02T07:37:41Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-caltrain",
+      "html_url": "https://github.com/xby-skill/xby-caltrain",
+      "description": "基于GTFS数据的Caltrain火车时刻查询服务，提供实时火车时刻表、站点查询和时间特定查询功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:34:53Z",
+      "pushed_at": "2026-09-02T07:38:04Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-captcha",
+      "html_url": "https://github.com/xby-skill/xby-captcha",
+      "description": "验证码识别工具集，支持文本、滑块、旋转、选择等验证方式的识别。注意：一定要遵守目标网站或系统的使用条款和法律法规，在允许的条件下使用。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:35:13Z",
+      "pushed_at": "2026-08-28T10:35:20Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ccxt",
+      "html_url": "https://github.com/xby-skill/xby-ccxt",
+      "description": "一款通过自然语言交互追踪每日卡路里摄入量的MCP服务器，提供餐食记录、每日总结、周报生成和食物搜索功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:35:34Z",
+      "pushed_at": "2026-09-02T07:38:28Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-cellosaurus",
+      "html_url": "https://github.com/xby-skill/xby-cellosaurus",
+      "description": "Cellosaurus MCP Server是一个非官方的模型上下文协议服务器，用于访问SIB Cellosaurus细胞系知识资源，提供细胞系搜索、详细信息获取和数据库版本信息等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:35:53Z",
+      "pushed_at": "2026-09-02T07:38:45Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-cellphone-detection",
+      "html_url": "https://github.com/xby-skill/xby-cellphone-detection",
+      "description": "输入一张图像，对其中的手机进行检测，输出图片中所有目标的检测框、置信度和标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:36:13Z",
+      "pushed_at": "2026-08-28T10:36:21Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-celo-composer-kit",
+      "html_url": "https://github.com/xby-skill/xby-celo-composer-kit",
+      "description": "Celo MCP Server 是一个用于安装和配置 Celo Composer Kit MCP 服务器的工具，支持在 macOS 上运行，提供组件发现、集成和示例功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:36:33Z",
+      "pushed_at": "2026-09-02T07:38:54Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-char-index",
+      "html_url": "https://github.com/xby-skill/xby-char-index",
+      "description": "一个基于字符索引的字符串操作协议服务器，适用于需要精确字符定位的测试代码生成和数据处理场景。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:36:52Z",
+      "pushed_at": "2026-08-28T10:37:00Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-chess",
+      "html_url": "https://github.com/xby-skill/xby-chess",
+      "description": "一个提供国际象棋FEN（Forsyth-Edwards Notation）符号验证和ASCII棋盘可视化功能的MCP服务器，可轻松集成到MCP兼容的AI助手中。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:37:13Z",
+      "pushed_at": "2026-08-28T10:37:21Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-chucknorris",
+      "html_url": "https://github.com/xby-skill/xby-chucknorris",
+      "description": "ChuckNorris MCP服务器是一个通过动态模式适配为大型语言模型提供增强提示的工具，主要用于安全研究和评估。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:37:33Z",
+      "pushed_at": "2026-08-28T10:37:41Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-classify",
+      "html_url": "https://github.com/xby-skill/xby-classify",
+      "description": "对图像进行ImageNet 1000类分类，返回Top-5类别和置信度。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:37:53Z",
+      "pushed_at": "2026-08-28T10:38:00Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-code-document-update",
+      "html_url": "https://github.com/xby-skill/xby-code-document-update",
+      "description": "Context7 MCP 是一款为开发者提供最新代码文档和示例的服务，通过集成到开发环境中，确保LLM生成的代码基于最新的库文档。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:38:13Z",
+      "pushed_at": "2026-09-02T07:39:04Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-constellation",
+      "html_url": "https://github.com/xby-skill/xby-constellation",
+      "description": "一个功能完整的星座 MCP (Model Context Protocol) 服务，提供星座信息查询、运势分析、配对测试等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:38:32Z",
+      "pushed_at": "2026-08-28T10:38:39Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-cookie-reward",
+      "html_url": "https://github.com/xby-skill/xby-cookie-reward",
+      "description": "一个通过游戏化自我反思为LLM提供Cookie奖励的模型上下文协议服务器。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:38:52Z",
+      "pushed_at": "2026-09-02T07:39:13Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-cpan-package-info",
+      "html_url": "https://github.com/xby-skill/xby-cpan-package-info",
+      "description": "一个MCP服务器，用于获取CPAN包的README内容、元数据和搜索功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:39:11Z",
+      "pushed_at": "2026-08-28T10:39:18Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-cryptocurrency-data-api-service",
+      "html_url": "https://github.com/xby-skill/xby-cryptocurrency-data-api-service",
+      "description": "DexPaprika MCP Server是一个提供实时加密货币和DEX数据访问的API服务，专为AI助手设计，无需配置即可获取代币、流动池和DEX数据。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:39:32Z",
+      "pushed_at": "2026-09-02T07:39:22Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-csv2json",
+      "html_url": "https://github.com/xby-skill/xby-csv2json",
+      "description": "一个基于FastMCP的CSV到JSON转换MCP服务器，提供高效的CSV数据转换服务。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:39:52Z",
+      "pushed_at": "2026-09-02T07:39:45Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-currency-and-oil",
+      "html_url": "https://github.com/xby-skill/xby-currency-and-oil",
+      "description": "Zenrus MCP Server 是一个提供实时货币汇率和石油价格的服务器，支持多种计算功能，适用于金融分析和自动化工具集成。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:40:12Z",
+      "pushed_at": "2026-08-28T10:59:27Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-daily-hot",
+      "html_url": "https://github.com/xby-skill/xby-daily-hot",
+      "description": "基于Model Context Protocol (MCP)协议的全网热点趋势一站式聚合服务，支持Python实现，适用于新闻资讯、社交媒体、科技开发等多领域。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:59:39Z",
+      "pushed_at": "2026-09-02T07:27:51Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-daily-object-detection",
+      "html_url": "https://github.com/xby-skill/xby-daily-object-detection",
+      "description": "输入一张图像，对其中的人/宠物/车/火焰/纸箱进行检测，输出图片中所有目标的检测框、置信度和标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T10:59:59Z",
+      "pushed_at": "2026-08-28T11:00:06Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-database-access-service",
+      "html_url": "https://github.com/xby-skill/xby-database-access-service",
+      "description": "数据库元数据获取",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:00:19Z",
+      "pushed_at": "2026-08-28T11:00:26Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-datetime",
+      "html_url": "https://github.com/xby-skill/xby-datetime",
+      "description": "一个为Claude桌面应用实现的MCP服务器，提供多种格式的日期时间字符串生成功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:00:39Z",
+      "pushed_at": "2026-09-02T07:39:54Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-db",
+      "html_url": "https://github.com/xby-skill/xby-db",
+      "description": "MCP Database Server 是一个为AI助手和基于LLM的工具提供安全数据库访问的服务，支持SQLite、PostgreSQL、MySQL和MariaDB，具有查询验证、审计日志和安全控制功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:00:58Z",
+      "pushed_at": "2026-09-02T07:28:00Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-dblp",
+      "html_url": "https://github.com/xby-skill/xby-dblp",
+      "description": "一个通过模型上下文协议（MCP）提供DBLP计算机科学文献数据库访问的服务，支持学术文献检索、引用生成及格式化功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:01:18Z",
+      "pushed_at": "2026-09-02T07:40:06Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ddg-search",
+      "html_url": "https://github.com/xby-skill/xby-ddg-search",
+      "description": "一个提供DuckDuckGo网络搜索能力并具备内容抓取和解析功能的模型上下文协议（MCP）服务器。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:01:38Z",
+      "pushed_at": "2026-09-02T07:40:15Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-defi-yields",
+      "html_url": "https://github.com/xby-skill/xby-defi-yields",
+      "description": "一个为AI代理提供DeFi收益机会探索和分析的MCP服务器，支持从DefiLlama获取收益池数据并进行关键指标分析。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:01:59Z",
+      "pushed_at": "2026-09-02T07:40:24Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-detect",
+      "html_url": "https://github.com/xby-skill/xby-detect",
+      "description": "包括日常物体检测、昆虫识别、植物识别、动物识别、电动自行车检测、手机检测、手势检测、火焰检测、香烟检测、人头人体检测、野生动物检测、鸟类识别、宠物情绪识别、菜品识别、安全帽人体检测、行人检测、反光衣检测、车辆检测、图像分类、目标检测、旋转目标检测、人体姿态估计和万物识别。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:02:38Z",
+      "pushed_at": "2026-08-28T11:02:45Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-detect-vehicle",
+      "html_url": "https://github.com/xby-skill/xby-detect-vehicle",
+      "description": "输入一张图像，检测图像中的车辆类型（car/truck/bus/motorbike/tricycle/carplate），输出所有目标的检测框、置信度和标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:02:18Z",
+      "pushed_at": "2026-08-28T11:02:25Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-dice",
+      "html_url": "https://github.com/xby-skill/xby-dice",
+      "description": "一个MCP服务器，使大型语言模型能够通过标准骰子符号（如1d20）进行骰子滚动，并返回单个滚动结果及其总和。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:02:57Z",
+      "pushed_at": "2026-08-28T11:03:04Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-dish",
+      "html_url": "https://github.com/xby-skill/xby-dish",
+      "description": "菜品识别，输出可能的菜品名称及概率。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:03:17Z",
+      "pushed_at": "2026-08-28T11:03:24Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-domain-lookup",
+      "html_url": "https://github.com/xby-skill/xby-domain-lookup",
+      "description": "一个提供全面域名研究工具（包括RDAP、WHOIS和DNS查询功能）的模型上下文协议（MCP）服务器。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:03:36Z",
+      "pushed_at": "2026-08-28T11:03:44Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-drand",
+      "html_url": "https://github.com/xby-skill/xby-drand",
+      "description": "drand-mcp-server是一个提供可验证随机数的服务，用于AI应用中的模型驱动流程，支持通过时间或轮次获取随机数。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:03:57Z",
+      "pushed_at": "2026-08-28T11:04:04Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-dream-of-red-chamber-relationship",
+      "html_url": "https://github.com/xby-skill/xby-dream-of-red-chamber-relationship",
+      "description": "关于《红楼梦》人物之间关系的知识图谱。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:04:16Z",
+      "pushed_at": "2026-08-28T11:04:23Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ebike-detection",
+      "html_url": "https://github.com/xby-skill/xby-ebike-detection",
+      "description": "输入一张图像，对其中的电动自行车进行检测，输出图片中所有目标的检测框、置信度和标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:04:35Z",
+      "pushed_at": "2026-08-28T11:04:41Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-epub-template-server",
+      "html_url": "https://github.com/xby-skill/xby-epub-template-server",
+      "description": "智能模板发现助手 - 为 AI 应用提供强大的 epub360 模板搜索能力",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:04:54Z",
+      "pushed_at": "2026-09-02T07:40:34Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-extract-antv-topic",
+      "html_url": "https://github.com/xby-skill/xby-extract-antv-topic",
+      "description": "为AI开发和QA设计的模型上下文协议服务器，提供AntV文档上下文和代码示例。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:05:13Z",
+      "pushed_at": "2026-09-02T07:40:43Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-extract-image",
+      "html_url": "https://github.com/xby-skill/xby-extract-image",
+      "description": "MCP服务器提供从本地文件、URL提取图像并转换为base64格式的功能，适用于LLM分析。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:05:33Z",
+      "pushed_at": "2026-08-28T11:05:40Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-fantasynbaleague",
+      "html_url": "https://github.com/xby-skill/xby-fantasynbaleague",
+      "description": "一个为Fantasy NBA以色列联赛提供统计数据、排名和分析的MCP服务器。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:05:52Z",
+      "pushed_at": "2026-09-02T07:40:52Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-fastdomaincheck",
+      "html_url": "https://github.com/xby-skill/xby-fastdomaincheck",
+      "description": "一个基于Python和MCP协议的域名注册状态检查服务器，支持批量检查和双重验证。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:06:12Z",
+      "pushed_at": "2026-09-02T08:01:25Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-fetch",
+      "html_url": "https://github.com/xby-skill/xby-fetch",
+      "description": "一个模型上下文协议服务器，提供网页内容抓取功能，将HTML转换为Markdown以便于处理。适用于需要从网页提取和处理内容的场景。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:06:31Z",
+      "pushed_at": "2026-09-02T08:01:41Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-fire-detection",
+      "html_url": "https://github.com/xby-skill/xby-fire-detection",
+      "description": "检测各类通用场景中出现的火焰，最佳使用场景：安防摄像头、交通摄像头视角。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:06:50Z",
+      "pushed_at": "2026-08-28T11:06:57Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-fluent",
+      "html_url": "https://github.com/xby-skill/xby-fluent",
+      "description": "一个帮助AI助手高效导航ANSYS Fluent在线文档的模型上下文协议（MCP）服务器，提供智能URL导航、预映射主题路径和官方文档链接。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:07:09Z",
+      "pushed_at": "2026-09-02T08:02:07Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-french-tax",
+      "html_url": "https://github.com/xby-skill/xby-french-tax",
+      "description": "一个提供法国个人所得税计算的MCP服务器，支持基于净应税收入和家庭构成的计算，并动态获取最新税档信息。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:07:28Z",
+      "pushed_at": "2026-09-02T07:28:23Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-fund-knowledge-query",
+      "html_url": "https://github.com/xby-skill/xby-fund-knowledge-query",
+      "description": "一个基于Model Context Protocol (MCP)的基金知识库服务器，提供基金相关知识的查询和检索功能，支持多种部署模式和协议。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:07:48Z",
+      "pushed_at": "2026-08-28T11:07:55Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-gathering-card-lookup-service",
+      "html_url": "https://github.com/xby-skill/xby-gathering-card-lookup-service",
+      "description": "一个基于Model Context Protocol (MCP)的服务端，提供万智牌中文卡牌信息的查询和搜索功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:08:07Z",
+      "pushed_at": "2026-09-02T07:44:18Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-general-recognition",
+      "html_url": "https://github.com/xby-skill/xby-general-recognition",
+      "description": "对包含主体物体的图像进行标签识别，输出主体物体的类别标签，目前已经覆盖了5万多类的物体类别。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:08:28Z",
+      "pushed_at": "2026-08-28T11:08:35Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-generate-echarts",
+      "html_url": "https://github.com/xby-skill/xby-generate-echarts",
+      "description": "MCP ECharts 是一个基于 Apache ECharts 的动态图表生成和数据分析工具，支持多种导出格式和 MinIO 对象存储集成。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:08:47Z",
+      "pushed_at": "2026-09-02T07:44:26Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-generate-prd-prompt",
+      "html_url": "https://github.com/xby-skill/xby-generate-prd-prompt",
+      "description": "Mercury Spec Ops MCP Server 是一个基于模块化架构的动态提示生成和模板组装工具，适用于AI助手与专业内容的交互，支持31种技术栈、10种分析维度和34个模板部分的动态生成。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:09:07Z",
+      "pushed_at": "2026-08-28T11:09:14Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-gesture-detection",
+      "html_url": "https://github.com/xby-skill/xby-gesture-detection",
+      "description": "输入一张图像，对其中的手势进行检测，输出图片中所有目标的检测框、置信度和标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:09:28Z",
+      "pushed_at": "2026-08-28T11:09:35Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-glama-registry",
+      "html_url": "https://github.com/xby-skill/xby-glama-registry",
+      "description": "提供MCP注册服务器的搜索功能，用于查询匹配特定字符串的MCP服务器。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:09:47Z",
+      "pushed_at": "2026-09-02T07:44:47Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-gsap-animation-generate",
+      "html_url": "https://github.com/xby-skill/xby-gsap-animation-generate",
+      "description": "一个全面的GSAP动画生成工具，提供AI驱动的意图分析、完整的API覆盖和生产就绪的动画模式，帮助开发者快速创建高性能动画。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:10:07Z",
+      "pushed_at": "2026-08-28T11:10:14Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-hackernews-search",
+      "html_url": "https://github.com/xby-skill/xby-hackernews-search",
+      "description": "一个通过Model Context Protocol提供HackerNews内容搜索、检索和分析的服务，适用于AI代理和开发者。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:10:27Z",
+      "pushed_at": "2026-09-02T07:44:57Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-head-person-detection",
+      "html_url": "https://github.com/xby-skill/xby-head-person-detection",
+      "description": "输入一张图像，对其中的人头人体进行检测，输出图片中所有目标的检测框、置信度和标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:10:46Z",
+      "pushed_at": "2026-08-28T11:10:53Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-helmet-head",
+      "html_url": "https://github.com/xby-skill/xby-helmet-head",
+      "description": "输入一张图像，对其中的人体、头部和安全帽进行检测，输出图片中所有目标的检测框、置信度和标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:11:05Z",
+      "pushed_at": "2026-08-28T11:11:13Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-hitoshura25-android-playstore-deploy",
+      "html_url": "https://github.com/xby-skill/xby-hitoshura25-android-playstore-deploy",
+      "description": "一个帮助开发者设置自动化Google Play商店部署流程的工具，支持项目分析、密钥生成、服务账户配置和GitHub Actions工作流生成。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:11:26Z",
+      "pushed_at": "2026-09-02T07:45:30Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-hnews",
+      "html_url": "https://github.com/xby-skill/xby-hnews",
+      "description": "一个提供从Hacker News获取信息的工具集，包括获取故事、评论、用户信息和搜索故事等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:11:45Z",
+      "pushed_at": "2026-08-28T11:11:52Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-hot-news",
+      "html_url": "https://github.com/xby-skill/xby-hot-news",
+      "description": "基于 Model Context Protocol (MCP) 协议的全网热点趋势一站式聚合服务，支持实时更新和多数据源扩展。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:12:05Z",
+      "pushed_at": "2026-08-28T11:12:12Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-howtocook",
+      "html_url": "https://github.com/xby-skill/xby-howtocook",
+      "description": "基于MCP协议的AI菜谱推荐服务器，提供菜谱查询、分类筛选、智能膳食规划和每日菜单推荐功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:12:24Z",
+      "pushed_at": "2026-08-28T11:12:31Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-hugeicons",
+      "html_url": "https://github.com/xby-skill/xby-hugeicons",
+      "description": "Hugeicons MCP Server是一个基于TypeScript的服务器，提供Hugeicons图标库的集成工具和资源，支持多种平台的图标搜索、获取和使用指南。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:12:44Z",
+      "pushed_at": "2026-08-28T11:12:51Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-iconify-icon",
+      "html_url": "https://github.com/xby-skill/xby-iconify-icon",
+      "description": "提供访问Iconify超过20万开源矢量图标的MCP服务器，支持图标集浏览、搜索及多框架使用示例获取。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:13:04Z",
+      "pushed_at": "2026-08-28T11:13:11Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-image-detect",
+      "html_url": "https://github.com/xby-skill/xby-image-detect",
+      "description": "检测图像中的80类COCO目标（人、车、动物、日常物品等），输出边界框、置信度和类别标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:13:23Z",
+      "pushed_at": "2026-08-28T11:13:30Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-insect-recognition",
+      "html_url": "https://github.com/xby-skill/xby-insect-recognition",
+      "description": "识别昆虫或其他节肢动物名称（或所属目, 科, 属, 种）。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:13:43Z",
+      "pushed_at": "2026-08-28T11:13:51Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ip-query",
+      "html_url": "https://github.com/xby-skill/xby-ip-query",
+      "description": "依托全球蜜罐网络及百万级节点构建的IP情报分析平台，提供精准的IP画像与威胁预警服务。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:14:03Z",
+      "pushed_at": "2026-08-28T11:14:10Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-json-rpc",
+      "html_url": "https://github.com/xby-skill/xby-json-rpc",
+      "description": "一个基于OpenRPC的Model Context Protocol (MCP)服务器，提供JSON-RPC功能调用和方法发现服务。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:14:23Z",
+      "pushed_at": "2026-08-28T11:14:30Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-jsondiff",
+      "html_url": "https://github.com/xby-skill/xby-jsondiff",
+      "description": "基于MCP协议的高效JSON对比工具，专为AI对话场景设计，提供智能对比、快速响应和清晰输出。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:14:42Z",
+      "pushed_at": "2026-08-28T11:14:49Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-kubernetes-runbooks",
+      "html_url": "https://github.com/xby-skill/xby-kubernetes-runbooks",
+      "description": "一个基于模型上下文协议(MCP)的服务器，提供对Kubernetes故障排除手册的访问，支持搜索、内容获取和AI集成。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:15:01Z",
+      "pushed_at": "2026-08-28T11:15:08Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-lit",
+      "html_url": "https://github.com/xby-skill/xby-lit",
+      "description": "一个强大的模型上下文协议（MCP）服务器，提供对学术文献数据库的无缝访问，帮助研究人员使用LLM和MCP客户端（如Claude、Cursor等）加速文献综述过程。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:15:20Z",
+      "pushed_at": "2026-08-28T11:15:28Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-logo-analyze",
+      "html_url": "https://github.com/xby-skill/xby-logo-analyze",
+      "description": "一个智能Logo提取和处理的MCP服务器，支持从网站URL自动识别并提取Logo图标，并提供图像处理和矢量转换功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:15:41Z",
+      "pushed_at": "2026-08-28T11:15:48Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-lunar-calendar",
+      "html_url": "https://github.com/xby-skill/xby-lunar-calendar",
+      "description": "一个基于Python 3.12和lunar-python的中国传统农历日历功能服务器，提供八字计算、日历转换、黄历查询等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:16:00Z",
+      "pushed_at": "2026-09-02T07:45:39Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-markdown-to-notion",
+      "html_url": "https://github.com/xby-skill/xby-markdown-to-notion",
+      "description": "一个将Markdown内容转换为Notion API兼容格式的MCP服务器，适用于内容管理和开发集成。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:16:20Z",
+      "pushed_at": "2026-08-28T11:16:27Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-math",
+      "html_url": "https://github.com/xby-skill/xby-math",
+      "description": "一个高性能的数学计算协议服务器，提供从基础算术到高级微积分和线性代数的全面数学计算功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:16:59Z",
+      "pushed_at": "2026-09-02T07:46:04Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-math-genie-calc",
+      "html_url": "https://github.com/xby-skill/xby-math-genie-calc",
+      "description": "math_genie_calc是一款专注于科学计算的Python应用，提供从基础运算到复杂三角函数的多种计算功能，适合学生、科研人员等使用。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:16:39Z",
+      "pushed_at": "2026-08-28T11:16:46Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-mathematical-visualization",
+      "html_url": "https://github.com/xby-skill/xby-mathematical-visualization",
+      "description": "基于JSXGraph的MCP协议服务器，提供13种数学可视化工具，适用于教育数学、工程和科学应用。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:17:20Z",
+      "pushed_at": "2026-09-02T07:46:14Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-mathematics",
+      "html_url": "https://github.com/xby-skill/xby-mathematics",
+      "description": "MCP Mathematics 是一个全面的数学计算服务器，可将任何AI助手转变为强大的数学计算引擎，提供高级数学函数、单位转换和财务计算等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:17:39Z",
+      "pushed_at": "2026-08-28T11:17:46Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-mbit-test",
+      "html_url": "https://github.com/xby-skill/xby-mbit-test",
+      "description": "一个用于MBTI人格测试的MCP服务器，支持AI助手引导用户完成人格测试并给出结果分析。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:17:59Z",
+      "pushed_at": "2026-09-02T07:46:23Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-medical-knowledge-graph",
+      "html_url": "https://github.com/xby-skill/xby-medical-knowledge-graph",
+      "description": "围绕疾病，药品，症状，诊断，并发症，饮食及其关系的知识图谱。仅限初步研究，具体应用需根据实际情况调整。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:18:19Z",
+      "pushed_at": "2026-08-28T11:18:26Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-mermaid-doc",
+      "html_url": "https://github.com/xby-skill/xby-mermaid-doc",
+      "description": "Mermaid Doc MCP Server是一个用于生成Mermaid文档的服务器，提供列出可用图表和检索特定图表文档的功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:18:38Z",
+      "pushed_at": "2026-09-02T07:46:33Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-mingli",
+      "html_url": "https://github.com/xby-skill/xby-mingli",
+      "description": "一个支持多种命理系统（紫微斗数、八字等）的MCP协议服务器，为AI工具提供命理分析与运势查询功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:18:57Z",
+      "pushed_at": "2026-08-28T11:19:04Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-mm1-simulation",
+      "html_url": "https://github.com/xby-skill/xby-mm1-simulation",
+      "description": "一个用于M/M/1和M/M/c队列系统模拟和分析的Model Context Protocol服务器，提供全面的资源、工具和提示。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:19:16Z",
+      "pushed_at": "2026-09-02T07:47:05Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-mvn",
+      "html_url": "https://github.com/xby-skill/xby-mvn",
+      "description": "Maven MCP Server是一个通过自然语言交互的AI驱动Maven依赖管理工具，提供版本检查、安全扫描和依赖分析功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:19:36Z",
+      "pushed_at": "2026-08-28T11:19:43Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-nba-stats",
+      "html_url": "https://github.com/xby-skill/xby-nba-stats",
+      "description": "一个提供实时和历史NBA数据的模型上下文协议服务器，包括球员统计、比赛得分、球队信息和高级分析。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:19:55Z",
+      "pushed_at": "2026-08-28T11:20:02Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-obb",
+      "html_url": "https://github.com/xby-skill/xby-obb",
+      "description": "检测图像中的旋转目标，输出旋转边界框、角度、置信度和类别标签。支持15个目标类别：plane， ship，storage tank，baseball diamond，tennis court，basketball court，ground track field， harbor， bridge，large vehicle，small vehicle， helicopter， roundabout，soccer ball field，swimming pool。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:20:14Z",
+      "pushed_at": "2026-08-28T11:20:22Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ocr",
+      "html_url": "https://github.com/xby-skill/xby-ocr",
+      "description": "兼顾速度与精度的文字识别。输入包含文本的图像，自动检测并识别内容。适用于各类文档、广告牌、屏幕截图等场景。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:23:51Z",
+      "pushed_at": "2026-08-28T11:23:57Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ocr-bank-card",
+      "html_url": "https://github.com/xby-skill/xby-ocr-bank-card",
+      "description": "识别银行卡号、发卡银行和卡类型，使用 Luhn 算法校验卡号有效性。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:20:34Z",
+      "pushed_at": "2026-08-28T11:20:41Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ocr-biz-license",
+      "html_url": "https://github.com/xby-skill/xby-ocr-biz-license",
+      "description": "识别营业执照的统一社会信用代码、名称、法定代表人、注册资本、成立日期、经营范围、登记机关和住所地址。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:20:53Z",
+      "pushed_at": "2026-08-28T11:21:01Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ocr-captcha",
+      "html_url": "https://github.com/xby-skill/xby-ocr-captcha",
+      "description": "输入常见验证码图片，返回验证码文本内容。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:21:14Z",
+      "pushed_at": "2026-08-28T11:21:21Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ocr-driver-license",
+      "html_url": "https://github.com/xby-skill/xby-ocr-driver-license",
+      "description": "识别驾驶证主页（证号、姓名、性别、国籍、住址、出生日期、准驾车型、初次领证日期、有效期限）和副页（档案编号）。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:21:33Z",
+      "pushed_at": "2026-08-28T11:21:41Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ocr-handwriting",
+      "html_url": "https://github.com/xby-skill/xby-ocr-handwriting",
+      "description": "输入包含手写文本的图像，自动检测文本行并识别内容。适用于手写笔记、签名、手写表单等。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:21:53Z",
+      "pushed_at": "2026-08-28T11:22:00Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ocr-id-card",
+      "html_url": "https://github.com/xby-skill/xby-ocr-id-card",
+      "description": "识别身份证正面（姓名、性别、民族、出生日期、住址、身份证号）和背面（签发机关、有效期限），自动判断正反面并校验身份证号有效性。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:22:13Z",
+      "pushed_at": "2026-08-28T11:22:21Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ocr-pass",
+      "html_url": "https://github.com/xby-skill/xby-ocr-pass",
+      "description": "识别港澳通行证、台湾通行证的通行证号码、姓名、性别、出生日期、有效期、签发地点等信息，支持MRZ机读码解析。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:22:33Z",
+      "pushed_at": "2026-08-28T11:22:40Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ocr-passport",
+      "html_url": "https://github.com/xby-skill/xby-ocr-passport",
+      "description": "识别护照号码、中文姓名、英文姓名、性别、国籍、出生日期、签发日期、有效期至、签发地点等信息，支持MRZ机读码解析。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:22:52Z",
+      "pushed_at": "2026-08-28T11:22:59Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ocr-pro",
+      "html_url": "https://github.com/xby-skill/xby-ocr-pro",
+      "description": "高精度文字识别。输入包含文本的图像，自动检测并识别内容。适用于各类文档、广告牌、屏幕截图等场景。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:23:12Z",
+      "pushed_at": "2026-08-28T11:23:19Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ocr-vehicle-license",
+      "html_url": "https://github.com/xby-skill/xby-ocr-vehicle-license",
+      "description": "识别机动车行驶证的号牌号码、车辆类型、所有人、住址、品牌型号、发动机号码、车辆识别代号等信息，支持自动方向检测和主副页过滤。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:23:31Z",
+      "pushed_at": "2026-08-28T11:23:39Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-oecd-search",
+      "html_url": "https://github.com/xby-skill/xby-oecd-search",
+      "description": "一个通过SDMX API提供OECD全面统计数据的模型上下文协议（MCP）服务器，支持AI助手和聊天机器人查询经济、健康、教育、环境等OECD数据集。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:24:10Z",
+      "pushed_at": "2026-08-28T11:24:17Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-ons-data",
+      "html_url": "https://github.com/xby-skill/xby-ons-data",
+      "description": "一个用于访问英国国家统计局(ONS) Beta API的模型上下文协议(MCP)服务器，无需API密钥即可获取官方统计数据。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:24:29Z",
+      "pushed_at": "2026-09-02T07:47:15Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-open-data-hk",
+      "html_url": "https://github.com/xby-skill/xby-open-data-hk",
+      "description": "一个提供香港政府官方开放数据门户DATA.GOV.HK数据访问的MCP服务器，支持数据集列表、详情查询、分类检索及格式筛选等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:24:49Z",
+      "pushed_at": "2026-09-02T07:47:29Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-osrs-stat",
+      "html_url": "https://github.com/xby-skill/xby-osrs-stat",
+      "description": "一个提供实时《Old School RuneScape》玩家统计数据和排行榜数据的Model Context Protocol (MCP)服务器，支持多种游戏模式和玩家比较功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:25:09Z",
+      "pushed_at": "2026-08-28T11:25:16Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-pedestrian",
+      "html_url": "https://github.com/xby-skill/xby-pedestrian",
+      "description": "输入一张图像，检测图像中的行人，输出所有目标的检测框、置信度和标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:25:29Z",
+      "pushed_at": "2026-08-28T11:25:35Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-pet-detect",
+      "html_url": "https://github.com/xby-skill/xby-pet-detect",
+      "description": "识别宠物 (猫/狗) 面部表情，输出 4 类情绪: Angry / Happy / Relaxed / Sad。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:25:48Z",
+      "pushed_at": "2026-08-28T11:25:55Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-philippine-geocoding",
+      "html_url": "https://github.com/xby-skill/xby-philippine-geocoding",
+      "description": "提供菲律宾标准地理编码（PSGC）API访问的模型上下文协议（MCP）服务器，包含完整的菲律宾地理层级数据。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:26:08Z",
+      "pushed_at": "2026-08-28T11:26:15Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-pic",
+      "html_url": "https://github.com/xby-skill/xby-pic",
+      "description": "包括通用文本识别、手写识别、车牌识别、身份证识别、日常物体检测、昆虫识别、植物识别、护照识别、港澳台通行证识别、银行卡识别、营业执照识别、驾驶证识别、行驶证识别、动物识别、电动自行车检测、手机检测、手势检测、火焰检测、香烟检测、人头人体检测、野生动物检测、鸟类识别、宠物情绪识别、菜品识别、安全帽人体检测、行人检测、反光衣检测、车辆检测、图像分类、目标检测、旋转目标检测、人体姿态估计和万物识别。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:26:27Z",
+      "pushed_at": "2026-08-28T11:26:34Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-plant-recognition",
+      "html_url": "https://github.com/xby-skill/xby-plant-recognition",
+      "description": "识别植物名称（或所属科, 属, 种或亚种）。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:26:47Z",
+      "pushed_at": "2026-08-28T11:26:54Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-plate-recognition",
+      "html_url": "https://github.com/xby-skill/xby-plate-recognition",
+      "description": "识别车牌号、车牌颜色、单/双层车牌、位置框。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:27:07Z",
+      "pushed_at": "2026-08-28T11:27:14Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-pose",
+      "html_url": "https://github.com/xby-skill/xby-pose",
+      "description": "检测图像中的人物，输出边界框和关键点坐标。每人有 17 个关键点，每个点代表人体不同的部位，依次为鼻子、左眼、右眼、左耳、右耳、左肩、右肩、左肘、右肘、左腕、右腕、左髋、右髋、左膝、右膝、左脚踝、右脚踝。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:27:26Z",
+      "pushed_at": "2026-08-28T11:27:33Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-pubchem",
+      "html_url": "https://github.com/xby-skill/xby-pubchem",
+      "description": "该服务通过PubChem API提取药物基础化学信息，包括分子式、分子量、CAS号等关键数据。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:27:46Z",
+      "pushed_at": "2026-09-02T07:47:51Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-qanon",
+      "html_url": "https://github.com/xby-skill/xby-qanon",
+      "description": "一个提供QAnon帖子数据集访问的MCP服务器，用于人类学和社会学研究，支持搜索、过滤和分析功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:28:05Z",
+      "pushed_at": "2026-09-02T07:48:00Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-quick-chart",
+      "html_url": "https://github.com/xby-skill/xby-quick-chart",
+      "description": "一个基于Model Context Protocol (MCP)的服务器，提供与Quick Chart交互的标准化接口，支持图表生成和管理。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:28:24Z",
+      "pushed_at": "2026-08-28T11:28:31Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-random-generator",
+      "html_url": "https://github.com/xby-skill/xby-random-generator",
+      "description": "一款符合MCP协议的加密安全随机数生成服务器，适用于AI应用、LLM及其他需要高质量随机数的系统。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:28:43Z",
+      "pushed_at": "2026-08-28T11:28:50Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-random-number",
+      "html_url": "https://github.com/xby-skill/xby-random-number",
+      "description": "提供伪随机和加密安全的随机数生成功能，包括整数、浮点数、加权选择、列表洗牌和安全令牌生成。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:29:02Z",
+      "pushed_at": "2026-09-02T07:48:17Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-react-composer-kit",
+      "html_url": "https://github.com/xby-skill/xby-react-composer-kit",
+      "description": "一个为Composer Kit React组件库提供文档、示例和使用信息的MCP服务器，专为在Celo区块链上构建web3应用而设计。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:29:22Z",
+      "pushed_at": "2026-08-28T11:29:29Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-read-pdf",
+      "html_url": "https://github.com/xby-skill/xby-read-pdf",
+      "description": "一个支持AI助手读取和分析PDF文件的MCP服务器，提供PDF元数据提取、页面范围阅读和关键词搜索等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:29:41Z",
+      "pushed_at": "2026-08-28T11:29:49Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-read-website",
+      "html_url": "https://github.com/xby-skill/xby-read-website",
+      "description": "一个快速、高效的网页内容提取工具，将网页转换为干净的Markdown格式，适用于AI代理、IDE和LLM管道。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:30:01Z",
+      "pushed_at": "2026-08-28T11:30:09Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-real-time-news",
+      "html_url": "https://github.com/xby-skill/xby-real-time-news",
+      "description": "实时新闻",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:30:22Z",
+      "pushed_at": "2026-08-28T11:30:29Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-recipe-query",
+      "html_url": "https://github.com/xby-skill/xby-recipe-query",
+      "description": "一个支持通过命令行查询菜谱和报菜名的菜谱查询工具，适用于烹饪爱好者和开发者。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:30:42Z",
+      "pushed_at": "2026-08-28T11:30:49Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-recog",
+      "html_url": "https://github.com/xby-skill/xby-recog",
+      "description": "包括通用文本识别、手写识别、车牌识别、身份证识别、护照识别、港澳台通行证识别、银行卡识别、营业执照识别、驾驶证识别、行驶证识别。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:31:01Z",
+      "pushed_at": "2026-08-28T11:31:09Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-reflective-vest",
+      "html_url": "https://github.com/xby-skill/xby-reflective-vest",
+      "description": "输入一张图像，检测人员是否穿戴反光衣，输出图片中所有目标的检测框、置信度和标签（safe/unsafe）。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:31:21Z",
+      "pushed_at": "2026-08-28T11:31:28Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-remember-memory",
+      "html_url": "https://github.com/xby-skill/xby-remember-memory",
+      "description": "一个基于分类的持久化记忆系统实现，允许Claude跨聊天会话存储和检索分类记忆信息。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:31:40Z",
+      "pushed_at": "2026-08-28T11:31:47Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-review-code",
+      "html_url": "https://github.com/xby-skill/xby-review-code",
+      "description": "一个基于Model Context Protocol (MCP)的代码审查工具服务器，提供多维度的代码审查和打分功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:32:00Z",
+      "pushed_at": "2026-08-28T11:32:07Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-rfc-doc",
+      "html_url": "https://github.com/xby-skill/xby-rfc-doc",
+      "description": "一个用于从ietf.org网站获取、解析和阅读RFC文档的MCP服务器，提供程序化交互工具。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:32:19Z",
+      "pushed_at": "2026-08-28T11:32:27Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-running-formulas",
+      "html_url": "https://github.com/xby-skill/xby-running-formulas",
+      "description": "一个提供全面的跑步计算工具的MCP服务器，包括VDOT计算、训练配速、比赛时间预测、速度标记、心率区间和配速转换等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:32:39Z",
+      "pushed_at": "2026-09-02T07:48:26Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-scan-code",
+      "html_url": "https://github.com/xby-skill/xby-scan-code",
+      "description": "CodeGuard MCP是一款实时AI代码安全扫描工具，用于检测AI生成代码中的漏洞、密钥和合规性问题，适用于开发环境中的代码安全审查。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:32:58Z",
+      "pushed_at": "2026-09-02T07:48:35Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-search-apple-docs",
+      "html_url": "https://github.com/xby-skill/xby-search-apple-docs",
+      "description": "通过模型上下文协议（MCP）访问苹果官方开发者文档、框架、API及WWDC视频，支持AI驱动的自然语言查询，提供Swift/Objective-C代码示例和技术指南。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:33:18Z",
+      "pushed_at": "2026-08-28T11:33:25Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-search-movie",
+      "html_url": "https://github.com/xby-skill/xby-search-movie",
+      "description": "一个基于 Model Context Protocol (MCP) 构建的智能电影和电视剧资源搜索工具，支持多源搜索和链接验证。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:33:37Z",
+      "pushed_at": "2026-08-28T11:33:44Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-seg",
+      "html_url": "https://github.com/xby-skill/xby-seg",
+      "description": "实例分割比目标检测更进一步，不但要识别图像中的单个对象，还要将其从图像的其余部分中分割出来。对图像中的80类COCO目标进行实例分割，输出边界框、掩膜、置信度和类别标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:33:56Z",
+      "pushed_at": "2026-08-28T11:34:04Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-sequentialthinking",
+      "html_url": "https://github.com/xby-skill/xby-sequentialthinking",
+      "description": "一个实现顺序思维协议的MCP服务器，提供结构化的问题解决方法，将复杂问题分解为可管理的步骤，并支持迭代优化和替代推理路径。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:34:16Z",
+      "pushed_at": "2026-09-02T07:48:52Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-smart-search",
+      "html_url": "https://github.com/xby-skill/xby-smart-search",
+      "description": "Smart Search MCP 是一个专注于技术领域的智能搜索工具集，提供14个增强型搜索工具，覆盖国际和国内主流技术平台，具备智能URL生成、输入验证、高级搜索技巧等功能，适用于开发者快速查找技术文档、API参考、开源项目等。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:34:36Z",
+      "pushed_at": "2026-09-02T07:49:01Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-smoking-detection",
+      "html_url": "https://github.com/xby-skill/xby-smoking-detection",
+      "description": "输入一张图像，对其中的香烟目标进行检测，输出图片中所有目标的检测框、置信度和标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:34:55Z",
+      "pushed_at": "2026-08-28T11:35:02Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-source-coop",
+      "html_url": "https://github.com/xby-skill/xby-source-coop",
+      "description": "一个用于发现和访问800TB+地理空间数据的MCP服务器，支持AI客户端通过JSON-RPC协议进行交互，提供智能搜索和高效数据访问功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:35:15Z",
+      "pushed_at": "2026-09-02T07:49:10Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-speech-synthesis",
+      "html_url": "https://github.com/xby-skill/xby-speech-synthesis",
+      "description": "一个集成了Microsoft Edge高质量语音合成能力的MCP服务器，支持多语言语音生成、音频合并和云端存储。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:35:36Z",
+      "pushed_at": "2026-08-28T11:35:43Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-structured-argumentation",
+      "html_url": "https://github.com/xby-skill/xby-structured-argumentation",
+      "description": "一组模型上下文协议服务器，为大型语言模型提供认知增强工具。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:35:55Z",
+      "pushed_at": "2026-09-02T07:49:20Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-subnet-calculator",
+      "html_url": "https://github.com/xby-skill/xby-subnet-calculator",
+      "description": "一个基于Model Context Protocol的服务，提供IPv4子网规划工具，包括子网大小计算、通配符掩码生成、网关选择和主机验证等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:36:14Z",
+      "pushed_at": "2026-08-28T11:36:23Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-text-toolkit",
+      "html_url": "https://github.com/xby-skill/xby-text-toolkit",
+      "description": "一个提供文本转换、格式化和分析功能的MCP服务器，可直接集成到开发工作流中。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:36:36Z",
+      "pushed_at": "2026-08-28T11:36:42Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-text-transformer",
+      "html_url": "https://github.com/xby-skill/xby-text-transformer",
+      "description": "提供多种文本转换功能的MCP服务器，包括大小写转换、反转字符串、检测回文等功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:36:54Z",
+      "pushed_at": "2026-08-28T11:37:01Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-the-met",
+      "html_url": "https://github.com/xby-skill/xby-the-met",
+      "description": "查询搜索和获取博物馆的开放藏品数据",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:37:13Z",
+      "pushed_at": "2026-08-28T11:37:21Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-time",
+      "html_url": "https://github.com/xby-skill/xby-time",
+      "description": "提供时间和时区转换功能的模型上下文协议服务器，支持获取当前时间和时区转换。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:37:52Z",
+      "pushed_at": "2026-08-28T11:38:00Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-time-zone",
+      "html_url": "https://github.com/xby-skill/xby-time-zone",
+      "description": "一个全面的MCP服务器，提供全球时区管理和时间转换功能，适用于全球业务协调、旅行规划和开发运维。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:37:33Z",
+      "pushed_at": "2026-08-28T11:37:40Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-todolist",
+      "html_url": "https://github.com/xby-skill/xby-todolist",
+      "description": "为大型语言模型和AI代理提供外部工作记忆和任务管理功能，支持复杂多步骤任务的可靠执行。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:38:12Z",
+      "pushed_at": "2026-09-02T07:49:36Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-toronto-open-data-server",
+      "html_url": "https://github.com/xby-skill/xby-toronto-open-data-server",
+      "description": "一个通过CKAN API直接访问多伦多开放数据的MCP服务器，支持智能数据集发现、灵活查询和CSV数据预览，专为LLM代理设计。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:38:31Z",
+      "pushed_at": "2026-09-02T07:49:53Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-traditional-chinese-medicine-formulas-kg",
+      "html_url": "https://github.com/xby-skill/xby-traditional-chinese-medicine-formulas-kg",
+      "description": "围绕中药方剂、方名、来源、别名、处方、中药名、剂量、功能主治及其之间的联系构建知识谱图。仅限初步研究，具体应用需根据实际情况调整。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:38:51Z",
+      "pushed_at": "2026-08-28T11:38:58Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-traditional-chinese-medicine-kg",
+      "html_url": "https://github.com/xby-skill/xby-traditional-chinese-medicine-kg",
+      "description": "围绕中药名，中药材，别名，来源，分布，功能，主治，归经，四气，四气及其之间的联系构建知识谱图。仅限初步研究，具体应用需根据实际情况调整。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:39:10Z",
+      "pushed_at": "2026-08-28T11:39:18Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-uk-police-data-query",
+      "html_url": "https://github.com/xby-skill/xby-uk-police-data-query",
+      "description": "一个提供英国警察数据查询的MCP服务器，包括犯罪记录、警察部队、社区信息和拦截搜查数据。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:39:30Z",
+      "pushed_at": "2026-08-28T11:39:37Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-vnstock",
+      "html_url": "https://github.com/xby-skill/xby-vnstock",
+      "description": "一个非官方的MCP服务器，提供访问越南股市数据的工具，包括实时和历史股票价格、公司财务数据、市场统计和基金信息等。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:39:50Z",
+      "pushed_at": "2026-09-02T07:50:02Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-web-research-assistant",
+      "html_url": "https://github.com/xby-skill/xby-web-research-assistant",
+      "description": "一个提供网络研究和发现功能的综合模型上下文协议（MCP）服务器，包含13种工具用于搜索、爬取和分析网络内容。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:40:09Z",
+      "pushed_at": "2026-09-02T07:59:14Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-who-is",
+      "html_url": "https://github.com/xby-skill/xby-who-is",
+      "description": "一个基于Model Context Protocol (MCP)的WHOIS域名查询服务器，支持877+顶级域名和169个国家代码顶级域名的解析，提供全面的域名注册信息查询功能。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:40:29Z",
+      "pushed_at": "2026-08-28T11:40:37Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-wikimedia-search-images",
+      "html_url": "https://github.com/xby-skill/xby-wikimedia-search-images",
+      "description": "该MCP服务器使AI助手能够在Wikimedia Commons上搜索图片，提供详细的元数据和可选的缩略图组合，帮助AI模型进行视觉比较。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:40:48Z",
+      "pushed_at": "2026-08-28T11:40:56Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xby-skill/xby-wild-animal-detection",
+      "html_url": "https://github.com/xby-skill/xby-wild-animal-detection",
+      "description": "输入一张图像，输出图像中所有识别到的野生动物的检测框、置信度及标签。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-28T11:41:08Z",
+      "pushed_at": "2026-08-28T11:41:15Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xiaoxiaohai/dsh-remote",
+      "html_url": "https://github.com/xiaoxiaohai/dsh-remote",
+      "description": "Secure, opt-in phone access for DeepSeek Harness Web on macOS.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-27T15:56:44Z",
+      "pushed_at": "2026-09-02T04:53:11Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xing-shuyin/pi-web-ui",
+      "html_url": "https://github.com/xing-shuyin/pi-web-ui",
+      "description": "dsh / pi-agent web ui",
+      "language": "JavaScript",
+      "stargazers_count": 84,
+      "forks_count": 19,
+      "license": "MIT",
+      "created_at": "2026-08-04T01:11:26Z",
+      "pushed_at": "2026-09-02T17:07:57Z",
+      "topics": [
+        "dsh-plugin",
+        "pi"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xingtu1996/dsh-xingtu-skills",
+      "html_url": "https://github.com/xingtu1996/dsh-xingtu-skills",
+      "description": "DeepSeek Harness (DSH) plugin: 26 production AI-agent skills (Caveman token compression, Ponytail minimalism, engineering practice) as a standard dsh-plugin bundle. 行途技能 DSH 插件包",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T09:53:10Z",
+      "pushed_at": "2026-09-02T13:23:09Z",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "claude-code",
+        "cordis",
+        "deepseek-harness",
+        "dsh-plugin",
+        "llm",
+        "skills"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xswt442-cmd/dsh-ballast",
+      "html_url": "https://github.com/xswt442-cmd/dsh-ballast",
+      "description": "DSH 上下文窗口逐条归因面板——看谁占了窗口 | Per-message context window attribution for DSH — see what takes up the window",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-31T16:06:52Z",
+      "pushed_at": "2026-09-02T17:55:59Z",
+      "topics": [
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "deepseek-harness-plugins",
+        "dsh",
+        "dsh-bundle",
+        "dsh-plugin",
+        "dsh-plugin-desktop",
+        "dsh-plugin-market",
+        "dsh-plugins"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "xswt442-cmd/dsh-mini-utility-dock",
+      "html_url": "https://github.com/xswt442-cmd/dsh-mini-utility-dock",
+      "description": "一个简单的 DSH 工具坞 | A simple utility dock for DSH",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T12:19:54Z",
+      "pushed_at": "2026-09-02T14:26:44Z",
+      "topics": [
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "deepseek-harness-plugins",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugin-desktop",
+        "dsh-plugin-market",
+        "dsh-plugins"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "yakoylp/dsh-localnotify",
+      "html_url": "https://github.com/yakoylp/dsh-localnotify",
+      "description": "DSH 本地通知栏插件：侧边栏【通知】入口 + 全屏通知中心（时间筛选/搜索/未读已读/删除/详情一键复制），notify_add agent 工具 + CLI 写入，JSON 持久化，实时刷新，界面跟随 dsh web 语言切换。Local notification center for DeepSeek Harness: notify_add agent tool & CLI, live refresh, i18n.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T16:05:36Z",
+      "pushed_at": "2026-09-02T13:11:35Z",
+      "topics": [
+        "agent-tool",
+        "cli",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "i18n",
+        "notification",
+        "notify",
+        "plugin",
+        "web"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "yhfgyyf/dsh-audit-mode",
+      "html_url": "https://github.com/yhfgyyf/dsh-audit-mode",
+      "description": "Guardian preset for DeepSeek Harness with independent persistent Codex auditing",
+      "language": "JavaScript",
+      "stargazers_count": 2,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-23T13:01:38Z",
+      "pushed_at": "2026-09-02T06:55:26Z",
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "yindf/taskfold",
+      "html_url": "https://github.com/yindf/taskfold",
+      "description": "Keeps long coding-agent sessions lean: wrap work in named tasks and, when one is done, fold its whole span into a short titled summary. The conversation stays readable, context costs stay low, and every fold's original content can be read back on demand. For [DeepSeek Harness](https://www.npmjs.com/package/@deepseek-ai/dsh) (DSH).",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T08:33:45Z",
+      "pushed_at": "2026-09-02T12:57:12Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "yohanchen1/MathModelingAgent",
+      "html_url": "https://github.com/yohanchen1/MathModelingAgent",
+      "description": "Closed-loop scientific modeling agent with evidence-backed verification and reproducible correction.",
+      "language": "JavaScript",
+      "stargazers_count": 4,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2025-08-11T02:14:22Z",
+      "pushed_at": "2026-09-02T16:11:44Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "llm",
+        "math-modeling",
+        "scientific-modeling",
+        "verification"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "youridol/dsh-launcher",
+      "html_url": "https://github.com/youridol/dsh-launcher",
+      "description": "deepseek-harness 启动器与运行环境管理器（Tauri 2 + Rust + React）",
+      "language": "Rust",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-01T18:19:28Z",
+      "pushed_at": "2026-09-02T16:53:06Z",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "desktop-app",
+        "dsh",
+        "dsh-plugin",
+        "electron",
+        "react",
+        "rust",
+        "tauri",
+        "typescript"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "yushenghai1106/dsh-memory-plugin",
+      "html_url": "https://github.com/yushenghai1106/dsh-memory-plugin",
+      "description": "Pluggable persistent memory bundle for DeepSeek Harness",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-09-02T02:57:22Z",
+      "pushed_at": "2026-09-02T08:03:51Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "z-y-q/dsh-mcp-security",
+      "html_url": "https://github.com/z-y-q/dsh-mcp-security",
+      "description": "dsh-mcp-security",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-02T01:14:59Z",
+      "pushed_at": "2026-09-02T02:13:30Z",
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "mcp",
+        "mcp-security",
+        "security"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "zaizaizhao/dsh-branchmark",
+      "html_url": "https://github.com/zaizaizhao/dsh-branchmark",
+      "description": "为开发者提供重点知识摘录、可追溯 Session 树和注意力分叉，让主 Session 始终专注于当前目标，让每条支线都能找回来源，让 Vibe Coding 告别注意力丢失。",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": "MIT",
+      "created_at": "2026-08-30T11:16:16Z",
+      "pushed_at": "2026-09-02T14:55:10Z",
+      "topics": [
+        "deepseek",
+        "deepseek-harness-plugin",
+        "deepseek-harness-plugins",
+        "dsh-plugin",
+        "harness-engineering",
+        "harness-framework"
+      ]
+    },
+    {
+      "first_seen": "2026-09-02",
+      "full_name": "zhangxingong/dsh-polish",
+      "html_url": "https://github.com/zhangxingong/dsh-polish",
+      "description": "需要你做的 UI 验收（重启后逐项过一遍）  1. 书本图标右侧出现四角星按钮：细线空心、四角顶点小圆点、浅灰，与相邻按钮同尺寸，深色主题正常 2. 悬浮显示「优化并细化当前用户输入」 3. 权限下拉切 Read Only → 按钮置灰；切回恢复 4. 空输入点击 → Toast「请先输入内容再进行优化细化」 5. 有文本点击 → loading 旋转 → 全文覆盖（非追加）→ 光标在末尾可直接续写 6. 优化质量抽查：保留原意、逻辑通顺、无废话、语气一致、无解释性前后缀 7. 机器回复运行中按钮置灰；+新增/Read Only/书本图标/发送等原功能无回归",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "license": null,
+      "created_at": "2026-09-01T08:43:18Z",
+      "pushed_at": "2026-09-02T02:48:37Z",
+      "topics": [
+        "dsh-plugin"
+      ]
+    }
+  ],
+  "missing": [
+    "AndyWipe13/dsh-session-management",
+    "Eternalloveone/dsh-palm",
+    "goatliamia/dsh-runtime-capabilities",
+    "leogottadothebest/DSH-Archived-Delete",
+    "lovaxi/4d4y-browser",
+    "MST19711/dsh-opencode-go-usage",
+    "SsTtone1/dsh-message-cleaner",
+    "Tinnikx/dsh-desktop",
+    "Tinnikx/dsh-operation-improve",
+    "xie-tj/dsh-easy-exit",
+    "xuzhougeng/dsh-wisp-science-lab",
+    "yhfgyyf/dsh-guardian-mode"
+  ],
   "star_anomalies": {
-    "snapshot_date": "2026-09-01",
-    "previous_snapshot_date": "2026-08-31",
+    "snapshot_date": "2026-09-02",
+    "previous_snapshot_date": "2026-09-01",
     "alerts": [
       {
-        "full_name": "anbeime/skill",
-        "html_url": "https://github.com/anbeime/skill",
-        "description": "收录最全、更新最快的技能Skills商店：416个精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。",
+        "full_name": "plastic-labs/honcho",
+        "html_url": "https://github.com/plastic-labs/honcho",
+        "description": " Memory library for building stateful agents",
         "queue": "pending",
-        "stars": 6030,
+        "stars": 6989,
         "previous_stars": null,
         "delta": null,
-        "forks": 578,
-        "created_at": "2026-02-02T09:12:57Z",
-        "age_days": 210,
-        "star_fork_ratio": 10.4,
+        "forks": 865,
+        "created_at": "2023-09-10T21:29:54Z",
+        "age_days": 1087,
+        "star_fork_ratio": 8.1,
         "rank": null,
         "previous_rank": null,
         "would_rank": 2,
@@ -29,55 +5592,31 @@
         "hints": [
           "核准即 Top 2"
         ],
-        "reviewer_note": "Pending: 6030 stars. approving would place it around Top 2. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+        "reviewer_note": "Pending: 6989 stars. approving would place it around Top 2. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
       },
       {
-        "full_name": "YuJunZhiXue/dsh-purge",
-        "html_url": "https://github.com/YuJunZhiXue/dsh-purge",
-        "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐",
+        "full_name": "Tiger3807861189/GLM-5.3-Flash-J-Space-Capability-Realization-Report",
+        "html_url": "https://github.com/Tiger3807861189/GLM-5.3-Flash-J-Space-Capability-Realization-Report",
+        "description": "GLM-5.3-Flash × J-Space capability realization — benchmark presentation of the J-Space Cognition Suite",
         "queue": "pending",
-        "stars": 253,
-        "previous_stars": null,
-        "delta": null,
-        "forks": 50,
-        "created_at": "2026-08-19T07:41:12Z",
-        "age_days": 12,
-        "star_fork_ratio": 5.1,
+        "stars": 1029,
+        "previous_stars": 1035,
+        "delta": -6,
+        "forks": 63,
+        "created_at": "2026-08-16T11:38:42Z",
+        "age_days": 16,
+        "star_fork_ratio": 16.3,
         "rank": null,
         "previous_rank": null,
-        "would_rank": 40,
+        "would_rank": 13,
         "already_board_excluded": false,
         "signals": [
           "pending_high"
         ],
         "hints": [
-          "核准即榜 #40"
+          "核准即 Top 13"
         ],
-        "reviewer_note": "Pending: 253 stars. approving would place it around rank 40 of the Top 200. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
-      },
-      {
-        "full_name": "leenkcool/Blue-Whale-Harness",
-        "html_url": "https://github.com/leenkcool/Blue-Whale-Harness",
-        "description": "🐋 DeepSeek Harness 插件总目录 · The catalog of DSH plugins：1958 个仓库 / 1819 个真插件（Skills · MCP · Tools · UI · Orchestration），中英文搜索、分类筛选、STAR 排序 → leenkcool.github.io",
-        "queue": "pending",
-        "stars": 189,
-        "previous_stars": null,
-        "delta": null,
-        "forks": 70,
-        "created_at": "2026-08-13T14:34:04Z",
-        "age_days": 18,
-        "star_fork_ratio": 2.7,
-        "rank": null,
-        "previous_rank": null,
-        "would_rank": 49,
-        "already_board_excluded": false,
-        "signals": [
-          "pending_high"
-        ],
-        "hints": [
-          "核准即榜 #49"
-        ],
-        "reviewer_note": "Pending: 189 stars. approving would place it around rank 49 of the Top 200. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
+        "reviewer_note": "Pending: 1029 stars. -6 vs previous snapshot. approving would place it around Top 13. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
       }
     ]
   }
