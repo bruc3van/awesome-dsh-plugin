@@ -12,6 +12,7 @@
     "Han-1413141/dsh-cost-meter": "ui-experience",
     "ccch1mneyyy/dsh-TUI": "ui-experience",
     "flymysql/dsh-remote": "integrations-sharing",
+    "R3alloc/dsh-session-deeplink": "integrations-sharing",
     "howlma/dsh-desktop": "ui-experience"
   },
   "excluded_repos": {
@@ -501,6 +502,15 @@
       "summary_en": "Auto-resumes turns that failed to network hiccups, timeouts, or host crashes by sending a queued \"继续\": error classification skips permanent failures, adaptive backoff spaces out retries, continue text supports templates, and browser notifications keep you informed — all configurable from the plugin settings card.",
       "labels_zh": ["自动续跑", "无人值守", "错误分类"],
       "labels_en": ["auto-resume", "unattended", "error classification"]
+    },
+    {
+      "repo": "R3alloc/dsh-session-deeplink",
+      "title_zh": "dsh-session-deeplink — 深链接打开会话与新建对话",
+      "title_en": "dsh-session-deeplink — deep-link sessions and new conversations",
+      "summary_zh": "通过 URL 直接打开已有 DSH 会话，或从工作区菜单在新标签页创建新对话；适合分享会话入口和并行处理多个工作区任务。",
+      "summary_en": "Open an existing DSH session directly from a URL, or create a new conversation in a separate tab from a workspace menu — useful for shareable entry points and parallel workspace tasks.",
+      "labels_zh": ["会话深链接", "新标签页", "工作区"],
+      "labels_en": ["session deep links", "new tab", "workspace"]
     }
   ]
 }
