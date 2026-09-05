@@ -47,6 +47,7 @@
   "PC2005-cloud/dsh-pet": "DSH 桌面宠物：一行命令装好即用的透明动画小桌宠，支持多开、大小位置随心配置；还内置 DIY 素材链，能用 AI 视频自造专属宠物。",
   "QCYTSN/dsh-dafeiyu": "DeepSeek Harness 桌面原生大飞鱼伙伴：实时 Agent 状态，Windows 上始终置顶。",
   "saya-ch/dsh-mobile": "DeepSeek Harness 的 Android 客户端与安全远程访问插件：局域网/远程连接 DSH，移动界面与扩展能力高度自定义。",
+  "SeaOf0/dsh-redteam-model": "基于 dsh web 的多模式红队工作台：覆盖渗透测试、红队评估与代码审计的授权安全研究插件",
   "shanliuling/dsh-image-gen": "在 DSH 对话里直接生成图片的轻量插件。",
   "shaobeichen/dsh-pocket": "把 DeepSeek Harness 装进你的口袋：电脑上跑 dsh web，手机扫码即同步访问（局域网 + 公网，实时同屏）。",
   "shengsheng90/DSH-taskboard": "DSH 原生本地任务板：SQLite 项目、Agent 认领/评审与原生 Web UI，无 iframe。",
