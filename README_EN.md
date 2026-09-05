@@ -328,6 +328,8 @@ Manually screened recent projects, updated from time to time:
 | [xgone/dsh-netshell](https://github.com/xgone/dsh-netshell) | Remote SSH terminal: drive servers straight from the Web UI with a 3-level dangerous-command guardrail, human-approved AI commands, and encrypted credentials that never enter the chat. | 2026-09-02 |
 | [mokuyoaxis/dsh-iris](https://github.com/mokuyoaxis/dsh-iris) | Iris omni-modal workbench: multi-provider routing for image/video/voice generation and visual understanding, with 14 agent tools and a corner workbench panel. | 2026-09-04 |
 | [Yinxe/dsh-custom-ui](https://github.com/Yinxe/dsh-custom-ui) | DSH theme gallery: 23 themes (OpenCode, Linear, Notion, Claude, NVIDIA, GitHub…) with full token mapping, one-click switching in Settings, and persisted preferences. | 2026-09-04 |
+| [pn1024/dsh-ppt-master](https://github.com/pn1024/dsh-ppt-master) | PPT Master: AI-driven presentation workflow - generate editable PPTX decks, SVG snapshots, native template filling, and PPTX enhancement in one plugin. | 2026-08-31 |
+| [pn1024/dsh-skill-hub](https://github.com/pn1024/dsh-skill-hub) | Skill marketplace: aggregated SkillHub + ClawHub search, sidebar entry + overlay panel with README preview, one-click install/uninstall, and a chat-input skill quick-pick. | 2026-09-01 |
 
 ## 📣 Author showcase
 

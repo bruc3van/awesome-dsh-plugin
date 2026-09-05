@@ -328,6 +328,8 @@ mindmap
 | [xgone/dsh-netshell](https://github.com/xgone/dsh-netshell) | 远程 SSH 终端：在 Web UI 直连服务器，危险命令三级护栏，AI 命令须真人确认，密码加密存储不进会话上下文。 | 2026-09-02 |
 | [mokuyoaxis/dsh-iris](https://github.com/mokuyoaxis/dsh-iris) | 全模态媒体工作台 Iris：图像/视频/语音生成与视觉理解多供应商路由，14 个 Agent 工具 + 右下角快捷工作台。 | 2026-09-04 |
 | [Yinxe/dsh-custom-ui](https://github.com/Yinxe/dsh-custom-ui) | DSH 主题画廊：OpenCode/Linear/Notion/Claude/NVIDIA/GitHub 等 23 套主题全量 token 映射，设置页一键切换、偏好持久化。 | 2026-09-04 |
+| [pn1024/dsh-ppt-master](https://github.com/pn1024/dsh-ppt-master) | PPT Master：AI 驱动的演示文稿工作流——生成可编辑 PPTX、SVG 快照、原生模板填充与 PPTX 增强，一站式完成幻灯片制作。 | 2026-08-31 |
+| [pn1024/dsh-skill-hub](https://github.com/pn1024/dsh-skill-hub) | 技能市场：聚合 SkillHub + ClawHub 双源搜索技能，侧边栏入口 + 浮层面板预览 README，一键安装/卸载，聊天栏快速选择技能。 | 2026-09-01 |
 
 ## 📣 作者自荐
 
