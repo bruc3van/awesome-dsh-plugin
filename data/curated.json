@@ -226,7 +226,6 @@
     "huantian1223/dsh_desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "huchunlinnk/deepseek-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "HUITianYi/dsh-whale-desktop-launcher": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
-    "hunterxxn/deep-flow": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "hupoliuguang/dsh-web-start": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "hust-open-atom-club/oh-dsh": "Kept out of the star board: a DSH runtime distribution with a desktop shell, not an installable DSH plugin. Stays in the catalog.",
     "huyang218/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -416,7 +415,6 @@
     "QinpanWan/dsh-harmonyos-market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "qinyre/dsh-Desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "QQ-M/dsh-skill-market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
-    "Qtfycg/windows-portable": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "qwert702/dsh-community": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "qzhqzh/dsh-quickstart": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "R2h1/deepseek-harness-app": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -496,7 +494,6 @@
     "taskschd1145/deepseek-harness-clean": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "TeaClearInkII/DSH-Marketplaces-Nexus": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "Thanksgiver233/dsh-mobile": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
-    "ther000/DshWebLauncher": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "TheYoungChen/dsh-plugin-market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "thisissevenpoints/DeepSeek-Harness-Local-svpts": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "thuang3316/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -617,7 +614,12 @@
     "zrt-ai-lab/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "zsyu9779/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "ztmajor/DSCoder": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
-    "zxheyi/dsh-work": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    "zxheyi/dsh-work": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
+    "chenxiachan/thoughtdag": "Kept out of the star board: stars accrued as a standalone cross-agent canvas/CLI tool (Claude Code / Codex / MCP / Ollama) since Feb 2026; the DeepSeek Harness plugin section is new. Stays in the catalog.",
+    "ijry/DeepSeek-Harness-Desktop-Ultra": "Kept out of the star board: a desktop client (Tauri wrapper of DSH bundling its own plugins), not an installable DSH plugin. Stays in the catalog.",
+    "Mknecar/DeepseekHarness-": "Kept out of the star board: a Windows desktop shortcut/launcher package for dsh web, not an installable DSH plugin. Stays in the catalog.",
+    "ZiFan1117/dsh-atom-market": "Kept out of the star board: a plugin store front — turns the Software Atom Market into an in-DSH store the agent can browse and submit to; the market cannot include another market. Stays in the catalog.",
+    "supanexus/dsh-plugin-supanexus-core": "Kept out of the star board: includes a built-in app-plugin market (browse/install/upgrade community plugins); the market cannot include another market. Stays in the catalog."
   },
   "excluded_repos": {
     "0326/dsh-plugin-market": "DSH plugin marketplace/store website, not an installable plugin.",
@@ -1260,7 +1262,12 @@
     "ZSeven-W/openpencil": "Not a DSH plugin — the generic OpenPencil design tool; its DSH port is ZSeven-W/dsh-openpencil, which stays in the catalog.",
     "zsxh1990/pr-genius": "Generic PR-review CLI/MCP tool for coding agents, not a DSH-specific plugin.",
     "zuorn/Tydora": "Not a DSH plugin — a standalone Markdown editor.",
-    "zzhang82/Agent-Memory-Bridge": "Not a DSH plugin — a generic MCP memory server for coding agents."
+    "zzhang82/Agent-Memory-Bridge": "Not a DSH plugin — a generic MCP memory server for coding agents.",
+    "boe1900/owndsh": "Not a DSH plugin — a self-hosted team control plane (Docker Compose server platform) for administering DSH users, models, keys and plugins.",
+    "Jamailar/dsh-server-kit": "Not a DSH plugin — a Docker-first server distribution/deployment packaging of DeepSeek Harness (Caddy, auth gate, health checks).",
+    "hyzyn/dsh-safe": "Not a DSH plugin — a global npm CLI wrapper (dsh-safe) that auto-disables broken plugins when dsh fails to boot.",
+    "ice5kysl/dsh-plugin-health": "Not a DSH plugin — a standalone zero-dependency health-check CLI (npx) for dsh plugin authors and list maintainers.",
+    "ice5kysl/dsh-plugin-insights": "Not a DSH plugin — an ecosystem observation site and open-data pipeline (health scores, weekly reports; dsh-insights.com)."
   },
   "market_exclusions": {
     "01men/ybkk-AIOS": "An enterprise AI-resource platform bundling skill/plugin markets — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -1709,7 +1716,6 @@
     "qinyre/dsh-Desktop": "Not an installable DSH plugin — an Electron desktop client/wrapper.",
     "qomob/dsh": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "QQ-M/dsh-skill-market": "A DSH skill market / directory — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "Qtfycg/windows-portable": "Not an installable DSH plugin — a portable Windows launcher/distribution of DeepSeek Harness with a bundled Node.js runtime; stays in the catalog and leaderboard, excluded from the downstream market.",
     "qwert702/dsh-community": "A DSH plugin market / directory / store (community plugin store syncing the dsh-plugin topic plus free dsh instance hosting) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "qzhqzh/dsh-quickstart": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "R2h1/deepseek-harness-app": "Not an installable DSH plugin — a desktop client/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -1798,7 +1804,6 @@
     "TeaClearInkII/DSH-Marketplaces-Nexus": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "Thanksgiver233/dsh-mobile": "Not an installable DSH plugin — a standalone Android client app bundling the DSH engine; stays in the catalog and leaderboard, excluded from the downstream market.",
     "theoneLee/deepseek-harness-sdk-go": "Not an installable DSH plugin — a Go SDK for driving DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "ther000/DshWebLauncher": "Not an installable DSH plugin — a standalone Windows tray launcher/process manager; stays in the catalog and leaderboard, excluded from the downstream market.",
     "TheYoungChen/dsh-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "thisissevenpoints/DeepSeek-Harness-Local-svpts": "Not an installable DSH plugin — a tray-resident desktop shell (watchdog + injected UI); stays in the catalog and leaderboard, excluded from the downstream market.",
     "thuang3316/dsh-desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -1941,6 +1946,8 @@
     "zrt-ai-lab/dsh-desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "zsyu9779/dsh-desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "ztmajor/DSCoder": "Not an installable DSH plugin — a Tauri desktop shell for DSH; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "zxheyi/dsh-work": "Not an installable DSH plugin — a plugin-native AI desktop product built on DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market."
+    "zxheyi/dsh-work": "Not an installable DSH plugin — a plugin-native AI desktop product built on DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "ZiFan1117/dsh-atom-market": "A store-client plugin for the Software Atom Market capability store (agent browses/validates/submits atoms) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "supanexus/dsh-plugin-supanexus-core": "Includes a built-in app-plugin market (sidebar browse/install/upgrade of community plugins) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
   }
 }
