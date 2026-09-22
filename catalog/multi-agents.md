@@ -6,13 +6,13 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 
 - 本册收录 / Entries in this volume: **220**
 - 快照日期 / Snapshot date: **2026-09-21 UTC**
-- 最近人工复核 / Last review merge: **2026-09-21**
+- 最近人工复核 / Last review merge: **2026-09-22**
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |
 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | AgentTeams plugin for DeepSeek Harness | JavaScript | 1762 | MIT | 2026-09-21 |
 | [ZJU-LLMs/OpenStory](https://github.com/ZJU-LLMs/OpenStory) | An LLM-powered multi-agent framework for simulating interactive, evolving story worlds. | Python | 419 | Apache-2.0 | 2026-09-20 |
-| [toolclub/dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) | Persistent multi-model workflow teams for DeepSeek Harness — dynamic lead planning, bounded DAGs, per-agent model/tools, Run Center and Token insights. | TypeScript | 219 | MIT | 2026-09-21 |
+| [toolclub/dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) | Persistent multi-model workflow teams for DeepSeek Harness — dynamic lead planning, bounded DAGs, per-agent model/tools, Run Center and Token insights. | TypeScript | 220 | MIT | 2026-09-21 |
 | [omdsh-dev/dsh_workflow](https://github.com/omdsh-dev/dsh_workflow) | 把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层 | TypeScript | 130 | MIT | 2026-09-21 |
 | [zenx0x/allinluna](https://github.com/zenx0x/allinluna) | Resource-aware multi-agent orchestration for Codex and DeepSeek Harness (All in Flash DSH plugin) | Python | 61 | Apache-2.0 | 2026-09-20 |
 | [rootkiller6788/dsh-flow](https://github.com/rootkiller6788/dsh-flow) | A pluginized microkernel architecture for building, orchestrating, and extending multi-agent systems in DeepSeek Harness. | JavaScript | 28 | MIT | 2026-09-21 |
@@ -29,9 +29,9 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 | [Altairpaca/dshelm](https://github.com/Altairpaca/dshelm) | Evidence-backed, explainable multi-model routing for DeepSeek Harness — policy resolution, provenance, and compatibility boundaries. | TypeScript | 9 | Apache-2.0 | 2026-09-10 |
 | [jiazz197-cmyk/omd-dsh](https://github.com/jiazz197-cmyk/omd-dsh) | Multi-mode agent presets for DeepSeek Harness — per-mode model routing + tiered subagent delegation. | TypeScript | 9 | MIT | 2026-09-21 |
 | [yyyy231209/ai-company-framework](https://github.com/yyyy231209/ai-company-framework) | Company Is a Word. 一句话开一家AI公司 - open-source multi-agent orchestration framework for non-developers. 小白5分钟拥有自己的AI公司，可DIY任意行业、调教子Agent、无限家公司，支持飞书遥控。MIT | JavaScript | 8 | MIT | 2026-09-18 |
+| [zibo2025/dsh-orchestrator](https://github.com/zibo2025/dsh-orchestrator) | 【编排模式】为 DeepSeek Harness 提供多智能体编排模式：主智能体分解分派、worker 全网格互通，支持逐 worker 指定模型与思考强度 | TypeScript | 8 | MIT | 2026-09-21 |
 | [JayZz210l/deepseek-harness-for-ide](https://github.com/JayZz210l/deepseek-harness-for-ide) | 把 DeepSeek Harness 完整搬进 JetBrains IDE：智能体对话、工具审批、目标与计划、子智能体与 Workflow。装插件、配一次 API Key，即可对话。DeepSeek Harness — agent chat, tool approvals, goals, subagents & workflows — embedded in your JetBrains IDE. Install, set your API key once, and chat. | Kotlin | 7 | MIT | 2026-09-12 |
 | [polaris-smart/dsh-devices](https://github.com/polaris-smart/dsh-devices) | Turn your devices into a fleet — dsh plugin for decentralized multi-device collaboration: mDNS discovery, key pairing, SSH direct exec. Tools auto-register for dsh agents. | TypeScript | 7 | MIT | 2026-09-15 |
-| [zibo2025/dsh-orchestrator](https://github.com/zibo2025/dsh-orchestrator) | 【编排模式】为 DeepSeek Harness 提供多智能体编排模式：主智能体分解分派、worker 全网格互通，支持逐 worker 指定模型与思考强度 | TypeScript | 7 | MIT | 2026-09-21 |
 | [euuuuuuzer/dsh-loop-dock](https://github.com/euuuuuuzer/dsh-loop-dock) | A loop dock for DeepSeek Harness: one harness, multiple agent loops. | JavaScript | 6 | MIT | 2026-09-12 |
 | [GengDaPeng/dsh-agent-message](https://github.com/GengDaPeng/dsh-agent-message) | DeepSeek Harness 跨会话 Agent 通信插件｜Cross-session agent-to-agent messaging with offline delivery, receipts and session navigation for DeepSeek Harness. | JavaScript | 6 | MIT | 2026-09-17 |
 | [happyren/dsh-agent-messaging](https://github.com/happyren/dsh-agent-messaging) | Cross-session verification, claims and a decision ledger for DeepSeek Harness — so two agent sessions don't repeat, contradict or deadlock each other. | TypeScript | 6 | MIT | 2026-09-15 |
@@ -41,15 +41,15 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 | [Tikzen/dsh-agent-arena](https://github.com/Tikzen/dsh-agent-arena) | Interactive multi-agent collaboration, meetings, group chats, and task execution for DeepSeek Harness. | TypeScript | 6 | MIT | 2026-09-20 |
 | [whutzefengxie-ops/dsh-shadow-mind](https://github.com/whutzefengxie-ops/dsh-shadow-mind) | Independent Shadow agent orchestration plugin for DeepSeek Harness | JavaScript | 6 | MIT | 2026-09-20 |
 | [Fayelin12/dsh-office](https://github.com/Fayelin12/dsh-office) | Agent-office dashboard for DeepSeek Harness (DSH): workspaces, sessions, token usage & subagents in a 6-column sprite office — plus Agent Mail, Feishu/Lark messages, meetings, transcripts & office logs. DeepSeek Harness「办公室」插件：工作区/会话/token/子代理 + 邮箱/飞书消息/会议/逐字稿/日志一屏总览，一眼看穿每个 Agent 在忙什么。 | JavaScript | 5 | MIT | 2026-09-16 |
+| [hanxuanliang/dsh-chaos](https://github.com/hanxuanliang/dsh-chaos) | Durable multi-agent collaboration for DeepSeek Harness: channels, threads, tasks, and resumable agent sessions. | TypeScript | 5 | MIT | 2026-09-21 |
 | [muzyLink/dsh-subagent-profile](https://github.com/muzyLink/dsh-subagent-profile) | DeepSeek Harness 子 Agent 派发插件：按任务为子代理选模型、推理强度与工具范围，常用组合存成命名方案随时复用；内置安全检查、成本估算与节省分析、完整派发决策台账。 | JavaScript | 5 | MIT | 2026-09-12 |
+| [Phant0Meow/femo-plugin](https://github.com/Phant0Meow/femo-plugin) | FEMO插件版 — 可接入dsh的多智能体引擎，差不多能做所有事：我已经用femo和我的主agent玩了好几局狼人杀了，他抽到狼他还刀我！ 我在b站的宣传视频也是用femo剪的。 coding的时候，特别难找的bug、代码重构，我都会用femo来做。 我甚至用femo模式给我的主agent养了只宠物，她很开心。 | JavaScript | 5 | Apache-2.0 | 2026-09-21 |
 | [82c86b8z86-stack/dsh-engineering-workflow](https://github.com/82c86b8z86-stack/dsh-engineering-workflow) | Engineering workflow layer for DeepSeek Harness (dsh): a disciplined-engineer agent preset with five gated phases — requirements clarification, plan approval, TDD, parallel subagent execution, and verified finishing. Skills adapted from obra/superpowers. | JavaScript | 4 | MIT | 2026-09-12 |
 | [cyanseek/dsh-native-playbook](https://github.com/cyanseek/dsh-native-playbook) | Task-aware native capability manager for DeepSeek Harness — use, prepare, and verify built-in DSH tools before adding another plugin. | TypeScript | 4 | MIT | 2026-09-17 |
 | [fan56/dsh-subagent-registry](https://github.com/fan56/dsh-subagent-registry) | dsh plugin: register ~/.dsh/agents/*.md as dsh-callable subagents | JavaScript | 4 | MIT | 2026-09-20 |
-| [hanxuanliang/dsh-chaos](https://github.com/hanxuanliang/dsh-chaos) | Durable multi-agent collaboration for DeepSeek Harness: channels, threads, tasks, and resumable agent sessions. | TypeScript | 4 | MIT | 2026-09-09 |
 | [hongyue0721/dsh-kimicode-swarm](https://github.com/hongyue0721/dsh-kimicode-swarm) | DeepSeek Harness 批量并行子 Agent 调度插件：swarm_batch 工具（Kimi Code Swarm 模式移植）+ /swarm 命令 + 聊天内实时进度条 | TypeScript | 4 | MIT | 2026-09-17 |
 | [linkbag/dsh-swarm-orchestrator](https://github.com/linkbag/dsh-swarm-orchestrator) | Role-based AI swarm orchestration for DeepSeek Harness: per-role model pinning with fallbacks, parallel task DAG with review loops, live Swarm dashboard tab. | TypeScript | 4 | MIT | 2026-09-20 |
 | [monotykamary/dsh-factory](https://github.com/monotykamary/dsh-factory) | Durable dependency-graph task factory for DeepSeek Harness: recurring Agent work, safe checkout lanes, first-class queues, Triage, and artifacts. | TypeScript | 4 | MIT | 2026-09-12 |
-| [Phant0Meow/femo-plugin](https://github.com/Phant0Meow/femo-plugin) | FEMO插件版 — 可接入dsh的多智能体引擎，差不多能做所有事：我已经用femo和我的主agent玩了好几局狼人杀了，他抽到狼他还刀我！ 我在b站的宣传视频也是用femo剪的。 coding的时候，特别难找的bug、代码重构，我都会用femo来做。 我甚至用femo模式给我的主agent养了只宠物，她很开心。 | JavaScript | 4 | Apache-2.0 | 2026-09-20 |
 | [SnowAmberX/dsh-role-router](https://github.com/SnowAmberX/dsh-role-router) | Role-based model routing plugin for DeepSeek Harness: planner/subagent roles plus a settings card and composer summary | TypeScript | 4 | BSD-3-Clause | 2026-09-19 |
 | [YYTbit/oh-my-deepseek-harness](https://github.com/YYTbit/oh-my-deepseek-harness) | Multi-agent orchestration for DeepSeek Harness | TypeScript | 4 | MIT | 2026-09-12 |
 | [1052326311/dsh-plan-lattice](https://github.com/1052326311/dsh-plan-lattice) | Execution-time drift firewall for long-running DeepSeek Harness agents. Real-Harness tests: unsafe stale mutations 12/12 native -> 0/12; valid controls 7/7 both; post-SIGKILL unsafe continuation 2/2 -> 0/2. | JavaScript | 3 | MIT | 2026-09-12 |

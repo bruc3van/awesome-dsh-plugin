@@ -669,7 +669,15 @@
     "zrt-ai-lab/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "zsyu9779/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "ztmajor/DSCoder": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
-    "zxheyi/dsh-work": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    "zxheyi/dsh-work": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
+    "lingfengQAQ/webnovel-writer": "Kept out of the star board: stars accrued as a Claude Code marketplace plugin (v6); the DSH workbench (v8 branch) is a fresh preview. Stays in the catalog.",
+    "IDKWhatID2Use/whales-launcher": "Kept out of the star board: a desktop launcher/instance manager, not an installable DSH plugin. Stays in the catalog.",
+    "itchenshi/DeepSeekHarnessGUI": "Kept out of the star board: a desktop shell, not an installable DSH plugin. Stays in the catalog.",
+    "Underwater008/deepshell": "Kept out of the star board: a native macOS desktop shell, not an installable DSH plugin. Stays in the catalog.",
+    "chenweigao/perch": "Kept out of the star board: a native macOS desktop app for remote coding agents, not an installable DSH plugin. Stays in the catalog.",
+    "realguan/dsh-dock": "Kept out of the star board: a desktop control center with a built-in plugin center — the market cannot include another market. Stays in the catalog.",
+    "gzsxy/dsh-plugin-skills-manager": "Kept out of the star board: a skill market/store plugin — the market cannot include another market. Stays in the catalog.",
+    "AgentsDanceAI/AIStore": "Kept out of the star board: a hosted/self-hosted cloud workspace platform (accounts, model gateway, billing) bundling DSH with other AI products, not an installable DSH plugin. Stays in the catalog."
   },
   "excluded_repos": {
     "01men/CDPP": "Not a DSH plugin — a cross-border document-processing platform repo (no README, no DSH install path).",
@@ -1445,7 +1453,11 @@
     "zrk222/code-factory": "Not a DSH plugin — a generic local proof/review CLI for AI-generated code.",
     "zsxh1990/pr-genius": "Generic PR-review CLI/MCP tool for coding agents, not a DSH-specific plugin.",
     "zuorn/Tydora": "Not a DSH plugin — a standalone Markdown editor.",
-    "zzhang82/Agent-Memory-Bridge": "Not a DSH plugin — a generic MCP memory server for coding agents."
+    "zzhang82/Agent-Memory-Bridge": "Not a DSH plugin — a generic MCP memory server for coding agents.",
+    "222wcnm/dsh-manager": "Not a DSH plugin — a browser extension + native messaging host that starts/stops the dsh web service.",
+    "Dev-Wiki/dev-harness-runtime": "Not a DSH plugin — a standalone multi-platform harness runtime (dev-harness) shipping a Codex plugin; the DSH adapter is not available yet.",
+    "magian1127/GodotMCP": "Not a DSH plugin — a Godot 4 editor addon + MCP daemon with multi-client adapters; the DSH adapter ships as a separate repository.",
+    "kira905/dsh-diagnostic-tools": "Not a DSH plugin — standalone read-only diagnostic scripts run directly with Node against existing DSH installations."
   },
   "market_exclusions": {
     "01men/ybkk-AIOS": "An enterprise AI-resource platform bundling skill/plugin markets — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -2140,6 +2152,9 @@
     "yyh-001/DSH-X": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "jianjianzhu/dsh-harness-ui": "Includes a built-in plugin marketplace (browses the dsh-plugin topic) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market.",
     "VDERR/echocat-skill-panel": "A skill panel with one-click skill-install flows (GitHub / ZIP / SKILL.md URLs) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market.",
-    "LX2000WASD/dsh-plugin-manager-companion": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    "LX2000WASD/dsh-plugin-manager-companion": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "realguan/dsh-dock": "A desktop control center with a built-in plugin market — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
+    "gzsxy/dsh-plugin-skills-manager": "A skill market/store plugin — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
+    "AgentsDanceAI/AIStore": "A cloud platform bundling product workspaces that carry their own plugin marketplaces — the market cannot include another market; stays in the catalog, excluded from the downstream market."
   }
 }
