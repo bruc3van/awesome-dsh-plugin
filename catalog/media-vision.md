@@ -4,7 +4,7 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **679**
+- 本册收录 / Entries in this volume: **678**
 - 快照日期 / Snapshot date: **2026-09-21 UTC**
 - 最近人工复核 / Last review merge: **2026-09-22**
 
@@ -113,7 +113,6 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 | [GooDAnDReaDY/dsh-image-gen](https://github.com/GooDAnDReaDY/dsh-image-gen) | Image generation & visual processing suite for DeepSeek Harness: pluggable providers (FAL, Replicate, OpenAI, ChatGPT Plus, Grok, ComfyUI, SeaDream, Gemini), tools (remove_background, upscale_image, vectorize_image, blend_images), style presets and chat card. | JavaScript | 4 | MIT | 2026-09-20 |
 | [H97y/dsh-devflow](https://github.com/H97y/dsh-devflow) | Automated development pipeline plugin for DeepSeek Harness: requirement pool → LLM refine/design/plan/review → workspace-routed implementation → verify → merge → report | TypeScript | 4 | MIT | 2026-09-13 |
 | [kevin-luo/dsh-org-panel](https://github.com/kevin-luo/dsh-org-panel) | deepseek harness 纯牛马 —— 多智能体数字员工指挥台插件 | TypeScript | 4 | NOASSERTION | 2026-09-12 |
-| [lcestou/dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) | Claude Code CLI as an LLM provider for dsh (DeepSeek Harness): live model list, per-session resume, approval relay, images, a memory/rewind/changes panel, and workspaces on remote SSH boxes | TypeScript | 4 | MIT | 2026-09-21 |
 | [linkingoscar/dsh-attachment-formats](https://github.com/linkingoscar/dsh-attachment-formats) | Codex-style attachment formats for the DeepSeek Harness Web GUI: PDF text-layer extraction, Office text extraction, scanned-PDF OCR, long-document spill + index cards, image-to-PNG. | JavaScript | 4 | Apache-2.0 | 2026-09-20 |
 | [maxwell-feng/dsh-tesseract-ocr](https://github.com/maxwell-feng/dsh-tesseract-ocr) | dsh plugin: OCR attached images locally with Tesseract — text-only models can see, privacy-first | TypeScript | 4 | MIT | 2026-09-18 |
 | [MlittleFriend/dsh-character-profiler](https://github.com/MlittleFriend/dsh-character-profiler) | This is a novel creation assistance tool. It can analyze the character traits or other characteristics based on the current storyline, thereby assessing the degree of deviation from the character design during the creative process. | JavaScript | 4 | MIT | 2026-09-15 |

@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–M）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **2146**
+- 本册收录 / Entries in this volume: **2147**
 - 快照日期 / Snapshot date: **2026-09-21 UTC**
 - 最近人工复核 / Last review merge: **2026-09-22**
 
@@ -333,6 +333,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–M）」分册 / 
 | [kui123456789/dsh-codex-workflow](https://github.com/kui123456789/dsh-codex-workflow) | DSH plugin that coordinates Codex planning and independent review while DSH executes. | TypeScript | 4 | MIT | 2026-09-15 |
 | [KunIsMe/dsh-filescope](https://github.com/KunIsMe/dsh-filescope) | FileScope · 文件视界 — DeepSeek Harness 工作区文件浏览器插件（右侧抽屉 + 实时预览） | TypeScript | 4 | MIT | 2026-09-12 |
 | [LamplitIsles/dsh-companion](https://github.com/LamplitIsles/dsh-companion) | dsh-companion turns DeepSeek Harness into a focused AI companion experience, with persistent relationship state and continuity across sessions | TypeScript | 4 | Apache-2.0 | 2026-09-06 |
+| [lcestou/dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) | Claude Code CLI as an LLM provider for dsh (DeepSeek Harness): live model list, per-session resume, approval relay, images, a memory/rewind/changes panel, and workspaces on remote SSH boxes | TypeScript | 4 | MIT | 2026-09-21 |
 | [Leawind/dsh-minecraft-dev](https://github.com/Leawind/dsh-minecraft-dev) | 一个面向 Minecraft 模组开发的 DeepSeek Harness Agent 预设 | — | 4 | MIT | 2026-09-05 |
 | [LemCAE/dsh-balance](https://github.com/LemCAE/dsh-balance) | 一个适用于deepseek-harness的插件，功能是显示当前账户余额以及当前会话预估的费用消耗 \| A plugin for deepseek-harness that displays the current account balance and the estimated cost consumption of the current session. | TypeScript | 4 | MIT | 2026-09-11 |
 | [leon-zym/dsh-fold-turns](https://github.com/leon-zym/dsh-fold-turns) | Fold completed DeepSeek Harness chat turns without replacing native renderers. | TypeScript | 4 | MIT | 2026-09-16 |
