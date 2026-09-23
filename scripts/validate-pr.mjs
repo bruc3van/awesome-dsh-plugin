@@ -1,11 +1,20 @@
 #!/usr/bin/env node
 
-// Validates an open pull request against the author-showcase submission rules:
+// Validates an open pull request against the submission rules:
 //
 // 1. The PR title must be proper UTF-8 text: no replacement characters
 //    (U+FFFD) and no runs of "?" left behind by a failed encoding round-trip.
 //    Garbled titles are rejected outright.
-// 2. Every repository the PR ADDS to (or rewrites in) the author-showcase
+// 2. Every changed path must belong to a known lane. PRs may touch the
+//    hand-maintained pages, the curation data files, scripts/, .github/, and
+//    repo meta files; generated pages (CATALOG.md, catalog/, TOP200.md,
+//    MARKET.md, data/market.json) are accepted only alongside scripts/
+//    changes; the daily-pipeline files (data/repositories.json,
+//    data/review/pending.*) are never accepted. Anything else — e.g. a made-up
+//    data/plugins/*.yml submission — is rejected: no lane consumes it.
+//    Maintainers can bypass with the `ci: allow-any-path` label (re-run the
+//    workflow after labeling).
+// 3. Every repository the PR ADDS to (or rewrites in) the author-showcase
 //    sections must be public, carry the `dsh-plugin` topic, and have MORE
 //    THAN 10 stars. Only lines the PR itself introduces (diff lines starting
 //    with `+`) are checked, so entries that predate this rule stay untouched.
@@ -64,6 +73,89 @@ if (prNumber) {
   errors.push('PR_NUMBER is not set — run this script from the validate-pr workflow');
 }
 
+// --- 3. Changed paths must belong to a known lane ----------------------------
+const handMaintainedPaths = new Set([
+  'SHOWCASE.md', 'README.md', 'README_EN.md', 'CONTRIBUTING.md', 'LICENSE',
+  '.gitattributes', '.gitignore',
+  'data/approved.json', 'data/curated.json', 'data/leaderboard-descriptions-zh.json',
+  'data/review/README.md',
+]);
+const touchesScripts = (path) => path === 'scripts' || path.startsWith('scripts/');
+const touchesWorkflow = (path) => path === '.github' || path.startsWith('.github/');
+const isGenerated = (path) =>
+  path === 'CATALOG.md' || path === 'TOP200.md' || path === 'MARKET.md' ||
+  path === 'data/market.json' || path === 'catalog' || path.startsWith('catalog/');
+const isPipeline = (path) =>
+  path === 'data/repositories.json' ||
+  path === 'data/review/pending.json' || path === 'data/review/pending.md';
+
+const changedPaths = [];
+let pathBypass = false;
+if (prNumber) {
+  try {
+    // Labels decide the maintainer bypass; the files API gives clean paths.
+    const [pullResponse, ...filePages] = await Promise.all([
+      fetch(`https://api.github.com/repos/${repoSlug}/pulls/${prNumber}`, {
+        headers: { ...headers, Accept: 'application/vnd.github+json' },
+      }),
+      fetch(`https://api.github.com/repos/${repoSlug}/pulls/${prNumber}/files?per_page=100`, {
+        headers: { ...headers, Accept: 'application/vnd.github+json' },
+      }),
+    ]);
+    if (pullResponse.ok) {
+      const pull = await pullResponse.json();
+      pathBypass = (pull.labels || []).some((label) => label.name === 'ci: allow-any-path');
+    }
+    let filesJson = null;
+    if (filePages[0].ok) {
+      filesJson = await filePages[0].json();
+      for (const file of filesJson) changedPaths.push(file.filename);
+      // Follow pagination, but cap the audit at 300 files — beyond that the PR
+      // is noise whatever it contains, and the error says so.
+      for (let page = 2; page <= 3 && filesJson.length === 100; page++) {
+        const next = await fetch(
+          `https://api.github.com/repos/${repoSlug}/pulls/${prNumber}/files?per_page=100&page=${page}`,
+          { headers: { ...headers, Accept: 'application/vnd.github+json' } },
+        );
+        if (!next.ok) break;
+        filesJson = await next.json();
+        for (const file of filesJson) changedPaths.push(file.filename);
+      }
+      if (filesJson.length === 100) {
+        errors.push('PR touches 300+ files — split it into reviewable chunks');
+      }
+    } else {
+      errors.push(`could not list the PR files: GitHub API ${filePages[0].status}`);
+    }
+  } catch (error) {
+    errors.push(`could not inspect the PR files: ${error.message}`);
+  }
+
+  if (!pathBypass) {
+    const alsoChangesScripts = changedPaths.some(touchesScripts);
+    for (const path of changedPaths) {
+      if (isPipeline(path)) {
+        errors.push(
+          `${path}: refreshed daily by the update-catalog workflow — do not commit it in a PR`,
+        );
+      } else if (isGenerated(path) && !alsoChangesScripts) {
+        errors.push(
+          `${path}: generated file — include generated pages only in PRs that also change scripts/ (see CONTRIBUTING.md)`,
+        );
+      } else if (
+        !handMaintainedPaths.has(path) && !touchesScripts(path) &&
+        !touchesWorkflow(path) && !isGenerated(path)
+      ) {
+        errors.push(
+          `${path}: not part of any submission lane — PRs may touch SHOWCASE.md, README.md / README_EN.md, ` +
+          'data/curated.json, data/approved.json, data/leaderboard-descriptions-zh.json, scripts/ or .github/ ' +
+          '(see CONTRIBUTING.md; maintainers may label `ci: allow-any-path` and re-run)',
+        );
+      }
+    }
+  }
+}
+
 for (const line of diff.split('\n')) {
   const match = line.match(addedEntryPattern);
   if (match && !repos.some((repo) => repo.toLowerCase() === match[1].toLowerCase())) {
@@ -110,6 +202,10 @@ if (errors.length) {
 
 console.log(
   `PR #${prNumber ?? '?'} is valid — title ok${
+    pathBypass
+      ? '; path check bypassed via `ci: allow-any-path`'
+      : `; ${changedPaths.length} changed path(s) within the allowed lanes`
+  }${
     repos.length
       ? `; ${repos.join(', ')} checked (public, dsh-plugin topic, > ${starThreshold} stars)`
       : '; no author-showcase entries added'

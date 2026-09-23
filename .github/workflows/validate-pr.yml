@@ -1,7 +1,11 @@
 name: Validate pull request
 
-# Checks every PR against the author-showcase submission rules:
+# Checks every PR against the submission rules:
 #  - the title must be proper UTF-8 text (garbled titles are rejected);
+#  - every changed path must belong to a known lane (hand-maintained pages,
+#    curation data, scripts/, .github/); generated pages only alongside
+#    scripts/ changes, daily-pipeline files never; maintainers may bypass
+#    with the `ci: allow-any-path` label (re-run after labeling);
 #  - any author-showcase repository the PR adds or rewrites must be public,
 #    carry the `dsh-plugin` topic, and have more than 10 stars.
 # Existing showcase entries are grandfathered: only lines the PR introduces
@@ -26,7 +30,7 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 22
-      - name: Validate PR title and author-showcase star threshold
+      - name: Validate PR title, changed paths, and author-showcase star threshold
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
