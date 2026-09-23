@@ -246,7 +246,6 @@
     "Ultmebius/universal-plugin-hub": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "UnknowCao/dsh-dock": "Kept out of the star board: a desktop launcher (single exe + sidebar menu), not an installable DSH plugin. Stays in the catalog.",
     "V-dev-388/DSH-plugin-market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
-    "VDERR/echocat-skill-panel": "Kept out of the star board: a skill panel with one-click skill-install flows (a market — the market cannot include another market); its +101★/day burst landed on a repo created the same day with throwaway-fork engagement. Stays in the catalog.",
     "Viveksssss/DeepSeek-harness-marketplace": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "Void0312Aurora/dsh-desktop-electron": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "WEP-56/DSH-Launcher": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -673,12 +672,16 @@
     "zxheyi/dsh-work": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "lingfengQAQ/webnovel-writer": "Kept out of the star board: stars accrued as a Claude Code marketplace plugin (v6); the DSH workbench (v8 branch) is a fresh preview. Stays in the catalog.",
     "IDKWhatID2Use/whales-launcher": "Kept out of the star board: a desktop launcher/instance manager, not an installable DSH plugin. Stays in the catalog.",
-    "itchenshi/DeepSeekHarnessGUI": "Kept out of the star board: a desktop shell, not an installable DSH plugin. Stays in the catalog.",
     "Underwater008/deepshell": "Kept out of the star board: a native macOS desktop shell, not an installable DSH plugin. Stays in the catalog.",
     "chenweigao/perch": "Kept out of the star board: a native macOS desktop app for remote coding agents, not an installable DSH plugin. Stays in the catalog.",
     "realguan/dsh-dock": "Kept out of the star board: a desktop control center with a built-in plugin center — the market cannot include another market. Stays in the catalog.",
     "gzsxy/dsh-plugin-skills-manager": "Kept out of the star board: a skill market/store plugin — the market cannot include another market. Stays in the catalog.",
-    "AgentsDanceAI/AIStore": "Kept out of the star board: a hosted/self-hosted cloud workspace platform (accounts, model gateway, billing) bundling DSH with other AI products, not an installable DSH plugin. Stays in the catalog."
+    "AgentsDanceAI/AIStore": "Kept out of the star board: a hosted/self-hosted cloud workspace platform (accounts, model gateway, billing) bundling DSH with other AI products, not an installable DSH plugin. Stays in the catalog.",
+    "itchenshi/dsh-ready-gui": "Kept out of the star board: a desktop shell, not an installable DSH plugin. Stays in the catalog.",
+    "VDERR/dsh-echocat-skill-panel": "Kept out of the star board: a skill panel with one-click skill-install flows (a market — the market cannot include another market); its +101★/day burst landed on a repo created the same day with throwaway-fork engagement. Stays in the catalog.",
+    "btsd321/dsh-remote-explorer": "Kept out of the star board: a remote-development launcher app (installs dsh on a remote host and renders the UI locally), not an installable DSH plugin. Stays in the catalog.",
+    "Zh0uHX/dsh-skills": "Kept out of the star board: a Skills.sh skill store inside DSH settings (a market — the market cannot include another market). Stays in the catalog.",
+    "Devin-AXIS/jev-dsh-decision": "Kept out of the star board: stars accrued as a cross-ecosystem topic-farm (20 topics spanning codex / opencode / apollo / ipollowork / dsh harnesses) — 111★ in three days on a repo with no commits after its creation day, not from the DSH plugin audience. Stays in the catalog."
   },
   "excluded_repos": {
     "01men/CDPP": "Not a DSH plugin — a cross-border document-processing platform repo (no README, no DSH install path).",
@@ -1458,7 +1461,10 @@
     "222wcnm/dsh-manager": "Not a DSH plugin — a browser extension + native messaging host that starts/stops the dsh web service.",
     "Dev-Wiki/dev-harness-runtime": "Not a DSH plugin — a standalone multi-platform harness runtime (dev-harness) shipping a Codex plugin; the DSH adapter is not available yet.",
     "magian1127/GodotMCP": "Not a DSH plugin — a Godot 4 editor addon + MCP daemon with multi-client adapters; the DSH adapter ships as a separate repository.",
-    "kira905/dsh-diagnostic-tools": "Not a DSH plugin — standalone read-only diagnostic scripts run directly with Node against existing DSH installations."
+    "kira905/dsh-diagnostic-tools": "Not a DSH plugin — standalone read-only diagnostic scripts run directly with Node against existing DSH installations.",
+    "JularDepick/AGENTS.md-Best-Practices": "Not a DSH plugin — a best-practices collection of AGENTS.md prompt templates packaged as a generic agent skill.",
+    "yixiuzhemu/Remote-Task": "Not a DSH plugin — an empty placeholder repository.",
+    "kira905/dsh-firstaid": "Not a DSH plugin — a standalone incident-diagnosis CLI (clone-and-run Node script that works even without the harness)."
   },
   "market_exclusions": {
     "01men/ybkk-AIOS": "An enterprise AI-resource platform bundling skill/plugin markets — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -2152,10 +2158,11 @@
     "yueyexiayu/dsh-shichang": "A read-only in-app plugin catalog/market panel for DSH Desktop — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "yyh-001/DSH-X": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "jianjianzhu/dsh-harness-ui": "Includes a built-in plugin marketplace (browses the dsh-plugin topic) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market.",
-    "VDERR/echocat-skill-panel": "A skill panel with one-click skill-install flows (GitHub / ZIP / SKILL.md URLs) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market.",
     "LX2000WASD/dsh-plugin-manager-companion": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "realguan/dsh-dock": "A desktop control center with a built-in plugin market — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
     "gzsxy/dsh-plugin-skills-manager": "A skill market/store plugin — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
-    "AgentsDanceAI/AIStore": "A cloud platform bundling product workspaces that carry their own plugin marketplaces — the market cannot include another market; stays in the catalog, excluded from the downstream market."
+    "AgentsDanceAI/AIStore": "A cloud platform bundling product workspaces that carry their own plugin marketplaces — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
+    "VDERR/dsh-echocat-skill-panel": "A skill panel with one-click skill-install flows (GitHub / ZIP / SKILL.md URLs) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market.",
+    "Zh0uHX/dsh-skills": "Searches, installs and manages Skills.sh skills from inside DSH settings — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
   }
 }
