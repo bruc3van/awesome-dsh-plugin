@@ -13,6 +13,7 @@
   "Lum1104/dsh-browser": "一款 Chrome 侧边栏扩展程序，可让 DeepSeek Harness 直接操控您的浏览器，无需视觉能力。",
   "Mars-Sea/dsh-commandcode-provider": "Command Code 服务商接入插件：模型直连与实时目录、套餐感知的模型选择、推理力度、图片输入、联网搜索与多账号轮换。",
   "MeteorNOX/DeepSeek-Balance-Whale-Widget": "住在 DSH 界面右下角的小鲸鱼娘，帮你盯着 DeepSeek 账户余额：QQ 弹弹、拖拽吸附、左吸附翻转、数字滚动动画，随界面自动启用。",
+  "Miaotofu01/Study-Mate": "AI 学习搭档：定计划、讲知识、做项目，边学边做学透一门科目的 DSH 学习模式预设",
   "Minglink/dsh-infinite-gen-3": "面向 DeepSeek-V4 的系统提示注入插件「无限三代」：破甲版只保留提示词注入与客户端状态条，砍掉工具增强面。",
   "Minglink/dsh-infinite-gen-4": "DeepSeek V4.1/Flash 网络安全红队评测插件：双层提示词注入内核、60+ 黑盒突破车道与客户端实时状态条。",
   "Nagi-ovo/dsh-ads": "把 DSH 变成 2005 年门户网站：恶搞广告、假游戏与弹窗。",
@@ -54,6 +55,7 @@
   "morluto/rea": "用 Agent 做逆向工程：从应用行为一路到原生二进制。",
   "mrpulor-gh/nuphus-mcp": "桌面自动化 MCP 服务器：任何 AI Agent 都能控制屏幕、窗口、鼠标键盘与 Chrome。",
   "omdsh-dev/DSH-better-sidebar": "开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/侧边对话/Git/子代理页面",
+  "omdsh-dev/dsh-browser": "让 DSH 直接操控你正在用的浏览器：页面转结构化文本按编号操作元素，保留登录态，无需视觉模型。",
   "omdsh-dev/dsh-data-agent": "把 DSH 连上数据库：对话式数据分析与可执行的业务洞察。",
   "omdsh-dev/dsh-genui": "通过 dsh-ui 围栏在助手回复内内联渲染交互式 UI：布局、图表、表单、测验、Mermaid、3D 场景与回环到模型的事件循环。",
   "omdsh-dev/dsh-mnemon": "面向 DeepSeek Harness 的可组合三层记忆控制平面：持久运行时上下文、可检索项目文档、可插拔长期记忆与护栏策略，含 WebUI。",
@@ -74,6 +76,5 @@
   "ysr666/dsh-vision-router": "纯文本 DeepSeek Harness Agent 的视觉之眼：免费视觉链（无需 Key）+ 像素级视觉工具（问答、定位、OCR），一行安装。",
   "zenstory-ai/oh-story-dsh": "小说写作与短剧生产插件，由 Oh Story 与 Drama Skills 驱动。",
   "zh667/TokenLedger": "DSH 令牌用量账本：中转站归因，零配置、无需凭据。",
-  "zhu1090093659/dsh-web": "DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发",
-  "omdsh-dev/dsh-browser": "让 DSH 直接操控你正在用的浏览器：页面转结构化文本按编号操作元素，保留登录态，无需视觉模型。"
+  "zhu1090093659/dsh-web": "DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发"
 }
