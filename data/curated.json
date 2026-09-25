@@ -2,6 +2,7 @@
   "category_overrides": {
     "Han-1413141/dsh-cost-meter": "ui-experience",
     "KinGao294/dsh-skin": "ui-experience",
+    "Noob-stupid/dsh-plugin-gating-hub": "developer-tools",
     "Nwflower/dsh-chat-import": "integrations-sharing",
     "ZSeven-W/dsh-openpencil": "media-vision",
     "bpc-oss/dsh-web-billing": "ui-experience",

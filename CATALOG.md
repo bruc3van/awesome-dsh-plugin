@@ -20,13 +20,13 @@ The catalog is split into one volume per category — the full list outgrew GitH
 
 | 类目 / Category | 条目 / Entries |
 | --- | ---: |
-| [生态与资源 / Ecosystem & Resources](./catalog/ecosystem-resources.md) | 660 |
+| [生态与资源 / Ecosystem & Resources](./catalog/ecosystem-resources.md) | 659 |
 | [界面与体验 / UI & Experience](./catalog/ui-experience.md) | 2654 |
 | [设计、媒体与视觉 / Design, Media & Vision](./catalog/media-vision.md) | 687 |
 | [网页与浏览器 / Web & Browser](./catalog/web-browser.md) | 2092 |
 | [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 398 |
 | [知识与研究 / Knowledge & Research](./catalog/knowledge-research.md) | 696 |
-| [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 604 |
+| [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 605 |
 | [多 Agent 编排与协作 / Multi-Agent Orchestration & Teams](./catalog/multi-agents.md) | 222 |
 | [Agent、自动化与工作流（A–M） / Agents, Automation & Workflows (A–M)](./catalog/agents-workflows.md) | 2213 |
 | [Agent、自动化与工作流（N–Z） / Agents, Automation & Workflows (N–Z)](./catalog/agents-workflows-n-z.md) | 2699 |

@@ -55,11 +55,11 @@ mindmap
     Design media and vision · 687
       Image understanding and OCR
       Design canvas and UI restoration
-    Ecosystem and resources · 660
+    Ecosystem and resources · 659
       Plugin markets and registries
       Templates and scaffolds
       Guides and handbooks
-    Developer tools · 604
+    Developer tools · 605
       Git and diff
       Sandbox and runtimes
       Debugging and diagnostics
