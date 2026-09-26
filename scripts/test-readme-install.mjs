@@ -247,3 +247,15 @@ test('extractInstallTargets: caps at three targets, github and npm channels coex
     'desktop github:o/dsh-x',
   ]);
 });
+
+test('argument values and plain package names survive without swallowing inline prose', () => {
+  const pick = (text) => extractInstallTargets(text, { owner: 'o', repo: 'dsh-demo' }).picks[0];
+  assert.equal(pick('dsh plugin add dsh-demo --profile web').command, 'dsh plugin add dsh-demo --profile web');
+  assert.equal(pick('dsh plugin add dsh-demo --tag next').command, 'dsh plugin add dsh-demo --tag next');
+  assert.equal(pick('dsh plugin add --tag next dsh-demo').source, 'npm:dsh-demo');
+  assert.equal(pick('dsh plugin add dsh-demo lodash').command, 'dsh plugin add dsh-demo lodash');
+  assert.equal(pick('Use `dsh plugin add dsh-demo lodash react` now.').command, 'dsh plugin add dsh-demo lodash react');
+  assert.equal(pick('```sh\ndsh plugin add dsh-demo lodash react\n```').command, 'dsh plugin add dsh-demo lodash react');
+  assert.equal(pick('Use `dsh plugin add dsh-demo` today').command, 'dsh plugin add dsh-demo');
+  assert.equal(pick('dsh plugin add dsh-demo --tag'), undefined);
+});

@@ -51,7 +51,16 @@ export function cleanSegment(raw) {
 
 export function commandsFrom(text) {
   const segments = [];
+  let fence = null;
   for (const raw of String(text).split(/\r?\n/)) {
+    const marker = /^\s*(`{3,}|~{3,})/.exec(raw)?.[1];
+    if (marker) {
+      if (fence === null) fence = marker;
+      else if (marker[0] === fence[0] && marker.length >= fence.length) fence = null;
+      continue;
+    }
+    const inlineCommands = [...raw.matchAll(/`([^`]+)`/g)]
+      .map((m) => cleanSegment(m[1])).filter((line) => /\bdsh\s+plugin\b/.test(line));
     // Markdown tables: split into cells and treat every cell as its own
     // candidate line. A command sitting in a middle cell survives with its
     // surrounding cells (version columns, host requirements, …) stripped,
@@ -97,7 +106,8 @@ export function commandsFrom(text) {
       const addM = /(?:^|\s)add\s+/.exec(after);
       if (!addM) continue;
       if (/\b(remove|uninstall|update|list|doctor|repair|verify|enable|disable)\b/i.test(after.slice(0, addM.index))) continue;
-      segments.push({ seg: cell, command });
+      const inline = inlineCommands.find((line) => line.includes(command.split(' plugin')[0]) && command.startsWith(line));
+      segments.push({ seg: cell, command, codeCommand: inline ?? (fence ? command : undefined) });
     }
     }
   }
@@ -134,17 +144,13 @@ export function classify(target) {
   return { kind: 'other' };
 }
 
-// Tokens that may legitimately FOLLOW an install target: flags
-// (--trust-lockfile, -w, --registry=…) and further package specs — scoped
-// names (@scope/x), refs/URLs (contain /), hyphenated names (dsh-md-render).
-// Plain English words also fit a loose npm-name grammar ("that", "plugin"),
-// so bare unhyphenated words END the command — prose like "add on that
-// plugin directory. If the CLI is not available" must not flow in.
-const isCommandContinuation = (token) => {
-  if (token.startsWith('-')) return true;
-  const bare = token.replace(/^["']+|["']+$/g, '');
-  return /[@/]/.test(bare) || /-/.test(bare);
-};
+// Options with a separate value must consume it even when it is a plain word.
+const VALUE_OPTIONS = new Set([
+  '--profile', '--registry', '--tag', '--filter', '-F', '--dir', '-C',
+  '--store-dir', '--virtual-store-dir', '--modules-dir', '--config',
+]);
+const unquote = (token) => token.replace(/^["']+|["']+$/g, '');
+const isPackage = (token) => ['npm', 'github', 'url'].includes(classify(unquote(token)).kind);
 
 const trailingPunctuation = /[.,;:!?)\]}>…””’】」』]+$/;
 
@@ -161,7 +167,8 @@ const trimTrailingProse = (command) => {
 
 export function targetsFrom(segments) {
   const found = [];
-  for (const { command } of segments) {
+  for (const segment of segments) {
+    const command = segment.codeCommand ?? segment.command;
     const addM = /(?:^|\s)add\s+/.exec(command);
     if (!addM) continue;
     const restStart = addM.index + addM[0].length;
@@ -176,6 +183,10 @@ export function targetsFrom(segments) {
       const token = tokens[index];
       if (token.startsWith('-')) {
         offset += token.length + 1;
+        if (VALUE_OPTIONS.has(token)) {
+          if (!tokens[index + 1] || tokens[index + 1].startsWith('-')) break;
+          offset += tokens[++index].length + 1;
+        }
         continue;
       }
       targetToken = token;
@@ -184,17 +195,27 @@ export function targetsFrom(segments) {
     if (targetToken === null) continue;
     const target = targetToken.replace(/^["']+|["']+$/g, '');
     if (target === '' || /[<>{}"'`$\\|]/.test(target)) continue;
-    // The recorded command keeps the target AND every legitimate argument
-    // after it (flags, further package names) — but stops at the first
-    // plain word, which can only be prose. Truncating unconditionally at
-    // the target dropped real arguments and made the weekly
-    // re-verification report phantom drift.
+    // Markdown code boundaries disambiguate package names from prose. Outside
+    // code, retain explicit specs and a single final plain package token;
+    // ambiguous prose remains excluded rather than guessed as a package list.
     let end = restStart + offset + targetToken.length;
+    let incomplete = false;
     for (index++; index < tokens.length; index++) {
-      if (!isCommandContinuation(tokens[index])) break;
-      end += tokens[index].length + 1;
+      const token = tokens[index];
+      if (token.startsWith('-')) {
+        end += token.length + 1;
+        if (VALUE_OPTIONS.has(token)) {
+          if (!tokens[index + 1] || tokens[index + 1].startsWith('-')) { incomplete = true; break; }
+          end += tokens[++index].length + 1;
+        }
+        continue;
+      }
+      const explicit = /[@/-]/.test(unquote(token));
+      if (!isPackage(token) || !(segment.codeCommand || explicit || index === tokens.length - 1)) break;
+      end += token.length + 1;
     }
-    const cleanCommand = trimTrailingProse(command.slice(0, end));
+    if (incomplete) continue;
+    const cleanCommand = segment.codeCommand ? command.slice(0, end) : trimTrailingProse(command.slice(0, end));
     const cls = classify(target);
     if (cls.kind === 'other' || cls.kind === 'local') continue;
     const profile = /--profile[= ]([\w.-]+)/.exec(command)?.[1] ?? 'default';

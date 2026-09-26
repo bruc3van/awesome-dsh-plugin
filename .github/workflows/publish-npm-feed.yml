@@ -6,7 +6,7 @@ name: Publish the feed to npm (mirrored by npmmirror)
 # awesome-dsh-plugin-feed npm package. Consumers fetch
 # https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-v2.json
 #
-# Runs after every feed-publishing data commit (the two feed workflows) and
+# Runs only after the v2 join has completed successfully and
 # can be triggered manually. The publish script's feedDigest gate makes this
 # idempotent: same data = no-op without burning a version. Publishing needs
 # the NPM_TOKEN secret (npmjs.org account of the package owner); without it
@@ -16,8 +16,6 @@ name: Publish the feed to npm (mirrored by npmmirror)
 on:
   workflow_run:
     workflows:
-      - 'Refresh snapshot, review queue, and market file'
-      - 'Refresh the downstream market file'
       - 'Refresh the v2 market feed'
     types:
       - completed
@@ -40,6 +38,8 @@ jobs:
         with:
           node-version: 22
           registry-url: 'https://registry.npmjs.org'
+      - name: Run feed publication and extraction regression tests
+        run: node --test scripts/test-publish-npm-feed.mjs scripts/test-readme-install.mjs scripts/test-market-v2.mjs
       # The script itself decides whether anything needs publishing: same
       # feedDigest as the registry's latest version → "nothing to do", exit 0.
       - name: Build and publish the feed package

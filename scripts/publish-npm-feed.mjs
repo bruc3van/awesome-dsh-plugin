@@ -17,7 +17,8 @@
 // is a no-op, so the daily workflow hook never piles up empty versions.
 
 import { createHash } from 'node:crypto';
-import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { spawnSync } from 'node:child_process';
+import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -26,6 +27,12 @@ const PUBLISH = process.argv.includes('--publish');
 const PKG_NAME = 'awesome-dsh-plugin-feed';
 const REGISTRY = 'https://registry.npmjs.org';
 const DIST = resolve(root, 'dist-npm');
+
+// Validate before reading or publishing: manual runs must obey the same gate as CI.
+for (const script of ['validate-packages.mjs', 'validate-market-v2.mjs']) {
+  const result = spawnSync(process.execPath, [resolve(root, 'scripts', script)], { stdio: 'inherit' });
+  if (result.status !== 0) process.exit(result.status ?? 1);
+}
 
 const files = ['data/market.json', 'data/market-v2.json', 'data/packages.json'];
 const reads = await Promise.all(files.map((f) => readFile(resolve(root, f), 'utf8')));
@@ -57,6 +64,11 @@ async function latestInfo() {
 }
 
 const info = await latestInfo();
+if (info.error) {
+  console.error(`Registry lookup failed: ${info.error}`);
+  if (PUBLISH) process.exit(1);
+  console.warn('Building offline only; this version is not confirmed available on npm.');
+}
 if (info.published && info.feedDigest === digest) {
   console.log(`feed already published as ${info.latest} (digest ${digest.slice(0, 12)}…) — nothing to do.`);
   process.exit(0);
@@ -135,7 +147,6 @@ for (const [i, f] of files.entries()) console.log(`  ${f}: ${Buffer.byteLength(r
 if (!PUBLISH) {
   console.log('dry run only — pass --publish (requires npm auth, e.g. NODE_AUTH_TOKEN) to release.');
 } else {
-  const { spawnSync } = await import('node:child_process');
   const result = spawnSync('npm', ['publish', DIST, '--access', 'public'], {
     stdio: 'inherit',
     env: { ...process.env, npm_config_registry: REGISTRY },
