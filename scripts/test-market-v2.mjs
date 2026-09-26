@@ -125,18 +125,49 @@ test('packagesBlockFor rejects oversize text, multiline commands, bad sources, b
   assert.throws(() => packagesBlockFor({ packages: [] }), /non-empty packages array/);
 });
 
+test('packagesBlockFor demands install === installRef(source) and token-level command agreement', () => {
+  const pkg = (overrides) => ({ profile: 'web', ...overrides });
+  // install must be the installRef of its source: a wrong name the command
+  // happens to contain cannot ride into the feed (validate-packages.mjs
+  // enforces the same equation offline, but the wire transform is THE gate
+  // when it runs standalone).
+  assert.throws(
+    () => packagesBlockFor(commandRecord({ packages: [pkg({ install: 'totally-wrong-name', source: 'npm:real-pkg', command: 'dsh plugin add totally-wrong-name' })] })),
+    /install must be "real-pkg"/,
+  );
+  // A bare substring test is not agreement: foo-bar must not vouch for foo.
+  assert.throws(
+    () => packagesBlockFor(commandRecord({ packages: [pkg({ install: 'foo', source: 'npm:foo', command: 'dsh plugin add foo-bar' })] })),
+    /must reference install \(foo\)/,
+  );
+  // The same hole on the github slug fallback.
+  assert.throws(
+    () => packagesBlockFor(commandRecord({ packages: [pkg({ install: 'https://github.com/owner/repo', source: 'github:owner/repo', command: 'dsh plugin add github:owner/repo-evil' })] })),
+    /must reference install/,
+  );
+  // Legitimate shapes still pass: quoted tokens, npm @version pins on the
+  // same token, github CLI refs (bare and #ref) and the repo-URL form.
+  const passes = (command, install, source) =>
+    packagesBlockFor(commandRecord({ packages: [pkg({ install, source, command })] })).targets[0];
+  assert.equal(passes('dsh plugin --profile web add "foo@1.2.3"', 'foo', 'npm:foo').install, 'foo');
+  assert.equal(passes('dsh plugin --profile web add github:owner/repo#v1', 'https://github.com/owner/repo#v1', 'github:owner/repo#v1').install, 'https://github.com/owner/repo#v1');
+  assert.equal(passes('dsh plugin --profile web add "github:owner/repo"', 'https://github.com/owner/repo', 'github:owner/repo').install, 'https://github.com/owner/repo');
+  assert.equal(passes('dsh plugin --profile web add https://github.com/owner/repo', 'https://github.com/owner/repo', 'github:owner/repo').install, 'https://github.com/owner/repo');
+});
+
 test('buildMarketV2 joins blocks onto mapped entries only, preserving v1 fields and order', () => {
   const entries = [
     v1Entry({ full_name: 'a/mapped' }),
     v1Entry({ full_name: 'B/Unmapped' }),
-    v1Entry({ full_name: 'c/also-mapped' }),
+    v1Entry({ full_name: 'Owner/Also-Mapped' }),
   ];
   const result = buildMarketV2({
     market: v1Market(entries),
     packages: packages({
       'a/mapped': commandRecord(),
-      // keys are lowercase by convention; the join must match case-insensitively
-      'c/also-mapped': commandRecord({ tasks: undefined }),
+      // Keys are lowercase by convention while the feed's full_name keeps
+      // GitHub's casing — the join must match case-insensitively.
+      'owner/also-mapped': commandRecord({ tasks: undefined }),
       'd/catalog-only': commandRecord(),
     }),
     now,

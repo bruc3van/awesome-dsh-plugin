@@ -77,6 +77,8 @@ jobs:
           # maintainer's push can still land between checkout and here.
           # Rebase onto the new tip and retry; fail loudly on a conflict
           # rather than letting CI guess at a merge of generated files.
+          # After every successful rebase the join is rebuilt and
+          # re-validated against the new tip before pushing again.
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
               exit 0
@@ -87,6 +89,17 @@ jobs:
               git rebase --abort || true
               echo "Rebase onto origin/main conflicted — re-run this workflow."
               exit 1
+            fi
+            # The rebase can pull in a maintainer's push that moved either
+            # source of the join (market.json / packages.json) — the commit
+            # about to be pushed was built against the pre-rebase tree.
+            # Rebuild and re-validate against the new tip and fold any change
+            # into the commit, so a stale join fails here instead of landing.
+            node scripts/market-v2.mjs
+            node scripts/validate-market-v2.mjs
+            git add data/market-v2.json
+            if ! git diff --cached --quiet; then
+              git commit --amend --no-edit
             fi
           done
           echo "Push still rejected after 3 attempts."

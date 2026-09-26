@@ -24,6 +24,7 @@
 import { appendFile, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { installRef } from './readme-install.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -44,6 +45,7 @@ export const TEXT_LIMITS = {
   manual_instructions: 400,
   requirement: 200,
   task: 40,
+  verified_via: 100,
 };
 
 const SOURCE_KIND = /^(npm|github|url|link):(.+)$/;
@@ -117,11 +119,35 @@ export function packagesBlockFor(record) {
         source: prose(source, TEXT_LIMITS.source, `${where}.source`),
         command: commandText(pkg.command, `${where}.command`),
       };
-      // The paste-ready name and the terminal command must agree. For github
-      // sources the box takes the repo URL while the command keeps the CLI
-      // ref (github:owner/repo[#ref]) — agreeing on the slug is enough.
-      const githubSlug = source.startsWith('github:') ? source.slice(7).split('#')[0] : null;
-      if (!target.command.includes(target.install) && !(githubSlug && target.command.includes(githubSlug))) {
+      // install is the string the official "添加插件" box recognizes, derived
+      // from source via the shared installRef rule. validate-packages.mjs
+      // enforces the same equation offline, but the wire transform cannot
+      // assume that pass ran — a wrong name must not be able to ride into
+      // the feed just because the command happens to contain it.
+      const expectedInstall = installRef(target.source);
+      if (target.install !== expectedInstall) {
+        throw new Error(`${where}.install must be ${JSON.stringify(expectedInstall)} (the installRef of ${JSON.stringify(target.source)}), got ${JSON.stringify(target.install)}`);
+      }
+      // And the command must carry it as a standalone token — a bare
+      // substring test lets `install "foo"` ride a `foo-bar` command token.
+      // Matching is scoped to the tokens after `add` (flags skipped, quotes
+      // stripped) and the target token may extend the ref the way each
+      // source kind pins a variant: npm names a @version/@tag suffix,
+      // github CLI refs a #ref suffix. For github sources the box takes the
+      // repo URL while the command keeps the CLI ref
+      // (github:owner/repo[#ref]) — agreeing on the slug is enough.
+      const tokens = target.command.split(' ').map((token) => token.replace(/^["']+|["']+$/g, ''));
+      const addAt = tokens.indexOf('add');
+      const candidates = (addAt === -1 ? tokens : tokens.slice(addAt + 1)).filter((token) => !token.startsWith('-'));
+      const agrees =
+        candidates.some((token) => token === target.install) ||
+        (target.source.startsWith('npm:') && candidates.some((token) => token.startsWith(`${target.install}@`))) ||
+        (() => {
+          if (!target.source.startsWith('github:')) return false;
+          const ref = `github:${target.source.slice(7).split('#')[0]}`;
+          return candidates.some((token) => token === ref || token.startsWith(`${ref}#`));
+        })();
+      if (!agrees) {
         throw new Error(`${where}.command must reference install (${target.install}) — the paste-ready name and the terminal command must agree`);
       }
       const note = fold(pkg.note ?? '');
@@ -147,7 +173,7 @@ export function packagesBlockFor(record) {
       throw new Error('verified_date must be YYYY-MM-DD when status is not "unverified"');
     }
     verification.date = record.verified_date;
-    verification.via = prose(record.verified_via, 100, 'verified_via');
+    verification.via = prose(record.verified_via, TEXT_LIMITS.verified_via, 'verified_via');
   }
   block.verification = verification;
   return block;
@@ -276,6 +302,9 @@ export async function runMarketV2({ rootDir = root } = {}) {
 
   const json = `${JSON.stringify(result.envelope)}\n`;
   const bytes = Buffer.byteLength(json, 'utf8');
+  // Unreachable for 'written' runs (buildMarketV2 aborts them over the cap),
+  // but the guard for 'unchanged' ones: a hand-edited oversize
+  // market-v2.json on disk must fail loudly, not be re-published with exit 0.
   if (bytes > MAX_FILE_BYTES) {
     console.error(`market-v2.json would be ${bytes} bytes, over the ${MAX_FILE_BYTES}-byte cap — not written.`);
     await summaryBlock('⚠️ market-v2 generation aborted', `The joined payload is ${bytes} bytes, over the ${MAX_FILE_BYTES}-byte cap; the previous \`data/market-v2.json\` is left untouched.`);
