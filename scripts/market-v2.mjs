@@ -48,7 +48,7 @@ export const TEXT_LIMITS = {
 
 const SOURCE_KIND = /^(npm|github|url|link):(.+)$/;
 const DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
-const STATUSES = new Set(['readme-verified', 'install-verified', 'unverified']);
+const STATUSES = new Set(['readme-verified', 'install-verified', 'repo-fallback', 'unverified']);
 const CONTROL_CHARS = /[\u0000-\u001f\u007f]/;
 
 const fold = (value) => String(value).replace(/\s+/g, ' ').trim();

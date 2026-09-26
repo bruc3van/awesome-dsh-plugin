@@ -119,7 +119,13 @@ async function reverifyEntry(slug, record) {
   for (const pkg of record.packages ?? []) {
     const key = normalKey(pkg.source);
     const payload = pkg.source.replace(/^(npm|github|url):/, '');
-    const stillDocumented = extractedKeys.has(key) || upstreamTokens.has(payload) || upstreamTokens.has(npmBase(payload));
+    // A github target pointing at this very repo needs no README documentation:
+    // it is the repo-fallback channel for entries whose documented npm package
+    // was never published, and the repo's existence is vouched for by the
+    // snapshot.
+    const selfRepo = pkg.source.startsWith('github:') && pkg.source.slice(7).split('#')[0].toLowerCase() === slug;
+    const stillDocumented =
+      selfRepo || extractedKeys.has(key) || upstreamTokens.has(payload) || upstreamTokens.has(npmBase(payload));
     if (!stillDocumented) {
       problems.push(`${slug}: recorded target ${pkg.source} is no longer documented in the upstream README — update or drop the mapping`);
       continue;

@@ -49,7 +49,7 @@ try {
 const LOWER_SLUG = /^[a-z0-9._-]+\/[a-z0-9._-]+$/;
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const SOURCE_KIND = /^(npm|github|url|link):(.+)$/;
-const STATUSES = new Set(['readme-verified', 'install-verified', 'unverified']);
+const STATUSES = new Set(['readme-verified', 'install-verified', 'repo-fallback', 'unverified']);
 
 const snapshotNames = new Set(
   (snapshot.repositories || []).map((repo) => String(repo.full_name).toLowerCase()),
