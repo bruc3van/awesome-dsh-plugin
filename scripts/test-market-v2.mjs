@@ -49,6 +49,7 @@ const commandRecord = (overrides = {}) => ({
   packages: [
     {
       profile: 'web',
+      install: 'some-plugin',
       source: 'npm:some-plugin',
       command: 'dsh plugin --profile web add some-plugin',
       note: ' fallback note ',
@@ -74,6 +75,7 @@ test('packagesBlockFor folds prose, trims commands, and omits empty optional fie
     targets: [
       {
         profile: 'web',
+        install: 'some-plugin',
         source: 'npm:some-plugin',
         command: 'dsh plugin --profile web add some-plugin',
         note: 'fallback note',
@@ -103,16 +105,20 @@ test('packagesBlockFor handles manual installs and unverified records', () => {
 test('packagesBlockFor rejects oversize text, multiline commands, bad sources, bad statuses, placeholders', () => {
   assert.throws(() => packagesBlockFor(commandRecord({ requirements: ['x'.repeat(201)] })), /requirements\[0\].*cap is 200/);
   assert.throws(
-    () => packagesBlockFor(commandRecord({ packages: [{ profile: 'web', source: 'npm:x', command: 'dsh plugin add x\n&& evil' }] })),
+    () => packagesBlockFor(commandRecord({ packages: [{ profile: 'web', install: 'x', source: 'npm:x', command: 'dsh plugin add x\n&& evil' }] })),
     /single-line/,
   );
   assert.throws(
-    () => packagesBlockFor(commandRecord({ packages: [{ profile: 'web', source: 'npm:x', command: 'dsh plugin --profile <name> add x' }] })),
+    () => packagesBlockFor(commandRecord({ packages: [{ profile: 'web', install: 'x', source: 'npm:x', command: 'dsh plugin --profile <name> add x' }] })),
     /placeholder syntax/,
   );
   assert.throws(
-    () => packagesBlockFor(commandRecord({ packages: [{ profile: 'web', source: 'not-a-kind', command: 'dsh plugin add x' }] })),
+    () => packagesBlockFor(commandRecord({ packages: [{ profile: 'web', install: 'x', source: 'not-a-kind', command: 'dsh plugin add x' }] })),
     /source must look like/,
+  );
+  assert.throws(
+    () => packagesBlockFor(commandRecord({ packages: [{ profile: 'web', source: 'npm:x', command: 'dsh plugin add x' }] })),
+    /install is required|install must not be empty/,
   );
   assert.throws(() => packagesBlockFor(commandRecord({ status: 'hopeful' })), /status must be one of/);
   assert.throws(() => packagesBlockFor(commandRecord({ verified_date: '09/26/2026' })), /verified_date/);

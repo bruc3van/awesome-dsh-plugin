@@ -6,6 +6,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@yolk_vat-y/dsh-project-memory",
           "source": "npm:@yolk_vat-y/dsh-project-memory",
           "command": "dsh plugin --profile web add @yolk_vat-y/dsh-project-memory"
         }
@@ -18,6 +19,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-status-rotator",
           "source": "npm:dsh-status-rotator",
           "command": "dsh plugin --profile web add dsh-status-rotator"
         }
@@ -30,6 +32,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/02Muller25/dsh-api-balance",
           "source": "github:02Muller25/dsh-api-balance",
           "command": "dsh plugin --profile web add github:02Muller25/dsh-api-balance"
         }
@@ -42,11 +45,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@0xsline/dsh-spotlight",
           "source": "npm:@0xsline/dsh-spotlight",
           "command": "dsh plugin --profile web add \"@0xsline/dsh-spotlight\""
         },
         {
           "profile": "web",
+          "install": "https://github.com/0xsline/dsh-spotlight",
           "source": "github:0xsline/dsh-spotlight#main",
           "command": "dsh plugin --profile web add \"github:0xsline/dsh-spotlight#main\""
         }
@@ -59,6 +64,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "command.",
           "source": "npm:command.",
           "command": "dsh plugin --profile web add command."
         }
@@ -71,6 +77,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "jayhe-dsh-gamemaker",
           "source": "npm:jayhe-dsh-gamemaker",
           "command": "dsh plugin --profile web add jayhe-dsh-gamemaker"
         }
@@ -91,11 +98,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/1321928757/dsh-mysql",
           "source": "github:1321928757/dsh-mysql#v0.1.11",
           "command": "dsh plugin --profile web add github:1321928757/dsh-mysql#v0.1.11"
         },
         {
           "profile": "web",
+          "install": "dsh-mysql",
           "source": "npm:dsh-mysql",
           "command": "dsh plugin --profile web add dsh-mysql"
         }
@@ -108,6 +117,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/1420079678-ctrl/agent-body/releases/download/v0.1.1/dsh-external-dsh-organism-0.1.1.tgz",
           "source": "url:https://github.com/1420079678-ctrl/agent-body/releases/download/v0.1.1/dsh-external-dsh-organism-0.1.1.tgz",
           "command": "dsh plugin --profile web add https://github.com/1420079678-ctrl/agent-body/releases/download/v0.1.1/dsh-external-dsh-organism-0.1.1.tgz"
         }
@@ -120,6 +130,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-mimir@latest",
           "source": "npm:dsh-mimir@latest",
           "command": "dsh plugin --profile web add dsh-mimir@latest"
         }
@@ -140,6 +151,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/398894496-arch/DSH-KRouter",
           "source": "github:398894496-arch/DSH-KRouter",
           "command": "dsh plugin --profile web add github:398894496-arch/DSH-KRouter"
         }
@@ -152,6 +164,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/534119219/chicheng-stats",
           "source": "github:534119219/chicheng-stats",
           "command": "dsh plugin --profile web add github:534119219/chicheng-stats"
         }
@@ -164,11 +177,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-wsl-workspace",
           "source": "npm:dsh-wsl-workspace",
           "command": "dsh plugin --profile web add dsh-wsl-workspace"
         },
         {
           "profile": "web",
+          "install": "https://github.com/6Mikao9/dsh-wsl-workspace",
           "source": "url:https://github.com/6Mikao9/dsh-wsl-workspace",
           "command": "dsh plugin --profile web add https://github.com/6Mikao9/dsh-wsl-workspace"
         }
@@ -189,6 +204,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-diff-approval",
           "source": "npm:dsh-diff-approval",
           "command": "dsh plugin --profile web add dsh-diff-approval"
         }
@@ -201,6 +217,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/A3Boy/dsh-web-tools",
           "source": "github:A3Boy/dsh-web-tools",
           "command": "dsh plugin --profile web add github:A3Boy/dsh-web-tools"
         }
@@ -213,11 +230,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-skill-picker",
           "source": "npm:dsh-skill-picker",
           "command": "dsh plugin --profile web add dsh-skill-picker"
         },
         {
           "profile": "web",
+          "install": "https://github.com/a735624258/dsh-skill-picker",
           "source": "github:a735624258/dsh-skill-picker",
           "command": "dsh plugin --profile web add \"github:a735624258/dsh-skill-picker\""
         }
@@ -230,6 +249,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/aa2246740/dsh-better-display",
           "source": "github:aa2246740/dsh-better-display#v0.3.3",
           "command": "dsh plugin --profile web add github:aa2246740/dsh-better-display#v0.3.3"
         }
@@ -242,6 +262,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/aa2246740/dsh-skillhub",
           "source": "github:aa2246740/dsh-skillhub#v1.0.3",
           "command": "dsh plugin --profile web add github:aa2246740/dsh-skillhub#v1.0.3"
         }
@@ -254,6 +275,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/aa2246740/dsh-watcher",
           "source": "github:aa2246740/dsh-watcher#v0.6.1",
           "command": "dsh plugin --profile web add github:aa2246740/dsh-watcher#v0.6.1"
         }
@@ -266,6 +288,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@aaravarr/dsh-subagent-max",
           "source": "npm:@aaravarr/dsh-subagent-max",
           "command": "dsh plugin --profile web add @aaravarr/dsh-subagent-max"
         }
@@ -278,11 +301,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-web-lan-access",
           "source": "npm:dsh-web-lan-access",
           "command": "dsh plugin --profile web add dsh-web-lan-access"
         },
         {
           "profile": "web",
+          "install": "https://github.com/AcidGr/dsh-web-lan-access",
           "source": "github:AcidGr/dsh-web-lan-access",
           "command": "dsh plugin --profile web add github:AcidGr/dsh-web-lan-access"
         }
@@ -295,6 +320,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "writes",
           "source": "npm:writes",
           "command": "dsh plugin add writes"
         }
@@ -307,11 +333,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@adwmc/helm-d",
           "source": "npm:@adwmc/helm-d",
           "command": "dsh plugin --profile web add @adwmc/helm-d"
         },
         {
           "profile": "web",
+          "install": "https://github.com/ADWMC/helm-d/releases/latest/download/helmd.tgz",
           "source": "url:https://github.com/ADWMC/helm-d/releases/latest/download/helmd.tgz",
           "command": "dsh plugin --profile web add https://github.com/ADWMC/helm-d/releases/latest/download/helmd.tgz"
         }
@@ -326,6 +354,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@awiki/dsh-plugin@latest",
           "source": "npm:@awiki/dsh-plugin@latest",
           "command": "dsh plugin --profile web add @awiki/dsh-plugin@latest"
         }
@@ -337,6 +366,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-agentdebugx",
           "source": "npm:dsh-agentdebugx",
           "command": "dsh plugin --profile web add dsh-agentdebugx"
         }
@@ -349,6 +379,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Aisland-SJL/dsh-usage",
           "source": "github:Aisland-SJL/dsh-usage",
           "command": "dsh plugin --profile web add \"github:Aisland-SJL/dsh-usage\""
         }
@@ -361,6 +392,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Aisland-SJL/dsh-worktable/releases/latest/download/dsh-worktable.tgz",
           "source": "url:https://github.com/Aisland-SJL/dsh-worktable/releases/latest/download/dsh-worktable.tgz",
           "command": "dsh plugin --profile web add \"https://github.com/Aisland-SJL/dsh-worktable/releases/latest/download/dsh-worktable.tgz\""
         }
@@ -373,6 +405,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/AITabby/dockyard-dsh",
           "source": "github:AITabby/dockyard-dsh",
           "command": "dsh plugin --profile web add github:AITabby/dockyard-dsh"
         }
@@ -385,16 +418,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-godot-skill",
           "source": "npm:dsh-godot-skill",
           "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-godot-skill"
         },
         {
           "profile": "web",
+          "install": "git+https://github.com/akira399/dsh-godot-skill.git",
           "source": "url:git+https://github.com/akira399/dsh-godot-skill.git",
           "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add git+https://github.com/akira399/dsh-godot-skill.git"
         },
         {
           "profile": "web",
+          "install": "https://github.com/akira399/dsh-godot-skill",
           "source": "github:akira399/dsh-godot-skill",
           "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:akira399/dsh-godot-skill"
         }
@@ -407,6 +443,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/AKS1st/dsh-cyber-particle",
           "source": "github:AKS1st/dsh-cyber-particle",
           "command": "dsh plugin --profile web add github:AKS1st/dsh-cyber-particle"
         }
@@ -419,6 +456,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/alingalingling/ui-status-label",
           "source": "github:alingalingling/ui-status-label",
           "command": "dsh plugin --profile web add github:alingalingling/ui-status-label"
         }
@@ -431,6 +469,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@alpacachen/dsh-kanban",
           "source": "npm:@alpacachen/dsh-kanban",
           "command": "dsh plugin --profile web add @alpacachen/dsh-kanban"
         }
@@ -443,6 +482,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Amakurai/dsh-liketavern",
           "source": "github:Amakurai/dsh-liketavern#v0.4.0",
           "command": "dsh plugin --profile web add github:Amakurai/dsh-liketavern#v0.4.0"
         }
@@ -455,11 +495,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/AmethystLuna/embedded-workbench",
           "source": "github:AmethystLuna/embedded-workbench",
           "command": "dsh plugin --profile web add \"github:AmethystLuna/embedded-workbench\""
         },
         {
           "profile": "default",
+          "install": "https://github.com/AmethystLuna/embedded-workbench",
           "source": "github:AmethystLuna/embedded-workbench",
           "command": "dsh plugin add \"github:AmethystLuna/embedded-workbench\""
         }
@@ -472,6 +514,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-agy-link",
           "source": "npm:dsh-agy-link",
           "command": "dsh plugin --profile web add dsh-agy-link"
         }
@@ -484,11 +527,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-lark-link@latest",
           "source": "npm:dsh-lark-link@latest",
           "command": "dsh plugin --profile web add dsh-lark-link@latest"
         },
         {
           "profile": "web",
+          "install": "https://github.com/amlyczz/dsh-lark-link",
           "source": "github:amlyczz/dsh-lark-link",
           "command": "dsh plugin --profile web add github:amlyczz/dsh-lark-link"
         }
@@ -501,6 +546,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Andiii208/dsh-ultramath",
           "source": "github:Andiii208/dsh-ultramath",
           "command": "dsh plugin --profile web add github:Andiii208/dsh-ultramath"
         }
@@ -513,11 +559,13 @@
       "packages": [
         {
           "profile": "default",
+          "install": "dsh-plugin-balance",
           "source": "npm:dsh-plugin-balance",
           "command": "dsh plugin add dsh-plugin-balance"
         },
         {
           "profile": "web",
+          "install": "dsh-plugin-balance",
           "source": "npm:dsh-plugin-balance",
           "command": "dsh plugin --profile web add dsh-plugin-balance"
         }
@@ -530,11 +578,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@anionex/dsh-turn-rewind",
           "source": "npm:@anionex/dsh-turn-rewind",
           "command": "dsh plugin --profile web add @anionex/dsh-turn-rewind"
         },
         {
           "profile": "headless",
+          "install": "@anionex/dsh-turn-rewind",
           "source": "npm:@anionex/dsh-turn-rewind",
           "command": "dsh plugin --profile headless add @anionex/dsh-turn-rewind"
         }
@@ -547,16 +597,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@anionex/dsh-vision-toolkit",
           "source": "npm:@anionex/dsh-vision-toolkit",
           "command": "dsh plugin --profile web add @anionex/dsh-vision-toolkit"
         },
         {
           "profile": "headless",
+          "install": "@anionex/dsh-vision-toolkit",
           "source": "npm:@anionex/dsh-vision-toolkit",
           "command": "dsh plugin --profile headless add @anionex/dsh-vision-toolkit"
         },
         {
           "profile": "desktop",
+          "install": "@anionex/dsh-vision-toolkit",
           "source": "npm:@anionex/dsh-vision-toolkit",
           "command": "dsh plugin --profile desktop add @anionex/dsh-vision-toolkit",
           "note": "装完重启 DSH Desktop；DSH Desktop 2.0.1 内置市场有已知安装问题，上游建议用终端命令"
@@ -581,6 +634,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@anweat/dsh-browser",
           "source": "npm:@anweat/dsh-browser",
           "command": "dsh plugin --profile web add @anweat/dsh-browser"
         }
@@ -593,6 +647,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@anysearch/anysearch-dsh",
           "source": "npm:@anysearch/anysearch-dsh",
           "command": "npx -y @deepseek-ai/dsh plugin --profile web add @anysearch/anysearch-dsh"
         }
@@ -605,6 +660,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "dsh-expert-mode",
           "source": "npm:dsh-expert-mode",
           "command": "dsh plugin add dsh-expert-mode"
         }
@@ -625,11 +681,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-find-plugin",
           "source": "npm:dsh-find-plugin",
           "command": "dsh plugin --profile web add dsh-find-plugin"
         },
         {
           "profile": "web",
+          "install": "https://github.com/awesome-dsh-plugin/dsh-find-plugin",
           "source": "github:awesome-dsh-plugin/dsh-find-plugin",
           "command": "dsh plugin --profile web add github:awesome-dsh-plugin/dsh-find-plugin"
         }
@@ -642,11 +700,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-stock-watch",
           "source": "npm:dsh-stock-watch",
           "command": "dsh plugin --profile web add dsh-stock-watch"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Awu12277/dsh-stock-watch",
           "source": "github:Awu12277/dsh-stock-watch",
           "command": "dsh plugin --profile web add github:Awu12277/dsh-stock-watch"
         }
@@ -659,6 +719,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "ax-feishu-bridge",
           "source": "npm:ax-feishu-bridge",
           "command": "dsh plugin --profile web add ax-feishu-bridge"
         }
@@ -671,6 +732,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@axiaohungry/dsh-llm-workbuddy@latest",
           "source": "npm:@axiaohungry/dsh-llm-workbuddy@latest",
           "command": "dsh plugin --profile web add @axiaohungry/dsh-llm-workbuddy@latest"
         }
@@ -683,6 +745,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Ayase34/gal-view",
           "source": "github:Ayase34/gal-view#main",
           "command": "dsh plugin --profile web add github:Ayase34/gal-view#main"
         }
@@ -695,11 +758,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/baihejiangnan/dsh-session-context-menu",
           "source": "github:baihejiangnan/dsh-session-context-menu",
           "command": "dsh plugin --profile web add github:baihejiangnan/dsh-session-context-menu"
         },
         {
           "profile": "web",
+          "install": "https://github.com/baihejiangnan/dsh-session-context-menu",
           "source": "github:baihejiangnan/dsh-session-context-menu#v0.2.14",
           "command": "dsh plugin --profile web add github:baihejiangnan/dsh-session-context-menu#v0.2.14"
         }
@@ -714,16 +779,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-file-activity",
           "source": "npm:dsh-file-activity",
           "command": "dsh plugin --profile web add dsh-file-activity --trust-lockfile"
         },
         {
           "profile": "web",
+          "install": "dsh-shared",
           "source": "npm:dsh-shared",
           "command": "dsh plugin --profile web add dsh-shared dsh-md-render"
         },
         {
           "profile": "web",
+          "install": "dsh-md-render",
           "source": "npm:dsh-md-render",
           "command": "dsh plugin --profile web add dsh-shared dsh-md-render"
         }
@@ -735,6 +803,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/beancookie/dsh-plugin-anydoc",
           "source": "github:beancookie/dsh-plugin-anydoc",
           "command": "dsh plugin --profile web add github:beancookie/dsh-plugin-anydoc"
         }
@@ -747,6 +816,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@beforewave/dsh-with-chatgpt",
           "source": "npm:@beforewave/dsh-with-chatgpt",
           "command": "dsh plugin --profile web add @beforewave/dsh-with-chatgpt"
         }
@@ -759,6 +829,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/beiyege-01/dsh-voice-ai-girlfriend-plugin",
           "source": "github:beiyege-01/dsh-voice-ai-girlfriend-plugin",
           "command": "dsh plugin --profile web add github:beiyege-01/dsh-voice-ai-girlfriend-plugin"
         }
@@ -771,6 +842,7 @@
       "packages": [
         {
           "profile": "dsh-101",
+          "install": "https://github.com/bill9109/dsh-101",
           "source": "github:bill9109/dsh-101#v0.1.7",
           "command": "dsh plugin --profile dsh-101 add github:bill9109/dsh-101#v0.1.7"
         }
@@ -783,6 +855,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Blank-not-black/dsh-Remote",
           "source": "github:Blank-not-black/dsh-Remote#main&path:/packages/plugin",
           "command": "dsh plugin --profile web add \"github:Blank-not-black/dsh-Remote#main&path:/packages/plugin\""
         }
@@ -795,6 +868,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-clawrouter",
           "source": "npm:dsh-clawrouter",
           "command": "dsh plugin --profile web add dsh-clawrouter"
         }
@@ -807,6 +881,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-acp-for-bitfun",
           "source": "npm:dsh-acp-for-bitfun",
           "command": "dsh plugin --profile web add dsh-acp-for-bitfun"
         }
@@ -819,6 +894,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-context",
           "source": "npm:dsh-context",
           "command": "dsh plugin --profile web add dsh-context"
         }
@@ -831,6 +907,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-kb-rag",
           "source": "npm:dsh-kb-rag",
           "command": "dsh plugin --profile web add dsh-kb-rag"
         }
@@ -843,6 +920,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "bruce-md2word@0.6.0",
           "source": "npm:bruce-md2word@0.6.0",
           "command": "dsh plugin --profile web add bruce-md2word@0.6.0",
           "note": "锁宿主版本装法：npx @deepseek-ai/dsh@0.1.7-rc.2 plugin --profile web add bruce-md2word@0.6.0"
@@ -868,6 +946,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@mstar-harness/dsh",
           "source": "npm:@mstar-harness/dsh",
           "command": "dsh plugin --profile web add @mstar-harness/dsh"
         }
@@ -879,6 +958,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "dsh-tool-gitbash",
           "source": "npm:dsh-tool-gitbash",
           "command": "dsh plugin add dsh-tool-gitbash"
         }
@@ -891,6 +971,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/builtin-pb/dsh-developer",
           "source": "github:builtin-pb/dsh-developer#v0.1.4",
           "command": "dsh plugin --profile web add 'github:builtin-pb/dsh-developer#v0.1.4'"
         }
@@ -903,6 +984,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/c3ll256/dsh-toy",
           "source": "github:c3ll256/dsh-toy",
           "command": "npx -y @deepseek-ai/dsh plugin --profile web add github:c3ll256/dsh-toy"
         }
@@ -915,6 +997,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@canglongcl/dsh-web-review",
           "source": "npm:@canglongcl/dsh-web-review",
           "command": "dsh plugin --profile web add @canglongcl/dsh-web-review"
         }
@@ -927,11 +1010,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@caob23/dsh-browser-control",
           "source": "npm:@caob23/dsh-browser-control",
           "command": "dsh plugin --profile web add @caob23/dsh-browser-control"
         },
         {
           "profile": "web",
+          "install": "https://github.com/caob23/dsh-browser-control",
           "source": "github:caob23/dsh-browser-control#v1.0.7",
           "command": "dsh plugin --profile web add \"github:caob23/dsh-browser-control#v1.0.7\""
         }
@@ -944,6 +1029,7 @@
       "packages": [
         {
           "profile": "dsh-tui",
+          "install": "@deepseek-harness-tui/dsh-tui",
           "source": "npm:@deepseek-harness-tui/dsh-tui",
           "command": "dsh plugin --profile dsh-tui add @deepseek-harness-tui/dsh-tui"
         }
@@ -966,21 +1052,25 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@cerbur/clutch-dsh-worktree",
           "source": "npm:@cerbur/clutch-dsh-worktree",
           "command": "dsh plugin --profile web add @cerbur/clutch-dsh-worktree"
         },
         {
           "profile": "web",
+          "install": "@cerbur/clutch-dsh-fireworks",
           "source": "npm:@cerbur/clutch-dsh-fireworks",
           "command": "dsh plugin --profile web add @cerbur/clutch-dsh-fireworks"
         },
         {
           "profile": "web",
+          "install": "@cerbur/clutch-dsh-discuss",
           "source": "npm:@cerbur/clutch-dsh-discuss",
           "command": "dsh plugin --profile web add @cerbur/clutch-dsh-discuss"
         },
         {
           "profile": "web",
+          "install": "@cerbur/clutch-dsh-title",
           "source": "npm:@cerbur/clutch-dsh-title",
           "command": "dsh plugin --profile web add @cerbur/clutch-dsh-title"
         }
@@ -992,6 +1082,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-agy",
           "source": "npm:dsh-agy",
           "command": "dsh plugin --profile web add dsh-agy"
         }
@@ -1004,6 +1095,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-skill-hub",
           "source": "npm:dsh-skill-hub",
           "command": "dsh plugin --profile web add dsh-skill-hub"
         }
@@ -1024,16 +1116,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-roleplay",
           "source": "npm:dsh-roleplay",
           "command": "dsh plugin --profile web add -w dsh-roleplay"
         },
         {
           "profile": "web",
+          "install": "https://github.com/chinosk6/dsh-roleplay",
           "source": "github:chinosk6/dsh-roleplay",
           "command": "dsh plugin --profile web add -w github:chinosk6/dsh-roleplay"
         },
         {
           "profile": "web",
+          "install": "https://github.com/chinosk6/dsh-roleplay",
           "source": "github:chinosk6/dsh-roleplay#v0.1.0",
           "command": "dsh plugin --profile web add -w github:chinosk6/dsh-roleplay#v0.1.0"
         }
@@ -1054,6 +1149,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-change-review",
           "source": "npm:dsh-change-review",
           "command": "dsh plugin --profile web add dsh-change-review"
         }
@@ -1066,11 +1162,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Civitasv/dsh-plugin-open-editor",
           "source": "github:Civitasv/dsh-plugin-open-editor#main",
           "command": "dsh plugin --profile web add github:Civitasv/dsh-plugin-open-editor#main"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Civitasv/dsh-plugin-diff-review",
           "source": "github:Civitasv/dsh-plugin-diff-review#v0.1.2",
           "command": "dsh plugin --profile web add github:Civitasv/dsh-plugin-diff-review#v0.1.2"
         }
@@ -1083,6 +1181,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-plugin-mobile-gateway@latest",
           "source": "npm:dsh-plugin-mobile-gateway@latest",
           "command": "dsh plugin --profile web add dsh-plugin-mobile-gateway@latest"
         }
@@ -1095,11 +1194,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-taskboard",
           "source": "npm:dsh-taskboard",
           "command": "dsh plugin --profile web add dsh-taskboard"
         },
         {
           "profile": "web",
+          "install": "https://github.com/cloader/dsh-taskboard",
           "source": "github:cloader/dsh-taskboard",
           "command": "dsh plugin --profile web add github:cloader/dsh-taskboard"
         }
@@ -1112,6 +1213,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@cocofhu/anime-find",
           "source": "npm:@cocofhu/anime-find",
           "command": "dsh plugin --profile web add @cocofhu/anime-find"
         }
@@ -1124,6 +1226,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-wallpaper",
           "source": "npm:dsh-wallpaper",
           "command": "dsh plugin --profile web add dsh-wallpaper"
         }
@@ -1136,6 +1239,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-interview",
           "source": "npm:dsh-interview",
           "command": "dsh plugin --profile web add dsh-interview"
         }
@@ -1148,16 +1252,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-workbuddy-connect",
           "source": "npm:dsh-workbuddy-connect",
           "command": "dsh plugin --profile web add dsh-workbuddy-connect"
         },
         {
           "profile": "web",
+          "install": "https://github.com/corrinehu/dsh-workbuddy-connect",
           "source": "github:corrinehu/dsh-workbuddy-connect",
           "command": "dsh plugin --profile web add github:corrinehu/dsh-workbuddy-connect"
         },
         {
           "profile": "desktop",
+          "install": "dsh-workbuddy-connect",
           "source": "npm:dsh-workbuddy-connect",
           "command": "dsh plugin --profile desktop add dsh-workbuddy-connect"
         }
@@ -1170,6 +1277,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/cryjkd/dsh-clawbot",
           "source": "github:cryjkd/dsh-clawbot",
           "command": "dsh plugin --profile web add github:cryjkd/dsh-clawbot"
         }
@@ -1182,6 +1290,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/csyangwen/dsh-memory-evolve",
           "source": "github:csyangwen/dsh-memory-evolve",
           "command": "dsh plugin --profile web add github:csyangwen/dsh-memory-evolve"
         }
@@ -1194,6 +1303,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/cyanseek/dsh-native-playbook",
           "source": "github:cyanseek/dsh-native-playbook",
           "command": "dsh plugin --profile web add github:cyanseek/dsh-native-playbook"
         }
@@ -1206,6 +1316,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-subagent-model-router",
           "source": "npm:dsh-subagent-model-router",
           "command": "dsh plugin --profile web add dsh-subagent-model-router"
         }
@@ -1218,11 +1329,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "open-sea-skin@1.2.3",
           "source": "npm:open-sea-skin@1.2.3",
           "command": "dsh plugin --profile web add open-sea-skin@1.2.3"
         },
         {
           "profile": "web",
+          "install": "https://github.com/d-dev0101/open-sea-skin",
           "source": "github:d-dev0101/open-sea-skin#v1.2.4",
           "command": "dsh plugin --profile web add 'github:d-dev0101/open-sea-skin#v1.2.4'"
         }
@@ -1235,6 +1348,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/DDDMUC/dsh-preset-workbench",
           "source": "github:DDDMUC/dsh-preset-workbench",
           "command": "dsh plugin --profile web add github:DDDMUC/dsh-preset-workbench"
         }
@@ -1247,11 +1361,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@dely0/dsh-personal-workbench",
           "source": "npm:@dely0/dsh-personal-workbench",
           "command": "dsh plugin --profile web add @dely0/dsh-personal-workbench"
         },
         {
           "profile": "web",
+          "install": "git+https://github.com/Dely0/dsh-personal-workbench.git",
           "source": "url:git+https://github.com/Dely0/dsh-personal-workbench.git",
           "command": "dsh plugin --profile web add git+https://github.com/Dely0/dsh-personal-workbench.git"
         }
@@ -1264,6 +1380,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-airdrop",
           "source": "npm:dsh-airdrop",
           "command": "dsh plugin --profile web add dsh-airdrop"
         }
@@ -1276,6 +1393,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "deepseek-idesign",
           "source": "npm:deepseek-idesign",
           "command": "npx @deepseek-ai/dsh plugin --profile web add deepseek-idesign"
         }
@@ -1288,6 +1406,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill",
           "source": "github:dhicoc/dsh-chinese-traditional-wisdom-skill",
           "command": "dsh plugin add github:dhicoc/dsh-chinese-traditional-wisdom-skill"
         }
@@ -1300,6 +1419,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "https://github.com/dhicoc/dsh-reverse-skill",
           "source": "github:dhicoc/dsh-reverse-skill",
           "command": "dsh plugin add github:dhicoc/dsh-reverse-skill"
         }
@@ -1312,6 +1432,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@dickpy/dsh-imagegen",
           "source": "npm:@dickpy/dsh-imagegen",
           "command": "dsh plugin --profile web add @dickpy/dsh-imagegen"
         }
@@ -1324,6 +1445,7 @@
       "packages": [
         {
           "profile": "desktop",
+          "install": "dsh-connect-trae",
           "source": "npm:dsh-connect-trae",
           "command": "dsh plugin --profile desktop add dsh-connect-trae"
         }
@@ -1336,16 +1458,19 @@
       "packages": [
         {
           "profile": "desktop",
+          "install": "dsh-connect-workbuddy",
           "source": "npm:dsh-connect-workbuddy",
           "command": "dsh plugin --profile desktop add dsh-connect-workbuddy"
         },
         {
           "profile": "web",
+          "install": "dsh-connect-workbuddy",
           "source": "npm:dsh-connect-workbuddy",
           "command": "dsh plugin --profile web add dsh-connect-workbuddy"
         },
         {
           "profile": "dsh-tui",
+          "install": "dsh-connect-workbuddy",
           "source": "npm:dsh-connect-workbuddy",
           "command": "dsh plugin --profile dsh-tui add dsh-connect-workbuddy"
         }
@@ -1358,6 +1483,7 @@
       "packages": [
         {
           "profile": "desktop",
+          "install": "dsh-subagent-default-model",
           "source": "npm:dsh-subagent-default-model",
           "command": "dsh plugin --profile desktop add dsh-subagent-default-model"
         }
@@ -1370,6 +1496,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@dingtalk-real-ai/dsh-dingtalk@latest",
           "source": "npm:@dingtalk-real-ai/dsh-dingtalk@latest",
           "command": "dsh plugin --profile web add @dingtalk-real-ai/dsh-dingtalk@latest"
         }
@@ -1382,6 +1509,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "stratagate-dsh",
           "source": "npm:stratagate-dsh",
           "command": "dsh plugin --profile web add stratagate-dsh"
         }
@@ -1394,6 +1522,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-univer-office",
           "source": "npm:dsh-univer-office",
           "command": "dsh plugin --profile web add dsh-univer-office"
         }
@@ -1406,6 +1535,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/dream12347/dsh-session-manager",
           "source": "github:dream12347/dsh-session-manager#v0.2.2",
           "command": "dsh plugin --profile web add 'github:dream12347/dsh-session-manager#v0.2.2'"
         }
@@ -1426,11 +1556,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-opencode-go@0.1.14",
           "source": "npm:dsh-opencode-go@0.1.14",
           "command": "dsh plugin --profile web add dsh-opencode-go@0.1.14"
         },
         {
           "profile": "headless",
+          "install": "dsh-opencode-go@0.1.14",
           "source": "npm:dsh-opencode-go@0.1.14",
           "command": "dsh plugin --profile headless add dsh-opencode-go@0.1.14"
         }
@@ -1443,6 +1575,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/e2mcc/dsh-popout-sidebar",
           "source": "github:e2mcc/dsh-popout-sidebar",
           "command": "dsh plugin --profile web add github:e2mcc/dsh-popout-sidebar"
         }
@@ -1455,6 +1588,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@edge-sky/dsh-oauth-adapter",
           "source": "npm:@edge-sky/dsh-oauth-adapter",
           "command": "dsh plugin --profile web add @edge-sky/dsh-oauth-adapter"
         }
@@ -1467,6 +1601,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/elysia395/dsh-wallpaper-engine",
           "source": "github:elysia395/dsh-wallpaper-engine",
           "command": "dsh plugin --profile web add github:elysia395/dsh-wallpaper-engine"
         }
@@ -1479,6 +1614,7 @@
       "packages": [
         {
           "profile": "mayfly",
+          "install": "https://github.com/Ephemeral-AI-Lab/dsh-plugins",
           "source": "github:Ephemeral-AI-Lab/dsh-plugins#main&path:plugins/loop",
           "command": "dsh plugin --profile mayfly add 'github:Ephemeral-AI-Lab/dsh-plugins#main&path:plugins/loop'"
         }
@@ -1491,6 +1627,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/eri64/dsh-claude-ux",
           "source": "github:eri64/dsh-claude-ux",
           "command": "npx -y @deepseek-ai/dsh plugin --profile web add github:eri64/dsh-claude-ux"
         }
@@ -1503,6 +1640,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-memory-eternal",
           "source": "npm:dsh-memory-eternal",
           "command": "dsh plugin --profile web add dsh-memory-eternal"
         }
@@ -1515,6 +1653,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@ethanyoq/dsh-invoice-downloader",
           "source": "npm:@ethanyoq/dsh-invoice-downloader",
           "command": "dsh plugin --profile web add @ethanyoq/dsh-invoice-downloader"
         }
@@ -1527,6 +1666,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-filesnap",
           "source": "npm:dsh-filesnap",
           "command": "dsh plugin --profile web add dsh-filesnap"
         }
@@ -1539,6 +1679,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "@aiwayds/dsh-dcp",
           "source": "npm:@aiwayds/dsh-dcp",
           "command": "dsh plugin add @aiwayds/dsh-dcp"
         }
@@ -1551,11 +1692,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-comfyui",
           "source": "npm:dsh-comfyui",
           "command": "dsh plugin --profile web add dsh-comfyui"
         },
         {
           "profile": "desktop",
+          "install": "dsh-comfyui",
           "source": "npm:dsh-comfyui",
           "command": "dsh plugin --profile desktop add dsh-comfyui"
         }
@@ -1568,11 +1711,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Fantasality/dsh-origin-plugin",
           "source": "github:Fantasality/dsh-origin-plugin",
           "command": "dsh plugin --profile web add github:Fantasality/dsh-origin-plugin"
         },
         {
           "profile": "default",
+          "install": "dsh-origin-plugin",
           "source": "npm:dsh-origin-plugin",
           "command": "dsh plugin add dsh-origin-plugin"
         }
@@ -1585,6 +1730,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-office",
           "source": "npm:dsh-office",
           "command": "dsh plugin --profile web add dsh-office"
         }
@@ -1597,11 +1743,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-pentester@latest",
           "source": "npm:dsh-pentester@latest",
           "command": "dsh plugin --profile web add dsh-pentester@latest"
         },
         {
           "profile": "web",
+          "install": "https://github.com/fb0sh/dsh-pentester",
           "source": "github:fb0sh/dsh-pentester",
           "command": "dsh plugin --profile web add github:fb0sh/dsh-pentester"
         }
@@ -1614,11 +1762,13 @@
       "packages": [
         {
           "profile": "desktop",
+          "install": "dsh-im-companion",
           "source": "npm:dsh-im-companion",
           "command": "dsh plugin --profile desktop add dsh-im-companion"
         },
         {
           "profile": "web",
+          "install": "dsh-im-companion",
           "source": "npm:dsh-im-companion",
           "command": "dsh plugin --profile web add dsh-im-companion"
         }
@@ -1631,11 +1781,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-mattpocock-skills-deck",
           "source": "npm:dsh-mattpocock-skills-deck",
           "command": "dsh plugin --profile web add dsh-mattpocock-skills-deck"
         },
         {
           "profile": "desktop",
+          "install": "dsh-mattpocock-skills-deck",
           "source": "npm:dsh-mattpocock-skills-deck",
           "command": "dsh plugin --profile desktop add dsh-mattpocock-skills-deck"
         }
@@ -1648,11 +1800,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-prompt",
           "source": "npm:dsh-prompt",
           "command": "dsh plugin --profile web add dsh-prompt"
         },
         {
           "profile": "desktop",
+          "install": "dsh-prompt",
           "source": "npm:dsh-prompt",
           "command": "dsh plugin --profile desktop add dsh-prompt"
         }
@@ -1665,6 +1819,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/feibi-mochi/deepseek-harness-control-center",
           "source": "github:feibi-mochi/deepseek-harness-control-center",
           "command": "dsh plugin --profile web add github:feibi-mochi/deepseek-harness-control-center"
         }
@@ -1677,11 +1832,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@feiyang666/dsh-usage-plugin",
           "source": "npm:@feiyang666/dsh-usage-plugin",
           "command": "dsh plugin --profile web add @feiyang666/dsh-usage-plugin"
         },
         {
           "profile": "headless",
+          "install": "@feiyang666/dsh-usage-plugin",
           "source": "npm:@feiyang666/dsh-usage-plugin",
           "command": "dsh plugin --profile headless add @feiyang666/dsh-usage-plugin"
         }
@@ -1694,6 +1851,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@opencode2dsh/dsh-plugin",
           "source": "npm:@opencode2dsh/dsh-plugin",
           "command": "dsh plugin --profile web add @opencode2dsh/dsh-plugin"
         }
@@ -1706,16 +1864,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Fishquito7/dsh-skill-mcp-panel/releases/download/v2.1.2/dsh-skill-mcp-panel-2.1.2.tgz",
           "source": "url:https://github.com/Fishquito7/dsh-skill-mcp-panel/releases/download/v2.1.2/dsh-skill-mcp-panel-2.1.2.tgz",
           "command": "dsh plugin --profile web add https://github.com/Fishquito7/dsh-skill-mcp-panel/releases/download/v2.1.2/dsh-skill-mcp-panel-2.1.2.tgz"
         },
         {
           "profile": "web",
+          "install": "dsh-skill-mcp-panel",
           "source": "npm:dsh-skill-mcp-panel",
           "command": "dsh plugin --profile web add dsh-skill-mcp-panel"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
           "source": "github:Fishquito7/dsh-skill-mcp-panel",
           "command": "dsh plugin --profile web add github:Fishquito7/dsh-skill-mcp-panel"
         }
@@ -1728,6 +1889,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Fishsb/dsh-prompt-enhancer",
           "source": "github:Fishsb/dsh-prompt-enhancer#v3.4.0",
           "command": "dsh plugin --profile web add github:Fishsb/dsh-prompt-enhancer#v3.4.0"
         }
@@ -1740,6 +1902,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-worktree",
           "source": "npm:dsh-worktree",
           "command": "dsh plugin --profile web add dsh-worktree"
         }
@@ -1752,6 +1915,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-overleaf",
           "source": "npm:dsh-overleaf",
           "command": "dsh plugin --profile web add dsh-overleaf"
         }
@@ -1764,11 +1928,13 @@
       "packages": [
         {
           "profile": "default",
+          "install": "dsh-remote",
           "source": "npm:dsh-remote",
           "command": "dsh plugin add dsh-remote"
         },
         {
           "profile": "web",
+          "install": "dsh-remote",
           "source": "npm:dsh-remote",
           "command": "dsh plugin --profile web add dsh-remote"
         }
@@ -1781,6 +1947,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-vision-proxy",
           "source": "npm:dsh-vision-proxy",
           "command": "dsh plugin --profile web add dsh-vision-proxy"
         }
@@ -1793,6 +1960,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-codex-connect@0.1.0-alpha.4.50",
           "source": "npm:dsh-codex-connect@0.1.0-alpha.4.50",
           "command": "dsh plugin --profile web add dsh-codex-connect@0.1.0-alpha.4.50"
         }
@@ -1805,6 +1973,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/freehul/sgme",
           "source": "github:freehul/sgme",
           "command": "dsh plugin --profile web add github:freehul/sgme"
         }
@@ -1817,6 +1986,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.7.0.tar.gz",
           "source": "url:https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.7.0.tar.gz",
           "command": "dsh plugin --profile web add https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.7.0.tar.gz",
           "note": "同一命令可更新已装版本；装后重启 dsh web"
@@ -1837,6 +2007,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/FTShare-Lab/dsh_kline",
           "source": "github:FTShare-Lab/dsh_kline",
           "command": "dsh plugin --profile web add github:FTShare-Lab/dsh_kline"
         }
@@ -1849,16 +2020,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-codebuddy-cli",
           "source": "npm:dsh-codebuddy-cli",
           "command": "dsh plugin --profile web add dsh-codebuddy-cli"
         },
         {
           "profile": "web",
+          "install": "https://github.com/fu827707013/dsh-codebuddy-cli",
           "source": "github:fu827707013/dsh-codebuddy-cli",
           "command": "dsh plugin --profile web add github:fu827707013/dsh-codebuddy-cli"
         },
         {
           "profile": "desktop",
+          "install": "dsh-codebuddy-cli",
           "source": "npm:dsh-codebuddy-cli",
           "command": "dsh plugin --profile desktop add dsh-codebuddy-cli"
         }
@@ -1871,6 +2045,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-free-vision",
           "source": "npm:dsh-free-vision",
           "command": "dsh plugin --profile web add dsh-free-vision"
         }
@@ -1883,6 +2058,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@fylar/dsh-fylar-office-editor",
           "source": "npm:@fylar/dsh-fylar-office-editor",
           "command": "npx @deepseek-ai/dsh plugin --profile web add @fylar/dsh-fylar-office-editor"
         }
@@ -1895,6 +2071,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-web-startup-auth@latest",
           "source": "npm:dsh-web-startup-auth@latest",
           "command": "dsh plugin --profile web add dsh-web-startup-auth@latest"
         }
@@ -1907,11 +2084,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-agent-message",
           "source": "npm:dsh-agent-message",
           "command": "dsh plugin --profile web add dsh-agent-message"
         },
         {
           "profile": "web",
+          "install": "https://github.com/GengDaPeng/dsh-agent-message",
           "source": "github:GengDaPeng/dsh-agent-message",
           "command": "dsh plugin --profile web add github:GengDaPeng/dsh-agent-message"
         }
@@ -1940,6 +2119,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@graysilver/dsh-evolve-modes@0.4.0",
           "source": "npm:@graysilver/dsh-evolve-modes@0.4.0",
           "command": "npx -y @deepseek-ai/dsh plugin --profile web add @graysilver/dsh-evolve-modes@0.4.0"
         }
@@ -1952,6 +2132,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/guo6x/dsh-pilot",
           "source": "github:guo6x/dsh-pilot",
           "command": "dsh plugin --profile web add github:guo6x/dsh-pilot"
         }
@@ -1964,6 +2145,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/GZX2211/dsh-Visual-Workflow",
           "source": "github:GZX2211/dsh-Visual-Workflow#main",
           "command": "dsh plugin --profile web add \"github:GZX2211/dsh-Visual-Workflow#main\""
         }
@@ -1976,11 +2158,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-sandbox-escalation-fix@latest",
           "source": "npm:dsh-sandbox-escalation-fix@latest",
           "command": "dsh plugin --profile web add dsh-sandbox-escalation-fix@latest"
         },
         {
           "profile": "headless",
+          "install": "dsh-sandbox-escalation-fix@latest",
           "source": "npm:dsh-sandbox-escalation-fix@latest",
           "command": "dsh plugin --profile headless add dsh-sandbox-escalation-fix@latest"
         }
@@ -1993,16 +2177,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-cost-meter",
           "source": "npm:dsh-cost-meter",
           "command": "dsh plugin --profile web add dsh-cost-meter"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Han-1413141/dsh-cost-meter",
           "source": "github:Han-1413141/dsh-cost-meter#v1.7.39",
           "command": "dsh plugin --profile web add github:Han-1413141/dsh-cost-meter#v1.7.39"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.7.39.tar.gz",
           "source": "url:https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.7.39.tar.gz",
           "command": "dsh plugin --profile web add https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.7.39.tar.gz"
         }
@@ -2015,6 +2202,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/HanaAyane/dsh-reasoning-effort",
           "source": "github:HanaAyane/dsh-reasoning-effort#v0.7.3",
           "command": "dsh plugin --profile web add github:HanaAyane/dsh-reasoning-effort#v0.7.3"
         }
@@ -2027,6 +2215,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "@deepseek-ai/dsh-web-app",
           "source": "npm:@deepseek-ai/dsh-web-app",
           "command": "dsh plugin add @deepseek-ai/dsh-web-app"
         }
@@ -2039,6 +2228,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Hanmiao33/dsh-bubble-explain",
           "source": "github:Hanmiao33/dsh-bubble-explain",
           "command": "dsh plugin --profile web add github:Hanmiao33/dsh-bubble-explain"
         }
@@ -2051,6 +2241,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-plugin-yolo@0.5.0",
           "source": "npm:dsh-plugin-yolo@0.5.0",
           "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-plugin-yolo@0.5.0"
         }
@@ -2063,16 +2254,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-turn-delete",
           "source": "npm:dsh-turn-delete",
           "command": "dsh plugin --profile web add dsh-turn-delete"
         },
         {
           "profile": "web",
+          "install": "https://github.com/hanshenmesen/dsh-turn-delete",
           "source": "github:hanshenmesen/dsh-turn-delete",
           "command": "dsh plugin --profile web add github:hanshenmesen/dsh-turn-delete"
         },
         {
           "profile": "web",
+          "install": "https://github.com/hanshenmesen/dsh-turn-delete/releases/latest/download/dsh-turn-delete.tgz",
           "source": "url:https://github.com/hanshenmesen/dsh-turn-delete/releases/latest/download/dsh-turn-delete.tgz",
           "command": "dsh plugin --profile web add https://github.com/hanshenmesen/dsh-turn-delete/releases/latest/download/dsh-turn-delete.tgz"
         }
@@ -2085,16 +2279,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://example.com/dsh-liang-slider-0.1.0.tgz",
           "source": "url:https://example.com/dsh-liang-slider-0.1.0.tgz",
           "command": "dsh plugin --profile web add https://example.com/dsh-liang-slider-0.1.0.tgz"
         },
         {
           "profile": "web",
+          "install": "https://github.com/HansLin911/dsh-liang-slider/releases/download/v0.1.0/dsh-liang-slider-0.1.0.tgz",
           "source": "url:https://github.com/HansLin911/dsh-liang-slider/releases/download/v0.1.0/dsh-liang-slider-0.1.0.tgz",
           "command": "dsh plugin --profile web add https://github.com/HansLin911/dsh-liang-slider/releases/download/v0.1.0/dsh-liang-slider-0.1.0.tgz"
         },
         {
           "profile": "web",
+          "install": "dsh-liang-slider",
           "source": "npm:dsh-liang-slider",
           "command": "dsh plugin --profile web add dsh-liang-slider"
         }
@@ -2107,6 +2304,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@hanxuanliang/dsh-chaos@0.1.2",
           "source": "npm:@hanxuanliang/dsh-chaos@0.1.2",
           "command": "dsh plugin --profile web add @hanxuanliang/dsh-chaos@0.1.2"
         }
@@ -2119,11 +2317,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-better-reasoning-effort",
           "source": "npm:dsh-better-reasoning-effort",
           "command": "dsh plugin --profile web add dsh-better-reasoning-effort"
         },
         {
           "profile": "web",
+          "install": "https://github.com/HaoyueQin/dsh-better-reasoning-effort",
           "source": "github:HaoyueQin/dsh-better-reasoning-effort",
           "command": "dsh plugin --profile web add github:HaoyueQin/dsh-better-reasoning-effort"
         }
@@ -2144,11 +2344,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-agent-messaging",
           "source": "npm:dsh-agent-messaging",
           "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-agent-messaging"
         },
         {
           "profile": "web",
+          "install": "https://github.com/happyren/dsh-agent-messaging",
           "source": "github:happyren/dsh-agent-messaging",
           "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:happyren/dsh-agent-messaging"
         }
@@ -2169,11 +2371,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-share",
           "source": "npm:dsh-share",
           "command": "dsh plugin --profile web add dsh-share"
         },
         {
           "profile": "web",
+          "install": "https://github.com/hellodigua/dsh-share",
           "source": "github:hellodigua/dsh-share#vX.Y.Z",
           "command": "dsh plugin --profile web add github:hellodigua/dsh-share#vX.Y.Z"
         }
@@ -2186,6 +2390,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/hherosoul/dsh-smart-charts",
           "source": "github:hherosoul/dsh-smart-charts",
           "command": "dsh plugin --profile web add github:hherosoul/dsh-smart-charts"
         }
@@ -2198,6 +2403,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/hi-wenw/dsh-telegram-channel",
           "source": "github:hi-wenw/dsh-telegram-channel",
           "command": "dsh plugin --profile web add github:hi-wenw/dsh-telegram-channel"
         }
@@ -2210,6 +2416,7 @@
       "packages": [
         {
           "profile": "tui",
+          "install": "seektty@1.2.6",
           "source": "npm:seektty@1.2.6",
           "command": "dsh plugin --profile tui add --config.enable-global-virtual-store=false seektty@1.2.6"
         }
@@ -2222,11 +2429,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dingtalk-dsh-assistant@0.5.8",
           "source": "npm:dingtalk-dsh-assistant@0.5.8",
           "command": "dsh plugin --profile web add dingtalk-dsh-assistant@0.5.8"
         },
         {
           "profile": "web",
+          "install": "@zzusp/dingtalk-dsh-assistant@latest",
           "source": "npm:@zzusp/dingtalk-dsh-assistant@latest",
           "command": "dsh plugin --profile web add @zzusp/dingtalk-dsh-assistant@latest"
         }
@@ -2239,6 +2448,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/hkkz9522/dsh-session-manager",
           "source": "github:hkkz9522/dsh-session-manager",
           "command": "dsh plugin --profile web add github:hkkz9522/dsh-session-manager"
         }
@@ -2251,6 +2461,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-zotero",
           "source": "npm:dsh-zotero",
           "command": "dsh plugin --profile web add dsh-zotero"
         }
@@ -2263,6 +2474,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-file-upload",
           "source": "npm:dsh-file-upload",
           "command": "dsh plugin --profile web add dsh-file-upload"
         }
@@ -2275,6 +2487,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-kimicode-swarm",
           "source": "npm:dsh-kimicode-swarm",
           "command": "dsh plugin --profile web add dsh-kimicode-swarm"
         }
@@ -2287,6 +2500,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/howmp/dsh-pentest/releases/latest/download/dsh-pentest.tar.gz",
           "source": "url:https://github.com/howmp/dsh-pentest/releases/latest/download/dsh-pentest.tar.gz",
           "command": "dsh plugin --profile web add https://github.com/howmp/dsh-pentest/releases/latest/download/dsh-pentest.tar.gz"
         }
@@ -2299,6 +2513,7 @@
       "packages": [
         {
           "profile": "demo",
+          "install": "dsh-plan-graph",
           "source": "npm:dsh-plan-graph",
           "command": "dsh plugin --profile demo add dsh-plan-graph"
         }
@@ -2311,6 +2526,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@hr98w/dsh-memory",
           "source": "npm:@hr98w/dsh-memory",
           "command": "dsh plugin --profile web add @hr98w/dsh-memory"
         }
@@ -2323,6 +2539,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/HsiangNianian/dsh-auto-continue",
           "source": "github:HsiangNianian/dsh-auto-continue",
           "command": "dsh plugin --profile web add github:HsiangNianian/dsh-auto-continue"
         }
@@ -2335,6 +2552,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "prts-terrarchive@0.2.0",
           "source": "npm:prts-terrarchive@0.2.0",
           "command": "dsh plugin --profile web add prts-terrarchive@0.2.0"
         }
@@ -2347,6 +2565,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@huanlin/dsh-plugin-aigc-canvas",
           "source": "npm:@huanlin/dsh-plugin-aigc-canvas",
           "command": "dsh plugin --profile web add @huanlin/dsh-plugin-aigc-canvas"
         }
@@ -2359,6 +2578,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@huanlin/dsh-plugin-auto-blame",
           "source": "npm:@huanlin/dsh-plugin-auto-blame",
           "command": "dsh plugin --profile web add @huanlin/dsh-plugin-auto-blame"
         }
@@ -2371,6 +2591,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@huanlin/dsh-plugin-better-sidebar-plugin-office",
           "source": "npm:@huanlin/dsh-plugin-better-sidebar-plugin-office",
           "command": "dsh plugin --profile web add @huanlin/dsh-plugin-better-sidebar-plugin-office"
         }
@@ -2383,6 +2604,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@huanlin/dsh-plugin-d399",
           "source": "npm:@huanlin/dsh-plugin-d399",
           "command": "dsh plugin --profile web add @huanlin/dsh-plugin-d399"
         }
@@ -2395,6 +2617,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@huanlin/dsh-plugin-interpreters",
           "source": "npm:@huanlin/dsh-plugin-interpreters",
           "command": "dsh plugin --profile web add @huanlin/dsh-plugin-interpreters"
         }
@@ -2407,6 +2630,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@huanlin/dsh-plugin-mineru",
           "source": "npm:@huanlin/dsh-plugin-mineru",
           "command": "dsh plugin --profile web add @huanlin/dsh-plugin-mineru"
         }
@@ -2419,6 +2643,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@huanlin/dsh-plugin-sleep",
           "source": "npm:@huanlin/dsh-plugin-sleep",
           "command": "dsh plugin --profile web add @huanlin/dsh-plugin-sleep"
         }
@@ -2431,11 +2656,13 @@
       "packages": [
         {
           "profile": "tui",
+          "install": "@huiliyi37/dsh-tianshu-tui",
           "source": "npm:@huiliyi37/dsh-tianshu-tui",
           "command": "pnpm dlx @deepseek-ai/dsh plugin --profile tui add @huiliyi37/dsh-tianshu-tui"
         },
         {
           "profile": "tui",
+          "install": "https://github.com/huiliyi37/dsh-tianshu-tui",
           "source": "github:huiliyi37/dsh-tianshu-tui",
           "command": "pnpm dlx @deepseek-ai/dsh plugin --profile tui add github:huiliyi37/dsh-tianshu-tui"
         }
@@ -2448,6 +2675,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-team",
           "source": "npm:dsh-team",
           "command": "dsh plugin --profile web add dsh-team"
         }
@@ -2460,6 +2688,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@hyzyn/dsh-plugin-kit",
           "source": "npm:@hyzyn/dsh-plugin-kit",
           "command": "dsh plugin --profile web add @hyzyn/dsh-plugin-kit"
         }
@@ -2472,6 +2701,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-remote-mobile",
           "source": "npm:dsh-remote-mobile",
           "command": "dsh plugin --profile web add dsh-remote-mobile"
         }
@@ -2484,6 +2714,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@orbisapp/remote-dsh@latest",
           "source": "npm:@orbisapp/remote-dsh@latest",
           "command": "npx @deepseek-ai/dsh plugin --profile web add @orbisapp/remote-dsh@latest"
         }
@@ -2496,6 +2727,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "deepseek-harness-zh-cn",
           "source": "npm:deepseek-harness-zh-cn",
           "command": "dsh plugin --profile web add deepseek-harness-zh-cn"
         }
@@ -2508,6 +2740,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-plugin-git-bash",
           "source": "npm:dsh-plugin-git-bash",
           "command": "dsh plugin --profile web add dsh-plugin-git-bash"
         }
@@ -2520,6 +2753,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-plugin-sandbox-escalation-fix",
           "source": "npm:dsh-plugin-sandbox-escalation-fix",
           "command": "dsh plugin --profile web add dsh-plugin-sandbox-escalation-fix"
         }
@@ -2532,6 +2766,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/jean3690/dsh-drawio",
           "source": "url:https://github.com/jean3690/dsh-drawio",
           "command": "dsh plugin --profile web add https://github.com/jean3690/dsh-drawio"
         }
@@ -2544,6 +2779,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@dsh-skillport/bundle",
           "source": "npm:@dsh-skillport/bundle",
           "command": "dsh plugin --profile web add @dsh-skillport/bundle"
         }
@@ -2556,6 +2792,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@carljia/omd-dsh",
           "source": "npm:@carljia/omd-dsh",
           "command": "dsh plugin --profile web add @carljia/omd-dsh"
         }
@@ -2568,11 +2805,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-token-pet",
           "source": "npm:dsh-token-pet",
           "command": "dsh plugin --profile web add dsh-token-pet"
         },
         {
           "profile": "desktop",
+          "install": "dsh-token-pet",
           "source": "npm:dsh-token-pet",
           "command": "dsh plugin --profile desktop add dsh-token-pet"
         }
@@ -2585,16 +2824,19 @@
       "packages": [
         {
           "profile": "default",
+          "install": "picturereader",
           "source": "npm:picturereader",
           "command": "dsh plugin add picturereader"
         },
         {
           "profile": "web",
+          "install": "picturereader",
           "source": "npm:picturereader",
           "command": "dsh plugin --profile web add picturereader"
         },
         {
           "profile": "headless",
+          "install": "picturereader",
           "source": "npm:picturereader",
           "command": "dsh plugin --profile headless add picturereader"
         }
@@ -2607,11 +2849,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-chat-timeline",
           "source": "npm:dsh-chat-timeline",
           "command": "dsh plugin --profile web add dsh-chat-timeline"
         },
         {
           "profile": "default",
+          "install": "dsh-chat-timeline",
           "source": "npm:dsh-chat-timeline",
           "command": "dsh plugin add dsh-chat-timeline"
         }
@@ -2624,6 +2868,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-agy-safe",
           "source": "npm:dsh-agy-safe",
           "command": "dsh plugin --profile web add dsh-agy-safe"
         }
@@ -2636,11 +2881,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-strata",
           "source": "npm:dsh-strata",
           "command": "dsh plugin --profile web add dsh-strata"
         },
         {
           "profile": "web",
+          "install": "https://github.com/jsdvjx/dsh-strata",
           "source": "github:jsdvjx/dsh-strata#main",
           "command": "dsh plugin --profile web add \"github:jsdvjx/dsh-strata#main\""
         }
@@ -2653,6 +2900,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/JuneLearn/dsh-image2-draw",
           "source": "github:JuneLearn/dsh-image2-draw",
           "command": "npx --yes -p @deepseek-ai/dsh dsh plugin --profile web add github:JuneLearn/dsh-image2-draw"
         }
@@ -2665,16 +2913,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-layered-memory",
           "source": "npm:dsh-layered-memory",
           "command": "npx -y @deepseek-ai/dsh plugin --profile web add dsh-layered-memory"
         },
         {
           "profile": "web",
+          "install": "https://github.com/JunNanLYS/dsh-layered-memory",
           "source": "url:https://github.com/JunNanLYS/dsh-layered-memory",
           "command": "dsh plugin --profile web add https://github.com/JunNanLYS/dsh-layered-memory"
         },
         {
           "profile": "dsh-tui",
+          "install": "dsh-layered-memory",
           "source": "npm:dsh-layered-memory",
           "command": "dsh plugin --profile dsh-tui add dsh-layered-memory"
         }
@@ -2687,6 +2938,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/justhalfbit/dsh-plugin-memory",
           "source": "github:justhalfbit/dsh-plugin-memory",
           "command": "dsh plugin --profile web add github:justhalfbit/dsh-plugin-memory"
         }
@@ -2699,6 +2951,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "dsh-plugin-lookatstudy",
           "source": "npm:dsh-plugin-lookatstudy",
           "command": "dsh plugin add dsh-plugin-lookatstudy"
         }
@@ -2711,11 +2964,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-complete-notify",
           "source": "npm:dsh-complete-notify",
           "command": "dsh plugin --profile web add dsh-complete-notify"
         },
         {
           "profile": "web",
+          "install": "https://github.com/kaixinbaba/dsh-complete-notify",
           "source": "github:kaixinbaba/dsh-complete-notify",
           "command": "dsh plugin --profile web add \"github:kaixinbaba/dsh-complete-notify\""
         }
@@ -2728,6 +2983,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-gitbash-shell",
           "source": "npm:dsh-gitbash-shell",
           "command": "dsh plugin --profile web add dsh-gitbash-shell"
         }
@@ -2740,11 +2996,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-network-settings",
           "source": "npm:dsh-network-settings",
           "command": "dsh plugin --profile web add dsh-network-settings"
         },
         {
           "profile": "web",
+          "install": "https://github.com/kanneiren/dsh-network-settings",
           "source": "github:kanneiren/dsh-network-settings",
           "command": "dsh plugin --profile web add github:kanneiren/dsh-network-settings"
         }
@@ -2757,6 +3015,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/KanoNoUta/dsh-captain",
           "source": "github:KanoNoUta/dsh-captain",
           "command": "dsh plugin --profile web add github:KanoNoUta/dsh-captain"
         }
@@ -2769,6 +3028,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-github",
           "source": "npm:dsh-github",
           "command": "dsh plugin --profile web add dsh-github"
         }
@@ -2781,6 +3041,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
           "source": "url:https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz",
           "command": "dsh plugin --profile web add https://github.com/KelaoHu/dsh-lowtide/releases/latest/download/dsh-lowtide.tgz"
         }
@@ -2793,6 +3054,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/kingOfSoySauce/dsh-liang-skin",
           "source": "github:kingOfSoySauce/dsh-liang-skin",
           "command": "dsh plugin --profile web add 'github:kingOfSoySauce/dsh-liang-skin'"
         }
@@ -2805,6 +3067,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "on",
           "source": "npm:on",
           "command": "dsh plugin --profile web add on"
         }
@@ -2817,11 +3080,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-office-tools",
           "source": "npm:dsh-office-tools",
           "command": "dsh plugin --profile web add dsh-office-tools"
         },
         {
           "profile": "web",
+          "install": "https://github.com/kw78/dsh-office-tools",
           "source": "github:kw78/dsh-office-tools",
           "command": "dsh plugin --profile web add github:kw78/dsh-office-tools"
         }
@@ -2834,6 +3099,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Kytolly/dsh-evolve-in-git",
           "source": "github:Kytolly/dsh-evolve-in-git",
           "command": "dsh plugin --profile web add github:Kytolly/dsh-evolve-in-git"
         }
@@ -2846,6 +3112,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-mcp-lens@0.1.0-rc.9",
           "source": "npm:dsh-mcp-lens@0.1.0-rc.9",
           "command": "dsh plugin --profile web add dsh-mcp-lens@0.1.0-rc.9"
         }
@@ -2858,6 +3125,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-maze",
           "source": "npm:dsh-maze",
           "command": "dsh plugin --profile web add dsh-maze"
         }
@@ -2870,11 +3138,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/LAN-TINA-WS/dsh-windows-shell-policy",
           "source": "github:LAN-TINA-WS/dsh-windows-shell-policy",
           "command": "dsh plugin --profile web add github:LAN-TINA-WS/dsh-windows-shell-policy"
         },
         {
           "profile": "web",
+          "install": "dsh-windows-shell-policy",
           "source": "npm:dsh-windows-shell-policy",
           "command": "dsh plugin --profile web add dsh-windows-shell-policy"
         }
@@ -2887,6 +3157,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-usage-stats",
           "source": "npm:dsh-usage-stats",
           "command": "dsh plugin --profile web add dsh-usage-stats"
         }
@@ -2899,6 +3170,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-smooth-stream",
           "source": "npm:dsh-smooth-stream",
           "command": "pnpm dsh plugin --profile web add dsh-smooth-stream"
         }
@@ -2911,16 +3183,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/LayneChai/superpowers-dsh",
           "source": "github:LayneChai/superpowers-dsh",
           "command": "npx @deepseek-ai/dsh plugin --profile web add github:LayneChai/superpowers-dsh"
         },
         {
           "profile": "web",
+          "install": "superpowers-dsh",
           "source": "npm:superpowers-dsh",
           "command": "dsh plugin --profile web add superpowers-dsh"
         },
         {
           "profile": "web",
+          "install": "https://github.com/LayneChai/superpowers-dsh.git",
           "source": "url:https://github.com/LayneChai/superpowers-dsh.git",
           "command": "dsh plugin --profile web add https://github.com/LayneChai/superpowers-dsh.git"
         }
@@ -2933,6 +3208,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-local-llm-controller",
           "source": "npm:dsh-local-llm-controller",
           "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-local-llm-controller"
         }
@@ -2945,6 +3221,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "https://github.com/lcgash/dsh-plugin-uw",
           "source": "github:lcgash/dsh-plugin-uw",
           "command": "dsh plugin add github:lcgash/dsh-plugin-uw"
         }
@@ -2957,6 +3234,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/le-soleil-se-couche/dsh-token-cost",
           "source": "github:le-soleil-se-couche/dsh-token-cost",
           "command": "dsh plugin --profile web add github:le-soleil-se-couche/dsh-token-cost"
         }
@@ -2969,11 +3247,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/LeemanCheung/dsh-task-dag",
           "source": "github:LeemanCheung/dsh-task-dag",
           "command": "dsh plugin --profile web add github:LeemanCheung/dsh-task-dag"
         },
         {
           "profile": "web",
+          "install": "https://github.com/LeemanCheung/dsh-task-dag",
           "source": "github:LeemanCheung/dsh-task-dag#8fe407f525823091523cd31bc940342feb83b7d1",
           "command": "dsh plugin --profile web add github:LeemanCheung/dsh-task-dag#8fe407f525823091523cd31bc940342feb83b7d1"
         }
@@ -2986,6 +3266,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@lemoncat7/dsh-knowledge",
           "source": "npm:@lemoncat7/dsh-knowledge",
           "command": "dsh plugin --profile web add @lemoncat7/dsh-knowledge"
         }
@@ -2998,6 +3279,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-synapse",
           "source": "npm:dsh-synapse",
           "command": "pnpm dsh plugin --profile web add dsh-synapse"
         }
@@ -3010,6 +3292,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@icelily/dsh-gitbash-preset",
           "source": "npm:@icelily/dsh-gitbash-preset",
           "command": "dsh plugin --profile web add @icelily/dsh-gitbash-preset"
         }
@@ -3022,11 +3305,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-wallpaper-rotator",
           "source": "npm:dsh-wallpaper-rotator",
           "command": "dsh plugin --profile web add dsh-wallpaper-rotator"
         },
         {
           "profile": "web",
+          "install": "https://github.com/liceses/dsh-wallpaper-rotator",
           "source": "github:liceses/dsh-wallpaper-rotator",
           "command": "dsh plugin --profile web add github:liceses/dsh-wallpaper-rotator"
         }
@@ -3039,6 +3324,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "ds-harness-remote@0.4.17",
           "source": "npm:ds-harness-remote@0.4.17",
           "command": "dsh plugin --profile web add -w ds-harness-remote@0.4.17"
         }
@@ -3051,6 +3337,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-plugin-garmin-connect",
           "source": "npm:dsh-plugin-garmin-connect",
           "command": "npx --legacy-peer-deps=false @deepseek-ai/dsh plugin --profile web add dsh-plugin-garmin-connect"
         }
@@ -3063,11 +3350,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@limuyang2/dsh-agent-team",
           "source": "npm:@limuyang2/dsh-agent-team",
           "command": "npx @deepseek-ai/dsh plugin --profile web add @limuyang2/dsh-agent-team"
         },
         {
           "profile": "default",
+          "install": "@limuyang2/dsh-agent-team@0.1.4",
           "source": "npm:@limuyang2/dsh-agent-team@0.1.4",
           "command": "dsh plugin add --save-exact @limuyang2/dsh-agent-team@0.1.4"
         }
@@ -3080,6 +3369,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@linenxi-ctrl/dsh-vision",
           "source": "npm:@linenxi-ctrl/dsh-vision",
           "command": "dsh plugin --profile web add @linenxi-ctrl/dsh-vision"
         }
@@ -3092,6 +3382,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "gongwen-skill",
           "source": "npm:gongwen-skill",
           "command": "dsh plugin --profile web add -w gongwen-skill"
         }
@@ -3104,11 +3395,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/linkbag/dsh-swarm-orchestrator",
           "source": "github:linkbag/dsh-swarm-orchestrator",
           "command": "dsh plugin --profile web add github:linkbag/dsh-swarm-orchestrator"
         },
         {
           "profile": "web",
+          "install": "dsh-swarm-orchestrator",
           "source": "npm:dsh-swarm-orchestrator",
           "command": "dsh plugin --profile web add dsh-swarm-orchestrator"
         }
@@ -3121,11 +3414,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/lire1131/dsh-undo-savepoint",
           "source": "github:lire1131/dsh-undo-savepoint#master",
           "command": "dsh plugin --profile web add github:lire1131/dsh-undo-savepoint#master"
         },
         {
           "profile": "web",
+          "install": "dsh-undo-savepoint",
           "source": "npm:dsh-undo-savepoint",
           "command": "dsh plugin --profile web add dsh-undo-savepoint"
         }
@@ -3138,6 +3433,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-ai4scholar",
           "source": "npm:dsh-ai4scholar",
           "command": "dsh plugin --profile web add dsh-ai4scholar"
         }
@@ -3150,6 +3446,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@liustack/modlens@3.26.5",
           "source": "npm:@liustack/modlens@3.26.5",
           "command": "npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modlens@3.26.5"
         }
@@ -3162,6 +3459,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@liustack/modsearch@5.10.5",
           "source": "npm:@liustack/modsearch@5.10.5",
           "command": "npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modsearch@5.10.5"
         }
@@ -3174,6 +3472,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/LiZhenNet/dsh-antigravity",
           "source": "github:LiZhenNet/dsh-antigravity",
           "command": "dsh plugin --profile web add github:LiZhenNet/dsh-antigravity"
         }
@@ -3186,6 +3485,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "oh-my-knowledge",
           "source": "npm:oh-my-knowledge",
           "command": "dsh plugin --profile web add oh-my-knowledge"
         }
@@ -3198,6 +3498,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/loadingvx/deepseek-harness-workbench-plugin",
           "source": "github:loadingvx/deepseek-harness-workbench-plugin",
           "command": "dsh plugin --profile web add github:loadingvx/deepseek-harness-workbench-plugin"
         }
@@ -3210,6 +3511,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-kingdom@2.0.0",
           "source": "npm:dsh-kingdom@2.0.0",
           "command": "dsh plugin --profile web add dsh-kingdom@2.0.0"
         }
@@ -3222,16 +3524,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/lxzy-7/dsh-plugin-guard",
           "source": "github:lxzy-7/dsh-plugin-guard",
           "command": "dsh plugin --profile web add github:lxzy-7/dsh-plugin-guard"
         },
         {
           "profile": "web",
+          "install": "https://raw.githubusercontent.com/lxzy-7/dsh-plugin-guard/main/dist/dsh-plugin-guard-0.3.2.tgz",
           "source": "url:https://raw.githubusercontent.com/lxzy-7/dsh-plugin-guard/main/dist/dsh-plugin-guard-0.3.2.tgz",
           "command": "dsh plugin --profile web add https://raw.githubusercontent.com/lxzy-7/dsh-plugin-guard/main/dist/dsh-plugin-guard-0.3.2.tgz"
         },
         {
           "profile": "web",
+          "install": "dsh-plugin-guard",
           "source": "npm:dsh-plugin-guard",
           "command": "dsh plugin --profile web add dsh-plugin-guard"
         }
@@ -3244,6 +3549,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "deepspider",
           "source": "npm:deepspider",
           "command": "dsh plugin --profile web add deepspider"
         }
@@ -3256,6 +3562,7 @@
       "packages": [
         {
           "profile": "trading",
+          "install": "@dsh-trading/bundle",
           "source": "npm:@dsh-trading/bundle",
           "command": "dsh plugin --profile trading add @dsh-trading/bundle"
         }
@@ -3268,6 +3575,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-usage-stats",
           "source": "npm:dsh-usage-stats",
           "command": "dsh plugin --profile web add dsh-usage-stats"
         }
@@ -3280,11 +3588,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-subagent-library",
           "source": "npm:dsh-subagent-library",
           "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-subagent-library"
         },
         {
           "profile": "web",
+          "install": "https://github.com/MaRi23333/dsh-subagent-library",
           "source": "github:MaRi23333/dsh-subagent-library",
           "command": "npx @deepseek-ai/dsh plugin --profile web add github:MaRi23333/dsh-subagent-library"
         }
@@ -3297,11 +3607,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@mars-sea/dsh-commandcode-provider@latest",
           "source": "npm:@mars-sea/dsh-commandcode-provider@latest",
           "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider@latest"
         },
         {
           "profile": "dsh-tui",
+          "install": "@mars-sea/dsh-commandcode-provider@0.11.15",
           "source": "npm:@mars-sea/dsh-commandcode-provider@0.11.15",
           "command": "dsh plugin --profile dsh-tui add @mars-sea/dsh-commandcode-provider@0.11.15"
         }
@@ -3314,16 +3626,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/masknull/dsh-qoder-connect",
           "source": "github:masknull/dsh-qoder-connect",
           "command": "dsh plugin --profile web add github:masknull/dsh-qoder-connect"
         },
         {
           "profile": "web",
+          "install": "dsh-qoder-connect",
           "source": "npm:dsh-qoder-connect",
           "command": "dsh plugin --profile web add dsh-qoder-connect"
         },
         {
           "profile": "desktop",
+          "install": "dsh-qoder-connect",
           "source": "npm:dsh-qoder-connect",
           "command": "dsh plugin --profile desktop add dsh-qoder-connect"
         }
@@ -3336,16 +3651,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/masknull/dsh-workbuddy-connect",
           "source": "github:masknull/dsh-workbuddy-connect",
           "command": "dsh plugin --profile web add github:masknull/dsh-workbuddy-connect"
         },
         {
           "profile": "desktop",
+          "install": "https://github.com/masknull/dsh-workbuddy-connect",
           "source": "github:masknull/dsh-workbuddy-connect",
           "command": "dsh plugin --profile desktop add github:masknull/dsh-workbuddy-connect"
         },
         {
           "profile": "dsh-tui",
+          "install": "https://github.com/masknull/dsh-workbuddy-connect",
           "source": "github:masknull/dsh-workbuddy-connect",
           "command": "dsh plugin --profile dsh-tui add github:masknull/dsh-workbuddy-connect"
         }
@@ -3358,6 +3676,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-usage-chart",
           "source": "npm:dsh-usage-chart",
           "command": "dsh plugin --profile web add dsh-usage-chart"
         }
@@ -3370,11 +3689,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Meredith2328/dsh-sticky-note",
           "source": "github:Meredith2328/dsh-sticky-note",
           "command": "dsh plugin --profile web add github:Meredith2328/dsh-sticky-note"
         },
         {
           "profile": "default",
+          "install": "dsh-sticky-note",
           "source": "npm:dsh-sticky-note",
           "command": "dsh plugin ... add dsh-sticky-note"
         }
@@ -3387,6 +3708,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/mmzm0808/dsh-deepseek-usage",
           "source": "github:mmzm0808/dsh-deepseek-usage",
           "command": "dsh plugin --profile web add github:mmzm0808/dsh-deepseek-usage"
         }
@@ -3399,11 +3721,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-web-mobile",
           "source": "npm:dsh-web-mobile",
           "command": "dsh plugin --profile web add dsh-web-mobile"
         },
         {
           "profile": "web",
+          "install": "https://github.com/mexiaosqwq/dsh-web-mobile",
           "source": "github:mexiaosqwq/dsh-web-mobile",
           "command": "dsh plugin --profile web add github:mexiaosqwq/dsh-web-mobile"
         }
@@ -3416,6 +3740,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-plugin-teamflow",
           "source": "npm:dsh-plugin-teamflow",
           "command": "dsh plugin --profile web add dsh-plugin-teamflow"
         }
@@ -3428,6 +3753,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@michengai/dsh-agency-agents@latest",
           "source": "npm:@michengai/dsh-agency-agents@latest",
           "command": "dsh plugin --profile web add @michengai/dsh-agency-agents@latest"
         }
@@ -3440,6 +3766,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@michengai/dsh-archive-manager@latest",
           "source": "npm:@michengai/dsh-archive-manager@latest",
           "command": "dsh plugin --profile web add @michengai/dsh-archive-manager@latest"
         }
@@ -3452,6 +3779,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@michengai/dsh-codex-ui@latest",
           "source": "npm:@michengai/dsh-codex-ui@latest",
           "command": "dsh plugin --profile web add @michengai/dsh-codex-ui@latest"
         }
@@ -3464,6 +3792,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@michengai/dsh-im-connect@latest",
           "source": "npm:@michengai/dsh-im-connect@latest",
           "command": "dsh plugin --profile web add @michengai/dsh-im-connect@latest"
         }
@@ -3476,6 +3805,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@michengai/dsh-skills-manager@latest",
           "source": "npm:@michengai/dsh-skills-manager@latest",
           "command": "dsh plugin --profile web add @michengai/dsh-skills-manager@latest"
         }
@@ -3488,6 +3818,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-obsidian",
           "source": "npm:dsh-obsidian",
           "command": "dsh plugin --profile web add dsh-obsidian"
         }
@@ -3500,6 +3831,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-agent-bus",
           "source": "npm:dsh-agent-bus",
           "command": "dsh plugin --profile web add dsh-agent-bus"
         }
@@ -3520,6 +3852,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/moeblack/deepseek-manners",
           "source": "github:moeblack/deepseek-manners",
           "command": "dsh plugin --profile web add github:moeblack/deepseek-manners"
         }
@@ -3532,6 +3865,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-message-edit",
           "source": "npm:dsh-message-edit",
           "command": "dsh plugin --profile web add dsh-message-edit"
         }
@@ -3552,6 +3886,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-factory@latest",
           "source": "npm:dsh-factory@latest",
           "command": "dsh plugin --profile web add dsh-factory@latest"
         }
@@ -3564,6 +3899,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-approval-gate",
           "source": "npm:dsh-approval-gate",
           "command": "dsh plugin --profile web add dsh-approval-gate"
         }
@@ -3576,6 +3912,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-mermaid",
           "source": "npm:dsh-mermaid",
           "command": "dsh plugin --profile web add -w dsh-mermaid"
         }
@@ -3588,11 +3925,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-fs-encoding",
           "source": "npm:dsh-fs-encoding",
           "command": "dsh plugin --profile web add dsh-fs-encoding"
         },
         {
           "profile": "web",
+          "install": "https://github.com/MrWeiCodes/dsh-fs-encoding",
           "source": "github:MrWeiCodes/dsh-fs-encoding",
           "command": "dsh plugin --profile web add -w github:MrWeiCodes/dsh-fs-encoding"
         }
@@ -3605,6 +3944,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-subagent-profile",
           "source": "npm:dsh-subagent-profile",
           "command": "dsh plugin --profile web add dsh-subagent-profile"
         }
@@ -3617,6 +3957,7 @@
       "packages": [
         {
           "profile": "tui",
+          "install": "@dsh-std/adapter-dsh",
           "source": "npm:@dsh-std/adapter-dsh",
           "command": "dsh plugin --profile tui add @dsh-std/adapter-dsh"
         }
@@ -3629,11 +3970,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@nagi-ovo/dsh-ads",
           "source": "npm:@nagi-ovo/dsh-ads",
           "command": "dsh plugin --profile web add @nagi-ovo/dsh-ads"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Nagi-ovo/dsh-ads",
           "source": "github:Nagi-ovo/dsh-ads",
           "command": "dsh plugin --profile web add github:Nagi-ovo/dsh-ads"
         }
@@ -3659,11 +4002,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@nagi-ovo/dsh-visualize",
           "source": "npm:@nagi-ovo/dsh-visualize",
           "command": "dsh plugin --profile web add @nagi-ovo/dsh-visualize"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Nagi-ovo/dsh-visualize",
           "source": "github:Nagi-ovo/dsh-visualize",
           "command": "dsh plugin --profile web add github:Nagi-ovo/dsh-visualize"
         }
@@ -3676,6 +4021,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@nanmicoder/dsh-agent-teams@0.1.21",
           "source": "npm:@nanmicoder/dsh-agent-teams@0.1.21",
           "command": "dsh plugin --profile web add --save-exact @nanmicoder/dsh-agent-teams@0.1.21"
         }
@@ -3688,6 +4034,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@nanmicoder/dsh-auto-mode@0.1.10",
           "source": "npm:@nanmicoder/dsh-auto-mode@0.1.10",
           "command": "dsh plugin --profile web add @nanmicoder/dsh-auto-mode@0.1.10"
         }
@@ -3700,6 +4047,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-qa",
           "source": "npm:dsh-qa",
           "command": "pnpm dsh plugin --profile web add dsh-qa"
         }
@@ -3712,6 +4060,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-agent-relay",
           "source": "npm:dsh-agent-relay",
           "command": "dsh plugin --profile web add dsh-agent-relay"
         }
@@ -3724,6 +4073,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-unified-agent-memory",
           "source": "npm:dsh-unified-agent-memory",
           "command": "dsh plugin --profile web add dsh-unified-agent-memory"
         }
@@ -3736,6 +4086,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-mcp-manage",
           "source": "npm:dsh-mcp-manage",
           "command": "dsh plugin --profile web add dsh-mcp-manage"
         }
@@ -3754,6 +4105,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-chat-import",
           "source": "npm:dsh-chat-import",
           "command": "dsh plugin --profile web add dsh-chat-import"
         }
@@ -3766,6 +4118,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-weneed",
           "source": "npm:dsh-weneed",
           "command": "dsh plugin --profile web add dsh-weneed"
         }
@@ -3778,6 +4131,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/oil-oil/dsh-oil-creator",
           "source": "github:oil-oil/dsh-oil-creator",
           "command": "npx @deepseek-ai/dsh plugin --profile web add github:oil-oil/dsh-oil-creator"
         }
@@ -3790,6 +4144,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/oil-oil/dsh-vision",
           "source": "github:oil-oil/dsh-vision",
           "command": "npx @deepseek-ai/dsh plugin --profile web add github:oil-oil/dsh-vision"
         }
@@ -3802,11 +4157,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@changfenhuang/dsh-annotation",
           "source": "npm:@changfenhuang/dsh-annotation",
           "command": "dsh plugin --profile web add @changfenhuang/dsh-annotation"
         },
         {
           "profile": "web",
+          "install": "git+https://github.com/omdsh-dev/dsh-annotation.git",
           "source": "url:git+https://github.com/omdsh-dev/dsh-annotation.git",
           "command": "dsh plugin --profile web add git+https://github.com/omdsh-dev/dsh-annotation.git"
         }
@@ -3819,6 +4176,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-better-sidebar@latest",
           "source": "npm:dsh-better-sidebar@latest",
           "command": "dsh plugin --profile web add dsh-better-sidebar@latest"
         }
@@ -3831,6 +4189,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/omdsh-dev/dsh-custom-tool/archive/refs/tags/v0.1.2.tar.gz",
           "source": "url:https://github.com/omdsh-dev/dsh-custom-tool/archive/refs/tags/v0.1.2.tar.gz",
           "command": "dsh plugin --profile web add https://github.com/omdsh-dev/dsh-custom-tool/archive/refs/tags/v0.1.2.tar.gz"
         }
@@ -3843,11 +4202,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@yejiming/dsh-data-agent",
           "source": "npm:@yejiming/dsh-data-agent",
           "command": "dsh plugin --profile web add @yejiming/dsh-data-agent"
         },
         {
           "profile": "dsh-tui",
+          "install": "@yejiming/dsh-data-agent",
           "source": "npm:@yejiming/dsh-data-agent",
           "command": "dsh plugin --profile dsh-tui add @yejiming/dsh-data-agent"
         }
@@ -3868,6 +4229,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@changfenhuang/dsh-genui",
           "source": "npm:@changfenhuang/dsh-genui",
           "command": "dsh plugin --profile web add @changfenhuang/dsh-genui"
         }
@@ -3888,6 +4250,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-lark-channel@latest",
           "source": "npm:dsh-lark-channel@latest",
           "command": "dsh plugin --profile web add dsh-lark-channel@latest"
         }
@@ -3900,11 +4263,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-llm-fallbacks",
           "source": "npm:dsh-llm-fallbacks",
           "command": "dsh plugin --profile web add dsh-llm-fallbacks"
         },
         {
           "profile": "dsh-tui",
+          "install": "dsh-llm-fallbacks",
           "source": "npm:dsh-llm-fallbacks",
           "command": "dsh plugin --profile dsh-tui add dsh-llm-fallbacks"
         }
@@ -3917,11 +4282,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-mnemon",
           "source": "npm:dsh-mnemon",
           "command": "dsh plugin --profile web add dsh-mnemon"
         },
         {
           "profile": "headless",
+          "install": "dsh-mnemon",
           "source": "npm:dsh-mnemon",
           "command": "dsh plugin --profile headless add dsh-mnemon"
         }
@@ -3934,6 +4301,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/omdsh-dev/dsh-notification/archive/refs/tags/v0.1.4.tar.gz",
           "source": "url:https://github.com/omdsh-dev/dsh-notification/archive/refs/tags/v0.1.4.tar.gz",
           "command": "dsh plugin --profile web add https://github.com/omdsh-dev/dsh-notification/archive/refs/tags/v0.1.4.tar.gz"
         }
@@ -3946,6 +4314,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/omdsh-dev/dsh-open-in-vscode/archive/refs/tags/v0.1.6.tar.gz",
           "source": "url:https://github.com/omdsh-dev/dsh-open-in-vscode/archive/refs/tags/v0.1.6.tar.gz",
           "command": "dsh plugin --profile web add https://github.com/omdsh-dev/dsh-open-in-vscode/archive/refs/tags/v0.1.6.tar.gz"
         }
@@ -3958,11 +4327,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/omdsh-dev/dsh-plugin-check",
           "source": "github:omdsh-dev/dsh-plugin-check",
           "command": "dsh plugin --profile web add github:omdsh-dev/dsh-plugin-check"
         },
         {
           "profile": "headless",
+          "install": "https://github.com/omdsh-dev/dsh-plugin-check",
           "source": "github:omdsh-dev/dsh-plugin-check",
           "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-plugin-check"
         }
@@ -3975,11 +4346,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/omdsh-dev/dsh-security-audit",
           "source": "github:omdsh-dev/dsh-security-audit",
           "command": "dsh plugin --profile web add github:omdsh-dev/dsh-security-audit"
         },
         {
           "profile": "headless",
+          "install": "https://github.com/omdsh-dev/dsh-security-audit",
           "source": "github:omdsh-dev/dsh-security-audit",
           "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-security-audit"
         }
@@ -3992,11 +4365,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/omdsh-dev/dsh-session-health",
           "source": "github:omdsh-dev/dsh-session-health",
           "command": "dsh plugin --profile web add github:omdsh-dev/dsh-session-health"
         },
         {
           "profile": "headless",
+          "install": "https://github.com/omdsh-dev/dsh-session-health",
           "source": "github:omdsh-dev/dsh-session-health",
           "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-session-health"
         }
@@ -4009,16 +4384,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/omdsh-dev/dsh-tool-csv",
           "source": "github:omdsh-dev/dsh-tool-csv",
           "command": "dsh plugin --profile web add github:omdsh-dev/dsh-tool-csv"
         },
         {
           "profile": "headless",
+          "install": "https://github.com/omdsh-dev/dsh-tool-diff",
           "source": "github:omdsh-dev/dsh-tool-diff",
           "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-tool-diff"
         },
         {
           "profile": "web",
+          "install": "https://github.com/omdsh-dev/dsh-toolkit",
           "source": "github:omdsh-dev/dsh-toolkit",
           "command": "dsh plugin --profile web add github:omdsh-dev/dsh-toolkit"
         }
@@ -4031,6 +4409,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/dsh-external/dsh_workflow",
           "source": "github:dsh-external/dsh_workflow#main",
           "command": "dsh plugin --profile web add \"github:dsh-external/dsh_workflow#main\""
         }
@@ -4043,6 +4422,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@oh-my-dsh/stent-pack",
           "source": "npm:@oh-my-dsh/stent-pack",
           "command": "dsh plugin --profile web add @oh-my-dsh/stent-pack"
         }
@@ -4055,6 +4435,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/OMSociety/kimi-ppt-skill",
           "source": "github:OMSociety/kimi-ppt-skill",
           "command": "dsh plugin --profile web add github:OMSociety/kimi-ppt-skill"
         }
@@ -4067,6 +4448,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-oomol",
           "source": "npm:dsh-oomol",
           "command": "dsh plugin --profile web add -w dsh-oomol"
         }
@@ -4089,6 +4471,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@opencues/dsh",
           "source": "npm:@opencues/dsh",
           "command": "dsh plugin --profile web add @opencues/dsh"
         }
@@ -4099,6 +4482,7 @@
       "packages": [
         {
           "profile": "acp",
+          "install": "@openma/deepseek-harness-acp",
           "source": "npm:@openma/deepseek-harness-acp",
           "command": "dsh plugin --profile acp add -w @openma/deepseek-harness-acp"
         }
@@ -4111,6 +4495,7 @@
       "packages": [
         {
           "profile": "martty",
+          "install": "martty@latest",
           "source": "npm:martty@latest",
           "command": "dsh plugin --profile martty add martty@latest"
         }
@@ -4123,6 +4508,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/opensetk/dsh-xiaohei",
           "source": "github:opensetk/dsh-xiaohei#dsh-plugin",
           "command": "dsh plugin --profile web add github:opensetk/dsh-xiaohei#dsh-plugin"
         }
@@ -4135,6 +4521,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-cursor-subscription",
           "source": "npm:dsh-cursor-subscription",
           "command": "dsh plugin --profile web add dsh-cursor-subscription"
         }
@@ -4147,6 +4534,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/p2coder/dsh-task-control",
           "source": "github:p2coder/dsh-task-control",
           "command": "dsh plugin --profile web add github:p2coder/dsh-task-control"
         }
@@ -4159,6 +4547,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/ParticleLight/dsh-all-usage",
           "source": "github:ParticleLight/dsh-all-usage",
           "command": "dsh plugin --profile web add github:ParticleLight/dsh-all-usage"
         }
@@ -4171,6 +4560,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-pet",
           "source": "npm:dsh-pet",
           "command": "dsh plugin --profile web add dsh-pet",
           "note": "需先 npm install -g @deepseek-ai/dsh pnpm；源码装用 file: 路径"
@@ -4193,6 +4583,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-plugin-genui",
           "source": "npm:dsh-plugin-genui",
           "command": "dsh plugin --profile web add dsh-plugin-genui"
         }
@@ -4205,6 +4596,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "dsh-secure-audit",
           "source": "npm:dsh-secure-audit",
           "command": "dsh plugin add dsh-secure-audit"
         }
@@ -4217,11 +4609,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-auto-review",
           "source": "github:PerryLink/dsh-auto-review#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-auto-review#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-auto-review",
           "source": "npm:dsh-auto-review",
           "command": "dsh plugin --profile web add dsh-auto-review"
         }
@@ -4234,11 +4628,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-checkpoint-rewind",
           "source": "github:PerryLink/dsh-checkpoint-rewind#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-checkpoint-rewind#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-checkpoint-rewind",
           "source": "npm:dsh-checkpoint-rewind",
           "command": "dsh plugin --profile web add dsh-checkpoint-rewind"
         }
@@ -4251,6 +4647,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-data-quality",
           "source": "npm:dsh-data-quality",
           "command": "dsh plugin --profile web add dsh-data-quality"
         }
@@ -4263,11 +4660,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-doublecheck",
           "source": "github:PerryLink/dsh-doublecheck#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-doublecheck#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-doublecheck",
           "source": "npm:dsh-doublecheck",
           "command": "dsh plugin --profile web add dsh-doublecheck"
         }
@@ -4280,11 +4679,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-draw",
           "source": "github:PerryLink/dsh-draw#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-draw#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-draw",
           "source": "npm:dsh-draw",
           "command": "dsh plugin --profile web add dsh-draw"
         }
@@ -4297,6 +4698,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-fund-research",
           "source": "npm:dsh-fund-research",
           "command": "dsh plugin --profile web add dsh-fund-research"
         }
@@ -4309,11 +4711,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-github",
           "source": "github:PerryLink/dsh-github#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-github#main\""
         },
         {
           "profile": "web",
+          "install": "@perrylink/dsh-github",
           "source": "npm:@perrylink/dsh-github",
           "command": "dsh plugin --profile web add @perrylink/dsh-github"
         }
@@ -4326,6 +4730,7 @@
       "packages": [
         {
           "profile": "demo",
+          "install": "dsh-industry-research",
           "source": "npm:dsh-industry-research",
           "command": "dsh plugin --profile demo add dsh-industry-research"
         }
@@ -4338,11 +4743,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-library",
           "source": "github:PerryLink/dsh-library#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-library#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-library",
           "source": "npm:dsh-library",
           "command": "dsh plugin --profile web add dsh-library"
         }
@@ -4355,11 +4762,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-lsp-actions",
           "source": "github:PerryLink/dsh-lsp-actions#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-lsp-actions#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-lsp-actions",
           "source": "npm:dsh-lsp-actions",
           "command": "dsh plugin --profile web add dsh-lsp-actions"
         }
@@ -4372,11 +4781,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-mcp-panel",
           "source": "github:PerryLink/dsh-mcp-panel#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-mcp-panel#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-mcp-panel",
           "source": "npm:dsh-mcp-panel",
           "command": "dsh plugin --profile web add dsh-mcp-panel"
         }
@@ -4389,16 +4800,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-memento",
           "source": "github:PerryLink/dsh-memento#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-memento#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-memento",
           "source": "npm:dsh-memento",
           "command": "dsh plugin --profile web add dsh-memento"
         },
         {
           "profile": "web",
+          "install": "git+https://github.com/PerryLink/dsh-memento.git",
           "source": "url:git+https://github.com/PerryLink/dsh-memento.git",
           "command": "dsh plugin --profile web add git+https://github.com/PerryLink/dsh-memento.git"
         }
@@ -4411,11 +4825,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-output-styles",
           "source": "github:PerryLink/dsh-output-styles#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-output-styles#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-output-styles",
           "source": "npm:dsh-output-styles",
           "command": "dsh plugin --profile web add dsh-output-styles"
         }
@@ -4428,11 +4844,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-permission-rules",
           "source": "github:PerryLink/dsh-permission-rules#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-permission-rules#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-permission-rules",
           "source": "npm:dsh-permission-rules",
           "command": "dsh plugin --profile web add dsh-permission-rules"
         }
@@ -4445,11 +4863,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-plugin-guide",
           "source": "github:PerryLink/dsh-plugin-guide#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-plugin-guide#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-plugin-guide",
           "source": "npm:dsh-plugin-guide",
           "command": "dsh plugin --profile web add dsh-plugin-guide"
         }
@@ -4462,6 +4882,7 @@
       "packages": [
         {
           "profile": "demo",
+          "install": "dsh-research-report",
           "source": "npm:dsh-research-report",
           "command": "dsh plugin --profile demo add dsh-research-report"
         }
@@ -4474,11 +4895,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-session-sync",
           "source": "github:PerryLink/dsh-session-sync#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-session-sync#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-session-sync",
           "source": "npm:dsh-session-sync",
           "command": "dsh plugin --profile web add dsh-session-sync"
         }
@@ -4491,6 +4914,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-skill-pack-security",
           "source": "github:PerryLink/dsh-skill-pack-security#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-skill-pack-security#main\""
         }
@@ -4503,11 +4927,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PerryLink/dsh-translate",
           "source": "github:PerryLink/dsh-translate#main",
           "command": "dsh plugin --profile web add \"github:PerryLink/dsh-translate#main\""
         },
         {
           "profile": "web",
+          "install": "dsh-translate",
           "source": "npm:dsh-translate",
           "command": "dsh plugin --profile web add dsh-translate"
         }
@@ -4520,6 +4946,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Phant0Meow/dsh-meow-memory",
           "source": "github:Phant0Meow/dsh-meow-memory",
           "command": "dsh plugin --profile web add github:Phant0Meow/dsh-meow-memory"
         }
@@ -4532,6 +4959,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Phant0Meow/dsh-meow-smooth",
           "source": "github:Phant0Meow/dsh-meow-smooth",
           "command": "dsh plugin --profile web add github:Phant0Meow/dsh-meow-smooth"
         }
@@ -4544,11 +4972,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "femo-plugin",
           "source": "npm:femo-plugin",
           "command": "dsh plugin --profile web add femo-plugin"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Phant0Meow/femo-plugin",
           "source": "github:Phant0Meow/femo-plugin",
           "command": "dsh plugin --profile web add github:Phant0Meow/femo-plugin"
         }
@@ -4561,6 +4991,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@daweifu/capability-menu",
           "source": "npm:@daweifu/capability-menu",
           "command": "dsh plugin --profile web add @daweifu/capability-menu"
         }
@@ -4573,6 +5004,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Player-MINEPIG/dsh-tavern",
           "source": "github:Player-MINEPIG/dsh-tavern#v2.4.3",
           "command": "dsh plugin --profile web add github:Player-MINEPIG/dsh-tavern#v2.4.3"
         }
@@ -4585,6 +5017,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-raw-html-v2-0.7.28.tgz",
           "source": "npm:dsh-raw-html-v2-0.7.28.tgz",
           "command": "dsh plugin --profile web add dsh-raw-html-v2-0.7.28.tgz"
         }
@@ -4597,6 +5030,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/poiuyjie/dsh-vision-opencode",
           "source": "github:poiuyjie/dsh-vision-opencode",
           "command": "dsh plugin --profile web add -w github:poiuyjie/dsh-vision-opencode"
         }
@@ -4609,6 +5043,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "dsh-devices",
           "source": "npm:dsh-devices",
           "command": "dsh plugin add dsh-devices"
         }
@@ -4621,11 +5056,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PolinniZhong/dsh-omi-voice",
           "source": "github:PolinniZhong/dsh-omi-voice#v0.1.3&path:/",
           "command": "dsh plugin --profile web add \"github:PolinniZhong/dsh-omi-voice#v0.1.3&path:/\""
         },
         {
           "profile": "web",
+          "install": "dsh-omi-voice",
           "source": "npm:dsh-omi-voice",
           "command": "dsh plugin --profile web add dsh-omi-voice"
         }
@@ -4638,6 +5075,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/PolinniZhong/dsh-personal-center",
           "source": "github:PolinniZhong/dsh-personal-center",
           "command": "dsh plugin --profile web add github:PolinniZhong/dsh-personal-center"
         }
@@ -4650,6 +5088,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-session-workbench",
           "source": "npm:dsh-session-workbench",
           "command": "dsh plugin --profile web add dsh-session-workbench"
         }
@@ -4662,6 +5101,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts",
           "source": "github:ppy-web/dsh-plugin-xiaomi-mimo-tts",
           "command": "dsh plugin --profile web add github:ppy-web/dsh-plugin-xiaomi-mimo-tts"
         }
@@ -4674,6 +5114,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "dsh-punky-swarm",
           "source": "npm:dsh-punky-swarm",
           "command": "dsh plugin add dsh-punky-swarm"
         }
@@ -4686,6 +5127,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/pypcfx-glitch/risk-rule-design",
           "source": "github:pypcfx-glitch/risk-rule-design",
           "command": "dsh plugin --profile web add \"github:pypcfx-glitch/risk-rule-design\""
         }
@@ -4698,6 +5140,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-run2skill",
           "source": "npm:dsh-run2skill",
           "command": "dsh plugin --profile web add dsh-run2skill"
         }
@@ -4710,6 +5153,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-querit",
           "source": "npm:dsh-querit",
           "command": "dsh plugin --profile web add dsh-querit"
         }
@@ -4722,11 +5166,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-memgas",
           "source": "npm:dsh-memgas",
           "command": "dsh plugin --profile web add dsh-memgas"
         },
         {
           "profile": "web",
+          "install": "https://github.com/quqxui/dsh-memgas",
           "source": "github:quqxui/dsh-memgas",
           "command": "dsh plugin --profile web add github:quqxui/dsh-memgas"
         }
@@ -4739,11 +5185,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Rain-kl/dsh-preset-plus",
           "source": "github:Rain-kl/dsh-preset-plus",
           "command": "dsh plugin --profile web add github:Rain-kl/dsh-preset-plus"
         },
         {
           "profile": "web",
+          "install": "@rain-kl/dsh-preset-plus",
           "source": "npm:@rain-kl/dsh-preset-plus",
           "command": "dsh plugin --profile web add @rain-kl/dsh-preset-plus"
         }
@@ -4756,6 +5204,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/raullenchai/rapid-mlx-dsh-provider",
           "source": "github:raullenchai/rapid-mlx-dsh-provider",
           "command": "dsh plugin --profile web add github:raullenchai/rapid-mlx-dsh-provider"
         }
@@ -4768,6 +5217,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-us-stocks",
           "source": "npm:dsh-us-stocks",
           "command": "dsh plugin --profile web add dsh-us-stocks"
         }
@@ -4780,6 +5230,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-extension-hub",
           "source": "npm:dsh-extension-hub",
           "command": "dsh plugin --profile web add dsh-extension-hub"
         }
@@ -4792,11 +5243,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-easyrewrite",
           "source": "npm:dsh-easyrewrite",
           "command": "dsh plugin --profile web add dsh-easyrewrite"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
           "source": "github:Renzic-Stone/DSH-EasyRewrite",
           "command": "dsh plugin --profile web add github:Renzic-Stone/DSH-EasyRewrite"
         }
@@ -4809,6 +5262,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-dream-skin",
           "source": "npm:dsh-dream-skin",
           "command": "dsh plugin --profile web add dsh-dream-skin"
         }
@@ -4821,11 +5275,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@roarpeng/graphflow",
           "source": "npm:@roarpeng/graphflow",
           "command": "dsh plugin --profile web add @roarpeng/graphflow"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Roarpeng/GraphFlow",
           "source": "github:Roarpeng/GraphFlow",
           "command": "dsh plugin --profile web add github:Roarpeng/GraphFlow"
         }
@@ -4846,11 +5302,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/rootkiller6788/dsh-flow",
           "source": "github:rootkiller6788/dsh-flow",
           "command": "dsh plugin --profile web add github:rootkiller6788/dsh-flow"
         },
         {
           "profile": "default",
+          "install": "dsh-flow",
           "source": "npm:dsh-flow",
           "command": "dsh plugin add dsh-flow"
         }
@@ -4871,6 +5329,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@ryubyte/dsh-a2a",
           "source": "npm:@ryubyte/dsh-a2a",
           "command": "dsh plugin --profile web add @ryubyte/dsh-a2a"
         }
@@ -4883,6 +5342,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "novel-writer",
           "source": "npm:novel-writer",
           "command": "dsh plugin --profile web add novel-writer"
         }
@@ -4895,6 +5355,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-ha-orchestrator",
           "source": "npm:dsh-ha-orchestrator",
           "command": "dsh plugin --profile web add dsh-ha-orchestrator"
         }
@@ -4907,6 +5368,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/sanshanya/better-model-provider",
           "source": "github:sanshanya/better-model-provider#master",
           "command": "dsh plugin --profile web add github:sanshanya/better-model-provider#master"
         }
@@ -4919,6 +5381,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-mobile@latest",
           "source": "npm:dsh-mobile@latest",
           "command": "dsh plugin --profile web add dsh-mobile@latest"
         }
@@ -4931,6 +5394,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-tool-vision",
           "source": "npm:dsh-tool-vision",
           "command": "dsh plugin --profile web add dsh-tool-vision"
         }
@@ -4943,11 +5407,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/scriptsnet/dsh-fleet",
           "source": "url:https://github.com/scriptsnet/dsh-fleet",
           "command": "dsh plugin --profile web add https://github.com/scriptsnet/dsh-fleet"
         },
         {
           "profile": "web",
+          "install": "dsh-fleet",
           "source": "npm:dsh-fleet",
           "command": "dsh plugin --profile web add dsh-fleet"
         }
@@ -4960,6 +5426,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/SeaOf0/dsh-redteam-model",
           "source": "github:SeaOf0/dsh-redteam-model",
           "command": "dsh plugin --profile web add github:SeaOf0/dsh-redteam-model"
         }
@@ -4980,11 +5447,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-image-gen@latest",
           "source": "npm:dsh-image-gen@latest",
           "command": "pnpm dsh plugin --profile web add dsh-image-gen@latest"
         },
         {
           "profile": "web",
+          "install": "git+https://github.com/shanliuling/dsh-image-gen.git",
           "source": "url:git+https://github.com/shanliuling/dsh-image-gen.git",
           "command": "pnpm dsh plugin --profile web add git+https://github.com/shanliuling/dsh-image-gen.git"
         }
@@ -4997,6 +5466,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-pocket",
           "source": "npm:dsh-pocket",
           "command": "dsh plugin --profile web add dsh-pocket"
         }
@@ -5009,6 +5479,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-plugin-product-subagents",
           "source": "npm:dsh-plugin-product-subagents",
           "command": "dsh plugin --profile web add dsh-plugin-product-subagents"
         }
@@ -5021,16 +5492,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/shinjiyu/holdem",
           "source": "github:shinjiyu/holdem#main&path:/dsh-plugin",
           "command": "dsh plugin --profile web add \"github:shinjiyu/holdem#main&path:/dsh-plugin\""
         },
         {
           "profile": "web",
+          "install": "https://github.com/shinjiyu/holdem.git#099dd37&path:/dsh-plugin",
           "source": "url:https://github.com/shinjiyu/holdem.git#099dd37&path:/dsh-plugin",
           "command": "dsh plugin --profile web add \"https://github.com/shinjiyu/holdem.git#099dd37&path:/dsh-plugin\""
         },
         {
           "profile": "web",
+          "install": "https://github.com/shinjiyu/holdem/releases/download/v0.1.1/shinjiyu-dsh-holdem-0.1.0.tgz",
           "source": "url:https://github.com/shinjiyu/holdem/releases/download/v0.1.1/shinjiyu-dsh-holdem-0.1.0.tgz",
           "command": "dsh plugin --profile web add https://github.com/shinjiyu/holdem/releases/download/v0.1.1/shinjiyu-dsh-holdem-0.1.0.tgz"
         }
@@ -5043,6 +5517,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-movein",
           "source": "npm:dsh-movein",
           "command": "dsh plugin --profile web add dsh-movein"
         }
@@ -5055,6 +5530,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-win32",
           "source": "npm:dsh-win32",
           "command": "dsh plugin --profile web add dsh-win32"
         }
@@ -5067,6 +5543,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/SLin-code/dsh-custom-skin",
           "source": "github:SLin-code/dsh-custom-skin",
           "command": "pnpm dsh plugin --profile web add github:SLin-code/dsh-custom-skin"
         }
@@ -5079,6 +5556,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@modusensus/dsh-mneme",
           "source": "npm:@modusensus/dsh-mneme",
           "command": "dsh plugin --profile web add @modusensus/dsh-mneme"
         }
@@ -5091,6 +5569,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-nested-followups",
           "source": "npm:dsh-nested-followups",
           "command": "dsh plugin --profile web add dsh-nested-followups"
         }
@@ -5103,16 +5582,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale",
           "source": "github:Small-tailqwq/dsh-deep-whale#path:/skin-manager",
           "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#path:/skin-manager'"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale",
           "source": "github:Small-tailqwq/dsh-deep-whale#path:/maid-atelier",
           "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#path:/maid-atelier'"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale",
           "source": "github:Small-tailqwq/dsh-deep-whale#path:/orca-link",
           "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#path:/orca-link'"
         }
@@ -5125,11 +5607,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale",
           "source": "github:Small-tailqwq/dsh-deep-whale#path:/skin-manager",
           "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#path:/skin-manager'"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Small-tailqwq/dsh-deepcel",
           "source": "github:Small-tailqwq/dsh-deepcel",
           "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deepcel'"
         }
@@ -5142,6 +5626,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/smanx/dsh-proxy",
           "source": "github:smanx/dsh-proxy#master",
           "command": "dsh plugin --profile web add github:smanx/dsh-proxy#master"
         }
@@ -5156,16 +5641,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-scholar-desk",
           "source": "npm:dsh-scholar-desk",
           "command": "dsh plugin --profile web add dsh-scholar-desk"
         },
         {
           "profile": "web",
+          "install": "dsh-server-dashboard",
           "source": "npm:dsh-server-dashboard",
           "command": "dsh plugin --profile web add dsh-server-dashboard"
         },
         {
           "profile": "web",
+          "install": "dsh-trajectory",
           "source": "npm:dsh-trajectory",
           "command": "dsh plugin --profile web add dsh-trajectory"
         }
@@ -5177,6 +5665,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@snowamberx/dsh-role-router",
           "source": "npm:@snowamberx/dsh-role-router",
           "command": "dsh plugin --profile web add @snowamberx/dsh-role-router"
         }
@@ -5189,11 +5678,13 @@
       "packages": [
         {
           "profile": "demo",
+          "install": "dsh-milestone",
           "source": "npm:dsh-milestone",
           "command": "dsh plugin --profile demo add dsh-milestone"
         },
         {
           "profile": "demo",
+          "install": "https://github.com/SnowCrescenter-tech/dsh-milestone",
           "source": "github:SnowCrescenter-tech/dsh-milestone#main",
           "command": "dsh plugin --profile demo add \"github:SnowCrescenter-tech/dsh-milestone#main\""
         }
@@ -5206,6 +5697,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-bottom-info-bar",
           "source": "npm:dsh-bottom-info-bar",
           "command": "dsh plugin --profile web add dsh-bottom-info-bar"
         }
@@ -5226,6 +5718,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-relay",
           "source": "npm:dsh-relay",
           "command": "dsh plugin --profile web add dsh-relay"
         }
@@ -5238,6 +5731,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-doc",
           "source": "npm:dsh-doc",
           "command": "dsh plugin --profile web add dsh-doc"
         }
@@ -5250,6 +5744,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "beauticode-dsh",
           "source": "npm:beauticode-dsh",
           "command": "npx @deepseek-ai/dsh plugin --profile web add beauticode-dsh"
         }
@@ -5262,6 +5757,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "plus",
           "source": "npm:plus",
           "command": "dsh plugin add plus"
         }
@@ -5274,11 +5770,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/studyzy/dsh-suggest-prompt.git",
           "source": "url:https://github.com/studyzy/dsh-suggest-prompt.git",
           "command": "dsh plugin --profile web add https://github.com/studyzy/dsh-suggest-prompt.git"
         },
         {
           "profile": "web",
+          "install": "@studyzy/dsh-suggest-prompt",
           "source": "npm:@studyzy/dsh-suggest-prompt",
           "command": "dsh plugin --profile web add @studyzy/dsh-suggest-prompt"
         }
@@ -5291,6 +5789,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-remote-web-gateway",
           "source": "npm:dsh-remote-web-gateway",
           "command": "dsh plugin --profile web add dsh-remote-web-gateway"
         }
@@ -5303,11 +5802,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-design-qa",
           "source": "npm:dsh-design-qa",
           "command": "dsh plugin --profile web add dsh-design-qa"
         },
         {
           "profile": "web",
+          "install": "https://github.com/sunxin-ai/dsh-design-qa",
           "source": "github:sunxin-ai/dsh-design-qa",
           "command": "dsh plugin --profile web add github:sunxin-ai/dsh-design-qa"
         }
@@ -5320,6 +5821,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
           "source": "github:Sutera-Diffusus/dsh-whale-musume",
           "command": "dsh plugin --profile web add github:Sutera-Diffusus/dsh-whale-musume"
         }
@@ -5340,6 +5842,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/syncable-dev/dsh-plugin-memtrace",
           "source": "github:syncable-dev/dsh-plugin-memtrace",
           "command": "npx -y @deepseek-ai/dsh plugin --profile web add github:syncable-dev/dsh-plugin-memtrace"
         }
@@ -5352,11 +5855,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-tabbit",
           "source": "npm:dsh-tabbit",
           "command": "dsh plugin --profile web add dsh-tabbit"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Tabbit-Browser/dsh-tabbit",
           "source": "github:Tabbit-Browser/dsh-tabbit",
           "command": "dsh plugin --profile web add github:Tabbit-Browser/dsh-tabbit",
           "note": "npm 不可达时的回退"
@@ -5388,11 +5893,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Tasihi89/dsh-talk-map",
           "source": "github:Tasihi89/dsh-talk-map",
           "command": "dsh plugin --profile web add github:Tasihi89/dsh-talk-map"
         },
         {
           "profile": "web",
+          "install": "dsh-talk-map",
           "source": "npm:dsh-talk-map",
           "command": "dsh plugin --profile web add dsh-talk-map"
         }
@@ -5405,6 +5912,7 @@
       "packages": [
         {
           "profile": "qqbot",
+          "install": "@tencent-connect/dsh-qqbot",
           "source": "npm:@tencent-connect/dsh-qqbot",
           "command": "npx @deepseek-ai/dsh plugin --profile qqbot add @tencent-connect/dsh-qqbot"
         }
@@ -5417,6 +5925,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "dsh-notifier@latest",
           "source": "npm:dsh-notifier@latest",
           "command": "dsh plugin add dsh-notifier@latest"
         }
@@ -5429,6 +5938,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "git+https://github.com/THU-MAIC/dsh-openmaic.git",
           "source": "url:git+https://github.com/THU-MAIC/dsh-openmaic.git",
           "command": "dsh plugin --profile web add git+https://github.com/THU-MAIC/dsh-openmaic.git"
         }
@@ -5441,11 +5951,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-approve-for-me@latest",
           "source": "npm:dsh-approve-for-me@latest",
           "command": "dsh plugin --profile web add dsh-approve-for-me@latest"
         },
         {
           "profile": "headless",
+          "install": "dsh-approve-for-me@latest",
           "source": "npm:dsh-approve-for-me@latest",
           "command": "dsh plugin --profile headless add dsh-approve-for-me@latest"
         }
@@ -5458,6 +5970,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/titanwings/dsh-automation",
           "source": "github:titanwings/dsh-automation#v0.1.7",
           "command": "dsh plugin --profile web add github:titanwings/dsh-automation#v0.1.7"
         }
@@ -5470,11 +5983,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@yachangchang/dsh-qq-bridge",
           "source": "npm:@yachangchang/dsh-qq-bridge",
           "command": "pnpm dsh plugin --profile web add @yachangchang/dsh-qq-bridge"
         },
         {
           "profile": "web",
+          "install": "https://github.com/TomoyoNatsume/dsh-qq-bridge",
           "source": "github:TomoyoNatsume/dsh-qq-bridge",
           "command": "pnpm dsh plugin --profile web add github:TomoyoNatsume/dsh-qq-bridge"
         }
@@ -5487,11 +6002,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/toolclub/dsh-agent-team-gui/releases/download/v1.3.0/dsh-agent-team-gui-1.3.0.tgz",
           "source": "url:https://github.com/toolclub/dsh-agent-team-gui/releases/download/v1.3.0/dsh-agent-team-gui-1.3.0.tgz",
           "command": "dsh plugin --profile web add -w https://github.com/toolclub/dsh-agent-team-gui/releases/download/v1.3.0/dsh-agent-team-gui-1.3.0.tgz"
         },
         {
           "profile": "web",
+          "install": "https://github.com/toolclub/dsh-agent-team-gui",
           "source": "github:toolclub/dsh-agent-team-gui#v1.3.0",
           "command": "dsh plugin --profile web add -w github:toolclub/dsh-agent-team-gui#v1.3.0"
         }
@@ -5504,11 +6021,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-plugin-bridge",
           "source": "npm:dsh-plugin-bridge",
           "command": "dsh plugin --profile web add dsh-plugin-bridge"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Totoro-qaq/dsh-plugin-bridge",
           "source": "github:Totoro-qaq/dsh-plugin-bridge#v0.3.10",
           "command": "dsh plugin --profile web add github:Totoro-qaq/dsh-plugin-bridge#v0.3.10"
         }
@@ -5521,11 +6040,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "billion-context-dsh",
           "source": "npm:billion-context-dsh",
           "command": "dsh plugin --profile web add billion-context-dsh"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Tyan66666/billion-context-dsh",
           "source": "github:Tyan66666/billion-context-dsh#v0.2.26",
           "command": "dsh plugin --profile web add github:Tyan66666/billion-context-dsh#v0.2.26"
         }
@@ -5538,6 +6059,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-archived-chats@latest",
           "source": "npm:dsh-archived-chats@latest",
           "command": "dsh plugin --profile web add dsh-archived-chats@latest"
         }
@@ -5550,6 +6072,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-game-material-master",
           "source": "npm:dsh-game-material-master",
           "command": "dsh plugin --profile web add dsh-game-material-master"
         }
@@ -5562,16 +6085,19 @@
       "packages": [
         {
           "profile": "cli",
+          "install": "dsh-code@1.6.0",
           "source": "npm:dsh-code@1.6.0",
           "command": "dsh plugin --profile cli add dsh-code@1.6.0"
         },
         {
           "profile": "cli",
+          "install": "https://github.com/unlinearity/dsh-code/releases/download/1.6.0/dsh-code-1.6.0.tgz",
           "source": "url:https://github.com/unlinearity/dsh-code/releases/download/1.6.0/dsh-code-1.6.0.tgz",
           "command": "dsh plugin --profile cli add https://github.com/unlinearity/dsh-code/releases/download/1.6.0/dsh-code-1.6.0.tgz"
         },
         {
           "profile": "cli",
+          "install": "https://github.com/unlinearity/dsh-code",
           "source": "github:unlinearity/dsh-code",
           "command": "dsh plugin --profile cli add github:unlinearity/dsh-code"
         }
@@ -5584,6 +6110,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/upJiang/dsh-ccswitch",
           "source": "github:upJiang/dsh-ccswitch",
           "command": "dsh plugin --profile web add github:upJiang/dsh-ccswitch"
         }
@@ -5596,11 +6123,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-plugin-subscriptions",
           "source": "npm:dsh-plugin-subscriptions",
           "command": "dsh plugin --profile web add dsh-plugin-subscriptions"
         },
         {
           "profile": "web",
+          "install": "https://github.com/V1ki/dsh-plugin-subscriptions",
           "source": "github:V1ki/dsh-plugin-subscriptions",
           "command": "dsh plugin --profile web add github:V1ki/dsh-plugin-subscriptions"
         }
@@ -5621,6 +6150,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "git+https://github.com/Viy1204/recruiting-copilot.git",
           "source": "url:git+https://github.com/Viy1204/recruiting-copilot.git",
           "command": "dsh plugin --profile web add git+https://github.com/Viy1204/recruiting-copilot.git"
         }
@@ -5633,6 +6163,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/vlln/plugin-registry",
           "source": "github:vlln/plugin-registry#path:/packages/plugin/console",
           "command": "dsh plugin --profile web add \"github:vlln/plugin-registry#path:/packages/plugin/console\""
         }
@@ -5645,6 +6176,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/vlln/whale-girl",
           "source": "github:vlln/whale-girl#main",
           "command": "dsh plugin --profile web add \"github:vlln/whale-girl#main\"",
           "note": "构建产物已提交进仓库；npm 源等价：dsh plugin --profile web add whale-girl@0.1.0"
@@ -5673,11 +6205,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/w2112515/dsh-plugin-development/releases/download/v0.2.0-beta.1/dsh-plugin-development-0.2.0-beta.1.tgz",
           "source": "url:https://github.com/w2112515/dsh-plugin-development/releases/download/v0.2.0-beta.1/dsh-plugin-development-0.2.0-beta.1.tgz",
           "command": "dsh plugin --profile web add https://github.com/w2112515/dsh-plugin-development/releases/download/v0.2.0-beta.1/dsh-plugin-development-0.2.0-beta.1.tgz"
         },
         {
           "profile": "web",
+          "install": "https://github.com/w2112515/dsh-plugin-development",
           "source": "github:w2112515/dsh-plugin-development#v0.2.0-beta.1",
           "command": "dsh plugin --profile web add github:w2112515/dsh-plugin-development#v0.2.0-beta.1"
         }
@@ -5690,11 +6224,13 @@
       "packages": [
         {
           "profile": "default",
+          "install": "dsh-comfyui-canvas",
           "source": "npm:dsh-comfyui-canvas",
           "command": "dsh plugin add dsh-comfyui-canvas"
         },
         {
           "profile": "default",
+          "install": "https://github.com/wbin0001/dsh-comfyui-canvas",
           "source": "github:wbin0001/dsh-comfyui-canvas",
           "command": "dsh plugin add github:wbin0001/dsh-comfyui-canvas"
         }
@@ -5715,6 +6251,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "@dsh-plugins/dsh-env-inspector",
           "source": "npm:@dsh-plugins/dsh-env-inspector",
           "command": "dsh plugin add @dsh-plugins/dsh-env-inspector"
         }
@@ -5727,6 +6264,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@dsh-plugins/dsh-llm-hub",
           "source": "npm:@dsh-plugins/dsh-llm-hub",
           "command": "dsh plugin --profile web add @dsh-plugins/dsh-llm-hub"
         }
@@ -5739,16 +6277,19 @@
       "packages": [
         {
           "profile": "default",
+          "install": "pi2dsh",
           "source": "npm:pi2dsh",
           "command": "dsh plugin add pi2dsh"
         },
         {
           "profile": "web",
+          "install": "pi2dsh",
           "source": "npm:pi2dsh",
           "command": "dsh plugin --profile web add pi2dsh"
         },
         {
           "profile": "dsh-tui",
+          "install": "pi2dsh",
           "source": "npm:pi2dsh",
           "command": "dsh plugin --profile dsh-tui add pi2dsh"
         }
@@ -5761,11 +6302,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-mmx-bridge",
           "source": "npm:dsh-mmx-bridge",
           "command": "dsh plugin --profile web add dsh-mmx-bridge"
         },
         {
           "profile": "web",
+          "install": "https://github.com/welsione/dsh-mmx-bridge",
           "source": "github:welsione/dsh-mmx-bridge",
           "command": "dsh plugin --profile web add github:welsione/dsh-mmx-bridge"
         }
@@ -5778,11 +6321,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@wenaixi/dsh-superpower",
           "source": "npm:@wenaixi/dsh-superpower",
           "command": "dsh plugin --profile web add @wenaixi/dsh-superpower"
         },
         {
           "profile": "web",
+          "install": "https://github.com/Wenaixi/dsh-superpower",
           "source": "github:Wenaixi/dsh-superpower",
           "command": "dsh plugin --profile web add github:Wenaixi/dsh-superpower"
         }
@@ -5795,6 +6340,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@wenbin_wb/dsh-bridge",
           "source": "npm:@wenbin_wb/dsh-bridge",
           "command": "dsh plugin --profile web add @wenbin_wb/dsh-bridge"
         }
@@ -5807,6 +6353,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "weshop-dsh-plugin",
           "source": "npm:weshop-dsh-plugin",
           "command": "npx @deepseek-ai/dsh plugin --profile web add weshop-dsh-plugin"
         }
@@ -5819,6 +6366,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/white-sand-grand/dsh-plugin-doctor",
           "source": "github:white-sand-grand/dsh-plugin-doctor",
           "command": "dsh plugin --profile web add github:white-sand-grand/dsh-plugin-doctor"
         }
@@ -5831,11 +6379,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/whutzefengxie-ops/dsh-shadow-mind",
           "source": "github:whutzefengxie-ops/dsh-shadow-mind#v0.1.0",
           "command": "dsh plugin --profile web add github:whutzefengxie-ops/dsh-shadow-mind#v0.1.0"
         },
         {
           "profile": "web",
+          "install": "https://github.com/whutzefengxie-ops/dsh-shadow-mind",
           "source": "github:whutzefengxie-ops/dsh-shadow-mind#v0.1.4",
           "command": "dsh plugin --profile web add github:whutzefengxie-ops/dsh-shadow-mind#v0.1.4"
         }
@@ -5850,6 +6400,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@wingsky-1/dsh-plugins-all",
           "source": "npm:@wingsky-1/dsh-plugins-all",
           "command": "dsh plugin --profile web add @wingsky-1/dsh-plugins-all"
         }
@@ -5861,11 +6412,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-git-worktree",
           "source": "npm:dsh-git-worktree",
           "command": "dsh plugin --profile web add dsh-git-worktree"
         },
         {
           "profile": "web",
+          "install": "https://github.com/wloops/dsh-git-worktree",
           "source": "github:wloops/dsh-git-worktree#v0.9.2",
           "command": "dsh plugin --profile web add github:wloops/dsh-git-worktree#v0.9.2"
         }
@@ -5878,6 +6431,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/WM-CODER/custom-first-control-prompt",
           "source": "github:WM-CODER/custom-first-control-prompt",
           "command": "dsh plugin --profile web add github:WM-CODER/custom-first-control-prompt"
         }
@@ -5890,11 +6444,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@wnjxyk/dsh-codex-oauth@latest",
           "source": "npm:@wnjxyk/dsh-codex-oauth@latest",
           "command": "dsh plugin --profile web add -w @wnjxyk/dsh-codex-oauth@latest"
         },
         {
           "profile": "web",
+          "install": "https://github.com/WNJXYK/dsh-codex-oauth",
           "source": "github:WNJXYK/dsh-codex-oauth",
           "command": "dsh plugin --profile web add -w github:WNJXYK/dsh-codex-oauth"
         }
@@ -5907,6 +6463,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@wowyuarm/dsh-agent-team@0.1.15",
           "source": "npm:@wowyuarm/dsh-agent-team@0.1.15",
           "command": "dsh plugin --profile web add @wowyuarm/dsh-agent-team@0.1.15"
         }
@@ -5919,6 +6476,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-builtin-browser",
           "source": "npm:dsh-builtin-browser",
           "command": "dsh plugin --profile web add dsh-builtin-browser"
         }
@@ -5931,11 +6489,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-codex-subscription",
           "source": "npm:dsh-codex-subscription",
           "command": "dsh plugin --profile web add dsh-codex-subscription"
         },
         {
           "profile": "headless",
+          "install": "dsh-codex-subscription",
           "source": "npm:dsh-codex-subscription",
           "command": "dsh plugin --profile headless add dsh-codex-subscription"
         }
@@ -5948,6 +6508,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/wssfk12138/dsh-damage-pulse",
           "source": "github:wssfk12138/dsh-damage-pulse",
           "command": "dsh plugin --profile web add github:wssfk12138/dsh-damage-pulse"
         }
@@ -5960,6 +6521,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@wsz987/dsh-channels@latest",
           "source": "npm:@wsz987/dsh-channels@latest",
           "command": "npx @deepseek-ai/dsh plugin --profile web add -w @wsz987/dsh-channels@latest"
         }
@@ -5972,6 +6534,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@wxkingstar/specfusion-dsh",
           "source": "npm:@wxkingstar/specfusion-dsh",
           "command": "dsh plugin --profile web add @wxkingstar/specfusion-dsh"
         }
@@ -5984,6 +6547,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-client-ui-aqua",
           "source": "npm:dsh-client-ui-aqua",
           "command": "dsh plugin --profile web add dsh-client-ui-aqua"
         }
@@ -5996,11 +6560,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-balance-float",
           "source": "npm:dsh-balance-float",
           "command": "dsh plugin --profile web add dsh-balance-float"
         },
         {
           "profile": "web",
+          "install": "https://github.com/x2802490130-prog/dsh-balance-float",
           "source": "github:x2802490130-prog/dsh-balance-float",
           "command": "dsh plugin --profile web add github:x2802490130-prog/dsh-balance-float"
         }
@@ -6013,6 +6579,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-auth-gateway",
           "source": "npm:dsh-auth-gateway",
           "command": "dsh plugin --profile web add dsh-auth-gateway"
         }
@@ -6025,11 +6592,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-portable-tavern",
           "source": "npm:dsh-portable-tavern",
           "command": "dsh plugin --profile web add dsh-portable-tavern"
         },
         {
           "profile": "web",
+          "install": "https://github.com/XCNXNXNX/dsh-portable-tavern",
           "source": "github:XCNXNXNX/dsh-portable-tavern",
           "command": "dsh plugin --profile web add github:XCNXNXNX/dsh-portable-tavern"
         }
@@ -6042,11 +6611,13 @@
       "packages": [
         {
           "profile": "desktop",
+          "install": "dsh-workbuddy-xdpool",
           "source": "npm:dsh-workbuddy-xdpool",
           "command": "dsh plugin --profile desktop add dsh-workbuddy-xdpool"
         },
         {
           "profile": "desktop",
+          "install": "https://github.com/XDTrees/dsh-workbuddy-xdpool",
           "source": "github:XDTrees/dsh-workbuddy-xdpool",
           "command": "dsh plugin --profile desktop add github:XDTrees/dsh-workbuddy-xdpool"
         }
@@ -6059,6 +6630,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@xgone/dsh-remote",
           "source": "npm:@xgone/dsh-remote",
           "command": "dsh plugin --profile web add @xgone/dsh-remote"
         }
@@ -6071,6 +6643,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-config-manager@latest",
           "source": "npm:dsh-config-manager@latest",
           "command": "dsh plugin --profile web add dsh-config-manager@latest"
         }
@@ -6083,6 +6656,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/xiaoshenming/dsh-session-surgeon",
           "source": "github:xiaoshenming/dsh-session-surgeon#main",
           "command": "dsh plugin --profile web add \"github:xiaoshenming/dsh-session-surgeon#main\""
         }
@@ -6095,6 +6669,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@springbrand/dsh-plugin-marketplace",
           "source": "npm:@springbrand/dsh-plugin-marketplace",
           "command": "dsh plugin --profile web add @springbrand/dsh-plugin-marketplace"
         }
@@ -6107,11 +6682,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@xiaoyuyu6420/dsh-backup",
           "source": "npm:@xiaoyuyu6420/dsh-backup",
           "command": "dsh plugin --profile web add @xiaoyuyu6420/dsh-backup"
         },
         {
           "profile": "web",
+          "install": "https://github.com/xiaoyuyu6420/dsh-backup",
           "source": "github:xiaoyuyu6420/dsh-backup",
           "command": "dsh plugin --profile web add github:xiaoyuyu6420/dsh-backup"
         }
@@ -6124,6 +6701,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/xiazhi88/dsh-onecompany",
           "source": "github:xiazhi88/dsh-onecompany",
           "command": "dsh plugin --profile web add \"github:xiazhi88/dsh-onecompany\""
         }
@@ -6136,11 +6714,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-deepread",
           "source": "npm:dsh-deepread",
           "command": "dsh plugin --profile web add dsh-deepread"
         },
         {
           "profile": "web",
+          "install": "https://github.com/xiehuan123/dsh-deepread",
           "source": "github:xiehuan123/dsh-deepread#v1.0.1",
           "command": "dsh plugin --profile web add \"github:xiehuan123/dsh-deepread#v1.0.1\""
         }
@@ -6153,6 +6733,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-md-notes",
           "source": "npm:dsh-md-notes",
           "command": "dsh plugin --profile web add dsh-md-notes"
         }
@@ -6165,6 +6746,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/xilin3/dsh-prompt-persona",
           "source": "github:xilin3/dsh-prompt-persona",
           "command": "dsh plugin --profile web add github:xilin3/dsh-prompt-persona"
         }
@@ -6177,6 +6759,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@xlight-oss/visionary-dsh",
           "source": "npm:@xlight-oss/visionary-dsh",
           "command": "dsh plugin --profile web add @xlight-oss/visionary-dsh"
         }
@@ -6189,6 +6772,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@xmanrui/dsh-im",
           "source": "npm:@xmanrui/dsh-im",
           "command": "dsh plugin --profile web add -w @xmanrui/dsh-im"
         }
@@ -6209,11 +6793,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "scientific-figure-library",
           "source": "npm:scientific-figure-library",
           "command": "dsh plugin --profile web add scientific-figure-library"
         },
         {
           "profile": "default",
+          "install": "scientific-figure-library",
           "source": "npm:scientific-figure-library",
           "command": "dsh plugin add scientific-figure-library"
         }
@@ -6226,11 +6812,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-codex",
           "source": "npm:dsh-codex",
           "command": "dsh plugin --profile web add dsh-codex"
         },
         {
           "profile": "dsh-tui",
+          "install": "dsh-codex",
           "source": "npm:dsh-codex",
           "command": "dsh plugin --profile dsh-tui add dsh-codex"
         }
@@ -6243,11 +6831,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-remote-ssh",
           "source": "npm:dsh-remote-ssh",
           "command": "dsh plugin --profile web add dsh-remote-ssh"
         },
         {
           "profile": "dsh-tui",
+          "install": "dsh-remote-ssh",
           "source": "npm:dsh-remote-ssh",
           "command": "dsh plugin --profile dsh-tui add dsh-remote-ssh"
         }
@@ -6260,11 +6850,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@ychris12138/dsh-usage-stats@0.3.4",
           "source": "npm:@ychris12138/dsh-usage-stats@0.3.4",
           "command": "dsh plugin --profile web add \"@ychris12138/dsh-usage-stats@0.3.4\""
         },
         {
           "profile": "web",
+          "install": "https://github.com/Ychris12138/dsh-usage-stats",
           "source": "github:Ychris12138/dsh-usage-stats",
           "command": "dsh plugin --profile web add \"github:Ychris12138/dsh-usage-stats\""
         }
@@ -6277,6 +6869,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-jingling",
           "source": "npm:dsh-jingling",
           "command": "dsh plugin --profile web add dsh-jingling"
         }
@@ -6289,6 +6882,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/yj-liuzepeng/dsh-project-brain",
           "source": "github:yj-liuzepeng/dsh-project-brain#v0.7.0-beta.2",
           "command": "dsh plugin --profile web add github:yj-liuzepeng/dsh-project-brain#v0.7.0-beta.2"
         }
@@ -6301,6 +6895,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/yjh051108/dsh-routing-suite",
           "source": "github:yjh051108/dsh-routing-suite",
           "command": "dsh plugin --profile web add github:yjh051108/dsh-routing-suite",
           "note": "套装一键安装；注入器会修改运行时行为，安装前先读仓库说明"
@@ -6321,6 +6916,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/yjh051108/dsh-super-injector",
           "source": "github:yjh051108/dsh-super-injector",
           "command": "dsh plugin --profile web add github:yjh051108/dsh-super-injector"
         }
@@ -6333,6 +6929,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/ymh0000123/dsh-client-masquerade",
           "source": "github:ymh0000123/dsh-client-masquerade",
           "command": "dsh plugin --profile web add github:ymh0000123/dsh-client-masquerade"
         }
@@ -6345,6 +6942,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/ymh0000123/dsh-theme-endfield",
           "source": "github:ymh0000123/dsh-theme-endfield",
           "command": "dsh plugin --profile web add github:ymh0000123/dsh-theme-endfield"
         }
@@ -6359,6 +6957,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "@youdotcom-oss/dsh-plugin",
           "source": "npm:@youdotcom-oss/dsh-plugin",
           "command": "dsh plugin add @youdotcom-oss/dsh-plugin"
         }
@@ -6369,11 +6968,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-vision-router",
           "source": "npm:dsh-vision-router",
           "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-vision-router"
         },
         {
           "profile": "desktop",
+          "install": "dsh-vision-router",
           "source": "npm:dsh-vision-router",
           "command": "DSH_HOME=~/.ohdsh npx @deepseek-ai/dsh plugin --profile desktop add dsh-vision-router",
           "note": "Oh-DSH Desktop 用户"
@@ -6397,6 +6998,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/Yu-tao-Li/dsh-read-image-view",
           "source": "github:Yu-tao-Li/dsh-read-image-view",
           "command": "dsh plugin --profile web add github:Yu-tao-Li/dsh-read-image-view"
         }
@@ -6409,16 +7011,19 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-free-models-hub",
           "source": "npm:dsh-free-models-hub",
           "command": "dsh plugin --profile web add dsh-free-models-hub"
         },
         {
           "profile": "web",
+          "install": "https://github.com/yu-wenchao/dsh-free-models-hub",
           "source": "github:yu-wenchao/dsh-free-models-hub",
           "command": "dsh plugin --profile web add github:yu-wenchao/dsh-free-models-hub"
         },
         {
           "profile": "web",
+          "install": "https://github.com/yu-wenchao/dsh-free-models-hub",
           "source": "github:yu-wenchao/dsh-free-models-hub#v0.3.1",
           "command": "dsh plugin --profile web add github:yu-wenchao/dsh-free-models-hub#v0.3.1"
         }
@@ -6431,6 +7036,7 @@
       "packages": [
         {
           "profile": "demo",
+          "install": "https://github.com/Yuer6327/NoLetMe",
           "source": "github:Yuer6327/NoLetMe",
           "command": "dsh plugin --profile demo add github:Yuer6327/NoLetMe"
         }
@@ -6443,11 +7049,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-duet",
           "source": "npm:dsh-duet",
           "command": "dsh plugin --profile web add dsh-duet"
         },
         {
           "profile": "web",
+          "install": "https://github.com/YuMS/dsh-duet",
           "source": "github:YuMS/dsh-duet",
           "command": "dsh plugin --profile web add github:YuMS/dsh-duet"
         }
@@ -6460,11 +7068,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/yunuo110/dsh-gitbash",
           "source": "github:yunuo110/dsh-gitbash",
           "command": "dsh plugin --profile web add github:yunuo110/dsh-gitbash"
         },
         {
           "profile": "web",
+          "install": "https://github.com/yunuo110/dsh-gitbash",
           "source": "github:yunuo110/dsh-gitbash#v0.1.1",
           "command": "dsh plugin --profile web add github:yunuo110/dsh-gitbash#v0.1.1"
         }
@@ -6477,6 +7087,7 @@
       "packages": [
         {
           "profile": "default",
+          "install": "dsh-balance-plugin",
           "source": "npm:dsh-balance-plugin",
           "command": "dsh plugin add dsh-balance-plugin"
         }
@@ -6489,6 +7100,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-meme",
           "source": "npm:dsh-meme",
           "command": "dsh plugin --profile web add dsh-meme"
         }
@@ -6501,6 +7113,7 @@
       "packages": [
         {
           "profile": "your-profile",
+          "install": "oh-my-deepseek-harness",
           "source": "npm:oh-my-deepseek-harness",
           "command": "dsh plugin --profile your-profile add oh-my-deepseek-harness"
         }
@@ -6513,11 +7126,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings",
           "source": "github:zeng6125-rgb/dsh-llm-retry-settings",
           "command": "dsh plugin --profile web add github:zeng6125-rgb/dsh-llm-retry-settings"
         },
         {
           "profile": "web",
+          "install": "https://github.com/zeng6125-rgb/dsh-llm-retry-settings/releases/download/v0.1.12/dsh-llm-retry-settings-0.1.12.tgz",
           "source": "url:https://github.com/zeng6125-rgb/dsh-llm-retry-settings/releases/download/v0.1.12/dsh-llm-retry-settings-0.1.12.tgz",
           "command": "dsh plugin --profile web add https://github.com/zeng6125-rgb/dsh-llm-retry-settings/releases/download/v0.1.12/dsh-llm-retry-settings-0.1.12.tgz"
         }
@@ -6530,6 +7145,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/zenstory-ai/oh-story-dsh/releases/download/v0.1.10/oh-story-dsh-0.1.10.tgz",
           "source": "url:https://github.com/zenstory-ai/oh-story-dsh/releases/download/v0.1.10/oh-story-dsh-0.1.10.tgz",
           "command": "dsh plugin --profile web add https://github.com/zenstory-ai/oh-story-dsh/releases/download/v0.1.10/oh-story-dsh-0.1.10.tgz"
         }
@@ -6542,6 +7158,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://codeload.github.com/Zephyr-vibe/dsh-archived-sessions/tar.gz/refs/heads/main",
           "source": "url:https://codeload.github.com/Zephyr-vibe/dsh-archived-sessions/tar.gz/refs/heads/main",
           "command": "dsh plugin --profile web add https://codeload.github.com/Zephyr-vibe/dsh-archived-sessions/tar.gz/refs/heads/main"
         }
@@ -6556,6 +7173,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-plugin-tether",
           "source": "npm:dsh-plugin-tether",
           "command": "dsh plugin --profile web add dsh-plugin-tether"
         }
@@ -6566,6 +7184,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "https://github.com/zh667/TokenLedger",
           "source": "github:zh667/TokenLedger",
           "command": "dsh plugin --profile web add \"github:zh667/TokenLedger\""
         }
@@ -6586,6 +7205,7 @@
       "packages": [
         {
           "profile": "trading-web",
+          "install": "@dshtrading/base",
           "source": "npm:@dshtrading/base",
           "command": "dsh plugin --profile trading-web add @dshtrading/base"
         }
@@ -6598,12 +7218,14 @@
       "packages": [
         {
           "profile": "desktop",
+          "install": "@linxin666/dsh-web-all@latest",
           "source": "npm:@linxin666/dsh-web-all@latest",
           "command": "dsh plugin --profile desktop add @linxin666/dsh-web-all@latest",
           "note": "桌面客户端"
         },
         {
           "profile": "web",
+          "install": "https://github.com/zhu1090093659/dsh-web",
           "source": "github:zhu1090093659/dsh-web",
           "command": "dsh plugin --profile web add github:zhu1090093659/dsh-web",
           "note": "CLI / 浏览器端"
@@ -6626,11 +7248,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-im-gateway",
           "source": "npm:dsh-im-gateway",
           "command": "dsh plugin --profile web add dsh-im-gateway"
         },
         {
           "profile": "web",
+          "install": "https://github.com/zhuiyueya/dsh-im-gateway.git",
           "source": "url:https://github.com/zhuiyueya/dsh-im-gateway.git",
           "command": "dsh plugin --profile web add https://github.com/zhuiyueya/dsh-im-gateway.git"
         }
@@ -6651,6 +7275,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@zimzaza4/dsh-bash-win",
           "source": "npm:@zimzaza4/dsh-bash-win",
           "command": "dsh plugin --profile web add @zimzaza4/dsh-bash-win"
         }
@@ -6663,6 +7288,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "dsh-github-intelligence",
           "source": "npm:dsh-github-intelligence",
           "command": "dsh plugin --profile web add dsh-github-intelligence"
         }
@@ -6675,6 +7301,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@zoria-lind/dsh-behavior-enhancer",
           "source": "npm:@zoria-lind/dsh-behavior-enhancer",
           "command": "dsh plugin --profile web add @zoria-lind/dsh-behavior-enhancer"
         }
@@ -6687,6 +7314,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@zoria-lind/dsh-ecolink-adapter",
           "source": "npm:@zoria-lind/dsh-ecolink-adapter",
           "command": "dsh plugin --profile web add @zoria-lind/dsh-ecolink-adapter"
         }
@@ -6699,6 +7327,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@zseven-w/dsh-android@latest",
           "source": "npm:@zseven-w/dsh-android@latest",
           "command": "dsh plugin --profile web add @zseven-w/dsh-android@latest"
         }
@@ -6711,11 +7340,13 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@zseven-w/dsh-crew@latest",
           "source": "npm:@zseven-w/dsh-crew@latest",
           "command": "dsh plugin --profile web add @zseven-w/dsh-crew@latest"
         },
         {
           "profile": "default",
+          "install": "dsh-crew",
           "source": "npm:dsh-crew",
           "command": "dsh plugin add dsh-crew"
         }
@@ -6728,6 +7359,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@zseven-w/dsh-harbor@next",
           "source": "npm:@zseven-w/dsh-harbor@next",
           "command": "dsh plugin --profile web add @zseven-w/dsh-harbor@next"
         }
@@ -6740,6 +7372,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@zseven-w/dsh-ios@latest",
           "source": "npm:@zseven-w/dsh-ios@latest",
           "command": "dsh plugin --profile web add @zseven-w/dsh-ios@latest"
         }
@@ -6752,6 +7385,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@zseven-w/dsh-noema@latest",
           "source": "npm:@zseven-w/dsh-noema@latest",
           "command": "dsh plugin --profile web add @zseven-w/dsh-noema@latest"
         }
@@ -6764,6 +7398,7 @@
       "packages": [
         {
           "profile": "web",
+          "install": "@zseven-w/dsh-openpencil@next",
           "source": "npm:@zseven-w/dsh-openpencil@next",
           "command": "dsh plugin --profile web add @zseven-w/dsh-openpencil@next"
         }

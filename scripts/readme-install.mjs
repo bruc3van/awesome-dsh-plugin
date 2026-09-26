@@ -201,6 +201,18 @@ export function pick(found, ownerLower, repoName, maxTargets = MAX_TARGETS) {
   return { picks, ambiguous: false };
 }
 
+// The exact string to paste into the official "插件 → 添加插件" box. That box
+// recognizes npm package names (the part after `dsh plugin add`, version
+// included) and Git repository URLs — NOT the CLI's github:owner/repo ref
+// syntax. So npm:/url: classification prefixes are stripped, and github:
+// refs become their https://github.com/owner/repo form; a #ref stays in the
+// terminal command only.
+export function installRef(source) {
+  if (source.startsWith('npm:')) return source.slice(4);
+  if (source.startsWith('github:')) return `https://github.com/${source.slice(7).split('#')[0]}`;
+  return source.startsWith('url:') ? source.slice(4) : source;
+}
+
 // The one-stop helper: everything a caller needs from one README.
 // Returns { picks, ambiguous, localOnly } — picks is [] when nothing
 // confident can be published. Pass a larger maxTargets to see every
@@ -209,5 +221,11 @@ export function extractInstallTargets(text, { owner, repo, maxTargets = MAX_TARG
   const segments = commandsFrom(text);
   const found = targetsFrom(segments);
   const { picks, ambiguous } = pick(found, owner.toLowerCase(), repo.toLowerCase(), maxTargets);
-  return { picks, ambiguous, localOnly: found.length === 0 && segments.length > 0, found, segments };
+  return {
+    picks: picks.map((p) => ({ ...p, install: installRef(p.source) })),
+    ambiguous,
+    localOnly: found.length === 0 && segments.length > 0,
+    found,
+    segments,
+  };
 }

@@ -89,6 +89,10 @@ test('extractInstallTargets: flags before the target, quoted github refs, prose 
   assert.deepEqual(picks.map((p) => p.source), ['github:PerryLink/dsh-auto-review#main', 'npm:dsh-auto-review']);
   assert.equal(picks[0].command, 'dsh plugin --profile web add "github:PerryLink/dsh-auto-review#main"');
   assert.equal(picks[1].command, 'dsh plugin --profile web add dsh-auto-review');
+  // install is what the official add-plugin box recognizes: the npm name,
+  // or the repo URL — never the CLI's github: ref syntax.
+  assert.equal(picks[0].install, 'https://github.com/PerryLink/dsh-auto-review');
+  assert.equal(picks[1].install, 'dsh-auto-review');
 
   // Same README read for its own repo: the flag survives and the pinned
   // version is kept verbatim; reading it for modlens truncates the prose.

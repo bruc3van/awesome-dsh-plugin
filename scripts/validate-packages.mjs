@@ -23,6 +23,7 @@
 import { readFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { installRef } from './readme-install.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const errors = [];
@@ -162,6 +163,21 @@ for (const [slug, entry] of Object.entries(entries)) {
     // so there is nothing stable to cross-check.
     if (kind !== 'link' && typeof pkg.command === 'string' && !pkg.command.includes(payload)) {
       errors.push(`${where}: command does not contain its ${kind}: source (${payload})`);
+    }
+    // install is the string the official "添加插件" box recognizes: the npm
+    // package name (version included) or the Git repository URL — derived
+    // from source via the shared installRef rule.
+    const expectedInstall = installRef(source);
+    if (pkg.install === undefined) {
+      errors.push(`${where}: install is required — the paste-ready install name (expected "${expectedInstall}")`);
+    } else if (pkg.install !== expectedInstall) {
+      errors.push(`${where}: install must be "${expectedInstall}", got ${JSON.stringify(pkg.install)}`);
+    } else if (kind === 'github') {
+      // The box takes the repo URL while the command keeps the CLI ref
+      // (github:owner/repo[#ref]) — both must at least agree on the slug.
+      if (!pkg.command.includes(payload.split('#')[0])) {
+        errors.push(`${where}: command does not reference the repo of its source (${payload})`);
+      }
     }
     // github:owner/repo#ref — the ref suffix is not part of the slug.
     if (kind === 'github' && !snapshotNames.has(payload.split('#')[0].toLowerCase())) {

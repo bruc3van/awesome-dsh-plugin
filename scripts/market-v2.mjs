@@ -113,9 +113,17 @@ export function packagesBlockFor(record) {
       }
       const target = {
         profile: prose(pkg.profile, TEXT_LIMITS.profile, `${where}.profile`),
+        install: prose(pkg.install, TEXT_LIMITS.source, `${where}.install`),
         source: prose(source, TEXT_LIMITS.source, `${where}.source`),
         command: commandText(pkg.command, `${where}.command`),
       };
+      // The paste-ready name and the terminal command must agree. For github
+      // sources the box takes the repo URL while the command keeps the CLI
+      // ref (github:owner/repo[#ref]) — agreeing on the slug is enough.
+      const githubSlug = source.startsWith('github:') ? source.slice(7).split('#')[0] : null;
+      if (!target.command.includes(target.install) && !(githubSlug && target.command.includes(githubSlug))) {
+        throw new Error(`${where}.command must reference install (${target.install}) — the paste-ready name and the terminal command must agree`);
+      }
       const note = fold(pkg.note ?? '');
       if (note !== '') target.note = prose(note, TEXT_LIMITS.note, `${where}.note`);
       return target;
