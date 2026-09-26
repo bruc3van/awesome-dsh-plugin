@@ -80,16 +80,12 @@
       "verified_via": "README@main"
     },
     "1225sakura/oh-my-deepseekharness": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:@sakura12/oh-my-deepseekharness",
-          "command": "dsh plugin --profile <name> add @sakura12/oh-my-deepseekharness"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@master"
+      "verified_via": "README@master",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add @sakura12/oh-my-deepseekharness」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "1321928757/dsh-mysql": {
       "packages": [
@@ -133,21 +129,12 @@
       "verified_via": "README@main"
     },
     "1na-ko/dsh-hdc-bridge": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-hdc-bridge",
-          "command": "dsh plugin --profile <name> add dsh-hdc-bridge"
-        },
-        {
-          "profile": "default",
-          "source": "github:1na-ko/dsh-hdc-bridge",
-          "command": "dsh plugin --profile <name> add github:1na-ko/dsh-hdc-bridge"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-hdc-bridge」或「dsh plugin --profile <name> add github:1na-ko/dsh-hdc-bridge」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "398894496-arch/dsh-krouter": {
       "packages": [
@@ -191,16 +178,12 @@
       "verified_via": "README@main"
     },
     "82c86b8z86-stack/dsh-engineering-workflow": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "github:82c86b8z86-stack/dsh-engineering-workflow",
-          "command": "dsh plugin --profile <name> add github:82c86b8z86-stack/dsh-engineering-workflow"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add github:82c86b8z86-stack/dsh-engineering-workflow」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "9087/dsh-diff-approval": {
       "packages": [
@@ -335,6 +318,19 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "agentconnect/dsh-awiki": {
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@awiki/dsh-plugin@latest",
+          "command": "dsh plugin --profile web add @awiki/dsh-plugin@latest"
+        }
+      ],
+      "note": "主包不再内置 AWiki 托管模型；需要该能力时另行安装 @awiki/dsh-model-proxy@latest（独立版本）。",
       "verified_via": "README@main"
     },
     "agentdebugx/agentdebugx": {
@@ -618,16 +614,12 @@
       "verified_via": "README@main"
     },
     "asher-2000/dsh-memory-connect": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:@asherliner/dsh-memory-connect",
-          "command": "dsh plugin --profile <你的profile> add @asherliner/dsh-memory-connect"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <你的profile> add @asherliner/dsh-memory-connect」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "awesome-dsh-plugin/dsh-find-plugin": {
       "packages": [
@@ -714,6 +706,29 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "baosfeng/my-dsh-plugins": {
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-file-activity",
+          "command": "dsh plugin --profile web add dsh-file-activity --trust-lockfile"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-shared",
+          "command": "dsh plugin --profile web add dsh-shared dsh-md-render"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-md-render",
+          "command": "dsh plugin --profile web add dsh-shared dsh-md-render"
+        }
+      ],
+      "note": "个人插件合集仓库；README 用一条命令同时安装 dsh-shared 与 dsh-md-render。",
       "verified_via": "README@main"
     },
     "beancookie/dsh-plugin-anydoc": {
@@ -847,6 +862,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "btspoony/mstar-harness": {
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@mstar-harness/dsh",
+          "command": "dsh plugin --profile web add @mstar-harness/dsh"
+        }
+      ],
+      "note": "README 另提供 CLI 初始化器：npx @mstar-harness/cli init --target dsh（一次完成本包 + 可选 dsh-llm-fallbacks 的安装，--no-fallbacks 跳过后者）；dsh-llm-fallbacks 也可单独 add。",
+      "verified_via": "README@main"
+    },
     "buhuikongpan/dsh-win-gitbash": {
       "packages": [
         {
@@ -925,15 +953,39 @@
       "verified_via": "README@main"
     },
     "ccch1mneyyy/working-activity": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-working-activity",
-          "command": "dsh plugin --profile <你的 profile> add dsh-working-activity"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <你的 profile> add dsh-working-activity」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
+    },
+    "cerbur/clutch-dsh": {
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@cerbur/clutch-dsh-worktree",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-worktree"
+        },
+        {
+          "profile": "web",
+          "source": "npm:@cerbur/clutch-dsh-fireworks",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-fireworks"
+        },
+        {
+          "profile": "web",
+          "source": "npm:@cerbur/clutch-dsh-discuss",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-discuss"
+        },
+        {
+          "profile": "web",
+          "source": "npm:@cerbur/clutch-dsh-title",
+          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-title"
+        }
+      ],
+      "note": "套件仓库（monorepo），无聚合包；四个子插件按需单独安装。",
       "verified_via": "README@main"
     },
     "chaos-03x/dsh-agy": {
@@ -961,16 +1013,12 @@
       "verified_via": "README@main"
     },
     "chinesezjc/dsh-interconnect": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-interconnect",
-          "command": "dsh plugin --profile <name> add dsh-interconnect"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-interconnect」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "chinosk6/dsh-roleplay": {
       "packages": [
@@ -995,16 +1043,12 @@
       "verified_via": "README@main"
     },
     "chongcyrus/vibe-mathematics": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "github:ChongCyrus/Vibe-Mathematics",
-          "command": "dsh plugin --profile <你的 profile> add github:ChongCyrus/Vibe-Mathematics"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <你的 profile> add github:ChongCyrus/Vibe-Mathematics」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "cirelir/dsh-change-review": {
       "packages": [
@@ -1371,16 +1415,12 @@
       "verified_via": "README@main"
     },
     "dsh-plugins/dsh-auxiliary": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:@dsh-plugin/dsh-auxiliary",
-          "command": "dsh plugin --profile <PROFILE> add @dsh-plugin/dsh-auxiliary"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <PROFILE> add @dsh-plugin/dsh-auxiliary」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "duskriver/dsh-opencode-go": {
       "packages": [
@@ -1881,28 +1921,20 @@
       "verified_via": "README@main"
     },
     "goatliamia/dsh-runtime": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-runtime-0.1.0.tgz",
-          "command": "dsh plugin --profile <your-profile> add dsh-runtime-0.1.0.tgz"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@master"
+      "verified_via": "README@master",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <your-profile> add dsh-runtime-0.1.0.tgz」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "gongyuancaiji/dsh-archify": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "github:GongYuanCaiJi/dsh-archify",
-          "command": "dsh plugin --profile <你的 profile> add github:GongYuanCaiJi/dsh-archify"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <你的 profile> add github:GongYuanCaiJi/dsh-archify」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "graysilver/dsh-evolve-modes": {
       "packages": [
@@ -1951,11 +1983,6 @@
           "profile": "headless",
           "source": "npm:dsh-sandbox-escalation-fix@latest",
           "command": "dsh plugin --profile headless add dsh-sandbox-escalation-fix@latest"
-        },
-        {
-          "profile": "default",
-          "source": "npm:dsh-sandbox-escalation-fix@next",
-          "command": "dsh plugin --profile <profile> add dsh-sandbox-escalation-fix@next"
         }
       ],
       "status": "readme-verified",
@@ -2106,16 +2133,12 @@
       "verified_via": "README@master"
     },
     "haoyueqin/dsh-usage-statistics-panel": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-usage-statistics-panel@latest",
-          "command": "dsh plugin --profile <name> add dsh-usage-statistics-panel@latest"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-usage-statistics-panel@latest」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "happyren/dsh-agent-messaging": {
       "packages": [
@@ -2135,16 +2158,12 @@
       "verified_via": "README@master"
     },
     "heartleo/hn-cli": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "github:heartleo/hn-cli#path:/plugins/hacker-news",
-          "command": "dsh plugin --profile <name> add -w github:heartleo/hn-cli#path:/plugins/hacker-news"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add -w github:heartleo/hn-cli#path:/plugins/hacker-news」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "hellodigua/dsh-share": {
       "packages": [
@@ -3490,16 +3509,12 @@
       "verified_via": "README@main"
     },
     "miuzel/dsh-graph": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-graph",
-          "command": "dsh plugin --profile <name> add dsh-graph"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-graph」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "moeblack/deepseek-manners": {
       "packages": [
@@ -3523,6 +3538,14 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "mokuyoaxis/agent-guard": {
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "packages": [],
+      "install_mode": "manual",
+      "manual_instructions": "README 安装命令为 dsh plugin --profile <p> add github:mokuyoaxis/agent-guard——<p> 需替换为实际 profile（如 web）。",
       "verified_via": "README@main"
     },
     "monotykamary/dsh-factory": {
@@ -3834,16 +3857,12 @@
       "verified_via": "README@main"
     },
     "omdsh-dev/dsh-deep-research": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "url:git+https://github.com/dsh-external/dsh-deep-research.git",
-          "command": "dsh plugin --profile <profile> add git+https://github.com/dsh-external/dsh-deep-research.git"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <profile> add git+https://github.com/dsh-external/dsh-deep-research.git」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "omdsh-dev/dsh-genui": {
       "packages": [
@@ -3858,16 +3877,12 @@
       "verified_via": "README@main"
     },
     "omdsh-dev/dsh-inspect": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "url:git+https://github.com/dsh-external/dsh-inspect.git",
-          "command": "dsh plugin --profile <profile> add git+https://github.com/dsh-external/dsh-inspect.git"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <profile> add git+https://github.com/dsh-external/dsh-inspect.git」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "omdsh-dev/dsh-lark": {
       "packages": [
@@ -4027,11 +4042,6 @@
     "omdsh-dev/stent": {
       "packages": [
         {
-          "profile": "default",
-          "source": "npm:@oh-my-dsh/stent-pack",
-          "command": "dsh plugin --profile <p> add @oh-my-dsh/stent-pack"
-        },
-        {
           "profile": "web",
           "source": "npm:@oh-my-dsh/stent-pack",
           "command": "dsh plugin --profile web add @oh-my-dsh/stent-pack"
@@ -4066,21 +4076,24 @@
       "verified_via": "README@main"
     },
     "opdsh/unity-plugin": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:@opdsh/unity-plugin",
-          "command": "dsh plugin --profile <name> add @opdsh/unity-plugin"
-        },
-        {
-          "profile": "default",
-          "source": "github:opdsh/unity-plugin",
-          "command": "dsh plugin --profile <name> add github:opdsh/unity-plugin"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add @opdsh/unity-plugin」或「dsh plugin --profile <name> add github:opdsh/unity-plugin」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
+    },
+    "opencues/opencues": {
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@opencues/dsh",
+          "command": "dsh plugin --profile web add @opencues/dsh"
+        }
+      ],
+      "verified_via": "README@master"
     },
     "openma-ai/deepseek-harness-acp": {
       "packages": [
@@ -4821,6 +4834,14 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "robiteame/dsh-session-tree-extension": {
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "packages": [],
+      "install_mode": "manual",
+      "manual_instructions": "README 安装命令为 dsh plugin --profile <profile> add @robiteame/dsh-session-tree——<profile> 需替换为实际 profile（如 web）；预构建 tgz（robiteame-dsh-session-tree-0.3.0.tgz）同样走 add。",
+      "verified_via": "README@main"
+    },
     "rootkiller6788/dsh-flow": {
       "packages": [
         {
@@ -4839,16 +4860,12 @@
       "verified_via": "README@main"
     },
     "rxiain/dsh-openviking": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "github:Rxiain/dsh-openviking",
-          "command": "dsh plugin --profile <name> add github:Rxiain/dsh-openviking"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add github:Rxiain/dsh-openviking」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "ryubyte/dsh-a2a": {
       "packages": [
@@ -4952,16 +4969,12 @@
       "verified_via": "README@main"
     },
     "severuszh/dsh-plugin-subagent-director": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-plugin-subagent-director",
-          "command": "dsh plugin --profile <name> add dsh-plugin-subagent-director"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-plugin-subagent-director」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "shanliuling/dsh-image-gen": {
       "packages": [
@@ -5137,6 +5150,29 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@master"
     },
+    "smilewhenever777/dsh-scholar": {
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-scholar-desk",
+          "command": "dsh plugin --profile web add dsh-scholar-desk"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-server-dashboard",
+          "command": "dsh plugin --profile web add dsh-server-dashboard"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-trajectory",
+          "command": "dsh plugin --profile web add dsh-trajectory"
+        }
+      ],
+      "note": "套件仓库：desk / server-dashboard / trajectory 三个子插件各自独立安装。",
+      "verified_via": "README@main"
+    },
     "snowamberx/dsh-role-router": {
       "packages": [
         {
@@ -5179,16 +5215,12 @@
       "verified_via": "README@main"
     },
     "soren-abt/dsh-knowledge": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-knowledge",
-          "command": "dsh plugin --profile <name> add dsh-knowledge"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-knowledge」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "sorsama/deepseek-harness-mobile": {
       "packages": [
@@ -5297,16 +5329,12 @@
       "verified_via": "README@main"
     },
     "swarm-apps/dsh-swarmdrop": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-swarmdrop",
-          "command": "dsh plugin --profile <name> add dsh-swarmdrop"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-swarmdrop」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "syncable-dev/memtrace-public": {
       "packages": [
@@ -5349,21 +5377,12 @@
       "verified_via": "README@main"
     },
     "tancheng33/dsh-ontology": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-ontology",
-          "command": "dsh plugin --profile <name> add dsh-ontology"
-        },
-        {
-          "profile": "default",
-          "source": "github:tancheng33/dsh-ontology",
-          "command": "dsh plugin --profile <name> add github:tancheng33/dsh-ontology"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-ontology」或「dsh plugin --profile <name> add github:tancheng33/dsh-ontology」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "tasihi89/dsh-talk-map": {
       "packages": [
@@ -5591,16 +5610,12 @@
       "verified_via": "README@main"
     },
     "vesna-strivozha/dsh-llm-wiki-plugin": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:@vesna-strivozha-2026/dsh-llm-wiki",
-          "command": "dsh plugin --profile <name> add @vesna-strivozha-2026/dsh-llm-wiki"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add @vesna-strivozha-2026/dsh-llm-wiki」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "viy1204/recruiting-copilot": {
       "packages": [
@@ -5647,21 +5662,12 @@
       "verified_via": "README@main"
     },
     "vncntvx/dsh-zotero": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-zotero",
-          "command": "dsh plugin --profile <name> add dsh-zotero"
-        },
-        {
-          "profile": "default",
-          "source": "github:Vncntvx/dsh-zotero",
-          "command": "dsh plugin --profile <name> add github:Vncntvx/dsh-zotero"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add dsh-zotero」或「dsh plugin --profile <name> add github:Vncntvx/dsh-zotero」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "w2112515/dsh-plugin-development": {
       "packages": [
@@ -5698,16 +5704,12 @@
       "verified_via": "README@main"
     },
     "weaxs/stock-analysis-plugin": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:@weaxs/dsh-stock-analysis",
-          "command": "dsh plugin --profile <你的profile> add @weaxs/dsh-stock-analysis"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <你的profile> add @weaxs/dsh-stock-analysis」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "webkubor/dsh-env-inspector": {
       "packages": [
@@ -5840,6 +5842,19 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "wingsky-1/dsh-plugin-hub": {
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@wingsky-1/dsh-plugins-all",
+          "command": "dsh plugin --profile web add @wingsky-1/dsh-plugins-all"
+        }
+      ],
+      "note": "聚合包装齐全套；dsh-notifier、dsh-lan-proxy 等子插件可按 @wingsky-1/dsh-* 单独安装。",
       "verified_via": "README@main"
     },
     "wloops/dsh-git-worktree": {
@@ -6017,11 +6032,6 @@
           "profile": "web",
           "source": "github:XCNXNXNX/dsh-portable-tavern",
           "command": "dsh plugin --profile web add github:XCNXNXNX/dsh-portable-tavern"
-        },
-        {
-          "profile": "web",
-          "source": "url:https://github.com/XCNXNXNX/dsh-portable-tavern/releases/download/v0.2.0/dsh-portable-tavern-0.2.0.tgz",
-          "command": "dsh plugin --profile web add https://github.com/XCNXNXNX/dsh-portable-tavern/releases/download/v0.2.0/dsh-portable-tavern-0.2.0.tgz"
         }
       ],
       "status": "readme-verified",
@@ -6188,16 +6198,12 @@
       "verified_via": "README@main"
     },
     "xmoon/dsh-subagent-router": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:@xmoon76/dsh-subagent-router",
-          "command": "dsh plugin --profile <name> add @xmoon76/dsh-subagent-router"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add @xmoon76/dsh-subagent-router」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "xuzhougeng/scientificfigurelibrary": {
       "packages": [
@@ -6345,6 +6351,18 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "youdotcom-oss/agent-skills": {
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "packages": [
+        {
+          "profile": "default",
+          "source": "npm:@youdotcom-oss/dsh-plugin",
+          "command": "dsh plugin add @youdotcom-oss/dsh-plugin"
+        }
+      ],
       "verified_via": "README@main"
     },
     "ysr666/dsh-vision-router": {
@@ -6532,6 +6550,18 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "zexadev/dsh-tether": {
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-tether",
+          "command": "dsh plugin --profile web add dsh-plugin-tether"
+        }
+      ],
+      "verified_via": "README@main"
+    },
     "zh667/tokenledger": {
       "packages": [
         {
@@ -6545,16 +6575,12 @@
       "verified_via": "README@main"
     },
     "zhangfengshun/dsh-remote-ssh": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:@zhangfengshun/dsh-remote-ssh@2.4.14",
-          "command": "dsh plugin --profile <name> add @zhangfengshun/dsh-remote-ssh@2.4.14"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <name> add @zhangfengshun/dsh-remote-ssh@2.4.14」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "zhu1090093659/dsh-trading": {
       "packages": [
@@ -6614,16 +6640,12 @@
       "verified_via": "README@main"
     },
     "zibo2025/dsh-orchestrator": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-orchestrator",
-          "command": "dsh plugin --profile <该名字> add dsh-orchestrator"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 安装命令为「dsh plugin --profile <该名字> add dsh-orchestrator」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
+      "install_mode": "manual"
     },
     "zimzaza4/dsh-bash-win": {
       "packages": [
