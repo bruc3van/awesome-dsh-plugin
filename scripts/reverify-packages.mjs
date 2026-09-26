@@ -119,11 +119,15 @@ async function reverifyEntry(slug, record) {
   for (const pkg of record.packages ?? []) {
     const key = normalKey(pkg.source);
     const payload = pkg.source.replace(/^(npm|github|url):/, '');
-    // A github target pointing at this very repo needs no README documentation:
-    // it is the repo-fallback channel for entries whose documented npm package
-    // was never published, and the repo's existence is vouched for by the
-    // snapshot.
-    const selfRepo = pkg.source.startsWith('github:') && pkg.source.slice(7).split('#')[0].toLowerCase() === slug;
+    // The README-documentation requirement is waived ONLY for repo-fallback
+    // entries: there the github target pointing at this very repo IS the
+    // curated decision (the documented npm package 404s), vouched for by the
+    // snapshot. A readme-verified entry loses that exemption — if the README
+    // drops or retags its install line, that is drift and must be reported.
+    const selfRepo =
+      record.status === 'repo-fallback' &&
+      pkg.source.startsWith('github:') &&
+      pkg.source.slice(7).split('#')[0].toLowerCase() === slug;
     const stillDocumented =
       selfRepo || extractedKeys.has(key) || upstreamTokens.has(payload) || upstreamTokens.has(npmBase(payload));
     if (!stillDocumented) {

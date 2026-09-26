@@ -134,6 +134,31 @@ export function classify(target) {
   return { kind: 'other' };
 }
 
+// Tokens that may legitimately FOLLOW an install target: flags
+// (--trust-lockfile, -w, --registry=…) and further package specs — scoped
+// names (@scope/x), refs/URLs (contain /), hyphenated names (dsh-md-render).
+// Plain English words also fit a loose npm-name grammar ("that", "plugin"),
+// so bare unhyphenated words END the command — prose like "add on that
+// plugin directory. If the CLI is not available" must not flow in.
+const isCommandContinuation = (token) => {
+  if (token.startsWith('-')) return true;
+  const bare = token.replace(/^["']+|["']+$/g, '');
+  return /[@/]/.test(bare) || /-/.test(bare);
+};
+
+const trailingPunctuation = /[.,;:!?)\]}>…””’】」』]+$/;
+
+// Sentence punctuation glues onto the last token (“--registry=…. Then run…”)
+// but a closing quote on a quoted ref is legitimate — only unquoted final
+// tokens get trimmed.
+const trimTrailingProse = (command) => {
+  const split = command.lastIndexOf(' ');
+  const head = split === -1 ? '' : command.slice(0, split + 1);
+  let last = command.slice(split + 1);
+  if (!/^['"]/.test(last)) last = last.replace(trailingPunctuation, '');
+  return head + last;
+};
+
 export function targetsFrom(segments) {
   const found = [];
   for (const { command } of segments) {
@@ -145,7 +170,10 @@ export function targetsFrom(segments) {
     // first positional token is the install target, quotes included.
     let offset = 0;
     let targetToken = null;
-    for (const token of rest.split(' ')) {
+    const tokens = rest.split(' ');
+    let index = 0;
+    for (; index < tokens.length; index++) {
+      const token = tokens[index];
       if (token.startsWith('-')) {
         offset += token.length + 1;
         continue;
@@ -156,9 +184,17 @@ export function targetsFrom(segments) {
     if (targetToken === null) continue;
     const target = targetToken.replace(/^["']+|["']+$/g, '');
     if (target === '' || /[<>{}"'`$\\|]/.test(target)) continue;
-    // The recorded command ends at the target — same-line prose after it
-    // (". See the setup guide…") is not part of what a user should copy.
-    const cleanCommand = command.slice(0, restStart + offset + targetToken.length);
+    // The recorded command keeps the target AND every legitimate argument
+    // after it (flags, further package names) — but stops at the first
+    // plain word, which can only be prose. Truncating unconditionally at
+    // the target dropped real arguments and made the weekly
+    // re-verification report phantom drift.
+    let end = restStart + offset + targetToken.length;
+    for (index++; index < tokens.length; index++) {
+      if (!isCommandContinuation(tokens[index])) break;
+      end += tokens[index].length + 1;
+    }
+    const cleanCommand = trimTrailingProse(command.slice(0, end));
     const cls = classify(target);
     if (cls.kind === 'other' || cls.kind === 'local') continue;
     const profile = /--profile[= ]([\w.-]+)/.exec(command)?.[1] ?? 'default';
@@ -210,11 +246,13 @@ export function pick(found, ownerLower, repoName, maxTargets = MAX_TARGETS) {
 // recognizes npm package names (the part after `dsh plugin add`, version
 // included) and Git repository URLs — NOT the CLI's github:owner/repo ref
 // syntax. So npm:/url: classification prefixes are stripped, and github:
-// refs become their https://github.com/owner/repo form; a #ref stays in the
-// terminal command only.
+// refs become their https://github.com/owner/repo form. Everything after the
+// `#` is reference information — tag pins, @path subdirectory selectors —
+// and MUST survive: dropping it would silently install a different plugin
+// (repo root at the default branch) than the README documents.
 export function installRef(source) {
   if (source.startsWith('npm:')) return source.slice(4);
-  if (source.startsWith('github:')) return `https://github.com/${source.slice(7).split('#')[0]}`;
+  if (source.startsWith('github:')) return `https://github.com/${source.slice(7)}`;
   return source.startsWith('url:') ? source.slice(4) : source;
 }
 

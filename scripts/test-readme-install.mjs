@@ -11,6 +11,7 @@ import {
   commandsFrom,
   classify,
   extractInstallTargets,
+  installRef,
   npmBase,
 } from './readme-install.mjs';
 
@@ -78,6 +79,17 @@ test('npmBase strips versions but keeps scoped names intact', () => {
   assert.equal(npmBase('dsh-x'), 'dsh-x');
 });
 
+test('installRef keeps every github reference qualifier — tags, branches, subdirectory paths', () => {
+  assert.equal(installRef('npm:@scope/x@1.0.0'), '@scope/x@1.0.0');
+  assert.equal(installRef('github:o/r'), 'https://github.com/o/r');
+  // Dropping the ref would silently install the repo root at the default
+  // branch instead of what the README documents.
+  assert.equal(installRef('github:o/r#v1.2.3'), 'https://github.com/o/r#v1.2.3');
+  assert.equal(installRef('github:o/r#main&path:/packages/plugin'), 'https://github.com/o/r#main&path:/packages/plugin');
+  assert.equal(installRef('github:o/r#path:/skin-manager'), 'https://github.com/o/r#path:/skin-manager');
+  assert.equal(installRef('url:https://example.com/x.tgz'), 'https://example.com/x.tgz');
+});
+
 test('extractInstallTargets: flags before the target, quoted github refs, prose truncation', () => {
   // Self-referencing channels win; unrelated packages in the same README
   // (here: the nanmicoder and modlens lines) are correctly left out.
@@ -92,8 +104,9 @@ test('extractInstallTargets: flags before the target, quoted github refs, prose 
   assert.equal(picks[0].command, 'dsh plugin --profile web add "github:PerryLink/dsh-auto-review#main"');
   assert.equal(picks[1].command, 'dsh plugin --profile web add dsh-auto-review');
   // install is what the official add-plugin box recognizes: the npm name,
-  // or the repo URL — never the CLI's github: ref syntax.
-  assert.equal(picks[0].install, 'https://github.com/PerryLink/dsh-auto-review');
+  // or the repo URL with its reference qualifiers kept — never the CLI's
+  // bare github: ref syntax.
+  assert.equal(picks[0].install, 'https://github.com/PerryLink/dsh-auto-review#main');
   assert.equal(picks[1].install, 'dsh-auto-review');
 
   // Same README read for its own repo: the flag survives and the pinned
@@ -164,6 +177,59 @@ test('extractInstallTargets: local-only installs and dsh:// deep links are refus
   });
   assert.equal(deepLink.picks.length, 0);
   assert.equal(deepLink.localOnly, false);
+});
+
+test('extractInstallTargets: legitimate arguments after the target survive, prose does not', () => {
+  // Trailing flags are part of the command — truncating at the target turned
+  // recorded commands into ones the README never shows.
+  const flagged = extractInstallTargets('dsh plugin add dsh-demo --trust-lockfile', { owner: 'o', repo: 'dsh-demo' });
+  assert.equal(flagged.picks[0].command, 'dsh plugin add dsh-demo --trust-lockfile');
+
+  const wflag = extractInstallTargets('dsh plugin --profile web add dsh-pocket -w', { owner: 'o', repo: 'dsh-pocket' });
+  assert.equal(wflag.picks[0].command, 'dsh plugin --profile web add dsh-pocket -w');
+
+  // Multi-package single-line adds stay whole.
+  const multi = extractInstallTargets('dsh plugin --profile web add dsh-shared dsh-md-render', { owner: 'o', repo: 'dsh-shared' });
+  assert.equal(multi.picks[0].command, 'dsh plugin --profile web add dsh-shared dsh-md-render');
+
+  // Prose after the target still ends the command — even when every word
+  // would fit a loose npm-name grammar. Real args meanwhile survive.
+  const prose = extractInstallTargets(
+    'installs via npx @deepseek-ai/dsh plugin --profile web add @liustack/modlens@3.26.5 . See the setup guide for details.',
+    { owner: 'liustack', repo: 'modlens' },
+  );
+  assert.ok(prose.picks[0].command.endsWith('@liustack/modlens@3.26.5'));
+  assert.ok(!prose.picks[0].command.includes('See'), 'prose must be truncated');
+
+  const flowing = extractInstallTargets(
+    'dsh plugin --profile web add dsh-tool-vision installs and mounts it in the session',
+    { owner: 'o', repo: 'dsh-tool-vision' },
+  );
+  assert.equal(flowing.picks[0].command, 'dsh plugin --profile web add dsh-tool-vision');
+
+  const sentence = extractInstallTargets(
+    'dsh plugin --profile web add on that plugin directory. If the CLI is not available',
+    { owner: 'o', repo: 'x' },
+  );
+  assert.equal(sentence.picks[0].command, 'dsh plugin --profile web add on');
+
+  // Registry flags glue to the sentence that follows them — trailing
+  // punctuation is stripped, the flag itself stays.
+  const registry = extractInstallTargets(
+    'dsh plugin --profile web add @michengai/dsh-codex-ui@latest --registry=https://registry.npmjs.org/. Then run dsh --dump-config',
+    { owner: 'michengai', repo: 'dsh-codex-ui' },
+  );
+  assert.equal(
+    registry.picks[0].command,
+    'dsh plugin --profile web add @michengai/dsh-codex-ui@latest --registry=https://registry.npmjs.org/',
+  );
+
+  // A quoted github ref followed by an em-dash prose sentence keeps the ref, drops the sentence.
+  const quoted = extractInstallTargets(
+    'git channel: dsh plugin --profile web add "github:o/dsh-x#main" — the isolated build needs one flag',
+    { owner: 'o', repo: 'dsh-x' },
+  );
+  assert.equal(quoted.picks[0].command, 'dsh plugin --profile web add "github:o/dsh-x#main"');
 });
 
 test('extractInstallTargets: caps at three targets, github and npm channels coexist', () => {
