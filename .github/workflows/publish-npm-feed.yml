@@ -8,10 +8,10 @@ name: Publish the feed to npm (mirrored by npmmirror)
 #
 # Runs only after the v2 join has completed successfully and
 # can be triggered manually. The publish script's feedDigest gate makes this
-# idempotent: same data = no-op without burning a version. Publishing needs
-# the NPM_TOKEN secret (npmjs.org account of the package owner); without it
-# every genuinely-new snapshot fails loudly at this step until the secret is
-# set.
+# idempotent: same data = no-op without burning a version. Publishing uses
+# npm Trusted Publishing (OIDC). After the first authenticated local release,
+# configure this repository and publish-npm-feed.yml as the package's trusted
+# publisher on npmjs.org, allowing direct npm publish.
 
 on:
   workflow_run:
@@ -30,6 +30,9 @@ concurrency:
 
 jobs:
   publish:
+    permissions:
+      contents: read
+      id-token: write
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
@@ -38,11 +41,11 @@ jobs:
         with:
           node-version: 22
           registry-url: 'https://registry.npmjs.org'
+      - name: Install npm with Trusted Publishing support
+        run: npm install --global npm@11.15.0
       - name: Run feed publication and extraction regression tests
         run: node --test scripts/test-publish-npm-feed.mjs scripts/test-readme-install.mjs scripts/test-market-v2.mjs
       # The script itself decides whether anything needs publishing: same
       # feedDigest as the registry's latest version → "nothing to do", exit 0.
       - name: Build and publish the feed package
         run: node scripts/publish-npm-feed.mjs --publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

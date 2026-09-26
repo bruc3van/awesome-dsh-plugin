@@ -148,6 +148,7 @@ if (!PUBLISH) {
   console.log('dry run only — pass --publish (requires npm auth, e.g. NODE_AUTH_TOKEN) to release.');
 } else {
   const result = spawnSync('npm', ['publish', DIST, '--access', 'public'], {
+    cwd: DIST,
     stdio: 'inherit',
     env: { ...process.env, npm_config_registry: REGISTRY },
   });
