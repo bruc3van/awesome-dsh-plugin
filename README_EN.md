@@ -10,8 +10,6 @@
 
 [中文](./README.md) · [Full catalog](./CATALOG.md) · [Star Top 200](./TOP200.md) · [Author showcase](./SHOWCASE.md) · [Recommend a plugin](./CONTRIBUTING.md) · [Machine-readable data](./data/repositories.json)
 
-**If this list helps you discover something useful, consider leaving a Star ⭐ so more DSH users can find the ecosystem.**
-
 ## 🧭 Quick index
 
 | You want to… | Go to |
