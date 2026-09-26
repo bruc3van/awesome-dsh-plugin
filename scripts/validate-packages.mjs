@@ -144,6 +144,8 @@ for (const [slug, entry] of Object.entries(entries)) {
     packageCount += 1;
     if (typeof pkg.command !== 'string' || !pkg.command.includes('plugin')) {
       errors.push(`${where}: command must be a dsh plugin install command`);
+    } else if (/[<>]/.test(pkg.command)) {
+      errors.push(`${where}: command contains placeholder syntax (<…>) — quote it via install_mode "manual" instead of publishing it as copyable`);
     }
     if (typeof pkg.profile !== 'string' || !pkg.profile.trim()) {
       errors.push(`${where}: profile must be a non-empty string`);

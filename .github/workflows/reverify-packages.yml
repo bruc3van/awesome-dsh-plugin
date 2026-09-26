@@ -1,0 +1,35 @@
+name: Reverify packages mapping against upstream READMEs
+
+# Weekly accuracy pass for data/packages.json: re-fetch the README behind
+# every mapped entry and re-run the shared extractor. The run fails red when
+# a published install target is no longer documented upstream or its command
+# changed — that is drift the "复制安装内容" promise cannot tolerate. Enrichment
+# findings (new upstream targets, unmapped feed entries that became
+# extractable) go to the step summary as warnings.
+#
+# Report-only by design: packages.json is hand-maintained and scripts never
+# rewrite it (data/review/README.md). Fixing drift is a curation decision —
+# the maintainer edits the mapping and the refresh-market-v2 workflow
+# republishes the feed. Nothing is committed here, so this workflow stays
+# out of the main-data-push concurrency group.
+
+on:
+  schedule:
+    - cron: '33 15 * * 1' # weekly, Monday — offsets the daily 14:17 snapshot run
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reverify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Re-verify every mapped entry against its upstream README
+        run: node scripts/reverify-packages.mjs
+      - name: Run the extractor unit tests
+        run: node --test scripts/test-readme-install.mjs

@@ -69,6 +69,9 @@ function commandText(value, where) {
   if (CONTROL_CHARS.test(trimmed) || trimmed.includes('\n')) {
     throw new Error(`${where} must be a single-line command without control characters`);
   }
+  if (/[<>]/.test(trimmed)) {
+    throw new Error(`${where} contains placeholder syntax (<…>) — publish a concrete command or use install_mode "manual"`);
+  }
   if (codePoints(trimmed) > TEXT_LIMITS.command) {
     throw new Error(`${where} is ${codePoints(trimmed)} code points, cap is ${TEXT_LIMITS.command} — fix data/packages.json instead of truncating`);
   }

@@ -16,6 +16,8 @@ This directory is the review stage of the "raw data → human verification → u
 | `data/market.json` | 脚本（`scripts/market.mjs`，每日 cron 与 curation 合并后） | 下游市场（dsh-desktop-safe-market）消费的精选文件：快照 + curation 的纯投影，按类目均衡发牌、≤600 条、≤500 KB。**不受 `approved.json` 门控**（只按排除名单过滤），接口约定见下游 `docs/market-json-spec.md` |
 | `data/packages.json` | 维护者 / AI 审核（**手动维护，脚本绝不重写**） | 插件安装目标映射：`"owner/name"`（小写）→ 准确的 `dsh plugin` 安装命令 / npm 包名 / 安装源（含 profile、前置要求、任务标签、验证状态与日期——仓库 ≠ 安装源，如 dsh-at-file 实际装的是 omdsh-dev 的 tarball）。首批 11 条人工精修（含 requirements / tasks）；2026-09-26 批量回访 feed 全部 600 仓 README，程序化提取至 483 条——`readme-verified` 的语义是**命令逐字取自上游 README**（自引用优先、歧义与仅本地安装的仓库不收录、模板占位符剔除），requirements/tasks 仍待人工补。由 `refresh-market-v2` 工作流投影进 `data/market-v2.json`；不在 feed 里的映射（catalog-only 或未入前 600）网页目录仍可直接读本文件。`scripts/validate-packages.mjs` 离线校验结构、快照与 curation 一致性 |
 | `data/market-v2.json` | 脚本（`scripts/market-v2.mjs`，由 `refresh-market-v2` 工作流在 v1 市场文件或映射变动后自动重建） | 下游市场 feed 的 **schema v2 超集**：与 `market.json` 完全相同的条目与顺序，映射覆盖的条目额外携带 `packages` 块（`mode` / `targets`（profile + source + command）/ `requirements` / `tasks` / `note` / `verification`）——消费端可当 v1 用，也可渲染「复制安装内容」。v1 契约不动；映射记录坏或超限时**中止不发布**（绝不截断安装命令）；同输入重复生成保持字节不变。`scripts/validate-market-v2.mjs` 用同一变换从两份源重算比对，手改必失配 |
+| `data/review/packages-pending.md` | 脚本（`node scripts/reverify-packages.mjs --write-pending`，手动重建） | packages 映射待补工作清单：feed 中尚无映射的仓库按「为什么没映射」分桶（歧义 / 仅本地安装 / 无命令），每行带 README 里的真实安装提示，供人工裁决后写入 `packages.json`。快照不是门控 |
+| `scripts/reverify-packages.mjs`（`reverify-packages` 工作流，每周一） | CI | 映射准确性回访：重抓每个已映射仓库的上游 README，用同一提取规则（`scripts/readme-install.mjs`）重算比对——**记录的目标不再被上游记载、或命令文本变化 → 工作流红**；新增候选与可提取缺口只在 step summary 提示。**只报告不改数据**（与 pending.md 同一哲学：脚本绝不重写 curation），修不修、怎么修是编辑决定 |
 | `CATALOG.md`、`catalog/*.md`、`TOP200.md`、README 数据区 | `scripts/merge.mjs`（仅审核合并时） | 用户可见页面；**脚本不会自动更新它们**。`CATALOG.md` 是目录索引，各分类的完整名单在 `catalog/<category>.md` 分册中（单页曾达 2.14 MB，超过 GitHub 1 MB 的 Markdown 渲染上限，故拆分；生成时若某分册逼近上限会告警）。语义上无法对半拆的兜底大类（如 `agents-workflows`，其模式匹配 `harness`，几乎所有插件描述都含该词）在 `render.mjs` 的 `VOLUME_SPLITS` 里按 **owner 名首字母**再分卷（`agents-workflows` A–M / `agents-workflows-n-z` N–Z，分界按字节占比调优）；类目粒度不变——market 发牌与 README 思维导图仍按原类目统计。README.md / README_EN.md 有四处随合并自动刷新：「生态全景」思维导图（`<!-- dsh:panorama:start/end -->`）、「社区热度榜」Top 50 表格（`<!-- dsh:leaderboard:start/end -->`）、「作者自荐」预览（`<!-- dsh:showcase:start/end -->`，取自 `SHOWCASE.md` 末尾 10 条，**勿手工同步**——SHOWCASE.md 变更合入 main 后由 `refresh-showcase` 工作流即时重建，本地可跑 `scripts/showcase-preview.mjs`）与目录统计句（快照日期 + 收录/语言/许可证/活跃数）。此外，README 首页的「最近加入生态 / Recently joined」表随每次审核合并由维护者（或 AI）**手工轮换**：约 8 条、选自本次新核准仓库中最有代表性者，中英两表条目同步（脚本不代写）。其余内容仍手工维护 |
 
 ## 工作流 / Workflow
@@ -51,6 +53,8 @@ node scripts/market-v2.mjs              # 重建 data/market-v2.json（v1 feed +
 node scripts/validate-market-v2.mjs     # 校验 data/market-v2.json（与 market.json + packages.json 重算比对）
 node --test scripts/test-market-v2.mjs  # market-v2 管线单测（join / 幂等 / 熔断）
 node scripts/validate-packages.mjs      # 校验 data/packages.json（安装映射：结构 + 快照/curation 一致性）
+node scripts/reverify-packages.mjs      # 回访上游 README 复核映射（漂移报红；--write-pending 重建待补清单）
+node --test scripts/test-readme-install.mjs  # 安装命令提取规则单测
 node --test scripts/test-market.mjs     # market 管线单测（含熔断）
 node --test scripts/test-star-anomaly.mjs  # Star 异常增长检测单测
 node scripts/validate-curated.mjs       # 校验 curated.json / approved.json / 自荐区（实时 GitHub API，限流时自动降级为 warning）

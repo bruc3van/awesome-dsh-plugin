@@ -100,11 +100,15 @@ test('packagesBlockFor handles manual installs and unverified records', () => {
   });
 });
 
-test('packagesBlockFor rejects oversize text, multiline commands, bad sources, bad statuses', () => {
+test('packagesBlockFor rejects oversize text, multiline commands, bad sources, bad statuses, placeholders', () => {
   assert.throws(() => packagesBlockFor(commandRecord({ requirements: ['x'.repeat(201)] })), /requirements\[0\].*cap is 200/);
   assert.throws(
     () => packagesBlockFor(commandRecord({ packages: [{ profile: 'web', source: 'npm:x', command: 'dsh plugin add x\n&& evil' }] })),
     /single-line/,
+  );
+  assert.throws(
+    () => packagesBlockFor(commandRecord({ packages: [{ profile: 'web', source: 'npm:x', command: 'dsh plugin --profile <name> add x' }] })),
+    /placeholder syntax/,
   );
   assert.throws(
     () => packagesBlockFor(commandRecord({ packages: [{ profile: 'web', source: 'not-a-kind', command: 'dsh plugin add x' }] })),
