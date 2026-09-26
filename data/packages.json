@@ -386,17 +386,17 @@
         {
           "profile": "web",
           "source": "npm:dsh-godot-skill",
-          "command": "@deepseek-ai/dsh dsh plugin --profile web add dsh-godot-skill"
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-godot-skill"
         },
         {
           "profile": "web",
           "source": "url:git+https://github.com/akira399/dsh-godot-skill.git",
-          "command": "@deepseek-ai/dsh dsh plugin --profile web add git+https://github.com/akira399/dsh-godot-skill.git"
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add git+https://github.com/akira399/dsh-godot-skill.git"
         },
         {
           "profile": "web",
           "source": "github:akira399/dsh-godot-skill",
-          "command": "@deepseek-ai/dsh dsh plugin --profile web add github:akira399/dsh-godot-skill"
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:akira399/dsh-godot-skill"
         }
       ],
       "status": "readme-verified",
@@ -594,7 +594,7 @@
         {
           "profile": "web",
           "source": "npm:@anysearch/anysearch-dsh",
-          "command": "@deepseek-ai/dsh plugin --profile web add @anysearch/anysearch-dsh"
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @anysearch/anysearch-dsh"
         }
       ],
       "status": "readme-verified",
@@ -904,7 +904,7 @@
         {
           "profile": "web",
           "source": "github:c3ll256/dsh-toy",
-          "command": "@deepseek-ai/dsh plugin --profile web add github:c3ll256/dsh-toy"
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add github:c3ll256/dsh-toy"
         }
       ],
       "status": "readme-verified",
@@ -1492,7 +1492,7 @@
         {
           "profile": "web",
           "source": "github:eri64/dsh-claude-ux",
-          "command": "@deepseek-ai/dsh plugin --profile web add github:eri64/dsh-claude-ux"
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add github:eri64/dsh-claude-ux"
         }
       ],
       "status": "readme-verified",
@@ -1941,7 +1941,7 @@
         {
           "profile": "web",
           "source": "npm:@graysilver/dsh-evolve-modes@0.4.0",
-          "command": "@deepseek-ai/dsh plugin --profile web add @graysilver/dsh-evolve-modes@0.4.0"
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @graysilver/dsh-evolve-modes@0.4.0"
         }
       ],
       "status": "readme-verified",
@@ -2145,12 +2145,12 @@
         {
           "profile": "web",
           "source": "npm:dsh-agent-messaging",
-          "command": "@deepseek-ai/dsh dsh plugin --profile web add dsh-agent-messaging"
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-agent-messaging"
         },
         {
           "profile": "web",
           "source": "github:happyren/dsh-agent-messaging",
-          "command": "@deepseek-ai/dsh dsh plugin --profile web add github:happyren/dsh-agent-messaging"
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:happyren/dsh-agent-messaging"
         }
       ],
       "status": "readme-verified",
@@ -2432,12 +2432,12 @@
         {
           "profile": "tui",
           "source": "npm:@huiliyi37/dsh-tianshu-tui",
-          "command": "@deepseek-ai/dsh plugin --profile tui add @huiliyi37/dsh-tianshu-tui"
+          "command": "pnpm dlx @deepseek-ai/dsh plugin --profile tui add @huiliyi37/dsh-tianshu-tui"
         },
         {
           "profile": "tui",
           "source": "github:huiliyi37/dsh-tianshu-tui",
-          "command": "@deepseek-ai/dsh plugin --profile tui add github:huiliyi37/dsh-tianshu-tui"
+          "command": "pnpm dlx @deepseek-ai/dsh plugin --profile tui add github:huiliyi37/dsh-tianshu-tui"
         }
       ],
       "status": "readme-verified",
@@ -2654,7 +2654,7 @@
         {
           "profile": "web",
           "source": "github:JuneLearn/dsh-image2-draw",
-          "command": "@deepseek-ai/dsh dsh plugin --profile web add github:JuneLearn/dsh-image2-draw"
+          "command": "npx --yes -p @deepseek-ai/dsh dsh plugin --profile web add github:JuneLearn/dsh-image2-draw"
         }
       ],
       "status": "readme-verified",
@@ -2666,7 +2666,7 @@
         {
           "profile": "web",
           "source": "npm:dsh-layered-memory",
-          "command": "@deepseek-ai/dsh plugin --profile web add dsh-layered-memory"
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add dsh-layered-memory"
         },
         {
           "profile": "web",
@@ -3052,7 +3052,7 @@
         {
           "profile": "web",
           "source": "npm:dsh-plugin-garmin-connect",
-          "command": "@deepseek-ai/dsh plugin --profile web add dsh-plugin-garmin-connect"
+          "command": "npx --legacy-peer-deps=false @deepseek-ai/dsh plugin --profile web add dsh-plugin-garmin-connect"
         }
       ],
       "status": "readme-verified",
@@ -3151,7 +3151,7 @@
         {
           "profile": "web",
           "source": "npm:@liustack/modlens@3.26.5",
-          "command": "@deepseek-ai/dsh plugin --profile web add @liustack/modlens@3.26.5"
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modlens@3.26.5"
         }
       ],
       "status": "readme-verified",
@@ -3163,7 +3163,7 @@
         {
           "profile": "web",
           "source": "npm:@liustack/modsearch@5.10.5",
-          "command": "@deepseek-ai/dsh plugin --profile web add @liustack/modsearch@5.10.5"
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modsearch@5.10.5"
         }
       ],
       "status": "readme-verified",
@@ -5056,7 +5056,7 @@
         {
           "profile": "web",
           "source": "npm:dsh-win32",
-          "command": "run dsh plugin --profile web add dsh-win32"
+          "command": "dsh plugin --profile web add dsh-win32"
         }
       ],
       "status": "readme-verified",
@@ -5341,7 +5341,7 @@
         {
           "profile": "web",
           "source": "github:syncable-dev/dsh-plugin-memtrace",
-          "command": "@deepseek-ai/dsh plugin --profile web add github:syncable-dev/dsh-plugin-memtrace"
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add github:syncable-dev/dsh-plugin-memtrace"
         }
       ],
       "status": "readme-verified",
@@ -6627,12 +6627,12 @@
         {
           "profile": "web",
           "source": "npm:dsh-im-gateway",
-          "command": "插件：dsh plugin --profile web add dsh-im-gateway"
+          "command": "dsh plugin --profile web add dsh-im-gateway"
         },
         {
           "profile": "web",
           "source": "url:https://github.com/zhuiyueya/dsh-im-gateway.git",
-          "command": "插件：dsh plugin --profile web add https://github.com/zhuiyueya/dsh-im-gateway.git"
+          "command": "dsh plugin --profile web add https://github.com/zhuiyueya/dsh-im-gateway.git"
         }
       ],
       "status": "readme-verified",

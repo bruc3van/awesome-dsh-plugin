@@ -25,6 +25,19 @@ test('commandsFrom keeps install lines and rejects other subcommands', () => {
   const cmds = (text) => commandsFrom(text).map((s) => s.command);
   assert.deepEqual(cmds(['dsh plugin --profile web add dsh-x']), ['dsh plugin --profile web add dsh-x']);
   assert.deepEqual(cmds(['npx @deepseek-ai/dsh plugin --profile web add dsh-x']), ['npx @deepseek-ai/dsh plugin --profile web add dsh-x']);
+  // Runner flags between npx and the package must not cut the prefix off —
+  // the recorded command has to stay runnable when copied alone. (The prose
+  // tail survives at this stage; targetsFrom truncates at the target.)
+  assert.deepEqual(
+    cmds(['install it with one command: `npx -y @deepseek-ai/dsh plugin --profile web add dsh-x`. See the guide for details.']),
+    ['npx -y @deepseek-ai/dsh plugin --profile web add dsh-x . See the guide for details.'],
+  );
+  assert.deepEqual(
+    cmds(['npx --legacy-peer-deps=false @deepseek-ai/dsh plugin --profile web add dsh-x']),
+    ['npx --legacy-peer-deps=false @deepseek-ai/dsh plugin --profile web add dsh-x'],
+  );
+  // CJK prose glued to the match must not leak into the command.
+  assert.deepEqual(cmds(['插件：dsh plugin --profile web add dsh-x']), ['dsh plugin --profile web add dsh-x']);
   assert.deepEqual(cmds(['DSH_HOME=~/.ohdsh npx @deepseek-ai/dsh plugin --profile desktop add dsh-x']), [
     'DSH_HOME=~/.ohdsh npx @deepseek-ai/dsh plugin --profile desktop add dsh-x',
   ]);

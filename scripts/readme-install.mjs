@@ -63,14 +63,28 @@ export function commandsFrom(text) {
       const seg = piece.trim();
       if (seg === '' || !/\bdsh\s+plugin\b/.test(seg) || !/\badd\b/.test(seg)) continue;
       const m = /\bdsh\s+plugin\b/.exec(seg);
-      const start = seg.lastIndexOf(' ', m.index) + 1;
+      let start = seg.lastIndexOf(' ', m.index) + 1;
+      // The command starts at the `dsh plugin` token — or earlier when that
+      // token is itself the bin of a scoped runner package (@deepseek-ai/dsh)
+      // or an env assignment. Anything else glued to it (CJK prose like
+      // "插件：dsh plugin …") means start at the match itself.
+      const space = seg.indexOf(' ', start);
+      const leadToken = seg.slice(start, space === -1 ? undefined : space);
+      if (leadToken !== 'dsh' && !/^@[\w.-]+\/[\w.-]+$/.test(leadToken) && !/^[A-Z_][A-Z0-9_]*=\S*$/.test(leadToken)) {
+        start = m.index;
+      }
       const tail = seg.slice(start);
       const before = seg.slice(0, start).trim();
       const tok = before === '' ? [] : before.split(' ');
       const keep = [];
       while (tok.length) {
         const t = tok[tok.length - 1];
-        if (/^(npx|pnpm|yarn|node|bunx?|exec|run)$/i.test(t) || /^@[\w.-]+\/[\w.-]+$/.test(t) || /^[A-Z_][A-Z0-9_]*=\S*$/.test(t)) {
+        if (
+          /^(npx|pnpm|yarn|node|bunx?|dlx)$/i.test(t) ||
+          /^@[\w.-]+\/[\w.-]+$/.test(t) ||
+          /^[A-Z_][A-Z0-9_]*=\S*$/.test(t) ||
+          t.startsWith('-') // runner flags live here: npx -y, npx --legacy-peer-deps=false, pnpm --package …
+        ) {
           keep.unshift(t);
           tok.pop();
         } else break;
