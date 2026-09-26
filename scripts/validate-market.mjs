@@ -2,7 +2,8 @@
 
 // Validates data/market.json against §8 of the downstream publishing spec
 // (docs/market-json-spec.md in dsh-desktop-safe-market): envelope shape,
-// slug/identity rules, exclusion lists, category keys, branch whitelist,
+// slug/identity rules, the approved.json review gate, exclusion lists,
+// category keys, branch whitelist,
 // the per-category star-order invariant, size caps, and the text-cleaning
 // rules. Runs after every generation — daily cron and curation merges —
 // and fails the workflow when the published file would break the consumer.
@@ -25,13 +26,15 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const marketPath = resolve(root, 'data/market.json');
 const errors = [];
 
-const [rawMarket, curatedRaw, snapshotRaw] = await Promise.all([
+const [rawMarket, curatedRaw, snapshotRaw, approvedRaw] = await Promise.all([
   readFile(marketPath, 'utf8'),
   readFile(resolve(root, 'data/curated.json'), 'utf8'),
   readFile(resolve(root, 'data/repositories.json'), 'utf8'),
+  readFile(resolve(root, 'data/approved.json'), 'utf8'),
 ]);
 
 const curated = JSON.parse(curatedRaw);
+const approvedNames = new Set(Object.keys(JSON.parse(approvedRaw)).map((key) => key.toLowerCase()));
 const snapshot = JSON.parse(snapshotRaw);
 
 let market;
@@ -134,6 +137,7 @@ for (const [index, row] of (Array.isArray(market?.entries) ? market.entries : []
     seenNames.add(row.full_name);
   }
   const lower = typeof row.full_name === 'string' ? row.full_name.toLowerCase() : '';
+  if (!approvedNames.has(lower)) errors.push(`${where}: "${row.full_name}" is not in data/approved.json — the market is review-gated`);
   if (excludedNames.has(lower)) errors.push(`${where}: "${row.full_name}" is in curated.json excluded_repos`);
   if (leaderboardNames.has(lower)) errors.push(`${where}: "${row.full_name}" is in curated.json leaderboard_exclusions`);
   if (marketExcludedNames.has(lower)) errors.push(`${where}: "${row.full_name}" is in curated.json market_exclusions`);

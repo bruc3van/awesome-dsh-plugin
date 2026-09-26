@@ -2,14 +2,15 @@ name: Refresh the downstream market file
 
 # Spec §6: a curation change must reach the downstream market immediately
 # after it merges — otherwise a blacklist fix would wait for the next daily
-# cron. This workflow rebuilds data/market.json from the stored snapshot on
-# every push to main that touches data/curated.json and commits it. The daily
-# update-catalog.yml covers the snapshot-refresh path; validate-curated.yml
-# covers the same generation + validation inside PRs.
+# cron. The market is review-gated, so approved.json moves it just like
+# curated.json does: a review merge that approves or un-approves repositories
+# changes what the feed may contain. This workflow rebuilds data/market.json
+# from the stored snapshot on every push to main that touches either file and
+# commits it. The daily update-catalog.yml covers the snapshot-refresh path;
+# validate-curated.yml covers the same generation + validation inside PRs.
 #
 # The commit here only touches data/market.json and MARKET.md (its preview
-# page), so it does not re-trigger this workflow (its path filter is
-# data/curated.json).
+# page), so it does not re-trigger this workflow.
 
 on:
   push:
@@ -17,17 +18,17 @@ on:
       - main
     paths:
       - 'data/curated.json'
+      - 'data/approved.json'
   workflow_dispatch:
 
 permissions:
   contents: write
 
-# Shared with update-catalog.yml — see the note there. Both workflows commit
-# generated data files to main, so they must never run at once; queueing rather
-# than cancelling means a curation push waits for the daily run to finish
-# instead of aborting it mid-crawl.
+# Per-workflow group — see the note in update-catalog.yml. Both workflows
+# write data/market.json; the commit step below makes that safe by
+# regenerating on top of whatever landed first.
 concurrency:
-  group: main-data-push
+  group: data-refresh-market
   cancel-in-progress: false
 
 jobs:
@@ -48,33 +49,33 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/market.json MARKET.md
-          if git diff --cached --quiet; then
-            # The expected outcome whenever a curation change does not reach the
-            # published feed: an exclusion for a repository the market already
-            # filtered out, a category override that matched the pattern anyway,
-            # a reworded reason. Same snapshot + same projection = same payload,
-            # and market.mjs then keeps the previous file bit for bit (its
-            # generated_at included), so there is genuinely nothing to publish.
-            # Unlike the daily workflow's guard, this one fires regularly.
-            echo "market.json is already current — this curation change does not affect the published feed."
-            exit 0
-          fi
-          git commit -m "data: rebuild market.json and its MARKET.md preview after curation change"
-          # Same retry as update-catalog.yml: deepen the shallow clone, rebase
-          # onto whatever landed on main since checkout, and fail loudly on a
-          # conflict rather than letting CI guess at a merge of generated files.
+          stage() {
+            git add data/market.json MARKET.md
+            if git diff --cached --quiet; then
+              # The expected outcome whenever a curation change does not reach
+              # the published feed: an exclusion for a repository the market
+              # already filtered out, a reworded reason. Same snapshot + same
+              # projection = same payload, and market.mjs then keeps the
+              # previous file bit for bit (its generated_at included).
+              echo "market.json is already current — this change does not affect the published feed."
+              exit 0
+            fi
+            git commit -m "data: rebuild market.json and its MARKET.md preview after curation change"
+          }
+          stage
+          # A rejected push means main moved (a maintainer push, or the daily
+          # crawl committing a new snapshot). Rebuild on the new tip instead
+          # of rebasing generated files — the result then reflects both.
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
               exit 0
             fi
-            echo "Push rejected (attempt $attempt) — rebasing onto origin/main."
-            git fetch --deepen=50 origin main || git fetch origin main
-            if ! git rebase origin/main; then
-              git rebase --abort || true
-              echo "Rebase onto origin/main conflicted — re-run this workflow."
-              exit 1
-            fi
+            echo "Push rejected (attempt $attempt) — regenerating on top of origin/main."
+            git fetch --depth=1 origin main
+            git reset --hard FETCH_HEAD
+            node scripts/market.mjs --from-snapshot
+            node scripts/validate-market.mjs
+            stage
           done
           echo "Push still rejected after 3 attempts."
           exit 1

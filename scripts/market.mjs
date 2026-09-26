@@ -7,8 +7,9 @@
 // publishing half.
 //
 // The file is a pure projection of data/repositories.json (the raw topic
-// snapshot) + data/curated.json (the editorial decisions): filter (description
-// set, not archived/disabled, not excluded, category determinable), clean every
+// snapshot) + data/approved.json (the review gate) + data/curated.json (the
+// editorial decisions): filter (description set, maintainer-approved, not
+// archived/disabled, not excluded, category determinable), clean every
 // text field, dedup by id, then deal the pool round-robin across categories so
 // any prefix of the file is a balanced list. No fetching happens here — the
 // snapshot is always read from disk; the daily workflow runs scripts/update.mjs
@@ -24,6 +25,7 @@ import { appendFile, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { assignableCategories, categoryFallback, categoryRules } from './categories.mjs';
+import { escapeCell } from './markdown.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -107,7 +109,15 @@ export function categoryForRepo(curated, repo) {
 // Spec §4.1: filter, in rule order. Returns the surviving repos (with their
 // assigned category) plus warnings about category_overrides values that name
 // an unknown category (those fall back to pattern matching, as in render.mjs).
-export function filterPool(snapshot, curated) {
+//
+// `approved` is data/approved.json and is required: the feed reaches users'
+// desktop market, so an unreviewed repository must never ride into it just
+// because it carries the topic — the same gate CATALOG.md / TOP200.md use.
+export function filterPool(snapshot, curated, approved) {
+  if (approved === null || typeof approved !== 'object' || Array.isArray(approved)) {
+    throw new TypeError('filterPool needs data/approved.json (an owner/name -> date object) — the market is review-gated');
+  }
+  const approvedNames = new Set(Object.keys(approved).map((key) => key.toLowerCase()));
   const excluded = new Set(Object.keys(curated.excluded_repos || {}).map((key) => key.toLowerCase()));
   const leaderboard = new Set(
     Object.keys(curated.leaderboard_exclusions || {}).map((key) => key.toLowerCase()),
@@ -134,6 +144,7 @@ export function filterPool(snapshot, curated) {
     if (!repo.description || !String(repo.description).trim()) continue;
     if (repo.archived === true || repo.disabled === true) continue;
     const lower = String(repo.full_name).toLowerCase();
+    if (!approvedNames.has(lower)) continue;
     if (excluded.has(lower) || leaderboard.has(lower) || self.has(lower) || marketExcluded.has(lower)) continue;
     if (excludedIds.has(repo.id)) continue;
     const category = categoryForRepo(curated, repo);
@@ -214,8 +225,8 @@ export function dealEntries(entries, maxEntries = MAX_ENTRIES) {
 //   { outcome: 'written', envelope, poolCount, warnings, trimmedCount }
 //   { outcome: 'unchanged', envelope, poolCount, warnings }  — nothing to do
 //   { outcome: 'aborted', reason, poolCount }                — breaker fired
-export function buildMarket({ snapshot, curated, previous = null, now = new Date(), maxBytes = MAX_FILE_BYTES }) {
-  const { repos, warnings } = filterPool(snapshot, curated);
+export function buildMarket({ snapshot, curated, approved, previous = null, now = new Date(), maxBytes = MAX_FILE_BYTES }) {
+  const { repos, warnings } = filterPool(snapshot, curated, approved);
   const pool = dedupById(repos.map(({ repo, category }) => buildEntry(repo, category)));
   const poolCount = pool.length;
   const dealt = dealEntries(pool);
@@ -295,10 +306,10 @@ export function buildMarket({ snapshot, curated, previous = null, now = new Date
   return { outcome: 'written', envelope: envelopeWith(entries), poolCount, warnings, trimmedCount };
 }
 
-// Same cell escaping as scripts/render.mjs: the wire text is already
-// whitespace-collapsed and length-capped, so pipes and newlines are the only
-// shapes that could break a table row.
-const mdCell = (value) => String(value ?? '').replaceAll('|', '\\|').replaceAll('\n', ' ');
+// Same cell escaping as scripts/render.mjs (scripts/markdown.mjs): the wire
+// text is whitespace-collapsed and length-capped, but descriptions are still
+// owner-written, so markup must render as literal text.
+const mdCell = escapeCell;
 
 // MARKET.md — the readable twin of data/market.json. Bilingual, like
 // CATALOG.md / TOP200.md. Ranked by stars because that is the order the
@@ -381,9 +392,10 @@ async function syncMarkdown(envelope, rootDir) {
 // 'written' | 'unchanged' | 'aborted' | 'oversize'.
 export async function runMarket({ rootDir = root, argv = process.argv } = {}) {
   const fromSnapshot = argv.includes('--from-snapshot');
-  const [snapshot, curated] = await Promise.all([
+  const [snapshot, curated, approved] = await Promise.all([
     readFile(resolve(rootDir, 'data/repositories.json'), 'utf8').then(JSON.parse),
     readFile(resolve(rootDir, 'data/curated.json'), 'utf8').then(JSON.parse),
+    readFile(resolve(rootDir, 'data/approved.json'), 'utf8').then(JSON.parse),
   ]);
   let previous = null;
   try {
@@ -403,7 +415,7 @@ export async function runMarket({ rootDir = root, argv = process.argv } = {}) {
     }
   }
 
-  const result = buildMarket({ snapshot, curated, previous });
+  const result = buildMarket({ snapshot, curated, approved, previous });
 
   if (result.outcome === 'aborted') {
     console.error(`Market generation aborted: ${result.reason}`);

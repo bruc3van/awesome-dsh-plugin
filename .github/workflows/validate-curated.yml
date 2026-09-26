@@ -5,7 +5,9 @@ on:
     paths:
       - 'data/curated.json'
       - 'data/approved.json'
+      - 'data/packages.json'
       - 'data/market.json'
+      - 'data/market-v2.json'
       - 'CATALOG.md'
       - 'catalog/**'
       - 'README.md'
@@ -26,11 +28,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-        with:
-          fetch-depth: 0
       - uses: actions/setup-node@v7
         with:
           node-version: 22
+      # Every pipeline test, before anything is merged — main-only workflows
+      # used to be the first place market-v2 / extractor / star-anomaly
+      # regressions surfaced.
+      - name: Run the test suite
+        run: >-
+          node --test
+          scripts/test-market.mjs
+          scripts/test-market-v2.mjs
+          scripts/test-publish-npm-feed.mjs
+          scripts/test-readme-install.mjs
+          scripts/test-render.mjs
+          scripts/test-star-anomaly.mjs
       - name: Validate data/curated.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -38,19 +50,15 @@ jobs:
       # Does the published catalog still agree with this PR's curation data —
       # or did someone edit approved.json / curated.json without re-running
       # scripts/merge.mjs? This compares which repository sits in which volume
-      # plus the index links/counts, not bytes: volume pages carry star counts and a snapshot date that the
-      # daily workflow moves every day, so a byte-level diff would fail on
-      # unrelated PRs instead of reporting real drift.
+      # plus the index links/counts, and which repositories the star boards
+      # (TOP200.md, the README Top 50 islands) publish — a board row for a
+      # board-excluded / excluded / unapproved repository fails. It compares
+      # membership, not bytes: the pages carry star counts and a snapshot date
+      # that the daily workflow moves every day, so a byte-level diff would
+      # fail every curation PR that stays open across a snapshot refresh
+      # instead of reporting real drift.
       - name: Check the published catalog against the curation data
         run: node scripts/merge.mjs --check
-      - name: Detect curation changes
-        id: curation
-        run: |
-          if git diff --quiet "${{ github.event.pull_request.base.sha }}" HEAD -- data/approved.json data/curated.json; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
       # Smoke tests: both generators must run clean against the stored snapshot.
       # Neither writes anything CI keeps — the review queue and the board are
       # regenerated on main, by the daily workflow and by a review merge.
@@ -58,28 +66,17 @@ jobs:
         run: node scripts/update.mjs --from-snapshot
       - name: Regenerate the leaderboard from the stored snapshot
         run: node scripts/top.mjs
-      # A curation PR is a review merge, so all user-facing generated pages must
-      # be committed together. Exact comparison is intentionally conditional:
-      # daily snapshot refreshes do not republish these pages, and requiring an
-      # exact diff for unrelated documentation/script PRs would report normal
-      # snapshot churn as an error.
-      - name: Check all generated pages for a curation change
-        if: steps.curation.outputs.changed == 'true'
-        run: |
-          node scripts/merge.mjs
-          git status --porcelain -- CATALOG.md catalog TOP200.md README.md README_EN.md > /tmp/generated-pages.status
-          if [ -s /tmp/generated-pages.status ]; then
-            echo "Generated user-facing pages are not committed:"
-            cat /tmp/generated-pages.status
-            git diff -- CATALOG.md catalog TOP200.md README.md README_EN.md
-            exit 1
-          fi
-      # The market file is regenerated from the PR's own curation state so the
-      # validator checks what main would publish after this PR merges (the
-      # committed file is refreshed by refresh-market.yml on push to main).
+      # The feeds are regenerated from the PR's own curation state so the
+      # validators check what main would publish after this PR merges (the
+      # committed files are refreshed by refresh-market.yml /
+      # refresh-market-v2.yml on push to main).
+      - name: Validate the packages mapping
+        run: node scripts/validate-packages.mjs
       - name: Rebuild the downstream market file from the stored snapshot
         run: node scripts/market.mjs --from-snapshot
       - name: Validate the downstream market file
         run: node scripts/validate-market.mjs
-      - name: Run the market pipeline tests
-        run: node --test scripts/test-market.mjs
+      - name: Rebuild the v2 market feed
+        run: node scripts/market-v2.mjs
+      - name: Validate the v2 market feed
+        run: node scripts/validate-market-v2.mjs

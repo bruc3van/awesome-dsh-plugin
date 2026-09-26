@@ -10,27 +10,27 @@ This page automatically lists public repositories under GitHub's [`dsh-plugin` t
 
 The catalog is split into one volume per category — the full list outgrew GitHub's single-page Markdown rendering limit. Each row below is a complete volume.
 
-- Repositories: **13808**
+- Repositories: **13779**
 - Primary languages: **35**
-- Declared licenses: **12353**
-- Refreshed: **2026-09-25 UTC**
+- Declared licenses: **12328**
+- Refreshed: **2026-09-26 UTC**
 - 最近人工复核 / Last review merge: **2026-09-26**
 
 ## 分册 / Volumes
 
 | 类目 / Category | 条目 / Entries |
 | --- | ---: |
-| [生态与资源 / Ecosystem & Resources](./catalog/ecosystem-resources.md) | 664 |
-| [界面与体验 / UI & Experience](./catalog/ui-experience.md) | 2673 |
-| [设计、媒体与视觉 / Design, Media & Vision](./catalog/media-vision.md) | 690 |
-| [网页与浏览器 / Web & Browser](./catalog/web-browser.md) | 2099 |
-| [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 407 |
-| [知识与研究 / Knowledge & Research](./catalog/knowledge-research.md) | 702 |
-| [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 606 |
-| [多 Agent 编排与协作 / Multi-Agent Orchestration & Teams](./catalog/multi-agents.md) | 221 |
-| [Agent、自动化与工作流（A–M） / Agents, Automation & Workflows (A–M)](./catalog/agents-workflows.md) | 2220 |
-| [Agent、自动化与工作流（N–Z） / Agents, Automation & Workflows (N–Z)](./catalog/agents-workflows-n-z.md) | 2712 |
-| [实用工具与其他 / Utilities & Other](./catalog/utilities.md) | 814 |
+| [生态与资源 / Ecosystem & Resources](./catalog/ecosystem-resources.md) | 390 |
+| [界面与体验 / UI & Experience](./catalog/ui-experience.md) | 2677 |
+| [设计、媒体与视觉 / Design, Media & Vision](./catalog/media-vision.md) | 704 |
+| [网页与浏览器 / Web & Browser](./catalog/web-browser.md) | 2152 |
+| [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 556 |
+| [知识与研究 / Knowledge & Research](./catalog/knowledge-research.md) | 586 |
+| [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 635 |
+| [多 Agent 编排与协作 / Multi-Agent Orchestration & Teams](./catalog/multi-agents.md) | 228 |
+| [Agent、自动化与工作流（A–M） / Agents, Automation & Workflows (A–M)](./catalog/agents-workflows.md) | 2268 |
+| [Agent、自动化与工作流（N–Z） / Agents, Automation & Workflows (N–Z)](./catalog/agents-workflows-n-z.md) | 2754 |
+| [实用工具与其他 / Utilities & Other](./catalog/utilities.md) | 829 |
 
 ## Data source
 

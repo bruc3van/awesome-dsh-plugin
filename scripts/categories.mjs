@@ -1,13 +1,18 @@
 // Shared category definitions for scripts/update.mjs and scripts/validate-curated.mjs.
 // Each rule is [key, label_zh, label_en, pattern]; the fallback carries no pattern.
+//
+// Patterns match anywhere in name + description + topics, so short keywords
+// must be anchored: a bare `hub` matched every "GitHub" mention (41% of the
+// ecosystem volume), `pet` matched repetition/snippets/puppeteer, `lean`
+// matched clean/cleanup, and `kb` matched workbench/taskboard.
 
 export const categoryRules = [
-  ['ecosystem-resources', '生态与资源', 'Ecosystem & Resources', /awesome|hub|find-plugin|plugin-registry|plugin-check|plugin-dev|template|community/i],
-  ['ui-experience', '界面与体验', 'UI & Experience', /\bui\b|web-ui|sidebar|navbar|side-panel|skin|theme|css|chat-width|focus-chat|input|paste|status|notification|split-pane|annotation|genui|emoji|sticker|pet|whale/i],
+  ['ecosystem-resources', '生态与资源', 'Ecosystem & Resources', /awesome|(?<!git)hub|find-plugin|plugin-registry|plugin-check|plugin-dev|template|community/i],
+  ['ui-experience', '界面与体验', 'UI & Experience', /\bui\b|web-ui|sidebar|navbar|side-panel|skin|theme|css|chat-width|focus-chat|input|paste|status|notification|split-pane|annotation|genui|emoji|sticker|\bpet|deskpet|whale/i],
   ['media-vision', '设计、媒体与视觉', 'Design, Media & Vision', /vision|photo|canvas|aigc|visual|multimodal|qwen-mm|image|openpencil|design/i],
   ['web-browser', '网页与浏览器', 'Web & Browser', /web|browser|archive|computer-use|spotlight|launcher|desktop|deeplink|drag-and-drop/i],
-  ['integrations-sharing', '集成与分享', 'Integrations & Sharing', /share|github|telegram|qq|zotero|acp|connect|remote|teleport|tonghuashun|stock-market|identity/i],
-  ['knowledge-research', '知识与研究', 'Knowledge & Research', /knowledge|research|kb|distill|mnemon|math|lean|sieve|mineru|memory|scholar/i],
+  ['integrations-sharing', '集成与分享', 'Integrations & Sharing', /share|github(?!\.com|usercontent)|telegram|qq|zotero|acp|connect|remote|teleport|tonghuashun|stock-market|identity/i],
+  ['knowledge-research', '知识与研究', 'Knowledge & Research', /knowledge|research|\bkb|distill|mnemon|math|\blean4?\b|sieve|mineru|memory|scholar/i],
   ['developer-tools', '开发者工具', 'Developer Tools', /vscode|git|diff|inspect|custom-tool|tool-search|doctor|runtime|sandbox|encoding|schema|regex|json|csv|calculator|\bstat\b/i],
   // Multi-agent orchestration is carved out of the agent catch-all below so the
   // subcategory gets its own catalog volume; the pattern is matched before it,

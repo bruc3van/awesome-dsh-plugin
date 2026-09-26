@@ -23,7 +23,7 @@
 import { readFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { installRef } from './readme-install.mjs';
+import { installRef, isPasteSafeCommand } from './readme-install.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const errors = [];
@@ -147,6 +147,8 @@ for (const [slug, entry] of Object.entries(entries)) {
       errors.push(`${where}: command must be a dsh plugin install command`);
     } else if (/[<>]/.test(pkg.command)) {
       errors.push(`${where}: command contains placeholder syntax (<…>) — quote it via install_mode "manual" instead of publishing it as copyable`);
+    } else if (!isPasteSafeCommand(pkg.command)) {
+      errors.push(`${where}: command contains shell syntax outside the paste-safe whitelist (; | $ \` ( ) \\ …, or an unterminated quote) — record one plain \`dsh plugin … add\` invocation`);
     }
     if (typeof pkg.profile !== 'string' || !pkg.profile.trim()) {
       errors.push(`${where}: profile must be a non-empty string`);

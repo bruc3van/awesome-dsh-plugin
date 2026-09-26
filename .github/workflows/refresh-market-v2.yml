@@ -11,9 +11,8 @@ name: Refresh the v2 market feed
 # The v1 feed and its pipeline are untouched — this workflow only ever
 # writes data/market-v2.json, so its own commits cannot re-trigger it.
 #
-# The commit joins the shared main-data-push concurrency group: every
-# workflow in it pushes generated data to main, and two of them at once
-# produce a non-fast-forward push for whichever finishes second.
+# Per-workflow concurrency group (see the note in update-catalog.yml); a
+# push race with another workflow is resolved by regenerating on the new tip.
 
 on:
   workflow_run:
@@ -34,7 +33,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: main-data-push
+  group: data-refresh-market-v2
   cancel-in-progress: false
 
 jobs:
@@ -61,46 +60,34 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/market-v2.json
-          if git diff --cached --quiet; then
-            # The expected outcome whenever the trigger did not move the
-            # payload: a packages.json edit for a repo outside the published
-            # feed, an upstream run that kept v1 bit-for-bit, or a re-run of
-            # this workflow after the real change already landed. Same v1
-            # feed + same mapping = same file, generated_at included.
-            echo "market-v2.json is already current — this change does not affect the published v2 feed."
-            exit 0
-          fi
-          git commit -m "data: rebuild market-v2.json (v1 feed + packages mapping)"
-          # Same retry as update-catalog.yml / refresh-market.yml: the
-          # concurrency group keeps the data workflows apart, but a
-          # maintainer's push can still land between checkout and here.
-          # Rebase onto the new tip and retry; fail loudly on a conflict
-          # rather than letting CI guess at a merge of generated files.
-          # After every successful rebase the join is rebuilt and
-          # re-validated against the new tip before pushing again.
+          stage() {
+            git add data/market-v2.json
+            if git diff --cached --quiet; then
+              # The expected outcome whenever the trigger did not move the
+              # payload: a packages.json edit for a repo outside the published
+              # feed, an upstream run that kept v1 bit-for-bit, or a re-run of
+              # this workflow after the real change already landed. Same v1
+              # feed + same mapping = same file, generated_at included.
+              echo "market-v2.json is already current — this change does not affect the published v2 feed."
+              exit 0
+            fi
+            git commit -m "data: rebuild market-v2.json (v1 feed + packages mapping)"
+          }
+          stage
+          # A rejected push means main moved — possibly one of the join's two
+          # sources (market.json / packages.json). Rebuild and re-validate on
+          # the new tip instead of rebasing, so a stale join can never land.
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
               exit 0
             fi
-            echo "Push rejected (attempt $attempt) — rebasing onto origin/main."
-            git fetch --deepen=50 origin main || git fetch origin main
-            if ! git rebase origin/main; then
-              git rebase --abort || true
-              echo "Rebase onto origin/main conflicted — re-run this workflow."
-              exit 1
-            fi
-            # The rebase can pull in a maintainer's push that moved either
-            # source of the join (market.json / packages.json) — the commit
-            # about to be pushed was built against the pre-rebase tree.
-            # Rebuild and re-validate against the new tip and fold any change
-            # into the commit, so a stale join fails here instead of landing.
+            echo "Push rejected (attempt $attempt) — regenerating on top of origin/main."
+            git fetch --depth=1 origin main
+            git reset --hard FETCH_HEAD
+            node scripts/validate-packages.mjs
             node scripts/market-v2.mjs
             node scripts/validate-market-v2.mjs
-            git add data/market-v2.json
-            if ! git diff --cached --quiet; then
-              git commit --amend --no-edit
-            fi
+            stage
           done
           echo "Push still rejected after 3 attempts."
           exit 1

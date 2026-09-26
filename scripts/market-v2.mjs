@@ -24,7 +24,7 @@
 import { appendFile, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { installRef } from './readme-install.mjs';
+import { installRef, isPasteSafeCommand } from './readme-install.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -73,6 +73,9 @@ function commandText(value, where) {
   }
   if (/[<>]/.test(trimmed)) {
     throw new Error(`${where} contains placeholder syntax (<…>) — publish a concrete command or use install_mode "manual"`);
+  }
+  if (!isPasteSafeCommand(trimmed)) {
+    throw new Error(`${where} contains shell syntax outside the paste-safe whitelist (; | $ \` ( ) \\ …, or an unterminated quote) — a copyable command must be one plain \`dsh plugin … add\` invocation`);
   }
   if (codePoints(trimmed) > TEXT_LIMITS.command) {
     throw new Error(`${where} is ${codePoints(trimmed)} code points, cap is ${TEXT_LIMITS.command} — fix data/packages.json instead of truncating`);

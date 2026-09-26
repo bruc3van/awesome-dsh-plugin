@@ -22,12 +22,9 @@ on:
 permissions:
   contents: write
 
-# Shared with update-catalog.yml / refresh-market.yml — see the note there.
-# All three commit generated files to main and must never run at once;
-# queueing rather than cancelling keeps a showcase push waiting behind the
-# daily crawl instead of aborting it.
+# Per-workflow group — see the note in update-catalog.yml.
 concurrency:
-  group: main-data-push
+  group: data-refresh-showcase
   cancel-in-progress: false
 
 jobs:
@@ -44,30 +41,29 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md README_EN.md
-          if git diff --cached --quiet; then
-            # Expected on manual dispatch runs, and whenever a SHOWCASE.md
-            # edit stays outside the newest ten entries — the preview window
-            # did not move, so there is nothing to publish.
-            echo "Showcase previews already current — nothing to publish."
-            exit 0
-          fi
-          git commit -m "docs: refresh showcase previews from SHOWCASE.md"
-          # Same retry as update-catalog.yml: a maintainer push can land
-          # between checkout and here, so rebase onto the new tip and retry.
-          # actions/checkout clones shallow — deepen before rebasing, and fail
-          # loudly on a conflict instead of guessing at a merge.
+          stage() {
+            git add README.md README_EN.md
+            if git diff --cached --quiet; then
+              # Expected on manual dispatch runs, and whenever a SHOWCASE.md
+              # edit stays outside the newest ten entries — the preview window
+              # did not move, so there is nothing to publish.
+              echo "Showcase previews already current — nothing to publish."
+              exit 0
+            fi
+            git commit -m "docs: refresh showcase previews from SHOWCASE.md"
+          }
+          stage
+          # A rejected push means main moved (a review merge also rewrites the
+          # README data islands) — regenerate the previews on the new tip.
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
               exit 0
             fi
-            echo "Push rejected (attempt $attempt) — rebasing onto origin/main."
-            git fetch --deepen=50 origin main || git fetch origin main
-            if ! git rebase origin/main; then
-              git rebase --abort || true
-              echo "Rebase onto origin/main conflicted — re-run this workflow."
-              exit 1
-            fi
+            echo "Push rejected (attempt $attempt) — regenerating on top of origin/main."
+            git fetch --depth=1 origin main
+            git reset --hard FETCH_HEAD
+            node scripts/showcase-preview.mjs
+            stage
           done
           echo "Push still rejected after 3 attempts."
           exit 1

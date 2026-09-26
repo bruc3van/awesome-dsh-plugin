@@ -42,11 +42,22 @@ function throttled(task) {
   return run;
 }
 
+const toGithubDate = (date) => date.toISOString().replace(/\.\d{3}Z$/, 'Z');
+const partitionWarnings = [];
+
+// A 200 response is not necessarily a complete one: when the search backend
+// times out it answers with `incomplete_results: true` and whatever it found
+// so far, which would silently truncate the snapshot without ever tripping
+// the 80% breaker. Such pages are re-requested (through the same paced
+// queue); one that stays incomplete is kept but reported, so a thin day is
+// visible in the step summary instead of passing as a real drop.
+const INCOMPLETE_RETRIES = 2;
+
 // Transient failures are retried inside fetchWithRetry; one that survives the
 // retries is still fatal here. A search page we cannot read silently truncates
 // the snapshot, and a truncated snapshot is worse than keeping yesterday's file.
-async function fetchPage(q, page) {
-  return throttled(async () => {
+async function fetchPage(q, page, attempt = 0) {
+  const body = await throttled(async () => {
     const response = await fetchWithRetry(
       `https://api.github.com/search/repositories?q=${encodeURIComponent(q)}&per_page=100&page=${page}`,
       { headers: apiHeaders },
@@ -54,10 +65,14 @@ async function fetchPage(q, page) {
     if (!response.ok) throw new Error(`GitHub API ${response.status}: ${await response.text()}`);
     return response.json();
   });
+  if (body.incomplete_results) {
+    if (attempt < INCOMPLETE_RETRIES) return fetchPage(q, page, attempt + 1);
+    partitionWarnings.push(
+      `search page ${page} of "${q}" stayed incomplete_results after ${INCOMPLETE_RETRIES + 1} attempts — kept ${body.items?.length ?? 0} items; repositories may be missing from today's snapshot.`,
+    );
+  }
+  return body;
 }
-
-const toGithubDate = (date) => date.toISOString().replace(/\.\d{3}Z$/, 'Z');
-const partitionWarnings = [];
 
 // Splitting a range at the midpoint of its *time* span wastes requests whenever
 // the creation dates are skewed, and this topic's are extreme: almost every
@@ -294,6 +309,17 @@ async function refreshSnapshot() {
     throw new SnapshotCollapse(
       `the fetched snapshot holds ${repositories.length} repositories, below ${Math.round(SNAPSHOT_BREAKER_RATIO * 100)}% of the previous snapshot (${previousRepositories.length}) — refusing to overwrite it; the previous data/repositories.json is left untouched.`,
     );
+  }
+  // A topic this size is never identical two days running (two real
+  // consecutive snapshots differed in 5,326 fields across 1,841
+  // repositories), so an identical repository list means the crawl came back
+  // with cached or degraded data. It is still written — fetched_at moves —
+  // but flagged loudly instead of passing in silence.
+  if (previousRepositories.length && JSON.stringify(repositories) === JSON.stringify(previousRepositories)) {
+    const message =
+      'the fetched repository list is identical to the previous snapshot — the crawl likely returned stale data; check this run before trusting today\'s snapshot.';
+    partitionWarnings.push(message);
+    if (process.env.GITHUB_ACTIONS) console.log(`::warning::${message}`);
   }
   return {
     snapshot: {

@@ -23,6 +23,7 @@ import {
   SCHEMA_VERSION,
 } from './market.mjs';
 import { categoryFallback } from './categories.mjs';
+import { escapeCell } from './markdown.mjs';
 
 let nextId = 1;
 const repo = (overrides = {}) => ({
@@ -53,6 +54,9 @@ const curated = (overrides = {}) => ({
   excluded_repos: {},
   ...overrides,
 });
+// data/approved.json approving every repository in a snapshot — the market is
+// review-gated, so most tests approve their whole fixture up front.
+const approveAll = (s) => Object.fromEntries(s.repositories.map((r) => [r.full_name, '2026-08-16']));
 const previous = (overrides = {}) => ({
   schema_version: SCHEMA_VERSION,
   generated_at: '2026-08-15T01:00:00.000Z',
@@ -121,11 +125,23 @@ test('filterPool applies every exclusion rule', () => {
     leaderboard_exclusions: { 'board/excluded': 'reason' },
     excluded_repo_ids: { 8: 'blacklisted after rename' },
   });
-  const { repos: kept } = filterPool(snapshot(repos), c);
+  const { repos: kept } = filterPool(snapshot(repos), c, approveAll(snapshot(repos)));
   assert.deepEqual(
     kept.map(({ repo: r }) => r.full_name),
     ['keep/me'],
   );
+});
+
+test('filterPool is review-gated: unapproved repositories never reach the feed', () => {
+  const s = snapshot([
+    repo({ id: 1, full_name: 'Approved/Plugin', description: 'a' }),
+    repo({ id: 2, full_name: 'pending/plugin', description: 'a', stargazers_count: 5000 }),
+  ]);
+  const { repos: kept } = filterPool(s, curated(), { 'approved/plugin': '2026-08-16' }); // case-insensitive
+  assert.deepEqual(kept.map(({ repo: r }) => r.full_name), ['Approved/Plugin']);
+  // The gate is not optional: forgetting approved.json must fail loudly.
+  assert.throws(() => filterPool(s, curated()), /review-gated/);
+  assert.throws(() => buildMarket({ snapshot: s, curated: curated() }), /review-gated/);
 });
 
 test('filterPool drops market-class competitors listed in market_exclusions', () => {
@@ -142,7 +158,7 @@ test('filterPool drops market-class competitors listed in market_exclusions', ()
         'A competing DSH plugin market — market-in-market conflict; stays in the catalog and leaderboard, excluded from the downstream market.',
     },
   });
-  const { repos: kept } = filterPool(snapshot([market, ordinary]), c);
+  const { repos: kept } = filterPool(snapshot([market, ordinary]), c, approveAll(snapshot([market, ordinary])));
   assert.deepEqual(
     kept.map(({ repo: r }) => r.full_name),
     ['keep/me'],
@@ -150,6 +166,7 @@ test('filterPool drops market-class competitors listed in market_exclusions', ()
   // The market-class entry must not reappear in the published feed either.
   const result = buildMarket({
     snapshot: snapshot([market, ordinary]),
+    approved: approveAll(snapshot([market, ordinary])),
     curated: c,
     previous: null,
     now: new Date('2026-08-16T01:30:00Z'),
@@ -160,7 +177,7 @@ test('filterPool drops market-class competitors listed in market_exclusions', ()
 
 test('filterPool reports unknown category_overrides values without dropping the repo', () => {
   const c = curated({ category_overrides: { 'a/agent-thing': 'no-such-category' } });
-  const { repos, warnings } = filterPool(snapshot([repo({ full_name: 'a/agent-thing', name: 'agent-thing' })]), c);
+  const { repos, warnings } = filterPool(snapshot([repo({ full_name: 'a/agent-thing', name: 'agent-thing' })]), c, approveAll(snapshot([repo({ full_name: 'a/agent-thing', name: 'agent-thing' })])));
   assert.equal(repos.length, 1);
   assert.equal(repos[0].category[0], 'agents-workflows'); // pattern fallback
   assert.equal(warnings.length, 1);
@@ -169,9 +186,9 @@ test('filterPool reports unknown category_overrides values without dropping the 
 test('categoryForRepo: override wins case-insensitively, unknown override falls back to patterns', () => {
   const c = curated({ category_overrides: { 'A/Over-ridden': 'media-vision' } });
   const overridden = repo({ full_name: 'a/over-ridden', name: 'over-ridden', description: 'nothing agent-ish' });
-  assert.equal(filterPool(snapshot([overridden]), c).repos[0].category[0], 'media-vision');
+  assert.equal(filterPool(snapshot([overridden]), c, approveAll(snapshot([overridden]))).repos[0].category[0], 'media-vision');
   const fallback = repo({ full_name: 'z/zzz', name: 'zzz', description: 'qwerty' });
-  assert.equal(filterPool(snapshot([fallback]), c).repos[0].category[0], categoryFallback[0]);
+  assert.equal(filterPool(snapshot([fallback]), c, approveAll(snapshot([fallback]))).repos[0].category[0], categoryFallback[0]);
 });
 
 test('dedupById keeps the first entry per id', () => {
@@ -268,7 +285,7 @@ test('the deal preserves the per-category non-increasing star invariant', () => 
 
 test('buildMarket publishes a valid envelope in the spec field order', () => {
   const s = snapshot([repo({ id: 1, full_name: 'o/one', stargazers_count: 3 })]);
-  const result = buildMarket({ snapshot: s, curated: curated(), previous: null, now: new Date('2026-08-16T01:30:00Z') });
+  const result = buildMarket({ snapshot: s, approved: approveAll(s), curated: curated(), previous: null, now: new Date('2026-08-16T01:30:00Z') });
   assert.equal(result.outcome, 'written');
   assert.deepEqual(Object.keys(result.envelope), [
     'schema_version',
@@ -289,7 +306,7 @@ test('buildMarket publishes a valid envelope in the spec field order', () => {
 test('circuit breaker: a pool collapse below 60% aborts and never writes', () => {
   const s = snapshot([repo({ id: 1, full_name: 'o/one' })]);
   const prev = previous({ pool_count: 100 });
-  const result = buildMarket({ snapshot: s, curated: curated(), previous: prev });
+  const result = buildMarket({ snapshot: s, approved: approveAll(s), curated: curated(), previous: prev });
   assert.equal(result.outcome, 'aborted');
   assert.match(result.reason, /below 60%/);
 });
@@ -297,14 +314,14 @@ test('circuit breaker: a pool collapse below 60% aborts and never writes', () =>
 test('circuit breaker: an empty pool aborts even without a previous file', () => {
   const s = snapshot([repo({ id: 1, full_name: 'x/out', description: 'a' })]);
   const c = curated({ excluded_repos: { 'x/out': 'reason' } });
-  const result = buildMarket({ snapshot: s, curated: c, previous: null });
+  const result = buildMarket({ snapshot: s, approved: approveAll(s), curated: c, previous: null });
   assert.equal(result.outcome, 'aborted');
 });
 
 test('a pool at or above 60% passes the breaker', () => {
   const s = snapshot([repo({ id: 1, full_name: 'o/one' })]);
   const prev = previous({ pool_count: 1 });
-  const result = buildMarket({ snapshot: s, curated: curated(), previous: prev });
+  const result = buildMarket({ snapshot: s, approved: approveAll(s), curated: curated(), previous: prev });
   assert.equal(result.outcome, 'written');
 });
 
@@ -312,6 +329,7 @@ test('unchanged source and curation keep the previous file and its generated_at'
   const s = snapshot([repo({ id: 1, full_name: 'o/one' })]);
   const first = buildMarket({
     snapshot: s,
+    approved: approveAll(s),
     curated: curated(),
     previous: null,
     now: new Date('2026-08-16T01:30:00Z'),
@@ -319,6 +337,7 @@ test('unchanged source and curation keep the previous file and its generated_at'
   assert.equal(first.outcome, 'written');
   const second = buildMarket({
     snapshot: s,
+    approved: approveAll(s),
     curated: curated(),
     previous: first.envelope,
     now: new Date('2026-08-17T01:30:00Z'),
@@ -334,7 +353,7 @@ test('generated_at never moves backwards, even with clock skew', () => {
     source_fetched_at: '2026-08-15T01:00:00.000Z',
     generated_at: '2026-08-17T00:00:00.000Z', // a future timestamp
   });
-  const result = buildMarket({ snapshot: s, curated: curated(), previous: prev, now: new Date('2026-08-16T01:30:00Z') });
+  const result = buildMarket({ snapshot: s, approved: approveAll(s), curated: curated(), previous: prev, now: new Date('2026-08-16T01:30:00Z') });
   assert.equal(result.outcome, 'written');
   assert.equal(result.envelope.generated_at, '2026-08-17T00:00:00.000Z');
 });
@@ -348,6 +367,7 @@ test('the byte cap trims the deal to its largest fitting prefix', () => {
   const budget = 40 * 1024;
   const result = buildMarket({
     snapshot: snapshot(repos),
+    approved: approveAll(snapshot(repos)),
     curated: curated(),
     previous: null,
     now: new Date('2026-08-16T01:30:00Z'),
@@ -371,6 +391,7 @@ test('a full 600-row deal fits the default 500 KB cap', () => {
   );
   const result = buildMarket({
     snapshot: snapshot(repos),
+    approved: approveAll(snapshot(repos)),
     curated: curated(),
     previous: null,
     now: new Date('2026-08-16T01:30:00Z'),
@@ -391,6 +412,10 @@ test('the CLI never overwrites the previous file when the breaker fires', async 
     JSON.stringify(snapshot([repo({ id: 1, full_name: 'o/one' })])),
   );
   await writeFile(resolve(dir, 'data/curated.json'), JSON.stringify(curated()));
+  await writeFile(
+    resolve(dir, 'data/approved.json'),
+    JSON.stringify(approveAll(JSON.parse(await readFile(resolve(dir, 'data/repositories.json'), 'utf8')))),
+  );
   const prev = previous({
     pool_count: 100,
     generated_at: '2026-08-15T01:00:00.000Z',
@@ -408,11 +433,13 @@ test('the CLI never overwrites the previous file when the breaker fires', async 
 
 test('renderMarketMarkdown ranks by stars, links repos, and escapes cell hazards', () => {
   const fallback = categoryFallback; // [key, zh, en]
+  const fixture = snapshot([
+    repo({ id: 1, full_name: 'o/low', name: 'low', description: 'plain text', stargazers_count: 10 }),
+    repo({ id: 2, full_name: 'o/high', name: 'high', description: 'pipe | tick ` new\nline', stargazers_count: 9000 }),
+  ]);
   const result = buildMarket({
-    snapshot: snapshot([
-      repo({ id: 1, full_name: 'o/low', name: 'low', description: 'plain text', stargazers_count: 10 }),
-      repo({ id: 2, full_name: 'o/high', name: 'high', description: 'pipe | tick ` new\nline', stargazers_count: 9000 }),
-    ]),
+    snapshot: fixture,
+    approved: approveAll(fixture),
     curated: curated(),
     previous: null,
     now: new Date('2026-08-16T01:30:00Z'),
@@ -427,11 +454,12 @@ test('renderMarketMarkdown ranks by stars, links repos, and escapes cell hazards
   assert.ok(highRow < lowRow, 'the 9000-star repo ranks before the 10-star one');
 
   // Table-cell hazards are escaped, never rendered as structure.
-  assert.ok(page.includes('pipe \\| tick ` new line'));
+  assert.ok(page.includes('pipe \\| tick \\` new line'));
+  assert.ok(page.includes('Utilities &amp; Other'), 'markup in labels renders literally');
   assert.ok(!page.includes('pipe | tick'));
 
   // The category roll-up counts every published entry.
-  const rollup = page.split('\n').find((line) => line.startsWith(`| ${fallback[2]} · ${fallback[1]} |`));
+  const rollup = page.split('\n').find((line) => line.startsWith(`| ${escapeCell(`${fallback[2]} · ${fallback[1]}`)} |`));
   assert.ok(rollup !== undefined, 'the category row exists in the roll-up');
   assert.ok(rollup.endsWith('| 2 |'), 'both entries are counted once each');
 });
@@ -447,6 +475,10 @@ test('runMarket writes MARKET.md beside market.json and leaves both untouched wh
     ])),
   );
   await writeFile(resolve(dir, 'data/curated.json'), JSON.stringify(curated()));
+  await writeFile(
+    resolve(dir, 'data/approved.json'),
+    JSON.stringify(approveAll(JSON.parse(await readFile(resolve(dir, 'data/repositories.json'), 'utf8')))),
+  );
 
   const first = await runMarket({ rootDir: dir, argv: ['node', 'market.mjs', '--from-snapshot'] });
   assert.equal(first, 'written');
@@ -475,6 +507,10 @@ test('an unchanged run self-heals a stale MARKET.md without touching market.json
     JSON.stringify(snapshot([repo({ id: 1, full_name: 'o/one', stargazers_count: 3 })])),
   );
   await writeFile(resolve(dir, 'data/curated.json'), JSON.stringify(curated()));
+  await writeFile(
+    resolve(dir, 'data/approved.json'),
+    JSON.stringify(approveAll(JSON.parse(await readFile(resolve(dir, 'data/repositories.json'), 'utf8')))),
+  );
 
   assert.equal(await runMarket({ rootDir: dir, argv: ['node', 'market.mjs', '--from-snapshot'] }), 'written');
   const frozenJson = await readFile(resolve(dir, 'data/market.json'), 'utf8');

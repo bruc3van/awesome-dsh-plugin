@@ -24,6 +24,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { assignableCategories, categoryFallback, categoryRules } from './categories.mjs';
+import { escapeCell } from './markdown.mjs';
 import { detectStarAnomalies } from './star-anomaly.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -106,7 +107,7 @@ export function computePending(state) {
   return { pending, missing };
 }
 
-const esc = (value) => String(value ?? '').replaceAll('|', '\\|').replaceAll('\n', ' ');
+const esc = escapeCell;
 const updated = (repo) => repo.updated_at.slice(0, 10);
 
 // Board cells keep a short teaser of the description so the table stays narrow
@@ -188,7 +189,7 @@ function renderStarAnomalySection(anomalies) {
           const delta = alert.delta == null ? '—' : `${alert.delta >= 0 ? '+' : ''}${alert.delta}`;
           const age = alert.age_days == null ? '—' : `${alert.age_days}d`;
           const signals = (alert.signals || []).map((id) => SIGNAL_LABELS[id] || id).join('、') || '—';
-          const hint = (alert.hints || []).join('；') || esc(alert.reviewer_note || '—');
+          const hint = (alert.hints || []).join('；') || alert.reviewer_note || '—';
           const queue = alert.queue === 'pending' ? '待审 / pending' : '已核准 / approved';
           return `| ⚠️ [${alert.full_name}](${alert.html_url}) | ${queue} | ${alert.stars} | ${delta} | ${alert.forks} | ${age} | ${signals} | ${esc(hint)} |`;
         })
@@ -653,7 +654,9 @@ function leaderboardBody(top, lang, zhDescriptions) {
 
 export function replaceRegion(content, startMarker, endMarker, body, label, warnings) {
   const start = content.indexOf(startMarker);
-  const end = content.indexOf(endMarker);
+  // The end marker is looked up after the start marker, so a stray copy
+  // earlier on the page can never pair with the wrong start.
+  const end = start === -1 ? -1 : content.indexOf(endMarker, start + startMarker.length);
   if (start === -1 || end === -1 || end < start) {
     warnings.push(`${label}: marker comments not found — region left untouched`);
     return content;

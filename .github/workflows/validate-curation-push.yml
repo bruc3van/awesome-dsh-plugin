@@ -5,8 +5,9 @@ name: Validate curation changes on main
 # is the backstop for exactly those pushes: whenever approved.json or
 # curated.json lands on main, it re-runs the two checks the one-line AI review
 # is supposed to run locally — validate-curated.mjs (live GitHub API) and
-# merge.mjs --check (did the generated catalog pages get committed together
-# with the curation change, or does main now hold stale pages?). A red X on the
+# merge.mjs --check (did the generated catalog pages and star boards get
+# committed together with the curation change, or does main now hold stale
+# pages?). A red X on the
 # push commit means the merge was incomplete, not that this workflow is broken.
 #
 # Read-only: it commits nothing, so it shares no concurrency group with the

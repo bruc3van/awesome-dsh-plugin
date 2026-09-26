@@ -11,7 +11,7 @@ name: Reverify packages mapping against upstream READMEs
 # rewrite it (data/review/README.md). Fixing drift is a curation decision —
 # the maintainer edits the mapping and the refresh-market-v2 workflow
 # republishes the feed. Nothing is committed here, so this workflow stays
-# out of the main-data-push concurrency group.
+# out of the concurrency groups of the workflows that push to main.
 
 on:
   schedule:

@@ -13,6 +13,8 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   CATALOG_DIR,
+  LEADERBOARD_PREVIEW,
+  boardRepositories,
   buildBoard,
   buildCatalog,
   loadState,
@@ -25,7 +27,10 @@ const TOP_N = Number(process.env.TOP_N ?? 200);
 
 // --check answers one question for CI: do the published pages still agree with
 // the curation data, i.e. did someone change approved.json / curated.json and
-// forget to re-run this script?
+// forget to re-run this script? It covers the catalog volumes + index AND the
+// star boards (TOP200.md and the README Top 50 islands): a board exclusion
+// never touches catalog membership, so a catalog-only check would let a
+// freshly board-excluded repository stay publicly ranked.
 //
 // It deliberately compares catalog membership plus the index structure, not
 // bytes. The volume pages embed star counts and the snapshot date, and the daily
@@ -76,6 +81,40 @@ async function readPublishedIndex() {
   }
   const totalMatch = text.match(/^- Repositories: \*\*(\d+)\*\*$/m);
   return { volumes, duplicates, total: totalMatch ? Number(totalMatch[1]) : null };
+}
+
+// Board rows as published: `| rank | [owner/repo](url) | … | stars | …`. The
+// README islands are read between their markers only, so the hand-maintained
+// tables elsewhere on the home pages are never mistaken for the board.
+async function readPublishedBoards() {
+  const rows = (text) =>
+    [...text.matchAll(/^\| (\d+) \| \[([^\]]+)\]\(/gm)].map((match) => {
+      const cells = match.input.slice(match.index).split('\n', 1)[0].split(' | ');
+      const stars = cells.map((cell) => cell.trim()).filter((cell) => /^\d+$/.test(cell)).map(Number);
+      return { fullName: match[2], stars: stars.at(-1) ?? null };
+    });
+  const island = (text) => {
+    const start = text.indexOf('<!-- dsh:leaderboard:start -->');
+    const end = start === -1 ? -1 : text.indexOf('<!-- dsh:leaderboard:end -->', start);
+    return start === -1 || end === -1 ? null : text.slice(start, end);
+  };
+  const boards = [];
+  for (const [label, path, size, extract] of [
+    ['TOP200.md', 'TOP200.md', TOP_N, (text) => text],
+    ['README.md leaderboard', 'README.md', LEADERBOARD_PREVIEW, island],
+    ['README_EN.md leaderboard', 'README_EN.md', LEADERBOARD_PREVIEW, island],
+  ]) {
+    let text;
+    try {
+      text = await readFile(resolve(root, path), 'utf8');
+    } catch {
+      boards.push({ label, size, rows: null });
+      continue;
+    }
+    const body = extract(text);
+    boards.push({ label, size, rows: body === null ? null : rows(body) });
+  }
+  return boards;
 }
 
 const state = await loadState();
@@ -141,6 +180,52 @@ if (checkOnly) {
       indexErrors.push(`CATALOG.md reports ${index.total} repositories, but the volumes contain ${published.size}`);
     }
   }
+  // Boards. A published row for a repository that is no longer board-eligible
+  // (board-excluded, excluded, unapproved, description dropped) is stale
+  // output and fails, exactly like a catalog row curation removed. Eligible
+  // repositories missing from a board only warn: with the snapshot moving
+  // daily, a repository crossing the board's star floor is ordinary churn,
+  // not proof of a forgotten merge.
+  const boardEligibleRepos = boardRepositories(state);
+  const eligible = new Set(boardEligibleRepos.map((repo) => repo.full_name.toLowerCase()));
+  const boardErrors = [];
+  const boardWarnings = [];
+  for (const board of await readPublishedBoards()) {
+    if (!board.rows) {
+      indexErrors.push(`${board.label}: board table not found`);
+      continue;
+    }
+    const listed = new Set(board.rows.map((row) => row.fullName.toLowerCase()));
+    for (const { fullName } of board.rows) {
+      const lower = fullName.toLowerCase();
+      if (eligible.has(lower)) continue;
+      if (!snapshotNames.has(lower) && state.approvedNames.has(lower) && !state.excluded.has(lower) && !state.leaderboardExclusions.has(lower)) {
+        boardWarnings.push(`${board.label}: ${fullName} is no longer in the snapshot (deleted or renamed upstream)`);
+        continue;
+      }
+      const why = state.leaderboardExclusions.has(lower)
+        ? 'leaderboard_exclusions'
+        : state.excluded.has(lower)
+          ? 'excluded_repos'
+          : !state.approvedNames.has(lower)
+            ? 'not approved'
+            : 'not in the catalog';
+      boardErrors.push(`${board.label}: ${fullName} is published on the board but is ${why}`);
+    }
+    const floor = Math.min(...board.rows.map((row) => row.stars ?? Infinity));
+    const outranking = boardEligibleRepos.filter(
+      (repo) => !listed.has(repo.full_name.toLowerCase()) && board.rows.length >= board.size && repo.stargazers_count > floor,
+    );
+    if (outranking.length) {
+      boardWarnings.push(
+        `${board.label}: ${outranking.length} eligible repositories now outrank its lowest row (${floor}★) but are not on it — daily star churn, or a curation change (e.g. a removed leaderboard_exclusions entry) that still needs "node scripts/merge.mjs": ${outranking.slice(0, 5).map((repo) => repo.full_name).join(', ')}`,
+      );
+    }
+  }
+  if (boardErrors.length) {
+    console.error(`${boardErrors.length} board rows no longer match the curation data:\n${sample(boardErrors)}`);
+  }
+  for (const warning of boardWarnings) console.warn(`Warning: ${warning}`);
   for (const [label, list] of [['added to the catalog', added], ['removed from the catalog', removed], ['moved between volumes', recategorised]]) {
     if (list.length) console.error(`${list.length} repositories ${label} but not published:\n${sample(list)}`);
   }
@@ -150,12 +235,12 @@ if (checkOnly) {
     );
   }
   for (const error of indexErrors) console.error(`Catalog index error: ${error}`);
-  if (added.length || removed.length || recategorised.length || indexErrors.length) {
+  if (added.length || removed.length || recategorised.length || indexErrors.length || boardErrors.length) {
     console.error('\nThe published catalog no longer matches the curation data — run "node scripts/merge.mjs" and commit the result.');
     process.exit(1);
   }
   console.log(
-    `Catalog is in sync with the curation data — ${expected.size} repositories across ${pages.length} volumes${vanished.length ? `, ${vanished.length} awaiting review-queue cleanup` : ''}.`,
+    `Catalog and boards are in sync with the curation data — ${expected.size} repositories across ${pages.length} volumes${vanished.length ? `, ${vanished.length} awaiting review-queue cleanup` : ''}.`,
   );
   process.exit(0);
 }

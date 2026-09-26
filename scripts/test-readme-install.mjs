@@ -12,6 +12,7 @@ import {
   classify,
   extractInstallTargets,
   installRef,
+  isSelfTarget,
   npmBase,
 } from './readme-install.mjs';
 
@@ -258,4 +259,23 @@ test('argument values and plain package names survive without swallowing inline 
   assert.equal(pick('```sh\ndsh plugin add dsh-demo lodash react\n```').command, 'dsh plugin add dsh-demo lodash react');
   assert.equal(pick('Use `dsh plugin add dsh-demo` today').command, 'dsh plugin add dsh-demo');
   assert.equal(pick('dsh plugin add dsh-demo --tag'), undefined);
+});
+
+test('isSelfTarget matches whole names, never substrings', () => {
+  const t = (target) => ({ target, cls: classify(target) });
+  // Same owner, or the same repo name under a documented fork/org move.
+  assert.equal(isSelfTarget(t('github:Acme/anything'), 'acme', 'dsh-foo'), true);
+  assert.equal(isSelfTarget(t('github:other/dsh-foo#main'), 'acme', 'dsh-foo'), true);
+  // A different repo that merely contains the name is not a self-reference.
+  assert.equal(isSelfTarget(t('github:evil/dsh-foo-fork'), 'acme', 'dsh-foo'), false);
+  assert.equal(isSelfTarget(t('github:evil/my-dsh'), 'acme', 'dsh'), false);
+  // URLs: the owner/repo path, a whole path segment, or a release tarball.
+  assert.equal(isSelfTarget(t('git+https://github.com/Acme/dsh-foo.git'), 'acme', 'dsh-foo'), true);
+  assert.equal(isSelfTarget(t('https://cdn.example.net/dsh-foo/latest.tgz'), 'acme', 'dsh-foo'), true);
+  assert.equal(isSelfTarget(t('https://github.com/o/x/releases/download/v1/dsh-foo-1.2.0.tgz'), 'acme', 'dsh-foo'), true);
+  assert.equal(isSelfTarget(t('https://evil.example/dsh-foo-bar/pkg.tgz'), 'acme', 'dsh-foo'), false);
+  assert.equal(isSelfTarget(t('https://evil.example/plugin.tgz'), 'acme', 'plugin'), false);
+  // npm: the package base name (scope allowed).
+  assert.equal(isSelfTarget(t('@scope/dsh-foo@1.0.0'), 'acme', 'dsh-foo'), true);
+  assert.equal(isSelfTarget(t('dsh-foo-extra'), 'acme', 'dsh-foo'), false);
 });

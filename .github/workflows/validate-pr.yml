@@ -3,30 +3,45 @@ name: Validate pull request
 # Checks every PR against the submission rules:
 #  - the title must be proper UTF-8 text (garbled titles are rejected);
 #  - every changed path must belong to a known lane (hand-maintained pages,
-#    curation data, scripts/, .github/); generated pages only alongside
-#    scripts/ changes, daily-pipeline files never; maintainers may bypass
-#    with the `ci: allow-any-path` label (re-run after labeling);
+#    curation data, scripts/, .github/); catalog pages only alongside
+#    scripts/ or curation changes, feed files only alongside scripts/,
+#    daily-pipeline files never; maintainers may bypass with the
+#    `ci: allow-any-path` label (labeling re-runs this workflow);
 #  - any author-showcase repository the PR adds or rewrites must be public,
 #    carry the `dsh-plugin` topic, and have more than 10 stars.
 # Existing showcase entries are grandfathered: only lines the PR introduces
 # are checked (see scripts/validate-pr.mjs).
+#
+# pull_request_target, not pull_request: the workflow file and the script run
+# from the BASE branch, so a PR that edits scripts/validate-pr.mjs or this
+# file cannot switch off the gate that judges it (changes to the gate take
+# effect once merged). That trigger is safe here only because nothing from
+# the PR is checked out or executed — the script reads the PR through the
+# GitHub API, and untrusted text (the title) arrives via env, never via
+# ${{ }} interpolation into a shell line. Keep it that way.
 
 on:
-  pull_request:
+  pull_request_target:
+    types: [opened, synchronize, reopened, edited, labeled, unlabeled]
 
 permissions:
   contents: read
   pull-requests: read
 
 concurrency:
-  group: validate-pr-${{ github.ref }}
+  # github.ref is the base branch under pull_request_target — key on the PR.
+  group: validate-pr-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
   validate-pr:
     runs-on: ubuntu-latest
     steps:
+      # Base branch only (the pull_request_target default). Never add a
+      # `ref:` pointing at the PR head here.
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v7
         with:
           node-version: 22

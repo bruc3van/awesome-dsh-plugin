@@ -29,6 +29,7 @@
 import { appendFile, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { escapeCell } from './markdown.mjs';
 import { extractInstallTargets, npmBase } from './readme-install.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -153,7 +154,7 @@ async function summaryBlock(title, body) {
   await appendFile(process.env.GITHUB_STEP_SUMMARY, `### ${title}\n\n${body}\n\n`);
 }
 
-const mdEscape = (value) => String(value).replaceAll('|', '\\|').replaceAll('\n', ' ');
+const mdEscape = escapeCell;
 
 // ---------------------------------------------------------------------------
 // Pass 1: every mapped entry, feed or not.

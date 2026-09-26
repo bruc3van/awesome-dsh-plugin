@@ -6,22 +6,32 @@
 //    (U+FFFD) and no runs of "?" left behind by a failed encoding round-trip.
 //    Garbled titles are rejected outright.
 // 2. Every changed path must belong to a known lane. PRs may touch the
-//    hand-maintained pages, the curation data files, scripts/, .github/, and
-//    repo meta files; generated pages (CATALOG.md, catalog/, TOP200.md,
-//    MARKET.md, data/market.json) are accepted only alongside scripts/
-//    changes; the daily-pipeline files (data/repositories.json,
-//    data/review/pending.*) are never accepted. Anything else — e.g. a made-up
-//    data/plugins/*.yml submission — is rejected: no lane consumes it.
-//    Maintainers can bypass with the `ci: allow-any-path` label (re-run the
-//    workflow after labeling).
+//    hand-maintained pages, the curation data files (including the
+//    data/packages.json install mapping), scripts/, .github/, and repo meta
+//    files. Generated files come in two kinds:
+//      - catalog pages (CATALOG.md, catalog/, TOP200.md) are accepted
+//        alongside scripts/ changes OR curation changes (approved.json /
+//        curated.json) — a curation change that moves catalog membership must
+//        ship its regenerated pages, which validate-curated.yml enforces with
+//        `merge.mjs --check`;
+//      - feed files (data/market.json, MARKET.md, data/market-v2.json,
+//        data/review/packages-pending.md) are accepted only alongside
+//        scripts/ changes — on main they are rebuilt by refresh-market /
+//        refresh-market-v2 after the merge.
+//    The daily-pipeline files (data/repositories.json, data/review/pending.*)
+//    are never accepted. Anything else — e.g. a made-up data/plugins/*.yml
+//    submission — is rejected: no lane consumes it. Maintainers can bypass
+//    with the `ci: allow-any-path` label (the workflow re-runs on labeling).
 // 3. Every repository the PR ADDS to (or rewrites in) the author-showcase
 //    sections must be public, carry the `dsh-plugin` topic, and have MORE
 //    THAN 10 stars. Only lines the PR itself introduces (diff lines starting
 //    with `+`) are checked, so entries that predate this rule stay untouched.
 //
-// Runs in CI (.github/workflows/validate-pr.yml); PR_NUMBER and PR_TITLE are
-// provided by the workflow environment and the diff is fetched through the
-// GitHub API with GITHUB_TOKEN.
+// Runs in CI (.github/workflows/validate-pr.yml) on pull_request_target, so
+// this script always comes from the base branch — a PR cannot rewrite the
+// gate that judges it. It must therefore never execute or import anything
+// from the PR: PR_NUMBER and PR_TITLE come from the workflow environment and
+// everything else (diff, files, labels) is read through the GitHub API.
 
 import process from 'node:process';
 
@@ -74,17 +84,20 @@ if (prNumber) {
 }
 
 // --- 3. Changed paths must belong to a known lane ----------------------------
+const curationPaths = new Set(['data/approved.json', 'data/curated.json']);
 const handMaintainedPaths = new Set([
   'SHOWCASE.md', 'README.md', 'README_EN.md', 'CONTRIBUTING.md', 'LICENSE',
   '.gitattributes', '.gitignore',
-  'data/approved.json', 'data/curated.json', 'data/leaderboard-descriptions-zh.json',
+  ...curationPaths, 'data/leaderboard-descriptions-zh.json', 'data/packages.json',
   'data/review/README.md',
 ]);
 const touchesScripts = (path) => path === 'scripts' || path.startsWith('scripts/');
 const touchesWorkflow = (path) => path === '.github' || path.startsWith('.github/');
-const isGenerated = (path) =>
-  path === 'CATALOG.md' || path === 'TOP200.md' || path === 'MARKET.md' ||
-  path === 'data/market.json' || path === 'catalog' || path.startsWith('catalog/');
+const isCatalogPage = (path) =>
+  path === 'CATALOG.md' || path === 'TOP200.md' || path === 'catalog' || path.startsWith('catalog/');
+const isFeedFile = (path) =>
+  path === 'MARKET.md' || path === 'data/market.json' || path === 'data/market-v2.json' ||
+  path === 'data/review/packages-pending.md';
 const isPipeline = (path) =>
   path === 'data/repositories.json' ||
   path === 'data/review/pending.json' || path === 'data/review/pending.md';
@@ -133,23 +146,30 @@ if (prNumber) {
 
   if (!pathBypass) {
     const alsoChangesScripts = changedPaths.some(touchesScripts);
+    const alsoChangesCuration = changedPaths.some((path) => curationPaths.has(path));
     for (const path of changedPaths) {
       if (isPipeline(path)) {
         errors.push(
-          `${path}: refreshed daily by the update-catalog workflow — do not commit it in a PR`,
+          `${path}: refreshed daily by the update-catalog workflow — do not commit it in a PR ` +
+          '(scripts/merge.mjs rewrites it locally; restore it with `git checkout origin/main -- data/review`)',
         );
-      } else if (isGenerated(path) && !alsoChangesScripts) {
-        errors.push(
-          `${path}: generated file — include generated pages only in PRs that also change scripts/ (see CONTRIBUTING.md)`,
-        );
-      } else if (
-        !handMaintainedPaths.has(path) && !touchesScripts(path) &&
-        !touchesWorkflow(path) && !isGenerated(path)
-      ) {
+      } else if (isCatalogPage(path)) {
+        if (!alsoChangesScripts && !alsoChangesCuration) {
+          errors.push(
+            `${path}: generated catalog page — include it only in PRs that also change scripts/ or the curation data (see CONTRIBUTING.md)`,
+          );
+        }
+      } else if (isFeedFile(path)) {
+        if (!alsoChangesScripts) {
+          errors.push(
+            `${path}: generated feed file — rebuilt on main after merge; include it only in PRs that also change scripts/ (see CONTRIBUTING.md)`,
+          );
+        }
+      } else if (!handMaintainedPaths.has(path) && !touchesScripts(path) && !touchesWorkflow(path)) {
         errors.push(
           `${path}: not part of any submission lane — PRs may touch SHOWCASE.md, README.md / README_EN.md, ` +
-          'data/curated.json, data/approved.json, data/leaderboard-descriptions-zh.json, scripts/ or .github/ ' +
-          '(see CONTRIBUTING.md; maintainers may label `ci: allow-any-path` and re-run)',
+          'data/curated.json, data/approved.json, data/packages.json, data/leaderboard-descriptions-zh.json, scripts/ or .github/ ' +
+          '(see CONTRIBUTING.md; maintainers may label `ci: allow-any-path`)',
         );
       }
     }

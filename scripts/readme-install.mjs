@@ -227,14 +227,31 @@ export function targetsFrom(segments) {
 
 export const MAX_TARGETS = 3;
 
+// Does a target point at this very repository? Matching is by whole name,
+// never by substring: `includes(repoName)` let github:someone-else/<name>-fork
+// or any URL mentioning a short repo name ("dsh", "plugin") pass as a
+// self-reference and skip the one-package ambiguity guard below.
+export function isSelfTarget(f, ownerLower, repoName) {
+  const t = f.target.toLowerCase();
+  if (f.cls.kind === 'github') {
+    const [owner, rest = ''] = t.slice('github:'.length).split('/');
+    const name = rest.split('#')[0].replace(/\.git$/, '');
+    return owner === ownerLower || name === repoName;
+  }
+  if (f.cls.kind === 'url') {
+    const path = t.replace(/^(?:git\+)?https:\/\/[^/]+/, '').split(/[?#]/)[0];
+    const segments = path.split('/').filter(Boolean).map((segment) => segment.replace(/\.git$/, ''));
+    if (path.includes(`/${ownerLower}/${repoName}`)) return true;
+    // Release tarballs: …/<repo>-1.2.3.tgz
+    const file = segments.at(-1) ?? '';
+    return segments.includes(repoName) || new RegExp(`^${repoName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}-v?\\d`).test(file);
+  }
+  const base = npmBase(t);
+  return base === repoName || base.endsWith(`/${repoName}`);
+}
+
 export function pick(found, ownerLower, repoName, maxTargets = MAX_TARGETS) {
-  const self = found.filter((f) => {
-    const t = f.target.toLowerCase();
-    if (f.cls.kind === 'github') return t.startsWith(`github:${ownerLower}/`) || t.includes(repoName);
-    if (f.cls.kind === 'url') return t.includes(`${ownerLower}/${repoName}`) || t.includes(repoName);
-    const base = npmBase(t);
-    return base === repoName || base.endsWith(`/${repoName}`);
-  });
+  const self = found.filter((f) => isSelfTarget(f, ownerLower, repoName));
   let chosen = self;
   if (chosen.length === 0) {
     // No self-reference: adopt the README's install target only when the
@@ -275,6 +292,31 @@ export function installRef(source) {
   if (source.startsWith('npm:')) return source.slice(4);
   if (source.startsWith('github:')) return `https://github.com/${source.slice(7)}`;
   return source.startsWith('url:') ? source.slice(4) : source;
+}
+
+// A recorded command is shown to users as "copy this into your terminal", so
+// its shape is whitelisted rather than trusted: outside quotes only the
+// characters package names, refs, paths, flags and KEY=value prefixes use;
+// inside a quoted token additionally `&` (github:owner/repo#ref&path:…
+// selectors). Anything a shell would act on — ; | & $ ` ( ) < > \\ ! { } —
+// outside that, embedded newlines, or an unterminated quote is refused, so a
+// data edit can never smuggle `dsh plugin add x; curl … | sh` into the feed.
+const COMMAND_UNQUOTED = /[A-Za-z0-9@/:._=+~#%,-]/;
+const COMMAND_QUOTED = /[A-Za-z0-9@/:._=+~#%,&-]/;
+export function isPasteSafeCommand(command) {
+  if (typeof command !== 'string' || command.trim() === '') return false;
+  let quote = null;
+  for (const ch of command) {
+    if (quote) {
+      if (ch === quote) quote = null;
+      else if (!COMMAND_QUOTED.test(ch)) return false;
+    } else if (ch === '"' || ch === "'") {
+      quote = ch;
+    } else if (ch !== ' ' && !COMMAND_UNQUOTED.test(ch)) {
+      return false;
+    }
+  }
+  return quote === null;
 }
 
 // The one-stop helper: everything a caller needs from one README.
