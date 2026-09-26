@@ -1,0 +1,48 @@
+name: Publish the feed to npm (mirrored by npmmirror)
+
+# China-reachable distribution: registry.npmmirror.com mirrors
+# registry.npmjs.org, and raw.githubusercontent.com is unreliable from inside
+# the GFW — so the market feeds (v1, v2, packages mapping) ship as the
+# awesome-dsh-plugin-feed npm package. Consumers fetch
+# https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-v2.json
+#
+# Runs after every feed-publishing data commit (the two feed workflows) and
+# can be triggered manually. The publish script's feedDigest gate makes this
+# idempotent: same data = no-op without burning a version. Publishing needs
+# the NPM_TOKEN secret (npmjs.org account of the package owner); without it
+# every genuinely-new snapshot fails loudly at this step until the secret is
+# set.
+
+on:
+  workflow_run:
+    workflows:
+      - 'Refresh snapshot, review queue, and market file'
+      - 'Refresh the downstream market file'
+      - 'Refresh the v2 market feed'
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: npm-feed-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          registry-url: 'https://registry.npmjs.org'
+      # The script itself decides whether anything needs publishing: same
+      # feedDigest as the registry's latest version → "nothing to do", exit 0.
+      - name: Build and publish the feed package
+        run: node scripts/publish-npm-feed.mjs --publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
