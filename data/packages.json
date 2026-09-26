@@ -60,19 +60,6 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
-    "1052326311/dsh-plan-lattice": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "command.",
-          "source": "npm:command.",
-          "command": "dsh plugin --profile web add command."
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
     "1149784810/jayhe-dsh-gamemaker": {
       "packages": [
         {
@@ -316,19 +303,6 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
-    "across2005/harness-self-evolution-plugin": {
-      "packages": [
-        {
-          "profile": "default",
-          "install": "writes",
-          "source": "npm:writes",
-          "command": "dsh plugin add writes"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
     "adwmc/helm-d": {
       "packages": [
         {
@@ -418,12 +392,6 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-godot-skill",
-          "source": "npm:dsh-godot-skill",
-          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-godot-skill"
-        },
-        {
-          "profile": "web",
           "install": "git+https://github.com/akira399/dsh-godot-skill.git",
           "source": "url:git+https://github.com/akira399/dsh-godot-skill.git",
           "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add git+https://github.com/akira399/dsh-godot-skill.git"
@@ -437,7 +405,8 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "note": "README 提到的 npm 包 dsh-godot-skill 未发布（2026-09-26 核验），可用 git+https 或 github 渠道。"
     },
     "aks1st/dsh-cyber-particle": {
       "packages": [
@@ -878,17 +847,12 @@
       "verified_via": "README@main"
     },
     "bobleer/dsh-acp-for-bitfun": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-acp-for-bitfun",
-          "source": "npm:dsh-acp-for-bitfun",
-          "command": "dsh plugin --profile web add dsh-acp-for-bitfun"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 写明的安装命令为「dsh plugin --profile web add dsh-acp-for-bitfun」，但 npm registry 上无此包（2026-09-26 核验）——可尝试用仓库地址 https://github.com/bobleer/dsh-acp-for-bitfun 安装，或与作者确认发布计划。",
+      "install_mode": "manual"
     },
     "bowenliang123/dsh-context": {
       "packages": [
@@ -955,17 +919,12 @@
       "verified_via": "README@main"
     },
     "buhuikongpan/dsh-win-gitbash": {
-      "packages": [
-        {
-          "profile": "default",
-          "install": "dsh-tool-gitbash",
-          "source": "npm:dsh-tool-gitbash",
-          "command": "dsh plugin add dsh-tool-gitbash"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 写明的安装命令为「dsh plugin add dsh-tool-gitbash」，但 npm registry 上无此包（2026-09-26 核验）——可尝试用仓库地址 https://github.com/buhuikongpan/dsh-win-gitbash 安装，或与作者确认发布计划。（注意包名 dsh-tool-gitbash 与仓库名不一致，registry 上也不存在）",
+      "install_mode": "manual"
     },
     "builtin-pb/dsh-developer": {
       "packages": [
@@ -1064,18 +1023,12 @@
         },
         {
           "profile": "web",
-          "install": "@cerbur/clutch-dsh-discuss",
-          "source": "npm:@cerbur/clutch-dsh-discuss",
-          "command": "dsh plugin --profile web add @cerbur/clutch-dsh-discuss"
-        },
-        {
-          "profile": "web",
           "install": "@cerbur/clutch-dsh-title",
           "source": "npm:@cerbur/clutch-dsh-title",
           "command": "dsh plugin --profile web add @cerbur/clutch-dsh-title"
         }
       ],
-      "note": "套件仓库（monorepo），无聚合包；四个子插件按需单独安装。",
+      "note": "套件仓库（monorepo），无聚合包；三个已发布子插件按需单独安装（README 另列的 @cerbur/clutch-dsh-discuss 未上 npm，2026-09-26 核验）。",
       "verified_via": "README@main"
     },
     "chaos-03x/dsh-agy": {
@@ -1146,17 +1099,12 @@
       "install_mode": "manual"
     },
     "cirelir/dsh-change-review": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-change-review",
-          "source": "npm:dsh-change-review",
-          "command": "dsh plugin --profile web add dsh-change-review"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 写明的安装命令为「dsh plugin --profile web add dsh-change-review」，但 npm registry 上无此包（2026-09-26 核验）——可尝试用仓库地址 https://github.com/cirelir/dsh-change-review 安装，或与作者确认发布计划。",
+      "install_mode": "manual"
     },
     "civitasv/dsh-plugin-diff-review": {
       "packages": [
@@ -1313,17 +1261,12 @@
       "verified_via": "README@main"
     },
     "cyphernaught-0x/dsh-subagent-model-router": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-subagent-model-router",
-          "source": "npm:dsh-subagent-model-router",
-          "command": "dsh plugin --profile web add dsh-subagent-model-router"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 写明的安装命令为「dsh plugin --profile web add dsh-subagent-model-router」，但 npm registry 上无此包（2026-09-26 核验）——可尝试用仓库地址 https://github.com/cyphernaught-0x/dsh-subagent-model-router 安装，或与作者确认发布计划。",
+      "install_mode": "manual"
     },
     "d-dev0101/open-sea-skin": {
       "packages": [
@@ -2279,21 +2222,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "https://example.com/dsh-liang-slider-0.1.0.tgz",
-          "source": "url:https://example.com/dsh-liang-slider-0.1.0.tgz",
-          "command": "dsh plugin --profile web add https://example.com/dsh-liang-slider-0.1.0.tgz"
-        },
-        {
-          "profile": "web",
           "install": "https://github.com/HansLin911/dsh-liang-slider/releases/download/v0.1.0/dsh-liang-slider-0.1.0.tgz",
           "source": "url:https://github.com/HansLin911/dsh-liang-slider/releases/download/v0.1.0/dsh-liang-slider-0.1.0.tgz",
           "command": "dsh plugin --profile web add https://github.com/HansLin911/dsh-liang-slider/releases/download/v0.1.0/dsh-liang-slider-0.1.0.tgz"
-        },
-        {
-          "profile": "web",
-          "install": "dsh-liang-slider",
-          "source": "npm:dsh-liang-slider",
-          "command": "dsh plugin --profile web add dsh-liang-slider"
         }
       ],
       "status": "readme-verified",
@@ -2510,17 +2441,12 @@
       "verified_via": "README@master"
     },
     "hr2ay/dsh-plan-graph": {
-      "packages": [
-        {
-          "profile": "demo",
-          "install": "dsh-plan-graph",
-          "source": "npm:dsh-plan-graph",
-          "command": "dsh plugin --profile demo add dsh-plan-graph"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 写明的安装命令为「dsh plugin --profile demo add dsh-plan-graph」，但 npm registry 上无此包（2026-09-26 核验）——可尝试用仓库地址 https://github.com/hr2ay/dsh-plan-graph 安装，或与作者确认发布计划。",
+      "install_mode": "manual"
     },
     "hr98w/dsh-memory": {
       "packages": [
@@ -2776,17 +2702,12 @@
       "verified_via": "README@master"
     },
     "jesse-njx/dsh-skillport": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "@dsh-skillport/bundle",
-          "source": "npm:@dsh-skillport/bundle",
-          "command": "dsh plugin --profile web add @dsh-skillport/bundle"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 写明的安装命令为「dsh plugin --profile web add @dsh-skillport/bundle」，但 npm registry 上无此包（2026-09-26 核验）——可尝试用仓库地址 https://github.com/jesse-njx/dsh-skillport 安装，或与作者确认发布计划。",
+      "install_mode": "manual"
     },
     "jiazz197-cmyk/omd-dsh": {
       "packages": [
@@ -3610,12 +3531,6 @@
           "install": "@mars-sea/dsh-commandcode-provider@latest",
           "source": "npm:@mars-sea/dsh-commandcode-provider@latest",
           "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider@latest"
-        },
-        {
-          "profile": "dsh-tui",
-          "install": "@mars-sea/dsh-commandcode-provider@0.11.15",
-          "source": "npm:@mars-sea/dsh-commandcode-provider@0.11.15",
-          "command": "dsh plugin --profile dsh-tui add @mars-sea/dsh-commandcode-provider@0.11.15"
         }
       ],
       "status": "readme-verified",
@@ -4115,17 +4030,12 @@
       "verified_via": "README@main"
     },
     "nwflower/dsh-weneed": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-weneed",
-          "source": "npm:dsh-weneed",
-          "command": "dsh plugin --profile web add dsh-weneed"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@main"
+      "verified_via": "README@main",
+      "manual_instructions": "README 写明的安装命令为「dsh plugin --profile web add dsh-weneed」，但 npm registry 上无此包（2026-09-26 核验）——可尝试用仓库地址 https://github.com/nwflower/dsh-weneed 安装，或与作者确认发布计划。",
+      "install_mode": "manual"
     },
     "oil-oil/dsh-oil-creator": {
       "packages": [
@@ -5014,17 +4924,12 @@
       "verified_via": "README@main"
     },
     "plolpl789/dsh-raw-html-v2": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-raw-html-v2-0.7.28.tgz",
-          "source": "npm:dsh-raw-html-v2-0.7.28.tgz",
-          "command": "dsh plugin --profile web add dsh-raw-html-v2-0.7.28.tgz"
-        }
-      ],
+      "packages": [],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
-      "verified_via": "README@master"
+      "verified_via": "README@master",
+      "manual_instructions": "README 的安装方式是先从 Releases 下载 dsh-raw-html-v2-0.7.28.tgz，再本地执行 dsh plugin --profile web add dsh-raw-html-v2-0.7.28.tgz（tgz 不是 npm 包名，registry 上无对应包）。",
+      "install_mode": "manual"
     },
     "poiuyjie/dsh-vision-opencode": {
       "packages": [
@@ -5896,12 +5801,6 @@
           "install": "https://github.com/Tasihi89/dsh-talk-map",
           "source": "github:Tasihi89/dsh-talk-map",
           "command": "dsh plugin --profile web add github:Tasihi89/dsh-talk-map"
-        },
-        {
-          "profile": "web",
-          "install": "dsh-talk-map",
-          "source": "npm:dsh-talk-map",
-          "command": "dsh plugin --profile web add dsh-talk-map"
         }
       ],
       "status": "readme-verified",

@@ -10,10 +10,14 @@
 //     - a recorded install target is no longer documented upstream
 //     - a recorded target is documented with a different command (version
 //       bump, new flag, renamed source)
+//     - a recorded npm package does not exist on the registry, or its pinned
+//       version/dist-tag was never published — "paste it into the box" dies
+//       with a 404, so phantom packages are drift, not noise (2026-09-26
+//       audit: 14 of 384 npm targets were documented-but-never-published)
 //   WARNING (summary only)
 //     - upstream documents extra targets we don't record yet
 //     - an unmapped feed entry has become extractable (new install docs)
-//     - a README could not be fetched (network, renamed, gone)
+//     - a README could not be fetched, or the registry lookup errored (network)
 //
 // Report-only by design: packages.json is hand-maintained and never rewritten
 // by scripts — this output is a review queue, the same philosophy as
@@ -158,7 +162,54 @@ const workers = Array.from({ length: CONCURRENCY }, async () => {
 await Promise.all(workers);
 
 // ---------------------------------------------------------------------------
-// Pass 2: unmapped feed entries — the coverage work list.
+// Pass 2: registry verification — every recorded npm target must exist. A
+// pinned semver must be a published version; a non-semver pin (@next,
+// @latest, …) must be a dist-tag. Registry/network errors are warnings, not
+// drift — they say nothing about the data.
+const registryProblems = [];
+const npmQueue = [];
+for (const [slug, record] of Object.entries(packages.entries)) {
+  for (const pkg of record.packages ?? []) {
+    if (typeof pkg.source === 'string' && pkg.source.startsWith('npm:')) npmQueue.push({ slug, spec: pkg.source.slice(4) });
+  }
+}
+const SEMVER = /^\d+\.\d+\.\d+(-[\w.-]+)?(\+[\w.-]+)?$/;
+const registryWorkers = Array.from({ length: CONCURRENCY }, async () => {
+  while (npmQueue.length) {
+    const { slug, spec } = npmQueue.shift();
+    const at = spec.lastIndexOf('@');
+    const name = at > 0 ? spec.slice(0, at) : spec;
+    const pin = at > 0 ? spec.slice(at + 1) : null;
+    const encoded = name.startsWith('@') ? `/@${encodeURIComponent(name.slice(1))}` : `/${encodeURIComponent(name)}`;
+    try {
+      const res = await fetch(`https://registry.npmjs.org${encoded}`, {
+        headers: { Accept: 'application/vnd.npm.install-v1+json' },
+        signal: AbortSignal.timeout(20000),
+      });
+      if (res.status === 404) {
+        registryProblems.push(`${slug}: npm package ${spec} does not exist on the registry — drop the target or switch the entry to manual`);
+        continue;
+      }
+      if (!res.ok) {
+        notes.push(`${slug}: registry lookup for ${spec} returned HTTP ${res.status} — retry next run`);
+        continue;
+      }
+      if (pin === null) continue;
+      const doc = await res.json();
+      const resolved = SEMVER.test(pin) ? doc.versions?.[pin] : doc['dist-tags']?.[pin];
+      if (!resolved) {
+        registryProblems.push(`${slug}: ${spec} pins a ${SEMVER.test(pin) ? 'version' : 'dist-tag'} ("${pin}") that was never published — update or drop the pin`);
+      }
+    } catch (error) {
+      notes.push(`${slug}: registry lookup for ${spec} failed (${error.message}) — retry next run`);
+    }
+  }
+});
+await Promise.all(registryWorkers);
+problems.push(...registryProblems);
+
+// ---------------------------------------------------------------------------
+// Pass 3: unmapped feed entries — the coverage work list.
 const gaps = [];
 const pendingBuckets = { ambiguous: [], localOnly: [], noCommand: [] };
 const pendingQueue = market.entries

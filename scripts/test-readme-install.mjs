@@ -66,6 +66,8 @@ test('classify separates github / url / npm / local and rejects placeholders', (
   assert.deepEqual(classify('./local'), { kind: 'local' });
   assert.deepEqual(classify('link:../repo'), { kind: 'local' });
   assert.deepEqual(classify('D:\\path\\repo'), { kind: 'local' });
+  assert.deepEqual(classify('dsh-raw-html-v2-0.7.28.tgz'), { kind: 'local' });
+  assert.deepEqual(classify('https://example.com/pkg-0.1.0.tgz'), { kind: 'other' });
   assert.deepEqual(classify('${VAR}'), { kind: 'other' });
 });
 

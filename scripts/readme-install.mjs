@@ -111,7 +111,11 @@ export function classify(target) {
     if (PLACEHOLDER_OWNERS.has(owner)) return { kind: 'other' };
     return { kind: 'github', source: `github:${t.slice(7)}` };
   }
-  if (/^(?:git\+)?https:\/\/\S+$/.test(t)) return { kind: 'url', source: `url:${t}` };
+  if (/^(?:git\+)?https:\/\/\S+$/.test(t)) {
+    // Documentation placeholders, never a real download host.
+    if (/^https:\/\/example\.(com|org)\//i.test(t)) return { kind: 'other' };
+    return { kind: 'url', source: `url:${t}` };
+  }
   if (
     /^(?:file|link):/i.test(t) ||
     t === '.' ||
@@ -119,7 +123,8 @@ export function classify(target) {
     t.startsWith('.\\') ||
     t.startsWith('/') ||
     t.startsWith('~') ||
-    /^[A-Za-z]:[\\/]/.test(t)
+    /^[A-Za-z]:[\\/]/.test(t) ||
+    /\.(?:tgz|tar\.gz)$/i.test(t) // a bare tarball filename is a local file install, not an npm name
   ) {
     return { kind: 'local' };
   }
