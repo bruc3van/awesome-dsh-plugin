@@ -1,0 +1,93 @@
+name: Refresh the v2 market feed
+
+# data/market-v2.json is the schema-v2 superset of the published v1 feed:
+# same entries, same order, with the hand-maintained install mapping
+# (data/packages.json) joined onto every covered entry as a `packages`
+# block. It must be rebuilt whenever either source moves:
+#   - the daily update-catalog.yml (new snapshot → new v1 feed) and
+#     refresh-market.yml (curation change → new v1 feed), hooked via
+#     workflow_run on their successful completion;
+#   - a direct push touching data/packages.json or the generator itself.
+# The v1 feed and its pipeline are untouched — this workflow only ever
+# writes data/market-v2.json, so its own commits cannot re-trigger it.
+#
+# The commit joins the shared main-data-push concurrency group: every
+# workflow in it pushes generated data to main, and two of them at once
+# produce a non-fast-forward push for whichever finishes second.
+
+on:
+  workflow_run:
+    workflows:
+      - 'Refresh snapshot, review queue, and market file'
+      - 'Refresh the downstream market file'
+    types:
+      - completed
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/packages.json'
+      - 'scripts/market-v2.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: main-data-push
+  cancel-in-progress: false
+
+jobs:
+  market-v2:
+    # workflow_run fires on every completion of the two upstream workflows,
+    # failed ones included — only rebuild on top of a feed they actually
+    # published.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Validate the packages mapping
+        run: node scripts/validate-packages.mjs
+      - name: Rebuild data/market-v2.json
+        run: node scripts/market-v2.mjs
+      - name: Validate data/market-v2.json
+        run: node scripts/validate-market-v2.mjs
+      - name: Run the market-v2 pipeline tests
+        run: node --test scripts/test-market-v2.mjs
+      - name: Commit the refreshed v2 feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/market-v2.json
+          if git diff --cached --quiet; then
+            # The expected outcome whenever the trigger did not move the
+            # payload: a packages.json edit for a repo outside the published
+            # feed, an upstream run that kept v1 bit-for-bit, or a re-run of
+            # this workflow after the real change already landed. Same v1
+            # feed + same mapping = same file, generated_at included.
+            echo "market-v2.json is already current — this change does not affect the published v2 feed."
+            exit 0
+          fi
+          git commit -m "data: rebuild market-v2.json (v1 feed + packages mapping)"
+          # Same retry as update-catalog.yml / refresh-market.yml: the
+          # concurrency group keeps the data workflows apart, but a
+          # maintainer's push can still land between checkout and here.
+          # Rebase onto the new tip and retry; fail loudly on a conflict
+          # rather than letting CI guess at a merge of generated files.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto origin/main."
+            git fetch --deepen=50 origin main || git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "Rebase onto origin/main conflicted — re-run this workflow."
+              exit 1
+            fi
+          done
+          echo "Push still rejected after 3 attempts."
+          exit 1
