@@ -1,3 +1,4 @@
 .DS_Store
 .mimosa/
-.output/dist-npm/
+.output/
+dist-npm/
