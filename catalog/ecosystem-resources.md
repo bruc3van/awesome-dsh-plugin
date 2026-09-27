@@ -4,9 +4,9 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **390**
+- 本册收录 / Entries in this volume: **394**
 - 快照日期 / Snapshot date: **2026-09-26 UTC**
-- 最近人工复核 / Last review merge: **2026-09-26**
+- 最近人工复核 / Last review merge: **2026-09-27**
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |
@@ -158,6 +158,7 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 | [says693/dsh-composer-dynamic-island](https://github.com/says693/dsh-composer-dynamic-island) | Compact DSH Web composer island with a Community v0.15 host manifest and no user-defined button positioning. | JavaScript | 2 | MIT | 2026-09-06 |
 | [Shmilyol/dsh-hiyori-web-ui](https://github.com/Shmilyol/dsh-hiyori-web-ui) | 为 DeepSeek Harness 提供桃濑日和的动态插件 | JavaScript | 2 | — | 2026-09-07 |
 | [solknight48/dsh-memoryhub](https://github.com/solknight48/dsh-memoryhub) | MemoryHub (mh) plugin for DeepSeek Harness (dsh): auto-loads checkpoint memory on session start, adds mh_* tools and the mh skill, and a Memory tab in the web UI | TypeScript | 2 | MIT | 2026-08-25 |
+| [songoao25/dsh-chatgpt-sub](https://github.com/songoao25/dsh-chatgpt-sub) | ChatGPT Subscription - a DeepSeek Harness plugin: bind your ChatGPT account via official OAuth and chat with ChatGPT models inside DSH, using your Plus/Pro subscription quota | JavaScript | 2 | MIT | 2026-09-26 |
 | [stvlynn/dsh.fish](https://github.com/stvlynn/dsh.fish) | Discover and install DeepSeek Harness plugins, skills, MCP servers, agent presets, bundles, and profiles. | HTML | 2 | MIT | 2026-09-23 |
 | [thirsty5034/dsh-ssh-tunnel](https://github.com/thirsty5034/dsh-ssh-tunnel) | DSH community plugin: multi-host SSH tunnel + SSHManager (better-sidebar) | JavaScript | 2 | MIT | 2026-09-18 |
 | [TrueHOOHA/dsh-plugin-dev-skill](https://github.com/TrueHOOHA/dsh-plugin-dev-skill) | AI Skill for developing DeepSeek Harness (dsh) plugins — Cordis-based agent framework. 辅助开发 dsh 插件的 AI 技能，覆盖 tool、service、LLM adapter、event listener 等能力的创建与发布。 | — | 2 | Apache-2.0 | 2026-08-17 |
@@ -267,6 +268,7 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 | [acosmi/dsh-session-supervisor](https://github.com/acosmi/dsh-session-supervisor) | Durable, bounded lifecycle supervisor with scheduled evaluation for live DeepSeek Harness sessions (community plugin) | TypeScript | 0 | MIT | 2026-08-14 |
 | [Aetheri-AI/dsh-plugins](https://github.com/Aetheri-AI/dsh-plugins) | Community plugins for DeepSeek Harness (dsh) | TypeScript | 0 | MIT | 2026-08-29 |
 | [Amengclass/dsh-settings-hub](https://github.com/Amengclass/dsh-settings-hub) | dsh plugin: take over settings shell, regroup third-party plugins under one collapsible group | JavaScript | 0 | MIT | 2026-09-10 |
+| [ArthurZhou/dsh-plugin-model-hub](https://github.com/ArthurZhou/dsh-plugin-model-hub) | A DeepSeek Harness web plugin that adds a Model Hub settings page for configuring | JavaScript | 0 | — | 2026-09-26 |
 | [Au1314/dsh-style-hub](https://github.com/Au1314/dsh-style-hub) | deepseek harness主题插件 | TypeScript | 0 | MIT | 2026-09-26 |
 | [baihejiangnan/dsh-plugin-dev](https://github.com/baihejiangnan/dsh-plugin-dev) | Local development dashboard for DeepSeek Harness plugins with explicit project registration and safety-confirmed GitHub workflows. | JavaScript | 0 | MIT | 2026-08-16 |
 | [bigstyle777/dshp](https://github.com/bigstyle777/dshp) | 🛠️ Scaffold, verify &amp; ship DeepSeek Harness plugins — Windows-safe paths, version-family pinning, boot-free verify. npx dshp-cli create my-plugin | TypeScript | 0 | MIT | 2026-08-18 |
@@ -285,6 +287,7 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 | [dsh-io/dsh-dev](https://github.com/dsh-io/dsh-dev) | Toolchain CLI for DeepSeek Harness (dsh) plugin authors: scaffold, dev, check and publish plugins with hot reload | TypeScript | 0 | MIT | 2026-08-17 |
 | [dshplugin-app/dsh-plugin-registry](https://github.com/dshplugin-app/dsh-plugin-registry) | Discover and compare DeepSeek Harness plugins directly inside DSH. | TypeScript | 0 | MIT | 2026-09-12 |
 | [dujar/dsh-community-plugins](https://github.com/dujar/dsh-community-plugins) | DeepSeek Harness web-GUI plugin: discover and install community plugins from the dsh-plugin topic — searchable SQLite catalog, fork browser, local-plugin installs | JavaScript | 0 | MIT | 2026-08-25 |
+| [eighteentang/dsh-plugin-dev-tools](https://github.com/eighteentang/dsh-plugin-dev-tools) | DSH 开发工具箱：界面元素定位（Alt+悬浮）、随插件分发的开发经验库、开发模式自检清单注入 | JavaScript | 0 | MIT | 2026-09-26 |
 | [elonnzhang/dsh-plugin-template](https://github.com/elonnzhang/dsh-plugin-template) | DeepSeek Harness (dsh) 插件开发模版：最小化模版 + 全能力模版，含构建方式与加载到 dsh 的完整路径 | TypeScript | 0 | MIT | 2026-08-23 |
 | [Fabian-698/dsh-plugin-dev](https://github.com/Fabian-698/dsh-plugin-dev) | DeepSeek Harness (DSH) plugin development agent skill: 6 form typology, verify-plugin.mjs P1-P13 gate, scaffold generator, security discipline, and curated ecosystem backfills. An Agent Skill (SKILL.md), not an npm bundle. | JavaScript | 0 | MIT | 2026-08-25 |
 | [ffyfox/dsh-zcode-project-memory](https://github.com/ffyfox/dsh-zcode-project-memory) | ZCode 项目记忆的 DeepSeek Harness 非官方社区移植：项目级长效记忆插件。Unofficial community port of ZCode's project memory to DeepSeek Harness: project-scoped long-term memory plugin | JavaScript | 0 | MIT | 2026-09-23 |
@@ -304,6 +307,7 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 | [hardcandydemoralisation573/dsh-xiaoyao-skins](https://github.com/hardcandydemoralisation573/dsh-xiaoyao-skins) | 为 DeepSeek Harness Web 提供可安装、可卸载、可测试的社区皮肤合集，不替换核心系统，支持即刻预览。 | — | 0 | — | 2026-09-26 |
 | [Harzva/harness-flow-hub](https://github.com/Harzva/harness-flow-hub) | DSH Flow and plugin hub for DeepSeek Harness Agent Stacks | JavaScript | 0 | — | 2026-09-12 |
 | [hskelp9527-pixel/dsh-skill-hub](https://github.com/hskelp9527-pixel/dsh-skill-hub) | Cross-agent skill hub for DeepSeek Harness (DSH) Web: scans every local coding agent's skills (Claude Code, Codex, OpenCode, Qwen, iFlow, Trae...), merges multi-agent duplicates into one card, filters by agent, loads into the global DSH library. | JavaScript | 0 | MIT | 2026-08-16 |
+| [HuaimaoCy/dsh-agent-hub](https://github.com/HuaimaoCy/dsh-agent-hub) | DSH plugin: run several agents on different models at once, with a shared real-time progress board. | JavaScript | 0 | — | 2026-09-26 |
 | [HUSTforever/dsh-status-hub](https://github.com/HUSTforever/dsh-status-hub) | Bilingual DeepSeek Harness status hub for sessions, MCP, skills, plugins, and connection health | TypeScript | 0 | MIT | 2026-09-03 |
 | [IKEASven69/dsh-intelhub](https://github.com/IKEASven69/dsh-intelhub) | 个人情报站:刷到的信息自动沉淀为可检索知识库——语义+关键词混合检索带出处,Obsidian 反哺,零守护进程零 API key \| IntelHub: the first zvec-native personal intel station for DeepSeek Harness | JavaScript | 0 | MIT | 2026-09-08 |
 | [jasonguide/dsh-skills-hub](https://github.com/jasonguide/dsh-skills-hub) | 一个多 Agent 平台的 Skills 统一管理插件（DeepSeek Harness 插件），可以在DSH中统一管理codex、claude code、PI、OpenCode、Hermes、Openclaw等平台的Skills技能 | JavaScript | 0 | MIT | 2026-08-29 |

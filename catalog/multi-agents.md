@@ -4,9 +4,9 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **228**
+- 本册收录 / Entries in this volume: **230**
 - 快照日期 / Snapshot date: **2026-09-26 UTC**
-- 最近人工复核 / Last review merge: **2026-09-26**
+- 最近人工复核 / Last review merge: **2026-09-27**
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |
@@ -166,6 +166,7 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 | [ErrorLst/dsh-code-pipeline](https://github.com/ErrorLst/dsh-code-pipeline) | DSH bundle plugin: 为 code-pipeline 预设（PTC 流水线）动态注入阶段子代理工具（subagent_plan / subagent_impl / subagent_review），各阶段 provider/model/思考等级可在设置页实时配置 | JavaScript | 0 | MIT | 2026-09-23 |
 | [esonx/dsh-project-j4agent](https://github.com/esonx/dsh-project-j4agent) | Agent-native Software Development Lifecycle Management for DeepSeek Harness | JavaScript | 0 | Apache-2.0 | 2026-09-12 |
 | [esonx/dsh-workforce](https://github.com/esonx/dsh-workforce) | Project-scoped organization and long-lived AI workforce layer for DeepSeek Harness | JavaScript | 0 | Apache-2.0 | 2026-08-26 |
+| [fan56/dsh-approval-policy](https://github.com/fan56/dsh-approval-policy) | dsh plugin: unattended approval gate — bounded answer window for subagent/scheduled/cron approvals, fail-closed default instead of hanging (per origin or per session) | JavaScript | 0 | MIT | 2026-09-25 |
 | [fentz26/dsh-goodjob](https://github.com/fentz26/dsh-goodjob) | Multi-agent operations workspace for DeepSeek Harness. | TypeScript | 0 | MIT | 2026-08-27 |
 | [Fishsb/dsh-plugin-roundtable](https://github.com/Fishsb/dsh-plugin-roundtable) | 圆桌会议 RoundTable — DeepSeek Harness (DSH) 插件：把一次会话变成可视化、可辩论、可拍板的专家圆桌会议；含三种协作模式、调度面、红队评审与 28 席专家团 \| 需 DSH 0.1.5-rc.1+ · MIT License | TypeScript | 0 | MIT | 2026-09-26 |
 | [FriendsHL/dsh-agent-evolution](https://github.com/FriendsHL/dsh-agent-evolution) | Preset-composed Agent experiments and evolution primitives for DeepSeek Harness | JavaScript | 0 | MIT | 2026-08-26 |
@@ -238,6 +239,7 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 | [zeta987/dsh-roles-zeta](https://github.com/zeta987/dsh-roles-zeta) | Role-based subagent delegation for DeepSeek Harness: one delegate tool over a folder of role files | JavaScript | 0 | MIT | 2026-09-17 |
 | [zhaoyilun/dsh-preset-flash-director](https://github.com/zhaoyilun/dsh-preset-flash-director) | Flash 主控 · Pro 专家 — DeepSeek Harness agent preset: flash orchestrator + pro (deepseek-v4-pro) expert subagents with enforced delegation budget. 省 token 的 flash 主控 + pro 专家模式预设。 | JavaScript | 0 | MIT | 2026-09-09 |
 | [zhuchuovo/dsh-swarm-orchestrator](https://github.com/zhuchuovo/dsh-swarm-orchestrator) | DSH 插件：并行子代理集群 —— 母代理把目标拆成切片，并发驱动多个独立子代理写代码，输入框上方实时显示每个子代理此刻在做什么，并发数与各切片模型可在设置页配置。 | JavaScript | 0 | MIT | 2026-09-19 |
+| [Zioove/gpt-6-astra-dsh-preset](https://github.com/Zioove/gpt-6-astra-dsh-preset) | DeepSeek Harness (dsh) agent preset + bundle plugin: the GPT-6 / Codex Astra persona on dsh standard toolset, with a preset-local reference skill and a slim spawned-subagent persona | JavaScript | 0 | NOASSERTION | 2026-09-26 |
 
 ## 其他分册 / Other volumes
 

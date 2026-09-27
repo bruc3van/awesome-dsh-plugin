@@ -4,9 +4,9 @@ DSH 插件全量目录的「开发者工具」分册 / The "Developer Tools" vol
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **635**
+- 本册收录 / Entries in this volume: **637**
 - 快照日期 / Snapshot date: **2026-09-26 UTC**
-- 最近人工复核 / Last review merge: **2026-09-26**
+- 最近人工复核 / Last review merge: **2026-09-27**
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |
@@ -472,6 +472,7 @@ DSH 插件全量目录的「开发者工具」分册 / The "Developer Tools" vol
 | [jwilson411/dsh-mutation-receipt](https://github.com/jwilson411/dsh-mutation-receipt) | DeepSeek Harness plugin: append-only JSONL of filesystem touches (path, op, sha256 before/after) with no file contents | JavaScript | 0 | MIT | 2026-09-01 |
 | [jwilson411/dsh-spend-receipt](https://github.com/jwilson411/dsh-spend-receipt) | A cache-aware JSONL cost receipt plugin for DeepSeek Harness. | JavaScript | 0 | MIT | 2026-09-01 |
 | [kaixinbaba/dsh-git-workbench](https://github.com/kaixinbaba/dsh-git-workbench) | DSH git development workbench: branch/worktree environment picker, git context injection, /git commands, worktree manager, merge &amp; cleanup policy | JavaScript | 0 | MIT | 2026-08-20 |
+| [kangtsang/dsh-worktree-space](https://github.com/kangtsang/dsh-worktree-space) | dsh-worktree-space is a DSH plugin that creates isolated multi-repo workspaces for AI agents using Git worktrees. Each task gets its own workspace containing separate worktrees for every repository, enabling parallel agents to work without file conflicts, context pollution, or tangled commits. | TypeScript | 0 | MIT | 2026-09-26 |
 | [kelai141/local-git-4-llm](https://github.com/kelai141/local-git-4-llm) | 模拟git的多llm同工作区协作dsh插件 | TypeScript | 0 | MIT | 2026-09-12 |
 | [KeLearns/dsh-update-checker](https://github.com/KeLearns/dsh-update-checker) | DeepSeek Harness official runtime update checker plugin | JavaScript | 0 | MIT | 2026-08-24 |
 | [kichare/dsh-local-dba](https://github.com/kichare/dsh-local-dba) | A local database-administration (DBA) plugin for \[DeepSeek Harness\](https://github.com/deepseek-ai/deepseek-harness). It ships as a Cordis plugin bundle that registers a set of \`db_*\` model-facing tools, letting the agent query, inspect schema, run DDL/DML, back up/restore and analyze slow queries against **MySQL / MariaDB** and **PostgreSQL**. | JavaScript | 0 | MIT | 2026-09-11 |
@@ -636,6 +637,7 @@ DSH 插件全量目录的「开发者工具」分册 / The "Developer Tools" vol
 | [zhangmiao03/dsh-cloak](https://github.com/zhangmiao03/dsh-cloak) | MOVED → github.com/zhangmiao03/cloakpack (packages/dsh-cloak). One product, one vault, two gates. | TypeScript | 0 | MIT | 2026-09-07 |
 | [zhao-wuyan/dsh-maestro-runtime](https://github.com/zhao-wuyan/dsh-maestro-runtime) | DSH host plugin for maestro-flow: guard, context, KG sync, delegate/team/coordinator runtime | JavaScript | 0 | MIT | 2026-09-09 |
 | [zhaoyaqi18/dsh-pdfslim](https://github.com/zhaoyaqi18/dsh-pdfslim) | PDF compression MCP tools for DeepSeek Harness (dsh). Compress/optimize/inspect PDFs via api.pdfslim.app — free 20 calls/day, pro key on Ko-fi. | — | 0 | — | 2026-08-17 |
+| [ZhaoZeW/dsh-rollback](https://github.com/ZhaoZeW/dsh-rollback) | TRAE-style conversation rollback for DeepSeek Harness: per-turn checkpoints, in-place context truncation, and an affected-file diff preview. | TypeScript | 0 | NOASSERTION | 2026-09-26 |
 | [ZhenHuangLab/dsh-sync](https://github.com/ZhenHuangLab/dsh-sync) | Git sync for DeepSeek Harness settings and profile configuration. | TypeScript | 0 | MIT | 2026-09-18 |
 | [ZhenMoon/dsh-http](https://github.com/ZhenMoon/dsh-http) | Generic HTTP/API client plugin for DeepSeek Harness (DSH): one http_request tool for any method, headers, JSON/text bodies, redirects, timeouts and truncation, over a zero-dependency Node fetch driver | JavaScript | 0 | MIT | 2026-08-16 |
 | [zhiheng-zhang-Mera/dsh-health-scheduler](https://github.com/zhiheng-zhang-Mera/dsh-health-scheduler) | DSH plugin: device/runtime health monitoring, restart-pressure scoring, maintenance scheduling and action decisions for DeepSeek Harness. It never restarts anything itself. | TypeScript | 0 | MIT | 2026-09-15 |

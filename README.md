@@ -11,47 +11,47 @@
 ## 🗺️ 生态全景
 
 <!-- dsh:panorama:start -->
-截至 2026-09-26 共收录 **13779** 个经核实的仓库。它们长这样：
+截至 2026-09-26 共收录 **13901** 个经核实的仓库。它们长这样：
 
 ```mermaid
 mindmap
-  root((DSH 插件生态 13779))
-    Agent 自动化与工作流 · 5022
+  root((DSH 插件生态 13901))
+    Agent 自动化与工作流 · 5068
       定时循环与事件唤醒
       长期记忆与自我进化
       审批、预算与检查点
-    界面与体验 · 2677
+    界面与体验 · 2703
       桌面客户端与终端 TUI
       侧边栏工作台
       皮肤与桌面宠物
       通知与输入增强
-    网页与浏览器 · 2152
+    网页与浏览器 · 2171
       浏览器桥接与页面操作
       网页搜索与引用
       归档与网页取证
-    实用工具与其他 · 829
+    实用工具与其他 · 837
       文件与编码
       格式转换
-    设计媒体与视觉 · 704
+    设计媒体与视觉 · 707
       图片理解与 OCR
       设计画布与 UI 还原
-    开发者工具 · 635
+    开发者工具 · 637
       Git 与 diff
       沙箱与运行时
       调试与诊断
-    知识与研究 · 586
+    知识与研究 · 594
       知识库与跨会话记忆
       深度研究
       学术与数学
-    集成与分享 · 556
+    集成与分享 · 560
       会话导入与分享
       远程访问
       IM 与外部集成
-    生态与资源 · 390
+    生态与资源 · 394
       插件市场与注册表
       开发模板与脚手架
       教程与手册
-    多 Agent 编排协作 · 228
+    多 Agent 编排协作 · 230
       子代理与编排看板
       舰队与团队协作
       角色分工与任务验收
@@ -315,14 +315,14 @@ mindmap
 
 | 项目 | 简介 | 创建日期 |
 | --- | --- | --- |
-| [anywhere-labs/Agents-Anywhere](https://github.com/anywhere-labs/Agents-Anywhere) | 跨设备开源 Agent 工作台：在桌面、手机和网页远程掌控 Codex、Claude Code 与 DSH 的会话、审批与终端，自带 DSH 桥接插件。 | 2026-05-22 |
-| [zouyuxuan122/dsh-our-free-model](https://github.com/zouyuxuan122/dsh-our-free-model) | 装上即用的免费前沿模型：Muse Spark 1.3、MiMo V2.6 等免登录、免 API Key、不限量接入 dsh。 | 2026-09-24 |
-| [toddpan/dsh-webapi](https://github.com/toddpan/dsh-webapi) | 把 DSH 开放成 47 条 REST + SSE 接口加 OpenAI 兼容端点：工作区、会话、流式、技能、文件全可编程，供三方客户端与 Agent 集成。 | 2026-09-03 |
-| [xbzbing/dsh-git-panel](https://github.com/xbzbing/dsh-git-panel) | Web GUI 里的 IDE 风格 Git 面板：分支与提交历史总览、变更提交与 amend、代码图片新旧对照、输入框分支标记。 | 2026-09-24 |
-| [Rice00/dsh-tree-view](https://github.com/Rice00/dsh-tree-view) | 对话树状分支：侧栏一棵树里展开/切换版本，分支可提升为正式会话、可重命名（dsh-plugin-message-edit 的分支强化版）。 | 2026-09-22 |
-| [mengqi1436/dsh-db-tool](https://github.com/mengqi1436/dsh-db-tool) | 对话驱动的数据库管理：支持 8 种数据库、项目级授权、危险操作确认与侧栏控制台。 | 2026-09-25 |
-| [Andersen216/dsh-whale-girl-live2d](https://github.com/Andersen216/dsh-whale-girl-live2d) | DSH Web 界面里的鲸鱼娘 Live2D 桌宠，跟着界面一起呼吸游动（模型素材 CC BY-NC-SA 4.0）。 | 2026-09-25 |
-| [blueberrymaid/dsh-midtalk](https://github.com/blueberrymaid/dsh-midtalk) | 给正在跑的回合插话：/say 在下一步边界无损排队，/cut 中止当前步并留下结构化恢复卡。 | 2026-09-24 |
+| [JWE24-code/moqi](https://github.com/JWE24-code/moqi) | 终端里的「默契」：以 dsh profile 形态打包的 TUI 前端，交错式转录、模型切换、并发会话与后台 Agent，驱动真实 Harness 内核而非私有 API。 | 2026-09-24 |
+| [drscrewdriver/dsh-browser-cdp](https://github.com/drscrewdriver/dsh-browser-cdp) | 让 Agent 通过 CDP 接入真实 Chrome：远程目标序列与激活、实时视频/截图回传、登录导入，用的是你自己的登录态。 | 2026-09-22 |
+| [kangtsang/dsh-worktree-space](https://github.com/kangtsang/dsh-worktree-space) | 用 Git worktree 给每个任务造隔离的多仓工作区：并行 Agent 互不踩文件、不串上下文、不缠提交。 | 2026-09-26 |
+| [miseryrua/dsh-wb-memory](https://github.com/miseryrua/dsh-wb-memory) | 纯 Markdown 真值源的跨会话长期记忆：按预算分层注入 systemPrompt，后台自动流水提炼与治理，零运行时依赖。 | 2026-09-26 |
+| [weibaohui/dsh-flow](https://github.com/weibaohui/dsh-flow) | 把会话执行过程画成实时三泳道流程图：回合/审批/重试全可见，子代理发散-收敛扇形，双击下钻子流程，SSE 事件驱动直播。 | 2026-09-25 |
+| [having5548/dsh-backup](https://github.com/having5548/dsh-backup) | 一键备份与恢复：工作区、逐字节完整会话、附件、设置与 dsh-mnemon 记忆数据打包成一个 zip。 | 2026-09-25 |
+| [Ln1m/dsh-vk-suite](https://github.com/Ln1m/dsh-vk-suite) | 三栏 layout 生态：契约 + 骨架 + 8 个功能包，把 DSH Web 摆成顺手的专业工作台。 | 2026-09-26 |
+| [Jovan1666/commandcode-usage](https://github.com/Jovan1666/commandcode-usage) | 七个编码 Agent 通用的套餐额度状态条：5 小时/周/月窗口与重置时间，本地运行不耗额度，DSH 侧栏原生插件。 | 2026-09-21 |
 
 ## 📣 作者自荐
 
@@ -352,7 +352,7 @@ mindmap
 - **下游市场文件：** [data/market.json](./data/market.json) 是给下游市场（如 DSH 桌面端插件市场）消费的精选小文件——在快照与 curation 之上过滤、清洗并按类目均衡发牌（≤600 条、≤500 KB），每日快照刷新与 curation 合并后自动重建；字段与生成规则见下游的[发布规范](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md)。同一时序下同步生成根目录 [MARKET.md](./MARKET.md)——这份文件的只读可视化（按 Star 数排名），可在 GitHub 上直接预览市场内容，无需安装下游插件。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
-截至 2026-09-26，全量目录收录 **13779** 个仓库、**35** 种主要语言；其中 **12328** 个声明了许可证，**13683** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
+截至 2026-09-26，全量目录收录 **13901** 个仓库、**35** 种主要语言；其中 **12435** 个声明了许可证，**13804** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
 
 ## ⚠️ 使用与安全
 

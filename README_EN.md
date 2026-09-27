@@ -11,47 +11,47 @@
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-09-26 the catalog lists **13,779** verified repositories. Here is the shape of it:
+As of 2026-09-26 the catalog lists **13,901** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 13779))
-    Agents automation workflows · 5022
+  root((DSH ecosystem 13901))
+    Agents automation workflows · 5068
       Scheduled loops and event wakeups
       Long-term memory and self-evolution
       Approval budget and checkpoints
-    UI and experience · 2677
+    UI and experience · 2703
       Desktop clients and terminal TUI
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Web and browser · 2152
+    Web and browser · 2171
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
-    Utilities and more · 829
+    Utilities and more · 837
       Files and encodings
       Format conversion
-    Design media and vision · 704
+    Design media and vision · 707
       Image understanding and OCR
       Design canvas and UI restoration
-    Developer tools · 635
+    Developer tools · 637
       Git and diff
       Sandbox and runtimes
       Debugging and diagnostics
-    Knowledge and research · 586
+    Knowledge and research · 594
       Knowledge bases and cross-session memory
       Deep research
       Academia and math
-    Integrations and sharing · 556
+    Integrations and sharing · 560
       Chat import and sharing
       Remote access
       IM and external integrations
-    Ecosystem and resources · 390
+    Ecosystem and resources · 394
       Plugin markets and registries
       Templates and scaffolds
       Guides and handbooks
-    Multi-agent orchestration · 228
+    Multi-agent orchestration · 230
       Subagents and orchestration boards
       Fleets and agent teams
       Role division and acceptance checks
@@ -315,14 +315,14 @@ Manually screened recent projects, updated from time to time:
 
 | Project | Description | Created |
 | --- | --- | --- |
-| [anywhere-labs/Agents-Anywhere](https://github.com/anywhere-labs/Agents-Anywhere) | A cross-device open-source agent workbench: manage sessions, approvals and terminals for Codex, Claude Code and DSH from desktop, mobile and web, with a bundled DSH bridge plugin. | 2026-05-22 |
-| [zouyuxuan122/dsh-our-free-model](https://github.com/zouyuxuan122/dsh-our-free-model) | Frontier models that just work after installing the plugin — Muse Spark 1.3, MiMo V2.6 and more, no login, no API key, no usage cap. | 2026-09-24 |
-| [toddpan/dsh-webapi](https://github.com/toddpan/dsh-webapi) | Opens DSH over HTTP: 47 REST + SSE routes plus an OpenAI-compatible endpoint covering workspaces, sessions, streaming, skills and files, for third-party clients and agents. | 2026-09-03 |
-| [xbzbing/dsh-git-panel](https://github.com/xbzbing/dsh-git-panel) | An IDE-style Git panel in the Web GUI: branches and commit history, commit/amend for local changes, code and image before/after diffs, and an input-bar branch marker. | 2026-09-24 |
-| [Rice00/dsh-tree-view](https://github.com/Rice00/dsh-tree-view) | Tree-view conversation branching: branch and switch versions inside one sidebar tree, promote a branch to a formal session and rename branches (a fork of dsh-plugin-message-edit). | 2026-09-22 |
-| [mengqi1436/dsh-db-tool](https://github.com/mengqi1436/dsh-db-tool) | Chat-driven database admin: 8 databases, per-project grants, danger confirmations and a sidebar console. | 2026-09-25 |
-| [Andersen216/dsh-whale-girl-live2d](https://github.com/Andersen216/dsh-whale-girl-live2d) | A Live2D whale-girl desktop pet living in the DSH web UI (model assets CC BY-NC-SA 4.0). | 2026-09-25 |
-| [blueberrymaid/dsh-midtalk](https://github.com/blueberrymaid/dsh-midtalk) | Interject into a running turn: /say queues losslessly at the next step boundary, /cut aborts the step and leaves a structured recovery card. | 2026-09-24 |
+| [JWE24-code/moqi](https://github.com/JWE24-code/moqi) | An "unspoken understanding" terminal: a TUI front end packaged as a dsh profile — interleaved transcript, model picker, concurrent sessions and background agents, driving the real Harness core instead of a private API. | 2026-09-24 |
+| [drscrewdriver/dsh-browser-cdp](https://github.com/drscrewdriver/dsh-browser-cdp) | Lets the agent drive real Chrome over CDP: remote-target sequencing and activation, live video/screenshot streaming, and login import — using your own signed-in profile. | 2026-09-22 |
+| [kangtsang/dsh-worktree-space](https://github.com/kangtsang/dsh-worktree-space) | Isolated multi-repo workspaces per task via Git worktrees: parallel agents never collide on files, context, or commits. | 2026-09-26 |
+| [miseryrua/dsh-wb-memory](https://github.com/miseryrua/dsh-wb-memory) | Cross-session long-term memory with plain Markdown as the source of truth: budget-layered systemPrompt injection and a background refine-and-govern pipeline, zero runtime dependencies. | 2026-09-26 |
+| [weibaohui/dsh-flow](https://github.com/weibaohui/dsh-flow) | Renders session execution as a live three-lane flow chart: turns/approvals/retries visible, sub-agent fan-out and fan-in, double-click to drill into sub-flows, SSE-driven live updates. | 2026-09-25 |
+| [having5548/dsh-backup](https://github.com/having5548/dsh-backup) | One-zip backup and restore: workspace, byte-exact full conversations, attachments, settings and dsh-mnemon memory data. | 2026-09-25 |
+| [Ln1m/dsh-vk-suite](https://github.com/Ln1m/dsh-vk-suite) | A three-column layout suite for DSH Web: contract + skeleton + 8 feature packages that arrange the UI into a proper workbench. | 2026-09-26 |
+| [Jovan1666/commandcode-usage](https://github.com/Jovan1666/commandcode-usage) | A plan-quota status line for seven coding agents: 5-hour/weekly/monthly windows with reset times, runs locally so checking costs no quota — native DSH sidebar plugin included. | 2026-09-21 |
 
 ## 📣 Author showcase
 
@@ -352,7 +352,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Downstream market file:** [data/market.json](./data/market.json) is the curated file downstream markets consume (e.g. the DSH desktop plugin market): the snapshot plus curation, filtered, cleaned, and dealt round-robin across categories (≤600 rows, ≤500 KB). It is rebuilt on every daily snapshot refresh and immediately after every curation merge; the field and generation rules live in the downstream [publishing spec](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md). The same runs also publish [MARKET.md](./MARKET.md), a read-only star-ranked rendering of the file for previewing the market on GitHub without installing anything.
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-09-26, the catalog lists **13,779** repositories across **35** primary languages; **12,328** declare a license and **13,683** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-09-26, the catalog lists **13,901** repositories across **35** primary languages; **12,435** declare a license and **13,804** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 

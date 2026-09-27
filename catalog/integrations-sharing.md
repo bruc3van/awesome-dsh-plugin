@@ -4,9 +4,9 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **556**
+- 本册收录 / Entries in this volume: **560**
 - 快照日期 / Snapshot date: **2026-09-26 UTC**
-- 最近人工复核 / Last review merge: **2026-09-26**
+- 最近人工复核 / Last review merge: **2026-09-27**
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |
@@ -274,12 +274,14 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [pc439527/dsh-model-provider](https://github.com/pc439527/dsh-model-provider) | DeepSeek Harness Model Selector UX Enhancement Plugin: show each model's provider (providerId:modelId identity, provider-grouped catalog, shadowed composer model seat) | TypeScript | 1 | — | 2026-08-31 |
 | [PerryLink/dsh-team-rooms](https://github.com/PerryLink/dsh-team-rooms) | Team rooms for DeepSeek Harness: persistent shared rooms across independent sessions - a message bus, a shared task board and a timeline. Extracted from dsh-background-agents, whose background-agent half is superseded by DSH's native continuable subagents. | JavaScript | 1 | Apache-2.0 | 2026-09-24 |
 | [phillarmonic/dsh-llm-kimi](https://github.com/phillarmonic/dsh-llm-kimi) | A Kimi K3 connector plugin for the DeepSeek Harness LLM capability | TypeScript | 1 | MIT | 2026-09-15 |
+| [Planckbaka/dsh-plugin-github-workflows](https://github.com/Planckbaka/dsh-plugin-github-workflows) | GitHub workflows for DeepSeek Harness (DSH): repos, PRs, issues, commits, releases, Actions, Codespaces, search &amp; raw gh api - one plugin on the GitHub CLI | JavaScript | 1 | MIT | 2026-09-26 |
 | [PlxloYzb/dsh-context-management](https://github.com/PlxloYzb/dsh-context-management) | Windowed, reversible context management for DeepSeek Harness (DSH): compression, historical retrieval, and native compaction integration. | JavaScript | 1 | MIT | 2026-09-26 |
 | [psenY/gh-watch](https://github.com/psenY/gh-watch) | DSH 插件：GitHub PR/issue 变更监视插件（多 AI 独立配置，插件自身不审查、不回帖） | JavaScript | 1 | MIT | 2026-09-22 |
 | [pwangxo-sg/financial-market-analysis](https://github.com/pwangxo-sg/financial-market-analysis) | DeepSeek Harness 金融市场分析技能：A股/基金/QDII/黄金/亚太指数日报、指标追踪、决策追踪（可配置，零个人硬编码） | Python | 1 | MIT | 2026-08-20 |
 | [qiufengcrl/dsh-ip-https](https://github.com/qiufengcrl/dsh-ip-https) | DeepSeek Harness plugin: remote settings + Let's Encrypt IP certificates | JavaScript | 1 | MIT | 2026-08-28 |
 | [rand0wn/dsh-wrapped](https://github.com/rand0wn/dsh-wrapped) | DeepSeek Harness (dsh) plugin: /wrapped generates a shareable SVG summary card for the current session | TypeScript | 1 | MIT | 2026-09-12 |
 | [riki-forsure/dsh-napcatqq-remote](https://github.com/riki-forsure/dsh-napcatqq-remote) | 基于 NapCatQQ / OneBot 11 的 DeepSeek Harness QQ 远程操控插件，支持文件、图片、表情、任务追加与会话切换。 | JavaScript | 1 | MIT | 2026-09-09 |
+| [s-huizhuy-u/dsh-github-sync](https://github.com/s-huizhuy-u/dsh-github-sync) | Publish a DeepSeek Harness workspace to GitHub: create the repo, initialize git, commit, and push — with the token held in the DSH credential store. | JavaScript | 1 | MIT | 2026-09-26 |
 | [sevoniva-labs/dsh-cloudflare-access](https://github.com/sevoniva-labs/dsh-cloudflare-access) | Cloudflare Zero Trust access for DeepSeek Harness (DSH). Access 认证、Tunnel 与 DNS 配置，无需公网 IP。 | TypeScript | 1 | MIT | 2026-09-24 |
 | [site-chenwei/dsh-default-overrides](https://github.com/site-chenwei/dsh-default-overrides) | Configurable overrides for the DeepSeek Harness standard preset: Bash/PowerShell channel, disabled rows, persona and harness identity | JavaScript | 1 | MIT | 2026-09-24 |
 | [SnowfallC/dsh-mobile-voice-call](https://github.com/SnowfallC/dsh-mobile-voice-call) | App-free mobile voice calls with existing DeepSeek Harness sessions. | JavaScript | 1 | MIT | 2026-08-17 |
@@ -314,6 +316,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [ZiFan1117/dsh-atom-market](https://github.com/ZiFan1117/dsh-atom-market) | DeepSeek Harness 社区插件（dsh-plugin）：把 Software Atom Market 变成 Agent 可逛/可校验/可投稿的能力库。Tools: atom_search/atom_read/atom_validate/atom_draft. 默认数据源=GitHub 商店，零配置。 | JavaScript | 1 | — | 2026-09-08 |
 | [zoahdev/dsh-cn-boot](https://github.com/zoahdev/dsh-cn-boot) | China-network bootstrap for DeepSeek Harness (dsh): connectivity probes to npm/GitHub/HuggingFace/mirrors, local proxy detection, mirror recommendations, generated PowerShell/bash bootstrap. Read-only by default; apply is explicit. CLI + agent-callable cn_boot tool. | TypeScript | 1 | MIT | 2026-09-18 |
 | [zoahdev/dsh-kirocrew](https://github.com/zoahdev/dsh-kirocrew) | KiroCrew bridge for DeepSeek Harness: delegate turns to a persistent, self-evolving workspace over ACP (JSON-RPC 2.0). | TypeScript | 1 | MIT | 2026-09-12 |
+| [Zou82/dsh-plugin-git-sync](https://github.com/Zou82/dsh-plugin-git-sync) | Git + GitHub automation plugin for DeepSeek Harness: ask-before-init repo creation with user-confirmed naming and rename-on-demand, auto-sync on every code update, secure credential handling. | TypeScript | 1 | MIT | 2026-09-25 |
 | [zoyluoblue/deepseek-harness-token](https://github.com/zoyluoblue/deepseek-harness-token) | DeepSeek Harness (dsh) plugin for machine-wide token usage statistics — a Settings page with totals, a GitHub-style contribution heatmap, streaks, and a per-model breakdown. Folds session logs from every dsh home; no cost estimates. | TypeScript | 1 | MIT | 2026-09-09 |
 | [zylzyqzz/dsh-mobile-pwa](https://github.com/zylzyqzz/dsh-mobile-pwa) | Complete mobile PWA for DeepSeek Harness (DSH): secure remote access gateway + install-to-homescreen + offline + touch gestures + agent-done push. deepseek-harness-plugin | JavaScript | 1 | NOASSERTION | 2026-08-26 |
 | [zzj8442-blip/dsh-mobile-remote](https://github.com/zzj8442-blip/dsh-mobile-remote) | 📡 手机远程遥控 DeepSeek Harness：实时进度 / 审批 / 对话（PWA + PIN 配对 + Tailscale 外网支持） | JavaScript | 1 | BSD-3-Clause | 2026-08-24 |
@@ -461,6 +464,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [pipipigu/dsh-ssh-control](https://github.com/pipipigu/dsh-ssh-control) | Unified, non-intrusive SSH control center for DeepSeek Harness (DSH) | TypeScript | 0 | Apache-2.0 | 2026-09-02 |
 | [plumbkit/dsh-plumb-identity](https://github.com/plumbkit/dsh-plumb-identity) | Per-agent plumb session identity for DeepSeek Harness: every conversation, workspace, and subagent gets its own stable plumb session id on a shared plumb MCP connection | JavaScript | 0 | MIT | 2026-09-17 |
 | [polohot/dsh-adrian-agents-group-work](https://github.com/polohot/dsh-adrian-agents-group-work) | Group work for the DeepSeek Harness: turn one session into a room with a chair and several member agents that message each other and share a task list. | JavaScript | 0 | MIT | 2026-09-10 |
+| [pomelotea-yuzu/dsh-updater](https://github.com/pomelotea-yuzu/dsh-updater) | DeepSeek Harness (dsh) update checker plugin: check the latest release from GitHub right inside the Settings panel, view the changelog, and copy the upgrade command. Check-only — no auto install. | TypeScript | 0 | MIT | 2026-08-25 |
 | [Q-xuan/dsh-authmux](https://github.com/Q-xuan/dsh-authmux) | One login plane for subscription-backed model providers in DeepSeek Harness | TypeScript | 0 | MIT | 2026-09-01 |
 | [qcsjjjjj/dsh-github-accel](https://github.com/qcsjjjjj/dsh-github-accel) | GitHub accelerator for DSH: hosts takeover + per-domain loopback SNI passthrough (no TLS MITM, no certificate install), a local CONNECT proxy and a PAC fallback. | JavaScript | 0 | MIT | 2026-09-26 |
 | [qianyuan-ltd/dsh-qianyuan](https://github.com/qianyuan-ltd/dsh-qianyuan) | Connect DeepSeek Harness to the QianYuan MCP server — shared pitfall/result records and capability lookup for agents. | — | 0 | Apache-2.0 | 2026-09-22 |

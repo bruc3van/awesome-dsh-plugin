@@ -39,12 +39,12 @@ export const STALE_SNAPSHOT_MS = 26 * 60 * 60 * 1000;
 // Repositories the publisher itself never lists (spec §4).
 export const SELF_EXCLUDED_REPOS = [
   'bruc3van/dsh-desktop',
-  'bruc3van/dsh-desktop-safe-market',
+  'bruc3van/safer-dsh-market',
   'bruc3van/awesome-dsh-plugin',
 ];
 
 // Verbatim copies of the downstream wire rules (src/contract.ts in
-// dsh-desktop-safe-market) — the two sides must never drift.
+// safer-dsh-market) — the two sides must never drift.
 export const REPOSITORY_SLUG_PATTERN = /^[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+$/;
 export const BRANCH_PATTERN = /^[A-Za-z0-9][A-Za-z0-9._/-]*$/;
 

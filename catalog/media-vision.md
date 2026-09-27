@@ -4,9 +4,9 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **704**
+- 本册收录 / Entries in this volume: **707**
 - 快照日期 / Snapshot date: **2026-09-26 UTC**
-- 最近人工复核 / Last review merge: **2026-09-26**
+- 最近人工复核 / Last review merge: **2026-09-27**
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |
@@ -297,6 +297,7 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 | [f1yan9/dsh-balance-pie](https://github.com/f1yan9/dsh-balance-pie) | DSH 插件：可拖拽余额饼图 / 真实消耗 / 历史热力图 — balance pie with real spending &amp; monthly heatmap for DeepSeek Harness. | TypeScript | 1 | MIT | 2026-08-30 |
 | [feng78-boop/dsh-thirteen-bg](https://github.com/feng78-boop/dsh-thirteen-bg) | Animated and video live wallpaper for the DeepSeek Harness Web GUI - GIF, animated WebP/APNG images plus MP4/WebM video backgrounds, with auto format detection and a dim slider. | JavaScript | 1 | MIT | 2026-09-18 |
 | [fengs2021/dsh-image-mmx](https://github.com/fengs2021/dsh-image-mmx) | 给 DSH 文本模型装眼睛：图片自动调用 mmx（MiniMax VLM）识别，识别结果注入模型上下文 | JavaScript | 1 | MIT | 2026-09-18 |
+| [ffyfox/dsh-desktop-linux](https://github.com/ffyfox/dsh-desktop-linux) | 将官方 DeepSeek Harness 桌面打包移植到 Linux：AppImage、deb、rpm 和 Arch PKGBUILD，并通过一套 12 个补丁系列从上游源码构建。Ports the official DeepSeek Harness desktop packaging to Linux: AppImage, deb, rpm and an Arch PKGBUILD, built from upstream sources through a 12-patch series. | Shell | 1 | NOASSERTION | 2026-09-26 |
 | [fightingFirefox/dsh-glm-vision](https://github.com/fightingFirefox/dsh-glm-vision) | 在dsh中接入智谱 GLM 视觉模型，让 DeepSeek 等文本模型通过 glm_vision 工具看图。 | JavaScript | 1 | MIT | 2026-09-18 |
 | [fulander0301/dsh-tool-read-tiff](https://github.com/fulander0301/dsh-tool-read-tiff) | Model-facing read_tiff tool for DeepSeek Harness: decodes TIFF/TIF images (multi-page, LZW/Deflate/PackBits/CCITT/JPEG compression, bilevel, 8/16-bit and float) into viewable PNGs with full header metadata, plus optional vision-model description. | TypeScript | 1 | MIT | 2026-08-24 |
 | [funcpn/volens](https://github.com/funcpn/volens) | Keeps a project's design doc in step with its decisions instead of letting it drift: an append-only decision log, a design snapshot derived from it, and a hook that refreshes it automatically. ADR-style docs that stay fresh. Ships as a plugin for Claude Code, Codex and DeepSeek Harness. | JavaScript | 1 | MIT | 2026-09-24 |
@@ -602,6 +603,7 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 | [nihaozyj7/dsh-desktop](https://github.com/nihaozyj7/dsh-desktop) | Go + Wails desktop shell for DeepSeek Harness: native window, engine supervision, self-update, and preview source builds | Go | 0 | MIT | 2026-08-14 |
 | [Niobium-41-nb/dsh-chat-image](https://github.com/Niobium-41-nb/dsh-chat-image) | Renders chat Markdown image references as a gallery in the DSH web GUI | TypeScript | 0 | — | 2026-08-17 |
 | [niushuanan/dsh-image-vision](https://github.com/niushuanan/dsh-image-vision) | Let vision-capable models read native attachments while giving text-only models an image tool that supports follow-up questions. | JavaScript | 0 | MIT | 2026-08-26 |
+| [noahchalifour/dsh-anthropic-image-clamp](https://github.com/noahchalifour/dsh-anthropic-image-clamp) | DeepSeek Harness plugin: downscale images on Claude requests so many-image requests never hit the 2000px limit | JavaScript | 0 | MIT | 2026-09-26 |
 | [northern-penguin/dsh-h3-seg-prompt-design](https://github.com/northern-penguin/dsh-h3-seg-prompt-design) | 一个DeepSeekHarness插件，用于让模型在DeepSeekHarness中生成符合H3视频生成模型规范的提示词。该提示词可以直接用于Theodore_Director导播台的分镜设计中。 | Python | 0 | — | 2026-09-02 |
 | [nyantused-cpun/gewu-tools](https://github.com/nyantused-cpun/gewu-tools) | 格物审视面：让 DSH 无视觉模型经视觉子代理完成视觉检验。Model-agnostic visual-inspection pipeline for DSH: HTML screenshots + vision-subagent briefing + source-code truth verification. Install: npm i gewu-tools | JavaScript | 0 | MIT | 2026-09-09 |
 | [oebeliever/dsh-video-gen](https://github.com/oebeliever/dsh-video-gen) | DeepSeek Harness ??????:MiniMax H3(easyframe ??)??/????/???/????/????,??????? + ???????MiniMax H3 video generation plugin for DeepSeek Harness. | JavaScript | 0 | MIT | 2026-09-06 |
@@ -662,6 +664,7 @@ DSH 插件全量目录的「设计、媒体与视觉」分册 / The "Design, Med
 | [Uronika/dsh-gpp](https://github.com/Uronika/dsh-gpp) | DeepSeek Harness game-programming assistant: a local hybrid-search tool (BM25 + bge-m3 semantic) over Robert Nystrom's Game Programming Patterns, with bilingual metadata for all 19 patterns and Unity C# idiom mappings. Ships tooling and self-authored metadata only — no book text. | JavaScript | 0 | MIT | 2026-09-09 |
 | [wangxiang0605qvq/dsh-vision-ocr](https://github.com/wangxiang0605qvq/dsh-vision-ocr) | DSH 图片识别插件：输入框一键选图发送识别请求（需自备支持图像输入的模型与 API Key） | JavaScript | 0 | MIT | 2026-08-15 |
 | [weekitmo/vision-mcp](https://github.com/weekitmo/vision-mcp) | MCP server for image understanding through OpenAI-compatible vision APIs. To provide image recognition capabilities for those large models that do not support Multimodal. | Python | 0 | MIT | 2026-08-14 |
+| [weibaohui/dsh-matrix](https://github.com/weibaohui/dsh-matrix) | dsh 插件 · 黑客帝国数字雨：对话窗口铺上经典字符雨背景，token 原文掺进雨里，雨势随 agent 活跃度起伏 | JavaScript | 0 | MIT | 2026-09-26 |
 | [WEIHAOLEE/dsh-plugin-vision-fallback](https://github.com/WEIHAOLEE/dsh-plugin-vision-fallback) | DeepSeek HARNESS 视觉代理插件 | JavaScript | 0 | MIT | 2026-08-17 |
 | [whiteS18/dsh-image-generation](https://github.com/whiteS18/dsh-image-generation) | DSH plugin: configure image providers in Settings and generate with image_generate | JavaScript | 0 | MIT | 2026-09-13 |
 | [wikiiizhao/dsh-visual-trace](https://github.com/wikiiizhao/dsh-visual-trace) | Cross-surface plain-language trajectory visualization and review for DeepSeek Harness. | TypeScript | 0 | MIT | 2026-08-15 |
