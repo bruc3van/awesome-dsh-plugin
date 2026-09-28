@@ -4378,17 +4378,17 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
-    "omsociety/kimi-ppt-skill": {
+    "omsociety/dsh-kimi-ppt": {
       "packages": [
         {
           "profile": "web",
-          "install": "https://github.com/OMSociety/kimi-ppt-skill",
-          "source": "github:OMSociety/kimi-ppt-skill",
-          "command": "dsh plugin --profile web add github:OMSociety/kimi-ppt-skill"
+          "install": "https://github.com/OMSociety/dsh-kimi-ppt",
+          "source": "github:OMSociety/dsh-kimi-ppt",
+          "command": "dsh plugin --profile web add github:OMSociety/dsh-kimi-ppt"
         }
       ],
       "status": "readme-verified",
-      "verified_date": "2026-09-26",
+      "verified_date": "2026-09-28",
       "verified_via": "README@main"
     },
     "oomol-lab/dsh-oomol": {
