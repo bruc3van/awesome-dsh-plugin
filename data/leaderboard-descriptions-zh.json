@@ -76,5 +76,6 @@
   "ysr666/dsh-vision-router": "纯文本 DeepSeek Harness Agent 的视觉之眼：免费视觉链（无需 Key）+ 像素级视觉工具（问答、定位、OCR），一行安装。",
   "zenstory-ai/oh-story-dsh": "小说写作与短剧生产插件，由 Oh Story 与 Drama Skills 驱动。",
   "zh667/TokenLedger": "DSH 令牌用量账本：中转站归因，零配置、无需凭据。",
-  "zhu1090093659/dsh-web": "DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发"
+  "zhu1090093659/dsh-web": "DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发",
+  "zouyuxuan122/dsh-our-free-model": "免登录免 API Key 的免费模型通道插件：装上即用 Muse Spark 1.3、MiMo V2.6 等前沿模型，不限量。"
 }
