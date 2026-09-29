@@ -2,16 +2,19 @@
 //   node --test scripts/test-market-v2.mjs
 // The invariants under test: v2 is a strict superset of the published v1
 // feed (same entries, same order, v1 fields untouched), mapping failures
-// abort the build instead of publishing half-joined data, and identical
-// inputs keep the previous file bit for bit.
+// abort the build instead of publishing half-joined data, identical
+// inputs keep the previous file bit for bit, and the featured section is
+// a pure projection of data/featured.json gated on standardized installs.
 
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdtemp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { resolve } from 'node:path';
 import {
   buildMarketV2,
+  featuredBlockFor,
+  MAX_FEATURED_ENTRIES,
   MAX_FILE_BYTES,
   packagesBlockFor,
   runMarketV2,
@@ -65,6 +68,17 @@ const commandRecord = (overrides = {}) => ({
 });
 
 const packages = (entries) => ({ schema_version: 1, updated_at: '2026-09-26', entries });
+
+const featuredSource = (entries, overrides = {}) => ({
+  schema_version: 1,
+  updated_at: '2026-09-26',
+  title_zh: '编辑精选',
+  title_en: "Editor's Picks",
+  entries,
+  ...overrides,
+});
+
+const pick = (full_name, reason = '一句话推荐理由') => ({ full_name, reason });
 
 const now = new Date('2026-09-26T10:00:00.000Z');
 
@@ -293,6 +307,111 @@ test('runMarketV2 writes the feed, then reports unchanged on a second run', asyn
 
   // A mapping that fails the transform must leave the published file alone.
   await writeFile(resolve(rootDir, 'data/packages.json'), JSON.stringify(packages({ 'a/mapped': commandRecord({ status: 'broken' }) })));
+  const aborted = await runMarketV2({ rootDir });
+  assert.equal(aborted, 'aborted');
+  const afterAbort = JSON.parse(await readFile(resolve(rootDir, 'data/market-v2.json'), 'utf8'));
+  assert.deepEqual(afterAbort, onDisk);
+});
+
+test('featuredBlockFor ships in-feed picks bare and out-of-feed picks with an inline packages block', () => {
+  const mapping = { 'a/mapped': commandRecord(), 'b/off-feed': commandRecord() };
+  const recordFor = (lower) => mapping[lower];
+  const inFeed = new Set(['a/mapped']);
+  const { block, warnings } = featuredBlockFor(featuredSource([pick('A/Mapped'), pick('b/off-feed')]), recordFor, inFeed);
+  assert.equal(block.entries.length, 2);
+  // Case-insensitive membership: the pick keeps its canonical casing while
+  // resolving against the lowercase feed set.
+  assert.deepEqual(block.entries[0], { full_name: 'A/Mapped', reason: '一句话推荐理由' });
+  assert.equal('packages' in block.entries[0], false);
+  // The out-of-feed pick carries the packages block so consumers stay
+  // install-ready without the feed entry (bruc3van/bruce-md2word shape).
+  assert.deepEqual(block.entries[1].packages, packagesBlockFor(commandRecord()));
+  assert.deepEqual(block.entries[1], { full_name: 'b/off-feed', reason: '一句话推荐理由', packages: packagesBlockFor(commandRecord()) });
+  assert.equal(warnings.length, 1);
+  assert.match(warnings[0], /b\/off-feed: featured, but not in the published feed/);
+});
+
+test('featuredBlockFor rejects picks without a standardized mapping, dupes, and malformed sources', () => {
+  const recordFor = (lower) => (lower === 'a/mapped' ? commandRecord() : undefined);
+  const inFeed = new Set(['a/mapped']);
+  // The gate: an editor's pick must be installable through packages.json.
+  assert.throws(
+    () => featuredBlockFor(featuredSource([pick('x/unmapped')]), recordFor, inFeed),
+    /x\/unmapped.*has no packages\.json mapping/,
+  );
+  assert.throws(
+    () => featuredBlockFor(featuredSource([pick('a/mapped'), pick('A/MAPPED')]), recordFor, inFeed),
+    /featured twice/,
+  );
+  assert.throws(() => featuredBlockFor(featuredSource([])), /non-empty array/);
+  assert.throws(() => featuredBlockFor(featuredSource([pick('a/mapped')], { schema_version: 2 })), /schema_version/);
+  assert.throws(() => featuredBlockFor(featuredSource([pick('a/mapped')], { updated_at: '09/26/2026' })), /updated_at/);
+  assert.throws(() => featuredBlockFor(featuredSource([pick('not-a-slug')]), recordFor, inFeed), /owner\/repo slug/);
+  assert.throws(() => featuredBlockFor(featuredSource([pick('a/mapped', 'x'.repeat(121))]), recordFor, inFeed), /cap is 120/);
+  const many = Array.from({ length: MAX_FEATURED_ENTRIES + 1 }, (_, i) => pick(`o/repo-${i}`));
+  assert.throws(() => featuredBlockFor(featuredSource(many), () => commandRecord(), inFeed), /cap is 50/);
+});
+
+test('buildMarketV2 carries the featured section and counts it honestly', () => {
+  const entries = [v1Entry({ full_name: 'a/mapped' })];
+  const result = buildMarketV2({
+    market: v1Market(entries),
+    packages: packages({ 'a/mapped': commandRecord(), 'b/off-feed': commandRecord() }),
+    featured: featuredSource([pick('a/mapped'), pick('b/off-feed')]),
+    now,
+  });
+  assert.equal(result.outcome, 'written');
+  assert.equal(result.envelope.featured_count, 2);
+  assert.equal(result.envelope.featured.entries.length, 2);
+  assert.equal(result.envelope.featured.title_zh, '编辑精选');
+  assert.ok(result.envelope.featured.entries[1].packages);
+  // A pick that fails the gate aborts the whole build, feed join included.
+  const bad = buildMarketV2({
+    market: v1Market(entries),
+    packages: packages({ 'a/mapped': commandRecord() }),
+    featured: featuredSource([pick('a/mapped'), pick('x/unmapped')]),
+    now,
+  });
+  assert.equal(bad.outcome, 'aborted');
+  assert.match(bad.errors[0], /x\/unmapped.*has no packages\.json mapping/);
+});
+
+test('buildMarketV2 treats a featured-only edit as a change worth republishing', () => {
+  const market = v1Market([v1Entry({ full_name: 'a/mapped' })]);
+  const pkgs = packages({ 'a/mapped': commandRecord() });
+  const first = buildMarketV2({ market, packages: pkgs, featured: featuredSource([pick('a/mapped')]), now });
+  assert.equal(first.outcome, 'written');
+  // Same everything: unchanged, bit for bit.
+  const same = buildMarketV2({ market, packages: pkgs, featured: featuredSource([pick('a/mapped')]), previous: first.envelope, now: new Date('2026-09-27T00:00:00.000Z') });
+  assert.equal(same.outcome, 'unchanged');
+  assert.deepEqual(same.envelope, first.envelope);
+  // A new reason with identical feed + mapping must still republish.
+  const edited = buildMarketV2({ market, packages: pkgs, featured: featuredSource([pick('a/mapped', '换了一句推荐语')]), previous: first.envelope, now });
+  assert.equal(edited.outcome, 'written');
+  assert.equal(edited.envelope.featured.entries[0].reason, '换了一句推荐语');
+  // Dropping the featured source is likewise a change — but runMarketV2
+  // guards the destructive variant (published section + missing source).
+  const dropped = buildMarketV2({ market, packages: pkgs, previous: first.envelope, now });
+  assert.equal(dropped.outcome, 'written');
+  assert.equal('featured' in dropped.envelope, false);
+});
+
+test('runMarketV2 aborts when the featured source vanished but the published feed still carries the section', async () => {
+  const rootDir = await mkdtemp(resolve(tmpdir(), 'market-v2-featured-'));
+  await mkdir(resolve(rootDir, 'data'), { recursive: true });
+  const market = v1Market([v1Entry({ full_name: 'a/mapped' })]);
+  const pkgs = packages({ 'a/mapped': commandRecord() });
+  await Promise.all([
+    writeFile(resolve(rootDir, 'data/market.json'), JSON.stringify(market)),
+    writeFile(resolve(rootDir, 'data/packages.json'), JSON.stringify(pkgs)),
+    writeFile(resolve(rootDir, 'data/featured.json'), JSON.stringify(featuredSource([pick('a/mapped')]))),
+  ]);
+  const written = await runMarketV2({ rootDir });
+  assert.equal(written, 'written');
+  const onDisk = JSON.parse(await readFile(resolve(rootDir, 'data/market-v2.json'), 'utf8'));
+  assert.equal(onDisk.featured_count, 1);
+
+  await rm(resolve(rootDir, 'data/featured.json'));
   const aborted = await runMarketV2({ rootDir });
   assert.equal(aborted, 'aborted');
   const afterAbort = JSON.parse(await readFile(resolve(rootDir, 'data/market-v2.json'), 'utf8'));

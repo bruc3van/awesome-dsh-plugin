@@ -1,27 +1,34 @@
 #!/usr/bin/env node
 
-// Validates data/market-v2.json against its two sources. v2 is a generated
-// projection of the published v1 feed + data/packages.json, so the strongest
-// possible check is recomputation: rebuild every piece with the same exported
-// transform (packagesBlockFor) and demand byte-level structural equality.
-// A hand-edited market-v2.json — a tweaked command, an extra entry, a dropped
-// requirements list — can never survive that. Beyond the join, this pass also
-// checks the envelope (schema v2, source counters mirrored from v1, mapped
-// count honest) and the size cap.
+// Validates data/market-v2.json against its three sources. v2 is a generated
+// projection of the published v1 feed + data/packages.json + data/featured.json,
+// so the strongest possible check is recomputation: rebuild every piece with
+// the same exported transforms (packagesBlockFor, featuredBlockFor) and demand
+// byte-level structural equality. A hand-edited market-v2.json — a tweaked
+// command, an extra entry, a dropped requirements list, a smuggled featured
+// reason — can never survive that. Beyond the joins, this pass also checks
+// the envelope (schema v2, source counters mirrored from v1, mapped and
+// featured counts honest) and the size cap.
 
 import { readFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { MAX_FILE_BYTES, packagesBlockFor, V2_SCHEMA_VERSION } from './market-v2.mjs';
+import { featuredBlockFor, MAX_FILE_BYTES, packagesBlockFor, V2_SCHEMA_VERSION } from './market-v2.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const errors = [];
 const warnings = [];
 
-const [rawV2, market, packages] = await Promise.all([
+const [rawV2, market, packages, featured] = await Promise.all([
   readFile(resolve(root, 'data/market-v2.json'), 'utf8'),
   readFile(resolve(root, 'data/market.json'), 'utf8').then(JSON.parse),
   readFile(resolve(root, 'data/packages.json'), 'utf8').then(JSON.parse),
+  readFile(resolve(root, 'data/featured.json'), 'utf8')
+    .then(JSON.parse)
+    .catch((error) => {
+      if (error.code !== 'ENOENT') throw error;
+      return null;
+    }),
 ]);
 
 let v2;
@@ -117,6 +124,36 @@ for (const slug of Object.keys(mapping)) {
   }
 }
 
+// The featured section: recompute the whole block from its source and demand
+// equality — order, reasons, and the inline packages blocks of picks outside
+// the feed are all editorial decisions that must round-trip through
+// data/featured.json, never through the published file.
+if (featured !== null) {
+  try {
+    const recordByLower = new Map(Object.entries(mapping).map(([slug, record]) => [slug.toLowerCase(), record]));
+    const { block: expectedFeatured, warnings: featuredWarnings } = featuredBlockFor(
+      featured,
+      (lower) => recordByLower.get(lower),
+      inFeed,
+    );
+    for (const warning of featuredWarnings) warnings.push(warning);
+    if (!v2?.featured) {
+      errors.push('featured: data/featured.json exists but the v2 feed carries no featured block — rebuild data/market-v2.json');
+    } else {
+      if (JSON.stringify(v2.featured) !== JSON.stringify(expectedFeatured)) {
+        errors.push('featured: block does not match the recomputed projection of data/featured.json + data/packages.json (order, reasons, or inline packages drifted)');
+      }
+      if (v2.featured_count !== expectedFeatured.entries.length) {
+        errors.push(`featured_count must be ${expectedFeatured.entries.length}, got ${JSON.stringify(v2.featured_count)}`);
+      }
+    }
+  } catch (error) {
+    errors.push(`featured: data/featured.json fails the wire transform — ${error.message}`);
+  }
+} else if (v2?.featured) {
+  errors.push('featured: v2 feed carries a featured block but data/featured.json is missing — rebuild from the source instead of trusting the published file');
+}
+
 if (errors.length) {
   console.error(`data/market-v2.json: ${errors.length} error(s)`);
   for (const error of errors) console.error(`  ✗ ${error}`);
@@ -124,6 +161,6 @@ if (errors.length) {
 }
 
 console.log(
-  `data/market-v2.json: ${v2Entries.length} entries, ${blockCount} packages blocks, ${bytes} bytes — matches market.json + packages.json`,
+  `data/market-v2.json: ${v2Entries.length} entries, ${blockCount} packages blocks, ${v2?.featured ? `${v2.featured.entries.length} featured picks, ` : ''}${bytes} bytes — matches market.json + packages.json${featured !== null ? ' + featured.json' : ''}`,
 );
 for (const warning of warnings) console.warn(`  ⚠ ${warning}`);

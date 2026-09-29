@@ -10,12 +10,23 @@
 // record. Consumers can treat v2 exactly like v1 and simply ignore the
 // extra field, or render "复制安装内容" from it.
 //
-// The file is a pure projection of two already-validated sources: the
-// published v1 feed and packages.json. No filtering, dealing, or trimming
-// happens here — if the joined payload would not fit the byte cap, the run
-// aborts rather than publishing a prefix: v1's trim path is safe because it
-// keeps the deal's structural invariants, but a v2 prefix would silently
-// disagree with the v1 feed it claims to extend. Fix the mapping instead.
+// On top of the join, the envelope carries an optional `featured` block —
+// the hand-maintained editor's picks (data/featured.json): an ordered list
+// of full names, each with a one-line reason. The gate that makes a pick
+// publishable is the standardized install: every featured repo must have a
+// packages.json mapping, or the build aborts. Picks inside the published
+// feed resolve through their feed entry; a pick the daily deal left out
+// (bruc3van/bruce-md2word — too few stars for the 600-entry round-robin)
+// rides along with its packages block inline, so consumers stay
+// install-ready from the featured section alone.
+//
+// The file is a pure projection of already-validated sources: the
+// published v1 feed, packages.json, and featured.json. No filtering,
+// dealing, or trimming happens here — if the joined payload would not fit
+// the byte cap, the run aborts rather than publishing a prefix: v1's trim
+// path is safe because it keeps the deal's structural invariants, but a v2
+// prefix would silently disagree with the v1 feed it claims to extend. Fix
+// the mapping instead.
 //
 // Same-source idempotency as market.mjs: identical inputs re-produce the
 // previous file bit for bit (generated_at included), so re-runs triggered
@@ -31,6 +42,8 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 export const V2_SCHEMA_VERSION = 2;
 export const V1_SCHEMA_VERSION = 1;
 export const MAX_FILE_BYTES = 1024 * 1024; // v2 is a superset of v1's 500 KB feed — generous headroom for the mapping.
+export const FEATURED_SCHEMA_VERSION = 1;
+export const MAX_FEATURED_ENTRIES = 50; // the curated list is hand-picked and stays small; double digits of picks, not hundreds.
 
 // Editorial data is hand-maintained, so oversize text is a data bug to fix,
 // never something to truncate: a cut-off install command or requirement is
@@ -46,10 +59,14 @@ export const TEXT_LIMITS = {
   requirement: 200,
   task: 40,
   verified_via: 100,
+  title: 40,
+  full_name: 100,
+  reason: 120,
 };
 
 const SOURCE_KIND = /^(npm|github|url|link):(.+)$/;
 const DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
+const FEATURED_SLUG = /^[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+$/;
 const STATUSES = new Set(['readme-verified', 'install-verified', 'repo-fallback', 'unverified']);
 const CONTROL_CHARS = /[\u0000-\u001f\u007f]/;
 
@@ -182,11 +199,74 @@ export function packagesBlockFor(record) {
   return block;
 }
 
+// The wire shape of the envelope's `featured` section, from data/featured.json.
+// `recordFor` maps a lowercase slug to its packages.json record (or undefined);
+// `inFeed` is the set of lowercase full_names the published v1 feed carries.
+// Returns { block, warnings }: block is the publishable section, warnings the
+// advisory notes (a pick outside the feed is legal — it ships with its
+// packages block inline — but worth saying out loud). Every hard problem
+// throws, same contract as packagesBlockFor.
+export function featuredBlockFor(featured, recordFor, inFeed) {
+  if (featured === null || typeof featured !== 'object' || Array.isArray(featured)) {
+    throw new Error('featured source must be an object');
+  }
+  if (featured.schema_version !== FEATURED_SCHEMA_VERSION) {
+    throw new Error(`featured.schema_version must be ${FEATURED_SCHEMA_VERSION}, got ${JSON.stringify(featured.schema_version)}`);
+  }
+  if (!DATE_PATTERN.test(featured.updated_at ?? '')) {
+    throw new Error('featured.updated_at must be YYYY-MM-DD');
+  }
+  if (!Array.isArray(featured.entries) || featured.entries.length === 0) {
+    throw new Error('featured.entries must be a non-empty array');
+  }
+  if (featured.entries.length > MAX_FEATURED_ENTRIES) {
+    throw new Error(`featured.entries holds ${featured.entries.length} picks, cap is ${MAX_FEATURED_ENTRIES} — the list is hand-curated, keep it small`);
+  }
+
+  const warnings = [];
+  const block = {
+    title_zh: prose(featured.title_zh, TEXT_LIMITS.title, 'featured.title_zh'),
+    title_en: prose(featured.title_en, TEXT_LIMITS.title, 'featured.title_en'),
+    updated_at: featured.updated_at,
+    entries: [],
+  };
+
+  const seen = new Set();
+  featured.entries.forEach((entry, index) => {
+    const where = `featured.entries[${index}]`;
+    const fullName = fold(entry?.full_name ?? '');
+    if (!FEATURED_SLUG.test(fullName)) {
+      throw new Error(`${where}.full_name must be an owner/repo slug, got ${JSON.stringify(fullName)}`);
+    }
+    const lower = fullName.toLowerCase();
+    if (seen.has(lower)) {
+      throw new Error(`${where}.full_name ${JSON.stringify(fullName)} is featured twice`);
+    }
+    seen.add(lower);
+
+    const record = recordFor(lower);
+    if (record === undefined) {
+      throw new Error(`${where} (${fullName}) has no packages.json mapping — an editor's pick must be installable through the standardized mapping`);
+    }
+
+    const wire = {
+      full_name: fullName,
+      reason: prose(entry.reason, TEXT_LIMITS.reason, `${where}.reason`),
+    };
+    if (!inFeed.has(lower)) {
+      wire.packages = packagesBlockFor(record);
+      warnings.push(`${fullName}: featured, but not in the published feed — shipping with its packages block inline; it rejoins the entries array when the daily deal readmits it`);
+    }
+    block.entries.push(wire);
+  });
+  return { block, warnings };
+}
+
 // The full generation decision. Returns one of:
 //   { outcome: 'written', envelope, mappedCount, warnings }
 //   { outcome: 'unchanged', envelope, mappedCount, warnings }
 //   { outcome: 'aborted', reason, errors, warnings }
-export function buildMarketV2({ market, packages, previous = null, now = new Date(), maxBytes = MAX_FILE_BYTES }) {
+export function buildMarketV2({ market, packages, featured = null, previous = null, now = new Date(), maxBytes = MAX_FILE_BYTES }) {
   const warnings = [];
   if (market === null || typeof market !== 'object' || market.schema_version !== V1_SCHEMA_VERSION) {
     return { outcome: 'aborted', reason: `the base feed must be a schema_version ${V1_SCHEMA_VERSION} market.json, got schema_version ${JSON.stringify(market?.schema_version)}`, warnings };
@@ -213,8 +293,22 @@ export function buildMarketV2({ market, packages, previous = null, now = new Dat
       errors.push(`${slug}: ${error.message}`);
     }
   }
+
+  // The featured join needs records for picks outside the feed too, so it
+  // looks the mapping up directly rather than reusing blockBySlug (which
+  // only holds in-feed slugs).
+  let featuredResult = null;
+  if (featured !== null && featured !== undefined) {
+    const recordByLower = new Map(Object.entries(mapping).map(([slug, record]) => [slug.toLowerCase(), record]));
+    try {
+      featuredResult = featuredBlockFor(featured, (lower) => recordByLower.get(lower), inFeed);
+      warnings.push(...featuredResult.warnings);
+    } catch (error) {
+      errors.push(`featured: ${error.message}`);
+    }
+  }
   if (errors.length > 0) {
-    return { outcome: 'aborted', reason: `${errors.length} mapping record(s) failed the wire transform — fix data/packages.json`, errors, warnings };
+    return { outcome: 'aborted', reason: `${errors.length} mapping record(s) failed the wire transform — fix data/packages.json or data/featured.json`, errors, warnings };
   }
 
   const entries = market.entries.map((entry) => {
@@ -226,15 +320,23 @@ export function buildMarketV2({ market, packages, previous = null, now = new Dat
     warnings.push('no mapped entry is currently in the feed — the v2 payload equals v1 plus an empty mapping');
   }
 
-  const envelopeWith = (list) => ({
-    schema_version: V2_SCHEMA_VERSION,
-    generated_at: generatedAt(previous, now),
-    source_fetched_at: market.source_fetched_at,
-    source_repo_count: market.source_repo_count,
-    pool_count: market.pool_count,
-    packages_mapped_count: mappedCount,
-    entries: list,
-  });
+  const featuredBlock = featuredResult?.block ?? null;
+  const envelopeWith = (list) => {
+    const envelope = {
+      schema_version: V2_SCHEMA_VERSION,
+      generated_at: generatedAt(previous, now),
+      source_fetched_at: market.source_fetched_at,
+      source_repo_count: market.source_repo_count,
+      pool_count: market.pool_count,
+      packages_mapped_count: mappedCount,
+      entries: list,
+    };
+    if (featuredBlock !== null) {
+      envelope.featured_count = featuredBlock.entries.length;
+      envelope.featured = featuredBlock;
+    }
+    return envelope;
+  };
 
   // generated_at must be monotonically non-decreasing, like the v1 rule:
   // clock skew between machines must never move it backwards.
@@ -242,13 +344,15 @@ export function buildMarketV2({ market, packages, previous = null, now = new Dat
   if (bytes(entries) > maxBytes) {
     return {
       outcome: 'aborted',
-      reason: `the joined v2 payload is ${bytes(entries)} bytes, over the ${maxBytes}-byte cap — trim the mapping, not the feed (a v2 prefix would silently disagree with the v1 feed it extends)`,
+      reason: `the joined v2 payload is ${bytes(entries)} bytes, over the ${maxBytes}-byte cap — trim the mapping, not the feed (a v2 prefix would silently disagree with the v1 feed it claims to extend)`,
       warnings,
     };
   }
 
-  // Same base feed + same mapping: keep the previous file bit for bit (its
-  // generated_at included) so re-runs stay no-op commits.
+  // Same base feed + same mapping + same featured list: keep the previous
+  // file bit for bit (its generated_at included) so re-runs stay no-op
+  // commits. The featured comparison is part of the identity — a featured-
+  // only edit must republish, not ride an "unchanged" outcome.
   if (
     previous &&
     previous.schema_version === V2_SCHEMA_VERSION &&
@@ -256,7 +360,8 @@ export function buildMarketV2({ market, packages, previous = null, now = new Dat
     previous.source_repo_count === market.source_repo_count &&
     previous.pool_count === market.pool_count &&
     previous.packages_mapped_count === mappedCount &&
-    JSON.stringify(previous.entries) === JSON.stringify(entries)
+    JSON.stringify(previous.entries) === JSON.stringify(entries) &&
+    JSON.stringify(previous.featured ?? null) === JSON.stringify(featuredBlock)
   ) {
     return { outcome: 'unchanged', envelope: previous, mappedCount, warnings };
   }
@@ -279,15 +384,30 @@ async function summaryBlock(title, body) {
 // The CLI body, exported so tests can run it against a scratch root.
 // Returns 'written' | 'unchanged' | 'aborted' | 'oversize'.
 export async function runMarketV2({ rootDir = root } = {}) {
-  const [market, packages, previous] = await Promise.all([
+  const [market, packages, featured, previous] = await Promise.all([
     readFile(resolve(rootDir, 'data/market.json'), 'utf8').then(JSON.parse),
     readFile(resolve(rootDir, 'data/packages.json'), 'utf8').then(JSON.parse),
+    readFile(resolve(rootDir, 'data/featured.json'), 'utf8')
+      .then(JSON.parse)
+      .catch((error) => {
+        if (error.code !== 'ENOENT') throw error;
+        return null; // absent source: publish without the section (fresh checkouts, scratch roots)
+      }),
     readFile(resolve(rootDir, 'data/market-v2.json'), 'utf8')
       .then(JSON.parse)
       .catch(() => null),
   ]);
 
-  const result = buildMarketV2({ market, packages, previous });
+  // A missing featured.json is legal only when there is nothing to lose:
+  // silently stripping the published section would be a destructive no-op
+  // commit, so abort and demand the source back instead.
+  if (featured === null && previous?.featured) {
+    console.error('market-v2 generation aborted: data/featured.json is missing but the published v2 feed carries a featured block — restore the source instead of silently stripping the section.');
+    await summaryBlock('⚠️ market-v2 generation aborted', '`data/featured.json` is missing while the published feed has a `featured` block; the previous `data/market-v2.json` is left untouched.');
+    return 'aborted';
+  }
+
+  const result = buildMarketV2({ market, packages, featured, previous });
 
   if (result.outcome === 'aborted') {
     console.error(`market-v2 generation aborted: ${result.reason}`);

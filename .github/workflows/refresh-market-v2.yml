@@ -3,11 +3,14 @@ name: Refresh the v2 market feed
 # data/market-v2.json is the schema-v2 superset of the published v1 feed:
 # same entries, same order, with the hand-maintained install mapping
 # (data/packages.json) joined onto every covered entry as a `packages`
-# block. It must be rebuilt whenever either source moves:
+# block, plus the hand-maintained editor's picks (data/featured.json) as
+# the envelope-level `featured` section. It must be rebuilt whenever any
+# source moves:
 #   - the daily update-catalog.yml (new snapshot → new v1 feed) and
 #     refresh-market.yml (curation change → new v1 feed), hooked via
 #     workflow_run on their successful completion;
-#   - a direct push touching data/packages.json or the generator itself.
+#   - a direct push touching data/packages.json, data/featured.json, or
+#     the generator itself.
 # The v1 feed and its pipeline are untouched — this workflow only ever
 # writes data/market-v2.json, so its own commits cannot re-trigger it.
 #
@@ -26,6 +29,7 @@ on:
       - main
     paths:
       - 'data/packages.json'
+      - 'data/featured.json'
       - 'scripts/market-v2.mjs'
   workflow_dispatch:
 

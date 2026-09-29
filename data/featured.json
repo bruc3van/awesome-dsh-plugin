@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-29",
+  "title_zh": "编辑精选",
+  "title_en": "Editor's Picks",
+  "entries": [
+    {
+      "full_name": "omdsh-dev/DSH-better-sidebar",
+      "reason": "开放侧边栏底座：内置文件渲染编辑、终端、Git 与子代理页面，支持第三方扩展注册新工作台。"
+    },
+    {
+      "full_name": "bowenliang123/dsh-context",
+      "reason": "上下文透视面板：看清窗口里装了什么、如何演化与压缩，把握 token 控制与裁剪时机。"
+    },
+    {
+      "full_name": "xmanrui/dsh-im",
+      "reason": "一个设置页接入飞书、微信、钉钉、企业微信、QQ 等 9 个渠道，把 DSH 装进你的聊天软件。"
+    },
+    {
+      "full_name": "shaobeichen/dsh-pocket",
+      "reason": "电脑跑 dsh web、手机扫码即同屏：局域网与公网隧道、访问密码与移动端适配。"
+    },
+    {
+      "full_name": "NanmiCoder/dsh-agent-teams",
+      "reason": "当前会话作为队长：创建可续聊子 Agent、拆解带依赖任务并实时协调，附活动面板。"
+    },
+    {
+      "full_name": "liustack/modsearch",
+      "reason": "免注册免 Key 的联网搜索：对话中直接搜索与抓取，返回带引用的结构化证据。"
+    },
+    {
+      "full_name": "shanliuling/dsh-image-gen",
+      "reason": "对话内直接生图：支持 Gemini / OpenAI / Seedream / 通义万相，自带画廊与一键下载。"
+    },
+    {
+      "full_name": "omdsh-dev/dsh-genui",
+      "reason": "在回复中内联渲染交互式 UI：布局、图表、表单、测验、Mermaid 与 3D 场景。"
+    },
+    {
+      "full_name": "dream-num/dsh-univer-office",
+      "reason": "Univer 官方出品：把表格、文档、幻灯片、画布与关系表装进对话，数据相互联动。"
+    },
+    {
+      "full_name": "omdsh-dev/dsh-mnemon",
+      "reason": "可组合三层记忆控制面：持久运行时上下文、可检索项目文档与可插拔长期记忆。"
+    },
+    {
+      "full_name": "V1ki/dsh-plugin-subscriptions",
+      "reason": "用已有 ChatGPT（Codex）、Claude、Grok 订阅当模型：OAuth 登录，无需 API Key。"
+    },
+    {
+      "full_name": "Han-1413141/dsh-cost-meter",
+      "reason": "会话成本仪表：本会话/当日费用、预算、各家余额查询与峰谷定价切换提醒。"
+    },
+    {
+      "full_name": "huiliyi37/dsh-tianshu-tui",
+      "reason": "全屏交互终端：ANSI 极简渲染、流式 Markdown、16+ 主题、slash 命令与 LSP 诊断。"
+    },
+    {
+      "full_name": "weijiafu14/pi2dsh",
+      "reason": "Pi Host ABI：未改动的 Pi 扩展原生运行于 DSH，一套打通两个插件生态。"
+    },
+    {
+      "full_name": "Nwflower/dsh-chat-import",
+      "reason": "25+ 源历史会话全保真导入为可续聊 DSH 会话，支持反向导出回 Claude Code。"
+    },
+    {
+      "full_name": "omdsh-dev/dsh-data-agent",
+      "reason": "把 DSH 连上你的数据库：对话式数据分析与可执行的业务洞察。"
+    },
+    {
+      "full_name": "lire1131/dsh-undo-savepoint",
+      "reason": "装坏了能回滚：配置与插件改动可撤销、secret-safe 快照与一键 SAFE MODE。"
+    },
+    {
+      "full_name": "omdsh-dev/dsh-annotation",
+      "reason": "像 Codex 一样选中文本批注，长对话中快速跳转用户消息节点。"
+    },
+    {
+      "full_name": "flymysql/dsh-remote",
+      "reason": "多机 SSH 工作台：密码/私钥/跳板机、21 个远程工具与审计日志，不监听公网端口。"
+    },
+    {
+      "full_name": "bruc3van/bruce-md2word",
+      "reason": "本清单作者的 Markdown 转 Word：中文排版、Mermaid 图表与可编辑公式，本地零依赖转换。"
+    }
+  ]
+}
