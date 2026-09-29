@@ -78,7 +78,7 @@ const featuredSource = (entries, overrides = {}) => ({
   ...overrides,
 });
 
-const pick = (full_name, reason = '一句话推荐理由') => ({ full_name, reason });
+const pick = (full_name) => ({ full_name });
 
 const now = new Date('2026-09-26T10:00:00.000Z');
 
@@ -321,12 +321,12 @@ test('featuredBlockFor ships in-feed picks bare and out-of-feed picks with an in
   assert.equal(block.entries.length, 2);
   // Case-insensitive membership: the pick keeps its canonical casing while
   // resolving against the lowercase feed set.
-  assert.deepEqual(block.entries[0], { full_name: 'A/Mapped', reason: '一句话推荐理由' });
+  assert.deepEqual(block.entries[0], { full_name: 'A/Mapped' });
   assert.equal('packages' in block.entries[0], false);
   // The out-of-feed pick carries the packages block so consumers stay
   // install-ready without the feed entry (bruc3van/bruce-md2word shape).
   assert.deepEqual(block.entries[1].packages, packagesBlockFor(commandRecord()));
-  assert.deepEqual(block.entries[1], { full_name: 'b/off-feed', reason: '一句话推荐理由', packages: packagesBlockFor(commandRecord()) });
+  assert.deepEqual(block.entries[1], { full_name: 'b/off-feed', packages: packagesBlockFor(commandRecord()) });
   assert.equal(warnings.length, 1);
   assert.match(warnings[0], /b\/off-feed: featured, but not in the published feed/);
 });
@@ -347,7 +347,6 @@ test('featuredBlockFor rejects picks without a standardized mapping, dupes, and 
   assert.throws(() => featuredBlockFor(featuredSource([pick('a/mapped')], { schema_version: 2 })), /schema_version/);
   assert.throws(() => featuredBlockFor(featuredSource([pick('a/mapped')], { updated_at: '09/26/2026' })), /updated_at/);
   assert.throws(() => featuredBlockFor(featuredSource([pick('not-a-slug')]), recordFor, inFeed), /owner\/repo slug/);
-  assert.throws(() => featuredBlockFor(featuredSource([pick('a/mapped', 'x'.repeat(121))]), recordFor, inFeed), /cap is 120/);
   const many = Array.from({ length: MAX_FEATURED_ENTRIES + 1 }, (_, i) => pick(`o/repo-${i}`));
   assert.throws(() => featuredBlockFor(featuredSource(many), () => commandRecord(), inFeed), /cap is 50/);
 });
@@ -378,17 +377,18 @@ test('buildMarketV2 carries the featured section and counts it honestly', () => 
 
 test('buildMarketV2 treats a featured-only edit as a change worth republishing', () => {
   const market = v1Market([v1Entry({ full_name: 'a/mapped' })]);
-  const pkgs = packages({ 'a/mapped': commandRecord() });
+  const pkgs = packages({ 'a/mapped': commandRecord(), 'b/added': commandRecord() });
   const first = buildMarketV2({ market, packages: pkgs, featured: featuredSource([pick('a/mapped')]), now });
   assert.equal(first.outcome, 'written');
   // Same everything: unchanged, bit for bit.
   const same = buildMarketV2({ market, packages: pkgs, featured: featuredSource([pick('a/mapped')]), previous: first.envelope, now: new Date('2026-09-27T00:00:00.000Z') });
   assert.equal(same.outcome, 'unchanged');
   assert.deepEqual(same.envelope, first.envelope);
-  // A new reason with identical feed + mapping must still republish.
-  const edited = buildMarketV2({ market, packages: pkgs, featured: featuredSource([pick('a/mapped', '换了一句推荐语')]), previous: first.envelope, now });
+  // A new pick with identical feed + mapping must still republish.
+  const edited = buildMarketV2({ market, packages: pkgs, featured: featuredSource([pick('a/mapped'), pick('b/added')]), previous: first.envelope, now });
   assert.equal(edited.outcome, 'written');
-  assert.equal(edited.envelope.featured.entries[0].reason, '换了一句推荐语');
+  assert.equal(edited.envelope.featured_count, 2);
+  assert.equal(edited.envelope.featured.entries[1].full_name, 'b/added');
   // Dropping the featured source is likewise a change — but runMarketV2
   // guards the destructive variant (published section + missing source).
   const dropped = buildMarketV2({ market, packages: pkgs, previous: first.envelope, now });

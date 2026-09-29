@@ -12,13 +12,12 @@
 //
 // On top of the join, the envelope carries an optional `featured` block —
 // the hand-maintained editor's picks (data/featured.json): an ordered list
-// of full names, each with a one-line reason. The gate that makes a pick
-// publishable is the standardized install: every featured repo must have a
-// packages.json mapping, or the build aborts. Picks inside the published
-// feed resolve through their feed entry; a pick the daily deal left out
-// (bruc3van/bruce-md2word — too few stars for the 600-entry round-robin)
-// rides along with its packages block inline, so consumers stay
-// install-ready from the featured section alone.
+// of full names. The gate that makes a pick publishable is the standardized
+// install: every featured repo must have a packages.json mapping, or the
+// build aborts. Picks inside the published feed resolve through their feed
+// entry; a pick the daily deal left out (bruc3van/bruce-md2word — too few
+// stars for the 600-entry round-robin) rides along with its packages block
+// inline, so consumers stay install-ready from the featured section alone.
 //
 // The file is a pure projection of already-validated sources: the
 // published v1 feed, packages.json, and featured.json. No filtering,
@@ -61,7 +60,6 @@ export const TEXT_LIMITS = {
   verified_via: 100,
   title: 40,
   full_name: 100,
-  reason: 120,
 };
 
 const SOURCE_KIND = /^(npm|github|url|link):(.+)$/;
@@ -249,10 +247,7 @@ export function featuredBlockFor(featured, recordFor, inFeed) {
       throw new Error(`${where} (${fullName}) has no packages.json mapping — an editor's pick must be installable through the standardized mapping`);
     }
 
-    const wire = {
-      full_name: fullName,
-      reason: prose(entry.reason, TEXT_LIMITS.reason, `${where}.reason`),
-    };
+    const wire = { full_name: fullName };
     if (!inFeed.has(lower)) {
       wire.packages = packagesBlockFor(record);
       warnings.push(`${fullName}: featured, but not in the published feed — shipping with its packages block inline; it rejoins the entries array when the daily deal readmits it`);

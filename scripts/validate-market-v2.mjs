@@ -6,7 +6,7 @@
 // the same exported transforms (packagesBlockFor, featuredBlockFor) and demand
 // byte-level structural equality. A hand-edited market-v2.json — a tweaked
 // command, an extra entry, a dropped requirements list, a smuggled featured
-// reason — can never survive that. Beyond the joins, this pass also checks
+// pick — can never survive that. Beyond the joins, this pass also checks
 // the envelope (schema v2, source counters mirrored from v1, mapped and
 // featured counts honest) and the size cap.
 
@@ -125,9 +125,9 @@ for (const slug of Object.keys(mapping)) {
 }
 
 // The featured section: recompute the whole block from its source and demand
-// equality — order, reasons, and the inline packages blocks of picks outside
-// the feed are all editorial decisions that must round-trip through
-// data/featured.json, never through the published file.
+// equality — order and the inline packages blocks of picks outside the feed
+// are editorial decisions that must round-trip through data/featured.json,
+// never through the published file.
 if (featured !== null) {
   try {
     const recordByLower = new Map(Object.entries(mapping).map(([slug, record]) => [slug.toLowerCase(), record]));
