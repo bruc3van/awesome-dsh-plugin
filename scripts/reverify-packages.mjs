@@ -90,14 +90,23 @@ async function reverifyEntry(slug, record) {
   const { picks, found, segments } = extractInstallTargets(text, { owner, repo, maxTargets: Infinity });
   const extractedKeys = new Set(picks.map((p) => normalKey(p.source)));
   // One package can be documented under several profiles (web / desktop /
-  // dsh-tui / …) with different command lines — a recorded command is fresh
-  // as long as it matches ANY of them, not just the last one seen.
+  // dsh-tui / …) and several variants of the same command — a recorded
+  // command is fresh as long as it matches ANY documented candidate, not
+  // just the deduped pick. Picks collapse same-package variants
+  // (unversioned / @latest / pinned) to one representative, and a
+  // "paste this prompt to your AI" fence can win that dedupe with prose
+  // glued onto the command (michengai/*, 2026-09-29) while the README's
+  // manual-install block still documents the exact clean command we
+  // recorded — so the equality set is built from every candidate `found`
+  // holds, not only from `picks`.
   const extractedCommands = new Map();
-  for (const pick of picks) {
-    const key = normalKey(pick.source);
+  const addDocumentedCommand = (source, command) => {
+    const key = normalKey(source);
     if (!extractedCommands.has(key)) extractedCommands.set(key, new Set());
-    extractedCommands.get(key).add(pick.command);
-  }
+    extractedCommands.get(key).add(command);
+  };
+  for (const pick of picks) addDocumentedCommand(pick.source, pick.command);
+  for (const candidate of found) addDocumentedCommand(candidate.cls.source, candidate.command);
   // Presence check: a recorded target still counts as documented when it
   // appears as any token after an `add` — covers multi-package single-line
   // installs (`add dsh-shared dsh-md-render`) and suites beyond the pick cap.

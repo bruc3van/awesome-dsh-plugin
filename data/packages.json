@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-26",
+  "updated_at": "2026-09-29",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -451,9 +451,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "https://github.com/Amakurai/dsh-liketavern#v0.4.0",
-          "source": "github:Amakurai/dsh-liketavern#v0.4.0",
-          "command": "dsh plugin --profile web add github:Amakurai/dsh-liketavern#v0.4.0"
+          "install": "https://github.com/Amakurai/dsh-liketavern#v0.4.3",
+          "source": "github:Amakurai/dsh-liketavern#v0.4.3",
+          "command": "dsh plugin --profile web add github:Amakurai/dsh-liketavern#v0.4.3"
         }
       ],
       "status": "readme-verified",
@@ -603,9 +603,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@anweat/dsh-browser",
-          "source": "npm:@anweat/dsh-browser",
-          "command": "dsh plugin --profile web add @anweat/dsh-browser"
+          "install": "@anweat/dsh-browser@0.1.15",
+          "source": "npm:@anweat/dsh-browser@0.1.15",
+          "command": "dsh plugin --profile web add @anweat/dsh-browser@0.1.15"
         }
       ],
       "status": "readme-verified",
@@ -890,10 +890,10 @@
       "packages": [
         {
           "profile": "web",
-          "install": "bruce-md2word@0.6.0",
-          "source": "npm:bruce-md2word@0.6.0",
-          "command": "dsh plugin --profile web add bruce-md2word@0.6.0",
-          "note": "锁宿主版本装法：npx @deepseek-ai/dsh@0.1.7-rc.2 plugin --profile web add bruce-md2word@0.6.0"
+          "install": "bruce-md2word@0.6.5",
+          "source": "npm:bruce-md2word@0.6.5",
+          "command": "dsh plugin --profile web add bruce-md2word@0.6.5",
+          "note": "锁宿主版本装法：npx @deepseek-ai/dsh@0.1.7-rc.2 plugin --profile web add bruce-md2word@0.6.5"
         }
       ],
       "requirements": [
@@ -1927,9 +1927,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-codex-connect@0.1.0-alpha.4.50",
-          "source": "npm:dsh-codex-connect@0.1.0-alpha.4.50",
-          "command": "dsh plugin --profile web add dsh-codex-connect@0.1.0-alpha.4.50"
+          "install": "dsh-codex-connect@0.1.0-alpha.4.52",
+          "source": "npm:dsh-codex-connect@0.1.0-alpha.4.52",
+          "command": "dsh plugin --profile web add dsh-codex-connect@0.1.0-alpha.4.52"
         }
       ],
       "status": "readme-verified",
@@ -2150,15 +2150,15 @@
         },
         {
           "profile": "web",
-          "install": "https://github.com/Han-1413141/dsh-cost-meter#v1.7.39",
-          "source": "github:Han-1413141/dsh-cost-meter#v1.7.39",
-          "command": "dsh plugin --profile web add github:Han-1413141/dsh-cost-meter#v1.7.39"
+          "install": "https://github.com/Han-1413141/dsh-cost-meter#v1.7.44",
+          "source": "github:Han-1413141/dsh-cost-meter#v1.7.44",
+          "command": "dsh plugin --profile web add github:Han-1413141/dsh-cost-meter#v1.7.44"
         },
         {
           "profile": "web",
-          "install": "https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.7.39.tar.gz",
-          "source": "url:https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.7.39.tar.gz",
-          "command": "dsh plugin --profile web add https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.7.39.tar.gz"
+          "install": "https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.7.44.tar.gz",
+          "source": "url:https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.7.44.tar.gz",
+          "command": "dsh plugin --profile web add https://github.com/Han-1413141/dsh-cost-meter/archive/refs/tags/v1.7.44.tar.gz"
         }
       ],
       "status": "readme-verified",
@@ -2169,9 +2169,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "https://github.com/HanaAyane/dsh-reasoning-effort#v0.7.3",
-          "source": "github:HanaAyane/dsh-reasoning-effort#v0.7.3",
-          "command": "dsh plugin --profile web add github:HanaAyane/dsh-reasoning-effort#v0.7.3"
+          "install": "https://github.com/HanaAyane/dsh-reasoning-effort#v0.8.0",
+          "source": "github:HanaAyane/dsh-reasoning-effort#v0.8.0",
+          "command": "dsh plugin --profile web add github:HanaAyane/dsh-reasoning-effort#v0.8.0"
         }
       ],
       "status": "readme-verified",
@@ -3276,9 +3276,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "ds-harness-remote@0.4.17",
-          "source": "npm:ds-harness-remote@0.4.17",
-          "command": "dsh plugin --profile web add -w ds-harness-remote@0.4.17"
+          "install": "ds-harness-remote@0.4.23",
+          "source": "npm:ds-harness-remote@0.4.23",
+          "command": "dsh plugin --profile web add -w ds-harness-remote@0.4.23"
         }
       ],
       "status": "readme-verified",
@@ -3453,19 +3453,6 @@
           "install": "https://github.com/loadingvx/deepseek-harness-workbench-plugin",
           "source": "github:loadingvx/deepseek-harness-workbench-plugin",
           "command": "dsh plugin --profile web add github:loadingvx/deepseek-harness-workbench-plugin"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
-    "lusblead/dsh-kingdom": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-kingdom@2.0.0",
-          "command": "dsh plugin --profile web add dsh-kingdom@2.0.0 --registry=https://registry.npmjs.org",
-          "install": "dsh-kingdom@2.0.0"
         }
       ],
       "status": "readme-verified",
@@ -3967,22 +3954,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@nanmicoder/dsh-agent-teams@0.1.21",
-          "source": "npm:@nanmicoder/dsh-agent-teams@0.1.21",
-          "command": "dsh plugin --profile web add --save-exact @nanmicoder/dsh-agent-teams@0.1.21"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
-    "nanmicoder/dsh-auto-mode": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "@nanmicoder/dsh-auto-mode@0.1.10",
-          "source": "npm:@nanmicoder/dsh-auto-mode@0.1.10",
-          "command": "dsh plugin --profile web add @nanmicoder/dsh-auto-mode@0.1.10"
+          "install": "@nanmicoder/dsh-agent-teams@0.1.22-rc.1",
+          "source": "npm:@nanmicoder/dsh-agent-teams@0.1.22-rc.1",
+          "command": "dsh plugin --profile web add --save-exact @nanmicoder/dsh-agent-teams@0.1.22-rc.1"
         }
       ],
       "status": "readme-verified",
@@ -4232,12 +4206,6 @@
           "install": "dsh-mnemon",
           "source": "npm:dsh-mnemon",
           "command": "dsh plugin --profile web add dsh-mnemon"
-        },
-        {
-          "profile": "headless",
-          "install": "dsh-mnemon",
-          "source": "npm:dsh-mnemon",
-          "command": "dsh plugin --profile headless add dsh-mnemon"
         }
       ],
       "status": "readme-verified",
@@ -6182,10 +6150,10 @@
     "webkubor/dsh-env-inspector": {
       "packages": [
         {
-          "profile": "default",
+          "profile": "web",
           "install": "@dsh-plugins/dsh-env-inspector",
           "source": "npm:@dsh-plugins/dsh-env-inspector",
-          "command": "dsh plugin add @dsh-plugins/dsh-env-inspector"
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @dsh-plugins/dsh-env-inspector"
         }
       ],
       "status": "readme-verified",
@@ -6198,7 +6166,7 @@
           "profile": "web",
           "install": "@dsh-plugins/dsh-llm-hub",
           "source": "npm:@dsh-plugins/dsh-llm-hub",
-          "command": "dsh plugin --profile web add @dsh-plugins/dsh-llm-hub"
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @dsh-plugins/dsh-llm-hub"
         }
       ],
       "status": "readme-verified",
@@ -6440,9 +6408,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "https://github.com/wssfk12138/dsh-damage-pulse",
-          "source": "github:wssfk12138/dsh-damage-pulse",
-          "command": "dsh plugin --profile web add github:wssfk12138/dsh-damage-pulse"
+          "install": "dsh-damage-pulse",
+          "source": "npm:dsh-damage-pulse",
+          "command": "dsh plugin --profile web add dsh-damage-pulse"
         }
       ],
       "status": "readme-verified",
@@ -7077,9 +7045,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "https://github.com/zenstory-ai/oh-story-dsh/releases/download/v0.1.10/oh-story-dsh-0.1.10.tgz",
-          "source": "url:https://github.com/zenstory-ai/oh-story-dsh/releases/download/v0.1.10/oh-story-dsh-0.1.10.tgz",
-          "command": "dsh plugin --profile web add https://github.com/zenstory-ai/oh-story-dsh/releases/download/v0.1.10/oh-story-dsh-0.1.10.tgz"
+          "install": "https://github.com/zenstory-ai/oh-story-dsh/releases/download/v0.1.12/oh-story-dsh-0.1.12.tgz",
+          "source": "url:https://github.com/zenstory-ai/oh-story-dsh/releases/download/v0.1.12/oh-story-dsh-0.1.12.tgz",
+          "command": "dsh plugin --profile web add https://github.com/zenstory-ai/oh-story-dsh/releases/download/v0.1.12/oh-story-dsh-0.1.12.tgz"
         }
       ],
       "status": "readme-verified",
