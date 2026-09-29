@@ -113,6 +113,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "1475505/miliastra-beyond-simulator": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/1475505/miliastra-beyond-simulator",
+          "source": "github:1475505/miliastra-beyond-simulator",
+          "command": "dsh plugin --profile web add github:1475505/miliastra-beyond-simulator"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@master"
+    },
     "1692775560/dsh-mimir-academic-research": {
       "packages": [
         {
@@ -284,6 +297,25 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "abcdefgxw/dsh-msg-hub": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-msg-hub",
+          "source": "npm:dsh-msg-hub",
+          "command": "dsh plugin --profile web add dsh-msg-hub"
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/AbcdefgXW/dsh-msg-hub",
+          "source": "github:AbcdefgXW/dsh-msg-hub",
+          "command": "dsh plugin --profile web add github:AbcdefgXW/dsh-msg-hub"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "acidgr/dsh-web-lan-access": {
       "packages": [
         {
@@ -320,6 +352,19 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "afrel1024/dsh-client-ui-aqua-unofficial": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-client-ui-aqua-unofficial",
+          "source": "npm:dsh-client-ui-aqua-unofficial",
+          "command": "dsh plugin --profile web add dsh-client-ui-aqua-unofficial"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
       "verified_via": "README@main"
     },
     "agentconnect/dsh-awiki": {
@@ -420,6 +465,19 @@
       "status": "readme-verified",
       "verified_date": "2026-09-26",
       "verified_via": "README@master"
+    },
+    "algerkong/dsh-image-preview": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/algerkong/dsh-image-preview",
+          "source": "github:algerkong/dsh-image-preview",
+          "command": "dsh plugin --profile web add 'github:algerkong/dsh-image-preview'"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
     },
     "alingalingling/ui-status-label": {
       "packages": [
@@ -543,6 +601,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "angeloszou/graphlint": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-graphlint",
+          "source": "npm:dsh-graphlint",
+          "command": "dsh plugin --profile web add dsh-graphlint"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "anionex/dsh-turn-rewind": {
       "packages": [
         {
@@ -612,6 +683,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@master"
     },
+    "anweat/dsh-web-search-pro": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@anweat/dsh-browser@0.1.15",
+          "source": "npm:@anweat/dsh-browser@0.1.15",
+          "command": "dsh plugin --profile web add @anweat/dsh-browser@0.1.15 dsh-web-search-pro@0.1.15"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@master"
+    },
     "anysearch-team/anysearch-dsh": {
       "packages": [
         {
@@ -623,6 +707,25 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "asaiuta/dsh-session-hub": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-session-hub@alpha",
+          "source": "npm:dsh-session-hub@alpha",
+          "command": "dsh plugin --profile web add dsh-session-hub@alpha"
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/Asaiuta/dsh-session-hub/archive/refs/tags/v0.1.0-alpha.2.tar.gz",
+          "source": "url:https://github.com/Asaiuta/dsh-session-hub/archive/refs/tags/v0.1.0-alpha.2.tar.gz",
+          "command": "dsh plugin --profile web add https://github.com/Asaiuta/dsh-session-hub/archive/refs/tags/v0.1.0-alpha.2.tar.gz"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
       "verified_via": "README@main"
     },
     "asher-2000/dsh-expert-mode": {
@@ -645,6 +748,19 @@
       "verified_via": "README@main",
       "manual_instructions": "README 安装命令为「dsh plugin --profile <你的profile> add @asherliner/dsh-memory-connect」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
       "install_mode": "manual"
+    },
+    "asktheway/dsh-auto-memory": {
+      "packages": [
+        {
+          "profile": "demo",
+          "install": "dsh-auto-memory",
+          "source": "npm:dsh-auto-memory",
+          "command": "dsh plugin --profile demo add dsh-auto-memory"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
     },
     "awesome-dsh-plugin/dsh-find-plugin": {
       "packages": [
@@ -722,6 +838,19 @@
       "status": "readme-verified",
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
+    },
+    "azzygoatcoder/agent-useful-skills": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/Azzygoatcoder/agent-useful-skills",
+          "source": "github:Azzygoatcoder/agent-useful-skills",
+          "command": "dsh plugin --profile web add github:Azzygoatcoder/agent-useful-skills"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@master"
     },
     "baihejiangnan/dsh-session-context-menu": {
       "packages": [
@@ -873,6 +1002,25 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "bowluna/dsh-custom-mode": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-custom-mode@1.9.19",
+          "source": "npm:dsh-custom-mode@1.9.19",
+          "command": "dsh plugin --profile web add dsh-custom-mode@1.9.19"
+        },
+        {
+          "profile": "default",
+          "install": "dsh-custom-mode",
+          "source": "npm:dsh-custom-mode",
+          "command": "dsh plugin add dsh-custom-mode"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "breeze136/dsh-kb-rag": {
       "packages": [
         {
@@ -964,6 +1112,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "cakeni/harness-pet": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/cakeni/harness-pet",
+          "source": "github:cakeni/harness-pet",
+          "command": "dsh plugin --profile web add github:cakeni/harness-pet"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "canglongcl/dsh-web-review": {
       "packages": [
         {
@@ -994,6 +1155,19 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "cavan-ou/hermes-dsh-collab": {
+      "packages": [
+        {
+          "profile": "headless",
+          "install": "https://github.com/Cavan-Ou/hermes-dsh-collab",
+          "source": "github:Cavan-Ou/hermes-dsh-collab",
+          "command": "dsh plugin --profile headless add github:Cavan-Ou/hermes-dsh-collab"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
       "verified_via": "README@main"
     },
     "ccch1mneyyy/dsh-tui": {
@@ -1188,6 +1362,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "cocofhu/skillhub": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@cocofhu/skillhub",
+          "source": "npm:@cocofhu/skillhub",
+          "command": "dsh plugin --profile web add @cocofhu/skillhub"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "codemonkey-pine/dsh-wallpaper": {
       "packages": [
         {
@@ -1322,6 +1509,19 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@master"
+    },
+    "ddtcorex/maestro-skills": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/ddtcorex/maestro-skills",
+          "source": "github:ddtcorex/maestro-skills",
+          "command": "dsh plugin --profile web add github:ddtcorex/maestro-skills"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
       "verified_via": "README@master"
     },
     "dely0/dsh-personal-workbench": {
@@ -1485,6 +1685,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "dongsheng123132/task-passport": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "task-passport@0.3.0",
+          "source": "npm:task-passport@0.3.0",
+          "command": "dsh plugin --profile web add task-passport@0.3.0"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "dream-num/dsh-univer-office": {
       "packages": [
         {
@@ -1614,6 +1827,25 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "eternalnight996/memory-eternal": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "memory-eternal",
+          "source": "npm:memory-eternal",
+          "command": "dsh plugin --profile desktop add memory-eternal"
+        },
+        {
+          "profile": "web",
+          "install": "memory-eternal",
+          "source": "npm:memory-eternal",
+          "command": "dsh plugin --profile web add memory-eternal"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
       "verified_via": "README@main"
     },
     "ethanyoq/invoice-downloader": {
@@ -2165,6 +2397,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@master"
     },
+    "han-1413141/dsh-ui-hub": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/Han-1413141/dsh-ui-hub",
+          "source": "github:Han-1413141/dsh-ui-hub",
+          "command": "dsh plugin --profile web add github:Han-1413141/dsh-ui-hub"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "hanaayane/dsh-reasoning-effort": {
       "packages": [
         {
@@ -2608,6 +2853,31 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@master"
     },
+    "hubaking/dsh-community-plugins": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/HubaKing/dsh-community-plugins",
+          "source": "github:HubaKing/dsh-community-plugins",
+          "command": "dsh plugin --profile web add github:HubaKing/dsh-community-plugins"
+        },
+        {
+          "profile": "web",
+          "install": "https://gitee.com/HubaKing/dsh-community-plugins.git",
+          "source": "url:https://gitee.com/HubaKing/dsh-community-plugins.git",
+          "command": "dsh plugin --profile web add https://gitee.com/HubaKing/dsh-community-plugins.git"
+        },
+        {
+          "profile": "default",
+          "install": "dsh-community-plugins",
+          "source": "npm:dsh-community-plugins",
+          "command": "dsh plugin add dsh-community-plugins"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "huiliyi37/dsh-tianshu-tui": {
       "packages": [
         {
@@ -2626,6 +2896,19 @@
       "status": "readme-verified",
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
+    },
+    "huoxue1/harness-lark": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "harness-lark",
+          "source": "npm:harness-lark",
+          "command": "dsh plugin --profile web add harness-lark"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@master"
     },
     "huxint/dsh-team": {
       "packages": [
@@ -2716,6 +2999,19 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "ishuowang/dsh-agent-team-room": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/ishuowang/dsh-agent-team-room#v0.6.0",
+          "source": "github:ishuowang/dsh-agent-team-room#v0.6.0",
+          "command": "dsh plugin --profile web add github:ishuowang/dsh-agent-team-room#v0.6.0"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
       "verified_via": "README@main"
     },
     "jean3690/dsh-drawio": {
@@ -2904,6 +3200,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "k-ying/dsh-vsceditor": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/k-ying/dsh-vsceditor",
+          "source": "github:k-ying/dsh-vsceditor",
+          "command": "dsh plugin --profile web add github:k-ying/dsh-vsceditor"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "kaiji-z/dsh-plugin-lookatstudy": {
       "packages": [
         {
@@ -3018,6 +3327,19 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "kinoward/dsh-plugin-subhub": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/kinoward/dsh-plugin-subhub",
+          "source": "github:kinoward/dsh-plugin-subhub",
+          "command": "dsh plugin --profile web add github:kinoward/dsh-plugin-subhub"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
       "verified_via": "README@main"
     },
     "knqiufan/powercontext-dsh": {
@@ -3225,6 +3547,19 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "lhwu1/dsh-withskillhub": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/lhwu1/dsh-withskillhub",
+          "source": "github:lhwu1/dsh-withskillhub",
+          "command": "dsh plugin --profile web add github:lhwu1/dsh-withskillhub"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
       "verified_via": "README@main"
     },
     "liangmianya/dsh-synapse": {
@@ -3497,6 +3832,25 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "madage/dsh-self-improved": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-self-improved",
+          "source": "npm:dsh-self-improved",
+          "command": "dsh plugin --profile web add dsh-self-improved"
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/madage/dsh-self-improved",
+          "source": "github:madage/dsh-self-improved",
+          "command": "dsh plugin --profile web add github:madage/dsh-self-improved"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@master"
+    },
     "maddogfinance/dsh-trading": {
       "packages": [
         {
@@ -3616,6 +3970,25 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "maxwell-feng/dsh-tinyfish-search": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-tinyfish-search",
+          "source": "npm:dsh-tinyfish-search",
+          "command": "dsh plugin --profile web add dsh-tinyfish-search"
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/maxwell-feng/dsh-tinyfish-search",
+          "source": "github:maxwell-feng/dsh-tinyfish-search",
+          "command": "dsh plugin --profile web add github:maxwell-feng/dsh-tinyfish-search"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
       "verified_via": "README@main"
     },
     "meredith2328/dsh-sticky-note": {
@@ -4000,6 +4373,31 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "nonamelego/dsh-catppuccin-theme": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "https://github.com/NoNameLeGo/dsh-catppuccin-theme",
+          "source": "url:https://github.com/NoNameLeGo/dsh-catppuccin-theme",
+          "command": "dsh plugin --profile desktop add https://github.com/NoNameLeGo/dsh-catppuccin-theme"
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/NoNameLeGo/dsh-catppuccin-theme",
+          "source": "url:https://github.com/NoNameLeGo/dsh-catppuccin-theme",
+          "command": "dsh plugin --profile web add https://github.com/NoNameLeGo/dsh-catppuccin-theme"
+        },
+        {
+          "profile": "dsh-tui",
+          "install": "https://github.com/NoNameLeGo/dsh-catppuccin-theme",
+          "source": "url:https://github.com/NoNameLeGo/dsh-catppuccin-theme",
+          "command": "dsh plugin --profile dsh-tui add https://github.com/NoNameLeGo/dsh-catppuccin-theme"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
       "verified_via": "README@main"
     },
     "null119/dsh-mcp-manage": {
@@ -5142,6 +5540,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "redfox-data/redfox-community-dsh": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/redfox-data/redfox-community-dsh",
+          "source": "github:redfox-data/redfox-community-dsh",
+          "command": "dsh plugin --profile web add github:redfox-data/redfox-community-dsh"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "relistencode/dsh-extension-hub": {
       "packages": [
         {
@@ -5455,6 +5866,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@master"
     },
+    "skymecode/dsh-deep-diving": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/skymecode/dsh-deep-diving/releases/download/v0.2.1/dsh-deep-dive-skins-0.2.1.tgz",
+          "source": "url:https://github.com/skymecode/dsh-deep-diving/releases/download/v0.2.1/dsh-deep-dive-skins-0.2.1.tgz",
+          "command": "dsh plugin --profile web add https://github.com/skymecode/dsh-deep-diving/releases/download/v0.2.1/dsh-deep-dive-skins-0.2.1.tgz"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "slin-code/dsh-custom-skin": {
       "packages": [
         {
@@ -5709,6 +6133,25 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "sunshine-lang/dsh-plugins": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/sunshine-lang/dsh-weather",
+          "source": "github:sunshine-lang/dsh-weather",
+          "command": "dsh plugin --profile web add \"github:sunshine-lang/dsh-weather\""
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/sunshine-lang/dsh-pdf",
+          "source": "github:sunshine-lang/dsh-pdf",
+          "command": "dsh plugin --profile web add \"github:sunshine-lang/dsh-pdf\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "sunxin-ai/dsh-design-qa": {
       "packages": [
         {
@@ -5811,6 +6254,19 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "tauruswood/dsh-plugin-appshot": {
+      "packages": [
+        {
+          "profile": "default",
+          "install": "dsh-plugin-appshot",
+          "source": "npm:dsh-plugin-appshot",
+          "command": "dsh plugin add dsh-plugin-appshot"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
       "verified_via": "README@main"
     },
     "tencent-connect/dsh-qqbot": {
@@ -5935,6 +6391,19 @@
       "status": "readme-verified",
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
+    },
+    "toustifer/dsh-harvest": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@stifer/dsh-harvest",
+          "source": "npm:@stifer/dsh-harvest",
+          "command": "dsh plugin --profile web add @stifer/dsh-harvest"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@master"
     },
     "tyan66666/billion-context-dsh": {
       "packages": [
@@ -6746,6 +7215,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "yangdcm/dsh-expert-team": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@yangdcm/dsh-expert-team",
+          "source": "npm:@yangdcm/dsh-expert-team",
+          "command": "dsh plugin --profile web add @yangdcm/dsh-expert-team"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
+      "verified_via": "README@main"
+    },
     "ychris12138/dsh-usage-stats": {
       "packages": [
         {
@@ -6981,6 +7463,19 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "yurzi/dsh-pdf-mineru": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-pdf-mineru",
+          "source": "npm:dsh-pdf-mineru",
+          "command": "dsh plugin --profile web add dsh-pdf-mineru"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-29",
       "verified_via": "README@main"
     },
     "yxxbc/dsh-balance-plugin": {
