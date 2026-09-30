@@ -78,7 +78,7 @@ const featuredSource = (entries, overrides = {}) => ({
   ...overrides,
 });
 
-const pick = (full_name) => ({ full_name });
+const pick = (full_name) => ({ full_name, description: '中文插件介绍。' });
 
 const now = new Date('2026-09-26T10:00:00.000Z');
 
@@ -313,7 +313,7 @@ test('runMarketV2 writes the feed, then reports unchanged on a second run', asyn
   assert.deepEqual(afterAbort, onDisk);
 });
 
-test('featuredBlockFor ships in-feed picks bare and out-of-feed picks with an inline packages block', () => {
+test('featuredBlockFor ships descriptions for in-feed picks and out-of-feed picks with an inline packages block', () => {
   const mapping = { 'a/mapped': commandRecord(), 'b/off-feed': commandRecord() };
   const recordFor = (lower) => mapping[lower];
   const inFeed = new Set(['a/mapped']);
@@ -321,12 +321,12 @@ test('featuredBlockFor ships in-feed picks bare and out-of-feed picks with an in
   assert.equal(block.entries.length, 2);
   // Case-insensitive membership: the pick keeps its canonical casing while
   // resolving against the lowercase feed set.
-  assert.deepEqual(block.entries[0], { full_name: 'A/Mapped' });
+  assert.deepEqual(block.entries[0], pick('A/Mapped'));
   assert.equal('packages' in block.entries[0], false);
   // The out-of-feed pick carries the packages block so consumers stay
   // install-ready without the feed entry (bruc3van/bruce-md2word shape).
   assert.deepEqual(block.entries[1].packages, packagesBlockFor(commandRecord()));
-  assert.deepEqual(block.entries[1], { full_name: 'b/off-feed', packages: packagesBlockFor(commandRecord()) });
+  assert.deepEqual(block.entries[1], { ...pick('b/off-feed'), packages: packagesBlockFor(commandRecord()) });
   assert.equal(warnings.length, 1);
   assert.match(warnings[0], /b\/off-feed: featured, but not in the published feed/);
 });
@@ -349,6 +349,21 @@ test('featuredBlockFor rejects picks without a standardized mapping, dupes, and 
   assert.throws(() => featuredBlockFor(featuredSource([pick('not-a-slug')]), recordFor, inFeed), /owner\/repo slug/);
   const many = Array.from({ length: MAX_FEATURED_ENTRIES + 1 }, (_, i) => pick(`o/repo-${i}`));
   assert.throws(() => featuredBlockFor(featuredSource(many), () => commandRecord(), inFeed), /cap is 50/);
+});
+
+test('featured descriptions are required, bounded, and available without a feed entry', () => {
+  for (const description of [undefined, null, 42, '', '   ', '中'.repeat(401)]) {
+    assert.throws(() => featuredBlockFor(
+      featuredSource([{ full_name: 'a/plugin', description }]),
+      () => commandRecord(), new Set(),
+    ), /description/);
+  }
+  const { block } = featuredBlockFor(
+    featuredSource([{ full_name: 'a/plugin', description: ' 中文介绍\n 支持导出。 ' }]),
+    () => commandRecord(), new Set(),
+  );
+  assert.equal(block.entries[0].description, '中文介绍 支持导出。');
+  assert.ok(block.entries[0].packages);
 });
 
 test('buildMarketV2 carries the featured section and counts it honestly', () => {
@@ -384,6 +399,12 @@ test('buildMarketV2 treats a featured-only edit as a change worth republishing',
   const same = buildMarketV2({ market, packages: pkgs, featured: featuredSource([pick('a/mapped')]), previous: first.envelope, now: new Date('2026-09-27T00:00:00.000Z') });
   assert.equal(same.outcome, 'unchanged');
   assert.deepEqual(same.envelope, first.envelope);
+  const translated = buildMarketV2({ market, packages: pkgs,
+    featured: featuredSource([{ ...pick('a/mapped'), description: '更新后的中文介绍。' }]),
+    previous: first.envelope, now });
+  assert.equal(translated.outcome, 'written');
+  assert.equal(translated.envelope.featured.entries[0].description, '更新后的中文介绍。');
+  assert.deepEqual(translated.envelope.entries, first.envelope.entries);
   // A new pick with identical feed + mapping must still republish.
   const edited = buildMarketV2({ market, packages: pkgs, featured: featuredSource([pick('a/mapped'), pick('b/added')]), previous: first.envelope, now });
   assert.equal(edited.outcome, 'written');

@@ -12,7 +12,7 @@
 //
 // On top of the join, the envelope carries an optional `featured` block —
 // the hand-maintained editor's picks (data/featured.json): an ordered list
-// of full names. The gate that makes a pick publishable is the standardized
+// of full names with Chinese descriptions. The gate that makes a pick publishable is the standardized
 // install: every featured repo must have a packages.json mapping, or the
 // build aborts. Picks inside the published feed resolve through their feed
 // entry; a pick the daily deal left out (bruc3van/bruce-md2word — too few
@@ -59,6 +59,7 @@ export const TEXT_LIMITS = {
   task: 40,
   verified_via: 100,
   title: 40,
+  description: 400,
   full_name: 100,
 };
 
@@ -247,7 +248,13 @@ export function featuredBlockFor(featured, recordFor, inFeed) {
       throw new Error(`${where} (${fullName}) has no packages.json mapping — an editor's pick must be installable through the standardized mapping`);
     }
 
-    const wire = { full_name: fullName };
+    if (typeof entry.description !== 'string') {
+      throw new Error(`${where}.description must be a Chinese description string`);
+    }
+    const wire = {
+      full_name: fullName,
+      description: prose(entry.description, TEXT_LIMITS.description, `${where}.description`),
+    };
     if (!inFeed.has(lower)) {
       wire.packages = packagesBlockFor(record);
       warnings.push(`${fullName}: featured, but not in the published feed — shipping with its packages block inline; it rejoins the entries array when the daily deal readmits it`);

@@ -1,68 +1,88 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-29",
+  "updated_at": "2026-10-01",
   "title_zh": "编辑精选",
   "title_en": "Editor's Picks",
   "entries": [
     {
-      "full_name": "omdsh-dev/DSH-better-sidebar"
+      "full_name": "omdsh-dev/DSH-better-sidebar",
+      "description": "开放的侧边栏底座，支持第三方扩展注册页面，内置文件预览与编辑、终端、侧边对话、Git 和子代理页面。"
     },
     {
-      "full_name": "bowenliang123/dsh-context"
+      "full_name": "bowenliang123/dsh-context",
+      "description": "DeepSeek Harness 上下文可视化与管理插件，提供仪表盘、浏览器、侧边栏和命令，查看上下文统计、组成、明细及变化过程。"
     },
     {
-      "full_name": "xmanrui/dsh-im"
+      "full_name": "xmanrui/dsh-im",
+      "description": "通过扫码或机器人凭据，将飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord 和 WhatsApp 接入 DeepSeek Harness。"
     },
     {
-      "full_name": "shaobeichen/dsh-pocket"
+      "full_name": "shaobeichen/dsh-pocket",
+      "description": "在电脑上运行 DSH Web，手机扫码即可同步访问，支持局域网、公网和实时同屏。"
     },
     {
-      "full_name": "NanmiCoder/dsh-agent-teams"
+      "full_name": "NanmiCoder/dsh-agent-teams",
+      "description": "为 DeepSeek Harness 提供多智能体团队协作功能。"
     },
     {
-      "full_name": "liustack/modsearch"
+      "full_name": "liustack/modsearch",
+      "description": "为 DeepSeek Harness 及缺少原生联网能力的模型提供网页与 X 搜索，支持抓取、引用和结构化 JSON 结果，无需注册或 API 密钥。"
     },
     {
-      "full_name": "shanliuling/dsh-image-gen"
+      "full_name": "shanliuling/dsh-image-gen",
+      "description": "DeepSeek Harness 的 AI 图像工作室，可在对话中生成、编辑和对比图片，提供 500 多个提示词、图库、多模型工作流及 ComfyUI 集成。"
     },
     {
-      "full_name": "omdsh-dev/dsh-genui"
+      "full_name": "omdsh-dev/dsh-genui",
+      "description": "在助手回复中直接呈现交互界面，支持布局、图表、表单、测验、Mermaid 和三维场景，并将用户操作反馈给模型。"
     },
     {
-      "full_name": "dream-num/dsh-univer-office"
+      "full_name": "dream-num/dsh-univer-office",
+      "description": "将电子表格、文档、幻灯片、画布和关系表整合进 DeepSeek Harness，支持数据联动、校验、变更版本管理及多智能体隔离工作区协作。"
     },
     {
-      "full_name": "omdsh-dev/dsh-mnemon"
+      "full_name": "omdsh-dev/dsh-mnemon",
+      "description": "为 DeepSeek Harness 提供可组合、基于视图的记忆系统，支持可插拔的数据源和策略，内置三层记忆。"
     },
     {
-      "full_name": "V1ki/dsh-plugin-subscriptions"
+      "full_name": "V1ki/dsh-plugin-subscriptions",
+      "description": "将 ChatGPT（Codex）、Claude 和 Grok（X Premium）订阅接入 DeepSeek Harness 作为模型提供方，可在网页界面通过 OAuth 登录，无需 API 密钥。"
     },
     {
-      "full_name": "Han-1413141/dsh-cost-meter"
+      "full_name": "Han-1413141/dsh-cost-meter",
+      "description": "跟踪 DeepSeek Harness 的会话与模型费用、词元用量、预算、服务商余额和编程套餐配额，提供中英文界面。"
     },
     {
-      "full_name": "huiliyi37/dsh-tianshu-tui"
+      "full_name": "huiliyi37/dsh-tianshu-tui",
+      "description": "DeepSeek Harness 的交互式终端界面插件，支持流式 Markdown、工具卡片、16 种以上主题、斜杠命令与选择器、输入历史、本地偏好保存、LSP 诊断和记忆功能。"
     },
     {
-      "full_name": "weijiafu14/pi2dsh"
+      "full_name": "weijiafu14/pi2dsh",
+      "description": "打通 Pi 与 DeepSeek Harness 生态，通过 Pi 宿主兼容接口，将未经修改的 Pi 扩展作为原生 DSH 插件运行。"
     },
     {
-      "full_name": "Nwflower/dsh-chat-import"
+      "full_name": "Nwflower/dsh-chat-import",
+      "description": "将 25 种以上 AI 编程助手的聊天记录导入 DeepSeek Harness 并继续对话，保留工具调用、推理和结果，支持反向导出与同步。"
     },
     {
-      "full_name": "omdsh-dev/dsh-data-agent"
+      "full_name": "omdsh-dev/dsh-data-agent",
+      "description": "将 DeepSeek Harness 连接到数据库，通过对话分析数据，获取可用于业务决策的洞察。"
     },
     {
-      "full_name": "lire1131/dsh-undo-savepoint"
+      "full_name": "lire1131/dsh-undo-savepoint",
+      "description": "DeepSeek Harness 故障恢复插件，可撤销配置和插件代码变更，创建保护敏感信息的快照，并一键进入安全模式；即使 DSH 无法启动，也可使用离线命令行和图形界面恢复。"
     },
     {
-      "full_name": "omdsh-dev/dsh-annotation"
+      "full_name": "omdsh-dev/dsh-annotation",
+      "description": "DSH Web 选中文字批注插件：选中文字后添加批注，按回车随消息发送；回复可按批注编号逐条对照，支持悬浮标签，无需修改核心代码。"
     },
     {
-      "full_name": "flymysql/dsh-remote"
+      "full_name": "flymysql/dsh-remote",
+      "description": "DeepSeek Harness 远程工作助手，支持通过密钥或密码连接 SSH、选择远程工作区、使用 rw_* 工具操作文件，并通过 SFTP 镜像到本地 DSH 工作区。"
     },
     {
-      "full_name": "bruc3van/bruce-md2word"
+      "full_name": "bruc3van/bruce-md2word",
+      "description": "将 Markdown 报告、方案和技术说明导出为 Word 文档，内置中文排版，支持将 Mermaid 图表渲染为图片，并将 LaTeX 数学公式转换为可编辑的 Word 原生公式。"
     }
   ]
 }
