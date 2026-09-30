@@ -329,8 +329,6 @@ mindmap
 插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 30 条，区满后先进先出；条目若被上方[精选推荐](#-精选推荐)收录，会从本区移除、不占名额。首页只展示**最近 10 条**，完整列表见 [SHOWCASE.md](./SHOWCASE.md)。
 
 <!-- dsh:showcase:start -->
-- **[dsh-feishu](https://github.com/PGZXB/dsh-feishu)**（[@PGZXB](https://github.com/PGZXB) · 2026-08-20）— 把 DeepSeek Harness 装进飞书：一个聊天对应一个 dsh 会话，命令面板、审批与提问全部卡片化，流式卡片实时展示，扫码一次完成配置，随时在手机/桌面指挥本地 agent；已发布 npm `@dsh-feishu/dsh-feishu`。
-- **[dsh-easyrewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite)**（[@Renzic-Stone](https://github.com/Renzic-Stone) · 2026-08-21）— DSH Web 用户消息气泡内联编辑与撤回插件：单击气泡原位编辑、撤回键一键截断重发，惰性提交、无痕替换，版本翻页器回看历史版本，草稿按会话持久化并超时自动备份，界面三语（中文 / English / 日本語），纯官方扩展点实现、零源码补丁。
 - **[tabbit-browser](https://github.com/Tabbit-Browser/dsh-tabbit)**（[@Tabbit-Browser](https://github.com/Tabbit-Browser) · 2026-08-21）— 让 DSH agent 接管你的 Tabbit 浏览器：通过浏览器自带的任务隔离 Playwright CLI（`tabbit-cli`）操作真实页面、真实登录态与真实交互，用于网页自动化、信息抽取、QA 与基准测试。自带 `tabbit-browser` 技能（持久任务空间、定位器与等待、截图、回执与恢复，随插件自动注册，`/tabbit-browser` 调用）与 `tabbit_browser_install` 环境预检工具（检测稳定版 ≥1.9.0 与运行时，缺失或过旧则按系统区域后台下载对应安装包）。一条命令安装：`dsh plugin --profile web add github:Tabbit-Browser/dsh-tabbit`。⚠️ 仓库暂无 LICENSE 文件（README 标注 MIT）。
 - **[ds-harness-remote](https://github.com/liguobao/ds-harness-remote)**（[@liguobao](https://github.com/liguobao) · 2026-08-21）— 从另一台电脑、浏览器或 Android 设备安全访问运行在工作电脑上的 DeepSeek Harness：Host 仅主动出站连接，会话流量端到端加密，并复用原生 Workspace 与会话界面，无需暴露公网端口。⚠️ 仓库根目录暂无许可证文件；Host 插件包使用 MIT 许可证。
 - **[dsh-codex-subscription](https://github.com/WSL043/dsh-codex-subscription)**（[@WSL043](https://github.com/WSL043) · 2026-08-21）— 把现有 ChatGPT/Codex 订阅作为 DSH Web 原生模型提供方：独立 OAuth 登录，无需 API Key 或 Codex CLI；在同一设置页选择订阅搜索、查看服务端返回的普通 Codex/Spark 额度并生成脱敏支持诊断，对话中支持图片生成。适合希望直接在 DSH 中使用订阅模型、又不想额外配置 API Key 的用户。
@@ -339,6 +337,8 @@ mindmap
 - **[dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume)**（[@Sutera-Diffusus](https://github.com/Sutera-Diffusus) · 2026-08-28）— 元气鲸鱼娘桌宠：摸头养成、工作状态联动、494 条台词与 30 项成就；v2.0.0 新增余额关心（本机代理，密钥不落地）、主动关怀、无障碍、成长日记与主题适配，全本地零遥测（MIT，102 项单测）。
 - **[dsh-mcp-manage](https://github.com/null119/dsh-mcp-manage)**（[@null119](https://github.com/null119) · 2026-09-04）— DSH Web GUI 的 MCP 服务器管理页：把全部已安装 MCP 工具按服务器分组列出（可展开），添加/编辑/删除、启用/停用 stdio 与 Streamable HTTP 服务器，运行时即时生效、无需重启宿主；组合配置（cordis.yml / patch）提供的 MCP 同样可在运行时直接编辑、停用、移除并恢复，编辑跨停用/启用保留、宿主重启后自动维持，源组合文件不被修改。MIT，14 项单元测试。
 - **[BOWLUNA/dsh-custom-mode](https://github.com/BOWLUNA/dsh-custom-mode)**（[@BOWLUNA](https://github.com/BOWLUNA) · 2026-09-19）— 在设置页里管理 dsh 模式：选基础组成、逐行开关插件、编辑系统提示词（下一步模型调用即生效），可并存多个助手。
+- **[dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager)**（[@xiajiajun516](https://github.com/xiajiajun516) · 2026-09-27）— DeepSeek Harness（DSH）配置的备份、恢复、导出、导入、迁移与同步：覆盖设置 / Provider / 插件 / MCP / 技能 / Agent 预设 / 工作区；写盘前先 dry-run 预览、冲突逐项决策、失败自动回滚，跨机自动重映射绝对路径；勾选「导出密钥」后凭据随加密快照迁移（scrypt + AES-256-GCM），另内置配置市场可一键安装共享配置。
+- **[dsh-backup](https://github.com/xiaoyuyu6420/dsh-backup)**（[@xiaoyuyu6420](https://github.com/xiaoyuyu6420) · 2026-09-30）— 一条命令备份与恢复整个 `~/.dsh`（会话、设置、技能、MCP、凭据）：重启后继续跑的定时自动备份与分级保留、升级前自动快照、会话日志体检与定点修复、升级迁移预检、宿主起不来时也能用的进程外救援通道；凭据归档前默认脱敏、明文只落本机 vault，支持私有仓库 GitHub 同步做跨机迁移。适合把 DSH 当主力工具、不想被升级或换机弄丢数据的用户；npm 包名 `@xiaoyuyu6420/dsh-backup`。
 <!-- dsh:showcase:end -->
 
 [查看全部 29 条自荐 →](./SHOWCASE.md)
