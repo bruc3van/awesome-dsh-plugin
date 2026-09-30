@@ -41,7 +41,6 @@
     "99galaxy/dsh-plugin-market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "ACEMaravilla/dsh-plugin-market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "AI-Scarlett/DSH-Store": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
-    "AQian0/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "ARFCON/dsh-hotplug-hub": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "Aaaaamadeus/dsh-gui": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "Ackerman0/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -540,7 +539,6 @@
     "pn1024/dsh-skill-market": "Kept out of the star board: a skill marketplace (SkillHub + ClawHub) with one-click install — the market cannot include another market. Stays in the catalog.",
     "q2224273481-afk/cc-dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "qichengxiaoqi/dsh-lancher": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
-    "qinyre/dsh-Desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "qwert702/dsh-community": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "qzhqzh/dsh-quickstart": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "railgun0325/dsh-phone": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -699,7 +697,9 @@
     "zrt-ai-lab/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "zsyu9779/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "ztmajor/DSCoder": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
-    "zxheyi/dsh-work": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    "zxheyi/dsh-work": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
+    "Ln1m/dsh-host-suite": "Kept out of the star board: a Windows host-shell family (WebView2 desktop shell, tray guard, boot splash), not installable plugins. Stays in the catalog.",
+    "Ln1m/dsh-host-splash": "Kept out of the star board: a WebView2 boot-splash layer for the Windows desktop shell, not an installable plugin. Stays in the catalog."
   },
   "excluded_repos": {
     "01men/CDPP": "Not a DSH plugin — a cross-border document-processing platform repo (no README, no DSH install path).",
@@ -1516,7 +1516,14 @@
     "zrk222/code-factory": "Not a DSH plugin — a generic local proof/review CLI for AI-generated code.",
     "zsxh1990/pr-genius": "Generic PR-review CLI/MCP tool for coding agents, not a DSH-specific plugin.",
     "zuorn/Tydora": "Not a DSH plugin — a standalone Markdown editor.",
-    "zzhang82/Agent-Memory-Bridge": "Not a DSH plugin — a generic MCP memory server for coding agents."
+    "zzhang82/Agent-Memory-Bridge": "Not a DSH plugin — a generic MCP memory server for coding agents.",
+    "jclzz/dsh-harbor": "A DSH plugin marketplace/store website (community plugin directory), not an installable plugin.",
+    "Ln1m/Ln1m": "A plugin index/directory page for the author's own plugin family repos, not an installable plugin.",
+    "MMiao79/dsh-pilot-releases": "A closed-source Windows management/ops panel for DSH distributed as binary release zips, not an installable plugin.",
+    "DaYanCCC/DSH-Shortcut": "A Windows desktop-shortcut PowerShell helper for launching DSH, not a plugin.",
+    "shell-error/deepseek-harness-remote-access": "A Codex skill installed into $CODEX_HOME/skills for implementing DSH remote-access features, not a DSH plugin.",
+    "bojansandhaus/tool-repair-skill-for-hermes-and-opencode": "A tool-call repair skill for the Hermes and OpenCode agents, not a DSH plugin.",
+    "sredevopsorg/dsh-plugins": "A bare collection of org-internal agent skill folders (SKILL.md) with no plugin packaging or install path."
   },
   "market_exclusions": {
     "01men/ybkk-AIOS": "An enterprise AI-resource platform bundling skill/plugin markets — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
