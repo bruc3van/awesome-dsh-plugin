@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-29",
+  "updated_at": "2026-10-02",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -167,25 +167,6 @@
           "install": "https://github.com/534119219/chicheng-stats",
           "source": "github:534119219/chicheng-stats",
           "command": "dsh plugin --profile web add github:534119219/chicheng-stats"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
-    "6mikao9/dsh-wsl-workspace": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-wsl-workspace",
-          "source": "npm:dsh-wsl-workspace",
-          "command": "dsh plugin --profile web add dsh-wsl-workspace"
-        },
-        {
-          "profile": "web",
-          "install": "https://github.com/6Mikao9/dsh-wsl-workspace",
-          "source": "url:https://github.com/6Mikao9/dsh-wsl-workspace",
-          "command": "dsh plugin --profile web add https://github.com/6Mikao9/dsh-wsl-workspace"
         }
       ],
       "status": "readme-verified",
@@ -1731,6 +1712,25 @@
       "verified_via": "README@main",
       "manual_instructions": "README 安装命令为「dsh plugin --profile <PROFILE> add @dsh-plugin/dsh-auxiliary」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
       "install_mode": "manual"
+    },
+    "dsh-wsl-workspace-maintainers/dsh-wsl-workspace": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-wsl-workspace",
+          "source": "npm:dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add dsh-wsl-workspace"
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "source": "url:https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+          "command": "dsh plugin --profile web add https://github.com/dsh-wsl-workspace-maintainers/dsh-wsl-workspace"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-02",
+      "verified_via": "README@main"
     },
     "duskriver/dsh-opencode-go": {
       "packages": [
@@ -6583,25 +6583,6 @@
           "install": "https://github.com/w2112515/dsh-plugin-development#v0.2.0-beta.1",
           "source": "github:w2112515/dsh-plugin-development#v0.2.0-beta.1",
           "command": "dsh plugin --profile web add github:w2112515/dsh-plugin-development#v0.2.0-beta.1"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
-    "wbin0001/dsh-comfyui-canvas": {
-      "packages": [
-        {
-          "profile": "default",
-          "install": "dsh-comfyui-canvas",
-          "source": "npm:dsh-comfyui-canvas",
-          "command": "dsh plugin add dsh-comfyui-canvas"
-        },
-        {
-          "profile": "default",
-          "install": "https://github.com/wbin0001/dsh-comfyui-canvas",
-          "source": "github:wbin0001/dsh-comfyui-canvas",
-          "command": "dsh plugin add github:wbin0001/dsh-comfyui-canvas"
         }
       ],
       "status": "readme-verified",
