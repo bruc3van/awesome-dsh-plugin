@@ -11,47 +11,47 @@
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-10-01 the catalog lists **14,641** verified repositories. Here is the shape of it:
+As of 2026-10-02 the catalog lists **14,826** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 14641))
-    Agents automation workflows · 5339
+  root((DSH ecosystem 14826))
+    Agents automation workflows · 5410
       Scheduled loops and event wakeups
       Long-term memory and self-evolution
       Approval budget and checkpoints
-    UI and experience · 2897
+    UI and experience · 2942
       Desktop clients and terminal TUI
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Web and browser · 2272
+    Web and browser · 2293
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
-    Utilities and more · 865
+    Utilities and more · 871
       Files and encodings
       Format conversion
-    Design media and vision · 736
+    Design media and vision · 741
       Image understanding and OCR
       Design canvas and UI restoration
-    Developer tools · 669
+    Developer tools · 677
       Git and diff
       Sandbox and runtimes
       Debugging and diagnostics
-    Knowledge and research · 622
+    Knowledge and research · 628
       Knowledge bases and cross-session memory
       Deep research
       Academia and math
-    Integrations and sharing · 592
+    Integrations and sharing · 602
       Chat import and sharing
       Remote access
       IM and external integrations
-    Ecosystem and resources · 406
+    Ecosystem and resources · 414
       Plugin markets and registries
       Templates and scaffolds
       Guides and handbooks
-    Multi-agent orchestration · 243
+    Multi-agent orchestration · 248
       Subagents and orchestration boards
       Fleets and agent teams
       Role division and acceptance checks
@@ -250,61 +250,61 @@ You do not need to install everything. Start with the kit closest to the problem
 
 ## 🏆 Community leaderboard
 
-Community popularity by stars, from the 2026-10-01 snapshot. Repositories riding the `dsh-plugin` topic without being plugins, and editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json); new repositories first enter the [review queue](./data/review/pending.md) and rank only after the maintainer has verified them ([data/approved.json](./data/approved.json)). The home page shows the Top 50; the full Top 200 is in [TOP200.md](./TOP200.md). Ranking reflects popularity only — not quality, compatibility, or security.
+Community popularity by stars, from the 2026-10-02 snapshot. Repositories riding the `dsh-plugin` topic without being plugins, and editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json); new repositories first enter the [review queue](./data/review/pending.md) and rank only after the maintainer has verified them ([data/approved.json](./data/approved.json)). The home page shows the Top 50; the full Top 200 is in [TOP200.md](./TOP200.md). Ranking reflects popularity only — not quality, compatibility, or security.
 
 <!-- dsh:leaderboard:start -->
 | # | Project | Description | ⭐ Stars | License |
 | ---: | --- | --- | ---: | --- |
-| 1 | [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | dsh-routing-suite — injector + router-standard kit: install the runtime… | 6994 | MIT |
-| 2 | [liustack/modlens](https://github.com/liustack/modlens) | The first vision plugin for DeepSeek Harness, and the vision bridge for… | 4100 | MIT |
-| 3 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/侧边对话/Git/子代理页面 ｜ Open sidebar found… | 3942 | MIT |
-| 4 | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | DSH's officially recommended TUI plugin — high performance, low overhea… | 3908 | MIT |
-| 5 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | Whale Girl skin series for DeepSeek Harness. 适用于 DeepSeek Harness 的，鲸鱼娘… | 2336 | NOASSERTION |
-| 6 | [Minglink/dsh-infinite-gen-4](https://github.com/Minglink/dsh-infinite-gen-4) | DeepSeek v4.1 flash 网络安全红队工具（无限四代）     求 Star 收藏 ⭐欢迎大家提交项目的改进 | 2222 | NOASSERTION |
-| 7 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | AgentTeams plugin for DeepSeek Harness | 1880 | MIT |
-| 8 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | The best DeepSeek Harness plugin for context insight and management, wi… | 1787 | Apache-2.0 |
-| 9 | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Di… | 1577 | MIT |
-| 10 | [shaobeichen/dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | 把 DeepSeek Harness 装进你的口袋：电脑上跑 dsh web，手机扫码即同步访问（局域网 + 公网，实时同屏）Put Deep… | 1452 | GPL-2.0 |
+| 1 | [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | dsh-routing-suite — injector + router-standard kit: install the runtime… | 6991 | MIT |
+| 2 | [liustack/modlens](https://github.com/liustack/modlens) | The first vision plugin for DeepSeek Harness, and the vision bridge for… | 4104 | MIT |
+| 3 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/侧边对话/Git/子代理页面 ｜ Open sidebar found… | 3962 | MIT |
+| 4 | [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | DSH's officially top-recommended TUI plugin — high performance, low ove… | 3946 | MIT |
+| 5 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | Whale Girl skin series for DeepSeek Harness. 适用于 DeepSeek Harness 的，鲸鱼娘… | 2366 | NOASSERTION |
+| 6 | [Minglink/dsh-infinite-gen-4](https://github.com/Minglink/dsh-infinite-gen-4) | DeepSeek v4.1 flash 网络安全红队工具（无限四代）     求 Star 收藏 ⭐欢迎大家提交项目的改进 | 2246 | NOASSERTION |
+| 7 | [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | AgentTeams plugin for DeepSeek Harness | 1893 | MIT |
+| 8 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | The best DeepSeek Harness plugin for context insight and management, wi… | 1812 | Apache-2.0 |
+| 9 | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Di… | 1579 | MIT |
+| 10 | [shaobeichen/dsh-pocket](https://github.com/shaobeichen/dsh-pocket) | 把 DeepSeek Harness 装进你的口袋：电脑上跑 dsh web，手机扫码即同步访问（局域网 + 公网，实时同屏）Put Deep… | 1480 | GPL-2.0 |
 | 11 | [Devin-AXIS/deepseek-design](https://github.com/Devin-AXIS/deepseek-design) | DeepSeek Harness 可编辑设计系统：AI 生成、可视化编辑、模板市场与 PPT｜Native Design &amp; PPT Stud… | 1413 | NOASSERTION |
 | 12 | [mem9-ai/mem9](https://github.com/mem9-ai/mem9) | Unlimited memory for OpenClaw | 1220 | Apache-2.0 |
-| 13 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | Eyes for text-only DeepSeek Harness agents: built-in free vision chain… | 1128 | MIT |
-| 14 | [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) | DSH 桌面宠物：一行命令装好即用的透明动画小桌宠，支持多开、大小位置随心配置；还内置 DIY 素材链，能用 AI 视频自造专属宠物 | 955 | MIT |
+| 13 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | Eyes for text-only DeepSeek Harness agents: built-in free vision chain… | 1127 | MIT |
+| 14 | [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) | DSH 桌面宠物：一行命令装好即用的透明动画小桌宠，支持多开、大小位置随心配置；还内置 DIY 素材链，能用 AI 视频自造专属宠物 | 980 | MIT |
 | 15 | [Anionex/dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | \[dsh\]为纯文本模型设计更强大的视觉工具箱：一行安装使用、粘贴图片直接识别、多张图片问答、截图到前端UI 还原等｜DeepSeek Harn… | 887 | MIT |
-| 16 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | Local security audit for AI API relays and LLM proxies: detects prompt… | 866 | AGPL-3.0 |
-| 17 | [omdsh-dev/dsh-browser](https://github.com/omdsh-dev/dsh-browser) | Chrome sidebar extension that lets DeepSeek Harness operate your browse… | 756 | MIT |
-| 18 | [Aisland-SJL/dsh-worktable](https://github.com/Aisland-SJL/dsh-worktable) | 🖥️ Agent-project workbench for DeepSeek Harness — sidebar app drawer +… | 692 | MIT |
+| 16 | [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) | Local security audit for AI API relays and LLM proxies: detects prompt… | 865 | AGPL-3.0 |
+| 17 | [omdsh-dev/dsh-browser](https://github.com/omdsh-dev/dsh-browser) | Chrome sidebar extension that lets DeepSeek Harness operate your browse… | 758 | MIT |
+| 18 | [Aisland-SJL/dsh-worktable](https://github.com/Aisland-SJL/dsh-worktable) | 🖥️ Agent-project workbench for DeepSeek Harness — sidebar app drawer +… | 697 | MIT |
 | 19 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) | Lively Working-line extension for pi CLI and DSH | 661 | MIT |
 | 20 | [SeaOf0/dsh-redteam-model](https://github.com/SeaOf0/dsh-redteam-model) | 基于dsh web实现的多种模式，目的是服务于redteam进行授权的安全研究，覆盖渗透测试、红队评估、代码审计等范围领域，请勿用于非法行为。… | 659 | MIT |
-| 21 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 把 DSH 变成 2005 年门户网站｜Parody ads, fake games, and popups for the DSH Web… | 643 | BSD-3-Clause |
-| 22 | [zouyuxuan122/dsh-our-free-model](https://github.com/zouyuxuan122/dsh-our-free-model) | 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 Muse Spark 1.3、MiMo V2.6 在内的前沿… | 589 | MIT |
-| 23 | [flizzywine/dsh-tavern](https://github.com/flizzywine/dsh-tavern) | 基于 DeepSeek Harness（DSH）的 SillyTavern 类文字游戏 Agent，支持候选项生成、对话式人物卡编辑、剧本模式… | 581 | AGPL-3.0 |
-| 24 | [liustack/modsearch](https://github.com/liustack/modsearch) | 🥇 The strongest free web search plugin for DeepSeek Harness, and the se… | 581 | MIT |
-| 25 | [howmp/dsh-pentest](https://github.com/howmp/dsh-pentest) | 面向 DeepSeek Harness（dsh）的渗透测试模式  @CloverSecLabs | 578 | — |
-| 26 | [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) | AI image studio for DeepSeek Harness — generate, edit &amp; compare images… | 547 | Apache-2.0 |
-| 27 | [1692775560/dsh-Mimir-Academic-research](https://github.com/1692775560/dsh-Mimir-Academic-research) | Mimir — 一站式科研工作台插件：LaTeX 论文边写边编译、arXiv 文献管理、实验追踪、指标图表、GPU 服务器 SSH 任务编排，… | 541 | MIT |
+| 21 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 把 DSH 变成 2005 年门户网站｜Parody ads, fake games, and popups for the DSH Web… | 645 | BSD-3-Clause |
+| 22 | [flizzywine/dsh-tavern](https://github.com/flizzywine/dsh-tavern) | 基于 DeepSeek Harness（DSH）的 SillyTavern 类文字游戏 Agent，支持候选项生成、对话式人物卡编辑、剧本模式… | 603 | AGPL-3.0 |
+| 23 | [liustack/modsearch](https://github.com/liustack/modsearch) | 🥇 The strongest free web search plugin for DeepSeek Harness, and the se… | 584 | MIT |
+| 24 | [howmp/dsh-pentest](https://github.com/howmp/dsh-pentest) | 面向 DeepSeek Harness（dsh）的渗透测试模式  @CloverSecLabs | 579 | — |
+| 25 | [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) | AI image studio for DeepSeek Harness — generate, edit &amp; compare images… | 564 | Apache-2.0 |
+| 26 | [1692775560/dsh-Mimir-Academic-research](https://github.com/1692775560/dsh-Mimir-Academic-research) | Mimir — 一站式科研工作台插件：LaTeX 论文边写边编译、arXiv 文献管理、实验追踪、指标图表、GPU 服务器 SSH 任务编排，… | 541 | MIT |
+| 27 | [Miaotofu01/Study-Mate](https://github.com/Miaotofu01/Study-Mate) | 你的AI学习搭档：定路线、讲知识、做项目，边学边做，学透一门科目 | 522 | MIT |
 | 28 | [FSMargoo/dsh-at-file](https://github.com/FSMargoo/dsh-at-file) | Codex-style @file mentions for DeepSeek Harness: search workspace files… | 514 | MIT |
-| 29 | [Miaotofu01/Study-Mate](https://github.com/Miaotofu01/Study-Mate) | 你的AI学习搭档：定路线、讲知识、做项目，边学边做，学透一门科目 | 500 | MIT |
-| 30 | [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) | GenUI for DeepSeek Harness: interactive UI components rendered inline i… | 499 | MIT |
-| 31 | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | Structural memory for AI coding agents. Bi-temporal graph, MCP-native,… | 487 | NOASSERTION |
-| 32 | [EthanYoQ/Invoice-Downloader](https://github.com/EthanYoQ/Invoice-Downloader) | 电子发票整理与报销准备工具：从邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并生成 Excel 汇总；提供 Windows… | 477 | Apache-2.0 |
-| 33 | [liangmianya/dsh-synapse](https://github.com/liangmianya/dsh-synapse) | A visual, non-linear conversation workspace plugin for DeepSeek Harness… | 462 | MIT |
-| 34 | [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | 把本机 Wallpaper Engine 的壁纸搬进 DSH 网页界面：场景壁纸由内置 MIT 开源引擎 WebWallGL 实时 WebGL… | 456 | MIT |
-| 35 | [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) | Give DeepSeek Harness a real office environment.  Univer Office Plugin… | 455 | Apache-2.0 |
-| 36 | [anysearch-team/anysearch-dsh](https://github.com/anysearch-team/anysearch-dsh) | AnySearch web search provider and advanced search tools for DeepSeek Ha… | 443 | MIT |
-| 37 | [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | Composable, view-based memory for DeepSeek Harness. Pluggable sources a… | 439 | MIT |
-| 38 | [zenstory-ai/oh-story-dsh](https://github.com/zenstory-ai/oh-story-dsh) | DeepSeek 写网文/小说的工作流插件：DeepSeek Harness 社区插件，内置小说、短剧、游戏、视频解说四个工作台 \| Comm… | 432 | MIT |
-| 39 | [ZJU-LLMs/OpenStory](https://github.com/ZJU-LLMs/OpenStory) | An LLM-powered multi-agent framework for simulating interactive, evolvi… | 420 | Apache-2.0 |
-| 40 | [V1ki/dsh-plugin-subscriptions](https://github.com/V1ki/dsh-plugin-subscriptions) | Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as Deep… | 414 | MIT |
-| 41 | [WYH66666666/DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) | 是一层高自由度的玻璃质感主题，套在 DeepSeek Harness 网页端。顶栏、侧边栏、输入框、统计行、轨迹视图都成了磨砂玻璃片。玻璃模糊… | 409 | AGPL-3.0 |
-| 42 | [d-dev0101/open-sea-skin](https://github.com/d-dev0101/open-sea-skin) | 🌊 DeepSeek Harness 海洋皮肤与动态主题 \| Real-time ocean theme with adjustable wa… | 381 | MIT |
-| 43 | [Han-1413141/dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) | Cost tracking for DeepSeek Harness: session and model costs, token usag… | 362 | MIT |
-| 44 | [Mars-Sea/dsh-commandcode-provider](https://github.com/Mars-Sea/dsh-commandcode-provider) | Command Code provider plugin for DeepSeek Harness (dsh). Adds Command C… | 354 | MIT |
-| 45 | [saya-ch/dsh-mobile](https://github.com/saya-ch/dsh-mobile) | DeepSeek Harness 的 Android App 与安全远程访问插件，支持局域网/远程连接和高度自定义的移动界面与扩展能力。 | 349 | Apache-2.0 |
-| 46 | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | 为 DeepSeek Harness 带来「跨会话长期记忆 + 后台自我进化」能力的纯插件实现：五轨记忆 · git 分支感知 · 回合内自我… | 348 | MIT |
-| 47 | [vlln/whale-girl](https://github.com/vlln/whale-girl) | DSH Web GUI 桌面宠物插件（QQ 宠物形态）：右下角悬浮、可拖拽/投喂/玩耍的积累型伙伴。 | 339 | MIT |
-| 48 | [shengsheng90/DSH-taskboard](https://github.com/shengsheng90/DSH-taskboard) | Native local Taskboard plugin for DeepSeek Harness. SQLite-backed proje… | 330 | Apache-2.0 |
-| 49 | [ZSeven-W/dsh-ios](https://github.com/ZSeven-W/dsh-ios) | DeepSeek Harness (DSH) plugin: a live iOS Simulator — and a USB-connect… | 310 | MIT |
-| 50 | [FuRongJun-1999/dsh-memory](https://github.com/FuRongJun-1999/dsh-memory) | 白箱AGI架构探索：元认知（自我认知循环）、持续学习（知识飞轮）、世界模型（条件空间+语义时空图）、自我改进（自举纪律）、零LLM白箱管线与可… | 304 | MIT |
+| 29 | [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) | GenUI for DeepSeek Harness: interactive UI components rendered inline i… | 505 | MIT |
+| 30 | [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | 把本机 Wallpaper Engine 的壁纸搬进 DSH 网页界面：场景壁纸由内置 MIT 开源引擎 WebWallGL 实时 WebGL… | 500 | MIT |
+| 31 | [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) | Structural memory for AI coding agents. Bi-temporal graph, MCP-native,… | 486 | NOASSERTION |
+| 32 | [EthanYoQ/Invoice-Downloader](https://github.com/EthanYoQ/Invoice-Downloader) | 电子发票整理与报销准备工具：从邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并生成 Excel 汇总；提供 Windows… | 479 | Apache-2.0 |
+| 33 | [liangmianya/dsh-synapse](https://github.com/liangmianya/dsh-synapse) | A visual, non-linear conversation workspace plugin for DeepSeek Harness… | 463 | MIT |
+| 34 | [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) | Give DeepSeek Harness a real office environment.  Univer Office Plugin… | 461 | Apache-2.0 |
+| 35 | [anysearch-team/anysearch-dsh](https://github.com/anysearch-team/anysearch-dsh) | AnySearch web search provider and advanced search tools for DeepSeek Ha… | 445 | MIT |
+| 36 | [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | Composable, view-based memory for DeepSeek Harness. Pluggable sources a… | 444 | MIT |
+| 37 | [zenstory-ai/oh-story-dsh](https://github.com/zenstory-ai/oh-story-dsh) | DeepSeek 写网文/小说的工作流插件：DeepSeek Harness 社区插件，内置小说、短剧、游戏、视频解说四个工作台 \| Comm… | 433 | MIT |
+| 38 | [ZJU-LLMs/OpenStory](https://github.com/ZJU-LLMs/OpenStory) | An LLM-powered multi-agent framework for simulating interactive, evolvi… | 420 | Apache-2.0 |
+| 39 | [V1ki/dsh-plugin-subscriptions](https://github.com/V1ki/dsh-plugin-subscriptions) | Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as Deep… | 417 | MIT |
+| 40 | [WYH66666666/DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) | 是一层高自由度的玻璃质感主题，套在 DeepSeek Harness 网页端。顶栏、侧边栏、输入框、统计行、轨迹视图都成了磨砂玻璃片。玻璃模糊… | 411 | AGPL-3.0 |
+| 41 | [d-dev0101/open-sea-skin](https://github.com/d-dev0101/open-sea-skin) | 🌊 DeepSeek Harness 海洋皮肤与动态主题 \| Real-time ocean theme with adjustable wa… | 384 | MIT |
+| 42 | [Han-1413141/dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) | Cost tracking for DeepSeek Harness: session and model costs, token usag… | 364 | MIT |
+| 43 | [Mars-Sea/dsh-commandcode-provider](https://github.com/Mars-Sea/dsh-commandcode-provider) | Command Code provider plugin for DeepSeek Harness (dsh). Adds Command C… | 358 | MIT |
+| 44 | [saya-ch/dsh-mobile](https://github.com/saya-ch/dsh-mobile) | DeepSeek Harness 的 Android App 与安全远程访问插件，支持局域网/远程连接和高度自定义的移动界面与扩展能力。 | 355 | Apache-2.0 |
+| 45 | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | 为 DeepSeek Harness 带来「跨会话长期记忆 + 后台自我进化」能力的纯插件实现：五轨记忆 · git 分支感知 · 回合内自我… | 351 | MIT |
+| 46 | [vlln/whale-girl](https://github.com/vlln/whale-girl) | DSH Web GUI 桌面宠物插件（QQ 宠物形态）：右下角悬浮、可拖拽/投喂/玩耍的积累型伙伴。 | 341 | MIT |
+| 47 | [shengsheng90/DSH-taskboard](https://github.com/shengsheng90/DSH-taskboard) | Native local Taskboard plugin for DeepSeek Harness. SQLite-backed proje… | 330 | Apache-2.0 |
+| 48 | [ZSeven-W/dsh-ios](https://github.com/ZSeven-W/dsh-ios) | DeepSeek Harness (DSH) plugin: a live iOS Simulator — and a USB-connect… | 309 | MIT |
+| 49 | [FuRongJun-1999/dsh-memory](https://github.com/FuRongJun-1999/dsh-memory) | 白箱AGI架构探索：元认知（自我认知循环）、持续学习（知识飞轮）、世界模型（条件空间+语义时空图）、自我改进（自举纪律）、零LLM白箱管线与可… | 308 | MIT |
+| 50 | [DDDMUC/dsh-free-search](https://github.com/DDDMUC/dsh-free-search) | Free web search provider for DeepSeek Harness - DuckDuckGo backend, no… | 303 | MIT |
 <!-- dsh:leaderboard:end -->
 
 [See the full Star Top 200 →](./TOP200.md)
@@ -315,14 +315,14 @@ Manually screened recent projects, updated from time to time:
 
 | Project | Description | Created |
 | --- | --- | --- |
-| [aa2246740/dsh-model-fusion](https://github.com/aa2246740/dsh-model-fusion) | A lead model plans and reviews while a sidekick handles coding, coordinating models inside DSH. | 2026-09-27 |
-| [joeseesun/qiaomu-rss-dsh](https://github.com/joeseesun/qiaomu-rss-dsh) | Subscribe to and read RSS feeds inside DSH, with native AI conversations alongside articles. | 2026-09-30 |
-| [Ephemeral-AI-Lab/mayfly](https://github.com/Ephemeral-AI-Lab/mayfly) | An installable terminal UI bundle providing a workbench for DSH models, tools and sessions. | 2026-09-03 |
-| [JerryLiu369/agent-web-search](https://github.com/JerryLiu369/agent-web-search) | Multi-provider web search with a native DSH plugin and configurable search services. | 2026-08-20 |
-| [LionNatsu/dsh-context-explorer](https://github.com/LionNatsu/dsh-context-explorer) | Inspect the context a session submits to its model to understand prompts and context composition. | 2026-09-30 |
-| [gjy1992/dsh-diagram](https://github.com/gjy1992/dsh-diagram) | Turn YAML diagram descriptions into laid-out architecture diagrams and editable draw.io files. | 2026-09-30 |
-| [ltao0829/dsh-task-notify](https://github.com/ltao0829/dsh-task-notify) | Notify you when turns, background jobs, reviews or failures need attention, using OS notifications, toasts and optional sound. | 2026-08-14 |
-| [yillkid/dsh-share-room](https://github.com/yillkid/dsh-share-room) | Invite others into a DSH conversation through a link to discuss and ask the AI together. | 2026-10-01 |
+| [sgzeng/pbfuzz](https://github.com/sgzeng/pbfuzz) | The CCS'26 agentic directed fuzzer (PBFuzz) as DSH plugins: point the agent at a repo and a bug lead, get back a verified proof-of-vulnerability input. | 2026-05-03 |
+| [CLICGGER-TYPES/dsh-piggy](https://github.com/CLICGGER-TYPES/dsh-piggy) | A piggy-raising plugin living inside DSH: growth, school, part-time jobs, fishing, a collection book and skins, with an Animal-Crossing-style menu. | 2026-09-29 |
+| [yinhong-zhou/jevdo](https://github.com/yinhong-zhou/jevdo) | A Jev-first agent loop: Jev decides the next step while actions accumulate into reusable experience. | 2026-10-02 |
+| [DedsecLemon/dsh-obsidian](https://github.com/DedsecLemon/dsh-obsidian) | Your Obsidian vault in the DSH right sidebar: tree, full-text search, Obsidian-styled note pages and outline. | 2026-09-30 |
+| [AIcivilization/dsh-vps](https://github.com/AIcivilization/dsh-vps) | Put DSH on your VPS in one command: a zero-dependency login gateway plus automatic HTTPS, stock UI reachable from anywhere. | 2026-09-19 |
+| [Lawrence7y/dsh-harness-pilot](https://github.com/Lawrence7y/dsh-harness-pilot) | Route other agent harnesses (Claude, Codex, Cursor and more) into DSH as subagents and dispatch tasks to each. | 2026-10-02 |
+| [momasiku/dsh-pilot](https://github.com/momasiku/dsh-pilot) | Hands and eyes for DSH: screen_view hands the model a real desktop PNG, desktop_control drives mouse, keyboard and windows, desktop_sequence runs a whole task in one call. | 2026-09-27 |
+| [Yum-wu/dsh-plugin-codemode](https://github.com/Yum-wu/dsh-plugin-codemode) | Pi-style Code Mode: programmatic tool calling inside a QuickJS-WASM sandbox. | 2026-10-02 |
 
 ## 📣 Author showcase
 
@@ -352,7 +352,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Downstream market file:** [data/market.json](./data/market.json) is the curated file downstream markets consume (e.g. the DSH desktop plugin market): the snapshot plus curation, filtered, cleaned, and dealt round-robin across categories (≤600 rows, ≤500 KB). It is rebuilt on every daily snapshot refresh and immediately after every curation merge; the field and generation rules live in the downstream [publishing spec](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md). The same runs also publish [MARKET.md](./MARKET.md), a read-only star-ranked rendering of the file for previewing the market on GitHub without installing anything.
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-10-01, the catalog lists **14,641** repositories across **34** primary languages; **13,133** declare a license and **14,506** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-10-02, the catalog lists **14,826** repositories across **34** primary languages; **13,310** declare a license and **14,687** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 

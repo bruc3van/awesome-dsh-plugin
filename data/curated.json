@@ -188,7 +188,6 @@
     "MoonlitDropOfBlood/DSH-Desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "MrMu666/dsh-app": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "MrtHmk/dsh-windows-launcher": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
-    "Muelsysel/DeepSeek-Harness-Desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "NOirBRight/dsh-mobile": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "Nagi-ovo/dsh-find-plugins": "Kept out of the star board: a plugin directory/search layer over community plugin catalogs with install actions — the market cannot include another market. Stays in the catalog.",
     "NanmiCoder/dsh-plugin-market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
@@ -252,7 +251,6 @@
     "TheYoungChen/dsh-plugin-market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "Tiee7/EzDSH": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "ToBeWin/DSH-Plugin-Market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
-    "TommyFang2077/dsh-easy-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "Toukaiteio/dsh-plugin-installer": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "Ultmebius/universal-plugin-hub": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "Underwater008/deepshell": "Kept out of the star board: a native macOS desktop shell, not an installable DSH plugin. Stays in the catalog.",
@@ -306,7 +304,6 @@
     "big0lives/dsh-win-quick-launcher": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "bmai-BH6BHG/dsk.net": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "bobby-sheng/dshget-plugin": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
-    "bobostudio/deepseek-harness-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "bowenliang123/dsh-plugin-checker": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "boyuan623-coder/deepseek_harness_plugin_box": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "bradeGithub/DSH-Plugins-Marketplace": "Kept out of the star board: a DSH plugin market / directory / store — the market cannot include another market. Stays in the catalog.",
@@ -470,7 +467,6 @@
     "lijma/dsh-plugin-marketplace": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "lingfengQAQ/webnovel-writer": "Kept out of the star board: stars accrued as a Claude Code marketplace plugin (v6); the DSH workbench (v8 branch) is a fresh preview. Stays in the catalog.",
     "linhut/dsh-manager": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
-    "lionheartjie/DSH_Shell": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "liustack/summono": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "liyu34/dsh-wsl-tray": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "llyyhh0487/desk-harness": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -708,7 +704,11 @@
     "vecnode/vncode": "Kept out of the star board: a desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Stays in the catalog.",
     "wanghongjian0119/deepseek-harness-desktop": "Kept out of the star board: a desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Stays in the catalog.",
     "westanke/dsh-desktop-deepin": "Kept out of the star board: a desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Stays in the catalog.",
-    "yybai25/dsh-ssh-desktop": "Kept out of the star board: a desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Stays in the catalog."
+    "yybai25/dsh-ssh-desktop": "Kept out of the star board: a desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Stays in the catalog.",
+    "TommyFang2077/pi-workbench": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
+    "duxingxiake3/dsh-plugin-market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
+    "tuoLuoSuan/dsh-skill-center": "Kept out of the star board: a skill market / store / directory — the market cannot include another market. Stays in the catalog.",
+    "zouyuxuan122/dsh-our-free-model": "Kept out of the star board: stars accrued as giveaway of free unlimited frontier-model access via OpenCode Zen's public key-free gateway — the draw is the free models, not the DSH plugin itself; stays in the catalog."
   },
   "excluded_repos": {
     "01men/CDPP": "Not a DSH plugin — a cross-border document-processing platform repo (no README, no DSH install path).",
@@ -1546,7 +1546,13 @@
     "imtokenxinluo/dsh-session-backup": "Not a DSH plugin: a standalone command-line utility for cold backups and restoration of session files.",
     "imtokenxinluo/dsh-sponsors": "Not a DSH plugin: a contributor-support registry specification and validation scripts.",
     "safety10086/deepseek-harness-remote-access-shell-error-old": "Not a DSH plugin: a Codex skill and source-modification guide for remote access and SSH workspaces.",
-    "wula1223/dsh-plugin-dev": "Not a DSH plugin: a plugin/hook/skill development playbook and reusable development instructions."
+    "wula1223/dsh-plugin-dev": "Not a DSH plugin: a plugin/hook/skill development playbook and reusable development instructions.",
+    "T-Auto/dsh-std": "Not a DSH plugin — a plugin interoperability meta-protocol specification with npm SDK packages for plugin developers; no dsh plugin install path.",
+    "breakstring/cfKanban": "Not a DSH plugin — a self-hosted Cloudflare Worker + D1 Kanban web app that agents deploy and operate.",
+    "WTStarMark/dsh-plugin-mesh": "Not a DSH plugin — an interactive web visualization (ecosystem network map) of dsh-tagged GitHub repositories, a directory-style site.",
+    "towNingtek/swarm": "Not a DSH plugin — a self-hosted multi-tenant AI-office platform that provisions isolated DeepSeek Harness sites per customer.",
+    "wuwaka/dsh-rehearsal": "Not a DSH plugin — an external upgrade-rehearsal CLI for DeepSeek Harness (self-described 'External CLI, not a plugin').",
+    "xieani090612/dsh-session-hud": "Not a DSH plugin — a standalone WinUI 3 floating-window companion app that watches DSH sessions from outside the harness."
   },
   "market_exclusions": {
     "01men/ybkk-AIOS": "An enterprise AI-resource platform bundling skill/plugin markets — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -1708,7 +1714,6 @@
     "MonshinYu/dsh-bun-compat-patch": "Not an installable DSH plugin — a runtime compat layer/launcher that preloads and patches DSH to run under Bun; stays in the catalog and leaderboard, excluded from the downstream market.",
     "MonshinYu/dsh-desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "MrMu666/dsh-app": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "Muelsysel/DeepSeek-Harness-Desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "NOirBRight/dsh-mobile": "Not an installable DSH plugin — a native Android client shipping alongside its pairing plugins; stays in the catalog and leaderboard, excluded from the downstream market.",
     "Nagi-ovo/dsh-find-plugins": "A DSH plugin market / directory / store (finds and installs plugins from community catalogs) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "NanmiCoder/dsh-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -1784,7 +1789,6 @@
     "Tiee7/EzDSH": "Not an installable DSH plugin — a desktop client/launcher app bundling the runtime; stays in the catalog and leaderboard, excluded from the downstream market.",
     "Tinzlu/dsh-review": "Not an installable DSH plugin — a Codex-side review skill that drives the dsh CLI; stays in the catalog and leaderboard, excluded from the downstream market.",
     "ToBeWin/DSH-Plugin-Market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "TommyFang2077/dsh-easy-desktop": "Not an installable DSH plugin — a desktop shell (Tauri wrapper); stays in the catalog and leaderboard, excluded from the downstream market.",
     "Toukaiteio/dsh-plugin-installer": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "Ultmebius/universal-plugin-hub": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market.",
     "V-dev-388/DSH-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -1840,7 +1844,6 @@
     "bitterSmilezzz/dsh-plugins": "Not an installable DSH plugin — an umbrella repository holding plugin contracts and validation, not a plugin itself; stays in the catalog and leaderboard, excluded from the downstream market.",
     "bmai-BH6BHG/dsk.net": "Not an installable DSH plugin — a Windows desktop packaging of the dsh CLI (single-file installer); stays in the catalog and leaderboard, excluded from the downstream market.",
     "bobby-sheng/dshget-plugin": "Client of a plugin catalog (dshget.com) with search/install — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "bobostudio/deepseek-harness-desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "bowenliang123/dsh-plugin-checker": "Not an installable DSH plugin — a GitHub Action; stays in the catalog and leaderboard, excluded from the downstream market.",
     "boyuan623-coder/deepseek_harness_plugin_box": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "bradeGithub/DSH-Plugins-Marketplace": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market.",
@@ -2002,7 +2005,6 @@
     "like-study1/Oh-My-DSH": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "limlnx523/dsh-plus-plus": "Not an installable DSH plugin — a standalone local companion (CLI + web console) managing the DSH installation and its state; stays in the catalog and leaderboard, excluded from the downstream market.",
     "linhut/dsh-manager": "Not an installable DSH plugin — a desktop management tool/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "lionheartjie/DSH_Shell": "Not an installable DSH plugin — a Rust/Tauri desktop shell with a self-contained portable bundle; stays in the catalog and leaderboard, excluded from the downstream market.",
     "liustack/summono": "Not an installable DSH plugin — a free desktop launcher/installer app (Electron) that one-click installs and launches DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market.",
     "liyu34/dsh-wsl-tray": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "llyyhh0487/desk-harness": "Not an installable DSH plugin — a Windows desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -2245,6 +2247,9 @@
     "zxheyi/dsh-work": "Not an installable DSH plugin — a plugin-native AI desktop product built on DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market.",
     "Han-1413141/dsh-autocompose": "The market cannot include another market: embedded plugin discovery/search catalog.",
     "HarrisXiu/dsh-plugin-finder": "The market cannot include another market: embedded plugin discovery/search catalog.",
-    "gtbwpkwjnb-alt/dsh-audit-skills": "The market cannot include another market: embedded plugin discovery/search catalog."
+    "gtbwpkwjnb-alt/dsh-audit-skills": "The market cannot include another market: embedded plugin discovery/search catalog.",
+    "TommyFang2077/pi-workbench": "Not an installable DSH plugin — a desktop shell (Tauri wrapper); stays in the catalog and leaderboard, excluded from the downstream market.",
+    "duxingxiake3/dsh-plugin-market": "A DSH plugin market / store / directory — the market cannot include another market; stays in the catalog, kept off the star board.",
+    "tuoLuoSuan/dsh-skill-center": "A DSH skill market / store / directory — the market cannot include another market; stays in the catalog, kept off the star board."
   }
 }
