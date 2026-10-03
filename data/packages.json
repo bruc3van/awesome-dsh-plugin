@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02",
+  "updated_at": "2026-10-03",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -4178,6 +4178,19 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "moguiyu/dsh-tavily": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@moguiyu/dsh-tavily",
+          "command": "dsh plugin --profile web add @moguiyu/dsh-tavily",
+          "install": "@moguiyu/dsh-tavily"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-03",
       "verified_via": "README@main"
     },
     "mokuyoaxis/agent-guard": {
