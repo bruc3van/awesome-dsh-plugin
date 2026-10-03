@@ -1,7 +1,5 @@
 ## 📣 作者自荐
 
-- **[dsh-composer-history](https://github.com/PerryLink/dsh-composer-history)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 作曲器终端风格输入历史：边缘优先方向键召回并精确还原草稿与光标、浏览器本地持久化历史、Ctrl+R 反向搜索与滑动上下文感知；适合每天都在 Web 输入框写提示词的 dsh 用户。
-- **[dsh-config-sync](https://github.com/muyifc/dsh-config-sync)**（[@muyifc](https://github.com/muyifc) · 2026-08-15）— DSH 配置备份与迁移：一键导出/恢复 API 设置、凭据、profile 插件补丁与用户 agent presets；支持口令加密单文件（.dshsync，AES-256-GCM + PBKDF2），导入前先预览、覆盖前自动备份，密钥内容永不进入对话。
 - **[dsh-lark-link](https://github.com/amlyczz/dsh-lark-link)**（[@amlyczz](https://github.com/amlyczz) · 2026-08-15）— High-reliability Feishu/Lark 双向桥接：扫码 30 秒上线、CardKit 流式卡片、at-least-once 零丢失出站队列、每飞书会话独立 DSH Agent、自愈长连接，媒体收发 + 会话日志 /doctor 归档，并复用官方 DSH Web GUI。
 - **[dsh-tray](https://github.com/KAIbsb/dsh-tray)**（[@KAIbsb](https://github.com/KAIbsb) · 2026-08-15）— Windows 托盘管家:一键启动/重启/停止 DSH Web、崩溃自动拉起、状态鲸鱼图标与开机自启,配合浏览器 APP 模式窗口更顺手。
 - **[dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— DSH 插件开发知识库：官方约束、任务工作流、API 参考与社区踩坑，作为按需加载的智能体技能随 bundle 安装，开发插件时让 DSH 自己查。
@@ -34,8 +32,6 @@
 
 ## 📣 Author showcase
 
-- **[dsh-composer-history](https://github.com/PerryLink/dsh-composer-history)** ([@PerryLink](https://github.com/PerryLink) · 2026-08-15) — Terminal-style composer input history: edge-first arrow recall with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, and sliding-context awareness — for dsh web users who write prompts all day.
-- **[dsh-config-sync](https://github.com/muyifc/dsh-config-sync)** ([@muyifc](https://github.com/muyifc) · 2026-08-15) — DSH config backup & migration: one-command export/restore of settings, API credentials, profile plugin patches and user agent presets, plus a password-encrypted single file (.dshsync, AES-256-GCM + PBKDF2); imports preview before writing, auto-back up overwritten files, and credential contents never enter the chat.
 - **[dsh-lark-link](https://github.com/amlyczz/dsh-lark-link)** ([@amlyczz](https://github.com/amlyczz) · 2026-08-15) — A high-reliability Feishu/Lark bidirectional bridge: scan a QR code to go live in 30 seconds, CardKit streaming cards, an at-least-once zero-loss outbound queue, one DSH agent per Feishu conversation, a self-healing connection, media in/out plus /doctor session-log archival, and it reuses the official DSH Web GUI.
 - **[dsh-tray](https://github.com/KAIbsb/dsh-tray)** ([@KAIbsb](https://github.com/KAIbsb) · 2026-08-15) — A Windows tray manager for DSH Web: one-click start/restart/stop, crash auto-restart, whale status icon, and autostart — pairs nicely with a browser app-mode window.
 - **[dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide)** ([@PerryLink](https://github.com/PerryLink) · 2026-08-15) — The DSH plugin-development knowledge base as an on-demand agent skill: official constraints, task workflows, API references, and community pitfalls, installed as a bundle.
