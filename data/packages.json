@@ -4133,19 +4133,6 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
-    "mistybridge/dsh-agent-bus": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-agent-bus",
-          "source": "npm:dsh-agent-bus",
-          "command": "dsh plugin --profile web add dsh-agent-bus"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
     "miuzel/dsh-graph": {
       "packages": [],
       "status": "readme-verified",

@@ -6,9 +6,9 @@
 
 The human-readable twin of [data/market.json](./data/market.json) — the same market data the [dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market) plugin renders in the desktop app, generated alongside the feed by `scripts/market.mjs` so it can be previewed on GitHub without installing anything. Do not edit by hand. The table ranks by stars, matching the plugin’s "All plugins" view; the feed itself is stored in balanced deal order, and the plugin shows only its configured prefix by default.
 
-- 生成时间 / Feed generated: **2026-10-03T18:11:47.380Z**
+- 生成时间 / Feed generated: **2026-10-04T01:19:50.353Z**
 - 来源快照 / Source snapshot: **2026-10-03T17:56:41.183Z**（17418 个仓库 / repositories scanned）
-- 过滤后候选池 / Candidate pool after filtering: **13906**
+- 过滤后候选池 / Candidate pool after filtering: **14090**
 - 发布条目 / Published entries: **600**（上限 / cap: 600）
 
 ## 分类 / Categories
@@ -591,10 +591,10 @@ The human-readable twin of [data/market.json](./data/market.json) — the same m
 | 559 | [TaurusWood/dsh-plugin-appshot](https://github.com/TaurusWood/dsh-plugin-appshot) | dsh-plugin-appshot — a DeepSeek Harness plugin (tool template). | Ecosystem &amp; Resources · 生态与资源 | TypeScript | 5 | MIT | 2026-09-28 |
 | 560 | [Vesna-Strivozha/DSH-LLM-wiki-plugin](https://github.com/Vesna-Strivozha/DSH-LLM-wiki-plugin) | 基于Karpathy的wiki方法论搭建的插件，让你的DSH直接变身成LLM wiki，不需要Obsidian+Claudian插件，国内网络友好 | Utilities &amp; Other · 实用工具与其他 | TypeScript | 5 | MIT | 2026-08-28 |
 | 561 | [algerkong/dsh-image-preview](https://github.com/algerkong/dsh-image-preview) | Image preview for DSH (DeepSeek Harness) web sessions: read_image results render as a thumbnail, click for full size in the built-in lightbox. | Ecosystem &amp; Resources · 生态与资源 | JavaScript | 5 |  | 2026-09-18 |
-| 562 | [cakeni/harness-pet](https://github.com/cakeni/harness-pet) | Harness Pet — an unofficial community pet for DeepSeek Harness. Not affiliated with, endorsed by, or maintained by DeepSeek. | Ecosystem &amp; Resources · 生态与资源 | TypeScript | 5 | MIT | 2026-08-14 |
-| 563 | [fu827707013/dsh-codebuddy-cli](https://github.com/fu827707013/dsh-codebuddy-cli) | dsh-codebuddy-cli | Utilities &amp; Other · 实用工具与其他 | TypeScript | 5 | MIT | 2026-09-25 |
-| 564 | [gameswu/dsh-notifacation-frame](https://github.com/gameswu/dsh-notifacation-frame) | dsh通知消息统一管理框架 | Utilities &amp; Other · 实用工具与其他 | TypeScript | 5 | MIT | 2026-09-10 |
-| 565 | [gameswu/dsh-pref-kit](https://github.com/gameswu/dsh-pref-kit) | 缓解部分dsh性能问题的插件 | Utilities &amp; Other · 实用工具与其他 | TypeScript | 5 | MIT | 2026-09-16 |
+| 562 | [c3cvld7aag/fujiang-dsh](https://github.com/c3cvld7aag/fujiang-dsh) | 富江DSH完美破甲｜富江破甲 DSH 本地插件，内置提示词规则，支持 Windows 一键安装、环境自动准备与一键卸载，全中文使用说明。 | Utilities &amp; Other · 实用工具与其他 | JavaScript | 5 | NOASSERTION | 2026-10-03 |
+| 563 | [cakeni/harness-pet](https://github.com/cakeni/harness-pet) | Harness Pet — an unofficial community pet for DeepSeek Harness. Not affiliated with, endorsed by, or maintained by DeepSeek. | Ecosystem &amp; Resources · 生态与资源 | TypeScript | 5 | MIT | 2026-08-14 |
+| 564 | [fu827707013/dsh-codebuddy-cli](https://github.com/fu827707013/dsh-codebuddy-cli) | dsh-codebuddy-cli | Utilities &amp; Other · 实用工具与其他 | TypeScript | 5 | MIT | 2026-09-25 |
+| 565 | [gameswu/dsh-notifacation-frame](https://github.com/gameswu/dsh-notifacation-frame) | dsh通知消息统一管理框架 | Utilities &amp; Other · 实用工具与其他 | TypeScript | 5 | MIT | 2026-09-10 |
 | 566 | [green-dalii/dsh-plugin-dev-skill](https://github.com/green-dalii/dsh-plugin-dev-skill) | Agent skill for developing DeepSeek Harness (DSH) plugins — tools (defineTool), LLM adapters, services, events, config, packaging. Install in DSH, Claude Code, or Codex. | Ecosystem &amp; Resources · 生态与资源 |  | 5 | MIT | 2026-09-30 |
 | 567 | [hanxuanliang/dsh-chaos](https://github.com/hanxuanliang/dsh-chaos) | Durable multi-agent collaboration for DeepSeek Harness: channels, threads, tasks, and resumable agent sessions. | Multi-Agent Orchestration &amp; Teams · 多 Agent 编排与协作 | TypeScript | 5 | MIT | 2026-08-24 |
 | 568 | [leavestring/awesome-dsh-background-plugin](https://github.com/leavestring/awesome-dsh-background-plugin) | DSH Web 背景个性化插件：上传自己的图片（JPG / PNG / WEBP / GIF，浏览器端自动压缩到 1600px 以内）或一键切换极光、余烬、宣纸三种预设氛围；实时预览所见即所得，支持细调图像存在感、暗色遮罩、柔焦、适配方式与焦点位置；上传即自动保存到 DSH 设置，重启后原样恢复，浅色 / 深色主题均正常；侧栏、消息气泡、输入框保持原样不遮挡，浮层菜单不受影响；全程本地处理不上传任何服务器，关闭开关或一键恢复默认即可完全移除；内置中英文双语界面。 | Ecosystem &amp; Resources · 生态与资源 | JavaScript | 5 | MIT | 2026-10-03 |
