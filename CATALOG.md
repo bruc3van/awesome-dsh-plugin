@@ -10,7 +10,7 @@ This page automatically lists public repositories under GitHub's [`dsh-plugin` t
 
 The catalog is split into one volume per category — the full list outgrew GitHub's single-page Markdown rendering limit. Each row below is a complete volume.
 
-- Repositories: **15566**
+- Repositories: **15567**
 - Primary languages: **34**
 - Declared licenses: **14014**
 - Refreshed: **2026-10-07 UTC**
@@ -21,16 +21,16 @@ The catalog is split into one volume per category — the full list outgrew GitH
 | 类目 / Category | 条目 / Entries |
 | --- | ---: |
 | [生态与资源 / Ecosystem & Resources](./catalog/ecosystem-resources.md) | 451 |
-| [界面与体验 / UI & Experience](./catalog/ui-experience.md) | 3098 |
+| [界面与体验 / UI & Experience](./catalog/ui-experience.md) | 3103 |
 | [设计、媒体与视觉 / Design, Media & Vision](./catalog/media-vision.md) | 773 |
-| [网页与浏览器 / Web & Browser](./catalog/web-browser.md) | 2383 |
-| [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 636 |
-| [知识与研究 / Knowledge & Research](./catalog/knowledge-research.md) | 661 |
+| [网页与浏览器 / Web & Browser](./catalog/web-browser.md) | 2378 |
+| [集成与分享 / Integrations & Sharing](./catalog/integrations-sharing.md) | 638 |
+| [知识与研究 / Knowledge & Research](./catalog/knowledge-research.md) | 659 |
 | [开发者工具 / Developer Tools](./catalog/developer-tools.md) | 706 |
 | [多 Agent 编排与协作 / Multi-Agent Orchestration & Teams](./catalog/multi-agents.md) | 272 |
 | [Agent、自动化与工作流（A–M） / Agents, Automation & Workflows (A–M)](./catalog/agents-workflows.md) | 2646 |
 | [Agent、自动化与工作流（N–Z） / Agents, Automation & Workflows (N–Z)](./catalog/agents-workflows-n-z.md) | 3034 |
-| [实用工具与其他 / Utilities & Other](./catalog/utilities.md) | 906 |
+| [实用工具与其他 / Utilities & Other](./catalog/utilities.md) | 907 |
 
 ## Data source
 

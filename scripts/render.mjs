@@ -43,6 +43,23 @@ export async function loadState() {
   );
   const approvedNames = new Set(Object.keys(approved).map((fullName) => fullName.toLowerCase()));
   const date = snapshot.fetched_at.slice(0, 10);
+  // Editorial description fixes, applied to the in-memory snapshot only —
+  // data/repositories.json stays a byte-faithful mirror of the GitHub API.
+  // Upstream descriptions can be permanently unreadable (a repo owner's client
+  // transliterated every Chinese character to "?"), and the only recoverable
+  // source is the repository's own README; those hand-checked replacements
+  // live in curated.description_overrides so every consumer of loadState
+  // (catalog volumes, boards, review queue) renders the fixed text.
+  const descriptionOverrides = new Map(
+    Object.entries(curated.description_overrides || {}).map(([fullName, description]) => [
+      fullName.toLowerCase(),
+      description,
+    ]),
+  );
+  for (const repo of snapshot.repositories) {
+    const override = descriptionOverrides.get(repo.full_name.toLowerCase());
+    if (typeof override === 'string' && override.trim()) repo.description = override;
+  }
   return { snapshot, curated, approved, approvedNames, excluded, leaderboardExclusions, date };
 }
 

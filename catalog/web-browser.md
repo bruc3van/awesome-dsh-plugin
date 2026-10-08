@@ -4,7 +4,7 @@ DSH 插件全量目录的「网页与浏览器」分册 / The "Web & Browser" vo
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **2383**
+- 本册收录 / Entries in this volume: **2378**
 - 快照日期 / Snapshot date: **2026-10-07 UTC**
 - 最近人工复核 / Last review merge: **2026-10-08**
 
@@ -213,7 +213,6 @@ DSH 插件全量目录的「网页与浏览器」分册 / The "Web & Browser" vo
 | [cindyguyuehu123/dsh-webchatlike](https://github.com/cindyguyuehu123/dsh-webchatlike) | Web-chat style message actions for DeepSeek Harness: edit your prompt, regenerate answers, and flip versions with a deepseek.com-style &lt;i/N&gt; pager. Deepseek网页版/app聊天体验插件 | TypeScript | 8 | MIT | 2026-10-02 |
 | [cinob/dsh-web-search-multi](https://github.com/cinob/dsh-web-search-multi) | 🌐 Multi-provider web search plugin for DeepSeek Harness: Zero-key Bing/Baidu direct search, free-tier APIs (Tavily/Brave/Serper/Bocha), SearXNG token auth, auto-fallback, and a built-in Web Settings GUI. | JavaScript | 8 | MIT | 2026-10-04 |
 | [EricXu20266/dsh-gui](https://github.com/EricXu20266/dsh-gui) | DeepSeek Harness (DHS) Electron GUI client — webui to gui, kernel untouched | TypeScript | 8 | MIT | 2026-09-16 |
-| [hachimi-ai/dsh-aemeath](https://github.com/hachimi-ai/dsh-aemeath) | 爱弥斯主题皮肤 + 像素桌宠（鸣潮 Aemeath / Wuthering Waves），用于 DeepSeek Harness Web GUI。 | JavaScript | 8 | — | 2026-09-28 |
 | [HakureiMonika/dsh-browser-scope](https://github.com/HakureiMonika/dsh-browser-scope) | Agent-native browser DevTools workbench for DeepSeek Harness. / 让你的DSH获得非常强大的 Chromium DevTools 能力 | TypeScript | 8 | MIT | 2026-09-28 |
 | [HaoyueQin/dsh-diff-stat](https://github.com/HaoyueQin/dsh-diff-stat) | DeepSeek Harness web plugin: inline +N −M diff badges on edit/write tool rows and a per-turn file change summary card. Scroll-windowed diffs, PTC/code-dispatch fallback, undo — no git required. | TypeScript | 8 | MIT | 2026-09-26 |
 | [huahai0202/dsh-better-archive](https://github.com/huahai0202/dsh-better-archive) | DeepSeek Harness (DSH) web-GUI plugin: archived-session panel with unarchive &amp; delete | JavaScript | 8 | MIT | 2026-09-23 |
@@ -333,7 +332,7 @@ DSH 插件全量目录的「网页与浏览器」分册 / The "Web & Browser" vo
 | [Ricketts-Guo/dsh-shortcuts](https://github.com/Ricketts-Guo/dsh-shortcuts) | DeepSeek Harness WebUI 键盘快捷键插件（34 个预置功能、一键录制自定义、静默权限切换）— Fully customizable keyboard shortcuts for the DSH WebUI. | JavaScript | 5 | MIT | 2026-09-20 |
 | [sayho-pm/dsh-locale-pack](https://github.com/sayho-pm/dsh-locale-pack) | 29-language locale pack for the DeepSeek Harness desktop app | JavaScript | 5 | MIT | 2026-10-07 |
 | [skiuniverse/dsh-running-liang](https://github.com/skiuniverse/dsh-running-liang) | A Chrome-dino style mini-game for DeepSeek Harness Web: play while waiting for the agent, score from 梁子 to 梁圣 | TypeScript | 5 | MIT | 2026-09-18 |
-| [SoDaZilla-zzz/dsh-liquid-glass-balance-card](https://github.com/SoDaZilla-zzz/dsh-liquid-glass-balance-card) | Draggable liquid-glass DeepSeek API balance card plugin for DeepSeek Harness (DSH) web GUI / DSH ??????? DeepSeek ?????? | JavaScript | 5 | MIT | 2026-09-12 |
+| [SoDaZilla-zzz/dsh-liquid-glass-balance-card](https://github.com/SoDaZilla-zzz/dsh-liquid-glass-balance-card) | DSH Web 界面的液态玻璃余额悬浮卡：显示 DeepSeek API 余额、累计消费与 Token 用量，可拖动。 | JavaScript | 5 | MIT | 2026-09-12 |
 | [SuCriss/dsh-version-update](https://github.com/SuCriss/dsh-version-update) | Version update menu for the DeepSeek Harness Web GUI settings panel: check @deepseek-ai/dsh releases, install one with a click, then restart the host and reload the page automatically. | JavaScript | 5 | Apache-2.0 | 2026-10-02 |
 | [watericetangcw/dsh-page-preview](https://github.com/watericetangcw/dsh-page-preview) | A Cordis plugin that enables DeepSeek Harness to proactively preview and display web pages. | JavaScript | 5 | MIT | 2026-09-12 |
 | [why913/dshx](https://github.com/why913/dshx) | DeepSeek Harness（dsh）的 MCP / Skill / 记忆管理工具：写入前先连接自检，连不上不写；从 Claude Code / Codex 一键迁移；可装成 dsh 插件，在 Web 里用 /mcp 命令和卡片操作。 | JavaScript | 5 | MIT | 2026-09-15 |
@@ -667,7 +666,6 @@ DSH 插件全量目录的「网页与浏览器」分册 / The "Web & Browser" vo
 | [mwbimh/dsh-atelier](https://github.com/mwbimh/dsh-atelier) | A minimal Deepseek Harness launcher with a simplest desktop app. | Rust | 2 | MIT | 2026-09-14 |
 | [Mzy123l/dsh-plugin-remote-access](https://github.com/Mzy123l/dsh-plugin-remote-access) | 为 DeepSeek Harness 桌面版提供「限网段 + 可选数字密码」的远程访问入口 | JavaScript | 2 | MIT | 2026-10-02 |
 | [nabin-qq273274877/dsh-desktop](https://github.com/nabin-qq273274877/dsh-desktop) | DeepSeek Harness Desktop - 桌面启动器 (Tauri 2 + 内置 Node + 自动更新) | Rust | 2 | MIT | 2026-09-25 |
-| [Nath-Vikky/dsh-codekin](https://github.com/Nath-Vikky/dsh-codekin) | Codekin: a creature-collection and match-three RPG for DeepSeek Harness Web. | TypeScript | 2 | MIT | 2026-10-05 |
 | [nianchen8/dsh-skill-panel](https://github.com/nianchen8/dsh-skill-panel) | Skill management panel for the DeepSeek Harness web app | JavaScript | 2 | MIT | 2026-08-20 |
 | [nicearrack/dsh-translator](https://github.com/nicearrack/dsh-translator) | 基于 DSH 的有道风格划词翻译：划选即现「译」按钮，harness 自带大模型，零 API key / Youdao-style word-selection translation for DSH: select text, click 「译」, powered by the harness's own LLM, no API keys | JavaScript | 2 | MIT | 2026-08-28 |
 | [nikoart-liu/dsh-open-in-x](https://github.com/nikoart-liu/dsh-open-in-x) | 在 DeepSeek Harness Web 界面中，把当前会话的工作目录直接交给本机外部应用打开。 | JavaScript | 2 | MIT | 2026-08-28 |
@@ -1324,12 +1322,11 @@ DSH 插件全量目录的「网页与浏览器」分册 / The "Web & Browser" vo
 | [xiaoheizi1212/dsh-cookie-bridge](https://github.com/xiaoheizi1212/dsh-cookie-bridge) | Chrome extension that exports plaintext cookies to dsh-computer-use over localhost (no App-Bound decryption needed). | JavaScript | 1 | MIT | 2026-08-14 |
 | [XiaoYuOvO/dsh-llm-injection-filter](https://github.com/XiaoYuOvO/dsh-llm-injection-filter) | DSH LLM response-stream injection filter: hard-block rare Unicode scripts (Track A) + score-based disposal of control chars / protocol markers / script mixing / spam keywords (Track B) on the llm/stream waterfall. Install: dsh plugin --profile web add github:XiaoYuOvO/dsh-llm-injection-filter | JavaScript | 1 | MIT | 2026-09-04 |
 | [Xichun123/dsh-relay-models](https://github.com/Xichun123/dsh-relay-models) | Mixed-protocol relay model discovery, metadata matching, and Web configuration for DeepSeek Harness | TypeScript | 1 | MIT | 2026-09-09 |
-| [xieluyang912/dsh-live2d-widget](https://github.com/xieluyang912/dsh-live2d-widget) |  给 DeepSeek Harness Web 界面加一只 Live2D 桌宠：打开 DSH 就能看到可爱的二次元角色站在聊天界面角落。 | JavaScript | 1 | NOASSERTION | 2026-09-29 |
 | [xinmo114514/dsh-prompt-optimizer](https://github.com/xinmo114514/dsh-prompt-optimizer) | ✨ DSH 持久化 Web 插件：输入框旁一键把模糊需求改写成 AI 智能体可执行的超级提示词。复用当前所选模型，探索优先协议 + Skills 感知，彩虹跑马边框与输入锁定，重启自动加载。MIT 开源。 | JavaScript | 1 | MIT | 2026-09-05 |
 | [xinmo114514/dsh-usage-widget](https://github.com/xinmo114514/dsh-usage-widget) | DSH (DeepSeek Harness) 持久化 Web 插件：Token 用量统计悬浮窗 —— 可拖动窗口/圆点、曲线/热力图、总 tokens 大数字；宿主半聚合会话日志并提供 /usage/api/snapshot | TypeScript | 1 | MIT | 2026-09-18 |
 | [xiuxxx0/deepseek-harness-desktop](https://github.com/xiuxxx0/deepseek-harness-desktop) | DeepSeek Harness 桌面版：基于 WebView2 的 Windows 桌面客户端外壳（Windows desktop shell for DeepSeek Harness） | C# | 1 | MIT | 2026-08-24 |
 | [xjailll/dsh-portfolio-publisher](https://github.com/xjailll/dsh-portfolio-publisher) | DeepSeek Harness 插件：GitHub 求职仓库一键发布助手（LLM README + Web 面板 + 一键推送） | TypeScript | 1 | — | 2026-08-29 |
-| [xlxs123/dsh-session-multiselect](https://github.com/xlxs123/dsh-session-multiselect) | DSH Desktop plugin: multi-select panel for conversations ??grouped by workspace, batch delete / fork / export / summarize / pin / archive. | JavaScript | 1 | MIT | 2026-10-06 |
+| [xlxs123/dsh-session-multiselect](https://github.com/xlxs123/dsh-session-multiselect) | DSH Web 客户端对话多选插件：一次勾选多个对话，批量删除、归档或置顶。 | JavaScript | 1 | MIT | 2026-10-06 |
 | [xoykor/dsh-searxng](https://github.com/xoykor/dsh-searxng) | Plugin não oficial de SearXNG para DeepSeek Harness, com endpoint configurável e integração direta ao serviço de busca web do DSH. | JavaScript | 1 | GPL-3.0 | 2026-09-21 |
 | [XSakura666/dsh-plugin-ChronoAgent](https://github.com/XSakura666/dsh-plugin-ChronoAgent) | Local-first desktop app that schedules AI agent tasks like cron jobs — zero token cost until they run. Write a task, set a time, and it runs automatically with files, web, MCP tools, and multi-model support.      | JavaScript | 1 | MIT | 2026-08-27 |
 | [xswt442-cmd/dsh-xswt-tauriapp](https://github.com/xswt442-cmd/dsh-xswt-tauriapp) | 给 DeepSeek Harness 的轻量 Tauri 桌面外壳。（已停止维护） \|  A lightweight Tauri desktop shell for DeepSeek Harness.(No longer maintained) | Rust | 1 | MIT | 2026-09-30 |
@@ -1345,7 +1342,6 @@ DSH 插件全量目录的「网页与浏览器」分册 / The "Web & Browser" vo
 | [yellpoliovirusvaccine37/dsh-launcher](https://github.com/yellpoliovirusvaccine37/dsh-launcher) | Launch DeepSeek Harness on Windows with one double-click, featuring startup autostart and a compact standalone window—no command line required. | — | 1 | — | 2026-10-06 |
 | [yhbd-top/dsh-plugin-top](https://github.com/yhbd-top/dsh-plugin-top) | yhbd.top 插件雷达 for DeepSeek Harness：侧边栏大面板浏览 3900+ 插件目录（搜索 / 22 分类 / 站点同款五榜单 / 榜单联动分类），安装引导语一键写入会话输入框；进程内同源反代，零配置；附带 Agent 可调用的搜索与榜单工具。 | JavaScript | 1 | MIT | 2026-10-05 |
 | [yibiner/dsh-plugin-list-plus](https://github.com/yibiner/dsh-plugin-list-plus) | Trust-tiered, collapsible plugin list for DeepSeek Harness Web Settings. | TypeScript | 1 | MIT | 2026-09-18 |
-| [yidong-liu/dsh-live2d-widget](https://github.com/yidong-liu/dsh-live2d-widget) | DSH 客户端插件：Live2D 三月七看板娘挂件（@liuyidong/dsh-live2d-widget） | JavaScript | 1 | — | 2026-08-24 |
 | [yijigao/deepseek-harness-desktop](https://github.com/yijigao/deepseek-harness-desktop) | deepseek-harness-desktop | JavaScript | 1 | MIT | 2026-09-13 |
 | [YINGCHAO-98/dsh-private-plugins](https://github.com/YINGCHAO-98/dsh-private-plugins) | 在 DeepSeek Harness Web 设置中统一导入、启用、更新和管理本地及云端私有插件。 | JavaScript | 1 | MIT | 2026-08-30 |
 | [yingzaicc/dsh-gitland](https://github.com/yingzaicc/dsh-gitland) | DeepSeek Harness（DSH）的 Git 面板插件：在 Web GUI 中呈现 GoLand 风格的 Git 工具窗口 —— 提交日志时间线（彩色泳道图）、分支管理、worktree 管理，以及工作区状态摘要，并支持简单的 分支/worktree 操作。 | TypeScript | 1 | MIT | 2026-08-23 |
@@ -1416,7 +1412,7 @@ DSH 插件全量目录的「网页与浏览器」分册 / The "Web & Browser" vo
 | [2CHariko/dsh-cost-meter](https://github.com/2CHariko/dsh-cost-meter) | Session spend for the DSH Web client: a stats-line pill that prices the durable tokenUsage projection with user-configured per-bucket unit prices. | JavaScript | 0 | MIT | 2026-09-10 |
 | [305037991x-pixel/dsh-opencode-go](https://github.com/305037991x-pixel/dsh-opencode-go) | OpenCode GO plan usage chip for DeepSeek Harness Web: dual-account rolling/weekly/monthly quota, 3-min auto refresh, per-account hover breakdown | JavaScript | 0 | MIT | 2026-09-23 |
 | [386842536/dsh-launcher](https://github.com/386842536/dsh-launcher) | DSH 启动器 — 双击一键启动 DeepSeek Harness / Double-click macOS launcher | Shell | 0 | MIT | 2026-08-19 |
-| [43456-awa/dsh-notepad](https://github.com/43456-awa/dsh-notepad) | DSH Web GUI ???????:??/?????????????????Agent ???? | JavaScript | 0 | MIT | 2026-08-15 |
+| [43456-awa/dsh-notepad](https://github.com/43456-awa/dsh-notepad) | 钉在 DeepSeek Harness Web GUI 的常驻记事本插件，可拖动、可固定。 | JavaScript | 0 | MIT | 2026-08-15 |
 | [439436269-ctrl/dsh-zspace](https://github.com/439436269-ctrl/dsh-zspace) | 极空间 (ZSpace) NAS plugin for DeepSeek Harness — cross-network agent tools over the desktop client's relay: no LAN, no WebDAV, no SSH. | JavaScript | 0 | MIT | 2026-10-07 |
 | [483218131/dsh-composer-collapse](https://github.com/483218131/dsh-composer-collapse) | Three-mode height manager for the DSH Web composer: auto / pinned open / pinned collapsed. DSH Web 输入框高度三态管理插件。 | JavaScript | 0 | MIT | 2026-09-09 |
 | [5102a/dsh-plugin-hot-toggle](https://github.com/5102a/dsh-plugin-hot-toggle) | Hot-toggle any installed plugin in DeepSeek Harness from the Web settings — instant apply, no restart, persisted. 在 DSH 设置页一键热启用/停用任意插件，立即生效、无需重启、状态持久化。 | JavaScript | 0 | MIT | 2026-08-16 |
@@ -2293,7 +2289,7 @@ DSH 插件全量目录的「网页与浏览器」分册 / The "Web & Browser" vo
 | [xswt442-cmd/dsh-treekeeper](https://github.com/xswt442-cmd/dsh-treekeeper) | 对账 DSH 任务账本与 OS 进程树，定位归属、检测泄漏并安全治理｜Reconcile DSH task ledgers with OS process trees for attribution, leak detection, and safe governance. | JavaScript | 0 | MIT | 2026-09-30 |
 | [xtd1145/dsh-deepseek-cost-live](https://github.com/xtd1145/dsh-deepseek-cost-live) | Real-time DeepSeek API balance (official) + daily spend (local usage estimate) for the DSH web - composer dock, floating badge, settings dashboard. | JavaScript | 0 | MIT | 2026-09-07 |
 | [xuanyinmu/DshWebSearch](https://github.com/xuanyinmu/DshWebSearch) | use tavily for web_search | JavaScript | 0 | MIT | 2026-08-14 |
-| [xuanyuying/dsh-mobile](https://github.com/xuanyuying/dsh-mobile) | DeepSeek ??? PWA - ????,??????(DeepSeek Mobile PWA client) | JavaScript | 0 | — | 2026-09-18 |
+| [xuanyuying/dsh-mobile](https://github.com/xuanyuying/dsh-mobile) | 手机浏览器直接使用的 DeepSeek 客户端（PWA）：随时对话、实时查看余额，支持添加到主屏幕变成类原生 App。 | JavaScript | 0 | — | 2026-09-18 |
 | [xuechengzou/dsh-file-drop](https://github.com/xuechengzou/dsh-file-drop) | Gap-only extension for the DSH web composer attachment intake: a dropped folder is expanded into its individual files and handed back to the built-in intake, so the native rail, upload progress, limits and notices are reused unchanged. | JavaScript | 0 | MIT | 2026-09-29 |
 | [xuqingsakura/dsh-subagent-team](https://github.com/xuqingsakura/dsh-subagent-team) | 一个官方 bundle 形态的独立插件，可经 GitHub / npm 安装到 DSH（桌面端与 web 端皆可）。 提供模型可见的角色工具（team_read / team_write / team_code_write / team_code_review …）， 以及一套真正的事件驱动团队运行时（建队 / 成员 / 任务依赖 / 邮箱 / 自动调度 / 右下角活动浮层）。 | JavaScript | 0 | — | 2026-08-24 |
 | [xwtaidev/dsh-app](https://github.com/xwtaidev/dsh-app) | A Tauri-based desktop app for the DeepSeek Harness. | TypeScript | 0 | MIT | 2026-09-18 |
@@ -2305,7 +2301,6 @@ DSH 插件全量目录的「网页与浏览器」分册 / The "Web & Browser" vo
 | [Yaaaaaaa233/dsh-desktop](https://github.com/Yaaaaaaa233/dsh-desktop) | 官方 DeepSeek Harness Desktop 的社区插件适配与改造：余额挂件、外观定制与迁移工具。原 Electron 桌面壳已冻结。 | JavaScript | 0 | MIT | 2026-09-30 |
 | [Yang-Spec-0202/hdsl-rs](https://github.com/Yang-Spec-0202/hdsl-rs) | Rust desktop launcher for isolated DeepSeek Harness versions and compatible plugins. | Slint | 0 | GPL-3.0 | 2026-09-23 |
 | [yang208691-source/dsh-nutstore-backup](https://github.com/yang208691-source/dsh-nutstore-backup) |  en: 'Backs up DeepSeek Harness sessions, plugin config and workspace memory to Nutstore (Jianguoyun) over WebDAV, with incremental upload, connection test and one-click restore on a new machine.'   zh: '把 DeepSeek Harness 的会话记录、插件配置与工作区记忆通过 WebDAV 增量备份到坚果云，支持连接测试与在新机器上一键恢复。' | JavaScript | 0 | MIT | 2026-10-03 |
-| [yangdongzhen590/dsh-knj-session-management](https://github.com/yangdongzhen590/dsh-knj-session-management) | Session management for DeepSeek Harness: archive/restore/delete persisted sessions, per-workspace retention policy and a size governance panel. DSH ??????:??/??/???????,????????????,????????? | TypeScript | 0 | MIT | 2026-09-15 |
 | [yangkunlun/dsh-fairy](https://github.com/yangkunlun/dsh-fairy) | DeepSeek Harness 的多窗插件 | JavaScript | 0 | MIT | 2026-08-22 |
 | [yaodongH/dsh-better-summary](https://github.com/yaodongH/dsh-better-summary) | DSH Web 插件：Codex 风格的改动汇总卡片，替换对话末尾的产出 chip 行。 | TypeScript | 0 | MIT | 2026-09-19 |
 | [Yaoxxxxxxx/dsh-plugins](https://github.com/Yaoxxxxxxx/dsh-plugins) | DSH 桌面端插件合集（一个插件一个目录）· Ctrl+I 聚焦输入框等小工具 \| Small plugins for the DeepSeek Harness desktop client, one per directory | JavaScript | 0 | MIT | 2026-09-29 |

@@ -68,6 +68,19 @@ for (const [fullName, category] of Object.entries(curated.category_overrides || 
 }
 const overrideCount = referenced.size;
 
+for (const [fullName, description] of Object.entries(curated.description_overrides || {})) {
+  if (!ownerRepoPattern.test(fullName)) {
+    errors.push(`description_overrides key "${fullName}" is not a valid owner/repo reference`);
+    continue;
+  }
+  if (typeof description !== 'string' || !description.trim()) {
+    errors.push(`description_overrides["${fullName}"]: description must be a non-empty string`);
+    continue;
+  }
+  referenced.set(fullName, 'description override');
+}
+const descriptionOverrideCount = referenced.size - overrideCount;
+
 for (const fullName of Object.keys(curated.excluded_repos || {})) {
   if (!ownerRepoPattern.test(fullName)) {
     errors.push(`excluded_repos key "${fullName}" is not a valid owner/repo reference`);
@@ -332,4 +345,4 @@ if (warnings.length) {
 }
 
 const mode = fromSnapshot ? 'the stored snapshot' : 'the GitHub API';
-console.log(`data/curated.json, data/approved.json, and the showcase sections are valid — ${overrideCount} category overrides, ${approvedNames.length} approved repositories, and ${showcaseCount} showcase repositories checked against ${mode} (${errors.length} errors, ${warnings.length} warnings).`);
+console.log(`data/curated.json, data/approved.json, and the showcase sections are valid — ${overrideCount} category overrides, ${descriptionOverrideCount} description overrides, ${approvedNames.length} approved repositories, and ${showcaseCount} showcase repositories checked against ${mode} (${errors.length} errors, ${warnings.length} warnings).`);

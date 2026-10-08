@@ -679,7 +679,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–Z）」分册 / 
 | [Qintsg/dsh-safe-delete](https://github.com/Qintsg/dsh-safe-delete) | Safe delete plugin for DeepSeek Harness (DSH): move files to trash / staging area instead of permanent removal, with restore and purge support. | TypeScript | 1 | Apache-2.0 | 2026-09-12 |
 | [qiushui0901/dsh-token-stats](https://github.com/qiushui0901/dsh-token-stats) | Cross-session token usage statistics panel for DeepSeek Harness: monthly stacked cost chart by provider and model | JavaScript | 1 | MIT | 2026-08-15 |
 | [qiuyiwu1989-star/dsh-deepbrain](https://github.com/qiuyiwu1989-star/dsh-deepbrain) | 让 Agent 调用深脑中带证据链的判断、逐字核验引述与分析方法。 \| Give agents access to DeepBrain judgments with evidence chains, verified quotes, and reusable methods. | TypeScript | 1 | MIT | 2026-10-05 |
-| [qiyeren/dsh-eac-popup](https://github.com/qiyeren/dsh-eac-popup) | DSH plugin: ???? agent ??/?????,EAC ????(??????)+?????5?+?????? | JavaScript | 1 | MIT | 2026-08-28 |
+| [qiyeren/dsh-eac-popup](https://github.com/qiyeren/dsh-eac-popup) | 会话提问、审批请求或任务完成时自动高亮 DSH EAC 任务栏图标、切换到对应会话并弹窗提醒。 | JavaScript | 1 | MIT | 2026-08-28 |
 | [qlheric/dsh-code-atlas](https://github.com/qlheric/dsh-code-atlas) | dsh 的代码图谱：tree-sitter WASM 符号索引 + 仓库地图 + 每文件一行 F/R/A/S 认知层（零原生编译） | JavaScript | 1 | MIT | 2026-10-06 |
 | [QlzqQlzq/dsh-dual-agent-presets](https://github.com/QlzqQlzq/dsh-dual-agent-presets) | General-purpose and coding-focused Agent Presets for DeepSeek Harness | JavaScript | 1 | MIT | 2026-09-12 |
 | [QuantumKuba/dsh-simple-codegraph](https://github.com/QuantumKuba/dsh-simple-codegraph) | Per-agent CodeGraph code intelligence integration for DeepSeek Harness. | TypeScript | 1 | MIT | 2026-09-17 |
@@ -1137,56 +1137,56 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–Z）」分册 / 
 | [PerryLink/dsh-bid-ca-precheck](https://github.com/PerryLink/dsh-bid-ca-precheck) | 投标文件符合性预检(按招标文件逐条核对响应情况,仅提示差异,不作出定性结论) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [PerryLink/dsh-bid-qual-check](https://github.com/PerryLink/dsh-bid-qual-check) | 投标人资格条件核对(按资格条件与证明材料核对逐条响应,仅提示差异,不作出定性结论) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [PerryLink/dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) | Read-only MCP server over the dsh-plugin-certification registry: get_certification, list_certified, certification_spec. | JavaScript | 0 | Apache-2.0 | 2026-10-07 |
-| [PerryLink/dsh-contract-stance](https://github.com/PerryLink/dsh-contract-stance) | ??????????(???????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-contract-stance](https://github.com/PerryLink/dsh-contract-stance) | 合同条款立场台账检查：条款文本、立场与风险等级取自词表，必备条款记录回退立场与责任人，编号唯一、无占位符。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [PerryLink/dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) | 报关单证一致性核对(按公开的报关单填制规范核对单证间字段一致性,仅提示差异,不作出定性结论) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [PerryLink/dsh-demurrage-ledger](https://github.com/PerryLink/dsh-demurrage-ledger) | 滞箱费台账核对(按免箱期与费率核对超期天数与金额的自洽性,仅提示差异,不作出定性结论) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-drill-script-check](https://github.com/PerryLink/dsh-drill-script-check) | ????????(??????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-eia-guide-check](https://github.com/PerryLink/dsh-eia-guide-check) | ?????????(???????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-drill-script-check](https://github.com/PerryLink/dsh-drill-script-check) | 应急演练脚本检查：完整性与算术——每步写明阶段与内容、指定指挥员，时间链自洽。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-eia-guide-check](https://github.com/PerryLink/dsh-eia-guide-check) | 环评导则适用性核对表检查：每个环境要素写明适用导则，导则编号与发布年份可溯源。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [PerryLink/dsh-emergency-plan](https://github.com/PerryLink/dsh-emergency-plan) | 应急预案要素齐备性与条款级页码定位(依据 GB/T 29639-2020 等公开文件,仅提示差异,不作出定性结论) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-essay-rubric-check](https://github.com/PerryLink/dsh-essay-rubric-check) | ????????(????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-essay-rubric-check](https://github.com/PerryLink/dsh-essay-rubric-check) | 作文量表评分表检查：算术与证据——每条评分标准写明等级描述，得分不超上限。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [PerryLink/dsh-evidence-check](https://github.com/PerryLink/dsh-evidence-check) | 证据清单齐备性核对(按待证事实与证据要素核对清单自洽,仅提示差异,不作出定性结论) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) | ????????(????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) | 出口管制物项台账检查：物项是否受控有声明，受控项的许可与编码闭环可追。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [PerryLink/dsh-fmea-table-check](https://github.com/PerryLink/dsh-fmea-table-check) | FMEA 分析表要素齐备性与风险顺序数一致性核对(按公开的 FMEA 方法标准核对表内自洽,仅提示差异,不作出定性结论) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-forecast-penalty](https://github.com/PerryLink/dsh-forecast-penalty) | ?????????(???????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-forecast-penalty](https://github.com/PerryLink/dsh-forecast-penalty) | 预测准确率考核台账检查：期间与主体明确，预测/实际数字可解析，准确率算术一致。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [PerryLink/dsh-gongwen-flow-check](https://github.com/PerryLink/dsh-gongwen-flow-check) | 公文流转与办理时限核对(按公开的公文处理规范核对环节完整性与时限,仅提示差异,不作出定性结论) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [PerryLink/dsh-gongwen-word-check](https://github.com/PerryLink/dsh-gongwen-word-check) | 公文格式要素核对(按公开的党政机关公文格式标准核对版头与主体要素,仅提示差异,不作出定性结论) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [PerryLink/dsh-guard-plan-qc](https://github.com/PerryLink/dsh-guard-plan-qc) | 劳动保护与安全防护用品配置表核对(按公开的配备标准核对品名规格与配置数量,仅提示差异,不作出定性结论) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [PerryLink/dsh-hazchem-check](https://github.com/PerryLink/dsh-hazchem-check) | 危险化学品临界量与重大危险源辨识核对(按储存量与临界量核对台账自洽,仅提示差异,不作出定性结论) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-hazplan-check](https://github.com/PerryLink/dsh-hazplan-check) | HAZOP ??????????????????(????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-hidden-risk-map](https://github.com/PerryLink/dsh-hidden-risk-map) | ???????????????????????(???????10?)??????(?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-hs-classify](https://github.com/PerryLink/dsh-hs-classify) | ???????????(??????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-icd-rule-check](https://github.com/PerryLink/dsh-icd-rule-check) | ICD ????????????(?? GB/T 14396-2016 ???? ICD ????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-lawcite-adapter](https://github.com/PerryLink/dsh-lawcite-adapter) | ???????????(??????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-lc-doc-check](https://github.com/PerryLink/dsh-lc-doc-check) | ?????????(?????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-learning-gap-check](https://github.com/PerryLink/dsh-learning-gap-check) | ???????????(??????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-medrec-qc](https://github.com/PerryLink/dsh-medrec-qc) | ???????????????(????????2016?24??????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-nsfc-form-check](https://github.com/PerryLink/dsh-nsfc-form-check) | ?????????????????????(?????????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-nurse-record-check](https://github.com/PerryLink/dsh-nurse-record-check) | ??????????????????(?????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) | ???????????(? RVC ???????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-ota-review-check](https://github.com/PerryLink/dsh-ota-review-check) | ??????????(?????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-paper-doc-adapter](https://github.com/PerryLink/dsh-paper-doc-adapter) | ????????(?????????? yotta ??????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-permit-report-check](https://github.com/PerryLink/dsh-permit-report-check) | ????????(?????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) | ???????????(????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-pleading-draft](https://github.com/PerryLink/dsh-pleading-draft) | ??????????(?????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-hazplan-check](https://github.com/PerryLink/dsh-hazplan-check) | HAZOP 工作表检查：每行记录模板要求的分析内容与闭环字段。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-hidden-risk-map](https://github.com/PerryLink/dsh-hidden-risk-map) | 安全隐患台账映射：把每条隐患映射到重大危险源判定标准的候选条款。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-hs-classify](https://github.com/PerryLink/dsh-hs-classify) | 商品归类台账检查：税则编码十位结构（章/节/品目/子目）自洽。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-icd-rule-check](https://github.com/PerryLink/dsh-icd-rule-check) | 住院病案 ICD 编码结构检查：编码形态、重复、星剑号配对与字段一致性。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-lawcite-adapter](https://github.com/PerryLink/dsh-lawcite-adapter) | 法条引用清单检查：每条引用写明法律与条文，条文编号形态与文书要素可核验。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-lc-doc-check](https://github.com/PerryLink/dsh-lc-doc-check) | 信用证交单核对表检查：单证机械一致性——单据类型与来证要求对应，日期链自洽。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-learning-gap-check](https://github.com/PerryLink/dsh-learning-gap-check) | 能力差距与培养计划台账检查：差距写明岗位与能力，两级评分可解析，培养动作闭环。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-medrec-qc](https://github.com/PerryLink/dsh-medrec-qc) | 病案首页质量检查：针对编码员与国家质控指标关注的一页式出院摘要字段。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-nsfc-form-check](https://github.com/PerryLink/dsh-nsfc-form-check) | NSFC 基金申请书检查：核对申请书正文与电子文档属性，并报告身份线索。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-nurse-record-check](https://github.com/PerryLink/dsh-nurse-record-check) | 护理记录检查：住院期间护理文书的及时性、签名与评估表记录。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) | 原产地判定台账检查：协定与产品有声明，区域价值成分（RVC）按公式算术一致。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-ota-review-check](https://github.com/PerryLink/dsh-ota-review-check) | 在线点评回复台账检查：点评内容或评分与回复日期构成闭环。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-paper-doc-adapter](https://github.com/PerryLink/dsh-paper-doc-adapter) | 试卷解析结果检查：每题记录题号与题干、答案或解析在场，分值结构自洽。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-permit-report-check](https://github.com/PerryLink/dsh-permit-report-check) | 行政许可办理台账检查：每项办理记录提交，受理不早于提交，办结闭环。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) | 项目全流程文件链条台账检查：项目可识别，每行写明阶段或文件，阶段链有序。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-pleading-draft](https://github.com/PerryLink/dsh-pleading-draft) | 起诉状（或申请书）要素核对表：每项诉请记录事实依据、指向证据、写明法律依据，金额计算可核。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [PerryLink/dsh-plugin-upgrade-015](https://github.com/PerryLink/dsh-plugin-upgrade-015) | RETIRED 2026-10-05 — Superseded: its merged corridor (0.1.3-alpha.1 -&gt; 0.1.5-rc.1) is carried by dsh-plugin-upgrade 2.0.0, which also folds in 0.1.5-rc.2 -&gt; 0.1.6-alpha.2. Kept for the published 0.1.1 and its history. | JavaScript | 0 | Apache-2.0 | 2026-10-07 |
-| [PerryLink/dsh-policy-brief-draft](https://github.com/PerryLink/dsh-policy-brief-draft) | ????????(??????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-power-loss-split](https://github.com/PerryLink/dsh-power-loss-split) | ????????????(???????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-power-ticket-check](https://github.com/PerryLink/dsh-power-ticket-check) | ???????????????????(????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-ppap-check](https://github.com/PerryLink/dsh-ppap-check) | PPAP ?????????(???? PPAP ??????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-protest-deadline](https://github.com/PerryLink/dsh-protest-deadline) | ?????????(???????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-railway-window](https://github.com/PerryLink/dsh-railway-window) | ??????????(???????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-repair-order-qc](https://github.com/PerryLink/dsh-repair-order-qc) | ????????(???????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-review-reply-check](https://github.com/PerryLink/dsh-review-reply-check) | ????????????(?????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-rulefile-check](https://github.com/PerryLink/dsh-rulefile-check) | ?????????(?????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-safety-brief-check](https://github.com/PerryLink/dsh-safety-brief-check) | ????????????????????(????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) | ????????????????(?? GB/T 50319-2013 ?????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-soe-decision-check](https://github.com/PerryLink/dsh-soe-decision-check) | ??????????(?????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-soilwater-check](https://github.com/PerryLink/dsh-soilwater-check) | ????????????(??????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-sop-sync-check](https://github.com/PerryLink/dsh-sop-sync-check) | ????? FMEA/?????????(????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) | ??????????????(? GB/T 4091 ??????????????? Cp/Cpk ????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-tender-extract](https://github.com/PerryLink/dsh-tender-extract) | ??????????(???????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-tender-matrix](https://github.com/PerryLink/dsh-tender-matrix) | ??????????(??????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
-| [PerryLink/dsh-warranty-calc](https://github.com/PerryLink/dsh-warranty-calc) | ??????????(????????????????????,?????,???????) | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-policy-brief-draft](https://github.com/PerryLink/dsh-policy-brief-draft) | 政策专报要素核对表：每节写明观点，观点有证据支撑。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-power-loss-split](https://github.com/PerryLink/dsh-power-loss-split) | 线损电量检查：一个计量周期的能量平衡、损失率算术与区间校验。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-power-ticket-check](https://github.com/PerryLink/dsh-power-ticket-check) | 电力工作票检查：必填项齐全，签发/许可/终结时序正确。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-ppap-check](https://github.com/PerryLink/dsh-ppap-check) | PPAP 提交要素清单检查：客户要求的要素有提交记录，闭环可追。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-protest-deadline](https://github.com/PerryLink/dsh-protest-deadline) | 质疑与投诉台账检查：关键日期有记录、可解析且先后有序。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-railway-window](https://github.com/PerryLink/dsh-railway-window) | 铁路施工天窗台账检查：时间与算术自洽——作业内容或调度命令号、起止与时长一致。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-repair-order-qc](https://github.com/PerryLink/dsh-repair-order-qc) | 机动车维修工单检查：报修与作业记录完整，行金额与合计算术一致。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-review-reply-check](https://github.com/PerryLink/dsh-review-reply-check) | 审稿意见逐条回应表检查：每条意见有作者回应，回应有证据支撑。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-rulefile-check](https://github.com/PerryLink/dsh-rulefile-check) | 规则库（rule pack）检查：本插件系列要求的引用纪律——规则 id 唯一、每条规则证据可溯。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-safety-brief-check](https://github.com/PerryLink/dsh-safety-brief-check) | 安全技术交底记录检查：表单必填列齐全，交底对象全员签认。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) | 监理日志连续性与现场监理记录覆盖检查（依据 GB/T 50319-2013）。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-soe-decision-check](https://github.com/PerryLink/dsh-soe-decision-check) | 三重一大决策事项台账检查：每项决策记录议案与依据，程序链留痕。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-soilwater-check](https://github.com/PerryLink/dsh-soilwater-check) | 土壤与地下水监测台账检查：每条记录写明点位与参数，结果可解析，限值比较一致。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-sop-sync-check](https://github.com/PerryLink/dsh-sop-sync-check) | 作业规程台账检查：与 PFMEA 和控制计划的编号与要素机械一致。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) | 控制图台账检查：控制限、中心线、分散统计与常数表（GB/T 4091）一致，Cp/Cpk 按定义计算。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-tender-extract](https://github.com/PerryLink/dsh-tender-extract) | 招标文件条款摘录表检查：每条摘录给出处、记录原文条款并说明差异。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-tender-matrix](https://github.com/PerryLink/dsh-tender-matrix) | 评标因素评分矩阵检查：单项得分不超该项满分，合计算术一致。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
+| [PerryLink/dsh-warranty-calc](https://github.com/PerryLink/dsh-warranty-calc) | 质保索赔台账检查：索赔记录部件与日期，日期落在质保期内，金额算术一致。 | TypeScript | 0 | NOASSERTION | 2026-10-07 |
 | [pgnqukezrdxmhjso/dsh-prompt-file-injector](https://github.com/pgnqukezrdxmhjso/dsh-prompt-file-injector) | 把指定的文件注入 DeepSeek Harness（dsh）的模型上下文。Injects files you choose into the model context of DeepSeek Harness (dsh). | TypeScript | 0 | MIT | 2026-09-27 |
 | [philipho01/dsh-llm-fidelity](https://github.com/philipho01/dsh-llm-fidelity) | DeepSeek Harness 插件：模型服务明确拒绝参数（400/422）时自动修正重发，对话不中断；用量统计防清零、防重复，如实可信。 | TypeScript | 0 | MIT | 2026-10-01 |
 | [piaohua/dsh-schedule-command](https://github.com/piaohua/dsh-schedule-command) | DeepSeek Harness 的 /schedule 定时任务命令 —— 一句话创建会话内单次/周期任务，⏰ 标识自动识别定时会话。/schedule command for DeepSeek Harness — create session-local one-shot/recurring tasks in plain language; ⏰ marks schedule sessions at a glance. | TypeScript | 0 | MIT | 2026-08-22 |
@@ -1232,7 +1232,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–Z）」分册 / 
 | [qiqiangvae/dsh-newbe-plugins](https://github.com/qiqiangvae/dsh-newbe-plugins) | 个人使用 DSH 的增强插件，包括收藏功能、输入锁和会话工具收纳等功能 | JavaScript | 0 | MIT | 2026-09-23 |
 | [qiqiangvae/dsh-obsidian](https://github.com/qiqiangvae/dsh-obsidian) | dsh obsidian wiki plugin | TypeScript | 0 | MIT | 2026-09-01 |
 | [qiuchunhuimax/dsh-plugin](https://github.com/qiuchunhuimax/dsh-plugin) | Local PaddleOCR tool and /ocr command for DeepSeek Harness | JavaScript | 0 | MIT | 2026-08-15 |
-| [qldth/dsh-minimal-pro](https://github.com/qldth/dsh-minimal-pro) | ??pro -- DeepSeek Harness minimal-based agent preset: Windows-friendly pwsh/bash shell, first-request anchored bootstrap, and a curated set of everyday tools. | JavaScript | 0 | MIT | 2026-08-15 |
+| [qldth/dsh-minimal-pro](https://github.com/qldth/dsh-minimal-pro) | 极简pro：基于官方极简模式升级的 agent preset——先极简开局、再放开工具，Windows 友好外壳加一小批常用工具。 | JavaScript | 0 | MIT | 2026-08-15 |
 | [QLM1234/dsh-plugin-dynamic-assembler](https://github.com/QLM1234/dsh-plugin-dynamic-assembler) | Natural-language driven, security-gated dynamic assembly plugin for DeepSeek Harness (dsh) | TypeScript | 0 | MIT | 2026-08-24 |
 | [qomob/dsh-madrank](https://github.com/qomob/dsh-madrank) | AI usage dashboard + optional global ranking for DeepSeek Harness (DSH). | TypeScript | 0 | MIT | 2026-09-05 |
 | [qq12346/dsh-review](https://github.com/qq12346/dsh-review) | DeepSeek Harness session review and lessons plugin | TypeScript | 0 | — | 2026-08-16 |
@@ -1263,6 +1263,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–Z）」分册 / 
 | [Rice00/dsh-job-progress](https://github.com/Rice00/dsh-job-progress) | Live progress for long-running background jobs in DeepSeek Harness — a draggable floating ball with a per-session task panel showing done/total, speed and ETA. | JavaScript | 0 | MIT | 2026-10-04 |
 | [RichDavidMu/create-dsh-plugin](https://github.com/RichDavidMu/create-dsh-plugin) | Scaffold a DeepSeek Harness plugin project — a working plugin with one model-facing tool, a profile bundle that mounts it, dsh's own toolchain, and documentation an agent can follow without reading dsh's source. | TypeScript | 0 | — | 2026-09-17 |
 | [rickwindman/dsh-destinywind-tpm](https://github.com/rickwindman/dsh-destinywind-tpm) | DeepSeek Harness 插件：TPM/DPAPI 封存的凭据提供器，取代明文凭据文件 · TPM/DPAPI-sealed credential provider plugin for DeepSeek Harness | JavaScript | 0 | MIT | 2026-09-26 |
+| [Ringo-P-GIT/dsh-reqsys](https://github.com/Ringo-P-GIT/dsh-reqsys) | 需求管理系统（行迹 &amp; 未竟）—— DSH 插件。 | JavaScript | 0 | MIT | 2026-09-17 |
 | [rinttt233/dsh-peak-brief](https://github.com/rinttt233/dsh-peak-brief) | DSH（DeepSeek Harness）峰谷调度插件：高峰前 N 分钟自动生成仅供 AI 恢复用的简报并停自动续跑，高峰硬挡模型请求（带一键逃生），闲时自动注入简报继续任务。 | JavaScript | 0 | MIT | 2026-09-28 |
 | [rjn32s/dsh-whois-plugin](https://github.com/rjn32s/dsh-whois-plugin) | RDAP-backed whois tool plugin for DeepSeek Harness (dsh) — look up domain registration data as a model tool | JavaScript | 0 | MIT | 2026-08-22 |
 | [robbywang25/dsh-llm-mlx](https://github.com/robbywang25/dsh-llm-mlx) | DeepSeek Harness plugin for local MLX-LM models with loopback-only defaults and optional managed server startup | TypeScript | 0 | MIT | 2026-09-06 |
@@ -2731,7 +2732,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–Z）」分册 / 
 | [wangyaominde/dsh-llm-grok-oauth](https://github.com/wangyaominde/dsh-llm-grok-oauth) | Grok subscription OAuth plugin for DeepSeek Harness: one-click login in Settings → Models | JavaScript | 0 | MIT | 2026-09-18 |
 | [wangyuanchuan2022/dsh-mobile-ux](https://github.com/wangyuanchuan2022/dsh-mobile-ux) | 一个包、零配置：把 DeepSeek Harness 网页版在手机宽度下的体验从头打磨一遍——响应式抽屉布局、字号/间距适配、≥44px 触控目标、按钮/菜单/表格移动端交互、安全区适配。桌面宽度显示与使用完全不受影响。 | JavaScript | 0 | GPL-2.0 | 2026-08-25 |
 | [wangzhanchao883/dsh-lost-and-found](https://github.com/wangzhanchao883/dsh-lost-and-found) | DeepSeek Harness plugin: local file recall - watch the folders you choose, index what appeared (name/type/size/appeared-at/location/origin) into a local SQLite database, then search by keyword/time/type/folder with a live read-only fallback scan. 文件快速寻回:DSH 本地文件记忆索引,忘了文件放哪问一句就能找回;每个目录各有独立增量锚点,新加入的目录首扫回填历史;只读,绝不修改、移动或删除你的文件。 | JavaScript | 0 | MIT | 2026-10-02 |
-| [wangzhanchao883/dsh-plugin](https://github.com/wangzhanchao883/dsh-plugin) | DeepSeek Harness plugin collection: self-developed DSH plugins (screenshot capture, OCR, Obsidian). ?? DSH ?????? | JavaScript | 0 | MIT | 2026-09-18 |
+| [wangzhanchao883/dsh-plugin](https://github.com/wangzhanchao883/dsh-plugin) | 自研 DSH 插件统一仓库：每个插件一个子目录，按需扩展。 | JavaScript | 0 | MIT | 2026-09-18 |
 | [wangzhanchao883/dsh-resume-screening](https://github.com/wangzhanchao883/dsh-resume-screening) | Resume screening plugin for DeepSeek Harness (HR): ingest up to 100k resumes into one library, rule pre-filter + LLM fine-judge, auto-ingest &amp; dedupe with ingest time. DeepSeek Harness 简历筛选插件:批量收简历建档,大白话下指令,库内规则粗筛+LLM精判,自动入库去重、可导出。 | JavaScript | 0 | MIT | 2026-10-02 |
 | [wanjiaju3108/dsh-feishu-assistant](https://github.com/wanjiaju3108/dsh-feishu-assistant) | 飞书私聊机器人就是你的 DSH 助理：配对码绑管理员、审批卡放行、串行排队、回答成卡片回到飞书 | JavaScript | 0 | MIT | 2026-09-29 |
 | [wanjiaju3108/dsh-feishu-cui](https://github.com/wanjiaju3108/dsh-feishu-cui) | 用飞书私聊远程操作 DSH：消息与卡片走机器人长连接，不用公网入口、不用证书、不用内网穿透 | JavaScript | 0 | MIT | 2026-10-07 |
@@ -2870,7 +2871,6 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–Z）」分册 / 
 | [yangbobo2021/relay-dsh-plugin-skill-creator](https://github.com/yangbobo2021/relay-dsh-plugin-skill-creator) | DSH plugin that turns completed conversations into reusable, validated Skill bundles | JavaScript | 0 | MIT | 2026-09-05 |
 | [yangbobo2021/relay-dsh-plugin-terminal](https://github.com/yangbobo2021/relay-dsh-plugin-terminal) | Provider-neutral interactive terminal bottom-view plugin for DeepSeek Harness Workbench. | JavaScript | 0 | MIT | 2026-09-03 |
 | [yangbobo2021/relay-dsh-plugin-workbench](https://github.com/yangbobo2021/relay-dsh-plugin-workbench) | Extensible Workbench shell plugin for DeepSeek Harness with public side and bottom view contracts. | TypeScript | 0 | MIT | 2026-09-03 |
-| [yangdongzhen590/dsh-knj-prompts](https://github.com/yangdongzhen590/dsh-knj-prompts) | DSH ???????:????? ? ????????????(?? {??}),???????Prompt-scenario picker for DeepSeek Harness. | TypeScript | 0 | MIT | 2026-09-27 |
 | [yangfei222666-9/dsh-paper-trade](https://github.com/yangfei222666-9/dsh-paper-trade) | Zero-dependency paper-trading CLI for the DeepSeek Harness ecosystem: virtual 100k, hash-chained tamper-evident trade ledger — paper only, never a real brokerage. | Python | 0 | MIT | 2026-08-22 |
 | [yangfei222666-9/dsh-skill-multi-model-review](https://github.com/yangfei222666-9/dsh-skill-multi-model-review) | DSH skill: multi-model candidate review pipeline (GLM / Claude-CLI relay / Gemini / Codex) — zero-dependency, evidence-first | Python | 0 | MIT | 2026-08-23 |
 | [yangfei222666-9/dsh-voice-gate](https://github.com/yangfei222666-9/dsh-voice-gate) | Voice gate plugin for DeepSeek Harness: HTTP text-in/voice-reply channel for phone access | Python | 0 | MIT | 2026-09-12 |

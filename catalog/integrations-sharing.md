@@ -4,7 +4,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **636**
+- 本册收录 / Entries in this volume: **638**
 - 快照日期 / Snapshot date: **2026-10-07 UTC**
 - 最近人工复核 / Last review merge: **2026-10-08**
 
@@ -329,6 +329,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [weopenfire-git/dsh-market-quote](https://github.com/weopenfire-git/dsh-market-quote) | DSH tool plugin: realtime quotes and historical K-line for A-share / HK / US markets (Tencent public quote API) | TypeScript | 1 | MIT | 2026-09-12 |
 | [Wlain/deepseek-plugin](https://github.com/Wlain/deepseek-plugin) | Kling AI remote MCP plugin for DeepSeek Harness | JavaScript | 1 | NOASSERTION | 2026-09-29 |
 | [WODE25500/dsh-ssh-pro](https://github.com/WODE25500/dsh-ssh-pro) | DeepSeek Harness 的 SSH 增强运维插件 — 补齐 base dsh-ssh 的缺口：连接测试/远程目录/ssh-config 导入/指纹检查/多主机批量 | JavaScript | 1 | NOASSERTION | 2026-08-28 |
+| [wodongx123/dsh-qq-notify](https://github.com/wodongx123/dsh-qq-notify) | 通过本机 NapCat 机器人向 QQ 主号发私聊通知；部署、启动、配置、状态检查与消息发送全在 DSH 对话内完成。 | JavaScript | 1 | MIT | 2026-08-30 |
 | [xiaobai2017666/dsh-chrome-cdp](https://github.com/xiaobai2017666/dsh-chrome-cdp) | Chrome DevTools Protocol 插件 for DeepSeek Harness。通过 chromremote-interface 以 CDP 连接并操控 Chrome | TypeScript | 1 | — | 2026-09-10 |
 | [xieani090612/dsh-remote-panel](https://github.com/xieani090612/dsh-remote-panel) | DSH（DeepSeek Harness）插件：探测本机 WSL 发行版与远程 SSH 机器  注：主要部分均为ai编写 | JavaScript | 1 | MIT | 2026-10-03 |
 | [Xinlong-Wu/dsh-github-reviewer](https://github.com/Xinlong-Wu/dsh-github-reviewer) | A github reviewer based on the Deepseek Harness | TypeScript | 1 | Apache-2.0 | 2026-09-18 |
@@ -402,6 +403,7 @@ DSH 插件全量目录的「集成与分享」分册 / The "Integrations & Shari
 | [dongsheng123132/dsh-principal-binding-proof](https://github.com/dongsheng123132/dsh-principal-binding-proof) | Offline content-addressed proof of pseudonymous authority binding across DSH execution surfaces | JavaScript | 0 | MIT | 2026-09-07 |
 | [dsh-io/identity-sentinel](https://github.com/dsh-io/identity-sentinel) | Performance-art dsh plugin: the machine inspects its owner; non-Chinese verdicts terminate all workflows. Installing = informed consent. | TypeScript | 0 | MIT | 2026-08-17 |
 | [dsh-plugins/dsh-plugin-market](https://github.com/dsh-plugins/dsh-plugin-market) | A structured plugin marketplace for DeepSeek Harness — each plugin described as JSON, auto-aggregated into a single plugins.json for the dsh-plugins.github.io site. DeepSeek Harness 结构化插件市场 —— 每个插件以 JSON 描述，自动聚合为单一 plugins.json 供 dsh-plugins.github.io 站点消费。 | JavaScript | 0 | — | 2026-08-26 |
+| [dsh-publish/dsh-pair-quick](https://github.com/dsh-publish/dsh-pair-quick) | 在 dsh web 设置页增加「快速配对」页面：一键铸造远程访问配对链接并显示二维码。 | JavaScript | 0 | MIT | 2026-09-09 |
 | [eghrhegpe/dsh-connect-modelscope-token-plan](https://github.com/eghrhegpe/dsh-connect-modelscope-token-plan) | ModelScope (modelscope.cn) connect bundle for the DeepSeek Harness: a local-usage quota panel for the free API-Inference tier plus optional provider registration. | JavaScript | 0 | MIT | 2026-10-06 |
 | [eghrhegpe/dsh-connect-sensenova-token-plan](https://github.com/eghrhegpe/dsh-connect-sensenova-token-plan) | \[DSH Plugins\] 商汤接入 DSH 的全家桶：查看积分额度、接入API与商汤小浣熊桌面端，429重试 | JavaScript | 0 | MIT | 2026-10-07 |
 | [Enderfga/dsh-clawo](https://github.com/Enderfga/dsh-clawo) | DeepSeek Harness bundle: register Claw Orchestrator as an ACP subagent provider — delegate a dsh subagent to a multi-engine council across Claude Code, Codex and Cursor. | — | 0 | MIT | 2026-09-12 |

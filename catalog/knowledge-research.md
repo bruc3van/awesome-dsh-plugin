@@ -4,7 +4,7 @@ DSH 插件全量目录的「知识与研究」分册 / The "Knowledge & Research
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **661**
+- 本册收录 / Entries in this volume: **659**
 - 快照日期 / Snapshot date: **2026-10-07 UTC**
 - 最近人工复核 / Last review merge: **2026-10-08**
 
@@ -125,7 +125,6 @@ DSH 插件全量目录的「知识与研究」分册 / The "Knowledge & Research
 | [Scorpio69t/teach-math-with-manim](https://github.com/Scorpio69t/teach-math-with-manim) | Teach Math with Manim — 图书《用 Manim 讲好数学》官方配套开源仓库 | Python | 5 | MIT | 2026-09-20 |
 | [SihanLv/dsh-literature](https://github.com/SihanLv/dsh-literature) | Literature research for DeepSeek Harness — dblp + arXiv search, authoritative BibTeX, and full-text download. | TypeScript | 5 | — | 2026-09-30 |
 | [TecFancy/dsh-deeptutor](https://github.com/TecFancy/dsh-deeptutor) | Learning assistant extension for DeepSeek Harness (dsh): brings DeepTutor tutoring to your agent — deep explanations, self-test questions, learning paths, personal knowledge-base search (RAG), and note archiving. \| 面向 DeepSeek Harness 的学习辅助扩展:为 agent 接入 DeepTutor 辅导能力 —— 深度讲解、自测题、学习路径规划、个人知识库检索(RAG)与笔记归档。 | TypeScript | 5 | — | 2026-09-30 |
-| [TindalosKorone/dsh-cheatengine](https://github.com/TindalosKorone/dsh-cheatengine) | DSH plugin bridging DeepSeek Harness agents to Cheat Engine: dynamic debugging, memory scanning, pointer analysis, breakpoints, and game memory hacking via ce_* tools. | TypeScript | 5 | MIT | 2026-09-30 |
 | [wangyihao0001-oss/dsh-task-memory](https://github.com/wangyihao0001-oss/dsh-task-memory) | Task-isolated long-term memory for DeepSeek Harness — remember / recall / search stay inside one task boundary. | JavaScript | 5 | MIT | 2026-09-12 |
 | [watericetangcw/academic-research-graph](https://github.com/watericetangcw/academic-research-graph) | A SKILL that turns one paper into a living research map. | HTML | 5 | MIT | 2026-08-27 |
 | [YYTbit/dsh-plugin-meta-memory](https://github.com/YYTbit/dsh-plugin-meta-memory) | Structured long-term memory system for DeepSeek Harness | TypeScript | 5 | MIT | 2026-10-06 |
@@ -135,7 +134,6 @@ DSH 插件全量目录的「知识与研究」分册 / The "Knowledge & Research
 | [fan56/dsh-topics-memory](https://github.com/fan56/dsh-topics-memory) | Topic memory for LLM agents — edited, not accumulated: a topic keeps the starting question, conclusion, impact and dependencies; process is not memory. OKF bundle for dsh, local-first, git-traceable, budgeted LLM-free injection. | TypeScript | 4 | — | 2026-10-01 |
 | [Fishsb/dsh-shoucang-memory](https://github.com/Fishsb/dsh-shoucang-memory) | 守藏 Shoucang — DeepSeek Harness (DSH) 长期记忆插件：会话蒸馏自动沉淀 × 深度睡眠反思归纳 × 词法+向量混合召回 × 认知环引导 × 主动遗忘，配本地设置面板。一条命令装上，助理即拥有跨会话记忆——数据全在本机，零上传。 | JavaScript | 4 | Apache-2.0 | 2026-09-27 |
 | [fsrmqi/dsh-research-kit](https://github.com/fsrmqi/dsh-research-kit) | dsh-research-kit 是一个 浏览器侧 DSH 插件：它维护科研资源目录、把工作流和用户参数组装成可编辑 Prompt，并由 DSH 当前会话负责实际发送与执行。 | JavaScript | 4 | MIT | 2026-10-05 |
-| [guoliyuan97-png/dsh-game-hud](https://github.com/guoliyuan97-png/dsh-game-hud) | Game-style floating HUD for DeepSeek Harness: balance HP bar, context MP bar, official peak/valley pricing with countdown, auto-compaction, memory-carrying new conversation. ?????? HUD ?? | JavaScript | 4 | MIT | 2026-09-12 |
 | [Howardzhangdqs/dsh-recap](https://github.com/Howardzhangdqs/dsh-recap) | DSH recap plugin: distills every model request (turn:step) into one sentence, rendered inline in the conversation flow | TypeScript | 4 | MIT | 2026-09-16 |
 | [khiqwq/dsh-system-proxy](https://github.com/khiqwq/dsh-system-proxy) | DSH host plugin - smart outbound HTTP(S) routing: named proxies (http/https/socks4/4a/5/5h), per-host/provider/plugin rules, direct-first fallback with health memory (global fetch + node http/https) | JavaScript | 4 | MIT | 2026-09-24 |
 | [Luke-Yong/dsh-plugin-knowledge-graph](https://github.com/Luke-Yong/dsh-plugin-knowledge-graph) | dsh-plugin-knowledge-graph for Deepseek Harness | TypeScript | 4 | MIT | 2026-09-12 |
@@ -396,7 +394,6 @@ DSH 插件全量目录的「知识与研究」分册 / The "Knowledge & Research
 | [UnKnownFish125/dsh-deepmemory](https://github.com/UnKnownFish125/dsh-deepmemory) | DeepSeek Harness 主体长期记忆插件：语义召回、实体图谱、状态卡、presets、可配置嵌入；任务看板已独立为 dsh-livetaskboard。 | Python | 1 | AGPL-3.0 | 2026-09-28 |
 | [userInner/dsh-academic-research](https://github.com/userInner/dsh-academic-research) | Evidence-grounded bilingual academic research plugin for DeepSeek Harness and OnPeople | TypeScript | 1 | MIT | 2026-09-12 |
 | [vilicvane/dsh-plugin-turn-memory](https://github.com/vilicvane/dsh-plugin-turn-memory) | Turn-granular context memory for DeepSeek Harness. | TypeScript | 1 | — | 2026-09-12 |
-| [wangzhanchao883/dsh-disk-manager](https://github.com/wangzhanchao883/dsh-disk-manager) | DeepSeek Harness plugin: scan the whole C drive, classify every big item (safe cache / relocatable / junction-movable / abandoned / config-memory redline / personal), delete/move/redirect on demand with dry-run &amp; undo. C?????????:????+??+?/?/??,???????? | JavaScript | 1 | MIT | 2026-10-03 |
 | [WeilaiSun/dsh-hindsight-memory](https://github.com/WeilaiSun/dsh-hindsight-memory) | Semantic long-term memory for DeepSeek Harness: hindsight_retain/recall/reflect tools + auto-recall over local Hindsight daemon (pgvector + DeepSeek embeddings) | JavaScript | 1 | MIT | 2026-08-18 |
 | [wellorbetter/dsh-product-delivery-workflow](https://github.com/wellorbetter/dsh-product-delivery-workflow) | 100% AI-native product delivery workflow plugin for DeepSeek Harness: full product-to-release pipeline (research → PRD → OpenSpec → parallel multi-agent → review loops → tests → release audit) with loop closure. 产品交付工作流插件：从产品到发布全流程，自带闭环，100% AI 原生，睡前启动醒来收货。 | JavaScript | 1 | MIT | 2026-09-12 |
 | [Witchwarren2344/dsh-mnemosyne-memory](https://github.com/Witchwarren2344/dsh-mnemosyne-memory) | Provide long-term memory, vector semantic search, and LLM reflection for DeepSeek Harness (DSH) with this free, MIT-licensed plugin. | JavaScript | 1 | MIT | 2026-10-06 |
@@ -409,6 +406,7 @@ DSH 插件全量目录的「知识与研究」分册 / The "Knowledge & Research
 | [xuboboo/dsh-xiaohongshu-viral-note](https://github.com/xuboboo/dsh-xiaohongshu-viral-note) | DSH (DeepSeek Harness) plugin bundle: Xiaohongshu/RED viral-note agent skill - hot-note research, note generation/rewrite, verification, authorized account analysis, QR login and controlled publishing, shipped as a bundled skill provider. | Python | 1 | MIT | 2026-09-12 |
 | [xypang33-sketch/dsh-save-chat](https://github.com/xypang33-sketch/dsh-save-chat) | Save DSH conversation turns as Markdown: per-session collections plus a personal knowledge base the model can search on demand. Zero dependencies. | JavaScript | 1 | MIT | 2026-10-04 |
 | [YangCazz/CazzPatent](https://github.com/YangCazz/CazzPatent) | AI patent disclosure assistant for DeepSeek Harness with staged drafting, diagrams, DOCX/PDF export, and reflective memory. | Python | 1 | MIT | 2026-09-21 |
+| [yangdongzhen590/dsh-knj-obsidian](https://github.com/yangdongzhen590/dsh-knj-obsidian) | DSH 内简化版 Obsidian：agent 把对话、文档、网页蒸馏为结构化知识页，落盘到项目 .wiki/ 形成可复用知识库。 | JavaScript | 1 | MIT | 2026-09-20 |
 | [yehuioc/dsh-memory-pack](https://github.com/yehuioc/dsh-memory-pack) | File-based layered memory skill pack for DeepSeek Harness and skill-driven agent runtimes: 11-layer directory model, Maps-first navigation, producer/review metadata contract, contamination guard, zero-dep scaffold/audit scripts. | Python | 1 | MIT | 2026-08-16 |
 | [yihefeikong-rgb/dsh-cc-haha-memory](https://github.com/yihefeikong-rgb/dsh-cc-haha-memory) | CC-HAHA-inspired persistent memory plugin for DeepSeek Harness (DSH) | TypeScript | 1 | MIT | 2026-09-18 |
 | [yonro/xmemo-deepseek-plugin](https://github.com/yonro/xmemo-deepseek-plugin) | Native DeepSeek Harness (dsh) plugin: hybrid local and XMemo cloud memory for Cordis-based agents. | TypeScript | 1 | MIT | 2026-08-15 |

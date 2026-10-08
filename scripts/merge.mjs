@@ -17,6 +17,7 @@ import {
   boardRepositories,
   buildBoard,
   buildCatalog,
+  lastReviewDate,
   loadState,
   updateReadmePages,
   writePending,
@@ -120,6 +121,24 @@ async function readPublishedBoards() {
 const state = await loadState();
 const { catalog, pages, stats, warnings, oversized } = buildCatalog(state);
 
+// The shields.io "repositories" badge on the README pages reads
+// data/stats.json ($.repositories) so the number it shows is the verified
+// catalog total — the same figure the pages state in prose — instead of the
+// raw snapshot's total_count (every repository the topic search saw). The raw
+// count stays available as source_repo_count in the market feeds and inside
+// data/repositories.json itself.
+const statsPayload = { snapshot_date: state.date, last_review_merge: lastReviewDate(state), ...stats };
+async function readPublishedStats() {
+  try {
+    return JSON.parse(await readFile(resolve(root, 'data/stats.json'), 'utf8'));
+  } catch {
+    return null;
+  }
+}
+async function writeStats() {
+  await writeFile(resolve(root, 'data/stats.json'), `${JSON.stringify(statsPayload, null, 2)}\n`);
+}
+
 if (checkOnly) {
   const volumeState = await readPublishedVolumes();
   if (!volumeState || volumeState.published.size === 0) {
@@ -179,6 +198,13 @@ if (checkOnly) {
     else if (index.total !== published.size) {
       indexErrors.push(`CATALOG.md reports ${index.total} repositories, but the volumes contain ${published.size}`);
     }
+  }
+  // data/stats.json feeds the README repositories badge; a stale file keeps
+  // showing the previous merge's count on every page until the next merge.
+  const publishedStats = await readPublishedStats();
+  if (!publishedStats) indexErrors.push('data/stats.json is missing — run "node scripts/merge.mjs"');
+  else if (publishedStats.repositories !== stats.repositories) {
+    indexErrors.push(`data/stats.json reports ${publishedStats.repositories} repositories, but the curation data yields ${stats.repositories}`);
   }
   // Boards. A published row for a repository that is no longer board-eligible
   // (board-excluded, excluded, unapproved, description dropped) is stale
@@ -264,6 +290,7 @@ for (const name of await readdir(resolve(root, CATALOG_DIR))) {
   }
 }
 await writeFile(resolve(root, 'TOP200.md'), board);
+await writeStats();
 const written = await writePending(state);
 const pendingCount = written.pending.length;
 const missingCount = written.missing.length;

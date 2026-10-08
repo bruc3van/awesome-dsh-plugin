@@ -397,6 +397,20 @@ export async function runMarket({ rootDir = root, argv = process.argv } = {}) {
     readFile(resolve(rootDir, 'data/curated.json'), 'utf8').then(JSON.parse),
     readFile(resolve(rootDir, 'data/approved.json'), 'utf8').then(JSON.parse),
   ]);
+  // Same editorial description fixes as scripts/render.mjs loadState: applied
+  // to the in-memory snapshot only (the stored file mirrors the API). A repo
+  // whose upstream description is permanently unreadable mojibake must not
+  // reach the downstream market in that state, should it ever enter the feed.
+  const descriptionOverrides = new Map(
+    Object.entries(curated.description_overrides || {}).map(([fullName, description]) => [
+      fullName.toLowerCase(),
+      description,
+    ]),
+  );
+  for (const repo of snapshot.repositories) {
+    const override = descriptionOverrides.get(repo.full_name.toLowerCase());
+    if (typeof override === 'string' && override.trim()) repo.description = override;
+  }
   let previous = null;
   try {
     previous = JSON.parse(await readFile(resolve(rootDir, 'data/market.json'), 'utf8'));
