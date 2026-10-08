@@ -11,16 +11,16 @@
 ## 🗺️ 生态全景
 
 <!-- dsh:panorama:start -->
-截至 2026-10-07 共收录 **15567** 个经核实的仓库。它们长这样：
+截至 2026-10-07 共收录 **15564** 个经核实的仓库。它们长这样：
 
 ```mermaid
 mindmap
-  root((DSH 插件生态 15567))
+  root((DSH 插件生态 15564))
     Agent 自动化与工作流 · 5680
       定时循环与事件唤醒
       长期记忆与自我进化
       审批、预算与检查点
-    界面与体验 · 3103
+    界面与体验 · 3061
       桌面客户端与终端 TUI
       侧边栏工作台
       皮肤与桌面宠物
@@ -35,7 +35,7 @@ mindmap
     设计媒体与视觉 · 773
       图片理解与 OCR
       设计画布与 UI 还原
-    开发者工具 · 706
+    开发者工具 · 747
       Git 与 diff
       沙箱与运行时
       调试与诊断
@@ -47,7 +47,7 @@ mindmap
       会话导入与分享
       远程访问
       IM 与外部集成
-    生态与资源 · 451
+    生态与资源 · 449
       插件市场与注册表
       开发模板与脚手架
       教程与手册
@@ -129,7 +129,7 @@ mindmap
 
 ### ✍️ 对话体验细节
 
-- **想像 Codex 一样用 @ 引用工作区文件**：[dsh-at-file](https://github.com/FSMargoo/dsh-at-file) —— 在输入框内按 @ 搜索工作区文件并把路径附进 prompt；官方近期已内置 `@file` / `@session`，新安装可优先用官方实现，本插件适合需要路径选择器与过滤规则的用户。
+- **想像 Codex 一样用 @ 引用工作区文件**：[dsh-at-file](https://github.com/FSMargoo/dsh-at-file) —— 在输入框内按 @ 搜索工作区文件并把路径附进 prompt；官方已内置 `@file` / `@session`，新安装可优先用官方实现，本插件适合需要路径选择器与过滤规则的用户。
 - **想调节思考强度**：[dsh-reasoning-effort](https://github.com/HanaAyane/dsh-reasoning-effort) —— Codex 风格的思考强度滑块，以及大肥鱼跑步滑块。
 - **想更顺手地阅读和操作长对话**：[dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) · [dsh-navbar](https://github.com/vlln/dsh-navbar) —— 像 Codex 一样选中文本批注，并快速跳转用户消息节点。
 - **想把对话摊上画布、按分支整理**：[dsh-synapse](https://github.com/liangmianya/dsh-synapse) —— 画布式会话探索与分支工作台，非线性梳理长对话里的多条思路。
@@ -353,7 +353,7 @@ mindmap
 - **下游市场文件：** [data/market.json](./data/market.json) 是给下游市场（如 DSH 桌面端插件市场）消费的精选小文件——在快照与 curation 之上过滤、清洗并按类目均衡发牌（≤600 条、≤500 KB），每日快照刷新与 curation 合并后自动重建；字段与生成规则见下游的[发布规范](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md)。同一时序下同步生成根目录 [MARKET.md](./MARKET.md)——这份文件的只读可视化（按 Star 数排名），可在 GitHub 上直接预览市场内容，无需安装下游插件。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
-截至 2026-10-07，全量目录收录 **15567** 个仓库、**34** 种主要语言；其中 **14014** 个声明了许可证，**15407** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
+截至 2026-10-07，全量目录收录 **15564** 个仓库、**34** 种主要语言；其中 **14011** 个声明了许可证，**15405** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
 
 ## ⚠️ 使用与安全
 

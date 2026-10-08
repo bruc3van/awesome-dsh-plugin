@@ -28,7 +28,11 @@ async function run(root, response, publish = true) {
     syncBuiltinESMExports();
     globalThis.fetch = async () => { ${response} };
   `);
-  return spawnSync(process.execPath, ['--import', resolve(root, 'mock.mjs'), resolve(root, 'scripts/publish-npm-feed.mjs'), ...(publish ? ['--publish'] : [])], { encoding: 'utf8' });
+  // Spawn with cwd + relative specifiers: absolute paths break on Windows —
+  // a bare "C:\…" dies with ERR_UNSUPPORTED_ESM_URL_SCHEME, and a file:// URL
+  // gets its slashes normalized into an unresolvable "file:\C:\…" argument.
+  // "./mock.mjs" and the entry resolve against cwd on every platform.
+  return spawnSync(process.execPath, ['--import', './mock.mjs', './scripts/publish-npm-feed.mjs', ...(publish ? ['--publish'] : [])], { cwd: root, encoding: 'utf8' });
 }
 
 test('registry errors block publishing but permit an explicitly offline build', async (t) => {

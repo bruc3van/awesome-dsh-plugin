@@ -4,7 +4,7 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **451**
+- 本册收录 / Entries in this volume: **449**
 - 快照日期 / Snapshot date: **2026-10-07 UTC**
 - 最近人工复核 / Last review merge: **2026-10-08**
 
@@ -255,11 +255,9 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 | [sevastopol36/dsh-plugin-scihub](https://github.com/sevastopol36/dsh-plugin-scihub) | a sci-hub search plugin for deepseek harness | JavaScript | 1 | MIT | 2026-09-30 |
 | [Simidas/dsh-compat](https://github.com/Simidas/dsh-compat) | Inspect and compile Claude Code and Codex plugins into auditable DeepSeek Harness bundles. | TypeScript | 1 | Apache-2.0 | 2026-09-12 |
 | [SnowNightt/dsh-token-activity](https://github.com/SnowNightt/dsh-token-activity) | 用于展示最近365天的每日Token使用热力图，悬停任意日期查看当天使用过的全部模型及其Token用量。 | TypeScript | 1 | MIT | 2026-09-09 |
-| [stakeswky/awesome-dsh](https://github.com/stakeswky/awesome-dsh) | DSH 插件生态导航：GitHub topic dsh-plugin 全量目录，自动抓取 + Workers AI 中文翻译 + 按需检索 skill｜Auto-updating catalog of 2600+ DeepSeek Harness plugins | TypeScript | 1 | MIT | 2026-09-09 |
 | [Takinggg/dsh-updater](https://github.com/Takinggg/dsh-updater) | One-click updates for DeepSeek Harness (DSH). Community plugin — incremental npm tarballs, backup and rollback. Not official DeepSeek software. | JavaScript | 1 | MIT | 2026-08-19 |
 | [ttmouse/dsh-dingtalk-channel](https://github.com/ttmouse/dsh-dingtalk-channel) | DingTalk IM channel for DeepSeek Harness: Stream-mode bot that turns each chat into a tool-capable agent — emotion read-receipts, silent process, durable sessions | TypeScript | 1 | MIT | 2026-09-12 |
 | [tyx6661234/dsh-community-listening](https://github.com/tyx6661234/dsh-community-listening) | 面向 DeepSeek Harness (DSH) 的社交评论研究插件 | TypeScript | 1 | MIT | 2026-08-26 |
-| [ukinch605/awesome-dsh-hub](https://github.com/ukinch605/awesome-dsh-hub) | Auto-maintained awesome-style directory of DeepSeek Harness plugins: registry + bilingual catalogs + searchable site | JavaScript | 1 | MIT | 2026-10-07 |
 | [Ultmebius/universal-plugin-hub](https://github.com/Ultmebius/universal-plugin-hub) | DSH 插件市场：内置 Claude 官方插件目录，支持添加 Git 仓库作为插件源；一键安装，技能、子代理、MCP、LSP、hooks 装完自动接线 · Plugin marketplace for DeepSeek Harness | JavaScript | 1 | MIT | 2026-10-04 |
 | [usertianziyang/DSH-Plugin-Hub](https://github.com/usertianziyang/DSH-Plugin-Hub) | DSH Plugin Hub — 基于 GitHub REST Search API 构建的 dsh-plugin 主题仓库索引站。数据每 6 小时自动同步、完整性校验后发布为静态快照；前端基于 React + TypeScript (Vite)，支持中英双语、全文搜索、分类筛选与分页，浏览器零 API 调用、零追踪，即开即用。 | TypeScript | 1 | MIT | 2026-09-30 |
 | [Voellin/dsh-deephub-share](https://github.com/Voellin/dsh-deephub-share) | DeepHub 的开放部分：零知识云端协议客户端，以及基于它的 DeepSeek Harness 插件 | TypeScript | 1 | MIT | 2026-09-30 |

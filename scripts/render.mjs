@@ -632,36 +632,39 @@ function panoramaBody(state, counts, total, lang) {
 export const LEADERBOARD_PREVIEW = 50;
 
 // The home-page leaderboard shows a preview of each repository's description.
-// README.md renders the editorially translated Chinese descriptions from
-// data/leaderboard-descriptions-zh.json — same philosophy as curated.json:
-// pages stay script-generated, the human-maintained content lives in data/.
-// README_EN.md keeps the upstream descriptions. Repositories without a
-// translation fall back to the upstream text and are reported as a warning.
-export async function loadZhLeaderboardDescriptions(warnings) {
-  const path = resolve(root, 'data/leaderboard-descriptions-zh.json');
+// Both pages render editorially curated descriptions from data files —
+// leaderboard-descriptions-zh.json for README.md and
+// leaderboard-descriptions-en.json for README_EN.md — same philosophy as
+// curated.json: pages stay script-generated, the human-maintained content
+// lives in data/. Without the raw upstream text the English board mixed
+// Chinese into half its rows and carried star-begging slogans verbatim.
+// Repositories without a curated description fall back to the upstream text
+// and are reported as a warning.
+async function loadLeaderboardDescriptions(file, warnings) {
+  const path = resolve(root, file);
   try {
     const parsed = JSON.parse(await readFile(path, 'utf8'));
     const map = new Map();
     for (const [fullName, description] of Object.entries(parsed)) {
       if (typeof description !== 'string' || !description.trim()) {
-        warnings.push(`data/leaderboard-descriptions-zh.json: "${fullName}" has an empty or non-string description — ignored`);
+        warnings.push(`${file}: "${fullName}" has an empty or non-string description — ignored`);
         continue;
       }
       map.set(fullName.toLowerCase(), description);
     }
     return map;
   } catch (error) {
-    warnings.push(`data/leaderboard-descriptions-zh.json could not be read (${error.message}) — Chinese descriptions left untranslated`);
+    warnings.push(`${file} could not be read (${error.message}) — leaderboard descriptions fall back to upstream text`);
     return new Map();
   }
 }
 
-function leaderboardBody(top, lang, zhDescriptions) {
+function leaderboardBody(top, lang, descriptions) {
   const zh = lang === 'zh';
   const header = zh
     ? '| # | 项目 | 简介 | ⭐ Stars | License |'
     : '| # | Project | Description | ⭐ Stars | License |';
-  const describe = (repo) => (zh ? zhDescriptions?.get(repo.full_name.toLowerCase()) ?? repo.description : repo.description);
+  const describe = (repo) => descriptions?.get(repo.full_name.toLowerCase()) ?? repo.description;
   const rows = top.map(
     (repo, index) =>
       `| ${index + 1} | [${repo.full_name}](${repo.html_url}) | ${esc(clip(describe(repo) || '—'))} | ${repo.stargazers_count} | ${repo.license || '—'} |`,
@@ -694,12 +697,19 @@ export async function updateReadmePages(state) {
   const top50 = boardRepositories(state)
     .sort((a, b) => b.stargazers_count - a.stargazers_count || a.full_name.localeCompare(b.full_name))
     .slice(0, LEADERBOARD_PREVIEW);
-  const zhDescriptions = await loadZhLeaderboardDescriptions(warnings);
-  const missingZh = top50.filter((repo) => !zhDescriptions.has(repo.full_name.toLowerCase())).map((repo) => repo.full_name);
-  if (missingZh.length) {
-    warnings.push(
-      `README.md: ${missingZh.length} leaderboard repositories have no Chinese description in data/leaderboard-descriptions-zh.json — showing the upstream description instead: ${missingZh.slice(0, 5).join(', ')}${missingZh.length > 5 ? '…' : ''}`,
-    );
+  const descriptionFiles = {
+    zh: 'data/leaderboard-descriptions-zh.json',
+    en: 'data/leaderboard-descriptions-en.json',
+  };
+  const descriptions = {};
+  for (const [lang, file] of Object.entries(descriptionFiles)) {
+    descriptions[lang] = await loadLeaderboardDescriptions(file, warnings);
+    const missing = top50.filter((repo) => !descriptions[lang].has(repo.full_name.toLowerCase())).map((repo) => repo.full_name);
+    if (missing.length) {
+      warnings.push(
+        `${lang === 'zh' ? 'README.md' : 'README_EN.md'}: ${missing.length} leaderboard repositories have no curated description in ${file} — showing the upstream description instead: ${missing.slice(0, 5).join(', ')}${missing.length > 5 ? '…' : ''}`,
+      );
+    }
   }
   const fmt = (value) => value.toLocaleString('en-US');
   const statsZh = `截至 ${state.date}，全量目录收录 **${repositories.length}** 个仓库、**${totals.languages}** 种主要语言；其中 **${totals.licenses}** 个声明了许可证，**${totals.active}** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。`;
@@ -715,7 +725,7 @@ export async function updateReadmePages(state) {
       statsPattern: /截至 \d{4}-\d{2}-\d{2}，全量目录收录 [^\n]*为准）。/,
       statsReplacement: statsZh,
       panorama: panoramaBody(state, counts, repositories.length, 'zh'),
-      leaderboard: leaderboardBody(top50, 'zh', zhDescriptions),
+      leaderboard: leaderboardBody(top50, 'zh', descriptions.zh),
       showcase: showcase && showcase.zh.slice(-SHOWCASE_PREVIEW).join('\n'),
       showcaseTotalPattern: /查看全部 \d+ 条自荐/,
       showcaseTotalReplacement: showcase && `查看全部 ${showcase.total} 条自荐`,
@@ -728,7 +738,7 @@ export async function updateReadmePages(state) {
       statsPattern: /As of \d{4}-\d{2}-\d{2}, the catalog lists [^\n]*for current numbers\)\./,
       statsReplacement: statsEn,
       panorama: panoramaBody(state, counts, repositories.length, 'en'),
-      leaderboard: leaderboardBody(top50, 'en'),
+      leaderboard: leaderboardBody(top50, 'en', descriptions.en),
       showcase: showcase && showcase.en.slice(-SHOWCASE_PREVIEW).join('\n'),
       showcaseTotalPattern: /See all \d+ showcase entries/,
       showcaseTotalReplacement: showcase && `See all ${showcase.total} showcase entries`,
