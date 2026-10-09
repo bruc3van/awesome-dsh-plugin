@@ -6,6 +6,7 @@
   "bowenliang123/dsh-context": "One-stop context visualizer for DSH: a Context panel and commands for context composition, evolution, compaction, and pruning events.",
   "ccch1mneyyy/dsh-TUI": "Claude Code-style full-screen terminal TUI: whale top bar, live status, streaming thoughts, double-Esc rewind, context progress + TPS.",
   "ccch1mneyyy/working-activity": "Lively working-line status strip for pi CLI and DSH.",
+  "corrinehu/dsh-workbuddy-connect": "Zero-config bridge that surfaces the WorkBuddy desktop app’s bundled models (GLM-5.3, DeepSeek-V4, Kimi-K3, …) inside DeepSeek Harness, spending your WorkBuddy quota.",
   "csyangwen/dsh-memory-evolve": "Cross-session long-term memory + background self-evolution: five-track memory, git-branch awareness, skill self-evolution, and four-track todos, with zero core edits.",
   "d-dev0101/open-sea-skin": "WebGPU ocean skin: install as a DSH plugin, a Chrome/Edge extension, or a native integration.",
   "DDDMUC/dsh-free-search": "Free web-search provider: DuckDuckGo backend, no API key.",

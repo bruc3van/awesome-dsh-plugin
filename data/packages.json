@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-03",
+  "updated_at": "2026-10-09",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -6809,17 +6809,17 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
-    "wowyuarm/dsh-agent-team": {
+    "contexera/dsh-agent-team": {
       "packages": [
         {
           "profile": "web",
-          "install": "@wowyuarm/dsh-agent-team@0.1.15",
-          "source": "npm:@wowyuarm/dsh-agent-team@0.1.15",
-          "command": "dsh plugin --profile web add @wowyuarm/dsh-agent-team@0.1.15"
+          "install": "@contexera/dsh-agent-team@0.2.2",
+          "source": "npm:@contexera/dsh-agent-team@0.2.2",
+          "command": "dsh plugin --profile web add @contexera/dsh-agent-team@0.2.2"
         }
       ],
       "status": "readme-verified",
-      "verified_date": "2026-09-26",
+      "verified_date": "2026-10-09",
       "verified_via": "README@master"
     },
     "wqty123/dsh-browser": {

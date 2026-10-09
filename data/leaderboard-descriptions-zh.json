@@ -3,6 +3,7 @@
   "Aisland-SJL/dsh-worktable": "面向 DeepSeek Harness 的 Agent 项目管理台：侧边栏应用抽屉 + 可停靠分屏工作区 + 实时监控所有项目的控制室。",
   "Anionex/dsh-vision-toolkit": "为纯文本模型设计更强大的视觉工具箱：一行安装使用、粘贴图片直接识别、多张图片问答、截图到前端 UI 还原等。",
   "Awesome-AI-Pedia/Awesome-AI-Pedia": "全维度 AI 资源百科：收录大模型、智能 Agent、RAG、多模态、MLOps、AI 应用工具等，DSH 插件也在其列，一站式 AI 导航库。",
+  "corrinehu/dsh-workbuddy-connect": "零配置把 WorkBuddy 桌面 App 的模型（GLM-5.3、DeepSeek-V4、Kimi-K3 等）接进 DSH，国内版与国际版并存各用各的积分",
   "Devin-AXIS/deepseek-design": "DeepSeek Harness 可编辑设计系统：AI 生成、可视化编辑、模板市场与 PPT。",
   "Electricitysheep/dsh-handbook": "DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装、插件开发、性能调优、多 Agent 实测对比（中英 PDF）。",
   "EthanYoQ/Invoice-Downloader": "电子发票整理与报销准备：邮箱批量收集 PDF/OFD 发票、OCR 识别归档并生成 Excel 汇总，含桌面版与 DSH 插件。",
