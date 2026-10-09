@@ -29,6 +29,7 @@
 - **[dsh-backup](https://github.com/xiaoyuyu6420/dsh-backup)**（[@xiaoyuyu6420](https://github.com/xiaoyuyu6420) · 2026-09-30）— 一条命令备份与恢复整个 `~/.dsh`（会话、设置、技能、MCP、凭据）：重启后继续跑的定时自动备份与分级保留、升级前自动快照、会话日志体检与定点修复、升级迁移预检、宿主起不来时也能用的进程外救援通道；凭据归档前默认脱敏、明文只落本机 vault，支持私有仓库 GitHub 同步做跨机迁移。适合把 DSH 当主力工具、不想被升级或换机弄丢数据的用户；npm 包名 `@xiaoyuyu6420/dsh-backup`。
 - **[dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter)**（[@Han-1413141](https://github.com/Han-1413141) · 2026-10-02）— 在 DSH 中查看会话和模型费用、Token 用量、预算、服务商余额及 Coding Plan 额度，支持中英文界面。
 - **[dsh-piggy](https://github.com/CLICGGER-TYPES/dsh-piggy)**（[@CLICGGER-TYPES](https://github.com/CLICGGER-TYPES) · 2026-10-03）— 在 DSH Web 里养一只随真实工作成长的猪：照顾、学习、打工、钓鱼、图鉴和换肤；不注册模型工具，也不向对话注入宠物状态。npm 包 `dsh-piggy`，另有独立桌面版。
+- **[dsh-sieve](https://github.com/Sev7eEn7/dsh-sieve)**（[@Sev7eEn7](https://github.com/Sev7eEn7) · 2026-10-10）— 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪历史上下文并按需披露技能。
 
 ## 📣 Author showcase
 
@@ -61,3 +62,4 @@
 - **[dsh-backup](https://github.com/xiaoyuyu6420/dsh-backup)** ([@xiaoyuyu6420](https://github.com/xiaoyuyu6420) · 2026-09-30) — One command to back up and restore all of `~/.dsh` (sessions, settings, skills, MCP configs, credentials): restart-surviving scheduled backups with tiered retention, automatic pre-upgrade snapshots, a session-log doctor with targeted repair and migration precheck, and an out-of-process rescue console for when the host will not boot; credentials are redacted by default with plaintext confined to a local vault, and private-repo GitHub sync covers machine migration. For DSH users who do not want an upgrade or a new laptop to cost them their data; published on npm as `@xiaoyuyu6420/dsh-backup`.
 - **[dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter)** ([@Han-1413141](https://github.com/Han-1413141) · 2026-10-02) — Track session and model costs, token usage, budgets, provider balances and coding-plan quotas in a bilingual DSH interface.
 - **[dsh-piggy](https://github.com/CLICGGER-TYPES/dsh-piggy)** ([@CLICGGER-TYPES](https://github.com/CLICGGER-TYPES) · 2026-10-03) — A pet pig for DSH Web that grows as you work, with care, study, jobs, fishing, a collection book, and skins. It registers no model tools and injects no pet state into conversations. npm package: `dsh-piggy`; standalone desktop builds are also available.
+- **[dsh-sieve](https://github.com/Sev7eEn7/dsh-sieve)** ([@Sev7eEn7](https://github.com/Sev7eEn7) · 2026-10-10) — Filters tool outputs, prunes stale context and discloses skills on demand for DSH 0.2.1-alpha.1.
