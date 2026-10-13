@@ -1,6 +1,5 @@
 ## 📣 作者自荐
 
-- **[dsh-lark-link](https://github.com/amlyczz/dsh-lark-link)**（[@amlyczz](https://github.com/amlyczz) · 2026-08-15）— High-reliability Feishu/Lark 双向桥接：扫码 30 秒上线、CardKit 流式卡片、at-least-once 零丢失出站队列、每飞书会话独立 DSH Agent、自愈长连接，媒体收发 + 会话日志 /doctor 归档，并复用官方 DSH Web GUI。
 - **[dsh-tray](https://github.com/KAIbsb/dsh-tray)**（[@KAIbsb](https://github.com/KAIbsb) · 2026-08-15）— Windows 托盘管家:一键启动/重启/停止 DSH Web、崩溃自动拉起、状态鲸鱼图标与开机自启,配合浏览器 APP 模式窗口更顺手。
 - **[dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— DSH 插件开发知识库：官方约束、任务工作流、API 参考与社区踩坑，作为按需加载的智能体技能随 bundle 安装，开发插件时让 DSH 自己查。
 - **[dsh-auto-review](https://github.com/PerryLink/dsh-auto-review)**（[@PerryLink](https://github.com/PerryLink) · 2026-08-15）— 审批链上的第二模型 AI 自动审查：只读审查子代理返回带理由与风险等级的 allow/deny 结构化裁决，fail-closed 兜底，全量会话日志可审计；/auto-review 命令 + Web 审查面板，npm 可装，可与 dsh-permission-rules 组成「规则先行、AI 兜底」闭环。
@@ -30,10 +29,10 @@
 - **[dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter)**（[@Han-1413141](https://github.com/Han-1413141) · 2026-10-02）— 在 DSH 中查看会话和模型费用、Token 用量、预算、服务商余额及 Coding Plan 额度，支持中英文界面。
 - **[dsh-piggy](https://github.com/CLICGGER-TYPES/dsh-piggy)**（[@CLICGGER-TYPES](https://github.com/CLICGGER-TYPES) · 2026-10-03）— 在 DSH Web 里养一只随真实工作成长的猪：照顾、学习、打工、钓鱼、图鉴和换肤；不注册模型工具，也不向对话注入宠物状态。npm 包 `dsh-piggy`，另有独立桌面版。
 - **[dsh-sieve](https://github.com/Sev7eEn7/dsh-sieve)**（[@Sev7eEn7](https://github.com/Sev7eEn7) · 2026-10-10）— 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪历史上下文并按需披露技能。
+- **[deepseek-harness-android](https://github.com/guzhou079-arch/deepseek-harness-android)**（[@guzhou079-arch](https://github.com/guzhou079-arch) · 2026-10-13）— 把 DeepSeek Harness 打包成能直接装的安卓 APK：不用 Termux、不用 root、不用配环境，21 款技能随包；还能在手机上自己编译、打包、签名、发布。
 
 ## 📣 Author showcase
 
-- **[dsh-lark-link](https://github.com/amlyczz/dsh-lark-link)** ([@amlyczz](https://github.com/amlyczz) · 2026-08-15) — A high-reliability Feishu/Lark bidirectional bridge: scan a QR code to go live in 30 seconds, CardKit streaming cards, an at-least-once zero-loss outbound queue, one DSH agent per Feishu conversation, a self-healing connection, media in/out plus /doctor session-log archival, and it reuses the official DSH Web GUI.
 - **[dsh-tray](https://github.com/KAIbsb/dsh-tray)** ([@KAIbsb](https://github.com/KAIbsb) · 2026-08-15) — A Windows tray manager for DSH Web: one-click start/restart/stop, crash auto-restart, whale status icon, and autostart — pairs nicely with a browser app-mode window.
 - **[dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide)** ([@PerryLink](https://github.com/PerryLink) · 2026-08-15) — The DSH plugin-development knowledge base as an on-demand agent skill: official constraints, task workflows, API references, and community pitfalls, installed as a bundle.
 - **[dsh-auto-review](https://github.com/PerryLink/dsh-auto-review)** ([@PerryLink](https://github.com/PerryLink) · 2026-08-15) — Second-model AI auto-review on the approval answerer chain: a read-only reviewer subagent returns structured allow/deny verdicts with reasons and risk levels, fail-closed by default, with a full session-log audit trail; /auto-review command + Web review panel, npm-installable, pairs with dsh-permission-rules for a rules-first, AI-backstop loop.
@@ -63,3 +62,4 @@
 - **[dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter)** ([@Han-1413141](https://github.com/Han-1413141) · 2026-10-02) — Track session and model costs, token usage, budgets, provider balances and coding-plan quotas in a bilingual DSH interface.
 - **[dsh-piggy](https://github.com/CLICGGER-TYPES/dsh-piggy)** ([@CLICGGER-TYPES](https://github.com/CLICGGER-TYPES) · 2026-10-03) — A pet pig for DSH Web that grows as you work, with care, study, jobs, fishing, a collection book, and skins. It registers no model tools and injects no pet state into conversations. npm package: `dsh-piggy`; standalone desktop builds are also available.
 - **[dsh-sieve](https://github.com/Sev7eEn7/dsh-sieve)** ([@Sev7eEn7](https://github.com/Sev7eEn7) · 2026-10-10) — Filters tool outputs, prunes stale context and discloses skills on demand for DSH 0.2.1-alpha.1.
+- **[deepseek-harness-android](https://github.com/guzhou079-arch/deepseek-harness-android)** ([@guzhou079-arch](https://github.com/guzhou079-arch) · 2026-10-13) — DeepSeek Harness packaged as a ready-to-install Android APK: no Termux, no root, no setup, 21 skills bundled; it builds, signs and releases itself on the phone.
