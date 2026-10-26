@@ -30,6 +30,7 @@
 - **[dsh-piggy](https://github.com/CLICGGER-TYPES/dsh-piggy)**（[@CLICGGER-TYPES](https://github.com/CLICGGER-TYPES) · 2026-10-03）— 在 DSH Web 里养一只随真实工作成长的猪：照顾、学习、打工、钓鱼、图鉴和换肤；不注册模型工具，也不向对话注入宠物状态。npm 包 `dsh-piggy`，另有独立桌面版。
 - **[dsh-sieve](https://github.com/Sev7eEn7/dsh-sieve)**（[@Sev7eEn7](https://github.com/Sev7eEn7) · 2026-10-10）— 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪历史上下文并按需披露技能。
 - **[dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude)**（[@lcestou](https://github.com/lcestou) · 2026-10-13）— 把 Claude Code CLI 接入 DSH 作为模型提供方：用 `claude` 登录一次，在会话的模型选择器里选 Claude 模型即可，CLI 自带的权限模式、图片、续接与压缩都在 DSH 聊天里可用；DSH 的子智能体、后台任务和技能以 MCP 工具交给 Claude。工作区可通过 SSH 在另一台机器上运行 Claude。
+- **[dsh-work-status](https://github.com/xsllo425/dsh-work-status)**（[@xsllo425](https://github.com/xsllo425) · 2026-10-27）— 标题栏里的 Agent 工作状态：一行看见正在做什么、这轮用了多久、失败过没有，点开是目标、最近几步与上一轮；不调模型、不写提示词、只读已发生的事件，跨会话统计只存「工具名 + 毫秒数」（MIT，84 项测试）。
 
 ## 📣 Author showcase
 
@@ -63,3 +64,4 @@
 - **[dsh-piggy](https://github.com/CLICGGER-TYPES/dsh-piggy)** ([@CLICGGER-TYPES](https://github.com/CLICGGER-TYPES) · 2026-10-03) — A pet pig for DSH Web that grows as you work, with care, study, jobs, fishing, a collection book, and skins. It registers no model tools and injects no pet state into conversations. npm package: `dsh-piggy`; standalone desktop builds are also available.
 - **[dsh-sieve](https://github.com/Sev7eEn7/dsh-sieve)** ([@Sev7eEn7](https://github.com/Sev7eEn7) · 2026-10-10) — Filters tool outputs, prunes stale context and discloses skills on demand for DSH 0.2.1-alpha.1.
 - **[dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude)** ([@lcestou](https://github.com/lcestou) · 2026-10-13) — Claude Code as a model provider in DSH: log in once with the `claude` CLI, pick a Claude model in the session picker, and the CLI's own permission modes, images, resume and compaction work from the DSH chat. DSH's subagents, background jobs and skills reach Claude as MCP tools. A workspace can run Claude on another machine over SSH.
+- **[dsh-work-status](https://github.com/xsllo425/dsh-work-status)** ([@xsllo425](https://github.com/xsllo425) · 2026-10-27) — Agent work status in the title bar: one line shows what it is doing right now, how long the turn has run, and whether anything failed; open it for the goal, the last few steps and the previous turn. No model calls, no prompt injection — it only reads events that already happened, and cross-session stats store just tool name + milliseconds (MIT, 84 tests).
