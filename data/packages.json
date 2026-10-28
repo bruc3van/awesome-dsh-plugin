@@ -11907,6 +11907,91 @@
       ],
       "note": "Author-tested npm 1.2.0 in a clean profile and DSH macOS Electron; not an independent security review."
     },
+    "stijnus/dsh-moodboard": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-moodboard",
+          "source": "npm:dsh-moodboard",
+          "command": "dsh plugin --profile web add dsh-moodboard"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-26",
+      "verified_via": "README@main + npm registry (dsh-moodboard@0.2.8)",
+      "tasks": [
+        "moodboard",
+        "design references",
+        "style guide",
+        "UI inspiration",
+        "情绪板",
+        "设计参考"
+      ]
+    },
+    "stijnus/dsh-prompt-optimizer": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-prompt-rewrite",
+          "source": "npm:dsh-prompt-rewrite",
+          "command": "dsh plugin --profile web add dsh-prompt-rewrite"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-26",
+      "verified_via": "README@main + npm registry (npm name dsh-prompt-rewrite@0.2.3, repo dsh-prompt-optimizer)",
+      "tasks": [
+        "prompt optimizer",
+        "rewrite prompt",
+        "prompt engineering",
+        "提示词优化",
+        "提示词改写"
+      ]
+    },
+    "stijnus/dsh-move-to-workspace": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-move-to-workspace",
+          "source": "npm:dsh-move-to-workspace",
+          "command": "dsh plugin --profile web add dsh-move-to-workspace"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-26",
+      "verified_via": "README@main + npm registry (dsh-move-to-workspace@0.1.11)",
+      "tasks": [
+        "move conversation to workspace",
+        "move session",
+        "workspace picker",
+        "移动会话",
+        "移动到工作区"
+      ]
+    },
+    "stijnus/dsh-workspace-status": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-workspace-status",
+          "source": "npm:dsh-workspace-status",
+          "command": "dsh plugin --profile web add dsh-workspace-status"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-26",
+      "verified_via": "README@main + npm registry (dsh-workspace-status@0.3.0)",
+      "tasks": [
+        "workspace status",
+        "sidebar status",
+        "waiting for you",
+        "工作区状态",
+        "侧边栏状态",
+        "pinned conversations",
+        "sidebar notifications",
+        "置顶会话",
+        "通知"
+      ]
+    },
     "stormycry-cryp/dsh-authinone": {
       "packages": [],
       "status": "readme-verified",
