@@ -353,7 +353,6 @@ mindmap
 插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 30 条，区满后先进先出；条目若被上方[精选推荐](#-精选推荐)收录，会从本区移除、不占名额。首页只展示**最近 10 条**，完整列表见 [SHOWCASE.md](./SHOWCASE.md)。
 
 <!-- dsh:showcase:start -->
-- **[dsh-rewind](https://github.com/SiriLee/dsh-rewind)**（[@SiriLee](https://github.com/SiriLee) · 2026-08-26）— DSH Web 同窗口原地回退（Claude Code /rewind 语义）：每条用户消息旁 ↶ 按钮把模型上下文截断回任意一条消息，可选 Claude Code 风格文件回滚（磁盘持久化 before 备份），纯官方扩展点实现、零源码补丁。
 - **[dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume)**（[@Sutera-Diffusus](https://github.com/Sutera-Diffusus) · 2026-08-28）— 元气鲸鱼娘桌宠：摸头养成、工作状态联动、494 条台词与 30 项成就；v2.0.0 新增余额关心（本机代理，密钥不落地）、主动关怀、无障碍、成长日记与主题适配，全本地零遥测（MIT，102 项单测）。
 - **[dsh-mcp-manage](https://github.com/null119/dsh-mcp-manage)**（[@null119](https://github.com/null119) · 2026-09-04）— DSH Web GUI 的 MCP 服务器管理页：把全部已安装 MCP 工具按服务器分组列出（可展开），添加/编辑/删除、启用/停用 stdio 与 Streamable HTTP 服务器，运行时即时生效、无需重启宿主；组合配置（cordis.yml / patch）提供的 MCP 同样可在运行时直接编辑、停用、移除并恢复，编辑跨停用/启用保留、宿主重启后自动维持，源组合文件不被修改。MIT，14 项单元测试。
 - **[BOWLUNA/dsh-custom-mode](https://github.com/BOWLUNA/dsh-custom-mode)**（[@BOWLUNA](https://github.com/BOWLUNA) · 2026-09-19）— 在设置页里管理 dsh 模式：选基础组成、逐行开关插件、编辑系统提示词（下一步模型调用即生效），可并存多个助手。
@@ -363,6 +362,7 @@ mindmap
 - **[dsh-piggy](https://github.com/CLICGGER-TYPES/dsh-piggy)**（[@CLICGGER-TYPES](https://github.com/CLICGGER-TYPES) · 2026-10-03）— 在 DSH Web 里养一只随真实工作成长的猪：照顾、学习、打工、钓鱼、图鉴和换肤；不注册模型工具，也不向对话注入宠物状态。npm 包 `dsh-piggy`，另有独立桌面版。
 - **[dsh-sieve](https://github.com/Sev7eEn7/dsh-sieve)**（[@Sev7eEn7](https://github.com/Sev7eEn7) · 2026-10-10）— 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪历史上下文并按需披露技能。
 - **[dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude)**（[@lcestou](https://github.com/lcestou) · 2026-10-13）— 把 Claude Code CLI 接入 DSH 作为模型提供方：用 `claude` 登录一次，在会话的模型选择器里选 Claude 模型即可，CLI 自带的权限模式、图片、续接与压缩都在 DSH 聊天里可用；DSH 的子智能体、后台任务和技能以 MCP 工具交给 Claude。工作区可通过 SSH 在另一台机器上运行 Claude。
+- **[dsh-zhihu-search](https://github.com/dsh-plugin-lab/dsh-zhihu-search)**（[@zlZayn](https://github.com/zlZayn) · 2026-10-27）— 把知乎检索接进 DSH：站内检索、全网检索与直答三个工具，走知乎开放平台官方 API 而非爬虫抓取，结果附带可引用的原始链接（站内结果另带点赞数），适合需要中文实时语料的研究与核查。
 <!-- dsh:showcase:end -->
 
 [查看全部 30 条自荐 →](./SHOWCASE.md)
