@@ -12831,19 +12831,6 @@
       "verified_via": "manifest@ff1072895d1e",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
-    "ultronen/dsh-archived-chats": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-archived-chats@latest",
-          "source": "npm:dsh-archived-chats@latest",
-          "command": "dsh plugin --profile web add dsh-archived-chats@latest"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
     "unclecode/toolshrink": {
       "packages": [
         {
@@ -15563,6 +15550,19 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-10-20",
+      "verified_via": "README@main"
+    },
+    "ultroncn/dsh-archived-chats": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-archived-chats@latest",
+          "source": "npm:dsh-archived-chats@latest",
+          "command": "dsh plugin --profile web add dsh-archived-chats@latest"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
       "verified_via": "README@main"
     }
   }

@@ -633,7 +633,6 @@
     "nxz1026/dsh-tray": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "o-Sakurajimamai-o/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "oa1mgo/dshplugin": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
-    "oceanbase/powercontext": "Kept out of the star board: stars accrued as the PowerContext context-service product — the DSH plugin is one of ~19 agent integrations. Stays in the catalog.",
     "oioioioioioioioioioio/oi-dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "Oissp/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "Oissp/dsh-desktop-linux-release": "Kept out of the star board: a desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Stays in the catalog.",
@@ -929,7 +928,6 @@
     "ztmajor/DSCoder": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "zx2021210538/dsh-skills-mcp-manager": "Kept out of the star board: a skill manager with a built-in remote skill market (skills.sh / ClawHub catalog) — the market cannot include another market. Stays in the catalog.",
     "zxheyi/dsh-work": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
-    "stlin256/dsh-pocket": "Kept out of the star board: a native HarmonyOS companion app (Passkey pairing, Push Kit); the DSH loopback plugin is one component of the monorepo. Stays in the catalog.",
     "222wcnm/whalekeeper": "Kept out of the star board: a browser-extension console for the dsh web service; the DSH lifecycle plugin (plugin/dsh-lifecycle) is one component. Stays in the catalog.",
     "Jack7510/ggb-plugins-dsh": "Kept out of the star board: generated DSH distribution of the multi-host ggb-plugins suite (Codex + DSH); stars accrue to the source repo. Stays in the catalog.",
     "JayCRL/MobileVC": "Kept out of the star board: stars accrued as the earlier Claude/Codex mobile client (Flutter + Go relay, kept under legacy/); the current form is a DSH host-plugin PWA. Stays in the catalog.",
@@ -951,7 +949,21 @@
     "kochetkov-ma/brewpage-publish-plugins": "Kept out of the star board: multi-host distributions of the BrewPage publishing skills; the DSH tgz is one of seven host artifacts. Stays in the catalog.",
     "kw12121212/writing-anything": "Kept out of the star board: a writing toolkit (Go CLI + skills + MCP) with viewer plugins for both DSH and ZCode; the DSH viewer is one component. Stays in the catalog.",
     "5yeah/Aiscribe": "Kept out of the star board: a local-first MCP report aggregator for 16 AI tools; the dsh-aireport package is one distribution form. Stays in the catalog.",
-    "ctcbyzx/baizhi-cloud-browser": "Kept out of the star board: an integration hub for the Baizhi cloud browser service; the DSH plugin (integrations/dsh) is one of five client entry points. Stays in the catalog."
+    "ctcbyzx/baizhi-cloud-browser": "Kept out of the star board: an integration hub for the Baizhi cloud browser service; the DSH plugin (integrations/dsh) is one of five client entry points. Stays in the catalog.",
+    "BeatAPI/beatapi-agent-plugin": "Kept out of the star board: a multi-host plugin distribution (Codex, Cursor, Grok + three DSH bundles); the DSH bundles are one of several host surfaces; stars accrue to the general BeatAPI platform. Stays in the catalog.",
+    "kw12121212/strict-spec-driven": "Kept out of the star board: a multi-host spec-driven workflow toolkit (CLI + Claude-format skills + the DSH bundle); the DSH plugin is one of several host targets. Stays in the catalog.",
+    "swenbo1-web/agents-learning": "Kept out of the star board: a multi-host governed memory engine for Codex, Antigravity and DSH; the DSH adapter is one of several host adapters. Stays in the catalog.",
+    "elither-gpt/pixiv-skill": "Kept out of the star board: a multi-harness skill bundle (Claude Code, Codex, OpenClaw, Hermes, DSH); the DSH bundle is one distribution form. Stays in the catalog.",
+    "yyq1025/cc-mem": "Kept out of the star board: a multi-host memory bridge (pi, OpenCode and DSH share Claude Code's auto memory); the DSH adapter is one of several host adapters. Stays in the catalog.",
+    "Yylx-R/dsh-console": "Kept out of the star board: a multi-part remote-control system (Android app + self-hosted relay + the DSH plugin); the phone app is the main deliverable. Stays in the catalog.",
+    "ln123456789100ln-collab/dsh-remote-kit": "Kept out of the star board: a self-hosted iPhone remote-access kit (Windows launcher + relay + E2EE tunnel + mobile drawer UI + panel plugin). Stays in the catalog.",
+    "yeerock/deepseek-harness-remote-control": "Kept out of the star board: a remote-access system for the DSH desktop app (HTTPS/WSS tunnel server + client apps). Stays in the catalog.",
+    "dbssAlan/dsh-hub-plugin": "Kept out of the star board: a remote-access publishing hub (LAN/public exposure with password, QR and cloudflared tunnel) for the DSH host. Stays in the catalog.",
+    "wwj-wwj1/dsh-device-link": "Kept out of the star board: a remote-access exposure plugin (LAN phones or EasyTier-networked devices into the local DSH host). Stays in the catalog.",
+    "JeremyCruzFang/dsh-plugin-dshm": "Kept out of the star board: the host-side pairing bridge of the DSHM iPhone/iPad client system; the phone app is the main deliverable. Stays in the catalog.",
+    "KERBALMans/dsh-modpack": "Kept out of the star board: a plugin modpack builder/importer that packages and one-click-installs sets of other plugins — the market cannot include another market. Stays in the catalog.",
+    "Muciya953/Muciya-DSH-macos-suite": "Kept out of the star board: a five-plugin suite whose plugin-library package is a fork of the official plugin-manager with its plugin-market panel — the market cannot include another market. Stays in the catalog.",
+    "bugtakue/ronge-adaptive-skill-archive": "Kept out of the star board: a skill cockpit with a 6,399-entry public skill index and an install_skill tool — a skill mall; the market cannot include another market. Stays in the catalog."
   },
   "excluded_repos": {
     "01men/CDPP": "Not a DSH plugin — a cross-border document-processing platform repo (no README, no DSH install path).",
@@ -2362,7 +2374,23 @@
     "sailina-afk/sailina-s-box": "Not a DSH plugin — a personal collection repo; its one plugin (cyrene-balance-widget) is published as its own repository",
     "xxxxxs-ssdd/class_choice_system": "Not a DSH plugin — a course-selection QA assistant project holding concept .docx documents and doc-building scripts; nothing installable",
     "CHATUL1/githubspace": "Not a DSH plugin — a personal workspace repo wrapped in an empty bundle shell (apply() is a no-op) to qualify for a plugin-shop auto-index; no actual functionality",
-    "Elmeis/dsh-web-search-duckduckgo": "Not a DSH plugin — an @local source drop installed by cp into the profile tree plus hand-edited cordis.patch.yml; the installable bundle form is published separately as Elmeis/dsh-plugin-duckduckgo-search"
+    "Elmeis/dsh-web-search-duckduckgo": "Not a DSH plugin — an @local source drop installed by cp into the profile tree plus hand-edited cordis.patch.yml; the installable bundle form is published separately as Elmeis/dsh-plugin-duckduckgo-search",
+    "zhuyansen/new-term-radar": "Not a DSH plugin — a generic SEO keyword-radar tool (daily report of new AI terms from X/Hugging Face/GitHub, distributed via PyPI/MCP/skills.sh); no DSH install path, the dsh-plugin topic was added for visibility",
+    "zhuyansen/backlink-guard": "Not a DSH plugin — a generic SEO backlink-audit CLI + MCP/skill (PyPI/MCP Registry distribution); no DSH install path, the dsh-plugin topic was added for visibility",
+    "Sun-0306/dsh-task-clarifier": "Not a DSH plugin — an empty repository; announced but nothing published",
+    "Sun-0306/dshmarket": "Not a DSH plugin — an empty repository; the announced visual plugin market has nothing published",
+    "GzxingR/pi-desktop-genui": "Not a DSH plugin — a PI-Desktop port of omdsh-dev/dsh-genui; targets the PI-Desktop host, not DSH",
+    "P3NN4L/Tribot": "Not a DSH plugin — a SKILL.md folder installed by manual clone into ~/.dsh/skills (packages/ holds a desktop app; no DSH bundle manifest); no dsh plugin install path",
+    "Pabears/software-phase-theory": "Not a DSH plugin — a methodology document repo whose ask-shiheng skill is manually symlinked into ~/.dsh/skills; no bundle manifest or dsh plugin install path",
+    "degraw4/dsh-tool-discovery": "Not a DSH plugin — a research/evaluation source release pinned to one DSH revision; the module must be hand-mounted into a built DSH checkout, no bundle manifest or dsh plugin install path",
+    "dustinliang666-blip/lava-mcp": "Not a DSH plugin — a remote MCP/SKILL.md wrapper advertising the paid Lava stock-heat API service; no DSH install path",
+    "felix-lius/design-patent-views": "Not a DSH plugin — a standalone Windows Python tool (patent six-view generator) with an agent-guided zip/pip installer; no DSH install path",
+    "FablerTan/obsidian-dsh": "Not a DSH plugin — an Obsidian plugin that hosts a local dsh service in an Obsidian sidebar; installed from the Obsidian ecosystem, no dsh plugin install path",
+    "yingchaoyi/dsh-plugins": "Not a DSH plugin — a README-only index of separate plugin repositories (dsh-memory-tier and dsh-sticker-vault are published as their own repositories)",
+    "ReWebaiyu/dsh-qq-console": "Not a DSH plugin — the source backup and dev archive of ReWebaiyu/dsh-qq; the installable plugin is published separately",
+    "cxkctrl24-lgtm/dsh-purge-021": "Not a DSH plugin — a fork of the model-jailbreak kit dsh-purge (self-described \"Harness jailbreak\"); rewrites harness permission policy and injects jailbreak prompts",
+    "xqpsec/dsh-jailbreak": "Not a DSH plugin — a model-jailbreak kit in the dsh-purge family (self-described dsh-purge alternative; request-boundary injection of jailbreak prompts)",
+    "codesensi/dsh-free-mode": "A prompt-injection (\"armor-breaking\") preset plugin that suppresses the host model's system instructions; kept out of the catalog on safety grounds"
   },
   "market_exclusions": {
     "0326/dsh-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -3099,6 +3127,9 @@
     "yanghongqiang3/dsh-plugin-market-selfhosted": "A DSH plugin market / store / directory — a self-hosted plugin marketplace (server + client plugin) — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
     "yaqiangsun/dsh-plugin-search": "A DSH plugin market / store / directory — npm-registry plugin search with in-harness install of third-party plugins — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
     "feely0208/dsh-ecosystem-radar": "A DSH plugin market / store / directory — a read-only in-harness directory panel of the DSH plugin ecosystem (recent additions, industry supply) — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
-    "BBDooooog/dsh-pet-market": "A DSH plugin market / store / directory — an in-harness store distributing pet sprite packs — the market cannot include another market; stays in the catalog, excluded from the downstream market."
+    "BBDooooog/dsh-pet-market": "A DSH plugin market / store / directory — an in-harness store distributing pet sprite packs — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
+    "KERBALMans/dsh-modpack": "A DSH plugin modpack builder/importer distributing sets of other plugins — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
+    "Muciya953/Muciya-DSH-macos-suite": "A plugin suite including a fork of the official plugin manager with its plugin-market panel — the market cannot include another market; stays in the catalog, excluded from the downstream market.",
+    "bugtakue/ronge-adaptive-skill-archive": "A skill mall with a public skill index and skill-installer tools — the market cannot include another market; stays in the catalog, excluded from the downstream market."
   }
 }
