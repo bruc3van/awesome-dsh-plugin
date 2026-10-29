@@ -7197,8 +7197,8 @@
       },
       "versions": [
         {
-          "version": "1.2.0",
-          "publishTimestamp": 1793018102,
+          "version": "1.3.0",
+          "publishTimestamp": 1793307220,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -16510,8 +16510,7 @@
           "user interface"
         ],
         "labels": [
-          "git",
-          "updated-month"
+          "git"
         ],
         "sortKeys": {
           "stars": 35,
@@ -16543,8 +16542,7 @@
           "user interface"
         ],
         "labels": [
-          "git",
-          "updated-month"
+          "git"
         ],
         "sortKeys": {
           "stars": 35,
@@ -16576,8 +16574,7 @@
           "user interface"
         ],
         "labels": [
-          "git",
-          "updated-month"
+          "git"
         ],
         "sortKeys": {
           "stars": 35,
@@ -24509,8 +24506,8 @@
       },
       "versions": [
         {
-          "version": "0.7.53",
-          "publishTimestamp": 1793303784,
+          "version": "0.7.55",
+          "publishTimestamp": 1793305515,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
