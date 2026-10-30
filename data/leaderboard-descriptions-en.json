@@ -2,6 +2,7 @@
   "1692775560/dsh-Mimir-Academic-research": "All-in-one research workbench plugin: LaTeX with live compile, arXiv library management, experiment tracking, and GPU-server job orchestration.",
   "ADWMC/helm-d": "All-in-one DSH security-analysis suite aggregating Android, Web, native, protocol, malware and AI-security domains (9 bundles + 1 preset).",
   "Aisland-SJL/dsh-worktable": "Agent project management console for DSH: sidebar app drawer, dockable split workspaces, and a control room monitoring every project live.",
+  "Alice-Marx/dsh-model-router": "A cost-aware model-routing workbench for DSH Desktop: plan locally, compare configured routes, inspect execution permissions, and run dependent work packages via model APIs or vendor CLIs; includes a GALGame side-module.",
   "Anionex/dsh-vision-toolkit": "A stronger vision toolkit for text-only models: one-line install, paste-to-recognize, multi-image QA, and screenshot-to-UI restoration.",
   "anysearch-team/anysearch-dsh": "AnySearch web-search provider and advanced search tools for DeepSeek Harness.",
   "beiyege-01/dsh-voice-ai-girlfriend": "Voice AI companion plugin for DSH: Whisper voice input, Qwen3-TTS voice cloning, sentence-level streaming speech, animated avatar window, and barge-in / queued modes.",

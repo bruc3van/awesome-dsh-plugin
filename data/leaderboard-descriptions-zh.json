@@ -2,6 +2,7 @@
   "1692775560/dsh-Mimir-Academic-research": "一站式科研工作台插件：LaTeX 边写边编译、arXiv 文献管理、实验追踪与 GPU 服务器任务编排，覆盖科研全周期。",
   "ADWMC/helm-d": "DSH 破甲一体化安全分析插件：Android / Web / Native / Protocol / Malware / AI-Security 全领域聚合（9 个 bundle + 1 个 preset）。",
   "Aisland-SJL/dsh-worktable": "面向 DeepSeek Harness 的 Agent 项目管理台：侧边栏应用抽屉 + 可停靠分屏工作区 + 实时监控所有项目的控制室。",
+  "Alice-Marx/dsh-model-router": "DSH 桌面端的成本感知模型路由工作台：本地规划、对比已配置路由、检查执行权限，经模型 API 或官方 CLI 运行依赖工作包；附 GALGame 副模块。",
   "Anionex/dsh-vision-toolkit": "为纯文本模型设计更强大的视觉工具箱：一行安装使用、粘贴图片直接识别、多张图片问答、截图到前端 UI 还原等。",
   "anysearch-team/anysearch-dsh": "面向 DeepSeek Harness 的 AnySearch 联网搜索提供方与高级搜索工具。",
   "Awesome-AI-Pedia/Awesome-AI-Pedia": "全维度 AI 资源百科：收录大模型、智能 Agent、RAG、多模态、MLOps、AI 应用工具等，DSH 插件也在其列，一站式 AI 导航库。",
