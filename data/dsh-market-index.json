@@ -26239,8 +26239,7 @@
           "workflow"
         ],
         "labels": [
-          "npm",
-          "updated-month"
+          "npm"
         ],
         "sortKeys": {
           "stars": 21,
