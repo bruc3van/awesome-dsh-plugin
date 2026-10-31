@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T00:00:00Z",
+  "updated_at": "2026-10-31",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -15564,6 +15564,32 @@
       "status": "readme-verified",
       "verified_date": "2026-10-20",
       "verified_via": "README@main"
+    },
+    "lingyesoul/dsh-soulmojito": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:LingyeSoul/DSH-SoulMojito#108a378cae6af65f11930fd65a007e271079fc20&path:/packages/plugin",
+          "install": "https://github.com/LingyeSoul/DSH-SoulMojito#108a378cae6af65f11930fd65a007e271079fc20&path:/packages/plugin",
+          "command": "dsh plugin --profile web add \"github:LingyeSoul/DSH-SoulMojito#108a378cae6af65f11930fd65a007e271079fc20&path:/packages/plugin\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-31",
+      "verified_via": "README + Git commit"
+    },
+    "crosery/dsh-viewer": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Crosery/dsh-viewer#59cfd6e42e2064048d0a88ca67d2029d313082f3",
+          "install": "https://github.com/Crosery/dsh-viewer#59cfd6e42e2064048d0a88ca67d2029d313082f3",
+          "command": "dsh plugin --profile web add \"github:Crosery/dsh-viewer#59cfd6e42e2064048d0a88ca67d2029d313082f3\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-31",
+      "verified_via": "README + Git commit"
     }
   }
 }
