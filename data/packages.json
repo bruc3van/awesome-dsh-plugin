@@ -9062,19 +9062,6 @@
       "verified_via": "README + Git commit",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
-    "omdsh-dev/dsh_workflow": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/dsh-external/dsh_workflow#main",
-          "source": "github:dsh-external/dsh_workflow#main",
-          "command": "dsh plugin --profile web add \"github:dsh-external/dsh_workflow#main\""
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
     "omdsh-dev/dsh-annotation": {
       "packages": [
         {
@@ -9329,6 +9316,19 @@
           "install": "https://github.com/omdsh-dev/dsh-toolkit",
           "source": "github:omdsh-dev/dsh-toolkit",
           "command": "dsh plugin --profile web add github:omdsh-dev/dsh-toolkit"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "verified_via": "README@main"
+    },
+    "omdsh-dev/dsh_workflow": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/dsh-external/dsh_workflow#main",
+          "source": "github:dsh-external/dsh_workflow#main",
+          "command": "dsh plugin --profile web add \"github:dsh-external/dsh_workflow#main\""
         }
       ],
       "status": "readme-verified",
@@ -11928,26 +11928,6 @@
         "设计参考"
       ]
     },
-    "stijnus/dsh-prompt-optimizer": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-prompt-rewrite",
-          "source": "npm:dsh-prompt-rewrite",
-          "command": "dsh plugin --profile web add dsh-prompt-rewrite"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-26",
-      "verified_via": "README@main + npm registry (npm name dsh-prompt-rewrite@0.2.3, repo dsh-prompt-optimizer)",
-      "tasks": [
-        "prompt optimizer",
-        "rewrite prompt",
-        "prompt engineering",
-        "提示词优化",
-        "提示词改写"
-      ]
-    },
     "stijnus/dsh-move-to-workspace": {
       "packages": [
         {
@@ -11966,6 +11946,26 @@
         "workspace picker",
         "移动会话",
         "移动到工作区"
+      ]
+    },
+    "stijnus/dsh-prompt-optimizer": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-prompt-rewrite",
+          "source": "npm:dsh-prompt-rewrite",
+          "command": "dsh plugin --profile web add dsh-prompt-rewrite"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-26",
+      "verified_via": "README@main + npm registry (npm name dsh-prompt-rewrite@0.2.3, repo dsh-prompt-optimizer)",
+      "tasks": [
+        "prompt optimizer",
+        "rewrite prompt",
+        "prompt engineering",
+        "提示词优化",
+        "提示词改写"
       ]
     },
     "stijnus/dsh-workspace-status": {
@@ -12830,6 +12830,19 @@
       "verified_date": "2026-10-22",
       "verified_via": "manifest@ff1072895d1e",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "ultroncn/dsh-archived-chats": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-archived-chats@latest",
+          "source": "npm:dsh-archived-chats@latest",
+          "command": "dsh plugin --profile web add dsh-archived-chats@latest"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-09-26",
+      "verified_via": "README@main"
     },
     "unclecode/toolshrink": {
       "packages": [
@@ -13972,13 +13985,13 @@
       "verified_via": "README + Git commit",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
-    "xianyuyijinban/boardwise": {
+    "xiangyuyue/boardwise": {
       "packages": [
         {
           "profile": "web",
-          "install": "https://github.com/xianyuyijinban/boardwise#f56dced92b30d76863511b4426f9e33158aaddf0&path:dsh-plugin",
-          "source": "github:xianyuyijinban/boardwise#f56dced92b30d76863511b4426f9e33158aaddf0&path:dsh-plugin",
-          "command": "dsh plugin --profile web add \"github:xianyuyijinban/boardwise#f56dced92b30d76863511b4426f9e33158aaddf0&path:dsh-plugin\""
+          "install": "https://github.com/XiangyuYue/boardwise#f56dced92b30d76863511b4426f9e33158aaddf0&path:dsh-plugin",
+          "source": "github:XiangyuYue/boardwise#f56dced92b30d76863511b4426f9e33158aaddf0&path:dsh-plugin",
+          "command": "dsh plugin --profile web add \"github:XiangyuYue/boardwise#f56dced92b30d76863511b4426f9e33158aaddf0&path:dsh-plugin\""
         }
       ],
       "status": "repo-fallback",
@@ -15550,19 +15563,6 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-10-20",
-      "verified_via": "README@main"
-    },
-    "ultroncn/dsh-archived-chats": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-archived-chats@latest",
-          "source": "npm:dsh-archived-chats@latest",
-          "command": "dsh plugin --profile web add dsh-archived-chats@latest"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
       "verified_via": "README@main"
     }
   }
