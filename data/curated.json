@@ -943,6 +943,7 @@
     "yiqizhuapangxiema/harness-plugin-store-optimized": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "yixiuzhemu/MCP-Manager": "Kept out of the star board: includes a built-in MCP-server marketplace (browses mcp-cn.com) — the market cannot include another market. Stays in the catalog.",
     "yixiuzhemu/Skills-Manager": "Kept out of the star board: a skills manager with built-in skill-repository browsing/install — the market cannot include another market. Stays in the catalog.",
+    "yjh051108/dsh-routing-suite": "Kept out of the star board: stars accrued as a mid-August star-farm burst (created 2026-08-14, ~6.7k stars in 9 days at ~740/day — far beyond any organic DSH-plugin growth), 208 of them clawed back by GitHub in one day on 09-26; repo unmaintained since 09-18, targets obsolete DSH >=0.1.0-rc.6 <0.2.0, and open issues report install failures on current 0.2.x with zero response — popularity not from the DSH plugin itself. Stays in the catalog.",
     "ylw-a/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "youridol/dsh-launcher": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "ys118/harnmem": "Kept out of the star board: a cross-harness agent memory store (CLI + pi + Claude Code + DSH adapters); the DSH plugin is one of several host adapters. Stays in the catalog.",
