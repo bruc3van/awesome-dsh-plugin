@@ -7,12 +7,20 @@
 // dedicated section so a maintainer (or AI reviewer) does extra analysis
 // before approving them onto the board.
 //
+// A single-interval net LOSS of hundreds of stars is flagged too: GitHub
+// reclaims stars in bulk when it deletes spam/fake accounts, so a big drop is
+// the claw-back signature of previously bought stars (see
+// yjh051108/dsh-routing-suite, −208★ on 2026-09-26 while sitting at the top
+// of the board). Star farms also drip-feed growth just under the surge
+// threshold, so the drop is often the only machine-checkable trace.
+//
 // Thresholds are intentionally coarse: organic plugins rarely gain 100 stars
 // overnight, and a pending repo that would land in Top 200 with 100+ stars is
 // exactly the "topic rider with a borrowed audience" case leaderboard_exclusions
 // already records by hand.
 
 export const SURGE_DELTA = 100;
+export const CLAWBACK_DELTA = 100;
 export const BOARD_SIZE = 200;
 export const TOP20_SIZE = 20;
 export const RANK_LEAP = 50;
@@ -90,6 +98,11 @@ function reviewerNote(alert) {
   if (alert.age_days != null && alert.age_days <= 2 && alert.stars >= PENDING_STAR_FLOOR) {
     parts.push(`created ${alert.age_days}d ago`);
   }
+  if (alert.signals.includes('star_clawback')) {
+    parts.push(
+      `lost ${-alert.delta} stars in one interval — the GitHub spam-account cleanup signature; the reclaimed stars were usually bought, so treat the remaining count as inflated too`,
+    );
+  }
   if (alert.forks === 0 && alert.stars >= PENDING_STAR_FLOOR) parts.push('0 forks');
   if (alert.star_fork_ratio != null && alert.star_fork_ratio >= 100) {
     parts.push(`star/fork ${alert.star_fork_ratio}`);
@@ -101,6 +114,7 @@ function reviewerNote(alert) {
 function hints(alert) {
   const out = [];
   if (alert.signals.includes('star_surge')) out.push(`日增 ${alert.delta >= 0 ? '+' : ''}${alert.delta}★`);
+  if (alert.signals.includes('star_clawback')) out.push(`单日 ${alert.delta}★，疑似批量清号回收（此前或为刷星）`);
   if (alert.signals.includes('top20_entry')) {
     out.push(
       alert.previous_rank && alert.rank ? `冲入 Top 20（${alert.previous_rank}→${alert.rank}）` : '冲入 Top 20',
@@ -180,6 +194,7 @@ export function detectStarAnomalies({
     const signals = [];
 
     if (delta != null && delta >= SURGE_DELTA) signals.push('star_surge');
+    if (delta != null && delta <= -CLAWBACK_DELTA) signals.push('star_clawback');
 
     if (!isPending && !alreadyBoardExcluded) {
       const rank = currentRanks.get(name) ?? null;

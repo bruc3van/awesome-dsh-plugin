@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
   BOARD_SIZE,
+  CLAWBACK_DELTA,
   PENDING_STAR_FLOOR,
   SURGE_DELTA,
   detectStarAnomalies,
@@ -192,6 +193,40 @@ test('already leaderboard-excluded repos still report a surge, not a board jump'
   assert.deepEqual(result.alerts[0].signals, ['star_surge']);
   assert.equal(result.alerts[0].already_board_excluded, true);
   assert.ok(result.alerts[0].hints.includes('已不进榜单'));
+});
+
+test('a single-interval net loss of CLAWBACK_DELTA stars is a star_clawback (routing-suite case)', () => {
+  // yjh051108/dsh-routing-suite lost 208 stars in one day on 2026-09-26 while
+  // sitting at the top of the board — GitHub reclaimed farmed stars.
+  const before = [repo({ id: 61, full_name: 'yjh/suite', stargazers_count: 7209, forks_count: 195 })];
+  nextId = 1;
+  const after = [repo({ id: 61, full_name: 'yjh/suite', stargazers_count: 7209 - CLAWBACK_DELTA, forks_count: 195 })];
+  const result = detect({ current: after, previous: before, approved: ['yjh/suite'] });
+  assert.equal(result.alerts.length, 1);
+  assert.deepEqual(result.alerts[0].signals, ['star_clawback']);
+  assert.equal(result.alerts[0].delta, -CLAWBACK_DELTA);
+  assert.equal(result.alerts[0].queue, 'approved');
+  assert.ok(result.alerts[0].hints.some((hint) => /回收/.test(hint)));
+  assert.match(result.alerts[0].reviewer_note, /cleanup signature/);
+});
+
+test('a net loss of CLAWBACK_DELTA - 1 is not a claw-back', () => {
+  const before = [repo({ id: 62, full_name: 'a/shed', stargazers_count: 900 })];
+  nextId = 1;
+  const after = [repo({ id: 62, full_name: 'a/shed', stargazers_count: 900 - (CLAWBACK_DELTA - 1) })];
+  const result = detect({ current: after, previous: before, approved: ['a/shed'] });
+  assert.equal(result.alerts.length, 0);
+});
+
+test('claw-back and surge can coexist with pending_high on a pending repo', () => {
+  const before = [repo({ id: 63, full_name: 'farm/spike', stargazers_count: 320, forks_count: 0 })];
+  nextId = 1;
+  const after = [repo({ id: 63, full_name: 'farm/spike', stargazers_count: 320 - CLAWBACK_DELTA, forks_count: 0 })];
+  const result = detect({ current: after, previous: before, approved: [] });
+  const alert = result.alerts.find((item) => item.full_name === 'farm/spike');
+  assert.ok(alert, 'claw-backed pending repo should still be flagged');
+  assert.ok(alert.signals.includes('star_clawback'));
+  assert.equal(alert.queue, 'pending');
 });
 
 test('pending alerts sort ahead of approved ones', () => {

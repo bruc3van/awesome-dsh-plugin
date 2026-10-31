@@ -188,6 +188,7 @@ export async function writePending(state, { previousRepositories = null, previou
 
 const SIGNAL_LABELS = {
   star_surge: '日增百星',
+  star_clawback: '单日大幅掉星',
   board_entry: '新入 Top 200',
   board_leap: '榜单跃升',
   top20_entry: '冲入 Top 20',
@@ -215,13 +216,14 @@ function renderStarAnomalySection(anomalies) {
   return `
 ## ⚠️ Star 异常增长 / Star-growth alerts
 
-**审查员请先看本节。** 对照上一份快照，把「一天内 +100★」或「突然进入 / 大幅跃升榜单」的仓库单独列出。这些条目**必须做增强分析**后再决定，不要只看 README 就核准进榜。
+**审查员请先看本节。** 对照上一份快照，把「一天内 +100★」「单日净减 ≥100★」或「突然进入 / 大幅跃升榜单」的仓库单独列出。这些条目**必须做增强分析**后再决定，不要只看 README 就核准进榜。
 
-**Reviewers: start here.** Repositories that gained ≥100 stars in one snapshot interval, or that would suddenly appear on / leap up the star board. Do extra analysis before approving them onto the board — a README check is not enough.
+**Reviewers: start here.** Repositories that gained ≥100 stars in one snapshot interval, that lost ≥100 stars in one interval (GitHub clawing back farmed stars), or that would suddenly appear on / leap up the star board. Do extra analysis before approving them onto the board — a README check is not enough.
 
-${compared}。规则：日增 ≥100★；已核准仓新入 Top 200（且 Δ≥50）/ 名次跃升 ≥50 / 冲入 Top 20；待审仓 ≥100★ 且核准后将进入 Top 200。
+${compared}。规则：日增 ≥100★；单日净减 ≥100★（GitHub 批量清号回收的签名——被回收的星通常是刷的，余下星数也应视为虚高）；已核准仓新入 Top 200（且 Δ≥50）/ 名次跃升 ≥50 / 冲入 Top 20；待审仓 ≥100★ 且核准后将进入 Top 200。
 
 - 看 Star 是否与 fork、提交活跃度、仓库年龄匹配（高星零 fork、创建当天几百星，多为刷星）
+- 单日大幅掉星 = 此前刷星被官方回收；刷星常贴着 +100★/日阈值之下滴灌增长，掉星往往是我们能机器检出的唯一痕迹
 - 是否把已有高星的通用项目贴上 \`dsh-plugin\` Topic 蹭榜——插件本身可进目录，但应加入 \`leaderboard_exclusions\`，理由写清 stars accrued as …
 - 待审仓若核准会直接冲进 Top 20 / Top 200，先确认热度来自 **DSH 插件本身**
 - 已核准仓的异常跃升：确认后同样可记入 \`leaderboard_exclusions\`，不必下架目录
