@@ -1000,8 +1000,8 @@
       "icon": "data:image/webp;base64,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",
       "versions": [
         {
-          "version": "5.9.0",
-          "publishTimestamp": 1793439989,
+          "version": "5.9.1",
+          "publishTimestamp": 1793464689,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -2778,8 +2778,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z19za2lsbF9ib29rIiB4MT0iNCIgeTE9IjEwIiB4Mj0iMzIiIHkyPSIzMCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjN0MzQUVEIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0E4NTVGNyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z19za2lsbF9zdGFyIiB4MT0iMTQiIHkxPSI0IiB4Mj0iMjIiIHkyPSIxNiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRkJCRjI0Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0Y1OUUwQiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPCEtLSBPcGVuIFNraWxsIEJvb2sgKExlZnQgJiBSaWdodCBQYWdlcykgLS0+CiAgPCEtLSBMZWZ0IFBhZ2UgLS0+CiAgPHBhdGggZD0iTTE4IDIwQzEzIDE4LjUgOCAxOSA1IDIxVjI4LjVDOCAyNi41IDEzIDI2IDE4IDI3LjVWMjBaIiBmaWxsPSJ1cmwoI2RzaF9zdmdfc2tpbGxfYm9vaykiIHN0cm9rZT0iIzZEMjhEOSIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8IS0tIFJpZ2h0IFBhZ2UgLS0+CiAgPHBhdGggZD0iTTE4IDIwQzIzIDE4LjUgMjggMTkgMzEgMjFWMjguNUMyOCAyNi41IDIzIDI2IDE4IDI3LjVWMjBaIiBmaWxsPSJ1cmwoI2RzaF9zdmdfc2tpbGxfYm9vaykiIHN0cm9rZT0iIzZEMjhEOSIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8IS0tIEJvb2sgU3BpbmUgLyBNaWRkbGUgRm9sZCAtLT4KICA8bGluZSB4MT0iMTgiIHkxPSIyMCIgeDI9IjE4IiB5Mj0iMjgiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgoKICA8IS0tIENvZGUgLyBTa2lsbCBHbHlwaHMgb24gQm9vayBQYWdlcyAtLT4KICA8bGluZSB4MT0iOCIgeTE9IjIzLjUiIHgyPSIxNCIgeTI9IjIyLjUiIHN0cm9rZT0iI0RERDZGRSIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxsaW5lIHgxPSIyMiIgeTE9IjIyLjUiIHgyPSIyOCIgeTI9IjIzLjUiIHN0cm9rZT0iI0RERDZGRSIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgoKICA8IS0tIEFzY2VuZGluZyBSYWRpYW50IFNraWxsIFN0YXIgKFRhbGVudCAvIFBvd2VyIE1hc3RlcnkpIC0tPgogIDxwYXRoIGQ9Ik0xOCA1TDE5LjggMTBMMjUgMTEuOEwxOS44IDEzLjZMMTggMTlMMTYuMiAxMy42TDExIDExLjhMMTYuMiAxMEwxOCA1WiIgZmlsbD0idXJsKCNkc2hfc3ZnX3NraWxsX3N0YXIpIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS4yIi8+CiAgPCEtLSBQb3dlciBTcGFya2xlcyBvbiBTaWRlcyAtLT4KICA8Y2lyY2xlIGN4PSI4IiBjeT0iMTIiIHI9IjEuNCIgZmlsbD0iI0ZCQkYyNCIvPgogIDxjaXJjbGUgY3g9IjI4IiBjeT0iMTIiIHI9IjEuNCIgZmlsbD0iI0ZCQkYyNCIvPgo8L3N2Zz4=",
       "versions": [
         {
-          "version": "1.2.24",
-          "publishTimestamp": 1793436691,
+          "version": "1.2.25",
+          "publishTimestamp": 1793467730,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -3355,11 +3355,11 @@
       "versions": [
         {
           "version": "0.32.3",
-          "publishTimestamp": 1793453627,
+          "publishTimestamp": 1793470838,
           "source": {
             "type": "git",
             "url": "https://github.com/Phant0Meow/dsh-meow-memory",
-            "commit": "1e333243389f2b86f998ef21f32d9269c4fee1cf"
+            "commit": "d6bb39dc749e8c6cda5a80c96ca2da07bdf59502"
           }
         }
       ]
@@ -3406,7 +3406,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-100",
           "interactive-cards"
         ],
@@ -6284,7 +6284,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-100",
           "browser-automation"
         ],
@@ -6497,8 +6497,8 @@
       },
       "versions": [
         {
-          "version": "0.5.28",
-          "publishTimestamp": 1792680386,
+          "version": "0.5.29",
+          "publishTimestamp": 1793466226,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -8270,7 +8270,6 @@
         ],
         "labels": [
           "npm",
-          "updated-month",
           "stars-50"
         ],
         "sortKeys": {
@@ -9140,8 +9139,8 @@
       },
       "versions": [
         {
-          "version": "0.4.39",
-          "publishTimestamp": 1793239267,
+          "version": "0.4.40",
+          "publishTimestamp": 1793467252,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -23167,8 +23166,8 @@
       },
       "versions": [
         {
-          "version": "0.27.0",
-          "publishTimestamp": 1793208012,
+          "version": "0.28.0",
+          "publishTimestamp": 1793465443,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -24113,12 +24112,12 @@
       },
       "versions": [
         {
-          "version": "2.2.24",
-          "publishTimestamp": 1793460825,
+          "version": "2.2.25",
+          "publishTimestamp": 1793466449,
           "source": {
             "type": "git",
             "url": "https://github.com/PerryLink/dsh-skill-pack-security",
-            "commit": "25e3be602b8eebfbaf5d233aa58932f34d89c3fb"
+            "commit": "667ab2d8b110f6a02915f33c97440627254b4783"
           },
           "engines": {
             "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
@@ -37067,6 +37066,60 @@
       ]
     },
     {
+      "name": "@crosery/dsh-viewer",
+      "title": "@crosery/dsh-viewer",
+      "description": "Renders images, video, audio, PDF and Office documents inline in the DeepSeek Harness web UI and desktop app through a display_file tool, streaming bytes over a signed HTTP route with range support.",
+      "author": "Crosery",
+      "homepage": "https://github.com/Crosery/dsh-viewer#readme",
+      "repository": {
+        "url": "https://github.com/Crosery/dsh-viewer"
+      },
+      "metadata": {
+        "category": "ui-experience",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "cordis-plugin",
+          "viewer",
+          "preview",
+          "image",
+          "video",
+          "audio",
+          "pdf",
+          "office",
+          "docx",
+          "xlsx",
+          "pptx",
+          "界面体验",
+          "界面增强",
+          "user interface"
+        ],
+        "labels": [
+          "git",
+          "updated-month"
+        ],
+        "sortKeys": {
+          "stars": 11,
+          "repositoryUpdated": 1791263304
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1791261375,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Crosery/dsh-viewer",
+            "commit": "59cfd6e42e2064048d0a88ca67d2029d313082f3"
+          },
+          "engines": {
+            "dsh": ">=0.0.1-rc.0 <0.0.2-0 || >=0.1.0-rc.0 <0.1.1-0 || >=0.1.1-rc.0 <0.1.2-0 || >=0.1.2-alpha.0 <0.1.3-0 || >=0.1.3-alpha.0 <0.1.4-0 || >=0.1.5-alpha.0 <0.1.6-0 || >=0.1.6-alpha.0 <0.1.7-0 || >=0.1.7-alpha.0 <0.1.8-0 || >=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-alpha.0 <0.2.2-0"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-chinese-skill-patch",
       "title": "dsh-chinese-skill-patch",
       "description": "让 DSH 自动支持中文技能名（私家大厨/卡路里/作息管家 等）| Make DeepSeek Harness discover Chinese SKILL.md without renaming — slash /私 → 私家大厨, /私家大厨 直达, skill({name:\"私家大厨\"}) 均可用",
@@ -44980,40 +45033,6 @@
           }
         }
       ]
-    },
-    {
-      "name": "@ddtcorex/maestro-skills",
-      "title": "@ddtcorex/maestro-skills",
-      "description": "Govard domain skills (17) + superpowers library (15, forked from obra/superpowers), packaged as a Cordis plugin",
-      "repository": {
-        "url": "https://github.com/ddtcorex/maestro-skills"
-      },
-      "versions": [
-        {
-          "version": "3.0.0",
-          "publishTimestamp": 1793065273,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/ddtcorex/maestro-skills",
-            "commit": "110116197d25d22687391b45806b8c297fc4243d"
-          }
-        }
-      ],
-      "metadata": {
-        "category": "ecosystem-resources",
-        "keywords": [
-          "生态资源",
-          "ecosystem"
-        ],
-        "labels": [
-          "git",
-          "updated-week"
-        ],
-        "sortKeys": {
-          "stars": 5,
-          "repositoryUpdated": 1793065812
-        }
-      }
     }
   ]
 }
