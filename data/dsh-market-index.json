@@ -1711,7 +1711,7 @@
         ],
         "labels": [
           "git",
-          "updated-week",
+          "updated-month",
           "stars-500"
         ],
         "sortKeys": {
@@ -6341,8 +6341,8 @@
       },
       "versions": [
         {
-          "version": "0.5.1",
-          "publishTimestamp": 1793458271,
+          "version": "0.5.2",
+          "publishTimestamp": 1793480946,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -12799,7 +12799,7 @@
         ],
         "labels": [
           "git",
-          "updated-week",
+          "updated-month",
           "stars-50"
         ],
         "sortKeys": {
@@ -20991,8 +20991,8 @@
       },
       "versions": [
         {
-          "version": "0.10.5",
-          "publishTimestamp": 1793460501,
+          "version": "0.11.0",
+          "publishTimestamp": 1793494307,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -22341,8 +22341,8 @@
       },
       "versions": [
         {
-          "version": "0.10.0",
-          "publishTimestamp": 1792923925,
+          "version": "0.11.0",
+          "publishTimestamp": 1793495656,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -32541,7 +32541,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 14,
@@ -40964,8 +40964,8 @@
       },
       "versions": [
         {
-          "version": "0.5.10",
-          "publishTimestamp": 1793237496,
+          "version": "0.5.11",
+          "publishTimestamp": 1793488623,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
