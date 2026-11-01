@@ -8962,8 +8962,8 @@
       },
       "versions": [
         {
-          "version": "2.1.10",
-          "publishTimestamp": 1792578557,
+          "version": "2.1.11",
+          "publishTimestamp": 1793497687,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
