@@ -11194,20 +11194,6 @@
       "verified_via": "manifest@70d0b96dce14",
       "note": "README 未提供可用的固定发行版本或 npm 来源；按已核验的提交固定到 Git 来源，安装命令由标准语法构造。"
     },
-    "shaky77/weiwen-law-dsh": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:Shaky77/weiwen-law-dsh#3c6ee8a451f177d376661b1b82006637c9f24358",
-          "install": "https://github.com/Shaky77/weiwen-law-dsh#3c6ee8a451f177d376661b1b82006637c9f24358",
-          "command": "dsh plugin --profile web add \"github:Shaky77/weiwen-law-dsh#3c6ee8a451f177d376661b1b82006637c9f24358\""
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-22",
-      "verified_via": "README + Git commit",
-      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
-    },
     "shanliuling/dsh-image-gen": {
       "packages": [
         {
