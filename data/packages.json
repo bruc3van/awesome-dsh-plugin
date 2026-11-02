@@ -55,6 +55,19 @@
       "verified_via": "README + npm registry",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
+    "0imzero/dsh-workspace-menu": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@0imzero/dsh-workspace-menu",
+          "source": "npm:@0imzero/dsh-workspace-menu",
+          "command": "dsh plugin --profile web add @0imzero/dsh-workspace-menu"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-10-31",
+      "verified_via": "README@main"
+    },
     "0x7a7a6572/dsh-forge-studio": {
       "packages": [
         {
