@@ -2109,8 +2109,8 @@
       },
       "versions": [
         {
-          "version": "1.9.48",
-          "publishTimestamp": 1793540532,
+          "version": "1.9.49",
+          "publishTimestamp": 1793596615,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -4303,8 +4303,8 @@
       },
       "versions": [
         {
-          "version": "2.17.5",
-          "publishTimestamp": 1792820366,
+          "version": "2.17.7",
+          "publishTimestamp": 1793592162,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -4897,7 +4897,7 @@
         ],
         "labels": [
           "git",
-          "updated-week",
+          "updated-month",
           "stars-100"
         ],
         "sortKeys": {
@@ -6515,7 +6515,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-100"
         ],
         "sortKeys": {
@@ -7799,11 +7799,11 @@
       "versions": [
         {
           "version": "0.8.0",
-          "publishTimestamp": 1793590353,
+          "publishTimestamp": 1793590889,
           "source": {
             "type": "git",
             "url": "https://github.com/Viy1204/recruiting-copilot",
-            "commit": "7bc885510d6b8511543a363f62711afdb6198737"
+            "commit": "452006cd293838d6958c32efd01b9e6fc27bb59c"
           }
         }
       ]
@@ -8798,7 +8798,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-50"
         ],
         "sortKeys": {
@@ -9622,11 +9622,11 @@
       "versions": [
         {
           "version": "0.6.6",
-          "publishTimestamp": 1793546195,
+          "publishTimestamp": 1793603633,
           "source": {
             "type": "git",
             "url": "https://github.com/NoNameLeGo/dsh-catppuccin-theme",
-            "commit": "c934974758c4346433afff9c0538fd67dcbfe778"
+            "commit": "39aa4f1503d9d1ec5ac41917a89fa1f11e4b199e"
           },
           "engines": {
             "dsh": ">=0.1.7-rc.1"
@@ -11431,7 +11431,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-50"
         ],
         "sortKeys": {
@@ -11711,8 +11711,8 @@
       },
       "versions": [
         {
-          "version": "0.1.69",
-          "publishTimestamp": 1793522284,
+          "version": "0.1.71",
+          "publishTimestamp": 1793602673,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -13647,8 +13647,8 @@
       },
       "versions": [
         {
-          "version": "0.14.0",
-          "publishTimestamp": 1793018621,
+          "version": "0.15.0",
+          "publishTimestamp": 1793599583,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -19750,9 +19750,9 @@
       "title": "dsh-archived-chats",
       "description": "查看、搜索和管理会话归档，支持工作区批量归档、标签备注、ZIP 备份和手动残留会话检查。",
       "author": "Ultronen",
-      "homepage": "https://github.com/Ultronen/dsh-archived-chats",
+      "homepage": "https://github.com/Ultroncn/dsh-archived-chats",
       "repository": {
-        "url": "https://github.com/Ultronen/dsh-archived-chats"
+        "url": "https://github.com/Ultroncn/dsh-archived-chats"
       },
       "metadata": {
         "category": "web-browser",
@@ -19786,14 +19786,14 @@
       },
       "versions": [
         {
-          "version": "1.6.0",
-          "publishTimestamp": 1792656770,
+          "version": "1.6.1",
+          "publishTimestamp": 1793596128,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.0-rc.7 <0.1.1-0 || >=0.1.1-rc.1 <0.1.2-0 || >=0.1.2-alpha.1 <0.2.0-0 || 0.1.5-rc.2 || 0.1.7-rc.2 || 0.2.0-rc.2 || 0.2.1-rc.2"
+            "dsh": ">=0.1.0-rc.7 <0.1.1-0 || >=0.1.1-rc.1 <0.1.2-0 || >=0.1.2-alpha.1 <0.2.0-0 || 0.1.5-rc.2 || 0.1.7-rc.2 || 0.2.0-rc.2 || 0.2.1-rc.2 || 0.2.1-rc.5"
           }
         }
       ]
@@ -21931,7 +21931,7 @@
     {
       "name": "dsh-provider-qoder",
       "title": "dsh-provider-qoder",
-      "description": "Global Qoder subscription adapter for the DeepSeek Harness LLM seam",
+      "description": "Use your Qoder subscription in DeepSeek Harness (DSH)",
       "homepage": "https://github.com/mo-n/dsh-provider-qoder#readme",
       "repository": {
         "url": "https://github.com/mo-n/dsh-provider-qoder"
@@ -21958,16 +21958,17 @@
           "repositoryUpdated": 1793358321
         }
       },
+      "icon": "data:image/png;base64,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",
       "versions": [
         {
-          "version": "0.5.1",
-          "publishTimestamp": 1792994367,
+          "version": "0.6.0",
+          "publishTimestamp": 1793591732,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.7-rc.2"
+            "dsh": ">=0.2.0-rc.2"
           }
         }
       ]
@@ -22658,8 +22659,7 @@
           "developer tools"
         ],
         "labels": [
-          "npm",
-          "updated-month"
+          "npm"
         ],
         "sortKeys": {
           "stars": 24,
@@ -23797,8 +23797,7 @@
           "workflow"
         ],
         "labels": [
-          "npm",
-          "updated-month"
+          "npm"
         ],
         "sortKeys": {
           "stars": 23,
@@ -27906,8 +27905,8 @@
       },
       "versions": [
         {
-          "version": "1.10.0",
-          "publishTimestamp": 1793243870,
+          "version": "1.10.1",
+          "publishTimestamp": 1793591080,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -33454,8 +33453,7 @@
           "workflow"
         ],
         "labels": [
-          "npm",
-          "updated-month"
+          "npm"
         ],
         "sortKeys": {
           "stars": 14,
@@ -36754,7 +36752,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 12,
