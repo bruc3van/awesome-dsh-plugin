@@ -7799,11 +7799,11 @@
       "versions": [
         {
           "version": "0.8.0",
-          "publishTimestamp": 1793589845,
+          "publishTimestamp": 1793590353,
           "source": {
             "type": "git",
             "url": "https://github.com/Viy1204/recruiting-copilot",
-            "commit": "fa97d88fac834b4a18b734b2d74efe2311daff0d"
+            "commit": "7bc885510d6b8511543a363f62711afdb6198737"
           }
         }
       ]
