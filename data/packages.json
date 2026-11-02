@@ -477,6 +477,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "54nanmiao/dsh-peak-reminder": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-peak-reminder",
+          "source": "npm:dsh-peak-reminder",
+          "command": "dsh plugin --profile web add dsh-peak-reminder"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-02",
+      "verified_via": "README@main"
+    },
     "609476965/dsh-lorebookmd": {
       "packages": [
         {
@@ -1451,6 +1464,20 @@
       "status": "readme-verified",
       "verified_date": "2026-09-29",
       "verified_via": "README@main"
+    },
+    "anglenaris/fanframe": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "fanframe@1.10.0-beta.16",
+          "source": "npm:fanframe@1.10.0-beta.16",
+          "command": "dsh plugin --profile desktop add fanframe@1.10.0-beta.16"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-02",
+      "verified_via": "README@main",
+      "note": "README 以插件管理器方式给出安装名 fanframe@1.10.0-beta.16（latest 标签不代表稳定版，勿装 latest）；终端命令按标准语法构造。声明 DSH Desktop 范围 >=0.2.1-rc.1 <=0.2.1-rc.6，仅在 rc.3 验证。"
     },
     "anionex/dsh-turn-rewind": {
       "packages": [
