@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --import tsx --test test.mjs git.test.mjs audit.test.mjs candidates.test.mjs discovery.test.mjs presentation.test.mjs publication.test.mjs expand-mappings.test.mjs workflows.test.mjs"
+    "test": "node --import tsx --test test.mjs git.test.mjs audit.test.mjs candidates.test.mjs discovery.test.mjs generate.test.mjs presentation.test.mjs publication.test.mjs expand-mappings.test.mjs workflows.test.mjs"
   },
   "dependencies": {
     "@deepseek-ai/dsh-plugin-market-index": "0.2.1-alpha.5",

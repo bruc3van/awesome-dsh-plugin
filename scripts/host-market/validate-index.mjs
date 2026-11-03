@@ -23,6 +23,9 @@ const report = JSON.parse(await readFile(reportPath, 'utf8'))
 const curated = JSON.parse(
   await readFile(resolve(root, 'data/curated.json'), 'utf8'),
 )
+const featured = JSON.parse(
+  await readFile(resolve(root, 'data/featured.json'), 'utf8'),
+)
 
 function fail(message) {
   throw new Error(`${message}; published data must not be committed`)
@@ -53,6 +56,11 @@ const blockedRepositories = new Set([
   ...Object.keys(curated.market_exclusions || {}),
   ...SELF_EXCLUDED_REPOS,
 ].map((name) => name.toLowerCase()))
+const featuredRepositories = new Set(
+  (featured.entries ?? [])
+    .map((entry) => String(entry?.full_name ?? '').toLowerCase())
+    .filter(Boolean),
+)
 
 let previousStars = Infinity
 const names = new Set()
@@ -71,7 +79,10 @@ for (const plugin of index.plugins) {
     ),
   ]) {
     const slug = repositorySlug(reference)
-    if (slug && blockedRepositories.has(slug))
+    // Editor's-pick repositories are exempt from the package-level blacklist
+    // (same rule as generate.mjs): board/leaderboard exclusions police star
+    // provenance, not market fitness.
+    if (slug && blockedRepositories.has(slug) && !featuredRepositories.has(slug))
       fail(`index contains blacklisted repository ${slug} via ${plugin.name}`)
   }
 }

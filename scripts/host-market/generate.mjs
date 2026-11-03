@@ -315,13 +315,36 @@ export async function generateIndex(
       ranks.set(plugin.name, gitRanks.get(gitKeys[i]))
     }
   }
+  const featured = new Set(
+    [
+      ...(feed.featuredRepositories ?? []),
+      ...(feed.featured?.entries ?? []).map((entry) => entry.full_name),
+    ]
+      .filter(Boolean)
+      .map((name) => String(name).toLowerCase()),
+  )
   // Cap only after every candidate has passed source, compatibility and
-  // package-level repository exclusion checks.
+  // package-level repository exclusion checks. A repository that is itself an
+  // editor's pick is exempt from that block: leaderboard/board exclusions
+  // police star provenance, not market fitness, and the curated pick is the
+  // editorial override. Packages from other excluded repositories that merely
+  // reference a featured repository are exempt too — featuring the upstream is
+  // the decision that its packages ship.
   const eligiblePlugins = []
   const repositoryExclusions = []
   for (const plugin of plugins) {
     const blocked = blockedPluginRepository(plugin, blockedRepositories)
     if (!blocked) {
+      eligiblePlugins.push(plugin)
+      continue
+    }
+    if (featured.has(blocked.slug)) {
+      diagnostics.push({
+        name: plugin.name,
+        code: 'featured_repository_exempt',
+        status: 'included',
+        reason: `包或 Git 来源指向编辑推荐仓库 ${blocked.slug}，豁免包级仓库排除`,
+      })
       eligiblePlugins.push(plugin)
       continue
     }
@@ -337,14 +360,6 @@ export async function generateIndex(
       reason: `包或 Git 来源指向已排除仓库 ${blocked.slug}`,
     })
   }
-  const featured = new Set(
-    [
-      ...(feed.featuredRepositories ?? []),
-      ...(feed.featured?.entries ?? []).map((entry) => entry.full_name),
-    ]
-      .filter(Boolean)
-      .map((name) => String(name).toLowerCase()),
-  )
   const selection = selectTopPlugins(eligiblePlugins, ranks, MAX_PLUGINS, featured)
   const selectedPlugins = selection.plugins
   diagnostics.push(...applyPresentation(selectedPlugins))

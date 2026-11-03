@@ -28,7 +28,7 @@ npm test --prefix scripts/host-market
 node scripts/host-market/refresh.mjs
 ```
 
-输入以社区 `data/market-v2.json`（含精选条目）为基础，并追加完整已批准目录中具备安装映射的仓库。候选先沿用审批、归档、禁用、黑名单及市场排除规则，再逐一核实 npm/Git 来源、bundle 和官方宿主兼容范围，并对安装包与 Git 来源中的仓库地址执行同一包级黑名单检查；缺映射、手动安装、无效来源及同名冲突不会被转换或补造。全部合格条目按仓库 Star 数降序（同星按仓库名、插件名稳定排序）选取前 1000 个插件，不足 1000 时只发布实际通过核验的数量；`data/featured.json` 中已核验的编辑推荐条目会保留在这 1000 个名额内。报告 `candidateSelection` 记录候选来源与待核实数量，`selection` 记录合格总数、截断数及入选线 Star，`repositoryExclusions` 记录包级仓库排除；输入文件 SHA-256 用于追溯。社区 v1/v2 文件不受影响。
+输入以社区 `data/market-v2.json`（含精选条目）为基础，并追加完整已批准目录中具备安装映射的仓库。候选先沿用审批、归档、禁用、黑名单及市场排除规则，再逐一核实 npm/Git 来源、bundle 和官方宿主兼容范围，并对安装包与 Git 来源中的仓库地址执行同一包级黑名单检查；`data/featured.json` 中的编辑推荐仓库本身豁免该包级检查——榜单排除针对 Star 数来源，不针对市场收录，人工精选即编辑决定，豁免以 `featured_repository_exempt` 诊断留痕。缺映射、手动安装、无效来源及同名冲突不会被转换或补造。全部合格条目按仓库 Star 数降序（同星按仓库名、插件名稳定排序）选取前 1000 个插件，不足 1000 时只发布实际通过核验的数量；`data/featured.json` 中已核验的编辑推荐条目会保留在这 1000 个名额内。报告 `candidateSelection` 记录候选来源与待核实数量，`selection` 记录合格总数、截断数及入选线 Star，`repositoryExclusions` 记录包级仓库排除；输入文件 SHA-256 用于追溯。社区 v1/v2 文件不受影响。
 
 输出使用固定 `@deepseek-ai/dsh-plugin-market-index@0.2.1-alpha.5` 校验。兼容范围复用官方 `dshRange`：优先使用显式 `engines.dsh`，否则求 DSH peerDependencies 范围交集；无约束时省略 engines，不填造 `*`。无效范围或空交集仍排除。
 
