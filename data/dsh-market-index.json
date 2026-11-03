@@ -463,6 +463,179 @@
       ]
     },
     {
+      "name": "dsh-claude-design",
+      "title": {
+        "en": "Claude Design",
+        "zh": "Claude 设计稿"
+      },
+      "description": {
+        "en": "Adds the claude-design skill: the agent writes editable design canvases (artboards side by side) as files and opens them in a local canvas editor where you can retype copy, adjust tweaks, and send comments to the agent.",
+        "zh": "加入 claude-design 技能：Agent 把可编辑的设计画布（多个画板并排）写成本地文件，并在本地画布编辑器里打开，你可以改文字、调参数，也可以把评论发给 Agent 修改。"
+      },
+      "author": "Jim Liu 宝玉",
+      "homepage": "https://github.com/JimLiu/baoyu-design",
+      "repository": {
+        "url": "https://github.com/JimLiu/baoyu-design",
+        "directory": "dsh-plugins/dsh-claude-design"
+      },
+      "metadata": {
+        "category": "featured",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "skill",
+          "design",
+          "canvas",
+          "artboard",
+          "界面体验",
+          "界面增强",
+          "user interface",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
+        ],
+        "labels": [
+          "npm",
+          "updated-week",
+          "stars-5000"
+        ],
+        "sortKeys": {
+          "stars": 5887,
+          "repositoryUpdated": 1793638496
+        }
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iI0Q5Nzc1NyIvPgogIDxyZWN0IHg9IjkiIHk9IjE3IiB3aWR0aD0iMjAiIGhlaWdodD0iMzAiIHJ4PSIzIiBmaWxsPSIjRkZGN0YyIi8+CiAgPHJlY3QgeD0iMzUiIHk9IjE3IiB3aWR0aD0iMjAiIGhlaWdodD0iMzAiIHJ4PSIzIiBmaWxsPSIjRkZGN0YyIi8+CiAgPHJlY3QgeD0iMTMiIHk9IjIyIiB3aWR0aD0iMTIiIGhlaWdodD0iOSIgcng9IjEuNSIgZmlsbD0iI0U5QjhBMyIvPgogIDxyZWN0IHg9IjEzIiB5PSIzNSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjIuNSIgcng9IjEuMjUiIGZpbGw9IiNEOTc3NTciLz4KICA8cmVjdCB4PSIxMyIgeT0iNDAiIHdpZHRoPSI3IiBoZWlnaHQ9IjIuNSIgcng9IjEuMjUiIGZpbGw9IiNFOUI4QTMiLz4KICA8cmVjdCB4PSIzOSIgeT0iMjIiIHdpZHRoPSIxMiIgaGVpZ2h0PSIyLjUiIHJ4PSIxLjI1IiBmaWxsPSIjRDk3NzU3Ii8+CiAgPHJlY3QgeD0iMzkiIHk9IjI3IiB3aWR0aD0iOSIgaGVpZ2h0PSIyLjUiIHJ4PSIxLjI1IiBmaWxsPSIjRTlCOEEzIi8+CiAgPHJlY3QgeD0iMzkiIHk9IjM0IiB3aWR0aD0iMTIiIGhlaWdodD0iOSIgcng9IjEuNSIgZmlsbD0iI0U5QjhBMyIvPgo8L3N2Zz4K",
+      "versions": [
+        {
+          "version": "2.8.2",
+          "publishTimestamp": 1793682353,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-claude-motion",
+      "title": {
+        "en": "Claude Motion",
+        "zh": "Claude 动画"
+      },
+      "description": {
+        "en": "Adds the claude-motion skill: the agent writes short animated films (explainers, product demos, title sequences) as code, scene by scene, and plays them in a local Motion player where you watch them fill in, comment on a moment, and export MP4 or GIF.",
+        "zh": "加入 claude-motion 技能：Agent 用代码一幕一幕地写出短动画（讲解视频、产品演示、片头等），在本地 Motion 播放器里播放。你可以看着它一点点成形，在某个时刻留评论，再导出 MP4 或 GIF。"
+      },
+      "author": "Jim Liu 宝玉",
+      "homepage": "https://github.com/JimLiu/baoyu-design",
+      "repository": {
+        "url": "https://github.com/JimLiu/baoyu-design",
+        "directory": "dsh-plugins/dsh-claude-motion"
+      },
+      "metadata": {
+        "category": "featured",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "skill",
+          "motion",
+          "animation",
+          "video",
+          "界面体验",
+          "界面增强",
+          "user interface",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
+        ],
+        "labels": [
+          "npm",
+          "updated-week",
+          "stars-5000"
+        ],
+        "sortKeys": {
+          "stars": 5887,
+          "repositoryUpdated": 1793638496
+        }
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iI0Q5Nzc1NyIvPgogIDxyZWN0IHg9IjEyIiB5PSIxMyIgd2lkdGg9IjQwIiBoZWlnaHQ9IjI3IiByeD0iMyIgZmlsbD0iI0ZGRjdGMiIvPgogIDxwYXRoIGQ9Ik0yOC41IDIwLjV2MTJsMTAtNnoiIGZpbGw9IiNEOTc3NTciLz4KICA8cmVjdCB4PSIxMiIgeT0iNDYiIHdpZHRoPSI0MCIgaGVpZ2h0PSIzIiByeD0iMS41IiBmaWxsPSIjRTlCOEEzIi8+CiAgPHJlY3QgeD0iMTIiIHk9IjQ2IiB3aWR0aD0iMTciIGhlaWdodD0iMyIgcng9IjEuNSIgZmlsbD0iI0ZGRjdGMiIvPgogIDxjaXJjbGUgY3g9IjI5IiBjeT0iNDcuNSIgcj0iMy41IiBmaWxsPSIjRkZGN0YyIi8+Cjwvc3ZnPgo=",
+      "versions": [
+        {
+          "version": "2.8.2",
+          "publishTimestamp": 1793682359,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-claude-slides",
+      "title": {
+        "en": "Claude Slides",
+        "zh": "Claude 幻灯片"
+      },
+      "description": {
+        "en": "Adds the claude-slides skill: the agent writes editable slide decks as files and opens them in a local slide editor where you can present, edit, and export PDF, HTML, or PowerPoint.",
+        "zh": "加入 claude-slides 技能：Agent 把可编辑的幻灯片写成本地文件，并在本地幻灯片编辑器里打开，你可以放映、修改，导出 PDF、HTML 或 PowerPoint。"
+      },
+      "author": "Jim Liu 宝玉",
+      "homepage": "https://github.com/JimLiu/baoyu-design",
+      "repository": {
+        "url": "https://github.com/JimLiu/baoyu-design",
+        "directory": "dsh-plugins/dsh-claude-slides"
+      },
+      "metadata": {
+        "category": "featured",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "skill",
+          "slides",
+          "presentation",
+          "界面体验",
+          "界面增强",
+          "user interface",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
+        ],
+        "labels": [
+          "npm",
+          "updated-week",
+          "stars-5000"
+        ],
+        "sortKeys": {
+          "stars": 5887,
+          "repositoryUpdated": 1793638496
+        }
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iI0Q5Nzc1NyIvPgogIDxyZWN0IHg9IjEyIiB5PSIxNSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjI3IiByeD0iMyIgZmlsbD0iI0ZGRjdGMiIvPgogIDxyZWN0IHg9IjE3IiB5PSIyMSIgd2lkdGg9IjE4IiBoZWlnaHQ9IjMuNSIgcng9IjEuNzUiIGZpbGw9IiNEOTc3NTciLz4KICA8cmVjdCB4PSIxNyIgeT0iMjgiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyLjUiIHJ4PSIxLjI1IiBmaWxsPSIjRTlCOEEzIi8+CiAgPHJlY3QgeD0iMTciIHk9IjMzIiB3aWR0aD0iMjEiIGhlaWdodD0iMi41IiByeD0iMS4yNSIgZmlsbD0iI0U5QjhBMyIvPgogIDxyZWN0IHg9IjMwLjUiIHk9IjQyIiB3aWR0aD0iMyIgaGVpZ2h0PSI3IiBmaWxsPSIjRkZGN0YyIi8+CiAgPHJlY3QgeD0iMjIiIHk9IjQ4IiB3aWR0aD0iMjAiIGhlaWdodD0iMyIgcng9IjEuNSIgZmlsbD0iI0ZGRjdGMiIvPgo8L3N2Zz4K",
+      "versions": [
+        {
+          "version": "2.8.2",
+          "publishTimestamp": 1793682438,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-0"
+          }
+        }
+      ]
+    },
+    {
       "name": "deepseek-bot-engine",
       "title": "deepseek-bot-engine",
       "description": "The engine layer of the DeepSeek Bot desktop app profile: transport, host services and the Bot agent preset over dsh-base, without the DSH Web front end.",
@@ -4054,8 +4227,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z191aV9mcmFtZSIgeDE9IjUiIHkxPSI2IiB4Mj0iMzEiIHkyPSIzMCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjM0I4MkY2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzFENEVEOCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPCEtLSBXaW5kb3cgT3V0bGluZSAtLT4KICA8cmVjdCB4PSI1LjUiIHk9IjcuNSIgd2lkdGg9IjI1IiBoZWlnaHQ9IjIxIiByeD0iMy41IiBzdHJva2U9InVybCgjZHNoX3N2Z191aV9mcmFtZSkiIHN0cm9rZS13aWR0aD0iMi4yIiBmaWxsPSIjM0I4MkY2IiBmaWxsLW9wYWNpdHk9IjAuMDgiLz4KICA8IS0tIFdpbmRvdyBIZWFkZXIgTGluZSAtLT4KICA8bGluZSB4MT0iNS41IiB5MT0iMTIuNSIgeDI9IjMwLjUiIHkyPSIxMi41IiBzdHJva2U9InVybCgjZHNoX3N2Z191aV9mcmFtZSkiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPCEtLSBUcmFmZmljIExpZ2h0IERvdHMgLS0+CiAgPGNpcmNsZSBjeD0iOSIgY3k9IjEwIiByPSIxLjIiIGZpbGw9IiNFRjQ0NDQiLz4KICA8Y2lyY2xlIGN4PSIxMi41IiBjeT0iMTAiIHI9IjEuMiIgZmlsbD0iI0Y1OUUwQiIvPgogIDxjaXJjbGUgY3g9IjE2IiBjeT0iMTAiIHI9IjEuMiIgZmlsbD0iIzEwQjk4MSIvPgogIDwhLS0gTGVmdCBTaWRlYmFyIERpdmlkZXIgLS0+CiAgPGxpbmUgeDE9IjEzLjUiIHkxPSIxMi41IiB4Mj0iMTMuNSIgeTI9IjI4LjUiIHN0cm9rZT0idXJsKCNkc2hfc3ZnX3VpX2ZyYW1lKSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICA8IS0tIFNpZGViYXIgVHJlZSBOb2RlcyAtLT4KICA8cmVjdCB4PSI4IiB5PSIxNS41IiB3aWR0aD0iMy41IiBoZWlnaHQ9IjIiIHJ4PSIwLjgiIGZpbGw9IiMxMEI5ODEiLz4KICA8cmVjdCB4PSI4IiB5PSIxOS41IiB3aWR0aD0iMy41IiBoZWlnaHQ9IjIiIHJ4PSIwLjgiIGZpbGw9IiM5NEEzQjgiLz4KICA8cmVjdCB4PSI4IiB5PSIyMy41IiB3aWR0aD0iMy41IiBoZWlnaHQ9IjIiIHJ4PSIwLjgiIGZpbGw9IiM5NEEzQjgiLz4KICA8IS0tIEVkaXRvciBNYWluIFNwbGl0IFBhbmVzIC0tPgogIDxyZWN0IHg9IjE2IiB5PSIxNSIgd2lkdGg9IjEyIiBoZWlnaHQ9IjUiIHJ4PSIxLjIiIGZpbGw9IiMzQjgyRjYiIGZpbGwtb3BhY2l0eT0iMC4yNSIvPgogIDxyZWN0IHg9IjE2IiB5PSIyMiIgd2lkdGg9IjEyIiBoZWlnaHQ9IjQuNSIgcng9IjEuMiIgZmlsbD0idXJsKCNkc2hfc3ZnX3VpX2ZyYW1lKSIvPgo8L3N2Zz4=",
       "versions": [
         {
-          "version": "2.0.12",
-          "publishTimestamp": 1793624484,
+          "version": "2.0.13",
+          "publishTimestamp": 1793681986,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -4676,7 +4849,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-100"
         ],
         "sortKeys": {
@@ -7316,14 +7489,14 @@
       },
       "versions": [
         {
-          "version": "0.4.0",
-          "publishTimestamp": 1791800262,
+          "version": "0.4.1",
+          "publishTimestamp": 1793681401,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.1-rc.2 || >=0.1.2-alpha.1"
+            "dsh": ">=0.1.1-rc.2 || >=0.1.2-alpha.1 || >=0.1.3-0 || >=0.1.5-0 || >=0.1.6-0 || >=0.1.7-0 || >=0.2.0-0 || >=0.2.1-0 || >=0.2.2-0"
           }
         }
       ],
@@ -7460,8 +7633,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z19pbV93ZWNoYXQiIHgxPSI0IiB5MT0iNiIgeDI9IjI0IiB5Mj0iMjQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzEwQjk4MSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNTk2NjkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImRzaF9zdmdfaW1fZmVpc2h1IiB4MT0iMTIiIHkxPSIxMiIgeDI9IjMyIiB5Mj0iMzAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzNCODJGNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxRDRFRDgiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDwhLS0gUHJpbWFyeSBDaGF0IEJ1YmJsZSAoV2VDaGF0IEdyZWVuIFN0eWxlLCBUb3AtTGVmdCkgLS0+CiAgPHBhdGggZD0iTTYgMTBDNiA3Ljc5IDcuNzkgNiAxMCA2SDIwQzIyLjIxIDYgMjQgNy43OSAyNCAxMFYxNkMyNCAxOC4yMSAyMi4yMSAyMCAyMCAyMEgxM0w4IDIzLjVWMjBDNi45IDIwIDYgMTkuMSA2IDE4VjEwWiIgZmlsbD0idXJsKCNkc2hfc3ZnX2ltX3dlY2hhdCkiLz4KICA8IS0tIE1lc3NhZ2UgTGluZXMgaW4gR3JlZW4gQnViYmxlIC0tPgogIDxsaW5lIHgxPSIxMCIgeTE9IjExIiB4Mj0iMTkiIHkyPSIxMSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjEuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGxpbmUgeDE9IjEwIiB5MT0iMTUiIHgyPSIxNSIgeTI9IjE1IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KCiAgPCEtLSBTZWNvbmRhcnkgQ2hhdCBCdWJibGUgKEZlaXNodS9MYXJrIEJsdWUgU3R5bGUsIEJvdHRvbS1SaWdodCkgLS0+CiAgPHBhdGggZD0iTTE0IDE4QzE0IDE2LjM0IDE1LjM0IDE1IDE3IDE1SDI3QzI4LjY2IDE1IDMwIDE2LjM0IDMwIDE4VjI0QzMwIDI1LjY2IDI4LjY2IDI3IDI3IDI3SDI0VjI5LjhMMjAgMjdIMTdDMTUuMzQgMjcgMTQgMjUuNjYgMTQgMjRWMThaIiBmaWxsPSJ1cmwoI2RzaF9zdmdfaW1fZmVpc2h1KSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogIDwhLS0gTWVzc2FnZSBEb3RzIGluIEJsdWUgQnViYmxlIC0tPgogIDxjaXJjbGUgY3g9IjE5IiBjeT0iMjEiIHI9IjEuMiIgZmlsbD0iI0ZGRkZGRiIvPgogIDxjaXJjbGUgY3g9IjIyIiBjeT0iMjEiIHI9IjEuMiIgZmlsbD0iI0ZGRkZGRiIvPgogIDxjaXJjbGUgY3g9IjI1IiBjeT0iMjEiIHI9IjEuMiIgZmlsbD0iI0ZGRkZGRiIvPgoKICA8IS0tIER5bmFtaWMgQ29tbXVuaWNhdGlvbiBTeW5jIFJpbmcgLyBMaWdodG5pbmcgaW4gQ2VudGVyIC0tPgogIDxwYXRoIGQ9Ik0xMiAyNUMxMCAyNiA4IDI1IDcgMjRNMjggMTFDMjkgMTAgMzEgMTEgMzEgMTIiIHN0cm9rZT0iI0Y1OUUwQiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4=",
       "versions": [
         {
-          "version": "1.0.21",
-          "publishTimestamp": 1793364899,
+          "version": "1.0.22",
+          "publishTimestamp": 1793680453,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -24926,8 +25099,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkRTSCBMTE0gVmVyaWZpZXIiPgogIDx0aXRsZT5EU0ggTExNIFZlcmlmaWVyPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGxtLXZlcmlmaWVyLWljb24iIHgxPSIzIiB5MT0iMiIgeDI9IjQ1IiB5Mj0iNDYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzhBNjNGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNSIgc3RvcC1jb2xvcj0iIzRGN0JGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyRkM1QzkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgcng9IjE1IiBmaWxsPSJ1cmwoI2xsbS12ZXJpZmllci1pY29uKSIvPgogIDxwYXRoIGQ9Ik0yNCA4LjggMzYuOCAxMy44djEwLjRjMCA3LjItNS40IDEyLjgtMTIuOCAxNS4yQzE2LjYgMzcgMTEuMiAzMS40IDExLjIgMjQuMlYxMy44TDI0IDguOFoiIGZpbGw9IiNGRkZGRkYiIGZpbGwtb3BhY2l0eT0iMC45NCIvPgogIDxwYXRoIGQ9Ik0xNy42IDI0LjYgMjIgMjlsOC42LTkuNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2xsbS12ZXJpZmllci1pY29uKSIgc3Ryb2tlLXdpZHRoPSI0LjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "0.11.1",
-          "publishTimestamp": 1793581479,
+          "version": "0.12.0",
+          "publishTimestamp": 1793681665,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -44837,126 +45010,6 @@
           }
         }
       ]
-    },
-    {
-      "name": "dsh-plugin-appshot",
-      "title": "dsh-plugin-appshot",
-      "description": "dsh-plugin-appshot — a DeepSeek Harness plugin for macOS and Windows context screenshot capture.",
-      "author": "TaurusWood",
-      "homepage": "https://github.com/TaurusWood/dsh-plugin-appshot#readme",
-      "repository": {
-        "url": "https://github.com/TaurusWood/dsh-plugin-appshot"
-      },
-      "metadata": {
-        "category": "ecosystem-resources",
-        "keywords": [
-          "deepseek",
-          "deepseek-harness",
-          "dsh",
-          "dsh-plugin",
-          "appshot",
-          "screenshot",
-          "screencapturekit",
-          "macos",
-          "windows",
-          "win32",
-          "agent",
-          "context",
-          "生态资源",
-          "ecosystem"
-        ],
-        "labels": [
-          "npm"
-        ],
-        "sortKeys": {
-          "stars": 5,
-          "repositoryUpdated": 1790579003
-        }
-      },
-      "versions": [
-        {
-          "version": "0.4.2",
-          "publishTimestamp": 1790577038,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          }
-        }
-      ]
-    },
-    {
-      "name": "oh-my-deepseek-harness",
-      "title": "oh-my-deepseek-harness",
-      "description": "Multi-agent orchestration for DeepSeek Harness -- specialized agents, task orchestration, workflow skills",
-      "author": "YYTbit",
-      "repository": {
-        "url": "https://github.com/YYTbit/oh-my-deepseek-harness"
-      },
-      "metadata": {
-        "category": "multi-agents",
-        "keywords": [
-          "dsh-plugin",
-          "deepseek-harness",
-          "multi-agent",
-          "orchestration",
-          "autopilot",
-          "oh-my",
-          "多智能体",
-          "多 Agent",
-          "multi agent"
-        ],
-        "labels": [
-          "npm"
-        ],
-        "sortKeys": {
-          "stars": 5,
-          "repositoryUpdated": 1786721235
-        }
-      },
-      "versions": [
-        {
-          "version": "0.1.2",
-          "publishTimestamp": 1787366568,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          }
-        }
-      ]
-    },
-    {
-      "name": "@alger-ai/dsh-image-preview",
-      "title": "@alger-ai/dsh-image-preview",
-      "description": "Image preview in the dsh session: read_image, user-sent, assistant/Markdown/present images, and a full-size lightbox with zoom, rotate, pan, download, file actions, and cross-image navigation",
-      "versions": [
-        {
-          "version": "0.6.5",
-          "publishTimestamp": 1792312945,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/algerkong/dsh-image-preview",
-            "commit": "5707c1389a2bea252a010ccb64b20375b8538ff9"
-          },
-          "engines": {
-            "dsh": ">=0.1.5-rc.2 <0.3.0-0"
-          }
-        }
-      ],
-      "metadata": {
-        "category": "ecosystem-resources",
-        "keywords": [
-          "生态资源",
-          "ecosystem"
-        ],
-        "labels": [
-          "git",
-          "updated-month"
-        ],
-        "sortKeys": {
-          "stars": 5,
-          "repositoryUpdated": 1792312952
-        }
-      }
     },
     {
       "name": "bruce-md2word",
