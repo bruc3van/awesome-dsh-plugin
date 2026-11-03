@@ -913,11 +913,11 @@
       "versions": [
         {
           "version": "0.1.8",
-          "publishTimestamp": 1793537442,
+          "publishTimestamp": 1793674322,
           "source": {
             "type": "git",
             "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
-            "commit": "7029aaa25ed1ea35d355ef1d7cefe5e098f92ee1",
+            "commit": "f9d3c66c77d496fd7ff67d079e6916aac09afbb6",
             "path": "skin-manager"
           },
           "engines": {
@@ -1885,7 +1885,7 @@
         ],
         "labels": [
           "git",
-          "updated-week",
+          "updated-month",
           "stars-500",
           "security-research",
           "presets"
@@ -3294,11 +3294,11 @@
       "versions": [
         {
           "version": "0.32.5",
-          "publishTimestamp": 1793665737,
+          "publishTimestamp": 1793676956,
           "source": {
             "type": "git",
             "url": "https://github.com/Phant0Meow/dsh-meow-memory",
-            "commit": "33d9b54886f576c08fab075f3f60623a495a6aa8"
+            "commit": "ae3e72ee7d1307e0216c081250d49b08ac3956e6"
           }
         }
       ]
@@ -3613,7 +3613,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-100"
         ],
         "sortKeys": {
@@ -4084,6 +4084,58 @@
       }
     },
     {
+      "name": "dsh-guizang-design",
+      "title": "dsh-guizang-design",
+      "description": "歸藏设计 · DeepSeek Harness 插件：网页 PPT、图文卡片、网页排版、去 AI 味四个 skill，一套设计系统；展示库收着官方示例和你做过的作品，一键做同风格的下一份。",
+      "author": "op7418",
+      "homepage": "https://github.com/op7418/dsh-guizang-design",
+      "repository": {
+        "url": "https://github.com/op7418/dsh-guizang-design"
+      },
+      "metadata": {
+        "category": "featured",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "dsh",
+          "skills",
+          "ppt",
+          "design-system",
+          "typography",
+          "设计",
+          "视觉",
+          "media",
+          "vision",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
+        ],
+        "labels": [
+          "npm",
+          "updated-week",
+          "stars-100"
+        ],
+        "sortKeys": {
+          "stars": 253,
+          "repositoryUpdated": 1793422509
+        }
+      },
+      "icon": "data:image/webp;base64,UklGRkwFAABXRUJQVlA4IEAFAAAwGACdASpgAGAAPm0ylEakIyIhKBqriIANiUAZc44oirrD8PpU23nO4elXeoYEn1WmG3gXdXAPKsYPcdvgq4Rpa7AWVNKygKcHiX/x5WkqQleXWQfzcE2UXCNdRQaZyvCwaX4DNvp8T8iTHRqi0vcp4vdxFFiKKMFlaPzTFN/w6bEvnL1/poH7I0nFoJ4iZnrbyXDSMdRd/UyHi413xBwLpDydOQE4oTeA7Zagy5SjIDD+GtwN7PpRcg3kyH2UpdwuGQGO13C/3ZgAAP79be7FAs3eX7vDR/GJEyEh9wJTsKZwyLayEkGHUV92Wo9RU1TzKHhxeCI3AY6HHU0ZATRvluHZgwMUNIFY0hGbzgunBfZbRbacvNwCYapZgxVXJldt4Unbv0q6Kz6p45ewP8gjhP2c8/Ela7SqWOgBwzyrgBn1Am70cMBSORhG8NeGOy8VgzHtWxSMFjgAW4LQUzyv8OF1oGFCWsroWtJqOuxEeQGBWlLKsM6qzEJcLm27qpJx/tSgjvR4kmw2dohB7PYpjkiUUotfQAB1WNGP+3ghDjWIyQaweJV7x2ftDSWP8VwZJMFOO/QnVIvoL3JyX9cGfc2DOuRlgsWimXTa+/LUGHEbYfIgJQ15k9uUByppYVbVUdOmD7IwhMwb+qKdlB4itMeCVYIxbw1Bij2jOrW0kzLdD8/n1aToGeDAsLIj17QbkbHBa5u+WqJ/oMqNp/jcRMXde9jCJqHBn2dnX7UMEd4oH4OEBVf/U0l84X3eZWNvPKHE1rW73TAClFsDutemrompu6EP6hiQmly2/DQL43lsBCjJ6Q4oFqn48ohr513GxNHXmSJlIfzDbJCJDkJg0Emy8c7Wu9Gr8J4HwD+AlCm5b2na/s0ENptmgwezlz3CfcQi3fbGWKXdUBpr3iotypc260T8fNspMd81uaqprERwVUBUdxBhqmw8W5XWhaFJfLxi5Nycg8Tu64Mp/wBlhgePozGkSlLz+z8TEDMF/I7X3crEaVLfZIjSZrER4kwscoDy+pwROIHssOxCPPO633LMzPxWSYyljouowNX6RcniKrpPajE4dqHsGyRkvi+beFNAJKxww4Op3xrkliNZSXAB3QEnXj6CJjedS9j4CmKi7T8C+X6RpGLsWEYXULaS2IH/0SlBIW7UeZ5+FqV5Ldkp48F9zlrjhmEL7LnChw/fBw0eUKURmrZ6t80d5k5SmGo8Zjj8dDOKYIrKSEHVUEJA5e5/sA2iG0JRZ8UUz3T18s92NbImfCQuUIGi68jiz0reQACDYTIdhY9zwe8qRjjgEI7UbH3BKR11dpxJvSd7HPdZTs9SViV72vnC/kZmejIY6y1YjccI19kjR+4c8kucSp1ESuPddALkBgB/XCMJKha8Q3uafbABtD5VRELb1MEHWFsMzu1YEsI5YwCRQfhUL56VgzLXAG/pMkLmKonGu7mPe+92i70RECveLjeqz2UuEb5GBZ1bU/RFk6T2WpyFe5Vm+UExD97bAiOX+TzAwWNgBPMAqPplhJjaiyNp8GlDVWp74q/sc339x6t+yHEvhigV/mBWvdhg/2hLNMoNJC2zHb+SVM6n8QK0Rr3CxPxnzWVBJv6MyfswnJsHu8b1xrtfZTbLOyEqZzCI3c+QUqNZdwSt5Lh+gsGPwlQtGar97EMDaQC9eQPBkNH3lqKvJQd5ZUl2dGsmv0l0HEbeeBvRl4XU1rmbqMgdlRP7dHSarp/XAkPoiaVeoP1CJmp4Z8Vu7A5IeE/eL6sSrKagWjpztFeEOCf4/DAAAAA=",
+      "versions": [
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1793422921,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-skill-mcp-panel",
       "title": "dsh-skill-mcp-panel",
       "description": "dsh-skill-mcp-panel: manage skills and MCP servers from the DSH web sidebar plus the unified dsh-panel CLI.",
@@ -4355,7 +4407,7 @@
     {
       "name": "dsh-remote",
       "title": "dsh-remote",
-      "description": "Remote-work assistant for DeepSeek Harness: connect SSH (password/key/agent/keyboard-interactive, multi-hop ProxyJump), pick a remote workspace, operate on it with 22 rw_* tools, conflict-aware mirror sync, an embedded PTY terminal, one-click remote dsh deploy + web UI attach, port forwarding, host grouping, remote sandbox fencing, audit log, keychain passwords.",
+      "description": "Remote-work assistant for DeepSeek Harness: connect SSH (password/key/agent/keyboard-interactive, multi-hop ProxyJump), list hosts from ~/.ssh/config, pick a remote workspace, operate on it with 21 rw_* tools, conflict-aware mirror sync, an embedded PTY terminal, remote DSH web UI attach, port forwarding, host grouping, remote sandbox fencing, audit log, keychain passwords.",
       "author": "flymysql",
       "homepage": "https://github.com/flymysql/dsh-remote",
       "repository": {
@@ -4392,8 +4444,8 @@
       },
       "versions": [
         {
-          "version": "0.8.67",
-          "publishTimestamp": 1793434483,
+          "version": "0.8.71",
+          "publishTimestamp": 1793677393,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -4475,16 +4527,17 @@
           "repositoryUpdated": 1793649007
         }
       },
+      "icon": "data:image/webp;base64,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",
       "versions": [
         {
-          "version": "0.1.24",
-          "publishTimestamp": 1792089970,
+          "version": "0.2.0",
+          "publishTimestamp": 1793676006,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.5-rc.1"
+            "dsh": ">=0.2.1-rc.5"
           }
         }
       ]
@@ -9697,7 +9750,7 @@
         "url": "https://github.com/joeseesun/qiaomu-rss-dsh"
       },
       "metadata": {
-        "category": "agents-workflows",
+        "category": "featured",
         "keywords": [
           "deepseek-harness",
           "dsh-plugin",
@@ -9707,7 +9760,10 @@
           "智能体",
           "自动化",
           "工作流",
-          "workflow"
+          "workflow",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "git",
@@ -14427,7 +14483,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 43,
@@ -15576,8 +15632,8 @@
       },
       "versions": [
         {
-          "version": "1.10.2",
-          "publishTimestamp": 1793328297,
+          "version": "1.10.3",
+          "publishTimestamp": 1793671799,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -17891,8 +17947,8 @@
       },
       "versions": [
         {
-          "version": "0.3.2",
-          "publishTimestamp": 1792679072,
+          "version": "0.3.4",
+          "publishTimestamp": 1793675537,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -25307,8 +25363,8 @@
       },
       "versions": [
         {
-          "version": "0.5.4",
-          "publishTimestamp": 1793212003,
+          "version": "0.5.5",
+          "publishTimestamp": 1793670985,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -29829,11 +29885,11 @@
       "versions": [
         {
           "version": "0.3.9",
-          "publishTimestamp": 1793608886,
+          "publishTimestamp": 1793678710,
           "source": {
             "type": "git",
             "url": "https://github.com/islibaodong/dsh-login",
-            "commit": "35711cb5cc95e17cd1d0e240b14c1e73524eb738"
+            "commit": "0f8bd1270d5697ab8543a09511822e229b98166a"
           },
           "engines": {
             "dsh": ">=0.1.5-alpha.1 <0.2.0-0 || >=0.1.6-alpha.1 <0.2.0-0 || >=0.1.7-alpha.2 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0 || >=0.2.1-alpha.1 <0.3.0-0 || >=0.2.2-alpha.2 <0.3.0-0"
@@ -38915,8 +38971,8 @@
       },
       "versions": [
         {
-          "version": "0.40.0",
-          "publishTimestamp": 1793331440,
+          "version": "0.40.1",
+          "publishTimestamp": 1793675578,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -44957,40 +45013,6 @@
           }
         }
       ]
-    },
-    {
-      "name": "@ddtcorex/maestro-skills",
-      "title": "@ddtcorex/maestro-skills",
-      "description": "Govard domain skills (17) + superpowers library (15, forked from obra/superpowers), packaged as a Cordis plugin",
-      "repository": {
-        "url": "https://github.com/ddtcorex/maestro-skills"
-      },
-      "versions": [
-        {
-          "version": "3.0.0",
-          "publishTimestamp": 1793065273,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/ddtcorex/maestro-skills",
-            "commit": "110116197d25d22687391b45806b8c297fc4243d"
-          }
-        }
-      ],
-      "metadata": {
-        "category": "ecosystem-resources",
-        "keywords": [
-          "生态资源",
-          "ecosystem"
-        ],
-        "labels": [
-          "git",
-          "updated-week"
-        ],
-        "sortKeys": {
-          "stars": 5,
-          "repositoryUpdated": 1793065812
-        }
-      }
     }
   ]
 }
