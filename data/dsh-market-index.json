@@ -2282,8 +2282,8 @@
       },
       "versions": [
         {
-          "version": "1.9.50",
-          "publishTimestamp": 1793620331,
+          "version": "1.9.51",
+          "publishTimestamp": 1793684668,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -4020,8 +4020,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z19hcmNoX2ciIHgxPSI2IiB5MT0iOCIgeDI9IjMwIiB5Mj0iMjgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzEwQjk4MSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNTk2NjkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDwhLS0gQ2FyZCBFeHRyYWN0ZWQgZnJvbSBCb3ggLS0+CiAgPHJlY3QgeD0iMTEiIHk9IjYiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxMCIgcng9IjIiIGZpbGw9IiNFNkZGRkEiIHN0cm9rZT0iIzEwQjk4MSIgc3Ryb2tlLXdpZHRoPSIxLjgiLz4KICA8bGluZSB4MT0iMTQiIHkxPSIxMCIgeDI9IjIyIiB5Mj0iMTAiIHN0cm9rZT0iIzEwQjk4MSIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwhLS0gQXJjaGl2ZSBEcmF3ZXIgQm9keSAtLT4KICA8cmVjdCB4PSI2IiB5PSIxMyIgd2lkdGg9IjI0IiBoZWlnaHQ9IjE3IiByeD0iMy41IiBmaWxsPSJ1cmwoI2RzaF9zdmdfYXJjaF9nKSIvPgogIDwhLS0gRHJhd2VyIEZhY2UgUGFuZWwgLS0+CiAgPHJlY3QgeD0iOC41IiB5PSIxNS41IiB3aWR0aD0iMTkiIGhlaWdodD0iMTIiIHJ4PSIyIiBmaWxsPSIjMDQ3ODU3IiBmaWxsLW9wYWNpdHk9IjAuMyIvPgogIDwhLS0gRHJhd2VyIFB1bGwgSGFuZGxlIC0tPgogIDxyZWN0IHg9IjE0IiB5PSIxOSIgd2lkdGg9IjgiIGhlaWdodD0iMyIgcng9IjEuNSIgZmlsbD0iI0ZGRkZGRiIvPgogIDwhLS0gRXh0cmFjdGlvbiBBcnJvdyAtLT4KICA8cGF0aCBkPSJNMTggNEwxNSA3TTE4IDRMMjEgNyIgc3Ryb2tlPSIjMTBCOTgxIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4=",
       "versions": [
         {
-          "version": "1.1.22",
-          "publishTimestamp": 1793349357,
+          "version": "1.2.0",
+          "publishTimestamp": 1793683553,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -4103,8 +4103,8 @@
       "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNzg2NjM1OTMyMzg5IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjYwMTEiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PHBhdGggZD0iTTkwNS4zMDkwOTEgNjI4LjM2MzYzNmMtMjcuOTI3MjczIDAtNDYuNTQ1NDU1IDE4LjYxODE4Mi00Ni41NDU0NTUgNDYuNTQ1NDU1djIyMy40MTgxODJIMTY1LjIzNjM2NFYxMjUuNjcyNzI3aDIwMC4xNDU0NTRjMjcuOTI3MjczIDAgNDYuNTQ1NDU1LTE4LjYxODE4MiA0Ni41NDU0NTUtNDYuNTQ1NDU0cy0xOC42MTgxODItNDYuNTQ1NDU1LTQ2LjU0NTQ1NS00Ni41NDU0NTVIMTE4LjY5MDkwOWMtMjcuOTI3MjczIDAtNDYuNTQ1NDU1IDE4LjYxODE4Mi00Ni41NDU0NTQgNDYuNTQ1NDU1djg2NS43NDU0NTRjMCAyNy45MjcyNzMgMTguNjE4MTgyIDQ2LjU0NTQ1NSA0Ni41NDU0NTQgNDYuNTQ1NDU1aDc4Ni42MTgxODJjMjcuOTI3MjczIDAgNDYuNTQ1NDU1LTE4LjYxODE4MiA0Ni41NDU0NTQtNDYuNTQ1NDU1di0yNjkuOTYzNjM2YzAtMjcuOTI3MjczLTE4LjYxODE4Mi00Ni41NDU0NTUtNDYuNTQ1NDU0LTQ2LjU0NTQ1NXoiIGZpbGw9IiMxMjk2ZGIiIHAtaWQ9IjYwMTIiPjwvcGF0aD48cGF0aCBkPSJNNTU2LjIxODE4MiA1NTguNTQ1NDU1aDM0OS4wOTA5MDl2LTkzLjA5MDkxaC0yNjkuOTYzNjM2bDI5My4yMzYzNjMtMjY5Ljk2MzYzNi02NS4xNjM2MzYtNjUuMTYzNjM2LTMwNy4yIDI4My45MjcyNzJWMTE2LjM2MzYzNmgtOTMuMDkwOTA5VjU1OC41NDU0NTVoNC42NTQ1NDV6IiBmaWxsPSIjMTI5NmRiIiBwLWlkPSI2MDEzIj48L3BhdGg+PC9zdmc+",
       "versions": [
         {
-          "version": "0.26.3",
-          "publishTimestamp": 1793159759,
+          "version": "0.26.4",
+          "publishTimestamp": 1793684716,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -10535,8 +10535,8 @@
       },
       "versions": [
         {
-          "version": "1.2.17",
-          "publishTimestamp": 1793552723,
+          "version": "1.2.18",
+          "publishTimestamp": 1793685611,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -11357,14 +11357,9 @@
     },
     {
       "name": "dsh-plugin-guide",
-      "title": {
-        "en": "dsh-plugin-guide",
-        "zh": "dsh-plugin-guide"
-      },
-      "description": {
-        "en": "DeepSeek Harness plugin-development knowledge base: official docs mirror, contract rules, migration guide, verified issue index, and the dsh-plugin-dev CLI.",
-        "zh": "DeepSeek Harness 插件开发知识库：官方文档副本、契约红线、迁移指南、源码核实的问题索引，以及 dsh-plugin-dev 命令行工具。"
-      },
+      "title": "dsh-plugin-guide",
+      "description": "A practical guide to DSH plugin quality: ENTRY checks, FLOW checks, and BOOST guidance. Community guide; not official, not a certification, not a ranking.",
+      "homepage": "https://github.com/PerryLink/dsh-plugin-guide#readme",
       "repository": {
         "url": "https://github.com/PerryLink/dsh-plugin-guide"
       },
@@ -11373,20 +11368,13 @@
         "keywords": [
           "dsh",
           "dsh-plugin",
-          "dsh-plugin-development",
-          "dsh-skill",
-          "deepseek",
           "deepseek-harness",
           "cordis",
           "plugin-development",
-          "agent-skill",
-          "agent-skills",
-          "knowledge-base",
+          "standards",
+          "checklist",
+          "guide",
           "documentation",
-          "cli",
-          "scaffold",
-          "checker",
-          "typescript",
           "生态资源",
           "ecosystem"
         ],
@@ -11403,8 +11391,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1wbHVnaW4tZ3VpZGUiPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE0IiBmaWxsPSIjMGI2YmNiIiAvPgogIDxwYXRoIGQ9Ik0xNCAyMGgzNnY1SDE0ek0xNCAzMGgyNHY1SDE0ek0xNCA0MGgzMHY1SDE0eiIgZmlsbD0iI2ZmZmZmZiIgLz4KICA8Y2lyY2xlIGN4PSI0OCIgY3k9IjMyIiByPSI1IiBmaWxsPSIjZmZkMTY2IiAvPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "0.3.42",
-          "publishTimestamp": 1793631426,
+          "version": "0.4.0",
+          "publishTimestamp": 1793685006,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -17121,7 +17109,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 36,
@@ -20553,9 +20541,10 @@
     {
       "name": "@perrylink/dsh-github",
       "title": "@perrylink/dsh-github",
-      "description": "Official-grade GitHub CI for DeepSeek Harness: composite action (review PRs / fix CI / report), polling PR review bot with idempotent inline comments, a status-check gate, and approval-gated PR/issue/repo/file tools",
+      "description": "GitHub PRs, reviews, issues and CI for DeepSeek Harness: approval-gated write tools, a CI composite action, a polling review bot and a status-check gate.",
+      "homepage": "https://github.com/PerryLink/dsh-github-bot#readme",
       "repository": {
-        "url": "https://github.com/PerryLink/dsh-github"
+        "url": "https://github.com/PerryLink/dsh-github-bot"
       },
       "metadata": {
         "category": "integrations-sharing",
@@ -20584,8 +20573,8 @@
       },
       "versions": [
         {
-          "version": "0.7.30",
-          "publishTimestamp": 1793631299,
+          "version": "0.7.31",
+          "publishTimestamp": 1793685784,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -25099,8 +25088,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkRTSCBMTE0gVmVyaWZpZXIiPgogIDx0aXRsZT5EU0ggTExNIFZlcmlmaWVyPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGxtLXZlcmlmaWVyLWljb24iIHgxPSIzIiB5MT0iMiIgeDI9IjQ1IiB5Mj0iNDYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzhBNjNGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNSIgc3RvcC1jb2xvcj0iIzRGN0JGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyRkM1QzkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgcng9IjE1IiBmaWxsPSJ1cmwoI2xsbS12ZXJpZmllci1pY29uKSIvPgogIDxwYXRoIGQ9Ik0yNCA4LjggMzYuOCAxMy44djEwLjRjMCA3LjItNS40IDEyLjgtMTIuOCAxNS4yQzE2LjYgMzcgMTEuMiAzMS40IDExLjIgMjQuMlYxMy44TDI0IDguOFoiIGZpbGw9IiNGRkZGRkYiIGZpbGwtb3BhY2l0eT0iMC45NCIvPgogIDxwYXRoIGQ9Ik0xNy42IDI0LjYgMjIgMjlsOC42LTkuNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2xsbS12ZXJpZmllci1pY29uKSIgc3Ryb2tlLXdpZHRoPSI0LjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "0.12.0",
-          "publishTimestamp": 1793681665,
+          "version": "0.14.0",
+          "publishTimestamp": 1793685852,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -37515,8 +37504,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC10cmVsbGlzIj4KICA8dGl0bGU+ZHNoLXRyZWxsaXM8L3RpdGxlPgogIDxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgcng9IjUuNCIgZmlsbD0iIzE4NURERCIvPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyIDEyKSBzY2FsZSgwLjc0KSB0cmFuc2xhdGUoLTEyIC0xMikiPgogICAgPGRlZnM+CiAgICAgIDxtYXNrIGlkPSJjdXQiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9IjAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+CiAgICAgICAgPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSIjRkZGRkZGIi8+CiAgICAgICAgPHBhdGggZD0iTTE3LjMzIDExLjk1IDE4LjI3IDEyLjg5IDE5Ljg3IDEwLjY4IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMS40NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgICAgIDwvbWFzaz4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIxLjgiPgogICAgICA8cmVjdCB4PSIzLjMiIHk9IjMuNiIgd2lkdGg9IjQuMiIgaGVpZ2h0PSIxNi44IiByeD0iMi4xIi8+CiAgICAgIDxyZWN0IHg9IjkuOSIgeT0iMy42IiB3aWR0aD0iNC4yIiBoZWlnaHQ9IjE2LjgiIHJ4PSIyLjEiLz4KICAgIDwvZz4KICAgIDxnIGZpbGw9IiNGRkZGRkYiPgogICAgICA8cmVjdCB4PSI0LjQiIHk9IjE0LjYiIHdpZHRoPSIyLjAiIGhlaWdodD0iMi4wIiByeD0iMC43Ii8+CiAgICAgIDxyZWN0IHg9IjExLjAiIHk9IjEwLjIiIHdpZHRoPSIyLjAiIGhlaWdodD0iMi4wIiByeD0iMC43Ii8+CiAgICA8L2c+CiAgICA8cmVjdCB4PSIxNS42IiB5PSIyLjciIHdpZHRoPSI2LjAiIGhlaWdodD0iMTguNiIgcng9IjMuMCIgZmlsbD0iI0ZGRkZGRiIgbWFzaz0idXJsKCNjdXQpIi8+CiAgPC9nPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "0.4.7",
-          "publishTimestamp": 1792908448,
+          "version": "0.5.0",
+          "publishTimestamp": 1793686342,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -44246,6 +44235,55 @@
       ]
     },
     {
+      "name": "qiaomu-reader-dsh",
+      "title": "qiaomu-reader-dsh",
+      "description": "乔木阅读：DSH 的 EPUB、PDF、TXT、Markdown、HTML 阅读器，支持朗读、生词本、阅读笔记与原生 AI 伴读。",
+      "homepage": "https://github.com/joeseesun/qiaomu-reader-dsh#readme",
+      "repository": {
+        "url": "https://github.com/joeseesun/qiaomu-reader-dsh"
+      },
+      "metadata": {
+        "category": "featured",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "qiaomu",
+          "epub",
+          "reading",
+          "智能体",
+          "自动化",
+          "工作流",
+          "workflow",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
+        ],
+        "labels": [
+          "git",
+          "updated-week"
+        ],
+        "sortKeys": {
+          "stars": 7,
+          "repositoryUpdated": 1793433987
+        }
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLkuZTmnKjpmIXor7siPgogIDxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgIDxwYXRoIGQ9Ik0yNCAxMy41QzIwLjQgMTAuOSAxNS42IDkuOCAxMCAxMC40djI0LjljNS42LS42IDEwLjQuNSAxNCAzLjEgMy42LTIuNiA4LjQtMy43IDE0LTMuMVYxMC40Yy01LjYtLjYtMTAuNC41LTE0IDMuMVoiLz4KICAgIDxwYXRoIGQ9Ik0yNCAxMy41djI0LjkiLz4KICAgIDxwYXRoIGQ9Ik0xNC41IDE4LjVjMi40IDAgNC42LjQgNi41IDEuMyIvPgogICAgPHBhdGggZD0iTTE0LjUgMjQuNWMyLjQgMCA0LjYuNCA2LjUgMS4zIi8+CiAgICA8cGF0aCBkPSJNMzMuNSAxOC41Yy0yLjQgMC00LjYuNC02LjUgMS4zIi8+CiAgICA8cGF0aCBkPSJNMzMuNSAyNC41Yy0yLjQgMC00LjYuNC02LjUgMS4zIi8+CiAgPC9nPgo8L3N2Zz4=",
+      "versions": [
+        {
+          "version": "1.7.0",
+          "publishTimestamp": 1793684782,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/joeseesun/qiaomu-reader-dsh",
+            "commit": "5918df54c9a71cfd09d12f27cdb9b7c18e5a5477"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-querit",
       "title": "dsh-querit",
       "description": "Querit-backed search and fetch providers for the DeepSeek Harness web capability seam (ctx.web)",
@@ -44966,47 +45004,6 @@
             "type": "git",
             "url": "https://github.com/HubaKing/dsh-community-plugins",
             "commit": "6912b1b889d9b1dac88f05ba55351553360718cb"
-          }
-        }
-      ]
-    },
-    {
-      "name": "@snowamberx/dsh-role-router",
-      "title": "@snowamberx/dsh-role-router",
-      "description": "Route DeepSeek Harness agent requests by role: planner model in plan mode, default model otherwise, subagent model for subagents.",
-      "repository": {
-        "url": "https://github.com/SnowAmberX/dsh-role-router"
-      },
-      "metadata": {
-        "category": "multi-agents",
-        "keywords": [
-          "deepseek-harness",
-          "dsh",
-          "plugin",
-          "bundle",
-          "model-routing",
-          "多智能体",
-          "多 Agent",
-          "multi agent"
-        ],
-        "labels": [
-          "npm"
-        ],
-        "sortKeys": {
-          "stars": 5,
-          "repositoryUpdated": 1789839833
-        }
-      },
-      "versions": [
-        {
-          "version": "0.3.2",
-          "publishTimestamp": 1789839970,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          },
-          "engines": {
-            "dsh": "^0.1.6-alpha.2"
           }
         }
       ]
