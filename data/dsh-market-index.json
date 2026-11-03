@@ -3293,12 +3293,12 @@
       },
       "versions": [
         {
-          "version": "0.32.4",
-          "publishTimestamp": 1793514962,
+          "version": "0.32.5",
+          "publishTimestamp": 1793665737,
           "source": {
             "type": "git",
             "url": "https://github.com/Phant0Meow/dsh-meow-memory",
-            "commit": "86a85a2926e61d4aa643cce9c83540f06d961ea1"
+            "commit": "33d9b54886f576c08fab075f3f60623a495a6aa8"
           }
         }
       ]
@@ -6560,7 +6560,7 @@
         ],
         "labels": [
           "git",
-          "updated-week",
+          "updated-month",
           "stars-100"
         ],
         "sortKeys": {
@@ -9676,11 +9676,11 @@
       "versions": [
         {
           "version": "0.6.7",
-          "publishTimestamp": 1793638180,
+          "publishTimestamp": 1793667075,
           "source": {
             "type": "git",
             "url": "https://github.com/NoNameLeGo/dsh-catppuccin-theme",
-            "commit": "169adc480ab39e78370979fdd512e3c11c09a20e"
+            "commit": "2d23f12364ec77736c1d1bef5218e72bebd0cbad"
           },
           "engines": {
             "dsh": ">=0.1.7-rc.1"
