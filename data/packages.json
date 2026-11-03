@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-03",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -6218,6 +6218,32 @@
       "verified_date": "2026-10-20",
       "verified_via": "README@main"
     },
+    "jimliu/baoyu-design": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-claude-design",
+          "source": "npm:dsh-claude-design",
+          "command": "dsh plugin --profile web add dsh-claude-design"
+        },
+        {
+          "profile": "web",
+          "install": "dsh-claude-motion",
+          "source": "npm:dsh-claude-motion",
+          "command": "dsh plugin --profile web add dsh-claude-motion"
+        },
+        {
+          "profile": "web",
+          "install": "dsh-claude-slides",
+          "source": "npm:dsh-claude-slides",
+          "command": "dsh plugin --profile web add dsh-claude-slides"
+        }
+      ],
+      "status": "install-verified",
+      "verified_date": "2026-11-03",
+      "verified_via": "npm@2.8.0 + README@main；维护者实测 npm 可安装",
+      "note": "仓库共发布 5 个 npm 插件，编辑推荐仅映射 claude-design、claude-motion、claude-slides 三个；三包 engines.dsh >=0.2.0-0。不是安全审查。"
+    },
     "jimmy0123-ux/dsh-token-pet": {
       "packages": [
         {
@@ -6333,6 +6359,20 @@
       "status": "readme-verified",
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
+    },
+    "joeseesun/qiaomu-reader-dsh": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/joeseesun/qiaomu-reader-dsh/releases/download/v1.1.2/qiaomu-reader-dsh-1.1.2.tgz",
+          "source": "url:https://github.com/joeseesun/qiaomu-reader-dsh/releases/download/v1.1.2/qiaomu-reader-dsh-1.1.2.tgz",
+          "command": "dsh plugin --profile web add https://github.com/joeseesun/qiaomu-reader-dsh/releases/download/v1.1.2/qiaomu-reader-dsh-1.1.2.tgz"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-03",
+      "verified_via": "README@main + Release v1.1.2",
+      "note": "README 明确不发布 npm，推荐从 Release 下载预构建 tgz（附 SHA256SUMS）安装；engines.dsh 0.2.1-rc.2 至 rc.5。作者仅在 macOS web 隔离 profile 验证。"
     },
     "joeseesun/qiaomu-rss-dsh": {
       "packages": [
@@ -9408,6 +9448,20 @@
       "status": "readme-verified",
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
+    },
+    "op7418/dsh-guizang-design": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-guizang-design",
+          "source": "npm:dsh-guizang-design",
+          "command": "dsh plugin --profile web add dsh-guizang-design"
+        }
+      ],
+      "status": "install-verified",
+      "verified_date": "2026-11-03",
+      "verified_via": "npm@0.1.3 + README@main；维护者实测 npm 可安装",
+      "note": "README 声明 dsh 0.2.1-rc.2 及以上、0.3.0 以下（engines.dsh >=0.2.1-rc.2 <0.3.0）；skills 为上游仓库固定提交快照，版本记在 skills/manifest.json。不是安全审查。"
     },
     "opdsh/unity-plugin": {
       "packages": [],

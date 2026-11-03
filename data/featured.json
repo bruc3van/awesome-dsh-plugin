@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-11-03",
   "title_zh": "编辑精选",
   "title_en": "Editor's Picks",
   "entries": [
@@ -83,6 +83,22 @@
     {
       "full_name": "bruc3van/bruce-md2word",
       "description": "将 Markdown 报告、方案和技术说明导出为 Word 文档，内置中文排版，支持将 Mermaid 图表渲染为图片，并将 LaTeX 数学公式转换为可编辑的 Word 原生公式。"
+    },
+    {
+      "full_name": "JimLiu/baoyu-design",
+      "description": "宝玉（@dotey）把 Claude 设计套件带进 DSH：Agent 直接写出可编辑的幻灯片、设计画布和逐场景动画，在本地编辑器里放映、改稿与导出，还能在设计稿上标注评论再交回 Agent 修改，无需另外注册。npm 发布的五个插件中，编辑推荐 claude-slides、claude-design、claude-motion 三个。"
+    },
+    {
+      "full_name": "op7418/dsh-guizang-design",
+      "description": "歸藏（@op7418）的内容生产插件：网页 PPT、图文卡片、网页排版和去 AI 味共用一套设计系统，同一篇内容做成 PPT、卡片和网页时主题、字体、版式保持一致，另有学习你写作语气的语气档案；侧栏「歸藏设计」页可回看作品、一键做同款，无需另外注册。"
+    },
+    {
+      "full_name": "joeseesun/qiaomu-rss-dsh",
+      "description": "向阳乔木（@vista8）的乔木 RSS：在 DSH 里订阅并阅读海外 AI 资讯等信息源，支持改写成中文摘要；部分实验功能需要邀请码，会连接作者自有的服务。与乔木阅读同属乔木插件系列。"
+    },
+    {
+      "full_name": "joeseesun/qiaomu-reader-dsh",
+      "description": "向阳乔木（@vista8）的乔木阅读：在 DSH 里阅读 EPUB、PDF、TXT、Markdown 和 HTML 书籍，支持划线批注、阅读笔记、朗读、生词本与原生 AI 伴读；安装用官方 Release 预构建包，附 SHA256SUMS 校验。"
     }
   ]
 }
