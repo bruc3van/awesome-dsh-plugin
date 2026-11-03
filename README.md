@@ -347,6 +347,7 @@ mindmap
 | [lucagiftzek/dsh-voice](https://github.com/lucagiftzek/dsh-voice) | 朗读、听写与按语言路由的语音面板：23 家 TTS/STT 供应商、逐词高亮。 | 2026-11-01 |
 | [kesha4/dsh-site-bridge](https://github.com/kesha4/dsh-site-bridge) | 给 agent 装上浏览器里的双手双眼：页面标注、BFF 流量捕获、可信输入与虚拟光标（DSH 插件 + MV3 扩展）。 | 2026-11-01 |
 | [forgotfish/dsh-cx-learn](https://github.com/forgotfish/dsh-cx-learn) | CDP 驱动真实 Chromium 的超星学习通自动看课插件。 | 2026-11-01 |
+| [Lumivox-wiz/memory-lattice](https://github.com/Lumivox-wiz/memory-lattice) | 会遗忘的记忆插件：短期记忆 48h 自动过期，长期记忆按 SM-2 艾宾浩斯曲线复习，久不用的沉进沉睡区（可唤醒）而不是无限撑爆上下文；长期写入停在审核中心等用户逐条批准，Agent 无法自行批准。npm `memory-lattice`@0.2.10，运行时零第三方依赖。 | 2026-11-03 |
 
 ## 📣 作者自荐
 
