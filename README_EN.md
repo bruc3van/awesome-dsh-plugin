@@ -347,6 +347,7 @@ Manually screened recent projects, updated from time to time:
 | [lucagiftzek/dsh-voice](https://github.com/lucagiftzek/dsh-voice) | Read-aloud, dictation and language-aware speech: 23 TTS and STT providers, per-language routing and word highlighting. | 2026-11-01 |
 | [kesha4/dsh-site-bridge](https://github.com/kesha4/dsh-site-bridge) | Hands and eyes for your agent inside your own browser: page markup, BFF traffic capture, trusted input and a virtual cursor (DSH plugin + MV3 extension). | 2026-11-01 |
 | [forgotfish/dsh-cx-learn](https://github.com/forgotfish/dsh-cx-learn) | Auto course-watching for Chaoxing, driven over CDP in a real Chromium. | 2026-11-01 |
+| [Lumivox-wiz/memory-lattice](https://github.com/Lumivox-wiz/memory-lattice) | A memory plugin that forgets on purpose: short-term memories expire after 48h, long-term ones are rescheduled by Ebbinghaus/SM-2 curves, and rarely-used ones fall asleep (revivable) instead of bloating your context. Long-term writes stop in an approval center — the agent cannot approve on its own. npm `memory-lattice`@0.2.10, zero runtime dependencies. | 2026-11-03 |
 
 ## 📣 Author showcase
 
