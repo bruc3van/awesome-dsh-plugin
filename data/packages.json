@@ -6364,15 +6364,15 @@
       "packages": [
         {
           "profile": "web",
-          "install": "https://github.com/joeseesun/qiaomu-reader-dsh/releases/download/v1.1.2/qiaomu-reader-dsh-1.1.2.tgz",
-          "source": "url:https://github.com/joeseesun/qiaomu-reader-dsh/releases/download/v1.1.2/qiaomu-reader-dsh-1.1.2.tgz",
-          "command": "dsh plugin --profile web add https://github.com/joeseesun/qiaomu-reader-dsh/releases/download/v1.1.2/qiaomu-reader-dsh-1.1.2.tgz"
+          "install": "https://github.com/joeseesun/qiaomu-reader-dsh#5918df54c9a71cfd09d12f27cdb9b7c18e5a5477",
+          "source": "github:joeseesun/qiaomu-reader-dsh#5918df54c9a71cfd09d12f27cdb9b7c18e5a5477",
+          "command": "dsh plugin --profile web add \"github:joeseesun/qiaomu-reader-dsh#5918df54c9a71cfd09d12f27cdb9b7c18e5a5477\""
         }
       ],
-      "status": "readme-verified",
+      "status": "repo-fallback",
       "verified_date": "2026-11-03",
-      "verified_via": "README@main + Release v1.1.2",
-      "note": "README 明确不发布 npm，推荐从 Release 下载预构建 tgz（附 SHA256SUMS）安装；engines.dsh 0.2.1-rc.2 至 rc.5。作者仅在 macOS web 隔离 profile 验证。"
+      "verified_via": "manifest@5918df54c9a7",
+      "note": "README 推荐从 Release 下载预构建 tgz（附 SHA256SUMS）且不发布 npm；官方 format-1 索引不支持 tarball 直链来源，与乔木 RSS 同款按已核验固定提交的根 manifest 安装（v1.7.0，engines.dsh 0.2.1-rc.2 至 rc.5）。作者仅在 macOS web 隔离 profile 验证。"
     },
     "joeseesun/qiaomu-rss-dsh": {
       "packages": [

@@ -98,7 +98,7 @@
     },
     {
       "full_name": "joeseesun/qiaomu-reader-dsh",
-      "description": "向阳乔木（@vista8）的乔木阅读：在 DSH 里阅读 EPUB、PDF、TXT、Markdown 和 HTML 书籍，支持划线批注、阅读笔记、朗读、生词本与原生 AI 伴读；安装用官方 Release 预构建包，附 SHA256SUMS 校验。"
+      "description": "向阳乔木（@vista8）的乔木阅读：在 DSH 里阅读 EPUB、PDF、TXT、Markdown 和 HTML 书籍，支持划线批注、阅读笔记、朗读、生词本与原生 AI 伴读；与乔木 RSS 同属乔木插件系列。"
     }
   ]
 }
