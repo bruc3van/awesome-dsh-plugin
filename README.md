@@ -221,16 +221,13 @@ mindmap
 
 - **想在右下角盯着余额和每轮花费**：[DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) —— 右下角可拖拽的小鲸鱼挂件：账户余额、今日已用、每轮消耗气泡，开箱即用（默认用余额差值记账，不必另配平台令牌）。
 - **想查看 Token 用量与费用面板**：[dsh-usage-stats](https://github.com/Ychris12138/dsh-usage-stats) · [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) —— dsh-usage-stats 提供 GitHub 风格用量热力图、按模型拆解与 DeepSeek 账户余额；dsh-cost-meter 按官方价格同步统计本会话/当日费用。
-- **走中转站、想按站点算清用量**：[TokenLedger](https://github.com/zh667/TokenLedger) —— 令牌用量账本按中转站归因：零配置、无需凭据。
 
 | | | |
 | :---: | :---: | :---: |
 | <a href="https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget"><img src="https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget/raw/main/assets/DSH2.png" alt="DeepSeek-Balance-Whale-Widget" width="280"></a><br>[DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) | <a href="https://github.com/Ychris12138/dsh-usage-stats"><img src="https://github.com/Ychris12138/dsh-usage-stats/raw/main/docs/images/usage-panel.svg" alt="dsh-usage-stats" width="280"></a><br>[dsh-usage-stats](https://github.com/Ychris12138/dsh-usage-stats) | <a href="https://github.com/Han-1413141/dsh-cost-meter"><img src="https://github.com/Han-1413141/dsh-cost-meter/raw/master/docs/screenshot-sidebar-footer.png" alt="dsh-cost-meter" width="280"></a><br>[dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) |
-| <a href="https://github.com/zh667/TokenLedger"><img src="https://raw.githubusercontent.com/zh667/TokenLedger/main/docs/images/panel.png" alt="TokenLedger · 面板" width="280"></a><br>[TokenLedger](https://github.com/zh667/TokenLedger) | | |
 
 ### 🔑 模型与订阅
 
-- **想让推理模式按任务自动路由**：[dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) —— 社区热度榜第一名的路由套装：先装运行时注入器，再装任务感知的推理模式路由预设（实测覆盖 P1–P23）；注入器会修改运行时行为，安装前先读仓库说明。
 - **想用已有 ChatGPT / Claude / Grok 订阅当模型**，不想再配 API Key：[dsh-plugin-subscriptions](https://github.com/V1ki/dsh-plugin-subscriptions) —— 在设置页用 OAuth 接入 ChatGPT（Codex）、Claude、Grok（X Premium）和 GitHub Copilot 订阅；登录后出现在模型选择器里，并带用量窗口、生图/生视频工具。
 
 | | | |
@@ -250,12 +247,11 @@ mindmap
 ### 🌱 生态入口
 
 - **想先审查、再安装插件（安全第一）**：[dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market) —— 先审查再安装的 DSH 市场：目录来自本清单每日快照 + 人工精选，「安全安装」不执行任何命令——把安全审查提示词交给 Agent 实际读仓库代码，确认干净后由你决定是否用官方命令安装；市场默认关闭、开启才联网，插件自身没有任何执行安装的接口。
-- **想在 DSH 界面里直接逛插件市场**：[dsh-market](https://github.com/dsh-market/dsh-market) · [DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) · [dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) —— dsh-market 把市场做进 DSH：浏览、搜索、一键安装；DSH-Plugins-Marketplace 覆盖全部 GitHub dsh-plugin 插件的一键浏览、安装与更新；dsh-plugin-gating-hub 主打框架升级安全与插件门控（升级前契约预检、回滚点、失败自动回滚、有确证才自动禁用），附多源插件市场。
-- **想让 DSH 自己找插件、装插件**：[dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) —— 一个 Skill：让 DSH 搜索、安装并验证 GitHub 上的插件。
+- **想在 DSH 界面里直接逛插件市场**：官方 DSH 0.2.1 起 Web/桌面端已内置「插件市场」标签页（目录即本清单每日快照）；第三方可装 [dsh-market](https://github.com/dsh-market/dsh-market) · [dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) —— dsh-market 提供浏览、搜索与创意工坊式分发；dsh-plugin-gating-hub 主打框架升级安全与插件门控（升级前契约预检、回滚点、失败自动回滚、有确证才自动禁用），附多源插件市场。
 
 | | | |
 | :---: | :---: | :---: |
-| <a href="https://github.com/bruc3van/dsh-desktop-safe-market"><img src="https://raw.githubusercontent.com/bruc3van/dsh-desktop-safe-market/master/assets/screenshots/marketplace.png" alt="dsh-desktop-safe-market" width="280"></a><br>[dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market) | <a href="https://github.com/dsh-market/dsh-market"><img src="https://raw.githubusercontent.com/dsh-market/dsh-market/main/assets/demo-en.png" alt="dsh-market" width="280"></a><br>[dsh-market](https://github.com/dsh-market/dsh-market) | <a href="https://github.com/Nagi-ovo/dsh-find-plugins"><img src="https://raw.githubusercontent.com/Nagi-ovo/dsh-find-plugins/main/assets/social-preview.jpg" alt="dsh-find-plugins" width="280"></a><br>[dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) |
+| <a href="https://github.com/bruc3van/dsh-desktop-safe-market"><img src="https://raw.githubusercontent.com/bruc3van/dsh-desktop-safe-market/master/assets/screenshots/marketplace.png" alt="dsh-desktop-safe-market" width="280"></a><br>[dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market) | <a href="https://github.com/dsh-market/dsh-market"><img src="https://raw.githubusercontent.com/dsh-market/dsh-market/main/assets/demo-en.png" alt="dsh-market" width="280"></a><br>[dsh-market](https://github.com/dsh-market/dsh-market) | <a href="https://github.com/Noob-stupid/dsh-plugin-gating-hub"><img src="https://raw.githubusercontent.com/Noob-stupid/dsh-plugin-gating-hub/main/docs/images/upgrade-safety-panel.png" alt="dsh-plugin-gating-hub · 升级安全面板" width="280"></a><br>[dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) |
 
 ### 🚀 新手入门组合
 
