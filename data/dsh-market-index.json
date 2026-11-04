@@ -508,8 +508,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iI0Q5Nzc1NyIvPgogIDxyZWN0IHg9IjkiIHk9IjE3IiB3aWR0aD0iMjAiIGhlaWdodD0iMzAiIHJ4PSIzIiBmaWxsPSIjRkZGN0YyIi8+CiAgPHJlY3QgeD0iMzUiIHk9IjE3IiB3aWR0aD0iMjAiIGhlaWdodD0iMzAiIHJ4PSIzIiBmaWxsPSIjRkZGN0YyIi8+CiAgPHJlY3QgeD0iMTMiIHk9IjIyIiB3aWR0aD0iMTIiIGhlaWdodD0iOSIgcng9IjEuNSIgZmlsbD0iI0U5QjhBMyIvPgogIDxyZWN0IHg9IjEzIiB5PSIzNSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjIuNSIgcng9IjEuMjUiIGZpbGw9IiNEOTc3NTciLz4KICA8cmVjdCB4PSIxMyIgeT0iNDAiIHdpZHRoPSI3IiBoZWlnaHQ9IjIuNSIgcng9IjEuMjUiIGZpbGw9IiNFOUI4QTMiLz4KICA8cmVjdCB4PSIzOSIgeT0iMjIiIHdpZHRoPSIxMiIgaGVpZ2h0PSIyLjUiIHJ4PSIxLjI1IiBmaWxsPSIjRDk3NzU3Ii8+CiAgPHJlY3QgeD0iMzkiIHk9IjI3IiB3aWR0aD0iOSIgaGVpZ2h0PSIyLjUiIHJ4PSIxLjI1IiBmaWxsPSIjRTlCOEEzIi8+CiAgPHJlY3QgeD0iMzkiIHk9IjM0IiB3aWR0aD0iMTIiIGhlaWdodD0iOSIgcng9IjEuNSIgZmlsbD0iI0U5QjhBMyIvPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "2.8.2",
-          "publishTimestamp": 1793682353,
+          "version": "2.9.0",
+          "publishTimestamp": 1793758754,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -566,8 +566,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iI0Q5Nzc1NyIvPgogIDxyZWN0IHg9IjEyIiB5PSIxMyIgd2lkdGg9IjQwIiBoZWlnaHQ9IjI3IiByeD0iMyIgZmlsbD0iI0ZGRjdGMiIvPgogIDxwYXRoIGQ9Ik0yOC41IDIwLjV2MTJsMTAtNnoiIGZpbGw9IiNEOTc3NTciLz4KICA8cmVjdCB4PSIxMiIgeT0iNDYiIHdpZHRoPSI0MCIgaGVpZ2h0PSIzIiByeD0iMS41IiBmaWxsPSIjRTlCOEEzIi8+CiAgPHJlY3QgeD0iMTIiIHk9IjQ2IiB3aWR0aD0iMTciIGhlaWdodD0iMyIgcng9IjEuNSIgZmlsbD0iI0ZGRjdGMiIvPgogIDxjaXJjbGUgY3g9IjI5IiBjeT0iNDcuNSIgcj0iMy41IiBmaWxsPSIjRkZGN0YyIi8+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "2.8.2",
-          "publishTimestamp": 1793682359,
+          "version": "2.9.0",
+          "publishTimestamp": 1793758880,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -623,8 +623,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iI0Q5Nzc1NyIvPgogIDxyZWN0IHg9IjEyIiB5PSIxNSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjI3IiByeD0iMyIgZmlsbD0iI0ZGRjdGMiIvPgogIDxyZWN0IHg9IjE3IiB5PSIyMSIgd2lkdGg9IjE4IiBoZWlnaHQ9IjMuNSIgcng9IjEuNzUiIGZpbGw9IiNEOTc3NTciLz4KICA8cmVjdCB4PSIxNyIgeT0iMjgiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyLjUiIHJ4PSIxLjI1IiBmaWxsPSIjRTlCOEEzIi8+CiAgPHJlY3QgeD0iMTciIHk9IjMzIiB3aWR0aD0iMjEiIGhlaWdodD0iMi41IiByeD0iMS4yNSIgZmlsbD0iI0U5QjhBMyIvPgogIDxyZWN0IHg9IjMwLjUiIHk9IjQyIiB3aWR0aD0iMyIgaGVpZ2h0PSI3IiBmaWxsPSIjRkZGN0YyIi8+CiAgPHJlY3QgeD0iMjIiIHk9IjQ4IiB3aWR0aD0iMjAiIGhlaWdodD0iMyIgcng9IjEuNSIgZmlsbD0iI0ZGRjdGMiIvPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "2.8.2",
-          "publishTimestamp": 1793682438,
+          "version": "2.9.0",
+          "publishTimestamp": 1793758735,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -2201,8 +2201,8 @@
       },
       "versions": [
         {
-          "version": "0.5.6",
-          "publishTimestamp": 1793329469,
+          "version": "0.5.7",
+          "publishTimestamp": 1793775018,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -2283,8 +2283,8 @@
       },
       "versions": [
         {
-          "version": "1.9.54",
-          "publishTimestamp": 1793715999,
+          "version": "1.9.55",
+          "publishTimestamp": 1793768705,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -2379,7 +2379,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-500",
           "research"
         ],
@@ -2765,7 +2765,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-100"
         ],
         "sortKeys": {
@@ -2866,8 +2866,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjEzNyIgdmlld0JveD0iMCAwIDEzNyAxMzciIHdpZHRoPSIxMzciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTAgNjYuNzk1OWMwLTMxLjQ4NzkgMC00Ny4yMzE4IDkuNzgyMDQtNTcuMDEzODYgOS43ODIwNi05Ljc4MjA0IDI1LjUyNTk2LTkuNzgyMDQgNTcuMDEzOTYtOS43ODIwNGgyLjUzNTdjMzEuNDg4MyAwIDQ3LjIzMjMgMCA1Ny4wMTQzIDkuNzgyMDQgOS43ODIgOS43ODIwNiA5Ljc4MiAyNS41MjU5NiA5Ljc4MiA1Ny4wMTM5NnYyLjUzNTdjMCAzMS40ODgzIDAgNDcuMjMyMy05Ljc4MiA1Ny4wMTQzcy0yNS41MjYgOS43ODItNTcuMDE0NCA5Ljc4MmgtMi41MzU3Yy0zMS40ODc5IDAtNDcuMjMxOCAwLTU3LjAxMzg2LTkuNzgyLTkuNzgyMDQtOS43ODItOS43ODIwNC0yNS41MjYtOS43ODIwNC01Ny4wMTQ0eiIgZmlsbD0iIzAwMCIvPjxnIGZpbGw9IiNmZmYiPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTY5LjMzMTcgNS41NjYzM2gtMi41MzU3Yy0xNS45MDE0IDAtMjcuMjY3NC4wMTE4Mi0zNS45MDUgMS4xNzMxMi04LjQ3NzUgMS4xMzk3Ny0xMy40ODg2IDMuMjk0MTUtMTcuMTczIDYuOTc4NTVzLTUuODM4NzggOC42OTU1LTYuOTc4NTUgMTcuMTczYy0xLjE2MTMgOC42Mzc2LTEuMTczMTIgMjAuMDAzNi0xLjE3MzEyIDM1LjkwNDl2Mi41MzU3YzAgMTUuOTAxNC4wMTE4MiAyNy4yNjc0IDEuMTczMTIgMzUuOTA1NCAxLjEzOTc3IDguNDc3IDMuMjk0MTUgMTMuNDg4IDYuOTc4NTUgMTcuMTczIDMuNjg0NCAzLjY4NCA4LjY5NTUgNS44MzggMTcuMTczIDYuOTc4IDguNjM3NiAxLjE2MSAyMC4wMDM2IDEuMTczIDM1LjkwNDkgMS4xNzNoMi41MzU3YzE1LjkwMTQgMCAyNy4yNjc0LS4wMTIgMzUuOTA1NC0xLjE3MyA4LjQ3Ny0xLjE0IDEzLjQ4OC0zLjI5NCAxNy4xNzMtNi45NzggMy42ODQtMy42ODUgNS44MzgtOC42OTYgNi45NzgtMTcuMTczIDEuMTYxLTguNjM4IDEuMTczLTIwLjAwNCAxLjE3My0zNS45MDUzdi0yLjUzNTdjMC0xNS45MDE0LS4wMTItMjcuMjY3NC0xLjE3My0zNS45MDUtMS4xNC04LjQ3NzUtMy4yOTQtMTMuNDg4Ni02Ljk3OC0xNy4xNzMtMy42ODUtMy42ODQ0LTguNjk2LTUuODM4NzgtMTcuMTczLTYuOTc4NTUtOC42MzgtMS4xNjEzLTIwLjAwNC0xLjE3MzEyLTM1LjkwNTMtMS4xNzMxMnptLTU5LjU0OTY2IDQuMjE1NzFjLTkuNzgyMDQgOS43ODIwNi05Ljc4MjA0IDI1LjUyNTk2LTkuNzgyMDQgNTcuMDEzODZ2Mi41MzU3YzAgMzEuNDg4NCAwIDQ3LjIzMjQgOS43ODIwNCA1Ny4wMTQ0IDkuNzgyMDYgOS43ODIgMjUuNTI1OTYgOS43ODIgNTcuMDEzODYgOS43ODJoMi41MzU3YzMxLjQ4ODQgMCA0Ny4yMzI0IDAgNTcuMDE0NC05Ljc4MnM5Ljc4Mi0yNS41MjYgOS43ODItNTcuMDE0M3YtMi41MzU3YzAtMzEuNDg4IDAtNDcuMjMxOS05Ljc4Mi01Ny4wMTM5Ni05Ljc4Mi05Ljc4MjA0LTI1LjUyNi05Ljc4MjA0LTU3LjAxNDMtOS43ODIwNGgtMi41MzU3Yy0zMS40ODggMC00Ny4yMzE5IDAtNTcuMDEzOTYgOS43ODIwNHoiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjxwYXRoIGQ9Im05My42NjA0IDI2LjE3ODRjLTguOTgyIDAtMTYuMjg4NyA3LjMwNjctMTYuMjg4NyAxNi4yODg4djYuOTgwOWgtMTguNjE1OHYtNi45ODA5YzAtOC45ODIxLTcuMzA2Ny0xNi4yODg4LTE2LjI4ODctMTYuMjg4OC04Ljk4MjEgMC0xNi4yODg4IDcuMzA2Ny0xNi4yODg4IDE2LjI4ODhzNy4zMDY3IDE2LjI4ODcgMTYuMjg4OCAxNi4yODg3aDYuOTgwOXYxOC42MTU4aC02Ljk4MDljLTguOTgyMSAwLTE2LjI4ODggNy4zMDY3LTE2LjI4ODggMTYuMjg4OCAwIDguOTgyNSA3LjMwNjcgMTYuMjg4NSAxNi4yODg4IDE2LjI4ODUgOC45ODIgMCAxNi4yODg3LTcuMzA2IDE2LjI4ODctMTYuMjg4NXYtNi45ODFoMTguNjE1OHY2Ljk4MWMwIDguOTgyNSA3LjMwNjcgMTYuMjg4NSAxNi4yODg3IDE2LjI4ODUgOC45ODI2IDAgMTYuMjg4Ni03LjMwNiAxNi4yODg2LTE2LjI4ODUgMC04Ljk4MjEtNy4zMDYtMTYuMjg4OC0xNi4yODg2LTE2LjI4ODhoLTYuOTgwOXYtMTguNjE1OGg2Ljk4MDljOC45ODI2IDAgMTYuMjg4Ni03LjMwNjYgMTYuMjg4Ni0xNi4yODg3cy03LjMwNi0xNi4yODg4LTE2LjI4ODYtMTYuMjg4OHptLTYuOTgwOSAyMy4yNjk3di02Ljk4MDljMC0zLjg2MjggMy4xMTgyLTYuOTgwOSA2Ljk4MDktNi45ODA5IDMuODYyOCAwIDYuOTgwNiAzLjExODEgNi45ODA2IDYuOTgwOSAwIDMuODYyNy0zLjExNzggNi45ODA5LTYuOTgwNiA2Ljk4MDl6bS00NC4yMTIzIDBjLTMuODYyOCAwLTYuOTgwOS0zLjExODItNi45ODA5LTYuOTgwOSAwLTMuODYyOCAzLjExODEtNi45ODA5IDYuOTgwOS02Ljk4MDkgMy44NjI3IDAgNi45ODA5IDMuMTE4MSA2Ljk4MDkgNi45ODA5djYuOTgwOXptMTYuMjg4NyAyNy45MjM2di0xOC42MTU4aDE4LjYxNTh2MTguNjE1OHptMzQuOTA0NSAyMy4yNjkzYy0zLjg2MjcgMC02Ljk4MDktMy4xMTc4LTYuOTgwOS02Ljk4MDV2LTYuOTgxaDYuOTgwOWMzLjg2MjggMCA2Ljk4MDYgMy4xMTgyIDYuOTgwNiA2Ljk4MSAwIDMuODYyNy0zLjExNzggNi45ODA1LTYuOTgwNiA2Ljk4MDV6bS01MS4xOTMyIDBjLTMuODYyOCAwLTYuOTgwOS0zLjExNzgtNi45ODA5LTYuOTgwNSAwLTMuODYyOCAzLjExODEtNi45ODEgNi45ODA5LTYuOTgxaDYuOTgwOXY2Ljk4MWMwIDMuODYyNy0zLjExODIgNi45ODA1LTYuOTgwOSA2Ljk4MDV6Ii8+PC9nPjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "0.16.4",
-          "publishTimestamp": 1793579985,
+          "version": "0.17.0",
+          "publishTimestamp": 1793764246,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -3376,7 +3376,7 @@
         ],
         "labels": [
           "git",
-          "updated-week",
+          "updated-month",
           "stars-100",
           "theme"
         ],
@@ -3791,8 +3791,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkRyZWFtIFNraW4iPgogIDxkZWZzPgogICAgPGNsaXBQYXRoIGlkPSJyIj4KICAgICAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTUiLz4KICAgIDwvY2xpcFBhdGg+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJhc2UiIHgxPSIwIiB5MT0iMCIgeDI9Ii4zIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzE4MTQxZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9Ii41NSIgc3RvcC1jb2xvcj0iIzEyMGYxYyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNDExMWUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9ImcxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUzIiBjeT0iLTQiIHI9IjQ0Ij4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjOGI3Y2Y2IiBzdG9wLW9wYWNpdHk9Ii42MiIvPgogICAgICA8c3RvcCBvZmZzZXQ9Ii41IiBzdG9wLWNvbG9yPSIjOGI3Y2Y2IiBzdG9wLW9wYWNpdHk9Ii4yIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzhiN2NmNiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJnMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI4IiBjeT0iNjAiIHI9IjM4Ij4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjN2U2MGRjIiBzdG9wLW9wYWNpdHk9Ii40Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzdlNjBkYyIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJnMyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSIzMCIgY3k9IjQ2IiByPSIyNiI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzM4YmRmOCIgc3RvcC1vcGFjaXR5PSIuMjIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzhiZGY4IiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgICA8cGF0aCBpZD0icyIgZD0iTTAtMTFRMS45LTEuOSAxMSAwUTEuOSAxLjkgMCAxMVEtMS45IDEuOS0xMSAwUS0xLjktMS45IDAtMTFaIi8+CiAgPC9kZWZzPgogIDxnIGNsaXAtcGF0aD0idXJsKCNyKSI+CiAgICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9InVybCgjYmFzZSkiLz4KICAgIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0idXJsKCNnMSkiLz4KICAgIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0idXJsKCNnMikiLz4KICAgIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0idXJsKCNnMykiLz4KICAgIDxnIGZpbGw9IiNmM2YwZmIiPgogICAgICA8dXNlIGhyZWY9IiNzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNyAyNykiLz4KICAgICAgPHVzZSBocmVmPSIjcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjEgNDEpIHNjYWxlKC40MikiIG9wYWNpdHk9Ii44Ii8+CiAgICAgIDx1c2UgaHJlZj0iI3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ2IDQ0KSBzY2FsZSguMykiIG9wYWNpdHk9Ii42Ii8+CiAgICA8L2c+CiAgICA8cmVjdCB4PSIuNzUiIHk9Ii43NSIgd2lkdGg9IjYyLjUiIGhlaWdodD0iNjIuNSIgcng9IjE0LjI1IiBmaWxsPSJub25lIiBzdHJva2U9IiNjNGI1ZmQiIHN0cm9rZS1vcGFjaXR5PSIuMjgiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPC9nPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "11.4.0",
-          "publishTimestamp": 1793733172,
+          "version": "11.4.1",
+          "publishTimestamp": 1793758880,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -4022,8 +4022,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z19hcmNoX2ciIHgxPSI2IiB5MT0iOCIgeDI9IjMwIiB5Mj0iMjgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzEwQjk4MSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNTk2NjkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDwhLS0gQ2FyZCBFeHRyYWN0ZWQgZnJvbSBCb3ggLS0+CiAgPHJlY3QgeD0iMTEiIHk9IjYiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxMCIgcng9IjIiIGZpbGw9IiNFNkZGRkEiIHN0cm9rZT0iIzEwQjk4MSIgc3Ryb2tlLXdpZHRoPSIxLjgiLz4KICA8bGluZSB4MT0iMTQiIHkxPSIxMCIgeDI9IjIyIiB5Mj0iMTAiIHN0cm9rZT0iIzEwQjk4MSIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwhLS0gQXJjaGl2ZSBEcmF3ZXIgQm9keSAtLT4KICA8cmVjdCB4PSI2IiB5PSIxMyIgd2lkdGg9IjI0IiBoZWlnaHQ9IjE3IiByeD0iMy41IiBmaWxsPSJ1cmwoI2RzaF9zdmdfYXJjaF9nKSIvPgogIDwhLS0gRHJhd2VyIEZhY2UgUGFuZWwgLS0+CiAgPHJlY3QgeD0iOC41IiB5PSIxNS41IiB3aWR0aD0iMTkiIGhlaWdodD0iMTIiIHJ4PSIyIiBmaWxsPSIjMDQ3ODU3IiBmaWxsLW9wYWNpdHk9IjAuMyIvPgogIDwhLS0gRHJhd2VyIFB1bGwgSGFuZGxlIC0tPgogIDxyZWN0IHg9IjE0IiB5PSIxOSIgd2lkdGg9IjgiIGhlaWdodD0iMyIgcng9IjEuNSIgZmlsbD0iI0ZGRkZGRiIvPgogIDwhLS0gRXh0cmFjdGlvbiBBcnJvdyAtLT4KICA8cGF0aCBkPSJNMTggNEwxNSA3TTE4IDRMMjEgNyIgc3Ryb2tlPSIjMTBCOTgxIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4=",
       "versions": [
         {
-          "version": "1.2.5",
-          "publishTimestamp": 1793749036,
+          "version": "1.2.6",
+          "publishTimestamp": 1793762424,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -4280,8 +4280,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z191aV9mcmFtZSIgeDE9IjUiIHkxPSI2IiB4Mj0iMzEiIHkyPSIzMCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjM0I4MkY2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzFENEVEOCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPCEtLSBXaW5kb3cgT3V0bGluZSAtLT4KICA8cmVjdCB4PSI1LjUiIHk9IjcuNSIgd2lkdGg9IjI1IiBoZWlnaHQ9IjIxIiByeD0iMy41IiBzdHJva2U9InVybCgjZHNoX3N2Z191aV9mcmFtZSkiIHN0cm9rZS13aWR0aD0iMi4yIiBmaWxsPSIjM0I4MkY2IiBmaWxsLW9wYWNpdHk9IjAuMDgiLz4KICA8IS0tIFdpbmRvdyBIZWFkZXIgTGluZSAtLT4KICA8bGluZSB4MT0iNS41IiB5MT0iMTIuNSIgeDI9IjMwLjUiIHkyPSIxMi41IiBzdHJva2U9InVybCgjZHNoX3N2Z191aV9mcmFtZSkiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPCEtLSBUcmFmZmljIExpZ2h0IERvdHMgLS0+CiAgPGNpcmNsZSBjeD0iOSIgY3k9IjEwIiByPSIxLjIiIGZpbGw9IiNFRjQ0NDQiLz4KICA8Y2lyY2xlIGN4PSIxMi41IiBjeT0iMTAiIHI9IjEuMiIgZmlsbD0iI0Y1OUUwQiIvPgogIDxjaXJjbGUgY3g9IjE2IiBjeT0iMTAiIHI9IjEuMiIgZmlsbD0iIzEwQjk4MSIvPgogIDwhLS0gTGVmdCBTaWRlYmFyIERpdmlkZXIgLS0+CiAgPGxpbmUgeDE9IjEzLjUiIHkxPSIxMi41IiB4Mj0iMTMuNSIgeTI9IjI4LjUiIHN0cm9rZT0idXJsKCNkc2hfc3ZnX3VpX2ZyYW1lKSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICA8IS0tIFNpZGViYXIgVHJlZSBOb2RlcyAtLT4KICA8cmVjdCB4PSI4IiB5PSIxNS41IiB3aWR0aD0iMy41IiBoZWlnaHQ9IjIiIHJ4PSIwLjgiIGZpbGw9IiMxMEI5ODEiLz4KICA8cmVjdCB4PSI4IiB5PSIxOS41IiB3aWR0aD0iMy41IiBoZWlnaHQ9IjIiIHJ4PSIwLjgiIGZpbGw9IiM5NEEzQjgiLz4KICA8cmVjdCB4PSI4IiB5PSIyMy41IiB3aWR0aD0iMy41IiBoZWlnaHQ9IjIiIHJ4PSIwLjgiIGZpbGw9IiM5NEEzQjgiLz4KICA8IS0tIEVkaXRvciBNYWluIFNwbGl0IFBhbmVzIC0tPgogIDxyZWN0IHg9IjE2IiB5PSIxNSIgd2lkdGg9IjEyIiBoZWlnaHQ9IjUiIHJ4PSIxLjIiIGZpbGw9IiMzQjgyRjYiIGZpbGwtb3BhY2l0eT0iMC4yNSIvPgogIDxyZWN0IHg9IjE2IiB5PSIyMiIgd2lkdGg9IjEyIiBoZWlnaHQ9IjQuNSIgcng9IjEuMiIgZmlsbD0idXJsKCNkc2hfc3ZnX3VpX2ZyYW1lKSIvPgo8L3N2Zz4=",
       "versions": [
         {
-          "version": "2.0.13",
-          "publishTimestamp": 1793681986,
+          "version": "2.0.14",
+          "publishTimestamp": 1793776226,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -6268,7 +6268,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-100"
         ],
         "sortKeys": {
@@ -6718,8 +6718,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDwhLS0gQ29yZSBPcmIgR3JhZGllbnQgLS0+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImFneS1vcmItZ3JhZGllbnQiIHgxPSIxMiIgeTE9IjExIiB4Mj0iMjUiIHkyPSIyNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMzhCREY4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iNDUlIiBzdG9wLWNvbG9yPSIjNjM2NkYxIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iODUlIiBzdG9wLWNvbG9yPSIjOTMzM0VBIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0MwMjZEMyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KCiAgICA8IS0tIEZyb250IE9yYml0IFJpbmcgR3JhZGllbnQgKEdsb3dpbmcgVmlicmFudCBHcmFkaWVudCkgLS0+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImFneS1yaW5nLWZyb250IiB4MT0iNiIgeTE9IjI0IiB4Mj0iMzEiIHkyPSIxMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDBEMkZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iNDAlIiBzdG9wLWNvbG9yPSIjMzhCREY4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjODE4Q0Y4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0Y0M0Y1RSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KCiAgICA8IS0tIEJhY2sgT3JiaXQgUmluZyBHcmFkaWVudCAoU3VidGxlIE9jY2x1ZGVkIERlcHRoKSAtLT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYWd5LXJpbmctYmFjayIgeDE9IjciIHkxPSIxMiIgeDI9IjI5IiB5Mj0iMjQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM4QkRGOCIgc3RvcC1vcGFjaXR5PSIwLjM1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0E4NTVGNyIgc3RvcC1vcGFjaXR5PSIwLjM1Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgoKICAgIDwhLS0gU3BlY3VsYXIgSGlnaGxpZ2h0IEN1cnZlIC0tPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJhZ3ktaGlnaGxpZ2h0LWdyYWQiIHgxPSIxNCIgeTE9IjEyIiB4Mj0iMTkiIHkyPSIxOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjAuNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNGRkZGRkYiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CgogIDwhLS0gQmFjayBTZWdtZW50IG9mIE9yYml0IFJpbmcgKHBhc3NlcyBiZWhpbmQgY2VudHJhbCBzcGhlcmUpIC0tPgogIDxwYXRoIGQ9Ik0gNi44IDE0LjIgQyA4LjIgOS42IDE3LjggNy4yIDI2LjIgMTAuOCBDIDI4LjAgMTEuNiAyOS4zIDEyLjYgMzAuMiAxMy44IiAKICAgICAgICBzdHJva2U9InVybCgjYWd5LXJpbmctYmFjaykiIHN0cm9rZS13aWR0aD0iMi40IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KCiAgPCEtLSBDZW50cmFsIEFudGlncmF2aXR5IFNwaGVyZSAtLT4KICA8Y2lyY2xlIGN4PSIxOCIgY3k9IjE4IiByPSI3LjUiIGZpbGw9InVybCgjYWd5LW9yYi1ncmFkaWVudCkiLz4KCiAgPCEtLSBFbGVnYW50IENyZXNjZW50IFNwZWN1bGFyIEhpZ2hsaWdodCAoYWRkcyBnbGFzcy9saXF1aWQgZGVwdGgpIC0tPgogIDxwYXRoIGQ9Ik0gMTMuMiAxNS4yIEEgNS41IDUuNSAwIDAgMSAyMS4wIDEzLjAgQSA2LjIgNi4yIDAgMCAwIDE0LjAgMTguMCBaIiAKICAgICAgICBmaWxsPSJ1cmwoI2FneS1oaWdobGlnaHQtZ3JhZCkiLz4KCiAgPCEtLSBGcm9udCBTZWdtZW50IG9mIE9yYml0IFJpbmcgKHN3ZWVwcyBpbiBmcm9udCB3aXRoIHZpYnJhbnQgZ2xvdykgLS0+CiAgPHBhdGggZD0iTSAzMC4yIDEzLjggQyAzMS40IDE4LjIgMjEuOCAyNi4yIDEyLjggMjQuMiBDIDkuNCAyMy40IDcuNCAyMS44IDYuNiAxOS42IiAKICAgICAgICBzdHJva2U9InVybCgjYWd5LXJpbmctZnJvbnQpIiBzdHJva2Utd2lkdGg9IjIuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CgogIDwhLS0gTGVmdCBTYXRlbGxpdGUgTm9kZSAoRFNIIEN5YW4gQW5jaG9yKSAtLT4KICA8Y2lyY2xlIGN4PSI4LjIiIGN5PSIxOC4yIiByPSIyLjIiIGZpbGw9IiMwMEQyRkYiLz4KICA8Y2lyY2xlIGN4PSI4LjIiIGN5PSIxOC4yIiByPSIxLjAiIGZpbGw9IiNGRkZGRkYiLz4KCiAgPCEtLSBSaWdodCBTYXRlbGxpdGUgTm9kZSAoQW50aWdyYXZpdHkgTWFnZW50YSBQYXJ0aWNsZSkgLS0+CiAgPGNpcmNsZSBjeD0iMjguNCIgY3k9IjIwLjQiIHI9IjEuOCIgZmlsbD0iI0Y0M0Y1RSIvPgogIDxjaXJjbGUgY3g9IjI4LjQiIGN5PSIyMC40IiByPSIwLjgiIGZpbGw9IiNGRkZGRkYiLz4KPC9zdmc+Cg==",
       "versions": [
         {
-          "version": "0.5.1",
-          "publishTimestamp": 1793754882,
+          "version": "0.5.2",
+          "publishTimestamp": 1793780980,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -7902,8 +7902,8 @@
       },
       "versions": [
         {
-          "version": "0.7.12",
-          "publishTimestamp": 1793433234,
+          "version": "0.7.13",
+          "publishTimestamp": 1793783234,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -10196,11 +10196,11 @@
       "versions": [
         {
           "version": "0.1.16",
-          "publishTimestamp": 1793631106,
+          "publishTimestamp": 1793781934,
           "source": {
             "type": "git",
             "url": "https://github.com/AITabby/dockyard-dsh",
-            "commit": "5e70f90d18332ba25280ec59a8ae897bfdc8ad44"
+            "commit": "12ee281c63c34b37217b9f1371ca704dfc317faa"
           }
         }
       ],
@@ -11076,8 +11076,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIE1vcm5pbmcgU3RhciBtYXJrOiB0aGUgYnJhbmQgc3RhciBmcm9tIGFzc2V0cy9sb2dvLnN2ZyAvIGxvZ28tZGFyay5zdmcKICAgICAgICh0aWxlIGRyb3BwZWQpLCBmYWNldGVkIGZvciB0aGUgMzZweCBkc2ggcGx1Z2luIGFydHdvcmsgY2FudmFzLiAtLT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibXN0YXItdGlwLXRvcCIgeDE9IjE4IiB5MT0iNi41IiB4Mj0iMTgiIHkyPSIxOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRjdEQThFIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0U0QUY0OSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibXN0YXItdGlwLXJpZ2h0IiB4MT0iMjkiIHkxPSIxNy41IiB4Mj0iMTgiIHkyPSIxOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRjBDNDZCIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0NCOEMyNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibXN0YXItdGlwLWJvdHRvbSIgeDE9IjE4IiB5MT0iMjkuNSIgeDI9IjE4IiB5Mj0iMTgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0RBQTAzQSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNCNzc5MUIiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9Im1zdGFyLXRpcC1sZWZ0IiB4MT0iNyIgeTE9IjE3LjUiIHgyPSIxOCIgeTI9IjE4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNGM0NFN0QiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRDg5RTM1Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBmaWxsPSJ1cmwoI21zdGFyLXRpcC10b3ApIiBkPSJNMTggNi41IDIwLjI1IDE1LjI1IDE4IDE4IDE1Ljc1IDE1LjI1WiIvPgogIDxwYXRoIGZpbGw9InVybCgjbXN0YXItdGlwLXJpZ2h0KSIgZD0iTTI5IDE3LjUgMjAuMjUgMTkuNzUgMTggMTggMjAuMjUgMTUuMjVaIi8+CiAgPHBhdGggZmlsbD0idXJsKCNtc3Rhci10aXAtYm90dG9tKSIgZD0iTTE4IDI5LjUgMTUuNzUgMTkuNzUgMTggMTggMjAuMjUgMTkuNzVaIi8+CiAgPHBhdGggZmlsbD0idXJsKCNtc3Rhci10aXAtbGVmdCkiIGQ9Ik03IDE3LjUgMTUuNzUgMTUuMjUgMTggMTggMTUuNzUgMTkuNzVaIi8+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "4.1.6",
-          "publishTimestamp": 1793706713,
+          "version": "4.2.0",
+          "publishTimestamp": 1793766799,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -11938,14 +11938,14 @@
       },
       "versions": [
         {
-          "version": "0.1.72",
-          "publishTimestamp": 1793698077,
+          "version": "0.1.73",
+          "publishTimestamp": 1793768443,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.0-rc.2 || ^0.2.1-alpha.1 || ^0.2.1-alpha.2 || ^0.2.1-alpha.5 || ^0.2.1-rc.1 || ^0.2.1-rc.2 || ^0.2.1-rc.3 || ^0.2.1-rc.4 || ^0.2.1-rc.5"
+            "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.0-rc.2 || ^0.2.1-alpha.1 || ^0.2.1-alpha.2 || ^0.2.1-alpha.5 || ^0.2.1-rc.1 || ^0.2.1-rc.2 || ^0.2.1-rc.3 || ^0.2.1-rc.4 || ^0.2.1-rc.5 || ^0.2.2-alpha.3"
           }
         }
       ],
@@ -12832,8 +12832,8 @@
       },
       "versions": [
         {
-          "version": "1.4.0",
-          "publishTimestamp": 1793711429,
+          "version": "1.6.0",
+          "publishTimestamp": 1793782347,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -14241,7 +14241,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 45,
@@ -14733,8 +14733,8 @@
       },
       "versions": [
         {
-          "version": "0.3.1",
-          "publishTimestamp": 1791537182,
+          "version": "0.3.2",
+          "publishTimestamp": 1793775154,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -15431,8 +15431,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSI+CiAgPHJlY3QgeD0iNCIgeT0iNiIgd2lkdGg9IjI4IiBoZWlnaHQ9IjI0IiByeD0iMy41IiBzdHJva2U9IiM0NDkzZjgiIHN0cm9rZS13aWR0aD0iMS44Ii8+CiAgPHBhdGggZD0iTTQgMTJoMjgiIHN0cm9rZT0iIzQ0OTNmOCIgc3Ryb2tlLXdpZHRoPSIxLjQiLz4KICA8Y2lyY2xlIGN4PSI3LjYiIGN5PSI5IiByPSIxIiBmaWxsPSIjNDQ5M2Y4Ii8+CiAgPGNpcmNsZSBjeD0iMTEiIGN5PSI5IiByPSIxIiBmaWxsPSIjNDQ5M2Y4Ii8+CiAgPHBhdGggZD0iTTEwIDE4LjVsNCAzLjUtNCAzLjVNMTcgMjUuNWg4IiBzdHJva2U9IiNmMDg4M2UiIHN0cm9rZS13aWR0aD0iMS45IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==",
       "versions": [
         {
-          "version": "0.48.0",
-          "publishTimestamp": 1793559578,
+          "version": "0.48.1",
+          "publishTimestamp": 1793760834,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -15907,8 +15907,8 @@
       },
       "versions": [
         {
-          "version": "0.3.8",
-          "publishTimestamp": 1792573953,
+          "version": "0.3.9",
+          "publishTimestamp": 1793759117,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -16079,8 +16079,8 @@
       },
       "versions": [
         {
-          "version": "0.1.23",
-          "publishTimestamp": 1793725334,
+          "version": "0.1.24",
+          "publishTimestamp": 1793772033,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -16376,8 +16376,7 @@
           "user interface"
         ],
         "labels": [
-          "git",
-          "updated-month"
+          "git"
         ],
         "sortKeys": {
           "stars": 39,
@@ -17410,8 +17409,7 @@
           "user interface"
         ],
         "labels": [
-          "git",
-          "updated-month"
+          "git"
         ],
         "sortKeys": {
           "stars": 35,
@@ -19017,8 +19015,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSI+CiAgPHBhdGggZD0iTTQgMTAuNUEyLjUgMi41IDAgMCAxIDYuNSA4aDZsMi40IDIuOEgyOS41QTIuNSAyLjUgMCAwIDEgMzIgMTMuM1YyNmEyLjUgMi41IDAgMCAxLTIuNSAyLjVoLTIzQTIuNSAyLjUgMCAwIDEgNCAyNlYxMC41eiIgc3Ryb2tlPSIjNDQ5M2Y4IiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0xMSAxNy41aDlNMTEgMjEuNWgxNCIgc3Ryb2tlPSIjNDQ5M2Y4IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iMjQuNSIgY3k9IjE3LjUiIHI9IjEuMyIgZmlsbD0iI2YwODgzZSIvPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "0.38.0",
-          "publishTimestamp": 1793703877,
+          "version": "0.38.1",
+          "publishTimestamp": 1793763427,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -19151,8 +19149,8 @@
       },
       "versions": [
         {
-          "version": "0.11.0",
-          "publishTimestamp": 1793494307,
+          "version": "0.12.0",
+          "publishTimestamp": 1793770686,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -24197,8 +24195,7 @@
           "web"
         ],
         "labels": [
-          "git",
-          "updated-month"
+          "git"
         ],
         "sortKeys": {
           "stars": 23,
@@ -26003,8 +26000,8 @@
       },
       "versions": [
         {
-          "version": "2.17.2",
-          "publishTimestamp": 1793611222,
+          "version": "2.18.3",
+          "publishTimestamp": 1793780432,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -27753,8 +27750,8 @@
       },
       "versions": [
         {
-          "version": "0.9.6",
-          "publishTimestamp": 1793434006,
+          "version": "0.9.7",
+          "publishTimestamp": 1793767858,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -29146,12 +29143,12 @@
       },
       "versions": [
         {
-          "version": "0.3.9",
-          "publishTimestamp": 1793678710,
+          "version": "0.3.10",
+          "publishTimestamp": 1793767882,
           "source": {
             "type": "git",
             "url": "https://github.com/islibaodong/dsh-login",
-            "commit": "0f8bd1270d5697ab8543a09511822e229b98166a"
+            "commit": "da254fb33fc084bba2c51ef7c0a1ff75cb19b317"
           },
           "engines": {
             "dsh": ">=0.1.5-alpha.1 <0.2.0-0 || >=0.1.6-alpha.1 <0.2.0-0 || >=0.1.7-alpha.2 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0 || >=0.2.1-alpha.1 <0.3.0-0 || >=0.2.2-alpha.2 <0.3.0-0"
@@ -29817,7 +29814,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 17,
@@ -30417,8 +30414,8 @@
       },
       "versions": [
         {
-          "version": "0.20.3",
-          "publishTimestamp": 1791870277,
+          "version": "0.22.0",
+          "publishTimestamp": 1793783331,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -33564,6 +33561,63 @@
       ]
     },
     {
+      "name": "dsh-remote-ssh",
+      "title": {
+        "en": "Remote Servers",
+        "zh": "远程服务器"
+      },
+      "description": {
+        "en": "SSH workbench: server list, multi-tab terminals, remote file browser, resumable transfers and in-app editing.",
+        "zh": "SSH 工作台：服务器列表、多标签终端、远程文件浏览器、可续传传输与在线编辑。"
+      },
+      "author": "bobostudio",
+      "homepage": "https://github.com/bobostudio/dsh-remote-ssh#readme",
+      "repository": {
+        "url": "https://github.com/bobostudio/dsh-remote-ssh"
+      },
+      "metadata": {
+        "category": "integrations-sharing",
+        "keywords": [
+          "deepseek",
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "ssh",
+          "sftp",
+          "ssh-client",
+          "remote",
+          "terminal",
+          "xterm",
+          "remote-development",
+          "server-management",
+          "远程",
+          "终端",
+          "服务器",
+          "集成",
+          "分享",
+          "integration"
+        ],
+        "labels": [
+          "npm"
+        ],
+        "sortKeys": {
+          "stars": 14,
+          "repositoryUpdated": 1786866459
+        }
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ikx1bWluYSBTU0giPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsc3NoR3JhZCIgeDE9IjgiIHkxPSI0IiB4Mj0iNTYiIHkyPSI2MCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM1YjdjZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMjRjMzlhIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSI1IiB5PSI2IiB3aWR0aD0iNTQiIGhlaWdodD0iMjIiIHJ4PSI3IiBmaWxsPSJ1cmwoI2xzc2hHcmFkKSIvPgogIDxyZWN0IHg9IjUiIHk9IjM2IiB3aWR0aD0iNTQiIGhlaWdodD0iMjIiIHJ4PSI3IiBmaWxsPSJ1cmwoI2xzc2hHcmFkKSIgb3BhY2l0eT0iMC43MiIvPgogIDxjaXJjbGUgY3g9IjE1IiBjeT0iMTciIHI9IjMiIGZpbGw9IiNmZmZmZmYiLz4KICA8Y2lyY2xlIGN4PSIxNSIgY3k9IjQ3IiByPSIzIiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTIzIDQ3aDVNMzIgNDdoNSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iMC45Ii8+CiAgPHBhdGggZD0iTTI3IDEzbDYgNC02IDQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNMzcgMTdoMTEiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjAuOSIvPgo8L3N2Zz4K",
+      "versions": [
+        {
+          "version": "1.0.1",
+          "publishTimestamp": 1793778831,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-global-rules",
       "title": {
         "en": "Global Rules",
@@ -33638,8 +33692,7 @@
           "developer tools"
         ],
         "labels": [
-          "git",
-          "updated-month"
+          "git"
         ],
         "sortKeys": {
           "stars": 14,
@@ -36686,7 +36739,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 12,
@@ -38095,8 +38148,8 @@
       },
       "versions": [
         {
-          "version": "0.3.2",
-          "publishTimestamp": 1793607723,
+          "version": "0.3.3",
+          "publishTimestamp": 1793771051,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -40215,7 +40268,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 10,
@@ -44990,51 +45043,6 @@
           "repositoryUpdated": 1793678720
         }
       }
-    },
-    {
-      "name": "@hubaking/dsh-community-plugins",
-      "title": "@hubaking/dsh-community-plugins",
-      "description": "DSH 社区插件生态指南 + 两个审计工具：注册「dsh-community-plugins」skill，让每个会话都知道如何发现、评估、安装社区插件；注册离线工具 dsh_plugin_audit，把已装插件的 bundle 层完整性、peer 区间、官方包的具名导出、slot 契约与服务注入逐条比对到本机 dsh 构建；注册联网工具 dsh_plugin_inspect，在安装前下载 tarball、校验 integrity、在临时目录里审计后删除，不安装、不执行 lifecycle 脚本。只提供方法与事实，不推荐任何第三方插件或市场。全面适配 DSH 桌面版，安装与判定默认跟随正在运行的 profile；离线审计另报告「已安装但未生效（需重启）」的激活状态，并按安装来源分级 lifecycle 脚本。0.6.0：修复 github/tarball 路径因 undefined 字段导致的 invalid output（整份报告曾被丢弃）；github ref 的 v 前缀归一化；react 等浏览器端 peer 改从客户端构建取权威版本，不再整包降级为 unknown；预筛 verdict 改称 METADATA-OK 并在每行标注未审计项；新增同名包歧义告警。轻量：纯 JavaScript、单一依赖、无构建步骤。",
-      "homepage": "https://github.com/HubaKing/dsh-community-plugins",
-      "repository": {
-        "url": "https://github.com/HubaKing/dsh-community-plugins"
-      },
-      "metadata": {
-        "category": "ecosystem-resources",
-        "keywords": [
-          "dsh",
-          "dsh-plugin",
-          "deepseek-harness",
-          "skill",
-          "plugin",
-          "audit",
-          "compatibility",
-          "semver",
-          "pre-install",
-          "supply-chain",
-          "生态资源",
-          "ecosystem"
-        ],
-        "labels": [
-          "git",
-          "updated-month"
-        ],
-        "sortKeys": {
-          "stars": 5,
-          "repositoryUpdated": 1792245976
-        }
-      },
-      "versions": [
-        {
-          "version": "0.6.0",
-          "publishTimestamp": 1792245937,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/HubaKing/dsh-community-plugins",
-            "commit": "6912b1b889d9b1dac88f05ba55351553360718cb"
-          }
-        }
-      ]
     },
     {
       "name": "bruce-md2word",
