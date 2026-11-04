@@ -199,7 +199,7 @@ To browse every project in a category, see [CATALOG.md](./CATALOG.md) — the ca
 
 ### 🔀 Migration & integrations
 
-- **Want to migrate chat histories from other tools into DSH**: [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — Full-fidelity import from 13 sources (Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi) into resumable DSH sessions, plus reverse export/sync back to Claude Code.
+- **Want to migrate chat histories from other tools into DSH**: [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — Imports sessions from 25+ AI coding agents into resumable DSH sessions, preserving tool calls, reasoning, and results, with reverse export/sync back to Claude Code.
 - **Want to bring Pi-ecosystem extensions straight into DSH**: [pi2dsh](https://github.com/weijiafu14/pi2dsh) — One Pi Host ABI runs unmodified Pi extensions as native DSH plugins, bridging both ecosystems.
 - **Want Claude Code / OpenCode / CodeBuddy and other ACP agents inside the DSH UI**: [dsh-ntr](https://github.com/GDWhisper/dsh-ntr) — Negotiated Target Routing: DSH provides the interface and your configured agent provides the capability — sessions, composer, and message rendering stay native while reasoning and tool execution run autonomously in the agent's own process.
 - **Want to drive DSH from WeChat / Feishu / QQ and other chats**: [dsh-im](https://github.com/xmanrui/dsh-im) · [dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot) — dsh-im connects Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, and WhatsApp from one settings page; use dsh-qqbot when you only want Tencent's official QQ Bot.
@@ -229,6 +229,8 @@ To browse every project in a category, see [CATALOG.md](./CATALOG.md) — the ca
 ### 🔑 Models & subscriptions
 
 - **Want to use an existing ChatGPT / Claude / Grok subscription as a model**, without another API key: [dsh-plugin-subscriptions](https://github.com/V1ki/dsh-plugin-subscriptions) — OAuth in Settings for ChatGPT (Codex), Claude, Grok (X Premium), and GitHub Copilot. Logged-in providers join the model picker, with usage windows plus image/video generation tools.
+- **Want locally signed-in WorkBuddy models**: [dsh-connect-workbuddy](https://github.com/dingminhua/dsh-connect-workbuddy) — Connects domestic and international WorkBuddy models to DSH: per-model credit multipliers read from the upstream catalog on each refresh, per-model image-input toggles and default reasoning effort, multi-account switching with an auto-rotating account pool, plus daily check-in and capsule credit read-outs.
+- **Want routing and costs tracked for you**: [dsh-model-router](https://github.com/Alice-Marx/dsh-model-router) — A cost-aware model-routing workbench for the desktop client: local planning, comparison against configured routes, and execution-permission checks, running dependency work packages via the model API or the official CLI.
 
 | | | |
 | :---: | :---: | :---: |
@@ -238,6 +240,7 @@ To browse every project in a category, see [CATALOG.md](./CATALOG.md) — the ca
 
 - **Want to check whether your API relay has been tampered with**: [api-relay-audit](https://github.com/toby-bridges/api-relay-audit) — a local audit for AI API relays & LLM proxies: detects prompt injection, model substitution, tool-call rewriting, SSE anomalies, error leakage, and Web3 wallet risks. A single-file Python tool that produces redacted reports on the spot (AGPL-3.0).
 - **Want a safety net that can undo a broken DSH setup**: [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) — undo changes to config and plugin code, secret-safe snapshots, one-click SAFE MODE; and when DSH won't even boot, an offline CLI/GUI rolls you back.
+- **Want an authorized red-team workbench**: [dsh-redteam-model](https://github.com/SeaOf0/dsh-redteam-model) — A multi-mode red-team workbench over the DSH Web UI covering penetration testing, red-team assessment, and code auditing, with presets and runtime plugins managed from one settings page (authorized security research only).
 
 | | | |
 | :---: | :---: | :---: |

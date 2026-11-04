@@ -199,7 +199,7 @@ mindmap
 
 ### 🔀 迁移与集成
 
-- **想把其他工具的历史会话搬进 DSH**：[dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) —— 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话，并支持反向导出/同步回 Claude Code。
+- **想把其他工具的历史会话搬进 DSH**：[dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) —— 25 种以上 AI 编程助手的会话导入 DSH 继续对话，保留工具调用、推理与结果，并支持反向导出/同步回 Claude Code。
 - **想把 Pi 生态的扩展直接搬进 DSH**：[pi2dsh](https://github.com/weijiafu14/pi2dsh) —— 一套 Pi Host ABI 让未改动的 Pi 扩展原生运行为 DSH 插件，打通两个生态。
 - **想把 Claude Code / OpenCode / CodeBuddy 等 ACP agent 接进 DSH 界面**：[dsh-ntr](https://github.com/GDWhisper/dsh-ntr) —— Negotiated Target Routing：DSH 出界面、外部 agent 出能力，会话列表与消息展示留在原生 UI，推理与工具执行由你配置的 agent 在独立进程自治完成。
 - **想从微信 / 飞书 / QQ 等聊天软件指挥 DSH**：[dsh-im](https://github.com/xmanrui/dsh-im) · [dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot) —— dsh-im 一个设置页接入飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord、WhatsApp 九个渠道；只要腾讯官方 QQ Bot 时用 dsh-qqbot。
@@ -229,6 +229,8 @@ mindmap
 ### 🔑 模型与订阅
 
 - **想用已有 ChatGPT / Claude / Grok 订阅当模型**，不想再配 API Key：[dsh-plugin-subscriptions](https://github.com/V1ki/dsh-plugin-subscriptions) —— 在设置页用 OAuth 接入 ChatGPT（Codex）、Claude、Grok（X Premium）和 GitHub Copilot 订阅；登录后出现在模型选择器里，并带用量窗口、生图/生视频工具。
+- **想接本地已登录的 WorkBuddy 模型**：[dsh-connect-workbuddy](https://github.com/dingminhua/dsh-connect-workbuddy) —— 国内版/国际版 WorkBuddy 接入 DSH：按上游目录自动读取每模型积分倍率，逐模型图片输入开关与默认推理强度、多账号切换与账号池自动换号，附每日签到与胶囊积分读数。
+- **想让路由与成本自己算账**：[dsh-model-router](https://github.com/Alice-Marx/dsh-model-router) —— 桌面端的成本感知模型路由工作台：本地规划、对比已配置路由、检查执行权限，经模型 API 或官方 CLI 运行依赖工作包。
 
 | | | |
 | :---: | :---: | :---: |
@@ -238,6 +240,7 @@ mindmap
 
 - **想确认中转 API 有没有被做过手脚**：[api-relay-audit](https://github.com/toby-bridges/api-relay-audit) —— 本地审计 AI API 中继与 LLM 代理：检测提示注入、模型替换、工具调用重写、SSE 异常、错误泄漏与 Web3 钱包风险，单文件 Python 即跑即出脱敏报告（AGPL-3.0）。
 - **想给 DSH 上一道“装坏了能撤销”的安全网**：[dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) —— 配置与插件代码改动可撤销、secret-safe 快照、一键 SAFE MODE；DSH 完全起不来时，还有离线 CLI/GUI 帮你回滚。
+- **想要授权范围内的红队工作台**：[dsh-redteam-model](https://github.com/SeaOf0/dsh-redteam-model) —— 基于 DSH Web 的多模式红队工作台：覆盖渗透测试、红队评估与代码审计，预设与运行时插件在一个设置页管理（仅限授权安全研究）。
 
 | | | |
 | :---: | :---: | :---: |
