@@ -16,22 +16,10 @@
           "en": "Editor's Picks"
         }
       },
-      "ui-experience": {
-        "title": {
-          "zh": "界面与体验",
-          "en": "UI & Experience"
-        }
-      },
       "multi-agents": {
         "title": {
           "zh": "多 Agent 协作",
           "en": "Multi-Agent Orchestration & Teams"
-        }
-      },
-      "media-vision": {
-        "title": {
-          "zh": "设计与视觉",
-          "en": "Design, Media & Vision"
         }
       },
       "agents-workflows": {
@@ -46,16 +34,16 @@
           "en": "Web & Browser"
         }
       },
-      "utilities": {
+      "ui-experience": {
         "title": {
-          "zh": "实用工具",
-          "en": "Utilities & Other"
+          "zh": "界面与体验",
+          "en": "UI & Experience"
         }
       },
-      "integrations-sharing": {
+      "media-vision": {
         "title": {
-          "zh": "集成与分享",
-          "en": "Integrations & Sharing"
+          "zh": "设计与视觉",
+          "en": "Design, Media & Vision"
         }
       },
       "knowledge-research": {
@@ -64,10 +52,22 @@
           "en": "Knowledge & Research"
         }
       },
+      "utilities": {
+        "title": {
+          "zh": "实用工具",
+          "en": "Utilities & Other"
+        }
+      },
       "developer-tools": {
         "title": {
           "zh": "开发者工具",
           "en": "Developer Tools"
+        }
+      },
+      "integrations-sharing": {
+        "title": {
+          "zh": "集成与分享",
+          "en": "Integrations & Sharing"
         }
       },
       "ecosystem-resources": {
@@ -419,7 +419,7 @@
         "url": "https://github.com/ccch1mneyyy/dsh-TUI"
       },
       "metadata": {
-        "category": "ui-experience",
+        "category": "featured",
         "keywords": [
           "dsh",
           "dsh-tui",
@@ -435,7 +435,10 @@
           "coding-agent",
           "界面体验",
           "界面增强",
-          "user interface"
+          "user interface",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -728,7 +731,7 @@
         "url": "https://github.com/T-Auto/dsh-ops"
       },
       "metadata": {
-        "category": "media-vision",
+        "category": "featured",
         "keywords": [
           "dsh",
           "dsh-plugin",
@@ -737,7 +740,10 @@
           "设计",
           "视觉",
           "media",
-          "vision"
+          "vision",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -772,7 +778,7 @@
         "url": "https://github.com/elysia395/dsh-wallpaper-engine"
       },
       "metadata": {
-        "category": "ui-experience",
+        "category": "featured",
         "keywords": [
           "dsh",
           "dsh-plugin",
@@ -783,7 +789,10 @@
           "background",
           "界面体验",
           "界面增强",
-          "user interface"
+          "user interface",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -891,7 +900,7 @@
         "url": "https://github.com/liustack/modlens"
       },
       "metadata": {
-        "category": "ui-experience",
+        "category": "featured",
         "keywords": [
           "cli",
           "vision",
@@ -908,7 +917,10 @@
           "Antigravity",
           "界面体验",
           "界面增强",
-          "user interface"
+          "user interface",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -1099,7 +1111,7 @@
         }
       ],
       "metadata": {
-        "category": "ui-experience",
+        "category": "featured",
         "keywords": [
           "换肤",
           "皮肤设置",
@@ -1108,7 +1120,10 @@
           "theme",
           "界面体验",
           "界面增强",
-          "user interface"
+          "user interface",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "git",
@@ -1369,12 +1384,15 @@
         }
       ],
       "metadata": {
-        "category": "agents-workflows",
+        "category": "featured",
         "keywords": [
           "智能体",
           "自动化",
           "工作流",
-          "workflow"
+          "workflow",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "git",
@@ -1448,7 +1466,7 @@
         "url": "https://github.com/ysr666/dsh-vision-router"
       },
       "metadata": {
-        "category": "media-vision",
+        "category": "featured",
         "keywords": [
           "deepseek-harness",
           "dsh",
@@ -1468,7 +1486,10 @@
           "视觉问答",
           "设计",
           "视觉",
-          "media"
+          "media",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -1505,7 +1526,7 @@
         "url": "https://github.com/c1overzz/dsh-bili-scroll"
       },
       "metadata": {
-        "category": "utilities",
+        "category": "featured",
         "keywords": [
           "dsh",
           "dsh-plugin",
@@ -1514,7 +1535,10 @@
           "mcp",
           "duty",
           "实用工具",
-          "utilities"
+          "utilities",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -1629,7 +1653,7 @@
         "url": "https://github.com/dingminhua/dsh-connect-workbuddy"
       },
       "metadata": {
-        "category": "integrations-sharing",
+        "category": "featured",
         "keywords": [
           "dsh-plugin",
           "deepseek-harness",
@@ -1639,7 +1663,10 @@
           "credits",
           "集成",
           "分享",
-          "integration"
+          "integration",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -1681,7 +1708,7 @@
         "url": "https://github.com/Anionex/dsh-vision-toolkit"
       },
       "metadata": {
-        "category": "ui-experience",
+        "category": "featured",
         "keywords": [
           "deepseek",
           "deepseek-harness",
@@ -1706,7 +1733,10 @@
           "截图还原前端 UI",
           "界面体验",
           "界面增强",
-          "user interface"
+          "user interface",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -2039,7 +2069,7 @@
         "url": "https://github.com/SeaOf0/dsh-redteam-model"
       },
       "metadata": {
-        "category": "web-browser",
+        "category": "featured",
         "keywords": [
           "deepseek",
           "deepseek-harness",
@@ -2055,7 +2085,10 @@
           "网页",
           "浏览器",
           "web",
-          "browser"
+          "browser",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "git",
@@ -2112,7 +2145,7 @@
         }
       ],
       "metadata": {
-        "category": "ui-experience",
+        "category": "featured",
         "keywords": [
           "恶搞",
           "广告",
@@ -2121,7 +2154,10 @@
           "ads",
           "界面体验",
           "界面增强",
-          "user interface"
+          "user interface",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -2150,7 +2186,7 @@
         "url": "https://github.com/anysearch-team/anysearch-dsh"
       },
       "metadata": {
-        "category": "web-browser",
+        "category": "featured",
         "keywords": [
           "anysearch",
           "deepseek-harness",
@@ -2164,7 +2200,10 @@
           "网页",
           "浏览器",
           "web",
-          "browser"
+          "browser",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -2585,7 +2624,7 @@
         "url": "https://github.com/tencent-connect/dsh-qqbot"
       },
       "metadata": {
-        "category": "integrations-sharing",
+        "category": "featured",
         "keywords": [
           "deepseek-harness",
           "dsh",
@@ -2598,7 +2637,10 @@
           "im",
           "集成",
           "分享",
-          "integration"
+          "integration",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -2729,8 +2771,8 @@
       "icon": "data:image/webp;base64,UklGRi4KAABXRUJQVlA4ICIKAACQKwCdASpgAGAAPmkqkEWkIqGZW85kQAaEtABnVAKiflNV//G8CebCFHtqfMR5s3o2/u/qAf4DqO95Q/u2THsm/vnhP4LPWv69+2HHv6e8xv4/99f1HmJ3o/GfUC/Hv5d/mt6V1D/O+gd7PfR/9//bOQf67+wB/L/6f/s/Ku8EX0D2A/57/gfVl/rP/Z5Wfpf/1/6P4A/5z/Y/+x/f/bO9hP7s+zB+3bpWBhZHTtC21VwiJfbXc9HGSmukRwTHEGIBRVkcT1+usPPpWxd7qCL4tnRjz1TDdlPW2CiNvZS0JeH7UkdI7OWh9t/jdovlobwPpItRqCPJw9Z7yDlwxk+wJTTE+Ym5ROSesnhGWkFFAu6KXByDeMiWAYP1X0GDvL314pHqBFU7ElqYaPgxgQtk49waAsqCyiu34b3iLNjcC0BkZHmrgq32JnrqnFgWs46Sm9rVBdpGMuXcJ9O/C+h8USPhAAAA/v6HFvGSeYd0EWzMtvtJxphm9zkunnXmdwM6VUXlY+TD1wHWftPc4lz7yVLuslh3ivtnw6db0dfIbEPXrfWeVJjRKbqv26+mep590Hf/3uN5vYaFRJj2MexN9iI7VctPujHBOztwxMxUT0DLMDlEMoh9+J0hvp4YO3PiDcEqYq5BCiwgJLZKZcmdQf08E1MM+H9ztB90N9/U3DmuyR1DhRvyUOT3JVfXpyTtJlWXGU5fDPB81md3ldUUAz3bnhVuCMGai1gZIj949nX9VH0HH9HCQ46udt8aVesPC2kzs5D+QsvaXcBvdhQw0IO2pK6M0F45KzcLm72iBeC9W468+qr5ieSeNJZ6w8argZ39UibYh2wwJq7h3H//dc10F6Q0CA+hWfuX5d8ySY/AwAHHM3QWQ9qarAlKyJ2asoyGysPxLuJdS4GX6N8JnTdMITLleGqjxDfdwuwwksBjnwHplX8fKscrtpPjLJBKLmJBpg7rU2GuDU4fq2DmrrnVcsdDYP9NNvaywqaH+OfzVB3tULo+KogIquzqsCNHxUdqWqX6+HF8otShAhfaByvddbCPMJywBQ4hRAAJzjrMivR5ZeR+3oeFKNhmf40vYWPDrcf8NnD1d7m9AWJu82AL6HM5PGRY5DKI29lsO3rSfIs6QYWoh6+4s2Tg81WCxPg4XLKA6SH+gqT/oUIsBEwPOZonmQ7kt000XD+ajW17fCHJnens4Px2K5qrL1Di1u9UHH8x8fy/JAU9pc3hZJXKxnjEtobU+Rwlf5AvqTCtAbxmdartuh27Szz8DA7ES6UDPenyg1pOUVBiC0jo0ctyHjaquQsZUwGh2Gb+JsGvGVpWCDH34bC1dYK3Z4ylZb6MDrqK5sS7kJRFbn8wRA2/SwjzS0KTHhERbzMkzSVRGSCzl3w4IXpjWEWdCOzn4vEnPVkkoW7B3EvdVq2HhrMIT35q17f7HVX1n5ilMSCk6ElxXm+wJxpK1/kzrNZlihKfaHdkKws7CAsXrWsT877AmluShC+7SkYszddNhfonb/B6OaEbhjZMj/7Cv3wT/jTH7ciXF4PFnSuqcOkKtw8ybqKDXg2MSpf68pce7sye9MlbeRVkpyB8cbKKQURjP92/Q0cC40w+xI63/qnJV54tyTzmuf17EeQ8KcPFm/PlNk/q22YBIPz/oErvMJ6lB5fRy+zfQrl3UgrXb9E3yy9zZENVAFqOidVspyM/VDDvQL39HZFD8ijesE54Y2zxa/vu6SCKMeEdqNvzbUI00nWpe8lykbTASnRT/L7ZK9Ggv358y2VvSlQ3pF6DdEe/lObCZ98aMNZt2ucBJcBaXrdqGkSUWKrnaS29du7r+gvWs7kTzEFBwzH6ZR0/1yH5dCVCRzYCryBH2oCT8Kn+LrBlOXZByuWr2aEm6PiZ3UboQ97XwKd0VZ9RVmHggtLIEXrVT7b4gU03662/MB97W30s0GUHJmQotbc2wzqupE8vohBssNOLAG4IhBFRflCnpX1KOmqr1NkmYf41GNGUP94KJVfHGrD5JQoGpYiBZ0Tl1RwSjLkTgIrylKvyjJl6oEOc1O0HWsNl6llhdsH3Y6ZshouwxEdUfRlfL1VeKfdY8lFqdcIADF7oZBqfeZ0TOVKyZnXdydvSARd4CQ2k9Ce1cCTiGP+nJr/uKqQ/qWCy5h59Q7M0dQzpVyGCR487dHrM60Tmb3vuOQNJOoHoWPFbr/j61/oKSEdn4XjZBB923/5uXyHgnKG/0aMLtaPznqR5li82gIwBxjG450AyCaWyF9TiKBDBY0TijgJKQRMwYTMvXqyJktWUjAINbPG/vqTD9vMr+NcOilc/ed8ZJEQsuxWpoaB94CNwxIjqEaJs4D6fsnjXeSydfiDzuOdaaS9JR3ve6Bw36mASMicqEju58f1Cwy16c0SJ8CHXHhI3xdFm9obd8q3VRI6N6qx3ldt1QaK1vD/kUPuKbSjKUMwPfMwZKqhkNPlRPBI9AGImjDT3b+fGkborq7T6O+CuGjjn2g2laG1jRjaw0MRu7yS29/XNpNsjrSbRygGBM7cH4VjhgFJxDovuv3vXTKwMwdWfbtEA7j4jaA6KJOH3lJ4kjixbaSF91P0qTrTVj1eTPNAbVptBHhHGBQyD2Q5GCimrNguGUfKbs/PC+IvFHG9/K9mgRpXD6zL92K9BKnGQ/OXNSGabo6yiSe3vzFWEGabrZksoY4P08D/CN9o57FEN9qOSuoTcBq14ZyOtpiYiPKyaL+/yvRiZ8gJnhyiaSR5VnKFQM6DwyD4u/+6sv/VfTFblh1v+McL6VuCcJ6TQ/YOFQOGAcnmELJ475lxJH8Oy2JCdP4veqYkvI2t+pD6G1HVgkhvIETWsU9Q0RWJTQzvBLtt6CS0JWjkB+dntXB6oOQP+Y4nFohKNCrFkRzsCnnwfWWahY/flVIYtubEe1OCFU/AsQ3wAQZrGtbmsF8Yd1hjwulnUZ7ITPs9Q+/qxrzFqt8WuhcViTYP1qemYWD0slLwQkTGzgCf3zvh7xNWTKdrp6s8NKMVoEaxHtSfM9DjjGTiIUfT+NRTWIMOZR02TumkpzcIStYeK9h0fePaKEHchITcIvzFuFQLScg3Aw+y7nQoyV2DUeSbNFfCDtnOXdY1ru2hfatg90NCrpYvMkR7ICUKC8qL1+RzhyboICW/UCIJ1dRAFZOZGzBqkkIi70Uav1T2U/G7jtcLveTPzOCgSLccJv3Meo5Bzm/LYgvBI9CEdkaTexg2gQ65/57iluX8EjIgm4UHD7+UlnU4dDD5UWXpKi9+JbXpWS6pyfBEE8z48AP/SHaha3ilGTQMBebCqNp3N8o7Jfi7I1ZbS4xzKFIAVd/O+xSv5TLWqDfG1BvtfC0hB+bQZ+Qv4uG1ApkZCNEuPPLjch93UEFBR0ps0BL7vuRZpJiD0pqGwf1IgO4Ht4T47Qih4nLRDlYTOIALoeeIoD12mIAAAAA==",
       "versions": [
         {
-          "version": "0.1.76",
-          "publishTimestamp": 1793554636,
+          "version": "0.1.77",
+          "publishTimestamp": 1793784899,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -3020,7 +3062,7 @@
         }
       ],
       "metadata": {
-        "category": "ui-experience",
+        "category": "featured",
         "keywords": [
           "毛玻璃",
           "透明主题",
@@ -3029,7 +3071,10 @@
           "glassmorphism",
           "界面体验",
           "界面增强",
-          "user interface"
+          "user interface",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -3153,7 +3198,7 @@
         }
       ],
       "metadata": {
-        "category": "ui-experience",
+        "category": "featured",
         "keywords": [
           "桌面宠物",
           "桌宠",
@@ -3161,7 +3206,10 @@
           "pet",
           "界面体验",
           "界面增强",
-          "user interface"
+          "user interface",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "git",
@@ -3442,7 +3490,7 @@
         "url": "https://github.com/ZSeven-W/dsh-ios"
       },
       "metadata": {
-        "category": "ui-experience",
+        "category": "featured",
         "keywords": [
           "dsh",
           "simulator",
@@ -3454,7 +3502,10 @@
           "应用构建",
           "界面体验",
           "界面增强",
-          "user interface"
+          "user interface",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -3622,7 +3673,7 @@
         }
       ],
       "metadata": {
-        "category": "media-vision",
+        "category": "featured",
         "keywords": [
           "可视化",
           "交互卡片",
@@ -3631,7 +3682,10 @@
           "设计",
           "视觉",
           "media",
-          "vision"
+          "vision",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -4178,7 +4232,7 @@
         "url": "https://github.com/HanaAyane/dsh-reasoning-effort"
       },
       "metadata": {
-        "category": "agents-workflows",
+        "category": "featured",
         "keywords": [
           "deepseek",
           "deepseek-harness",
@@ -4193,7 +4247,10 @@
           "智能体",
           "自动化",
           "工作流",
-          "workflow"
+          "workflow",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "git",
@@ -5292,7 +5349,7 @@
         "url": "https://github.com/ZSeven-W/dsh-openpencil"
       },
       "metadata": {
-        "category": "media-vision",
+        "category": "featured",
         "keywords": [
           "dsh",
           "openpencil",
@@ -5301,7 +5358,10 @@
           "设计",
           "视觉",
           "media",
-          "vision"
+          "vision",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -5421,7 +5481,7 @@
         "url": "https://github.com/GraySilver/dsh-evolve-modes"
       },
       "metadata": {
-        "category": "web-browser",
+        "category": "featured",
         "keywords": [
           "deepseek-harness",
           "dsh",
@@ -5434,7 +5494,10 @@
           "网页",
           "浏览器",
           "web",
-          "browser"
+          "browser",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -5721,14 +5784,17 @@
         "url": "https://github.com/Ychris12138/dsh-usage-stats"
       },
       "metadata": {
-        "category": "ecosystem-resources",
+        "category": "featured",
         "keywords": [
           "deepseek",
           "deepseek-harness",
           "dsh",
           "token-usage",
           "生态资源",
-          "ecosystem"
+          "ecosystem",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -5863,7 +5929,7 @@
         "url": "https://github.com/HsiangNianian/dsh-auto-continue"
       },
       "metadata": {
-        "category": "ecosystem-resources",
+        "category": "featured",
         "keywords": [
           "dsh",
           "dsh-plugin",
@@ -5872,7 +5938,10 @@
           "web-ui",
           "auto-continue",
           "生态资源",
-          "ecosystem"
+          "ecosystem",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "git",
@@ -6000,7 +6069,7 @@
         "url": "https://github.com/cocofhu/anime-find"
       },
       "metadata": {
-        "category": "agents-workflows",
+        "category": "featured",
         "keywords": [
           "dsh",
           "dsh-plugin",
@@ -6011,7 +6080,10 @@
           "智能体",
           "自动化",
           "工作流",
-          "workflow"
+          "workflow",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -6635,7 +6707,7 @@
         "url": "https://github.com/Anionex/dsh-turn-rewind"
       },
       "metadata": {
-        "category": "agents-workflows",
+        "category": "featured",
         "keywords": [
           "deepseek-harness",
           "dsh",
@@ -6647,7 +6719,10 @@
           "智能体",
           "自动化",
           "工作流",
-          "workflow"
+          "workflow",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "npm",
@@ -7947,12 +8022,12 @@
       },
       "versions": [
         {
-          "version": "0.8.0",
-          "publishTimestamp": 1793590889,
+          "version": "0.8.1",
+          "publishTimestamp": 1793787378,
           "source": {
             "type": "git",
             "url": "https://github.com/Viy1204/recruiting-copilot",
-            "commit": "452006cd293838d6958c32efd01b9e6fc27bb59c"
+            "commit": "ada520e7ddc1a88acdb12c14127b872331ecc63b"
           }
         }
       ]
@@ -8195,7 +8270,7 @@
         "url": "https://github.com/titanwings/dsh-automation"
       },
       "metadata": {
-        "category": "web-browser",
+        "category": "featured",
         "keywords": [
           "deepseek-harness",
           "dsh",
@@ -8206,7 +8281,10 @@
           "网页",
           "浏览器",
           "web",
-          "browser"
+          "browser",
+          "编辑推荐",
+          "精选",
+          "editor's picks"
         ],
         "labels": [
           "git",
@@ -9949,12 +10027,12 @@
       "icon": "data:image/webp;base64,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",
       "versions": [
         {
-          "version": "0.6.7",
-          "publishTimestamp": 1793667075,
+          "version": "0.7.0",
+          "publishTimestamp": 1793784487,
           "source": {
             "type": "git",
             "url": "https://github.com/NoNameLeGo/dsh-catppuccin-theme",
-            "commit": "2d23f12364ec77736c1d1bef5218e72bebd0cbad"
+            "commit": "bbe4d380029f915aa2b81c9f91c5e765810d6128"
           },
           "engines": {
             "dsh": ">=0.1.7-rc.1"
@@ -10626,8 +10704,8 @@
       },
       "versions": [
         {
-          "version": "1.2.18",
-          "publishTimestamp": 1793685611,
+          "version": "1.2.20",
+          "publishTimestamp": 1793788774,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -11490,8 +11568,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIxIiB5PSIxIiB3aWR0aD0iMzQiIGhlaWdodD0iMzQiIHJ4PSI4IiBmaWxsPSJ1cmwoI2cpIiAvPgogIDxwYXRoIGQ9Ik0xOS42IDcuNSAxMSAyMGg1LjZsLTEuNCA4LjVMMjQuNSAxNmgtNS42bC43LTguNVoiIGZpbGw9IiNGRkZGRkYiLz4KICA8Y2lyY2xlIGN4PSIyNS41IiBjeT0iMjUuNSIgcj0iMy4yIiBmaWxsPSIjNDVEOUU3Ii8+CiAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMTgiIHkxPSIxIiB4Mj0iMTgiIHkyPSIzNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiM3Q0I3RkYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNDVBRjMiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KPC9zdmc+",
       "versions": [
         {
-          "version": "0.2.11",
-          "publishTimestamp": 1793002153,
+          "version": "0.2.12",
+          "publishTimestamp": 1793786592,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -12704,8 +12782,8 @@
       },
       "versions": [
         {
-          "version": "1.21.10",
-          "publishTimestamp": 1793259634,
+          "version": "1.21.11",
+          "publishTimestamp": 1793788954,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -12832,8 +12910,8 @@
       },
       "versions": [
         {
-          "version": "1.6.0",
-          "publishTimestamp": 1793782347,
+          "version": "1.7.1",
+          "publishTimestamp": 1793788163,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -21042,8 +21120,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMy41IDE4SDEzLjRMMTQuNiAyMS4yTDE2IDguOEwyMCAyNi42TDIyIDE4SDMyLjUiCiAgICAgICAgc3Ryb2tlPSJ1cmwoI2hlYXJ0YmVhdC1wdWxzZSkiIHN0cm9rZS13aWR0aD0iMi45IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImhlYXJ0YmVhdC1wdWxzZSIgeDE9IjMuNSIgeTE9IjE4IiB4Mj0iMzIuNSIgeTI9IjE4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNEMjQ1NEYiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC41MiIgc3RvcC1jb2xvcj0iI0UyNzUzQyIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRTlCNDRDIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "2.1.0",
-          "publishTimestamp": 1793457327,
+          "version": "2.1.1",
+          "publishTimestamp": 1793783726,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -26000,8 +26078,8 @@
       },
       "versions": [
         {
-          "version": "2.18.3",
-          "publishTimestamp": 1793780432,
+          "version": "2.19.3",
+          "publishTimestamp": 1793788145,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
