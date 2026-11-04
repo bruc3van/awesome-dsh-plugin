@@ -4,11 +4,11 @@
 >
 > Repositories newly added to the `dsh-plugin` topic that the maintainer has not verified yet. Refreshed daily by `scripts/update.mjs`; review-only, not a user-facing page.
 
-- 生成时间 / Generated: **2026-11-03**
-- 快照日期 / Snapshot date: **2026-11-02 (UTC)**
-- 待审核 / Pending: **0**
-- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **0**
-- Star 异常增长 / Star-growth alerts: **12** — 先看下方告警节 / see the alert section first
+- 生成时间 / Generated: **2026-11-04**
+- 快照日期 / Snapshot date: **2026-11-03 (UTC)**
+- 待审核 / Pending: **3**
+- 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **1**
+- Star 异常增长 / Star-growth alerts: **13** — 先看下方告警节 / see the alert section first
 
 审核决定记到数据文件后运行 `node scripts/merge.mjs` 生效：
 
@@ -42,7 +42,7 @@ See [data/review/README.md](./README.md) for the full convention.
 
 **Reviewers: start here.** Repositories that gained ≥100 stars in one snapshot interval, that lost ≥100 stars in one interval (GitHub clawing back farmed stars), or that would suddenly appear on / leap up the star board. Do extra analysis before approving them onto the board — a README check is not enough.
 
-对比上一份快照 **2026-11-01** / vs previous snapshot **2026-11-01**。规则：日增 ≥100★；单日净减 ≥100★（GitHub 批量清号回收的签名——被回收的星通常是刷的，余下星数也应视为虚高）；已核准仓新入 Top 200（且 Δ≥50）/ 名次跃升 ≥50 / 冲入 Top 20；待审仓 ≥100★ 且核准后将进入 Top 200。
+对比上一份快照 **2026-11-02** / vs previous snapshot **2026-11-02**。规则：日增 ≥100★；单日净减 ≥100★（GitHub 批量清号回收的签名——被回收的星通常是刷的，余下星数也应视为虚高）；已核准仓新入 Top 200（且 Δ≥50）/ 名次跃升 ≥50 / 冲入 Top 20；待审仓 ≥100★ 且核准后将进入 Top 200。
 
 - 看 Star 是否与 fork、提交活跃度、仓库年龄匹配（高星零 fork、创建当天几百星，多为刷星）
 - 单日大幅掉星 = 此前刷星被官方回收；刷星常贴着 +100★/日阈值之下滴灌增长，掉星往往是我们能机器检出的唯一痕迹
@@ -52,27 +52,30 @@ See [data/review/README.md](./README.md) for the full convention.
 
 Check stars against forks, commit activity and age (hundreds of stars on day one, or high stars with zero forks, usually look bought). A generic high-star project that only just tagged `dsh-plugin` can stay in the catalog but should go to `leaderboard_exclusions` (reason: stars accrued as …). If approving a pending repo would drop it into Top 20 / Top 200, confirm the audience is the DSH plugin itself.
 
-- 告警数 / Alerts: **12**
+- 告警数 / Alerts: **13**
 
 | Project | Queue | Stars | Δ | Forks | Age | Signals | 审核提示 / Hint |
 | --- | --- | ---: | ---: | ---: | ---: | --- | --- |
-| ⚠️ [yjl9903/AnimeGarden](https://github.com/yjl9903/AnimeGarden) | 待审 / pending | 1391 | — | 47 | 1303d | 待审高星 | 核准即 Top 16 |
-| ⚠️ [poco-ai/Agentero](https://github.com/poco-ai/Agentero) | 待审 / pending | 1072 | — | 83 | 117d | 待审高星 | 核准即榜 #22 |
-| ⚠️ [lxj5820/dsh-boot-animation](https://github.com/lxj5820/dsh-boot-animation) | 待审 / pending | 313 | — | 28 | 31d | 待审高星 | 核准即榜 #78 |
-| ⚠️ [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 已核准 / approved | 57248 | +1583 | 1559 | 38d | 日增百星 | 日增 +1583★；已不进榜单 |
-| ⚠️ [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot) | 已核准 / approved | 5101 | +267 | 475 | 25d | 日增百星 | 日增 +267★ |
-| ⚠️ [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | 已核准 / approved | 4665 | +188 | 96 | 77d | 日增百星 | 日增 +188★ |
-| ⚠️ [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 已核准 / approved | 10295 | +184 | 396 | 79d | 日增百星 | 日增 +184★；已不进榜单 |
-| ⚠️ [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) | 已核准 / approved | 5347 | +145 | 430 | 79d | 日增百星 | 日增 +145★ |
-| ⚠️ [SAOS-3624/dsh-see-now](https://github.com/SAOS-3624/dsh-see-now) | 已核准 / approved | 161 | +145 | 8 | 0d | 日增百星、新入 Top 200 | 日增 +145★；新入 Top 200 #147；创建 0 天 |
-| ⚠️ [JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design) | 已核准 / approved | 5887 | +136 | 452 | 147d | 日增百星 | 日增 +136★；已不进榜单 |
-| ⚠️ [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) | 已核准 / approved | 3708 | +136 | 310 | 87d | 日增百星 | 日增 +136★；已不进榜单 |
-| ⚠️ [liguobao/ds-harness-remote](https://github.com/liguobao/ds-harness-remote) | 已核准 / approved | 1318 | +117 | 118 | 79d | 日增百星 | 日增 +117★ |
+| ⚠️ [HunYiSage/dsh-purge](https://github.com/HunYiSage/dsh-purge) | 待审 / pending | 17033 | +832 | 3935 | 75d | 日增百星、待审高星 | 日增 +832★；核准即 Top 1 |
+| ⚠️ [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 待审 / pending | 37355 | — | 4827 | 211d | 待审高星 | 核准即 Top 1 |
+| ⚠️ [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 已核准 / approved | 58913 | +1665 | 1601 | 39d | 日增百星 | 日增 +1665★；已不进榜单 |
+| ⚠️ [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 已核准 / approved | 10511 | +216 | 402 | 80d | 日增百星 | 日增 +216★；已不进榜单 |
+| ⚠️ [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | 已核准 / approved | 4864 | +199 | 98 | 78d | 日增百星 | 日增 +199★ |
+| ⚠️ [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot) | 已核准 / approved | 5296 | +195 | 495 | 26d | 日增百星 | 日增 +195★ |
+| ⚠️ [liguobao/ds-harness-remote](https://github.com/liguobao/ds-harness-remote) | 已核准 / approved | 1495 | +177 | 134 | 80d | 日增百星 | 日增 +177★ |
+| ⚠️ [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) | 已核准 / approved | 3881 | +173 | 323 | 88d | 日增百星 | 日增 +173★；已不进榜单 |
+| ⚠️ [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) | 已核准 / approved | 5466 | +119 | 442 | 80d | 日增百星 | 日增 +119★ |
+| ⚠️ [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | 已核准 / approved | 5203 | +118 | 348 | 31d | 日增百星 | 日增 +118★；已不进榜单 |
+| ⚠️ [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 已核准 / approved | 6717 | +115 | 337 | 81d | 日增百星 | 日增 +115★ |
+| ⚠️ [op7418/dsh-guizang-design](https://github.com/op7418/dsh-guizang-design) | 已核准 / approved | 354 | +101 | 22 | 3d | 日增百星 | 日增 +101★ |
+| ⚠️ [SAOS-3624/dsh-see-now](https://github.com/SAOS-3624/dsh-see-now) | 已核准 / approved | 253 | +92 | 19 | 1d | 榜单跃升 | 榜单 148→93；创建 1 天 |
 
 
 | # | Project | Stars | Created | First seen | Description |
 | ---: | --- | ---: | ---: | ---: | --- |
-
+| 1 | [justinzyc271828-sys/dsh-baidu-netdisk](https://github.com/justinzyc271828-sys/dsh-baidu-netdisk) | 0 | 2026-11-03 | 2026-11-03 | Connect DeepSeek Harness to Baidu Netdisk's official MCP service. |
+| 2 | [justinzyc271828-sys/dsh-music](https://github.com/justinzyc271828-sys/dsh-music) | 0 | 2026-11-03 | 2026-11-03 | Music tools for DeepSeek Harness, starting with official Suno MCP credits and library access. |
+| 3 | [zxbingoo/harness-codex-cli-link](https://github.com/zxbingoo/harness-codex-cli-link) | 0 | 2026-11-03 | 2026-11-03 | Connect DeepSeek Harness to Codex CLI using its existing authentication and provider configuration, with Harness-owned tools. |
 
 ## 从快照消失的已核准仓库 / Approved repositories missing from the snapshot
 
@@ -80,4 +83,4 @@ Check stars against forks, commit activity and age (hundreds of stars on day one
 
 Approved but no longer present in the current snapshot (deleted or renamed) — after checking, remove them from [data/approved.json](../approved.json) or update the name.
 
-- （无 / none）
+- zxbingoo/dsh-codex-cli
