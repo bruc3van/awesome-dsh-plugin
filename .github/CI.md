@@ -27,7 +27,7 @@ flowchart TD
 | `expand-subscription-mappings.yml` | 每日 00:12、手动 | 未满 1000 时补充可核实映射、保存待复核项目；成功后衔接 v2 |
 | `refresh-market-v2.yml` | 快照或扩容成功、策展/映射/精选/生成依赖变更、手动 | 从快照、审批、策展、安装映射与精选直接生成并校验 v2 和预览 |
 | `refresh-host-market.yml` | v2 成功、宿主代码/索引变更、每日 22:47、手动 | 无写凭证生成；独立发布 job 验证 artifact 后原子发布 |
-| `publish-npm-feed.yml` | v2 成功、手动 | 回归测试、digest 去重、OIDC 发布；不取消进行中的发布 |
+| `publish-npm-feed.yml` | v2 成功、手动 | 回归测试、digest 去重、OIDC 发布，并刷新 jsDelivr 的 latest 与无版本别名缓存；不取消进行中的发布 |
 | `refresh-showcase.yml` | SHOWCASE.md 变更、手动 | 更新中英文 README 展示区 |
 | `reverify-packages.yml` | 每周一 23:33、手动 | 在线复核映射；仅报告，不改映射 |
 | `validate-pr.yml` | PR 打开、更新、改标题/标签等 | 从 base 执行规则校验，不执行 PR 代码 |

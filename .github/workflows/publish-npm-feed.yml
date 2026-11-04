@@ -54,3 +54,9 @@ jobs:
       # feedDigest as the registry's latest version → "nothing to do", exit 0.
       - name: Build and publish the feed package
         run: node scripts/publish-npm-feed.mjs --publish
+      - name: Refresh jsDelivr feed aliases
+        timeout-minutes: 2
+        run: |
+          for feed_alias in awesome-dsh-plugin-feed@latest awesome-dsh-plugin-feed; do
+            curl --fail --silent --show-error "https://purge.jsdelivr.net/npm/$feed_alias/data/market-v2.json"
+          done
