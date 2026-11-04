@@ -85,7 +85,7 @@ mindmap
 | 按热度翻完整榜单 | [社区热度榜](#-社区热度榜)（首页 Top 50）· [TOP200.md](./TOP200.md)（完整 Top 200） |
 | 按分类浏览全部项目 | [CATALOG.md](./CATALOG.md)（全量目录）· [生态全景](#-生态全景)（分类概览） |
 | 看看作者们自己提交的新插件 | [作者自荐](#-作者自荐)（首页最近 10 条）· [SHOWCASE.md](./SHOWCASE.md)（全部） |
-| 用程序消费插件数据 | [data/market.json](./data/market.json)——面向下游市场的精选文件（≤1000 条、≤1 MB，见[接口规范](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md)）；[data/repositories.json](./data/repositories.json)——每日自动快照，含星数、许可证、活跃度等元数据 |
+| 用程序消费插件数据 | [data/market.json](./data/market.json)——面向下游市场的精选文件（≤1000 条、≤1 MB，见[接口规范](https://github.com/bruc3van/safer-dsh-market/blob/master/docs/market-json-spec.md)）；[data/repositories.json](./data/repositories.json)——每日自动快照，含星数、许可证、活跃度等元数据 |
 | 收录或推荐你自己的插件 | [推荐或修正插件](#-推荐或修正插件) / [CONTRIBUTING](./CONTRIBUTING.md) |
 
 ## ⭐ 精选推荐
@@ -241,12 +241,12 @@ mindmap
 
 ### 🌱 生态入口
 
-- **想先审查、再安装插件（安全第一）**：[dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market) —— 先审查再安装的 DSH 市场：目录来自本清单每日快照 + 人工精选，「安全安装」不执行任何命令——把安全审查提示词交给 Agent 实际读仓库代码，确认干净后由你决定是否用官方命令安装；市场默认关闭、开启才联网，插件自身没有任何执行安装的接口。
+- **想先审查、再安装插件（安全第一）**：[safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) —— 先审查再安装的 DSH 市场：目录来自本清单每日快照 + 人工精选，「安全安装」不执行任何命令——把安全审查提示词交给 Agent 实际读仓库代码，确认干净后由你决定是否用官方命令安装；市场默认关闭、开启才联网，插件自身没有任何执行安装的接口。
 - **想在 DSH 界面里直接逛插件市场**：官方 DSH 0.2.1 起 Web/桌面端已内置「插件市场」标签页（目录即本清单每日快照）；第三方可装 [dsh-market](https://github.com/dsh-market/dsh-market) · [dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) —— dsh-market 提供浏览、搜索与创意工坊式分发；dsh-plugin-gating-hub 主打框架升级安全与插件门控（升级前契约预检、回滚点、失败自动回滚、有确证才自动禁用），附多源插件市场。
 
 | | | |
 | :---: | :---: | :---: |
-| <a href="https://github.com/bruc3van/dsh-desktop-safe-market"><img src="https://raw.githubusercontent.com/bruc3van/dsh-desktop-safe-market/master/assets/screenshots/marketplace.png" alt="dsh-desktop-safe-market" width="280"></a><br>[dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market) | <a href="https://github.com/dsh-market/dsh-market"><img src="https://raw.githubusercontent.com/dsh-market/dsh-market/main/assets/demo-en.png" alt="dsh-market" width="280"></a><br>[dsh-market](https://github.com/dsh-market/dsh-market) | <a href="https://github.com/Noob-stupid/dsh-plugin-gating-hub"><img src="https://raw.githubusercontent.com/Noob-stupid/dsh-plugin-gating-hub/main/docs/images/upgrade-safety-panel.png" alt="dsh-plugin-gating-hub · 升级安全面板" width="280"></a><br>[dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) |
+| <a href="https://github.com/bruc3van/safer-dsh-market"><img src="https://raw.githubusercontent.com/bruc3van/safer-dsh-market/master/assets/screenshots/marketplace.png" alt="safer-dsh-market" width="280"></a><br>[safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) | <a href="https://github.com/dsh-market/dsh-market"><img src="https://raw.githubusercontent.com/dsh-market/dsh-market/main/assets/demo-en.png" alt="dsh-market" width="280"></a><br>[dsh-market](https://github.com/dsh-market/dsh-market) | <a href="https://github.com/Noob-stupid/dsh-plugin-gating-hub"><img src="https://raw.githubusercontent.com/Noob-stupid/dsh-plugin-gating-hub/main/docs/images/upgrade-safety-panel.png" alt="dsh-plugin-gating-hub · 升级安全面板" width="280"></a><br>[dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) |
 
 ### 🚀 新手入门组合
 
@@ -255,7 +255,7 @@ mindmap
 | 套装 | 适合 | 组合 |
 | --- | --- | --- |
 | 日常体验 | 第一次装插件：先装桌面客户端，再把侧边栏变成工作台 | [dsh-desktop](https://github.com/bruc3van/dsh-desktop) · [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) |
-| 安全逛市场 | 先审查再安装；桌面端已内置，纯 Web 用户搜索安装 `bruc3van/dsh-desktop-safe-market` | [dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market) |
+| 安全逛市场 | 先审查再安装；桌面端已内置，纯 Web 用户搜索安装 `bruc3van/safer-dsh-market` | [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) |
 | 终端控 | 喜欢命令行，想要全屏交互终端（二选一） | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) |
 | 搜索与生图 | 对话里搜网页、直接出图（官方已能看图，不必再装视觉插件） | [modsearch](https://github.com/liustack/modsearch) · [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) |
 | 界面美化 | 换皮肤、玻璃质感、桌面宠物 | [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) · [DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) · [whale-girl](https://github.com/vlln/whale-girl) |
@@ -369,7 +369,7 @@ mindmap
 - **数据自动、页面人工：** 原始快照与待审核队列每天由脚本自动刷新；全量目录与 Top 200 热度榜只在人工核实合并后重新生成（生成逻辑见 [scripts/merge.mjs](./scripts/merge.mjs) 与 [scripts/top.mjs](./scripts/top.mjs)，可随时切回 Top 100）；首页精选推荐、自荐与最近加入由人工维护，避免刷星、蹭 Topic 等被污染的接口数据直接改写推荐内容。
 - **剔除蹭热度条目：** 带 `dsh-plugin` Topic 但并非 DSH 插件的仓库（平台本体、其他 Agent 工具、同名目录站等）以及编辑部拉黑的仓库不计入目录与榜单，理由逐条记录在 [data/curated.json](./data/curated.json)（榜单另有 `leaderboard_exclusions`：保留在目录中、但不参与榜单排序的仓库），可随时复查与质疑。
 - **审核留痕：** 每个收录决定都可回查——核准日期在 [data/approved.json](./data/approved.json)，剔除与榜单排除理由逐条记录在 [data/curated.json](./data/curated.json)；大批量复核另附叙述性存档（如 [2026-10-23 审核记录](./data/review/2026-10-23.md)），全流程约定见 [data/review/README.md](./data/review/README.md)。
-- **下游市场文件：** [data/market.json](./data/market.json) 是给下游市场（如 DSH 桌面端插件市场）消费的精选小文件——在快照与 curation 之上过滤、清洗并按类目均衡发牌（≤1000 条、≤1 MB），每日快照刷新与 curation 合并后自动重建；字段与生成规则见下游的[发布规范](https://github.com/bruc3van/dsh-desktop-safe-market/blob/master/docs/market-json-spec.md)。同一时序下同步生成根目录 [MARKET.md](./MARKET.md)——这份文件的只读可视化（按 Star 数排名），可在 GitHub 上直接预览市场内容，无需安装下游插件。
+- **下游市场文件：** [data/market.json](./data/market.json) 是给下游市场（如 DSH 桌面端插件市场）消费的精选小文件——在快照与 curation 之上过滤、清洗并按类目均衡发牌（≤1000 条、≤1 MB），每日快照刷新与 curation 合并后自动重建；字段与生成规则见下游的[发布规范](https://github.com/bruc3van/safer-dsh-market/blob/master/docs/market-json-spec.md)。同一时序下同步生成根目录 [MARKET.md](./MARKET.md)——这份文件的只读可视化（按 Star 数排名），可在 GitHub 上直接预览市场内容，无需安装下游插件。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
 截至 2026-11-03，全量目录收录 **23221** 个仓库、**40** 种主要语言；其中 **21239** 个声明了许可证，**22952** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
@@ -397,7 +397,7 @@ mindmap
 **作者维护**
 
 - **[dsh-desktop](https://github.com/bruc3van/dsh-desktop)** — 让 Agent 安全常驻桌面的独立 DeepSeek Harness 客户端。原汁原味的官方 Web UI，不做过多修改；关窗任务照跑，常驻托盘随点随开；安装包自带官方运行时，双击即用；智能模式复用已有实例、固定地址直连自己的实例。安全上逐层加固，内置安全市场最多精选 1000 款插件，先审查、再安装。（其内置市场的目录数据即来自本仓库的 [`market.json`](./data/market.json)。）
-- **[dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market)** — 先审查再安装的 DSH 市场（review-before-install DSH marketplace）。（消费本仓库 [`market.json`](./data/market.json) 的下游市场，DSH 桌面端内置的「插件市场」即由它实现。）
+- **[safer-dsh-market](https://github.com/bruc3van/safer-dsh-market)** — 先审查再安装的 DSH 市场（review-before-install DSH marketplace）。（消费本仓库 [`market.json`](./data/market.json) 的下游市场，DSH 桌面端内置的「插件市场」即由它实现。）
 - **[bruce-md2word](https://github.com/bruc3van/bruce-md2word)** — 面向 AI Agent 的 Markdown 转 Word 工具：中文排版、Mermaid 图表转图片、可编辑数学公式，同一份内容提供 Skill、独立 CLI 与 DSH 插件三种形态。（同见目录 [agents-workflows 分册](./catalog/agents-workflows.md)。）
 
 **官方仓库**

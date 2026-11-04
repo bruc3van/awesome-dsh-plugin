@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 // Validates data/market.json against §8 of the downstream publishing spec
-// (docs/market-json-spec.md in dsh-desktop-safe-market): envelope shape,
+// (docs/market-json-spec.md in safer-dsh-market): envelope shape,
 // slug/identity rules, the approved.json review gate, exclusion lists,
 // category keys, branch whitelist,
 // the per-category star-order invariant, size caps, and the text-cleaning

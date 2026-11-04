@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 // Generates data/market.json — the curated downstream-market file consumed by
-// dsh-desktop-safe-market — and MARKET.md, its human-readable twin, so the
+// safer-dsh-market — and MARKET.md, its human-readable twin, so the
 // feed can be previewed on GitHub without installing the plugin. The contract
 // lives in the downstream repo at docs/market-json-spec.md; this script is its
 // publishing half.
@@ -338,9 +338,9 @@ export function renderMarketMarkdown(envelope) {
     '',
     '[返回中文首页](./README.md) · [Back to English home](./README_EN.md) · [完整目录 / Full catalog](./CATALOG.md) · [Star 榜单 / Star board](./TOP200.md) · [JSON data](./data/market.json)',
     '',
-    '[data/market.json](./data/market.json) 的人类可读镜像——即 [dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market) 插件在桌面端渲染的同一份市场数据，由 `scripts/market.mjs` 随市场文件一同生成，供在 GitHub 上直接预览确认，无需安装插件；请勿手工编辑。下表按 Star 数排名，与插件「全部插件」视图一致；文件本身按类目均衡发牌顺序存储，插件默认仅展示其配置条数。',
+    '[data/market.json](./data/market.json) 的人类可读镜像——即 [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) 插件在桌面端渲染的同一份市场数据，由 `scripts/market.mjs` 随市场文件一同生成，供在 GitHub 上直接预览确认，无需安装插件；请勿手工编辑。下表按 Star 数排名，与插件「全部插件」视图一致；文件本身按类目均衡发牌顺序存储，插件默认仅展示其配置条数。',
     '',
-    'The human-readable twin of [data/market.json](./data/market.json) — the same market data the [dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market) plugin renders in the desktop app, generated alongside the feed by `scripts/market.mjs` so it can be previewed on GitHub without installing anything. Do not edit by hand. The table ranks by stars, matching the plugin\u2019s "All plugins" view; the feed itself is stored in balanced deal order, and the plugin shows only its configured prefix by default.',
+    'The human-readable twin of [data/market.json](./data/market.json) — the same market data the [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) plugin renders in the desktop app, generated alongside the feed by `scripts/market.mjs` so it can be previewed on GitHub without installing anything. Do not edit by hand. The table ranks by stars, matching the plugin\u2019s "All plugins" view; the feed itself is stored in balanced deal order, and the plugin shows only its configured prefix by default.',
     '',
     `- 生成时间 / Feed generated: **${envelope.generated_at}**`,
     `- 来源快照 / Source snapshot: **${envelope.source_fetched_at}**（${envelope.source_repo_count} 个仓库 / repositories scanned）`,

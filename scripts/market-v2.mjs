@@ -2,7 +2,7 @@
 
 // Generates data/market-v2.json — schema v2 of the downstream market feed.
 // v1 (data/market.json) stays the untouched wire contract for the current
-// dsh-desktop-safe-market consumer; v2 is its strict superset: the same
+// safer-dsh-market consumer; v2 is its strict superset: the same
 // entries, in the same published order, where every entry covered by the
 // hand-maintained install mapping (data/packages.json) additionally carries
 // a `packages` block — the exact thing to paste into the official

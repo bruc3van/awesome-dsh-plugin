@@ -120,7 +120,7 @@ async function writeReadme(version) {
     '',
     '| File | What it is |',
     '| --- | --- |',
-    '| `data/market.json` | v1 downstream feed (schema 1) — the wire contract dsh-desktop-safe-market consumes today |',
+    '| `data/market.json` | v1 downstream feed (schema 1) — the wire contract safer-dsh-market consumes today |',
     '| `data/market-v2.json` | v2 superset (schema 2) — same entries, mapped ones carry a `packages` block with `install` (paste-ready into the official 插件→添加插件 box: npm name or repo URL), `command`, requirements and verification |',
     '| `data/packages.json` | the hand-maintained install-target source of truth (includes entries outside the 600-entry feed) |',
     '',

@@ -44,7 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update.mjs
-      # data/market.json (the downstream dsh-desktop-safe-market feed) IS a pure
+      # data/market.json (the downstream safer-dsh-market feed) IS a pure
       # projection of the snapshot + approval gate + curation, so it is
       # regenerated here and shipped with the same commit, together with
       # MARKET.md (its preview page). Its generator carries the circuit
