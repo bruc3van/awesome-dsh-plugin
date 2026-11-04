@@ -347,13 +347,13 @@ mindmap
 | [Raven-Jackdaw/dsh-film-analysis](https://github.com/Raven-Jackdaw/dsh-film-analysis) | 影视画面分析器：一键拉片、8 维分析、自动分镜与 AI 镜头解读，自带 ffmpeg 与离线 OCR。 | 2026-11-03 |
 | [BlinB209/deepchess](https://github.com/BlinB209/deepchess) | 深棋：DSH 右侧栏像素风国际象棋，DeepSeek 娘「小鲸」坐镇，五档 AI 与本地存档。 | 2026-11-03 |
 | [ziz12138/dsh-lawcorpus](https://github.com/ziz12138/dsh-lawcorpus) | 法学选题对标语料库：四本 CLSCI 期刊 850 篇论文的结构化框架卡，纯本地离线。 | 2026-11-02 |
+| [Lumivox-wiz/memory-lattice](https://github.com/Lumivox-wiz/memory-lattice) | 会遗忘的记忆插件：短期记忆 48h 自动过期，长期记忆按 SM-2 艾宾浩斯曲线复习，久不用的沉进沉睡区（可唤醒）而不是无限撑爆上下文；长期写入停在审核中心等用户逐条批准，Agent 无法自行批准。npm `memory-lattice`@0.2.10，运行时零第三方依赖。 | 2026-11-03 |
 
 ## 📣 作者自荐
 
 插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 30 条，区满后先进先出；条目若被上方[精选推荐](#-精选推荐)收录，会从本区移除、不占名额。首页只展示**最近 10 条**，完整列表见 [SHOWCASE.md](./SHOWCASE.md)。
 
 <!-- dsh:showcase:start -->
-- **[dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume)**（[@Sutera-Diffusus](https://github.com/Sutera-Diffusus) · 2026-08-28）— 元气鲸鱼娘桌宠：摸头养成、工作状态联动、494 条台词与 30 项成就；v2.0.0 新增余额关心（本机代理，密钥不落地）、主动关怀、无障碍、成长日记与主题适配，全本地零遥测（MIT，102 项单测）。
 - **[dsh-mcp-manage](https://github.com/null119/dsh-mcp-manage)**（[@null119](https://github.com/null119) · 2026-09-04）— DSH Web GUI 的 MCP 服务器管理页：把全部已安装 MCP 工具按服务器分组列出（可展开），添加/编辑/删除、启用/停用 stdio 与 Streamable HTTP 服务器，运行时即时生效、无需重启宿主；组合配置（cordis.yml / patch）提供的 MCP 同样可在运行时直接编辑、停用、移除并恢复，编辑跨停用/启用保留、宿主重启后自动维持，源组合文件不被修改。MIT，14 项单元测试。
 - **[BOWLUNA/dsh-custom-mode](https://github.com/BOWLUNA/dsh-custom-mode)**（[@BOWLUNA](https://github.com/BOWLUNA) · 2026-09-19）— 在设置页里管理 dsh 模式：选基础组成、逐行开关插件、编辑系统提示词（下一步模型调用即生效），可并存多个助手。
 - **[dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager)**（[@xiajiajun516](https://github.com/xiajiajun516) · 2026-09-27）— DeepSeek Harness（DSH）配置的备份、恢复、导出、导入、迁移与同步：覆盖设置 / Provider / 插件 / MCP / 技能 / Agent 预设 / 工作区；写盘前先 dry-run 预览、冲突逐项决策、失败自动回滚，跨机自动重映射绝对路径；勾选「导出密钥」后凭据随加密快照迁移（scrypt + AES-256-GCM），另内置配置市场可一键安装共享配置。
@@ -363,6 +363,7 @@ mindmap
 - **[dsh-sieve](https://github.com/Sev7eEn7/dsh-sieve)**（[@Sev7eEn7](https://github.com/Sev7eEn7) · 2026-10-10）— 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪历史上下文并按需披露技能。
 - **[dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude)**（[@lcestou](https://github.com/lcestou) · 2026-10-13）— 把 Claude Code CLI 接入 DSH 作为模型提供方：用 `claude` 登录一次，在会话的模型选择器里选 Claude 模型即可，CLI 自带的权限模式、图片、续接与压缩都在 DSH 聊天里可用；DSH 的子智能体、后台任务和技能以 MCP 工具交给 Claude。工作区可通过 SSH 在另一台机器上运行 Claude。
 - **[dsh-zhihu-search](https://github.com/dsh-plugin-lab/dsh-zhihu-search)**（[@zlZayn](https://github.com/zlZayn) · 2026-10-27）— 把知乎检索接进 DSH：站内检索、全网检索与直答三个工具，走知乎开放平台官方 API 而非爬虫抓取，结果附带可引用的原始链接（站内结果另带点赞数），适合需要中文实时语料的研究与核查。
+- **[AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare)**（[@lijiaqi-AI-Product-Manager](https://github.com/lijiaqi-AI-Product-Manager) · 2026-11-04）— 在 DSH 主对话中体验两版 Vite 应用、执行统一检查并盲选，再结合项目当前改动审查采用结果；模型、时长与示例通过界面设置，复用已有模型配置，面向需要比较前端方案的开发者。
 <!-- dsh:showcase:end -->
 
 [查看全部 30 条自荐 →](./SHOWCASE.md)
