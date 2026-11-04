@@ -364,11 +364,19 @@ export const CATALOG_PAGE_WARN_BYTES = 850 * 1024;
 // (the README mindmap, market.json dealing) stays at category granularity.
 const VOLUME_SPLITS = {
   // Owner-letter byte share as of 2026-10-26 (A–M half hit 886 KB, past the 850 KB
-  // mark): A–F 49% / G–M 51% of the former A–M half; N–Z unchanged.
+  // mark): A–F 49% / G–M 51% of the former A–M half. Re-split as of 2026-11-04
+  // (N–Z half hit 881 KB): N–T 44% / U–Z 56% of the former N–Z half.
   'agents-workflows': [
     { key: 'agents-workflows', upTo: 'f', label: 'A–F' },
     { key: 'agents-workflows-g-m', upTo: 'm', label: 'G–M' },
-    { key: 'agents-workflows-n-z', upTo: 'z', label: 'N–Z' },
+    { key: 'agents-workflows-n-t', upTo: 't', label: 'N–T' },
+    { key: 'agents-workflows-u-z', upTo: 'z', label: 'U–Z' },
+  ],
+  // Owner-letter byte share as of 2026-11-04 (the single page hit 866 KB, past
+  // the 850 KB mark): A–M 58% / N–Z 42%.
+  'web-browser': [
+    { key: 'web-browser', upTo: 'm', label: 'A–M' },
+    { key: 'web-browser-n-z', upTo: 'z', label: 'N–Z' },
   ],
   // Owner-letter byte share as of 2026-10-15: A–L 52% / M–Z 48%.
   'ui-experience': [
