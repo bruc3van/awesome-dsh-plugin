@@ -10,25 +10,17 @@
 
 ## Subscribe in DSH Discover
 
-**Required version: DSH V0.2.1-rc.2 or later.** This requirement is for third-party subscriptions in the official Discover tab; individual plugins still have their own host compatibility requirements.
+**Required version: DSH V0.2.1-rc.2 or later** (for third-party subscriptions in the official Discover tab; individual plugins still have their own host requirements).
 
-**Subscription URL: [https://bruc3van.com/dsh-plugins/index.json](https://bruc3van.com/dsh-plugins/index.json)**
+**Subscription URL: [`https://bruc3van.com/dsh-plugins/index.json`](https://bruc3van.com/dsh-plugins/index.json)**
 
-```text
-https://bruc3van.com/dsh-plugins/index.json
-```
+1. **Enable custom markets:** **Plugins** in the left sidebar → **More** beside **Experimental plugins** → switch on **Custom plugin markets**; the Plugins page then shows the **Installed / Discover** tabs.
+2. **Add the subscription:** open **Discover**, click **Add index source** (or open the top-left market dropdown → **Manage index sources…**), paste the URL above, and click **Add**.
+3. **Browse and install:** pick **Bruce's Plugin Picks** in the market dropdown; filter by category (including Editor's Picks), keyword, npm/Git, recency, or stars, and check each plugin's version requirements before installing. Use **Refresh** to reload data.
 
-1. **Check the version:** upgrade DSH to **V0.2.1-rc.2 or later**.
-2. **Enable custom markets:** open **Plugins** in the left sidebar, click **More** beside **Experimental plugins**, and switch on **Custom plugin markets**. The Plugins page then shows the **Installed / Discover** tabs.
-3. **Open source settings:** select **Discover**. For the first source, click **Add index source**. If a market is already configured, open the market-name dropdown at the top left and select **Manage index sources…**.
-4. **Add the subscription:** paste the `index.json` URL above into **Index URL** and click **Add**. Confirm that it appears in the added sources list, then close the dialog. Sources are saved in the active profile.
-5. **Browse and install:** select **Bruce's Plugin Picks** in the market dropdown. Use **Refresh** to reload its data when needed. Search by category (including Editor's Picks), keyword, or npm/Git, recency, and star labels, and check each plugin's version requirements before installing.
+If the Discover tab is missing, check that DSH is ≥ V0.2.1-rc.2 and Custom plugin markets is enabled; the switch only unlocks the feature — the subscription URL still needs to be added manually. Subscribing in Discover **does not require `safer-dsh-market`** (that plugin is for a standalone interface, multiple-target installation, and post-install AI review), and the two switches are separate controls.
 
-If Discover is missing, check that you are running DSH V0.2.1-rc.2 or later and that Custom plugin markets is enabled. Enabling the feature does not add this subscription automatically; you still need to add its URL.
-
-Subscribing in the official Discover tab **does not require `safer-dsh-market`**. Install that plugin separately for its standalone interface, multiple-target installation, and optional post-install AI review. Custom plugin markets and the plugin's own Enable Safe Market switch are separate controls.
-
-The index verifies npm metadata and Git bundles pinned to full commits, including bundle declarations, timestamps, and explicit host compatibility ranges. After those checks, at most 1000 plugins are published, ranked by repository stars. Discover supports bilingual categories (including Editor's Picks), npm/Git plus recency and star labels, keyword search, and sorting by stars or repository update time. This is a subset of the repository catalog, and inclusion is not a security audit or proof of runtime compatibility.
+Inclusion criteria: only verified npm targets and Git bundles pinned to full commits are listed (unapproved, archived, disabled, blacklisted, and invalid-install-source repos are excluded), at most 1000 plugins ranked by stars. Inclusion is not a security audit or proof of runtime compatibility.
 
 [DSH Plugin Directory and subscription guide](https://bruc3van.com/dsh-plugins/#subscribe) · [Index generation and exclusions report](https://bruc3van.com/markets/dsh/audit.json) · [Latest market plugin](https://www.npmjs.com/package/safer-dsh-market)
 
