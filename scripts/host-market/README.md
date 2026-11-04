@@ -28,7 +28,7 @@ npm test --prefix scripts/host-market
 node scripts/host-market/refresh.mjs
 ```
 
-输入以社区 `data/market-v2.json`（含精选条目）为基础，并追加完整已批准目录中具备安装映射的仓库。候选先沿用审批、归档、禁用、黑名单及市场排除规则，再逐一核实 npm/Git 来源、bundle 和官方宿主兼容范围，并对安装包与 Git 来源中的仓库地址执行同一包级黑名单检查；`data/featured.json` 中的编辑推荐仓库本身豁免该包级检查——榜单排除针对 Star 数来源，不针对市场收录，人工精选即编辑决定，豁免以 `featured_repository_exempt` 诊断留痕。缺映射、手动安装、无效来源及同名冲突不会被转换或补造。全部合格条目按仓库 Star 数降序（同星按仓库名、插件名稳定排序）选取前 1000 个插件，不足 1000 时只发布实际通过核验的数量；`data/featured.json` 中已核验的编辑推荐条目会保留在这 1000 个名额内。报告 `candidateSelection` 记录候选来源与待核实数量，`selection` 记录合格总数、截断数及入选线 Star，`repositoryExclusions` 记录包级仓库排除；输入文件 SHA-256 用于追溯。社区 v1/v2 文件不受影响。
+输入以社区 `data/market-v2.json`（含精选条目）为基础，并追加完整已批准目录中具备安装映射的仓库。候选先沿用审批、归档、禁用、黑名单及市场排除规则，再逐一核实 npm/Git 来源、bundle 和官方宿主兼容范围，并对安装包与 Git 来源中的仓库地址执行同一包级黑名单检查；`data/featured.json` 中的编辑推荐仓库本身豁免该包级检查——榜单排除针对 Star 数来源，不针对市场收录，人工精选即编辑决定，豁免以 `featured_repository_exempt` 诊断留痕。缺映射、手动安装、无效来源及同名冲突不会被转换或补造。全部合格条目按仓库 Star 数降序（同星按仓库名、插件名稳定排序）选取前 1000 个插件，不足 1000 时只发布实际通过核验的数量；`data/featured.json` 中已核验的编辑推荐条目会保留在这 1000 个名额内。报告 `candidateSelection` 记录候选来源与待核实数量，`selection` 记录合格总数、截断数及入选线 Star，`repositoryExclusions` 记录包级仓库排除；输入文件 SHA-256 用于追溯。社区 market-v2 文件不受影响。
 
 输出使用固定 `@deepseek-ai/dsh-plugin-market-index@0.2.1-alpha.5` 校验。兼容范围复用官方 `dshRange`：优先使用显式 `engines.dsh`，否则求 DSH peerDependencies 范围交集；无约束时省略 engines，不填造 `*`。无效范围或空交集仍排除。
 
@@ -38,6 +38,12 @@ node scripts/host-market/refresh.mjs
 - **不支持**：直接 tarball 安装地址、短 commit、无效 URL/目录分别给出明确原因。短 commit 不猜测补全。手动安装说明不转换。
 
 图标最多内联 32 KiB。包内超过内联上限、但通过参考读取器大小检查的图标压缩为不超过 96px 的静态 WebP 后内联；报告记录输入输出摘要和字节数，无法转换时省略并给出警告，不使用猜测的头像或第三方图片。现有站点无需新增文件路由。底层文件读取组件来自固定宿主提交，许可证和文件摘要见 [vendor](vendor/README.md)。npm、Git 和核验工具均调用同一官方兼容范围解析器；无范围限制不代表已通过实机兼容验证。
+
+## 编辑推荐数量
+
+`data/featured.json` 维护 50 个推荐仓库，`expected_repository_count: 50` 指定推荐来源应有的仓库数。仓库与插件分别计数：宝玉设计对应三个插件；天枢 TUI 需手动安装、Univer Office 超出包体积上限，两项继续留在推荐来源中，但不会被伪造为订阅安装项。当前核验结果为 50 个可安装插件；一个仓库发布多个合格插件时，线上插件数可以超过 50。
+
+生成、覆盖 data 和发布前校验都检查推荐来源的仓库数；与配置值不符时保留旧发布并报错，防止仅更新首页或部分数据却被报告为升级完成。生成报告的 `summary.featuredRepositories / featuredPlugins / expectedFeaturedRepositories` 分别记录来源仓库数、实际插件数和预期仓库数。数量要求不放宽安装来源、bundle、完整性和兼容范围的检查。
 
 ## 报告含义
 
@@ -51,7 +57,7 @@ node scripts/host-market/refresh.mjs
 
 每日目录更新成功后，经 v2 工作流自动触发；映射、审批、排除规则及生成器变更也触发，并保留每日定时兜底。索引不足 1000 时，`expand-subscription-mappings.yml` 将已取证且身份可追溯的未映射仓库追加进 `data/packages.json`，并继续核验下一批高 Star 仓库；已有映射不改写，模板和身份不清的条目留给 `mapping-pending.md`。每日重新选取完整已批准且已映射候选，按 Star 排序取通过核验的前 1000 个插件，不为凑数降低核验标准。先生成 `.output/host-market/` 候选，校验数量、排序、报告哈希后才更新 data。来源读取失败、空索引、超过 1000 条或条目数低于旧索引的 80% 时不覆盖线上数据；失败候选保留为 Actions artifact 7 天。明确不存在或有歧义的引用作为排除记录，不伪装成网络错误。
 
-索引和报告在同一 Git 提交中更新。只读任务安装依赖、取证及校验；独立发布任务只下载本次运行的数据产物，不安装依赖或执行产物。发布记录包含生成提交、触发提交、运行 ID 和两个文件的 SHA-256，main 与 market-release 以原子推送同步更新。主分支移动导致推送失败时保留旧发布，重新运行工作流以重新生成，不复用过期候选。原 v1/v2 和 npm feed 流程独立运行。网站部署凭据不进入公开仓库。
+索引和报告在同一 Git 提交中更新。只读任务安装依赖、取证及校验；独立发布任务只下载本次运行的数据产物，不安装依赖或执行产物。发布记录包含生成提交、触发提交、运行 ID 和两个文件的 SHA-256，main 与 market-release 以原子推送同步更新。主分支移动导致推送失败时保留旧发布，重新运行工作流以重新生成，不复用过期候选。社区 market-v2 生成及 npm 分发各有独立流程。网站部署凭据不进入公开仓库。
 
 Cloudflare Pages Function 读取 `market-release` 指向的不可变发布记录，核对成功的生成任务、索引与报告摘要后分发 JSON，不重定向，也不接受自定义上游目标。当前发布读取失败时使用随网站部署的已校验备用快照，并通过 `X-Market-Fallback` 标注；显式指定版本不可用时返回 503，不替换为其他版本。成功发布的数据源更新无需重新构建个人站点。
 

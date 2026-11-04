@@ -1,4 +1,4 @@
-name: Refresh snapshot, review queue, and market file
+name: Refresh snapshot and review queue
 
 on:
   schedule:
@@ -44,15 +44,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update.mjs
-      # data/market.json (the downstream safer-dsh-market feed) IS a pure
-      # projection of the snapshot + approval gate + curation, so it is
-      # regenerated here and shipped with the same commit, together with
-      # MARKET.md (its preview page). Its generator carries the circuit
-      # breaker (a collapsed pool aborts the run and keeps yesterday's file).
-      - name: Generate the downstream market file
-        run: node scripts/market.mjs
-      - name: Validate the downstream market file
-        run: node scripts/validate-market.mjs
+      # The successful snapshot run triggers refresh-market-v2.yml, the sole
+      # producer of the market feed and MARKET.md.
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
@@ -63,19 +56,19 @@ jobs:
           mkdir -p "$crawl"
           cp data/repositories.json data/review/pending.json "$crawl/"
           stage() {
-            git add data/repositories.json data/review data/market.json MARKET.md
+            git add data/repositories.json data/review
             if git diff --cached --quiet; then
-              echo "Snapshot, review queue and market file are already current — nothing to commit."
+              echo "Snapshot and review queue are already current — nothing to commit."
               exit 0
             fi
-            git commit -m "data: refresh dsh-plugin snapshot, review queue, and market file"
+            git commit -m "data: refresh dsh-plugin snapshot and review queue"
           }
           stage
           # A maintainer push or another data workflow (they no longer share
           # a concurrency group) can land between checkout and here. Rebasing
           # would conflict on the generated files every one of them writes,
           # so instead: move onto the new tip, restore today's crawl, and
-          # rebuild the review queue and the market against the tip's
+          # rebuild the review queue against the tip's
           # approved.json / curated.json. pending.json is restored first so
           # first_seen dates and today's star-growth alerts carry over.
           for attempt in 1 2 3; do
@@ -89,8 +82,6 @@ jobs:
             cp "$crawl/repositories.json" data/repositories.json
             cp "$crawl/pending.json" data/review/pending.json
             node scripts/update.mjs --from-snapshot
-            node scripts/market.mjs
-            node scripts/validate-market.mjs
             stage
           done
           echo "Push still rejected after 3 attempts."

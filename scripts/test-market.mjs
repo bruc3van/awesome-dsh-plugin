@@ -1,4 +1,4 @@
-// Tests for the market.json pipeline (scripts/market.mjs), run with
+// Tests for shared market pool selection and the current feed CLI, run with
 //   node --test scripts/test-market.mjs
 // The circuit-breaker tests are the spec's DoD: a pool collapse must never
 // overwrite the previously published file.
@@ -19,9 +19,9 @@ import {
   isSafeBranchName,
   MAX_FILE_BYTES,
   renderMarketMarkdown,
-  runMarket,
   SCHEMA_VERSION,
-} from './market.mjs';
+} from './market-pool.mjs';
+import { runMarketV2 as runMarket } from './market-v2.mjs';
 import { categoryFallback } from './categories.mjs';
 import { escapeCell } from './markdown.mjs';
 
@@ -295,7 +295,7 @@ test('buildMarket publishes a valid envelope in the spec field order', () => {
     'pool_count',
     'entries',
   ]);
-  assert.equal(result.envelope.schema_version, 1);
+  assert.equal(result.envelope.schema_version, 2);
   assert.equal(result.envelope.generated_at, '2026-08-16T01:30:00.000Z');
   assert.equal(result.envelope.source_fetched_at, s.fetched_at);
   assert.equal(result.envelope.source_repo_count, 1);
@@ -412,6 +412,7 @@ test('the CLI never overwrites the previous file when the breaker fires', async 
     JSON.stringify(snapshot([repo({ id: 1, full_name: 'o/one' })])),
   );
   await writeFile(resolve(dir, 'data/curated.json'), JSON.stringify(curated()));
+  await writeFile(resolve(dir, 'data/packages.json'), JSON.stringify({ schema_version: 1, entries: {} }));
   await writeFile(
     resolve(dir, 'data/approved.json'),
     JSON.stringify(approveAll(JSON.parse(await readFile(resolve(dir, 'data/repositories.json'), 'utf8')))),
@@ -421,13 +422,13 @@ test('the CLI never overwrites the previous file when the breaker fires', async 
     generated_at: '2026-08-15T01:00:00.000Z',
     source_fetched_at: '2026-08-15T01:00:00.000Z',
   });
-  await writeFile(resolve(dir, 'data/market.json'), JSON.stringify(prev));
+  await writeFile(resolve(dir, 'data/market-v2.json'), JSON.stringify(prev));
 
-  const outcome = await runMarket({ rootDir: dir, argv: ['node', 'market.mjs', '--from-snapshot'] });
+  const outcome = await runMarket({ rootDir: dir, argv: ['node', 'market-v2.mjs', '--from-snapshot'] });
   assert.equal(outcome, 'aborted');
 
   // Spec §6: yesterday's data must survive the aborted run bit for bit.
-  const kept = JSON.parse(await readFile(resolve(dir, 'data/market.json'), 'utf8'));
+  const kept = JSON.parse(await readFile(resolve(dir, 'data/market-v2.json'), 'utf8'));
   assert.deepEqual(kept, prev);
 });
 
@@ -464,7 +465,7 @@ test('renderMarketMarkdown ranks by stars, links repos, and escapes cell hazards
   assert.ok(rollup.endsWith('| 2 |'), 'both entries are counted once each');
 });
 
-test('runMarket writes MARKET.md beside market.json and leaves both untouched when the breaker fires', async () => {
+test('runMarket writes MARKET.md beside market-v2.json and leaves both untouched when the breaker fires', async () => {
   const dir = await mkdtemp(resolve(tmpdir(), 'market-md-'));
   await mkdir(resolve(dir, 'data'));
   await writeFile(
@@ -475,14 +476,15 @@ test('runMarket writes MARKET.md beside market.json and leaves both untouched wh
     ])),
   );
   await writeFile(resolve(dir, 'data/curated.json'), JSON.stringify(curated()));
+  await writeFile(resolve(dir, 'data/packages.json'), JSON.stringify({ schema_version: 1, entries: {} }));
   await writeFile(
     resolve(dir, 'data/approved.json'),
     JSON.stringify(approveAll(JSON.parse(await readFile(resolve(dir, 'data/repositories.json'), 'utf8')))),
   );
 
-  const first = await runMarket({ rootDir: dir, argv: ['node', 'market.mjs', '--from-snapshot'] });
+  const first = await runMarket({ rootDir: dir, argv: ['node', 'market-v2.mjs', '--from-snapshot'] });
   assert.equal(first, 'written');
-  const json = await readFile(resolve(dir, 'data/market.json'), 'utf8');
+  const json = await readFile(resolve(dir, 'data/market-v2.json'), 'utf8');
   const page = await readFile(resolve(dir, 'MARKET.md'), 'utf8');
   assert.ok(page.includes('[o/two](https://github.com/o/two)'));
   assert.ok(page.endsWith('\n'));
@@ -491,15 +493,15 @@ test('runMarket writes MARKET.md beside market.json and leaves both untouched wh
   // breaker: the run aborts and both artifacts survive bit for bit.
   const published = JSON.parse(json);
   const inflated = { ...published, pool_count: 100 };
-  await writeFile(resolve(dir, 'data/market.json'), JSON.stringify(inflated));
+  await writeFile(resolve(dir, 'data/market-v2.json'), JSON.stringify(inflated));
 
-  const second = await runMarket({ rootDir: dir, argv: ['node', 'market.mjs', '--from-snapshot'] });
+  const second = await runMarket({ rootDir: dir, argv: ['node', 'market-v2.mjs', '--from-snapshot'] });
   assert.equal(second, 'aborted');
-  assert.equal(await readFile(resolve(dir, 'data/market.json'), 'utf8'), JSON.stringify(inflated));
+  assert.equal(await readFile(resolve(dir, 'data/market-v2.json'), 'utf8'), JSON.stringify(inflated));
   assert.equal(await readFile(resolve(dir, 'MARKET.md'), 'utf8'), page);
 });
 
-test('an unchanged run self-heals a stale MARKET.md without touching market.json', async () => {
+test('an unchanged run self-heals a stale MARKET.md without touching market-v2.json', async () => {
   const dir = await mkdtemp(resolve(tmpdir(), 'market-md-heal-'));
   await mkdir(resolve(dir, 'data'));
   await writeFile(
@@ -507,18 +509,19 @@ test('an unchanged run self-heals a stale MARKET.md without touching market.json
     JSON.stringify(snapshot([repo({ id: 1, full_name: 'o/one', stargazers_count: 3 })])),
   );
   await writeFile(resolve(dir, 'data/curated.json'), JSON.stringify(curated()));
+  await writeFile(resolve(dir, 'data/packages.json'), JSON.stringify({ schema_version: 1, entries: {} }));
   await writeFile(
     resolve(dir, 'data/approved.json'),
     JSON.stringify(approveAll(JSON.parse(await readFile(resolve(dir, 'data/repositories.json'), 'utf8')))),
   );
 
-  assert.equal(await runMarket({ rootDir: dir, argv: ['node', 'market.mjs', '--from-snapshot'] }), 'written');
-  const frozenJson = await readFile(resolve(dir, 'data/market.json'), 'utf8');
+  assert.equal(await runMarket({ rootDir: dir, argv: ['node', 'market-v2.mjs', '--from-snapshot'] }), 'written');
+  const frozenJson = await readFile(resolve(dir, 'data/market-v2.json'), 'utf8');
   const expectedPage = await readFile(resolve(dir, 'MARKET.md'), 'utf8');
 
   await writeFile(resolve(dir, 'MARKET.md'), 'a stale hand edit\n');
-  const again = await runMarket({ rootDir: dir, argv: ['node', 'market.mjs', '--from-snapshot'] });
+  const again = await runMarket({ rootDir: dir, argv: ['node', 'market-v2.mjs', '--from-snapshot'] });
   assert.equal(again, 'unchanged');
-  assert.equal(await readFile(resolve(dir, 'data/market.json'), 'utf8'), frozenJson);
+  assert.equal(await readFile(resolve(dir, 'data/market-v2.json'), 'utf8'), frozenJson);
   assert.equal(await readFile(resolve(dir, 'MARKET.md'), 'utf8'), expectedPage);
 });

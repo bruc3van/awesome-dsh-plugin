@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, mkdir, cp, writeFile, readFile, rm } from 'node:fs/promises';
+import { mkdtemp, mkdir, cp, writeFile, readFile, readdir, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -12,7 +12,7 @@ async function fixture(t) {
   t.after(() => rm(root, { recursive: true, force: true }));
   await mkdir(resolve(root, 'scripts'));
   await cp(resolve(repo, 'data'), resolve(root, 'data'), { recursive: true });
-  for (const name of ['publish-npm-feed', 'validate-packages', 'validate-market-v2', 'market-v2', 'readme-install']) {
+  for (const name of ['publish-npm-feed', 'validate-packages', 'validate-market-v2', 'market-v2', 'readme-install', 'market-pool', 'categories', 'markdown', 'validate-market-entries']) {
     await cp(resolve(repo, `scripts/${name}.mjs`), resolve(root, `scripts/${name}.mjs`));
   }
   return root;
@@ -46,7 +46,7 @@ test('registry errors block publishing but permit an explicitly offline build', 
   assert.equal((await run(root, "throw new Error('timeout')", false)).status, 0);
 });
 
-test('inconsistent v1/v2 snapshots never reach npm', async (t) => {
+test('invalid market snapshots never reach npm', async (t) => {
   const root = await fixture(t);
   const file = resolve(root, 'data/market-v2.json');
   const v2 = JSON.parse(await readFile(file, 'utf8'));
@@ -62,6 +62,7 @@ test('first publication, version bump and digest no-op', async (t) => {
   const first = await run(root, 'return {status:404,ok:false}');
   assert.equal(first.status, 0, first.stderr);
   assert.match(first.stdout, /MOCK_NPM_PUBLISH/);
+  assert.deepEqual((await readdir(resolve(root, 'dist-npm/data'))).sort(), ['market-v2.json', 'packages.json']);
   const manifest = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
   const doc = { 'dist-tags': { latest: manifest.version }, versions: { [manifest.version]: manifest } };
   const response = () => `return {ok:true,status:200,json:async()=>(${JSON.stringify(doc)})}`;

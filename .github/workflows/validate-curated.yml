@@ -6,7 +6,6 @@ on:
       - 'data/curated.json'
       - 'data/approved.json'
       - 'data/packages.json'
-      - 'data/market.json'
       - 'data/market-v2.json'
       - 'CATALOG.md'
       - 'catalog/**'
@@ -89,14 +88,9 @@ jobs:
         run: node scripts/top.mjs
       # The feeds are regenerated from the PR's own curation state so the
       # validators check what main would publish after this PR merges (the
-      # committed files are refreshed by refresh-market.yml /
-      # refresh-market-v2.yml on push to main).
+      # committed files are refreshed by refresh-market-v2.yml on push to main).
       - name: Validate the packages mapping
         run: node scripts/validate-packages.mjs
-      - name: Rebuild the downstream market file from the stored snapshot
-        run: node scripts/market.mjs --from-snapshot
-      - name: Validate the downstream market file
-        run: node scripts/validate-market.mjs
       - name: Rebuild the v2 market feed
         run: node scripts/market-v2.mjs
       - name: Validate the v2 market feed

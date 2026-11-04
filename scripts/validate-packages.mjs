@@ -194,7 +194,7 @@ for (const [slug, entry] of Object.entries(entries)) {
     errors.push(`${slug}: excluded_repos entry must not carry a packages mapping`);
   }
   if (leaderboardNames.has(slug) || marketExcludedNames.has(slug)) {
-    warnings.push(`${slug}: catalog-only repo (leaderboard/market-excluded) — recorded, but it will not appear in market.json`);
+    warnings.push(`${slug}: catalog-only repo (leaderboard/market-excluded) — recorded, but it will not appear in market-v2.json`);
   }
 }
 

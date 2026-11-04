@@ -376,6 +376,8 @@ export async function generateIndex(
   parseMarketIndex(index, INDEX_URL)
   return {
     index,
+    featuredRepositoryCount: featured.size,
+    expectedFeaturedRepositoryCount: feed.featured?.expected_repository_count,
     diagnostics,
     candidates: entries.length + gitEntries.length,
     npmCandidates: entries.length,
@@ -398,9 +400,10 @@ async function main() {
       'Usage: node scripts/host-market/generate.mjs <market-v2.json> <output.json>',
     )
   const raw = await readFile(feedPath)
+  const feed = JSON.parse(raw)
   const evidence = []
   const result = await generateIndex(
-    JSON.parse(raw),
+    feed,
     async (name) => {
       const url = `${REGISTRY}${encodeURIComponent(name)}`
       const response = await fetch(url, {
@@ -489,6 +492,9 @@ async function main() {
       includedGit: result.index.plugins.filter(
         (p) => p.versions[0].source.type === 'git',
       ).length,
+      featuredRepositories: result.featuredRepositoryCount,
+      featuredPlugins: result.index.plugins.filter(plugin => plugin.metadata?.category === 'featured').length,
+      expectedFeaturedRepositories: result.expectedFeaturedRepositoryCount,
       diagnosticsByCode: reasons,
       counting:
         '候选按 npm 包或 Git 目标去重；诊断可按版本/路径多条记录，不等于独立插件数量',
@@ -503,7 +509,7 @@ async function main() {
     indexSha256: createHash('sha256').update(serialized).digest('hex'),
     fetchFailures: result.fetchFailures,
     generatedAt: new Date().toISOString(),
-    ...(JSON.parse(raw).subscriptionCandidates ? { candidateSelection: JSON.parse(raw).subscriptionCandidates } : {}),
+    ...(feed.subscriptionCandidates ? { candidateSelection: feed.subscriptionCandidates } : {}),
     feedSha256: createHash('sha256').update(raw).digest('hex'),
     candidates: result.candidates,
     included: result.index.plugins.length,

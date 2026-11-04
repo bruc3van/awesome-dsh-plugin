@@ -14,7 +14,7 @@
 //        curated.json) — a curation change that moves catalog membership must
 //        ship its regenerated pages, which validate-curated.yml enforces with
 //        `merge.mjs --check`;
-//      - feed files (data/market.json, MARKET.md, data/market-v2.json,
+//      - feed files (MARKET.md, data/market-v2.json,
 //        data/review/packages-pending.md) are accepted only alongside
 //        scripts/ changes — on main they are rebuilt by refresh-market /
 //        refresh-market-v2 after the merge.
@@ -96,7 +96,7 @@ const touchesWorkflow = (path) => path === '.github' || path.startsWith('.github
 const isCatalogPage = (path) =>
   path === 'CATALOG.md' || path === 'TOP200.md' || path === 'catalog' || path.startsWith('catalog/');
 const isFeedFile = (path) =>
-  path === 'MARKET.md' || path === 'data/market.json' || path === 'data/market-v2.json' ||
+  path === 'MARKET.md' || path === 'data/market-v2.json' ||
   path === 'data/review/packages-pending.md' ||
   path === 'data/dsh-market-index.json' || path === 'data/dsh-market-index.report.json';
 const isPipeline = (path) =>

@@ -1,10 +1,4 @@
-#!/usr/bin/env node
-
-// Generates data/market.json — the curated downstream-market file consumed by
-// safer-dsh-market — and MARKET.md, its human-readable twin, so the
-// feed can be previewed on GitHub without installing the plugin. The contract
-// lives in the downstream repo at docs/market-json-spec.md; this script is its
-// publishing half.
+// Shared market pool selection and Markdown preview; no legacy feed is published.
 //
 // The file is a pure projection of data/repositories.json (the raw topic
 // snapshot) + data/approved.json (the review gate) + data/curated.json (the
@@ -21,15 +15,10 @@
 // when the payload actually changed (same snapshot + same curation = keep the
 // old file, old generated_at included, so nothing gets re-committed).
 
-import { appendFile, readFile, writeFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
-import { fileURLToPath, pathToFileURL } from 'node:url';
 import { assignableCategories, categoryFallback, categoryRules } from './categories.mjs';
 import { escapeCell } from './markdown.mjs';
 
-const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-
-export const SCHEMA_VERSION = 1;
+export const SCHEMA_VERSION = 2;
 export const MAX_ENTRIES = 1000;
 export const MAX_FILE_BYTES = 1024 * 1024;
 export const MARKDOWN_OUTPUT = 'MARKET.md';
@@ -226,7 +215,12 @@ export function dealEntries(entries, maxEntries = MAX_ENTRIES) {
 //   { outcome: 'unchanged', envelope, poolCount, warnings }  — nothing to do
 //   { outcome: 'aborted', reason, poolCount }                — breaker fired
 export function buildMarket({ snapshot, curated, approved, previous = null, now = new Date(), maxBytes = MAX_FILE_BYTES }) {
-  const { repos, warnings } = filterPool(snapshot, curated, approved);
+  const overrides = new Map(Object.entries(curated.description_overrides || {}).map(([slug, value]) => [slug.toLowerCase(), value]));
+  const effectiveSnapshot = { ...snapshot, repositories: snapshot.repositories.map((repo) => {
+    const description = overrides.get(repo.full_name.toLowerCase());
+    return typeof description === 'string' && description.trim() ? { ...repo, description } : repo;
+  }) };
+  const { repos, warnings } = filterPool(effectiveSnapshot, curated, approved);
   const pool = dedupById(repos.map(({ repo, category }) => buildEntry(repo, category)));
   const poolCount = pool.length;
   const dealt = dealEntries(pool);
@@ -240,7 +234,7 @@ export function buildMarket({ snapshot, curated, approved, previous = null, now 
   if (previous && poolCount < previous.pool_count * BREAKER_RATIO) {
     return {
       outcome: 'aborted',
-      reason: `pool_count ${poolCount} is below ${Math.round(BREAKER_RATIO * 100)}% of the previously published pool (${previous.pool_count}) — keeping the previous market.json`,
+      reason: `pool_count ${poolCount} is below ${Math.round(BREAKER_RATIO * 100)}% of the previously published pool (${previous.pool_count}) — keeping the previous market-v2.json`,
       poolCount,
     };
   }
@@ -311,7 +305,7 @@ export function buildMarket({ snapshot, curated, approved, previous = null, now 
 // owner-written, so markup must render as literal text.
 const mdCell = escapeCell;
 
-// MARKET.md — the readable twin of data/market.json. Bilingual, like
+// MARKET.md — the readable twin of data/market-v2.json. Bilingual, like
 // CATALOG.md / TOP200.md. Ranked by stars because that is the order the
 // consumer's "All plugins" view shows; the feed itself stays in deal order
 // (§4.4), and the consumer truncates it to its configured size — every row
@@ -336,11 +330,11 @@ export function renderMarketMarkdown(envelope) {
   return [
     '# 下游市场文件预览 / Downstream market feed preview',
     '',
-    '[返回中文首页](./README.md) · [Back to English home](./README_EN.md) · [完整目录 / Full catalog](./CATALOG.md) · [Star 榜单 / Star board](./TOP200.md) · [JSON data](./data/market.json)',
+    '[返回中文首页](./README.md) · [Back to English home](./README_EN.md) · [完整目录 / Full catalog](./CATALOG.md) · [Star 榜单 / Star board](./TOP200.md) · [JSON data](./data/market-v2.json)',
     '',
-    '[data/market.json](./data/market.json) 的人类可读镜像——即 [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) 插件在桌面端渲染的同一份市场数据，由 `scripts/market.mjs` 随市场文件一同生成，供在 GitHub 上直接预览确认，无需安装插件；请勿手工编辑。下表按 Star 数排名，与插件「全部插件」视图一致；文件本身按类目均衡发牌顺序存储，插件默认仅展示其配置条数。',
+    '[data/market-v2.json](./data/market-v2.json) 的人类可读镜像——即 [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) 插件在桌面端渲染的同一份市场数据，由 `scripts/market-v2.mjs` 随市场文件一同生成，供在 GitHub 上直接预览确认，无需安装插件；请勿手工编辑。下表按 Star 数排名，与插件「全部插件」视图一致；文件本身按类目均衡发牌顺序存储，插件默认仅展示其配置条数。',
     '',
-    'The human-readable twin of [data/market.json](./data/market.json) — the same market data the [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) plugin renders in the desktop app, generated alongside the feed by `scripts/market.mjs` so it can be previewed on GitHub without installing anything. Do not edit by hand. The table ranks by stars, matching the plugin\u2019s "All plugins" view; the feed itself is stored in balanced deal order, and the plugin shows only its configured prefix by default.',
+    'The human-readable twin of [data/market-v2.json](./data/market-v2.json) — the same market data the [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) plugin renders in the desktop app, generated alongside the feed by `scripts/market-v2.mjs` so it can be previewed on GitHub without installing anything. Do not edit by hand. The table ranks by stars, matching the plugin\u2019s "All plugins" view; the feed itself is stored in balanced deal order, and the plugin shows only its configured prefix by default.',
     '',
     `- 生成时间 / Feed generated: **${envelope.generated_at}**`,
     `- 来源快照 / Source snapshot: **${envelope.source_fetched_at}**（${envelope.source_repo_count} 个仓库 / repositories scanned）`,
@@ -359,132 +353,4 @@ export function renderMarketMarkdown(envelope) {
     '| ---: | --- | --- | --- | --- | ---: | --- | --- |',
     ...rows,
   ].join('\n');
-}
-
-async function summaryBlock(title, body) {
-  if (!process.env.GITHUB_STEP_SUMMARY) return;
-  await appendFile(process.env.GITHUB_STEP_SUMMARY, `### ${title}\n\n${body}\n\n`);
-}
-
-// MARKET.md is a projection of the published feed, so it is rewritten whenever
-// the feed is — and self-healed even on an 'unchanged' run, so a stale or
-// hand-edited page cannot outlive the run that notices it. Aborted and
-// oversize runs touch nothing: the page must keep describing the feed that is
-// actually published, which is still yesterday's.
-async function syncMarkdown(envelope, rootDir) {
-  const page = `${renderMarketMarkdown(envelope)}\n`;
-  const target = resolve(rootDir, MARKDOWN_OUTPUT);
-  let current = null;
-  try {
-    current = await readFile(target, 'utf8');
-  } catch {
-    // First run — no page to compare against yet.
-  }
-  if (current === page) return;
-  await writeFile(target, page);
-  console.log(
-    `Wrote ${MARKDOWN_OUTPUT} — the readable twin of data/market.json (${envelope.entries.length} entries).`,
-  );
-}
-
-// The CLI body, exported so tests can run it against a scratch root and assert
-// that an aborted run never touches the previous file. Returns the outcome:
-// 'written' | 'unchanged' | 'aborted' | 'oversize'.
-export async function runMarket({ rootDir = root, argv = process.argv } = {}) {
-  const fromSnapshot = argv.includes('--from-snapshot');
-  const [snapshot, curated, approved] = await Promise.all([
-    readFile(resolve(rootDir, 'data/repositories.json'), 'utf8').then(JSON.parse),
-    readFile(resolve(rootDir, 'data/curated.json'), 'utf8').then(JSON.parse),
-    readFile(resolve(rootDir, 'data/approved.json'), 'utf8').then(JSON.parse),
-  ]);
-  // Same editorial description fixes as scripts/render.mjs loadState: applied
-  // to the in-memory snapshot only (the stored file mirrors the API). A repo
-  // whose upstream description is permanently unreadable mojibake must not
-  // reach the downstream market in that state, should it ever enter the feed.
-  const descriptionOverrides = new Map(
-    Object.entries(curated.description_overrides || {}).map(([fullName, description]) => [
-      fullName.toLowerCase(),
-      description,
-    ]),
-  );
-  for (const repo of snapshot.repositories) {
-    const override = descriptionOverrides.get(repo.full_name.toLowerCase());
-    if (typeof override === 'string' && override.trim()) repo.description = override;
-  }
-  let previous = null;
-  try {
-    previous = JSON.parse(await readFile(resolve(rootDir, 'data/market.json'), 'utf8'));
-  } catch {
-    // First run — no previous market to compare against.
-  }
-
-  if (!fromSnapshot) {
-    const fetchedAt = Date.parse(snapshot.fetched_at);
-    if (!Number.isFinite(fetchedAt) || Date.now() - fetchedAt > STALE_SNAPSHOT_MS) {
-      const warning =
-        `data/repositories.json was fetched at ${snapshot.fetched_at}, older than 26h — ` +
-        'run scripts/update.mjs first, or pass --from-snapshot to build from the stored snapshot anyway.';
-      console.warn(`Warning: ${warning}`);
-      await summaryBlock('Market generation warnings', `- ${warning}`);
-    }
-  }
-
-  const result = buildMarket({ snapshot, curated, approved, previous });
-
-  if (result.outcome === 'aborted') {
-    console.error(`Market generation aborted: ${result.reason}`);
-    await summaryBlock(
-      '⚠️ Market generation aborted',
-      `${result.reason}\n\nThe previously published \`data/market.json\` is left untouched.`,
-    );
-    return 'aborted';
-  }
-
-  if (result.outcome === 'unchanged') {
-    console.log(
-      `market.json unchanged for snapshot ${snapshot.fetched_at} — keeping the previous file (${result.envelope.entries.length} entries, pool ${result.poolCount}).`,
-    );
-    await syncMarkdown(result.envelope, rootDir);
-    return 'unchanged';
-  }
-
-  const json = `${JSON.stringify(result.envelope)}\n`;
-  const bytes = Buffer.byteLength(json, 'utf8');
-  if (bytes > MAX_FILE_BYTES) {
-    console.error(`market.json would be ${bytes} bytes, over the ${MAX_FILE_BYTES}-byte cap — not written.`);
-    await summaryBlock(
-      '⚠️ Market generation aborted',
-      `The generated payload is ${bytes} bytes, over the ${MAX_FILE_BYTES}-byte cap — not written; the previous \`data/market.json\` is left untouched.`,
-    );
-    return 'oversize';
-  }
-
-  await writeFile(resolve(rootDir, 'data/market.json'), json);
-  console.log(
-    `Wrote data/market.json — ${result.envelope.entries.length} entries dealt from a pool of ${result.poolCount} ` +
-      `(source snapshot holds ${snapshot.total_count} repositories, fetched ${snapshot.fetched_at}), ${bytes} bytes.`,
-  );
-  await syncMarkdown(result.envelope, rootDir);
-
-  const warnings = [...result.warnings];
-  if (result.trimmedCount > 0) {
-    warnings.push(
-      `${result.trimmedCount} deal entries dropped so the file fits the ${MAX_FILE_BYTES}-byte cap ` +
-        `(${result.envelope.entries.length} of ${MAX_ENTRIES} published) — deal order and category balance are preserved.`,
-    );
-  }
-  if (warnings.length) {
-    for (const warning of warnings) console.warn(`Warning: ${warning}`);
-    await summaryBlock(
-      'Market generation warnings',
-      warnings.map((warning) => `- ${warning}`).join('\n'),
-    );
-  }
-  return 'written';
-}
-
-const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
-if (isMain) {
-  const outcome = await runMarket();
-  if (outcome !== 'written' && outcome !== 'unchanged') process.exitCode = 1;
 }

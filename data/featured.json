@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03",
+  "updated_at": "2026-11-04",
   "title_zh": "编辑精选",
   "title_en": "Editor's Picks",
   "entries": [
@@ -99,6 +99,111 @@
     {
       "full_name": "joeseesun/qiaomu-reader-dsh",
       "description": "向阳乔木（@vista8）的乔木阅读：在 DSH 里阅读 EPUB、PDF、TXT、Markdown 和 HTML 书籍，支持划线批注、阅读笔记、朗读、生词本与原生 AI 伴读；与乔木 RSS 同属乔木插件系列。"
+    },
+    {
+      "full_name": "ccch1mneyyy/dsh-TUI",
+      "description": "DeepSeek Harness 交互式终端界面，提供像素鲸鱼、工具状态、会话操作与上下文用量展示。"
+    },
+    {
+      "full_name": "T-Auto/dsh-ops",
+      "description": "面向 Windows 的终端与工具套装，支持 Bash 环境接管及原生 Rust 文件读取工具。"
+    },
+    {
+      "full_name": "liustack/modlens",
+      "description": "为 DeepSeek Harness 提供图像理解，将图片整理为 OCR、布局和语义证据，供模型继续分析。"
+    },
+    {
+      "full_name": "Anionex/dsh-vision-toolkit",
+      "description": "DeepSeek Harness 视觉工具包，支持图片问答、长截图 OCR、界面还原及像素对比。"
+    },
+    {
+      "full_name": "ysr666/dsh-vision-router",
+      "description": "为 DeepSeek Harness 接入视觉模型与图像工具，支持定位、裁剪、描述、OCR、取色和抠图等多步操作。"
+    },
+    {
+      "full_name": "anysearch-team/anysearch-dsh",
+      "description": "为 DeepSeek Harness 接入 AnySearch 搜索源与网页检索工具，可作为对话中的补充搜索后端。"
+    },
+    {
+      "full_name": "titanwings/dsh-automation",
+      "description": "为 DeepSeek Harness 提供定时和周期任务，将重复工作交给自动化流程执行。"
+    },
+    {
+      "full_name": "HsiangNianian/dsh-auto-continue",
+      "description": "在 DeepSeek Harness 长任务中自动续接对话，减少因轮次结束而需要手动发送继续消息的操作。"
+    },
+    {
+      "full_name": "Anionex/dsh-turn-rewind",
+      "description": "为 DeepSeek Harness 提供按对话轮次回退的能力，便于撤回不合适的尝试并从先前状态继续。"
+    },
+    {
+      "full_name": "HanaAyane/dsh-reasoning-effort",
+      "description": "在 DeepSeek Harness 界面中切换模型的推理强度，按任务需要调整思考投入。"
+    },
+    {
+      "full_name": "Small-tailqwq/dsh-deep-whale",
+      "description": "DeepSeek Harness 深鲸主题与皮肤管理器，用于调整 Web 界面的视觉风格。"
+    },
+    {
+      "full_name": "WYH66666666/DSH-Transparent-UI-Plugin",
+      "description": "DeepSeek Harness 透明界面主题插件，提供磨砂玻璃等界面视觉效果。"
+    },
+    {
+      "full_name": "elysia395/dsh-wallpaper-engine",
+      "description": "在 DeepSeek Harness 中使用动态壁纸，为工作界面配置背景与视觉效果。"
+    },
+    {
+      "full_name": "Nagi-ovo/dsh-visualize",
+      "description": "让 DeepSeek Harness 在对话中生成可交互的可视化内容，辅助理解和展示信息。"
+    },
+    {
+      "full_name": "ZSeven-W/dsh-openpencil",
+      "description": "将 OpenPencil 设计画布接入 DeepSeek Harness，支持通过对话创建和修改设计稿。"
+    },
+    {
+      "full_name": "flizzywine/dsh-tavern",
+      "description": "在 DeepSeek Harness 中运行角色扮演与文字冒险，通过专用界面管理角色和剧情会话。"
+    },
+    {
+      "full_name": "vlln/whale-girl",
+      "description": "为 DeepSeek Harness 增加角色陪伴界面，在日常对话中提供个性化的角色互动体验。"
+    },
+    {
+      "full_name": "Nagi-ovo/dsh-ads",
+      "description": "为 DeepSeek Harness 界面增加趣味广告展示，用于装饰和娱乐。"
+    },
+    {
+      "full_name": "cocofhu/anime-find",
+      "description": "在 DeepSeek Harness 中使用动漫截图检索，查找画面对应的作品与片段信息。"
+    },
+    {
+      "full_name": "c1overzz/dsh-bili-scroll",
+      "description": "把哔哩哔哩内容浏览接入 DeepSeek Harness，在工作界面中浏览和观看视频。"
+    },
+    {
+      "full_name": "ZSeven-W/dsh-ios",
+      "description": "让 DeepSeek Harness 操作 iOS 模拟器或通过 USB 连接的 iPhone，支持启动、构建与无障碍界面操作。"
+    },
+    {
+      "full_name": "GraySilver/dsh-evolve-modes",
+      "description": "为 DeepSeek Harness 提供可组合的任务控制与工作模式，自进化改动在隔离环境中经人工复核后生效。"
+    },
+    {
+      "full_name": "tencent-connect/dsh-qqbot",
+      "description": "腾讯官方 QQ Bot 接入插件，通过 QQ 机器人与 DeepSeek Harness 对话。"
+    },
+    {
+      "full_name": "Ychris12138/dsh-usage-stats",
+      "description": "查看 DeepSeek Harness 的 Token 用量、费用和账户余额，按模型拆分统计并提供用量热力图。"
+    },
+    {
+      "full_name": "dingminhua/dsh-connect-workbuddy",
+      "description": "将已登录的 WorkBuddy 模型接入 DeepSeek Harness，支持多账号、账号池切换和积分用量查看。"
+    },
+    {
+      "full_name": "SeaOf0/dsh-redteam-model",
+      "description": "用于授权安全研究的 DeepSeek Harness 红队工作台，整合渗透测试、红队评估和代码审计工作模式。"
     }
-  ]
+  ],
+  "expected_repository_count": 50
 }

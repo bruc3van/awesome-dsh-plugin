@@ -1,12 +1,12 @@
 # 下游市场文件预览 / Downstream market feed preview
 
-[返回中文首页](./README.md) · [Back to English home](./README_EN.md) · [完整目录 / Full catalog](./CATALOG.md) · [Star 榜单 / Star board](./TOP200.md) · [JSON data](./data/market.json)
+[返回中文首页](./README.md) · [Back to English home](./README_EN.md) · [完整目录 / Full catalog](./CATALOG.md) · [Star 榜单 / Star board](./TOP200.md) · [JSON data](./data/market-v2.json)
 
-[data/market.json](./data/market.json) 的人类可读镜像——即 [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) 插件在桌面端渲染的同一份市场数据，由 `scripts/market.mjs` 随市场文件一同生成，供在 GitHub 上直接预览确认，无需安装插件；请勿手工编辑。下表按 Star 数排名，与插件「全部插件」视图一致；文件本身按类目均衡发牌顺序存储，插件默认仅展示其配置条数。
+[data/market-v2.json](./data/market-v2.json) 的人类可读镜像——即 [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) 插件在桌面端渲染的同一份市场数据，由 `scripts/market-v2.mjs` 随市场文件一同生成，供在 GitHub 上直接预览确认，无需安装插件；请勿手工编辑。下表按 Star 数排名，与插件「全部插件」视图一致；文件本身按类目均衡发牌顺序存储，插件默认仅展示其配置条数。
 
-The human-readable twin of [data/market.json](./data/market.json) — the same market data the [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) plugin renders in the desktop app, generated alongside the feed by `scripts/market.mjs` so it can be previewed on GitHub without installing anything. Do not edit by hand. The table ranks by stars, matching the plugin’s "All plugins" view; the feed itself is stored in balanced deal order, and the plugin shows only its configured prefix by default.
+The human-readable twin of [data/market-v2.json](./data/market-v2.json) — the same market data the [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) plugin renders in the desktop app, generated alongside the feed by `scripts/market-v2.mjs` so it can be previewed on GitHub without installing anything. Do not edit by hand. The table ranks by stars, matching the plugin’s "All plugins" view; the feed itself is stored in balanced deal order, and the plugin shows only its configured prefix by default.
 
-- 生成时间 / Feed generated: **2026-11-04T02:00:41.863Z**
+- 生成时间 / Feed generated: **2026-11-04T10:42:35.288Z**
 - 来源快照 / Source snapshot: **2026-11-03T20:29:48.344Z**（26346 个仓库 / repositories scanned）
 - 过滤后候选池 / Candidate pool after filtering: **22012**
 - 发布条目 / Published entries: **1000**（上限 / cap: 1000）

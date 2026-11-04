@@ -29,13 +29,22 @@ test('bot mapping commits reach both publishers without relying on push events',
   assert.ok(!expansion.on.workflow_run, 'expansion must not form a publication feedback loop')
 })
 
+test('reviewed source changes reach the sole market producer', () => {
+  assert.ok(!workflows.has('refresh-market.yml'))
+  const feed = workflows.get('refresh-market-v2.yml')
+  assert.ok(feed.on.workflow_run.workflows.includes(workflows.get('update-catalog.yml').name))
+  for (const path of ['data/approved.json', 'data/curated.json', 'data/packages.json', 'data/featured.json', 'scripts/market-pool.mjs', 'scripts/categories.mjs', 'scripts/markdown.mjs']) {
+    assert.ok(feed.on.push.paths.includes(path), `${path} must regenerate the current feed`)
+  }
+})
+
 test('publishers follow main and npm publication is not cancelled midway', () => {
   for (const w of workflows.values()) {
     for (const job of Object.values(w.jobs)) {
       if (w.on.workflow_run) assert.match(job.if ?? (job.needs ? 'head_branch' : ''), /head_branch/)
     }
   }
-  for (const name of ['expand-subscription-mappings', 'refresh-market-v2', 'refresh-market', 'refresh-showcase', 'update-catalog', 'publish-npm-feed']) {
+  for (const name of ['expand-subscription-mappings', 'refresh-market-v2', 'refresh-showcase', 'update-catalog', 'publish-npm-feed']) {
     const job = Object.values(workflows.get(`${name}.yml`).jobs)[0]
     assert.equal(job.steps[0].with.ref, 'main')
   }

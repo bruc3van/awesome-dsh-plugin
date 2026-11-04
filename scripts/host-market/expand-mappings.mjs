@@ -3,7 +3,7 @@ import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
-import { filterPool } from '../market.mjs'
+import { filterPool } from '../market-pool.mjs'
 import { installRef, isPasteSafeCommand, npmBase } from '../readme-install.mjs'
 import {
   classifyRepository,

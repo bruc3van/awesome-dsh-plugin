@@ -1,7 +1,7 @@
 // Tests for the market-v2 pipeline (scripts/market-v2.mjs), run with
 //   node --test scripts/test-market-v2.mjs
-// The invariants under test: v2 is a strict superset of the published v1
-// feed (same entries, same order, v1 fields untouched), mapping failures
+// The invariants under test: pool fields and order survive the mapping join,
+// mapping failures
 // abort the build instead of publishing half-joined data, identical
 // inputs keep the previous file bit for bit, and the featured section is
 // a pure projection of data/featured.json gated on standardized installs.
@@ -18,12 +18,11 @@ import {
   MAX_FILE_BYTES,
   packagesBlockFor,
   runMarketV2,
-  V1_SCHEMA_VERSION,
   V2_SCHEMA_VERSION,
 } from './market-v2.mjs';
 
 let nextId = 1;
-const v1Entry = (overrides = {}) => ({
+const poolEntry = (overrides = {}) => ({
   id: nextId++,
   full_name: 'owner/repo',
   description: 'A plugin.',
@@ -38,8 +37,8 @@ const v1Entry = (overrides = {}) => ({
   ...overrides,
 });
 
-const v1Market = (entries, overrides = {}) => ({
-  schema_version: V1_SCHEMA_VERSION,
+const selectedPool = (entries, overrides = {}) => ({
+  schema_version: V2_SCHEMA_VERSION,
   generated_at: '2026-09-26T08:00:00.000Z',
   source_fetched_at: '2026-09-26T07:00:00.000Z',
   source_repo_count: 100,
@@ -194,14 +193,14 @@ test('packagesBlockFor demands install === installRef(source) and token-level co
   assert.equal(passes('dsh plugin --profile web add https://github.com/owner/repo', 'https://github.com/owner/repo', 'github:owner/repo').install, 'https://github.com/owner/repo');
 });
 
-test('buildMarketV2 joins blocks onto mapped entries only, preserving v1 fields and order', () => {
+test('buildMarketV2 joins blocks onto mapped entries only, preserving pool fields and order', () => {
   const entries = [
-    v1Entry({ full_name: 'a/mapped' }),
-    v1Entry({ full_name: 'B/Unmapped' }),
-    v1Entry({ full_name: 'Owner/Also-Mapped' }),
+    poolEntry({ full_name: 'a/mapped' }),
+    poolEntry({ full_name: 'B/Unmapped' }),
+    poolEntry({ full_name: 'Owner/Also-Mapped' }),
   ];
   const result = buildMarketV2({
-    market: v1Market(entries),
+    market: selectedPool(entries),
     packages: packages({
       'a/mapped': commandRecord(),
       // Keys are lowercase by convention while the feed's full_name keeps
@@ -216,7 +215,7 @@ test('buildMarketV2 joins blocks onto mapped entries only, preserving v1 fields 
   assert.equal(result.envelope.schema_version, V2_SCHEMA_VERSION);
   assert.equal(result.envelope.packages_mapped_count, 2);
   assert.equal(result.envelope.entries.length, 3);
-  // v1 fields survive untouched on every entry, order preserved.
+  // pool fields survive untouched on every entry, order preserved.
   result.envelope.entries.forEach((entry, index) => {
     for (const [field, value] of Object.entries(entries[index])) {
       assert.deepEqual(entry[field], value, `${field} on entry ${index}`);
@@ -230,7 +229,7 @@ test('buildMarketV2 joins blocks onto mapped entries only, preserving v1 fields 
 });
 
 test('buildMarketV2 keeps the previous file bit for bit on identical inputs', () => {
-  const market = v1Market([v1Entry({ full_name: 'a/mapped' })]);
+  const market = selectedPool([poolEntry({ full_name: 'a/mapped' })]);
   const pkgs = packages({ 'a/mapped': commandRecord() });
   const first = buildMarketV2({ market, packages: pkgs, now });
   assert.equal(first.outcome, 'written');
@@ -240,7 +239,7 @@ test('buildMarketV2 keeps the previous file bit for bit on identical inputs', ()
 });
 
 test('buildMarketV2 never moves generated_at backwards', () => {
-  const market = v1Market([v1Entry()]);
+  const market = selectedPool([poolEntry()]);
   const previous = {
     schema_version: V2_SCHEMA_VERSION,
     generated_at: '2027-01-01T00:00:00.000Z',
@@ -257,7 +256,7 @@ test('buildMarketV2 never moves generated_at backwards', () => {
 
 test('buildMarketV2 aborts on mapping errors instead of publishing half-joined data', () => {
   const result = buildMarketV2({
-    market: v1Market([v1Entry({ full_name: 'a/bad' })]),
+    market: selectedPool([poolEntry({ full_name: 'a/bad' })]),
     packages: packages({ 'a/bad': commandRecord({ status: 'nope' }) }),
     now,
   });
@@ -267,18 +266,18 @@ test('buildMarketV2 aborts on mapping errors instead of publishing half-joined d
 });
 
 test('buildMarketV2 aborts over the byte cap rather than trimming the feed', () => {
-  const market = v1Market([v1Entry({ full_name: 'a/mapped', description: 'x'.repeat(300) })]);
+  const market = selectedPool([poolEntry({ full_name: 'a/mapped', description: 'x'.repeat(300) })]);
   const result = buildMarketV2({ market, packages: packages({ 'a/mapped': commandRecord() }), now, maxBytes: 300 });
   assert.equal(result.outcome, 'aborted');
   assert.match(result.reason, /over the 300-byte cap/);
   assert.match(result.reason, /trim the mapping, not the feed/);
 });
 
-test('buildMarketV2 refuses bases that are not the published v1 feed', () => {
-  const wrongVersion = buildMarketV2({ market: v1Market([v1Entry()], { schema_version: 2 }), packages: packages({}), now });
+test('buildMarketV2 refuses bases that are not the selected pool', () => {
+  const wrongVersion = buildMarketV2({ market: selectedPool([poolEntry()], { schema_version: 1 }), packages: packages({}), now });
   assert.equal(wrongVersion.outcome, 'aborted');
   assert.match(wrongVersion.reason, /schema_version/);
-  const empty = buildMarketV2({ market: v1Market([]), packages: packages({}), now });
+  const empty = buildMarketV2({ market: selectedPool([]), packages: packages({}), now });
   assert.equal(empty.outcome, 'aborted');
   assert.match(empty.reason, /no entries/);
 });
@@ -286,15 +285,18 @@ test('buildMarketV2 refuses bases that are not the published v1 feed', () => {
 test('runMarketV2 writes the feed, then reports unchanged on a second run', async () => {
   const rootDir = await mkdtemp(resolve(tmpdir(), 'market-v2-test-'));
   await mkdir(resolve(rootDir, 'data'), { recursive: true });
-  const market = v1Market([v1Entry({ full_name: 'a/mapped' }), v1Entry({ full_name: 'b/plain' })]);
+  const market = selectedPool([poolEntry({ full_name: 'a/mapped' }), poolEntry({ full_name: 'b/plain' })]);
   const pkgs = packages({ 'a/mapped': commandRecord() });
   await Promise.all([
-    writeFile(resolve(rootDir, 'data/market.json'), JSON.stringify(market)),
+    writeFile(resolve(rootDir, 'data/repositories.json'), JSON.stringify({ fetched_at: market.source_fetched_at, total_count: market.entries.length, repositories: market.entries })),
+    writeFile(resolve(rootDir, 'data/curated.json'), JSON.stringify({})),
+    writeFile(resolve(rootDir, 'data/approved.json'), JSON.stringify(Object.fromEntries(market.entries.map(e => [e.full_name, '2026-09-26'])))),
     writeFile(resolve(rootDir, 'data/packages.json'), JSON.stringify(pkgs)),
   ]);
 
   const written = await runMarketV2({ rootDir });
   assert.equal(written, 'written');
+  await assert.rejects(readFile(resolve(rootDir, 'data/market.json')), { code: 'ENOENT' });
   const onDisk = JSON.parse(await readFile(resolve(rootDir, 'data/market-v2.json'), 'utf8'));
   assert.equal(onDisk.schema_version, V2_SCHEMA_VERSION);
   assert.equal(onDisk.packages_mapped_count, 1);
@@ -351,6 +353,15 @@ test('featuredBlockFor rejects picks without a standardized mapping, dupes, and 
   assert.throws(() => featuredBlockFor(featuredSource(many), () => commandRecord(), inFeed), /cap is 50/);
 });
 
+test('featured data checks the configured repository count', () => {
+  const source = featuredSource([pick('a/mapped')], { expected_repository_count: 1 })
+  const { block } = featuredBlockFor(source, () => commandRecord(), new Set(['a/mapped']))
+  assert.equal(block.entries.length, 1)
+  assert.equal(block.expected_repository_count, 1)
+  assert.throws(() => featuredBlockFor({ ...source, expected_repository_count: 50 }, () => commandRecord(), new Set()), /repositories, expected 50/)
+  assert.throws(() => featuredBlockFor({ ...source, expected_repository_count: '50' }, () => commandRecord(), new Set()), /positive integer/)
+})
+
 test('featured descriptions are required, bounded, and available without a feed entry', () => {
   for (const description of [undefined, null, 42, '', '   ', '中'.repeat(401)]) {
     assert.throws(() => featuredBlockFor(
@@ -367,9 +378,9 @@ test('featured descriptions are required, bounded, and available without a feed 
 });
 
 test('buildMarketV2 carries the featured section and counts it honestly', () => {
-  const entries = [v1Entry({ full_name: 'a/mapped' })];
+  const entries = [poolEntry({ full_name: 'a/mapped' })];
   const result = buildMarketV2({
-    market: v1Market(entries),
+    market: selectedPool(entries),
     packages: packages({ 'a/mapped': commandRecord(), 'b/off-feed': commandRecord() }),
     featured: featuredSource([pick('a/mapped'), pick('b/off-feed')]),
     now,
@@ -381,7 +392,7 @@ test('buildMarketV2 carries the featured section and counts it honestly', () => 
   assert.ok(result.envelope.featured.entries[1].packages);
   // A pick that fails the gate aborts the whole build, feed join included.
   const bad = buildMarketV2({
-    market: v1Market(entries),
+    market: selectedPool(entries),
     packages: packages({ 'a/mapped': commandRecord() }),
     featured: featuredSource([pick('a/mapped'), pick('x/unmapped')]),
     now,
@@ -391,7 +402,7 @@ test('buildMarketV2 carries the featured section and counts it honestly', () => 
 });
 
 test('buildMarketV2 treats a featured-only edit as a change worth republishing', () => {
-  const market = v1Market([v1Entry({ full_name: 'a/mapped' })]);
+  const market = selectedPool([poolEntry({ full_name: 'a/mapped' })]);
   const pkgs = packages({ 'a/mapped': commandRecord(), 'b/added': commandRecord() });
   const first = buildMarketV2({ market, packages: pkgs, featured: featuredSource([pick('a/mapped')]), now });
   assert.equal(first.outcome, 'written');
@@ -420,10 +431,12 @@ test('buildMarketV2 treats a featured-only edit as a change worth republishing',
 test('runMarketV2 aborts when the featured source vanished but the published feed still carries the section', async () => {
   const rootDir = await mkdtemp(resolve(tmpdir(), 'market-v2-featured-'));
   await mkdir(resolve(rootDir, 'data'), { recursive: true });
-  const market = v1Market([v1Entry({ full_name: 'a/mapped' })]);
+  const market = selectedPool([poolEntry({ full_name: 'a/mapped' })]);
   const pkgs = packages({ 'a/mapped': commandRecord() });
   await Promise.all([
-    writeFile(resolve(rootDir, 'data/market.json'), JSON.stringify(market)),
+    writeFile(resolve(rootDir, 'data/repositories.json'), JSON.stringify({ fetched_at: market.source_fetched_at, total_count: market.entries.length, repositories: market.entries })),
+    writeFile(resolve(rootDir, 'data/curated.json'), JSON.stringify({})),
+    writeFile(resolve(rootDir, 'data/approved.json'), JSON.stringify(Object.fromEntries(market.entries.map(e => [e.full_name, '2026-09-26'])))),
     writeFile(resolve(rootDir, 'data/packages.json'), JSON.stringify(pkgs)),
     writeFile(resolve(rootDir, 'data/featured.json'), JSON.stringify(featuredSource([pick('a/mapped')]))),
   ]);

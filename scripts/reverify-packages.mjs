@@ -39,7 +39,7 @@ const CONCURRENCY = 10;
 
 const [packages, market, snapshot] = await Promise.all([
   readFile(resolve(root, 'data/packages.json'), 'utf8').then(JSON.parse),
-  readFile(resolve(root, 'data/market.json'), 'utf8').then(JSON.parse),
+  readFile(resolve(root, 'data/market-v2.json'), 'utf8').then(JSON.parse),
   readFile(resolve(root, 'data/repositories.json'), 'utf8').then(JSON.parse),
 ]);
 

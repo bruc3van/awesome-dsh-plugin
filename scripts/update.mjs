@@ -286,7 +286,7 @@ async function refreshSnapshot() {
   // Stored in a stable order (ascending id), not by stars: star counts move
   // every day, so a star-sorted file reshuffles thousands of entries and turns
   // a daily diff of a few hundred changed fields into tens of thousands of
-  // moved lines. Every consumer (render.mjs, market.mjs) sorts explicitly for
+  // moved lines. Every consumer (render.mjs, market-pool.mjs) sorts explicitly for
   // display, so the stored order carries no presentation meaning.
   const byId = new Map([...items, ...recovered].map((item) => [item.id, item]));
   const repositories = [...byId.values()]
@@ -297,7 +297,7 @@ async function refreshSnapshot() {
       `Reconciled ${recovered.length} of ${checked} search-missing candidates back into the snapshot via the REST API.`,
     );
   }
-  // Circuit breaker, mirroring the one in scripts/market.mjs §6: a snapshot
+  // Circuit breaker, mirroring the one in scripts/market-pool.mjs §6: a snapshot
   // that collapsed against yesterday's smells like a half-failed crawl (a
   // search index wobble, an exhausted rate limit that ate a whole partition),
   // and yesterday's file is the better answer. The topic only ever grows, so

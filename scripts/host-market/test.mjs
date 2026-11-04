@@ -183,6 +183,15 @@ test('publication preserves existing data on network failure, empty output or a 
   assert.doesNotThrow(() => assertPublishable({ index: index(8) }, index(10)))
 })
 
+test('publication requires 50 source repositories and allows multiple plugins per repository', async () => {
+  const { assertPublishable } = await import('./policy.mjs')
+  const index = { plugins: Array.from({ length: 52 }, (_, i) => ({ name: `plugin-${i}` })) }
+  assert.doesNotThrow(() => assertPublishable({ index, featuredRepositoryCount: 50, expectedFeaturedRepositoryCount: 50 }))
+  for (const count of [24, 49, 51]) {
+    assert.throws(() => assertPublishable({ index, featuredRepositoryCount: count, expectedFeaturedRepositoryCount: 50 }), /repositories, expected 50/)
+  }
+})
+
 test('pinned upstream file readers match their recorded SHA-256', async () => {
   const { readFile } = await import('node:fs/promises')
   const { createHash } = await import('node:crypto')

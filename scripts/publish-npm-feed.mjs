@@ -6,12 +6,11 @@
 // published to npmjs.org and mirrors over within minutes; consumers behind
 // the GFW fetch from npmmirror instead of raw.githubusercontent.com.
 //
-// Package contents: data/market.json (v1 feed), data/market-v2.json (v2
-// superset with install targets), data/packages.json (the hand-maintained
-// mapping). Versioning is calver 0.YYYYMMDD.N — one data snapshot per day,
+// Package contents: data/market-v2.json (current feed with install targets)
+// and data/packages.json (the hand-maintained mapping). Versioning is calver 0.YYYYMMDD.N — one data snapshot per day,
 // patch bumps for intraday republications.
 //
-// Idempotency: the data digest (sha256 over the three files) rides along as
+// Idempotency: the data digest (sha256 over the two files) rides along as
 // a `feedDigest` field in package.json. Before publishing, the registry's
 // latest version is checked — same digest means nothing changed and the run
 // is a no-op, so the daily workflow hook never piles up empty versions.
@@ -34,11 +33,11 @@ for (const script of ['validate-packages.mjs', 'validate-market-v2.mjs']) {
   if (result.status !== 0) process.exit(result.status ?? 1);
 }
 
-const files = ['data/market.json', 'data/market-v2.json', 'data/packages.json'];
+const files = ['data/market-v2.json', 'data/packages.json'];
 const reads = await Promise.all(files.map((f) => readFile(resolve(root, f), 'utf8')));
 const digest = createHash('sha256').update(reads.join('\n')).digest('hex');
 
-const v2 = JSON.parse(reads[1]);
+const v2 = JSON.parse(reads[0]);
 const day = String(v2.generated_at ?? new Date().toISOString()).slice(0, 10).replaceAll('-', '');
 
 async function latestInfo() {
@@ -95,7 +94,7 @@ function writeDist(version) {
   const packageJson = {
     name: PKG_NAME,
     version,
-    description: 'DSH plugin market feeds — v1 feed, v2 superset with paste-ready install targets, and the packages mapping. China-reachable via registry.npmmirror.com.',
+    description: 'DSH plugin market feeds — current feed with paste-ready install targets, and the packages mapping. China-reachable via registry.npmmirror.com.',
     license: 'MIT',
     repository: { type: 'git', url: 'git+https://github.com/bruc3van/awesome-dsh-plugin.git' },
     homepage: 'https://github.com/bruc3van/awesome-dsh-plugin#readme',
@@ -120,8 +119,7 @@ async function writeReadme(version) {
     '',
     '| File | What it is |',
     '| --- | --- |',
-    '| `data/market.json` | v1 downstream feed (schema 1) — the wire contract safer-dsh-market consumes today |',
-    '| `data/market-v2.json` | v2 superset (schema 2) — same entries, mapped ones carry a `packages` block with `install` (paste-ready into the official 插件→添加插件 box: npm name or repo URL), `command`, requirements and verification |',
+    '| `data/market-v2.json` | Current feed (schema 2) — mapped entries carry a `packages` block with `install` (paste-ready into the official 插件→添加插件 box: npm name or repo URL), `command`, requirements and verification |',
     '| `data/packages.json` | the hand-maintained install-target source of truth (includes entries outside the 600-entry feed) |',
     '',
     '## Fetching',
@@ -145,7 +143,7 @@ async function writeReadme(version) {
   await writeFile(resolve(DIST, 'README.md'), `${readme}\n`);
 }
 
-// Two publishes can land close together (refresh-market and refresh-market-v2
+// Two publishes can land close together (manual and automatic refreshes
 // both complete after a review merge); npm's packument read lags its write, so
 // the second run may pick a version the first has just published and get an
 // E409. The 409 body names the colliding version — trust that over a re-read,

@@ -1,46 +1,19 @@
 #!/usr/bin/env node
 
-// Generates data/market-v2.json — schema v2 of the downstream market feed.
-// v1 (data/market.json) stays the untouched wire contract for the current
-// safer-dsh-market consumer; v2 is its strict superset: the same
-// entries, in the same published order, where every entry covered by the
-// hand-maintained install mapping (data/packages.json) additionally carries
-// a `packages` block — the exact thing to paste into the official
-// "插件 → 添加插件" box, plus requirements, task tags, and the verification
-// record. Consumers can treat v2 exactly like v1 and simply ignore the
-// extra field, or render "复制安装内容" from it.
-//
-// On top of the join, the envelope carries an optional `featured` block —
-// the hand-maintained editor's picks (data/featured.json): an ordered list
-// of full names with Chinese descriptions. The gate that makes a pick publishable is the standardized
-// install: every featured repo must have a packages.json mapping, or the
-// build aborts. Picks inside the published feed resolve through their feed
-// entry; a pick the daily deal left out (bruc3van/bruce-md2word — too few
-// stars for the 1000-entry round-robin) rides along with its packages block
-// inline, so consumers stay install-ready from the featured section alone.
-//
-// The file is a pure projection of already-validated sources: the
-// published v1 feed, packages.json, and featured.json. No filtering,
-// dealing, or trimming happens here — if the joined payload would not fit
-// the byte cap, the run aborts rather than publishing a prefix: v1's trim
-// path is safe because it keeps the deal's structural invariants, but a v2
-// prefix would silently disagree with the v1 feed it claims to extend. Fix
-// the mapping instead.
-//
-// Same-source idempotency as market.mjs: identical inputs re-produce the
-// previous file bit for bit (generated_at included), so re-runs triggered
-// by upstream workflows that changed nothing stay no-op commits.
+// Generates the sole community market feed directly from the reviewed snapshot,
+// curation, install mappings and editor's picks. Pool selection stays shared
+// with the official subscription generator; no legacy JSON is read or written.
 
 import { appendFile, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { installRef, isPasteSafeCommand } from './readme-install.mjs';
+import { buildMarket, renderMarketMarkdown, STALE_SNAPSHOT_MS } from './market-pool.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
 export const V2_SCHEMA_VERSION = 2;
-export const V1_SCHEMA_VERSION = 1;
-export const MAX_FILE_BYTES = 1024 * 1024; // v2 is a superset of v1; keep headroom for the joined mapping.
+export const MAX_FILE_BYTES = 1024 * 1024; // Includes install mappings and featured picks.
 export const FEATURED_SCHEMA_VERSION = 1;
 export const MAX_FEATURED_ENTRIES = 50; // the curated list is hand-picked and stays small; double digits of picks, not hundreds.
 
@@ -200,7 +173,7 @@ export function packagesBlockFor(record) {
 
 // The wire shape of the envelope's `featured` section, from data/featured.json.
 // `recordFor` maps a lowercase slug to its packages.json record (or undefined);
-// `inFeed` is the set of lowercase full_names the published v1 feed carries.
+// `inFeed` is the set of lowercase full_names the selected pool carries.
 // Returns { block, warnings }: block is the publishable section, warnings the
 // advisory notes (a pick outside the feed is legal — it ships with its
 // packages block inline — but worth saying out loud). Every hard problem
@@ -229,6 +202,15 @@ export function featuredBlockFor(featured, recordFor, inFeed) {
     updated_at: featured.updated_at,
     entries: [],
   };
+  if (featured.expected_repository_count !== undefined) {
+    if (!Number.isInteger(featured.expected_repository_count) || featured.expected_repository_count < 1) {
+      throw new Error('featured.expected_repository_count must be a positive integer');
+    }
+    if (featured.entries.length !== featured.expected_repository_count) {
+      throw new Error(`featured.entries holds ${featured.entries.length} repositories, expected ${featured.expected_repository_count}`);
+    }
+    block.expected_repository_count = featured.expected_repository_count;
+  }
 
   const seen = new Set();
   featured.entries.forEach((entry, index) => {
@@ -270,8 +252,8 @@ export function featuredBlockFor(featured, recordFor, inFeed) {
 //   { outcome: 'aborted', reason, errors, warnings }
 export function buildMarketV2({ market, packages, featured = null, previous = null, now = new Date(), maxBytes = MAX_FILE_BYTES }) {
   const warnings = [];
-  if (market === null || typeof market !== 'object' || market.schema_version !== V1_SCHEMA_VERSION) {
-    return { outcome: 'aborted', reason: `the base feed must be a schema_version ${V1_SCHEMA_VERSION} market.json, got schema_version ${JSON.stringify(market?.schema_version)}`, warnings };
+  if (market === null || typeof market !== 'object' || market.schema_version !== V2_SCHEMA_VERSION) {
+    return { outcome: 'aborted', reason: `the selected pool must use schema_version ${V2_SCHEMA_VERSION}, got ${JSON.stringify(market?.schema_version)}`, warnings };
   }
   if (!Array.isArray(market.entries) || market.entries.length === 0) {
     return { outcome: 'aborted', reason: 'the base feed holds no entries — refusing to publish an empty v2 feed', warnings };
@@ -319,7 +301,7 @@ export function buildMarketV2({ market, packages, featured = null, previous = nu
   });
   const mappedCount = blockBySlug.size;
   if (mappedCount === 0) {
-    warnings.push('no mapped entry is currently in the feed — the v2 payload equals v1 plus an empty mapping');
+    warnings.push('no mapped entry is currently in the feed — the feed carries no installation mappings');
   }
 
   const featuredBlock = featuredResult?.block ?? null;
@@ -340,13 +322,13 @@ export function buildMarketV2({ market, packages, featured = null, previous = nu
     return envelope;
   };
 
-  // generated_at must be monotonically non-decreasing, like the v1 rule:
+  // generated_at must be monotonically non-decreasing, like the pool-selection rule:
   // clock skew between machines must never move it backwards.
   const bytes = (list) => Buffer.byteLength(`${JSON.stringify(envelopeWith(list))}\n`, 'utf8');
   if (bytes(entries) > maxBytes) {
     return {
       outcome: 'aborted',
-      reason: `the joined v2 payload is ${bytes(entries)} bytes, over the ${maxBytes}-byte cap — trim the mapping, not the feed (a v2 prefix would silently disagree with the v1 feed it claims to extend)`,
+      reason: `the joined v2 payload is ${bytes(entries)} bytes, over the ${maxBytes}-byte cap — trim the mapping, not the feed (the selected pool must stay intact)`,
       warnings,
     };
   }
@@ -385,9 +367,11 @@ async function summaryBlock(title, body) {
 
 // The CLI body, exported so tests can run it against a scratch root.
 // Returns 'written' | 'unchanged' | 'aborted' | 'oversize'.
-export async function runMarketV2({ rootDir = root } = {}) {
-  const [market, packages, featured, previous] = await Promise.all([
-    readFile(resolve(rootDir, 'data/market.json'), 'utf8').then(JSON.parse),
+export async function runMarketV2({ rootDir = root, argv = process.argv } = {}) {
+  const [snapshot, curated, approved, packages, featured, previous] = await Promise.all([
+    readFile(resolve(rootDir, 'data/repositories.json'), 'utf8').then(JSON.parse),
+    readFile(resolve(rootDir, 'data/curated.json'), 'utf8').then(JSON.parse),
+    readFile(resolve(rootDir, 'data/approved.json'), 'utf8').then(JSON.parse),
     readFile(resolve(rootDir, 'data/packages.json'), 'utf8').then(JSON.parse),
     readFile(resolve(rootDir, 'data/featured.json'), 'utf8')
       .then(JSON.parse)
@@ -400,6 +384,18 @@ export async function runMarketV2({ rootDir = root } = {}) {
       .catch(() => null),
   ]);
 
+  if (!argv.includes('--from-snapshot') &&
+      (!Number.isFinite(Date.parse(snapshot.fetched_at)) || Date.now() - Date.parse(snapshot.fetched_at) > STALE_SNAPSHOT_MS)) {
+    console.warn(`Warning: snapshot ${snapshot.fetched_at} is older than 26h; refresh it or pass --from-snapshot.`);
+  }
+  const pool = buildMarket({ snapshot, curated, approved, previous });
+  if (pool.outcome === 'aborted') {
+    console.error(`market-v2 generation aborted: ${pool.reason}`);
+    await summaryBlock('Market generation aborted', pool.reason);
+    return 'aborted';
+  }
+  const market = pool.envelope;
+
   // A missing featured.json is legal only when there is nothing to lose:
   // silently stripping the published section would be a destructive no-op
   // commit, so abort and demand the source back instead.
@@ -410,6 +406,8 @@ export async function runMarketV2({ rootDir = root } = {}) {
   }
 
   const result = buildMarketV2({ market, packages, featured, previous });
+  result.warnings.unshift(...pool.warnings);
+  if (pool.trimmedCount > 0) result.warnings.push(`${pool.trimmedCount} pool entries trimmed to the byte cap.`);
 
   if (result.outcome === 'aborted') {
     console.error(`market-v2 generation aborted: ${result.reason}`);
@@ -420,9 +418,8 @@ export async function runMarketV2({ rootDir = root } = {}) {
 
   if (result.outcome === 'unchanged') {
     console.log(
-      `market-v2.json unchanged — same v1 feed, same mapping (${result.mappedCount} mapped entr${result.mappedCount === 1 ? 'y' : 'ies'}); keeping the previous file.`,
+      `market-v2.json unchanged — same reviewed pool, same mapping (${result.mappedCount} mapped entr${result.mappedCount === 1 ? 'y' : 'ies'}); keeping the previous file.`,
     );
-    return 'unchanged';
   }
 
   const json = `${JSON.stringify(result.envelope)}\n`;
@@ -436,15 +433,22 @@ export async function runMarketV2({ rootDir = root } = {}) {
     return 'oversize';
   }
 
-  await writeFile(resolve(rootDir, 'data/market-v2.json'), json);
-  console.log(
-    `Wrote data/market-v2.json — ${result.envelope.entries.length} entries from the v1 feed, ${result.mappedCount} carrying a packages block, ${bytes} bytes.`,
+  if (result.outcome === 'written') await writeFile(resolve(rootDir, 'data/market-v2.json'), json);
+  const page = `${renderMarketMarkdown(result.envelope)}\n`;
+  const markdownPath = resolve(rootDir, 'MARKET.md');
+  const currentPage = await readFile(markdownPath, 'utf8').catch((error) => {
+    if (error.code !== 'ENOENT') throw error;
+    return null;
+  });
+  if (currentPage !== page) await writeFile(markdownPath, page);
+  if (result.outcome === 'written') console.log(
+    `Wrote data/market-v2.json — ${result.envelope.entries.length} entries from the reviewed snapshot, ${result.mappedCount} carrying a packages block, ${bytes} bytes.`,
   );
-  if (result.warnings.length) {
+  if (result.outcome === 'written' && result.warnings.length) {
     for (const warning of result.warnings) console.warn(`Warning: ${warning}`);
     await summaryBlock('market-v2 generation warnings', result.warnings.map((warning) => `- ${warning}`).join('\n'));
   }
-  return 'written';
+  return result.outcome;
 }
 
 const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;

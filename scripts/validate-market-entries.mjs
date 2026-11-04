@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-// Validates data/market.json against §8 of the downstream publishing spec
+// Validates data/market-v2.json against §8 of the downstream publishing spec
 // (docs/market-json-spec.md in safer-dsh-market): envelope shape,
 // slug/identity rules, the approved.json review gate, exclusion lists,
 // category keys, branch whitelist,
@@ -20,10 +20,10 @@ import {
   SCHEMA_VERSION,
   SELF_EXCLUDED_REPOS,
   TEXT_LIMITS,
-} from './market.mjs';
+} from './market-pool.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const marketPath = resolve(root, 'data/market.json');
+const marketPath = resolve(root, 'data/market-v2.json');
 const errors = [];
 
 const [rawMarket, curatedRaw, snapshotRaw, approvedRaw] = await Promise.all([
@@ -41,7 +41,7 @@ let market;
 try {
   market = JSON.parse(rawMarket);
 } catch (error) {
-  console.error(`data/market.json could not be parsed: ${error.message}`);
+  console.error(`data/market-v2.json could not be parsed: ${error.message}`);
   process.exit(1);
 }
 
@@ -192,12 +192,12 @@ for (const [category, stars] of starsByCategory) {
 }
 
 if (errors.length) {
-  console.error(`data/market.json failed validation with ${errors.length} problem(s):\n`);
+  console.error(`data/market-v2.json failed validation with ${errors.length} problem(s):\n`);
   for (const error of errors) console.error(`  - ${error}`);
   process.exit(1);
 }
 
 console.log(
-  `data/market.json is valid — ${market.entries.length} entries, ${size} bytes, ` +
+  `data/market-v2.json is valid — ${market.entries.length} entries, ${size} bytes, ` +
     `${starsByCategory.size} categories, source snapshot ${snapshot.fetched_at}.`,
 );

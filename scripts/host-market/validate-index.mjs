@@ -4,8 +4,8 @@ import { createHash } from 'node:crypto'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
-import { SELF_EXCLUDED_REPOS } from '../market.mjs'
-import { MAX_PLUGINS } from './policy.mjs'
+import { SELF_EXCLUDED_REPOS } from '../market-pool.mjs'
+import { assertPublishable, MAX_PLUGINS } from './policy.mjs'
 import { repositorySlug } from './repository-policy.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
@@ -30,6 +30,8 @@ const featured = JSON.parse(
 function fail(message) {
   throw new Error(`${message}; published data must not be committed`)
 }
+
+assertPublishable({ index, fetchFailures: report.fetchFailures, featuredRepositoryCount: report.summary.featuredRepositories, expectedFeaturedRepositoryCount: featured.expected_repository_count })
 
 if (index.plugins.length > MAX_PLUGINS)
   fail(`index contains ${index.plugins.length} plugins, cap is ${MAX_PLUGINS}`)

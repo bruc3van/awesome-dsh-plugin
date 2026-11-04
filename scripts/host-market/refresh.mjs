@@ -41,7 +41,7 @@ try {
 } catch (error) {
   if (error.code !== 'ENOENT') throw error
 }
-assertPublishable({ index: next }, previous)
+assertPublishable({ index: next, featuredRepositoryCount: feed.featuredRepositories.length, expectedFeaturedRepositoryCount: values.market.featured?.expected_repository_count }, previous)
 await copyFile(candidate, target)
 await copyFile(
   `${candidate}.report.json`,

@@ -2,11 +2,11 @@ name: Publish the feed to npm (mirrored by npmmirror)
 
 # China-reachable distribution: registry.npmmirror.com mirrors
 # registry.npmjs.org, and raw.githubusercontent.com is unreliable from inside
-# the GFW — so the market feeds (v1, v2, packages mapping) ship as the
+# the GFW — so the market feed and packages mapping ship as the
 # awesome-dsh-plugin-feed npm package. Consumers fetch
 # https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-v2.json
 #
-# Runs only after the v2 join has completed successfully and
+# Runs only after the market generation has completed successfully and
 # can be triggered manually. The publish script's feedDigest gate makes this
 # idempotent: same data = no-op without burning a version. Publishing uses
 # npm Trusted Publishing (OIDC). After the first authenticated local release,

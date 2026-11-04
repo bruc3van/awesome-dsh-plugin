@@ -1,27 +1,13 @@
 name: Refresh the v2 market feed
 
-# data/market-v2.json is the schema-v2 superset of the published v1 feed:
-# same entries, same order, with the hand-maintained install mapping
-# (data/packages.json) joined onto every covered entry as a `packages`
-# block, plus the hand-maintained editor's picks (data/featured.json) as
-# the envelope-level `featured` section. It must be rebuilt whenever any
-# source moves:
-#   - the daily update-catalog.yml (new snapshot → new v1 feed) and
-#     refresh-market.yml (curation change → new v1 feed), hooked via
-#     workflow_run on their successful completion;
-#   - a direct push touching data/packages.json, data/featured.json, or
-#     the generator itself.
-# The v1 feed and its pipeline are untouched — this workflow only ever
-# writes data/market-v2.json, so its own commits cannot re-trigger it.
-#
-# Per-workflow concurrency group (see the note in update-catalog.yml); a
-# push race with another workflow is resolved by regenerating on the new tip.
+# Generate the current feed and its preview directly from reviewed sources.
+# Snapshot and mapping workflows chain here explicitly because bot pushes do
+# not trigger ordinary push workflows. No legacy feed or refresh lane remains.
 
 on:
   workflow_run:
     workflows:
-      - 'Refresh snapshot, review queue, and market file'
-      - 'Refresh the downstream market file'
+      - 'Refresh snapshot and review queue'
       - 'Expand subscription mappings toward 1000'
     types:
       - completed
@@ -29,6 +15,13 @@ on:
     branches:
       - main
     paths:
+      - 'data/approved.json'
+      - 'data/curated.json'
+      - 'scripts/market-pool.mjs'
+      - 'scripts/categories.mjs'
+      - 'scripts/markdown.mjs'
+      - 'scripts/readme-install.mjs'
+      - 'scripts/validate-market-entries.mjs'
       - 'data/packages.json'
       - 'data/featured.json'
       - 'scripts/market-v2.mjs'
@@ -47,8 +40,8 @@ concurrency:
 jobs:
   market-v2:
     # workflow_run fires on every completion of the upstream workflows,
-    # failed ones included — only rebuild on top of a feed they actually
-    # published.
+    # failed ones included — only rebuild on top of source data they successfully
+    # committed.
     if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main') }}
     runs-on: ubuntu-latest
     steps:
@@ -64,28 +57,28 @@ jobs:
         run: node scripts/market-v2.mjs
       - name: Validate data/market-v2.json
         run: node scripts/validate-market-v2.mjs
-      - name: Run the market-v2 pipeline tests
-        run: node --test scripts/test-market-v2.mjs
+      - name: Run the market pipeline tests
+        run: node --test scripts/test-market.mjs scripts/test-market-v2.mjs
       - name: Commit the refreshed v2 feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           stage() {
-            git add data/market-v2.json
+            git add data/market-v2.json MARKET.md
             if git diff --cached --quiet; then
               # The expected outcome whenever the trigger did not move the
               # payload: a packages.json edit for a repo outside the published
-              # feed, an upstream run that kept v1 bit-for-bit, or a re-run of
-              # this workflow after the real change already landed. Same v1
-              # feed + same mapping = same file, generated_at included.
+              # feed, an upstream run that kept the feed bit-for-bit, or a re-run of
+              # this workflow after the real change already landed. Same reviewed
+              # sources + same mapping = same file, generated_at included.
               echo "market-v2.json is already current — this change does not affect the published v2 feed."
               exit 0
             fi
-            git commit -m "data: rebuild market-v2.json (v1 feed + packages mapping)"
+            git commit -m "data: rebuild market-v2.json and preview from reviewed sources"
           }
           stage
-          # A rejected push means main moved — possibly one of the join's two
-          # sources (market.json / packages.json). Rebuild and re-validate on
+          # A rejected push means main moved — possibly one of the feed's
+          # sources (snapshot / curation / packages.json). Rebuild and re-validate on
           # the new tip instead of rebasing, so a stale join can never land.
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then

@@ -361,7 +361,7 @@ export const CATALOG_PAGE_WARN_BYTES = 850 * 1024;
 // because description length, not row count, drives page size. The first volume
 // keeps the bare category key so existing catalog/<key>.md links survive; extra
 // volumes append a range suffix. Only the catalog pages divide — repo.category
-// (the README mindmap, market.json dealing) stays at category granularity.
+// (the README mindmap, market-pool.mjs dealing) stays at category granularity.
 const VOLUME_SPLITS = {
   // Owner-letter byte share as of 2026-10-26 (A–M half hit 886 KB, past the 850 KB
   // mark): A–F 49% / G–M 51% of the former A–M half. Re-split as of 2026-11-04
