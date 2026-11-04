@@ -5557,11 +5557,11 @@
       "versions": [
         {
           "version": "2.5.0",
-          "publishTimestamp": 1793702734,
+          "publishTimestamp": 1793789326,
           "source": {
             "type": "git",
             "url": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
-            "commit": "3f60a4065f4b9a5732055c3b8de21932d12ef03c"
+            "commit": "120b6e244fab2a7c841b768b98d3aebae22ec8de"
           },
           "engines": {
             "dsh": ">=0.1.0-rc.6 <0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2"
@@ -19982,7 +19982,7 @@
         ],
         "labels": [
           "git",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 31,
