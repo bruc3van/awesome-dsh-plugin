@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03",
+  "updated_at": "2026-11-05",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -10860,19 +10860,6 @@
           "install": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
           "source": "github:Renzic-Stone/DSH-EasyRewrite",
           "command": "dsh plugin --profile web add github:Renzic-Stone/DSH-EasyRewrite"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
-    },
-    "revolutionla/dsh-dream-skin": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-dream-skin",
-          "source": "npm:dsh-dream-skin",
-          "command": "dsh plugin --profile web add dsh-dream-skin"
         }
       ],
       "status": "readme-verified",
