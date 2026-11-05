@@ -511,8 +511,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iI0Q5Nzc1NyIvPgogIDxyZWN0IHg9IjkiIHk9IjE3IiB3aWR0aD0iMjAiIGhlaWdodD0iMzAiIHJ4PSIzIiBmaWxsPSIjRkZGN0YyIi8+CiAgPHJlY3QgeD0iMzUiIHk9IjE3IiB3aWR0aD0iMjAiIGhlaWdodD0iMzAiIHJ4PSIzIiBmaWxsPSIjRkZGN0YyIi8+CiAgPHJlY3QgeD0iMTMiIHk9IjIyIiB3aWR0aD0iMTIiIGhlaWdodD0iOSIgcng9IjEuNSIgZmlsbD0iI0U5QjhBMyIvPgogIDxyZWN0IHg9IjEzIiB5PSIzNSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjIuNSIgcng9IjEuMjUiIGZpbGw9IiNEOTc3NTciLz4KICA8cmVjdCB4PSIxMyIgeT0iNDAiIHdpZHRoPSI3IiBoZWlnaHQ9IjIuNSIgcng9IjEuMjUiIGZpbGw9IiNFOUI4QTMiLz4KICA8cmVjdCB4PSIzOSIgeT0iMjIiIHdpZHRoPSIxMiIgaGVpZ2h0PSIyLjUiIHJ4PSIxLjI1IiBmaWxsPSIjRDk3NzU3Ii8+CiAgPHJlY3QgeD0iMzkiIHk9IjI3IiB3aWR0aD0iOSIgaGVpZ2h0PSIyLjUiIHJ4PSIxLjI1IiBmaWxsPSIjRTlCOEEzIi8+CiAgPHJlY3QgeD0iMzkiIHk9IjM0IiB3aWR0aD0iMTIiIGhlaWdodD0iOSIgcng9IjEuNSIgZmlsbD0iI0U5QjhBMyIvPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "2.9.0",
-          "publishTimestamp": 1793758754,
+          "version": "2.9.2",
+          "publishTimestamp": 1793851831,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -569,8 +569,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iI0Q5Nzc1NyIvPgogIDxyZWN0IHg9IjEyIiB5PSIxMyIgd2lkdGg9IjQwIiBoZWlnaHQ9IjI3IiByeD0iMyIgZmlsbD0iI0ZGRjdGMiIvPgogIDxwYXRoIGQ9Ik0yOC41IDIwLjV2MTJsMTAtNnoiIGZpbGw9IiNEOTc3NTciLz4KICA8cmVjdCB4PSIxMiIgeT0iNDYiIHdpZHRoPSI0MCIgaGVpZ2h0PSIzIiByeD0iMS41IiBmaWxsPSIjRTlCOEEzIi8+CiAgPHJlY3QgeD0iMTIiIHk9IjQ2IiB3aWR0aD0iMTciIGhlaWdodD0iMyIgcng9IjEuNSIgZmlsbD0iI0ZGRjdGMiIvPgogIDxjaXJjbGUgY3g9IjI5IiBjeT0iNDcuNSIgcj0iMy41IiBmaWxsPSIjRkZGN0YyIi8+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "2.9.0",
-          "publishTimestamp": 1793758880,
+          "version": "2.9.2",
+          "publishTimestamp": 1793851803,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -626,8 +626,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iI0Q5Nzc1NyIvPgogIDxyZWN0IHg9IjEyIiB5PSIxNSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjI3IiByeD0iMyIgZmlsbD0iI0ZGRjdGMiIvPgogIDxyZWN0IHg9IjE3IiB5PSIyMSIgd2lkdGg9IjE4IiBoZWlnaHQ9IjMuNSIgcng9IjEuNzUiIGZpbGw9IiNEOTc3NTciLz4KICA8cmVjdCB4PSIxNyIgeT0iMjgiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyLjUiIHJ4PSIxLjI1IiBmaWxsPSIjRTlCOEEzIi8+CiAgPHJlY3QgeD0iMTciIHk9IjMzIiB3aWR0aD0iMjEiIGhlaWdodD0iMi41IiByeD0iMS4yNSIgZmlsbD0iI0U5QjhBMyIvPgogIDxyZWN0IHg9IjMwLjUiIHk9IjQyIiB3aWR0aD0iMyIgaGVpZ2h0PSI3IiBmaWxsPSIjRkZGN0YyIi8+CiAgPHJlY3QgeD0iMjIiIHk9IjQ4IiB3aWR0aD0iMjAiIGhlaWdodD0iMyIgcng9IjEuNSIgZmlsbD0iI0ZGRjdGMiIvPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "2.9.0",
-          "publishTimestamp": 1793758735,
+          "version": "2.9.2",
+          "publishTimestamp": 1793851872,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -835,8 +835,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSI2LjUiIHk9IjkiIHdpZHRoPSIyMyIgaGVpZ2h0PSIxOCIgcng9IjIuNSIgZmlsbD0idXJsKCNhKSIgLz4KICA8cmVjdCB4PSIyMS41IiB5PSI5IiB3aWR0aD0iOCIgaGVpZ2h0PSIxOCIgcng9IjIuNSIgZmlsbD0idXJsKCNiKSIgLz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjYuNSIgeTE9IjkiIHgyPSIyOS41IiB5Mj0iMjciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzY5QjlGRiIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzI0REUyIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYiIgeDE9IjI1LjUiIHkxPSI5IiB4Mj0iMjUuNSIgeTI9IjI3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM0NUU3QTQiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA1OTA5RCIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "0.30.0",
-          "publishTimestamp": 1793804506,
+          "version": "0.30.1",
+          "publishTimestamp": 1793848027,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -2322,8 +2322,8 @@
       },
       "versions": [
         {
-          "version": "1.9.57",
-          "publishTimestamp": 1793803780,
+          "version": "1.9.58",
+          "publishTimestamp": 1793853846,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -5042,14 +5042,14 @@
       },
       "versions": [
         {
-          "version": "0.3.23",
-          "publishTimestamp": 1792347767,
+          "version": "0.3.25",
+          "publishTimestamp": 1793855436,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-0 <0.3.0"
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -5219,14 +5219,14 @@
       },
       "versions": [
         {
-          "version": "0.3.30",
-          "publishTimestamp": 1792677345,
+          "version": "0.3.32",
+          "publishTimestamp": 1793855420,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -6203,8 +6203,8 @@
       },
       "versions": [
         {
-          "version": "0.5.6",
-          "publishTimestamp": 1793723224,
+          "version": "0.5.7",
+          "publishTimestamp": 1793854241,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -6680,8 +6680,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDwhLS0gQ29yZSBPcmIgR3JhZGllbnQgLS0+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImFneS1vcmItZ3JhZGllbnQiIHgxPSIxMiIgeTE9IjExIiB4Mj0iMjUiIHkyPSIyNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMzhCREY4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iNDUlIiBzdG9wLWNvbG9yPSIjNjM2NkYxIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iODUlIiBzdG9wLWNvbG9yPSIjOTMzM0VBIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0MwMjZEMyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KCiAgICA8IS0tIEZyb250IE9yYml0IFJpbmcgR3JhZGllbnQgKEdsb3dpbmcgVmlicmFudCBHcmFkaWVudCkgLS0+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImFneS1yaW5nLWZyb250IiB4MT0iNiIgeTE9IjI0IiB4Mj0iMzEiIHkyPSIxMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDBEMkZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iNDAlIiBzdG9wLWNvbG9yPSIjMzhCREY4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjODE4Q0Y4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0Y0M0Y1RSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KCiAgICA8IS0tIEJhY2sgT3JiaXQgUmluZyBHcmFkaWVudCAoU3VidGxlIE9jY2x1ZGVkIERlcHRoKSAtLT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYWd5LXJpbmctYmFjayIgeDE9IjciIHkxPSIxMiIgeDI9IjI5IiB5Mj0iMjQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM4QkRGOCIgc3RvcC1vcGFjaXR5PSIwLjM1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0E4NTVGNyIgc3RvcC1vcGFjaXR5PSIwLjM1Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgoKICAgIDwhLS0gU3BlY3VsYXIgSGlnaGxpZ2h0IEN1cnZlIC0tPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJhZ3ktaGlnaGxpZ2h0LWdyYWQiIHgxPSIxNCIgeTE9IjEyIiB4Mj0iMTkiIHkyPSIxOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjAuNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNGRkZGRkYiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CgogIDwhLS0gQmFjayBTZWdtZW50IG9mIE9yYml0IFJpbmcgKHBhc3NlcyBiZWhpbmQgY2VudHJhbCBzcGhlcmUpIC0tPgogIDxwYXRoIGQ9Ik0gNi44IDE0LjIgQyA4LjIgOS42IDE3LjggNy4yIDI2LjIgMTAuOCBDIDI4LjAgMTEuNiAyOS4zIDEyLjYgMzAuMiAxMy44IiAKICAgICAgICBzdHJva2U9InVybCgjYWd5LXJpbmctYmFjaykiIHN0cm9rZS13aWR0aD0iMi40IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KCiAgPCEtLSBDZW50cmFsIEFudGlncmF2aXR5IFNwaGVyZSAtLT4KICA8Y2lyY2xlIGN4PSIxOCIgY3k9IjE4IiByPSI3LjUiIGZpbGw9InVybCgjYWd5LW9yYi1ncmFkaWVudCkiLz4KCiAgPCEtLSBFbGVnYW50IENyZXNjZW50IFNwZWN1bGFyIEhpZ2hsaWdodCAoYWRkcyBnbGFzcy9saXF1aWQgZGVwdGgpIC0tPgogIDxwYXRoIGQ9Ik0gMTMuMiAxNS4yIEEgNS41IDUuNSAwIDAgMSAyMS4wIDEzLjAgQSA2LjIgNi4yIDAgMCAwIDE0LjAgMTguMCBaIiAKICAgICAgICBmaWxsPSJ1cmwoI2FneS1oaWdobGlnaHQtZ3JhZCkiLz4KCiAgPCEtLSBGcm9udCBTZWdtZW50IG9mIE9yYml0IFJpbmcgKHN3ZWVwcyBpbiBmcm9udCB3aXRoIHZpYnJhbnQgZ2xvdykgLS0+CiAgPHBhdGggZD0iTSAzMC4yIDEzLjggQyAzMS40IDE4LjIgMjEuOCAyNi4yIDEyLjggMjQuMiBDIDkuNCAyMy40IDcuNCAyMS44IDYuNiAxOS42IiAKICAgICAgICBzdHJva2U9InVybCgjYWd5LXJpbmctZnJvbnQpIiBzdHJva2Utd2lkdGg9IjIuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CgogIDwhLS0gTGVmdCBTYXRlbGxpdGUgTm9kZSAoRFNIIEN5YW4gQW5jaG9yKSAtLT4KICA8Y2lyY2xlIGN4PSI4LjIiIGN5PSIxOC4yIiByPSIyLjIiIGZpbGw9IiMwMEQyRkYiLz4KICA8Y2lyY2xlIGN4PSI4LjIiIGN5PSIxOC4yIiByPSIxLjAiIGZpbGw9IiNGRkZGRkYiLz4KCiAgPCEtLSBSaWdodCBTYXRlbGxpdGUgTm9kZSAoQW50aWdyYXZpdHkgTWFnZW50YSBQYXJ0aWNsZSkgLS0+CiAgPGNpcmNsZSBjeD0iMjguNCIgY3k9IjIwLjQiIHI9IjEuOCIgZmlsbD0iI0Y0M0Y1RSIvPgogIDxjaXJjbGUgY3g9IjI4LjQiIGN5PSIyMC40IiByPSIwLjgiIGZpbGw9IiNGRkZGRkYiLz4KPC9zdmc+Cg==",
       "versions": [
         {
-          "version": "0.5.5",
-          "publishTimestamp": 1793843521,
+          "version": "0.5.6",
+          "publishTimestamp": 1793858971,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -6847,16 +6847,17 @@
           "repositoryUpdated": 1793767559
         }
       },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1tZW1lbnRvIj48cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgcng9IjI0IiBmaWxsPSIjMGYxNzJhIi8+PGNpcmNsZSBjeD0iNjQiIGN5PSI2NCIgcj0iNDQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2MxYTJhNCIgc3Ryb2tlLXdpZHRoPSI2Ii8+PHRleHQgeD0iNjQiIHk9Ijc4IiBmaWxsPSIjZjhmYWZjIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0idWktbW9ub3NwYWNlLG1vbm9zcGFjZSIgZm9udC1zaXplPSIzOCIgZm9udC13ZWlnaHQ9IjcwMCI+TTwvdGV4dD48L3N2Zz4K",
       "versions": [
         {
-          "version": "0.5.29",
-          "publishTimestamp": 1793466226,
+          "version": "0.5.30",
+          "publishTimestamp": 1793856239,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -6904,7 +6905,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-100"
         ],
         "sortKeys": {
@@ -7190,14 +7191,14 @@
       },
       "versions": [
         {
-          "version": "0.7.20",
-          "publishTimestamp": 1792333761,
+          "version": "0.7.21",
+          "publishTimestamp": 1793858125,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -7237,7 +7238,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-100"
         ],
         "sortKeys": {
@@ -9364,17 +9365,16 @@
           "repositoryUpdated": 1793805550
         }
       },
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1tY3AtcGFuZWwiPjxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiByeD0iMjQiIGZpbGw9IiMwZjE3MmEiLz48Y2lyY2xlIGN4PSI2NCIgY3k9IjY0IiByPSI0NCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTg2NDJkIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI2NCIgeT0iNzgiIGZpbGw9IiNmOGZhZmMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJ1aS1tb25vc3BhY2UsbW9ub3NwYWNlIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIj5NUDwvdGV4dD48L3N2Zz4K",
       "versions": [
         {
-          "version": "0.6.30",
-          "publishTimestamp": 1793805938,
+          "version": "0.6.31",
+          "publishTimestamp": 1793858133,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -10211,11 +10211,11 @@
       "versions": [
         {
           "version": "0.1.18",
-          "publishTimestamp": 1793827054,
+          "publishTimestamp": 1793858858,
           "source": {
             "type": "git",
             "url": "https://github.com/AITabby/dockyard-dsh",
-            "commit": "fbc4c81f83e3534c5e82dbe0e7e323a242d08da7"
+            "commit": "654b82d716751a4c8fb872cbf043de694b7f424b"
           }
         }
       ],
@@ -11058,8 +11058,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIE1vcm5pbmcgU3RhciBtYXJrOiB0aGUgYnJhbmQgc3RhciBmcm9tIGFzc2V0cy9sb2dvLnN2ZyAvIGxvZ28tZGFyay5zdmcKICAgICAgICh0aWxlIGRyb3BwZWQpLCBmYWNldGVkIGZvciB0aGUgMzZweCBkc2ggcGx1Z2luIGFydHdvcmsgY2FudmFzLiAtLT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibXN0YXItdGlwLXRvcCIgeDE9IjE4IiB5MT0iNi41IiB4Mj0iMTgiIHkyPSIxOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRjdEQThFIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0U0QUY0OSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibXN0YXItdGlwLXJpZ2h0IiB4MT0iMjkiIHkxPSIxNy41IiB4Mj0iMTgiIHkyPSIxOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRjBDNDZCIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0NCOEMyNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibXN0YXItdGlwLWJvdHRvbSIgeDE9IjE4IiB5MT0iMjkuNSIgeDI9IjE4IiB5Mj0iMTgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0RBQTAzQSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNCNzc5MUIiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9Im1zdGFyLXRpcC1sZWZ0IiB4MT0iNyIgeTE9IjE3LjUiIHgyPSIxOCIgeTI9IjE4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNGM0NFN0QiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRDg5RTM1Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBmaWxsPSJ1cmwoI21zdGFyLXRpcC10b3ApIiBkPSJNMTggNi41IDIwLjI1IDE1LjI1IDE4IDE4IDE1Ljc1IDE1LjI1WiIvPgogIDxwYXRoIGZpbGw9InVybCgjbXN0YXItdGlwLXJpZ2h0KSIgZD0iTTI5IDE3LjUgMjAuMjUgMTkuNzUgMTggMTggMjAuMjUgMTUuMjVaIi8+CiAgPHBhdGggZmlsbD0idXJsKCNtc3Rhci10aXAtYm90dG9tKSIgZD0iTTE4IDI5LjUgMTUuNzUgMTkuNzUgMTggMTggMjAuMjUgMTkuNzVaIi8+CiAgPHBhdGggZmlsbD0idXJsKCNtc3Rhci10aXAtbGVmdCkiIGQ9Ik03IDE3LjUgMTUuNzUgMTUuMjUgMTggMTggMTUuNzUgMTkuNzVaIi8+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "4.2.1",
-          "publishTimestamp": 1793797677,
+          "version": "4.2.2",
+          "publishTimestamp": 1793847978,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -11417,14 +11417,14 @@
       },
       "versions": [
         {
-          "version": "0.5.1",
-          "publishTimestamp": 1792850908,
+          "version": "0.5.3",
+          "publishTimestamp": 1793854479,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-0 <0.3.0"
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -11889,7 +11889,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-50"
         ],
         "sortKeys": {
@@ -11971,7 +11971,7 @@
         ],
         "labels": [
           "git",
-          "updated-week",
+          "updated-month",
           "stars-50"
         ],
         "sortKeys": {
@@ -11990,14 +11990,14 @@
       },
       "versions": [
         {
-          "version": "0.1.73",
-          "publishTimestamp": 1793768443,
+          "version": "0.1.74",
+          "publishTimestamp": 1793855994,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.0-rc.2 || ^0.2.1-alpha.1 || ^0.2.1-alpha.2 || ^0.2.1-alpha.5 || ^0.2.1-rc.1 || ^0.2.1-rc.2 || ^0.2.1-rc.3 || ^0.2.1-rc.4 || ^0.2.1-rc.5 || ^0.2.2-alpha.3"
+            "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.0-rc.2 || ^0.2.1-alpha.1 || ^0.2.1-alpha.2 || ^0.2.1-alpha.5 || ^0.2.1-rc.1 || ^0.2.1-rc.2 || ^0.2.1-rc.3 || ^0.2.1-rc.4 || ^0.2.1-rc.5 || ^0.2.2-alpha.3 || ^0.2.2-rc.1"
           }
         }
       ],
@@ -12430,16 +12430,17 @@
           "repositoryUpdated": 1793767641
         }
       },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1kb3VibGVjaGVjayI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNCIgZmlsbD0iIzBmMTcyYSIvPjxjaXJjbGUgY3g9IjY0IiBjeT0iNjQiIHI9IjQ0IiBmaWxsPSJub25lIiBzdHJva2U9IiNjZTNlYmIiIHN0cm9rZS13aWR0aD0iNiIvPjx0ZXh0IHg9IjY0IiB5PSI3OCIgZmlsbD0iI2Y4ZmFmYyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InVpLW1vbm9zcGFjZSxtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMzgiIGZvbnQtd2VpZ2h0PSI3MDAiPkQ8L3RleHQ+PC9zdmc+Cg==",
       "versions": [
         {
-          "version": "0.9.29",
-          "publishTimestamp": 1792404971,
+          "version": "0.9.30",
+          "publishTimestamp": 1793856270,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -13205,14 +13206,14 @@
       },
       "versions": [
         {
-          "version": "0.3.24",
-          "publishTimestamp": 1792854632,
+          "version": "0.3.26",
+          "publishTimestamp": 1793854427,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-0 <0.3.0"
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -16666,16 +16667,17 @@
           "repositoryUpdated": 1793767677
         }
       },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1sc3AtYWN0aW9ucyI+CiAgPHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNCIgZmlsbD0iIzBmMTcyYSIvPgogIDxwYXRoIGQ9Ik00MiAzNCAxOCA2NGwyNCAzMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzhiZGY4IiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxwYXRoIGQ9Im04NiAzNCAyNCAzMC0yNCAzMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzhiZGY4IiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik03MiAyNCA1NiAxMDQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2Y0NzJiNiIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSI2NCIgY3k9IjY0IiByPSI1IiBmaWxsPSIjZjhmYWZjIi8+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "0.5.17",
-          "publishTimestamp": 1792766133,
+          "version": "0.5.19",
+          "publishTimestamp": 1793856060,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-0 <0.3.0"
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -18940,7 +18942,6 @@
         ],
         "labels": [
           "npm",
-          "updated-month",
           "mcp",
           "skills"
         ],
@@ -20255,14 +20256,14 @@
       },
       "versions": [
         {
-          "version": "0.4.18",
-          "publishTimestamp": 1792317978,
+          "version": "0.4.19",
+          "publishTimestamp": 1793858074,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0"
+            "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -20376,7 +20377,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 30,
@@ -21322,16 +21323,17 @@
           "repositoryUpdated": 1793767714
         }
       },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1zZXNzaW9uLXN5bmMiPjxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiByeD0iMjQiIGZpbGw9IiMwZjE3MmEiLz48Y2lyY2xlIGN4PSI2NCIgY3k9IjY0IiByPSI0NCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjExZWZkIiBzdHJva2Utd2lkdGg9IjYiLz48dGV4dCB4PSI2NCIgeT0iNzgiIGZpbGw9IiNmOGZhZmMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJ1aS1tb25vc3BhY2UsbW9ub3NwYWNlIiBmb250LXNpemU9IjM4IiBmb250LXdlaWdodD0iNzAwIj5TUzwvdGV4dD48L3N2Zz4K",
       "versions": [
         {
-          "version": "0.2.31",
-          "publishTimestamp": 1792845529,
+          "version": "0.2.32",
+          "publishTimestamp": 1793856829,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -21982,8 +21984,8 @@
       },
       "versions": [
         {
-          "version": "2.3.8",
-          "publishTimestamp": 1793707318,
+          "version": "2.3.9",
+          "publishTimestamp": 1793853807,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -22031,14 +22033,14 @@
       },
       "versions": [
         {
-          "version": "0.3.26",
-          "publishTimestamp": 1793458449,
+          "version": "0.3.27",
+          "publishTimestamp": 1793856623,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -23277,14 +23279,14 @@
       },
       "versions": [
         {
-          "version": "0.3.26",
-          "publishTimestamp": 1793102371,
+          "version": "0.3.27",
+          "publishTimestamp": 1793855302,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-0 <0.3.0"
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -23328,14 +23330,14 @@
       },
       "versions": [
         {
-          "version": "0.2.25",
-          "publishTimestamp": 1792853397,
+          "version": "0.2.26",
+          "publishTimestamp": 1793856789,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-0 <0.3.0"
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -23376,17 +23378,16 @@
           "repositoryUpdated": 1793805494
         }
       },
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1sb2NhbC1haSI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNCIgZmlsbD0iIzBmMTcyYSIvPjxjaXJjbGUgY3g9IjY0IiBjeT0iNjQiIHI9IjQ0IiBmaWxsPSJub25lIiBzdHJva2U9IiMyZTAwY2QiIHN0cm9rZS13aWR0aD0iNiIvPjx0ZXh0IHg9IjY0IiB5PSI3OCIgZmlsbD0iI2Y4ZmFmYyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InVpLW1vbm9zcGFjZSxtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMzgiIGZvbnQtd2VpZ2h0PSI3MDAiPkxBPC90ZXh0Pjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "0.2.24",
-          "publishTimestamp": 1793805665,
+          "version": "0.2.25",
+          "publishTimestamp": 1793856901,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -24193,8 +24194,8 @@
       },
       "versions": [
         {
-          "version": "0.28.0",
-          "publishTimestamp": 1793465443,
+          "version": "0.29.0",
+          "publishTimestamp": 1793860857,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -26019,14 +26020,14 @@
       },
       "versions": [
         {
-          "version": "2.19.3",
-          "publishTimestamp": 1793788145,
+          "version": "2.19.4",
+          "publishTimestamp": 1793857978,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-rc.2 <0.2.2-0"
+            "dsh": "=0.2.2-rc.1"
           }
         }
       ]
@@ -28464,12 +28465,12 @@
       },
       "versions": [
         {
-          "version": "0.3.10",
-          "publishTimestamp": 1793767882,
+          "version": "0.3.11",
+          "publishTimestamp": 1793852411,
           "source": {
             "type": "git",
             "url": "https://github.com/islibaodong/dsh-login",
-            "commit": "da254fb33fc084bba2c51ef7c0a1ff75cb19b317"
+            "commit": "9350e052705a572ce0e008b8f0668c63c515ba44"
           },
           "engines": {
             "dsh": ">=0.1.5-alpha.1 <0.2.0-0 || >=0.1.6-alpha.1 <0.2.0-0 || >=0.1.7-alpha.2 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0 || >=0.2.1-alpha.1 <0.3.0-0 || >=0.2.2-alpha.2 <0.3.0-0"
@@ -28748,14 +28749,14 @@
       },
       "versions": [
         {
-          "version": "0.8.15",
-          "publishTimestamp": 1792326693,
+          "version": "0.8.16",
+          "publishTimestamp": 1793856422,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-0 <0.3.0"
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -28798,17 +28799,16 @@
           "repositoryUpdated": 1793806339
         }
       },
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC10YWxrIj48cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgcng9IjI0IiBmaWxsPSIjMGYxNzJhIi8+PGNpcmNsZSBjeD0iNjQiIGN5PSI2NCIgcj0iNDQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2YwNmM3ZCIgc3Ryb2tlLXdpZHRoPSI2Ii8+PHRleHQgeD0iNjQiIHk9Ijc4IiBmaWxsPSIjZjhmYWZjIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0idWktbW9ub3NwYWNlLG1vbm9zcGFjZSIgZm9udC1zaXplPSIzOCIgZm9udC13ZWlnaHQ9IjcwMCI+VDwvdGV4dD48L3N2Zz4K",
       "versions": [
         {
-          "version": "0.3.28",
-          "publishTimestamp": 1793806531,
+          "version": "0.3.29",
+          "publishTimestamp": 1793855191,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-0 <0.3.0"
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -30004,14 +30004,14 @@
       },
       "versions": [
         {
-          "version": "0.2.23",
-          "publishTimestamp": 1792854128,
+          "version": "0.2.24",
+          "publishTimestamp": 1793856113,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -30522,8 +30522,8 @@
       },
       "versions": [
         {
-          "version": "0.23.0",
-          "publishTimestamp": 1793792104,
+          "version": "0.23.1",
+          "publishTimestamp": 1793856396,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -31977,14 +31977,14 @@
       },
       "versions": [
         {
-          "version": "0.2.24",
-          "publishTimestamp": 1792316794,
+          "version": "0.2.25",
+          "publishTimestamp": 1793855219,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-0 <0.3.0"
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -32605,7 +32605,7 @@
         ],
         "labels": [
           "git",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 15,
@@ -33516,14 +33516,14 @@
       },
       "versions": [
         {
-          "version": "0.2.26",
-          "publishTimestamp": 1792850513,
+          "version": "0.2.27",
+          "publishTimestamp": 1793856138,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-0 <0.3.0"
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -34865,16 +34865,17 @@
           "repositoryUpdated": 1793767897
         }
       },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1vdXRwdXQtc3R5bGVzIj48cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgcng9IjI0IiBmaWxsPSIjMGYxNzJhIi8+PGNpcmNsZSBjeD0iNjQiIGN5PSI2NCIgcj0iNDQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ViM2RkZiIgc3Ryb2tlLXdpZHRoPSI2Ii8+PHRleHQgeD0iNjQiIHk9Ijc4IiBmaWxsPSIjZjhmYWZjIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0idWktbW9ub3NwYWNlLG1vbm9zcGFjZSIgZm9udC1zaXplPSIzOCIgZm9udC13ZWlnaHQ9IjcwMCI+T1M8L3RleHQ+PC9zdmc+Cg==",
       "versions": [
         {
-          "version": "0.8.2",
-          "publishTimestamp": 1792841260,
+          "version": "0.8.3",
+          "publishTimestamp": 1793856945,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.2.1-0 <0.3.0"
+            "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -35078,44 +35079,6 @@
           "repositoryUpdated": 1792687723
         }
       }
-    },
-    {
-      "name": "dsh-duet",
-      "title": "dsh-duet",
-      "description": "duet（二重奏）：只用语音就能操作 DSH，边听边说、随时插话的全双工语音助手。",
-      "author": "YuMS",
-      "repository": {
-        "url": "https://github.com/YuMS/dsh-duet"
-      },
-      "metadata": {
-        "category": "utilities",
-        "keywords": [
-          "dsh-plugin",
-          "deepseek-harness",
-          "full-duplex",
-          "voice",
-          "实用工具",
-          "utilities"
-        ],
-        "labels": [
-          "npm",
-          "updated-month"
-        ],
-        "sortKeys": {
-          "stars": 13,
-          "repositoryUpdated": 1791952321
-        }
-      },
-      "versions": [
-        {
-          "version": "0.1.10",
-          "publishTimestamp": 1791952381,
-          "source": {
-            "type": "npm",
-            "registry": "https://registry.npmjs.org/"
-          }
-        }
-      ]
     },
     {
       "name": "dsh-edit-diff",
@@ -37735,7 +37698,7 @@
         ],
         "labels": [
           "git",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 12,
@@ -38459,14 +38422,14 @@
       },
       "versions": [
         {
-          "version": "0.2.25",
-          "publishTimestamp": 1793458607,
+          "version": "0.2.26",
+          "publishTimestamp": 1793856667,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -39809,8 +39772,8 @@
       },
       "versions": [
         {
-          "version": "0.11.0",
-          "publishTimestamp": 1793432351,
+          "version": "0.11.1",
+          "publishTimestamp": 1793844367,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -40228,14 +40191,14 @@
       },
       "versions": [
         {
-          "version": "0.4.21",
-          "publishTimestamp": 1793457922,
+          "version": "0.4.22",
+          "publishTimestamp": 1793856418,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
           },
           "engines": {
-            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0"
+            "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
           }
         }
       ]
@@ -43818,7 +43781,7 @@
         ],
         "labels": [
           "git",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 8,
@@ -45101,6 +45064,52 @@
           },
           "engines": {
             "dsh": "^0.1.6-alpha.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-appshot",
+      "title": "dsh-plugin-appshot",
+      "description": "dsh-plugin-appshot — a DeepSeek Harness plugin for macOS and Windows context screenshot capture.",
+      "author": "TaurusWood",
+      "homepage": "https://github.com/TaurusWood/dsh-plugin-appshot#readme",
+      "repository": {
+        "url": "https://github.com/TaurusWood/dsh-plugin-appshot"
+      },
+      "metadata": {
+        "category": "ecosystem-resources",
+        "keywords": [
+          "deepseek",
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "appshot",
+          "screenshot",
+          "screencapturekit",
+          "macos",
+          "windows",
+          "win32",
+          "agent",
+          "context",
+          "生态资源",
+          "ecosystem"
+        ],
+        "labels": [
+          "npm"
+        ],
+        "sortKeys": {
+          "stars": 5,
+          "repositoryUpdated": 1790579003
+        }
+      },
+      "versions": [
+        {
+          "version": "0.4.2",
+          "publishTimestamp": 1790577038,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
           }
         }
       ]
