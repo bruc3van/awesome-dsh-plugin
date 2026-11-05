@@ -11875,6 +11875,20 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "ssf13546/dsh-delta-theme": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:ssf13546/dsh-delta-theme#e0a3b032ea8e7490bec066256bfeca5bc3f08493",
+          "install": "https://github.com/ssf13546/dsh-delta-theme#e0a3b032ea8e7490bec066256bfeca5bc3f08493",
+          "command": "dsh plugin --profile web add \"github:ssf13546/dsh-delta-theme#e0a3b032ea8e7490bec066256bfeca5bc3f08493\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-05",
+      "verified_via": "README + Git commit",
+      "note": "README 将 1.1.1 试用版固定到提交 e0a3b032ea8e7490bec066256bfeca5bc3f08493（Issue #155 中的 a07276f… 为 1.1.0，已过期）；终端命令按标准 github: 语法构造。声明 engines.dsh 0.2.1-rc.5，客户端平台为 web。作者发布检查表的实机验收仍不完整，全新 profile 的实际安装也尚未验证。"
+    },
     "stardustlc666/dsh-codex-port": {
       "packages": [
         {
