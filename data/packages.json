@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05",
+  "updated_at": "2026-11-06",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -4350,19 +4350,6 @@
       "verified_date": "2026-10-20",
       "verified_via": "README@main"
     },
-    "fishsb/dsh-prompt-enhancer": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/Fishsb/dsh-prompt-enhancer#v3.4.2",
-          "source": "github:Fishsb/dsh-prompt-enhancer#v3.4.2",
-          "command": "dsh plugin --profile web add github:Fishsb/dsh-prompt-enhancer#v3.4.2"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-20",
-      "verified_via": "README@main"
-    },
     "flashingchen/dsh-worktree": {
       "packages": [
         {
@@ -7851,20 +7838,6 @@
       "verified_date": "2026-10-17",
       "verified_via": "manifest@5bd2b983ebc6",
       "note": "README 未提供可用的固定发行版本或 npm 来源；按已核验的提交固定到 Git 来源，安装命令由标准语法构造。"
-    },
-    "louke6572/dsh-whale-widget-plus": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:louke6572/dsh-whale-widget-plus#200bf165aad0de391c22d4c48efe292bf580b66a",
-          "install": "https://github.com/louke6572/dsh-whale-widget-plus#200bf165aad0de391c22d4c48efe292bf580b66a",
-          "command": "dsh plugin --profile web add \"github:louke6572/dsh-whale-widget-plus#200bf165aad0de391c22d4c48efe292bf580b66a\""
-        }
-      ],
-      "status": "repo-fallback",
-      "verified_date": "2026-10-22",
-      "verified_via": "manifest@200bf165aad0",
-      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
     "lutrodev/dsh-roleplay": {
       "packages": [
@@ -15671,6 +15644,32 @@
       "status": "readme-verified",
       "verified_date": "2026-10-31",
       "verified_via": "README + Git commit"
+    },
+    "fishsb/dsh-voice-prompt-enhancer": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/Fishsb/dsh-voice-prompt-enhancer#v3.5.1",
+          "source": "github:Fishsb/dsh-voice-prompt-enhancer#v3.5.1",
+          "command": "dsh plugin --profile web add github:Fishsb/dsh-voice-prompt-enhancer#v3.5.1"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-06",
+      "verified_via": "README@main (renamed from dsh-prompt-enhancer 2026-11-06)"
+    },
+    "louke6572/dsh-dfy": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/louke6572/dsh-Dfy",
+          "source": "github:louke6572/dsh-Dfy",
+          "command": "dsh plugin --profile web add github:louke6572/dsh-Dfy"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-06",
+      "verified_via": "README@main (renamed from dsh-whale-widget-plus 2026-11-06)"
     }
   }
 }
