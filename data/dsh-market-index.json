@@ -4303,8 +4303,8 @@
       },
       "versions": [
         {
-          "version": "0.3.0",
-          "publishTimestamp": 1792848516,
+          "version": "0.3.3",
+          "publishTimestamp": 1793998985,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -24564,8 +24564,8 @@
       },
       "versions": [
         {
-          "version": "0.7.79",
-          "publishTimestamp": 1793984229,
+          "version": "0.7.80",
+          "publishTimestamp": 1793999748,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
