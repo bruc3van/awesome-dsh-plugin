@@ -30,6 +30,7 @@ flowchart TD
 | `publish-npm-feed.yml` | v2 成功、手动 | 回归测试、digest 去重、OIDC 发布，并刷新 jsDelivr 的 latest 与无版本别名缓存；不取消进行中的发布 |
 | `refresh-showcase.yml` | SHOWCASE.md 变更、手动 | 更新中英文 README 展示区 |
 | `reverify-packages.yml` | 每周一 23:33、手动 | 在线复核映射；仅报告，不改映射 |
+| `entry-check.yml` | 每周三 14:17、脚本变更、手动 | 静态 ENTRY 只读报告；只查 npm 发布物，不参与门禁（Node 24） |
 | `validate-pr.yml` | PR 打开、更新、改标题/标签等 | 从 base 执行规则校验，不执行 PR 代码 |
 | `validate-curated.yml` | 相关 PR、main 脚本/工作流变更、手动 | actionlint、两组测试、在线策展校验、目录同步及 feed 生成验证 |
 | `validate-curation-push.yml` | main 审批/策展变更、手动 | 直接合入 main 时的策展与目录同步兜底 |
@@ -44,7 +45,7 @@ flowchart TD
 
 ## 本地检查与维护
 
-使用 Node.js 22：
+本地检查使用 Node.js 22（`entry-check` 工作流用 Node 24，因为 `dsh-standards@1.6.8` 要求 `>=24.9`）：
 
 ```sh
 npm ci --ignore-scripts --prefix scripts/host-market

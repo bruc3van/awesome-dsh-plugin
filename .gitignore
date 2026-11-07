@@ -4,3 +4,6 @@
 dist-npm/
 
 scripts/host-market/node_modules/
+
+# Local static ENTRY report output (CI uploads it as an artifact)
+entry-check-out/

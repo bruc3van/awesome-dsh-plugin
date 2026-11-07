@@ -1,0 +1,109 @@
+name: Static ENTRY report for npm mappings
+
+# Read-only companion to reverify-packages.yml. For the npm targets mapped in
+# data/packages.json and data/market-v2.json it packs the published tarball
+# (`npm pack --ignore-scripts`), runs the pinned dsh-standards checker with
+# `--scope entry --entry-claim static --no-exec`, and uploads the report as a
+# build artifact plus the job summary.
+#
+# The report is deliberately kept out of git: this repository's pull-request
+# path whitelist (scripts/validate-pr.mjs) does not include a reports/
+# directory or data/entry-report.json, and a weekly bot commit would add churn
+# without feeding any consumer. The artifact is the durable output.
+#
+# Non-blocking by design: per-entry failures become `not_run`, the script
+# always exits 0, and nothing here gates a pull request. FLOW and BOOST are not
+# run; the report carries those constants. Only npm artifacts are inspected —
+# a source checkout may omit the built lib/ directory and cause a false ENTRY
+# finding. The mapping/curation files are read-only in this lane.
+#
+# Node 24 is required by dsh-standards@1.6.8 (`engines.node >=24.9.0`); the
+# other workflows in this repository still run Node 22. No secret is needed:
+# the checker and the mapped packages are public npm artifacts.
+
+on:
+  schedule:
+    - cron: '17 6 * * 3' # weekly, Wednesday — offsets the daily and Monday jobs
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/check-entry.mjs'
+      - 'scripts/test-check-entry.mjs'
+      - '.github/workflows/entry-check.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: entry-check
+  cancel-in-progress: false
+
+jobs:
+  entry-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: 24
+      - name: Install the pinned checker
+        continue-on-error: true
+        run: |
+          npm install --prefix "$RUNNER_TEMP/entry-checker" \
+            --ignore-scripts --no-audit --no-fund --no-package-lock \
+            --registry=https://registry.npmjs.org \
+            dsh-standards@1.6.8
+      - name: Run the entry-report unit tests
+        run: node --test scripts/test-check-entry.mjs
+      - name: Generate the static ENTRY report
+        id: report
+        continue-on-error: true
+        env:
+          # dsh-standards@1.6.8 is installed once above; the script verifies
+          # this exact version before using it.
+          ENTRY_CHECKER_BIN: ${{ runner.temp }}/entry-checker/node_modules/.bin/dsh-standards
+        run: |
+          rm -rf entry-check-out
+          node scripts/check-entry.mjs \
+            --out entry-check-out/entry-report.json \
+            --md entry-check-out/entry-check.md
+      - name: Assert the report step touched no tracked file
+        # The mapping, curation and feed files are read-only in this lane; the
+        # report goes to an untracked output directory. If a future change
+        # starts rewriting a tracked file, fail loudly instead of committing it.
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
+            git status --short --untracked-files=no
+            echo "::error::the entry report step modified tracked files"
+            exit 1
+          fi
+      - name: Add the report to the job summary
+        if: always()
+        run: |
+          if [ -f entry-check-out/entry-check.md ]; then
+            cat entry-check-out/entry-check.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            {
+              echo "## Static ENTRY report"
+              echo
+              echo "not_run: the report was not produced; see the job log."
+              echo
+              echo "FLOW: not-run · BOOST: not-measured"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Upload the report
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: entry-report-${{ github.run_id }}-${{ github.run_attempt }}
+          path: entry-check-out/
+          if-no-files-found: warn
+          retention-days: 90

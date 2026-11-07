@@ -53,6 +53,7 @@ jobs:
       - name: Run the test suite
         run: >-
           node --test
+          scripts/test-check-entry.mjs
           scripts/test-market.mjs
           scripts/test-market-v2.mjs
           scripts/test-publish-npm-feed.mjs
