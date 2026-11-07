@@ -61,5 +61,6 @@
   "yjh051108/dsh-routing-suite": "Routing kit (runtime injector + router standard): install the injector first, then task-aware reasoning-mode routing presets (measured across P1–P23).",
   "ysr666/dsh-vision-router": "Eyes for text-only DSH agents: a free vision chain (no key) plus pixel-level vision tools (QA, locate, OCR), one-line install.",
   "zenstory-ai/oh-story-dsh": "Novel-writing and short-drama production plugin powered by Oh Story and Drama Skills.",
-  "tencent-connect/dsh-qqbot": "Official plugin that wires a Tencent QQ Bot into DeepSeek Harness (DSH): message bridging between the bot and the agent."
+  "tencent-connect/dsh-qqbot": "Official plugin that wires a Tencent QQ Bot into DeepSeek Harness (DSH): message bridging between the bot and the agent.",
+  "Yu-tao-Li/dsh-computer-use-win": "Windows computer-use plugin: lets the agent see and drive real Windows apps and pages — locate buttons and fields, read the screen, click, type and manage windows; web actions run quietly inside the DSH browser, with 25 operation tools and Esc to stop anytime."
 }

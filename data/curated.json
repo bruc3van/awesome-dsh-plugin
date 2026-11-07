@@ -180,7 +180,10 @@
     "zxcvbnmlxy/dsh-netease-daily": "每日听歌：每天 21:00 从网易云「每日推荐」挑 5 首各试听 30 秒，由 DeepSeek 选 3 首写推荐理由发进会话；本地记口味、避开近 14 天推荐过的歌。",
     "zyfgood/dsh-mobile": "DSH 手机端 Web UI 插件：同一局域网内用手机浏览全部会话、实时查看回复并继续对话，桌面端提供带二维码的入口",
     "zyfgood/dsh-web-search-tavily": "DeepSeek Harness（DSH）插件：把 web_search 的搜索后端从 DeepSeek 云换成 Tavily API——省配额、自备 key。Upstream description is permanently mojibake; replacement text taken from the README.",
-    "ayuanxx-max/dsh-smooth": "一站式解决 DSH「跑任务卡顿、切会话弹重连、启动慢」的顺滑包：纯配置 bundle + 排障 skill，不改核心、可一键回滚。"
+    "ayuanxx-max/dsh-smooth": "一站式解决 DSH「跑任务卡顿、切会话弹重连、启动慢」的顺滑包：纯配置 bundle + 排障 skill，不改核心、可一键回滚。",
+    "liangzz1998/dsh-doubao-painter": "把本机豆包桌面客户端的生图能力接进 DeepSeek Harness：agent 一句 doubao_paint，豆包在后台出图并直接取回无水印高清原图，无需火山方舟 API Key、不按张付费。",
+    "Magelovania/dsh-branch-notes": "枝条笔记 DSH 插件：左侧栏枝条图标展开整块笔记面板——一层一列的枝条卡片、包络色带、长按拖动换父枝；AI 抽屉与一键总结直接使用 Harness 内置模型，无需任何 API Key。",
+    "juntaoqian/dsh-vars": "DSH 变量插件：新建带类型和初始值的变量，经本机 HTTP GET/POST 读写，支持 WebSocket 变化订阅、可选 Bearer token 与设置页管理。"
   },
   "leaderboard_exclusions": {
     "01men/kizuna": "Kept out of the star board: a self-hosted agent relay/delivery network (hub+box+web console, Docker/Caddy); the DSH plugin is its console panel — dual-host distribution. Stays in the catalog.",
@@ -266,7 +269,6 @@
     "DayuanJiang/next-ai-draw-io": "Kept out of the star board: stars accrued as the generic next-ai-draw-io product (web/desktop draw.io editor with an MCP server for many agents); the DSH plugin in packages/dsh-plugin is one of several distribution forms. Stays in the catalog.",
     "Devin-AXIS/jev-dsh-decision": "Kept out of the star board: stars accrued as a cross-ecosystem topic-farm (20 topics spanning codex / opencode / apollo / ipollowork / dsh harnesses) — 111★ in three days on a repo with no commits after its creation day, not from the DSH plugin audience. Stays in the catalog.",
     "Diluka/dsh-agent-plugin-market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
-    "Dinis0214/dsh-desktop-lite": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "Djokovical5294/DeepSeek-Harness-Token-Free": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "DoctorxPriestess/dsh-status-indicator": "Kept out of the star board: a Windows system-tray companion (PowerShell) for a local dsh web instance, not an installable DSH plugin. Stays in the catalog.",
     "DolphinMiner/deepseek-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -1079,7 +1081,6 @@
     "zzzgydi/verge-browser": "Kept out of the star board: dual-host — a self-hosted browser sandbox product (Chromium/CDP/Playwright/noVNC); DSH is a subdirectory adapter. Stays in the catalog.",
     "alchaincyf/huashu-design": "Kept out of the star board: stars accrued as a viral cross-runtime design skill for Claude Code / Codex / Cursor & any agent (nuwa-skill sibling; built 2026-04, tagged dsh-plugin only on 2026-11-04) — the audience is the skill itself, not the DSH plugin ecosystem. Stays in the catalog.",
     "alchaincyf/huashu-excel": "Kept out of the star board: stars accrued as a cross-runtime Excel-analysis skill (agent-agnostic, nuwa-skill sibling family) — not the DSH plugin audience. Stays in the catalog.",
-    "IceWhaleTech/filens": "Kept out of the star board: stars accrued as the generic local-first file preview/conversion product (Office/CAD/RAW + agent CLI) — DSH is a subdirectory integration; bursty watch windows (max 20/10min) and a 34:1 star-to-fork ratio point at a promoted audience. Stays in the catalog.",
     "openpilotcc/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "hjhcos/dsh-plugin-discovery": "An in-host discovery plugin curating and installing community DSH bundles (newbie essentials, recommendations, npm/GitHub search) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market.",
     "oday0311/open-dsh-market": "An installable bundle rendering the cctor.com community plugin catalog with user-confirmed install — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market.",
@@ -1101,7 +1102,31 @@
     "schrolemons/chat-harness-7-2-lays-for-a-AI-bot": "Kept out of the star board: a remote/mobile client form — a QQ chat bridge that hosts DSH as the model/session/tool backend over SnowLuma/OneBot. Stays in the catalog.",
     "QIC-9821/dsh-wechat-pad": "Kept out of the star board: a remote/mobile client form — hosts personal WeChat inside DSH through a self-hosted iPad-protocol backend (same class as dsh-wechat-remote). Stays in the catalog.",
     "FlashPoint007/dsh-wecom-soul-bot": "Kept out of the star board: a remote/mobile client form — a WeCom bot chat surface for DSH with persona and long-term memory over a persistent connection. Stays in the catalog.",
-    "vladtsvirko/dsh-telegram-connector": "Kept out of the star board: a remote/mobile client form — a Telegram control plane for DSH (one group per workspace, one forum topic per session). Stays in the catalog."
+    "vladtsvirko/dsh-telegram-connector": "Kept out of the star board: a remote/mobile client form — a Telegram control plane for DSH (one group per workspace, one forum topic per session). Stays in the catalog.",
+    "moldkey/dsh-deepseekbase": "An in-host plugin embedding a plugin search / market index with sandbox install verdicts — the market cannot include another market; stays in the catalog, kept out of the star board and the downstream market.",
+    "whoishuhu/dsh-tag-index": "An in-host Discover plugin injecting a community-wide dsh-plugin topic index — the market cannot include another market; stays in the catalog, kept out of the star board and the downstream market.",
+    "WinterOne-hub/dsh-plugin-pulse": "An in-host plugin-ranking panel with install pointers and feature requests — the market cannot include another market; stays in the catalog, kept out of the star board and the downstream market.",
+    "2869949486/dsh-skill-market": "A local build of montersy123/dsh-skill-market that browses and installs SkillHub skills in-host — the market cannot include another market; stays in the catalog, kept out of the star board and the downstream market.",
+    "tencentmusic/modus": "Kept out of the star board: dual-host — Modus is a platform-neutral coding-agent knowledge framework (Claude Code / Codex / Cursor / CodeBuddy / DSH projections via `modus init --platform dsh`, plus the npm plugin @modus-ai/modus); stars accrued as the Modus framework. Stays in the catalog.",
+    "BruceXcluding/session-recap": "Kept out of the star board: dual-host — an npm CLI + Claude Code plugin with packages/dsh as a parallel distribution; stars accrued as the Claude Code plugin. Stays in the catalog.",
+    "BruceXcluding/dev-almanac": "Kept out of the star board: dual-host — a Claude Code mod with packages/dsh as a parallel distribution; stars accrued as the Claude Code mod. Stays in the catalog.",
+    "divisioncassini05-lab/find-nyaa-anime-release": "Kept out of the star board: dual-host — the same core ships as a Codex Skill and a DSH plugin side by side. Stays in the catalog.",
+    "oTAKUBANG1/bili-follow-doctor": "Kept out of the star board: dual-host — one tool shipped in three parallel forms (userscript / DSH plugin / CLI). Stays in the catalog.",
+    "wyinthe/dsh-qq": "Kept out of the star board: a remote/mobile client form — a two-way QQ chat face (NapCat/OneBot11) driving DSH sessions. Stays in the catalog.",
+    "xrzhai/dsh-plugin-wechat": "Kept out of the star board: a remote/mobile client form — a two-way WeChat control face (dispatch work, exchange files, remote-drive other DSH sessions). Stays in the catalog.",
+    "cube-ai/dsh-feishu-channels": "Kept out of the star board: a remote/mobile client form — a two-way Feishu bot bridge into local DSH (per-channel model/workspace/permissions). Stays in the catalog.",
+    "raven3005672/dsh-plugin-im-remote-control": "Kept out of the star board: a remote/mobile client form — a Feishu bot remote-controlling DSH sessions. Stays in the catalog.",
+    "VictorKozachek/dsh-dispatcher": "Kept out of the star board: a remote/mobile client form — routes ask_user_question to Telegram/MAX or a relay and answers from the phone. Stays in the catalog.",
+    "cyuni1996/dsh-watch": "Kept out of the star board: a remote/mobile client form — continuing DSH conversations from an Android watch. Stays in the catalog.",
+    "opentandem/dsh-phone": "Kept out of the star board: a remote/mobile client form — a QR-paired phone client for DSH. Stays in the catalog.",
+    "REALOIYO/dsh-web-gate": "Kept out of the star board: a remote/mobile client form — a password-protected LAN gateway exposing the DSH Web UI. Stays in the catalog.",
+    "SilverKurali/dsh-phone-tunnel": "Kept out of the star board: a remote/mobile client form — mounts the running DSH Web UI onto a mesh-network interface for phone access. Stays in the catalog.",
+    "StarChen-Cycler/dsh-ctl": "Kept out of the star board: a remote/mobile client form — a loopback HTTP control plane driving sessions from remote ends over SSH. Stays in the catalog.",
+    "juntaoqian/dsh-remote-v2": "Kept out of the star board: a remote/mobile client form — an isolated sidecar plus authenticated gateway for DSH remote access. Stays in the catalog.",
+    "gekailin/dsh-super-chat": "Kept out of the star board: a remote/mobile client form — a chat panel whose WeChat bridge is a two-way chat channel. Stays in the catalog.",
+    "LingYS-14/ai-companion-engine": "Kept out of the star board: a remote/mobile client form — a companion kernel with a two-way QQ (OneBot v11) chat face beside the web workbench. Stays in the catalog.",
+    "GnaneshKunal/dsh-hermes-facade": "Kept out of the star board: a remote/mobile client form — a host plugin letting the Hermex iOS app drive the local DSH agent (hermes-webui facade). Stays in the catalog.",
+    "sw503544488/dsh-harness-launcher": "Kept out of the star board: a desktop shell/launcher form — a Windows desktop icon that starts, reopens and closes DSH, with Restart/Close in the Web sidebar. Stays in the catalog."
   },
   "excluded_repos": {
     "01men/CDPP": "Not a DSH plugin — a cross-border document-processing platform repo (no README, no DSH install path).",
@@ -2638,7 +2663,18 @@
     "Buir5/dsh-tg-voice": "Not a DSH plugin — an install-script patch that modifies the Telegram channel of the @xmanrui/dsh-im plugin; no plugin bundle of its own.",
     "martin2026US-lab/dsh-go-siwc": "Not installable — the author withdrew the v0.2.1 preview and paused installation; no published release or usable install path. Re-submittable after a verified release.",
     "Nero0427/dsh-purge-lite": "Host-patching prompt-override kit — replaces the assembled system prompt and clears the host identity section, and applies 84 host patches that steer the approval gates and sandbox; a trimmed derivative of the deleted dsh-purge jailbreak plugin family.",
-    "tianyadadi/dsh-workbench": "Not a DSH plugin — a standalone local desktop workbench that manages DSH plugins/memory/themes from outside the host; no bundle manifest or install path."
+    "tianyadadi/dsh-workbench": "Not a DSH plugin — a standalone local desktop workbench that manages DSH plugins/memory/themes from outside the host; no bundle manifest or install path.",
+    "dataelement/bisheng": "Not a DSH plugin — BISHENG, an open-source enterprise agent platform (agents/RAG/workflows, desktop integration) deployed via Docker Compose; repo and README carry no DSH plugin manifest or install path, and the 12k stars belong to the platform itself.",
+    "Trustbaselab/vigiliae": "Not a DSH plugin — Vigiliae, a self-hosted AI agent-team framework for a VPS (pip install / init / serve, Docker); no DSH plugin manifest or install path, DSH appears only as a local↔cloud handoff target.",
+    "Verafyai/verafyHarness": "Not a DSH plugin — Verafy Harness, an AI-validator framework for smart contracts (install.sh, Claude Code marketplace, integrations for hermes/openclaw); the DSH face is only a model-route overlay config, no installable DSH plugin.",
+    "1luoyun/dsh-brain-framework": "Not a DSH plugin — a standalone Python long-term-memory library (brain.py and scripts); no DSH manifest or install path despite the dsh topics.",
+    "show-thesky/every-thing-is-possible": "Host-patching jailbreak ('破甲') kit — pierce/install.mjs patches the DSH host to break its guardrails; follows the dsh-purge family exclusion precedent.",
+    "Oak-liuhj/dsh-session-rollover": "README-only stub — a one-line README with LICENSE; no code, manifest or install path.",
+    "Oak-liuhj/dsh-todo-progress": "README-only stub — a one-line README with LICENSE; no code, manifest or install path.",
+    "zelinwang/dsh-upgrade-linux": "README-only stub — a 57-character README and nothing else; no code, manifest or install path.",
+    "juntaoqian/dsh-workspace": "Not a DSH plugin — a personal workspace ledger registering upstream plugins as git submodules plus CLI wrappers; ships no plugin of its own.",
+    "shiker1996/wechat-editroom": "Not a DSH plugin — the Jianzi public-account editing workbench itself (Windows desktop app + web workbench); agents integrate over an MCP server (Codex/WorkBuddy/DSH), no installable DSH plugin (docsmint precedent).",
+    "moldkey/dsh-plugin-market": "Not a DSH plugin — a directory-site feed: gen.mjs + plugins.txt publishing the format-1 market index behind the external deepseekbase.com website; no plugin code."
   },
   "market_exclusions": {
     "0326/dsh-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -2708,7 +2744,6 @@
     "DaoCaoRenH/dsh-plugin-manager": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "DavidRm1911/dsh-subscription-gateway": "Not an installable DSH plugin — a standalone local OpenAI-compatible gateway server; stays in the catalog and leaderboard, excluded from the downstream market.",
     "Diluka/dsh-agent-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "Dinis0214/dsh-desktop-lite": "Not an installable DSH plugin — a native desktop client shell; stays in the catalog and leaderboard, excluded from the downstream market.",
     "Djokovical5294/DeepSeek-Harness-Token-Free": "Not an installable DSH plugin — a desktop shell/Electron GUI wrapper; stays in the catalog and leaderboard, excluded from the downstream market.",
     "DolphinMiner/deepseek-desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "DshMarketPlace/dsh-plugin-radar": "Not an installable DSH plugin — a browser userscript (Tampermonkey/Greasemonkey) helper; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -3400,6 +3435,10 @@
     "openpilotcc/dsh-desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
     "hjhcos/dsh-plugin-discovery": "An in-host discovery/install plugin over a curated community bundle catalog — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "oday0311/open-dsh-market": "An installable DSH bundle wrapping a third-party community plugin marketplace API — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "sfy2022/dsh-plugins": "A curated community-plugin index source (format 1) for the DSH Discover tab — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    "sfy2022/dsh-plugins": "A curated community-plugin index source (format 1) for the DSH Discover tab — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "moldkey/dsh-deepseekbase": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "whoishuhu/dsh-tag-index": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "WinterOne-hub/dsh-plugin-pulse": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "2869949486/dsh-skill-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
   }
 }
