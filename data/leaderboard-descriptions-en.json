@@ -62,5 +62,6 @@
   "ysr666/dsh-vision-router": "Eyes for text-only DSH agents: a free vision chain (no key) plus pixel-level vision tools (QA, locate, OCR), one-line install.",
   "zenstory-ai/oh-story-dsh": "Novel-writing and short-drama production plugin powered by Oh Story and Drama Skills.",
   "tencent-connect/dsh-qqbot": "Official plugin that wires a Tencent QQ Bot into DeepSeek Harness (DSH): message bridging between the bot and the agent.",
-  "Yu-tao-Li/dsh-computer-use-win": "Windows computer-use plugin: lets the agent see and drive real Windows apps and pages — locate buttons and fields, read the screen, click, type and manage windows; web actions run quietly inside the DSH browser, with 25 operation tools and Esc to stop anytime."
+  "Yu-tao-Li/dsh-computer-use-win": "Windows computer-use plugin: lets the agent see and drive real Windows apps and pages — locate buttons and fields, read the screen, click, type and manage windows; web actions run quietly inside the DSH browser, with 25 operation tools and Esc to stop anytime.",
+  "op7418/dsh-guizang-design": "Guizang design suite: four skills — web slides, image-text cards, web typography and de-AI-flavor rewriting — sharing one design system, with a work gallery, content workflow and tone profiles."
 }
