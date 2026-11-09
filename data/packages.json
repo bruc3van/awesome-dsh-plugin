@@ -477,6 +477,19 @@
       "verified_date": "2026-09-26",
       "verified_via": "README@main"
     },
+    "54nanmiao/dsh-no-loop-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-no-loop-plugin",
+          "source": "npm:dsh-no-loop-plugin",
+          "command": "dsh plugin --profile web add dsh-no-loop-plugin"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-09",
+      "verified_via": "README@main"
+    },
     "54nanmiao/dsh-peak-reminder": {
       "packages": [
         {
