@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06",
+  "updated_at": "2026-11-09",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -3093,19 +3093,6 @@
       "verified_date": "2026-10-22",
       "verified_via": "README + npm registry",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
-    },
-    "codemonkey-pine/dsh-wallpaper": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-wallpaper",
-          "source": "npm:dsh-wallpaper",
-          "command": "dsh plugin --profile web add dsh-wallpaper"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-09-26",
-      "verified_via": "README@main"
     },
     "codermanyhz/dsh-node-flow": {
       "packages": [
