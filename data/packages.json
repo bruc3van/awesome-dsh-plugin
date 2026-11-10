@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-10",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -2612,19 +2612,6 @@
           "install": "dsh-reference-anything",
           "source": "npm:dsh-reference-anything",
           "command": "dsh plugin --profile web add dsh-reference-anything"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-20",
-      "verified_via": "README@main"
-    },
-    "chang-tong/dsh-import-agents": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-import-agents",
-          "source": "npm:dsh-import-agents",
-          "command": "dsh plugin --profile web add dsh-import-agents"
         }
       ],
       "status": "readme-verified",
@@ -15670,6 +15657,19 @@
       "status": "readme-verified",
       "verified_date": "2026-11-06",
       "verified_via": "README@main (renamed from dsh-whale-widget-plus 2026-11-06)"
+    },
+    "chang-tong/dsh-unified-context": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-unified-context",
+          "source": "npm:dsh-unified-context",
+          "command": "dsh plugin --profile web add dsh-unified-context"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-10",
+      "verified_via": "README@main"
     }
   }
 }
