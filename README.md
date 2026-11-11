@@ -344,6 +344,7 @@ mindmap
 | [Silasvanceneo/dsh-dynamic-multiagent](https://github.com/Silasvanceneo/dsh-dynamic-multiagent) | 动态多智能体编排：任务图逐节点指定角色、模型、推理档位与工具，带设置页与按会话开关。 | 2026-11-10 |
 | [1997liuyh-boop/dsh-studio-library](https://github.com/1997liuyh-boop/dsh-studio-library) | 工作室套件控制台：统一管理影视/设计/健身/旅行等十个工作室插件的列表、项目、服务连接与会话，共享一个运行时。 | 2026-11-10 |
 | [liangdabiao/dsh-resume-matcher](https://github.com/liangdabiao/dsh-resume-matcher) | 简历诊所：HR 视角的中文简历深度优化工作台，五步审计产出完整报告，优化简历一键进入可视化编辑器微调排版并导出 PDF。 | 2026-11-10 |
+| [anbulang/dsh-connect-teleagent](https://github.com/anbulang/dsh-connect-teleagent) | TeleAgent 模型接入：把本机已登录的天翼 AI 星辰超级智能体（桌面端）模型经其原生内核接进 DSH，保留流式、多轮、图片、工具调用、思维链与积分，支持同机多账号。 | 2026-11-02 |
 
 ## 📣 作者自荐
 

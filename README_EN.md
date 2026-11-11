@@ -344,6 +344,7 @@ Manually screened recent projects, updated from time to time:
 | [Silasvanceneo/dsh-dynamic-multiagent](https://github.com/Silasvanceneo/dsh-dynamic-multiagent) | Dynamic multi-agent orchestration: task graphs of child agents with per-node role, model, reasoning effort and tools, plus a settings UI and per-conversation switch. | 2026-11-10 |
 | [1997liuyh-boop/dsh-studio-library](https://github.com/1997liuyh-boop/dsh-studio-library) | Studio suite console: manages the project lists, service connections and sessions of the ten-studio family (film, design, fitness, travel and more) on one shared runtime. | 2026-11-10 |
 | [liangdabiao/dsh-resume-matcher](https://github.com/liangdabiao/dsh-resume-matcher) | Resume clinic: an HR-view Chinese resume workbench — the five-step audit produces a full report, and the optimized resume jumps into a visual editor for layout tweaks and PDF export. | 2026-11-10 |
+| [anbulang/dsh-connect-teleagent](https://github.com/anbulang/dsh-connect-teleagent) | TeleAgent model provider: routes the locally signed-in TeleAgent desktop app (China Telecom TeleAI) models into DSH through the app's own kernel, keeping streaming, multi-turn, images, tool calls, reasoning and points balance, with multiple accounts on one machine. | 2026-11-02 |
 
 ## 📣 Author showcase
 
