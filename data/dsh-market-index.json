@@ -9531,11 +9531,11 @@
       "versions": [
         {
           "version": "0.7.7",
-          "publishTimestamp": 1794301938,
+          "publishTimestamp": 1794361118,
           "source": {
             "type": "git",
             "url": "https://github.com/louke6572/dsh-Dfy",
-            "commit": "93169a7d8990d4cf6ce0fcf4b8cbe1f16e1e4f96"
+            "commit": "f3f261f604f379e1bc0351a7e71a4af1ee2f57db"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
@@ -11049,7 +11049,7 @@
         ],
         "labels": [
           "git",
-          "updated-week",
+          "updated-month",
           "stars-50"
         ],
         "sortKeys": {
@@ -15817,7 +15817,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 44,
@@ -37035,7 +37035,7 @@
         ],
         "labels": [
           "git",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 12,
@@ -41243,8 +41243,7 @@
           "workflow"
         ],
         "labels": [
-          "npm",
-          "updated-month"
+          "npm"
         ],
         "sortKeys": {
           "stars": 10,
