@@ -350,7 +350,6 @@ mindmap
 插件作者按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 规范自行提交的推荐位：**不经编辑部审核，也不代表质量或安全背书**，安装前请自行评估（见下方「使用与安全」）。本区最多保留 30 条，区满后先进先出；条目若被上方[精选推荐](#-精选推荐)收录，会从本区移除、不占名额。首页只展示**最近 10 条**，完整列表见 [SHOWCASE.md](./SHOWCASE.md)。
 
 <!-- dsh:showcase:start -->
-- **[dsh-mcp-manage](https://github.com/null119/dsh-mcp-manage)**（[@null119](https://github.com/null119) · 2026-09-04）— DSH Web GUI 的 MCP 服务器管理页：把全部已安装 MCP 工具按服务器分组列出（可展开），添加/编辑/删除、启用/停用 stdio 与 Streamable HTTP 服务器，运行时即时生效、无需重启宿主；组合配置（cordis.yml / patch）提供的 MCP 同样可在运行时直接编辑、停用、移除并恢复，编辑跨停用/启用保留、宿主重启后自动维持，源组合文件不被修改。MIT，14 项单元测试。
 - **[BOWLUNA/dsh-custom-mode](https://github.com/BOWLUNA/dsh-custom-mode)**（[@BOWLUNA](https://github.com/BOWLUNA) · 2026-09-19）— 在设置页里管理 dsh 模式：选基础组成、逐行开关插件、编辑系统提示词（下一步模型调用即生效），可并存多个助手。
 - **[dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager)**（[@xiajiajun516](https://github.com/xiajiajun516) · 2026-09-27）— DeepSeek Harness（DSH）配置的备份、恢复、导出、导入、迁移与同步：覆盖设置 / Provider / 插件 / MCP / 技能 / Agent 预设 / 工作区；写盘前先 dry-run 预览、冲突逐项决策、失败自动回滚，跨机自动重映射绝对路径；勾选「导出密钥」后凭据随加密快照迁移（scrypt + AES-256-GCM），另内置配置市场可一键安装共享配置。
 - **[dsh-backup](https://github.com/xiaoyuyu6420/dsh-backup)**（[@xiaoyuyu6420](https://github.com/xiaoyuyu6420) · 2026-09-30）— 一条命令备份与恢复整个 `~/.dsh`（会话、设置、技能、MCP、凭据）：重启后继续跑的定时自动备份与分级保留、升级前自动快照、会话日志体检与定点修复、升级迁移预检、宿主起不来时也能用的进程外救援通道；凭据归档前默认脱敏、明文只落本机 vault，支持私有仓库 GitHub 同步做跨机迁移。适合把 DSH 当主力工具、不想被升级或换机弄丢数据的用户；npm 包名 `@xiaoyuyu6420/dsh-backup`。
@@ -360,6 +359,7 @@ mindmap
 - **[dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude)**（[@lcestou](https://github.com/lcestou) · 2026-10-13）— 把 Claude Code CLI 接入 DSH 作为模型提供方：用 `claude` 登录一次，在会话的模型选择器里选 Claude 模型即可，CLI 自带的权限模式、图片、续接与压缩都在 DSH 聊天里可用；DSH 的子智能体、后台任务和技能以 MCP 工具交给 Claude。工作区可通过 SSH 在另一台机器上运行 Claude。
 - **[dsh-zhihu-search](https://github.com/dsh-plugin-lab/dsh-zhihu-search)**（[@zlZayn](https://github.com/zlZayn) · 2026-10-27）— 把知乎检索接进 DSH：站内检索、全网检索与直答三个工具，走知乎开放平台官方 API 而非爬虫抓取，结果附带可引用的原始链接（站内结果另带点赞数），适合需要中文实时语料的研究与核查。
 - **[AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare)**（[@lijiaqi-AI-Product-Manager](https://github.com/lijiaqi-AI-Product-Manager) · 2026-11-04）— 在 DSH 主对话中体验两版 Vite 应用、执行统一检查并盲选，再结合项目当前改动审查采用结果；模型、时长与示例通过界面设置，复用已有模型配置，面向需要比较前端方案的开发者。
+- **[dsh-mole](https://github.com/tw93/Mole)**（[@tw93](https://github.com/tw93) · 2026-11-09）— 开源磁盘清理工具 Mole CLI 的官方 skill，支持 macOS 和 Windows：查看磁盘占用、预览并执行清理、读取系统健康状态，清理前先预览并征得同意。npm 可装，插件在 `plugins/mole` 子目录。
 <!-- dsh:showcase:end -->
 
 [查看全部 30 条自荐 →](./SHOWCASE.md)
