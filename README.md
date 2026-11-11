@@ -98,11 +98,12 @@ mindmap
 - **想在终端里用 Claude Code 风格界面**：[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) —— 全屏交互终端：状态行、思考流展开、上下文/TPS 仪表；tianshu 版本还内置 TDD 与证据门工作流。
 - **想在 Windows 上少折腾终端**：[dsh-ops](https://github.com/T-Auto/dsh-ops) —— Windows 提效套装：可选自带 Bash 接管反复报错的内置终端，配原生 Rust 低 token 读取工具，提升 token 效率。
 - **想在安卓手机上本地跑 DSH**：[dsh-mobile-apk](https://github.com/kelai141/dsh-mobile-apk) —— 安卓壳 APK：WebView UI + 内嵌 Termux 运行时、SAF 目录桥、保活服务与看门狗。只想用手机遥控电脑上已在跑的 DSH，见下方 [dsh-pocket](https://github.com/shaobeichen/dsh-pocket)。
+- **想让 Agent 查清磁盘占用、预览后再清理**：[Mole](https://github.com/tw93/Mole) —— Tw93 的开源电脑清理工具，通过官方 `dsh-mole` 技能插件接入 DSH，支持 macOS 与 Windows：分析磁盘空间、清理缓存和应用残留、读取系统健康状态。先展示清理预览，征得同意后执行；交互式卸载与管理员操作由用户在终端完成。需本机安装 Mole CLI，尚未安装时由 Agent 先询问再协助安装。
 
 | | | |
 | :---: | :---: | :---: |
 | <a href="https://github.com/bruc3van/dsh-desktop"><img src="https://github.com/bruc3van/dsh-desktop/raw/main/docs/images/marketplace.png" alt="dsh-desktop · 插件市场" width="280"></a><br>[dsh-desktop](https://github.com/bruc3van/dsh-desktop) | <a href="https://github.com/bruc3van/dsh-desktop"><img src="https://raw.githubusercontent.com/bruc3van/dsh-desktop/main/docs/images/marketplace-sec-install.png" alt="dsh-desktop · 安全安装" width="280"></a><br>[dsh-desktop](https://github.com/bruc3van/dsh-desktop) | <a href="https://github.com/ccch1mneyyy/dsh-TUI"><img src="https://raw.githubusercontent.com/ccch1mneyyy/dsh-TUI/main/screenshots/social-preview.png" alt="dsh-TUI" width="280"></a><br>[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) |
-| <a href="https://github.com/huiliyi37/dsh-tianshu-tui"><img src="https://raw.githubusercontent.com/huiliyi37/dsh-tianshu-tui/main/docs/tui-screenshot.jpg" alt="dsh-tianshu-tui" width="280"></a><br>[dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | <a href="https://github.com/T-Auto/dsh-ops"><img src="https://raw.githubusercontent.com/T-Auto/dsh-ops/main/docs/assets/462/row-page.jpg" alt="dsh-ops" width="280"></a><br>[dsh-ops](https://github.com/T-Auto/dsh-ops) | | |
+| <a href="https://github.com/huiliyi37/dsh-tianshu-tui"><img src="https://raw.githubusercontent.com/huiliyi37/dsh-tianshu-tui/main/docs/tui-screenshot.jpg" alt="dsh-tianshu-tui" width="280"></a><br>[dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | <a href="https://github.com/T-Auto/dsh-ops"><img src="https://raw.githubusercontent.com/T-Auto/dsh-ops/main/docs/assets/462/row-page.jpg" alt="dsh-ops" width="280"></a><br>[dsh-ops](https://github.com/T-Auto/dsh-ops) | <a href="https://github.com/tw93/Mole"><img src="https://raw.githubusercontent.com/tw93/Mole/main/docs/img/big-mole.png" alt="Mole · 电脑清理工具" width="280"></a><br>[Mole](https://github.com/tw93/Mole) |
 
 ### 🧰 界面与工作台
 
@@ -176,12 +177,6 @@ mindmap
 | <a href="https://github.com/ZSeven-W/dsh-openpencil"><img src="https://github.com/ZSeven-W/dsh-openpencil/raw/main/docs/images/dsh-openpencil-overview.png" alt="dsh-openpencil" width="280"></a><br>[dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) | <a href="https://github.com/PC2005-cloud/dsh-pet"><img src="https://github.com/PC2005-cloud/dsh-pet/raw/main/assets/screenshots/dsh-pet-running-1.png" alt="dsh-pet" width="280"></a><br>[dsh-pet](https://github.com/PC2005-cloud/dsh-pet) | <a href="https://github.com/Nagi-ovo/dsh-ads"><img src="https://raw.githubusercontent.com/Nagi-ovo/dsh-ads/main/assets/screenshot.webp" alt="dsh-ads" width="280"></a><br>[dsh-ads](https://github.com/Nagi-ovo/dsh-ads) |
 | <a href="https://github.com/cocofhu/anime-find"><img src="https://raw.githubusercontent.com/cocofhu/anime-find/main/docs/banner.jpg" alt="anime-find" width="280"></a><br>[anime-find](https://github.com/cocofhu/anime-find) | <a href="https://github.com/elysia395/dsh-wallpaper-engine"><img src="https://raw.githubusercontent.com/elysia395/dsh-wallpaper-engine/main/assets/readme/hero-light.png" alt="dsh-wallpaper-engine" width="280"></a><br>[dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) | <a href="https://github.com/flizzywine/dsh-tavern"><img src="https://raw.githubusercontent.com/flizzywine/dsh-tavern/main/docs/images/readme/overview.png" alt="dsh-tavern" width="280"></a><br>[dsh-tavern](https://github.com/flizzywine/dsh-tavern) |
 | <a href="https://github.com/JimLiu/baoyu-design"><img src="https://raw.githubusercontent.com/JimLiu/baoyu-design/main/assets/screenshots/claude-design-canvas.webp" alt="baoyu-design · 设计画布" width="280"></a><br>[baoyu-design](https://github.com/JimLiu/baoyu-design) | <a href="https://github.com/op7418/dsh-guizang-design"><img src="https://raw.githubusercontent.com/op7418/dsh-guizang-design/main/screenshots/1-studio.jpg" alt="dsh-guizang-design · 工作台" width="280"></a><br>[dsh-guizang-design](https://github.com/op7418/dsh-guizang-design) | |
-
-### 🧹 电脑清理与维护
-
-- **想让 Agent 查清磁盘占用、预览后再清理**：[Mole](https://github.com/tw93/Mole) —— Tw93 的开源电脑清理工具，通过官方 `dsh-mole` 技能插件接入 DSH，支持 macOS 与 Windows：分析磁盘空间、清理缓存和应用残留、读取系统健康状态。先展示清理预览，征得同意后执行；交互式卸载与管理员操作由用户在终端完成。需本机安装 Mole CLI，尚未安装时由 Agent 先询问再协助安装。
-
-<a href="https://github.com/tw93/Mole"><img src="https://raw.githubusercontent.com/tw93/Mole/main/docs/img/big-mole.png" alt="Mole · 电脑清理工具" width="560"></a>
 
 ### 🛠️ 开发与工作流
 
