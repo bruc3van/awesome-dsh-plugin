@@ -9531,11 +9531,11 @@
       "versions": [
         {
           "version": "0.7.7",
-          "publishTimestamp": 1794361118,
+          "publishTimestamp": 1794362284,
           "source": {
             "type": "git",
             "url": "https://github.com/louke6572/dsh-Dfy",
-            "commit": "f3f261f604f379e1bc0351a7e71a4af1ee2f57db"
+            "commit": "1951c233f8fa721b11edfe582f573e4e6cc14dbc"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"
