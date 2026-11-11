@@ -41,7 +41,7 @@ node scripts/host-market/refresh.mjs
 
 ## 编辑推荐数量
 
-`data/featured.json` 维护 50 个推荐仓库，`expected_repository_count: 50` 指定推荐来源应有的仓库数。仓库与插件分别计数：宝玉设计对应三个插件；天枢 TUI 需手动安装、Univer Office 超出包体积上限，两项继续留在推荐来源中，但不会被伪造为订阅安装项。当前核验结果为 50 个可安装插件；一个仓库发布多个合格插件时，线上插件数可以超过 50。
+`data/featured.json` 维护 51 个推荐仓库，`expected_repository_count: 51` 指定推荐来源应有的仓库数。仓库与插件分别计数：宝玉设计对应三个插件；天枢 TUI 需手动安装、Univer Office 超出包体积上限，两项继续留在推荐来源中，但不会被伪造为订阅安装项。Mole 通过官方 npm 包 `dsh-mole` 加入编辑推荐；实际可安装插件数以生成报告的 `summary.featuredPlugins` 为准，一个仓库发布多个合格插件时，线上插件数可以多于仓库数。
 
 生成、覆盖 data 和发布前校验都检查推荐来源的仓库数；与配置值不符时保留旧发布并报错，防止仅更新首页或部分数据却被报告为升级完成。生成报告的 `summary.featuredRepositories / featuredPlugins / expectedFeaturedRepositories` 分别记录来源仓库数、实际插件数和预期仓库数。数量要求不放宽安装来源、bundle、完整性和兼容范围的检查。
 

@@ -111,4 +111,4 @@ When changing `scripts/`, include the `CATALOG.md` and `TOP200.md` regenerated b
 
 下游展示精选卡片时，优先使用 `featured.entries[].description`，兼容旧数据时再回退到普通 `entries` 中同名仓库的 `description`。普通目录的介绍仍保留上游原文。即使精选仓库不在本轮普通目录中（例如 `bruc3van/bruce-md2word`），精选条目也直接携带中文介绍与安装信息，不应依赖普通目录来获取介绍。
 
-编辑推荐来源中的仓库数与订阅插件数分别统计。`expected_repository_count` 是推荐来源的仓库数（当前为 50），一个仓库可发布多个合格插件，线上插件数允许超过 50，由宿主索引生成和校验共同检查。更新首页精选时，应同步维护 `data/featured.json` 及安装映射，并验证 v2、官方订阅和 npm 分发结果；只修改 README 不代表推荐数据已经发布。
+编辑推荐来源中的仓库数与订阅插件数分别统计。`expected_repository_count` 是推荐来源的仓库数（当前为 51），一个仓库可发布多个合格插件，线上插件数可以多于仓库数，由宿主索引生成和校验共同检查。更新首页精选时，应同步维护 `data/featured.json` 及安装映射，并验证 v2、官方订阅和 npm 分发结果；只修改 README 不代表推荐数据已经发布。

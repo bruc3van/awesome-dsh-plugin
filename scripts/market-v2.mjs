@@ -15,7 +15,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 export const V2_SCHEMA_VERSION = 2;
 export const MAX_FILE_BYTES = 1024 * 1024; // Includes install mappings and featured picks.
 export const FEATURED_SCHEMA_VERSION = 1;
-export const MAX_FEATURED_ENTRIES = 50; // the curated list is hand-picked and stays small; double digits of picks, not hundreds.
+export const MAX_FEATURED_ENTRIES = 100; // Keep the hand-picked list bounded while allowing editorial additions.
 
 // Editorial data is hand-maintained, so oversize text is a data bug to fix,
 // never something to truncate: a cut-off install command or requirement is

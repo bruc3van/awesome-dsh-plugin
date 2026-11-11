@@ -350,7 +350,7 @@ test('featuredBlockFor rejects picks without a standardized mapping, dupes, and 
   assert.throws(() => featuredBlockFor(featuredSource([pick('a/mapped')], { updated_at: '09/26/2026' })), /updated_at/);
   assert.throws(() => featuredBlockFor(featuredSource([pick('not-a-slug')]), recordFor, inFeed), /owner\/repo slug/);
   const many = Array.from({ length: MAX_FEATURED_ENTRIES + 1 }, (_, i) => pick(`o/repo-${i}`));
-  assert.throws(() => featuredBlockFor(featuredSource(many), () => commandRecord(), inFeed), /cap is 50/);
+  assert.throws(() => featuredBlockFor(featuredSource(many), () => commandRecord(), inFeed), new RegExp(`cap is ${MAX_FEATURED_ENTRIES}`));
 });
 
 test('featured data checks the configured repository count', () => {

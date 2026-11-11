@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "reviewedAt": "2026-10-22",
+  "reviewedAt": "2026-11-11",
   "policy": "Reviewed translations, concise summaries and user-value labels supported by pinned display metadata. Retain package install identity; skip on upstream display changes. At most three value labels per plugin; no category or package-name inference.",
   "plugins": {
     "@dsh-external/dsh-super-injector": {
@@ -1808,6 +1808,37 @@
       "labels": [
         "document-export"
       ]
+    },
+    "dsh-mole": {
+      "reviewedVersion": "0.1.4",
+      "displaySha256": "ceb3a8089529db5d04eca86a67231d7e426e34c1cb0dd3f0a2aa4382ad85bc1b",
+      "evidence": [
+        "https://registry.npmjs.org/dsh-mole/-/dsh-mole-0.1.4.tgz",
+        "https://github.com/tw93/Mole/blob/1182eabe40764e0c2421c116d608305bf0822565/plugins/mole/skills/mole/SKILL.md",
+        "https://github.com/tw93/Mole/blob/1182eabe40764e0c2421c116d608305bf0822565/plugins/mole/README.zh.md"
+      ],
+      "labels": [
+        "file-management"
+      ],
+      "keywords": [
+        "Mole",
+        "Tw93",
+        "磁盘清理",
+        "磁盘占用",
+        "缓存清理",
+        "系统健康",
+        "disk cleanup",
+        "macOS",
+        "Windows"
+      ],
+      "title": {
+        "en": "Mole · Computer Cleanup",
+        "zh": "Mole · 电脑清理"
+      },
+      "description": {
+        "en": "Tw93's open-source computer cleanup tool for macOS and Windows, via the official DSH skill. Analyze disk usage, preview cleanup and read system health; ask before removal. Requires the local Mole CLI.",
+        "zh": "Tw93 的开源电脑清理工具，通过官方 DSH 技能插件分析 macOS / Windows 磁盘占用、预览清理和读取系统状态，征得同意后再清理；需本机 Mole CLI。"
+      }
     }
   }
 }

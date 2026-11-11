@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -15670,6 +15670,28 @@
       "status": "readme-verified",
       "verified_date": "2026-11-10",
       "verified_via": "README@main"
+    },
+    "tw93/mole": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-mole",
+          "command": "dsh plugin --profile web add dsh-mole",
+          "install": "dsh-mole"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-11",
+      "verified_via": "plugins/mole/README.zh.md@1182eab; npm:dsh-mole@0.1.4 tarball/bundle/integrity",
+      "requirements": [
+        "本机 macOS 或 Windows 与可用终端；需 Mole CLI（mo），缺失时先征得同意再安装。"
+      ],
+      "tasks": [
+        "磁盘占用分析",
+        "清理预览与确认后清理",
+        "系统健康状态"
+      ],
+      "note": "官方 DSH 技能插件位于 plugins/mole；交互式卸载与管理员操作由用户在终端完成。"
     }
   }
 }
