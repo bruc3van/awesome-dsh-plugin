@@ -63,5 +63,7 @@
   "zenstory-ai/oh-story-dsh": "Novel-writing and short-drama production plugin powered by Oh Story and Drama Skills.",
   "tencent-connect/dsh-qqbot": "Official plugin that wires a Tencent QQ Bot into DeepSeek Harness (DSH): message bridging between the bot and the agent.",
   "Yu-tao-Li/dsh-computer-use-win": "Windows computer-use plugin: lets the agent see and drive real Windows apps and pages — locate buttons and fields, read the screen, click, type and manage windows; web actions run quietly inside the DSH browser, with 25 operation tools and Esc to stop anytime.",
-  "op7418/dsh-guizang-design": "Guizang design suite: four skills — web slides, image-text cards, web typography and de-AI-flavor rewriting — sharing one design system, with a work gallery, content workflow and tone profiles."
+  "op7418/dsh-guizang-design": "Guizang design suite: four skills — web slides, image-text cards, web typography and de-AI-flavor rewriting — sharing one design system, with a work gallery, content workflow and tone profiles.",
+  "SAOS-3624/dsh-see-now": "See Now real-time vision plugin: lets the AI actually see your screen, camera or video files — frames are filtered by change volume and packed into one stitched image for the model, so a still screen costs almost nothing while motion earns frames.",
+  "aureth-labs/dsh-aurabot-qq": "Aurabot (Big Fat Fish): moves the AI in DSH into QQ as a persona with moods and memory — chat, image understanding, voice, stickers, singing, QZone posts, Bilibili; every capability is a pluggable module and all are off by default — not a word goes out until you switch them on."
 }
