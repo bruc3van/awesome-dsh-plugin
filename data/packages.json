@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-13",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -6913,20 +6913,6 @@
       "status": "readme-verified",
       "verified_date": "2026-10-22",
       "verified_via": "README + Git commit"
-    },
-    "kurohanekaoruko/dsh-novelist": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:KurohaneKaoruko/DSH-Novelist#b6433d3281351046cf381f1149a1c5cc3bcaf791",
-          "install": "https://github.com/KurohaneKaoruko/DSH-Novelist#b6433d3281351046cf381f1149a1c5cc3bcaf791",
-          "command": "dsh plugin --profile web add \"github:KurohaneKaoruko/DSH-Novelist#b6433d3281351046cf381f1149a1c5cc3bcaf791\""
-        }
-      ],
-      "status": "repo-fallback",
-      "verified_date": "2026-10-22",
-      "verified_via": "manifest@b6433d328135",
-      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
     "kw78/dsh-office-tools": {
       "packages": [
@@ -15692,6 +15678,20 @@
         "系统健康状态"
       ],
       "note": "官方 DSH 技能插件位于 plugins/mole；交互式卸载与管理员操作由用户在终端完成。"
+    },
+    "kurohanekaoruko/dsh-creator": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:KurohaneKaoruko/DSH-Creator#b6433d3281351046cf381f1149a1c5cc3bcaf791",
+          "install": "https://github.com/KurohaneKaoruko/DSH-Creator#b6433d3281351046cf381f1149a1c5cc3bcaf791",
+          "command": "dsh plugin --profile web add \"github:KurohaneKaoruko/DSH-Creator#b6433d3281351046cf381f1149a1c5cc3bcaf791\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-10-22",
+      "verified_via": "manifest@b6433d328135",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     }
   }
 }
