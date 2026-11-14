@@ -40704,8 +40704,8 @@
       },
       "versions": [
         {
-          "version": "0.4.24",
-          "publishTimestamp": 1794590232,
+          "version": "0.4.25",
+          "publishTimestamp": 1794620200,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
