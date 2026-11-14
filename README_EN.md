@@ -207,7 +207,7 @@ To browse every project in a category, see [CATALOG.md](./CATALOG.md) — the ca
 ### 🔌 Remote & external collaboration
 
 - **Want to remote-control DSH already running on your computer from a phone**: [dsh-pocket](https://github.com/shaobeichen/dsh-pocket) — Run `dsh web` on the computer, scan a QR code on the phone, and get a live mirror (LAN + public tunnel, access password, mobile layout). Check progress, send tasks, and tap approvals while you are away.
-- **Want the agent to operate remote hosts over SSH**: [dsh-remote](https://github.com/flymysql/dsh-remote) — SSH remote workspaces with an optional three-column IDE, highlighted editing, recursive search, terminals, Git diffs, and Agent tools for remote edits and builds.
+- **Want the agent to operate remote hosts over SSH**: [dsh-remote](https://github.com/flymysql/dsh-remote) — SSH remote workspaces for DSH with parallel projects across hosts, file browsing and editing, recursive search, terminals, Git diffs, and Agent tools to edit, build and test remotely. Optional IDE layout.
 
 | | | |
 | :---: | :---: | :---: |
