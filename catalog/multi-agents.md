@@ -4,7 +4,7 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **551**
+- 本册收录 / Entries in this volume: **548**
 - 快照日期 / Snapshot date: **2026-11-13 UTC**
 - 最近人工复核 / Last review merge: **2026-11-14**
 
@@ -56,7 +56,6 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 | [Altairpaca/dshelm](https://github.com/Altairpaca/dshelm) | Evidence-backed, explainable multi-model routing for DeepSeek Harness — policy resolution, provenance, and compatibility boundaries. | TypeScript | 9 | Apache-2.0 | 2026-09-24 |
 | [forelsket521-jpg/vvn-deepseek-harness](https://github.com/forelsket521-jpg/vvn-deepseek-harness) | DeepSeek Harness 破甲工具：解锁审批 / 沙箱 / 提权限制，解除身份与拒答约束，注入自定义提示词。82 条补丁，带图形界面，双击即用。基于 dsh-purge 修改。 | JavaScript | 9 | — | 2026-11-12 |
 | [Saktawdi/dsh-ha-orchestrator](https://github.com/Saktawdi/dsh-ha-orchestrator) | DeepSeek Harness（dsh）动态 Cordis 插件：模型高可用回退 + 五种模式子智能体编排（fanout / pipeline / supervisor / map-reduce / router） | JavaScript | 9 | MIT | 2026-10-26 |
-| [SakuraYH1080/dsh-purge-dsh0.2.1](https://github.com/SakuraYH1080/dsh-purge-dsh0.2.1) | dsh-purge 1.1.73+dsh0.2.1 - DSH 0.2.1-rc.2 patched build (cwd prompt-variable fix + Windows CJK path restart fix). Based on YuJunZhiXue/dsh-purge by YuJunZhiXue (MIT); base fork 2540656380/dsh-purge. Non-commercial, technical reference only. | JavaScript | 9 | MIT | 2026-11-11 |
 | [Caoran1314/dsh-edict](https://github.com/Caoran1314/dsh-edict) | 三省六部制多智能体审核流程，移植为 DeepSeek Harness 插件：12 状态状态机、门下省封驳、高风险确认、越权矩阵、委派防死锁、完整审计、军机处看板。 | JavaScript | 8 | NOASSERTION | 2026-11-04 |
 | [GengDaPeng/dsh-agent-message](https://github.com/GengDaPeng/dsh-agent-message) | DeepSeek Harness 跨会话 Agent 通信插件｜Cross-session agent-to-agent messaging with offline delivery, receipts and session navigation for DeepSeek Harness. | JavaScript | 8 | MIT | 2026-11-12 |
 | [lifangjin/dsh-paoding](https://github.com/lifangjin/dsh-paoding) | 庖丁解牛，游刃有余 —— 把 DSH 编排成角色分工、按需加载的 agent preset。 | JavaScript | 8 | MIT | 2026-11-11 |
@@ -71,12 +70,10 @@ DSH 插件全量目录的「多 Agent 编排与协作」分册 / The "Multi-Agen
 | [jiuaiwo/dsh-expert](https://github.com/jiuaiwo/dsh-expert) | T专家 — DeepSeek Harness 插件：22 分类 / 636 位专家名册（中文名与简介全量覆盖），@ 菜单召唤子代理 | JavaScript | 7 | MIT | 2026-11-11 |
 | [ZekaiShi/dsh-evo-subagent](https://github.com/ZekaiShi/dsh-evo-subagent) | 跨工作区独立人格、自适应风格与陪伴预设：为项目和对话分别维护人格与确认后的通用偏好，支持任意 DSH 已注册模型的子代理路由（含通过其他插件接入的 Codex、Claude Code）。 | JavaScript | 7 | MIT | 2026-11-12 |
 | [euuuuuuzer/dsh-loop-dock](https://github.com/euuuuuuzer/dsh-loop-dock) | A loop dock for DeepSeek Harness: one harness, multiple agent loops. | JavaScript | 6 | MIT | 2026-09-12 |
-| [feeling6667/dsh-purge-pro](https://github.com/feeling6667/dsh-purge-pro) | dsh-purge 的非官方分支（fork）：适配 DeepSeek Harness 0.2.1-rc.2、破甲内核 v3 | JavaScript | 6 | MIT | 2026-11-10 |
 | [ikun666666/dsh-groupchat](https://github.com/ikun666666/dsh-groupchat) | DSH 插件：每个工程一个群聊 —— 多个 AI 会话与人同群互聊、@ 唤醒离线会话、@创建成员 拉新会话进群 | JavaScript | 6 | MIT | 2026-11-10 |
 | [LinYanZhi/dsh-mesh](https://github.com/LinYanZhi/dsh-mesh) | dsh-mesh：把你自己多台电脑/手机上的 DSH 连成一个 AI 网络——局域网优先、跨机文件传输、AI 互相委托（Windows 优先，Early 0.x）。 \| LAN-first multi-node AI network for DeepSeek Harness: cross-machine file transfer and agent-to-agent delegation. | JavaScript | 6 | MIT | 2026-11-13 |
 | [loopwithai/LoopWithAI](https://github.com/loopwithai/LoopWithAI) | Multi-agent DeepSeek Harness workbench with switchable Pi, OpenAI Codex, Claude Code, and native DeepSeek Agent Loops. | TypeScript | 6 | — | 2026-11-09 |
 | [MaRi23333/dsh-subagent-library](https://github.com/MaRi23333/dsh-subagent-library) | DeepSeek Harness 具名子代理库插件：settings 驱动的角色名册，list_subagents / delegate 工具与设置页。Named subagent roster plugin for DeepSeek Harness. | JavaScript | 6 | MIT | 2026-11-06 |
-| [chs-1108/dsh-purge](https://github.com/chs-1108/dsh-purge) | DeepSeek Harness 本机安全评测与提示词清洗插件：侧栏面板管理提示词分层、补丁、规则集与技能；带授权演练台。Local security-eval &amp; prompt-cleaning plugin for DeepSeek Harness. | JavaScript | 5 | MIT | 2026-10-30 |
 | [cyzlmh/dsh-cyber-sec](https://github.com/cyzlmh/dsh-cyber-sec) | Authorized security-assessment profile for DeepSeek Harness: scoped network tools, container-backed shell, authorization guard, durable evidence, 21 security skills, 7 specialist subagents | TypeScript | 5 | Apache-2.0 | 2026-11-03 |
 | [Dogtiti/dsh-subagent-bridge](https://github.com/Dogtiti/dsh-subagent-bridge) | Subagent-shaped bridge between Codex and DeepSeek Harness: Codex spawns DSH workers over a loopback MCP endpoint and gets final answers back; DSH agents can dispatch to Codex in return. | JavaScript | 5 | MIT | 2026-11-08 |
 | [DRQRTS/dsh-cds-mode](https://github.com/DRQRTS/dsh-cds-mode) | CDS 模式（Chen's DS）— a multi-agent development mode for DeepSeek Harness. You talk to one persona; it dispatches 56 personas that hand work to each other directly. | JavaScript | 5 | MIT | 2026-10-08 |

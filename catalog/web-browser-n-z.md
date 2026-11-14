@@ -4,7 +4,7 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1555**
+- 本册收录 / Entries in this volume: **1554**
 - 快照日期 / Snapshot date: **2026-11-13 UTC**
 - 最近人工复核 / Last review merge: **2026-11-14**
 
@@ -19,7 +19,6 @@ DSH 插件全量目录的「网页与浏览器（N–Z）」分册 / The "Web & 
 | [Yu-tao-Li/dsh-computer-use-win](https://github.com/Yu-tao-Li/dsh-computer-use-win) | DeepSeek Harness的Windows电脑操控插件 / Windows computer use for DeepSeek Harness | JavaScript | 706 | MIT | 2026-11-13 |
 | [vibeinging/dsh-desktop](https://github.com/vibeinging/dsh-desktop) | DeepSeek Harness Desktop App: a local AI desktop workspace for DSH Sessions, projects, files, web research, plugins, and Office artifacts. | JavaScript | 492 | MIT | 2026-11-11 |
 | [zhuzhaoyun/Molio](https://github.com/zhuzhaoyun/Molio) | A local-first personal knowledge layer for AI agents. Build evolving knowledge spaces with LLM Wiki, knowledge graphs, and agent workflows. | TypeScript | 448 | NOASSERTION | 2026-11-12 |
-| [ZXEB/dsh-purge](https://github.com/ZXEB/dsh-purge) | dsh-purge v1.1.71 完整源码镜像（原仓库 YuJunZhiXue/dsh-purge 与 npm 包均已删除）。DeepSeek Harness 破甲 / 红队评测插件，支持官方 web 与桌面宿主。 | — | 387 | MIT | 2026-11-13 |
 | [zhu1090093659/dsh-trading](https://github.com/zhu1090093659/dsh-trading) | Agent-native trading terminal built on DeepSeek Harness. Crypto, US, CN and HK in one three-column GUI, 19+ hot-swappable connectors, dry-run by default with human approval on every live order. BYOK, no data redistribution. | TypeScript | 349 | NOASSERTION | 2026-11-13 |
 | [xiajiajun516/dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) | DeepSeek Harness (DSH) backup &amp; restore plugin — export, import, migrate and sync your complete DSH configuration, plugins, MCP servers, skills and workspace. One-click migration to another machine. | TypeScript | 334 | MIT | 2026-11-13 |
 | [techflag/workdsh](https://github.com/techflag/workdsh) | A WorkBuddy-style desktop workspace powered by the DSH plugin ecosystem. WorkDSH manages projects, assets, experts, skills and connectors locally on desktop. All features are extensible via DeepSeek Harness plugins. Local-first, open ecosystem. | TypeScript | 331 | MIT | 2026-11-13 |

@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **2558**
+- 本册收录 / Entries in this volume: **2556**
 - 快照日期 / Snapshot date: **2026-11-13 UTC**
 - 最近人工复核 / Last review merge: **2026-11-14**
 
@@ -40,7 +40,6 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [mistnest/dsh-cuigengji-plugin](https://github.com/mistnest/dsh-cuigengji-plugin) | 催更姬：给大肥鱼一个小说工作台。写正文、理设定、画情节，和 AI 一起讨论、续写与改稿。 | JavaScript | 85 | MIT | 2026-11-13 |
 | [Ianzhyh/workbuddy-to-dsh](https://github.com/Ianzhyh/workbuddy-to-dsh) | 把本机 WorkBuddy 桌面端已登录的模型（DeepSeek / GLM / Kimi / MiniMax 等）变成本地的 OpenAI 与 Anthropic 兼容接口 —— Claude Code / opencode / Cursor / Trae / Cherry Studio / LobeChat 等任意支持自定义 Base URL 的客户端可直连。附网页控制台与 DeepSeek Harness 原生插件。零依赖，仅监听 127.0.0.1。 | JavaScript | 77 | MIT | 2026-11-12 |
 | [jingyi0605/Codingns4DSH](https://github.com/jingyi0605/Codingns4DSH) | 把外部 Agent CLI、持久终端、工作区调试和远程访问，装进 DSH 原生界面。 | TypeScript | 77 | GPL-3.0 | 2026-11-13 |
-| [LanJinGod/dsh-purge](https://github.com/LanJinGod/dsh-purge) | DeepSeek Harness 破甲插件 dsh-purge 1.1.72 — 换包生效、账本自检、三平台分流 | JavaScript | 76 | MIT | 2026-11-13 |
 | [GooDAnDReaDY/dsh-russian-lang](https://github.com/GooDAnDReaDY/dsh-russian-lang) | 100% русская локализация и Smart UX для DeepSeek Harness (DSH v0.1.7+): 7574 ключа (ядро + 59 плагинов), живые оверрайды, инспектор переводов, типографика, исправление раскладки. | JavaScript | 73 | MIT | 2026-11-13 |
 | [john-walks-slow/dsh-inject](https://github.com/john-walks-slow/dsh-inject) | Advanced model-context injection and request-only rewriting for DeepSeek Harness with native Keysmith rules compatibility. | JavaScript | 70 | MIT | 2026-11-13 |
 | [morluto/smokinggun](https://github.com/morluto/smokinggun) | Help your agents find the smoking gun they're looking for. Optimization evidence for agents: find complexity hotspots. | TypeScript | 69 | MIT | 2026-11-13 |
@@ -71,7 +70,6 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [Kanadego/dsh-heartbeat](https://github.com/Kanadego/dsh-heartbeat) | 一个致力于让Agent在日常交流中更加拥有“活人感”的DSH插件。 | TypeScript | 30 | MIT | 2026-11-13 |
 | [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) | Matt Pocock's skills for DeepSeek Harness (DSH): grilling, writing-for-agents, wait-what, TDD and more — 25 skills adapted from mattpocock/skills (MIT) | Shell | 29 | MIT | 2026-11-13 |
 | [losebird/dsh-plugin-market](https://github.com/losebird/dsh-plugin-market) | DeepSeek Harness plugins market｜DSH 插件市场 | JavaScript | 29 | — | 2026-11-12 |
-| [HRuiCcc/RuiC-dsh-purge](https://github.com/HRuiCcc/RuiC-dsh-purge) | DSH 本机维护插件：预检 → 快照 → 原子写入 → 冲突检测回滚；含提示词管理与设置面板。基于 ZiPengWei/dsh-purge（MIT）。 | JavaScript | 28 | MIT | 2026-11-11 |
 | [joeseesun/qiaomu-home-dsh](https://github.com/joeseesun/qiaomu-home-dsh) | 乔木 Home：让 Harness 成为一天的起点。会话搜索、今日重点、待办、记录与专注计时。 | JavaScript | 28 | GPL-3.0 | 2026-11-12 |
 | [Js2Hou/dsh-mcp-manager](https://github.com/Js2Hou/dsh-mcp-manager) | 用于 DeepSeek Harness 的 MCP 可视化管理插件：在「设置 → MCP」中查看已安装/启用的 MCP 服务器，支持增删、启用/停用，并实时查看连接状态。 | TypeScript | 28 | MIT | 2026-11-12 |
 | [liustack/pptwise](https://github.com/liustack/pptwise) | A real PowerPoint, not HTML. Tell your AI what to cover and pptwise builds an editable deck on your own machine. Agent skill + DSH plugin, no account and no API key to render. \| 真正的 PPT，不是 HTML。跟 AI 说要讲什么，pptwise 在你自己电脑上做出一份能改的 PPT。Agent skill + DSH 插件，不用注册，渲染不用 API key。 | TypeScript | 28 | MIT | 2026-11-13 |

@@ -4,7 +4,7 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **728**
+- 本册收录 / Entries in this volume: **727**
 - 快照日期 / Snapshot date: **2026-11-13 UTC**
 - 最近人工复核 / Last review merge: **2026-11-14**
 
@@ -29,7 +29,6 @@ DSH 插件全量目录的「生态与资源」分册 / The "Ecosystem & Resource
 | [xuzhougeng/ScientificFigureLibrary](https://github.com/xuzhougeng/ScientificFigureLibrary) | Local-first MCP App for scientific figures. Import, review, and publish a global library on disk; reuse exact templates in Pi, DeepSeek Harness (dsh), Claude, Codex, Cursor, and Wisp. | TypeScript | 140 | MIT | 2026-11-12 |
 | [duhu2000/dsh-mcp-connector](https://github.com/duhu2000/dsh-mcp-connector) | MCP Connector for DeepSeek Harness: a data marketplace connecting enterprise, financial, legal, patent and research data. Manage authorization, search tools and troubleshoot MCP connections. Supports OAuth, API keys and HTTP/stdio. | JavaScript | 126 | MIT | 2026-11-13 |
 | [Tabbit-Browser/dsh-tabbit](https://github.com/Tabbit-Browser/dsh-tabbit) | Tabbit Browser plugins for Deepseek Harness | TypeScript | 126 | MIT | 2026-11-10 |
-| [luowang-ui/dsh-purge-plus](https://github.com/luowang-ui/dsh-purge-plus) | Purge Community Plus - DeepSeek Harness jailbreak plugin, adapted for DSH Desktop 0.2.1-rc.x. Fixes #119 host crash and the toolFilter preset-registration failure. | JavaScript | 114 | MIT | 2026-11-13 |
 | [2026heshao/dsh-armory](https://github.com/2026heshao/dsh-armory) | All-in-one board for DeepSeek Harness: MCP manager + Skills + WorkBuddy experts (attach/switch/detach any time) + tool-usage tailor + three direct markets (WorkBuddy connectors, SkillHub 190k+ skills) with one-click install · DSH 一体化看板：MCP/技能/专家随时挂换/工具账本/三大市场直连安装 | JavaScript | 113 | MIT | 2026-11-13 |
 | [bugmaker2/dsh-plugin-template](https://github.com/bugmaker2/dsh-plugin-template) | Template for deepseek-harness plugin development. | TypeScript | 103 | MIT | 2026-11-11 |
 | [Sanqi-normal/dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) | dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin.com 插件目录，一键安装/卸载到 profile。Community plugin market for the DeepSeek Harness (dsh) web GUI: browse, install and uninstall plugins into a profile. | JavaScript | 103 | MIT | 2026-10-28 |

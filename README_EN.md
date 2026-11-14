@@ -27,12 +27,12 @@ Inclusion criteria: only verified npm targets and Git bundles pinned to full com
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-11-13 the catalog lists **27,393** verified repositories. Here is the shape of it:
+As of 2026-11-13 the catalog lists **27,384** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 27393))
-    Agents automation workflows · 9836
+  root((DSH ecosystem 27384))
+    Agents automation workflows · 9832
       Scheduled loops and event wakeups
       Long-term memory and self-evolution
       Approval budget and checkpoints
@@ -41,7 +41,7 @@ mindmap
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Web and browser · 3678
+    Web and browser · 3677
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
@@ -63,11 +63,11 @@ mindmap
       Knowledge bases and cross-session memory
       Deep research
       Academia and math
-    Ecosystem and resources · 728
+    Ecosystem and resources · 727
       Plugin markets and registries
       Templates and scaffolds
       Guides and handbooks
-    Multi-agent orchestration · 551
+    Multi-agent orchestration · 548
       Subagents and orchestration boards
       Fleets and agent teams
       Role division and acceptance checks
@@ -375,7 +375,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Downstream market file:** [data/market-v2.json](./data/market-v2.json) is the curated file downstream markets consume (e.g. the DSH desktop plugin market): the snapshot plus curation, filtered, cleaned, and dealt round-robin across categories (≤1000 rows, ≤1 MB). It is rebuilt on every daily snapshot refresh and immediately after every curation merge; the field and generation rules live in the downstream [publishing spec](https://github.com/bruc3van/safer-dsh-market/blob/master/docs/market-json-spec.md). The same runs also publish [MARKET.md](./MARKET.md), a read-only star-ranked rendering of the file for previewing the market on GitHub without installing anything.
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-11-13, the catalog lists **27,393** repositories across **40** primary languages; **25,173** declare a license and **27,093** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-11-13, the catalog lists **27,384** repositories across **40** primary languages; **25,164** declare a license and **27,084** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 

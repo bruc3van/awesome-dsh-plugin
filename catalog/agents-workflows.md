@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–F）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **2466**
+- 本册收录 / Entries in this volume: **2465**
 - 快照日期 / Snapshot date: **2026-11-13 UTC**
 - 最近人工复核 / Last review merge: **2026-11-14**
 
@@ -20,7 +20,6 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–F）」分册 / 
 | [daha1216/dsh-adult-tension](https://github.com/daha1216/dsh-adult-tension) | DeepSeek 自带破甲 18+ 互动叙事：活人感 NPC（自主决策/拒绝迎合）、211个世界与上万素材、开局随心定制、世界自行运转、零漂移存档。 | Python | 560 | — | 2026-11-13 |
 | [alchaincyf/huashu-excel](https://github.com/alchaincyf/huashu-excel) | 数据分析与 Excel 全流程 skill：体检脏表、清洗、对齐需求、分析、对账、交付。让 AI 算出来的数字经得起追问。跨 agent 通用，依赖仅 openpyxl。 | Python | 464 | MIT | 2026-11-12 |
 | [FishBottle7/opencode2dsh](https://github.com/FishBottle7/opencode2dsh) | DSH plugin — free OpenCode Zen models for DeepSeek Harness (DSH). Free LLM API, no API key needed. 在 DSH 中使用 OpenCode Zen 免费模型，无需 API key | TypeScript | 401 | MIT | 2026-11-13 |
-| [evilevil/dsh-purge-021rc2](https://github.com/evilevil/dsh-purge-021rc2) | dsh-purge 社区适配版：上游已停更，这里让它继续跑在 DeepSeek Harness 0.2.1-rc.2 上（基于 1.1.72） | JavaScript | 274 | MIT | 2026-11-13 |
 | [Devin-AXIS/jev-dsh-decision](https://github.com/Devin-AXIS/jev-dsh-decision) | Jev DSH 决策引擎｜面向 Agent Harness 的结构化决策插件。原生支持 DeepSeek Harness，通过 iPolloWork 支持 OpenCode、Codex Harness。 | JavaScript | 272 | — | 2026-11-12 |
 | [FylarOpen/dsh-fylar-office-editor](https://github.com/FylarOpen/dsh-fylar-office-editor) | Office document preview, editing, and DOCX generation for DeepSeek Harness, powered by Fylar Office SDK. | TypeScript | 263 | — | 2026-11-06 |
 | [dbcaskml183-dotcom/dsh-prelude](https://github.com/dbcaskml183-dotcom/dsh-prelude) | DeepSeek Harness (DSH) 提示词工程插件。在输入框里发现遗漏，从 90 张方法卡选一句补入，或对照原稿改写、核对引文并恢复原话。Prompt editor for DSH with method cards, draft comparison and quote recovery. | JavaScript | 245 | MIT | 2026-11-13 |

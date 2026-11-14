@@ -2927,7 +2927,16 @@
     "windy-0-0/opencode-free-lane-tls-gate": "Not a DSH plugin — a research write-up with an optional patch for the dsh-our-free-model plugin's free-lane TLS gate; not installable as a DSH plugin itself.",
     "c3cvld7aag/fujiang-dsh": "不是常规插件——「富江·完美破甲」越狱提示词包 + Windows 一键注入器（自述「完美破甲」，内置越狱提示词规则、一键注入/一键卸载，富江人格预设）；沿 dsh-purge 破甲家族与 HanKuCha/DSH-Fujiang-Unrestricted 剔除先例",
     "usi112/dsh-purge-fixed": "不是常规插件——dsh-purge 破甲家族修复分支（基于已剔除的 dsh-purge 1.1.71，84 条宿主补丁、七状态批量回滚，另捆绑两个 dsh-go 界面插件）；沿 YuJunZhiXue/dsh-purge 剔除先例",
-    "devin667/dsh-purge-022": "不是常规插件——dsh-purge 破甲家族 0.2.2 适配分支（重锚补丁表、修复红队预设注册，补丁 id 与上游一致）；沿 YuJunZhiXue/dsh-purge 剔除先例"
+    "devin667/dsh-purge-022": "不是常规插件——dsh-purge 破甲家族 0.2.2 适配分支（重锚补丁表、修复红队预设注册，补丁 id 与上游一致）；沿 YuJunZhiXue/dsh-purge 剔除先例",
+    "LanJinGod/dsh-purge": "不是常规插件——dsh-purge 破甲家族延续构建（README 自述「DeepSeek Harness jailbreak: every model, swap prompts per model」，徽章指向已剔除的 YuJunZhiXue/dsh-purge 上游，并带 awesome-dsh-plugin.com / dsh-plugin.org 假徽章）；沿 YuJunZhiXue/dsh-purge 剔除先例",
+    "ZXEB/dsh-purge": "不是常规插件——dsh-purge 破甲家族完整源码镜像再分发（自述「镜像重建版 v1.1.71，完整源码取自原仓库 YuJunZhiXue/dsh-purge（原仓库与 npm 包均已删除）」，提示词注入 + 宿主补丁 + 演练台）；沿 ormake/purge1.1.7.1 镜像剔除先例",
+    "realMisakaMikoto/dsh-purge": "不是常规插件——dsh-purge 破甲家族社区兼容构建（自述 community compatibility build of YuJunZhiXue/dsh-purge，README 保留「DeepSeek Harness jailbreak」标语，只补 0.2.x 适配补丁）；沿 mmparko/dsh-purge 兼容构建剔除先例",
+    "feeling6667/dsh-purge-pro": "不是常规插件——dsh-purge 破甲家族非官方分支（自述「破甲内核 v3」，把上游 1.1.71 的越狱补丁重锚到 0.2.1-rc.2）；沿家族剔除先例",
+    "luowang-ui/dsh-purge-plus": "不是常规插件——dsh-purge 破甲家族增强分支（Purge Community Plus：83 条宿主补丁、27 层破甲自检、自带「无限制模式」、注入 + 官方身份句剥离）；沿 0xyxy/dsh-purge「unrestricted」剔除先例",
+    "evilevil/dsh-purge-021rc2": "不是常规插件——dsh-purge 破甲家族 0.2.1-rc.2 适配分支（以 1.1.72 master 为基座修红队预设注册，自述第三方修正版）；沿 dongliuwuzhong-arch/dsh-purge-021rc2 适配分支剔除先例",
+    "SakuraYH1080/dsh-purge-dsh0.2.1": "不是常规插件——dsh-purge 破甲家族 0.2.1 适配分支（自述 third-party patched build，把上游越狱补丁续跑到 dsh 0.2.1）；沿家族剔除先例",
+    "chs-1108/dsh-purge": "不是常规插件——dsh-purge 破甲家族委婉包装版（自述「安全评测与提示词清洗」，功能表实写逐轮 prompt-inject.md 注入、宿主层补丁与红队演练台，Clean/Drill 双页结构与家族一致）；沿家族剔除先例",
+    "HRuiCcc/RuiC-dsh-purge": "不是常规插件——破甲家族事务化重写版（基于 ZiPengWei/dsh-purge——上游自述「no more refusals, do everything」；本仓补丁改掉 AGENTS.md 不覆盖系统指令与审批/沙箱默认值，快照回滚只是工程外壳）；沿家族剔除先例"
   },
   "market_exclusions": {
     "0326/dsh-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",

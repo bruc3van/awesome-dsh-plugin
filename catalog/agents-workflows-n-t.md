@@ -4,7 +4,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–T）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **1966**
+- 本册收录 / Entries in this volume: **1965**
 - 快照日期 / Snapshot date: **2026-11-13 UTC**
 - 最近人工复核 / Last review merge: **2026-11-14**
 
@@ -20,7 +20,6 @@ DSH 插件全量目录的「Agent、自动化与工作流（N–T）」分册 / 
 | [Rain-kl/dsh-preset-plus](https://github.com/Rain-kl/dsh-preset-plus) | DSH 预设编辑器插件, 支持一键破甲. | JavaScript | 254 | MIT | 2026-11-13 |
 | [oil-oil/dsh-oil-creator](https://github.com/oil-oil/dsh-oil-creator) | AI-assisted local creator workbench for DeepSeek Harness | JavaScript | 213 | MIT | 2026-11-09 |
 | [NanmiCoder/dsh-auto-mode](https://github.com/NanmiCoder/dsh-auto-mode) | Safe automatic permissions for DeepSeek Harness. | TypeScript | 161 | MIT | 2026-10-29 |
-| [realMisakaMikoto/dsh-purge](https://github.com/realMisakaMikoto/dsh-purge) | dsh-purge 1.1.71 适配 DSH 0.2.0-rc.2 的可用副本：修复 #40 complete-prompt keep-inject、hostFs closeSync/readSync、redteam preset toolFilter | JavaScript | 146 | MIT | 2026-11-13 |
 | [PKUfudawei/dsh-capability-menu](https://github.com/PKUfudawei/dsh-capability-menu) | 管理 DeepSeek Harness 中工具与技能的暴露策略，支持按需检索与调用。Manage tool and skill exposure in DeepSeek Harness with on-demand discovery and invocation.  | TypeScript | 139 | Apache-2.0 | 2026-11-13 |
 | [THU-MAIC/dsh-openmaic](https://github.com/THU-MAIC/dsh-openmaic) | OpenMAIC for DeepSeek Harness: classrooms, slides, interactive widgets, and Socratic teaching | JavaScript | 124 | MIT | 2026-11-12 |
 | [qkycir-123/dsh-run2skill](https://github.com/qkycir-123/dsh-run2skill) | Automatically turn successful DeepSeek Harness sessions into reusable, reviewable Agent Skills. | TypeScript | 109 | MIT | 2026-11-11 |
