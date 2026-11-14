@@ -85,7 +85,7 @@
       "description": "将 Markdown 报告、方案和技术说明导出为 Word 文档，内置中文排版，支持将 Mermaid 图表渲染为图片，并将 LaTeX 数学公式转换为可编辑的 Word 原生公式。"
     },
     {
-      "full_name": "JimLiu/baoyu-design",
+      "full_name": "JimLiu/open-artifacts",
       "description": "宝玉（@dotey）把 Claude 设计套件带进 DSH：Agent 直接写出可编辑的幻灯片、设计画布和逐场景动画，在本地编辑器里放映、改稿与导出，还能在设计稿上标注评论再交回 Agent 修改，无需另外注册。npm 发布的五个插件中，编辑推荐 claude-slides、claude-design、claude-motion 三个。"
     },
     {

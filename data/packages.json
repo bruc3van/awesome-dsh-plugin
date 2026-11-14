@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13",
+  "updated_at": "2026-11-14",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -2375,20 +2375,6 @@
       "requirements": [
         "使用实际 profile；web 仅为命令示例。元数据与安装说明已核实，未进行实机安装验收。"
       ]
-    },
-    "c3cvld7aag/fujiang-dsh": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:c3cvld7aag/fujiang-dsh#ab86ddcd169f0f13bc74923b6ed95eda55224931",
-          "install": "https://github.com/c3cvld7aag/fujiang-dsh#ab86ddcd169f0f13bc74923b6ed95eda55224931",
-          "command": "dsh plugin --profile web add \"github:c3cvld7aag/fujiang-dsh#ab86ddcd169f0f13bc74923b6ed95eda55224931\""
-        }
-      ],
-      "status": "repo-fallback",
-      "verified_date": "2026-10-22",
-      "verified_via": "manifest@ab86ddcd169f",
-      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
     "c3ll256/dsh-toy": {
       "packages": [
@@ -6191,32 +6177,6 @@
       "status": "readme-verified",
       "verified_date": "2026-10-20",
       "verified_via": "README@main"
-    },
-    "jimliu/baoyu-design": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-claude-design",
-          "source": "npm:dsh-claude-design",
-          "command": "dsh plugin --profile web add dsh-claude-design"
-        },
-        {
-          "profile": "web",
-          "install": "dsh-claude-motion",
-          "source": "npm:dsh-claude-motion",
-          "command": "dsh plugin --profile web add dsh-claude-motion"
-        },
-        {
-          "profile": "web",
-          "install": "dsh-claude-slides",
-          "source": "npm:dsh-claude-slides",
-          "command": "dsh plugin --profile web add dsh-claude-slides"
-        }
-      ],
-      "status": "install-verified",
-      "verified_date": "2026-11-03",
-      "verified_via": "npm@2.8.0 + README@main；维护者实测 npm 可安装",
-      "note": "仓库共发布 5 个 npm 插件，编辑推荐仅映射 claude-design、claude-motion、claude-slides 三个；三包 engines.dsh >=0.2.0-0。不是安全审查。"
     },
     "jimmy0123-ux/dsh-token-pet": {
       "packages": [
@@ -15692,6 +15652,32 @@
       "verified_date": "2026-10-22",
       "verified_via": "manifest@b6433d328135",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "jimliu/open-artifacts": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-claude-design",
+          "source": "npm:dsh-claude-design",
+          "command": "dsh plugin --profile web add dsh-claude-design"
+        },
+        {
+          "profile": "web",
+          "install": "dsh-claude-motion",
+          "source": "npm:dsh-claude-motion",
+          "command": "dsh plugin --profile web add dsh-claude-motion"
+        },
+        {
+          "profile": "web",
+          "install": "dsh-claude-slides",
+          "source": "npm:dsh-claude-slides",
+          "command": "dsh plugin --profile web add dsh-claude-slides"
+        }
+      ],
+      "status": "install-verified",
+      "verified_date": "2026-11-03",
+      "verified_via": "npm@2.8.0 + README@main；维护者实测 npm 可安装",
+      "note": "仓库共发布 5 个 npm 插件，编辑推荐仅映射 claude-design、claude-motion、claude-slides 三个；三包 engines.dsh >=0.2.0-0。不是安全审查。"
     }
   }
 }
