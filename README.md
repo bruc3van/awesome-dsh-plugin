@@ -207,7 +207,7 @@ mindmap
 ### 🔌 远程与外部协作
 
 - **想用手机遥控电脑上正在跑的 DSH**：[dsh-pocket](https://github.com/shaobeichen/dsh-pocket) —— 电脑跑 `dsh web`，手机扫码即同屏（局域网 + 公网隧道、访问密码、移动端适配）。人在外面也能看进度、发任务、点审批。
-- **想让 Agent 用 SSH 操作远程主机**：[dsh-remote](https://github.com/flymysql/dsh-remote) —— 多机 SSH（密码/私钥/agent/OTP/跳板机）+ 远程工作区选择 + 21 个 `rw_*` 工具（列目录/读文件/编辑/执行/搜索/端口转发/SFTP 双向同步）；内置「🌐 远程文件」侧边栏、审计日志、自更新；不监听 0.0.0.0。
+- **想让 Agent 用 SSH 操作远程主机**：[dsh-remote](https://github.com/flymysql/dsh-remote) —— DSH 的 SSH 远程工作区：多主机项目并行、文件浏览与编辑、递归搜索、终端、Git 差异，以及 Agent 远程编辑、构建与测试；可选 IDE 布局。
 
 | | | |
 | :---: | :---: | :---: |

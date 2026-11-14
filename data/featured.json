@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-14",
   "title_zh": "编辑精选",
   "title_en": "Editor's Picks",
   "entries": [
@@ -78,7 +78,7 @@
     },
     {
       "full_name": "flymysql/dsh-remote",
-      "description": "DeepSeek Harness 远程工作助手，支持通过密钥或密码连接 SSH、选择远程工作区、使用 rw_* 工具操作文件，并通过 SFTP 镜像到本地 DSH 工作区。"
+      "description": "DSH 的 SSH 远程工作区：多主机项目并行、文件浏览与编辑、递归搜索、终端、Git 差异，以及 Agent 远程编辑、构建与测试；可选 IDE 布局。"
     },
     {
       "full_name": "bruc3van/bruce-md2word",
