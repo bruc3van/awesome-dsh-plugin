@@ -208,7 +208,7 @@
     "Fengdan123-123/film-showcase": "成片展示工作台：把 AI 视频的提示词、场景图、白模、调度图、成片五个环节放进 DSH Desktop 侧栏的同一块面板，素材仍是磁盘上的普通文件夹。",
     "SuShuoran/dsh-wechat-135": "在 135 编辑器里生产公众号推文：把「135 编辑器 + 微信公众号排版」链路变成 agent 可调用的工具，浏览器操作全部走本机 Chrome DevTools Protocol。",
     "Yixianqzm/dsh-go-memory-panel": "可塑性记忆 · DSH Go 手机面板：把 deepseek-plastic-memory 的记忆库搬进 DSH Go 手机 App 原生界面，对话里即可翻分区、处理待审、跑遗忘曲线，与网页版共用同一份数据文件。",
-    "jiaxusummer/dsh-window-memory": "让 DeepSeek Harness 桌面版记住主窗口的尺寸、位置与最大化状态：怎么关，下次启动就什么样；窗口一出现即套用，可分别关闭某项记忆。Windows only。"
+    "jiaxusummer/dsh-window-mem": "让 DeepSeek Harness 桌面版记住主窗口的尺寸、位置与最大化状态：怎么关，下次启动就什么样；窗口一出现即套用，可分别关闭某项记忆。Windows only。"
   },
   "leaderboard_exclusions": {
     "01men/kizuna": "Kept out of the star board: a self-hosted agent relay/delivery network (hub+box+web console, Docker/Caddy); the DSH plugin is its console panel — dual-host distribution. Stays in the catalog.",
