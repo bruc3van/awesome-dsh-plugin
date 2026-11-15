@@ -871,19 +871,6 @@
       "verified_via": "README + npm registry",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
-    "adwmc/helm-d": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/ADWMC/helm-d/releases/latest/download/helm-d.tgz",
-          "source": "url:https://github.com/ADWMC/helm-d/releases/latest/download/helm-d.tgz",
-          "command": "dsh plugin --profile web add https://github.com/ADWMC/helm-d/releases/latest/download/helm-d.tgz"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-20",
-      "verified_via": "README@main"
-    },
     "afrel1024/dsh-client-ui-aqua-unofficial": {
       "packages": [
         {
@@ -5539,14 +5526,6 @@
       "status": "readme-verified",
       "verified_date": "2026-10-20",
       "verified_via": "README@main"
-    },
-    "huaizhuanghub/dsh-persona-dafeiyu": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-10-20",
-      "verified_via": "README@main",
-      "manual_instructions": "README 安装命令为「dsh plugin --profile <profile> add dsh-persona-dafeiyu」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
-      "install_mode": "manual"
     },
     "huaji2077/empty-fort-strategy": {
       "packages": [
@@ -10533,20 +10512,6 @@
       "status": "repo-fallback",
       "verified_date": "2026-10-22",
       "verified_via": "manifest@e90f312f703f",
-      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
-    },
-    "qianling-0831/dsh-memory-plus": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:QIANLING-0831/dsh-memory-plus#197185d19b8a73a21624ac024606116d646abe7f&path:/packages/dsh-memory-bundle",
-          "install": "https://github.com/QIANLING-0831/dsh-memory-plus#197185d19b8a73a21624ac024606116d646abe7f&path:/packages/dsh-memory-bundle",
-          "command": "dsh plugin --profile web add \"github:QIANLING-0831/dsh-memory-plus#197185d19b8a73a21624ac024606116d646abe7f&path:/packages/dsh-memory-bundle\""
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-10-22",
-      "verified_via": "README + Git commit",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
     "qinling-melon-farmers/dsh-memoir": {
@@ -15653,31 +15618,19 @@
       "verified_via": "manifest@b6433d328135",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
-    "jimliu/open-artifacts": {
+    "qianling-0831/dsh-memory-pro": {
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-claude-design",
-          "source": "npm:dsh-claude-design",
-          "command": "dsh plugin --profile web add dsh-claude-design"
-        },
-        {
-          "profile": "web",
-          "install": "dsh-claude-motion",
-          "source": "npm:dsh-claude-motion",
-          "command": "dsh plugin --profile web add dsh-claude-motion"
-        },
-        {
-          "profile": "web",
-          "install": "dsh-claude-slides",
-          "source": "npm:dsh-claude-slides",
-          "command": "dsh plugin --profile web add dsh-claude-slides"
+          "source": "github:QIANLING-0831/dsh-memory-pro#197185d19b8a73a21624ac024606116d646abe7f&path:/packages/dsh-memory-bundle",
+          "install": "https://github.com/QIANLING-0831/dsh-memory-pro#197185d19b8a73a21624ac024606116d646abe7f&path:/packages/dsh-memory-bundle",
+          "command": "dsh plugin --profile web add \"github:QIANLING-0831/dsh-memory-pro#197185d19b8a73a21624ac024606116d646abe7f&path:/packages/dsh-memory-bundle\""
         }
       ],
-      "status": "install-verified",
-      "verified_date": "2026-11-03",
-      "verified_via": "npm@2.8.0 + README@main；维护者实测 npm 可安装",
-      "note": "仓库共发布 5 个 npm 插件，编辑推荐仅映射 claude-design、claude-motion、claude-slides 三个；三包 engines.dsh >=0.2.0-0。不是安全审查。"
+      "status": "readme-verified",
+      "verified_date": "2026-10-22",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     }
   }
 }

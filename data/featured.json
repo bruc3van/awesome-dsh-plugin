@@ -85,10 +85,6 @@
       "description": "将 Markdown 报告、方案和技术说明导出为 Word 文档，内置中文排版，支持将 Mermaid 图表渲染为图片，并将 LaTeX 数学公式转换为可编辑的 Word 原生公式。"
     },
     {
-      "full_name": "JimLiu/open-artifacts",
-      "description": "宝玉（@dotey）把 Claude 设计套件带进 DSH：Agent 直接写出可编辑的幻灯片、设计画布和逐场景动画，在本地编辑器里放映、改稿与导出，还能在设计稿上标注评论再交回 Agent 修改，无需另外注册。npm 发布的五个插件中，编辑推荐 claude-slides、claude-design、claude-motion 三个。"
-    },
-    {
       "full_name": "tw93/Mole",
       "description": "Tw93 的开源电脑清理工具，官方 dsh-mole 技能插件让 Agent 在 macOS 与 Windows 上分析磁盘占用、预览并执行清理、读取系统健康状态。清理前先预览并征得同意，交互式卸载与管理员操作由用户在终端完成；需本机 Mole CLI，缺失时先询问再协助安装。"
     },
@@ -209,5 +205,5 @@
       "description": "用于授权安全研究的 DeepSeek Harness 红队工作台，整合渗透测试、红队评估和代码审计工作模式。"
     }
   ],
-  "expected_repository_count": 51
+  "expected_repository_count": 50
 }
