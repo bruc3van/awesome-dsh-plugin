@@ -1,7 +1,7 @@
 /** Verify the installable tarball before publishing its identity and display fields. */
 import semver from 'semver'
 import { npmTarball } from './vendor/fetchers.ts'
-import { isBundle, dshRange } from './vendor/packages.ts'
+import { isBundle, isPrivate, dshRange } from './vendor/packages.ts'
 import { readDisplayMetadata } from './vendor/metadata.ts'
 import { inlineIcon } from './icons.mjs'
 export async function verifyNpmPlugin(
@@ -28,6 +28,7 @@ export async function verifyNpmPlugin(
       semver.subset(range, expected, { includePrerelease: true }) &&
       semver.subset(expected, range, { includePrerelease: true })
     )
+    if (isPrivate(manifest)) throw Error(`${plugin.name}@${version.version}: tarball declares private: true`)
     if (!isBundle(manifest) || range instanceof Error || !matches)
       throw Error(
         `${plugin.name}@${version.version}: tarball bundle/engines differ from registry metadata`,

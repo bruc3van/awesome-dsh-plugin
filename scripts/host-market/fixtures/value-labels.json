@@ -22,14 +22,14 @@
     {
       "name": "dsh-think-translate",
       "title": "dsh-think-translate",
-      "description": "Display-layer translation for the DSH web app: thinking chain, task cards, and optional answer text, in 8 target languages (local Ollama / any OpenAI-compatible or Anthropic endpoint / Google / Bing, fail-open)",
+      "description": "Display-layer translation for the DSH web app: thinking chain, task cards, and optional answer text, in 9 target languages (local Ollama / any OpenAI-compatible or Anthropic endpoint / Google / Bing, fail-open)",
       "repository": {
         "url": "https://github.com/UncleK/dsh-think-translate"
       },
       "versions": [
         {
-          "version": "1.2.13",
-          "publishTimestamp": 1792510483,
+          "version": "1.2.26",
+          "publishTimestamp": 1794422070,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -108,8 +108,8 @@
       },
       "versions": [
         {
-          "version": "0.7.0",
-          "publishTimestamp": 1791785122,
+          "version": "0.7.1",
+          "publishTimestamp": 1793848603,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"

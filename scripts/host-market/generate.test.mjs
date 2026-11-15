@@ -4,7 +4,7 @@
  * repository a real tarball manifest would declare. */
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { generateIndex } from './generate.mjs'
+import { generateIndex, projectPackage } from './generate.mjs'
 
 const manifest = (name) => ({
   name,
@@ -82,4 +82,30 @@ test('editor-pick repositories are exempt from the package-level repository bloc
   const exemptions = diagnostics.filter((d) => d.code === 'featured_repository_exempt')
   assert.equal(exemptions.length, 3)
   assert.ok(exemptions.every((d) => d.status === 'included' && /baoyu-design/.test(d.reason)))
+})
+
+test('latest feeds keep verified host fallbacks while excluding private and deprecated versions', () => {
+  const name = 'host-fallback'
+  const registry = { 'dist-tags': { latest: '3.0.0' }, versions: {}, time: {} }
+  for (const [version, range, extra] of [
+    ['5.0.0', '*', {}],
+    ['4.0.0', '*', { private: true }],
+    ['3.1.0', '*', { deprecated: 'Use 3.0.0' }],
+    ['3.0.0', '0.2.2-rc.3', {}],
+    ['2.0.0', '0.2.2-rc.1', {}],
+    ['1.0.0', '0.2.1-rc.2', {}],
+    ['0.9.0', '*', {}],
+  ]) {
+    registry.versions[version] = { ...manifest(name), version, engines: { dsh: range }, ...extra }
+    registry.time[version] = '2026-11-14T00:00:00Z'
+  }
+  const result = projectPackage(name, ['latest'], registry)
+  assert.deepEqual(result.plugin.versions.map(v => v.version), ['3.0.0', '2.0.0', '1.0.0'])
+  assert.equal(result.diagnostics.filter(d => d.code === 'compatibility_version_added').length, 2)
+  assert.deepEqual(projectPackage(name, ['3.0.0'], registry).plugin.versions.map(v => v.version), ['3.0.0'])
+  for (const [version, code] of [['4.0.0', 'private_package'], ['3.1.0', 'deprecated_version']]) {
+    const excluded = projectPackage(name, [version], registry)
+    assert.equal(excluded.plugin, undefined)
+    assert.equal(excluded.diagnostics[0].code, code)
+  }
 })

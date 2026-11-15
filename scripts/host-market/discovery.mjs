@@ -1,7 +1,7 @@
 import { MAX_VALUE_LABELS, VALUE_LABELS } from './value-labels.mjs'
 
 /** Market-owned discovery fields; package identity and install evidence stay untouched. */
-export const FEATURED_CATEGORY = 'featured'
+export const FEATURED_LABEL = 'featured'
 export const FEATURED_TITLE = { zh: '编辑推荐', en: "Editor's Picks" }
 const DAY = 24 * 60 * 60 * 1000
 const recency = [
@@ -60,7 +60,7 @@ export function applyDiscovery(plugins, ranks, options = {}) {
     'agents-workflows': ['智能体', '自动化', '工作流', 'workflow'],
     'ecosystem-resources': ['生态资源', 'ecosystem'],
     'utilities': ['实用工具', 'utilities'],
-    [FEATURED_CATEGORY]: ['编辑推荐', '精选', "editor's picks"],
+    [FEATURED_LABEL]: ['编辑推荐', '精选', "editor's picks"],
   }
   const sortKeys = {
     stars: { title: { zh: 'GitHub Star 数', en: 'GitHub stars' }, order: 'desc' },
@@ -69,12 +69,12 @@ export function applyDiscovery(plugins, ranks, options = {}) {
   const featuredRepo = (plugin) =>
     (ranks.get(plugin.name)?.repo || ranks.get(plugin.name)?.row?.full_name || '').toLowerCase()
   if (plugins.some((plugin) => featured.has(featuredRepo(plugin))))
-    categories[FEATURED_CATEGORY] = { title: FEATURED_TITLE }
+    labels[FEATURED_LABEL] = { title: FEATURED_TITLE }
   for (const plugin of plugins) {
     const rank = ranks.get(plugin.name), row = rank.row ?? {}
     const picked = featured.has(featuredRepo(plugin))
-    const category = picked ? FEATURED_CATEGORY : row.category
-    if (row.category && !picked) categories[row.category] = {
+    const category = row.category
+    if (row.category) categories[row.category] = {
       title: { zh: categoryNames[row.category] || row.category_zh || row.category, en: row.category_en || row.category },
     }
     const tags = [...new Set(plugin.metadata?.labels ?? [])]
@@ -82,17 +82,25 @@ export function applyDiscovery(plugins, ranks, options = {}) {
     for (const id of tags) labels[id] = { title: VALUE_LABELS[id].title }
     const updated = Math.floor(Date.parse(row.pushed_at) / 1000)
     const computed = discoveryLabels({ stars: rank.stars, pushedAt: row.pushed_at, now })
+    // A pinned Git install is also direct evidence for its repository and package directory.
+    const source = plugin.versions[0].source
+    if (!plugin.repository && source.type === 'git') plugin.repository = {
+      url: source.url.replace(/\.git$/, ''),
+      ...(source.path ? { directory: source.path } : {}),
+    }
     plugin.metadata = {
       ...(category ? { category } : {}),
       keywords: [...new Set([
         ...(plugin.metadata?.keywords ?? []),
         ...(row.packages?.tasks ?? []),
+        ...tags.flatMap(id => VALUE_LABELS[id].keywords ?? []),
         ...(categoryKeywords[row.category] ?? []),
-        ...(picked ? categoryKeywords[FEATURED_CATEGORY] : []),
+        ...(picked ? categoryKeywords[FEATURED_LABEL] : []),
       ])],
       labels: [...new Set([
         ...plugin.versions.map(version => version.source.type),
         ...computed,
+        ...(picked ? [FEATURED_LABEL] : []),
         ...tags,
       ])],
       sortKeys: {

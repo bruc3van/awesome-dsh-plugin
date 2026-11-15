@@ -7,11 +7,12 @@ import { createHash } from 'node:crypto'
 import semver from 'semver'
 import { applyDiscovery } from './discovery.mjs'
 import { applyPresentation } from './presentation.mjs'
-import { presentationQuality } from './quality.mjs'
+import { presentationQuality, DISCOVERY_HOST_VERSION, DISCOVERY_HOST_VERSIONS } from './quality.mjs'
+import { applyDownloadMetrics } from './metrics.mjs'
 import { verifyNpmPlugin } from './npm.mjs'
 import { classifyTarget, readGitTarget } from './git.mjs'
 import { blockedPluginRepository } from './repository-policy.mjs'
-import { isBundle, dshRange } from './vendor/packages.ts'
+import { isBundle, isPrivate, dshRange } from './vendor/packages.ts'
 import { assertPublishable, MAX_PLUGINS, SELECTION_POLICY } from './policy.mjs'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
 
@@ -89,53 +90,61 @@ export function selectTopPlugins(plugins, ranks, max = MAX_PLUGINS, featured = n
   }
 }
 
-/** Project registry evidence, using the official host compatibility resolver. */
+/** Validate registry identity, availability and runtime requirements for one exact version. */
+function projectNpmVersion(name, version, packument) {
+  const manifest = packument.versions?.[version]
+  const range = manifest ? dshRange(manifest) : undefined
+  const code = !semver.valid(version) || manifest?.name !== name || manifest.version !== version
+    ? 'invalid_manifest'
+    : isPrivate(manifest) ? 'private_package'
+      : typeof manifest.deprecated === 'string' && manifest.deprecated.trim() ? 'deprecated_version'
+        : !isBundle(manifest) ? 'not_dsh_bundle'
+          : range instanceof Error ? 'invalid_host_range'
+            : !Number.isFinite(Date.parse(packument.time?.[version])) ? 'missing_publish_time' : null
+  if (code) return { diagnostic: {
+    name, version: version ?? null, code, status: 'excluded',
+    reason: code === 'invalid_host_range' ? range.message : {
+      invalid_manifest: 'missing or mismatched manifest',
+      private_package: 'package declares private: true',
+      deprecated_version: manifest?.deprecated,
+      not_dsh_bundle: 'not a declared DSH bundle',
+      missing_publish_time: 'missing registry publish time',
+    }[code],
+  } }
+  return { entry: {
+    version,
+    publishTimestamp: Math.floor(Date.parse(packument.time[version]) / 1000),
+    source: { type: 'npm', registry: REGISTRY },
+    ...(typeof range === 'string' ? { engines: { dsh: range } } : {}),
+  } }
+}
+
+/** Project selected registry versions, adding at most one needed fallback per supported host for latest feeds. */
 export function projectPackage(name, selectors, packument) {
   const diagnostics = []
   const versions = []
-  const wanted = [
-    ...new Set(
-      selectors.map((selector) =>
-        semver.valid(selector) ? selector : packument['dist-tags']?.[selector],
-      ),
-    ),
-  ]
+  const wanted = [...new Set(selectors.map(selector =>
+    semver.valid(selector) ? selector : packument['dist-tags']?.[selector]))]
   for (const version of wanted) {
-    const manifest = packument.versions?.[version]
-    const range = manifest ? dshRange(manifest) : undefined
-    const reason =
-      !semver.valid(version) ||
-      manifest?.name !== name ||
-      manifest.version !== version
-        ? 'missing or mismatched manifest'
-        : !isBundle(manifest)
-          ? 'not a declared DSH bundle'
-          : range instanceof Error
-            ? 'invalid DSH compatibility range'
-            : !Number.isFinite(Date.parse(packument.time?.[version]))
-              ? 'missing registry publish time'
-              : null
-    if (reason) {
-      diagnostics.push({
-        name,
-        version: version ?? null,
-        code: {
-          'missing or mismatched manifest': 'invalid_manifest',
-          'not a declared DSH bundle': 'not_dsh_bundle',
-          'invalid DSH compatibility range': 'invalid_host_range',
-          'missing registry publish time': 'missing_publish_time',
-        }[reason],
-        status: 'excluded',
-        reason: range instanceof Error ? range.message : reason,
-      })
-      continue
+    const result = projectNpmVersion(name, version, packument)
+    if (result.diagnostic) diagnostics.push(result.diagnostic)
+    else versions.push(result.entry)
+  }
+  if (selectors.includes('latest')) {
+    const eligible = Object.keys(packument.versions ?? {})
+      .flatMap(version => projectNpmVersion(name, version, packument).entry ?? [])
+      .filter(version => semver.valid(packument['dist-tags']?.latest) && semver.lte(version.version, packument['dist-tags'].latest))
+      .sort((a, b) => Number(semver.prerelease(a.version) !== null) - Number(semver.prerelease(b.version) !== null)
+        || semver.rcompare(a.version, b.version))
+    for (const host of DISCOVERY_HOST_VERSIONS) {
+      const matches = version => !version.engines?.dsh || semver.satisfies(host, version.engines.dsh, { includePrerelease: true })
+      if (versions.some(matches)) continue
+      const fallback = eligible.find(matches)
+      if (!fallback) continue
+      versions.push(fallback)
+      diagnostics.push({ name, version: fallback.version, code: 'compatibility_version_added', status: 'info',
+        reason: `保留声明支持 DSH ${host} 的版本；安装包仍需逐版核验`, hostVersion: host })
     }
-    versions.push({
-      version,
-      publishTimestamp: Math.floor(Date.parse(packument.time[version]) / 1000),
-      source: { type: 'npm', registry: REGISTRY },
-      ...(typeof range === 'string' ? { engines: { dsh: range } } : {}),
-    })
   }
   versions.sort((a, b) => semver.rcompare(a.version, b.version))
   if (!versions.length) return { diagnostics }
@@ -431,6 +440,8 @@ async function main() {
       }),
   )
   await mkdir(dirname(resolve(outputPath)), { recursive: true })
+  const downloadMetrics = await applyDownloadMetrics(result.index)
+  result.diagnostics.push(...downloadMetrics.diagnostics)
   const serialized = JSON.stringify(result.index, null, 2) + '\n'
   const reasons = Object.fromEntries(
     [...new Set(result.diagnostics.map((d) => d.code))]
@@ -446,6 +457,8 @@ async function main() {
     scope:
       '生成取证与收录诊断；非 DSH 官方审计认证、非安全审查、非实机兼容验收',
     remediation: {
+      private_package: '包声明 private: true，遵循作者声明排除；不改写该声明。',
+      deprecated_version: '该 npm 版本已被作者弃用；使用仍受支持且通过核验的版本。',
       invalid_host_range:
         '修正无效的 engines.dsh 或相互冲突的 DSH peer 范围；遵循官方 dshRange 规则，不代填兼容范围。',
       unsupported_tarball:
@@ -472,10 +485,11 @@ async function main() {
         'Windows 临时目录清理被文件锁打断；该条 Git 核验结果作废，不因此冻结整份索引。Linux CI 通常不会出现。',
     },
     generator: {
-      hostVersion: '0.2.1-alpha.5',
-      discoveryHostVersion: '0.2.1-rc.2',
+      hostVersion: '0.2.2-rc.3',
+      discoveryHostVersion: DISCOVERY_HOST_VERSION,
+      discoveryHostVersions: DISCOVERY_HOST_VERSIONS,
       compatibilityPolicy: 'official-dshRange-v1',
-      gitReaderCommit: '1517a4dbca0a2789ff1d41ba439600f8547d23fa',
+      gitReaderCommit: '39163dd30f703a79079e2d2446545cff3c453738',
     },
     presentationQuality: presentationQuality(result.index),
     summary: {
@@ -493,7 +507,7 @@ async function main() {
         (p) => p.versions[0].source.type === 'git',
       ).length,
       featuredRepositories: result.featuredRepositoryCount,
-      featuredPlugins: result.index.plugins.filter(plugin => plugin.metadata?.category === 'featured').length,
+      featuredPlugins: result.index.plugins.filter(plugin => plugin.metadata?.labels?.includes('featured')).length,
       expectedFeaturedRepositories: result.expectedFeaturedRepositoryCount,
       diagnosticsByCode: reasons,
       counting:
@@ -518,6 +532,7 @@ async function main() {
     evidence,
     gitEvidence: result.gitEvidence,
     npmEvidence: result.npmEvidence,
+    npmDownloadEvidence: downloadMetrics.evidence,
   }
   const reportText = JSON.stringify(report, null, 2) + '\n'
   if (

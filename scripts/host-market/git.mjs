@@ -10,6 +10,7 @@ import {
   findBundlePackages,
   readManifest,
   isBundle,
+  isPrivate,
   dshRange,
 } from './vendor/packages.ts'
 import { readDisplayMetadata } from './vendor/metadata.ts'
@@ -186,6 +187,10 @@ export async function readGitTarget(
         diagnostics.push({ ...base, code, status: 'excluded', reason })
       if (!isBundle(manifest)) {
         exclude('not_dsh_bundle', '所选目录未声明有效的 dsh.bundle.patch')
+        continue
+      }
+      if (isPrivate(manifest)) {
+        exclude('private_package', '包声明 private: true，不作为可订阅插件收录')
         continue
       }
       const range = dshRange(manifest)

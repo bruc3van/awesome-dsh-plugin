@@ -11,6 +11,7 @@ import {
   readManifest,
   findBundlePackages,
   isBundle,
+  isPrivate,
   dshRange,
 } from './vendor/packages.ts'
 import { extractInstallTargets, npmBase, installRef } from '../readme-install.mjs'
@@ -93,6 +94,8 @@ export function evaluateManifest(manifest, source, publishTimestamp) {
     return { status: 'not_bundle', reason: '该目录没有可读取的 package.json' }
   if (!isBundle(manifest))
     return { status: 'not_bundle', reason: '未声明标准 dsh.bundle.patch' }
+  if (isPrivate(manifest))
+    return { status: 'private_package', reason: '包声明 private: true，不作为订阅安装候选' }
   const range = dshRange(manifest)
   if (range instanceof Error)
     return {

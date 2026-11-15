@@ -53,6 +53,8 @@ test('source inspection follows official peer and unrestricted compatibility rul
   assert.equal(evaluateManifest(m, source, 1).status, 'eligible_metadata')
   m.engines.dsh = '<0.2.0'
   assert.equal(evaluateManifest(m, source, 1).declaredCompatibleWithHost, false)
+  m.private = true
+  assert.equal(evaluateManifest(m, source, 1).status, 'private_package')
 })
 test('read failures remain incomplete even if another source is eligible', () => {
   const r = {

@@ -227,7 +227,7 @@ test('npm tarball verification checks integrity, identity and declared compatibi
     await mkdir(join(dir, 'package'))
     await writeFile(join(dir, 'package/package.json'), JSON.stringify(manifest))
     execFileSync('tar', ['-czf', join(dir, 'test.tgz'), '-C', dir, 'package'])
-    const bytes = await readFile(join(dir, 'test.tgz'))
+    let bytes = await readFile(join(dir, 'test.tgz'))
     server = createServer((req, res) => {
       res.end(bytes)
     })
@@ -245,6 +245,11 @@ test('npm tarball verification checks integrity, identity and declared compatibi
     await assert.rejects(verifyNpmPlugin(bad, p), /differ/)
     manifest.dist.integrity = 'sha512-' + Buffer.alloc(64).toString('base64')
     await assert.rejects(verifyNpmPlugin(plugin, p), /integrity/)
+    await writeFile(join(dir, 'package/package.json'), JSON.stringify({ ...manifest, private: true }))
+    execFileSync('tar', ['-czf', join(dir, 'test.tgz'), '-C', dir, 'package'])
+    bytes = await readFile(join(dir, 'test.tgz'))
+    manifest.dist.integrity = 'sha512-' + createHash('sha512').update(bytes).digest('base64')
+    await assert.rejects(verifyNpmPlugin(plugin, p), /private: true/)
   } finally {
     if (server) await new Promise((resolve) => server.close(resolve))
     await rm(dir, { recursive: true, force: true })

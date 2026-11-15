@@ -102,6 +102,17 @@ test('reads pinned Git objects and subdirectory bundles without executing script
     )
     assert.equal(missing.plugins.length, 1)
     assert.equal(Object.hasOwn(missing.plugins[0].versions[0], 'engines'), false)
+    manifest.private = true
+    await writeFile(join(dir, 'packages/demo/package.json'), JSON.stringify(manifest))
+    git('add', '.')
+    git('commit', '-qm', 'private package')
+    const privateResult = await readGitTarget(target, {
+      transports: ['file'],
+      resolve: async () => resolveRef(dir, '', ['file']),
+      openObjects: (_url, ...args) => withGitObjects(dir, ...args),
+    })
+    assert.equal(privateResult.plugins.length, 0)
+    assert.equal(privateResult.diagnostics.at(-1).code, 'private_package')
     const { existsSync } = await import('node:fs')
     assert.equal(existsSync(join(dir, 'SHOULD_NOT_EXIST')), false)
     await assert.rejects(

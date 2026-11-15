@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "reviewedAt": "2026-11-11",
+  "reviewedAt": "2026-11-15",
   "policy": "Reviewed translations, concise summaries and user-value labels supported by pinned display metadata. Retain package install identity; skip on upstream display changes. At most three value labels per plugin; no category or package-name inference.",
   "plugins": {
     "@dsh-external/dsh-super-injector": {
@@ -29,10 +29,10 @@
       }
     },
     "@deepseek-harness-tui/dsh-tui": {
-      "reviewedVersion": "0.16.1",
-      "displaySha256": "dd6fb50b1b8d17bbdd107909f1dbd687c1f645fdf7a537a65e1bcb037c92fec9",
+      "reviewedVersion": "0.20.1",
+      "displaySha256": "a54fea4448a68cdc2a449b7a882e8c668bfad0114f7275b818d3d2981ff99d88",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@deepseek-harness-tui/dsh-tui/-/dsh-tui-0.20.1.tgz"
       ],
       "labels": [
         "terminal"
@@ -53,10 +53,10 @@
       }
     },
     "@liustack/modlens": {
-      "reviewedVersion": "3.26.5",
+      "reviewedVersion": "3.27.3",
       "displaySha256": "b472d0012e712fc3943767add4c8c5deebfe74bf84a8f4694f42c1efdece17a2",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@liustack/modlens/-/modlens-3.27.3.tgz"
       ],
       "labels": [
         "vision"
@@ -77,28 +77,38 @@
       }
     },
     "dsh-better-sidebar": {
-      "reviewedVersion": "0.28.0",
-      "displaySha256": "bba116c6ec785dc40ff0753776df0b986bd9b1efce10e8431ddbc4076c5bef18",
+      "reviewedVersion": "0.32.1",
+      "displaySha256": "de389ca9de3fe52f818380f684de6b5c868d11999fa14c138894549fecb6cf62",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-better-sidebar/-/dsh-better-sidebar-0.32.1.tgz",
+        "https://registry.npmjs.org/dsh-better-sidebar/-/dsh-better-sidebar-0.28.2.tgz"
       ],
       "labels": [
-        "file-management"
+        "file-management",
+        "conversation-workspace"
       ],
       "keywords": [
         "侧边栏",
         "文件树",
         "文件编辑",
         "sidebar",
-        "file tree"
-      ]
+        "file tree",
+        "侧边对话"
+      ],
+      "title": {
+        "en": "Better Sidebar",
+        "zh": "Better Sidebar 侧边工作区"
+      },
+      "description": {
+        "en": "Keep a file tree, editor, changes, tasks and side chat in one sidebar, separate for each conversation.",
+        "zh": "在侧边栏使用文件树、编辑器、文件变动、任务和侧边对话，各会话互不干扰。"
+      }
     },
     "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager": {
-      "reviewedVersion": "0.1.7",
+      "reviewedVersion": "0.1.10",
       "displaySha256": "774be17d243349dc3d34fe36ee590291de1ead320e74760036f36b38714f5b88",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://github.com/Small-tailqwq/dsh-deep-whale/blob/811fa53b712a16ce5f5278529bb76d5a033a1d13/skin-manager/package.json"
       ],
       "labels": [
         "theme"
@@ -146,11 +156,10 @@
       ]
     },
     "dsh-context": {
-      "reviewedVersion": "0.73.3",
-      "displaySha256": "169ed9e9603db8d587163746b7d78835c0c375cec35bbb222b5191fb01273f97",
+      "reviewedVersion": "0.84.1",
+      "displaySha256": "4849859f958182787a19915ce25dccb2afb42637fb17e2fdc493321e64c2a248",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-context/-/dsh-context-0.84.1.tgz"
       ],
       "labels": [
         "context"
@@ -159,15 +168,25 @@
         "上下文管理",
         "上下文仪表盘",
         "context",
-        "dashboard"
-      ]
+        "dashboard",
+        "上下文组成",
+        "上下文变化",
+        "context dashboard"
+      ],
+      "title": {
+        "en": "Context",
+        "zh": "上下文洞察与管理"
+      },
+      "description": {
+        "en": "Inspect context composition and changes through dashboards, a context browser and commands.",
+        "zh": "通过仪表盘、上下文浏览器和命令，查看上下文的组成、统计与变化。"
+      }
     },
     "@nanmicoder/dsh-agent-teams": {
-      "reviewedVersion": "0.1.22-rc.1",
+      "reviewedVersion": "0.1.30",
       "displaySha256": "adce8a103d0603c8a535ad0904f7928dddee72252ad2d56570c2e57d03d22d3a",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@nanmicoder/dsh-agent-teams/-/dsh-agent-teams-0.1.30.tgz"
       ],
       "labels": [
         "teams",
@@ -189,11 +208,10 @@
       }
     },
     "@xmanrui/dsh-im": {
-      "reviewedVersion": "5.1.0",
+      "reviewedVersion": "5.10.0",
       "displaySha256": "110edeef8ff67762b94cc0d6eadff823cd8064011860b6b03295136595c608f6",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@xmanrui/dsh-im/-/dsh-im-5.10.0.tgz"
       ],
       "labels": [
         "messaging"
@@ -204,15 +222,24 @@
         "微信",
         "飞书",
         "QQ",
-        "IM bots"
-      ]
+        "IM bots",
+        "钉钉",
+        "Telegram"
+      ],
+      "title": {
+        "en": "IM Bots",
+        "zh": "IM 聊天机器人"
+      },
+      "description": {
+        "en": "Connect WeChat, Feishu, WeCom, DingTalk, QQ and other messaging services to DSH.",
+        "zh": "把微信、飞书、企微、钉钉、QQ 等聊天软件接入 DSH。"
+      }
     },
     "dsh-pocket": {
-      "reviewedVersion": "2.12.0",
+      "reviewedVersion": "2.13.1",
       "displaySha256": "dddf7486451f2313c7499310f9d6ce3f25bd62eff22479f675b14d26f028aab9",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-pocket/-/dsh-pocket-2.13.1.tgz"
       ],
       "labels": [
         "mobile",
@@ -260,10 +287,10 @@
       }
     },
     "dsh-plugin-wallpaper-engine": {
-      "reviewedVersion": "1.3.3",
-      "displaySha256": "537cec48f6492183f456f31d2091fc7c57a04ac004897fefa462fc13d82fe2dc",
+      "reviewedVersion": "1.4.2",
+      "displaySha256": "1e086b5391f4f27bff2761412a1134cb9c7ce2b3dddac0d7a98415f564c149ee",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-plugin-wallpaper-engine/-/dsh-plugin-wallpaper-engine-1.4.2.tgz"
       ],
       "labels": [
         "theme"
@@ -308,10 +335,11 @@
       }
     },
     "dsh-vision-router": {
-      "reviewedVersion": "3.0.4",
+      "reviewedVersion": "3.2.1",
       "displaySha256": "d986b454f98423974113c1e6b8700f7e971c0edefdec9489f31891f8f5b0b09a",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-vision-router/-/dsh-vision-router-3.2.1.tgz",
+        "https://registry.npmjs.org/dsh-vision-router/-/dsh-vision-router-3.1.5.tgz"
       ],
       "labels": [
         "vision"
@@ -332,11 +360,10 @@
       }
     },
     "@anionex/dsh-vision-toolkit": {
-      "reviewedVersion": "0.1.47",
+      "reviewedVersion": "0.1.51",
       "displaySha256": "0ad099c825e66475ea0f82c44014daf573dd6883ab8c554cf544540ae04f2e33",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@anionex/dsh-vision-toolkit/-/dsh-vision-toolkit-0.1.51.tgz"
       ],
       "labels": [
         "vision",
@@ -359,11 +386,10 @@
       }
     },
     "@liustack/modsearch": {
-      "reviewedVersion": "5.10.5",
+      "reviewedVersion": "5.10.12",
       "displaySha256": "77168536cf06dcb4467a93f2731552495f48a42bec011cb0b2e6751f9ea6108b",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@liustack/modsearch/-/modsearch-5.10.12.tgz"
       ],
       "labels": [
         "search",
@@ -386,11 +412,10 @@
       }
     },
     "@dsh-external/dsh-redteam-model": {
-      "reviewedVersion": "1.1.1",
+      "reviewedVersion": "1.1.2",
       "displaySha256": "dd2fce285636f7e77bc1da05f3a978d18b49811853b03e34f0a082c9215e3baf",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://github.com/SeaOf0/dsh-redteam-model/blob/ce24bb25e35df8c8514e00e0d98f1a36d2e2a562/package.json"
       ],
       "labels": [
         "security-research",
@@ -412,10 +437,10 @@
       }
     },
     "@nagi-ovo/dsh-ads": {
-      "reviewedVersion": "0.1.2",
+      "reviewedVersion": "0.1.5",
       "displaySha256": "cd81862f039b5c84d1342d4f61b5e6fc56dff632e42c3e748b8d8ed27869ed93",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@nagi-ovo/dsh-ads/-/dsh-ads-0.1.5.tgz"
       ],
       "labels": [],
       "keywords": [
@@ -435,11 +460,10 @@
       }
     },
     "@changfenhuang/dsh-genui": {
-      "reviewedVersion": "0.13.0",
+      "reviewedVersion": "0.16.0",
       "displaySha256": "aba246a2be88fa9bf611a97b6aab92ebd1ff41f5388b358f42ade9911c6eee47",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@changfenhuang/dsh-genui/-/dsh-genui-0.16.0.tgz"
       ],
       "labels": [
         "interactive-cards"
@@ -461,11 +485,10 @@
       }
     },
     "dsh-image-gen": {
-      "reviewedVersion": "0.9.1",
+      "reviewedVersion": "0.11.2",
       "displaySha256": "960ef041c82b2e84fcc2dd3e75d9cb923a987c0db456660db6195f5b587ad8ae",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-image-gen/-/dsh-image-gen-0.11.2.tgz"
       ],
       "labels": [
         "image-generation"
@@ -487,20 +510,31 @@
       }
     },
     "dsh-mnemon": {
-      "reviewedVersion": "0.5.32",
-      "displaySha256": "e95b3b4268d9061202b6fa1cfcefa7c33dc0919a8e825f38e1eb74a6793be6f7",
+      "reviewedVersion": "0.5.46",
+      "displaySha256": "563b2ad1faafa3b511b6bf5c12994af02560684c3ce94ca37f8bdad89845a8cf",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-mnemon/-/dsh-mnemon-0.5.46.tgz"
       ],
       "labels": [
-        "memory"
+        "memory",
+        "context"
       ],
       "keywords": [
         "分层记忆",
         "可组合记忆",
         "长期记忆",
-        "memory"
-      ]
+        "memory",
+        "跨会话记忆",
+        "可插拔记忆"
+      ],
+      "title": {
+        "en": "Mnemon",
+        "zh": "Mnemon 可组合记忆"
+      },
+      "description": {
+        "en": "Compose context from pluggable sources and strategies, with layered memory and self-evolving skills.",
+        "zh": "用可插拔来源和策略组织上下文，提供分层记忆与自进化技能。"
+      }
     },
     "dsh-mimir": {
       "reviewedVersion": "0.21.1",
@@ -557,8 +591,7 @@
       "reviewedVersion": "0.1.8",
       "displaySha256": "fa33a033c1935b645a62f8b396626af34a8103e61d58dc3a0fe93c7adc11f6ce",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@anysearch/anysearch-dsh/-/anysearch-dsh-0.1.8.tgz"
       ],
       "labels": [
         "search",
@@ -580,11 +613,11 @@
       }
     },
     "@ethanyoq/dsh-invoice-downloader": {
-      "reviewedVersion": "0.1.1",
-      "displaySha256": "4f4203684b75cb00c3972268844e3bfcf51127a1e5a92b5badda3abbd5d89ed7",
+      "reviewedVersion": "0.2.0",
+      "displaySha256": "9475308953e09fa3ee82c9307894187439634dfb131bf77ef7567e0bb1fdcbbb",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@ethanyoq/dsh-invoice-downloader/-/dsh-invoice-downloader-0.2.0.tgz",
+        "https://registry.npmjs.org/@ethanyoq/dsh-invoice-downloader/-/dsh-invoice-downloader-0.1.1.tgz"
       ],
       "labels": [
         "invoices",
@@ -596,23 +629,24 @@
         "归档",
         "Excel",
         "invoice",
-        "IMAP"
+        "IMAP",
+        "邮箱发票",
+        "Excel 汇总"
       ],
       "title": {
         "en": "Invoice Downloader",
-        "zh": "发票下载与整理"
+        "zh": "发票下载与汇总"
       },
       "description": {
-        "en": "Local IMAP invoice download, OCR, archive, and Excel summary bundle for DeepSeek Harness",
-        "zh": "通过本地 IMAP 下载发票，支持 OCR、归档与 Excel 汇总。"
+        "en": "Download invoice attachments over IMAP, recognize them locally, and export an Excel summary.",
+        "zh": "通过 IMAP 下载发票附件，在本地识别并导出 Excel 汇总。"
       }
     },
     "@beiyege-01/dsh-voice-ai-girlfriend": {
-      "reviewedVersion": "0.3.0",
-      "displaySha256": "93323e1d53ceb70150a48dcbf9509bad2dfa66aa156287c11bc07bdea2effb4d",
+      "reviewedVersion": "0.4.0",
+      "displaySha256": "2f7194b9f9e5a2deb643627bc1e825002b81ec4d36b2ca5443c3ac3cd2718c8c",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://github.com/beiyege-01/dsh-voice-ai-girlfriend-plugin/blob/f367998b05f03ea3a5babf2ef57e6631065707ab/package.json"
       ],
       "labels": [
         "voice-input",
@@ -625,15 +659,18 @@
         "陪伴",
         "TTS",
         "FunASR",
-        "NapCat"
+        "NapCat",
+        "语音聊天",
+        "QQ",
+        "语音桥"
       ],
       "title": {
         "en": "DSH Voice Companion",
         "zh": "DSH 语音陪伴"
       },
       "description": {
-        "en": "Voice AI girlfriend for DeepSeek Harness: FunASR mic input, Qwen3-TTS voice replies, companion animation window, QQ two-way chat. Needs the repo's voice bridge + NapCat.",
-        "zh": "提供麦克风输入、语音回复、动画陪伴和 QQ 双向聊天；需配置仓库中的语音桥及 NapCat。"
+        "en": "Use FunASR microphone input, OmniVoice replies, an animated companion window and QQ chat; requires the voice bridge and NapCat.",
+        "zh": "提供 FunASR 麦克风输入、OmniVoice 语音回复、动画陪伴和 QQ 聊天；需配置语音桥及 NapCat。"
       }
     },
     "dsh-plugin-memtrace": {
@@ -688,10 +725,10 @@
       }
     },
     "dsh-plugin-subscriptions": {
-      "reviewedVersion": "0.9.10",
+      "reviewedVersion": "0.9.13",
       "displaySha256": "7280fa3fca837466f736bacc1321d0c78650813a20f89db54e8881c2a334c30b",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-plugin-subscriptions/-/dsh-plugin-subscriptions-0.9.13.tgz"
       ],
       "labels": [
         "provider"
@@ -713,11 +750,10 @@
       }
     },
     "dsh-cost-meter": {
-      "reviewedVersion": "1.9.12",
-      "displaySha256": "322712e4287da97f9caa0dbd2d35009364641037ed1a15cb23f33594102bd248",
+      "reviewedVersion": "1.9.66",
+      "displaySha256": "4aefbbd968c4951cb8e5dd03b6ae8eddfe152812dc5826a6743db6c1683599cb",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-cost-meter/-/dsh-cost-meter-1.9.66.tgz"
       ],
       "labels": [
         "cost-tracking",
@@ -729,8 +765,19 @@
         "配额",
         "成本",
         "token",
-        "cost"
-      ]
+        "cost",
+        "余额查询",
+        "订阅额度",
+        "峰谷计价"
+      ],
+      "title": {
+        "en": "Cost Meter",
+        "zh": "费用计量"
+      },
+      "description": {
+        "en": "Track conversation token costs, provider balances and subscription quotas, with peak/off-peak pricing reminders.",
+        "zh": "统计会话 Token 与费用，查询服务商余额和订阅额度，并提供峰谷计价提醒。"
+      }
     },
     "dsh-openstory": {
       "reviewedVersion": "0.2.0",
@@ -760,7 +807,7 @@
       "reviewedVersion": "1.3.1",
       "displaySha256": "bf3d143e8deef83b1dd3c3aa7db4f5d41e106f157ae1fe3295c2f55c27afa939",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-client-ui-aqua/-/dsh-client-ui-aqua-1.3.1.tgz"
       ],
       "labels": [
         "theme"
@@ -867,11 +914,10 @@
       ]
     },
     "whale-girl": {
-      "reviewedVersion": "0.2.0",
+      "reviewedVersion": "0.2.4",
       "displaySha256": "e81e8a882069ea2828fb3c42abd8da35843549480023f9f71fe0ebd222bd3b69",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://github.com/vlln/whale-girl/blob/c3f4afb400755062991c7e9991b745b3016abeeb/package.json"
       ],
       "labels": [
         "pets"
@@ -892,11 +938,10 @@
       }
     },
     "@zseven-w/dsh-ios": {
-      "reviewedVersion": "0.1.0-rc.10",
+      "reviewedVersion": "0.1.0-rc.12",
       "displaySha256": "74eb89a377eaa8b95d9d0fc2b78d3ad728917c2817be76c8bee1c8e48f54341c",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@zseven-w/dsh-ios/-/dsh-ios-0.1.0-rc.12.tgz"
       ],
       "labels": [
         "app-testing"
@@ -917,11 +962,10 @@
       }
     },
     "@nagi-ovo/dsh-visualize": {
-      "reviewedVersion": "0.1.7",
+      "reviewedVersion": "0.1.9",
       "displaySha256": "e303e94a0521186c4eb07247a64d76a98c71d47ef0085fc646dc5bd995be682a",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@nagi-ovo/dsh-visualize/-/dsh-visualize-0.1.9.tgz"
       ],
       "labels": [
         "interactive-cards"
@@ -1103,11 +1147,10 @@
       }
     },
     "dsh-chat-import": {
-      "reviewedVersion": "0.26.1",
+      "reviewedVersion": "0.26.7",
       "displaySha256": "d9f284066a9f8586c0a98a54e3b4e558b7fb8b563a57fe8bf106edfbe2c80443",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-chat-import/-/dsh-chat-import-0.26.7.tgz"
       ],
       "labels": [
         "chat-migration"
@@ -1128,11 +1171,10 @@
       }
     },
     "dsh-auto-review": {
-      "reviewedVersion": "0.13.7",
-      "displaySha256": "f6b291686d9e0b5361ad4aff9ddea5444fdbc16bc278ed05202c28b6925b79ec",
+      "reviewedVersion": "0.15.2",
+      "displaySha256": "230cc69b1da38056b0e7783007dbeaca5c2856cc9e370da0085d20c73e11bb14",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json",
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-auto-review/-/dsh-auto-review-0.15.2.tgz"
       ],
       "labels": [
         "approvals"
@@ -1141,22 +1183,24 @@
         "审批审阅",
         "权限审批",
         "只读审阅",
-        "auto review"
+        "auto review",
+        "审批请求",
+        "自动审批"
       ],
       "title": {
-        "en": "DSH Auto Review",
-        "zh": "DSH 审批自动审阅"
+        "en": "Auto Review",
+        "zh": "审批自动审阅"
       },
       "description": {
-        "en": "A separate read-only model reviews approval requests, with fail-closed fallback and full session logging.",
-        "zh": "用独立的只读模型审阅审批请求；失败时拒绝放行，并保留完整会话日志。"
+        "en": "Review approval requests with a read-only subagent or local decision model, with fail-closed fallback and session logs.",
+        "zh": "用只读子代理或本地决策模型审阅审批请求；失败时拒绝放行，并记录会话日志。"
       }
     },
     "dsh-reasoning-effort": {
-      "reviewedVersion": "0.8.0",
-      "displaySha256": "40f2924d171b99738e7907184bc3ab8e68856c6ddc35c4a9710e70d37f6d4cc3",
+      "reviewedVersion": "0.9.0",
+      "displaySha256": "000948f834ac9cef93cfabae99ca095c4c539af40d892baec0922fe0297e4e4e",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://github.com/HanaAyane/dsh-reasoning-effort/blob/afdc7ca4f02b544db037d2f1b8e959bd853bd838/package.json"
       ],
       "labels": [],
       "keywords": [
@@ -1169,15 +1213,15 @@
         "zh": "DSH 模型与推理选择器"
       },
       "description": {
-        "en": "A Codex-style model and reasoning selector using model-advertised effort levels.",
-        "zh": "提供 Codex 风格的模型与推理强度选择，使用模型声明的强度等级。"
+        "en": "Choose models and reasoning effort with a native slider, model-defined levels and setup guidance for custom models.",
+        "zh": "在模型选择器中用滑块调整推理强度，采用模型声明的档位，并为自定义模型提供设置指引。"
       }
     },
     "@michengai/dsh-skills-manager": {
-      "reviewedVersion": "1.2.8",
-      "displaySha256": "3de8183add431c52adfef501e2309e422c8413efdfb0a4d36d24556f7600c65b",
+      "reviewedVersion": "1.4.9",
+      "displaySha256": "9f8ac52b1b8c2ce79fea941219bcc7d6eefa524503cdf625b8512df88e29a62d",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@michengai/dsh-skills-manager/-/dsh-skills-manager-1.4.9.tgz"
       ],
       "labels": [
         "skills"
@@ -1185,11 +1229,16 @@
       "keywords": [
         "技能管理",
         "本地技能",
-        "Skills"
+        "Skills",
+        "加载技能"
       ],
       "title": {
         "en": "Skills Manager",
         "zh": "Skills 技能管理器"
+      },
+      "description": {
+        "en": "Load and manage local Agent Skills in DSH.",
+        "zh": "在 DSH 中统一加载和管理本机 Agent Skills。"
       }
     },
     "dsh-meme": {
@@ -1207,10 +1256,10 @@
       ]
     },
     "pi2dsh": {
-      "reviewedVersion": "0.26.0",
+      "reviewedVersion": "0.27.1",
       "displaySha256": "57ff6e36d560969cf1c0d3bd7d64ba6f73377b83ffb4588d53ecdf5915f9871d",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/5281f14113b8c3b7c90223f0d973e35305961ddd/data/dsh-market-index.json"
+        "https://registry.npmjs.org/pi2dsh/-/pi2dsh-0.27.1.tgz"
       ],
       "labels": [],
       "keywords": [
@@ -1340,15 +1389,28 @@
       ]
     },
     "@ychris12138/dsh-usage-stats": {
-      "reviewedVersion": "0.3.6",
+      "reviewedVersion": "0.3.8",
       "displaySha256": "631645aa829b9e9a75c7458f0c2cbf31da572a71ffd870ed977f6cf837c0f248",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@ychris12138/dsh-usage-stats/-/dsh-usage-stats-0.3.8.tgz"
       ],
       "labels": [
-        "cost-tracking",
-        "usage-tracking"
-      ]
+        "usage-tracking",
+        "cost-tracking"
+      ],
+      "title": {
+        "en": "Usage Stats",
+        "zh": "用量与费用统计"
+      },
+      "keywords": [
+        "Token 统计",
+        "预算",
+        "用量导出"
+      ],
+      "description": {
+        "en": "Inspect token usage, provider accounts, session cost estimates and budgets, with data export.",
+        "zh": "查看 Token 用量、服务商账号、会话费用估算和预算，并导出数据。"
+      }
     },
     "dsh-builtin-browser": {
       "reviewedVersion": "0.4.14",
@@ -1413,14 +1475,27 @@
       ]
     },
     "dsh-think-translate": {
-      "reviewedVersion": "1.2.13",
-      "displaySha256": "8283310993ae67e5e140dfa95838405b391b4abfcf2265675a3c813e65413d99",
+      "reviewedVersion": "1.2.26",
+      "displaySha256": "150d0290a6e88fc83351b546a2e144f97fdbab1dcffedd929fecbf7a22fea0b9",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/dsh-think-translate/-/dsh-think-translate-1.2.26.tgz"
       ],
       "labels": [
         "translation"
-      ]
+      ],
+      "title": {
+        "en": "Think Translate",
+        "zh": "思考与界面翻译"
+      },
+      "keywords": [
+        "思考链翻译",
+        "任务卡片翻译",
+        "回答翻译"
+      ],
+      "description": {
+        "en": "Translate thinking text, task cards and optional answers through local or remote translation providers.",
+        "zh": "通过本地或远程翻译服务，翻译思考文本、任务卡片及可选的回答正文。"
+      }
     },
     "dsh-browser-crossplatform": {
       "reviewedVersion": "0.38.7",
@@ -1695,14 +1770,27 @@
       ]
     },
     "@goodandready/dsh-voice": {
-      "reviewedVersion": "0.9.41",
-      "displaySha256": "58b3926a437471cf9e61b65f15ebc7c4d769b0a3ed4ffe235e7c42e5032e1868",
+      "reviewedVersion": "0.9.57",
+      "displaySha256": "c24dc44b33c845772bb78cb5638c4611615523f601a37372c4f45f653930342f",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/@goodandready/dsh-voice/-/dsh-voice-0.9.57.tgz"
       ],
       "labels": [
         "voice-input"
-      ]
+      ],
+      "title": {
+        "en": "Voice Input",
+        "zh": "语音输入与听写"
+      },
+      "keywords": [
+        "语音消息",
+        "听写",
+        "Whisper"
+      ],
+      "description": {
+        "en": "Dictate in pause-separated chunks or send voice messages, with configurable provider fallback chains.",
+        "zh": "按停顿分段听写或发送语音消息，支持配置服务商备用链。"
+      }
     },
     "dsh-search-mcp": {
       "reviewedVersion": "0.2.0",
@@ -1800,22 +1888,35 @@
       ]
     },
     "bruce-md2word": {
-      "reviewedVersion": "0.7.0",
+      "reviewedVersion": "0.7.1",
       "displaySha256": "51ba468f5209e2cdb316f4c46e9b019783f77784b6b0dac22ea4c1f8656ec6f1",
       "evidence": [
-        "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json"
+        "https://registry.npmjs.org/bruce-md2word/-/bruce-md2word-0.7.1.tgz"
       ],
       "labels": [
         "document-export"
-      ]
+      ],
+      "title": {
+        "en": "Markdown to Word",
+        "zh": "Markdown 转 Word"
+      },
+      "keywords": [
+        "生成 Word",
+        "导出 Word",
+        "Markdown 转 Word",
+        "Mermaid",
+        "可编辑公式"
+      ],
+      "description": {
+        "en": "Export Markdown to Word with Chinese typography, Mermaid diagrams and editable equations.",
+        "zh": "将 Markdown 导出为 Word，支持中文排版、Mermaid 图表和可编辑公式。"
+      }
     },
     "dsh-mole": {
       "reviewedVersion": "0.1.4",
       "displaySha256": "ceb3a8089529db5d04eca86a67231d7e426e34c1cb0dd3f0a2aa4382ad85bc1b",
       "evidence": [
-        "https://registry.npmjs.org/dsh-mole/-/dsh-mole-0.1.4.tgz",
-        "https://github.com/tw93/Mole/blob/1182eabe40764e0c2421c116d608305bf0822565/plugins/mole/skills/mole/SKILL.md",
-        "https://github.com/tw93/Mole/blob/1182eabe40764e0c2421c116d608305bf0822565/plugins/mole/README.zh.md"
+        "https://registry.npmjs.org/dsh-mole/-/dsh-mole-0.1.4.tgz"
       ],
       "labels": [
         "file-management"
@@ -1838,6 +1939,340 @@
       "description": {
         "en": "Tw93's open-source computer cleanup tool for macOS and Windows, via the official DSH skill. Analyze disk usage, preview cleanup and read system health; ask before removal. Requires the local Mole CLI.",
         "zh": "Tw93 的开源电脑清理工具，通过官方 DSH 技能插件分析 macOS / Windows 磁盘占用、预览清理和读取系统状态，征得同意后再清理；需本机 Mole CLI。"
+      }
+    },
+    "dsh-connect-workbuddy": {
+      "reviewedVersion": "5.24.6",
+      "displaySha256": "860f350b7ed274b590e5f7b683a3695c2958a893c5cb1e2a62789a51362b6680",
+      "evidence": [
+        "https://registry.npmjs.org/dsh-connect-workbuddy/-/dsh-connect-workbuddy-5.24.6.tgz"
+      ],
+      "title": {
+        "en": "WorkBuddy Models",
+        "zh": "WorkBuddy 模型接入"
+      },
+      "labels": [
+        "provider",
+        "usage-tracking"
+      ],
+      "keywords": [
+        "WorkBuddy",
+        "CodeBuddy",
+        "账号切换",
+        "积分查询"
+      ],
+      "description": {
+        "en": "Use locally signed-in WorkBuddy models in DSH, with model options, account switching and read-only credit overviews.",
+        "zh": "在 DSH 使用本机已登录的 WorkBuddy 模型，支持模型选项、账号切换和只读积分概览。"
+      }
+    },
+    "dsh-bili-scroll": {
+      "reviewedVersion": "2.5.2",
+      "displaySha256": "dc589079001597e291bbbd016ecbb4eee4d889204b7125b8475cffdd57eaf287",
+      "evidence": [
+        "https://registry.npmjs.org/dsh-bili-scroll/-/dsh-bili-scroll-2.5.2.tgz"
+      ],
+      "title": {
+        "en": "Bili Scroll",
+        "zh": "B站视频日报"
+      },
+      "labels": [
+        "web-extraction",
+        "workflows"
+      ],
+      "keywords": [
+        "B站",
+        "哔哩哔哩",
+        "视频字幕",
+        "视频日报"
+      ],
+      "description": {
+        "en": "Read Bilibili subtitles, select relevant videos and prepare a daily report with notifications.",
+        "zh": "读取 B站字幕、筛选值得看的视频，并生成日报与提醒。"
+      }
+    },
+    "@tencent-connect/dsh-qqbot": {
+      "reviewedVersion": "0.5.5",
+      "displaySha256": "e35766881a4cbe2b329b713fb54dc11b20147c095fb8b8b75e32090ee5a06e6b",
+      "evidence": [
+        "https://registry.npmjs.org/@tencent-connect/dsh-qqbot/-/dsh-qqbot-0.5.5.tgz"
+      ],
+      "title": {
+        "en": "QQ Bot",
+        "zh": "QQ 机器人"
+      },
+      "labels": [
+        "messaging"
+      ],
+      "keywords": [
+        "QQ",
+        "QQ群",
+        "QQ 私聊"
+      ],
+      "description": {
+        "en": "Chat with DSH through QQ private and group conversations.",
+        "zh": "在 QQ 私聊和群聊中直接与 DSH 对话。"
+      }
+    },
+    "dsh-remote": {
+      "reviewedVersion": "1.1.2",
+      "displaySha256": "66fee3f1c9ac8313b6ed42bfce83ff4c84267586e7e6e11e7e72340d2ca176a9",
+      "evidence": [
+        "https://registry.npmjs.org/dsh-remote/-/dsh-remote-1.1.2.tgz"
+      ],
+      "title": {
+        "en": "Remote SSH",
+        "zh": "SSH 远程开发"
+      },
+      "labels": [
+        "remote",
+        "file-management",
+        "terminal"
+      ],
+      "keywords": [
+        "SSH",
+        "远程工作区",
+        "SFTP",
+        "远程开发"
+      ],
+      "description": {
+        "en": "Develop over SSH with remote file search, editor and terminal tabs, Git diffs and compiler diagnostics.",
+        "zh": "通过 SSH 使用远程文件搜索、编辑器与终端页签、Git 差异和编译诊断。"
+      }
+    },
+    "dsh-guizang-design": {
+      "reviewedVersion": "0.1.4",
+      "displaySha256": "2a66c9e337033afe9eb0da1694967f03fbbedb5d6aaea40f9b03461ac380cb14",
+      "evidence": [
+        "https://registry.npmjs.org/dsh-guizang-design/-/dsh-guizang-design-0.1.4.tgz"
+      ],
+      "title": {
+        "en": "Guizang Design",
+        "zh": "歸藏设计"
+      },
+      "labels": [
+        "presentations",
+        "design",
+        "skills"
+      ],
+      "keywords": [
+        "图文卡片",
+        "网页排版",
+        "去 AI 味",
+        "PPT"
+      ],
+      "description": {
+        "en": "Create web slide decks, social cards and page layouts with a shared design system, plus De-AI writing edits.",
+        "zh": "用统一设计系统制作网页 PPT、图文卡片和网页排版，并提供去 AI 味写作编辑。"
+      }
+    },
+    "@yejiming/dsh-data-agent": {
+      "reviewedVersion": "0.2.2",
+      "displaySha256": "0e1aade2e87816ccefb13a47dcc94d21487ee622a1e1a03f14a4825defc687b0",
+      "evidence": [
+        "https://registry.npmjs.org/@yejiming/dsh-data-agent/-/dsh-data-agent-0.2.2.tgz"
+      ],
+      "title": {
+        "en": "Data Agent",
+        "zh": "数据库分析助手"
+      },
+      "labels": [
+        "data-analysis",
+        "presets"
+      ],
+      "keywords": [
+        "SQL",
+        "数据库连接",
+        "数据目录"
+      ],
+      "description": {
+        "en": "Connect DSH Web and TUI to databases with SQL tools, shared connections, metadata catalogs and a data-agent preset.",
+        "zh": "通过 SQL 工具、共享连接、元数据目录和数据分析预设，在 DSH Web 与 TUI 中使用数据库。"
+      }
+    },
+    "dsh-undo-savepoint": {
+      "reviewedVersion": "0.5.1",
+      "displaySha256": "8e4c06f971a78509a79d18faa840432ae9c1cd9a4ff957d294c1f2d48601064e",
+      "evidence": [
+        "https://registry.npmjs.org/dsh-undo-savepoint/-/dsh-undo-savepoint-0.5.1.tgz"
+      ],
+      "title": {
+        "en": "Undo Savepoint",
+        "zh": "撤销与故障恢复"
+      },
+      "labels": [
+        "backup"
+      ],
+      "keywords": [
+        "撤销操作",
+        "配置快照",
+        "安全模式",
+        "离线恢复"
+      ],
+      "description": {
+        "en": "Snapshot configuration changes, undo or redo actions, and recover broken plugin trees through Web, chat or offline tools.",
+        "zh": "为配置变更创建快照，撤销或重做操作，并通过网页、对话或离线工具恢复故障插件树。"
+      }
+    },
+    "@graysilver/dsh-evolve-modes": {
+      "reviewedVersion": "0.5.0",
+      "displaySha256": "cec2059bdae1080d41f8d5b1f0ca3b707fa819ab2a993d97c0aa98f35f18883e",
+      "evidence": [
+        "https://registry.npmjs.org/@graysilver/dsh-evolve-modes/-/dsh-evolve-modes-0.5.0.tgz"
+      ],
+      "title": {
+        "en": "Evolve Modes",
+        "zh": "工作模式与演进控制"
+      },
+      "labels": [],
+      "keywords": [
+        "工作模式",
+        "推理控制",
+        "质量检查",
+        "人工审阅"
+      ],
+      "description": {
+        "en": "Compose working, reasoning and quality controls with human-reviewed self-evolution.",
+        "zh": "组合工作、推理和质量控制，并在人类审阅下进行自我演进。"
+      }
+    },
+    "@cocofhu/anime-find": {
+      "reviewedVersion": "0.1.12",
+      "displaySha256": "9fb1e77e81dd37e24abbf3c7c92935fdda2cbc3f78b147b68da525b62de0b96a",
+      "evidence": [
+        "https://registry.npmjs.org/@cocofhu/anime-find/-/anime-find-0.1.12.tgz"
+      ],
+      "title": {
+        "en": "Anime Find",
+        "zh": "对话搜番与播放"
+      },
+      "labels": [],
+      "keywords": [
+        "搜番",
+        "看番",
+        "番剧搜索",
+        "在线播放"
+      ],
+      "description": {
+        "en": "Search anime sources in a conversation, view detail cards, copy magnet links and play supported streams.",
+        "zh": "在对话中搜索番剧，查看详情卡片、复制磁力链接并播放支持的流媒体。"
+      }
+    },
+    "@changfenhuang/dsh-annotation": {
+      "reviewedVersion": "1.4.11",
+      "displaySha256": "26885c1e1effdd360b34722416613cad0ce4343c8de84be3793f1925ace790c1",
+      "evidence": [
+        "https://registry.npmjs.org/@changfenhuang/dsh-annotation/-/dsh-annotation-1.4.11.tgz"
+      ],
+      "title": {
+        "en": "Text Annotation",
+        "zh": "对话选文批注"
+      },
+      "labels": [
+        "annotations"
+      ],
+      "keywords": [
+        "选中文字",
+        "添加批注",
+        "批注回复"
+      ],
+      "description": {
+        "en": "Annotate selected assistant text and send numbered annotations with your message for replies in context.",
+        "zh": "选中助手文字添加批注，随消息发送编号批注，让回复逐条对照。"
+      }
+    },
+    "dsh-client-auto-continue": {
+      "reviewedVersion": "0.19.0",
+      "displaySha256": "cd20ebae96f9eacd02a31492eb74f3b909c6df3ee850321a15858fd70773a446",
+      "evidence": [
+        "https://github.com/HsiangNianian/dsh-auto-continue/blob/8e41e012cd2d4ed9f8892fc774b3c494bd8b7094/package.json"
+      ],
+      "title": {
+        "en": "Auto Continue",
+        "zh": "会话自动续接"
+      },
+      "labels": [
+        "auto-continue"
+      ],
+      "keywords": [
+        "继续对话",
+        "长任务续接",
+        "中断恢复"
+      ],
+      "description": {
+        "en": "Resume interrupted conversations automatically at your chosen pace.",
+        "zh": "按设定节奏自动恢复中断的会话。"
+      }
+    },
+    "@anionex/dsh-turn-rewind": {
+      "reviewedVersion": "0.3.13",
+      "displaySha256": "2b28dd2928b54bf5cc217fcfe73dc5acdca3f243592e356953a4d434cd83f17a",
+      "evidence": [
+        "https://registry.npmjs.org/@anionex/dsh-turn-rewind/-/dsh-turn-rewind-0.3.13.tgz",
+        "https://registry.npmjs.org/@anionex/dsh-turn-rewind/-/dsh-turn-rewind-0.1.2.tgz"
+      ],
+      "title": {
+        "en": "Turn Rewind",
+        "zh": "对话与工作区回退"
+      },
+      "labels": [
+        "backup"
+      ],
+      "keywords": [
+        "回退对话",
+        "按轮次撤回",
+        "工作区回退"
+      ],
+      "description": {
+        "en": "Rewind conversations and workspace changes by turn using a persistent change ledger.",
+        "zh": "通过持久化变更记录，按轮次回退对话与工作区改动。"
+      }
+    },
+    "@dsh-external/dsh-automation": {
+      "reviewedVersion": "0.1.7",
+      "displaySha256": "b5ca097ad3cdb27c762111641183a934973e8ca85f8c579be513355a314257cd",
+      "evidence": [
+        "https://github.com/titanwings/dsh-automation/blob/0d73a4e03639d4f63d0771ae4490e2718b7e7aa0/package.json"
+      ],
+      "title": {
+        "en": "Automation",
+        "zh": "定时与周期任务"
+      },
+      "labels": [
+        "workflows"
+      ],
+      "keywords": [
+        "定时任务",
+        "周期任务",
+        "计划任务"
+      ],
+      "description": {
+        "en": "Run scheduled coding tasks in fresh Agent sessions and manage automations from Web or an Agent.",
+        "zh": "在独立 Agent 会话中执行定时编程任务，通过网页或 Agent 管理自动化。"
+      }
+    },
+    "@zseven-w/dsh-openpencil": {
+      "reviewedVersion": "0.1.0-rc.15",
+      "displaySha256": "b91e763ac675038312b4c83c86207d044896f5934f168218649f0f1607990e4a",
+      "evidence": [
+        "https://registry.npmjs.org/@zseven-w/dsh-openpencil/-/dsh-openpencil-0.1.0-rc.15.tgz"
+      ],
+      "title": {
+        "en": "OpenPencil",
+        "zh": "OpenPencil 设计文档"
+      },
+      "labels": [
+        "design"
+      ],
+      "keywords": [
+        "设计稿",
+        "OpenPencil",
+        ".op",
+        "编辑设计文档"
+      ],
+      "description": {
+        "en": "Preview, inspect and edit real OpenPencil documents in DSH conversations with rendering and a managed editor.",
+        "zh": "在 DSH 对话中预览、检查和编辑 OpenPencil 文档，提供渲染与托管编辑器。"
       }
     }
   }

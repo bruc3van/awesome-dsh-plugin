@@ -2,6 +2,44 @@
  * Dimensions guide curation; format-1 displays one flat label list.
  * Package assignments live in fingerprint-guarded presentation.json, never category guesses.
  */
+// These aliases expand only an explicitly reviewed capability, never a package name or broad category.
+const TASK_KEYWORDS = {
+  'code-review': ['审查代码', '检查代码', '代码检查', 'review code'],
+  'diff-review': ['查看修改', '对比改动', '代码差异', 'diff'],
+  'design': ['设计稿', '设计画布', '编辑设计文档'],
+  'image-generation': ['画图', '生成图片', 'AI 绘画', '文生图', '生图'],
+  'vision': ['看图', '分析图片', '图片理解'],
+  'ocr': ['识别文字', '图片转文字', '提取图片文字'],
+  'search': ['搜索网页', '网上搜索', '查资料'],
+  'research': ['阅读论文', '论文阅读', '查找论文', '文献研究'],
+  'document-export': ['导出文档', '生成文档', '文档转换'],
+  'document-preview': ['查看文档', '阅读文档', '打开文档'],
+  'browser-automation': ['操作浏览器', '控制浏览器', '自动操作网页'],
+  'voice-input': ['语音转文字', '说话输入', '录音转写'],
+  'read-aloud': ['朗读文字', '文字转语音', '读出来'],
+  'translation': ['翻译内容', '翻译文字', '中英翻译'],
+  'cost-tracking': ['查看费用', '花了多少钱', '费用统计'],
+  'usage-tracking': ['查看用量', 'Token 用量', '词元统计'],
+  'backup': ['备份配置', '恢复配置', '还原设置'],
+  'chat-migration': ['导入聊天记录', '迁移对话', '导出对话'],
+  'file-management': ['管理文件', '文件操作'],
+  'memory': ['跨会话记忆', '记住信息', '长期记忆'],
+  'teams': ['智能体团队', '多智能体协作', 'Agent 协作'],
+  'workflows': ['自动化任务', '编排任务', '重复任务'],
+  'taskboard': ['管理任务', '任务进度', '项目看板'],
+  'context': ['查看上下文', '上下文统计', '上下文管理'],
+  'skills': ['管理技能', '安装技能', 'skill 管理'],
+  'mcp': ['管理 MCP', 'MCP 服务'],
+  'provider': ['接入模型', '切换模型', '模型配置'],
+  'theme': ['更换主题', '换皮肤', '界面美化'],
+  'mobile': ['手机访问', '手机连接', '移动端'],
+  'remote': ['远程连接', '远程访问'],
+  'messaging': ['聊天机器人', '消息接入'],
+  'presentations': ['做PPT', '生成PPT', '制作幻灯片', '演示文稿', 'slides'],
+  'data-analysis': ['分析数据', '查询数据库', '数据分析'],
+  'annotations': ['文字批注', '选文批注', '添加批注'],
+  'auto-continue': ['继续对话', '自动继续', '会话续接'],
+}
 export const MAX_VALUE_LABELS = 3
 export const VALUE_LABELS = Object.fromEntries([
   ['theme', 'task', '主题美化', 'Themes'],
@@ -13,6 +51,11 @@ export const VALUE_LABELS = Object.fromEntries([
   ['document-export', 'task', '文档导出', 'Document export'],
   ['document-preview', 'task', '文档预览', 'Document preview'],
   ['image-generation', 'task', '图片生成', 'Image generation'],
+  ['design', 'task', '设计编辑', 'Design editing'],
+  ['presentations', 'task', '制作 PPT', 'Presentations'],
+  ['data-analysis', 'task', '数据分析', 'Data analysis'],
+  ['annotations', 'task', '文字批注', 'Text annotations'],
+  ['auto-continue', 'workflow', '自动续接', 'Auto continue'],
   ['ocr', 'task', '文字识别', 'Text recognition'],
   ['web-extraction', 'task', '网页抓取', 'Web extraction'],
   ['browser-automation', 'task', '浏览器操作', 'Browser automation'],
@@ -49,4 +92,4 @@ export const VALUE_LABELS = Object.fromEntries([
   ['api-key-required', 'setup', '需 API Key', 'API key required'],
   ['browser-extension-required', 'setup', '需浏览器扩展', 'Browser extension required'],
   ['voice-bridge-required', 'setup', '需语音桥', 'Voice bridge required'],
-].map(([id, dimension, zh, en]) => [id, { dimension, title: { zh, en } }]))
+].map(([id, dimension, zh, en]) => [id, { dimension, title: { zh, en }, keywords: TASK_KEYWORDS[id] ?? [] }]))

@@ -16,7 +16,7 @@
 
 1. **Enable custom markets:** **Plugins** in the left sidebar → **More** beside **Experimental plugins** → switch on **Custom plugin markets**; the Plugins page then shows the **Installed / Discover** tabs.
 2. **Add the subscription:** open **Discover**, click **Add index source** (or open the top-left market dropdown → **Manage index sources…**), paste the URL above, and click **Add**.
-3. **Browse and install:** pick **Bruce's Plugin Picks** in the market dropdown; filter by category (including Editor's Picks), keyword, npm/Git, recency, or stars, and check each plugin's version requirements before installing. Use **Refresh** to reload data.
+3. **Browse and install:** pick **Bruce's Plugin Picks** in the market dropdown; filter by task category, keyword or labels (Editor's Picks, npm/Git, recency and stars), and check each plugin's version requirements before installing. Use **Refresh** to reload data.
 
 If the Discover tab is missing, check that DSH is ≥ V0.2.1-rc.2 and Custom plugin markets is enabled; the switch only unlocks the feature — the subscription URL still needs to be added manually. Subscribing in Discover **does not require `safer-dsh-market`** (that plugin is for a standalone interface, multiple-target installation, and post-install AI review), and the two switches are separate controls.
 
