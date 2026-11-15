@@ -6,7 +6,7 @@
 
 The human-readable twin of [data/market-v2.json](./data/market-v2.json) — the same market data the [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) plugin renders in the desktop app, generated alongside the feed by `scripts/market-v2.mjs` so it can be previewed on GitHub without installing anything. Do not edit by hand. The table ranks by stars, matching the plugin’s "All plugins" view; the feed itself is stored in balanced deal order, and the plugin shows only its configured prefix by default.
 
-- 生成时间 / Feed generated: **2026-11-15T20:14:18.468Z**
+- 生成时间 / Feed generated: **2026-11-15T21:01:55.875Z**
 - 来源快照 / Source snapshot: **2026-11-15T19:45:42.089Z**（31606 个仓库 / repositories scanned）
 - 过滤后候选池 / Candidate pool after filtering: **26249**
 - 发布条目 / Published entries: **1000**（上限 / cap: 1000）
