@@ -1,0 +1,42 @@
+{
+  "full_name": "william-jin-cmu/dsh-vision",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "stargazers_count": 30,
+  "startedAt": "2026-11-15T21:01:11.656Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "771e6192395ad055adf2b627141655a4d698b72cd0058af828b4b491b7edaaaf",
+      "url": "https://github.com/william-jin-cmu/dsh-vision/blob/72978aa176df8e01a685bf270a1b1d016660c492/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/william-jin-cmu/dsh-vision",
+    "commit": "72978aa176df8e01a685bf270a1b1d016660c492",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@dsh-external/dsh-vision",
+    "version": "0.1.0",
+    "dsh": null,
+    "engines": {
+      "dsh": ">=0.0.1"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-15T21:01:13.716Z"
+}

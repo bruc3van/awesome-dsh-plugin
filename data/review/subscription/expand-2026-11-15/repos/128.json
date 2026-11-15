@@ -1,0 +1,160 @@
+{
+  "full_name": "zkforge/dsh-claude-desktop-theme",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 40,
+  "startedAt": "2026-11-15T21:00:58.505Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23ed8d741a57a5bad0bb58420554bf3529a57d0c09324b0ad194bd8988994b00",
+      "url": "https://github.com/zkforge/dsh-claude-desktop-theme/blob/505596f042b84cb8bc0b85cec2dfc445f94530a9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-claude-desktop-theme",
+          "command": "dsh plugin --profile desktop add dsh-claude-desktop-theme",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-claude-desktop-theme",
+      "version": "0.10.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zkforge/dsh-claude-desktop-theme",
+        "commit": "505596f042b84cb8bc0b85cec2dfc445f94530a9"
+      },
+      "manifestSha256": "3996eb7b851131cf934806cda758a00c129a57fc96cdeecca4a00d37cae83f35",
+      "manifestUrl": "https://github.com/zkforge/dsh-claude-desktop-theme/blob/505596f042b84cb8bc0b85cec2dfc445f94530a9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-claude-desktop-theme",
+        "versions": [
+          {
+            "version": "0.10.6",
+            "publishTimestamp": 1794737793,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zkforge/dsh-claude-desktop-theme",
+              "commit": "505596f042b84cb8bc0b85cec2dfc445f94530a9"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-claude-desktop-theme",
+      "origin": "npm",
+      "name": "dsh-claude-desktop-theme",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-claude-desktop-theme",
+        "title": "dsh-claude-desktop-theme",
+        "description": "Claude Code Desktop-style theme for DeepSeek Harness (DSH) Desktop on macOS and Windows, with light/dark themes, model/effort pickers and an interactive pixel whale",
+        "author": "zkforge",
+        "homepage": "https://github.com/zkforge/dsh-claude-desktop-theme#readme",
+        "repository": {
+          "url": "https://github.com/zkforge/dsh-claude-desktop-theme"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-desktop",
+            "deepseek",
+            "deepseek-harness",
+            "claude",
+            "claude-code",
+            "claude-desktop",
+            "claude-code-desktop",
+            "dsh-theme",
+            "desktop-theme",
+            "ui-theme",
+            "theme",
+            "skin",
+            "dark-mode",
+            "light-theme",
+            "macos",
+            "windows",
+            "cordis-plugin",
+            "ccd"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.10.6",
+            "publishTimestamp": 1794738113,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.3.0-0"
+            }
+          },
+          {
+            "version": "0.6.2",
+            "publishTimestamp": 1793031090,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4dfc0e7fea85d7b12fdd1c99011e4d802bed04182127a7c318121437dff53ebe",
+      "evidence": [
+        {
+          "name": "dsh-claude-desktop-theme",
+          "version": "0.10.6",
+          "tarball": "https://registry.npmjs.org/dsh-claude-desktop-theme/-/dsh-claude-desktop-theme-0.10.6.tgz",
+          "integrity": "sha512-jSsMcYI8tj1iLrWCNHMIeFz3GxSZl7iJQzWimiWCbyAlNxUNyhFVa/0Aw4g0y4YLVf1eGiSvsK2+atXTX3Wodg=="
+        },
+        {
+          "name": "dsh-claude-desktop-theme",
+          "version": "0.6.2",
+          "tarball": "https://registry.npmjs.org/dsh-claude-desktop-theme/-/dsh-claude-desktop-theme-0.6.2.tgz",
+          "integrity": "sha512-1J0aH/HxbQS+3lKICIiZlkaNCAQPmiq4O8lFroHfvMoewJ9vINxtmWIrhyB1sH1xuHdP7IwzhvqXyNiB83fc0g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-claude-desktop-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zkforge/dsh-claude-desktop-theme",
+    "commit": "505596f042b84cb8bc0b85cec2dfc445f94530a9",
+    "releaseTags": 27,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:00.862Z"
+}

@@ -1,0 +1,42 @@
+{
+  "full_name": "lbwnb666-ai/DeepSeekHarnessRemoteGateway",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "stargazers_count": 27,
+  "startedAt": "2026-11-15T21:01:21.437Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e1b1ae63d43705a20a99a75452ce2f1dd9cf78baf29e1ca588c67c189eab99dd",
+      "url": "https://github.com/lbwnb666-ai/DeepSeekHarnessRemoteGateway/blob/d20d22e07d2afe907d8bde03ed98dfa0b7411d98/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lbwnb666-ai/DeepSeekHarnessRemoteGateway",
+    "commit": "d20d22e07d2afe907d8bde03ed98dfa0b7411d98",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-remote-gateway",
+    "version": "0.1.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=22.0.0"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-15T21:01:23.477Z"
+}

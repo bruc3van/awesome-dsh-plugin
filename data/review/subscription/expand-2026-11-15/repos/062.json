@@ -1,0 +1,66 @@
+{
+  "full_name": "wonderandyou/dsh-qwen-paint",
+  "originalPosition": 62,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 62,
+  "batch": 1,
+  "stargazers_count": 94,
+  "startedAt": "2026-11-15T21:00:26.231Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "61edfa08c3fd9843c780443f36510ba29881b454bb4f1744aeebb4e8b88cb7de",
+      "url": "https://github.com/wonderandyou/dsh-qwen-paint/blob/ef86e5a44772082d9b720eb0f99b57db6acfbb38/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qwen-paint",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wonderandyou/dsh-qwen-paint",
+        "commit": "ef86e5a44772082d9b720eb0f99b57db6acfbb38"
+      },
+      "manifestSha256": "2d4c15059e500cf8c46f796417d6fdc290a233dfe232f57619fdbda6a0244b02",
+      "manifestUrl": "https://github.com/wonderandyou/dsh-qwen-paint/blob/ef86e5a44772082d9b720eb0f99b57db6acfbb38/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-qwen-paint",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1791460572,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wonderandyou/dsh-qwen-paint",
+              "commit": "ef86e5a44772082d9b720eb0f99b57db6acfbb38"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wonderandyou/dsh-qwen-paint",
+    "commit": "ef86e5a44772082d9b720eb0f99b57db6acfbb38",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:28.324Z"
+}

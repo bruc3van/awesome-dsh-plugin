@@ -1,0 +1,146 @@
+{
+  "full_name": "3150481853/molly-qq-whale",
+  "originalPosition": 182,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 182,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-11-15T21:01:23.478Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7f04df15f21d4d9096ea1609143772095c171af1c0da9a72e642598c5f312a11",
+      "url": "https://github.com/3150481853/molly-qq-whale/blob/c33104b6170c4f764b44c8901b6cb1c2ca4096ac/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/3150481853/molly-qq-whale#path:/plugin/dsh-qq-whale",
+          "command": "dsh plugin --profile desktop add \"github:3150481853/molly-qq-whale#path:/plugin/dsh-qq-whale\"",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qq-pest",
+      "version": "0.1.0",
+      "path": "plugin/dsh-qq-pest",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/3150481853/molly-qq-whale",
+        "commit": "c33104b6170c4f764b44c8901b6cb1c2ca4096ac",
+        "path": "plugin/dsh-qq-pest"
+      },
+      "manifestSha256": "2786d0fb05cf90cff85260cf81a0be9bda16410d2ed5a8b3cd9d011978acd598",
+      "manifestUrl": "https://github.com/3150481853/molly-qq-whale/blob/c33104b6170c4f764b44c8901b6cb1c2ca4096ac/plugin/dsh-qq-pest/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qq-whale",
+      "version": "1.1.8",
+      "path": "plugin/dsh-qq-whale",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/3150481853/molly-qq-whale",
+        "commit": "c33104b6170c4f764b44c8901b6cb1c2ca4096ac",
+        "path": "plugin/dsh-qq-whale"
+      },
+      "manifestSha256": "eb7741b2654271838702cd754559f0a3a147d91e6129439bf5de9740a6451785",
+      "manifestUrl": "https://github.com/3150481853/molly-qq-whale/blob/c33104b6170c4f764b44c8901b6cb1c2ca4096ac/plugin/dsh-qq-whale/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-qq-whale",
+        "versions": [
+          {
+            "version": "1.1.8",
+            "publishTimestamp": 1794635742,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/3150481853/molly-qq-whale",
+              "commit": "c33104b6170c4f764b44c8901b6cb1c2ca4096ac",
+              "path": "plugin/dsh-qq-whale"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/3150481853/molly-qq-whale#path:/plugin/dsh-qq-whale",
+      "origin": "git_target",
+      "name": "dsh-qq-whale",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-qq-whale",
+        "title": "dsh-qq-whale",
+        "description": "QQ 通道 for DeepSeek Harness — 蓝色大肥鱼住进 QQ：活人感回复、表情包斗图、会发语音，内置「茉莉花记忆系统」（OneBot 11 / SnowLuma）",
+        "homepage": "https://github.com/3150481853/molly-qq-whale/tree/main/plugin/dsh-qq-whale#readme",
+        "repository": {
+          "url": "https://github.com/3150481853/molly-qq-whale",
+          "directory": "plugin/dsh-qq-whale"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "qq",
+            "onebot",
+            "snowluma",
+            "chatbot",
+            "persona"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.8",
+            "publishTimestamp": 1794635742,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/3150481853/molly-qq-whale",
+              "commit": "c33104b6170c4f764b44c8901b6cb1c2ca4096ac",
+              "path": "plugin/dsh-qq-whale"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "plugin/dsh-qq-whale",
+          "commit": "c33104b6170c4f764b44c8901b6cb1c2ca4096ac",
+          "name": "dsh-qq-whale",
+          "version": "1.1.8",
+          "url": "https://github.com/3150481853/molly-qq-whale",
+          "manifestSha256": "eb7741b2654271838702cd754559f0a3a147d91e6129439bf5de9740a6451785",
+          "publishTimestamp": 1794635742
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/3150481853/molly-qq-whale#path:/plugin/dsh-qq-whale",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/3150481853/molly-qq-whale",
+    "commit": "c33104b6170c4f764b44c8901b6cb1c2ca4096ac",
+    "releaseTags": 39,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:27.821Z"
+}

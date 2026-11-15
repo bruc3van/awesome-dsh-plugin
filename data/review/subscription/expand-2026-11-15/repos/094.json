@@ -1,0 +1,147 @@
+{
+  "full_name": "gychen-NJU/dsh-game-daily",
+  "originalPosition": 94,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 94,
+  "batch": 1,
+  "stargazers_count": 56,
+  "startedAt": "2026-11-15T21:00:40.577Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7f73b400ced2e3c95d42b3423bfb2150d43be28ca0a141809b8f296b25d1f0fd",
+      "url": "https://github.com/gychen-NJU/dsh-game-daily/blob/f4ba1f09b73e500177959a2a6974860be2cc91be/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-game-daily",
+          "command": "dsh plugin add dsh-game-daily",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "cabedde7c964d5b9da66bfd238103b7a8f9b06af21caba93eb0f5b37d2ae7c5c",
+      "url": "https://github.com/gychen-NJU/dsh-game-daily/blob/f4ba1f09b73e500177959a2a6974860be2cc91be/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-game-daily",
+          "command": "dsh plugin add dsh-game-daily",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-game-daily",
+      "version": "0.3.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/gychen-NJU/dsh-game-daily",
+        "commit": "f4ba1f09b73e500177959a2a6974860be2cc91be"
+      },
+      "manifestSha256": "c4eef4e82aecd1ada40bcfdce578c8336f67bcac5ac79540a0ccc3aafa68b774",
+      "manifestUrl": "https://github.com/gychen-NJU/dsh-game-daily/blob/f4ba1f09b73e500177959a2a6974860be2cc91be/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-game-daily",
+        "versions": [
+          {
+            "version": "0.3.12",
+            "publishTimestamp": 1794735955,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/gychen-NJU/dsh-game-daily",
+              "commit": "f4ba1f09b73e500177959a2a6974860be2cc91be"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-game-daily",
+      "origin": "npm",
+      "name": "dsh-game-daily",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-game-daily",
+        "title": "dsh-game-daily",
+        "description": "DSH 插件：游戏日常代理（原神 / 崩坏3 / 星穹铁道 / 绝区零）——设置页逐游戏开关、每游戏排班、到点自动执行并汇报结果",
+        "homepage": "https://github.com/gychen-NJU/dsh-game-daily#readme",
+        "repository": {
+          "url": "https://github.com/gychen-NJU/dsh-game-daily"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "game-daily",
+            "bettergi",
+            "zenless-zone-zero",
+            "automation"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdhbWUgRGFpbHkiPg0KICA8ZGVmcz4NCiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdkLWJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+DQogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMzYjZlYTUiLz4NCiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzIyM2M1YyIvPg0KICAgIDwvbGluZWFyR3JhZGllbnQ+DQogIDwvZGVmcz4NCiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9InVybCgjZ2QtYmcpIi8+DQogIDxyZWN0IHg9IjE0IiB5PSIxOCIgd2lkdGg9IjM2IiBoZWlnaHQ9IjMyIiByeD0iNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZWFmMmZiIiBzdHJva2Utd2lkdGg9IjIuNCIvPg0KICA8cGF0aCBkPSJNMTQgMjZoMzYiIHN0cm9rZT0iI2VhZjJmYiIgc3Ryb2tlLXdpZHRoPSIyLjQiLz4NCiAgPHBhdGggZD0iTTIxIDIwdjEyTTQzIDIwdjEyIiBzdHJva2U9IiM5ZmMzZTgiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4NCiAgPGNpcmNsZSBjeD0iMjUiIGN5PSIzOCIgcj0iMy4yIiBmaWxsPSIjZWFmMmZiIi8+DQogIDxwYXRoIGQ9Ik0zOSAzNHY5TTM0LjUgMzguNWg5IiBzdHJva2U9IiNmMmM5NmIiIHN0cm9rZS13aWR0aD0iMi42IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4NCiAgPHBhdGggZD0iTTIzIDguNWgxOCIgc3Ryb2tlPSIjOWZjM2U4IiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+DQo8L3N2Zz4NCg==",
+        "versions": [
+          {
+            "version": "0.3.12",
+            "publishTimestamp": 1794736622,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8ba75070236e06e180aacb20e76159dba50e6d3f4228f3cf3f89708f0591a2eb",
+      "evidence": [
+        {
+          "name": "dsh-game-daily",
+          "version": "0.3.12",
+          "tarball": "https://registry.npmjs.org/dsh-game-daily/-/dsh-game-daily-0.3.12.tgz",
+          "integrity": "sha512-6qOhavw4KWywtayzJskipIkzYZSBlkGKTRRsChTtK1o60ZQW5wNFieY+3QmTDeFjeT3mkEkGpKPVdKQaKV9KEQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-game-daily",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gychen-NJU/dsh-game-daily",
+    "commit": "f4ba1f09b73e500177959a2a6974860be2cc91be",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:43.154Z"
+}

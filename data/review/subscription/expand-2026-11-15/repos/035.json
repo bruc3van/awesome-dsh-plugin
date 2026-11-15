@@ -1,0 +1,131 @@
+{
+  "full_name": "LeeRolling/dsh-boot-suite",
+  "originalPosition": 35,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 35,
+  "batch": 1,
+  "stargazers_count": 155,
+  "startedAt": "2026-11-15T21:00:13.181Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6778ea8d672c0dc6f7e6cfc503d47fdc13eb4555e24bd7f9f327538227837ddb",
+      "url": "https://github.com/LeeRolling/dsh-boot-suite/blob/83645b8aa9e5b9d8f964dc6e29b4c66dc40f8ddd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-boot-suite",
+          "command": "dsh plugin add dsh-boot-suite",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-boot-suite",
+      "version": "2.16.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LeeRolling/dsh-boot-suite",
+        "commit": "83645b8aa9e5b9d8f964dc6e29b4c66dc40f8ddd"
+      },
+      "manifestSha256": "955d0dd0a8f5ab8c956de254f21f82c929ad53000cdfd7c3156b159dd0adf32e",
+      "manifestUrl": "https://github.com/LeeRolling/dsh-boot-suite/blob/83645b8aa9e5b9d8f964dc6e29b4c66dc40f8ddd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-boot-suite",
+        "versions": [
+          {
+            "version": "2.16.13",
+            "publishTimestamp": 1794499306,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LeeRolling/dsh-boot-suite",
+              "commit": "83645b8aa9e5b9d8f964dc6e29b4c66dc40f8ddd"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-boot-suite",
+      "origin": "npm",
+      "name": "dsh-boot-suite",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-boot-suite",
+        "title": "dsh-boot-suite",
+        "description": "两幕启动动画（默认档案暖白 + 鲸鱼娘扫描睁眼，2K/4K 可切），支持导入视频/图片、三段转场、11→6 套配音音色与 5 种声音效果、聊天背景/循环视频、内置 iframe 启动模板（全景大肥鱼-含彩蛋版）与更新前自动回滚。",
+        "author": "沈宏宏 · LeeRolling",
+        "homepage": "https://github.com/LeeRolling/dsh-boot-suite#readme",
+        "repository": {
+          "url": "https://github.com/LeeRolling/dsh-boot-suite"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek-harness-desktop",
+            "startup",
+            "splash",
+            "boot-animation",
+            "wallpaper",
+            "background",
+            "intro",
+            "video"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.16.13",
+            "publishTimestamp": 1794415805,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "410ddaa8a39c61250d576fc5279c952de80a0bac3caacc50947c23d56cfbfd9e",
+      "evidence": [
+        {
+          "name": "dsh-boot-suite",
+          "version": "2.16.13",
+          "tarball": "https://registry.npmjs.org/dsh-boot-suite/-/dsh-boot-suite-2.16.13.tgz",
+          "integrity": "sha512-mddweD6bbkEArz7n9vuk8xTCOoE5Orrl8E4QELy0HmVraCwPNJPvXCCmLPBwA1o3n4ddigxUtUIKJjf4DVx1Kg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-boot-suite",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LeeRolling/dsh-boot-suite",
+    "commit": "83645b8aa9e5b9d8f964dc6e29b4c66dc40f8ddd",
+    "releaseTags": 50,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:17.365Z"
+}

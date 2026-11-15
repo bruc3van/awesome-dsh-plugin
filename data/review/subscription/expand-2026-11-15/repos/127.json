@@ -1,0 +1,141 @@
+{
+  "full_name": "Yuuyuko-uu/dsh-xingxi",
+  "originalPosition": 127,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 127,
+  "batch": 1,
+  "stargazers_count": 40,
+  "startedAt": "2026-11-15T21:00:58.398Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b12f1e511f625ad1b1b385647566b915341fbba5c5de7437ff9ed9bfcba296ff",
+      "url": "https://github.com/Yuuyuko-uu/dsh-xingxi/blob/deb1d817a0691876c0169c8d8fd287395f5f7066/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-xingxi",
+          "command": "dsh plugin add dsh-xingxi",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/Yuuyuko-uu/dsh-xingxi",
+          "command": "dsh plugin add github:Yuuyuko-uu/dsh-xingxi",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-xingxi",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yuuyuko-uu/dsh-xingxi",
+        "commit": "deb1d817a0691876c0169c8d8fd287395f5f7066"
+      },
+      "manifestSha256": "767e0e51b65414fb641de8c0f488bccb9725dc09a07f31323cf2a210c9771355",
+      "manifestUrl": "https://github.com/Yuuyuko-uu/dsh-xingxi/blob/deb1d817a0691876c0169c8d8fd287395f5f7066/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-xingxi",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1794640094,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yuuyuko-uu/dsh-xingxi",
+              "commit": "deb1d817a0691876c0169c8d8fd287395f5f7066"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-xingxi",
+      "origin": "npm",
+      "name": "dsh-xingxi",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-xingxi",
+        "title": "dsh-xingxi",
+        "description": "星汐：把整理好的记忆档案连成一张看得见的星图。八章散成星群，日记排成时间星带，点一颗星看见原话。",
+        "repository": {
+          "url": "https://github.com/Yuuyuko-uu/dsh-xingxi"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "memory",
+            "memory-palace",
+            "star-map",
+            "long-term-memory",
+            "ai-companion"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1794548381,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9006064c7f44a6bb63e05b4e88c5922674fccd4e5fd3f72b74d3776905bbf06f",
+      "evidence": [
+        {
+          "name": "dsh-xingxi",
+          "version": "0.3.2",
+          "tarball": "https://registry.npmjs.org/dsh-xingxi/-/dsh-xingxi-0.3.2.tgz",
+          "integrity": "sha512-0OxvDPFguJgTEAPvbDNrGv5jH5IXubZYJ25dTHc2EyN99AtpmLGCFuu/6p89GWW9v+ZeT9HkzGT7Ge5J1ju4+A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-xingxi",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Yuuyuko-uu/dsh-xingxi",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yuuyuko-uu/dsh-xingxi",
+    "commit": "deb1d817a0691876c0169c8d8fd287395f5f7066",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:00.374Z"
+}

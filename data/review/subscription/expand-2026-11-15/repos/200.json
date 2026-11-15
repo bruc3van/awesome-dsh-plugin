@@ -1,0 +1,135 @@
+{
+  "full_name": "copylee711/dsh-office",
+  "originalPosition": 200,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "stargazers_count": 25,
+  "startedAt": "2026-11-15T21:01:31.366Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4943eb1f8313c317f309c6372d1942f7cfd5024f0ecfbc3f941341a90dab0651",
+      "url": "https://github.com/copylee711/dsh-office/blob/2069af2d6b2b2a9819321a73ea3427716b686608/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@copylee/dsh-office@latest",
+          "command": "dsh plugin --profile web add @copylee/dsh-office@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@copylee/dsh-office",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/copylee711/dsh-office",
+        "commit": "2069af2d6b2b2a9819321a73ea3427716b686608"
+      },
+      "manifestSha256": "78d1bf2da6ce80c5d1720d08bfa77a78d87052f5b5aa4cf4e695878ecf862b1d",
+      "manifestUrl": "https://github.com/copylee711/dsh-office/blob/2069af2d6b2b2a9819321a73ea3427716b686608/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@copylee/dsh-office",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1792759153,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/copylee711/dsh-office",
+              "commit": "2069af2d6b2b2a9819321a73ea3427716b686608"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@copylee/dsh-office@latest",
+      "origin": "npm",
+      "name": "@copylee/dsh-office",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@copylee/dsh-office",
+        "title": "@copylee/dsh-office",
+        "description": "DeepSeek Harness Office 插件（Windows）：AI 直接在你打开的 Word / Excel / PowerPoint 里改文档，改动实时出现在窗口中，你可以同时编辑；读结构、批量编辑、渲染成图核对、保存。",
+        "author": "copylee",
+        "homepage": "https://github.com/copylee711/dsh-office#readme",
+        "repository": {
+          "url": "https://github.com/copylee711/dsh-office"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "ai-agent",
+            "office",
+            "word",
+            "excel",
+            "powerpoint",
+            "docx",
+            "xlsx",
+            "pptx",
+            "com-automation",
+            "windows",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1792759349,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f6b4a8ba2f58753965f854371b515ff7151041e7fd5b5820e321c2e01913e506",
+      "evidence": [
+        {
+          "name": "@copylee/dsh-office",
+          "version": "1.2.0",
+          "tarball": "https://registry.npmjs.org/@copylee/dsh-office/-/dsh-office-1.2.0.tgz",
+          "integrity": "sha512-GOIKwwZ6XYnomi2IfaT9haXqncUt0k1IDyPvZFBO2RkJ0zv1gTRtltT7MWGE9aBFHYPTrASMscXF6n7n0efKhA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@copylee/dsh-office@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/copylee711/dsh-office",
+    "commit": "2069af2d6b2b2a9819321a73ea3427716b686608",
+    "releaseTags": 45,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:33.537Z"
+}

@@ -1,0 +1,152 @@
+{
+  "full_name": "YUsaltyfish/dsh-onebot-qq",
+  "originalPosition": 18,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 18,
+  "batch": 1,
+  "stargazers_count": 262,
+  "startedAt": "2026-11-15T21:00:02.927Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "952792463886b576399edb2922be56ef3598a573265c11a95b666196df059a55",
+      "url": "https://github.com/YUsaltyfish/dsh-onebot-qq/blob/a6b6a86db16e46cb68ba107fecf1620a7ef758c5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/YUsaltyfish/dsh-onebot-qq",
+          "command": "dsh plugin --profile web add github:YUsaltyfish/dsh-onebot-qq",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/YUsaltyfish/dsh-onebot-qq-opsgate",
+          "command": "dsh plugin --profile web add github:YUsaltyfish/dsh-onebot-qq-opsgate",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "9ae43e33484e96c423e5aef7e0507146d281731d3b9d552b8f3589ceb6165174",
+      "url": "https://github.com/YUsaltyfish/dsh-onebot-qq/blob/a6b6a86db16e46cb68ba107fecf1620a7ef758c5/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/YUsaltyfish/dsh-onebot-qq",
+          "command": "dsh plugin --profile web add github:YUsaltyfish/dsh-onebot-qq",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-onebot-qq",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YUsaltyfish/dsh-onebot-qq",
+        "commit": "a6b6a86db16e46cb68ba107fecf1620a7ef758c5"
+      },
+      "manifestSha256": "6588ee0365a98eda8eb7eb32071c46988c29e14879fe5ae3c46f85a91ac8e78d",
+      "manifestUrl": "https://github.com/YUsaltyfish/dsh-onebot-qq/blob/a6b6a86db16e46cb68ba107fecf1620a7ef758c5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-onebot-qq",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1794667061,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YUsaltyfish/dsh-onebot-qq",
+              "commit": "a6b6a86db16e46cb68ba107fecf1620a7ef758c5"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/YUsaltyfish/dsh-onebot-qq-opsgate",
+      "origin": "git_target",
+      "name": "dsh-onebot-qq-opsgate",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-onebot-qq-opsgate",
+        "title": "dsh-onebot-qq-opsgate",
+        "description": "Tool-scope gate for the dsh-onebot-qq preset: auto-detect all global tools and hide everything except mcp__qq__* from QQ sessions, without affecting any other DSH preset",
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "qq",
+            "onebot",
+            "tools",
+            "restrict"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1792902623,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YUsaltyfish/dsh-onebot-qq-opsgate",
+              "commit": "8d6c042a21c473ffd1e4407c1b8387f502165463"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "8d6c042a21c473ffd1e4407c1b8387f502165463",
+          "name": "dsh-onebot-qq-opsgate",
+          "version": "0.1.3",
+          "url": "https://github.com/YUsaltyfish/dsh-onebot-qq-opsgate",
+          "manifestSha256": "1f860d9eecff02a408e47b76aa6ff9290dcc4b68e95611cf2e6f8cfc5255d94c",
+          "publishTimestamp": 1792902623
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/YUsaltyfish/dsh-onebot-qq",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/YUsaltyfish/dsh-onebot-qq-opsgate",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YUsaltyfish/dsh-onebot-qq",
+    "commit": "a6b6a86db16e46cb68ba107fecf1620a7ef758c5",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:06.703Z"
+}

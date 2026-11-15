@@ -1,0 +1,142 @@
+{
+  "full_name": "SAOS-3624/dsh-see-now",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "stargazers_count": 659,
+  "startedAt": "2026-11-15T20:59:55.150Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "00490558212adcfc9d941eb7c5b9efb6c95fa1953ffed94aa5593b1a7b695fc8",
+      "url": "https://github.com/SAOS-3624/dsh-see-now/blob/0b4bd110074b3e2cd043da8b078f7272589d50b0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-see-now",
+          "command": "dsh plugin --profile web add dsh-see-now",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-see-now",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SAOS-3624/dsh-see-now",
+        "commit": "0b4bd110074b3e2cd043da8b078f7272589d50b0"
+      },
+      "manifestSha256": "365d6075086e8d80a516f91420bd8d758354b1cbc17bd6a6c8930badde7e3784",
+      "manifestUrl": "https://github.com/SAOS-3624/dsh-see-now/blob/0b4bd110074b3e2cd043da8b078f7272589d50b0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.7",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-see-now",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1794725936,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SAOS-3624/dsh-see-now",
+              "commit": "0b4bd110074b3e2cd043da8b078f7272589d50b0"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.7"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-see-now",
+      "origin": "npm",
+      "name": "dsh-see-now",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-see-now",
+        "title": {
+          "en": "See Now",
+          "zh": "看见（See Now）"
+        },
+        "description": {
+          "en": "Let the model watch your screen or camera live: keep only frames whose picture changed enough, pack them into one image, and spend almost nothing on a static screen.",
+          "zh": "让 AI 实时看见屏幕或摄像头，只保留画面变化够大的帧，压成一张图，静止画面几乎不花钱。"
+        },
+        "author": "SAOS-3624",
+        "homepage": "https://github.com/SAOS-3624/dsh-see-now#readme",
+        "repository": {
+          "url": "https://github.com/SAOS-3624/dsh-see-now"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "screen-capture",
+            "vision",
+            "llm",
+            "ffmpeg",
+            "realtime",
+            "token-efficient",
+            "multimodal"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1794285060,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.7"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d28f0bc7817f2e30ba43a63d718fc2a8b31376b2a8927c42bc9e99c29c8cb8e0",
+      "evidence": [
+        {
+          "name": "dsh-see-now",
+          "version": "0.2.2",
+          "tarball": "https://registry.npmjs.org/dsh-see-now/-/dsh-see-now-0.2.2.tgz",
+          "integrity": "sha512-cjJrhH0ifIQxTPeJks72/MfIAyd1R0UrXVj6xKJpE38s4YLE4IvNBvtkXCFa8wojvsQCj5UTxX3DNcj+cpOHcg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-see-now",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SAOS-3624/dsh-see-now",
+    "commit": "0b4bd110074b3e2cd043da8b078f7272589d50b0",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T20:59:57.539Z"
+}

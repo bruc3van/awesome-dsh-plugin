@@ -1,0 +1,62 @@
+{
+  "full_name": "aa1355721445-lgtm/dsh-image-studio",
+  "originalPosition": 189,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-11-15T21:01:26.778Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3bc1988d43b1962909e3c655e05f05760ba5136f58fc609f8bb26c439d1ad15d",
+      "url": "https://github.com/aa1355721445-lgtm/dsh-image-studio/blob/fbd8f662f29546c2574a21f8c17ae1bc68c9498a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/aa1355721445-lgtm/dsh-image-studio",
+          "command": "dsh plugin --profile desktop add https://github.com/aa1355721445-lgtm/dsh-image-studio",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-image-studio",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aa1355721445-lgtm/dsh-image-studio",
+        "commit": "fbd8f662f29546c2574a21f8c17ae1bc68c9498a"
+      },
+      "manifestSha256": "f4e18aa5cc57fb8aefedfddb213fa7f924210f1f7cb2c1d13c4aeaab987b5239",
+      "manifestUrl": "https://github.com/aa1355721445-lgtm/dsh-image-studio/blob/fbd8f662f29546c2574a21f8c17ae1bc68c9498a/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/aa1355721445-lgtm/dsh-image-studio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aa1355721445-lgtm/dsh-image-studio",
+    "commit": "fbd8f662f29546c2574a21f8c17ae1bc68c9498a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-15T21:01:28.726Z"
+}

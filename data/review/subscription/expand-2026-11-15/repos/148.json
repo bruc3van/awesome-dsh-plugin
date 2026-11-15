@@ -1,0 +1,66 @@
+{
+  "full_name": "Aliboder/dsh-music-panel",
+  "originalPosition": 148,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 148,
+  "batch": 1,
+  "stargazers_count": 31,
+  "startedAt": "2026-11-15T21:01:07.348Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "82edb8cbbcce1575724eb355c90e633d358d403c5fe449bb2796e363f6148e29",
+      "url": "https://github.com/Aliboder/dsh-music-panel/blob/70a370eb8e4a30409829eabe33533f97269aff1f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-music-panel",
+      "version": "0.35.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Aliboder/dsh-music-panel",
+        "commit": "70a370eb8e4a30409829eabe33533f97269aff1f"
+      },
+      "manifestSha256": "abef0db27dad1444b62932a7bf605ed911fdc007293f3e416b77e5fe97a18a60",
+      "manifestUrl": "https://github.com/Aliboder/dsh-music-panel/blob/70a370eb8e4a30409829eabe33533f97269aff1f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-music-panel",
+        "versions": [
+          {
+            "version": "0.35.0",
+            "publishTimestamp": 1794662066,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Aliboder/dsh-music-panel",
+              "commit": "70a370eb8e4a30409829eabe33533f97269aff1f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Aliboder/dsh-music-panel",
+    "commit": "70a370eb8e4a30409829eabe33533f97269aff1f",
+    "releaseTags": 152,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:09.550Z"
+}

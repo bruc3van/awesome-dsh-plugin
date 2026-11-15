@@ -1,0 +1,40 @@
+{
+  "full_name": "techysy/deepseek-harness-fnos",
+  "originalPosition": 65,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 65,
+  "batch": 1,
+  "stargazers_count": 90,
+  "startedAt": "2026-11-15T21:00:27.659Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9ffdecaf2a0a9ad660cc93135f05c274f738b0dcd2bebe32120a435ec4bc9a8d",
+      "url": "https://github.com/techysy/deepseek-harness-fnos/blob/e9cc0a5d7c6d795688112742900db738bc4b1710/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/techysy/deepseek-harness-fnos",
+    "commit": "e9cc0a5d7c6d795688112742900db738bc4b1710",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-15T21:00:29.689Z"
+}

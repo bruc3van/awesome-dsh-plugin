@@ -1,0 +1,69 @@
+{
+  "full_name": "regrevia/dsh-unlag",
+  "originalPosition": 95,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 95,
+  "batch": 1,
+  "stargazers_count": 55,
+  "startedAt": "2026-11-15T21:00:41.824Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c1716c923b6f5d36f33528266ea322df6ae954f48e8d4397b05ebc7c8a46db73",
+      "url": "https://github.com/regrevia/dsh-unlag/blob/f013115817afeb46e03665830a032c02dd4df832/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-unlag",
+      "version": "1.17.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/regrevia/dsh-unlag",
+        "commit": "f013115817afeb46e03665830a032c02dd4df832"
+      },
+      "manifestSha256": "6828679c3e32b26d2f6f702d7db81012685dc24e48263bbf83e81925b6181bf3",
+      "manifestUrl": "https://github.com/regrevia/dsh-unlag/blob/f013115817afeb46e03665830a032c02dd4df832/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-unlag",
+        "versions": [
+          {
+            "version": "1.17.5",
+            "publishTimestamp": 1794019703,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/regrevia/dsh-unlag",
+              "commit": "f013115817afeb46e03665830a032c02dd4df832"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/regrevia/dsh-unlag",
+    "commit": "f013115817afeb46e03665830a032c02dd4df832",
+    "releaseTags": 184,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:43.887Z"
+}

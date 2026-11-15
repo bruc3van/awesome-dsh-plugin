@@ -1,0 +1,106 @@
+{
+  "full_name": "01men/ybkkasi",
+  "originalPosition": 48,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 48,
+  "batch": 1,
+  "stargazers_count": 104,
+  "startedAt": "2026-11-15T21:00:19.796Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1adc43afa7923235a6eb314109d398ad876a7fdedb2db1d716a85b9ecd3daefc",
+      "url": "https://github.com/01men/ybkkasi/blob/351aca9b8ee56a87b8e7e999c9fc0da2640349c2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/01men/ybkkasi",
+          "command": "dsh plugin --profile web add github:01men/ybkkasi",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.agent.md",
+      "sha256": "78028422a10c06a18bab1651ef0b3376e6a8dc95247daba9c00ccb623582f468",
+      "url": "https://github.com/01men/ybkkasi/blob/351aca9b8ee56a87b8e7e999c9fc0da2640349c2/README.agent.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/i18n/README.md",
+      "sha256": "5847c611ee201f4dd6f5e84acd12838c00faba8cb971bc29b4333830a3b3fcd5",
+      "url": "https://github.com/01men/ybkkasi/blob/351aca9b8ee56a87b8e7e999c9fc0da2640349c2/docs/i18n/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/i18n/en/README.md",
+      "sha256": "5136c137bc5f52a307a5e09d3bedee5f08588bcfd5d5ec7cfa26da504a5889d0",
+      "url": "https://github.com/01men/ybkkasi/blob/351aca9b8ee56a87b8e7e999c9fc0da2640349c2/docs/i18n/en/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/01men/ybkkasi",
+          "command": "dsh plugin --profile web add github:01men/ybkkasi",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/i18n/ja/README.md",
+      "sha256": "501d79bfd19917370f57173b8b32032bdc2888bdbd5138204817477cc48953ec",
+      "url": "https://github.com/01men/ybkkasi/blob/351aca9b8ee56a87b8e7e999c9fc0da2640349c2/docs/i18n/ja/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/01men/ybkkasi",
+          "command": "dsh plugin --profile web add github:01men/ybkkasi",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-enterprise-ops",
+      "version": "1.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/01men/ybkkasi",
+        "commit": "351aca9b8ee56a87b8e7e999c9fc0da2640349c2"
+      },
+      "manifestSha256": "2a334f1d8b54de2d7ca66772addd96390665b3ba69c366b2d3ac8c5c93ae09a3",
+      "manifestUrl": "https://github.com/01men/ybkkasi/blob/351aca9b8ee56a87b8e7e999c9fc0da2640349c2/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/01men/ybkkasi",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/01men/ybkkasi",
+    "commit": "351aca9b8ee56a87b8e7e999c9fc0da2640349c2",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-15T21:00:23.696Z"
+}

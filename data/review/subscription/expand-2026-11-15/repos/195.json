@@ -1,0 +1,200 @@
+{
+  "full_name": "KurosawaGeeker/dsh-moe-lite",
+  "originalPosition": 195,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 195,
+  "batch": 1,
+  "stargazers_count": 25,
+  "startedAt": "2026-11-15T21:01:28.726Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fb49e09767f1e834dc50e62ed209936976b9206e6480d7aad99e14cef66c390f",
+      "url": "https://github.com/KurosawaGeeker/dsh-moe-lite/blob/2f36552256553319c3ff2687df5c497be73eba81/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/KurosawaGeeker/dsh-moe-lite",
+          "command": "dsh plugin --profile web add 'github:KurosawaGeeker/dsh-moe-lite'",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-moe-clean",
+          "command": "dsh plugin --profile desktop add dsh-moe-clean",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-moe-clean@0.15.3",
+          "command": "dsh plugin --profile desktop add dsh-moe-clean@0.15.3",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-moe-clean",
+      "version": "0.15.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KurosawaGeeker/dsh-moe-lite",
+        "commit": "2f36552256553319c3ff2687df5c497be73eba81"
+      },
+      "manifestSha256": "d6ee550e0208c3d5650e3b0618ffcb5e65c406273d2e8d5bc7cae4e50d189e76",
+      "manifestUrl": "https://github.com/KurosawaGeeker/dsh-moe-lite/blob/2f36552256553319c3ff2687df5c497be73eba81/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-moe-clean",
+        "versions": [
+          {
+            "version": "0.15.3",
+            "publishTimestamp": 1794242446,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KurosawaGeeker/dsh-moe-lite",
+              "commit": "2f36552256553319c3ff2687df5c497be73eba81"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-moe-clean",
+      "origin": "npm",
+      "name": "dsh-moe-clean",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-moe-clean",
+        "title": "dsh-moe-clean",
+        "description": "Lightweight blue-white glass theme for DeepSeek Harness: muted whale-maid artwork, frosted panels, custom new-session and plugin icons.",
+        "author": "KurosawaGeeker",
+        "homepage": "https://github.com/KurosawaGeeker/dsh-moe-lite#readme",
+        "repository": {
+          "url": "https://github.com/KurosawaGeeker/dsh-moe-lite"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "theme",
+            "skin",
+            "glassmorphism",
+            "whale",
+            "light-theme",
+            "css"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.15.3",
+            "publishTimestamp": 1792592583,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "40d1e25dbfc2b65ad05decdc02a2b49c8b0ad48d28a64321eca8df67858a90d5",
+      "evidence": [
+        {
+          "name": "dsh-moe-clean",
+          "version": "0.15.3",
+          "tarball": "https://registry.npmjs.org/dsh-moe-clean/-/dsh-moe-clean-0.15.3.tgz",
+          "integrity": "sha512-GPUtGGnOkXCYO7dgQ6wTQGICTyTyEdmYE3n6C8pVdfGFYTH6kfW9FU4UaTp/SeK2u91iHxgBbt0MwKqeeg0HGw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-moe-clean@0.15.3",
+      "origin": "npm",
+      "name": "dsh-moe-clean",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-moe-clean",
+        "title": "dsh-moe-clean",
+        "description": "Lightweight blue-white glass theme for DeepSeek Harness: muted whale-maid artwork, frosted panels, custom new-session and plugin icons.",
+        "author": "KurosawaGeeker",
+        "homepage": "https://github.com/KurosawaGeeker/dsh-moe-lite#readme",
+        "repository": {
+          "url": "https://github.com/KurosawaGeeker/dsh-moe-lite"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "theme",
+            "skin",
+            "glassmorphism",
+            "whale",
+            "light-theme",
+            "css"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.15.3",
+            "publishTimestamp": 1792592583,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "40d1e25dbfc2b65ad05decdc02a2b49c8b0ad48d28a64321eca8df67858a90d5",
+      "evidence": [
+        {
+          "name": "dsh-moe-clean",
+          "version": "0.15.3",
+          "tarball": "https://registry.npmjs.org/dsh-moe-clean/-/dsh-moe-clean-0.15.3.tgz",
+          "integrity": "sha512-GPUtGGnOkXCYO7dgQ6wTQGICTyTyEdmYE3n6C8pVdfGFYTH6kfW9FU4UaTp/SeK2u91iHxgBbt0MwKqeeg0HGw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/KurosawaGeeker/dsh-moe-lite",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-moe-clean",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-moe-clean@0.15.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KurosawaGeeker/dsh-moe-lite",
+    "commit": "2f36552256553319c3ff2687df5c497be73eba81",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:30.921Z"
+}

@@ -1,0 +1,97 @@
+{
+  "full_name": "xiaoxiao150/vram-switcher",
+  "originalPosition": 77,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 77,
+  "batch": 1,
+  "stargazers_count": 70,
+  "startedAt": "2026-11-15T21:00:32.443Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "65890f091eda0fcc7285e3e8b8824942e3726d714cb5f2176723cc6e426c7abb",
+      "url": "https://github.com/xiaoxiao150/vram-switcher/blob/25effaccc98f8e33ad16bce2242bb802db0e4555/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xiaoxiao150/vram-switcher",
+          "command": "dsh plugin --profile web add github:xiaoxiao150/vram-switcher",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "8aed687ec98e81bbb9bbac0eea0aef5a4b1944df4be3856ac278f0865acd753b",
+      "url": "https://github.com/xiaoxiao150/vram-switcher/blob/25effaccc98f8e33ad16bce2242bb802db0e4555/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh/README.md",
+      "sha256": "6318a871559c4b2f890894daa28ed7b40a8a8ab8c119f5044768b55e48b803c4",
+      "url": "https://github.com/xiaoxiao150/vram-switcher/blob/25effaccc98f8e33ad16bce2242bb802db0e4555/dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vram-switcher",
+      "version": "2.0.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaoxiao150/vram-switcher",
+        "commit": "25effaccc98f8e33ad16bce2242bb802db0e4555"
+      },
+      "manifestSha256": "595a84de19d88ece0fb51da9f9cd6e098db80efcd29c9b99040af221e51b3652",
+      "manifestUrl": "https://github.com/xiaoxiao150/vram-switcher/blob/25effaccc98f8e33ad16bce2242bb802db0e4555/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 || >=0.2.1-rc.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-vram-switcher",
+        "versions": [
+          {
+            "version": "2.0.5",
+            "publishTimestamp": 1793284093,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiaoxiao150/vram-switcher",
+              "commit": "25effaccc98f8e33ad16bce2242bb802db0e4555"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xiaoxiao150/vram-switcher",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaoxiao150/vram-switcher",
+    "commit": "25effaccc98f8e33ad16bce2242bb802db0e4555",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:35.315Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "blueziii/dsh-mc-agent",
+  "originalPosition": 138,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 138,
+  "batch": 1,
+  "stargazers_count": 35,
+  "startedAt": "2026-11-15T21:01:03.140Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "572ce391b72fa861bc485ae6f0d86df3b0178f473dc4360826dd3ea45ae5b43b",
+      "url": "https://github.com/blueziii/dsh-mc-agent/blob/af7ea21d203e3d975b3e7a99152a35561e813e1a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mc-agent",
+      "version": "0.6.78",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/blueziii/dsh-mc-agent",
+        "commit": "af7ea21d203e3d975b3e7a99152a35561e813e1a"
+      },
+      "manifestSha256": "11e2483ea236817131ec34906ff7521a7d1794c3ea7451858e35254f8d0d961d",
+      "manifestUrl": "https://github.com/blueziii/dsh-mc-agent/blob/af7ea21d203e3d975b3e7a99152a35561e813e1a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-mc-agent",
+        "versions": [
+          {
+            "version": "0.6.78",
+            "publishTimestamp": 1793876462,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/blueziii/dsh-mc-agent",
+              "commit": "af7ea21d203e3d975b3e7a99152a35561e813e1a"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/blueziii/dsh-mc-agent",
+    "commit": "af7ea21d203e3d975b3e7a99152a35561e813e1a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:05.277Z"
+}

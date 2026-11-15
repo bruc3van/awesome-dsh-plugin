@@ -1,0 +1,160 @@
+{
+  "full_name": "xcw520/dsh-dania-voice",
+  "originalPosition": 158,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 158,
+  "batch": 1,
+  "stargazers_count": 30,
+  "startedAt": "2026-11-15T21:01:11.912Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2e35b54ec1736c6b756cf915f24bf7a32595970955f9a1b3b0a46dd7fd9bc3ca",
+      "url": "https://github.com/xcw520/dsh-dania-voice/blob/14f69881305c60de6b77e487706b800029e293da/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-dania-voice",
+          "command": "dsh plugin --profile web add dsh-dania-voice",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "12be160f28532008474e3244d5324bc82f7c4d6634c6deb03f454df913f7f986",
+      "url": "https://github.com/xcw520/dsh-dania-voice/blob/14f69881305c60de6b77e487706b800029e293da/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-dania-voice",
+          "command": "dsh plugin --profile web add dsh-dania-voice",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-dania-voice",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xcw520/dsh-dania-voice",
+        "commit": "14f69881305c60de6b77e487706b800029e293da"
+      },
+      "manifestSha256": "9f344cdbd17803655c7592d3348d0ff27a4dc94e2e9eb11611ad5f2c449ee64e",
+      "manifestUrl": "https://github.com/xcw520/dsh-dania-voice/blob/14f69881305c60de6b77e487706b800029e293da/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-dania-voice",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1792922923,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xcw520/dsh-dania-voice",
+              "commit": "14f69881305c60de6b77e487706b800029e293da"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-dania-voice",
+      "origin": "npm",
+      "name": "dsh-dania-voice",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-dania-voice",
+        "title": "dsh-dania-voice",
+        "description": "达妮娅（鸣潮）语音朗读 — 用本地 GPT-SoVITS 把助手回复读出来，带一个可拖动的小挂件开关。 / Local GPT-SoVITS voice for DSH: reads assistant replies aloud with a draggable mascot toggle.",
+        "author": "夜游人",
+        "homepage": "https://github.com/xcw520/dsh-dania-voice#readme",
+        "repository": {
+          "url": "https://github.com/xcw520/dsh-dania-voice"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "tts",
+            "voice",
+            "gpt-sovits",
+            "wuthering-waves",
+            "dania"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792323326,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3619d547051dc5726133e612c53fa69860b1e16eafc07a8d00c8e55c71aeea3d",
+      "evidence": [
+        {
+          "name": "dsh-dania-voice",
+          "version": "1.0.0",
+          "tarball": "https://registry.npmjs.org/dsh-dania-voice/-/dsh-dania-voice-1.0.0.tgz",
+          "integrity": "sha512-lDJ1iNPyzKRTKJDXLFTnWQAVYdPcnTfSpJFBsUagcfuHQfLG4wInRjpdkqz+STyxvVLIopL3N2h0lp6HsQF/iA=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-dania-voice",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "9a9b99feb31f6b84e742dfebf62fbbf27525683f8b728262fe6eff63a758c9bb",
+          "outputSha256": "01230ded314ec3ac47a9d75a881b85375fb4ac289b209a65f0844d16fd2802e8",
+          "inputBytes": 239690,
+          "outputBytes": 6884
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dania-voice",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xcw520/dsh-dania-voice",
+    "commit": "14f69881305c60de6b77e487706b800029e293da",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:14.398Z"
+}

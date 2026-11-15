@@ -1,0 +1,254 @@
+{
+  "full_name": "Anlerway/dsh-session-navigator",
+  "originalPosition": 183,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 183,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-11-15T21:01:24.110Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "12810e6a03c3928543ecb6fb5c8e2f19e208a756a18daeb85cc2eca534b3574d",
+      "url": "https://github.com/Anlerway/dsh-session-navigator/blob/f0c246350082da0ef4dde8f6e533a6c14c977a85/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-session-navigator",
+          "command": "dsh plugin --profile web add dsh-session-navigator",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-session-navigator",
+          "command": "dsh plugin --profile desktop add dsh-session-navigator",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Anlerway/dsh-session-navigator",
+          "command": "dsh plugin --profile web add github:Anlerway/dsh-session-navigator",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Anlerway/dsh-session-navigator",
+          "command": "dsh plugin --profile desktop add github:Anlerway/dsh-session-navigator",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-session-navigator@latest",
+          "command": "dsh plugin --profile web add dsh-session-navigator@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "6f73a72689d3ab3234e9e50e5052705db5622de397f35eefeaaadfe02b4c92ae",
+      "url": "https://github.com/Anlerway/dsh-session-navigator/blob/f0c246350082da0ef4dde8f6e533a6c14c977a85/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-navigator",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Anlerway/dsh-session-navigator",
+        "commit": "f0c246350082da0ef4dde8f6e533a6c14c977a85"
+      },
+      "manifestSha256": "9f4feb4423a7b638dc6acc538a529a55b566ead192e7bd8c5e31aaa3dbc0fc43",
+      "manifestUrl": "https://github.com/Anlerway/dsh-session-navigator/blob/f0c246350082da0ef4dde8f6e533a6c14c977a85/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-session-navigator",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1794232795,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Anlerway/dsh-session-navigator",
+              "commit": "f0c246350082da0ef4dde8f6e533a6c14c977a85"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-session-navigator",
+      "origin": "npm",
+      "name": "dsh-session-navigator",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-session-navigator",
+        "title": {
+          "en": "Session Navigator",
+          "de": "Session Navigator",
+          "es": "Navegador de sesiones",
+          "fr": "Navigateur de sessions",
+          "ja": "セッションナビゲーター",
+          "ko": "세션 내비게이터",
+          "pt": "Navegador de sessões",
+          "ru": "Навигатор сессий",
+          "zh-hant": "會話資源管理器",
+          "zh": "会话资源管理器"
+        },
+        "description": {
+          "en": "Virtual folders, tags, notes, trash and multi-workspace session browsing.",
+          "de": "Virtuelle Ordner, Tags, Notizen, Papierkorb und Sitzungsansicht über Arbeitsbereiche hinweg.",
+          "es": "Carpetas virtuales, etiquetas, notas, papelera y navegación de sesiones entre espacios de trabajo.",
+          "fr": "Dossiers virtuels, étiquettes, notes, corbeille et navigation des sessions entre espaces de travail.",
+          "ja": "仮想フォルダ、タグ、メモ、ゴミ箱、そしてワークスペースをまたぐセッション閲覧。",
+          "ko": "가상 폴더, 태그, 메모, 휴지통, 워크스페이스를 넘나드는 세션 탐색.",
+          "pt": "Pastas virtuais, etiquetas, notas, lixeira e navegação de sessões entre espaços de trabalho.",
+          "ru": "Виртуальные папки, метки, заметки, корзина и просмотр сессий во всех рабочих пространствах.",
+          "zh-hant": "虛擬資料夾、標籤、備註、回收筒，以及跨工作區的會話瀏覽。",
+          "zh": "虚拟文件夹、标签、备注、回收站，以及跨工作区的会话浏览。"
+        },
+        "repository": {
+          "url": "https://github.com/Anlerway/dsh-session-navigator"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "session",
+            "navigator",
+            "explorer"
+          ]
+        },
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAACzUlEQVR42u3csZHCMBRFUemP+yOkESIKcEQjhC6GCijEhJAxw8AY651Twa7Qv0hml9YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCv9b3+4Ofrunr5WpuPvVsFIgJg6MWAwAAYfCHgN8rwj8eaMUQAbGRrR2gAbGBrSGgAbFxrSWgAbFhrSmgAbFRrS2gAbFBrjCsAkBYA70zWGicAQACAmAA4klpznAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQABAAQASDON+Evd7l7Ydw4XXwz6ieXUuwAYeoRziBhMhh5yYzAZfPheDPYWgjL8kPtspQw/5EZgMviQeyUoww+5p4Ey/JAbgTL8kBsBfwoMzf8CePeHwFNAGX7IjcDmAZiPz49JDD8i4AoApAXAuz9OAaEBeL0GAK4AQEoAfDsNrgFOAIAAADEBcPzHNcAJABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAGCwACyn3r0MpNp6/zsBgBMAIACuARC1750AwAkAEADXAIja704A4ASgipC4z8viQO7+LosEufvaMwDwDEAtIXE/l0WD3H1cFg9y9++uhutwWVdbCoMf+hDQaQD7NPxTABHA/gy9ArgSYPAFQAww9AIgBhh6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAj2ACfiwb+Q2qZQAAAAAElFTkSuQmCC",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1794231455,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "699b588ec5bd05ae90a2a6a20d74cac0a07403b23323cc58adf06dc27eb8b58b",
+      "evidence": [
+        {
+          "name": "dsh-session-navigator",
+          "version": "1.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-session-navigator/-/dsh-session-navigator-1.2.0.tgz",
+          "integrity": "sha512-o4C66nYwOhp9W4tVOxmbMwVx6So1Y4uw0Ooosm1vrMmO2OMMIrO3Cq8i3gERwVwNONunN6TFK/ZQL+38ukWmsw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-session-navigator@latest",
+      "origin": "npm",
+      "name": "dsh-session-navigator",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-session-navigator",
+        "title": {
+          "en": "Session Navigator",
+          "de": "Session Navigator",
+          "es": "Navegador de sesiones",
+          "fr": "Navigateur de sessions",
+          "ja": "セッションナビゲーター",
+          "ko": "세션 내비게이터",
+          "pt": "Navegador de sessões",
+          "ru": "Навигатор сессий",
+          "zh-hant": "會話資源管理器",
+          "zh": "会话资源管理器"
+        },
+        "description": {
+          "en": "Virtual folders, tags, notes, trash and multi-workspace session browsing.",
+          "de": "Virtuelle Ordner, Tags, Notizen, Papierkorb und Sitzungsansicht über Arbeitsbereiche hinweg.",
+          "es": "Carpetas virtuales, etiquetas, notas, papelera y navegación de sesiones entre espacios de trabajo.",
+          "fr": "Dossiers virtuels, étiquettes, notes, corbeille et navigation des sessions entre espaces de travail.",
+          "ja": "仮想フォルダ、タグ、メモ、ゴミ箱、そしてワークスペースをまたぐセッション閲覧。",
+          "ko": "가상 폴더, 태그, 메모, 휴지통, 워크스페이스를 넘나드는 세션 탐색.",
+          "pt": "Pastas virtuais, etiquetas, notas, lixeira e navegação de sessões entre espaços de trabalho.",
+          "ru": "Виртуальные папки, метки, заметки, корзина и просмотр сессий во всех рабочих пространствах.",
+          "zh-hant": "虛擬資料夾、標籤、備註、回收筒，以及跨工作區的會話瀏覽。",
+          "zh": "虚拟文件夹、标签、备注、回收站，以及跨工作区的会话浏览。"
+        },
+        "repository": {
+          "url": "https://github.com/Anlerway/dsh-session-navigator"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "session",
+            "navigator",
+            "explorer"
+          ]
+        },
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAACzUlEQVR42u3csZHCMBRFUemP+yOkESIKcEQjhC6GCijEhJAxw8AY651Twa7Qv0hml9YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCv9b3+4Ofrunr5WpuPvVsFIgJg6MWAwAAYfCHgN8rwj8eaMUQAbGRrR2gAbGBrSGgAbFxrSWgAbFhrSmgAbFRrS2gAbFBrjCsAkBYA70zWGicAQACAmAA4klpznAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQABAAQASDON+Evd7l7Ydw4XXwz6ieXUuwAYeoRziBhMhh5yYzAZfPheDPYWgjL8kPtspQw/5EZgMviQeyUoww+5p4Ey/JAbgTL8kBsBfwoMzf8CePeHwFNAGX7IjcDmAZiPz49JDD8i4AoApAXAuz9OAaEBeL0GAK4AQEoAfDsNrgFOAIAAADEBcPzHNcAJABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAQAAAAQAEABAAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAEAAAAEABAAQAGCwACyn3r0MpNp6/zsBgBMAIACuARC1750AwAkAEADXAIja704A4ASgipC4z8viQO7+LosEufvaMwDwDEAtIXE/l0WD3H1cFg9y9++uhutwWVdbCoMf+hDQaQD7NPxTABHA/gy9ArgSYPAFQAww9AIgBhh6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAj2ACfiwb+Q2qZQAAAAAElFTkSuQmCC",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1794231455,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "699b588ec5bd05ae90a2a6a20d74cac0a07403b23323cc58adf06dc27eb8b58b",
+      "evidence": [
+        {
+          "name": "dsh-session-navigator",
+          "version": "1.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-session-navigator/-/dsh-session-navigator-1.2.0.tgz",
+          "integrity": "sha512-o4C66nYwOhp9W4tVOxmbMwVx6So1Y4uw0Ooosm1vrMmO2OMMIrO3Cq8i3gERwVwNONunN6TFK/ZQL+38ukWmsw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-session-navigator",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Anlerway/dsh-session-navigator",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-session-navigator@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Anlerway/dsh-session-navigator",
+    "commit": "f0c246350082da0ef4dde8f6e533a6c14c977a85",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:26.777Z"
+}

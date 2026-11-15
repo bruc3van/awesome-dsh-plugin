@@ -1,0 +1,121 @@
+{
+  "full_name": "poco-ai/agentero-dsh-plugin",
+  "originalPosition": 25,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 25,
+  "batch": 1,
+  "stargazers_count": 227,
+  "startedAt": "2026-11-15T21:00:06.401Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5036b3719ac324bf48a7ad0f487310f4bedfd4cd2c00c5678075fbc0133357a8",
+      "url": "https://github.com/poco-ai/agentero-dsh-plugin/blob/b3a6f08f09bfcf6fc8372b611163e64ff4b3e9d3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "agentero-dsh",
+          "command": "dsh plugin --profile web add agentero-dsh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "agentero-dsh",
+      "version": "0.1.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/poco-ai/agentero-dsh-plugin",
+        "commit": "b3a6f08f09bfcf6fc8372b611163e64ff4b3e9d3"
+      },
+      "manifestSha256": "da41c499250612b7b3a4061351d7b1ddbf379eae7bcdbc5a7ea387aab2fed030",
+      "manifestUrl": "https://github.com/poco-ai/agentero-dsh-plugin/blob/b3a6f08f09bfcf6fc8372b611163e64ff4b3e9d3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "agentero-dsh",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1794452359,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/poco-ai/agentero-dsh-plugin",
+              "commit": "b3a6f08f09bfcf6fc8372b611163e64ff4b3e9d3"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "agentero-dsh",
+      "origin": "npm",
+      "name": "agentero-dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "agentero-dsh",
+        "title": "agentero-dsh",
+        "description": "DeepSeek Harness bundle that connects Agentero to dsh",
+        "homepage": "https://github.com/poco-ai/Agentero",
+        "repository": {
+          "url": "https://github.com/poco-ai/agentero-dsh-plugin"
+        },
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1794452509,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a5b05269b4200a4a897d9ae49af6151b4bbf7a7db87b91d66f0a0d994c11dd08",
+      "evidence": [
+        {
+          "name": "agentero-dsh",
+          "version": "0.1.8",
+          "tarball": "https://registry.npmjs.org/agentero-dsh/-/agentero-dsh-0.1.8.tgz",
+          "integrity": "sha512-l2R5SS7g2zX6ZuWBi6qWmD8GeFIuTpvHMwLOSc3Drz1FecSSCy0dN9W/LiTR5shnrps+mLLKoQ890hK5NQSMWg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "agentero-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/poco-ai/agentero-dsh-plugin",
+    "commit": "b3a6f08f09bfcf6fc8372b611163e64ff4b3e9d3",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:08.518Z"
+}

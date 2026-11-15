@@ -1,0 +1,131 @@
+{
+  "full_name": "Wahwayhale/dsh-connect-doubao",
+  "originalPosition": 188,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-11-15T21:01:26.352Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "749570348ff1c3b26358e88a8c3278f3fccf5142e204c66d71b6d1c1b2f0f553",
+      "url": "https://github.com/Wahwayhale/dsh-connect-doubao/blob/58bcc89710f9cbe7192db43462bc02e6c6cc86e8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-connect-doubao",
+          "command": "dsh plugin --profile desktop add dsh-connect-doubao",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-connect-doubao",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Wahwayhale/dsh-connect-doubao",
+        "commit": "58bcc89710f9cbe7192db43462bc02e6c6cc86e8"
+      },
+      "manifestSha256": "1dd88be323bc32dd5a4453d2d7672955e8b0616957d0aebec1a7440cb7586ea2",
+      "manifestUrl": "https://github.com/Wahwayhale/dsh-connect-doubao/blob/58bcc89710f9cbe7192db43462bc02e6c6cc86e8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-connect-doubao",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1794624696,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Wahwayhale/dsh-connect-doubao",
+              "commit": "58bcc89710f9cbe7192db43462bc02e6c6cc86e8"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-connect-doubao",
+      "origin": "npm",
+      "name": "dsh-connect-doubao",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-connect-doubao",
+        "title": "dsh-connect-doubao",
+        "description": "把豆包（Doubao）账号接入 DeepSeek Harness：实时发现线上菜单模型、对话框直接展示计费倍率与对比、完整思考链（CoT）推理透传、「工作任务」模型（走会员付费额度）、Seedream 生图，以及原生 Token 用量/会话统计与实时额度看板。只需浏览器扫码登录一次；仅 Windows x64，会话用 DPAPI 密封在本机。",
+        "homepage": "https://github.com/Wahwayhale/dsh-connect-doubao#readme",
+        "repository": {
+          "url": "https://github.com/Wahwayhale/dsh-connect-doubao"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "doubao",
+            "seed",
+            "model-provider",
+            "quota"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1794624997,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9327cfa4b774fbca7236f1e55293a60b91bee33fd6a35610deefa16a84d092ab",
+      "evidence": [
+        {
+          "name": "dsh-connect-doubao",
+          "version": "0.7.1",
+          "tarball": "https://registry.npmjs.org/dsh-connect-doubao/-/dsh-connect-doubao-0.7.1.tgz",
+          "integrity": "sha512-tQPezxf/aqSEOVDe4mDWmBNKvnrLHcCYO9CWvdA+SC1vJYOzfjeOmjMVkiRlW6nAAJ6jljTtnZB/UpBll3rOWA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-connect-doubao",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Wahwayhale/dsh-connect-doubao",
+    "commit": "58bcc89710f9cbe7192db43462bc02e6c6cc86e8",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:28.526Z"
+}

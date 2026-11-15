@@ -1,0 +1,143 @@
+{
+  "full_name": "cloudoyx/any-audio",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 35,
+  "startedAt": "2026-11-15T21:01:03.509Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b51e6a77ffb0f47d1fda8a3fc46b9f5e18fa7f1ff879eeda72c88b50b8456b29",
+      "url": "https://github.com/cloudoyx/any-audio/blob/230c5472dc5729faf3dd3babeed27949ea56517b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-any-audio",
+          "command": "dsh plugin --profile desktop add dsh-any-audio",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "dd44b2c8e001fde32a766fca2f38f071c7fee15e6c2a2b0a90562590d3021fb7",
+      "url": "https://github.com/cloudoyx/any-audio/blob/230c5472dc5729faf3dd3babeed27949ea56517b/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-any-audio",
+          "command": "dsh plugin --profile desktop add dsh-any-audio",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-any-audio",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cloudoyx/any-audio",
+        "commit": "230c5472dc5729faf3dd3babeed27949ea56517b"
+      },
+      "manifestSha256": "673a59d76d1b726c8cc820678681a459364779b29ddcae6d70cc1c27fceebf97",
+      "manifestUrl": "https://github.com/cloudoyx/any-audio/blob/230c5472dc5729faf3dd3babeed27949ea56517b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-any-audio",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794679576,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/cloudoyx/any-audio",
+              "commit": "230c5472dc5729faf3dd3babeed27949ea56517b"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-any-audio",
+      "origin": "npm",
+      "name": "dsh-any-audio",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-any-audio",
+        "title": "dsh-any-audio",
+        "description": "An agent audio studio for DeepSeek Harness: compose, narrate, add effects, mix, fine-tune every track on a timeline.",
+        "homepage": "https://github.com/cloudoyx/any-audio#readme",
+        "repository": {
+          "url": "https://github.com/cloudoyx/any-audio"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "audio",
+            "music",
+            "soundfont",
+            "sound-effects",
+            "tts",
+            "narration",
+            "mixing",
+            "video"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794680288,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5a59f69d99cc70602574dfe5dab949a993c798507e8aba380277b44f32eb5438",
+      "evidence": [
+        {
+          "name": "dsh-any-audio",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-any-audio/-/dsh-any-audio-0.3.0.tgz",
+          "integrity": "sha512-A3aOr1g7gwHnRHPZEcOdy5fcH/Cgoq/hiWqxgXPQyD8/amywg9UNUuvzfqqgRemW/nL/TFHRDLtiRRePScKpFQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-any-audio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cloudoyx/any-audio",
+    "commit": "230c5472dc5729faf3dd3babeed27949ea56517b",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:06.152Z"
+}

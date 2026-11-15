@@ -1,0 +1,265 @@
+{
+  "full_name": "Mt-Youya/dsh-plugins",
+  "originalPosition": 34,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 34,
+  "batch": 1,
+  "stargazers_count": 156,
+  "startedAt": "2026-11-15T21:00:12.949Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a4eb92da3a78c1187760d397d9c28e666e502094502f33aeab13a66fc0284bae",
+      "url": "https://github.com/Mt-Youya/dsh-plugins/blob/c79a71d8838ea720248ab6f682832b6b9fed58dc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cyrusdoyle/dsh-plugins",
+          "command": "dsh plugin --profile desktop add @cyrusdoyle/dsh-plugins",
+          "profile": "desktop"
+        },
+        {
+          "install": "@cyrusdoyle/dsh-plugins",
+          "command": "dsh plugin --profile web add @cyrusdoyle/dsh-plugins",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Mt-Youya/dsh-plugins#path:/plugins/sessions-insight",
+          "command": "dsh plugin --profile desktop add github:Mt-Youya/dsh-plugins#path:/plugins/sessions-insight",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "5832fa790fd880f60f374850269496c0237cf8f47a548ef02ba1cb252a3b734c",
+      "url": "https://github.com/Mt-Youya/dsh-plugins/blob/c79a71d8838ea720248ab6f682832b6b9fed58dc/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cyrusdoyle/dsh-plugins",
+          "command": "dsh plugin --profile desktop add @cyrusdoyle/dsh-plugins",
+          "profile": "desktop"
+        },
+        {
+          "install": "@cyrusdoyle/dsh-plugins",
+          "command": "dsh plugin --profile web add @cyrusdoyle/dsh-plugins",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Mt-Youya/dsh-plugins#path:/plugins/sessions-insight",
+          "command": "dsh plugin --profile desktop add github:Mt-Youya/dsh-plugins#path:/plugins/sessions-insight",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "plugins/sessions-insight/README.md",
+      "sha256": "e67367af969fa9729ea748bb373e61e63ca21bf840a106f75f5f729644fed3f6",
+      "url": "https://github.com/Mt-Youya/dsh-plugins/blob/c79a71d8838ea720248ab6f682832b6b9fed58dc/plugins/sessions-insight/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Mt-Youya/dsh-plugins#path:/plugins/sessions-insight",
+          "command": "dsh plugin --profile <name> add github:Mt-Youya/dsh-plugins#path:/plugins/sessions-insight",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "plugins/sessions-insight/README.zh.md",
+      "sha256": "fd4702e8c3925926b456850d194895acdafc27d342b30316d5b45982f543eca7",
+      "url": "https://github.com/Mt-Youya/dsh-plugins/blob/c79a71d8838ea720248ab6f682832b6b9fed58dc/plugins/sessions-insight/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Mt-Youya/dsh-plugins#path:/plugins/sessions-insight",
+          "command": "dsh plugin --profile <name> add github:Mt-Youya/dsh-plugins#path:/plugins/sessions-insight",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@cyrusdoyle/dsh-plugins",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mt-Youya/dsh-plugins",
+        "commit": "c79a71d8838ea720248ab6f682832b6b9fed58dc"
+      },
+      "manifestSha256": "00c36ff37e668a3df6ff8638b73e80b370362a4c521d65159bc954c9cacc6845",
+      "manifestUrl": "https://github.com/Mt-Youya/dsh-plugins/blob/c79a71d8838ea720248ab6f682832b6b9fed58dc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@cyrusdoyle/dsh-plugins",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793972632,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Mt-Youya/dsh-plugins",
+              "commit": "c79a71d8838ea720248ab6f682832b6b9fed58dc"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@cyrusdoyle/dsh-plugins",
+      "origin": "npm",
+      "name": "@cyrusdoyle/dsh-plugins",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@cyrusdoyle/dsh-plugins",
+        "title": {
+          "en": "Cyrus Plugins",
+          "zh": "Cyrus 插件集"
+        },
+        "description": {
+          "en": "A collection of read-only observability plugins for DeepSeek Harness. Currently ships Sessions Insight: see what each turn of a Claude Code, DSH or Codex session actually fed the model.",
+          "zh": "给 DeepSeek Harness 用的只读观测插件合集。目前包含「会话洞察」：把 Claude Code / DSH / Codex 三源会话每一轮实际喂给模型的上下文拆开看。"
+        },
+        "author": "Cyrus Doyle",
+        "homepage": "https://github.com/Mt-Youya/dsh-plugins",
+        "repository": {
+          "url": "https://github.com/Mt-Youya/dsh-plugins"
+        },
+        "metadata": {
+          "keywords": [
+            "chatgpt",
+            "claude",
+            "codex",
+            "deepseek",
+            "deepseek-harness",
+            "deepseek-plugin",
+            "dsh",
+            "dsh-plugin",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793972759,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f28b5c055b1435fa2818962f40d45500b22df231e92f2fd78c0415c2584f49f7",
+      "evidence": [
+        {
+          "name": "@cyrusdoyle/dsh-plugins",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/@cyrusdoyle/dsh-plugins/-/dsh-plugins-0.1.1.tgz",
+          "integrity": "sha512-yuFMCtCsYYAs4LuZVp+n6L//8FJvqz8BtQLpZ/f72ocjYL6Bf92L9G61RexJ8W0Z8SD2nHAFCLgNFb4SzMVvUA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/Mt-Youya/dsh-plugins#path:/plugins/sessions-insight",
+      "origin": "git_target",
+      "name": "@cyrusdoyle/dsh-sessions-insight",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@cyrusdoyle/dsh-sessions-insight",
+        "title": {
+          "en": "Sessions Insight",
+          "zh": "会话洞察"
+        },
+        "description": {
+          "en": "See what each turn actually fed the model: Claude Code, DSH and Codex sessions, per-turn composition, tool calls, compaction points and handoff — read-only throughout.",
+          "zh": "把模型每一轮实际收到的上下文拆开看：Claude Code / DSH / Codex 三源会话、轮次构成、工具调用、压缩点与交接，全部只读。"
+        },
+        "author": "Cyrus Doyle",
+        "homepage": "https://github.com/Mt-Youya/dsh-plugins/tree/main/plugins/sessions-insight",
+        "repository": {
+          "url": "https://github.com/Mt-Youya/dsh-plugins",
+          "directory": "plugins/sessions-insight"
+        },
+        "metadata": {
+          "keywords": [
+            "agent",
+            "claude-code",
+            "codex",
+            "context",
+            "context-window",
+            "deepseek",
+            "deepseek-harness",
+            "deepseek-plugin",
+            "dsh",
+            "dsh-plugin",
+            "observability",
+            "tokens"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjEwMjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPHRpdGxlPkNvbnRleHQgSW5zaWdodDwvdGl0bGU+CiAgPGcgc3Ryb2tlPSIjNEM1OEY1IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgPHBhdGggZD0iTTM3Ljk2NzQzNDMzIDM3Ljk2NzQzNDMzIDUyLjQ4IDUyLjQ4IiBzdHJva2Utd2lkdGg9IjUuMTIiLz4KICAgIDxjaXJjbGUgY3g9IjI2Ljg4IiBjeT0iMjYuODgiIHI9IjE1LjY4IiBzdHJva2Utd2lkdGg9IjQuNDgiLz4KICA8L2c+CiAgPGcgc3Ryb2tlLXdpZHRoPSI0LjQ4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgPHBhdGggZD0iTTIwLjQ4IDE3LjkySDMzLjI4IiBzdHJva2U9IiM3QzhDRjgiLz4KICAgIDxwYXRoIGQ9Ik0yMC40OCAyNi44OEgyOS40NCIgc3Ryb2tlPSIjMUY5RTg2Ii8+CiAgICA8cGF0aCBkPSJNMjAuNDggMzUuODRIMjUuNiIgc3Ryb2tlPSIjRDk4NjAwIi8+CiAgPC9nPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793972632,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Mt-Youya/dsh-plugins",
+              "commit": "c79a71d8838ea720248ab6f682832b6b9fed58dc",
+              "path": "plugins/sessions-insight"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "plugins/sessions-insight",
+          "commit": "c79a71d8838ea720248ab6f682832b6b9fed58dc",
+          "name": "@cyrusdoyle/dsh-sessions-insight",
+          "version": "0.1.1",
+          "url": "https://github.com/Mt-Youya/dsh-plugins",
+          "manifestSha256": "cf0c6ac9c80bc5c9c29d31e04c085e7cb112f9fa2106545dd4767278eebed226",
+          "publishTimestamp": 1793972632
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@cyrusdoyle/dsh-plugins",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Mt-Youya/dsh-plugins#path:/plugins/sessions-insight",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mt-Youya/dsh-plugins",
+    "commit": "c79a71d8838ea720248ab6f682832b6b9fed58dc",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:19.795Z"
+}

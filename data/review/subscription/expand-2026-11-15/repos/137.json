@@ -1,0 +1,66 @@
+{
+  "full_name": "AssassinVIX/fairy-zzz-plugin",
+  "originalPosition": 137,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 137,
+  "batch": 1,
+  "stargazers_count": 35,
+  "startedAt": "2026-11-15T21:01:02.681Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "689cd26e4621cd84359c6d62db43d0944637c4045bc06bdd07ba3a17cb5f89e8",
+      "url": "https://github.com/AssassinVIX/fairy-zzz-plugin/blob/71a3008f1645fd0117b115988a6bda87eaf813b9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fairy-zzz",
+      "version": "1.0.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AssassinVIX/fairy-zzz-plugin",
+        "commit": "71a3008f1645fd0117b115988a6bda87eaf813b9"
+      },
+      "manifestSha256": "edd1f9b4f7e682584f6d7c2e3ff40ef2a6d6eb8979637ea27dc828e510ec7a54",
+      "manifestUrl": "https://github.com/AssassinVIX/fairy-zzz-plugin/blob/71a3008f1645fd0117b115988a6bda87eaf813b9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-fairy-zzz",
+        "versions": [
+          {
+            "version": "1.0.3",
+            "publishTimestamp": 1794274877,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AssassinVIX/fairy-zzz-plugin",
+              "commit": "71a3008f1645fd0117b115988a6bda87eaf813b9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AssassinVIX/fairy-zzz-plugin",
+    "commit": "71a3008f1645fd0117b115988a6bda87eaf813b9",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:04.854Z"
+}

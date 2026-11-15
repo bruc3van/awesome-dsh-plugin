@@ -1,0 +1,137 @@
+{
+  "full_name": "Respawn-ID/dsh-rhine-splash",
+  "originalPosition": 187,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 187,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-11-15T21:01:25.606Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "810fdd94ed5be5c4a49740308965e74f66693d9cd0c049349ab7b688fe931eb5",
+      "url": "https://github.com/Respawn-ID/dsh-rhine-splash/blob/9808714bf87bae1066e74167039b820aa4f7cbd2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-rhine-splash",
+          "command": "dsh plugin --profile desktop add dsh-rhine-splash",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-rhine-splash",
+          "command": "dsh plugin --profile web add dsh-rhine-splash",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-rhine-splash",
+      "version": "0.2.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Respawn-ID/dsh-rhine-splash",
+        "commit": "9808714bf87bae1066e74167039b820aa4f7cbd2"
+      },
+      "manifestSha256": "920673936d79e149744b8c60a0e3851257205c12b23f77dcfa5d9184c190f905",
+      "manifestUrl": "https://github.com/Respawn-ID/dsh-rhine-splash/blob/9808714bf87bae1066e74167039b820aa4f7cbd2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-rhine-splash",
+        "versions": [
+          {
+            "version": "0.2.9",
+            "publishTimestamp": 1793758770,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Respawn-ID/dsh-rhine-splash",
+              "commit": "9808714bf87bae1066e74167039b820aa4f7cbd2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-rhine-splash",
+      "origin": "npm",
+      "name": "dsh-rhine-splash",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-rhine-splash",
+        "title": {
+          "en": "Rhine Lab Theme",
+          "zh": "莱茵生命主题"
+        },
+        "description": {
+          "en": "Plays a Rhine Lab style boot animation and re-themes DeepSeek Harness with a choice of accent and base colours; adds Rhine notices, a to-do center, blank-page backgrounds, resume effects, a reasoning effort slider, conversation cost and balance, and deletion of archived conversations.",
+          "zh": "启动 DeepSeek Harness 时播放莱茵生命风格的开屏动画，并换上可调强调色与底色的莱茵界面主题和标志；附带莱茵通知、待办中心、空白页背景、切回动效、推理强度滑块、对话费用与余额和归档对话删除。"
+        },
+        "author": "ArtemisFowl",
+        "homepage": "https://github.com/Respawn-ID/dsh-rhine-splash#readme",
+        "repository": {
+          "url": "https://github.com/Respawn-ID/dsh-rhine-splash"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-bundle",
+            "splash-screen",
+            "arknights"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8Y2lyY2xlIGN4PSIxOCIgY3k9IjE4IiByPSIxNS41IiBzdHJva2U9IiM4QzkyOTAiIHN0cm9rZS13aWR0aD0iMS42IiBzdHJva2UtZGFzaGFycmF5PSIwLjcgMi41NDYiIC8+CiAgPGNpcmNsZSBjeD0iMTgiIGN5PSIxOCIgcj0iMTIiIHN0cm9rZT0iIzhDOTI5MCIgc3Ryb2tlLXdpZHRoPSIxLjEiIC8+CiAgPHBhdGggZD0iTTE4IDZBMTIgMTIgMCAwIDEgMjguMzkyIDEyIiBzdHJva2U9InVybCgjcmwtaWNvbi1nKSIgc3Ryb2tlLXdpZHRoPSIyLjQiIC8+CiAgPHBhdGggZD0iTTE4IDMwQTEyIDEyIDAgMCAxIDcuNjA4IDI0IiBzdHJva2U9InVybCgjcmwtaWNvbi1nKSIgc3Ryb2tlLXdpZHRoPSIyLjQiIHN0cm9rZS1vcGFjaXR5PSIwLjY1IiAvPgogIDxwb2x5Z29uIHBvaW50cz0iMTgsMTAuNSAyNC40OTUsMTQuMjUgMjQuNDk1LDIxLjc1IDE4LDI1LjUgMTEuNTA1LDIxLjc1IDExLjUwNSwxNC4yNSIgc3Ryb2tlPSJ1cmwoI3JsLWljb24tZykiIHN0cm9rZS13aWR0aD0iMS42IiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxjaXJjbGUgY3g9IjE4IiBjeT0iMTgiIHI9IjIuNiIgZmlsbD0idXJsKCNybC1pY29uLWcpIiAvPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJybC1pY29uLWciIHgxPSI4IiB5MT0iNyIgeDI9IjI4IiB5Mj0iMjkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0Q2RUU0QyIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOERCMDE0IiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.2.9",
+            "publishTimestamp": 1793759139,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "29f27dbe0d5eab5fded24af6c7fbd9fcbf3508a0c26bdc9be622b2bfd68fbfd7",
+      "evidence": [
+        {
+          "name": "dsh-rhine-splash",
+          "version": "0.2.9",
+          "tarball": "https://registry.npmjs.org/dsh-rhine-splash/-/dsh-rhine-splash-0.2.9.tgz",
+          "integrity": "sha512-2andVyVL/Nb9mupxEjhYSFAHUc1CXihHSq9BvtMCWDAEoSF1CmstbAE2EgMzOu/lWuSNvq2N6WyX9xrv0h0giw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-rhine-splash",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Respawn-ID/dsh-rhine-splash",
+    "commit": "9808714bf87bae1066e74167039b820aa4f7cbd2",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:27.893Z"
+}

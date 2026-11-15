@@ -1,0 +1,58 @@
+{
+  "full_name": "lzszq/dsh-scholar",
+  "originalPosition": 92,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 92,
+  "batch": 1,
+  "stargazers_count": 57,
+  "startedAt": "2026-11-15T21:00:40.273Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e6f7a0feaabc90de0f85b1889d69ea5418fcd7241e68137117abe77d0e042dce",
+      "url": "https://github.com/lzszq/dsh-scholar/blob/086b19a2fbd7824dd71dde7ea2043f22888606e0/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "9c01de6cf370dace1a07d3a599adf446046126de6588ae1ecd5dd7fb7fc2bbb5",
+      "url": "https://github.com/lzszq/dsh-scholar/blob/086b19a2fbd7824dd71dde7ea2043f22888606e0/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-scholar/research-plugin",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lzszq/dsh-scholar",
+        "commit": "086b19a2fbd7824dd71dde7ea2043f22888606e0"
+      },
+      "manifestSha256": "8050011a9c0d4953571676d69bf9cf0a16c4a5abfb85a8a59a32c357879041a2",
+      "manifestUrl": "https://github.com/lzszq/dsh-scholar/blob/086b19a2fbd7824dd71dde7ea2043f22888606e0/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lzszq/dsh-scholar",
+    "commit": "086b19a2fbd7824dd71dde7ea2043f22888606e0",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-15T21:00:42.718Z"
+}

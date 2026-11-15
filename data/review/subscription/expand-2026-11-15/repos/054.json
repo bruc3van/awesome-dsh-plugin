@@ -1,0 +1,121 @@
+{
+  "full_name": "tonyzdev/dsh-session-messaging",
+  "originalPosition": 54,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 54,
+  "batch": 1,
+  "stargazers_count": 102,
+  "startedAt": "2026-11-15T21:00:22.897Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1f753a7965f723ff9dfd63346c9f140b1847cd3639fa1f459a2dee025ac39963",
+      "url": "https://github.com/tonyzdev/dsh-session-messaging/blob/69a97309ab3462249bdd02802d700ed93d08c55f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tonyzdev/dsh-session-messaging",
+          "command": "dsh plugin --profile web add github:tonyzdev/dsh-session-messaging",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/tonyzdev/dsh-session-messaging/releases/download/v0.3.2/tonyzdev-dsh-session-messaging-0.3.2.tgz",
+          "command": "dsh plugin --profile web add https://github.com/tonyzdev/dsh-session-messaging/releases/download/v0.3.2/tonyzdev-dsh-session-messaging-0.3.2.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "a1fbc894e94db4c6b2a0fbaa30980a20bea4139d7cdfb2be14d84def11098a4c",
+      "url": "https://github.com/tonyzdev/dsh-session-messaging/blob/69a97309ab3462249bdd02802d700ed93d08c55f/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tonyzdev/dsh-session-messaging",
+          "command": "dsh plugin --profile <profile> add github:tonyzdev/dsh-session-messaging",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/tonyzdev/dsh-session-messaging",
+          "command": "dsh plugin --profile web add github:tonyzdev/dsh-session-messaging",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/tonyzdev/dsh-session-messaging/releases/download/v0.3.2/tonyzdev-dsh-session-messaging-0.3.2.tgz",
+          "command": "dsh plugin --profile web add https://github.com/tonyzdev/dsh-session-messaging/releases/download/v0.3.2/tonyzdev-dsh-session-messaging-0.3.2.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@tonyzdev/dsh-session-messaging",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tonyzdev/dsh-session-messaging",
+        "commit": "69a97309ab3462249bdd02802d700ed93d08c55f"
+      },
+      "manifestSha256": "a94290ebeaf7b17aa2d14a3e7b10034a18f3e346b26af54244a631d967a2d36a",
+      "manifestUrl": "https://github.com/tonyzdev/dsh-session-messaging/blob/69a97309ab3462249bdd02802d700ed93d08c55f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@tonyzdev/dsh-session-messaging",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1793822141,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tonyzdev/dsh-session-messaging",
+              "commit": "69a97309ab3462249bdd02802d700ed93d08c55f"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/tonyzdev/dsh-session-messaging/releases/download/v0.3.2/tonyzdev-dsh-session-messaging-0.3.2.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/tonyzdev/dsh-session-messaging",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/tonyzdev/dsh-session-messaging/releases/download/v0.3.2/tonyzdev-dsh-session-messaging-0.3.2.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tonyzdev/dsh-session-messaging",
+    "commit": "69a97309ab3462249bdd02802d700ed93d08c55f",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:25.283Z"
+}

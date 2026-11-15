@@ -1,0 +1,139 @@
+{
+  "full_name": "functy23/dsh-workbuddy-panel",
+  "originalPosition": 168,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 168,
+  "batch": 1,
+  "stargazers_count": 28,
+  "startedAt": "2026-11-15T21:01:15.809Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a48320ee0368c3bc095ab6c0158cbfa97632d413a113e88419b92858196ee0bf",
+      "url": "https://github.com/functy23/dsh-workbuddy-panel/blob/91eab641cc81674e172d9ff3353ade47b30589c3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workbuddy-panel",
+          "command": "dsh plugin --profile web add dsh-workbuddy-panel",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-workbuddy-panel",
+          "command": "dsh plugin --profile <profile> add dsh-workbuddy-panel",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workbuddy-panel",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/functy23/dsh-workbuddy-panel",
+        "commit": "91eab641cc81674e172d9ff3353ade47b30589c3"
+      },
+      "manifestSha256": "01e00e920b442828535b2021481b223ff3249ec457510e4b6d8928d41069b9da",
+      "manifestUrl": "https://github.com/functy23/dsh-workbuddy-panel/blob/91eab641cc81674e172d9ff3353ade47b30589c3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-alpha.1 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-workbuddy-panel",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1793100188,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/functy23/dsh-workbuddy-panel",
+              "commit": "91eab641cc81674e172d9ff3353ade47b30589c3"
+            },
+            "engines": {
+              "dsh": "^0.1.7-alpha.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-workbuddy-panel",
+      "origin": "npm",
+      "name": "dsh-workbuddy-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workbuddy-panel",
+        "title": "dsh-workbuddy-panel",
+        "description": "把 workbuddy2api 网关托管进 DSH：面板与内核分离，服务端单独下载，宿主组合行通过 ctx.subprocess 托管进程；账号、模型目录与思考档位全部在 DSH 内管理。",
+        "author": "Functy",
+        "homepage": "https://github.com/functy23/dsh-workbuddy-panel#readme",
+        "repository": {
+          "url": "https://github.com/functy23/dsh-workbuddy-panel"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "workbuddy",
+            "workbuddy2api",
+            "model-provider",
+            "gateway"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJXb3JrQnVkZHkyQVBJIEdhdGV3YXkiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJndy1ub2RlIiB4MT0iMC4yIiB5MT0iMCIgeDI9IjAuOCIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM2ZjliZjUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjM2Y2ZmQwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9IiM1YjhhZWMiIHN0cm9rZS13aWR0aD0iNTIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMjU2IDIzNnY0MCIvPgogICAgPHBhdGggZD0iTTI1NiAyNzZjMCA0Ni00MiA2Ni03OCA4OCIvPgogICAgPHBhdGggZD0iTTI1NiAyNzZjMCA0NiA0MiA2NiA3OCA4OCIvPgogIDwvZz4KICA8Y2lyY2xlIGN4PSIyNTYiIGN5PSIxNzYiIHI9Ijg0IiBmaWxsPSJ1cmwoI2d3LW5vZGUpIi8+CiAgPGNpcmNsZSBjeD0iMTQyIiBjeT0iMzkyIiByPSI3MCIgZmlsbD0iIzllYzBmOCIvPgogIDxjaXJjbGUgY3g9IjM3MCIgY3k9IjM5MiIgcj0iNzAiIGZpbGw9IiM5ZWMwZjgiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1793375118,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-alpha.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d55d0b415560ceeb3862afb1750df3a1750a7ae32b77c72416ceab89ba9291e7",
+      "evidence": [
+        {
+          "name": "dsh-workbuddy-panel",
+          "version": "0.5.1",
+          "tarball": "https://registry.npmjs.org/dsh-workbuddy-panel/-/dsh-workbuddy-panel-0.5.1.tgz",
+          "integrity": "sha512-bznN+QDdawvkhCOSBya6+jGtEuprVEzSjVJN4PgE9MgeNtDvhZwsflTJOXBXcNQEJDmVX95mIbgUPU52eyL2XA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workbuddy-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/functy23/dsh-workbuddy-panel",
+    "commit": "91eab641cc81674e172d9ff3353ade47b30589c3",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:18.519Z"
+}

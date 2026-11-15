@@ -1,0 +1,198 @@
+{
+  "full_name": "lovezi0/dsh-memory-palace",
+  "originalPosition": 179,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 179,
+  "batch": 1,
+  "stargazers_count": 27,
+  "startedAt": "2026-11-15T21:01:21.571Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2fc7676f2148d5cb0803dbe4782f4c9569a8bd05584feec4d2680a3d3fea758a",
+      "url": "https://github.com/lovezi0/dsh-memory-palace/blob/081582e13fedb6b8c52f35e1309d50b35416911d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lovezi0/dsh-memory-palace",
+          "command": "dsh plugin --profile web add github:lovezi0/dsh-memory-palace",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lovezi0/dsh-memory-palace#v1.8.5",
+          "command": "dsh plugin --profile web add github:lovezi0/dsh-memory-palace#v1.8.5",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-memory-palace",
+          "command": "dsh plugin --profile web add dsh-memory-palace",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memory-palace",
+      "version": "1.8.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lovezi0/dsh-memory-palace",
+        "commit": "081582e13fedb6b8c52f35e1309d50b35416911d"
+      },
+      "manifestSha256": "75e4223c3e1214406370cf7c60b9536c19b041e05d6fdd6d702ba4cbe521e065",
+      "manifestUrl": "https://github.com/lovezi0/dsh-memory-palace/blob/081582e13fedb6b8c52f35e1309d50b35416911d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-memory-palace",
+        "versions": [
+          {
+            "version": "1.8.5",
+            "publishTimestamp": 1794192289,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lovezi0/dsh-memory-palace",
+              "commit": "081582e13fedb6b8c52f35e1309d50b35416911d"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/lovezi0/dsh-memory-palace#v1.8.5",
+      "origin": "git_target",
+      "name": "dsh-memory-palace",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-memory-palace",
+        "title": "dsh-memory-palace",
+        "description": "把 WorkBuddy 的文件式记忆系统移植进 DeepSeek Harness：用户级 + 工作区的人类可读 Markdown 记忆（~/.deepseek-harness/MEMORY.md 与 <cwd>/.deepseek-harness/memory/）。",
+        "repository": {
+          "url": "https://github.com/lovezi0/dsh-memory-palace"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIOiusOW/huWbvuaghyDCtyBEU0gg6bK46bG8ICsg5Y+M5pif6IqS77yI5rqQ56CB55u05Ye65ZCI5bm277yJwrcgMjjDlzI4IC0tPgogIDwhLS0g6bK46bG877yI5YWo57K+5bqmIHBhdGjvvIzkvY3nva4gNCw5IOKGkiAxN8OXMTIuNzXvvIkgLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNCA5KSBzY2FsZSgwLjczNDAgMC43NDgyKSB0cmFuc2xhdGUoMCAtMy41MikiPgogICAgPHBhdGggZD0iTTIzLjA1ODQgNC45NTIwM0MyMi44MTI5IDQuODMyMDMgMjIuNzA3NCA1LjA2MTAzIDIyLjU2MzkgNS4xNzcwNEMyMi41MTQ5IDUuMjE0NTQgMjIuNDczNCA1LjI2MzU0IDIyLjQzMTkgNS4zMDg1NEMyMi4wNzM0IDUuNjkxNTUgMjEuNjU0MyA1Ljk0MzA2IDIxLjEwNzMgNS45MTMwNkMyMC4zMDczIDUuODY4MDYgMTkuNjI0MyA2LjExOTU3IDE5LjAyMDMgNi43MzE1OEMxOC44OTE4IDUuOTc3MDYgMTguNDY1MiA1LjUyNjU1IDE3LjgxNjIgNS4yMzc1NEMxNy40NzY3IDUuMDg3NTMgMTcuMTMzMiA0LjkzNzAzIDE2Ljg5NTIgNC42MTA1MkMxNi43MjkyIDQuMzc4MDEgMTYuNjgzNyA0LjExOTAxIDE2LjYwMDcgMy44NjM1QzE2LjU0NzcgMy43MDk0OSAxNi40OTUyIDMuNTUxOTkgMTYuMzE3NyAzLjUyNTQ5QzE2LjEyNTIgMy40OTU0OSAxNi4wNDk3IDMuNjU2OTkgMTUuOTc0MiAzLjc5MkMxNS42NzIyIDQuMzQ0MDEgMTUuNTU1MiA0Ljk1MjAzIDE1LjU2NjcgNS41NjgwNUMxNS41OTMyIDYuOTUzNTkgMTYuMTc4MiA4LjA1NzEyIDE3LjM0MDcgOC44NDIxNUMxNy40NzI3IDguOTMyMTUgMTcuNTA2NyA5LjAyMjE1IDE3LjQ2NTIgOS4xNTM2NkMxNy4zODU3IDkuNDI0MTYgMTcuMjkxNyA5LjY4NjY3IDE3LjIwODcgOS45NTcxOEMxNy4xNTU3IDEwLjEyOTcgMTcuMDc2NyAxMC4xNjc3IDE2Ljg5MTcgMTAuMDkyMkMxNi4yNTM3IDkuODI1NjggMTUuNzAyNyA5LjQzMTE3IDE1LjIxNTYgOC45NTQ2NUMxNC4zODkxIDguMTU1MTMgMTMuNjQxNiA3LjI3MjYgMTIuNzA5NiA2LjU4MTU4QzEyLjQ5MDYgNi40MjAwNyAxMi4yNzE2IDYuMjcwMDcgMTIuMDQ1IDYuMTI3MDdDMTEuMDk0IDUuMjAzNTQgMTIuMTY5NiA0LjQ0NTAyIDEyLjQxODYgNC4zNTUwMUMxMi42NzkxIDQuMjYxMDEgMTIuNTA5MSAzLjkzOCAxMS42Njc1IDMuOTQyQzEwLjgyNiAzLjk0NTUgMTAuMDU2IDQuMjI3NTEgOS4wNzQ0NiA0LjYwMzAyQzguOTMwOTYgNC42NTk1MiA4Ljc3OTk1IDQuNzAwNTIgOC42MjU0NSA0LjczNDUyQzcuNzM0OTIgNC41NjU1MiA2LjgwOTg5IDQuNTI4MDIgNS44NDM4NiA0LjYzNzAyQzQuMDI0ODEgNC44Mzk1MyAyLjU3MTc3IDUuNjk5NTUgMS41MDM3MyA3LjE2NzZDMC4yMjA2OTQgOC45MzIxNSAtMC4wODEzMTQ4IDEwLjkzNzIgMC4yODgxOTYgMTMuMDI4M0MwLjY3NjcwOCAxNS4yMzIzIDEuODAxNzQgMTcuMDU2OSAzLjUzMDI5IDE4LjQ4MzRDNS4zMjI4NSAxOS45NjI1IDcuMzg3NDEgMjAuNjg3NSA5Ljc0Mjk4IDIwLjU0ODVDMTEuMTczNSAyMC40NjYgMTIuNzY2MSAyMC4yNzQ1IDE0LjU2MjYgMTguNzUzOUMxNS4wMTU2IDE4Ljk3OTUgMTUuNDkxMiAxOS4wNjk1IDE2LjI3OTcgMTkuMTM3QzE2Ljg4NzIgMTkuMTkzNSAxNy40NzIyIDE5LjEwNyAxNy45MjUyIDE5LjAxM0MxOC42MzQ3IDE4Ljg2MjkgMTguNTg1NyAxOC4yMDU5IDE4LjMyOTIgMTguMDg1NEMxNi4yNDk3IDE3LjExNjkgMTYuNzA2MiAxNy41MTA5IDE2LjI5MTIgMTcuMTkxOUMxNy4zNDc3IDE1Ljk0MTkgMTguOTYxOCAxMy43MTk4IDE5LjQ1OTggMTAuNjk0MkMxOS41MDg4IDEwLjM2MDIgMTkuNTcxMyA5Ljg4OTY4IDE5LjU2MzggOS42MTkxN0MxOS41NTk4IDkuNDU0MTcgMTkuNTk3OCA5LjM5MDE2IDE5Ljc4NjMgOS4zNzExNkMyMC4zMDczIDkuMzExMTYgMjAuODEyOCA5LjE2ODY2IDIxLjI3NzMgOC45MTMxNUMyMi42MjQ5IDguMTc3MTMgMjMuMTY4NCA2Ljk2ODA5IDIzLjI5NjQgNS41MTkwNUMyMy4zMTU0IDUuMjk3NTQgMjMuMjkyNCA1LjA2ODUzIDIzLjA1ODQgNC45NTIwM1pNMTEuMzE2NSAxNy45OTU0QzkuMzAwOTcgMTYuNDEwOSA4LjMyMzQ0IDE1Ljg4OTQgNy45MTk5MiAxNS45MTE5QzcuNTQyNDEgMTUuOTM0NCA3LjYxMDQyIDE2LjM2NjQgNy42OTM0MiAxNi42NDc5QzcuNzgwNDIgMTYuOTI1OSA3Ljg5MzQyIDE3LjExNzQgOC4wNTE5MyAxNy4zNjE0QzguMTYxNDMgMTcuNTIyOSA4LjIzNjk0IDE3Ljc2MjkgNy45NDI0MyAxNy45NDM0QzcuMjkzNDEgMTguMzQ0OSA2LjE2NDg3IDE3LjgwODQgNi4xMTE4NyAxNy43ODE5QzQuNzk4MzMgMTcuMDA4NCAzLjcwMDMgMTUuOTg3NCAyLjkyNjI4IDE0LjU5MDhDMi4xNzg3NSAxMy4yNDY4IDEuNzQ0NzQgMTEuODA0NyAxLjY3MzI0IDEwLjI2NTdDMS42NTQyNCA5Ljg5NDE4IDEuNzYzNzQgOS43NjI2NyAyLjEzMzc1IDkuNjk1MTdDMi42MjA3NyA5LjYwNTE3IDMuMTIyNzggOS41ODYxNyAzLjYwOTMgOS42NTc2N0M1LjY2NjM2IDkuOTU4MTggNy40MTc0MSAxMC44Nzc3IDguODg1NDUgMTIuMzM0OEM5LjcyMzQ4IDEzLjE2NDMgMTAuMzU3NSAxNC4xNTU4IDExLjAxMDUgMTUuMTI0M0MxMS43MDUgMTYuMTUyOSAxMi40NTIxIDE3LjEzMjkgMTMuNDAzNiAxNy45MzY0QzEzLjczOTYgMTguMjE3OSAxNC4wMDc2IDE4LjQzMTkgMTQuMjY0MSAxOC41ODk5QzEzLjQ5MDYgMTguNjc2NCAxMi4xOTk2IDE4LjY5NDkgMTEuMzE2NSAxNy45OTY0VjE3Ljk5NTRaTTEyLjI4MjYgMTEuNzgxN0MxMi4yODI2IDExLjYxNjcgMTIuNDE0NiAxMS40ODUyIDEyLjU4MDYgMTEuNDg1MkMxMi42MTgxIDExLjQ4NTIgMTIuNjUyMSAxMS40OTI3IDEyLjY4MjYgMTEuNTAzN0MxMi43MjQxIDExLjUxODcgMTIuNzYyMSAxMS41NDEyIDEyLjc5MjEgMTEuNTc1MkMxMi44NDUxIDExLjYyNzcgMTIuODc1MSAxMS43MDI3IDEyLjg3NTEgMTEuNzgxN0MxMi44NzUxIDExLjk0NjcgMTIuNzQzMSAxMi4wNzgyIDEyLjU3NzEgMTIuMDc4MkMxMi40MTExIDEyLjA3ODIgMTIuMjgyNiAxMS45NDY3IDEyLjI4MjYgMTEuNzgxN1pNMTUuMjgzMSAxMy4zMjA4QzE1LjA5MDYgMTMuMzk5OCAxNC44OTgxIDEzLjQ2NzMgMTQuNzEzMSAxMy40NzQ4QzE0LjQyNjEgMTMuNDg5OCAxNC4xMTMxIDEzLjM3MzMgMTMuOTQzMSAxMy4yMzA4QzEzLjY3OTEgMTMuMDA5MyAxMy40OTAxIDEyLjg4NTMgMTMuNDExMSAxMi40OTg4QzEzLjM3NzEgMTIuMzMzOCAxMy4zOTYxIDEyLjA3ODIgMTMuNDI2MSAxMS45MzE3QzEzLjQ5NDEgMTEuNjE2MiAxMy40MTg2IDExLjQxMzcgMTMuMTk2MSAxMS4yMjk3QzEzLjAxNTEgMTEuMDc5NyAxMi43ODQ2IDExLjAzODIgMTIuNTMxNiAxMS4wMzgyQzEyLjQzNzEgMTEuMDM4MiAxMi4zNTA2IDEwLjk5NjcgMTIuMjg2MSAxMC45NjMyQzEyLjE4MDYgMTAuOTEwNyAxMi4wOTM2IDEwLjc3OTIgMTIuMTc2NiAxMC42MTc3QzEyLjIwMzEgMTAuNTY1MiAxMi4zMzE2IDEwLjQzNzcgMTIuMzYxNiAxMC40MTUyQzEyLjcwNTEgMTAuMjE5NyAxMy4xMDExIDEwLjI4MzcgMTMuNDY3NiAxMC40MzAyQzEzLjgwNzEgMTAuNTY5MiAxNC4wNjQxIDEwLjgyNDIgMTQuNDMzNiAxMS4xODQ3QzE0LjgxMTEgMTEuNjIwMiAxNC44NzkxIDExLjc0MDIgMTUuMDk0MSAxMi4wNjcyQzE1LjI2NDEgMTIuMzIyOCAxNS40MTg2IDEyLjU4NTMgMTUuNTI0NyAxMi44ODU4QzE1LjU4ODcgMTMuMDczMyAxNS41MDU3IDEzLjIyNjggMTUuMjgzMSAxMy4zMjA4WiIgZmlsbD0iIzAwMDAwMCIvPgogIDwvZz4KICA8IS0tIOWkp+aYn++8iHguc3ZnIOWkp+aYn+WFqOeyvuW6piBwYXRo77yM5L2N572uIDE5LDMg4oaSIDbDlzbvvIzmjIHnu63pl6rng4HvvIkgLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTkgMykgc2NhbGUoMC44Mjg2KSB0cmFuc2xhdGUoMC4wNTkgLTIuNzkwKSI+CiAgICA8cGF0aCBkPSJNMy44MDY3MSA5Ljc5NTEzQzMuNzI4ODggMTAuMDMxOCAzLjM5NDE3IDEwLjAzMTggMy4zMTYzNCA5Ljc5NTEzTDIuODY1MyA4LjQyMzY1QzIuNjYwNDIgNy44MDA3NCAyLjE3MTg1IDcuMzEyMTcgMS41NDg5NCA3LjEwNzNMMC4xNzc0NjIgNi42NTYyNkMtMC4wNTkxNTM5IDYuNTc4NDMgLTAuMDU5MTUzOSA2LjI0MzcxIDAuMTc3NDYyIDYuMTY1ODlMMS41NDg5NCA1LjcxNDg0QzIuMTcxODUgNS41MDk5NyAyLjY2MDQyIDUuMDIxNCAyLjg2NTMgNC4zOTg0OUwzLjMxNjM0IDMuMDI3MDFDMy4zOTQxNyAyLjc5MDM5IDMuNzI4ODggMi43OTAzOSAzLjgwNjcxIDMuMDI3MDFMNC4yNTc3NSA0LjM5ODQ5QzQuNDYyNjIgNS4wMjE0IDQuOTUxMiA1LjUwOTk3IDUuNTc0MTEgNS43MTQ4NEw2Ljk0NTU4IDYuMTY1ODlDNy4xODIyIDYuMjQzNzEgNy4xODIyIDYuNTc4NDMgNi45NDU1OCA2LjY1NjI2TDUuNTc0MTEgNy4xMDczQzQuOTUxMiA3LjMxMjE3IDQuNDYyNjIgNy44MDA3NCA0LjI1Nzc1IDguNDIzNjVMMy44MDY3MSA5Ljc5NTEzWiIgZmlsbD0iIzQyNkVGRSIvPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAuMTU7MSIga2V5VGltZXM9IjA7MC41OzEiIGR1cj0iMS4ycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz4KICA8L2c+CiAgPCEtLSDlsI/mmJ/vvIh4LnN2ZyDlsI/mmJ/lhajnsr7luqYgcGF0aO+8jOS9jee9riAyMywxIOKGkiA0w5c077yM6L276Zeq54OB77yJIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIzIDEpIHNjYWxlKDAuOTgzNykgdHJhbnNsYXRlKC01Ljk4NyAwLjAzMykiPgogICAgPHBhdGggZD0iTTguMTU4MTkgMy45MDAzNEM4LjExNDQ5IDQuMDMzMjIgNy45MjY1MyA0LjAzMzIyIDcuODgyODIgMy45MDAzNEw3LjYyOTU0IDMuMTMwMThDNy41MTQ0OSAyLjc4MDM4IDcuMjQwMTMgMi41MDYwMiA2Ljg5MDMzIDIuMzkwOTdMNi4xMjAxNiAyLjEzNzY5QzUuOTg3MjkgMi4wOTM5OCA1Ljk4NzI5IDEuOTA2MDIgNi4xMjAxNiAxLjg2MjMxTDYuODkwMzMgMS42MDkwM0M3LjI0MDEzIDEuNDkzOTggNy41MTQ0OSAxLjIxOTYyIDcuNjI5NTQgMC44Njk4MTlMNy44ODI4MiAwLjA5OTY1NDlDNy45MjY1MyAtMC4wMzMyMTgzIDguMTE0NDkgLTAuMDMzMjE4MyA4LjE1ODE5IDAuMDk5NjU0OUw4LjQxMTQ4IDAuODY5ODE5QzguNTI2NTMgMS4yMTk2MiA4LjgwMDg5IDEuNDkzOTggOS4xNTA2OSAxLjYwOTAzTDkuOTIwODUgMS44NjIzMUMxMC4wNTM3IDEuOTA2MDIgMTAuMDUzNyAyLjA5Mzk4IDkuOTIwODUgMi4xMzc2OUw5LjE1MDY5IDIuMzkwOTdDOC44MDA4OSAyLjUwNjAyIDguNTI2NTMgMi43ODAzOCA4LjQxMTQ4IDMuMTMwMThMOC4xNTgxOSAzLjkwMDM0WiIgZmlsbD0iIzQyNkVGRSIvPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAuNDU7MSIga2V5VGltZXM9IjA7MC41OzEiIGR1cj0iMS42cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz4KICA8L2c+Cjwvc3ZnPg==",
+        "versions": [
+          {
+            "version": "1.8.5",
+            "publishTimestamp": 1794192289,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lovezi0/dsh-memory-palace",
+              "commit": "081582e13fedb6b8c52f35e1309d50b35416911d"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.5"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "081582e13fedb6b8c52f35e1309d50b35416911d",
+          "name": "dsh-memory-palace",
+          "version": "1.8.5",
+          "url": "https://github.com/lovezi0/dsh-memory-palace",
+          "manifestSha256": "75e4223c3e1214406370cf7c60b9536c19b041e05d6fdd6d702ba4cbe521e065",
+          "publishTimestamp": 1794192289
+        }
+      ]
+    },
+    {
+      "target": "dsh-memory-palace",
+      "origin": "npm",
+      "name": "dsh-memory-palace",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-memory-palace",
+        "title": "dsh-memory-palace",
+        "description": "把 WorkBuddy 的文件式记忆系统移植进 DeepSeek Harness：用户级 + 工作区的人类可读 Markdown 记忆（~/.deepseek-harness/MEMORY.md 与 <cwd>/.deepseek-harness/memory/）。",
+        "repository": {
+          "url": "https://github.com/lovezi0/dsh-memory-palace"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIOiusOW/huWbvuaghyDCtyBEU0gg6bK46bG8ICsg5Y+M5pif6IqS77yI5rqQ56CB55u05Ye65ZCI5bm277yJwrcgMjjDlzI4IC0tPgogIDwhLS0g6bK46bG877yI5YWo57K+5bqmIHBhdGjvvIzkvY3nva4gNCw5IOKGkiAxN8OXMTIuNzXvvIkgLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNCA5KSBzY2FsZSgwLjczNDAgMC43NDgyKSB0cmFuc2xhdGUoMCAtMy41MikiPgogICAgPHBhdGggZD0iTTIzLjA1ODQgNC45NTIwM0MyMi44MTI5IDQuODMyMDMgMjIuNzA3NCA1LjA2MTAzIDIyLjU2MzkgNS4xNzcwNEMyMi41MTQ5IDUuMjE0NTQgMjIuNDczNCA1LjI2MzU0IDIyLjQzMTkgNS4zMDg1NEMyMi4wNzM0IDUuNjkxNTUgMjEuNjU0MyA1Ljk0MzA2IDIxLjEwNzMgNS45MTMwNkMyMC4zMDczIDUuODY4MDYgMTkuNjI0MyA2LjExOTU3IDE5LjAyMDMgNi43MzE1OEMxOC44OTE4IDUuOTc3MDYgMTguNDY1MiA1LjUyNjU1IDE3LjgxNjIgNS4yMzc1NEMxNy40NzY3IDUuMDg3NTMgMTcuMTMzMiA0LjkzNzAzIDE2Ljg5NTIgNC42MTA1MkMxNi43MjkyIDQuMzc4MDEgMTYuNjgzNyA0LjExOTAxIDE2LjYwMDcgMy44NjM1QzE2LjU0NzcgMy43MDk0OSAxNi40OTUyIDMuNTUxOTkgMTYuMzE3NyAzLjUyNTQ5QzE2LjEyNTIgMy40OTU0OSAxNi4wNDk3IDMuNjU2OTkgMTUuOTc0MiAzLjc5MkMxNS42NzIyIDQuMzQ0MDEgMTUuNTU1MiA0Ljk1MjAzIDE1LjU2NjcgNS41NjgwNUMxNS41OTMyIDYuOTUzNTkgMTYuMTc4MiA4LjA1NzEyIDE3LjM0MDcgOC44NDIxNUMxNy40NzI3IDguOTMyMTUgMTcuNTA2NyA5LjAyMjE1IDE3LjQ2NTIgOS4xNTM2NkMxNy4zODU3IDkuNDI0MTYgMTcuMjkxNyA5LjY4NjY3IDE3LjIwODcgOS45NTcxOEMxNy4xNTU3IDEwLjEyOTcgMTcuMDc2NyAxMC4xNjc3IDE2Ljg5MTcgMTAuMDkyMkMxNi4yNTM3IDkuODI1NjggMTUuNzAyNyA5LjQzMTE3IDE1LjIxNTYgOC45NTQ2NUMxNC4zODkxIDguMTU1MTMgMTMuNjQxNiA3LjI3MjYgMTIuNzA5NiA2LjU4MTU4QzEyLjQ5MDYgNi40MjAwNyAxMi4yNzE2IDYuMjcwMDcgMTIuMDQ1IDYuMTI3MDdDMTEuMDk0IDUuMjAzNTQgMTIuMTY5NiA0LjQ0NTAyIDEyLjQxODYgNC4zNTUwMUMxMi42NzkxIDQuMjYxMDEgMTIuNTA5MSAzLjkzOCAxMS42Njc1IDMuOTQyQzEwLjgyNiAzLjk0NTUgMTAuMDU2IDQuMjI3NTEgOS4wNzQ0NiA0LjYwMzAyQzguOTMwOTYgNC42NTk1MiA4Ljc3OTk1IDQuNzAwNTIgOC42MjU0NSA0LjczNDUyQzcuNzM0OTIgNC41NjU1MiA2LjgwOTg5IDQuNTI4MDIgNS44NDM4NiA0LjYzNzAyQzQuMDI0ODEgNC44Mzk1MyAyLjU3MTc3IDUuNjk5NTUgMS41MDM3MyA3LjE2NzZDMC4yMjA2OTQgOC45MzIxNSAtMC4wODEzMTQ4IDEwLjkzNzIgMC4yODgxOTYgMTMuMDI4M0MwLjY3NjcwOCAxNS4yMzIzIDEuODAxNzQgMTcuMDU2OSAzLjUzMDI5IDE4LjQ4MzRDNS4zMjI4NSAxOS45NjI1IDcuMzg3NDEgMjAuNjg3NSA5Ljc0Mjk4IDIwLjU0ODVDMTEuMTczNSAyMC40NjYgMTIuNzY2MSAyMC4yNzQ1IDE0LjU2MjYgMTguNzUzOUMxNS4wMTU2IDE4Ljk3OTUgMTUuNDkxMiAxOS4wNjk1IDE2LjI3OTcgMTkuMTM3QzE2Ljg4NzIgMTkuMTkzNSAxNy40NzIyIDE5LjEwNyAxNy45MjUyIDE5LjAxM0MxOC42MzQ3IDE4Ljg2MjkgMTguNTg1NyAxOC4yMDU5IDE4LjMyOTIgMTguMDg1NEMxNi4yNDk3IDE3LjExNjkgMTYuNzA2MiAxNy41MTA5IDE2LjI5MTIgMTcuMTkxOUMxNy4zNDc3IDE1Ljk0MTkgMTguOTYxOCAxMy43MTk4IDE5LjQ1OTggMTAuNjk0MkMxOS41MDg4IDEwLjM2MDIgMTkuNTcxMyA5Ljg4OTY4IDE5LjU2MzggOS42MTkxN0MxOS41NTk4IDkuNDU0MTcgMTkuNTk3OCA5LjM5MDE2IDE5Ljc4NjMgOS4zNzExNkMyMC4zMDczIDkuMzExMTYgMjAuODEyOCA5LjE2ODY2IDIxLjI3NzMgOC45MTMxNUMyMi42MjQ5IDguMTc3MTMgMjMuMTY4NCA2Ljk2ODA5IDIzLjI5NjQgNS41MTkwNUMyMy4zMTU0IDUuMjk3NTQgMjMuMjkyNCA1LjA2ODUzIDIzLjA1ODQgNC45NTIwM1pNMTEuMzE2NSAxNy45OTU0QzkuMzAwOTcgMTYuNDEwOSA4LjMyMzQ0IDE1Ljg4OTQgNy45MTk5MiAxNS45MTE5QzcuNTQyNDEgMTUuOTM0NCA3LjYxMDQyIDE2LjM2NjQgNy42OTM0MiAxNi42NDc5QzcuNzgwNDIgMTYuOTI1OSA3Ljg5MzQyIDE3LjExNzQgOC4wNTE5MyAxNy4zNjE0QzguMTYxNDMgMTcuNTIyOSA4LjIzNjk0IDE3Ljc2MjkgNy45NDI0MyAxNy45NDM0QzcuMjkzNDEgMTguMzQ0OSA2LjE2NDg3IDE3LjgwODQgNi4xMTE4NyAxNy43ODE5QzQuNzk4MzMgMTcuMDA4NCAzLjcwMDMgMTUuOTg3NCAyLjkyNjI4IDE0LjU5MDhDMi4xNzg3NSAxMy4yNDY4IDEuNzQ0NzQgMTEuODA0NyAxLjY3MzI0IDEwLjI2NTdDMS42NTQyNCA5Ljg5NDE4IDEuNzYzNzQgOS43NjI2NyAyLjEzMzc1IDkuNjk1MTdDMi42MjA3NyA5LjYwNTE3IDMuMTIyNzggOS41ODYxNyAzLjYwOTMgOS42NTc2N0M1LjY2NjM2IDkuOTU4MTggNy40MTc0MSAxMC44Nzc3IDguODg1NDUgMTIuMzM0OEM5LjcyMzQ4IDEzLjE2NDMgMTAuMzU3NSAxNC4xNTU4IDExLjAxMDUgMTUuMTI0M0MxMS43MDUgMTYuMTUyOSAxMi40NTIxIDE3LjEzMjkgMTMuNDAzNiAxNy45MzY0QzEzLjczOTYgMTguMjE3OSAxNC4wMDc2IDE4LjQzMTkgMTQuMjY0MSAxOC41ODk5QzEzLjQ5MDYgMTguNjc2NCAxMi4xOTk2IDE4LjY5NDkgMTEuMzE2NSAxNy45OTY0VjE3Ljk5NTRaTTEyLjI4MjYgMTEuNzgxN0MxMi4yODI2IDExLjYxNjcgMTIuNDE0NiAxMS40ODUyIDEyLjU4MDYgMTEuNDg1MkMxMi42MTgxIDExLjQ4NTIgMTIuNjUyMSAxMS40OTI3IDEyLjY4MjYgMTEuNTAzN0MxMi43MjQxIDExLjUxODcgMTIuNzYyMSAxMS41NDEyIDEyLjc5MjEgMTEuNTc1MkMxMi44NDUxIDExLjYyNzcgMTIuODc1MSAxMS43MDI3IDEyLjg3NTEgMTEuNzgxN0MxMi44NzUxIDExLjk0NjcgMTIuNzQzMSAxMi4wNzgyIDEyLjU3NzEgMTIuMDc4MkMxMi40MTExIDEyLjA3ODIgMTIuMjgyNiAxMS45NDY3IDEyLjI4MjYgMTEuNzgxN1pNMTUuMjgzMSAxMy4zMjA4QzE1LjA5MDYgMTMuMzk5OCAxNC44OTgxIDEzLjQ2NzMgMTQuNzEzMSAxMy40NzQ4QzE0LjQyNjEgMTMuNDg5OCAxNC4xMTMxIDEzLjM3MzMgMTMuOTQzMSAxMy4yMzA4QzEzLjY3OTEgMTMuMDA5MyAxMy40OTAxIDEyLjg4NTMgMTMuNDExMSAxMi40OTg4QzEzLjM3NzEgMTIuMzMzOCAxMy4zOTYxIDEyLjA3ODIgMTMuNDI2MSAxMS45MzE3QzEzLjQ5NDEgMTEuNjE2MiAxMy40MTg2IDExLjQxMzcgMTMuMTk2MSAxMS4yMjk3QzEzLjAxNTEgMTEuMDc5NyAxMi43ODQ2IDExLjAzODIgMTIuNTMxNiAxMS4wMzgyQzEyLjQzNzEgMTEuMDM4MiAxMi4zNTA2IDEwLjk5NjcgMTIuMjg2MSAxMC45NjMyQzEyLjE4MDYgMTAuOTEwNyAxMi4wOTM2IDEwLjc3OTIgMTIuMTc2NiAxMC42MTc3QzEyLjIwMzEgMTAuNTY1MiAxMi4zMzE2IDEwLjQzNzcgMTIuMzYxNiAxMC40MTUyQzEyLjcwNTEgMTAuMjE5NyAxMy4xMDExIDEwLjI4MzcgMTMuNDY3NiAxMC40MzAyQzEzLjgwNzEgMTAuNTY5MiAxNC4wNjQxIDEwLjgyNDIgMTQuNDMzNiAxMS4xODQ3QzE0LjgxMTEgMTEuNjIwMiAxNC44NzkxIDExLjc0MDIgMTUuMDk0MSAxMi4wNjcyQzE1LjI2NDEgMTIuMzIyOCAxNS40MTg2IDEyLjU4NTMgMTUuNTI0NyAxMi44ODU4QzE1LjU4ODcgMTMuMDczMyAxNS41MDU3IDEzLjIyNjggMTUuMjgzMSAxMy4zMjA4WiIgZmlsbD0iIzAwMDAwMCIvPgogIDwvZz4KICA8IS0tIOWkp+aYn++8iHguc3ZnIOWkp+aYn+WFqOeyvuW6piBwYXRo77yM5L2N572uIDE5LDMg4oaSIDbDlzbvvIzmjIHnu63pl6rng4HvvIkgLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTkgMykgc2NhbGUoMC44Mjg2KSB0cmFuc2xhdGUoMC4wNTkgLTIuNzkwKSI+CiAgICA8cGF0aCBkPSJNMy44MDY3MSA5Ljc5NTEzQzMuNzI4ODggMTAuMDMxOCAzLjM5NDE3IDEwLjAzMTggMy4zMTYzNCA5Ljc5NTEzTDIuODY1MyA4LjQyMzY1QzIuNjYwNDIgNy44MDA3NCAyLjE3MTg1IDcuMzEyMTcgMS41NDg5NCA3LjEwNzNMMC4xNzc0NjIgNi42NTYyNkMtMC4wNTkxNTM5IDYuNTc4NDMgLTAuMDU5MTUzOSA2LjI0MzcxIDAuMTc3NDYyIDYuMTY1ODlMMS41NDg5NCA1LjcxNDg0QzIuMTcxODUgNS41MDk5NyAyLjY2MDQyIDUuMDIxNCAyLjg2NTMgNC4zOTg0OUwzLjMxNjM0IDMuMDI3MDFDMy4zOTQxNyAyLjc5MDM5IDMuNzI4ODggMi43OTAzOSAzLjgwNjcxIDMuMDI3MDFMNC4yNTc3NSA0LjM5ODQ5QzQuNDYyNjIgNS4wMjE0IDQuOTUxMiA1LjUwOTk3IDUuNTc0MTEgNS43MTQ4NEw2Ljk0NTU4IDYuMTY1ODlDNy4xODIyIDYuMjQzNzEgNy4xODIyIDYuNTc4NDMgNi45NDU1OCA2LjY1NjI2TDUuNTc0MTEgNy4xMDczQzQuOTUxMiA3LjMxMjE3IDQuNDYyNjIgNy44MDA3NCA0LjI1Nzc1IDguNDIzNjVMMy44MDY3MSA5Ljc5NTEzWiIgZmlsbD0iIzQyNkVGRSIvPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAuMTU7MSIga2V5VGltZXM9IjA7MC41OzEiIGR1cj0iMS4ycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz4KICA8L2c+CiAgPCEtLSDlsI/mmJ/vvIh4LnN2ZyDlsI/mmJ/lhajnsr7luqYgcGF0aO+8jOS9jee9riAyMywxIOKGkiA0w5c077yM6L276Zeq54OB77yJIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIzIDEpIHNjYWxlKDAuOTgzNykgdHJhbnNsYXRlKC01Ljk4NyAwLjAzMykiPgogICAgPHBhdGggZD0iTTguMTU4MTkgMy45MDAzNEM4LjExNDQ5IDQuMDMzMjIgNy45MjY1MyA0LjAzMzIyIDcuODgyODIgMy45MDAzNEw3LjYyOTU0IDMuMTMwMThDNy41MTQ0OSAyLjc4MDM4IDcuMjQwMTMgMi41MDYwMiA2Ljg5MDMzIDIuMzkwOTdMNi4xMjAxNiAyLjEzNzY5QzUuOTg3MjkgMi4wOTM5OCA1Ljk4NzI5IDEuOTA2MDIgNi4xMjAxNiAxLjg2MjMxTDYuODkwMzMgMS42MDkwM0M3LjI0MDEzIDEuNDkzOTggNy41MTQ0OSAxLjIxOTYyIDcuNjI5NTQgMC44Njk4MTlMNy44ODI4MiAwLjA5OTY1NDlDNy45MjY1MyAtMC4wMzMyMTgzIDguMTE0NDkgLTAuMDMzMjE4MyA4LjE1ODE5IDAuMDk5NjU0OUw4LjQxMTQ4IDAuODY5ODE5QzguNTI2NTMgMS4yMTk2MiA4LjgwMDg5IDEuNDkzOTggOS4xNTA2OSAxLjYwOTAzTDkuOTIwODUgMS44NjIzMUMxMC4wNTM3IDEuOTA2MDIgMTAuMDUzNyAyLjA5Mzk4IDkuOTIwODUgMi4xMzc2OUw5LjE1MDY5IDIuMzkwOTdDOC44MDA4OSAyLjUwNjAyIDguNTI2NTMgMi43ODAzOCA4LjQxMTQ4IDMuMTMwMThMOC4xNTgxOSAzLjkwMDM0WiIgZmlsbD0iIzQyNkVGRSIvPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAuNDU7MSIga2V5VGltZXM9IjA7MC41OzEiIGR1cj0iMS42cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiLz4KICA8L2c+Cjwvc3ZnPg==",
+        "versions": [
+          {
+            "version": "1.8.5",
+            "publishTimestamp": 1794192419,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.5"
+            }
+          },
+          {
+            "version": "1.8.2",
+            "publishTimestamp": 1792320745,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-alpha.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4d86b52f5bf626c48084ece51c1d0092f55eaf52adc064cd8e17a6a16bd3bb39",
+      "evidence": [
+        {
+          "name": "dsh-memory-palace",
+          "version": "1.8.5",
+          "tarball": "https://registry.npmjs.org/dsh-memory-palace/-/dsh-memory-palace-1.8.5.tgz",
+          "integrity": "sha512-RuwRaURaAmbc2nIS0nIeL/ETbIX8t9ej2TyOaEAwzMGEREaBY04Oq1+9yxy7f3sV4Ro+eyV/fSVn0tv2YZ9RTg=="
+        },
+        {
+          "name": "dsh-memory-palace",
+          "version": "1.8.2",
+          "tarball": "https://registry.npmjs.org/dsh-memory-palace/-/dsh-memory-palace-1.8.2.tgz",
+          "integrity": "sha512-kKYUkc55TAXBCm0X1swmVoNrtsAWeMWfTQ3kTFzuyNERbSM/bXcFQAhLPfope6bJ7ifw9Xev5ZLHreXIAz9ckQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lovezi0/dsh-memory-palace",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lovezi0/dsh-memory-palace#v1.8.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-memory-palace",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lovezi0/dsh-memory-palace",
+    "commit": "081582e13fedb6b8c52f35e1309d50b35416911d",
+    "releaseTags": 40,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:25.605Z"
+}

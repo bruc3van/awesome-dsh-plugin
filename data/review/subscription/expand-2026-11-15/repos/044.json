@@ -1,0 +1,160 @@
+{
+  "full_name": "diqierjia/StrataGate-AgentMemory",
+  "originalPosition": 44,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 44,
+  "batch": 1,
+  "stargazers_count": 118,
+  "startedAt": "2026-11-15T21:00:18.371Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6f2cebff5aea665c4498dc9fa7074bbb4dc36d46af5d19c6cd6cffbe2c90a5d4",
+      "url": "https://github.com/diqierjia/StrataGate-AgentMemory/blob/ab47400509b2f5aa52fbaa8297ba69d56f6d2aa7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "stratagate-dsh",
+          "command": "dsh plugin --profile web add stratagate-dsh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "7eda4acd0cd6737a5a639e4c9833a5a1fea3805844ddd48aaa12cc14d65369ee",
+      "url": "https://github.com/diqierjia/StrataGate-AgentMemory/blob/ab47400509b2f5aa52fbaa8297ba69d56f6d2aa7/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "stratagate-dsh",
+          "command": "dsh plugin --profile web add stratagate-dsh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "stratagate-dsh",
+      "version": "0.3.50",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/diqierjia/StrataGate-AgentMemory",
+        "commit": "ab47400509b2f5aa52fbaa8297ba69d56f6d2aa7"
+      },
+      "manifestSha256": "0e8310865f1988d13b23201188e0af465947f17b35150952fc1e7ff357d2b3a0",
+      "manifestUrl": "https://github.com/diqierjia/StrataGate-AgentMemory/blob/ab47400509b2f5aa52fbaa8297ba69d56f6d2aa7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1 || >=0.1.5-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "stratagate-dsh",
+        "versions": [
+          {
+            "version": "0.3.50",
+            "publishTimestamp": 1794752801,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/diqierjia/StrataGate-AgentMemory",
+              "commit": "ab47400509b2f5aa52fbaa8297ba69d56f6d2aa7"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1 || >=0.1.5-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "stratagate-dsh",
+      "origin": "npm",
+      "name": "stratagate-dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "stratagate-dsh",
+        "title": "stratagate-dsh",
+        "description": "Recent conversations stay vivid. Older ones fade into summaries, not oblivion. StrataGate gives DeepSeek Harness six-layer, time-decaying memory, while lasting events and relationships settle into a knowledge graph. Bring your memories from other AIs with you—no need to start over.",
+        "homepage": "https://gitee.com/diqier4123/StrataGate-AgentMemory",
+        "repository": {
+          "url": "https://github.com/diqierjia/StrataGate-AgentMemory"
+        },
+        "metadata": {
+          "keywords": [
+            "memory",
+            "dsh",
+            "deepseek",
+            "plugin",
+            "agent",
+            "cross-session",
+            "evidence",
+            "deepseek-harness",
+            "dsh-plugin",
+            "agent-memory",
+            "cross-session-memory",
+            "persistent-memory",
+            "project-memory",
+            "conversation-memory",
+            "long-term-memory",
+            "local-first",
+            "time-decay",
+            "usage-reinforcement",
+            "source-traceability",
+            "source-tracing",
+            "evidence-gate"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.50",
+            "publishTimestamp": 1794753412,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1 || >=0.1.5-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d16a75e8a70a03e192b93002359b6deb84316d8fdbdd32e9304846ab8ff0e41f",
+      "evidence": [
+        {
+          "name": "stratagate-dsh",
+          "version": "0.3.50",
+          "tarball": "https://registry.npmjs.org/stratagate-dsh/-/stratagate-dsh-0.3.50.tgz",
+          "integrity": "sha512-lQgUzCe6sQK8BsAQDOZ4016E2fPz5dGFcLZ2tlWAw6jMDAMxMDhd4cV+TFZcNU/Dd+yavK7qCaS76iZmsy52EQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "stratagate-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/diqierjia/StrataGate-AgentMemory",
+    "commit": "ab47400509b2f5aa52fbaa8297ba69d56f6d2aa7",
+    "releaseTags": 86,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:21.459Z"
+}

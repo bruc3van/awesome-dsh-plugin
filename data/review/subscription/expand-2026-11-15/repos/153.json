@@ -1,0 +1,74 @@
+{
+  "full_name": "ALittleLov/dsh-soundcheck",
+  "originalPosition": 153,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 153,
+  "batch": 1,
+  "stargazers_count": 30,
+  "startedAt": "2026-11-15T21:01:09.551Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "361a71a783e656a6c77030a7ba91ab55f8008cb8a3065537f0ae45e57f89b2fa",
+      "url": "https://github.com/ALittleLov/dsh-soundcheck/blob/6913bdf3bbca7328ce1a0ffddd98d30fd0e5cba7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "3b1e4adf264140dac8c87738ec6f575388c0472dbd7a60cbf867b1791ed83df2",
+      "url": "https://github.com/ALittleLov/dsh-soundcheck/blob/6913bdf3bbca7328ce1a0ffddd98d30fd0e5cba7/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-soundcheck",
+      "version": "1.0.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ALittleLov/dsh-soundcheck",
+        "commit": "6913bdf3bbca7328ce1a0ffddd98d30fd0e5cba7"
+      },
+      "manifestSha256": "46b6ca437b08aa2539f26b4b9597cf2851b888feeaec78d3d152ceed159badf4",
+      "manifestUrl": "https://github.com/ALittleLov/dsh-soundcheck/blob/6913bdf3bbca7328ce1a0ffddd98d30fd0e5cba7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-soundcheck",
+        "versions": [
+          {
+            "version": "1.0.8",
+            "publishTimestamp": 1794757154,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ALittleLov/dsh-soundcheck",
+              "commit": "6913bdf3bbca7328ce1a0ffddd98d30fd0e5cba7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ALittleLov/dsh-soundcheck",
+    "commit": "6913bdf3bbca7328ce1a0ffddd98d30fd0e5cba7",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:11.912Z"
+}

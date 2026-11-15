@@ -1,0 +1,122 @@
+{
+  "full_name": "tm5452/dsh-workspace-explorer",
+  "originalPosition": 173,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 173,
+  "batch": 1,
+  "stargazers_count": 28,
+  "startedAt": "2026-11-15T21:01:18.520Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ce52440c44a8d7ffb786fa7b81383aef57b4e44228aa659b2311d3ff708c1246",
+      "url": "https://github.com/tm5452/dsh-workspace-explorer/blob/a8e6b1f27f0104362cc0063b59fe1bbb9f641208/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workspace-explorer",
+          "command": "dsh plugin --profile web add dsh-workspace-explorer",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workspace-explorer",
+      "version": "1.1.34",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tm5452/dsh-workspace-explorer",
+        "commit": "a8e6b1f27f0104362cc0063b59fe1bbb9f641208"
+      },
+      "manifestSha256": "72291400b745155297316df6d3b6a193b44744f034e12baaadec1dd5c152ecd5",
+      "manifestUrl": "https://github.com/tm5452/dsh-workspace-explorer/blob/a8e6b1f27f0104362cc0063b59fe1bbb9f641208/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-workspace-explorer",
+        "versions": [
+          {
+            "version": "1.1.34",
+            "publishTimestamp": 1794593385,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tm5452/dsh-workspace-explorer",
+              "commit": "a8e6b1f27f0104362cc0063b59fe1bbb9f641208"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-workspace-explorer",
+      "origin": "npm",
+      "name": "dsh-workspace-explorer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workspace-explorer",
+        "title": "dsh-workspace-explorer",
+        "description": "Windows disk browsing, file operations and persistent preview in DeepSeek Harness Desktop.",
+        "homepage": "https://github.com/tm5452/dsh-workspace-explorer#readme",
+        "repository": {
+          "url": "https://github.com/tm5452/dsh-workspace-explorer"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "file-explorer"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.34",
+            "publishTimestamp": 1794584518,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0a449bf39cbf03b04fe3d99843a4ecd6260cf3ed21d111e9f3f13ef13eb497eb",
+      "evidence": [
+        {
+          "name": "dsh-workspace-explorer",
+          "version": "1.1.34",
+          "tarball": "https://registry.npmjs.org/dsh-workspace-explorer/-/dsh-workspace-explorer-1.1.34.tgz",
+          "integrity": "sha512-oqwMkby4mANc6oKlpb6vt4g77yWe/P7RQRGujeFSFgZSwQW4o7bkiKiLHUfFxtQiINQvIzBTkSWJvIsTwx5zOg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workspace-explorer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tm5452/dsh-workspace-explorer",
+    "commit": "a8e6b1f27f0104362cc0063b59fe1bbb9f641208",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:20.837Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "oriliz/dsh-mcp-apps-host",
+  "originalPosition": 29,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 29,
+  "batch": 1,
+  "stargazers_count": 204,
+  "startedAt": "2026-11-15T21:00:08.519Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2f9041d5a34be45a163672c4655689d04be19aeddfa7890e4c98d81214d267f9",
+      "url": "https://github.com/oriliz/dsh-mcp-apps-host/blob/2612771f4fdca510adf5dbd256eb9e5d39be4dc3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-mcp-apps-host",
+      "version": "0.1.0-rc.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/oriliz/dsh-mcp-apps-host",
+        "commit": "2612771f4fdca510adf5dbd256eb9e5d39be4dc3"
+      },
+      "manifestSha256": "8ac8525d84201eeaf929d9a0011cf18ecab178118acb08b41ec51696a7141e42",
+      "manifestUrl": "https://github.com/oriliz/dsh-mcp-apps-host/blob/2612771f4fdca510adf5dbd256eb9e5d39be4dc3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-mcp-apps-host",
+        "versions": [
+          {
+            "version": "0.1.0-rc.2",
+            "publishTimestamp": 1793256479,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/oriliz/dsh-mcp-apps-host",
+              "commit": "2612771f4fdca510adf5dbd256eb9e5d39be4dc3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/oriliz/dsh-mcp-apps-host",
+    "commit": "2612771f4fdca510adf5dbd256eb9e5d39be4dc3",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:11.185Z"
+}

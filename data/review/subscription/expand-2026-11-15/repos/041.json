@@ -1,0 +1,139 @@
+{
+  "full_name": "GDWhisper/dsh-ntr",
+  "originalPosition": 41,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 41,
+  "batch": 1,
+  "stargazers_count": 130,
+  "startedAt": "2026-11-15T21:00:15.803Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "897553c696cc842a4674457727a42989fa756443a4de6d5798cc676d9bd67e22",
+      "url": "https://github.com/GDWhisper/dsh-ntr/blob/75c86453d475f86ddb2798fb3ea853f2a11921f3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ntr@latest",
+          "command": "dsh plugin --profile web add dsh-ntr@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "61a1b02f7797e6cc1e9955f24a3c320abb65581ecc85d2cc80b797467ec74257",
+      "url": "https://github.com/GDWhisper/dsh-ntr/blob/75c86453d475f86ddb2798fb3ea853f2a11921f3/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ntr@latest",
+          "command": "dsh plugin --profile web add dsh-ntr@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "7ee89edf39c6234b25f04bc03812cfcd0536abe980e74954f08c28811996f609",
+      "url": "https://github.com/GDWhisper/dsh-ntr/blob/75c86453d475f86ddb2798fb3ea853f2a11921f3/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ntr",
+      "version": "0.4.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GDWhisper/dsh-ntr",
+        "commit": "75c86453d475f86ddb2798fb3ea853f2a11921f3"
+      },
+      "manifestSha256": "a506cc202a445bce4ec3788d8d0aa40ccd9012927b4658b50dd6c5b8636a841e",
+      "manifestUrl": "https://github.com/GDWhisper/dsh-ntr/blob/75c86453d475f86ddb2798fb3ea853f2a11921f3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ntr",
+        "versions": [
+          {
+            "version": "0.4.5",
+            "publishTimestamp": 1794671718,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GDWhisper/dsh-ntr",
+              "commit": "75c86453d475f86ddb2798fb3ea853f2a11921f3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ntr@latest",
+      "origin": "npm",
+      "name": "dsh-ntr",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ntr",
+        "title": "dsh-ntr",
+        "description": {
+          "en": "Interactive Agent Client Protocol (ACP) client for the DSH web UI: attach any ACP-capable agent and stream its session.",
+          "zh": "面向 DSH Web 界面的 ACP（Agent Client Protocol）客户端：接入任意支持 ACP 的 agent，实时展示它的会话。"
+        },
+        "repository": {
+          "url": "https://github.com/GDWhisper/dsh-ntr"
+        },
+        "versions": [
+          {
+            "version": "0.4.5",
+            "publishTimestamp": 1794672529,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5ec3c0096271b33e2211555fbfbcd86404a648ef223693555f013b7d59f2c1cf",
+      "evidence": [
+        {
+          "name": "dsh-ntr",
+          "version": "0.4.5",
+          "tarball": "https://registry.npmjs.org/dsh-ntr/-/dsh-ntr-0.4.5.tgz",
+          "integrity": "sha512-JUbqkV2JvSM/kj/nApbqwgdAk6WKAHH/apuy6bn7eY9onro1z1LrMq1/OMS69XbjENl0iXGjT+tQbkgj+ppP6w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ntr@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GDWhisper/dsh-ntr",
+    "commit": "75c86453d475f86ddb2798fb3ea853f2a11921f3",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:18.931Z"
+}

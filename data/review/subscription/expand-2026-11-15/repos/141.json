@@ -1,0 +1,66 @@
+{
+  "full_name": "CixiSVesper/dsh-soundtry",
+  "originalPosition": 141,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 141,
+  "batch": 1,
+  "stargazers_count": 34,
+  "startedAt": "2026-11-15T21:01:04.402Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4f690b0ec98bc3c7ba38e759cdb3a95319d95596a798629fa7955b7cdb2b9435",
+      "url": "https://github.com/CixiSVesper/dsh-soundtry/blob/212c01f0135d723a3b0ef13cc89d58327ee71c1b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cixisound",
+      "version": "1.0.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CixiSVesper/dsh-soundtry",
+        "commit": "212c01f0135d723a3b0ef13cc89d58327ee71c1b"
+      },
+      "manifestSha256": "4f4dd89e0f2785fd6be8e316fb2065e0ac2c55ef82d6e125a45cdbbd3d402b76",
+      "manifestUrl": "https://github.com/CixiSVesper/dsh-soundtry/blob/212c01f0135d723a3b0ef13cc89d58327ee71c1b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cixisound",
+        "versions": [
+          {
+            "version": "1.0.3",
+            "publishTimestamp": 1794145385,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CixiSVesper/dsh-soundtry",
+              "commit": "212c01f0135d723a3b0ef13cc89d58327ee71c1b"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CixiSVesper/dsh-soundtry",
+    "commit": "212c01f0135d723a3b0ef13cc89d58327ee71c1b",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:06.443Z"
+}

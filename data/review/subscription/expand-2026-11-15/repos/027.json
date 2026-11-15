@@ -1,0 +1,324 @@
+{
+  "full_name": "LarryE135/dsh-flash-presets",
+  "originalPosition": 27,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 27,
+  "batch": 1,
+  "stargazers_count": 204,
+  "startedAt": "2026-11-15T21:00:06.703Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dc8164219a443eecba096fa90d3933509235e243fdefd634c9b05bdd7e16d0af",
+      "url": "https://github.com/LarryE135/dsh-flash-presets/blob/08a5d3e9338ee417282019f551b7da5f7b311797/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-flash-presets@0.3.1",
+          "command": "dsh plugin --profile web add dsh-flash-presets@0.3.1",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/LarryE135/dsh-flash-presets#v0.3.1",
+          "command": "dsh plugin --profile web add github:LarryE135/dsh-flash-presets#v0.3.1",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/LarryE135/dsh-flash-presets#v0.3.1",
+          "command": "dsh plugin --profile desktop add github:LarryE135/dsh-flash-presets#v0.3.1",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-flash-presets",
+          "command": "dsh plugin --profile <名称> add dsh-flash-presets",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/LarryE135/dsh-flash-presets#main",
+          "command": "dsh plugin --profile web add github:LarryE135/dsh-flash-presets#main",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-flash-presets",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LarryE135/dsh-flash-presets",
+        "commit": "08a5d3e9338ee417282019f551b7da5f7b311797"
+      },
+      "manifestSha256": "db89b0ee4304939f9ab65c0522255606505b53008e66e1a047574f647ffed5df",
+      "manifestUrl": "https://github.com/LarryE135/dsh-flash-presets/blob/08a5d3e9338ee417282019f551b7da5f7b311797/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-flash-presets",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794747092,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LarryE135/dsh-flash-presets",
+              "commit": "08a5d3e9338ee417282019f551b7da5f7b311797"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.2.3-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-flash-presets@0.3.1",
+      "origin": "npm",
+      "name": "dsh-flash-presets",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-flash-presets",
+        "title": "dsh-flash-presets",
+        "description": "DSH Flash 精简预设：两个 agent 预设（精简·PTC v3（lean-v3），flash-lean-ptc-v3，13 条规则，默认；精简·PTC v3 balance，flash-lean-ptc-v3-balance，3 条规则），以 DSH 组合包（dsh.bundle）形式安装到 profile，并附带计划模式组件（plan-mode v1）。",
+        "author": "LarryE135",
+        "homepage": "https://github.com/LarryE135/dsh-flash-presets",
+        "repository": {
+          "url": "https://github.com/LarryE135/dsh-flash-presets"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "agent-preset",
+            "preset",
+            "flash",
+            "token-efficiency"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794501516,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.2.3-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f5e20f5cefc3d6a054cd01224511f0917760cbed9aaaaa52c553486f4936707f",
+      "evidence": [
+        {
+          "name": "dsh-flash-presets",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/dsh-flash-presets/-/dsh-flash-presets-0.3.1.tgz",
+          "integrity": "sha512-+JGq9VSTN0jcG3gdnvKRv6FibcyFeSdmblb/kQ+IJczAVSbCsXccZIjt0VL8lxGNUYLJKQlRNQ8fB7A6vtkC6w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "https://github.com/LarryE135/dsh-flash-presets#v0.3.1",
+      "origin": "git_target",
+      "name": "dsh-flash-presets",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-flash-presets",
+        "title": "dsh-flash-presets",
+        "description": "DSH Flash 精简预设：两个 agent 预设（精简·PTC v3（lean-v3），flash-lean-ptc-v3，13 条规则，默认；精简·PTC v3 balance，flash-lean-ptc-v3-balance，3 条规则），以 DSH 组合包（dsh.bundle）形式安装到 profile，并附带计划模式组件（plan-mode v1）。",
+        "author": "LarryE135",
+        "homepage": "https://github.com/LarryE135/dsh-flash-presets",
+        "repository": {
+          "url": "https://github.com/LarryE135/dsh-flash-presets"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "agent-preset",
+            "preset",
+            "flash",
+            "token-efficiency"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794501336,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LarryE135/dsh-flash-presets",
+              "commit": "04b889eba5319c91f044c18882e936a72a1deaef"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.2.3-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "04b889eba5319c91f044c18882e936a72a1deaef",
+          "name": "dsh-flash-presets",
+          "version": "0.3.1",
+          "url": "https://github.com/LarryE135/dsh-flash-presets",
+          "manifestSha256": "884abede0420aff993a8f6239e02f482463f17a5b85176f22e2599ebb5cc772e",
+          "publishTimestamp": 1794501336
+        }
+      ]
+    },
+    {
+      "target": "dsh-flash-presets",
+      "origin": "npm",
+      "name": "dsh-flash-presets",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-flash-presets",
+        "title": "dsh-flash-presets",
+        "description": "DSH Flash 精简预设：两个 agent 预设（精简·PTC v3（lean-v3），flash-lean-ptc-v3，13 条规则，默认；精简·PTC v3 balance，flash-lean-ptc-v3-balance，3 条规则），以 DSH 组合包（dsh.bundle）形式安装到 profile，并附带计划模式组件（plan-mode v1）。",
+        "author": "LarryE135",
+        "homepage": "https://github.com/LarryE135/dsh-flash-presets",
+        "repository": {
+          "url": "https://github.com/LarryE135/dsh-flash-presets"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "agent-preset",
+            "preset",
+            "flash",
+            "token-efficiency"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794501516,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.2.3-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f5e20f5cefc3d6a054cd01224511f0917760cbed9aaaaa52c553486f4936707f",
+      "evidence": [
+        {
+          "name": "dsh-flash-presets",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/dsh-flash-presets/-/dsh-flash-presets-0.3.1.tgz",
+          "integrity": "sha512-+JGq9VSTN0jcG3gdnvKRv6FibcyFeSdmblb/kQ+IJczAVSbCsXccZIjt0VL8lxGNUYLJKQlRNQ8fB7A6vtkC6w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "https://github.com/LarryE135/dsh-flash-presets#main",
+      "origin": "git_target",
+      "name": "dsh-flash-presets",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-flash-presets",
+        "title": "dsh-flash-presets",
+        "description": "DSH Flash 精简预设：两个 agent 预设（精简·PTC v3（lean-v3），flash-lean-ptc-v3，13 条规则，默认；精简·PTC v3 balance，flash-lean-ptc-v3-balance，3 条规则），以 DSH 组合包（dsh.bundle）形式安装到 profile，并附带计划模式组件（plan-mode v1）。",
+        "author": "LarryE135",
+        "homepage": "https://github.com/LarryE135/dsh-flash-presets",
+        "repository": {
+          "url": "https://github.com/LarryE135/dsh-flash-presets"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "agent-preset",
+            "preset",
+            "flash",
+            "token-efficiency"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794747092,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LarryE135/dsh-flash-presets",
+              "commit": "08a5d3e9338ee417282019f551b7da5f7b311797"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.2.3-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "08a5d3e9338ee417282019f551b7da5f7b311797",
+          "name": "dsh-flash-presets",
+          "version": "0.3.1",
+          "url": "https://github.com/LarryE135/dsh-flash-presets",
+          "manifestSha256": "db89b0ee4304939f9ab65c0522255606505b53008e66e1a047574f647ffed5df",
+          "publishTimestamp": 1794747092
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-flash-presets@0.3.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LarryE135/dsh-flash-presets#v0.3.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-flash-presets",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LarryE135/dsh-flash-presets#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LarryE135/dsh-flash-presets",
+    "commit": "08a5d3e9338ee417282019f551b7da5f7b311797",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:12.948Z"
+}

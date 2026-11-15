@@ -1,0 +1,97 @@
+{
+  "full_name": "john-walks-slow/dsh-inject",
+  "originalPosition": 72,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 72,
+  "batch": 1,
+  "stargazers_count": 75,
+  "startedAt": "2026-11-15T21:00:30.406Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "21b6143e840f6ee42a8c37f5e086289b5318557eca2ae4930c4c8a7ff4db19de",
+      "url": "https://github.com/john-walks-slow/dsh-inject/blob/334b7a677e3f7673f934697611382d43e55c0ffa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/john-walks-slow/dsh-inject/releases/latest/download/dsh-inject.tgz",
+          "command": "dsh plugin --profile web add https://github.com/john-walks-slow/dsh-inject/releases/latest/download/dsh-inject.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/john-walks-slow/dsh-inject",
+          "command": "dsh plugin --profile web add github:john-walks-slow/dsh-inject",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-inject",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/john-walks-slow/dsh-inject",
+        "commit": "334b7a677e3f7673f934697611382d43e55c0ffa"
+      },
+      "manifestSha256": "73c7c50077fec2bb3e2702ba4f65740fcc5ac72ea226097e36a2ae54507019d6",
+      "manifestUrl": "https://github.com/john-walks-slow/dsh-inject/blob/334b7a677e3f7673f934697611382d43e55c0ffa/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-inject",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1794594310,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/john-walks-slow/dsh-inject",
+              "commit": "334b7a677e3f7673f934697611382d43e55c0ffa"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/john-walks-slow/dsh-inject/releases/latest/download/dsh-inject.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/john-walks-slow/dsh-inject/releases/latest/download/dsh-inject.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/john-walks-slow/dsh-inject",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/john-walks-slow/dsh-inject",
+    "commit": "334b7a677e3f7673f934697611382d43e55c0ffa",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:32.357Z"
+}

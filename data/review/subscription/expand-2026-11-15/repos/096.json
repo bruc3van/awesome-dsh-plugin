@@ -1,0 +1,40 @@
+{
+  "full_name": "lna-lab/distill-kura",
+  "originalPosition": 96,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 96,
+  "batch": 1,
+  "stargazers_count": 54,
+  "startedAt": "2026-11-15T21:00:42.164Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5977d5de1c72a17dd4e0b3935580104531feec7c193a81ca16b3ccc9ed38ef0d",
+      "url": "https://github.com/lna-lab/distill-kura/blob/3a02c04e5155cd66d49cfd95d11b09239499c97d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lna-lab/distill-kura",
+    "commit": "3a02c04e5155cd66d49cfd95d11b09239499c97d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-15T21:00:44.361Z"
+}

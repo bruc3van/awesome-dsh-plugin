@@ -1,0 +1,40 @@
+{
+  "full_name": "ChangedenCZD/dsh-minimal-turbo",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "stargazers_count": 40,
+  "startedAt": "2026-11-15T21:00:56.910Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0e7c9c376240564ac3591bef28a1c020955cf4ce457bb1d521206b83616b56af",
+      "url": "https://github.com/ChangedenCZD/dsh-minimal-turbo/blob/cdbf96a0f2e4c886c9f9e8d0cb21a45f5122355a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ChangedenCZD/dsh-minimal-turbo",
+    "commit": "cdbf96a0f2e4c886c9f9e8d0cb21a45f5122355a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-15T21:00:58.505Z"
+}

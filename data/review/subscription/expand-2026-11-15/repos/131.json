@@ -1,0 +1,74 @@
+{
+  "full_name": "Minglink/wanxiang-knowledge",
+  "originalPosition": 131,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 131,
+  "batch": 1,
+  "stargazers_count": 38,
+  "startedAt": "2026-11-15T21:01:00.073Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "57dcd9757a5475504d9c698104d567408d93e34c886af687aa1ab2d505b03140",
+      "url": "https://github.com/Minglink/wanxiang-knowledge/blob/cf369a915e40115887ae15852d539f5aaaa4ec7f/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "knowledge/README.md",
+      "sha256": "dc70bf148a5046f5cc0660c59e3730d20e5fa22d349f32f98269f8341cd91811",
+      "url": "https://github.com/Minglink/wanxiang-knowledge/blob/cf369a915e40115887ae15852d539f5aaaa4ec7f/knowledge/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wanxiang-knowledge",
+      "version": "0.2.0-alpha.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Minglink/wanxiang-knowledge",
+        "commit": "cf369a915e40115887ae15852d539f5aaaa4ec7f"
+      },
+      "manifestSha256": "96b93f451c3270890d907dd5b35c88f85ae0f33a50c4888799d4f5ddac0a4bc4",
+      "manifestUrl": "https://github.com/Minglink/wanxiang-knowledge/blob/cf369a915e40115887ae15852d539f5aaaa4ec7f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-wanxiang-knowledge",
+        "versions": [
+          {
+            "version": "0.2.0-alpha.10",
+            "publishTimestamp": 1793033634,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Minglink/wanxiang-knowledge",
+              "commit": "cf369a915e40115887ae15852d539f5aaaa4ec7f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Minglink/wanxiang-knowledge",
+    "commit": "cf369a915e40115887ae15852d539f5aaaa4ec7f",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:02.600Z"
+}

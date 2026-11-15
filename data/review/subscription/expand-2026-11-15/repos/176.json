@@ -1,0 +1,51 @@
+{
+  "full_name": "LoserFox/distill",
+  "originalPosition": 176,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 176,
+  "batch": 1,
+  "stargazers_count": 27,
+  "startedAt": "2026-11-15T21:01:20.086Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7df0effe03a3aaae5e5305f461b2bc09c0b11a19d63fda071b75611001a0ce2e",
+      "url": "https://github.com/LoserFox/distill/blob/78a508c8839a0cd4205c95416905d7d5e2e2775e/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@loserfox/distill",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LoserFox/distill",
+        "commit": "78a508c8839a0cd4205c95416905d7d5e2e2775e"
+      },
+      "manifestSha256": "7233f33135e241b4baf0465fa6c62f9a611f489cb72101901a0f346389a39d42",
+      "manifestUrl": "https://github.com/LoserFox/distill/blob/78a508c8839a0cd4205c95416905d7d5e2e2775e/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "no DSH version satisfies every DSH peer range: ^0.1.0-rc.6, ^0.0.1-rc.1",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LoserFox/distill",
+    "commit": "78a508c8839a0cd4205c95416905d7d5e2e2775e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-11-15T21:01:22.418Z"
+}

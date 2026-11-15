@@ -1,0 +1,179 @@
+{
+  "full_name": "tonyzdev/dsh-language-bridge",
+  "originalPosition": 90,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 90,
+  "batch": 1,
+  "stargazers_count": 60,
+  "startedAt": "2026-11-15T21:00:39.284Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "28044210f325c8beb7c33e4801aea6a66e1ffc58ed7f953cbb4f61a4d6b0166d",
+      "url": "https://github.com/tonyzdev/dsh-language-bridge/blob/05870be361c87d865d311f4e1bcf4a492dadeef7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tonyzdev/dsh-language-bridge",
+          "command": "dsh plugin --profile <profile> add github:tonyzdev/dsh-language-bridge",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "206e09fa64ec2c710e149ace71b99f37183213cd4345a192496d96f5fd31f50c",
+      "url": "https://github.com/tonyzdev/dsh-language-bridge/blob/05870be361c87d865d311f4e1bcf4a492dadeef7/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tonyzdev/dsh-language-bridge",
+          "command": "dsh plugin --profile <profile> add github:tonyzdev/dsh-language-bridge",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "e20c1505655c5267f392809ae61aa28121e709f1924a26e4d39407b3e2076910",
+      "url": "https://github.com/tonyzdev/dsh-language-bridge/blob/05870be361c87d865d311f4e1bcf4a492dadeef7/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tonyzdev/dsh-language-bridge",
+          "command": "dsh plugin --profile <profile> add github:tonyzdev/dsh-language-bridge",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "004e92166c1f370dda4462b0f90e8315f2a2074a2e943e9f12e9870ad62f4d20",
+      "url": "https://github.com/tonyzdev/dsh-language-bridge/blob/05870be361c87d865d311f4e1bcf4a492dadeef7/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tonyzdev/dsh-language-bridge",
+          "command": "dsh plugin --profile <profile> add github:tonyzdev/dsh-language-bridge",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "581fcc040dce98be17cc4deb12c69ea65af664387011d8b84f1fbf06a458ddb6",
+      "url": "https://github.com/tonyzdev/dsh-language-bridge/blob/05870be361c87d865d311f4e1bcf4a492dadeef7/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tonyzdev/dsh-language-bridge",
+          "command": "dsh plugin --profile <profile> add github:tonyzdev/dsh-language-bridge",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "48a534dd3b0362834d66dbab64c41106e34159dd4a916bf9e700a949a6bffc03",
+      "url": "https://github.com/tonyzdev/dsh-language-bridge/blob/05870be361c87d865d311f4e1bcf4a492dadeef7/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tonyzdev/dsh-language-bridge",
+          "command": "dsh plugin --profile <profile> add github:tonyzdev/dsh-language-bridge",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "7811ade162d04313547af4adfc9996b90347343c3413c9e2e66abe010703e48d",
+      "url": "https://github.com/tonyzdev/dsh-language-bridge/blob/05870be361c87d865d311f4e1bcf4a492dadeef7/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tonyzdev/dsh-language-bridge",
+          "command": "dsh plugin --profile <profile> add github:tonyzdev/dsh-language-bridge",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.pt.md",
+      "sha256": "61f555f04f656d623bc40c69d413bcf8922a6fa0a696bc4baeebe081aa1bbe58",
+      "url": "https://github.com/tonyzdev/dsh-language-bridge/blob/05870be361c87d865d311f4e1bcf4a492dadeef7/README.pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tonyzdev/dsh-language-bridge",
+          "command": "dsh plugin --profile <profile> add github:tonyzdev/dsh-language-bridge",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-language-bridge",
+      "version": "2.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tonyzdev/dsh-language-bridge",
+        "commit": "05870be361c87d865d311f4e1bcf4a492dadeef7"
+      },
+      "manifestSha256": "f22c71894e196629738b4f83fa61cac30c113f1edf00cfbd3098151f49ea0abe",
+      "manifestUrl": "https://github.com/tonyzdev/dsh-language-bridge/blob/05870be361c87d865d311f4e1bcf4a492dadeef7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-language-bridge",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1793822123,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tonyzdev/dsh-language-bridge",
+              "commit": "05870be361c87d865d311f4e1bcf4a492dadeef7"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/tonyzdev/dsh-language-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tonyzdev/dsh-language-bridge",
+    "commit": "05870be361c87d865d311f4e1bcf4a492dadeef7",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:44.012Z"
+}

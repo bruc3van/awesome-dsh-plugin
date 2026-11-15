@@ -1,0 +1,138 @@
+{
+  "full_name": "Yuuyuko-uu/dsh-tts-bridge",
+  "originalPosition": 19,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 19,
+  "batch": 1,
+  "stargazers_count": 257,
+  "startedAt": "2026-11-15T21:00:03.160Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cfe3de76f1871624af40a259e4854ea507c0f289c842e8afddb873ace53ef79e",
+      "url": "https://github.com/Yuuyuko-uu/dsh-tts-bridge/blob/02060a151ade616cbc69a89a8dd63728417408d8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tts-bridge",
+          "command": "dsh plugin --profile web add dsh-tts-bridge",
+          "profile": "web"
+        },
+        {
+          "install": "https://codeload.github.com/Yuuyuko-uu/dsh-tts-bridge/tar.gz/refs/heads/main",
+          "command": "dsh plugin --profile web add https://codeload.github.com/Yuuyuko-uu/dsh-tts-bridge/tar.gz/refs/heads/main",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tts-bridge",
+      "version": "1.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yuuyuko-uu/dsh-tts-bridge",
+        "commit": "02060a151ade616cbc69a89a8dd63728417408d8"
+      },
+      "manifestSha256": "3f9cade782fa925dba2af63f94b401756e1d4294c9ab475960e7d5efe9823809",
+      "manifestUrl": "https://github.com/Yuuyuko-uu/dsh-tts-bridge/blob/02060a151ade616cbc69a89a8dd63728417408d8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tts-bridge",
+        "versions": [
+          {
+            "version": "1.3.3",
+            "publishTimestamp": 1793469519,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yuuyuko-uu/dsh-tts-bridge",
+              "commit": "02060a151ade616cbc69a89a8dd63728417408d8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-tts-bridge",
+      "origin": "npm",
+      "name": "dsh-tts-bridge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tts-bridge",
+        "title": "dsh-tts-bridge",
+        "description": "朗读桥：把 DSH 会话里的话，交给你自己浏览器里登录的 DeepSeek 网页端朗读出来",
+        "repository": {
+          "url": "https://github.com/Yuuyuko-uu/dsh-tts-bridge"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "tts",
+            "read-aloud"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.3.3",
+            "publishTimestamp": 1793469708,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4143ddc4db6582a599a4af1c50e9a8d1ad0fad66d6fd62929581427dfa0868a3",
+      "evidence": [
+        {
+          "name": "dsh-tts-bridge",
+          "version": "1.3.3",
+          "tarball": "https://registry.npmjs.org/dsh-tts-bridge/-/dsh-tts-bridge-1.3.3.tgz",
+          "integrity": "sha512-/+END0aqqCheF55TOFqLq24mbQXtzsxPIxC67LFugF+aj/ofQp5/VEwqJ8R7P7VWkYuzJA9cxRmUARxEMXY63A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://codeload.github.com/Yuuyuko-uu/dsh-tts-bridge/tar.gz/refs/heads/main",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "GitHub codeload 是归档下载地址，不是 Git 仓库；format-1 需要 npm 包或经核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tts-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://codeload.github.com/Yuuyuko-uu/dsh-tts-bridge/tar.gz/refs/heads/main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yuuyuko-uu/dsh-tts-bridge",
+    "commit": "02060a151ade616cbc69a89a8dd63728417408d8",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:05.209Z"
+}

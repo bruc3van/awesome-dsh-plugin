@@ -1,0 +1,95 @@
+{
+  "full_name": "Kide-Lee/dsh-locus-bridge",
+  "originalPosition": 149,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 149,
+  "batch": 1,
+  "stargazers_count": 31,
+  "startedAt": "2026-11-15T21:01:07.883Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "af2b13ee87b0292849c277ecd86e1c14b96f9aa011ccd5570b846f2c3ce2ba11",
+      "url": "https://github.com/Kide-Lee/dsh-locus-bridge/blob/9b2b494228aa10ef08a1ad56a4141d618277586a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Kide-Lee/dsh-locus-bridge",
+          "command": "dsh plugin --profile <profile> add github:Kide-Lee/dsh-locus-bridge",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "0192ee1577e03cb18024ff2ac64700b8c76f809cb2fe568b829f1bd7d9fafe81",
+      "url": "https://github.com/Kide-Lee/dsh-locus-bridge/blob/9b2b494228aa10ef08a1ad56a4141d618277586a/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Kide-Lee/dsh-locus-bridge",
+          "command": "dsh plugin --profile <profile> add github:Kide-Lee/dsh-locus-bridge",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-locus-bridge",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Kide-Lee/dsh-locus-bridge",
+        "commit": "9b2b494228aa10ef08a1ad56a4141d618277586a"
+      },
+      "manifestSha256": "23209df0058c01892b4a9387a0bcb7b53ad5648ee2737bb8b14d2984ec3caa11",
+      "manifestUrl": "https://github.com/Kide-Lee/dsh-locus-bridge/blob/9b2b494228aa10ef08a1ad56a4141d618277586a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-alpha.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-locus-bridge",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1794761341,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Kide-Lee/dsh-locus-bridge",
+              "commit": "9b2b494228aa10ef08a1ad56a4141d618277586a"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Kide-Lee/dsh-locus-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Kide-Lee/dsh-locus-bridge",
+    "commit": "9b2b494228aa10ef08a1ad56a4141d618277586a",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:10.459Z"
+}

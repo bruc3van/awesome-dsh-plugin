@@ -1,0 +1,87 @@
+{
+  "full_name": "kdcadmin/dsh_douyin_tools",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "stargazers_count": 41,
+  "startedAt": "2026-11-15T21:00:56.640Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8fec64c1994037ae7050cb475961f6be14dd63d5e263b8501f449f6f42a658e0",
+      "url": "https://github.com/kdcadmin/dsh_douyin_tools/blob/5c3a644d3586d81e9473b14ad76b7776d7137b93/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-douyin-life",
+          "command": "dsh plugin add dsh-douyin-life",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-douyin-life",
+      "version": "0.2.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kdcadmin/dsh_douyin_tools",
+        "commit": "5c3a644d3586d81e9473b14ad76b7776d7137b93"
+      },
+      "manifestSha256": "1dd758ab04af437cc4b473c1c4234ecabf7244085be0ea2d0e94e5dfa77fd1d7",
+      "manifestUrl": "https://github.com/kdcadmin/dsh_douyin_tools/blob/5c3a644d3586d81e9473b14ad76b7776d7137b93/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-douyin-life",
+        "versions": [
+          {
+            "version": "0.2.9",
+            "publishTimestamp": 1794408397,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kdcadmin/dsh_douyin_tools",
+              "commit": "5c3a644d3586d81e9473b14ad76b7776d7137b93"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-douyin-life",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-douyin-life",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kdcadmin/dsh_douyin_tools",
+    "commit": "5c3a644d3586d81e9473b14ad76b7776d7137b93",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:58.761Z"
+}

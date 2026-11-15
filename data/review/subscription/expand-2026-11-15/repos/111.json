@@ -1,0 +1,225 @@
+{
+  "full_name": "drscrewdriver/dsh-browser-cdp",
+  "originalPosition": 111,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 111,
+  "batch": 1,
+  "stargazers_count": 45,
+  "startedAt": "2026-11-15T21:00:49.969Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ae9bfead9a8c8afcc0ed8df55469a3871a5dc3fc85a1e13122af34143726d9a7",
+      "url": "https://github.com/drscrewdriver/dsh-browser-cdp/blob/e16d486c016564bd0fd2347f0b0dced3d44d1fdc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-browser-cdp",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-browser-cdp",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-browser-cdp#v0.9.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-browser-cdp#v0.9.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "ca62a733280e94c7702021a20fe0d874b571a21db759daab45cf22fba9433592",
+      "url": "https://github.com/drscrewdriver/dsh-browser-cdp/blob/e16d486c016564bd0fd2347f0b0dced3d44d1fdc/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-browser-cdp",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-browser-cdp",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-browser-cdp#v0.9.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-browser-cdp#v0.9.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "77dba76c338417ed55dbae67c6ce810bbfd12a55105aaa4b9108fb736806e815",
+      "url": "https://github.com/drscrewdriver/dsh-browser-cdp/blob/e16d486c016564bd0fd2347f0b0dced3d44d1fdc/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-browser-cdp",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-browser-cdp",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-browser-cdp#v0.9.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-browser-cdp#v0.9.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.it.md",
+      "sha256": "4e2ac0a578fc7b59e4acbb0945292cc63c555119d79734992cccac0a24ebb147",
+      "url": "https://github.com/drscrewdriver/dsh-browser-cdp/blob/e16d486c016564bd0fd2347f0b0dced3d44d1fdc/README.it.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-browser-cdp",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-browser-cdp",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-browser-cdp#v0.9.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-browser-cdp#v0.9.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "e6c13d059e4872feaeb716899748946962f1917d10c00c36f89286103b52690f",
+      "url": "https://github.com/drscrewdriver/dsh-browser-cdp/blob/e16d486c016564bd0fd2347f0b0dced3d44d1fdc/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-browser-cdp",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-browser-cdp",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-browser-cdp#v0.9.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-browser-cdp#v0.9.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "6ef71160a1deaab648e086f6958b60ccff8023c4ae7fc22bce9d06b4f5adb977",
+      "url": "https://github.com/drscrewdriver/dsh-browser-cdp/blob/e16d486c016564bd0fd2347f0b0dced3d44d1fdc/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-browser-cdp",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-browser-cdp",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-browser-cdp#v0.9.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-browser-cdp#v0.9.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-browser-cdp",
+      "version": "1.12.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/drscrewdriver/dsh-browser-cdp",
+        "commit": "e16d486c016564bd0fd2347f0b0dced3d44d1fdc"
+      },
+      "manifestSha256": "1bd912a72daa93b0e7d3ef97f0023b2b1cce877fc961f55c27198b0bd5f232b4",
+      "manifestUrl": "https://github.com/drscrewdriver/dsh-browser-cdp/blob/e16d486c016564bd0fd2347f0b0dced3d44d1fdc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-browser-cdp",
+        "versions": [
+          {
+            "version": "1.12.2",
+            "publishTimestamp": 1794764111,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-browser-cdp",
+              "commit": "e16d486c016564bd0fd2347f0b0dced3d44d1fdc"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/drscrewdriver/dsh-browser-cdp#v0.9.0",
+      "origin": "git_target",
+      "name": "dsh-browser-cdp",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-browser-cdp",
+        "title": "dsh-browser-cdp",
+        "description": "dsh-browser-cdp: DSH browser plugin — attach to a running Chrome/Edge over CDP (no bundled browser needed); structured browser-automation tools (30+ ego_*) that drive the vendored ego runtime through ctx.subprocess, plus a realtime watch panel (live SSE screencast + direct mouse interaction + download capture + human-verification notice). Web shell: floating watch panel without dsh-better-sidebar, sidebar tab with it. Headless/TUI hosts: tools-only. [0.1.2-rc.1: verified compatible with DSH v0.1.2-rc.1 and v0.1.3-alpha.1]",
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-browser-cdp"
+        },
+        "versions": [
+          {
+            "version": "0.9.0",
+            "publishTimestamp": 1790155460,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-browser-cdp",
+              "commit": "a731423b1305f61064b3bf145853ccf0648dea22"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "a731423b1305f61064b3bf145853ccf0648dea22",
+          "name": "dsh-browser-cdp",
+          "version": "0.9.0",
+          "url": "https://github.com/drscrewdriver/dsh-browser-cdp",
+          "manifestSha256": "2c9a5a6a892b716041e070b57a0f6125352b1db554ac1ca2902ad79edc6eb5c8",
+          "publishTimestamp": 1790155460
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/drscrewdriver/dsh-browser-cdp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/drscrewdriver/dsh-browser-cdp#v0.9.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/drscrewdriver/dsh-browser-cdp",
+    "commit": "e16d486c016564bd0fd2347f0b0dced3d44d1fdc",
+    "releaseTags": 33,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:56.061Z"
+}

@@ -1,0 +1,339 @@
+{
+  "full_name": "cherrchen/dsh-plugin-multi-root-workspace",
+  "originalPosition": 199,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 199,
+  "batch": 1,
+  "stargazers_count": 25,
+  "startedAt": "2026-11-15T21:01:30.921Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8e1a4b500fb0d140781d30e97dad797278fe9d9566a66f971716cb3939253480",
+      "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace/blob/53ae34d1ffb32043bcb8add1d17414c748195035/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-electron/dsh-plugin-multi-root-workspace",
+          "command": "dsh plugin --profile web add @dsh-electron/dsh-plugin-multi-root-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "@dsh-electron/dsh-plugin-multi-root-workspace@0.1.20",
+          "command": "dsh plugin --profile desktop add @dsh-electron/dsh-plugin-multi-root-workspace@0.1.20",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace",
+          "command": "dsh plugin --profile web add github:cherrchen/dsh-plugin-multi-root-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace#v0.1.20",
+          "command": "dsh plugin --profile web add github:cherrchen/dsh-plugin-multi-root-workspace#v0.1.20",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b1870fab79bf4aa6a8dd1d1d9a537f78bec666b6518ca9ca318989873daa577e",
+      "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace/blob/53ae34d1ffb32043bcb8add1d17414c748195035/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-electron/dsh-plugin-multi-root-workspace",
+          "command": "dsh plugin --profile web add @dsh-electron/dsh-plugin-multi-root-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "@dsh-electron/dsh-plugin-multi-root-workspace@0.1.20",
+          "command": "dsh plugin --profile desktop add @dsh-electron/dsh-plugin-multi-root-workspace@0.1.20",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace",
+          "command": "dsh plugin --profile web add github:cherrchen/dsh-plugin-multi-root-workspace",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace#v0.1.20",
+          "command": "dsh plugin --profile web add github:cherrchen/dsh-plugin-multi-root-workspace#v0.1.20",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/guide/README.md",
+      "sha256": "429f8bbbc51067006e691c7c511afd3b5125a88bbfbf09dea0033026e665b833",
+      "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace/blob/53ae34d1ffb32043bcb8add1d17414c748195035/docs/guide/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "src/auto-review/README.md",
+      "sha256": "853d09fba7e315a2fdc2c32ee1ce1f8a3214f4fbf46542425a45036e876b4a74",
+      "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace/blob/53ae34d1ffb32043bcb8add1d17414c748195035/src/auto-review/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "b478d9ac1ceccb268090122bdb46a2b8e39e96af95943ac3478841a6aa0a38fb",
+      "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace/blob/53ae34d1ffb32043bcb8add1d17414c748195035/docs/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "docs/decisions/README.md",
+      "sha256": "78b945013d7e3fc90b00a5b89c3143171c57698f0c6b39942a1f17fb0510bc20",
+      "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace/blob/53ae34d1ffb32043bcb8add1d17414c748195035/docs/decisions/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/plans/README.md",
+      "sha256": "cf73bbd4a6f4b9568041857724500fc452edfb65136a805ced9214792928290f",
+      "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace/blob/53ae34d1ffb32043bcb8add1d17414c748195035/docs/plans/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/troubleshooting/README.md",
+      "sha256": "330c19968fa60f2a969d5bae4e2f77c5cac6a4dd8907f32cc10b5e62955dec32",
+      "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace/blob/53ae34d1ffb32043bcb8add1d17414c748195035/docs/troubleshooting/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "docs/guide/README.en.md",
+      "sha256": "2d9ee120081248c590d3c45b08ae9678877671f1cb3e2f9f11debce504667254",
+      "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace/blob/53ae34d1ffb32043bcb8add1d17414c748195035/docs/guide/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "src/auto-review/README.en.md",
+      "sha256": "3737ad8fc24e660e9044212bd28d04cd3be8f562ddb2c8936c4705081536aa39",
+      "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace/blob/53ae34d1ffb32043bcb8add1d17414c748195035/src/auto-review/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-electron/dsh-plugin-multi-root-workspace",
+      "version": "0.1.20",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace",
+        "commit": "53ae34d1ffb32043bcb8add1d17414c748195035"
+      },
+      "manifestSha256": "b8dcc8f3be770569f1d04ad7f113cb45ae0466475f91c4ba3d8d767a73434a5e",
+      "manifestUrl": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace/blob/53ae34d1ffb32043bcb8add1d17414c748195035/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.5-rc.2 || 0.1.6-alpha.1 || 0.1.6-alpha.2 || 0.1.7-alpha.1 || 0.1.7-alpha.2 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || 0.2.2-rc.1 || 0.2.2-rc.2 || 0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-electron/dsh-plugin-multi-root-workspace",
+        "versions": [
+          {
+            "version": "0.1.20",
+            "publishTimestamp": 1794760653,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace",
+              "commit": "53ae34d1ffb32043bcb8add1d17414c748195035"
+            },
+            "engines": {
+              "dsh": "0.1.5-rc.2 || 0.1.6-alpha.1 || 0.1.6-alpha.2 || 0.1.7-alpha.1 || 0.1.7-alpha.2 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || 0.2.2-rc.1 || 0.2.2-rc.2 || 0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@dsh-electron/dsh-plugin-multi-root-workspace",
+      "origin": "npm",
+      "name": "@dsh-electron/dsh-plugin-multi-root-workspace",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dsh-electron/dsh-plugin-multi-root-workspace",
+        "title": {
+          "en": "Multi-root workspace",
+          "zh": "多根工作区"
+        },
+        "description": {
+          "en": "Adds secondary working directories to a session: register a folder once and the agent reads and writes it beside the primary root through one shared sandbox scope — file tools, confined shells, and terminals included.",
+          "zh": "为会话添加附属工作目录：登记一次，Agent 即可在主工作目录之外读写该目录——文件工具、受限 shell 和终端都纳入同一共享沙箱范围。"
+        },
+        "repository": {
+          "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace"
+        },
+        "versions": [
+          {
+            "version": "0.1.20",
+            "publishTimestamp": 1794747465,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.5-rc.2 || 0.1.6-alpha.1 || 0.1.6-alpha.2 || 0.1.7-alpha.1 || 0.1.7-alpha.2 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || 0.2.2-rc.1 || 0.2.2-rc.2 || 0.2.2-rc.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8bc2526685847d2a2ae6e76215e460d5dcbe499e37823bed02a2e8515d4e5a45",
+      "evidence": [
+        {
+          "name": "@dsh-electron/dsh-plugin-multi-root-workspace",
+          "version": "0.1.20",
+          "tarball": "https://registry.npmjs.org/@dsh-electron/dsh-plugin-multi-root-workspace/-/dsh-plugin-multi-root-workspace-0.1.20.tgz",
+          "integrity": "sha512-cgRvkLYO0Ox68gunUPHyV9r8XodQ6VQgozZdYBOdatrKfqLNfiwpmvbPbxDPKuXfKKUnJHngj5DCCeDwRMkvXA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@dsh-electron/dsh-plugin-multi-root-workspace@0.1.20",
+      "origin": "npm",
+      "name": "@dsh-electron/dsh-plugin-multi-root-workspace",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dsh-electron/dsh-plugin-multi-root-workspace",
+        "title": {
+          "en": "Multi-root workspace",
+          "zh": "多根工作区"
+        },
+        "description": {
+          "en": "Adds secondary working directories to a session: register a folder once and the agent reads and writes it beside the primary root through one shared sandbox scope — file tools, confined shells, and terminals included.",
+          "zh": "为会话添加附属工作目录：登记一次，Agent 即可在主工作目录之外读写该目录——文件工具、受限 shell 和终端都纳入同一共享沙箱范围。"
+        },
+        "repository": {
+          "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace"
+        },
+        "versions": [
+          {
+            "version": "0.1.20",
+            "publishTimestamp": 1794747465,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.5-rc.2 || 0.1.6-alpha.1 || 0.1.6-alpha.2 || 0.1.7-alpha.1 || 0.1.7-alpha.2 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || 0.2.2-rc.1 || 0.2.2-rc.2 || 0.2.2-rc.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8bc2526685847d2a2ae6e76215e460d5dcbe499e37823bed02a2e8515d4e5a45",
+      "evidence": [
+        {
+          "name": "@dsh-electron/dsh-plugin-multi-root-workspace",
+          "version": "0.1.20",
+          "tarball": "https://registry.npmjs.org/@dsh-electron/dsh-plugin-multi-root-workspace/-/dsh-plugin-multi-root-workspace-0.1.20.tgz",
+          "integrity": "sha512-cgRvkLYO0Ox68gunUPHyV9r8XodQ6VQgozZdYBOdatrKfqLNfiwpmvbPbxDPKuXfKKUnJHngj5DCCeDwRMkvXA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace#v0.1.20",
+      "origin": "git_target",
+      "name": "@dsh-electron/dsh-plugin-multi-root-workspace",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dsh-electron/dsh-plugin-multi-root-workspace",
+        "title": {
+          "en": "Multi-root workspace",
+          "zh": "多根工作区"
+        },
+        "description": {
+          "en": "Adds secondary working directories to a session: register a folder once and the agent reads and writes it beside the primary root through one shared sandbox scope — file tools, confined shells, and terminals included.",
+          "zh": "为会话添加附属工作目录：登记一次，Agent 即可在主工作目录之外读写该目录——文件工具、受限 shell 和终端都纳入同一共享沙箱范围。"
+        },
+        "repository": {
+          "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace"
+        },
+        "versions": [
+          {
+            "version": "0.1.20",
+            "publishTimestamp": 1794745200,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace",
+              "commit": "7a29f1b1f9f697cb616b8b12636000c7ae5fd2bd"
+            },
+            "engines": {
+              "dsh": "0.1.5-rc.2 || 0.1.6-alpha.1 || 0.1.6-alpha.2 || 0.1.7-alpha.1 || 0.1.7-alpha.2 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || 0.2.2-rc.1 || 0.2.2-rc.2 || 0.2.2-rc.3"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "7a29f1b1f9f697cb616b8b12636000c7ae5fd2bd",
+          "name": "@dsh-electron/dsh-plugin-multi-root-workspace",
+          "version": "0.1.20",
+          "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace",
+          "manifestSha256": "b8dcc8f3be770569f1d04ad7f113cb45ae0466475f91c4ba3d8d767a73434a5e",
+          "publishTimestamp": 1794745200
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dsh-electron/dsh-plugin-multi-root-workspace",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dsh-electron/dsh-plugin-multi-root-workspace@0.1.20",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace#v0.1.20",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cherrchen/dsh-plugin-multi-root-workspace",
+    "commit": "53ae34d1ffb32043bcb8add1d17414c748195035",
+    "releaseTags": 21,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:39.529Z"
+}

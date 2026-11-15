@@ -1,0 +1,166 @@
+{
+  "full_name": "g-yixuan/dsh-sidenote",
+  "originalPosition": 107,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 107,
+  "batch": 1,
+  "stargazers_count": 47,
+  "startedAt": "2026-11-15T21:00:48.667Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5f9480827d7a487cb777849327ce9d37c264feb718eea142f1cdc79c12e9bb36",
+      "url": "https://github.com/g-yixuan/dsh-sidenote/blob/3c0a3ae12a35dc58c2a6e2e18907a91a7c08ca5c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sidenote",
+          "command": "dsh plugin --profile web add dsh-sidenote",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "3818460c3a7a1d36296bd272c53af0cf0e72105bb84e306a4e6829c48e285d89",
+      "url": "https://github.com/g-yixuan/dsh-sidenote/blob/3c0a3ae12a35dc58c2a6e2e18907a91a7c08ca5c/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sidenote",
+          "command": "dsh plugin --profile web add dsh-sidenote",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sidenote",
+      "version": "0.8.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/g-yixuan/dsh-sidenote",
+        "commit": "3c0a3ae12a35dc58c2a6e2e18907a91a7c08ca5c"
+      },
+      "manifestSha256": "0f36a24775fc114c0e804201a16f707822d4ab86f54ed3204c0f0292c8612628",
+      "manifestUrl": "https://github.com/g-yixuan/dsh-sidenote/blob/3c0a3ae12a35dc58c2a6e2e18907a91a7c08ca5c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-sidenote",
+        "versions": [
+          {
+            "version": "0.8.7",
+            "publishTimestamp": 1794580486,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/g-yixuan/dsh-sidenote",
+              "commit": "3c0a3ae12a35dc58c2a6e2e18907a91a7c08ca5c"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.2.3-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-sidenote",
+      "origin": "npm",
+      "name": "dsh-sidenote",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-sidenote",
+        "title": "dsh-sidenote",
+        "description": "Follow the tangent. Keep the thread. Annotate, explore on the side, and bring answers back to DeepSeek Harness. / 思路可以分岔，主线始终向前。划选注释、侧边追问，再把结论带回正在推进的任务。",
+        "author": "gyixuan",
+        "homepage": "https://github.com/g-yixuan/dsh-sidenote#readme",
+        "repository": {
+          "url": "https://github.com/g-yixuan/dsh-sidenote"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "dsh-better-sidebar",
+            "side-chat",
+            "annotation",
+            "ai-coding",
+            "deepseek"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzNCNUJGRCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyNzQzRDgiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiByeD0iMjgiIGZpbGw9InVybCgjYmcpIi8+CiAgPCEtLSDkuLvljLrvvJrkuKTooYzmlofmnKzvvIjkuLvlr7nor53mtYHvvInigJTigJTlnoLnm7TkuK3lv4PphY3lubMgLS0+CiAgPHJlY3QgeD0iMjQiIHk9IjQyIiB3aWR0aD0iNDYiIGhlaWdodD0iOSIgcng9IjQuNSIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iMC45MiIvPgogIDxyZWN0IHg9IjI0IiB5PSI1OSIgd2lkdGg9IjM2IiBoZWlnaHQ9IjkiIHJ4PSI0LjUiIGZpbGw9IiNmZmYiIG9wYWNpdHk9IjAuNSIvPgogIDwhLS0g5L6n5qCP5YiG6ZqU57q/IC0tPgogIDxyZWN0IHg9Ijc5IiB5PSIzMCIgd2lkdGg9IjIuNSIgaGVpZ2h0PSI2OCIgcng9IjEuMjUiIGZpbGw9IiNmZmYiIG9wYWNpdHk9IjAuMyIvPgogIDwhLS0g5L6n6L655rCU5rOh77yI5L6n6L656IGK5aSp77yJ4oCU4oCU5bC+5be05LiO5rOh5L2T5LiA5L2T5oiQ5b2iIC0tPgogIDxwYXRoIGQ9Ik05NC41IDQyIGgxMiBhNS41IDUuNSAwIDAgMSA1LjUgNS41IHY2IGE1LjUgNS41IDAgMCAxIC01LjUgNS41IGgtNy41IGwtNC41IDYgdi02IGE1LjUgNS41IDAgMCAxIC01LjUgLTUuNSB2LTYgYTUuNSA1LjUgMCAwIDEgNS41IC01LjUgeiIgZmlsbD0iI2ZmZiIvPgogIDwhLS0g5L6n5qCP5qyh57qn6KGMIC0tPgogIDxyZWN0IHg9Ijg5IiB5PSI3MCIgd2lkdGg9IjE1IiBoZWlnaHQ9IjciIHJ4PSIzLjUiIGZpbGw9IiNmZmYiIG9wYWNpdHk9IjAuNSIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.8.7",
+            "publishTimestamp": 1794565533,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.2.3-0"
+            }
+          },
+          {
+            "version": "0.8.2",
+            "publishTimestamp": 1793597330,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.2.2-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a0f12181e2575157d81ff71df440d681295fcb99782861c17ecd1b2c09b8064c",
+      "evidence": [
+        {
+          "name": "dsh-sidenote",
+          "version": "0.8.7",
+          "tarball": "https://registry.npmjs.org/dsh-sidenote/-/dsh-sidenote-0.8.7.tgz",
+          "integrity": "sha512-M6l+vn3hdCOXkdL2AfdhI63JlFaJFKFot+klgy4zrScWO5BcRi/YuhAAOa2kIWcI1rqXMw8/xE+TFqsfpU8h4w=="
+        },
+        {
+          "name": "dsh-sidenote",
+          "version": "0.8.2",
+          "tarball": "https://registry.npmjs.org/dsh-sidenote/-/dsh-sidenote-0.8.2.tgz",
+          "integrity": "sha512-XFtYiQ9ETXwqcerjHfylaw4W6ZaCQKM/qXLlXo0gio6H761pfwzHXySu4S7jwwZOvW3oYK8TJ5iKCkQhx9V4lA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-sidenote",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/g-yixuan/dsh-sidenote",
+    "commit": "3c0a3ae12a35dc58c2a6e2e18907a91a7c08ca5c",
+    "releaseTags": 39,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:52.173Z"
+}

@@ -1,0 +1,143 @@
+{
+  "full_name": "YOYOLnFu/dsh-bili-pond",
+  "originalPosition": 162,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 162,
+  "batch": 1,
+  "stargazers_count": 29,
+  "startedAt": "2026-11-15T21:01:13.584Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e5ebc6f13af2017ce6c0c4e0469bbddb0599d2b1485d11e569993f5aad3b6918",
+      "url": "https://github.com/YOYOLnFu/dsh-bili-pond/blob/57765435e33a8697c7f3b3b9f317c6146cd05faa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bili-pond",
+          "command": "dsh plugin --profile desktop add dsh-bili-pond",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/YOYOLnFu/dsh-bili-pond",
+          "command": "dsh plugin --profile desktop add github:YOYOLnFu/dsh-bili-pond",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bili-pond",
+      "version": "1.3.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YOYOLnFu/dsh-bili-pond",
+        "commit": "57765435e33a8697c7f3b3b9f317c6146cd05faa"
+      },
+      "manifestSha256": "d95a771384d44169ab85942f51a34955fbb66e309ab7056f027ff1efbcf99775",
+      "manifestUrl": "https://github.com/YOYOLnFu/dsh-bili-pond/blob/57765435e33a8697c7f3b3b9f317c6146cd05faa/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-bili-pond",
+        "versions": [
+          {
+            "version": "1.3.14",
+            "publishTimestamp": 1793335195,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YOYOLnFu/dsh-bili-pond",
+              "commit": "57765435e33a8697c7f3b3b9f317c6146cd05faa"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-bili-pond",
+      "origin": "npm",
+      "name": "dsh-bili-pond",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bili-pond",
+        "title": "dsh-bili-pond",
+        "description": "蓝色大肥鱼替你看 B 站、写日报、记偏好和写日记；评论区支持守护与只接邀请的圈地自萌；点赞和收藏默认关闭且必须带理由。自动运行和自动评论默认关闭。",
+        "author": "YOYOLnFu",
+        "homepage": "https://github.com/YOYOLnFu/dsh-bili-pond#readme",
+        "repository": {
+          "url": "https://github.com/YOYOLnFu/dsh-bili-pond"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "bilibili",
+            "bili",
+            "radar",
+            "daily-digest"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.3.14",
+            "publishTimestamp": 1793336261,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c345d487abd736bbd346bb73c95046e7674f9d25330ddf8daa93e5030b9fb48f",
+      "evidence": [
+        {
+          "name": "dsh-bili-pond",
+          "version": "1.3.14",
+          "tarball": "https://registry.npmjs.org/dsh-bili-pond/-/dsh-bili-pond-1.3.14.tgz",
+          "integrity": "sha512-I3ahm0EdC7mmRLU+7/8O3NQlELkgj13xVGdpXGOhYlgqLghdIE8/GrKMkpuZxWUjSOCeS3cMsW+QALlKkx3nJg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-bili-pond",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/YOYOLnFu/dsh-bili-pond",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YOYOLnFu/dsh-bili-pond",
+    "commit": "57765435e33a8697c7f3b3b9f317c6146cd05faa",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:15.808Z"
+}

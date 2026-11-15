@@ -1,0 +1,74 @@
+{
+  "full_name": "NINKCH/dsh-infinite_canvas",
+  "originalPosition": 38,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 38,
+  "batch": 1,
+  "stargazers_count": 151,
+  "startedAt": "2026-11-15T21:00:13.639Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fe3de64252f5a5e034a7571ba5298ee771e5a419f11f2d72973513023f65bd7a",
+      "url": "https://github.com/NINKCH/dsh-infinite_canvas/blob/c5054328879524c862f26387d27c87dd21297552/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "e0f63e07417aec6b67cde136d15efe3b214ed467722b811288a0875b0a5ee4f7",
+      "url": "https://github.com/NINKCH/dsh-infinite_canvas/blob/c5054328879524c862f26387d27c87dd21297552/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ninkch/dsh-infinite-canvas",
+      "version": "0.21.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NINKCH/dsh-infinite_canvas",
+        "commit": "c5054328879524c862f26387d27c87dd21297552"
+      },
+      "manifestSha256": "d1180d78cdaab6fa693bf3ab272d5b2a97f5b39e026bf5fcbdfcaacb1458df5b",
+      "manifestUrl": "https://github.com/NINKCH/dsh-infinite_canvas/blob/c5054328879524c862f26387d27c87dd21297552/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@ninkch/dsh-infinite-canvas",
+        "versions": [
+          {
+            "version": "0.21.0",
+            "publishTimestamp": 1794739728,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NINKCH/dsh-infinite_canvas",
+              "commit": "c5054328879524c862f26387d27c87dd21297552"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NINKCH/dsh-infinite_canvas",
+    "commit": "c5054328879524c862f26387d27c87dd21297552",
+    "releaseTags": 55,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:16.174Z"
+}

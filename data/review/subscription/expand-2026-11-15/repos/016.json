@@ -1,0 +1,128 @@
+{
+  "full_name": "InariNGT-Ofiicial/dsh-bili-humanism",
+  "originalPosition": 16,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 16,
+  "batch": 1,
+  "stargazers_count": 270,
+  "startedAt": "2026-11-15T21:00:01.697Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c4f3c0b67bd80be6abc4bf30e505571bf9832d5534c728e53a83c470767bffef",
+      "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism/blob/34ebde5e95ab9ab6041c5ad45abc437c3f04a61a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism#v1.8.0",
+          "command": "dsh plugin --profile web add github:InariNGT-Ofiicial/dsh-bili-humanism#v1.8.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bili-humanism",
+      "version": "1.11.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
+        "commit": "34ebde5e95ab9ab6041c5ad45abc437c3f04a61a"
+      },
+      "manifestSha256": "b2f964a300a573a3ea49f233189968b01a6b2a421ddba8f0c383b591d47961f9",
+      "manifestUrl": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism/blob/34ebde5e95ab9ab6041c5ad45abc437c3f04a61a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-bili-humanism",
+        "versions": [
+          {
+            "version": "1.11.5",
+            "publishTimestamp": 1794384815,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
+              "commit": "34ebde5e95ab9ab6041c5ad45abc437c3f04a61a"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism#v1.8.0",
+      "origin": "git_target",
+      "name": "dsh-bili-humanism",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bili-humanism",
+        "title": "dsh-bili-humanism",
+        "description": "用多彩的人类世界训练 DSH 人格：证据信笺、专用人格札记与人类授权的账号写入",
+        "repository": {
+          "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "bilibili",
+            "humanism",
+            "local-first"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.8.0",
+            "publishTimestamp": 1792860864,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
+              "commit": "641636f24ddb9bb8fcd7da8aed250f628c0f55b3"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "641636f24ddb9bb8fcd7da8aed250f628c0f55b3",
+          "name": "dsh-bili-humanism",
+          "version": "1.8.0",
+          "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
+          "manifestSha256": "4e053243429b1c295dffe619af1b07f306763af014c3a3986a7c012311179854",
+          "publishTimestamp": 1792860864
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism#v1.8.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
+    "commit": "34ebde5e95ab9ab6041c5ad45abc437c3f04a61a",
+    "releaseTags": 24,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:05.210Z"
+}

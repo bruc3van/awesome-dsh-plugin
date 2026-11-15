@@ -1,0 +1,69 @@
+{
+  "full_name": "zhaohongxuan/dsh-weread",
+  "originalPosition": 58,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 58,
+  "batch": 1,
+  "stargazers_count": 101,
+  "startedAt": "2026-11-15T21:00:25.345Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "08f29ddf6b75e89115ce0c60ab0ffa22503f170c73a3e75e76bd3d73211942f0",
+      "url": "https://github.com/zhaohongxuan/dsh-weread/blob/80fa890d43bb4810b61d1e1d55c3bc5279986a54/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-weread",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhaohongxuan/dsh-weread",
+        "commit": "80fa890d43bb4810b61d1e1d55c3bc5279986a54"
+      },
+      "manifestSha256": "252d3059304a85bcf671209e1e011a6fd5e8c17bad1fe19cdfbb323aab1c5635",
+      "manifestUrl": "https://github.com/zhaohongxuan/dsh-weread/blob/80fa890d43bb4810b61d1e1d55c3bc5279986a54/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-weread",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1793876721,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhaohongxuan/dsh-weread",
+              "commit": "80fa890d43bb4810b61d1e1d55c3bc5279986a54"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhaohongxuan/dsh-weread",
+    "commit": "80fa890d43bb4810b61d1e1d55c3bc5279986a54",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:27.397Z"
+}

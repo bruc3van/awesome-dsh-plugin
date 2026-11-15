@@ -1,0 +1,86 @@
+{
+  "full_name": "huzhengcai471-crypto/cyber-red-ui",
+  "originalPosition": 146,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 146,
+  "batch": 1,
+  "stargazers_count": 32,
+  "startedAt": "2026-11-15T21:01:06.449Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6525a15e1e2329d2f4fb1d39bdeb6a6766d03505bbce6a07a1ea2f5f370f8bdc",
+      "url": "https://github.com/huzhengcai471-crypto/cyber-red-ui/blob/05714ecb2e688f66730cd9f6f55fbfad5291f096/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "1698b640faeadef491f28ead8283e73859796619cdb2678bf4c6f00763d5f2e8",
+      "url": "https://github.com/huzhengcai471-crypto/cyber-red-ui/blob/05714ecb2e688f66730cd9f6f55fbfad5291f096/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/huzhengcai471-crypto/cyber-red-ui",
+          "command": "dsh plugin --profile desktop add github:huzhengcai471-crypto/cyber-red-ui",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cyber-red-ui",
+      "version": "1.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/huzhengcai471-crypto/cyber-red-ui",
+        "commit": "05714ecb2e688f66730cd9f6f55fbfad5291f096"
+      },
+      "manifestSha256": "285cbe5122777fe88d9ff58f2c76ab7ce12d535a520135d2e3a8b2fd04a81ef1",
+      "manifestUrl": "https://github.com/huzhengcai471-crypto/cyber-red-ui/blob/05714ecb2e688f66730cd9f6f55fbfad5291f096/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cyber-red-ui",
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1793891861,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/huzhengcai471-crypto/cyber-red-ui",
+              "commit": "05714ecb2e688f66730cd9f6f55fbfad5291f096"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/huzhengcai471-crypto/cyber-red-ui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/huzhengcai471-crypto/cyber-red-ui",
+    "commit": "05714ecb2e688f66730cd9f6f55fbfad5291f096",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:08.971Z"
+}

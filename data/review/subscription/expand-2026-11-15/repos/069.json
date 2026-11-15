@@ -1,0 +1,153 @@
+{
+  "full_name": "lizi600jin/dsh-ensp",
+  "originalPosition": 69,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 69,
+  "batch": 1,
+  "stargazers_count": 84,
+  "startedAt": "2026-11-15T21:00:29.690Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fd8cec6a258dc6d0ec4ded0ecda0b0104e70dbd9723ac04bea124459998f67b2",
+      "url": "https://github.com/lizi600jin/dsh-ensp/blob/9f1452bb8a5448f1f26283159fb02752f21ac0b2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ensp",
+          "command": "dsh plugin --profile desktop add dsh-ensp",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ensp",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lizi600jin/dsh-ensp",
+        "commit": "9f1452bb8a5448f1f26283159fb02752f21ac0b2"
+      },
+      "manifestSha256": "844f367e8e2f10999da8b4f5b6467203cbfece6da68d77492d6859338d3a19f4",
+      "manifestUrl": "https://github.com/lizi600jin/dsh-ensp/blob/9f1452bb8a5448f1f26283159fb02752f21ac0b2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ensp",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1794650654,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lizi600jin/dsh-ensp",
+              "commit": "9f1452bb8a5448f1f26283159fb02752f21ac0b2"
+            },
+            "engines": {
+              "dsh": ">=0.2.0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ensp",
+      "origin": "npm",
+      "name": "dsh-ensp",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ensp",
+        "title": {
+          "en": "Huawei eNSP labs",
+          "zh": "华为 eNSP 实验台"
+        },
+        "description": {
+          "en": "Builds eNSP topologies, boots the devices and pushes configuration with verification.",
+          "zh": "生成 eNSP 拓扑、启动设备，并逐条下发配置后验收结果。"
+        },
+        "author": "lizi600jin",
+        "homepage": "https://github.com/lizi600jin/dsh-ensp#readme",
+        "repository": {
+          "url": "https://github.com/lizi600jin/dsh-ensp"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "ensp",
+            "huawei",
+            "vrp",
+            "network-simulation",
+            "mcp",
+            "automation"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1794649280,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9cb7ddf85c060cd4305eb3243e89e0bc3806bdfce08015c78ffeecefdd8514f2",
+      "evidence": [
+        {
+          "name": "dsh-ensp",
+          "version": "0.8.0",
+          "tarball": "https://registry.npmjs.org/dsh-ensp/-/dsh-ensp-0.8.0.tgz",
+          "integrity": "sha512-norfVCS7Q92DWsh08Croh9Mi1mjPOoeaHmj6PqgDTZ60Ouv5D5qazmoal5SFvqdfztfAkeUBWeTZTu72b0sRQg=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-ensp",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "b98cdd4c32115b8e1de0b3b6d0be67c8446c5d208717ae75fde79e20c875a649",
+          "outputSha256": "cfd56e51bdd9bfb67d7dfe8191a59b49edb73dc5d8eaf12c30ba4d26ec66dc15",
+          "inputBytes": 154666,
+          "outputBytes": 3972
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ensp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lizi600jin/dsh-ensp",
+    "commit": "9f1452bb8a5448f1f26283159fb02752f21ac0b2",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:31.807Z"
+}

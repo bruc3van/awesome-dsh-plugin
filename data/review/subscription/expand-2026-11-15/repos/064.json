@@ -1,0 +1,140 @@
+{
+  "full_name": "LockyBee/dsh-douyin-agent",
+  "originalPosition": 64,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 64,
+  "batch": 1,
+  "stargazers_count": 90,
+  "startedAt": "2026-11-15T21:00:27.397Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "489057ff4d024448b810af065b9fd21aa8e419b2bf77ac5a0e4824502a1ae73e",
+      "url": "https://github.com/LockyBee/dsh-douyin-agent/blob/9c49833078f4b4d18b9211ef86d024e7f2e15739/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-douyin-browser-local@1.4.7",
+          "command": "dsh plugin --profile web add dsh-douyin-browser-local@1.4.7",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "desktop/README.md",
+      "sha256": "b3fbcf7254a84b28a5dc1749fac66749eca99aac589863d848e78ccef1be5d89",
+      "url": "https://github.com/LockyBee/dsh-douyin-agent/blob/9c49833078f4b4d18b9211ef86d024e7f2e15739/desktop/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-douyin-browser-local",
+      "version": "1.4.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LockyBee/dsh-douyin-agent",
+        "commit": "9c49833078f4b4d18b9211ef86d024e7f2e15739"
+      },
+      "manifestSha256": "63772bfa93bc38f1bcbc329aaca8771cb800bbd2bd9b62017076b2d6b6c4ea8a",
+      "manifestUrl": "https://github.com/LockyBee/dsh-douyin-agent/blob/9c49833078f4b4d18b9211ef86d024e7f2e15739/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-douyin-browser-local",
+        "versions": [
+          {
+            "version": "1.4.7",
+            "publishTimestamp": 1794493858,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LockyBee/dsh-douyin-agent",
+              "commit": "9c49833078f4b4d18b9211ef86d024e7f2e15739"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-douyin-browser-local@1.4.7",
+      "origin": "npm",
+      "name": "dsh-douyin-browser-local",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-douyin-browser-local",
+        "title": "dsh-douyin-browser-local",
+        "description": "DSH 原生抖音工具与独立 DeepSeek 本地助手",
+        "author": "LockyBee",
+        "homepage": "https://github.com/LockyBee/dsh-douyin-agent#readme",
+        "repository": {
+          "url": "https://github.com/LockyBee/dsh-douyin-agent"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "douyin",
+            "browser-automation",
+            "persona",
+            "local-memory"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.4.7",
+            "publishTimestamp": 1794494431,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ccfcd4c17adc9966a46ff168e646c16c488660b37ef076470ec1a86d76d58192",
+      "evidence": [
+        {
+          "name": "dsh-douyin-browser-local",
+          "version": "1.4.7",
+          "tarball": "https://registry.npmjs.org/dsh-douyin-browser-local/-/dsh-douyin-browser-local-1.4.7.tgz",
+          "integrity": "sha512-un9+6UAcXKLkUscwMxj96U8M5IPqUbA6xYQexDYhxcX+9WGypWwMx0cvCVZlR/vIqpavbHuJH5aPKcYqNHf42w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-douyin-browser-local@1.4.7",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LockyBee/dsh-douyin-agent",
+    "commit": "9c49833078f4b4d18b9211ef86d024e7f2e15739",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:29.824Z"
+}

@@ -1,0 +1,264 @@
+{
+  "full_name": "MichengAI/dsh-pua",
+  "originalPosition": 74,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 74,
+  "batch": 1,
+  "stargazers_count": 73,
+  "startedAt": "2026-11-15T21:00:31.807Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0e330d38bb0bdc008a3bc4f620e4abac06fb82239b3d614d7734f8d578898319",
+      "url": "https://github.com/MichengAI/dsh-pua/blob/a4ccfa11ff0660ff050ce67cb11a4c20ac607175/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-pua@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-pua@latest --registry=https://registry.npmjs.org/。完成后检查插件是否加载，并告诉我如何打开 PUA",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "0e330d38bb0bdc008a3bc4f620e4abac06fb82239b3d614d7734f8d578898319",
+      "url": "https://github.com/MichengAI/dsh-pua/blob/a4ccfa11ff0660ff050ce67cb11a4c20ac607175/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-pua@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-pua@latest --registry=https://registry.npmjs.org/。完成后检查插件是否加载，并告诉我如何打开 PUA",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "ef09a3d1c49c0a77527711dd92b3e7a8e62455c36e5755d44f99af54cf7f1b51",
+      "url": "https://github.com/MichengAI/dsh-pua/blob/a4ccfa11ff0660ff050ce67cb11a4c20ac607175/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-pua@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-pua@latest --registry=https://registry.npmjs.org/. Check that the plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "f1e55e9259b367abf38f1c9ab7d109abcb5636c07c3e9b84a23a59320ab2593d",
+      "url": "https://github.com/MichengAI/dsh-pua/blob/a4ccfa11ff0660ff050ce67cb11a4c20ac607175/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-pua@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-pua@latest --registry=https://registry.npmjs.org/",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "0c72889bf3d2947c5c9e69adc4f8feecefa7f75cbe31cfb369346c7e4ba972a2",
+      "url": "https://github.com/MichengAI/dsh-pua/blob/a4ccfa11ff0660ff050ce67cb11a4c20ac607175/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-pua@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-pua@latest --registry=https://registry.npmjs.org/. Comprueba que el plugin cargue correctamente y",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "6eb8311c6d912a9184b0b0cc09e11f670acd9a9b9f3fa7d3a2379cfea1210587",
+      "url": "https://github.com/MichengAI/dsh-pua/blob/a4ccfa11ff0660ff050ce67cb11a4c20ac607175/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-pua@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-pua@latest --registry=https://registry.npmjs.org/.",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "23e83141808af3437466d9916f5bfc1d39e24a2050d29f818a4361a9ce50a67f",
+      "url": "https://github.com/MichengAI/dsh-pua/blob/a4ccfa11ff0660ff050ce67cb11a4c20ac607175/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-pua@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-pua@latest --registry=https://registry.npmjs.org/.",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "e9fcb6cd0a8dc9c1623acb4567b01de09022811155f145a0dc0e474c91499952",
+      "url": "https://github.com/MichengAI/dsh-pua/blob/a4ccfa11ff0660ff050ce67cb11a4c20ac607175/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-pua@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-pua@latest --registry=https://registry.npmjs.org/. Check that the plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.pt.md",
+      "sha256": "1ebe164ed9dc810e88fa5d5a8adf1bcab5824b1f6c029a9eb53f4919e6ced862",
+      "url": "https://github.com/MichengAI/dsh-pua/blob/a4ccfa11ff0660ff050ce67cb11a4c20ac607175/README.pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-pua@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-pua@latest --registry=https://registry.npmjs.org/. Verifique se o plugin carregou corretamente e me ensine como abrir as",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-pua",
+      "version": "1.0.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-pua",
+        "commit": "a4ccfa11ff0660ff050ce67cb11a4c20ac607175"
+      },
+      "manifestSha256": "37a7829c17ef113a96b902cacefe5c26f5dbecedaa65d43d7bd8dec7d2b58e88",
+      "manifestUrl": "https://github.com/MichengAI/dsh-pua/blob/a4ccfa11ff0660ff050ce67cb11a4c20ac607175/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@michengai/dsh-pua",
+        "versions": [
+          {
+            "version": "1.0.12",
+            "publishTimestamp": 1794633865,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MichengAI/dsh-pua",
+              "commit": "a4ccfa11ff0660ff050ce67cb11a4c20ac607175"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@michengai/dsh-pua@latest",
+      "origin": "npm",
+      "name": "@michengai/dsh-pua",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@michengai/dsh-pua",
+        "title": {
+          "en": "PUA settings",
+          "de": "PUA-Einstellungen",
+          "es": "Configuración de PUA",
+          "fr": "Paramètres PUA",
+          "ja": "PUA 設定",
+          "pt": "Configurações de PUA",
+          "ru": "Настройки PUA",
+          "zh": "PUA 配置"
+        },
+        "description": {
+          "en": "Help your agent try another approach and verify its work before calling it done.",
+          "de": "Hilft dem Agenten, einen anderen Ansatz zu versuchen und seine Arbeit zu überprüfen, bevor er sie als erledigt meldet.",
+          "es": "Ayuda al agente a probar otro enfoque y verificar su trabajo antes de darlo por terminado.",
+          "fr": "Aide l'agent à essayer une autre approche et à vérifier son travail avant de le déclarer terminé.",
+          "ja": "エージェントに別の方法を試させ、完了と宣言する前に検証を促します",
+          "pt": "Ajude o agente a tentar outra abordagem e verificar seu trabalho antes de declará-lo concluído.",
+          "ru": "Помогите агенту попробовать другой подход и проверить свою работу, прежде чем считать её выполненной.",
+          "zh": "让 Agent 少一点敷衍，多一点尝试和验证"
+        },
+        "author": "MichengAI",
+        "homepage": "https://github.com/MichengAI/dsh-pua#readme",
+        "repository": {
+          "url": "https://github.com/MichengAI/dsh-pua"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "pua",
+            "persona",
+            "verification",
+            "task",
+            "status-card"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z19wdWFfZyIgeDE9IjYiIHkxPSI2IiB4Mj0iMzAiIHkyPSIzMCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRUY0NDQ0Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0Y5NzMxNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPCEtLSBPdmVyY2xvY2sgLyBQcmVzc3VyZSBEaWFsIEFyYyAtLT4KICA8cGF0aCBkPSJNMTAgMjRDNy41IDIxIDcgMTYuNSA4LjUgMTNDMTAuNSA4LjUgMTUuNSA2IDIwLjUgN0MyNS41IDggMjkgMTIuNSAyOC41IDE3LjVDMjggMjEuNSAyNS41IDI0LjUgMjIgMjYiIHN0cm9rZT0idXJsKCNkc2hfc3ZnX3B1YV9nKSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8IS0tIEhpZ2ggUmVkem9uZSBXYXJuaW5nIE1hcmtlcnMgLS0+CiAgPGNpcmNsZSBjeD0iMjciIGN5PSIxMiIgcj0iMS44IiBmaWxsPSIjRUY0NDQ0Ii8+CiAgPGNpcmNsZSBjeD0iMjkiIGN5PSIxNyIgcj0iMS44IiBmaWxsPSIjREMyNjI2Ii8+CiAgPCEtLSBQaWVyY2luZyBMaWdodG5pbmcgQm9sdCAoQnJlYWsgTGF6aW5lc3MpIC0tPgogIDxwYXRoIGQ9Ik0yMCA1TDExIDE4SDE3TDE0IDMwTDI2IDE1SDE5TDIxLjUgNUgyMFoiIGZpbGw9IiNGNTlFMEIiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIxLjYiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+",
+        "versions": [
+          {
+            "version": "1.0.12",
+            "publishTimestamp": 1794634544,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "04f8528209f3c66fb175f40ae9465aee13b49d3752e316922ae2d22aa96f3d33",
+      "evidence": [
+        {
+          "name": "@michengai/dsh-pua",
+          "version": "1.0.12",
+          "tarball": "https://registry.npmjs.org/@michengai/dsh-pua/-/dsh-pua-1.0.12.tgz",
+          "integrity": "sha512-f/b55TLmmv8mY4iaZhhWs2SqroyDZkVbsploEucjFCazQjGqM1MjXaA9o2NfUpyQAL+hpQTut9Uw3OcyG8RhZA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@michengai/dsh-pua@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-pua",
+    "commit": "a4ccfa11ff0660ff050ce67cb11a4c20ac607175",
+    "releaseTags": 34,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:37.099Z"
+}

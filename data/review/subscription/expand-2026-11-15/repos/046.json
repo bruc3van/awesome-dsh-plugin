@@ -1,0 +1,185 @@
+{
+  "full_name": "Duoasa/DSH-to-Figma",
+  "originalPosition": 46,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 46,
+  "batch": 1,
+  "stargazers_count": 105,
+  "startedAt": "2026-11-15T21:00:19.059Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "89477300c27d6fe5f45a298fbf775c81cfd2f30fff88ac01f19013223baf5897",
+      "url": "https://github.com/Duoasa/DSH-to-Figma/blob/4f8160d8f05fff646bb1766f8e9d32e812f47269/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-to-figma@latest",
+          "command": "dsh plugin --profile web add dsh-to-figma@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "89477300c27d6fe5f45a298fbf775c81cfd2f30fff88ac01f19013223baf5897",
+      "url": "https://github.com/Duoasa/DSH-to-Figma/blob/4f8160d8f05fff646bb1766f8e9d32e812f47269/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-to-figma@latest",
+          "command": "dsh plugin --profile web add dsh-to-figma@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "7674737f88bee1e7ccde42ba6271641db312a1a0105ef1a0232330a56cf1da6b",
+      "url": "https://github.com/Duoasa/DSH-to-Figma/blob/4f8160d8f05fff646bb1766f8e9d32e812f47269/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-to-figma@latest",
+          "command": "dsh plugin --profile web add dsh-to-figma@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "b130fc05afffe089c150ad4357de452c6fc249fd4d428d47f085c4094c50d346",
+      "url": "https://github.com/Duoasa/DSH-to-Figma/blob/4f8160d8f05fff646bb1766f8e9d32e812f47269/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-to-figma@latest",
+          "command": "dsh plugin --profile web add dsh-to-figma@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-to-figma",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Duoasa/DSH-to-Figma",
+        "commit": "4f8160d8f05fff646bb1766f8e9d32e812f47269"
+      },
+      "manifestSha256": "7fd870d25274c3a2b25a24497d58e6077b9e06160f3520b9a6bfe76a44a41c52",
+      "manifestUrl": "https://github.com/Duoasa/DSH-to-Figma/blob/4f8160d8f05fff646bb1766f8e9d32e812f47269/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-to-figma",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1794358211,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Duoasa/DSH-to-Figma",
+              "commit": "4f8160d8f05fff646bb1766f8e9d32e812f47269"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-to-figma@latest",
+      "origin": "npm",
+      "name": "dsh-to-figma",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-to-figma",
+        "title": {
+          "en": "DSH to Figma",
+          "zh": "DSH to Figma"
+        },
+        "description": {
+          "en": "Native DSH canvas editing, components, variables, assets and screenshots, with official desktop and remote MCP support.",
+          "zh": "原生 DSH 画布读写、组件与变量、素材和截图；支持官方桌面与远程 MCP。"
+        },
+        "author": "Duoasa",
+        "homepage": "https://github.com/Duoasa/DSH-to-Figma#readme",
+        "repository": {
+          "url": "https://github.com/Duoasa/DSH-to-Figma"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "figma",
+            "mcp",
+            "design-to-code"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1794309408,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f22b8ed1d54965a939737d8cbc62e372edaa5890f09680ee14a025ec1e397771",
+      "evidence": [
+        {
+          "name": "dsh-to-figma",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-to-figma/-/dsh-to-figma-0.4.1.tgz",
+          "integrity": "sha512-93TzFsEZNLbGDFyStiQ3XCUoZClwG10/QDyNlKLqutb71FBwInTV13HAOCfqTVJUMNvbxhTMMlSsR7JojGkpEQ=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-to-figma",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "7f5a064e3f5d22485594b219373ebbea1e9c6c5c9c2eca2076240be76bea7165",
+          "outputSha256": "ef436416872522f80e4bd2bcd6ddd29b5a4b9da1f57d3e788a5ec97037a875f0",
+          "inputBytes": 72813,
+          "outputBytes": 3766
+        }
+      ],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-to-figma@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Duoasa/DSH-to-Figma",
+    "commit": "4f8160d8f05fff646bb1766f8e9d32e812f47269",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:22.819Z"
+}

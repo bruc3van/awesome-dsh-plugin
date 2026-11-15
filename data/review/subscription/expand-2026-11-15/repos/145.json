@@ -1,0 +1,48 @@
+{
+  "full_name": "oliblue-evan/dsh-roleplay-preset",
+  "originalPosition": 145,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 145,
+  "batch": 1,
+  "stargazers_count": 33,
+  "startedAt": "2026-11-15T21:01:06.153Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a7bdc9875e419823c8817926e3a527c0e77ac5227937f95e61854abe95f71c00",
+      "url": "https://github.com/oliblue-evan/dsh-roleplay-preset/blob/d09d34045113b9d287999318a41f7fdc8af65ab5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "44053ef550b4ae3d2294450fd52b82db51fc42ea4d2dcce01dd0e5042c5e8061",
+      "url": "https://github.com/oliblue-evan/dsh-roleplay-preset/blob/d09d34045113b9d287999318a41f7fdc8af65ab5/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/oliblue-evan/dsh-roleplay-preset",
+    "commit": "d09d34045113b9d287999318a41f7fdc8af65ab5",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-15T21:01:08.099Z"
+}

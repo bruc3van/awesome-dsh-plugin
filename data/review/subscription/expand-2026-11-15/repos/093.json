@@ -1,0 +1,147 @@
+{
+  "full_name": "Senguk520/dsh-multitask",
+  "originalPosition": 93,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 93,
+  "batch": 1,
+  "stargazers_count": 56,
+  "startedAt": "2026-11-15T21:00:40.555Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "66923af3ce6972018e08e53b8b1b1f23ba218b8c722593e00caba7efac47328a",
+      "url": "https://github.com/Senguk520/dsh-multitask/blob/2fc9ecc37580852db3e3ecce20bdb92c23e15ccc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-multitask",
+          "command": "dsh plugin --profile <profile> add dsh-multitask",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7cf79f5a03fa3ed62f86bf1c20088e3fa9f8735ce9e33fa0aec0fddddacd5173",
+      "url": "https://github.com/Senguk520/dsh-multitask/blob/2fc9ecc37580852db3e3ecce20bdb92c23e15ccc/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-multitask",
+          "command": "dsh plugin --profile <profile> add dsh-multitask",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-multitask",
+      "version": "1.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Senguk520/dsh-multitask",
+        "commit": "2fc9ecc37580852db3e3ecce20bdb92c23e15ccc"
+      },
+      "manifestSha256": "ae0699fa7205737bdbf0029b63eaebe2e4b2e56f894b33e1381fbcaaa3018120",
+      "manifestUrl": "https://github.com/Senguk520/dsh-multitask/blob/2fc9ecc37580852db3e3ecce20bdb92c23e15ccc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-multitask",
+        "versions": [
+          {
+            "version": "1.6.1",
+            "publishTimestamp": 1794746870,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Senguk520/dsh-multitask",
+              "commit": "2fc9ecc37580852db3e3ecce20bdb92c23e15ccc"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-multitask",
+      "origin": "npm",
+      "name": "dsh-multitask",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-multitask",
+        "title": "dsh-multitask",
+        "description": "Multitask 减震器模式（Agent preset）：主对话只做需求理解、任务下发与结果汇总，读文件/跑命令/构建/搜索等污染性工作全部下放子代理。含协调者窄工具面、四类 worker、只读元数据工具 file_info 与子代理危险操作的审批闸门，零 DSH 源码改动。",
+        "homepage": "https://github.com/Senguk520/dsh-multitask#readme",
+        "repository": {
+          "url": "https://github.com/Senguk520/dsh-multitask"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "agent-preset",
+            "multitask",
+            "subagent",
+            "context-engineering",
+            "shock-absorber"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.5.1",
+            "publishTimestamp": 1794449418,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fdb94cc9452965f40c0307c640edccf65073ea090c35a525b79d20790cb346fe",
+      "evidence": [
+        {
+          "name": "dsh-multitask",
+          "version": "1.5.1",
+          "tarball": "https://registry.npmjs.org/dsh-multitask/-/dsh-multitask-1.5.1.tgz",
+          "integrity": "sha512-6eS/Qde0t7255IYdqpsy0vuDGTqgv5kU5oyIEnuqE2srUWjY8y1fGrkQat90bewtej9N91FCzpXKJea8BM3zHg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-multitask",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Senguk520/dsh-multitask",
+    "commit": "2fc9ecc37580852db3e3ecce20bdb92c23e15ccc",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:43.233Z"
+}

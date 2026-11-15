@@ -1,0 +1,105 @@
+{
+  "full_name": "Yuuyuko-uu/dsh-qq-link",
+  "originalPosition": 31,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 31,
+  "batch": 1,
+  "stargazers_count": 181,
+  "startedAt": "2026-11-15T21:00:10.673Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d8eeedd7a9fd0a059a82f3a7377bf459aa74d9e8760cdac97e6670e9225c82d2",
+      "url": "https://github.com/Yuuyuko-uu/dsh-qq-link/blob/4a523eb1411bd68f49471fad926495aa9033ea88/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Yuuyuko-uu/dsh-qq-link",
+          "command": "dsh plugin --profile desktop add github:Yuuyuko-uu/dsh-qq-link",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://codeload.github.com/Yuuyuko-uu/dsh-qq-link/tar.gz/refs/heads/main",
+          "command": "dsh plugin --profile desktop add https://codeload.github.com/Yuuyuko-uu/dsh-qq-link/tar.gz/refs/heads/main",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "tools/语音/README.md",
+      "sha256": "c6c2ea34f3ccb76b9bb3d5bb01b990058b3ab532847853de5ddf7c1d6c307def",
+      "url": "https://github.com/Yuuyuko-uu/dsh-qq-link/blob/4a523eb1411bd68f49471fad926495aa9033ea88/tools/语音/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qq-link",
+      "version": "1.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
+        "commit": "4a523eb1411bd68f49471fad926495aa9033ea88"
+      },
+      "manifestSha256": "15e4cff07a5ee9d46713c0be4034de59e3a2c0aaa2d61d7a1e043726132c8aef",
+      "manifestUrl": "https://github.com/Yuuyuko-uu/dsh-qq-link/blob/4a523eb1411bd68f49471fad926495aa9033ea88/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-qq-link",
+        "versions": [
+          {
+            "version": "1.6.1",
+            "publishTimestamp": 1794722151,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
+              "commit": "4a523eb1411bd68f49471fad926495aa9033ea88"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://codeload.github.com/Yuuyuko-uu/dsh-qq-link/tar.gz/refs/heads/main",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "GitHub codeload 是归档下载地址，不是 Git 仓库；format-1 需要 npm 包或经核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Yuuyuko-uu/dsh-qq-link",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://codeload.github.com/Yuuyuko-uu/dsh-qq-link/tar.gz/refs/heads/main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
+    "commit": "4a523eb1411bd68f49471fad926495aa9033ea88",
+    "releaseTags": 27,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:13.401Z"
+}

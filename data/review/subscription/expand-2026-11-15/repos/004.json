@@ -1,0 +1,69 @@
+{
+  "full_name": "toby-bridges/api-relay-audit",
+  "originalPosition": 4,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 4,
+  "batch": 1,
+  "stargazers_count": 914,
+  "startedAt": "2026-11-15T20:59:55.143Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "09c6a0e246a8ce87ea77c7bccef9f46d784ed4aab77fb3b5a3ac64b2fed3b92e",
+      "url": "https://github.com/toby-bridges/api-relay-audit/blob/3af7126a34d099f65031c6e3af63b302a843fe59/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-api-relay-audit",
+      "version": "2.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/toby-bridges/api-relay-audit",
+        "commit": "3af7126a34d099f65031c6e3af63b302a843fe59"
+      },
+      "manifestSha256": "2da93cbe78435ebde6045541450d4393bd73617f570bbe5fbea56125aa50b962",
+      "manifestUrl": "https://github.com/toby-bridges/api-relay-audit/blob/3af7126a34d099f65031c6e3af63b302a843fe59/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.0-rc.6 || 0.1.7-rc.2 || 0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-api-relay-audit",
+        "versions": [
+          {
+            "version": "2.5.0",
+            "publishTimestamp": 1793124501,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/toby-bridges/api-relay-audit",
+              "commit": "3af7126a34d099f65031c6e3af63b302a843fe59"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6 || 0.1.7-rc.2 || 0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/toby-bridges/api-relay-audit",
+    "commit": "3af7126a34d099f65031c6e3af63b302a843fe59",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T20:59:57.510Z"
+}

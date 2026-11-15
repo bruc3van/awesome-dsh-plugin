@@ -1,0 +1,77 @@
+{
+  "full_name": "Adamaik/dsh-progress-rules",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "stargazers_count": 37,
+  "startedAt": "2026-11-15T21:01:00.779Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "baef0d20c0de72d56a773ca95a8646671d6f3d7dac2ba641472c34dccd99c648",
+      "url": "https://github.com/Adamaik/dsh-progress-rules/blob/bcfa76af2f3571817e666b57c726d2dc03c8a53a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8021446625ed9be19949eb6a75042a8e95596c385d186db94bc1f4122cb694d1",
+      "url": "https://github.com/Adamaik/dsh-progress-rules/blob/bcfa76af2f3571817e666b57c726d2dc03c8a53a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-progress-rules",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Adamaik/dsh-progress-rules",
+        "commit": "bcfa76af2f3571817e666b57c726d2dc03c8a53a"
+      },
+      "manifestSha256": "d43dff5d2eddc92a46685542c89a5cedb0cd3e4ec20ef4f8c0feb6d29e002141",
+      "manifestUrl": "https://github.com/Adamaik/dsh-progress-rules/blob/bcfa76af2f3571817e666b57c726d2dc03c8a53a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-progress-rules",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1792483623,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Adamaik/dsh-progress-rules",
+              "commit": "bcfa76af2f3571817e666b57c726d2dc03c8a53a"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Adamaik/dsh-progress-rules",
+    "commit": "bcfa76af2f3571817e666b57c726d2dc03c8a53a",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:03.483Z"
+}

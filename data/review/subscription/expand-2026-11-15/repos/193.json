@@ -1,0 +1,153 @@
+{
+  "full_name": "xxxyz/DeepSeekHarness-MCP-Manager",
+  "originalPosition": 193,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 193,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-11-15T21:01:27.894Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c145d1b75a6f558e7ab04365a5786fd6499b491b68396ae46aa82dec9c3a9f3b",
+      "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager/blob/1ab07b89ffb22d298e541f767e346121a1e4ad2e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xxxyz/dsh-mcp-manager@latest",
+          "command": "dsh plugin --profile desktop add @xxxyz/dsh-mcp-manager@latest",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "94f419f3614a37ece887de1f96157b59973a062a28449f5780c11b92f48afd8d",
+      "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager/blob/1ab07b89ffb22d298e541f767e346121a1e4ad2e/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xxxyz/dsh-mcp-manager@latest",
+          "command": "dsh plugin --profile desktop add @xxxyz/dsh-mcp-manager@latest",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xxxyz/dsh-mcp-manager",
+      "version": "3.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager",
+        "commit": "1ab07b89ffb22d298e541f767e346121a1e4ad2e"
+      },
+      "manifestSha256": "598726b280e5a0501bb53396661f1062dbb186063870d330974d86307cc89c2b",
+      "manifestUrl": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager/blob/1ab07b89ffb22d298e541f767e346121a1e4ad2e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@xxxyz/dsh-mcp-manager",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "publishTimestamp": 1793586510,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager",
+              "commit": "1ab07b89ffb22d298e541f767e346121a1e4ad2e"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@xxxyz/dsh-mcp-manager@latest",
+      "origin": "npm",
+      "name": "@xxxyz/dsh-mcp-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@xxxyz/dsh-mcp-manager",
+        "title": {
+          "en": "MCP & Skills Manager",
+          "zh": "MCP 与 Skills 管理"
+        },
+        "description": {
+          "en": "Manage MCP servers and skills from Settings: add, edit, enable, restart, and inspect registered tools.",
+          "zh": "在设置中管理 MCP 服务与技能：新增、编辑、启停、重启，并查看已注册工具。"
+        },
+        "homepage": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager",
+        "repository": {
+          "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "mcp",
+            "mcp-server",
+            "skill",
+            "plugin",
+            "cordis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJNQ1AgYW5kIFNraWxscyBtYW5hZ2VyIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjEwIiB5MT0iOCIgeDI9IjU0IiB5Mj0iNTgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNGQ4ZGZmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzIzNTBjNyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9InVybCgjZykiLz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMi42IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogICAgPHJlY3QgeD0iMTciIHk9IjE2IiB3aWR0aD0iMzAiIGhlaWdodD0iMTEiIHJ4PSIzLjUiLz4KICAgIDxyZWN0IHg9IjE3IiB5PSIzMCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjExIiByeD0iMy41Ii8+CiAgICA8cGF0aCBkPSJNMjMgMjEuNWguMDFNMjMgMzUuNWguMDEiLz4KICAgIDxwYXRoIGQ9Ik0zMiA0MXY3Ii8+CiAgICA8cGF0aCBkPSJNMjQuNSA0OGgxNSIvPgogIDwvZz4KICA8Y2lyY2xlIGN4PSI0Ni41IiBjeT0iNDYuNSIgcj0iNy41IiBmaWxsPSIjZmZmIi8+CiAgPHBhdGggZD0iTTQ2LjUgNDIuNXY4TTQyLjUgNDYuNWg4IiBzdHJva2U9IiMyMzUwYzciIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "publishTimestamp": 1793586937,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a48e3e3509fefe639a6d51f1c27f4236599d967c372e1822560668e6f0a915e0",
+      "evidence": [
+        {
+          "name": "@xxxyz/dsh-mcp-manager",
+          "version": "3.0.1",
+          "tarball": "https://registry.npmjs.org/@xxxyz/dsh-mcp-manager/-/dsh-mcp-manager-3.0.1.tgz",
+          "integrity": "sha512-9P9+llLnmPPUgBffcKW5nHjfnNoT/GvZNnjsFvod42TgBwJmRYmwij4Gc961avy4GR3R5mxqiYS8yyX2Cte+OQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@xxxyz/dsh-mcp-manager@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xxxyz/DeepSeekHarness-MCP-Manager",
+    "commit": "1ab07b89ffb22d298e541f767e346121a1e4ad2e",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:30.731Z"
+}

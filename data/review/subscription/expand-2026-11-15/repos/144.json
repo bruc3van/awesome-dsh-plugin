@@ -1,0 +1,160 @@
+{
+  "full_name": "plastic-labs/dsh-honcho",
+  "originalPosition": 144,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "stargazers_count": 34,
+  "startedAt": "2026-11-15T21:01:05.279Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0c801da4a8a23fb79fae2c50e950716a33f2c83ea72567978a27154820df2662",
+      "url": "https://github.com/plastic-labs/dsh-honcho/blob/22c6df79c2d95ced6a92f4a4b5c4ed6d2052eca5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@honcho-ai/dsh-honcho",
+          "command": "dsh plugin --profile <name> add @honcho-ai/dsh-honcho",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ecec9ea86e7c0eb75ff973f3208e1040bc9e1d9e5cfd55d805e411f127e7ea75",
+      "url": "https://github.com/plastic-labs/dsh-honcho/blob/22c6df79c2d95ced6a92f4a4b5c4ed6d2052eca5/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@honcho-ai/dsh-honcho",
+          "command": "dsh plugin --profile <name> add @honcho-ai/dsh-honcho",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "21a06725d30e2abe8164c50244677422306f324659a1c33ae46c7243a2ec6f63",
+      "url": "https://github.com/plastic-labs/dsh-honcho/blob/22c6df79c2d95ced6a92f4a4b5c4ed6d2052eca5/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@honcho-ai/dsh-honcho",
+          "command": "dsh plugin --profile <name> add @honcho-ai/dsh-honcho",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@honcho-ai/dsh-honcho",
+      "version": "0.1.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/plastic-labs/dsh-honcho",
+        "commit": "22c6df79c2d95ced6a92f4a4b5c4ed6d2052eca5"
+      },
+      "manifestSha256": "16270af46d93b2ecf46002e5879cd50810451b572491e6e6d0c415e2aa74d6d5",
+      "manifestUrl": "https://github.com/plastic-labs/dsh-honcho/blob/22c6df79c2d95ced6a92f4a4b5c4ed6d2052eca5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@honcho-ai/dsh-honcho",
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1793309871,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/plastic-labs/dsh-honcho",
+              "commit": "22c6df79c2d95ced6a92f4a4b5c4ed6d2052eca5"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@honcho-ai/dsh-honcho",
+      "origin": "npm",
+      "name": "@honcho-ai/dsh-honcho",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@honcho-ai/dsh-honcho",
+        "title": "@honcho-ai/dsh-honcho",
+        "description": "Honcho memory for DeepSeek Harness — persistent, cross-session memory that survives context resets and restarts.",
+        "author": "Plastic Labs",
+        "homepage": "https://honcho.dev",
+        "repository": {
+          "url": "https://github.com/plastic-labs/dsh-honcho"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "honcho",
+            "memory",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1793116592,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "bec7fe9764fb41c79cbb9b756fa93c683d750892c47f115b3536701eaf20b23e",
+      "evidence": [
+        {
+          "name": "@honcho-ai/dsh-honcho",
+          "version": "0.1.4",
+          "tarball": "https://registry.npmjs.org/@honcho-ai/dsh-honcho/-/dsh-honcho-0.1.4.tgz",
+          "integrity": "sha512-J09cwC6TRszVV63rXGnruaHQBsqTtdxFh965Kurc6fbwg1GMaXshrZlo/CY9W+eVNM/FX+yUl/XeQhGari0LoQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@honcho-ai/dsh-honcho",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/plastic-labs/dsh-honcho",
+    "commit": "22c6df79c2d95ced6a92f4a4b5c4ed6d2052eca5",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:08.548Z"
+}

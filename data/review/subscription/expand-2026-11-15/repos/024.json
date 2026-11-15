@@ -1,0 +1,76 @@
+{
+  "full_name": "JialaoLiu/dsh-baton",
+  "originalPosition": 24,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 24,
+  "batch": 1,
+  "stargazers_count": 227,
+  "startedAt": "2026-11-15T21:00:05.215Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2d8b76e3b375e7708d62b4b35e6a0bb678a6003ff8e4bcc1f935d6c00a814409",
+      "url": "https://github.com/JialaoLiu/dsh-baton/blob/eeedd0e3855bcf2798bdc72180f87d8761c21f35/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "508d04ad82466431d6afadb8bc26b27e6f388e55a7fc3e47ab8f676262883bbc",
+      "url": "https://github.com/JialaoLiu/dsh-baton/blob/eeedd0e3855bcf2798bdc72180f87d8761c21f35/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-baton-host",
+      "version": "0.6.13",
+      "path": "host",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JialaoLiu/dsh-baton",
+        "commit": "eeedd0e3855bcf2798bdc72180f87d8761c21f35",
+        "path": "host"
+      },
+      "manifestSha256": "062643fd038ff2bc67f6483065a137265af3527b9f877bdbaa05c551461fa2c6",
+      "manifestUrl": "https://github.com/JialaoLiu/dsh-baton/blob/eeedd0e3855bcf2798bdc72180f87d8761c21f35/host/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-baton-host",
+        "versions": [
+          {
+            "version": "0.6.13",
+            "publishTimestamp": 1794488609,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JialaoLiu/dsh-baton",
+              "commit": "eeedd0e3855bcf2798bdc72180f87d8761c21f35",
+              "path": "host"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JialaoLiu/dsh-baton",
+    "commit": "eeedd0e3855bcf2798bdc72180f87d8761c21f35",
+    "releaseTags": 30,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:07.965Z"
+}

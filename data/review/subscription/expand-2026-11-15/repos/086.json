@@ -1,0 +1,264 @@
+{
+  "full_name": "MichengAI/dsh-btw",
+  "originalPosition": 86,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 86,
+  "batch": 1,
+  "stargazers_count": 61,
+  "startedAt": "2026-11-15T21:00:37.292Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d789591349c58942dbd8af86fd3456f48cd6e29368c8a3e5b48f7bcbe70d27c6",
+      "url": "https://github.com/MichengAI/dsh-btw/blob/113c3a407d730ff0bdb5fcfde725155752ccec80/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-btw@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/。安装后执行 dsh --profile web --dump-config，确认配置包含",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "d789591349c58942dbd8af86fd3456f48cd6e29368c8a3e5b48f7bcbe70d27c6",
+      "url": "https://github.com/MichengAI/dsh-btw/blob/113c3a407d730ff0bdb5fcfde725155752ccec80/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-btw@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/。安装后执行 dsh --profile web --dump-config，确认配置包含",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e9e5e3ddefa697e1f6b8aaf7d5fb95942ab43e300b00b52149a10044952f6f7e",
+      "url": "https://github.com/MichengAI/dsh-btw/blob/113c3a407d730ff0bdb5fcfde725155752ccec80/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-btw@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/. Then run dsh --profile web --dump-config, confirm the configuration includes",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "b326130403eadb81f0ea5969674f41d971c4fcd278fc5a3a2be0e33b053cba12",
+      "url": "https://github.com/MichengAI/dsh-btw/blob/113c3a407d730ff0bdb5fcfde725155752ccec80/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-btw@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/。インストール後、dsh --profile web --dump-config",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "e8cb9ce8f8a3e399ed2c150ec7398407a06d30cf952b7c37e074a6ca1f7308d7",
+      "url": "https://github.com/MichengAI/dsh-btw/blob/113c3a407d730ff0bdb5fcfde725155752ccec80/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-btw@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/. Tras la",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "af9756451541f79a2a178c503b9c4e55f900367d7ca08b08ce39d4dcdf7b0792",
+      "url": "https://github.com/MichengAI/dsh-btw/blob/113c3a407d730ff0bdb5fcfde725155752ccec80/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-btw@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/.",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "55477cd33b37aaf63777e133e5af60f11df89bf2827e5be99aba411c0782d965",
+      "url": "https://github.com/MichengAI/dsh-btw/blob/113c3a407d730ff0bdb5fcfde725155752ccec80/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-btw@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/.",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "44654ad723770a486ebe7f9ff5fd26b114e9e4a0d4b1fb6d063de73442e87343",
+      "url": "https://github.com/MichengAI/dsh-btw/blob/113c3a407d730ff0bdb5fcfde725155752ccec80/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-btw@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/.",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.pt.md",
+      "sha256": "651857a17f1618a9fe7b6eb01e1358a7f91c78bcf894e4f384028e8af8513dba",
+      "url": "https://github.com/MichengAI/dsh-btw/blob/113c3a407d730ff0bdb5fcfde725155752ccec80/README.pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-btw@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/.",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-btw",
+      "version": "1.3.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-btw",
+        "commit": "113c3a407d730ff0bdb5fcfde725155752ccec80"
+      },
+      "manifestSha256": "8c11791ab18f179335de4b1ef2b2e27f589fe39e79d8915a327608b455a35636",
+      "manifestUrl": "https://github.com/MichengAI/dsh-btw/blob/113c3a407d730ff0bdb5fcfde725155752ccec80/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@michengai/dsh-btw",
+        "versions": [
+          {
+            "version": "1.3.11",
+            "publishTimestamp": 1794633873,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MichengAI/dsh-btw",
+              "commit": "113c3a407d730ff0bdb5fcfde725155752ccec80"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@michengai/dsh-btw@latest",
+      "origin": "npm",
+      "name": "@michengai/dsh-btw",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@michengai/dsh-btw",
+        "title": {
+          "en": "BTW",
+          "de": "BTW",
+          "es": "BTW",
+          "fr": "BTW",
+          "ja": "BTW",
+          "pt": "BTW",
+          "ru": "BTW",
+          "zh": "BTW"
+        },
+        "description": {
+          "en": "Answers from current context in an independent bubble, no tool execution.",
+          "de": "Antwortet aus dem aktuellen Kontext in einer separaten Sprechblase, ohne Tools auszuführen.",
+          "es": "Responde según el contexto actual en una burbuja independiente, sin ejecutar herramientas.",
+          "fr": "Répond à partir du contexte actuel dans une bulle indépendante, sans exécuter d'outils.",
+          "ja": "現在のコンテキストに基づいて回答し、独立したバブルでツールは実行しません。",
+          "pt": "Responde com base no contexto atual em um balão independente, sem executar ferramentas.",
+          "ru": "Отвечает на основе текущего контекста в отдельном пузыре, без выполнения инструментов.",
+          "zh": "基于当前上下文回答，独立气泡，不执行工具。"
+        },
+        "author": "MichengAI",
+        "homepage": "https://github.com/MichengAI/dsh-btw#readme",
+        "repository": {
+          "url": "https://github.com/MichengAI/dsh-btw"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "btw",
+            "side-ask",
+            "quote",
+            "context-ask",
+            "assistant"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z19idHdfZyIgeDE9IjYiIHkxPSI4IiB4Mj0iMjgiIHkyPSIyOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRjk3MzE2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0ZCNzE4NSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPCEtLSBTZWNvbmRhcnkgVG9wLVJpZ2h0IEJ1YmJsZSAtLT4KICA8cGF0aCBkPSJNMTkgOEMyMy45NyA4IDI4IDExLjU4IDI4IDE2QzI4IDE3LjYgMjcuMiAxOS4xIDI1LjkgMjAuMkwyNyAyNEwyMy4zIDIyLjZDMjIgMjMuNSAyMC41IDI0IDE5IDI0QzE0LjAzIDI0IDEwIDIwLjQyIDEwIDE2QzEwIDExLjU4IDE0LjAzIDggMTkgOFoiIGZpbGw9IiNGREJBNzQiIGZpbGwtb3BhY2l0eT0iMC40Ii8+CiAgPCEtLSBQcmltYXJ5IENoYXQgQnViYmxlIC0tPgogIDxwYXRoIGQ9Ik03IDExQzcgOC43OSA4Ljc5IDcgMTEgN0gyMUMyMy4yMSA3IDI1IDguNzkgMjUgMTFWMThDMjUgMjAuMjEgMjMuMjEgMjIgMjEgMjJIMTNMOCAyNlYyMkM3LjQgMjEuNCA3IDIwLjggNyAxOS45VjExWiIgZmlsbD0idXJsKCNkc2hfc3ZnX2J0d19nKSIvPgogIDwhLS0gVGhyZWUgRG90cyBJbnNpZGUgQnViYmxlIC0tPgogIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTQuNSIgcj0iMS41IiBmaWxsPSIjRkZGRkZGIi8+CiAgPGNpcmNsZSBjeD0iMTYiIGN5PSIxNC41IiByPSIxLjUiIGZpbGw9IiNGRkZGRkYiLz4KICA8Y2lyY2xlIGN4PSIyMCIgY3k9IjE0LjUiIHI9IjEuNSIgZmlsbD0iI0ZGRkZGRiIvPgogIDwhLS0gU3BhcmtsZSBvZiBUaG91Z2h0IC0tPgogIDxwYXRoIGQ9Ik0yOSA1TDI5LjggNy4yTDMyIDhMMjkuOCA4LjhMMjkgMTFMMjguMiA4LjhMMjYgOEwyOC4yIDcuMkwyOSA1WiIgZmlsbD0iI0Y1OUUwQiIvPgo8L3N2Zz4=",
+        "versions": [
+          {
+            "version": "1.3.11",
+            "publishTimestamp": 1794634071,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b3be7b5c482a23024e1e29d84ef4e0eff5667a8bb2f36212b0f51e8e41b99931",
+      "evidence": [
+        {
+          "name": "@michengai/dsh-btw",
+          "version": "1.3.11",
+          "tarball": "https://registry.npmjs.org/@michengai/dsh-btw/-/dsh-btw-1.3.11.tgz",
+          "integrity": "sha512-VxyEIXzT4KirFk6sgt1UU0hcsNu0FX7V6qMXtm9E7XHzTHiIk1eIoJJAIt+mZPe+948Xk75gbl1pUg+W9Mp9MA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@michengai/dsh-btw@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-btw",
+    "commit": "113c3a407d730ff0bdb5fcfde725155752ccec80",
+    "releaseTags": 50,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:42.163Z"
+}

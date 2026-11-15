@@ -1,0 +1,66 @@
+{
+  "full_name": "lxj5820/dsh-boot-animation",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "stargazers_count": 351,
+  "startedAt": "2026-11-15T21:00:01.032Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1dbe8c0d86d4cadcce3b6457f87705e7a00f2d3c182e22ccec8a2148c33afb8f",
+      "url": "https://github.com/lxj5820/dsh-boot-animation/blob/6c2ef4b1d5ca4b791323d247fea5b7f6e272cc71/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-boot-animation",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lxj5820/dsh-boot-animation",
+        "commit": "6c2ef4b1d5ca4b791323d247fea5b7f6e272cc71"
+      },
+      "manifestSha256": "08b4b2a418a1df2da67860d175ac69a7e5e47059122cd765742999be3e1a7b66",
+      "manifestUrl": "https://github.com/lxj5820/dsh-boot-animation/blob/6c2ef4b1d5ca4b791323d247fea5b7f6e272cc71/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-boot-animation",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794363574,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lxj5820/dsh-boot-animation",
+              "commit": "6c2ef4b1d5ca4b791323d247fea5b7f6e272cc71"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lxj5820/dsh-boot-animation",
+    "commit": "6c2ef4b1d5ca4b791323d247fea5b7f6e272cc71",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:03.157Z"
+}

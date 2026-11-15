@@ -1,0 +1,66 @@
+{
+  "full_name": "thawline/dsh-memewiki",
+  "originalPosition": 70,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 70,
+  "batch": 1,
+  "stargazers_count": 82,
+  "startedAt": "2026-11-15T21:00:29.824Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "694d8f6869b1a3cd121c59c801feb6cb26200e53daeaa1acec955d4ffbb56275",
+      "url": "https://github.com/thawline/dsh-memewiki/blob/588ec315a3c231e38e59ee00a79316d8eea2b3cb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memewiki",
+      "version": "0.1.20",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/thawline/dsh-memewiki",
+        "commit": "588ec315a3c231e38e59ee00a79316d8eea2b3cb"
+      },
+      "manifestSha256": "4a349c1e2b3cd0c4fa6de9f337208416cfb92c5f69d328f97f0be9719736cd7a",
+      "manifestUrl": "https://github.com/thawline/dsh-memewiki/blob/588ec315a3c231e38e59ee00a79316d8eea2b3cb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-memewiki",
+        "versions": [
+          {
+            "version": "0.1.20",
+            "publishTimestamp": 1794056655,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/thawline/dsh-memewiki",
+              "commit": "588ec315a3c231e38e59ee00a79316d8eea2b3cb"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/thawline/dsh-memewiki",
+    "commit": "588ec315a3c231e38e59ee00a79316d8eea2b3cb",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:32.443Z"
+}

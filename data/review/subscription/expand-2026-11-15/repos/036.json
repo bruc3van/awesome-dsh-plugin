@@ -1,0 +1,78 @@
+{
+  "full_name": "Luminousyyh/skill-wb-exec",
+  "originalPosition": 36,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 36,
+  "batch": 1,
+  "stargazers_count": 155,
+  "startedAt": "2026-11-15T21:00:13.248Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "70be91e499b7411e392dfd9bcf870a8afa2fcfc9a9f21c67869e97d3d2f9f8ca",
+      "url": "https://github.com/Luminousyyh/skill-wb-exec/blob/f02c7f259bab490722dc2f2adc41481500cfd61d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Luminousyyh/skill-wb-exec",
+          "command": "dsh plugin --profile <profile> add github:Luminousyyh/skill-wb-exec",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "wb-exec-dsh",
+      "version": "1.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Luminousyyh/skill-wb-exec",
+        "commit": "f02c7f259bab490722dc2f2adc41481500cfd61d"
+      },
+      "manifestSha256": "6303635c8ee369a5bec13feac3c3912135e191b54c39de005b9aed0ff32debaa",
+      "manifestUrl": "https://github.com/Luminousyyh/skill-wb-exec/blob/f02c7f259bab490722dc2f2adc41481500cfd61d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "wb-exec-dsh",
+        "versions": [
+          {
+            "version": "1.4.0",
+            "publishTimestamp": 1794156512,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Luminousyyh/skill-wb-exec",
+              "commit": "f02c7f259bab490722dc2f2adc41481500cfd61d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Luminousyyh/skill-wb-exec",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Luminousyyh/skill-wb-exec",
+    "commit": "f02c7f259bab490722dc2f2adc41481500cfd61d",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:15.425Z"
+}

@@ -1,0 +1,92 @@
+{
+  "full_name": "YuChenLiao/dsh-comfyui-workbench",
+  "originalPosition": 152,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 152,
+  "batch": 1,
+  "stargazers_count": 31,
+  "startedAt": "2026-11-15T21:01:08.971Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4093aa56864e1a45e29402dc93730a224796fd9d0151e911c4a6547ee25760a8",
+      "url": "https://github.com/YuChenLiao/dsh-comfyui-workbench/blob/c1903c636d5771f737887fc644d826a6ae95f7e0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/YuChenLiao/dsh-comfyui-workbench",
+          "command": "dsh plugin --profile desktop add github:YuChenLiao/dsh-comfyui-workbench",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "c15e209ea106641c9cfa30ef4e0db605821112139327394c89eda7f2d372d1b8",
+      "url": "https://github.com/YuChenLiao/dsh-comfyui-workbench/blob/c1903c636d5771f737887fc644d826a6ae95f7e0/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/YuChenLiao/dsh-comfyui-workbench",
+          "command": "dsh plugin --profile desktop add github:YuChenLiao/dsh-comfyui-workbench",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-comfyui-workbench",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YuChenLiao/dsh-comfyui-workbench",
+        "commit": "c1903c636d5771f737887fc644d826a6ae95f7e0"
+      },
+      "manifestSha256": "1197b69481c5fb1a796319d8ca6f0495ba1dd739a27e625aa887c9ddc8a7952e",
+      "manifestUrl": "https://github.com/YuChenLiao/dsh-comfyui-workbench/blob/c1903c636d5771f737887fc644d826a6ae95f7e0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-comfyui-workbench",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1794747453,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YuChenLiao/dsh-comfyui-workbench",
+              "commit": "c1903c636d5771f737887fc644d826a6ae95f7e0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/YuChenLiao/dsh-comfyui-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YuChenLiao/dsh-comfyui-workbench",
+    "commit": "c1903c636d5771f737887fc644d826a6ae95f7e0",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:11.656Z"
+}

@@ -1,0 +1,76 @@
+{
+  "full_name": "aureth-labs/dsh-aurabot-qq",
+  "originalPosition": 7,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 7,
+  "batch": 1,
+  "stargazers_count": 646,
+  "startedAt": "2026-11-15T20:59:57.196Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0b417d4defdac482c8c794ecb31e230065489790144a4ed2034fd570078c4e06",
+      "url": "https://github.com/aureth-labs/dsh-aurabot-qq/blob/a138d14e3215f052dfa7d6a9dd16c0e409d9752d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/aureth-labs/dsh-aurabot-qq",
+          "command": "dsh plugin --profile <profile> add github:aureth-labs/dsh-aurabot-qq",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "a3532fd86350e223104d957e1c04894830946face76a5883ff711ed85442bae2",
+      "url": "https://github.com/aureth-labs/dsh-aurabot-qq/blob/a138d14e3215f052dfa7d6a9dd16c0e409d9752d/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/aureth-labs/dsh-aurabot-qq",
+          "command": "dsh plugin --profile <profile> add github:aureth-labs/dsh-aurabot-qq",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-aurabot-qq",
+      "version": "1.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aureth-labs/dsh-aurabot-qq",
+        "commit": "a138d14e3215f052dfa7d6a9dd16c0e409d9752d"
+      },
+      "manifestSha256": "50cb2bd11f7cbe5fc3fad0bb5a7e5b6e35f8eb5e8056dd20f2ced937eaff1b0a",
+      "manifestUrl": "https://github.com/aureth-labs/dsh-aurabot-qq/blob/a138d14e3215f052dfa7d6a9dd16c0e409d9752d/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/aureth-labs/dsh-aurabot-qq",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aureth-labs/dsh-aurabot-qq",
+    "commit": "a138d14e3215f052dfa7d6a9dd16c0e409d9752d",
+    "releaseTags": 48,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-15T20:59:59.590Z"
+}

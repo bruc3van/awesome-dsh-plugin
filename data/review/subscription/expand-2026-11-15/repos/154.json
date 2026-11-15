@@ -1,0 +1,128 @@
+{
+  "full_name": "Britneycode/dsh-fish-soul",
+  "originalPosition": 154,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 154,
+  "batch": 1,
+  "stargazers_count": 30,
+  "startedAt": "2026-11-15T21:01:09.700Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f7552af5904791b596bd57428d23dca2ea4f5ef37dc816dcf7738dc9667e94a9",
+      "url": "https://github.com/Britneycode/dsh-fish-soul/blob/fc5441fa31614cf89d5b061a95fff67a3949d460/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-fish-soul",
+          "command": "dsh plugin --profile desktop add dsh-fish-soul",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fish-soul",
+      "version": "0.18.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Britneycode/dsh-fish-soul",
+        "commit": "fc5441fa31614cf89d5b061a95fff67a3949d460"
+      },
+      "manifestSha256": "37fbfb797ae554d149ec0e9d2840188ee9402124cac620fc57467d864889e021",
+      "manifestUrl": "https://github.com/Britneycode/dsh-fish-soul/blob/fc5441fa31614cf89d5b061a95fff67a3949d460/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-fish-soul",
+        "versions": [
+          {
+            "version": "0.18.1",
+            "publishTimestamp": 1794766679,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Britneycode/dsh-fish-soul",
+              "commit": "fc5441fa31614cf89d5b061a95fff67a3949d460"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-fish-soul",
+      "origin": "npm",
+      "name": "dsh-fish-soul",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-fish-soul",
+        "title": "dsh-fish-soul",
+        "description": "鱼 · 人格、按人记忆（可纠正、有印象、能导入旧聊天记录）、日程自走与主动开口，直连 SnowLuma 收发 QQ（群里会自己插话），B站 / 抖音小号私信与自己刷视频；按功能选模型并统计用量花费，能听会说 QQ 语音、收藏表情包、学群里的梗，可选上网查；心情影响说话、去 AI 味、每个群的设定、按聊天选模型、每晚写日记、每周记忆存档与可选周记（DSH 插件，单角色 feiyu ，v0.15.37）",
+        "homepage": "https://github.com/Britneycode/dsh-fish-soul#readme",
+        "repository": {
+          "url": "https://github.com/Britneycode/dsh-fish-soul"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "persona",
+            "memory",
+            "qq",
+            "bilibili",
+            "douyin",
+            "snowluma"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.18.1",
+            "publishTimestamp": 1794766893,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "76d7cec6d1c94949c2a574018632b5a36c3d8f5faeade3e1f18acb695ece40de",
+      "evidence": [
+        {
+          "name": "dsh-fish-soul",
+          "version": "0.18.1",
+          "tarball": "https://registry.npmjs.org/dsh-fish-soul/-/dsh-fish-soul-0.18.1.tgz",
+          "integrity": "sha512-NE/gXxyj7o5mZTvYdxN+BKx1XVtxU+Tb6Ynfhe+Pdgv8fLMedas6TfZU53/gsxI49U4xmELzricuUCD3pe4IaQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-fish-soul",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Britneycode/dsh-fish-soul",
+    "commit": "fc5441fa31614cf89d5b061a95fff67a3949d460",
+    "releaseTags": 93,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:12.541Z"
+}

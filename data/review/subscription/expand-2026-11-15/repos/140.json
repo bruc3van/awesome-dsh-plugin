@@ -1,0 +1,195 @@
+{
+  "full_name": "v587d/capital-generation",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "stargazers_count": 35,
+  "startedAt": "2026-11-15T21:01:03.794Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "02a9f17c171d8d388c2ee60a27f68b3fcb89956be27f794415d8c5e288678478",
+      "url": "https://github.com/v587d/capital-generation/blob/a12175c5ef728cfa5f97e6221f9f7a312c439781/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@v587d/capital-generation",
+          "command": "dsh plugin --profile capital add @v587d/capital-generation",
+          "profile": "capital"
+        },
+        {
+          "install": "https://github.com/v587d/capital-generation",
+          "command": "dsh plugin --profile capital add github:v587d/capital-generation",
+          "profile": "capital"
+        }
+      ]
+    },
+    {
+      "path": "selected-skills/README.md",
+      "sha256": "d0fad3d9407b895c284177b2e304c4229d18021d84b7f0d9838b020f77c0040c",
+      "url": "https://github.com/v587d/capital-generation/blob/a12175c5ef728cfa5f97e6221f9f7a312c439781/selected-skills/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@v587d/capital-generation",
+      "version": "2.24.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/v587d/capital-generation",
+        "commit": "a12175c5ef728cfa5f97e6221f9f7a312c439781"
+      },
+      "manifestSha256": "0422c087cc42da5af261e8fe564a1e7151db29b333e9e1410c5c5020d86f0a51",
+      "manifestUrl": "https://github.com/v587d/capital-generation/blob/a12175c5ef728cfa5f97e6221f9f7a312c439781/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@v587d/capital-generation",
+        "versions": [
+          {
+            "version": "2.24.0",
+            "publishTimestamp": 1794652716,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/v587d/capital-generation",
+              "commit": "a12175c5ef728cfa5f97e6221f9f7a312c439781"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@v587d/capital-generation",
+      "origin": "npm",
+      "name": "@v587d/capital-generation",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@v587d/capital-generation",
+        "title": {
+          "en": "Capital Generation",
+          "zh": "Capital Generation（证券研究）"
+        },
+        "description": {
+          "en": "Securities research plugin for A-share investors: market and financial data, filings, news, analysis and charts. Choose Capital mode in a new session.",
+          "zh": "面向 A 股个人投资者的证券研究插件：查行情与财务数据、看公告和新闻、做分析、出图表。安装后在新会话选择自动模式。"
+        },
+        "author": "v587d",
+        "homepage": "https://github.com/v587d/capital-generation#readme",
+        "repository": {
+          "url": "https://github.com/v587d/capital-generation"
+        },
+        "icon": "data:image/png;base64,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",
+        "versions": [
+          {
+            "version": "2.24.0",
+            "publishTimestamp": 1794630701,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.2"
+            }
+          },
+          {
+            "version": "2.21.4",
+            "publishTimestamp": 1794532282,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.1"
+            }
+          },
+          {
+            "version": "2.11.1",
+            "publishTimestamp": 1792987092,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          },
+          {
+            "version": "2.6.5",
+            "publishTimestamp": 1791444231,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "255dd2e5c6a748a298e016df5c802e97350ad29ca56aa946d64007950ac35ff4",
+      "evidence": [
+        {
+          "name": "@v587d/capital-generation",
+          "version": "2.24.0",
+          "tarball": "https://registry.npmjs.org/@v587d/capital-generation/-/capital-generation-2.24.0.tgz",
+          "integrity": "sha512-aou/ggxr0vaHdWuEeJdq9skAHQkNXyfQgTtnjDlJfJOHjkajQSPIbGZwI9k8Zh9jnwGuQinO7FYcj08p6Occmg=="
+        },
+        {
+          "name": "@v587d/capital-generation",
+          "version": "2.21.4",
+          "tarball": "https://registry.npmjs.org/@v587d/capital-generation/-/capital-generation-2.21.4.tgz",
+          "integrity": "sha512-UX3X1E+b0WKf8dGZGDVvzOJ1y2z13+iVsJ7OL+iIq4FPFz1NfUfZpI9w3aOMl6KPQsAploeKs2GjchDDaY7fOw=="
+        },
+        {
+          "name": "@v587d/capital-generation",
+          "version": "2.11.1",
+          "tarball": "https://registry.npmjs.org/@v587d/capital-generation/-/capital-generation-2.11.1.tgz",
+          "integrity": "sha512-Gc7Os7pa64fr1WB4f0vNYu7LJlgZPWiKHEeO2ESTGNBNLthozhqkrp40BnRqMH161YuO1rbqWIVDwymuI371zg=="
+        },
+        {
+          "name": "@v587d/capital-generation",
+          "version": "2.6.5",
+          "tarball": "https://registry.npmjs.org/@v587d/capital-generation/-/capital-generation-2.6.5.tgz",
+          "integrity": "sha512-PFvbaEeV5KH2LJie/G7YHVB7iOkO+hWAlew+F8czh13yP0E3T/EbuEpQzPXplsbRk2QndobtDrVblE4tHJ7oVw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@v587d/capital-generation",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/v587d/capital-generation",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/v587d/capital-generation",
+    "commit": "a12175c5ef728cfa5f97e6221f9f7a312c439781",
+    "releaseTags": 74,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:07.348Z"
+}

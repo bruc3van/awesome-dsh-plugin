@@ -1,0 +1,134 @@
+{
+  "full_name": "minedalang/dsh-dafeiyu-life",
+  "originalPosition": 142,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "stargazers_count": 34,
+  "startedAt": "2026-11-15T21:01:04.736Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0bfdf5b48c5815e2426c6d80ddcb4cfca2e0405cdc0be39c63053eea971edf93",
+      "url": "https://github.com/minedalang/dsh-dafeiyu-life/blob/22c239f3f368a1eda672ac49094844ca413c4992/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-dafeiyu-life",
+          "command": "dsh plugin --profile desktop add dsh-dafeiyu-life",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-dafeiyu-life",
+      "version": "2.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/minedalang/dsh-dafeiyu-life",
+        "commit": "22c239f3f368a1eda672ac49094844ca413c4992"
+      },
+      "manifestSha256": "f9c810caf84169bab8fb1be73eb7581014409f22cceaac9416026b863c76d06d",
+      "manifestUrl": "https://github.com/minedalang/dsh-dafeiyu-life/blob/22c239f3f368a1eda672ac49094844ca413c4992/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-dafeiyu-life",
+        "versions": [
+          {
+            "version": "2.8.0",
+            "publishTimestamp": 1794646262,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/minedalang/dsh-dafeiyu-life",
+              "commit": "22c239f3f368a1eda672ac49094844ca413c4992"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-dafeiyu-life",
+      "origin": "npm",
+      "name": "dsh-dafeiyu-life",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-dafeiyu-life",
+        "title": "dsh-dafeiyu-life",
+        "description": "大肥鱼 · DSH 生活系统：主 Session 可回忆人生记忆与真实经历、管理自主待办，并按权限使用 B站读取与互动；支持可遗忘人生记忆、情绪与兴趣成长、三级社交和有边界的自主意愿。",
+        "homepage": "https://github.com/minedalang/dsh-dafeiyu-life#readme",
+        "repository": {
+          "url": "https://github.com/minedalang/dsh-dafeiyu-life"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "dafeiyu",
+            "bilibili",
+            "memory",
+            "agent-companion",
+            "persistent-agent",
+            "mcp"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.8.0",
+            "publishTimestamp": 1794646940,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8dc6407929c46200387847bfb52bdd28864da26c0975b703353f3239cb60acf1",
+      "evidence": [
+        {
+          "name": "dsh-dafeiyu-life",
+          "version": "2.8.0",
+          "tarball": "https://registry.npmjs.org/dsh-dafeiyu-life/-/dsh-dafeiyu-life-2.8.0.tgz",
+          "integrity": "sha512-dfqI75nXe95YGT8NbSjPftQtjBFHpZ9wrooVS7x63/ZcvrVMKCEES3toOcgrc9AWz8XduRUWvZpXeiGr3p/ihw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dafeiyu-life",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/minedalang/dsh-dafeiyu-life",
+    "commit": "22c239f3f368a1eda672ac49094844ca413c4992",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:07.143Z"
+}

@@ -1,0 +1,92 @@
+{
+  "full_name": "HYClub/deepseek-harness-game-studios",
+  "originalPosition": 185,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 185,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-11-15T21:01:24.577Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8d16b8396768dde4089428c2bcb1882852e224e8ffbeb2666478a125e851c2a0",
+      "url": "https://github.com/HYClub/deepseek-harness-game-studios/blob/7b77d28f79d65ff9407b413d88c17736e9a4e011/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/HYClub/deepseek-harness-game-studios",
+          "command": "dsh plugin --profile web add https://github.com/HYClub/deepseek-harness-game-studios",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "64cec5ca3c3e7946b89216c3a16845b173e3374296d98d33123827b0cb6ff74d",
+      "url": "https://github.com/HYClub/deepseek-harness-game-studios/blob/7b77d28f79d65ff9407b413d88c17736e9a4e011/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/HYClub/deepseek-harness-game-studios",
+          "command": "dsh plugin --profile web add https://github.com/HYClub/deepseek-harness-game-studios",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-harness-game-studios",
+      "version": "0.3.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HYClub/deepseek-harness-game-studios",
+        "commit": "7b77d28f79d65ff9407b413d88c17736e9a4e011"
+      },
+      "manifestSha256": "60bfa9e2e2dcb012378ecc8f0da6d2091e3051e846ce93974a6180a83a518e80",
+      "manifestUrl": "https://github.com/HYClub/deepseek-harness-game-studios/blob/7b77d28f79d65ff9407b413d88c17736e9a4e011/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "deepseek-harness-game-studios",
+        "versions": [
+          {
+            "version": "0.3.6",
+            "publishTimestamp": 1794334239,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HYClub/deepseek-harness-game-studios",
+              "commit": "7b77d28f79d65ff9407b413d88c17736e9a4e011"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/HYClub/deepseek-harness-game-studios",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HYClub/deepseek-harness-game-studios",
+    "commit": "7b77d28f79d65ff9407b413d88c17736e9a4e011",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:27.320Z"
+}

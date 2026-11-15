@@ -1,0 +1,176 @@
+{
+  "full_name": "left0ver/dsh-file-review",
+  "originalPosition": 118,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 118,
+  "batch": 1,
+  "stargazers_count": 44,
+  "startedAt": "2026-11-15T21:00:54.178Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f8acd18071760cfccdccc66f059716feb5335b31738463b5f73d269b373c2977",
+      "url": "https://github.com/left0ver/dsh-file-review/blob/5ea69bb282a8867d46786352f3b3edde87a83ab5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-file-review",
+          "command": "dsh plugin --profile web add dsh-file-review",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/left0ver/dsh-file-review",
+          "command": "dsh plugin --profile web add github:left0ver/dsh-file-review",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "252ef4896e211e4b6a90860dd51990ee53d27649f0b1c54ee842e40176eef39c",
+      "url": "https://github.com/left0ver/dsh-file-review/blob/5ea69bb282a8867d46786352f3b3edde87a83ab5/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-file-review",
+          "command": "dsh plugin --profile web add dsh-file-review",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/left0ver/dsh-file-review",
+          "command": "dsh plugin --profile web add github:left0ver/dsh-file-review",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-file-review",
+      "version": "0.9.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/left0ver/dsh-file-review",
+        "commit": "5ea69bb282a8867d46786352f3b3edde87a83ab5"
+      },
+      "manifestSha256": "cb7d704ff2b5868e34137c74ba17e963de00ba2b39ff328ce7ce554aabc13c4a",
+      "manifestUrl": "https://github.com/left0ver/dsh-file-review/blob/5ea69bb282a8867d46786352f3b3edde87a83ab5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-file-review",
+        "versions": [
+          {
+            "version": "0.9.0",
+            "publishTimestamp": 1793945357,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/left0ver/dsh-file-review",
+              "commit": "5ea69bb282a8867d46786352f3b3edde87a83ab5"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.2.3-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-file-review",
+      "origin": "npm",
+      "name": "dsh-file-review",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-file-review",
+        "title": "dsh-file-review",
+        "description": "Review DeepSeek Harness file changes in native sidebar tabs",
+        "homepage": "https://github.com/left0ver/dsh-file-review#readme",
+        "repository": {
+          "url": "https://github.com/left0ver/dsh-file-review"
+        },
+        "metadata": {
+          "keywords": [
+            "code-review",
+            "deepseek-harness",
+            "diff",
+            "dsh-plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+CiAgPHJlY3QgeD0iMC41IiB5PSIwLjUiIHdpZHRoPSI0NyIgaGVpZ2h0PSI0NyIgcng9IjExLjUiIGZpbGw9IiNmM2YxZmYiIHN0cm9rZT0iIzliOGFmYiIgLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4IDgpIiBmaWxsPSJub25lIiBzdHJva2U9IiMxOTFiMjQiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogICAgPHBhdGggZD0iTTE2IDNINmEyIDIgMCAwIDAtMiAydjIyYTIgMiAwIDAgMCAyIDJoMTBNMTYgM2w3IDd2NU0xNiAzdjdoNyIgLz4KICAgIDxwYXRoIGQ9Ik04IDE0aDYiIHN0cm9rZT0iI2Q2NWY3NiIgLz4KICAgIDxwYXRoIGQ9Ik04IDIxaDZtLTMtM3Y2IiBzdHJva2U9IiMyNjlkODAiIC8+CiAgICA8Y2lyY2xlIGN4PSIyMyIgY3k9IjIzIiByPSI2IiBmaWxsPSIjZmZmIiAvPgogICAgPHBhdGggZD0ibTI3LjUgMjcuNSAzIDMiIHN0cm9rZS13aWR0aD0iMi41IiAvPgogICAgPHBhdGggZD0ibTIwLjUgMjMgMS41IDEuNSAzLTMiIC8+CiAgPC9nPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.9.0",
+            "publishTimestamp": 1793947291,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.2.3-0"
+            }
+          },
+          {
+            "version": "0.8.13",
+            "publishTimestamp": 1793463745,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1 <0.2.2-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "65c7634d4d1b056f0721fd04f32a601ab4619fcde823e5514c3748408501c36a",
+      "evidence": [
+        {
+          "name": "dsh-file-review",
+          "version": "0.9.0",
+          "tarball": "https://registry.npmjs.org/dsh-file-review/-/dsh-file-review-0.9.0.tgz",
+          "integrity": "sha512-2PCfhC9LgEfME2uD5RU+iFEYAzsRWyUHYFtY9i2qJMftQOl9iTu5fMLbXl7g3LfE0IWgt7rjf1B4lYGPlt09FA=="
+        },
+        {
+          "name": "dsh-file-review",
+          "version": "0.8.13",
+          "tarball": "https://registry.npmjs.org/dsh-file-review/-/dsh-file-review-0.8.13.tgz",
+          "integrity": "sha512-O9C/PJ/3FgA858BMO3/jZCR1zmR1r4Bc2y5GIm15FY+7XGhj45IVExTqpLjK3T5pwbnjekAsB/+a2PyKmLajGg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-file-review",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/left0ver/dsh-file-review",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/left0ver/dsh-file-review",
+    "commit": "5ea69bb282a8867d46786352f3b3edde87a83ab5",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:56.907Z"
+}

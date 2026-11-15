@@ -1,0 +1,51 @@
+{
+  "full_name": "Suiwan/whale-purse",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "stargazers_count": 29,
+  "startedAt": "2026-11-15T21:01:13.548Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "91935f3c992cf840008252f5ad0f48bf09b3371ee5277b05d101e454504eeb1f",
+      "url": "https://github.com/Suiwan/whale-purse/blob/2dd878c5cf7874ba0566e9e38f28aedaf55ad195/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Suiwan/whale-purse",
+    "commit": "2dd878c5cf7874ba0566e9e38f28aedaf55ad195",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "whale-purse",
+    "version": "1.0.0",
+    "dsh": {
+      "client": {
+        "platform": "web",
+        "inject": [
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-connection",
+          "@deepseek-ai/dsh-client-ui-settings",
+          "@deepseek-ai/dsh-client-ui-slots",
+          "@deepseek-ai/dsh-client-ui-conversation"
+        ]
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-15T21:01:15.706Z"
+}

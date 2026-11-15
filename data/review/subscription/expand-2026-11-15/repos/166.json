@@ -1,0 +1,148 @@
+{
+  "full_name": "Nekomeow114/dsh-tieba-dive",
+  "originalPosition": 166,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 166,
+  "batch": 1,
+  "stargazers_count": 28,
+  "startedAt": "2026-11-15T21:01:15.706Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5d20b0c9020f9c0776efa1a6afc5bfb90b3c7515d0b0d1229c95ac6d84c1dc3a",
+      "url": "https://github.com/Nekomeow114/dsh-tieba-dive/blob/06e1657eb5262d3d2337466debf0a7ca1c165fbf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tieba-dive",
+          "command": "dsh plugin --profile web add dsh-tieba-dive",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Nekomeow114/dsh-tieba-dive",
+          "command": "dsh plugin --profile web add github:Nekomeow114/dsh-tieba-dive",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tieba-dive",
+          "command": "dsh plugin --profile headless add dsh-tieba-dive",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tieba-dive",
+      "version": "1.36.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nekomeow114/dsh-tieba-dive",
+        "commit": "06e1657eb5262d3d2337466debf0a7ca1c165fbf"
+      },
+      "manifestSha256": "6c64cb81b1dbd259d6913b9f4fb4fd727b1774b1fd3bbc9b68e774e756728867",
+      "manifestUrl": "https://github.com/Nekomeow114/dsh-tieba-dive/blob/06e1657eb5262d3d2337466debf0a7ca1c165fbf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-tieba-dive",
+        "versions": [
+          {
+            "version": "1.36.1",
+            "publishTimestamp": 1793969899,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Nekomeow114/dsh-tieba-dive",
+              "commit": "06e1657eb5262d3d2337466debf0a7ca1c165fbf"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-tieba-dive",
+      "origin": "npm",
+      "name": "dsh-tieba-dive",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tieba-dive",
+        "title": "dsh-tieba-dive",
+        "description": "DSH 插件 · 刷贴吧：读帖挑重点、写日报、自动签到；学习每个吧的语风（风格库），回帖与楼中楼可选（默认关）。支持人设、日记、峰谷定时，另带只读 MCP stdio server（未逐客户端实测）。",
+        "author": "Nekomeow114",
+        "homepage": "https://github.com/Nekomeow114/dsh-tieba-dive#readme",
+        "repository": {
+          "url": "https://github.com/Nekomeow114/dsh-tieba-dive"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "tieba",
+            "baidu",
+            "mcp",
+            "duty"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.34.0",
+            "publishTimestamp": 1793708140,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9880dc91a54e425170d0d02e2fa010804d6e59647d3a549b1846a490908214ff",
+      "evidence": [
+        {
+          "name": "dsh-tieba-dive",
+          "version": "1.34.0",
+          "tarball": "https://registry.npmjs.org/dsh-tieba-dive/-/dsh-tieba-dive-1.34.0.tgz",
+          "integrity": "sha512-a+QfxU9RF3BgcOy29+Lq7mjtge4p0V49u8YQxT03uVoLZOJaZYEYYN+/Py/r9zIE48ReZ1sFAQy8InAUJYMjfQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tieba-dive",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Nekomeow114/dsh-tieba-dive",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nekomeow114/dsh-tieba-dive",
+    "commit": "06e1657eb5262d3d2337466debf0a7ca1c165fbf",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:17.999Z"
+}

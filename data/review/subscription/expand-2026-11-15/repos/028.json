@@ -1,0 +1,66 @@
+{
+  "full_name": "huzhengcai471-crypto/dsh-startup-secret",
+  "originalPosition": 28,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 28,
+  "batch": 1,
+  "stargazers_count": 204,
+  "startedAt": "2026-11-15T21:00:07.978Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fe057f3fad4e26cd7542e7df406f657ea8d6316d55f78ddcc07db5bd27410d20",
+      "url": "https://github.com/huzhengcai471-crypto/dsh-startup-secret/blob/f159b63dc38c2b85e8c18554c7a40213e8663c1a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-startup-secret",
+      "version": "1.5.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/huzhengcai471-crypto/dsh-startup-secret",
+        "commit": "f159b63dc38c2b85e8c18554c7a40213e8663c1a"
+      },
+      "manifestSha256": "5df2b1b9348df5b34a5a2d438864ad68fdc525e8b9b156b6e7e8150d24ed321c",
+      "manifestUrl": "https://github.com/huzhengcai471-crypto/dsh-startup-secret/blob/f159b63dc38c2b85e8c18554c7a40213e8663c1a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-startup-secret",
+        "versions": [
+          {
+            "version": "1.5.2",
+            "publishTimestamp": 1793279992,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/huzhengcai471-crypto/dsh-startup-secret",
+              "commit": "f159b63dc38c2b85e8c18554c7a40213e8663c1a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/huzhengcai471-crypto/dsh-startup-secret",
+    "commit": "f159b63dc38c2b85e8c18554c7a40213e8663c1a",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:10.771Z"
+}

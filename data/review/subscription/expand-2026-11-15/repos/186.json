@@ -1,0 +1,154 @@
+{
+  "full_name": "Jaylor-Wang/dsh-awesome-preset",
+  "originalPosition": 186,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 186,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-11-15T21:01:25.019Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d8006354433b7ec3fd918de41c08772798768084181f5c074c34fad82c0d9f1c",
+      "url": "https://github.com/Jaylor-Wang/dsh-awesome-preset/blob/e7b31de74932bbc492b5e935e7c7bb6ac7e7cfe6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-awesome-preset",
+          "command": "dsh plugin --profile web add dsh-awesome-preset",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Jaylor-Wang/dsh-awesome-preset",
+          "command": "dsh plugin --profile web add github:Jaylor-Wang/dsh-awesome-preset",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "87e66cd03161fab67eb9c85e49e9fcc93c33fdef6e8f4845a41a45a328ab968a",
+      "url": "https://github.com/Jaylor-Wang/dsh-awesome-preset/blob/e7b31de74932bbc492b5e935e7c7bb6ac7e7cfe6/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-awesome-preset",
+          "command": "dsh plugin --profile web add dsh-awesome-preset",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Jaylor-Wang/dsh-awesome-preset",
+          "command": "dsh plugin --profile web add github:Jaylor-Wang/dsh-awesome-preset",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-awesome-preset",
+      "version": "2.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jaylor-Wang/dsh-awesome-preset",
+        "commit": "e7b31de74932bbc492b5e935e7c7bb6ac7e7cfe6"
+      },
+      "manifestSha256": "c758dfbf6e0f9e4fd677267eaf808fee49aa4658b625eedfd019bcd299b3a259",
+      "manifestUrl": "https://github.com/Jaylor-Wang/dsh-awesome-preset/blob/e7b31de74932bbc492b5e935e7c7bb6ac7e7cfe6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-awesome-preset",
+        "versions": [
+          {
+            "version": "2.5.0",
+            "publishTimestamp": 1794231715,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jaylor-Wang/dsh-awesome-preset",
+              "commit": "e7b31de74932bbc492b5e935e7c7bb6ac7e7cfe6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-awesome-preset",
+      "origin": "npm",
+      "name": "dsh-awesome-preset",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-awesome-preset",
+        "title": "dsh-awesome-preset",
+        "description": "Ultra-lean daily coding agent preset for DeepSeek Harness (dsh): direct tools over orchestration, fast and responsive.",
+        "author": "Jaylor-Wang",
+        "homepage": "https://github.com/Jaylor-Wang/dsh-awesome-preset#readme",
+        "repository": {
+          "url": "https://github.com/Jaylor-Wang/dsh-awesome-preset"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "agent-preset"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.5.0",
+            "publishTimestamp": 1794232080,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5a824eefd7b2bd7f366eecb230027eae4e17ca6dd9ebecaaf1e8bf7cff7fc348",
+      "evidence": [
+        {
+          "name": "dsh-awesome-preset",
+          "version": "2.5.0",
+          "tarball": "https://registry.npmjs.org/dsh-awesome-preset/-/dsh-awesome-preset-2.5.0.tgz",
+          "integrity": "sha512-1dw6Y2EZmIv4k/vTEwLDlfbFu14RTqxAJDchWaEj6Jzka8cRw/MwlmyUT/nM4v1RAN+1f49QjaAQTrT0jYqwFQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-awesome-preset",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Jaylor-Wang/dsh-awesome-preset",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jaylor-Wang/dsh-awesome-preset",
+    "commit": "e7b31de74932bbc492b5e935e7c7bb6ac7e7cfe6",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:27.529Z"
+}

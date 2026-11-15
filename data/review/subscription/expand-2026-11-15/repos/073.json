@@ -1,0 +1,122 @@
+{
+  "full_name": "whiteguo233/dsh-openbiliclaw",
+  "originalPosition": 73,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 73,
+  "batch": 1,
+  "stargazers_count": 75,
+  "startedAt": "2026-11-15T21:00:31.681Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "effc1d4e7978cac979a23fc5e268005e931a6b01b855a9c0a57bc20b2992944e",
+      "url": "https://github.com/whiteguo233/dsh-openbiliclaw/blob/06dc9c8b02423b0583f9cf6cfec23309a7e028db/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/whiteguo233/dsh-openbiliclaw#v0.6.0",
+          "command": "dsh plugin --profile web add 'github:whiteguo233/dsh-openbiliclaw#v0.6.0'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/whiteguo233/dsh-openbiliclaw#v0.6.0",
+          "command": "dsh plugin --profile <profile> add 'github:whiteguo233/dsh-openbiliclaw#v0.6.0'",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@openbiliclaw/dsh-plugin",
+      "version": "0.6.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/whiteguo233/dsh-openbiliclaw",
+        "commit": "06dc9c8b02423b0583f9cf6cfec23309a7e028db"
+      },
+      "manifestSha256": "6dcf642e265e387009d9769df5d0095b3271b82824c0f6bfb6475b45168e70fb",
+      "manifestUrl": "https://github.com/whiteguo233/dsh-openbiliclaw/blob/06dc9c8b02423b0583f9cf6cfec23309a7e028db/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@openbiliclaw/dsh-plugin",
+        "versions": [
+          {
+            "version": "0.6.4",
+            "publishTimestamp": 1793629310,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/whiteguo233/dsh-openbiliclaw",
+              "commit": "06dc9c8b02423b0583f9cf6cfec23309a7e028db"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/whiteguo233/dsh-openbiliclaw#v0.6.0",
+      "origin": "git_target",
+      "name": "@openbiliclaw/dsh-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@openbiliclaw/dsh-plugin",
+        "title": "@openbiliclaw/dsh-plugin",
+        "description": "OpenBiliClaw DeepSeek Harness plugin: the user-consumption side (recommendations, delight, saved, Socratic chat, profile, probes, activity) as a web-GUI sidebar, plus agent-bridge tools and the openbiliclaw-adapter skill for closed-loop use inside DSH.",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1793003253,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/whiteguo233/dsh-openbiliclaw",
+              "commit": "84008dfa9f388663a29bab9df5a4462e566a9766"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "84008dfa9f388663a29bab9df5a4462e566a9766",
+          "name": "@openbiliclaw/dsh-plugin",
+          "version": "0.6.0",
+          "url": "https://github.com/whiteguo233/dsh-openbiliclaw",
+          "manifestSha256": "69235855c4514a29b62b8437e5306a7c596c45265b0de82758b1d1dcb9d26000",
+          "publishTimestamp": 1793003253
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/whiteguo233/dsh-openbiliclaw#v0.6.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/whiteguo233/dsh-openbiliclaw",
+    "commit": "06dc9c8b02423b0583f9cf6cfec23309a7e028db",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:35.342Z"
+}

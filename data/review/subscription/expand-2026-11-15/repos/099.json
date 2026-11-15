@@ -1,0 +1,58 @@
+{
+  "full_name": "gulagala001/oh-my-dsh",
+  "originalPosition": 99,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 99,
+  "batch": 1,
+  "stargazers_count": 51,
+  "startedAt": "2026-11-15T21:00:43.234Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5ee02302df46aacc1799b56193de6edcf4154d2addaa0f5228abe0464f31a7e4",
+      "url": "https://github.com/gulagala001/oh-my-dsh/blob/85e189cfd6cd2c7258da6e124b9f681bbc942d7d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "b0e4424b92267d7ed2aaf7d763ae60a0fbac04fa24668cadeb73d39305edfba7",
+      "url": "https://github.com/gulagala001/oh-my-dsh/blob/85e189cfd6cd2c7258da6e124b9f681bbc942d7d/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "oh-my-dsh",
+      "version": "0.2.2-rc.3.omd.1.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/gulagala001/oh-my-dsh",
+        "commit": "85e189cfd6cd2c7258da6e124b9f681bbc942d7d"
+      },
+      "manifestSha256": "421cb4f7497b9e64f8fca19034381921c4371429b69c472066170c065171e5bd",
+      "manifestUrl": "https://github.com/gulagala001/oh-my-dsh/blob/85e189cfd6cd2c7258da6e124b9f681bbc942d7d/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gulagala001/oh-my-dsh",
+    "commit": "85e189cfd6cd2c7258da6e124b9f681bbc942d7d",
+    "releaseTags": 135,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-15T21:00:49.969Z"
+}

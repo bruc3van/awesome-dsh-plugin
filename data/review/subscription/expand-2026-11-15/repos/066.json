@@ -1,0 +1,78 @@
+{
+  "full_name": "yang0/dsh-handraw-style",
+  "originalPosition": 66,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 66,
+  "batch": 1,
+  "stargazers_count": 89,
+  "startedAt": "2026-11-15T21:00:28.114Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "710303932c09af61212f2f2bd23f88af4920b6796f8ab254cfacb2366c3cfc6f",
+      "url": "https://github.com/yang0/dsh-handraw-style/blob/4e959966464e0b3b7aa8fb39ef535946b5362ff1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yang0/dsh-handraw-style",
+          "command": "dsh plugin --profile web add \"github:yang0/dsh-handraw-style\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-pose-studio",
+      "version": "0.7.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yang0/dsh-handraw-style",
+        "commit": "4e959966464e0b3b7aa8fb39ef535946b5362ff1"
+      },
+      "manifestSha256": "353f485c49c11b7584b732d2a7a83e12eabdbf2779cf597c54414359c35cb254",
+      "manifestUrl": "https://github.com/yang0/dsh-handraw-style/blob/4e959966464e0b3b7aa8fb39ef535946b5362ff1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-pose-studio",
+        "versions": [
+          {
+            "version": "0.7.9",
+            "publishTimestamp": 1794574474,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yang0/dsh-handraw-style",
+              "commit": "4e959966464e0b3b7aa8fb39ef535946b5362ff1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yang0/dsh-handraw-style",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yang0/dsh-handraw-style",
+    "commit": "4e959966464e0b3b7aa8fb39ef535946b5362ff1",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:33.551Z"
+}

@@ -1,0 +1,173 @@
+{
+  "full_name": "kenz1117/dsh-engram",
+  "originalPosition": 75,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 75,
+  "batch": 1,
+  "stargazers_count": 71,
+  "startedAt": "2026-11-15T21:00:31.926Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1ad13ca31a505e3af2402e4a0e2bce3c26d2a20230f51c58d67f2780a18c657f",
+      "url": "https://github.com/kenz1117/dsh-engram/blob/e220a470618783bfdf17c6c67b05bed04bfe3314/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@kenz1117/dsh-engram",
+          "command": "dsh plugin --profile web add @kenz1117/dsh-engram",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/kenz1117/dsh-engram",
+          "command": "dsh plugin add github:kenz1117/dsh-engram",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b8845e30178e0b736f60ae8e152c1c27d2657a67a65eab77468478004d7cef85",
+      "url": "https://github.com/kenz1117/dsh-engram/blob/e220a470618783bfdf17c6c67b05bed04bfe3314/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@kenz1117/dsh-engram",
+          "command": "dsh plugin --profile web add @kenz1117/dsh-engram",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/kenz1117/dsh-engram",
+          "command": "dsh plugin add github:kenz1117/dsh-engram",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@kenz1117/dsh-engram",
+      "version": "0.13.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kenz1117/dsh-engram",
+        "commit": "e220a470618783bfdf17c6c67b05bed04bfe3314"
+      },
+      "manifestSha256": "2b0bb0360eb66c5cf1ca8e783c73f6d57884189b4046a41eac67b07058dcd07e",
+      "manifestUrl": "https://github.com/kenz1117/dsh-engram/blob/e220a470618783bfdf17c6c67b05bed04bfe3314/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@kenz1117/dsh-engram",
+        "versions": [
+          {
+            "version": "0.13.11",
+            "publishTimestamp": 1794722590,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kenz1117/dsh-engram",
+              "commit": "e220a470618783bfdf17c6c67b05bed04bfe3314"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@kenz1117/dsh-engram",
+      "origin": "npm",
+      "name": "@kenz1117/dsh-engram",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@kenz1117/dsh-engram",
+        "title": "@kenz1117/dsh-engram",
+        "description": "Local-first cross-session long-term memory for DeepSeek Harness: dual-scope SQLite stores, hybrid FTS5 + local-vector retrieval with RRF, an evidence gate, provenance audit and SM-2 spaced repetition. 23 narrow tools, zero external services, zero API keys.",
+        "homepage": "https://github.com/kenz1117/dsh-engram#readme",
+        "repository": {
+          "url": "https://github.com/kenz1117/dsh-engram"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "dsh-market",
+            "agi-architecture-exploration",
+            "memory-palace",
+            "method-of-loci",
+            "memory",
+            "long-term-memory",
+            "agent-memory",
+            "cross-session",
+            "context-engineering",
+            "local-first",
+            "rag",
+            "vector-search",
+            "semantic-search",
+            "knowledge-graph",
+            "spaced-repetition",
+            "provenance",
+            "sqlite",
+            "fts5",
+            "embeddings",
+            "knowledge-flywheel",
+            "agent"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCEtLSDorrDlv4blrqvmrr/lk4HniYzlm77moIfvvJrlm73kvJrlvI/lrqvmrr/nur/nqL/lpI3liLvvvJvljZXoibIgY3VycmVudENvbG9y77yM5rex6Imy5qih5byP6Ieq5Yqo5Y+N55m944CCIC0tPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAtMTAgNTU1IDU1NSIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik1lbW9yeSBQYWxhY2UiIHN0eWxlPSJjb2xvcjojMjQyOTJmIj4KICA8c3R5bGU+QG1lZGlhIChwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykgeyBzdmcgeyBjb2xvcjogI2VjZWNlYyB9IH08L3N0eWxlPgogIDxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjE1Ij4KICAgIDxwYXRoIGQ9Ik0yNzcgMnYzMCIvPgogICAgPHJlY3QgeD0iMjUwIiB5PSIzMCIgd2lkdGg9IjU1IiBoZWlnaHQ9IjQwIi8+CiAgICA8cGF0aCBkPSJNMjAwIDEwNmE3NyAzNiAwIDAgMSAxNTQgMCIvPgogICAgPHBhdGggZD0iTTIzMiAxMDZhNDUgMjEgMCAwIDEgOTAgMCIvPgogICAgPHBhdGggZD0iTTI2MiAxMDZ2LTEwYTE1IDExIDAgMCAxIDMwIDB2MTAiLz4KICAgIDxwYXRoIGQ9Ik0xODAgMTA2aDE5NE0xODAgMTI4aDE5NE0xODAgOTR2MzRNMzc0IDk0djM0Ii8+CiAgICA8cGF0aCBkPSJNMjE1IDEyOHY1Nk0zMzkgMTI4djU2Ii8+CiAgICA8cGF0aCBkPSJNMTE5IDE4NGgzMTdNMTE5IDIxMWgzMTdNMTE5IDE3MnYzOU00MzYgMTcydjM5Ii8+CiAgICA8cGF0aCBkPSJNMTE5IDI2MkwyNzcgMTcwbDE1OSA5MiIvPgogICAgPHBhdGggZD0iTTExOSAyNjJoMzE3Ii8+CiAgICA8cGF0aCBkPSJNMTYzIDI2MkwyNzcgMjE0bDExNSA0OCIvPgogICAgPHBhdGggZD0iTTE1MCAyOTBoMjU1Ii8+CiAgICA8cGF0aCBkPSJNMTUwIDI2MnYyNDNNNDA1IDI2MnYyNDMiLz4KICAgIDxyZWN0IHg9IjIwMCIgeT0iMzQwIiB3aWR0aD0iOCIgaGVpZ2h0PSI4Ii8+CiAgICA8cmVjdCB4PSIyNDQiIHk9IjM0MCIgd2lkdGg9IjgiIGhlaWdodD0iOCIvPgogICAgPHJlY3QgeD0iMjg3IiB5PSIzNDAiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiLz4KICAgIDxyZWN0IHg9IjMzMSIgeT0iMzQwIiB3aWR0aD0iOCIgaGVpZ2h0PSI4Ii8+CiAgICA8cGF0aCBkPSJNMTkwIDMwMHYxMThNMjMzLjUgMzAwdjExOE0yNzcgMzAwdjExOE0zMjEgMzAwdjExOE0zNjQgMzAwdjExOCIvPgogICAgPHBhdGggZD0iTTE1MCA0NDBoMjU1Ii8+CiAgICA8cGF0aCBkPSJNMjAzIDQ1MnY0OE0yNDAgNDUydjQ4TTI3NyA0NTJ2NDhNMzE0IDQ1MnY0OE0zNTEgNDUydjQ4Ii8+CiAgICA8cGF0aCBkPSJNMjAgMjgwdjIyNU01MzUgMjgwdjIyNSIvPgogICAgPHBhdGggZD0iTTIwIDI4MGgxMzBNMjAgMzA1aDEzME0yMCAzNDdoMTMwIi8+CiAgICA8cGF0aCBkPSJNNDA1IDI4MGgxMzBNNDA1IDMwNWgxMzBNNDA1IDM0N2gxMzAiLz4KICAgIDxwYXRoIGQ9Ik0yMCA0MjVoMTMwTTQwNSA0MjVoMTMwIi8+CiAgICA8cmVjdCB4PSI0MiIgeT0iMzY2IiB3aWR0aD0iMjgiIGhlaWdodD0iMjgiLz4KICAgIDxyZWN0IHg9IjEwMCIgeT0iMzY2IiB3aWR0aD0iMjgiIGhlaWdodD0iMjgiLz4KICAgIDxyZWN0IHg9IjQyNyIgeT0iMzY2IiB3aWR0aD0iMjgiIGhlaWdodD0iMjgiLz4KICAgIDxyZWN0IHg9IjQ4NSIgeT0iMzY2IiB3aWR0aD0iMjgiIGhlaWdodD0iMjgiLz4KICAgIDxyZWN0IHg9IjQyIiB5PSI0NTIiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCIvPgogICAgPHJlY3QgeD0iMTAwIiB5PSI0NTIiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCIvPgogICAgPHJlY3QgeD0iNDI3IiB5PSI0NTIiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCIvPgogICAgPHJlY3QgeD0iNDg1IiB5PSI0NTIiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCIvPgogICAgPHBhdGggZD0iTTIwIDUwNWg1MTVNNDggNTI4aDQ1OSIvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.13.11",
+            "publishTimestamp": 1794723680,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "534ba506628645413c43a3fa6308cf59422e97b6547bce2c4e4b9ece3cb6315e",
+      "evidence": [
+        {
+          "name": "@kenz1117/dsh-engram",
+          "version": "0.13.11",
+          "tarball": "https://registry.npmjs.org/@kenz1117/dsh-engram/-/dsh-engram-0.13.11.tgz",
+          "integrity": "sha512-6h7t2/19VXw+wo5slb0qRiT+ZjuwelK0fwhh/Wa6/TWhFTrQ4ma9gbf/sUMgJdHZ/p0aga3+alVb8oNxwjnUog=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@kenz1117/dsh-engram",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/kenz1117/dsh-engram",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kenz1117/dsh-engram",
+    "commit": "e220a470618783bfdf17c6c67b05bed04bfe3314",
+    "releaseTags": 62,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:35.044Z"
+}

@@ -1,0 +1,263 @@
+{
+  "full_name": "MichengAI/dsh-automation",
+  "originalPosition": 123,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 123,
+  "batch": 1,
+  "stargazers_count": 41,
+  "startedAt": "2026-11-15T21:00:56.092Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d4e8644491a0c2c5239ace23fd3c7782697ed7bfb80b734c7033d7994517faed",
+      "url": "https://github.com/MichengAI/dsh-automation/blob/d42ff68864c65f6b614b3976a0ed9b0459bf40ee/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-automation@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-automation@latest --registry=https://registry.npmjs.org/。安装后执行 dsh --profile web --dump-config，确认配置包含",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "d4e8644491a0c2c5239ace23fd3c7782697ed7bfb80b734c7033d7994517faed",
+      "url": "https://github.com/MichengAI/dsh-automation/blob/d42ff68864c65f6b614b3976a0ed9b0459bf40ee/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-automation@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-automation@latest --registry=https://registry.npmjs.org/。安装后执行 dsh --profile web --dump-config，确认配置包含",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "1f0298afb9e2e05184e73cd938cd913a4eb5b03a8f87a0d04471f46985ca571e",
+      "url": "https://github.com/MichengAI/dsh-automation/blob/d42ff68864c65f6b614b3976a0ed9b0459bf40ee/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-automation@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-automation@latest --registry=https://registry.npmjs.org/. Then run dsh --profile web --dump-config, confirm the configuration includes",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "57c41740b2c9d224a31c9d7fd01c8f7d2bce0b6764b9c65f5898a4eda08e0ff5",
+      "url": "https://github.com/MichengAI/dsh-automation/blob/d42ff68864c65f6b614b3976a0ed9b0459bf40ee/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-automation@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-automation@latest --registry=https://registry.npmjs.org/。インストール後、dsh --profile web --dump-config",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "2c7d7a0f82c02b471e0c0f410163395c3c4aafbbbfcf69c7b7391164558824a4",
+      "url": "https://github.com/MichengAI/dsh-automation/blob/d42ff68864c65f6b614b3976a0ed9b0459bf40ee/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-automation@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-automation@latest --registry=https://registry.npmjs.org/. Luego ejecuta dsh --profile web --dump-config, confirma que la",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "628d75f22d4240e812ec071760aa4ad715d957ec6be86de7465acd834493f370",
+      "url": "https://github.com/MichengAI/dsh-automation/blob/d42ff68864c65f6b614b3976a0ed9b0459bf40ee/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-automation@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-automation@latest --registry=https://registry.npmjs.org/.",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "bc3bd5889223b0a84f42a12c5b6a4666401a1b0d6cf56dd3d57ceee24e6a55c3",
+      "url": "https://github.com/MichengAI/dsh-automation/blob/d42ff68864c65f6b614b3976a0ed9b0459bf40ee/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-automation@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-automation@latest --registry=https://registry.npmjs.org/.",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "9dc8248aa30fd7a686fe0f63401af275bbdea222ea25a9d18e819f47b4724672",
+      "url": "https://github.com/MichengAI/dsh-automation/blob/d42ff68864c65f6b614b3976a0ed9b0459bf40ee/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-automation@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-automation@latest --registry=https://registry.npmjs.org/.",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.pt.md",
+      "sha256": "a58bbca292d46b2a9629873c6bf2b923305f78851685c55ff7220a62d12c5e8e",
+      "url": "https://github.com/MichengAI/dsh-automation/blob/d42ff68864c65f6b614b3976a0ed9b0459bf40ee/README.pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-automation@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-automation@latest --registry=https://registry.npmjs.org/. Depois execute dsh --profile web --dump-config, confirme a",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-automation",
+      "version": "1.0.27",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-automation",
+        "commit": "d42ff68864c65f6b614b3976a0ed9b0459bf40ee"
+      },
+      "manifestSha256": "74c83fb0194a117c773c6e92527f340b62b1a47b743aa58b4e087f9b4611a19b",
+      "manifestUrl": "https://github.com/MichengAI/dsh-automation/blob/d42ff68864c65f6b614b3976a0ed9b0459bf40ee/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@michengai/dsh-automation",
+        "versions": [
+          {
+            "version": "1.0.27",
+            "publishTimestamp": 1794704437,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MichengAI/dsh-automation",
+              "commit": "d42ff68864c65f6b614b3976a0ed9b0459bf40ee"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@michengai/dsh-automation@latest",
+      "origin": "npm",
+      "name": "@michengai/dsh-automation",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@michengai/dsh-automation",
+        "title": {
+          "en": "Automation",
+          "de": "Automation",
+          "es": "Automation",
+          "fr": "Automation",
+          "ja": "Automation",
+          "pt": "Automation",
+          "ru": "Automation",
+          "zh": "Automation"
+        },
+        "description": {
+          "en": "Schedule and manage coding tasks in isolated sessions.",
+          "de": "Planen und verwalten Sie Programmieraufgaben in isolierten Sitzungen.",
+          "es": "Programe y administre tareas de codificación en sesiones aisladas.",
+          "fr": "Planifiez et gérez les tâches de codage dans des sessions isolées.",
+          "ja": "独立したセッションでスケジュールに従ってコーディングタスクを実行・管理します。",
+          "pt": "Agende e gerencie tarefas de codificação em sessões isoladas.",
+          "ru": "Планируйте и управляйте задачами кодирования в изолированных сессиях.",
+          "zh": "在独立会话中按计划执行和管理编码任务。"
+        },
+        "author": "MichengAI",
+        "homepage": "https://github.com/MichengAI/dsh-automation#readme",
+        "repository": {
+          "url": "https://github.com/MichengAI/dsh-automation"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "automation",
+            "scheduled-task",
+            "coding-agent",
+            "cordis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z19hdXRvX2ciIHgxPSI2IiB5MT0iNiIgeDI9IjMwIiB5Mj0iMzAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzA2QjZENCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzQjgyRjYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDwhLS0gQ2lyY3VsYXIgQXJyb3cgTG9vcCBUcmFjayAoQ2xvY2t3aXNlIExvb3ApIC0tPgogIDxwYXRoIGQ9Ik0xOCA3QzI0LjA3NSA3IDI5IDExLjkyNSAyOSAxOEMyOSAyMC4zIDI4LjMgMjIuNCAyNy4xIDI0LjEiIHN0cm9rZT0idXJsKCNkc2hfc3ZnX2F1dG9fZykiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTI5LjUgMTMuNUwyOSAxOC41TDI0IDE4IiBzdHJva2U9InVybCgjZHNoX3N2Z19hdXRvX2cpIiBzdHJva2Utd2lkdGg9IjIuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0iTTE4IDI5QzExLjkyNSAyOSA3IDI0LjA3NSA3IDE4QzcgMTUuNyA3LjcgMTMuNiA4LjkgMTEuOSIgc3Ryb2tlPSJ1cmwoI2RzaF9zdmdfYXV0b19nKSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNNi41IDIyLjVMNyAxNy41TDEyIDE4IiBzdHJva2U9InVybCgjZHNoX3N2Z19hdXRvX2cpIiBzdHJva2Utd2lkdGg9IjIuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPCEtLSBTaGFycCBMaWdodG5pbmcgUHVsc2UgaW4gQ2VudGVyIC0tPgogIDxwYXRoIGQ9Ik0xOS41IDEwLjVMMTMuNSAxOUgxOEwxNi41IDI1LjVMMjIuNSAxN0gxOEwxOS41IDEwLjVaIiBmaWxsPSIjRjU5RTBCIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS40IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==",
+        "versions": [
+          {
+            "version": "1.0.27",
+            "publishTimestamp": 1794704704,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1414407c3e846310f59583deea9b910428bb18d2a157b8d4870ba336da563176",
+      "evidence": [
+        {
+          "name": "@michengai/dsh-automation",
+          "version": "1.0.27",
+          "tarball": "https://registry.npmjs.org/@michengai/dsh-automation/-/dsh-automation-1.0.27.tgz",
+          "integrity": "sha512-Im+y/+D5r9ol3VuLXIC2QtZfC8xVYUvWj5T33c7l7EKB1Ga7fb2W80EVTg2KPXDxf+ueiaBHy2GKbOp0vWPiSg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@michengai/dsh-automation@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-automation",
+    "commit": "d42ff68864c65f6b614b3976a0ed9b0459bf40ee",
+    "releaseTags": 85,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:02.081Z"
+}

@@ -1,0 +1,40 @@
+{
+  "full_name": "liyupi/dsh-kun-like-pet",
+  "originalPosition": 45,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 45,
+  "batch": 1,
+  "stargazers_count": 113,
+  "startedAt": "2026-11-15T21:00:18.935Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f52235c868b3d243251d503464a919d7f93550d0191fa67d16780cdd3383a33f",
+      "url": "https://github.com/liyupi/dsh-kun-like-pet/blob/87bb6e1762618dd7727d285ffeeadd86a3799425/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liyupi/dsh-kun-like-pet",
+    "commit": "87bb6e1762618dd7727d285ffeeadd86a3799425",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-kun-like-pet",
+    "version": "1.0.0",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-15T21:00:20.838Z"
+}

@@ -1,0 +1,301 @@
+{
+  "full_name": "lninghaha/dsh-coding-subscription-oauth",
+  "originalPosition": 172,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 172,
+  "batch": 1,
+  "stargazers_count": 28,
+  "startedAt": "2026-11-15T21:01:18.265Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3bba0dc15c7f0a2bf049d0f0a95e6eb91c9d612261a944d8aaf9c4f9855a1702",
+      "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth/blob/1f31dd512eae5a3fb052277f5cfd50ae7e7ccede/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-coding-subscription-oauth@0.8.7",
+          "command": "dsh plugin --profile web add dsh-coding-subscription-oauth@0.8.7",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+          "command": "dsh plugin --profile web add github:lninghaha/dsh-coding-subscription-oauth",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "90628283bf9db94be1049b267712fffb884c214296db63ebf2534691908358d3",
+      "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth/blob/1f31dd512eae5a3fb052277f5cfd50ae7e7ccede/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-coding-subscription-oauth@0.8.7",
+          "command": "dsh plugin --profile web add dsh-coding-subscription-oauth@0.8.7",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+          "command": "dsh plugin --profile web add github:lninghaha/dsh-coding-subscription-oauth",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "758ae589a32c6c6156886e01001a2da0856117f49c9355458fa4eebe0988e1ad",
+      "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth/blob/1f31dd512eae5a3fb052277f5cfd50ae7e7ccede/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-coding-subscription-oauth@0.8.7",
+          "command": "dsh plugin --profile web add dsh-coding-subscription-oauth@0.8.7",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+          "command": "dsh plugin --profile web add github:lninghaha/dsh-coding-subscription-oauth",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ko.md",
+      "sha256": "9716c678941782d306efef679bbbf9d33ed0303b6af4f5587e4436860a104300",
+      "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth/blob/1f31dd512eae5a3fb052277f5cfd50ae7e7ccede/README.ko.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-coding-subscription-oauth@0.8.7",
+          "command": "dsh plugin --profile web add dsh-coding-subscription-oauth@0.8.7",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+          "command": "dsh plugin --profile web add github:lninghaha/dsh-coding-subscription-oauth",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.pt-BR.md",
+      "sha256": "16e9307bbbcd24a6cab88c69d894c2ab7663d0f60be99013b462181221895678",
+      "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth/blob/1f31dd512eae5a3fb052277f5cfd50ae7e7ccede/README.pt-BR.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-coding-subscription-oauth@0.8.7",
+          "command": "dsh plugin --profile web add dsh-coding-subscription-oauth@0.8.7",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+          "command": "dsh plugin --profile web add github:lninghaha/dsh-coding-subscription-oauth",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "fd83d895ed4137bca1ddb9567e2933dba150bf421d3424ab2bcf7e3bf73c4663",
+      "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth/blob/1f31dd512eae5a3fb052277f5cfd50ae7e7ccede/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-coding-subscription-oauth@0.8.7",
+          "command": "dsh plugin --profile web add dsh-coding-subscription-oauth@0.8.7",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+          "command": "dsh plugin --profile web add github:lninghaha/dsh-coding-subscription-oauth",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "059a1bf803f7cbb8a5af09a6d26402326cdc52dc534f4d5964e02300b5f6f4a3",
+      "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth/blob/1f31dd512eae5a3fb052277f5cfd50ae7e7ccede/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-coding-subscription-oauth@0.8.7",
+          "command": "dsh plugin --profile web add dsh-coding-subscription-oauth@0.8.7",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+          "command": "dsh plugin --profile web add github:lninghaha/dsh-coding-subscription-oauth",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "1452afeb385681e53f569055c7061994449434bb577aaf6bfafd010b90c6a155",
+      "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth/blob/1f31dd512eae5a3fb052277f5cfd50ae7e7ccede/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-coding-subscription-oauth@0.8.7",
+          "command": "dsh plugin --profile web add dsh-coding-subscription-oauth@0.8.7",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+          "command": "dsh plugin --profile web add github:lninghaha/dsh-coding-subscription-oauth",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "f622406a7e87b09746dbf9557b42e580a43f2f8253881a158f3adba7519a71c0",
+      "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth/blob/1f31dd512eae5a3fb052277f5cfd50ae7e7ccede/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-coding-subscription-oauth@0.8.7",
+          "command": "dsh plugin --profile web add dsh-coding-subscription-oauth@0.8.7",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+          "command": "dsh plugin --profile web add github:lninghaha/dsh-coding-subscription-oauth",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-coding-subscription-oauth",
+      "version": "0.8.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+        "commit": "1f31dd512eae5a3fb052277f5cfd50ae7e7ccede"
+      },
+      "manifestSha256": "25111c6fa9c6e9c28289d8baa64d8f1e77ade7c459710503ad56adc0b312bca7",
+      "manifestUrl": "https://github.com/lninghaha/dsh-coding-subscription-oauth/blob/1f31dd512eae5a3fb052277f5cfd50ae7e7ccede/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-coding-subscription-oauth",
+        "versions": [
+          {
+            "version": "0.8.7",
+            "publishTimestamp": 1792762523,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+              "commit": "1f31dd512eae5a3fb052277f5cfd50ae7e7ccede"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-coding-subscription-oauth@0.8.7",
+      "origin": "npm",
+      "name": "dsh-coding-subscription-oauth",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-coding-subscription-oauth",
+        "title": "dsh-coding-subscription-oauth",
+        "description": "DeepSeek Harness coding-subscription OAuth: SuperGrok/Grok Build, ChatGPT Plus Codex, Kimi Code, Claude Code. Fixes AUTH API key is invalid, INVALID_REPLAY_STATE, grok-4.6 xhigh, Kimi Bearer vs x-api-key.",
+        "homepage": "https://github.com/lninghaha/dsh-coding-subscription-oauth#readme",
+        "repository": {
+          "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "oauth",
+            "grok-build",
+            "super-grok",
+            "grok-4.6",
+            "cli-chat-proxy",
+            "openai-codex",
+            "chatgpt-plus",
+            "kimi-code",
+            "claude-code",
+            "google-antigravity",
+            "xhigh",
+            "device-code"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.8.7",
+            "publishTimestamp": 1792728178,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "65ec04e0cf218990a19e2024ba5f1f8af6996691c960be2b15a164f598748c20",
+      "evidence": [
+        {
+          "name": "dsh-coding-subscription-oauth",
+          "version": "0.8.7",
+          "tarball": "https://registry.npmjs.org/dsh-coding-subscription-oauth/-/dsh-coding-subscription-oauth-0.8.7.tgz",
+          "integrity": "sha512-JcjdWwoaj4EAinn7EzbS3yO9Xg53Q9tp7XPbP7G8OtW0XjoX8URlZjVolCVrWa/1p6Er5701+/VKpfxOzkeNAw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-coding-subscription-oauth@0.8.7",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lninghaha/dsh-coding-subscription-oauth",
+    "commit": "1f31dd512eae5a3fb052277f5cfd50ae7e7ccede",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:01:24.238Z"
+}

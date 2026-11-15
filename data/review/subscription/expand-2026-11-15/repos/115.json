@@ -1,0 +1,66 @@
+{
+  "full_name": "copylee711/dsh-computer-use",
+  "originalPosition": 115,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 115,
+  "batch": 1,
+  "stargazers_count": 44,
+  "startedAt": "2026-11-15T21:00:52.215Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9a9d8e8dddc9f73be3db367bce6687f5451d7a242b65f21906776d1cbc3b757a",
+      "url": "https://github.com/copylee711/dsh-computer-use/blob/6172139ff80b8ce1e3b21ca1c7035317160a6c86/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@copylee/dsh-computer-use",
+      "version": "0.8.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/copylee711/dsh-computer-use",
+        "commit": "6172139ff80b8ce1e3b21ca1c7035317160a6c86"
+      },
+      "manifestSha256": "1e5b0393c6cb7dc3e7fa062b699ce8184f80cca5841698e30924606c81fc4ba0",
+      "manifestUrl": "https://github.com/copylee711/dsh-computer-use/blob/6172139ff80b8ce1e3b21ca1c7035317160a6c86/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@copylee/dsh-computer-use",
+        "versions": [
+          {
+            "version": "0.8.4",
+            "publishTimestamp": 1794755674,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/copylee711/dsh-computer-use",
+              "commit": "6172139ff80b8ce1e3b21ca1c7035317160a6c86"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/copylee711/dsh-computer-use",
+    "commit": "6172139ff80b8ce1e3b21ca1c7035317160a6c86",
+    "releaseTags": 33,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T21:00:54.283Z"
+}

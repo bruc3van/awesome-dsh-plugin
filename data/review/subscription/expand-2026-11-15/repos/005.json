@@ -1,0 +1,66 @@
+{
+  "full_name": "6shenhonghong9/dsh-startup-screen",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "stargazers_count": 847,
+  "startedAt": "2026-11-15T20:59:55.146Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "138b5f1338b8161b2529adf1f9908f407d0ea4b7d116ef0a815d5117cda8ff2e",
+      "url": "https://github.com/6shenhonghong9/dsh-startup-screen/blob/7f3d2837c1aaef8293abc69093b0a35c80d0f0e8/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-startup-screen",
+      "version": "1.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/6shenhonghong9/dsh-startup-screen",
+        "commit": "7f3d2837c1aaef8293abc69093b0a35c80d0f0e8"
+      },
+      "manifestSha256": "a0ddd26e4619199504cb4c5684fb3077fed485a4b26ce610307ae4a48e5f1799",
+      "manifestUrl": "https://github.com/6shenhonghong9/dsh-startup-screen/blob/7f3d2837c1aaef8293abc69093b0a35c80d0f0e8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-startup-screen",
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1793470192,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/6shenhonghong9/dsh-startup-screen",
+              "commit": "7f3d2837c1aaef8293abc69093b0a35c80d0f0e8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/6shenhonghong9/dsh-startup-screen",
+    "commit": "7f3d2837c1aaef8293abc69093b0a35c80d0f0e8",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-15T20:59:57.195Z"
+}
