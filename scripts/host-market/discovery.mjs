@@ -8,15 +8,35 @@ const recency = [
   { id: 'updated-week', days: 7, title: { zh: '近7天更新', en: 'Updated in the last 7 days' } },
   { id: 'updated-month', days: 30, title: { zh: '近30天更新', en: 'Updated in the last 30 days' } },
 ]
-// Descending thresholds: each fact belongs to the first matching tier only.
+// Below 1000 stars the coarse tiers stay; at 1000+ the single star label
+// floors to two significant digits (75036 → '75k+', 7754 → '7.7k+'), while the
+// exact count remains the sort value in metadata.sortKeys.
 const popularity = [
-  { id: 'stars-10000', min: 10000, title: { zh: '10k+ Star', en: '10k+ stars' } },
-  { id: 'stars-5000', min: 5000, title: { zh: '5k+ Star', en: '5k+ stars' } },
-  { id: 'stars-1000', min: 1000, title: { zh: '1k+ Star', en: '1k+ stars' } },
   { id: 'stars-500', min: 500, title: { zh: '500+ Star', en: '500+ stars' } },
   { id: 'stars-100', min: 100, title: { zh: '100+ Star', en: '100+ stars' } },
   { id: 'stars-50', min: 50, title: { zh: '50+ Star', en: '50+ stars' } },
 ]
+
+/** Label id for stars ≥ 1000: two-significant-digit floor, e.g. 75036 → 'stars-75000'. */
+export function starLabelId(stars) {
+  if (!Number.isFinite(stars) || stars < 1000) return ''
+  const step = 10 ** (String(Math.floor(stars)).length - 2)
+  return `stars-${Math.floor(stars / step) * step}`
+}
+
+/** 'stars-7700' → { zh: '7.7k+ Star', en: '7.7k+ stars' }; integer math only, no float drift. */
+export function starLabelTitle(id) {
+  const floored = Number(id.slice('stars-'.length))
+  if (!Number.isInteger(floored) || floored < 1000 || id !== starLabelId(floored)) return undefined
+  let text
+  if (floored < 10000) {
+    const k = floored / 100 // two digits 10..99: the first digit is the integer part
+    text = k % 10 ? `${(k - (k % 10)) / 10}.${k % 10}k` : `${k / 10}k`
+  } else {
+    text = `${floored / 1000}k`
+  }
+  return { zh: `${text}+ Star`, en: `${text}+ stars` }
+}
 
 export function discoveryLabels({ stars, pushedAt, now = Date.now() }) {
   const labels = []
@@ -26,8 +46,12 @@ export function discoveryLabels({ stars, pushedAt, now = Date.now() }) {
     if (tier) labels.push(tier.id)
   }
   if (Number.isFinite(stars) && stars >= 0) {
-    const tier = popularity.find(item => stars >= item.min)
-    if (tier) labels.push(tier.id)
+    const id = starLabelId(stars)
+    if (id) labels.push(id)
+    else {
+      const tier = popularity.find(item => stars >= item.min)
+      if (tier) labels.push(tier.id)
+    }
   }
   return labels
 }
@@ -107,6 +131,12 @@ export function applyDiscovery(plugins, ranks, options = {}) {
         ...(rank.stars >= 0 ? { stars: rank.stars } : {}),
         ...(Number.isFinite(updated) && updated >= 0 ? { repositoryUpdated: updated } : {}),
       },
+    }
+    // 1000+ star labels are per-value ids; declare each one actually used.
+    for (const id of computed) {
+      if (labels[id]) continue
+      const title = starLabelTitle(id)
+      if (title) labels[id] = { title }
     }
   }
   return { categories, labels, sortKeys }

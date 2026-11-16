@@ -28,7 +28,7 @@ npm test --prefix scripts/host-market
 node scripts/host-market/refresh.mjs
 ```
 
-输入以社区 `data/market-v2.json`（含精选条目）为基础，并追加完整已批准目录中具备安装映射的仓库。候选先沿用审批、归档、禁用、黑名单及市场排除规则，再逐一核实 npm/Git 来源、bundle 和官方宿主兼容范围，并对安装包与 Git 来源中的仓库地址执行同一包级黑名单检查；`data/featured.json` 中的编辑推荐仓库本身豁免该包级检查——榜单排除针对 Star 数来源，不针对市场收录，人工精选即编辑决定，豁免以 `featured_repository_exempt` 诊断留痕。缺映射、手动安装、无效来源及同名冲突不会被转换或补造。全部合格条目按仓库 Star 数降序（同星按仓库名、插件名稳定排序）选取前 1000 个插件，不足 1000 时只发布实际通过核验的数量；`data/featured.json` 中已核验的编辑推荐条目会保留在这 1000 个名额内。报告 `candidateSelection` 记录候选来源与待核实数量，`selection` 记录合格总数、截断数及入选线 Star，`repositoryExclusions` 记录包级仓库排除；输入文件 SHA-256 用于追溯。社区 market-v2 文件不受影响。
+输入以社区 `data/market-v2.json`（含精选条目）为基础，并追加完整已批准目录中具备安装映射的仓库。候选先沿用审批、归档、禁用、黑名单及市场排除规则，再逐一核实 npm/Git 来源、bundle 和官方宿主兼容范围，并对安装包与 Git 来源中的仓库地址执行同一包级黑名单检查；`data/featured.json` 中的编辑推荐仓库本身豁免该包级检查——榜单排除针对 Star 数来源，不针对市场收录，人工精选即编辑决定，豁免以 `featured_repository_exempt` 诊断留痕。缺映射、手动安装、无效来源及同名冲突不会被转换或补造。全部合格条目按仓库 Star 数降序（同星按仓库名、插件名稳定排序）选取前 2000 个插件，不足 2000 时只发布实际通过核验的数量；`data/featured.json` 中已核验的编辑推荐条目会保留在这 2000 个名额内。报告 `candidateSelection` 记录候选来源与待核实数量，`selection` 记录合格总数、截断数及入选线 Star，`repositoryExclusions` 记录包级仓库排除；输入文件 SHA-256 用于追溯。社区 market-v2 文件不受影响。
 
 输出使用固定 `@deepseek-ai/dsh-plugin-market-index@0.2.2-rc.3` 校验。兼容范围复用官方 `dshRange`：优先使用显式 `engines.dsh`，否则求 DSH peerDependencies 范围交集；无约束时省略 engines，不填造 `*`。无效范围或空交集仍排除。
 
@@ -55,7 +55,7 @@ node scripts/host-market/refresh.mjs
 
 ## 自动更新与失败处理
 
-每日目录更新成功后，经 v2 工作流自动触发；映射、审批、排除规则及生成器变更也触发，并保留每日定时兜底。索引不足 1000 时，`expand-subscription-mappings.yml` 将已取证且身份可追溯的未映射仓库追加进 `data/packages.json`，并继续核验下一批高 Star 仓库；已有映射不改写，模板和身份不清的条目留给 `mapping-pending.md`。每日重新选取完整已批准且已映射候选，按 Star 排序取通过核验的前 1000 个插件，不为凑数降低核验标准。先生成 `.output/host-market/` 候选，校验数量、排序、报告哈希后才更新 data。来源读取失败、空索引、超过 1000 条或条目数低于旧索引的 80% 时不覆盖线上数据；失败候选保留为 Actions artifact 7 天。明确不存在或有歧义的引用作为排除记录，不伪装成网络错误。
+每日目录更新成功后，经 v2 工作流自动触发；映射、审批、排除规则及生成器变更也触发，并保留每日定时兜底。索引不足 2000 时，`expand-subscription-mappings.yml` 将已取证且身份可追溯的未映射仓库追加进 `data/packages.json`，并继续核验下一批高 Star 仓库；已有映射不改写，模板和身份不清的条目留给 `mapping-pending.md`。每日重新选取完整已批准且已映射候选，按 Star 排序取通过核验的前 2000 个插件，不为凑数降低核验标准。先生成 `.output/host-market/` 候选，校验数量、排序、报告哈希后才更新 data。来源读取失败、空索引、超过 2000 条、索引超过 5 MiB 或条目数低于旧索引的 80% 时不覆盖线上数据；失败候选保留为 Actions artifact 7 天。明确不存在或有歧义的引用作为排除记录，不伪装成网络错误。
 
 索引和报告在同一 Git 提交中更新。只读任务安装依赖、取证及校验；独立发布任务只下载本次运行的数据产物，不安装依赖或执行产物。发布记录包含生成提交、触发提交、运行 ID 和两个文件的 SHA-256，main 与 market-release 以原子推送同步更新。主分支移动导致推送失败时保留旧发布，重新运行工作流以重新生成，不复用过期候选。社区 market-v2 生成及 npm 分发各有独立流程。网站部署凭据不进入公开仓库。
 

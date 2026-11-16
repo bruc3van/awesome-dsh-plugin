@@ -31,7 +31,7 @@ function fail(message) {
   throw new Error(`${message}; published data must not be committed`)
 }
 
-assertPublishable({ index, fetchFailures: report.fetchFailures, featuredRepositoryCount: report.summary.featuredRepositories, expectedFeaturedRepositoryCount: featured.expected_repository_count })
+assertPublishable({ index, indexBytes: Buffer.byteLength(indexText, 'utf8'), fetchFailures: report.fetchFailures, featuredRepositoryCount: report.summary.featuredRepositories, expectedFeaturedRepositoryCount: featured.expected_repository_count })
 
 if (index.plugins.length > MAX_PLUGINS)
   fail(`index contains ${index.plugins.length} plugins, cap is ${MAX_PLUGINS}`)

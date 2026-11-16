@@ -1,4 +1,7 @@
-/** Propose and append install mappings for subscription candidates. Never edits an existing packages.json key. */
+/** Propose and append install mappings for subscription candidates. Never edits an
+ * existing packages.json key: appended auto targets are tracked items (unversioned
+ * npm / Git repo pointer) that daily regeneration keeps pinned to the exact
+ * upstream version or commit, while manually pinned targets keep their intent. */
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
@@ -64,21 +67,48 @@ function commandFor(source) {
   return `dsh plugin --profile web add ${quoted}`
 }
 
-function gitSource(plugin, record) {
+// Tracked vs manually pinned, per upstream intent: a README that documents the
+// unversioned (or @latest) npm form marks a tracked item — daily regeneration
+// re-resolves and re-verifies the newest exact version — and a README-documented
+// Git ref is recorded verbatim as upstream states it. Everything else keeps the
+// verified exact version (npm) or tracks the repository itself (Git, repo-
+// fallback: daily regeneration pins the verified head commit). Map-time evidence
+// keeps its pinned commit in the evidence records and verified_via; existing
+// packages.json keys are never rewritten, so manually pinned targets stay pins.
+function gitSource(plugin, record, readmeTargets = []) {
   const version = plugin?.versions?.[0]
   const source = version?.source
   if (source?.type !== 'git' || !source.url || !/^[a-f0-9]{40}$/i.test(source.commit || ''))
     return null
   const slug = githubSlugFromUrl(source.url)
-  if (slug !== String(record.full_name).toLowerCase()) return null
-  const path = source.path ? `&path:/${source.path.replace(/^\//, '')}` : ''
-  return `github:${record.full_name}#${source.commit}${path}`
+  const fullName = String(record.full_name)
+  if (slug !== fullName.toLowerCase()) return null
+  const documented = readmeTargets.find((target) => githubSlugFromUrl(target) === slug)
+  const match = documented
+    ? /github\.com[/:]([\w.-]+\/[\w.-]+)(?:#([^\s&]+))?(?:&path:([^\s&]+))?/i.exec(
+        String(documented).replace(/^git\+/, '').replace(/\.git(?=#|$)/i, ''),
+      )
+    : null
+  if (match) {
+    const ref = match[2] && !/^path:/i.test(match[2]) ? `#${match[2]}` : ''
+    const path = (match[2] && /^path:/i.test(match[2]) ? match[2].slice('path:'.length) : match[3])
+      ?? (source.path ? `/${source.path.replace(/^\//, '')}` : '')
+    const selector = path ? `${ref ? '&' : '#'}path:${path}` : ''
+    return `github:${match[1]}${ref}${selector}`
+  }
+  const path = source.path ? `#path:/${source.path.replace(/^\//, '')}` : ''
+  return `github:${fullName}${path}`
 }
 
-function npmSource(plugin) {
+function npmSource(plugin, readmeTargets = []) {
   const version = plugin?.versions?.[0]
   if (!plugin?.name || version?.source?.type !== 'npm' || !version.version) return null
-  return `npm:${plugin.name}@${version.version}`
+  const base = plugin.name.toLowerCase()
+  const tracks = readmeTargets.some((target) => {
+    const item = target.toLowerCase()
+    return item === base || item === `${base}@latest`
+  })
+  return tracks ? `npm:${plugin.name}` : `npm:${plugin.name}@${version.version}`
 }
 
 function documented(record, source) {
@@ -124,8 +154,8 @@ export function proposeRecord(record) {
     const plugin = candidate.plugin
     const name = candidate.name || plugin?.name
     if (!name) continue
-    const npm = npmSource(plugin)
-    const git = gitSource(plugin, record)
+    const npm = npmSource(plugin, readmeTargets)
+    const git = gitSource(plugin, record, readmeTargets)
     let source
     let identity
     if (candidate.origin === 'npm' || npm) {
@@ -191,7 +221,7 @@ export function proposeRecord(record) {
     note: unconstrained
       ? '官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。'
       : selected.some((pkg) => !pkg.documented)
-        ? 'README 未提供可用的固定发行版本；按已核验来源固定安装目标。'
+        ? 'README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。'
         : undefined,
     pending,
   }

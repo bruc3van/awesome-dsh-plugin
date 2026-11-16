@@ -180,6 +180,13 @@ test('publication preserves existing data on network failure, empty output or a 
     () => assertPublishable({ index: index(MAX_PLUGINS + 1) }),
     /published cap/,
   )
+  assert.throws(
+    () => assertPublishable({ index: index(10), indexBytes: 5 * 1024 * 1024 + 1 }),
+    /5 MiB/,
+  )
+  assert.doesNotThrow(() =>
+    assertPublishable({ index: index(10), indexBytes: 5 * 1024 * 1024 }),
+  )
   assert.doesNotThrow(() => assertPublishable({ index: index(8) }, index(10)))
 })
 

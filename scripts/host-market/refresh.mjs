@@ -34,14 +34,15 @@ const run = spawnSync(
   { stdio: 'inherit' },
 )
 if (run.status !== 0) process.exit(run.status ?? 1)
-const next = JSON.parse(await readFile(candidate, 'utf8'))
+const candidateBytes = await readFile(candidate)
+const next = JSON.parse(candidateBytes)
 let previous
 try {
   previous = JSON.parse(await readFile(target, 'utf8'))
 } catch (error) {
   if (error.code !== 'ENOENT') throw error
 }
-assertPublishable({ index: next, featuredRepositoryCount: feed.featuredRepositories.length, expectedFeaturedRepositoryCount: values.market.featured?.expected_repository_count }, previous)
+assertPublishable({ index: next, indexBytes: candidateBytes.byteLength, featuredRepositoryCount: feed.featuredRepositories.length, expectedFeaturedRepositoryCount: values.market.featured?.expected_repository_count }, previous)
 await copyFile(candidate, target)
 await copyFile(
   `${candidate}.report.json`,

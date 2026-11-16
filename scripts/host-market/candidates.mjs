@@ -1,4 +1,4 @@
-/** Build the verified candidate pool; the generator applies the final 1000-plugin cap. */
+/** Build the verified candidate pool; the generator applies the final published cap. */
 import {
   SELF_EXCLUDED_REPOS,
   buildEntry,

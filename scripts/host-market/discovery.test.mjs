@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
-import { applyDiscovery, discoveryLabels, FEATURED_LABEL } from './discovery.mjs'
+import { applyDiscovery, discoveryLabels, starLabelId, starLabelTitle, FEATURED_LABEL } from './discovery.mjs'
 const now = Date.parse('2026-10-22T00:00:00Z')
 test('official schema preserves localized categories, keywords, labels and sortable facts', () => {
   const plugins = [{ name: 'demo', metadata: { keywords: ['search'] }, versions: [{ version: '1.0.0', publishTimestamp: 1, source: { type: 'npm' } }] }]
@@ -60,14 +60,57 @@ test('star tiers are exclusive at every threshold and omit unknown facts', () =>
   for (const [stars, expected] of [
     [0, null], [49, null], [50, 'stars-50'], [99, 'stars-50'],
     [100, 'stars-100'], [499, 'stars-100'], [500, 'stars-500'], [999, 'stars-500'],
-    [1000, 'stars-1000'], [4999, 'stars-1000'], [5000, 'stars-5000'], [9999, 'stars-5000'],
-    [10000, 'stars-10000'], [100000, 'stars-10000'],
+    [1000, 'stars-1000'], [1050, 'stars-1000'], [1099, 'stars-1000'],
+    [1100, 'stars-1100'], [4999, 'stars-4900'], [5000, 'stars-5000'],
+    [7500, 'stars-7500'], [7754, 'stars-7700'], [9999, 'stars-9900'],
+    [10000, 'stars-10000'], [75036, 'stars-75000'], [99999, 'stars-99000'],
+    [100000, 'stars-100000'], [100400, 'stars-100000'], [999999, 'stars-990000'],
   ]) {
     assert.deepEqual(discoveryLabels({ stars }), expected ? [expected] : [], `${stars} stars`)
   }
   for (const stars of [-1, NaN, Infinity, undefined, null, '500']) {
     assert.deepEqual(discoveryLabels({ stars }), [], `unknown stars: ${stars}`)
   }
+})
+
+test('1000+ star labels floor to two significant digits while the sort value stays exact', () => {
+  for (const [id, zh, en] of [
+    ['stars-1000', '1k+ Star', '1k+ stars'],
+    ['stars-1100', '1.1k+ Star', '1.1k+ stars'],
+    ['stars-7700', '7.7k+ Star', '7.7k+ stars'],
+    ['stars-75000', '75k+ Star', '75k+ stars'],
+    ['stars-100000', '100k+ Star', '100k+ stars'],
+  ]) {
+    assert.deepEqual(starLabelTitle(id), { zh, en }, id)
+  }
+  assert.equal(starLabelTitle('stars-900'), undefined)
+  assert.equal(starLabelTitle('stars-1234'), undefined, 'must be a floored value')
+  assert.equal(starLabelTitle('git'), undefined)
+  const plugins = [{ name: 'big', versions: [{ version: '1.0.0', publishTimestamp: 1, source: { type: 'npm' } }] }]
+  const metadata = applyDiscovery(
+    plugins,
+    new Map([['big', { stars: 7754, row: { pushed_at: '2026-10-01T00:00:00Z' } }]]),
+    { now },
+  )
+  assert.equal(starLabelId(7754), 'stars-7700')
+  assert.deepEqual(metadata.labels['stars-7700'].title, { zh: '7.7k+ Star', en: '7.7k+ stars' })
+  assert.deepEqual(metadata.labels['stars-75k'], undefined)
+  const index = parseMarketIndex({ format: 1, title: 'Test', metadata, plugins }, 'https://example.com/index.json')
+  assert.deepEqual(index.plugins[0].metadata.labels, ['npm', 'updated-month', 'stars-7700'])
+  assert.equal(index.plugins[0].metadata.sortKeys.stars, 7754, 'exact stars stay the sort value')
+})
+
+test('short milestone labels are localized and low star counts stay quiet', () => {
+  const plugins = [{ name: 'k', versions: [{ version: '1.0.0', publishTimestamp: 1, source: { type: 'npm' } }] }]
+  const metadata = applyDiscovery(
+    plugins,
+    new Map([['k', { stars: 1200, row: { pushed_at: '2026-10-01T00:00:00Z' } }]]),
+    { now },
+  )
+  assert.equal(metadata.labels['stars-1200'].title.zh, '1.2k+ Star')
+  assert.equal(metadata.labels['updated-month'].title.zh, '近30天更新')
+  assert.equal(metadata.labels['stars-0'], undefined)
+  assert.equal(metadata.labels['stars-1000'], undefined, 'unused per-value labels stay undeclared')
 })
 
 test('recency tiers are exclusive at seven and thirty days and omit invalid dates', () => {
@@ -93,14 +136,6 @@ test('reapplying discovery replaces old tiers while preserving source and capabi
   ranks.get('demo').row.pushed_at = '2026-10-01T00:00:00Z'
   applyDiscovery(plugins, ranks, { now })
   assert.deepEqual(plugins[0].metadata.labels, ['npm', 'updated-month', 'stars-50', 'theme'])
-})
-
-test('short milestone labels are localized and low star counts stay quiet', () => {
-  const metadata = applyDiscovery([], new Map())
-  assert.equal(metadata.labels['stars-1000'].title.zh, '1k+ Star')
-  assert.equal(metadata.labels['stars-10000'].title.en, '10k+ stars')
-  assert.equal(metadata.labels['updated-month'].title.zh, '近30天更新')
-  assert.equal(metadata.labels['stars-0'], undefined)
 })
 
 test('value labels stay concise and never infer capabilities from broad categories or keywords', () => {

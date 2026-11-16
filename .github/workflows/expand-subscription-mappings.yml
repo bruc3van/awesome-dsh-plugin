@@ -1,6 +1,6 @@
-name: Expand subscription mappings toward 1000
+name: Expand subscription mappings toward 2000
 
-# When the published Discover index is below the 1000-plugin cap, turn already
+# When the published Discover index is below the 2000-plugin cap, turn already
 # audited eligible sources — and the next 200 unmapped high-star repos — into
 # new packages.json entries. Existing keys are never rewritten. Identity-opaque
 # npm packages go to mapping-pending.md for AI review. refresh-market-v2 and
@@ -39,8 +39,8 @@ jobs:
           from pathlib import Path
           index = json.loads(Path('data/dsh-market-index.json').read_text())
           count = len(index.get('plugins') or [])
-          need = count < 1000
-          print(f'published_plugins={count} cap=1000 need={need}')
+          need = count < 2000
+          print(f'published_plugins={count} cap=2000 need={need}')
           with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as out:
               out.write(f'need={str(need).lower()}\ncount={count}\n')
           PY

@@ -14,6 +14,7 @@ import { appendFile, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchWithRetry, githubHeaders } from './github.mjs';
+import { applyRenames, detectIdentityChanges } from './rename-sync.mjs';
 import { loadState, writePending } from './render.mjs';
 import { formatStarAnomalySummary } from './star-anomaly.mjs';
 
@@ -246,10 +247,16 @@ async function reconcileSnapshot(items, previousRepositories) {
       continue;
     }
     const repo = result.repo;
-    if (!repo || !repo.topics?.includes('dsh-plugin') || seenIds.has(repo.id)) continue;
-    if (repo.full_name.toLowerCase() !== name.toLowerCase()) renames.push(`${name} -> ${repo.full_name}`);
-    recovered.push(repo);
-    seenIds.add(repo.id);
+    if (!repo || !repo.topics?.includes('dsh-plugin')) continue;
+    // A redirect to an already-crawled repository is still a rename — the
+    // references stored under the old slug must move even though the snapshot
+    // already holds the new name.
+    if (repo.full_name.toLowerCase() !== name.toLowerCase())
+      renames.push({ from: name, to: repo.full_name });
+    if (!seenIds.has(repo.id)) {
+      recovered.push(repo);
+      seenIds.add(repo.id);
+    }
     seenNames.add(repo.full_name.toLowerCase());
   }
   return { recovered, renames, failures, checked: candidates.size };
@@ -271,11 +278,6 @@ async function refreshSnapshot() {
     makeSplitter(previousRepositories),
   );
   const { recovered, renames, failures, checked } = await reconcileSnapshot(items, previousRepositories);
-  for (const rename of renames) {
-    partitionWarnings.push(
-      `${rename} — renamed on GitHub; update the approved.json / curated.json keys manually.`,
-    );
-  }
   // Aggregated into one line: a rate-limited run can fail hundreds of probes,
   // and hundreds of warnings would bury the renames above.
   if (failures.length) {
@@ -331,7 +333,65 @@ async function refreshSnapshot() {
     },
     previousRepositories,
     previousDate: typeof previousSnapshot.fetched_at === 'string' ? previousSnapshot.fetched_at.slice(0, 10) : null,
+    renames,
   };
+}
+
+// Same-owner, same-repository-id renames move every stored reference and keep
+// the original approval (scripts/rename-sync.mjs); owner transfers and slugs
+// that came back with a different repository id stay with the maintainer and
+// land in the review queue. Manual pins inside targets never move — only the
+// github slug does. --from-snapshot cannot see redirects, so a sync lost to a
+// push retry re-detects and re-applies on the next crawl by itself.
+async function syncRenames(renames, repositories, previousRepositories) {
+  if (!renames.length && !previousRepositories.length) {
+    return { applied: [], review: [], identityChanges: [] };
+  }
+  const load = (name) => readFile(resolve(root, name), 'utf8').then(JSON.parse);
+  const [approved, curated, packages, descriptionsZh, descriptionsEn, featured] = await Promise.all([
+    load('data/approved.json'),
+    load('data/curated.json'),
+    load('data/packages.json'),
+    load('data/leaderboard-descriptions-zh.json'),
+    load('data/leaderboard-descriptions-en.json'),
+    load('data/featured.json'),
+  ]);
+  const watched = [
+    ...Object.keys(approved),
+    ...Object.keys(curated.excluded_repos ?? {}),
+    ...Object.keys(curated.leaderboard_exclusions ?? {}),
+    ...Object.keys(curated.market_exclusions ?? {}),
+  ];
+  const identityChanges = detectIdentityChanges(repositories, previousRepositories, watched).map(
+    (change) => ({
+      from: change.slug,
+      to: change.slug,
+      reason: `identity change: repository id ${change.previousId} → ${change.currentId} under the same slug — approval needs review`,
+    }),
+  );
+  const sync = applyRenames(
+    {
+      approved,
+      curated,
+      packages,
+      descriptions: [descriptionsZh, descriptionsEn],
+      featured,
+    },
+    renames,
+  );
+  if (sync.applied.length) {
+    const save = (name, value) =>
+      writeFile(resolve(root, name), `${JSON.stringify(value, null, 2)}\n`);
+    await Promise.all([
+      save('data/approved.json', sync.approved),
+      save('data/curated.json', sync.curated),
+      save('data/packages.json', sync.packages),
+      save('data/leaderboard-descriptions-zh.json', sync.descriptions[0]),
+      save('data/leaderboard-descriptions-en.json', sync.descriptions[1]),
+      save('data/featured.json', { ...featured, entries: sync.featuredEntries }),
+    ]);
+  }
+  return { applied: sync.applied, review: sync.review, identityChanges };
 }
 
 // data/repositories.json stores every repository the topic search returned, untouched:
@@ -341,6 +401,8 @@ async function refreshSnapshot() {
 let snapshot;
 let previousRepositories = null;
 let previousDate = null;
+let detectedRenames = [];
+let renameReviews = [];
 if (fromSnapshot) {
   snapshot = JSON.parse(await readFile(resolve(root, 'data/repositories.json'), 'utf8'));
 } else {
@@ -349,6 +411,7 @@ if (fromSnapshot) {
     snapshot = refreshed.snapshot;
     previousRepositories = refreshed.previousRepositories;
     previousDate = refreshed.previousDate;
+    detectedRenames = refreshed.renames ?? [];
   } catch (error) {
     if (!(error instanceof SnapshotCollapse)) throw error;
     // Nothing is written: neither the snapshot nor the review queue, so the
@@ -365,15 +428,28 @@ if (fromSnapshot) {
     process.exit(1);
   }
   await writeFile(resolve(root, 'data/repositories.json'), `${JSON.stringify(snapshot, null, 2)}\n`);
+  const sync = await syncRenames(detectedRenames, snapshot.repositories, previousRepositories);
+  renameReviews = [...sync.review, ...sync.identityChanges];
+  for (const rename of sync.applied) {
+    partitionWarnings.push(
+      `${rename.from} → ${rename.to} — same-owner rename; references synced and the original approval kept.`,
+    );
+  }
+  for (const review of renameReviews) {
+    partitionWarnings.push(
+      `${review.from}${review.to && review.to !== review.from ? ` → ${review.to}` : ''} — ${review.reason}.`,
+    );
+  }
 }
 
 const state = await loadState();
-const pendingOptions = fromSnapshot ? {} : { previousRepositories, previousDate };
+const pendingOptions = fromSnapshot ? {} : { previousRepositories, previousDate, renameReviews };
 const { pending, missing, starAnomalies } = await writePending(state, pendingOptions);
 
 const anomalySummary = formatStarAnomalySummary(starAnomalies);
+const renameSummary = renameReviews.length ? `${renameReviews.length} rename(s) pending review` : '';
 console.log(
-  `${fromSnapshot ? 'Generated from snapshot' : 'Updated snapshot'} with ${snapshot.repositories.length} repositories at ${snapshot.fetched_at}; review queue holds ${pending.length} pending, ${missing.length} approved repositories missing from the snapshot${anomalySummary ? `; ${anomalySummary}` : ''}.`,
+  `${fromSnapshot ? 'Generated from snapshot' : 'Updated snapshot'} with ${snapshot.repositories.length} repositories at ${snapshot.fetched_at}; review queue holds ${pending.length} pending, ${missing.length} approved repositories missing from the snapshot${anomalySummary ? `; ${anomalySummary}` : ''}${renameSummary ? `; ${renameSummary}` : ''}.`,
 );
 if (anomalySummary) console.warn(`Warning: ${anomalySummary}`);
 if (starAnomalies?.alerts?.length && process.env.GITHUB_STEP_SUMMARY) {

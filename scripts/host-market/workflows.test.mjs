@@ -54,3 +54,14 @@ test('publishers follow main and npm publication is not cancelled midway', () =>
     assert.ok(!hostPaths.includes(p), `${p} must flow through v2 before host publication`)
   }
 })
+
+test('cap literals stay in lockstep with policy.mjs across CI gates', async () => {
+  const { readFileSync } = await import('node:fs')
+  const { MAX_PLUGINS } = await import('../host-market/policy.mjs')
+  const expansion = readFileSync(new URL('../../.github/workflows/expand-subscription-mappings.yml', import.meta.url), 'utf8')
+  const publication = readFileSync(new URL('../../.github/workflows/refresh-host-market.yml', import.meta.url), 'utf8')
+  assert.ok(expansion.includes(`toward ${MAX_PLUGINS}`), 'expansion name must name the policy cap')
+  assert.ok(expansion.includes(`count < ${MAX_PLUGINS}`), 'expansion skip gate must use the policy cap')
+  assert.ok(publication.includes(`<= ${MAX_PLUGINS}`), 'publish artifact gate must use the policy cap')
+  assert.ok(!expansion.includes('toward 1000') && !publication.includes('<= 1000'), 'stale cap literals must not survive')
+})

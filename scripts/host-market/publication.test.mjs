@@ -6,6 +6,7 @@ import { join } from 'node:path'
 import { spawnSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
 import YAML from 'yaml'
+import { MAX_PLUGINS } from './policy.mjs'
 const workflow = YAML.parse(readFileSync(new URL('../../.github/workflows/refresh-host-market.yml', import.meta.url), 'utf8'))
 const step = workflow.jobs.publish.steps.at(-1).run
 const code = step.split("python3 - <<'PYCODE'\n")[1].split('\nPYCODE')[0]
@@ -14,7 +15,7 @@ test('publisher accepts matching data and rejects tampered or unexpected artifac
     const dir = mkdtempSync(join(tmpdir(), 'market-publication-'))
     try {
       mkdirSync(join(dir, 'release-data')); mkdirSync(join(dir, 'data'))
-      const index = JSON.stringify({ plugins: Array.from({ length: scenario === 'overflow' ? 1001 : 1 }, () => ({ name: 'demo' })) })
+      const index = JSON.stringify({ plugins: Array.from({ length: scenario === 'overflow' ? MAX_PLUGINS + 1 : 1 }, () => ({ name: 'demo' })) })
       const report = { indexSha256: scenario === 'hash' ? '0'.repeat(64) : createHash('sha256').update(index).digest('hex'), included: JSON.parse(index).plugins.length, fetchFailures: scenario === 'failure' ? 1 : 0 }
       writeFileSync(join(dir, 'release-data/dsh-market-index.json'), index)
       writeFileSync(join(dir, 'release-data/dsh-market-index.report.json'), JSON.stringify(report))

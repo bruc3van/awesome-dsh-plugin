@@ -69,8 +69,11 @@ test('unconstrained Git and matching npm become applyable mappings; incompatible
   })
   assert.equal(git.decision, 'apply')
   assert.equal(git.status, 'repo-fallback')
-  assert.equal(git.packages[0].source, `github:Owner/Demo#${commit}`)
-  assert.match(git.packages[0].command, /github:Owner\/Demo#/)
+  // Tracked form: the repository pointer without the evidence commit; daily
+  // regeneration re-resolves HEAD and pins that exact commit in the index.
+  assert.equal(git.packages[0].source, 'github:Owner/Demo')
+  assert.equal(git.packages[0].install, 'https://github.com/Owner/Demo')
+  assert.match(git.verified_via, new RegExp(`manifest@${commit.slice(0, 12)}`))
 
   const npm = proposeRecord({
     full_name: 'Owner/Demo',
@@ -90,8 +93,54 @@ test('unconstrained Git and matching npm become applyable mappings; incompatible
   })
   assert.equal(npm.decision, 'apply')
   assert.equal(npm.status, 'readme-verified')
-  assert.equal(npm.packages[0].source, 'npm:demo@1.2.3')
-  assert.equal(npm.packages[0].install, 'demo@1.2.3')
+  // Tracked form: unversioned npm so the daily regeneration resolves the
+  // newest verified exact version into the published index.
+  assert.equal(npm.packages[0].source, 'npm:demo')
+  assert.equal(npm.packages[0].install, 'demo')
+
+  const pinned = proposeRecord({
+    full_name: 'Owner/Demo',
+    errors: [],
+    readmes: [{ targets: [{ install: 'demo@1.2.3' }] }],
+    candidates: [
+      {
+        origin: 'npm',
+        name: 'demo',
+        status: 'eligible_metadata',
+        compatibilityUnconstrained: true,
+        declaredCompatibleWithHost: null,
+        plugin: npmPlugin('demo', { repository: { url: 'https://github.com/Owner/Demo' } }),
+      },
+    ],
+    outcome: 'mapping_can_be_added',
+  })
+  assert.equal(pinned.decision, 'apply')
+  // The README only pins a version, so the mapping keeps the verified exact
+  // version — a manually pinned item keeps its intent.
+  assert.equal(pinned.packages[0].source, 'npm:demo@1.2.3')
+  assert.equal(pinned.packages[0].install, 'demo@1.2.3')
+
+  const documentedGit = proposeRecord({
+    full_name: 'Owner/Demo',
+    errors: [],
+    readmes: [{ targets: [{ install: 'https://github.com/Owner/Demo#main' }] }],
+    candidates: [
+      {
+        origin: 'repository_discovery',
+        name: 'demo',
+        status: 'eligible_metadata',
+        compatibilityUnconstrained: true,
+        declaredCompatibleWithHost: null,
+        plugin: gitPlugin(),
+      },
+    ],
+    repository: { commit },
+    outcome: 'mapping_can_be_added',
+  })
+  assert.equal(documentedGit.decision, 'apply')
+  // A README-documented ref is recorded verbatim — upstream states the target.
+  assert.equal(documentedGit.packages[0].source, 'github:Owner/Demo#main')
+  assert.equal(documentedGit.status, 'readme-verified')
 
   const unpinned = proposeRecord({
     full_name: 'Owner/Demo',

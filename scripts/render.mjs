@@ -136,17 +136,19 @@ export function clip(value, max = BOARD_DESCRIPTION_MAX) {
   return `${chars.slice(0, max - 1).join('').trimEnd()}…`;
 }
 
-export async function writePending(state, { previousRepositories = null, previousDate = null } = {}) {
+export async function writePending(state, { previousRepositories = null, previousDate = null, renameReviews = null } = {}) {
   const { pending, missing } = computePending(state);
   const pendingPath = resolve(root, 'data/review/pending.json');
   let previousFirstSeen = new Map();
   let previousAnomalies = null;
+  let previousRenames = null;
   try {
     const previous = JSON.parse(await readFile(pendingPath, 'utf8'));
     for (const entry of previous.pending || []) {
       previousFirstSeen.set(entry.full_name.toLowerCase(), entry.first_seen);
     }
     previousAnomalies = previous.star_anomalies ?? null;
+    previousRenames = previous.rename_reviews ?? null;
   } catch {
     // First run — no queue yet.
   }
@@ -173,6 +175,9 @@ export async function writePending(state, { previousRepositories = null, previou
   } else if (previousAnomalies?.snapshot_date === state.date) {
     starAnomalies = previousAnomalies;
   }
+  // Rename reviews follow the same snapshot-date rule: a review merge (which
+  // cannot see redirects) must not wipe the maintainer's pending work.
+  const renames = renameReviews ?? previousRenames;
   const queue = {
     generated_at: new Date().toISOString(),
     snapshot_date: state.date,
@@ -180,6 +185,7 @@ export async function writePending(state, { previousRepositories = null, previou
     missing,
   };
   if (starAnomalies) queue.star_anomalies = starAnomalies;
+  if (renames?.length) queue.rename_reviews = renames;
   await mkdir(resolve(root, 'data/review'), { recursive: true });
   await writeFile(pendingPath, `${JSON.stringify(queue, null, 2)}\n`);
   await writeFile(resolve(root, 'data/review/pending.md'), renderPendingMarkdown(queue));
@@ -260,6 +266,25 @@ function renderPendingMarkdown(queue) {
     alertCount == null
       ? ''
       : `- Star 异常增长 / Star-growth alerts: **${alertCount}**${alertCount ? ' — 先看下方告警节 / see the alert section first' : ''}\n`;
+  const renameReviews = queue.rename_reviews ?? [];
+  const renameStat = renameReviews.length
+    ? `- 改名/身份待复核 / Renames pending review: **${renameReviews.length}**\n`
+    : '';
+  const renameSection = renameReviews.length
+    ? `## 改名与身份变化待复核 / Renames pending review
+
+同 owner、同 GitHub 仓库 ID 的纯改名已由脚本自动同步全部引用（approved / curated / packages / 榜单简介 / 精选）并保留原审批日期；以下条目无法安全自动处理，需人工核实：
+
+- owner 迁移（仓库转移到别的账号）→ 人工确认后更新各文件的 key
+- 同名换主（slug 未变但仓库 ID 变化，原仓库删除后被人重建）→ 人工确认审批去留
+- 检测到改名但没有存储引用可同步 → 人工确认是否需要补引用
+
+Same-owner, same-repository-id renames were synced automatically across approved.json / curated.json / packages.json / leaderboard descriptions / featured picks, with the original approval date kept. The entries below could not be handled safely and need manual review.
+
+${renameReviews.map((review) => `- \`${review.from}\`${review.to && review.to !== review.from ? ` → \`${review.to}\`` : ''} — ${review.reason}`).join('\n')}
+
+`
+    : '';
   return `# 待审核仓库 / Pending review
 
 > 新增到 \`dsh-plugin\` Topic 下、带有简介、尚未经维护者核实的仓库。本文件由 \`scripts/update.mjs\` 每日刷新，仅供审核使用，不是用户可见页面。
@@ -270,7 +295,7 @@ function renderPendingMarkdown(queue) {
 - 快照日期 / Snapshot date: **${queue.snapshot_date} (UTC)**
 - 待审核 / Pending: **${queue.pending.length}**
 - 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **${queue.missing.length}**
-${alertStat}
+${alertStat}${renameStat}
 审核决定记到数据文件后运行 \`node scripts/merge.mjs\` 生效：
 
 - 通过 → 加入 [data/approved.json](../approved.json)（\`"owner/name": "YYYY-MM-DD"\`）
@@ -296,16 +321,16 @@ Record decisions in the data files, then run \`node scripts/merge.mjs\`:
 - Star-growth alerts (see the section below) → extra analysis first; if the stars are not from the DSH plugin itself, approve into \`leaderboard_exclusions\` as well
 
 See [data/review/README.md](./README.md) for the full convention.
-${renderStarAnomalySection(queue.star_anomalies)}
+${renderStarAnomalySection(queue.star_anomalies)}${renameSection}
 | # | Project | Stars | Created | First seen | Description |
 | ---: | --- | ---: | ---: | ---: | --- |
 ${rows}
 
 ## 从快照消失的已核准仓库 / Approved repositories missing from the snapshot
 
-已核准但已不在当前快照中（删除或改名），核实后从 [data/approved.json](../approved.json) 移除或更新名称。
+已核准但已不在当前快照中。同 owner 的纯改名已自动同步引用，此处多为删除/转私或同名换主——核实后从 [data/approved.json](../approved.json) 移除，或按上面的待复核节处理。
 
-Approved but no longer present in the current snapshot (deleted or renamed) — after checking, remove them from [data/approved.json](../approved.json) or update the name.
+Approved but no longer present in the current snapshot. Same-owner renames were already synced automatically, so what remains is mostly deletion, privating, or a recycled slug — after checking, remove them from [data/approved.json](../approved.json) or handle them via the renames-pending-review section above.
 
 ${missingLines}
 `;

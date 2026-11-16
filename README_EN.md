@@ -20,7 +20,7 @@
 
 If the Discover tab is missing, check that DSH is ≥ V0.2.1-rc.2 and Custom plugin markets is enabled; the switch only unlocks the feature — the subscription URL still needs to be added manually. Subscribing in Discover **does not require `safer-dsh-market`** (that plugin is for a standalone interface, multiple-target installation, and post-install AI review), and the two switches are separate controls.
 
-Inclusion criteria: only verified npm targets and Git bundles pinned to full commits are listed (unapproved, archived, disabled, blacklisted, and invalid-install-source repos are excluded), at most 1000 plugins ranked by stars. Inclusion is not a security audit or proof of runtime compatibility.
+Inclusion criteria: only verified npm targets and Git bundles pinned to full commits are listed (unapproved, archived, disabled, blacklisted, and invalid-install-source repos are excluded), at most 2000 plugins ranked by stars. Inclusion is not a security audit or proof of runtime compatibility.
 
 [DSH Plugin Directory and subscription guide](https://bruc3van.com/dsh-plugins/#subscribe) · [Index generation and exclusions report](https://bruc3van.com/markets/dsh/audit.json) · [Latest market plugin](https://www.npmjs.com/package/safer-dsh-market)
 
