@@ -21772,8 +21772,8 @@
       },
       "versions": [
         {
-          "version": "0.3.4",
-          "publishTimestamp": 1794807272,
+          "version": "0.3.2",
+          "publishTimestamp": 1794548381,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -39058,8 +39058,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC10ZWFtIj4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNCIgZmlsbD0iIzFiMjQzMCIvPgogIDxnIHN0cm9rZT0iIzVhZDFjOCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgPHBhdGggZD0iTTMyIDE1djEwIi8+CiAgICA8cGF0aCBkPSJNMzIgMjUgMTcgMzQiLz4KICAgIDxwYXRoIGQ9Ik0zMiAyNWwxNSA5Ii8+CiAgICA8cGF0aCBkPSJNMTcgNDJoMzAiLz4KICAgIDxwYXRoIGQ9Ik0xNyAzNHY4Ii8+CiAgICA8cGF0aCBkPSJNNDcgMzR2OCIvPgogIDwvZz4KICA8ZyBmaWxsPSIjNWFkMWM4Ij4KICAgIDxjaXJjbGUgY3g9IjMyIiBjeT0iMTMiIHI9IjUiLz4KICAgIDxjaXJjbGUgY3g9IjE3IiBjeT0iMzQiIHI9IjQuNSIvPgogICAgPGNpcmNsZSBjeD0iNDciIGN5PSIzNCIgcj0iNC41Ii8+CiAgPC9nPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iNTAiIHI9IjUiIGZpbGw9IiNmMGI0MjkiLz4KPC9zdmc+Cg==",
       "versions": [
         {
-          "version": "0.2.7",
-          "publishTimestamp": 1794483438,
+          "version": "0.2.8",
+          "publishTimestamp": 1794808165,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
