@@ -1,0 +1,77 @@
+{
+  "full_name": "lishize20040802-rgb/dsh-deep-ptc-mode",
+  "originalPosition": 62,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 62,
+  "batch": 1,
+  "stargazers_count": 48,
+  "startedAt": "2026-11-16T05:19:05.582Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "510972ec24be6bdb2dea5d9d91457f00047da858f4074eac945d37d754b4d8c1",
+      "url": "https://github.com/lishize20040802-rgb/dsh-deep-ptc-mode/blob/373001299f7b0e6fe57c7d2ef1834a4296dcf316/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d2fab77c603f2745fb5468eff6b3381fd38dd438f7f3128b3148c957a7334e7e",
+      "url": "https://github.com/lishize20040802-rgb/dsh-deep-ptc-mode/blob/373001299f7b0e6fe57c7d2ef1834a4296dcf316/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deep-ptc-mode",
+      "version": "1.9.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lishize20040802-rgb/dsh-deep-ptc-mode",
+        "commit": "373001299f7b0e6fe57c7d2ef1834a4296dcf316"
+      },
+      "manifestSha256": "9734d3d4ba9d87d40b1affa2a862bc70cd0ebe16324ed54499326747ef410b7d",
+      "manifestUrl": "https://github.com/lishize20040802-rgb/dsh-deep-ptc-mode/blob/373001299f7b0e6fe57c7d2ef1834a4296dcf316/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-deep-ptc-mode",
+        "versions": [
+          {
+            "version": "1.9.5",
+            "publishTimestamp": 1794684908,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lishize20040802-rgb/dsh-deep-ptc-mode",
+              "commit": "373001299f7b0e6fe57c7d2ef1834a4296dcf316"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lishize20040802-rgb/dsh-deep-ptc-mode",
+    "commit": "373001299f7b0e6fe57c7d2ef1834a4296dcf316",
+    "releaseTags": 25,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:19:14.926Z"
+}

@@ -1,0 +1,94 @@
+{
+  "full_name": "linner1224/dsh-video-coursemap",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "stargazers_count": 24,
+  "startedAt": "2026-11-16T05:21:11.421Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f96afc97f5dacc80a8b3d863bfb2de2cca62c22d1df9325de7dec53e4ca7a347",
+      "url": "https://github.com/linner1224/dsh-video-coursemap/blob/9daf368cc945420835af1c8faca7cccd5f8736e3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/linner1224/dsh-video-coursemap/releases/download/v2.0.0/dsh-video-coursemap-2.0.0.tgz",
+          "command": "dsh plugin add \"https://github.com/linner1224/dsh-video-coursemap/releases/download/v2.0.0/dsh-video-coursemap-2.0.0.tgz\"",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/linner1224/dsh-video-coursemap",
+          "command": "dsh plugin add github:linner1224/dsh-video-coursemap",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-video-coursemap",
+      "version": "2.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/linner1224/dsh-video-coursemap",
+        "commit": "9daf368cc945420835af1c8faca7cccd5f8736e3"
+      },
+      "manifestSha256": "cbf10e2e8c35f09a027560cf9cabe696422e5c03cb8b78e4d1a05ba465891220",
+      "manifestUrl": "https://github.com/linner1224/dsh-video-coursemap/blob/9daf368cc945420835af1c8faca7cccd5f8736e3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-video-coursemap",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1793677296,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/linner1224/dsh-video-coursemap",
+              "commit": "9daf368cc945420835af1c8faca7cccd5f8736e3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/linner1224/dsh-video-coursemap/releases/download/v2.0.0/dsh-video-coursemap-2.0.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/linner1224/dsh-video-coursemap/releases/download/v2.0.0/dsh-video-coursemap-2.0.0.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/linner1224/dsh-video-coursemap",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/linner1224/dsh-video-coursemap",
+    "commit": "9daf368cc945420835af1c8faca7cccd5f8736e3",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:21:19.273Z"
+}

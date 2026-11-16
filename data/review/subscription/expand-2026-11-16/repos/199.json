@@ -1,0 +1,95 @@
+{
+  "full_name": "Ghost011118/dsh-balance-meter",
+  "originalPosition": 199,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 199,
+  "batch": 1,
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T05:23:40.764Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "48537be8d6ef603c9f7b3838138012c2085e2af0d72254b74f1cdb1856feacbe",
+      "url": "https://github.com/Ghost011118/dsh-balance-meter/blob/1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ghost011118/dsh-balance-meter",
+          "command": "dsh plugin --profile web add https://github.com/Ghost011118/dsh-balance-meter",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "af48d2eab7323cb0cf9aa21fb2867c69b44a04fde9dd3840dfa16a9e6d682073",
+      "url": "https://github.com/Ghost011118/dsh-balance-meter/blob/1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ghost011118/dsh-balance-meter",
+          "command": "dsh plugin --profile web add https://github.com/Ghost011118/dsh-balance-meter",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-balance-meter",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ghost011118/dsh-balance-meter",
+        "commit": "1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11"
+      },
+      "manifestSha256": "261cd26e1a6f0d5acc6f1181d673eb953a2b4463b32df4545e709e2931dcad78",
+      "manifestUrl": "https://github.com/Ghost011118/dsh-balance-meter/blob/1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-balance-meter",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787225648,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ghost011118/dsh-balance-meter",
+              "commit": "1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Ghost011118/dsh-balance-meter",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ghost011118/dsh-balance-meter",
+    "commit": "1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:49.757Z"
+}

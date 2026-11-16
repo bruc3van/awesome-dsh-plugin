@@ -1,0 +1,74 @@
+{
+  "full_name": "monagisa/dsh-plugin-shop-accounts",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-11-16T05:23:03.184Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2a4474200a960a30f9327bd34aecfcc13300a45823530f3f3f33f6e2548bdcff",
+      "url": "https://github.com/monagisa/dsh-plugin-shop-accounts/blob/6a6e8b1e42599666ad136a3eec38d60389f9cabe/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "2eb9509c602f43d89bb72a300b7d03aef819a544f186e6e30fd4b7be2aa653ef",
+      "url": "https://github.com/monagisa/dsh-plugin-shop-accounts/blob/6a6e8b1e42599666ad136a3eec38d60389f9cabe/tools/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-shop-accounts",
+      "version": "0.20.33",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/monagisa/dsh-plugin-shop-accounts",
+        "commit": "6a6e8b1e42599666ad136a3eec38d60389f9cabe"
+      },
+      "manifestSha256": "f988a30ac6c1e5c0155dd69031e54f919dfe0c0f65f1f6ee022123116cb9efb3",
+      "manifestUrl": "https://github.com/monagisa/dsh-plugin-shop-accounts/blob/6a6e8b1e42599666ad136a3eec38d60389f9cabe/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-shop-accounts",
+        "versions": [
+          {
+            "version": "0.20.33",
+            "publishTimestamp": 1794638428,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/monagisa/dsh-plugin-shop-accounts",
+              "commit": "6a6e8b1e42599666ad136a3eec38d60389f9cabe"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/monagisa/dsh-plugin-shop-accounts",
+    "commit": "6a6e8b1e42599666ad136a3eec38d60389f9cabe",
+    "releaseTags": 41,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:12.439Z"
+}

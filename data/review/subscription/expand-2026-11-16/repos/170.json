@@ -1,0 +1,81 @@
+{
+  "full_name": "AirPineApplea/feiyu-memory",
+  "originalPosition": 170,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 170,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-11-16T05:22:50.421Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "216ff5856d254843d4c1ebc72b2036db4bfc76954f79ffbceec8eaf8bf480562",
+      "url": "https://github.com/AirPineApplea/feiyu-memory/blob/cf35d41f06c2b764a87531be825756e95b612155/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/AirPineApplea/feiyu-memory",
+          "command": "dsh plugin --profile desktop add github:AirPineApplea/feiyu-memory",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "feiyu-memory",
+      "version": "4.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AirPineApplea/feiyu-memory",
+        "commit": "cf35d41f06c2b764a87531be825756e95b612155"
+      },
+      "manifestSha256": "5ec372909599f23bc9267b1a435003e1083cf840dcea75c47483dffe297cb401",
+      "manifestUrl": "https://github.com/AirPineApplea/feiyu-memory/blob/cf35d41f06c2b764a87531be825756e95b612155/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "feiyu-memory",
+        "versions": [
+          {
+            "version": "4.1.0",
+            "publishTimestamp": 1794144454,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AirPineApplea/feiyu-memory",
+              "commit": "cf35d41f06c2b764a87531be825756e95b612155"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AirPineApplea/feiyu-memory",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AirPineApplea/feiyu-memory",
+    "commit": "cf35d41f06c2b764a87531be825756e95b612155",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:57.618Z"
+}

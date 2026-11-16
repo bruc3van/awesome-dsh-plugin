@@ -1,0 +1,103 @@
+{
+  "full_name": "op7418/malfoy-desktop",
+  "originalPosition": 69,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 69,
+  "batch": 1,
+  "stargazers_count": 45,
+  "startedAt": "2026-11-16T05:19:23.299Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a38c673bc35e30158c92c9c176cf8d90aaed36108d84d3911dc792bcc7000039",
+      "url": "https://github.com/op7418/malfoy-desktop/blob/3aa3c255cefa3ee85b28aa0659658df8e6a6c1f6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/op7418/malfoy-desktop/releases/latest/download/dsh-malfoy-desktop.tgz",
+          "command": "dsh plugin --profile web add https://github.com/op7418/malfoy-desktop/releases/latest/download/dsh-malfoy-desktop.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugins/dsh-malfoy-desktop/README.md",
+      "sha256": "99a6dc3058725ff969bb51ddfb8f8a3d125438ce09f74d4cc0e1073a7fd598fb",
+      "url": "https://github.com/op7418/malfoy-desktop/blob/3aa3c255cefa3ee85b28aa0659658df8e6a6c1f6/plugins/dsh-malfoy-desktop/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/op7418/malfoy-desktop/releases/latest/download/dsh-malfoy-desktop.tgz",
+          "command": "dsh plugin --profile web add https://github.com/op7418/malfoy-desktop/releases/latest/download/dsh-malfoy-desktop.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-malfoy-desktop",
+      "version": "0.1.0",
+      "path": "plugins/dsh-malfoy-desktop",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/op7418/malfoy-desktop",
+        "commit": "3aa3c255cefa3ee85b28aa0659658df8e6a6c1f6",
+        "path": "plugins/dsh-malfoy-desktop"
+      },
+      "manifestSha256": "a1ae087380b17f3cf690405287050543c7329c1a9eb5eca0316995db697bcf9b",
+      "manifestUrl": "https://github.com/op7418/malfoy-desktop/blob/3aa3c255cefa3ee85b28aa0659658df8e6a6c1f6/plugins/dsh-malfoy-desktop/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-malfoy-desktop",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793284331,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/op7418/malfoy-desktop",
+              "commit": "3aa3c255cefa3ee85b28aa0659658df8e6a6c1f6",
+              "path": "plugins/dsh-malfoy-desktop"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/op7418/malfoy-desktop/releases/latest/download/dsh-malfoy-desktop.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/op7418/malfoy-desktop/releases/latest/download/dsh-malfoy-desktop.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/op7418/malfoy-desktop",
+    "commit": "3aa3c255cefa3ee85b28aa0659658df8e6a6c1f6",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:19:35.122Z"
+}

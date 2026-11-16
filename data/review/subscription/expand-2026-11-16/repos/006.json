@@ -1,0 +1,40 @@
+{
+  "full_name": "daha1216/dsh-adult-tension",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "stargazers_count": 571,
+  "startedAt": "2026-11-16T05:17:12.030Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b584d81e7c90ab1a8ffe8c3a117efee40486dd087e8ccb60e1b36784e9c36f47",
+      "url": "https://github.com/daha1216/dsh-adult-tension/blob/e30bef40688d5da1cd8d9afecf98c4ec21385bfb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/daha1216/dsh-adult-tension",
+    "commit": "e30bef40688d5da1cd8d9afecf98c4ec21385bfb",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:17:18.607Z"
+}

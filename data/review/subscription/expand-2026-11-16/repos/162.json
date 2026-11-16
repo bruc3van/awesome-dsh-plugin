@@ -1,0 +1,163 @@
+{
+  "full_name": "NEETnina/dsh-model-master",
+  "originalPosition": 162,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 162,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-11-16T05:22:31.536Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fa11f1d9bd725816b724c324ae4390d42a667a1a23271ee1cca5d9593e8e9ff8",
+      "url": "https://github.com/NEETnina/dsh-model-master/blob/28b010e5fbce008e8634401909299c74634d0237/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-model-master",
+          "command": "dsh plugin --profile web add dsh-model-master",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-model-master",
+          "command": "dsh plugin --profile <your-profile> add dsh-model-master",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/NEETnina/dsh-model-master",
+          "command": "dsh plugin --profile web add github:NEETnina/dsh-model-master",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-model-master",
+      "version": "1.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NEETnina/dsh-model-master",
+        "commit": "28b010e5fbce008e8634401909299c74634d0237"
+      },
+      "manifestSha256": "b77e6e1f89892113ab06459ec2635765fb59c24ca3f211558a452eb1a4112f26",
+      "manifestUrl": "https://github.com/NEETnina/dsh-model-master/blob/28b010e5fbce008e8634401909299c74634d0237/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-model-master",
+        "versions": [
+          {
+            "version": "1.1.2",
+            "publishTimestamp": 1793451778,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NEETnina/dsh-model-master",
+              "commit": "28b010e5fbce008e8634401909299c74634d0237"
+            },
+            "engines": {
+              "dsh": ">=0.2.0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-model-master",
+      "origin": "npm",
+      "name": "dsh-model-master",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-model-master",
+        "title": "dsh-model-master",
+        "description": "dsh-model-master（模型选择大师）for DeepSeek Harness — 15-language UI (top-15 world languages) — 保留 DSH 原生模型按钮与菜单，在原版狭小下拉列表即将弹出时无缝接管为 Spotlight 大面板。集成 TTFT/TPS 流式测速（失败如实展示、绝不编造数据）、原生渠道分组、⚡ 智能优选、全球百强榜（点击行搜本机渠道）；内置推理档位 FX（官方菜单推理等级行滑条 + 档位切换芯片能量闪动）；原生模型位被其它插件占用时自动出现工具行备用入口（防顶掉）。",
+        "author": "NEETnina",
+        "homepage": "https://github.com/NEETnina/dsh-model-master#readme",
+        "repository": {
+          "url": "https://github.com/NEETnina/dsh-model-master"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dsh-plugins",
+            "model-selector",
+            "model-picker",
+            "model-switcher",
+            "llm",
+            "llm-tools",
+            "speed-test",
+            "latency-benchmark",
+            "ttft",
+            "tps",
+            "llm-benchmark",
+            "benchmark",
+            "leaderboard",
+            "openrouter",
+            "artificial-analysis",
+            "spotlight",
+            "i18n"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxODAgMTgwIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjE4MCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLmqKHlnovpgInmi6nlpKfluIgiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMTgwIiB5Mj0iMTgwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzYzNjZGMSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwRUE1RTkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiByeD0iNDAiIGZpbGw9InVybCgjYmcpIi8+CiAgPCEtLSBNIOeahOWbm+eslO+8m+S4reWkriBWIOWQkeS4i+W7tuWHuuaIkOeureWktO+8jOS4gOS4quW9oueKtuS4pOenjeivu+azlSAtLT4KICA8ZyBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICA8cGF0aCBkPSJNNDggMTMwIFY1OCIvPgogICAgPHBhdGggZD0iTTQ4IDU4IEw5MCAxMDYiLz4KICAgIDxwYXRoIGQ9Ik05MCAxMDYgTDEzMiA1OCIvPgogICAgPHBhdGggZD0iTTEzMiA1OCBWMTMwIi8+CiAgPC9nPgogIDxwYXRoIGQ9Ik03OSAxMDAgTDkwIDE1MCBMMTAxIDEwMCBaIiBmaWxsPSIjRkZGRkZGIi8+Cjwvc3ZnPg==",
+        "versions": [
+          {
+            "version": "1.1.2",
+            "publishTimestamp": 1793447554,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "99083ce3dccabb6164aba71874d570261cf7e69fab9aa72daf0b62e230f7096a",
+      "evidence": [
+        {
+          "name": "dsh-model-master",
+          "version": "1.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-model-master/-/dsh-model-master-1.1.2.tgz",
+          "integrity": "sha512-5ByGXK+5Op5ZScHCg4seR7d9x6S6tREHkzerIbNq6IpSOHaQ2y6ObN/G+zWZTSHAClT66TtVc6D14lom3O9DDA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-model-master",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/NEETnina/dsh-model-master",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NEETnina/dsh-model-master",
+    "commit": "28b010e5fbce008e8634401909299c74634d0237",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:40.614Z"
+}

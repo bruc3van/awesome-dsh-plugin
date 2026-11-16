@@ -1,0 +1,138 @@
+{
+  "full_name": "Alice39s/agent-stash",
+  "originalPosition": 159,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 159,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-11-16T05:22:21.946Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "12f9e7f64c14bf7844912d634c80e7561e385f4a32ab54c25feb3da1f64e8018",
+      "url": "https://github.com/Alice39s/agent-stash/blob/fa7aaed00037cb85290e96c3c04196b7d9b66e87/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@agent-stash/dsh-skill-scout",
+          "command": "dsh plugin --profile web add @agent-stash/dsh-skill-scout",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@agent-stash/init",
+      "version": "1.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Alice39s/agent-stash",
+        "commit": "fa7aaed00037cb85290e96c3c04196b7d9b66e87"
+      },
+      "manifestSha256": "690ebf3508629bad4d0d04e8b4f5b7b415eabc2142cfe4ed349bbb9f39873091",
+      "manifestUrl": "https://github.com/Alice39s/agent-stash/blob/fa7aaed00037cb85290e96c3c04196b7d9b66e87/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@agent-stash/init",
+        "versions": [
+          {
+            "version": "1.5.0",
+            "publishTimestamp": 1794536381,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Alice39s/agent-stash",
+              "commit": "fa7aaed00037cb85290e96c3c04196b7d9b66e87"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@agent-stash/dsh-skill-scout",
+      "origin": "npm",
+      "name": "@agent-stash/dsh-skill-scout",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@agent-stash/dsh-skill-scout",
+        "title": {
+          "en": "Skill Scout",
+          "zh": "经验提炼器"
+        },
+        "description": {
+          "en": "Turn reusable workflows from finished sessions into Skills after review",
+          "zh": "从已结束的会话里提炼可复用的流程，审核后存为 Skill"
+        },
+        "author": "Alice39s",
+        "homepage": "https://github.com/Alice39s/agent-stash/tree/main/packages/dsh-skill-scout#readme",
+        "repository": {
+          "url": "https://github.com/Alice39s/agent-stash",
+          "directory": "packages/dsh-skill-scout"
+        },
+        "metadata": {
+          "keywords": [
+            "agent-skills",
+            "deepseek-harness",
+            "dsh-plugin",
+            "skill-suggestions"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZyBtYXNrPSJ1cmwoI2FnZW50LXN0YXNoLXNraWxsLXNjb3V0LWJhZGdlLWN1dG91dCkiPgogICAgPHJlY3QgeD0iMTAiIHk9IjcuNSIgd2lkdGg9IjE0IiBoZWlnaHQ9IjE4IiByeD0iMyIgZmlsbD0idXJsKCNhZ2VudC1zdGFzaC1za2lsbC1zY291dC1iYWNrKSIgZmlsbC1vcGFjaXR5PSIwLjUiIC8+CiAgICA8cmVjdCB4PSI2LjUiIHk9IjExIiB3aWR0aD0iMTYiIGhlaWdodD0iMTkiIHJ4PSIzLjUiIGZpbGw9InVybCgjYWdlbnQtc3Rhc2gtc2tpbGwtc2NvdXQtY2FyZCkiIC8+CiAgICA8cGF0aCBkPSJNMTAgMTdIMTcuNU0xMCAyMC41SDE5TTEwIDI0SDE1IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIC8+CiAgPC9nPgogIDxjaXJjbGUgY3g9IjI1LjUiIGN5PSIxMS41IiByPSI1IiBmaWxsPSJ1cmwoI2FnZW50LXN0YXNoLXNraWxsLXNjb3V0LWJhZGdlKSIgLz4KICA8cGF0aCBkPSJNMjUuNSA4LjNDMjUuOCAxMC40IDI2LjYgMTEuMiAyOC43IDExLjVDMjYuNiAxMS44IDI1LjggMTIuNiAyNS41IDE0LjdDMjUuMiAxMi42IDI0LjQgMTEuOCAyMi4zIDExLjVDMjQuNCAxMS4yIDI1LjIgMTAuNCAyNS41IDguM1oiIGZpbGw9IiNGRkZGRkYiIC8+CiAgPGRlZnM+CiAgICA8bWFzayBpZD0iYWdlbnQtc3Rhc2gtc2tpbGwtc2NvdXQtYmFkZ2UtY3V0b3V0IiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iMzYiIGhlaWdodD0iMzYiPgogICAgICA8cmVjdCB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIGZpbGw9IiNGRkZGRkYiIC8+CiAgICAgIDxjaXJjbGUgY3g9IjI1LjUiIGN5PSIxMS41IiByPSI2LjI1IiBmaWxsPSIjMDAwMDAwIiAvPgogICAgPC9tYXNrPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJhZ2VudC1zdGFzaC1za2lsbC1zY291dC1iYWNrIiB4MT0iMTAiIHkxPSI3LjUiIHgyPSIyNCIgeTI9IjI1LjUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzZEQjlGQiIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzY1MERFIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYWdlbnQtc3Rhc2gtc2tpbGwtc2NvdXQtY2FyZCIgeDE9IjYuNSIgeTE9IjExIiB4Mj0iMjIuNSIgeTI9IjMwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM2REI5RkIiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzM2NTBERSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImFnZW50LXN0YXNoLXNraWxsLXNjb3V0LWJhZGdlIiB4MT0iMjAuNSIgeTE9IjYuNSIgeDI9IjMwLjUiIHkyPSIxNi41IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM1MUNGREIiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzEwODc5MiIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1793582474,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1eca853ba78cf582d5cd62c601f33f32af5c79fab10546f2bee27bd1ee3998f5",
+      "evidence": [
+        {
+          "name": "@agent-stash/dsh-skill-scout",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/@agent-stash/dsh-skill-scout/-/dsh-skill-scout-0.4.0.tgz",
+          "integrity": "sha512-AvUaRfqdKeTEytqfSztw2P6xcOOPNIhkK3wYr90XjwB0jHxCbNN07chr91sgAa49muLxXgbKYhf/AwJbyl5keQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@agent-stash/dsh-skill-scout",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Alice39s/agent-stash",
+    "commit": "fa7aaed00037cb85290e96c3c04196b7d9b66e87",
+    "releaseTags": 35,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:31.534Z"
+}

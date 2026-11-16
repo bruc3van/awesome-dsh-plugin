@@ -1,0 +1,150 @@
+{
+  "full_name": "temotee2103/dsh-overdrive",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "stargazers_count": 23,
+  "startedAt": "2026-11-16T05:21:19.742Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9ba2fea4cc7fdf9c28bb21d72638d87b7998a05638d074320822c787e6906dfe",
+      "url": "https://github.com/temotee2103/dsh-overdrive/blob/b551e3d1f91230108901aa644ae1960156a9712f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-overdrive/gateway-core",
+          "command": "dsh plugin --profile web add @dsh-overdrive/gateway-core",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "d1744658d1eb0d8e04f2e9bf0ceec705ad6f15ad37e78e352d4dd00c1d8ae75b",
+      "url": "https://github.com/temotee2103/dsh-overdrive/blob/b551e3d1f91230108901aa644ae1960156a9712f/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-overdrive/gateway-core",
+          "command": "dsh plugin --profile web add @dsh-overdrive/gateway-core",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-overdrive/gateway-core",
+      "version": "0.2.1",
+      "path": "packages/gateway-core",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/temotee2103/dsh-overdrive",
+        "commit": "b551e3d1f91230108901aa644ae1960156a9712f",
+        "path": "packages/gateway-core"
+      },
+      "manifestSha256": "f80334cbd795ab37d8d637ae9b9bc8ee69949dc4d3a111269840907645f331e8",
+      "manifestUrl": "https://github.com/temotee2103/dsh-overdrive/blob/b551e3d1f91230108901aa644ae1960156a9712f/packages/gateway-core/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-overdrive/gateway-core",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1788598081,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/temotee2103/dsh-overdrive",
+              "commit": "b551e3d1f91230108901aa644ae1960156a9712f",
+              "path": "packages/gateway-core"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@dsh-overdrive/gateway-core",
+      "origin": "npm",
+      "name": "@dsh-overdrive/gateway-core",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dsh-overdrive/gateway-core",
+        "title": "@dsh-overdrive/gateway-core",
+        "description": "dsh-overdrive: DeepSeek Harness plugin - multi-platform chat bridge core (trajectory / approval / multi-agent)",
+        "repository": {
+          "url": "https://github.com/temotee2103/dsh-overdrive"
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1788598011,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          },
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1788596734,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "51c0fc84cd7a3add7e2513fe8a4ae95aaa2664a5417a0e1539ae41c19d09545b",
+      "evidence": [
+        {
+          "name": "@dsh-overdrive/gateway-core",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/@dsh-overdrive/gateway-core/-/gateway-core-0.2.1.tgz",
+          "integrity": "sha512-JLy1YQTIEjjTneFsk5Xu0148XgEq+m7QsQFbsNcARsxXsXpBr6qz1Pi3bsNCqIR6jMLsWsbLtfRU1JD2INvCSA=="
+        },
+        {
+          "name": "@dsh-overdrive/gateway-core",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/@dsh-overdrive/gateway-core/-/gateway-core-0.2.0.tgz",
+          "integrity": "sha512-9BvWW0W91LTg8Zi0tS4FTFlDRW/+PIkrLSr83voZOfsD3oMTCcXOG2iknb++z9NQASkXeiwA33evU8OECjlvAQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dsh-overdrive/gateway-core",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/temotee2103/dsh-overdrive",
+    "commit": "b551e3d1f91230108901aa644ae1960156a9712f",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:21:35.401Z"
+}

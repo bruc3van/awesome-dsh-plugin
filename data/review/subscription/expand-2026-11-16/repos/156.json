@@ -1,0 +1,92 @@
+{
+  "full_name": "joejojoking-cloud/dsh-file-explorer",
+  "originalPosition": 156,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 156,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T05:22:13.164Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b46ed18edd6f34cfefcb341d04bd60673a25aa5d7f0318b6f668efd62bb4f6c4",
+      "url": "https://github.com/joejojoking-cloud/dsh-file-explorer/blob/4b3a609649af9d81b75e91dc194a74bf6b026811/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-file-explorer",
+          "command": "dsh plugin --profile web add dsh-file-explorer",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-file-explorer",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/joejojoking-cloud/dsh-file-explorer",
+        "commit": "4b3a609649af9d81b75e91dc194a74bf6b026811"
+      },
+      "manifestSha256": "1921faba9c9838331016442a099bc5b0ea9578a601f147208dd7a9bd5d67fe4e",
+      "manifestUrl": "https://github.com/joejojoking-cloud/dsh-file-explorer/blob/4b3a609649af9d81b75e91dc194a74bf6b026811/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.0.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-file-explorer",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1788154751,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/joejojoking-cloud/dsh-file-explorer",
+              "commit": "4b3a609649af9d81b75e91dc194a74bf6b026811"
+            },
+            "engines": {
+              "dsh": "^0.0.1-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-file-explorer",
+      "origin": "npm",
+      "name": "dsh-file-explorer",
+      "version": "0.1.1",
+      "code": "not_dsh_bundle",
+      "status": "invalid_manifest",
+      "reason": "not a declared DSH bundle",
+      "statusCode": "not_dsh_bundle",
+      "registrySha256": "d51c95229038c40d3448114fff64fb0997a0839dfd2fb83d279ab0afdedf2080"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-file-explorer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/joejojoking-cloud/dsh-file-explorer",
+    "commit": "4b3a609649af9d81b75e91dc194a74bf6b026811",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:20.891Z"
+}

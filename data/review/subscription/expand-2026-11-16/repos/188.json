@@ -1,0 +1,134 @@
+{
+  "full_name": "YuChenLiao/dsh-plugin-structured-prompt",
+  "originalPosition": 188,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T05:23:19.740Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7fc672106da1e3710dc3785d02d2801b4acb1e4b28a79ea3cb79b7a8941a76be",
+      "url": "https://github.com/YuChenLiao/dsh-plugin-structured-prompt/blob/de33b8fe17b91e441840b1b2dbaf3b30936411b2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/YuChenLiao/dsh-plugin-structured-prompt",
+          "command": "dsh plugin --profile desktop add github:YuChenLiao/dsh-plugin-structured-prompt",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-plugin-structured-prompt",
+          "command": "dsh plugin --profile desktop add dsh-plugin-structured-prompt",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-structured-prompt",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YuChenLiao/dsh-plugin-structured-prompt",
+        "commit": "de33b8fe17b91e441840b1b2dbaf3b30936411b2"
+      },
+      "manifestSha256": "f2cd59f88f0053e57491517cf637f3dcc22f113b12b054aa5417e2c946d40c7a",
+      "manifestUrl": "https://github.com/YuChenLiao/dsh-plugin-structured-prompt/blob/de33b8fe17b91e441840b1b2dbaf3b30936411b2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-structured-prompt",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1794128369,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YuChenLiao/dsh-plugin-structured-prompt",
+              "commit": "de33b8fe17b91e441840b1b2dbaf3b30936411b2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-structured-prompt",
+      "origin": "npm",
+      "name": "dsh-plugin-structured-prompt",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-structured-prompt",
+        "title": "dsh-plugin-structured-prompt",
+        "description": "DSH 结构化提示词插件（两个可独立装载的组件）：结构化提示词表单 + 模型可调用的构建工具（可选用模板起步、可选直投子代理），以及提示词库检索（prompts.chat，宿主代发、检索结果不经过构建器）。模板库数据在 src/components/structured/shared/templates.json",
+        "homepage": "https://github.com/YuChenLiao/dsh-plugin-structured-prompt#readme",
+        "repository": {
+          "url": "https://github.com/YuChenLiao/dsh-plugin-structured-prompt"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "prompt",
+            "prompt-engineering",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1792416248,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "25543bd3ad0b2e6aa9d592da7344867ab9e89623ff592dbe74080223c5630183",
+      "evidence": [
+        {
+          "name": "dsh-plugin-structured-prompt",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-structured-prompt/-/dsh-plugin-structured-prompt-0.4.1.tgz",
+          "integrity": "sha512-hwvFM5d3HC6MMqrNUs5/agNr2rFm+ihkQlYCjYP0yvy9kz4YnZ8vPvMiSNwR5xmLczFLXHGHe/IEJtVntfhaFw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/YuChenLiao/dsh-plugin-structured-prompt",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-structured-prompt",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YuChenLiao/dsh-plugin-structured-prompt",
+    "commit": "de33b8fe17b91e441840b1b2dbaf3b30936411b2",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:28.278Z"
+}

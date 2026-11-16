@@ -1,0 +1,77 @@
+{
+  "full_name": "Lovenndme/dsh-profile-stats",
+  "originalPosition": 54,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 54,
+  "batch": 1,
+  "stargazers_count": 58,
+  "startedAt": "2026-11-16T05:18:54.379Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9f8ea87cf389947b094bd213da38a2dfbda931ae6c87b0cc85def122c95eaa5c",
+      "url": "https://github.com/Lovenndme/dsh-profile-stats/blob/4128d96240ad3fd5bea7e77ab115ab04379027ea/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "0f1a64b23e890b35a4821f9fbcec6aaa68f0df1322e174fed98e72a097d9eee6",
+      "url": "https://github.com/Lovenndme/dsh-profile-stats/blob/4128d96240ad3fd5bea7e77ab115ab04379027ea/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-profile-stats",
+      "version": "2.4.20",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lovenndme/dsh-profile-stats",
+        "commit": "4128d96240ad3fd5bea7e77ab115ab04379027ea"
+      },
+      "manifestSha256": "aa98bcf5320279fe988fd8978203aa52f97b0b8ffdd9c96bb77653663d4bc14a",
+      "manifestUrl": "https://github.com/Lovenndme/dsh-profile-stats/blob/4128d96240ad3fd5bea7e77ab115ab04379027ea/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-profile-stats",
+        "versions": [
+          {
+            "version": "2.4.20",
+            "publishTimestamp": 1794412849,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Lovenndme/dsh-profile-stats",
+              "commit": "4128d96240ad3fd5bea7e77ab115ab04379027ea"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lovenndme/dsh-profile-stats",
+    "commit": "4128d96240ad3fd5bea7e77ab115ab04379027ea",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:19:05.055Z"
+}

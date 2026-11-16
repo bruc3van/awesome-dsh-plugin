@@ -1,0 +1,74 @@
+{
+  "full_name": "NeoHotaru/dsh-knowledge-canvas",
+  "originalPosition": 163,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 163,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-11-16T05:22:36.518Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5101d3c7fc0d7d37c2b6f1c961a1c9a5a16d0fdc66a8bb440d75652bbf51d741",
+      "url": "https://github.com/NeoHotaru/dsh-knowledge-canvas/blob/b14f1ea26af5a4edfc5fa1e414f48ba7e320a425/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "819a9bc6c2f90cb50b3558c38a0f689c522677b94149631a58915fbf5014e0d0",
+      "url": "https://github.com/NeoHotaru/dsh-knowledge-canvas/blob/b14f1ea26af5a4edfc5fa1e414f48ba7e320a425/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-knowledge-canvas",
+      "version": "0.4.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NeoHotaru/dsh-knowledge-canvas",
+        "commit": "b14f1ea26af5a4edfc5fa1e414f48ba7e320a425"
+      },
+      "manifestSha256": "75ebecd36bee58d3cb47ac0659c58f47eeef99f6cd2ea30feff8df3e236b70c4",
+      "manifestUrl": "https://github.com/NeoHotaru/dsh-knowledge-canvas/blob/b14f1ea26af5a4edfc5fa1e414f48ba7e320a425/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-knowledge-canvas",
+        "versions": [
+          {
+            "version": "0.4.6",
+            "publishTimestamp": 1793964784,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NeoHotaru/dsh-knowledge-canvas",
+              "commit": "b14f1ea26af5a4edfc5fa1e414f48ba7e320a425"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NeoHotaru/dsh-knowledge-canvas",
+    "commit": "b14f1ea26af5a4edfc5fa1e414f48ba7e320a425",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:45.185Z"
+}

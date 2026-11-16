@@ -1,0 +1,87 @@
+{
+  "full_name": "Scodive/Paper-Agent-Skills",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 22,
+  "startedAt": "2026-11-16T05:21:35.402Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "306ac47eb52ce963ff9ecdfb61a5f0ddd1cfec76889cfc58ac86c1e8955b60a6",
+      "url": "https://github.com/Scodive/Paper-Agent-Skills/blob/f719e067d3d1b00227f462a0eba9e0c23105979c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-paper-agent-skills",
+          "command": "dsh plugin --profile web add dsh-paper-agent-skills",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-paper-agent-skills",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Scodive/Paper-Agent-Skills",
+        "commit": "f719e067d3d1b00227f462a0eba9e0c23105979c"
+      },
+      "manifestSha256": "47892f89b0e4ccc5c126ff0b42274fa19e1481ff926e73cedd735af6cd3325c8",
+      "manifestUrl": "https://github.com/Scodive/Paper-Agent-Skills/blob/f719e067d3d1b00227f462a0eba9e0c23105979c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-paper-agent-skills",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794210311,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Scodive/Paper-Agent-Skills",
+              "commit": "f719e067d3d1b00227f462a0eba9e0c23105979c"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-paper-agent-skills",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-paper-agent-skills",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Scodive/Paper-Agent-Skills",
+    "commit": "f719e067d3d1b00227f462a0eba9e0c23105979c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:21:42.898Z"
+}

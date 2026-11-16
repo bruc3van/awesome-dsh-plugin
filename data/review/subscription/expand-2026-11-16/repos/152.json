@@ -1,0 +1,66 @@
+{
+  "full_name": "derkinL/dsh-remembers",
+  "originalPosition": 152,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 152,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T05:22:05.747Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a8eb3715c2bd0d6d1dcbae402c25be20ad6ba93677ee9f7d4730857c55654848",
+      "url": "https://github.com/derkinL/dsh-remembers/blob/c2edab7a979f83d382e48ab041214d15d6fbe408/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remembers",
+      "version": "1.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/derkinL/dsh-remembers",
+        "commit": "c2edab7a979f83d382e48ab041214d15d6fbe408"
+      },
+      "manifestSha256": "433eb91c3d70861696a3d5b278757588e51c7319cfb9b12bc4f20458cedd3b16",
+      "manifestUrl": "https://github.com/derkinL/dsh-remembers/blob/c2edab7a979f83d382e48ab041214d15d6fbe408/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-remembers",
+        "versions": [
+          {
+            "version": "1.2.1",
+            "publishTimestamp": 1794578517,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/derkinL/dsh-remembers",
+              "commit": "c2edab7a979f83d382e48ab041214d15d6fbe408"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/derkinL/dsh-remembers",
+    "commit": "c2edab7a979f83d382e48ab041214d15d6fbe408",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:13.012Z"
+}

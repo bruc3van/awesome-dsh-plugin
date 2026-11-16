@@ -1,0 +1,158 @@
+{
+  "full_name": "zhu1090093659/dsh-skins",
+  "originalPosition": 82,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 82,
+  "batch": 1,
+  "stargazers_count": 38,
+  "startedAt": "2026-11-16T05:19:45.103Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d9de7ee97f7e1848bf84b2e3e8a17587f5cc85174502dcfc118f1dcd32e78f63",
+      "url": "https://github.com/zhu1090093659/dsh-skins/blob/3b3674f1c8921fb6eb612ba34f11f87f1318fbdd/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@linxin666/dsh-client-ui-skin-center",
+          "command": "dsh plugin --profile web add @linxin666/dsh-client-ui-skin-center",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "161c6c2590d52789731364820e456289c8156f7d76ed313f2dee755eb80cd555",
+      "url": "https://github.com/zhu1090093659/dsh-skins/blob/3b3674f1c8921fb6eb612ba34f11f87f1318fbdd/README.zh.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@linxin666/dsh-client-ui-skin-center",
+          "command": "dsh plugin --profile web add @linxin666/dsh-client-ui-skin-center",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@linxin666/dsh-client-ui-skin-center",
+      "version": "0.4.19",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhu1090093659/dsh-skins",
+        "commit": "3b3674f1c8921fb6eb612ba34f11f87f1318fbdd"
+      },
+      "manifestSha256": "aab85fb64168e51f4cef93321dd2df7a95f7352d13ecd411e4ae76f823401de2",
+      "manifestUrl": "https://github.com/zhu1090093659/dsh-skins/blob/3b3674f1c8921fb6eb612ba34f11f87f1318fbdd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@linxin666/dsh-client-ui-skin-center",
+        "versions": [
+          {
+            "version": "0.4.19",
+            "publishTimestamp": 1794793937,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhu1090093659/dsh-skins",
+              "commit": "3b3674f1c8921fb6eb612ba34f11f87f1318fbdd"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@linxin666/dsh-client-ui-skin-center",
+      "origin": "npm",
+      "name": "@linxin666/dsh-client-ui-skin-center",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@linxin666/dsh-client-ui-skin-center",
+        "title": {
+          "en": "Skin center",
+          "zh": "皮肤中心"
+        },
+        "description": {
+          "en": "Switch skins and wallpapers from one center.",
+          "zh": "切换皮肤与壁纸的皮肤中心"
+        },
+        "repository": {
+          "url": "https://github.com/zhu1090093659/dsh-skins"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8cGF0aCBmaWxsPSIjNGQ2YmZlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0gNjcuNSAxMjAgTCA3MC41IDEyMCBMIDcyLjUgMTIxIEwgODAuNSAxMjkgTCA4MS41IDEyOSBMIDg0LjUgMTMyIEwgODUuNSAxMzIgTCA5MC41IDEzNiBMIDkzLjUgMTM3IEwgOTUuNSAxMzkgTCAxMDEuNSAxNDIgTCAxMDMuNSAxNDIgTCAxMDYuNSAxNDQgTCAxMTEuNSAxNDUgTCAxMTIuNSAxNDYgTCAxMTUuNSAxNDYgTCAxMTkuNSAxNDggUSAxMjIuNzUgMTQ3LjI1IDEyMy41IDE0OSBMIDEyNy41IDE0OSBMIDEyOC41IDE1MCBMIDEzMy41IDE1MCBMIDEzNC41IDE1MSBMIDE0MC41IDE1MSBMIDE0MS41IDE1MiBMIDE1MC41IDE1MiBMIDE1MS41IDE1MyBMIDE2MC41IDE1MyBMIDE2MS41IDE1NCBMIDE3MS41IDE1NCBMIDE3Mi41IDE1NSBMIDE3OC41IDE1NSBMIDE3OS41IDE1NiBRIDE4My41IDE1NSAxODQuNSAxNTcgTCAxODkuNSAxNTcgUSAxOTAuNSAxNTkgMTk0LjUgMTU4IEwgMTk1LjUgMTU5IEwgMTk3LjUgMTU5IEwgMTk4LjUgMTYwIEwgMjAwLjUgMTYwIEwgMjAxLjUgMTYxIEwgMjA2LjUgMTYyIEwgMjA5LjUgMTY0IEwgMjExLjUgMTY0IEwgMjE5LjUgMTY4IEwgMjI0LjUgMTcyIEwgMjI3LjUgMTczIEwgMjQ3IDE5MS41IEwgMjQ3IDE5Mi41IEwgMjUzIDE5OS41IEwgMjU1LjUgMjA0IEwgMjU4IDIwMS41IEwgMjYzIDE5My41IEwgMjcyLjUgMTgzIEwgMjczLjUgMTgzIEwgMjgwLjUgMTc2IEwgMjgxLjUgMTc2IEwgMjkyLjUgMTY4IEwgMzAwLjUgMTY0IEwgMzAyLjUgMTY0IEwgMzA1LjUgMTYyIEwgMzA3LjUgMTYyIEwgMzA4LjUgMTYxIEwgMzEwLjUgMTYxIEwgMzE0LjUgMTU5IEwgMzE3LjUgMTU5IEwgMzE4LjUgMTU4IFEgMzIxLjc1IDE1OC43NSAzMjIuNSAxNTcgTCAzMjYuNSAxNTcgTCAzMjcuNSAxNTYgTCAzMzEuNSAxNTYgTCAzMzIuNSAxNTUgTCAzMzcuNSAxNTUgTCAzMzguNSAxNTQgTCAzNDguNSAxNTQgTCAzNDkuNSAxNTMgTCAzNTguNSAxNTMgTCAzNTkuNSAxNTIgTCAzNjguNSAxNTIgTCAzNjkuNSAxNTEgTCAzNzYuNSAxNTEgTCAzNzcuNSAxNTAgTCAzODMuNSAxNTAgTCAzODQuNSAxNDkgTCAzODguNSAxNDkgTCAzODkuNSAxNDggTCAzOTIuNSAxNDggTCAzOTMuNSAxNDcgTCAzOTYuNSAxNDcgTCAzOTcuNSAxNDYgTCAzOTkuNSAxNDYgTCA0MDAuNSAxNDUgTCA0MDUuNSAxNDQgTCA0MjMuNSAxMzUgTCA0MjYuNSAxMzIgTCA0MzEuNSAxMjkgTCA0MzkuNSAxMjEgTCA0NDEuNSAxMjAgTCA0NDQuNSAxMjAgTCA0NDggMTIzLjUgTCA0NDggMTQwLjUgTCA0NDcgMTQxLjUgTCA0NDcgMTQ5LjUgTCA0NDYgMTUwLjUgTCA0NDYgMTU0LjUgTCA0NDUgMTU1LjUgUSA0NDUuNzUgMTU4Ljc1IDQ0NCAxNTkuNSBMIDQ0NCAxNjMuNSBRIDQ0Mi4yNSAxNjQuMjUgNDQzIDE2Ny41IEwgNDQwIDE3My41IEwgNDM5IDE3OC41IEwgNDM1IDE4NS41IEwgNDM1IDE4Ny41IEwgNDMyIDE5My41IEwgNDMwIDE5NS41IEwgNDI5IDE5OC41IEwgNDI3IDIwMC41IEwgNDI1IDIwNC41IEwgNDE5IDIxMS41IEwgNDE5IDIxMi41IEwgNDAyLjUgMjI5IEwgNDAxLjUgMjI5IEwgMzk0LjUgMjM1IEwgMzkzLjUgMjM1IEwgMzg4LjUgMjM5IEwgMzg1LjUgMjQwIEwgMzgzLjUgMjQyIEwgMzcxLjUgMjQ4IEwgMzY5LjUgMjQ4IEwgMzY0LjUgMjUxIEwgMzYyLjUgMjUxIEwgMzYxLjUgMjUyIEwgMzU5LjUgMjUyIEwgMzU4LjUgMjUzIEwgMzU2LjUgMjUzIEwgMzU1LjUgMjU0IEwgMzUzLjUgMjU0IEwgMzQ5LjUgMjU2IEwgMzQyLjUgMjU3IEwgMzM4LjUgMjU5IEwgMzM1LjUgMjU5IEwgMzM0LjUgMjYwIEwgMzI3LjUgMjYxIEwgMzI2LjUgMjYyIEwgMzI0LjUgMjYyIEwgMzIzLjUgMjYzIEwgMzIxLjUgMjYzIEwgMzIwLjUgMjY0IEwgMzE4LjUgMjY0IEwgMzE3LjUgMjY1IEwgMzEyLjUgMjY2IEwgMzA5LjUgMjY4IEwgMzA3LjUgMjY4IEwgMjk1LjUgMjc1IEwgMjg4IDI4Mi41IFEgMjg3LjUgMjg2IDI4NSAyODcuNSBRIDI4NS41IDI5MCAyODQgMjkwLjUgTCAyODQgMjkzLjUgTCAyODMgMjk0LjUgTCAyODMgMzExLjUgTCAyODQgMzEyLjUgTCAyODQgMzE4LjUgTCAyODUgMzE5LjUgTCAyODUgMzIzLjUgTCAyODYgMzI0LjUgTCAyODYgMzI4LjUgUSAyODggMzI5LjUgMjg3IDMzMy41IEwgMjg4IDMzNC41IEwgMjg4IDMzNy41IEwgMjg5IDMzOC41IEwgMjg5IDM0MS41IEwgMjkwIDM0Mi41IEwgMjkwIDM0NS41IEwgMjkxIDM0Ni41IEwgMjkyIDM1My41IEwgMjkzIDM1NC41IEwgMjkzIDM1Ni41IEwgMjk1IDM2MC41IEwgMjk1IDM2My41IEwgMjk2IDM2NC41IEwgMjk2IDM2Ny41IEwgMjk3IDM2OC41IEwgMjk3IDM3MC41IEwgMjk4IDM3MS41IEwgMjk4IDM3My41IEwgMjk5IDM3NC41IEwgMjk5IDM3Ni41IEwgMzAxIDM4MC41IEwgMzAxIDM4Ni41IEwgMjk4LjUgMzg5IEwgMjk0LjUgMzkxIFEgMjkyIDM5MC41IDI5MS41IDM5MiBMIDI4Ni41IDM5MiBMIDI4NS41IDM5MyBMIDI3Mi41IDM5MyBMIDI3MS41IDM5NCBMIDI0MC41IDM5NCBMIDIzOS41IDM5MyBMIDIyNy41IDM5MyBMIDIyNi41IDM5MiBMIDIyMS41IDM5MiBRIDIyMC43NSAzOTAuMjUgMjE3LjUgMzkxIEwgMjEyIDM4Ny41IEwgMjExIDM4NS41IEwgMjExIDM4MS41IEwgMjEyIDM4MC41IFEgMjExLjUgMzc4IDIxMyAzNzcuNSBMIDIxMyAzNzQuNSBMIDIxNCAzNzMuNSBMIDIxNCAzNzEuNSBMIDIxNiAzNjcuNSBMIDIxNiAzNjQuNSBMIDIxNyAzNjMuNSBMIDIxNyAzNjEuNSBMIDIxOSAzNTcuNSBMIDIxOSAzNTQuNSBMIDIyMSAzNTAuNSBMIDIyMSAzNDcuNSBMIDIyMiAzNDYuNSBMIDIyMiAzNDMuNSBMIDIyMyAzNDIuNSBMIDIyMyAzMzkuNSBMIDIyNCAzMzguNSBMIDIyNCAzMzUuNSBMIDIyNSAzMzQuNSBRIDIyNC4yNSAzMzEuMjUgMjI2IDMzMC41IEwgMjI2IDMyNi41IEwgMjI3IDMyNS41IFEgMjI2IDMyMS41IDIyOCAzMjAuNSBMIDIyOCAzMTUuNSBMIDIyOSAzMTQuNSBMIDIyOSAyOTIuNSBMIDIyOCAyOTEuNSBMIDIyNyAyODYuNSBMIDIyNSAyODQuNSBMIDIyMyAyODAuNSBMIDIxOS41IDI3NyBMIDIxOC41IDI3NyBMIDIxMi41IDI3MiBMIDIwMi41IDI2NyBMIDIwMC41IDI2NyBMIDE5Ny41IDI2NSBMIDE5NC41IDI2NSBMIDE5My41IDI2NCBMIDE5MS41IDI2NCBMIDE5MC41IDI2MyBMIDE4OC41IDI2MyBMIDE4NC41IDI2MSBMIDE4MS41IDI2MSBMIDE4MC41IDI2MCBMIDE3My41IDI1OSBMIDE3Mi41IDI1OCBMIDE3MC41IDI1OCBMIDE2Ni41IDI1NiBMIDE1OS41IDI1NSBMIDE1OC41IDI1NCBMIDE1Ni41IDI1NCBMIDE1NS41IDI1MyBMIDE1MC41IDI1MiBMIDE0Ny41IDI1MCBMIDE0NS41IDI1MCBMIDE0Mi41IDI0OCBMIDE0MC41IDI0OCBMIDEyOC41IDI0MiBMIDEyMy41IDIzOCBMIDEyMC41IDIzNyBMIDEwOS41IDIyOCBMIDEwOC41IDIyOCBMIDk1IDIxNC41IEwgOTUgMjEzLjUgTCA4NyAyMDQuNSBMIDg0IDE5OC41IEwgODIgMTk2LjUgTCA4MCAxOTEuNSBMIDc3IDE4Ny41IEwgNzcgMTg1LjUgTCA3MiAxNzUuNSBMIDcyIDE3My41IEwgNzEgMTcyLjUgTCA3MSAxNzAuNSBMIDY5IDE2Ni41IEwgNjkgMTYzLjUgTCA2OCAxNjIuNSBRIDY4Ljc1IDE1OS4yNSA2NyAxNTguNSBMIDY3IDE1NC41IEwgNjYgMTUzLjUgTCA2NiAxNDguNSBMIDY1IDE0Ny41IEwgNjUgMTM5LjUgTCA2NCAxMzguNSBMIDY0IDEyNC41IEwgNjcuNSAxMjAgWiIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.4.19",
+            "publishTimestamp": 1794794094,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2"
+            }
+          },
+          {
+            "version": "0.4.8",
+            "publishTimestamp": 1792454166,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6c30e5434129e4e26fdc26fa8e4ab5c5839917e31bdb89f9b7999ca30cc76264",
+      "evidence": [
+        {
+          "name": "@linxin666/dsh-client-ui-skin-center",
+          "version": "0.4.19",
+          "tarball": "https://registry.npmjs.org/@linxin666/dsh-client-ui-skin-center/-/dsh-client-ui-skin-center-0.4.19.tgz",
+          "integrity": "sha512-8WIipATzgyppqt3mIOTU6QoKvYzzFMasxwhr7LHvrFkLabB4O5aGXVdm94D7G//LZ/fOALDuY5WFlch4RlWqyg=="
+        },
+        {
+          "name": "@linxin666/dsh-client-ui-skin-center",
+          "version": "0.4.8",
+          "tarball": "https://registry.npmjs.org/@linxin666/dsh-client-ui-skin-center/-/dsh-client-ui-skin-center-0.4.8.tgz",
+          "integrity": "sha512-oGL7MiC3zLoCUa0h/aAfa0UrbEKk8SsoRKm4+JhX4dZf6Lc0hmXCsSDas+gyM09+oGCmU9lQVkx8vsl+ZW19JA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@linxin666/dsh-client-ui-skin-center",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhu1090093659/dsh-skins",
+    "commit": "3b3674f1c8921fb6eb612ba34f11f87f1318fbdd",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:19:59.514Z"
+}

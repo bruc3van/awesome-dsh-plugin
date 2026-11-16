@@ -1,0 +1,69 @@
+{
+  "full_name": "Rosynb666/dsh-jiahao-mode",
+  "originalPosition": 149,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 149,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T05:21:59.438Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "44f57107b7576cd64190d98571b5f3c5e1b6af9905647097ce773b50dc2bde75",
+      "url": "https://github.com/Rosynb666/dsh-jiahao-mode/blob/8b4132a0232b43d8bc56c630f771c9c35f1c3728/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-jiahao-mode",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Rosynb666/dsh-jiahao-mode",
+        "commit": "8b4132a0232b43d8bc56c630f771c9c35f1c3728"
+      },
+      "manifestSha256": "2529ae1a36e6b96d3a2182308a71663e719af9901038a36cdef3d6fabc354414",
+      "manifestUrl": "https://github.com/Rosynb666/dsh-jiahao-mode/blob/8b4132a0232b43d8bc56c630f771c9c35f1c3728/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-jiahao-mode",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1792824763,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Rosynb666/dsh-jiahao-mode",
+              "commit": "8b4132a0232b43d8bc56c630f771c9c35f1c3728"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Rosynb666/dsh-jiahao-mode",
+    "commit": "8b4132a0232b43d8bc56c630f771c9c35f1c3728",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:06.875Z"
+}

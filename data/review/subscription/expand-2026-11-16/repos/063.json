@@ -1,0 +1,144 @@
+{
+  "full_name": "zhukunpenglinyutong/dsh-ccgui",
+  "originalPosition": 63,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 63,
+  "batch": 1,
+  "stargazers_count": 48,
+  "startedAt": "2026-11-16T05:19:06.015Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "456b78174385159fcdbd4cb981c69d982c7baedada51aa45db8af59e96218af4",
+      "url": "https://github.com/zhukunpenglinyutong/dsh-ccgui/blob/2307b86ccaeceb9a79bc1007ec6f836fc00e4ea6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ccgui@1.0.2",
+          "command": "dsh plugin --profile web add dsh-ccgui@1.0.2",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ccgui",
+      "version": "1.0.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhukunpenglinyutong/dsh-ccgui",
+        "commit": "2307b86ccaeceb9a79bc1007ec6f836fc00e4ea6"
+      },
+      "manifestSha256": "1b14af5c0110546ef51fb2a79e3c4de853331ccca8feabfb1f21df8642bdeac3",
+      "manifestUrl": "https://github.com/zhukunpenglinyutong/dsh-ccgui/blob/2307b86ccaeceb9a79bc1007ec6f836fc00e4ea6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ccgui",
+        "versions": [
+          {
+            "version": "1.0.6",
+            "publishTimestamp": 1794476989,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhukunpenglinyutong/dsh-ccgui",
+              "commit": "2307b86ccaeceb9a79bc1007ec6f836fc00e4ea6"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ccgui@1.0.2",
+      "origin": "npm",
+      "name": "dsh-ccgui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ccgui",
+        "title": "dsh-ccgui",
+        "description": "在 DeepSeek Harness 里直接使用 Claude Code、Codex、PI、OMP 等 Agent CLI",
+        "homepage": "https://github.com/zhukunpenglinyutong/dsh-ccgui#readme",
+        "repository": {
+          "url": "https://github.com/zhukunpenglinyutong/dsh-ccgui"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "ccgui",
+            "agent-client-protocol",
+            "acp",
+            "claude-code",
+            "codex",
+            "opencode"
+          ]
+        },
+        "icon": "data:image/webp;base64,UklGRsoFAABXRUJQVlA4WAoAAAAQAAAAXwAAXwAAQUxQSPwBAAABkCPbtmora599v7tLBj9D2vAJ3d2dLjgREWSQubtDJiH0wd0lt3fP2Su79k6ERsQE4BdVcZpUXJ1USBKHutREquESAO1TZy5fU+nlMya3AkikPEkE/RtvvPU0VtqYvr66tgdOyxLF8P6vNDKkFQ+k8dPeASRSinPY9JXmfTBW3oL3xo+r4VwJDm3naGlg3QZvPNYMV5hD3wPWAus61HivE64gQft9pqx3S3mnCVLUGaaMYI2H4ApRbGXKKHqughYgGP3IEIfAl/2QfIp99Iyk5x5oLsHgB1osjC+7IXkUG+kZTc+l0DwOV+NyOpeg/TVDPAIfN0GyOUxJafEwfh+Dy6aYwcCIGKdBsyVYzjQi9JyXb01sFiH577/KLaePyzxoNsV0hoiYcTyPw6QaLSL8NhEum6DtJUM8Ah82QrLB4RJ9PFKegCKnYm1MAhfmE/S9pcUi8GkHJA8Ue5nGwnMbFLkFQ28Z4hD4tBuSD4p19HHwXAxFkQ5HWItBjQegKFTQfJep1ZulvJVAioFD513WQn2FlLdbICjaoekwzYf6Cd54sEEcineK5e9pIQ1WPQtpML5aAHUoUxS9u9/RSPMVN9L4elsXVFCyCjqXnX3yg5X//ujkog6IonxJADSNTZu/qNLzxic0AqKCSkqiqMskEVRXnCbVVnWCX1QBVlA4IKgDAACQFACdASpgAGAAPmUqj0WkIqEaPIYkQAZEtLZWhPCz9b3EN3mOb0SM5X037A/60dYz0Nv1mPO/gRUlbxKc91D2WGnJoyci73q7fScVN/LAahKjoSONg+8THbVQeEh3W38UX/QLLgQ8EZPL1AASV0Z46gFn2xhNco9A8BOJwVxkRSkWL61/zH8Chn2RpFp5XpQKxMhR0+Kj/C3Xe8tY9rGYLFL6U4PDXD4VTvUMAAD+9gqg96HKrNlOUr/i5TttnuG1zRJGvC51Sgm95t9Y+d6Gwf4JSOoE9Y5BpoKOm29+xDUkl2uKfrt93ygy74C26H476sos2MidjCMJQc3i8Cai8RjMV0IkFzRCIs/MvdF/8kerHMi2cHPDu5Fp54r222ZTYcxn5Sc5nf+chgJH/3AWHs2xT3PAch0oaha7IoXZs1r+Rnaw6Yd1WsiUdLWt79GGElbgRwlrFA3Oqqv+kYALw2h89yXQEThJ+yux7ObnvpRRbGEypjPUipjNbKNA6Q2oQVjGOvNmhyQf5Gs8EU8n1zzKV7RIXCqZqDVBjCR4TytiP1RquH2/11aVc22oimf9/tlE068xK2Z/ffo15LsBP0/Aa9uYA+6UjUhT6QmpxKD6jtKQfUQ59wBvzwsO7OlLU8hH6YpBElkCpUtLoqqJz7L8y98aHLIfo4HD2Oq0+aj8Osp//w4Vx/4Sujc/6e7zu39I68waSu1D7Qqz8L4c1zfGzwvW/z/gie53gw1nMTNEDnFqf8z7GUamy6fEybBpiYJNx3UBCzLma4nnZzRK21fg79XFECAhXJBAt0mDaWaFMVKLMz7aYlTGHMXDh23KS7f4pk1j5j30ZfACAHx8IWvGmN4fCDcnFuuyUGN8TXVVhxjI5IiERI6B/AWUJ2pZe0S9szeiMEPjN0SrBHQeBk/uDgflzX/M8d71BHL+4Xu4htc5vZuXZLab4djepe90muLadr/SLhanVM/6S1gqsgDJZoCGL4pHdc5vRerXQDBQGKHx7o+Au8qs7zvUz5WJnFv3S7Wn95yeYQP5s4IHpasLjXDrGl4nfVBEBJLCzajxUIZXvMqwDSpRiJgygtuJqzCKCtgCdvJ52Jset23sjpvQzUZQVWV83hBgs2UwTxYY6JylypXCNBQRmeG4VKY0WfOx+oO5lPl/lf1+DHb0QQMfMwYjcbLqv5eBPXUnS1+QgDdrPfu85Yf4xNW2rVh/eQNESdI82apFN/ufs+i178uAAMFyAAA=",
+        "versions": [
+          {
+            "version": "1.0.2",
+            "publishTimestamp": 1794199083,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ce92ac624767f95dc59ed6ab47535a07779e666e5af45f61a89ddc18b805ec98",
+      "evidence": [
+        {
+          "name": "dsh-ccgui",
+          "version": "1.0.2",
+          "tarball": "https://registry.npmjs.org/dsh-ccgui/-/dsh-ccgui-1.0.2.tgz",
+          "integrity": "sha512-943VrJbRUWrZj3/XkeBrKLhCBher4PlDy2SVTpaRWlA1RftmlOLyCZQ1AuiYxVWe5H71+HqHSxZ/tpbbZyxQ6g=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-ccgui",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "b21414887ac8bef71ce35759859a3ef7dbe818cc51162da96f215f5cb527e350",
+          "outputSha256": "318c7c23c674a0feb5ef69ddf8b2d74974d5e21865505420c2ad343c7c236d28",
+          "inputBytes": 136535,
+          "outputBytes": 1490
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ccgui@1.0.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhukunpenglinyutong/dsh-ccgui",
+    "commit": "2307b86ccaeceb9a79bc1007ec6f836fc00e4ea6",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:19:14.887Z"
+}

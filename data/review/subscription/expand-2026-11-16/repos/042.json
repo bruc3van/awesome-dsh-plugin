@@ -1,0 +1,87 @@
+{
+  "full_name": "icyaaaww/dsh-soul",
+  "originalPosition": 42,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 42,
+  "batch": 1,
+  "stargazers_count": 88,
+  "startedAt": "2026-11-16T05:18:33.549Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "efe91d1d29a299927dcc99654ea0b888b9087cf4d3579eba8658294db2ebe322",
+      "url": "https://github.com/icyaaaww/dsh-soul/blob/43045b39acad9e45ced631b8892a57b72508902b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/icyaaaww/dsh-soul/releases/download/v2.1.0/dsh-soul-2.1.0.tgz",
+          "command": "dsh plugin --profile tui add \"https://github.com/icyaaaww/dsh-soul/releases/download/v2.1.0/dsh-soul-2.1.0.tgz\"",
+          "profile": "tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-soul",
+      "version": "2.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/icyaaaww/dsh-soul",
+        "commit": "43045b39acad9e45ced631b8892a57b72508902b"
+      },
+      "manifestSha256": "fa0ccfa42f91ecd11f12e310f67efa56b11dc69870816afc157ea22e8aee894a",
+      "manifestUrl": "https://github.com/icyaaaww/dsh-soul/blob/43045b39acad9e45ced631b8892a57b72508902b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-soul",
+        "versions": [
+          {
+            "version": "2.1.0",
+            "publishTimestamp": 1794149748,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/icyaaaww/dsh-soul",
+              "commit": "43045b39acad9e45ced631b8892a57b72508902b"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/icyaaaww/dsh-soul/releases/download/v2.1.0/dsh-soul-2.1.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/icyaaaww/dsh-soul/releases/download/v2.1.0/dsh-soul-2.1.0.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/icyaaaww/dsh-soul",
+    "commit": "43045b39acad9e45ced631b8892a57b72508902b",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:18:40.868Z"
+}

@@ -1,0 +1,50 @@
+{
+  "full_name": "WforEvery/dsh-runtime-log",
+  "originalPosition": 48,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 48,
+  "batch": 1,
+  "stargazers_count": 67,
+  "startedAt": "2026-11-16T05:18:46.844Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f3003b12cd7adbf214a7ab017210c77474892f9cd13b4acf867e109e7bf0a99e",
+      "url": "https://github.com/WforEvery/dsh-runtime-log/blob/bcf9fa9bd5472ffbe70d10e90d39e308f4230815/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-runtime-log",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WforEvery/dsh-runtime-log",
+        "commit": "bcf9fa9bd5472ffbe70d10e90d39e308f4230815"
+      },
+      "manifestSha256": "d95b75a8b8e2e3a8883847a8ba99c3e906cf6377dc26ca5997e5cf7f6a268531",
+      "manifestUrl": "https://github.com/WforEvery/dsh-runtime-log/blob/bcf9fa9bd5472ffbe70d10e90d39e308f4230815/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WforEvery/dsh-runtime-log",
+    "commit": "bcf9fa9bd5472ffbe70d10e90d39e308f4230815",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:18:54.378Z"
+}

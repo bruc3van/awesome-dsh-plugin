@@ -1,0 +1,155 @@
+{
+  "full_name": "rezon-aki/dsh-streamfold",
+  "originalPosition": 109,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 109,
+  "batch": 1,
+  "stargazers_count": 27,
+  "startedAt": "2026-11-16T05:20:31.675Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a7c31529d37b3293316647b19e8ba050682ceb7b435b2fd909ce20866320dd0c",
+      "url": "https://github.com/rezon-aki/dsh-streamfold/blob/c579bbbfde1c98e5b3ca01d5472d735dbc898b6e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-streamfold",
+          "command": "dsh plugin --profile web add dsh-streamfold",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/rezon-aki/dsh-streamfold",
+          "command": "dsh plugin --profile web add github:rezon-aki/dsh-streamfold",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/rezon-aki/dsh-streamfold",
+          "command": "dsh plugin --profile web add https://github.com/rezon-aki/dsh-streamfold",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-streamfold",
+      "version": "0.7.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/rezon-aki/dsh-streamfold",
+        "commit": "c579bbbfde1c98e5b3ca01d5472d735dbc898b6e"
+      },
+      "manifestSha256": "dc3446b31d34a8b9d9a63d317f00a0d149f4e337f09d743fc7a53d89f3f7ee5c",
+      "manifestUrl": "https://github.com/rezon-aki/dsh-streamfold/blob/c579bbbfde1c98e5b3ca01d5472d735dbc898b6e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-streamfold",
+        "versions": [
+          {
+            "version": "0.7.14",
+            "publishTimestamp": 1794054405,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/rezon-aki/dsh-streamfold",
+              "commit": "c579bbbfde1c98e5b3ca01d5472d735dbc898b6e"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-streamfold",
+      "origin": "npm",
+      "name": "dsh-streamfold",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-streamfold",
+        "title": "dsh-streamfold",
+        "description": "流式折叠：会话窗口展示增强——运行中自动展开最新思考小窗、旧过程行折成摘要，跑完把思考与工具调用折起而穿插正文保留；逐帧推进，不依赖历史加载完。 · Stream Fold: the newest thinking window opens itself while older process rows fold into one summary; a finished turn folds thinking and tool calls away and the prose stays.",
+        "homepage": "https://github.com/rezon-aki/dsh-streamfold#readme",
+        "repository": {
+          "url": "https://github.com/rezon-aki/dsh-streamfold"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "web",
+            "ui",
+            "transcript",
+            "fold",
+            "streaming",
+            "display-mode",
+            "fold-thinking",
+            "tool-calls",
+            "long-session",
+            "折叠",
+            "思考链",
+            "长会话"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.14",
+            "publishTimestamp": 1794054600,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5c59b52d069cf88fad41afe88d4de1fd3cb32273ab3f2e9dad396b1215a2b2da",
+      "evidence": [
+        {
+          "name": "dsh-streamfold",
+          "version": "0.7.14",
+          "tarball": "https://registry.npmjs.org/dsh-streamfold/-/dsh-streamfold-0.7.14.tgz",
+          "integrity": "sha512-YFQffA5jdEwYOnLwn7H9P948eDG00dkJuieIKt9eR5x/CIMv7lmGXWVd1iyF9r60+urT5b9ZJv/cBD08Ush1tQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-streamfold",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/rezon-aki/dsh-streamfold",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/rezon-aki/dsh-streamfold",
+    "commit": "c579bbbfde1c98e5b3ca01d5472d735dbc898b6e",
+    "releaseTags": 25,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:20:39.658Z"
+}

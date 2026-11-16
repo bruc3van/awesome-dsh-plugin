@@ -1,0 +1,151 @@
+{
+  "full_name": "Eileenes/dsh-reel",
+  "originalPosition": 137,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 137,
+  "batch": 1,
+  "stargazers_count": 22,
+  "startedAt": "2026-11-16T05:21:33.992Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0769dc9519dea07b04893cca0b1cfd92ad396002987e2e881c3b382eb7842b6b",
+      "url": "https://github.com/Eileenes/dsh-reel/blob/b49efd54dd60e74ce22be8e136c8d9e339ad130d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Eileenes/dsh-reel",
+          "command": "dsh plugin --profile scratch add github:Eileenes/dsh-reel",
+          "profile": "scratch"
+        },
+        {
+          "install": "dsh-reel-studio@latest",
+          "command": "dsh plugin --profile <profile> add dsh-reel-studio@latest",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-reel-studio",
+      "version": "0.5.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Eileenes/dsh-reel",
+        "commit": "b49efd54dd60e74ce22be8e136c8d9e339ad130d"
+      },
+      "manifestSha256": "a216e690526fe3c166f3fe257fa633c7cefc12fffb4b39f14e9610f342f661d3",
+      "manifestUrl": "https://github.com/Eileenes/dsh-reel/blob/b49efd54dd60e74ce22be8e136c8d9e339ad130d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-reel-studio",
+        "versions": [
+          {
+            "version": "0.5.3",
+            "publishTimestamp": 1794462845,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Eileenes/dsh-reel",
+              "commit": "b49efd54dd60e74ce22be8e136c8d9e339ad130d"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-reel-studio@latest",
+      "origin": "npm",
+      "name": "dsh-reel-studio",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-reel-studio",
+        "title": {
+          "en": "Plugin Promo Studio",
+          "zh": "插件宣传台"
+        },
+        "description": {
+          "en": "Type a plugin name and get a 28s real-UI promo film (real screenshots, install flow, four feature pages) plus a poster; wall + studio views.",
+          "zh": "输入插件名称，用 V0.1 真机管线生成 28s 插件宣传片：真实界面截图、安装流程、四个功能页、成片与封面；安利墙 + 生成台两视图。"
+        },
+        "homepage": "https://github.com/Eileenes/dsh-reel#readme",
+        "repository": {
+          "url": "https://github.com/Eileenes/dsh-reel"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "remotion",
+            "video",
+            "promo",
+            "promo-video",
+            "chrome",
+            "puppeteer"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlJlZWwgU3R1ZGlvIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icmVlbC1iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMxZjJhNDQiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMGMxMjIwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJyZWVsLWFjY2VudCIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM1ZWYyYzIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNGQ2YmZlIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNSIgZmlsbD0idXJsKCNyZWVsLWJnKSIvPgogIDxyZWN0IHg9IjEwIiB5PSIxOCIgd2lkdGg9IjQ0IiBoZWlnaHQ9IjI4IiByeD0iNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNWVmMmMyIiBzdHJva2Utd2lkdGg9IjIuNCIvPgogIDxwYXRoIGQ9Ik0xMCAyNmg0NCIgc3Ryb2tlPSIjNWVmMmMyIiBzdHJva2Utd2lkdGg9IjIiIG9wYWNpdHk9Ii43Ii8+CiAgPHBhdGggZD0iTTE4IDE4bDQtNk0yOCAxOGw0LTZNMzggMThsNC02IiBzdHJva2U9IiM0ZDZiZmUiIHN0cm9rZS13aWR0aD0iMi40IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSIyMCIgY3k9IjM0IiByPSIyIiBmaWxsPSIjNWVmMmMyIi8+CiAgPGNpcmNsZSBjeD0iMjAiIGN5PSI0MCIgcj0iMiIgZmlsbD0iIzVlZjJjMiIgb3BhY2l0eT0iLjYiLz4KICA8cGF0aCBkPSJNMzIgMzAuNWw5IDUtOSA1eiIgZmlsbD0idXJsKCNyZWVsLWFjY2VudCkiLz4KICA8cmVjdCB4PSIxNiIgeT0iNTAiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzIiByeD0iMS41IiBmaWxsPSIjNWVmMmMyIiBvcGFjaXR5PSIuMzUiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.5.3",
+            "publishTimestamp": 1794463623,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5a6b1fdc8ec43fb777c3b3cc5f05b8ab2292ef9de41a01f0c0312af17dcef9f5",
+      "evidence": [
+        {
+          "name": "dsh-reel-studio",
+          "version": "0.5.3",
+          "tarball": "https://registry.npmjs.org/dsh-reel-studio/-/dsh-reel-studio-0.5.3.tgz",
+          "integrity": "sha512-B71/WuIk4/J4SS/SeZ/3Li5xxW0Mdf9RiausRKB5uYgDrKNtoZmQf2nRtpY5dy4tan22C03aWmT4QivDiOjM/A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Eileenes/dsh-reel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-reel-studio@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Eileenes/dsh-reel",
+    "commit": "b49efd54dd60e74ce22be8e136c8d9e339ad130d",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:42.405Z"
+}

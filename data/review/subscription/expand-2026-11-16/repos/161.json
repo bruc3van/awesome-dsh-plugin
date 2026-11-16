@@ -1,0 +1,138 @@
+{
+  "full_name": "Chael-Chael/dsh-ascii-whales",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-11-16T05:22:29.392Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8142f1ad97cfbe78ecb82cacdcbb9800dd289eb6b17b345eda092dde36a153d3",
+      "url": "https://github.com/Chael-Chael/dsh-ascii-whales/blob/df873d4f4532c0b96730034076c43bcba60a6107/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ascii-whales",
+          "command": "dsh plugin --profile web add dsh-ascii-whales",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "2090a961141ec05f49fa83e9420b055730816487c4625cde8772a230bbe485e5",
+      "url": "https://github.com/Chael-Chael/dsh-ascii-whales/blob/df873d4f4532c0b96730034076c43bcba60a6107/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ascii-whales",
+          "command": "dsh plugin --profile web add dsh-ascii-whales",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ascii-whales",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Chael-Chael/dsh-ascii-whales",
+        "commit": "df873d4f4532c0b96730034076c43bcba60a6107"
+      },
+      "manifestSha256": "d66dd8f067fdd6fa199035c5f36bcbffeb8ea7f93eed1b74654a8b1dd2961337",
+      "manifestUrl": "https://github.com/Chael-Chael/dsh-ascii-whales/blob/df873d4f4532c0b96730034076c43bcba60a6107/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ascii-whales",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1794741153,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Chael-Chael/dsh-ascii-whales",
+              "commit": "df873d4f4532c0b96730034076c43bcba60a6107"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ascii-whales",
+      "origin": "npm",
+      "name": "dsh-ascii-whales",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ascii-whales",
+        "title": "dsh-ascii-whales",
+        "description": "Let whales drift through the quiet. An ASCII ocean and neutral frosted glass for DeepSeek Harness.",
+        "repository": {
+          "url": "https://github.com/Chael-Chael/dsh-ascii-whales"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "ascii",
+            "whales",
+            "theme"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1794741265,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "246ab0e7e4f781c270207a8d84176cec07aea1f6aebc6692baa7ece14f8ef824",
+      "evidence": [
+        {
+          "name": "dsh-ascii-whales",
+          "version": "0.1.7",
+          "tarball": "https://registry.npmjs.org/dsh-ascii-whales/-/dsh-ascii-whales-0.1.7.tgz",
+          "integrity": "sha512-BbXCZT3cijRYCQYXQpp5CIbzrmZ0aPJCBcBtoLukg0nZa/tAJn9dhtkNofWVqBf8qqckWCtOA9RQg3Z5ds0CYQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ascii-whales",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Chael-Chael/dsh-ascii-whales",
+    "commit": "df873d4f4532c0b96730034076c43bcba60a6107",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:38.961Z"
+}

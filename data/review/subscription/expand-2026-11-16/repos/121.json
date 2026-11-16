@@ -1,0 +1,137 @@
+{
+  "full_name": "reaxlll/dsh-workspace-recollection",
+  "originalPosition": 121,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 121,
+  "batch": 1,
+  "stargazers_count": 25,
+  "startedAt": "2026-11-16T05:20:54.182Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "52df117821b09a1afd741746819a84a52ba06cf3da2eb02f2afeaae92935b3f3",
+      "url": "https://github.com/reaxlll/dsh-workspace-recollection/blob/63fb15c6600e3e85a43985e0e0ad8b2cd38e0e85/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workspace-recollection",
+          "command": "dsh plugin --profile desktop add dsh-workspace-recollection",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workspace-recollection",
+      "version": "2.17.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/reaxlll/dsh-workspace-recollection",
+        "commit": "63fb15c6600e3e85a43985e0e0ad8b2cd38e0e85"
+      },
+      "manifestSha256": "b95d0a361c4743dd31217084a246dfc559c8f3b0182228b9bd5c86960dc23821",
+      "manifestUrl": "https://github.com/reaxlll/dsh-workspace-recollection/blob/63fb15c6600e3e85a43985e0e0ad8b2cd38e0e85/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-workspace-recollection",
+        "versions": [
+          {
+            "version": "2.17.0",
+            "publishTimestamp": 1792850576,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/reaxlll/dsh-workspace-recollection",
+              "commit": "63fb15c6600e3e85a43985e0e0ad8b2cd38e0e85"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-workspace-recollection",
+      "origin": "npm",
+      "name": "dsh-workspace-recollection",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workspace-recollection",
+        "title": "dsh-workspace-recollection",
+        "description": "给 DeepSeek Harness 的跨会话记忆：按工作区隔离、跨会话共享的长期记忆。常驻 prompt 的只有浅层要点，长文用段级引索定位到段、只取那一段，深层原文（当时的思考、命令、结论）留在本地向量库里按需取回。检索自带噪音过滤与时间通道，零联网（本地嵌入模型），不改动官方内核。",
+        "author": "reaxlll",
+        "homepage": "https://github.com/reaxlll/dsh-workspace-recollection#readme",
+        "repository": {
+          "url": "https://github.com/reaxlll/dsh-workspace-recollection"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "memory",
+            "long-term-memory",
+            "cross-session",
+            "semantic-search",
+            "embeddings",
+            "rag",
+            "cordis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1zZXNzaW9uLW1lbW9yeSI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InNtZW0iIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNGY4Y2ZmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI2YzZhNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPCEtLSDkuInlsYLvvJrmtYXlsYLopoHngrkgLyDmrrXnuqflvJXntKIgLyDmt7HlsYLljp/mlocg4oCU4oCUIOi2iuW+gOS4i+i2iuOAjOWOmuOAje+8jOS9humDveiDveiiq+WumuS9jeWIsCAtLT4KICA8cmVjdCB4PSI4IiAgeT0iMTEiIHdpZHRoPSI0OCIgaGVpZ2h0PSIxMSIgcng9IjUuNSIgZmlsbD0idXJsKCNzbWVtKSIgb3BhY2l0eT0iMC45NSIvPgogIDxyZWN0IHg9IjEyIiB5PSIyNiIgd2lkdGg9IjQwIiBoZWlnaHQ9IjExIiByeD0iNS41IiBmaWxsPSJ1cmwoI3NtZW0pIiBvcGFjaXR5PSIwLjY4Ii8+CiAgPHJlY3QgeD0iMTYiIHk9IjQxIiB3aWR0aD0iMzIiIGhlaWdodD0iMTEiIHJ4PSI1LjUiIGZpbGw9InVybCgjc21lbSkiIG9wYWNpdHk9IjAuNDIiLz4KICA8IS0tIOWumuS9jeeCue+8muS7juaVo+iQveeahOiusOW/humHjOiiq+eyvuehruWPluWbnueahOmCo+S4gOWkhCAtLT4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjE2LjUiIHI9IjIuNiIgZmlsbD0iI2ZmZmZmZiIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "2.5.0",
+            "publishTimestamp": 1792232565,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4772846b4b92545fcf3b9dff4ecbe6e4d0344a96c4eda5ad80b2cfffe1e5ba96",
+      "evidence": [
+        {
+          "name": "dsh-workspace-recollection",
+          "version": "2.5.0",
+          "tarball": "https://registry.npmjs.org/dsh-workspace-recollection/-/dsh-workspace-recollection-2.5.0.tgz",
+          "integrity": "sha512-UBofYg577fFCy6HkjPHdy9InUnuoG/ZAEO+wQxvbMZviThi7J5EBJtRIfpMsrpeUH5ZHbquq0hPgp+TSwXEpOg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workspace-recollection",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/reaxlll/dsh-workspace-recollection",
+    "commit": "63fb15c6600e3e85a43985e0e0ad8b2cd38e0e85",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:21:02.571Z"
+}

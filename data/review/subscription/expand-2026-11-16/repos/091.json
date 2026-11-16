@@ -1,0 +1,85 @@
+{
+  "full_name": "JKZeng-cell/moki-library-for-dsh",
+  "originalPosition": 91,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 91,
+  "batch": 1,
+  "stargazers_count": 30,
+  "startedAt": "2026-11-16T05:20:01.760Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "edcb4ebd1a4617618b9c71dd8f1e3d8b5060155c04fdb691a150857d1d12554e",
+      "url": "https://github.com/JKZeng-cell/moki-library-for-dsh/blob/5542c8bce19b2457e0070de821ae4a3c567c1d7e/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "4795f6cab96780eada20dda9754fabb527d727642b298b25cdeda7b435b47874",
+      "url": "https://github.com/JKZeng-cell/moki-library-for-dsh/blob/5542c8bce19b2457e0070de821ae4a3c567c1d7e/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "docs/social/README.md",
+      "sha256": "cac8efebe7807a81ca2160071688f7378d2fe0dbdec252059e9bbbb1b6bc5594",
+      "url": "https://github.com/JKZeng-cell/moki-library-for-dsh/blob/5542c8bce19b2457e0070de821ae4a3c567c1d7e/docs/social/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-moki-library",
+      "version": "0.1.74",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JKZeng-cell/moki-library-for-dsh",
+        "commit": "5542c8bce19b2457e0070de821ae4a3c567c1d7e"
+      },
+      "manifestSha256": "4b73a0f448c125b00c14d9afb6f75632135c49e287f02838ad9a78bb405ff2b5",
+      "manifestUrl": "https://github.com/JKZeng-cell/moki-library-for-dsh/blob/5542c8bce19b2457e0070de821ae4a3c567c1d7e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-moki-library",
+        "versions": [
+          {
+            "version": "0.1.74",
+            "publishTimestamp": 1794718567,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JKZeng-cell/moki-library-for-dsh",
+              "commit": "5542c8bce19b2457e0070de821ae4a3c567c1d7e"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JKZeng-cell/moki-library-for-dsh",
+    "commit": "5542c8bce19b2457e0070de821ae4a3c567c1d7e",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:20:11.898Z"
+}

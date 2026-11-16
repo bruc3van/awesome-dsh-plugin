@@ -1,0 +1,84 @@
+{
+  "full_name": "wyx135230/DeepSeek-Office",
+  "originalPosition": 180,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 180,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-11-16T05:23:06.197Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c7df3bfc7f726d8630af706653ddb8004a39c26561bd092e0cef6b933a078611",
+      "url": "https://github.com/wyx135230/DeepSeek-Office/blob/34c6ca14b17fac9762984543ab4384b194fb659b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "9cf50919dd35778de94aa3a795e78ac9a4292ae32e959cc8316d0b47aceff0e3",
+      "url": "https://github.com/wyx135230/DeepSeek-Office/blob/34c6ca14b17fac9762984543ab4384b194fb659b/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "ds-bot/README.md",
+      "sha256": "3fd249fe246f52043befc8b6fcc130ff4a79c74a89b1a53502988a5dcc537685",
+      "url": "https://github.com/wyx135230/DeepSeek-Office/blob/34c6ca14b17fac9762984543ab4384b194fb659b/ds-bot/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-office",
+      "version": "0.7.1",
+      "path": "ds-bot",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wyx135230/DeepSeek-Office",
+        "commit": "34c6ca14b17fac9762984543ab4384b194fb659b",
+        "path": "ds-bot"
+      },
+      "manifestSha256": "744eb0af576a3e64288c447c1b51547b591f79faf74769e02569d7f2aa8ade9a",
+      "manifestUrl": "https://github.com/wyx135230/DeepSeek-Office/blob/34c6ca14b17fac9762984543ab4384b194fb659b/ds-bot/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "deepseek-office",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1792636196,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wyx135230/DeepSeek-Office",
+              "commit": "34c6ca14b17fac9762984543ab4384b194fb659b",
+              "path": "ds-bot"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wyx135230/DeepSeek-Office",
+    "commit": "34c6ca14b17fac9762984543ab4384b194fb659b",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:17.088Z"
+}

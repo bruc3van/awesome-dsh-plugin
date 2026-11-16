@@ -1,0 +1,131 @@
+{
+  "full_name": "ItQianChen/dsh-github-flow",
+  "originalPosition": 171,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 171,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-11-16T05:22:52.209Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e4c24cf31f01dddaeeb47dec956124ad025292cc7ecf5800d402dc7bcd330fb9",
+      "url": "https://github.com/ItQianChen/dsh-github-flow/blob/eba6c30fc3f272a7427b76aaf6f879780212fa7d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-github-flow",
+          "command": "dsh plugin --profile desktop add dsh-github-flow",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-github-flow",
+          "command": "dsh plugin --profile web add dsh-github-flow",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-github-flow",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ItQianChen/dsh-github-flow",
+        "commit": "eba6c30fc3f272a7427b76aaf6f879780212fa7d"
+      },
+      "manifestSha256": "677277c79c0dd5569aba660d23649987e3de96f39ddd17a35fab218dec318f59",
+      "manifestUrl": "https://github.com/ItQianChen/dsh-github-flow/blob/eba6c30fc3f272a7427b76aaf6f879780212fa7d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-github-flow",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1793861466,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ItQianChen/dsh-github-flow",
+              "commit": "eba6c30fc3f272a7427b76aaf6f879780212fa7d"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-github-flow",
+      "origin": "npm",
+      "name": "dsh-github-flow",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-github-flow",
+        "title": "dsh-github-flow",
+        "description": "GitHub 工作流引擎：为 DeepSeek Harness 提供原生 GitHub CLI (gh) 集成——19 大 Agent 领域工具（PR 审查合并、Issue 任务流转、CI 失败诊断、发版交付、密钥管理、Agent Skills、标签与保护规则集、构建缓存治理、代码片段 Gist、跨仓待办大盘、Copilot 智能体调度、社区 Discussions、Projects v2 看板、云端 Codespaces、运行时遥测与自愈健康度）、/gh 人类快捷指令、Web UI 全景驾驶舱与一键跨平台自动升级；零凭证侵入复用宿主机 gh 登录态，内置 Token 防溢出截断、高危操作二次确认与密文安全输入通道。",
+        "author": "DSH Contributor",
+        "homepage": "https://github.com/ItQianChen/dsh-github-flow#readme",
+        "repository": {
+          "url": "https://github.com/ItQianChen/dsh-github-flow"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "github",
+            "gh-cli",
+            "cordis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMyZWEwNDMiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMWY2ZmViIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4OTU3ZTUiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGZpbHRlciBpZD0ic2hhZG93IiB4PSItMjAlIiB5PSItMjAlIiB3aWR0aD0iMTQwJSIgaGVpZ2h0PSIxNDAlIj4KICAgICAgPGZlRHJvcFNoYWRvdyBkeD0iMCIgZHk9IjQiIHN0ZERldmlhdGlvbj0iNiIgZmxvb2QtY29sb3I9IiMwMDAiIGZsb29kLW9wYWNpdHk9IjAuMyIgLz4KICAgIDwvZmlsdGVyPgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgcng9IjI4IiBmaWxsPSJ1cmwoI2JnR3JhZCkiIC8+CiAgPHJlY3Qgd2lkdGg9IjEyNiIgaGVpZ2h0PSIxMjYiIHg9IjEiIHk9IjEiIHJ4PSIyNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMikiIHN0cm9rZS13aWR0aD0iMiIgLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNCwgMjQpIHNjYWxlKDUpIiBmaWx0ZXI9InVybCgjc2hhZG93KSIgZmlsbD0iI2ZmZmZmZiI+CiAgICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTggMEMzLjU4IDAgMCAzLjU4IDAgOEMwIDExLjU0IDIuMjkgMTQuNTMgNS40NyAxNS41OUM1Ljg3IDE1LjY2IDYuMDIgMTUuNDIgNi4wMiAxNS4yMUM2LjAyIDE1LjAyIDYuMDEgMTQuMzkgNi4wMSAxMy43MkM0IDE0LjA5IDMuNDggMTMuMjMgMy4zMiAxMi43OEMzLjIzIDEyLjU1IDIuODQgMTEuODQgMi41IDExLjY1QzIuMjIgMTEuNSAxLjgyIDExLjEzIDIuNDkgMTEuMTJDMy4xMiAxMS4xMSAzLjU3IDExLjcgMy43MiAxMS45NEM0LjQ0IDEzLjE1IDUuNTkgMTIuODEgNi4wNSAxMi42QzYuMTIgMTIuMDggNi4zMyAxMS43MiA2LjU2IDExLjUyQzQuNzggMTEuMzIgMi45MiAxMC42MyAyLjkyIDcuNThDMi45MiA2LjcxIDMuMjMgNS45OSAzLjc0IDUuNDNDMy42NiA1LjIzIDMuMzggNC40MSAzLjgyIDMuMzFDMy44MiAzLjMxIDQuNDkgMy4xIDYuMDIgNC4xM0M2LjY2IDMuOTUgNy4zNCAzLjg2IDguMDIgMy44NkM4LjcgMy44NiA5LjM4IDMuOTUgMTAuMDIgNC4xM0MxMS41NSAzLjA5IDEyLjIyIDMuMzEgMTIuMjIgMy4zMUMxMi42NiA0LjQxIDEyLjM4IDUuMjMgMTIuMyA1LjQzQzEyLjgxIDUuOTkgMTMuMTIgNi43IDEzLjEyIDcuNThDMTMuMTIgMTAuNjUgMTEuMjUgMTEuMzIgOS40NyAxMS41MkM5Ljc2IDExLjc3IDEwLjAxIDEyLjI1IDEwLjAxIDEzQzEwLjAxIDE0LjA4IDEwIDE0Ljk1IDEwIDE1LjIxQzEwIDE1LjQyIDEwLjE1IDE1LjY3IDEwLjU1IDE1LjU5QzEzLjcxIDE0LjUzIDE2IDExLjUzIDE2IDhDMTYgMy41OCAxMi40MiAwIDggMFoiIC8+CiAgPC9nPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1793861616,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5faba1634154713def749277b5985817635422c6be52af3a9a31d1c6348167f8",
+      "evidence": [
+        {
+          "name": "dsh-github-flow",
+          "version": "0.7.1",
+          "tarball": "https://registry.npmjs.org/dsh-github-flow/-/dsh-github-flow-0.7.1.tgz",
+          "integrity": "sha512-JdTwlqpNx2XsLSkrUn0upGUSLknsNUy1F/NLUy88Gq0kc7LyQppPvJNadwyuKCduNx1mtxEe3NARS3e36XjSaQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-github-flow",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ItQianChen/dsh-github-flow",
+    "commit": "eba6c30fc3f272a7427b76aaf6f879780212fa7d",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:03.345Z"
+}

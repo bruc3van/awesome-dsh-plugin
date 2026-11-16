@@ -1,0 +1,77 @@
+{
+  "full_name": "akira399/dsh-novel-writer",
+  "originalPosition": 25,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 25,
+  "batch": 1,
+  "stargazers_count": 118,
+  "startedAt": "2026-11-16T05:17:59.968Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e33c26b153843ced21febee60884239a8d45a58bd70402adf34283eceeb5b1ad",
+      "url": "https://github.com/akira399/dsh-novel-writer/blob/b9e49227aa70f7e42d8a348fc104180d2fe497e7/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "f074059e67b7a9eacb9534452f05bbc6b9dedaba6290077942b7f854d94b94b2",
+      "url": "https://github.com/akira399/dsh-novel-writer/blob/b9e49227aa70f7e42d8a348fc104180d2fe497e7/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-novel-writer",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/akira399/dsh-novel-writer",
+        "commit": "b9e49227aa70f7e42d8a348fc104180d2fe497e7"
+      },
+      "manifestSha256": "f88a83ca2a8e39350d3179dd0c69052abfce67ed631287bd6b5e02cfdc81d0a3",
+      "manifestUrl": "https://github.com/akira399/dsh-novel-writer/blob/b9e49227aa70f7e42d8a348fc104180d2fe497e7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-external/dsh-novel-writer",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791293116,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/akira399/dsh-novel-writer",
+              "commit": "b9e49227aa70f7e42d8a348fc104180d2fe497e7"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/akira399/dsh-novel-writer",
+    "commit": "b9e49227aa70f7e42d8a348fc104180d2fe497e7",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:18:08.741Z"
+}

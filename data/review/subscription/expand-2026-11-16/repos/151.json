@@ -1,0 +1,233 @@
+{
+  "full_name": "ckanner/dsh-plugin-chatgpt",
+  "originalPosition": 151,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 151,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T05:22:00.221Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "da073baa060333fdfad87bb689decb70259d4e05105232ed41243c0494242b6d",
+      "url": "https://github.com/ckanner/dsh-plugin-chatgpt/blob/40d8f885e7a386af5f441b356b9c68496a47b0e3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-chatgpt",
+          "command": "dsh plugin --profile <name> add dsh-plugin-chatgpt",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-plugin-chatgpt@0.1.9",
+          "command": "dsh plugin --profile <name> add dsh-plugin-chatgpt@0.1.9",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.zh.md",
+      "sha256": "80f52435b568faa2587fe8dc5a2e0c08a9ac766e5c2f6e7868d1a32688621c0e",
+      "url": "https://github.com/ckanner/dsh-plugin-chatgpt/blob/40d8f885e7a386af5f441b356b9c68496a47b0e3/docs/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-chatgpt",
+          "command": "dsh plugin --profile <name> add dsh-plugin-chatgpt",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-plugin-chatgpt@0.1.9",
+          "command": "dsh plugin --profile <name> add dsh-plugin-chatgpt@0.1.9",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-chatgpt",
+      "version": "0.1.20",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ckanner/dsh-plugin-chatgpt",
+        "commit": "40d8f885e7a386af5f441b356b9c68496a47b0e3"
+      },
+      "manifestSha256": "29bc1349023d1234d9eb6a2cd6533860b3234cc2dbc442f4add129bb1770a21a",
+      "manifestUrl": "https://github.com/ckanner/dsh-plugin-chatgpt/blob/40d8f885e7a386af5f441b356b9c68496a47b0e3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.5 || ^0.2.2-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-chatgpt",
+        "versions": [
+          {
+            "version": "0.1.20",
+            "publishTimestamp": 1794664575,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ckanner/dsh-plugin-chatgpt",
+              "commit": "40d8f885e7a386af5f441b356b9c68496a47b0e3"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.5 || ^0.2.2-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-chatgpt",
+      "origin": "npm",
+      "name": "dsh-plugin-chatgpt",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-chatgpt",
+        "title": "dsh-plugin-chatgpt",
+        "description": "Sign in with ChatGPT inside DeepSeek Harness, and use your ChatGPT subscription to serve models.",
+        "author": "Kanner",
+        "homepage": "https://github.com/ckanner/dsh-plugin-chatgpt#readme",
+        "repository": {
+          "url": "https://github.com/ckanner/dsh-plugin-chatgpt"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "cordis",
+            "chatgpt",
+            "openai",
+            "oauth",
+            "subscription",
+            "model-provider"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.20",
+            "publishTimestamp": 1794664800,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.5 || ^0.2.2-0"
+            }
+          },
+          {
+            "version": "0.1.19",
+            "publishTimestamp": 1794491034,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.2.0 || >=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "56021b56851bd46fd394799ca0073a85b59dddf74cae85c8052b33323862ccb7",
+      "evidence": [
+        {
+          "name": "dsh-plugin-chatgpt",
+          "version": "0.1.20",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-chatgpt/-/dsh-plugin-chatgpt-0.1.20.tgz",
+          "integrity": "sha512-vG+BxRoIpet1Qna+2yTl/4bKzOUikhyaECwQvqlmlbbpdaqz5M4c3h5wIThuVY3akfXXnjSqf9a+9HPjeycSHw=="
+        },
+        {
+          "name": "dsh-plugin-chatgpt",
+          "version": "0.1.19",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-chatgpt/-/dsh-plugin-chatgpt-0.1.19.tgz",
+          "integrity": "sha512-U4TCnfN3+LhEAST1pup4epw64Isl7ldxSaDe1eN1BwMgywWQsCnzF5OAi8mauFqj0UK5023X8sL9WcGe84ZSwQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "dsh-plugin-chatgpt@0.1.9",
+      "origin": "npm",
+      "name": "dsh-plugin-chatgpt",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-chatgpt",
+        "title": "dsh-plugin-chatgpt",
+        "description": "Sign in with ChatGPT inside DeepSeek Harness, and use your ChatGPT subscription to serve models.",
+        "author": "Kanner",
+        "homepage": "https://github.com/ckanner/dsh-plugin-chatgpt#readme",
+        "repository": {
+          "url": "https://github.com/ckanner/dsh-plugin-chatgpt"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "chatgpt",
+            "openai",
+            "oauth",
+            "subscription"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.9",
+            "publishTimestamp": 1791466499,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.2.0 || >=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "56021b56851bd46fd394799ca0073a85b59dddf74cae85c8052b33323862ccb7",
+      "evidence": [
+        {
+          "name": "dsh-plugin-chatgpt",
+          "version": "0.1.9",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-chatgpt/-/dsh-plugin-chatgpt-0.1.9.tgz",
+          "integrity": "sha512-TsoQQ7IUQAVj9cwz5hpOF3sp76PS2q9QgBWWRUh2W8Ekg3+5J8LOuc7kdtszFPsMS56qmED0rnvj3c/NO+bD9w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-chatgpt",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-chatgpt@0.1.9",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ckanner/dsh-plugin-chatgpt",
+    "commit": "40d8f885e7a386af5f441b356b9c68496a47b0e3",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:12.181Z"
+}

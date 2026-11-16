@@ -1,0 +1,87 @@
+{
+  "full_name": "KinGao294/dsh-skin",
+  "originalPosition": 182,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 182,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T05:23:10.356Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2cd676d8e7c07c5e7126c6e3be1a0b826abf519e496c2bc4bca8dabe662bd653",
+      "url": "https://github.com/KinGao294/dsh-skin/blob/0a571a27adcc5f780b7b72386c9c294243eec5b3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yourscope/dsh-skin",
+          "command": "dsh plugin --profile web add -w @yourscope/dsh-skin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skin",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KinGao294/dsh-skin",
+        "commit": "0a571a27adcc5f780b7b72386c9c294243eec5b3"
+      },
+      "manifestSha256": "d6299142b3872305aeb8c24f66d4d37e7a55a87de48bab9cdd493e5223a7a519",
+      "manifestUrl": "https://github.com/KinGao294/dsh-skin/blob/0a571a27adcc5f780b7b72386c9c294243eec5b3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-skin",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1787052204,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KinGao294/dsh-skin",
+              "commit": "0a571a27adcc5f780b7b72386c9c294243eec5b3"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@yourscope/dsh-skin",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@yourscope/dsh-skin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KinGao294/dsh-skin",
+    "commit": "0a571a27adcc5f780b7b72386c9c294243eec5b3",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:18.073Z"
+}

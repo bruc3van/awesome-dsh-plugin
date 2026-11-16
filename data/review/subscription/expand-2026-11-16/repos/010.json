@@ -1,0 +1,151 @@
+{
+  "full_name": "Yuuyuko-uu/dsh-feiyu-mood",
+  "originalPosition": 10,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 10,
+  "batch": 1,
+  "stargazers_count": 265,
+  "startedAt": "2026-11-16T05:17:27.866Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "32c4695c0b273a676e42a29f62356ab6bb3df08fadded5731016311cfd7f0b54",
+      "url": "https://github.com/Yuuyuko-uu/dsh-feiyu-mood/blob/8e89effd978cb9f1436f3d50ad8ba7ef2bc79c1b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-feiyu-mood",
+          "command": "dsh plugin --profile desktop add dsh-feiyu-mood",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://codeload.github.com/Yuuyuko-uu/dsh-feiyu-mood/tar.gz/refs/heads/main",
+          "command": "dsh plugin --profile desktop add https://codeload.github.com/Yuuyuko-uu/dsh-feiyu-mood/tar.gz/refs/heads/main",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-feiyu-mood",
+          "command": "dsh plugin add dsh-feiyu-mood",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-feiyu-mood",
+      "version": "0.9.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yuuyuko-uu/dsh-feiyu-mood",
+        "commit": "8e89effd978cb9f1436f3d50ad8ba7ef2bc79c1b"
+      },
+      "manifestSha256": "07a91ca9795af58322c0dd7387baa9a7354d8d3e83ce6e1a88c819199f9e5f4c",
+      "manifestUrl": "https://github.com/Yuuyuko-uu/dsh-feiyu-mood/blob/8e89effd978cb9f1436f3d50ad8ba7ef2bc79c1b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-feiyu-mood",
+        "versions": [
+          {
+            "version": "0.9.3",
+            "publishTimestamp": 1794640065,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yuuyuko-uu/dsh-feiyu-mood",
+              "commit": "8e89effd978cb9f1436f3d50ad8ba7ef2bc79c1b"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-feiyu-mood",
+      "origin": "npm",
+      "name": "dsh-feiyu-mood",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-feiyu-mood",
+        "title": "dsh-feiyu-mood",
+        "description": "给 AI 伙伴一个会自己判断、你看得见的心情：每轮聊完自动判断涨跌，右下角挂饰点开看数值 + 情绪 + 时间线；心情怎么告诉她（不告诉 / 只说心情 / 说她刚才那件事）和可信度门槛都能在设置里改。",
+        "author": "Yuuyuko-uu",
+        "homepage": "https://github.com/Yuuyuko-uu/dsh-feiyu-mood#readme",
+        "repository": {
+          "url": "https://github.com/Yuuyuko-uu/dsh-feiyu-mood"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "mood",
+            "ai-companion"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.9.3",
+            "publishTimestamp": 1794548382,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "85897b6d54c624dbe0834dbd5a9c331f0fee3d5bc8ae684928ee6552b6a9dd23",
+      "evidence": [
+        {
+          "name": "dsh-feiyu-mood",
+          "version": "0.9.3",
+          "tarball": "https://registry.npmjs.org/dsh-feiyu-mood/-/dsh-feiyu-mood-0.9.3.tgz",
+          "integrity": "sha512-dcaikVI8OfXAttO1OMXjlW0wMwn2Yau7s1mR8iRKp/c5Uyg1Z8xERLInhKaQOpxH6OYfkqK/w51W1qEkpWxQ9Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "https://codeload.github.com/Yuuyuko-uu/dsh-feiyu-mood/tar.gz/refs/heads/main",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "GitHub codeload 是归档下载地址，不是 Git 仓库；format-1 需要 npm 包或经核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-feiyu-mood",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://codeload.github.com/Yuuyuko-uu/dsh-feiyu-mood/tar.gz/refs/heads/main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yuuyuko-uu/dsh-feiyu-mood",
+    "commit": "8e89effd978cb9f1436f3d50ad8ba7ef2bc79c1b",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:17:46.684Z"
+}

@@ -1,0 +1,105 @@
+{
+  "full_name": "IndieXiaoLong/DSH-Enhance",
+  "originalPosition": 73,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 73,
+  "batch": 1,
+  "stargazers_count": 43,
+  "startedAt": "2026-11-16T05:19:28.529Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a25fa58bde48cc411fedb25c6f8a0e291aa9f798d7ad912cac6c14368cb15987",
+      "url": "https://github.com/IndieXiaoLong/DSH-Enhance/blob/747663e8a09088934dc748cb5314f800f5f7ffb3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/IndieXiaoLong/DSH-Enhance",
+          "command": "dsh plugin --profile web add github:IndieXiaoLong/DSH-Enhance",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/IndieXiaoLong/DSH-Enhance",
+          "command": "dsh plugin --profile desktop add github:IndieXiaoLong/DSH-Enhance",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8d1eb922b1649acbc813ca76ec3092277a45d6f5db9e57d558c08161faa3b13d",
+      "url": "https://github.com/IndieXiaoLong/DSH-Enhance/blob/747663e8a09088934dc748cb5314f800f5f7ffb3/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/IndieXiaoLong/DSH-Enhance",
+          "command": "dsh plugin --profile web add github:IndieXiaoLong/DSH-Enhance",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/IndieXiaoLong/DSH-Enhance",
+          "command": "dsh plugin --profile desktop add github:IndieXiaoLong/DSH-Enhance",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-enhance",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/IndieXiaoLong/DSH-Enhance",
+        "commit": "747663e8a09088934dc748cb5314f800f5f7ffb3"
+      },
+      "manifestSha256": "6fcbdcb615cbdbec4423042fdf52690fc5f1c7a1f713d7efdebe980da4c19c2a",
+      "manifestUrl": "https://github.com/IndieXiaoLong/DSH-Enhance/blob/747663e8a09088934dc748cb5314f800f5f7ffb3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-enhance",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792737533,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/IndieXiaoLong/DSH-Enhance",
+              "commit": "747663e8a09088934dc748cb5314f800f5f7ffb3"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/IndieXiaoLong/DSH-Enhance",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/IndieXiaoLong/DSH-Enhance",
+    "commit": "747663e8a09088934dc748cb5314f800f5f7ffb3",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:19:37.399Z"
+}

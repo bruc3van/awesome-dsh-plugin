@@ -1,0 +1,142 @@
+{
+  "full_name": "LilycleHeart/dsh-liuli-ui-enhance",
+  "originalPosition": 98,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 98,
+  "batch": 1,
+  "stargazers_count": 28,
+  "startedAt": "2026-11-16T05:20:10.993Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5108b665e57f20aed2b6eb9b7c0526f55a052ae7a3c81d59fe9ef684af378f0b",
+      "url": "https://github.com/LilycleHeart/dsh-liuli-ui-enhance/blob/36068f437b60dc3a008f323708063f03f031135d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-liuli-ui-enhance@0.1.2",
+          "command": "dsh plugin --profile desktop add dsh-liuli-ui-enhance@0.1.2",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "2ba2a50661c61837718138f673b30c8d476f48216b5cc31738dea4decb570349",
+      "url": "https://github.com/LilycleHeart/dsh-liuli-ui-enhance/blob/36068f437b60dc3a008f323708063f03f031135d/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-liuli-ui-enhance@0.1.2",
+          "command": "dsh plugin --profile desktop add dsh-liuli-ui-enhance@0.1.2",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-liuli-ui-enhance",
+      "version": "0.1.2-rc.39",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LilycleHeart/dsh-liuli-ui-enhance",
+        "commit": "36068f437b60dc3a008f323708063f03f031135d"
+      },
+      "manifestSha256": "0a7afde7135035cf7ba0d80ca20cb143e269f094d786ca72a295e2a11f48cb19",
+      "manifestUrl": "https://github.com/LilycleHeart/dsh-liuli-ui-enhance/blob/36068f437b60dc3a008f323708063f03f031135d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-liuli-ui-enhance",
+        "versions": [
+          {
+            "version": "0.1.2-rc.39",
+            "publishTimestamp": 1793675486,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LilycleHeart/dsh-liuli-ui-enhance",
+              "commit": "36068f437b60dc3a008f323708063f03f031135d"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-liuli-ui-enhance@0.1.2",
+      "origin": "npm",
+      "name": "dsh-liuli-ui-enhance",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-liuli-ui-enhance",
+        "title": "dsh-liuli-ui-enhance",
+        "description": "琉璃主题 —— DSH 界面增强插件：M3 动态取色、壁纸磨砂材质、声纹可视化、日/夜切换",
+        "repository": {
+          "url": "https://github.com/LilycleHeart/dsh-liuli-ui-enhance"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "theme",
+            "liuli"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790771485,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b3081c3315c6dbd4ea859f636ac0b99645d73ec992bf18e783575e9699f1092a",
+      "evidence": [
+        {
+          "name": "dsh-liuli-ui-enhance",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-liuli-ui-enhance/-/dsh-liuli-ui-enhance-0.1.2.tgz",
+          "integrity": "sha512-7a1cs+U4xEa6I8khmJ/qe4mdKMIcbWF5Y/McBhyr2iHKXj2gVyh5aZxhFOeFtnWQ5ni8E+vKGac450fkox3fHA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-liuli-ui-enhance@0.1.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LilycleHeart/dsh-liuli-ui-enhance",
+    "commit": "36068f437b60dc3a008f323708063f03f031135d",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:20:22.716Z"
+}

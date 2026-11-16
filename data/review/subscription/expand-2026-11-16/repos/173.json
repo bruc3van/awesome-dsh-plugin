@@ -1,0 +1,132 @@
+{
+  "full_name": "Phoeky/dsh-scnet-connect",
+  "originalPosition": 173,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 173,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-11-16T05:22:54.449Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a78b8793e3049695c1560220651c7e63eb7e28eca216d59146ccb03028c6df60",
+      "url": "https://github.com/Phoeky/dsh-scnet-connect/blob/b0d89bbc264d572921d4a80b99e7cb6025caf8f0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-scnet-connect",
+          "command": "dsh plugin --profile desktop add dsh-scnet-connect",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-scnet-connect",
+      "version": "1.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Phoeky/dsh-scnet-connect",
+        "commit": "b0d89bbc264d572921d4a80b99e7cb6025caf8f0"
+      },
+      "manifestSha256": "bb810b494b199d0f7e698e016fc0e437975f8c39580cbc8eefe07a8471bb507d",
+      "manifestUrl": "https://github.com/Phoeky/dsh-scnet-connect/blob/b0d89bbc264d572921d4a80b99e7cb6025caf8f0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.1 <0.2.2-0 || >=0.2.2-rc.1 <0.2.3-0 || >=0.2.3-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-scnet-connect",
+        "versions": [
+          {
+            "version": "1.3.1",
+            "publishTimestamp": 1794416577,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Phoeky/dsh-scnet-connect",
+              "commit": "b0d89bbc264d572921d4a80b99e7cb6025caf8f0"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.1 <0.2.2-0 || >=0.2.2-rc.1 <0.2.3-0 || >=0.2.3-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-scnet-connect",
+      "origin": "npm",
+      "name": "dsh-scnet-connect",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-scnet-connect",
+        "title": "dsh-scnet-connect",
+        "description": "把 SCNet 模型接入 DeepSeek Harness，可免客户端登录，使用免费模型（SCNet-Max，基座基本可确定为 DeepSeek Flash）",
+        "author": "Phoeky",
+        "homepage": "https://github.com/Phoeky/dsh-scnet-connect#readme",
+        "repository": {
+          "url": "https://github.com/Phoeky/dsh-scnet-connect"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "scnet",
+            "超算互联网",
+            "model-provider",
+            "scnet-max"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.3.1",
+            "publishTimestamp": 1794416776,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.1 <0.2.2-0 || >=0.2.2-rc.1 <0.2.3-0 || >=0.2.3-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d4f6484f582879dce99a0bc9f2190f7696e15f32285af76fae5cc823286c463d",
+      "evidence": [
+        {
+          "name": "dsh-scnet-connect",
+          "version": "1.3.1",
+          "tarball": "https://registry.npmjs.org/dsh-scnet-connect/-/dsh-scnet-connect-1.3.1.tgz",
+          "integrity": "sha512-xl84Z6vqE2soNBoZFiEyGl0ve/eDbTRURwIoMLAL9xpUZp4MD2Ydiz7+3IM9rjo4+UnpymeziALYc5xMm8jORA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-scnet-connect",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Phoeky/dsh-scnet-connect",
+    "commit": "b0d89bbc264d572921d4a80b99e7cb6025caf8f0",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:01.976Z"
+}

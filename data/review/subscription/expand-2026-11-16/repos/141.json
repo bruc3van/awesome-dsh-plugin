@@ -1,0 +1,141 @@
+{
+  "full_name": "walksls/dsh-degeneration-kit",
+  "originalPosition": 141,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 141,
+  "batch": 1,
+  "stargazers_count": 22,
+  "startedAt": "2026-11-16T05:21:41.738Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bfee5142b6860b9c02a7a5747a1f897f7fbc439d4be72ba3e8dab0cc016732ab",
+      "url": "https://github.com/walksls/dsh-degeneration-kit/blob/fd7bbf66f47246e0159608c6c2319c389ee69bd7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "78a147600f22361fb41bceee78984ae6b8d2b2202e1913704a66292fab9332ed",
+      "url": "https://github.com/walksls/dsh-degeneration-kit/blob/fd7bbf66f47246e0159608c6c2319c389ee69bd7/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "thinking-guard/README.md",
+      "sha256": "bb56cfeca227a244bdd6455fda5706ad3e2ad4928477f8de2e7729e65058296f",
+      "url": "https://github.com/walksls/dsh-degeneration-kit/blob/fd7bbf66f47246e0159608c6c2319c389ee69bd7/thinking-guard/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "auto-checkpoint/README.md",
+      "sha256": "0490ac9996e2837672526544aa7d90f552a429d4100e2fe06380621149035ba6",
+      "url": "https://github.com/walksls/dsh-degeneration-kit/blob/fd7bbf66f47246e0159608c6c2319c389ee69bd7/auto-checkpoint/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "thinking-guard/README.en.md",
+      "sha256": "2899e39ebb7b65da82842fc30d327d8044270ab6b3ff7330de8e3583b3563461",
+      "url": "https://github.com/walksls/dsh-degeneration-kit/blob/fd7bbf66f47246e0159608c6c2319c389ee69bd7/thinking-guard/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "auto-checkpoint/README.en.md",
+      "sha256": "e85a981192bc97c8b03803ecd45f1ebe00619dba6d6e43a5f29be3fc6a6bbc7d",
+      "url": "https://github.com/walksls/dsh-degeneration-kit/blob/fd7bbf66f47246e0159608c6c2319c389ee69bd7/auto-checkpoint/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-auto-checkpoint",
+      "version": "0.1.0",
+      "path": "auto-checkpoint",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/walksls/dsh-degeneration-kit",
+        "commit": "fd7bbf66f47246e0159608c6c2319c389ee69bd7",
+        "path": "auto-checkpoint"
+      },
+      "manifestSha256": "ab0c463792db4550abbb25c4470207cf866e2fe718594cc419d1b119247516d9",
+      "manifestUrl": "https://github.com/walksls/dsh-degeneration-kit/blob/fd7bbf66f47246e0159608c6c2319c389ee69bd7/auto-checkpoint/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-auto-checkpoint",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793387403,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/walksls/dsh-degeneration-kit",
+              "commit": "fd7bbf66f47246e0159608c6c2319c389ee69bd7",
+              "path": "auto-checkpoint"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-thinking-guard",
+      "version": "0.1.0",
+      "path": "thinking-guard",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/walksls/dsh-degeneration-kit",
+        "commit": "fd7bbf66f47246e0159608c6c2319c389ee69bd7",
+        "path": "thinking-guard"
+      },
+      "manifestSha256": "030e0099afd327ac6840621ca8cb87be5aa21aa0f366102f9f9be2986ee40f98",
+      "manifestUrl": "https://github.com/walksls/dsh-degeneration-kit/blob/fd7bbf66f47246e0159608c6c2319c389ee69bd7/thinking-guard/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-thinking-guard",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793387403,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/walksls/dsh-degeneration-kit",
+              "commit": "fd7bbf66f47246e0159608c6c2319c389ee69bd7",
+              "path": "thinking-guard"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/walksls/dsh-degeneration-kit",
+    "commit": "fd7bbf66f47246e0159608c6c2319c389ee69bd7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:21:56.847Z"
+}

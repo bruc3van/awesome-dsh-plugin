@@ -1,0 +1,138 @@
+{
+  "full_name": "godv61/dsh-task-engine",
+  "originalPosition": 190,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 190,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T05:23:21.523Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "425b9f92f96a9f465f6d48e1f5106b7c031b1737ea025b810c5d10d1986cc87c",
+      "url": "https://github.com/godv61/dsh-task-engine/blob/c1152528e38e70624e8409a778d3e6936e028175/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@godv61/dsh-task-engine",
+          "command": "dsh plugin --profile web add @godv61/dsh-task-engine",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@godv61/dsh-task-engine",
+      "version": "0.41.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/godv61/dsh-task-engine",
+        "commit": "c1152528e38e70624e8409a778d3e6936e028175"
+      },
+      "manifestSha256": "dec275535ed28465c58a6039c8d6af420c227fc6621a9b097cd23a8c73ed0c85",
+      "manifestUrl": "https://github.com/godv61/dsh-task-engine/blob/c1152528e38e70624e8409a778d3e6936e028175/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@godv61/dsh-task-engine",
+        "versions": [
+          {
+            "version": "0.41.0",
+            "publishTimestamp": 1794380828,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/godv61/dsh-task-engine",
+              "commit": "c1152528e38e70624e8409a778d3e6936e028175"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@godv61/dsh-task-engine",
+      "origin": "npm",
+      "name": "@godv61/dsh-task-engine",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@godv61/dsh-task-engine",
+        "title": "@godv61/dsh-task-engine",
+        "description": "Task-scoped engineering workflows for DeepSeek Harness: four complexity grades, optional project Skill initialization, verified tests, and review-time SonarQube checks.",
+        "homepage": "https://github.com/godv61/dsh-task-engine#readme",
+        "repository": {
+          "url": "https://github.com/godv61/dsh-task-engine"
+        },
+        "versions": [
+          {
+            "version": "0.41.0",
+            "publishTimestamp": 1794382839,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-rc.1"
+            }
+          },
+          {
+            "version": "0.34.1",
+            "publishTimestamp": 1792983309,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "43ce6977ac3e0a4e16d2560599e0e9cfe430d308b82969aacf25686f29c4fee1",
+      "evidence": [
+        {
+          "name": "@godv61/dsh-task-engine",
+          "version": "0.41.0",
+          "tarball": "https://registry.npmjs.org/@godv61/dsh-task-engine/-/dsh-task-engine-0.41.0.tgz",
+          "integrity": "sha512-ty/nZGSezhYUnQUBuFOw9idHpmDn42fBZ2PVy0C558+jGj1IVTSfR4i/0MOSPfRUgbNHAKp38zmP2WLrSFFiXg=="
+        },
+        {
+          "name": "@godv61/dsh-task-engine",
+          "version": "0.34.1",
+          "tarball": "https://registry.npmjs.org/@godv61/dsh-task-engine/-/dsh-task-engine-0.34.1.tgz",
+          "integrity": "sha512-V1rJnJ66EPSxm8kB/ZeoqT3lLOB/c9TaZbUi/m9DD70fPLbqa1/24f4GzTuuoKGELU1nQYTAKZ4slxzhDX6r/w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@godv61/dsh-task-engine",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/godv61/dsh-task-engine",
+    "commit": "c1152528e38e70624e8409a778d3e6936e028175",
+    "releaseTags": 30,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:32.987Z"
+}

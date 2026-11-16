@@ -1,0 +1,66 @@
+{
+  "full_name": "Something11235/dsh-posterflow-ai",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 23,
+  "startedAt": "2026-11-16T05:21:12.976Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5e863834ff1d0f221ff676547bc50dc1b6715ec178ee4014d7cba401717894b9",
+      "url": "https://github.com/Something11235/dsh-posterflow-ai/blob/561ac833ee705b755d6b43528723efb0613bbd99/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-posterflow-ai",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Something11235/dsh-posterflow-ai",
+        "commit": "561ac833ee705b755d6b43528723efb0613bbd99"
+      },
+      "manifestSha256": "e336482b3938b14983027e57a542263c6931c313bf237c0ea8aa76db20de8e0a",
+      "manifestUrl": "https://github.com/Something11235/dsh-posterflow-ai/blob/561ac833ee705b755d6b43528723efb0613bbd99/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-posterflow-ai",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1793167959,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Something11235/dsh-posterflow-ai",
+              "commit": "561ac833ee705b755d6b43528723efb0613bbd99"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Something11235/dsh-posterflow-ai",
+    "commit": "561ac833ee705b755d6b43528723efb0613bbd99",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:21:19.741Z"
+}

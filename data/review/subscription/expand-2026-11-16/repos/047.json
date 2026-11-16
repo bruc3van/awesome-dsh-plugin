@@ -1,0 +1,40 @@
+{
+  "full_name": "SepineTam/cnki-mcp",
+  "originalPosition": 47,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 47,
+  "batch": 1,
+  "stargazers_count": 67,
+  "startedAt": "2026-11-16T05:18:40.868Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "33203e5dae1c853d10b4e33a9b563ce1a3e1c933e6b64ba6519001615b5a1afd",
+      "url": "https://github.com/SepineTam/cnki-mcp/blob/637f6ebff76cb7477647dd8e53cc6879ec597e6f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SepineTam/cnki-mcp",
+    "commit": "637f6ebff76cb7477647dd8e53cc6879ec597e6f",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:18:46.887Z"
+}

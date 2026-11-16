@@ -1,0 +1,159 @@
+{
+  "full_name": "tomowang/dsh-tui",
+  "originalPosition": 134,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 134,
+  "batch": 1,
+  "stargazers_count": 23,
+  "startedAt": "2026-11-16T05:21:22.946Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "16969f9223ee35a0e36c1843d0692452c8b6197c17796f75c19f8a476093b5c4",
+      "url": "https://github.com/tomowang/dsh-tui/blob/ec8d8a98c080f6b014d647ff3aab2126b2ed8009/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@tomowang/dsh-tui",
+          "command": "dsh plugin --profile tui add @tomowang/dsh-tui",
+          "profile": "tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@tomowang/dsh-tui",
+      "version": "0.10.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tomowang/dsh-tui",
+        "commit": "ec8d8a98c080f6b014d647ff3aab2126b2ed8009"
+      },
+      "manifestSha256": "470ff3ee197cda038868867dbae5a767bf9fcff3b4da60df61c8bde20fae5ace",
+      "manifestUrl": "https://github.com/tomowang/dsh-tui/blob/ec8d8a98c080f6b014d647ff3aab2126b2ed8009/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3 <0.3.0-0 0.2.1-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@tomowang/dsh-tui",
+        "versions": [
+          {
+            "version": "0.10.2",
+            "publishTimestamp": 1792892742,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tomowang/dsh-tui",
+              "commit": "ec8d8a98c080f6b014d647ff3aab2126b2ed8009"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.3.0-0 0.2.1-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@tomowang/dsh-tui",
+      "origin": "npm",
+      "name": "@tomowang/dsh-tui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@tomowang/dsh-tui",
+        "title": "@tomowang/dsh-tui",
+        "description": "Terminal front door for DeepSeek Harness (dsh): an out-of-tree TUI mode bundle over dsh-base",
+        "repository": {
+          "url": "https://github.com/tomowang/dsh-tui"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "tui",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.10.2",
+            "publishTimestamp": 1792892864,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.3.0-0 0.2.1-rc.3"
+            }
+          },
+          {
+            "version": "0.10.1",
+            "publishTimestamp": 1792681285,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0 0.2.1-rc.2"
+            }
+          },
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1786811890,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "45821145e499dcb9e374736ebcdabf985f7187237e19917ddbdec8f994639f9e",
+      "evidence": [
+        {
+          "name": "@tomowang/dsh-tui",
+          "version": "0.10.2",
+          "tarball": "https://registry.npmjs.org/@tomowang/dsh-tui/-/dsh-tui-0.10.2.tgz",
+          "integrity": "sha512-4kBdWzTqVmDozjecHZAbZWED2f9EUuGxAW22oehytANlxltpPZNsHKMoxHB54ypCononZRgGcT6I0Z4+c1y9hw=="
+        },
+        {
+          "name": "@tomowang/dsh-tui",
+          "version": "0.10.1",
+          "tarball": "https://registry.npmjs.org/@tomowang/dsh-tui/-/dsh-tui-0.10.1.tgz",
+          "integrity": "sha512-SixDFdY5dVo0MnKBqnpHoPQhGYLsVsM0a5nczSDw3T/iQwcVRkqPbtgFWwPr+iw4XveSVj9ne7GqQ2GWshOlHg=="
+        },
+        {
+          "name": "@tomowang/dsh-tui",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/@tomowang/dsh-tui/-/dsh-tui-0.2.0.tgz",
+          "integrity": "sha512-f9Dy6JDWW00DtPk+JStVA+cSpB4gOi9euFjpASsbaed5jiL+wipBN9G9wb74swnGrxnDbydI6RUUDzxV8ljzGw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@tomowang/dsh-tui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tomowang/dsh-tui",
+    "commit": "ec8d8a98c080f6b014d647ff3aab2126b2ed8009",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:21:33.991Z"
+}

@@ -1,0 +1,139 @@
+{
+  "full_name": "canyueY/dsh-mnemosyne",
+  "originalPosition": 174,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 174,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-11-16T05:22:54.860Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "886ef29ad4c1447546068ca6d7a9bdb34e45803d5714a8fb5f28ee1870d904fc",
+      "url": "https://github.com/canyueY/dsh-mnemosyne/blob/a0478d09db592fe75154c32c25f90c71e758fb84/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/canyueY/dsh-mnemosyne#main",
+          "command": "dsh plugin --profile web add github:canyueY/dsh-mnemosyne#main",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "standalone/README.md",
+      "sha256": "346394c46568744ae5e67801f5c628add4cc4af12b6b9c92b242e65a82c0368b",
+      "url": "https://github.com/canyueY/dsh-mnemosyne/blob/a0478d09db592fe75154c32c25f90c71e758fb84/standalone/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mnemosyne",
+      "version": "2.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/canyueY/dsh-mnemosyne",
+        "commit": "a0478d09db592fe75154c32c25f90c71e758fb84"
+      },
+      "manifestSha256": "110749691411a876aa9737b64b868dd8d5bf41c187f5e46bbd8c483278437637",
+      "manifestUrl": "https://github.com/canyueY/dsh-mnemosyne/blob/a0478d09db592fe75154c32c25f90c71e758fb84/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-mnemosyne",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1794324969,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/canyueY/dsh-mnemosyne",
+              "commit": "a0478d09db592fe75154c32c25f90c71e758fb84"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/canyueY/dsh-mnemosyne#main",
+      "origin": "git_target",
+      "name": "dsh-mnemosyne",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mnemosyne",
+        "title": "dsh-mnemosyne",
+        "description": "Mnemosyne 2.0：个人认知基础设施；DSH 插件适配层 + 独立 Python Node / Memory Bank",
+        "author": "canyueY",
+        "homepage": "https://github.com/canyueY/dsh-mnemosyne#readme",
+        "repository": {
+          "url": "https://github.com/canyueY/dsh-mnemosyne"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "memory",
+            "mnemosyne"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1794324969,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/canyueY/dsh-mnemosyne",
+              "commit": "a0478d09db592fe75154c32c25f90c71e758fb84"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "a0478d09db592fe75154c32c25f90c71e758fb84",
+          "name": "dsh-mnemosyne",
+          "version": "2.0.0",
+          "url": "https://github.com/canyueY/dsh-mnemosyne",
+          "manifestSha256": "110749691411a876aa9737b64b868dd8d5bf41c187f5e46bbd8c483278437637",
+          "publishTimestamp": 1794324969
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/canyueY/dsh-mnemosyne#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/canyueY/dsh-mnemosyne",
+    "commit": "a0478d09db592fe75154c32c25f90c71e758fb84",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:10.556Z"
+}

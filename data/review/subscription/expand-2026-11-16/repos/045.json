@@ -1,0 +1,42 @@
+{
+  "full_name": "morluto/smokinggun",
+  "originalPosition": 45,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 45,
+  "batch": 1,
+  "stargazers_count": 71,
+  "startedAt": "2026-11-16T05:18:39.765Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4933ca352c0ddd8b733ee8bb62ece661d3ed021f8588be9d170da553ab4ffcec",
+      "url": "https://github.com/morluto/smokinggun/blob/cf3a3872a2638a68d2d123126f98dfa84c85643d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/morluto/smokinggun",
+    "commit": "cf3a3872a2638a68d2d123126f98dfa84c85643d",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "smokinggun",
+    "version": "5.0.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=22.18"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:18:48.504Z"
+}

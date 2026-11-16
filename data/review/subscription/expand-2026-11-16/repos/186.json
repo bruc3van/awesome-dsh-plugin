@@ -1,0 +1,131 @@
+{
+  "full_name": "PeterTXPan/dsh-unreal-mcp",
+  "originalPosition": 186,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 186,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T05:23:17.089Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c6a964cdd56fbaa2ddde29235081262f0eaab830b4765e18d6bf0658199956bd",
+      "url": "https://github.com/PeterTXPan/dsh-unreal-mcp/blob/607acf199d87239b439481829facc2cc4d46235f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-unreal-mcp",
+          "command": "dsh plugin --profile web add dsh-unreal-mcp",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-unreal-mcp",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PeterTXPan/dsh-unreal-mcp",
+        "commit": "607acf199d87239b439481829facc2cc4d46235f"
+      },
+      "manifestSha256": "2ed3bd49ee78fc3b8ae61574df8ef22aa7e3bfae94ada676664941d6b5bffc48",
+      "manifestUrl": "https://github.com/PeterTXPan/dsh-unreal-mcp/blob/607acf199d87239b439481829facc2cc4d46235f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-unreal-mcp",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788069776,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PeterTXPan/dsh-unreal-mcp",
+              "commit": "607acf199d87239b439481829facc2cc4d46235f"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-unreal-mcp",
+      "origin": "npm",
+      "name": "dsh-unreal-mcp",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-unreal-mcp",
+        "title": "dsh-unreal-mcp",
+        "description": "Unofficial DeepSeek Harness integration for Unreal Engine 5.8 Unreal MCP",
+        "author": "PeterTXPan and contributors",
+        "homepage": "https://github.com/PeterTXPan/dsh-unreal-mcp#readme",
+        "repository": {
+          "url": "https://github.com/PeterTXPan/dsh-unreal-mcp"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "unreal-engine",
+            "ue5",
+            "mcp"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788145355,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b7e2e04d9c00ae742cf8b10c37e6047a530b50a799b76df4d2256b3636ddc536",
+      "evidence": [
+        {
+          "name": "dsh-unreal-mcp",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-unreal-mcp/-/dsh-unreal-mcp-0.1.0.tgz",
+          "integrity": "sha512-u/hKWM4LHDczQZvkbEIjd9rGCecFq/OgBEcprkNwlkrccrMFMvJgCftND8p10pNBWwd2VdWke/w3V6kwwhkZ0g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-unreal-mcp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PeterTXPan/dsh-unreal-mcp",
+    "commit": "607acf199d87239b439481829facc2cc4d46235f",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:24.709Z"
+}

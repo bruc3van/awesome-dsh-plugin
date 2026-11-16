@@ -1,0 +1,155 @@
+{
+  "full_name": "isheng-eqi/dsh-hermes-memory",
+  "originalPosition": 177,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 177,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-11-16T05:23:01.978Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3c1b3f481de75d305669e63d4166799320d4e767d1ab36b8732001fb5bf1d5eb",
+      "url": "https://github.com/isheng-eqi/dsh-hermes-memory/blob/5c3669d27e742502785104dca8a581bfb4085bca/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-hermes-memory",
+          "command": "dsh plugin --profile web add dsh-hermes-memory",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e15f65902057497488bf33b5c8d7a1de2a3716d13ea7666db9ae0f09ff4a5bcd",
+      "url": "https://github.com/isheng-eqi/dsh-hermes-memory/blob/5c3669d27e742502785104dca8a581bfb4085bca/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-hermes-memory",
+          "command": "dsh plugin --profile web add dsh-hermes-memory",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-hermes-memory",
+      "version": "2.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/isheng-eqi/dsh-hermes-memory",
+        "commit": "5c3669d27e742502785104dca8a581bfb4085bca"
+      },
+      "manifestSha256": "5c80d402f38901bda3342ac0005fa56a808de7675b1609e21ffc6877aaf37f90",
+      "manifestUrl": "https://github.com/isheng-eqi/dsh-hermes-memory/blob/5c3669d27e742502785104dca8a581bfb4085bca/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-hermes-memory",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1794751763,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/isheng-eqi/dsh-hermes-memory",
+              "commit": "5c3669d27e742502785104dca8a581bfb4085bca"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-hermes-memory",
+      "origin": "npm",
+      "name": "dsh-hermes-memory",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-hermes-memory",
+        "title": {
+          "en": "Hermes memory",
+          "zh": "Hermes 记忆"
+        },
+        "description": {
+          "en": "Persistent memory and user profile with periodic background review, bounded banks, and reviewed changes.",
+          "zh": "持久保存环境与用户记忆，定期后台复盘，限制容量，并审核旧记忆的修改。"
+        },
+        "author": "isheng-eqi",
+        "homepage": "https://github.com/isheng-eqi/dsh-hermes-memory#readme",
+        "repository": {
+          "url": "https://github.com/isheng-eqi/dsh-hermes-memory"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "memory",
+            "agent-memory",
+            "long-term-memory",
+            "hermes-agent",
+            "cordis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJIZXJtZXMgbWVtb3J5Ij48cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iNTgiIGhlaWdodD0iNTgiIHJ4PSIxNSIgZmlsbD0iIzIwMjMyOSIvPjxwYXRoIGQ9Ik0xNiAxOGgxMWExMCAxMCAwIDAgMSAxMCAxMHYxOUgyNmExMCAxMCAwIDAgMS0xMC0xMHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2YxZWVlNSIgc3Ryb2tlLXdpZHRoPSIzIi8+PHBhdGggZD0iTTQ4IDE4SDM3YTEwIDEwIDAgMCAwLTEwIDEwdjE5aDExYTEwIDEwIDAgMCAwIDEwLTEweiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZDJhZDcyIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMzIgMTd2MzEiIHN0cm9rZT0iI2YxZWVlNSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1794402601,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0af61ff4fdc130755f18beacf8d73f9ca2c38d34c9e74032b696cb116096cd02",
+      "evidence": [
+        {
+          "name": "dsh-hermes-memory",
+          "version": "2.0.0",
+          "tarball": "https://registry.npmjs.org/dsh-hermes-memory/-/dsh-hermes-memory-2.0.0.tgz",
+          "integrity": "sha512-kobWZRSXFlURvn5J2JrnybJe7ohWDnnCyu+Lb9GHLAlO4GLOR8ti+fs9yq2Sf07Y7OdGtAxO06VEyrdXC6cSpQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-hermes-memory",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/isheng-eqi/dsh-hermes-memory",
+    "commit": "5c3669d27e742502785104dca8a581bfb4085bca",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:11.507Z"
+}

@@ -1,0 +1,81 @@
+{
+  "full_name": "liangdabiao/dsh-resume-matcher",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T05:22:20.892Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c24ff2f2c5e533b94f78635c65c41b1324f75dacda3f3d2d9bbe3179d312887f",
+      "url": "https://github.com/liangdabiao/dsh-resume-matcher/blob/0ac6691383f4fdfaa75e9ee0548dabc2086eb0ca/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/liangdabiao/dsh-resume-matcher",
+          "command": "dsh plugin --profile web add https://github.com/liangdabiao/dsh-resume-matcher",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-resume-matcher",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liangdabiao/dsh-resume-matcher",
+        "commit": "0ac6691383f4fdfaa75e9ee0548dabc2086eb0ca"
+      },
+      "manifestSha256": "0f53c0420369504dc3710dfeb3e64485e4f01b982efba68b062a67466e086c8a",
+      "manifestUrl": "https://github.com/liangdabiao/dsh-resume-matcher/blob/0ac6691383f4fdfaa75e9ee0548dabc2086eb0ca/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-resume-matcher",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794794491,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liangdabiao/dsh-resume-matcher",
+              "commit": "0ac6691383f4fdfaa75e9ee0548dabc2086eb0ca"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/liangdabiao/dsh-resume-matcher",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liangdabiao/dsh-resume-matcher",
+    "commit": "0ac6691383f4fdfaa75e9ee0548dabc2086eb0ca",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:28.143Z"
+}

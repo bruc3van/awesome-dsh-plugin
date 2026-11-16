@@ -1,0 +1,66 @@
+{
+  "full_name": "liangzz1998/dsh-doubao-painter",
+  "originalPosition": 193,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 193,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T05:23:28.279Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e7c99422a834697ecaa1e288fffc3a3c0f6dab9becf912a621333259fffbc829",
+      "url": "https://github.com/liangzz1998/dsh-doubao-painter/blob/084670254bdf3f3213e683659600ecfa82d0e163/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-doubao-painter",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liangzz1998/dsh-doubao-painter",
+        "commit": "084670254bdf3f3213e683659600ecfa82d0e163"
+      },
+      "manifestSha256": "8cf18d4290991e6a714edff287c68309abdbe15ba72fb83f55689542b35ef818",
+      "manifestUrl": "https://github.com/liangzz1998/dsh-doubao-painter/blob/084670254bdf3f3213e683659600ecfa82d0e163/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-doubao-painter",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1793448290,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liangzz1998/dsh-doubao-painter",
+              "commit": "084670254bdf3f3213e683659600ecfa82d0e163"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liangzz1998/dsh-doubao-painter",
+    "commit": "084670254bdf3f3213e683659600ecfa82d0e163",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:35.457Z"
+}

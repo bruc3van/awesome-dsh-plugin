@@ -1,0 +1,77 @@
+{
+  "full_name": "panqing0313/dsh-plugin-weixin",
+  "originalPosition": 166,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 166,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-11-16T05:22:41.258Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "40514f18ba4b75c999cc1c8eb897a16981404f8de6293467fda2f819600bd584",
+      "url": "https://github.com/panqing0313/dsh-plugin-weixin/blob/eecb64081dd4a19d2908d8bce55bee1d11e01b81/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "a743a8fe5baf809bdbcd7dfcf2b6026897da5f5f665540c46d398e876bbf33cb",
+      "url": "https://github.com/panqing0313/dsh-plugin-weixin/blob/eecb64081dd4a19d2908d8bce55bee1d11e01b81/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-weixin",
+      "version": "1.5.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/panqing0313/dsh-plugin-weixin",
+        "commit": "eecb64081dd4a19d2908d8bce55bee1d11e01b81"
+      },
+      "manifestSha256": "4ef8fbd4af80bc277c5cbe44c63a927291e6e19cab4c18cfe7a16a83ba08d4be",
+      "manifestUrl": "https://github.com/panqing0313/dsh-plugin-weixin/blob/eecb64081dd4a19d2908d8bce55bee1d11e01b81/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-weixin",
+        "versions": [
+          {
+            "version": "1.5.12",
+            "publishTimestamp": 1793848160,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/panqing0313/dsh-plugin-weixin",
+              "commit": "eecb64081dd4a19d2908d8bce55bee1d11e01b81"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/panqing0313/dsh-plugin-weixin",
+    "commit": "eecb64081dd4a19d2908d8bce55bee1d11e01b81",
+    "releaseTags": 57,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:50.420Z"
+}

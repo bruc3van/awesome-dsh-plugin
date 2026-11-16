@@ -1,0 +1,143 @@
+{
+  "full_name": "liujiangnanchenjbguo/dsh-gufa-code",
+  "originalPosition": 76,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 76,
+  "batch": 1,
+  "stargazers_count": 43,
+  "startedAt": "2026-11-16T05:19:35.272Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4d6c671523ba308ba2d86d465bc49a4f5252624a408a5d7897c9c6081238da30",
+      "url": "https://github.com/liujiangnanchenjbguo/dsh-gufa-code/blob/86f6f2734ea1aa6f933309b0be10dc759a931cb2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-gufa-code",
+          "command": "dsh plugin add dsh-gufa-code",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-gufa-code",
+      "version": "1.3.201",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liujiangnanchenjbguo/dsh-gufa-code",
+        "commit": "86f6f2734ea1aa6f933309b0be10dc759a931cb2"
+      },
+      "manifestSha256": "ba0a8a3788696c38b6000b169dab82b4c5941e2ed6178e706d980196ab025db1",
+      "manifestUrl": "https://github.com/liujiangnanchenjbguo/dsh-gufa-code/blob/86f6f2734ea1aa6f933309b0be10dc759a931cb2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-gufa-code",
+        "versions": [
+          {
+            "version": "1.3.201",
+            "publishTimestamp": 1794575237,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liujiangnanchenjbguo/dsh-gufa-code",
+              "commit": "86f6f2734ea1aa6f933309b0be10dc759a931cb2"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-gufa-code",
+      "origin": "npm",
+      "name": "dsh-gufa-code",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-gufa-code",
+        "title": {
+          "en": "Gufa Code · AI Copilot",
+          "zh": "古法编程 · AI 辅助"
+        },
+        "description": {
+          "en": "One-click VS Code-style IDE inside DSH: Monaco editor, file tree, create/choose workspaces, Git, SSH, real terminal, and an AI chat panel that assists hand-written code.",
+          "zh": "一键进入 VS Code 风格 IDE：Monaco 编辑器、文件树、新建/选择工作区、Git、SSH、真实终端，右侧 AI 聊天辅助手写代码。"
+        },
+        "author": "Jeff nan",
+        "homepage": "https://github.com/liujiangnanchenjbguo/dsh-gufa-code#readme",
+        "repository": {
+          "url": "https://github.com/liujiangnanchenjbguo/dsh-gufa-code"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "plugin",
+            "ide",
+            "vscode",
+            "monaco",
+            "cursor",
+            "ai",
+            "terminal",
+            "git"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IuWPpOazlee8lueoiyBHdWZhIENvZGUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJndWZhU2VhbCIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNkMDU3M2YiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjU1IiBzdG9wLWNvbG9yPSIjYjMzYTJjIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzhjMjExYiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iNiIgeT0iNiIgd2lkdGg9IjExNiIgaGVpZ2h0PSIxMTYiIHJ4PSIyOCIgZmlsbD0idXJsKCNndWZhU2VhbCkiLz4KICA8cmVjdCB4PSIxNSIgeT0iMTUiIHdpZHRoPSI5OCIgaGVpZ2h0PSI5OCIgcng9IjIxIiBmaWxsPSJub25lIiBzdHJva2U9IiNmN2U5ZDgiIHN0cm9rZS1vcGFjaXR5PSIwLjc4IiBzdHJva2Utd2lkdGg9IjMuNSIvPgogIDxnIGZpbGw9IiNmYmVlZTAiPgogICAgPHJlY3QgeD0iMzIiIHk9IjMyIiB3aWR0aD0iNjQiIGhlaWdodD0iOS41IiByeD0iMi41Ii8+CiAgICA8cmVjdCB4PSI1OC41IiB5PSIzMiIgd2lkdGg9IjExIiBoZWlnaHQ9IjMwIiByeD0iMiIvPgogICAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNDAgNjIgaDQ4IGE0IDQgMCAwIDEgNCA0IHYyNyBhNCA0IDAgMCAxIC00IDQgaC00OCBhNCA0IDAgMCAxIC00IC00IHYtMjcgYTQgNCAwIDAgMSA0IC00IHogbTggMTAgaDMyIHYxOSBoLTMyIHoiLz4KICA8L2c+CiAgPHBhdGggZD0iTTI3IDEwMSBsLTcgLTYgNyAtNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjdlOWQ4IiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBvcGFjaXR5PSIwLjgiLz4KICA8cGF0aCBkPSJNMTAxIDEwMSBsNyAtNiAtNyAtNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjdlOWQ4IiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBvcGFjaXR5PSIwLjgiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "1.3.201",
+            "publishTimestamp": 1794575514,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5882a669839d247337de42f5841326d5b891d0a6f8559b12743062d5462246c6",
+      "evidence": [
+        {
+          "name": "dsh-gufa-code",
+          "version": "1.3.201",
+          "tarball": "https://registry.npmjs.org/dsh-gufa-code/-/dsh-gufa-code-1.3.201.tgz",
+          "integrity": "sha512-LzzcEx4GrhCOl3/l1rk2o8zPxEoIo6Ji/71qWnPEZWWt4KlBUU0KL6dsfRXyQ+FXRoYadxk8blqEMUbpPIaPEw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-gufa-code",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liujiangnanchenjbguo/dsh-gufa-code",
+    "commit": "86f6f2734ea1aa6f933309b0be10dc759a931cb2",
+    "releaseTags": 74,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:19:52.484Z"
+}

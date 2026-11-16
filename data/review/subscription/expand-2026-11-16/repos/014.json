@@ -1,0 +1,145 @@
+{
+  "full_name": "Yuuyuko-uu/dsh-speak-up",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "stargazers_count": 234,
+  "startedAt": "2026-11-16T05:17:34.338Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f65275e28b514e21e9ea8aac0c293cea05891ae51967236fe1cbefb3f46e27e6",
+      "url": "https://github.com/Yuuyuko-uu/dsh-speak-up/blob/9c9e23c14c94d889a610250cab00da1bc49de1d3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-speak-up",
+          "command": "dsh plugin --profile desktop add dsh-speak-up",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://codeload.github.com/Yuuyuko-uu/dsh-speak-up/tar.gz/refs/heads/main",
+          "command": "dsh plugin --profile desktop add https://codeload.github.com/Yuuyuko-uu/dsh-speak-up/tar.gz/refs/heads/main",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-speak-up",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yuuyuko-uu/dsh-speak-up",
+        "commit": "9c9e23c14c94d889a610250cab00da1bc49de1d3"
+      },
+      "manifestSha256": "b32f251110c4a094dafc113b76f7ed6a700cda705aec02a6bfb873e8eff198ce",
+      "manifestUrl": "https://github.com/Yuuyuko-uu/dsh-speak-up/blob/9c9e23c14c94d889a610250cab00da1bc49de1d3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-speak-up",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1794640082,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yuuyuko-uu/dsh-speak-up",
+              "commit": "9c9e23c14c94d889a610250cab00da1bc49de1d3"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-speak-up",
+      "origin": "npm",
+      "name": "dsh-speak-up",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-speak-up",
+        "title": "dsh-speak-up",
+        "description": "主动搭话（dsh-speak-up）：DSH 插件。没人在跟她说话的时候，她也会自己起个话头 —— 按你设的间隔掷一次本地骰子（不花模型），掷中了就走 DSH 自己的一轮（人格、历史、工具、记忆全都是她自己的）。",
+        "repository": {
+          "url": "https://github.com/Yuuyuko-uu/dsh-speak-up"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "initiative",
+            "proactive",
+            "ai-companion"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1794548211,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "95f80a40bf0638194bcdaa294b0367442b080903bf6787473e59c4fd85c7b01b",
+      "evidence": [
+        {
+          "name": "dsh-speak-up",
+          "version": "0.3.2",
+          "tarball": "https://registry.npmjs.org/dsh-speak-up/-/dsh-speak-up-0.3.2.tgz",
+          "integrity": "sha512-YTPpE+zbbyYCizrlJpLK9Ei2LrLJ1RMT4mhEYVDWbzrDDcVXWxuvucUCgVtjf48pYJtf9vSVpdTnhD+fVJ3d6w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "https://codeload.github.com/Yuuyuko-uu/dsh-speak-up/tar.gz/refs/heads/main",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "GitHub codeload 是归档下载地址，不是 Git 仓库；format-1 需要 npm 包或经核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-speak-up",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://codeload.github.com/Yuuyuko-uu/dsh-speak-up/tar.gz/refs/heads/main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yuuyuko-uu/dsh-speak-up",
+    "commit": "9c9e23c14c94d889a610250cab00da1bc49de1d3",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:17:44.198Z"
+}

@@ -1,0 +1,182 @@
+{
+  "full_name": "l246804/dsh-pstack",
+  "originalPosition": 131,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 131,
+  "batch": 1,
+  "stargazers_count": 23,
+  "startedAt": "2026-11-16T05:21:18.310Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f9853816fb0a171c01027bebd0bbd90042384d204f255afa5a11f092f9ea48c8",
+      "url": "https://github.com/l246804/dsh-pstack/blob/df33da1bb4942fbd2761c305edb3785093ec1055/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-pstack",
+          "command": "dsh plugin --profile web add dsh-pstack",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e04ede3c716f4d20f1ce972d82bae0159cd2a2c5d07058c0de519a19f81fd880",
+      "url": "https://github.com/l246804/dsh-pstack/blob/df33da1bb4942fbd2761c305edb3785093ec1055/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-pstack",
+          "command": "dsh plugin --profile web add dsh-pstack",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pstack",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/l246804/dsh-pstack",
+        "commit": "df33da1bb4942fbd2761c305edb3785093ec1055"
+      },
+      "manifestSha256": "ca56494a1b635714cde757ad58e5661d508f2befc5aaa67db83f96fa8c1b7e06",
+      "manifestUrl": "https://github.com/l246804/dsh-pstack/blob/df33da1bb4942fbd2761c305edb3785093ec1055/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-pstack",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1794730140,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/l246804/dsh-pstack",
+              "commit": "df33da1bb4942fbd2761c305edb3785093ec1055"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-pstack",
+      "origin": "npm",
+      "name": "dsh-pstack",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-pstack",
+        "title": {
+          "en": "pstack",
+          "zh": "pstack 工作流"
+        },
+        "description": {
+          "en": "Rigorous agent workflows for DeepSeek Harness, ported from Cursor pstack.",
+          "zh": "把 pstack 的严格代理工作流带进 DeepSeek Harness。"
+        },
+        "author": "leiwang",
+        "homepage": "https://github.com/l246804/dsh-pstack#readme",
+        "repository": {
+          "url": "https://github.com/l246804/dsh-pstack"
+        },
+        "metadata": {
+          "keywords": [
+            "agent-skills",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "poteto-mode",
+            "pstack",
+            "workflow"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1794730373,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          },
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792722075,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "58f073f67b3739c07abf1e3b6b62d55deca91113856e02710b114900dff40c34",
+      "evidence": [
+        {
+          "name": "dsh-pstack",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-pstack/-/dsh-pstack-0.4.1.tgz",
+          "integrity": "sha512-ZTeO9cetV4dZS0TsAC0d01QWkl9EQdkFHsmpxBWtnWKMkB01vnVSfjmLxURp0ahSIV2TEB5Tcgis28MCOlOvwA=="
+        },
+        {
+          "name": "dsh-pstack",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-pstack/-/dsh-pstack-0.1.0.tgz",
+          "integrity": "sha512-GJe/Y+cG6f/rdL96QNA66l+8S3t4uEVlK8ouEgHV5dKyJmP/YT9HTObR0u7iBOVHaNsX2UYSnWWOo9zlPY3qWQ=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-pstack",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "bca3499b513a9a403dc799cd31232abbcf155cbd21372406c41e831c631e58cc",
+          "outputSha256": "81306f9b8b68a47ce6b1ed2524dae6904f5f49e2dc23fe1071ae69d074b1fe00",
+          "inputBytes": 144346,
+          "outputBytes": 2956
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-pstack",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/l246804/dsh-pstack",
+    "commit": "df33da1bb4942fbd2761c305edb3785093ec1055",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:21:35.198Z"
+}

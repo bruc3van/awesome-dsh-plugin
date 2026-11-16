@@ -1,0 +1,206 @@
+{
+  "full_name": "MJ-CJM/DSH-Bot",
+  "originalPosition": 60,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 60,
+  "batch": 1,
+  "stargazers_count": 49,
+  "startedAt": "2026-11-16T05:19:04.237Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d22fbd4ab040a774645e7edaeadcbd3a467f268064588c7a809fb512e3a8c39f",
+      "url": "https://github.com/MJ-CJM/DSH-Bot/blob/b691b8e8e4b0cf72e81ffedd8df93d099a8ea4f7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MJ-CJM/DSH-Bot/releases/latest/download/dsh-bot.tgz",
+          "command": "dsh plugin --profile web add \"https://github.com/MJ-CJM/DSH-Bot/releases/latest/download/dsh-bot.tgz\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-botgroup@0.6.7",
+          "command": "dsh plugin --profile web add dsh-botgroup@0.6.7",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "a30f53f398b7e0d48866f80872f8bbaa1ae78e0c555bf78c4caf14c45d5559ce",
+      "url": "https://github.com/MJ-CJM/DSH-Bot/blob/b691b8e8e4b0cf72e81ffedd8df93d099a8ea4f7/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MJ-CJM/DSH-Bot/releases/latest/download/dsh-bot.tgz",
+          "command": "dsh plugin --profile web add \"https://github.com/MJ-CJM/DSH-Bot/releases/latest/download/dsh-bot.tgz\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-botgroup@0.6.7",
+          "command": "dsh plugin --profile web add dsh-botgroup@0.6.7",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-botgroup",
+      "version": "0.6.7",
+      "path": "packages/dsh-bot",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MJ-CJM/DSH-Bot",
+        "commit": "b691b8e8e4b0cf72e81ffedd8df93d099a8ea4f7",
+        "path": "packages/dsh-bot"
+      },
+      "manifestSha256": "ad6473fc718f7fbf7ad3242830c343a23ead2b15a0d878659906b4a934bb8238",
+      "manifestUrl": "https://github.com/MJ-CJM/DSH-Bot/blob/b691b8e8e4b0cf72e81ffedd8df93d099a8ea4f7/packages/dsh-bot/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-botgroup",
+        "versions": [
+          {
+            "version": "0.6.7",
+            "publishTimestamp": 1794538097,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MJ-CJM/DSH-Bot",
+              "commit": "b691b8e8e4b0cf72e81ffedd8df93d099a8ea4f7",
+              "path": "packages/dsh-bot"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bot-p1-spike",
+      "version": "0.0.1",
+      "path": "spikes/p1-api",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MJ-CJM/DSH-Bot",
+        "commit": "b691b8e8e4b0cf72e81ffedd8df93d099a8ea4f7",
+        "path": "spikes/p1-api"
+      },
+      "manifestSha256": "d77248f29fc34a5d2df6feb048ad3a91dddca45939e285dfb04f1523d7ad58ad",
+      "manifestUrl": "https://github.com/MJ-CJM/DSH-Bot/blob/b691b8e8e4b0cf72e81ffedd8df93d099a8ea4f7/spikes/p1-api/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bot-p34-probes",
+      "version": "0.0.0",
+      "path": "spikes/p34",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MJ-CJM/DSH-Bot",
+        "commit": "b691b8e8e4b0cf72e81ffedd8df93d099a8ea4f7",
+        "path": "spikes/p34"
+      },
+      "manifestSha256": "cb45f5419a26b38690ae45bbb3329a1d0dc5e98d05e3ac28cb185796ec3b25fe",
+      "manifestUrl": "https://github.com/MJ-CJM/DSH-Bot/blob/b691b8e8e4b0cf72e81ffedd8df93d099a8ea4f7/spikes/p34/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "target": "https://github.com/MJ-CJM/DSH-Bot/releases/latest/download/dsh-bot.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "dsh-botgroup@0.6.7",
+      "origin": "npm",
+      "name": "dsh-botgroup",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-botgroup",
+        "title": {
+          "en": "DSH-Bot Personal Agents",
+          "zh": "DSH-Bot 个人智能体"
+        },
+        "description": {
+          "en": "Your personal agent workspace for DeepSeek Harness. Create multiple personal agents, each with its own persona, long-term memory, tools and skills, working alongside you over time.",
+          "zh": "你的 Personal Agent 工作台。在 DeepSeek Harness 里创建多个专属个人智能体，各自拥有人设、长期记忆、工具与技能，长期陪你处理工作与生活。"
+        },
+        "homepage": "https://github.com/MJ-CJM/DSH-Bot",
+        "repository": {
+          "url": "https://github.com/MJ-CJM/DSH-Bot",
+          "directory": "packages/dsh-bot"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "personal-agents",
+            "bots",
+            "mcp"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogIDx0aXRsZT5EU0gtQm90PC90aXRsZT4KICA8cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjI1IiBmaWxsPSIjMEIxNzM5Ii8+CiAgPGcgZmlsbD0iI0ZGRkZGRiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNSA4KSBzY2FsZSguOSkiPgogICAgPHBhdGggZGF0YS1ib3QtYnJhbmQtcGFydD0iZ2xhc3NlcyIgZD0iTTEyIDUwQzQgNDMgMyAzNCA1IDI1QzcgMTUgMTUgMTAgMjQgMTBDMzIgMTAgMzcgMTMgNDEgMTdDNDMgMTggNDQgMTcgNDQgMTRDNDIgMTIgNDEgMTAgNDEgOEM0NCA5IDQ3IDExIDQ4IDEzQzUxIDEwIDU0IDkgNTYgOUM1NyAxNCA1MyAxOCA0OSAxOEM0OSAyMiA0OCAyNSA0NiAyOEMzMSAyNyAyMCAzNCAxMiA1MFogTTExIDIwTDIwIDE4UTIzIDE3LjUgMjMuNSAyMC41TDIzLjcgMjJMMjUuNyAyMS42TDI1LjUgMjBRMjUgMTcgMjggMTYuNUwzNSAxNVEzOCAxNC41IDM4LjUgMTcuNUwzOS42IDI0LjVRNDAuMSAyNy41IDM3LjEgMjhMMzAgMjkuNVEyNyAzMC4xIDI2LjUgMjcuMUwyNi4zIDI1LjRMMjQuMyAyNS44TDI0LjUgMjcuNVEyNSAzMC41IDIyIDMxTDE0IDMyLjVRMTEgMzMuMSAxMC41IDMwLjFMOS41IDI0UTkgMjEgMTEgMjBaIE0xMyAyM0wxOS41IDIxLjdMMjAuNiAyNy42TDE0LjEgMjguOVogTTI5IDIwTDM0LjcgMTguOEwzNS44IDI0LjdMMzAuMSAyNS45WiBNMTEgMzVRMTUgMzcgMTggMzRRMTcgNDAgMTQgNDBRMTIgMzkgMTEgMzVaIi8+CiAgICA8cGF0aCBkYXRhLWJvdC1icmFuZC1wYXJ0PSJzbGVlcGluZyIgZD0iTTQ5IDI4QzUxIDE1IDYwIDcgNzMgN0M4NyA3IDk0IDE3IDkzIDI4TDkwIDI3UTg4IDMzIDkyIDM1UTk2IDMyIDk5IDMxUTEwMCAzOCA5MyA0MFE5MSA0MSA4OCA0MUw4MiAzOVE3OCAzNCA3NCAzMlE3MCAzNCA2OSAzN1E2MCAyOSA0OSAyOFogTTU3IDIyUTYxIDI1IDY2IDIyUTY1IDI4IDYxIDI4UTU4IDI4IDU3IDIyWiBNNzQgMjZRNzggMjkgODIgMjZRODEgMzIgNzggMzJRNzUgMzEgNzQgMjZaIE03MSAxMUg4MVE4MyAxMSA4MyAxM1E4MyAxNCA4MiAxNUw3NSAyMEg4MVE4MyAyMCA4MyAyMlE4MyAyNCA4MSAyNEg3MVE2OSAyNCA2OSAyMlE2OSAyMSA3MCAyMEw3NyAxNUg3MVE2OSAxNSA2OSAxM1E2OSAxMSA3MSAxMVogTTg1IDE4SDkxVjIwTDg3IDIzSDkxVjI1SDg0VjIzTDg4IDIwSDg1WiIvPgogICAgPHBhdGggZGF0YS1ib3QtYnJhbmQtcGFydD0iY2xhc3NpYyIgZD0iTTE2IDQ4QzIxIDM1IDMyIDI5IDQ1IDMwQzU4IDMwIDY3IDM3IDczIDQ4Qzc0IDQ5IDc2IDQ4IDc3IDQ1Qzc1IDQyIDc0IDM5IDc2IDM2Qzc5IDM4IDgxIDQxIDgyIDQ0Qzg1IDQyIDkwIDQxIDk0IDQxQzk0IDQ3IDkxIDUyIDg1IDU0QzgxIDcxIDY1IDg0IDQ3IDg2QzMwIDg3IDE2IDc5IDEzIDY2QzExIDYwIDEyIDU0IDE2IDQ4WiBNMjIgNDdDMzEgNDQgNDMgNTAgNTAgNThDNTYgNjUgNTkgNzEgNjUgNzZDNTcgNzQgNDkgNjggNDIgNjNDNDAgNjIgMzkgNjMgNDAgNjZMNDMgNzBDMzEgNjggMjQgNjAgMjIgNTRRMjAgNDkgMjIgNDdaIE01OSA0OUM2NCA0NSA3MCA0OSA3MSA1NVE2NiA1MSA2MiA1MlE1OCA1NCA1OSA0OVogTTY1IDYwUTY5IDY0IDc0IDYxUTc0IDY4IDY5IDY4UTY1IDY3IDY1IDYwWiIvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.6.7",
+            "publishTimestamp": 1794537116,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a6f8e3465969f6035e4a478d7b65f9c1990b90ed7f0bc44c5b9201ad5b8e3e28",
+      "evidence": [
+        {
+          "name": "dsh-botgroup",
+          "version": "0.6.7",
+          "tarball": "https://registry.npmjs.org/dsh-botgroup/-/dsh-botgroup-0.6.7.tgz",
+          "integrity": "sha512-UTf4y+xdhWFuHXAVp4erR4iFafxslzcKY/LbsRp9PMJFoloeNJlPe9gorQIiMZ++0bFrwsHXTHuEPrXLdFllJw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/MJ-CJM/DSH-Bot/releases/latest/download/dsh-bot.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-botgroup@0.6.7",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MJ-CJM/DSH-Bot",
+    "commit": "b691b8e8e4b0cf72e81ffedd8df93d099a8ea4f7",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:19:26.910Z"
+}

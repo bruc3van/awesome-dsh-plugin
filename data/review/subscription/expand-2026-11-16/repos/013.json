@@ -1,0 +1,143 @@
+{
+  "full_name": "dbcaskml183-dotcom/dsh-prelude",
+  "originalPosition": 13,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 13,
+  "batch": 1,
+  "stargazers_count": 249,
+  "startedAt": "2026-11-16T05:17:33.001Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2c468a35a867f8f017c5845ac686070203e9ef231d00c1216e2a475ac52d7cb0",
+      "url": "https://github.com/dbcaskml183-dotcom/dsh-prelude/blob/3a2bec973e6be89f6e2cb31e659307b8858ed523/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-coach",
+          "command": "dsh plugin --profile web add dsh-prompt-coach --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "0a98c7c76d37d212f7a66ec232fc41dee7f649603f365c7bc20ff05c72c1e4fa",
+      "url": "https://github.com/dbcaskml183-dotcom/dsh-prelude/blob/3a2bec973e6be89f6e2cb31e659307b8858ed523/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-coach",
+          "command": "dsh plugin --profile web add dsh-prompt-coach --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-coach",
+      "version": "0.4.29",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dbcaskml183-dotcom/dsh-prelude",
+        "commit": "3a2bec973e6be89f6e2cb31e659307b8858ed523"
+      },
+      "manifestSha256": "f0a1e642cbaf648aee66b25c54618fb2d81a7a6354c949f0aa4310d66e82a474",
+      "manifestUrl": "https://github.com/dbcaskml183-dotcom/dsh-prelude/blob/3a2bec973e6be89f6e2cb31e659307b8858ed523/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <=0.2.1-rc.5 || 0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-prompt-coach",
+        "versions": [
+          {
+            "version": "0.4.29",
+            "publishTimestamp": 1794265627,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dbcaskml183-dotcom/dsh-prelude",
+              "commit": "3a2bec973e6be89f6e2cb31e659307b8858ed523"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <=0.2.1-rc.5 || 0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-prompt-coach",
+      "origin": "npm",
+      "name": "dsh-prompt-coach",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-prompt-coach",
+        "title": "dsh-prompt-coach",
+        "description": "Prelude — DeepSeek Harness (DSH) 提示词优化与改写助手，提供方法卡、局部补句和原稿对照。",
+        "repository": {
+          "url": "https://github.com/dbcaskml183-dotcom/dsh-prelude"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "prompt-engineering",
+            "prompt-editor",
+            "prelude"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.29",
+            "publishTimestamp": 1794265687,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <=0.2.1-rc.5 || 0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "17d0f4695d8a522fa632a5db5070a66b95ff06009cae82c5ecb88e9e64ee33fc",
+      "evidence": [
+        {
+          "name": "dsh-prompt-coach",
+          "version": "0.4.29",
+          "tarball": "https://registry.npmjs.org/dsh-prompt-coach/-/dsh-prompt-coach-0.4.29.tgz",
+          "integrity": "sha512-JGPgrxFAhVjKq0IlNeHXLuU9OJjVHdpTbT3wjFMuPPCN8/LtJ+S7a9DIDMcWyQ73Ko7f5TUALqvEEZAsZfseEA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-prompt-coach",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dbcaskml183-dotcom/dsh-prelude",
+    "commit": "3a2bec973e6be89f6e2cb31e659307b8858ed523",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:17:44.096Z"
+}

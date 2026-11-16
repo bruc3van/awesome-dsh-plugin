@@ -1,0 +1,74 @@
+{
+  "full_name": "datit309/supergraph",
+  "originalPosition": 130,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 130,
+  "batch": 1,
+  "stargazers_count": 23,
+  "startedAt": "2026-11-16T05:21:16.404Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0ee7e07c8c917890b7f0c9f57f70919215f3be883fe97b3741cbdcf2ddc44109",
+      "url": "https://github.com/datit309/supergraph/blob/9e3551342d33aaeca2518383f96dbb62ec4480e0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README-VI.md",
+      "sha256": "fb0191067d669ae6ffc187e662b9494b9ea858804f20aed4c1916984c6383276",
+      "url": "https://github.com/datit309/supergraph/blob/9e3551342d33aaeca2518383f96dbb62ec4480e0/README-VI.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "supergraph",
+      "version": "2.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/datit309/supergraph",
+        "commit": "9e3551342d33aaeca2518383f96dbb62ec4480e0"
+      },
+      "manifestSha256": "954ef879a729dd5f3482ef216cf8cdd8423a38a6330efd45114a6d6da3fb163c",
+      "manifestUrl": "https://github.com/datit309/supergraph/blob/9e3551342d33aaeca2518383f96dbb62ec4480e0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "supergraph",
+        "versions": [
+          {
+            "version": "2.4.0",
+            "publishTimestamp": 1794459383,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/datit309/supergraph",
+              "commit": "9e3551342d33aaeca2518383f96dbb62ec4480e0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/datit309/supergraph",
+    "commit": "9e3551342d33aaeca2518383f96dbb62ec4480e0",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:21:27.054Z"
+}

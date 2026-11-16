@@ -1,0 +1,77 @@
+{
+  "full_name": "gulagala001/dsh-intelligent-ui",
+  "originalPosition": 112,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 112,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-11-16T05:20:37.824Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "97818fe4acf395127bae0f80af11d1fc386c6881e49744abf4a621f95186ef30",
+      "url": "https://github.com/gulagala001/dsh-intelligent-ui/blob/6bb006b7cfc7edce1b069a00d86a78e1ff20734d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "d5bdcfc9ec1ff1a822e8535151f9132ef18ea3fefde9dbeb4d472a808bab15b4",
+      "url": "https://github.com/gulagala001/dsh-intelligent-ui/blob/6bb006b7cfc7edce1b069a00d86a78e1ff20734d/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-intelligent-ui",
+      "version": "0.2.2-rc.3.iui.1.0.19",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/gulagala001/dsh-intelligent-ui",
+        "commit": "6bb006b7cfc7edce1b069a00d86a78e1ff20734d"
+      },
+      "manifestSha256": "1d1740e4ce5f23127d0bef85da49e36a1d4fa12387f98731f7618b116bb79018",
+      "manifestUrl": "https://github.com/gulagala001/dsh-intelligent-ui/blob/6bb006b7cfc7edce1b069a00d86a78e1ff20734d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-intelligent-ui",
+        "versions": [
+          {
+            "version": "0.2.2-rc.3.iui.1.0.19",
+            "publishTimestamp": 1794764667,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/gulagala001/dsh-intelligent-ui",
+              "commit": "6bb006b7cfc7edce1b069a00d86a78e1ff20734d"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gulagala001/dsh-intelligent-ui",
+    "commit": "6bb006b7cfc7edce1b069a00d86a78e1ff20734d",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:20:46.582Z"
+}

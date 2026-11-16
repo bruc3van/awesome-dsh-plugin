@@ -1,0 +1,69 @@
+{
+  "full_name": "lsz-asd/dsh-plugin-session-delete",
+  "originalPosition": 57,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 57,
+  "batch": 1,
+  "stargazers_count": 54,
+  "startedAt": "2026-11-16T05:18:58.379Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "250253b1203b9253064d7c4e3192bb68ba50d3d75bb7fc7d0c3530f694ec18b2",
+      "url": "https://github.com/lsz-asd/dsh-plugin-session-delete/blob/352510e552983dcfcb993cf9124181c55e2070f5/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huanlin/dsh-plugin-session-delete",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lsz-asd/dsh-plugin-session-delete",
+        "commit": "352510e552983dcfcb993cf9124181c55e2070f5"
+      },
+      "manifestSha256": "3a21b90db40bb8d8432fd00e715317548113a6a3baec99c5d9209703e78c3ede",
+      "manifestUrl": "https://github.com/lsz-asd/dsh-plugin-session-delete/blob/352510e552983dcfcb993cf9124181c55e2070f5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@huanlin/dsh-plugin-session-delete",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1786734713,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lsz-asd/dsh-plugin-session-delete",
+              "commit": "352510e552983dcfcb993cf9124181c55e2070f5"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lsz-asd/dsh-plugin-session-delete",
+    "commit": "352510e552983dcfcb993cf9124181c55e2070f5",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:19:06.014Z"
+}

@@ -1,0 +1,151 @@
+{
+  "full_name": "mem9-ai/mem9",
+  "originalPosition": 1,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 1,
+  "batch": 1,
+  "stargazers_count": 1237,
+  "startedAt": "2026-11-16T05:17:12.026Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "963a5be1ab9da32c669ae9dbdae6f116956c813b2959edaa195d6f4fa2386b0c",
+      "url": "https://github.com/mem9-ai/mem9/blob/395bf487f385bb463c8c99c7f65d966da70caa0f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "claude-plugin/README.md",
+      "sha256": "b65dffcfdcf47e3bd60acbc97c845caa6266d31178af3474b46d905ea67e04fa",
+      "url": "https://github.com/mem9-ai/mem9/blob/395bf487f385bb463c8c99c7f65d966da70caa0f/claude-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "opencode-plugin/README.md",
+      "sha256": "fd62107ce12326f7d5454183e4ac5cc6d1485ebd7d523ad55795d530e404df50",
+      "url": "https://github.com/mem9-ai/mem9/blob/395bf487f385bb463c8c99c7f65d966da70caa0f/opencode-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "codex-plugin/README.md",
+      "sha256": "4a36237a5e9d4760eedc8c04aa459e6ab0c15b5db0ab8345d7b81c92e41dd30d",
+      "url": "https://github.com/mem9-ai/mem9/blob/395bf487f385bb463c8c99c7f65d966da70caa0f/codex-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "sha256": "09e765409a986aca14ad3db47bdf123a63784bfdcc69e90bf4f77fd39572cd9b",
+      "url": "https://github.com/mem9-ai/mem9/blob/395bf487f385bb463c8c99c7f65d966da70caa0f/dsh-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mem9/dsh-plugin",
+          "command": "dsh plugin --profile <profile> add @mem9/dsh-plugin",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@mem9/dsh-plugin",
+      "version": "0.1.0",
+      "path": "dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mem9-ai/mem9",
+        "commit": "395bf487f385bb463c8c99c7f65d966da70caa0f",
+        "path": "dsh-plugin"
+      },
+      "manifestSha256": "90cf0afce10ecd2c4fc37bb1546be6ecf4267ef9a3b016300e3b453d3ff9f7e1",
+      "manifestUrl": "https://github.com/mem9-ai/mem9/blob/395bf487f385bb463c8c99c7f65d966da70caa0f/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.0-rc.7",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@mem9/dsh-plugin",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793780703,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/mem9-ai/mem9",
+              "commit": "395bf487f385bb463c8c99c7f65d966da70caa0f",
+              "path": "dsh-plugin"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.7"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@mem9/dsh-plugin",
+      "origin": "npm",
+      "name": "@mem9/dsh-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@mem9/dsh-plugin",
+        "title": "@mem9/dsh-plugin",
+        "description": "Mem9 persistent memory for DeepSeek Harness",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787134941,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.7"
+            }
+          }
+        ]
+      },
+      "registrySha256": "69e0c4b22977be7e8c8e23dc7d230353a13b95b0b258f26d067a54423f5d1e19",
+      "evidence": [
+        {
+          "name": "@mem9/dsh-plugin",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/@mem9/dsh-plugin/-/dsh-plugin-0.1.0.tgz",
+          "integrity": "sha512-xQhklYKwJad7Cy6EODPhjWqqtLP8nW1R8xry4Vjf1VJTh5GinX1ip+Pbz50lvV+lM4ICDi1cUWVO6YL8UcM3xg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mem9/dsh-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mem9-ai/mem9",
+    "commit": "395bf487f385bb463c8c99c7f65d966da70caa0f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:17:34.336Z"
+}

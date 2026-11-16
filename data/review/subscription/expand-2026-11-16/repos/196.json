@@ -1,0 +1,141 @@
+{
+  "full_name": "xkk6663/dsh-live2d-mao",
+  "originalPosition": 196,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 196,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T05:23:35.458Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3f595e751d5dcfa000789a78b6ef8ae2a714dde62697b763dce1d767333dea33",
+      "url": "https://github.com/xkk6663/dsh-live2d-mao/blob/21b9db21d0abfc974fe88b155517563d155e9c51/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-live2d-mao",
+          "command": "dsh plugin --profile web add dsh-live2d-mao",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-live2d-mao",
+          "command": "dsh plugin --profile desktop add dsh-live2d-mao",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-live2d-mao",
+      "version": "1.4.0",
+      "path": "packages/dsh-live2d-mao",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xkk6663/dsh-live2d-mao",
+        "commit": "21b9db21d0abfc974fe88b155517563d155e9c51",
+        "path": "packages/dsh-live2d-mao"
+      },
+      "manifestSha256": "b25020b00bfd1b4f7aecdd7784e65445e9ef73c59fb7b0a47feb8591e764fc89",
+      "manifestUrl": "https://github.com/xkk6663/dsh-live2d-mao/blob/21b9db21d0abfc974fe88b155517563d155e9c51/packages/dsh-live2d-mao/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-live2d-mao",
+        "versions": [
+          {
+            "version": "1.4.0",
+            "publishTimestamp": 1793540897,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xkk6663/dsh-live2d-mao",
+              "commit": "21b9db21d0abfc974fe88b155517563d155e9c51",
+              "path": "packages/dsh-live2d-mao"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-live2d-mao",
+      "origin": "npm",
+      "name": "dsh-live2d-mao",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-live2d-mao",
+        "title": "dsh-live2d-mao",
+        "description": "DSH-Live2D-Mao —— DSH 专用 Live2D 桌宠连接器：把 DSH 会话事件推导为 12 态 phase 并推给桌宠总线（只推事件，不持有窗口）",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh-live2d-mao",
+            "live2d",
+            "desktop-pet",
+            "companion"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "1.4.0",
+            "publishTimestamp": 1793516863,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7550bbbb1f9261c6f70c78350b7f791f2bd817804c7c35c555c2f4215f1ff150",
+      "evidence": [
+        {
+          "name": "dsh-live2d-mao",
+          "version": "1.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-live2d-mao/-/dsh-live2d-mao-1.4.0.tgz",
+          "integrity": "sha512-fDD4m8Cr47WWtWRZFgjPchBCDE7obD803gfeUzkZWlG+LwDtf46fKb6WjJqw5X6KsFIM8Pcf6rqH8hCF2vUyqw=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-live2d-mao",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "7027a8737225e854c9ccd5011fbb8aada81ec75e6a83243cda47418f6f606a58",
+          "outputSha256": "7611c1263d2e3fafd18e5be330d3577f99ebecf3b6e9e0d05fc0800526c8d4ea",
+          "inputBytes": 143581,
+          "outputBytes": 2926
+        }
+      ],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-live2d-mao",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xkk6663/dsh-live2d-mao",
+    "commit": "21b9db21d0abfc974fe88b155517563d155e9c51",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:49.733Z"
+}

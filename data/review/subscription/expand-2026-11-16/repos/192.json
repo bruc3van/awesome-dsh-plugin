@@ -1,0 +1,146 @@
+{
+  "full_name": "john-walks-slow/dsh-qol",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T05:23:27.094Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "28a07f3044a2360badc1572e585ab5e0f87bc486e1df503c3d520cc93dfe4e82",
+      "url": "https://github.com/john-walks-slow/dsh-qol/blob/848118636086ae42e9b85449afbcfb91c9c0a424/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-qol",
+          "command": "dsh plugin --profile web add dsh-qol",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/john-walks-slow/dsh-qol",
+          "command": "dsh plugin --profile web add github:john-walks-slow/dsh-qol",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qol",
+      "version": "1.0.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/john-walks-slow/dsh-qol",
+        "commit": "848118636086ae42e9b85449afbcfb91c9c0a424"
+      },
+      "manifestSha256": "3f9e70a794e516ef872833a81685b7e56a27fc50004b1ae518efd42b63bc2b3f",
+      "manifestUrl": "https://github.com/john-walks-slow/dsh-qol/blob/848118636086ae42e9b85449afbcfb91c9c0a424/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-qol",
+        "versions": [
+          {
+            "version": "1.0.13",
+            "publishTimestamp": 1794051548,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/john-walks-slow/dsh-qol",
+              "commit": "848118636086ae42e9b85449afbcfb91c9c0a424"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-qol",
+      "origin": "npm",
+      "name": "dsh-qol",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-qol",
+        "title": "dsh-qol",
+        "description": "Quality-of-life tweaks for the DeepSeek Harness Web UI: Chrome-style session tab bar, edge-swipe sidebar, IME/keyboard adaptation, touch feedback, full-screen mobile settings and more — 17 features, each independently toggleable from the Settings page, with instant effect and per-browser persistence. dsh Web GUI 体验优化插件：会话 Tab Bar、侧栏滑动开合、输入法/键盘适配、触摸反馈、移动端设置页全屏重写等 17 项功能，均可在设置页独立开关，即时生效并按浏览器持久保存。",
+        "author": "johnnren",
+        "homepage": "https://github.com/john-walks-slow/dsh-qol#readme",
+        "repository": {
+          "url": "https://github.com/john-walks-slow/dsh-qol"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "qol",
+            "mobile",
+            "tab-bar",
+            "sidebar",
+            "ime",
+            "touch",
+            "web-ui",
+            "体验优化",
+            "移动端",
+            "侧边栏",
+            "标签页",
+            "输入法",
+            "触摸"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.13",
+            "publishTimestamp": 1793671947,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0b0de722cb633796f918a7fdd8a3752ea764535938bbb6e699aaf4b29a7d775e",
+      "evidence": [
+        {
+          "name": "dsh-qol",
+          "version": "1.0.13",
+          "tarball": "https://registry.npmjs.org/dsh-qol/-/dsh-qol-1.0.13.tgz",
+          "integrity": "sha512-DPQ6mKK3oU8/SycKHQx/v0TdknLauQglNFDszzt5s8CR8uQF/06gI5pxSiOYPscOERYnbuchYdngC9uHdyMi7w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-qol",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/john-walks-slow/dsh-qol",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/john-walks-slow/dsh-qol",
+    "commit": "848118636086ae42e9b85449afbcfb91c9c0a424",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:36.363Z"
+}

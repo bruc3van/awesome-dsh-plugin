@@ -1,0 +1,135 @@
+{
+  "full_name": "suifei/dsh-ai-team",
+  "originalPosition": 122,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "stargazers_count": 25,
+  "startedAt": "2026-11-16T05:20:56.498Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "90ab9398e0d288e9767c453c7cae057c0e62c4e4ad73c96c360de485ba891297",
+      "url": "https://github.com/suifei/dsh-ai-team/blob/426badcdc1963add9dc0db591661dc8aac2716d1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@suifei/dsh-ai-team",
+          "command": "dsh plugin --profile ai-team add @suifei/dsh-ai-team",
+          "profile": "ai-team"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@suifei/dsh-ai-team",
+      "version": "0.4.101",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/suifei/dsh-ai-team",
+        "commit": "426badcdc1963add9dc0db591661dc8aac2716d1"
+      },
+      "manifestSha256": "481927d3ef5bdd296d691de5d2755c255b3a52b88e74a52bc0218b15e8505cb2",
+      "manifestUrl": "https://github.com/suifei/dsh-ai-team/blob/426badcdc1963add9dc0db591661dc8aac2716d1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@suifei/dsh-ai-team",
+        "versions": [
+          {
+            "version": "0.4.101",
+            "publishTimestamp": 1794803727,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/suifei/dsh-ai-team",
+              "commit": "426badcdc1963add9dc0db591661dc8aac2716d1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@suifei/dsh-ai-team",
+      "origin": "npm",
+      "name": "@suifei/dsh-ai-team",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@suifei/dsh-ai-team",
+        "title": {
+          "en": "AI Team workbench",
+          "zh": "文渊阁 AI Team 工作台"
+        },
+        "description": {
+          "en": "Concurrent Projects with owned Tasks, Threads, an inbox and an append-only team ledger.",
+          "zh": "并发项目、责任到人的任务、讨论串、收件箱与 append-only 团队账本。"
+        },
+        "author": "suifei",
+        "homepage": "https://github.com/suifei/dsh-ai-team#readme",
+        "repository": {
+          "url": "https://github.com/suifei/dsh-ai-team"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "ai-team",
+            "multi-agent",
+            "agent-team",
+            "task-ledger",
+            "wenyuan"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLmlofmuIrpmIEiPgogIDwhLS0g6YeN5qqQ77yI5LiK5bGC5bGL6aG277yJIC0tPgogIDxwYXRoIGQ9Ik01IDhsNy00IDcgNCIgLz4KICA8cGF0aCBkPSJNNyAxMWgxMCIgLz4KICA8IS0tIOWHuuaqkO+8iOS4i+WxguWxi+aqkO+8iSAtLT4KICA8cGF0aCBkPSJNNCAxNGgxNiIgLz4KICA8IS0tIOeri+afse+8iOS4ieW8gOmXtO+8iSAtLT4KICA8cGF0aCBkPSJNOSAxNHYzIiAvPgogIDxwYXRoIGQ9Ik0xNSAxNHYzIiAvPgogIDwhLS0g5riK5rC077yI5bqV6YOo5rOi57q577yJIC0tPgogIDxwYXRoIGQ9Ik00IDIwYzIuNS0xLjUgNS41LTEuNSA4IDBzNS41IDEuNSA4IDAiIC8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.4.101",
+            "publishTimestamp": 1794804136,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "058c75f4e79801a1f93d4a3af1fcef92223dc928bb936437362603f611c7081a",
+      "evidence": [
+        {
+          "name": "@suifei/dsh-ai-team",
+          "version": "0.4.101",
+          "tarball": "https://registry.npmjs.org/@suifei/dsh-ai-team/-/dsh-ai-team-0.4.101.tgz",
+          "integrity": "sha512-QpysZM5gf92bytj8+9YN6WLaso2DYTXNYAJmE9+MS7z/xVdppmnDajolvwWyX0kOg4H41oovqB1R4tN9pIPPOA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@suifei/dsh-ai-team",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/suifei/dsh-ai-team",
+    "commit": "426badcdc1963add9dc0db591661dc8aac2716d1",
+    "releaseTags": 68,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:21:05.318Z"
+}

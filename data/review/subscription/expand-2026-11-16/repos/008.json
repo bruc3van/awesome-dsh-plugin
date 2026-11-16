@@ -1,0 +1,75 @@
+{
+  "full_name": "xcisxc29/dsh-wechat",
+  "originalPosition": 8,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 8,
+  "batch": 1,
+  "stargazers_count": 438,
+  "startedAt": "2026-11-16T05:17:19.361Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "220bd89112ca8b7497afa94f334a86b16d491ecb2b399aa03e1f68c40628694f",
+      "url": "https://github.com/xcisxc29/dsh-wechat/blob/5513f99fed697db75e7f8f0e1f56f0b4d2be8e1a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xcisxc29/dsh-wechat",
+          "command": "dsh plugin --profile desktop add https://github.com/xcisxc29/dsh-wechat",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "77e649884c06a9c94617e853ff752ed293a0a6b8f098fdbae8f7c6d095360d7b",
+      "url": "https://github.com/xcisxc29/dsh-wechat/blob/5513f99fed697db75e7f8f0e1f56f0b4d2be8e1a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xcisxc29/dsh-wechat",
+          "command": "dsh plugin --profile desktop add https://github.com/xcisxc29/dsh-wechat",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wechat-workspace",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xcisxc29/dsh-wechat",
+        "commit": "5513f99fed697db75e7f8f0e1f56f0b4d2be8e1a"
+      },
+      "manifestSha256": "8ac81d0ca5438f2a35bba755f4a0f4904bb89e81f18795a7f354759f94949f60",
+      "manifestUrl": "https://github.com/xcisxc29/dsh-wechat/blob/5513f99fed697db75e7f8f0e1f56f0b4d2be8e1a/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xcisxc29/dsh-wechat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xcisxc29/dsh-wechat",
+    "commit": "5513f99fed697db75e7f8f0e1f56f0b4d2be8e1a",
+    "releaseTags": 28,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:17:27.866Z"
+}

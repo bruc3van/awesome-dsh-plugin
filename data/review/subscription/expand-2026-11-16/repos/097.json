@@ -1,0 +1,58 @@
+{
+  "full_name": "InariNGT-Ofiicial/dsh-cover-pipeline",
+  "originalPosition": 97,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 97,
+  "batch": 1,
+  "stargazers_count": 28,
+  "startedAt": "2026-11-16T05:20:10.843Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9fcb8a7445dfb8953d2b401efbc84864ba0ebb15b0a43d84d48934feb1905f3d",
+      "url": "https://github.com/InariNGT-Ofiicial/dsh-cover-pipeline/blob/ba3aab28fe98cf43992c10b66611f18067e85c52/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "materials/README.md",
+      "sha256": "226a5b09377612c2d2b3444eb498eed4276050c2a3658a6d1dc8481a4c603a1f",
+      "url": "https://github.com/InariNGT-Ofiicial/dsh-cover-pipeline/blob/ba3aab28fe98cf43992c10b66611f18067e85c52/materials/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cover-pipeline",
+      "version": "1.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/InariNGT-Ofiicial/dsh-cover-pipeline",
+        "commit": "ba3aab28fe98cf43992c10b66611f18067e85c52"
+      },
+      "manifestSha256": "e15c26cc75c72c0586bc2e7cc74a99a6b6df46a2cbfe1d81443a0a6b8b1485a3",
+      "manifestUrl": "https://github.com/InariNGT-Ofiicial/dsh-cover-pipeline/blob/ba3aab28fe98cf43992c10b66611f18067e85c52/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/InariNGT-Ofiicial/dsh-cover-pipeline",
+    "commit": "ba3aab28fe98cf43992c10b66611f18067e85c52",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-16T05:20:19.565Z"
+}

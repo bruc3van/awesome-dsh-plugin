@@ -1,0 +1,84 @@
+{
+  "full_name": "Lphehe/dsh-composer-assist",
+  "originalPosition": 183,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 183,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T05:23:10.557Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "90cd3fc45815e43c2609f0c0ff184aa61d4dc0af768ae867e7c8c6583a0b537e",
+      "url": "https://github.com/Lphehe/dsh-composer-assist/blob/2aef8fcdec18eff85c53893329360f2631b5f575/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Lphehe/dsh-composer-assist/releases/download/v0.1.1/dsh-composer-assist.tgz",
+          "command": "dsh plugin --profile web add https://github.com/Lphehe/dsh-composer-assist/releases/download/v0.1.1/dsh-composer-assist.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-composer-assist",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lphehe/dsh-composer-assist",
+        "commit": "2aef8fcdec18eff85c53893329360f2631b5f575"
+      },
+      "manifestSha256": "cd623e29e4520f5eefa85ef304665969407fc383282b7e61a738c8c2005ab04b",
+      "manifestUrl": "https://github.com/Lphehe/dsh-composer-assist/blob/2aef8fcdec18eff85c53893329360f2631b5f575/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-composer-assist",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793715481,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Lphehe/dsh-composer-assist",
+              "commit": "2aef8fcdec18eff85c53893329360f2631b5f575"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Lphehe/dsh-composer-assist/releases/download/v0.1.1/dsh-composer-assist.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Lphehe/dsh-composer-assist/releases/download/v0.1.1/dsh-composer-assist.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lphehe/dsh-composer-assist",
+    "commit": "2aef8fcdec18eff85c53893329360f2631b5f575",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:19.740Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "SuLiuCanYing/dsh-billing-statistics",
+  "originalPosition": 37,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 37,
+  "batch": 1,
+  "stargazers_count": 100,
+  "startedAt": "2026-11-16T05:18:26.009Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "946e8dcb66ad2403b15baab9d9fdcce1706f966fe85e1aadcee771ee56e441be",
+      "url": "https://github.com/SuLiuCanYing/dsh-billing-statistics/blob/769bf03453a9ee6260d653b9c2642ae43bc984e3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-billing-statistics",
+      "version": "1.14.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SuLiuCanYing/dsh-billing-statistics",
+        "commit": "769bf03453a9ee6260d653b9c2642ae43bc984e3"
+      },
+      "manifestSha256": "f668ca1ddca081653561fef77b0d001b83c637f9b7e2acece92cac620d1e5cf2",
+      "manifestUrl": "https://github.com/SuLiuCanYing/dsh-billing-statistics/blob/769bf03453a9ee6260d653b9c2642ae43bc984e3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-billing-statistics",
+        "versions": [
+          {
+            "version": "1.14.0",
+            "publishTimestamp": 1794287379,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SuLiuCanYing/dsh-billing-statistics",
+              "commit": "769bf03453a9ee6260d653b9c2642ae43bc984e3"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SuLiuCanYing/dsh-billing-statistics",
+    "commit": "769bf03453a9ee6260d653b9c2642ae43bc984e3",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:18:33.548Z"
+}

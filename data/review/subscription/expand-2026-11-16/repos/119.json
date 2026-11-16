@@ -1,0 +1,302 @@
+{
+  "full_name": "drscrewdriver/dsh-thinking-levels",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "stargazers_count": 25,
+  "startedAt": "2026-11-16T05:20:50.973Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0b259bf19fc3c889a9161e817bba823a12621853526f50ac0013eb65245b57b0",
+      "url": "https://github.com/drscrewdriver/dsh-thinking-levels/blob/94f26ee0798ce2967dbaf50487ace532d90711c5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-thinking-levels",
+          "command": "dsh plugin --profile web add dsh-thinking-levels -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-thinking-levels.git",
+          "command": "dsh plugin --profile web add https://github.com/drscrewdriver/dsh-thinking-levels.git -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "652e796eef723402b9174cfa76180035d1bb0108cb747aa2963d291020a33a02",
+      "url": "https://github.com/drscrewdriver/dsh-thinking-levels/blob/94f26ee0798ce2967dbaf50487ace532d90711c5/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-thinking-levels",
+          "command": "dsh plugin --profile web add dsh-thinking-levels -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-thinking-levels.git",
+          "command": "dsh plugin --profile web add https://github.com/drscrewdriver/dsh-thinking-levels.git -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "de0847a8d4ae79734a2928502e798a916bc3b5b1f6e7e0e87ab699145dd5448e",
+      "url": "https://github.com/drscrewdriver/dsh-thinking-levels/blob/94f26ee0798ce2967dbaf50487ace532d90711c5/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-thinking-levels",
+          "command": "dsh plugin --profile web add dsh-thinking-levels -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-thinking-levels.git",
+          "command": "dsh plugin --profile web add https://github.com/drscrewdriver/dsh-thinking-levels.git -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ko.md",
+      "sha256": "64e495091c0d5c6c9188e29a5339abcdb200d9ce656af879815d2a53ba31a2fb",
+      "url": "https://github.com/drscrewdriver/dsh-thinking-levels/blob/94f26ee0798ce2967dbaf50487ace532d90711c5/README.ko.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-thinking-levels",
+          "command": "dsh plugin --profile web add dsh-thinking-levels -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-thinking-levels.git",
+          "command": "dsh plugin --profile web add https://github.com/drscrewdriver/dsh-thinking-levels.git -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "88fb1cccc92a57604e34fa1c913d0f4f84c990f965fa0177a4d2828d0551aa9a",
+      "url": "https://github.com/drscrewdriver/dsh-thinking-levels/blob/94f26ee0798ce2967dbaf50487ace532d90711c5/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-thinking-levels",
+          "command": "dsh plugin --profile web add dsh-thinking-levels -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-thinking-levels.git",
+          "command": "dsh plugin --profile web add https://github.com/drscrewdriver/dsh-thinking-levels.git -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "ddef529aa22c694e629fc35e78eb27252c97e0b722953fe2b7adc4254a1302eb",
+      "url": "https://github.com/drscrewdriver/dsh-thinking-levels/blob/94f26ee0798ce2967dbaf50487ace532d90711c5/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-thinking-levels",
+          "command": "dsh plugin --profile web add dsh-thinking-levels -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-thinking-levels.git",
+          "command": "dsh plugin --profile web add https://github.com/drscrewdriver/dsh-thinking-levels.git -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.it.md",
+      "sha256": "e95101bfb969ff8a695f2b26c44cf60489068c797abe81ad083680b68c30c3b2",
+      "url": "https://github.com/drscrewdriver/dsh-thinking-levels/blob/94f26ee0798ce2967dbaf50487ace532d90711c5/README.it.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-thinking-levels",
+          "command": "dsh plugin --profile web add dsh-thinking-levels -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-thinking-levels.git",
+          "command": "dsh plugin --profile web add https://github.com/drscrewdriver/dsh-thinking-levels.git -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "94d0b2c731305d0a518ad5ba7c58859b8fde8fa7c22d51d51d5fbe806eca116a",
+      "url": "https://github.com/drscrewdriver/dsh-thinking-levels/blob/94f26ee0798ce2967dbaf50487ace532d90711c5/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-thinking-levels",
+          "command": "dsh plugin --profile web add dsh-thinking-levels -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-thinking-levels.git",
+          "command": "dsh plugin --profile web add https://github.com/drscrewdriver/dsh-thinking-levels.git -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "09266c78bb5a6868ea2135b56ddca04615f7f5f4ff04187ed45687bb3ce16535",
+      "url": "https://github.com/drscrewdriver/dsh-thinking-levels/blob/94f26ee0798ce2967dbaf50487ace532d90711c5/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-thinking-levels",
+          "command": "dsh plugin --profile web add dsh-thinking-levels -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-thinking-levels.git",
+          "command": "dsh plugin --profile web add https://github.com/drscrewdriver/dsh-thinking-levels.git -w",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-thinking-levels",
+      "version": "4.4.16",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/drscrewdriver/dsh-thinking-levels",
+        "commit": "94f26ee0798ce2967dbaf50487ace532d90711c5"
+      },
+      "manifestSha256": "ea3e25a526bf8ffcb0287ab47650c4dbf0a696195243b306bacb35308778087f",
+      "manifestUrl": "https://github.com/drscrewdriver/dsh-thinking-levels/blob/94f26ee0798ce2967dbaf50487ace532d90711c5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.8 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-thinking-levels",
+        "versions": [
+          {
+            "version": "4.4.16",
+            "publishTimestamp": 1794673398,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-thinking-levels",
+              "commit": "94f26ee0798ce2967dbaf50487ace532d90711c5"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.8 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-thinking-levels",
+      "origin": "npm",
+      "name": "dsh-thinking-levels",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-thinking-levels",
+        "title": {
+          "en": "Thinking Levels",
+          "de": "Denkstufen",
+          "es": "Niveles de razonamiento",
+          "fr": "Niveaux de réflexion",
+          "it": "Livelli di ragionamento",
+          "ja": "思考レベル",
+          "ko": "사고 수준",
+          "ru": "Уровни мышления",
+          "zh": "思考档位"
+        },
+        "description": {
+          "en": "Pick Auto in the model selector: the plugin schedules low / high / max per tool round before submitting the API effort. Here you configure the default level, scheduler bounds, and per-model capabilities (level → gateway wire value mapping).",
+          "de": "Wählen Sie Auto im Modellselektor: Das Plugin plant low / high / max anhand des Tool-Aufrufverlaufs, bevor der API-Aufwand übermittelt wird. Hier konfigurieren Sie die Standardstufe, Planer-Grenzen und Modellfähigkeiten (Stufe → Gateway-Drahtwert-Zuordnung).",
+          "es": "Elige Auto en el selector de modelo: el plugin planifica low / high / max según el historial de llamadas de herramientas antes de enviar el effort a la API. Aquí configuras el nivel predeterminado, los límites del planificador y las capacidades por modelo (nivel → valor wire enviado al gateway).",
+          "fr": "Choisissez Auto dans le sélecteur de modèle : le plugin planifie low / high / max selon l\\'historique des appels d\\'outils avant de soumettre l\\'effort à l\\'API. Configurez ici le niveau par défaut, les limites du planificateur et les capacités par modèle (niveau → valeur envoyée à la passerelle).",
+          "it": "Scegli Auto nel selettore del modello: il plugin pianifica low / high / max in base alla cronologia delle chiamate degli strumenti prima di inviare l\\'effort all\\'API. Qui configuri il livello predefinito, i limiti dello scheduler e le capacità per modello (livello → valore wire inviato al gateway).",
+          "ja": "モデルセレクターで Auto（マスク）を選択すると、ツール呼び出し履歴から low / high / max を自動スケジュールして API に送信します。ここでは既定レベル、スケジューラーの境界、モデル能力（レベル → ゲートウェイ送信値のマッピング）を設定します。",
+          "ko": "모델 선택기에서 Auto(마스크)를 선택하면 도구 호출 기록을 기반으로 low / high / max 를 자동 스케줄링하여 API에 제출합니다. 여기서 기본 수준, 스케줄러 경계, 모델 기능(수준 → 게이트웨이 전송 값 매핑)을 구성합니다.",
+          "ru": "Выберите Auto в селекторе модели: плагин планирует low / high / max по истории вызовов инструментов перед отправкой effort в API. Здесь настраивается уровень по умолчанию, границы планировщика и возможности модели (уровень → значение, отправляемое шлюзу).",
+          "zh": "在模型选择器中可选 Auto（mask）：按工具调用历史自动在 low / high / max 间调度后提交 API。此处配置默认档位、调度边界与模型能力（档位 → 网关线上值映射）。"
+        },
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-thinking-levels"
+        },
+        "versions": [
+          {
+            "version": "4.4.16",
+            "publishTimestamp": 1794676992,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.8 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "da0a79f679883f3733c5dd1734e87c53d42c3aa5cedb836f413cefa66c44973b",
+      "evidence": [
+        {
+          "name": "dsh-thinking-levels",
+          "version": "4.4.16",
+          "tarball": "https://registry.npmjs.org/dsh-thinking-levels/-/dsh-thinking-levels-4.4.16.tgz",
+          "integrity": "sha512-HpNIs60hEHXwt82L2Sf8UzpvTHe/eGI88vqRGuF5pp6k9J7/5PR4PWOUh/7CLiUKmERLmM6MbGXDPLmygv2ttA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-thinking-levels",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/drscrewdriver/dsh-thinking-levels.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/drscrewdriver/dsh-thinking-levels",
+    "commit": "94f26ee0798ce2967dbaf50487ace532d90711c5",
+    "releaseTags": 30,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:21:12.974Z"
+}

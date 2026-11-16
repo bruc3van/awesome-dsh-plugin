@@ -1,0 +1,145 @@
+{
+  "full_name": "liqiGeGe/dsh-plugin-execution-graph",
+  "originalPosition": 158,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 158,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T05:22:21.746Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3d94279ec9665469bb5e10115dae5fb861056f6d7f4f76da1295aa849c7662a1",
+      "url": "https://github.com/liqiGeGe/dsh-plugin-execution-graph/blob/a17315756c462e906595727d7746b878eac7ba7f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/liqiGeGe/dsh-plugin-execution-graph#v0.2.0",
+          "command": "dsh plugin --profile <name> add github:liqiGeGe/dsh-plugin-execution-graph#v0.2.0",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "76b15cfb4429622fe1f9a2c6b6fc4d02d77a2fb83c5ae002c5656c107bc7c913",
+      "url": "https://github.com/liqiGeGe/dsh-plugin-execution-graph/blob/a17315756c462e906595727d7746b878eac7ba7f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/liqiGeGe/dsh-plugin-execution-graph#v0.2.0",
+          "command": "dsh plugin --profile <name> add github:liqiGeGe/dsh-plugin-execution-graph#v0.2.0",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-execution-graph",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liqiGeGe/dsh-plugin-execution-graph",
+        "commit": "a17315756c462e906595727d7746b878eac7ba7f"
+      },
+      "manifestSha256": "9d12d512a42ba2d0e528a671ca94ca5b8fc6d900d72de8c3386027f120dcdb36",
+      "manifestUrl": "https://github.com/liqiGeGe/dsh-plugin-execution-graph/blob/a17315756c462e906595727d7746b878eac7ba7f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-execution-graph",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794214894,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liqiGeGe/dsh-plugin-execution-graph",
+              "commit": "a17315756c462e906595727d7746b878eac7ba7f"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/liqiGeGe/dsh-plugin-execution-graph#v0.2.0",
+      "origin": "git_target",
+      "name": "dsh-plugin-execution-graph",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-execution-graph",
+        "title": "dsh-plugin-execution-graph",
+        "description": "DeepSeek Harness plugin: adds an \"Execution graph\" tab to the conversation view that reconstructs a per-turn directed graph of user prompts, model replies, and tool calls/results from session events, with per-reply folding of tool segments, a resizable payload detail panel, and PNG export. Pure-consumer client plugin: registers one conversation-view slot entry, declares no service, and reverts every side effect on unload.",
+        "homepage": "https://github.com/liqiGeGe/dsh-plugin-execution-graph#readme",
+        "repository": {
+          "url": "https://github.com/liqiGeGe/dsh-plugin-execution-graph"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "conversation-view",
+            "graph"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794202018,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liqiGeGe/dsh-plugin-execution-graph",
+              "commit": "4cebf72f5c9c48142864e648b2752db87afda5d9"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "4cebf72f5c9c48142864e648b2752db87afda5d9",
+          "name": "dsh-plugin-execution-graph",
+          "version": "0.2.0",
+          "url": "https://github.com/liqiGeGe/dsh-plugin-execution-graph",
+          "manifestSha256": "d22c3ad83c52f8b00c425296aced272a4a66f506d162ded24d61cb0ac544450b",
+          "publishTimestamp": 1794202018
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/liqiGeGe/dsh-plugin-execution-graph#v0.2.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liqiGeGe/dsh-plugin-execution-graph",
+    "commit": "a17315756c462e906595727d7746b878eac7ba7f",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:36.516Z"
+}

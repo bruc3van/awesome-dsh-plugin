@@ -1,0 +1,142 @@
+{
+  "full_name": "oil-oil/dsh-oil-ui",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "stargazers_count": 252,
+  "startedAt": "2026-11-16T05:17:31.782Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "739aba04aa6eb41d7655345df9c4c4230cc53174ea0b64f5bda55dba04768f79",
+      "url": "https://github.com/oil-oil/dsh-oil-ui/blob/679e7b0190ac0940cfc41cf46cf1dceafb7fae4f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/oil-oil/dsh-oil-ui",
+          "command": "--yes --package=pnpm@10.16.1 -- dsh plugin --profile web add github:oil-oil/dsh-oil-ui",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://atomgit.com/oil-oil/dsh-oil-ui.git",
+          "command": "--yes --package=pnpm@10.16.1 -- dsh plugin --profile web add git+https://atomgit.com/oil-oil/dsh-oil-ui.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-oil-ui",
+      "version": "0.4.14-dev.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/oil-oil/dsh-oil-ui",
+        "commit": "679e7b0190ac0940cfc41cf46cf1dceafb7fae4f"
+      },
+      "manifestSha256": "409561398097e5675ed0c5eaafd451743a5cf322e15bb7c45906364be049b581",
+      "manifestUrl": "https://github.com/oil-oil/dsh-oil-ui/blob/679e7b0190ac0940cfc41cf46cf1dceafb7fae4f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-oil-ui",
+        "versions": [
+          {
+            "version": "0.4.14-dev.0",
+            "publishTimestamp": 1794379784,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/oil-oil/dsh-oil-ui",
+              "commit": "679e7b0190ac0940cfc41cf46cf1dceafb7fae4f"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "git+https://atomgit.com/oil-oil/dsh-oil-ui.git",
+      "origin": "git_target",
+      "name": "dsh-oil-ui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-oil-ui",
+        "title": "dsh-oil-ui",
+        "description": "Oil UI 的 DeepSeek Harness 原生工具与 Skill 加载诊断插件",
+        "author": "oil-oil",
+        "homepage": "https://github.com/oil-oil/dsh-oil-ui#readme",
+        "repository": {
+          "url": "https://github.com/oil-oil/dsh-oil-ui"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "oil-ui",
+            "ui-design"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.14-dev.0",
+            "publishTimestamp": 1794379784,
+            "source": {
+              "type": "git",
+              "url": "https://atomgit.com/oil-oil/dsh-oil-ui",
+              "commit": "679e7b0190ac0940cfc41cf46cf1dceafb7fae4f"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "679e7b0190ac0940cfc41cf46cf1dceafb7fae4f",
+          "name": "dsh-oil-ui",
+          "version": "0.4.14-dev.0",
+          "url": "https://atomgit.com/oil-oil/dsh-oil-ui",
+          "manifestSha256": "409561398097e5675ed0c5eaafd451743a5cf322e15bb7c45906364be049b581",
+          "publishTimestamp": 1794379784
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/oil-oil/dsh-oil-ui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://atomgit.com/oil-oil/dsh-oil-ui.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/oil-oil/dsh-oil-ui",
+    "commit": "679e7b0190ac0940cfc41cf46cf1dceafb7fae4f",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:17:41.872Z"
+}

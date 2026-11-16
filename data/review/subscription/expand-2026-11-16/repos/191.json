@@ -1,0 +1,229 @@
+{
+  "full_name": "hunmer/dsh-team-control",
+  "originalPosition": 191,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 191,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T05:23:24.710Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "488d63732c59b228b429aa4f5e5917628dbdccca558999c31e227f9f3cb051d3",
+      "url": "https://github.com/hunmer/dsh-team-control/blob/3bbafd866777dd9097f2d03d3bb6e85aeead5b2b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-team-control",
+          "command": "dsh plugin --profile web add dsh-team-control",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-team-control-ui",
+          "command": "dsh plugin --profile web add dsh-team-control-ui",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-team-control",
+      "version": "0.2.7",
+      "path": "dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hunmer/dsh-team-control",
+        "commit": "3bbafd866777dd9097f2d03d3bb6e85aeead5b2b",
+        "path": "dsh-plugin"
+      },
+      "manifestSha256": "6a8af2e8383b929b4309ab0d74c30c948623a10b8979340e155f7a1aec4003ce",
+      "manifestUrl": "https://github.com/hunmer/dsh-team-control/blob/3bbafd866777dd9097f2d03d3bb6e85aeead5b2b/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-team-control",
+        "versions": [
+          {
+            "version": "0.2.7",
+            "publishTimestamp": 1794716274,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hunmer/dsh-team-control",
+              "commit": "3bbafd866777dd9097f2d03d3bb6e85aeead5b2b",
+              "path": "dsh-plugin"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-team-control-ui",
+      "version": "0.2.4",
+      "path": "dsh-plugin-ui",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hunmer/dsh-team-control",
+        "commit": "3bbafd866777dd9097f2d03d3bb6e85aeead5b2b",
+        "path": "dsh-plugin-ui"
+      },
+      "manifestSha256": "9d9de930b04677035b349e890584d23e07d3b36a4f3b3cf99255a2a94b33f5a8",
+      "manifestUrl": "https://github.com/hunmer/dsh-team-control/blob/3bbafd866777dd9097f2d03d3bb6e85aeead5b2b/dsh-plugin-ui/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-team-control-ui",
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1794716274,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hunmer/dsh-team-control",
+              "commit": "3bbafd866777dd9097f2d03d3bb6e85aeead5b2b",
+              "path": "dsh-plugin-ui"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-team-control",
+      "origin": "npm",
+      "name": "dsh-team-control",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-team-control",
+        "title": {
+          "en": "dsh-team Orchestration",
+          "zh": "dsh-team 编排协同开发"
+        },
+        "description": {
+          "en": "Exposes the local dsh-team sidecar as model-callable tools: teams and members, DAG tasks and dependencies, live status and blockers, messaging, four-domain scope approvals, interrupt/resume, and run reports.",
+          "zh": "把本地 dsh-team sidecar 暴露为模型可调用的工具：建队/加成员、DAG 任务与依赖、实时状态与阻塞、消息、四域越界审批、中断恢复与运行报告。"
+        },
+        "homepage": "https://github.com/hunmer/dsh-team-control#readme",
+        "repository": {
+          "url": "https://github.com/hunmer/dsh-team-control"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "agent-team",
+            "orchestration",
+            "tools"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC10ZWFtIj4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNCIgZmlsbD0iIzFiMjQzMCIvPgogIDxnIHN0cm9rZT0iIzVhZDFjOCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgPHBhdGggZD0iTTMyIDE1djEwIi8+CiAgICA8cGF0aCBkPSJNMzIgMjUgMTcgMzQiLz4KICAgIDxwYXRoIGQ9Ik0zMiAyNWwxNSA5Ii8+CiAgICA8cGF0aCBkPSJNMTcgNDJoMzAiLz4KICAgIDxwYXRoIGQ9Ik0xNyAzNHY4Ii8+CiAgICA8cGF0aCBkPSJNNDcgMzR2OCIvPgogIDwvZz4KICA8ZyBmaWxsPSIjNWFkMWM4Ij4KICAgIDxjaXJjbGUgY3g9IjMyIiBjeT0iMTMiIHI9IjUiLz4KICAgIDxjaXJjbGUgY3g9IjE3IiBjeT0iMzQiIHI9IjQuNSIvPgogICAgPGNpcmNsZSBjeD0iNDciIGN5PSIzNCIgcj0iNC41Ii8+CiAgPC9nPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iNTAiIHI9IjUiIGZpbGw9IiNmMGI0MjkiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.2.7",
+            "publishTimestamp": 1794483438,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "61c2eeb8a448f4ccb0615f9f00e6f773ba19788bfd972c712525957aecd081fe",
+      "evidence": [
+        {
+          "name": "dsh-team-control",
+          "version": "0.2.7",
+          "tarball": "https://registry.npmjs.org/dsh-team-control/-/dsh-team-control-0.2.7.tgz",
+          "integrity": "sha512-reAGTzN1zaarHML6HJxtAGIXwGcmGUkw+dSpWqwiP1cKqflnNgPI9J3p6uFgeTZTgnVOJ/87MUyqie06WfZZyQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-team-control-ui",
+      "origin": "npm",
+      "name": "dsh-team-control-ui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-team-control-ui",
+        "title": {
+          "en": "dsh-team Dashboard",
+          "zh": "dsh-team 仪表盘"
+        },
+        "description": {
+          "en": "Inspect the dsh-team run inside DSH: member board, DAG, event timeline, permission matrix, and scope approvals. Data is proxied same-origin through the Host to the local sidecar.",
+          "zh": "在 DSH 内查看 dsh-team 编排现场：成员看板、DAG、事件时间线、权限矩阵与越界审批。数据经 Host 同源代理读取本地 sidecar。"
+        },
+        "homepage": "https://github.com/hunmer/dsh-team-control#readme",
+        "repository": {
+          "url": "https://github.com/hunmer/dsh-team-control"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "agent-team",
+            "dashboard",
+            "ui"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC10ZWFtIGRhc2hib2FyZCI+CiAgPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiByeD0iMTQiIGZpbGw9IiMxYjI0MzAiLz4KICA8cmVjdCB4PSIxMiIgeT0iMTQiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNCIgcng9IjMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzVhZDFjOCIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPHJlY3QgeD0iMzQiIHk9IjE0IiB3aWR0aD0iMTgiIGhlaWdodD0iMTQiIHJ4PSIzIiBmaWxsPSJub25lIiBzdHJva2U9IiM1YWQxYzgiIHN0cm9rZS13aWR0aD0iMyIvPgogIDxyZWN0IHg9IjEyIiB5PSIzNiIgd2lkdGg9IjQwIiBoZWlnaHQ9IjE0IiByeD0iMyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjBiNDI5IiBzdHJva2Utd2lkdGg9IjMiLz4KICA8Y2lyY2xlIGN4PSIyMSIgY3k9IjIxIiByPSIyLjQiIGZpbGw9IiM1YWQxYzgiLz4KICA8Y2lyY2xlIGN4PSI0MyIgY3k9IjIxIiByPSIyLjQiIGZpbGw9IiM1YWQxYzgiLz4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjQzIiByPSIyLjQiIGZpbGw9IiNmMGI0MjkiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1794650181,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "10a0345214529d5864d28c07493bc693ab8f614c41c112dcb6a3856e6ce18312",
+      "evidence": [
+        {
+          "name": "dsh-team-control-ui",
+          "version": "0.2.4",
+          "tarball": "https://registry.npmjs.org/dsh-team-control-ui/-/dsh-team-control-ui-0.2.4.tgz",
+          "integrity": "sha512-5HIHwKkrzcMRHTooy+dl53m1jypaC+QHAb+oWnNuu5j1gAiTWAWvRFGet2qp4RPLagwjVD0LqzSYzOGU/RQAyg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-team-control",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-team-control-ui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hunmer/dsh-team-control",
+    "commit": "3bbafd866777dd9097f2d03d3bb6e85aeead5b2b",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:23:39.071Z"
+}

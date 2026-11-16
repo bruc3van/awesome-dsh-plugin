@@ -1,0 +1,77 @@
+{
+  "full_name": "bugmaker2/dsh-plugin-template",
+  "originalPosition": 32,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 32,
+  "batch": 1,
+  "stargazers_count": 103,
+  "startedAt": "2026-11-16T05:18:16.922Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b90f52b0b719794d3970c2d1c3ae7dfd28d51d28fb6d0f35d3ea2e02abbaba45",
+      "url": "https://github.com/bugmaker2/dsh-plugin-template/blob/31af7ebeb8d07cff73253f52f9a9f530cde9de9a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "16f6ecfd48ea2abbd97c7fb1365adf06e56e25a6ef6249e6ac540ac3946eb2ac",
+      "url": "https://github.com/bugmaker2/dsh-plugin-template/blob/31af7ebeb8d07cff73253f52f9a9f530cde9de9a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-template",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bugmaker2/dsh-plugin-template",
+        "commit": "31af7ebeb8d07cff73253f52f9a9f530cde9de9a"
+      },
+      "manifestSha256": "ac576b0368a25f966e8f4e4c5db25caa858eb7991d519247d41827edf3ec22f2",
+      "manifestUrl": "https://github.com/bugmaker2/dsh-plugin-template/blob/31af7ebeb8d07cff73253f52f9a9f530cde9de9a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-template",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787806729,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bugmaker2/dsh-plugin-template",
+              "commit": "31af7ebeb8d07cff73253f52f9a9f530cde9de9a"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bugmaker2/dsh-plugin-template",
+    "commit": "31af7ebeb8d07cff73253f52f9a9f530cde9de9a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "template_or_example_review",
+  "finishedAt": "2026-11-16T05:18:26.008Z"
+}

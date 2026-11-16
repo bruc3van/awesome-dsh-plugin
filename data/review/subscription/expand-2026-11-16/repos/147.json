@@ -1,0 +1,71 @@
+{
+  "full_name": "MarioZZJ/cc-notify-hooks",
+  "originalPosition": 147,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T05:21:51.317Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23234573f49bac83c2b4162d3f88c2ccb3521b587cf5474e86228d09d62a2c0b",
+      "url": "https://github.com/MarioZZJ/cc-notify-hooks/blob/8ee94aebb7b4fe47c92f9b1f8192be9e79ae5364/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-notify-hooks",
+      "version": "2.5.0",
+      "path": "plugins/cc-notify-hooks",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MarioZZJ/cc-notify-hooks",
+        "commit": "8ee94aebb7b4fe47c92f9b1f8192be9e79ae5364",
+        "path": "plugins/cc-notify-hooks"
+      },
+      "manifestSha256": "3a20941e3fe81799fa4e0cf728b8275c97040687efbafd2538c498ba064a50f9",
+      "manifestUrl": "https://github.com/MarioZZJ/cc-notify-hooks/blob/8ee94aebb7b4fe47c92f9b1f8192be9e79ae5364/plugins/cc-notify-hooks/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-notify-hooks",
+        "versions": [
+          {
+            "version": "2.5.0",
+            "publishTimestamp": 1794679708,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MarioZZJ/cc-notify-hooks",
+              "commit": "8ee94aebb7b4fe47c92f9b1f8192be9e79ae5364",
+              "path": "plugins/cc-notify-hooks"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MarioZZJ/cc-notify-hooks",
+    "commit": "8ee94aebb7b4fe47c92f9b1f8192be9e79ae5364",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:00.220Z"
+}

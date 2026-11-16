@@ -1,0 +1,85 @@
+{
+  "full_name": "mengwEX/dsh-block-ptc",
+  "originalPosition": 33,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 33,
+  "batch": 1,
+  "stargazers_count": 103,
+  "startedAt": "2026-11-16T05:18:19.314Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1c09b350a71efd21c7898fa08fe6966460b7d5bbb05901b53e3095e61e59a087",
+      "url": "https://github.com/mengwEX/dsh-block-ptc/blob/91de32fe9aef7b53d1bb3121f8da48babf2b210d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b389f508ea30bd1a6ac3570c061b00dcb7839678967db051118b3eb0a37332bf",
+      "url": "https://github.com/mengwEX/dsh-block-ptc/blob/91de32fe9aef7b53d1bb3121f8da48babf2b210d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/context-comparison/README.md",
+      "sha256": "a68d70592cb0780320876bb4e87a85e7e7f6f931682f9ebf1b4a06c8d66ed842",
+      "url": "https://github.com/mengwEX/dsh-block-ptc/blob/91de32fe9aef7b53d1bb3121f8da48babf2b210d/docs/context-comparison/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-block-ptc",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mengwEX/dsh-block-ptc",
+        "commit": "91de32fe9aef7b53d1bb3121f8da48babf2b210d"
+      },
+      "manifestSha256": "b780f3e538da34444536d85e10c8886b3d81ceae35270382d683730cad00a270",
+      "manifestUrl": "https://github.com/mengwEX/dsh-block-ptc/blob/91de32fe9aef7b53d1bb3121f8da48babf2b210d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-block-ptc",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1794231717,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/mengwEX/dsh-block-ptc",
+              "commit": "91de32fe9aef7b53d1bb3121f8da48babf2b210d"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mengwEX/dsh-block-ptc",
+    "commit": "91de32fe9aef7b53d1bb3121f8da48babf2b210d",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:18:29.309Z"
+}

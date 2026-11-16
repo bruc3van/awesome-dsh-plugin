@@ -1,0 +1,77 @@
+{
+  "full_name": "hugoyee75-cmyk/dsh-token-metrics",
+  "originalPosition": 155,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 155,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T05:22:13.013Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "30ac8d6ef4dbcf8491db81f8c813c85deb7e7008d19a4158899c080cbbfde818",
+      "url": "https://github.com/hugoyee75-cmyk/dsh-token-metrics/blob/720a309683b7765bdf73f8954407f9c735d0bcb7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b2edf1b1afedb3f903e595ad89927422d34dc498f20688fc98c5f1e1778f4cdb",
+      "url": "https://github.com/hugoyee75-cmyk/dsh-token-metrics/blob/720a309683b7765bdf73f8954407f9c735d0bcb7/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-token-metrics",
+      "version": "0.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hugoyee75-cmyk/dsh-token-metrics",
+        "commit": "720a309683b7765bdf73f8954407f9c735d0bcb7"
+      },
+      "manifestSha256": "1dd8de8e7563119ce2f3ceb3f5e21d459d7296d541942386aee9b970951c838b",
+      "manifestUrl": "https://github.com/hugoyee75-cmyk/dsh-token-metrics/blob/720a309683b7765bdf73f8954407f9c735d0bcb7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-token-metrics",
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1794535619,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hugoyee75-cmyk/dsh-token-metrics",
+              "commit": "720a309683b7765bdf73f8954407f9c735d0bcb7"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hugoyee75-cmyk/dsh-token-metrics",
+    "commit": "720a309683b7765bdf73f8954407f9c735d0bcb7",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:21.945Z"
+}

@@ -1,0 +1,143 @@
+{
+  "full_name": "xingxingbk-git/dsh-deepseek-chat",
+  "originalPosition": 85,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 85,
+  "batch": 1,
+  "stargazers_count": 36,
+  "startedAt": "2026-11-16T05:19:52.486Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7af3f7a927593e2e44cedfa0fd6184e006378b1142f7af71d68900e63fe56d00",
+      "url": "https://github.com/xingxingbk-git/dsh-deepseek-chat/blob/d3acc6b0ef2eda822f7f311758a001ddea4e1095/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deepseek-chat@0.2.30",
+          "command": "dsh plugin --profile desktop add dsh-deepseek-chat@0.2.30",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/xingxingbk-git/dsh-deepseek-chat",
+          "command": "dsh plugin --profile desktop add https://github.com/xingxingbk-git/dsh-deepseek-chat",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepseek-chat",
+      "version": "0.2.30",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xingxingbk-git/dsh-deepseek-chat",
+        "commit": "d3acc6b0ef2eda822f7f311758a001ddea4e1095"
+      },
+      "manifestSha256": "7493a1331e5ad7191e977cfc3ff86c90284ff44c1a3f371c182b65018409a2e6",
+      "manifestUrl": "https://github.com/xingxingbk-git/dsh-deepseek-chat/blob/d3acc6b0ef2eda822f7f311758a001ddea4e1095/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-rc.1 <0.2.2-0 || >=0.2.2-rc.1 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-deepseek-chat",
+        "versions": [
+          {
+            "version": "0.2.30",
+            "publishTimestamp": 1794658625,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xingxingbk-git/dsh-deepseek-chat",
+              "commit": "d3acc6b0ef2eda822f7f311758a001ddea4e1095"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-rc.1 <0.2.2-0 || >=0.2.2-rc.1 <0.2.3-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-deepseek-chat@0.2.30",
+      "origin": "npm",
+      "name": "dsh-deepseek-chat",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-deepseek-chat",
+        "title": {
+          "en": "DeepSeek Chat",
+          "zh-cn": "DeepSeek Chat"
+        },
+        "description": "CHAT / HARNESS mode switcher for DeepSeek Harness",
+        "homepage": "https://github.com/xingxingbk-git/dsh-deepseek-chat#readme",
+        "repository": {
+          "url": "https://github.com/xingxingbk-git/dsh-deepseek-chat"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "chat",
+            "dsh-plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xODkuMiAxMTQuNTM5QzE5Ni43MTIgMTE0LjUwMyAyMDMuMTcxIDExNi43NTYgMjA4Ljc0OCAxMjEuOTAyQzIxNC40MjIgMTI3LjE5MiAyMTcuNzM3IDEzNC41MzkgMjE3Ljk0MSAxNDIuMjk1QzIxOC4wNTYgMTQ2LjIwOCAyMTcuOTI5IDE1MC4zMTMgMjE3Ljk1OCAxNTQuMjg1QzIxOC4wMyAxNjQuNDA3IDIxOC41NSAxNzIuMDE2IDIxMi41MzEgMTgwLjc4NEMyMTAuNDA2IDE4My44OCAyMDYgMTg3LjU4IDIwNC43OTIgMTg5LjYxMkMyMDMuNjc3IDE5MS40ODYgMjA1Ljk2NSAyMDQuMDQ2IDIwMy4yNjkgMjA2LjIwMkMyMDEuOTc1IDIwNy4yMzYgMjAwLjc5NCAyMDcuMTczIDE5OS40MjIgMjA2LjU5M0MxOTcuNDUgMjA1Ljc1OSAxOTMuOTgxIDIwMy4zMDQgMTkyLjMwNSAyMDIuMTJDMTc5LjE4NSAxOTIuODQ2IDE4MS42MDUgMTk0LjI4NiAxNjYuNTExIDE5NC40MThDMTQ4LjYwMSAxOTQuNDc5IDEzMy4wMzUgMTk2LjI5IDEyNS4xNzkgMTc2LjI3MUMxMzAuMzIxIDE3Ni4xMTMgMTM1Ljc2IDE3Ni4zNiAxNDAuODcxIDE3NS45NzdDMTUyLjIxOCAxNzUuMTI3IDE2NC4wMTggMTY5LjM0IDE3Mi4xOTkgMTYxLjQ4NkMxODEuNTYyIDE1Mi42MDcgMTg3LjQ3MiAxNDAuNjk0IDE4OC44ODEgMTI3Ljg3QzE4OS4yNzUgMTI0LjAyNyAxODkuMTExIDExOC41ODkgMTg5LjIgMTE0LjUzOVoiIGZpbGw9IiM1Qzg5RkUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMjAuNDYxIDUwLjc5NEMxMzguMjk5IDUwLjgwMDQgMTUzLjM0NSA0OC43MzQxIDE2Ny4zOTkgNjIuMjg4MUMxNzUuNjQ2IDcwLjI0MTYgMTgwLjM4NyA4MS4xNTIzIDE4MC41NyA5Mi42MDg2QzE4MC41NzkgOTMuNzE5IDE4MC41NzQgOTQuODI5NSAxODAuNTU2IDk1LjkzOTlMMTgwLjU3IDExNC4zNTRDMTgwLjU3IDExOC45MTEgMTgwLjcxNCAxMjMuNjE4IDE4MC4xNTEgMTI4LjE0M0MxNzcuNjc5IDE0Ny45NzIgMTYwLjkwMiAxNjQuNzgxIDE0MS4wNDEgMTY3LjE4MUMxMzYuMzk2IDE2Ny43NDEgMTMxLjM5MSAxNjcuNTg2IDEyNi43MTcgMTY3LjU5MkwxMDYuNjY2IDE2Ny41NjFDMTAyLjg1MSAxNjcuNTUyIDk3LjM2MDYgMTY3LjM4MiA5My43MzU3IDE2Ny44MTZDOTAuNTMwOCAxNjguMTk5IDgzLjQ1NzkgMTc0LjY3NSA4MC44NDk3IDE3NS41ODdDNzUuOTcxIDE3OS41NjggNjkuNDk0NSAxODMuMjYyIDY0LjIyNjMgMTg2Ljc3NEM2Mi4xMjkyIDE4OC4xNzQgNTcuOTA4OSAxODcuODkgNTcuMzYyNCAxODUuMDQ0QzU1Ljg0OTIgMTc3LjE2NSA1Ny45ODgyIDE2OC4yNTMgNTYuNTYxIDE2MC4zNTRDNTYuMjc4MSAxNTguNzg3IDUxLjg1OTMgMTU1Ljc1MSA1MC43NzQ1IDE1NC40MjZDMzcuMTQ5NiAxMzkuOTkgMzcuNjY3OSAxMjUuMzcyIDM4LjIwOTUgMTA3LjA2NEMzOC4xNTE0IDEwNC41NjYgMzguMDc0MiAxMDEuOTc1IDM4LjEyODggOTkuNDgzNEMzOC4zMjE0IDg2LjEzODIgNDMuODcyIDczLjQzMDYgNTMuNTMxMyA2NC4yMjA1QzY0LjI2NjQgNTMuOTkxMiA3Ni43NTI5IDUwLjUxMjkgOTEuMjUyNiA1MC44NzMzQzEwMC45ODggNTAuNzc3IDExMC43MjUgNTAuNzUwMyAxMjAuNDYxIDUwLjc5NFpNNzYuMzAxMiAxMTcuNTgzQzcxLjYzNCAxMTcuNTgzIDY3Ljg1MDUgMTIxLjM2NiA2Ny44NTA1IDEyNi4wMzNDNjcuODUwNyAxMzAuNzAxIDcxLjYzNDEgMTM0LjQ4NCA3Ni4zMDEyIDEzNC40ODRIMTE2LjY3N0MxMjEuMzQ0IDEzNC40ODQgMTI1LjEyNyAxMzAuNyAxMjUuMTI3IDEyNi4wMzNDMTI1LjEyNyAxMjEuMzY2IDEyMS4zNDQgMTE3LjU4MyAxMTYuNjc3IDExNy41ODNINzYuMzAxMlpNNzYuMzAxMiA4Ni41OTdDNzEuNjM0IDg2LjU5NyA2Ny44NTA1IDkwLjM4MDUgNjcuODUwNSA5NS4wNDc3QzY3Ljg1MDcgOTkuNzE0NyA3MS42MzQxIDEwMy40OTggNzYuMzAxMiAxMDMuNDk4SDE0My45MDZDMTQ4LjU3NCAxMDMuNDk4IDE1Mi4zNTcgOTkuNzE0NyAxNTIuMzU3IDk1LjA0NzdDMTUyLjM1NyA5MC4zODA1IDE0OC41NzQgODYuNTk3IDE0My45MDYgODYuNTk3SDc2LjMwMTJaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMzc3XzIpIi8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMzc3XzIiIHgxPSI0Ni4yNzk3IiB5MT0iNTEuMDQ2MyIgeDI9IjE2MC4yMDEiIHkyPSIxODcuOTA3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiMyOEU5RUEiLz4KPHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiMzMjlGRjYiLz4KPHN0b3Agb2Zmc2V0PSIwLjgiIHN0b3AtY29sb3I9IiM0RDdBRjciLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOTA2MUZCIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.2.30",
+            "publishTimestamp": 1794657091,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-rc.1 <0.2.2-0 || >=0.2.2-rc.1 <0.2.3-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8532d27fa20c016a9571addfa09edb463a1d0628c97fb2a8703e8474e93727bc",
+      "evidence": [
+        {
+          "name": "dsh-deepseek-chat",
+          "version": "0.2.30",
+          "tarball": "https://registry.npmjs.org/dsh-deepseek-chat/-/dsh-deepseek-chat-0.2.30.tgz",
+          "integrity": "sha512-eKkdLkC26fDGceymVm6wTYSYf5LDmwRpB2MyXyUCABIxH7EtC/KB07Iw/6/c78eqYakIvfq5ADkd3vPp9Wv1Lg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-deepseek-chat@0.2.30",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xingxingbk-git/dsh-deepseek-chat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xingxingbk-git/dsh-deepseek-chat",
+    "commit": "d3acc6b0ef2eda822f7f311758a001ddea4e1095",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:20:01.759Z"
+}

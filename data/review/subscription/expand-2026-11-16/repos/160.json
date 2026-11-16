@@ -1,0 +1,180 @@
+{
+  "full_name": "Bosaiting/dsh-process-tree",
+  "originalPosition": 160,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 160,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-11-16T05:22:28.145Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cc5d81503b9184c6834ab7b251a1657490f727abc99dbfb3b943750743efc134",
+      "url": "https://github.com/Bosaiting/dsh-process-tree/blob/1c2bd9f702015418f45cbb3ccba048d3fba19b37/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-process-tree@latest",
+          "command": "dsh plugin --profile web add dsh-process-tree@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-process-tree@0.11.2",
+          "command": "dsh plugin --profile web add dsh-process-tree@0.11.2",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-process-tree",
+      "version": "0.11.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bosaiting/dsh-process-tree",
+        "commit": "1c2bd9f702015418f45cbb3ccba048d3fba19b37"
+      },
+      "manifestSha256": "1b68f811b56d04fbdc16737391d6a1699f22c4ba6e32efa5617bb9eee9653e38",
+      "manifestUrl": "https://github.com/Bosaiting/dsh-process-tree/blob/1c2bd9f702015418f45cbb3ccba048d3fba19b37/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-process-tree",
+        "versions": [
+          {
+            "version": "0.11.2",
+            "publishTimestamp": 1794112120,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Bosaiting/dsh-process-tree",
+              "commit": "1c2bd9f702015418f45cbb3ccba048d3fba19b37"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-process-tree@latest",
+      "origin": "npm",
+      "name": "dsh-process-tree",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-process-tree",
+        "title": "dsh-process-tree",
+        "description": "Configurable process trees with classic curves, botanical artwork, quiet lines and IDE task functions.",
+        "homepage": "https://github.com/Bosaiting/dsh-process-tree#readme",
+        "repository": {
+          "url": "https://github.com/Bosaiting/dsh-process-tree"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "process-tree",
+            "svg",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.11.2",
+            "publishTimestamp": 1794112100,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a13f2d5c2a5029d66536900e3076de78731624436e4c3684080ad108fa9c4536",
+      "evidence": [
+        {
+          "name": "dsh-process-tree",
+          "version": "0.11.2",
+          "tarball": "https://registry.npmjs.org/dsh-process-tree/-/dsh-process-tree-0.11.2.tgz",
+          "integrity": "sha512-QjtOFQAZLm9dYClI/E9IMjV1Q5yJUrtu3/XdTMITwnqUZMNpmnWUqpjTfQ8kMn17vxS6e++X7bGMQMmLGhiycw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-process-tree@0.11.2",
+      "origin": "npm",
+      "name": "dsh-process-tree",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-process-tree",
+        "title": "dsh-process-tree",
+        "description": "Configurable process trees with classic curves, botanical artwork, quiet lines and IDE task functions.",
+        "homepage": "https://github.com/Bosaiting/dsh-process-tree#readme",
+        "repository": {
+          "url": "https://github.com/Bosaiting/dsh-process-tree"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "process-tree",
+            "svg",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.11.2",
+            "publishTimestamp": 1794112100,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a13f2d5c2a5029d66536900e3076de78731624436e4c3684080ad108fa9c4536",
+      "evidence": [
+        {
+          "name": "dsh-process-tree",
+          "version": "0.11.2",
+          "tarball": "https://registry.npmjs.org/dsh-process-tree/-/dsh-process-tree-0.11.2.tgz",
+          "integrity": "sha512-QjtOFQAZLm9dYClI/E9IMjV1Q5yJUrtu3/XdTMITwnqUZMNpmnWUqpjTfQ8kMn17vxS6e++X7bGMQMmLGhiycw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-process-tree@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-process-tree@0.11.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Bosaiting/dsh-process-tree",
+    "commit": "1c2bd9f702015418f45cbb3ccba048d3fba19b37",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:22:48.687Z"
+}
