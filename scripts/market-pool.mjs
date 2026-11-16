@@ -27,7 +27,7 @@ export const STALE_SNAPSHOT_MS = 26 * 60 * 60 * 1000;
 
 // Repositories the publisher itself never lists (spec §4).
 export const SELF_EXCLUDED_REPOS = [
-  'bruc3van/dsh-desktop',
+  'bruc3van/dsh-desktop-pro',
   'bruc3van/safer-dsh-market',
   'bruc3van/awesome-dsh-plugin',
 ];

@@ -94,7 +94,7 @@ mindmap
 
 ### 🖥️ 桌面与终端
 
-- **想要独立的桌面客户端**，而不是浏览器标签页：优先使用[官方客户端](https://www.deepseek.com/harness/)。也可以考虑本列表作者开发的 [dsh-desktop](https://github.com/bruc3van/dsh-desktop) —— 原汁原味的官方 Web UI，不做过多修改；支持 macOS、Windows、Linux 三大平台，其中 Linux 是官方客户端之外独有的差异化特色；关闭窗口任务照跑，常驻托盘随点随开。安装包自带官方运行时，双击即用，不用装 Node.js、也不用敲命令；智能模式自动复用本机已运行的实例，固定地址模式则直连你自己维护的地址。安全上逐层加固——窗口沙箱、导航锁定、更新链路防劫持、权限最小化，内置安全市场，最多精选 1000 款插件，主打先审查、再安装。
+- **想要独立的桌面客户端**，而不是浏览器标签页：优先使用[官方客户端](https://www.deepseek.com/harness/)。也可以考虑本列表作者开发的 [DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) —— DeepSeek Harness 的专业版桌面客户端，主打企业级配置：个人装好就能用，窗口加载原汁原味的官方 Web UI，关闭窗口任务照跑、常驻托盘随点随开；安装包自带官方运行时，双击即用，不用装 Node.js、也不用敲命令，首次启动自动订阅本清单的精选插件列表，在「发现」页浏览和按需安装。放进公司用也合适：IT 部署开源管理服务端（或只放一份配置文件），统一配置模型网关、插件订阅、Skill 和工具权限，员工用公司账号登录即得，带用量额度与防篡改审计。支持 macOS、Windows、Linux 三大平台，其中 Linux 是官方客户端之外独有的差异化特色；安全上逐层加固——窗口沙箱、导航锁定、更新链路校验、权限最小化。
 - **想在终端里用 Claude Code 风格界面**：[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) —— 全屏交互终端：状态行、思考流展开、上下文/TPS 仪表；tianshu 版本还内置 TDD 与证据门工作流。
 - **想在 Windows 上少折腾终端**：[dsh-ops](https://github.com/T-Auto/dsh-ops) —— Windows 提效套装：可选自带 Bash 接管反复报错的内置终端，配原生 Rust 低 token 读取工具，提升 token 效率。
 - **想在安卓手机上本地跑 DSH**：[dsh-mobile-apk](https://github.com/kelai141/dsh-mobile-apk) —— 安卓壳 APK：WebView UI + 内嵌 Termux 运行时、SAF 目录桥、保活服务与看门狗。只想用手机遥控电脑上已在跑的 DSH，见下方 [dsh-pocket](https://github.com/shaobeichen/dsh-pocket)。
@@ -102,7 +102,7 @@ mindmap
 
 | | | |
 | :---: | :---: | :---: |
-| <a href="https://github.com/bruc3van/dsh-desktop"><img src="https://github.com/bruc3van/dsh-desktop/raw/main/docs/images/marketplace.png" alt="dsh-desktop · 插件市场" width="280"></a><br>[dsh-desktop](https://github.com/bruc3van/dsh-desktop) | <a href="https://github.com/bruc3van/dsh-desktop"><img src="https://raw.githubusercontent.com/bruc3van/dsh-desktop/main/docs/images/marketplace-sec-install.png" alt="dsh-desktop · 安全安装" width="280"></a><br>[dsh-desktop](https://github.com/bruc3van/dsh-desktop) | <a href="https://github.com/ccch1mneyyy/dsh-TUI"><img src="https://raw.githubusercontent.com/ccch1mneyyy/dsh-TUI/main/screenshots/social-preview.png" alt="dsh-TUI" width="280"></a><br>[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) |
+| <a href="https://github.com/bruc3van/dsh-desktop-pro"><img src="https://github.com/bruc3van/dsh-desktop-pro/raw/main/docs/images/dsh-desktop-home.png" alt="DSH Desktop Pro · 客户端" width="280"></a><br>[DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) | <a href="https://github.com/bruc3van/dsh-desktop-pro"><img src="https://raw.githubusercontent.com/bruc3van/dsh-desktop-pro/main/docs/images/console-overview.png" alt="DSH Desktop Pro · 管理控制台" width="280"></a><br>[DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) | <a href="https://github.com/ccch1mneyyy/dsh-TUI"><img src="https://raw.githubusercontent.com/ccch1mneyyy/dsh-TUI/main/screenshots/social-preview.png" alt="dsh-TUI" width="280"></a><br>[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) |
 | <a href="https://github.com/huiliyi37/dsh-tianshu-tui"><img src="https://raw.githubusercontent.com/huiliyi37/dsh-tianshu-tui/main/docs/tui-screenshot.jpg" alt="dsh-tianshu-tui" width="280"></a><br>[dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | <a href="https://github.com/T-Auto/dsh-ops"><img src="https://raw.githubusercontent.com/T-Auto/dsh-ops/main/docs/assets/462/row-page.jpg" alt="dsh-ops" width="280"></a><br>[dsh-ops](https://github.com/T-Auto/dsh-ops) | <a href="https://github.com/tw93/Mole"><img src="https://raw.githubusercontent.com/tw93/Mole/main/docs/img/big-mole.png" alt="Mole · 电脑清理工具" width="280"></a><br>[Mole](https://github.com/tw93/Mole) |
 
 ### 🧰 界面与工作台
@@ -258,7 +258,7 @@ mindmap
 
 | 套装 | 适合 | 组合 |
 | --- | --- | --- |
-| 日常体验 | 第一次装插件：先装桌面客户端，再把侧边栏变成工作台 | [dsh-desktop](https://github.com/bruc3van/dsh-desktop) · [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) |
+| 日常体验 | 第一次装插件：先装桌面客户端，再把侧边栏变成工作台 | [DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) · [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) |
 | 安全逛市场 | 先审查再安装；桌面端已内置，纯 Web 用户搜索安装 `bruc3van/safer-dsh-market` | [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) |
 | 终端控 | 喜欢命令行，想要全屏交互终端（二选一） | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) |
 | 搜索与生图 | 对话里搜网页、直接出图（官方已能看图，不必再装视觉插件） | [modsearch](https://github.com/liustack/modsearch) · [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) |
@@ -399,8 +399,8 @@ mindmap
 
 **作者维护**
 
-- **[dsh-desktop](https://github.com/bruc3van/dsh-desktop)** — 让 Agent 安全常驻桌面的独立 DeepSeek Harness 客户端。原汁原味的官方 Web UI，不做过多修改；关窗任务照跑，常驻托盘随点随开；安装包自带官方运行时，双击即用；智能模式复用已有实例、固定地址直连自己的实例。安全上逐层加固，内置安全市场最多精选 1000 款插件，先审查、再安装。（其内置市场的目录数据即来自本仓库的 [`market-v2.json`](./data/market-v2.json)。）
-- **[safer-dsh-market](https://github.com/bruc3van/safer-dsh-market)** — 先审查再安装的 DSH 市场（review-before-install DSH marketplace）。（消费本仓库 [`market-v2.json`](./data/market-v2.json) 的下游市场，DSH 桌面端内置的「插件市场」即由它实现。）
+- **[dsh-desktop-pro](https://github.com/bruc3van/dsh-desktop-pro)** — DSH Desktop Pro：DeepSeek Harness 的专业版桌面客户端，主打企业级配置。个人装好就能用：窗口加载原汁原味的官方 Web UI，关窗任务照跑、常驻托盘随点随开，安装包自带官方运行时双击即用，首次启动自动订阅精选插件列表；企业场景由配套的开源管理服务端完成：IT 统一配置模型网关、插件订阅、Skill 和工具权限，员工公司账号登录即得，带用量额度与防篡改审计。支持 macOS、Windows、Linux。（其预置插件订阅的列表数据即来自本仓库的 [`market-v2.json`](./data/market-v2.json)。）
+- **[safer-dsh-market](https://github.com/bruc3van/safer-dsh-market)** — 先审查再安装的 DSH 市场（review-before-install DSH marketplace）。（消费本仓库 [`market-v2.json`](./data/market-v2.json) 的下游市场；DSH Desktop Pro 0.5.x 曾内置它，0.6.0 起改为按需自行安装。）
 - **[bruce-md2word](https://github.com/bruc3van/bruce-md2word)** — 面向 AI Agent 的 Markdown 转 Word 工具：中文排版、Mermaid 图表转图片、可编辑数学公式，同一份内容提供 Skill、独立 CLI 与 DSH 插件三种形态。（同见目录 [agents-workflows 分册](./catalog/agents-workflows.md)。）
 
 **官方仓库**
