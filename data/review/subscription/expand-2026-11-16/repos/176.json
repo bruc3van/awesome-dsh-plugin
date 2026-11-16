@@ -1,56 +1,163 @@
 {
-  "full_name": "zimodzh/dsh-plugin-dev-skills",
+  "full_name": "jaychang1989/dsh-webchat",
   "originalPosition": 176,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 176,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:30:19.215Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:43:35.321Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "a52782c0d26eb89e40dd087b95f7589953bb971fcf0e636b149866517f3ea591",
-      "url": "https://github.com/zimodzh/dsh-plugin-dev-skills/blob/71e911327a9e0160d014c87530e8e3836c2b38db/README.md",
-      "ambiguous": false,
-      "localOnly": true,
-      "targets": []
-    },
-    {
-      "path": "evals/README.md",
-      "sha256": "d94e23e83a2b4786e1f3681a35a1c401513f136c96a2d4e8b5ef7d24141b3b16",
-      "url": "https://github.com/zimodzh/dsh-plugin-dev-skills/blob/71e911327a9e0160d014c87530e8e3836c2b38db/evals/README.md",
+      "sha256": "8b25c4b0486504236edcbc7a433a6f9a12b5bedb02478f462635cdfeaa28afaa",
+      "url": "https://github.com/jaychang1989/dsh-webchat/blob/2c4c711bf85a1fe15e2d33d6cc12fc81125eb640/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": []
+      "targets": [
+        {
+          "install": "@jaychang1989/dsh-webchat",
+          "command": "dsh plugin --profile desktop add @jaychang1989/dsh-webchat",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/jaychang1989/dsh-webchat",
+          "command": "dsh plugin --profile desktop add github:jaychang1989/dsh-webchat",
+          "profile": "desktop"
+        }
+      ]
     },
     {
-      "path": "examples/README.md",
-      "sha256": "2d01d90ac45c73bd94c566cfd39967a011cea8a76cf3c06ad283b2ddac2b5c9a",
-      "url": "https://github.com/zimodzh/dsh-plugin-dev-skills/blob/71e911327a9e0160d014c87530e8e3836c2b38db/examples/README.md",
+      "path": "README.en.md",
+      "sha256": "0fb20d151fd085f48da067d0e1cd93abc08ee89eed1cbd997a193bb9257765ed",
+      "url": "https://github.com/jaychang1989/dsh-webchat/blob/2c4c711bf85a1fe15e2d33d6cc12fc81125eb640/README.en.md",
       "ambiguous": false,
-      "localOnly": true,
-      "targets": []
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jaychang1989/dsh-webchat",
+          "command": "dsh plugin --profile desktop add @jaychang1989/dsh-webchat",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/jaychang1989/dsh-webchat",
+          "command": "dsh plugin --profile desktop add github:jaychang1989/dsh-webchat",
+          "profile": "desktop"
+        }
+      ]
     }
   ],
-  "candidates": [],
-  "mappingFindings": [],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@jaychang1989/dsh-webchat",
+      "version": "0.7.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jaychang1989/dsh-webchat",
+        "commit": "2c4c711bf85a1fe15e2d33d6cc12fc81125eb640"
+      },
+      "manifestSha256": "4b5f0beb931f3d2a3323bff9be79b3eb8fdf73dabf7a818f24bf6ac8643f225a",
+      "manifestUrl": "https://github.com/jaychang1989/dsh-webchat/blob/2c4c711bf85a1fe15e2d33d6cc12fc81125eb640/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@jaychang1989/dsh-webchat",
+        "versions": [
+          {
+            "version": "0.7.9",
+            "publishTimestamp": 1793938653,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jaychang1989/dsh-webchat",
+              "commit": "2c4c711bf85a1fe15e2d33d6cc12fc81125eb640"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@jaychang1989/dsh-webchat",
+      "origin": "npm",
+      "name": "@jaychang1989/dsh-webchat",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@jaychang1989/dsh-webchat",
+        "title": "@jaychang1989/dsh-webchat",
+        "description": "Opens the official DeepSeek web app (chat.deepseek.com) inside DeepSeek Harness: one sidebar entry renders the real page in the center column, through the same native browser guest the built-in side-card browser uses. No chat UI, no agent tools, no runtime dependencies.",
+        "author": "jaychang1989",
+        "homepage": "https://github.com/jaychang1989/dsh-webchat#readme",
+        "repository": {
+          "url": "https://github.com/jaychang1989/dsh-webchat"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "deepseek",
+            "webchat",
+            "deepseek-web",
+            "launcher",
+            "harness-plugin",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.9",
+            "publishTimestamp": 1793938869,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "400cd90799ec3f36aa60ea3c1c1b0d61393bf4cbb288f5973a3673026f18324b",
+      "evidence": [
+        {
+          "name": "@jaychang1989/dsh-webchat",
+          "version": "0.7.9",
+          "tarball": "https://registry.npmjs.org/@jaychang1989/dsh-webchat/-/dsh-webchat-0.7.9.tgz",
+          "integrity": "sha512-q0t6tLUJZRrCrROmnn7AD7ZkUYqcfSNvv3LtprTaRHbqp1g2aAyxvO+d1o0TPUtOiNGMzXBG7F8a7Vbp3RvCpw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@jaychang1989/dsh-webchat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/jaychang1989/dsh-webchat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/zimodzh/dsh-plugin-dev-skills",
-    "commit": "71e911327a9e0160d014c87530e8e3836c2b38db",
-    "releaseTags": 0,
+    "url": "https://github.com/jaychang1989/dsh-webchat",
+    "commit": "2c4c711bf85a1fe15e2d33d6cc12fc81125eb640",
+    "releaseTags": 2,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "rootManifest": {
-    "name": null,
-    "version": null,
-    "dsh": null,
-    "engines": null
-  },
-  "outcome": "manual_install_review",
-  "finishedAt": "2026-11-16T05:30:27.850Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:43:47.218Z"
 }

@@ -1,127 +1,69 @@
 {
-  "full_name": "iArxic/dsh-agents-notch",
+  "full_name": "chengzhi-c/dsh-wtq-pool",
   "originalPosition": 170,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 170,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:30:01.057Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:43:21.991Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "be49b7e03b9c72c4af0187ff0bfd2faf60998886fde7c977b4e770810b8f0039",
-      "url": "https://github.com/iArxic/dsh-agents-notch/blob/80b0f274ad54731cbe42b404162725e7ffb82fd9/README.md",
+      "sha256": "59692ea3a4b9808176e73d34669246b7a082839d746c96ab09e61adc10a2e2fa",
+      "url": "https://github.com/chengzhi-c/dsh-wtq-pool/blob/bc002f0a9c67db4576b397331232adace6cf7b29/README.md",
       "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-agents-notch",
-          "command": "dsh plugin --profile web add dsh-agents-notch",
-          "profile": "web"
-        }
-      ]
+      "localOnly": true,
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-agents-notch",
-      "version": "0.2.1",
+      "name": "dsh-wtq-pool",
+      "version": "1.3.1",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/iArxic/dsh-agents-notch",
-        "commit": "80b0f274ad54731cbe42b404162725e7ffb82fd9"
+        "url": "https://github.com/chengzhi-c/dsh-wtq-pool",
+        "commit": "bc002f0a9c67db4576b397331232adace6cf7b29"
       },
-      "manifestSha256": "dea0047fffab33d45f65fdd8d4a7f7b4b7f91dd7fe7cf5edb01ebd6a78836720",
-      "manifestUrl": "https://github.com/iArxic/dsh-agents-notch/blob/80b0f274ad54731cbe42b404162725e7ffb82fd9/package.json",
+      "manifestSha256": "83a871961152532b2f1e8a7749338924f27db615e0eafaf4d496eac3e4a5288c",
+      "manifestUrl": "https://github.com/chengzhi-c/dsh-wtq-pool/blob/bc002f0a9c67db4576b397331232adace6cf7b29/package.json",
       "status": "eligible_metadata",
-      "declaredRange": null,
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null,
+      "declaredRange": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.2-rc.1 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-agents-notch",
+        "name": "dsh-wtq-pool",
         "versions": [
           {
-            "version": "0.2.1",
-            "publishTimestamp": 1794341821,
+            "version": "1.3.1",
+            "publishTimestamp": 1794460275,
             "source": {
               "type": "git",
-              "url": "https://github.com/iArxic/dsh-agents-notch",
-              "commit": "80b0f274ad54731cbe42b404162725e7ffb82fd9"
+              "url": "https://github.com/chengzhi-c/dsh-wtq-pool",
+              "commit": "bc002f0a9c67db4576b397331232adace6cf7b29"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.2-rc.1 <0.2.3-0"
             }
           }
         ]
       }
-    },
-    {
-      "target": "dsh-agents-notch",
-      "origin": "npm",
-      "name": "dsh-agents-notch",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-agents-notch",
-        "title": "dsh-agents-notch",
-        "description": "A notch at the top of your screen that shows which DeepSeek Harness sessions are working, which need you, and which are done. Windows only.",
-        "author": "iArxic",
-        "homepage": "https://github.com/iArxic/dsh-agents-notch#readme",
-        "repository": {
-          "url": "https://github.com/iArxic/dsh-agents-notch"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek-harness",
-            "dsh",
-            "dsh-plugin",
-            "overlay",
-            "always-on-top",
-            "sessions",
-            "windows"
-          ]
-        },
-        "versions": [
-          {
-            "version": "0.2.1",
-            "publishTimestamp": 1794341581,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            }
-          }
-        ]
-      },
-      "registrySha256": "06e5be8a05f22912acd3f6cbebb22272ae9cd5ef6b497fd53efe348c0ad7cf0d",
-      "evidence": [
-        {
-          "name": "dsh-agents-notch",
-          "version": "0.2.1",
-          "tarball": "https://registry.npmjs.org/dsh-agents-notch/-/dsh-agents-notch-0.2.1.tgz",
-          "integrity": "sha512-PZPyOyBOui0lOmNTB++DfdEL0mbyDcgafIrpJfUcAZ5yXGe7XE2dOIzQcBXtod6W8xDoJ6CRBXAhHshjsfm64w=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-agents-notch",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/iArxic/dsh-agents-notch",
-    "commit": "80b0f274ad54731cbe42b404162725e7ffb82fd9",
-    "releaseTags": 11,
+    "url": "https://github.com/chengzhi-c/dsh-wtq-pool",
+    "commit": "bc002f0a9c67db4576b397331232adace6cf7b29",
+    "releaseTags": 13,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:30:15.893Z"
+  "finishedAt": "2026-11-16T05:43:29.837Z"
 }

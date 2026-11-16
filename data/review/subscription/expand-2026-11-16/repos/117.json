@@ -1,50 +1,164 @@
 {
-  "full_name": "SQHLnb666/mindsea",
+  "full_name": "gaog88666-boop/dsh-legal-workbench",
   "originalPosition": 117,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 117,
   "batch": 1,
-  "stargazers_count": 25,
-  "startedAt": "2026-11-16T05:27:56.521Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:41:51.707Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "52dec724af8406d7d03ba22d8f73e215add1c076722a91beb8b2334346de0c54",
-      "url": "https://github.com/SQHLnb666/mindsea/blob/169a30394c52bf379979db111c255e45f9643cc3/README.md",
+      "sha256": "96b986f74f6074083a161dc63b80cfcfdc21bfd6e89050948e64c329c3b901c1",
+      "url": "https://github.com/gaog88666-boop/dsh-legal-workbench/blob/1e414819a891dd66cb5486d6ce9c6dace6f0af1d/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": []
+      "targets": [
+        {
+          "install": "dsh-legal-workbench",
+          "command": "dsh plugin --profile desktop add dsh-legal-workbench",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-legal-workbench",
+          "command": "dsh plugin --profile web add dsh-legal-workbench",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "9ba176792e30ce341cb3ca8f4b59663ea6017d6eea04bdae3ea9c0e23b3d5bdc",
+      "url": "https://github.com/gaog88666-boop/dsh-legal-workbench/blob/1e414819a891dd66cb5486d6ce9c6dace6f0af1d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-legal-workbench",
+          "command": "dsh plugin --profile desktop add dsh-legal-workbench",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-legal-workbench",
+          "command": "dsh plugin --profile web add dsh-legal-workbench",
+          "profile": "web"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-mindsea",
-      "version": "0.3.1",
+      "name": "dsh-legal-workbench",
+      "version": "1.1.1",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/SQHLnb666/mindsea",
-        "commit": "169a30394c52bf379979db111c255e45f9643cc3"
+        "url": "https://github.com/gaog88666-boop/dsh-legal-workbench",
+        "commit": "1e414819a891dd66cb5486d6ce9c6dace6f0af1d"
       },
-      "manifestSha256": "865cd1773c171424157dfc13317eceb5979d2e676302761586ddb985b8f27bd5",
-      "manifestUrl": "https://github.com/SQHLnb666/mindsea/blob/169a30394c52bf379979db111c255e45f9643cc3/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
+      "manifestSha256": "144e5960667f5c72342672d05a5b64df7cb2651358d4d4d0f2b31bc809a5c829",
+      "manifestUrl": "https://github.com/gaog88666-boop/dsh-legal-workbench/blob/1e414819a891dd66cb5486d6ce9c6dace6f0af1d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-legal-workbench",
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1793620635,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/gaog88666-boop/dsh-legal-workbench",
+              "commit": "1e414819a891dd66cb5486d6ce9c6dace6f0af1d"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-legal-workbench",
+      "origin": "npm",
+      "name": "dsh-legal-workbench",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-legal-workbench",
+        "title": {
+          "en": "Legal Workbench",
+          "zh": "法律工作台"
+        },
+        "description": {
+          "en": "A legal-practice workbench in the right sidebar: notes and SOPs, recordings with live transcription and annotations, glossary, global search; optional email rules library and usage badges.",
+          "zh": "会话右侧栏的法律实务工作台：笔记与 SOP、录音转写与批注、术语表、全局搜索；可选邮件规则库与用量角标。"
+        },
+        "homepage": "https://github.com/gaog88666-boop/dsh-legal-workbench#readme",
+        "repository": {
+          "url": "https://github.com/gaog88666-boop/dsh-legal-workbench"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "legal",
+            "obsidian",
+            "transcription",
+            "workbench",
+            "lawfirm"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IldvcmtiZW5jaCI+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9IiMyRjZGRUQiLz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgIDxwYXRoIGQ9Ik0xNiAzOGgzMiIvPgogICAgPHBhdGggZD0iTTIxIDM4djExIi8+CiAgICA8cGF0aCBkPSJNNDMgMzh2MTEiLz4KICA8L2c+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjIuNiIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cmVjdCB4PSIxOSIgeT0iMjAiIHdpZHRoPSIxMSIgaGVpZ2h0PSI5IiByeD0iMi40Ii8+CiAgICA8cmVjdCB4PSIzNCIgeT0iMjAiIHdpZHRoPSIxMSIgaGVpZ2h0PSI5IiByeD0iMi40Ii8+CiAgPC9nPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1793620700,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b30126f7edf89520b466e841f26485c002ecc90863246dad0c58ac2f864c86d1",
+      "evidence": [
+        {
+          "name": "dsh-legal-workbench",
+          "version": "1.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-legal-workbench/-/dsh-legal-workbench-1.1.1.tgz",
+          "integrity": "sha512-SW7qH7AY403S1FhSJ1MaTrsdgazonSzORTBC9meEISIXd67ol3FGtswm+MRkJ4xm/OMDgB6xXCuFsQaCe03tWg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-legal-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/SQHLnb666/mindsea",
-    "commit": "169a30394c52bf379979db111c255e45f9643cc3",
+    "url": "https://github.com/gaog88666-boop/dsh-legal-workbench",
+    "commit": "1e414819a891dd66cb5486d6ce9c6dace6f0af1d",
     "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:28:03.555Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:42:02.230Z"
 }

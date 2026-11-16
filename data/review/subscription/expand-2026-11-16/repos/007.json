@@ -1,155 +1,23 @@
 {
-  "full_name": "Yuuyuko-uu/dsh-fish-memory",
+  "full_name": "a86582751/dsh-nexttavern",
   "originalPosition": 7,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 7,
   "batch": 1,
-  "stargazers_count": 520,
-  "startedAt": "2026-11-16T05:24:29.349Z",
+  "stargazers_count": 234,
+  "startedAt": "2026-11-16T05:36:38.313Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
-  "readmes": [
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
     {
-      "path": "README.md",
-      "sha256": "414e6185a250001922006bd09f844cc4d3a5ca1760f375bd222e39125590bf56",
-      "url": "https://github.com/Yuuyuko-uu/dsh-fish-memory/blob/55f4aadf82f94407dd04b7323723d19083df13a8/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-fish-memory",
-          "command": "dsh plugin --profile web add dsh-fish-memory",
-          "profile": "web"
-        },
-        {
-          "install": "https://codeload.github.com/Yuuyuko-uu/dsh-fish-memory/tar.gz/refs/heads/main",
-          "command": "dsh plugin --profile web add https://codeload.github.com/Yuuyuko-uu/dsh-fish-memory/tar.gz/refs/heads/main",
-          "profile": "web"
-        },
-        {
-          "install": "dsh-fish-memory",
-          "command": "dsh plugin add dsh-fish-memory",
-          "profile": "default"
-        },
-        {
-          "install": "dsh-fish-memory",
-          "command": "dsh plugin --profile desktop add dsh-fish-memory",
-          "profile": "desktop"
-        }
-      ]
+      "stage": "repository",
+      "reason": "Command failed: git -c core.hooksPath=/dev/null -c core.fsmonitor=false -c submodule.recurse=false -c gc.auto=0 -c maintenance.auto=false -c protocol.allow=never -c protocol.https.allow=always ls-remote -- https://github.com/a86582751/dsh-nexttavern HEAD refs/tags/*\nfatal: unable to access 'https://github.com/a86582751/dsh-nexttavern/': CONNECT tunnel failed, response 503\n"
     }
   ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-fish-memory",
-      "version": "1.6.1",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/Yuuyuko-uu/dsh-fish-memory",
-        "commit": "55f4aadf82f94407dd04b7323723d19083df13a8"
-      },
-      "manifestSha256": "66de33756205b8893fca56dbc92bf915bf01e0da3fcdd4b81251df7cc51e6f36",
-      "manifestUrl": "https://github.com/Yuuyuko-uu/dsh-fish-memory/blob/55f4aadf82f94407dd04b7323723d19083df13a8/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.2",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-fish-memory",
-        "versions": [
-          {
-            "version": "1.6.1",
-            "publishTimestamp": 1794640185,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/Yuuyuko-uu/dsh-fish-memory",
-              "commit": "55f4aadf82f94407dd04b7323723d19083df13a8"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.2"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "dsh-fish-memory",
-      "origin": "npm",
-      "name": "dsh-fish-memory",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-fish-memory",
-        "title": "dsh-fish-memory",
-        "description": "给 DSH 里的会话一份会淡忘的长期记忆，每条都带时间。",
-        "repository": {
-          "url": "https://github.com/Yuuyuko-uu/dsh-fish-memory"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek-harness",
-            "dsh-plugin",
-            "memory",
-            "long-term-memory",
-            "ai-companion"
-          ]
-        },
-        "versions": [
-          {
-            "version": "1.6.1",
-            "publishTimestamp": 1794548295,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.2"
-            }
-          }
-        ]
-      },
-      "registrySha256": "2e486ecad34577cad611b6d80bec2cd4dd0abf06b8d626de18cfcd778fbb2480",
-      "evidence": [
-        {
-          "name": "dsh-fish-memory",
-          "version": "1.6.1",
-          "tarball": "https://registry.npmjs.org/dsh-fish-memory/-/dsh-fish-memory-1.6.1.tgz",
-          "integrity": "sha512-iZG/ZCCwYOxfbuAAZKcAIpSqZ8tneWrPn9pTLIR6qOrWKD4WvdAHfPUjSaZydFqUBPyCjHcvhn21m/3uhfinzA=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    },
-    {
-      "target": "https://codeload.github.com/Yuuyuko-uu/dsh-fish-memory/tar.gz/refs/heads/main",
-      "status": "unsupported_source",
-      "code": "unsupported_tarball",
-      "reason": "GitHub codeload 是归档下载地址，不是 Git 仓库；format-1 需要 npm 包或经核实的 Git 来源"
-    }
-  ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-fish-memory",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "https://codeload.github.com/Yuuyuko-uu/dsh-fish-memory/tar.gz/refs/heads/main",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
-  "errors": [],
-  "repository": {
-    "url": "https://github.com/Yuuyuko-uu/dsh-fish-memory",
-    "commit": "55f4aadf82f94407dd04b7323723d19083df13a8",
-    "releaseTags": 25,
-    "reader": "github_objects_api"
-  },
-  "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:24:40.829Z"
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T05:36:38.821Z"
 }

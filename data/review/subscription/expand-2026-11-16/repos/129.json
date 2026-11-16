@@ -1,69 +1,81 @@
 {
-  "full_name": "AnacondaKC/dsh-stock-market",
+  "full_name": "Exception-H/dsh-speak-plain",
   "originalPosition": 129,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 129,
   "batch": 1,
-  "stargazers_count": 21,
-  "startedAt": "2026-11-16T05:28:23.753Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:11.192Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "c9c84638dc9e6b1b2458eed69d6b12d0e0622d4eb3fd6cad9ad58772df4cc892",
-      "url": "https://github.com/AnacondaKC/dsh-stock-market/blob/02278af12330102c534c843a668d1c8407dbde1b/README.md",
+      "sha256": "d06cb98589fe14f08270da3f0c432437a8f72d761293396520aed913468736ef",
+      "url": "https://github.com/Exception-H/dsh-speak-plain/blob/05832d49c475e640b8bd581cf2574f8d76ec236a/README.md",
       "ambiguous": false,
-      "localOnly": true,
-      "targets": []
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Exception-H/dsh-speak-plain",
+          "command": "dsh plugin --profile desktop add -w \"github:Exception-H/dsh-speak-plain\"",
+          "profile": "desktop"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-stock-market",
-      "version": "0.2.0",
+      "name": "dsh-speak-plain",
+      "version": "0.3.1",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/AnacondaKC/dsh-stock-market",
-        "commit": "02278af12330102c534c843a668d1c8407dbde1b"
+        "url": "https://github.com/Exception-H/dsh-speak-plain",
+        "commit": "05832d49c475e640b8bd581cf2574f8d76ec236a"
       },
-      "manifestSha256": "52e7260e1282c61b552fb4c2ac49b728601ffe83b6551fbe36a3fe7863359600",
-      "manifestUrl": "https://github.com/AnacondaKC/dsh-stock-market/blob/02278af12330102c534c843a668d1c8407dbde1b/package.json",
+      "manifestSha256": "26649e1f89b0057584bddb5ae02898238b9d3b8b1751f455e21a3be430f43533",
+      "manifestUrl": "https://github.com/Exception-H/dsh-speak-plain/blob/05832d49c475e640b8bd581cf2574f8d76ec236a/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.0.1-rc.5",
+      "declaredRange": ">=0.2.0-0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-stock-market",
+        "name": "dsh-speak-plain",
         "versions": [
           {
-            "version": "0.2.0",
-            "publishTimestamp": 1786602388,
+            "version": "0.3.1",
+            "publishTimestamp": 1793709799,
             "source": {
               "type": "git",
-              "url": "https://github.com/AnacondaKC/dsh-stock-market",
-              "commit": "02278af12330102c534c843a668d1c8407dbde1b"
+              "url": "https://github.com/Exception-H/dsh-speak-plain",
+              "commit": "05832d49c475e640b8bd581cf2574f8d76ec236a"
             },
             "engines": {
-              "dsh": "^0.0.1-rc.5"
+              "dsh": ">=0.2.0-0"
             }
           }
         ]
       }
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Exception-H/dsh-speak-plain",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/AnacondaKC/dsh-stock-market",
-    "commit": "02278af12330102c534c843a668d1c8407dbde1b",
-    "releaseTags": 1,
+    "url": "https://github.com/Exception-H/dsh-speak-plain",
+    "commit": "05832d49c475e640b8bd581cf2574f8d76ec236a",
+    "releaseTags": 2,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:28:31.208Z"
+  "finishedAt": "2026-11-16T05:42:20.262Z"
 }

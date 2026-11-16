@@ -1,263 +1,58 @@
 {
-  "full_name": "MichengAI/dsh-code-review",
+  "full_name": "InariNGT-Ofiicial/dsh-train-pipeline",
   "originalPosition": 160,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 160,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:29:30.292Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:43:03.791Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "516cb78df591b76d0ef3c7dd8a335701cb5cd74e33d5422e8dd8e3c5ad94737b",
-      "url": "https://github.com/MichengAI/dsh-code-review/blob/212f3e1e7ae6116d7c86a24c044d4b2601aa4399/README.md",
+      "sha256": "e4db7932f09d804c7d9c3456d3462141012fe70462ff091c670070d62bc3287c",
+      "url": "https://github.com/InariNGT-Ofiicial/dsh-train-pipeline/blob/81a55fbb6522f3e0313c07a4f52a964958d205be/README.md",
       "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@michengai/dsh-code-review@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/，再运行 dsh --profile web --dump-config，确认插件已加载，并说明如何重启 DSH",
-          "profile": "web"
-        }
-      ]
+      "localOnly": true,
+      "targets": []
     },
     {
-      "path": "README.zh-CN.md",
-      "sha256": "516cb78df591b76d0ef3c7dd8a335701cb5cd74e33d5422e8dd8e3c5ad94737b",
-      "url": "https://github.com/MichengAI/dsh-code-review/blob/212f3e1e7ae6116d7c86a24c044d4b2601aa4399/README.zh-CN.md",
+      "path": "materials/README.md",
+      "sha256": "3f56581b97373620790ee1caac46fb7e6680c7628de1dbce482ec29b73909bc3",
+      "url": "https://github.com/InariNGT-Ofiicial/dsh-train-pipeline/blob/81a55fbb6522f3e0313c07a4f52a964958d205be/materials/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "@michengai/dsh-code-review@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/，再运行 dsh --profile web --dump-config，确认插件已加载，并说明如何重启 DSH",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.en.md",
-      "sha256": "149fae335f6b84b197a78e86eba54002a3b30f324283b03bc0225c6d02efe027",
-      "url": "https://github.com/MichengAI/dsh-code-review/blob/212f3e1e7ae6116d7c86a24c044d4b2601aa4399/README.en.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@michengai/dsh-code-review@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/, then dsh --profile web --dump-config. Confirm the plugin is loaded and explain how to restart DSH and use",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.ja.md",
-      "sha256": "171866a3e4e00594c66c92569e04058588b586eb94f3b9ffe1c4957a59e1742a",
-      "url": "https://github.com/MichengAI/dsh-code-review/blob/212f3e1e7ae6116d7c86a24c044d4b2601aa4399/README.ja.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@michengai/dsh-code-review@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.es.md",
-      "sha256": "9b5ff60ed66b5d515738f96e542d5d7901700eccb4d154b4eb6ccdc8966a814e",
-      "url": "https://github.com/MichengAI/dsh-code-review/blob/212f3e1e7ae6116d7c86a24c044d4b2601aa4399/README.es.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@michengai/dsh-code-review@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/, luego dsh --profile web --dump-config para confirmar que se ha",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.fr.md",
-      "sha256": "dddb1ea9434d64ac530cc7ef86ee57bf35cfefebb7f3a812798c40eeb28e35c7",
-      "url": "https://github.com/MichengAI/dsh-code-review/blob/212f3e1e7ae6116d7c86a24c044d4b2601aa4399/README.fr.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@michengai/dsh-code-review@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/, puis dsh --profile web --dump-config pour confirmer son",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.de.md",
-      "sha256": "b2b6f47c83e91848546a2cac303705afbe794176f04976a72606523f0c5a5f8a",
-      "url": "https://github.com/MichengAI/dsh-code-review/blob/212f3e1e7ae6116d7c86a24c044d4b2601aa4399/README.de.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@michengai/dsh-code-review@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.ru.md",
-      "sha256": "9d4eb16d8c07434eb9c1cb0e9c92a415ace065b20834acde6a46e0853b56d626",
-      "url": "https://github.com/MichengAI/dsh-code-review/blob/212f3e1e7ae6116d7c86a24c044d4b2601aa4399/README.ru.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@michengai/dsh-code-review@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/,",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.pt.md",
-      "sha256": "26702d61b2300b4b67669d629e4c0a5a59c1a07ed14b69d1c6438d36c553c2de",
-      "url": "https://github.com/MichengAI/dsh-code-review/blob/212f3e1e7ae6116d7c86a24c044d4b2601aa4399/README.pt.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@michengai/dsh-code-review@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/, depois dsh --profile web --dump-config para confirmar o",
-          "profile": "web"
-        }
-      ]
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@michengai/dsh-code-review",
-      "version": "1.0.13",
+      "name": "dsh-train-pipeline",
+      "version": "0.5.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/MichengAI/dsh-code-review",
-        "commit": "212f3e1e7ae6116d7c86a24c044d4b2601aa4399"
+        "url": "https://github.com/InariNGT-Ofiicial/dsh-train-pipeline",
+        "commit": "81a55fbb6522f3e0313c07a4f52a964958d205be"
       },
-      "manifestSha256": "d0ec44fafcafc61c544129a6bccdee688616dd6ec5bb5b9bb6cd64ebf0b6f8e5",
-      "manifestUrl": "https://github.com/MichengAI/dsh-code-review/blob/212f3e1e7ae6116d7c86a24c044d4b2601aa4399/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true,
-      "plugin": {
-        "name": "@michengai/dsh-code-review",
-        "versions": [
-          {
-            "version": "1.0.13",
-            "publishTimestamp": 1794638093,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/MichengAI/dsh-code-review",
-              "commit": "212f3e1e7ae6116d7c86a24c044d4b2601aa4399"
-            },
-            "engines": {
-              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "@michengai/dsh-code-review@latest",
-      "origin": "npm",
-      "name": "@michengai/dsh-code-review",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "@michengai/dsh-code-review",
-        "title": {
-          "en": "Code Review",
-          "de": "Code Review",
-          "es": "Code Review",
-          "fr": "Code Review",
-          "ja": "Code Review",
-          "pt": "Code Review",
-          "ru": "Code Review",
-          "zh": "Code Review"
-        },
-        "description": {
-          "en": "Codex-style code review with independent agents, flexible scope, and bilingual reports.",
-          "de": "Codex-Stil Code-Review mit unabhängigen Sub-Agenten und mehrsprachigen Berichten.",
-          "es": "Revisión de código estilo Codex con agentes secundarios independientes y reportes multilingües.",
-          "fr": "Revue de code style Codex avec agents secondaires indépendants et rapports multilingues.",
-          "ja": "Codex スタイルのコードレビュー。独立したサブ Agent を使用し、多言語レポートを返します。",
-          "pt": "Revisão de código no estilo Codex com subagentes independentes e relatórios multilíngues.",
-          "ru": "Анализ кода в стиле Codex с независимыми субагентами и многоязычными отчетами.",
-          "zh": "Codex 风格代码审查，使用独立子 Agent，并返回中英文报告。"
-        },
-        "author": "MichengAI",
-        "homepage": "https://github.com/MichengAI/dsh-code-review#readme",
-        "repository": {
-          "url": "https://github.com/MichengAI/dsh-code-review"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh",
-            "deepseek-harness",
-            "codex",
-            "code-review",
-            "review",
-            "subagent"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z19jcl9nIiB4MT0iNiIgeTE9IjYiIHgyPSIyNiIgeTI9IjI2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMzQjgyRjYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMUQ0RUQ4Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8IS0tIEJhY2tncm91bmQgQ29kZSBCcmFja2V0cyA8IC8gPiAtLT4KICA8cGF0aCBkPSJNNyAxM0wzLjUgMTYuNUw3IDIwIiBzdHJva2U9IiM5NEEzQjgiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNMjkgMTNMMzIuNSAxNi41TDI5IDIwIiBzdHJva2U9IiM5NEEzQjgiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8IS0tIE1hZ25pZnlpbmcgTGVucyBSaW5nIC0tPgogIDxjaXJjbGUgY3g9IjE2LjUiIGN5PSIxNS41IiByPSI4IiBzdHJva2U9InVybCgjZHNoX3N2Z19jcl9nKSIgc3Ryb2tlLXdpZHRoPSIzIiBmaWxsPSIjM0I4MkY2IiBmaWxsLW9wYWNpdHk9IjAuMTIiLz4KICA8IS0tIEhhbmRsZSAtLT4KICA8bGluZSB4MT0iMjIuNSIgeTE9IjIxLjUiIHgyPSIyOC41IiB5Mj0iMjcuNSIgc3Ryb2tlPSJ1cmwoI2RzaF9zdmdfY3JfZykiIHN0cm9rZS13aWR0aD0iMy41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8IS0tIFZlcmlmaWVkIFBhc3MgU2hpZWxkIGluc2lkZSBMZW5zIC0tPgogIDxwYXRoIGQ9Ik0xNi41IDEwLjVMMjAuNSAxMlYxNUMyMC41IDE3LjUgMTguNSAxOS4zIDE2LjUgMjBDMTQuNSAxOS4zIDEyLjUgMTcuNSAxMi41IDE1VjEyTDE2LjUgMTAuNVoiIGZpbGw9IiMxMEI5ODEiLz4KICA8cGF0aCBkPSJNMTQuOCAxNS4yTDE2LjIgMTYuNkwxOC40IDEzLjgiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIxLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4=",
-        "versions": [
-          {
-            "version": "1.0.13",
-            "publishTimestamp": 1794638453,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
-            }
-          }
-        ]
-      },
-      "registrySha256": "f7cdd5aa62b31fe29e282725734f7394c62af29b205ca0327858a37235040503",
-      "evidence": [
-        {
-          "name": "@michengai/dsh-code-review",
-          "version": "1.0.13",
-          "tarball": "https://registry.npmjs.org/@michengai/dsh-code-review/-/dsh-code-review-1.0.13.tgz",
-          "integrity": "sha512-AaT+E4s0WCel5hMERUORRWhnPMRyKt3sHHY3ugwkBF9JJTmWmJo/CjRrObxuhDJjbdXDviKKtFNZzP2b2DGMyA=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true
+      "manifestSha256": "27f2bf5f1d8ff5a6db83141b0cb92fe8643728447f866f188f26f58f47323112",
+      "manifestUrl": "https://github.com/InariNGT-Ofiicial/dsh-train-pipeline/blob/81a55fbb6522f3e0313c07a4f52a964958d205be/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "@michengai/dsh-code-review@latest",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/MichengAI/dsh-code-review",
-    "commit": "212f3e1e7ae6116d7c86a24c044d4b2601aa4399",
-    "releaseTags": 31,
+    "url": "https://github.com/InariNGT-Ofiicial/dsh-train-pipeline",
+    "commit": "81a55fbb6522f3e0313c07a4f52a964958d205be",
+    "releaseTags": 3,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:29:53.161Z"
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-16T05:43:12.614Z"
 }

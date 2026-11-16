@@ -17,5 +17,4 @@
 | bugmaker2/dsh-plugin-template | template_or_example_review |
 | liangdabiao/dsh-plugin-developer-skill | template_or_example_review |
 | Horizon215/dsh-plugins | template_or_example_review |
-| bugmaker2/dsh-plugin-template | template_or_example_review |
-| liangdabiao/dsh-plugin-developer-skill | template_or_example_review |
+| omdsh-dev/plugin-template | template_or_example_review |

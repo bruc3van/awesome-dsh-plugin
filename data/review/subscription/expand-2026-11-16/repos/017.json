@@ -1,186 +1,23 @@
 {
-  "full_name": "luobosibing2/dsh-jev-plugin",
+  "full_name": "XieRW/dsh-beauty-skins",
   "originalPosition": 17,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 17,
   "batch": 1,
-  "stargazers_count": 214,
-  "startedAt": "2026-11-16T05:24:54.320Z",
+  "stargazers_count": 101,
+  "startedAt": "2026-11-16T05:37:31.497Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
-  "readmes": [
-    {
-      "path": "README.md",
-      "sha256": "46f819ee710080ef9c83596a4291046376837c72af78dad486d3a43d4a3aadc8",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/README.md",
-      "ambiguous": false,
-      "localOnly": true,
-      "targets": []
-    },
-    {
-      "path": "README.zh-CN.md",
-      "sha256": "787d8eaa9761f42f948734d370d08c39b389587413d35be0f14d64f9f00a1707",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/README.zh-CN.md",
-      "ambiguous": false,
-      "localOnly": true,
-      "targets": []
-    },
-    {
-      "path": "docs/testing/2026-10-07-luna-decisions/README.md",
-      "sha256": "8c28863afdbcd22faf775792b151ebb94d95353010f779e1c52db63541c37390",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/docs/testing/2026-10-07-luna-decisions/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "docs/testing/2026-10-09-harness-compatibility/README.md",
-      "sha256": "d78d8575eff5fa1c1342620c26f598ebc2317128df09edee17bd5272eb7a058d",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/docs/testing/2026-10-09-harness-compatibility/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "docs/testing/2026-10-11-harness-version-compatibility/README.md",
-      "sha256": "3e54f1648e85e18a05e1c13cada345f4f7203639eace579e711ae062e4a1fceb",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/docs/testing/2026-10-11-harness-version-compatibility/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "docs/testing/2026-10-21-harness-compatibility/README.md",
-      "sha256": "b1bbd09acbd4cea01ef131dd53ec6c4572135c253117bad47a2d8cdc970930ad",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/docs/testing/2026-10-21-harness-compatibility/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "packages/jev/README.md",
-      "sha256": "7df7b1c21bcdad8e601ea6c4f3a8fc0d1ea2964b3b0f022ac7e7697d95382708",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/packages/jev/README.md",
-      "ambiguous": false,
-      "localOnly": true,
-      "targets": []
-    },
-    {
-      "path": "docs/testing/2026-10-02-completion-skill/README.md",
-      "sha256": "f8e3208c17f4172b268f35b3d7d6b0eec76d7232296c2909279ee1752d2d685e",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/docs/testing/2026-10-02-completion-skill/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "docs/testing/compatibility-smoke/README.md",
-      "sha256": "bbb58dd57c3aadfc3584c02dd39aee0858b5d6442632980a4b61bb3b3614f484",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/docs/testing/compatibility-smoke/README.md",
-      "ambiguous": false,
-      "localOnly": true,
-      "targets": []
-    },
-    {
-      "path": "bench/deepswe/README.md",
-      "sha256": "bcf89587a2ac43e95d089cb62383d7df148aad985b08d271ca9184d79969dd0d",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/bench/deepswe/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "bench/selection/README.md",
-      "sha256": "c4b9768b9ce3c41713ca9567b5db257e4239020e89c2bcf3405c026e4ccb0e3b",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/bench/selection/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "bench/deepswe/README.zh-CN.md",
-      "sha256": "739c1b33b9fa2faeecbe6e05b5ccfe6c7e924e69acc8589b8e5e16de76f1079a",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/bench/deepswe/README.zh-CN.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "bench/completion_skill/README.md",
-      "sha256": "c75074015fdb1061891713bb73acb7b64a6fb87eaf43d7623442e5b3606ebb97",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/bench/completion_skill/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "docs/testing/2026-10-05-completion-recovery/README.md",
-      "sha256": "74f76b3eed0f543790731892f02b53c0b78607ccfea629291048132bbe5fdfe3",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/docs/testing/2026-10-05-completion-recovery/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "docs/testing/2026-10-01-glob-ranking/README.md",
-      "sha256": "b95263a74f66048fbf482dd128a807213273d744db7a53b7e189052ecb16de58",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/docs/testing/2026-10-01-glob-ranking/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": ".agents/notes/README.md",
-      "sha256": "14ad840e7fdb43e1de313ee446071fdd80b49074a40a71009da2344de5e9595d",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/.agents/notes/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "bench/selection/README.zh-CN.md",
-      "sha256": "c50ee0ffaaf7bfe1b75c0534954f7708dd79acc1158e3be35ed175d1b7ecaeff",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/bench/selection/README.zh-CN.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "bench/completion_skill/README.zh-CN.md",
-      "sha256": "ee82d371369d43872f9c05ca632744efbdb756238419bcab0d55e5a0f002873a",
-      "url": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/bench/completion_skill/README.zh-CN.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    }
-  ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "@dsh-jev/plugin",
-      "version": "0.1.0",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/luobosibing2/dsh-jev-plugin",
-        "commit": "c115bf4fb49b13da25eb857f7b0d6d241562a1d2"
-      },
-      "manifestSha256": "bd25e63cb69cf7d593b034555336c0b2efa55d7ddbead128e731ad50e8486522",
-      "manifestUrl": "https://github.com/luobosibing2/dsh-jev-plugin/blob/c115bf4fb49b13da25eb857f7b0d6d241562a1d2/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
-    }
-  ],
+  "readmes": [],
+  "candidates": [],
   "mappingFindings": [],
-  "errors": [],
-  "repository": {
-    "url": "https://github.com/luobosibing2/dsh-jev-plugin",
-    "commit": "c115bf4fb49b13da25eb857f7b0d6d241562a1d2",
-    "releaseTags": 1,
-    "reader": "github_objects_api"
-  },
-  "discoveryWarnings": [],
-  "outcome": "manual_install_review",
-  "finishedAt": "2026-11-16T05:25:24.690Z"
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: git -c core.hooksPath=/dev/null -c core.fsmonitor=false -c submodule.recurse=false -c gc.auto=0 -c maintenance.auto=false -c protocol.allow=never -c protocol.https.allow=always ls-remote -- https://github.com/XieRW/dsh-beauty-skins HEAD refs/tags/*\nfatal: unable to access 'https://github.com/XieRW/dsh-beauty-skins/': CONNECT tunnel failed, response 503\n"
+    }
+  ],
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T05:37:54.193Z"
 }

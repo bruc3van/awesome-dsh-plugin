@@ -1,130 +1,66 @@
 {
-  "full_name": "zaizaizhao/dsh-branchmark",
+  "full_name": "flywalker68/dsh-memory-keeper",
   "originalPosition": 116,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 116,
   "batch": 1,
-  "stargazers_count": 26,
-  "startedAt": "2026-11-16T05:27:50.282Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:41:47.258Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "6667d668da0fd80238061b641a4a5271a46a0f387cfd750af1a612d92041a78a",
-      "url": "https://github.com/zaizaizhao/dsh-branchmark/blob/1cee35dba4076f57f8586d1e69d7327fc0b86ee0/README.md",
+      "sha256": "ddc21c1bb26fcc7cf03429db11cd9638d8e370c8ff82df180c26eb81e7ea8872",
+      "url": "https://github.com/flywalker68/dsh-memory-keeper/blob/56860da0d1ad6d5d605c45390d940f63fcc59eea/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-branchmark@0.1.2-rc.2",
-          "command": "dsh plugin --profile web add dsh-branchmark@0.1.2-rc.2",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "packages/bundle/README.md",
-      "sha256": "08985424ef977859d600e1dc5ec2ec7dddbde304f307cc359348ccddd50f3e52",
-      "url": "https://github.com/zaizaizhao/dsh-branchmark/blob/1cee35dba4076f57f8586d1e69d7327fc0b86ee0/packages/bundle/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-branchmark@0.1.2-rc.2",
-          "command": "dsh plugin --profile web add dsh-branchmark@0.1.2-rc.2",
-          "profile": "web"
-        }
-      ]
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-branchmark",
-      "version": "0.1.2-rc.2",
-      "path": "packages/bundle",
+      "name": "dsh-memory-keeper",
+      "version": "0.4.0",
+      "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/zaizaizhao/dsh-branchmark",
-        "commit": "1cee35dba4076f57f8586d1e69d7327fc0b86ee0",
-        "path": "packages/bundle"
+        "url": "https://github.com/flywalker68/dsh-memory-keeper",
+        "commit": "56860da0d1ad6d5d605c45390d940f63fcc59eea"
       },
-      "manifestSha256": "7459e160db5c365f53f464bdb07569ea7fb830c5f098d7cf46ce7e4e2f5e369a",
-      "manifestUrl": "https://github.com/zaizaizhao/dsh-branchmark/blob/1cee35dba4076f57f8586d1e69d7327fc0b86ee0/packages/bundle/package.json",
-      "status": "needs_upstream_declaration",
-      "reason": "DSH range \"catalog:\" is not a valid SemVer range",
-      "declaredRange": null
-    },
-    {
-      "target": "dsh-branchmark@0.1.2-rc.2",
-      "origin": "npm",
-      "name": "dsh-branchmark",
+      "manifestSha256": "b0aec4dd3c360201adc0f738e220688a76f97051dbe2b65f4b4322afeea995b6",
+      "manifestUrl": "https://github.com/flywalker68/dsh-memory-keeper/blob/56860da0d1ad6d5d605c45390d940f63fcc59eea/package.json",
       "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
       "plugin": {
-        "name": "dsh-branchmark",
-        "title": "dsh-branchmark",
-        "description": "Excerpt-driven session branching and conversation lineage for DeepSeek Harness",
-        "author": "zaizaizhao",
-        "homepage": "https://github.com/zaizaizhao/dsh-branchmark#readme",
-        "repository": {
-          "url": "https://github.com/zaizaizhao/dsh-branchmark",
-          "directory": "packages/bundle"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek-harness",
-            "dsh-plugin",
-            "conversation-branching",
-            "session-lineage",
-            "side-chat",
-            "local-first"
-          ]
-        },
+        "name": "dsh-memory-keeper",
         "versions": [
           {
-            "version": "0.1.2-rc.2",
-            "publishTimestamp": 1788702418,
+            "version": "0.4.0",
+            "publishTimestamp": 1794746438,
             "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": "0.1.2-rc.1"
+              "type": "git",
+              "url": "https://github.com/flywalker68/dsh-memory-keeper",
+              "commit": "56860da0d1ad6d5d605c45390d940f63fcc59eea"
             }
           }
         ]
-      },
-      "registrySha256": "1d3c4f18137c902309da733601c6ed4021fe0b2a731204e9d8dc2a6659c32322",
-      "evidence": [
-        {
-          "name": "dsh-branchmark",
-          "version": "0.1.2-rc.2",
-          "tarball": "https://registry.npmjs.org/dsh-branchmark/-/dsh-branchmark-0.1.2-rc.2.tgz",
-          "integrity": "sha512-K8ZOt4kzG3G0+GYP5vZSfyg60QHeOVHGHnAx2YlMh0OMG24BM+DdMf9B+Z3xqmlyaoewmlEeNeG/x2PXRTZFqQ=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
+      }
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-branchmark@0.1.2-rc.2",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/zaizaizhao/dsh-branchmark",
-    "commit": "1cee35dba4076f57f8586d1e69d7327fc0b86ee0",
-    "releaseTags": 5,
+    "url": "https://github.com/flywalker68/dsh-memory-keeper",
+    "commit": "56860da0d1ad6d5d605c45390d940f63fcc59eea",
+    "releaseTags": 3,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:28:11.296Z"
+  "finishedAt": "2026-11-16T05:41:54.685Z"
 }

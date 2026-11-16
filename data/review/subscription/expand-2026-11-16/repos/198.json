@@ -1,74 +1,62 @@
 {
-  "full_name": "LYL-Z/dsh-armorbreak",
+  "full_name": "LeemanCheung/dsh-token-usage",
   "originalPosition": 198,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 198,
   "batch": 1,
-  "stargazers_count": 15,
-  "startedAt": "2026-11-16T05:31:02.468Z",
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T05:44:16.287Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "0a1048164d7383cd7d6ad761adffdd06dda87bdd88cfbd6f5f142db3eaa330c6",
-      "url": "https://github.com/LYL-Z/dsh-armorbreak/blob/fa493b527ce078873dbcb2fc95d0e5e2d71cf496/README.md",
+      "sha256": "aac586b22a5d7abc549db7a8fdaec539229fc739541d34ef0548c54eca7e70fb",
+      "url": "https://github.com/LeemanCheung/dsh-token-usage/blob/94db895a097297a425415323d7fcda85632adaab/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "README.zh-CN.md",
-      "sha256": "9a4c2b47787f709fccf5ea4bb32c642fd1636558e218e2ba3057e6e5aa245cb0",
-      "url": "https://github.com/LYL-Z/dsh-armorbreak/blob/fa493b527ce078873dbcb2fc95d0e5e2d71cf496/README.zh-CN.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
+      "targets": [
+        {
+          "install": "https://github.com/LeemanCheung/dsh-token-usage",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-token-usage",
+          "profile": "web"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-armorbreak",
-      "version": "2.4.0-preview.1",
+      "name": "dsh-token-usage",
+      "version": "0.5.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/LYL-Z/dsh-armorbreak",
-        "commit": "fa493b527ce078873dbcb2fc95d0e5e2d71cf496"
+        "url": "https://github.com/LeemanCheung/dsh-token-usage",
+        "commit": "94db895a097297a425415323d7fcda85632adaab"
       },
-      "manifestSha256": "cba38701365995528c7f91c44bb13ba721a481a4ae064f7e73fac6f9c505b954",
-      "manifestUrl": "https://github.com/LYL-Z/dsh-armorbreak/blob/fa493b527ce078873dbcb2fc95d0e5e2d71cf496/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": null,
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null,
-      "plugin": {
-        "name": "dsh-armorbreak",
-        "versions": [
-          {
-            "version": "2.4.0-preview.1",
-            "publishTimestamp": 1794745337,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/LYL-Z/dsh-armorbreak",
-              "commit": "fa493b527ce078873dbcb2fc95d0e5e2d71cf496"
-            }
-          }
-        ]
-      }
+      "manifestSha256": "7fa350e83bef619f8fc189272aa9e0354c1e637aa3dc9905f4c76964c3bee073",
+      "manifestUrl": "https://github.com/LeemanCheung/dsh-token-usage/blob/94db895a097297a425415323d7fcda85632adaab/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LeemanCheung/dsh-token-usage",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/LYL-Z/dsh-armorbreak",
-    "commit": "fa493b527ce078873dbcb2fc95d0e5e2d71cf496",
-    "releaseTags": 13,
+    "url": "https://github.com/LeemanCheung/dsh-token-usage",
+    "commit": "94db895a097297a425415323d7fcda85632adaab",
+    "releaseTags": 1,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:31:11.679Z"
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:44:24.012Z"
 }

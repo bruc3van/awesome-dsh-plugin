@@ -1,27 +1,19 @@
 {
-  "full_name": "chenw2759-wq/dsh-IDE",
+  "full_name": "AnacondaKC/dsh-stock-market",
   "originalPosition": 75,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 75,
   "batch": 1,
-  "stargazers_count": 43,
-  "startedAt": "2026-11-16T05:26:40.736Z",
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T05:40:12.332Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "bd90dd7381c9b7ad7b8044a70b5ea506379e3c357708a6259bfd615b9da408cc",
-      "url": "https://github.com/chenw2759-wq/dsh-IDE/blob/df62364bc386777edebcab96b55afa711271a0b0/README.md",
-      "ambiguous": false,
-      "localOnly": true,
-      "targets": []
-    },
-    {
-      "path": "README.en.md",
-      "sha256": "309c7b1e643c2d4caf0c9ce808f1d140bdb75b021d7b965b84e5baacd6709590",
-      "url": "https://github.com/chenw2759-wq/dsh-IDE/blob/df62364bc386777edebcab96b55afa711271a0b0/README.en.md",
+      "sha256": "c9c84638dc9e6b1b2458eed69d6b12d0e0622d4eb3fd6cad9ad58772df4cc892",
+      "url": "https://github.com/AnacondaKC/dsh-stock-market/blob/02278af12330102c534c843a668d1c8407dbde1b/README.md",
       "ambiguous": false,
       "localOnly": true,
       "targets": []
@@ -30,62 +22,48 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@deepseek-ai/dsh-client-ui-aionui-panel",
+      "name": "dsh-stock-market",
       "version": "0.2.0",
-      "path": "packages/dsh-aionui-panel",
+      "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/chenw2759-wq/dsh-IDE",
-        "commit": "df62364bc386777edebcab96b55afa711271a0b0",
-        "path": "packages/dsh-aionui-panel"
+        "url": "https://github.com/AnacondaKC/dsh-stock-market",
+        "commit": "02278af12330102c534c843a668d1c8407dbde1b"
       },
-      "manifestSha256": "77fe96dbfd4dd2d68dac15b697f502afbcf627fbad2c88409c274eaa29c5c6e1",
-      "manifestUrl": "https://github.com/chenw2759-wq/dsh-IDE/blob/df62364bc386777edebcab96b55afa711271a0b0/packages/dsh-aionui-panel/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
-    },
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-easyssh",
-      "version": "0.1.0",
-      "path": "packages/dsh-easyssh",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/chenw2759-wq/dsh-IDE",
-        "commit": "df62364bc386777edebcab96b55afa711271a0b0",
-        "path": "packages/dsh-easyssh"
-      },
-      "manifestSha256": "03ae9d6ba606fdf318227844267a009241bb9e532a7c9e9060165425caed82ca",
-      "manifestUrl": "https://github.com/chenw2759-wq/dsh-IDE/blob/df62364bc386777edebcab96b55afa711271a0b0/packages/dsh-easyssh/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
-    },
-    {
-      "origin": "repository_discovery",
-      "name": "@deepseek-ai/dsh-ssh",
-      "version": "0.1.1",
-      "path": "packages/dsh-ssh",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/chenw2759-wq/dsh-IDE",
-        "commit": "df62364bc386777edebcab96b55afa711271a0b0",
-        "path": "packages/dsh-ssh"
-      },
-      "manifestSha256": "68a0e832a507f1b2162ee629fd715f1bd86ef49fc2c46e91c16c522cbbd8e4fb",
-      "manifestUrl": "https://github.com/chenw2759-wq/dsh-IDE/blob/df62364bc386777edebcab96b55afa711271a0b0/packages/dsh-ssh/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
+      "manifestSha256": "52e7260e1282c61b552fb4c2ac49b728601ffe83b6551fbe36a3fe7863359600",
+      "manifestUrl": "https://github.com/AnacondaKC/dsh-stock-market/blob/02278af12330102c534c843a668d1c8407dbde1b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.0.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-stock-market",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1786602388,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AnacondaKC/dsh-stock-market",
+              "commit": "02278af12330102c534c843a668d1c8407dbde1b"
+            },
+            "engines": {
+              "dsh": "^0.0.1-rc.5"
+            }
+          }
+        ]
+      }
     }
   ],
   "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/chenw2759-wq/dsh-IDE",
-    "commit": "df62364bc386777edebcab96b55afa711271a0b0",
+    "url": "https://github.com/AnacondaKC/dsh-stock-market",
+    "commit": "02278af12330102c534c843a668d1c8407dbde1b",
     "releaseTags": 1,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "manual_install_review",
-  "finishedAt": "2026-11-16T05:26:55.725Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:40:19.742Z"
 }

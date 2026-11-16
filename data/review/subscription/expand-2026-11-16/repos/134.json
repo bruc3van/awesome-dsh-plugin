@@ -1,77 +1,162 @@
 {
-  "full_name": "Mrkennyhungry/dsh-cua",
+  "full_name": "Scorp1o117/dsh-tdai-memory",
   "originalPosition": 134,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 134,
   "batch": 1,
-  "stargazers_count": 21,
-  "startedAt": "2026-11-16T05:28:31.223Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:20.037Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "938cc10d38c435fcc76934c9c7f6db8f031dcf02e4b0c610052824320fca5946",
-      "url": "https://github.com/Mrkennyhungry/dsh-cua/blob/c735c1458e65f0f7db49f360f4258d7503db0614/README.md",
+      "sha256": "e4ad6a803d5206cf26fb6090201f2f5b9ac295853a25b925c368a99605bdc121",
+      "url": "https://github.com/Scorp1o117/dsh-tdai-memory/blob/e426d833d40413f6c4edca0ba39b05d073d5d254/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tdai-memory",
+          "command": "dsh plugin --profile desktop add dsh-tdai-memory",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d639d3cca9713b09a23bd87939ba08302338c541e0ddc90384ff20c5b7115e1d",
+      "url": "https://github.com/Scorp1o117/dsh-tdai-memory/blob/e426d833d40413f6c4edca0ba39b05d073d5d254/README.zh.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": []
     },
     {
       "path": "README.en.md",
-      "sha256": "d71ea447f964a1757a70bb68c55b9b5acd7f4290bfda1e23974145711727b634",
-      "url": "https://github.com/Mrkennyhungry/dsh-cua/blob/c735c1458e65f0f7db49f360f4258d7503db0614/README.en.md",
+      "sha256": "543c8e43c68db2e8ade5e66020212c481c61c79297c8c5672658dc9c959158e0",
+      "url": "https://github.com/Scorp1o117/dsh-tdai-memory/blob/e426d833d40413f6c4edca0ba39b05d073d5d254/README.en.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": []
+      "targets": [
+        {
+          "install": "dsh-tdai-memory",
+          "command": "dsh plugin --profile desktop add dsh-tdai-memory",
+          "profile": "desktop"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-doraemon",
-      "version": "0.4.12",
+      "name": "dsh-tdai-memory",
+      "version": "0.4.9",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/Mrkennyhungry/dsh-cua",
-        "commit": "c735c1458e65f0f7db49f360f4258d7503db0614"
+        "url": "https://github.com/Scorp1o117/dsh-tdai-memory",
+        "commit": "e426d833d40413f6c4edca0ba39b05d073d5d254"
       },
-      "manifestSha256": "512836f1f7b6fe62767907975234b83453fba65a2e0199a82866d1623617bedf",
-      "manifestUrl": "https://github.com/Mrkennyhungry/dsh-cua/blob/c735c1458e65f0f7db49f360f4258d7503db0614/package.json",
+      "manifestSha256": "b987deac98138faa576699959d282e1698a47876284825b8aa5af8e13c7d1718",
+      "manifestUrl": "https://github.com/Scorp1o117/dsh-tdai-memory/blob/e426d833d40413f6c4edca0ba39b05d073d5d254/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.2",
+      "declaredRange": ">=0.2.0-rc.2 || >=0.2.1-rc.1 || >=0.2.2-rc.1",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-doraemon",
+        "name": "dsh-tdai-memory",
         "versions": [
           {
-            "version": "0.4.12",
-            "publishTimestamp": 1793894036,
+            "version": "0.4.9",
+            "publishTimestamp": 1794712242,
             "source": {
               "type": "git",
-              "url": "https://github.com/Mrkennyhungry/dsh-cua",
-              "commit": "c735c1458e65f0f7db49f360f4258d7503db0614"
+              "url": "https://github.com/Scorp1o117/dsh-tdai-memory",
+              "commit": "e426d833d40413f6c4edca0ba39b05d073d5d254"
             },
             "engines": {
-              "dsh": ">=0.2.1-rc.2"
+              "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.1 || >=0.2.2-rc.1"
             }
           }
         ]
       }
+    },
+    {
+      "target": "dsh-tdai-memory",
+      "origin": "npm",
+      "name": "dsh-tdai-memory",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tdai-memory",
+        "title": {
+          "en": "Long-term memory",
+          "zh": "长期记忆"
+        },
+        "description": {
+          "en": "Organize long-term memories from conversations and recall relevant context, with search-only and paused modes.",
+          "zh": "自动整理对话中的长期记忆，并在相关对话中召回；支持仅搜索和暂停模式。"
+        },
+        "homepage": "https://github.com/Scorp1o117/dsh-tdai-memory",
+        "repository": {
+          "url": "https://github.com/Scorp1o117/dsh-tdai-memory"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "memory",
+            "tencentdb",
+            "agent-memory",
+            "rag",
+            "vector-search",
+            "persona"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.9",
+            "publishTimestamp": 1794712362,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.1 || >=0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ebaf0a08850e6267f4ccced300ffbc78a14d0dbeac62e488f115e4a658a9ca89",
+      "evidence": [
+        {
+          "name": "dsh-tdai-memory",
+          "version": "0.4.9",
+          "tarball": "https://registry.npmjs.org/dsh-tdai-memory/-/dsh-tdai-memory-0.4.9.tgz",
+          "integrity": "sha512-QT/7mnExs/II8x6WuZTk9JGOPIHpFEKmOe/ARaJPExKgqC8oUwvebeBAaIJ8QaRdw/u0HjcuxfSJkW9sn/qRfA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tdai-memory",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/Mrkennyhungry/dsh-cua",
-    "commit": "c735c1458e65f0f7db49f360f4258d7503db0614",
-    "releaseTags": 8,
+    "url": "https://github.com/Scorp1o117/dsh-tdai-memory",
+    "commit": "e426d833d40413f6c4edca0ba39b05d073d5d254",
+    "releaseTags": 30,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:28:39.917Z"
+  "finishedAt": "2026-11-16T05:42:30.739Z"
 }

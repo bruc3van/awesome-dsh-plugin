@@ -1,26 +1,45 @@
 {
-  "full_name": "Bai-2008/dsh-better-panel",
+  "full_name": "Kevinwu901113/dsh-dot",
   "originalPosition": 130,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 130,
   "batch": 1,
-  "stargazers_count": 21,
-  "startedAt": "2026-11-16T05:28:24.816Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:13.272Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "7b3aaa5f1f3abe515f32dab695fe1cd9b1988b3d6762db172200e8acbc1f0814",
-      "url": "https://github.com/Bai-2008/dsh-better-panel/blob/4f798ffcecf17d52cd15aaa617124c21b9784c12/README.md",
+      "sha256": "f8842a71da49d6195b2647f4dff3e8685f8a58b850b3b7dbae83fd01ceb38c40",
+      "url": "https://github.com/Kevinwu901113/dsh-dot/blob/f56e6f80c27f9e4c35ca41131ac11152fdcb41e2/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/Bai-2008/dsh-better-panel",
-          "command": "dsh plugin --profile tui add github:Bai-2008/dsh-better-panel",
-          "profile": "tui"
+          "install": "https://github.com/Kevinwu901113/dsh-dot",
+          "command": "dsh plugin --profile desktop add github:Kevinwu901113/dsh-dot",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-dot-life",
+          "command": "dsh plugin --profile web add dsh-dot-life",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "8097922f7079573b405bef7493c99cc3aec2b0a83aebe1319ee4df93b54041e0",
+      "url": "https://github.com/Kevinwu901113/dsh-dot/blob/f56e6f80c27f9e4c35ca41131ac11152fdcb41e2/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-dot-life",
+          "command": "dsh plugin --profile web add dsh-dot-life",
+          "profile": "web"
         }
       ]
     }
@@ -28,35 +47,124 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-better-panel",
-      "version": "2.0.0",
+      "name": "dsh-dot-life",
+      "version": "0.23.2",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/Bai-2008/dsh-better-panel",
-        "commit": "4f798ffcecf17d52cd15aaa617124c21b9784c12"
+        "url": "https://github.com/Kevinwu901113/dsh-dot",
+        "commit": "f56e6f80c27f9e4c35ca41131ac11152fdcb41e2"
       },
-      "manifestSha256": "2ce47bf96ec6a610a1498b7a8a148430605c41c65b6be731ebf03e32af812101",
-      "manifestUrl": "https://github.com/Bai-2008/dsh-better-panel/blob/4f798ffcecf17d52cd15aaa617124c21b9784c12/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
+      "manifestSha256": "28e9728d25754aab20831e612f1d68c4f72b6421c07941b1832cfcc9e35705f7",
+      "manifestUrl": "https://github.com/Kevinwu901113/dsh-dot/blob/f56e6f80c27f9e4c35ca41131ac11152fdcb41e2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-dot-life",
+        "versions": [
+          {
+            "version": "0.23.2",
+            "publishTimestamp": 1794583244,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Kevinwu901113/dsh-dot",
+              "commit": "f56e6f80c27f9e4c35ca41131ac11152fdcb41e2"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-dot-life",
+      "origin": "npm",
+      "name": "dsh-dot-life",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-dot-life",
+        "title": "dsh-dot-life",
+        "description": "dot — a character who lives on her own phone, for DeepSeek Harness (dsh): an Android phone the plugin installs and runs, her own QQ, memory and a diary from real events, a life between conversations (幕间), an optional microVM computer with approval gates. One plugin, seven components; lives next to qq-bridge.",
+        "homepage": "https://github.com/Kevinwu901113/dsh-dot#readme",
+        "repository": {
+          "url": "https://github.com/Kevinwu901113/dsh-dot"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "deepseek-harness",
+            "companion",
+            "character",
+            "养鱼",
+            "陪伴",
+            "qq",
+            "napcat",
+            "android",
+            "emulator",
+            "phone",
+            "memory",
+            "diary",
+            "interlude",
+            "hds-interlude",
+            "persona",
+            "microvm",
+            "microsandbox",
+            "qq-bridge"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.23.2",
+            "publishTimestamp": 1794583542,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3b171f2c510e8fb32fb990c45e420017fe6c8204a54d648c839655fd4ddcf6de",
+      "evidence": [
+        {
+          "name": "dsh-dot-life",
+          "version": "0.23.2",
+          "tarball": "https://registry.npmjs.org/dsh-dot-life/-/dsh-dot-life-0.23.2.tgz",
+          "integrity": "sha512-bHk//Y9/azrH0dxLrfTQZp8l5TimDy04dBDeoIsvP2Z+xyFM19BOOzqIoHLJGkB7NDSxUrYqUHM2x+lh++2vcA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "https://github.com/Bai-2008/dsh-better-panel",
+      "target": "https://github.com/Kevinwu901113/dsh-dot",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dot-life",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/Bai-2008/dsh-better-panel",
-    "commit": "4f798ffcecf17d52cd15aaa617124c21b9784c12",
-    "releaseTags": 2,
+    "url": "https://github.com/Kevinwu901113/dsh-dot",
+    "commit": "f56e6f80c27f9e4c35ca41131ac11152fdcb41e2",
+    "releaseTags": 9,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:28:32.073Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:42:24.977Z"
 }

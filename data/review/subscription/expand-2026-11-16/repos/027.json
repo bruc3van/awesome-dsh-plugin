@@ -1,167 +1,29 @@
 {
-  "full_name": "dingchenhui0618-arch/dsh-in-hand",
+  "full_name": "zenx0x/allinluna",
   "originalPosition": 27,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 27,
   "batch": 1,
-  "stargazers_count": 105,
-  "startedAt": "2026-11-16T05:25:15.961Z",
+  "stargazers_count": 65,
+  "startedAt": "2026-11-16T05:37:54.917Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
-  "readmes": [
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
     {
-      "path": "README.md",
-      "sha256": "bab7c6e9f54cc6bbc326afdcc0c1de671012409b9b62b963c01d33eef9ef5c78",
-      "url": "https://github.com/dingchenhui0618-arch/dsh-in-hand/blob/04be1b98839c549bb607fd30fbddd79a0b37b748/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-in-hand",
-          "command": "dsh plugin --profile web add dsh-in-hand",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.en.md",
-      "sha256": "5998d67b43ca55719574304f80eff996ad36b6740403e99ed9e941fa5f3b62c7",
-      "url": "https://github.com/dingchenhui0618-arch/dsh-in-hand/blob/04be1b98839c549bb607fd30fbddd79a0b37b748/README.en.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-in-hand",
-          "command": "dsh plugin --profile web add dsh-in-hand",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "docs/screenshots/README.md",
-      "sha256": "57066089ff22d00477819c4429084b5af2e7c7c7d7315fd32d86836f8541d335",
-      "url": "https://github.com/dingchenhui0618-arch/dsh-in-hand/blob/04be1b98839c549bb607fd30fbddd79a0b37b748/docs/screenshots/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "docs/deploy/README.md",
-      "sha256": "0d9b536b7801c3a8771ac5c05140fc8c6030fa52913eb6bec89ec5409b04fb24",
-      "url": "https://github.com/dingchenhui0618-arch/dsh-in-hand/blob/04be1b98839c549bb607fd30fbddd79a0b37b748/docs/deploy/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/zenx0x/allinluna/git/commits/b471713089d8352c1c97e05fe3d25907a4164b1a\n"
     }
   ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-in-hand",
-      "version": "1.8.28",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/dingchenhui0618-arch/dsh-in-hand",
-        "commit": "04be1b98839c549bb607fd30fbddd79a0b37b748"
-      },
-      "manifestSha256": "19a28935bfb43810b10e058694ecca53acb09c9c47965841d6927baca1a20f44",
-      "manifestUrl": "https://github.com/dingchenhui0618-arch/dsh-in-hand/blob/04be1b98839c549bb607fd30fbddd79a0b37b748/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-in-hand",
-        "versions": [
-          {
-            "version": "1.8.28",
-            "publishTimestamp": 1794281066,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/dingchenhui0618-arch/dsh-in-hand",
-              "commit": "04be1b98839c549bb607fd30fbddd79a0b37b748"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.2 <0.3.0"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "dsh-in-hand",
-      "origin": "npm",
-      "name": "dsh-in-hand",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-in-hand",
-        "title": "dsh-in-hand",
-        "description": "掌上 DSH：DeepSeek Harness 的手机端，不用装 App——会话、实时对话、交付文件、后台任务与待批准。 / DSH in hand: the phone client for DeepSeek Harness with no app to install.",
-        "author": "dingchenhui0618-arch",
-        "homepage": "https://github.com/dingchenhui0618-arch/dsh-in-hand#readme",
-        "repository": {
-          "url": "https://github.com/dingchenhui0618-arch/dsh-in-hand"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek",
-            "harness",
-            "dsh",
-            "dsh-plugin",
-            "phone",
-            "mobile",
-            "client",
-            "pwa",
-            "remote",
-            "monitor",
-            "observability"
-          ]
-        },
-        "versions": [
-          {
-            "version": "1.8.28",
-            "publishTimestamp": 1794281378,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.2 <0.3.0"
-            }
-          }
-        ]
-      },
-      "registrySha256": "6674cf57133f7de6416903587b4c748ce5f7d2dc1ad50fdb491d039338402d1b",
-      "evidence": [
-        {
-          "name": "dsh-in-hand",
-          "version": "1.8.28",
-          "tarball": "https://registry.npmjs.org/dsh-in-hand/-/dsh-in-hand-1.8.28.tgz",
-          "integrity": "sha512-ihk0nrSwO1N0Olh3TGhTFKVVIlYTcYld1QEco9uvLMitosOcOvuqvuPuKM0UHM7p6xm/fCUYX/Fm0U1qhufPDw=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    }
-  ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-in-hand",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
-  "errors": [],
   "repository": {
-    "url": "https://github.com/dingchenhui0618-arch/dsh-in-hand",
-    "commit": "04be1b98839c549bb607fd30fbddd79a0b37b748",
-    "releaseTags": 48,
+    "url": "https://github.com/zenx0x/allinluna",
+    "commit": "b471713089d8352c1c97e05fe3d25907a4164b1a",
+    "releaseTags": 12,
     "reader": "github_objects_api"
   },
-  "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:25:29.429Z"
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T05:38:57.330Z"
 }

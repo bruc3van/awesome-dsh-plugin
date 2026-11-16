@@ -1,25 +1,39 @@
 {
-  "full_name": "wee-b/disk-sentinel",
+  "full_name": "mario841859784/dsh-expert-orchestrator",
   "originalPosition": 146,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 146,
   "batch": 1,
-  "stargazers_count": 19,
-  "startedAt": "2026-11-16T05:28:59.495Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:39.452Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "23c6e90cd83634953a20dad3a7f4d5ea0aedeac3cae4b72bcd7d38ebca985dd6",
-      "url": "https://github.com/wee-b/disk-sentinel/blob/e6e8c051e3be54cc409d8897ea7020a3c0d1f203/README.md",
+      "sha256": "c97cc5c459487efb73e189f63e71e1a991c918bc200509e124a3a9c162300322",
+      "url": "https://github.com/mario841859784/dsh-expert-orchestrator/blob/edcc76eed14ccd8915542dede48879bf6b13dbc4/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "git+https://github.com/wee-b/disk-sentinel.git",
-          "command": "dsh plugin --profile web add git+https://github.com/wee-b/disk-sentinel.git",
+          "install": "https://github.com/mario841859784/dsh-expert-orchestrator",
+          "command": "dsh plugin --profile web add github:mario841859784/dsh-expert-orchestrator",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e2667a238e6f46ff838ee7d3361fb8068b51d6e7645d698a81f348faae504e75",
+      "url": "https://github.com/mario841859784/dsh-expert-orchestrator/blob/edcc76eed14ccd8915542dede48879bf6b13dbc4/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/mario841859784/dsh-expert-orchestrator",
+          "command": "dsh plugin --profile web add github:mario841859784/dsh-expert-orchestrator",
           "profile": "web"
         }
       ]
@@ -28,33 +42,33 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@dsh-plugin/disk-sentinel",
-      "version": "0.1.1",
+      "name": "dsh-expert-orchestrator",
+      "version": "2.14.2",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/wee-b/disk-sentinel",
-        "commit": "e6e8c051e3be54cc409d8897ea7020a3c0d1f203"
+        "url": "https://github.com/mario841859784/dsh-expert-orchestrator",
+        "commit": "edcc76eed14ccd8915542dede48879bf6b13dbc4"
       },
-      "manifestSha256": "28b55da92bf9530ccecf4df7ceffb6c81393bd6e22e92623f3577703f1106b65",
-      "manifestUrl": "https://github.com/wee-b/disk-sentinel/blob/e6e8c051e3be54cc409d8897ea7020a3c0d1f203/package.json",
+      "manifestSha256": "a14bbf6ef223e542d09beb9ec03bcac7f77bdfae7b28587d99777510f230215b",
+      "manifestUrl": "https://github.com/mario841859784/dsh-expert-orchestrator/blob/edcc76eed14ccd8915542dede48879bf6b13dbc4/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.1.1-rc.2 || 0.1.5-rc.2 || 0.2.0-rc.2",
+      "declaredRange": ">=0.1.7-alpha.2 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-0 <0.3.0-0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "@dsh-plugin/disk-sentinel",
+        "name": "dsh-expert-orchestrator",
         "versions": [
           {
-            "version": "0.1.1",
-            "publishTimestamp": 1790842097,
+            "version": "2.14.2",
+            "publishTimestamp": 1794538530,
             "source": {
               "type": "git",
-              "url": "https://github.com/wee-b/disk-sentinel",
-              "commit": "e6e8c051e3be54cc409d8897ea7020a3c0d1f203"
+              "url": "https://github.com/mario841859784/dsh-expert-orchestrator",
+              "commit": "edcc76eed14ccd8915542dede48879bf6b13dbc4"
             },
             "engines": {
-              "dsh": "^0.1.1-rc.2 || 0.1.5-rc.2 || 0.2.0-rc.2"
+              "dsh": ">=0.1.7-alpha.2 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-0 <0.3.0-0"
             }
           }
         ]
@@ -64,18 +78,18 @@
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "git+https://github.com/wee-b/disk-sentinel.git",
+      "target": "https://github.com/mario841859784/dsh-expert-orchestrator",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/wee-b/disk-sentinel",
-    "commit": "e6e8c051e3be54cc409d8897ea7020a3c0d1f203",
-    "releaseTags": 1,
+    "url": "https://github.com/mario841859784/dsh-expert-orchestrator",
+    "commit": "edcc76eed14ccd8915542dede48879bf6b13dbc4",
+    "releaseTags": 23,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:29:06.809Z"
+  "finishedAt": "2026-11-16T05:42:49.057Z"
 }

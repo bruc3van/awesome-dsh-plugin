@@ -1,49 +1,25 @@
 {
-  "full_name": "NeoHotaru/dsh-read-animation",
+  "full_name": "KouzakiUmi/dsh-antigravity-acp",
   "originalPosition": 161,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 161,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:29:37.847Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:43:07.936Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "9fa9ca58d8be15fdfc9ee0e7f91fa7b03487282f630f63b5ba04e929738dcdd1",
-      "url": "https://github.com/NeoHotaru/dsh-read-animation/blob/d3b92f1a666970cbb2be2ba6b2c9115048390960/README.md",
+      "sha256": "10728c9e269d22bfe83c78f14883697e8585aaa6baf49648e308c1988ce7822d",
+      "url": "https://github.com/KouzakiUmi/dsh-antigravity-acp/blob/d8d846973424400d4a153181d53767c7d83e290a/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-read-animation",
-          "command": "dsh plugin --profile web add dsh-read-animation",
-          "profile": "web"
-        },
-        {
-          "install": "https://github.com/NeoHotaru/dsh-read-animation#v0.1.0",
-          "command": "dsh plugin --profile web add github:NeoHotaru/dsh-read-animation#v0.1.0",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.zh.md",
-      "sha256": "f46e95638cd2c5c795f2e003e47dff32bd77fc2e76e0af6437c6ac2081457f03",
-      "url": "https://github.com/NeoHotaru/dsh-read-animation/blob/d3b92f1a666970cbb2be2ba6b2c9115048390960/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-read-animation",
-          "command": "dsh plugin --profile web add dsh-read-animation",
-          "profile": "web"
-        },
-        {
-          "install": "https://github.com/NeoHotaru/dsh-read-animation#v0.1.0",
-          "command": "dsh plugin --profile web add github:NeoHotaru/dsh-read-animation#v0.1.0",
+          "install": "dsh-bundle-antigravity-host",
+          "command": "dsh plugin --profile web add dsh-bundle-antigravity-host",
           "profile": "web"
         }
       ]
@@ -52,170 +28,106 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-read-animation",
-      "version": "0.1.2",
+      "name": "dsh-bundle-antigravity-host",
+      "version": "0.1.38",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/NeoHotaru/dsh-read-animation",
-        "commit": "d3b92f1a666970cbb2be2ba6b2c9115048390960"
+        "url": "https://github.com/KouzakiUmi/dsh-antigravity-acp",
+        "commit": "d8d846973424400d4a153181d53767c7d83e290a"
       },
-      "manifestSha256": "1c412ae2102ad111c805931f20c8c01299db055738123f1283df8ef491eb791f",
-      "manifestUrl": "https://github.com/NeoHotaru/dsh-read-animation/blob/d3b92f1a666970cbb2be2ba6b2c9115048390960/package.json",
+      "manifestSha256": "e5dd65f553e416a4d4c390527cd1ebb12b92c22ef1febeedbf604022bfa5209f",
+      "manifestUrl": "https://github.com/KouzakiUmi/dsh-antigravity-acp/blob/d8d846973424400d4a153181d53767c7d83e290a/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.1.3-alpha.2",
+      "declaredRange": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-0 <0.3.0-0",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-read-animation",
+        "name": "dsh-bundle-antigravity-host",
         "versions": [
           {
-            "version": "0.1.2",
-            "publishTimestamp": 1794145098,
+            "version": "0.1.38",
+            "publishTimestamp": 1794431345,
             "source": {
               "type": "git",
-              "url": "https://github.com/NeoHotaru/dsh-read-animation",
-              "commit": "d3b92f1a666970cbb2be2ba6b2c9115048390960"
+              "url": "https://github.com/KouzakiUmi/dsh-antigravity-acp",
+              "commit": "d8d846973424400d4a153181d53767c7d83e290a"
             },
             "engines": {
-              "dsh": ">=0.1.3-alpha.2"
+              "dsh": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-0 <0.3.0-0"
             }
           }
         ]
       }
     },
     {
-      "target": "dsh-read-animation",
+      "target": "dsh-bundle-antigravity-host",
       "origin": "npm",
-      "name": "dsh-read-animation",
+      "name": "dsh-bundle-antigravity-host",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "dsh-read-animation",
-        "title": "dsh-read-animation",
-        "description": "Let a DeepSeek Harness agent actually see an animated GIF or animated WebP: decode every frame, sample the animation across time, and hand the model a labelled sequence of real frames instead of the single first frame the harness otherwise delivers.",
-        "author": "NeoHotaru",
-        "homepage": "https://github.com/NeoHotaru/dsh-read-animation#readme",
+        "name": "dsh-bundle-antigravity-host",
+        "title": "dsh-bundle-antigravity-host",
+        "description": "DeepSeek Harness host bundle that talks to the official Antigravity ACP server over stdio (Agent Client Protocol v1).",
+        "homepage": "https://github.com/KouzakiUmi/dsh-antigravity-acp#readme",
         "repository": {
-          "url": "https://github.com/NeoHotaru/dsh-read-animation"
+          "url": "https://github.com/KouzakiUmi/dsh-antigravity-acp"
         },
         "metadata": {
           "keywords": [
             "dsh",
             "dsh-plugin",
-            "deepseek-harness",
-            "deepseek-harness-plugin",
-            "gif",
-            "animation",
-            "animated-webp",
-            "frames",
-            "vision",
-            "multimodal"
+            "dsh-bundle",
+            "antigravity",
+            "acp",
+            "agent-client-protocol",
+            "gemini",
+            "model-provider"
           ]
         },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkZvdXIgZnJhbWVzIG9mIG9uZSBhbmltYXRpb24sIHdpdGggdGhlIHN1YmplY3QgZ3Jvd2luZyBhY3Jvc3MgdGhlbSI+CiAgPCEtLQogICAgVGhlIHBsdWdpbidzIHdob2xlIGlkZWEgaW4gb25lIG1hcms6IG9uZSBhbmltYXRpb24gc2hvd24gYXMgYSBncmlkIG9mIGZyYW1lcwogICAgb3ZlciB0aW1lLCB3aXRoIHRoZSBzdWJqZWN0IGNoYW5naW5nIGFjcm9zcyB0aGVtLgoKICAgIERyYXduIGZvciB0aGUgc2l6ZSBpdCBpcyBhY3R1YWxseSByZW5kZXJlZCBhdCwgcm91Z2hseSA0MHB4IG9uIGEgYnVuZGxlIGNhcmQ6CiAgICBmb3VyIGJvbGQgc2hhcGVzLCBubyBncmFkaWVudHMsIG5vIHRleHQsIG5vdGhpbmcgdGhhdCB0dXJucyB0byBtdXNoLiBUaGUKICAgIGJhY2tncm91bmQgaXMgYSBtaWQtdG9uZSB0aWxlIHNvIHRoZSBtYXJrIHJlYWRzIG9uIGJvdGggYSBsaWdodCBhbmQgYSBkYXJrCiAgICBjYXJkLCBhbmQgdGhlIGZyYW1lcyBpbnNpZGUgY2FycnkgdGhlIGNvbnRyYXN0LgogIC0tPgogIDxyZWN0IHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgcng9IjIxIiBmaWxsPSIjMjYzMzNGIi8+CiAgPGcgZmlsbD0iI0VERjJGOCI+CiAgICA8cmVjdCB4PSIxMCIgeT0iMTAiIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgcng9IjciLz4KICAgIDxyZWN0IHg9IjUwIiB5PSIxMCIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByeD0iNyIvPgogICAgPHJlY3QgeD0iMTAiIHk9IjUwIiB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHJ4PSI3Ii8+CiAgICA8cmVjdCB4PSI1MCIgeT0iNTAiIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgcng9IjciLz4KICA8L2c+CiAgPCEtLQogICAgVGhlIHN1YmplY3QgZ3Jvd3MgYWNyb3NzIHRoZSBmb3VyIG1vbWVudHMuIFNpemUgaXMgYSBwcm9wZXJ0eSB0aGUgZXllIHJlYWRzCiAgICBldmVuIHdoZW4gaXQgc2NhbnMgYSBncmlkIG91dCBvZiBvcmRlciwgd2hpY2ggYSBwb3NpdGlvbiBjaGFuZ2UgaXMgbm90OiBpbiBhCiAgICAyeDIgbGF5b3V0LCByZWFkaW5nIG9yZGVyIGp1bXBzIGZyb20gdGhlIHRvcCByaWdodCBiYWNrIHRvIHRoZSBib3R0b20gbGVmdCwgc28KICAgIGZvdXIgZG90cyBlYWNoIG1vdmluZyBpbnNpZGUgdGhlaXIgb3duIGZyYW1lIHJlYWQgYXMgZm91ciB1bnJlbGF0ZWQgdGhpbmdzLgogIC0tPgogIDxnIGZpbGw9IiMyNjMzM0YiPgogICAgPGNpcmNsZSBjeD0iMjgiIGN5PSIyOCIgcj0iNSIvPgogICAgPGNpcmNsZSBjeD0iNjgiIGN5PSIyOCIgcj0iNyIvPgogICAgPGNpcmNsZSBjeD0iMjgiIGN5PSI2OCIgcj0iOSIvPgogIDwvZz4KICA8IS0tIFRoZSBsYXN0IHNhbXBsZWQgbW9tZW50IGlzIHRoZSBvbmUgdGhlIHNoZWV0IGNhbGxzIG91dCwgc28gaXQgaXMgdGhlIG9uZQogICAgICAgc2hhcGUgaW4gdGhlIG1hcmsgdGhhdCBpcyBub3QgZ3JleXNjYWxlLiAtLT4KICA8Y2lyY2xlIGN4PSI2OCIgY3k9IjY4IiByPSIxMSIgZmlsbD0iI0M5NzYxQiIvPgo8L3N2Zz4K",
         "versions": [
           {
-            "version": "0.1.2",
-            "publishTimestamp": 1794145422,
+            "version": "0.1.38",
+            "publishTimestamp": 1794431533,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
             },
             "engines": {
-              "dsh": ">=0.1.3-alpha.2"
+              "dsh": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-0 <0.3.0-0"
             }
           }
         ]
       },
-      "registrySha256": "11ea8a3a104d92ec91e42a36e850e0fa5c26cbe41060c520e2cb94f39f3fd958",
+      "registrySha256": "576c9a8424523135d49096e22027f5c362b9cb9f76f849d9da56bdd937271f85",
       "evidence": [
         {
-          "name": "dsh-read-animation",
-          "version": "0.1.2",
-          "tarball": "https://registry.npmjs.org/dsh-read-animation/-/dsh-read-animation-0.1.2.tgz",
-          "integrity": "sha512-Hgdwb0epp1y6lzcI/ZZcarHOmpAd5ednsQNzesvrWabW9X+lisCsky5a67KHbeGoR/TqD5ImTMTsZHGOFtMPrQ=="
+          "name": "dsh-bundle-antigravity-host",
+          "version": "0.1.38",
+          "tarball": "https://registry.npmjs.org/dsh-bundle-antigravity-host/-/dsh-bundle-antigravity-host-0.1.38.tgz",
+          "integrity": "sha512-3NJh5FTBL+m1qwsni6zyCKjUNkkMzYEe6bj/W3uqOVxs4F1hytp2cXql/1HTz7OuTRnl7j+4myyQQeRVGzoWXQ=="
         }
       ],
       "diagnostics": [],
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": true
-    },
-    {
-      "target": "https://github.com/NeoHotaru/dsh-read-animation#v0.1.0",
-      "origin": "git_target",
-      "name": "dsh-read-animation",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-read-animation",
-        "title": "dsh-read-animation",
-        "description": "Let a DeepSeek Harness agent actually see an animated GIF or animated WebP: decode every frame, sample the animation across time, and hand the model a labelled sequence of real frames instead of the single first frame the harness otherwise delivers.",
-        "author": "NeoHotaru",
-        "homepage": "https://github.com/NeoHotaru/dsh-read-animation#readme",
-        "repository": {
-          "url": "https://github.com/NeoHotaru/dsh-read-animation"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh",
-            "dsh-plugin",
-            "deepseek-harness",
-            "deepseek-harness-plugin",
-            "gif",
-            "animation",
-            "animated-webp",
-            "frames",
-            "vision",
-            "multimodal"
-          ]
-        },
-        "versions": [
-          {
-            "version": "0.1.0",
-            "publishTimestamp": 1791983749,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/NeoHotaru/dsh-read-animation",
-              "commit": "9931b380439bc0344845dfe8a0da59c5c5e296a7"
-            },
-            "engines": {
-              "dsh": ">=0.1.7-alpha.1"
-            }
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "path": "",
-          "commit": "9931b380439bc0344845dfe8a0da59c5c5e296a7",
-          "name": "dsh-read-animation",
-          "version": "0.1.0",
-          "url": "https://github.com/NeoHotaru/dsh-read-animation",
-          "manifestSha256": "009a2d82306a5d07a8695d29f8831e24bf09bb11b572cfb3aea82b81c8dbda19",
-          "publishTimestamp": 1791983749
-        }
-      ]
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-read-animation",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "https://github.com/NeoHotaru/dsh-read-animation#v0.1.0",
+      "target": "dsh-bundle-antigravity-host",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/NeoHotaru/dsh-read-animation",
-    "commit": "d3b92f1a666970cbb2be2ba6b2c9115048390960",
-    "releaseTags": 3,
+    "url": "https://github.com/KouzakiUmi/dsh-antigravity-acp",
+    "commit": "d8d846973424400d4a153181d53767c7d83e290a",
+    "releaseTags": 2,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:29:53.650Z"
+  "finishedAt": "2026-11-16T05:43:17.381Z"
 }

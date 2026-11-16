@@ -6,6 +6,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 import { createHash } from 'node:crypto'
 import semver from 'semver'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
+import { DISCOVERY_HOST_VERSIONS } from './quality.mjs'
 import { gitRefs, withGitObjects } from './vendor/fetchers.ts'
 import {
   readManifest,
@@ -37,7 +38,15 @@ const README_NAMES = [
   'README-EN.md',
   'README_EN.md',
 ]
-const HOST = '0.2.1-alpha.5'
+// A declared range is mappable when SOME supported host satisfies it — the
+// supported set moves, so judging against one frozen host version silently
+// blocks every plugin that declares compatibility with a newer host (the
+// retired 0.2.1-alpha.5 check froze `false` into hundreds of otherwise
+// verifiable evidence records). The generator re-verifies per version.
+const hostCompatible = (range) =>
+  DISCOVERY_HOST_VERSIONS.some((host) =>
+    semver.satisfies(host, range, { includePrerelease: true }),
+  )
 const openObjects = (url, ...args) =>
   (process.argv.includes('--github-api') && new URL(url).hostname === 'github.com'
     ? withGitHubObjects : withGitObjects)(url, ...args)
@@ -126,9 +135,7 @@ export function evaluateManifest(manifest, source, publishTimestamp) {
     status: 'eligible_metadata',
     declaredRange: range ?? null,
     compatibilityUnconstrained: range === undefined,
-    declaredCompatibleWithHost: range === undefined ? null : semver.satisfies(HOST, range, {
-      includePrerelease: true,
-    }),
+    declaredCompatibleWithHost: range === undefined ? null : hostCompatible(range),
     plugin,
   }
 }
@@ -371,9 +378,7 @@ export async function inspectRepository(row) {
           compatibilityUnconstrained: verified.plugin.versions.some((v) => !v.engines),
           declaredCompatibleWithHost: verified.plugin.versions.some((v) => !v.engines)
             ? null
-            : verified.plugin.versions.every((v) =>
-                semver.satisfies(HOST, v.engines.dsh, { includePrerelease: true }),
-              ),
+            : verified.plugin.versions.some((v) => hostCompatible(v.engines.dsh)),
         })
       } else {
         const git = classifyTarget(target)

@@ -1,272 +1,131 @@
 {
-  "full_name": "openbkn-ai/bkn-dsh",
+  "full_name": "Debuger-114514/dsh-bili-jar",
   "originalPosition": 191,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 191,
   "batch": 1,
-  "stargazers_count": 16,
-  "startedAt": "2026-11-16T05:30:47.323Z",
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T05:44:04.299Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "b710570e561bce6452a8960dc51a0d0415d429175d521cfd731bc863ad0ea221",
-      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/README.md",
+      "sha256": "ead667828e32e08e291b699c21a8c94c4c78c6fbf7b5e16792c247184fc4305c",
+      "url": "https://github.com/Debuger-114514/dsh-bili-jar/blob/de839e54f6a4c11524ed5ec57a825ed49b279690/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
-          "command": "dsh plugin --profile web add @openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
+          "install": "dsh-bili-jar",
+          "command": "dsh plugin --profile web add dsh-bili-jar",
           "profile": "web"
         }
       ]
-    },
-    {
-      "path": "README.zh.md",
-      "sha256": "33258bd9ac1e84d5958d18e0905155591a8bbcafc5cc21b91ebe9f59071032df",
-      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
-          "command": "dsh plugin --profile web add @openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "packages/openbkn-business-context/README.md",
-      "sha256": "d0762472f3f833603c66d643455da7176dd6042d6e705475f181259bb213563e",
-      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/packages/openbkn-business-context/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-2",
-          "command": "dsh plugin --profile <desktop|web> add @openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-2",
-          "profile": "default"
-        }
-      ]
-    },
-    {
-      "path": "docs/user-guide/README.en.md",
-      "sha256": "911f634c8010b132df6f7b916db15aaf9166610015b2c0473fb4abdafa3c69a2",
-      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/docs/user-guide/README.en.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "docs/user-guide/README.zh.md",
-      "sha256": "56eb4f00e55eb912e379c25f3554f09b4ece4f3764240741a3d66f62658a20e7",
-      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/docs/user-guide/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "docs/evidence/2026-11-03-platform021-compat/README.zh.md",
-      "sha256": "af018a5e424a376e5be180d90094fa95e0ec8c04124e39500a47ae0d8202c62c",
-      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/docs/evidence/2026-11-03-platform021-compat/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "compat/dsh-0.2.0-rc.2/README.md",
-      "sha256": "f4f5b47dd33e69b2c3959a290bb9fa705a3479f1a315fe36a23655cff5287154",
-      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/compat/dsh-0.2.0-rc.2/README.md",
-      "ambiguous": false,
-      "localOnly": true,
-      "targets": []
-    },
-    {
-      "path": "packages/openbkn-business-context/README.zh.md",
-      "sha256": "1bd46ac6dff9fdc41720a2fc594b01c8456196119cf9ba9cd50fb2b93b255cd5",
-      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/packages/openbkn-business-context/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-2",
-          "command": "dsh plugin --profile <desktop|web> add @openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-2",
-          "profile": "default"
-        }
-      ]
-    },
-    {
-      "path": "compat/dsh-0.2.0-rc.2/README.zh.md",
-      "sha256": "83c8c94316106bee1cb5a5a8654eee5faa3a8b87d2de1a966ef792dc3d318a13",
-      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/compat/dsh-0.2.0-rc.2/README.zh.md",
-      "ambiguous": false,
-      "localOnly": true,
-      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@openbkn/dsh-business-context",
-      "version": "0.2.1-rc.3-openbkn.0.2.1-3",
-      "path": "packages/openbkn-business-context",
+      "name": "dsh-bili-jar",
+      "version": "0.4.2",
+      "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/openbkn-ai/bkn-dsh",
-        "commit": "b8491a4747364455c03f3567b564d548c6fc06e9",
-        "path": "packages/openbkn-business-context"
+        "url": "https://github.com/Debuger-114514/dsh-bili-jar",
+        "commit": "de839e54f6a4c11524ed5ec57a825ed49b279690"
       },
-      "manifestSha256": "0b121c66f76e409f8b2ba986cd7a2d7aff34db332d926307c3a9b2693b794aa8",
-      "manifestUrl": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/packages/openbkn-business-context/package.json",
+      "manifestSha256": "c3cd01a2d0678f659ff57b103d9c5adffc8556bef5c09e82fea3eacc9fbf0546",
+      "manifestUrl": "https://github.com/Debuger-114514/dsh-bili-jar/blob/de839e54f6a4c11524ed5ec57a825ed49b279690/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "0.2.0-rc.2 || >=0.2.1-rc.3",
+      "declaredRange": ">=0.1.7-rc.1",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "@openbkn/dsh-business-context",
+        "name": "dsh-bili-jar",
         "versions": [
           {
-            "version": "0.2.1-rc.3-openbkn.0.2.1-3",
-            "publishTimestamp": 1793943703,
+            "version": "0.4.2",
+            "publishTimestamp": 1794502040,
             "source": {
               "type": "git",
-              "url": "https://github.com/openbkn-ai/bkn-dsh",
-              "commit": "b8491a4747364455c03f3567b564d548c6fc06e9",
-              "path": "packages/openbkn-business-context"
+              "url": "https://github.com/Debuger-114514/dsh-bili-jar",
+              "commit": "de839e54f6a4c11524ed5ec57a825ed49b279690"
             },
             "engines": {
-              "dsh": "0.2.0-rc.2 || >=0.2.1-rc.3"
+              "dsh": ">=0.1.7-rc.1"
             }
           }
         ]
       }
     },
     {
-      "target": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
+      "target": "dsh-bili-jar",
       "origin": "npm",
-      "name": "@openbkn/dsh-business-context",
+      "name": "dsh-bili-jar",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "@openbkn/dsh-business-context",
-        "title": "@openbkn/dsh-business-context",
-        "description": "OpenBKN business knowledge-network context for DeepSeek Harness",
-        "homepage": "https://github.com/openbkn-ai/bkn-dsh#readme",
+        "name": "dsh-bili-jar",
+        "title": "dsh-bili-jar",
+        "description": "DSH 插件：电子榨菜罐 —— 按你的兴趣轴定向挑 B站 视频的常驻小挂件",
+        "author": "Debuger-114514",
+        "homepage": "https://github.com/Debuger-114514/dsh-bili-jar#readme",
         "repository": {
-          "url": "https://github.com/openbkn-ai/bkn-dsh"
+          "url": "https://github.com/Debuger-114514/dsh-bili-jar"
         },
         "metadata": {
           "keywords": [
-            "deepseek-harness",
             "dsh",
             "dsh-plugin",
-            "openbkn",
-            "knowledge-network",
-            "business-context",
-            "provenance"
+            "deepseek-harness",
+            "bilibili",
+            "recommend"
           ]
         },
         "versions": [
           {
-            "version": "0.2.1-rc.3-openbkn.0.2.1-3",
-            "publishTimestamp": 1793943888,
+            "version": "0.4.2",
+            "publishTimestamp": 1794502384,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
             },
             "engines": {
-              "dsh": "0.2.0-rc.2 || >=0.2.1-rc.3"
+              "dsh": ">=0.1.7-rc.1"
             }
           }
         ]
       },
-      "registrySha256": "b6761036212aa8389bf7874c3202d2dd07efe3f04c4069affce9d0fcada79cfc",
+      "registrySha256": "37be086eba8829968c0299b6508122061ed86e9418b003be23880337d75fb3c5",
       "evidence": [
         {
-          "name": "@openbkn/dsh-business-context",
-          "version": "0.2.1-rc.3-openbkn.0.2.1-3",
-          "tarball": "https://registry.npmjs.org/@openbkn/dsh-business-context/-/dsh-business-context-0.2.1-rc.3-openbkn.0.2.1-3.tgz",
-          "integrity": "sha512-1w0sJJ9DPWZSDFI+RdyiaBaUBfwKMnC3HsM4+39SSaIYORo/UuLSUXRktOrMzrwlLoexhi6/1RJtlyZ7hT2MlA=="
+          "name": "dsh-bili-jar",
+          "version": "0.4.2",
+          "tarball": "https://registry.npmjs.org/dsh-bili-jar/-/dsh-bili-jar-0.4.2.tgz",
+          "integrity": "sha512-EASfY7g3BB3NpsYBe+Td7+JQf8PPLw9WxZhqlV2KfgTi9uSTzNbddYz4SfWOcxDaCrottusaJ6DBAY6IAwGByA=="
         }
       ],
       "diagnostics": [],
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    },
-    {
-      "target": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-2",
-      "origin": "npm",
-      "name": "@openbkn/dsh-business-context",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "@openbkn/dsh-business-context",
-        "title": "@openbkn/dsh-business-context",
-        "description": "OpenBKN business knowledge-network context for DeepSeek Harness",
-        "homepage": "https://github.com/openbkn-ai/bkn-dsh#readme",
-        "repository": {
-          "url": "https://github.com/openbkn-ai/bkn-dsh"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek-harness",
-            "dsh",
-            "dsh-plugin",
-            "openbkn",
-            "knowledge-network",
-            "business-context",
-            "provenance"
-          ]
-        },
-        "versions": [
-          {
-            "version": "0.2.1-rc.3-openbkn.0.2.1-2",
-            "publishTimestamp": 1793356811,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": "0.2.0-rc.2 || >=0.2.1-rc.3"
-            }
-          }
-        ]
-      },
-      "registrySha256": "b6761036212aa8389bf7874c3202d2dd07efe3f04c4069affce9d0fcada79cfc",
-      "evidence": [
-        {
-          "name": "@openbkn/dsh-business-context",
-          "version": "0.2.1-rc.3-openbkn.0.2.1-2",
-          "tarball": "https://registry.npmjs.org/@openbkn/dsh-business-context/-/dsh-business-context-0.2.1-rc.3-openbkn.0.2.1-2.tgz",
-          "integrity": "sha512-bQRiKmCMTcKuiZ+jhprtDS5mK0A8iiN+nL/zEiAm9demNaUqP3jNaxSPgLPO5HtOCiVlbQD2HyIb6vpDy7I2OQ=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-2",
+      "target": "dsh-bili-jar",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/openbkn-ai/bkn-dsh",
-    "commit": "b8491a4747364455c03f3567b564d548c6fc06e9",
-    "releaseTags": 23,
+    "url": "https://github.com/Debuger-114514/dsh-bili-jar",
+    "commit": "de839e54f6a4c11524ed5ec57a825ed49b279690",
+    "releaseTags": 13,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:31:12.677Z"
+  "finishedAt": "2026-11-16T05:44:15.963Z"
 }

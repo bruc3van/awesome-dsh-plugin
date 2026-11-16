@@ -1,109 +1,29 @@
 {
-  "full_name": "a86582751/dsh-nexttavern",
+  "full_name": "lightsifter/sift-light",
   "originalPosition": 15,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 15,
   "batch": 1,
-  "stargazers_count": 234,
-  "startedAt": "2026-11-16T05:24:51.028Z",
+  "stargazers_count": 104,
+  "startedAt": "2026-11-16T05:37:14.711Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
-  "readmes": [
-    {
-      "path": "README.md",
-      "sha256": "05e84cba8af03972ba947e26feb13dd65cd79ae1195a2b61144a5319f72a85e9",
-      "url": "https://github.com/a86582751/dsh-nexttavern/blob/106e895c9e87b8769391344921a182771241a8bd/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-nexttavern",
-          "command": "dsh plugin --profile web add dsh-nexttavern",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.en.md",
-      "sha256": "8e0dd87bc51aaf52677a0b0d27abcc4efaabe172d76aaceff6c580564b2ec044",
-      "url": "https://github.com/a86582751/dsh-nexttavern/blob/106e895c9e87b8769391344921a182771241a8bd/README.en.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-nexttavern",
-          "command": "dsh plugin --profile web add dsh-nexttavern",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "preset/reference/README.md",
-      "sha256": "f2ba84683537f15f5b053614a1cd859d51bb46fa6129add89ed66cd25c3a9a85",
-      "url": "https://github.com/a86582751/dsh-nexttavern/blob/106e895c9e87b8769391344921a182771241a8bd/preset/reference/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    }
-  ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-nexttavern",
-      "version": "0.3.0-rc.1",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/a86582751/dsh-nexttavern",
-        "commit": "106e895c9e87b8769391344921a182771241a8bd"
-      },
-      "manifestSha256": "39081c3a97e0e5b7397e955e95c79d9eaf265972db95151a432be89ab5722b46",
-      "manifestUrl": "https://github.com/a86582751/dsh-nexttavern/blob/106e895c9e87b8769391344921a182771241a8bd/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": "0.1.7-rc.2",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-nexttavern",
-        "versions": [
-          {
-            "version": "0.3.0-rc.1",
-            "publishTimestamp": 1794803270,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/a86582751/dsh-nexttavern",
-              "commit": "106e895c9e87b8769391344921a182771241a8bd"
-            },
-            "engines": {
-              "dsh": "0.1.7-rc.2"
-            }
-          }
-        ]
-      }
-    }
-  ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-nexttavern",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
   "errors": [
     {
-      "stage": "install_target",
-      "target": "dsh-nexttavern",
-      "reason": "The operation was aborted due to timeout"
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/lightsifter/sift-light/git/commits/31034b9cc7b66bdd14943d1fcaf5095cfe5a6d99\nGet \"https://api.github.com/repos/lightsifter/sift-light/git/commits/31034b9cc7b66bdd14943d1fcaf5095cfe5a6d99\": Service Unavailable\n"
     }
   ],
   "repository": {
-    "url": "https://github.com/a86582751/dsh-nexttavern",
-    "commit": "106e895c9e87b8769391344921a182771241a8bd",
-    "releaseTags": 9,
+    "url": "https://github.com/lightsifter/sift-light",
+    "commit": "31034b9cc7b66bdd14943d1fcaf5095cfe5a6d99",
+    "releaseTags": 20,
     "reader": "github_objects_api"
   },
-  "discoveryWarnings": [],
   "outcome": "retry_required",
-  "finishedAt": "2026-11-16T05:26:03.066Z"
+  "finishedAt": "2026-11-16T05:37:24.513Z"
 }

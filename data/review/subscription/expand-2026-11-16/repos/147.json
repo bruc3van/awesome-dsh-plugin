@@ -1,152 +1,48 @@
 {
-  "full_name": "zaimokuza-yoshiteru/dsh-acp-adapter",
+  "full_name": "omdsh-dev/dsh-plugin-skills",
   "originalPosition": 147,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 147,
   "batch": 1,
-  "stargazers_count": 19,
-  "startedAt": "2026-11-16T05:29:01.677Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:39.658Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "c0526d68b2b588b34b6e138f9e96ad63b37be3c721d9cadc4ae795b77039b087",
-      "url": "https://github.com/zaimokuza-yoshiteru/dsh-acp-adapter/blob/28ccc6745ec82139c684c3642637e93e00d800f2/README.md",
+      "sha256": "039a8beed235cebc976be44df3a01be52b1a43125cbcc0b9e8ec99bf339c46f4",
+      "url": "https://github.com/omdsh-dev/dsh-plugin-skills/blob/32d22f03490cdf8a1845b811542583fccf6f6e94/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "@zaimokuza/dsh-acp-adapter@0.2.1-rc.4.1",
-          "command": "dsh plugin --profile desktop add @zaimokuza/dsh-acp-adapter@0.2.1-rc.4.1",
-          "profile": "desktop"
-        }
-      ]
+      "targets": []
     },
     {
-      "path": "README.en.md",
-      "sha256": "8775972b592b8ea23529fcfd78c346afe9c2276cc3505a52a14b0da1de25e90a",
-      "url": "https://github.com/zaimokuza-yoshiteru/dsh-acp-adapter/blob/28ccc6745ec82139c684c3642637e93e00d800f2/README.en.md",
+      "path": "README.zh.md",
+      "sha256": "00f985df8b0d0cbf3ceb9caad20f96798a81bf2622bb9d4998c5583ff2efb424",
+      "url": "https://github.com/omdsh-dev/dsh-plugin-skills/blob/32d22f03490cdf8a1845b811542583fccf6f6e94/README.zh.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "@zaimokuza/dsh-acp-adapter@0.2.1-rc.4.1",
-          "command": "dsh plugin --profile desktop add @zaimokuza/dsh-acp-adapter@0.2.1-rc.4.1",
-          "profile": "desktop"
-        }
-      ]
+      "targets": []
     }
   ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "@zaimokuza/dsh-acp-adapter",
-      "version": "0.2.1-rc.4.1",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/zaimokuza-yoshiteru/dsh-acp-adapter",
-        "commit": "28ccc6745ec82139c684c3642637e93e00d800f2"
-      },
-      "manifestSha256": "83c3ec24b4b3f119e4d9e68bd6dd2ce0030e85db18531462e8dab876fbd39dbc",
-      "manifestUrl": "https://github.com/zaimokuza-yoshiteru/dsh-acp-adapter/blob/28ccc6745ec82139c684c3642637e93e00d800f2/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": "0.2.1-rc.4",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "@zaimokuza/dsh-acp-adapter",
-        "versions": [
-          {
-            "version": "0.2.1-rc.4.1",
-            "publishTimestamp": 1793163494,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/zaimokuza-yoshiteru/dsh-acp-adapter",
-              "commit": "28ccc6745ec82139c684c3642637e93e00d800f2"
-            },
-            "engines": {
-              "dsh": "0.2.1-rc.4"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "@zaimokuza/dsh-acp-adapter@0.2.1-rc.4.1",
-      "origin": "npm",
-      "name": "@zaimokuza/dsh-acp-adapter",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "@zaimokuza/dsh-acp-adapter",
-        "title": {
-          "en": "ACP adapter",
-          "zh": "ACP 适配器"
-        },
-        "description": {
-          "en": "Add and manage agents available from the DSH session UI through ACP.",
-          "zh": "添加并管理通过 ACP 接入 DSH 会话页面的智能体。"
-        },
-        "homepage": "https://github.com/zaimokuza-yoshiteru/dsh-acp-adapter",
-        "repository": {
-          "url": "https://github.com/zaimokuza-yoshiteru/dsh-acp-adapter"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh",
-            "dsh-plugin",
-            "deepseek-harness",
-            "agent-client-protocol",
-            "acp",
-            "ai-agents"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUiPgogIDx0aXRsZSBpZD0idGl0bGUiPkFDUCBsaW5rPC90aXRsZT4KICA8ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJsdWUiIHgxPSI1IiB5MT0iNSIgeDI9IjI3IiB5Mj0iMjgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjN0NCN0ZGIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTQ1QUYzIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+CiAgPHBhdGggZD0iTTEzLjMgMTkuMiAxMSAyMS41YTQuNiA0LjYgMCAwIDEtNi41LTYuNWw0LjItNC4yYTQuNiA0LjYgMCAwIDEgNi41IDBNMTguNyAxMi44IDIxIDEwLjVhNC42IDQuNiAwIDEgMSA2LjUgNi41bC00LjIgNC4yYTQuNiA0LjYgMCAwIDEtNi41IDBNMTEgMTZoMTAiIHN0cm9rZT0idXJsKCNibHVlKSIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjE2IiBjeT0iMTYiIHI9IjIuMiIgZmlsbD0iIzQ1RDlFNyIvPgo8L3N2Zz4K",
-        "versions": [
-          {
-            "version": "0.2.1-rc.4.1",
-            "publishTimestamp": 1793163973,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": "0.2.1-rc.4"
-            }
-          }
-        ]
-      },
-      "registrySha256": "711e9ff88b3c6a86a872a53ab4faf932299933b5924acbbae59dede0cd1345bf",
-      "evidence": [
-        {
-          "name": "@zaimokuza/dsh-acp-adapter",
-          "version": "0.2.1-rc.4.1",
-          "tarball": "https://registry.npmjs.org/@zaimokuza/dsh-acp-adapter/-/dsh-acp-adapter-0.2.1-rc.4.1.tgz",
-          "integrity": "sha512-IMLKvzdzb3JzbH2DTn5G5CiKC7hMgtaXxItsCKEwJ2JJu5Z4AngeuhET+/33OGhgnEcUo7ZVQez5bymi7oXtKQ=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    }
-  ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "@zaimokuza/dsh-acp-adapter@0.2.1-rc.4.1",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "candidates": [],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/zaimokuza-yoshiteru/dsh-acp-adapter",
-    "commit": "28ccc6745ec82139c684c3642637e93e00d800f2",
-    "releaseTags": 65,
+    "url": "https://github.com/omdsh-dev/dsh-plugin-skills",
+    "commit": "32d22f03490cdf8a1845b811542583fccf6f6e94",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:29:14.447Z"
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:42:49.063Z"
 }

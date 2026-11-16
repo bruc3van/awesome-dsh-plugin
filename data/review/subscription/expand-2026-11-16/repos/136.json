@@ -1,40 +1,26 @@
 {
-  "full_name": "hanzhangzzz/dsh-diagram",
+  "full_name": "aishenkiki/dsh-go-exam-helper",
   "originalPosition": 136,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 136,
   "batch": 1,
-  "stargazers_count": 21,
-  "startedAt": "2026-11-16T05:28:36.021Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:23.653Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "04d913b31487f10950341f3a8ace57a844de4fbaf6153d4cd0f2209162f08cf0",
-      "url": "https://github.com/hanzhangzzz/dsh-diagram/blob/2311a14141e35c451372d5ef4803063abf26602e/README.md",
+      "sha256": "4629c4891485b966ed0470eeed7ba4bf30462266e67a6fb5b82e76f14818ce1f",
+      "url": "https://github.com/aishenkiki/dsh-go-exam-helper/blob/2d7ac992dcc38f95d2e7ac01f09103a375c89ff7/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-diagram@0.6.1",
-          "command": "pnpm dsh plugin --profile web add dsh-diagram@0.6.1",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.zh-CN.md",
-      "sha256": "d23cc818f1cbde2e7be71f24a46e631a64626c0c225b35d787bbe09bc70074b7",
-      "url": "https://github.com/hanzhangzzz/dsh-diagram/blob/2311a14141e35c451372d5ef4803063abf26602e/README.zh-CN.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-diagram@0.6.1",
-          "command": "pnpm dsh plugin --profile web add dsh-diagram@0.6.1",
-          "profile": "web"
+          "install": "dsh-go-exam-helper",
+          "command": "dsh plugin add dsh-go-exam-helper",
+          "profile": "default"
         }
       ]
     }
@@ -42,109 +28,113 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-diagram",
-      "version": "0.7.0-visual.10",
+      "name": "dsh-go-exam-helper",
+      "version": "1.7.1",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/hanzhangzzz/dsh-diagram",
-        "commit": "2311a14141e35c451372d5ef4803063abf26602e"
+        "url": "https://github.com/aishenkiki/dsh-go-exam-helper",
+        "commit": "2d7ac992dcc38f95d2e7ac01f09103a375c89ff7"
       },
-      "manifestSha256": "2f72d6a2eadeced035b0c139c1ec7bb617001f2c5a6b6f306a52d3a8462bf5bd",
-      "manifestUrl": "https://github.com/hanzhangzzz/dsh-diagram/blob/2311a14141e35c451372d5ef4803063abf26602e/package.json",
+      "manifestSha256": "26ef6064acd9bd3168336c0499b07ca8cf7a0b5ead7e2d3e7c83d36d9e44dcb6",
+      "manifestUrl": "https://github.com/aishenkiki/dsh-go-exam-helper/blob/2d7ac992dcc38f95d2e7ac01f09103a375c89ff7/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.7-rc.2",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0-0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-diagram",
+        "name": "dsh-go-exam-helper",
         "versions": [
           {
-            "version": "0.7.0-visual.10",
-            "publishTimestamp": 1790600641,
+            "version": "1.7.1",
+            "publishTimestamp": 1794537177,
             "source": {
               "type": "git",
-              "url": "https://github.com/hanzhangzzz/dsh-diagram",
-              "commit": "2311a14141e35c451372d5ef4803063abf26602e"
+              "url": "https://github.com/aishenkiki/dsh-go-exam-helper",
+              "commit": "2d7ac992dcc38f95d2e7ac01f09103a375c89ff7"
             },
             "engines": {
-              "dsh": "0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.7-rc.2"
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0"
             }
           }
         ]
       }
     },
     {
-      "target": "dsh-diagram@0.6.1",
+      "target": "dsh-go-exam-helper",
       "origin": "npm",
-      "name": "dsh-diagram",
+      "name": "dsh-go-exam-helper",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "dsh-diagram",
-        "title": "dsh-diagram",
-        "description": "Turn articles in DeepSeek Harness into editable Excalidraw canvases",
-        "homepage": "https://github.com/hanzhangzzz/dsh-diagram#readme",
+        "name": "dsh-go-exam-helper",
+        "title": {
+          "en": "Exam helper",
+          "zh": "答题助手"
+        },
+        "description": {
+          "en": "Shows the invigilation status in the Web UI and starts or stops the helper.",
+          "zh": "在网页界面里显示监考状态，并可直接开始或停止答题助手。"
+        },
+        "author": "aishenkiki",
+        "homepage": "https://github.com/aishenkiki/dsh-go-exam-helper",
         "repository": {
-          "url": "https://github.com/hanzhangzzz/dsh-diagram"
+          "url": "https://github.com/aishenkiki/dsh-go-exam-helper"
         },
         "metadata": {
           "keywords": [
-            "deepseek-harness",
             "dsh",
             "dsh-plugin",
-            "dsh-bundle",
-            "canvas",
-            "diagram",
-            "diagram-editor",
-            "excalidraw",
-            "flowchart",
-            "visualization",
-            "web-ui"
+            "deepseek-harness",
+            "dsh-go",
+            "exam",
+            "ocr",
+            "notification"
           ]
         },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMyYjZjYjAiLz48cGF0aCBkPSJNMjAgMjRoMjR2NkgyMHpNMjAgMzRoMTZ2NkgyMHoiIGZpbGw9IiNmZmYiLz48Y2lyY2xlIGN4PSI0NCIgY3k9IjM3IiByPSI2IiBmaWxsPSIjN2VlMmE4Ii8+PC9zdmc+Cg==",
         "versions": [
           {
-            "version": "0.6.1",
-            "publishTimestamp": 1790582427,
+            "version": "1.7.4",
+            "publishTimestamp": 1794627884,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
             },
             "engines": {
-              "dsh": "0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.7-rc.2"
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0"
             }
           }
         ]
       },
-      "registrySha256": "6be7b35ddb8596e116b6920539720f4473deabf95ea9960d00fcb6a78eb38071",
+      "registrySha256": "6640ab70394107105c33a2dae1e737082517b3e3003682d5561e1988f7bff46b",
       "evidence": [
         {
-          "name": "dsh-diagram",
-          "version": "0.6.1",
-          "tarball": "https://registry.npmjs.org/dsh-diagram/-/dsh-diagram-0.6.1.tgz",
-          "integrity": "sha512-kJWBSBvtGI26USXQQnM/Vl6xh2CvKTr5bmXD4q/V846HivMV4vLnKCb6RNbNzIbUNcAkGgQZudKt5gG1Ppwdpw=="
+          "name": "dsh-go-exam-helper",
+          "version": "1.7.4",
+          "tarball": "https://registry.npmjs.org/dsh-go-exam-helper/-/dsh-go-exam-helper-1.7.4.tgz",
+          "integrity": "sha512-TdEnZ1gQgBQVsSATEdf00IS16lWl7frlHGIaizTBJPA3UZe0kUScfpSfJ6ogKL/QMxlJc/57fqe4ScJ10YGC8A=="
         }
       ],
       "diagnostics": [],
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-diagram@0.6.1",
+      "target": "dsh-go-exam-helper",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/hanzhangzzz/dsh-diagram",
-    "commit": "2311a14141e35c451372d5ef4803063abf26602e",
-    "releaseTags": 13,
+    "url": "https://github.com/aishenkiki/dsh-go-exam-helper",
+    "commit": "2d7ac992dcc38f95d2e7ac01f09103a375c89ff7",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:29:14.238Z"
+  "finishedAt": "2026-11-16T05:42:33.303Z"
 }

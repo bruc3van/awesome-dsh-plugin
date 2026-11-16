@@ -1,38 +1,33 @@
 {
-  "full_name": "Yuuyuko-uu/dsh-qq-link",
+  "full_name": "wang1299/dsh-reforge",
   "originalPosition": 19,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 19,
   "batch": 1,
-  "stargazers_count": 181,
-  "startedAt": "2026-11-16T05:24:55.048Z",
+  "stargazers_count": 99,
+  "startedAt": "2026-11-16T05:37:38.495Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "d8eeedd7a9fd0a059a82f3a7377bf459aa74d9e8760cdac97e6670e9225c82d2",
-      "url": "https://github.com/Yuuyuko-uu/dsh-qq-link/blob/4a523eb1411bd68f49471fad926495aa9033ea88/README.md",
+      "sha256": "2378ffd94b095b5955a78f20f0555b692a4d63c387802a8abba4cedd5fbb8b75",
+      "url": "https://github.com/wang1299/dsh-reforge/blob/1df95d732d57cdc7be34b18dcd75bbfbbc85c8be/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/Yuuyuko-uu/dsh-qq-link",
-          "command": "dsh plugin --profile desktop add github:Yuuyuko-uu/dsh-qq-link",
-          "profile": "desktop"
-        },
-        {
-          "install": "https://codeload.github.com/Yuuyuko-uu/dsh-qq-link/tar.gz/refs/heads/main",
-          "command": "dsh plugin --profile desktop add https://codeload.github.com/Yuuyuko-uu/dsh-qq-link/tar.gz/refs/heads/main",
-          "profile": "desktop"
+          "install": "dsh-reforge@0.1.0-alpha.2",
+          "command": "dsh plugin --profile web add dsh-reforge@0.1.0-alpha.2",
+          "profile": "web"
         }
       ]
     },
     {
-      "path": "tools/语音/README.md",
-      "sha256": "c6c2ea34f3ccb76b9bb3d5bb01b990058b3ab532847853de5ddf7c1d6c307def",
-      "url": "https://github.com/Yuuyuko-uu/dsh-qq-link/blob/4a523eb1411bd68f49471fad926495aa9033ea88/tools/语音/README.md",
+      "path": "examples/customer-form/README.md",
+      "sha256": "2da43a882e128f18e2b4054879357e75644aa637730e678675a6d2f432e1175a",
+      "url": "https://github.com/wang1299/dsh-reforge/blob/1df95d732d57cdc7be34b18dcd75bbfbbc85c8be/examples/customer-form/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": []
@@ -41,65 +36,53 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-qq-link",
-      "version": "1.6.1",
+      "name": "dsh-reforge",
+      "version": "0.1.0-alpha.2",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
-        "commit": "4a523eb1411bd68f49471fad926495aa9033ea88"
+        "url": "https://github.com/wang1299/dsh-reforge",
+        "commit": "1df95d732d57cdc7be34b18dcd75bbfbbc85c8be"
       },
-      "manifestSha256": "15e4cff07a5ee9d46713c0be4034de59e3a2c0aaa2d61d7a1e043726132c8aef",
-      "manifestUrl": "https://github.com/Yuuyuko-uu/dsh-qq-link/blob/4a523eb1411bd68f49471fad926495aa9033ea88/package.json",
+      "manifestSha256": "ba5dd841951a52fb70d663a4387cc31411af161d0075807e8692a4735561c3fc",
+      "manifestUrl": "https://github.com/wang1299/dsh-reforge/blob/1df95d732d57cdc7be34b18dcd75bbfbbc85c8be/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.2",
+      "declaredRange": "0.2.0-rc.2 || 0.2.1-rc.5",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "dsh-qq-link",
+        "name": "dsh-reforge",
         "versions": [
           {
-            "version": "1.6.1",
-            "publishTimestamp": 1794722151,
+            "version": "0.1.0-alpha.2",
+            "publishTimestamp": 1794211986,
             "source": {
               "type": "git",
-              "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
-              "commit": "4a523eb1411bd68f49471fad926495aa9033ea88"
+              "url": "https://github.com/wang1299/dsh-reforge",
+              "commit": "1df95d732d57cdc7be34b18dcd75bbfbbc85c8be"
             },
             "engines": {
-              "dsh": ">=0.2.1-rc.2"
+              "dsh": "0.2.0-rc.2 || 0.2.1-rc.5"
             }
           }
         ]
       }
-    },
-    {
-      "target": "https://codeload.github.com/Yuuyuko-uu/dsh-qq-link/tar.gz/refs/heads/main",
-      "status": "unsupported_source",
-      "code": "unsupported_tarball",
-      "reason": "GitHub codeload 是归档下载地址，不是 Git 仓库；format-1 需要 npm 包或经核实的 Git 来源"
     }
   ],
-  "mappingFindings": [
+  "mappingFindings": [],
+  "errors": [
     {
-      "code": "documented_target_not_mapped",
-      "target": "https://github.com/Yuuyuko-uu/dsh-qq-link",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "https://codeload.github.com/Yuuyuko-uu/dsh-qq-link/tar.gz/refs/heads/main",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/wang1299/dsh-reforge/git/blobs/04d58c8c59030535bd4c92ab0d2c9b11cc734508\nGet \"https://api.github.com/repos/wang1299/dsh-reforge/git/blobs/04d58c8c59030535bd4c92ab0d2c9b11cc734508\": Service Unavailable\n"
     }
   ],
-  "errors": [],
   "repository": {
-    "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
-    "commit": "4a523eb1411bd68f49471fad926495aa9033ea88",
-    "releaseTags": 27,
+    "url": "https://github.com/wang1299/dsh-reforge",
+    "commit": "1df95d732d57cdc7be34b18dcd75bbfbbc85c8be",
+    "releaseTags": 2,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:25:03.886Z"
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T05:38:06.862Z"
 }

@@ -1,25 +1,25 @@
 {
-  "full_name": "jiezeng2004-design/dsh-chatgpt-bridge",
+  "full_name": "Miyazawai/dsh-client-pricing",
   "originalPosition": 101,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 101,
   "batch": 1,
-  "stargazers_count": 28,
-  "startedAt": "2026-11-16T05:27:25.561Z",
+  "stargazers_count": 16,
+  "startedAt": "2026-11-16T05:41:13.925Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "0c9c499c4e0bc716923877886a1c7876251f1a955c199be54c8b06a442ea5fe1",
-      "url": "https://github.com/jiezeng2004-design/dsh-chatgpt-bridge/blob/9ad1844f0532b00ba5b1bdb459046abe9ba9f679/README.md",
+      "sha256": "997eb2a5f278eb05087000f1d5e2d71c605ee2498dfc348bb6985652aea0440f",
+      "url": "https://github.com/Miyazawai/dsh-client-pricing/blob/32abdf803c339dab06b9e46c6a31349e5221b2ed/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-chatgpt-bridge@0.6.0",
-          "command": "dsh plugin --profile web add dsh-chatgpt-bridge@0.6.0",
+          "install": "dsh-client-pricing",
+          "command": "dsh plugin --profile web add dsh-client-pricing",
           "profile": "web"
         }
       ]
@@ -27,104 +27,48 @@
   ],
   "candidates": [
     {
-      "origin": "repository_discovery",
-      "name": "dsh-chatgpt-bridge",
-      "version": "0.6.0",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/jiezeng2004-design/dsh-chatgpt-bridge",
-        "commit": "9ad1844f0532b00ba5b1bdb459046abe9ba9f679"
-      },
-      "manifestSha256": "164d4b7556404d01d27da088de5628b885adaf3825d18fd5e88eac6248445488",
-      "manifestUrl": "https://github.com/jiezeng2004-design/dsh-chatgpt-bridge/blob/9ad1844f0532b00ba5b1bdb459046abe9ba9f679/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": "0.2.0-rc.2",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-chatgpt-bridge",
-        "versions": [
-          {
-            "version": "0.6.0",
-            "publishTimestamp": 1794716219,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/jiezeng2004-design/dsh-chatgpt-bridge",
-              "commit": "9ad1844f0532b00ba5b1bdb459046abe9ba9f679"
-            },
-            "engines": {
-              "dsh": "0.2.0-rc.2"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "dsh-chatgpt-bridge@0.6.0",
+      "target": "dsh-client-pricing",
       "origin": "npm",
-      "name": "dsh-chatgpt-bridge",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-chatgpt-bridge",
-        "title": "dsh-chatgpt-bridge",
-        "description": "MCP bridge: lets ChatGPT Web create, view, continue and control DeepSeek Harness (DSH) agent sessions through the official MCP protocol. The bridge only connects; DSH keeps its session, agent, tool, approval and workspace security model.",
-        "homepage": "https://github.com/jiezeng2004-design/dsh-chatgpt-bridge#readme",
-        "repository": {
-          "url": "https://github.com/jiezeng2004-design/dsh-chatgpt-bridge"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek-harness",
-            "dsh",
-            "mcp",
-            "chatgpt",
-            "plugin"
-          ]
-        },
-        "versions": [
-          {
-            "version": "0.6.0",
-            "publishTimestamp": 1790691825,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": "0.1.7-rc.2"
-            }
-          }
-        ]
-      },
-      "registrySha256": "2c5764076158147ddecf4df1c342d58b06c1f7bf5fbcdb8169f712f735b1e8a0",
-      "evidence": [
-        {
-          "name": "dsh-chatgpt-bridge",
-          "version": "0.6.0",
-          "tarball": "https://registry.npmjs.org/dsh-chatgpt-bridge/-/dsh-chatgpt-bridge-0.6.0.tgz",
-          "integrity": "sha512-doE0SmV07bL9Uz69zuv36gc+lkbODFDDLDu7+S+k3mDw4EBgIqBjAFjLYbbA2mLMBqCWQBldNDrrvli3rv7Cog=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
+      "name": "dsh-client-pricing",
+      "version": "0.1.0",
+      "code": "not_dsh_bundle",
+      "status": "invalid_manifest",
+      "reason": "not a declared DSH bundle",
+      "statusCode": "not_dsh_bundle",
+      "registrySha256": "2cb659be30ae109d04e3933872bd553c01c83190e87c6d6658e33fac155064d2"
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-chatgpt-bridge@0.6.0",
+      "target": "dsh-client-pricing",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/jiezeng2004-design/dsh-chatgpt-bridge",
-    "commit": "9ad1844f0532b00ba5b1bdb459046abe9ba9f679",
-    "releaseTags": 8,
+    "url": "https://github.com/Miyazawai/dsh-client-pricing",
+    "commit": "32abdf803c339dab06b9e46c6a31349e5221b2ed",
+    "releaseTags": 1,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:27:33.526Z"
+  "rootManifest": {
+    "name": "dsh-client-pricing",
+    "version": "0.1.0",
+    "dsh": {
+      "client": {
+        "inject": [
+          "@deepseek-ai/dsh-client-locale",
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-ui-conversation",
+          "@deepseek-ai/dsh-client-ui-model-selection"
+        ],
+        "platform": "web"
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:41:21.987Z"
 }

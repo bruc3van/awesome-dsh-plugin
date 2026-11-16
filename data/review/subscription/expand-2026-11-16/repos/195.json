@@ -1,87 +1,141 @@
 {
-  "full_name": "AumiSatori/dsh-ui-beautify",
+  "full_name": "InfinitePersistence/dsh-serial-console",
   "originalPosition": 195,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 195,
   "batch": 1,
-  "stargazers_count": 15,
-  "startedAt": "2026-11-16T05:30:54.547Z",
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T05:44:10.956Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "399c42cbb4f1751a814e7012d8bedee1fe752f4bc46bf248afdd726f20743061",
-      "url": "https://github.com/AumiSatori/dsh-ui-beautify/blob/d7bc1f3bc6804bf1d3804505a5f47810b40072a6/README.md",
+      "sha256": "2fea2c15923b47da28346a40b5518a7e78e40f534bb68be7e707f1304ec275b7",
+      "url": "https://github.com/InfinitePersistence/dsh-serial-console/blob/f66d5aad9083a30b1706d601ad3f85858f6ef731/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/AumiSatori/dsh-ui-beautify/releases/latest/download/dsh-ui-beautify.tgz",
-          "command": "dsh plugin --profile web add https://github.com/AumiSatori/dsh-ui-beautify/releases/latest/download/dsh-ui-beautify.tgz",
+          "install": "@infinitepersistence/dsh-serial-console@0.1.0-rc.6",
+          "command": "dsh plugin --profile web add '@infinitepersistence/dsh-serial-console@0.1.0-rc.6' --save-exact",
           "profile": "web"
         }
       ]
+    },
+    {
+      "path": "integration/deepseek-harness/README.md",
+      "sha256": "1c8f4f10aeed983aedce5f8023705f9474260ab378364b6eeccc7a4cf64b54ea",
+      "url": "https://github.com/InfinitePersistence/dsh-serial-console/blob/f66d5aad9083a30b1706d601ad3f85858f6ef731/integration/deepseek-harness/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-ui-beautify",
-      "version": "0.6.6",
+      "name": "@infinitepersistence/dsh-serial-console",
+      "version": "0.1.0-rc.6",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/AumiSatori/dsh-ui-beautify",
-        "commit": "d7bc1f3bc6804bf1d3804505a5f47810b40072a6"
+        "url": "https://github.com/InfinitePersistence/dsh-serial-console",
+        "commit": "f66d5aad9083a30b1706d601ad3f85858f6ef731"
       },
-      "manifestSha256": "1eb37953f436ae08f796a257f178ee66992b7818f97392f5a1c41d642de2547c",
-      "manifestUrl": "https://github.com/AumiSatori/dsh-ui-beautify/blob/d7bc1f3bc6804bf1d3804505a5f47810b40072a6/package.json",
+      "manifestSha256": "417a451fa255282f6e3ee69146d4d4fde296877cd84c602cb68fb78db0ae0b09",
+      "manifestUrl": "https://github.com/InfinitePersistence/dsh-serial-console/blob/f66d5aad9083a30b1706d601ad3f85858f6ef731/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.2 <0.3.0-0",
+      "declaredRange": "0.2.2-rc.1",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-ui-beautify",
+        "name": "@infinitepersistence/dsh-serial-console",
         "versions": [
           {
-            "version": "0.6.6",
-            "publishTimestamp": 1794702388,
+            "version": "0.1.0-rc.6",
+            "publishTimestamp": 1794188867,
             "source": {
               "type": "git",
-              "url": "https://github.com/AumiSatori/dsh-ui-beautify",
-              "commit": "d7bc1f3bc6804bf1d3804505a5f47810b40072a6"
+              "url": "https://github.com/InfinitePersistence/dsh-serial-console",
+              "commit": "f66d5aad9083a30b1706d601ad3f85858f6ef731"
             },
             "engines": {
-              "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+              "dsh": "0.2.2-rc.1"
             }
           }
         ]
       }
     },
     {
-      "target": "https://github.com/AumiSatori/dsh-ui-beautify/releases/latest/download/dsh-ui-beautify.tgz",
-      "status": "unsupported_source",
-      "code": "unsupported_tarball",
-      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+      "target": "@infinitepersistence/dsh-serial-console@0.1.0-rc.6",
+      "origin": "npm",
+      "name": "@infinitepersistence/dsh-serial-console",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@infinitepersistence/dsh-serial-console",
+        "title": "@infinitepersistence/dsh-serial-console",
+        "description": "Auditable serial console for DeepSeek Harness with shared user and AI access",
+        "homepage": "https://github.com/InfinitePersistence/dsh-serial-console#readme",
+        "repository": {
+          "url": "https://github.com/InfinitePersistence/dsh-serial-console"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "serial",
+            "uart",
+            "xterm",
+            "embedded"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0-rc.6",
+            "publishTimestamp": 1794213214,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a980e2616c74dd34acde190352bf7bb28ce0b721817f39387140e413e575f2c3",
+      "evidence": [
+        {
+          "name": "@infinitepersistence/dsh-serial-console",
+          "version": "0.1.0-rc.6",
+          "tarball": "https://registry.npmjs.org/@infinitepersistence/dsh-serial-console/-/dsh-serial-console-0.1.0-rc.6.tgz",
+          "integrity": "sha512-hAqlpWxJ7JOZ2vmgeWryGifRdNh+7cZFFJEARmfsjDFD2xsfLUgzaL+Pl9DihDT4gNCdQEuxelAv+CIXUM06AQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "https://github.com/AumiSatori/dsh-ui-beautify/releases/latest/download/dsh-ui-beautify.tgz",
+      "target": "@infinitepersistence/dsh-serial-console@0.1.0-rc.6",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/AumiSatori/dsh-ui-beautify",
-    "commit": "d7bc1f3bc6804bf1d3804505a5f47810b40072a6",
-    "releaseTags": 80,
+    "url": "https://github.com/InfinitePersistence/dsh-serial-console",
+    "commit": "f66d5aad9083a30b1706d601ad3f85858f6ef731",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:31:02.228Z"
+  "finishedAt": "2026-11-16T05:44:24.875Z"
 }

@@ -1,40 +1,50 @@
 {
-  "full_name": "Mars-Sea/dsh-deeppilot",
+  "full_name": "shiyan688/dsh-novel-craft",
   "originalPosition": 150,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 150,
   "batch": 1,
-  "stargazers_count": 18,
-  "startedAt": "2026-11-16T05:29:09.405Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:49.059Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "b148223897bbab178a8c13eedfd7d439b9e89cba1a7fe66a9537b519a4d1acdf",
-      "url": "https://github.com/Mars-Sea/dsh-deeppilot/blob/6e60ffcc7422256ea8151518411576dc81f0789d/README.md",
+      "sha256": "b5661e71186d8792776adf97ce2b4599362aaa5a995f01b9a1230dc4b7f50196",
+      "url": "https://github.com/shiyan688/dsh-novel-craft/blob/8a52268b3d521e11fd78a3117c03c1f5a771a2cf/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-deeppilot",
-          "command": "dsh plugin --profile web add dsh-deeppilot",
+          "install": "dsh-novel-craft",
+          "command": "dsh plugin --profile web add dsh-novel-craft",
           "profile": "web"
+        },
+        {
+          "install": "dsh-novel-craft",
+          "command": "dsh plugin --profile desktop add dsh-novel-craft",
+          "profile": "desktop"
         }
       ]
     },
     {
-      "path": "README.zh-CN.md",
-      "sha256": "e8be119a5ef24cb433d31285dd6227ebc88640ac886cd35e682ba1b8ca674c3f",
-      "url": "https://github.com/Mars-Sea/dsh-deeppilot/blob/6e60ffcc7422256ea8151518411576dc81f0789d/README.zh-CN.md",
+      "path": "docs/README.en.md",
+      "sha256": "0281b6258ab33467f1a80f504874e4342ae98a348bed43036109481e835a6b5a",
+      "url": "https://github.com/shiyan688/dsh-novel-craft/blob/8a52268b3d521e11fd78a3117c03c1f5a771a2cf/docs/README.en.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-deeppilot",
-          "command": "dsh plugin --profile web add dsh-deeppilot",
+          "install": "dsh-novel-craft",
+          "command": "dsh plugin --profile web add dsh-novel-craft",
           "profile": "web"
+        },
+        {
+          "install": "dsh-novel-craft",
+          "command": "dsh plugin --profile desktop add dsh-novel-craft",
+          "profile": "desktop"
         }
       ]
     }
@@ -42,60 +52,104 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-deeppilot",
-      "version": "0.9.24",
+      "name": "dsh-novel-craft",
+      "version": "0.3.1",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/Mars-Sea/dsh-deeppilot",
-        "commit": "6e60ffcc7422256ea8151518411576dc81f0789d"
+        "url": "https://github.com/shiyan688/dsh-novel-craft",
+        "commit": "8a52268b3d521e11fd78a3117c03c1f5a771a2cf"
       },
-      "manifestSha256": "96aeb02af713e9445c9453370ffba4c15b45477895e127745f083acbe354bdb9",
-      "manifestUrl": "https://github.com/Mars-Sea/dsh-deeppilot/blob/6e60ffcc7422256ea8151518411576dc81f0789d/package.json",
+      "manifestSha256": "8afc830c79698510eee0554046e6f12c18e6f7e359919f8af83f14c1b6ed0e58",
+      "manifestUrl": "https://github.com/shiyan688/dsh-novel-craft/blob/8a52268b3d521e11fd78a3117c03c1f5a771a2cf/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.5 <0.3.0-0",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
       "plugin": {
-        "name": "dsh-deeppilot",
+        "name": "dsh-novel-craft",
         "versions": [
           {
-            "version": "0.9.24",
-            "publishTimestamp": 1794800180,
+            "version": "0.3.1",
+            "publishTimestamp": 1794111693,
             "source": {
               "type": "git",
-              "url": "https://github.com/Mars-Sea/dsh-deeppilot",
-              "commit": "6e60ffcc7422256ea8151518411576dc81f0789d"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+              "url": "https://github.com/shiyan688/dsh-novel-craft",
+              "commit": "8a52268b3d521e11fd78a3117c03c1f5a771a2cf"
             }
           }
         ]
       }
+    },
+    {
+      "target": "dsh-novel-craft",
+      "origin": "npm",
+      "name": "dsh-novel-craft",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-novel-craft",
+        "title": "dsh-novel-craft",
+        "description": "DSH 小说创作工作台：抽卡式作者选段 → 蒸馏成「作者偏好档案」（只有规律、不放原文），再往下走章节看板、每章写作包、批注式微调、账目与情节体检、立项到完本的阶段门禁。",
+        "homepage": "https://github.com/shiyan688/dsh-novel-craft",
+        "repository": {
+          "url": "https://github.com/shiyan688/dsh-novel-craft"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "cordis",
+            "plugin",
+            "novel",
+            "writing",
+            "taste-calibration",
+            "creative-writing",
+            "chinese",
+            "writing-workbench",
+            "chapter-board",
+            "inline-annotations"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1790788821,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3a6c9f5200789dc137c01fb3f7b7c7884d1f123906a440ae395c39561ae128fc",
+      "evidence": [
+        {
+          "name": "dsh-novel-craft",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-novel-craft/-/dsh-novel-craft-0.3.0.tgz",
+          "integrity": "sha512-B2OSqDfurBQTpMw6dyCLFx3IkVcCYrsg1DgrPydKigKDZIsio4ACbBSsDHqjCa5292kQMMwR1vGZrI5K5WQKIA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-deeppilot",
+      "target": "dsh-novel-craft",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
-  "errors": [
-    {
-      "stage": "install_target",
-      "target": "dsh-deeppilot",
-      "reason": "The operation was aborted due to timeout"
-    }
-  ],
+  "errors": [],
   "repository": {
-    "url": "https://github.com/Mars-Sea/dsh-deeppilot",
-    "commit": "6e60ffcc7422256ea8151518411576dc81f0789d",
-    "releaseTags": 44,
+    "url": "https://github.com/shiyan688/dsh-novel-craft",
+    "commit": "8a52268b3d521e11fd78a3117c03c1f5a771a2cf",
+    "releaseTags": 10,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "retry_required",
-  "finishedAt": "2026-11-16T05:30:18.981Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:42:58.889Z"
 }

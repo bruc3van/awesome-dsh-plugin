@@ -22,10 +22,14 @@ const gitPlugin = (name = 'demo') => ({
     },
   ],
 })
-const npmPlugin = (name, extra = {}) => ({
+const npmPlugin = (name, extra = {}, engines) => ({
   name,
   ...extra,
-  versions: [{ version: '1.2.3', source: { type: 'npm', registry: 'https://registry.npmjs.org/' } }],
+  versions: [{
+    version: '1.2.3',
+    source: { type: 'npm', registry: 'https://registry.npmjs.org/' },
+    ...(engines ? { engines: { dsh: engines } } : {}),
+  }],
 })
 
 test('github slug normalization ignores git suffix, plus and case', () => {
@@ -168,12 +172,32 @@ test('unconstrained Git and matching npm become applyable mappings; incompatible
         name: 'demo',
         status: 'eligible_metadata',
         declaredCompatibleWithHost: false,
-        plugin: npmPlugin('demo', { repository: { url: 'https://github.com/Owner/Demo' } }),
+        plugin: npmPlugin('demo', { repository: { url: 'https://github.com/Owner/Demo' } }, '>=0.3.0'),
       },
     ],
     outcome: 'mapping_can_be_added',
   })
-  assert.equal(blocked.decision, 'skip')
+  assert.equal(blocked.decision, 'skip', 'a range no supported host satisfies stays unmapped')
+
+  // Regression: evidence audited against a retired host version froze
+  // `declaredCompatibleWithHost: false`; the proposal re-derives compatibility
+  // from the declared range, so ranges the current hosts satisfy map again.
+  const staleAudit = proposeRecord({
+    full_name: 'Owner/Demo',
+    errors: [],
+    readmes: [{ targets: [{ install: 'demo' }] }],
+    candidates: [
+      {
+        origin: 'npm',
+        name: 'demo',
+        status: 'eligible_metadata',
+        declaredCompatibleWithHost: false,
+        plugin: npmPlugin('demo', { repository: { url: 'https://github.com/Owner/Demo' } }, '>=0.2.1-rc.2 <0.3.0'),
+      },
+    ],
+    outcome: 'mapping_can_be_added',
+  })
+  assert.equal(staleAudit.decision, 'apply')
 })
 
 test('opaque npm identity and templates wait for review; apply never overwrites', () => {

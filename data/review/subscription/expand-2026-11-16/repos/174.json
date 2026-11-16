@@ -1,31 +1,50 @@
 {
-  "full_name": "weibaohui/dsh-sync",
+  "full_name": "gongyijie85/dsh-ecc",
   "originalPosition": 174,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 174,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:30:18.936Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:43:29.838Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "eb6d69e9cb6301477a141830521f0a92be3abfb659c306db36a39383367588f2",
-      "url": "https://github.com/weibaohui/dsh-sync/blob/3f6304f1f9ee16c85f89ce4f1e59335b4c193ac1/README.md",
+      "sha256": "d11312cbfa22ebf61bc029ff83456d561a97cfa59f285d8ab5774e5db1c81393",
+      "url": "https://github.com/gongyijie85/dsh-ecc/blob/e73abf7f9770f5448699273f20fe3862de8d60b4/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "@weibaohui/dsh-sync",
-          "command": "dsh plugin --profile web add @weibaohui/dsh-sync -w",
+          "install": "https://github.com/gongyijie85/dsh-ecc",
+          "command": "dsh plugin --profile web add github:gongyijie85/dsh-ecc",
           "profile": "web"
         },
         {
-          "install": "@weibaohui/dsh-sync",
-          "command": "dsh plugin --profile desktop add @weibaohui/dsh-sync -w",
-          "profile": "desktop"
+          "install": "dsh-ecc-skills",
+          "command": "dsh plugin --profile web add dsh-ecc-skills",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "878414e0510f54d52683228a98cdc8ce1ebd05dc5abff13029f1ce339e40f93e",
+      "url": "https://github.com/gongyijie85/dsh-ecc/blob/e73abf7f9770f5448699273f20fe3862de8d60b4/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/gongyijie85/dsh-ecc",
+          "command": "dsh plugin --profile web add github:gongyijie85/dsh-ecc",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ecc-skills",
+          "command": "dsh plugin --profile web add dsh-ecc-skills",
+          "profile": "web"
         }
       ]
     }
@@ -33,86 +52,83 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@weibaohui/dsh-sync",
-      "version": "0.4.11",
+      "name": "dsh-ecc-skills",
+      "version": "0.6.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/weibaohui/dsh-sync",
-        "commit": "3f6304f1f9ee16c85f89ce4f1e59335b4c193ac1"
+        "url": "https://github.com/gongyijie85/dsh-ecc",
+        "commit": "e73abf7f9770f5448699273f20fe3862de8d60b4"
       },
-      "manifestSha256": "af71695bd1b3827dcb8e1b6c9f7f88149cf046621995fb0aa93b4396b47d80a8",
-      "manifestUrl": "https://github.com/weibaohui/dsh-sync/blob/3f6304f1f9ee16c85f89ce4f1e59335b4c193ac1/package.json",
+      "manifestSha256": "4908e4040c3c2461debbd0e8cacab7c521a96a321e740436f3f215b256ac2227",
+      "manifestUrl": "https://github.com/gongyijie85/dsh-ecc/blob/e73abf7f9770f5448699273f20fe3862de8d60b4/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.1.7-rc.2",
+      "declaredRange": ">=0.1.0-rc.6",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "@weibaohui/dsh-sync",
+        "name": "dsh-ecc-skills",
         "versions": [
           {
-            "version": "0.4.11",
-            "publishTimestamp": 1793627218,
+            "version": "0.6.0",
+            "publishTimestamp": 1789116406,
             "source": {
               "type": "git",
-              "url": "https://github.com/weibaohui/dsh-sync",
-              "commit": "3f6304f1f9ee16c85f89ce4f1e59335b4c193ac1"
+              "url": "https://github.com/gongyijie85/dsh-ecc",
+              "commit": "e73abf7f9770f5448699273f20fe3862de8d60b4"
             },
             "engines": {
-              "dsh": ">=0.1.7-rc.2"
+              "dsh": ">=0.1.0-rc.6"
             }
           }
         ]
       }
     },
     {
-      "target": "@weibaohui/dsh-sync",
+      "target": "dsh-ecc-skills",
       "origin": "npm",
-      "name": "@weibaohui/dsh-sync",
+      "name": "dsh-ecc-skills",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "@weibaohui/dsh-sync",
-        "title": "@weibaohui/dsh-sync",
-        "description": "dsh 插件 · 多机同步与多协议备份：Git（分支→PR→合并、冲突交 AI）+ WebDAV + 本地文件夹三种协议各一个页签一个开关；技能/会话/设置/插件清单独立开关与策略；纯备份协议与 git backup 布局一致（backup/<实例ID>/）；快照本地优先、多协议通用上云与恢复回退。",
-        "homepage": "https://github.com/weibaohui/dsh-sync#readme",
+        "name": "dsh-ecc-skills",
+        "title": "dsh-ecc-skills",
+        "description": "ECC (227k-star operator system) skills for DeepSeek Harness — progressive port of 274 curated single-file skills (agentic engineering, evaluation, testing, patterns, vertical domains, docs). Adapted from affaan-m/ECC (MIT)",
+        "homepage": "https://github.com/gongyijie85/dsh-ecc",
         "repository": {
-          "url": "https://github.com/weibaohui/dsh-sync"
+          "url": "https://github.com/gongyijie85/dsh-ecc"
         },
         "metadata": {
           "keywords": [
             "dsh",
+            "dsh-plugin",
             "deepseek-harness",
-            "cordis",
             "plugin",
-            "sync",
-            "backup",
-            "webdav",
-            "git",
-            "gitcode",
-            "dsh-plugin"
+            "skills",
+            "ecc",
+            "agent"
           ]
         },
         "versions": [
           {
-            "version": "0.4.11",
-            "publishTimestamp": 1793627573,
+            "version": "0.6.1",
+            "publishTimestamp": 1790779170,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
             },
             "engines": {
-              "dsh": ">=0.1.7-rc.2"
+              "dsh": ">=0.1.0-rc.6"
             }
           }
         ]
       },
-      "registrySha256": "fabea3ba1468cc4d17cae94da90c7f3f03d9fb41cc82ae795cdf957b98884f65",
+      "registrySha256": "5cd9138c34d59299dc2fc64760e3db694576d432524e1aacaede08d209fc189e",
       "evidence": [
         {
-          "name": "@weibaohui/dsh-sync",
-          "version": "0.4.11",
-          "tarball": "https://registry.npmjs.org/@weibaohui/dsh-sync/-/dsh-sync-0.4.11.tgz",
-          "integrity": "sha512-LhNY18YyfUzX7d3DfiG2YaWcxDUmpyBCDOQv+OBwwaFy/vqucjRxxLCft9t+xOD4oPQSiZ/vieGeQmBWNBFiGw=="
+          "name": "dsh-ecc-skills",
+          "version": "0.6.1",
+          "tarball": "https://registry.npmjs.org/dsh-ecc-skills/-/dsh-ecc-skills-0.6.1.tgz",
+          "integrity": "sha512-QubpUpDuZdmPl+yUKxaolFitl+tm+E7jz3jHDFw6ORwIMO3ImUg1gybMVDbhB4k+F3rcpUIZXmDv4dhbrYNhlQ=="
         }
       ],
       "diagnostics": [],
@@ -123,18 +139,23 @@
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "@weibaohui/dsh-sync",
+      "target": "https://github.com/gongyijie85/dsh-ecc",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ecc-skills",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/weibaohui/dsh-sync",
-    "commit": "3f6304f1f9ee16c85f89ce4f1e59335b4c193ac1",
-    "releaseTags": 21,
+    "url": "https://github.com/gongyijie85/dsh-ecc",
+    "commit": "e73abf7f9770f5448699273f20fe3862de8d60b4",
+    "releaseTags": 8,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:30:27.575Z"
+  "finishedAt": "2026-11-16T05:43:41.505Z"
 }

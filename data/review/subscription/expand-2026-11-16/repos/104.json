@@ -1,172 +1,69 @@
 {
-  "full_name": "KannaKuron/dsh-ide-git",
+  "full_name": "lusblead/dsh-Kingdom",
   "originalPosition": 104,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 104,
   "batch": 1,
-  "stargazers_count": 27,
-  "startedAt": "2026-11-16T05:27:31.319Z",
+  "stargazers_count": 16,
+  "startedAt": "2026-11-16T05:41:21.585Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "ea0f9216d9d371a9c056facfd68743690b9d419b9c3272112320e6ab723c69f8",
-      "url": "https://github.com/KannaKuron/dsh-ide-git/blob/77f9bbb716f12388317e25df22d01e3a5f6509a5/README.md",
+      "sha256": "ea7ff79e3b13296849f4b93856085f796a68e2d45eb03056cfff303308ac4035",
+      "url": "https://github.com/lusblead/dsh-Kingdom/blob/8d6a3f5e97af8878e30b4cc734e4762f15439fcd/README.md",
       "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-ide-git",
-          "command": "dsh plugin --profile web add dsh-ide-git",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README_EN.md",
-      "sha256": "7a85cd21380aa96aa3278fb689117aa788db0e078813f66313c637a53cffb6af",
-      "url": "https://github.com/KannaKuron/dsh-ide-git/blob/77f9bbb716f12388317e25df22d01e3a5f6509a5/README_EN.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-ide-git",
-          "command": "dsh plugin --profile web add dsh-ide-git",
-          "profile": "web"
-        }
-      ]
+      "localOnly": true,
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-ide-git",
-      "version": "0.34.3",
+      "name": "dsh-kingdom",
+      "version": "3.3.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/KannaKuron/dsh-ide-git",
-        "commit": "77f9bbb716f12388317e25df22d01e3a5f6509a5"
+        "url": "https://github.com/lusblead/dsh-Kingdom",
+        "commit": "8d6a3f5e97af8878e30b4cc734e4762f15439fcd"
       },
-      "manifestSha256": "19920a54b76ef741a9300779d6c21cd1cac797b479a14965287523073c2e2de6",
-      "manifestUrl": "https://github.com/KannaKuron/dsh-ide-git/blob/77f9bbb716f12388317e25df22d01e3a5f6509a5/package.json",
+      "manifestSha256": "95beb86e00400257373a21cef46545282bac204b1ecf7fd78e23cfaf769f8f22",
+      "manifestUrl": "https://github.com/lusblead/dsh-Kingdom/blob/8d6a3f5e97af8878e30b4cc734e4762f15439fcd/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.2-rc.1",
+      "declaredRange": ">=0.1.5-rc.1 <0.1.6-0 >=0.1.5-rc.2 || >=0.1.7-0 <0.1.8-0",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "dsh-ide-git",
+        "name": "dsh-kingdom",
         "versions": [
           {
-            "version": "0.34.3",
-            "publishTimestamp": 1794564178,
+            "version": "3.3.0",
+            "publishTimestamp": 1791897450,
             "source": {
               "type": "git",
-              "url": "https://github.com/KannaKuron/dsh-ide-git",
-              "commit": "77f9bbb716f12388317e25df22d01e3a5f6509a5"
+              "url": "https://github.com/lusblead/dsh-Kingdom",
+              "commit": "8d6a3f5e97af8878e30b4cc734e4762f15439fcd"
             },
             "engines": {
-              "dsh": ">=0.2.2-rc.1"
+              "dsh": ">=0.1.5-rc.1 <0.1.6-0 >=0.1.5-rc.2 || >=0.1.7-0 <0.1.8-0"
             }
           }
         ]
       }
-    },
-    {
-      "target": "dsh-ide-git",
-      "origin": "npm",
-      "name": "dsh-ide-git",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-ide-git",
-        "title": {
-          "en": "Git Tool Window",
-          "zh": "Git 工具窗口"
-        },
-        "description": {
-          "en": "An IDE-style Git tool window as a native sidebar tab: branch tree, commit graph, changes and commit details with staged/unstaged diffs, submodules as repos, destructive-action guards with undo handles, and the full argv-only git surface served same-origin.",
-          "zh": "IDE 风格的 Git 工具窗口,作为侧边栏原生标签页:分支树、提交图谱、变更与提交详情(暂存/未暂存 diff)、子模块作为独立仓库、破坏性操作守卫与撤回句柄,git 调用全部 argv 化并走同源信任围栏。"
-        },
-        "homepage": "https://github.com/KannaKuron/dsh-ide-git",
-        "repository": {
-          "url": "https://github.com/KannaKuron/dsh-ide-git"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh",
-            "deepseek-harness",
-            "dsh-plugin",
-            "dsh-better-sidebar",
-            "git",
-            "git-gui",
-            "source-control",
-            "sidebar",
-            "commit-graph"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSI+CiAgPGNpcmNsZSBjeD0iMTAiIGN5PSI4LjUiIHI9IjMuMiIgc3Ryb2tlPSIjNDQ5M2Y4IiBzdHJva2Utd2lkdGg9IjEuNyIvPgogIDxjaXJjbGUgY3g9IjEwIiBjeT0iMjcuNSIgcj0iMy4yIiBzdHJva2U9IiM0NDkzZjgiIHN0cm9rZS13aWR0aD0iMS43Ii8+CiAgPGNpcmNsZSBjeD0iMjUiIGN5PSIxMy41IiByPSIzLjIiIHN0cm9rZT0iI2YwODgzZSIgc3Ryb2tlLXdpZHRoPSIxLjciLz4KICA8cGF0aCBkPSJNMTAgMTEuN3YxMi42TTEwIDE4YzAtNCA2LjQtNC41IDExLjgtNC41IiBzdHJva2U9IiM0NDkzZjgiIHN0cm9rZS13aWR0aD0iMS43IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSIyNSIgY3k9IjI2IiByPSIzLjIiIHN0cm9rZT0iIzQ0OTNmOCIgc3Ryb2tlLXdpZHRoPSIxLjciLz4KICA8cGF0aCBkPSJNMjUgMTYuN3Y2LjEiIHN0cm9rZT0iI2YwODgzZSIgc3Ryb2tlLXdpZHRoPSIxLjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
-        "versions": [
-          {
-            "version": "0.34.3",
-            "publishTimestamp": 1794564315,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.2-rc.1"
-            }
-          },
-          {
-            "version": "0.27.4",
-            "publishTimestamp": 1793804206,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.1.6-alpha.2"
-            }
-          }
-        ]
-      },
-      "registrySha256": "eab613064a89ec6fe5f79493542a4aefef5dda2fe58f2f239f9cb8b49250e365",
-      "evidence": [
-        {
-          "name": "dsh-ide-git",
-          "version": "0.34.3",
-          "tarball": "https://registry.npmjs.org/dsh-ide-git/-/dsh-ide-git-0.34.3.tgz",
-          "integrity": "sha512-uEjNicxt7D+LbuDKk0AHnZ0rKB2fmoNVVBUz2HiFtNYTcZ0xVamTINdY4QwQN2JeyX0Ct7qvXn8zrgba7HrR2w=="
-        },
-        {
-          "name": "dsh-ide-git",
-          "version": "0.27.4",
-          "tarball": "https://registry.npmjs.org/dsh-ide-git/-/dsh-ide-git-0.27.4.tgz",
-          "integrity": "sha512-zhnHUds34vaE3QmmZyxHE1kuyycX0Qmt75kFdp7G4vraal5TIVaooBXjtlaYwvPQr6NL4KRI1MmiB1C1GWXQcA=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-ide-git",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/KannaKuron/dsh-ide-git",
-    "commit": "77f9bbb716f12388317e25df22d01e3a5f6509a5",
-    "releaseTags": 83,
+    "url": "https://github.com/lusblead/dsh-Kingdom",
+    "commit": "8d6a3f5e97af8878e30b4cc734e4762f15439fcd",
+    "releaseTags": 17,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:27:48.439Z"
+  "finishedAt": "2026-11-16T05:41:29.158Z"
 }

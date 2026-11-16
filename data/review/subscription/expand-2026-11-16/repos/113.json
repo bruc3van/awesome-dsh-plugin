@@ -1,64 +1,92 @@
 {
-  "full_name": "riesbri/dshline",
+  "full_name": "cyancity/yolo-bot",
   "originalPosition": 113,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 113,
   "batch": 1,
-  "stargazers_count": 26,
-  "startedAt": "2026-11-16T05:27:47.650Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:41:42.808Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "5ec6ab53472fbecaa26a127687db4226a21961f532a1da31ebef55260776e713",
-      "url": "https://github.com/riesbri/dshline/blob/8b91e0efb088162fae3b919230378b66ed58d943/README.md",
+      "sha256": "7084b9939dede442f30c5d4bde5b8cd3dfe6a008778dcf46c7b0e9f5ad74f8aa",
+      "url": "https://github.com/cyancity/yolo-bot/blob/5b6d5fdab05364a489302628b57c1d0168e49542/README.md",
       "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "README.zh.md",
-      "sha256": "6511970fc96ccf8bfaefb30a775ded2b4999fcc01bc608bd86f027c7e73789b4",
-      "url": "https://github.com/riesbri/dshline/blob/8b91e0efb088162fae3b919230378b66ed58d943/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
+      "localOnly": true,
       "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@dshline/dshline",
-      "version": "0.26.1",
-      "path": "packages/dshline",
+      "name": "@cyancity/yolo-bot",
+      "version": "0.2.0-rc.7",
+      "path": "workbench-host",
       "source": {
         "type": "git",
-        "url": "https://github.com/riesbri/dshline",
-        "commit": "8b91e0efb088162fae3b919230378b66ed58d943",
-        "path": "packages/dshline"
+        "url": "https://github.com/cyancity/yolo-bot",
+        "commit": "5b6d5fdab05364a489302628b57c1d0168e49542",
+        "path": "workbench-host"
       },
-      "manifestSha256": "32e3e987a74167a5d3989811285b3a7c885941fb7fbbb15b7f26c330c9a6a1fb",
-      "manifestUrl": "https://github.com/riesbri/dshline/blob/8b91e0efb088162fae3b919230378b66ed58d943/packages/dshline/package.json",
+      "manifestSha256": "70bcd459474053a13a9bb15bbee648d8605d03e0ecb800f7ff27da3dc2c8b7e6",
+      "manifestUrl": "https://github.com/cyancity/yolo-bot/blob/5b6d5fdab05364a489302628b57c1d0168e49542/workbench-host/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "0.2.0-rc.2",
+      "declaredRange": "0.2.1-rc.5",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "@dshline/dshline",
+        "name": "@cyancity/yolo-bot",
         "versions": [
           {
-            "version": "0.26.1",
-            "publishTimestamp": 1791962913,
+            "version": "0.2.0-rc.7",
+            "publishTimestamp": 1793402662,
             "source": {
               "type": "git",
-              "url": "https://github.com/riesbri/dshline",
-              "commit": "8b91e0efb088162fae3b919230378b66ed58d943",
-              "path": "packages/dshline"
+              "url": "https://github.com/cyancity/yolo-bot",
+              "commit": "5b6d5fdab05364a489302628b57c1d0168e49542",
+              "path": "workbench-host"
             },
             "engines": {
-              "dsh": "0.2.0-rc.2"
+              "dsh": "0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@cyancity/yolo-bot-ui",
+      "version": "0.2.0-rc.7",
+      "path": "workbench-ui",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cyancity/yolo-bot",
+        "commit": "5b6d5fdab05364a489302628b57c1d0168e49542",
+        "path": "workbench-ui"
+      },
+      "manifestSha256": "17a69e71c18af24b869f463b0707f69cd0b396e28f67bc240991b1f7c0ea99df",
+      "manifestUrl": "https://github.com/cyancity/yolo-bot/blob/5b6d5fdab05364a489302628b57c1d0168e49542/workbench-ui/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@cyancity/yolo-bot-ui",
+        "versions": [
+          {
+            "version": "0.2.0-rc.7",
+            "publishTimestamp": 1793402662,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/cyancity/yolo-bot",
+              "commit": "5b6d5fdab05364a489302628b57c1d0168e49542",
+              "path": "workbench-ui"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.5"
             }
           }
         ]
@@ -68,12 +96,12 @@
   "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/riesbri/dshline",
-    "commit": "8b91e0efb088162fae3b919230378b66ed58d943",
-    "releaseTags": 30,
+    "url": "https://github.com/cyancity/yolo-bot",
+    "commit": "5b6d5fdab05364a489302628b57c1d0168e49542",
+    "releaseTags": 4,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:28:00.914Z"
+  "finishedAt": "2026-11-16T05:41:55.129Z"
 }

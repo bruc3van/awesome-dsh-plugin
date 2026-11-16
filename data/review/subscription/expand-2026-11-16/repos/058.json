@@ -1,99 +1,144 @@
 {
-  "full_name": "varsian/ghost",
+  "full_name": "ExElectron/dsh-tool-hongtou",
   "originalPosition": 58,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 58,
   "batch": 1,
-  "stargazers_count": 52,
-  "startedAt": "2026-11-16T05:26:08.387Z",
+  "stargazers_count": 27,
+  "startedAt": "2026-11-16T05:39:39.592Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "d26902125be3beb83b1046d5519a7524287e4c34d89b0c2bda98efc474b9c46b",
-      "url": "https://github.com/varsian/ghost/blob/be68f86602ff60661a3db903ceab94fce622573d/README.md",
+      "sha256": "b079663bc88092a516522dc69a4f3ddb64249c738df106d95dc94bc1a614a62a",
+      "url": "https://github.com/ExElectron/dsh-tool-hongtou/blob/f1931356f1ef4cc95e476d9216d7c2f6cfd862d4/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "README.en.md",
-      "sha256": "402b3057f3bada2b41c6981b404333bab8d7874c7eb0c968d7f009fd562bbbc4",
-      "url": "https://github.com/varsian/ghost/blob/be68f86602ff60661a3db903ceab94fce622573d/README.en.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "live2d-pet/docs/README.md",
-      "sha256": "7b6d6c12f093267b922e29ecd6e6627afddf6354dce54924614033814274ab03",
-      "url": "https://github.com/varsian/ghost/blob/be68f86602ff60661a3db903ceab94fce622573d/live2d-pet/docs/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "voice-plugin/README.md",
-      "sha256": "811e9103c1c21d6cf9563c3808ce3aa572751597bd52e0e59134a843f69f5893",
-      "url": "https://github.com/varsian/ghost/blob/be68f86602ff60661a3db903ceab94fce622573d/voice-plugin/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "live2d-pet/models/README.md",
-      "sha256": "e320bd7011ed031b4efb155ba3456c279cd03fda7807aef8bc27907a23de874e",
-      "url": "https://github.com/varsian/ghost/blob/be68f86602ff60661a3db903ceab94fce622573d/live2d-pet/models/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
+      "targets": [
+        {
+          "install": "dsh-tool-hongtou",
+          "command": "dsh plugin --profile web add dsh-tool-hongtou",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ExElectron/dsh-tool-hongtou",
+          "command": "dsh plugin --profile web add github:ExElectron/dsh-tool-hongtou",
+          "profile": "web"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@local/dsh-live2d-bundle",
-      "version": "0.1.0",
-      "path": "live2d-pet/packages/bundle",
+      "name": "dsh-tool-hongtou",
+      "version": "0.2.0",
+      "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/varsian/ghost",
-        "commit": "be68f86602ff60661a3db903ceab94fce622573d",
-        "path": "live2d-pet/packages/bundle"
+        "url": "https://github.com/ExElectron/dsh-tool-hongtou",
+        "commit": "f1931356f1ef4cc95e476d9216d7c2f6cfd862d4"
       },
-      "manifestSha256": "0adb9670dfe4fb813654a21d83d184a3d9812808b5cab3ac018807ffe8edbdf3",
-      "manifestUrl": "https://github.com/varsian/ghost/blob/be68f86602ff60661a3db903ceab94fce622573d/live2d-pet/packages/bundle/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
+      "manifestSha256": "d823dea9ab90de0d8b203d883b493e0bd8c95525386ef53870161fff8a742b6c",
+      "manifestUrl": "https://github.com/ExElectron/dsh-tool-hongtou/blob/f1931356f1ef4cc95e476d9216d7c2f6cfd862d4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-tool-hongtou",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1789654400,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ExElectron/dsh-tool-hongtou",
+              "commit": "f1931356f1ef4cc95e476d9216d7c2f6cfd862d4"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
     },
     {
-      "origin": "repository_discovery",
-      "name": "@local/dsh-live2d-tts-bridge",
-      "version": "0.1.0",
-      "path": "tts-bridge/bundle",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/varsian/ghost",
-        "commit": "be68f86602ff60661a3db903ceab94fce622573d",
-        "path": "tts-bridge/bundle"
+      "target": "dsh-tool-hongtou",
+      "origin": "npm",
+      "name": "dsh-tool-hongtou",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tool-hongtou",
+        "title": "dsh-tool-hongtou",
+        "description": "Cordis /hongtou command: two-phase pipeline (LLM structured JSON + deterministic Word 2003 XML template rendering)",
+        "author": "ExElectron",
+        "homepage": "https://github.com/ExElectron/dsh-tool-hongtou#readme",
+        "repository": {
+          "url": "https://github.com/ExElectron/dsh-tool-hongtou"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh",
+            "hongtou",
+            "red-header",
+            "official-document",
+            "word-xml",
+            "word2003"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787343687,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
       },
-      "manifestSha256": "2b0d5aefae83db145ac06b32072854ccec365f641e196dfd42deac7d6b67da3b",
-      "manifestUrl": "https://github.com/varsian/ghost/blob/be68f86602ff60661a3db903ceab94fce622573d/tts-bridge/bundle/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
+      "registrySha256": "4a853ccd9ad89a99239b0f2ece5918bcc9d2d9bdb8a993a26567aa119d3a9108",
+      "evidence": [
+        {
+          "name": "dsh-tool-hongtou",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-tool-hongtou/-/dsh-tool-hongtou-0.2.0.tgz",
+          "integrity": "sha512-M+6Q5P844qocLdXn7HYhfcSBy/WzKZgzdGT6iDUYuKUq6IWnVeKHqREFyMoklR0aXnM7EAIn0uvrJXdJ8zhHFw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tool-hongtou",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ExElectron/dsh-tool-hongtou",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/varsian/ghost",
-    "commit": "be68f86602ff60661a3db903ceab94fce622573d",
-    "releaseTags": 1,
+    "url": "https://github.com/ExElectron/dsh-tool-hongtou",
+    "commit": "f1931356f1ef4cc95e476d9216d7c2f6cfd862d4",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:26:29.637Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:39:48.089Z"
 }

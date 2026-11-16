@@ -1,117 +1,74 @@
 {
-  "full_name": "RestRegular/dsh-memory",
+  "full_name": "MarchLiu/dsh-cybernetics",
   "originalPosition": 162,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 162,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:29:39.743Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:43:09.938Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "e00e683fced4b3ecac800777d56819d16001dae28f039f60c7233325fcfd8531",
-      "url": "https://github.com/RestRegular/dsh-memory/blob/5557303d5f2d66860dc280195830de75817c0b7f/README.md",
+      "sha256": "a0ede34bb8f539d531a8b60e8d967079b559d89539eef0bea4c71dee2eaf8542",
+      "url": "https://github.com/MarchLiu/dsh-cybernetics/blob/2d197c27b9d67c0530d943633d05c58d9485a39a/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "@restregular/dsh-memory",
-          "command": "dsh plugin --profile web add @restregular/dsh-memory",
-          "profile": "web"
-        }
-      ]
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "98888a51ed333e60f2932c10df5cc47dc88b183a933b6400d7bf5316369d7dab",
+      "url": "https://github.com/MarchLiu/dsh-cybernetics/blob/2d197c27b9d67c0530d943633d05c58d9485a39a/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@restregular/dsh-memory",
-      "version": "0.34.0",
+      "name": "@mars.liu/dsh-cybernetics",
+      "version": "0.27.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/RestRegular/dsh-memory",
-        "commit": "5557303d5f2d66860dc280195830de75817c0b7f"
+        "url": "https://github.com/MarchLiu/dsh-cybernetics",
+        "commit": "2d197c27b9d67c0530d943633d05c58d9485a39a"
       },
-      "manifestSha256": "049607ef1820c795ce253d624bf13116022c81356778a6f48df7c1e82531e4e7",
-      "manifestUrl": "https://github.com/RestRegular/dsh-memory/blob/5557303d5f2d66860dc280195830de75817c0b7f/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
-    },
-    {
-      "target": "@restregular/dsh-memory",
-      "origin": "npm",
-      "name": "@restregular/dsh-memory",
+      "manifestSha256": "fc2c62028d7658f1629b6a31d025402e818d53d648372cb8f1a2988b0a8415c2",
+      "manifestUrl": "https://github.com/MarchLiu/dsh-cybernetics/blob/2d197c27b9d67c0530d943633d05c58d9485a39a/package.json",
       "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
       "plugin": {
-        "name": "@restregular/dsh-memory",
-        "title": {
-          "en": "Memory System",
-          "zh": "记忆系统"
-        },
-        "description": {
-          "en": "Local memory system: automatic recall, hard rules, seven memory tools (including proactive blocking and scope archiving), JSONL storage and local vector search.",
-          "zh": "本地记忆系统：自动召回、硬性规则、七个记忆工具（含主动屏蔽与作用域归档），JSONL 落盘 + 本地向量检索。"
-        },
-        "repository": {
-          "url": "https://github.com/RestRegular/dsh-memory",
-          "directory": "packages/dsh-memory"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh-plugin",
-            "deepseek-harness",
-            "memory",
-            "bge-m3",
-            "embeddings",
-            "recall",
-            "panel"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzYgMzYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPCEtLQogICAg6K6w5b+G57O757uf5Zu+5qCHOuW5tOi9ruOAggoKICAgIOiusOW/huaYr+aXtumXtOe0r+enr+WHuuadpeeahOS4nOilvyDigJTigJQg5LiA5ZyI5LiA5ZyI6ZW/5Ye65p2l55qE5bm06L2uLOavlCLlhoXlrZjmnaEv6Iqv54mHIuabtOi0tAogICAgIumVv+acnyI76YeR6Imy5bm06L2u5Y6L5Zyo5rex5ZKW5bqV5LiKLOWDj+S4gOaemuWwgeicoeWNsOeroOOAgumFjeiJsuWIu+aEj+mBv+W8gOaPkuS7tuWIl+ihqOmHjOWkp+mHjwogICAg5Ye6546w55qE6JOd6ImyIC8g55m95bqVOua3seWSliAjM0IyRDIwIOKGkiAjMTIwRTBBICsg6aaZ5qef6YeRICNGOEUyQjQg4oaSICNCRjgyMzDjgIIKCiAgICDmsr/nlKjlrr/kuLvmj5Lku7bnvo7mnK/nmoTop4TojIM6MzbDlzM2IOeUu+W4g+OAgeWGhee8qSA0IOeahCAyOMOXMjgg5ZyG6KeS55Om54mHKHJ4IDgpOwogICAg5LiN5YaZ5q27IHdpZHRoL2hlaWdodCzmmL7npLrlsLrlr7jkuqTnu5nmtojotLnmlrko5o+S5Lu2566h55CG5Zmo6KGMIDMwIC8g5Y2h54mHIDM2KeOAggogICAg6K6w5Y+35piv5LiA5p2hIDIuNTUg5o+P6L6555qE6J665peLLOeUqCA3IOauteWchuW8p+i/keS8vCjogIzkuI3mmK/lh6Dnmb7kuKrngrnnmoTmipjnur8pOgogICAgMzBweCDkuIvlsLHmmK/kuIDmnaHlrozmlbTnmoTnur8sMTI4cHgg5LiL5Lmf5LiN6Zyy5oqY6KeS44CC5aSW5ZyI5YaN5Y6L5LiA5ZyIIDAuOXB4IOeahAogICAg5pqW6YeR5YaF6L65LOa3seiJsuW6leS4jeS8muaVtOS4queziuaIkOm7keaWueWdl+OAggoKICAgIOaUueWQjSAvIOaNoumFjeiJsuaXtueahOaKpOagjzrlm77moIflv4XpobvmmK/ljIXlhoXmlofku7bjgIFTVkcvUE5HL0pQRUcvV2ViUOOAgeKJpDI1NiBLaUIKICAgICjlrr/kuLsgcmVhZFBsdWdpbk1ldGEg55qE6K+75Y+W5p2h5Lu2KSzop4Egc291cmNlL21lbW9yeS1wbHVnaW4vdGVzdC9wYWNrYWdlZC1hcnRpZmFjdC50ZXN0LnRz44CCCiAgLS0+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjI4IiByeD0iOCIgZmlsbD0idXJsKCNtZW1vcnlfdGlsZSkiIC8+CiAgPHJlY3QgeD0iNC40NSIgeT0iNC40NSIgd2lkdGg9IjI3LjEiIGhlaWdodD0iMjcuMSIgcng9IjcuNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDI0MCwyMDAsMTQwLDAuMjApIiBzdHJva2Utd2lkdGg9IjAuOSIgLz4KICA8cGF0aCBkPSJNMTguOTkgMTYuNzUgQTIuMTkgMi4xOSAwIDAgMSAxOS45OSAxOS45NSBBMy4zOCAzLjM4IDAgMCAxIDE0Ljk0IDIwLjUzIEE0LjU2IDQuNTYgMCAwIDEgMTUuMTUgMTMuNzEgQTUuNzQgNS43NCAwIDAgMSAyMy42MSAxNS4wNyBBNi45MiA2LjkyIDAgMCAxIDIwLjc2IDI0Ljk5IEE4LjExIDguMTEgMCAwIDEgOS42MiAyMC4zMyIgc3Ryb2tlPSJ1cmwoI21lbW9yeV9yaW5nKSIgc3Ryb2tlLXdpZHRoPSIyLjU1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9Im1lbW9yeV90aWxlIiB4MT0iMTgiIHkxPSI0IiB4Mj0iMTgiIHkyPSIzMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjM0IyRDIwIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxMjBFMEEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJtZW1vcnlfcmluZyIgeDE9IjE4IiB5MT0iOSIgeDI9IjE4IiB5Mj0iMjciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0Y4RTJCNCIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjQkY4MjMwIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+        "name": "@mars.liu/dsh-cybernetics",
         "versions": [
           {
-            "version": "0.34.0",
-            "publishTimestamp": 1794787966,
+            "version": "0.27.0",
+            "publishTimestamp": 1794796396,
             "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
+              "type": "git",
+              "url": "https://github.com/MarchLiu/dsh-cybernetics",
+              "commit": "2d197c27b9d67c0530d943633d05c58d9485a39a"
             }
           }
         ]
-      },
-      "registrySha256": "e1fde9399ed98c02787b47cedf5ebdb2c867bdfa954fdc8181cf915dc57593a7",
-      "evidence": [
-        {
-          "name": "@restregular/dsh-memory",
-          "version": "0.34.0",
-          "tarball": "https://registry.npmjs.org/@restregular/dsh-memory/-/dsh-memory-0.34.0.tgz",
-          "integrity": "sha512-bN1pEzKhKcJ1urHZ5yh6qpFHdlzYCHKnq41caqEp61BOkZnD2eXCIc4ydJ7rFoFTLoBiZXVI+7jSAI/9dncafA=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null
+      }
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "@restregular/dsh-memory",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/RestRegular/dsh-memory",
-    "commit": "5557303d5f2d66860dc280195830de75817c0b7f",
-    "releaseTags": 101,
+    "url": "https://github.com/MarchLiu/dsh-cybernetics",
+    "commit": "2d197c27b9d67c0530d943633d05c58d9485a39a",
+    "releaseTags": 2,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:29:49.477Z"
+  "finishedAt": "2026-11-16T05:43:19.638Z"
 }

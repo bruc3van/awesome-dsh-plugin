@@ -1,178 +1,77 @@
 {
-  "full_name": "Leo3-7/dsh-obsidian-inbox",
+  "full_name": "HaoyanZhang123/dsh-plugin-control-your-schedule",
   "originalPosition": 159,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 159,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:29:29.575Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:43:02.693Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "b3dafe97fb7cbfeb54eb12902513a05e1a0664963217dde4a0e12b9e0be1444c",
-      "url": "https://github.com/Leo3-7/dsh-obsidian-inbox/blob/126d7558050e4ba687235bf09c149101ea5436aa/README.md",
+      "sha256": "aa9b18ec63f85863dff9a59d896284424c95edd63877ac451d6b0c9fdfa1d710",
+      "url": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-schedule/blob/b8a927b1865f0ffcdbeaa36bdf079b9cdbf6475b/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-obsidian-inbox",
-          "command": "dsh plugin --profile web add dsh-obsidian-inbox",
-          "profile": "web"
-        },
-        {
-          "install": "dsh-obsidian-inbox",
-          "command": "dsh plugin --profile <name> add dsh-obsidian-inbox",
-          "profile": "default"
-        },
-        {
-          "install": "https://github.com/Leo3-7/dsh-obsidian-inbox",
-          "command": "dsh plugin --profile web add https://github.com/Leo3-7/dsh-obsidian-inbox",
-          "profile": "web"
-        }
-      ]
+      "targets": []
     },
     {
-      "path": "README.en.md",
-      "sha256": "2dc58260d9d1c4f65d04a3d7c25d9325ddd14638464717cf27b2052b31353ace",
-      "url": "https://github.com/Leo3-7/dsh-obsidian-inbox/blob/126d7558050e4ba687235bf09c149101ea5436aa/README.en.md",
+      "path": "README.zh.md",
+      "sha256": "4cb86edd1e18e4012e24653f89b124d7af3e3c8e207114974f384f78146ea2b8",
+      "url": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-schedule/blob/b8a927b1865f0ffcdbeaa36bdf079b9cdbf6475b/README.zh.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-obsidian-inbox",
-          "command": "dsh plugin --profile web add dsh-obsidian-inbox",
-          "profile": "web"
-        },
-        {
-          "install": "dsh-obsidian-inbox",
-          "command": "dsh plugin --profile <name> add dsh-obsidian-inbox",
-          "profile": "default"
-        },
-        {
-          "install": "https://github.com/Leo3-7/dsh-obsidian-inbox",
-          "command": "dsh plugin --profile web add https://github.com/Leo3-7/dsh-obsidian-inbox",
-          "profile": "web"
-        }
-      ]
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-obsidian-inbox",
-      "version": "0.2.2",
+      "name": "dsh-plugin-control-your-schedule",
+      "version": "0.7.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/Leo3-7/dsh-obsidian-inbox",
-        "commit": "126d7558050e4ba687235bf09c149101ea5436aa"
+        "url": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-schedule",
+        "commit": "b8a927b1865f0ffcdbeaa36bdf079b9cdbf6475b"
       },
-      "manifestSha256": "486f52c3ba70f80a0da4d415f95fba184f1ad4d10a20bf10a2eee94efb4faa96",
-      "manifestUrl": "https://github.com/Leo3-7/dsh-obsidian-inbox/blob/126d7558050e4ba687235bf09c149101ea5436aa/package.json",
+      "manifestSha256": "9e49acb5d9c370d07ac17520cc3483ed581885159582bcb51981e962eee1cba6",
+      "manifestUrl": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-schedule/blob/b8a927b1865f0ffcdbeaa36bdf079b9cdbf6475b/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.1.1-rc.2",
+      "declaredRange": ">=0.2.0-0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-obsidian-inbox",
+        "name": "dsh-plugin-control-your-schedule",
         "versions": [
           {
-            "version": "0.2.2",
-            "publishTimestamp": 1787897074,
+            "version": "0.7.0",
+            "publishTimestamp": 1794603815,
             "source": {
               "type": "git",
-              "url": "https://github.com/Leo3-7/dsh-obsidian-inbox",
-              "commit": "126d7558050e4ba687235bf09c149101ea5436aa"
+              "url": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-schedule",
+              "commit": "b8a927b1865f0ffcdbeaa36bdf079b9cdbf6475b"
             },
             "engines": {
-              "dsh": "^0.1.1-rc.2"
+              "dsh": ">=0.2.0-0"
             }
           }
         ]
       }
-    },
-    {
-      "target": "dsh-obsidian-inbox",
-      "origin": "npm",
-      "name": "dsh-obsidian-inbox",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-obsidian-inbox",
-        "title": "dsh-obsidian-inbox",
-        "description": "Obsidian knowledge-base ingest workflow as a DeepSeek Harness plugin: a bundled skill provider + an obsidian_validate_vault model tool, all declarative and composable.",
-        "author": "Leo3-7",
-        "homepage": "https://github.com/Leo3-7/dsh-obsidian-inbox",
-        "repository": {
-          "url": "https://github.com/Leo3-7/dsh-obsidian-inbox"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh",
-            "dsh-plugin",
-            "deepseek-harness",
-            "skills",
-            "obsidian",
-            "knowledge-base"
-          ]
-        },
-        "versions": [
-          {
-            "version": "0.2.2",
-            "publishTimestamp": 1787897250,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": "^0.1.1-rc.2"
-            }
-          }
-        ]
-      },
-      "registrySha256": "2c8141b03d3508e31ebb743cd8e0447a67e9ece59aaca656a688f8bcd60174d7",
-      "evidence": [
-        {
-          "name": "dsh-obsidian-inbox",
-          "version": "0.2.2",
-          "tarball": "https://registry.npmjs.org/dsh-obsidian-inbox/-/dsh-obsidian-inbox-0.2.2.tgz",
-          "integrity": "sha512-tUsjVVc47kTEtnGz/Qvyz1js8SxoIieStEltYKn1mFSseEhbXsHUZHIfTN7/yQfu7xx16XiWjGb4T2JR3tAFOA=="
-        }
-      ],
-      "diagnostics": [
-        {
-          "name": "dsh-obsidian-inbox",
-          "code": "metadata_warning",
-          "status": "warning",
-          "reason": "package.json repository.directory \".\" is not a relative directory; it is omitted"
-        }
-      ],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-obsidian-inbox",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "https://github.com/Leo3-7/dsh-obsidian-inbox",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/Leo3-7/dsh-obsidian-inbox",
-    "commit": "126d7558050e4ba687235bf09c149101ea5436aa",
-    "releaseTags": 2,
+    "url": "https://github.com/HaoyanZhang123/dsh-plugin-control-your-schedule",
+    "commit": "b8a927b1865f0ffcdbeaa36bdf079b9cdbf6475b",
+    "releaseTags": 20,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:29:39.742Z"
+  "finishedAt": "2026-11-16T05:43:11.592Z"
 }

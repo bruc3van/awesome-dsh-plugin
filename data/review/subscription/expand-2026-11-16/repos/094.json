@@ -1,179 +1,95 @@
 {
-  "full_name": "HiWhaleW/dsh-toolbox",
+  "full_name": "Ghost011118/dsh-balance-meter",
   "originalPosition": 94,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 94,
   "batch": 1,
-  "stargazers_count": 29,
-  "startedAt": "2026-11-16T05:27:12.889Z",
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T05:40:56.550Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "84d3bf8b207eb41647523448f435f4af54a7755c9af1be7be38829d90e41bf1f",
-      "url": "https://github.com/HiWhaleW/dsh-toolbox/blob/4106c27b1a9ba3d81bedcf714e769d233032f892/README.md",
+      "sha256": "48537be8d6ef603c9f7b3838138012c2085e2af0d72254b74f1cdb1856feacbe",
+      "url": "https://github.com/Ghost011118/dsh-balance-meter/blob/1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11/README.md",
       "ambiguous": false,
-      "localOnly": true,
-      "targets": []
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ghost011118/dsh-balance-meter",
+          "command": "dsh plugin --profile web add https://github.com/Ghost011118/dsh-balance-meter",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "af48d2eab7323cb0cf9aa21fb2867c69b44a04fde9dd3840dfa16a9e6d682073",
+      "url": "https://github.com/Ghost011118/dsh-balance-meter/blob/1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ghost011118/dsh-balance-meter",
+          "command": "dsh plugin --profile web add https://github.com/Ghost011118/dsh-balance-meter",
+          "profile": "web"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@dsh-toolbox/compatibility-radar",
-      "version": "0.2.1",
-      "path": "packages/compatibility-radar",
+      "name": "dsh-balance-meter",
+      "version": "0.1.0",
+      "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/HiWhaleW/dsh-toolbox",
-        "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
-        "path": "packages/compatibility-radar"
+        "url": "https://github.com/Ghost011118/dsh-balance-meter",
+        "commit": "1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11"
       },
-      "manifestSha256": "c871bc40108688f9dd5bba5524dd447387c6d9fe35e7b3889c8438694be5a5ae",
-      "manifestUrl": "https://github.com/HiWhaleW/dsh-toolbox/blob/4106c27b1a9ba3d81bedcf714e769d233032f892/packages/compatibility-radar/package.json",
+      "manifestSha256": "261cd26e1a6f0d5acc6f1181d673eb953a2b4463b32df4545e709e2931dcad78",
+      "manifestUrl": "https://github.com/Ghost011118/dsh-balance-meter/blob/1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "0.1.1-rc.2",
+      "declaredRange": "^0.1.0-rc.6",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "@dsh-toolbox/compatibility-radar",
+        "name": "dsh-balance-meter",
         "versions": [
           {
-            "version": "0.2.1",
-            "publishTimestamp": 1787660787,
+            "version": "0.1.0",
+            "publishTimestamp": 1787225648,
             "source": {
               "type": "git",
-              "url": "https://github.com/HiWhaleW/dsh-toolbox",
-              "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
-              "path": "packages/compatibility-radar"
+              "url": "https://github.com/Ghost011118/dsh-balance-meter",
+              "commit": "1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11"
             },
             "engines": {
-              "dsh": "0.1.1-rc.2"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "origin": "repository_discovery",
-      "name": "@dsh-toolbox/context-switchboard",
-      "version": "0.2.1",
-      "path": "packages/context-switchboard",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/HiWhaleW/dsh-toolbox",
-        "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
-        "path": "packages/context-switchboard"
-      },
-      "manifestSha256": "3aec517e9deb7c1fc7abb797dac91cb84e25bb6577b0b6d958e63cccfc86fef6",
-      "manifestUrl": "https://github.com/HiWhaleW/dsh-toolbox/blob/4106c27b1a9ba3d81bedcf714e769d233032f892/packages/context-switchboard/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": "0.1.1-rc.2",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "@dsh-toolbox/context-switchboard",
-        "versions": [
-          {
-            "version": "0.2.1",
-            "publishTimestamp": 1787660787,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/HiWhaleW/dsh-toolbox",
-              "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
-              "path": "packages/context-switchboard"
-            },
-            "engines": {
-              "dsh": "0.1.1-rc.2"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "origin": "repository_discovery",
-      "name": "@dsh-toolbox/plugin-preflight",
-      "version": "0.2.1",
-      "path": "packages/plugin-preflight",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/HiWhaleW/dsh-toolbox",
-        "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
-        "path": "packages/plugin-preflight"
-      },
-      "manifestSha256": "812368984eb256f5deaac8a6025ef6f574fdb10fdaee8c181a309b7c983a361d",
-      "manifestUrl": "https://github.com/HiWhaleW/dsh-toolbox/blob/4106c27b1a9ba3d81bedcf714e769d233032f892/packages/plugin-preflight/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": "0.1.1-rc.2",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "@dsh-toolbox/plugin-preflight",
-        "versions": [
-          {
-            "version": "0.2.1",
-            "publishTimestamp": 1787660787,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/HiWhaleW/dsh-toolbox",
-              "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
-              "path": "packages/plugin-preflight"
-            },
-            "engines": {
-              "dsh": "0.1.1-rc.2"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "origin": "repository_discovery",
-      "name": "@dsh-toolbox/product-research-workbench",
-      "version": "0.2.1",
-      "path": "packages/product-research-workbench",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/HiWhaleW/dsh-toolbox",
-        "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
-        "path": "packages/product-research-workbench"
-      },
-      "manifestSha256": "ea999fa8b883079d160df9ff111c8ad93c5cf4cdad3112475e4ecfeb4e4e8b9d",
-      "manifestUrl": "https://github.com/HiWhaleW/dsh-toolbox/blob/4106c27b1a9ba3d81bedcf714e769d233032f892/packages/product-research-workbench/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": "0.1.1-rc.2",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "@dsh-toolbox/product-research-workbench",
-        "versions": [
-          {
-            "version": "0.2.1",
-            "publishTimestamp": 1787660787,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/HiWhaleW/dsh-toolbox",
-              "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
-              "path": "packages/product-research-workbench"
-            },
-            "engines": {
-              "dsh": "0.1.1-rc.2"
+              "dsh": "^0.1.0-rc.6"
             }
           }
         ]
       }
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Ghost011118/dsh-balance-meter",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/HiWhaleW/dsh-toolbox",
-    "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
+    "url": "https://github.com/Ghost011118/dsh-balance-meter",
+    "commit": "1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11",
     "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:27:29.614Z"
+  "finishedAt": "2026-11-16T05:41:05.896Z"
 }

@@ -1,133 +1,51 @@
 {
-  "full_name": "Lain-in-coding/dsh-grok-search",
+  "full_name": "Suiwan/whale-purse",
   "originalPosition": 52,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 52,
   "batch": 1,
-  "stargazers_count": 62,
-  "startedAt": "2026-11-16T05:25:59.606Z",
+  "stargazers_count": 29,
+  "startedAt": "2026-11-16T05:39:26.818Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "b5e0f966912be4a851ec9918c2ce103eb850dd137c7072bc33c43cb84557b186",
-      "url": "https://github.com/Lain-in-coding/dsh-grok-search/blob/eb9431da8b0171dc693b22f05d5242a3c22c7cd1/README.md",
+      "sha256": "91935f3c992cf840008252f5ad0f48bf09b3371ee5277b05d101e454504eeb1f",
+      "url": "https://github.com/Suiwan/whale-purse/blob/2dd878c5cf7874ba0566e9e38f28aedaf55ad195/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-grok-search@0.3.0",
-          "command": "dsh plugin --profile web add dsh-grok-search@0.3.0",
-          "profile": "web"
-        }
-      ]
+      "targets": []
     }
   ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-grok-search",
-      "version": "0.3.0",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/Lain-in-coding/dsh-grok-search",
-        "commit": "eb9431da8b0171dc693b22f05d5242a3c22c7cd1"
-      },
-      "manifestSha256": "afb5d4c4e80bc21bc48fe0cf846e6068a9d49c73bcc634a125729c422cc1e65c",
-      "manifestUrl": "https://github.com/Lain-in-coding/dsh-grok-search/blob/eb9431da8b0171dc693b22f05d5242a3c22c7cd1/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": "0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-grok-search",
-        "versions": [
-          {
-            "version": "0.3.0",
-            "publishTimestamp": 1794579611,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/Lain-in-coding/dsh-grok-search",
-              "commit": "eb9431da8b0171dc693b22f05d5242a3c22c7cd1"
-            },
-            "engines": {
-              "dsh": "0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "dsh-grok-search@0.3.0",
-      "origin": "npm",
-      "name": "dsh-grok-search",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-grok-search",
-        "title": "dsh-grok-search",
-        "description": "填写任一可用搜索来源的 API Key，开启插件即可接管网页搜索；支持共享配置、补充来源静默回退和即时恢复官方搜索。",
-        "author": "Lain-in-coding",
-        "homepage": "https://github.com/Lain-in-coding/dsh-grok-search#readme",
-        "repository": {
-          "url": "https://github.com/Lain-in-coding/dsh-grok-search"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek-harness",
-            "dsh",
-            "dsh-plugin",
-            "web-search",
-            "grok",
-            "grok-search-rs",
-            "mcp"
-          ]
-        },
-        "versions": [
-          {
-            "version": "0.3.0",
-            "publishTimestamp": 1794554600,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": "0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2"
-            }
-          }
-        ]
-      },
-      "registrySha256": "52c3a8949bcb948303724bdd2fc59ad130816b03395f386319d69484c41ece05",
-      "evidence": [
-        {
-          "name": "dsh-grok-search",
-          "version": "0.3.0",
-          "tarball": "https://registry.npmjs.org/dsh-grok-search/-/dsh-grok-search-0.3.0.tgz",
-          "integrity": "sha512-KTWr90hnR8ZvVq8QF/JXaMt2CynPkGybwJ5x7cY7EQ825AMR8NiVmtIObrvdAkrPjvIkQPVegaSEXuV7VwwawA=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    }
-  ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-grok-search@0.3.0",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "candidates": [],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/Lain-in-coding/dsh-grok-search",
-    "commit": "eb9431da8b0171dc693b22f05d5242a3c22c7cd1",
-    "releaseTags": 5,
+    "url": "https://github.com/Suiwan/whale-purse",
+    "commit": "2dd878c5cf7874ba0566e9e38f28aedaf55ad195",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:26:07.986Z"
+  "rootManifest": {
+    "name": "whale-purse",
+    "version": "1.0.0",
+    "dsh": {
+      "client": {
+        "platform": "web",
+        "inject": [
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-connection",
+          "@deepseek-ai/dsh-client-ui-settings",
+          "@deepseek-ai/dsh-client-ui-slots",
+          "@deepseek-ai/dsh-client-ui-conversation"
+        ]
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:39:36.175Z"
 }

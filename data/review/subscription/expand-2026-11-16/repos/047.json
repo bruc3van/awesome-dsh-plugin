@@ -1,40 +1,65 @@
 {
-  "full_name": "SepineTam/cnki-mcp",
+  "full_name": "SenmuuuuW/dsh-whale-report",
   "originalPosition": 47,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 47,
   "batch": 1,
-  "stargazers_count": 67,
-  "startedAt": "2026-11-16T05:25:53.449Z",
+  "stargazers_count": 31,
+  "startedAt": "2026-11-16T05:38:56.047Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
-  "readmes": [
+  "readmes": [],
+  "candidates": [
     {
-      "path": "README.md",
-      "sha256": "33203e5dae1c853d10b4e33a9b563ce1a3e1c933e6b64ba6519001615b5a1afd",
-      "url": "https://github.com/SepineTam/cnki-mcp/blob/637f6ebff76cb7477647dd8e53cc6879ec597e6f/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
+      "origin": "repository_discovery",
+      "name": "dsh-whale-report",
+      "version": "0.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SenmuuuuW/dsh-whale-report",
+        "commit": "a20003e6ddbd4352846bfbf6ad105127bfcc2ec4"
+      },
+      "manifestSha256": "4a2c183c9685c88546d020c9f34c4ad247a19bda7311e074809c72c3c00bf059",
+      "manifestUrl": "https://github.com/SenmuuuuW/dsh-whale-report/blob/a20003e6ddbd4352846bfbf6ad105127bfcc2ec4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.2 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-whale-report",
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1788413469,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SenmuuuuW/dsh-whale-report",
+              "commit": "a20003e6ddbd4352846bfbf6ad105127bfcc2ec4"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.2.0"
+            }
+          }
+        ]
+      }
     }
   ],
-  "candidates": [],
   "mappingFindings": [],
-  "errors": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/SenmuuuuW/dsh-whale-report/git/blobs/d13eb3ce5d6d25936af666e93cb32b4ea3c80498\nGet \"https://api.github.com/repos/SenmuuuuW/dsh-whale-report/git/blobs/d13eb3ce5d6d25936af666e93cb32b4ea3c80498\": Service Unavailable\n"
+    }
+  ],
   "repository": {
-    "url": "https://github.com/SepineTam/cnki-mcp",
-    "commit": "637f6ebff76cb7477647dd8e53cc6879ec597e6f",
-    "releaseTags": 4,
+    "url": "https://github.com/SenmuuuuW/dsh-whale-report",
+    "commit": "a20003e6ddbd4352846bfbf6ad105127bfcc2ec4",
+    "releaseTags": 10,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "rootManifest": {
-    "name": null,
-    "version": null,
-    "dsh": null,
-    "engines": null
-  },
-  "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:25:59.606Z"
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T05:39:19.006Z"
 }

@@ -1,54 +1,47 @@
 {
-  "full_name": "topmindspace/dsh-super-kanban",
+  "full_name": "liangdabiao/dsh-plugin-developer-skill",
   "originalPosition": 35,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 35,
   "batch": 1,
-  "stargazers_count": 101,
-  "startedAt": "2026-11-16T05:25:32.450Z",
+  "stargazers_count": 45,
+  "startedAt": "2026-11-16T05:38:13.613Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
-  "readmes": [
-    {
-      "path": "README.md",
-      "sha256": "43290cffc01653bdf379499ce7438aef140253d4b18fab52866d9ec29022f358",
-      "url": "https://github.com/topmindspace/dsh-super-kanban/blob/98aca9f30e9d9093eee3db8aef74f136bb6480fa/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    }
-  ],
+  "readmes": [],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-super-kanban",
-      "version": "0.10.2",
-      "path": "",
+      "name": "dsh-your-plugin",
+      "version": "0.1.0",
+      "path": "assets/plugin-skeleton",
       "source": {
         "type": "git",
-        "url": "https://github.com/topmindspace/dsh-super-kanban",
-        "commit": "98aca9f30e9d9093eee3db8aef74f136bb6480fa"
+        "url": "https://github.com/liangdabiao/dsh-plugin-developer-skill",
+        "commit": "a628e3e362b04f96508a61e57210921206a93ba4",
+        "path": "assets/plugin-skeleton"
       },
-      "manifestSha256": "ccb4295b07c50fea8b93cf66de9a6578b3bd2e1b91fd0fc40a6e4f04d49291ed",
-      "manifestUrl": "https://github.com/topmindspace/dsh-super-kanban/blob/98aca9f30e9d9093eee3db8aef74f136bb6480fa/package.json",
+      "manifestSha256": "168527da49ff326ad26644142ede1f8f45edb6f902aaa5a5f1a45ffb180f32da",
+      "manifestUrl": "https://github.com/liangdabiao/dsh-plugin-developer-skill/blob/a628e3e362b04f96508a61e57210921206a93ba4/assets/plugin-skeleton/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.5 <0.3.0",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-super-kanban",
+        "name": "dsh-your-plugin",
         "versions": [
           {
-            "version": "0.10.2",
-            "publishTimestamp": 1794735908,
+            "version": "0.1.0",
+            "publishTimestamp": 1794100287,
             "source": {
               "type": "git",
-              "url": "https://github.com/topmindspace/dsh-super-kanban",
-              "commit": "98aca9f30e9d9093eee3db8aef74f136bb6480fa"
+              "url": "https://github.com/liangdabiao/dsh-plugin-developer-skill",
+              "commit": "a628e3e362b04f96508a61e57210921206a93ba4",
+              "path": "assets/plugin-skeleton"
             },
             "engines": {
-              "dsh": ">=0.2.1-rc.5 <0.3.0"
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
             }
           }
         ]
@@ -56,14 +49,19 @@
     }
   ],
   "mappingFindings": [],
-  "errors": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/liangdabiao/dsh-plugin-developer-skill/git/blobs/dd17c53042456948eccd8f7b096ef558e52a17c2\nGet \"https://api.github.com/repos/liangdabiao/dsh-plugin-developer-skill/git/blobs/dd17c53042456948eccd8f7b096ef558e52a17c2\": Service Unavailable\n"
+    }
+  ],
   "repository": {
-    "url": "https://github.com/topmindspace/dsh-super-kanban",
-    "commit": "98aca9f30e9d9093eee3db8aef74f136bb6480fa",
-    "releaseTags": 14,
+    "url": "https://github.com/liangdabiao/dsh-plugin-developer-skill",
+    "commit": "a628e3e362b04f96508a61e57210921206a93ba4",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:25:39.324Z"
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T05:38:50.048Z"
 }

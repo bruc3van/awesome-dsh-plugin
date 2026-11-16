@@ -1,59 +1,268 @@
 {
-  "full_name": "InariNGT-Ofiicial/dsh-anime-voice",
+  "full_name": "LUgABeEEE/dsh-global-todo",
   "originalPosition": 197,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 197,
   "batch": 1,
-  "stargazers_count": 15,
-  "startedAt": "2026-11-16T05:31:02.229Z",
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T05:44:15.964Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "4580d492c4f21a8f3e655d1e32381fa92e76d92f9b62786d75a61413fe815fe4",
-      "url": "https://github.com/InariNGT-Ofiicial/dsh-anime-voice/blob/ace605e5c8ae845f3bda66d3ff1bb59606e4f41e/README.md",
+      "sha256": "0567a14b560ace9dd01254d876960cd6c499c4976bdc373068876de1308b5be4",
+      "url": "https://github.com/LUgABeEEE/dsh-global-todo/blob/688144b624fbee954ed94a20b20289c76dab4941/README.md",
       "ambiguous": false,
-      "localOnly": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-global-todo",
+          "command": "dsh plugin add dsh-global-todo",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-global-todo@0.13.1",
+          "command": "dsh plugin --profile <profile> add dsh-global-todo@0.13.1",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "db5b76dbb6df5b7ec501bd930d1b3a646be9a08645eb19d8df33a2430f37a4b6",
+      "url": "https://github.com/LUgABeEEE/dsh-global-todo/blob/688144b624fbee954ed94a20b20289c76dab4941/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
       "targets": []
     },
     {
-      "path": "plugins/tts-train-pipeline/README.md",
-      "sha256": "c0cd29686a784c88b195134a1a493bf88bc446d94e3b257c1e83b92613255e98",
-      "url": "https://github.com/InariNGT-Ofiicial/dsh-anime-voice/blob/ace605e5c8ae845f3bda66d3ff1bb59606e4f41e/plugins/tts-train-pipeline/README.md",
+      "path": "docs/screenshots/README.md",
+      "sha256": "8ccf6b4610bdc79b050c257acb09a16927755eeb65c4ec587d1030d383371839",
+      "url": "https://github.com/LUgABeEEE/dsh-global-todo/blob/688144b624fbee954ed94a20b20289c76dab4941/docs/screenshots/README.md",
       "ambiguous": false,
-      "localOnly": true,
+      "localOnly": false,
       "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "f7dfb7e8b70b13e5596bcefabbe63acc75408ec98326f75fe9ac650a89c08baf",
+      "url": "https://github.com/LUgABeEEE/dsh-global-todo/blob/688144b624fbee954ed94a20b20289c76dab4941/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-global-todo",
+          "command": "dsh plugin add dsh-global-todo",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-global-todo@0.13.1",
+          "command": "dsh plugin --profile <profile> add dsh-global-todo@0.13.1",
+          "profile": "default"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-tts-train-pipeline",
-      "version": "0.2.0",
-      "path": "plugins/tts-train-pipeline",
+      "name": "dsh-global-todo",
+      "version": "0.23.2",
+      "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/InariNGT-Ofiicial/dsh-anime-voice",
-        "commit": "ace605e5c8ae845f3bda66d3ff1bb59606e4f41e",
-        "path": "plugins/tts-train-pipeline"
+        "url": "https://github.com/LUgABeEEE/dsh-global-todo",
+        "commit": "688144b624fbee954ed94a20b20289c76dab4941"
       },
-      "manifestSha256": "6dfc7f459a6fb9bf54acddac74d36d7125408ba79e63890437b34435830b38dd",
-      "manifestUrl": "https://github.com/InariNGT-Ofiicial/dsh-anime-voice/blob/ace605e5c8ae845f3bda66d3ff1bb59606e4f41e/plugins/tts-train-pipeline/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
+      "manifestSha256": "722e0cfc37f3592abb093c6cdcd4fedae942e56f224a1cc321e53f8fc381f5e2",
+      "manifestUrl": "https://github.com/LUgABeEEE/dsh-global-todo/blob/688144b624fbee954ed94a20b20289c76dab4941/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-global-todo",
+        "versions": [
+          {
+            "version": "0.23.2",
+            "publishTimestamp": 1794153187,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LUgABeEEE/dsh-global-todo",
+              "commit": "688144b624fbee954ed94a20b20289c76dab4941"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-global-todo",
+      "origin": "npm",
+      "name": "dsh-global-todo",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-global-todo",
+        "title": {
+          "en": "Global Todos",
+          "zh": "全局待办"
+        },
+        "description": {
+          "en": "Cross-session todos for DeepSeek Harness whose central rule is that an agent's \"done\" is not completion. Whether the agent reports it from a tool or the host infers it when a dispatched conversation ends cleanly, the record waits in Needs review: a person confirms it, or it goes back to the list. One JSON file you own, written by both sides, with created time, description, attached documents and links, a plan of steps and the sentence it came from; hand an item to a conversation in one click and read back what that conversation last said.",
+          "zh": "DeepSeek Harness 的跨会话待办清单，中心规则是：Agent 说「做完了」不算完成。它自己在工具里报完成，或交给的会话干净收尾后宿主自动收尾，两条路都只进「待确认」，人点头才算完成、退回就回清单。一份属于你的 JSON 文件，人和 Agent 读写同一条记录：加入时间、描述、文档与地址、步骤计划、原话；一键交给某个对话继续干，随时回读那边最后说了什么。"
+        },
+        "author": "LUgABeEEE",
+        "homepage": "https://lugabeeee.github.io/dsh-global-todo/",
+        "repository": {
+          "url": "https://github.com/LUgABeEEE/dsh-global-todo"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "todo",
+            "todos",
+            "todo-list",
+            "task-list",
+            "task-management",
+            "handoff",
+            "agent",
+            "human-in-the-loop",
+            "confirmation",
+            "approval",
+            "productivity",
+            "待办",
+            "全局待办",
+            "mobile",
+            "phone",
+            "responsive",
+            "sync",
+            "multi-device"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLlhajlsYDlvoXlip4gLyBkc2gtZ2xvYmFsLXRvZG8iPgogIDx0aXRsZT7lhajlsYDlvoXlip4g4oCUIOi3qOS8muivneW+heWKnua4heWNlTwvdGl0bGU+CiAgPHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIHJ4PSIxMTYiIGZpbGw9IiMxNDE3MUMiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5NiA5Nikgc2NhbGUoMjApIiBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNOS4yIDIuNEg0LjRBMS45IDEuOSAwIDAgMCAyLjUgNC4zdjcuNGExLjkgMS45IDAgMCAwIDEuOSAxLjloNi4yYTEuOSAxLjkgMCAwIDAgMS45LTEuOVY4LjQiIHN0cm9rZS13aWR0aD0iMS40Ii8+CiAgICA8cGF0aCBkPSJNNC45IDguNWwxLjkgMS45IDMuNS00LjMiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgICA8cGF0aCBkPSJNMTAuNCA0LjZoMy4xbTAgMGwtMS4yLTEuMm0xLjIgMS4ybC0xLjIgMS4yIiBzdHJva2Utd2lkdGg9IjEuMyIvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.23.2",
+            "publishTimestamp": 1793876666,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b29ab7cd49f77a949b7a929f8d946aedc1f166e49108997767e83ab54ac3be83",
+      "evidence": [
+        {
+          "name": "dsh-global-todo",
+          "version": "0.23.2",
+          "tarball": "https://registry.npmjs.org/dsh-global-todo/-/dsh-global-todo-0.23.2.tgz",
+          "integrity": "sha512-eJ+7Xjoc9hZBANDjSrX//mwC4XOn00ONQJHr/pdndwwP73N0WL12+RLn0vA9gPrsQqMp073Cc3sQnU0r3ziiEw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-global-todo@0.13.1",
+      "origin": "npm",
+      "name": "dsh-global-todo",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-global-todo",
+        "title": {
+          "en": "Global Todos",
+          "zh": "全局待办"
+        },
+        "description": {
+          "en": "Cross-session todos for DeepSeek Harness. One JSON file you own; a person and an agent write the same records. Every item keeps when it was added, a description, attached documents and links, an optional plan of steps, and the sentence it came from. Hand it to a conversation in one click - the steps travel as a numbered plan - then read back what that conversation last said. An agent's \"done\" stays a claim until you confirm it.",
+          "zh": "DeepSeek Harness 的跨会话待办清单。一份属于你的 JSON 文件，人和 Agent 读写同一条记录：每条记下加入时间、描述、可挂文档与地址、可选的步骤计划，以及它来自哪句原话。一键交给某个对话继续干（步骤会作为编号计划一起交出去），随时回读那边最后说了什么；Agent 标的「完成」只是声明，你确认之后才算数。"
+        },
+        "author": "LUgABeEEE",
+        "homepage": "https://lugabeeee.github.io/dsh-global-todo/",
+        "repository": {
+          "url": "https://github.com/LUgABeEEE/dsh-global-todo"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "todo",
+            "todos",
+            "todo-list",
+            "task-list",
+            "task-management",
+            "handoff",
+            "agent",
+            "productivity",
+            "待办",
+            "全局待办"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLlhajlsYDlvoXlip4gLyBkc2gtZ2xvYmFsLXRvZG8iPgogIDx0aXRsZT7lhajlsYDlvoXlip4g4oCUIOi3qOS8muivneW+heWKnua4heWNlTwvdGl0bGU+CiAgPHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIHJ4PSIxMTYiIGZpbGw9IiMxNDE3MUMiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5NiA5Nikgc2NhbGUoMjApIiBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNOS4yIDIuNEg0LjRBMS45IDEuOSAwIDAgMCAyLjUgNC4zdjcuNGExLjkgMS45IDAgMCAwIDEuOSAxLjloNi4yYTEuOSAxLjkgMCAwIDAgMS45LTEuOVY4LjQiIHN0cm9rZS13aWR0aD0iMS40Ii8+CiAgICA8cGF0aCBkPSJNNC45IDguNWwxLjkgMS45IDMuNS00LjMiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgICA8cGF0aCBkPSJNMTAuNCA0LjZoMy4xbTAgMGwtMS4yLTEuMm0xLjIgMS4ybC0xLjIgMS4yIiBzdHJva2Utd2lkdGg9IjEuMyIvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.13.1",
+            "publishTimestamp": 1792643043,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b29ab7cd49f77a949b7a929f8d946aedc1f166e49108997767e83ab54ac3be83",
+      "evidence": [
+        {
+          "name": "dsh-global-todo",
+          "version": "0.13.1",
+          "tarball": "https://registry.npmjs.org/dsh-global-todo/-/dsh-global-todo-0.13.1.tgz",
+          "integrity": "sha512-B8VotxUOoeWcbCLB3XZiPu3FVDzB1d2+7pdJvD3VteJka1Pl7Uv7hnTRlJBg3RTVbH73lgSYnZqgwimdtdOifA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-global-todo",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-global-todo@0.13.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/InariNGT-Ofiicial/dsh-anime-voice",
-    "commit": "ace605e5c8ae845f3bda66d3ff1bb59606e4f41e",
-    "releaseTags": 1,
+    "url": "https://github.com/LUgABeEEE/dsh-global-todo",
+    "commit": "688144b624fbee954ed94a20b20289c76dab4941",
+    "releaseTags": 70,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "manual_install_review",
-  "finishedAt": "2026-11-16T05:31:11.564Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:44:39.582Z"
 }

@@ -1,99 +1,133 @@
 {
-  "full_name": "w1251788888-web/moxi-drama-studio",
+  "full_name": "wang-22-code/dsh-qqbot-bridge",
   "originalPosition": 124,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 124,
   "batch": 1,
-  "stargazers_count": 23,
-  "startedAt": "2026-11-16T05:28:09.665Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:42:02.232Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "dbdcbbca64ebbfb9fc97c331da505ee5558f8b8099430539722a14ceb0b45eda",
-      "url": "https://github.com/w1251788888-web/moxi-drama-studio/blob/31092b201475d1e3623c617eb5eb094ef926e4ed/README.md",
-      "ambiguous": false,
-      "localOnly": true,
-      "targets": []
-    },
-    {
-      "path": "rules/v2/README.md",
-      "sha256": "ea883449b9568a076c1e9695c56609da939d25709f682113534ecda9137d83db",
-      "url": "https://github.com/w1251788888-web/moxi-drama-studio/blob/31092b201475d1e3623c617eb5eb094ef926e4ed/rules/v2/README.md",
+      "sha256": "355356e74f1af31521e075b1493c502572cf07137030758274f308d81b95509c",
+      "url": "https://github.com/wang-22-code/dsh-qqbot-bridge/blob/03bca5ab9dac160bf866aeb2446eee5fa8fa6446/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "harness/README.md",
-      "sha256": "c8a6ba8d42cd3d44b000f3fccfbbfc2d3b501ff937022b70feddadfc780b927d",
-      "url": "https://github.com/w1251788888-web/moxi-drama-studio/blob/31092b201475d1e3623c617eb5eb094ef926e4ed/harness/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
+      "targets": [
+        {
+          "install": "dsh-qqbot-bridge",
+          "command": "dsh plugin --profile qqbot add dsh-qqbot-bridge",
+          "profile": "qqbot"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "moxi-admin-bundle",
-      "version": "0.2.0",
-      "path": "dsh/bundles/moxi-admin",
+      "name": "dsh-qqbot-bridge",
+      "version": "0.1.0",
+      "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/w1251788888-web/moxi-drama-studio",
-        "commit": "31092b201475d1e3623c617eb5eb094ef926e4ed",
-        "path": "dsh/bundles/moxi-admin"
+        "url": "https://github.com/wang-22-code/dsh-qqbot-bridge",
+        "commit": "03bca5ab9dac160bf866aeb2446eee5fa8fa6446"
       },
-      "manifestSha256": "11b126cb33a2785dd05d9c82c6b7c70e13aba95d680b2f263353fa59cd5f53bc",
-      "manifestUrl": "https://github.com/w1251788888-web/moxi-drama-studio/blob/31092b201475d1e3623c617eb5eb094ef926e4ed/dsh/bundles/moxi-admin/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
+      "manifestSha256": "4958d5fca280142acbed2d2c511c7203b361829e56abac7573e2ce30187edb17",
+      "manifestUrl": "https://github.com/wang-22-code/dsh-qqbot-bridge/blob/03bca5ab9dac160bf866aeb2446eee5fa8fa6446/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-qqbot-bridge",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787043467,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wang-22-code/dsh-qqbot-bridge",
+              "commit": "03bca5ab9dac160bf866aeb2446eee5fa8fa6446"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
     },
     {
-      "origin": "repository_discovery",
-      "name": "moxi-canvas-bundle",
-      "version": "0.1.0-spike",
-      "path": "dsh/bundles/moxi-canvas",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/w1251788888-web/moxi-drama-studio",
-        "commit": "31092b201475d1e3623c617eb5eb094ef926e4ed",
-        "path": "dsh/bundles/moxi-canvas"
+      "target": "dsh-qqbot-bridge",
+      "origin": "npm",
+      "name": "dsh-qqbot-bridge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-qqbot-bridge",
+        "title": "dsh-qqbot-bridge",
+        "description": "DSH QQ 官方机器人桥接插件 —— 通过 QQ 单聊远程控制 DSH WebUI 已有工作区的会话",
+        "author": "Jiangsubei",
+        "homepage": "https://github.com/Jiangsubei/dsh-qqbot-bridge#readme",
+        "repository": {
+          "url": "https://github.com/Jiangsubei/dsh-qqbot-bridge"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "qq-bot",
+            "qq-official-bot",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1794042239,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
       },
-      "manifestSha256": "3ab5261914019b43016092fedf95830653069ed321b055a19f1e6212656678ac",
-      "manifestUrl": "https://github.com/w1251788888-web/moxi-drama-studio/blob/31092b201475d1e3623c617eb5eb094ef926e4ed/dsh/bundles/moxi-canvas/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
-    },
-    {
-      "origin": "repository_discovery",
-      "name": "moxi-core-bundle",
-      "version": "0.2.0",
-      "path": "dsh/bundles/moxi-core",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/w1251788888-web/moxi-drama-studio",
-        "commit": "31092b201475d1e3623c617eb5eb094ef926e4ed",
-        "path": "dsh/bundles/moxi-core"
-      },
-      "manifestSha256": "65521448627246443292fd6d1d7d424851dc7748def893247dbdf5ef16530bae",
-      "manifestUrl": "https://github.com/w1251788888-web/moxi-drama-studio/blob/31092b201475d1e3623c617eb5eb094ef926e4ed/dsh/bundles/moxi-core/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
+      "registrySha256": "1b9286bd6c4ea943bf12d9e7222140783ac883371b35b889bd8379b5640bab3d",
+      "evidence": [
+        {
+          "name": "dsh-qqbot-bridge",
+          "version": "0.1.4",
+          "tarball": "https://registry.npmjs.org/dsh-qqbot-bridge/-/dsh-qqbot-bridge-0.1.4.tgz",
+          "integrity": "sha512-UfLLFrrj/+8E028D1m2BKZN+hlS7ZXlTQFVXxpv9QbM4P33+GiRtUpocRapvhF3V5aMKpk10DNEXxPqioH2xgw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-qqbot-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/w1251788888-web/moxi-drama-studio",
-    "commit": "31092b201475d1e3623c617eb5eb094ef926e4ed",
-    "releaseTags": 1,
+    "url": "https://github.com/wang-22-code/dsh-qqbot-bridge",
+    "commit": "03bca5ab9dac160bf866aeb2446eee5fa8fa6446",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "manual_install_review",
-  "finishedAt": "2026-11-16T05:28:24.815Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:42:11.192Z"
 }

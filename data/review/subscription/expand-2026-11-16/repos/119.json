@@ -1,69 +1,171 @@
 {
-  "full_name": "IWAIBAOLI/dsh-with-pencil",
+  "full_name": "luffysolution-svg/sanmu-skills",
   "originalPosition": 119,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 119,
   "batch": 1,
-  "stargazers_count": 24,
-  "startedAt": "2026-11-16T05:27:58.717Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:41:54.686Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "988cf758d6df38f63a6ceb9bb8aa34404e3b664e0c4258424a8fb6fe70a1134c",
-      "url": "https://github.com/IWAIBAOLI/dsh-with-pencil/blob/4a8f42f8a15d7caa298239d334871e02a4ec153b/README.md",
+      "sha256": "bc04d0d292a743f0b0768a80e61d2b817b2a02c2110c39127fa1ca8b55669f43",
+      "url": "https://github.com/luffysolution-svg/sanmu-skills/blob/1a379c944a9d79be7e8ab93859fe1b8147d3c5b2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/luffysolution-svg/sanmu-skills",
+          "command": "dsh plugin --profile <已有的非desktop-profile名> add github:luffysolution-svg/sanmu-skills",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6583685ddec0d683408520f2012f3af046fbf756dad5569d63af45ea3f829f1d",
+      "url": "https://github.com/luffysolution-svg/sanmu-skills/blob/1a379c944a9d79be7e8ab93859fe1b8147d3c5b2/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/luffysolution-svg/sanmu-skills",
+          "command": "dsh plugin --profile <existing-non-desktop-profile> add github:luffysolution-svg/sanmu-skills",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "skills/sanmu-doc2md/README.md",
+      "sha256": "e5c950c91f94297e062d30f672bcbf68bd93c0afed91157918fc62aefc4f04d0",
+      "url": "https://github.com/luffysolution-svg/sanmu-skills/blob/1a379c944a9d79be7e8ab93859fe1b8147d3c5b2/skills/sanmu-doc2md/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": []
+    },
+    {
+      "path": "skills/sanmu-paper-reader/README.md",
+      "sha256": "c7496aa9766f908dfaa227517b4ee7854b4d8737b6ce8d5bd0f27c7a8699f567",
+      "url": "https://github.com/luffysolution-svg/sanmu-skills/blob/1a379c944a9d79be7e8ab93859fe1b8147d3c5b2/skills/sanmu-paper-reader/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "skills/sanmu-paper-search/README.md",
+      "sha256": "affb2ee762e2e107951c8c41f0b9486337c8de8aa37c5f118f3b5cdde1bfbd99",
+      "url": "https://github.com/luffysolution-svg/sanmu-skills/blob/1a379c944a9d79be7e8ab93859fe1b8147d3c5b2/skills/sanmu-paper-search/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "distribution/README.md",
+      "sha256": "5afe9d0e1c675f9a9a06477bf960b5ef3cca465a3d541e66f9dc365b51141424",
+      "url": "https://github.com/luffysolution-svg/sanmu-skills/blob/1a379c944a9d79be7e8ab93859fe1b8147d3c5b2/distribution/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/luffysolution-svg/sanmu-skills",
+          "command": "dsh plugin --profile <已有的非desktop-profile名> add github:luffysolution-svg/sanmu-skills",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "skills/sanmu-doc2md/README.en.md",
+      "sha256": "89ae2c00557f6b94ddd260816180469c626178930b9f8603c425a9ebbc6802cc",
+      "url": "https://github.com/luffysolution-svg/sanmu-skills/blob/1a379c944a9d79be7e8ab93859fe1b8147d3c5b2/skills/sanmu-doc2md/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "skills/sanmu-paper-reader/README.en.md",
+      "sha256": "f39cc82e0480fb11f352ec752945d050cc8d83a45ffd828e363bdb5cab8b409d",
+      "url": "https://github.com/luffysolution-svg/sanmu-skills/blob/1a379c944a9d79be7e8ab93859fe1b8147d3c5b2/skills/sanmu-paper-reader/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "skills/sanmu-paper-search/README.en.md",
+      "sha256": "ac712a0efc1ee288d00c3e4ed440329b38ba47bdc994425a816d4e47b7d2a60d",
+      "url": "https://github.com/luffysolution-svg/sanmu-skills/blob/1a379c944a9d79be7e8ab93859fe1b8147d3c5b2/skills/sanmu-paper-search/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "distribution/README.en.md",
+      "sha256": "02f44ee5f81cea87d543364c8f73eaee33c6fd8a3b2265f88fc3b42d7f594c48",
+      "url": "https://github.com/luffysolution-svg/sanmu-skills/blob/1a379c944a9d79be7e8ab93859fe1b8147d3c5b2/distribution/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/luffysolution-svg/sanmu-skills",
+          "command": "dsh plugin --profile <existing-non-desktop-profile> add github:luffysolution-svg/sanmu-skills",
+          "profile": "default"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-with-pencil",
-      "version": "0.8.0",
+      "name": "sanmu-skills",
+      "version": "1.10.4",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/IWAIBAOLI/dsh-with-pencil",
-        "commit": "4a8f42f8a15d7caa298239d334871e02a4ec153b"
+        "url": "https://github.com/luffysolution-svg/sanmu-skills",
+        "commit": "1a379c944a9d79be7e8ab93859fe1b8147d3c5b2"
       },
-      "manifestSha256": "9895a7c02d77138004cf09b2252ad1b3c598c6f64e03dc1189b0a7fb76489dd8",
-      "manifestUrl": "https://github.com/IWAIBAOLI/dsh-with-pencil/blob/4a8f42f8a15d7caa298239d334871e02a4ec153b/package.json",
+      "manifestSha256": "183fa1590231949c0fff099fe8c6bcbdc8ab9edd20fae59f3508ca17579fbcc9",
+      "manifestUrl": "https://github.com/luffysolution-svg/sanmu-skills/blob/1a379c944a9d79be7e8ab93859fe1b8147d3c5b2/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "0.2.1-rc.5",
+      "declaredRange": ">=0.2.1-rc.3 <0.3.0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-with-pencil",
+        "name": "sanmu-skills",
         "versions": [
           {
-            "version": "0.8.0",
-            "publishTimestamp": 1793762689,
+            "version": "1.10.4",
+            "publishTimestamp": 1794384905,
             "source": {
               "type": "git",
-              "url": "https://github.com/IWAIBAOLI/dsh-with-pencil",
-              "commit": "4a8f42f8a15d7caa298239d334871e02a4ec153b"
+              "url": "https://github.com/luffysolution-svg/sanmu-skills",
+              "commit": "1a379c944a9d79be7e8ab93859fe1b8147d3c5b2"
             },
             "engines": {
-              "dsh": "0.2.1-rc.5"
+              "dsh": ">=0.2.1-rc.3 <0.3.0"
             }
           }
         ]
       }
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/luffysolution-svg/sanmu-skills",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/IWAIBAOLI/dsh-with-pencil",
-    "commit": "4a8f42f8a15d7caa298239d334871e02a4ec153b",
-    "releaseTags": 13,
+    "url": "https://github.com/luffysolution-svg/sanmu-skills",
+    "commit": "1a379c944a9d79be7e8ab93859fe1b8147d3c5b2",
+    "releaseTags": 27,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:28:06.022Z"
+  "finishedAt": "2026-11-16T05:42:15.693Z"
 }

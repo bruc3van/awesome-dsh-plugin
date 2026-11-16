@@ -1,95 +1,69 @@
 {
-  "full_name": "xiaozhe7772222/dsh-opencode-zen",
+  "full_name": "yembors64632/dsh-connect",
   "originalPosition": 93,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 93,
   "batch": 1,
-  "stargazers_count": 30,
-  "startedAt": "2026-11-16T05:27:11.887Z",
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T05:40:54.755Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "0bb47607b9bbdc17ccc7201a557cda103dcae9f58a90bededa27879d4e95abd3",
-      "url": "https://github.com/xiaozhe7772222/dsh-opencode-zen/blob/62e90514d64aaf3920a27e7fab6678e13ccf810a/README.md",
+      "sha256": "575cda63dc10fa29b1a342291fd790aae80f298850214f14540ef95222699638",
+      "url": "https://github.com/yembors64632/dsh-connect/blob/86a6968614d43712bc310f047d52da5c08ffdb13/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "https://github.com/xiaozhe7772222/dsh-opencode-zen",
-          "command": "dsh plugin --profile web add github:xiaozhe7772222/dsh-opencode-zen",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.zh.md",
-      "sha256": "a51ba7f8440b1946308bbdc4b9ba244199247f80de285ea63ae29fab7641704a",
-      "url": "https://github.com/xiaozhe7772222/dsh-opencode-zen/blob/62e90514d64aaf3920a27e7fab6678e13ccf810a/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "https://github.com/xiaozhe7772222/dsh-opencode-zen",
-          "command": "dsh plugin --profile web add github:xiaozhe7772222/dsh-opencode-zen",
-          "profile": "web"
-        }
-      ]
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-opencode-zen",
-      "version": "0.1.0",
+      "name": "dsh-connect",
+      "version": "0.2.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/xiaozhe7772222/dsh-opencode-zen",
-        "commit": "62e90514d64aaf3920a27e7fab6678e13ccf810a"
+        "url": "https://github.com/yembors64632/dsh-connect",
+        "commit": "86a6968614d43712bc310f047d52da5c08ffdb13"
       },
-      "manifestSha256": "05bceb16c147fa3c837097588fb742dfad86c610eae0bbf3dcec0c270abc1c3d",
-      "manifestUrl": "https://github.com/xiaozhe7772222/dsh-opencode-zen/blob/62e90514d64aaf3920a27e7fab6678e13ccf810a/package.json",
+      "manifestSha256": "a590c2d73a3fb53463ef51c437794c0848a80fa0a5e2e6b8fab97cfd4740cda9",
+      "manifestUrl": "https://github.com/yembors64632/dsh-connect/blob/86a6968614d43712bc310f047d52da5c08ffdb13/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.1.0-rc.6",
+      "declaredRange": "^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "dsh-opencode-zen",
+        "name": "dsh-connect",
         "versions": [
           {
-            "version": "0.1.0",
-            "publishTimestamp": 1787249202,
+            "version": "0.2.0",
+            "publishTimestamp": 1790585115,
             "source": {
               "type": "git",
-              "url": "https://github.com/xiaozhe7772222/dsh-opencode-zen",
-              "commit": "62e90514d64aaf3920a27e7fab6678e13ccf810a"
+              "url": "https://github.com/yembors64632/dsh-connect",
+              "commit": "86a6968614d43712bc310f047d52da5c08ffdb13"
             },
             "engines": {
-              "dsh": "^0.1.0-rc.6"
+              "dsh": "^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1"
             }
           }
         ]
       }
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "https://github.com/xiaozhe7772222/dsh-opencode-zen",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/xiaozhe7772222/dsh-opencode-zen",
-    "commit": "62e90514d64aaf3920a27e7fab6678e13ccf810a",
+    "url": "https://github.com/yembors64632/dsh-connect",
+    "commit": "86a6968614d43712bc310f047d52da5c08ffdb13",
     "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:27:20.804Z"
+  "finishedAt": "2026-11-16T05:41:02.987Z"
 }

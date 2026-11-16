@@ -1,110 +1,95 @@
 {
-  "full_name": "QuestMeet/questmeet-skill",
+  "full_name": "masknull/dsh-acl-sandbox-patch",
   "originalPosition": 120,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 120,
   "batch": 1,
-  "stargazers_count": 24,
-  "startedAt": "2026-11-16T05:28:00.914Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:41:55.130Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "674d7873f33ad5d592b2c5a92e01bcbeed34b5ae5df865007b8dcdd69c377730",
-      "url": "https://github.com/QuestMeet/questmeet-skill/blob/5ee04544ab23ca3433d0b3c0895afe5199447c94/README.md",
+      "sha256": "4b24294509e0906809e61703cde15623197b3bb3f34a5c1a81d24a0a541534a2",
+      "url": "https://github.com/masknull/dsh-acl-sandbox-patch/blob/a63015b8bacdfd39066da6fcead468bc753f04ef/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "@questmeet/questmeet-skill",
-          "command": "dsh plugin add @questmeet/questmeet-skill",
-          "profile": "default"
+          "install": "https://github.com/masknull/dsh-acl-sandbox-patch",
+          "command": "dsh plugin --profile web add github:masknull/dsh-acl-sandbox-patch",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "da75ff2b76cf9d7cdab0b8d86965b8fa8a1aa4796a305f2ca4cbfd88891588c0",
+      "url": "https://github.com/masknull/dsh-acl-sandbox-patch/blob/a63015b8bacdfd39066da6fcead468bc753f04ef/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/masknull/dsh-acl-sandbox-patch",
+          "command": "dsh plugin --profile web add github:masknull/dsh-acl-sandbox-patch",
+          "profile": "web"
         }
       ]
     }
   ],
   "candidates": [
     {
-      "target": "@questmeet/questmeet-skill",
-      "origin": "npm",
-      "name": "@questmeet/questmeet-skill",
+      "origin": "repository_discovery",
+      "name": "dsh-acl-sandbox-patch",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/masknull/dsh-acl-sandbox-patch",
+        "commit": "a63015b8bacdfd39066da6fcead468bc753f04ef"
+      },
+      "manifestSha256": "09e7d2eebf72f487ed7a8041d6fc158e4c2f18ea7b0c921d3d9e06f5d4c87b13",
+      "manifestUrl": "https://github.com/masknull/dsh-acl-sandbox-patch/blob/a63015b8bacdfd39066da6fcead468bc753f04ef/package.json",
       "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "@questmeet/questmeet-skill",
-        "title": {
-          "en": "QuestMeet Skill",
-          "zh": "QuestMeet 技能"
-        },
-        "description": {
-          "en": "Connect your AI agent with the right people and their bots in the QuestMeet opportunity network.",
-          "zh": "让 AI 代理把用户连接到 QuestMeet 机会网络里合适的人或他们的机器人。"
-        },
-        "homepage": "https://questmeet.ai",
-        "repository": {
-          "url": "https://github.com/QuestMeet/questmeet-skill"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek-harness",
-            "dsh",
-            "skill",
-            "agent",
-            "networking",
-            "opportunity"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM0ZjdjZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjN2I1Y2ZmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNCIgZmlsbD0idXJsKCNnKSIvPgogIDxjaXJjbGUgY3g9IjIyIiBjeT0iMjQiIHI9IjgiIGZpbGw9IiNmZmZmZmYiLz4KICA8Y2lyY2xlIGN4PSI0MiIgY3k9IjQwIiByPSI4IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTI3IDI5IEwzNyAzNSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTM3IDM1IEwyNyA0MSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBvcGFjaXR5PSIwLjU1Ii8+Cjwvc3ZnPgo=",
+        "name": "dsh-acl-sandbox-patch",
         "versions": [
           {
-            "version": "3.1.1",
-            "publishTimestamp": 1794201755,
+            "version": "0.1.2",
+            "publishTimestamp": 1790333724,
             "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
+              "type": "git",
+              "url": "https://github.com/masknull/dsh-acl-sandbox-patch",
+              "commit": "a63015b8bacdfd39066da6fcead468bc753f04ef"
             },
             "engines": {
-              "dsh": "0.2.2-rc.1"
+              "dsh": ">=0.1.7-rc.1"
             }
           }
         ]
-      },
-      "registrySha256": "5de812cc1d7fd8aa61ae6c4a2a9573812cd64452b15289fbfe7d36615cef4f17",
-      "evidence": [
-        {
-          "name": "@questmeet/questmeet-skill",
-          "version": "3.1.1",
-          "tarball": "https://registry.npmjs.org/@questmeet/questmeet-skill/-/questmeet-skill-3.1.1.tgz",
-          "integrity": "sha512-p+TcvJQ5C1AqYC4RAEN4tORhwI7ZFzToEUsfCoPgDYXH0CT5P4X/+/Pjluq62C4DogTWNDabYcmn7bOFnmrUoA=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
+      }
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "@questmeet/questmeet-skill",
+      "target": "https://github.com/masknull/dsh-acl-sandbox-patch",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/QuestMeet/questmeet-skill",
-    "commit": "5ee04544ab23ca3433d0b3c0895afe5199447c94",
+    "url": "https://github.com/masknull/dsh-acl-sandbox-patch",
+    "commit": "a63015b8bacdfd39066da6fcead468bc753f04ef",
     "releaseTags": 1,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "rootManifest": {
-    "name": null,
-    "version": null,
-    "dsh": null,
-    "engines": null
-  },
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:28:07.900Z"
+  "finishedAt": "2026-11-16T05:42:04.041Z"
 }

@@ -1,54 +1,56 @@
 {
-  "full_name": "kelemiao/dsh-animation-optimization",
+  "full_name": "1Lany2a/dsh-domain-role",
   "originalPosition": 186,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 186,
   "batch": 1,
-  "stargazers_count": 16,
-  "startedAt": "2026-11-16T05:30:37.810Z",
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T05:43:55.214Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "6c5ea9ab4366f6660bea7b329b300fd365ca7628cd66292eee766d2eb81b0d61",
-      "url": "https://github.com/kelemiao/dsh-animation-optimization/blob/dc5808e7a0df45cda0dfebe3a324d1f4e0152b51/README.md",
+      "sha256": "8f485df0eaa569893a32216419fe0cb9b8ede1ac58333dd02cbe56738de3923b",
+      "url": "https://github.com/1Lany2a/dsh-domain-role/blob/9df384a0556e8e1aa288f6f8d654deca0a371556/README.md",
       "ambiguous": false,
-      "localOnly": true,
+      "localOnly": false,
       "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-animation-optimization",
-      "version": "0.3.5",
-      "path": "",
+      "name": "dsh-domain-bridge",
+      "version": "0.8.16",
+      "path": "plugins/dsh-domain-bridge",
       "source": {
         "type": "git",
-        "url": "https://github.com/kelemiao/dsh-animation-optimization",
-        "commit": "dc5808e7a0df45cda0dfebe3a324d1f4e0152b51"
+        "url": "https://github.com/1Lany2a/dsh-domain-role",
+        "commit": "9df384a0556e8e1aa288f6f8d654deca0a371556",
+        "path": "plugins/dsh-domain-bridge"
       },
-      "manifestSha256": "78ac80ed5a28c528323046c74ab5ae395a702209d5701d17e62497dc07474f67",
-      "manifestUrl": "https://github.com/kelemiao/dsh-animation-optimization/blob/dc5808e7a0df45cda0dfebe3a324d1f4e0152b51/package.json",
+      "manifestSha256": "cf168bfd72da33ad76165ac53294cab628679d2c9a2820d23daba095dfeb1624",
+      "manifestUrl": "https://github.com/1Lany2a/dsh-domain-role/blob/9df384a0556e8e1aa288f6f8d654deca0a371556/plugins/dsh-domain-bridge/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.1.2-rc.1 <0.3.0",
+      "declaredRange": ">=0.2.0-rc.0 <0.3.0",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-animation-optimization",
+        "name": "dsh-domain-bridge",
         "versions": [
           {
-            "version": "0.3.5",
-            "publishTimestamp": 1792922003,
+            "version": "0.8.16",
+            "publishTimestamp": 1792836516,
             "source": {
               "type": "git",
-              "url": "https://github.com/kelemiao/dsh-animation-optimization",
-              "commit": "dc5808e7a0df45cda0dfebe3a324d1f4e0152b51"
+              "url": "https://github.com/1Lany2a/dsh-domain-role",
+              "commit": "9df384a0556e8e1aa288f6f8d654deca0a371556",
+              "path": "plugins/dsh-domain-bridge"
             },
             "engines": {
-              "dsh": ">=0.1.2-rc.1 <0.3.0"
+              "dsh": ">=0.2.0-rc.0 <0.3.0"
             }
           }
         ]
@@ -58,12 +60,12 @@
   "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/kelemiao/dsh-animation-optimization",
-    "commit": "dc5808e7a0df45cda0dfebe3a324d1f4e0152b51",
-    "releaseTags": 3,
+    "url": "https://github.com/1Lany2a/dsh-domain-role",
+    "commit": "9df384a0556e8e1aa288f6f8d654deca0a371556",
+    "releaseTags": 8,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:30:44.843Z"
+  "finishedAt": "2026-11-16T05:44:02.876Z"
 }

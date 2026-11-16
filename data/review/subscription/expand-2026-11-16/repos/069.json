@@ -1,40 +1,50 @@
 {
-  "full_name": "op7418/malfoy-desktop",
+  "full_name": "StvLi/dsh-ros2",
   "originalPosition": 69,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 69,
   "batch": 1,
-  "stargazers_count": 45,
-  "startedAt": "2026-11-16T05:26:29.637Z",
+  "stargazers_count": 25,
+  "startedAt": "2026-11-16T05:39:58.129Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "a38c673bc35e30158c92c9c176cf8d90aaed36108d84d3911dc792bcc7000039",
-      "url": "https://github.com/op7418/malfoy-desktop/blob/3aa3c255cefa3ee85b28aa0659658df8e6a6c1f6/README.md",
+      "sha256": "bf3bf2d12f4af6ecbe5e384d04613e648173703d55b774591a67933a003b642d",
+      "url": "https://github.com/StvLi/dsh-ros2/blob/aad7f8554b45e244225fdaa8fd993c066f2b2de1/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/op7418/malfoy-desktop/releases/latest/download/dsh-malfoy-desktop.tgz",
-          "command": "dsh plugin --profile web add https://github.com/op7418/malfoy-desktop/releases/latest/download/dsh-malfoy-desktop.tgz",
-          "profile": "web"
+          "install": "dsh-ros2",
+          "command": "dsh plugin --profile <profile> add dsh-ros2",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-ros2-core",
+          "command": "dsh plugin --profile <profile> add dsh-ros2-core",
+          "profile": "default"
         }
       ]
     },
     {
-      "path": "plugins/dsh-malfoy-desktop/README.md",
-      "sha256": "99a6dc3058725ff969bb51ddfb8f8a3d125438ce09f74d4cc0e1073a7fd598fb",
-      "url": "https://github.com/op7418/malfoy-desktop/blob/3aa3c255cefa3ee85b28aa0659658df8e6a6c1f6/plugins/dsh-malfoy-desktop/README.md",
+      "path": "README_CN.md",
+      "sha256": "060ddd8143690a95e9f697ced67549cf675b99ef476dfb4798439e938002af92",
+      "url": "https://github.com/StvLi/dsh-ros2/blob/aad7f8554b45e244225fdaa8fd993c066f2b2de1/README_CN.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/op7418/malfoy-desktop/releases/latest/download/dsh-malfoy-desktop.tgz",
-          "command": "dsh plugin --profile web add https://github.com/op7418/malfoy-desktop/releases/latest/download/dsh-malfoy-desktop.tgz",
-          "profile": "web"
+          "install": "dsh-ros2",
+          "command": "dsh plugin --profile <profile> add dsh-ros2",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-ros2-core",
+          "command": "dsh plugin --profile <profile> add dsh-ros2-core",
+          "profile": "default"
         }
       ]
     }
@@ -42,62 +52,371 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-malfoy-desktop",
-      "version": "0.1.0",
-      "path": "plugins/dsh-malfoy-desktop",
+      "name": "dsh-ros2-core",
+      "version": "0.1.5",
+      "path": "packages/core",
       "source": {
         "type": "git",
-        "url": "https://github.com/op7418/malfoy-desktop",
-        "commit": "3aa3c255cefa3ee85b28aa0659658df8e6a6c1f6",
-        "path": "plugins/dsh-malfoy-desktop"
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+        "path": "packages/core"
       },
-      "manifestSha256": "a1ae087380b17f3cf690405287050543c7329c1a9eb5eca0316995db697bcf9b",
-      "manifestUrl": "https://github.com/op7418/malfoy-desktop/blob/3aa3c255cefa3ee85b28aa0659658df8e6a6c1f6/plugins/dsh-malfoy-desktop/package.json",
+      "manifestSha256": "7ba69caf4e47dc133e4b7b8926a9ffc2c81509d824b92c7d43522601d7b3840e",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/aad7f8554b45e244225fdaa8fd993c066f2b2de1/packages/core/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "declaredRange": "^0.1.5-rc.1",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "dsh-malfoy-desktop",
+        "name": "dsh-ros2-core",
         "versions": [
           {
-            "version": "0.1.0",
-            "publishTimestamp": 1793284331,
+            "version": "0.1.5",
+            "publishTimestamp": 1794468281,
             "source": {
               "type": "git",
-              "url": "https://github.com/op7418/malfoy-desktop",
-              "commit": "3aa3c255cefa3ee85b28aa0659658df8e6a6c1f6",
-              "path": "plugins/dsh-malfoy-desktop"
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+              "path": "packages/core"
             },
             "engines": {
-              "dsh": ">=0.2.1-rc.2 <0.3.0"
+              "dsh": "^0.1.5-rc.1"
             }
           }
         ]
       }
     },
     {
-      "target": "https://github.com/op7418/malfoy-desktop/releases/latest/download/dsh-malfoy-desktop.tgz",
-      "status": "unsupported_source",
-      "code": "unsupported_tarball",
-      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+      "origin": "repository_discovery",
+      "name": "dsh-ros2",
+      "version": "0.1.0",
+      "path": "packages/dsh-ros2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+        "path": "packages/dsh-ros2"
+      },
+      "manifestSha256": "1fa7cffd9cf72894ba5cb9f0fc20636ea31e5e067b5d249c4d36d3f8f4cf33c7",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/aad7f8554b45e244225fdaa8fd993c066f2b2de1/packages/dsh-ros2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794468281,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+              "path": "packages/dsh-ros2"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ros2-state",
+      "version": "0.1.0",
+      "path": "packages/dsh-ros2-state",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+        "path": "packages/dsh-ros2-state"
+      },
+      "manifestSha256": "591d40fde1fe5d96e9d80c0d0fd6f02b7bf08764ce3e8c3cd7d56c73492dd52f",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/aad7f8554b45e244225fdaa8fd993c066f2b2de1/packages/dsh-ros2-state/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2-state",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794468281,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+              "path": "packages/dsh-ros2-state"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ros2-moveit",
+      "version": "0.1.0",
+      "path": "packages/moveit",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+        "path": "packages/moveit"
+      },
+      "manifestSha256": "753ba9c8eae47d5293c8ebdaf5b6848e385cf4854505aa62405e81382ce473d0",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/aad7f8554b45e244225fdaa8fd993c066f2b2de1/packages/moveit/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2-moveit",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794468281,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+              "path": "packages/moveit"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ros2-profile",
+      "version": "0.1.0",
+      "path": "packages/profile",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+        "path": "packages/profile"
+      },
+      "manifestSha256": "60a4f48493b805fecb3efdd7ce71185d7e46015d098d4202204c4ec4a02a1702",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/aad7f8554b45e244225fdaa8fd993c066f2b2de1/packages/profile/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2-profile",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794468281,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+              "path": "packages/profile"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ros2-safety",
+      "version": "0.1.0",
+      "path": "packages/safety",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+        "path": "packages/safety"
+      },
+      "manifestSha256": "169639410d4c5d433f80fd4ae22c2c245643401bc7250ded4b5fb4840810529a",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/aad7f8554b45e244225fdaa8fd993c066f2b2de1/packages/safety/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2-safety",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794468281,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+              "path": "packages/safety"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ros2-vision",
+      "version": "0.1.3",
+      "path": "packages/vision",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+        "path": "packages/vision"
+      },
+      "manifestSha256": "1189c7933b77c92f181f6369bf5f702ed4d067ed205d717c1bfd5adaf2ff1179",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/aad7f8554b45e244225fdaa8fd993c066f2b2de1/packages/vision/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2-vision",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794468281,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+              "path": "packages/vision"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ros2",
+      "origin": "npm",
+      "name": "dsh-ros2",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ros2",
+        "title": "dsh-ros2",
+        "description": "Aggregate cordis bundle for the dsh-ros2 plugin family — depends on core/profile/moveit/safety/vision/common; empty apply for backward compatibility (install this to get all 51 tools + 4 skills).",
+        "repository": {
+          "url": "https://github.com/StvLi/dsh-ros2"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "ros2"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788108130,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "070eea655f08a190d21d8feaa2025c2a1e0668b9e464162e67f1698b8e6b13a3",
+      "evidence": [
+        {
+          "name": "dsh-ros2",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-ros2/-/dsh-ros2-0.1.0.tgz",
+          "integrity": "sha512-C3o3WWVrjFwrZIAKYxPeHjTz0JKvi73bGDc148ygkrpdSWftvmrUxT3gnXqsJQW8hKJaCIJWds15QszuksLyeA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "dsh-ros2-core",
+      "origin": "npm",
+      "name": "dsh-ros2-core",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ros2-core",
+        "title": "dsh-ros2-core",
+        "description": "dsh-ros2 core: ROS2 diagnostics (L1), management (L2) and GUI (L3) tools (33) + the ros2-diagnostics skill. Cordis bundle.",
+        "repository": {
+          "url": "https://github.com/StvLi/dsh-ros2"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "ros2"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1788256579,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "30d3f1334191f44cf24aa0bb522af23483301f723eeb7458cedb6fe5ea5b4781",
+      "evidence": [
+        {
+          "name": "dsh-ros2-core",
+          "version": "0.1.5",
+          "tarball": "https://registry.npmjs.org/dsh-ros2-core/-/dsh-ros2-core-0.1.5.tgz",
+          "integrity": "sha512-aRTgEsM+DeKj+kbw+4kqnNPEjAl8F50s2Vz/faM9X/7/9+0X0kKa8YkRYCSHGLsyX7+kLnbMQ4zQIfqRExz76g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "https://github.com/op7418/malfoy-desktop/releases/latest/download/dsh-malfoy-desktop.tgz",
+      "target": "dsh-ros2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ros2-core",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/op7418/malfoy-desktop",
-    "commit": "3aa3c255cefa3ee85b28aa0659658df8e6a6c1f6",
-    "releaseTags": 2,
+    "url": "https://github.com/StvLi/dsh-ros2",
+    "commit": "aad7f8554b45e244225fdaa8fd993c066f2b2de1",
+    "releaseTags": 22,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:26:40.735Z"
+  "finishedAt": "2026-11-16T05:40:23.603Z"
 }

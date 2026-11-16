@@ -1,25 +1,131 @@
 {
-  "full_name": "photon-hq/dsh-imessage",
+  "full_name": "PerryLink/dsh-param-repair",
   "originalPosition": 108,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 108,
   "batch": 1,
-  "stargazers_count": 27,
-  "startedAt": "2026-11-16T05:27:37.375Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:41:29.160Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "8a24b1a0bba2e1b758d29c3ac6efe3a0dac404e10b2fda42427f626fe928d43a",
-      "url": "https://github.com/photon-hq/dsh-imessage/blob/545e9da28785cb32cbe883d98a6a46fd700992e4/README.md",
+      "sha256": "d10d3f2f8686ba3da391ea860267359b5e272ff611fe4627eb9d476e18b0098a",
+      "url": "https://github.com/PerryLink/dsh-param-repair/blob/d5d738af54b33b0a8e7bc0c77e267e33d8024912/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-imessage",
-          "command": "dsh plugin --profile web add dsh-imessage",
+          "install": "dsh-param-repair",
+          "command": "dsh plugin --profile <name> add dsh-param-repair",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-param-repair",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-param-repair",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-param-repair",
+          "command": "dsh plugin --profile web add dsh-param-repair",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "4891238441f8971114222896228dbc3aa995e4501059c58654971055bbbcdfd2",
+      "url": "https://github.com/PerryLink/dsh-param-repair/blob/d5d738af54b33b0a8e7bc0c77e267e33d8024912/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-param-repair",
+          "command": "dsh plugin --profile <name> add dsh-param-repair",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-param-repair",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-param-repair",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-param-repair",
+          "command": "dsh plugin --profile web add dsh-param-repair",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "7250a44dbfe0034daae091daa31377eabaadbceac508de59a2301e855d66d126",
+      "url": "https://github.com/PerryLink/dsh-param-repair/blob/d5d738af54b33b0a8e7bc0c77e267e33d8024912/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-param-repair",
+          "command": "dsh plugin --profile <name> add dsh-param-repair",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-param-repair",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-param-repair",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-param-repair",
+          "command": "dsh plugin --profile web add dsh-param-repair",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.pt.md",
+      "sha256": "eda10f67fd055f86d8305428da09117f6b6e582a1d13f21ec03031acae7a13bd",
+      "url": "https://github.com/PerryLink/dsh-param-repair/blob/d5d738af54b33b0a8e7bc0c77e267e33d8024912/README.pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-param-repair",
+          "command": "dsh plugin --profile <name> add dsh-param-repair",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-param-repair",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-param-repair",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-param-repair",
+          "command": "dsh plugin --profile web add dsh-param-repair",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.hi.md",
+      "sha256": "5c6cc3833daeec15a45d9b201b07230ca8c1915a5bc1bdfdbdff8f53537770bc",
+      "url": "https://github.com/PerryLink/dsh-param-repair/blob/d5d738af54b33b0a8e7bc0c77e267e33d8024912/README.hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-param-repair",
+          "command": "dsh plugin --profile <name> add dsh-param-repair",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-param-repair",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-param-repair",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-param-repair",
+          "command": "dsh plugin --profile web add dsh-param-repair",
           "profile": "web"
         }
       ]
@@ -28,103 +134,114 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-imessage",
-      "version": "0.2.0",
+      "name": "dsh-param-repair",
+      "version": "1.0.2",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/photon-hq/dsh-imessage",
-        "commit": "545e9da28785cb32cbe883d98a6a46fd700992e4"
+        "url": "https://github.com/PerryLink/dsh-param-repair",
+        "commit": "d5d738af54b33b0a8e7bc0c77e267e33d8024912"
       },
-      "manifestSha256": "5a9611e8c4b7c207ef99278f3b02275c30242824d7c13b2e62a11e5cd9089df5",
-      "manifestUrl": "https://github.com/photon-hq/dsh-imessage/blob/545e9da28785cb32cbe883d98a6a46fd700992e4/package.json",
+      "manifestSha256": "0b7fef9fb14997a965f61a9a35851fcbae708eb2c2f33fbc1dfcbda9cbf9412e",
+      "manifestUrl": "https://github.com/PerryLink/dsh-param-repair/blob/d5d738af54b33b0a8e7bc0c77e267e33d8024912/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "0.1.0-rc.6",
+      "declaredRange": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-imessage",
+        "name": "dsh-param-repair",
         "versions": [
           {
-            "version": "0.2.0",
-            "publishTimestamp": 1794553300,
+            "version": "1.0.2",
+            "publishTimestamp": 1794591276,
             "source": {
               "type": "git",
-              "url": "https://github.com/photon-hq/dsh-imessage",
-              "commit": "545e9da28785cb32cbe883d98a6a46fd700992e4"
+              "url": "https://github.com/PerryLink/dsh-param-repair",
+              "commit": "d5d738af54b33b0a8e7bc0c77e267e33d8024912"
             },
             "engines": {
-              "dsh": "0.1.0-rc.6"
+              "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
             }
           }
         ]
       }
     },
     {
-      "target": "dsh-imessage",
+      "target": "dsh-param-repair",
       "origin": "npm",
-      "name": "dsh-imessage",
+      "name": "dsh-param-repair",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "dsh-imessage",
-        "title": "dsh-imessage",
-        "description": "Photon-hosted iMessage transport and configuration UI for DeepSeek Harness",
-        "homepage": "https://github.com/photon-hq/dsh-imessage#readme",
+        "name": "dsh-param-repair",
+        "title": "dsh-param-repair",
+        "description": "Vendor parameter mapping and deterministic JSON repair for DeepSeek Harness: the /translate command maps temperature/top_p/max_tokens/stop/system across 11 vendors, and the tools/post-execute repair layer (plus the fix_json tool) fixes broken JSON tool output with escape repair, trailing-comma removal, truncation closure, and required-field completion — never fabricating data",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-param-repair#readme",
         "repository": {
-          "url": "https://github.com/photon-hq/dsh-imessage"
+          "url": "https://github.com/PerryLink/dsh-param-repair"
         },
         "metadata": {
           "keywords": [
-            "deepseek-harness",
             "dsh",
-            "imessage",
-            "photon",
-            "spectrum"
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "json-repair",
+            "schema-validation",
+            "parameter-mapping",
+            "llm-api",
+            "tooling"
           ]
         },
         "versions": [
           {
-            "version": "0.2.0",
-            "publishTimestamp": 1787105575,
+            "version": "1.0.2",
+            "publishTimestamp": 1794223181,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
             },
             "engines": {
-              "dsh": "0.1.0-rc.6"
+              "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
             }
           }
         ]
       },
-      "registrySha256": "0bfed9fc2590f06210e225fdf89138cf85f40e96edebc148b4bff7411ff1bc3b",
+      "registrySha256": "2231b3d48ca9dfe722d8f3150c34711b496e0e31229fba1eafe9015a710c609b",
       "evidence": [
         {
-          "name": "dsh-imessage",
-          "version": "0.2.0",
-          "tarball": "https://registry.npmjs.org/dsh-imessage/-/dsh-imessage-0.2.0.tgz",
-          "integrity": "sha512-RRVnDE/VkRxPWePfhreIPnw9I/j5SFqCeiEri3uj53uIv1MxQlnyhe7ahnkfERhyL8oSu76GZvOcIgMNtjjy9A=="
+          "name": "dsh-param-repair",
+          "version": "1.0.2",
+          "tarball": "https://registry.npmjs.org/dsh-param-repair/-/dsh-param-repair-1.0.2.tgz",
+          "integrity": "sha512-Szl+BbzStQyjHkRwIT4h/RTP7u7eO9wWVuBq7XhuUr/umxCk3CUUjzp/aqOsCEfbnNg34qBKv+Fe2aoDkS/mYw=="
         }
       ],
       "diagnostics": [],
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-imessage",
+      "target": "dsh-param-repair",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-param-repair",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/photon-hq/dsh-imessage",
-    "commit": "545e9da28785cb32cbe883d98a6a46fd700992e4",
-    "releaseTags": 6,
+    "url": "https://github.com/PerryLink/dsh-param-repair",
+    "commit": "d5d738af54b33b0a8e7bc0c77e267e33d8024912",
+    "releaseTags": 31,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:27:46.749Z"
+  "finishedAt": "2026-11-16T05:41:43.995Z"
 }

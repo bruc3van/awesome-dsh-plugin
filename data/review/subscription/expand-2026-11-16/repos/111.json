@@ -1,26 +1,41 @@
 {
-  "full_name": "aa1355721445-lgtm/dsh-image-studio",
+  "full_name": "Zai-G/dsh-preset-workshop",
   "originalPosition": 111,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 111,
   "batch": 1,
-  "stargazers_count": 26,
-  "startedAt": "2026-11-16T05:27:42.844Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:41:36.991Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "3bc1988d43b1962909e3c655e05f05760ba5136f58fc609f8bb26c439d1ad15d",
-      "url": "https://github.com/aa1355721445-lgtm/dsh-image-studio/blob/fbd8f662f29546c2574a21f8c17ae1bc68c9498a/README.md",
+      "sha256": "80d7468d3343695b74c9589f20446df5ea7ae2a6da23b3ef184337b188f49084",
+      "url": "https://github.com/Zai-G/dsh-preset-workshop/blob/7c8bf365afa5ad0fff194de9be77b577891cc725/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/aa1355721445-lgtm/dsh-image-studio",
-          "command": "dsh plugin --profile desktop add https://github.com/aa1355721445-lgtm/dsh-image-studio",
+          "install": "dsh-preset-workshop",
+          "command": "dsh plugin --profile desktop add dsh-preset-workshop",
           "profile": "desktop"
+        },
+        {
+          "install": "dsh-preset-workshop",
+          "command": "dsh plugin --profile web add dsh-preset-workshop",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Zai-G/dsh-preset-workshop",
+          "command": "dsh plugin --profile desktop add github:Zai-G/dsh-preset-workshop",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-preset-workshop@latest",
+          "command": "dsh plugin --profile web add dsh-preset-workshop@latest",
+          "profile": "web"
         }
       ]
     }
@@ -28,35 +43,222 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-image-studio",
-      "version": "0.5.1",
+      "name": "dsh-preset-workshop",
+      "version": "0.3.1",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/aa1355721445-lgtm/dsh-image-studio",
-        "commit": "fbd8f662f29546c2574a21f8c17ae1bc68c9498a"
+        "url": "https://github.com/Zai-G/dsh-preset-workshop",
+        "commit": "7c8bf365afa5ad0fff194de9be77b577891cc725"
       },
-      "manifestSha256": "f4e18aa5cc57fb8aefedfddb213fa7f924210f1f7cb2c1d13c4aeaab987b5239",
-      "manifestUrl": "https://github.com/aa1355721445-lgtm/dsh-image-studio/blob/fbd8f662f29546c2574a21f8c17ae1bc68c9498a/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
+      "manifestSha256": "6adcfc9014c4660acdd1522d7e1224d9f2460b44bbb4a109da04f22c2326a7a8",
+      "manifestUrl": "https://github.com/Zai-G/dsh-preset-workshop/blob/7c8bf365afa5ad0fff194de9be77b577891cc725/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=v0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-preset-workshop",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794220981,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Zai-G/dsh-preset-workshop",
+              "commit": "7c8bf365afa5ad0fff194de9be77b577891cc725"
+            },
+            "engines": {
+              "dsh": ">=v0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-preset-workshop",
+      "origin": "npm",
+      "name": "dsh-preset-workshop",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-preset-workshop",
+        "title": "dsh-preset-workshop",
+        "description": "Preset Workshop · 预设工坊：让您的每一个Agent都有自己的工作方式",
+        "homepage": "https://github.com/Zai-G/dsh-preset-workshop#readme",
+        "repository": {
+          "url": "https://github.com/Zai-G/dsh-preset-workshop"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "preset",
+            "agent",
+            "prompt"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794221116,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=v0.2.2-rc.1"
+            }
+          },
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792925418,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f141d4fd7b3ddb8d9b747dc14ec33b3603d0b624200467ea6214e71711e8705c",
+      "evidence": [
+        {
+          "name": "dsh-preset-workshop",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/dsh-preset-workshop/-/dsh-preset-workshop-0.3.1.tgz",
+          "integrity": "sha512-ya5lli0FGW6LJubBbW27GYeEcIUVVhds/fBpOWDLL5KWtn6sOwhKNrfagZASdXM4RhQ7avKovUGLgExbH0+w/g=="
+        },
+        {
+          "name": "dsh-preset-workshop",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-preset-workshop/-/dsh-preset-workshop-0.2.0.tgz",
+          "integrity": "sha512-zG2iB+tDl4B4oYxg36cYI39g8HMPac1OxEs1qh5WblBLxe58G70UJZTxnrtJz1BSO0Jw1KrX4jD+H9X27u1m6g=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-preset-workshop",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "3860a4affa9ccd5533246b82b5c2f65092aaa9583249af47114d20a1ea5ce48b",
+          "outputSha256": "73e7bc8cd58dc946ceab07269d3008a7f7ccb47ad1a63e0fff2230d72d1d087b",
+          "inputBytes": 48136,
+          "outputBytes": 3564
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-preset-workshop@latest",
+      "origin": "npm",
+      "name": "dsh-preset-workshop",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-preset-workshop",
+        "title": "dsh-preset-workshop",
+        "description": "Preset Workshop · 预设工坊：让您的每一个Agent都有自己的工作方式",
+        "homepage": "https://github.com/Zai-G/dsh-preset-workshop#readme",
+        "repository": {
+          "url": "https://github.com/Zai-G/dsh-preset-workshop"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "preset",
+            "agent",
+            "prompt"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794221116,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=v0.2.2-rc.1"
+            }
+          },
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792925418,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f141d4fd7b3ddb8d9b747dc14ec33b3603d0b624200467ea6214e71711e8705c",
+      "evidence": [
+        {
+          "name": "dsh-preset-workshop",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/dsh-preset-workshop/-/dsh-preset-workshop-0.3.1.tgz",
+          "integrity": "sha512-ya5lli0FGW6LJubBbW27GYeEcIUVVhds/fBpOWDLL5KWtn6sOwhKNrfagZASdXM4RhQ7avKovUGLgExbH0+w/g=="
+        },
+        {
+          "name": "dsh-preset-workshop",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-preset-workshop/-/dsh-preset-workshop-0.2.0.tgz",
+          "integrity": "sha512-zG2iB+tDl4B4oYxg36cYI39g8HMPac1OxEs1qh5WblBLxe58G70UJZTxnrtJz1BSO0Jw1KrX4jD+H9X27u1m6g=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-preset-workshop",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "3860a4affa9ccd5533246b82b5c2f65092aaa9583249af47114d20a1ea5ce48b",
+          "outputSha256": "73e7bc8cd58dc946ceab07269d3008a7f7ccb47ad1a63e0fff2230d72d1d087b",
+          "inputBytes": 48136,
+          "outputBytes": 3564
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "https://github.com/aa1355721445-lgtm/dsh-image-studio",
+      "target": "dsh-preset-workshop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Zai-G/dsh-preset-workshop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-preset-workshop@latest",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/aa1355721445-lgtm/dsh-image-studio",
-    "commit": "fbd8f662f29546c2574a21f8c17ae1bc68c9498a",
-    "releaseTags": 0,
+    "url": "https://github.com/Zai-G/dsh-preset-workshop",
+    "commit": "7c8bf365afa5ad0fff194de9be77b577891cc725",
+    "releaseTags": 4,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:27:50.281Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:41:47.256Z"
 }

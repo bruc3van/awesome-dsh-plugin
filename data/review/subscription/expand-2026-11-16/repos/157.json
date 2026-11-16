@@ -1,40 +1,50 @@
 {
-  "full_name": "CVEO/dsh-digital-earth",
+  "full_name": "GooDAnDReaDY/dsh-key-rotation",
   "originalPosition": 157,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 157,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:29:27.968Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:42:58.901Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "78b793b9478e7130a74b5aa02de4b6c442cbb4bc981b8a4c64be29e45fcd0ed2",
-      "url": "https://github.com/CVEO/dsh-digital-earth/blob/74058fa507ca990b92b34f1be1d6965b94b3859e/README.md",
+      "sha256": "8cae8823a4a224920d69fd4530b9b2614daa3ec2ef1d253cdb71100aee627331",
+      "url": "https://github.com/GooDAnDReaDY/dsh-key-rotation/blob/30a14f36fb9e7ba0fd056f2013587b986e64bbe3/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "@cveo/dsh-digital-earth",
-          "command": "dsh plugin --profile <profile> add @cveo/dsh-digital-earth",
-          "profile": "default"
+          "install": "@goodandready/dsh-key-rotation",
+          "command": "dsh plugin --profile web add @goodandready/dsh-key-rotation",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/GooDAnDReaDY/dsh-key-rotation",
+          "command": "dsh plugin --profile web add github:GooDAnDReaDY/dsh-key-rotation",
+          "profile": "web"
         }
       ]
     },
     {
-      "path": "README.en.md",
-      "sha256": "aeb676007e8f6f70555d47f434e7f44f14d3e407439efb94671bd4f357be5701",
-      "url": "https://github.com/CVEO/dsh-digital-earth/blob/74058fa507ca990b92b34f1be1d6965b94b3859e/README.en.md",
+      "path": "README.zh.md",
+      "sha256": "bb02d4cdc71185d2d24ea98f7fbe457548b2a6bcb7a70249abfda9beb2731530",
+      "url": "https://github.com/GooDAnDReaDY/dsh-key-rotation/blob/30a14f36fb9e7ba0fd056f2013587b986e64bbe3/README.zh.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "@cveo/dsh-digital-earth",
-          "command": "dsh plugin --profile <profile> add @cveo/dsh-digital-earth",
-          "profile": "default"
+          "install": "@goodandready/dsh-key-rotation",
+          "command": "dsh plugin --profile web add @goodandready/dsh-key-rotation",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/GooDAnDReaDY/dsh-key-rotation",
+          "command": "dsh plugin --profile web add github:GooDAnDReaDY/dsh-key-rotation",
+          "profile": "web"
         }
       ]
     }
@@ -42,118 +52,111 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@cveo/dsh-digital-earth",
-      "version": "1.5.2",
+      "name": "@goodandready/dsh-key-rotation",
+      "version": "0.8.95",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/CVEO/dsh-digital-earth",
-        "commit": "74058fa507ca990b92b34f1be1d6965b94b3859e"
+        "url": "https://github.com/GooDAnDReaDY/dsh-key-rotation",
+        "commit": "30a14f36fb9e7ba0fd056f2013587b986e64bbe3"
       },
-      "manifestSha256": "cf652659dd7eb2075c779d47763c43f56ebe42191f7400c8b70ff7dd31dfadf2",
-      "manifestUrl": "https://github.com/CVEO/dsh-digital-earth/blob/74058fa507ca990b92b34f1be1d6965b94b3859e/package.json",
+      "manifestSha256": "d534f6aa7af18aae18b12f7defb2ddd7263ad3e99d2f30ef684954b7478dea9d",
+      "manifestUrl": "https://github.com/GooDAnDReaDY/dsh-key-rotation/blob/30a14f36fb9e7ba0fd056f2013587b986e64bbe3/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.1 <0.3.0-0",
+      "declaredRange": "^0.1.7-rc.2 || >=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-alpha.1 <0.2.2-0 || >=0.2.2-alpha.1 <0.2.3-0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "@cveo/dsh-digital-earth",
+        "name": "@goodandready/dsh-key-rotation",
         "versions": [
           {
-            "version": "1.5.2",
-            "publishTimestamp": 1794382826,
+            "version": "0.8.95",
+            "publishTimestamp": 1794422417,
             "source": {
               "type": "git",
-              "url": "https://github.com/CVEO/dsh-digital-earth",
-              "commit": "74058fa507ca990b92b34f1be1d6965b94b3859e"
+              "url": "https://github.com/GooDAnDReaDY/dsh-key-rotation",
+              "commit": "30a14f36fb9e7ba0fd056f2013587b986e64bbe3"
             },
             "engines": {
-              "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+              "dsh": "^0.1.7-rc.2 || >=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-alpha.1 <0.2.2-0 || >=0.2.2-alpha.1 <0.2.3-0"
             }
           }
         ]
       }
     },
     {
-      "target": "@cveo/dsh-digital-earth",
+      "target": "@goodandready/dsh-key-rotation",
       "origin": "npm",
-      "name": "@cveo/dsh-digital-earth",
+      "name": "@goodandready/dsh-key-rotation",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "@cveo/dsh-digital-earth",
-        "title": {
-          "en": "Digital Earth",
-          "zh": "数字地球"
-        },
-        "description": {
-          "en": "3D Tiles / 3DGS on a 3D globe beside the chat; the Agent reads and drives the scene, annotates, measures, runs spatial analyses, applies visual effects and exports HTML/Markdown reports, with /earth commands, Ask Agent, scene restore and a bilingual UI.",
-          "zh": "在三维地球上叠加 3D Tiles / 3DGS 图层，与对话同屏；Agent 可读写场景、标注、量测、空间分析与视觉特效，支持 /earth 命令、问 Agent 场景注入与 HTML/Markdown 报告导出，内置数据体检、多期场景恢复与双语界面。"
-        },
-        "author": "CVEO Research Group, Wuhan University",
-        "homepage": "https://github.com/CVEO/dsh-digital-earth",
+        "name": "@goodandready/dsh-key-rotation",
+        "title": "@goodandready/dsh-key-rotation",
+        "description": "Per-provider API key rotation for DeepSeek Harness: a key pool per provider, auto-created clone routes, and switching to the next key on quota/rate-limit errors. Includes a Settings section (Key Rotation) to edit the key pools, cooldown and switch codes.",
+        "homepage": "https://github.com/GooDAnDReaDY/dsh-key-rotation",
         "repository": {
-          "url": "https://github.com/CVEO/dsh-digital-earth"
+          "url": "https://github.com/GooDAnDReaDY/dsh-key-rotation"
         },
         "metadata": {
           "keywords": [
-            "dsh-plugin",
             "deepseek-harness",
-            "digital-earth",
-            "globe",
-            "3d-tiles",
-            "3dgs",
-            "gaussian-splatting",
-            "cesium",
-            "webgis",
-            "agent-tools",
-            "geojson",
-            "measurement"
+            "dsh",
+            "dsh-plugin",
+            "bundle",
+            "api-key",
+            "rotation",
+            "quota",
+            "rate-limit"
           ]
         },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSJub25lIj4KICA8Y2lyY2xlIGN4PSIzMCIgY3k9IjMwIiByPSIyMCIgc3Ryb2tlPSIjNGY4Y2ZmIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8ZWxsaXBzZSBjeD0iMzAiIGN5PSIzMCIgcng9IjguNSIgcnk9IjIwIiBzdHJva2U9IiM0ZjhjZmYiIHN0cm9rZS13aWR0aD0iMi4yIiBvcGFjaXR5PSIuODUiLz4KICA8cGF0aCBkPSJNMTAuNSAzMGgzOU0xMy41IDIwLjVoMzNNMTMuNSAzOS41aDMzIiBzdHJva2U9IiM0ZjhjZmYiIHN0cm9rZS13aWR0aD0iMiIgb3BhY2l0eT0iLjYiLz4KICA8cGF0aCBkPSJNNDggMzRsOSA1djEwbC05IDUtOS01VjM5eiIgZmlsbD0iIzRmOGNmZiIvPgogIDxwYXRoIGQ9Ik0zOSAzOWw5IDUgOS01TTQ4IDQ0djEwIiBzdHJva2U9IiNlYWYyZmYiIHN0cm9rZS13aWR0aD0iMS42IiBvcGFjaXR5PSIuOSIvPgo8L3N2Zz4K",
         "versions": [
           {
-            "version": "1.5.2",
-            "publishTimestamp": 1794324233,
+            "version": "0.8.95",
+            "publishTimestamp": 1794422703,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
             },
             "engines": {
-              "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+              "dsh": "^0.1.7-rc.2 || >=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-alpha.1 <0.2.2-0 || >=0.2.2-alpha.1 <0.2.3-0"
             }
           }
         ]
       },
-      "registrySha256": "72c1f0121479ef4fa876e235b41d8d778cc3b3b8b8c5b919b8e05e0cd6e17a80",
+      "registrySha256": "34769e2dfc98cdf70d623d7b05cfea6f8db3785608e6349e46885613a6eb7c8e",
       "evidence": [
         {
-          "name": "@cveo/dsh-digital-earth",
-          "version": "1.5.2",
-          "tarball": "https://registry.npmjs.org/@cveo/dsh-digital-earth/-/dsh-digital-earth-1.5.2.tgz",
-          "integrity": "sha512-MCeBvcY/9HUjyBQpQ52qt27U3LS5zd5JTPjJFzEjqAZHdfvZ16uv9gjuGYRBB7WMtOogtHEuNCTgmvZ6/Ifvnw=="
+          "name": "@goodandready/dsh-key-rotation",
+          "version": "0.8.95",
+          "tarball": "https://registry.npmjs.org/@goodandready/dsh-key-rotation/-/dsh-key-rotation-0.8.95.tgz",
+          "integrity": "sha512-5lXQxniXHKODMO8flGw8Nq/YyNuoZJEDZPJLPKJdardTP/BANLDeznY9EdNuy2uDXzB0wP73USiCQlG6aFf/nw=="
         }
       ],
       "diagnostics": [],
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "@cveo/dsh-digital-earth",
+      "target": "@goodandready/dsh-key-rotation",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/GooDAnDReaDY/dsh-key-rotation",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/CVEO/dsh-digital-earth",
-    "commit": "74058fa507ca990b92b34f1be1d6965b94b3859e",
-    "releaseTags": 6,
+    "url": "https://github.com/GooDAnDReaDY/dsh-key-rotation",
+    "commit": "30a14f36fb9e7ba0fd056f2013587b986e64bbe3",
+    "releaseTags": 142,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:30:01.055Z"
+  "finishedAt": "2026-11-16T05:43:09.937Z"
 }

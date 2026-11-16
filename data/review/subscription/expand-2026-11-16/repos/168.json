@@ -1,61 +1,26 @@
 {
-  "full_name": "fujingzhai/youxia-dsh-plugins",
+  "full_name": "bitxeno/dsh-magpie-connect",
   "originalPosition": 168,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 168,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:29:58.167Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:43:19.639Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "0c532f1c76ef368eb9569d0b4aa49553224e1669a2082b100ed9a5078d6a6a44",
-      "url": "https://github.com/fujingzhai/youxia-dsh-plugins/blob/368e207200e78bf59981bc627428f492ee85a6d4/README.md",
-      "ambiguous": true,
+      "sha256": "7f358f2fc779fdf3e834a8b6eb0bfc42cfc895f7b854c2c4c43c899141b35a8a",
+      "url": "https://github.com/bitxeno/dsh-magpie-connect/blob/399e813d14e2235da02bda5546b20e2822666213/README.md",
+      "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-pi-mode",
-          "command": "dsh plugin --profile desktop add dsh-pi-mode",
-          "profile": "desktop"
-        },
-        {
-          "install": "dsh-session-fee",
-          "command": "dsh plugin --profile desktop add dsh-session-fee",
-          "profile": "desktop"
-        },
-        {
-          "install": "dsh-session-labels",
-          "command": "dsh plugin --profile desktop add dsh-session-labels",
-          "profile": "desktop"
-        },
-        {
-          "install": "dsh-settings-customizer",
-          "command": "dsh plugin --profile desktop add dsh-settings-customizer",
-          "profile": "desktop"
-        },
-        {
-          "install": "dsh-speed-pair",
-          "command": "dsh plugin --profile desktop add dsh-speed-pair",
-          "profile": "desktop"
-        },
-        {
-          "install": "dsh-zh-slash",
-          "command": "dsh plugin --profile desktop add dsh-zh-slash",
-          "profile": "desktop"
-        },
-        {
-          "install": "dsh-quick-chat",
-          "command": "dsh plugin --profile desktop add dsh-quick-chat",
-          "profile": "desktop"
-        },
-        {
-          "install": "dsh-agents-cli",
-          "command": "dsh plugin --profile desktop add dsh-agents-cli",
-          "profile": "desktop"
+          "install": "dsh-magpie-connect",
+          "command": "dsh plugin --profile web add dsh-magpie-connect",
+          "profile": "web"
         }
       ]
     }
@@ -63,798 +28,110 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-agents-cli",
-      "version": "0.1.5",
-      "path": "dsh-agents-cli",
+      "name": "dsh-magpie-connect",
+      "version": "0.7.0",
+      "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-        "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-        "path": "dsh-agents-cli"
+        "url": "https://github.com/bitxeno/dsh-magpie-connect",
+        "commit": "399e813d14e2235da02bda5546b20e2822666213"
       },
-      "manifestSha256": "a36eda88312af31c007a3c9c93908d3a6d88a7c38699974cad76f36ef9238de8",
-      "manifestUrl": "https://github.com/fujingzhai/youxia-dsh-plugins/blob/368e207200e78bf59981bc627428f492ee85a6d4/dsh-agents-cli/package.json",
+      "manifestSha256": "3f713126ded5b24ee85cd7423e9f938b5bf4ec7bbe86550090f150cf8f066454",
+      "manifestUrl": "https://github.com/bitxeno/dsh-magpie-connect/blob/399e813d14e2235da02bda5546b20e2822666213/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.2-rc.1",
+      "declaredRange": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-alpha.1 <0.3.0-0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-agents-cli",
+        "name": "dsh-magpie-connect",
         "versions": [
           {
-            "version": "0.1.5",
-            "publishTimestamp": 1794728146,
+            "version": "0.7.0",
+            "publishTimestamp": 1794716902,
             "source": {
               "type": "git",
-              "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-              "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-              "path": "dsh-agents-cli"
+              "url": "https://github.com/bitxeno/dsh-magpie-connect",
+              "commit": "399e813d14e2235da02bda5546b20e2822666213"
             },
             "engines": {
-              "dsh": ">=0.2.2-rc.1"
+              "dsh": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-alpha.1 <0.3.0-0"
             }
           }
         ]
       }
     },
     {
-      "origin": "repository_discovery",
-      "name": "dsh-pi-mode",
-      "version": "0.4.4",
-      "path": "dsh-pi-mode",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-        "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-        "path": "dsh-pi-mode"
-      },
-      "manifestSha256": "99a1d153dc54ef08a222afd3d000ac245656a8f52c1662a1c947b2380e7b3221",
-      "manifestUrl": "https://github.com/fujingzhai/youxia-dsh-plugins/blob/368e207200e78bf59981bc627428f492ee85a6d4/dsh-pi-mode/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.2-rc.2",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-pi-mode",
-        "versions": [
-          {
-            "version": "0.4.4",
-            "publishTimestamp": 1794728146,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-              "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-              "path": "dsh-pi-mode"
-            },
-            "engines": {
-              "dsh": ">=0.2.2-rc.2"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-quick-chat",
-      "version": "0.1.4",
-      "path": "dsh-quick-chat",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-        "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-        "path": "dsh-quick-chat"
-      },
-      "manifestSha256": "df80e34166993df1c0247eaa82d390e7a136fd89457c67806c58e6c38e184768",
-      "manifestUrl": "https://github.com/fujingzhai/youxia-dsh-plugins/blob/368e207200e78bf59981bc627428f492ee85a6d4/dsh-quick-chat/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.2-rc.1",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-quick-chat",
-        "versions": [
-          {
-            "version": "0.1.4",
-            "publishTimestamp": 1794728146,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-              "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-              "path": "dsh-quick-chat"
-            },
-            "engines": {
-              "dsh": ">=0.2.2-rc.1"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-session-fee",
-      "version": "0.4.9",
-      "path": "dsh-session-fee",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-        "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-        "path": "dsh-session-fee"
-      },
-      "manifestSha256": "a78f17ab944da707bf9cbe406eedca5438eeb5a6fffe792eda14869c83091450",
-      "manifestUrl": "https://github.com/fujingzhai/youxia-dsh-plugins/blob/368e207200e78bf59981bc627428f492ee85a6d4/dsh-session-fee/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.5",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-session-fee",
-        "versions": [
-          {
-            "version": "0.4.9",
-            "publishTimestamp": 1794728146,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-              "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-              "path": "dsh-session-fee"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.5"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-session-labels",
-      "version": "0.1.4",
-      "path": "dsh-session-labels",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-        "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-        "path": "dsh-session-labels"
-      },
-      "manifestSha256": "ec3f110fc4504befc56a81fb0efd233d0a7fe9468f7cfe706d0e116b09e35eca",
-      "manifestUrl": "https://github.com/fujingzhai/youxia-dsh-plugins/blob/368e207200e78bf59981bc627428f492ee85a6d4/dsh-session-labels/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.2-rc.1",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-session-labels",
-        "versions": [
-          {
-            "version": "0.1.4",
-            "publishTimestamp": 1794728146,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-              "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-              "path": "dsh-session-labels"
-            },
-            "engines": {
-              "dsh": ">=0.2.2-rc.1"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-settings-customizer",
-      "version": "0.3.2",
-      "path": "dsh-settings-customizer",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-        "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-        "path": "dsh-settings-customizer"
-      },
-      "manifestSha256": "53dafe6a8c8d1fe4881e1ccc37516d08a7af164ae66314e7f2a3340e573e4f72",
-      "manifestUrl": "https://github.com/fujingzhai/youxia-dsh-plugins/blob/368e207200e78bf59981bc627428f492ee85a6d4/dsh-settings-customizer/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.2-rc.1",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-settings-customizer",
-        "versions": [
-          {
-            "version": "0.3.2",
-            "publishTimestamp": 1794728146,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-              "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-              "path": "dsh-settings-customizer"
-            },
-            "engines": {
-              "dsh": ">=0.2.2-rc.1"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-speed-pair",
-      "version": "0.1.0",
-      "path": "dsh-speed-pair",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-        "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-        "path": "dsh-speed-pair"
-      },
-      "manifestSha256": "021439017317a0267c35161f8f56f37a464e2fa1f7dee819bb4eecf02d052b8c",
-      "manifestUrl": "https://github.com/fujingzhai/youxia-dsh-plugins/blob/368e207200e78bf59981bc627428f492ee85a6d4/dsh-speed-pair/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.5",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-speed-pair",
-        "versions": [
-          {
-            "version": "0.1.0",
-            "publishTimestamp": 1794728146,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-              "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-              "path": "dsh-speed-pair"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.5"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-zh-slash",
-      "version": "0.1.1",
-      "path": "dsh-zh-slash",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-        "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-        "path": "dsh-zh-slash"
-      },
-      "manifestSha256": "a869b999d47e7d4ad3096099189e3a9f6eb78c6a21c152d2ec6971c66981175c",
-      "manifestUrl": "https://github.com/fujingzhai/youxia-dsh-plugins/blob/368e207200e78bf59981bc627428f492ee85a6d4/dsh-zh-slash/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.5",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-zh-slash",
-        "versions": [
-          {
-            "version": "0.1.1",
-            "publishTimestamp": 1794728146,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-              "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-              "path": "dsh-zh-slash"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.5"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "dsh-pi-mode",
+      "target": "dsh-magpie-connect",
       "origin": "npm",
-      "name": "dsh-pi-mode",
+      "name": "dsh-magpie-connect",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "dsh-pi-mode",
-        "title": "dsh-pi-mode",
-        "description": "DSH 的 Pi 模式插件：精简工具与中文提示词，同包提供 Pi、Pi+、Pi-IM，内置低频静默提醒、主动查证与随包文档入口。",
-        "author": "youxia",
-        "homepage": "https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-pi-mode#readme",
+        "name": "dsh-magpie-connect",
+        "title": "dsh-magpie-connect",
+        "description": "Magpie gateway models for DeepSeek Harness (DSH): native dsh-llm adapter plugin with image + responses + thinking levels.",
         "repository": {
-          "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-          "directory": "dsh-pi-mode"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek-harness",
-            "dsh",
-            "plugin",
-            "preset",
-            "pi"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0IDQiIHNoYXBlLXJlbmRlcmluZz0iY3Jpc3BFZGdlcyI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjMiIGhlaWdodD0iMSIgZmlsbD0icmdiKDIyOCAxMzggMTIyKSIvPjxyZWN0IHg9IjIiIHk9IjEiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InJnYigyMjggMTM4IDEyMikiLz48cmVjdCB4PSIwIiB5PSIxIiB3aWR0aD0iMSIgaGVpZ2h0PSIzIiBmaWxsPSJyZ2IoNzkgMTQyIDE3OSkiLz48cmVjdCB4PSIxIiB5PSIyIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJyZ2IoNzkgMTQyIDE3OSkiLz48cmVjdCB4PSIzIiB5PSIyIiB3aWR0aD0iMSIgaGVpZ2h0PSIyIiBmaWxsPSJyZ2IoMjM0IDE4MiA5MykiLz48L3N2Zz4K",
-        "versions": [
-          {
-            "version": "0.4.4",
-            "publishTimestamp": 1794496702,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.2-rc.2"
-            }
-          },
-          {
-            "version": "0.4.1",
-            "publishTimestamp": 1794415280,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.2-rc.1"
-            }
-          }
-        ]
-      },
-      "registrySha256": "66fad4b36545ccb414b5fabd7b00581ca541fff3adf08cfd1de5e4e1e82a81c9",
-      "evidence": [
-        {
-          "name": "dsh-pi-mode",
-          "version": "0.4.4",
-          "tarball": "https://registry.npmjs.org/dsh-pi-mode/-/dsh-pi-mode-0.4.4.tgz",
-          "integrity": "sha512-9t6dlt/JoIjUR9HRAhdUzWNt1E+Bsi3CMxwd2PDg4PG6n0mUQhcFl3THZ+Ini2vfibBvobN3iz40LTnFXiFvHA=="
-        },
-        {
-          "name": "dsh-pi-mode",
-          "version": "0.4.1",
-          "tarball": "https://registry.npmjs.org/dsh-pi-mode/-/dsh-pi-mode-0.4.1.tgz",
-          "integrity": "sha512-2gsZQ0jErhuayovZgYf7jxyQGr+9TrvFW241ZzC5l25KeWevWlWwWtV4Bf3elghUjCJMo6+LM8V8oT+wGEMdoA=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    },
-    {
-      "target": "dsh-session-fee",
-      "origin": "npm",
-      "name": "dsh-session-fee",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-session-fee",
-        "title": {
-          "en": "Session Cost",
-          "zh": "Session 费用"
-        },
-        "description": {
-          "en": "Shows what the current session (including subagents) would cost at market token prices, below the composer; per-model runs, per-currency, with a details panel.",
-          "zh": "在输入框下显示当前会话（含子代理）按市面 token 价折算的费用；换模型分段相加，各币种分开，点开看明细。"
-        },
-        "author": "youxia",
-        "homepage": "https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-session-fee#readme",
-        "repository": {
-          "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-          "directory": "dsh-session-fee"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh-plugin",
-            "deepseek-harness",
-            "token",
-            "cost",
-            "pricing"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMjgiIGZpbGw9IiMyNDdCQkYiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMiAxMikgc2NhbGUoMi41KSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjEuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgIDxwYXRoIGQ9Ik0zLjUgMS43NUgxMi41VjE0LjI1TDExIDEzLjI1TDkuNSAxNC4yNUw4IDEzLjI1TDYuNSAxNC4yNUw1IDEzLjI1TDMuNSAxNC4yNVoiLz4KICAgIDxwYXRoIGQ9Ik01Ljc1IDVIMTAuMjUiLz4KICAgIDxwYXRoIGQ9Ik01Ljc1IDcuNUgxMC4yNSIvPgogICAgPHBhdGggZD0iTTUuNzUgMTBIOC41Ii8+CiAgPC9nPgo8L3N2Zz4K",
-        "versions": [
-          {
-            "version": "0.4.9",
-            "publishTimestamp": 1794728353,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.5"
-            }
-          }
-        ]
-      },
-      "registrySha256": "c7396c5ae1aca9e89fdc5abfe1860090e167b096eecb116a7a8c0da12c555e8e",
-      "evidence": [
-        {
-          "name": "dsh-session-fee",
-          "version": "0.4.9",
-          "tarball": "https://registry.npmjs.org/dsh-session-fee/-/dsh-session-fee-0.4.9.tgz",
-          "integrity": "sha512-xXRocyHVhS6N4anzWz57PUJPuLHYfsPndaeq9jyWquIoChxA96lk5qojuNmVw4ek/IhwbMnMu8edPDAn+ibPoQ=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    },
-    {
-      "target": "dsh-session-labels",
-      "origin": "npm",
-      "name": "dsh-session-labels",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-session-labels",
-        "title": "dsh-session-labels",
-        "description": "Finder 风格会话标签：悬浮按钮与右键打标、标题着色或标签符号、视图筛选。",
-        "author": "youxia",
-        "homepage": "https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-session-labels#readme",
-        "repository": {
-          "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-          "directory": "dsh-session-labels"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh-plugin",
-            "deepseek-harness",
-            "session",
-            "tags"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMEE4NEZGIiBzdHJva2Utd2lkdGg9IjEuNyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMyAzaDhsMTAgMTAtOCA4TDMgMTFaIi8+PGNpcmNsZSBjeD0iNy41IiBjeT0iNy41IiByPSIxLjIiLz48L3N2Zz4K",
-        "versions": [
-          {
-            "version": "0.1.4",
-            "publishTimestamp": 1793986411,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.2-rc.1"
-            }
-          }
-        ]
-      },
-      "registrySha256": "1c290a3bebdb111ab3589c2c2a97d1d62c3abc9f0f9dc6ffa6e2aaa4d4a4c4d2",
-      "evidence": [
-        {
-          "name": "dsh-session-labels",
-          "version": "0.1.4",
-          "tarball": "https://registry.npmjs.org/dsh-session-labels/-/dsh-session-labels-0.1.4.tgz",
-          "integrity": "sha512-UR8duPxElamohytQT37/vOrs6Ck0oyHZUD6ZtLbUDs7BEIripprDJPQCNDkROmDduizrJjoYg1dOGHH8Q/Fauw=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    },
-    {
-      "target": "dsh-settings-customizer",
-      "origin": "npm",
-      "name": "dsh-settings-customizer",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-settings-customizer",
-        "title": "dsh-settings-customizer",
-        "description": "通过个人 DSH 配置统一定制设置导航的顺序、名称和图标，公共默认不含作者规则。",
-        "author": "youxia",
-        "homepage": "https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-settings-customizer#readme",
-        "repository": {
-          "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-          "directory": "dsh-settings-customizer"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh-plugin",
-            "deepseek-harness",
-            "settings",
-            "customization"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMjgiIGZpbGw9IiM3QzNBRUQiLz4KICA8ZyBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj4KICAgIDxwYXRoIGQ9Ik0xNyAyMUg0N00xNyAzMkg0N00xNyA0M0g0NyIvPgogIDwvZz4KICA8ZyBmaWxsPSIjRkZGRkZGIiBzdHJva2U9IiM3QzNBRUQiIHN0cm9rZS13aWR0aD0iMiI+CiAgICA8Y2lyY2xlIGN4PSIyNiIgY3k9IjIxIiByPSI1Ii8+CiAgICA8Y2lyY2xlIGN4PSIzOSIgY3k9IjMyIiByPSI1Ii8+CiAgICA8Y2lyY2xlIGN4PSIyNSIgY3k9IjQzIiByPSI1Ii8+CiAgPC9nPgo8L3N2Zz4K",
-        "versions": [
-          {
-            "version": "0.3.2",
-            "publishTimestamp": 1793976697,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.2-rc.1"
-            }
-          }
-        ]
-      },
-      "registrySha256": "45951e1f4c9aba658bad16230ef6512486f0cc0283894a860739cabe9c6053f6",
-      "evidence": [
-        {
-          "name": "dsh-settings-customizer",
-          "version": "0.3.2",
-          "tarball": "https://registry.npmjs.org/dsh-settings-customizer/-/dsh-settings-customizer-0.3.2.tgz",
-          "integrity": "sha512-gKiYH2sGqynZbaJGRr5wMN/7HAkiJxfBV+cu5ntsMMZwOj03ZT9dgcKQ6oxSJxCfbwZ/LE8MI+L6QEA5s/TqGw=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    },
-    {
-      "target": "dsh-speed-pair",
-      "origin": "npm",
-      "name": "dsh-speed-pair",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-speed-pair",
-        "title": {
-          "en": "Output speed (two readings)",
-          "zh": "输出速度（双口径）"
-        },
-        "description": {
-          "en": "Shows the composer speed as X(Y) tok/s: outside is the pure decode speed after the first token (DSH's own reading), inside is the end-to-end speed from request sent to done, including the first-token wait (the pi footer reading).",
-          "zh": "把底栏的输出速度改成 X(Y) tok/s：括号外为首字后的纯解码速度（DSH 原口径），括号内为整段速度（请求发出→收完，含首字延迟，pi 底栏口径）。"
-        },
-        "author": "youxia",
-        "homepage": "https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-speed-pair#readme",
-        "repository": {
-          "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-          "directory": "dsh-speed-pair"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh-plugin",
-            "deepseek-harness",
-            "token",
-            "throughput",
-            "tps"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMjgiIGZpbGw9IiMyNDdCQkYiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0IDQpIHNjYWxlKDMuNSkiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIj4KICAgIDxwYXRoIGQ9Ik0zLjQwNDEgMTMuMDk2QzIuNDk1MTQgMTIuMTg3IDEuODc2MTQgMTEuMDI4OCAxLjYyNTM3IDkuNzY3OThDMS4zNzQ1OSA4LjUwNzE2IDEuNTAzMzEgNy4yMDAyOCAxLjk5NTI1IDYuMDEyNjFDMi40ODcxOSA0LjgyNDk0IDMuMzIwMjUgMy44MDk4MSA0LjM4OTEgMy4wOTU1N0M1LjQ1Nzk1IDIuMzgxMzQgNi43MTQ1OCAyLjAwMDA4IDguMDAwMSAyQzkuMjg1NjMgMi4wMDAwOCAxMC41NDIzIDIuMzgxMzQgMTEuNjExMSAzLjA5NTU3QzEyLjY4IDMuODA5ODEgMTMuNTEzIDQuODI0OTQgMTQuMDA1IDYuMDEyNjFDMTQuNDk2OSA3LjIwMDI4IDE0LjYyNTYgOC41MDcxNiAxNC4zNzQ4IDkuNzY3OThDMTQuMTI0MSAxMS4wMjg4IDEzLjUwNTEgMTIuMTg3IDEyLjU5NjEgMTMuMDk2Ii8+CiAgICA8cGF0aCBkPSJNOCA4LjQ5OTk0TDExLjYxMTQgNC44ODg1NSIvPgogIDwvZz4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjMzLjc1IiByPSI0LjM3NSIgZmlsbD0iI0ZGRkZGRiIvPgo8L3N2Zz4K",
-        "versions": [
-          {
-            "version": "0.1.0",
-            "publishTimestamp": 1793961972,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.5"
-            }
-          }
-        ]
-      },
-      "registrySha256": "a93a9dc0a9435a426b0047809e3722fe9707fdbdc53eceb2fdfacf53c22729b1",
-      "evidence": [
-        {
-          "name": "dsh-speed-pair",
-          "version": "0.1.0",
-          "tarball": "https://registry.npmjs.org/dsh-speed-pair/-/dsh-speed-pair-0.1.0.tgz",
-          "integrity": "sha512-swSMziuYLR0wPiE/QYIU0XdPSUVSwE/Rs+n3onnklbxjdUxsMI9JPU3Sp3bm0CnUKmMbDT0BCbaq52fAAaf/3A=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    },
-    {
-      "target": "dsh-zh-slash",
-      "origin": "npm",
-      "name": "dsh-zh-slash",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-zh-slash",
-        "title": "dsh-zh-slash",
-        "description": "在 DSH 桌面／Web 输入框行首用顿号「、」触发原生斜杠命令菜单。",
-        "author": "youxia",
-        "homepage": "https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-zh-slash#readme",
-        "repository": {
-          "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-          "directory": "dsh-zh-slash"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh-plugin",
-            "deepseek-harness",
-            "ime",
-            "slash"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMjgiIGZpbGw9IiMwRjc2NkUiLz4KICA8cGF0aCBkPSJNMTggMjBMMjYgMjkiIHN0cm9rZT0iIzk5RjZFNCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNNDMgMTdMMjkgNDciIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
-        "versions": [
-          {
-            "version": "0.1.1",
-            "publishTimestamp": 1793961897,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.5"
-            }
-          }
-        ]
-      },
-      "registrySha256": "b6b0bf33f7f46548d2d57bb0af24f3576f8f981afa20e5287cddb3538c074643",
-      "evidence": [
-        {
-          "name": "dsh-zh-slash",
-          "version": "0.1.1",
-          "tarball": "https://registry.npmjs.org/dsh-zh-slash/-/dsh-zh-slash-0.1.1.tgz",
-          "integrity": "sha512-GDC2tY5vB29lekidZLV3/+m3kZjGvoOZ9VE72d5t+xqn7Mw7TnIXJCRPfsco3fxZf+o3PS1hAv1DwIGwhcA+6w=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    },
-    {
-      "target": "dsh-quick-chat",
-      "origin": "npm",
-      "name": "dsh-quick-chat",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-quick-chat",
-        "title": {
-          "en": "DeepSeek Chat",
-          "zh": "DeepSeek Chat"
-        },
-        "description": {
-          "en": "The official chat.deepseek.com page in a DSH main panel, through the desktop's own browser: the panel is the page, and the sign-in survives restarts.",
-          "zh": "在 DSH 主面板里打开 chat.deepseek.com 官方网页：复用桌面端原生浏览器，面板只放网页，登录跨重启恢复。"
-        },
-        "author": "youxia",
-        "repository": {
-          "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-          "directory": "dsh-quick-chat"
+          "url": "https://github.com/bitxeno/dsh-magpie-connect"
         },
         "metadata": {
           "keywords": [
             "dsh",
             "dsh-plugin",
-            "deepseek",
-            "webview",
-            "desktop"
+            "deepseek-harness",
+            "magpie",
+            "lan-gateway",
+            "cordis",
+            "cordis-plugin",
+            "llm-adapter",
+            "llm-provider",
+            "llm",
+            "ai-models",
+            "typescript",
+            "nodejs"
           ]
         },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiNGRkZGRkYiLz4KICA8cGF0aCB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5IDkpIHNjYWxlKDIpIiBmaWxsPSIjNEQ2QkZFIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMy43NDggNC40ODJjLS4yNTQtLjEyNC0uMzY0LjExMy0uNTEyLjIzNC0uMDUxLjAzOS0uMDk0LjA5LS4xMzcuMTM2LS4zNzIuMzk3LS44MDYuNjU3LTEuMzczLjYyNi0uODI5LS4wNDYtMS41MzcuMjE0LTIuMTYzLjg0OC0uMTMzLS43ODItLjU3NS0xLjI0OC0xLjI0Ny0xLjU0OC0uMzUyLS4xNTYtLjcwOC0uMzExLS45NTUtLjY1LS4xNzItLjI0MS0uMjE5LS41MS0uMzA1LS43NzQtLjA1NS0uMTYtLjExLS4zMjMtLjI5My0uMzUtLjItLjAzMS0uMjc4LjEzNi0uMzU2LjI3Ni0uMzEzLjU3Mi0uNDM0IDEuMjAyLS40MjIgMS44NC4wMjcgMS40MzYuNjMzIDIuNTggMS44MzggMy4zOTMuMTM3LjA5My4xNzIuMTg3LjEyOS4zMjMtLjA4Mi4yOC0uMTguNTUyLS4yNjYuODMzLS4wNTUuMTc5LS4xMzcuMjE3LS4zMjkuMTRhNS41MjYgNS41MjYgMCAwMS0xLjczNi0xLjE4Yy0uODU3LS44MjgtMS42MzEtMS43NDItMi41OTctMi40NThhMTEuMzY1IDExLjM2NSAwIDAwLS42ODktLjQ3MWMtLjk4NS0uOTU3LjEzLTEuNzQzLjM4OC0xLjgzNi4yNy0uMDk4LjA5My0uNDMyLS43NzktLjQyOC0uODcyLjAwNC0xLjY3LjI5NS0yLjY4Ny42ODRhMy4wNTUgMy4wNTUgMCAwMS0uNDY1LjEzNyA5LjU5NyA5LjU5NyAwIDAwLTIuODgzLS4xMDJjLTEuODg1LjIxLTMuMzkgMS4xMDItNC40OTcgMi42MjNDLjA4MiA4LjYwNi0uMjMxIDEwLjY4NC4xNTIgMTIuODVjLjQwMyAyLjI4NCAxLjU2OSA0LjE3NSAzLjM2IDUuNjUzIDEuODU4IDEuNTMzIDMuOTk3IDIuMjg0IDYuNDM4IDIuMTQgMS40ODItLjA4NSAzLjEzMy0uMjg0IDQuOTk0LTEuODYuNDcuMjM0Ljk2Mi4zMjcgMS43OC4zOTcuNjMuMDU5IDEuMjM2LS4wMyAxLjcwNS0uMTI4LjczNS0uMTU2LjY4NC0uODM3LjQxOS0uOTYxLTIuMTU1LTEuMDA0LTEuNjgyLS41OTUtMi4xMTMtLjkyNiAxLjA5Ni0xLjI5NiAyLjc0Ni0yLjY0MiAzLjM5Mi03LjAwMy4wNS0uMzQ3LjAwNy0uNTY1IDAtLjg0NS0uMDA0LS4xNy4wMzUtLjIzNy4yMy0uMjU2YTQuMTczIDQuMTczIDAgMDAxLjU0NS0uNDc1YzEuMzk2LS43NjMgMS45Ni0yLjAxNSAyLjA5My0zLjUxNy4wMi0uMjMtLjAwNC0uNDY3LS4yNDctLjU4OHpNMTEuNTgxIDE4Yy0yLjA4OS0xLjY0Mi0zLjEwMi0yLjE4My0zLjUyLTIuMTYtLjM5Mi4wMjQtLjMyMS40NzEtLjIzNS43NjMuMDkuMjg4LjIwNy40ODYuMzcxLjczOS4xMTQuMTY3LjE5Mi40MTYtLjExMy42MDMtLjY3My40MTYtMS44NDItLjE0LTEuODk3LS4xNjctMS4zNjEtLjgwMi0yLjUtMS44Ni0zLjMwMS0zLjMwNy0uNzc0LTEuMzkzLTEuMjI0LTIuODg3LTEuMjk4LTQuNDgyLS4wMi0uMzg2LjA5My0uNTIyLjQ3Ny0uNTkyYTQuNjk2IDQuNjk2IDAgMDExLjUyOS0uMDM5YzIuMTMyLjMxMiAzLjk0NiAxLjI2NSA1LjQ2OCAyLjc3NC44NjguODYgMS41MjUgMS44ODcgMi4yMDIgMi44OTEuNzIgMS4wNjYgMS40OTQgMi4wODIgMi40OCAyLjkxNC4zNDguMjkyLjYyNS41MTQuODkxLjY3Ny0uODAyLjA5LTIuMTQuMTEtMy4wNTQtLjYxNHptMS02LjQ0YS4zMDYuMzA2IDAgMDEuNDE1LS4yODcuMzAyLjMwMiAwIDAxLjIuMjg4LjMwNi4zMDYgMCAwMS0uMzEuMzA3LjMwMy4zMDMgMCAwMS0uMzA0LS4zMDh6bTMuMTEgMS41OTZjLS4yLjA4MS0uMzk5LjE1MS0uNTkuMTZhMS4yNDUgMS4yNDUgMCAwMS0uNzk4LS4yNTRjLS4yNzQtLjIzLS40Ny0uMzU4LS41NTItLjc1OGExLjczIDEuNzMgMCAwMS4wMTYtLjU4OGMuMDctLjMyNy0uMDA4LS41MzctLjIzOS0uNzI3LS4xODctLjE1Ni0uNDI2LS4xOTktLjY4OC0uMTk5YS41NTkuNTU5IDAgMDEtLjI1NC0uMDc4Yy0uMTEtLjA1NC0uMi0uMTktLjExNC0uMzU4LjAyOC0uMDU0LjE2LS4xODYuMTkyLS4yMS4zNTYtLjIwMi43NjctLjEzNiAxLjE0Ni4wMTYuMzUyLjE0NC42MTguNDA4IDEuMDAxLjc4Mi4zOTEuNDUxLjQ2Mi41NzYuNjg1LjkxNC4xNzYuMjY1LjMzNi41MzcuNDQ1Ljg0OC4wNjcuMTk1LS4wMTkuMzU0LS4yNS40NTJ6Ii8+Cjwvc3ZnPgo=",
         "versions": [
           {
-            "version": "0.1.4",
-            "publishTimestamp": 1793992635,
+            "version": "0.7.0",
+            "publishTimestamp": 1794717008,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
             },
             "engines": {
-              "dsh": ">=0.2.2-rc.1"
+              "dsh": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-alpha.1 <0.3.0-0"
             }
           }
         ]
       },
-      "registrySha256": "127d1bff89bc06a6d3c277ea65d7ef5978c1b08a585b23c3d384e0ba015c82d0",
+      "registrySha256": "251ed899535139154948e77dc3d6c31ce3e1d9e2e11f7587d289df06bceb3ccd",
       "evidence": [
         {
-          "name": "dsh-quick-chat",
-          "version": "0.1.4",
-          "tarball": "https://registry.npmjs.org/dsh-quick-chat/-/dsh-quick-chat-0.1.4.tgz",
-          "integrity": "sha512-kIC10aRCpekSPLrWY1Sq/uF3aDMIEZrdbyDqL1zSROrI83kSGkSkiW/7/0GHeRi6pFUnn/ElmxdWCVLtcR+ZXg=="
+          "name": "dsh-magpie-connect",
+          "version": "0.7.0",
+          "tarball": "https://registry.npmjs.org/dsh-magpie-connect/-/dsh-magpie-connect-0.7.0.tgz",
+          "integrity": "sha512-Grdznr5fCl4BRuO3VDNwqo7s3L9Fef6mA/7RopY2Oj36pMMW2Esx117d9wvG7jGS3alOTbkHoqah3usc3/SJtw=="
         }
       ],
       "diagnostics": [],
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    },
-    {
-      "target": "dsh-agents-cli",
-      "origin": "npm",
-      "name": "dsh-agents-cli",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-agents-cli",
-        "title": {
-          "en": "Agents CLI",
-          "zh": "Agents CLI"
-        },
-        "description": {
-          "en": "Use local Claude Code, Codex, Antigravity and Pi in DSH: automatic CLI detection, persistent terminals and editable custom entries.",
-          "zh": "在 DSH 主面板中使用本机 Claude Code、Codex、Antigravity、Pi：自动检测、持久终端，支持自定义和编辑入口。"
-        },
-        "author": "youxia",
-        "repository": {
-          "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-          "directory": "dsh-agents-cli"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh",
-            "dsh-plugin",
-            "terminal",
-            "agents",
-            "claude",
-            "codex",
-            "antigravity",
-            "pi"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxODFCMjIiLz4KICA8cmVjdCB4PSIxMCIgeT0iMTMiIHdpZHRoPSI0NCIgaGVpZ2h0PSIzOCIgcng9IjciIHN0cm9rZT0iI0U1RTlGMCIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPHBhdGggZD0iTTEwIDIzSDU0IiBzdHJva2U9IiNFNUU5RjAiIHN0cm9rZS13aWR0aD0iMi40IiBzdHJva2Utb3BhY2l0eT0iMC4zNSIvPgogIDxjaXJjbGUgY3g9IjE2LjUiIGN5PSIxOCIgcj0iMS42IiBmaWxsPSIjRDk3NzU3Ii8+CiAgPGNpcmNsZSBjeD0iMjIiIGN5PSIxOCIgcj0iMS42IiBmaWxsPSIjMTBBMzdGIi8+CiAgPGNpcmNsZSBjeD0iMjcuNSIgY3k9IjE4IiByPSIxLjYiIGZpbGw9IiM0Mjg1RjQiLz4KICA8cGF0aCBkPSJNMTkgMzFMMjUgMzYuNUwxOSA0MiIgc3Ryb2tlPSIjRTVFOUYwIiBzdHJva2Utd2lkdGg9IjMuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0iTTI5IDQySDQxIiBzdHJva2U9IiM0Mjg1RjQiIHN0cm9rZS13aWR0aD0iMy4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
-        "versions": [
-          {
-            "version": "0.1.5",
-            "publishTimestamp": 1794113623,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.2-rc.1"
-            }
-          }
-        ]
-      },
-      "registrySha256": "a823394dec8686643e95f40afe419355fa4156084714d778a34335305b6e57c3",
-      "evidence": [
-        {
-          "name": "dsh-agents-cli",
-          "version": "0.1.5",
-          "tarball": "https://registry.npmjs.org/dsh-agents-cli/-/dsh-agents-cli-0.1.5.tgz",
-          "integrity": "sha512-4FBzUzZtO3yjPiyRisqBAvM09SUaHShriqgh8iFNC/qGJPCwjSwRca+XDTGfgskwHvpLDP5a4eCE53xB7oEKuQ=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-pi-mode",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-session-fee",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-session-labels",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-settings-customizer",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-speed-pair",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-zh-slash",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-quick-chat",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-agents-cli",
+      "target": "dsh-magpie-connect",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/fujingzhai/youxia-dsh-plugins",
-    "commit": "368e207200e78bf59981bc627428f492ee85a6d4",
-    "releaseTags": 49,
+    "url": "https://github.com/bitxeno/dsh-magpie-connect",
+    "commit": "399e813d14e2235da02bda5546b20e2822666213",
+    "releaseTags": 16,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:30:21.190Z"
+  "finishedAt": "2026-11-16T05:43:28.601Z"
 }

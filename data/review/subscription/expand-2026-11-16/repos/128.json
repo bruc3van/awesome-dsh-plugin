@@ -1,77 +1,131 @@
 {
-  "full_name": "yangbobo2021/relay-dsh-plugin-codex",
+  "full_name": "EarzuChan/DshVibeLearning",
   "originalPosition": 128,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 128,
   "batch": 1,
-  "stargazers_count": 22,
-  "startedAt": "2026-11-16T05:28:22.020Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:10.889Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "cae0b577f795ff5434562b6bccfc226edd1e130066d4ef7d225642e681a129a7",
-      "url": "https://github.com/yangbobo2021/relay-dsh-plugin-codex/blob/2fd9430181eb442c47b9cdb8faff6035fa3f803e/README.md",
+      "sha256": "19561357a7e0c9c2bd3467c8320c61f444f08dcdaf097d4f6e89d1f928513066",
+      "url": "https://github.com/EarzuChan/DshVibeLearning/blob/26b4b8a23a5a31e3aba4e7fe9885e4481a54e0d5/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "README.zh.md",
-      "sha256": "7d6847906beff2f32adf4f99972162256f2ffc3cb0d0b78a5c84bfbc8e7b53e2",
-      "url": "https://github.com/yangbobo2021/relay-dsh-plugin-codex/blob/2fd9430181eb442c47b9cdb8faff6035fa3f803e/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
+      "targets": [
+        {
+          "install": "dsh-vibe-learning",
+          "command": "dsh plugin --profile web add dsh-vibe-learning",
+          "profile": "web"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "relay-dsh-plugin-codex",
-      "version": "0.2.5-rc.1",
+      "name": "dsh-vibe-learning",
+      "version": "0.5.2",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/yangbobo2021/relay-dsh-plugin-codex",
-        "commit": "2fd9430181eb442c47b9cdb8faff6035fa3f803e"
+        "url": "https://github.com/EarzuChan/DshVibeLearning",
+        "commit": "26b4b8a23a5a31e3aba4e7fe9885e4481a54e0d5"
       },
-      "manifestSha256": "36f793fda02b1b54faa9bd9de377f50253df8d174dc62272ef48661458e1a5e1",
-      "manifestUrl": "https://github.com/yangbobo2021/relay-dsh-plugin-codex/blob/2fd9430181eb442c47b9cdb8faff6035fa3f803e/package.json",
+      "manifestSha256": "16b9b734a2d62129e574cd09ba8764a540801de93b91257cb65b3f78e50318c8",
+      "manifestUrl": "https://github.com/EarzuChan/DshVibeLearning/blob/26b4b8a23a5a31e3aba4e7fe9885e4481a54e0d5/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.1.1-rc.2 <0.1.2-0 || >=0.1.2-alpha.2 <0.1.3-0 || 0.1.5-rc.2 || 0.1.6-alpha.1",
+      "declaredRange": ">=0.2.2-alpha.2 <0.3.0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "relay-dsh-plugin-codex",
+        "name": "dsh-vibe-learning",
         "versions": [
           {
-            "version": "0.2.5-rc.1",
-            "publishTimestamp": 1789823015,
+            "version": "0.5.2",
+            "publishTimestamp": 1793772737,
             "source": {
               "type": "git",
-              "url": "https://github.com/yangbobo2021/relay-dsh-plugin-codex",
-              "commit": "2fd9430181eb442c47b9cdb8faff6035fa3f803e"
+              "url": "https://github.com/EarzuChan/DshVibeLearning",
+              "commit": "26b4b8a23a5a31e3aba4e7fe9885e4481a54e0d5"
             },
             "engines": {
-              "dsh": ">=0.1.1-rc.2 <0.1.2-0 || >=0.1.2-alpha.2 <0.1.3-0 || 0.1.5-rc.2 || 0.1.6-alpha.1"
+              "dsh": ">=0.2.2-alpha.2 <0.3.0"
             }
           }
         ]
       }
+    },
+    {
+      "target": "dsh-vibe-learning",
+      "origin": "npm",
+      "name": "dsh-vibe-learning",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-vibe-learning",
+        "title": "dsh-vibe-learning",
+        "description": "Vibe Learning，DeepSeek Harness 的一款氛围学习插件",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1793628638,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-alpha.2 <0.3.0"
+            }
+          },
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786637853,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6f46595daed9eedbed63526c3f86756d09d0ada579d3fb6fa497d9c2eb42c0c4",
+      "evidence": [
+        {
+          "name": "dsh-vibe-learning",
+          "version": "0.5.1",
+          "tarball": "https://registry.npmjs.org/dsh-vibe-learning/-/dsh-vibe-learning-0.5.1.tgz",
+          "integrity": "sha512-sidAB+8TUxJAcSzerifxxOrj4TrI8l/FwZ5t4v2m17TJ5RWhbTDXf4tI9VSradXRh87fd2w4Izl3K/Jd+RRGtw=="
+        },
+        {
+          "name": "dsh-vibe-learning",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-vibe-learning/-/dsh-vibe-learning-0.1.0.tgz",
+          "integrity": "sha512-GvjNUff8fuuHjNAF0XzRg6S2DELfHcUVVbjPp6YJeB606z7XFXGPtTkcpDMtp6iX9lCtnPdvziSsJL9AXAZ2nQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-vibe-learning",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/yangbobo2021/relay-dsh-plugin-codex",
-    "commit": "2fd9430181eb442c47b9cdb8faff6035fa3f803e",
-    "releaseTags": 25,
+    "url": "https://github.com/EarzuChan/DshVibeLearning",
+    "commit": "26b4b8a23a5a31e3aba4e7fe9885e4481a54e0d5",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:28:31.223Z"
+  "finishedAt": "2026-11-16T05:42:20.036Z"
 }

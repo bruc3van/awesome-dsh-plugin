@@ -1,58 +1,29 @@
 {
-  "full_name": "Burns1028/moa-plus",
+  "full_name": "joeseesun/qiaomu-ui-learn-dsh",
   "originalPosition": 22,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 22,
   "batch": 1,
-  "stargazers_count": 142,
-  "startedAt": "2026-11-16T05:25:03.887Z",
+  "stargazers_count": 85,
+  "startedAt": "2026-11-16T05:37:45.945Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
-  "readmes": [
-    {
-      "path": "README.md",
-      "sha256": "cd1d03a2e664ab259f909f81799f1fc5cc45ced74a15ba367bb50f1230c44914",
-      "url": "https://github.com/Burns1028/moa-plus/blob/1ced08bb97a6f1443fccb72437e7c3c94246bfa6/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "README.zh.md",
-      "sha256": "ffad6bcf5588a66ef48d08aef2817afc1078dc848f826b431d816754eeca53e2",
-      "url": "https://github.com/Burns1028/moa-plus/blob/1ced08bb97a6f1443fccb72437e7c3c94246bfa6/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    }
-  ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-plugin-project-mode",
-      "version": "0.2.9",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/Burns1028/moa-plus",
-        "commit": "1ced08bb97a6f1443fccb72437e7c3c94246bfa6"
-      },
-      "manifestSha256": "e508c2366a7db22e0f507625bd9f6734152f8301efa45e08d4bc1b5d86c4535b",
-      "manifestUrl": "https://github.com/Burns1028/moa-plus/blob/1ced08bb97a6f1443fccb72437e7c3c94246bfa6/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
-    }
-  ],
+  "readmes": [],
+  "candidates": [],
   "mappingFindings": [],
-  "errors": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/joeseesun/qiaomu-ui-learn-dsh/git/trees/4bb69c3e53803602c54d7b3112e8468aa457fe75?recursive=1\nGet \"https://api.github.com/repos/joeseesun/qiaomu-ui-learn-dsh/git/trees/4bb69c3e53803602c54d7b3112e8468aa457fe75?recursive=1\": Service Unavailable\n"
+    }
+  ],
   "repository": {
-    "url": "https://github.com/Burns1028/moa-plus",
-    "commit": "1ced08bb97a6f1443fccb72437e7c3c94246bfa6",
-    "releaseTags": 13,
+    "url": "https://github.com/joeseesun/qiaomu-ui-learn-dsh",
+    "commit": "f4b6a614c434cfa4a39b485d4cff17649e4cc239",
+    "releaseTags": 7,
     "reader": "github_objects_api"
   },
-  "discoveryWarnings": [],
-  "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:25:12.736Z"
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T05:37:57.755Z"
 }

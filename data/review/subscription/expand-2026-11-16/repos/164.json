@@ -1,42 +1,147 @@
 {
-  "full_name": "YMRYMR/deepseek-peak",
+  "full_name": "XINY11451/dsh-wsl",
   "originalPosition": 164,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 164,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:29:49.479Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:43:11.592Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "d19af0e9139fc52b268e192f4e26141a87ff6b3d937762b1dcfacf51e7630d39",
-      "url": "https://github.com/YMRYMR/deepseek-peak/blob/07fd9ff6106b671dbcfbb9efac4b433c779491d3/README.md",
+      "sha256": "0dfa7015410470c649fea797372e75871245ab0ada07fda5a38adf3d707d148d",
+      "url": "https://github.com/XINY11451/dsh-wsl/blob/2a4feb47aedaafc6a241e5adc169b12730a0ee82/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": []
+      "targets": [
+        {
+          "install": "dsh-wsl-tool",
+          "command": "dsh plugin add --profile <profile> dsh-wsl-tool",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "7262a887d6edaaea7e522c0e634ed014add8e9f0ffa347ea3afa7e7dca25c111",
+      "url": "https://github.com/XINY11451/dsh-wsl/blob/2a4feb47aedaafc6a241e5adc169b12730a0ee82/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wsl-tool",
+          "command": "dsh plugin add --profile <profile> dsh-wsl-tool",
+          "profile": "default"
+        }
+      ]
     }
   ],
-  "candidates": [],
-  "mappingFindings": [],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wsl-tool",
+      "version": "2.2.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XINY11451/dsh-wsl",
+        "commit": "2a4feb47aedaafc6a241e5adc169b12730a0ee82"
+      },
+      "manifestSha256": "89db571fb0c3d2bdddfe0c27db0925b57d3aaf0ba06425842ded289ed91dfd2f",
+      "manifestUrl": "https://github.com/XINY11451/dsh-wsl/blob/2a4feb47aedaafc6a241e5adc169b12730a0ee82/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-wsl-tool",
+        "versions": [
+          {
+            "version": "2.2.6",
+            "publishTimestamp": 1794144163,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/XINY11451/dsh-wsl",
+              "commit": "2a4feb47aedaafc6a241e5adc169b12730a0ee82"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-wsl-tool",
+      "origin": "npm",
+      "name": "dsh-wsl-tool",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-wsl-tool",
+        "title": "dsh-wsl-tool",
+        "description": "Extends the working range of DSH into WSL. Files in the distribution can be read, written, edited and searched by DSH directly. Depending on the task, the AI chooses for itself: run a one-off command, or open its own terminal and run several commands there to finish the job. Typing `dsh` in a WSL terminal calls DSH (type `dsh help` there for details), fusing WSL and DSH deeply. Every terminal you open can collaborate visually with the AI.",
+        "homepage": "https://github.com/XINY11451/dsh-wsl#readme",
+        "repository": {
+          "url": "https://github.com/XINY11451/dsh-wsl"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "wsl",
+            "windows",
+            "linux",
+            "shell",
+            "interop"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.2.6",
+            "publishTimestamp": 1794144290,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f018f2977b66da4a0f6bd3658ab6e416823474e99bff24662245265b36778ab8",
+      "evidence": [
+        {
+          "name": "dsh-wsl-tool",
+          "version": "2.2.6",
+          "tarball": "https://registry.npmjs.org/dsh-wsl-tool/-/dsh-wsl-tool-2.2.6.tgz",
+          "integrity": "sha512-GpqJEg7yIoqVaDl7ShyOBr9SkHo8KDG2aG9zzfwMfoHGPFtCV8IQk2+W3z1hRAbClIsqhVfIPS/kDToYLRmLZA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-wsl-tool",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/YMRYMR/deepseek-peak",
-    "commit": "07fd9ff6106b671dbcfbb9efac4b433c779491d3",
-    "releaseTags": 0,
+    "url": "https://github.com/XINY11451/dsh-wsl",
+    "commit": "2a4feb47aedaafc6a241e5adc169b12730a0ee82",
+    "releaseTags": 55,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "rootManifest": {
-    "name": "deepseek-peak",
-    "version": "0.1.0",
-    "dsh": null,
-    "engines": {
-      "node": ">=18"
-    }
-  },
-  "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:29:58.166Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:43:22.892Z"
 }

@@ -1,87 +1,40 @@
 {
-  "full_name": "kuroshio4396/dafayu-pixiv-duty",
+  "full_name": "Jensen-Yao/deepseek-harness-android-app",
   "originalPosition": 71,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 71,
   "batch": 1,
-  "stargazers_count": 44,
-  "startedAt": "2026-11-16T05:26:37.116Z",
+  "stargazers_count": 23,
+  "startedAt": "2026-11-16T05:40:04.040Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "3a97c2877b703dfeb575402646b675461aae81f73a422fb9952d55418591433c",
-      "url": "https://github.com/kuroshio4396/dafayu-pixiv-duty/blob/991a84f38ba9ba9dbdab4e20121f7eccd42ee544/README.md",
+      "sha256": "68ea9060de1efb6efd363039449c968fc8a151ce001295037ea30a7869d55d05",
+      "url": "https://github.com/Jensen-Yao/deepseek-harness-android-app/blob/c27eb2dbef83d707a4979371a4713d84ebd4c10d/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-pixiv-scroll",
-          "command": "dsh plugin --profile web add dsh-pixiv-scroll",
-          "profile": "web"
-        }
-      ]
+      "targets": []
     }
   ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-pixiv-scroll",
-      "version": "1.1.4",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/kuroshio4396/dafayu-pixiv-duty",
-        "commit": "991a84f38ba9ba9dbdab4e20121f7eccd42ee544"
-      },
-      "manifestSha256": "8f9b826306c10c6ebd66774c0f4d0ddbce75323df3cbf49b6fce1189ded64147",
-      "manifestUrl": "https://github.com/kuroshio4396/dafayu-pixiv-duty/blob/991a84f38ba9ba9dbdab4e20121f7eccd42ee544/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.2",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-pixiv-scroll",
-        "versions": [
-          {
-            "version": "1.1.4",
-            "publishTimestamp": 1794150324,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/kuroshio4396/dafayu-pixiv-duty",
-              "commit": "991a84f38ba9ba9dbdab4e20121f7eccd42ee544"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.2"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "dsh-pixiv-scroll",
-      "origin": "npm",
-      "status": "source_not_found",
-      "reason": "npm registry 404"
-    }
-  ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-pixiv-scroll",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "candidates": [],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/kuroshio4396/dafayu-pixiv-duty",
-    "commit": "991a84f38ba9ba9dbdab4e20121f7eccd42ee544",
-    "releaseTags": 0,
+    "url": "https://github.com/Jensen-Yao/deepseek-harness-android-app",
+    "commit": "c27eb2dbef83d707a4979371a4713d84ebd4c10d",
+    "releaseTags": 2,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:26:44.373Z"
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:40:10.531Z"
 }

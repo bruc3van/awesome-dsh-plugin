@@ -1,122 +1,92 @@
 {
-  "full_name": "cyijun/dsh-surfing-plugin",
+  "full_name": "luckui/dsh-game",
   "originalPosition": 145,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 145,
   "batch": 1,
-  "stargazers_count": 19,
-  "startedAt": "2026-11-16T05:28:58.587Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:38.701Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "d861226cb146eb1d1c8fa013ab9db2af60194ce8e61543f5978f377fe1b220e1",
-      "url": "https://github.com/cyijun/dsh-surfing-plugin/blob/40041327e552157bafcc9bba866925b775c1469d/README.md",
+      "sha256": "cf201a7697746145b9decc3e0907981be53cf3554213de74cdaddc4b3d26e108",
+      "url": "https://github.com/luckui/dsh-game/blob/a0cf8afa4bf90baf52b3067abe0530175e57f0b9/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-surfing-plugin",
-          "command": "dsh plugin --profile web add dsh-surfing-plugin",
-          "profile": "web"
-        },
-        {
-          "install": "https://github.com/cyijun/surfing-plugin#COMMIT_SHA",
-          "command": "dsh plugin --profile web add github:cyijun/surfing-plugin#COMMIT_SHA",
-          "profile": "web"
-        }
-      ]
+      "targets": []
     },
     {
-      "path": "README.zh.md",
-      "sha256": "a9e85438c4eaa1cbc2531a8c192a1ffced71e97f5f229e5d61920346340d244b",
-      "url": "https://github.com/cyijun/dsh-surfing-plugin/blob/40041327e552157bafcc9bba866925b775c1469d/README.zh.md",
+      "path": "packages/dsh-game/README.md",
+      "sha256": "e7869bd67585eb59a3489d430c73a397b4b31f22a8457eb59fec6ee87c8e0992",
+      "url": "https://github.com/luckui/dsh-game/blob/a0cf8afa4bf90baf52b3067abe0530175e57f0b9/packages/dsh-game/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-surfing-plugin",
-          "command": "dsh plugin --profile web add dsh-surfing-plugin",
-          "profile": "web"
-        },
-        {
-          "install": "https://github.com/cyijun/surfing-plugin#COMMIT_SHA",
-          "command": "dsh plugin --profile web add github:cyijun/surfing-plugin#COMMIT_SHA",
-          "profile": "web"
-        }
-      ]
+      "targets": []
+    },
+    {
+      "path": "packages/dsh-game/assets/werewolf/README.md",
+      "sha256": "c5d1688cc28f2c77d96d8a9947ce68e017fd7af3bb4e0e69a1ef92ade11592d2",
+      "url": "https://github.com/luckui/dsh-game/blob/a0cf8afa4bf90baf52b3067abe0530175e57f0b9/packages/dsh-game/assets/werewolf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/dsh-game/assets/minecraft/README.md",
+      "sha256": "48bd104e922a5233d8eeb73095fc3b1a2578ddd3306efd941a2cabf4f437eca1",
+      "url": "https://github.com/luckui/dsh-game/blob/a0cf8afa4bf90baf52b3067abe0530175e57f0b9/packages/dsh-game/assets/minecraft/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-surfing-plugin",
-      "version": "0.1.0",
-      "path": "",
+      "name": "dsh-game",
+      "version": "0.0.1",
+      "path": "packages/dsh-game",
       "source": {
         "type": "git",
-        "url": "https://github.com/cyijun/dsh-surfing-plugin",
-        "commit": "40041327e552157bafcc9bba866925b775c1469d"
+        "url": "https://github.com/luckui/dsh-game",
+        "commit": "a0cf8afa4bf90baf52b3067abe0530175e57f0b9",
+        "path": "packages/dsh-game"
       },
-      "manifestSha256": "87a181a0d0a5f9ed03d738df946321093cc532ed476cf86b51e7f340b54500f3",
-      "manifestUrl": "https://github.com/cyijun/dsh-surfing-plugin/blob/40041327e552157bafcc9bba866925b775c1469d/package.json",
+      "manifestSha256": "c7e9c503282a4dca7f2b5ee6f7a6f1a407818fd5a55b137a6ac2b0d3aa585b27",
+      "manifestUrl": "https://github.com/luckui/dsh-game/blob/a0cf8afa4bf90baf52b3067abe0530175e57f0b9/packages/dsh-game/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.1.0-rc.6",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
       "plugin": {
-        "name": "dsh-surfing-plugin",
+        "name": "dsh-game",
         "versions": [
           {
-            "version": "0.1.0",
-            "publishTimestamp": 1786700416,
+            "version": "0.0.1",
+            "publishTimestamp": 1792989706,
             "source": {
               "type": "git",
-              "url": "https://github.com/cyijun/dsh-surfing-plugin",
-              "commit": "40041327e552157bafcc9bba866925b775c1469d"
-            },
-            "engines": {
-              "dsh": "^0.1.0-rc.6"
+              "url": "https://github.com/luckui/dsh-game",
+              "commit": "a0cf8afa4bf90baf52b3067abe0530175e57f0b9",
+              "path": "packages/dsh-game"
             }
           }
         ]
       }
-    },
-    {
-      "target": "dsh-surfing-plugin",
-      "origin": "npm",
-      "status": "source_not_found",
-      "reason": "npm registry 404"
-    },
-    {
-      "target": "https://github.com/cyijun/surfing-plugin#COMMIT_SHA",
-      "status": "mapping_needs_review",
-      "code": "git_ref_not_found",
-      "reason": "指定 Git 引用不存在"
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-surfing-plugin",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "https://github.com/cyijun/surfing-plugin#COMMIT_SHA",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/cyijun/dsh-surfing-plugin",
-    "commit": "40041327e552157bafcc9bba866925b775c1469d",
+    "url": "https://github.com/luckui/dsh-game",
+    "commit": "a0cf8afa4bf90baf52b3067abe0530175e57f0b9",
     "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:29:09.404Z"
+  "finishedAt": "2026-11-16T05:42:54.519Z"
 }

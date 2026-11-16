@@ -1,171 +1,48 @@
 {
-  "full_name": "ChenJun25/dsh-console-hm",
+  "full_name": "JayZz210l/deepseek-harness-for-ide",
   "originalPosition": 196,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 196,
   "batch": 1,
-  "stargazers_count": 15,
-  "startedAt": "2026-11-16T05:31:01.048Z",
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T05:44:12.353Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "1e2cd1020503206eb2efc7446695bde4cfd75ba2cc299f4aeb9d0e7e478d753e",
-      "url": "https://github.com/ChenJun25/dsh-console-hm/blob/26d98dc2ed3cb7bede7f9471d2ed7fa5d8f7e68a/README.md",
+      "sha256": "d67c9f2d6a249976d0dde7a8ff9107dcb34cdc29687b41e52d452e08d2e234e0",
+      "url": "https://github.com/JayZz210l/deepseek-harness-for-ide/blob/84e6725af9f4b0519f3a2d8c06899d48c5880891/README.md",
       "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-console-hm",
-          "command": "dsh plugin --profile web add dsh-console-hm",
-          "profile": "web"
-        },
-        {
-          "install": "dsh-console-hm@latest",
-          "command": "dsh plugin --profile web add dsh-console-hm@latest --config.minimumReleaseAge=0",
-          "profile": "web"
-        }
-      ]
-    }
-  ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-console-hm",
-      "version": "0.5.86",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/ChenJun25/dsh-console-hm",
-        "commit": "26d98dc2ed3cb7bede7f9471d2ed7fa5d8f7e68a"
-      },
-      "manifestSha256": "9011e8e99bc56af3ac1920f522cb3c36035d40b1c593c219111e909f663100f2",
-      "manifestUrl": "https://github.com/ChenJun25/dsh-console-hm/blob/26d98dc2ed3cb7bede7f9471d2ed7fa5d8f7e68a/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.1.0-rc.5",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true,
-      "plugin": {
-        "name": "dsh-console-hm",
-        "versions": [
-          {
-            "version": "0.5.86",
-            "publishTimestamp": 1794761289,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/ChenJun25/dsh-console-hm",
-              "commit": "26d98dc2ed3cb7bede7f9471d2ed7fa5d8f7e68a"
-            },
-            "engines": {
-              "dsh": ">=0.1.0-rc.5"
-            }
-          }
-        ]
-      }
+      "localOnly": true,
+      "targets": []
     },
     {
-      "target": "dsh-console-hm",
-      "origin": "npm",
-      "name": "dsh-console-hm",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-console-hm",
-        "title": "dsh-console-hm",
-        "description": "DSH控制台面板：在 DSH 设置里显示扫码配对面板，手机扫一下就连上这台电脑的 DSH。",
-        "author": "CJ",
-        "repository": {
-          "url": "https://github.com/ChenJun25/dsh-console-hm"
-        },
-        "versions": [
-          {
-            "version": "0.5.86",
-            "publishTimestamp": 1794762057,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.1.0-rc.5"
-            }
-          }
-        ]
-      },
-      "registrySha256": "42e9eec13bd20a3d7b7c6ef3083b3ae4af9589f64544413850d768b7361ee040",
-      "evidence": [
-        {
-          "name": "dsh-console-hm",
-          "version": "0.5.86",
-          "tarball": "https://registry.npmjs.org/dsh-console-hm/-/dsh-console-hm-0.5.86.tgz",
-          "integrity": "sha512-iE5y9Q4f6LNRONyJvdz0Of0NVMm9h5Fhg5EBqRK2h2NzpQmy6QXnvoEmiokidbrQ1KEAIAhpu4GStCylZ5RILA=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true
-    },
-    {
-      "target": "dsh-console-hm@latest",
-      "origin": "npm",
-      "name": "dsh-console-hm",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-console-hm",
-        "title": "dsh-console-hm",
-        "description": "DSH控制台面板：在 DSH 设置里显示扫码配对面板，手机扫一下就连上这台电脑的 DSH。",
-        "author": "CJ",
-        "repository": {
-          "url": "https://github.com/ChenJun25/dsh-console-hm"
-        },
-        "versions": [
-          {
-            "version": "0.5.86",
-            "publishTimestamp": 1794762057,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.1.0-rc.5"
-            }
-          }
-        ]
-      },
-      "registrySha256": "42e9eec13bd20a3d7b7c6ef3083b3ae4af9589f64544413850d768b7361ee040",
-      "evidence": [
-        {
-          "name": "dsh-console-hm",
-          "version": "0.5.86",
-          "tarball": "https://registry.npmjs.org/dsh-console-hm/-/dsh-console-hm-0.5.86.tgz",
-          "integrity": "sha512-iE5y9Q4f6LNRONyJvdz0Of0NVMm9h5Fhg5EBqRK2h2NzpQmy6QXnvoEmiokidbrQ1KEAIAhpu4GStCylZ5RILA=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true
+      "path": "README.en.md",
+      "sha256": "79571d64889a1cc3275bfe64ca47c53b4358eba414d23071918c2687bb32760b",
+      "url": "https://github.com/JayZz210l/deepseek-harness-for-ide/blob/84e6725af9f4b0519f3a2d8c06899d48c5880891/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-console-hm",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-console-hm@latest",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "candidates": [],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/ChenJun25/dsh-console-hm",
-    "commit": "26d98dc2ed3cb7bede7f9471d2ed7fa5d8f7e68a",
-    "releaseTags": 2,
+    "url": "https://github.com/JayZz210l/deepseek-harness-for-ide",
+    "commit": "84e6725af9f4b0519f3a2d8c06899d48c5880891",
+    "releaseTags": 25,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:31:21.943Z"
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-16T05:44:19.981Z"
 }

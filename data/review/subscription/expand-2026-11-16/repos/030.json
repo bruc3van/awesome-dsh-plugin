@@ -1,66 +1,23 @@
 {
-  "full_name": "cpj-dev/dsh-plugin-cc",
+  "full_name": "lzszq/dsh-scholar",
   "originalPosition": 30,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 30,
   "batch": 1,
-  "stargazers_count": 104,
-  "startedAt": "2026-11-16T05:25:20.068Z",
+  "stargazers_count": 57,
+  "startedAt": "2026-11-16T05:37:57.757Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
-  "readmes": [
-    {
-      "path": "README.md",
-      "sha256": "d233cd73cf6f9b94ca634288e2d86711c93d774737a04e2ee1e9dc4f0493052c",
-      "url": "https://github.com/cpj-dev/dsh-plugin-cc/blob/ffa8e8599d45582b1c73062cefcb9fcd40c69a72/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "README.zh-CN.md",
-      "sha256": "37b6e63f1fea1051484001967d067ca4d1844dbb502f447c899e4c31bbf9e8b2",
-      "url": "https://github.com/cpj-dev/dsh-plugin-cc/blob/ffa8e8599d45582b1c73062cefcb9fcd40c69a72/README.zh-CN.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "docs/README.md",
-      "sha256": "9c66e4e06c0a47a500695ed16c949087fac8fd2e27ac998cb52a5ca5c8b8b369",
-      "url": "https://github.com/cpj-dev/dsh-plugin-cc/blob/ffa8e8599d45582b1c73062cefcb9fcd40c69a72/docs/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "docs/zh-CN/README.md",
-      "sha256": "e19543d903450a70a7386e814aab17f8b50d792a31823b7358344fde6c972139",
-      "url": "https://github.com/cpj-dev/dsh-plugin-cc/blob/ffa8e8599d45582b1c73062cefcb9fcd40c69a72/docs/zh-CN/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    }
-  ],
+  "readmes": [],
   "candidates": [],
   "mappingFindings": [],
-  "errors": [],
-  "repository": {
-    "url": "https://github.com/cpj-dev/dsh-plugin-cc",
-    "commit": "ffa8e8599d45582b1c73062cefcb9fcd40c69a72",
-    "releaseTags": 3,
-    "reader": "github_objects_api"
-  },
-  "discoveryWarnings": [],
-  "rootManifest": {
-    "name": "dsh-plugin-cc",
-    "version": "2.0.2",
-    "dsh": null,
-    "engines": {
-      "node": ">=20"
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: git -c core.hooksPath=/dev/null -c core.fsmonitor=false -c submodule.recurse=false -c gc.auto=0 -c maintenance.auto=false -c protocol.allow=never -c protocol.https.allow=always ls-remote -- https://github.com/lzszq/dsh-scholar HEAD refs/tags/*\nfatal: unable to access 'https://github.com/lzszq/dsh-scholar/': CONNECT tunnel failed, response 503\n"
     }
-  },
-  "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:25:32.449Z"
+  ],
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T05:37:58.226Z"
 }

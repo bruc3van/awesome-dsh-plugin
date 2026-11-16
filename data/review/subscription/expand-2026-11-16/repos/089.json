@@ -1,25 +1,39 @@
 {
-  "full_name": "SenmuuuuW/dsh-whale-report",
+  "full_name": "Mars-Sea/dsh-deeppilot",
   "originalPosition": 89,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 89,
   "batch": 1,
-  "stargazers_count": 31,
-  "startedAt": "2026-11-16T05:27:04.673Z",
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T05:40:46.313Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "d53838274c0e95278bc7308f90b10dac9e6c1c27133bc14f969292c662891fc4",
-      "url": "https://github.com/SenmuuuuW/dsh-whale-report/blob/a20003e6ddbd4352846bfbf6ad105127bfcc2ec4/README.md",
+      "sha256": "b148223897bbab178a8c13eedfd7d439b9e89cba1a7fe66a9537b519a4d1acdf",
+      "url": "https://github.com/Mars-Sea/dsh-deeppilot/blob/6e60ffcc7422256ea8151518411576dc81f0789d/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/SenmuuuuW/dsh-whale-report",
-          "command": "dsh plugin --profile web add \"github:SenmuuuuW/dsh-whale-report\"",
+          "install": "dsh-deeppilot",
+          "command": "dsh plugin --profile web add dsh-deeppilot",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "e8be119a5ef24cb433d31285dd6227ebc88640ac886cd35e682ba1b8ca674c3f",
+      "url": "https://github.com/Mars-Sea/dsh-deeppilot/blob/6e60ffcc7422256ea8151518411576dc81f0789d/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deeppilot",
+          "command": "dsh plugin --profile web add dsh-deeppilot",
           "profile": "web"
         }
       ]
@@ -28,33 +42,33 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-whale-report",
-      "version": "0.6.1",
+      "name": "dsh-deeppilot",
+      "version": "0.9.24",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/SenmuuuuW/dsh-whale-report",
-        "commit": "a20003e6ddbd4352846bfbf6ad105127bfcc2ec4"
+        "url": "https://github.com/Mars-Sea/dsh-deeppilot",
+        "commit": "6e60ffcc7422256ea8151518411576dc81f0789d"
       },
-      "manifestSha256": "4a2c183c9685c88546d020c9f34c4ad247a19bda7311e074809c72c3c00bf059",
-      "manifestUrl": "https://github.com/SenmuuuuW/dsh-whale-report/blob/a20003e6ddbd4352846bfbf6ad105127bfcc2ec4/package.json",
+      "manifestSha256": "96aeb02af713e9445c9453370ffba4c15b45477895e127745f083acbe354bdb9",
+      "manifestUrl": "https://github.com/Mars-Sea/dsh-deeppilot/blob/6e60ffcc7422256ea8151518411576dc81f0789d/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.1.1-rc.2 <0.2.0",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0-0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-whale-report",
+        "name": "dsh-deeppilot",
         "versions": [
           {
-            "version": "0.6.1",
-            "publishTimestamp": 1788413469,
+            "version": "0.9.24",
+            "publishTimestamp": 1794800180,
             "source": {
               "type": "git",
-              "url": "https://github.com/SenmuuuuW/dsh-whale-report",
-              "commit": "a20003e6ddbd4352846bfbf6ad105127bfcc2ec4"
+              "url": "https://github.com/Mars-Sea/dsh-deeppilot",
+              "commit": "6e60ffcc7422256ea8151518411576dc81f0789d"
             },
             "engines": {
-              "dsh": ">=0.1.1-rc.2 <0.2.0"
+              "dsh": ">=0.2.1-rc.5 <0.3.0-0"
             }
           }
         ]
@@ -64,18 +78,24 @@
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "https://github.com/SenmuuuuW/dsh-whale-report",
+      "target": "dsh-deeppilot",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "stage": "install_target",
+      "target": "dsh-deeppilot",
+      "reason": "The operation was aborted due to timeout"
+    }
+  ],
   "repository": {
-    "url": "https://github.com/SenmuuuuW/dsh-whale-report",
-    "commit": "a20003e6ddbd4352846bfbf6ad105127bfcc2ec4",
-    "releaseTags": 10,
+    "url": "https://github.com/Mars-Sea/dsh-deeppilot",
+    "commit": "6e60ffcc7422256ea8151518411576dc81f0789d",
+    "releaseTags": 44,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:27:11.886Z"
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T05:41:56.203Z"
 }

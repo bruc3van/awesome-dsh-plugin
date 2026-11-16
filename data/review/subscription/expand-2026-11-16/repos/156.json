@@ -1,69 +1,191 @@
 {
-  "full_name": "yembors64632/dsh-connect",
+  "full_name": "EliteOtaku/dsh-opendesign-go",
   "originalPosition": 156,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 156,
   "batch": 1,
-  "stargazers_count": 18,
-  "startedAt": "2026-11-16T05:29:22.254Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:42:57.661Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "575cda63dc10fa29b1a342291fd790aae80f298850214f14540ef95222699638",
-      "url": "https://github.com/yembors64632/dsh-connect/blob/86a6968614d43712bc310f047d52da5c08ffdb13/README.md",
+      "sha256": "fb92185bd9b0cd7e3c3e25816ba5a33836c808abe47910782f6fafcba2cccc92",
+      "url": "https://github.com/EliteOtaku/dsh-opendesign-go/blob/0521fd1e99dcb01515b6a47358b4210c0d3182be/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": []
+      "targets": [
+        {
+          "install": "dsh-opendesign-go",
+          "command": "dsh plugin --profile web add dsh-opendesign-go",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-opendesign-go@latest",
+          "command": "dsh plugin --profile web add dsh-opendesign-go@latest",
+          "profile": "web"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-connect",
-      "version": "0.2.0",
+      "name": "dsh-opendesign-go",
+      "version": "0.1.24",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/yembors64632/dsh-connect",
-        "commit": "86a6968614d43712bc310f047d52da5c08ffdb13"
+        "url": "https://github.com/EliteOtaku/dsh-opendesign-go",
+        "commit": "0521fd1e99dcb01515b6a47358b4210c0d3182be"
       },
-      "manifestSha256": "a590c2d73a3fb53463ef51c437794c0848a80fa0a5e2e6b8fab97cfd4740cda9",
-      "manifestUrl": "https://github.com/yembors64632/dsh-connect/blob/86a6968614d43712bc310f047d52da5c08ffdb13/package.json",
+      "manifestSha256": "9b1911c0eb30869c0caacf55f95e8b318b36b624b9822ed4b45dd5ed0e155017",
+      "manifestUrl": "https://github.com/EliteOtaku/dsh-opendesign-go/blob/0521fd1e99dcb01515b6a47358b4210c0d3182be/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1",
+      "declaredRange": ">=0.2.0-rc.1",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-connect",
+        "name": "dsh-opendesign-go",
         "versions": [
           {
-            "version": "0.2.0",
-            "publishTimestamp": 1790585115,
+            "version": "0.1.24",
+            "publishTimestamp": 1794404850,
             "source": {
               "type": "git",
-              "url": "https://github.com/yembors64632/dsh-connect",
-              "commit": "86a6968614d43712bc310f047d52da5c08ffdb13"
+              "url": "https://github.com/EliteOtaku/dsh-opendesign-go",
+              "commit": "0521fd1e99dcb01515b6a47358b4210c0d3182be"
             },
             "engines": {
-              "dsh": "^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1"
+              "dsh": ">=0.2.0-rc.1"
             }
           }
         ]
       }
+    },
+    {
+      "target": "dsh-opendesign-go",
+      "origin": "npm",
+      "name": "dsh-opendesign-go",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-opendesign-go",
+        "title": "dsh-opendesign-go",
+        "description": "OpenDesign Go plan model provider, usage display and account management for DeepSeek Harness",
+        "homepage": "https://github.com/EliteOtaku/dsh-opendesign-go#readme",
+        "repository": {
+          "url": "https://github.com/EliteOtaku/dsh-opendesign-go"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh",
+            "opendesign",
+            "llm",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.24",
+            "publishTimestamp": 1794405696,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4191b0bf68632c3284d49b7f27ebf6aa854aea2332ff939ebb0f88b4972c98dc",
+      "evidence": [
+        {
+          "name": "dsh-opendesign-go",
+          "version": "0.1.24",
+          "tarball": "https://registry.npmjs.org/dsh-opendesign-go/-/dsh-opendesign-go-0.1.24.tgz",
+          "integrity": "sha512-3HkiLNsi+ZRb7aOuN0QHq5K89wzK+1izAHvpvkv7JV93AAMGS+yn5yHshk8QV0MnKmlfCO5Z8aaOsn1EUJiaww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-opendesign-go@latest",
+      "origin": "npm",
+      "name": "dsh-opendesign-go",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-opendesign-go",
+        "title": "dsh-opendesign-go",
+        "description": "OpenDesign Go plan model provider, usage display and account management for DeepSeek Harness",
+        "homepage": "https://github.com/EliteOtaku/dsh-opendesign-go#readme",
+        "repository": {
+          "url": "https://github.com/EliteOtaku/dsh-opendesign-go"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh",
+            "opendesign",
+            "llm",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.24",
+            "publishTimestamp": 1794405696,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4191b0bf68632c3284d49b7f27ebf6aa854aea2332ff939ebb0f88b4972c98dc",
+      "evidence": [
+        {
+          "name": "dsh-opendesign-go",
+          "version": "0.1.24",
+          "tarball": "https://registry.npmjs.org/dsh-opendesign-go/-/dsh-opendesign-go-0.1.24.tgz",
+          "integrity": "sha512-3HkiLNsi+ZRb7aOuN0QHq5K89wzK+1izAHvpvkv7JV93AAMGS+yn5yHshk8QV0MnKmlfCO5Z8aaOsn1EUJiaww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-opendesign-go",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-opendesign-go@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/yembors64632/dsh-connect",
-    "commit": "86a6968614d43712bc310f047d52da5c08ffdb13",
-    "releaseTags": 0,
+    "url": "https://github.com/EliteOtaku/dsh-opendesign-go",
+    "commit": "0521fd1e99dcb01515b6a47358b4210c0d3182be",
+    "releaseTags": 21,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:29:29.573Z"
+  "finishedAt": "2026-11-16T05:43:07.935Z"
 }

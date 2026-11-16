@@ -1,54 +1,59 @@
 {
-  "full_name": "lusblead/dsh-Kingdom",
+  "full_name": "DandanLLab/dsh-channel-qq",
   "originalPosition": 190,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 190,
   "batch": 1,
-  "stargazers_count": 16,
-  "startedAt": "2026-11-16T05:30:45.260Z",
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T05:44:02.876Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "ea7ff79e3b13296849f4b93856085f796a68e2d45eb03056cfff303308ac4035",
-      "url": "https://github.com/lusblead/dsh-Kingdom/blob/8d6a3f5e97af8878e30b4cc734e4762f15439fcd/README.md",
+      "sha256": "39172d9e4cb37d77c2ec8b0f059940fdb5c9af51d762731d36adaa3ee7ebd804",
+      "url": "https://github.com/DandanLLab/dsh-channel-qq/blob/f33debe51816db93edaa645a572ebe2b3fe440ce/README.md",
       "ambiguous": false,
-      "localOnly": true,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/modules/README.md",
+      "sha256": "e06e3afd68d3a124713de9863267038e9312ab9ea73ffef383a5164ab2b67080",
+      "url": "https://github.com/DandanLLab/dsh-channel-qq/blob/f33debe51816db93edaa645a572ebe2b3fe440ce/docs/modules/README.md",
+      "ambiguous": false,
+      "localOnly": false,
       "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-kingdom",
-      "version": "3.3.0",
+      "name": "dsh-channel-qq",
+      "version": "0.3.5",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/lusblead/dsh-Kingdom",
-        "commit": "8d6a3f5e97af8878e30b4cc734e4762f15439fcd"
+        "url": "https://github.com/DandanLLab/dsh-channel-qq",
+        "commit": "f33debe51816db93edaa645a572ebe2b3fe440ce"
       },
-      "manifestSha256": "95beb86e00400257373a21cef46545282bac204b1ecf7fd78e23cfaf769f8f22",
-      "manifestUrl": "https://github.com/lusblead/dsh-Kingdom/blob/8d6a3f5e97af8878e30b4cc734e4762f15439fcd/package.json",
+      "manifestSha256": "7e06a4fea172bf493f2c7f3e36e6191f18c24f2942d4ea348b297e6ecd107cf3",
+      "manifestUrl": "https://github.com/DandanLLab/dsh-channel-qq/blob/f33debe51816db93edaa645a572ebe2b3fe440ce/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.1.5-rc.1 <0.1.6-0 >=0.1.5-rc.2 || >=0.1.7-0 <0.1.8-0",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
       "plugin": {
-        "name": "dsh-kingdom",
+        "name": "dsh-channel-qq",
         "versions": [
           {
-            "version": "3.3.0",
-            "publishTimestamp": 1791897450,
+            "version": "0.3.5",
+            "publishTimestamp": 1794159685,
             "source": {
               "type": "git",
-              "url": "https://github.com/lusblead/dsh-Kingdom",
-              "commit": "8d6a3f5e97af8878e30b4cc734e4762f15439fcd"
-            },
-            "engines": {
-              "dsh": ">=0.1.5-rc.1 <0.1.6-0 >=0.1.5-rc.2 || >=0.1.7-0 <0.1.8-0"
+              "url": "https://github.com/DandanLLab/dsh-channel-qq",
+              "commit": "f33debe51816db93edaa645a572ebe2b3fe440ce"
             }
           }
         ]
@@ -58,12 +63,12 @@
   "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/lusblead/dsh-Kingdom",
-    "commit": "8d6a3f5e97af8878e30b4cc734e4762f15439fcd",
-    "releaseTags": 17,
+    "url": "https://github.com/DandanLLab/dsh-channel-qq",
+    "commit": "f33debe51816db93edaa645a572ebe2b3fe440ce",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:30:53.207Z"
+  "finishedAt": "2026-11-16T05:44:12.352Z"
 }

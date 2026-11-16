@@ -1,160 +1,29 @@
 {
-  "full_name": "lijiaqi-AI-Product-Manager/dsh-agent-compare",
+  "full_name": "Burns1028/moa-plus",
   "originalPosition": 9,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 9,
   "batch": 1,
-  "stargazers_count": 425,
-  "startedAt": "2026-11-16T05:24:31.696Z",
+  "stargazers_count": 142,
+  "startedAt": "2026-11-16T05:36:39.441Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
-  "readmes": [
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
     {
-      "path": "README.md",
-      "sha256": "9f68db3389ce7d7fd95410c74b12222da570bf291971c4d341b3b960725e62cb",
-      "url": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/blob/2fd22254264bb3db3fdddf5c8814d2e7fac88202/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-agent-compare",
-          "command": "dsh plugin --profile web add dsh-agent-compare",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.zh.md",
-      "sha256": "6f43d24877987ff22df688ef46ecc85b8565b0db813436c5457f5c8b43e47e12",
-      "url": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/blob/2fd22254264bb3db3fdddf5c8814d2e7fac88202/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "README.en.md",
-      "sha256": "9293373065db0bc377254a5c9d475bdbc07473e91f521696942b48e2c75095b3",
-      "url": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/blob/2fd22254264bb3db3fdddf5c8814d2e7fac88202/README.en.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-agent-compare",
-          "command": "dsh plugin --profile web add dsh-agent-compare",
-          "profile": "web"
-        }
-      ]
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/Burns1028/moa-plus/git/trees/1e8eae33b05b2b4d75ef7a73215e12422a7949b2?recursive=1\n"
     }
   ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-agent-compare",
-      "version": "3.1.0",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare",
-        "commit": "2fd22254264bb3db3fdddf5c8814d2e7fac88202"
-      },
-      "manifestSha256": "2a7f5acb67111242b33ee1f00b9e135e4db81bf456112cfd6f92418ec1a80d59",
-      "manifestUrl": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/blob/2fd22254264bb3db3fdddf5c8814d2e7fac88202/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.3 <0.3.0-0",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-agent-compare",
-        "versions": [
-          {
-            "version": "3.1.0",
-            "publishTimestamp": 1794803287,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare",
-              "commit": "2fd22254264bb3db3fdddf5c8814d2e7fac88202"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.3 <0.3.0-0"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "dsh-agent-compare",
-      "origin": "npm",
-      "name": "dsh-agent-compare",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-agent-compare",
-        "title": "dsh-agent-compare",
-        "description": "让同一想法，长出更多实现方案！在 DSH 主对话里比较回答、文件与网页，选风格，盲选或公开对比，再审查采用。Compare 2–4 answers, files or live pages in DeepSeek Harness (DSH) Desktop and Web, then review and adopt.",
-        "homepage": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare#readme",
-        "repository": {
-          "url": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh",
-            "dsh-plugin",
-            "deepseek-harness",
-            "parallel-agents",
-            "git-worktree",
-            "live-preview",
-            "blind-test",
-            "code-comparison",
-            "vite",
-            "react",
-            "frontend-tools",
-            "ab-testing",
-            "workflow"
-          ]
-        },
-        "versions": [
-          {
-            "version": "3.1.0",
-            "publishTimestamp": 1794805234,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.3 <0.3.0-0"
-            }
-          }
-        ]
-      },
-      "registrySha256": "a8849ba733bf370edd253f4109e674e2c3ddab38fe74e9fa2831e70a9ac654bc",
-      "evidence": [
-        {
-          "name": "dsh-agent-compare",
-          "version": "3.1.0",
-          "tarball": "https://registry.npmjs.org/dsh-agent-compare/-/dsh-agent-compare-3.1.0.tgz",
-          "integrity": "sha512-S/mjgQQwUD/74GIcM8s8V72leipA2WNga+t7WTWWMmBx5/nU5mmCDFCeMLYMYM2Jb2whbIWdx2PiSM0rEihbOA=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
-    }
-  ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-agent-compare",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
-  "errors": [],
   "repository": {
-    "url": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare",
-    "commit": "2fd22254264bb3db3fdddf5c8814d2e7fac88202",
-    "releaseTags": 7,
+    "url": "https://github.com/Burns1028/moa-plus",
+    "commit": "1ced08bb97a6f1443fccb72437e7c3c94246bfa6",
+    "releaseTags": 13,
     "reader": "github_objects_api"
   },
-  "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:24:43.902Z"
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T05:37:47.938Z"
 }

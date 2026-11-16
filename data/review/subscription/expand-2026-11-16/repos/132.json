@@ -1,76 +1,66 @@
 {
-  "full_name": "LuYanFCP/dsh-kicad",
+  "full_name": "LesterTown/dsh-scene-skeleton-pipeline",
   "originalPosition": 132,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 132,
   "batch": 1,
-  "stargazers_count": 21,
-  "startedAt": "2026-11-16T05:28:27.173Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:15.586Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "cfcdd847070648505edfc25b1c1fcb3939cf7327c52dab761248cb5e288d18c6",
-      "url": "https://github.com/LuYanFCP/dsh-kicad/blob/e0f1d21a5de694eed1a9571f6440692543dc5970/README.md",
+      "sha256": "e6244b9a811630ff7ac17e7df604899ed688307db352450fadf6a3c146b80724",
+      "url": "https://github.com/LesterTown/dsh-scene-skeleton-pipeline/blob/a1da7959ce6926a68a7c0db2ce4610757fdbf41d/README.md",
       "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "https://github.com/LuYanFCP/dsh-kicad",
-          "command": "dsh plugin --profile web add https://github.com/LuYanFCP/dsh-kicad",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.zh.md",
-      "sha256": "5977820904a715da9ff527d637701cc06822d1ec42943486711d1b54c535bc8c",
-      "url": "https://github.com/LuYanFCP/dsh-kicad/blob/e0f1d21a5de694eed1a9571f6440692543dc5970/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "https://github.com/LuYanFCP/dsh-kicad",
-          "command": "dsh plugin --profile web add https://github.com/LuYanFCP/dsh-kicad",
-          "profile": "web"
-        }
-      ]
+      "localOnly": true,
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-kicad",
-      "version": "0.6.0",
+      "name": "dsh-scene-skeleton-pipeline",
+      "version": "0.1.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/LuYanFCP/dsh-kicad",
-        "commit": "e0f1d21a5de694eed1a9571f6440692543dc5970"
+        "url": "https://github.com/LesterTown/dsh-scene-skeleton-pipeline",
+        "commit": "a1da7959ce6926a68a7c0db2ce4610757fdbf41d"
       },
-      "manifestSha256": "de61df21d62e6513bd6cd7a69edfa5110c1a8ac7ac6bd97a5c15db9ff32e48bc",
-      "manifestUrl": "https://github.com/LuYanFCP/dsh-kicad/blob/e0f1d21a5de694eed1a9571f6440692543dc5970/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
+      "manifestSha256": "b238f6fdee672477c1f7875e0672be7a8f00087c4aa230d322421b5d74c4ef86",
+      "manifestUrl": "https://github.com/LesterTown/dsh-scene-skeleton-pipeline/blob/a1da7959ce6926a68a7c0db2ce4610757fdbf41d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-scene-skeleton-pipeline",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794404237,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LesterTown/dsh-scene-skeleton-pipeline",
+              "commit": "a1da7959ce6926a68a7c0db2ce4610757fdbf41d"
+            }
+          }
+        ]
+      }
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "https://github.com/LuYanFCP/dsh-kicad",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/LuYanFCP/dsh-kicad",
-    "commit": "e0f1d21a5de694eed1a9571f6440692543dc5970",
+    "url": "https://github.com/LesterTown/dsh-scene-skeleton-pipeline",
+    "commit": "a1da7959ce6926a68a7c0db2ce4610757fdbf41d",
     "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:28:37.166Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:42:23.651Z"
 }

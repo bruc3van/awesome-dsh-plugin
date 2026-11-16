@@ -1,107 +1,56 @@
 {
-  "full_name": "gosomea/dsh-bigfish",
+  "full_name": "zimodzh/dsh-plugin-dev-skills",
   "originalPosition": 100,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 100,
   "batch": 1,
-  "stargazers_count": 28,
-  "startedAt": "2026-11-16T05:27:20.805Z",
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T05:41:12.242Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "f1e6f53498080a122e60ce382a9470cfb1b630a5a46033f81f5254f77060ee6b",
-      "url": "https://github.com/gosomea/dsh-bigfish/blob/a5d4451b8553c2915853970e82e6d962198511f9/README.md",
+      "sha256": "a52782c0d26eb89e40dd087b95f7589953bb971fcf0e636b149866517f3ea591",
+      "url": "https://github.com/zimodzh/dsh-plugin-dev-skills/blob/71e911327a9e0160d014c87530e8e3836c2b38db/README.md",
       "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-bigfish",
-          "command": "dsh plugin --profile web add dsh-bigfish",
-          "profile": "web"
-        },
-        {
-          "install": "dsh-bigfish@0.7.0-next.1",
-          "command": "dsh plugin --profile web add dsh-bigfish@0.7.0-next.1",
-          "profile": "web"
-        }
-      ]
+      "localOnly": true,
+      "targets": []
     },
     {
-      "path": "assets/intelligent-pet/README.md",
-      "sha256": "e40f347ba9004f7eb01d025bb2ddaedfceea262abb1efc5ae032f959d9a30f8c",
-      "url": "https://github.com/gosomea/dsh-bigfish/blob/a5d4451b8553c2915853970e82e6d962198511f9/assets/intelligent-pet/README.md",
+      "path": "evals/README.md",
+      "sha256": "d94e23e83a2b4786e1f3681a35a1c401513f136c96a2d4e8b5ef7d24141b3b16",
+      "url": "https://github.com/zimodzh/dsh-plugin-dev-skills/blob/71e911327a9e0160d014c87530e8e3836c2b38db/evals/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": []
-    }
-  ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-bigfish",
-      "version": "0.7.0-next.1",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/gosomea/dsh-bigfish",
-        "commit": "a5d4451b8553c2915853970e82e6d962198511f9"
-      },
-      "manifestSha256": "de10e08a178d0e69063214396d9d610657000df0c0a7935fbf056bfd8602d85b",
-      "manifestUrl": "https://github.com/gosomea/dsh-bigfish/blob/a5d4451b8553c2915853970e82e6d962198511f9/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": null,
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null,
-      "plugin": {
-        "name": "dsh-bigfish",
-        "versions": [
-          {
-            "version": "0.7.0-next.1",
-            "publishTimestamp": 1794452078,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/gosomea/dsh-bigfish",
-              "commit": "a5d4451b8553c2915853970e82e6d962198511f9"
-            }
-          }
-        ]
-      }
-    }
-  ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-bigfish",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     },
     {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-bigfish@0.7.0-next.1",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+      "path": "examples/README.md",
+      "sha256": "2d01d90ac45c73bd94c566cfd39967a011cea8a76cf3c06ad283b2ddac2b5c9a",
+      "url": "https://github.com/zimodzh/dsh-plugin-dev-skills/blob/71e911327a9e0160d014c87530e8e3836c2b38db/examples/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
     }
   ],
-  "errors": [
-    {
-      "stage": "install_target",
-      "target": "dsh-bigfish",
-      "reason": "The operation was aborted due to timeout"
-    },
-    {
-      "stage": "install_target",
-      "target": "dsh-bigfish@0.7.0-next.1",
-      "reason": "The operation was aborted due to timeout"
-    }
-  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
   "repository": {
-    "url": "https://github.com/gosomea/dsh-bigfish",
-    "commit": "a5d4451b8553c2915853970e82e6d962198511f9",
-    "releaseTags": 7,
+    "url": "https://github.com/zimodzh/dsh-plugin-dev-skills",
+    "commit": "71e911327a9e0160d014c87530e8e3836c2b38db",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "retry_required",
-  "finishedAt": "2026-11-16T05:29:30.291Z"
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-16T05:41:21.584Z"
 }

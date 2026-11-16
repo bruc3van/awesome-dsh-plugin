@@ -1,58 +1,42 @@
 {
-  "full_name": "joeseesun/qiaomu-ui-learn-dsh",
+  "full_name": "morluto/gitcontribute",
   "originalPosition": 43,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 43,
   "batch": 1,
-  "stargazers_count": 85,
-  "startedAt": "2026-11-16T05:25:49.055Z",
+  "stargazers_count": 37,
+  "startedAt": "2026-11-16T05:38:47.257Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "e45b886ce5f6d7cfc6c75f14292003079c01a948438d4e766da5b854574ca362",
-      "url": "https://github.com/joeseesun/qiaomu-ui-learn-dsh/blob/f4b6a614c434cfa4a39b485d4cff17649e4cc239/README.md",
+      "sha256": "69f85df6d110a85e9d1d445f808886e2a2e50750badb53170f9c1643165e37d8",
+      "url": "https://github.com/morluto/gitcontribute/blob/2c719afc0b0ebd34e3fcf833076bdd82c4ac6443/README.md",
       "ambiguous": false,
-      "localOnly": true,
-      "targets": []
-    },
-    {
-      "path": "README.en.md",
-      "sha256": "6ba5fb10d415f190ddba5ad9517bacb43fe2dea83cfce88873fdc686fbe254f1",
-      "url": "https://github.com/joeseesun/qiaomu-ui-learn-dsh/blob/f4b6a614c434cfa4a39b485d4cff17649e4cc239/README.en.md",
-      "ambiguous": false,
-      "localOnly": true,
+      "localOnly": false,
       "targets": []
     }
   ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "qiaomu-ui-learn-dsh",
-      "version": "0.1.6",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/joeseesun/qiaomu-ui-learn-dsh",
-        "commit": "f4b6a614c434cfa4a39b485d4cff17649e4cc239"
-      },
-      "manifestSha256": "3f94d6a20ca385b81be1bbcdaf6c39d94b5119c6787c181b4869cdbee1edfda6",
-      "manifestUrl": "https://github.com/joeseesun/qiaomu-ui-learn-dsh/blob/f4b6a614c434cfa4a39b485d4cff17649e4cc239/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
-    }
-  ],
+  "candidates": [],
   "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/joeseesun/qiaomu-ui-learn-dsh",
-    "commit": "f4b6a614c434cfa4a39b485d4cff17649e4cc239",
-    "releaseTags": 7,
+    "url": "https://github.com/morluto/gitcontribute",
+    "commit": "2c719afc0b0ebd34e3fcf833076bdd82c4ac6443",
+    "releaseTags": 28,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "manual_install_review",
-  "finishedAt": "2026-11-16T05:25:57.717Z"
+  "rootManifest": {
+    "name": "gitcontribute",
+    "version": "3.0.2",
+    "dsh": null,
+    "engines": {
+      "node": ">=18"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:39:35.173Z"
 }

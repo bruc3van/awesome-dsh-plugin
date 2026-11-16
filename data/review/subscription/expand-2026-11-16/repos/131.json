@@ -1,170 +1,74 @@
 {
-  "full_name": "DietCokewithSugar/dsh-user-experience",
+  "full_name": "KingsleyAsher/Personal-Knowledge-Base",
   "originalPosition": 131,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 131,
   "batch": 1,
-  "stargazers_count": 21,
-  "startedAt": "2026-11-16T05:28:26.462Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:14.267Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "6b8e3fa2c203eaec62d91b320acd524ad8286f39086e1741bcbf8d240cd6889e",
-      "url": "https://github.com/DietCokewithSugar/dsh-user-experience/blob/bba21e6a634844b448b34aae4e7c8af1d8bbd9d4/README.md",
+      "sha256": "1b65159557210cc00eeea2f4a7fdf868f6acef462e3aa22f86e2319a79585ff4",
+      "url": "https://github.com/KingsleyAsher/Personal-Knowledge-Base/blob/dfdf039461659705fe76d562120dabcff9e7b3f7/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-user-experience@0.4.2",
-          "command": "dsh plugin --profile web add dsh-user-experience@0.4.2",
-          "profile": "web"
-        },
-        {
-          "install": "https://github.com/DietCokewithSugar/dsh-user-experience",
-          "command": "dsh plugin add github:DietCokewithSugar/dsh-user-experience",
-          "profile": "default"
-        },
-        {
-          "install": "dsh-user-experience@0.4.2",
-          "command": "dsh plugin --profile <your-profile> add dsh-user-experience@0.4.2",
-          "profile": "default"
-        }
-      ]
+      "targets": []
     },
     {
-      "path": "README.zh.md",
-      "sha256": "9cda40188e76e266fc188b9238af1a9a3e7c1a815a66ead7ff7004c9aeb3bc1f",
-      "url": "https://github.com/DietCokewithSugar/dsh-user-experience/blob/bba21e6a634844b448b34aae4e7c8af1d8bbd9d4/README.zh.md",
+      "path": "README.zh-CN.md",
+      "sha256": "39de5909378e264fc9ea6ced4c8476e0d7db69510fed9a7eee30868b4ad57b85",
+      "url": "https://github.com/KingsleyAsher/Personal-Knowledge-Base/blob/dfdf039461659705fe76d562120dabcff9e7b3f7/README.zh-CN.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-user-experience@0.4.2",
-          "command": "dsh plugin --profile web add dsh-user-experience@0.4.2",
-          "profile": "web"
-        },
-        {
-          "install": "https://github.com/DietCokewithSugar/dsh-user-experience",
-          "command": "dsh plugin add github:DietCokewithSugar/dsh-user-experience",
-          "profile": "default"
-        },
-        {
-          "install": "dsh-user-experience@0.4.2",
-          "command": "dsh plugin --profile <你的profile> add dsh-user-experience@0.4.2",
-          "profile": "default"
-        }
-      ]
+      "targets": []
+    },
+    {
+      "path": "docs/client/README.md",
+      "sha256": "edbc4f058dc5a85c5d855af98d2a9ae8ff20e71d1afba4d8406c8c36d02fd021",
+      "url": "https://github.com/KingsleyAsher/Personal-Knowledge-Base/blob/dfdf039461659705fe76d562120dabcff9e7b3f7/docs/client/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/client/README.zh-CN.md",
+      "sha256": "6d84e820565caa7abcea8c7e8a722739071755a5c638a494755b549e5fe55b89",
+      "url": "https://github.com/KingsleyAsher/Personal-Knowledge-Base/blob/dfdf039461659705fe76d562120dabcff9e7b3f7/docs/client/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-user-experience",
-      "version": "0.4.2",
+      "name": "@local/dsh-knowledge-base",
+      "version": "3.1.2",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/DietCokewithSugar/dsh-user-experience",
-        "commit": "bba21e6a634844b448b34aae4e7c8af1d8bbd9d4"
+        "url": "https://github.com/KingsleyAsher/Personal-Knowledge-Base",
+        "commit": "dfdf039461659705fe76d562120dabcff9e7b3f7"
       },
-      "manifestSha256": "3f39e7a7443e655a062ffeea9e3ab64a4ce7d40ce69ee8875bef44b9292d81f4",
-      "manifestUrl": "https://github.com/DietCokewithSugar/dsh-user-experience/blob/bba21e6a634844b448b34aae4e7c8af1d8bbd9d4/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.1.0-rc.6 <0.2.0",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-user-experience",
-        "versions": [
-          {
-            "version": "0.4.2",
-            "publishTimestamp": 1786957936,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/DietCokewithSugar/dsh-user-experience",
-              "commit": "bba21e6a634844b448b34aae4e7c8af1d8bbd9d4"
-            },
-            "engines": {
-              "dsh": ">=0.1.0-rc.6 <0.2.0"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "dsh-user-experience@0.4.2",
-      "origin": "npm",
-      "name": "dsh-user-experience",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-user-experience",
-        "title": "dsh-user-experience",
-        "description": "DeepSeek Harness UX walkthrough plugin: persona-driven source-code UX review for React (TypeScript/JavaScript) and Vue 3 projects, with change-triggered automatic walkthroughs",
-        "homepage": "https://github.com/DietCokewithSugar/dsh-user-experience#readme",
-        "repository": {
-          "url": "https://github.com/DietCokewithSugar/dsh-user-experience"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek-harness",
-            "dsh-plugin",
-            "ux",
-            "code-review",
-            "persona",
-            "accessibility"
-          ]
-        },
-        "versions": [
-          {
-            "version": "0.4.2",
-            "publishTimestamp": 1786954936,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.1.0-rc.6 <0.2.0"
-            }
-          }
-        ]
-      },
-      "registrySha256": "7c49a3d6109bbb5c863d773047abb00c00afb580638e0b695eddacb3622062d9",
-      "evidence": [
-        {
-          "name": "dsh-user-experience",
-          "version": "0.4.2",
-          "tarball": "https://registry.npmjs.org/dsh-user-experience/-/dsh-user-experience-0.4.2.tgz",
-          "integrity": "sha512-AbGIN6zJF9gEyGSe+AaPl6HFNEY1IretiaT0ZwoYWU3IaZSulRZrWHlo5V6neKnmIdE0tH6AkKBqx0mCbs8EnA=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
+      "manifestSha256": "c061ae6d1716e3fc099c1702601879ad9a8d0b4eb8f76980477290214276f856",
+      "manifestUrl": "https://github.com/KingsleyAsher/Personal-Knowledge-Base/blob/dfdf039461659705fe76d562120dabcff9e7b3f7/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-user-experience@0.4.2",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "https://github.com/DietCokewithSugar/dsh-user-experience",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/DietCokewithSugar/dsh-user-experience",
-    "commit": "bba21e6a634844b448b34aae4e7c8af1d8bbd9d4",
-    "releaseTags": 1,
+    "url": "https://github.com/KingsleyAsher/Personal-Knowledge-Base",
+    "commit": "dfdf039461659705fe76d562120dabcff9e7b3f7",
+    "releaseTags": 46,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:28:36.020Z"
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:42:27.426Z"
 }

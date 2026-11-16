@@ -1,97 +1,40 @@
 {
-  "full_name": "xichen-62/dsh-power-menu",
+  "full_name": "hchao3335-maker/dsh-lan-gate",
   "originalPosition": 175,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 175,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:30:18.982Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:43:32.265Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "651b905f25618a2cb10df1e9af2aade92dae9264b7ff2005fb1668c0d3765729",
-      "url": "https://github.com/xichen-62/dsh-power-menu/blob/75fd89eb84f2de84734ca118ec77dbcfee386fe8/README.md",
+      "sha256": "ca147c89aee078dbb2d1de6c6cc09f6a541524df32e01d438169e94ab4dfb4fe",
+      "url": "https://github.com/hchao3335-maker/dsh-lan-gate/blob/d35a565bdb8c865b7f9013090ee33a6b05e41d4a/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "https://github.com/xichen-62/dsh-power-menu",
-          "command": "dsh plugin --profile desktop add github:xichen-62/dsh-power-menu",
-          "profile": "desktop"
-        },
-        {
-          "install": "https://github.com/xichen-62/dsh-power-menu/releases/latest/download/dsh-power-menu-0.1.21.tgz",
-          "command": "dsh plugin --profile desktop add https://github.com/xichen-62/dsh-power-menu/releases/latest/download/dsh-power-menu-0.1.21.tgz",
-          "profile": "desktop"
-        }
-      ]
+      "targets": []
     }
   ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-power-menu",
-      "version": "0.1.21",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/xichen-62/dsh-power-menu",
-        "commit": "75fd89eb84f2de84734ca118ec77dbcfee386fe8"
-      },
-      "manifestSha256": "6ee5b6a24624b3fdd613db9fa2d71ccef63273ab4d77d28d3b2563eb6d59140f",
-      "manifestUrl": "https://github.com/xichen-62/dsh-power-menu/blob/75fd89eb84f2de84734ca118ec77dbcfee386fe8/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.0-rc.1",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true,
-      "plugin": {
-        "name": "dsh-power-menu",
-        "versions": [
-          {
-            "version": "0.1.21",
-            "publishTimestamp": 1794746921,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/xichen-62/dsh-power-menu",
-              "commit": "75fd89eb84f2de84734ca118ec77dbcfee386fe8"
-            },
-            "engines": {
-              "dsh": ">=0.2.0-rc.1"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "https://github.com/xichen-62/dsh-power-menu/releases/latest/download/dsh-power-menu-0.1.21.tgz",
-      "status": "unsupported_source",
-      "code": "unsupported_tarball",
-      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
-    }
-  ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "https://github.com/xichen-62/dsh-power-menu",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "https://github.com/xichen-62/dsh-power-menu/releases/latest/download/dsh-power-menu-0.1.21.tgz",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "candidates": [],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/xichen-62/dsh-power-menu",
-    "commit": "75fd89eb84f2de84734ca118ec77dbcfee386fe8",
-    "releaseTags": 6,
+    "url": "https://github.com/hchao3335-maker/dsh-lan-gate",
+    "commit": "d35a565bdb8c865b7f9013090ee33a6b05e41d4a",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:30:26.947Z"
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:43:38.737Z"
 }

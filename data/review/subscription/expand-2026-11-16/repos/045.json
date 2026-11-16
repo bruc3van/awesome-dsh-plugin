@@ -1,19 +1,27 @@
 {
-  "full_name": "morluto/smokinggun",
+  "full_name": "oliblue-evan/dsh-roleplay-preset",
   "originalPosition": 45,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 45,
   "batch": 1,
-  "stargazers_count": 71,
-  "startedAt": "2026-11-16T05:25:50.719Z",
+  "stargazers_count": 33,
+  "startedAt": "2026-11-16T05:38:50.641Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "4933ca352c0ddd8b733ee8bb62ece661d3ed021f8588be9d170da553ab4ffcec",
-      "url": "https://github.com/morluto/smokinggun/blob/cf3a3872a2638a68d2d123126f98dfa84c85643d/README.md",
+      "sha256": "a7bdc9875e419823c8817926e3a527c0e77ac5227937f95e61854abe95f71c00",
+      "url": "https://github.com/oliblue-evan/dsh-roleplay-preset/blob/d09d34045113b9d287999318a41f7fdc8af65ab5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "44053ef550b4ae3d2294450fd52b82db51fc42ea4d2dcce01dd0e5042c5e8061",
+      "url": "https://github.com/oliblue-evan/dsh-roleplay-preset/blob/d09d34045113b9d287999318a41f7fdc8af65ab5/README.en.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": []
@@ -23,20 +31,18 @@
   "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/morluto/smokinggun",
-    "commit": "cf3a3872a2638a68d2d123126f98dfa84c85643d",
-    "releaseTags": 3,
+    "url": "https://github.com/oliblue-evan/dsh-roleplay-preset",
+    "commit": "d09d34045113b9d287999318a41f7fdc8af65ab5",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "rootManifest": {
-    "name": "smokinggun",
-    "version": "5.0.0",
+    "name": null,
+    "version": null,
     "dsh": null,
-    "engines": {
-      "node": ">=22.18"
-    }
+    "engines": null
   },
   "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:25:59.541Z"
+  "finishedAt": "2026-11-16T05:39:09.201Z"
 }

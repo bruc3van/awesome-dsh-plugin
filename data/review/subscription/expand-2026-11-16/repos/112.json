@@ -1,77 +1,58 @@
 {
-  "full_name": "gulagala001/dsh-intelligent-ui",
+  "full_name": "Zilize/parallax-dsh",
   "originalPosition": 112,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 112,
   "batch": 1,
-  "stargazers_count": 26,
-  "startedAt": "2026-11-16T05:27:46.749Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:41:41.592Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "97818fe4acf395127bae0f80af11d1fc386c6881e49744abf4a621f95186ef30",
-      "url": "https://github.com/gulagala001/dsh-intelligent-ui/blob/6bb006b7cfc7edce1b069a00d86a78e1ff20734d/README.md",
+      "sha256": "5a89a56c0e632ad69ce95682e9bbe04e2c1caa03869b5118f24c1c625521b8c8",
+      "url": "https://github.com/Zilize/parallax-dsh/blob/023ffadd6dea3af30587b89feb6073ffdd142c68/README.md",
       "ambiguous": false,
-      "localOnly": false,
+      "localOnly": true,
       "targets": []
     },
     {
-      "path": "README_EN.md",
-      "sha256": "d5bdcfc9ec1ff1a822e8535151f9132ef18ea3fefde9dbeb4d472a808bab15b4",
-      "url": "https://github.com/gulagala001/dsh-intelligent-ui/blob/6bb006b7cfc7edce1b069a00d86a78e1ff20734d/README_EN.md",
+      "path": "README.zh-CN.md",
+      "sha256": "0d13a6e081832facb70043314e485ef124f70ac706a880e88300e8b389aba60c",
+      "url": "https://github.com/Zilize/parallax-dsh/blob/023ffadd6dea3af30587b89feb6073ffdd142c68/README.zh-CN.md",
       "ambiguous": false,
-      "localOnly": false,
+      "localOnly": true,
       "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-intelligent-ui",
-      "version": "0.2.2-rc.3.iui.1.0.19",
+      "name": "Parallax",
+      "version": "0.1.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/gulagala001/dsh-intelligent-ui",
-        "commit": "6bb006b7cfc7edce1b069a00d86a78e1ff20734d"
+        "url": "https://github.com/Zilize/parallax-dsh",
+        "commit": "023ffadd6dea3af30587b89feb6073ffdd142c68"
       },
-      "manifestSha256": "1d1740e4ce5f23127d0bef85da49e36a1d4fa12387f98731f7618b116bb79018",
-      "manifestUrl": "https://github.com/gulagala001/dsh-intelligent-ui/blob/6bb006b7cfc7edce1b069a00d86a78e1ff20734d/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": "0.2.2-rc.3",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "dsh-intelligent-ui",
-        "versions": [
-          {
-            "version": "0.2.2-rc.3.iui.1.0.19",
-            "publishTimestamp": 1794764667,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/gulagala001/dsh-intelligent-ui",
-              "commit": "6bb006b7cfc7edce1b069a00d86a78e1ff20734d"
-            },
-            "engines": {
-              "dsh": "0.2.2-rc.3"
-            }
-          }
-        ]
-      }
+      "manifestSha256": "885a0711117bc8941ff4ad28266a7de88a1d70bf26613e0ba055e9d5282680cb",
+      "manifestUrl": "https://github.com/Zilize/parallax-dsh/blob/023ffadd6dea3af30587b89feb6073ffdd142c68/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
     }
   ],
   "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/gulagala001/dsh-intelligent-ui",
-    "commit": "6bb006b7cfc7edce1b069a00d86a78e1ff20734d",
-    "releaseTags": 18,
+    "url": "https://github.com/Zilize/parallax-dsh",
+    "commit": "023ffadd6dea3af30587b89feb6073ffdd142c68",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:27:56.521Z"
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-16T05:41:51.706Z"
 }

@@ -4,6 +4,7 @@
  * upstream version or commit, while manually pinned targets keep their intent. */
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
+import semver from 'semver'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { filterPool } from '../market-pool.mjs'
@@ -13,6 +14,7 @@ import {
   contentReviewFlags,
   inspectRepository,
 } from './audit.mjs'
+import { DISCOVERY_HOST_VERSIONS } from './quality.mjs'
 import { MAX_PLUGINS } from './policy.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
@@ -126,8 +128,25 @@ function documented(record, source) {
 export function eligibleCandidates(record) {
   return (record.candidates ?? []).filter((candidate) => {
     if (candidate.status !== 'eligible_metadata') return false
-    if (candidate.declaredCompatibleWithHost === false) return false
-    return true
+    // Host compatibility is re-derived from the candidate's own declared range
+    // instead of trusting the stored audit verdict: the supported host set
+    // moves, and evidence audited against a retired host version froze `false`
+    // into hundreds of otherwise-verifiable records. No declared range means
+    // unconstrained under the official dshRange rule. The generator re-verifies
+    // every version at publication, so this gate only filters what no current
+    // host can install.
+    const ranges = []
+    if (typeof candidate.declaredRange === 'string') ranges.push(candidate.declaredRange)
+    for (const version of candidate.plugin?.versions ?? []) {
+      const range = version?.engines?.dsh
+      if (typeof range === 'string') ranges.push(range)
+    }
+    if (!ranges.length) return true
+    return ranges.some((range) =>
+      DISCOVERY_HOST_VERSIONS.some((host) =>
+        semver.satisfies(host, range, { includePrerelease: true }),
+      ),
+    )
   })
 }
 

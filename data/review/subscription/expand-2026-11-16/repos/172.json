@@ -1,142 +1,74 @@
 {
-  "full_name": "qtaik/dsh-noname-kit",
+  "full_name": "drliuhuan/dsh-plugin-vrmpet3d",
   "originalPosition": 172,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 172,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:30:08.272Z",
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T05:43:26.275Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "11545763d8e1dfa7e67e9d2f9f33524d8db5127429181113624640b3d09220fb",
-      "url": "https://github.com/qtaik/dsh-noname-kit/blob/f21c525daf964d2252d53ac85cdc2232750df22e/README.md",
+      "sha256": "c3e477967ddf7e54a08475a95b74314e110a535bd4d46dc5a4cbc8a974c6c3b2",
+      "url": "https://github.com/drliuhuan/dsh-plugin-vrmpet3d/blob/462bda9bcdcd4d0d14a4c33ab675bffbfadbcffc/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-noname-kit",
-          "command": "dsh plugin --profile web add dsh-noname-kit",
-          "profile": "web"
-        }
-      ]
+      "targets": []
+    },
+    {
+      "path": "assets/models/README.md",
+      "sha256": "76fab2d55270a50afb274a652024f2e8f71ef547db19180035faf9c2c31411a7",
+      "url": "https://github.com/drliuhuan/dsh-plugin-vrmpet3d/blob/462bda9bcdcd4d0d14a4c33ab675bffbfadbcffc/assets/models/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-noname-kit",
-      "version": "1.10.13",
+      "name": "dsh-plugin-vrmpet3d",
+      "version": "0.1.4",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/qtaik/dsh-noname-kit",
-        "commit": "f21c525daf964d2252d53ac85cdc2232750df22e"
+        "url": "https://github.com/drliuhuan/dsh-plugin-vrmpet3d",
+        "commit": "462bda9bcdcd4d0d14a4c33ab675bffbfadbcffc"
       },
-      "manifestSha256": "e7c54edcfdfbe2b42127f28702d81a73963f869268778c4b101c6274f4a68baf",
-      "manifestUrl": "https://github.com/qtaik/dsh-noname-kit/blob/f21c525daf964d2252d53ac85cdc2232750df22e/package.json",
+      "manifestSha256": "fdfed5dc9d5baf7c3fc218233bd9f221f24f00bd4d0bec55c08b744a67944998",
+      "manifestUrl": "https://github.com/drliuhuan/dsh-plugin-vrmpet3d/blob/462bda9bcdcd4d0d14a4c33ab675bffbfadbcffc/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "0.2.2-rc.3 || 0.2.2-rc.1 || 0.2.1-rc.5 || 0.2.1-rc.3 || 0.2.1-rc.2 || 0.2.1-rc.1 || 0.2.0-rc.2 || 0.1.7-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.1 || 0.1.5-alpha.2 || 0.1.5-alpha.1 || 0.1.3-alpha.2 || 0.1.2-rc.1 || 0.1.2-alpha.5 || 0.1.2-alpha.4 || 0.1.2-alpha.3 || 0.1.2-alpha.2",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
       "plugin": {
-        "name": "dsh-noname-kit",
+        "name": "dsh-plugin-vrmpet3d",
         "versions": [
           {
-            "version": "1.10.13",
-            "publishTimestamp": 1794725737,
+            "version": "0.1.4",
+            "publishTimestamp": 1793075404,
             "source": {
               "type": "git",
-              "url": "https://github.com/qtaik/dsh-noname-kit",
-              "commit": "f21c525daf964d2252d53ac85cdc2232750df22e"
-            },
-            "engines": {
-              "dsh": "0.2.2-rc.3 || 0.2.2-rc.1 || 0.2.1-rc.5 || 0.2.1-rc.3 || 0.2.1-rc.2 || 0.2.1-rc.1 || 0.2.0-rc.2 || 0.1.7-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.1 || 0.1.5-alpha.2 || 0.1.5-alpha.1 || 0.1.3-alpha.2 || 0.1.2-rc.1 || 0.1.2-alpha.5 || 0.1.2-alpha.4 || 0.1.2-alpha.3 || 0.1.2-alpha.2"
+              "url": "https://github.com/drliuhuan/dsh-plugin-vrmpet3d",
+              "commit": "462bda9bcdcd4d0d14a4c33ab675bffbfadbcffc"
             }
           }
         ]
       }
-    },
-    {
-      "target": "dsh-noname-kit",
-      "origin": "npm",
-      "name": "dsh-noname-kit",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-noname-kit",
-        "title": "dsh-noname-kit",
-        "description": "Noname (无名杀) extension workshop for DeepSeek Harness: AI writes skills/cards with official-reference search, validation-gated writes, task history, and a web workshop panel.",
-        "author": "qtaik",
-        "repository": {
-          "url": "https://github.com/qtaik/dsh-noname-kit"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh",
-            "deepseek-harness",
-            "plugin",
-            "noname",
-            "sanguosha"
-          ]
-        },
-        "icon": "data:image/webp;base64,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",
-        "versions": [
-          {
-            "version": "1.10.13",
-            "publishTimestamp": 1794726386,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": "0.2.2-rc.3 || 0.2.2-rc.1 || 0.2.1-rc.5 || 0.2.1-rc.3 || 0.2.1-rc.2 || 0.2.1-rc.1 || 0.2.0-rc.2 || 0.1.7-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.1 || 0.1.5-alpha.2 || 0.1.5-alpha.1 || 0.1.3-alpha.2 || 0.1.2-rc.1 || 0.1.2-alpha.5 || 0.1.2-alpha.4 || 0.1.2-alpha.3 || 0.1.2-alpha.2"
-            }
-          }
-        ]
-      },
-      "registrySha256": "92299abdddfcf236722dfeff3eee059a0fd824b87e2120f22f2b16649de415b0",
-      "evidence": [
-        {
-          "name": "dsh-noname-kit",
-          "version": "1.10.13",
-          "tarball": "https://registry.npmjs.org/dsh-noname-kit/-/dsh-noname-kit-1.10.13.tgz",
-          "integrity": "sha512-ga47CPgT29lChxNRnEYlQ3AmMR2OfF5X0TVUzJ2bm7F8EPI/Dus3Khj6EG47kHOyZjwGS4zAZt/S/qj/DUCL8g=="
-        }
-      ],
-      "diagnostics": [
-        {
-          "name": "dsh-noname-kit",
-          "code": "icon_optimized",
-          "status": "info",
-          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
-          "inputSha256": "a1e55b462324387f3abaaf3a49314a3b5756187e4bb828db3ca2728f7a432955",
-          "outputSha256": "a328a348f4abff981e35c792c3364e0d343368f84a6c2298213169f7bfaeab7c",
-          "inputBytes": 83825,
-          "outputBytes": 2690
-        }
-      ],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-noname-kit",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/qtaik/dsh-noname-kit",
-    "commit": "f21c525daf964d2252d53ac85cdc2232750df22e",
-    "releaseTags": 32,
+    "url": "https://github.com/drliuhuan/dsh-plugin-vrmpet3d",
+    "commit": "462bda9bcdcd4d0d14a4c33ab675bffbfadbcffc",
+    "releaseTags": 4,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:30:18.936Z"
+  "finishedAt": "2026-11-16T05:43:35.320Z"
 }

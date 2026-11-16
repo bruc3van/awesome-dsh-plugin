@@ -1,60 +1,92 @@
 {
-  "full_name": "liangdabiao/dsh-resume-matcher",
+  "full_name": "bonerush/dsh-obsidian-mem",
   "originalPosition": 139,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 139,
   "batch": 1,
-  "stargazers_count": 21,
-  "startedAt": "2026-11-16T05:28:41.179Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:27.654Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "c24ff2f2c5e533b94f78635c65c41b1324f75dacda3f3d2d9bbe3179d312887f",
-      "url": "https://github.com/liangdabiao/dsh-resume-matcher/blob/0ac6691383f4fdfaa75e9ee0548dabc2086eb0ca/README.md",
+      "sha256": "c66fcdcabe9b0635e1785fa2379f091220f515afeb4f4f69a9e566d50e420b72",
+      "url": "https://github.com/bonerush/dsh-obsidian-mem/blob/8609129f3f7eec37d8fd95d94d2a544fb32c1b58/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/liangdabiao/dsh-resume-matcher",
-          "command": "dsh plugin --profile web add https://github.com/liangdabiao/dsh-resume-matcher",
+          "install": "https://github.com/bonerush/dsh-obsidian-mem",
+          "command": "dsh plugin --profile memcheck add github:bonerush/dsh-obsidian-mem",
+          "profile": "memcheck"
+        },
+        {
+          "install": "https://github.com/bonerush/dsh-obsidian-mem",
+          "command": "dsh plugin --profile web add github:bonerush/dsh-obsidian-mem",
           "profile": "web"
         }
       ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6e8fe7659d3a976f2d3a5e9b9d9715e9cb6259f75e8f7507d85adcc37906326a",
+      "url": "https://github.com/bonerush/dsh-obsidian-mem/blob/8609129f3f7eec37d8fd95d94d2a544fb32c1b58/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/bonerush/dsh-obsidian-mem",
+          "command": "dsh plugin --profile memcheck add github:bonerush/dsh-obsidian-mem",
+          "profile": "memcheck"
+        },
+        {
+          "install": "https://github.com/bonerush/dsh-obsidian-mem",
+          "command": "dsh plugin --profile web add github:bonerush/dsh-obsidian-mem",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "codex/README.md",
+      "sha256": "5411f3edcf081f71c068f4db331ff2e74ad8a3b1acd8076c48f76f95fa2f3719",
+      "url": "https://github.com/bonerush/dsh-obsidian-mem/blob/8609129f3f7eec37d8fd95d94d2a544fb32c1b58/codex/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-resume-matcher",
-      "version": "0.3.1",
+      "name": "dsh-obsidian-mem",
+      "version": "2.2.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/liangdabiao/dsh-resume-matcher",
-        "commit": "0ac6691383f4fdfaa75e9ee0548dabc2086eb0ca"
+        "url": "https://github.com/bonerush/dsh-obsidian-mem",
+        "commit": "8609129f3f7eec37d8fd95d94d2a544fb32c1b58"
       },
-      "manifestSha256": "0f53c0420369504dc3710dfeb3e64485e4f01b982efba68b062a67466e086c8a",
-      "manifestUrl": "https://github.com/liangdabiao/dsh-resume-matcher/blob/0ac6691383f4fdfaa75e9ee0548dabc2086eb0ca/package.json",
+      "manifestSha256": "d9987958182c3e0f224379131dc3c916d046dcc08cca5b6ec22bfd867f5f212d",
+      "manifestUrl": "https://github.com/bonerush/dsh-obsidian-mem/blob/8609129f3f7eec37d8fd95d94d2a544fb32c1b58/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "declaredRange": ">=0.1.5-rc.2",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-resume-matcher",
+        "name": "dsh-obsidian-mem",
         "versions": [
           {
-            "version": "0.3.1",
-            "publishTimestamp": 1794794491,
+            "version": "2.2.0",
+            "publishTimestamp": 1794241360,
             "source": {
               "type": "git",
-              "url": "https://github.com/liangdabiao/dsh-resume-matcher",
-              "commit": "0ac6691383f4fdfaa75e9ee0548dabc2086eb0ca"
+              "url": "https://github.com/bonerush/dsh-obsidian-mem",
+              "commit": "8609129f3f7eec37d8fd95d94d2a544fb32c1b58"
             },
             "engines": {
-              "dsh": ">=0.2.1-rc.2 <0.3.0"
+              "dsh": ">=0.1.5-rc.2"
             }
           }
         ]
@@ -64,18 +96,18 @@
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "https://github.com/liangdabiao/dsh-resume-matcher",
+      "target": "https://github.com/bonerush/dsh-obsidian-mem",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/liangdabiao/dsh-resume-matcher",
-    "commit": "0ac6691383f4fdfaa75e9ee0548dabc2086eb0ca",
-    "releaseTags": 0,
+    "url": "https://github.com/bonerush/dsh-obsidian-mem",
+    "commit": "8609129f3f7eec37d8fd95d94d2a544fb32c1b58",
+    "releaseTags": 40,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:28:48.595Z"
+  "finishedAt": "2026-11-16T05:42:39.657Z"
 }

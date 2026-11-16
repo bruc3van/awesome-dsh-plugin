@@ -1,26 +1,40 @@
 {
-  "full_name": "joejojoking-cloud/dsh-file-explorer",
+  "full_name": "angel291592/dsh-submodel",
   "originalPosition": 138,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 138,
   "batch": 1,
-  "stargazers_count": 21,
-  "startedAt": "2026-11-16T05:28:39.919Z",
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T05:42:27.427Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "b46ed18edd6f34cfefcb341d04bd60673a25aa5d7f0318b6f668efd62bb4f6c4",
-      "url": "https://github.com/joejojoking-cloud/dsh-file-explorer/blob/4b3a609649af9d81b75e91dc194a74bf6b026811/README.md",
+      "sha256": "02ca03a01cb6f0d4b1cd457f00ae42d8cb33d76958f3cbeea214f36a4e336895",
+      "url": "https://github.com/angel291592/dsh-submodel/blob/6dd633368b2da76fd70b2679e82021eb8d191a62/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-file-explorer",
-          "command": "dsh plugin --profile web add dsh-file-explorer",
-          "profile": "web"
+          "install": "dsh-submodel",
+          "command": "dsh plugin --profile <你的 profile> add dsh-submodel",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "a8360b51837d51b375fb6cba3450f0f38ca77fbfb4f5b57f86a4ebbb4aeada6f",
+      "url": "https://github.com/angel291592/dsh-submodel/blob/6dd633368b2da76fd70b2679e82021eb8d191a62/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-submodel",
+          "command": "dsh plugin --profile <your-profile> add dsh-submodel",
+          "profile": "default"
         }
       ]
     }
@@ -28,65 +42,104 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-file-explorer",
-      "version": "0.1.7",
+      "name": "dsh-submodel",
+      "version": "0.2.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/joejojoking-cloud/dsh-file-explorer",
-        "commit": "4b3a609649af9d81b75e91dc194a74bf6b026811"
+        "url": "https://github.com/angel291592/dsh-submodel",
+        "commit": "6dd633368b2da76fd70b2679e82021eb8d191a62"
       },
-      "manifestSha256": "1921faba9c9838331016442a099bc5b0ea9578a601f147208dd7a9bd5d67fe4e",
-      "manifestUrl": "https://github.com/joejojoking-cloud/dsh-file-explorer/blob/4b3a609649af9d81b75e91dc194a74bf6b026811/package.json",
+      "manifestSha256": "053cf17d7a8a3b5928220c9d242326fc2b84d38bb561a3ed3363c5559e62d043",
+      "manifestUrl": "https://github.com/angel291592/dsh-submodel/blob/6dd633368b2da76fd70b2679e82021eb8d191a62/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.0.1-rc.1",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-file-explorer",
+        "name": "dsh-submodel",
         "versions": [
           {
-            "version": "0.1.7",
-            "publishTimestamp": 1788154751,
+            "version": "0.2.0",
+            "publishTimestamp": 1794642047,
             "source": {
               "type": "git",
-              "url": "https://github.com/joejojoking-cloud/dsh-file-explorer",
-              "commit": "4b3a609649af9d81b75e91dc194a74bf6b026811"
+              "url": "https://github.com/angel291592/dsh-submodel",
+              "commit": "6dd633368b2da76fd70b2679e82021eb8d191a62"
             },
             "engines": {
-              "dsh": "^0.0.1-rc.1"
+              "dsh": ">=0.2.2-rc.1 <0.3.0"
             }
           }
         ]
       }
     },
     {
-      "target": "dsh-file-explorer",
+      "target": "dsh-submodel",
       "origin": "npm",
-      "name": "dsh-file-explorer",
-      "version": "0.1.1",
-      "code": "not_dsh_bundle",
-      "status": "invalid_manifest",
-      "reason": "not a declared DSH bundle",
-      "statusCode": "not_dsh_bundle",
-      "registrySha256": "d51c95229038c40d3448114fff64fb0997a0839dfd2fb83d279ab0afdedf2080"
+      "name": "dsh-submodel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-submodel",
+        "title": "dsh-submodel",
+        "description": "官方 subagent 的默认策略包：装上一次配好「什么时候自己干、什么时候派出去、派给谁」。",
+        "repository": {
+          "url": "https://github.com/angel291592/dsh-submodel"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "subagent",
+            "delegation",
+            "policy",
+            "model-routing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793378226,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c975678b30f07d653a62ed719c9eaa3c4d3c055d30881d04dfc9f047d64acf44",
+      "evidence": [
+        {
+          "name": "dsh-submodel",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-submodel/-/dsh-submodel-0.1.0.tgz",
+          "integrity": "sha512-+hAsS8XdEUrYhRCZEPgPeysmM9GOv/1l7jX5ovXGx+Oo4YKcpmKFSkUyvRkkM2jIjGfSB58GLrfDgwGv1RQgLA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-file-explorer",
+      "target": "dsh-submodel",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/joejojoking-cloud/dsh-file-explorer",
-    "commit": "4b3a609649af9d81b75e91dc194a74bf6b026811",
-    "releaseTags": 6,
+    "url": "https://github.com/angel291592/dsh-submodel",
+    "commit": "6dd633368b2da76fd70b2679e82021eb8d191a62",
+    "releaseTags": 2,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:28:47.508Z"
+  "finishedAt": "2026-11-16T05:42:37.391Z"
 }

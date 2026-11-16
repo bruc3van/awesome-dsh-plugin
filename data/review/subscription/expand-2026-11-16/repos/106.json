@@ -1,95 +1,149 @@
 {
-  "full_name": "king-bcolor/dsh-multi-tenant-projects",
+  "full_name": "NeoJubao/dsh-fde",
   "originalPosition": 106,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 106,
   "batch": 1,
-  "stargazers_count": 27,
-  "startedAt": "2026-11-16T05:27:33.528Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:41:25.171Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "87a5eb490f6cd93122d4048822be9b1fc47ef1caad3a50d9318a3336a01737c9",
-      "url": "https://github.com/king-bcolor/dsh-multi-tenant-projects/blob/77dfd9e67240d48e159d1886dd9a29d9cebf5425/README.md",
+      "sha256": "ae2756161df5700773470334460364b4b9f035433092a269f88481c4eabe28c8",
+      "url": "https://github.com/NeoJubao/dsh-fde/blob/cc695fffb0d153305bff3fe4d4fc65ba6ff01374/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/king-bcolor/dsh-multi-tenant-projects",
-          "command": "dsh plugin --profile web add github:king-bcolor/dsh-multi-tenant-projects",
+          "install": "dsh-fde",
+          "command": "dsh plugin --profile web add dsh-fde",
           "profile": "web"
         }
       ]
     },
     {
-      "path": "README.zh-CN.md",
-      "sha256": "9a53bf0bd28f8a53492c749e33d66c564b0f03656bc08356244be202707fd859",
-      "url": "https://github.com/king-bcolor/dsh-multi-tenant-projects/blob/77dfd9e67240d48e159d1886dd9a29d9cebf5425/README.zh-CN.md",
+      "path": "docs/ui-contract/README.md",
+      "sha256": "6ed1e779ce73bacb707259e779d19e6210122e99375c9762d86cc48d2e71db56",
+      "url": "https://github.com/NeoJubao/dsh-fde/blob/cc695fffb0d153305bff3fe4d4fc65ba6ff01374/docs/ui-contract/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "https://github.com/king-bcolor/dsh-multi-tenant-projects",
-          "command": "dsh plugin --profile web add github:king-bcolor/dsh-multi-tenant-projects",
-          "profile": "web"
-        }
-      ]
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-multi-tenant-projects",
-      "version": "0.1.0",
+      "name": "dsh-fde",
+      "version": "1.7.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/king-bcolor/dsh-multi-tenant-projects",
-        "commit": "77dfd9e67240d48e159d1886dd9a29d9cebf5425"
+        "url": "https://github.com/NeoJubao/dsh-fde",
+        "commit": "cc695fffb0d153305bff3fe4d4fc65ba6ff01374"
       },
-      "manifestSha256": "bed748e04e7c9b050e7c267de5b2c1430cbb2a8aae0a0956bb666779fbb2ae66",
-      "manifestUrl": "https://github.com/king-bcolor/dsh-multi-tenant-projects/blob/77dfd9e67240d48e159d1886dd9a29d9cebf5425/package.json",
+      "manifestSha256": "5b44da6eb02f441f26b818c603941dffbcf58bb96181f0c65ad6409c6a959ace",
+      "manifestUrl": "https://github.com/NeoJubao/dsh-fde/blob/cc695fffb0d153305bff3fe4d4fc65ba6ff01374/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.1.0-rc.6",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-multi-tenant-projects",
+        "name": "dsh-fde",
         "versions": [
           {
-            "version": "0.1.0",
-            "publishTimestamp": 1786881090,
+            "version": "1.7.0",
+            "publishTimestamp": 1794402614,
             "source": {
               "type": "git",
-              "url": "https://github.com/king-bcolor/dsh-multi-tenant-projects",
-              "commit": "77dfd9e67240d48e159d1886dd9a29d9cebf5425"
+              "url": "https://github.com/NeoJubao/dsh-fde",
+              "commit": "cc695fffb0d153305bff3fe4d4fc65ba6ff01374"
             },
             "engines": {
-              "dsh": "^0.1.0-rc.6"
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
             }
           }
         ]
       }
+    },
+    {
+      "target": "dsh-fde",
+      "origin": "npm",
+      "name": "dsh-fde",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-fde",
+        "title": {
+          "en": "FDE Workstation",
+          "zh": "FDE 工作站"
+        },
+        "description": {
+          "en": "Run a forward-deployed practice inside DeepSeek Harness: a customer board from lead to adoption, today's attention list, eight stage gates, a method library, and tender/opportunity links.",
+          "zh": "在 DeepSeek Harness 里经营 FDE 业务：客户从线索到采用的看板、今日注意力清单、八阶段门禁、FDE 方法库与招采机会关联。"
+        },
+        "author": "Neo Jubao",
+        "homepage": "https://github.com/NeoJubao/dsh-fde#readme",
+        "repository": {
+          "url": "https://github.com/NeoJubao/dsh-fde"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "fde",
+            "forward-deployed-engineer",
+            "customer-workstation",
+            "kanban",
+            "research-workflow",
+            "methodology"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij4KICA8cmVjdCB4PSIxLjYiIHk9IjEuNiIgd2lkdGg9IjIwLjgiIGhlaWdodD0iMjAuOCIgcng9IjUiIGZpbGw9IiMxMjIwM2EiIHN0cm9rZT0iIzNkN2JmZSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICA8cGF0aCBkPSJNNi42IDUuNGg2LjJsMy40IDMuNHYzLjIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzhmYjZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik02LjYgNS40djEzLjJoNS4xIiBmaWxsPSJub25lIiBzdHJva2U9IiM4ZmI2ZmYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNMTIuNCA1LjR2My42aDMuOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOGZiNmZmIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik04LjQgMTIuNmgzLjRNOC40IDE1LjRoMi4yIiBzdHJva2U9IiM1ZjhmZTAiIHN0cm9rZS13aWR0aD0iMS4zIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSIxNi4yIiBjeT0iMTQuNiIgcj0iMi45IiBmaWxsPSJub25lIiBzdHJva2U9IiM0ZDliZmYiIHN0cm9rZS13aWR0aD0iMS42Ii8+CiAgPHBhdGggZD0iTTE4LjQgMTYuOGwyLjIgMi4yIiBzdHJva2U9IiM0ZDliZmYiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "1.7.0",
+            "publishTimestamp": 1794404961,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ceb5e85cae71fcc63d34f8a7120f54e682c189c0c7547915d5cac2db3a356904",
+      "evidence": [
+        {
+          "name": "dsh-fde",
+          "version": "1.7.0",
+          "tarball": "https://registry.npmjs.org/dsh-fde/-/dsh-fde-1.7.0.tgz",
+          "integrity": "sha512-V9hMmHSTAyTS3qAYk2uH4uo4XplTHHAewin/CWR0Ebr2egE5pZKi1gG28E9qUJ6bVxkolrhWoi+q5368fv6g0w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "https://github.com/king-bcolor/dsh-multi-tenant-projects",
+      "target": "dsh-fde",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/king-bcolor/dsh-multi-tenant-projects",
-    "commit": "77dfd9e67240d48e159d1886dd9a29d9cebf5425",
-    "releaseTags": 1,
+    "url": "https://github.com/NeoJubao/dsh-fde",
+    "commit": "cc695fffb0d153305bff3fe4d4fc65ba6ff01374",
+    "releaseTags": 7,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:27:41.903Z"
+  "finishedAt": "2026-11-16T05:41:35.290Z"
 }

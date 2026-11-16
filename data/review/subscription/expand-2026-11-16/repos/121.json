@@ -1,40 +1,141 @@
 {
-  "full_name": "Jensen-Yao/deepseek-harness-android-app",
+  "full_name": "morehao/dsh-github-trending",
   "originalPosition": 121,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 121,
   "batch": 1,
-  "stargazers_count": 23,
-  "startedAt": "2026-11-16T05:28:03.556Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:41:55.942Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "68ea9060de1efb6efd363039449c968fc8a151ce001295037ea30a7869d55d05",
-      "url": "https://github.com/Jensen-Yao/deepseek-harness-android-app/blob/c27eb2dbef83d707a4979371a4713d84ebd4c10d/README.md",
+      "sha256": "3da20a56aefaa96503d24f3e3d42f3e4fe8329493109b75cec26ddfb75f9cc84",
+      "url": "https://github.com/morehao/dsh-github-trending/blob/78b0fb8f5498786efa4f349873a77d761cf6982f/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": []
+      "targets": [
+        {
+          "install": "@morehao/dsh-github-trending",
+          "command": "dsh plugin --profile <profile> add @morehao/dsh-github-trending",
+          "profile": "default"
+        }
+      ]
     }
   ],
-  "candidates": [],
-  "mappingFindings": [],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@morehao/dsh-github-trending",
+      "version": "0.9.25",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/morehao/dsh-github-trending",
+        "commit": "78b0fb8f5498786efa4f349873a77d761cf6982f"
+      },
+      "manifestSha256": "63733249eb0f0c32a250619704381cba4347fb35be1a3039f29b36e256a13600",
+      "manifestUrl": "https://github.com/morehao/dsh-github-trending/blob/78b0fb8f5498786efa4f349873a77d761cf6982f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3 <0.3.0-0 || >=0.2.2-alpha.0 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@morehao/dsh-github-trending",
+        "versions": [
+          {
+            "version": "0.9.25",
+            "publishTimestamp": 1794804241,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/morehao/dsh-github-trending",
+              "commit": "78b0fb8f5498786efa4f349873a77d761cf6982f"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.3.0-0 || >=0.2.2-alpha.0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@morehao/dsh-github-trending",
+      "origin": "npm",
+      "name": "@morehao/dsh-github-trending",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@morehao/dsh-github-trending",
+        "title": {
+          "en": "GitHub Trending Digest",
+          "zh": "GitHub 趋势日报"
+        },
+        "description": {
+          "en": "Fetch GitHub Trending on a daily schedule, summarize it in Chinese, commit into your own repo and auto-merge the PR. All content is produced by the local trendradar core.",
+          "zh": "每天定时把 GitHub Trending 抓取、生成中文简介与总结，提交到你自己的仓库并自动合并 PR；内容全部由本地 trendradar 核心产出。"
+        },
+        "author": "morehao",
+        "homepage": "https://github.com/morehao/dsh-github-trending",
+        "repository": {
+          "url": "https://github.com/morehao/dsh-github-trending"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "github",
+            "trending",
+            "daily-digest",
+            "chinese",
+            "trendradar"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8cmVjdCB4PSI0IiB5PSI0IiB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHJ4PSIxNCIgZmlsbD0iIzBkMTExNyIvPgogIDxwYXRoIGQ9Ik0xOCA0NlYyMmwxNCAxMiAxNC0xMnYyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNThhNmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iNDUiIHI9IjMiIGZpbGw9IiMzZmI5NTAiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.9.25",
+            "publishTimestamp": 1794804476,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.3.0-0 || >=0.2.2-alpha.0 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2e584745e33970706eeee41dcb54784e9d0356238588b50b00921d34084c1b40",
+      "evidence": [
+        {
+          "name": "@morehao/dsh-github-trending",
+          "version": "0.9.25",
+          "tarball": "https://registry.npmjs.org/@morehao/dsh-github-trending/-/dsh-github-trending-0.9.25.tgz",
+          "integrity": "sha512-z/QKcVzVlnDr9jY+DfE4oK41GhwZkhuqDedQdA6ZEi79aWXgYoXR+GeTgra1oKJLHDl5qEf+5zBs4w+EpGEHbw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@morehao/dsh-github-trending",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/Jensen-Yao/deepseek-harness-android-app",
-    "commit": "c27eb2dbef83d707a4979371a4713d84ebd4c10d",
-    "releaseTags": 2,
+    "url": "https://github.com/morehao/dsh-github-trending",
+    "commit": "78b0fb8f5498786efa4f349873a77d761cf6982f",
+    "releaseTags": 81,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "rootManifest": {
-    "name": null,
-    "version": null,
-    "dsh": null,
-    "engines": null
-  },
-  "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:28:09.664Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:42:05.269Z"
 }

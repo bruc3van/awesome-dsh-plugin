@@ -1,40 +1,50 @@
 {
-  "full_name": "Yts1919/dsh-vision-complete",
+  "full_name": "yinhong-zhou/jevdo",
   "originalPosition": 53,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 53,
   "batch": 1,
-  "stargazers_count": 60,
-  "startedAt": "2026-11-16T05:26:03.067Z",
+  "stargazers_count": 29,
+  "startedAt": "2026-11-16T05:39:31.770Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "34f52602ebb11b2b27a4d65da5bc4270f08a9e30cb61951209f0334161c093b4",
-      "url": "https://github.com/Yts1919/dsh-vision-complete/blob/9526ccd4ddeb50ba245b693f137ff4ee0432d5a4/README.md",
+      "sha256": "916b2eb70685b9533b18162805752a95075be75ecf8de269c1374905a51769fc",
+      "url": "https://github.com/yinhong-zhou/jevdo/blob/360b662d9ba72a362cb3eb81ffa89b2709fa4d7c/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": []
     }
   ],
-  "candidates": [],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "jevaction",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yinhong-zhou/jevdo",
+        "commit": "360b662d9ba72a362cb3eb81ffa89b2709fa4d7c"
+      },
+      "manifestSha256": "a916b01292e30b09c84b846594a82d5b6e35035a77abd446e7459f8253a69140",
+      "manifestUrl": "https://github.com/yinhong-zhou/jevdo/blob/360b662d9ba72a362cb3eb81ffa89b2709fa4d7c/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
   "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/Yts1919/dsh-vision-complete",
-    "commit": "9526ccd4ddeb50ba245b693f137ff4ee0432d5a4",
+    "url": "https://github.com/yinhong-zhou/jevdo",
+    "commit": "360b662d9ba72a362cb3eb81ffa89b2709fa4d7c",
     "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "rootManifest": {
-    "name": null,
-    "version": null,
-    "dsh": null,
-    "engines": null
-  },
   "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:26:09.140Z"
+  "finishedAt": "2026-11-16T05:39:39.591Z"
 }
