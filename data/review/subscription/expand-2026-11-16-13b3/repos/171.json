@@ -1,0 +1,77 @@
+{
+  "full_name": "JoukoPuro/dsh-prompt-polish",
+  "originalPosition": 171,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 171,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:08.089Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "472bfdae01f1be636b6954ffb5c5ef3b60e3d131c4f726a590bf4c54c8373cfc",
+      "url": "https://github.com/JoukoPuro/dsh-prompt-polish/blob/1dde60c68238e6e7607e40c172ef475abb7ec671/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3a3eedfc724e91f2c8fd8088b611f42341a0e210ed5e999d6d029b1b55a0aaf1",
+      "url": "https://github.com/JoukoPuro/dsh-prompt-polish/blob/1dde60c68238e6e7607e40c172ef475abb7ec671/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-polish",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JoukoPuro/dsh-prompt-polish",
+        "commit": "1dde60c68238e6e7607e40c172ef475abb7ec671"
+      },
+      "manifestSha256": "d115b078c2cd449268ce025ce91ff7235157cabb2140113c62c71738614f88cb",
+      "manifestUrl": "https://github.com/JoukoPuro/dsh-prompt-polish/blob/1dde60c68238e6e7607e40c172ef475abb7ec671/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-prompt-polish",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1792264883,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JoukoPuro/dsh-prompt-polish",
+              "commit": "1dde60c68238e6e7607e40c172ef475abb7ec671"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JoukoPuro/dsh-prompt-polish",
+    "commit": "1dde60c68238e6e7607e40c172ef475abb7ec671",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:19.669Z"
+}

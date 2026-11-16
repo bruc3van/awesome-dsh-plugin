@@ -1,0 +1,81 @@
+{
+  "full_name": "giter00/dsh-headroom",
+  "originalPosition": 42,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 42,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T12:22:29.281Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1614d75e2d5768470318dd793cc089b3c4d805dad1dea971471350bf008213d3",
+      "url": "https://github.com/giter00/dsh-headroom/blob/ca5de630fd9a4be1b0e0f900cc3260f52052019d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/giter00/dsh-headroom",
+          "command": "dsh plugin --profile web add github:giter00/dsh-headroom",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-headroom",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/giter00/dsh-headroom",
+        "commit": "ca5de630fd9a4be1b0e0f900cc3260f52052019d"
+      },
+      "manifestSha256": "513c94d8f96d2b7d8be4eb6df6be06e7777ea3b8a51b592c0ee005652368fd49",
+      "manifestUrl": "https://github.com/giter00/dsh-headroom/blob/ca5de630fd9a4be1b0e0f900cc3260f52052019d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc.5 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-headroom",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1787512803,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/giter00/dsh-headroom",
+              "commit": "ca5de630fd9a4be1b0e0f900cc3260f52052019d"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.5 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/giter00/dsh-headroom",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/giter00/dsh-headroom",
+    "commit": "ca5de630fd9a4be1b0e0f900cc3260f52052019d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:22:37.759Z"
+}

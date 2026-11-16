@@ -1,0 +1,173 @@
+{
+  "full_name": "wldxiaobai/dsh-project-mcp-manager",
+  "originalPosition": 127,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 127,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:52.527Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "874b3f62dbc33c7f03d288637656df4c191cc1e3b721d9f2e5774415b0d444eb",
+      "url": "https://github.com/wldxiaobai/dsh-project-mcp-manager/blob/cd11378b665b254a7648ee7d2a272d0c3833f790/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-project-mcp-manager@latest",
+          "command": "dsh plugin --profile web add dsh-project-mcp-manager@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-project-mcp-manager@latest",
+          "command": "dsh plugin --profile desktop add dsh-project-mcp-manager@latest",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.zh.md",
+      "sha256": "c56953e0bf689a40e698ed987558c0ea4ac72eb7b758eacbecbf4df23ed22769",
+      "url": "https://github.com/wldxiaobai/dsh-project-mcp-manager/blob/cd11378b665b254a7648ee7d2a272d0c3833f790/docs/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-project-mcp-manager@latest",
+          "command": "dsh plugin --profile web add dsh-project-mcp-manager@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-project-mcp-manager@latest",
+          "command": "dsh plugin --profile desktop add dsh-project-mcp-manager@latest",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-project-mcp-manager",
+      "version": "0.13.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wldxiaobai/dsh-project-mcp-manager",
+        "commit": "cd11378b665b254a7648ee7d2a272d0c3833f790"
+      },
+      "manifestSha256": "d851f6eda40a5e9eb06e03d75467e084fd22dab79c079edf91731bab457d65be",
+      "manifestUrl": "https://github.com/wldxiaobai/dsh-project-mcp-manager/blob/cd11378b665b254a7648ee7d2a272d0c3833f790/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-project-mcp-manager",
+        "versions": [
+          {
+            "version": "0.13.0",
+            "publishTimestamp": 1794497397,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wldxiaobai/dsh-project-mcp-manager",
+              "commit": "cd11378b665b254a7648ee7d2a272d0c3833f790"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-project-mcp-manager@latest",
+      "origin": "npm",
+      "name": "dsh-project-mcp-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-project-mcp-manager",
+        "title": "dsh-project-mcp-manager",
+        "description": "MCP manager for DSH with default loader and settings UI components: project/global server loading, hot reload, per-session tool visibility, and the dsh-mcp CLI.",
+        "author": "wldxiaobai",
+        "homepage": "https://github.com/wldxiaobai/dsh-project-mcp-manager#readme",
+        "repository": {
+          "url": "https://github.com/wldxiaobai/dsh-project-mcp-manager"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "mcp",
+            "project",
+            "plugin",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.13.0",
+            "publishTimestamp": 1794498402,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          },
+          {
+            "version": "0.9.0",
+            "publishTimestamp": 1792230991,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f5c3feff164bbbe413950bb5b0929dd2a4660ea6d00446e88f4fa15435a1a5e2",
+      "evidence": [
+        {
+          "name": "dsh-project-mcp-manager",
+          "version": "0.13.0",
+          "tarball": "https://registry.npmjs.org/dsh-project-mcp-manager/-/dsh-project-mcp-manager-0.13.0.tgz",
+          "integrity": "sha512-bYzi+ir7Oiu0PEp84vKg54bD210lmk8OjUimt5rYzlY9w+OUYd6hd5PfBq1Shxaz3rCmLZaVp3tJv3M3sDgIVQ=="
+        },
+        {
+          "name": "dsh-project-mcp-manager",
+          "version": "0.9.0",
+          "tarball": "https://registry.npmjs.org/dsh-project-mcp-manager/-/dsh-project-mcp-manager-0.9.0.tgz",
+          "integrity": "sha512-ItsHWT0GXOmFz4920UQcwDsw0v295VL/fTDuksozg3lg5/FgMSW1gnQylSl1WFpW3L7KatyypZuTrhlpa0CyYQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-project-mcp-manager@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wldxiaobai/dsh-project-mcp-manager",
+    "commit": "cd11378b665b254a7648ee7d2a272d0c3833f790",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:06.660Z"
+}

@@ -1,0 +1,138 @@
+{
+  "full_name": "kangtsang/dsh-worktree-space",
+  "originalPosition": 199,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 199,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:29.842Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b85e9273abf84d454c3ad89405565b785630a9f3919ad2b7447c1b6e03195262",
+      "url": "https://github.com/kangtsang/dsh-worktree-space/blob/dd1701c00b47d95b348d070fb41ac6e8d6bc8cbc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-worktree-space",
+          "command": "dsh plugin --profile web add dsh-worktree-space",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-worktree-space",
+      "version": "1.4.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kangtsang/dsh-worktree-space",
+        "commit": "dd1701c00b47d95b348d070fb41ac6e8d6bc8cbc"
+      },
+      "manifestSha256": "4cfff5b9e778189dafa30b97878275ff9fb60cbaedde1ae4d9309e6dfe04beb9",
+      "manifestUrl": "https://github.com/kangtsang/dsh-worktree-space/blob/dd1701c00b47d95b348d070fb41ac6e8d6bc8cbc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 || >=0.2.1-rc.1 || >=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-worktree-space",
+        "versions": [
+          {
+            "version": "1.4.5",
+            "publishTimestamp": 1794828190,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kangtsang/dsh-worktree-space",
+              "commit": "dd1701c00b47d95b348d070fb41ac6e8d6bc8cbc"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 || >=0.2.1-rc.1 || >=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-worktree-space",
+      "origin": "npm",
+      "name": "dsh-worktree-space",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-worktree-space",
+        "title": {
+          "en": "Worktree Space",
+          "zh": "Worktree Space"
+        },
+        "description": {
+          "en": "Worktree Space: one task, one space — work on parallel tracks. Put a task that spans one or more Git repositories into its own task space: every repository involved gets a worktree on the same task branch, and the task space registers itself as a workspace where agent sessions work on their own. Multiple tasks move forward in parallel without interfering with one another; when the work is done, merge back into each repository's target branch and clean up the worktree branches and task spaces as needed. Report problems at https://github.com/kangtsang/dsh-worktree-space/issues",
+          "zh": "Worktree Space：一任务一空间，工作多路并行。把一个或多个 Git 仓库的工作任务放进独立任务空间：每个参与的仓库在同一个任务分支上各开一个 worktree，任务空间自动注册为工作区，agent 会话就在其中独立工作。多个任务并行推进、互不干扰；结束后合并回各仓库目标分支，worktree 分支和任务空间按需清理。遇到问题请在 https://github.com/kangtsang/dsh-worktree-space/issues 反馈。"
+        },
+        "homepage": "https://github.com/kangtsang/dsh-worktree-space#readme",
+        "repository": {
+          "url": "https://github.com/kangtsang/dsh-worktree-space"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "git",
+            "worktree",
+            "multi-repo"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzRkNmJmZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogIDwhLS0KICAgIFRoZSBwbHVnaW4ncyBtYXJrIGZvciB0aGUgcGx1Z2luIGxpc3QgYW5kIHRoZSBwbHVnaW4ncyBvd24gcGFnZTogdGhlIGdseXBoIGFsb25lLCBpbgogICAgdGhlIGJsdWUgdGhlIGxpc3QgZHJhd3MgaXQsIHdpdGggbm90aGluZyBiZWhpbmQgaXQuIEl0IGlzIHRoZSBkcmF3aW5nIGBCcmFuZEdseXBoYAogICAgbWFrZXMg4oCUIHRoZSBsdWNpZGUgZm9sZGVyLWdpdC0yIHRoZSBwbHVnaW4gc2hpcHBlZCBiZWZvcmUgaXQgbW92ZWQgdG8gSHVnZWljb25zIOKAlCBhdAogICAgdGhhdCBjb21wb25lbnQncyBvd24gd2VpZ2h0LCBzbyB0aGUgbWFyayB0aGUgbGlzdCBzaG93cyBpcyB0aGUgbWFyayB0aGUgcGFuZWwgbGlzdCwKICAgIHRoZSBmb290ZXIgYW5kIHRoZSB3b3Jrc3BhY2Ugc2VsZWN0b3IgYWxyZWFkeSBsZWFkIHdpdGguCgogICAgVGhlIGdseXBoIGl0c2VsZiBpcyBkcmF3biBhdCAwLjggb2YgdGhlIGJveCAoMjAgb2YgdGhlIDI0IHVuaXRzKSwgYmVjYXVzZSB0aGUgbGlzdAogICAgZHJhd3MgZXZlcnkgcGx1Z2luJ3MgbWFyayBpbiBvbmUgc3F1YXJlOiBhIGRyYXdpbmcgdGhhdCBmaWxscyBpdHMgYm94IGVkZ2UgdG8gZWRnZQogICAgcmVhZHMgbGFyZ2VyIHRoYW4gdGhlIG5laWdoYm91cnMgdGhhdCBsZWF2ZSBhIG1hcmdpbi4gQ2hhbmdlIHRoZSAwLjggdG8gbWFrZSBpdAogICAgc21hbGxlciBvciBsYXJnZXI7IG5vdGhpbmcgZWxzZSBuZWVkcyB0byBtb3ZlLgogIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIuNCAyLjQpIHNjYWxlKDAuOCkiPgogICAgPHBhdGggZD0iTTkgMjBINGEyIDIgMCAwIDEtMi0yVjVhMiAyIDAgMCAxIDItMmgzLjlhMiAyIDAgMCAxIDEuNjkuOWwuODEgMS4yYTIgMiAwIDAgMCAxLjY3LjlIMjBhMiAyIDAgMCAxIDIgMnY1IiAvPgogICAgPGNpcmNsZSBjeD0iMTMiIGN5PSIxMiIgcj0iMiIgLz4KICAgIDxwYXRoIGQ9Ik0xOCAxOWMtMi44IDAtNS0yLjItNS01djgiIC8+CiAgICA8Y2lyY2xlIGN4PSIyMCIgY3k9IjE5IiByPSIyIiAvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "1.4.5",
+            "publishTimestamp": 1794829085,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 || >=0.2.1-rc.1 || >=0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "bf2a8e0d9ed1071bb6d0e00f4e388a24ded356946bf4f2666be7a8b3a0efba38",
+      "evidence": [
+        {
+          "name": "dsh-worktree-space",
+          "version": "1.4.5",
+          "tarball": "https://registry.npmjs.org/dsh-worktree-space/-/dsh-worktree-space-1.4.5.tgz",
+          "integrity": "sha512-AsxbwM2UQnIwCqCmNfhllUOvBhYCJIIji7MF1YO7pd5CtkEn+ZqeQ9SE/gWxaAZs4n3n0QFKht+nLwCwOdHXHQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-worktree-space",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kangtsang/dsh-worktree-space",
+    "commit": "dd1701c00b47d95b348d070fb41ac6e8d6bc8cbc",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:42.620Z"
+}

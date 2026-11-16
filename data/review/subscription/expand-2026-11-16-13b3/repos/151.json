@@ -1,0 +1,144 @@
+{
+  "full_name": "Caoran1314/dsh-edict",
+  "originalPosition": 151,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 151,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:24.105Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dc1f4c44311c5adb2b03184a9954d568d6b2f05a57a47a5537aaab2d0ca4ef41",
+      "url": "https://github.com/Caoran1314/dsh-edict/blob/93279b94e68ff76c041c0a0848cb4ba122ab4e93/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-edict",
+          "command": "dsh plugin add dsh-edict",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-edict",
+          "command": "dsh plugin --profile desktop add dsh-edict",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Caoran1314/dsh-edict",
+          "command": "dsh plugin --profile desktop add github:Caoran1314/dsh-edict",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-edict",
+      "version": "0.1.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Caoran1314/dsh-edict",
+        "commit": "93279b94e68ff76c041c0a0848cb4ba122ab4e93"
+      },
+      "manifestSha256": "4b631df04aa35799ec801aa6373d1f7fb9dbc37ebae8b2ba282bc0ba5e71e36d",
+      "manifestUrl": "https://github.com/Caoran1314/dsh-edict/blob/93279b94e68ff76c041c0a0848cb4ba122ab4e93/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-edict",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1792856316,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Caoran1314/dsh-edict",
+              "commit": "93279b94e68ff76c041c0a0848cb4ba122ab4e93"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-edict",
+      "origin": "npm",
+      "name": "dsh-edict",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-edict",
+        "title": "dsh-edict",
+        "description": "三省六部制多智能体审核流程，移植为 DeepSeek Harness 插件：12 状态状态机、门下省封驳、高风险操作确认、越权矩阵、委派防死锁、完整审计。规则与 edict（OpenClaw）逐条对齐。",
+        "homepage": "https://github.com/Caoran1314/dsh-edict#readme",
+        "repository": {
+          "url": "https://github.com/Caoran1314/dsh-edict"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "edict",
+            "three-departments-six-ministries",
+            "multi-agent",
+            "orchestration",
+            "state-machine",
+            "workflow",
+            "audit"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1791909528,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6c65779fb8809d248a16e571adfc261f916c085b944fb33bf3df9cb155625929",
+      "evidence": [
+        {
+          "name": "dsh-edict",
+          "version": "0.1.8",
+          "tarball": "https://registry.npmjs.org/dsh-edict/-/dsh-edict-0.1.8.tgz",
+          "integrity": "sha512-eAdtbQH3riza6nNNHdbre7FQ1tA2XZo9jbot/8nlYA934rUE4G3gr6IOWS87Uk85EqyLbBheWNMFzUrnClSELw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-edict",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Caoran1314/dsh-edict",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Caoran1314/dsh-edict",
+    "commit": "93279b94e68ff76c041c0a0848cb4ba122ab4e93",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:33.954Z"
+}

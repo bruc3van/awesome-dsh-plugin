@@ -1,0 +1,140 @@
+{
+  "full_name": "Anestis271/dsh-desktop",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:19.517Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0bc45cee0f4a11686588c08bafe402c4d835f348608d09e774dc72d857c08c61",
+      "url": "https://github.com/Anestis271/dsh-desktop/blob/8c9826691ebc15cc2d7745ad5465c9221b290fbe/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@anestis271/dsh-desktop",
+          "command": "dsh plugin --profile desktop add @anestis271/dsh-desktop",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "7b624ed9b3e77c57a9b1421f2bc3a72de93ca9fee17f5f1fb4e52f5ab70dbbe0",
+      "url": "https://github.com/Anestis271/dsh-desktop/blob/8c9826691ebc15cc2d7745ad5465c9221b290fbe/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@anestis271/dsh-desktop",
+          "command": "dsh plugin --profile desktop add @anestis271/dsh-desktop",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@anestis271/dsh-desktop",
+      "version": "1.0.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Anestis271/dsh-desktop",
+        "commit": "8c9826691ebc15cc2d7745ad5465c9221b290fbe"
+      },
+      "manifestSha256": "f57ef644b057a4dbb6e7efbd3e088b3da682aec0a7bf5c154433195abbf78781",
+      "manifestUrl": "https://github.com/Anestis271/dsh-desktop/blob/8c9826691ebc15cc2d7745ad5465c9221b290fbe/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@anestis271/dsh-desktop",
+        "versions": [
+          {
+            "version": "1.0.3",
+            "publishTimestamp": 1786936935,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Anestis271/dsh-desktop",
+              "commit": "8c9826691ebc15cc2d7745ad5465c9221b290fbe"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@anestis271/dsh-desktop",
+      "origin": "npm",
+      "name": "@anestis271/dsh-desktop",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@anestis271/dsh-desktop",
+        "title": "@anestis271/dsh-desktop",
+        "description": "Cross-platform desktop shell for DeepSeek Harness",
+        "author": "anestis271",
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "desktop",
+            "electron"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.3",
+            "publishTimestamp": 1786937256,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d52e378185858374d4d4ab00325c77443aa3d4a0ef1399ec6b7bef4e82dabb5f",
+      "evidence": [
+        {
+          "name": "@anestis271/dsh-desktop",
+          "version": "1.0.3",
+          "tarball": "https://registry.npmjs.org/@anestis271/dsh-desktop/-/dsh-desktop-1.0.3.tgz",
+          "integrity": "sha512-yI8zqNbIWh804nwLNjEYD2WM5A1icDns1STcVfFpqrubvmKqEaiHCit/iHFj437LqQZhQVHjgHaTwNa0i+wV+Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@anestis271/dsh-desktop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Anestis271/dsh-desktop",
+    "commit": "8c9826691ebc15cc2d7745ad5465c9221b290fbe",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:31.893Z"
+}

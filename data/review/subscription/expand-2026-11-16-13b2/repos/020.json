@@ -1,0 +1,40 @@
+{
+  "full_name": "Hakunm/dsh-android-app",
+  "originalPosition": 20,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 20,
+  "batch": 1,
+  "stargazers_count": 36,
+  "startedAt": "2026-11-16T12:13:18.106Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2b9d7a1d1b59bf8a6a7923385b33f1125b97c42ef6be563c9e4a480b3ce1b495",
+      "url": "https://github.com/Hakunm/dsh-android-app/blob/b0bf711ccc6f113dc6fd7b8d643109247cb864a8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hakunm/dsh-android-app",
+    "commit": "b0bf711ccc6f113dc6fd7b8d643109247cb864a8",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:13:26.457Z"
+}

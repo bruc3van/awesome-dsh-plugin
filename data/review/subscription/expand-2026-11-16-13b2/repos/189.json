@@ -1,0 +1,68 @@
+{
+  "full_name": "forelsket521-jpg/vvn-deepseek-harness",
+  "originalPosition": 189,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:13.506Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a2c8d4691007397306eedb6d0fea6ef0d0b212705136bea2ef0222726f751f3c",
+      "url": "https://github.com/forelsket521-jpg/vvn-deepseek-harness/blob/158b9c922fb792e22fce36d5d9351f17b51ac9b8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-scrub",
+      "version": "0.1.0",
+      "path": "kit/dsh-scrub",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/forelsket521-jpg/vvn-deepseek-harness",
+        "commit": "158b9c922fb792e22fce36d5d9351f17b51ac9b8",
+        "path": "kit/dsh-scrub"
+      },
+      "manifestSha256": "8f634772b2290df283be98d81950b7669c89424b994a1d7e417fbf036d9e09c4",
+      "manifestUrl": "https://github.com/forelsket521-jpg/vvn-deepseek-harness/blob/158b9c922fb792e22fce36d5d9351f17b51ac9b8/kit/dsh-scrub/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-scrub",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792722547,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/forelsket521-jpg/vvn-deepseek-harness",
+              "commit": "158b9c922fb792e22fce36d5d9351f17b51ac9b8",
+              "path": "kit/dsh-scrub"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/forelsket521-jpg/vvn-deepseek-harness",
+    "commit": "158b9c922fb792e22fce36d5d9351f17b51ac9b8",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:22.789Z"
+}

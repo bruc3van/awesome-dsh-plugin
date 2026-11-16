@@ -1,0 +1,174 @@
+{
+  "full_name": "linxichen/dsh-rigorquant",
+  "originalPosition": 120,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 120,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:41.249Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "04ed38359ca40456df83773cc9fc11eeeec3f6666cb023fa656a507c0ec1bd97",
+      "url": "https://github.com/linxichen/dsh-rigorquant/blob/5b205294da08e0486a9001b5ac04b89517db5e38/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-rigorquant",
+          "command": "dsh plugin --profile web add dsh-rigorquant",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "77640ad459d7de265187f461728e20da84184fa47b708c028372ec1974682676",
+      "url": "https://github.com/linxichen/dsh-rigorquant/blob/5b205294da08e0486a9001b5ac04b89517db5e38/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/linxichen/dsh-rigorquant",
+          "command": "dsh plugin --profile web add github:linxichen/dsh-rigorquant",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "env/README.md",
+      "sha256": "a4c3b837acccbe5d59107360409ae6de3668c6a9895d5ef47107dc1dff7d0c3a",
+      "url": "https://github.com/linxichen/dsh-rigorquant/blob/5b205294da08e0486a9001b5ac04b89517db5e38/env/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-rigorquant",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/linxichen/dsh-rigorquant",
+        "commit": "5b205294da08e0486a9001b5ac04b89517db5e38"
+      },
+      "manifestSha256": "ee6ea03305847b894dda7b02751c87540ab916bb39f32684dcdf819d811a1615",
+      "manifestUrl": "https://github.com/linxichen/dsh-rigorquant/blob/5b205294da08e0486a9001b5ac04b89517db5e38/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.2.2-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-rigorquant",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1794802805,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/linxichen/dsh-rigorquant",
+              "commit": "5b205294da08e0486a9001b5ac04b89517db5e38"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.2.2-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-rigorquant",
+      "origin": "npm",
+      "name": "dsh-rigorquant",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-rigorquant",
+        "title": {
+          "en": "RigorQuant",
+          "zh": "RigorQuant"
+        },
+        "description": {
+          "en": "Unattended, context-isolated multi-agent research for empirical and computational mathematics: a declared RigorQuant preset, role-routed models with a Plugins-page card, and a jacobian/Lean escalation lane the orchestrator mounts at runtime.",
+          "zh": "面向实证与计算数学的无人值守、上下文隔离多智能体研究：声明式 RigorQuant 预设、按角色路由的模型及其插件页配置卡，以及由编排者运行时挂载的 jacobian/Lean 升级通道。"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "quant",
+            "research"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHJ4PSI4IiBmaWxsPSJ1cmwoI3JxKSIgLz4KICA8cGF0aCBkPSJNMTAuNSAxOC44TDE1LjQgMjMuN0wyNS41IDEyLjYiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIzLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgLz4KICA8Y2lyY2xlIGN4PSIyNS42IiBjeT0iMTAuNCIgcj0iMy4yIiBmaWxsPSIjRjJBRjYzIiAvPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJycSIgeDE9IjciIHkxPSI1IiB4Mj0iMjkiIHkyPSIzMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjN0NCN0ZGIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNDVBRjMiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1790832532,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.2.1"
+            }
+          },
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1790297141,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d2911d2ea5e4191f47ef787004972f304f12de1de903a955fd3977e835079021",
+      "evidence": [
+        {
+          "name": "dsh-rigorquant",
+          "version": "0.7.0",
+          "tarball": "https://registry.npmjs.org/dsh-rigorquant/-/dsh-rigorquant-0.7.0.tgz",
+          "integrity": "sha512-dpXnv7rND1WDz2xkDSpTerkqQpMLbWVw7qrvy2KWsAolJcGUXzSKl4ywsdA28C/JTGsArIx61AeMvsEyFBGiEw=="
+        },
+        {
+          "name": "dsh-rigorquant",
+          "version": "0.5.0",
+          "tarball": "https://registry.npmjs.org/dsh-rigorquant/-/dsh-rigorquant-0.5.0.tgz",
+          "integrity": "sha512-ETqD7xDY8grCS6iWmhc0cpEZ4logX/2lwx79X14weVaOyU3YLogTFHqjXx6iKUgXB2fOn0CwrFGQFaWGv31lTA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-rigorquant",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/linxichen/dsh-rigorquant",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/linxichen/dsh-rigorquant",
+    "commit": "5b205294da08e0486a9001b5ac04b89517db5e38",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:19.515Z"
+}

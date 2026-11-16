@@ -1,0 +1,246 @@
+{
+  "full_name": "lmzhen/dsh-evolution",
+  "originalPosition": 142,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:35.484Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0cdb2215855241ca36b1d1b9f1cf40e4036aafd7d39a0a1a25b351d474d19dca",
+      "url": "https://github.com/lmzhen/dsh-evolution/blob/aeedc8fea32a6a48c0c63ea34e9147e5081d1541/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@lmzhen/dsh-evolution-all",
+          "command": "dsh plugin --profile web add @lmzhen/dsh-evolution-all",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "0c203b7da1542c1eff46f9b06126a65c87003c51fea6bff270f5de782159e018",
+      "url": "https://github.com/lmzhen/dsh-evolution/blob/aeedc8fea32a6a48c0c63ea34e9147e5081d1541/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@lmzhen/dsh-evolution-all",
+          "command": "dsh plugin --profile web add @lmzhen/dsh-evolution-all",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/README.md",
+      "sha256": "debf2cf00e48ff44d9387ffd343f9ac57e1e1359126b0309a946a8671b9b6934",
+      "url": "https://github.com/lmzhen/dsh-evolution/blob/aeedc8fea32a6a48c0c63ea34e9147e5081d1541/packages/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-evolution-all",
+      "version": "0.49.0",
+      "path": "packages/evolution-all",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lmzhen/dsh-evolution",
+        "commit": "aeedc8fea32a6a48c0c63ea34e9147e5081d1541",
+        "path": "packages/evolution-all"
+      },
+      "manifestSha256": "430733f42fd46ae5c12e29b9b2885e4712cf35e6c46a9b083bccc7edcfa423f8",
+      "manifestUrl": "https://github.com/lmzhen/dsh-evolution/blob/aeedc8fea32a6a48c0c63ea34e9147e5081d1541/packages/evolution-all/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-evolution-all",
+        "versions": [
+          {
+            "version": "0.49.0",
+            "publishTimestamp": 1794757579,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lmzhen/dsh-evolution",
+              "commit": "aeedc8fea32a6a48c0c63ea34e9147e5081d1541",
+              "path": "packages/evolution-all"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-evolution-host",
+      "version": "0.49.0",
+      "path": "packages/evolution-host",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lmzhen/dsh-evolution",
+        "commit": "aeedc8fea32a6a48c0c63ea34e9147e5081d1541",
+        "path": "packages/evolution-host"
+      },
+      "manifestSha256": "8f989a9ec8e856ef16191c097d22708900a2f1a15bceebbc7ed8dbe6cfa47569",
+      "manifestUrl": "https://github.com/lmzhen/dsh-evolution/blob/aeedc8fea32a6a48c0c63ea34e9147e5081d1541/packages/evolution-host/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-evolution-host",
+        "versions": [
+          {
+            "version": "0.49.0",
+            "publishTimestamp": 1794757579,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lmzhen/dsh-evolution",
+              "commit": "aeedc8fea32a6a48c0c63ea34e9147e5081d1541",
+              "path": "packages/evolution-host"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-evolution-preset",
+      "version": "0.49.0",
+      "path": "packages/evolution-preset",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lmzhen/dsh-evolution",
+        "commit": "aeedc8fea32a6a48c0c63ea34e9147e5081d1541",
+        "path": "packages/evolution-preset"
+      },
+      "manifestSha256": "9c9c49e324a22d9fd9fb207a85d9d50cbc32e302b05cceae868a94971a629b06",
+      "manifestUrl": "https://github.com/lmzhen/dsh-evolution/blob/aeedc8fea32a6a48c0c63ea34e9147e5081d1541/packages/evolution-preset/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-rc.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-evolution-preset",
+        "versions": [
+          {
+            "version": "0.49.0",
+            "publishTimestamp": 1794757579,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lmzhen/dsh-evolution",
+              "commit": "aeedc8fea32a6a48c0c63ea34e9147e5081d1541",
+              "path": "packages/evolution-preset"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@lmzhen/dsh-evolution-all",
+      "origin": "npm",
+      "name": "@lmzhen/dsh-evolution-all",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@lmzhen/dsh-evolution-all",
+        "title": {
+          "en": "Capability evolution plugin",
+          "de": "Plugin für Fähigkeitsentwicklung",
+          "es": "Plugin de evolución de capacidades",
+          "fr": "Plugin d’évolution des capacités",
+          "ja": "能力進化プラグイン",
+          "pt": "Plugin de evolução de capacidades",
+          "ru": "Плагин развития возможностей",
+          "zh": "能力进化插件"
+        },
+        "description": {
+          "en": "Adds memory, skill management, self-review, skill merging and cleanup to every session.",
+          "de": "Bringt Gedächtnis, Skill-Verwaltung, Review, Zusammenführen und Aufräumen in jede Sitzung.",
+          "es": "Añade memoria, gestión de skills, revisión, merge y limpieza a cada sesión.",
+          "fr": "Ajoute à chaque session la mémoire, la gestion des skills, la revue, la fusion et le nettoyage.",
+          "ja": "全セッションに、メモリ、スキル管理、自己レビュー、スキルのマージと整理を加える。",
+          "pt": "Adiciona memória, gerenciamento de skills, revisão, merge e limpeza a cada sessão.",
+          "ru": "Добавляет в каждую сессию память, навыки, обзор своей работы, объединение навыков и уборку.",
+          "zh": "每个会话都能记住要点、管理技能、审查自己的工作，还能合并重复技能、清理闲置技能。"
+        },
+        "repository": {
+          "url": "https://github.com/lmzhen/dsh-evolution",
+          "directory": "packages/evolution-all"
+        },
+        "versions": [
+          {
+            "version": "0.49.0",
+            "publishTimestamp": 1794758332,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.0 <0.2.3-0"
+            }
+          },
+          {
+            "version": "0.37.1",
+            "publishTimestamp": 1793954969,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.2.2-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2483ba26429b2f72f0f9386687a8c4018b36a3373467b74768abeeb005f198fa",
+      "evidence": [
+        {
+          "name": "@lmzhen/dsh-evolution-all",
+          "version": "0.49.0",
+          "tarball": "https://registry.npmjs.org/@lmzhen/dsh-evolution-all/-/dsh-evolution-all-0.49.0.tgz",
+          "integrity": "sha512-xh9uNyzCv0gDTZqYxYOwd6elbF4od51tdqJ4glmkPv+ipFCjEaRB+iPD669lhS+VqoxR0ZcNuKCWbGtYIapcEQ=="
+        },
+        {
+          "name": "@lmzhen/dsh-evolution-all",
+          "version": "0.37.1",
+          "tarball": "https://registry.npmjs.org/@lmzhen/dsh-evolution-all/-/dsh-evolution-all-0.37.1.tgz",
+          "integrity": "sha512-OEi5zgBE9n4a3b6oZ4Qp3Kqb+NIAQHjpyms6seDHqUav2Bqh5OK/kC2mJ7/515DdzQKEGfkPAZs2qDQfngDQwQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@lmzhen/dsh-evolution-all",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lmzhen/dsh-evolution",
+    "commit": "aeedc8fea32a6a48c0c63ea34e9147e5081d1541",
+    "releaseTags": 311,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:09:21.461Z"
+}

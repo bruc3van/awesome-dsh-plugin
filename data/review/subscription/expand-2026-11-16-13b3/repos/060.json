@@ -1,0 +1,142 @@
+{
+  "full_name": "chaojixinren/dsh-reviewer-bot",
+  "originalPosition": 60,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 60,
+  "batch": 1,
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T12:23:24.576Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ac6b4acf5187961ea9ba4f280625728e8b87afe59c34b5e2c69d185e41b4cc23",
+      "url": "https://github.com/chaojixinren/dsh-reviewer-bot/blob/90e1906b3e00f2109af33d0246b00b814e7e0c49/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dshrb/bundle",
+          "command": "dsh plugin --profile <name> add @dshrb/bundle",
+          "profile": "default"
+        },
+        {
+          "install": "@dshrb/bundle",
+          "command": "dsh plugin --profile web add @dshrb/bundle",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "013f55c65c0c47351034dde7866c7cd99a674b91a9d967fbbbb61c696062e5c2",
+      "url": "https://github.com/chaojixinren/dsh-reviewer-bot/blob/90e1906b3e00f2109af33d0246b00b814e7e0c49/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dshrb/bundle",
+          "command": "dsh plugin --profile <name> add @dshrb/bundle",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dshrb/bundle",
+      "version": "0.1.6",
+      "path": "bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chaojixinren/dsh-reviewer-bot",
+        "commit": "90e1906b3e00f2109af33d0246b00b814e7e0c49",
+        "path": "bundle"
+      },
+      "manifestSha256": "c468b165453347cb8642ba7b90a33e2b0e034aad34d9e4871df0fa2d83d01545",
+      "manifestUrl": "https://github.com/chaojixinren/dsh-reviewer-bot/blob/90e1906b3e00f2109af33d0246b00b814e7e0c49/bundle/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dshrb/bundle",
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1787284517,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chaojixinren/dsh-reviewer-bot",
+              "commit": "90e1906b3e00f2109af33d0246b00b814e7e0c49",
+              "path": "bundle"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@dshrb/bundle",
+      "origin": "npm",
+      "name": "@dshrb/bundle",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dshrb/bundle",
+        "title": "@dshrb/bundle",
+        "description": "DSH bundle: installs DSH Reviewer Bot into a profile with `dsh plugin --profile <name> add`.",
+        "repository": {
+          "url": "https://github.com/chaojixinren/dsh-reviewer-bot",
+          "directory": "bundle"
+        },
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1786888329,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "46d74b89e620764cff33bac13000fcc6bb89d67000f6b3331348e9e7e23dd8e7",
+      "evidence": [
+        {
+          "name": "@dshrb/bundle",
+          "version": "0.1.5",
+          "tarball": "https://registry.npmjs.org/@dshrb/bundle/-/bundle-0.1.5.tgz",
+          "integrity": "sha512-wc5VB9BH29vaevXM7JpKwHs97RPRfEdqV2h/Y6EAyj8BzwqTWDH6qfyrSwcGZ+JcAX4ONnDEqP+Ofk106j7kcw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dshrb/bundle",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chaojixinren/dsh-reviewer-bot",
+    "commit": "90e1906b3e00f2109af33d0246b00b814e7e0c49",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:24:02.854Z"
+}

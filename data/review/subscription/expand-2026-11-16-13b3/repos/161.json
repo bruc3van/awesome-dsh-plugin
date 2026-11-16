@@ -1,0 +1,190 @@
+{
+  "full_name": "Funny1Potato/dsh-onebot-hub",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:48.333Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "496fe7577c2b6c24d68998b57d9bc9ef31393c252a4a9f80594c19220225dbe5",
+      "url": "https://github.com/Funny1Potato/dsh-onebot-hub/blob/2e8743b42d2107198d162b4bc5a0c371ada1b8be/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-onebot-hub",
+          "command": "dsh plugin --profile <你的 profile> add dsh-onebot-hub",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-onebot-hub@0.12.0",
+          "command": "dsh plugin --profile <profile> add dsh-onebot-hub@0.12.0",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-onebot-hub",
+      "version": "0.13.0-beta.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Funny1Potato/dsh-onebot-hub",
+        "commit": "2e8743b42d2107198d162b4bc5a0c371ada1b8be"
+      },
+      "manifestSha256": "d97246950edf90258d51e525952f8fdbe712c8f698ffa8cab01e501e85015bb9",
+      "manifestUrl": "https://github.com/Funny1Potato/dsh-onebot-hub/blob/2e8743b42d2107198d162b4bc5a0c371ada1b8be/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-onebot-hub",
+        "versions": [
+          {
+            "version": "0.13.0-beta.5",
+            "publishTimestamp": 1794657657,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Funny1Potato/dsh-onebot-hub",
+              "commit": "2e8743b42d2107198d162b4bc5a0c371ada1b8be"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-onebot-hub",
+      "origin": "npm",
+      "name": "dsh-onebot-hub",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-onebot-hub",
+        "title": "dsh-onebot-hub",
+        "description": "OneBot v11 hub for DeepSeek Harness: connects to an upstream OneBot v11 implementation (forward WebSocket client) and serves/dials downstream bot implementations with the same protocol, relaying events and actions verbatim so DSH can observe every message and learn how each downstream bot is used.",
+        "author": "Funny1Potato",
+        "homepage": "https://github.com/Funny1Potato/dsh-onebot-hub#readme",
+        "repository": {
+          "url": "https://github.com/Funny1Potato/dsh-onebot-hub"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "onebot",
+            "onebot-v11",
+            "qq",
+            "nonebot",
+            "agent",
+            "llm"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.12.6",
+            "publishTimestamp": 1793611509,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1388de50a2b494e6278be0c2dd0f311387a423a40762d185b7f94b5aa458fbc7",
+      "evidence": [
+        {
+          "name": "dsh-onebot-hub",
+          "version": "0.12.6",
+          "tarball": "https://registry.npmjs.org/dsh-onebot-hub/-/dsh-onebot-hub-0.12.6.tgz",
+          "integrity": "sha512-ZUinBiR4pp/Xm1I85/wa/MZM0IlIN5xS0CiAYX+mPsDUbasLEjW0Bol688nw0Lumkg75TFpGLXDA+LLaSbQHog=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-onebot-hub@0.12.0",
+      "origin": "npm",
+      "name": "dsh-onebot-hub",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-onebot-hub",
+        "title": "dsh-onebot-hub",
+        "description": "OneBot v11 hub for DeepSeek Harness: connects to an upstream OneBot v11 implementation (forward WebSocket client) and serves/dials downstream bot implementations with the same protocol, relaying events and actions verbatim so DSH can observe every message and learn how each downstream bot is used.",
+        "author": "Funny1Potato",
+        "homepage": "https://github.com/Funny1Potato/dsh-onebot-hub#readme",
+        "repository": {
+          "url": "https://github.com/Funny1Potato/dsh-onebot-hub"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "onebot",
+            "onebot-v11",
+            "qq",
+            "nonebot",
+            "agent",
+            "llm"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1793273929,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1388de50a2b494e6278be0c2dd0f311387a423a40762d185b7f94b5aa458fbc7",
+      "evidence": [
+        {
+          "name": "dsh-onebot-hub",
+          "version": "0.12.0",
+          "tarball": "https://registry.npmjs.org/dsh-onebot-hub/-/dsh-onebot-hub-0.12.0.tgz",
+          "integrity": "sha512-ivoDwjcY8v7fqG6BLXg6MsW9pLp5Qstih0gDA+3Ym/7FwFPEVoVfje/uIAAEt4yQNYwoV6Q0755+8CwQgLzkyg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-onebot-hub",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-onebot-hub@0.12.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Funny1Potato/dsh-onebot-hub",
+    "commit": "2e8743b42d2107198d162b4bc5a0c371ada1b8be",
+    "releaseTags": 42,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:04.052Z"
+}

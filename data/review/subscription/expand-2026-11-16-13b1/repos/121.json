@@ -1,0 +1,145 @@
+{
+  "full_name": "TonyWu2333/dsh-mercury-diffusion",
+  "originalPosition": 121,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 121,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:30.820Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2f245f472af91702166722110b6274407a8613a5625daf58c8f0064f423bb315",
+      "url": "https://github.com/TonyWu2333/dsh-mercury-diffusion/blob/4cc9f4f6d624681d2f14d565dd5fc2a71868f8a4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mercury-diffusion",
+          "command": "dsh plugin --profile web add dsh-mercury-diffusion",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "1cde4d3155b63da0e7f895f4f2f8eeb2941b6f05d720d1694d6111b8ed00166e",
+      "url": "https://github.com/TonyWu2333/dsh-mercury-diffusion/blob/4cc9f4f6d624681d2f14d565dd5fc2a71868f8a4/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mercury-diffusion",
+          "command": "dsh plugin --profile web add dsh-mercury-diffusion",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mercury-diffusion",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TonyWu2333/dsh-mercury-diffusion",
+        "commit": "4cc9f4f6d624681d2f14d565dd5fc2a71868f8a4"
+      },
+      "manifestSha256": "405c221d9e45919a523414ac63e479f8cfca3fab51a25e7b7e74f71cd9b8fe44",
+      "manifestUrl": "https://github.com/TonyWu2333/dsh-mercury-diffusion/blob/4cc9f4f6d624681d2f14d565dd5fc2a71868f8a4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-mercury-diffusion",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1793032344,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TonyWu2333/dsh-mercury-diffusion",
+              "commit": "4cc9f4f6d624681d2f14d565dd5fc2a71868f8a4"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-mercury-diffusion",
+      "origin": "npm",
+      "name": "dsh-mercury-diffusion",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mercury-diffusion",
+        "title": "dsh-mercury-diffusion",
+        "description": "DeepSeek Harness plugin that renders Inception Mercury's diffusion (denoising) stream live in the Web UI",
+        "author": "TonyWu",
+        "homepage": "https://github.com/TonyWu2333/dsh-mercury-diffusion#readme",
+        "repository": {
+          "url": "https://github.com/TonyWu2333/dsh-mercury-diffusion"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "mercury",
+            "inception",
+            "diffusion"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1792570577,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "975d5445f96f6e6c05e38c59f41df2d1cec30904c50ce39c78478eee10378976",
+      "evidence": [
+        {
+          "name": "dsh-mercury-diffusion",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-mercury-diffusion/-/dsh-mercury-diffusion-0.2.1.tgz",
+          "integrity": "sha512-DrmJOcOAOXX0BJnM5WwloJSqT2tQ8Lwhs8eAfCRHxhhp4tlf8u9zb6bBohknx6P3OPjug7Njg1h7bQEnxcGlag=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mercury-diffusion",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TonyWu2333/dsh-mercury-diffusion",
+    "commit": "4cc9f4f6d624681d2f14d565dd5fc2a71868f8a4",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:42.349Z"
+}

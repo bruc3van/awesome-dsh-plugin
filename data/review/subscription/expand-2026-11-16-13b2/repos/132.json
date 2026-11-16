@@ -1,0 +1,78 @@
+{
+  "full_name": "zetaluolang-cyber/deepseek-harness-phone-remote",
+  "originalPosition": 132,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 132,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:18:06.661Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5c1ebad5a2bfa86ce89e95e98bbb843e51d2ca6af7297a1eb490c6e902eebc72",
+      "url": "https://github.com/zetaluolang-cyber/deepseek-harness-phone-remote/blob/a9b1353361bb225bd99f914cb2ea1c503cb62167/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zetaluolang/remfs-persistent",
+          "command": "dsh plugin --profile web add @zetaluolang/remfs-persistent",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "a0357671b81f43046bb1b2dfa73f803c2025b2150ad955c177f33c647ae64127",
+      "url": "https://github.com/zetaluolang-cyber/deepseek-harness-phone-remote/blob/a9b1353361bb225bd99f914cb2ea1c503cb62167/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zetaluolang/remfs-persistent",
+          "command": "dsh plugin --profile web add @zetaluolang/remfs-persistent",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "target": "@zetaluolang/remfs-persistent",
+      "origin": "npm",
+      "name": "@zetaluolang/remfs-persistent",
+      "version": "1.0.1",
+      "code": "not_dsh_bundle",
+      "status": "invalid_manifest",
+      "reason": "not a declared DSH bundle",
+      "statusCode": "not_dsh_bundle",
+      "registrySha256": "ba5019814f63a939148976d6314c93a71c0a293a4215fd666eb8bfe2db18d713"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@zetaluolang/remfs-persistent",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zetaluolang-cyber/deepseek-harness-phone-remote",
+    "commit": "a9b1353361bb225bd99f914cb2ea1c503cb62167",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:18:16.877Z"
+}

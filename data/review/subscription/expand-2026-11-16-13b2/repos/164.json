@@ -1,0 +1,69 @@
+{
+  "full_name": "SAOS-3624/see-on-phone",
+  "originalPosition": 164,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 164,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:12.428Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "556700e35904348558c41a43937b6e8a5e8e3ce9923ff753316cbfa2039fc61b",
+      "url": "https://github.com/SAOS-3624/see-on-phone/blob/d6605fb3106bb113957077741bc044ae5cf228f0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-see-on-phone",
+      "version": "2.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SAOS-3624/see-on-phone",
+        "commit": "d6605fb3106bb113957077741bc044ae5cf228f0"
+      },
+      "manifestSha256": "aa2f79ca9c45455aa73021ad6fc41c7369883a6a02bb0d877705e5cc3257bdb9",
+      "manifestUrl": "https://github.com/SAOS-3624/see-on-phone/blob/d6605fb3106bb113957077741bc044ae5cf228f0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.7",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-see-on-phone",
+        "versions": [
+          {
+            "version": "2.3.0",
+            "publishTimestamp": 1794720094,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SAOS-3624/see-on-phone",
+              "commit": "d6605fb3106bb113957077741bc044ae5cf228f0"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SAOS-3624/see-on-phone",
+    "commit": "d6605fb3106bb113957077741bc044ae5cf228f0",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:20.981Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "Chengyunlai/dsh-workbench",
+  "originalPosition": 167,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 167,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:09:53.209Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1013146ae129be8d203d92d9b3847abadc298e1ec9e8121b498b186d3b930830",
+      "url": "https://github.com/Chengyunlai/dsh-workbench/blob/6927871ec1e43f276b236b6d5a5a5637880e08c4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yunlai/dsh-workbench",
+      "version": "1.6.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Chengyunlai/dsh-workbench",
+        "commit": "6927871ec1e43f276b236b6d5a5a5637880e08c4"
+      },
+      "manifestSha256": "caf0ec180f655b088bd9a2c760820667e1d9714b4fd5343b47039596690d7756",
+      "manifestUrl": "https://github.com/Chengyunlai/dsh-workbench/blob/6927871ec1e43f276b236b6d5a5a5637880e08c4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@yunlai/dsh-workbench",
+        "versions": [
+          {
+            "version": "1.6.5",
+            "publishTimestamp": 1794397867,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Chengyunlai/dsh-workbench",
+              "commit": "6927871ec1e43f276b236b6d5a5a5637880e08c4"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Chengyunlai/dsh-workbench",
+    "commit": "6927871ec1e43f276b236b6d5a5a5637880e08c4",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:03.278Z"
+}

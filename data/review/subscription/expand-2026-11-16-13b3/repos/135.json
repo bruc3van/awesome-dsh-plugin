@@ -1,0 +1,139 @@
+{
+  "full_name": "zhtx2024/dsh-pdf",
+  "originalPosition": 135,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 135,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:58.732Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "abc5e122c36b4509e5ae9711802d2c8b9d245e5ccf8f6a813cbf4bb57aa55453",
+      "url": "https://github.com/zhtx2024/dsh-pdf/blob/38bfbc0dcd2eae0c3ad6a1d4340b91d01b04f8fe/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zhtx2026/dsh-pdf",
+          "command": "dsh plugin --profile web add @zhtx2026/dsh-pdf",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "86d901b5be2e73cb7075c701492a2ebdd9a1def634d2c8f53577462341c14635",
+      "url": "https://github.com/zhtx2024/dsh-pdf/blob/38bfbc0dcd2eae0c3ad6a1d4340b91d01b04f8fe/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zhtx2026/dsh-pdf",
+          "command": "dsh plugin --profile web add @zhtx2026/dsh-pdf",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zhtx2026/dsh-pdf",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhtx2024/dsh-pdf",
+        "commit": "38bfbc0dcd2eae0c3ad6a1d4340b91d01b04f8fe"
+      },
+      "manifestSha256": "46f59d9dd9748da181d282b42c80d4cb6c2a95c45e4cd1421cf82f566a77af24",
+      "manifestUrl": "https://github.com/zhtx2024/dsh-pdf/blob/38bfbc0dcd2eae0c3ad6a1d4340b91d01b04f8fe/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@zhtx2026/dsh-pdf",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1787199569,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhtx2024/dsh-pdf",
+              "commit": "38bfbc0dcd2eae0c3ad6a1d4340b91d01b04f8fe"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@zhtx2026/dsh-pdf",
+      "origin": "npm",
+      "name": "@zhtx2026/dsh-pdf",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@zhtx2026/dsh-pdf",
+        "title": "@zhtx2026/dsh-pdf",
+        "description": "DSH PDF 解析插件: 为 agent 提供 pdf_info / pdf_extract_text / pdf_render_page 三个工具。基于 pdfjs-dist + @napi-rs/canvas; 对未内嵌字体的 PDF (如嘉立创EDA导出) 自动改用系统字体渲染文字。热插拔 — 通过 cordis.patch.yml + profile node_modules 软链接挂载, 无需改动 dsh 源码。",
+        "repository": {
+          "url": "https://github.com/zhtx2024/dsh-pdf"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "pdf",
+            "pdfjs",
+            "plugin",
+            "agent-tool"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1787199417,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0b8876ef104be9749c9e7382e53585b5c0ac0df72d6e44ba1174a9366360fe88",
+      "evidence": [
+        {
+          "name": "@zhtx2026/dsh-pdf",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/@zhtx2026/dsh-pdf/-/dsh-pdf-0.1.1.tgz",
+          "integrity": "sha512-SG+G4e+dzq71K7glkVBBuA73fptxo2Pxtu3VuVnZK7LkHtaNBdCzMc6cI+pUcAKTfYikeo5qpsqrrLZcXfLJTA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@zhtx2026/dsh-pdf",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhtx2024/dsh-pdf",
+    "commit": "38bfbc0dcd2eae0c3ad6a1d4340b91d01b04f8fe",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:09.482Z"
+}

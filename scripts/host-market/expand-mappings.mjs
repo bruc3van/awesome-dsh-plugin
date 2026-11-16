@@ -247,7 +247,7 @@ export function proposeRecord(record) {
 }
 
 export function planOutsidePool(
-  { snapshot, curated, approved, packages },
+  { snapshot, curated, approved, packages, skipNames },
   size = 200,
 ) {
   const mapped = new Set(
@@ -255,7 +255,10 @@ export function planOutsidePool(
   )
   const { repos } = filterPool(snapshot, curated, approved)
   const pending = repos
-    .filter(({ repo }) => !mapped.has(String(repo.full_name).toLowerCase()))
+    .filter(({ repo }) => {
+      const name = String(repo.full_name).toLowerCase()
+      return !mapped.has(name) && !skipNames?.has(name)
+    })
     .sort(
       (left, right) =>
         right.repo.stargazers_count - left.repo.stargazers_count ||
@@ -332,6 +335,40 @@ async function evidenceRecords() {
   return records
 }
 
+// Same-day terminal outcomes: evidence gathered today concluded these repos
+// cannot be mapped today. Re-inspecting them within the same day wastes the
+// batch budget on identical probes, so the plan digs past them into fresh
+// repositories. Tomorrow's evidence starts clean — upstream READMEs change,
+// and the daily crawl is what lets skipped repos come back.
+const TERMINAL_SKIP_OUTCOMES = new Set([
+  'no_eligible_bundle_found',
+  'manual_install_review',
+  'needs_upstream_declaration',
+  'template_or_example_review',
+])
+
+async function sameDaySkipNames(date) {
+  const base = resolve(root, 'data/review/subscription')
+  const skips = new Set()
+  if (!existsSync(base)) return skips
+  for (const run of await readdir(base, { withFileTypes: true })) {
+    if (!run.isDirectory() || !run.name.startsWith(`expand-${date}`)) continue
+    const repos = resolve(base, run.name, 'repos')
+    if (!existsSync(repos)) continue
+    for (const name of await readdir(repos)) {
+      if (!name.endsWith('.json')) continue
+      try {
+        const record = JSON.parse(await readFile(resolve(repos, name), 'utf8'))
+        if (TERMINAL_SKIP_OUTCOMES.has(record.outcome))
+          skips.add(String(record.full_name).toLowerCase())
+      } catch {
+        // A torn record from a concurrent write must not take the batch down.
+      }
+    }
+  }
+  return skips
+}
+
 async function loadJson(name) {
   return JSON.parse(await readFile(resolve(root, name), 'utf8'))
 }
@@ -344,6 +381,8 @@ async function main() {
   }
   const size = Number(value('--size') ?? 200)
   const date = (value('--date') ?? new Date().toISOString().slice(0, 10))
+  const label = value('--label') ?? ''
+  if (!/^[\w.-]{0,16}$/.test(label)) throw new Error('--label must be 0..16 word characters')
   if (!Number.isInteger(size) || size < 1 || size > 200)
     throw new Error('--size must be 1..200')
   const packages = await loadJson('data/packages.json')
@@ -377,13 +416,19 @@ async function main() {
   const inspect = args.includes('--inspect') || args.includes('--fill')
   if (inspect && indexCount < MAX_PLUGINS) {
     const plan = planOutsidePool(
-      { snapshot, curated, approved, packages: { entries: Object.fromEntries([...mapped].map((key) => [key, true])) } },
+      {
+        snapshot,
+        curated,
+        approved,
+        packages: { entries: Object.fromEntries([...mapped].map((key) => [key, true])) },
+        skipNames: await sameDaySkipNames(date),
+      },
       size,
     )
     const dir = resolve(
       root,
       'data/review/subscription',
-      `expand-${date}`,
+      `expand-${date}${label}`,
     )
     await mkdir(resolve(dir, 'repos'), { recursive: true })
     let next = 0

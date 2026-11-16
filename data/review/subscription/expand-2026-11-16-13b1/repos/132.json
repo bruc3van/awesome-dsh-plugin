@@ -1,0 +1,42 @@
+{
+  "full_name": "chen-001/dsh-grok-tui",
+  "originalPosition": 132,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 132,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:59.908Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "afe176fe2569b3e227f56d6cf56ff81bc2102537d7ae4b92b63623d963ae7638",
+      "url": "https://github.com/chen-001/dsh-grok-tui/blob/389d4a73c96375196af7f67784cd234bcb6bf54d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chen-001/dsh-grok-tui",
+    "commit": "389d4a73c96375196af7f67784cd234bcb6bf54d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-grok-tui",
+    "version": "0.3.8",
+    "dsh": null,
+    "engines": {
+      "node": "^22.19.0 || >=24.0.0"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:08:10.546Z"
+}

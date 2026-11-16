@@ -1,0 +1,69 @@
+{
+  "full_name": "my-dsh/deepseek-intelligent-ui",
+  "originalPosition": 95,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 95,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:06:21.313Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3eacebe1ac191e02bf5b0514b439afcd1c9a5cefafa2bdc2f551d1b700a024bb",
+      "url": "https://github.com/my-dsh/deepseek-intelligent-ui/blob/0b08749c9969cad34166566340f6c9464ea77b6c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@my-dsh/dsh-intelligent-ui",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/my-dsh/deepseek-intelligent-ui",
+        "commit": "0b08749c9969cad34166566340f6c9464ea77b6c"
+      },
+      "manifestSha256": "80ae3bf48b108f62fef6f2eebac52436b38ae5c83a305e71406bde6282ffa8d3",
+      "manifestUrl": "https://github.com/my-dsh/deepseek-intelligent-ui/blob/0b08749c9969cad34166566340f6c9464ea77b6c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-alpha.4",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@my-dsh/dsh-intelligent-ui",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1792242357,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/my-dsh/deepseek-intelligent-ui",
+              "commit": "0b08749c9969cad34166566340f6c9464ea77b6c"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.4"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/my-dsh/deepseek-intelligent-ui",
+    "commit": "0b08749c9969cad34166566340f6c9464ea77b6c",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:06:29.488Z"
+}

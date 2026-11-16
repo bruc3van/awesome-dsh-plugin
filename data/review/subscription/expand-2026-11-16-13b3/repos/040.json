@@ -1,0 +1,101 @@
+{
+  "full_name": "Mars-Sea/dsh-deeppilot",
+  "originalPosition": 40,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 40,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T12:22:26.292Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b148223897bbab178a8c13eedfd7d439b9e89cba1a7fe66a9537b519a4d1acdf",
+      "url": "https://github.com/Mars-Sea/dsh-deeppilot/blob/6e60ffcc7422256ea8151518411576dc81f0789d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deeppilot",
+          "command": "dsh plugin --profile web add dsh-deeppilot",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "e8be119a5ef24cb433d31285dd6227ebc88640ac886cd35e682ba1b8ca674c3f",
+      "url": "https://github.com/Mars-Sea/dsh-deeppilot/blob/6e60ffcc7422256ea8151518411576dc81f0789d/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deeppilot",
+          "command": "dsh plugin --profile web add dsh-deeppilot",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deeppilot",
+      "version": "0.9.24",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mars-Sea/dsh-deeppilot",
+        "commit": "6e60ffcc7422256ea8151518411576dc81f0789d"
+      },
+      "manifestSha256": "96aeb02af713e9445c9453370ffba4c15b45477895e127745f083acbe354bdb9",
+      "manifestUrl": "https://github.com/Mars-Sea/dsh-deeppilot/blob/6e60ffcc7422256ea8151518411576dc81f0789d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-deeppilot",
+        "versions": [
+          {
+            "version": "0.9.24",
+            "publishTimestamp": 1794800180,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Mars-Sea/dsh-deeppilot",
+              "commit": "6e60ffcc7422256ea8151518411576dc81f0789d"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-deeppilot",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "install_target",
+      "target": "dsh-deeppilot",
+      "reason": "The operation was aborted due to timeout"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Mars-Sea/dsh-deeppilot",
+    "commit": "6e60ffcc7422256ea8151518411576dc81f0789d",
+    "releaseTags": 44,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T12:23:36.486Z"
+}

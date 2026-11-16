@@ -1,0 +1,159 @@
+{
+  "full_name": "Lee-Hilex/dsh-mineru",
+  "originalPosition": 180,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 180,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:21.851Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "92824057b6cc0d3727e1fe13ae680e5e2817a4893a13eccc86f1b1692452518b",
+      "url": "https://github.com/Lee-Hilex/dsh-mineru/blob/695ab209831e99880bbfbfbd95be7a660153e020/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mineru",
+          "command": "dsh plugin --profile web add dsh-mineru",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mineru",
+          "command": "dsh plugin --profile headless add dsh-mineru",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "980ed823485fcfd84c4ffe0f20ce70ef3c556b4abc5a48274bef4141920bcaff",
+      "url": "https://github.com/Lee-Hilex/dsh-mineru/blob/695ab209831e99880bbfbfbd95be7a660153e020/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mineru",
+          "command": "dsh plugin --profile web add dsh-mineru",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mineru",
+          "command": "dsh plugin --profile headless add dsh-mineru",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mineru",
+      "version": "0.1.18",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lee-Hilex/dsh-mineru",
+        "commit": "695ab209831e99880bbfbfbd95be7a660153e020"
+      },
+      "manifestSha256": "7b5bc759b7a26f75954e0e08adbf7cc802da8ec4e8b9e4e6b5c57ddc1d9684eb",
+      "manifestUrl": "https://github.com/Lee-Hilex/dsh-mineru/blob/695ab209831e99880bbfbfbd95be7a660153e020/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-mineru",
+        "versions": [
+          {
+            "version": "0.1.18",
+            "publishTimestamp": 1794399696,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Lee-Hilex/dsh-mineru",
+              "commit": "695ab209831e99880bbfbfbd95be7a660153e020"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-mineru",
+      "origin": "npm",
+      "name": "dsh-mineru",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mineru",
+        "title": "dsh-mineru",
+        "description": "dsh-mineru: MinerU 文档解析插件 for DeepSeek Harness — 多模态全格式 (PDF/Word/PPT/Excel/HTML/图片) → 结构化 Markdown. 填 Token 走精准解析 API, 留空走 Agent 轻量解析 API. 注意: 解析需把文件上传至 MinerU 远端(内容出网), 无完全离线模式, 涉密/不得出网材料请勿使用.",
+        "author": "Lee-Hilex",
+        "homepage": "https://github.com/Lee-Hilex/dsh-mineru#readme",
+        "repository": {
+          "url": "https://github.com/Lee-Hilex/dsh-mineru"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "mineru",
+            "document-parsing",
+            "pdf",
+            "ocr",
+            "markdown",
+            "multimodal"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.18",
+            "publishTimestamp": 1794400073,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0b8cfdeb77e1ac1418db107e8ead9b1839b4dc02005133a919e9242d8b27d490",
+      "evidence": [
+        {
+          "name": "dsh-mineru",
+          "version": "0.1.18",
+          "tarball": "https://registry.npmjs.org/dsh-mineru/-/dsh-mineru-0.1.18.tgz",
+          "integrity": "sha512-jkywurbVdyOp02i9PwQoL3pzbXrNSYgo/PB1yAYCa0lH/Z0CaIIgTeD+Q/poxQg3HlBYmaU9xyOhWmWQv6coGw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mineru",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lee-Hilex/dsh-mineru",
+    "commit": "695ab209831e99880bbfbfbd95be7a660153e020",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:33.229Z"
+}

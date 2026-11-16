@@ -1,0 +1,48 @@
+{
+  "full_name": "XieRW/dsh-beauty-skins",
+  "originalPosition": 16,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 16,
+  "batch": 1,
+  "stargazers_count": 101,
+  "startedAt": "2026-11-16T12:02:08.546Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d5159b5fc8511510163bec974562cbf74f1123342d69763d70d1f3fc1ffc278a",
+      "url": "https://github.com/XieRW/dsh-beauty-skins/blob/28e4e38e99c8f8636f3d220891816a0899a93084/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "1ccbf9250406348161e06da5ba9527f93a5c73900a3188de3005e18331096578",
+      "url": "https://github.com/XieRW/dsh-beauty-skins/blob/28e4e38e99c8f8636f3d220891816a0899a93084/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XieRW/dsh-beauty-skins",
+    "commit": "28e4e38e99c8f8636f3d220891816a0899a93084",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:02:16.791Z"
+}

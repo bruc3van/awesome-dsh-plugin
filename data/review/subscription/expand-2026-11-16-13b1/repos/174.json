@@ -1,0 +1,144 @@
+{
+  "full_name": "GooDAnDReaDY/dsh-moa",
+  "originalPosition": 174,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 174,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:09.508Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f623858d686b53747c416e388149a6f4dbd0a77484cd05b411985841ec277999",
+      "url": "https://github.com/GooDAnDReaDY/dsh-moa/blob/13612bae9d267b2ef5887f09b75961006403aa19/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-moa",
+          "command": "dsh plugin --profile web add @goodandready/dsh-moa",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c442b84a4baf90b46731288fe18ae36eec6ed6d55bade059cab20f12ba3e6113",
+      "url": "https://github.com/GooDAnDReaDY/dsh-moa/blob/13612bae9d267b2ef5887f09b75961006403aa19/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-moa",
+          "command": "dsh plugin --profile web add @goodandready/dsh-moa",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@goodandready/dsh-moa",
+      "version": "0.2.89",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GooDAnDReaDY/dsh-moa",
+        "commit": "13612bae9d267b2ef5887f09b75961006403aa19"
+      },
+      "manifestSha256": "1f4e4fa535895af61054f39d89335b573832e1bfbebc626b593163e25e0a2cbe",
+      "manifestUrl": "https://github.com/GooDAnDReaDY/dsh-moa/blob/13612bae9d267b2ef5887f09b75961006403aa19/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-rc.2 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@goodandready/dsh-moa",
+        "versions": [
+          {
+            "version": "0.2.89",
+            "publishTimestamp": 1794472973,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GooDAnDReaDY/dsh-moa",
+              "commit": "13612bae9d267b2ef5887f09b75961006403aa19"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@goodandready/dsh-moa",
+      "origin": "npm",
+      "name": "@goodandready/dsh-moa",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@goodandready/dsh-moa",
+        "title": "@goodandready/dsh-moa",
+        "description": "Mixture of Agents (MoA) plugin for DeepSeek Harness with /moa slash command",
+        "homepage": "https://github.com/GooDAnDReaDY/dsh-moa#readme",
+        "repository": {
+          "url": "https://github.com/GooDAnDReaDY/dsh-moa"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "moa",
+            "mixture-of-agents",
+            "slash-command"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.89",
+            "publishTimestamp": 1794473078,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a09bdc2b63acdc36b1529bebca241abd227520a3166b1c01633359591b8fd68e",
+      "evidence": [
+        {
+          "name": "@goodandready/dsh-moa",
+          "version": "0.2.89",
+          "tarball": "https://registry.npmjs.org/@goodandready/dsh-moa/-/dsh-moa-0.2.89.tgz",
+          "integrity": "sha512-DwwmcnsuZGRZMXkEjHOTykOJzxgCbSjXy3R4HvWVRzOWK0smC5RXK10NwsiHD++yQ38TWjqDJXgWXVloA828TQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@goodandready/dsh-moa",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GooDAnDReaDY/dsh-moa",
+    "commit": "13612bae9d267b2ef5887f09b75961006403aa19",
+    "releaseTags": 90,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:21.797Z"
+}

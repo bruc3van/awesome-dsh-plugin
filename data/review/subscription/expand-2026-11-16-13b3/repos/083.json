@@ -1,0 +1,133 @@
+{
+  "full_name": "drscrewdriver/dsh-patch-edit-plus",
+  "originalPosition": 83,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 83,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:24:14.472Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9b3fc7aee42bb6f685282e2d203e7bbc91d879ba737fd527b9b9097c159f5a90",
+      "url": "https://github.com/drscrewdriver/dsh-patch-edit-plus/blob/9f39d74d24a236b5f2fa664d89401f965487a715/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7e4c53f110125300bab86955398e9fd5234a69906f998b7322a3298d22f19cf7",
+      "url": "https://github.com/drscrewdriver/dsh-patch-edit-plus/blob/9f39d74d24a236b5f2fa664d89401f965487a715/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "e22b2baf6b16f1a86360d70a850aec6da4404a36c0d28e73bc64438ea2b2eea0",
+      "url": "https://github.com/drscrewdriver/dsh-patch-edit-plus/blob/9f39d74d24a236b5f2fa664d89401f965487a715/README.ja.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.ko.md",
+      "sha256": "7f0d69828c25fd9ffd3922b8994f5618737f8e9a4ea564a8c7c35fa6b3b1a0e3",
+      "url": "https://github.com/drscrewdriver/dsh-patch-edit-plus/blob/9f39d74d24a236b5f2fa664d89401f965487a715/README.ko.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "6cfdc46d303e2794ecc5484e52f5820dd26bda80f9e1132ac7b858222f611377",
+      "url": "https://github.com/drscrewdriver/dsh-patch-edit-plus/blob/9f39d74d24a236b5f2fa664d89401f965487a715/README.fr.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "29d02a7651c0723f974ce8a376c3217e13b2d52b6b27d66fb418266d606b0052",
+      "url": "https://github.com/drscrewdriver/dsh-patch-edit-plus/blob/9f39d74d24a236b5f2fa664d89401f965487a715/README.de.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.it.md",
+      "sha256": "82a2ac374936189b0c2012d70951aad97eaeab3d7298437b1210bdfdf265415f",
+      "url": "https://github.com/drscrewdriver/dsh-patch-edit-plus/blob/9f39d74d24a236b5f2fa664d89401f965487a715/README.it.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "abccceafc855403b7a315091855341ed015cf25e8e5be521ab12602a3617ff76",
+      "url": "https://github.com/drscrewdriver/dsh-patch-edit-plus/blob/9f39d74d24a236b5f2fa664d89401f965487a715/README.ru.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "b0e4d47674e944f6e5b3414c1a43bb09fe113420d83e8c45528810a26579fec7",
+      "url": "https://github.com/drscrewdriver/dsh-patch-edit-plus/blob/9f39d74d24a236b5f2fa664d89401f965487a715/README.es.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-patch-edit-plus",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/drscrewdriver/dsh-patch-edit-plus",
+        "commit": "9f39d74d24a236b5f2fa664d89401f965487a715"
+      },
+      "manifestSha256": "41634d2ee0c332535d2585ee5c68d3f5e332be095053ffd0bf95b6a19411ede3",
+      "manifestUrl": "https://github.com/drscrewdriver/dsh-patch-edit-plus/blob/9f39d74d24a236b5f2fa664d89401f965487a715/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.2.1-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-patch-edit-plus",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1793863346,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-patch-edit-plus",
+              "commit": "9f39d74d24a236b5f2fa664d89401f965487a715"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.2.1-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/drscrewdriver/dsh-patch-edit-plus",
+    "commit": "9f39d74d24a236b5f2fa664d89401f965487a715",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:24:35.784Z"
+}

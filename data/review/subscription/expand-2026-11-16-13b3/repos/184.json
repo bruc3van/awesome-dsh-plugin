@@ -1,0 +1,178 @@
+{
+  "full_name": "Ragnoryok1/dsh-client-locale-ru",
+  "originalPosition": 184,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 184,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:50.893Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7d95298e721ce2d843c27311735802511495a5d107ba5f4f4e193c7e675f72e9",
+      "url": "https://github.com/Ragnoryok1/dsh-client-locale-ru/blob/f25f2c86cc60d7bdc189227dde3f9b6bb505e949/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ragnoryok1/dsh-client-locale-ru",
+          "command": "dsh plugin --profile web add @ragnoryok1/dsh-client-locale-ru\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-en.md",
+      "sha256": "d5e48d27b718f96eb117dd0885a9c629e3369f7a4b0c06a8c9e878501c89bb26",
+      "url": "https://github.com/Ragnoryok1/dsh-client-locale-ru/blob/f25f2c86cc60d7bdc189227dde3f9b6bb505e949/README-en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ragnoryok1/dsh-client-locale-ru",
+          "command": "dsh plugin --profile web add @ragnoryok1/dsh-client-locale-ru\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "cc7e0ea564f2d06afbbf1bd79e2022089cd87e06e99672694da074cd792979c5",
+      "url": "https://github.com/Ragnoryok1/dsh-client-locale-ru/blob/f25f2c86cc60d7bdc189227dde3f9b6bb505e949/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ragnoryok1/dsh-client-locale-ru",
+          "command": "dsh plugin --profile web add @ragnoryok1/dsh-client-locale-ru\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ragnoryok1/dsh-client-locale-ru",
+      "version": "0.2.29",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ragnoryok1/dsh-client-locale-ru",
+        "commit": "f25f2c86cc60d7bdc189227dde3f9b6bb505e949"
+      },
+      "manifestSha256": "bf6a1657be843224e141c37a1ec42934c47f267bb9eaed340dfc8efcca0d2d35",
+      "manifestUrl": "https://github.com/Ragnoryok1/dsh-client-locale-ru/blob/f25f2c86cc60d7bdc189227dde3f9b6bb505e949/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.1.1-0 || >=0.1.1-0 <0.1.2-0 || >=0.1.2-0 <0.1.3-0 || >=0.1.3-0 <0.1.5-0 || >=0.1.5-0 <0.1.6-0 || >=0.1.6-0 <0.1.7-0 || >=0.1.7-0 <0.2.0-0 || >=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@ragnoryok1/dsh-client-locale-ru",
+        "versions": [
+          {
+            "version": "0.2.29",
+            "publishTimestamp": 1794665904,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ragnoryok1/dsh-client-locale-ru",
+              "commit": "f25f2c86cc60d7bdc189227dde3f9b6bb505e949"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.1.1-0 || >=0.1.1-0 <0.1.2-0 || >=0.1.2-0 <0.1.3-0 || >=0.1.3-0 <0.1.5-0 || >=0.1.5-0 <0.1.6-0 || >=0.1.6-0 <0.1.7-0 || >=0.1.7-0 <0.2.0-0 || >=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@ragnoryok1/dsh-client-locale-ru",
+      "origin": "npm",
+      "name": "@ragnoryok1/dsh-client-locale-ru",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@ragnoryok1/dsh-client-locale-ru",
+        "title": "@ragnoryok1/dsh-client-locale-ru",
+        "description": "Russian language pack and full Russian localization for the DeepSeek Harness web GUI: the whole interface plus the menus of 526 third-party plugins — 602 sections, 69 923 strings. Русский язык и полная локализация веб-интерфейса DeepSeek Harness: весь интерфейс и меню 526 плагинов, 602 разделов, 69 923 строк.",
+        "author": "Ragnoryok1",
+        "homepage": "https://github.com/Ragnoryok1/dsh-client-locale-ru#readme",
+        "repository": {
+          "url": "https://github.com/Ragnoryok1/dsh-client-locale-ru"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh-language-pack",
+            "dsh-locale",
+            "dsh-i18n",
+            "dsh-russian",
+            "russian-language-pack",
+            "russian-localization",
+            "language-pack",
+            "locale",
+            "ru-RU",
+            "i18n",
+            "l10n",
+            "localization",
+            "localisation",
+            "russian",
+            "ru",
+            "русский",
+            "перевод",
+            "локализация",
+            "typography",
+            "cordis",
+            "cordis-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.29",
+            "publishTimestamp": 1794666101,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.1.1-0 || >=0.1.1-0 <0.1.2-0 || >=0.1.2-0 <0.1.3-0 || >=0.1.3-0 <0.1.5-0 || >=0.1.5-0 <0.1.6-0 || >=0.1.6-0 <0.1.7-0 || >=0.1.7-0 <0.2.0-0 || >=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "154ba4c89d021a3ae3ab54126f184975d6b2dc2dfa50e2817a0bd45945bbda7f",
+      "evidence": [
+        {
+          "name": "@ragnoryok1/dsh-client-locale-ru",
+          "version": "0.2.29",
+          "tarball": "https://registry.npmjs.org/@ragnoryok1/dsh-client-locale-ru/-/dsh-client-locale-ru-0.2.29.tgz",
+          "integrity": "sha512-3P5u6uo8shCdc9qcDGmMsdApCxBfjmGVbojQrBJcy92pTF3BDtAoK6WsjuvJNKjsaVaLRHk3QOnDCGDd/cQqtw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@ragnoryok1/dsh-client-locale-ru",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ragnoryok1/dsh-client-locale-ru",
+    "commit": "f25f2c86cc60d7bdc189227dde3f9b6bb505e949",
+    "releaseTags": 37,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:28:07.735Z"
+}

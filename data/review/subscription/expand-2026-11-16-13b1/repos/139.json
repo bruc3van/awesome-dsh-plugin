@@ -1,0 +1,74 @@
+{
+  "full_name": "jerryjiao/dsh-wewrite",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:25.298Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7bfafd223583ffd18ff88e88adc738e93d23396a4a9f01220ce19968951ab5c9",
+      "url": "https://github.com/jerryjiao/dsh-wewrite/blob/b2b929a4f8eb8f7b0288dbe95470d757d65f2ff1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "tools/wechat-relay/README.md",
+      "sha256": "5f2bac95a56387d8c45735a319f5ea83f0b6022b76bcc3853a43ca6cdd1d0a3c",
+      "url": "https://github.com/jerryjiao/dsh-wewrite/blob/b2b929a4f8eb8f7b0288dbe95470d757d65f2ff1/tools/wechat-relay/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wewrite",
+      "version": "0.5.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jerryjiao/dsh-wewrite",
+        "commit": "b2b929a4f8eb8f7b0288dbe95470d757d65f2ff1"
+      },
+      "manifestSha256": "e82a7a3aa3930a6710e27a20e3409aacc20d5ee0722dafe1b88110f44154a01c",
+      "manifestUrl": "https://github.com/jerryjiao/dsh-wewrite/blob/b2b929a4f8eb8f7b0288dbe95470d757d65f2ff1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-wewrite",
+        "versions": [
+          {
+            "version": "0.5.4",
+            "publishTimestamp": 1794826103,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jerryjiao/dsh-wewrite",
+              "commit": "b2b929a4f8eb8f7b0288dbe95470d757d65f2ff1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jerryjiao/dsh-wewrite",
+    "commit": "b2b929a4f8eb8f7b0288dbe95470d757d65f2ff1",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:35.483Z"
+}

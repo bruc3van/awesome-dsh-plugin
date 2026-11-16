@@ -1,0 +1,48 @@
+{
+  "full_name": "Haniubub/seo-toolkit",
+  "originalPosition": 166,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 166,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:00.929Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3227d40282c661855216ae881e65a7cd1ff4d9f62c570e264429130eade6f4bd",
+      "url": "https://github.com/Haniubub/seo-toolkit/blob/2d54ba327992ed555bfdf42c0e2c79b69eebe185/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "5b176794d4a641d18b56df9b2307616259dfe9ce7f83351a58e9684f9a9967b4",
+      "url": "https://github.com/Haniubub/seo-toolkit/blob/2d54ba327992ed555bfdf42c0e2c79b69eebe185/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Haniubub/seo-toolkit",
+    "commit": "2d54ba327992ed555bfdf42c0e2c79b69eebe185",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:27:08.942Z"
+}

@@ -1,0 +1,81 @@
+{
+  "full_name": "Jcnet-9527/dsh-Jpet-phone",
+  "originalPosition": 151,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 151,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:45.147Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "481d244b0866932dc44a6921fe25a03e7d96f8c67feef056408038ca60a5698d",
+      "url": "https://github.com/Jcnet-9527/dsh-Jpet-phone/blob/5dca11bec783cc482812134f80bb59b71ed48c34/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Jcnet-9527/dsh-Jpet-phone",
+          "command": "dsh plugin add github:Jcnet-9527/dsh-Jpet-phone",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pet-mobile",
+      "version": "0.3.7-mobile.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jcnet-9527/dsh-Jpet-phone",
+        "commit": "5dca11bec783cc482812134f80bb59b71ed48c34"
+      },
+      "manifestSha256": "b624dd75f4c80b211652dfdc324641051c881ed4ccaec411feaab72f469aaa9c",
+      "manifestUrl": "https://github.com/Jcnet-9527/dsh-Jpet-phone/blob/5dca11bec783cc482812134f80bb59b71ed48c34/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.1 || ^0.2.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-pet-mobile",
+        "versions": [
+          {
+            "version": "0.3.7-mobile.2",
+            "publishTimestamp": 1792728719,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jcnet-9527/dsh-Jpet-phone",
+              "commit": "5dca11bec783cc482812134f80bb59b71ed48c34"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1 || ^0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Jcnet-9527/dsh-Jpet-phone",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jcnet-9527/dsh-Jpet-phone",
+    "commit": "5dca11bec783cc482812134f80bb59b71ed48c34",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:53.836Z"
+}

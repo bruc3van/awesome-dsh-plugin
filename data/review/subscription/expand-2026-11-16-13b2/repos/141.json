@@ -1,0 +1,142 @@
+{
+  "full_name": "BJ1919810/dsh-rea",
+  "originalPosition": 141,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 141,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:23.060Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "18a025bf3515f6a36f6be41c28c2655e3f27aab8702ac075f6de57412be14654",
+      "url": "https://github.com/BJ1919810/dsh-rea/blob/c0b4f1b8491d9315e81543ecd335c34ee866ef8c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/BJ1919810/dsh-rea",
+          "command": "dsh plugin --profile desktop add github:BJ1919810/dsh-rea",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/BJ1919810/dsh-rea#v1.0.0",
+          "command": "dsh plugin --profile desktop add github:BJ1919810/dsh-rea#v1.0.0",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-rea",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BJ1919810/dsh-rea",
+        "commit": "c0b4f1b8491d9315e81543ecd335c34ee866ef8c"
+      },
+      "manifestSha256": "9678e8f2224cfda1fc4149208c95eba03b5ad31a3f684781801179e2ef2cf3b8",
+      "manifestUrl": "https://github.com/BJ1919810/dsh-rea/blob/c0b4f1b8491d9315e81543ecd335c34ee866ef8c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-rea",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792155884,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BJ1919810/dsh-rea",
+              "commit": "c0b4f1b8491d9315e81543ecd335c34ee866ef8c"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/BJ1919810/dsh-rea#v1.0.0",
+      "origin": "git_target",
+      "name": "dsh-rea",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-rea",
+        "title": "dsh-rea",
+        "description": "One DSH plugin switch for REA: the REA MCP server (207 reverse-engineering tools) and REA's three workflow skills, enabled and disabled together.",
+        "author": "BJ1919810",
+        "homepage": "https://github.com/BJ1919810/dsh-rea",
+        "repository": {
+          "url": "https://github.com/BJ1919810/dsh-rea"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "skill",
+            "rea",
+            "reverse-engineering",
+            "mcp",
+            "ghidra",
+            "jadx",
+            "apktool",
+            "frida",
+            "adb"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792155385,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BJ1919810/dsh-rea",
+              "commit": "3c26a7185d0267f9e93506ecd65569fd97c85be2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "3c26a7185d0267f9e93506ecd65569fd97c85be2",
+          "name": "dsh-rea",
+          "version": "1.0.0",
+          "url": "https://github.com/BJ1919810/dsh-rea",
+          "manifestSha256": "9678e8f2224cfda1fc4149208c95eba03b5ad31a3f684781801179e2ef2cf3b8",
+          "publishTimestamp": 1792155385
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/BJ1919810/dsh-rea",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/BJ1919810/dsh-rea#v1.0.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BJ1919810/dsh-rea",
+    "commit": "c0b4f1b8491d9315e81543ecd335c34ee866ef8c",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:37.070Z"
+}

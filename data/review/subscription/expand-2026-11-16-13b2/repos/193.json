@@ -1,0 +1,69 @@
+{
+  "full_name": "hulibuld/dsh-get-it-for-free",
+  "originalPosition": 193,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 193,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:21.306Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "141c962a6daa9725910d56bde3a074dcdd396aed6248ec053f390163a71eba5d",
+      "url": "https://github.com/hulibuld/dsh-get-it-for-free/blob/6daa5bc344feac44763af25c674e8882c292a728/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-get-it-for-free",
+      "version": "3.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hulibuld/dsh-get-it-for-free",
+        "commit": "6daa5bc344feac44763af25c674e8882c292a728"
+      },
+      "manifestSha256": "a3778f36c0c813a666a6d51a564126e27bdd9e01a0f384d10dcf1d2b5e3cc499",
+      "manifestUrl": "https://github.com/hulibuld/dsh-get-it-for-free/blob/6daa5bc344feac44763af25c674e8882c292a728/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-get-it-for-free",
+        "versions": [
+          {
+            "version": "3.2.0",
+            "publishTimestamp": 1794805731,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hulibuld/dsh-get-it-for-free",
+              "commit": "6daa5bc344feac44763af25c674e8882c292a728"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hulibuld/dsh-get-it-for-free",
+    "commit": "6daa5bc344feac44763af25c674e8882c292a728",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:29.100Z"
+}

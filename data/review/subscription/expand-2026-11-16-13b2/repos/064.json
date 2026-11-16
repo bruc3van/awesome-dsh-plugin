@@ -1,0 +1,172 @@
+{
+  "full_name": "heartmove/dsh-side-chat",
+  "originalPosition": 64,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 64,
+  "batch": 1,
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T12:15:17.752Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d7b4907d266d25e8e91caaad3fe0a0678adf36dda179fad2732f295e5336c7f9",
+      "url": "https://github.com/heartmove/dsh-side-chat/blob/dd9dbb481cce16128a9e39966ae5e744e422160d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/heartmove/dsh-side-chat-plus",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:heartmove/dsh-side-chat-plus",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-side-chat-plus",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-side-chat-plus",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "f913b88b65677f7fb71becfb87c9c3ef5936bb370e801a0d07e892469cdc48f7",
+      "url": "https://github.com/heartmove/dsh-side-chat/blob/dd9dbb481cce16128a9e39966ae5e744e422160d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/heartmove/dsh-side-chat-plus",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:heartmove/dsh-side-chat-plus",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-side-chat-plus",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-side-chat-plus",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-side-chat-plus",
+      "version": "0.5.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/heartmove/dsh-side-chat",
+        "commit": "dd9dbb481cce16128a9e39966ae5e744e422160d"
+      },
+      "manifestSha256": "cad28dd6ee19aeccd0ea43871221334ef9ee2ad439960fed884565542989fea4",
+      "manifestUrl": "https://github.com/heartmove/dsh-side-chat/blob/dd9dbb481cce16128a9e39966ae5e744e422160d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-side-chat-plus",
+        "versions": [
+          {
+            "version": "0.5.2",
+            "publishTimestamp": 1793702621,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/heartmove/dsh-side-chat",
+              "commit": "dd9dbb481cce16128a9e39966ae5e744e422160d"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-side-chat-plus",
+      "origin": "npm",
+      "name": "dsh-side-chat-plus",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-side-chat-plus",
+        "title": {
+          "en": "Side chat Plus",
+          "zh-hans": "侧边聊天 Plus"
+        },
+        "description": {
+          "en": "Select text in a conversation and ask it in a per-session side chat: a hidden ordinary session in its own right-side panel, inheriting the model, reasoning effort, and permissions of the conversation that launched it.",
+          "zh-hans": "选中对话内容即可在侧边聊天中提问：按主会话隔离的隐藏普通会话，拥有独立右侧面板，继承发起会话的模型、思考难度与权限。"
+        },
+        "homepage": "https://github.com/heartmove/dsh-side-chat#readme",
+        "repository": {
+          "url": "https://github.com/heartmove/dsh-side-chat"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "plugin",
+            "side-chat",
+            "sidechat"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByb2xlPSJpbWciPgogIDxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgcng9IjciIGZpbGw9IiMyZjZmZWIiLz4KICA8cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNOS41IDYuNWg4QTMuNSAzLjUgMCAwIDEgMjEgMTB2NC4yYTMuNSAzLjUgMCAwIDEtMy41IDMuNWgtNC4ybC0zLjQgMi45YS43LjcgMCAwIDEtMS4yLS42di0yLjRBMy41IDMuNSAwIDAgMSA1LjUgMTR2LTRhMy41IDMuNSAwIDAgMSA0LTMuNXoiLz4KICA8cGF0aCBmaWxsPSIjZmZmZmZmIiBmaWxsLW9wYWNpdHk9Ii43IiBkPSJNMjEuNSAxMy40aDFBMy41IDMuNSAwIDAgMSAyNiAxNi45djMuNmEzLjUgMy41IDAgMCAxLTMuNSAzLjVoLTEuMXYyLjRhLjcuNyAwIDAgMS0xLjIuNWwtMi45LTIuOWgtMy40YTMuNSAzLjUgMCAwIDEtMy4zLTIuM2g2LjlhNC41IDQuNSAwIDAgMCA0LjUtNC41eiIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.5.2",
+            "publishTimestamp": 1793702399,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1c0aea55f1b51643909ea610f2768447df8c77def6940b5a5e32cae9bf9f7b96",
+      "evidence": [
+        {
+          "name": "dsh-side-chat-plus",
+          "version": "0.5.2",
+          "tarball": "https://registry.npmjs.org/dsh-side-chat-plus/-/dsh-side-chat-plus-0.5.2.tgz",
+          "integrity": "sha512-i/Wg4uljEx0pcgLn8FuDbPy7g5jruKcSUjRJPJj7EDM0BarrTAs49632pWaDT6eXywrZ6YBol5har5n0IgvEOg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/heartmove/dsh-side-chat-plus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-side-chat-plus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "install_target",
+      "target": "https://github.com/heartmove/dsh-side-chat-plus",
+      "reason": "Command failed: git -c core.hooksPath=/dev/null -c core.fsmonitor=false -c submodule.recurse=false -c gc.auto=0 -c maintenance.auto=false -c protocol.allow=never -c protocol.https.allow=always ls-remote -- https://github.com/heartmove/dsh-side-chat-plus HEAD refs/tags/*\nremote: Repository not found.\nfatal: repository 'https://github.com/heartmove/dsh-side-chat-plus/' not found\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/heartmove/dsh-side-chat",
+    "commit": "dd9dbb481cce16128a9e39966ae5e744e422160d",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T12:15:31.592Z"
+}

@@ -1,0 +1,147 @@
+{
+  "full_name": "ParticleLight/dsh-browser-plus",
+  "originalPosition": 183,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 183,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:42.090Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0360473ad8edf51985d0eacbe0948f625ac6d1d87a68c8e4650ccb57cad905bb",
+      "url": "https://github.com/ParticleLight/dsh-browser-plus/blob/cd1342270e2f15ca0a9cd51a44e81d38c54ec3f7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-browser-plus",
+          "command": "dsh plugin --profile web add dsh-browser-plus",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ParticleLight/dsh-browser-plus",
+          "command": "dsh plugin --profile web add github:ParticleLight/dsh-browser-plus",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "7b9d9325ef122cac7cfff2161221343adb853dbcab12013fadfbb571c4a3912d",
+      "url": "https://github.com/ParticleLight/dsh-browser-plus/blob/cd1342270e2f15ca0a9cd51a44e81d38c54ec3f7/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-browser-plus",
+      "version": "0.5.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ParticleLight/dsh-browser-plus",
+        "commit": "cd1342270e2f15ca0a9cd51a44e81d38c54ec3f7"
+      },
+      "manifestSha256": "ac84342e229b806cbb7fef39af6a3af3bd5240ff6214dee7205d1c774f85ecae",
+      "manifestUrl": "https://github.com/ParticleLight/dsh-browser-plus/blob/cd1342270e2f15ca0a9cd51a44e81d38c54ec3f7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.1 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-browser-plus",
+        "versions": [
+          {
+            "version": "0.5.2",
+            "publishTimestamp": 1792636163,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ParticleLight/dsh-browser-plus",
+              "commit": "cd1342270e2f15ca0a9cd51a44e81d38c54ec3f7"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-browser-plus",
+      "origin": "npm",
+      "name": "dsh-browser-plus",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-browser-plus",
+        "title": "dsh-browser-plus",
+        "description": "Enhanced shared browser for DeepSeek Harness: one visible window with isolated task views, a page task manager, non-stealing background tasks, built-in toolbar and operation trail, and pinned Electron 42.9.3 compositing.",
+        "homepage": "https://github.com/ParticleLight/dsh-browser-plus",
+        "repository": {
+          "url": "https://github.com/ParticleLight/dsh-browser-plus"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "browser",
+            "cdp"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.2",
+            "publishTimestamp": 1792685380,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b29fabb5e7ec6c6f76c392ab6dc17a1136d2bcef7c66cced3e87063114de54ae",
+      "evidence": [
+        {
+          "name": "dsh-browser-plus",
+          "version": "0.5.2",
+          "tarball": "https://registry.npmjs.org/dsh-browser-plus/-/dsh-browser-plus-0.5.2.tgz",
+          "integrity": "sha512-owiBj5TG7J1cUG464JSZprC/2Fc2sa4DLd3szrtB6Cj4iuNsaL9tnN1hgYrU7SIgjzJmyeSe+R2og5XYLhlRVg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-browser-plus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ParticleLight/dsh-browser-plus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ParticleLight/dsh-browser-plus",
+    "commit": "cd1342270e2f15ca0a9cd51a44e81d38c54ec3f7",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:56.279Z"
+}

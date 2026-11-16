@@ -1,0 +1,153 @@
+{
+  "full_name": "qwe225380/dsh-omni-router",
+  "originalPosition": 117,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 117,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:23.716Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "43b0c54b4bf23732fbc73b4bfef60b78be80f07209bc788be9cdef9e14486915",
+      "url": "https://github.com/qwe225380/dsh-omni-router/blob/02bd3f9e8bd1323a04a478c4fd4ed49d142c08ac/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-omni-router",
+          "command": "dsh plugin --profile web add dsh-omni-router",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "43b0c54b4bf23732fbc73b4bfef60b78be80f07209bc788be9cdef9e14486915",
+      "url": "https://github.com/qwe225380/dsh-omni-router/blob/02bd3f9e8bd1323a04a478c4fd4ed49d142c08ac/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-omni-router",
+          "command": "dsh plugin --profile web add dsh-omni-router",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "c9a43b9c79c048620fb546317c4772d1443f989e939b6a18fd2a0a112ab1dfb3",
+      "url": "https://github.com/qwe225380/dsh-omni-router/blob/02bd3f9e8bd1323a04a478c4fd4ed49d142c08ac/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-omni-router",
+          "command": "dsh plugin --profile web add dsh-omni-router",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-omni-router",
+      "version": "3.0.0-rc.31",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/qwe225380/dsh-omni-router",
+        "commit": "02bd3f9e8bd1323a04a478c4fd4ed49d142c08ac"
+      },
+      "manifestSha256": "ee3ba76040265cb4b6fc3745d1cd73fbb8dc4bddd36fd315dcb0df4c023b278f",
+      "manifestUrl": "https://github.com/qwe225380/dsh-omni-router/blob/02bd3f9e8bd1323a04a478c4fd4ed49d142c08ac/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-omni-router",
+        "versions": [
+          {
+            "version": "3.0.0-rc.31",
+            "publishTimestamp": 1792731813,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/qwe225380/dsh-omni-router",
+              "commit": "02bd3f9e8bd1323a04a478c4fd4ed49d142c08ac"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-omni-router",
+      "origin": "npm",
+      "name": "dsh-omni-router",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-omni-router",
+        "title": "dsh-omni-router",
+        "description": "Omni - a reliability and orchestration control plane for DeepSeek Harness, designed to turn fast models into dependable long-horizon software-engineering agents.",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "agent-preset",
+            "router",
+            "plan-mode",
+            "tdd"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.4.0",
+            "publishTimestamp": 1787555644,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "faa393797ec08664ada1d6a3406a1d2e690fae1964bbf890db4e0a70a723da4b",
+      "evidence": [
+        {
+          "name": "dsh-omni-router",
+          "version": "2.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-omni-router/-/dsh-omni-router-2.4.0.tgz",
+          "integrity": "sha512-0BoLhblQT5OGs5danURlAncacZFzOcdo6jgDz7+VAtFEaCzcBSfzJfz0HsNsGRMsVWvo6v2KljOn6MH6K/IT8Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-omni-router",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/qwe225380/dsh-omni-router",
+    "commit": "02bd3f9e8bd1323a04a478c4fd4ed49d142c08ac",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:34.378Z"
+}

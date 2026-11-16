@@ -1,0 +1,77 @@
+{
+  "full_name": "lightsifter/sift-light",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "stargazers_count": 104,
+  "startedAt": "2026-11-16T12:12:39.443Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "85bb0bcd63ed0933c8484bd45cf26b1c8a4b0fa5333c53cf54db422d3f6805ad",
+      "url": "https://github.com/lightsifter/sift-light/blob/31034b9cc7b66bdd14943d1fcaf5095cfe5a6d99/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "daad3fa036581fe65ff4b6dcc249c9242b621ab3eb379424762a3043e0d7d0b6",
+      "url": "https://github.com/lightsifter/sift-light/blob/31034b9cc7b66bdd14943d1fcaf5095cfe5a6d99/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "sift-light",
+      "version": "1.1.2-2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lightsifter/sift-light",
+        "commit": "31034b9cc7b66bdd14943d1fcaf5095cfe5a6d99"
+      },
+      "manifestSha256": "123a0e947f4d77482a9c23895838317a15924681c75bc23c1dea06ca0eeeb6b6",
+      "manifestUrl": "https://github.com/lightsifter/sift-light/blob/31034b9cc7b66bdd14943d1fcaf5095cfe5a6d99/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "=0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "sift-light",
+        "versions": [
+          {
+            "version": "1.1.2-2",
+            "publishTimestamp": 1793593940,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lightsifter/sift-light",
+              "commit": "31034b9cc7b66bdd14943d1fcaf5095cfe5a6d99"
+            },
+            "engines": {
+              "dsh": "=0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lightsifter/sift-light",
+    "commit": "31034b9cc7b66bdd14943d1fcaf5095cfe5a6d99",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:12:50.471Z"
+}

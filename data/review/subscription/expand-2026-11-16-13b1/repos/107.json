@@ -1,0 +1,130 @@
+{
+  "full_name": "EchoUser005/dsh-fate-spectrum",
+  "originalPosition": 107,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 107,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:06:51.448Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b87be0d89c0788c6d5b0b1868d15e236373e3374894c633f7b1e75d8c9337efa",
+      "url": "https://github.com/EchoUser005/dsh-fate-spectrum/blob/b5adfca0fedf27a9ee7ce53cb4d07b634b43b05b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-fate-spectrum@0.1.0",
+          "command": "dsh plugin --profile web add dsh-fate-spectrum@0.1.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fate-spectrum",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/EchoUser005/dsh-fate-spectrum",
+        "commit": "b5adfca0fedf27a9ee7ce53cb4d07b634b43b05b"
+      },
+      "manifestSha256": "9e68507aa0c5628ac8ee5ab9b6531e8e581bcbd2662ca9759cdbb89180f174f1",
+      "manifestUrl": "https://github.com/EchoUser005/dsh-fate-spectrum/blob/b5adfca0fedf27a9ee7ce53cb4d07b634b43b05b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-fate-spectrum",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786941884,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/EchoUser005/dsh-fate-spectrum",
+              "commit": "b5adfca0fedf27a9ee7ce53cb4d07b634b43b05b"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-fate-spectrum@0.1.0",
+      "origin": "npm",
+      "name": "dsh-fate-spectrum",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-fate-spectrum",
+        "title": "dsh-fate-spectrum",
+        "description": "四柱八字与紫微斗数排盘 Bundle for DeepSeek Harness.",
+        "homepage": "https://github.com/EchoUser005/dsh-fate-spectrum#readme",
+        "repository": {
+          "url": "https://github.com/EchoUser005/dsh-fate-spectrum"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "bazi",
+            "ziwei",
+            "fate-chart"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786896192,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a33023efb49e2686cf18516b82d6766715346e91433f658eff30f57a4dc2f1bd",
+      "evidence": [
+        {
+          "name": "dsh-fate-spectrum",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-fate-spectrum/-/dsh-fate-spectrum-0.1.0.tgz",
+          "integrity": "sha512-v9hN2SyasMJTgh0HjoicFFXcrKQDDcIzknXDknVNu6oUkktT5SUAT83A82bbF4ApIsquSdITSRUqRI+6dNHMTQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-fate-spectrum@0.1.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EchoUser005/dsh-fate-spectrum",
+    "commit": "b5adfca0fedf27a9ee7ce53cb4d07b634b43b05b",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:01.830Z"
+}

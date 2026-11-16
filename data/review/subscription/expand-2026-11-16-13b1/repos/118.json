@@ -1,0 +1,78 @@
+{
+  "full_name": "TABmk/dsh-theme-ascetic",
+  "originalPosition": 118,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 118,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:22.345Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "78ffd5bf8b28b117ac9f7f960b4079e85d50ea6834bf0756c592338acb7d66ef",
+      "url": "https://github.com/TABmk/dsh-theme-ascetic/blob/d71fafd145fb0807057f020c152c27ad08f8d8ce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TABmk/dsh-theme-ascetic",
+          "command": "dsh plugin --profile web add github:TABmk/dsh-theme-ascetic",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-ascetic",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TABmk/dsh-theme-ascetic",
+        "commit": "d71fafd145fb0807057f020c152c27ad08f8d8ce"
+      },
+      "manifestSha256": "60670d8415abd60b50cb76c351a8a66ea83aed5865a8ab412b3f17e08e418790",
+      "manifestUrl": "https://github.com/TABmk/dsh-theme-ascetic/blob/d71fafd145fb0807057f020c152c27ad08f8d8ce/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-theme-ascetic",
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1793815664,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TABmk/dsh-theme-ascetic",
+              "commit": "d71fafd145fb0807057f020c152c27ad08f8d8ce"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/TABmk/dsh-theme-ascetic",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TABmk/dsh-theme-ascetic",
+    "commit": "d71fafd145fb0807057f020c152c27ad08f8d8ce",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:30.820Z"
+}

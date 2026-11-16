@@ -1,0 +1,94 @@
+{
+  "full_name": "chenzheshushi-commits/dsh-evolve",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:09.641Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bec4706342302eea5aaa0f23f4ded15d255aae6d386cafa7d1ec0517496c1418",
+      "url": "https://github.com/chenzheshushi-commits/dsh-evolve/blob/3dc657a53f7073fd43f0e72f00e06d30badb5445/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/chenzheshushi-commits/dsh-evolve",
+          "command": "dsh plugin --profile web add github:chenzheshushi-commits/dsh-evolve",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/chenzheshushi-commits/dsh-evolve/releases/download/v0.8.5/dsh-evolve-0.8.5.tgz",
+          "command": "dsh plugin --profile web add \"https://github.com/chenzheshushi-commits/dsh-evolve/releases/download/v0.8.5/dsh-evolve-0.8.5.tgz\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-evolve",
+      "version": "0.8.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chenzheshushi-commits/dsh-evolve",
+        "commit": "3dc657a53f7073fd43f0e72f00e06d30badb5445"
+      },
+      "manifestSha256": "15b6959bc57b5a73cbca6fcd71913b61ef3324d8cac7d6b3db837db4c8e02926",
+      "manifestUrl": "https://github.com/chenzheshushi-commits/dsh-evolve/blob/3dc657a53f7073fd43f0e72f00e06d30badb5445/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-evolve",
+        "versions": [
+          {
+            "version": "0.8.5",
+            "publishTimestamp": 1794803828,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chenzheshushi-commits/dsh-evolve",
+              "commit": "3dc657a53f7073fd43f0e72f00e06d30badb5445"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/chenzheshushi-commits/dsh-evolve/releases/download/v0.8.5/dsh-evolve-0.8.5.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/chenzheshushi-commits/dsh-evolve",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/chenzheshushi-commits/dsh-evolve/releases/download/v0.8.5/dsh-evolve-0.8.5.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chenzheshushi-commits/dsh-evolve",
+    "commit": "3dc657a53f7073fd43f0e72f00e06d30badb5445",
+    "releaseTags": 24,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:18.759Z"
+}

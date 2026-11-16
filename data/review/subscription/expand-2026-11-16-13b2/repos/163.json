@@ -1,0 +1,77 @@
+{
+  "full_name": "Ryuu-64/dsh-find-all",
+  "originalPosition": 163,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 163,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:08.693Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e1a19ed62d3dbeb9f91a5bd342c0d9113efee66effb62908d3fd2ca6756aeb77",
+      "url": "https://github.com/Ryuu-64/dsh-find-all/blob/c1a7d5a222274e0ee77ffd3ab9b2e4e29fe6024b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.fork-origin.md",
+      "sha256": "e1df49b73aac0c417433c8a936394a44939c1853869deeb3a04e8c7d1b7f29da",
+      "url": "https://github.com/Ryuu-64/dsh-find-all/blob/c1a7d5a222274e0ee77ffd3ab9b2e4e29fe6024b/README.fork-origin.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ryuu-64/dsh-find-all",
+      "version": "0.1.15",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ryuu-64/dsh-find-all",
+        "commit": "c1a7d5a222274e0ee77ffd3ab9b2e4e29fe6024b"
+      },
+      "manifestSha256": "7c28c14f99de01ae7b6a9909b6e78387634faebacf40fc872815d6a1c35d9f2a",
+      "manifestUrl": "https://github.com/Ryuu-64/dsh-find-all/blob/c1a7d5a222274e0ee77ffd3ab9b2e4e29fe6024b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.6-alpha.1 || 0.1.6-alpha.2 || 0.1.7-alpha.1 || 0.1.7-alpha.2 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.2 || 0.2.1-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@ryuu-64/dsh-find-all",
+        "versions": [
+          {
+            "version": "0.1.15",
+            "publishTimestamp": 1793082288,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ryuu-64/dsh-find-all",
+              "commit": "c1a7d5a222274e0ee77ffd3ab9b2e4e29fe6024b"
+            },
+            "engines": {
+              "dsh": "0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.6-alpha.1 || 0.1.6-alpha.2 || 0.1.7-alpha.1 || 0.1.7-alpha.2 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-rc.2 || 0.2.1-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ryuu-64/dsh-find-all",
+    "commit": "c1a7d5a222274e0ee77ffd3ab9b2e4e29fe6024b",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:18.089Z"
+}

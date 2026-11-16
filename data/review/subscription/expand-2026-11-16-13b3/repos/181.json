@@ -1,0 +1,301 @@
+{
+  "full_name": "No-PRM/dsh-explorer",
+  "originalPosition": 181,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 181,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:33.197Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1e55e07f55d703c2058bea5a4e509298c95615d1b594ffe9e9c35abd76a1ed2a",
+      "url": "https://github.com/No-PRM/dsh-explorer/blob/f0835e20914d1db9cd9f3a558b5977d678c84e47/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer",
+          "command": "dsh plugin --profile web add \"github:No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-client-ui-explorer",
+          "command": "dsh plugin --profile web add \"github:No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-client-ui-explorer\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "2ba8c63b20b50123500e7848e5ccc2aff9aeb462a79c149811bbbf03f9a223a6",
+      "url": "https://github.com/No-PRM/dsh-explorer/blob/f0835e20914d1db9cd9f3a558b5977d678c84e47/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer",
+          "command": "dsh plugin --profile web add \"github:No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-client-ui-explorer",
+          "command": "dsh plugin --profile web add \"github:No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-client-ui-explorer\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-plugins/README.md",
+      "sha256": "8600819662c87b21ba5d9087ffbc275762f42ca768dfc9c52debdc729e1b1563",
+      "url": "https://github.com/No-PRM/dsh-explorer/blob/f0835e20914d1db9cd9f3a558b5977d678c84e47/dsh-plugins/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer",
+          "command": "dsh plugin --profile web add \"github:No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-client-ui-explorer",
+          "command": "dsh plugin --profile web add \"github:No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-client-ui-explorer\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/No-PRM/dsh-explorer#v0.1.0&path:/dsh-plugins/dsh-explorer",
+          "command": "dsh plugin --profile web add \"github:No-PRM/dsh-explorer#v0.1.0&path:/dsh-plugins/dsh-explorer\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-plugins/README.zh-CN.md",
+      "sha256": "267c1e22d142c90cffd9efd16f05ca5c967505ebf5366e5a25af15361ec1724f",
+      "url": "https://github.com/No-PRM/dsh-explorer/blob/f0835e20914d1db9cd9f3a558b5977d678c84e47/dsh-plugins/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer",
+          "command": "dsh plugin --profile web add \"github:No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-client-ui-explorer",
+          "command": "dsh plugin --profile web add \"github:No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-client-ui-explorer\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/No-PRM/dsh-explorer#v0.1.0&path:/dsh-plugins/dsh-explorer",
+          "command": "dsh plugin --profile web add \"github:No-PRM/dsh-explorer#v0.1.0&path:/dsh-plugins/dsh-explorer\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-plugins/dsh-client-ui-explorer/README.md",
+      "sha256": "8542dd8af53f1d3fb59337392b41c918f4a8e36af7df3b4300ffbaf14b552cd2",
+      "url": "https://github.com/No-PRM/dsh-explorer/blob/f0835e20914d1db9cd9f3a558b5977d678c84e47/dsh-plugins/dsh-client-ui-explorer/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugins/dsh-client-ui-explorer/README.zh-CN.md",
+      "sha256": "de126e54246b56de7163ed29685c0023c79cce8cd1263788e6b28b67b3d9ce43",
+      "url": "https://github.com/No-PRM/dsh-explorer/blob/f0835e20914d1db9cd9f3a558b5977d678c84e47/dsh-plugins/dsh-client-ui-explorer/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugins/dsh-explorer/README.md",
+      "sha256": "c8ba615d9f767558dcd1a9ee8a52d9725a003393c72c3fe0ca75ea473acf093e",
+      "url": "https://github.com/No-PRM/dsh-explorer/blob/f0835e20914d1db9cd9f3a558b5977d678c84e47/dsh-plugins/dsh-explorer/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-plugins/dsh-explorer/README.zh-CN.md",
+      "sha256": "e6a255cf0a809bd47cf0906c9084ba7caaf20024840b7f51681fa267d2778c45",
+      "url": "https://github.com/No-PRM/dsh-explorer/blob/f0835e20914d1db9cd9f3a558b5977d678c84e47/dsh-plugins/dsh-explorer/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-client-ui-explorer",
+      "version": "0.1.0",
+      "path": "dsh-plugins/dsh-client-ui-explorer",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/No-PRM/dsh-explorer",
+        "commit": "f0835e20914d1db9cd9f3a558b5977d678c84e47",
+        "path": "dsh-plugins/dsh-client-ui-explorer"
+      },
+      "manifestSha256": "9df80296d90c756c4cf3a804232b7e8b5e1f0bed7a18d0d7059fc8d51b93f06e",
+      "manifestUrl": "https://github.com/No-PRM/dsh-explorer/blob/f0835e20914d1db9cd9f3a558b5977d678c84e47/dsh-plugins/dsh-client-ui-explorer/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-client-ui-explorer",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786864847,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/No-PRM/dsh-explorer",
+              "commit": "f0835e20914d1db9cd9f3a558b5977d678c84e47",
+              "path": "dsh-plugins/dsh-client-ui-explorer"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-explorer",
+      "version": "0.1.0",
+      "path": "dsh-plugins/dsh-explorer",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/No-PRM/dsh-explorer",
+        "commit": "f0835e20914d1db9cd9f3a558b5977d678c84e47",
+        "path": "dsh-plugins/dsh-explorer"
+      },
+      "manifestSha256": "995900dd04b685568bdb4dfb299cfc472e77692279bf75f11f6d2b0d2547cc5f",
+      "manifestUrl": "https://github.com/No-PRM/dsh-explorer/blob/f0835e20914d1db9cd9f3a558b5977d678c84e47/dsh-plugins/dsh-explorer/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-explorer",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786864847,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/No-PRM/dsh-explorer",
+              "commit": "f0835e20914d1db9cd9f3a558b5977d678c84e47",
+              "path": "dsh-plugins/dsh-explorer"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer",
+      "origin": "git_target",
+      "name": "dsh-explorer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-explorer",
+        "title": "dsh-explorer",
+        "description": "Host half of the file-tree sidebar: read-only /filetree/list · root · read · search · gitstatus · raw (JSON + media streaming) over the dsh web server.",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786864847,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/No-PRM/dsh-explorer",
+              "commit": "f0835e20914d1db9cd9f3a558b5977d678c84e47",
+              "path": "dsh-plugins/dsh-explorer"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "dsh-plugins/dsh-explorer",
+          "commit": "f0835e20914d1db9cd9f3a558b5977d678c84e47",
+          "name": "dsh-explorer",
+          "version": "0.1.0",
+          "url": "https://github.com/No-PRM/dsh-explorer",
+          "manifestSha256": "995900dd04b685568bdb4dfb299cfc472e77692279bf75f11f6d2b0d2547cc5f",
+          "publishTimestamp": 1786864847
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-client-ui-explorer",
+      "origin": "git_target",
+      "name": "dsh-client-ui-explorer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-client-ui-explorer",
+        "title": "dsh-client-ui-explorer",
+        "description": "Collapsible real-time file-tree drawer for the dsh web GUI — pure plugin: floating toggle + right file-tree drawer (git decorations, media preview, drag-to-reference). Browser half; host half is dsh-explorer.",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786864847,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/No-PRM/dsh-explorer",
+              "commit": "f0835e20914d1db9cd9f3a558b5977d678c84e47",
+              "path": "dsh-plugins/dsh-client-ui-explorer"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "dsh-plugins/dsh-client-ui-explorer",
+          "commit": "f0835e20914d1db9cd9f3a558b5977d678c84e47",
+          "name": "dsh-client-ui-explorer",
+          "version": "0.1.0",
+          "url": "https://github.com/No-PRM/dsh-explorer",
+          "manifestSha256": "9df80296d90c756c4cf3a804232b7e8b5e1f0bed7a18d0d7059fc8d51b93f06e",
+          "publishTimestamp": 1786864847
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/No-PRM/dsh-explorer#v0.1.0&path:/dsh-plugins/dsh-explorer",
+      "status": "mapping_needs_review",
+      "code": "git_ref_not_found",
+      "reason": "指定 Git 引用不存在"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-client-ui-explorer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/No-PRM/dsh-explorer#v0.1.0&path:/dsh-plugins/dsh-explorer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/No-PRM/dsh-explorer",
+    "commit": "f0835e20914d1db9cd9f3a558b5977d678c84e47",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:28:13.099Z"
+}

@@ -1,0 +1,106 @@
+{
+  "full_name": "realchendahuang/dsh-provider-studio",
+  "originalPosition": 151,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 151,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:09:02.427Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0aa22206b991f90a1fcca98f9090f0097d02b60415aca728ddc4e952fa0a07ff",
+      "url": "https://github.com/realchendahuang/dsh-provider-studio/blob/fedf6768aa56fdb7dc751b4c55352ac05dcca865/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/realchendahuang/dsh-provider-studio#v1.3.1",
+          "command": "dsh plugin --profile desktop add github:realchendahuang/dsh-provider-studio#v1.3.1",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7aed33ed67cc3ea5bd8b6b357e15d72be693b2e3cfb813d519178f96771e48c0",
+      "url": "https://github.com/realchendahuang/dsh-provider-studio/blob/fedf6768aa56fdb7dc751b4c55352ac05dcca865/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/realchendahuang/dsh-provider-studio#v1.3.1",
+          "command": "dsh plugin --profile desktop add github:realchendahuang/dsh-provider-studio#v1.3.1",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-provider-studio",
+      "version": "1.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/realchendahuang/dsh-provider-studio",
+        "commit": "fedf6768aa56fdb7dc751b4c55352ac05dcca865"
+      },
+      "manifestSha256": "9dea866a489ae5b1e4b94748a568c4f2b2f84fa2d575153a28647f4bf7729844",
+      "manifestUrl": "https://github.com/realchendahuang/dsh-provider-studio/blob/fedf6768aa56fdb7dc751b4c55352ac05dcca865/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-provider-studio",
+        "versions": [
+          {
+            "version": "1.3.1",
+            "publishTimestamp": 1794136769,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/realchendahuang/dsh-provider-studio",
+              "commit": "fedf6768aa56fdb7dc751b4c55352ac05dcca865"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/realchendahuang/dsh-provider-studio#v1.3.1",
+      "origin": "git_target",
+      "path": "",
+      "commit": "154eb8ee262aec4d7922a4fcfb3717bcff080941",
+      "name": "dsh-provider-studio",
+      "version": "1.3.1",
+      "code": "private_package",
+      "status": "invalid_manifest",
+      "reason": "包声明 private: true，不作为可订阅插件收录"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/realchendahuang/dsh-provider-studio#v1.3.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/realchendahuang/dsh-provider-studio",
+    "commit": "fedf6768aa56fdb7dc751b4c55352ac05dcca865",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:09:21.833Z"
+}

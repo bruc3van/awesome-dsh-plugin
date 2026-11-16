@@ -1,0 +1,127 @@
+{
+  "full_name": "YYTbit/dsh-plugin-claude-bridge",
+  "originalPosition": 197,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 197,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:28:22.790Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "35863133752634de548448711ed2bacf9b8f7a64b7150e5403ef53b3624c76a9",
+      "url": "https://github.com/YYTbit/dsh-plugin-claude-bridge/blob/895431fa8d2b1635334bb71efe1387ba0122df1b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-claude-bridge",
+          "command": "dsh plugin --profile your-profile add dsh-plugin-claude-bridge",
+          "profile": "your-profile"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-claude-bridge",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YYTbit/dsh-plugin-claude-bridge",
+        "commit": "895431fa8d2b1635334bb71efe1387ba0122df1b"
+      },
+      "manifestSha256": "68e43e90f3ec212d39328e6211b906a22bf91aca71dce9b2cd58e87f26d4d2c7",
+      "manifestUrl": "https://github.com/YYTbit/dsh-plugin-claude-bridge/blob/895431fa8d2b1635334bb71efe1387ba0122df1b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-claude-bridge",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786693711,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YYTbit/dsh-plugin-claude-bridge",
+              "commit": "895431fa8d2b1635334bb71efe1387ba0122df1b"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-claude-bridge",
+      "origin": "npm",
+      "name": "dsh-plugin-claude-bridge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-claude-bridge",
+        "title": "dsh-plugin-claude-bridge",
+        "description": "Bridge Claude Code's memory, skills, and configuration into DeepSeek Harness — zero migration, full compatibility",
+        "author": "YYTbit",
+        "homepage": "https://github.com/YYTbit/dsh-plugin-claude-bridge#readme",
+        "repository": {
+          "url": "https://github.com/YYTbit/dsh-plugin-claude-bridge"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "claude-code",
+            "memory",
+            "skills",
+            "migration",
+            "bridge"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786699787,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "16c59f4707ccb4a3e40b46993c6f4db6c9b36dfdb6f0eb5330294248cd9717fe",
+      "evidence": [
+        {
+          "name": "dsh-plugin-claude-bridge",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-claude-bridge/-/dsh-plugin-claude-bridge-0.1.1.tgz",
+          "integrity": "sha512-71AYNQVKNeZFVzOPxk6RpZxTjA8uRgInYMynyTZ9B8siqRtvAeb5opFLC1TFSK4uJkTV0TCm7ELtCW6c1ZWleA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-claude-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YYTbit/dsh-plugin-claude-bridge",
+    "commit": "895431fa8d2b1635334bb71efe1387ba0122df1b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:28:31.316Z"
+}

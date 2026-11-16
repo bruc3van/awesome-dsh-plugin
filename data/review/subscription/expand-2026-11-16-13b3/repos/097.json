@@ -1,0 +1,139 @@
+{
+  "full_name": "lemoncat7/dsh-ssh",
+  "originalPosition": 97,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 97,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:24:45.088Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a492cfef6717c74e43cbc1bfe5f4185b65de142de1c86fcad625eb58e72a210d",
+      "url": "https://github.com/lemoncat7/dsh-ssh/blob/1cf44dc849299214ed99b6d9eb5a8d02ccbab2b0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@lemoncat7/dsh-ssh@latest",
+          "command": "dsh plugin --profile web add @lemoncat7/dsh-ssh@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/releases/README.md",
+      "sha256": "1e62fa8f5b899fadba71832bff91205f176bcdabdb707b0f36be8268d179d91b",
+      "url": "https://github.com/lemoncat7/dsh-ssh/blob/1cf44dc849299214ed99b6d9eb5a8d02ccbab2b0/docs/releases/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@lemoncat7/dsh-ssh",
+      "version": "1.16.24",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lemoncat7/dsh-ssh",
+        "commit": "1cf44dc849299214ed99b6d9eb5a8d02ccbab2b0"
+      },
+      "manifestSha256": "9389b4aef396f40a4bf4225050037576e29a737575257022e949bb7b082a8143",
+      "manifestUrl": "https://github.com/lemoncat7/dsh-ssh/blob/1cf44dc849299214ed99b6d9eb5a8d02ccbab2b0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@lemoncat7/dsh-ssh",
+        "versions": [
+          {
+            "version": "1.16.24",
+            "publishTimestamp": 1794591244,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lemoncat7/dsh-ssh",
+              "commit": "1cf44dc849299214ed99b6d9eb5a8d02ccbab2b0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@lemoncat7/dsh-ssh@latest",
+      "origin": "npm",
+      "name": "@lemoncat7/dsh-ssh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@lemoncat7/dsh-ssh",
+        "title": "@lemoncat7/dsh-ssh",
+        "description": "Secure SSH, FTP/FTPS/SFTP file transfer, browser terminals, proxies, port forwarding, and session-scoped AI access for DeepSeek Harness",
+        "homepage": "https://github.com/lemoncat7/dsh-ssh#readme",
+        "repository": {
+          "url": "https://github.com/lemoncat7/dsh-ssh"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "ssh",
+            "ftp",
+            "ftps",
+            "sftp",
+            "file-transfer",
+            "terminal",
+            "port-forwarding",
+            "socks5",
+            "proxy"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.16.24",
+            "publishTimestamp": 1794592975,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "dae67ce8476352cd055a80be74c53ee0ee97a6ec384d67877f6f413302b2f593",
+      "evidence": [
+        {
+          "name": "@lemoncat7/dsh-ssh",
+          "version": "1.16.24",
+          "tarball": "https://registry.npmjs.org/@lemoncat7/dsh-ssh/-/dsh-ssh-1.16.24.tgz",
+          "integrity": "sha512-8u4KmPqd/PbDxqlHMNCdJvPcV5p6T4jsbfCd2rqHwFYjL8F/CYwZ6vvs6N+GE/FlhRxuiDyApRIVAB2CcfT28Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@lemoncat7/dsh-ssh@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lemoncat7/dsh-ssh",
+    "commit": "1cf44dc849299214ed99b6d9eb5a8d02ccbab2b0",
+    "releaseTags": 62,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:04.347Z"
+}

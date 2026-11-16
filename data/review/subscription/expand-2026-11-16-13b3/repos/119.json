@@ -1,0 +1,78 @@
+{
+  "full_name": "sasajun2345/dsh-minigame-plugin",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:26.816Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "626d42529f611f87a0a450fc8638535a9cf2c2ad662e89681c847153fdec38f0",
+      "url": "https://github.com/sasajun2345/dsh-minigame-plugin/blob/b89af378b6176e5d307da761cc35bc0dd8feba2f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/sasajun2345/dsh-minigame-plugin",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:sasajun2345/dsh-minigame-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-minigame-plugin",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sasajun2345/dsh-minigame-plugin",
+        "commit": "b89af378b6176e5d307da761cc35bc0dd8feba2f"
+      },
+      "manifestSha256": "2de85f64687cfca35472fed2fc1c3c582411aab983d10db8eb9e35c93d07cab6",
+      "manifestUrl": "https://github.com/sasajun2345/dsh-minigame-plugin/blob/b89af378b6176e5d307da761cc35bc0dd8feba2f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-minigame-plugin",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786895533,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sasajun2345/dsh-minigame-plugin",
+              "commit": "b89af378b6176e5d307da761cc35bc0dd8feba2f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/sasajun2345/dsh-minigame-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sasajun2345/dsh-minigame-plugin",
+    "commit": "b89af378b6176e5d307da761cc35bc0dd8feba2f",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:35.499Z"
+}

@@ -1,0 +1,132 @@
+{
+  "full_name": "MengYuanzhuo/dsh-plugin-magi",
+  "originalPosition": 184,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 184,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:33.230Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "04309a10922abd1966fb21efe20bd65814ab2fe5ca3b1a7753028bce401b71ce",
+      "url": "https://github.com/MengYuanzhuo/dsh-plugin-magi/blob/c28c015d0017bc698271de9c3da056aaed4b8389/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MengYuanzhuo/dsh-plugin-magi",
+          "command": "dsh plugin --profile <名> add github:MengYuanzhuo/dsh-plugin-magi",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-plugin-magi",
+          "command": "dsh plugin --profile <名> add dsh-plugin-magi",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-magi",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MengYuanzhuo/dsh-plugin-magi",
+        "commit": "c28c015d0017bc698271de9c3da056aaed4b8389"
+      },
+      "manifestSha256": "dc280b66d1bc5702332f07b22cf14bb87fc3c89453a9bca846d183d67da51ac0",
+      "manifestUrl": "https://github.com/MengYuanzhuo/dsh-plugin-magi/blob/c28c015d0017bc698271de9c3da056aaed4b8389/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "target": "dsh-plugin-magi",
+      "origin": "npm",
+      "name": "dsh-plugin-magi",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-magi",
+        "title": {
+          "en": "MAGI (Three Magi)",
+          "zh": "MAGI 三贤人"
+        },
+        "description": {
+          "en": "Submit a decision to MELCHIOR-1 (scientist), BALTHASAR-2 (mother) and CASPER-3 (woman). Ordinary matters pass by majority; sensitive matters require unanimity.",
+          "zh": "把待决事项交给 MELCHIOR-1（科学家）、BALTHASAR-2（母亲）、CASPER-3（女人）三人格单元独立表决；通常事项多数决，敏感/重要事项须三票一致。"
+        },
+        "homepage": "https://github.com/MengYuanzhuo/dsh-plugin-magi#readme",
+        "repository": {
+          "url": "https://github.com/MengYuanzhuo/dsh-plugin-magi"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "magi",
+            "decision",
+            "panel"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik1BR0kiPgogIDxyZWN0IHg9IjEiIHk9IjEiIHdpZHRoPSI2MiIgaGVpZ2h0PSI2MiIgcng9IjYiIGZpbGw9IiMwNzBhMDgiIHN0cm9rZT0iIzEyMzAyMSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPGcgZmlsbD0iIzM5ZmYxNCI+CiAgICA8cmVjdCB4PSIxMCIgeT0iMTQiIHdpZHRoPSIxMiIgaGVpZ2h0PSIzMCIgb3BhY2l0eT0iMC45NSIvPgogICAgPHJlY3QgeD0iMjYiIHk9IjE0IiB3aWR0aD0iMTIiIGhlaWdodD0iMzAiIG9wYWNpdHk9IjAuNzUiLz4KICAgIDxyZWN0IHg9IjQyIiB5PSIxNCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjMwIiBvcGFjaXR5PSIwLjU1Ii8+CiAgPC9nPgogIDxnIGZpbGw9IiMwYjBmMGMiPgogICAgPHJlY3QgeD0iMTMiIHk9IjE4IiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ii8+CiAgICA8cmVjdCB4PSIyOSIgeT0iMTgiIHdpZHRoPSI2IiBoZWlnaHQ9IjYiLz4KICAgIDxyZWN0IHg9IjQ1IiB5PSIxOCIgd2lkdGg9IjYiIGhlaWdodD0iNiIvPgogIDwvZz4KICA8cmVjdCB4PSIxMCIgeT0iNDgiIHdpZHRoPSI0NCIgaGVpZ2h0PSIyIiBmaWxsPSIjMmZkNDRiIi8+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSI1NSIgcj0iMyIgZmlsbD0iI2ZmMmIyYiIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792807290,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "491fffb6212af16e76f701604a10cc07ac47ea201b6975258949419410d9d0d4",
+      "evidence": [
+        {
+          "name": "dsh-plugin-magi",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-magi/-/dsh-plugin-magi-0.2.0.tgz",
+          "integrity": "sha512-qZdztr2BfQPty6v/gC6ypu5x398q3+O3gu8psVMuRQD55OH2Nh3H1HopRnjEuz5Sdi+L3nHjLmO+OYL5fah+QQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/MengYuanzhuo/dsh-plugin-magi",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-magi",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MengYuanzhuo/dsh-plugin-magi",
+    "commit": "c28c015d0017bc698271de9c3da056aaed4b8389",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:42.411Z"
+}

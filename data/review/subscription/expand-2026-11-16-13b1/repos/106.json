@@ -1,0 +1,56 @@
+{
+  "full_name": "Cristallin2006/ghidra-skill-for-dsh",
+  "originalPosition": 106,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 106,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:06:47.996Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7a8d87c87a676f02ab4477975dbb5f8d62a6e31ec7992089574d656666c71fed",
+      "url": "https://github.com/Cristallin2006/ghidra-skill-for-dsh/blob/c73ee62e65b10bd8ed1415d3131f4e98de803367/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "81df8dd92b0cb7c910a1f246f5c36ba9e2357908fea6d0f0b8d99cd9769532d8",
+      "url": "https://github.com/Cristallin2006/ghidra-skill-for-dsh/blob/c73ee62e65b10bd8ed1415d3131f4e98de803367/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_JA.md",
+      "sha256": "8dbbbb89cd5cbb3976b61fb2ed0c045904f78109cbb81216085f735e1a23ad06",
+      "url": "https://github.com/Cristallin2006/ghidra-skill-for-dsh/blob/c73ee62e65b10bd8ed1415d3131f4e98de803367/README_JA.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Cristallin2006/ghidra-skill-for-dsh",
+    "commit": "c73ee62e65b10bd8ed1415d3131f4e98de803367",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:06:57.499Z"
+}

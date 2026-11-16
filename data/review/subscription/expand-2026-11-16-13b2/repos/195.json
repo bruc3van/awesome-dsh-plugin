@@ -1,0 +1,128 @@
+{
+  "full_name": "icanfinish11/dsh-context-mode",
+  "originalPosition": 195,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 195,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:23.474Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e5859c3c92680284b391362db32e48f5bd433bfc775b26c55ca4f9a8edb13686",
+      "url": "https://github.com/icanfinish11/dsh-context-mode/blob/587430c1590791873b68a620eb9a5f25ce62d3b5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-context-mode",
+          "command": "dsh plugin --profile web add dsh-context-mode",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-context-mode",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/icanfinish11/dsh-context-mode",
+        "commit": "587430c1590791873b68a620eb9a5f25ce62d3b5"
+      },
+      "manifestSha256": "a6cf3737bb22eec77a2766b8bdfdf47f5e12ea5004c94f3a90256cdab9d63592",
+      "manifestUrl": "https://github.com/icanfinish11/dsh-context-mode/blob/587430c1590791873b68a620eb9a5f25ce62d3b5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-context-mode",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788938256,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/icanfinish11/dsh-context-mode",
+              "commit": "587430c1590791873b68a620eb9a5f25ce62d3b5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-context-mode",
+      "origin": "npm",
+      "name": "dsh-context-mode",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-context-mode",
+        "title": "dsh-context-mode",
+        "description": "Expose context-mode MCP tools as native DeepSeek Harness tools",
+        "repository": {
+          "url": "https://github.com/52sujiu/dsh-context-mode"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-tui",
+            "context-mode",
+            "mcp",
+            "context-window",
+            "code-execution",
+            "fts5"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.3",
+            "publishTimestamp": 1789383933,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6eba4964188ee3ce4b072f0b5f632b2ad37b4c9fbfb348515424b7b4c810288b",
+      "evidence": [
+        {
+          "name": "dsh-context-mode",
+          "version": "0.5.3",
+          "tarball": "https://registry.npmjs.org/dsh-context-mode/-/dsh-context-mode-0.5.3.tgz",
+          "integrity": "sha512-IxOfmeMkgdf1Chv7iLLvjxAOthNbTCydzUeokPbjHvS1wjWGXS7cdJc8NuMO8cGeCamfFEH2qms75DwiTTZS3g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-context-mode",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/icanfinish11/dsh-context-mode",
+    "commit": "587430c1590791873b68a620eb9a5f25ce62d3b5",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:34.789Z"
+}

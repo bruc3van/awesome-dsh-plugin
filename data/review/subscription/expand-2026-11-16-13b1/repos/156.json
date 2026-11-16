@@ -1,0 +1,81 @@
+{
+  "full_name": "vvxer/dsh-silicon",
+  "originalPosition": 156,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 156,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:09:22.726Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "85d588d8ba095d3a75725a7f1642f2e9fb8a03ba3961ceee3008489b9a77e56a",
+      "url": "https://github.com/vvxer/dsh-silicon/blob/6052261ed9490ed909c98d89712344ae0e80d39a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/vvxer/dsh-silicon",
+          "command": "dsh plugin --profile web add -w github:vvxer/dsh-silicon",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-silicon",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/vvxer/dsh-silicon",
+        "commit": "6052261ed9490ed909c98d89712344ae0e80d39a"
+      },
+      "manifestSha256": "9d31a9295fa26d5ed593fbe892cd14f36bdf392e82988a3eb05fbe3a15e73521",
+      "manifestUrl": "https://github.com/vvxer/dsh-silicon/blob/6052261ed9490ed909c98d89712344ae0e80d39a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-silicon",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1793268116,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/vvxer/dsh-silicon",
+              "commit": "6052261ed9490ed909c98d89712344ae0e80d39a"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/vvxer/dsh-silicon",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/vvxer/dsh-silicon",
+    "commit": "6052261ed9490ed909c98d89712344ae0e80d39a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:09:33.978Z"
+}

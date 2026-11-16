@@ -1,0 +1,156 @@
+{
+  "full_name": "SAXEM1997/dsh-ppt-master-wrapper",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:14.025Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3cccb4199e2c9fd1c7e08157fbbe0f197a70d5e0b9125acc7fee27448e93b2f1",
+      "url": "https://github.com/SAXEM1997/dsh-ppt-master-wrapper/blob/92fde77762b376597ef8ad14f9abf7dc633afe26/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ppt-master-wrapper",
+          "command": "dsh plugin --profile <name> add dsh-ppt-master-wrapper",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/SAXEM1997/dsh-ppt-master-wrapper.git",
+          "command": "dsh plugin --profile <name> add https://github.com/SAXEM1997/dsh-ppt-master-wrapper.git",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "a0fdb551745945048090826b9ac00658bfc8b741d8fadebfd9eb1b2007197f6b",
+      "url": "https://github.com/SAXEM1997/dsh-ppt-master-wrapper/blob/92fde77762b376597ef8ad14f9abf7dc633afe26/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ppt-master-wrapper",
+          "command": "dsh plugin --profile <name> add dsh-ppt-master-wrapper",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/SAXEM1997/dsh-ppt-master-wrapper.git",
+          "command": "dsh plugin --profile <name> add https://github.com/SAXEM1997/dsh-ppt-master-wrapper.git",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ppt-master-wrapper",
+      "version": "6.9.0-r1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SAXEM1997/dsh-ppt-master-wrapper",
+        "commit": "92fde77762b376597ef8ad14f9abf7dc633afe26"
+      },
+      "manifestSha256": "70905203d9bd8789535b0dfa07bc54a88066042bd942a41a1c257db9dda0aa21",
+      "manifestUrl": "https://github.com/SAXEM1997/dsh-ppt-master-wrapper/blob/92fde77762b376597ef8ad14f9abf7dc633afe26/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ppt-master-wrapper",
+        "versions": [
+          {
+            "version": "6.9.0-r1",
+            "publishTimestamp": 1794208315,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SAXEM1997/dsh-ppt-master-wrapper",
+              "commit": "92fde77762b376597ef8ad14f9abf7dc633afe26"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ppt-master-wrapper",
+      "origin": "npm",
+      "name": "dsh-ppt-master-wrapper",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ppt-master-wrapper",
+        "title": "dsh-ppt-master-wrapper",
+        "description": "DeepSeek Harness plugin wrapping the upstream ppt-master skill set: byte-for-byte vendored skills, zero runtime dependencies, optional venv isolation and a Plugins-page configuration card.",
+        "homepage": "https://github.com/SAXEM1997/dsh-ppt-master-wrapper#readme",
+        "repository": {
+          "url": "https://github.com/SAXEM1997/dsh-ppt-master-wrapper"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "skill",
+            "ppt-master",
+            "pptx",
+            "presentation",
+            "venv"
+          ]
+        },
+        "versions": [
+          {
+            "version": "6.9.0-r1",
+            "publishTimestamp": 1794209288,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d619eaf74c3aa8cb725fb688151345d8c97ffe3e2692406627b5452c32124110",
+      "evidence": [
+        {
+          "name": "dsh-ppt-master-wrapper",
+          "version": "6.9.0-r1",
+          "tarball": "https://registry.npmjs.org/dsh-ppt-master-wrapper/-/dsh-ppt-master-wrapper-6.9.0-r1.tgz",
+          "integrity": "sha512-D0bJyU3hEwCM4CqE83LUadA3usZ/LLDZzomX3cMzQ2Lmxm4t+Pnf6yXYogv89L6CWiYgx2A5c+i9H7t0LJB8zQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ppt-master-wrapper",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/SAXEM1997/dsh-ppt-master-wrapper.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SAXEM1997/dsh-ppt-master-wrapper",
+    "commit": "92fde77762b376597ef8ad14f9abf7dc633afe26",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:15.853Z"
+}

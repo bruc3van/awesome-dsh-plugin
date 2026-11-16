@@ -1,0 +1,147 @@
+{
+  "full_name": "wang1299/dsh-reforge",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "stargazers_count": 99,
+  "startedAt": "2026-11-16T12:03:51.842Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2378ffd94b095b5955a78f20f0555b692a4d63c387802a8abba4cedd5fbb8b75",
+      "url": "https://github.com/wang1299/dsh-reforge/blob/1df95d732d57cdc7be34b18dcd75bbfbbc85c8be/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-reforge@0.1.0-alpha.2",
+          "command": "dsh plugin --profile web add dsh-reforge@0.1.0-alpha.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "examples/customer-form/README.md",
+      "sha256": "2da43a882e128f18e2b4054879357e75644aa637730e678675a6d2f432e1175a",
+      "url": "https://github.com/wang1299/dsh-reforge/blob/1df95d732d57cdc7be34b18dcd75bbfbbc85c8be/examples/customer-form/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/evaluation/t049-20261104/README.md",
+      "sha256": "bc408ea07712ad24ce124813819da9aba98d99614af41bed4e6f2bb61d0fb455",
+      "url": "https://github.com/wang1299/dsh-reforge/blob/1df95d732d57cdc7be34b18dcd75bbfbbc85c8be/docs/evaluation/t049-20261104/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-reforge",
+      "version": "0.1.0-alpha.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wang1299/dsh-reforge",
+        "commit": "1df95d732d57cdc7be34b18dcd75bbfbbc85c8be"
+      },
+      "manifestSha256": "ba5dd841951a52fb70d663a4387cc31411af161d0075807e8692a4735561c3fc",
+      "manifestUrl": "https://github.com/wang1299/dsh-reforge/blob/1df95d732d57cdc7be34b18dcd75bbfbbc85c8be/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2 || 0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-reforge",
+        "versions": [
+          {
+            "version": "0.1.0-alpha.2",
+            "publishTimestamp": 1794211986,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wang1299/dsh-reforge",
+              "commit": "1df95d732d57cdc7be34b18dcd75bbfbbc85c8be"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || 0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-reforge@0.1.0-alpha.2",
+      "origin": "npm",
+      "name": "dsh-reforge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-reforge",
+        "title": "dsh-reforge",
+        "description": "Evidence-based experience learning for DeepSeek Harness",
+        "homepage": "https://github.com/wang1299/dsh-reforge#readme",
+        "repository": {
+          "url": "https://github.com/wang1299/dsh-reforge"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "agent-memory",
+            "experience-learning",
+            "bug-fix",
+            "verification"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0-alpha.2",
+            "publishTimestamp": 1793809312,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || 0.2.1-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1c30c8fe7f911efea2e4e3355a2626272b3a95e3dccd5c7c0cd4524ec9894279",
+      "evidence": [
+        {
+          "name": "dsh-reforge",
+          "version": "0.1.0-alpha.2",
+          "tarball": "https://registry.npmjs.org/dsh-reforge/-/dsh-reforge-0.1.0-alpha.2.tgz",
+          "integrity": "sha512-iStfEVRFTnggpN5V8Y2+kNJZxNRzGQev/1kbPCLEWbLak0qutCz6B9dk38bd9d5qp1RNUt+zDAocjjSeXAJSsg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-reforge@0.1.0-alpha.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wang1299/dsh-reforge",
+    "commit": "1df95d732d57cdc7be34b18dcd75bbfbbc85c8be",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:04:05.088Z"
+}

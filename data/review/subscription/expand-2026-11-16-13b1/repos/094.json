@@ -1,0 +1,154 @@
+{
+  "full_name": "lubanqihao9875/dsh-figma-mcp",
+  "originalPosition": 94,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 94,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:06:17.833Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e80c7715cc895383902434398a500174278dcbb03663e3fe80cf0d72bf581940",
+      "url": "https://github.com/lubanqihao9875/dsh-figma-mcp/blob/7369b0b15223118510156048fe45aad6940ac5e6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-figma-mcp",
+          "command": "dsh plugin add dsh-figma-mcp",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/lubanqihao9875/dsh-figma-mcp",
+          "command": "dsh plugin add github:lubanqihao9875/dsh-figma-mcp",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e6a84b2c44be060178d5314b90d2299bc669219e87200b2760d3ac8edbabad6a",
+      "url": "https://github.com/lubanqihao9875/dsh-figma-mcp/blob/7369b0b15223118510156048fe45aad6940ac5e6/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-figma-mcp",
+          "command": "dsh plugin add dsh-figma-mcp",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/lubanqihao9875/dsh-figma-mcp",
+          "command": "dsh plugin add github:lubanqihao9875/dsh-figma-mcp",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-figma-mcp",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lubanqihao9875/dsh-figma-mcp",
+        "commit": "7369b0b15223118510156048fe45aad6940ac5e6"
+      },
+      "manifestSha256": "015d39e5b780adb22fbd6bb754cac7ab54c4ce62eb505bd58473780b1a447536",
+      "manifestUrl": "https://github.com/lubanqihao9875/dsh-figma-mcp/blob/7369b0b15223118510156048fe45aad6940ac5e6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-figma-mcp",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792250850,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lubanqihao9875/dsh-figma-mcp",
+              "commit": "7369b0b15223118510156048fe45aad6940ac5e6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-figma-mcp",
+      "origin": "npm",
+      "name": "dsh-figma-mcp",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-figma-mcp",
+        "title": "dsh-figma-mcp",
+        "description": "DSH 的 Figma MCP 一键连接插件，对话中粘贴链接，Agent 即可读写节点/图层/变量/样式，生成 React/Vue 代码，OAuth 安全登录，Token 本机存储，内置工作流指令和 Skill 引导使用",
+        "author": "lubanqihao9875",
+        "homepage": "https://github.com/lubanqihao9875/dsh-figma-mcp#readme",
+        "repository": {
+          "url": "https://github.com/lubanqihao9875/dsh-figma-mcp"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "figma",
+            "mcp",
+            "dsh-plugin",
+            "oauth"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792251128,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "965ac6f1c69d5a2c916e1d90a61d504a59f492ba5c57e47bfcca33d54d36548d",
+      "evidence": [
+        {
+          "name": "dsh-figma-mcp",
+          "version": "1.0.0",
+          "tarball": "https://registry.npmjs.org/dsh-figma-mcp/-/dsh-figma-mcp-1.0.0.tgz",
+          "integrity": "sha512-DAytnUlIeaMQ9evxr0tP/Vz6zlV/27tPK6TzNTx6/oElfdMpUvpqHfSlKZfcEPdNyGBgk5OssQYpgnJ3sBZVTA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-figma-mcp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lubanqihao9875/dsh-figma-mcp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lubanqihao9875/dsh-figma-mcp",
+    "commit": "7369b0b15223118510156048fe45aad6940ac5e6",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:06:30.956Z"
+}

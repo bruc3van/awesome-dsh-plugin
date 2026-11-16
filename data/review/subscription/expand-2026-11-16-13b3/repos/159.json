@@ -1,0 +1,66 @@
+{
+  "full_name": "Emilia-awa/hermes-dsh-bridge",
+  "originalPosition": 159,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 159,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:42.176Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e850d65aacbbe19828ee6924be77f839dea3fb4a6a0cc9a2561478c403a76204",
+      "url": "https://github.com/Emilia-awa/hermes-dsh-bridge/blob/5b8c9ef3310a1900faf8bbba3b11c9a44fe7e05f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "hermes-dsh-bridge",
+      "version": "0.11.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Emilia-awa/hermes-dsh-bridge",
+        "commit": "5b8c9ef3310a1900faf8bbba3b11c9a44fe7e05f"
+      },
+      "manifestSha256": "599d0ed8edd48603a980809047a6e154346a977c422bc0169f64206595228104",
+      "manifestUrl": "https://github.com/Emilia-awa/hermes-dsh-bridge/blob/5b8c9ef3310a1900faf8bbba3b11c9a44fe7e05f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "hermes-dsh-bridge",
+        "versions": [
+          {
+            "version": "0.11.4",
+            "publishTimestamp": 1791251498,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Emilia-awa/hermes-dsh-bridge",
+              "commit": "5b8c9ef3310a1900faf8bbba3b11c9a44fe7e05f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Emilia-awa/hermes-dsh-bridge",
+    "commit": "5b8c9ef3310a1900faf8bbba3b11c9a44fe7e05f",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:50.744Z"
+}

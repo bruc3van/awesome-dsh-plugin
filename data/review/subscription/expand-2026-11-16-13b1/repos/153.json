@@ -1,0 +1,113 @@
+{
+  "full_name": "summersummer-liu/dsh-swiss-grid",
+  "originalPosition": 153,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 153,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:09:15.969Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ce24383a4161d348e5a1e8ec38de7ff178bf85303c5eafe412a9434b516ce809",
+      "url": "https://github.com/summersummer-liu/dsh-swiss-grid/blob/5495565b7715dc44d4453818b4f7983bc3253544/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/summersummer-liu/dsh-swiss-grid",
+          "command": "dsh plugin --profile desktop add github:summersummer-liu/dsh-swiss-grid",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-swiss-grid",
+          "command": "dsh plugin add dsh-swiss-grid",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "66ee97781779f4c02612bf1c818e7fb8d6e57278ac5b8f7ef6350eb7e8b362ac",
+      "url": "https://github.com/summersummer-liu/dsh-swiss-grid/blob/5495565b7715dc44d4453818b4f7983bc3253544/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/summersummer-liu/dsh-swiss-grid",
+          "command": "dsh plugin --profile desktop add github:summersummer-liu/dsh-swiss-grid",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-swiss-grid",
+          "command": "dsh plugin add dsh-swiss-grid",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-swiss-grid",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/summersummer-liu/dsh-swiss-grid",
+        "commit": "5495565b7715dc44d4453818b4f7983bc3253544"
+      },
+      "manifestSha256": "9627a27e4e3e381cf267be4fbe8fb6c9b0d40644fecae86815201964d91fe783",
+      "manifestUrl": "https://github.com/summersummer-liu/dsh-swiss-grid/blob/5495565b7715dc44d4453818b4f7983bc3253544/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-swiss-grid",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1792474328,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/summersummer-liu/dsh-swiss-grid",
+              "commit": "5495565b7715dc44d4453818b4f7983bc3253544"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-swiss-grid",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/summersummer-liu/dsh-swiss-grid",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-swiss-grid",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/summersummer-liu/dsh-swiss-grid",
+    "commit": "5495565b7715dc44d4453818b4f7983bc3253544",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:09:26.539Z"
+}

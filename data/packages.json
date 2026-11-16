@@ -19527,6 +19527,3705 @@
       "status": "readme-verified",
       "verified_date": "2026-11-16",
       "verified_via": "README + npm registry"
+    },
+    "morgiana-v3/dsh-feed-the-seek": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Morgiana-V3/dsh-feed-the-seek",
+          "install": "https://github.com/Morgiana-V3/dsh-feed-the-seek",
+          "command": "dsh plugin --profile web add github:Morgiana-V3/dsh-feed-the-seek"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@9f3907696d3c",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "vikrant-aleph/dshmarket-update-helper": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Vikrant-Aleph/dshmarket-update-helper",
+          "install": "https://github.com/Vikrant-Aleph/dshmarket-update-helper",
+          "command": "dsh plugin --profile web add github:Vikrant-Aleph/dshmarket-update-helper"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@6689f10b1253",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "zseven-w/dsh-qa": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:ZSeven-W/dsh-qa",
+          "install": "https://github.com/ZSeven-W/dsh-qa",
+          "command": "dsh plugin --profile web add github:ZSeven-W/dsh-qa"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@36b819203717",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "adeahejshshsh/coldbrew-dsh": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:adeahejshshsh/coldbrew-dsh",
+          "install": "https://github.com/adeahejshshsh/coldbrew-dsh",
+          "command": "dsh plugin --profile web add github:adeahejshshsh/coldbrew-dsh"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "cheesehaqi/dsh-qq-onebot-bridge": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:cheesehaqi/dsh-qq-onebot-bridge",
+          "install": "https://github.com/cheesehaqi/dsh-qq-onebot-bridge",
+          "command": "dsh plugin --profile web add github:cheesehaqi/dsh-qq-onebot-bridge"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@968993edfa66",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "drscrewdriver/dsh-mcp-registry": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:drscrewdriver/dsh-mcp-registry",
+          "install": "https://github.com/drscrewdriver/dsh-mcp-registry",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-mcp-registry"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@c3610bea2532",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "eryucheng/dsh-suzu-memory": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:eryucheng/dsh-suzu-memory",
+          "install": "https://github.com/eryucheng/dsh-suzu-memory",
+          "command": "dsh plugin --profile web add github:eryucheng/dsh-suzu-memory"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@3efd7c55562c",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "hellogit2021/avoid-ai-writing-cn": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:hellogit2021/avoid-ai-writing-cn",
+          "install": "https://github.com/hellogit2021/avoid-ai-writing-cn",
+          "command": "dsh plugin --profile web add github:hellogit2021/avoid-ai-writing-cn"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "guohwa/dsh-plugin-image-workbench": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:guohwa/dsh-plugin-image-workbench",
+          "install": "https://github.com/guohwa/dsh-plugin-image-workbench",
+          "command": "dsh plugin --profile web add github:guohwa/dsh-plugin-image-workbench"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@94dc1aadc990",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "my-dsh/deepseek-intelligent-ui": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:my-dsh/deepseek-intelligent-ui",
+          "install": "https://github.com/my-dsh/deepseek-intelligent-ui",
+          "command": "dsh plugin --profile web add github:my-dsh/deepseek-intelligent-ui"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@0b08749c9969",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "lubanqihao9875/dsh-figma-mcp": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-figma-mcp",
+          "install": "dsh-figma-mcp",
+          "command": "dsh plugin --profile web add dsh-figma-mcp"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "keyiadiannao/dsh-power-button": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:keyiadiannao/dsh-power-button#master",
+          "install": "https://github.com/keyiadiannao/dsh-power-button#master",
+          "command": "dsh plugin --profile web add \"github:keyiadiannao/dsh-power-button#master\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "loonai321/dsh-humanized-deepseek-maid": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:loonai321/dsh-humanized-deepseek-maid#main",
+          "install": "https://github.com/loonai321/dsh-humanized-deepseek-maid#main",
+          "command": "dsh plugin --profile web add \"github:loonai321/dsh-humanized-deepseek-maid#main\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "suzike/dsh-freestyle-theme": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:suzike/dsh-freestyle-theme",
+          "install": "https://github.com/suzike/dsh-freestyle-theme",
+          "command": "dsh plugin --profile web add github:suzike/dsh-freestyle-theme"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@12db4f059aa2",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "wai549077/dsh-aliyun-balance": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-aliyun-balance",
+          "install": "dsh-aliyun-balance",
+          "command": "dsh plugin --profile web add dsh-aliyun-balance"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "xinxing1708/dsh-codex-style": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:xinxing1708/DSH-Codex-Style",
+          "install": "https://github.com/xinxing1708/DSH-Codex-Style",
+          "command": "dsh plugin --profile web add github:xinxing1708/DSH-Codex-Style"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@151cbbba49ec",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "zhangx413/dsh-pbr-material": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:zhangx413/dsh-pbr-material",
+          "install": "https://github.com/zhangx413/dsh-pbr-material",
+          "command": "dsh plugin --profile web add github:zhangx413/dsh-pbr-material"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@195babe4dc08",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "zhaohaix/deepseek-github": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:zhaohaix/DeepSeek-GitHub",
+          "install": "https://github.com/zhaohaix/DeepSeek-GitHub",
+          "command": "dsh plugin --profile web add github:zhaohaix/DeepSeek-GitHub"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@e2a124c7321b",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "1129742588/dsh-memory-tiers": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:1129742588/dsh-memory-tiers#path:/core",
+          "install": "https://github.com/1129742588/dsh-memory-tiers#path:/core",
+          "command": "dsh plugin --profile web add \"github:1129742588/dsh-memory-tiers#path:/core\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@2f72a18ef069",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "biboyang/dsh-im-bridge": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:BiBoyang/dsh-im-bridge",
+          "install": "https://github.com/BiBoyang/dsh-im-bridge",
+          "command": "dsh plugin --profile web add github:BiBoyang/dsh-im-bridge"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@d5bcb1d27d13",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "better-rain/dsh-plugin-photoshop": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:better-rain/dsh-plugin-photoshop",
+          "install": "https://github.com/better-rain/dsh-plugin-photoshop",
+          "command": "dsh plugin --profile web add github:better-rain/dsh-plugin-photoshop"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "haoyueqin/deepseek-harness-background": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:deepseek-harness-background",
+          "install": "deepseek-harness-background",
+          "command": "dsh plugin --profile web add deepseek-harness-background"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "hengryliang/dsh-plugin-ai-drama": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:HengryLiang/dsh-plugin-ai-drama#v0.16.319",
+          "install": "https://github.com/HengryLiang/dsh-plugin-ai-drama#v0.16.319",
+          "command": "dsh plugin --profile web add \"github:HengryLiang/dsh-plugin-ai-drama#v0.16.319\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "lhy723/dsh-neu-theme": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-neu-theme",
+          "install": "dsh-neu-theme",
+          "command": "dsh plugin --profile web add dsh-neu-theme"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "nnnooomii/dsh-codex-power-slider": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:NNNOOOMII/dsh-codex-power-slider",
+          "install": "https://github.com/NNNOOOMII/dsh-codex-power-slider",
+          "command": "dsh plugin --profile web add github:NNNOOOMII/dsh-codex-power-slider"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@c7b9ff1963f5",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "orderg-x/dsh-mac-computer-use": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:OrderG-X/dsh-mac-computer-use#path:/plugin",
+          "install": "https://github.com/OrderG-X/dsh-mac-computer-use#path:/plugin",
+          "command": "dsh plugin --profile web add \"github:OrderG-X/dsh-mac-computer-use#path:/plugin\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@db39481b783d",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "perrylink/dsh-kit": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-memento@0.5.30",
+          "install": "dsh-memento@0.5.30",
+          "command": "dsh plugin --profile web add \"dsh-memento@0.5.30\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "saisenbox/dsh-prompt-manager": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-prompt-manager",
+          "install": "dsh-prompt-manager",
+          "command": "dsh plugin --profile web add dsh-prompt-manager"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "michengai/dsh-simplify": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@michengai/dsh-simplify@1.0.9",
+          "install": "@michengai/dsh-simplify@1.0.9",
+          "command": "dsh plugin --profile web add \"@michengai/dsh-simplify@1.0.9\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "tabmk/dsh-theme-ascetic": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:TABmk/dsh-theme-ascetic",
+          "install": "https://github.com/TABmk/dsh-theme-ascetic",
+          "command": "dsh plugin --profile web add github:TABmk/dsh-theme-ascetic"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "tlyer233/dsh-vscode-review": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Tlyer233/dsh-vscode-review#path:/dsh-review",
+          "install": "https://github.com/Tlyer233/dsh-vscode-review#path:/dsh-review",
+          "command": "dsh plugin --profile web add \"github:Tlyer233/dsh-vscode-review#path:/dsh-review\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@d3cee509694c",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "sihanlv/dsh-literature": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@shlv/dsh-literature",
+          "install": "@shlv/dsh-literature",
+          "command": "dsh plugin --profile web add \"@shlv/dsh-literature\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "tecfancy/dsh-deeptutor": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-deeptutor",
+          "install": "dsh-deeptutor",
+          "command": "dsh plugin --profile web add dsh-deeptutor"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "starlight-bananice/dsh-status-bar": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@bananiceee/dsh-status-bar",
+          "install": "@bananiceee/dsh-status-bar",
+          "command": "dsh plugin --profile web add \"@bananiceee/dsh-status-bar\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "tonywu2333/dsh-mercury-diffusion": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-mercury-diffusion",
+          "install": "dsh-mercury-diffusion",
+          "command": "dsh plugin --profile web add dsh-mercury-diffusion"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "abbccdd/dsh-localtts": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:abbccdd/dsh-localtts",
+          "install": "https://github.com/abbccdd/dsh-localtts",
+          "command": "dsh plugin --profile web add github:abbccdd/dsh-localtts"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "xiaofei-fei/dsh-prompt-history": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-prompt-history",
+          "install": "dsh-prompt-history",
+          "command": "dsh plugin --profile web add dsh-prompt-history"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "better-er/dsh-live-token-stats": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-live-token-stats",
+          "install": "dsh-live-token-stats",
+          "command": "dsh plugin --profile web add dsh-live-token-stats"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "busabase/busabase-dsh-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@busabase/dsh-plugin",
+          "install": "@busabase/dsh-plugin",
+          "command": "dsh plugin --profile web add \"@busabase/dsh-plugin\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "c-ling/dsh-plugin-notify": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:c-ling/dsh-plugin-notify#v1.4.0",
+          "install": "https://github.com/c-ling/dsh-plugin-notify#v1.4.0",
+          "command": "dsh plugin --profile web add \"github:c-ling/dsh-plugin-notify#v1.4.0\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "chenzheshushi-commits/dsh-evolve": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:chenzheshushi-commits/dsh-evolve",
+          "install": "https://github.com/chenzheshushi-commits/dsh-evolve",
+          "command": "dsh plugin --profile web add github:chenzheshushi-commits/dsh-evolve"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "d3vmeh/dsh-fetch-timeouts": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-fetch-timeouts",
+          "install": "dsh-fetch-timeouts",
+          "command": "dsh plugin --profile web add dsh-fetch-timeouts"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "zephinel/dsh-intelligent-ui": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@zephinel/dsh-intelligent-ui",
+          "install": "@zephinel/dsh-intelligent-ui",
+          "command": "dsh plugin --profile web add \"@zephinel/dsh-intelligent-ui\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "chipweaver/veripower": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:chipweaver/veripower",
+          "install": "https://github.com/chipweaver/veripower",
+          "command": "dsh plugin --profile web add github:chipweaver/veripower"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@bb24efe1b769",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "drscrewdriver/dsh-sidebar-fold": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-sidebar-fold",
+          "install": "dsh-sidebar-fold",
+          "command": "dsh plugin --profile web add dsh-sidebar-fold"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "jerryjiao/dsh-wewrite": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:jerryjiao/dsh-wewrite",
+          "install": "https://github.com/jerryjiao/dsh-wewrite",
+          "command": "dsh plugin --profile web add github:jerryjiao/dsh-wewrite"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@b2b929a4f8eb",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "kgmkm/dsh-rustxng": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:kgmkm/dsh-rustxng",
+          "install": "https://github.com/kgmkm/dsh-rustxng",
+          "command": "dsh plugin --profile web add github:kgmkm/dsh-rustxng"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@ab2d4fc21949",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "gehennawu/dsh-service": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@gehennawu/dsh-service@2.1.6",
+          "install": "@gehennawu/dsh-service@2.1.6",
+          "command": "dsh plugin --profile web add \"@gehennawu/dsh-service@2.1.6\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "lincong1987/dsh-model-switch": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:lincong1987/dsh-model-switch",
+          "install": "https://github.com/lincong1987/dsh-model-switch",
+          "command": "dsh plugin --profile web add github:lincong1987/dsh-model-switch"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "lty-hongsejinwei/dsh-luotianyi-skin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:lty-hongsejinwei/dsh-luotianyi-skin",
+          "install": "https://github.com/lty-hongsejinwei/dsh-luotianyi-skin",
+          "command": "dsh plugin --profile web add github:lty-hongsejinwei/dsh-luotianyi-skin"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@9219ca03542f",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "meyaomiao/dsh-server-deck": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-server-deck",
+          "install": "dsh-server-deck",
+          "command": "dsh plugin --profile web add dsh-server-deck"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "drscrewdriver/dsh-input-traffic": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-input-traffic",
+          "install": "dsh-input-traffic",
+          "command": "dsh plugin --profile web add dsh-input-traffic"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "ns-zzj/dsh-hos-scrcpy": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:ns-zzj/dsh-hos-scrcpy",
+          "install": "https://github.com/ns-zzj/dsh-hos-scrcpy",
+          "command": "dsh plugin --profile web add github:ns-zzj/dsh-hos-scrcpy"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@c2f94df15542",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "oxmumu3/dsh-family-assistant": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:oxmumu3/dsh-family-assistant",
+          "install": "https://github.com/oxmumu3/dsh-family-assistant",
+          "command": "dsh plugin --profile web add github:oxmumu3/dsh-family-assistant"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@0ba38d9b3595",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "lmzhen/dsh-evolution": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:lmzhen/dsh-evolution#path:/packages/evolution-all",
+          "install": "https://github.com/lmzhen/dsh-evolution#path:/packages/evolution-all",
+          "command": "dsh plugin --profile web add \"github:lmzhen/dsh-evolution#path:/packages/evolution-all\""
+        },
+        {
+          "profile": "web",
+          "source": "github:lmzhen/dsh-evolution#path:/packages/evolution-host",
+          "install": "https://github.com/lmzhen/dsh-evolution#path:/packages/evolution-host",
+          "command": "dsh plugin --profile web add \"github:lmzhen/dsh-evolution#path:/packages/evolution-host\""
+        },
+        {
+          "profile": "web",
+          "source": "github:lmzhen/dsh-evolution#path:/packages/evolution-preset",
+          "install": "https://github.com/lmzhen/dsh-evolution#path:/packages/evolution-preset",
+          "command": "dsh plugin --profile web add \"github:lmzhen/dsh-evolution#path:/packages/evolution-preset\""
+        },
+        {
+          "profile": "web",
+          "source": "npm:@lmzhen/dsh-evolution-all",
+          "install": "@lmzhen/dsh-evolution-all",
+          "command": "dsh plugin --profile web add \"@lmzhen/dsh-evolution-all\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "realchendahuang/dsh-provider-studio": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:realchendahuang/dsh-provider-studio#v1.3.1",
+          "install": "https://github.com/realchendahuang/dsh-provider-studio#v1.3.1",
+          "command": "dsh plugin --profile web add \"github:realchendahuang/dsh-provider-studio#v1.3.1\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "summersummer-liu/dsh-swiss-grid": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:summersummer-liu/dsh-swiss-grid",
+          "install": "https://github.com/summersummer-liu/dsh-swiss-grid",
+          "command": "dsh plugin --profile web add github:summersummer-liu/dsh-swiss-grid"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "tao1020/dsh-chrome-use": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-chrome-use",
+          "install": "dsh-chrome-use",
+          "command": "dsh plugin --profile web add dsh-chrome-use"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "vvxer/dsh-silicon": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:vvxer/dsh-silicon",
+          "install": "https://github.com/vvxer/dsh-silicon",
+          "command": "dsh plugin --profile web add github:vvxer/dsh-silicon"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "nishuoyang/dsh-wallpaper-bg": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-wallpaper-bg",
+          "install": "dsh-wallpaper-bg",
+          "command": "dsh plugin --profile web add dsh-wallpaper-bg"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "taoser258/dsh-client-ui-skin-qingxiao": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@taosee258/dsh-client-ui-skin-qingxiao",
+          "install": "@taosee258/dsh-client-ui-skin-qingxiao",
+          "command": "dsh plugin --profile web add \"@taosee258/dsh-client-ui-skin-qingxiao\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "wings1848/dsh-mcp-lazy": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-mcp-lazy",
+          "install": "dsh-mcp-lazy",
+          "command": "dsh plugin --profile web add dsh-mcp-lazy"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "1lyn-en/dsh-whale": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:1Lyn-en/dsh-whale",
+          "install": "https://github.com/1Lyn-en/dsh-whale",
+          "command": "dsh plugin --profile web add github:1Lyn-en/dsh-whale"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "yukk4159-bit/dsh-prompt-injector": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:yukk4159-bit/dsh-prompt-injector",
+          "install": "https://github.com/yukk4159-bit/dsh-prompt-injector",
+          "command": "dsh plugin --profile web add github:yukk4159-bit/dsh-prompt-injector"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "bingtang1019/dsh-ppt-fusion": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Bingtang1019/dsh-ppt-fusion",
+          "install": "https://github.com/Bingtang1019/dsh-ppt-fusion",
+          "command": "dsh plugin --profile web add github:Bingtang1019/dsh-ppt-fusion"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@a19f4d3832e9",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "aliuyanfeng/dsh-soul": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-soul",
+          "install": "dsh-soul",
+          "command": "dsh plugin --profile web add dsh-soul"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "baroncyrus/dsh-kimi-subscription": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-kimi-subscription",
+          "install": "dsh-kimi-subscription",
+          "command": "dsh plugin --profile web add dsh-kimi-subscription"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "chengyunlai/dsh-workbench": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Chengyunlai/dsh-workbench",
+          "install": "https://github.com/Chengyunlai/dsh-workbench",
+          "command": "dsh plugin --profile web add github:Chengyunlai/dsh-workbench"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@6927871ec1e4",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "caizongyuan/dsh-ag-ui": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:CaiZongyuan/dsh-ag-ui",
+          "install": "https://github.com/CaiZongyuan/dsh-ag-ui",
+          "command": "dsh plugin --profile web add github:CaiZongyuan/dsh-ag-ui"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "dddmuc/dsh-delete-turn": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-delete-turn",
+          "install": "dsh-delete-turn",
+          "command": "dsh plugin --profile web add dsh-delete-turn"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "destinhue/dsh-video-vision": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Destinhue/dsh-video-vision",
+          "install": "https://github.com/Destinhue/dsh-video-vision",
+          "command": "dsh plugin --profile web add github:Destinhue/dsh-video-vision"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@b73a1256883e",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "el4cteo/roblox-devforum-mcp": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:roblox-devforum-mcp",
+          "install": "roblox-devforum-mcp",
+          "command": "dsh plugin --profile web add roblox-devforum-mcp"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "goodandready/dsh-clinebot": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@goodandready/dsh-clinebot",
+          "install": "@goodandready/dsh-clinebot",
+          "command": "dsh plugin --profile web add \"@goodandready/dsh-clinebot\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "goodandready/dsh-moa": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@goodandready/dsh-moa",
+          "install": "@goodandready/dsh-moa",
+          "command": "dsh plugin --profile web add \"@goodandready/dsh-moa\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "instant-king/dsh-ai-library": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-ai-library",
+          "install": "dsh-ai-library",
+          "command": "dsh plugin --profile web add dsh-ai-library"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "jasonfreelab/dsh-superpowers": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@jasonfreelab/dsh-superpowers",
+          "install": "@jasonfreelab/dsh-superpowers",
+          "command": "dsh plugin --profile web add \"@jasonfreelab/dsh-superpowers\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "lee-hilex/dsh-mineru": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-mineru",
+          "install": "dsh-mineru",
+          "command": "dsh plugin --profile web add dsh-mineru"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "jannchie/dsh-bill": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-bill",
+          "install": "dsh-bill",
+          "command": "dsh plugin --profile web add dsh-bill"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "mengyuanzhuo/dsh-plugin-magi": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-magi",
+          "install": "dsh-plugin-magi",
+          "command": "dsh plugin --profile web add dsh-plugin-magi"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "longerwu2026/dsh-dev-workbench": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-dev-workbench",
+          "install": "dsh-dev-workbench",
+          "command": "dsh plugin --profile web add dsh-dev-workbench"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "meteornox/dsh-whale-bongo": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-whale-bongo@0.3.5",
+          "install": "dsh-whale-bongo@0.3.5",
+          "command": "dsh plugin --profile web add \"dsh-whale-bongo@0.3.5\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "nevstop-lab/dsh-approval-mode": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:NEVSTOP-LAB/dsh-approval-mode",
+          "install": "https://github.com/NEVSTOP-LAB/dsh-approval-mode",
+          "command": "dsh plugin --profile web add github:NEVSTOP-LAB/dsh-approval-mode"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "omsociety/dsh-ssh-tunnel": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-ssh-tunnel",
+          "install": "dsh-ssh-tunnel",
+          "command": "dsh plugin --profile web add dsh-ssh-tunnel"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "orderg-x/dsh-chrome-bridge": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:OrderG-X/dsh-chrome-bridge#path:/plugin",
+          "install": "https://github.com/OrderG-X/dsh-chrome-bridge#path:/plugin",
+          "command": "dsh plugin --profile web add \"github:OrderG-X/dsh-chrome-bridge#path:/plugin\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@266a2bf6a021",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "quantumkuba/dsh-graphify-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:QuantumKuba/dsh-graphify-plugin",
+          "install": "https://github.com/QuantumKuba/dsh-graphify-plugin",
+          "command": "dsh plugin --profile web add github:QuantumKuba/dsh-graphify-plugin"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@74a2c72b31ab",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "ratevoid/dsh-aseprite": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Ratevoid/dsh-aseprite",
+          "install": "https://github.com/Ratevoid/dsh-aseprite",
+          "command": "dsh plugin --profile web add github:Ratevoid/dsh-aseprite"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@e6804fe63438",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "max-null/seek-soul-in-darkness": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Max-Null/seek-soul-in-darkness#path:/plugins/dsh-ssid-env",
+          "install": "https://github.com/Max-Null/seek-soul-in-darkness#path:/plugins/dsh-ssid-env",
+          "command": "dsh plugin --profile web add \"github:Max-Null/seek-soul-in-darkness#path:/plugins/dsh-ssid-env\""
+        },
+        {
+          "profile": "web",
+          "source": "github:Max-Null/seek-soul-in-darkness#path:/plugins/dsh-ssid-panels",
+          "install": "https://github.com/Max-Null/seek-soul-in-darkness#path:/plugins/dsh-ssid-panels",
+          "command": "dsh plugin --profile web add \"github:Max-Null/seek-soul-in-darkness#path:/plugins/dsh-ssid-panels\""
+        },
+        {
+          "profile": "web",
+          "source": "github:Max-Null/seek-soul-in-darkness#path:/plugins/dsh-ssid-pwsh-retry",
+          "install": "https://github.com/Max-Null/seek-soul-in-darkness#path:/plugins/dsh-ssid-pwsh-retry",
+          "command": "dsh plugin --profile web add \"github:Max-Null/seek-soul-in-darkness#path:/plugins/dsh-ssid-pwsh-retry\""
+        },
+        {
+          "profile": "web",
+          "source": "github:Max-Null/seek-soul-in-darkness#path:/plugins/dsh-ssid-zh-ui",
+          "install": "https://github.com/Max-Null/seek-soul-in-darkness#path:/plugins/dsh-ssid-zh-ui",
+          "command": "dsh plugin --profile web add \"github:Max-Null/seek-soul-in-darkness#path:/plugins/dsh-ssid-zh-ui\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@1f0c7ca5eb18",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "rainpomelo/dsh-liquid-glass-theme": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Rainpomelo/dsh-liquid-glass-theme#v2.0.3",
+          "install": "https://github.com/Rainpomelo/dsh-liquid-glass-theme#v2.0.3",
+          "command": "dsh plugin --profile web add \"github:Rainpomelo/dsh-liquid-glass-theme#v2.0.3\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "sucriss/dsh-leekbox": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:SuCriss/dsh-leekbox",
+          "install": "https://github.com/SuCriss/dsh-leekbox",
+          "command": "dsh plugin --profile web add github:SuCriss/dsh-leekbox"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@1d47fb1bf8f0",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "solismuchengxue/dsh_plugin_swift_cycle": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-swift-cycle",
+          "install": "dsh-plugin-swift-cycle",
+          "command": "dsh plugin --profile web add dsh-plugin-swift-cycle"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "tkingxiao/dsh-memu-memory": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-memu-memory",
+          "install": "dsh-memu-memory",
+          "command": "dsh plugin --profile web add dsh-memu-memory"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "yunongdai2005/dsh-theone": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-theone",
+          "install": "dsh-theone",
+          "command": "dsh plugin --profile web add dsh-theone"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "tripo-developer/tripo3d-plugin-dsh": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:tripo-dsh",
+          "install": "tripo-dsh",
+          "command": "dsh plugin --profile web add tripo-dsh"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "bloodtmai-cmyk/dsh-harness-enterprise": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:bloodtmai-cmyk/dsh-harness-enterprise#path:/packages/bundle/base",
+          "install": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise#path:/packages/bundle/base",
+          "command": "dsh plugin --profile web add \"github:bloodtmai-cmyk/dsh-harness-enterprise#path:/packages/bundle/base\""
+        },
+        {
+          "profile": "web",
+          "source": "github:bloodtmai-cmyk/dsh-harness-enterprise#path:/packages/bundle/headless",
+          "install": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise#path:/packages/bundle/headless",
+          "command": "dsh plugin --profile web add \"github:bloodtmai-cmyk/dsh-harness-enterprise#path:/packages/bundle/headless\""
+        },
+        {
+          "profile": "web",
+          "source": "github:bloodtmai-cmyk/dsh-harness-enterprise#path:/packages/bundle/web-app",
+          "install": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise#path:/packages/bundle/web-app",
+          "command": "dsh plugin --profile web add \"github:bloodtmai-cmyk/dsh-harness-enterprise#path:/packages/bundle/web-app\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@3427dbcc49a8",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "benz-ai-x/dsh-research-graph": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@benz-ai-x/dsh-research-graph@0.2.2-rc.3.3",
+          "install": "@benz-ai-x/dsh-research-graph@0.2.2-rc.3.3",
+          "command": "dsh plugin --profile web add \"@benz-ai-x/dsh-research-graph@0.2.2-rc.3.3\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "cinob/dsh-web-search-multi": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:cinob/dsh-web-search-multi",
+          "install": "https://github.com/cinob/dsh-web-search-multi",
+          "command": "dsh plugin --profile web add github:cinob/dsh-web-search-multi"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "chenkai2/dsh-daemon": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@chenkai114/dsh-daemon",
+          "install": "@chenkai114/dsh-daemon",
+          "command": "dsh plugin --profile web add \"@chenkai114/dsh-daemon\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "chendefine/dsh-web-fetch-playwright": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-web-fetch-playwright",
+          "install": "dsh-web-fetch-playwright",
+          "command": "dsh plugin --profile web add dsh-web-fetch-playwright"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "curo22/dsh-wb400-guard": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:curo22/dsh-wb400-guard",
+          "install": "https://github.com/curo22/dsh-wb400-guard",
+          "command": "dsh plugin --profile web add github:curo22/dsh-wb400-guard"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "dat-lequoc/dsh-supervisor": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:dat-lequoc/dsh-supervisor",
+          "install": "https://github.com/dat-lequoc/dsh-supervisor",
+          "command": "dsh plugin --profile web add github:dat-lequoc/dsh-supervisor"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@84cc8eeee85e",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "developerdh/dsh-sandbox-allowlist": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-sandbox-allowlist",
+          "install": "dsh-sandbox-allowlist",
+          "command": "dsh plugin --profile web add dsh-sandbox-allowlist"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "bloodarea/dsh-agent-team-presets": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-agent-team-presets",
+          "install": "dsh-agent-team-presets",
+          "command": "dsh plugin --profile web add dsh-agent-team-presets"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "dryw/dsh-egm": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-egm",
+          "install": "dsh-egm",
+          "command": "dsh plugin --profile web add dsh-egm"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "fan56/dsh-subagent-registry": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:fan56/dsh-subagent-registry",
+          "install": "https://github.com/fan56/dsh-subagent-registry",
+          "command": "dsh plugin --profile web add github:fan56/dsh-subagent-registry"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@a248f66a6580",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "gameswu/dsh-plugin-background": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:gameswu/dsh-plugin-background",
+          "install": "https://github.com/gameswu/dsh-plugin-background",
+          "command": "dsh plugin --profile web add github:gameswu/dsh-plugin-background"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@0bb878f2aa10",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "heartmove/dsh-session-bridge": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-session-bridge",
+          "install": "dsh-session-bridge",
+          "command": "dsh plugin --profile web add dsh-session-bridge"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "hoyyang/dsh-smart-compact": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-smart-compact",
+          "install": "dsh-smart-compact",
+          "command": "dsh plugin --profile web add dsh-smart-compact"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "huanlin-labs/dsh-isolation-gate": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-isolation-gate",
+          "install": "dsh-isolation-gate",
+          "command": "dsh plugin --profile web add dsh-isolation-gate"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "feigo313/dsh-structured": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-structured@1.0.4",
+          "install": "dsh-structured@1.0.4",
+          "command": "dsh plugin --profile web add \"dsh-structured@1.0.4\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "john-walks-slow/dsh-clear-mind": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-clear-mind",
+          "install": "dsh-clear-mind",
+          "command": "dsh plugin --profile web add dsh-clear-mind"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "icyaaaww/dsh-bili-vision": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:icyaaaww/dsh-bili-vision#v0.2.0",
+          "install": "https://github.com/icyaaaww/dsh-bili-vision#v0.2.0",
+          "command": "dsh plugin --profile web add \"github:icyaaaww/dsh-bili-vision#v0.2.0\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "drscrewdriver/dsh-tidy-display": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-tidy-display",
+          "install": "dsh-tidy-display",
+          "command": "dsh plugin --profile web add dsh-tidy-display"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "jackie-cqz/dsh-jev-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:jackie-cqz/dsh-jev-plugin#v0.1.1",
+          "install": "https://github.com/jackie-cqz/dsh-jev-plugin#v0.1.1",
+          "command": "dsh plugin --profile web add \"github:jackie-cqz/dsh-jev-plugin#v0.1.1\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "kinggod899/dsh-reply-forge-v3": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-reply-forge-v3",
+          "install": "dsh-reply-forge-v3",
+          "command": "dsh plugin --profile web add dsh-reply-forge-v3"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "lakeofsky347/yingliu-video-studio": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:lakeofsky347/yingliu-video-studio",
+          "install": "https://github.com/lakeofsky347/yingliu-video-studio",
+          "command": "dsh plugin --profile web add github:lakeofsky347/yingliu-video-studio"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@c481896a2370",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "liangzz1998/dsh-thinking-language": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:liangzz1998/dsh-thinking-language",
+          "install": "https://github.com/liangzz1998/dsh-thinking-language",
+          "command": "dsh plugin --profile web add github:liangzz1998/dsh-thinking-language"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "kazari-qwp/dsh-tiered-plugin-menu": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:kazari-qwp/dsh-tiered-plugin-menu#path:/packages/core",
+          "install": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu#path:/packages/core",
+          "command": "dsh plugin --profile web add \"github:kazari-qwp/dsh-tiered-plugin-menu#path:/packages/core\""
+        },
+        {
+          "profile": "web",
+          "source": "github:kazari-qwp/dsh-tiered-plugin-menu#path:/packages/dsh-go",
+          "install": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu#path:/packages/dsh-go",
+          "command": "dsh plugin --profile web add \"github:kazari-qwp/dsh-tiered-plugin-menu#path:/packages/dsh-go\""
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-tiered-plugin-tui",
+          "install": "dsh-tiered-plugin-tui",
+          "command": "dsh plugin --profile web add dsh-tiered-plugin-tui"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-tiered-plugin-menu",
+          "install": "dsh-tiered-plugin-menu",
+          "command": "dsh plugin --profile web add dsh-tiered-plugin-menu"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@8ec0ca1ea2d9",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "linhut/dsh-stock-terminal": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:linhut/dsh-stock-terminal",
+          "install": "https://github.com/linhut/dsh-stock-terminal",
+          "command": "dsh plugin --profile web add github:linhut/dsh-stock-terminal"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "log-li/dsh-automode": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@log.li/dsh-automode",
+          "install": "@log.li/dsh-automode",
+          "command": "dsh plugin --profile web add \"@log.li/dsh-automode\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "wldxiaobai/dsh-project-mcp-manager": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-project-mcp-manager",
+          "install": "dsh-project-mcp-manager",
+          "command": "dsh plugin --profile web add dsh-project-mcp-manager"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "zemul/dsh-video-preview": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-video-preview",
+          "install": "dsh-video-preview",
+          "command": "dsh plugin --profile web add dsh-video-preview"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "paicat1/dsh-screenshot": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@paicat1/dsh-screenshot",
+          "install": "@paicat1/dsh-screenshot",
+          "command": "dsh plugin --profile web add \"@paicat1/dsh-screenshot\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "zhang-jiazhi/dsh-prompt-optimizer": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:zhang-jiazhi/dsh-prompt-optimizer",
+          "install": "https://github.com/zhang-jiazhi/dsh-prompt-optimizer",
+          "command": "dsh plugin --profile web add github:zhang-jiazhi/dsh-prompt-optimizer"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@41e4c77a35ae",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "linxichen/dsh-rigorquant": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-rigorquant",
+          "install": "dsh-rigorquant",
+          "command": "dsh plugin --profile web add dsh-rigorquant"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "240xu/dsh-websearch": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@240xu/dsh-websearch",
+          "install": "@240xu/dsh-websearch",
+          "command": "dsh plugin --profile web add \"@240xu/dsh-websearch\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "240xu/dsh-message-ops": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@240xu/dsh-message-ops",
+          "install": "@240xu/dsh-message-ops",
+          "command": "dsh plugin --profile web add \"@240xu/dsh-message-ops\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "anarcadia/chuanban-dsh-writingset": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Anarcadia/chuanban-dsh-writingset",
+          "install": "https://github.com/Anarcadia/chuanban-dsh-writingset",
+          "command": "dsh plugin --profile web add github:Anarcadia/chuanban-dsh-writingset"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "2710586329/dsh-qq": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-qq-onebot",
+          "install": "dsh-qq-onebot",
+          "command": "dsh plugin --profile web add dsh-qq-onebot"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "calcium-ion/dsh-ptc-moejs": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-ptc-moejs",
+          "install": "dsh-ptc-moejs",
+          "command": "dsh plugin --profile web add dsh-ptc-moejs"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "bj1919810/dsh-rea": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:BJ1919810/dsh-rea",
+          "install": "https://github.com/BJ1919810/dsh-rea",
+          "command": "dsh plugin --profile web add github:BJ1919810/dsh-rea"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "altairpaca/dshelm": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Altairpaca/dshelm#path:/packages/dsh",
+          "install": "https://github.com/Altairpaca/dshelm#path:/packages/dsh",
+          "command": "dsh plugin --profile web add \"github:Altairpaca/dshelm#path:/packages/dsh\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@824c12436a1d",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "boobaw/dsh-telegram-bot": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-telegram-bot",
+          "install": "dsh-telegram-bot",
+          "command": "dsh plugin --profile web add dsh-telegram-bot"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "emberwingaviation/dsh-media-gen": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-media-gen",
+          "install": "dsh-media-gen",
+          "command": "dsh plugin --profile web add dsh-media-gen"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "guli-lab/dsh-element-source": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-element-source",
+          "install": "dsh-element-source",
+          "command": "dsh plugin --profile web add dsh-element-source"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "horusjiang/dsh-map-tools": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-map-tools",
+          "install": "dsh-map-tools",
+          "command": "dsh plugin --profile web add dsh-map-tools"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "jcnet-9527/dsh-jpet-phone": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Jcnet-9527/dsh-Jpet-phone",
+          "install": "https://github.com/Jcnet-9527/dsh-Jpet-phone",
+          "command": "dsh plugin --profile web add github:Jcnet-9527/dsh-Jpet-phone"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "inorimutsumi/dsh-grill-first": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-grill-first",
+          "install": "dsh-grill-first",
+          "command": "dsh plugin --profile web add dsh-grill-first"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "kratoslee-6/html-ninefox": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:KratosLee-6/Html-ninefox#path:/integrations/deepseek-harness",
+          "install": "https://github.com/KratosLee-6/Html-ninefox#path:/integrations/deepseek-harness",
+          "command": "dsh plugin --profile web add \"github:KratosLee-6/Html-ninefox#path:/integrations/deepseek-harness\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@e9ad217c1f2a",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "moonlitdropofblood/dsh-memory-manager": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:MoonlitDropOfBlood/dsh-memory-manager",
+          "install": "https://github.com/MoonlitDropOfBlood/dsh-memory-manager",
+          "command": "dsh plugin --profile web add github:MoonlitDropOfBlood/dsh-memory-manager"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "kannakuron/dsh-ptc-cordis-preset": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-ptc-cordis-preset",
+          "install": "dsh-ptc-cordis-preset",
+          "command": "dsh plugin --profile web add dsh-ptc-cordis-preset"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "memz-jzy/dsh-claude-style-reasoning-slider": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider",
+          "install": "https://github.com/MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider",
+          "command": "dsh plugin --profile web add github:MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "muwinds/dsh-codemode": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:MuWinds/dsh-codemode",
+          "install": "https://github.com/MuWinds/dsh-codemode",
+          "command": "dsh plugin --profile web add github:MuWinds/dsh-codemode"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@f9758ec1061a",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "roylexj/dsh-notify-tray": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:ROYLeXJ/dsh-notify-tray",
+          "install": "https://github.com/ROYLeXJ/dsh-notify-tray",
+          "command": "dsh plugin --profile web add github:ROYLeXJ/dsh-notify-tray"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@426c4e75809c",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "peterbon/dsh-hooks": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-hooks",
+          "install": "dsh-hooks",
+          "command": "dsh plugin --profile web add dsh-hooks"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "qiuyedx/dsh-bili-eyes": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-bili-eyes",
+          "install": "dsh-bili-eyes",
+          "command": "dsh plugin --profile web add dsh-bili-eyes"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "ryuu-64/dsh-find-all": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Ryuu-64/dsh-find-all",
+          "install": "https://github.com/Ryuu-64/dsh-find-all",
+          "command": "dsh plugin --profile web add github:Ryuu-64/dsh-find-all"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@c1a7d5a22227",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "saos-3624/see-on-phone": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:SAOS-3624/see-on-phone",
+          "install": "https://github.com/SAOS-3624/see-on-phone",
+          "command": "dsh plugin --profile web add github:SAOS-3624/see-on-phone"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@d6605fb3106b",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "justgenius-s/dsh-plugs": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-codex",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-codex",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-codex\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-computer-tools",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-computer-tools",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-computer-tools\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-cua-pip",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-cua-pip",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-cua-pip\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-debug-mode",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-debug-mode",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-debug-mode\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-flow",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-flow",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-flow\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-model-custom-ex",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-model-custom-ex",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-model-custom-ex\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-notify-jump",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-notify-jump",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-notify-jump\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-plugin-config",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-plugin-config",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-plugin-config\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-quick-notes",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-quick-notes",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-quick-notes\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-session-archive",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-session-archive",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-session-archive\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-synapse",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-synapse",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-synapse\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-sync",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-sync",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-sync\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-whale-girl",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-whale-girl",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-whale-girl\""
+        },
+        {
+          "profile": "web",
+          "source": "github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-workspace-plus",
+          "install": "https://github.com/JustGenius-s/DSH-Plugs#path:/plugins/dsh-workspace-plus",
+          "command": "dsh plugin --profile web add \"github:JustGenius-s/DSH-Plugs#path:/plugins/dsh-workspace-plus\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@81f83d39a2f8",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "scorpio69t/teach-math-with-manim": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Scorpio69t/teach-math-with-manim",
+          "install": "https://github.com/Scorpio69t/teach-math-with-manim",
+          "command": "dsh plugin --profile web add github:Scorpio69t/teach-math-with-manim"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "stardustlc666/dsh-sql": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-sql",
+          "install": "dsh-sql",
+          "command": "dsh plugin --profile web add dsh-sql"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "taoruiliu19/dsh-gsv": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-gsv-tts",
+          "install": "dsh-gsv-tts",
+          "command": "dsh plugin --profile web add dsh-gsv-tts"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "wovenjunct/dsh-plugin-simple-delete-session": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:WovenJunct/dsh-plugin-simple-delete-session",
+          "install": "https://github.com/WovenJunct/dsh-plugin-simple-delete-session",
+          "command": "dsh plugin --profile web add github:WovenJunct/dsh-plugin-simple-delete-session"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "addozhang/dsh-discord": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@addozhang/dsh-discord",
+          "install": "@addozhang/dsh-discord",
+          "command": "dsh plugin --profile web add \"@addozhang/dsh-discord\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "appthin/dsh-rea-agents": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-rea-agents",
+          "install": "dsh-rea-agents",
+          "command": "dsh plugin --profile web add dsh-rea-agents"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "beijingwahw/dsh-conv-export": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:beijingwahw/dsh-conv-export",
+          "install": "https://github.com/beijingwahw/dsh-conv-export",
+          "command": "dsh plugin --profile web add github:beijingwahw/dsh-conv-export"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@30a069379ccc",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "booondenz/dsh-thesis": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:booondenz/dsh-thesis",
+          "install": "https://github.com/booondenz/dsh-thesis",
+          "command": "dsh plugin --profile web add github:booondenz/dsh-thesis"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@44927304287b",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "bowang-lab/dsh-medomni": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:bowang-lab/dsh-medomni",
+          "install": "https://github.com/bowang-lab/dsh-medomni",
+          "command": "dsh plugin --profile web add github:bowang-lab/dsh-medomni"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "yurzi/dsh-tool-web-enhanced": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-tool-web-enhanced-profile",
+          "install": "dsh-tool-web-enhanced-profile",
+          "command": "dsh plugin --profile web add dsh-tool-web-enhanced-profile"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "burning-frappuccino/dsh-turbo": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:burning-frappuccino/dsh-turbo",
+          "install": "https://github.com/burning-frappuccino/dsh-turbo",
+          "command": "dsh plugin --profile web add github:burning-frappuccino/dsh-turbo"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "chunsi-w/dsh-ctxopt-compaction": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:chunsi-w/dsh-ctxopt-compaction",
+          "install": "https://github.com/chunsi-w/dsh-ctxopt-compaction",
+          "command": "dsh plugin --profile web add github:chunsi-w/dsh-ctxopt-compaction"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@4b60852c0db6",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "dougen/dsh-deepseek-usage": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@dougen/dsh-deepseek-usage",
+          "install": "@dougen/dsh-deepseek-usage",
+          "command": "dsh plugin --profile web add \"@dougen/dsh-deepseek-usage\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "dsh-plugin-lab/dsh-plugin-debugging": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-debugging",
+          "install": "dsh-plugin-debugging",
+          "command": "dsh plugin --profile web add dsh-plugin-debugging"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "dushudou/dsh-rea": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-rea",
+          "install": "dsh-rea",
+          "command": "dsh plugin --profile web add dsh-rea"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "drscrewdriver/dsh-date-wrapper": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:drscrewdriver/dsh-date-wrapper",
+          "install": "https://github.com/drscrewdriver/dsh-date-wrapper",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-date-wrapper"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "drscrewdriver/dsh-canvas-tsx-sidebar": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-canvas-tsx-sidebar",
+          "install": "dsh-canvas-tsx-sidebar",
+          "command": "dsh plugin --profile web add dsh-canvas-tsx-sidebar"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "saxem1997/dsh-ppt-master-wrapper": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-ppt-master-wrapper",
+          "install": "dsh-ppt-master-wrapper",
+          "command": "dsh plugin --profile web add dsh-ppt-master-wrapper"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "drscrewdriver/dsh-llm-openai-completions": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-llm-openai-completions",
+          "install": "dsh-llm-openai-completions",
+          "command": "dsh plugin --profile web add dsh-llm-openai-completions"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "easychen/dsh-workspace-recent-sort": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-workspace-recent-sort",
+          "install": "dsh-workspace-recent-sort",
+          "command": "dsh plugin --profile web add dsh-workspace-recent-sort"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "forelsket521-jpg/vvn-deepseek-harness": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:forelsket521-jpg/vvn-deepseek-harness#path:/kit/dsh-scrub",
+          "install": "https://github.com/forelsket521-jpg/vvn-deepseek-harness#path:/kit/dsh-scrub",
+          "command": "dsh plugin --profile web add \"github:forelsket521-jpg/vvn-deepseek-harness#path:/kit/dsh-scrub\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@158b9c922fb7",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "eghrhegpe/dsh-connect-sensenova-token-plan": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-connect-sensenova-token-plan",
+          "install": "dsh-connect-sensenova-token-plan",
+          "command": "dsh plugin --profile web add dsh-connect-sensenova-token-plan"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "grloper/dsh-claude-oauth": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:grloper/dsh-claude-oauth",
+          "install": "https://github.com/grloper/dsh-claude-oauth",
+          "command": "dsh plugin --profile web add github:grloper/dsh-claude-oauth"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "huanlin-labs/dsh-skill-cockpit": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:huanlin-labs/dsh-skill-cockpit",
+          "install": "https://github.com/huanlin-labs/dsh-skill-cockpit",
+          "command": "dsh plugin --profile web add github:huanlin-labs/dsh-skill-cockpit"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@70428abfaa2c",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "hulibuld/dsh-get-it-for-free": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:hulibuld/dsh-get-it-for-free",
+          "install": "https://github.com/hulibuld/dsh-get-it-for-free",
+          "command": "dsh plugin --profile web add github:hulibuld/dsh-get-it-for-free"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@6daa5bc344fe",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "hoyyang/dsh-improve-prompt": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-improve-prompt",
+          "install": "dsh-improve-prompt",
+          "command": "dsh plugin --profile web add dsh-improve-prompt"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "hyqhyq3/dsh-gemini-oauth-bridge": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:hyqhyq3/dsh-gemini-oauth-bridge",
+          "install": "https://github.com/hyqhyq3/dsh-gemini-oauth-bridge",
+          "command": "dsh plugin --profile web add github:hyqhyq3/dsh-gemini-oauth-bridge"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "icanfinish11/dsh-context-mode": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:icanfinish11/dsh-context-mode",
+          "install": "https://github.com/icanfinish11/dsh-context-mode",
+          "command": "dsh plugin --profile web add github:icanfinish11/dsh-context-mode"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@587430c15907",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "justhalfbit/dsh-plugin-jev-effort-selector": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:justhalfbit/dsh-plugin-jev-effort-selector",
+          "install": "https://github.com/justhalfbit/dsh-plugin-jev-effort-selector",
+          "command": "dsh plugin --profile web add github:justhalfbit/dsh-plugin-jev-effort-selector"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "kobenfang/biga": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:kobenfang/bigA",
+          "install": "https://github.com/kobenfang/bigA",
+          "command": "dsh plugin --profile web add github:kobenfang/bigA"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "kangtsang/dsh-worktree-space": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-worktree-space",
+          "install": "dsh-worktree-space",
+          "command": "dsh plugin --profile web add dsh-worktree-space"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "illli-studio/mory": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@illli-studio/dsh-mory",
+          "install": "@illli-studio/dsh-mory",
+          "command": "dsh plugin --profile web add \"@illli-studio/dsh-mory\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "kyle123740/dsh-zcode-cli-proxy": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:kyle123740/dsh-zcode-cli-proxy",
+          "install": "https://github.com/kyle123740/dsh-zcode-cli-proxy",
+          "command": "dsh plugin --profile web add github:kyle123740/dsh-zcode-cli-proxy"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@18375a9ebdaa",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "liangdabiao/dsh-invest-radar": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:liangdabiao/dsh-invest-radar",
+          "install": "https://github.com/liangdabiao/dsh-invest-radar",
+          "command": "dsh plugin --profile web add github:liangdabiao/dsh-invest-radar"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "liangdabiao/dsh-reddit-research": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:liangdabiao/dsh-reddit-research",
+          "install": "https://github.com/liangdabiao/dsh-reddit-research",
+          "command": "dsh plugin --profile web add github:liangdabiao/dsh-reddit-research"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "lemonxiny55/dsh-code-index": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-code-index@0.12.0",
+          "install": "dsh-code-index@0.12.0",
+          "command": "dsh plugin --profile web add \"dsh-code-index@0.12.0\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "liuyu-f/dsh-plugin-session-cascade-delete": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@liuyu-f/dsh-plugin-session-cascade-delete",
+          "install": "@liuyu-f/dsh-plugin-session-cascade-delete",
+          "command": "dsh plugin --profile web add \"@liuyu-f/dsh-plugin-session-cascade-delete\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "lemoncat7/dsh-ssh": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@lemoncat7/dsh-ssh",
+          "install": "@lemoncat7/dsh-ssh",
+          "command": "dsh plugin --profile web add \"@lemoncat7/dsh-ssh\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "mlosun/dsh-docs-panel": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-docs-panel",
+          "install": "dsh-docs-panel",
+          "command": "dsh plugin --profile web add dsh-docs-panel"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "lonelycrab888/dsh-enhancement-switches": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:lonelycrab888/dsh-enhancement-switches#v0.2.2-rc.2",
+          "install": "https://github.com/lonelycrab888/dsh-enhancement-switches#v0.2.2-rc.2",
+          "command": "dsh plugin --profile web add \"github:lonelycrab888/dsh-enhancement-switches#v0.2.2-rc.2\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "mienfong/dsh-session-mgr": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-session-mgr",
+          "install": "dsh-session-mgr",
+          "command": "dsh plugin --profile web add dsh-session-mgr"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "maple110011/dsh-obsidian-math": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:maple110011/dsh-obsidian-math",
+          "install": "https://github.com/maple110011/dsh-obsidian-math",
+          "command": "dsh plugin --profile web add github:maple110011/dsh-obsidian-math"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@571c9e1bf825",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "mlkgrnt/dsh-junimo": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:mlkgrnt/dsh-junimo",
+          "install": "https://github.com/mlkgrnt/dsh-junimo",
+          "command": "dsh plugin --profile web add github:mlkgrnt/dsh-junimo"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "nowledge-co/nowledge-mem-deepseek-harness": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:nowledge-co/nowledge-mem-deepseek-harness",
+          "install": "https://github.com/nowledge-co/nowledge-mem-deepseek-harness",
+          "command": "dsh plugin --profile web add github:nowledge-co/nowledge-mem-deepseek-harness"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "peterwangze/dsh-novel-writing": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:peterwangze/dsh-novel-writing",
+          "install": "https://github.com/peterwangze/dsh-novel-writing",
+          "command": "dsh plugin --profile web add github:peterwangze/dsh-novel-writing"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@ab96fdb55fb0",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "pravets/dsh-edt-projects": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:pravets/dsh-edt-projects#path:/packages/dsh-edt-projects",
+          "install": "https://github.com/pravets/dsh-edt-projects#path:/packages/dsh-edt-projects",
+          "command": "dsh plugin --profile web add \"github:pravets/dsh-edt-projects#path:/packages/dsh-edt-projects\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@1f1e3c1ba542",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "qikairo7/dsh-gemini-pool": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:qikairo7/dsh-gemini-pool",
+          "install": "https://github.com/qikairo7/dsh-gemini-pool",
+          "command": "dsh plugin --profile web add github:qikairo7/dsh-gemini-pool"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "qingmomo233/dsh-thinking-language": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:qingmomo233/dsh-thinking-language",
+          "install": "https://github.com/qingmomo233/dsh-thinking-language",
+          "command": "dsh plugin --profile web add github:qingmomo233/dsh-thinking-language"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "python3603/dsh-weather-panel": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-weather-panel",
+          "install": "dsh-weather-panel",
+          "command": "dsh plugin --profile web add dsh-weather-panel"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "qwe225380/dsh-omni-router": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-omni-router",
+          "install": "dsh-omni-router",
+          "command": "dsh plugin --profile web add dsh-omni-router"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "regrevia/dsh-chat-link-actions": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:regrevia/dsh-chat-link-actions",
+          "install": "https://github.com/regrevia/dsh-chat-link-actions",
+          "command": "dsh plugin --profile web add github:regrevia/dsh-chat-link-actions"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@99acd2dfbaab",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "sasajun2345/dsh-minigame-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:sasajun2345/dsh-minigame-plugin",
+          "install": "https://github.com/sasajun2345/dsh-minigame-plugin",
+          "command": "dsh plugin --profile web add github:sasajun2345/dsh-minigame-plugin"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "slowhiring/dsh-github-ops": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:slowhiring/dsh-github-ops",
+          "install": "https://github.com/slowhiring/dsh-github-ops",
+          "command": "dsh plugin --profile web add github:slowhiring/dsh-github-ops"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "tearslee/dsh-workbuddy2api": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-workbuddy2api",
+          "install": "dsh-workbuddy2api",
+          "command": "dsh plugin --profile web add dsh-workbuddy2api"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "skepsun/dsh-engram": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-engram",
+          "install": "dsh-engram",
+          "command": "dsh plugin --profile web add dsh-engram"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "tianyaojiudi-prog/dsh-djy-xttsc": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:tianyaojiudi-prog/dsh-djy-xttsc",
+          "install": "https://github.com/tianyaojiudi-prog/dsh-djy-xttsc",
+          "command": "dsh plugin --profile web add github:tianyaojiudi-prog/dsh-djy-xttsc"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@0b94db01b8ed",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "viztor/dsh-opencode-patch": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:viztor/dsh-opencode-patch",
+          "install": "https://github.com/viztor/dsh-opencode-patch",
+          "command": "dsh plugin --profile web add github:viztor/dsh-opencode-patch"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@65a4540a80e7",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "weibaohui/dsh-continue": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@weibaohui/dsh-continue",
+          "install": "@weibaohui/dsh-continue",
+          "command": "dsh plugin --profile web add \"@weibaohui/dsh-continue\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "weibaohui/dsh-smart-title": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@weibaohui/dsh-smart-title",
+          "install": "@weibaohui/dsh-smart-title",
+          "command": "dsh plugin --profile web add \"@weibaohui/dsh-smart-title\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "vdnight89/infinitedsh": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:vdnight89/InfiniteDSH",
+          "install": "https://github.com/vdnight89/InfiniteDSH",
+          "command": "dsh plugin --profile web add github:vdnight89/InfiniteDSH"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "xiaolu511/dsh-hot-restart": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-hot-restart",
+          "install": "dsh-hot-restart",
+          "command": "dsh plugin --profile web add dsh-hot-restart"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "xrn1997/dsh-session-delete": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@xrn1997/dsh-session-delete",
+          "install": "@xrn1997/dsh-session-delete",
+          "command": "dsh plugin --profile web add \"@xrn1997/dsh-session-delete\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "yzxxy010/dsh-workspace-write-plus": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:yzxxy010/dsh-workspace-write-plus",
+          "install": "https://github.com/yzxxy010/dsh-workspace-write-plus",
+          "command": "dsh plugin --profile web add github:yzxxy010/dsh-workspace-write-plus"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "wk544863858/dsh-plugin-magic-context": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-magic-context",
+          "install": "dsh-plugin-magic-context",
+          "command": "dsh plugin --profile web add dsh-plugin-magic-context"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "x5427876/dsh-opencode-free": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-opencode-free@0.6.0",
+          "install": "dsh-opencode-free@0.6.0",
+          "command": "dsh plugin --profile web add \"dsh-opencode-free@0.6.0\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "zhtx2024/dsh-pdf": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@zhtx2026/dsh-pdf",
+          "install": "@zhtx2026/dsh-pdf",
+          "command": "dsh plugin --profile web add \"@zhtx2026/dsh-pdf\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "zsjs110110-cpu/dsh-cross-session-approval": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:zsjs110110-cpu/dsh-cross-session-approval",
+          "install": "https://github.com/zsjs110110-cpu/dsh-cross-session-approval",
+          "command": "dsh plugin --profile web add github:zsjs110110-cpu/dsh-cross-session-approval"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "01ngvi-qingyi/no-ai-style": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:01NGVI-QINGYI/no-ai-style",
+          "install": "https://github.com/01NGVI-QINGYI/no-ai-style",
+          "command": "dsh plugin --profile web add github:01NGVI-QINGYI/no-ai-style"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "aegink/dsh-channel-qq": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Aegink/dsh-channel-qq",
+          "install": "https://github.com/Aegink/dsh-channel-qq",
+          "command": "dsh plugin --profile web add github:Aegink/dsh-channel-qq"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@942663ec69f2",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "54xkeee/dsh-vision": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-vision-web",
+          "install": "dsh-vision-web",
+          "command": "dsh plugin --profile web add dsh-vision-web"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "1985899182/dsh-harness-chat-control": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:1985899182/dsh-harness-chat-control#v0.3.12",
+          "install": "https://github.com/1985899182/dsh-harness-chat-control#v0.3.12",
+          "command": "dsh plugin --profile web add \"github:1985899182/dsh-harness-chat-control#v0.3.12\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "anmulzhao/dsh-agint": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Anmulzhao/DSH-AGINT",
+          "install": "https://github.com/Anmulzhao/DSH-AGINT",
+          "command": "dsh plugin --profile web add github:Anmulzhao/DSH-AGINT"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@2a91dd92f032",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "big-dao/dsh-plugin-wsl-env": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Big-Dao/dsh-plugin-wsl-env",
+          "install": "https://github.com/Big-Dao/dsh-plugin-wsl-env",
+          "command": "dsh plugin --profile web add github:Big-Dao/dsh-plugin-wsl-env"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@525571f0c568",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "ccyellowstar2/dsh-astrbot-ingress": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-astrbot-ingress",
+          "install": "dsh-astrbot-ingress",
+          "command": "dsh plugin --profile web add dsh-astrbot-ingress"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "caoran1314/dsh-edict": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-edict",
+          "install": "dsh-edict",
+          "command": "dsh plugin --profile web add dsh-edict"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "croissantts/dsh-harness-jarvis": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:CroissanTTs/dsh-harness-jarvis",
+          "install": "https://github.com/CroissanTTs/dsh-harness-jarvis",
+          "command": "dsh plugin --profile web add github:CroissanTTs/dsh-harness-jarvis"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@759d44a5a1f4",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "cwnu-open-source-community/dsh-webgate": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-webgate",
+          "install": "dsh-webgate",
+          "command": "dsh plugin --profile web add dsh-webgate"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "dogwind221/img2img-studio": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Dogwind221/img2img-studio#path:/plugins/dsh-img2img-config",
+          "install": "https://github.com/Dogwind221/img2img-studio#path:/plugins/dsh-img2img-config",
+          "command": "dsh plugin --profile web add \"github:Dogwind221/img2img-studio#path:/plugins/dsh-img2img-config\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@93646be569df",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "dddmuc/dsh-edit-turn": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-edit-turn",
+          "install": "dsh-edit-turn",
+          "command": "dsh plugin --profile web add dsh-edit-turn"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "emilia-awa/hermes-dsh-bridge": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Emilia-awa/hermes-dsh-bridge",
+          "install": "https://github.com/Emilia-awa/hermes-dsh-bridge",
+          "command": "dsh plugin --profile web add github:Emilia-awa/hermes-dsh-bridge"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@5b8c9ef3310a",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "easonmws/dsh-plugin-health": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-health",
+          "install": "dsh-plugin-health",
+          "command": "dsh plugin --profile web add dsh-plugin-health"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "goodandready/dsh-dsml-artifact-guard": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@goodandready/dsh-dsml-artifact-guard",
+          "install": "@goodandready/dsh-dsml-artifact-guard",
+          "command": "dsh plugin --profile web add \"@goodandready/dsh-dsml-artifact-guard\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "hakunm/dsh-workspace": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Hakunm/dsh-workspace",
+          "install": "https://github.com/Hakunm/dsh-workspace",
+          "command": "dsh plugin --profile web add github:Hakunm/dsh-workspace"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "funny1potato/dsh-onebot-hub": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-onebot-hub",
+          "install": "dsh-onebot-hub",
+          "command": "dsh plugin --profile web add dsh-onebot-hub"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "chenyiming-aaa/better-trip-planner": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-trip-planner-cn",
+          "install": "dsh-trip-planner-cn",
+          "command": "dsh plugin --profile web add dsh-trip-planner-cn"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "goodandready/dsh-lanmode": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@goodandready/dsh-lanmode",
+          "install": "@goodandready/dsh-lanmode",
+          "command": "dsh plugin --profile web add \"@goodandready/dsh-lanmode\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "golden-pigeon/dsh-remote": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Golden-Pigeon/dsh-remote#path:/packages/local-plugin",
+          "install": "https://github.com/Golden-Pigeon/dsh-remote#path:/packages/local-plugin",
+          "command": "dsh plugin --profile web add \"github:Golden-Pigeon/dsh-remote#path:/packages/local-plugin\""
+        },
+        {
+          "profile": "web",
+          "source": "github:Golden-Pigeon/dsh-remote#path:/packages/remote-agent",
+          "install": "https://github.com/Golden-Pigeon/dsh-remote#path:/packages/remote-agent",
+          "command": "dsh plugin --profile web add \"github:Golden-Pigeon/dsh-remote#path:/packages/remote-agent\""
+        },
+        {
+          "profile": "web",
+          "source": "github:Golden-Pigeon/dsh-remote#path:/packages/terminal-controller",
+          "install": "https://github.com/Golden-Pigeon/dsh-remote#path:/packages/terminal-controller",
+          "command": "dsh plugin --profile web add \"github:Golden-Pigeon/dsh-remote#path:/packages/terminal-controller\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@3733e257e29b",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "it-coder-yy/dsh-lazygit-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-lazygit-plugin@0.5.3",
+          "install": "dsh-lazygit-plugin@0.5.3",
+          "command": "dsh plugin --profile web add \"dsh-lazygit-plugin@0.5.3\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "hanson0901/dsh-line-bot": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-line-bot",
+          "install": "dsh-line-bot",
+          "command": "dsh plugin --profile web add dsh-line-bot"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "jason-skd/dsh-session-fork": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-session-fork",
+          "install": "dsh-session-fork",
+          "command": "dsh plugin --profile web add dsh-session-fork"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "joukopuro/dsh-prompt-polish": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:JoukoPuro/dsh-prompt-polish",
+          "install": "https://github.com/JoukoPuro/dsh-prompt-polish",
+          "command": "dsh plugin --profile web add github:JoukoPuro/dsh-prompt-polish"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@1dde60c68238",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "liujelly/dsh-memewiki": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Liujelly/dsh-memewiki",
+          "install": "https://github.com/Liujelly/dsh-memewiki",
+          "command": "dsh plugin --profile web add github:Liujelly/dsh-memewiki"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@1d3f82664688",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "letter2025/dsh-approval-llm": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-approval-llm",
+          "install": "dsh-approval-llm",
+          "command": "dsh plugin --profile web add dsh-approval-llm"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "lyaxz/dsh-fonttune": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-fonttune",
+          "install": "dsh-fonttune",
+          "command": "dsh plugin --profile web add dsh-fonttune"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "mzy123l/dsh-plugin-remote-access": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-remote-access",
+          "install": "dsh-plugin-remote-access",
+          "command": "dsh plugin --profile web add dsh-plugin-remote-access"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "noirbright/dsh-llm-codex": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:NOirBRight/dsh-llm-codex",
+          "install": "https://github.com/NOirBRight/dsh-llm-codex",
+          "command": "dsh plugin --profile web add github:NOirBRight/dsh-llm-codex"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@b9fe83518db8",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "nelsonlongxiang/dsh-open-a2a-net": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@nelsonlongxiang/dsh-open-a2a-net",
+          "install": "@nelsonlongxiang/dsh-open-a2a-net",
+          "command": "dsh plugin --profile web add \"@nelsonlongxiang/dsh-open-a2a-net\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "nwflower/dsh-file-claim": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-file-claim",
+          "install": "dsh-file-claim",
+          "command": "dsh plugin --profile web add dsh-file-claim"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "particlelight/dsh-browser-plus": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-browser-plus",
+          "install": "dsh-browser-plus",
+          "command": "dsh plugin --profile web add dsh-browser-plus"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "ragnoryok1/dsh-client-locale-ru": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@ragnoryok1/dsh-client-locale-ru",
+          "install": "@ragnoryok1/dsh-client-locale-ru",
+          "command": "dsh plugin --profile web add \"@ragnoryok1/dsh-client-locale-ru\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "nexus-aethra/nexus-terminal": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@nexus-aethra/dshell-bundle",
+          "install": "@nexus-aethra/dshell-bundle",
+          "command": "dsh plugin --profile web add \"@nexus-aethra/dshell-bundle\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "no-prm/dsh-explorer": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer",
+          "install": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer",
+          "command": "dsh plugin --profile web add \"github:No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer\""
+        },
+        {
+          "profile": "web",
+          "source": "github:No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer",
+          "install": "https://github.com/No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer",
+          "command": "dsh plugin --profile web add \"github:No-PRM/dsh-explorer#main&path:/dsh-plugins/dsh-explorer\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "iris-change/dsh-eva-skins": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-eva-skins",
+          "install": "dsh-eva-skins",
+          "command": "dsh plugin --profile web add dsh-eva-skins"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "michengai/dsh-codex-pet": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@michengai/dsh-codex-pet",
+          "install": "@michengai/dsh-codex-pet",
+          "command": "dsh plugin --profile web add \"@michengai/dsh-codex-pet\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "samizuhm/dsh-client-ui-theme-xp": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-client-ui-theme-xp",
+          "install": "dsh-client-ui-theme-xp",
+          "command": "dsh plugin --profile web add dsh-client-ui-theme-xp"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "sherunlocked-4869/dsh-plugin-msg-nav": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:SherUnlocked-4869/dsh-plugin-msg-nav",
+          "install": "https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav",
+          "command": "dsh plugin --profile web add github:SherUnlocked-4869/dsh-plugin-msg-nav"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "sztmbaby/dsh-agnes-image": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-agnes-image",
+          "install": "dsh-agnes-image",
+          "command": "dsh plugin --profile web add dsh-agnes-image"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "starryhui/dsh-custom-background": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@starryhui/dsh-background",
+          "install": "@starryhui/dsh-background",
+          "command": "dsh plugin --profile web add \"@starryhui/dsh-background\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "venshell/dsh-zcode-startplan": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Venshell/dsh-zcode-startplan",
+          "install": "https://github.com/Venshell/dsh-zcode-startplan",
+          "command": "dsh plugin --profile web add github:Venshell/dsh-zcode-startplan"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@d4f90e8bbc14",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "yytbit/dsh-plugin-claude-bridge": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-claude-bridge",
+          "install": "dsh-plugin-claude-bridge",
+          "command": "dsh plugin --profile web add dsh-plugin-claude-bridge"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "sur-cai/macos-computer-use-kit": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-macos-computer-use",
+          "install": "dsh-macos-computer-use",
+          "command": "dsh plugin --profile web add dsh-macos-computer-use"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "yumenosayuri/dsh-vcprag": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:YumenoSayuri/dsh-vcprag",
+          "install": "https://github.com/YumenoSayuri/dsh-vcprag",
+          "command": "dsh plugin --profile web add github:YumenoSayuri/dsh-vcprag"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@afc01ec752c5",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "zzzzkd/dsh-prompt-rail": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Zzzzkd/dsh-prompt-rail",
+          "install": "https://github.com/Zzzzkd/dsh-prompt-rail",
+          "command": "dsh plugin --profile web add github:Zzzzkd/dsh-prompt-rail"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@0c70be6821c2",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     }
   }
 }

@@ -1,0 +1,77 @@
+{
+  "full_name": "beijingwahw/dsh-conv-export",
+  "originalPosition": 174,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 174,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:31.444Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bec97b75291c0c750d727f81f15ffc58a33e8d10ae5dc2a0eef62399065a96e6",
+      "url": "https://github.com/beijingwahw/dsh-conv-export/blob/30a069379ccc2283bd424c9fac3fb8784bac3bbc/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b0fdc1f38d9f096b1b5916ac8f36bfe68e4b903d7b3fef9ec41b98b2fa03fb96",
+      "url": "https://github.com/beijingwahw/dsh-conv-export/blob/30a069379ccc2283bd424c9fac3fb8784bac3bbc/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-conv-export",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/beijingwahw/dsh-conv-export",
+        "commit": "30a069379ccc2283bd424c9fac3fb8784bac3bbc"
+      },
+      "manifestSha256": "7f454752d880d19ee69b0d6045740c235504375628f678082ccf9670dd36e545",
+      "manifestUrl": "https://github.com/beijingwahw/dsh-conv-export/blob/30a069379ccc2283bd424c9fac3fb8784bac3bbc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-external/dsh-conv-export",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1793243326,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/beijingwahw/dsh-conv-export",
+              "commit": "30a069379ccc2283bd424c9fac3fb8784bac3bbc"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/beijingwahw/dsh-conv-export",
+    "commit": "30a069379ccc2283bd424c9fac3fb8784bac3bbc",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:42.005Z"
+}

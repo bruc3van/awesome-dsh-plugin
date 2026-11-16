@@ -1,0 +1,198 @@
+{
+  "full_name": "yhlooo/dsh-bridges",
+  "originalPosition": 129,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 129,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:57.936Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e4db4728706721a88f383ee0627b30821b587a2860552d3fa98d8b167b06d1f5",
+      "url": "https://github.com/yhlooo/dsh-bridges/blob/977a1fc8b7fe0d37e304c81526774be1d5a64b7f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bridges",
+          "command": "dsh plugin --profile <profile-name> add dsh-bridges",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-bridges",
+          "command": "dsh plugin --profile web add dsh-bridges",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-bridges",
+          "command": "dsh plugin --profile headless add dsh-bridges",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "57896ea7049321a8b4c42431fcbe1f357bb6afc7d279847ed2d38055aab4d7a7",
+      "url": "https://github.com/yhlooo/dsh-bridges/blob/977a1fc8b7fe0d37e304c81526774be1d5a64b7f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bridges",
+          "command": "dsh plugin --profile <profile-name> add dsh-bridges",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-bridges",
+          "command": "dsh plugin --profile web add dsh-bridges",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-bridges",
+          "command": "dsh plugin --profile headless add dsh-bridges",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "docs/guides/README.md",
+      "sha256": "34884449316e93d1eddc8f541d9c765f30914557c898fa46391da743b1a5848e",
+      "url": "https://github.com/yhlooo/dsh-bridges/blob/977a1fc8b7fe0d37e304c81526774be1d5a64b7f/docs/guides/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bridges",
+          "command": "dsh plugin --profile <profile-name> add dsh-bridges",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/guides/README.zh.md",
+      "sha256": "94701caa392c3aa41d1451b97f5752f7ad65f9b3f537e919d94576ae645d9810",
+      "url": "https://github.com/yhlooo/dsh-bridges/blob/977a1fc8b7fe0d37e304c81526774be1d5a64b7f/docs/guides/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bridges",
+          "command": "dsh plugin --profile <profile-name> add dsh-bridges",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bridges",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yhlooo/dsh-bridges",
+        "commit": "977a1fc8b7fe0d37e304c81526774be1d5a64b7f"
+      },
+      "manifestSha256": "14878e61350fa1a47092cb212ced6d287f1ec71623860f12ae8bde03acdd9aa5",
+      "manifestUrl": "https://github.com/yhlooo/dsh-bridges/blob/977a1fc8b7fe0d37e304c81526774be1d5a64b7f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-bridges",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1789344535,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yhlooo/dsh-bridges",
+              "commit": "977a1fc8b7fe0d37e304c81526774be1d5a64b7f"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-bridges",
+      "origin": "npm",
+      "name": "dsh-bridges",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bridges",
+        "title": "dsh-bridges",
+        "description": "A DeepSeek Harness plugin that bridges projects configured for other coding agents (Claude Code, Codex, opencode, CodeBuddy Code, pi, Gemini CLI, Cursor) into DeepSeek Harness",
+        "author": "yhlooo",
+        "homepage": "https://github.com/yhlooo/dsh-bridges#readme",
+        "repository": {
+          "url": "https://github.com/yhlooo/dsh-bridges"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "claude-code",
+            "codex",
+            "opencode",
+            "codebuddy-code",
+            "pi",
+            "gemini-cli",
+            "cursor"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1789400385,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "15698f8ab49e4b394d24ea6e2f5805fb6fba35f163bda6f8a394921cdb728b95",
+      "evidence": [
+        {
+          "name": "dsh-bridges",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-bridges/-/dsh-bridges-0.3.0.tgz",
+          "integrity": "sha512-PhSEQKZ30H3X2oHtp9mlqwgP8rNVitbJ0Zqh5IV9Pa+hMBitOianOmCfxsNopL41Jjh3CDe6yUhiFS0E1I99Ng=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-bridges",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yhlooo/dsh-bridges",
+    "commit": "977a1fc8b7fe0d37e304c81526774be1d5a64b7f",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:12.672Z"
+}

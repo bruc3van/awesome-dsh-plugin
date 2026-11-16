@@ -1,0 +1,62 @@
+{
+  "full_name": "aa1355721445-lgtm/dsh-daily-schedule",
+  "originalPosition": 79,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 79,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:05:44.955Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "817f606dd7bdb4fe35c511484300abf08d082bff0969d246b3516596a5915fba",
+      "url": "https://github.com/aa1355721445-lgtm/dsh-daily-schedule/blob/eb6335a7e621add197c355ca4a48ea8231e3dcd3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/aa1355721445-lgtm/dsh-daily-schedule",
+          "command": "dsh plugin --profile desktop add https://github.com/aa1355721445-lgtm/dsh-daily-schedule",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-daily-schedule",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aa1355721445-lgtm/dsh-daily-schedule",
+        "commit": "eb6335a7e621add197c355ca4a48ea8231e3dcd3"
+      },
+      "manifestSha256": "d4bb3271f8f56954bd52c63243d83ccb901ac9b18d508c74a8785a88f909f524",
+      "manifestUrl": "https://github.com/aa1355721445-lgtm/dsh-daily-schedule/blob/eb6335a7e621add197c355ca4a48ea8231e3dcd3/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/aa1355721445-lgtm/dsh-daily-schedule",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aa1355721445-lgtm/dsh-daily-schedule",
+    "commit": "eb6335a7e621add197c355ca4a48ea8231e3dcd3",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:05:54.458Z"
+}

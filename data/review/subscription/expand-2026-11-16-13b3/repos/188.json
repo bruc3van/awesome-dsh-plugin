@@ -1,0 +1,136 @@
+{
+  "full_name": "SamizuHM/dsh-client-ui-theme-xp",
+  "originalPosition": 188,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:28:08.454Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6dd69714a051cca1f3d5993d4d84036aad060a63f99842f719ef356f2ac57125",
+      "url": "https://github.com/SamizuHM/dsh-client-ui-theme-xp/blob/3cc412f4e877c127dea2e5b6e3413e5ddc95ce97/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-client-ui-theme-xp",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-client-ui-theme-xp",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/SamizuHM/dsh-client-ui-theme-xp",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:SamizuHM/dsh-client-ui-theme-xp",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-client-ui-theme-xp",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SamizuHM/dsh-client-ui-theme-xp",
+        "commit": "3cc412f4e877c127dea2e5b6e3413e5ddc95ce97"
+      },
+      "manifestSha256": "9c609207e47185067d77bc2ddcca4942ac4bf586eb88be5223d5d4c462a153a5",
+      "manifestUrl": "https://github.com/SamizuHM/dsh-client-ui-theme-xp/blob/3cc412f4e877c127dea2e5b6e3413e5ddc95ce97/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-client-ui-theme-xp",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786802826,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SamizuHM/dsh-client-ui-theme-xp",
+              "commit": "3cc412f4e877c127dea2e5b6e3413e5ddc95ce97"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-client-ui-theme-xp",
+      "origin": "npm",
+      "name": "dsh-client-ui-theme-xp",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-client-ui-theme-xp",
+        "title": "dsh-client-ui-theme-xp",
+        "description": "Windows XP Luna desktop theme for the DeepSeek Harness web GUI: floating window manager with taskbar and desktop icons, Explorer-style workspace/session browser, native directory picker, search and the Luna token palette.",
+        "author": "SamizuHM",
+        "repository": {
+          "url": "https://github.com/SamizuHM/dsh-client-ui-theme-xp"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "theme",
+            "windows-xp",
+            "luna",
+            "ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786802936,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3bd4d145ad9ed312998a7d8a83475db88d83616eceb50bf25d8a276c6d146ff8",
+      "evidence": [
+        {
+          "name": "dsh-client-ui-theme-xp",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-client-ui-theme-xp/-/dsh-client-ui-theme-xp-0.1.1.tgz",
+          "integrity": "sha512-PAD3jNggSUsiRSIKvEZs/QrGEx3L3cdwO/WE4XuTnPfn6Wyglt6ThClfuvBm+/ozw0Cn+mQapM03t9dcn+IODQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-client-ui-theme-xp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/SamizuHM/dsh-client-ui-theme-xp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SamizuHM/dsh-client-ui-theme-xp",
+    "commit": "3cc412f4e877c127dea2e5b6e3413e5ddc95ce97",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:28:19.358Z"
+}

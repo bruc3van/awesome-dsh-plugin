@@ -1,0 +1,133 @@
+{
+  "full_name": "DDDMUC/dsh-edit-turn",
+  "originalPosition": 156,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 156,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:33.956Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f058924b7fb3213e7429a4b623d0d1874f53cbd7859edbb59e8b4719778854b2",
+      "url": "https://github.com/DDDMUC/dsh-edit-turn/blob/529fa450e9c3bb297cae21fc11f5ab0749f84be0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-edit-turn",
+          "command": "dsh plugin --profile web add dsh-edit-turn",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-edit-turn",
+      "version": "0.6.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DDDMUC/dsh-edit-turn",
+        "commit": "529fa450e9c3bb297cae21fc11f5ab0749f84be0"
+      },
+      "manifestSha256": "eac21274f4cdd4331a8474892d4155af2f2b43debca9f227e05e357daeb640f1",
+      "manifestUrl": "https://github.com/DDDMUC/dsh-edit-turn/blob/529fa450e9c3bb297cae21fc11f5ab0749f84be0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.2 <0.3.0-0 >=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-edit-turn",
+        "versions": [
+          {
+            "version": "0.6.2",
+            "publishTimestamp": 1794677302,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DDDMUC/dsh-edit-turn",
+              "commit": "529fa450e9c3bb297cae21fc11f5ab0749f84be0"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.2 <0.3.0-0 >=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-edit-turn",
+      "origin": "npm",
+      "name": "dsh-edit-turn",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-edit-turn",
+        "title": "dsh-edit-turn",
+        "description": "Edit any message in DeepSeek Harness in place: a prompt is replaced where it stands; a model reply block (answer text or reasoning) is patched through a plugin record and a message projection, so the turn stays where it is, later turns are untouched and the log grows by one small record. Falls back to the replay splice on hosts without the projection API. The append-only session log is never rewritten.",
+        "repository": {
+          "url": "https://github.com/DDDMUC/dsh-edit-turn"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "edit",
+            "message",
+            "turn",
+            "projection",
+            "reasoning",
+            "surface-replace"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.2",
+            "publishTimestamp": 1794675727,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.2 <0.3.0-0 >=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "20b40f72aa10786ec05e3b3c33bd02bf58278140bbc088a52d06e979afce2a24",
+      "evidence": [
+        {
+          "name": "dsh-edit-turn",
+          "version": "0.6.2",
+          "tarball": "https://registry.npmjs.org/dsh-edit-turn/-/dsh-edit-turn-0.6.2.tgz",
+          "integrity": "sha512-VjH6DUedCasKVu16gMIEv+2wT0v29IQZtUd6zSgQoC/eGac9+jPJ6cEDxh8w3HCVDPANH+8Hj8CdTuLokEyLBQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-edit-turn",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DDDMUC/dsh-edit-turn",
+    "commit": "529fa450e9c3bb297cae21fc11f5ab0749f84be0",
+    "releaseTags": 53,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:48.412Z"
+}

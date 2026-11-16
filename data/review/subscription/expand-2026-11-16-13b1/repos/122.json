@@ -1,0 +1,169 @@
+{
+  "full_name": "TwotwoPiggy/dsh-balance",
+  "originalPosition": 122,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:34.023Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4c8f4c7d3971f9f6ca4e0cfaaa74ffb63929ca8fb15ad8ae1ae413bcf0bb8177",
+      "url": "https://github.com/TwotwoPiggy/dsh-balance/blob/52fd7de39598132cbdccf2a5d97736c440514efc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-balance",
+          "command": "dsh plugin --profile web add dsh-balance",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-balance@latest",
+          "command": "dsh plugin --profile web add dsh-balance@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-balance",
+      "version": "0.2.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TwotwoPiggy/dsh-balance",
+        "commit": "52fd7de39598132cbdccf2a5d97736c440514efc"
+      },
+      "manifestSha256": "9d3bed8557eb2f352e283186bad1f4fb48eed5cdfab32905e4fd30a9d7683094",
+      "manifestUrl": "https://github.com/TwotwoPiggy/dsh-balance/blob/52fd7de39598132cbdccf2a5d97736c440514efc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-balance",
+        "versions": [
+          {
+            "version": "0.2.7",
+            "publishTimestamp": 1791812266,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TwotwoPiggy/dsh-balance",
+              "commit": "52fd7de39598132cbdccf2a5d97736c440514efc"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-balance",
+      "origin": "npm",
+      "name": "dsh-balance",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-balance",
+        "title": "dsh-balance",
+        "description": "DeepSeek 余额实时显示插件: 在 dsh Web UI 输入框下方的统计条(命中率/输入输出 token 行)实时显示账户余额与本次对话的估算消耗",
+        "repository": {
+          "url": "https://github.com/TwotwoPiggy/dsh-balance"
+        },
+        "versions": [
+          {
+            "version": "0.2.7",
+            "publishTimestamp": 1791812378,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9b2ec426baf52a81370b9db0f065b624430e16df64e3f0a89dfe6642a5a3fc8c",
+      "evidence": [
+        {
+          "name": "dsh-balance",
+          "version": "0.2.7",
+          "tarball": "https://registry.npmjs.org/dsh-balance/-/dsh-balance-0.2.7.tgz",
+          "integrity": "sha512-Gx0SSZb1FnlIFkHIoAPHutVV/j4L3iiTbXmzdy4U5ftp65mUiJdXxsNFGCuj/ge2F6zo7+qM6Fo578CDQfJ/Tg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "dsh-balance@latest",
+      "origin": "npm",
+      "name": "dsh-balance",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-balance",
+        "title": "dsh-balance",
+        "description": "DeepSeek 余额实时显示插件: 在 dsh Web UI 输入框下方的统计条(命中率/输入输出 token 行)实时显示账户余额与本次对话的估算消耗",
+        "repository": {
+          "url": "https://github.com/TwotwoPiggy/dsh-balance"
+        },
+        "versions": [
+          {
+            "version": "0.2.7",
+            "publishTimestamp": 1791812378,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9b2ec426baf52a81370b9db0f065b624430e16df64e3f0a89dfe6642a5a3fc8c",
+      "evidence": [
+        {
+          "name": "dsh-balance",
+          "version": "0.2.7",
+          "tarball": "https://registry.npmjs.org/dsh-balance/-/dsh-balance-0.2.7.tgz",
+          "integrity": "sha512-Gx0SSZb1FnlIFkHIoAPHutVV/j4L3iiTbXmzdy4U5ftp65mUiJdXxsNFGCuj/ge2F6zo7+qM6Fo578CDQfJ/Tg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-balance",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-balance@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TwotwoPiggy/dsh-balance",
+    "commit": "52fd7de39598132cbdccf2a5d97736c440514efc",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:45.376Z"
+}

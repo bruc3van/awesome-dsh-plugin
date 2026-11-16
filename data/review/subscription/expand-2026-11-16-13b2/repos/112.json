@@ -1,0 +1,171 @@
+{
+  "full_name": "jackie-cqz/dsh-jev-plugin",
+  "originalPosition": 112,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 112,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:19.104Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8fe6d5935c2beacea5faaaf5f7d6c32e3355365ae1f16f350d2be48ee7244ad2",
+      "url": "https://github.com/jackie-cqz/dsh-jev-plugin/blob/fdd149c69f060ed0a5f08674be97fe263deb5641/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/jackie-cqz/dsh-jev-plugin#v0.1.1",
+          "command": "dsh plugin --profile jev-dev add github:jackie-cqz/dsh-jev-plugin#v0.1.1",
+          "profile": "jev-dev"
+        },
+        {
+          "install": "https://github.com/jackie-cqz/dsh-jev-plugin/releases/download/v0.1.1/dsh-jev-plugin-0.1.1.tgz",
+          "command": "dsh plugin --profile jev-dev add https://github.com/jackie-cqz/dsh-jev-plugin/releases/download/v0.1.1/dsh-jev-plugin-0.1.1.tgz",
+          "profile": "jev-dev"
+        }
+      ]
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "c789113d0f849aa775ccb66658a4a7f56ed72f1b3209a280ed06450e11a13372",
+      "url": "https://github.com/jackie-cqz/dsh-jev-plugin/blob/fdd149c69f060ed0a5f08674be97fe263deb5641/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/jackie-cqz/dsh-jev-plugin#v0.1.1",
+          "command": "dsh plugin --profile jev-dev add github:jackie-cqz/dsh-jev-plugin#v0.1.1",
+          "profile": "jev-dev"
+        },
+        {
+          "install": "https://github.com/jackie-cqz/dsh-jev-plugin/releases/download/v0.1.1/dsh-jev-plugin-0.1.1.tgz",
+          "command": "dsh plugin --profile jev-dev add https://github.com/jackie-cqz/dsh-jev-plugin/releases/download/v0.1.1/dsh-jev-plugin-0.1.1.tgz",
+          "profile": "jev-dev"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-jev-plugin",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jackie-cqz/dsh-jev-plugin",
+        "commit": "fdd149c69f060ed0a5f08674be97fe263deb5641"
+      },
+      "manifestSha256": "1aaeb3c5348e4e5e3095248fd559ed901e46871868db2d6e2fb5468a9adfc25c",
+      "manifestUrl": "https://github.com/jackie-cqz/dsh-jev-plugin/blob/fdd149c69f060ed0a5f08674be97fe263deb5641/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.6-alpha.2 || ^0.1.7-rc.2 || ^0.2.0-rc.2 || ^0.2.1-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-jev-plugin",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793119380,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jackie-cqz/dsh-jev-plugin",
+              "commit": "fdd149c69f060ed0a5f08674be97fe263deb5641"
+            },
+            "engines": {
+              "dsh": "^0.1.6-alpha.2 || ^0.1.7-rc.2 || ^0.2.0-rc.2 || ^0.2.1-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/jackie-cqz/dsh-jev-plugin#v0.1.1",
+      "origin": "git_target",
+      "name": "dsh-jev-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-jev-plugin",
+        "title": "dsh-jev-plugin",
+        "description": "DeepSeek Harness tools for TypeSafe Jev (System One) decisions.",
+        "author": "jackie-cqz",
+        "homepage": "https://github.com/jackie-cqz/dsh-jev-plugin#readme",
+        "repository": {
+          "url": "https://github.com/jackie-cqz/dsh-jev-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "typesafe",
+            "typesafe-ai",
+            "jev",
+            "system-one",
+            "guardrails",
+            "decision"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1791560903,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jackie-cqz/dsh-jev-plugin",
+              "commit": "fad8eecac199ab9dfbffd1661771f839b0d53f2f"
+            },
+            "engines": {
+              "dsh": "^0.1.6-alpha.2 || ^0.1.7-rc.2 || ^0.2.0-rc.2 || ^0.2.1-alpha.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "fad8eecac199ab9dfbffd1661771f839b0d53f2f",
+          "name": "dsh-jev-plugin",
+          "version": "0.1.1",
+          "url": "https://github.com/jackie-cqz/dsh-jev-plugin",
+          "manifestSha256": "80f114123e7bde85ac377d6b5b7ad5a14126d7cd9b50a78a51905d77d3a77e97",
+          "publishTimestamp": 1791560903
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/jackie-cqz/dsh-jev-plugin/releases/download/v0.1.1/dsh-jev-plugin-0.1.1.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/jackie-cqz/dsh-jev-plugin#v0.1.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/jackie-cqz/dsh-jev-plugin/releases/download/v0.1.1/dsh-jev-plugin-0.1.1.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jackie-cqz/dsh-jev-plugin",
+    "commit": "fdd149c69f060ed0a5f08674be97fe263deb5641",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:37.698Z"
+}

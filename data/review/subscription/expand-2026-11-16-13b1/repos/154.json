@@ -1,0 +1,124 @@
+{
+  "full_name": "tao1020/dsh-chrome-use",
+  "originalPosition": 154,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 154,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:09:21.463Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3e593b1c712fadf9612ac2b33068621c3b23873aa44b567dbf478732ff78c9f2",
+      "url": "https://github.com/tao1020/dsh-chrome-use/blob/65fe6aa25d61b102663ca54a615f1c537c1c111e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tao1020/dsh-chrome-use",
+          "command": "dsh plugin --profile desktop add github:tao1020/dsh-chrome-use",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-chrome-use",
+          "command": "dsh plugin --profile desktop add dsh-chrome-use",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chrome-use",
+      "version": "0.10.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tao1020/dsh-chrome-use",
+        "commit": "65fe6aa25d61b102663ca54a615f1c537c1c111e"
+      },
+      "manifestSha256": "aaa29a3fec0cf34e69ec14a9ae66d81e501ca18a3444ca09e959fca15270caac",
+      "manifestUrl": "https://github.com/tao1020/dsh-chrome-use/blob/65fe6aa25d61b102663ca54a615f1c537c1c111e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-chrome-use",
+        "versions": [
+          {
+            "version": "0.10.0",
+            "publishTimestamp": 1794565780,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tao1020/dsh-chrome-use",
+              "commit": "65fe6aa25d61b102663ca54a615f1c537c1c111e"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-chrome-use",
+      "origin": "npm",
+      "name": "dsh-chrome-use",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-chrome-use",
+        "title": "dsh-chrome-use",
+        "description": "Control Google Chrome tabs from DeepSeek Harness.",
+        "repository": {
+          "url": "https://github.com/tao1020/dsh-chrome-use"
+        },
+        "versions": [
+          {
+            "version": "0.10.0",
+            "publishTimestamp": 1794565926,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "29f4a2b813b8aaf132ee57ee39d10dc7420eb946f4f869c083883e9ae412a94c",
+      "evidence": [
+        {
+          "name": "dsh-chrome-use",
+          "version": "0.10.0",
+          "tarball": "https://registry.npmjs.org/dsh-chrome-use/-/dsh-chrome-use-0.10.0.tgz",
+          "integrity": "sha512-xeH7RgLl+4pyteleFL38Z/hwiAgsf38lLfAFF6mFtp3x9eQhcevsfgnup2kC6RHdRxF8AGVpyDcMHR2JbXwAyQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/tao1020/dsh-chrome-use",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-chrome-use",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tao1020/dsh-chrome-use",
+    "commit": "65fe6aa25d61b102663ca54a615f1c537c1c111e",
+    "releaseTags": 32,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:09:33.553Z"
+}

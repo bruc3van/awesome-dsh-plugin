@@ -1,0 +1,168 @@
+{
+  "full_name": "1985899182/dsh-harness-chat-control",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:02.584Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ef0edb8e136d584afa1166d89b0d488db5f623cab9405f88cf3e877ebee1b695",
+      "url": "https://github.com/1985899182/dsh-harness-chat-control/blob/1205e895da499175c01e7ce39ea4988d821932f1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/1985899182/dsh-harness-chat-control.git#v0.3.12",
+          "command": "dsh plugin --profile web add --save-exact --allow-build=node-pty \"git+https://github.com/1985899182/dsh-harness-chat-control.git#v0.3.12\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "2832993d72b26ed48138cae0d833ee29990a4823063cc7a30542dbb4fb63c38d",
+      "url": "https://github.com/1985899182/dsh-harness-chat-control/blob/1205e895da499175c01e7ce39ea4988d821932f1/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/1985899182/dsh-harness-chat-control.git#v0.3.12",
+          "command": "dsh plugin --profile web add --save-exact --allow-build=node-pty \"git+https://github.com/1985899182/dsh-harness-chat-control.git#v0.3.12\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_JA.md",
+      "sha256": "32452d5ad925c7c93dfb5d82141a99b0347795ab8a9510028c973bf161d1cea9",
+      "url": "https://github.com/1985899182/dsh-harness-chat-control/blob/1205e895da499175c01e7ce39ea4988d821932f1/README_JA.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/1985899182/dsh-harness-chat-control.git#v0.3.12",
+          "command": "dsh plugin --profile web add --save-exact --allow-build=node-pty \"git+https://github.com/1985899182/dsh-harness-chat-control.git#v0.3.12\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_KO.md",
+      "sha256": "c4be262bba172f3df07c6a9f75236bcf48833cc6acbd35991fcdc0b570ca32b3",
+      "url": "https://github.com/1985899182/dsh-harness-chat-control/blob/1205e895da499175c01e7ce39ea4988d821932f1/README_KO.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/1985899182/dsh-harness-chat-control.git#v0.3.12",
+          "command": "dsh plugin --profile web add --save-exact --allow-build=node-pty \"git+https://github.com/1985899182/dsh-harness-chat-control.git#v0.3.12\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-harness-chat-control",
+      "version": "0.3.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1985899182/dsh-harness-chat-control",
+        "commit": "1205e895da499175c01e7ce39ea4988d821932f1"
+      },
+      "manifestSha256": "7be8197aa90506ded47a1e39aaa7d0a4f38f4f988c5476616c50485c60a3d88b",
+      "manifestUrl": "https://github.com/1985899182/dsh-harness-chat-control/blob/1205e895da499175c01e7ce39ea4988d821932f1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-harness-chat-control",
+        "versions": [
+          {
+            "version": "0.3.12",
+            "publishTimestamp": 1793582387,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/1985899182/dsh-harness-chat-control",
+              "commit": "1205e895da499175c01e7ce39ea4988d821932f1"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "git+https://github.com/1985899182/dsh-harness-chat-control.git#v0.3.12",
+      "origin": "git_target",
+      "name": "dsh-harness-chat-control",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-harness-chat-control",
+        "title": "dsh-harness-chat-control",
+        "description": "Selection quoting, independent side-chat follow-ups, stop-and-rewrite during generation, and batch tab close for DSH Desktop.",
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "chat",
+            "quote",
+            "follow-up"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.12",
+            "publishTimestamp": 1793582387,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/1985899182/dsh-harness-chat-control",
+              "commit": "1205e895da499175c01e7ce39ea4988d821932f1"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "1205e895da499175c01e7ce39ea4988d821932f1",
+          "name": "dsh-harness-chat-control",
+          "version": "0.3.12",
+          "url": "https://github.com/1985899182/dsh-harness-chat-control",
+          "manifestSha256": "7be8197aa90506ded47a1e39aaa7d0a4f38f4f988c5476616c50485c60a3d88b",
+          "publishTimestamp": 1793582387
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/1985899182/dsh-harness-chat-control.git#v0.3.12",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1985899182/dsh-harness-chat-control",
+    "commit": "1205e895da499175c01e7ce39ea4988d821932f1",
+    "releaseTags": 77,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:22.788Z"
+}

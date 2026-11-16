@@ -1,0 +1,79 @@
+{
+  "full_name": "juntaoding/Flowboard",
+  "originalPosition": 67,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 67,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:23:40.673Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "970b443802b0c5979b3a7f28b833aabf8ff1c7433723fa93e241bfc5c06c54a8",
+      "url": "https://github.com/juntaoding/Flowboard/blob/0122200e5a42e32491d42163a134ce02a514a563/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "a3a24b3aac9fbdcb16081e2cf864651476065c8074a8cfd70421fcb85ff62abe",
+      "url": "https://github.com/juntaoding/Flowboard/blob/0122200e5a42e32491d42163a134ce02a514a563/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@flowboard/dsh",
+      "version": "0.1.2-alpha.5",
+      "path": "packages/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/juntaoding/Flowboard",
+        "commit": "0122200e5a42e32491d42163a134ce02a514a563",
+        "path": "packages/dsh"
+      },
+      "manifestSha256": "fd9101cca010d84bd000afa89ae8e9fee31c93b268c45720a81766222ad7997c",
+      "manifestUrl": "https://github.com/juntaoding/Flowboard/blob/0122200e5a42e32491d42163a134ce02a514a563/packages/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@flowboard/dsh",
+        "versions": [
+          {
+            "version": "0.1.2-alpha.5",
+            "publishTimestamp": 1786982380,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/juntaoding/Flowboard",
+              "commit": "0122200e5a42e32491d42163a134ce02a514a563",
+              "path": "packages/dsh"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/juntaoding/Flowboard",
+    "commit": "0122200e5a42e32491d42163a134ce02a514a563",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:23:59.477Z"
+}

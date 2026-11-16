@@ -1,0 +1,266 @@
+{
+  "full_name": "drscrewdriver/dsh-input-traffic",
+  "originalPosition": 136,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 136,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:15.578Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d7814e4d5788478b8db983f5561f89c7d24378d33b79d817bc66c35e444c4e4b",
+      "url": "https://github.com/drscrewdriver/dsh-input-traffic/blob/81f999589bf2cc7e7ee69fa4af023ee301502f2d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-input-traffic",
+          "command": "dsh plugin --profile web add dsh-input-traffic -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-input-traffic#main",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-input-traffic#main",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "1fffd63b72d9bbc250dfeb9fca7d835de616337a4ec19e8e1d1b1c983a7f5b3d",
+      "url": "https://github.com/drscrewdriver/dsh-input-traffic/blob/81f999589bf2cc7e7ee69fa4af023ee301502f2d/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-input-traffic",
+          "command": "dsh plugin --profile web add dsh-input-traffic -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-input-traffic#main",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-input-traffic#main",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "a79e10c17c629101ceb4093797341dc2e66f65e40c7ccf6e7960c2f838c35640",
+      "url": "https://github.com/drscrewdriver/dsh-input-traffic/blob/81f999589bf2cc7e7ee69fa4af023ee301502f2d/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-input-traffic",
+          "command": "dsh plugin --profile web add dsh-input-traffic -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-input-traffic#main",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-input-traffic#main",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ko.md",
+      "sha256": "192b5b731e48c2eda3b0f9b3857c30227dcf3881ac23f549dae9366e8652f7ed",
+      "url": "https://github.com/drscrewdriver/dsh-input-traffic/blob/81f999589bf2cc7e7ee69fa4af023ee301502f2d/README.ko.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-input-traffic",
+          "command": "dsh plugin --profile web add dsh-input-traffic -w",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-input-traffic#main",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-input-traffic#main",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-input-traffic",
+      "version": "0.7.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/drscrewdriver/dsh-input-traffic",
+        "commit": "81f999589bf2cc7e7ee69fa4af023ee301502f2d"
+      },
+      "manifestSha256": "530d2fa2e5265f4faa0564c34dc8c78c1477ff089351207b3e8c14a2765d7a6f",
+      "manifestUrl": "https://github.com/drscrewdriver/dsh-input-traffic/blob/81f999589bf2cc7e7ee69fa4af023ee301502f2d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-input-traffic",
+        "versions": [
+          {
+            "version": "0.7.13",
+            "publishTimestamp": 1794806592,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-input-traffic",
+              "commit": "81f999589bf2cc7e7ee69fa4af023ee301502f2d"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-input-traffic",
+      "origin": "npm",
+      "name": "dsh-input-traffic",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-input-traffic",
+        "title": {
+          "en": "Input Traffic",
+          "de": "Eingabeverkehr",
+          "es": "Tráfico de entrada",
+          "fr": "Trafic d'entrée",
+          "it": "Traffico di input",
+          "ja": "入力トラフィック",
+          "ko": "입력 트래픽",
+          "ru": "Входящий поток",
+          "zh": "输入流量"
+        },
+        "description": {
+          "en": "Busy-time input queue with three-tier planning, drag-to-reorder editing, steer/interrupt, batch clear, and session freeze for the DeepSeek Harness web GUI.",
+          "de": "Eingabewarteschlange bei Beschäftigung für die DeepSeek Harness Web-GUI: Drei-Stufen-Planung, Drag-and-Drop-Bearbeitung, Steuerung/Unterbrechung, Stapel-Löschung und Sitzungs-Einfrieren.",
+          "es": "Cola de entrada cuando está ocupado para la interfaz web de DeepSeek Harness: planificación de tres niveles, edición con arrastrar y soltar, redirección/interrupción, vaciado por lotes y congelación de sesión.",
+          "fr": "File d'attente d'entrée en mode occupé pour l'interface web DeepSeek Harness : planification à trois niveaux, édition par glisser-déposer, redirection/interruption, effacement par lot et gel de session.",
+          "it": "Coda di input quando occupato per l'interfaccia web DeepSeek Harness: pianificazione a tre livelli, modifica con trascinamento, deviazione/interruzione, svuotamento batch e congelamento sessione.",
+          "ja": "DeepSeek Harness Web GUI 向けのビジー時入力キュー：三段階プランニング、ドラッグ並べ替え編集、ステア/中断、一括クリア、セッション凍結。",
+          "ko": "DeepSeek Harness 웹 GUI용 사용 중 입력 대기열: 3단계 계획, 드래그 재정렬 편집, 스티어/중단, 일괄 지우기, 세션 동결.",
+          "ru": "Очередь ввода при занятости для веб-интерфейса DeepSeek Harness: трёхуровневое планирование, редактирование перетаскиванием, перенаправление/прерывание, пакетная очистка и заморозка сессии.",
+          "zh": "DeepSeek Harness 网页端的繁忙时输入队列：三层规划、拖拽排序编辑、插话/打断、批量清空与会话冻结。"
+        },
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-input-traffic"
+        },
+        "versions": [
+          {
+            "version": "0.7.14",
+            "publishTimestamp": 1794652882,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0ffcd1abba6f63e6b125a6e0bcb352e2cccea76f627ed4ab36de1b0aff71c884",
+      "evidence": [
+        {
+          "name": "dsh-input-traffic",
+          "version": "0.7.14",
+          "tarball": "https://registry.npmjs.org/dsh-input-traffic/-/dsh-input-traffic-0.7.14.tgz",
+          "integrity": "sha512-1QpJzsT5GyX8WucrPHCCtHBbqYWjOWC6zeCelQB0JqqxS34Y+gsSwYpWteFyBuutoTsPYLzIUuOf+LKDQnUUvA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/drscrewdriver/dsh-input-traffic#main",
+      "origin": "git_target",
+      "name": "dsh-input-traffic",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-input-traffic",
+        "title": {
+          "en": "Input Traffic",
+          "de": "Eingabeverkehr",
+          "es": "Tráfico de entrada",
+          "fr": "Trafic d'entrée",
+          "it": "Traffico di input",
+          "ja": "入力トラフィック",
+          "ko": "입력 트래픽",
+          "ru": "Входящий поток",
+          "zh": "输入流量"
+        },
+        "description": {
+          "en": "Busy-time input queue with three-tier planning, drag-to-reorder editing, steer/interrupt, batch clear, and session freeze for the DeepSeek Harness web GUI.",
+          "de": "Eingabewarteschlange bei Beschäftigung für die DeepSeek Harness Web-GUI: Drei-Stufen-Planung, Drag-and-Drop-Bearbeitung, Steuerung/Unterbrechung, Stapel-Löschung und Sitzungs-Einfrieren.",
+          "es": "Cola de entrada cuando está ocupado para la interfaz web de DeepSeek Harness: planificación de tres niveles, edición con arrastrar y soltar, redirección/interrupción, vaciado por lotes y congelación de sesión.",
+          "fr": "File d'attente d'entrée en mode occupé pour l'interface web DeepSeek Harness : planification à trois niveaux, édition par glisser-déposer, redirection/interruption, effacement par lot et gel de session.",
+          "it": "Coda di input quando occupato per l'interfaccia web DeepSeek Harness: pianificazione a tre livelli, modifica con trascinamento, deviazione/interruzione, svuotamento batch e congelamento sessione.",
+          "ja": "DeepSeek Harness Web GUI 向けのビジー時入力キュー：三段階プランニング、ドラッグ並べ替え編集、ステア/中断、一括クリア、セッション凍結。",
+          "ko": "DeepSeek Harness 웹 GUI용 사용 중 입력 대기열: 3단계 계획, 드래그 재정렬 편집, 스티어/중단, 일괄 지우기, 세션 동결.",
+          "ru": "Очередь ввода при занятости для веб-интерфейса DeepSeek Harness: трёхуровневое планирование, редактирование перетаскиванием, перенаправление/прерывание, пакетная очистка и заморозка сессии.",
+          "zh": "DeepSeek Harness 网页端的繁忙时输入队列：三层规划、拖拽排序编辑、插话/打断、批量清空与会话冻结。"
+        },
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-input-traffic"
+        },
+        "versions": [
+          {
+            "version": "0.7.13",
+            "publishTimestamp": 1794806592,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-input-traffic",
+              "commit": "81f999589bf2cc7e7ee69fa4af023ee301502f2d"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "81f999589bf2cc7e7ee69fa4af023ee301502f2d",
+          "name": "dsh-input-traffic",
+          "version": "0.7.13",
+          "url": "https://github.com/drscrewdriver/dsh-input-traffic",
+          "manifestSha256": "530d2fa2e5265f4faa0564c34dc8c78c1477ff089351207b3e8c14a2765d7a6f",
+          "publishTimestamp": 1794806592
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-input-traffic",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/drscrewdriver/dsh-input-traffic#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/drscrewdriver/dsh-input-traffic",
+    "commit": "81f999589bf2cc7e7ee69fa4af023ee301502f2d",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:52.044Z"
+}

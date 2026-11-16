@@ -1,0 +1,199 @@
+{
+  "full_name": "Iris-change/dsh-eva-skins",
+  "originalPosition": 169,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 169,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:05.814Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f1c8de8471b2409de3dffb976960a59768ed8fcbbd49f15a4f318cd64362db4e",
+      "url": "https://github.com/Iris-change/dsh-eva-skins/blob/2c577415bdd8ea5ca589a5f0004e0ed2ae2a10c4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-eva-skins",
+          "command": "dsh plugin --profile desktop add dsh-eva-skins",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-eva-skins@2.1.6",
+          "command": "dsh plugin --profile desktop add dsh-eva-skins@2.1.6",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-eva-skins",
+      "version": "2.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Iris-change/dsh-eva-skins",
+        "commit": "2c577415bdd8ea5ca589a5f0004e0ed2ae2a10c4"
+      },
+      "manifestSha256": "d5fd5e1f92845ffc384ee49bca150d530897d19c62289b4036d06f41be3c548f",
+      "manifestUrl": "https://github.com/Iris-change/dsh-eva-skins/blob/2c577415bdd8ea5ca589a5f0004e0ed2ae2a10c4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-eva-skins",
+        "versions": [
+          {
+            "version": "2.1.6",
+            "publishTimestamp": 1794124932,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Iris-change/dsh-eva-skins",
+              "commit": "2c577415bdd8ea5ca589a5f0004e0ed2ae2a10c4"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-eva-skins",
+      "origin": "npm",
+      "name": "dsh-eva-skins",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-eva-skins",
+        "title": "dsh-eva-skins",
+        "description": "Four EVA skins (UNIT-02 / UNIT-00 / UNIT-01 / UNIT-08) for the DeepSeek Harness desktop app: boot sequence, palette, sidebar, frame, in-app switcher.",
+        "homepage": "https://github.com/iris-change/dsh-eva-skins#readme",
+        "repository": {
+          "url": "https://github.com/iris-change/dsh-eva-skins"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "theme",
+            "skin",
+            "eva",
+            "unit-02",
+            "unit-00",
+            "unit-01",
+            "unit-08"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.1.6",
+            "publishTimestamp": 1794124884,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ff132c07a1c0aef33888de559a33a87ab6e579c01fcc3fa53a9cb94698c824d5",
+      "evidence": [
+        {
+          "name": "dsh-eva-skins",
+          "version": "2.1.6",
+          "tarball": "https://registry.npmjs.org/dsh-eva-skins/-/dsh-eva-skins-2.1.6.tgz",
+          "integrity": "sha512-Cya7tG5FsvMpPxWNF1tkgtbhzx/HnUuHxxwVq+L+VgOS5C9IOuhwged1xUUcLPB8as8AqH6bu9BvHhHXcWcHzQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-eva-skins@2.1.6",
+      "origin": "npm",
+      "name": "dsh-eva-skins",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-eva-skins",
+        "title": "dsh-eva-skins",
+        "description": "Four EVA skins (UNIT-02 / UNIT-00 / UNIT-01 / UNIT-08) for the DeepSeek Harness desktop app: boot sequence, palette, sidebar, frame, in-app switcher.",
+        "homepage": "https://github.com/iris-change/dsh-eva-skins#readme",
+        "repository": {
+          "url": "https://github.com/iris-change/dsh-eva-skins"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "theme",
+            "skin",
+            "eva",
+            "unit-02",
+            "unit-00",
+            "unit-01",
+            "unit-08"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.1.6",
+            "publishTimestamp": 1794124884,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ff132c07a1c0aef33888de559a33a87ab6e579c01fcc3fa53a9cb94698c824d5",
+      "evidence": [
+        {
+          "name": "dsh-eva-skins",
+          "version": "2.1.6",
+          "tarball": "https://registry.npmjs.org/dsh-eva-skins/-/dsh-eva-skins-2.1.6.tgz",
+          "integrity": "sha512-Cya7tG5FsvMpPxWNF1tkgtbhzx/HnUuHxxwVq+L+VgOS5C9IOuhwged1xUUcLPB8as8AqH6bu9BvHhHXcWcHzQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-eva-skins",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-eva-skins@2.1.6",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Iris-change/dsh-eva-skins",
+    "commit": "2c577415bdd8ea5ca589a5f0004e0ed2ae2a10c4",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:28:13.351Z"
+}

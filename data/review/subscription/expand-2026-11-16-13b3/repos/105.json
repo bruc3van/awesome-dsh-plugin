@@ -1,0 +1,93 @@
+{
+  "full_name": "maple110011/dsh-obsidian-math",
+  "originalPosition": 105,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 105,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:01.198Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "42f5b37ed92b48d73929696888e5b288b849c32886fb7d0af33f48b5fecf293b",
+      "url": "https://github.com/maple110011/dsh-obsidian-math/blob/571c9e1bf825a032873dc1bdbd8a195a79d4e91a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "cf620f8e6fb2d8bd5a521cf71a95813264d6490d0a620c2364b99438182f9e7e",
+      "url": "https://github.com/maple110011/dsh-obsidian-math/blob/571c9e1bf825a032873dc1bdbd8a195a79d4e91a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "526d6431ace8f6c97cc12fcd5d40c8755281b25d0211eba743ab23a85567914a",
+      "url": "https://github.com/maple110011/dsh-obsidian-math/blob/571c9e1bf825a032873dc1bdbd8a195a79d4e91a/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/memory/README.md",
+      "sha256": "6625d484457cd33450b5e6eecedcca1723fc5cc33ae7e6dd118b45b33b34484a",
+      "url": "https://github.com/maple110011/dsh-obsidian-math/blob/571c9e1bf825a032873dc1bdbd8a195a79d4e91a/docs/memory/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-math-memory",
+      "version": "0.8.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/maple110011/dsh-obsidian-math",
+        "commit": "571c9e1bf825a032873dc1bdbd8a195a79d4e91a"
+      },
+      "manifestSha256": "54382ef83fb0e693a33c343bd48cce153ed80ea9e0d8cc0a977ec41ed6d4d35d",
+      "manifestUrl": "https://github.com/maple110011/dsh-obsidian-math/blob/571c9e1bf825a032873dc1bdbd8a195a79d4e91a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-math-memory",
+        "versions": [
+          {
+            "version": "0.8.3",
+            "publishTimestamp": 1792303919,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/maple110011/dsh-obsidian-math",
+              "commit": "571c9e1bf825a032873dc1bdbd8a195a79d4e91a"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/maple110011/dsh-obsidian-math",
+    "commit": "571c9e1bf825a032873dc1bdbd8a195a79d4e91a",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:16.489Z"
+}

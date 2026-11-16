@@ -1,0 +1,84 @@
+{
+  "full_name": "QuantumKuba/dsh-graphify-plugin",
+  "originalPosition": 190,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 190,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:47.721Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ac64dbde3cab58de022f4a06e7cdd06268b642db678c107d3c9ff296b94cc59d",
+      "url": "https://github.com/QuantumKuba/dsh-graphify-plugin/blob/74a2c72b31abef95adf7afa53ec45d7dcb0ba47e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-graphify",
+          "command": "dsh plugin --profile <profile> add dsh-graphify",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-graphify",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QuantumKuba/dsh-graphify-plugin",
+        "commit": "74a2c72b31abef95adf7afa53ec45d7dcb0ba47e"
+      },
+      "manifestSha256": "8e23af0d8921df391a439b061c9604455f28b9bed899b84607a51d16dd5bb826",
+      "manifestUrl": "https://github.com/QuantumKuba/dsh-graphify-plugin/blob/74a2c72b31abef95adf7afa53ec45d7dcb0ba47e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-graphify",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1791934621,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QuantumKuba/dsh-graphify-plugin",
+              "commit": "74a2c72b31abef95adf7afa53ec45d7dcb0ba47e"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-graphify",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-graphify",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QuantumKuba/dsh-graphify-plugin",
+    "commit": "74a2c72b31abef95adf7afa53ec45d7dcb0ba47e",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:57.576Z"
+}

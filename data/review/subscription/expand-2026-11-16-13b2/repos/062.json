@@ -1,0 +1,69 @@
+{
+  "full_name": "chenw2759-wq/dsh-plugin-healthcheck",
+  "originalPosition": 62,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 62,
+  "batch": 1,
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T12:15:12.571Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "58e58b1d07c502bca352fb5a7f59e9a0f7bdf515c654e196fc934454ac725382",
+      "url": "https://github.com/chenw2759-wq/dsh-plugin-healthcheck/blob/0d29936305a1649a08625d70066d0c2c3ef1700b/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-healthcheck",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chenw2759-wq/dsh-plugin-healthcheck",
+        "commit": "0d29936305a1649a08625d70066d0c2c3ef1700b"
+      },
+      "manifestSha256": "41be992b526077803669d113bdb33c2141ec9f161ad04e62a5f08babc97fe978",
+      "manifestUrl": "https://github.com/chenw2759-wq/dsh-plugin-healthcheck/blob/0d29936305a1649a08625d70066d0c2c3ef1700b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-healthcheck",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786796156,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chenw2759-wq/dsh-plugin-healthcheck",
+              "commit": "0d29936305a1649a08625d70066d0c2c3ef1700b"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chenw2759-wq/dsh-plugin-healthcheck",
+    "commit": "0d29936305a1649a08625d70066d0c2c3ef1700b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:15:21.254Z"
+}

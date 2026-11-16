@@ -1,0 +1,134 @@
+{
+  "full_name": "NelsonLongxiang/dsh-open-a2a-net",
+  "originalPosition": 179,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 179,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:27.762Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cf3a0033f51c09a3b4f0facdf7a3e90bed19986a50877f922222d416bd0bc62b",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/blob/e28eba14fa4c472702be7c9e03734bc08f281a6d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nelsonlongxiang/dsh-open-a2a-net",
+          "command": "dsh plugin --profile web add @nelsonlongxiang/dsh-open-a2a-net",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "873388a3ecce4c433e30454c1bcb931d3eb87aade39b22566e2f92176e3509fe",
+      "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/blob/e28eba14fa4c472702be7c9e03734bc08f281a6d/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nelsonlongxiang/dsh-open-a2a-net",
+          "command": "dsh plugin --profile web add @nelsonlongxiang/dsh-open-a2a-net",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@nelsonlongxiang/dsh-open-a2a-net",
+      "version": "0.8.1-preview.26",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net",
+        "commit": "e28eba14fa4c472702be7c9e03734bc08f281a6d"
+      },
+      "manifestSha256": "4512c66e288de771c70e466033f6a527ef46e68ea23278c8197aedfb65f25d2e",
+      "manifestUrl": "https://github.com/NelsonLongxiang/dsh-open-a2a-net/blob/e28eba14fa4c472702be7c9e03734bc08f281a6d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-alpha.2 >=0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@nelsonlongxiang/dsh-open-a2a-net",
+        "versions": [
+          {
+            "version": "0.8.1-preview.26",
+            "publishTimestamp": 1794681167,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net",
+              "commit": "e28eba14fa4c472702be7c9e03734bc08f281a6d"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.2 >=0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@nelsonlongxiang/dsh-open-a2a-net",
+      "origin": "npm",
+      "name": "@nelsonlongxiang/dsh-open-a2a-net",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@nelsonlongxiang/dsh-open-a2a-net",
+        "title": "@nelsonlongxiang/dsh-open-a2a-net",
+        "description": "Open A2A network plugin for DeepSeek Harness: signed agent cards, decentralized peer/zone discovery, direct routing model tools, and joinable session nodes with a sidebar control",
+        "repository": {
+          "url": "https://gitee.com/NelsonLongXiang/dsh-open-a2a-net"
+        },
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1794018833,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.2 >=0.1.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "432f052d8bbe43340f2608dc028f7c8aa3a9aab2ce47aa099cbebb74328c5465",
+      "evidence": [
+        {
+          "name": "@nelsonlongxiang/dsh-open-a2a-net",
+          "version": "0.7.0",
+          "tarball": "https://registry.npmjs.org/@nelsonlongxiang/dsh-open-a2a-net/-/dsh-open-a2a-net-0.7.0.tgz",
+          "integrity": "sha512-Jmv/nlADKLV07maFfDszvjCfYC3n1fKvxUj25cjdQV9hjeyQb014ac+M0DmuUWAyP2OYIqyRdW+Grx/EKCdn0Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@nelsonlongxiang/dsh-open-a2a-net",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NelsonLongxiang/dsh-open-a2a-net",
+    "commit": "e28eba14fa4c472702be7c9e03734bc08f281a6d",
+    "releaseTags": 45,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:42.089Z"
+}

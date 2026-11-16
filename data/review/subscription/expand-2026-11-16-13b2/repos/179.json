@@ -1,0 +1,66 @@
+{
+  "full_name": "chunsi-w/dsh-ctxopt-compaction",
+  "originalPosition": 179,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 179,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:46.064Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8a583a764353895d2d9a283cbaa53e7304511bd570f3354d1dbc76ae5ac241f1",
+      "url": "https://github.com/chunsi-w/dsh-ctxopt-compaction/blob/4b60852c0db6f0eea2fa60ed9bf9de01fd4beb30/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ctxopt-compaction",
+      "version": "0.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chunsi-w/dsh-ctxopt-compaction",
+        "commit": "4b60852c0db6f0eea2fa60ed9bf9de01fd4beb30"
+      },
+      "manifestSha256": "7f1920f26527d2a26bac855888ec4bd7b62a14cfe898ca85aa545268bdbdaf23",
+      "manifestUrl": "https://github.com/chunsi-w/dsh-ctxopt-compaction/blob/4b60852c0db6f0eea2fa60ed9bf9de01fd4beb30/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ctxopt-compaction",
+        "versions": [
+          {
+            "version": "0.0.1",
+            "publishTimestamp": 1791078052,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chunsi-w/dsh-ctxopt-compaction",
+              "commit": "4b60852c0db6f0eea2fa60ed9bf9de01fd4beb30"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chunsi-w/dsh-ctxopt-compaction",
+    "commit": "4b60852c0db6f0eea2fa60ed9bf9de01fd4beb30",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:53.602Z"
+}

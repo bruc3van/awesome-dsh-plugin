@@ -1,0 +1,68 @@
+{
+  "full_name": "OrderG-X/dsh-mac-computer-use",
+  "originalPosition": 113,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 113,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:11.241Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "706dd7fb066fd783865937aa71a068d75fbb09b45318054e46ff6dfddcf4ebbc",
+      "url": "https://github.com/OrderG-X/dsh-mac-computer-use/blob/db39481b783d6771695796901b6db5cada8b01bc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mac-computer-use",
+      "version": "1.5.5",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/OrderG-X/dsh-mac-computer-use",
+        "commit": "db39481b783d6771695796901b6db5cada8b01bc",
+        "path": "plugin"
+      },
+      "manifestSha256": "91db2ebd8873ed48a7325196c82c00a6c3aeb6b3ef0e635e0545f37cea8cc911",
+      "manifestUrl": "https://github.com/OrderG-X/dsh-mac-computer-use/blob/db39481b783d6771695796901b6db5cada8b01bc/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-mac-computer-use",
+        "versions": [
+          {
+            "version": "1.5.5",
+            "publishTimestamp": 1794492624,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/OrderG-X/dsh-mac-computer-use",
+              "commit": "db39481b783d6771695796901b6db5cada8b01bc",
+              "path": "plugin"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/OrderG-X/dsh-mac-computer-use",
+    "commit": "db39481b783d6771695796901b6db5cada8b01bc",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:19.540Z"
+}

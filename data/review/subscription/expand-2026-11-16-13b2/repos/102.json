@@ -1,0 +1,547 @@
+{
+  "full_name": "drscrewdriver/dsh-tidy-display",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:53.372Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e6254450eb5f24055553ef4330f82172a92d0b5d923ff2275476bd3c7d9edf8f",
+      "url": "https://github.com/drscrewdriver/dsh-tidy-display/blob/947ca56ac64e3b8e08d532d1c3d2eb61aa5158f6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display",
+          "command": "dsh plugin --profile web add dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "fa7ba54f32631370c0660372aab53a1d234cc53dc4a0ac1d4183b71fb108c088",
+      "url": "https://github.com/drscrewdriver/dsh-tidy-display/blob/947ca56ac64e3b8e08d532d1c3d2eb61aa5158f6/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display",
+          "command": "dsh plugin --profile web add dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display@dsh-0.2.0",
+          "command": "dsh plugin --profile web add dsh-tidy-display@dsh-0.2.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "c42a3941b4547d22b0343dcc58ff1e56e35151d60e8554770f2cf3c16a92efd6",
+      "url": "https://github.com/drscrewdriver/dsh-tidy-display/blob/947ca56ac64e3b8e08d532d1c3d2eb61aa5158f6/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display",
+          "command": "dsh plugin --profile web add dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display@dsh-0.2.0",
+          "command": "dsh plugin --profile web add dsh-tidy-display@dsh-0.2.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "c8345c4f199cce3f7eef64d1f929feb85fa46b4a387e5278e10d5514ed5c7cf1",
+      "url": "https://github.com/drscrewdriver/dsh-tidy-display/blob/947ca56ac64e3b8e08d532d1c3d2eb61aa5158f6/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display",
+          "command": "dsh plugin --profile web add dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display@dsh-0.2.0",
+          "command": "dsh plugin --profile web add dsh-tidy-display@dsh-0.2.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.it.md",
+      "sha256": "7ad349d07d0fa284c63f2d708aee17d2f8718f1e11d159f4af7a89cf61c7a61a",
+      "url": "https://github.com/drscrewdriver/dsh-tidy-display/blob/947ca56ac64e3b8e08d532d1c3d2eb61aa5158f6/README.it.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display",
+          "command": "dsh plugin --profile web add dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display@dsh-0.2.0",
+          "command": "dsh plugin --profile web add dsh-tidy-display@dsh-0.2.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "75eb69338be68f0d1561bcdddbaec6c193a087ff4c4438928e2ed43d53f24a45",
+      "url": "https://github.com/drscrewdriver/dsh-tidy-display/blob/947ca56ac64e3b8e08d532d1c3d2eb61aa5158f6/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display",
+          "command": "dsh plugin --profile web add dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display@dsh-0.2.0",
+          "command": "dsh plugin --profile web add dsh-tidy-display@dsh-0.2.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "86c7e816cfaa70598693e2ca55b3c941d9a321e76a3b5b73e4c1eedc7b578ab2",
+      "url": "https://github.com/drscrewdriver/dsh-tidy-display/blob/947ca56ac64e3b8e08d532d1c3d2eb61aa5158f6/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display",
+          "command": "dsh plugin --profile web add dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/drscrewdriver/dsh-tidy-display",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-tidy-display",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-tidy-display@dsh-0.2.0",
+          "command": "dsh plugin --profile web add dsh-tidy-display@dsh-0.2.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tidy-display",
+      "version": "0.4.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/drscrewdriver/dsh-tidy-display",
+        "commit": "947ca56ac64e3b8e08d532d1c3d2eb61aa5158f6"
+      },
+      "manifestSha256": "b00bf34dc5984b4f029f501211bc09c801a7cbc1ffe0a79a6e55de84edec2221",
+      "manifestUrl": "https://github.com/drscrewdriver/dsh-tidy-display/blob/947ca56ac64e3b8e08d532d1c3d2eb61aa5158f6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-tidy-display",
+        "versions": [
+          {
+            "version": "0.4.10",
+            "publishTimestamp": 1794652384,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-tidy-display",
+              "commit": "947ca56ac64e3b8e08d532d1c3d2eb61aa5158f6"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+      "origin": "git_target",
+      "name": "@drscrewdriver/dsh-tidy-display",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@drscrewdriver/dsh-tidy-display",
+        "title": "@drscrewdriver/dsh-tidy-display",
+        "description": "Message-rail subset of tidy-display for legacy DeepSeek Harness (0.1.5-alpha.1 ~ 0.1.6): canvas rail, theme-aware palette, smart history loading.",
+        "homepage": "https://github.com/drscrewdriver/dsh-tidy-display#readme",
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-tidy-display"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dshx",
+            "message-rail",
+            "navigation",
+            "legacy"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790616271,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-tidy-display",
+              "commit": "30863b046be268ed30214f3de8068ec8acf3c3fc"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "30863b046be268ed30214f3de8068ec8acf3c3fc",
+          "name": "@drscrewdriver/dsh-tidy-display",
+          "version": "0.1.0",
+          "url": "https://github.com/drscrewdriver/dsh-tidy-display",
+          "manifestSha256": "9af9f90e440e96238ab4c71f81a2d441fced5a535e848b94d33df64b257dee60",
+          "publishTimestamp": 1790616271
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+      "origin": "git_target",
+      "name": "dsh-tidy-display",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tidy-display",
+        "title": "dsh-tidy-display",
+        "description": "One plugin for a calmer DeepSeek Harness: reading view + message rail + smart history loading, for the Harness 0.2.0 line.",
+        "homepage": "https://github.com/drscrewdriver/dsh-tidy-display#readme",
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-tidy-display"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dshx",
+            "conversation",
+            "reasoning",
+            "streaming",
+            "accessibility"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1790783378,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-tidy-display",
+              "commit": "b12b7d1707be26e6248a6f3e75c89440bad3b036"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.2.1-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "b12b7d1707be26e6248a6f3e75c89440bad3b036",
+          "name": "dsh-tidy-display",
+          "version": "0.2.0",
+          "url": "https://github.com/drscrewdriver/dsh-tidy-display",
+          "manifestSha256": "cffe70b45dedf118b2060216a596f003ca050635f6782066a065f294730fffee",
+          "publishTimestamp": 1790783378
+        }
+      ]
+    },
+    {
+      "target": "dsh-tidy-display",
+      "origin": "npm",
+      "name": "dsh-tidy-display",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tidy-display",
+        "title": {
+          "en": "Tidy Display",
+          "de": "Aufgeräumte Anzeige",
+          "es": "Vista ordenada",
+          "fr": "Affichage épuré",
+          "it": "Visualizzazione pulita",
+          "ja": "整った表示",
+          "ko": "깔끔한 표시",
+          "ru": "Аккуратный вид",
+          "zh": "整洁显示"
+        },
+        "description": {
+          "en": "a community plugin for DeepSeek Harness (DSH) 0.1.0–0.2.0 that merges the reading view and the message rail into one plugin: long sessions become scannable, navigable, and resumable.",
+          "de": "ein Community-Plugin für DeepSeek Harness (DSH) 0.1.0–0.2.0, das die Leseansicht und die Nachrichtenleiste in einem Plugin vereint: lange Sitzungen werden überblickbar, navigierbar und fortsetzbar.",
+          "es": "un plugin comunitario para DeepSeek Harness (DSH) 0.1.0–0.2.0 que fusiona la vista de lectura y el raíl de mensajes en un solo plugin: las sesiones largas se vuelven fáciles de ojear, navegables y reanudables.",
+          "fr": "un plugin communautaire pour DeepSeek Harness (DSH) 0.1.0–0.2.0 qui fusionne la vue de lecture et le rail des messages en un seul plugin : les longues sessions deviennent lisibles en un coup d'œil, navigables et reprenables.",
+          "it": "un plugin della community per DeepSeek Harness (DSH) 0.1.0–0.2.0 che fonde la vista di lettura e la barra dei messaggi in un unico plugin: le sessioni lunghe diventano scorribili a colpo d'occhio, navigabili e riprendibili.",
+          "ja": "DeepSeek Harness（DSH）0.1.0–0.2.0 向けのコミュニティプラグインです。閲覧ビューとメッセージレールをひとつのプラグインに統合し、長いセッションをざっと見渡せて、位置をたどれて、続きから話せるようにします。",
+          "ko": "DeepSeek Harness(DSH) 0.1.0–0.2.0용 커뮤니티 플러그인입니다. 읽기 보기와 메시지 레일을 하나의 플러그인으로 합쳐, 긴 세션을 훑어보고 위치를 찾고 이어서 대화할 수 있게 합니다.",
+          "ru": "плагин сообщества для DeepSeek Harness (DSH) 0.1.0–0.2.0, объединяющий режим чтения и панель сообщений в одном плагине: длинные сессии становятся удобными для беглого просмотра, навигации и продолжения.",
+          "zh": "整洁显示 —— DeepSeek Harness（DSH）0.1.0–0.2.0 的一个社区插件：把「阅读视图」与「消息轨」缝合成一个插件，长会话可扫读、可定位、可续聊。"
+        },
+        "homepage": "https://github.com/drscrewdriver/dsh-tidy-display#readme",
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-tidy-display"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dshx",
+            "conversation",
+            "reasoning",
+            "streaming",
+            "accessibility"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.11",
+            "publishTimestamp": 1794653530,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0b734ea3921114a6e2a2fed1ccdf785de97811ba0041430eaa44195ca124e17d",
+      "evidence": [
+        {
+          "name": "dsh-tidy-display",
+          "version": "0.4.11",
+          "tarball": "https://registry.npmjs.org/dsh-tidy-display/-/dsh-tidy-display-0.4.11.tgz",
+          "integrity": "sha512-inIpYnH+d2lLzoLnfUiRyEJA5OFLZHGkUrOR672PnqR5XfpZ3l8ie4xYCGd6FrzrzLOHSa2KWOwxyHtlsPSVpw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-tidy-display@dsh-0.2.0",
+      "origin": "npm",
+      "name": "dsh-tidy-display",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tidy-display",
+        "title": "dsh-tidy-display",
+        "description": "One plugin for a calmer DeepSeek Harness: reading view + message rail + smart history loading, for Harness 0.1.0-0.2.1 (all rc).",
+        "homepage": "https://github.com/drscrewdriver/dsh-tidy-display#readme",
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-tidy-display"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dshx",
+            "conversation",
+            "reasoning",
+            "streaming",
+            "accessibility"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.10",
+            "publishTimestamp": 1793978068,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0b734ea3921114a6e2a2fed1ccdf785de97811ba0041430eaa44195ca124e17d",
+      "evidence": [
+        {
+          "name": "dsh-tidy-display",
+          "version": "0.4.10",
+          "tarball": "https://registry.npmjs.org/dsh-tidy-display/-/dsh-tidy-display-0.4.10.tgz",
+          "integrity": "sha512-nLNld7cFtX3DZR5yhQfmQKTO54/Q4srrfCO/v10pyYdjoco3jTm/Zgw/tHaoPFDKqmfktgDMvZIIslELrHS3CA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/drscrewdriver/dsh-tidy-display#v0.1.0-dsh0.1.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/drscrewdriver/dsh-tidy-display#v0.2.0-dsh0.2.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tidy-display",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/drscrewdriver/dsh-tidy-display",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tidy-display@dsh-0.2.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/drscrewdriver/dsh-tidy-display",
+    "commit": "947ca56ac64e3b8e08d532d1c3d2eb61aa5158f6",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:35.713Z"
+}

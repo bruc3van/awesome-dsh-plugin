@@ -1,0 +1,148 @@
+{
+  "full_name": "chenkai2/dsh-daemon",
+  "originalPosition": 95,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 95,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:34.529Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "27fd051d2f38e74013fe0d7ba944ccb6799b1ce283c5be5166b10ca84086a2e7",
+      "url": "https://github.com/chenkai2/dsh-daemon/blob/b55148ffee018d2ed3d25a1eeaf5ebad3ff70a11/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@chenkai114/dsh-daemon",
+          "command": "dsh plugin --profile web add @chenkai114/dsh-daemon",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "4ee14739e53d0de63f16ceb2bf8cb8d3c3ddce106cb08f1d837340b961a9500e",
+      "url": "https://github.com/chenkai2/dsh-daemon/blob/b55148ffee018d2ed3d25a1eeaf5ebad3ff70a11/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@chenkai114/dsh-daemon",
+          "command": "dsh plugin --profile web add @chenkai114/dsh-daemon",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@chenkai114/dsh-daemon",
+      "version": "0.1.31",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chenkai2/dsh-daemon",
+        "commit": "b55148ffee018d2ed3d25a1eeaf5ebad3ff70a11"
+      },
+      "manifestSha256": "cd56c3f2813ee05bd44b236ad90daa19f42488f49cfd67dc0f47873222eac2d6",
+      "manifestUrl": "https://github.com/chenkai2/dsh-daemon/blob/b55148ffee018d2ed3d25a1eeaf5ebad3ff70a11/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@chenkai114/dsh-daemon",
+        "versions": [
+          {
+            "version": "0.1.31",
+            "publishTimestamp": 1794318148,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chenkai2/dsh-daemon",
+              "commit": "b55148ffee018d2ed3d25a1eeaf5ebad3ff70a11"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@chenkai114/dsh-daemon",
+      "origin": "npm",
+      "name": "@chenkai114/dsh-daemon",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@chenkai114/dsh-daemon",
+        "title": "@chenkai114/dsh-daemon",
+        "description": "dsh daemon: register the DeepSeek Harness web server (dsh web) as an auto-start, self-healing background service (LaunchAgent / systemd / cron + watchdog).",
+        "author": "chenkai2",
+        "homepage": "https://github.com/chenkai2/dsh-daemon#readme",
+        "repository": {
+          "url": "https://github.com/chenkai2/dsh-daemon"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "daemon",
+            "watchdog",
+            "launchagent",
+            "launchd",
+            "systemd",
+            "self-healing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.31",
+            "publishTimestamp": 1794318691,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c567d470c034867867919787960b3e56653b7b0bd09ca5e7beb647989d5876bc",
+      "evidence": [
+        {
+          "name": "@chenkai114/dsh-daemon",
+          "version": "0.1.31",
+          "tarball": "https://registry.npmjs.org/@chenkai114/dsh-daemon/-/dsh-daemon-0.1.31.tgz",
+          "integrity": "sha512-/Y/aue+1NAvF/qIr4/JW2T/GjLy3/6nT3lt/uxAzS2VUyGQ4TKDrymlpZpmCD3aRZ+OdxnmXuSL0yDlKdp/4hw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@chenkai114/dsh-daemon",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chenkai2/dsh-daemon",
+    "commit": "b55148ffee018d2ed3d25a1eeaf5ebad3ff70a11",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:16:47.119Z"
+}

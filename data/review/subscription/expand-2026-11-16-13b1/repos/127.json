@@ -1,0 +1,103 @@
+{
+  "full_name": "abbccdd/dsh-localtts",
+  "originalPosition": 127,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 127,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:43.677Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "915a3fe6c879226917aa3fad2cab146754e01344e690016ca1b19fb374a5f423",
+      "url": "https://github.com/abbccdd/dsh-localtts/blob/b9291034e48d4f20e5e92d1ec71e13ed74abbb50/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/abbccdd/dsh-localtts",
+          "command": "dsh plugin --profile web add github:abbccdd/dsh-localtts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "17ee65a293601328d5d012e2ae2b3199c311a7ee0584c8490f60231be43ea273",
+      "url": "https://github.com/abbccdd/dsh-localtts/blob/b9291034e48d4f20e5e92d1ec71e13ed74abbb50/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/abbccdd/dsh-localtts",
+          "command": "dsh plugin --profile web add github:abbccdd/dsh-localtts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "4ec88f561d2f186d1ff0898dc0a87d397f5da0ae0db80eeb1c78eeb6c5b279e8",
+      "url": "https://github.com/abbccdd/dsh-localtts/blob/b9291034e48d4f20e5e92d1ec71e13ed74abbb50/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-plugin-local-ai-tts",
+      "version": "0.1.12-rc.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/abbccdd/dsh-localtts",
+        "commit": "b9291034e48d4f20e5e92d1ec71e13ed74abbb50"
+      },
+      "manifestSha256": "e8dd95256fa62214619e9a1826786019cdf6309c5349e634743ed833f92d4575",
+      "manifestUrl": "https://github.com/abbccdd/dsh-localtts/blob/b9291034e48d4f20e5e92d1ec71e13ed74abbb50/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || ^0.1.1-rc.0 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-external/dsh-plugin-local-ai-tts",
+        "versions": [
+          {
+            "version": "0.1.12-rc.5",
+            "publishTimestamp": 1793272982,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/abbccdd/dsh-localtts",
+              "commit": "b9291034e48d4f20e5e92d1ec71e13ed74abbb50"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.0 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/abbccdd/dsh-localtts",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/abbccdd/dsh-localtts",
+    "commit": "b9291034e48d4f20e5e92d1ec71e13ed74abbb50",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:55.848Z"
+}

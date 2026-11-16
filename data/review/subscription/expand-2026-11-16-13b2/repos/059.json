@@ -1,0 +1,142 @@
+{
+  "full_name": "XDTrees/dsh-opencode-xdbridge",
+  "originalPosition": 59,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 59,
+  "batch": 1,
+  "stargazers_count": 16,
+  "startedAt": "2026-11-16T12:15:07.481Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "00108e2dc658f4882360cca2cc1f46dc47b491af9bb12c39c32c7fd7cb5f3dfa",
+      "url": "https://github.com/XDTrees/dsh-opencode-xdbridge/blob/b14506c096ea772ec69a0fa6a8b46e91c228ef4c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-opencode-xdbridge",
+          "command": "dsh plugin --profile <profile> add dsh-opencode-xdbridge",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/XDTrees/dsh-opencode-xdbridge",
+          "command": "dsh plugin --profile <profile> add github:XDTrees/dsh-opencode-xdbridge",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-opencode-xdbridge",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XDTrees/dsh-opencode-xdbridge",
+        "commit": "b14506c096ea772ec69a0fa6a8b46e91c228ef4c"
+      },
+      "manifestSha256": "62fd778e5ee4839d5f78df67b0d82adc4a8a95e833c57d99c52ecfeb1d830b78",
+      "manifestUrl": "https://github.com/XDTrees/dsh-opencode-xdbridge/blob/b14506c096ea772ec69a0fa6a8b46e91c228ef4c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.1 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-opencode-xdbridge",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791541448,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/XDTrees/dsh-opencode-xdbridge",
+              "commit": "b14506c096ea772ec69a0fa6a8b46e91c228ef4c"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.1 <0.2.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-opencode-xdbridge",
+      "origin": "npm",
+      "name": "dsh-opencode-xdbridge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-opencode-xdbridge",
+        "title": "dsh-opencode-xdbridge",
+        "description": "Run OpenCode Zen's free models inside DeepSeek Harness through a managed, isolated OpenCode runtime.",
+        "author": "XDTrees",
+        "homepage": "https://github.com/XDTrees/dsh-opencode-xdbridge#readme",
+        "repository": {
+          "url": "https://github.com/XDTrees/dsh-opencode-xdbridge"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "opencode",
+            "opencode-zen",
+            "free-models",
+            "model-provider"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790681599,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.1 <0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "decd69a607a5f9432888ef09a6375d19d6e7d0466bf5b7e6403863d235cd74db",
+      "evidence": [
+        {
+          "name": "dsh-opencode-xdbridge",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-opencode-xdbridge/-/dsh-opencode-xdbridge-0.1.0.tgz",
+          "integrity": "sha512-iJifceoB/MmIeSU0a26XUUof1eFTb5QfU5k1z6cGrlD2DNLokXeDbJpHF9IPTtcSKU0wqKiebYYWb8PUzsc3og=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-opencode-xdbridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/XDTrees/dsh-opencode-xdbridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XDTrees/dsh-opencode-xdbridge",
+    "commit": "b14506c096ea772ec69a0fa6a8b46e91c228ef4c",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:15:17.290Z"
+}

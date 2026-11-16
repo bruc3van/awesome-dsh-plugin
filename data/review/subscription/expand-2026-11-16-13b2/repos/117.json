@@ -1,0 +1,74 @@
+{
+  "full_name": "lakeofsky347/yingliu-video-studio",
+  "originalPosition": 117,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 117,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:33.040Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b02896c89909e6068a130b9f83298b6b9ea8d383559e83b5d640b7c355ba47a1",
+      "url": "https://github.com/lakeofsky347/yingliu-video-studio/blob/c481896a23700037a103f98f77d85a9a90f2b072/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "227f1bd813631a8caf15454d86a255d731250f0c33474c1516c93e3c4607940f",
+      "url": "https://github.com/lakeofsky347/yingliu-video-studio/blob/c481896a23700037a103f98f77d85a9a90f2b072/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "yingliu-video-studio",
+      "version": "0.8.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lakeofsky347/yingliu-video-studio",
+        "commit": "c481896a23700037a103f98f77d85a9a90f2b072"
+      },
+      "manifestSha256": "ca72c831954aca18b51ca1d564db23f16932672a99db2d5af5cc7a62839d7bb6",
+      "manifestUrl": "https://github.com/lakeofsky347/yingliu-video-studio/blob/c481896a23700037a103f98f77d85a9a90f2b072/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "yingliu-video-studio",
+        "versions": [
+          {
+            "version": "0.8.3",
+            "publishTimestamp": 1794824976,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lakeofsky347/yingliu-video-studio",
+              "commit": "c481896a23700037a103f98f77d85a9a90f2b072"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lakeofsky347/yingliu-video-studio",
+    "commit": "c481896a23700037a103f98f77d85a9a90f2b072",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:41.795Z"
+}

@@ -1,0 +1,81 @@
+{
+  "full_name": "nowledge-co/nowledge-mem-deepseek-harness",
+  "originalPosition": 110,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 110,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:12.682Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3a210f7d8a3d7f5ab41653092700b10bf1c5315bda891808a14b84d1a527bde9",
+      "url": "https://github.com/nowledge-co/nowledge-mem-deepseek-harness/blob/587894ae4835de5c9eff0b101c29a250545807b0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/nowledge-co/nowledge-mem-deepseek-harness",
+          "command": "dsh plugin --profile web add github:nowledge-co/nowledge-mem-deepseek-harness",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "nowledge-mem-deepseek-harness",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/nowledge-co/nowledge-mem-deepseek-harness",
+        "commit": "587894ae4835de5c9eff0b101c29a250545807b0"
+      },
+      "manifestSha256": "abf0a990d783ba854664ca57435fa2656974bca42093a6aca87982bdd2bd81cd",
+      "manifestUrl": "https://github.com/nowledge-co/nowledge-mem-deepseek-harness/blob/587894ae4835de5c9eff0b101c29a250545807b0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.5 <0.2.0 >=0.0.1-rc.1 >=0.0.1-rc.5 || >=0.1.0-rc.5 <0.2.0 >=0.0.1-rc.1 0.1.5-rc.2 || >=0.1.0-rc.5 <0.2.0 >=0.0.1-rc.1 0.1.7-rc.1 || >=0.1.0-rc.5 <0.2.0 0.1.5-rc.2 >=0.0.1-rc.5 || >=0.1.0-rc.5 <0.2.0 0.1.5-rc.2 || >=0.1.0-rc.5 <0.2.0 0.1.7-rc.1 >=0.0.1-rc.5 || >=0.1.0-rc.5 <0.2.0 0.1.7-rc.1 || 0.1.5-rc.2 >=0.0.1-rc.1 <0.2.0 >=0.0.1-rc.5 || 0.1.5-rc.2 >=0.0.1-rc.1 <0.2.0 || 0.1.5-rc.2 >=0.0.1-rc.5 <0.2.0 || 0.1.5-rc.2 || 0.1.7-rc.1 >=0.0.1-rc.1 <0.2.0 >=0.0.1-rc.5 || 0.1.7-rc.1 >=0.0.1-rc.1 <0.2.0 || 0.1.7-rc.1 >=0.0.1-rc.5 <0.2.0 || 0.1.7-rc.1 || 0.2.1-alpha.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "nowledge-mem-deepseek-harness",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794474291,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/nowledge-co/nowledge-mem-deepseek-harness",
+              "commit": "587894ae4835de5c9eff0b101c29a250545807b0"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5 <0.2.0 >=0.0.1-rc.1 >=0.0.1-rc.5 || >=0.1.0-rc.5 <0.2.0 >=0.0.1-rc.1 0.1.5-rc.2 || >=0.1.0-rc.5 <0.2.0 >=0.0.1-rc.1 0.1.7-rc.1 || >=0.1.0-rc.5 <0.2.0 0.1.5-rc.2 >=0.0.1-rc.5 || >=0.1.0-rc.5 <0.2.0 0.1.5-rc.2 || >=0.1.0-rc.5 <0.2.0 0.1.7-rc.1 >=0.0.1-rc.5 || >=0.1.0-rc.5 <0.2.0 0.1.7-rc.1 || 0.1.5-rc.2 >=0.0.1-rc.1 <0.2.0 >=0.0.1-rc.5 || 0.1.5-rc.2 >=0.0.1-rc.1 <0.2.0 || 0.1.5-rc.2 >=0.0.1-rc.5 <0.2.0 || 0.1.5-rc.2 || 0.1.7-rc.1 >=0.0.1-rc.1 <0.2.0 >=0.0.1-rc.5 || 0.1.7-rc.1 >=0.0.1-rc.1 <0.2.0 || 0.1.7-rc.1 >=0.0.1-rc.5 <0.2.0 || 0.1.7-rc.1 || 0.2.1-alpha.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/nowledge-co/nowledge-mem-deepseek-harness",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/nowledge-co/nowledge-mem-deepseek-harness",
+    "commit": "587894ae4835de5c9eff0b101c29a250545807b0",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:20.478Z"
+}

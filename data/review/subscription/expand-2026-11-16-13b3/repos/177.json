@@ -1,0 +1,172 @@
+{
+  "full_name": "Mzy123l/dsh-plugin-remote-access",
+  "originalPosition": 177,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 177,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:19.837Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4c4c75bbd7a15538ad573a18b6db836963f46ed3f325679818e1871b9394ec0e",
+      "url": "https://github.com/Mzy123l/dsh-plugin-remote-access/blob/9197102941f1f7ac9738e94770efa2ca73e9e251/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-remote-access",
+          "command": "dsh plugin --profile desktop add dsh-plugin-remote-access",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Mzy123l/dsh-plugin-remote-access",
+          "command": "dsh plugin --profile desktop add github:Mzy123l/dsh-plugin-remote-access",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "3d2f55074e1c7c9d29811e296c4330c88df912a00fdec50c83472137bc097013",
+      "url": "https://github.com/Mzy123l/dsh-plugin-remote-access/blob/9197102941f1f7ac9738e94770efa2ca73e9e251/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-remote-access",
+          "command": "dsh plugin --profile desktop add dsh-plugin-remote-access",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Mzy123l/dsh-plugin-remote-access",
+          "command": "dsh plugin --profile desktop add github:Mzy123l/dsh-plugin-remote-access",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "android/README.md",
+      "sha256": "30b99511d66d1e78fe24243929081d8f7e3ba0c98000a192635606dbe50839a1",
+      "url": "https://github.com/Mzy123l/dsh-plugin-remote-access/blob/9197102941f1f7ac9738e94770efa2ca73e9e251/android/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-remote-access",
+      "version": "1.6.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mzy123l/dsh-plugin-remote-access",
+        "commit": "9197102941f1f7ac9738e94770efa2ca73e9e251"
+      },
+      "manifestSha256": "8e41a1b5dfdf1e18012296b5488fd41a6cdd18723659276f4a5f5e597d8cbd45",
+      "manifestUrl": "https://github.com/Mzy123l/dsh-plugin-remote-access/blob/9197102941f1f7ac9738e94770efa2ca73e9e251/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-remote-access",
+        "versions": [
+          {
+            "version": "1.6.2",
+            "publishTimestamp": 1794536815,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Mzy123l/dsh-plugin-remote-access",
+              "commit": "9197102941f1f7ac9738e94770efa2ca73e9e251"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-remote-access",
+      "origin": "npm",
+      "name": "dsh-plugin-remote-access",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-remote-access",
+        "title": "dsh-plugin-remote-access",
+        "description": "Expose this machine's DSH web GUI to a chosen CIDR range (e.g. Tailscale) on DSH 0.2.1+, with an optional numeric access code, a phone layout that only affects remote pages, on-phone resource caching (big assets are not re-sent on every visit; the host stores no bodies), phone Enter = newline, and remote-only appearance/font preferences. Configuration lives ONLY in each Windows user's own $DSH_HOME/remote-access-config.json (the plugin never reads or writes the shared profile); a busy port falls back to a free one and is remembered.",
+        "homepage": "https://github.com/Mzy123l/dsh-plugin-remote-access#readme",
+        "repository": {
+          "url": "https://github.com/Mzy123l/dsh-plugin-remote-access"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "bundle",
+            "dsh-plugin",
+            "remote-access",
+            "cidr",
+            "tailscale"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9InJlbW90ZSBhY2Nlc3MiPg0KICA8cmVjdCB4PSI0IiB5PSIxMCIgd2lkdGg9IjM2IiBoZWlnaHQ9IjI2IiByeD0iNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iNCIvPg0KICA8cGF0aCBkPSJNMTAgMzBoMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPg0KICA8cGF0aCBkPSJNNDYgMzBsMTIgMTAtMTIgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KICA8cGF0aCBkPSJNMzAgNDBoMTYiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPg0KPC9zdmc+DQo=",
+        "versions": [
+          {
+            "version": "1.6.2",
+            "publishTimestamp": 1794536739,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "96dcbd5d7006871d514c0f0024f9147cb57d8d1443b35e0d7bba7cb6734e7ed7",
+      "evidence": [
+        {
+          "name": "dsh-plugin-remote-access",
+          "version": "1.6.2",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-remote-access/-/dsh-plugin-remote-access-1.6.2.tgz",
+          "integrity": "sha512-ger0k7b8iuLqFGlPlqBZAaMV0/T+YTgNJ7DDTJ2tINeCBwuaaJ59/QTzIhNt2QKj9fBHYMcGZ+E3aBQLql8vPQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-remote-access",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Mzy123l/dsh-plugin-remote-access",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mzy123l/dsh-plugin-remote-access",
+    "commit": "9197102941f1f7ac9738e94770efa2ca73e9e251",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:33.195Z"
+}

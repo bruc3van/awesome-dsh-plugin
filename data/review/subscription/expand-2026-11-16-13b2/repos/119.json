@@ -1,0 +1,78 @@
+{
+  "full_name": "linhut/dsh-stock-terminal",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:37.699Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5eef357a5fff127f06610504257dd7ecaca2a3cc97674e827fbc11f16bf38adc",
+      "url": "https://github.com/linhut/dsh-stock-terminal/blob/a11b6b5d78edb2d1ad59da7cb598d25c94acae6a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/linhut/dsh-stock-terminal",
+          "command": "dsh plugin --profile web add github:linhut/dsh-stock-terminal",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-stock-terminal",
+      "version": "1.7.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/linhut/dsh-stock-terminal",
+        "commit": "a11b6b5d78edb2d1ad59da7cb598d25c94acae6a"
+      },
+      "manifestSha256": "63a98a967d4d06b0625acfd95676761e2198160aa68d6c84b687339ab474e691",
+      "manifestUrl": "https://github.com/linhut/dsh-stock-terminal/blob/a11b6b5d78edb2d1ad59da7cb598d25c94acae6a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-stock-terminal",
+        "versions": [
+          {
+            "version": "1.7.2",
+            "publishTimestamp": 1789355700,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/linhut/dsh-stock-terminal",
+              "commit": "a11b6b5d78edb2d1ad59da7cb598d25c94acae6a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/linhut/dsh-stock-terminal",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/linhut/dsh-stock-terminal",
+    "commit": "a11b6b5d78edb2d1ad59da7cb598d25c94acae6a",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:46.700Z"
+}

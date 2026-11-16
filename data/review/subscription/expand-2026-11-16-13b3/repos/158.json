@@ -1,0 +1,164 @@
+{
+  "full_name": "EasonMWS/dsh-plugin-health",
+  "originalPosition": 158,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 158,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:40.592Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d293072cdd1b48d39d397ee44a1eb6354f43eee42c6e4d40d18ff140bf8df476",
+      "url": "https://github.com/EasonMWS/dsh-plugin-health/blob/46f6478fcc99de2e28450e789d28d02b8da09fed/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-health",
+          "command": "dsh plugin --profile desktop add dsh-plugin-health",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-health",
+      "version": "3.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/EasonMWS/dsh-plugin-health",
+        "commit": "46f6478fcc99de2e28450e789d28d02b8da09fed"
+      },
+      "manifestSha256": "b0c9e5b82a79b28bae4dc4c7ddf1991df8be72dcde54f5c19a3d956ba437a151",
+      "manifestUrl": "https://github.com/EasonMWS/dsh-plugin-health/blob/46f6478fcc99de2e28450e789d28d02b8da09fed/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.0 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-health",
+        "versions": [
+          {
+            "version": "3.2.0",
+            "publishTimestamp": 1794726033,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/EasonMWS/dsh-plugin-health",
+              "commit": "46f6478fcc99de2e28450e789d28d02b8da09fed"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-health",
+      "origin": "npm",
+      "name": "dsh-plugin-health",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-health",
+        "title": "dsh-plugin-health",
+        "description": "Diagnoses DSH plugin installation, compatibility and observed loading problems. Offers repair previews, trusted-plugin startup trials, reversible version exemptions, recovery tools, AI briefs and official format-1 market indexes. Does not detect or contain malware.",
+        "author": "EasonMWS",
+        "homepage": "https://easonmws.github.io/dsh-plugin-health/",
+        "repository": {
+          "url": "https://github.com/EasonMWS/dsh-plugin-health"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "deepseek-harness",
+            "plugin-manager",
+            "plugin-management",
+            "plugin-doctor",
+            "plugin-health",
+            "plugin-check",
+            "plugin-checker",
+            "plugin-inspector",
+            "plugin-scan",
+            "plugin-conflict",
+            "conflict-detection",
+            "conflict-checker",
+            "incompatible-plugins",
+            "dependency-check",
+            "diagnostics",
+            "troubleshooting",
+            "doctor",
+            "repair",
+            "fix-plugins",
+            "broken-plugin",
+            "plugin-market",
+            "format-1",
+            "compatibility",
+            "compatibility-matrix",
+            "upgrade-check",
+            "version-check",
+            "github-action",
+            "semver",
+            "windows",
+            "wsl",
+            "插件管理",
+            "插件检查",
+            "插件冲突",
+            "插件诊断",
+            "插件不兼容"
+          ]
+        },
+        "versions": [
+          {
+            "version": "3.2.0",
+            "publishTimestamp": 1794636436,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.0 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "69b7193e28dc715f9b1456516322783aae9da4c17bcb8148a72fad7f83e446b5",
+      "evidence": [
+        {
+          "name": "dsh-plugin-health",
+          "version": "3.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-health/-/dsh-plugin-health-3.2.0.tgz",
+          "integrity": "sha512-bASUmORWHNIIJPNGJr6Xb+hf+XoPxZ38h46SRXkjq6B3K44Tt+vzqQ03fDujKOnaesnF/TpWG5zfNDgKDvz2AQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-health",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EasonMWS/dsh-plugin-health",
+    "commit": "46f6478fcc99de2e28450e789d28d02b8da09fed",
+    "releaseTags": 59,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:51.891Z"
+}

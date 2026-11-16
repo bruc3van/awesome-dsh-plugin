@@ -1,0 +1,239 @@
+{
+  "full_name": "Solismuchengxue/dsh_plugin_swift_cycle",
+  "originalPosition": 194,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 194,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:57.576Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "201e16616749e5d2a2551d9330f346b7e716d9f3dae5b53dd123da32b4f09461",
+      "url": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle/blob/b6fe37686b1e5d5e99a2594c0cb0bc7cfab4636c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle#d4201e6cc71b3660609b15300fe1cabdb4321cda",
+          "command": "dsh plugin --profile web add \"github:Solismuchengxue/dsh_plugin_swift_cycle#d4201e6cc71b3660609b15300fe1cabdb4321cda\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-swift-cycle",
+          "command": "dsh plugin --profile web add dsh-plugin-swift-cycle",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-swift-cycle@0.1.4",
+          "command": "dsh plugin --profile web add dsh-plugin-swift-cycle@0.1.4",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-swift-cycle",
+      "version": "0.1.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle",
+        "commit": "b6fe37686b1e5d5e99a2594c0cb0bc7cfab4636c"
+      },
+      "manifestSha256": "b68d21bc6e93ccbeceec20c26cd0b80415cf8f930067b991e87c2355ff977893",
+      "manifestUrl": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle/blob/b6fe37686b1e5d5e99a2594c0cb0bc7cfab4636c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-swift-cycle",
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1788160771,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle",
+              "commit": "b6fe37686b1e5d5e99a2594c0cb0bc7cfab4636c"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle#d4201e6cc71b3660609b15300fe1cabdb4321cda",
+      "origin": "git_target",
+      "name": "dsh-plugin-swift-cycle",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-swift-cycle",
+        "title": "dsh-plugin-swift-cycle",
+        "description": "DeepSeek Harness adapter for the Swift Cycle governance skill.",
+        "homepage": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle#readme",
+        "repository": {
+          "url": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "agent-skills",
+            "project-governance",
+            "swift-cycle"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1788159222,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle",
+              "commit": "d4201e6cc71b3660609b15300fe1cabdb4321cda"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "d4201e6cc71b3660609b15300fe1cabdb4321cda",
+          "name": "dsh-plugin-swift-cycle",
+          "version": "0.1.4",
+          "url": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle",
+          "manifestSha256": "b68d21bc6e93ccbeceec20c26cd0b80415cf8f930067b991e87c2355ff977893",
+          "publishTimestamp": 1788159222
+        }
+      ]
+    },
+    {
+      "target": "dsh-plugin-swift-cycle",
+      "origin": "npm",
+      "name": "dsh-plugin-swift-cycle",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-swift-cycle",
+        "title": "dsh-plugin-swift-cycle",
+        "description": "DeepSeek Harness adapter for the Swift Cycle governance skill.",
+        "homepage": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle#readme",
+        "repository": {
+          "url": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "agent-skills",
+            "project-governance",
+            "swift-cycle"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1788160456,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ddfaf1641478215062a6a3a063ea9a6fd26385f1d4985c5cd8d6701ddf8bcb72",
+      "evidence": [
+        {
+          "name": "dsh-plugin-swift-cycle",
+          "version": "0.1.4",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-swift-cycle/-/dsh-plugin-swift-cycle-0.1.4.tgz",
+          "integrity": "sha512-EJrql+51ZDyoqRGdeHC8aXUF/nFVAmI5o4bTzDo4lZkm6gOh0orAQITd6q1mpc58u4gzbmon97rlv7S6lgdMww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-plugin-swift-cycle@0.1.4",
+      "origin": "npm",
+      "name": "dsh-plugin-swift-cycle",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-swift-cycle",
+        "title": "dsh-plugin-swift-cycle",
+        "description": "DeepSeek Harness adapter for the Swift Cycle governance skill.",
+        "homepage": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle#readme",
+        "repository": {
+          "url": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "agent-skills",
+            "project-governance",
+            "swift-cycle"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1788160456,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ddfaf1641478215062a6a3a063ea9a6fd26385f1d4985c5cd8d6701ddf8bcb72",
+      "evidence": [
+        {
+          "name": "dsh-plugin-swift-cycle",
+          "version": "0.1.4",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-swift-cycle/-/dsh-plugin-swift-cycle-0.1.4.tgz",
+          "integrity": "sha512-EJrql+51ZDyoqRGdeHC8aXUF/nFVAmI5o4bTzDo4lZkm6gOh0orAQITd6q1mpc58u4gzbmon97rlv7S6lgdMww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle#d4201e6cc71b3660609b15300fe1cabdb4321cda",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-swift-cycle",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-swift-cycle@0.1.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Solismuchengxue/dsh_plugin_swift_cycle",
+    "commit": "b6fe37686b1e5d5e99a2594c0cb0bc7cfab4636c",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:11:12.873Z"
+}

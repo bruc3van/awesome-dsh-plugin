@@ -1,0 +1,134 @@
+{
+  "full_name": "wai549077/dsh-aliyun-balance",
+  "originalPosition": 98,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 98,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:06:32.135Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "92bf3028bfacc9c5db6d0dd86b26ebeb2a087de3357e74591aa53a70d49e9602",
+      "url": "https://github.com/wai549077/dsh-aliyun-balance/blob/3eb40ec56f1bac4b6e9b7ecadc7cc8dd36df98f7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-aliyun-balance",
+          "command": "dsh plugin add dsh-aliyun-balance",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-aliyun-balance",
+          "command": "dsh plugin --profile web add dsh-aliyun-balance",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-aliyun-balance",
+      "version": "0.1.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wai549077/dsh-aliyun-balance",
+        "commit": "3eb40ec56f1bac4b6e9b7ecadc7cc8dd36df98f7"
+      },
+      "manifestSha256": "9f52e850c553262dfe47ba77556fc86f2e359e82c03a660e8500f64e551e905b",
+      "manifestUrl": "https://github.com/wai549077/dsh-aliyun-balance/blob/3eb40ec56f1bac4b6e9b7ecadc7cc8dd36df98f7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-aliyun-balance",
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1792833275,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wai549077/dsh-aliyun-balance",
+              "commit": "3eb40ec56f1bac4b6e9b7ecadc7cc8dd36df98f7"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-aliyun-balance",
+      "origin": "npm",
+      "name": "dsh-aliyun-balance",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-aliyun-balance",
+        "title": "dsh-aliyun-balance",
+        "description": "阿里云代金券 / 余额看板（DSH 插件）：券 + 账户余额合计、券失效时间，界面悬浮一行挂件，可拖动，配色跟随主题。适合用阿里云代金券 / 余额付费的用户（典型场景：高校「云工开物」学生专属券 + 千问平台 API 接入 DSH）",
+        "author": "wai549077",
+        "homepage": "https://github.com/wai549077/dsh-aliyun-balance#readme",
+        "repository": {
+          "url": "https://github.com/wai549077/dsh-aliyun-balance"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "aliyun",
+            "aliyun-balance",
+            "coupon",
+            "voucher",
+            "balance",
+            "widget"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1792829676,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "058cac494110331cf7d5c9919575e75dd9db1f6f1c44a0addf1ec4b86b976252",
+      "evidence": [
+        {
+          "name": "dsh-aliyun-balance",
+          "version": "0.1.4",
+          "tarball": "https://registry.npmjs.org/dsh-aliyun-balance/-/dsh-aliyun-balance-0.1.4.tgz",
+          "integrity": "sha512-OGl1Uu5SokwQ7r6yopyI8D94QTfsNAr0oT1zQnij/LWJdL8gqnETgRi1WG+Wse9SdPgU6kq5rxHZ7PA6UQ3XpA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-aliyun-balance",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wai549077/dsh-aliyun-balance",
+    "commit": "3eb40ec56f1bac4b6e9b7ecadc7cc8dd36df98f7",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:06:42.118Z"
+}

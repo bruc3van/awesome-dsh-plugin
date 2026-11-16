@@ -1,0 +1,150 @@
+{
+  "full_name": "yumiao-dev/dsh-chat-thinking-editor",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:50.271Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e2327317cfa77f3e808a99217a411ef09aa8cfaf9eb0444740b87ee6e994a047",
+      "url": "https://github.com/yumiao-dev/dsh-chat-thinking-editor/blob/6fab4a6562a12ce67eb1842fc0da1201c33d802b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chat-thinking-editor",
+          "command": "dsh plugin --profile web add dsh-chat-thinking-editor",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "923926c8af885ed51f49a2e261b434f51f490ff530f4ffae82b870eb66b2c059",
+      "url": "https://github.com/yumiao-dev/dsh-chat-thinking-editor/blob/6fab4a6562a12ce67eb1842fc0da1201c33d802b/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chat-thinking-editor",
+          "command": "dsh plugin --profile web add dsh-chat-thinking-editor",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chat-thinking-editor",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yumiao-dev/dsh-chat-thinking-editor",
+        "commit": "6fab4a6562a12ce67eb1842fc0da1201c33d802b"
+      },
+      "manifestSha256": "4d1e1751dae37390d1a8347cb8567a291d5ded4d7e94287d14205eb2c4bd88e6",
+      "manifestUrl": "https://github.com/yumiao-dev/dsh-chat-thinking-editor/blob/6fab4a6562a12ce67eb1842fc0da1201c33d802b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-chat-thinking-editor",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790292020,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yumiao-dev/dsh-chat-thinking-editor",
+              "commit": "6fab4a6562a12ce67eb1842fc0da1201c33d802b"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-chat-thinking-editor",
+      "origin": "npm",
+      "name": "dsh-chat-thinking-editor",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-chat-thinking-editor",
+        "title": "dsh-chat-thinking-editor",
+        "description": "DeepSeek Harness (DSH) plugin: edit any assistant message's reply text AND reasoning/thinking chain right in the conversation. A pencil action opens a list of every finalized reply; edits are saved as a surface replacement so the model only ever sees YOUR version. Optimized for DSH 0.1.5-rc.2+. 灵感：让 AI 的输出真正符合你的心意。",
+        "homepage": "https://github.com/yumiao-dev/dsh-chat-thinking-editor",
+        "repository": {
+          "url": "https://github.com/yumiao-dev/dsh-chat-thinking-editor"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "chat",
+            "reasoning",
+            "thinking",
+            "message-editing",
+            "ai",
+            "plugin",
+            "web"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790291743,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "838f3b80a696fd077dc6d10d1b95c1a09b7117841256a5c44d78ebe27a43df1c",
+      "evidence": [
+        {
+          "name": "dsh-chat-thinking-editor",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-chat-thinking-editor/-/dsh-chat-thinking-editor-0.1.2.tgz",
+          "integrity": "sha512-Mh43rmVrCcL0Rl8hae7WBuEAAyFEIywGkQpJtoEB/T/bHUvL1jnO6M7EwOIQZK9cF9HYoBEfCSxT0MN2+yLGeQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-chat-thinking-editor",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yumiao-dev/dsh-chat-thinking-editor",
+    "commit": "6fab4a6562a12ce67eb1842fc0da1201c33d802b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:02.583Z"
+}

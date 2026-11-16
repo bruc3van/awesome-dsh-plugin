@@ -1,0 +1,69 @@
+{
+  "full_name": "regrevia/dsh-chat-link-actions",
+  "originalPosition": 118,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 118,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:26.268Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6fdb5f2dbefc3c107d5d4c0d149afb9d4b56f2cb916ad409c3bb4b28e23a5918",
+      "url": "https://github.com/regrevia/dsh-chat-link-actions/blob/99acd2dfbaabaee2eaa050a6ca6711c46c48ef45/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chat-link-actions",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/regrevia/dsh-chat-link-actions",
+        "commit": "99acd2dfbaabaee2eaa050a6ca6711c46c48ef45"
+      },
+      "manifestSha256": "768057ec0f1d41c099d1c282416f49311dc9e414d1f59928c676127e5907dd0e",
+      "manifestUrl": "https://github.com/regrevia/dsh-chat-link-actions/blob/99acd2dfbaabaee2eaa050a6ca6711c46c48ef45/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-chat-link-actions",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1793624087,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/regrevia/dsh-chat-link-actions",
+              "commit": "99acd2dfbaabaee2eaa050a6ca6711c46c48ef45"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/regrevia/dsh-chat-link-actions",
+    "commit": "99acd2dfbaabaee2eaa050a6ca6711c46c48ef45",
+    "releaseTags": 42,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:34.999Z"
+}

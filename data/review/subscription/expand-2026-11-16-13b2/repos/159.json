@@ -1,0 +1,162 @@
+{
+  "full_name": "PeterBon/dsh-hooks",
+  "originalPosition": 159,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 159,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:02.733Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fff1a2ba81d373b0edf63efa791802092df8a43f055c02cb010d86f01b743c17",
+      "url": "https://github.com/PeterBon/dsh-hooks/blob/460219cf687733a9930c6fc2145fee33dde233b8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-hooks",
+          "command": "dsh plugin --profile web add dsh-hooks",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/PeterBon/dsh-hooks",
+          "command": "dsh plugin --profile web add github:PeterBon/dsh-hooks",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "9c35e0fc97245bad80541de62e55c80c93be626b108f6d3af44015e9c0d2ea53",
+      "url": "https://github.com/PeterBon/dsh-hooks/blob/460219cf687733a9930c6fc2145fee33dde233b8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-hooks",
+          "command": "dsh plugin --profile web add dsh-hooks",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/PeterBon/dsh-hooks",
+          "command": "dsh plugin --profile web add github:PeterBon/dsh-hooks",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-hooks",
+      "version": "0.14.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PeterBon/dsh-hooks",
+        "commit": "460219cf687733a9930c6fc2145fee33dde233b8"
+      },
+      "manifestSha256": "d3f1fc2cd7d9c6cf21f76539104faea92cd625ca729395756aca0bcc04032448",
+      "manifestUrl": "https://github.com/PeterBon/dsh-hooks/blob/460219cf687733a9930c6fc2145fee33dde233b8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-hooks",
+        "versions": [
+          {
+            "version": "0.14.5",
+            "publishTimestamp": 1793582398,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PeterBon/dsh-hooks",
+              "commit": "460219cf687733a9930c6fc2145fee33dde233b8"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-hooks",
+      "origin": "npm",
+      "name": "dsh-hooks",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-hooks",
+        "title": "dsh-hooks",
+        "description": "Config-driven lifecycle hooks plugin for DeepSeek Harness: declare event -> command hooks in cordis.patch.yml, no plugin code required. Includes a Hooks section in the Web GUI settings (history timeline + manual tester + notify tests + hook editor + Feishu connect).",
+        "author": "PeterBon",
+        "homepage": "https://github.com/PeterBon/dsh-hooks#readme",
+        "repository": {
+          "url": "https://github.com/PeterBon/dsh-hooks"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek",
+            "deepseek-harness",
+            "hooks",
+            "automation",
+            "lifecycle",
+            "notification"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.14.5",
+            "publishTimestamp": 1793245551,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fc982c7d18195f536e6a2a41ff62956f06bab1dc36e419d69d712ed3283d53a0",
+      "evidence": [
+        {
+          "name": "dsh-hooks",
+          "version": "0.14.5",
+          "tarball": "https://registry.npmjs.org/dsh-hooks/-/dsh-hooks-0.14.5.tgz",
+          "integrity": "sha512-kdaSUJCWZmv+Ps/mjLT3Ngp27NGfbR/75yeTJ6ssqf7Cbw1CgDulO3LBFsjSjt8Iv2IEE9gTlUn8VyYeakZA1A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-hooks",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PeterBon/dsh-hooks",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PeterBon/dsh-hooks",
+    "commit": "460219cf687733a9930c6fc2145fee33dde233b8",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:14.024Z"
+}

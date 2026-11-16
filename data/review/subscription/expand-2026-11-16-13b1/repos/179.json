@@ -1,0 +1,148 @@
+{
+  "full_name": "JasonFreeLab/dsh-superpowers",
+  "originalPosition": 179,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 179,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:21.799Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c25f0e246ab2dab531087e05c14ced86a4b16fd1e4005a98b7385cfa58aad3c2",
+      "url": "https://github.com/JasonFreeLab/dsh-superpowers/blob/2c522f3f7a0502275859195e157c961647d6f0cd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jasonfreelab/dsh-superpowers",
+          "command": "dsh plugin --profile web add @jasonfreelab/dsh-superpowers",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e2c7ed6cf11592f8a88e897b86106742fcfcea399f5c3692d96e06ea5f3af473",
+      "url": "https://github.com/JasonFreeLab/dsh-superpowers/blob/2c522f3f7a0502275859195e157c961647d6f0cd/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jasonfreelab/dsh-superpowers",
+          "command": "dsh plugin --profile web add @jasonfreelab/dsh-superpowers",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@jasonfreelab/dsh-superpowers",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JasonFreeLab/dsh-superpowers",
+        "commit": "2c522f3f7a0502275859195e157c961647d6f0cd"
+      },
+      "manifestSha256": "9f608caf790b6898fcdb96aeca4edc9d4c99a50588b1f95d0281df0acd745c17",
+      "manifestUrl": "https://github.com/JasonFreeLab/dsh-superpowers/blob/2c522f3f7a0502275859195e157c961647d6f0cd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@jasonfreelab/dsh-superpowers",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1791127974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JasonFreeLab/dsh-superpowers",
+              "commit": "2c522f3f7a0502275859195e157c961647d6f0cd"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@jasonfreelab/dsh-superpowers",
+      "origin": "npm",
+      "name": "@jasonfreelab/dsh-superpowers",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@jasonfreelab/dsh-superpowers",
+        "title": "@jasonfreelab/dsh-superpowers",
+        "description": "A DSH port of obra/superpowers — the full multi-agent software-development methodology (TDD, planning, debugging, review) as native DSH skills",
+        "author": "JasonFreeLab",
+        "homepage": "https://github.com/JasonFreeLab/dsh-superpowers#readme",
+        "repository": {
+          "url": "https://github.com/JasonFreeLab/dsh-superpowers"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "superpowers",
+            "skills",
+            "agent",
+            "methodology",
+            "tdd",
+            "coding-agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1791128088,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6152ccef62721339a8ecf7808330df1ba60d1d1d768b5b045476a4ddfe974bbb",
+      "evidence": [
+        {
+          "name": "@jasonfreelab/dsh-superpowers",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/@jasonfreelab/dsh-superpowers/-/dsh-superpowers-0.3.1.tgz",
+          "integrity": "sha512-YqyBhrYkhMd4RZyVUhrtW9xks82QATIjmPah4jyYj8N5fRilOrPjutkjgxbaActPe8Y+YovS1uJdSxpN9F5qmw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@jasonfreelab/dsh-superpowers",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JasonFreeLab/dsh-superpowers",
+    "commit": "2c522f3f7a0502275859195e157c961647d6f0cd",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:33.143Z"
+}

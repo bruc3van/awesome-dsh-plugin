@@ -1,0 +1,77 @@
+{
+  "full_name": "guohwa/dsh-plugin-image-workbench",
+  "originalPosition": 88,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 88,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:06:07.069Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5e143b7fd58f72b78660fd2b796fd2be5adc87b3e8a080a29bd41519abe5b753",
+      "url": "https://github.com/guohwa/dsh-plugin-image-workbench/blob/94dc1aadc99059641c9035e298444cfc0eb5e5fc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "cfcb962154b276e419ba7fb1f3be2b7983ae38fb7f855b3b9abfaf1ff1e194a7",
+      "url": "https://github.com/guohwa/dsh-plugin-image-workbench/blob/94dc1aadc99059641c9035e298444cfc0eb5e5fc/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-image-workbench",
+      "version": "1.1.55",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/guohwa/dsh-plugin-image-workbench",
+        "commit": "94dc1aadc99059641c9035e298444cfc0eb5e5fc"
+      },
+      "manifestSha256": "b95ac83a5b5e9a3edb79ebb87d94fd9821481dca47297324b885f30e729c65a0",
+      "manifestUrl": "https://github.com/guohwa/dsh-plugin-image-workbench/blob/94dc1aadc99059641c9035e298444cfc0eb5e5fc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-image-workbench",
+        "versions": [
+          {
+            "version": "1.1.55",
+            "publishTimestamp": 1794824821,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/guohwa/dsh-plugin-image-workbench",
+              "commit": "94dc1aadc99059641c9035e298444cfc0eb5e5fc"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/guohwa/dsh-plugin-image-workbench",
+    "commit": "94dc1aadc99059641c9035e298444cfc0eb5e5fc",
+    "releaseTags": 55,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:06:17.833Z"
+}

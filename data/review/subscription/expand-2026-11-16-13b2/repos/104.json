@@ -1,0 +1,77 @@
+{
+  "full_name": "fan56/dsh-subagent-registry",
+  "originalPosition": 104,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 104,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:55.847Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2b469207cf8fd186f134d586247f6c65433c4c4ba5770a96863e3b5b986492e4",
+      "url": "https://github.com/fan56/dsh-subagent-registry/blob/a248f66a65809146c765f9f45fe15ef28534f283/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "2282ddeb3b84fbeb9ba0441fe854c4061d99ea32410d02fa62128f64e6a2c7a5",
+      "url": "https://github.com/fan56/dsh-subagent-registry/blob/a248f66a65809146c765f9f45fe15ef28534f283/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@aiwayds/dsh-subagent-registry",
+      "version": "0.20.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fan56/dsh-subagent-registry",
+        "commit": "a248f66a65809146c765f9f45fe15ef28534f283"
+      },
+      "manifestSha256": "c8e4214c883dc2b27b6b36deb26d30589663f7ec276783b5724742591bc71c35",
+      "manifestUrl": "https://github.com/fan56/dsh-subagent-registry/blob/a248f66a65809146c765f9f45fe15ef28534f283/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 || >=0.2.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@aiwayds/dsh-subagent-registry",
+        "versions": [
+          {
+            "version": "0.20.1",
+            "publishTimestamp": 1794558573,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fan56/dsh-subagent-registry",
+              "commit": "a248f66a65809146c765f9f45fe15ef28534f283"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fan56/dsh-subagent-registry",
+    "commit": "a248f66a65809146c765f9f45fe15ef28534f283",
+    "releaseTags": 33,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:06.680Z"
+}

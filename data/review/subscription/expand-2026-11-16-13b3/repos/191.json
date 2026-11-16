@@ -1,0 +1,111 @@
+{
+  "full_name": "StarryHui/dsh-custom-background",
+  "originalPosition": 191,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 191,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:28:13.793Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3a0abb491e9182e36b15ef119e1a697eecf6187fccf91669648ccccd1af849e1",
+      "url": "https://github.com/StarryHui/dsh-custom-background/blob/f20300f49ee95fef949c5d55e6a6bbd62c5d692d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@starryhui/dsh-background@latest",
+          "command": "dsh plugin --profile web add @starryhui/dsh-background@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@starryhui/dsh-background",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StarryHui/dsh-custom-background",
+        "commit": "f20300f49ee95fef949c5d55e6a6bbd62c5d692d"
+      },
+      "manifestSha256": "cfbfa139e3b7f36ada8632b3006f3130a3bf3a80c120c178a8579d845ab4e2be",
+      "manifestUrl": "https://github.com/StarryHui/dsh-custom-background/blob/f20300f49ee95fef949c5d55e6a6bbd62c5d692d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@starryhui/dsh-background",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787108893,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StarryHui/dsh-custom-background",
+              "commit": "f20300f49ee95fef949c5d55e6a6bbd62c5d692d"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@starryhui/dsh-background@latest",
+      "origin": "npm",
+      "name": "@starryhui/dsh-background",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@starryhui/dsh-background",
+        "title": "@starryhui/dsh-background",
+        "description": "自定义 DSH WebUI 背景：图库随机、自由拉伸裁切框、不透明度、高斯模糊、面板透明、多图交叉淡化轮播。",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787105222,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d3d6ec6201d57540c666d8c5f4b7c2553c92fafb3dfb48d8f3bf080990183707",
+      "evidence": [
+        {
+          "name": "@starryhui/dsh-background",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/@starryhui/dsh-background/-/dsh-background-0.1.0.tgz",
+          "integrity": "sha512-Avmo58cYLKGpuf38ccse+3uzuh+4oChPjAl2EggTvbS+AdR0D5sxUXBu8ohNBt7uko4BMcoFnWQgyE3dDuRTvg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@starryhui/dsh-background@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/StarryHui/dsh-custom-background",
+    "commit": "f20300f49ee95fef949c5d55e6a6bbd62c5d692d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:28:22.788Z"
+}

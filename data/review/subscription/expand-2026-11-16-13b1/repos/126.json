@@ -1,0 +1,223 @@
+{
+  "full_name": "Zephinel/dsh-intelligent-ui",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:42.351Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "59843c186e8317ea31792eda9bdfc92e913932a58875644b30387e1225279ea8",
+      "url": "https://github.com/Zephinel/dsh-intelligent-ui/blob/793e8b14ea2038b5d6b01ef7378c4688da86a54f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zephinel/dsh-intelligent-ui",
+          "command": "dsh plugin --profile web add @zephinel/dsh-intelligent-ui",
+          "profile": "web"
+        },
+        {
+          "install": "@zephinel/dsh-intelligent-ui@0.6.1",
+          "command": "dsh plugin --profile web add @zephinel/dsh-intelligent-ui@0.6.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "50ff0cc84a898a1b27ccb40f5d905a2fffdb084970d886c9ba94453cc293bbe7",
+      "url": "https://github.com/Zephinel/dsh-intelligent-ui/blob/793e8b14ea2038b5d6b01ef7378c4688da86a54f/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zephinel/dsh-intelligent-ui",
+          "command": "dsh plugin --profile web add @zephinel/dsh-intelligent-ui",
+          "profile": "web"
+        },
+        {
+          "install": "@zephinel/dsh-intelligent-ui@0.6.1",
+          "command": "dsh plugin --profile web add @zephinel/dsh-intelligent-ui@0.6.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zephinel/dsh-intelligent-ui",
+      "version": "0.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Zephinel/dsh-intelligent-ui",
+        "commit": "793e8b14ea2038b5d6b01ef7378c4688da86a54f"
+      },
+      "manifestSha256": "c6e8b6decdb9c08678ecc894243c95d2da714a9903794db1fade34a7a8f018db",
+      "manifestUrl": "https://github.com/Zephinel/dsh-intelligent-ui/blob/793e8b14ea2038b5d6b01ef7378c4688da86a54f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@zephinel/dsh-intelligent-ui",
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1794740072,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Zephinel/dsh-intelligent-ui",
+              "commit": "793e8b14ea2038b5d6b01ef7378c4688da86a54f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@zephinel/dsh-intelligent-ui",
+      "origin": "npm",
+      "name": "@zephinel/dsh-intelligent-ui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@zephinel/dsh-intelligent-ui",
+        "title": {
+          "en": "Intelligent UI",
+          "zh": "智能 UI"
+        },
+        "description": {
+          "en": "Interactive answers for DeepSeek Harness: maps, charts, forms and articles, with custom visual templates and chat-native on-demand generation. Use temporary results immediately, adjust or save them later; manage templates and export images or interactive pages.",
+          "zh": "DeepSeek Harness 的交互式回答：地图、图表、表单与文章，支持自定义视觉模板和聊天内按需生成。临时结果可直接使用、调整或事后保存，并可管理模板、导出图片或交互页面。"
+        },
+        "author": "Zephinel",
+        "homepage": "https://github.com/Zephinel/dsh-intelligent-ui",
+        "repository": {
+          "url": "https://github.com/Zephinel/dsh-intelligent-ui"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "intelligent-ui",
+            "generative-ui",
+            "openui",
+            "openui-lang",
+            "agent-ui"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlplcGhpbmVsIj4KICA8c3R5bGU+CiAgICAudGlsZSB7IGZpbGw6ICNmNGY3ZmI7IH0KICAgIC5lZGdlIHsgc3Ryb2tlOiAjZDZlMGVjOyB9CiAgICAuc3BhcmsgeyBmaWxsOiAjMTExYTI2OyB9CiAgICAubGluZS1vbmUgeyBmaWxsOiAjMTExYTI2OyBmaWxsLW9wYWNpdHk6IDAuODI7IH0KICAgIC5saW5lLXR3byB7IGZpbGw6ICMxMTFhMjY7IGZpbGwtb3BhY2l0eTogMC4zODsgfQogICAgQG1lZGlhIChwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykgewogICAgICAudGlsZSB7IGZpbGw6ICMxMDE2MjI7IH0KICAgICAgLmVkZ2UgeyBzdHJva2U6ICNmZmZmZmY7IHN0cm9rZS1vcGFjaXR5OiAwLjEyOyB9CiAgICAgIC5zcGFyayB7IGZpbGw6ICNmZmZmZmY7IH0KICAgICAgLmxpbmUtb25lIHsgZmlsbDogI2ZmZmZmZjsgZmlsbC1vcGFjaXR5OiAwLjgyOyB9CiAgICAgIC5saW5lLXR3byB7IGZpbGw6ICNmZmZmZmY7IGZpbGwtb3BhY2l0eTogMC40OyB9CiAgICB9CiAgPC9zdHlsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYWNjZW50IiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMCI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzVhYTlmZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzOGQ2YTQiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJ0aWxlIiB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNiIvPgogIDxyZWN0IGNsYXNzPSJlZGdlIiB4PSIyLjc1IiB5PSIyLjc1IiB3aWR0aD0iNTguNSIgaGVpZ2h0PSI1OC41IiByeD0iMTUuMjUiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPHBhdGggY2xhc3M9InNwYXJrIiBkPSJNMjYgMTUuNWMwIDUuOSAzLjYgOS41IDkuNSA5LjUtNS45IDAtOS41IDMuNi05LjUgOS41IDAtNS45LTMuNi05LjUtOS41LTkuNSA1LjkgMCA5LjUtMy42IDkuNS05LjVaIi8+CiAgPHBhdGggZD0iTTQzLjUgMjRjMCAzLjYgMi4yIDUuOCA1LjggNS44LTMuNiAwLTUuOCAyLjItNS44IDUuOCAwLTMuNi0yLjItNS44LTUuOC01LjggMy42IDAgNS44LTIuMiA1LjgtNS44WiIgZmlsbD0idXJsKCNhY2NlbnQpIi8+CiAgPHJlY3QgY2xhc3M9ImxpbmUtb25lIiB4PSIxNSIgeT0iNDAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIzLjQiIHJ4PSIxLjciLz4KICA8cmVjdCBjbGFzcz0ibGluZS10d28iIHg9IjE1IiB5PSI0Ni40IiB3aWR0aD0iMTUiIGhlaWdodD0iMy40IiByeD0iMS43Ii8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1794669892,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ab5c9beb67243f05bf209e986e3907a7debc877e806ad42284b7677124fe34e1",
+      "evidence": [
+        {
+          "name": "@zephinel/dsh-intelligent-ui",
+          "version": "0.6.1",
+          "tarball": "https://registry.npmjs.org/@zephinel/dsh-intelligent-ui/-/dsh-intelligent-ui-0.6.1.tgz",
+          "integrity": "sha512-+jNy3OvZuexLbTzRvGZ0/wpiQpNHHRsdgs4AmDGA0jsJJrZg6GDj23U4I+yzdrCZiGghTUtsd78gv8IlecYHww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@zephinel/dsh-intelligent-ui@0.6.1",
+      "origin": "npm",
+      "name": "@zephinel/dsh-intelligent-ui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@zephinel/dsh-intelligent-ui",
+        "title": {
+          "en": "Intelligent UI",
+          "zh": "智能 UI"
+        },
+        "description": {
+          "en": "Interactive answers for DeepSeek Harness: maps, charts, forms and articles, with custom visual templates and chat-native on-demand generation. Use temporary results immediately, adjust or save them later; manage templates and export images or interactive pages.",
+          "zh": "DeepSeek Harness 的交互式回答：地图、图表、表单与文章，支持自定义视觉模板和聊天内按需生成。临时结果可直接使用、调整或事后保存，并可管理模板、导出图片或交互页面。"
+        },
+        "author": "Zephinel",
+        "homepage": "https://github.com/Zephinel/dsh-intelligent-ui",
+        "repository": {
+          "url": "https://github.com/Zephinel/dsh-intelligent-ui"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "intelligent-ui",
+            "generative-ui",
+            "openui",
+            "openui-lang",
+            "agent-ui"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlplcGhpbmVsIj4KICA8c3R5bGU+CiAgICAudGlsZSB7IGZpbGw6ICNmNGY3ZmI7IH0KICAgIC5lZGdlIHsgc3Ryb2tlOiAjZDZlMGVjOyB9CiAgICAuc3BhcmsgeyBmaWxsOiAjMTExYTI2OyB9CiAgICAubGluZS1vbmUgeyBmaWxsOiAjMTExYTI2OyBmaWxsLW9wYWNpdHk6IDAuODI7IH0KICAgIC5saW5lLXR3byB7IGZpbGw6ICMxMTFhMjY7IGZpbGwtb3BhY2l0eTogMC4zODsgfQogICAgQG1lZGlhIChwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykgewogICAgICAudGlsZSB7IGZpbGw6ICMxMDE2MjI7IH0KICAgICAgLmVkZ2UgeyBzdHJva2U6ICNmZmZmZmY7IHN0cm9rZS1vcGFjaXR5OiAwLjEyOyB9CiAgICAgIC5zcGFyayB7IGZpbGw6ICNmZmZmZmY7IH0KICAgICAgLmxpbmUtb25lIHsgZmlsbDogI2ZmZmZmZjsgZmlsbC1vcGFjaXR5OiAwLjgyOyB9CiAgICAgIC5saW5lLXR3byB7IGZpbGw6ICNmZmZmZmY7IGZpbGwtb3BhY2l0eTogMC40OyB9CiAgICB9CiAgPC9zdHlsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYWNjZW50IiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMCI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzVhYTlmZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzOGQ2YTQiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJ0aWxlIiB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNiIvPgogIDxyZWN0IGNsYXNzPSJlZGdlIiB4PSIyLjc1IiB5PSIyLjc1IiB3aWR0aD0iNTguNSIgaGVpZ2h0PSI1OC41IiByeD0iMTUuMjUiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPHBhdGggY2xhc3M9InNwYXJrIiBkPSJNMjYgMTUuNWMwIDUuOSAzLjYgOS41IDkuNSA5LjUtNS45IDAtOS41IDMuNi05LjUgOS41IDAtNS45LTMuNi05LjUtOS41LTkuNSA1LjkgMCA5LjUtMy42IDkuNS05LjVaIi8+CiAgPHBhdGggZD0iTTQzLjUgMjRjMCAzLjYgMi4yIDUuOCA1LjggNS44LTMuNiAwLTUuOCAyLjItNS44IDUuOCAwLTMuNi0yLjItNS44LTUuOC01LjggMy42IDAgNS44LTIuMiA1LjgtNS44WiIgZmlsbD0idXJsKCNhY2NlbnQpIi8+CiAgPHJlY3QgY2xhc3M9ImxpbmUtb25lIiB4PSIxNSIgeT0iNDAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIzLjQiIHJ4PSIxLjciLz4KICA8cmVjdCBjbGFzcz0ibGluZS10d28iIHg9IjE1IiB5PSI0Ni40IiB3aWR0aD0iMTUiIGhlaWdodD0iMy40IiByeD0iMS43Ii8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1794669892,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ab5c9beb67243f05bf209e986e3907a7debc877e806ad42284b7677124fe34e1",
+      "evidence": [
+        {
+          "name": "@zephinel/dsh-intelligent-ui",
+          "version": "0.6.1",
+          "tarball": "https://registry.npmjs.org/@zephinel/dsh-intelligent-ui/-/dsh-intelligent-ui-0.6.1.tgz",
+          "integrity": "sha512-+jNy3OvZuexLbTzRvGZ0/wpiQpNHHRsdgs4AmDGA0jsJJrZg6GDj23U4I+yzdrCZiGghTUtsd78gv8IlecYHww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@zephinel/dsh-intelligent-ui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@zephinel/dsh-intelligent-ui@0.6.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zephinel/dsh-intelligent-ui",
+    "commit": "793e8b14ea2038b5d6b01ef7378c4688da86a54f",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:25.297Z"
+}

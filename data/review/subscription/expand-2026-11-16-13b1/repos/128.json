@@ -1,0 +1,141 @@
+{
+  "full_name": "better-er/dsh-live-token-stats",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:45.378Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e225a41bda6468a132735a000130f7f3080a0090ef34ff5341935b39a7833478",
+      "url": "https://github.com/better-er/dsh-live-token-stats/blob/6b517610be1db9688e03cb8e9f94e2e0da60f4b6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/better-er/dsh-live-token-stats",
+          "command": "dsh plugin --profile web add github:better-er/dsh-live-token-stats",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-live-token-stats",
+          "command": "dsh plugin --profile web add dsh-live-token-stats",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-live-token-stats",
+      "version": "0.4.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/better-er/dsh-live-token-stats",
+        "commit": "6b517610be1db9688e03cb8e9f94e2e0da60f4b6"
+      },
+      "manifestSha256": "e6b040aa1a73520c7e77464377a9964c35d0fb91d9d286d14e0133bf2bf76b86",
+      "manifestUrl": "https://github.com/better-er/dsh-live-token-stats/blob/6b517610be1db9688e03cb8e9f94e2e0da60f4b6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-live-token-stats",
+        "versions": [
+          {
+            "version": "0.4.8",
+            "publishTimestamp": 1793887382,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/better-er/dsh-live-token-stats",
+              "commit": "6b517610be1db9688e03cb8e9f94e2e0da60f4b6"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-live-token-stats",
+      "origin": "npm",
+      "name": "dsh-live-token-stats",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-live-token-stats",
+        "title": "dsh-live-token-stats",
+        "description": "「DSH·实时 Token 统计·溺水检测」：基于 DeepSeek 官方 BPE 分词表，在 composer 下方实时渲染 token 状态带，显示流式 TPS、输出 token 与首字延迟，并对比上次 step 的估算与实际偏差；纯插件自包含，不改 DSH 源码",
+        "repository": {
+          "url": "https://github.com/better-er/dsh-live-token-stats"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "token",
+            "stats",
+            "tps",
+            "bpe"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.8",
+            "publishTimestamp": 1792948332,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ac73bb7de9e715001a1bad9e6f9b69d0613f5465c67b9900da85b7a9d13506f6",
+      "evidence": [
+        {
+          "name": "dsh-live-token-stats",
+          "version": "0.4.8",
+          "tarball": "https://registry.npmjs.org/dsh-live-token-stats/-/dsh-live-token-stats-0.4.8.tgz",
+          "integrity": "sha512-Sl1hGgK4oEzDGYIAa4TXvcjEfDgKcbAXlpeuqtQVyDjt/PTEHRKNI8tzItLfQ8pVnLETR5IrxBcy/67CB6XswA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/better-er/dsh-live-token-stats",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-live-token-stats",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/better-er/dsh-live-token-stats",
+    "commit": "6b517610be1db9688e03cb8e9f94e2e0da60f4b6",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:59.907Z"
+}

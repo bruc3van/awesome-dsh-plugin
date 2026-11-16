@@ -1,0 +1,74 @@
+{
+  "full_name": "CroissanTTs/dsh-harness-jarvis",
+  "originalPosition": 154,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 154,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:30.840Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5dd823c0df36652d1c24a69956b5cea03b96b24260f201318a763a58975ea0a2",
+      "url": "https://github.com/CroissanTTs/dsh-harness-jarvis/blob/759d44a5a1f479a0045bcdbebb29cca88a891d46/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "1c825dda0f5b0653f077c047a98733fa53f7703982822b62313279e21e120ab5",
+      "url": "https://github.com/CroissanTTs/dsh-harness-jarvis/blob/759d44a5a1f479a0045bcdbebb29cca88a891d46/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-harness-jarvis",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CroissanTTs/dsh-harness-jarvis",
+        "commit": "759d44a5a1f479a0045bcdbebb29cca88a891d46"
+      },
+      "manifestSha256": "6604153d554d0141202d1ac64991cb2c04f87f7b0deb50ceb320f92ca17d2937",
+      "manifestUrl": "https://github.com/CroissanTTs/dsh-harness-jarvis/blob/759d44a5a1f479a0045bcdbebb29cca88a891d46/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-harness-jarvis",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1790317636,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CroissanTTs/dsh-harness-jarvis",
+              "commit": "759d44a5a1f479a0045bcdbebb29cca88a891d46"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CroissanTTs/dsh-harness-jarvis",
+    "commit": "759d44a5a1f479a0045bcdbebb29cca88a891d46",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:40.591Z"
+}

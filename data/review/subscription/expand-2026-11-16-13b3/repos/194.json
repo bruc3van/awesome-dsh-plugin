@@ -1,0 +1,218 @@
+{
+  "full_name": "Wine-Red/dsh-codex-timeline",
+  "originalPosition": 194,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 194,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:28:21.105Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "922a50af4ee60753a7146ffc413bd5d9e94b92a7212e3da6ab94fb84646f3891",
+      "url": "https://github.com/Wine-Red/dsh-codex-timeline/blob/71343f97437fd3b7f1c80f91bfdb589b9c2136fe/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-timeline@0.5.5",
+          "command": "dsh plugin --profile web add \"dsh-codex-timeline@0.5.5\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-codex-timeline@0.6.4",
+          "command": "dsh plugin --profile web add dsh-codex-timeline@0.6.4",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "2425db1e094dfa5b0b87c9de65a075842ffedcb88761c66561dd06bdcab99d59",
+      "url": "https://github.com/Wine-Red/dsh-codex-timeline/blob/71343f97437fd3b7f1c80f91bfdb589b9c2136fe/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-timeline@0.5.5",
+          "command": "dsh plugin --profile web add \"dsh-codex-timeline@0.5.5\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-codex-timeline@0.6.4",
+          "command": "dsh plugin --profile web add dsh-codex-timeline@0.6.4",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-timeline",
+      "version": "0.6.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Wine-Red/dsh-codex-timeline",
+        "commit": "71343f97437fd3b7f1c80f91bfdb589b9c2136fe"
+      },
+      "manifestSha256": "58d98dca660ebb45b75e33deaca4a07f6e707d4e44f705fb665ff400f159b65a",
+      "manifestUrl": "https://github.com/Wine-Red/dsh-codex-timeline/blob/71343f97437fd3b7f1c80f91bfdb589b9c2136fe/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-codex-timeline",
+        "versions": [
+          {
+            "version": "0.6.4",
+            "publishTimestamp": 1790629668,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Wine-Red/dsh-codex-timeline",
+              "commit": "71343f97437fd3b7f1c80f91bfdb589b9c2136fe"
+            },
+            "engines": {
+              "dsh": "0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-codex-timeline@0.5.5",
+      "origin": "npm",
+      "name": "dsh-codex-timeline",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-codex-timeline",
+        "title": "dsh-codex-timeline",
+        "description": "Codex-style turn timeline and local conversation search for DeepSeek Harness Web",
+        "homepage": "https://github.com/Wine-Red/dsh-codex-timeline#readme",
+        "repository": {
+          "url": "https://github.com/Wine-Red/dsh-codex-timeline"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "conversation",
+            "timeline",
+            "navigation",
+            "search",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.5",
+            "publishTimestamp": 1787901736,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d24075d80bc793d3ef75247a4da5724b377cb4f3ad28506742f16f6871a0ffa0",
+      "evidence": [
+        {
+          "name": "dsh-codex-timeline",
+          "version": "0.5.5",
+          "tarball": "https://registry.npmjs.org/dsh-codex-timeline/-/dsh-codex-timeline-0.5.5.tgz",
+          "integrity": "sha512-pzaMvfgIWVDUcn4SIme+FI98oxP2KssJbCUhvhO6TeC2zvhIa7g+j7K8SNKDaUrT4atEl1Pp/Eq/al1hHhHruw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "dsh-codex-timeline@0.6.4",
+      "origin": "npm",
+      "name": "dsh-codex-timeline",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-codex-timeline",
+        "title": "dsh-codex-timeline",
+        "description": "Search, favorites, branching, and personalization for the official DeepSeek Harness turn navigator",
+        "homepage": "https://github.com/Wine-Red/dsh-codex-timeline#readme",
+        "repository": {
+          "url": "https://github.com/Wine-Red/dsh-codex-timeline"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "conversation",
+            "timeline",
+            "navigation",
+            "search",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.4",
+            "publishTimestamp": 1790629835,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d24075d80bc793d3ef75247a4da5724b377cb4f3ad28506742f16f6871a0ffa0",
+      "evidence": [
+        {
+          "name": "dsh-codex-timeline",
+          "version": "0.6.4",
+          "tarball": "https://registry.npmjs.org/dsh-codex-timeline/-/dsh-codex-timeline-0.6.4.tgz",
+          "integrity": "sha512-RpUJ6brE1QBiYjVa4CG61V8NuAE2fMYiX+aLBG1rOuMCydBttu3q2TY+Q859NihfEBlUn2Dv0yfi06aL2hNDWg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-codex-timeline@0.5.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-codex-timeline@0.6.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Wine-Red/dsh-codex-timeline",
+    "commit": "71343f97437fd3b7f1c80f91bfdb589b9c2136fe",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:28:33.286Z"
+}

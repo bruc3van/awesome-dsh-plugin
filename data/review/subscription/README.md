@@ -11,7 +11,9 @@
 
 每批 200；固定输入、逐仓库证据、人工分发判断和映射修正均可追溯。来源取证不等于安装测试或安全认证。
 
-## 自动补映射（凑满 2000）
+## 自动补映射（凑满 2000）——持续扩容
+
+`scripts/host-market/expand-mappings.mjs` 与工作流 `expand-subscription-mappings.yml` 在订阅索引不足 2000 时**每 3 小时自动运行一次，每次连跑 3 批**（每批 200 仓、独立证据目录 `expand-<日期>-<时分>b<批号>`）；同一天的终局结论（无可安装证据 / 仅手动安装 / 旧版声明 / 模板占位）会被记住，后续批次直接跳过这些仓库深挖新仓，达标后由 `need` 门限自动停止扩容。
 
 `scripts/host-market/expand-mappings.mjs` 与工作流 `expand-subscription-mappings.yml` 在订阅索引不足 2000 时：
 

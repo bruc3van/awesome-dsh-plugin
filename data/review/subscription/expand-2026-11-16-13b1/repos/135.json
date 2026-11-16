@@ -1,0 +1,124 @@
+{
+  "full_name": "d3vmeh/dsh-fetch-timeouts",
+  "originalPosition": 135,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 135,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:11.677Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d577957a3407e650b39fd76e567173b64cf33f090fba26bdc5021a47dcf095f1",
+      "url": "https://github.com/d3vmeh/dsh-fetch-timeouts/blob/2b4e09b350e93bb2b61d0c4a25f5bb5bbaa60a68/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-fetch-timeouts",
+          "command": "dsh plugin --profile web add dsh-fetch-timeouts",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fetch-timeouts",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/d3vmeh/dsh-fetch-timeouts",
+        "commit": "2b4e09b350e93bb2b61d0c4a25f5bb5bbaa60a68"
+      },
+      "manifestSha256": "9c83d162d511dd7cc810b3bfa0dc60f9aacca3e6a730d76f3d24b0ee174cdd12",
+      "manifestUrl": "https://github.com/d3vmeh/dsh-fetch-timeouts/blob/2b4e09b350e93bb2b61d0c4a25f5bb5bbaa60a68/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-fetch-timeouts",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1791096309,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/d3vmeh/dsh-fetch-timeouts",
+              "commit": "2b4e09b350e93bb2b61d0c4a25f5bb5bbaa60a68"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-fetch-timeouts",
+      "origin": "npm",
+      "name": "dsh-fetch-timeouts",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-fetch-timeouts",
+        "title": "dsh-fetch-timeouts",
+        "description": "Raise Node's HTTP timeouts for the whole DeepSeek Harness process so slow local models are not cut off at 5 minutes",
+        "repository": {
+          "url": "https://github.com/d3vmeh/dsh-fetch-timeouts"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "ollama",
+            "undici",
+            "timeout"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788101245,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2f7653e5b6dccb20534a706a825b674e5aa4405b42d92bf67efdd42692c45690",
+      "evidence": [
+        {
+          "name": "dsh-fetch-timeouts",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-fetch-timeouts/-/dsh-fetch-timeouts-0.1.0.tgz",
+          "integrity": "sha512-msRCpFz2lCUuCHji//kLZmMRJ0LiaZAy8AKx5U49tUPygGflBxaq6tssbdmYsFlefh8ZI25uVqx7xtLXuoVxGQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-fetch-timeouts",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/d3vmeh/dsh-fetch-timeouts",
+    "commit": "2b4e09b350e93bb2b61d0c4a25f5bb5bbaa60a68",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:20.425Z"
+}

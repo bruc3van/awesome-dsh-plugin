@@ -1,0 +1,69 @@
+{
+  "full_name": "tianyaojiudi-prog/dsh-djy-xttsc",
+  "originalPosition": 123,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 123,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:34.379Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6d2a3472689121a8eb2724df93bf6098c58bbf89227c5295a139383baa6fcb7b",
+      "url": "https://github.com/tianyaojiudi-prog/dsh-djy-xttsc/blob/0b94db01b8edfd73b71a279f45bd25d80ab0e06a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-djy-xttsc",
+      "version": "1.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tianyaojiudi-prog/dsh-djy-xttsc",
+        "commit": "0b94db01b8edfd73b71a279f45bd25d80ab0e06a"
+      },
+      "manifestSha256": "c434489e033d7a71e7986ed284321145a5e1d815749d4d5f24835b92f2fbee0a",
+      "manifestUrl": "https://github.com/tianyaojiudi-prog/dsh-djy-xttsc/blob/0b94db01b8edfd73b71a279f45bd25d80ab0e06a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-djy-xttsc",
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1791132997,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tianyaojiudi-prog/dsh-djy-xttsc",
+              "commit": "0b94db01b8edfd73b71a279f45bd25d80ab0e06a"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tianyaojiudi-prog/dsh-djy-xttsc",
+    "commit": "0b94db01b8edfd73b71a279f45bd25d80ab0e06a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:42.216Z"
+}

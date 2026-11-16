@@ -1,0 +1,128 @@
+{
+  "full_name": "paicat1/dsh-screenshot",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:44.306Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fffa2d2cc6176eaa886d995ac7357cdfa4e11b82fde5fa3cccdce25d15ad3663",
+      "url": "https://github.com/paicat1/dsh-screenshot/blob/cfc83f68dd5892fbe77dce2e29d6dfec4836ab28/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@paicat1/dsh-screenshot",
+          "command": "dsh plugin --profile web add @paicat1/dsh-screenshot",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b6729d72e13a4e66461a6db2bc7ee161cd0e32d1848cd5ee76c0a1a202b9aa76",
+      "url": "https://github.com/paicat1/dsh-screenshot/blob/cfc83f68dd5892fbe77dce2e29d6dfec4836ab28/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@paicat1/dsh-screenshot",
+          "command": "dsh plugin --profile web add @paicat1/dsh-screenshot",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@paicat1/dsh-screenshot",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/paicat1/dsh-screenshot",
+        "commit": "cfc83f68dd5892fbe77dce2e29d6dfec4836ab28"
+      },
+      "manifestSha256": "47452d49624b7ae55f7eed1a5c8b11a2df446fd5ed5c3855a89470122b9a2741",
+      "manifestUrl": "https://github.com/paicat1/dsh-screenshot/blob/cfc83f68dd5892fbe77dce2e29d6dfec4836ab28/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@paicat1/dsh-screenshot",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1788876490,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/paicat1/dsh-screenshot",
+              "commit": "cfc83f68dd5892fbe77dce2e29d6dfec4836ab28"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@paicat1/dsh-screenshot",
+      "origin": "npm",
+      "name": "@paicat1/dsh-screenshot",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@paicat1/dsh-screenshot",
+        "title": "@paicat1/dsh-screenshot",
+        "description": "Standalone screen capture for DeepSeek Harness (dsh): browser hotkeys plus an agent-facing capture+read tool. Forked out of @liustack/modlens#48 (upstream declined the feature).",
+        "repository": {
+          "url": "https://github.com/paicat1/dsh-screenshot"
+        },
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1788876757,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8d3419a44b80ed643886ae6ba75245badea4e2b4464c94fdab8ca12484e2af7f",
+      "evidence": [
+        {
+          "name": "@paicat1/dsh-screenshot",
+          "version": "1.2.0",
+          "tarball": "https://registry.npmjs.org/@paicat1/dsh-screenshot/-/dsh-screenshot-1.2.0.tgz",
+          "integrity": "sha512-OAJVpLZPzhCfNmGazz+zchUbDVNcbtjfn2GV3E05RakwaWv29JC7hhIIM6XxJnd0+dcqcwnpyFVT//etwDTiPw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@paicat1/dsh-screenshot",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/paicat1/dsh-screenshot",
+    "commit": "cfc83f68dd5892fbe77dce2e29d6dfec4836ab28",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:13.872Z"
+}

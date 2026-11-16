@@ -1,0 +1,154 @@
+{
+  "full_name": "54xkeee/dsh-vision",
+  "originalPosition": 141,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 141,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:09.484Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "26742ac29605e0f418142ded9e623f4eb2bb56797a1dbfe50f6b3209bce466ec",
+      "url": "https://github.com/54xkeee/dsh-vision/blob/f8b26198aff85bc72c3bb12a2e843ebec68c04d1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-vision-web",
+          "command": "dsh plugin --profile web add dsh-vision-web",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "2e436fd308664d6cb5942b3bcd3701cf2cee12a79c2b7204384cb090e34b1c30",
+      "url": "https://github.com/54xkeee/dsh-vision/blob/f8b26198aff85bc72c3bb12a2e843ebec68c04d1/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-vision-web",
+          "command": "dsh plugin --profile web add dsh-vision-web",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vision-web",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/54xkeee/dsh-vision",
+        "commit": "f8b26198aff85bc72c3bb12a2e843ebec68c04d1"
+      },
+      "manifestSha256": "3cdcb1cc060cacc39dfc8ea768510cb83dda519b478de143cbd738fb1542a71e",
+      "manifestUrl": "https://github.com/54xkeee/dsh-vision/blob/f8b26198aff85bc72c3bb12a2e843ebec68c04d1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-vision-web",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786864121,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/54xkeee/dsh-vision",
+              "commit": "f8b26198aff85bc72c3bb12a2e843ebec68c04d1"
+            },
+            "engines": {
+              "dsh": ">=0.1.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-vision-web",
+      "origin": "npm",
+      "name": "dsh-vision-web",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-vision-web",
+        "title": "dsh-vision-web",
+        "description": "Eyes for text-only DeepSeek on DeepSeek Harness: image understanding via Doubao Web by default (zero cost, no API key), Antigravity IDE quota (flash/pro), Gemini API, or Cockpit proxy — model-invokable vision tool, wrapper adapters, evidence memory, and a bilingual client panel.",
+        "homepage": "https://github.com/54xkeee/dsh-vision",
+        "repository": {
+          "url": "https://github.com/54xkeee/dsh-vision"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "deepseek-harness",
+            "plugin",
+            "vision",
+            "image",
+            "image-understanding",
+            "image-recognition",
+            "multimodal",
+            "ocr",
+            "vlm",
+            "doubao",
+            "gemini",
+            "antigravity"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786861315,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a3050e07eb427403d95f900583626579725f82084f49d6c3df82baae0cf6b6a8",
+      "evidence": [
+        {
+          "name": "dsh-vision-web",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-vision-web/-/dsh-vision-web-0.1.0.tgz",
+          "integrity": "sha512-twfM5JSd09CgEEE1GqaYvCxud6/R9jQy+qDJXV/lR0pN9vinKrM4shRHzkYk7PahUbHzlE95H2T3sIWPwdaYLA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-vision-web",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/54xkeee/dsh-vision",
+    "commit": "f8b26198aff85bc72c3bb12a2e843ebec68c04d1",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:22.291Z"
+}

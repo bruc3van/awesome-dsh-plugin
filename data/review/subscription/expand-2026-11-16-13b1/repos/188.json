@@ -1,0 +1,136 @@
+{
+  "full_name": "OMSociety/dsh-ssh-tunnel",
+  "originalPosition": 188,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:44.325Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1866c1ef847d3c3f2ddbde5ab6a67979066bf393d5673616aa70085581332075",
+      "url": "https://github.com/OMSociety/dsh-ssh-tunnel/blob/41bacf4077005a874ee798bda689bd06168a9b8e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ssh-tunnel",
+          "command": "dsh plugin --profile <profile> add \"dsh-ssh-tunnel\"",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ssh-tunnel",
+      "version": "1.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/OMSociety/dsh-ssh-tunnel",
+        "commit": "41bacf4077005a874ee798bda689bd06168a9b8e"
+      },
+      "manifestSha256": "5cf2a16bd35516bf86e34644fa49bc03a87ede105810f5bc0ce08dba17c9bf58",
+      "manifestUrl": "https://github.com/OMSociety/dsh-ssh-tunnel/blob/41bacf4077005a874ee798bda689bd06168a9b8e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ssh-tunnel",
+        "versions": [
+          {
+            "version": "1.2.3",
+            "publishTimestamp": 1794816693,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/OMSociety/dsh-ssh-tunnel",
+              "commit": "41bacf4077005a874ee798bda689bd06168a9b8e"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ssh-tunnel",
+      "origin": "npm",
+      "name": "dsh-ssh-tunnel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ssh-tunnel",
+        "title": {
+          "en": "SSH Tunnel",
+          "zh": "SSH 隧道"
+        },
+        "description": {
+          "en": "A multi-host SSH bench: host library, per-project grants, and a terminal with dual-pane SFTP in the right sidebar.",
+          "zh": "多机 SSH 工作台：主机库、按项目授权，右侧栏里的终端与双栏 SFTP。"
+        },
+        "author": "thirsty5034",
+        "homepage": "https://github.com/OMSociety/dsh-ssh-tunnel#readme",
+        "repository": {
+          "url": "https://github.com/OMSociety/dsh-ssh-tunnel"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "ssh",
+            "sftp",
+            "cordis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic3NoX3YyXzNfaG9zdCIgeDE9IjE4IiB5MT0iNiIgeDI9IjE4IiB5Mj0iMzAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzRFNkVGMiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNDM0QjgiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InNzaF92Ml8zX2Zsb3ciIHgxPSIxNCIgeTE9IjE4IiB4Mj0iMjIiIHkyPSIxOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNUNFMUU2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzM4RTI5OCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPCEtLSDlt6bmnI3liqHlmajoioLngrkgLS0+CiAgPHJlY3QgeD0iNyIgeT0iMTAiIHdpZHRoPSI3IiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0idXJsKCNzc2hfdjJfM19ob3N0KSIvPgogIDxjaXJjbGUgY3g9IjEwLjUiIGN5PSIxNCIgcj0iMSIgZmlsbD0iIzVDRTFFNiIvPgogIDxjaXJjbGUgY3g9IjEwLjUiIGN5PSIxOCIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIgZmlsbC1vcGFjaXR5PSIwLjgiLz4KICA8IS0tIOWPs+acjeWKoeWZqOiKgueCuSAtLT4KICA8cmVjdCB4PSIyMiIgeT0iMTAiIHdpZHRoPSI3IiBoZWlnaHQ9IjE2IiByeD0iMiIgZmlsbD0idXJsKCNzc2hfdjJfM19ob3N0KSIvPgogIDxjaXJjbGUgY3g9IjI1LjUiIGN5PSIxNCIgcj0iMSIgZmlsbD0iIzVDRTFFNiIvPgogIDxjaXJjbGUgY3g9IjI1LjUiIGN5PSIxOCIgcj0iMSIgZmlsbD0iI0ZGRkZGRiIgZmlsbC1vcGFjaXR5PSIwLjgiLz4KICA8IS0tIOS4remXtOeri+S9k+WFiee6pOWKoOWvhueuoemBk+i/nue6vyAtLT4KICA8cGF0aCBkPSJNMTQgMTUuNUgyMiIgc3Ryb2tlPSJ1cmwoI3NzaF92Ml8zX2Zsb3cpIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTE0IDIwLjVIMjIiIHN0cm9rZT0idXJsKCNzc2hfdjJfM19mbG93KSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwhLS0g6ISJ5Yay6IqC54K5IC0tPgogIDxjaXJjbGUgY3g9IjE4IiBjeT0iMTUuNSIgcj0iMS4zIiBmaWxsPSIjRkZGRkZGIi8+CiAgPGNpcmNsZSBjeD0iMTgiIGN5PSIyMC41IiByPSIxLjMiIGZpbGw9IiNGRkZGRkYiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "1.2.3",
+            "publishTimestamp": 1793550051,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "437965847f38638e8b304dbf11bb51ef3e2fa34a5267ebe4d3ecd580bd6acda3",
+      "evidence": [
+        {
+          "name": "dsh-ssh-tunnel",
+          "version": "1.2.3",
+          "tarball": "https://registry.npmjs.org/dsh-ssh-tunnel/-/dsh-ssh-tunnel-1.2.3.tgz",
+          "integrity": "sha512-QoHVUVbz7prlkGD+2EfE4M2T66pZP+TkyL0G/G+Fd6bJ7p5XcIcp6MS9QFwpcoK5ypNO3wLTZpl6ctvwWSYpqg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ssh-tunnel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/OMSociety/dsh-ssh-tunnel",
+    "commit": "41bacf4077005a874ee798bda689bd06168a9b8e",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:52.817Z"
+}

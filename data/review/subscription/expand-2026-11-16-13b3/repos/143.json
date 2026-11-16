@@ -1,0 +1,66 @@
+{
+  "full_name": "Aegink/dsh-channel-qq",
+  "originalPosition": 143,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 143,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:11.208Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4a3fe6037265f7f0b296b02a888529233783d2b7520eb2ce1eea9bb0d87c9ea0",
+      "url": "https://github.com/Aegink/dsh-channel-qq/blob/942663ec69f299163d1d23af405e44a1abd92261/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-channel-qq",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Aegink/dsh-channel-qq",
+        "commit": "942663ec69f299163d1d23af405e44a1abd92261"
+      },
+      "manifestSha256": "781da0199beae90d26dab0b158ba21563fb0145886bedd040de4f43798f5d2a6",
+      "manifestUrl": "https://github.com/Aegink/dsh-channel-qq/blob/942663ec69f299163d1d23af405e44a1abd92261/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-channel-qq",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793454478,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Aegink/dsh-channel-qq",
+              "commit": "942663ec69f299163d1d23af405e44a1abd92261"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Aegink/dsh-channel-qq",
+    "commit": "942663ec69f299163d1d23af405e44a1abd92261",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:20.895Z"
+}

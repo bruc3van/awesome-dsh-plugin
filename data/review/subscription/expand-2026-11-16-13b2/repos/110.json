@@ -1,0 +1,164 @@
+{
+  "full_name": "huanlin-labs/dsh-isolation-gate",
+  "originalPosition": 110,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 110,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:11.980Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ed6f50d559ebd9621e1ea5746119243f22a9515f04dbbf76faaae57c3e880d03",
+      "url": "https://github.com/huanlin-labs/dsh-isolation-gate/blob/ba69af9a3626952436821d092e7444d48375d7bb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-isolation-gate",
+          "command": "dsh plugin --profile desktop add dsh-isolation-gate",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6a2ab5e6ab54c7b3f611fdff51ef23864b345f4569c5186a610c450869474db7",
+      "url": "https://github.com/huanlin-labs/dsh-isolation-gate/blob/ba69af9a3626952436821d092e7444d48375d7bb/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-isolation-gate",
+          "command": "dsh plugin --profile desktop add dsh-isolation-gate",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-isolation-gate",
+      "version": "1.13.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/huanlin-labs/dsh-isolation-gate",
+        "commit": "ba69af9a3626952436821d092e7444d48375d7bb"
+      },
+      "manifestSha256": "e987f1dbc52171156b051df0d5d2761efd6be371d8a60b7348aaa6e6aa3a0a5c",
+      "manifestUrl": "https://github.com/huanlin-labs/dsh-isolation-gate/blob/ba69af9a3626952436821d092e7444d48375d7bb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-isolation-gate",
+        "versions": [
+          {
+            "version": "1.13.13",
+            "publishTimestamp": 1794799634,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/huanlin-labs/dsh-isolation-gate",
+              "commit": "ba69af9a3626952436821d092e7444d48375d7bb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-isolation-gate",
+      "origin": "npm",
+      "name": "dsh-isolation-gate",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-isolation-gate",
+        "title": {
+          "en": "Access Gate",
+          "zh": "门禁 · 目录访问管制"
+        },
+        "description": {
+          "en": "Access gate for directories: adds a '门禁' entry right below 'Skills' in the app-level nav row (official sidebar.panellist seat, order 6), diffs the managed roster (D:\\.agents\\门禁-名单.txt — one managed object per line: a top-level directory name under D:\\ or any absolute path) against the disk, toggles each object between three levels (deny / read / full), and persists the state to D:\\.agents\\门禁-授权.json for agents and tools to read. Paths match by longest path-segment prefix; a missing or corrupt roster makes the gate deny everything (fail-closed). Roster edits only land after the owner presses the button in the panel, and the file is backed up first.",
+          "zh": "门禁 · 目录访问管制：在导航排「技能」正下方加一个「门禁」入口（官方 sidebar.panellist 槽位，order 6），把受管名单（D:\\.agents\\门禁-名单.txt —— 一行一个受管对象，D 根一级目录【名字】或【任意绝对路径】）与磁盘比对并标出差异，逐个受管对象切换三级授权（禁 / 只读 / 可读写删），状态持久化到 D:\\.agents\\门禁-授权.json 供 agent / 工具侧读取；路径按「路径段最长前缀」命中，名单读不到时一律拒绝；名单增删只在界面里给出差异、由户主点击后落盘（改前先备份到回收站）。"
+        },
+        "homepage": "https://github.com/huanlin-labs/dsh-isolation-gate#readme",
+        "repository": {
+          "url": "https://github.com/huanlin-labs/dsh-isolation-gate"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "access-control",
+            "permissions",
+            "sandbox",
+            "isolation",
+            "security",
+            "audit-log",
+            "policy",
+            "tool-gating",
+            "ai-agent",
+            "dsh-bundle",
+            "coding-agent",
+            "agent-sandbox",
+            "guardrails",
+            "claude-code",
+            "zcode",
+            "opencode",
+            "pi-coding-agent",
+            "codex",
+            "cursor",
+            "mcp",
+            "harness"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.13.13",
+            "publishTimestamp": 1794799779,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c04c65d0cc5410b4766066e28b21285bdcd0707fa342c194471b2f60d499dd32",
+      "evidence": [
+        {
+          "name": "dsh-isolation-gate",
+          "version": "1.13.13",
+          "tarball": "https://registry.npmjs.org/dsh-isolation-gate/-/dsh-isolation-gate-1.13.13.tgz",
+          "integrity": "sha512-dKu4NJVN9Shd68vGX4osQCMXz8223vR2xltrXc1ttQZjixxmvVS3273ft9oTSPIl+0TTgf18WV0LKt7mVN8ecA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-isolation-gate",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/huanlin-labs/dsh-isolation-gate",
+    "commit": "ba69af9a3626952436821d092e7444d48375d7bb",
+    "releaseTags": 49,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:23.649Z"
+}

@@ -1,0 +1,146 @@
+{
+  "full_name": "log-li/dsh-automode",
+  "originalPosition": 121,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 121,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:41.796Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "85ba02f3f5d98a7af749493fa89581028b8b3401cb0afc4a17c4a3beb64cb1b9",
+      "url": "https://github.com/log-li/dsh-automode/blob/235f6b0a465c54123f2ad88ad4304a9ea3d12aef/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@log.li/dsh-automode",
+          "command": "dsh plugin add @log.li/dsh-automode",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "2c5c72f1749764360566b04c8b26a7ee9eb67cbfdc41dd59a7d2d2392bc44c5f",
+      "url": "https://github.com/log-li/dsh-automode/blob/235f6b0a465c54123f2ad88ad4304a9ea3d12aef/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@log.li/dsh-automode",
+          "command": "dsh plugin add @log.li/dsh-automode",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@log.li/dsh-automode",
+      "version": "0.18.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/log-li/dsh-automode",
+        "commit": "235f6b0a465c54123f2ad88ad4304a9ea3d12aef"
+      },
+      "manifestSha256": "8021caf1c93ce796a9ce422a75ce73a4b7f605cdfbb6383fd13110be56bb16f8",
+      "manifestUrl": "https://github.com/log-li/dsh-automode/blob/235f6b0a465c54123f2ad88ad4304a9ea3d12aef/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@log.li/dsh-automode",
+        "versions": [
+          {
+            "version": "0.18.0",
+            "publishTimestamp": 1793769064,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/log-li/dsh-automode",
+              "commit": "235f6b0a465c54123f2ad88ad4304a9ea3d12aef"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@log.li/dsh-automode",
+      "origin": "npm",
+      "name": "@log.li/dsh-automode",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@log.li/dsh-automode",
+        "title": "@log.li/dsh-automode",
+        "description": "CC-style auto mode for DeepSeek Harness: deterministic deny/allow rules + pre-execute gate + model-agnostic two-stage classifier. Two-state (allow/reject) classifier since 0.8.0. TypeScript rewrite merging dsh-auto-mode v0.4.1 with Nuo-cl/dsh-auto-mode native integration.",
+        "author": "Logan Lin",
+        "homepage": "https://github.com/log-li/dsh-automode#readme",
+        "repository": {
+          "url": "https://github.com/log-li/dsh-automode"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "auto-mode",
+            "approval",
+            "classifier",
+            "permissions"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.18.0",
+            "publishTimestamp": 1793767133,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4515f1648934c09107d8078daea6a5488ad3e4680f306668198b0ba724ab3011",
+      "evidence": [
+        {
+          "name": "@log.li/dsh-automode",
+          "version": "0.18.0",
+          "tarball": "https://registry.npmjs.org/@log.li/dsh-automode/-/dsh-automode-0.18.0.tgz",
+          "integrity": "sha512-9pVMLV7zVaga4+CWsvkIjvzxpWgW6gsVTS5Y+/npKsuUcvyxD4oAEWoTM4yHSIFlBkUgJ+6b8bXjFnItoN0QPA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@log.li/dsh-automode",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/log-li/dsh-automode",
+    "commit": "235f6b0a465c54123f2ad88ad4304a9ea3d12aef",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:54.998Z"
+}

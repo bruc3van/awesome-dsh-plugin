@@ -1,0 +1,162 @@
+{
+  "full_name": "x5427876/dsh-opencode-free",
+  "originalPosition": 130,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 130,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:47.515Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "73e111541600bb980d4eb6e6fc4947f2c9bca7a73cb1418d3e38be55b6a60618",
+      "url": "https://github.com/x5427876/dsh-opencode-free/blob/b47a6e865c5137b3fac9281f95eacf79aa758c7c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-opencode-free@0.6.0",
+          "command": "dsh plugin --profile web add dsh-opencode-free@0.6.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-TW.md",
+      "sha256": "852480910973f01865253b371b32469b8908558b673c8f8bdbe3f950ab9ea637",
+      "url": "https://github.com/x5427876/dsh-opencode-free/blob/b47a6e865c5137b3fac9281f95eacf79aa758c7c/README.zh-TW.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-opencode-free@0.6.0",
+          "command": "dsh plugin --profile web add dsh-opencode-free@0.6.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "4dd1d847926f4d2d34bd01e10a4fb06a08d250c23f8715c2f4a34651ba6678e5",
+      "url": "https://github.com/x5427876/dsh-opencode-free/blob/b47a6e865c5137b3fac9281f95eacf79aa758c7c/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.zh-TW.md",
+      "sha256": "cbd429ac49d0308b63189caacf25120b5230166890f9953405a7e44079fee511",
+      "url": "https://github.com/x5427876/dsh-opencode-free/blob/b47a6e865c5137b3fac9281f95eacf79aa758c7c/docs/README.zh-TW.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-opencode-free",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/x5427876/dsh-opencode-free",
+        "commit": "b47a6e865c5137b3fac9281f95eacf79aa758c7c"
+      },
+      "manifestSha256": "631b23e7c29363ba8d0270b6c0e02c24a0afb76d3e33821d489b695dc4dc374c",
+      "manifestUrl": "https://github.com/x5427876/dsh-opencode-free/blob/b47a6e865c5137b3fac9281f95eacf79aa758c7c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-opencode-free",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1794243915,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/x5427876/dsh-opencode-free",
+              "commit": "b47a6e865c5137b3fac9281f95eacf79aa758c7c"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-opencode-free@0.6.0",
+      "origin": "npm",
+      "name": "dsh-opencode-free",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-opencode-free",
+        "title": "dsh-opencode-free",
+        "description": "Free OpenCode Zen models in DeepSeek Harness through native HTTP requests. No OpenCode installation, login, API key, server, container, or LiteLLM is required.",
+        "homepage": "https://github.com/x5427876/dsh-opencode-free",
+        "repository": {
+          "url": "https://github.com/x5427876/dsh-opencode-free"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "opencode",
+            "zen",
+            "free"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1794244210,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c1ad6ff4efa2f134d80b50d6d1a34464c4bfdeff97b5c5799215ca4e29d1aff9",
+      "evidence": [
+        {
+          "name": "dsh-opencode-free",
+          "version": "0.6.0",
+          "tarball": "https://registry.npmjs.org/dsh-opencode-free/-/dsh-opencode-free-0.6.0.tgz",
+          "integrity": "sha512-l20oFokgSb1/Fq1tsqgVvksr6gmqfv41uqzGTE79McNsvHev9B4PUubzHpR+aRIzrz3qk0S+fKbq86X73y5vYQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-opencode-free@0.6.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/x5427876/dsh-opencode-free",
+    "commit": "b47a6e865c5137b3fac9281f95eacf79aa758c7c",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:02.218Z"
+}

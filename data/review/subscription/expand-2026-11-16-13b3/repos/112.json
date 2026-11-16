@@ -1,0 +1,66 @@
+{
+  "full_name": "peterwangze/dsh-novel-writing",
+  "originalPosition": 112,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 112,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:14.622Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "375cdb7b70dbbb2427de28201351d2b6a713fd7b3553db142fc4686135098ec8",
+      "url": "https://github.com/peterwangze/dsh-novel-writing/blob/ab96fdb55fb01cfd9711643eee50342c4db8ae3d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-novel-writing",
+      "version": "0.6.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/peterwangze/dsh-novel-writing",
+        "commit": "ab96fdb55fb01cfd9711643eee50342c4db8ae3d"
+      },
+      "manifestSha256": "7782535508c2620dbd3fd080d99a04ceaa2d5d005655c76b843ed84839ffff36",
+      "manifestUrl": "https://github.com/peterwangze/dsh-novel-writing/blob/ab96fdb55fb01cfd9711643eee50342c4db8ae3d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-novel-writing",
+        "versions": [
+          {
+            "version": "0.6.3",
+            "publishTimestamp": 1794295502,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/peterwangze/dsh-novel-writing",
+              "commit": "ab96fdb55fb01cfd9711643eee50342c4db8ae3d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/peterwangze/dsh-novel-writing",
+    "commit": "ab96fdb55fb01cfd9711643eee50342c4db8ae3d",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:23.715Z"
+}

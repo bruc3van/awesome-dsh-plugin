@@ -1,0 +1,157 @@
+{
+  "full_name": "yukk4159-bit/dsh-prompt-injector",
+  "originalPosition": 160,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 160,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:09:35.055Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8bb7bf81eb40b7bf1ef730a5d7c3e20805cf0f0d07f6dcb1f45925a8e9277c78",
+      "url": "https://github.com/yukk4159-bit/dsh-prompt-injector/blob/3799576069a0cf0feb94bcb8c37e4863f181a853/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yukk4159-bit/dsh-prompt-injector",
+          "command": "dsh plugin --profile web add \"github:yukk4159-bit/dsh-prompt-injector\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/yukk4159-bit/dsh-prompt-injector#main",
+          "command": "dsh plugin --profile web add \"github:yukk4159-bit/dsh-prompt-injector#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "d0567b32dc2575a7c79174b60d8afc918bbb9efa76ffc57204196daef9b1d1e0",
+      "url": "https://github.com/yukk4159-bit/dsh-prompt-injector/blob/3799576069a0cf0feb94bcb8c37e4863f181a853/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yukk4159-bit/dsh-prompt-injector",
+          "command": "dsh plugin --profile web add \"github:yukk4159-bit/dsh-prompt-injector\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/yukk4159-bit/dsh-prompt-injector#main",
+          "command": "dsh plugin --profile web add \"github:yukk4159-bit/dsh-prompt-injector#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-injector",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yukk4159-bit/dsh-prompt-injector",
+        "commit": "3799576069a0cf0feb94bcb8c37e4863f181a853"
+      },
+      "manifestSha256": "628138b0c638cf8dda37af38ecbe4723a2147be223a1c4fb7ec40317d0771441",
+      "manifestUrl": "https://github.com/yukk4159-bit/dsh-prompt-injector/blob/3799576069a0cf0feb94bcb8c37e4863f181a853/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-prompt-injector",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1791697953,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yukk4159-bit/dsh-prompt-injector",
+              "commit": "3799576069a0cf0feb94bcb8c37e4863f181a853"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/yukk4159-bit/dsh-prompt-injector#main",
+      "origin": "git_target",
+      "name": "dsh-prompt-injector",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-prompt-injector",
+        "title": "dsh-prompt-injector",
+        "description": "Inject a reusable prompt preset into the FRONT of your DeepSeek Harness message at send time — next message only or every turn, your choice. / DeepSeek Harness 提示词注入器：发送时把预设注入消息首部，可选只注入下一条或每轮都注入。",
+        "author": "yukk4159-bit",
+        "homepage": "https://github.com/yukk4159-bit/dsh-prompt-injector#readme",
+        "repository": {
+          "url": "https://github.com/yukk4159-bit/dsh-prompt-injector"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "dsh",
+            "cordis",
+            "prompt",
+            "preset",
+            "prompt-injector"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1791697953,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yukk4159-bit/dsh-prompt-injector",
+              "commit": "3799576069a0cf0feb94bcb8c37e4863f181a853"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "3799576069a0cf0feb94bcb8c37e4863f181a853",
+          "name": "dsh-prompt-injector",
+          "version": "1.0.0",
+          "url": "https://github.com/yukk4159-bit/dsh-prompt-injector",
+          "manifestSha256": "628138b0c638cf8dda37af38ecbe4723a2147be223a1c4fb7ec40317d0771441",
+          "publishTimestamp": 1791697953
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yukk4159-bit/dsh-prompt-injector",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yukk4159-bit/dsh-prompt-injector#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yukk4159-bit/dsh-prompt-injector",
+    "commit": "3799576069a0cf0feb94bcb8c37e4863f181a853",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:09:53.208Z"
+}

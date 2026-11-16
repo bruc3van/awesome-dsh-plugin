@@ -1,0 +1,166 @@
+{
+  "full_name": "LongerWu2026/dsh-dev-workbench",
+  "originalPosition": 181,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 181,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:29.690Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c5891f5187592adb659295c1b5299993bf82199e4e523b92571b51c05f4acbeb",
+      "url": "https://github.com/LongerWu2026/dsh-dev-workbench/blob/d7f3b3e551f13fa92f542eb95dcde63315b20c84/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-dev-workbench",
+          "command": "dsh plugin --profile desktop add dsh-dev-workbench",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/LongerWu2026/dsh-dev-workbench/releases/download/v0.4.10/dsh-dev-workbench-0.4.10.tgz",
+          "command": "dsh plugin --profile desktop add https://github.com/LongerWu2026/dsh-dev-workbench/releases/download/v0.4.10/dsh-dev-workbench-0.4.10.tgz",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "host-integration/rc5/README.md",
+      "sha256": "d4507d012d5b6d9732d2cdba1191b5d2cb2feb86ff2f7e381c13caf7e484b841",
+      "url": "https://github.com/LongerWu2026/dsh-dev-workbench/blob/d7f3b3e551f13fa92f542eb95dcde63315b20c84/host-integration/rc5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "src/README.md",
+      "sha256": "9dc2ef71c83d6b9d3fdb564eb3b67290eb545d5bb478ea3886c651946a15034f",
+      "url": "https://github.com/LongerWu2026/dsh-dev-workbench/blob/d7f3b3e551f13fa92f542eb95dcde63315b20c84/src/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-dev-workbench",
+      "version": "0.4.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LongerWu2026/dsh-dev-workbench",
+        "commit": "d7f3b3e551f13fa92f542eb95dcde63315b20c84"
+      },
+      "manifestSha256": "3b04e263135fc186031d76734c287654ba803653431cade4ab34a68b82dfd459",
+      "manifestUrl": "https://github.com/LongerWu2026/dsh-dev-workbench/blob/d7f3b3e551f13fa92f542eb95dcde63315b20c84/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-dev-workbench",
+        "versions": [
+          {
+            "version": "0.4.10",
+            "publishTimestamp": 1794563959,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LongerWu2026/dsh-dev-workbench",
+              "commit": "d7f3b3e551f13fa92f542eb95dcde63315b20c84"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-dev-workbench",
+      "origin": "npm",
+      "name": "dsh-dev-workbench",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-dev-workbench",
+        "title": {
+          "en": "智能工作台",
+          "zh": "智能工作台"
+        },
+        "description": {
+          "en": "把每日待办、技术雷达、Agent 执行记录与离线开发工具箱收进一个工作入口。任务保留来源证据，状态由 Host 持久化到本地，重启不丢失。",
+          "zh": "把每日待办、技术雷达、Agent 执行记录与离线开发工具箱收进一个工作入口。任务保留来源证据，状态由 Host 持久化到本地，重启不丢失。"
+        },
+        "homepage": "https://github.com/LongerWu2026/dsh-dev-workbench#readme",
+        "repository": {
+          "url": "https://github.com/LongerWu2026/dsh-dev-workbench"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "plugin",
+            "workbench",
+            "todo",
+            "dashboard"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlNtYXJ0IFdvcmtiZW5jaCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9IndiR3JhZCIgeDE9IjAiIHkxPSIwIiB4Mj0iNjQiIHkyPSI2NCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM3QzlDRkYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNENENEEwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSI0IiB5PSI0IiB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHJ4PSIxNiIgZmlsbD0iIzBCMTEyMCIvPgogIDxyZWN0IHg9IjUuNSIgeT0iNS41IiB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHJ4PSIxNC41IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjd2JHcmFkKSIgc3Ryb2tlLXdpZHRoPSIzIiBvcGFjaXR5PSIwLjg1Ii8+CiAgPHJlY3QgeD0iMTYiIHk9IjE2IiB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHJ4PSI0IiBmaWxsPSJ1cmwoI3diR3JhZCkiLz4KICA8cmVjdCB4PSIzNCIgeT0iMTYiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgcng9IjQiIGZpbGw9IiM3QzlDRkYiIG9wYWNpdHk9IjAuNDUiLz4KICA8cmVjdCB4PSIxNiIgeT0iMzQiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgcng9IjQiIGZpbGw9IiM0Q0Q0QTAiIG9wYWNpdHk9IjAuNDUiLz4KICA8cGF0aCBkPSJNMzQuNSA0MWgxM000MSAzNC41djEzIiBzdHJva2U9InVybCgjd2JHcmFkKSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.4.10",
+            "publishTimestamp": 1794572190,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "bfe50ac1139e6e383042eb77c29dd681b57644bb32e2795ca8b2b7bde8d0c0a1",
+      "evidence": [
+        {
+          "name": "dsh-dev-workbench",
+          "version": "0.4.10",
+          "tarball": "https://registry.npmjs.org/dsh-dev-workbench/-/dsh-dev-workbench-0.4.10.tgz",
+          "integrity": "sha512-EbjH+jZ1vWKcwrF86xYZ/JEoDcE1SiTdrTbaCGThb16i8FDaqnoSVwlmNRQKVsBvCfwvQv2toUuBdDPTyjSyBQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/LongerWu2026/dsh-dev-workbench/releases/download/v0.4.10/dsh-dev-workbench-0.4.10.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dev-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LongerWu2026/dsh-dev-workbench/releases/download/v0.4.10/dsh-dev-workbench-0.4.10.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LongerWu2026/dsh-dev-workbench",
+    "commit": "d7f3b3e551f13fa92f542eb95dcde63315b20c84",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:44.324Z"
+}

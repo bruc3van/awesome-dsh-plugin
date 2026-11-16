@@ -1,0 +1,168 @@
+{
+  "full_name": "illli-studio/mory",
+  "originalPosition": 196,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 196,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:24.447Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f2a78a2543133903a21ff6532e1b213a5828270c51c821efd4e88bcecfd6d60c",
+      "url": "https://github.com/illli-studio/mory/blob/f6765317a2f16f74dd45c24d84c1620ad39ab641/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@illli-studio/dsh-mory",
+          "command": "dsh plugin --profile web add @illli-studio/dsh-mory",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "f46cca03f6fa24d6aeca85aa871b5c4474beb46df7f28b28ed6d08a51a98e882",
+      "url": "https://github.com/illli-studio/mory/blob/f6765317a2f16f74dd45c24d84c1620ad39ab641/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@illli-studio/dsh-mory",
+          "command": "dsh plugin --profile web add @illli-studio/dsh-mory",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-mory/README.md",
+      "sha256": "db5f024f9fd7f9ab89e2df6cfcdbd15cd07de645f46c99ea35ac8ce2fa3e4d4c",
+      "url": "https://github.com/illli-studio/mory/blob/f6765317a2f16f74dd45c24d84c1620ad39ab641/packages/dsh-mory/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@illli-studio/dsh-mory",
+          "command": "dsh plugin --profile web add @illli-studio/dsh-mory",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@illli-studio/dsh-mory",
+      "version": "0.1.2",
+      "path": "packages/dsh-mory",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/illli-studio/mory",
+        "commit": "f6765317a2f16f74dd45c24d84c1620ad39ab641",
+        "path": "packages/dsh-mory"
+      },
+      "manifestSha256": "1e61c1ac9d7d561003d04dacdf05631f0c7031e89cfe79ac5fbcc030cb82e7f7",
+      "manifestUrl": "https://github.com/illli-studio/mory/blob/f6765317a2f16f74dd45c24d84c1620ad39ab641/packages/dsh-mory/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@illli-studio/dsh-mory",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1793928275,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/illli-studio/mory",
+              "commit": "f6765317a2f16f74dd45c24d84c1620ad39ab641",
+              "path": "packages/dsh-mory"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@illli-studio/dsh-mory",
+      "origin": "npm",
+      "name": "@illli-studio/dsh-mory",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@illli-studio/dsh-mory",
+        "title": {
+          "en": "Mory — Personal Memory",
+          "zh": "Mory · 个人记忆库"
+        },
+        "description": {
+          "en": "Browse, search and manage your Mory memories from the sidebar, and give DSH agents access to the same local repository. Requires a running Mory service.",
+          "zh": "在左侧栏浏览、搜索和管理 Mory 记忆，让 DSH 智能体使用同一个本地记忆库。需要运行 Mory 服务。"
+        },
+        "homepage": "https://github.com/illli-studio/mory/tree/main/packages/dsh-mory",
+        "repository": {
+          "url": "https://github.com/illli-studio/mory",
+          "directory": "packages/dsh-mory"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "cordis",
+            "mory",
+            "memory",
+            "deepseek-harness"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgaWQ9Il/lm77lsYJfMSIgZGF0YS1uYW1lPSLlm77lsYIgMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNDI3Ljg3IDQyNy44NyI+DQogIDxkZWZzPg0KICAgIDxzdHlsZT4NCiAgICAgIC5jbHMtMSwgLmNscy0yIHsNCiAgICAgICAgZmlsbDogIzBiM2IzMjsNCiAgICAgIH0NCg0KICAgICAgLmNscy0zIHsNCiAgICAgICAgZm9udC1mYW1pbHk6IEFkb2JlU29uZ1N0ZC1MaWdodC1HQnBjLUVVQy1ILCAnQWRvYmUgU29uZyBTdGQnOw0KICAgICAgICBmb250LXdlaWdodDogMzAwOw0KICAgICAgICBsZXR0ZXItc3BhY2luZzogLS4xZW07DQogICAgICB9DQoNCiAgICAgIC5jbHMtNCB7DQogICAgICAgIGZpbGw6ICNmNWYxZTc7DQogICAgICB9DQoNCiAgICAgIC5jbHMtNSwgLmNscy02IHsNCiAgICAgICAgbGV0dGVyLXNwYWNpbmc6IC0uMWVtOw0KICAgICAgfQ0KDQogICAgICAuY2xzLTYsIC5jbHMtNyB7DQogICAgICAgIGZvbnQtZmFtaWx5OiBDb29wZXJCbGFjaywgJ0Nvb3BlciBCbGFjayc7DQogICAgICB9DQoNCiAgICAgIC5jbHMtMiB7DQogICAgICAgIGZvbnQtc2l6ZTogODZweDsNCiAgICAgIH0NCg0KICAgICAgLmNscy04IHsNCiAgICAgICAgZmlsbDogIzliYjVhMDsNCiAgICAgIH0NCg0KICAgICAgLmNscy05IHsNCiAgICAgICAgbGV0dGVyLXNwYWNpbmc6IC0uMTVlbTsNCiAgICAgIH0NCg0KICAgICAgLmNscy0xMCB7DQogICAgICAgIGZpbGw6ICMyYzY4NzA7DQogICAgICB9DQogICAgPC9zdHlsZT4NCiAgPC9kZWZzPg0KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjAiIHk9IjAiIHdpZHRoPSI0MjcuODciIGhlaWdodD0iNDI3Ljg3IiByeD0iMTAyLjMyIiByeT0iMTAyLjMyIi8+DQogIDxnPg0KICAgIDxyZWN0IGNsYXNzPSJjbHMtMTAiIHg9IjYxLjI5IiB5PSI2OC40NiIgd2lkdGg9IjM1MS45NSIgaGVpZ2h0PSIyOTAuOTUiIHJ4PSI2OC4wNCIgcnk9IjY4LjA0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjEuMzIgNDAxLjU0KSByb3RhdGUoLTc4KSIvPg0KICAgIDxyZWN0IGNsYXNzPSJjbHMtOCIgeD0iMjUuMzEiIHk9IjY4LjQ2IiB3aWR0aD0iMzU4Ljk5IiBoZWlnaHQ9IjI5MC45NSIgcng9IjY4LjA0IiByeT0iNjguMDQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMi41IDM5MS4xNCkgcm90YXRlKC04MykiLz4NCiAgICA8cmVjdCBjbGFzcz0iY2xzLTQiIHg9IjQ1Ljg2IiB5PSI0NSIgd2lkdGg9IjI4Ni4yNiIgaGVpZ2h0PSIzMzcuODgiIHJ4PSI1Ni4zMSIgcnk9IjU2LjMxIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNy4zNSA2LjczKSByb3RhdGUoLTIpIi8+DQogIDwvZz4NCiAgPHRleHQgY2xhc3M9ImNscy0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2NC42OCAxOTguNDcpIHJvdGF0ZSgtMS45NykiPjx0c3BhbiBjbGFzcz0iY2xzLTYiIHg9IjAiIHk9IjAiPk1FPC90c3Bhbj48dHNwYW4gY2xhc3M9ImNscy0zIiB4PSIxMTguNzQiIHk9IjAiPi48L3RzcGFuPjx0c3BhbiBjbGFzcz0iY2xzLTciPjx0c3BhbiBjbGFzcz0iY2xzLTUiIHg9IjAiIHk9IjgzIj5NTzwvdHNwYW4+PHRzcGFuIGNsYXNzPSJjbHMtOSIgeD0iMTI2LjI2IiB5PSI4MyI+UjwvdHNwYW4+PHRzcGFuIGNsYXNzPSJjbHMtNSIgeD0iMTgwLjMyIiB5PSI4MyI+WTwvdHNwYW4+PC90c3Bhbj48L3RleHQ+DQo8L3N2Zz4=",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1793926232,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "874ceae8a04a6f98c0beff3f38b01b7b802705aa97fb820ae9a69ff857623b4f",
+      "evidence": [
+        {
+          "name": "@illli-studio/dsh-mory",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/@illli-studio/dsh-mory/-/dsh-mory-0.1.2.tgz",
+          "integrity": "sha512-vvH8GMZqV27cImN21hT+aPnIrPdYmqd0iJiUZprapb8LII3Np5ilMV6aNMpQsydUYnRbQujgs63CU9yMVfhJuA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@illli-studio/dsh-mory",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/illli-studio/mory",
+    "commit": "f6765317a2f16f74dd45c24d84c1620ad39ab641",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:47.768Z"
+}

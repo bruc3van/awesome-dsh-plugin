@@ -1,0 +1,161 @@
+{
+  "full_name": "hoyyang/dsh-smart-compact",
+  "originalPosition": 109,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 109,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:10.395Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b68156462d594044e3a43df7fe4dbeb3139d0637257841c170272b2d4de54b3a",
+      "url": "https://github.com/hoyyang/dsh-smart-compact/blob/99c24e30e7e5cef2f2906129658ef21f63fba57c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-smart-compact",
+          "command": "dsh plugin --profile web add dsh-smart-compact",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/hoyyang/dsh-smart-compact",
+          "command": "dsh plugin --profile web add github:hoyyang/dsh-smart-compact",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6b97264ac5fc6bc97f412573422be7cc6c107e24352ae1bdce8b665b4da35a93",
+      "url": "https://github.com/hoyyang/dsh-smart-compact/blob/99c24e30e7e5cef2f2906129658ef21f63fba57c/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-smart-compact",
+          "command": "dsh plugin --profile web add dsh-smart-compact",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/hoyyang/dsh-smart-compact",
+          "command": "dsh plugin --profile web add github:hoyyang/dsh-smart-compact",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-smart-compact",
+      "version": "0.6.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hoyyang/dsh-smart-compact",
+        "commit": "99c24e30e7e5cef2f2906129658ef21f63fba57c"
+      },
+      "manifestSha256": "21a448d54416c2a624eeabe164a688b5355ec56dab154cd4211e355aee2dd83d",
+      "manifestUrl": "https://github.com/hoyyang/dsh-smart-compact/blob/99c24e30e7e5cef2f2906129658ef21f63fba57c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc <2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-smart-compact",
+        "versions": [
+          {
+            "version": "0.6.3",
+            "publishTimestamp": 1794214044,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hoyyang/dsh-smart-compact",
+              "commit": "99c24e30e7e5cef2f2906129658ef21f63fba57c"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc <2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-smart-compact",
+      "origin": "npm",
+      "name": "dsh-smart-compact",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-smart-compact",
+        "title": "dsh-smart-compact",
+        "description": "Context window auto-management for DeepSeek Harness: lossless zero-model rollover, budget reminders, notes.",
+        "homepage": "https://www.npmjs.com/package/dsh-smart-compact",
+        "repository": {
+          "url": "https://github.com/hoyyang/dsh-smart-compact"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "context-window",
+            "context-management",
+            "compaction",
+            "rollover",
+            "llm"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.3",
+            "publishTimestamp": 1794214215,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc <2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e014cc586e17be8390f3a2d81ca1a2e037a935e79de7ec1ce8a8db357753050d",
+      "evidence": [
+        {
+          "name": "dsh-smart-compact",
+          "version": "0.6.3",
+          "tarball": "https://registry.npmjs.org/dsh-smart-compact/-/dsh-smart-compact-0.6.3.tgz",
+          "integrity": "sha512-w9i1QTjwDMfxIRksJJPZEXrxLxZhHkQ0oC8nChzOHCv6KmG31Gb7ZpV8tT9CWOzK9R9xV9YAnoFiEwL0wjk4xA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-smart-compact",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/hoyyang/dsh-smart-compact",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hoyyang/dsh-smart-compact",
+    "commit": "99c24e30e7e5cef2f2906129658ef21f63fba57c",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:23.127Z"
+}

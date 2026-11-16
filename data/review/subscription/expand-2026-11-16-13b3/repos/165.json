@@ -1,0 +1,92 @@
+{
+  "full_name": "Hakunm/dsh-workspace",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:52.163Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "81a91415004f7185c9119c391a0f8a9e9d916f33cae612cd115331ec440e0470",
+      "url": "https://github.com/Hakunm/dsh-workspace/blob/34c9064b30876f8d0e87efabe8b4cceb533c24f5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Hakunm/dsh-workspace/releases/download/v1.1.0/dsh-workspace-1.1.0.tgz",
+          "command": "dsh plugin --profile web add https://github.com/Hakunm/dsh-workspace/releases/download/v1.1.0/dsh-workspace-1.1.0.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "kotlin-sdk/README.md",
+      "sha256": "28e8d272d4a212da530377f3e9de2f965e4450625c09ab1b48d3a085ec9d8b18",
+      "url": "https://github.com/Hakunm/dsh-workspace/blob/34c9064b30876f8d0e87efabe8b4cceb533c24f5/kotlin-sdk/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workspace",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hakunm/dsh-workspace",
+        "commit": "34c9064b30876f8d0e87efabe8b4cceb533c24f5"
+      },
+      "manifestSha256": "066d0ab677460d3c663481b6b5fdd55470c06344f8a1f7fb04ea24a195192d24",
+      "manifestUrl": "https://github.com/Hakunm/dsh-workspace/blob/34c9064b30876f8d0e87efabe8b4cceb533c24f5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-workspace",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1793045926,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Hakunm/dsh-workspace",
+              "commit": "34c9064b30876f8d0e87efabe8b4cceb533c24f5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Hakunm/dsh-workspace/releases/download/v1.1.0/dsh-workspace-1.1.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Hakunm/dsh-workspace/releases/download/v1.1.0/dsh-workspace-1.1.0.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hakunm/dsh-workspace",
+    "commit": "34c9064b30876f8d0e87efabe8b4cceb533c24f5",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:01.951Z"
+}

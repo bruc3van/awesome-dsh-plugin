@@ -1,0 +1,78 @@
+{
+  "full_name": "slowhiring/dsh-github-ops",
+  "originalPosition": 121,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 121,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:29.368Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8c3cfcf58a4fe03deb1869a50e8f457f3b32390c0cdc6174a028f8c22909d3f7",
+      "url": "https://github.com/slowhiring/dsh-github-ops/blob/98b3aabcf5ea6a74ffcf9dc5a03451c26d64f5d6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/slowhiring/dsh-github-ops",
+          "command": "dsh plugin add github:slowhiring/dsh-github-ops",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-github-ops",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/slowhiring/dsh-github-ops",
+        "commit": "98b3aabcf5ea6a74ffcf9dc5a03451c26d64f5d6"
+      },
+      "manifestSha256": "0b5de8dfb2cf0cbc51fa5d435a8cd72584a675b7bb2b12c18cc4d41510f76030",
+      "manifestUrl": "https://github.com/slowhiring/dsh-github-ops/blob/98b3aabcf5ea6a74ffcf9dc5a03451c26d64f5d6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-github-ops",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1794624215,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/slowhiring/dsh-github-ops",
+              "commit": "98b3aabcf5ea6a74ffcf9dc5a03451c26d64f5d6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/slowhiring/dsh-github-ops",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/slowhiring/dsh-github-ops",
+    "commit": "98b3aabcf5ea6a74ffcf9dc5a03451c26d64f5d6",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:37.910Z"
+}

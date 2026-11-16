@@ -1,0 +1,139 @@
+{
+  "full_name": "icyaaaww/dsh-bili-vision",
+  "originalPosition": 111,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 111,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:13.445Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a18645ed482906b5e51814ae8923c3c1c36bf735d2c741de4c6cf411def346ea",
+      "url": "https://github.com/icyaaaww/dsh-bili-vision/blob/5048affdf38e7b0a519425cb313bb23d956a5f22/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/icyaaaww/dsh-bili-vision.git#v0.2.0",
+          "command": "dsh plugin --profile web add 'git+https://github.com/icyaaaww/dsh-bili-vision.git#v0.2.0'",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "bili-vision",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/icyaaaww/dsh-bili-vision",
+        "commit": "5048affdf38e7b0a519425cb313bb23d956a5f22"
+      },
+      "manifestSha256": "8349cdd5f8a0a20cf11fae2149952cc4f2b401b0f5f78448e6bc822c34d927db",
+      "manifestUrl": "https://github.com/icyaaaww/dsh-bili-vision/blob/5048affdf38e7b0a519425cb313bb23d956a5f22/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "bili-vision",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792750902,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/icyaaaww/dsh-bili-vision",
+              "commit": "5048affdf38e7b0a519425cb313bb23d956a5f22"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "git+https://github.com/icyaaaww/dsh-bili-vision.git#v0.2.0",
+      "origin": "git_target",
+      "name": "bili-vision",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "bili-vision",
+        "title": {
+          "en": "Bili Vision",
+          "zh": "Bili Vision 视频理解"
+        },
+        "description": {
+          "en": "Timestamped Bilibili video frames, subtitles, local ASR and OCR for DSH, with optional independent vision model analysis.",
+          "zh": "为 DSH 提供 B 站视频时间戳画面、字幕、本地转写与 OCR，支持可选独立视觉模型分析。"
+        },
+        "author": "icyaaaww",
+        "homepage": "https://github.com/icyaaaww/dsh-bili-vision#readme",
+        "repository": {
+          "url": "https://github.com/icyaaaww/dsh-bili-vision"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "bilibili",
+            "video-understanding",
+            "whisper",
+            "ocr"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792750902,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/icyaaaww/dsh-bili-vision",
+              "commit": "5048affdf38e7b0a519425cb313bb23d956a5f22"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "5048affdf38e7b0a519425cb313bb23d956a5f22",
+          "name": "bili-vision",
+          "version": "0.2.0",
+          "url": "https://github.com/icyaaaww/dsh-bili-vision",
+          "manifestSha256": "8349cdd5f8a0a20cf11fae2149952cc4f2b401b0f5f78448e6bc822c34d927db",
+          "publishTimestamp": 1792750902
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/icyaaaww/dsh-bili-vision.git#v0.2.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/icyaaaww/dsh-bili-vision",
+    "commit": "5048affdf38e7b0a519425cb313bb23d956a5f22",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:33.038Z"
+}

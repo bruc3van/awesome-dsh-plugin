@@ -1,0 +1,191 @@
+{
+  "full_name": "SihanLv/dsh-literature",
+  "originalPosition": 116,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 116,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:15.166Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6b08c084aae3d5a29bb1017510ab907a22a7f9f66fb5af41a316d290359bdd3c",
+      "url": "https://github.com/SihanLv/dsh-literature/blob/53737583058230f2d2cbec0bef6b14b783580d89/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@shlv/dsh-literature",
+          "command": "dsh plugin --profile headless add @shlv/dsh-literature",
+          "profile": "headless"
+        },
+        {
+          "install": "@shlv/dsh-literature",
+          "command": "dsh plugin --profile web add @shlv/dsh-literature",
+          "profile": "web"
+        },
+        {
+          "install": "@shlv/dsh-literature@0.1.1",
+          "command": "dsh plugin --profile headless add @shlv/dsh-literature@0.1.1",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "9288d536e8b18c692ff396f88836eb53bcac822a8b7aecc1c17a75e1ebe0b5a8",
+      "url": "https://github.com/SihanLv/dsh-literature/blob/53737583058230f2d2cbec0bef6b14b783580d89/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@shlv/dsh-literature",
+          "command": "dsh plugin --profile headless add @shlv/dsh-literature",
+          "profile": "headless"
+        },
+        {
+          "install": "@shlv/dsh-literature",
+          "command": "dsh plugin --profile web add @shlv/dsh-literature",
+          "profile": "web"
+        },
+        {
+          "install": "@shlv/dsh-literature@0.1.1",
+          "command": "dsh plugin --profile headless add @shlv/dsh-literature@0.1.1",
+          "profile": "headless"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@shlv/dsh-literature",
+      "version": "0.1.3",
+      "path": "literature",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SihanLv/dsh-literature",
+        "commit": "53737583058230f2d2cbec0bef6b14b783580d89",
+        "path": "literature"
+      },
+      "manifestSha256": "7be9f84825741e1996e1bc3a444aa8b03316b70df88a800ffd6fa3861c144639",
+      "manifestUrl": "https://github.com/SihanLv/dsh-literature/blob/53737583058230f2d2cbec0bef6b14b783580d89/literature/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@shlv/dsh-literature",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1790770001,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SihanLv/dsh-literature",
+              "commit": "53737583058230f2d2cbec0bef6b14b783580d89",
+              "path": "literature"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@shlv/dsh-literature",
+      "origin": "npm",
+      "name": "@shlv/dsh-literature",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@shlv/dsh-literature",
+        "title": "@shlv/dsh-literature",
+        "description": "Install bundle for the @shlv/dsh-literature family: one `dsh plugin add` installs the seam (ctx.literature), the dblp and arXiv providers, and the model-facing tools.",
+        "repository": {
+          "url": "https://github.com/SihanLv/dsh-literature"
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1790770325,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8587d511d97df3480fdf3d2cf19284dfbfcab600ae3d95c8a2b45d19513df49a",
+      "evidence": [
+        {
+          "name": "@shlv/dsh-literature",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/@shlv/dsh-literature/-/dsh-literature-0.1.3.tgz",
+          "integrity": "sha512-algPLBr/GRqUtndVIAAonFrtX2ZyHKeMhyFYkEYgSgnUFJUXneEElLS/SwHIrgf+tZchkQT4MmsNgG6gNwS0Gw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@shlv/dsh-literature@0.1.1",
+      "origin": "npm",
+      "name": "@shlv/dsh-literature",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@shlv/dsh-literature",
+        "title": "@shlv/dsh-literature",
+        "description": "Install bundle for the @shlv/dsh-literature family: one `dsh plugin add` installs the seam (ctx.literature), the dblp and arXiv providers, and the model-facing tools.",
+        "repository": {
+          "url": "https://github.com/SihanLv/dsh-literature"
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786774810,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8587d511d97df3480fdf3d2cf19284dfbfcab600ae3d95c8a2b45d19513df49a",
+      "evidence": [
+        {
+          "name": "@shlv/dsh-literature",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/@shlv/dsh-literature/-/dsh-literature-0.1.1.tgz",
+          "integrity": "sha512-AmyTmkdUPQB52C1mvGtBHlEv9zwXyyrHoz955RcSCJlmn58EXpNWmqq3+kPYZhzAgqgKgH7lMIHJRXn4WWFYCQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@shlv/dsh-literature",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@shlv/dsh-literature@0.1.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SihanLv/dsh-literature",
+    "commit": "53737583058230f2d2cbec0bef6b14b783580d89",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:35.713Z"
+}

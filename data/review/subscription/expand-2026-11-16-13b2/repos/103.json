@@ -1,0 +1,155 @@
+{
+  "full_name": "dryw/dsh-egm",
+  "originalPosition": 103,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 103,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:54.694Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f0f6b4d363df415e66d521f2c1691b81bc34fbe5dc98eb9170912a7a006a7c0a",
+      "url": "https://github.com/dryw/dsh-egm/blob/8c0677d24ea3d3ebeb578157b0ccc17d89cfd823/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-egm",
+          "command": "dsh plugin --profile web add dsh-egm",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/assets/README.md",
+      "sha256": "522356399ecc27b34dca780a0e576396ff46f31a74e78a6db844e9b6863b6a52",
+      "url": "https://github.com/dryw/dsh-egm/blob/8c0677d24ea3d3ebeb578157b0ccc17d89cfd823/docs/assets/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-egm",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dryw/dsh-egm",
+        "commit": "8c0677d24ea3d3ebeb578157b0ccc17d89cfd823"
+      },
+      "manifestSha256": "9efaf4daff46306437876e5e93a8b34fbc6a4963ff08928d319191dbfb24e7e3",
+      "manifestUrl": "https://github.com/dryw/dsh-egm/blob/8c0677d24ea3d3ebeb578157b0ccc17d89cfd823/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-egm",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1793894720,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dryw/dsh-egm",
+              "commit": "8c0677d24ea3d3ebeb578157b0ccc17d89cfd823"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-egm",
+      "origin": "npm",
+      "name": "dsh-egm",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-egm",
+        "title": {
+          "en": "Elephant-Goldfish Model",
+          "zh": "大象与金鱼模型"
+        },
+        "description": {
+          "en": "Brainstorm design decisions, draft a specification, and stress-test it with fresh-context Goldfish reviewers before any code is written.",
+          "zh": "在写代码之前，与具备完整上下文的“大象”一起头脑风暴、撰写设计规格，并用全新上下文的“金鱼”评审者严格审查。"
+        },
+        "author": "dryw",
+        "homepage": "https://github.com/dryw/dsh-egm#readme",
+        "repository": {
+          "url": "https://github.com/dryw/dsh-egm"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "skill",
+            "skills",
+            "egm",
+            "elephant-goldfish",
+            "spec-driven-development",
+            "design-review",
+            "goldfish",
+            "dsh-plugin",
+            "deepseek",
+            "dsh-ops-compatible",
+            "ai-agents"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkVsZXBoYW50LUdvbGRmaXNoIE1vZGVsIG1hcms6IHRoZSBlbGVwaGFudCdzIGZyb250IGhhbGYgYW5kIHRoZSBnb2xkZmlzaCdzIHRhaWwgY3V0IGF0IHRoZSBzcGxpdCI+CiAgPHRpdGxlPkVsZXBoYW50LUdvbGRmaXNoIE1vZGVsPC90aXRsZT4KICA8ZGVmcz4KICAgIDxjbGlwUGF0aCBpZD0iZWdtLWxlZnQtaGFsZiI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjMxIiBoZWlnaHQ9IjY0Ii8+PC9jbGlwUGF0aD4KICAgIDxjbGlwUGF0aCBpZD0iZWdtLXJpZ2h0LWhhbGYiPjxyZWN0IHg9IjMzIiB5PSIwIiB3aWR0aD0iMzEiIGhlaWdodD0iNjQiLz48L2NsaXBQYXRoPgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNSIgZmlsbD0iIzBCMTIyMCIvPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iMzIiIHI9IjI3IiBmaWxsPSIjMkI2RUY2Ii8+CiAgPHBhdGggZD0iTTMyIDVhMjcgMjcgMCAwIDEgMCA1NHoiIGZpbGw9IiNGQjdBMUYiLz4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjMyIiByPSIyNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utb3BhY2l0eT0iMC4xMCIgc3Ryb2tlLXdpZHRoPSIxIi8+CgogIDwhLS0gZWxlcGhhbnQsIG1pcnJvcmVkIHRvIGZhY2UgbGVmdCBhbmQgY3V0IGF0IHRoZSBzZWFtOiBmcm9udCBoYWxmIGFuZCB0cnVuayByZW1haW4gLS0+CiAgPGcgY2xpcC1wYXRoPSJ1cmwoI2VnbS1sZWZ0LWhhbGYpIiBmaWxsPSIjRjhGQUZDIj4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU0LjgsOS4yKSBzY2FsZSgtMS45LDEuOSkiPgogICAgICA8cGF0aCBkPSJNMTkuNSwxNS41QTAuNSwwLjUgMCAwLDEgMTksMTZBMC41LDAuNSAwIDAsMSAxOC41LDE1LjVWOC41QzE4LjUsNi41NyAxNi40Myw1IDE0LjUsNUg2QTQsNCAwIDAsMCAyLDlWMTlINlYxNUgxMVYxOUgxNVYxNC41QTAuNSwwLjUgMCAwLDEgMTUuNSwxNEEwLjUsMC41IDAgMCwxIDE2LDE0LjVWMTZBMywzIDAgMCwwIDE5LDE5QTMsMyAwIDAsMCAyMiwxNlYxNEgxOS41VjE1LjVaIi8+CiAgICA8L2c+CiAgPC9nPgoKICA8IS0tIGdvbGRmaXNoLCBtaXJyb3JlZCBzbyB0aGUgdGFpbCBwb2ludHMgcmlnaHQgYW5kIGN1dCBhdCB0aGUgc2VhbTogdGFpbCBoYWxmIHJlbWFpbnMgLS0+CiAgPGcgY2xpcC1wYXRoPSJ1cmwoI2VnbS1yaWdodC1oYWxmKSIgZmlsbD0iI0Y4RkFGQyI+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1OS44LDkuMikgc2NhbGUoLTEuOSwxLjkpIj4KICAgICAgPHBhdGggZD0iTTEyLDIwTDEyLjc2LDE3QzkuNSwxNi43OSA2LjU5LDE1LjQgNS43NSwxMy41OEM1LjY2LDE0LjA2IDUuNTMsMTQuNSA1LjMzLDE0LjgzQzQuNjcsMTYgMy4zMywxNiAyLDE2QzMuMSwxNiAzLjUsMTQuNDMgMy41LDEyLjVDMy41LDEwLjU3IDMuMSw5IDIsOUMzLjMzLDkgNC42Nyw5IDUuMzMsMTAuMTdDNS41MywxMC41IDUuNjYsMTAuOTQgNS43NSwxMS40MkM2LjQsMTAgOC4zMiw4Ljg1IDEwLjY2LDguMzJMOSw1QzExLDUgMTMsNSAxNC4zMyw1LjY3QzE1LjQ2LDYuMjMgMTYuMTEsNy4yNyAxNi42OSw4LjM4QzE5LjYxLDkuMDggMjIsMTAuNjYgMjIsMTIuNUMyMiwxNC4zOCAxOS41LDE2IDE2LjUsMTYuNjZDMTUuNjcsMTcuNzYgMTQuODYsMTguNzggMTQuMTcsMTkuMzNDMTMuMzMsMjAgMTIuNjcsMjAgMTIsMjBNMTcsMTFBMSwxIDAgMCwwIDE2LDEyQTEsMSAwIDAsMCAxNywxM0ExLDEgMCAwLDAgMTgsMTJBMSwxIDAgMCwwIDE3LDExWiIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1793854238,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f4f4813faa249a674d462ad239c78989038684d5c8b7ea489611184677754ee0",
+      "evidence": [
+        {
+          "name": "dsh-egm",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/dsh-egm/-/dsh-egm-0.3.1.tgz",
+          "integrity": "sha512-b3oMg+T7EZRfZ8wk93LSJxlGAfv7+GhJ/TMmG/Hg1N0BylLjx09yqYpSTBszuEMFQtUTvIOmf53b3V7je5if2g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-egm",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dryw/dsh-egm",
+    "commit": "8c0677d24ea3d3ebeb578157b0ccc17d89cfd823",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:05.480Z"
+}

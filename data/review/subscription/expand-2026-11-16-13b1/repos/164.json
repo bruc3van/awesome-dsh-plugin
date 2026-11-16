@@ -1,0 +1,166 @@
+{
+  "full_name": "BaronCyrus/dsh-kimi-subscription",
+  "originalPosition": 164,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 164,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:09:43.920Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "75750a4cae918375ac5cb9fb2e78694e6e5a2f20264591af84182418047e5045",
+      "url": "https://github.com/BaronCyrus/dsh-kimi-subscription/blob/1e0164815c9af0ba429a59549ba3b033df2dd01f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-kimi-subscription@latest",
+          "command": "dsh plugin --profile <name> add dsh-kimi-subscription@latest",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "885e73777be6a2861766ebd2b980961f88ca82756b7e501ff1378e1850243c2b",
+      "url": "https://github.com/BaronCyrus/dsh-kimi-subscription/blob/1e0164815c9af0ba429a59549ba3b033df2dd01f/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-kimi-subscription@latest",
+          "command": "dsh plugin --profile <name> add dsh-kimi-subscription@latest",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-kimi-subscription",
+      "version": "1.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BaronCyrus/dsh-kimi-subscription",
+        "commit": "1e0164815c9af0ba429a59549ba3b033df2dd01f"
+      },
+      "manifestSha256": "7946271070ffb759011b7e4a9226476cd534d03645e3601839434bd83311a40f",
+      "manifestUrl": "https://github.com/BaronCyrus/dsh-kimi-subscription/blob/1e0164815c9af0ba429a59549ba3b033df2dd01f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-kimi-subscription",
+        "versions": [
+          {
+            "version": "1.5.1",
+            "publishTimestamp": 1794146223,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BaronCyrus/dsh-kimi-subscription",
+              "commit": "1e0164815c9af0ba429a59549ba3b033df2dd01f"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-kimi-subscription@latest",
+      "origin": "npm",
+      "name": "dsh-kimi-subscription",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-kimi-subscription",
+        "title": {
+          "en": "Kimi Subscription",
+          "zh-cn": "Kimi 订阅"
+        },
+        "description": {
+          "en": "Use your Kimi Code membership in DSH. Sign in to access Kimi models, track quota and search the web. No API key required.",
+          "zh-cn": "在 DSH 中使用 Kimi Code 会员。登录即可选模型、查额度和联网搜索，无需 API Key。"
+        },
+        "author": "BaronCyrus",
+        "homepage": "https://github.com/BaronCyrus/dsh-kimi-subscription#readme",
+        "repository": {
+          "url": "https://github.com/BaronCyrus/dsh-kimi-subscription"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "kimi-code",
+            "kimi-subscription",
+            "oauth",
+            "quota",
+            "usage",
+            "llm"
+          ]
+        },
+        "icon": "data:image/webp;base64,UklGRtIPAABXRUJQVlA4WAoAAAAQAAAAXwAAXwAAQUxQSMEFAAABoEVtmyFJ+rKqpzieaYyxtm3btm3btm3bu2Pbtu3GoKcL/5c3FRkRGVlnryNiAvB/NHH1f5N7Xd68jP1SyAtl+V2JchLf5uLX+s0d2VJxQsfMPh/myRFV5SJ1zJuzCiQ5vzWA5nucdc2NZ217L8n/vLKw+1srqFx8fdbb7bFhDUIhC1PyZK5T9BLnDBcq19+ZannLVKF+U03UKi6YSrX80CV1xzKh6aYnd4vWwSOE6tqL44dMpNXcK82i0+bdIgOnf3T7TwXa/ioelSMWMPjf7uMY5i3RiD+RY/C3O89lqPWdotDid2p+1mYqQ/6tmXtVI6n5e/I2WRUSn3OueiJJ+opxLbwhxU1h5Y9zrHISNVfvcPObDQz0fVtckHIqM4yaxdNepZs3uxT7jrrvxQY5MiXm0MOis6C119+Rwj7uHJ6jppwPb6otMeFHzrReRN3hcXi/2TKfE3PlY2ofe97xJ09QSWjLKmLVThyT15rovS10dsWJj4x3ITGB2leh1Ve5sPwgki+5cB2161oB3rSwNKXwQ8aB1CK9nwEkcs6M29GDg9dQ/woAsVpSxEAsNdbAwfhUvXwPVFR671mwLDzRhUOLekviOHtyvOUoCl3sw5Nd+Jj6/YDHGlp5u62iizJiU0cHsmsNPkNqpJzhdZjjBOXPSxw4noYv3L+MbBrW7cL1TlBudOBNA3noxF+LXPxca2SfFZVY8AM2jL4iFp4304D3Ab8X9wSAY9YphLaFPDd7aDy86oLJw8Ddq9MAdq+jbV9Fyin95L4H0mGdStPngN2f9QD8zfA3P0hKcZewHjL6EOpjJCwRvjuTZG764SF9Y/SPyhvBMLcKJxz1O2uFJAtHAYin7I0ymu0pOuVDEVm7L06iuuEKAL+uqLQVW2bU2FbRMRfGymd3aAnsJCp+AOC/TdYyDUY8TOH9EoI8D3iXfzibyum3pQC8uyphq7LJ7FEFOok1aToSLe8Xqv9IANjmtDXy4DU3xKx0K5gNVrUPYUbq5kYGTG4FIL5AKCK5SivbFs02tVPgJ2vk+xsoVK+/7vzTjjn4sDPXyaPnXuA5wqtUycH29IUiUt/l3ZXNYLl7wcJwVWWtC0Ll1s5/N7SzVblV5esUd1RcLGFJqeofr9eGGlvpepX+hyWxaSwVN85GoiVse4u1fF/RuA2AU+muLEsjzOFawV94wEMSlmjwKeCy8wK8rNHnVnIHA1WrwxER0lcVewB//xhwX+0uJvcZ+H4Jxyexcz4savYGkmsWVCi6NcgJJscbBL+I96Voy9cSIXla7Nx/RX450wO8XygHmbQr2Mmdt1bqbKmllEJyUSI1rkApDGkGnF1ksZsJJtlhjtZ9FRUU8lEAO22p284DOq0h1ySNXrYUtgjVsml4JQAM7QUg0Z9kPxgfHgnN4o0xlD55P+C9QpKPmSWXRorrWihKbxWSxf3M8Gq0eFLQFXmSnBG3sGM+SAJ8B0TjqoAbcix9EDb7BAW7oHuaIvFSkaWNHa0ca+Z0beuS7QZQ/QGsesOs+K7cBqD1w/VUN25nB0cWovNzx10v+LyBwW/Asve1DVdFqL2qnS10Xh8Z08tg//Ly8LcXgvdjOVjaCWG2mWvgR8BvOhrh7lqrZ+o7wdsQ9slbQ3DzbS80XJqP1I8JOHhlLkK/JuHkBY2R+TYBR49aHw15pQLObjM2ClsuhsuZNwvOTdkbbnvHz3Hs7SycTz/T4NR7iGKXjxodGhYJoNtrdSH4BjMiArS4alCTLZL5MTfNDFiXigrgdbvxt7Vio7bXnTt4OE1U8nc6MqWp3a99u9eM2oKU5mtn9Hr35v0zKI3NV5GXRkody1R17da5XToG7VuC1nWNnuVHgjihsjx9rsFZp8TL0UAdctYhZWiQHle1Kz/fG/DJ8tNplMGy8oPE0YO1GmPlBzinSUPKEw7sWxBV030o0yeNFVI2/7AXynZ8x/OvOKEdLAIAVlA4IOoJAACQJgCdASpgAGAAPmkqj0WkIqEYfKcMQAaEswbbtEAToB+gH8AREoP70aKeun5/yAdaMbCFh5gHO78xXnT+mPeY/QA6XvyqqxHzd/Lc7XFnQQDe7QcAH1n4kPsfrN/3L/lewB+b/Qn+mPOh9W+wP+unps+w39vPZA/Xt230met/6yKKK1jOMUP9pg1rqhzjIIqRgdt8fT3+q9vLWbBHVCqLW0AKlt+zm3UKaOGm/au400KjT9Gigism7tE4GmKz6DSVnKEAook2pCaPAEDKcNGZ/5H/2j9NN5kBAW/6O50pfJbyHUk5P8Sgqg11HE7hlnzmxzhfj6/tPB598RjTri5kYV6QoI0GWesjOo1/kioe1iJQQF70wlfe+RoNvGtlgw0ikeIBSVMnSlGn49Kd6xgBaf44J8gtDEXgvkIogAD+/qU+v9ZpqCv9/S9skE///Si8buig46rwg7b76ho6S1Ke8p3hAvyZBEkj7inG7XUNkT267Ffw894T/ds4cgKWNFht2T2l14vCnMjMqU4rvTkCnhx5mFAwjqPIQ5TIKeezttw3oLnOus6ZQmtOaPzcr4JKQP98NgaGNIfFHydtkSNmx5Jt8cWQVK8v2BooL/Y4T3YIqvNFZcAn9VcWugn7OQQ82JoqJjhrtB8ut+bcuU/ZmZrpW72IQS1ttgGMvJWUEjUngzgX+PtZ1dG63T8ghzaJ9RgGYJHOyZvSn3eGrbiWmudcqz5x/+zL8TD//vK7//94zQISmGBWPyFAgG8Rp/6AOP+VRkP73+XrthFUkOx5ESx//6N5i+i+9qR68kdyaz0MH2Ry63GmgA8UtaTzqbYmtcApsjZkb/3R/Tvh7WuK1obJeE13yiutxziu2jks4xMpnoYLtMRKFtZdvqkFlynG7jfunrMdz14BoMHeNG5eT8U5AoI03lNeOb2DsTK9dzqpXCJlLB9YLCKj6rcUAWDavKx5cZSf5q3oNOpPCCxT6YKwSGLhALZQ7poXO4z9Lc2bI+zmemNCu44pt0AzfyZxONMYE3oZNl51Cn9DMcztV8ss6ofSNCHCN1Wuq6fVjYK7kR4KNwRMzQmBxbJR087eWt4xpon2YrRhWvJsLGc4Trx6AnmmmJw4e6lZRv6Fu7EKRhYAF+16Bs9Iz/AJZqa/h/EMbLh47yxBNavsh9jH+I2TBbN/m0H/GcPxLUBqDgmum9YfDuq1Pdd5Gsals9+KmR4C6FNPF0/4TrqGelLU5QOhUZD0vYrPh786uyJwW8ZAhTzN9FA1ZEubl/SnZ602PAZzbfYQ1AKfkwwp7141klhpMeGMqaiXFzfmjyS/6qDrEa6PzwSAFCk+y+QME90GJ6jE8z3/rb2Bzw443v/8e/vb9S7nwPQ2Oq7EQlD+Nn9V2SPAXytjdYxqviMJz64vIWMgj5zsMGfjBlilnGxjlr5aZmN5kDgRA+Pd2Q76RTGW7ou55a9ICClOK1WDixnJ+z1OFlbIgZZKEwQ5tGuvTyh5qXCw7+a8JM3qbLgOa/cNFg61A/x+9g4SHi1jsk2S8pHLoxtNc6udwrmplfGXins0HjlLtZPaG4zSitplBhoaQaEoHDaq1LTvgW6AE4ye4CX41eOMhpaASAnV6Wnf8Mv1Gswc8/m81Y3XXKW1ubIrG2ZLv4VI+TcX9fJHy4j1fY8a7D8PiUK1ZDL2jGqrvIUd2KnPE86XdDRzznZBn2VDL4kXbVdYqHJYxR9NQ+bLuDKeRSZAKAqVIYZ4LkPCdIhxzRi16ceZ/clyTECGcZ4twP7q5FhI1wynK9U3NXgK3yrWtTs3j/NsoKflRNISfdeSVY7RgGRwRtUNsbahJqmOODzpf20051F6zXlMiK3nVUAIXIOzfkqfCxu6L/+7GjNP4ncV/XYI+fvMzZBKDCTlSCv/ygMYLMcq/DVwvtJcFJeYXpCuLzY//ltm7CKrS92VFZ7aZ9vIIXb3Lbv+/6bSrd7nUFaNAB/huHQheMDB013wp12gOj2dQhnKaYa+xviXtw2vNLZUjFJNWYWWEzsCMppeyNuK8QP3LGD228FClHlq9kfBZRbXk7vO2BLYfYlU9VKh79NBarP5WheeqxDWSUhZvjI7UOjTLXN2TfQV3AJkFrc/9C3lL14owEhDNRbgS7ge23o2akyuzESu21ksIEP4oMOyoEzj4G9R+/cvsi0ECCiOVf2/T/qJ9SfFm9XjiDgD6aUelBg52OHxdX8CerLJT3/xN69Iz1Bf3e6th1aZz96k9uoKvIYvXXdcZ5jXizC6LvEI1jGV+xzWBvBSILUjAEq3QaaO8XEm3Hv+pfgQLs8jz/XrCyI4H6dHbzGcVZnZ0hjcYaV5mShyC1WBvH8euvE/06Eye8ZhY3xnLARjS786hiPxFEF8BOec2qFaWtkghdy7mx8YMw9W7408NChEy4WlXCSAHCrULl+8kkrF304UNL6zMIcPay1AKq7uzCuOpCc/771Mf9KLodNnZDTXmb4THtL6cXaL6p7zlpraubUPPeLY5+efa18N9OmWPXafQ+NhYaEnMhm3TYUDlkZ0+sOzKpD3KuQWnaSE4dfM3Y/H/DGm1Gm6F/C3SGcyx+HeO5s6+xAeFGtajzOLK0sZSZqJFvDQ082gxSDzE9lzJVB5FpmvRF0oKAzQYQVv5z6hLt1xqOVkZgHwjsRjf5Hr0FlG96mfMyCUhtzxZ+RB0YPb+7wnBNfLLOoGj8LRx3uj1Jf2qcqtR8fDiJTFQGv3fBJwnGzAg2/mbapsA+vjC3GG2L6aWMTUdIBL804DWfNpePvOsjdVCkbeDnCEZW78b8dnMYGS45A10i1g7eryhBAarr9yHi5TXjKU3KolOBamw0XWQwSY68nFvhyVzsToMFscRRulLR8RUAvjxKZQCPnftbrsk0qXAx7qGV9Z5zEg0JTgXDecSB6aBnduEMpnnwQTf77W2vzZAlOVFsGVqbIcEcUF/A4btRez/c1ATgn39a1/VS+u/FmUisiZuWl4VrIOFMBMKtK03u/c0F68+loqIWBiKrBpuze1VrlqC0tlrutsP0YF8pf/5tk/Bx+AN64DV/+ThDLE6X9/FDb0R6FbD+zk6dK8N//sFgAEj9mX/9VcTI8VbR1tinM5CXuqJu9xSG6b3vDh8Lh+isocb9Qb5O289FJ/VbhYN3PyWaWD3YfJ+xYsD7fZZUFMS+taunF04Ayp8H5f3kuvHDOBQAYMiEqLP5vIlwvNUrOvfqiIO/NjJxSRMu6YhQVX+HeCTJw8i0wX5tIWrJJ3K+l04wzHNmvCXTa8ZzcZCmPA941Aucn/cQWu/9yKALM6ugIyfTuQ5F5T4xf2zoM2lHkVwDD1dsI6/5N/Off/5vu//8204/yr/iTpqkAfPTyxellONVuAAAA=",
+        "versions": [
+          {
+            "version": "1.5.1",
+            "publishTimestamp": 1794146596,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cfc387510763d66b25be177eff1e40ae00ca99a8666dcc0ec96686ae388f5b01",
+      "evidence": [
+        {
+          "name": "dsh-kimi-subscription",
+          "version": "1.5.1",
+          "tarball": "https://registry.npmjs.org/dsh-kimi-subscription/-/dsh-kimi-subscription-1.5.1.tgz",
+          "integrity": "sha512-DxIpwCrtB9+baUCBfckMBuRKDHxmwRhCtcMd7WlO0sTGA1XySuo2xWq4Di7PyQKMp5NlWICD+YyKcslijlu8LA=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-kimi-subscription",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "93117a0247232deeaed8d797f8939912bda3f800d1640de37b29f21c0bcba32f",
+          "outputSha256": "d57e6a3c02d169fcdfc8b8b36e7b19caeabbe166ce838bf269d3111a743db09e",
+          "inputBytes": 208698,
+          "outputBytes": 4058
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-kimi-subscription@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BaronCyrus/dsh-kimi-subscription",
+    "commit": "1e0164815c9af0ba429a59549ba3b033df2dd01f",
+    "releaseTags": 41,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:00.635Z"
+}

@@ -1,0 +1,125 @@
+{
+  "full_name": "GooDAnDReaDY/dsh-dsml-artifact-guard",
+  "originalPosition": 163,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 163,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:50.745Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0affffd887b641274cbc0e8d987f748ef842a4a652ae6446e96e42bc00ef4633",
+      "url": "https://github.com/GooDAnDReaDY/dsh-dsml-artifact-guard/blob/23604a1c228a4f0f806c9d82db8901290aa6bb83/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-dsml-artifact-guard",
+          "command": "dsh plugin --profile web add @goodandready/dsh-dsml-artifact-guard",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "18a346f48fed256522df899100e16efee082316ebddb2770d3c5bcc4f7cf2b3c",
+      "url": "https://github.com/GooDAnDReaDY/dsh-dsml-artifact-guard/blob/23604a1c228a4f0f806c9d82db8901290aa6bb83/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-dsml-artifact-guard",
+          "command": "dsh plugin --profile web add @goodandready/dsh-dsml-artifact-guard",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@goodandready/dsh-dsml-artifact-guard",
+      "version": "0.2.16",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GooDAnDReaDY/dsh-dsml-artifact-guard",
+        "commit": "23604a1c228a4f0f806c9d82db8901290aa6bb83"
+      },
+      "manifestSha256": "d3b54d72239d1417e580cf21194f45e23ed2136d204cfb7586bceac8e0cfcf6a",
+      "manifestUrl": "https://github.com/GooDAnDReaDY/dsh-dsml-artifact-guard/blob/23604a1c228a4f0f806c9d82db8901290aa6bb83/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@goodandready/dsh-dsml-artifact-guard",
+        "versions": [
+          {
+            "version": "0.2.16",
+            "publishTimestamp": 1794478568,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GooDAnDReaDY/dsh-dsml-artifact-guard",
+              "commit": "23604a1c228a4f0f806c9d82db8901290aa6bb83"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@goodandready/dsh-dsml-artifact-guard",
+      "origin": "npm",
+      "name": "@goodandready/dsh-dsml-artifact-guard",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@goodandready/dsh-dsml-artifact-guard",
+        "title": "@goodandready/dsh-dsml-artifact-guard",
+        "description": "Sanitizes leaked DeepSeek DSML closing tags and reasoning artifacts from model text streams",
+        "versions": [
+          {
+            "version": "0.2.16",
+            "publishTimestamp": 1794478702,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "949f8c1aac7b001465249edee46bf6d5282324b2b75e4b05ae570d6081bd5071",
+      "evidence": [
+        {
+          "name": "@goodandready/dsh-dsml-artifact-guard",
+          "version": "0.2.16",
+          "tarball": "https://registry.npmjs.org/@goodandready/dsh-dsml-artifact-guard/-/dsh-dsml-artifact-guard-0.2.16.tgz",
+          "integrity": "sha512-c7MadpRmZzxlTIGGpha1YzLDuWZlFmjtAZtJPEgs/0wIKdEugoeDVWKBUotSkUAUqMOg7aPuhwBj+RU0USgd7w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@goodandready/dsh-dsml-artifact-guard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GooDAnDReaDY/dsh-dsml-artifact-guard",
+    "commit": "23604a1c228a4f0f806c9d82db8901290aa6bb83",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:00.928Z"
+}

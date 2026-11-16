@@ -1,0 +1,92 @@
+{
+  "full_name": "cinob/dsh-web-search-multi",
+  "originalPosition": 96,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 96,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:36.678Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "70d4608e57e2e93e078a1d135d9ec70190bb3cf03453edd37421345150cb0c9d",
+      "url": "https://github.com/cinob/dsh-web-search-multi/blob/9821080e36dbd81dd75fd582fb687944244ec293/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/cinob/dsh-web-search-multi",
+          "command": "dsh plugin --profile web add github:cinob/dsh-web-search-multi",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "532d652babeaf5d433db31f77e9fd77f6b96765f7d0f20d4bdcb3025ad8ecce4",
+      "url": "https://github.com/cinob/dsh-web-search-multi/blob/9821080e36dbd81dd75fd582fb687944244ec293/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/cinob/dsh-web-search-multi",
+          "command": "dsh plugin --profile web add github:cinob/dsh-web-search-multi",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-search-multi",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cinob/dsh-web-search-multi",
+        "commit": "9821080e36dbd81dd75fd582fb687944244ec293"
+      },
+      "manifestSha256": "90ede41ad0c1a177416deb7d2afdffde0c84cc15cca1348853dd17a68b10005e",
+      "manifestUrl": "https://github.com/cinob/dsh-web-search-multi/blob/9821080e36dbd81dd75fd582fb687944244ec293/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-web-search-multi",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793590750,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/cinob/dsh-web-search-multi",
+              "commit": "9821080e36dbd81dd75fd582fb687944244ec293"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/cinob/dsh-web-search-multi",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cinob/dsh-web-search-multi",
+    "commit": "9821080e36dbd81dd75fd582fb687944244ec293",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:16:46.292Z"
+}

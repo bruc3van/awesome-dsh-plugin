@@ -1,0 +1,138 @@
+{
+  "full_name": "HengryLiang/dsh-plugin-ai-drama",
+  "originalPosition": 109,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 109,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:06:55.340Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "92211514cf16500de7ce27db32748975720791a4f43924e3219f3d7d8f35d6bb",
+      "url": "https://github.com/HengryLiang/dsh-plugin-ai-drama/blob/a8ad3c052252688dd083f40bc943fe54d8372872/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/HengryLiang/dsh-plugin-ai-drama#v0.16.319",
+          "command": "dsh plugin --profile <profile> add github:HengryLiang/dsh-plugin-ai-drama#v0.16.319",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-ai-drama",
+      "version": "0.16.319",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HengryLiang/dsh-plugin-ai-drama",
+        "commit": "a8ad3c052252688dd083f40bc943fe54d8372872"
+      },
+      "manifestSha256": "2dc13d6283b4ff0d604992d7825ea2393d735117bc7f0e49a2d15d5b4ae7ebd9",
+      "manifestUrl": "https://github.com/HengryLiang/dsh-plugin-ai-drama/blob/a8ad3c052252688dd083f40bc943fe54d8372872/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-ai-drama",
+        "versions": [
+          {
+            "version": "0.16.319",
+            "publishTimestamp": 1794633869,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HengryLiang/dsh-plugin-ai-drama",
+              "commit": "a8ad3c052252688dd083f40bc943fe54d8372872"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/HengryLiang/dsh-plugin-ai-drama#v0.16.319",
+      "origin": "git_target",
+      "name": "dsh-plugin-ai-drama",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-ai-drama",
+        "title": "dsh-plugin-ai-drama",
+        "description": "DeepSeek Harness 插件：AI 短剧工作区（立项 / 总纲 / 人物 / 剧本 / 分镜 / 素材 / 导出）+「短剧模式」Agent 预设（33 个 drama_* 工具、19 个随包技能、14 页签面板）",
+        "author": "HengryLiang",
+        "homepage": "https://github.com/HengryLiang/dsh-plugin-ai-drama#readme",
+        "repository": {
+          "url": "https://github.com/HengryLiang/dsh-plugin-ai-drama"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "dsh",
+            "ai-drama",
+            "short-drama",
+            "storyboard",
+            "screenwriting",
+            "video-creation",
+            "asset-management",
+            "agent-preset",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.16.319",
+            "publishTimestamp": 1794633869,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HengryLiang/dsh-plugin-ai-drama",
+              "commit": "a8ad3c052252688dd083f40bc943fe54d8372872"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "a8ad3c052252688dd083f40bc943fe54d8372872",
+          "name": "dsh-plugin-ai-drama",
+          "version": "0.16.319",
+          "url": "https://github.com/HengryLiang/dsh-plugin-ai-drama",
+          "manifestSha256": "2dc13d6283b4ff0d604992d7825ea2393d735117bc7f0e49a2d15d5b4ae7ebd9",
+          "publishTimestamp": 1794633869
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/HengryLiang/dsh-plugin-ai-drama#v0.16.319",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HengryLiang/dsh-plugin-ai-drama",
+    "commit": "a8ad3c052252688dd083f40bc943fe54d8372872",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:11.734Z"
+}

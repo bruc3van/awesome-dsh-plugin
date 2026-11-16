@@ -1,0 +1,95 @@
+{
+  "full_name": "01NGVI-QINGYI/no-ai-style",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:02.219Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "07a024fa409b26086c00db10d240a1c4c2ef98a501c87b6a3179c17c8e8bce21",
+      "url": "https://github.com/01NGVI-QINGYI/no-ai-style/blob/0686d4ac7256daf79fcc8ac1a24c5a41c710cfb2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/01NGVI-QINGYI/no-ai-style",
+          "command": "dsh plugin --profile web add github:01NGVI-QINGYI/no-ai-style",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "46225d0dfd4818416629fd07247c477463dbfdf0ba7eadcb60a865adcf96336e",
+      "url": "https://github.com/01NGVI-QINGYI/no-ai-style/blob/0686d4ac7256daf79fcc8ac1a24c5a41c710cfb2/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/01NGVI-QINGYI/no-ai-style",
+          "command": "dsh plugin --profile web add github:01NGVI-QINGYI/no-ai-style",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "no-ai-style",
+      "version": "1.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/01NGVI-QINGYI/no-ai-style",
+        "commit": "0686d4ac7256daf79fcc8ac1a24c5a41c710cfb2"
+      },
+      "manifestSha256": "20af51617bdcabb1fe41157396cef11bef57ac67bea1ccf3a13161115eb72417",
+      "manifestUrl": "https://github.com/01NGVI-QINGYI/no-ai-style/blob/0686d4ac7256daf79fcc8ac1a24c5a41c710cfb2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "no-ai-style",
+        "versions": [
+          {
+            "version": "1.2.2",
+            "publishTimestamp": 1794329425,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/01NGVI-QINGYI/no-ai-style",
+              "commit": "0686d4ac7256daf79fcc8ac1a24c5a41c710cfb2"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/01NGVI-QINGYI/no-ai-style",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/01NGVI-QINGYI/no-ai-style",
+    "commit": "0686d4ac7256daf79fcc8ac1a24c5a41c710cfb2",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:12.792Z"
+}

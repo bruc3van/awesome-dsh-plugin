@@ -1,0 +1,185 @@
+{
+  "full_name": "LyaxZ/dsh-fonttune",
+  "originalPosition": 175,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 175,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:18.182Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f810bd1aae1444249f3715d214968678ff47b877e5ea8cc8874f8a9ee00535a7",
+      "url": "https://github.com/LyaxZ/dsh-fonttune/blob/c3bec89a279d738f9bf8d6a25097a354af293b9f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-fonttune",
+          "command": "dsh plugin --profile web add dsh-fonttune",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/LyaxZ/dsh-fonttune",
+          "command": "dsh plugin --profile web add github:LyaxZ/dsh-fonttune",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "1ec53b03b458bfcd4ba5ca4101202db8692ca557fdf224907eeed2e5dd333dd9",
+      "url": "https://github.com/LyaxZ/dsh-fonttune/blob/c3bec89a279d738f9bf8d6a25097a354af293b9f/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-fonttune",
+          "command": "dsh plugin --profile web add dsh-fonttune",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/LyaxZ/dsh-fonttune",
+          "command": "dsh plugin --profile web add github:LyaxZ/dsh-fonttune",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fonttune",
+      "version": "0.7.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LyaxZ/dsh-fonttune",
+        "commit": "c3bec89a279d738f9bf8d6a25097a354af293b9f"
+      },
+      "manifestSha256": "ad5772bd4f31c356b22cd154698a5ab687f754d1ca43fc7e6c3fb77eda06d624",
+      "manifestUrl": "https://github.com/LyaxZ/dsh-fonttune/blob/c3bec89a279d738f9bf8d6a25097a354af293b9f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-fonttune",
+        "versions": [
+          {
+            "version": "0.7.9",
+            "publishTimestamp": 1794451792,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LyaxZ/dsh-fonttune",
+              "commit": "c3bec89a279d738f9bf8d6a25097a354af293b9f"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-fonttune",
+      "origin": "npm",
+      "name": "dsh-fonttune",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-fonttune",
+        "title": {
+          "en": "Font tune (dsh-fonttune)",
+          "zh": "字体增强（dsh-fonttune）"
+        },
+        "description": {
+          "en": "Interface and conversation fonts, size, weight and line height, CJK type shaping (tracking, paragraph gaps, first-line indent), code extras and presets",
+          "zh": "界面与对话字体、字号/字重/行高，字距/段距/首行缩进等中文排印，代码增强与预设方案"
+        },
+        "repository": {
+          "url": "https://github.com/LyaxZ/dsh-fonttune"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "font",
+            "font-family",
+            "font-size",
+            "font-weight",
+            "typography"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSIyLjUiIHk9IjIuNSIgd2lkdGg9IjMxIiBoZWlnaHQ9IjMxIiByeD0iOSIgZmlsbD0idXJsKCN0aWxlKSIvPgogIDxwYXRoIGQ9Ik00MzEuMDAgMjI0LjUwTDQyOS41MCAyMjYuMDBMMjg5LjUwIDY0Ni4wMEwyODUuMDAgNjQ3LjUwTDI3My4wMCA2NDguNTBMMjcyLjAwIDY0OS41MEwyNDAuMDAgNjUzLjUwTDIzOC41MCA2NTUuMDBMMjM4LjUwIDY3NC4wMEwzNzUuNTAgNjc0LjAwTDM3NS4wMCA2NTMuNTBMMzU0LjAwIDY1MS41MEwzNTMuMDAgNjUwLjUwTDMyNS4wMCA2NDcuNTBMMzIwLjUwIDY0Ni4wMEwzNTYuMDAgNTMyLjUwTDQ5Ny4wMCA1MzIuNTBMNTAxLjUwIDU0NC4wMEw1MDEuNTAgNTQ3LjAwTDUwOC41MCA1NjYuMDBMNTA4LjUwIDU2OS4wMEw1MTUuNTAgNTg4LjAwTDUxNS41MCA1OTEuMDBMNTIyLjUwIDYxMC4wMEw1MjIuNTAgNjEzLjAwTDUyOS41MCA2MzIuMDBMNTI5LjUwIDYzNS4wMEw1MzMuNTAgNjQ3LjAwTDQ3Ni4wMCA2NTMuNTBMNDc2LjAwIDY3NC41MEw2NzkuMDAgNjc0LjUwTDY3OS4wMCA2NTMuNTBMNjU3LjAwIDY1MS41MEw2NTYuMDAgNjUwLjUwTDY0Ny4wMCA2NTAuNTBMNjQ2LjAwIDY0OS41MEw2MzguMDAgNjQ5LjUwTDYzNi41MCA2NDcuMDBMNjI0LjUwIDYwOS4wMEw2MjIuNTAgNjA2LjAwTDYxMC41MCA1NjguMDBMNjA4LjUwIDU2NS4wMEw1OTYuNTAgNTI3LjAwTDU5NC41MCA1MjQuMDBMNTgxLjUwIDQ4My4wMEw1NzkuNTAgNDgwLjAwTDU2Ny41MCA0NDIuMDBMNTY1LjUwIDQzOS4wMEw1NTMuNTAgNDAxLjAwTDU1MS41MCAzOTguMDBMNTM5LjUwIDM2MC4wMEw1MzcuNTAgMzU3LjAwTDQ5My41MCAyMjYuMDBMNDkyLjAwIDIyNC41MFogTTQyNi4wMCAzMDguNTBMNDIwLjUwIDMyMy4wMEw0MjAuNTAgMzI2LjAwTDQxNS41MCAzMzkuMDBMNDExLjUwIDM1NS4wMEw0MDYuNTAgMzY4LjAwTDQwNi41MCAzNzEuMDBMNDAxLjUwIDM4NC4wMEw0MDEuNTAgMzg3LjAwTDM5Ny41MCAzOTcuMDBMMzk3LjUwIDQwMC4wMEwzOTIuNTAgNDEzLjAwTDM5Mi41MCA0MTYuMDBMMzg3LjUwIDQyOS4wMEwzODcuNTAgNDMyLjAwTDM4My41MCA0NDIuMDBMMzgzLjUwIDQ0NS4wMEwzNzguNTAgNDU4LjAwTDM3OC41MCA0NjEuMDBMMzczLjUwIDQ3NC4wMEwzNzMuNTAgNDc3LjAwTDM2OC41MCA0OTAuMDBMMzY4LjUwIDQ5My4wMEwzNjIuNTAgNTExLjAwTDQ5MC4wMCA1MTEuNTBMNDkwLjUwIDUxMC4wMEw0ODcuNTAgNTAzLjAwTDQ4Ny41MCA1MDAuMDBMNDgwLjUwIDQ4MS4wMEw0ODAuNTAgNDc4LjAwTDQ3My41MCA0NTkuMDBMNDczLjUwIDQ1Ni4wMEw0NjYuNTAgNDM3LjAwTDQ2Ni41MCA0MzQuMDBMNDU5LjUwIDQxNS4wMEw0NTkuNTAgNDEyLjAwTDQ1MS41MCAzOTAuMDBMNDUxLjUwIDM4Ny4wMEw0NDQuNTAgMzY4LjAwTDQ0NC41MCAzNjUuMDBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMS4xNjQgLTEuNTE4KSBzY2FsZSgwLjAzNjA4MCkiIGZpbGw9InVybCgjZ2x5cGgpIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KICA8cGF0aCBkPSJNNDU2LjAwIDI4MC41MEw0NTUuMDAgMjgxLjUwTDQ0MC4wMCAyODEuNTBMNDMyLjAwIDI4My41MEw0MjUuMDAgMjgzLjUwTDM5OS4wMCAyODkuNTBMMzg1LjAwIDI5NC41MEwzNjEuMDAgMzA3LjUwTDM1Mi4wMCAzMTQuNTBMMzQxLjUwIDMyNS4wMEwzMzIuNTAgMzM4LjAwTDMyNi41MCAzNTEuMDBMMzI1LjUwIDM1Ny4wMEwzMjMuNTAgMzYxLjAwTDMyMi41MCAzNzQuMDBMMzI2LjUwIDM4NC4wMEwzMzEuNTAgMzkxLjAwTDMzNS4wMCAzOTQuNTBMMzQ1LjAwIDQwMC41MEwzNTcuMDAgNDAzLjUwTDM2OC4wMCA0MDMuNTBMMzY5LjAwIDQwMi41MEwzNzguMDAgNDAxLjUwTDM4OC4wMCAzOTYuNTBMMzk0LjAwIDM5MS41MEwzOTcuNTAgMzg4LjAwTDQwMy41MCAzNzguMDBMNDA4LjUwIDM1OS4wMEw0MTIuNTAgMzA1LjAwTDQxNC4wMCAzMDMuNTBMNDI4LjAwIDMwMi41MEw0MjkuMDAgMzAxLjUwTDQ0OS4wMCAzMDEuNTBMNDUwLjAwIDMwMi41MEw0NTYuMDAgMzAyLjUwTDQ1Ny4wMCAzMDMuNTBMNDY1LjAwIDMwNC41MEw0NzkuMDAgMzExLjUwTDQ4Ni41MCAzMTkuMDBMNDkwLjUwIDMyNi4wMEw0OTQuNTAgMzM3LjAwTDQ5Ni41MCAzNTMuMDBMNDk3LjUwIDM1NC4wMEw0OTcuNTAgMzY0LjAwTDQ5OC41MCAzNjUuMDBMNDk4LjUwIDQxOS4wMEw0NTcuMDAgNDI5LjUwTDQzMi4wMCA0MzcuNTBMNDI5LjAwIDQzNy41MEwzOTYuMDAgNDQ4LjUwTDM4MS4wMCA0NTQuNTBMMzYxLjAwIDQ2NC41MEwzNDEuMDAgNDc4LjUwTDMzMC41MCA0ODkuMDBMMzIzLjUwIDQ5OS4wMEwzMTguNTAgNTA5LjAwTDMxNC41MCA1MjEuMDBMMzEzLjUwIDUzMS4wMEwzMTIuNTAgNTMyLjAwTDMxMi41MCA1NDUuMDBMMzExLjUwIDU0Ny4wMEwzMTIuNTAgNTQ4LjAwTDMxMy41MCA1NjYuMDBMMzE3LjUwIDU4MC4wMEwzMjYuNTAgNTk2LjAwTDM0MS4wMCA2MTAuNTBMMzYwLjAwIDYyMS41MEwzODIuMDAgNjI3LjUwTDQxMS4wMCA2MjguNTBMNDEyLjAwIDYyNy41MEw0MjYuMDAgNjI2LjUwTDQ0OC4wMCA2MTkuNTBMNDYxLjAwIDYxMi41MEw0NzIuMDAgNjA0LjUwTDUwMS4wMCA1NzYuNTBMNTA3LjUwIDU5My4wMEw1MTUuNTAgNjA1LjAwTDUyNi4wMCA2MTUuNTBMNTM2LjAwIDYyMS41MEw1NDcuMDAgNjI1LjUwTDU1Ny4wMCA2MjYuNTBMNTU4LjAwIDYyNy41MEw1ODYuMDAgNjI3LjUwTDYxMC4wMCA2MjEuNTBMNjI0LjAwIDYxMy41MEw2MzIuNTAgNjA2LjAwTDY0Mi41MCA1OTMuMDBMNjQ4LjUwIDU4MS4wMEw2MzguMDAgNTczLjUwTDYzMC41MCA1ODQuMDBMNjIyLjAwIDU5Mi41MEw2MTYuMDAgNTk1LjUwTDYwNS4wMCA1OTUuNTBMNjAzLjAwIDU5NC41MEw1OTcuNTAgNTg5LjAwTDU5NS41MCA1ODUuMDBMNTk0LjUwIDU3Ny4wMEw1OTMuNTAgNTc2LjAwTDU5My41MCAzOTIuMDBMNTkyLjUwIDM5MS4wMEw1OTIuNTAgMzc5LjAwTDU5MS41MCAzNzguMDBMNTkwLjUwIDM2NC4wMEw1ODYuNTAgMzQ3LjAwTDU4NC41MCAzNDQuMDBMNTgyLjUwIDMzNi4wMEw1NzIuNTAgMzE4LjAwTDU2MS4wMCAzMDUuNTBMNTQ3LjAwIDI5NS41MEw1MzYuMDAgMjkwLjUwTDUxNy4wMCAyODQuNTBMNTAwLjAwIDI4Mi41MEw0OTkuMDAgMjgxLjUwWiBNNDk3LjAwIDQzNS41MEw0NzAuMDAgNDQ0LjUwTDQ2NC4wMCA0NDUuNTBMNDQ4LjAwIDQ1My41MEw0MzkuMDAgNDU5LjUwTDQyMS41MCA0NzUuMDBMNDExLjUwIDQ4OS4wMEw0MDguNTAgNDk1LjAwTDQwNC41MCA1MDYuMDBMNDAzLjUwIDUxNC4wMEw0MDIuNTAgNTE1LjAwTDQwMi41MCA1MjIuMDBMNDAxLjUwIDUyMy4wMEw0MDEuNTAgNTQ1LjAwTDQwMi41MCA1NDYuMDBMNDAyLjUwIDU1Mi4wMEw0MDUuNTAgNTYyLjAwTDQxMC41MCA1NzEuMDBMNDIwLjAwIDU4MC41MEw0MjcuMDAgNTg0LjUwTDQzOS4wMCA1ODcuNTBMNDUzLjAwIDU4Ny41MEw0NjMuMDAgNTg0LjUwTDQ4Mi4wMCA1NzMuNTBMNDk4LjUwIDU1OS4wMEw0OTguNTAgNDM2LjAwWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNS4zODUgMC4zNTkpIHNjYWxlKDAuMDM1NzM1KSIgZmlsbD0idXJsKCNnbHlwaCkiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPgogIDxnIGNsaXAtcGF0aD0idXJsKCNjbGlwQykiPgogICAgPHBhdGggZD0iTTQ1Ni4wMCAyODAuNTBMNDU1LjAwIDI4MS41MEw0NDAuMDAgMjgxLjUwTDQzMi4wMCAyODMuNTBMNDI1LjAwIDI4My41MEwzOTkuMDAgMjg5LjUwTDM4NS4wMCAyOTQuNTBMMzYxLjAwIDMwNy41MEwzNTIuMDAgMzE0LjUwTDM0MS41MCAzMjUuMDBMMzMyLjUwIDMzOC4wMEwzMjYuNTAgMzUxLjAwTDMyNS41MCAzNTcuMDBMMzIzLjUwIDM2MS4wMEwzMjIuNTAgMzc0LjAwTDMyNi41MCAzODQuMDBMMzMxLjUwIDM5MS4wMEwzMzUuMDAgMzk0LjUwTDM0NS4wMCA0MDAuNTBMMzU3LjAwIDQwMy41MEwzNjguMDAgNDAzLjUwTDM2OS4wMCA0MDIuNTBMMzc4LjAwIDQwMS41MEwzODguMDAgMzk2LjUwTDM5NC4wMCAzOTEuNTBMMzk3LjUwIDM4OC4wMEw0MDMuNTAgMzc4LjAwTDQwOC41MCAzNTkuMDBMNDEyLjUwIDMwNS4wMEw0MTQuMDAgMzAzLjUwTDQyOC4wMCAzMDIuNTBMNDI5LjAwIDMwMS41MEw0NDkuMDAgMzAxLjUwTDQ1MC4wMCAzMDIuNTBMNDU2LjAwIDMwMi41MEw0NTcuMDAgMzAzLjUwTDQ2NS4wMCAzMDQuNTBMNDc5LjAwIDMxMS41MEw0ODYuNTAgMzE5LjAwTDQ5MC41MCAzMjYuMDBMNDk0LjUwIDMzNy4wMEw0OTYuNTAgMzUzLjAwTDQ5Ny41MCAzNTQuMDBMNDk3LjUwIDM2NC4wMEw0OTguNTAgMzY1LjAwTDQ5OC41MCA0MTkuMDBMNDU3LjAwIDQyOS41MEw0MzIuMDAgNDM3LjUwTDQyOS4wMCA0MzcuNTBMMzk2LjAwIDQ0OC41MEwzODEuMDAgNDU0LjUwTDM2MS4wMCA0NjQuNTBMMzQxLjAwIDQ3OC41MEwzMzAuNTAgNDg5LjAwTDMyMy41MCA0OTkuMDBMMzE4LjUwIDUwOS4wMEwzMTQuNTAgNTIxLjAwTDMxMy41MCA1MzEuMDBMMzEyLjUwIDUzMi4wMEwzMTIuNTAgNTQ1LjAwTDMxMS41MCA1NDcuMDBMMzEyLjUwIDU0OC4wMEwzMTMuNTAgNTY2LjAwTDMxNy41MCA1ODAuMDBMMzI2LjUwIDU5Ni4wMEwzNDEuMDAgNjEwLjUwTDM2MC4wMCA2MjEuNTBMMzgyLjAwIDYyNy41MEw0MTEuMDAgNjI4LjUwTDQxMi4wMCA2MjcuNTBMNDI2LjAwIDYyNi41MEw0NDguMDAgNjE5LjUwTDQ2MS4wMCA2MTIuNTBMNDcyLjAwIDYwNC41MEw1MDEuMDAgNTc2LjUwTDUwNy41MCA1OTMuMDBMNTE1LjUwIDYwNS4wMEw1MjYuMDAgNjE1LjUwTDUzNi4wMCA2MjEuNTBMNTQ3LjAwIDYyNS41MEw1NTcuMDAgNjI2LjUwTDU1OC4wMCA2MjcuNTBMNTg2LjAwIDYyNy41MEw2MTAuMDAgNjIxLjUwTDYyNC4wMCA2MTMuNTBMNjMyLjUwIDYwNi4wMEw2NDIuNTAgNTkzLjAwTDY0OC41MCA1ODEuMDBMNjM4LjAwIDU3My41MEw2MzAuNTAgNTg0LjAwTDYyMi4wMCA1OTIuNTBMNjE2LjAwIDU5NS41MEw2MDUuMDAgNTk1LjUwTDYwMy4wMCA1OTQuNTBMNTk3LjUwIDU4OS4wMEw1OTUuNTAgNTg1LjAwTDU5NC41MCA1NzcuMDBMNTkzLjUwIDU3Ni4wMEw1OTMuNTAgMzkyLjAwTDU5Mi41MCAzOTEuMDBMNTkyLjUwIDM3OS4wMEw1OTEuNTAgMzc4LjAwTDU5MC41MCAzNjQuMDBMNTg2LjUwIDM0Ny4wMEw1ODQuNTAgMzQ0LjAwTDU4Mi41MCAzMzYuMDBMNTcyLjUwIDMxOC4wMEw1NjEuMDAgMzA1LjUwTDU0Ny4wMCAyOTUuNTBMNTM2LjAwIDI5MC41MEw1MTcuMDAgMjg0LjUwTDUwMC4wMCAyODIuNTBMNDk5LjAwIDI4MS41MFogTTQ5Ny4wMCA0MzUuNTBMNDcwLjAwIDQ0NC41MEw0NjQuMDAgNDQ1LjUwTDQ0OC4wMCA0NTMuNTBMNDM5LjAwIDQ1OS41MEw0MjEuNTAgNDc1LjAwTDQxMS41MCA0ODkuMDBMNDA4LjUwIDQ5NS4wMEw0MDQuNTAgNTA2LjAwTDQwMy41MCA1MTQuMDBMNDAyLjUwIDUxNS4wMEw0MDIuNTAgNTIyLjAwTDQwMS41MCA1MjMuMDBMNDAxLjUwIDU0NS4wMEw0MDIuNTAgNTQ2LjAwTDQwMi41MCA1NTIuMDBMNDA1LjUwIDU2Mi4wMEw0MTAuNTAgNTcxLjAwTDQyMC4wMCA1ODAuNTBMNDI3LjAwIDU4NC41MEw0MzkuMDAgNTg3LjUwTDQ1My4wMCA1ODcuNTBMNDYzLjAwIDU4NC41MEw0ODIuMDAgNTczLjUwTDQ5OC41MCA1NTkuMDBMNDk4LjUwIDQzNi4wMFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUuMzg1IDAuMzU5KSBzY2FsZSgwLjAzNTczNSkiIGZpbGw9IiMxRTNBOEEiIGZpbGwtb3BhY2l0eT0iMC40MjAiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPgogIDwvZz4KICA8cmVjdCB4PSI4LjUwIiB5PSIyNi4wMCIgd2lkdGg9IjE5IiBoZWlnaHQ9IjIuNiIgcng9IjEuMzAiIGZpbGw9IiNGRkZGRkYiIGZpbGwtb3BhY2l0eT0iMC42Ii8+CiAgPGNpcmNsZSBjeD0iMjMiIGN5PSIyNy4zMCIgcj0iMi44IiBmaWxsPSIjRkJCRjI0Ii8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InRpbGUiIHgxPSIyLjUiIHkxPSIyLjUiIHgyPSIzMy41IiB5Mj0iMzMuNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNkVBNUZGIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjM0E2N0RFIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJnbHlwaCIgeDE9IjE4IiB5MT0iNi42MCIgeDI9IjE4IiB5Mj0iMjIuOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRkZGRkZGIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRENFOUZGIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGNsaXBQYXRoIGlkPSJjbGlwQyI+CiAgICAgIDxwYXRoIGQ9Ik00MzEuMDAgMjI0LjUwTDQyOS41MCAyMjYuMDBMMjg5LjUwIDY0Ni4wMEwyODUuMDAgNjQ3LjUwTDI3My4wMCA2NDguNTBMMjcyLjAwIDY0OS41MEwyNDAuMDAgNjUzLjUwTDIzOC41MCA2NTUuMDBMMjM4LjUwIDY3NC4wMEwzNzUuNTAgNjc0LjAwTDM3NS4wMCA2NTMuNTBMMzU0LjAwIDY1MS41MEwzNTMuMDAgNjUwLjUwTDMyNS4wMCA2NDcuNTBMMzIwLjUwIDY0Ni4wMEwzNTYuMDAgNTMyLjUwTDQ5Ny4wMCA1MzIuNTBMNTAxLjUwIDU0NC4wMEw1MDEuNTAgNTQ3LjAwTDUwOC41MCA1NjYuMDBMNTA4LjUwIDU2OS4wMEw1MTUuNTAgNTg4LjAwTDUxNS41MCA1OTEuMDBMNTIyLjUwIDYxMC4wMEw1MjIuNTAgNjEzLjAwTDUyOS41MCA2MzIuMDBMNTI5LjUwIDYzNS4wMEw1MzMuNTAgNjQ3LjAwTDQ3Ni4wMCA2NTMuNTBMNDc2LjAwIDY3NC41MEw2NzkuMDAgNjc0LjUwTDY3OS4wMCA2NTMuNTBMNjU3LjAwIDY1MS41MEw2NTYuMDAgNjUwLjUwTDY0Ny4wMCA2NTAuNTBMNjQ2LjAwIDY0OS41MEw2MzguMDAgNjQ5LjUwTDYzNi41MCA2NDcuMDBMNjI0LjUwIDYwOS4wMEw2MjIuNTAgNjA2LjAwTDYxMC41MCA1NjguMDBMNjA4LjUwIDU2NS4wMEw1OTYuNTAgNTI3LjAwTDU5NC41MCA1MjQuMDBMNTgxLjUwIDQ4My4wMEw1NzkuNTAgNDgwLjAwTDU2Ny41MCA0NDIuMDBMNTY1LjUwIDQzOS4wMEw1NTMuNTAgNDAxLjAwTDU1MS41MCAzOTguMDBMNTM5LjUwIDM2MC4wMEw1MzcuNTAgMzU3LjAwTDQ5My41MCAyMjYuMDBMNDkyLjAwIDIyNC41MFogTTQyNi4wMCAzMDguNTBMNDIwLjUwIDMyMy4wMEw0MjAuNTAgMzI2LjAwTDQxNS41MCAzMzkuMDBMNDExLjUwIDM1NS4wMEw0MDYuNTAgMzY4LjAwTDQwNi41MCAzNzEuMDBMNDAxLjUwIDM4NC4wMEw0MDEuNTAgMzg3LjAwTDM5Ny41MCAzOTcuMDBMMzk3LjUwIDQwMC4wMEwzOTIuNTAgNDEzLjAwTDM5Mi41MCA0MTYuMDBMMzg3LjUwIDQyOS4wMEwzODcuNTAgNDMyLjAwTDM4My41MCA0NDIuMDBMMzgzLjUwIDQ0NS4wMEwzNzguNTAgNDU4LjAwTDM3OC41MCA0NjEuMDBMMzczLjUwIDQ3NC4wMEwzNzMuNTAgNDc3LjAwTDM2OC41MCA0OTAuMDBMMzY4LjUwIDQ5My4wMEwzNjIuNTAgNTExLjAwTDQ5MC4wMCA1MTEuNTBMNDkwLjUwIDUxMC4wMEw0ODcuNTAgNTAzLjAwTDQ4Ny41MCA1MDAuMDBMNDgwLjUwIDQ4MS4wMEw0ODAuNTAgNDc4LjAwTDQ3My41MCA0NTkuMDBMNDczLjUwIDQ1Ni4wMEw0NjYuNTAgNDM3LjAwTDQ2Ni41MCA0MzQuMDBMNDU5LjUwIDQxNS4wMEw0NTkuNTAgNDEyLjAwTDQ1MS41MCAzOTAuMDBMNDUxLjUwIDM4Ny4wMEw0NDQuNTAgMzY4LjAwTDQ0NC41MCAzNjUuMDBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMS4xNjQgLTEuNTE4KSBzY2FsZSgwLjAzNjA4MCkiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPgogICAgPC9jbGlwUGF0aD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.7.9",
+            "publishTimestamp": 1794452055,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.2.2-rc.3"
+            }
+          },
+          {
+            "version": "0.7.7",
+            "publishTimestamp": 1793817893,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d1c2a52640e6b73daa1b33b731008d1eb689c2737b31b34c4d8ab6f5b4298ba0",
+      "evidence": [
+        {
+          "name": "dsh-fonttune",
+          "version": "0.7.9",
+          "tarball": "https://registry.npmjs.org/dsh-fonttune/-/dsh-fonttune-0.7.9.tgz",
+          "integrity": "sha512-fpRoWa0HW7rioCW5ZOyFMGL89a6TDLlBFo9MpH2GUmzYOdnJjInrdan4NGGLSwROJOl+H/iwAmpiwtUcFqrtzQ=="
+        },
+        {
+          "name": "dsh-fonttune",
+          "version": "0.7.7",
+          "tarball": "https://registry.npmjs.org/dsh-fonttune/-/dsh-fonttune-0.7.7.tgz",
+          "integrity": "sha512-NI88xiuIXzn8H7v8wVm60hyNKCp8uSwl3fC09D1bTMFECEOEf5oPaGixtR8S6msybRl/vrGNQUiyP+In8wW5dw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-fonttune",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LyaxZ/dsh-fonttune",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LyaxZ/dsh-fonttune",
+    "commit": "c3bec89a279d738f9bf8d6a25097a354af293b9f",
+    "releaseTags": 38,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:31.473Z"
+}

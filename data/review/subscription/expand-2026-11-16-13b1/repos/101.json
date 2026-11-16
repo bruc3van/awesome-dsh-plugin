@@ -1,0 +1,66 @@
+{
+  "full_name": "zhangx413/dsh-pbr-material",
+  "originalPosition": 101,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 101,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:06:37.641Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c79a94054216fc18e7811d00c619ee9be0da2c9216622ea4e0b51e99af1a11a4",
+      "url": "https://github.com/zhangx413/dsh-pbr-material/blob/195babe4dc085d4552754f8e67e164c4b63c6411/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pbr-material",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhangx413/dsh-pbr-material",
+        "commit": "195babe4dc085d4552754f8e67e164c4b63c6411"
+      },
+      "manifestSha256": "01c08277a5c90e8970c21798f902c1ab9e0ede22b189fc188af1fa101ae97a1a",
+      "manifestUrl": "https://github.com/zhangx413/dsh-pbr-material/blob/195babe4dc085d4552754f8e67e164c4b63c6411/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-pbr-material",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1793846398,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhangx413/dsh-pbr-material",
+              "commit": "195babe4dc085d4552754f8e67e164c4b63c6411"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhangx413/dsh-pbr-material",
+    "commit": "195babe4dc085d4552754f8e67e164c4b63c6411",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:06:47.996Z"
+}

@@ -1,0 +1,148 @@
+{
+  "full_name": "TecFancy/dsh-deeptutor",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:22.558Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9b00b98229ad3e3816506d6f10354cab90c05e8afbe993b3860c0a8ad99dafbd",
+      "url": "https://github.com/TecFancy/dsh-deeptutor/blob/4bddda6a0b2209f7828e64952921ba5b787a7639/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deeptutor",
+          "command": "dsh plugin --profile web add dsh-deeptutor -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ab1a847f1ba22a4f97e969fdb787262e962bae0f53bf44562b43164c4d927e2a",
+      "url": "https://github.com/TecFancy/dsh-deeptutor/blob/4bddda6a0b2209f7828e64952921ba5b787a7639/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-deeptutor",
+          "command": "dsh plugin --profile web add dsh-deeptutor -w",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deeptutor",
+      "version": "0.3.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TecFancy/dsh-deeptutor",
+        "commit": "4bddda6a0b2209f7828e64952921ba5b787a7639"
+      },
+      "manifestSha256": "30e5ab600581ee82664239d9dfb8d19271afa08935f9b1dba1431e2a53bacc26",
+      "manifestUrl": "https://github.com/TecFancy/dsh-deeptutor/blob/4bddda6a0b2209f7828e64952921ba5b787a7639/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-deeptutor",
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1794814911,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TecFancy/dsh-deeptutor",
+              "commit": "4bddda6a0b2209f7828e64952921ba5b787a7639"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-deeptutor",
+      "origin": "npm",
+      "name": "dsh-deeptutor",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-deeptutor",
+        "title": "dsh-deeptutor",
+        "description": "Learning assistant extension for DeepSeek Harness (dsh) and Claude Code (MCP): DeepTutor tutoring for your agent: deep explanations, self-test questions, learning paths, personal knowledge-base search (RAG), note archiving, and any other DeepTutor CLI command (drives the DeepTutor CLI locally or over SSH).",
+        "homepage": "https://github.com/TecFancy/dsh-deeptutor",
+        "repository": {
+          "url": "https://github.com/TecFancy/dsh-deeptutor"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "deeptutor",
+            "tutoring",
+            "rag",
+            "agent",
+            "mcp",
+            "claude-code"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1794815116,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fffbfc98d229b7f9c1e6b1fb4583417af77b1a004e4e8e1cc52495343296dc05",
+      "evidence": [
+        {
+          "name": "dsh-deeptutor",
+          "version": "0.3.4",
+          "tarball": "https://registry.npmjs.org/dsh-deeptutor/-/dsh-deeptutor-0.3.4.tgz",
+          "integrity": "sha512-D1zAM6pDn7PakTntr1JaJwv0wGcvhvZARfGwu4JRlkHwetL9l+6bOuL/JGFq325/Q+1xNqmd0l4larYfp1uEaA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-deeptutor",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TecFancy/dsh-deeptutor",
+    "commit": "4bddda6a0b2209f7828e64952921ba5b787a7639",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:36.224Z"
+}

@@ -1,0 +1,139 @@
+{
+  "full_name": "liuyu-f/dsh-plugin-session-cascade-delete",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:24:53.963Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c0dae026ff82605e596a1864233c4cbb2469680209dcd0ab966fee0ebf55ad2d",
+      "url": "https://github.com/liuyu-f/dsh-plugin-session-cascade-delete/blob/7a47e60271a3758db704ec4f622db1f9751c127e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@liuyu-f/dsh-plugin-session-cascade-delete",
+          "command": "dsh plugin --profile web add @liuyu-f/dsh-plugin-session-cascade-delete",
+          "profile": "web"
+        },
+        {
+          "install": "@liuyu-f/dsh-plugin-session-cascade-delete",
+          "command": "dsh plugin --profile desktop add @liuyu-f/dsh-plugin-session-cascade-delete",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@liuyu-f/dsh-plugin-session-cascade-delete",
+      "version": "1.0.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liuyu-f/dsh-plugin-session-cascade-delete",
+        "commit": "7a47e60271a3758db704ec4f622db1f9751c127e"
+      },
+      "manifestSha256": "1dcd920a790c6ec69e0ab830023fd9b46c9026ccf57f5fc27e512bfb34d8ee0d",
+      "manifestUrl": "https://github.com/liuyu-f/dsh-plugin-session-cascade-delete/blob/7a47e60271a3758db704ec4f622db1f9751c127e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.0 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@liuyu-f/dsh-plugin-session-cascade-delete",
+        "versions": [
+          {
+            "version": "1.0.9",
+            "publishTimestamp": 1794032352,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liuyu-f/dsh-plugin-session-cascade-delete",
+              "commit": "7a47e60271a3758db704ec4f622db1f9751c127e"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.0 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@liuyu-f/dsh-plugin-session-cascade-delete",
+      "origin": "npm",
+      "name": "@liuyu-f/dsh-plugin-session-cascade-delete",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@liuyu-f/dsh-plugin-session-cascade-delete",
+        "title": {
+          "en": "Cascade Session Delete",
+          "zh": "级联删除会话"
+        },
+        "description": {
+          "en": "Permanently delete a session from the header or the sidebar menu, cascading into the subagent sessions it owns.",
+          "zh": "从会话头部或侧栏菜单彻底删除会话，并级联删除它拥有的子代理会话。"
+        },
+        "author": "liuyu-f",
+        "homepage": "https://github.com/liuyu-f/dsh-plugin-session-cascade-delete",
+        "repository": {
+          "url": "https://github.com/liuyu-f/dsh-plugin-session-cascade-delete"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0LjQ3ODIgOC44NDA2N0wxNC4yMTM4IDE0LjExNTJDMTQuMTEwMiAxNi4xODcyIDE0LjA2NyAxNy4wMTE1IDEzLjM4NjYgMTcuOTYwN0MxMy4xMDQ0IDE4LjM1NDYgMTIuNzQ5OCAxOC42OTEyIDEyLjM0MjQgMTguOTUzNUMxMS44MjM5IDE5LjI4NzIgMTEuMjQxNSAxOS40MzE2IDEwLjU1ODUgMTkuNDk5OEM5Ljg4NzI3IDE5LjU2NjggOS4wNDk0NiAxOS41NjU2IDcuOTk5OTggMTkuNTY1NkM2Ljk1MDUxIDE5LjU2NTYgNi4xMTI3IDE5LjU2NjggNS40NDE0MiAxOS40OTk4QzQuNzU4NTEgMTkuNDMxNiA0LjE3NjAyIDE5LjI4NzIgMy42NTc1MyAxOC45NTM1QzMuMjUwMTIgMTguNjkxMiAyLjg5NTU5IDE4LjM1NDYgMi42MTMzMiAxNy45NjA3QzEuOTMyOTYgMTcuMDExNSAxLjg4OTc5IDE2LjE4NzIgMS43ODYxOSAxNC4xMTUyTDEuNTIxNzkgOC44NDA2N0wyLjg5MDA2IDguNzcyNzdMMy4xNTM0MyAxNC4wNDYzQzMuMjYyMjEgMTYuMjIxOCAzLjMyNDUyIDE2LjYwMTUgMy43MjY0NiAxNy4xNjI0QzMuOTA4MjUgMTcuNDE2MSA0LjEzNjg2IDE3LjYzMzQgNC4zOTkyNyAxNy44MDIzQzQuNjYyMDQgMTcuOTcxNCA1LjAwMjYzIDE4LjA3OTIgNS41NzgyNSAxOC4xMzY3QzYuMTY1NjIgMTguMTk1MyA2LjkyMjk4IDE4LjE5NjMgNy45OTk5OCAxOC4xOTYzQzkuMDc2OTkgMTguMTk2MyA5LjgzNDM0IDE4LjE5NTMgMTAuNDIxNyAxOC4xMzY3QzEwLjk5NzMgMTguMDc5MiAxMS4zMzc5IDE3Ljk3MTQgMTEuNjAwNyAxNy44MDIzQzExLjg2MzEgMTcuNjMzNCAxMi4wOTE3IDE3LjQxNjEgMTIuMjczNSAxNy4xNjI0QzEyLjY3NTUgMTYuNjAxNSAxMi43Mzc4IDE2LjIyMTggMTIuODQ2NSAxNC4wNDYzTDEzLjEwOTkgOC43NzI3N0wxNC40NzgyIDguODQwNjdaTTUuNDMwMTEgMTAuMjI4NUg2Ljc5OTRWMTUuMzkwOUg1LjQzMDExVjEwLjIyODVaTTkuMjAwNTYgMTAuMjI4NUgxMC41Njk5VjE1LjM5MDlIOS4yMDA1NlYxMC4yMjg1Wk04LjUzNTk3IDQuNDM0NDNDOS4xNzk3NiA0LjQzNDQzIDkuNjUyMiA0LjQyNjkzIDEwLjA5NjYgNC41NzEyNkMxMC4yMzU3IDQuNjE2NDUgMTAuMzcxNyA0LjY3MjU1IDEwLjUwMiA0LjczODk1QzEwLjkxODIgNC45NTExMSAxMS4yNDY0IDUuMjkwOTkgMTEuNzAxNSA1Ljc0NjEyTDEyLjQ5NzggNi41NDEzNkgxNS4zNzQyVjcuOTExNjlIMC42MjU3MzJWNi41NDEzNkgzLjUwMjE4TDQuMjk4NDUgNS43NDYxMkM0Ljc1MzU4IDUuMjkwOTkgNS4wODE3NCA0Ljk1MTExIDUuNDk4MDEgNC43Mzg5NUM1LjYyODMxIDQuNjcyNTUgNS43NjQyNSA0LjYxNjQ1IDUuOTAzMzQgNC41NzEyNkM2LjM0Nzc2IDQuNDI2OTMgNi44MjAyMSA0LjQzNDQzIDcuNDYzOTkgNC40MzQ0M0g4LjUzNTk3Wk03LjQ2Mzk5IDUuODA0NzZDNi43MzIwOCA1LjgwNDc2IDYuNTE2NDEgNS44MTE4NyA2LjMyNjE3IDUuODczNjlDNi4yNTU0NSA1Ljg5NjY3IDYuMTg2NjggNS45MjUzMyA2LjEyMDQxIDUuOTU5MDdDNS45NjM5OCA2LjAzODc4IDUuODIzNDggNi4xNjI1MyA1LjQ0MTQyIDYuNTQxMzZIMTAuNTU4NUMxMC4xNzY1IDYuMTYyNTMgMTAuMDM2IDYuMDM4NzggOS44Nzk1NSA1Ljk1OTA3QzkuODEzMjkgNS45MjUzMyA5Ljc0NDUyIDUuODk2NjcgOS42NzM4IDUuODczNjlDOS40ODM1NiA1LjgxMTg3IDkuMjY3ODkgNS44MDQ3NiA4LjUzNTk3IDUuODA0NzZINy40NjM5OVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkuNiA5LjYpIHNjYWxlKDEuMDQpIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXIpIi8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXIiIHgxPSIxMCIgeTE9IjEyIiB4Mj0iMzAiIHkyPSIzMCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjNThCQ0M4Ii8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzYxN0JFQiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "1.0.9",
+            "publishTimestamp": 1794034141,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.0 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3ab1325267ad59671ffbf1da55af422de596436288b0b377c5d47cfa7093e146",
+      "evidence": [
+        {
+          "name": "@liuyu-f/dsh-plugin-session-cascade-delete",
+          "version": "1.0.9",
+          "tarball": "https://registry.npmjs.org/@liuyu-f/dsh-plugin-session-cascade-delete/-/dsh-plugin-session-cascade-delete-1.0.9.tgz",
+          "integrity": "sha512-jBR7P7IaW4YIt3VKYMnoOZm/tIIgkHco8Oi8K98hDW+GlaVU7PmL/VZOpMVWNE/f/CEGiezHMdxn9FRa17Ht6A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@liuyu-f/dsh-plugin-session-cascade-delete",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liuyu-f/dsh-plugin-session-cascade-delete",
+    "commit": "7a47e60271a3758db704ec4f622db1f9751c127e",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:02.524Z"
+}

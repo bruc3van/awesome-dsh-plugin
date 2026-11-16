@@ -1,0 +1,121 @@
+{
+  "full_name": "Rainpomelo/dsh-liquid-glass-theme",
+  "originalPosition": 191,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 191,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:51.633Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6d149fec51a88340b0322357871ec76d574980b1d314ae00b4feb52ed7f9f419",
+      "url": "https://github.com/Rainpomelo/dsh-liquid-glass-theme/blob/b0bd504fb6074e6d202075f8db92ddba4e119cc8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Rainpomelo/dsh-liquid-glass-theme#v2.0.3",
+          "command": "dsh plugin --profile web add \"github:Rainpomelo/dsh-liquid-glass-theme#v2.0.3\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-client-ui-liquid-glass",
+      "version": "2.0.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Rainpomelo/dsh-liquid-glass-theme",
+        "commit": "b0bd504fb6074e6d202075f8db92ddba4e119cc8"
+      },
+      "manifestSha256": "08fa14d459edea0af7ca9afe7fcc4d630835eee1425150b44097e06b79e230aa",
+      "manifestUrl": "https://github.com/Rainpomelo/dsh-liquid-glass-theme/blob/b0bd504fb6074e6d202075f8db92ddba4e119cc8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.5 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-client-ui-liquid-glass",
+        "versions": [
+          {
+            "version": "2.0.3",
+            "publishTimestamp": 1792228309,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Rainpomelo/dsh-liquid-glass-theme",
+              "commit": "b0bd504fb6074e6d202075f8db92ddba4e119cc8"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Rainpomelo/dsh-liquid-glass-theme#v2.0.3",
+      "origin": "git_target",
+      "name": "@deepseek-ai/dsh-client-ui-liquid-glass",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@deepseek-ai/dsh-client-ui-liquid-glass",
+        "title": "@deepseek-ai/dsh-client-ui-liquid-glass",
+        "description": "Liquid Glass & Live Wallpaper: a physical Snell-refraction fluid glassmorphism theme and dynamic wallpaper engine for DeepSeek Harness (web profile and desktop app)",
+        "homepage": "https://github.com/Rainpomelo/dsh-liquid-glass-theme#readme",
+        "repository": {
+          "url": "https://github.com/Rainpomelo/dsh-liquid-glass-theme"
+        },
+        "versions": [
+          {
+            "version": "2.0.3",
+            "publishTimestamp": 1790771802,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Rainpomelo/dsh-liquid-glass-theme",
+              "commit": "635ac827bfea03795339d873856d532cd94d7d2c"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "635ac827bfea03795339d873856d532cd94d7d2c",
+          "name": "@deepseek-ai/dsh-client-ui-liquid-glass",
+          "version": "2.0.3",
+          "url": "https://github.com/Rainpomelo/dsh-liquid-glass-theme",
+          "manifestSha256": "08fa14d459edea0af7ca9afe7fcc4d630835eee1425150b44097e06b79e230aa",
+          "publishTimestamp": 1790771802
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Rainpomelo/dsh-liquid-glass-theme#v2.0.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Rainpomelo/dsh-liquid-glass-theme",
+    "commit": "b0bd504fb6074e6d202075f8db92ddba4e119cc8",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:11:06.958Z"
+}

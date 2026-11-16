@@ -1,0 +1,131 @@
+{
+  "full_name": "Calcium-Ion/dsh-ptc-moejs",
+  "originalPosition": 143,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 143,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:26.526Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bc259e8787ba9a44a943f317e382baf0d2599e7bb3acb722553b50c35c217a3f",
+      "url": "https://github.com/Calcium-Ion/dsh-ptc-moejs/blob/0050a61073f4d542484265f9e89cec32dbed0e19/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ptc-moejs",
+          "command": "dsh plugin --profile web add dsh-ptc-moejs",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ptc-moejs",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Calcium-Ion/dsh-ptc-moejs",
+        "commit": "0050a61073f4d542484265f9e89cec32dbed0e19"
+      },
+      "manifestSha256": "abff78bc8ed3276ce30e190dce457b592d5487d5654b81307e6c88ef96aafe3c",
+      "manifestUrl": "https://github.com/Calcium-Ion/dsh-ptc-moejs/blob/0050a61073f4d542484265f9e89cec32dbed0e19/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ptc-moejs",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1792997037,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Calcium-Ion/dsh-ptc-moejs",
+              "commit": "0050a61073f4d542484265f9e89cec32dbed0e19"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ptc-moejs",
+      "origin": "npm",
+      "name": "dsh-ptc-moejs",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ptc-moejs",
+        "title": "dsh-ptc-moejs",
+        "description": "PTC runtime for the DeepSeek Harness that runs model-written programs in moejs, a pure-Go JavaScript engine, inside a long-lived sidecar process under dsh's file sandbox",
+        "repository": {
+          "url": "https://github.com/Calcium-Ion/dsh-ptc-moejs"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "ptc",
+            "moejs",
+            "javascript",
+            "typescript"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1793005627,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "caa1cd977f92e830c9c2e40d78853c295553115cc455fa8f2ec1bb1987eea67e",
+      "evidence": [
+        {
+          "name": "dsh-ptc-moejs",
+          "version": "0.2.2",
+          "tarball": "https://registry.npmjs.org/dsh-ptc-moejs/-/dsh-ptc-moejs-0.2.2.tgz",
+          "integrity": "sha512-SUEWG37toVpkF4c+Pq8zYIls9S7anCJDcPh5S0KKiSOU5LiTTTOolWKByEghmy9IQ0QvnnGmFWpKrsBnACEZXg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ptc-moejs",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Calcium-Ion/dsh-ptc-moejs",
+    "commit": "0050a61073f4d542484265f9e89cec32dbed0e19",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:36.248Z"
+}

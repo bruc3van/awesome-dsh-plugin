@@ -1,0 +1,40 @@
+{
+  "full_name": "wei-806206088/dsh-skin",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:09:26.539Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ec62e30a7ea91ad176ddf750d716f3aa4271b8354b6291c8b3ad5c1ad91a0576",
+      "url": "https://github.com/wei-806206088/dsh-skin/blob/3e8306eaa5bd092e28e70ec507fa887c4f80a001/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wei-806206088/dsh-skin",
+    "commit": "3e8306eaa5bd092e28e70ec507fa887c4f80a001",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:09:39.097Z"
+}

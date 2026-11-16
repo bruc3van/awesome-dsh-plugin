@@ -1,0 +1,77 @@
+{
+  "full_name": "NOirBRight/dsh-llm-codex",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:25.965Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cadfaf2e20609691420689e2ccf54bf4d0895fd11c3310865589c62436c957ba",
+      "url": "https://github.com/NOirBRight/dsh-llm-codex/blob/b9fe83518db8ad69142404ec9778f8b38ec9fae3/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6d0d683cb7f5911839c502721ac55b1894ed83ded259a50123c3fb084b1a7aca",
+      "url": "https://github.com/NOirBRight/dsh-llm-codex/blob/b9fe83518db8ad69142404ec9778f8b38ec9fae3/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-llm-codex",
+      "version": "0.3.26",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NOirBRight/dsh-llm-codex",
+        "commit": "b9fe83518db8ad69142404ec9778f8b38ec9fae3"
+      },
+      "manifestSha256": "4bb343ab4416184b52b59fd5cc11b8c88f31635cb70a13b770c7aea0bfe6b356",
+      "manifestUrl": "https://github.com/NOirBRight/dsh-llm-codex/blob/b9fe83518db8ad69142404ec9778f8b38ec9fae3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-llm-codex",
+        "versions": [
+          {
+            "version": "0.3.26",
+            "publishTimestamp": 1790645475,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NOirBRight/dsh-llm-codex",
+              "commit": "b9fe83518db8ad69142404ec9778f8b38ec9fae3"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NOirBRight/dsh-llm-codex",
+    "commit": "b9fe83518db8ad69142404ec9778f8b38ec9fae3",
+    "releaseTags": 45,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:39.190Z"
+}

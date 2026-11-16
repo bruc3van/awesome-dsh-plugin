@@ -1,0 +1,129 @@
+{
+  "full_name": "mlosun/dsh-docs-panel",
+  "originalPosition": 108,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 108,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:04.350Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "961f7e75605701b07b696b38e25bafca177d9525aff81f08ae2539940879e485",
+      "url": "https://github.com/mlosun/dsh-docs-panel/blob/a2ab2da5627ead05f6f5272933081a085f8e9cc4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-docs-panel",
+          "command": "dsh plugin --profile web add dsh-docs-panel",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-docs-panel",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mlosun/dsh-docs-panel",
+        "commit": "a2ab2da5627ead05f6f5272933081a085f8e9cc4"
+      },
+      "manifestSha256": "5a9b9b1565b819a8c732174bfb5a975ac934d791ad659cc40d80cf0e3fd08345",
+      "manifestUrl": "https://github.com/mlosun/dsh-docs-panel/blob/a2ab2da5627ead05f6f5272933081a085f8e9cc4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-docs-panel",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787119887,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/mlosun/dsh-docs-panel",
+              "commit": "a2ab2da5627ead05f6f5272933081a085f8e9cc4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-docs-panel",
+      "origin": "npm",
+      "name": "dsh-docs-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-docs-panel",
+        "title": "dsh-docs-panel",
+        "description": "DSH 侧边栏里的「全局文档」：全局 Markdown 笔记，任何工作区随时可读。（依赖 dsh-better-sidebar）",
+        "author": "mlosun",
+        "homepage": "https://github.com/mlosun/dsh-docs-panel#readme",
+        "repository": {
+          "url": "https://github.com/mlosun/dsh-docs-panel"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "better-sidebar",
+            "markdown",
+            "docs",
+            "reading",
+            "web",
+            "sidebar"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787120534,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "660e8f6f44d23996232cdf33bef7b46fc0035eb160d5b224be81892bb917a632",
+      "evidence": [
+        {
+          "name": "dsh-docs-panel",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-docs-panel/-/dsh-docs-panel-0.1.0.tgz",
+          "integrity": "sha512-Stml4woDK6MCOg5S692n9q+cW1vxKvpm5XnF1ovfWtEpDimAAgDgWY7gpH02M2FuKUGcnjZifGadwxvon5Q1Ow=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-docs-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mlosun/dsh-docs-panel",
+    "commit": "a2ab2da5627ead05f6f5272933081a085f8e9cc4",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:12.680Z"
+}

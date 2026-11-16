@@ -1,0 +1,69 @@
+{
+  "full_name": "ns-zzj/dsh-hos-scrcpy",
+  "originalPosition": 148,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 148,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:49.526Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9f914b6aa056112e71278b6b399290225edb97c8606ad21f3d01e84475c0a1eb",
+      "url": "https://github.com/ns-zzj/dsh-hos-scrcpy/blob/c2f94df15542d471f8c5d9908a78e335041caa4f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@nszzj/dsh-hos-scrcpy",
+      "version": "3.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ns-zzj/dsh-hos-scrcpy",
+        "commit": "c2f94df15542d471f8c5d9908a78e335041caa4f"
+      },
+      "manifestSha256": "ad150e246e1b28c7913556ce509b194b624efd730e4473b68c8f7635890f10dd",
+      "manifestUrl": "https://github.com/ns-zzj/dsh-hos-scrcpy/blob/c2f94df15542d471f8c5d9908a78e335041caa4f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@nszzj/dsh-hos-scrcpy",
+        "versions": [
+          {
+            "version": "3.1.1",
+            "publishTimestamp": 1794483781,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ns-zzj/dsh-hos-scrcpy",
+              "commit": "c2f94df15542d471f8c5d9908a78e335041caa4f"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ns-zzj/dsh-hos-scrcpy",
+    "commit": "c2f94df15542d471f8c5d9908a78e335041caa4f",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:58.510Z"
+}

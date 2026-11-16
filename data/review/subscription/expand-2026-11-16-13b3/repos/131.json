@@ -1,0 +1,191 @@
+{
+  "full_name": "xiaolu511/dsh-hot-restart",
+  "originalPosition": 131,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 131,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:47.713Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "235da61137293dd2a40df16dc00a51baf3f064901d37f853999c36497cd29b47",
+      "url": "https://github.com/xiaolu511/dsh-hot-restart/blob/462f944d5774f7f6dbbb3595d35932f18376e5a8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-hot-restart",
+          "command": "dsh plugin --profile web add dsh-hot-restart",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "35c99905011e22c7da520ca866e6b7a3f0cca6a2137f4c2d7617e7971b33aa6a",
+      "url": "https://github.com/xiaolu511/dsh-hot-restart/blob/462f944d5774f7f6dbbb3595d35932f18376e5a8/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-hot-restart@0.3.16",
+          "command": "dsh plugin --profile web add dsh-hot-restart@0.3.16",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-hot-restart",
+      "version": "0.3.17",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaolu511/dsh-hot-restart",
+        "commit": "462f944d5774f7f6dbbb3595d35932f18376e5a8"
+      },
+      "manifestSha256": "e2d025a190b15331cbba4b0eb7cafaef50b945d0f717ae3f0c0ff366362ce731",
+      "manifestUrl": "https://github.com/xiaolu511/dsh-hot-restart/blob/462f944d5774f7f6dbbb3595d35932f18376e5a8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-hot-restart",
+        "versions": [
+          {
+            "version": "0.3.17",
+            "publishTimestamp": 1793684214,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiaolu511/dsh-hot-restart",
+              "commit": "462f944d5774f7f6dbbb3595d35932f18376e5a8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-hot-restart",
+      "origin": "npm",
+      "name": "dsh-hot-restart",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-hot-restart",
+        "title": "dsh-hot-restart",
+        "description": "DSH 热重启插件：窗口里一个固定按钮，点一下关闭并自动重开 DSH，全程没有黑窗口；内置自检系统，出问题点一下就能生成一份可直接定位的诊断报告",
+        "author": "xiaolu511",
+        "homepage": "https://github.com/xiaolu511/dsh-hot-restart#readme",
+        "repository": {
+          "url": "https://github.com/xiaolu511/dsh-hot-restart"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "restart",
+            "hot-restart"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.17",
+            "publishTimestamp": 1793524090,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "720d72ceee96d5d61a3be5376a02c53ac8dc6c93305a24d382da8dc2773a43ba",
+      "evidence": [
+        {
+          "name": "dsh-hot-restart",
+          "version": "0.3.17",
+          "tarball": "https://registry.npmjs.org/dsh-hot-restart/-/dsh-hot-restart-0.3.17.tgz",
+          "integrity": "sha512-udYf0h/cUfNDK9NqV+kd0/z71NGmkN8q3GV34sz3QRsROqpxr+a3sWTix2/N4i2MXu8nuSVkN+HkWW3i81zXKw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-hot-restart@0.3.16",
+      "origin": "npm",
+      "name": "dsh-hot-restart",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-hot-restart",
+        "title": "dsh-hot-restart",
+        "description": "DSH 热重启插件：窗口里一个固定按钮，点一下关闭并自动重开 DSH，全程没有黑窗口；内置自检系统，出问题点一下就能生成一份可直接定位的诊断报告",
+        "author": "xiaolu511",
+        "homepage": "https://github.com/xiaolu511/dsh-hot-restart#readme",
+        "repository": {
+          "url": "https://github.com/xiaolu511/dsh-hot-restart"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "restart",
+            "hot-restart"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.16",
+            "publishTimestamp": 1791811590,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "720d72ceee96d5d61a3be5376a02c53ac8dc6c93305a24d382da8dc2773a43ba",
+      "evidence": [
+        {
+          "name": "dsh-hot-restart",
+          "version": "0.3.16",
+          "tarball": "https://registry.npmjs.org/dsh-hot-restart/-/dsh-hot-restart-0.3.16.tgz",
+          "integrity": "sha512-VojmhtbiTDKK5bghSOj8Pwszw3DefkmNNa8NZ7zrrgmDQI1nGlHv84+6JbC0x/8Q4HdQFhtMfukilJe4XgutUw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-hot-restart",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-hot-restart@0.3.16",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaolu511/dsh-hot-restart",
+    "commit": "462f944d5774f7f6dbbb3595d35932f18376e5a8",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:58.731Z"
+}

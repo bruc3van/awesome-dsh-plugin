@@ -1,0 +1,92 @@
+{
+  "full_name": "Scorpio69t/teach-math-with-manim",
+  "originalPosition": 167,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 167,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:16.070Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "05e09cebb50a61557c9731ad77a59b9dc6f32db3e2c802bbf3ba96b45a3c78f7",
+      "url": "https://github.com/Scorpio69t/teach-math-with-manim/blob/e4b6e6e28931f63b86591262413ba779b07537f3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Scorpio69t/teach-math-with-manim",
+          "command": "dsh plugin --profile web add github:Scorpio69t/teach-math-with-manim",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "skill/README.md",
+      "sha256": "fad460ca5c9c9f1dc164dece177a4beafca4ea0a7a40f8b85e174581600eb4dc",
+      "url": "https://github.com/Scorpio69t/teach-math-with-manim/blob/e4b6e6e28931f63b86591262413ba779b07537f3/skill/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Scorpio69t/teach-math-with-manim",
+          "command": "dsh plugin --profile web add github:Scorpio69t/teach-math-with-manim",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "teach-math-with-manim",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Scorpio69t/teach-math-with-manim",
+        "commit": "e4b6e6e28931f63b86591262413ba779b07537f3"
+      },
+      "manifestSha256": "974cc19e7fec12cf4b8850e3c78a50f65b933a3c0160b4812be6784d43fdda0c",
+      "manifestUrl": "https://github.com/Scorpio69t/teach-math-with-manim/blob/e4b6e6e28931f63b86591262413ba779b07537f3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "teach-math-with-manim",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794755731,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Scorpio69t/teach-math-with-manim",
+              "commit": "e4b6e6e28931f63b86591262413ba779b07537f3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Scorpio69t/teach-math-with-manim",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Scorpio69t/teach-math-with-manim",
+    "commit": "e4b6e6e28931f63b86591262413ba779b07537f3",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:25.624Z"
+}

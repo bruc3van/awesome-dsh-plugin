@@ -1,0 +1,74 @@
+{
+  "full_name": "Destinhue/dsh-video-vision",
+  "originalPosition": 170,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 170,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:00.636Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "22b1a64e7445b0c793f612bfcb924db961fd4ff1298b0e4b7b31c42b91b936f4",
+      "url": "https://github.com/Destinhue/dsh-video-vision/blob/b73a1256883e89e53006ae2c2623e211c47ae77f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "367083da73dafed1abd6dd00d57f6e0635d378cfb714d4fa475c5d5e0d427e43",
+      "url": "https://github.com/Destinhue/dsh-video-vision/blob/b73a1256883e89e53006ae2c2623e211c47ae77f/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-video-vision",
+      "version": "1.4.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Destinhue/dsh-video-vision",
+        "commit": "b73a1256883e89e53006ae2c2623e211c47ae77f"
+      },
+      "manifestSha256": "52fca3ce47e8f03bf7cfc3459b084ec9e56c8723fb33847bb3685c2289edced1",
+      "manifestUrl": "https://github.com/Destinhue/dsh-video-vision/blob/b73a1256883e89e53006ae2c2623e211c47ae77f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-video-vision",
+        "versions": [
+          {
+            "version": "1.4.6",
+            "publishTimestamp": 1794734420,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Destinhue/dsh-video-vision",
+              "commit": "b73a1256883e89e53006ae2c2623e211c47ae77f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Destinhue/dsh-video-vision",
+    "commit": "b73a1256883e89e53006ae2c2623e211c47ae77f",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:11.889Z"
+}

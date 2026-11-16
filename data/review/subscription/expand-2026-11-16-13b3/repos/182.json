@@ -1,0 +1,148 @@
+{
+  "full_name": "Nwflower/dsh-file-claim",
+  "originalPosition": 182,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 182,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:39.192Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a2f3ac9c77fede6bed40ba6fad4613c47b757b03a3da147884a8079b319e21ca",
+      "url": "https://github.com/Nwflower/dsh-file-claim/blob/42f07e2171d3781edd932732d243646635f4c1a0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-file-claim",
+          "command": "dsh plugin add dsh-file-claim",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "cdd824ee1147bb74ef97ec5b9a63eb0d5b5f43a87eeafcc1a17eed14a7249e32",
+      "url": "https://github.com/Nwflower/dsh-file-claim/blob/42f07e2171d3781edd932732d243646635f4c1a0/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-file-claim",
+          "command": "dsh plugin add dsh-file-claim",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-file-claim",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nwflower/dsh-file-claim",
+        "commit": "42f07e2171d3781edd932732d243646635f4c1a0"
+      },
+      "manifestSha256": "23de66f0f0fb13e86b481fb3ff1d2ba9959c74056050d7da766765e28eff59ba",
+      "manifestUrl": "https://github.com/Nwflower/dsh-file-claim/blob/42f07e2171d3781edd932732d243646635f4c1a0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-file-claim",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1788334054,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Nwflower/dsh-file-claim",
+              "commit": "42f07e2171d3781edd932732d243646635f4c1a0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-file-claim",
+      "origin": "npm",
+      "name": "dsh-file-claim",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-file-claim",
+        "title": "dsh-file-claim",
+        "description": "Write in parallel, never overwrite — file claim / protection for concurrent DeepSeek Harness (DSH) sessions working the same workspace: claim/release, heartbeat stale takeover, and an async pending merge area (git 3-way merge)",
+        "author": "Nwflower",
+        "repository": {
+          "url": "https://github.com/Nwflower/dsh-file-claim"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "host-plugin",
+            "file-claim",
+            "file-lock",
+            "file-protection",
+            "concurrency",
+            "parallel-sessions",
+            "parallel-agents",
+            "coordination",
+            "session-coordination",
+            "merge",
+            "3-way-merge",
+            "pending-merge"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1788334885,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fa0312c1ee46cbc12ac2b1642713ba598636771fb4702590d7a1f07ccd20c644",
+      "evidence": [
+        {
+          "name": "dsh-file-claim",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-file-claim/-/dsh-file-claim-0.2.0.tgz",
+          "integrity": "sha512-bq+uFpVRT4yN/Wix5QCgv/wbPOtwirBfRyaUUcX6NpfVG45Fkl728sdu3eFy9SnsY9yep/Q7K5jY7yU51MIf4w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-file-claim",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nwflower/dsh-file-claim",
+    "commit": "42f07e2171d3781edd932732d243646635f4c1a0",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:50.891Z"
+}

@@ -1,0 +1,125 @@
+{
+  "full_name": "DDDMUC/dsh-delete-turn",
+  "originalPosition": 169,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 169,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:09:58.954Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4f1bf5b2f45b78e995ba15f99ee854a3dc27b1fc5eee6908aa2d87e7cbbbd5a2",
+      "url": "https://github.com/DDDMUC/dsh-delete-turn/blob/12138baa42cb5808a3f83d20d54e1d46161a8963/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-delete-turn",
+          "command": "dsh plugin --profile web add dsh-delete-turn",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-delete-turn",
+      "version": "0.2.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DDDMUC/dsh-delete-turn",
+        "commit": "12138baa42cb5808a3f83d20d54e1d46161a8963"
+      },
+      "manifestSha256": "d41dd1226f90687dec2a2da2af91586da1732d60385a9fc410980c5cab7c2d23",
+      "manifestUrl": "https://github.com/DDDMUC/dsh-delete-turn/blob/12138baa42cb5808a3f83d20d54e1d46161a8963/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-delete-turn",
+        "versions": [
+          {
+            "version": "0.2.7",
+            "publishTimestamp": 1794535549,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DDDMUC/dsh-delete-turn",
+              "commit": "12138baa42cb5808a3f83d20d54e1d46161a8963"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-delete-turn",
+      "origin": "npm",
+      "name": "dsh-delete-turn",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-delete-turn",
+        "title": "dsh-delete-turn",
+        "description": "Per-message delete for DeepSeek Harness: remove a user message, one reply step, or a whole assistant reply from the derived model context through the official surface-replace contract, and hide it from the visible transcript without rewriting the append-only log.",
+        "repository": {
+          "url": "https://github.com/DDDMUC/dsh-delete-turn"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "message",
+            "delete",
+            "surface-replace",
+            "context"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.8",
+            "publishTimestamp": 1794675376,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "32a403f313eb89aaf689b63db84d0421374253af5778b30b5522b2beb16f56cc",
+      "evidence": [
+        {
+          "name": "dsh-delete-turn",
+          "version": "0.2.8",
+          "tarball": "https://registry.npmjs.org/dsh-delete-turn/-/dsh-delete-turn-0.2.8.tgz",
+          "integrity": "sha512-qyRL6Oaz+ZRVwcYJVzxJHaDMqJljkjSjMkJik3VVa23lzQzAIxzzdxz/p8/yewIEcPlcngObBZxStp/kU4xdcg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-delete-turn",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DDDMUC/dsh-delete-turn",
+    "commit": "12138baa42cb5808a3f83d20d54e1d46161a8963",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:09.507Z"
+}

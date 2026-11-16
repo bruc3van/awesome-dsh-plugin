@@ -1,0 +1,308 @@
+{
+  "full_name": "drscrewdriver/dsh-canvas-tsx-sidebar",
+  "originalPosition": 182,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 182,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:51.274Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c5f4eccfc2fafe7678289e5d6e74201185c256491cb1dcee913d8e7d74fcb103",
+      "url": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar/blob/05065d85882c2c59eb6763f3bc17a9b38b6961ce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-canvas-tsx-sidebar@latest",
+          "command": "dsh plugin --profile <profile> add dsh-canvas-tsx-sidebar@latest",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+          "command": "dsh plugin --profile <profile> add dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "3980ae032c426a2491dd9d3e431caceeff3ca93c5b0117e2452e6d5485962538",
+      "url": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar/blob/05065d85882c2c59eb6763f3bc17a9b38b6961ce/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-canvas-tsx-sidebar@latest",
+          "command": "dsh plugin --profile <profile> add dsh-canvas-tsx-sidebar@latest",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+          "command": "dsh plugin --profile <profile> add dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "2aa508f6f3cf480797818a5217c57dc469b5ad746298d019960d96cf2b34ddc8",
+      "url": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar/blob/05065d85882c2c59eb6763f3bc17a9b38b6961ce/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-canvas-tsx-sidebar@latest",
+          "command": "dsh plugin --profile <profile> add dsh-canvas-tsx-sidebar@latest",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+          "command": "dsh plugin --profile <profile> add dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.it.md",
+      "sha256": "43e0f2cc8091bf4e7c519cb94c008b44f9b9924d6f48d630c5016bc1058c1f99",
+      "url": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar/blob/05065d85882c2c59eb6763f3bc17a9b38b6961ce/README.it.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-canvas-tsx-sidebar@latest",
+          "command": "dsh plugin --profile <profile> add dsh-canvas-tsx-sidebar@latest",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+          "command": "dsh plugin --profile <profile> add dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "91079a8032fbe72549bd7a35691844edfb5a40879d89ea1436bcbd4ba1043f2a",
+      "url": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar/blob/05065d85882c2c59eb6763f3bc17a9b38b6961ce/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-canvas-tsx-sidebar@latest",
+          "command": "dsh plugin --profile <profile> add dsh-canvas-tsx-sidebar@latest",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+          "command": "dsh plugin --profile <profile> add dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "baaaa2a1266d89273280805127a32415c30fdb6e1cd32e12182f70ddf393e611",
+      "url": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar/blob/05065d85882c2c59eb6763f3bc17a9b38b6961ce/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-canvas-tsx-sidebar@latest",
+          "command": "dsh plugin --profile <profile> add dsh-canvas-tsx-sidebar@latest",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+          "command": "dsh plugin --profile <profile> add dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-canvas-tsx-sidebar",
+      "version": "0.7.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar",
+        "commit": "05065d85882c2c59eb6763f3bc17a9b38b6961ce"
+      },
+      "manifestSha256": "86b7f2bb629f3f7b46de0f82873fe5da3fbe105b390f1cfb4292cae44ec15d51",
+      "manifestUrl": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar/blob/05065d85882c2c59eb6763f3bc17a9b38b6961ce/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-canvas-tsx-sidebar",
+        "versions": [
+          {
+            "version": "0.7.8",
+            "publishTimestamp": 1794806591,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar",
+              "commit": "05065d85882c2c59eb6763f3bc17a9b38b6961ce"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-canvas-tsx-sidebar@latest",
+      "origin": "npm",
+      "name": "dsh-canvas-tsx-sidebar",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-canvas-tsx-sidebar",
+        "title": {
+          "en": "Canvas Report",
+          "de": "Canvas-Bericht",
+          "es": "Informe Canvas",
+          "fr": "Rapport Canvas",
+          "it": "Report Canvas",
+          "ja": "Canvas レポート",
+          "ko": "Canvas 보고서",
+          "ru": "Отчёт Canvas",
+          "zh": "Canvas 报告"
+        },
+        "description": {
+          "en": "Render a .canvas.tsx report as an HTML page",
+          "de": "Rendert einen .canvas.tsx-Bericht als HTML-Seite",
+          "es": "Renderiza un informe .canvas.tsx como página HTML",
+          "fr": "Affiche un rapport .canvas.tsx comme page HTML",
+          "it": "Renderizza un report .canvas.tsx come pagina HTML",
+          "ja": ".canvas.tsx レポートを HTML ページとしてレンダリング",
+          "ko": ".canvas.tsx 보고서를 HTML 페이지로 렌더링",
+          "ru": "Отображает отчёт .canvas.tsx как HTML-страницу",
+          "zh": "把 .canvas.tsx 报告渲染成 HTML 页面"
+        },
+        "homepage": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar#readme",
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "better-sidebar",
+            "canvas",
+            "qoder",
+            "report"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.9",
+            "publishTimestamp": 1794652802,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e0be5e05dff001b70247d5319d4e1929d3cc14e80cb870473c77114bc9c9403c",
+      "evidence": [
+        {
+          "name": "dsh-canvas-tsx-sidebar",
+          "version": "0.7.9",
+          "tarball": "https://registry.npmjs.org/dsh-canvas-tsx-sidebar/-/dsh-canvas-tsx-sidebar-0.7.9.tgz",
+          "integrity": "sha512-RNWoFnFbHenqODtPUePn3Tfr7W5sC7aq2THVhJAfHTwhZyrXzRQLDA/4lYtgGKI47eWVq1GBtk5dHVaPgH3e0Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+      "origin": "npm",
+      "name": "dsh-canvas-tsx-sidebar",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-canvas-tsx-sidebar",
+        "title": "dsh-canvas-tsx-sidebar",
+        "description": "DSH web plugin (dsh-better-sidebar consumer) for the DSH 0.2.0 line: render Qoder Canvas `*.canvas.tsx` reports as a structured page in the right sidebar. Static parse only — no code execution.",
+        "homepage": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar#readme",
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "better-sidebar",
+            "canvas",
+            "qoder",
+            "report"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.8",
+            "publishTimestamp": 1793977675,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e0be5e05dff001b70247d5319d4e1929d3cc14e80cb870473c77114bc9c9403c",
+      "evidence": [
+        {
+          "name": "dsh-canvas-tsx-sidebar",
+          "version": "0.7.8",
+          "tarball": "https://registry.npmjs.org/dsh-canvas-tsx-sidebar/-/dsh-canvas-tsx-sidebar-0.7.8.tgz",
+          "integrity": "sha512-OvNlLh8KZF/ZLVhds3Ez8Ppxobh0Hq/PwmjEmn8TO7vlkgQtiYHKjMlVJ/Es8OY4HJ+KCijGnwn3MPRSrpQqig=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-canvas-tsx-sidebar@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-canvas-tsx-sidebar@dsh-0.2.1-rc.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar",
+    "commit": "05065d85882c2c59eb6763f3bc17a9b38b6961ce",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:13.681Z"
+}

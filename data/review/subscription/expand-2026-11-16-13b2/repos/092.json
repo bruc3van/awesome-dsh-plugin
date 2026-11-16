@@ -1,0 +1,157 @@
+{
+  "full_name": "benz-ai-x/dsh-research-graph",
+  "originalPosition": 92,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 92,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:30.795Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "89ad8818193c8a309c401ac8b83ca8816fc52f6571d165a9e0004c4c62342487",
+      "url": "https://github.com/benz-ai-x/dsh-research-graph/blob/36ba1e4f91953d6a8760b824adf06ed5820aebf1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@benz-ai-x/dsh-research-graph@0.2.2-rc.3.3",
+          "command": "dsh plugin --profile web add @benz-ai-x/dsh-research-graph@0.2.2-rc.3.3",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3d81eac138445eae9c32447d2d1266fa3f146ecd9767421305d6e2f581d0b4b0",
+      "url": "https://github.com/benz-ai-x/dsh-research-graph/blob/36ba1e4f91953d6a8760b824adf06ed5820aebf1/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@benz-ai-x/dsh-research-graph@0.2.2-rc.3.3",
+          "command": "dsh plugin --profile web add @benz-ai-x/dsh-research-graph@0.2.2-rc.3.3",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@benz-ai-x/dsh-research-graph",
+      "version": "0.2.2-rc.3.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/benz-ai-x/dsh-research-graph",
+        "commit": "36ba1e4f91953d6a8760b824adf06ed5820aebf1"
+      },
+      "manifestSha256": "5cf88558bb0d37fd8294111afebdc37eb917fc07c0d20bbe72b4b81157e89306",
+      "manifestUrl": "https://github.com/benz-ai-x/dsh-research-graph/blob/36ba1e4f91953d6a8760b824adf06ed5820aebf1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@benz-ai-x/dsh-research-graph",
+        "versions": [
+          {
+            "version": "0.2.2-rc.3.4",
+            "publishTimestamp": 1794828085,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/benz-ai-x/dsh-research-graph",
+              "commit": "36ba1e4f91953d6a8760b824adf06ed5820aebf1"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@benz-ai-x/dsh-research-graph@0.2.2-rc.3.3",
+      "origin": "npm",
+      "name": "@benz-ai-x/dsh-research-graph",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@benz-ai-x/dsh-research-graph",
+        "title": "@benz-ai-x/dsh-research-graph",
+        "description": "DeepSeek Harness plugin for organizing AI discussions into research topics, traceable knowledge cards, and reusable research materials on an interactive graph",
+        "homepage": "https://github.com/benz-ai-x/dsh-research-graph#readme",
+        "repository": {
+          "url": "https://github.com/benz-ai-x/dsh-research-graph"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "deepseek",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "research-graph",
+            "research-workflow",
+            "knowledge-management",
+            "session-visualization",
+            "session-management",
+            "ai-agent",
+            "ai-agents",
+            "agent-workflow",
+            "subagent",
+            "branching",
+            "merge",
+            "typescript",
+            "react"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2-rc.3.3",
+            "publishTimestamp": 1794750590,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f95d186314dee1cb8781acf83c639a9c61d0ed59222a2c10e8db2f756e5625a1",
+      "evidence": [
+        {
+          "name": "@benz-ai-x/dsh-research-graph",
+          "version": "0.2.2-rc.3.3",
+          "tarball": "https://registry.npmjs.org/@benz-ai-x/dsh-research-graph/-/dsh-research-graph-0.2.2-rc.3.3.tgz",
+          "integrity": "sha512-3nGn1w63tT4AdttbGltjX3PsvE04YFQgcQENlyR14meVS61E9kc88UaBG7z69KZFqmwhc3y5tnZNBfu8oURIuQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@benz-ai-x/dsh-research-graph@0.2.2-rc.3.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/benz-ai-x/dsh-research-graph",
+    "commit": "36ba1e4f91953d6a8760b824adf06ed5820aebf1",
+    "releaseTags": 41,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:16:45.638Z"
+}

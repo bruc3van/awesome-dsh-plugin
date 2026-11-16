@@ -1,0 +1,137 @@
+{
+  "full_name": "developerdh/dsh-sandbox-allowlist",
+  "originalPosition": 100,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 100,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:47.121Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "92bb4961f20e4ef68b318c869d49c52a46b4d623296193e3062a402890ebeade",
+      "url": "https://github.com/developerdh/dsh-sandbox-allowlist/blob/7335246a7ef6480d4f0c33a1f25a85e97702d978/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sandbox-allowlist",
+          "command": "dsh plugin --profile web add dsh-sandbox-allowlist",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "ef62751894ab58d353571ea6e0d462db178e4a20c4f673632c4db89caf804bfa",
+      "url": "https://github.com/developerdh/dsh-sandbox-allowlist/blob/7335246a7ef6480d4f0c33a1f25a85e97702d978/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sandbox-allowlist",
+          "command": "dsh plugin --profile web add dsh-sandbox-allowlist",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sandbox-allowlist",
+      "version": "0.2.2-beta.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/developerdh/dsh-sandbox-allowlist",
+        "commit": "7335246a7ef6480d4f0c33a1f25a85e97702d978"
+      },
+      "manifestSha256": "95f9e006c49b6b7ea70d7df326bc92d8c59f5ce5c544e478e873ce39be64f741",
+      "manifestUrl": "https://github.com/developerdh/dsh-sandbox-allowlist/blob/7335246a7ef6480d4f0c33a1f25a85e97702d978/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-sandbox-allowlist",
+        "versions": [
+          {
+            "version": "0.2.2-beta.2",
+            "publishTimestamp": 1794290582,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/developerdh/dsh-sandbox-allowlist",
+              "commit": "7335246a7ef6480d4f0c33a1f25a85e97702d978"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-sandbox-allowlist",
+      "origin": "npm",
+      "name": "dsh-sandbox-allowlist",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-sandbox-allowlist",
+        "title": "dsh-sandbox-allowlist",
+        "description": "DSH sandbox extension: configurable trusted writable roots outside the workspace, for both sandboxed CLI commands and the write/edit tools. 为 DSH 默认沙箱增加可配置的「沙箱授权目录」，允许工作区外的受信修改。",
+        "repository": {
+          "url": "https://github.com/developerdh/dsh-sandbox-allowlist"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "sandbox",
+            "allowlist"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787215434,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "af0f8e62d8e64f85f0bd1ccbe4a68f3266f79462a63f18b8b86551f0ee537f17",
+      "evidence": [
+        {
+          "name": "dsh-sandbox-allowlist",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-sandbox-allowlist/-/dsh-sandbox-allowlist-0.1.0.tgz",
+          "integrity": "sha512-IeoZhAmq714shS+VAkhhKQU+vrA6wOPWD9oBbfBx7pmlGG7G94ZhcozLAYcbrRLh+rmeQcBf4HVvJaWIzpm+7g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-sandbox-allowlist",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/developerdh/dsh-sandbox-allowlist",
+    "commit": "7335246a7ef6480d4f0c33a1f25a85e97702d978",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:00.171Z"
+}

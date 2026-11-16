@@ -1,0 +1,79 @@
+{
+  "full_name": "riesbri/dshline",
+  "originalPosition": 22,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 22,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-11-16T12:21:33.841Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5ec6ab53472fbecaa26a127687db4226a21961f532a1da31ebef55260776e713",
+      "url": "https://github.com/riesbri/dshline/blob/8b91e0efb088162fae3b919230378b66ed58d943/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6511970fc96ccf8bfaefb30a775ded2b4999fcc01bc608bd86f027c7e73789b4",
+      "url": "https://github.com/riesbri/dshline/blob/8b91e0efb088162fae3b919230378b66ed58d943/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dshline/dshline",
+      "version": "0.26.1",
+      "path": "packages/dshline",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/riesbri/dshline",
+        "commit": "8b91e0efb088162fae3b919230378b66ed58d943",
+        "path": "packages/dshline"
+      },
+      "manifestSha256": "32e3e987a74167a5d3989811285b3a7c885941fb7fbbb15b7f26c330c9a6a1fb",
+      "manifestUrl": "https://github.com/riesbri/dshline/blob/8b91e0efb088162fae3b919230378b66ed58d943/packages/dshline/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dshline/dshline",
+        "versions": [
+          {
+            "version": "0.26.1",
+            "publishTimestamp": 1791962913,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/riesbri/dshline",
+              "commit": "8b91e0efb088162fae3b919230378b66ed58d943",
+              "path": "packages/dshline"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/riesbri/dshline",
+    "commit": "8b91e0efb088162fae3b919230378b66ed58d943",
+    "releaseTags": 30,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:21:49.923Z"
+}

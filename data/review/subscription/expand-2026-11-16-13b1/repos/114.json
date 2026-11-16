@@ -1,0 +1,118 @@
+{
+  "full_name": "PerryLink/dsh-kit",
+  "originalPosition": 114,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 114,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:11.736Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "349863415fd0f5cd07ff3194f1c1d0c88c4b3f0f03491375b9d9aba1afc73c51",
+      "url": "https://github.com/PerryLink/dsh-kit/blob/bf3a56000cc9c5d19d0be71243afa6174d8794d3/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "market/README.md",
+      "sha256": "e4e6c7caf0f1d75454c71248282bc54e374cd7a9beacbe2895c4a1e3b4c57a4b",
+      "url": "https://github.com/PerryLink/dsh-kit/blob/bf3a56000cc9c5d19d0be71243afa6174d8794d3/market/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-memento@0.5.30",
+          "command": "dsh plugin --profile web add dsh-memento@0.5.30",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "target": "dsh-memento@0.5.30",
+      "origin": "npm",
+      "name": "dsh-memento",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-memento",
+        "title": "dsh-memento",
+        "description": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness — a capability seam (ctx.memory service + local SQLite provider + memory tool + frozen snapshot injection), not another memory warehouse",
+        "homepage": "https://github.com/PerryLink/dsh-memento#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-memento"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "memory",
+            "agent-memory",
+            "approval",
+            "audit",
+            "sqlite",
+            "cordis",
+            "llm"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1tZW1lbnRvIj48cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgcng9IjI0IiBmaWxsPSIjMGYxNzJhIi8+PGNpcmNsZSBjeD0iNjQiIGN5PSI2NCIgcj0iNDQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2MxYTJhNCIgc3Ryb2tlLXdpZHRoPSI2Ii8+PHRleHQgeD0iNjQiIHk9Ijc4IiBmaWxsPSIjZjhmYWZjIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0idWktbW9ub3NwYWNlLG1vbm9zcGFjZSIgZm9udC1zaXplPSIzOCIgZm9udC13ZWlnaHQ9IjcwMCI+TTwvdGV4dD48L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.5.30",
+            "publishTimestamp": 1793856239,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "973362ade80c0c341015a4d0aaf238a8749cf41d0b9aaa1c2dc140a177c68940",
+      "evidence": [
+        {
+          "name": "dsh-memento",
+          "version": "0.5.30",
+          "tarball": "https://registry.npmjs.org/dsh-memento/-/dsh-memento-0.5.30.tgz",
+          "integrity": "sha512-HUsY7ZWPAbCdcaJhMB4quFBxNjqgg7nnXsFtPZSWzyis3u4Y4G1BLUECQQkRMel7nOySaN7pRwzGw3/W2OSmlA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-memento@0.5.30",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-kit",
+    "commit": "bf3a56000cc9c5d19d0be71243afa6174d8794d3",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@perrylink/dsh-kit",
+    "version": null,
+    "dsh": null,
+    "engines": {
+      "node": ">=22"
+    }
+  },
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:22.343Z"
+}

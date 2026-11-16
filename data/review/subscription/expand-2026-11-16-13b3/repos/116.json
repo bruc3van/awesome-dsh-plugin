@@ -1,0 +1,95 @@
+{
+  "full_name": "qingmomo233/dsh-thinking-language",
+  "originalPosition": 116,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 116,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:20.479Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a1f77ddb961c72111613fc48f66c356785525729e122e0784d2ab9f2a75b976a",
+      "url": "https://github.com/qingmomo233/dsh-thinking-language/blob/27071ca1d19869f74084d16dc9d2650289611983/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/qingmomo233/dsh-thinking-language",
+          "command": "dsh plugin --profile web add github:qingmomo233/dsh-thinking-language",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "ac7feca684b1db98179d7db67591667a103989f38e1d64a8b902220e84f6dacc",
+      "url": "https://github.com/qingmomo233/dsh-thinking-language/blob/27071ca1d19869f74084d16dc9d2650289611983/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/qingmomo233/dsh-thinking-language",
+          "command": "dsh plugin --profile web add github:qingmomo233/dsh-thinking-language",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-thinking-language",
+      "version": "2.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/qingmomo233/dsh-thinking-language",
+        "commit": "27071ca1d19869f74084d16dc9d2650289611983"
+      },
+      "manifestSha256": "6490729645ba80e95bc5d7b81c08ab9a392169f924190f5a98dc6ab1b8cd111f",
+      "manifestUrl": "https://github.com/qingmomo233/dsh-thinking-language/blob/27071ca1d19869f74084d16dc9d2650289611983/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-thinking-language",
+        "versions": [
+          {
+            "version": "2.0.1",
+            "publishTimestamp": 1794394338,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/qingmomo233/dsh-thinking-language",
+              "commit": "27071ca1d19869f74084d16dc9d2650289611983"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/qingmomo233/dsh-thinking-language",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/qingmomo233/dsh-thinking-language",
+    "commit": "27071ca1d19869f74084d16dc9d2650289611983",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:29.367Z"
+}

@@ -1,0 +1,150 @@
+{
+  "full_name": "GULI-lab/DSH-element-source",
+  "originalPosition": 147,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:37.072Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "76df564e4bb3339a5e2cf0e8012b891c741b448bd581083e1d5aa214ab190b7e",
+      "url": "https://github.com/GULI-lab/DSH-element-source/blob/a4aa285e042e115be4af4e24fdc3983e2d7bfd69/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-element-source",
+          "command": "npx -y --package @deepseek-ai/dsh dsh plugin --profile desktop add dsh-element-source",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "05442cd0fdbd2ece96e619579b5699c154e7e8beb998d3aa759f3ad08ea32a4a",
+      "url": "https://github.com/GULI-lab/DSH-element-source/blob/a4aa285e042e115be4af4e24fdc3983e2d7bfd69/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-element-source",
+          "command": "npx -y --package @deepseek-ai/dsh dsh plugin --profile desktop add dsh-element-source",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-element-source",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GULI-lab/DSH-element-source",
+        "commit": "a4aa285e042e115be4af4e24fdc3983e2d7bfd69"
+      },
+      "manifestSha256": "3b863e8ed72297af3c0a27e78bd560d6d0042fb16b80dc764b544b9de65263dd",
+      "manifestUrl": "https://github.com/GULI-lab/DSH-element-source/blob/a4aa285e042e115be4af4e24fdc3983e2d7bfd69/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-element-source",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1793352699,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GULI-lab/DSH-element-source",
+              "commit": "a4aa285e042e115be4af4e24fdc3983e2d7bfd69"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-element-source",
+      "origin": "npm",
+      "name": "dsh-element-source",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-element-source",
+        "title": "dsh-element-source",
+        "description": "Click any UI element in your running dev page — opened in the DSH built-in browser — and get its Vue / React / Svelte / Angular source file as a file reference chip in the DSH chat, jumpable to the exact line.",
+        "author": "GULI-lab",
+        "homepage": "https://github.com/GULI-lab/DSH-element-source",
+        "repository": {
+          "url": "https://github.com/GULI-lab/DSH-element-source"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "inspector",
+            "vue",
+            "react",
+            "svelte",
+            "angular",
+            "source-map",
+            "click-to-source"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1793352965,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "aa5159805523655cc3b56e071bfa7bd7e64067a25d76f469acbd2f9e4798c4f2",
+      "evidence": [
+        {
+          "name": "dsh-element-source",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-element-source/-/dsh-element-source-0.2.1.tgz",
+          "integrity": "sha512-XRq8GS/Uh/arbSUISYEPGl0RT5P6Fq5rByc1xLG8KPCtJRSlj7YvH014tHjSIJdQyyIIsbK1ERTCo/hZJhzWPA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-element-source",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GULI-lab/DSH-element-source",
+    "commit": "a4aa285e042e115be4af4e24fdc3983e2d7bfd69",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:49.745Z"
+}

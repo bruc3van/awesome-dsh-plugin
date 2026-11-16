@@ -1,0 +1,223 @@
+{
+  "full_name": "HaoyueQin/deepseek-harness-background",
+  "originalPosition": 108,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 108,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:06:53.196Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a60c76f9ff24a73329a272baaa8c3770f86d54ed6038237b5a68b5333eae4711",
+      "url": "https://github.com/HaoyueQin/deepseek-harness-background/blob/f2190deb0f3d5308307a6b586f87d9812329f8d7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "deepseek-harness-background",
+          "command": "dsh plugin --profile web add deepseek-harness-background",
+          "profile": "web"
+        },
+        {
+          "install": "deepseek-harness-background@0.5.2",
+          "command": "dsh plugin --profile web add deepseek-harness-background@0.5.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "22d19099b6a98a8b14aa7c0fa6a4ef62a610dda38329a5fc3623a0e3cbe20553",
+      "url": "https://github.com/HaoyueQin/deepseek-harness-background/blob/f2190deb0f3d5308307a6b586f87d9812329f8d7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "deepseek-harness-background",
+          "command": "dsh plugin --profile web add deepseek-harness-background",
+          "profile": "web"
+        },
+        {
+          "install": "deepseek-harness-background@0.5.2",
+          "command": "dsh plugin --profile web add deepseek-harness-background@0.5.2",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-harness-background",
+      "version": "0.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HaoyueQin/deepseek-harness-background",
+        "commit": "f2190deb0f3d5308307a6b586f87d9812329f8d7"
+      },
+      "manifestSha256": "4607d4aeb9c926d8b426a4d1bf93e1e7c611deb281cd4dd09708c53102de3d29",
+      "manifestUrl": "https://github.com/HaoyueQin/deepseek-harness-background/blob/f2190deb0f3d5308307a6b586f87d9812329f8d7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 || >=0.1.3-alpha.1 || >=0.1.5-alpha.1 || >=0.1.5-rc.1 || >=0.1.5-rc.2 || >=0.1.6-alpha.1 || >=0.1.6-alpha.2 || >=0.1.7-alpha.1 || >=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "deepseek-harness-background",
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1792775644,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HaoyueQin/deepseek-harness-background",
+              "commit": "f2190deb0f3d5308307a6b586f87d9812329f8d7"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 || >=0.1.3-alpha.1 || >=0.1.5-alpha.1 || >=0.1.5-rc.1 || >=0.1.5-rc.2 || >=0.1.6-alpha.1 || >=0.1.6-alpha.2 || >=0.1.7-alpha.1 || >=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "deepseek-harness-background",
+      "origin": "npm",
+      "name": "deepseek-harness-background",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "deepseek-harness-background",
+        "title": {
+          "en": "Custom Background",
+          "zh": "自定义背景"
+        },
+        "description": {
+          "en": "Upload a picture or paste an image URL, then tune opacity, scrim and frosted-glass panels.",
+          "zh": "上传图片或粘贴链接，为整个界面铺上壁纸，并可调节不透明度、蒙版与毛玻璃面板。"
+        },
+        "author": "HaoyueQin",
+        "homepage": "https://github.com/HaoyueQin/deepseek-harness-background",
+        "repository": {
+          "url": "https://github.com/HaoyueQin/deepseek-harness-background"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "dsh-plugin",
+            "theme",
+            "wallpaper",
+            "background",
+            "web-ui"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIEZpeGVkIHBhbGV0dGU6IHRoZSBzaGVsbCBoYW5kcyBtYW5pZmVzdCBpY29ucyB0byBhbiA8aW1nPiwgc28gY3VycmVudENvbG9yCiAgICAgICBjYW5ub3QgaW5oZXJpdCB0aGUgdGhlbWU7ICM0RDZCRkUgc3RheXMgbGVnaWJsZSBvbiBib3RoIGNhcmQgbWF0ZXJpYWxzLiAtLT4KICA8dGl0bGU+Q3VzdG9tIEJhY2tncm91bmQ8L3RpdGxlPgogIDxyZWN0IHg9IjIuNSIgeT0iNi41IiB3aWR0aD0iMzEiIGhlaWdodD0iMjMiIHJ4PSI1LjUiIHN0cm9rZT0iIzRENkJGRSIgc3Ryb2tlLXdpZHRoPSIxLjUiIC8+CiAgPGNpcmNsZSBjeD0iMjUuNSIgY3k9IjEzLjUiIHI9IjIuMjUiIGZpbGw9IiM0RDZCRkUiIC8+CiAgPHBhdGggZD0iTTUgMjUuNUwxMi41IDE4LjVMMTYuOCAyMi44TDIxLjUgMThMMzEgMjUuNSIgc3Ryb2tlPSIjNEQ2QkZFIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1790705701,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 || >=0.1.3-alpha.1 || >=0.1.5-alpha.1 || >=0.1.5-rc.1 || >=0.1.5-rc.2 || >=0.1.6-alpha.1 || >=0.1.6-alpha.2 || >=0.1.7-alpha.1 || >=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7999fcaac3f5adb21a83170ecff6603d425dd82f3957338dbfbfc87b30665eb6",
+      "evidence": [
+        {
+          "name": "deepseek-harness-background",
+          "version": "0.6.1",
+          "tarball": "https://registry.npmjs.org/deepseek-harness-background/-/deepseek-harness-background-0.6.1.tgz",
+          "integrity": "sha512-XqZymaRsdsLFYZ5qkzPXzi9/zC2tiBBLoNO2NOtlaPj6mJTDafrIluoKBIxIMPfTttwaAn54Y5oXxBk1UL23JA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "deepseek-harness-background@0.5.2",
+      "origin": "npm",
+      "name": "deepseek-harness-background",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "deepseek-harness-background",
+        "title": "deepseek-harness-background",
+        "description": "Custom background image plugin for the DeepSeek Harness web GUI: upload a local picture or paste an image URL, and render it behind the whole app surface with adjustable opacity, scrim, panel transparency and frosted-glass blur.",
+        "author": "HaoyueQin",
+        "homepage": "https://github.com/HaoyueQin/deepseek-harness-background",
+        "repository": {
+          "url": "https://github.com/HaoyueQin/deepseek-harness-background"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "dsh-plugin",
+            "theme",
+            "wallpaper",
+            "background",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.2",
+            "publishTimestamp": 1788249971,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2 || ^0.1.2-alpha.1 || ^0.1.2-alpha.2 || ^0.1.2-alpha.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7999fcaac3f5adb21a83170ecff6603d425dd82f3957338dbfbfc87b30665eb6",
+      "evidence": [
+        {
+          "name": "deepseek-harness-background",
+          "version": "0.5.2",
+          "tarball": "https://registry.npmjs.org/deepseek-harness-background/-/deepseek-harness-background-0.5.2.tgz",
+          "integrity": "sha512-N/XAVJfatPfr5db/sbQfGis77oLTbYIyQfaFOOXJnj/ZIHenbxy/yQ1XFi55dYCl/+Ow4wwUcY4sSXMPvfqK8g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "deepseek-harness-background",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "deepseek-harness-background@0.5.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HaoyueQin/deepseek-harness-background",
+    "commit": "f2190deb0f3d5308307a6b586f87d9812329f8d7",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:11.240Z"
+}

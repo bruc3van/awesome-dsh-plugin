@@ -1,0 +1,74 @@
+{
+  "full_name": "huanlin-labs/dsh-skill-cockpit",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:18.792Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8a2c4cde851353eda7d18d34f033697708ee11650914188f27e8cb5240537b77",
+      "url": "https://github.com/huanlin-labs/dsh-skill-cockpit/blob/70428abfaa2c71beb3316d7ce97ba5cc5dd8a4c8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "133cd2b371e1b8ab6ebb921098e9cf9b593f8c2279cfcde5173998aed32655fb",
+      "url": "https://github.com/huanlin-labs/dsh-skill-cockpit/blob/70428abfaa2c71beb3316d7ce97ba5cc5dd8a4c8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skill-cockpit",
+      "version": "1.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/huanlin-labs/dsh-skill-cockpit",
+        "commit": "70428abfaa2c71beb3316d7ce97ba5cc5dd8a4c8"
+      },
+      "manifestSha256": "8c1f37153f5c20f0428ca5438c0efebbb1cbf84e6b2a519dff73153acd172d73",
+      "manifestUrl": "https://github.com/huanlin-labs/dsh-skill-cockpit/blob/70428abfaa2c71beb3316d7ce97ba5cc5dd8a4c8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-skill-cockpit",
+        "versions": [
+          {
+            "version": "1.7.1",
+            "publishTimestamp": 1794741333,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/huanlin-labs/dsh-skill-cockpit",
+              "commit": "70428abfaa2c71beb3316d7ce97ba5cc5dd8a4c8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/huanlin-labs/dsh-skill-cockpit",
+    "commit": "70428abfaa2c71beb3316d7ce97ba5cc5dd8a4c8",
+    "releaseTags": 50,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:28.899Z"
+}

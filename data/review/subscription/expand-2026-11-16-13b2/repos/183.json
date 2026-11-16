@@ -1,0 +1,193 @@
+{
+  "full_name": "drscrewdriver/dsh-date-wrapper",
+  "originalPosition": 183,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 183,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:51.386Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a629ecaafd0cc9548d929d32a3446599f721b8858d415b0a1bb8849365285dcf",
+      "url": "https://github.com/drscrewdriver/dsh-date-wrapper/blob/c51592677af9f3e39f5e7acfbcd80d61a46854a0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-date-wrapper",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-date-wrapper",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8658168565ef7a384ed4eb1805572de4f1d0454da61c61067cb37976d789fef7",
+      "url": "https://github.com/drscrewdriver/dsh-date-wrapper/blob/c51592677af9f3e39f5e7acfbcd80d61a46854a0/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-date-wrapper",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-date-wrapper",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "aa0f488700a7f07716a9a37dad40c80b5432b6aa46b722167a3edf2b8e34e469",
+      "url": "https://github.com/drscrewdriver/dsh-date-wrapper/blob/c51592677af9f3e39f5e7acfbcd80d61a46854a0/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-date-wrapper",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-date-wrapper",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ko.md",
+      "sha256": "1861f64288aaba36e63df3b999deca64a0a08e72e63a48618ee72bce8ada2503",
+      "url": "https://github.com/drscrewdriver/dsh-date-wrapper/blob/c51592677af9f3e39f5e7acfbcd80d61a46854a0/README.ko.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-date-wrapper",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-date-wrapper",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "28ed13c5d893aab1dd453079ab083a308bc7bd5c694b0240e060672ecf1eee3e",
+      "url": "https://github.com/drscrewdriver/dsh-date-wrapper/blob/c51592677af9f3e39f5e7acfbcd80d61a46854a0/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-date-wrapper",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-date-wrapper",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "a6fa1440c26548b9de7157cadb7beb74257cd6eb32fc2821dbdf4d22c599b991",
+      "url": "https://github.com/drscrewdriver/dsh-date-wrapper/blob/c51592677af9f3e39f5e7acfbcd80d61a46854a0/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-date-wrapper",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-date-wrapper",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.it.md",
+      "sha256": "cbe5a03e7b50aaa73730cd1ec8a519b799e5cd9496a07837e8cd07305d318826",
+      "url": "https://github.com/drscrewdriver/dsh-date-wrapper/blob/c51592677af9f3e39f5e7acfbcd80d61a46854a0/README.it.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-date-wrapper",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-date-wrapper",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "4938afa1ee4c40e3be4442b14b576ebed5bf2193c3ac22e455a3f1ff4c70cdc0",
+      "url": "https://github.com/drscrewdriver/dsh-date-wrapper/blob/c51592677af9f3e39f5e7acfbcd80d61a46854a0/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-date-wrapper",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-date-wrapper",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "62cbfa44bdd95a13f9dd62f59390d8741123d5a47870f6511e5da17e1be03649",
+      "url": "https://github.com/drscrewdriver/dsh-date-wrapper/blob/c51592677af9f3e39f5e7acfbcd80d61a46854a0/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/drscrewdriver/dsh-date-wrapper",
+          "command": "dsh plugin --profile web add github:drscrewdriver/dsh-date-wrapper",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-date-wrapper",
+      "version": "0.4.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/drscrewdriver/dsh-date-wrapper",
+        "commit": "c51592677af9f3e39f5e7acfbcd80d61a46854a0"
+      },
+      "manifestSha256": "2ae510c0eb79a052a8dd95ea2b0e49683abca1f569d2ec693a493e8f4eb58564",
+      "manifestUrl": "https://github.com/drscrewdriver/dsh-date-wrapper/blob/c51592677af9f3e39f5e7acfbcd80d61a46854a0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-date-wrapper",
+        "versions": [
+          {
+            "version": "0.4.7",
+            "publishTimestamp": 1794649358,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-date-wrapper",
+              "commit": "c51592677af9f3e39f5e7acfbcd80d61a46854a0"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/drscrewdriver/dsh-date-wrapper",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/drscrewdriver/dsh-date-wrapper",
+    "commit": "c51592677af9f3e39f5e7acfbcd80d61a46854a0",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:13.505Z"
+}

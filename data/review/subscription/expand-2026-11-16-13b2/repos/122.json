@@ -1,0 +1,58 @@
+{
+  "full_name": "myYangyunfan/dsh-deepisland",
+  "originalPosition": 122,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:43.289Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "776562b17e99b34d10125347f2c866011f2d6e825ecadc3152fe42313d2ed4b2",
+      "url": "https://github.com/myYangyunfan/dsh-deepisland/blob/3222881e511bc07506b6bf61852941556b3e1044/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "windows/README.md",
+      "sha256": "bc32c3801649cbdbf0ee4671427db8ff31cef57568db92019223ee62603f3459",
+      "url": "https://github.com/myYangyunfan/dsh-deepisland/blob/3222881e511bc07506b6bf61852941556b3e1044/windows/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-vibe-island",
+      "version": "1.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/myYangyunfan/dsh-deepisland",
+        "commit": "3222881e511bc07506b6bf61852941556b3e1044"
+      },
+      "manifestSha256": "8caab5bd25eb044098724494ab0fbd01a443aed964b659f345e1e3abfd2abb65",
+      "manifestUrl": "https://github.com/myYangyunfan/dsh-deepisland/blob/3222881e511bc07506b6bf61852941556b3e1044/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/myYangyunfan/dsh-deepisland",
+    "commit": "3222881e511bc07506b6bf61852941556b3e1044",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:17:52.526Z"
+}

@@ -1,0 +1,151 @@
+{
+  "full_name": "appthin/dsh-rea-agents",
+  "originalPosition": 173,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 173,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:29.306Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "deb55749373c9a78bf2dbcdb559e5c0c5d70d605e02d361d89b72516fe6a9745",
+      "url": "https://github.com/appthin/dsh-rea-agents/blob/5956dc953840063189713689ece0fe4bf9a476d6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-rea-agents",
+          "command": "dsh plugin --profile web add dsh-rea-agents",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "741a635fd474518d9924b335046b9a95c2f93b9ff4af6277f67d5ada5e2c1cf0",
+      "url": "https://github.com/appthin/dsh-rea-agents/blob/5956dc953840063189713689ece0fe4bf9a476d6/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-rea-agents",
+          "command": "dsh plugin --profile web add dsh-rea-agents",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-rea-agents",
+      "version": "1.0.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/appthin/dsh-rea-agents",
+        "commit": "5956dc953840063189713689ece0fe4bf9a476d6"
+      },
+      "manifestSha256": "574306980262d5cce3816bf5f4220d2a6763bdfa951b0f217bed4afa7a2ac432",
+      "manifestUrl": "https://github.com/appthin/dsh-rea-agents/blob/5956dc953840063189713689ece0fe4bf9a476d6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-rea-agents",
+        "versions": [
+          {
+            "version": "1.0.8",
+            "publishTimestamp": 1792386746,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/appthin/dsh-rea-agents",
+              "commit": "5956dc953840063189713689ece0fe4bf9a476d6"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-rea-agents",
+      "origin": "npm",
+      "name": "dsh-rea-agents",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-rea-agents",
+        "title": "dsh-rea-agents",
+        "description": "Pinned-version REA for DeepSeek Harness: installs rea-agents locally, starts its MCP server from that pinned copy, and upgrades only when you press Update.",
+        "author": "appthin",
+        "homepage": "https://github.com/appthin/dsh-rea-agents#readme",
+        "repository": {
+          "url": "https://github.com/appthin/dsh-rea-agents"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "rea",
+            "reverse-engineering",
+            "mcp",
+            "ghidra",
+            "jadx",
+            "apktool"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDI0IDI0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlJFQSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjQ3YmJmIiBzdHJva2Utd2lkdGg9IjEuNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICA8IS0tIEEgbWFnbmlmaWVyIG92ZXIgdGhyZWUgYmluYXJ5IHJvd3M6IGluc3BlY3Rpb24gb2YgYSBzaGlwcGVkIGFydGlmYWN0LiAtLT4KICA8IS0tCiAgICBUaGUgY29sb3VyIGlzIHdyaXR0ZW4gbGl0ZXJhbGx5IHJhdGhlciB0aGFuIGFzIGBjdXJyZW50Q29sb3JgLiBUaGUgcGx1Z2luCiAgICBtYW5hZ2VyIHJlbmRlcnMgdGhpcyBmaWxlIHRocm91Z2ggYW4gYDxpbWc+YCwgYW5kIGFuIGltYWdlIGxvYWRlZCB0aGF0IHdheQogICAgaW5oZXJpdHMgbm90aGluZyBmcm9tIHRoZSBwYWdlIOKAlCBgY3VycmVudENvbG9yYCByZXNvbHZlcyBhZ2FpbnN0IHRoZSBTVkcncwogICAgb3duIGRlZmF1bHRzLCB3aGljaCBpcyB3aHkgdGhlIGdseXBoIHNob3dlZCB1cCBibGFjay4gQSBsaXRlcmFsIGJsdWUgaXMgdGhlCiAgICBvbmx5IHNwZWxsaW5nIHRoYXQgc3Vydml2ZXMgdGhhdCBib3VuZGFyeS4KICAtLT4KICA8Y2lyY2xlIGN4PSIxMC41IiBjeT0iMTAuNSIgcj0iNi41IiAvPgogIDxsaW5lIHgxPSIxNS40IiB5MT0iMTUuNCIgeDI9IjIxIiB5Mj0iMjEiIC8+CiAgPGxpbmUgeDE9IjcuNCIgeTE9IjguNiIgeDI9IjkuNCIgeTI9IjguNiIgLz4KICA8bGluZSB4MT0iMTEuNiIgeTE9IjguNiIgeDI9IjEzLjYiIHkyPSI4LjYiIC8+CiAgPGxpbmUgeDE9IjcuNCIgeTE9IjExLjQiIHgyPSIxMC40IiB5Mj0iMTEuNCIgLz4KICA8bGluZSB4MT0iMTIuNiIgeTE9IjExLjQiIHgyPSIxMy42IiB5Mj0iMTEuNCIgLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "1.0.8",
+            "publishTimestamp": 1792387684,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.1 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "94f8ad361ab88070801f821cdbda2370c25421684b9b4ba80b3ef03d423f8fb2",
+      "evidence": [
+        {
+          "name": "dsh-rea-agents",
+          "version": "1.0.8",
+          "tarball": "https://registry.npmjs.org/dsh-rea-agents/-/dsh-rea-agents-1.0.8.tgz",
+          "integrity": "sha512-Ow8rvnMuo2sh+FMA67gmUY3kq/K37k6UQw4/1B9Ej9AV0LfmdMbyXTx0GLkrJN+hHmza1q8J0wuyC5uveEVXCQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-rea-agents",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/appthin/dsh-rea-agents",
+    "commit": "5956dc953840063189713689ece0fe4bf9a476d6",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:41.930Z"
+}

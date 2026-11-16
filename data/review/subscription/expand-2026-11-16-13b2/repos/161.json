@@ -1,0 +1,82 @@
+{
+  "full_name": "ROYLeXJ/dsh-notify-tray",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:03.092Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "57d2d14086773197ddc4a379984755e728a4b1705e5e62eb55df02f02fdb0d5e",
+      "url": "https://github.com/ROYLeXJ/dsh-notify-tray/blob/426c4e75809c807960bc8cb09450780ed361d7e4/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "57d2d14086773197ddc4a379984755e728a4b1705e5e62eb55df02f02fdb0d5e",
+      "url": "https://github.com/ROYLeXJ/dsh-notify-tray/blob/426c4e75809c807960bc8cb09450780ed361d7e4/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "5ed571585fe6b37a60213999864b5d8bc20cb62adeb72b94d1231f27e36e3e74",
+      "url": "https://github.com/ROYLeXJ/dsh-notify-tray/blob/426c4e75809c807960bc8cb09450780ed361d7e4/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-notify-tray",
+      "version": "0.1.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ROYLeXJ/dsh-notify-tray",
+        "commit": "426c4e75809c807960bc8cb09450780ed361d7e4"
+      },
+      "manifestSha256": "78a34fcb4556673bc6504282429dae310432fe6bb9bca623e3f73890697459ca",
+      "manifestUrl": "https://github.com/ROYLeXJ/dsh-notify-tray/blob/426c4e75809c807960bc8cb09450780ed361d7e4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-notify-tray",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1794047130,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ROYLeXJ/dsh-notify-tray",
+              "commit": "426c4e75809c807960bc8cb09450780ed361d7e4"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ROYLeXJ/dsh-notify-tray",
+    "commit": "426c4e75809c807960bc8cb09450780ed361d7e4",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:12.427Z"
+}

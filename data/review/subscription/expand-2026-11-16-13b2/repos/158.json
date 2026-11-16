@@ -1,0 +1,77 @@
+{
+  "full_name": "MuWinds/dsh-codemode",
+  "originalPosition": 158,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 158,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:59.205Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e2da72e518ce1664e5257e1993df69b2e761967e172a12f0575b20cbf49138e8",
+      "url": "https://github.com/MuWinds/dsh-codemode/blob/f9758ec1061a9a0af4f1dfefbacc19c5987b11d1/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "501b76a28bbb83fb3a049183593954eacd2e581370fa5ad8debb15af01e59c3d",
+      "url": "https://github.com/MuWinds/dsh-codemode/blob/f9758ec1061a9a0af4f1dfefbacc19c5987b11d1/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codemode",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MuWinds/dsh-codemode",
+        "commit": "f9758ec1061a9a0af4f1dfefbacc19c5987b11d1"
+      },
+      "manifestSha256": "a0d208e4b8bd0c3b5eb613c106d475b0151f4e25ad79e9c9cfa04c57d92c34b6",
+      "manifestUrl": "https://github.com/MuWinds/dsh-codemode/blob/f9758ec1061a9a0af4f1dfefbacc19c5987b11d1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-alpha.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-codemode",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1793771679,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MuWinds/dsh-codemode",
+              "commit": "f9758ec1061a9a0af4f1dfefbacc19c5987b11d1"
+            },
+            "engines": {
+              "dsh": "^0.2.2-alpha.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MuWinds/dsh-codemode",
+    "commit": "f9758ec1061a9a0af4f1dfefbacc19c5987b11d1",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:08.692Z"
+}

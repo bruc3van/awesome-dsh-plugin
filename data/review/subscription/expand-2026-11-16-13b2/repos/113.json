@@ -1,0 +1,145 @@
+{
+  "full_name": "john-walks-slow/dsh-clear-mind",
+  "originalPosition": 113,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 113,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:23.128Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e526682fcc226cd829303e0b00cdfacce9eb1c33f137d7a69d8f4fcc1556aa4a",
+      "url": "https://github.com/john-walks-slow/dsh-clear-mind/blob/0de7bbb49cd4a16ec3607c2c1147fb475a21c255/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-clear-mind",
+          "command": "dsh plugin --profile web add dsh-clear-mind",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/john-walks-slow/dsh-clear-mind",
+          "command": "dsh plugin --profile web add github:john-walks-slow/dsh-clear-mind",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-clear-mind",
+      "version": "0.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/john-walks-slow/dsh-clear-mind",
+        "commit": "0de7bbb49cd4a16ec3607c2c1147fb475a21c255"
+      },
+      "manifestSha256": "2344a9a2c917ca706ccb8e038473857eb5d7003f637050c32cc0208ff245241e",
+      "manifestUrl": "https://github.com/john-walks-slow/dsh-clear-mind/blob/0de7bbb49cd4a16ec3607c2c1147fb475a21c255/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-clear-mind",
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1792982271,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/john-walks-slow/dsh-clear-mind",
+              "commit": "0de7bbb49cd4a16ec3607c2c1147fb475a21c255"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-clear-mind",
+      "origin": "npm",
+      "name": "dsh-clear-mind",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-clear-mind",
+        "title": "dsh-clear-mind",
+        "description": "Model-autonomous context compaction for DeepSeek Harness: mind_map surveys the agent's own context surface (seqs, token weights, clear-boundary markers and the clear-mind playbook), clear_mind replaces a chosen span with a model-written checkpoint through the platform's native compaction transaction, and a proactive reminder nudges the model when the context grows long. dsh-clear-mind：让模型自主压缩自身上下文——mind_map 俯瞰上下文表面（seq/token/清理边界标记 + 清理手册），clear_mind 把一段对话历史替换成模型自写的检查点（走平台原生 compaction 事务，GUI 可展开审计），上下文涨长或单轮步数过多时主动提醒模型清理。",
+        "author": "johnnren",
+        "homepage": "https://github.com/john-walks-slow/dsh-clear-mind#readme",
+        "repository": {
+          "url": "https://github.com/john-walks-slow/dsh-clear-mind"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "context-compaction",
+            "compaction",
+            "context-window",
+            "checkpoint",
+            "clear-mind",
+            "context",
+            "memory",
+            "上下文压缩",
+            "上下文",
+            "检查点",
+            "上下文管理",
+            "清理"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1792984047,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4a5389f4a0b1c02363064830226c50c4aa423b7f11700e2077b899eea9ff7464",
+      "evidence": [
+        {
+          "name": "dsh-clear-mind",
+          "version": "0.1.6",
+          "tarball": "https://registry.npmjs.org/dsh-clear-mind/-/dsh-clear-mind-0.1.6.tgz",
+          "integrity": "sha512-OaXW2vcjD79dX9iOG4QzWVnFN15Xyp3dckMAt/CdX8HqJg5lfczxCSmqRnz4vq9P4y/XBltjR36+Eh8Ni3Q4hw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-clear-mind",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/john-walks-slow/dsh-clear-mind",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/john-walks-slow/dsh-clear-mind",
+    "commit": "0de7bbb49cd4a16ec3607c2c1147fb475a21c255",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:32.528Z"
+}

@@ -1,0 +1,331 @@
+{
+  "full_name": "kazari-qwp/dsh-tiered-plugin-menu",
+  "originalPosition": 114,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 114,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:23.651Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "df9537b305a4daecc6f51bd77529eee74d7cdaf452ca28591e7a88e69e29b9c1",
+      "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu/blob/8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tiered-plugin-menu",
+          "command": "dsh plugin --profile desktop add dsh-tiered-plugin-menu",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-tiered-plugin-tui",
+          "command": "dsh plugin --profile <profile> add dsh-tiered-plugin-tui",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e73559a29c723d5371c2191d1dcae09a24aa7c265695735caf0f2042c437434c",
+      "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu/blob/8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tiered-plugin-menu",
+          "command": "dsh plugin --profile desktop add dsh-tiered-plugin-menu",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-tiered-plugin-tui",
+          "command": "dsh plugin --profile <profile> add dsh-tiered-plugin-tui",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "packages/tui/README.md",
+      "sha256": "ce3af55232681175726a1bb58a01b29e4d7690c91bf33e78836be23297e5d3f2",
+      "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu/blob/8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c/packages/tui/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tiered-plugin-tui",
+          "command": "dsh plugin --profile <profile> add dsh-tiered-plugin-tui",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-go/README.md",
+      "sha256": "df0be7419aea3abd0725bc4911119244892a5a24a9282b01c312593433269be6",
+      "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu/blob/8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c/packages/dsh-go/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tiered-plugin-core",
+      "version": "1.1.1",
+      "path": "packages/core",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu",
+        "commit": "8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c",
+        "path": "packages/core"
+      },
+      "manifestSha256": "ccead03497f03ea184b67bd85c6d3f889c1219945f22245c9522b20e4e55f2f4",
+      "manifestUrl": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu/blob/8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c/packages/core/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tiered-plugin-core",
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1794828207,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu",
+              "commit": "8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c",
+              "path": "packages/core"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tiered-plugin-go",
+      "version": "1.1.0",
+      "path": "packages/dsh-go",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu",
+        "commit": "8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c",
+        "path": "packages/dsh-go"
+      },
+      "manifestSha256": "41d869a9e1afa114a25603d1d66e26ee0a3b3e2a645892f0f7ee892f4fa2a50b",
+      "manifestUrl": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu/blob/8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c/packages/dsh-go/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tiered-plugin-go",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1794828207,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu",
+              "commit": "8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c",
+              "path": "packages/dsh-go"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tiered-plugin-tui",
+      "version": "1.1.0",
+      "path": "packages/tui",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu",
+        "commit": "8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c",
+        "path": "packages/tui"
+      },
+      "manifestSha256": "599fa244be8512cf90d700dbdf3f5c4e441a5ec9dae133470470d82eeb9cea31",
+      "manifestUrl": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu/blob/8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c/packages/tui/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tiered-plugin-tui",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1794828207,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu",
+              "commit": "8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c",
+              "path": "packages/tui"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tiered-plugin-menu",
+      "version": "1.1.1",
+      "path": "packages/web",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu",
+        "commit": "8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c",
+        "path": "packages/web"
+      },
+      "manifestSha256": "673af36d6c895740c8b5caaaa073402e53f34aa16fda465391d97f124b89d6af",
+      "manifestUrl": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu/blob/8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c/packages/web/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-tiered-plugin-menu",
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1794828207,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu",
+              "commit": "8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c",
+              "path": "packages/web"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-tiered-plugin-menu",
+      "origin": "npm",
+      "name": "dsh-tiered-plugin-menu",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tiered-plugin-menu",
+        "title": "dsh-tiered-plugin-menu",
+        "description": "为每个工作区和会话独立配置 DSH 插件、MCP 和 Skill，支持逐级继承与插件实例隔离。",
+        "homepage": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu#readme",
+        "repository": {
+          "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu",
+          "directory": "packages/web"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "plugins",
+            "workspace",
+            "session",
+            "mcp",
+            "skills"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1794828707,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "133dcd47ebe653dcbcc31b95ef5344d137f927fae0239939beddef4bfff7e313",
+      "evidence": [
+        {
+          "name": "dsh-tiered-plugin-menu",
+          "version": "1.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-tiered-plugin-menu/-/dsh-tiered-plugin-menu-1.1.1.tgz",
+          "integrity": "sha512-DCBb8BHEJm52gA4Bl9KL75K1SszCnGWMn8/qnleEtj62CugErzYvLTZzpODBKYoNesyp34J96kbrcJlVh36WfA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-tiered-plugin-tui",
+      "origin": "npm",
+      "name": "dsh-tiered-plugin-tui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tiered-plugin-tui",
+        "title": "dsh-tiered-plugin-tui",
+        "description": "DSH 分级插件菜单的终端适配：独立配置插件、MCP 和 Skill。",
+        "homepage": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu#readme",
+        "repository": {
+          "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu",
+          "directory": "packages/tui"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "plugins",
+            "workspace",
+            "session",
+            "mcp",
+            "skills",
+            "dsh-tui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1794623685,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2b86e57dd7a77fd6ac34cf6c9d96230675f99e073be649da738ba0a96ff88fd7",
+      "evidence": [
+        {
+          "name": "dsh-tiered-plugin-tui",
+          "version": "1.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-tiered-plugin-tui/-/dsh-tiered-plugin-tui-1.1.0.tgz",
+          "integrity": "sha512-yVsp5OP12cTH74fXiFkmxXHamtWSyfE8nhgb9mSHxfcKeNypwIqfMZP4pRxeVem8f4T7ktb5zmfiH0caFnKO8A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tiered-plugin-menu",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tiered-plugin-tui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kazari-qwp/dsh-tiered-plugin-menu",
+    "commit": "8ec0ca1ea2d9ca59f07dc6d5ec5e33b9b722c08c",
+    "releaseTags": 25,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:44.303Z"
+}

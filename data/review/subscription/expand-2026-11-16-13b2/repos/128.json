@@ -1,0 +1,50 @@
+{
+  "full_name": "wonderandyou/dsh-grow",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:55.000Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "08be20b500a3202ea9a3d00ca02bdf5e816060245b3d0882aea8042944d8e3fc",
+      "url": "https://github.com/wonderandyou/dsh-grow/blob/26be72a850fca9899fdb89caccb6cff366e6a217/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-grow",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wonderandyou/dsh-grow",
+        "commit": "26be72a850fca9899fdb89caccb6cff366e6a217"
+      },
+      "manifestSha256": "a0eca970ba6ea025efdf5fa89167b2cab78e911d3a2405abb1da19c3a7ae337b",
+      "manifestUrl": "https://github.com/wonderandyou/dsh-grow/blob/26be72a850fca9899fdb89caccb6cff366e6a217/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wonderandyou/dsh-grow",
+    "commit": "26be72a850fca9899fdb89caccb6cff366e6a217",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:18:02.960Z"
+}

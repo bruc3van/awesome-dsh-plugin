@@ -1,0 +1,106 @@
+{
+  "full_name": "AdonisSheldon/dsh-openai-oauth",
+  "originalPosition": 87,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 87,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:12.808Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2b3b9ea31a9affdf3916e26ef1f4199152e5d74feb1a560cba1d4659aa81dabe",
+      "url": "https://github.com/AdonisSheldon/dsh-openai-oauth/blob/63c6b65dedd734406276cb79712e2b4fd056727b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-openai-oauth@0.3.0",
+          "command": "dsh plugin --profile web add dsh-openai-oauth@0.3.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6186825cfdede2b287496d6026ca27c4362b74cd41ba7031cf300fed62cc0ca1",
+      "url": "https://github.com/AdonisSheldon/dsh-openai-oauth/blob/63c6b65dedd734406276cb79712e2b4fd056727b/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-openai-oauth@0.3.0",
+          "command": "dsh plugin --profile web add dsh-openai-oauth@0.3.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-openai-oauth",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AdonisSheldon/dsh-openai-oauth",
+        "commit": "63c6b65dedd734406276cb79712e2b4fd056727b"
+      },
+      "manifestSha256": "2faebcb5a9bfc2a26daba6be13ba72dc5bc54b9a6db3dbf89e7fe2b65085ef57",
+      "manifestUrl": "https://github.com/AdonisSheldon/dsh-openai-oauth/blob/63c6b65dedd734406276cb79712e2b4fd056727b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-openai-oauth",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1793693014,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AdonisSheldon/dsh-openai-oauth",
+              "commit": "63c6b65dedd734406276cb79712e2b4fd056727b"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-openai-oauth@0.3.0",
+      "origin": "npm",
+      "name": "dsh-openai-oauth",
+      "version": "0.3.0",
+      "code": "invalid_manifest",
+      "status": "invalid_manifest",
+      "reason": "missing or mismatched manifest",
+      "statusCode": "invalid_manifest",
+      "registrySha256": "d8c304f2f672fd3e25a774388f99da62391d70f00bc315eba0adc1ab5c8d9e79"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-openai-oauth@0.3.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AdonisSheldon/dsh-openai-oauth",
+    "commit": "63c6b65dedd734406276cb79712e2b4fd056727b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:16:25.163Z"
+}

@@ -1,0 +1,92 @@
+{
+  "full_name": "curo22/dsh-wb400-guard",
+  "originalPosition": 97,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 97,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:43.673Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "44a71aedc19039db56fb043d416a544b5e314208a26f9054a2742861c5adc855",
+      "url": "https://github.com/curo22/dsh-wb400-guard/blob/3b04c69adbc5166c576daa31fa0d3e0a9f851d78/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/curo22/dsh-wb400-guard",
+          "command": "dsh plugin --profile web add github:curo22/dsh-wb400-guard",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "a0d673b96125b77f49a841f0a59400bc98e4aa01b1b5632e3858721911082a46",
+      "url": "https://github.com/curo22/dsh-wb400-guard/blob/3b04c69adbc5166c576daa31fa0d3e0a9f851d78/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/curo22/dsh-wb400-guard",
+          "command": "dsh plugin --profile web add github:curo22/dsh-wb400-guard",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wb400-guard",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/curo22/dsh-wb400-guard",
+        "commit": "3b04c69adbc5166c576daa31fa0d3e0a9f851d78"
+      },
+      "manifestSha256": "5bf9e8d2ecb9c63ceb36623817b2376f7de80608d4354c880a0d3682fa8da0ca",
+      "manifestUrl": "https://github.com/curo22/dsh-wb400-guard/blob/3b04c69adbc5166c576daa31fa0d3e0a9f851d78/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-wb400-guard",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1793423387,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/curo22/dsh-wb400-guard",
+              "commit": "3b04c69adbc5166c576daa31fa0d3e0a9f851d78"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/curo22/dsh-wb400-guard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/curo22/dsh-wb400-guard",
+    "commit": "3b04c69adbc5166c576daa31fa0d3e0a9f851d78",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:16:53.370Z"
+}

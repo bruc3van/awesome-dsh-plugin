@@ -1,0 +1,120 @@
+{
+  "full_name": "mlkgrnt/dsh-junimo",
+  "originalPosition": 107,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 107,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:02.525Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dd0a418303cf66e47d4de77b629fc7fe969d87f6e41ec3a24201359a873b52a0",
+      "url": "https://github.com/mlkgrnt/dsh-junimo/blob/3882114d164bb5c7b988c67950f1015e04065356/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/mlkgrnt/dsh-junimo",
+          "command": "dsh plugin --profile web add github:mlkgrnt/dsh-junimo",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-Hant.md",
+      "sha256": "0eb8710332a17c041fb6a8974e46f1b28651c286d9e482c32fb9ffcae07fa6c5",
+      "url": "https://github.com/mlkgrnt/dsh-junimo/blob/3882114d164bb5c7b988c67950f1015e04065356/README.zh-Hant.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/mlkgrnt/dsh-junimo",
+          "command": "dsh plugin --profile web add github:mlkgrnt/dsh-junimo",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en-US.md",
+      "sha256": "737aadf108e510854d08efe189dc110f1c79f60821dcbf63d098bfcea0f36729",
+      "url": "https://github.com/mlkgrnt/dsh-junimo/blob/3882114d164bb5c7b988c67950f1015e04065356/README.en-US.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/mlkgrnt/dsh-junimo",
+          "command": "dsh plugin --profile web add github:mlkgrnt/dsh-junimo",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es-ES.md",
+      "sha256": "8e1c1e83629223c6e034b26fbff6992aa54459d5876ee03af9aabd9477e3974f",
+      "url": "https://github.com/mlkgrnt/dsh-junimo/blob/3882114d164bb5c7b988c67950f1015e04065356/README.es-ES.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/mlkgrnt/dsh-junimo",
+          "command": "dsh plugin --profile web add github:mlkgrnt/dsh-junimo",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-junimo",
+      "version": "0.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mlkgrnt/dsh-junimo",
+        "commit": "3882114d164bb5c7b988c67950f1015e04065356"
+      },
+      "manifestSha256": "63f6511dc48752a51a0375300ee7c28ce6f49e4e58aab46001acf51d70ec9928",
+      "manifestUrl": "https://github.com/mlkgrnt/dsh-junimo/blob/3882114d164bb5c7b988c67950f1015e04065356/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-junimo",
+        "versions": [
+          {
+            "version": "0.4.2",
+            "publishTimestamp": 1793818474,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/mlkgrnt/dsh-junimo",
+              "commit": "3882114d164bb5c7b988c67950f1015e04065356"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/mlkgrnt/dsh-junimo",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mlkgrnt/dsh-junimo",
+    "commit": "3882114d164bb5c7b988c67950f1015e04065356",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:16.760Z"
+}

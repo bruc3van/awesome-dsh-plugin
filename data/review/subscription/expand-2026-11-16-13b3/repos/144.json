@@ -1,0 +1,74 @@
+{
+  "full_name": "Anmulzhao/DSH-AGINT",
+  "originalPosition": 144,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:12.792Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a3f6db4d8c5107a75e280cff120d4b90394b5597b1ddd599d1e4f0c5441606a3",
+      "url": "https://github.com/Anmulzhao/DSH-AGINT/blob/2a91dd92f032d0117804f1121f50a188d6f5a091/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "703238325e845c203b2f4ddd9afff5c1904dd2448dc6933188fb08409bd41a3c",
+      "url": "https://github.com/Anmulzhao/DSH-AGINT/blob/2a91dd92f032d0117804f1121f50a188d6f5a091/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@agint/host",
+      "version": "0.27.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Anmulzhao/DSH-AGINT",
+        "commit": "2a91dd92f032d0117804f1121f50a188d6f5a091"
+      },
+      "manifestSha256": "54ee3d53d67b73411df72857550a67d73c5fcab8d5809ab27800230a7f2e2b37",
+      "manifestUrl": "https://github.com/Anmulzhao/DSH-AGINT/blob/2a91dd92f032d0117804f1121f50a188d6f5a091/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@agint/host",
+        "versions": [
+          {
+            "version": "0.27.0",
+            "publishTimestamp": 1794761672,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Anmulzhao/DSH-AGINT",
+              "commit": "2a91dd92f032d0117804f1121f50a188d6f5a091"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Anmulzhao/DSH-AGINT",
+    "commit": "2a91dd92f032d0117804f1121f50a188d6f5a091",
+    "releaseTags": 46,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:24.103Z"
+}

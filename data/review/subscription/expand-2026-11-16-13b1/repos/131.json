@@ -1,0 +1,165 @@
+{
+  "full_name": "c-ling/dsh-plugin-notify",
+  "originalPosition": 131,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 131,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:59.378Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e90ffac2f7a2afd0e2f77bc56aaf842a634aa2aa867656f913a84de3728dcb87",
+      "url": "https://github.com/c-ling/dsh-plugin-notify/blob/69cf298af2e241a9d83b3320214c413c0dc946cd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/c-ling/dsh-plugin-notify#v1.4.0",
+          "command": "dsh plugin --profile web add \"github:c-ling/dsh-plugin-notify#v1.4.0\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/c-ling/dsh-plugin-notify#v1.4.0",
+          "command": "dsh plugin --profile desktop add \"github:c-ling/dsh-plugin-notify#v1.4.0\"",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README-en.md",
+      "sha256": "9ea5457edc4d9d52544198fbf5f0726904528c21ec984c0d93591b60dc035abb",
+      "url": "https://github.com/c-ling/dsh-plugin-notify/blob/69cf298af2e241a9d83b3320214c413c0dc946cd/README-en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/c-ling/dsh-plugin-notify#v1.4.0",
+          "command": "dsh plugin --profile web add \"github:c-ling/dsh-plugin-notify#v1.4.0\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/c-ling/dsh-plugin-notify#v1.4.0",
+          "command": "dsh plugin --profile desktop add \"github:c-ling/dsh-plugin-notify#v1.4.0\"",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-notify",
+      "version": "1.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/c-ling/dsh-plugin-notify",
+        "commit": "69cf298af2e241a9d83b3320214c413c0dc946cd"
+      },
+      "manifestSha256": "92c70e1c2a069cc07edde12dd907a707134e42e3fcff000eb55531f6472342f8",
+      "manifestUrl": "https://github.com/c-ling/dsh-plugin-notify/blob/69cf298af2e241a9d83b3320214c413c0dc946cd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-notify",
+        "versions": [
+          {
+            "version": "1.4.0",
+            "publishTimestamp": 1792465550,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/c-ling/dsh-plugin-notify",
+              "commit": "69cf298af2e241a9d83b3320214c413c0dc946cd"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/c-ling/dsh-plugin-notify#v1.4.0",
+      "origin": "git_target",
+      "name": "dsh-plugin-notify",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-notify",
+        "title": "dsh-plugin-notify",
+        "description": "Message reminders for DeepSeek Harness Web and Desktop: in-page banner, native desktop notifications, host system notifications, and Feishu/DingTalk/WeCom/generic webhooks when a task turn ends, execution waits for confirmation, or an interactive question arrives.",
+        "homepage": "https://github.com/c-ling/dsh-plugin-notify#readme",
+        "repository": {
+          "url": "https://github.com/c-ling/dsh-plugin-notify"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "deepseek-ai",
+            "cordis",
+            "plugin",
+            "notify",
+            "notification",
+            "notifications",
+            "desktop-notification",
+            "desktop-notifications",
+            "native-notifications",
+            "webhook",
+            "feishu",
+            "dingtalk",
+            "wecom",
+            "sidebar",
+            "web-ui",
+            "badge",
+            "open-source",
+            "javascript"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.4.0",
+            "publishTimestamp": 1792465550,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/c-ling/dsh-plugin-notify",
+              "commit": "69cf298af2e241a9d83b3320214c413c0dc946cd"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "69cf298af2e241a9d83b3320214c413c0dc946cd",
+          "name": "dsh-plugin-notify",
+          "version": "1.4.0",
+          "url": "https://github.com/c-ling/dsh-plugin-notify",
+          "manifestSha256": "92c70e1c2a069cc07edde12dd907a707134e42e3fcff000eb55531f6472342f8",
+          "publishTimestamp": 1792465550
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/c-ling/dsh-plugin-notify#v1.4.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/c-ling/dsh-plugin-notify",
+    "commit": "69cf298af2e241a9d83b3320214c413c0dc946cd",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:15.577Z"
+}

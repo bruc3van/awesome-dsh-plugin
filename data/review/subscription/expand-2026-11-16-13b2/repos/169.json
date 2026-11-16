@@ -1,0 +1,103 @@
+{
+  "full_name": "TryDing-T/dsh-Plugin--ChineseChess",
+  "originalPosition": 169,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 169,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:20.981Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cd11c1cc0a293daca4428e08f1fa904ae39132b404dead0420f9d25e49a15cc7",
+      "url": "https://github.com/TryDing-T/dsh-Plugin--ChineseChess/blob/eac72fc6fa635a0063b751f9d10222e505e156ab/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TryDing-T/dsh-Plugin--ChineseChess/releases/download/v0.1.19/deepseek-ai-dsh-plugin-xiangqi-0.1.19.tgz",
+          "command": "dsh plugin --profile web add \"https://github.com/TryDing-T/dsh-Plugin--ChineseChess/releases/download/v0.1.19/deepseek-ai-dsh-plugin-xiangqi-0.1.19.tgz\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/TryDing-T/dsh-Plugin--ChineseChess/archive/refs/tags/v0.1.19.tar.gz",
+          "command": "dsh plugin --profile web add \"https://github.com/TryDing-T/dsh-Plugin--ChineseChess/archive/refs/tags/v0.1.19.tar.gz\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-plugin-xiangqi",
+      "version": "0.1.19",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TryDing-T/dsh-Plugin--ChineseChess",
+        "commit": "eac72fc6fa635a0063b751f9d10222e505e156ab"
+      },
+      "manifestSha256": "60eff097dd93201611449dddda94162469002519ec20fd0d8066b2b5f2e574c8",
+      "manifestUrl": "https://github.com/TryDing-T/dsh-Plugin--ChineseChess/blob/eac72fc6fa635a0063b751f9d10222e505e156ab/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.5-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-plugin-xiangqi",
+        "versions": [
+          {
+            "version": "0.1.19",
+            "publishTimestamp": 1788944180,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TryDing-T/dsh-Plugin--ChineseChess",
+              "commit": "eac72fc6fa635a0063b751f9d10222e505e156ab"
+            },
+            "engines": {
+              "dsh": "0.1.5-alpha.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/TryDing-T/dsh-Plugin--ChineseChess/releases/download/v0.1.19/deepseek-ai-dsh-plugin-xiangqi-0.1.19.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "https://github.com/TryDing-T/dsh-Plugin--ChineseChess/archive/refs/tags/v0.1.19.tar.gz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/TryDing-T/dsh-Plugin--ChineseChess/releases/download/v0.1.19/deepseek-ai-dsh-plugin-xiangqi-0.1.19.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/TryDing-T/dsh-Plugin--ChineseChess/archive/refs/tags/v0.1.19.tar.gz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TryDing-T/dsh-Plugin--ChineseChess",
+    "commit": "eac72fc6fa635a0063b751f9d10222e505e156ab",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:29.305Z"
+}

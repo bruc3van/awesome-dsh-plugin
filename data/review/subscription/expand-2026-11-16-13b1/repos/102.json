@@ -1,0 +1,66 @@
+{
+  "full_name": "zhaohaix/DeepSeek-GitHub",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:06:42.119Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "951eefdcf60727d9ac40c353ebef24191454bbaf3e22dcb82fdfc80bc9f74c54",
+      "url": "https://github.com/zhaohaix/DeepSeek-GitHub/blob/e2a124c7321bb208b9ef5ae3abce470398a94b7f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-github-studio",
+      "version": "0.6.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhaohaix/DeepSeek-GitHub",
+        "commit": "e2a124c7321bb208b9ef5ae3abce470398a94b7f"
+      },
+      "manifestSha256": "65c269576f2cebe2d5bc3a52cdc6f2a91c8cbc3b5085b9eb4816ea47cac0f20a",
+      "manifestUrl": "https://github.com/zhaohaix/DeepSeek-GitHub/blob/e2a124c7321bb208b9ef5ae3abce470398a94b7f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-github-studio",
+        "versions": [
+          {
+            "version": "0.6.7",
+            "publishTimestamp": 1794706369,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhaohaix/DeepSeek-GitHub",
+              "commit": "e2a124c7321bb208b9ef5ae3abce470398a94b7f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhaohaix/DeepSeek-GitHub",
+    "commit": "e2a124c7321bb208b9ef5ae3abce470398a94b7f",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:06:51.447Z"
+}

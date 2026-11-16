@@ -1,0 +1,308 @@
+{
+  "full_name": "Starlight-bananice/dsh-status-bar",
+  "originalPosition": 117,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 117,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:19.541Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4920cff2e47b0a01ea8901557ce36a290b509eaa8522baa2ba2733298e650f18",
+      "url": "https://github.com/Starlight-bananice/dsh-status-bar/blob/b860f7a6e42866beadd6f8e6919e1d469a4f5f8d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@bananiceee/dsh-status-bar",
+          "command": "dsh plugin --profile desktop add @bananiceee/dsh-status-bar",
+          "profile": "desktop"
+        },
+        {
+          "install": "@bananiceee/dsh-status-bar@0.3.1",
+          "command": "dsh plugin --profile web add @bananiceee/dsh-status-bar@0.3.1",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Starlight-bananice/dsh-status-bar",
+          "command": "dsh plugin --profile desktop add github:Starlight-bananice/dsh-status-bar",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Starlight-bananice/dsh-status-bar/releases/download/v0.3.1/bananiceee-dsh-status-bar-0.3.1.tgz",
+          "command": "dsh plugin --profile desktop add https://github.com/Starlight-bananice/dsh-status-bar/releases/download/v0.3.1/bananiceee-dsh-status-bar-0.3.1.tgz",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Starlight-bananice/dsh-status-bar#v0.3.1",
+          "command": "dsh plugin --profile desktop add github:Starlight-bananice/dsh-status-bar#v0.3.1",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "f131650d4b84d92ff41e40cc6fc6709f7db33a18c84b5c4c8947a4f7167909c9",
+      "url": "https://github.com/Starlight-bananice/dsh-status-bar/blob/b860f7a6e42866beadd6f8e6919e1d469a4f5f8d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@bananiceee/dsh-status-bar",
+          "command": "dsh plugin --profile desktop add @bananiceee/dsh-status-bar",
+          "profile": "desktop"
+        },
+        {
+          "install": "@bananiceee/dsh-status-bar@0.3.1",
+          "command": "dsh plugin --profile web add @bananiceee/dsh-status-bar@0.3.1",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Starlight-bananice/dsh-status-bar",
+          "command": "dsh plugin --profile desktop add github:Starlight-bananice/dsh-status-bar",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Starlight-bananice/dsh-status-bar/releases/download/v0.3.1/bananiceee-dsh-status-bar-0.3.1.tgz",
+          "command": "dsh plugin --profile desktop add https://github.com/Starlight-bananice/dsh-status-bar/releases/download/v0.3.1/bananiceee-dsh-status-bar-0.3.1.tgz",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Starlight-bananice/dsh-status-bar#v0.3.1",
+          "command": "dsh plugin --profile desktop add github:Starlight-bananice/dsh-status-bar#v0.3.1",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@bananiceee/dsh-status-bar",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Starlight-bananice/dsh-status-bar",
+        "commit": "b860f7a6e42866beadd6f8e6919e1d469a4f5f8d"
+      },
+      "manifestSha256": "edc52c162563eb340a4f09fad0a45877656101ba71df20776d48891b0ed8a2ad",
+      "manifestUrl": "https://github.com/Starlight-bananice/dsh-status-bar/blob/b860f7a6e42866beadd6f8e6919e1d469a4f5f8d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@bananiceee/dsh-status-bar",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1792384713,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Starlight-bananice/dsh-status-bar",
+              "commit": "b860f7a6e42866beadd6f8e6919e1d469a4f5f8d"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@bananiceee/dsh-status-bar",
+      "origin": "npm",
+      "name": "@bananiceee/dsh-status-bar",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@bananiceee/dsh-status-bar",
+        "title": "@bananiceee/dsh-status-bar",
+        "description": "DSH 底栏管理插件：原生底部状态栏超长、内容易被截断；本插件提供接近原生体验的可配置状态栏——16 个信息段任意开关/排序，并带换行、实时 TPS、费用估算等多项实用选项（适配 DSH 0.2.1）。The native DSH bottom status bar is too long and parts get truncated; this plugin delivers a near-native, fully configurable status bar — 16 toggleable/reorderable segments, plus useful options such as wrapping, live TPS and cost estimation (DSH 0.2.1).",
+        "homepage": "https://github.com/Starlight-bananice/dsh-status-bar#readme",
+        "repository": {
+          "url": "https://github.com/Starlight-bananice/dsh-status-bar"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "status-bar",
+            "stats-line",
+            "composer-dock",
+            "cost-estimate",
+            "context-usage",
+            "agent-status"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1792385012,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f6572c37fa36ec9b6cda40f6799fd49b72ad1b942aa9c3d63e5e473d9a2cb82a",
+      "evidence": [
+        {
+          "name": "@bananiceee/dsh-status-bar",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/@bananiceee/dsh-status-bar/-/dsh-status-bar-0.3.1.tgz",
+          "integrity": "sha512-oE4Vz01eeczz8E9ayFwbp0ME7zFxFeTsGrCKq5RZtNfX/5r1cv18j7w/dJMI3ISAdVeApyXYyNDoF8MafmHUqQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "@bananiceee/dsh-status-bar@0.3.1",
+      "origin": "npm",
+      "name": "@bananiceee/dsh-status-bar",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@bananiceee/dsh-status-bar",
+        "title": "@bananiceee/dsh-status-bar",
+        "description": "DSH 底栏管理插件：原生底部状态栏超长、内容易被截断；本插件提供接近原生体验的可配置状态栏——16 个信息段任意开关/排序，并带换行、实时 TPS、费用估算等多项实用选项（适配 DSH 0.2.1）。The native DSH bottom status bar is too long and parts get truncated; this plugin delivers a near-native, fully configurable status bar — 16 toggleable/reorderable segments, plus useful options such as wrapping, live TPS and cost estimation (DSH 0.2.1).",
+        "homepage": "https://github.com/Starlight-bananice/dsh-status-bar#readme",
+        "repository": {
+          "url": "https://github.com/Starlight-bananice/dsh-status-bar"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "status-bar",
+            "stats-line",
+            "composer-dock",
+            "cost-estimate",
+            "context-usage",
+            "agent-status"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1792385012,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f6572c37fa36ec9b6cda40f6799fd49b72ad1b942aa9c3d63e5e473d9a2cb82a",
+      "evidence": [
+        {
+          "name": "@bananiceee/dsh-status-bar",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/@bananiceee/dsh-status-bar/-/dsh-status-bar-0.3.1.tgz",
+          "integrity": "sha512-oE4Vz01eeczz8E9ayFwbp0ME7zFxFeTsGrCKq5RZtNfX/5r1cv18j7w/dJMI3ISAdVeApyXYyNDoF8MafmHUqQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/Starlight-bananice/dsh-status-bar/releases/download/v0.3.1/bananiceee-dsh-status-bar-0.3.1.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "https://github.com/Starlight-bananice/dsh-status-bar#v0.3.1",
+      "origin": "git_target",
+      "name": "@bananiceee/dsh-status-bar",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@bananiceee/dsh-status-bar",
+        "title": "@bananiceee/dsh-status-bar",
+        "description": "DSH 底栏管理插件：原生底部状态栏超长、内容易被截断；本插件提供接近原生体验的可配置状态栏——16 个信息段任意开关/排序，并带换行、实时 TPS、费用估算等多项实用选项（适配 DSH 0.2.1）。The native DSH bottom status bar is too long and parts get truncated; this plugin delivers a near-native, fully configurable status bar — 16 toggleable/reorderable segments, plus useful options such as wrapping, live TPS and cost estimation (DSH 0.2.1).",
+        "homepage": "https://github.com/Starlight-bananice/dsh-status-bar#readme",
+        "repository": {
+          "url": "https://github.com/Starlight-bananice/dsh-status-bar"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "status-bar",
+            "stats-line",
+            "composer-dock",
+            "cost-estimate",
+            "context-usage",
+            "agent-status"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1792384713,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Starlight-bananice/dsh-status-bar",
+              "commit": "b860f7a6e42866beadd6f8e6919e1d469a4f5f8d"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "b860f7a6e42866beadd6f8e6919e1d469a4f5f8d",
+          "name": "@bananiceee/dsh-status-bar",
+          "version": "0.3.1",
+          "url": "https://github.com/Starlight-bananice/dsh-status-bar",
+          "manifestSha256": "edc52c162563eb340a4f09fad0a45877656101ba71df20776d48891b0ed8a2ad",
+          "publishTimestamp": 1792384713
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@bananiceee/dsh-status-bar",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@bananiceee/dsh-status-bar@0.3.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Starlight-bananice/dsh-status-bar",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Starlight-bananice/dsh-status-bar/releases/download/v0.3.1/bananiceee-dsh-status-bar-0.3.1.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Starlight-bananice/dsh-status-bar#v0.3.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Starlight-bananice/dsh-status-bar",
+    "commit": "b860f7a6e42866beadd6f8e6919e1d469a4f5f8d",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:41.439Z"
+}

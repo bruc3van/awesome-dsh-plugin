@@ -1,0 +1,156 @@
+{
+  "full_name": "Aliuyanfeng/dsh-soul",
+  "originalPosition": 163,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 163,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:09:43.751Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1eacaa12fa034787c93a05ef36248f394af29385d529258f13d052a6de589d87",
+      "url": "https://github.com/Aliuyanfeng/dsh-soul/blob/a51d11e78a839bf205003168d618e69521eac061/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-soul",
+          "command": "dsh plugin --profile <profile> add dsh-soul",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "d024ec081fe24d494a55f8b1f7c1f53c14e72ca88d342bd16ed62b9b981e8616",
+      "url": "https://github.com/Aliuyanfeng/dsh-soul/blob/a51d11e78a839bf205003168d618e69521eac061/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-soul",
+          "command": "dsh plugin --profile <profile> add dsh-soul",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-soul",
+      "version": "0.13.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Aliuyanfeng/dsh-soul",
+        "commit": "a51d11e78a839bf205003168d618e69521eac061"
+      },
+      "manifestSha256": "0914cfb227f0708e94387eb22e9845c0807814bcec305627c9962a6fb7ed0209",
+      "manifestUrl": "https://github.com/Aliuyanfeng/dsh-soul/blob/a51d11e78a839bf205003168d618e69521eac061/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.2 <0.3.0-0 >=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-soul",
+        "versions": [
+          {
+            "version": "0.13.0",
+            "publishTimestamp": 1794212518,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Aliuyanfeng/dsh-soul",
+              "commit": "a51d11e78a839bf205003168d618e69521eac061"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.3.0-0 >=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-soul",
+      "origin": "npm",
+      "name": "dsh-soul",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-soul",
+        "title": {
+          "en": "Soul",
+          "zh": "Soul 人设"
+        },
+        "description": {
+          "en": "Personalization for DSH: nickname, reply style and tone, traits, persona presets, and a composer light trail.",
+          "zh": "为 DSH 添加个性化设置：昵称、回复风格和语调、特质、人设预设，以及输入框光轨。"
+        },
+        "homepage": "https://github.com/Aliuyanfeng/dsh-soul#readme",
+        "repository": {
+          "url": "https://github.com/Aliuyanfeng/dsh-soul"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-soul",
+            "deepseek",
+            "deepseek-harness",
+            "personalization",
+            "persona",
+            "system-prompt",
+            "ai-assistant",
+            "customization"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1zb3VsIj4KICA8ZGVmcz4KICAgIDwhLS0g5YWJ6L2o77ya5aS06YOo5piO5Lqu77yM5bC+56uv5riQ6ZqQIC0tPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJzb3VsVHJhaWwiIHgxPSIxOCIgeTE9IjYiIHgyPSI4LjYiIHkyPSIyMy40IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI0FERDNGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuMyIgc3RvcC1jb2xvcj0iIzY3OUVGRSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNzIiIHN0b3AtY29sb3I9IiM2NzlFRkUiIHN0b3Atb3BhY2l0eT0iMC4zOCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM2NzlFRkUiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwhLS0g54G16a2C54Gr6Iqx77ya5LiK5rWF5LiL5rex77yM5rex5rWF5Li76aKY5LiL6YO95LiN5aGM5oiQ5LiA5Z2XIC0tPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJzb3VsU3BhcmsiIHgxPSIxOCIgeTE9IjExLjYiIHgyPSIxOCIgeTI9IjI0LjQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjQjZEQkZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC41IiBzdG9wLWNvbG9yPSIjNjc5RUZFIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzQ1NjBENiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPCEtLSDlhYnovajvvJrnu5XooYznuqYgMjUwwrDvvIzlt6bkuIrnlZnlj6PvvIzlsL7nq6/muJDpmpAgLS0+CiAgPHBhdGggZD0iTTE4IDZBMTIgMTIgMCAxIDEgNi43MiAyMi4xIiBzdHJva2U9InVybCgjc291bFRyYWlsKSIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwhLS0g54G16a2C54Gr6IqxIC0tPgogIDxwYXRoIGQ9Ik0xOCAxMS42QzE4LjUyIDE1LjE1IDIwLjg1IDE3LjQ4IDI0LjQgMThDMjAuODUgMTguNTIgMTguNTIgMjAuODUgMTggMjQuNEMxNy40OCAyMC44NSAxNS4xNSAxOC41MiAxMS42IDE4QzE1LjE1IDE3LjQ4IDE3LjQ4IDE1LjE1IDE4IDExLjZaIiBmaWxsPSJ1cmwoI3NvdWxTcGFyaykiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.13.0",
+            "publishTimestamp": 1794213444,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.3.0-0 >=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3779cc2c41bd82a6047bb7c13b299741912f470650af53678f974457a947f172",
+      "evidence": [
+        {
+          "name": "dsh-soul",
+          "version": "0.13.0",
+          "tarball": "https://registry.npmjs.org/dsh-soul/-/dsh-soul-0.13.0.tgz",
+          "integrity": "sha512-1Xvu5yUMj43fMbywy6kZB6gDJ3xMO+sosPQNpo3To66jfytnUd37t6w49sUPoFj4sN/zuu3waPxL0BHEm7IIBg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-soul",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Aliuyanfeng/dsh-soul",
+    "commit": "a51d11e78a839bf205003168d618e69521eac061",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:09:58.952Z"
+}

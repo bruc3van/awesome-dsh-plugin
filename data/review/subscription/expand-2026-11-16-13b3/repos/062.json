@@ -1,0 +1,85 @@
+{
+  "full_name": "everclear077/dsh-progressive-tools",
+  "originalPosition": 62,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 62,
+  "batch": 1,
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T12:23:29.330Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "767eb8e53029790f582e0eecb3c988180862431f80b34bd07f85bc7ff412ec61",
+      "url": "https://github.com/everclear077/dsh-progressive-tools/blob/bad0d75b7e40037b05ec3dd22a5c7e3281f2f948/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "4c91cd75c0eeaee1e296160f1346d8b351c232beb4eb07caa4eb8fb9b9372905",
+      "url": "https://github.com/everclear077/dsh-progressive-tools/blob/bad0d75b7e40037b05ec3dd22a5c7e3281f2f948/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "9a8e4732407f481a1a2aa5c2431281951b51ac29a7b58f138c09294bd1f18903",
+      "url": "https://github.com/everclear077/dsh-progressive-tools/blob/bad0d75b7e40037b05ec3dd22a5c7e3281f2f948/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@everclear077/dsh-progressive-tools",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/everclear077/dsh-progressive-tools",
+        "commit": "bad0d75b7e40037b05ec3dd22a5c7e3281f2f948"
+      },
+      "manifestSha256": "19ddd91ba0fa26232250bd449b318efe9fb9c0cf06dc8886284fef3070f8c20b",
+      "manifestUrl": "https://github.com/everclear077/dsh-progressive-tools/blob/bad0d75b7e40037b05ec3dd22a5c7e3281f2f948/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@everclear077/dsh-progressive-tools",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1792315020,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/everclear077/dsh-progressive-tools",
+              "commit": "bad0d75b7e40037b05ec3dd22a5c7e3281f2f948"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/everclear077/dsh-progressive-tools",
+    "commit": "bad0d75b7e40037b05ec3dd22a5c7e3281f2f948",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:23:41.565Z"
+}

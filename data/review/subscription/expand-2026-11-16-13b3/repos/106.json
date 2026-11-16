@@ -1,0 +1,142 @@
+{
+  "full_name": "mienfong/dsh-session-mgr",
+  "originalPosition": 106,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 106,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:01.983Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c161788020e2d29aff61e6a1153c21a5833ff2be2c7c6d3273e79120163a0c31",
+      "url": "https://github.com/mienfong/dsh-session-mgr/blob/ee4c87b40264c836d1ddacaf29d5bc249e96de7e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-session-mgr",
+          "command": "dsh plugin --profile web add dsh-session-mgr",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.EN.md",
+      "sha256": "834b0c58f361c86348736f08ed39b1559de1a13bd357bb3f2fc9b22d291d46cc",
+      "url": "https://github.com/mienfong/dsh-session-mgr/blob/ee4c87b40264c836d1ddacaf29d5bc249e96de7e/README.EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-session-mgr",
+          "command": "dsh plugin --profile web add dsh-session-mgr",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-mgr",
+      "version": "0.6.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mienfong/dsh-session-mgr",
+        "commit": "ee4c87b40264c836d1ddacaf29d5bc249e96de7e"
+      },
+      "manifestSha256": "7e8c8ac7e87d583c7b2225ba305552de3e3b7ea8ed1c5eb02f57598ac9fdceef",
+      "manifestUrl": "https://github.com/mienfong/dsh-session-mgr/blob/ee4c87b40264c836d1ddacaf29d5bc249e96de7e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-session-mgr",
+        "versions": [
+          {
+            "version": "0.6.9",
+            "publishTimestamp": 1794679326,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/mienfong/dsh-session-mgr",
+              "commit": "ee4c87b40264c836d1ddacaf29d5bc249e96de7e"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-session-mgr",
+      "origin": "npm",
+      "name": "dsh-session-mgr",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-session-mgr",
+        "title": "dsh-session-mgr",
+        "description": "Session manager for the DeepSeek Harness web UI: move, archive, restore, backup(portable archive) and import conversations across workspaces. Trilingual (English / 简体中文 / 繁體中文). · DSH Web 外掛「會話管理」：移動、歸檔、恢復、可攜式備份(壓縮檔)與匯入、刪除會話，支援中（簡/繁）英文介面。",
+        "repository": {
+          "url": "https://github.com/mienfong/dsh-session-mgr"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "web",
+            "workspace",
+            "session",
+            "session-management",
+            "move-session",
+            "backup",
+            "archived-sessions"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.9",
+            "publishTimestamp": 1794678220,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5844f96c4e3172caa7f4382e98e157fb499ea205b91e844754a0293f95b4ee9c",
+      "evidence": [
+        {
+          "name": "dsh-session-mgr",
+          "version": "0.6.9",
+          "tarball": "https://registry.npmjs.org/dsh-session-mgr/-/dsh-session-mgr-0.6.9.tgz",
+          "integrity": "sha512-9DBgqxQ4k+Hp7uG8DhAgQm/DvENW/vl669e3lFONzBQKjmLGY/lV09OEj4Wh7DtYNOs3lH9T76Pfuy7/02upSg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-session-mgr",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mienfong/dsh-session-mgr",
+    "commit": "ee4c87b40264c836d1ddacaf29d5bc249e96de7e",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:14.620Z"
+}

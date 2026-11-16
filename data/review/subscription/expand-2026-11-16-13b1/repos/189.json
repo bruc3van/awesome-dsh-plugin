@@ -1,0 +1,76 @@
+{
+  "full_name": "OrderG-X/dsh-chrome-bridge",
+  "originalPosition": 189,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:46.148Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "93aba64f16f3eee7199b36b4ee7e0cdde4f2d7557baf269c7cfded81a8a6ba9e",
+      "url": "https://github.com/OrderG-X/dsh-chrome-bridge/blob/266a2bf6a02164bafc8ca9c78a822fd6fcb0d3fb/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "debb6be161eb5a4cb46f317c67811a75dd60a814aae3cd1cf90146f293a69ca2",
+      "url": "https://github.com/OrderG-X/dsh-chrome-bridge/blob/266a2bf6a02164bafc8ca9c78a822fd6fcb0d3fb/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chrome-bridge",
+      "version": "1.16.4",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/OrderG-X/dsh-chrome-bridge",
+        "commit": "266a2bf6a02164bafc8ca9c78a822fd6fcb0d3fb",
+        "path": "plugin"
+      },
+      "manifestSha256": "1d7bcf55cb52e2668f4089b270f72ebd2f3c463f7383d556ac0a79a967323133",
+      "manifestUrl": "https://github.com/OrderG-X/dsh-chrome-bridge/blob/266a2bf6a02164bafc8ca9c78a822fd6fcb0d3fb/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-chrome-bridge",
+        "versions": [
+          {
+            "version": "1.16.4",
+            "publishTimestamp": 1794492618,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/OrderG-X/dsh-chrome-bridge",
+              "commit": "266a2bf6a02164bafc8ca9c78a822fd6fcb0d3fb",
+              "path": "plugin"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/OrderG-X/dsh-chrome-bridge",
+    "commit": "266a2bf6a02164bafc8ca9c78a822fd6fcb0d3fb",
+    "releaseTags": 30,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:55.069Z"
+}

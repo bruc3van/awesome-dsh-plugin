@@ -1,0 +1,160 @@
+{
+  "full_name": "Lhy723/dsh-neu-theme",
+  "originalPosition": 110,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 110,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:06:55.733Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "57568fb80da12e6595199d2de31bdaade7dbc8caf3ea67323b6993a5ca4194b1",
+      "url": "https://github.com/Lhy723/dsh-neu-theme/blob/060830c428f7cfdf1266f7653425c11df7818da5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-neu-theme",
+          "command": "dsh plugin --profile web add dsh-neu-theme",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-neu-theme",
+          "command": "dsh plugin --profile desktop add dsh-neu-theme",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e46b10e860e329cee68a01cc1b94c5e87aed304fcb3ac07ff3b6031e32d1b22e",
+      "url": "https://github.com/Lhy723/dsh-neu-theme/blob/060830c428f7cfdf1266f7653425c11df7818da5/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-neu-theme",
+          "command": "dsh plugin --profile web add dsh-neu-theme",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-neu-theme",
+          "command": "dsh plugin --profile desktop add dsh-neu-theme",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-neu-theme",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lhy723/dsh-neu-theme",
+        "commit": "060830c428f7cfdf1266f7653425c11df7818da5"
+      },
+      "manifestSha256": "c0084f1e7bf51bf5939f11b2918e464f88af0dc4f63972c5b96db6efd4e6fd38",
+      "manifestUrl": "https://github.com/Lhy723/dsh-neu-theme/blob/060830c428f7cfdf1266f7653425c11df7818da5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-neu-theme",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794334626,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Lhy723/dsh-neu-theme",
+              "commit": "060830c428f7cfdf1266f7653425c11df7818da5"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-neu-theme",
+      "origin": "npm",
+      "name": "dsh-neu-theme",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-neu-theme",
+        "title": "dsh-neu-theme",
+        "description": "Neumorphism soft-UI theme for DeepSeek Harness Web and its embedded Desktop workspace — gentle raised-and-recessed surfaces in a cream light and an ink-dark palette. · DeepSeek Harness Web 与桌面工作区轻拟物主题：柔和浮起与凹陷，奶油浅色与墨蓝深色两套配色。",
+        "author": "Lhy723",
+        "homepage": "https://github.com/Lhy723/dsh-neu-theme",
+        "repository": {
+          "url": "https://github.com/Lhy723/dsh-neu-theme"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "dsh-plugin",
+            "theme",
+            "skin",
+            "neumorphism",
+            "soft-ui",
+            "web-ui",
+            "desktop"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794334990,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7331e65ac101cd14941cc3ca20554ac983bd67adabd8ca58d7925a46bcd55ea6",
+      "evidence": [
+        {
+          "name": "dsh-neu-theme",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-neu-theme/-/dsh-neu-theme-0.2.0.tgz",
+          "integrity": "sha512-knBCr7ae5Qm51F4N0XXLvDy7beVC6jYNbXwp0M1DQiiWWi7N5iyUNzDZpUh3eB8mS8a6CxQh9XQBsIIibMd0Gg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-neu-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lhy723/dsh-neu-theme",
+    "commit": "060830c428f7cfdf1266f7653425c11df7818da5",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:12.226Z"
+}

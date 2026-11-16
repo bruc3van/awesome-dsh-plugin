@@ -1,0 +1,153 @@
+{
+  "full_name": "InoriMutsumi/dsh-grill-first",
+  "originalPosition": 150,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 150,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:44.160Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "92e2d1b22d4ddfdeee40a60041cc1c184797ddf3666ece13303c5392d60cf603",
+      "url": "https://github.com/InoriMutsumi/dsh-grill-first/blob/8e9ca8f79fa7c79a851663e90f20bad3ca432c00/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-grill-first",
+          "command": "dsh plugin --profile <你的-profile> add dsh-grill-first",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "806dcf9b63cbeb676b6e298c84f0b00035a02981e6d8d88ffccbf5356747ed6b",
+      "url": "https://github.com/InoriMutsumi/dsh-grill-first/blob/8e9ca8f79fa7c79a851663e90f20bad3ca432c00/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-grill-first",
+          "command": "dsh plugin --profile <your-profile> add dsh-grill-first",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-grill-first",
+      "version": "1.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/InoriMutsumi/dsh-grill-first",
+        "commit": "8e9ca8f79fa7c79a851663e90f20bad3ca432c00"
+      },
+      "manifestSha256": "3a49696ae726461f85d3b905c4b67397bbd21dc07f13b9a3b8e7f5ae4fab6d53",
+      "manifestUrl": "https://github.com/InoriMutsumi/dsh-grill-first/blob/8e9ca8f79fa7c79a851663e90f20bad3ca432c00/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-grill-first",
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1793329123,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/InoriMutsumi/dsh-grill-first",
+              "commit": "8e9ca8f79fa7c79a851663e90f20bad3ca432c00"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-grill-first",
+      "origin": "npm",
+      "name": "dsh-grill-first",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-grill-first",
+        "title": "dsh-grill-first",
+        "description": "DSH 插件：开工前刨根问底——把模糊需求问成明确需求，用户确认后才放行主任务",
+        "author": "InoriMutsumi",
+        "homepage": "https://github.com/InoriMutsumi/dsh-grill-first#readme",
+        "repository": {
+          "url": "https://github.com/InoriMutsumi/dsh-grill-first"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "需求澄清",
+            "需求确认",
+            "grill",
+            "clarification"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1793328716,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4091d8a56608e25542d67c56641968f49f3766d41e36a3b67b3941157feab2ec",
+      "evidence": [
+        {
+          "name": "dsh-grill-first",
+          "version": "1.0.1",
+          "tarball": "https://registry.npmjs.org/dsh-grill-first/-/dsh-grill-first-1.0.1.tgz",
+          "integrity": "sha512-oE/IrkSDe94k1+zDrXAW/edOvWbdZLePzJQjS9vrEx+b2L8OJUj+TRwgLh8zgwhNeCxogYMbNr8jGBVS5BEL4w=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-grill-first",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "a9a9dc65ef375fdc61c962208b6928f14eb2a43247f57c2b026325ea72c64481",
+          "outputSha256": "32aba10cda85129afaa1e752bc7c322af89d277cfa1ec794ef9b4c7e062dc22a",
+          "inputBytes": 67540,
+          "outputBytes": 1840
+        }
+      ],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-grill-first",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/InoriMutsumi/dsh-grill-first",
+    "commit": "8e9ca8f79fa7c79a851663e90f20bad3ca432c00",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:54.779Z"
+}

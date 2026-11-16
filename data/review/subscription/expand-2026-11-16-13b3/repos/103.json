@@ -1,0 +1,131 @@
+{
+  "full_name": "lonelycrab888/dsh-enhancement-switches",
+  "originalPosition": 103,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 103,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:24:56.648Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f4bb1032f90374f660b1ae9d37950dc12a1b2c2d890f977dd9d86de623178ddd",
+      "url": "https://github.com/lonelycrab888/dsh-enhancement-switches/blob/2fea91ba15b24e114016da25409747cf457716e4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/lonelycrab888/dsh-enhancement-switches.git#v0.2.2-rc.2",
+          "command": "dsh plugin --profile web add 'git+https://github.com/lonelycrab888/dsh-enhancement-switches.git#v0.2.2-rc.2'",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "d47aed9157ab7fb593bc98657a54e8e0289540ced4de1ee9b0415b0957cd7eec",
+      "url": "https://github.com/lonelycrab888/dsh-enhancement-switches/blob/2fea91ba15b24e114016da25409747cf457716e4/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/lonelycrab888/dsh-enhancement-switches.git#v0.2.2-rc.2",
+          "command": "dsh plugin --profile web add 'git+https://github.com/lonelycrab888/dsh-enhancement-switches.git#v0.2.2-rc.2'",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-enhancement-switches",
+      "version": "0.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lonelycrab888/dsh-enhancement-switches",
+        "commit": "2fea91ba15b24e114016da25409747cf457716e4"
+      },
+      "manifestSha256": "d846467736c6bde032bf2b4696636d4756da9e9d09519921de92130d0691e348",
+      "manifestUrl": "https://github.com/lonelycrab888/dsh-enhancement-switches/blob/2fea91ba15b24e114016da25409747cf457716e4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-enhancement-switches",
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1794653435,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lonelycrab888/dsh-enhancement-switches",
+              "commit": "2fea91ba15b24e114016da25409747cf457716e4"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "git+https://github.com/lonelycrab888/dsh-enhancement-switches.git#v0.2.2-rc.2",
+      "origin": "git_target",
+      "name": "dsh-enhancement-switches",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-enhancement-switches",
+        "title": "dsh-enhancement-switches",
+        "description": "Per-conversation Ralph Loop, Agent Teams, and Codex Subagent switches for DeepSeek Harness.",
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1794646076,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lonelycrab888/dsh-enhancement-switches",
+              "commit": "fb4b3a0c645602fc421614e84bbf12fd83424221"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "fb4b3a0c645602fc421614e84bbf12fd83424221",
+          "name": "dsh-enhancement-switches",
+          "version": "0.1.6",
+          "url": "https://github.com/lonelycrab888/dsh-enhancement-switches",
+          "manifestSha256": "500850424b83e9821b67954a9fe39202c32a78f5d085db75b0bada9ea153b8bf",
+          "publishTimestamp": 1794646076
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/lonelycrab888/dsh-enhancement-switches.git#v0.2.2-rc.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lonelycrab888/dsh-enhancement-switches",
+    "commit": "2fea91ba15b24e114016da25409747cf457716e4",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:13.437Z"
+}

@@ -1,0 +1,130 @@
+{
+  "full_name": "zaizaizhao/dsh-branchmark",
+  "originalPosition": 33,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 33,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-11-16T12:13:54.228Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6667d668da0fd80238061b641a4a5271a46a0f387cfd750af1a612d92041a78a",
+      "url": "https://github.com/zaizaizhao/dsh-branchmark/blob/1cee35dba4076f57f8586d1e69d7327fc0b86ee0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-branchmark@0.1.2-rc.2",
+          "command": "dsh plugin --profile web add dsh-branchmark@0.1.2-rc.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/bundle/README.md",
+      "sha256": "08985424ef977859d600e1dc5ec2ec7dddbde304f307cc359348ccddd50f3e52",
+      "url": "https://github.com/zaizaizhao/dsh-branchmark/blob/1cee35dba4076f57f8586d1e69d7327fc0b86ee0/packages/bundle/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-branchmark@0.1.2-rc.2",
+          "command": "dsh plugin --profile web add dsh-branchmark@0.1.2-rc.2",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-branchmark",
+      "version": "0.1.2-rc.2",
+      "path": "packages/bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zaizaizhao/dsh-branchmark",
+        "commit": "1cee35dba4076f57f8586d1e69d7327fc0b86ee0",
+        "path": "packages/bundle"
+      },
+      "manifestSha256": "7459e160db5c365f53f464bdb07569ea7fb830c5f098d7cf46ce7e4e2f5e369a",
+      "manifestUrl": "https://github.com/zaizaizhao/dsh-branchmark/blob/1cee35dba4076f57f8586d1e69d7327fc0b86ee0/packages/bundle/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "DSH range \"catalog:\" is not a valid SemVer range",
+      "declaredRange": null
+    },
+    {
+      "target": "dsh-branchmark@0.1.2-rc.2",
+      "origin": "npm",
+      "name": "dsh-branchmark",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-branchmark",
+        "title": "dsh-branchmark",
+        "description": "Excerpt-driven session branching and conversation lineage for DeepSeek Harness",
+        "author": "zaizaizhao",
+        "homepage": "https://github.com/zaizaizhao/dsh-branchmark#readme",
+        "repository": {
+          "url": "https://github.com/zaizaizhao/dsh-branchmark",
+          "directory": "packages/bundle"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "conversation-branching",
+            "session-lineage",
+            "side-chat",
+            "local-first"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2-rc.2",
+            "publishTimestamp": 1788702418,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1d3c4f18137c902309da733601c6ed4021fe0b2a731204e9d8dc2a6659c32322",
+      "evidence": [
+        {
+          "name": "dsh-branchmark",
+          "version": "0.1.2-rc.2",
+          "tarball": "https://registry.npmjs.org/dsh-branchmark/-/dsh-branchmark-0.1.2-rc.2.tgz",
+          "integrity": "sha512-K8ZOt4kzG3G0+GYP5vZSfyg60QHeOVHGHnAx2YlMh0OMG24BM+DdMf9B+Z3xqmlyaoewmlEeNeG/x2PXRTZFqQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-branchmark@0.1.2-rc.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zaizaizhao/dsh-branchmark",
+    "commit": "1cee35dba4076f57f8586d1e69d7327fc0b86ee0",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:14:13.347Z"
+}

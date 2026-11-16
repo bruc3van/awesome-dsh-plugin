@@ -1,0 +1,77 @@
+{
+  "full_name": "yyyy231209/ai-company-framework",
+  "originalPosition": 130,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 130,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:59.578Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2799913af2b6a7146588ea149bbabaf2c2d1bb35a86095a84806788a9a4867d9",
+      "url": "https://github.com/yyyy231209/ai-company-framework/blob/465d08361dfcb03cf5958c648c4d3551189803e0/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "888ad7ccc6b1b36a4551a4ad472da7ecb4e40f71df05a05fb1005f8cfba5015a",
+      "url": "https://github.com/yyyy231209/ai-company-framework/blob/465d08361dfcb03cf5958c648c4d3551189803e0/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "ai-company-framework",
+      "version": "0.3.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yyyy231209/ai-company-framework",
+        "commit": "465d08361dfcb03cf5958c648c4d3551189803e0"
+      },
+      "manifestSha256": "5c9ba3acc8dbfac0c32c0b02e2b823e3f2fc0ef8c42905962aaf61097e201cb2",
+      "manifestUrl": "https://github.com/yyyy231209/ai-company-framework/blob/465d08361dfcb03cf5958c648c4d3551189803e0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.8",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "ai-company-framework",
+        "versions": [
+          {
+            "version": "0.3.10",
+            "publishTimestamp": 1787375290,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yyyy231209/ai-company-framework",
+              "commit": "465d08361dfcb03cf5958c648c4d3551189803e0"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yyyy231209/ai-company-framework",
+    "commit": "465d08361dfcb03cf5958c648c4d3551189803e0",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:08.707Z"
+}

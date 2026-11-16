@@ -1,0 +1,162 @@
+{
+  "full_name": "meyaomiao/dsh-server-deck",
+  "originalPosition": 145,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 145,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:39.749Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "54e46a1f36da5abdf41bfdba99f39c0274279162800039d1c81a62cee253bcfb",
+      "url": "https://github.com/meyaomiao/dsh-server-deck/blob/1a9135b1cbfacb3c0c070302db3854132e221d8e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-server-deck",
+          "command": "dsh plugin --profile web add dsh-server-deck",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/meyaomiao/dsh-server-deck",
+          "command": "dsh plugin --profile web add github:meyaomiao/dsh-server-deck",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-server-deck",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/meyaomiao/dsh-server-deck",
+        "commit": "1a9135b1cbfacb3c0c070302db3854132e221d8e"
+      },
+      "manifestSha256": "a1f7488f06c3a83e4a684d3d7f304376b76b0c5f9c7e0789edfbb414b54d414d",
+      "manifestUrl": "https://github.com/meyaomiao/dsh-server-deck/blob/1a9135b1cbfacb3c0c070302db3854132e221d8e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-server-deck",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1794161859,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/meyaomiao/dsh-server-deck",
+              "commit": "1a9135b1cbfacb3c0c070302db3854132e221d8e"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-server-deck",
+      "origin": "npm",
+      "name": "dsh-server-deck",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-server-deck",
+        "title": "dsh-server-deck",
+        "description": "DSH 能力插件:服务器卡片仪表盘——实时状态/CPU/内存/磁盘 + 趋势记录与可视化(1h/24h/7d/30d) + 点卡片进入 xterm 交互终端",
+        "homepage": "https://github.com/meyaomiao/dsh-server-deck#readme",
+        "repository": {
+          "url": "https://github.com/meyaomiao/dsh-server-deck"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "ssh",
+            "server-monitor",
+            "dashboard",
+            "terminal",
+            "better-sidebar",
+            "metrics",
+            "trend"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1793705929,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.5"
+            }
+          },
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1792401788,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 0.1.1-rc.2 || >=0.1.0-rc.6 >=0.1.2-alpha.2 || >=0.1.0-rc.6 >=0.1.5-rc.1 <0.2.0-0 || >=0.1.0-rc.6 0.1.7-rc.2 || >=0.1.0-rc.6 0.2.0-rc.1 || >=0.1.0-rc.6 0.2.0-rc.2 || >=0.1.0-rc.6 0.2.1-rc.1 || >=0.1.0-rc.6 0.2.1-rc.2 || >=0.1.5-rc.1 <0.2.0-0 >=0.1.2-alpha.2 || >=0.1.5-rc.1 <0.2.0-0 || >=0.1.5-rc.1 <0.2.0-0 0.1.7-rc.2 || 0.1.7-rc.2 >=0.1.2-alpha.2 || 0.1.7-rc.2 >=0.1.5-rc.1 <0.2.0-0 || 0.1.7-rc.2 || 0.2.0-rc.1 >=0.1.2-alpha.2 || 0.2.0-rc.1 || 0.2.0-rc.2 >=0.1.2-alpha.2 || 0.2.0-rc.2 || 0.2.1-rc.1 >=0.1.2-alpha.2 || 0.2.1-rc.1 || 0.2.1-rc.2 >=0.1.2-alpha.2 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "637b9648002d422dc892f2731015d10c001dd69930a668b5d9a3808c37cef52a",
+      "evidence": [
+        {
+          "name": "dsh-server-deck",
+          "version": "0.5.0",
+          "tarball": "https://registry.npmjs.org/dsh-server-deck/-/dsh-server-deck-0.5.0.tgz",
+          "integrity": "sha512-OiVOlBxRgqTK4Q6stZC0JONMYKwQP9KEhvqEb/ALOYUm8x/liOHF7fT/7cP1BV6RuPlOetUMR4C0a+oKQSeing=="
+        },
+        {
+          "name": "dsh-server-deck",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-server-deck/-/dsh-server-deck-0.4.1.tgz",
+          "integrity": "sha512-TYcuofRYJ4iP3ubQKk42MSzD4do9hLZ0u8TjC4BKlZqR9m/UhTMo/Hlz9e6M9k6vaVjAEH1GEmy0JK2wV7XLsQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-server-deck",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/meyaomiao/dsh-server-deck",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/meyaomiao/dsh-server-deck",
+    "commit": "1a9135b1cbfacb3c0c070302db3854132e221d8e",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:49.525Z"
+}

@@ -1,0 +1,201 @@
+{
+  "full_name": "Tripo-Developer/Tripo3D-Plugin-dsh",
+  "originalPosition": 199,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 199,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:11:11.715Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8b5b02fd07f05d7bd724a79ff7b5c4a1cb62bd847e4da3263c85c96df89464ef",
+      "url": "https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh/blob/03cf2d925342715b843ce03fa91877d8bcd20412/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh#path:/plugin",
+          "command": "dsh plugin --profile web add \"github:Tripo-Developer/Tripo3D-Plugin-dsh#path:/plugin\"",
+          "profile": "web"
+        },
+        {
+          "install": "tripo-dsh",
+          "command": "dsh plugin --profile web add tripo-dsh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "tripo-dsh",
+      "version": "0.2.0",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh",
+        "commit": "03cf2d925342715b843ce03fa91877d8bcd20412",
+        "path": "plugin"
+      },
+      "manifestSha256": "c32978b793180b47434a88c0984dde5f450cde9f479654ab8fe8970d3c53c1f9",
+      "manifestUrl": "https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh/blob/03cf2d925342715b843ce03fa91877d8bcd20412/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "tripo-dsh",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1793700705,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh",
+              "commit": "03cf2d925342715b843ce03fa91877d8bcd20412",
+              "path": "plugin"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh#path:/plugin",
+      "origin": "git_target",
+      "name": "tripo-dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "tripo-dsh",
+        "title": "tripo-dsh",
+        "description": "Tripo 3D skills for DeepSeek Harness — generate engine-ready 3D assets from a text prompt or a reference image via tripo-cli, with texturing, rigging, retopology and format conversion in one pass. Works with both Tripo regions (China mainland and international).",
+        "author": "VAST",
+        "homepage": "https://www.tripo3d.ai",
+        "repository": {
+          "url": "https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh",
+          "directory": "plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "3d",
+            "asset-generation",
+            "game-development",
+            "text-to-3d",
+            "image-to-3d",
+            "3d-printing",
+            "rigging",
+            "glb",
+            "fbx"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1793700705,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh",
+              "commit": "03cf2d925342715b843ce03fa91877d8bcd20412",
+              "path": "plugin"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "plugin",
+          "commit": "03cf2d925342715b843ce03fa91877d8bcd20412",
+          "name": "tripo-dsh",
+          "version": "0.2.0",
+          "url": "https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh",
+          "manifestSha256": "c32978b793180b47434a88c0984dde5f450cde9f479654ab8fe8970d3c53c1f9",
+          "publishTimestamp": 1793700705
+        }
+      ]
+    },
+    {
+      "target": "tripo-dsh",
+      "origin": "npm",
+      "name": "tripo-dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "tripo-dsh",
+        "title": "tripo-dsh",
+        "description": "Tripo 3D skills for DeepSeek Harness — generate engine-ready 3D assets from a text prompt or a reference image via tripo-cli, with texturing, rigging, retopology and format conversion in one pass. Works with both Tripo regions (China mainland and international).",
+        "author": "VAST",
+        "homepage": "https://www.tripo3d.ai",
+        "repository": {
+          "url": "https://github.com/VAST-AI-Research/Tripo3D-Plugin-dsh",
+          "directory": "plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "3d",
+            "asset-generation",
+            "game-development",
+            "text-to-3d",
+            "image-to-3d",
+            "3d-printing",
+            "rigging",
+            "glb",
+            "fbx"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1792487326,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e2ad13c232b8be0348a8fdad0ab279002da651a70ff79da5607ea67f8761014b",
+      "evidence": [
+        {
+          "name": "tripo-dsh",
+          "version": "0.1.4",
+          "tarball": "https://registry.npmjs.org/tripo-dsh/-/tripo-dsh-0.1.4.tgz",
+          "integrity": "sha512-eCN4oWYbBPX7SdaqzxFZ+Un7FOtI4g2W1A1z7Z57X63mUgX/PAS9KT34ff8lk+tBI/uVuH3K6MJxNZO9N7XTxQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh#path:/plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "tripo-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tripo-Developer/Tripo3D-Plugin-dsh",
+    "commit": "03cf2d925342715b843ce03fa91877d8bcd20412",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:11:29.986Z"
+}

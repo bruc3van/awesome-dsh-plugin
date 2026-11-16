@@ -1,0 +1,165 @@
+{
+  "full_name": "drscrewdriver/dsh-sidebar-fold",
+  "originalPosition": 137,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 137,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:18.762Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e79fb8a06c6526dd4ed12489ee3d97d07b48871c7ea22006abdaa42fb60104ce",
+      "url": "https://github.com/drscrewdriver/dsh-sidebar-fold/blob/dd6fa1a7d6919fd426cc78e8e0bd4486ab2962fc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sidebar-fold",
+          "command": "dsh plugin --profile <profile> add dsh-sidebar-fold",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "565629e67bd0f2cb97e21a16bbc094510f41cf30e36872ab3626a3ce65888880",
+      "url": "https://github.com/drscrewdriver/dsh-sidebar-fold/blob/dd6fa1a7d6919fd426cc78e8e0bd4486ab2962fc/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sidebar-fold",
+          "command": "dsh plugin --profile <profile> add dsh-sidebar-fold",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sidebar-fold",
+      "version": "0.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/drscrewdriver/dsh-sidebar-fold",
+        "commit": "dd6fa1a7d6919fd426cc78e8e0bd4486ab2962fc"
+      },
+      "manifestSha256": "3f8a21c890a57ba9982e8f5a4301f01277e183c6031c089740264220aa1cdd0c",
+      "manifestUrl": "https://github.com/drscrewdriver/dsh-sidebar-fold/blob/dd6fa1a7d6919fd426cc78e8e0bd4486ab2962fc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-sidebar-fold",
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1794807769,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-sidebar-fold",
+              "commit": "dd6fa1a7d6919fd426cc78e8e0bd4486ab2962fc"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-sidebar-fold",
+      "origin": "npm",
+      "name": "dsh-sidebar-fold",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-sidebar-fold",
+        "title": {
+          "en": "Sidebar “More” fold",
+          "de": "Seitenleisten-„Mehr“-Einklappen",
+          "es": "Plegado de «Más» de la barra lateral",
+          "fr": "Repliement « Plus » de la barre latérale",
+          "it": "Compressione “Altro” della barra laterale",
+          "ja": "サイドバー「その他」折りたたみ",
+          "ko": "사이드바 “기타” 접기",
+          "ru": "Сворачивание «Ещё» боковой панели",
+          "zh": "侧边栏「更多」折叠"
+        },
+        "description": {
+          "en": "Puts a square arrow toggle on the “More” row to fold the sidebar’s add-on panel rows into that single line, with a configurable default state and never-fold list.",
+          "de": "Setzt einen quadratischen Pfeil-Schalter auf die Zeile „Mehr“, um die ergänzenden Panelzeilen der Seitenleiste auf eine Zeile zu reduzieren; Standardzustand und Ausnahmeliste konfigurierbar.",
+          "es": "Añade un conmutador de flecha cuadrada en la fila «Más» para plegar las filas de paneles añadidas de la barra lateral; estado predeterminado y lista de exclusiones configurables.",
+          "fr": "Ajoute une bascule en flèche carrée sur la ligne « Plus » pour replier les lignes de panneau ajoutées de la barre latérale ; état par défaut et liste d’exclusion configurables.",
+          "it": "Aggiunge un interruttore a freccia quadrata sulla riga “Altro” per comprimere le righe dei pannelli aggiunti della barra laterale; stato predefinito ed elenco di esclusioni configurabili.",
+          "ja": "「その他」行に四角い矢印トグルを追加し、サイドバーの追加パネル行を1行に折りたたみます。既定状態と非折りたたみリストを設定できます。",
+          "ko": "“기타” 행에 사각형 화살표 토글을 두어 사이드바의 추가 패널 행을 한 줄로 접습니다. 기본 상태와 접지 않는 목록을 설정할 수 있습니다.",
+          "ru": "Добавляет квадратный переключатель со стрелкой на строке «Ещё», сворачивая добавленные строки панелей боковой панели в одну; настраиваемые исходное состояние и список исключений.",
+          "zh": "在「更多」行右侧挂一个方形箭头按钮，把侧边栏的加项面板行收纳成一行，可设置默认态与不折叠清单。"
+        },
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-sidebar-fold"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "sidebar",
+            "collapse",
+            "ui",
+            "align"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1794633557,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "61f2dc022fbd51807935205122b8ef1c8097dde40eb3cc66022ea223c39690b8",
+      "evidence": [
+        {
+          "name": "dsh-sidebar-fold",
+          "version": "0.1.6",
+          "tarball": "https://registry.npmjs.org/dsh-sidebar-fold/-/dsh-sidebar-fold-0.1.6.tgz",
+          "integrity": "sha512-BKX+gt47PwCmcJ2dG//QewEEkgiSFgB4M7+OGpjwvz7LTmOIDw34ceytUgw/iDWOfMLtkzZzt3Q+bv0uMgamZg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-sidebar-fold",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/drscrewdriver/dsh-sidebar-fold",
+    "commit": "dd6fa1a7d6919fd426cc78e8e0bd4486ab2962fc",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:30.191Z"
+}

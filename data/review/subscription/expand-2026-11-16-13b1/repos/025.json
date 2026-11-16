@@ -1,0 +1,48 @@
+{
+  "full_name": "HeiGeAi/deepseek-harness-skin",
+  "originalPosition": 25,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 25,
+  "batch": 1,
+  "stargazers_count": 64,
+  "startedAt": "2026-11-16T12:02:27.618Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f622e7eff493b8898114b18f80c826b59b4eed38c020950519519d8afe5ec3eb",
+      "url": "https://github.com/HeiGeAi/deepseek-harness-skin/blob/848c92787e4b67b2892c7c15d6f45f1029a94d8d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "4c8f9c734b1e2cb8af7747f3db92f4e32ab7e28f74a7cbf86bddf79eda3e12c2",
+      "url": "https://github.com/HeiGeAi/deepseek-harness-skin/blob/848c92787e4b67b2892c7c15d6f45f1029a94d8d/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HeiGeAi/deepseek-harness-skin",
+    "commit": "848c92787e4b67b2892c7c15d6f45f1029a94d8d",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:02:36.480Z"
+}

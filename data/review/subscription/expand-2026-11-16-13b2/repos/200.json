@@ -1,0 +1,86 @@
+{
+  "full_name": "kobenfang/bigA",
+  "originalPosition": 200,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:33.214Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2e522c1f742ba000abd242289a62953fd080f4a7318e8928a4f1866016fb19f3",
+      "url": "https://github.com/kobenfang/bigA/blob/90467c38203a942d6fcd587a09a82e1a5760118c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "459d62f55039567ef22b0e29f0a709f56746c9bb97bf82924eb2ac0067162add",
+      "url": "https://github.com/kobenfang/bigA/blob/90467c38203a942d6fcd587a09a82e1a5760118c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/kobenfang/bigA",
+          "command": "dsh plugin add github:kobenfang/bigA",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@kobenfang/dsh-biga",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kobenfang/bigA",
+        "commit": "90467c38203a942d6fcd587a09a82e1a5760118c"
+      },
+      "manifestSha256": "22f816fa28199f4332e2cf7d08401d961b7bb5ebf1f376dc6a1462de92364ef1",
+      "manifestUrl": "https://github.com/kobenfang/bigA/blob/90467c38203a942d6fcd587a09a82e1a5760118c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@kobenfang/dsh-biga",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1788019213,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kobenfang/bigA",
+              "commit": "90467c38203a942d6fcd587a09a82e1a5760118c"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/kobenfang/bigA",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kobenfang/bigA",
+    "commit": "90467c38203a942d6fcd587a09a82e1a5760118c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:42.324Z"
+}

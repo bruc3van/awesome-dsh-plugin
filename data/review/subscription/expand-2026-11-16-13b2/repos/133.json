@@ -1,0 +1,66 @@
+{
+  "full_name": "zhang-jiazhi/dsh-prompt-optimizer",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:18:08.709Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e67562f47cd3f59b7c7b1264986fd97459565191e9ad3a4cb5da67e5b25c9614",
+      "url": "https://github.com/zhang-jiazhi/dsh-prompt-optimizer/blob/41e4c77a35ae77fdd617de6ef995459b0d6490cb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-prompt-optimizer",
+      "version": "0.7.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhang-jiazhi/dsh-prompt-optimizer",
+        "commit": "41e4c77a35ae77fdd617de6ef995459b0d6490cb"
+      },
+      "manifestSha256": "2540cc76448fa06468a7364a10136a7f410153cfa86557988b3f08b9c1a09f4f",
+      "manifestUrl": "https://github.com/zhang-jiazhi/dsh-prompt-optimizer/blob/41e4c77a35ae77fdd617de6ef995459b0d6490cb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@local/dsh-prompt-optimizer",
+        "versions": [
+          {
+            "version": "0.7.2",
+            "publishTimestamp": 1790142921,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhang-jiazhi/dsh-prompt-optimizer",
+              "commit": "41e4c77a35ae77fdd617de6ef995459b0d6490cb"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhang-jiazhi/dsh-prompt-optimizer",
+    "commit": "41e4c77a35ae77fdd617de6ef995459b0d6490cb",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:17.444Z"
+}

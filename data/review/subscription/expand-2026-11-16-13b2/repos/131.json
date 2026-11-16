@@ -1,0 +1,127 @@
+{
+  "full_name": "zemul/dsh-video-preview",
+  "originalPosition": 131,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 131,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:18:02.960Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9d09e58c717414f9e7d325035293939a3ced133af6992677483398ff144be080",
+      "url": "https://github.com/zemul/dsh-video-preview/blob/2aaecdeabb342652573e33ce1af3cf147b704e06/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-video-preview",
+          "command": "dsh plugin --profile web add dsh-video-preview",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-video-preview",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zemul/dsh-video-preview",
+        "commit": "2aaecdeabb342652573e33ce1af3cf147b704e06"
+      },
+      "manifestSha256": "e89359605b4f37a3e95f79d22f0575380908bae12286625b8a197884d4a13890",
+      "manifestUrl": "https://github.com/zemul/dsh-video-preview/blob/2aaecdeabb342652573e33ce1af3cf147b704e06/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-video-preview",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1794672408,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zemul/dsh-video-preview",
+              "commit": "2aaecdeabb342652573e33ce1af3cf147b704e06"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-video-preview",
+      "origin": "npm",
+      "name": "dsh-video-preview",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-video-preview",
+        "title": "dsh-video-preview",
+        "description": "Inline video preview for dsh-better-sidebar: plays .mp4/.webm/.mov/.mkv/.avi etc. in the sidebar editor with HTTP Range (seeking) support via a dedicated /video host route",
+        "author": "zemul",
+        "homepage": "https://github.com/zemul/dsh-video-preview",
+        "repository": {
+          "url": "https://github.com/zemul/dsh-video-preview"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "better-sidebar",
+            "video",
+            "preview",
+            "file-viewer"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1794672566,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "67b7040af7f178ed8f5c88ef3ef18912e202752fcb2c47857ae27f9752b0d09d",
+      "evidence": [
+        {
+          "name": "dsh-video-preview",
+          "version": "0.1.5",
+          "tarball": "https://registry.npmjs.org/dsh-video-preview/-/dsh-video-preview-0.1.5.tgz",
+          "integrity": "sha512-Efq3dlt8GPNBHtFiEI57l6Ztd9ZesRTJJnOfaVjKb2BTI4UbWA/mB7Iftuvhzp0Bh/h63cgvubzZg5YfqJmkig=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-video-preview",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zemul/dsh-video-preview",
+    "commit": "2aaecdeabb342652573e33ce1af3cf147b704e06",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:10.949Z"
+}

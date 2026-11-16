@@ -1,0 +1,78 @@
+{
+  "full_name": "mengzhongjie/dsh-superagent-local",
+  "originalPosition": 144,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:38.515Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3140f7c44781c6b68f9ae16c35d546f33c4ad394039ffa7fa5e6d7a36155b019",
+      "url": "https://github.com/mengzhongjie/dsh-superagent-local/blob/fe5929a5b138e0872eb2aacea7a3f270bc71aa46/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/mengzhongjie/dsh-superagent-local",
+          "command": "dsh plugin add github:mengzhongjie/dsh-superagent-local",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/mengzhongjie/dsh-superagent-local/releases/download/v0.2.1/dsh-superagent-0.2.1.tgz",
+          "command": "dsh plugin add https://github.com/mengzhongjie/dsh-superagent-local/releases/download/v0.2.1/dsh-superagent-0.2.1.tgz",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-superagent",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mengzhongjie/dsh-superagent-local",
+        "commit": "fe5929a5b138e0872eb2aacea7a3f270bc71aa46"
+      },
+      "manifestSha256": "1ab1469346020704152c6ce0203f165093139d59dd71726093923ad64570b4d2",
+      "manifestUrl": "https://github.com/mengzhongjie/dsh-superagent-local/blob/fe5929a5b138e0872eb2aacea7a3f270bc71aa46/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "target": "https://github.com/mengzhongjie/dsh-superagent-local/releases/download/v0.2.1/dsh-superagent-0.2.1.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/mengzhongjie/dsh-superagent-local",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/mengzhongjie/dsh-superagent-local/releases/download/v0.2.1/dsh-superagent-0.2.1.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mengzhongjie/dsh-superagent-local",
+    "commit": "fe5929a5b138e0872eb2aacea7a3f270bc71aa46",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:08:46.291Z"
+}

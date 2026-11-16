@@ -1,0 +1,139 @@
+{
+  "full_name": "loonai321/dsh-humanized-deepseek-maid",
+  "originalPosition": 93,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 93,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:06:15.959Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b6ceeca59e606ff79d9f24387ef0d09f3e4b882b38133e35e8f1a9cc2ab653d2",
+      "url": "https://github.com/loonai321/dsh-humanized-deepseek-maid/blob/c13281456456a6b4018288396eef14c3c97628c8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/loonai321/dsh-humanized-deepseek-maid#main",
+          "command": "dsh plugin --profile web add \"github:loonai321/dsh-humanized-deepseek-maid#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6a6738d5bc7e8adfdfecf71762b95e60e9f2cd9bd1321197a142f138c50384ec",
+      "url": "https://github.com/loonai321/dsh-humanized-deepseek-maid/blob/c13281456456a6b4018288396eef14c3c97628c8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/loonai321/dsh-humanized-deepseek-maid#main",
+          "command": "dsh plugin --profile web add \"github:loonai321/dsh-humanized-deepseek-maid#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-humanized-deepseek-maid",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/loonai321/dsh-humanized-deepseek-maid",
+        "commit": "c13281456456a6b4018288396eef14c3c97628c8"
+      },
+      "manifestSha256": "a9d1651f9a26336e3fdc2e70c9e542f2fb48e8781119233bd8412bebd936e567",
+      "manifestUrl": "https://github.com/loonai321/dsh-humanized-deepseek-maid/blob/c13281456456a6b4018288396eef14c3c97628c8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-humanized-deepseek-maid",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1787725521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/loonai321/dsh-humanized-deepseek-maid",
+              "commit": "c13281456456a6b4018288396eef14c3c97628c8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/loonai321/dsh-humanized-deepseek-maid#main",
+      "origin": "git_target",
+      "name": "dsh-humanized-deepseek-maid",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-humanized-deepseek-maid",
+        "title": "dsh-humanized-deepseek-maid",
+        "description": "Gives the DeepSeek Harness agent a configurable humanized whale-girl maid persona (address, self-name, speaking mode), an immersive no-plugin-meta rule, and a lightweight layered memory with query-triggered recall.",
+        "repository": {
+          "url": "https://github.com/loonai321/dsh-humanized-deepseek-maid"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "persona",
+            "roleplay",
+            "maid",
+            "whale-girl",
+            "memory"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1787725521,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/loonai321/dsh-humanized-deepseek-maid",
+              "commit": "c13281456456a6b4018288396eef14c3c97628c8"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "c13281456456a6b4018288396eef14c3c97628c8",
+          "name": "dsh-humanized-deepseek-maid",
+          "version": "0.4.0",
+          "url": "https://github.com/loonai321/dsh-humanized-deepseek-maid",
+          "manifestSha256": "a9d1651f9a26336e3fdc2e70c9e542f2fb48e8781119233bd8412bebd936e567",
+          "publishTimestamp": 1787725521
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/loonai321/dsh-humanized-deepseek-maid#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/loonai321/dsh-humanized-deepseek-maid",
+    "commit": "c13281456456a6b4018288396eef14c3c97628c8",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:06:34.741Z"
+}

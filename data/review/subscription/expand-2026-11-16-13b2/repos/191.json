@@ -1,0 +1,170 @@
+{
+  "full_name": "hoyyang/dsh-improve-prompt",
+  "originalPosition": 191,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 191,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:15.854Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "40098a216e918d1a9c69a37b8cde83aa842d995a9b5055d8f1f9edcdfcdec315",
+      "url": "https://github.com/hoyyang/dsh-improve-prompt/blob/8587cf05d1016285a5acb636f2db18b7a562fd75/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-improve-prompt",
+          "command": "dsh plugin --profile web add dsh-improve-prompt",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/hoyyang/dsh-improve-prompt",
+          "command": "dsh plugin --profile web add github:hoyyang/dsh-improve-prompt",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/hoyyang/dsh-improve-prompt",
+          "command": "dsh plugin add github:hoyyang/dsh-improve-prompt",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b1ca6572b4af50aad19b6b811b2c572d3f0ee3d2472d9ae7d1aac8728f46c2ee",
+      "url": "https://github.com/hoyyang/dsh-improve-prompt/blob/8587cf05d1016285a5acb636f2db18b7a562fd75/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-improve-prompt",
+          "command": "dsh plugin --profile web add dsh-improve-prompt",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/hoyyang/dsh-improve-prompt",
+          "command": "dsh plugin --profile web add github:hoyyang/dsh-improve-prompt",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/hoyyang/dsh-improve-prompt",
+          "command": "dsh plugin add github:hoyyang/dsh-improve-prompt",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-improve-prompt",
+      "version": "0.7.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hoyyang/dsh-improve-prompt",
+        "commit": "8587cf05d1016285a5acb636f2db18b7a562fd75"
+      },
+      "manifestSha256": "57e6fbd9567f368201dfd0d105dc3d13d5499cf61e8ec8566fadac5455e96335",
+      "manifestUrl": "https://github.com/hoyyang/dsh-improve-prompt/blob/8587cf05d1016285a5acb636f2db18b7a562fd75/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc <2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-improve-prompt",
+        "versions": [
+          {
+            "version": "0.7.3",
+            "publishTimestamp": 1794157976,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hoyyang/dsh-improve-prompt",
+              "commit": "8587cf05d1016285a5acb636f2db18b7a562fd75"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc <2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-improve-prompt",
+      "origin": "npm",
+      "name": "dsh-improve-prompt",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-improve-prompt",
+        "title": "dsh-improve-prompt",
+        "description": "一键把输入框草稿改写为更清晰、更贴 Agent 执行的提示词：直接替换 + 一键撤回，带保真闸与长度闸。",
+        "author": "hoyyang",
+        "homepage": "https://github.com/hoyyang/dsh-improve-prompt#readme",
+        "repository": {
+          "url": "https://github.com/hoyyang/dsh-improve-prompt"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "prompt-engineering",
+            "prompt-enhancement"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.3",
+            "publishTimestamp": 1794158109,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc <2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1c99a2acd0357beb4fb39a9d20d4a2a9518d2967143e701c2c351b49cf2b8503",
+      "evidence": [
+        {
+          "name": "dsh-improve-prompt",
+          "version": "0.7.3",
+          "tarball": "https://registry.npmjs.org/dsh-improve-prompt/-/dsh-improve-prompt-0.7.3.tgz",
+          "integrity": "sha512-QQTFLLeSNC0R6tOJBKDowrV4Nz5ny91mFGkFJsl/zgaNyMLRvgJmLms79eYw/65ZPiPOIaQLbXX3mtTUNgnN0A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-improve-prompt",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/hoyyang/dsh-improve-prompt",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hoyyang/dsh-improve-prompt",
+    "commit": "8587cf05d1016285a5acb636f2db18b7a562fd75",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:29.840Z"
+}

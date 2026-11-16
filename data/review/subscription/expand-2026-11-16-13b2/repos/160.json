@@ -1,0 +1,148 @@
+{
+  "full_name": "QiuYeDx/dsh-bili-eyes",
+  "originalPosition": 160,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 160,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:02.848Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "495a8d12cad8e9d5f8e20b3e9e20796f1512eb2b8af7415bfbdde2a4888595a0",
+      "url": "https://github.com/QiuYeDx/dsh-bili-eyes/blob/d85d08621527a894b80185f21665f82bd4616d26/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bili-eyes",
+          "command": "dsh plugin --profile desktop add dsh-bili-eyes",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "6ce9b6331aef73ca7b15ad8020a7c87ab9831ac562fef1c86eb3042affd978c4",
+      "url": "https://github.com/QiuYeDx/dsh-bili-eyes/blob/d85d08621527a894b80185f21665f82bd4616d26/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bili-eyes",
+      "version": "0.8.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QiuYeDx/dsh-bili-eyes",
+        "commit": "d85d08621527a894b80185f21665f82bd4616d26"
+      },
+      "manifestSha256": "8d68a563c76b0512e6cf481d6dcfcbe4c73365be77de2ca6d007c84acf54e4b5",
+      "manifestUrl": "https://github.com/QiuYeDx/dsh-bili-eyes/blob/d85d08621527a894b80185f21665f82bd4616d26/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.7",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-bili-eyes",
+        "versions": [
+          {
+            "version": "0.8.3",
+            "publishTimestamp": 1794229388,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QiuYeDx/dsh-bili-eyes",
+              "commit": "d85d08621527a894b80185f21665f82bd4616d26"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.7"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-bili-eyes",
+      "origin": "npm",
+      "name": "dsh-bili-eyes",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bili-eyes",
+        "title": {
+          "en": "Bili Buddy",
+          "zh": "B站伙伴"
+        },
+        "description": {
+          "en": "Let the model watch Bilibili videos (storyboards, captions, hot comments, danmaku), search, browse on its own, surf on a schedule, check the inbox and watch the comments under the owner's uploads; in group chats it decides whether to watch a video by who asked, and comments can carry Bilibili emotes and stickers. Likes, comments, favorites, DMs, posts and follows are off by default and can be enabled per action and audience (the owner's own accounts / commenters on the owner's uploads / everyone else) with daily caps and an audit log.",
+          "zh": "让模型看 B站视频（分镜图 + 台词 + 热评 + 弹幕热词）、搜视频、顺着线索逛 B站、按时间段自己逛、看收件箱、守主人投稿的评论区；群里按「谁叫的」决定看不看视频，评论能带 B站表情和表情包。点赞、评论、收藏、私信、动态、关注默认关闭，可在设置里按「对谁」（自己人 / 主人评论区里的别人 / 外面的人）分开定档，带每日上限和审计。"
+        },
+        "author": "QiuYeDx",
+        "homepage": "https://github.com/QiuYeDx/dsh-bili-eyes#readme",
+        "repository": {
+          "url": "https://github.com/QiuYeDx/dsh-bili-eyes"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "bilibili",
+            "video",
+            "storyboard",
+            "qq-bot"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYi1iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMzQ0JERjUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMUU5QURCIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgcng9IjMwIiBmaWxsPSJ1cmwoI2ItYmcpIi8+CiAgPHJlY3QgeD0iMTciIHk9IjI0IiB3aWR0aD0iOTQiIGhlaWdodD0iNjYiIHJ4PSIxNiIgZmlsbD0iI2ZmZiIvPgogIDxjaXJjbGUgY3g9IjQ5IiBjeT0iNTYiIHI9IjkiIGZpbGw9IiMxRTJBNDQiLz4KICA8Y2lyY2xlIGN4PSI3OSIgY3k9IjU2IiByPSI5IiBmaWxsPSIjMUUyQTQ0Ii8+CiAgPGNpcmNsZSBjeD0iNTIiIGN5PSI1MyIgcj0iMyIgZmlsbD0iI2ZmZiIvPgogIDxjaXJjbGUgY3g9IjgyIiBjeT0iNTMiIHI9IjMiIGZpbGw9IiNmZmYiLz4KICA8ZWxsaXBzZSBjeD0iMzgiIGN5PSI3MCIgcng9IjYiIHJ5PSIzLjUiIGZpbGw9IiNGRjhEQjAiIG9wYWNpdHk9Ii43Ii8+CiAgPGVsbGlwc2UgY3g9IjkwIiBjeT0iNzAiIHJ4PSI2IiByeT0iMy41IiBmaWxsPSIjRkY4REIwIiBvcGFjaXR5PSIuNyIvPgogIDxyZWN0IHg9IjI0IiB5PSIxMDIiIHdpZHRoPSI4MCIgaGVpZ2h0PSI2IiByeD0iMyIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iLjQ1Ii8+CiAgPHJlY3QgeD0iMjQiIHk9IjEwMiIgd2lkdGg9IjUwIiBoZWlnaHQ9IjYiIHJ4PSIzIiBmaWxsPSIjRkY4REIwIi8+CiAgPGNpcmNsZSBjeD0iNzQiIGN5PSIxMDUiIHI9IjYuNSIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.8.3",
+            "publishTimestamp": 1794230287,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.7"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b325c3fa7d5dc84dac752a7842237b5e6324ad54c43acc9aca8f7894fe0d577c",
+      "evidence": [
+        {
+          "name": "dsh-bili-eyes",
+          "version": "0.8.3",
+          "tarball": "https://registry.npmjs.org/dsh-bili-eyes/-/dsh-bili-eyes-0.8.3.tgz",
+          "integrity": "sha512-8slKOv0bUEB7yF9QGHxqbxCbbTe8qDqhjQ6Akl/J8pkmAVZs0VH2qVRPzQJrgqm+37O0uUx/lbYAPn7IyrfRrQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-bili-eyes",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QiuYeDx/dsh-bili-eyes",
+    "commit": "d85d08621527a894b80185f21665f82bd4616d26",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:14.718Z"
+}

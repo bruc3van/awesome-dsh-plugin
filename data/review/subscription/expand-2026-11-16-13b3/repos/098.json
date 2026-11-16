@@ -1,0 +1,153 @@
+{
+  "full_name": "lemonxiny55/dsh-code-index",
+  "originalPosition": 98,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 98,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:24:46.688Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ee01b107effe653f7098da379c6367b21275a492040789168253e93f29df1a5e",
+      "url": "https://github.com/lemonxiny55/dsh-code-index/blob/a247690a5cb2c72152347cab482760193a0447f7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-code-index@0.12.0",
+          "command": "dsh plugin --profile desktop add dsh-code-index@0.12.0",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "873af6fc80b8c7ca88fd25a3c7d654a619327a5ac7c3f915fbf96a60e68abc93",
+      "url": "https://github.com/lemonxiny55/dsh-code-index/blob/a247690a5cb2c72152347cab482760193a0447f7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-code-index@0.12.0",
+          "command": "dsh plugin --profile desktop add dsh-code-index@0.12.0",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "grammars/README.md",
+      "sha256": "f36fc7157e5bd091acaa57b7b9bb05180ee9c1fe62c29805e58b9fee23f37a79",
+      "url": "https://github.com/lemonxiny55/dsh-code-index/blob/a247690a5cb2c72152347cab482760193a0447f7/grammars/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-code-index",
+      "version": "0.12.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lemonxiny55/dsh-code-index",
+        "commit": "a247690a5cb2c72152347cab482760193a0447f7"
+      },
+      "manifestSha256": "d81fef338423f94020a9d17de666f18972b4617d1f5d02f3d6b3d59176cd1418",
+      "manifestUrl": "https://github.com/lemonxiny55/dsh-code-index/blob/a247690a5cb2c72152347cab482760193a0447f7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 || >=0.2.1-rc.2 <0.2.2 || >=0.2.2-rc.1 <0.2.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-code-index",
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1794583973,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lemonxiny55/dsh-code-index",
+              "commit": "a247690a5cb2c72152347cab482760193a0447f7"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2 <0.2.2 || >=0.2.2-rc.1 <0.2.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-code-index@0.12.0",
+      "origin": "npm",
+      "name": "dsh-code-index",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-code-index",
+        "title": "dsh-code-index",
+        "description": "Impact X-Ray for DSH: inspect potential code-change impact, provenance and real source evidence before AI edits.",
+        "homepage": "https://github.com/lemonxiny55/dsh-code-index",
+        "repository": {
+          "url": "https://github.com/lemonxiny55/dsh-code-index"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "code-index",
+            "repo-map",
+            "tree-sitter",
+            "code-search"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.12.0",
+            "publishTimestamp": 1794184994,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2 <0.2.2 || >=0.2.2-rc.1 <0.2.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "28808dadec4822260e8ec217c3072a165af78dd3d9286ffe23d5d1ff499a4005",
+      "evidence": [
+        {
+          "name": "dsh-code-index",
+          "version": "0.12.0",
+          "tarball": "https://registry.npmjs.org/dsh-code-index/-/dsh-code-index-0.12.0.tgz",
+          "integrity": "sha512-983FD9Rp1yqfva0O9lprhJkk1c5NS5T3HpxqwrwKMXX6dSMY/hRLjuB6B6YFvYvbz08fXgLl1Kbu9uPgvOeQDw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-code-index@0.12.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lemonxiny55/dsh-code-index",
+    "commit": "a247690a5cb2c72152347cab482760193a0447f7",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:01.980Z"
+}

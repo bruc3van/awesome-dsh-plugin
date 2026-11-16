@@ -1,0 +1,74 @@
+{
+  "full_name": "KylinQ01/dsh-startup-animation",
+  "originalPosition": 155,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 155,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:52.928Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1f53c6f9e7f9cf6d132ac88f7f4b08c371a15a5b86d1aee92db044bc8237fe15",
+      "url": "https://github.com/KylinQ01/dsh-startup-animation/blob/3a8c57a8fe2113b81ff861e9fc4589ad9bae6460/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "3cde3974369e550cd2257bb61879d7f1a9b8ef0481dcf81a6ab34cca7d9eb458",
+      "url": "https://github.com/KylinQ01/dsh-startup-animation/blob/3a8c57a8fe2113b81ff861e9fc4589ad9bae6460/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "126c7e97d46e5e700e048d3daaaf59c68c527bb7b6c132d81d90be7a9be08ffe",
+      "url": "https://github.com/KylinQ01/dsh-startup-animation/blob/3a8c57a8fe2113b81ff861e9fc4589ad9bae6460/README.ja.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.ko.md",
+      "sha256": "1c32d8e1929567b2080347c5af55aceac2215ec60fbf8a6ab56c2fe72efd8248",
+      "url": "https://github.com/KylinQ01/dsh-startup-animation/blob/3a8c57a8fe2113b81ff861e9fc4589ad9bae6460/README.ko.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-startup-animation",
+      "version": "2.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KylinQ01/dsh-startup-animation",
+        "commit": "3a8c57a8fe2113b81ff861e9fc4589ad9bae6460"
+      },
+      "manifestSha256": "4b91c393bb9d5dee30190dd8a97f0f0475c07feeec2dfef433e6fb647c0cf69a",
+      "manifestUrl": "https://github.com/KylinQ01/dsh-startup-animation/blob/3a8c57a8fe2113b81ff861e9fc4589ad9bae6460/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KylinQ01/dsh-startup-animation",
+    "commit": "3a8c57a8fe2113b81ff861e9fc4589ad9bae6460",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-16T12:19:05.269Z"
+}

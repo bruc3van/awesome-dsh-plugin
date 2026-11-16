@@ -1,0 +1,134 @@
+{
+  "full_name": "CCYellowStar2/dsh-astrbot-ingress",
+  "originalPosition": 147,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:21.398Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "01f1bbc65f14c18609b70bb46b64dae160bac566204dd3f312a36d55f8c7ef4d",
+      "url": "https://github.com/CCYellowStar2/dsh-astrbot-ingress/blob/e8a3d23e0f1f7b40799955968a61717fad886927/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/CCYellowStar2/dsh-astrbot-ingress",
+          "command": "dsh plugin --profile web add github:CCYellowStar2/dsh-astrbot-ingress",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-astrbot-ingress",
+          "command": "dsh plugin --profile web add dsh-astrbot-ingress",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-astrbot-ingress",
+      "version": "0.3.25",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CCYellowStar2/dsh-astrbot-ingress",
+        "commit": "e8a3d23e0f1f7b40799955968a61717fad886927"
+      },
+      "manifestSha256": "a0c3e1b175d606bca02160703202ed0429f33665ef84ce7878af7671d6cf1e51",
+      "manifestUrl": "https://github.com/CCYellowStar2/dsh-astrbot-ingress/blob/e8a3d23e0f1f7b40799955968a61717fad886927/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-astrbot-ingress",
+        "versions": [
+          {
+            "version": "0.3.25",
+            "publishTimestamp": 1794133980,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CCYellowStar2/dsh-astrbot-ingress",
+              "commit": "e8a3d23e0f1f7b40799955968a61717fad886927"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-astrbot-ingress",
+      "origin": "npm",
+      "name": "dsh-astrbot-ingress",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-astrbot-ingress",
+        "title": "dsh-astrbot-ingress",
+        "description": "HTTP ingress that lets AstrBot drive DeepSeek Harness agents (OneBot / official IM via AstrBot).",
+        "author": "CCYellowStar2",
+        "homepage": "https://github.com/CCYellowStar2/dsh-astrbot-ingress#readme",
+        "repository": {
+          "url": "https://github.com/CCYellowStar2/dsh-astrbot-ingress"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "astrbot",
+            "onebot"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.25",
+            "publishTimestamp": 1794134089,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0458d8e19022d28706e29cea0afe274fb543f5f96095b96c9ee6f6011cdb345d",
+      "evidence": [
+        {
+          "name": "dsh-astrbot-ingress",
+          "version": "0.3.25",
+          "tarball": "https://registry.npmjs.org/dsh-astrbot-ingress/-/dsh-astrbot-ingress-0.3.25.tgz",
+          "integrity": "sha512-0Rtas547WAOYn43Igyv5CTcja59DNGVXkG7gQL0diiSJ8CPjjzpA9D0PPuiecq0sHHoROfqRDN2G3oWEcVEfdA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/CCYellowStar2/dsh-astrbot-ingress",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-astrbot-ingress",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CCYellowStar2/dsh-astrbot-ingress",
+    "commit": "e8a3d23e0f1f7b40799955968a61717fad886927",
+    "releaseTags": 25,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:30.839Z"
+}

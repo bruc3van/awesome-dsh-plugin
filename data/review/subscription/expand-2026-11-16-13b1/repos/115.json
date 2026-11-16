@@ -1,0 +1,140 @@
+{
+  "full_name": "SaiSenBox/dsh-prompt-manager",
+  "originalPosition": 115,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 115,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:12.228Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e432fa250eb02a49890ce722d565156d88d4daa974203c66650351de93f18396",
+      "url": "https://github.com/SaiSenBox/dsh-prompt-manager/blob/1feb325b0cd7841dbc65359e63b0a850da2a1c21/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-manager",
+          "command": "dsh plugin --profile web add dsh-prompt-manager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "75345dfa2ac8b5e7df936f2c8936c7225cb00275b64804428b8cf930b9c6e2d2",
+      "url": "https://github.com/SaiSenBox/dsh-prompt-manager/blob/1feb325b0cd7841dbc65359e63b0a850da2a1c21/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-manager",
+          "command": "dsh plugin --profile web add dsh-prompt-manager",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-manager",
+      "version": "1.5.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SaiSenBox/dsh-prompt-manager",
+        "commit": "1feb325b0cd7841dbc65359e63b0a850da2a1c21"
+      },
+      "manifestSha256": "7604af093d9edca3667ced69aea7253532c43defa243fc306459977da9266033",
+      "manifestUrl": "https://github.com/SaiSenBox/dsh-prompt-manager/blob/1feb325b0cd7841dbc65359e63b0a850da2a1c21/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-prompt-manager",
+        "versions": [
+          {
+            "version": "1.5.3",
+            "publishTimestamp": 1794674196,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SaiSenBox/dsh-prompt-manager",
+              "commit": "1feb325b0cd7841dbc65359e63b0a850da2a1c21"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-prompt-manager",
+      "origin": "npm",
+      "name": "dsh-prompt-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-prompt-manager",
+        "title": "dsh-prompt-manager",
+        "description": "A local, bilingual prompt library with session-level system prompt injection for DeepSeek Harness Web.",
+        "author": "SaiSenBox",
+        "homepage": "https://github.com/SaiSenBox/dsh-prompt-manager#readme",
+        "repository": {
+          "url": "https://github.com/SaiSenBox/dsh-prompt-manager"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "prompt-manager",
+            "prompt-library"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.5.3",
+            "publishTimestamp": 1794674720,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "21d2f8d37557dc05acd835262440d9dc2ab9d30f756e8838f1501c5c5fbf0d0a",
+      "evidence": [
+        {
+          "name": "dsh-prompt-manager",
+          "version": "1.5.3",
+          "tarball": "https://registry.npmjs.org/dsh-prompt-manager/-/dsh-prompt-manager-1.5.3.tgz",
+          "integrity": "sha512-8fr8z02hsKS7EWSCbpLFc42+i4b+wyIDeGT5f7Mv3PJnG3rH97yggTTxK3k/CYv7HnSoiEpx2pjFxRTh4uUCOg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-prompt-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SaiSenBox/dsh-prompt-manager",
+    "commit": "1feb325b0cd7841dbc65359e63b0a850da2a1c21",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:22.557Z"
+}

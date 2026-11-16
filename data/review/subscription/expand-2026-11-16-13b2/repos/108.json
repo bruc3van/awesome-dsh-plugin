@@ -1,0 +1,225 @@
+{
+  "full_name": "heartmove/dsh-session-bridge",
+  "originalPosition": 108,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 108,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:06.680Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "081b526c61909c5ff19e01ac75e01697d84df65369c950999cb60cb99575a022",
+      "url": "https://github.com/heartmove/dsh-session-bridge/blob/f1b3d2b04b0340c31131d088fd40574575a6a348/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-session-bridge",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-session-bridge",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/heartmove/dsh-session-bridge",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:heartmove/dsh-session-bridge",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-session-bridge@alpha",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-session-bridge@alpha",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e04f97eb4d07a20eaa70fb01cda6d4d717df9e55f1e362e352e7faff02dd8314",
+      "url": "https://github.com/heartmove/dsh-session-bridge/blob/f1b3d2b04b0340c31131d088fd40574575a6a348/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-session-bridge",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-session-bridge",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/heartmove/dsh-session-bridge",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add github:heartmove/dsh-session-bridge",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-session-bridge@alpha",
+          "command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add dsh-session-bridge@alpha",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-bridge",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/heartmove/dsh-session-bridge",
+        "commit": "f1b3d2b04b0340c31131d088fd40574575a6a348"
+      },
+      "manifestSha256": "f542e0d96c0afc95cd75e0cd72aacde6e4b3d3226374fe9ad20b43c4f04410d5",
+      "manifestUrl": "https://github.com/heartmove/dsh-session-bridge/blob/f1b3d2b04b0340c31131d088fd40574575a6a348/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-session-bridge",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1793702116,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/heartmove/dsh-session-bridge",
+              "commit": "f1b3d2b04b0340c31131d088fd40574575a6a348"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-session-bridge",
+      "origin": "npm",
+      "name": "dsh-session-bridge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-session-bridge",
+        "title": "dsh-session-bridge",
+        "description": "会话桥（dsh-session-bridge）：通过提示词创建新的主会话（顶层 UI 会话）、向任意会话发送消息、等待会话的下一条回复、读取会话消息，并按会话名或 id 跨工作区查找会话；此外支持监控/调度主任务（含思维链循环检测 → 自动中断并把任务转移到新会话）、子代理处置与归档/取消归档会话。",
+        "homepage": "https://github.com/heartmove/dsh-session-bridge#readme",
+        "repository": {
+          "url": "https://github.com/heartmove/dsh-session-bridge"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "plugin",
+            "session",
+            "session-bridge",
+            "bridge"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1793702401,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "89eff611d86628fa2ce68d9d68b88fec56848f30d3879685fb567e6f6479b486",
+      "evidence": [
+        {
+          "name": "dsh-session-bridge",
+          "version": "0.8.0",
+          "tarball": "https://registry.npmjs.org/dsh-session-bridge/-/dsh-session-bridge-0.8.0.tgz",
+          "integrity": "sha512-fVaetn8RmfBjib0Xkfol7/kGwcWVLAT1zUUFgQNfb3oCAid00OhjA9+SzxXHzdNpoZalAaA0Puuzb57rrSa/lA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-session-bridge@alpha",
+      "origin": "npm",
+      "name": "dsh-session-bridge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-session-bridge",
+        "title": "dsh-session-bridge",
+        "description": "会话桥（dsh-session-bridge）：通过提示词创建新的主会话（顶层 UI 会话）、向任意会话发送消息、等待会话的下一条回复、读取会话消息，并按会话名或 id 跨工作区查找会话；此外支持监控/调度主任务与归档会话。",
+        "homepage": "https://github.com/heartmove/dsh-session-bridge#readme",
+        "repository": {
+          "url": "https://github.com/heartmove/dsh-session-bridge"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "plugin",
+            "session",
+            "session-bridge",
+            "bridge"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.3-alpha.1",
+            "publishTimestamp": 1790063037,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "89eff611d86628fa2ce68d9d68b88fec56848f30d3879685fb567e6f6479b486",
+      "evidence": [
+        {
+          "name": "dsh-session-bridge",
+          "version": "0.3.3-alpha.1",
+          "tarball": "https://registry.npmjs.org/dsh-session-bridge/-/dsh-session-bridge-0.3.3-alpha.1.tgz",
+          "integrity": "sha512-SorZQnMaDlDr6j3oHkvKxL9v29Rh2KQWBLq8SrRcCZCliYP9nUlmbcwMMhxZ3GHTjVFsOlUkC1NwXlxIiyIwAg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-session-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/heartmove/dsh-session-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-session-bridge@alpha",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/heartmove/dsh-session-bridge",
+    "commit": "f1b3d2b04b0340c31131d088fd40574575a6a348",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:19.103Z"
+}

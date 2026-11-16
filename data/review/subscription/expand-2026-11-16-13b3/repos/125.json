@@ -1,0 +1,77 @@
+{
+  "full_name": "viztor/dsh-opencode-patch",
+  "originalPosition": 125,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 125,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:35.500Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6299deb43c181bae3dbdcdbd41adf9b6e5e55369bcb7ee692cd072cb24240d18",
+      "url": "https://github.com/viztor/dsh-opencode-patch/blob/65a4540a80e7fa00cf1d55ab337415632a5e7b11/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "65041764d4da4fb45eabef4f9609320a53ead72728f5e1febeb23a3484741f8f",
+      "url": "https://github.com/viztor/dsh-opencode-patch/blob/65a4540a80e7fa00cf1d55ab337415632a5e7b11/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-opencode-patch",
+      "version": "1.9.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/viztor/dsh-opencode-patch",
+        "commit": "65a4540a80e7fa00cf1d55ab337415632a5e7b11"
+      },
+      "manifestSha256": "babcee07d4fb7d280dbfdaae29ada751734cfff7a5a3f018c34b687817635b38",
+      "manifestUrl": "https://github.com/viztor/dsh-opencode-patch/blob/65a4540a80e7fa00cf1d55ab337415632a5e7b11/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-alpha.1 <0.3.0 || >=0.2.2-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-opencode-patch",
+        "versions": [
+          {
+            "version": "1.9.2",
+            "publishTimestamp": 1794796024,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/viztor/dsh-opencode-patch",
+              "commit": "65a4540a80e7fa00cf1d55ab337415632a5e7b11"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.1 <0.3.0 || >=0.2.2-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/viztor/dsh-opencode-patch",
+    "commit": "65a4540a80e7fa00cf1d55ab337415632a5e7b11",
+    "releaseTags": 46,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:47.514Z"
+}

@@ -1,0 +1,123 @@
+{
+  "full_name": "Better-Rain/dsh-plugin-photoshop",
+  "originalPosition": 104,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 104,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:06:45.336Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1de88be1987a16d9abbd9df3e16f4733cdbac5c991748fd6301b8fc16f76232c",
+      "url": "https://github.com/Better-Rain/dsh-plugin-photoshop/blob/6cb817c1f08632d05a8dc91442cd8cf207284198/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/better-rain/dsh-plugin-photoshop",
+          "command": "dsh plugin --profile web add github:better-rain/dsh-plugin-photoshop",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-photoshop",
+          "command": "dsh plugin --profile web add dsh-plugin-photoshop",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/better-rain/dsh-plugin-photoshop",
+          "command": "dsh plugin --profile tui add github:better-rain/dsh-plugin-photoshop",
+          "profile": "tui"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "31c155cf93f5a2b4a4e32b1fdcda06f94868c1fa79d1d0914d10a4fedce7cc42",
+      "url": "https://github.com/Better-Rain/dsh-plugin-photoshop/blob/6cb817c1f08632d05a8dc91442cd8cf207284198/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/better-rain/dsh-plugin-photoshop",
+          "command": "dsh plugin --profile web add github:better-rain/dsh-plugin-photoshop",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-plugin-photoshop",
+          "command": "dsh plugin --profile web add dsh-plugin-photoshop",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/better-rain/dsh-plugin-photoshop",
+          "command": "dsh plugin --profile tui add github:better-rain/dsh-plugin-photoshop",
+          "profile": "tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-photoshop",
+      "version": "1.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Better-Rain/dsh-plugin-photoshop",
+        "commit": "6cb817c1f08632d05a8dc91442cd8cf207284198"
+      },
+      "manifestSha256": "0a68047a6d4e8fa3d9530a213fe1212030b870fd2e4c1ae735f960efb885a8c2",
+      "manifestUrl": "https://github.com/Better-Rain/dsh-plugin-photoshop/blob/6cb817c1f08632d05a8dc91442cd8cf207284198/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-photoshop",
+        "versions": [
+          {
+            "version": "1.6.1",
+            "publishTimestamp": 1789446415,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Better-Rain/dsh-plugin-photoshop",
+              "commit": "6cb817c1f08632d05a8dc91442cd8cf207284198"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-photoshop",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/better-rain/dsh-plugin-photoshop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-photoshop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Better-Rain/dsh-plugin-photoshop",
+    "commit": "6cb817c1f08632d05a8dc91442cd8cf207284198",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:06:55.731Z"
+}

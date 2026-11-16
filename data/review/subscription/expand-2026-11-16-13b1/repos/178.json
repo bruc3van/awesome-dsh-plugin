@@ -1,0 +1,149 @@
+{
+  "full_name": "Jannchie/dsh-bill",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:20.965Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3f1292ece5141b4cf328ebb1598fbf32e815acff6a2688d202e6560c7886f815",
+      "url": "https://github.com/Jannchie/dsh-bill/blob/14f859db6955eb11d505703e47728f3398347d9f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bill",
+          "command": "dsh plugin --profile web add dsh-bill",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c075700d2de7659d7654a98403853e75ac50fb98627ebc9611b93fb6960937fe",
+      "url": "https://github.com/Jannchie/dsh-bill/blob/14f859db6955eb11d505703e47728f3398347d9f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bill",
+          "command": "dsh plugin --profile web add dsh-bill",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bill",
+      "version": "0.23.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jannchie/dsh-bill",
+        "commit": "14f859db6955eb11d505703e47728f3398347d9f"
+      },
+      "manifestSha256": "b7f1d4e1d25c012200d11261da0c623c4251ed86846c91c3772f21e1dd876dc3",
+      "manifestUrl": "https://github.com/Jannchie/dsh-bill/blob/14f859db6955eb11d505703e47728f3398347d9f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-bill",
+        "versions": [
+          {
+            "version": "0.23.1",
+            "publishTimestamp": 1792726619,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jannchie/dsh-bill",
+              "commit": "14f859db6955eb11d505703e47728f3398347d9f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-bill",
+      "origin": "npm",
+      "name": "dsh-bill",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bill",
+        "title": {
+          "en": "Cost",
+          "zh": "费用统计"
+        },
+        "description": {
+          "en": "What each turn and session costs, a budget, and an account-wide cost report, priced by llm-pricing.",
+          "zh": "每轮与每个会话花了多少、预算，以及全账户费用报告；价格来自 llm-pricing。"
+        },
+        "author": "Jannchie",
+        "homepage": "https://github.com/Jannchie/dsh-bill#readme",
+        "repository": {
+          "url": "https://github.com/Jannchie/dsh-bill"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "cost",
+            "usage",
+            "token",
+            "pricing",
+            "dashboard"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.23.1",
+            "publishTimestamp": 1792726724,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9e4a298a71bcdc17028d6a764509a21369e2a2fa584b1c42da224f2698a1c8b6",
+      "evidence": [
+        {
+          "name": "dsh-bill",
+          "version": "0.23.1",
+          "tarball": "https://registry.npmjs.org/dsh-bill/-/dsh-bill-0.23.1.tgz",
+          "integrity": "sha512-/WZ/xCMlHSWCxZzbVl0auezp+41hCS7YigXIbGiyr2a8gAX/x3Zpxqe31tMMNrFFyce8lmBqoNyimOm1oIcf5A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-bill",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jannchie/dsh-bill",
+    "commit": "14f859db6955eb11d505703e47728f3398347d9f",
+    "releaseTags": 25,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:34.420Z"
+}

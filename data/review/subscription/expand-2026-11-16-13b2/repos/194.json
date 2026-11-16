@@ -1,0 +1,92 @@
+{
+  "full_name": "hyqhyq3/dsh-gemini-oauth-bridge",
+  "originalPosition": 194,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 194,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:22.791Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f5c3b3e36e73372d25192eaeba4b089fa03e515ca9fbea3a00b3ebc1c5e388b2",
+      "url": "https://github.com/hyqhyq3/dsh-gemini-oauth-bridge/blob/d63023fd014bf1cf2049384e78f1a81cfc498985/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/hyqhyq3/dsh-gemini-oauth-bridge",
+          "command": "dsh plugin --profile web add github:hyqhyq3/dsh-gemini-oauth-bridge",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "3eb2f89a69601292e6d93b3d19d41612ea77a4e98b703d082dfcaad1a63304b8",
+      "url": "https://github.com/hyqhyq3/dsh-gemini-oauth-bridge/blob/d63023fd014bf1cf2049384e78f1a81cfc498985/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/hyqhyq3/dsh-gemini-oauth-bridge",
+          "command": "dsh plugin --profile web add github:hyqhyq3/dsh-gemini-oauth-bridge",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-gemini-oauth-bridge",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hyqhyq3/dsh-gemini-oauth-bridge",
+        "commit": "d63023fd014bf1cf2049384e78f1a81cfc498985"
+      },
+      "manifestSha256": "206da00e66eed7f1bd099243da091012471c42b32ee9fc632c02c589a71c660c",
+      "manifestUrl": "https://github.com/hyqhyq3/dsh-gemini-oauth-bridge/blob/d63023fd014bf1cf2049384e78f1a81cfc498985/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-gemini-oauth-bridge",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1794189444,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hyqhyq3/dsh-gemini-oauth-bridge",
+              "commit": "d63023fd014bf1cf2049384e78f1a81cfc498985"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/hyqhyq3/dsh-gemini-oauth-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hyqhyq3/dsh-gemini-oauth-bridge",
+    "commit": "d63023fd014bf1cf2049384e78f1a81cfc498985",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:33.213Z"
+}

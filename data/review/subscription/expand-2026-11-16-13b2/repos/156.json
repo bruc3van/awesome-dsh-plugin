@@ -1,0 +1,92 @@
+{
+  "full_name": "MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider",
+  "originalPosition": 156,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 156,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:53.836Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "350828f756c903fa62c82052cc0d78a49f2f79f14cac2ea9d2a710def084fb67",
+      "url": "https://github.com/MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider/blob/f1aa4b4728725076f70d3dc21c9d95ca281b30d7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider",
+          "command": "dsh plugin --profile web add github:MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "dbb472d18a9757a1753bb76a681db827dc59d18b3bff792c575f9b777d8be3af",
+      "url": "https://github.com/MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider/blob/f1aa4b4728725076f70d3dc21c9d95ca281b30d7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider",
+          "command": "dsh plugin --profile web add github:MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-client-ui-effort-slider",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider",
+        "commit": "f1aa4b4728725076f70d3dc21c9d95ca281b30d7"
+      },
+      "manifestSha256": "01431f624226381371e1142c10f00d5d5f177ceec36cf785d2fd2c351ebf6eb1",
+      "manifestUrl": "https://github.com/MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider/blob/f1aa4b4728725076f70d3dc21c9d95ca281b30d7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-client-ui-effort-slider",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1786976133,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider",
+              "commit": "f1aa4b4728725076f70d3dc21c9d95ca281b30d7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MEMZ-JZY/DSH-Claude-Style-Reasoning-Slider",
+    "commit": "f1aa4b4728725076f70d3dc21c9d95ca281b30d7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:03.090Z"
+}

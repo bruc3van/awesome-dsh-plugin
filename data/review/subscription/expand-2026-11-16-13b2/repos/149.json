@@ -1,0 +1,154 @@
+{
+  "full_name": "HorusJiang/dsh-map-tools",
+  "originalPosition": 149,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 149,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:41.620Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c358df2feaba3d11c18494ae2716e2992051a5a7b7dbbd5c5ecd00eb63672900",
+      "url": "https://github.com/HorusJiang/dsh-map-tools/blob/104bb3d00af5f5e5fe963b7d1454ffc0128ba7bc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-map-tools",
+          "command": "dsh plugin --profile web add dsh-map-tools",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-map-tools",
+          "command": "dsh plugin --profile desktop add dsh-map-tools",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/HorusJiang/dsh-map-tools",
+          "command": "dsh plugin --profile web add github:HorusJiang/dsh-map-tools",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-map-tools",
+      "version": "0.7.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HorusJiang/dsh-map-tools",
+        "commit": "104bb3d00af5f5e5fe963b7d1454ffc0128ba7bc"
+      },
+      "manifestSha256": "7baba0c83bddf0add296f6157501d01b99bcbfbd1d86a7bf66bb9dcca194456f",
+      "manifestUrl": "https://github.com/HorusJiang/dsh-map-tools/blob/104bb3d00af5f5e5fe963b7d1454ffc0128ba7bc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-map-tools",
+        "versions": [
+          {
+            "version": "0.7.3",
+            "publishTimestamp": 1792640956,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HorusJiang/dsh-map-tools",
+              "commit": "104bb3d00af5f5e5fe963b7d1454ffc0128ba7bc"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-map-tools",
+      "origin": "npm",
+      "name": "dsh-map-tools",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-map-tools",
+        "title": "dsh-map-tools",
+        "description": "Map & routing tools for DeepSeek Harness: driving/transit/walking/bicycling route planning, geocoding, reverse geocoding and POI search via Amap (高德) or free OSM/OSRM.",
+        "author": "HorusJiang",
+        "homepage": "https://github.com/HorusJiang/dsh-map-tools#readme",
+        "repository": {
+          "url": "https://github.com/HorusJiang/dsh-map-tools"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "map",
+            "routing",
+            "path-planning",
+            "geocoding",
+            "amap",
+            "gaode",
+            "osm",
+            "osrm"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1tYXAtdG9vbHMiPgogIDwhLS0g5bCP56+G44CM5b6E44CN4oCUIHRoZSB0cmFjZWQgb3V0bGluZSBjYXJyaWVkIGluIGFzc2V0cy9iYW5uZXIuc3ZnIGZvciB0aGUgbGluZQogICAgICAg44CM5rmW5bGx5Y2D6YeMIMK3IOS4gOW+hOebuOmAmuOAjSwgY2xlYW5lZCB0byBvbmUgbm9uLW92ZXJsYXBwaW5nIHBhdGguIC0tPgogIDxwYXRoIGQ9Ik0xMy44IDAuNzJMMTMuNzMgMC44NUwxMy42NCAzLjExTDEzLjUyIDcuNDlMMTIuNiAxMC41N0wxMC44NiAxMi4zNkw5Ljk5IDEzLjMxTDkuOTcgMTMuNDNMOS45OSAxMy41MUwxMC4wNCAxMy41NkwxMC4xNCAxMy41N0wxMC4yOSAxMy41NEwxMS4xOCAxMi45NkwxMi44MiAxMS44NUwxMy44NCAxMS4wNEwxNC4yNyAxMC41NEwxNC40NCA4LjAyTDE0LjM3IDMuNDlMMTQuMjcgMS4wOUwxNC4xNCAwLjgyTDE0LjAzIDAuNjdMMTMuOTQgMC42NkwxMy44OSAwLjY1TDEzLjg1IDAuNjVaTTE3IDUuODRMMTYuNjcgNS45TDE2LjQ5IDYuMDFMMTYuNDcgNi4xNEwxNi40NCA2LjIyTDE2LjM5IDYuMjZMMTYuMzcgNi4zM0wxNi4zOSA2LjQ1TDE2LjQ1IDYuNTJMMTYuNTUgNi41NEwxNi42MiA2LjU4TDE2LjY3IDYuNjVMMTYuOTYgNi43TDE3LjQ4IDYuNzNMMTguMTEgNy4wOEwxOC44MyA3Ljc2TDE5LjE5IDguMjZMMTkuMTkgOC42TDE4Ljg4IDkuMTVMMTguMjYgOS45MUwxNy44MiAxMC43M0wxNy41NyAxMS42MkwxNy40NCAxMi4xNUwxNy40NCAxMi4zTDE3LjY4IDEyLjc5TDE4LjE3IDEzLjY0TDE4Ljc0IDE0LjMxTDE5LjM4IDE0LjgyTDE5LjY2IDE1LjA5TDE5LjYgMTUuMTRMMTkuMDUgMTUuMjJMMTguMDIgMTUuMzJMMTcuNDYgMTUuNDVMMTcuMzYgMTUuNkwxNy4zMSAxNS43M0wxNy4zMSAxNS44M0wxNy4zMyAxNS45TDE3LjM4IDE1Ljk1TDE3LjUyIDE1Ljk5TDE3Ljc0IDE2TDE4LjU4IDE2LjA0TDIwLjA0IDE2LjA5TDIwLjgzIDE2LjE2TDIwLjkzIDE2LjI2TDIwLjk4IDE5LjIzTDIwLjk4IDI1LjA2TDIwLjI3IDI4LjAxTDE4Ljg2IDI4LjA3TDE3LjkxIDI4LjIxTDE3LjQ0IDI4LjQxTDE3LjIgMjguNTdMMTcuMTggMjguNjlMMTcuMiAyOC43N0wxNy4yNSAyOC44MkwxOS40NSAyOC44NUwyMy44MiAyOC44NUwyNi4wMiAyOC43OEwyNi4wNyAyOC42NUwyNS44OSAyOC40NkwyNS40NyAyOC4yM0wyNC4zOCAyOC4xNEwyMi42MyAyOC4yMUwyMS42OSAyOC4xOUwyMS41NSAyOC4wOUwyMS41NCAyNy42NEwyMS42NiAyNi44M0wyMS42OSAyMy45TDIxLjYyIDE4Ljg0TDIxLjY0IDE2LjI2TDIxLjc0IDE2LjE2TDIxLjg0IDE2LjFMMjEuOTQgMTYuMDlMMjIuODUgMTYuMDNMMjQuNTcgMTUuOTNMMjUuNTIgMTUuODRMMjUuNyAxNS43OEwyNS43OCAxNS42OEwyNS43NSAxNS41NEwyNS4xMiAxNS4xMUwyMy45MSAxNC4zOUwyMy4wNCAxMy43MkwyMi41MiAxMy4xMUwyMi4yMyAxMi4zNEwyMi4xOCAxMS40TDIyLjUzIDEwLjQyTDIzLjI3IDkuNDFMMjMuNTcgOC40OUwyMy40NCA3LjY3TDIzLjI1IDcuMTNMMjMuMDIgNi45TDIzLjI0IDYuNzZMMjMuOTEgNi43M0wyNC4yNyA2LjY5TDI0LjMyIDYuNjRMMjQuMzQgNi41NUwyNC4zMiA2LjQ0TDI0LjM2IDYuMzhMMjQuNDQgNi4zOEwyNC41IDYuNDRMMjQuNTMgNi41NUwyNC42MSA2LjYyTDI0LjczIDYuNjRMMjQuODQgNi41NkwyNC45NiA2LjM5TDI1LjAyIDYuMjdMMjUuMDIgNi4xOEwyNC45MyA2LjA4TDI0Ljc0IDUuOTZMMjMuMDkgNS44OEwxOS45OCA1LjgzTDE4LjM5IDUuODNMMTguMzQgNS44OEwxOC4zNCA1Ljk3TDE4LjM5IDYuMTFMMTkuNTUgNi4yMUwyMS44MyA2LjI4TDIyLjgzIDYuMzJMMjIuNTYgNi4zM0wyMi4zOCA2LjM5TDIyLjI4IDYuNDlMMjIuMTYgNi40OUwyMi4wMiA2LjM5TDIxLjUzIDYuMzRMMjAuNjcgNi4zNEwyMC4xNyA2LjM5TDIwLjAzIDYuNDlMMTkuOTIgNi40OUwxOS44MiA2LjM5TDE5LjQgNi4zNEwxOC42OCA2LjM0TDE4LjI5IDYuMzdMMTguMjQgNi40MkwxOC4xNSA2LjQ0TDE4LjAxIDYuNDRMMTcuOSA2LjQxTDE3LjgyIDYuMzRMMTcuNjggNi4zTDE3LjUgNi4yOEwxNy40NSA2LjIyTDE3LjUzIDYuMTJMMTcuNTggNi4wM0wxNy41OCA1Ljk1TDE3LjU1IDUuODhMMTcuNSA1LjgzTDE3LjQyIDUuOEwxNy4zIDUuOEwxNy4yMiA1LjhMMTcuMTkgNS44Wk0xOS4wNSA2Ljc5TDE5LjU3IDYuODdMMjAuMDkgNy4xNkwyMC42MiA3LjY1TDIwLjg5IDhMMjAuOTMgOC4yMkwyMC44NSA4LjU0TDIwLjY3IDguOTZMMjAuMjMgOS42MkwxOS41NCAxMC41MUwxOS4xOSAxMS4zTDE5LjE5IDExLjk5TDE5LjM3IDEyLjY2TDE5LjcyIDEzLjNMMjAuMzMgMTRMMjEuMTkgMTQuNzZMMjEuNDQgMTUuMTVMMjEuMDkgMTUuMTlMMjAuMzUgMTQuNzRMMTkuMjQgMTMuODFMMTguNiAxMi45TDE4LjQzIDExLjk5TDE4Ljc1IDEwLjkxTDE5LjU2IDkuNjZMMTkuOTcgOC44M0wxOS45NyA4LjQxTDE5Ljg2IDcuOThMMTkuNjQgNy41NEwxOS4zNCA3LjE5TDE4Ljk1IDYuOTJMMTguNzYgNi43N0wxOC43OCA2Ljc2Wk0yMS4wNiA2Ljc5TDIxLjcgNi44N0wyMi4yNSA3LjEzTDIyLjcgNy41NUwyMi45NSA3Ljg5TDIyLjk4IDguMTZMMjIuOTIgOC40N0wyMi43NSA4LjhMMjIuMzEgOS40M0wyMS42IDEwLjM0TDIxLjI1IDExLjE4TDIxLjI1IDExLjk1TDIxLjQ5IDEyLjczTDIxLjk4IDEzLjVMMjIuNjEgMTQuMkwyMy4zOSAxNC44MkwyMy41NiAxNS4xNUwyMy4xMiAxNS4xOUwyMi44IDE1LjE1TDIyLjYgMTUuMDVMMjEuOTYgMTQuNTJMMjAuODggMTMuNTZMMjAuMjggMTIuNjFMMjAuMTYgMTEuNjdMMjAuNDcgMTAuNjZMMjEuMjEgOS42TDIxLjU1IDguNjhMMjEuNDggNy45MUwyMS4yNiA3LjM1TDIwLjg3IDcuMDJMMjAuNjggNi44M0wyMC43IDYuOEwyMC43MiA2Ljc3TDIwLjczIDYuNzZaTTEzLjQ2IDEzLjQzTDExLjY5IDE1LjI2TDEwLjgxIDE2LjI0TDEwLjgzIDE2LjM2TDEwLjkxIDE2LjQyTDExLjA2IDE2LjQyTDExLjg2IDE1Ljg0TDEzLjMxIDE0LjY3TDE0LjEgMTQuMTFMMTQuMjEgMTQuMTRMMTQuMjcgMTQuMjNMMTQuMjcgMTQuMzlMMTQuMTcgMTYuODdMMTMuOTcgMjEuNjlMMTMuNTMgMjUuNTJMMTIuODYgMjguMzdMMTIuMDMgMzEuMDZMMTEuMDYgMzMuNjFMMTAuNTcgMzQuOThMMTAuNTcgMzUuMThMMTAuNTkgMzUuMzFMMTAuNjQgMzUuMzZMMTAuNzQgMzUuMzhMMTAuODcgMzUuMzZMMTEuMDEgMzUuMjVMMTEuMTcgMzUuMDVMMTEuNyAzMy43NkwxMi42MyAzMS4zOEwxMy41MSAyOC40OUwxNC4zMyAyNS4wN0wxNC44MSAyMS4wNUwxNC45NSAxNi40M0wxNC45MiAxMy43NUwxNC43NCAxMy4wMUwxNC41OSAxMi42MUwxNC40NyAxMi41NEwxNC4zOSAxMi41MUwxNC4zNiAxMi41MVoiIGZpbGw9IiNCMzMzMjUiIGZpbGwtcnVsZT0ibm9uemVybyIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.7.3",
+            "publishTimestamp": 1790779914,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6e83612b4f5e074045d1462648fee38e8ff60517eb2343c65bc83ba7188f9939",
+      "evidence": [
+        {
+          "name": "dsh-map-tools",
+          "version": "0.7.3",
+          "tarball": "https://registry.npmjs.org/dsh-map-tools/-/dsh-map-tools-0.7.3.tgz",
+          "integrity": "sha512-QMkpKqVL7AQDkFb/2ZWwNVw6R4ljA7Uh7QD/h+vMbgSpGpFx2cptD5h9gawCT3erTjuXfqzDTjzx5/amI4grwQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-map-tools",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/HorusJiang/dsh-map-tools",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HorusJiang/dsh-map-tools",
+    "commit": "104bb3d00af5f5e5fe963b7d1454ffc0128ba7bc",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:50.724Z"
+}

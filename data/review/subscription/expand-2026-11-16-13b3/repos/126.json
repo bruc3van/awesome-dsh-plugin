@@ -1,0 +1,133 @@
+{
+  "full_name": "weibaohui/dsh-continue",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:37.911Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "09a5c005c5b6ad624a2eee6109cb609bb99a5e9a9f765934a344274a49625e73",
+      "url": "https://github.com/weibaohui/dsh-continue/blob/78a08d05b10a288bb30ace7408556e68113d0a7d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@weibaohui/dsh-continue",
+          "command": "dsh plugin --profile web add @weibaohui/dsh-continue -w",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@weibaohui/dsh-continue",
+      "version": "0.3.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weibaohui/dsh-continue",
+        "commit": "78a08d05b10a288bb30ace7408556e68113d0a7d"
+      },
+      "manifestSha256": "c92e5012a4820a6b6e29d193137a1e6bfbdffcc9a09d0f1b6f0deb2b9b1efba5",
+      "manifestUrl": "https://github.com/weibaohui/dsh-continue/blob/78a08d05b10a288bb30ace7408556e68113d0a7d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@weibaohui/dsh-continue",
+        "versions": [
+          {
+            "version": "0.3.12",
+            "publishTimestamp": 1793200024,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/weibaohui/dsh-continue",
+              "commit": "78a08d05b10a288bb30ace7408556e68113d0a7d"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@weibaohui/dsh-continue",
+      "origin": "npm",
+      "name": "@weibaohui/dsh-continue",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@weibaohui/dsh-continue",
+        "title": "@weibaohui/dsh-continue",
+        "description": "dsh 插件 · 自动续跑：agent 会话中断后自动帮你续上，不用手敲「继续」。有序规则表按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由——自动退避重试、换模型继续、压缩上下文后继续或止损通知，规则可视化编辑，全程活动日志。",
+        "homepage": "https://github.com/weibaohui/dsh-continue#readme",
+        "repository": {
+          "url": "https://github.com/weibaohui/dsh-continue"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "auto-continue",
+            "resume",
+            "retry"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.12",
+            "publishTimestamp": 1793237603,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "dfbc82c1ce5d219eee9c3fbcce9e338459d1667aa7abc10e6cdc4a6a823cca17",
+      "evidence": [
+        {
+          "name": "@weibaohui/dsh-continue",
+          "version": "0.3.12",
+          "tarball": "https://registry.npmjs.org/@weibaohui/dsh-continue/-/dsh-continue-0.3.12.tgz",
+          "integrity": "sha512-XvRnIMEGboyvN70qEiEeUSgfTMD7dw5L8oAQMI+mJSYixUWpOOX9I1TiLNK/XDeA02icteW4J6DcZj0jC9eEAQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@weibaohui/dsh-continue",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/weibaohui/dsh-continue",
+    "commit": "78a08d05b10a288bb30ace7408556e68113d0a7d",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:47.711Z"
+}

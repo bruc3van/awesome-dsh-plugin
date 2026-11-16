@@ -1,0 +1,126 @@
+{
+  "full_name": "240xu/dsh-message-ops",
+  "originalPosition": 135,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 135,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:12.673Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d36c9efcb0c822ff91deb358071698cf98cdab555ab572388070f05109c6aecf",
+      "url": "https://github.com/240xu/dsh-message-ops/blob/06c3a83f383db91277b6deccb41ce6844695d78c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@240xu/dsh-message-ops",
+          "command": "dsh plugin --profile web add @240xu/dsh-message-ops",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@240xu/dsh-message-ops",
+      "version": "0.24.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/240xu/dsh-message-ops",
+        "commit": "06c3a83f383db91277b6deccb41ce6844695d78c"
+      },
+      "manifestSha256": "89afcdd2e6676cce20d42107b0c1d58a7fd0a9b8641da3c42dff95519b8f77d6",
+      "manifestUrl": "https://github.com/240xu/dsh-message-ops/blob/06c3a83f383db91277b6deccb41ce6844695d78c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@240xu/dsh-message-ops",
+        "versions": [
+          {
+            "version": "0.24.0",
+            "publishTimestamp": 1794656738,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/240xu/dsh-message-ops",
+              "commit": "06c3a83f383db91277b6deccb41ce6844695d78c"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@240xu/dsh-message-ops",
+      "origin": "npm",
+      "name": "@240xu/dsh-message-ops",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@240xu/dsh-message-ops",
+        "title": "@240xu/dsh-message-ops",
+        "description": "DSH web 插件：消息级回滚 / 删除 / 恢复 / 分叉 / 编辑重发（补 dsh 官方没有的部分）。",
+        "author": "240xu",
+        "repository": {
+          "url": "https://github.com/240xu/dsh-message-ops"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.24.0",
+            "publishTimestamp": 1794656979,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a223cca2d8dd8f8c50cbceec54e7ddec23f61fa375f5131dd212fc49fd68ca66",
+      "evidence": [
+        {
+          "name": "@240xu/dsh-message-ops",
+          "version": "0.24.0",
+          "tarball": "https://registry.npmjs.org/@240xu/dsh-message-ops/-/dsh-message-ops-0.24.0.tgz",
+          "integrity": "sha512-mB4XiU+J4BR76UtUR/WJazGjVVWnuM8q+Wg1DF1OqwUmxYWir6M6v85i6v4VC6e/cwQjPiOn9YP/Zy0ZSXb1IA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@240xu/dsh-message-ops",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/240xu/dsh-message-ops",
+    "commit": "06c3a83f383db91277b6deccb41ce6844695d78c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:23.111Z"
+}

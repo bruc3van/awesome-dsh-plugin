@@ -1,0 +1,81 @@
+{
+  "full_name": "liangdabiao/dsh-reddit-research",
+  "originalPosition": 101,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 101,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:24:53.428Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fc1537eb2f03cdd3cc31554d6e75bd5ea1e4e812d351457bc16a1ef3cd9e3f85",
+      "url": "https://github.com/liangdabiao/dsh-reddit-research/blob/c4058762e0a1d9b65093ed97aa4df064b70057ed/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/liangdabiao/dsh-reddit-research",
+          "command": "dsh plugin --profile web add https://github.com/liangdabiao/dsh-reddit-research",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-reddit-research",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liangdabiao/dsh-reddit-research",
+        "commit": "c4058762e0a1d9b65093ed97aa4df064b70057ed"
+      },
+      "manifestSha256": "f25dbe5b8bed4f43d4eaa5802f0ea291edd36b2fd53030d437fa1860df78fee9",
+      "manifestUrl": "https://github.com/liangdabiao/dsh-reddit-research/blob/c4058762e0a1d9b65093ed97aa4df064b70057ed/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-reddit-research",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1794794491,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liangdabiao/dsh-reddit-research",
+              "commit": "c4058762e0a1d9b65093ed97aa4df064b70057ed"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/liangdabiao/dsh-reddit-research",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liangdabiao/dsh-reddit-research",
+    "commit": "c4058762e0a1d9b65093ed97aa4df064b70057ed",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:01.196Z"
+}

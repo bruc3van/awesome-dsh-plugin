@@ -1,0 +1,144 @@
+{
+  "full_name": "wk544863858/dsh-plugin-magic-context",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:41.500Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8f25bc7a0872629687546d20858d62aae6590a80248d87eb24f970f481691b64",
+      "url": "https://github.com/wk544863858/dsh-plugin-magic-context/blob/8d4b6aa78995cc35c43fc0377dd58f171f0fbb9e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-magic-context",
+          "command": "dsh plugin --profile desktop add dsh-plugin-magic-context",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "996e4fe2f522c3d8f83afdc331e7f027acfee1432a870c80d843c86b9501e220",
+      "url": "https://github.com/wk544863858/dsh-plugin-magic-context/blob/8d4b6aa78995cc35c43fc0377dd58f171f0fbb9e/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-magic-context",
+          "command": "dsh plugin --profile desktop add dsh-plugin-magic-context",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-magic-context",
+      "version": "0.11.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wk544863858/dsh-plugin-magic-context",
+        "commit": "8d4b6aa78995cc35c43fc0377dd58f171f0fbb9e"
+      },
+      "manifestSha256": "86cb6af12b4279fbfe8bc40d3448bca21683627724936812ca39e3aae9ff450b",
+      "manifestUrl": "https://github.com/wk544863858/dsh-plugin-magic-context/blob/8d4b6aa78995cc35c43fc0377dd58f171f0fbb9e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-magic-context",
+        "versions": [
+          {
+            "version": "0.11.2",
+            "publishTimestamp": 1794384489,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wk544863858/dsh-plugin-magic-context",
+              "commit": "8d4b6aa78995cc35c43fc0377dd58f171f0fbb9e"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-magic-context",
+      "origin": "npm",
+      "name": "dsh-plugin-magic-context",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-magic-context",
+        "title": "dsh-plugin-magic-context",
+        "description": "Magic Context for DeepSeek Harness: reversible context reclaim, an out-of-band historian, an m[0]/m[1] baseline, project memories in the plugin's own corpus, and the compaction seam.",
+        "author": "wukai",
+        "homepage": "https://github.com/wk544863858/dsh-plugin-magic-context#readme",
+        "repository": {
+          "url": "https://github.com/wk544863858/dsh-plugin-magic-context"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "magic-context",
+            "context-management",
+            "context-compaction",
+            "memory",
+            "llm",
+            "ai-agent",
+            "typescript"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.11.2",
+            "publishTimestamp": 1794384751,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "bd8b6651055315dfce1b5ad23b604a3515a5e7894e085fb9093f39da478c2cf7",
+      "evidence": [
+        {
+          "name": "dsh-plugin-magic-context",
+          "version": "0.11.2",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-magic-context/-/dsh-plugin-magic-context-0.11.2.tgz",
+          "integrity": "sha512-PSfr4ZL0kr7SygQK56unwaSUcv2GMb9uG8zFbPbz6fIe3jqrw4mKQw9AHNyS9NgwX39w2wwPpSzjzEkDphm9+w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-magic-context",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wk544863858/dsh-plugin-magic-context",
+    "commit": "8d4b6aa78995cc35c43fc0377dd58f171f0fbb9e",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:01.762Z"
+}

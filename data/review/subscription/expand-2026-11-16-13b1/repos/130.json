@@ -1,0 +1,135 @@
+{
+  "full_name": "busabase/busabase-dsh-plugin",
+  "originalPosition": 130,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 130,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:55.850Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "53ef5be55e299329273911288a2b58a1c46cb9edc274b135fbd14f3bc824c45e",
+      "url": "https://github.com/busabase/busabase-dsh-plugin/blob/ae3455ecddea6f902db7f7eaead081b58a9d6783/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@busabase/dsh-plugin",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @busabase/dsh-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "534f490b232e5bd58388905bc64794db60810aa9bdd7693a370425b34373f984",
+      "url": "https://github.com/busabase/busabase-dsh-plugin/blob/ae3455ecddea6f902db7f7eaead081b58a9d6783/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@busabase/dsh-plugin",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @busabase/dsh-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@busabase/dsh-plugin",
+      "version": "0.1.23",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/busabase/busabase-dsh-plugin",
+        "commit": "ae3455ecddea6f902db7f7eaead081b58a9d6783"
+      },
+      "manifestSha256": "791eaa89ee894558a61e225844c7d24a2b87e88a883b414d3c99b92809db1b34",
+      "manifestUrl": "https://github.com/busabase/busabase-dsh-plugin/blob/ae3455ecddea6f902db7f7eaead081b58a9d6783/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@busabase/dsh-plugin",
+        "versions": [
+          {
+            "version": "0.1.23",
+            "publishTimestamp": 1793476491,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/busabase/busabase-dsh-plugin",
+              "commit": "ae3455ecddea6f902db7f7eaead081b58a9d6783"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@busabase/dsh-plugin",
+      "origin": "npm",
+      "name": "@busabase/dsh-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@busabase/dsh-plugin",
+        "title": "@busabase/dsh-plugin",
+        "description": "Busabase MCP, cards, and live inspector for DeepSeek Harness",
+        "homepage": "https://github.com/busabase/busabase-dsh-plugin#readme",
+        "repository": {
+          "url": "https://github.com/busabase/busabase-dsh-plugin"
+        },
+        "versions": [
+          {
+            "version": "0.1.23",
+            "publishTimestamp": 1793476872,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e6a4f5d08a3b6dd0b1fac0873753aa4194243350984d053a9822b9a3b5a662e7",
+      "evidence": [
+        {
+          "name": "@busabase/dsh-plugin",
+          "version": "0.1.23",
+          "tarball": "https://registry.npmjs.org/@busabase/dsh-plugin/-/dsh-plugin-0.1.23.tgz",
+          "integrity": "sha512-uoFi5YxvuqJxWkVbhYfdMJKJSMshmvx/w4RzzmZhQKAI7Ufl+ZtZ99XV8Tmf4/UgGvYojfmvTQjuM538qaWaOQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@busabase/dsh-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/busabase/busabase-dsh-plugin",
+    "commit": "ae3455ecddea6f902db7f7eaead081b58a9d6783",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:09.640Z"
+}

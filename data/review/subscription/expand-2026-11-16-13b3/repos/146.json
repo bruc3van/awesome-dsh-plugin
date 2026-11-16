@@ -1,0 +1,77 @@
+{
+  "full_name": "Big-Dao/dsh-plugin-wsl-env",
+  "originalPosition": 146,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 146,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:20.896Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "53b0b512a32f8c6b55903555d364775d4afd5f0477cb518c1801c2038aeb05ef",
+      "url": "https://github.com/Big-Dao/dsh-plugin-wsl-env/blob/525571f0c568b55b3e8657d0542264178aedc59f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.zh.md",
+      "sha256": "ae4200b8b96edcd2c65b493db0dd8f431890d46285b3f0d646f33a3f4db5195e",
+      "url": "https://github.com/Big-Dao/dsh-plugin-wsl-env/blob/525571f0c568b55b3e8657d0542264178aedc59f/docs/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-wsl-env",
+      "version": "0.26.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Big-Dao/dsh-plugin-wsl-env",
+        "commit": "525571f0c568b55b3e8657d0542264178aedc59f"
+      },
+      "manifestSha256": "d82fb370edc7ddb8dbe3aef28b0436b2039e4e33ae47b013aa616da0abae2e29",
+      "manifestUrl": "https://github.com/Big-Dao/dsh-plugin-wsl-env/blob/525571f0c568b55b3e8657d0542264178aedc59f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-wsl-env",
+        "versions": [
+          {
+            "version": "0.26.1",
+            "publishTimestamp": 1794795137,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Big-Dao/dsh-plugin-wsl-env",
+              "commit": "525571f0c568b55b3e8657d0542264178aedc59f"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Big-Dao/dsh-plugin-wsl-env",
+    "commit": "525571f0c568b55b3e8657d0542264178aedc59f",
+    "releaseTags": 45,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:30.299Z"
+}

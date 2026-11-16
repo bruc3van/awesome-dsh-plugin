@@ -1,0 +1,159 @@
+{
+  "full_name": "MeteorNOX/dsh-whale-bongo",
+  "originalPosition": 185,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 185,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:34.426Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5f5df30b5a799244b4f563fbef881db4205152c800db7ded5d71dd4fd5c9d19c",
+      "url": "https://github.com/MeteorNOX/dsh-whale-bongo/blob/09835ef1e29829d6fd01b0c7bced6498d13d8e5f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-whale-bongo@0.3.5",
+          "command": "dsh plugin --profile web add dsh-whale-bongo@0.3.5",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "a6c743df5df5363a8d38cea0cda5b2f1b3314ddf1e294b6c392d39d240171018",
+      "url": "https://github.com/MeteorNOX/dsh-whale-bongo/blob/09835ef1e29829d6fd01b0c7bced6498d13d8e5f/tools/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-bongo",
+      "version": "0.3.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MeteorNOX/dsh-whale-bongo",
+        "commit": "09835ef1e29829d6fd01b0c7bced6498d13d8e5f"
+      },
+      "manifestSha256": "a295568948c707d5331ac8c86fa09400b4c22e06fd0842a46473fbb627223f4e",
+      "manifestUrl": "https://github.com/MeteorNOX/dsh-whale-bongo/blob/09835ef1e29829d6fd01b0c7bced6498d13d8e5f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-whale-bongo",
+        "versions": [
+          {
+            "version": "0.3.5",
+            "publishTimestamp": 1794303336,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MeteorNOX/dsh-whale-bongo",
+              "commit": "09835ef1e29829d6fd01b0c7bced6498d13d8e5f"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-whale-bongo@0.3.5",
+      "origin": "npm",
+      "name": "dsh-whale-bongo",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-whale-bongo",
+        "title": {
+          "en": "Whale Bongo Hand Widget",
+          "zh": "Whale Bongo 手手挂件"
+        },
+        "description": {
+          "en": "A bouncy bongo-style hand widget.",
+          "zh": "QQ 弹弹的类 bongo 手手挂件"
+        },
+        "author": "MeteorNOX",
+        "homepage": "https://github.com/MeteorNOX/dsh-whale-bongo#readme",
+        "repository": {
+          "url": "https://github.com/MeteorNOX/dsh-whale-bongo"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "typing",
+            "widget",
+            "bongo",
+            "desktop-pet"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "0.3.5",
+            "publishTimestamp": 1794303519,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ef81faa5079a485c04449b9648d49b49b7167922a418c5947f87d26560d9a579",
+      "evidence": [
+        {
+          "name": "dsh-whale-bongo",
+          "version": "0.3.5",
+          "tarball": "https://registry.npmjs.org/dsh-whale-bongo/-/dsh-whale-bongo-0.3.5.tgz",
+          "integrity": "sha512-b2uggL4SO36srYvPVXjsGxpiE1FLHwoopbElvAcO1CwNANmWpS7cm/z1xB9ekMRpwFKPIh9qlwqu1vgqlQswOw=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-whale-bongo",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "0c9c0fd293d024c0ce0feb33c9a6def0f88c49367f7940e167afdcab90cc6d54",
+          "outputSha256": "cf3cef38bc5b1bb0a0a4708e8e9b7f030b92b9e8059c75aa5c1058aafae64aa4",
+          "inputBytes": 148187,
+          "outputBytes": 3548
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-whale-bongo@0.3.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MeteorNOX/dsh-whale-bongo",
+    "commit": "09835ef1e29829d6fd01b0c7bced6498d13d8e5f",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:47.720Z"
+}

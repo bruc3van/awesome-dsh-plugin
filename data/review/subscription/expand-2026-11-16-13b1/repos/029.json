@@ -1,0 +1,95 @@
+{
+  "full_name": "king-bcolor/dsh-multi-tenant-projects",
+  "originalPosition": 29,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 29,
+  "batch": 1,
+  "stargazers_count": 27,
+  "startedAt": "2026-11-16T12:03:51.845Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "87a5eb490f6cd93122d4048822be9b1fc47ef1caad3a50d9318a3336a01737c9",
+      "url": "https://github.com/king-bcolor/dsh-multi-tenant-projects/blob/77dfd9e67240d48e159d1886dd9a29d9cebf5425/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/king-bcolor/dsh-multi-tenant-projects",
+          "command": "dsh plugin --profile web add github:king-bcolor/dsh-multi-tenant-projects",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "9a53bf0bd28f8a53492c749e33d66c564b0f03656bc08356244be202707fd859",
+      "url": "https://github.com/king-bcolor/dsh-multi-tenant-projects/blob/77dfd9e67240d48e159d1886dd9a29d9cebf5425/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/king-bcolor/dsh-multi-tenant-projects",
+          "command": "dsh plugin --profile web add github:king-bcolor/dsh-multi-tenant-projects",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-multi-tenant-projects",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/king-bcolor/dsh-multi-tenant-projects",
+        "commit": "77dfd9e67240d48e159d1886dd9a29d9cebf5425"
+      },
+      "manifestSha256": "bed748e04e7c9b050e7c267de5b2c1430cbb2a8aae0a0956bb666779fbb2ae66",
+      "manifestUrl": "https://github.com/king-bcolor/dsh-multi-tenant-projects/blob/77dfd9e67240d48e159d1886dd9a29d9cebf5425/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-multi-tenant-projects",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786881090,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/king-bcolor/dsh-multi-tenant-projects",
+              "commit": "77dfd9e67240d48e159d1886dd9a29d9cebf5425"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/king-bcolor/dsh-multi-tenant-projects",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/king-bcolor/dsh-multi-tenant-projects",
+    "commit": "77dfd9e67240d48e159d1886dd9a29d9cebf5425",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:04:03.979Z"
+}

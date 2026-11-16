@@ -1,0 +1,263 @@
+{
+  "full_name": "MichengAI/dsh-simplify",
+  "originalPosition": 111,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 111,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:06:57.500Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "085f3963ab0daadfbfd908797b9664b57d1384844ce766a8f777c8ee2d74d5fa",
+      "url": "https://github.com/MichengAI/dsh-simplify/blob/3aad0f0fdbbb3e4a259399564b75886007d6603b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-simplify@1.0.9",
+          "command": "dsh plugin --profile web add @michengai/dsh-simplify@1.0.9 --registry=https://registry.npmjs.org/。安装后执行 dsh --profile web --dump-config，确认配置包含",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "085f3963ab0daadfbfd908797b9664b57d1384844ce766a8f777c8ee2d74d5fa",
+      "url": "https://github.com/MichengAI/dsh-simplify/blob/3aad0f0fdbbb3e4a259399564b75886007d6603b/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-simplify@1.0.9",
+          "command": "dsh plugin --profile web add @michengai/dsh-simplify@1.0.9 --registry=https://registry.npmjs.org/。安装后执行 dsh --profile web --dump-config，确认配置包含",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "0447028bb1ce33eeaae3d9b81c150d2f397f6882de958064798b469d198ba1f0",
+      "url": "https://github.com/MichengAI/dsh-simplify/blob/3aad0f0fdbbb3e4a259399564b75886007d6603b/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-simplify@1.0.9",
+          "command": "dsh plugin --profile web add @michengai/dsh-simplify@1.0.9 --registry=https://registry.npmjs.org/. Then run dsh --profile web --dump-config, confirm the configuration includes",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "626e9117f10a9016dc255ca536b8efc6812d64d4e796fb4ebbf9ba16b92c47af",
+      "url": "https://github.com/MichengAI/dsh-simplify/blob/3aad0f0fdbbb3e4a259399564b75886007d6603b/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-simplify@1.0.9",
+          "command": "dsh plugin --profile web add @michengai/dsh-simplify@1.0.9 --registry=https://registry.npmjs.org/。インストール後、dsh --profile web --dump-config",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "a63af793a0ae0a2396dd780c1668bf2370bca39a2a8749f60b55e62f9f2d5004",
+      "url": "https://github.com/MichengAI/dsh-simplify/blob/3aad0f0fdbbb3e4a259399564b75886007d6603b/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-simplify@1.0.9",
+          "command": "dsh plugin --profile web add @michengai/dsh-simplify@1.0.9 --registry=https://registry.npmjs.org/. Luego ejecuta dsh --profile web --dump-config para confirmar que la",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "5e96405c66a3c22dd2c28ebd287782bb0a1fb328893a49011c976a362c9614cc",
+      "url": "https://github.com/MichengAI/dsh-simplify/blob/3aad0f0fdbbb3e4a259399564b75886007d6603b/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-simplify@1.0.9",
+          "command": "dsh plugin --profile web add @michengai/dsh-simplify@1.0.9 --registry=https://registry.npmjs.org/.",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "9a5cbbe930f91cf2e605c77709e6caee8d35ebf7c942d970ec1dfe932a9f135f",
+      "url": "https://github.com/MichengAI/dsh-simplify/blob/3aad0f0fdbbb3e4a259399564b75886007d6603b/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-simplify@1.0.9",
+          "command": "dsh plugin --profile web add @michengai/dsh-simplify@1.0.9 --registry=https://registry.npmjs.org/.",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "22c41c5bff5884deceee041de480830215720a8238cdf7060da713f97dd19994",
+      "url": "https://github.com/MichengAI/dsh-simplify/blob/3aad0f0fdbbb3e4a259399564b75886007d6603b/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-simplify@1.0.9",
+          "command": "dsh plugin --profile web add @michengai/dsh-simplify@1.0.9 --registry=https://registry.npmjs.org/.",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.pt.md",
+      "sha256": "bbf82e1d3776965248a7380867945846e88d960253640e344a6684e043ebba06",
+      "url": "https://github.com/MichengAI/dsh-simplify/blob/3aad0f0fdbbb3e4a259399564b75886007d6603b/README.pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-simplify@1.0.9",
+          "command": "dsh plugin --profile web add @michengai/dsh-simplify@1.0.9 --registry=https://registry.npmjs.org/. Depois execute dsh --profile web --dump-config para confirmar a",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-simplify",
+      "version": "1.0.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-simplify",
+        "commit": "3aad0f0fdbbb3e4a259399564b75886007d6603b"
+      },
+      "manifestSha256": "e0b478a4d9dd95b6cd9001b2671915f8973d6f81462834762eb669873d64e906",
+      "manifestUrl": "https://github.com/MichengAI/dsh-simplify/blob/3aad0f0fdbbb3e4a259399564b75886007d6603b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@michengai/dsh-simplify",
+        "versions": [
+          {
+            "version": "1.0.10",
+            "publishTimestamp": 1794633857,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MichengAI/dsh-simplify",
+              "commit": "3aad0f0fdbbb3e4a259399564b75886007d6603b"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@michengai/dsh-simplify@1.0.9",
+      "origin": "npm",
+      "name": "@michengai/dsh-simplify",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@michengai/dsh-simplify",
+        "title": {
+          "en": "Simplify",
+          "de": "Simplify",
+          "es": "Simplify",
+          "fr": "Simplify",
+          "ja": "Simplify",
+          "pt": "Simplify",
+          "ru": "Simplify",
+          "zh": "Simplify"
+        },
+        "description": {
+          "en": "Simplify Git-scoped changes, including untracked files and cross-platform paths.",
+          "de": "Vereinfacht Code innerhalb des Git-Änderungsbereichs, unterstützt nicht nachverfolgte Dateien und plattformübergreifende Pfade.",
+          "es": "Simplifica los cambios acotados por Git, con compatibilidad para archivos no rastreados y rutas multiplataforma.",
+          "fr": "Simplifie le code dans le périmètre des modifications Git, avec prise en charge des fichiers non suivis et des chemins multiplateformes.",
+          "ja": "Git 変更範囲内でコードを簡素化し、未追跡ファイルやクロスプラットフォームパスに対応。",
+          "pt": "Simplifica o código no escopo de alterações do Git, com suporte a arquivos não rastreados e caminhos multiplataforma.",
+          "ru": "Упрощение кода в пределах изменений Git с поддержкой неотслеживаемых файлов и кроссплатформенных путей.",
+          "zh": "在 Git 变更范围内简化代码，支持未跟踪文件和跨平台路径。"
+        },
+        "author": "MichengAI",
+        "homepage": "https://github.com/MichengAI/dsh-simplify#readme",
+        "repository": {
+          "url": "https://github.com/MichengAI/dsh-simplify"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "simplify",
+            "git",
+            "code-review",
+            "refactoring"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z19zaW1wX2ciIHgxPSI2IiB5MT0iOCIgeDI9IjMwIiB5Mj0iMjgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzA1OTY2OSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNiIgc3RvcC1jb2xvcj0iIzEwQjk4MSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzNEQzOTkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDwhLS0gTGVmdDogQ29tcGxleCwgTWVzc3kgVGFuZ2xlZCBCcmFuY2hlcyAtLT4KICA8cGF0aCBkPSJNNiAxMEgxMUwxNC41IDE1IiBzdHJva2U9IiM5NEEzQjgiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNNiAxOEgxNCIgc3Ryb2tlPSIjOTRBM0I4IiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTYgMjZIMTFMMTQuNSAyMSIgc3Ryb2tlPSIjOTRBM0I4IiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPCEtLSBDZW50cmFsIFN0cmVhbWxpbmluZyBQcmlzbSBMaW5lIC0tPgogIDxsaW5lIHgxPSIxNiIgeTE9IjgiIHgyPSIxNiIgeTI9IjI4IiBzdHJva2U9InVybCgjZHNoX3N2Z19zaW1wX2cpIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtZGFzaGFycmF5PSIxIDMiLz4KICA8IS0tIFJpZ2h0OiBQdXJlLCBFbGVnYW50LCBQYXJhbGxlbCBSZWZhY3RvcmVkIExpbmVzIC0tPgogIDxsaW5lIHgxPSIxOSIgeTE9IjEzIiB4Mj0iMjkiIHkyPSIxMyIgc3Ryb2tlPSJ1cmwoI2RzaF9zdmdfc2ltcF9nKSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8bGluZSB4MT0iMTkiIHkxPSIxOCIgeDI9IjMwIiB5Mj0iMTgiIHN0cm9rZT0idXJsKCNkc2hfc3ZnX3NpbXBfZykiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGxpbmUgeDE9IjE5IiB5MT0iMjMiIHgyPSIyNyIgeTI9IjIzIiBzdHJva2U9InVybCgjZHNoX3N2Z19zaW1wX2cpIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwhLS0gUHVyaXR5IFNwYXJrbGUgLS0+CiAgPGNpcmNsZSBjeD0iMjkiIGN5PSI4IiByPSIxLjgiIGZpbGw9IiMxMEI5ODEiLz4KPC9zdmc+",
+        "versions": [
+          {
+            "version": "1.0.9",
+            "publishTimestamp": 1794468046,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "aaaf05c373379f8bc17064f87bccf08d8c5bfdc0dfe42f2267c4c2de91583078",
+      "evidence": [
+        {
+          "name": "@michengai/dsh-simplify",
+          "version": "1.0.9",
+          "tarball": "https://registry.npmjs.org/@michengai/dsh-simplify/-/dsh-simplify-1.0.9.tgz",
+          "integrity": "sha512-4kmba0PO/H0kDVi/ROe7pEbFZzXhz19A0n6gxgLXKYcaQuvE0Gpfh10UowTlytAZ++9xV1mT6ZJhAOSoKCC/YQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@michengai/dsh-simplify@1.0.9",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-simplify",
+    "commit": "3aad0f0fdbbb3e4a259399564b75886007d6603b",
+    "releaseTags": 28,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:23.757Z"
+}

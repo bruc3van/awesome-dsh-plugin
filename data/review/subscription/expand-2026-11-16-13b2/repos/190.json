@@ -1,0 +1,92 @@
+{
+  "full_name": "grloper/dsh-claude-oauth",
+  "originalPosition": 190,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 190,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:13.696Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b39a3926eb3521d75090746bad2aead848c110d0aa0f526fe64af1bb6d2254e1",
+      "url": "https://github.com/grloper/dsh-claude-oauth/blob/56d08dca643cc6788cd95b697f32ccb2c5900fac/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/grloper/dsh-claude-oauth",
+          "command": "dsh plugin --profile web add github:grloper/dsh-claude-oauth",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e96cc8c622dee501fe62cdcaddce6bf02ddad0c5635153310ff81bc3502eeda3",
+      "url": "https://github.com/grloper/dsh-claude-oauth/blob/56d08dca643cc6788cd95b697f32ccb2c5900fac/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/grloper/dsh-claude-oauth",
+          "command": "dsh plugin --profile web add github:grloper/dsh-claude-oauth",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-claude-oauth",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/grloper/dsh-claude-oauth",
+        "commit": "56d08dca643cc6788cd95b697f32ccb2c5900fac"
+      },
+      "manifestSha256": "1c84f3aa38974674d49388f75a4cbacda089aa913c4803fdaeb4437aa806d553",
+      "manifestUrl": "https://github.com/grloper/dsh-claude-oauth/blob/56d08dca643cc6788cd95b697f32ccb2c5900fac/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-claude-oauth",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1793905912,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/grloper/dsh-claude-oauth",
+              "commit": "56d08dca643cc6788cd95b697f32ccb2c5900fac"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/grloper/dsh-claude-oauth",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/grloper/dsh-claude-oauth",
+    "commit": "56d08dca643cc6788cd95b697f32ccb2c5900fac",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:24.446Z"
+}

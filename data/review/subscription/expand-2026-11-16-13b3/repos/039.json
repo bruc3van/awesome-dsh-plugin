@@ -1,0 +1,139 @@
+{
+  "full_name": "Lzh3070/dsh-file-review-tab",
+  "originalPosition": 39,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 39,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T12:22:25.256Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7fd110d3f24de48e7b0f9f954ca5f23e0924612595cd8db4f9227495f1b3a327",
+      "url": "https://github.com/Lzh3070/dsh-file-review-tab/blob/1de22fc2ef5ec5a6e3f3063af0522136273d35c4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-file-review-tab",
+          "command": "dsh plugin --profile web add dsh-file-review-tab",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Lzh3070/dsh-file-review-tab",
+          "command": "dsh plugin --profile web add github:Lzh3070/dsh-file-review-tab",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-file-review-tab",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lzh3070/dsh-file-review-tab",
+        "commit": "1de22fc2ef5ec5a6e3f3063af0522136273d35c4"
+      },
+      "manifestSha256": "166bbb29404f4e343ba334e543484e705015624fbae27ed97762cf49b663ed49",
+      "manifestUrl": "https://github.com/Lzh3070/dsh-file-review-tab/blob/1de22fc2ef5ec5a6e3f3063af0522136273d35c4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-file-review-tab",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1789309831,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Lzh3070/dsh-file-review-tab",
+              "commit": "1de22fc2ef5ec5a6e3f3063af0522136273d35c4"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-file-review-tab",
+      "origin": "npm",
+      "name": "dsh-file-review-tab",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-file-review-tab",
+        "title": "dsh-file-review-tab",
+        "description": "Review agent-produced file changes (line-level red/green diff + undo) both as a chat turn-tail row and as a dsh-better-sidebar tab; a port of left0ver's dsh-file-review.",
+        "repository": {
+          "url": "https://github.com/Lzh3070/dsh-file-review-tab"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "diff",
+            "code-review",
+            "sidebar"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1789310136,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "345c74fefc76dc838cd170d25fdbda0c840273c84a4b5d393bfcbcc6f87f5b0e",
+      "evidence": [
+        {
+          "name": "dsh-file-review-tab",
+          "version": "0.5.0",
+          "tarball": "https://registry.npmjs.org/dsh-file-review-tab/-/dsh-file-review-tab-0.5.0.tgz",
+          "integrity": "sha512-dLDatR67tUr3EfF2kwwxXw3Q4Lt2WgJ7H0WSj/ohM8wdBKbjsNdMsEFc2UyDvGkMge4aTTcZDp8M1DWjzKjyWA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-file-review-tab",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Lzh3070/dsh-file-review-tab",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lzh3070/dsh-file-review-tab",
+    "commit": "1de22fc2ef5ec5a6e3f3063af0522136273d35c4",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:22:34.882Z"
+}

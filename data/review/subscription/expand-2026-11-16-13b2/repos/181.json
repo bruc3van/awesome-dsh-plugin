@@ -1,0 +1,156 @@
+{
+  "full_name": "dougen/dsh-deepseek-usage",
+  "originalPosition": 181,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 181,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:49.745Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7d9875716af5ff7902afc402d6c4c56d18ccc6b4d2da345de637c5d4df58085b",
+      "url": "https://github.com/dougen/dsh-deepseek-usage/blob/87c7e2d30b2a5ea6024e0dff2a10362f50b94813/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dougen/dsh-deepseek-usage",
+          "command": "dsh plugin --profile web add @dougen/dsh-deepseek-usage",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7f2b83c85015d10a66ea9b26ccb097a672bd010c94c15dfcb5b4d3d50f5f85ed",
+      "url": "https://github.com/dougen/dsh-deepseek-usage/blob/87c7e2d30b2a5ea6024e0dff2a10362f50b94813/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dougen/dsh-deepseek-usage",
+          "command": "dsh plugin --profile web add @dougen/dsh-deepseek-usage",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dougen/dsh-deepseek-usage",
+      "version": "0.20.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dougen/dsh-deepseek-usage",
+        "commit": "87c7e2d30b2a5ea6024e0dff2a10362f50b94813"
+      },
+      "manifestSha256": "b4bc8ec053d2fafb56a7ed64d09ce5e882be24583481d089e7cf8996298d9dc1",
+      "manifestUrl": "https://github.com/dougen/dsh-deepseek-usage/blob/87c7e2d30b2a5ea6024e0dff2a10362f50b94813/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || ^0.2.0-rc.1 || ^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dougen/dsh-deepseek-usage",
+        "versions": [
+          {
+            "version": "0.20.0",
+            "publishTimestamp": 1793871629,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dougen/dsh-deepseek-usage",
+              "commit": "87c7e2d30b2a5ea6024e0dff2a10362f50b94813"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@dougen/dsh-deepseek-usage",
+      "origin": "npm",
+      "name": "@dougen/dsh-deepseek-usage",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dougen/dsh-deepseek-usage",
+        "title": {
+          "en": "DeepSeek Usage",
+          "zh": "DeepSeek 用量"
+        },
+        "description": {
+          "en": "Shows the balance or subscription quota behind the active model, that model's current unit prices, and the peak / off-peak indicator in the DSH sidebar.",
+          "zh": "在 DSH 侧边栏显示当前模型所用账户的余额或订阅余量、该模型的单价，以及峰谷时段指示灯。"
+        },
+        "homepage": "https://github.com/dougen/dsh-deepseek-usage",
+        "repository": {
+          "url": "https://github.com/dougen/dsh-deepseek-usage"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "deepseek-harness",
+            "plugin",
+            "usage",
+            "balance",
+            "quota",
+            "oauth",
+            "tokens",
+            "web"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIGRzaC1kZWVwc2Vlay11c2FnZe+8muS9meminSDCpSDnoazluIEgKyDls7DosLfmjIfnpLrnga/jgIIKICAgICAgIOehrOW4geS4jiDCpSDlsLHmmK/ljaHniYfkuIrmlL7lpKfnmoTkvZnpop3vvIzlj7PkuIrop5LnmoTnu7/oibLlnIbngrnmmK/ljaHniYflj7PkuIrop5LnmoTls7DosLfmjIfnpLrnga8KICAgICAgIO+8iOe7vz3nqbrpl7LjgIHmqZk96auY5bOw77yJ77yM6L+Z5Lik5qC35q2j5piv5Y2h54mH5pi+56S655qE5YWo6YOo5YaF5a6544CCIC0tPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjb2luIiB4MT0iNyIgeTE9IjkiIHgyPSIyNyIgeTI9IjMwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM2OUI5RkYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzI0REUyIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJpZGxlIiB4MT0iMjUuNiIgeTE9IjQuOCIgeDI9IjMxLjQiIHkyPSIxMC42IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM3RkUzOUIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMUY5RTUyIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8Y2lyY2xlIGN4PSIxNiIgY3k9IjE5LjYiIHI9IjEwIiBzdHJva2U9InVybCgjY29pbikiIHN0cm9rZS13aWR0aD0iMi4xIi8+CiAgPHBhdGggZD0iTTEyLjYgMTQuNCAxNiAxOC4yIDE5LjQgMTQuNCIgc3Ryb2tlPSJ1cmwoI2NvaW4pIiBzdHJva2Utd2lkdGg9IjIuMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0iTTE2IDE4LjJWMjUuMiIgc3Ryb2tlPSJ1cmwoI2NvaW4pIiBzdHJva2Utd2lkdGg9IjIuMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTEyLjkgMjAuNEgxOS4xIiBzdHJva2U9InVybCgjY29pbikiIHN0cm9rZS13aWR0aD0iMi4xIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMTIuOSAyMy4ySDE5LjEiIHN0cm9rZT0idXJsKCNjb2luKSIgc3Ryb2tlLXdpZHRoPSIyLjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjI4LjUiIGN5PSI3LjciIHI9IjMuMSIgZmlsbD0idXJsKCNpZGxlKSIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.20.0",
+            "publishTimestamp": 1793872035,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b791dc5c6846844d480a385a3657842bb98b461fd7eee5cf1d17cffe4cc8c7d9",
+      "evidence": [
+        {
+          "name": "@dougen/dsh-deepseek-usage",
+          "version": "0.20.0",
+          "tarball": "https://registry.npmjs.org/@dougen/dsh-deepseek-usage/-/dsh-deepseek-usage-0.20.0.tgz",
+          "integrity": "sha512-lbBh1a/rUIeJy7SuG51eEqYFRaMPFvWwEq4ySrFYRYRCinYt0dUFpOqVTf7+8Oba8CGRPR72qivG/POP2y002g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dougen/dsh-deepseek-usage",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dougen/dsh-deepseek-usage",
+    "commit": "87c7e2d30b2a5ea6024e0dff2a10362f50b94813",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:01.416Z"
+}

@@ -1,0 +1,297 @@
+{
+  "full_name": "nishuoyang/dsh-wallpaper-bg",
+  "originalPosition": 147,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:46.291Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e800779e7cbd164ac7f265209d048667538c6cb2b26e5164ab6d91169fb5257c",
+      "url": "https://github.com/nishuoyang/dsh-wallpaper-bg/blob/eb0eb24d2ef7f078de18d8433ac11eb64ce3f6fc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wallpaper-bg",
+          "command": "dsh plugin --profile desktop add dsh-wallpaper-bg",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-wallpaper-bg",
+          "command": "dsh plugin --profile web add dsh-wallpaper-bg",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-wallpaper-bg@latest",
+          "command": "dsh plugin --profile web add dsh-wallpaper-bg@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-wallpaper-bg@0.5.20",
+          "command": "dsh plugin --profile web add dsh-wallpaper-bg@0.5.20",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "8fa023e5d516badd6caa68ac4adf44a7419e8d383141c01b113b19ef64e1aba8",
+      "url": "https://github.com/nishuoyang/dsh-wallpaper-bg/blob/eb0eb24d2ef7f078de18d8433ac11eb64ce3f6fc/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wallpaper-bg",
+          "command": "dsh plugin --profile desktop add dsh-wallpaper-bg",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-wallpaper-bg",
+          "command": "dsh plugin --profile web add dsh-wallpaper-bg",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-wallpaper-bg@latest",
+          "command": "dsh plugin --profile web add dsh-wallpaper-bg@latest",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-wallpaper-bg@0.5.20",
+          "command": "dsh plugin --profile web add dsh-wallpaper-bg@0.5.20",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wallpaper-bg",
+      "version": "0.5.20",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/nishuoyang/dsh-wallpaper-bg",
+        "commit": "eb0eb24d2ef7f078de18d8433ac11eb64ce3f6fc"
+      },
+      "manifestSha256": "2464914ab34bc10b803943fdb6f5e6af7cc2d68895dac1b2c7098412d4d8413f",
+      "manifestUrl": "https://github.com/nishuoyang/dsh-wallpaper-bg/blob/eb0eb24d2ef7f078de18d8433ac11eb64ce3f6fc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-wallpaper-bg",
+        "versions": [
+          {
+            "version": "0.5.20",
+            "publishTimestamp": 1794830566,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/nishuoyang/dsh-wallpaper-bg",
+              "commit": "eb0eb24d2ef7f078de18d8433ac11eb64ce3f6fc"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-wallpaper-bg",
+      "origin": "npm",
+      "name": "dsh-wallpaper-bg",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-wallpaper-bg",
+        "title": "dsh-wallpaper-bg",
+        "description": "DeepSeek Harness（dsh web 网页界面与 0.2 桌面端）独立壁纸背景插件：内置壁纸 / 自定义上传 / Wallpaper Engine 壁纸库（只读）三种来源，支持图片、视频、网页与场景工坊预览图，含遮罩·模糊·亮度·安全放大调节。WE 壁纸库来源需安装配套插件 dsh-wallpaper-engine-api（一条命令，随 DSH 启停，无需独立服务）。",
+        "author": "nishuoyang",
+        "homepage": "https://github.com/nishuoyang/dsh-wallpaper-bg#readme",
+        "repository": {
+          "url": "https://github.com/nishuoyang/dsh-wallpaper-bg"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "desktop",
+            "wallpaper",
+            "wallpaper-engine",
+            "theme",
+            "themes",
+            "appearance",
+            "background",
+            "ui",
+            "cordis",
+            "plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8dGl0bGU+ZHNoLXdhbGxwYXBlci1iZzwvdGl0bGU+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9IndiZy1mcm9udCIgeDE9IjUiIHkxPSI1IiB4Mj0iMjYiIHkyPSIyNiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNkM4QkZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzNBNTRFMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0id2JnLWJhY2siIHgxPSIxNCIgeTE9IjE0IiB4Mj0iMzEiIHkyPSIzMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjOUI4Q0ZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzVBNDZFMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxjbGlwUGF0aCBpZD0id2JnLWNsaXAiPgogICAgICA8cmVjdCB4PSI1IiB5PSI1IiB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHJ4PSI1LjIiLz4KICAgIDwvY2xpcFBhdGg+CiAgPC9kZWZzPgogIDwhLS0g5ZCO5bGC77ya5aOB57q45bGC77yI5aSa5p2l5rqQIC8g5Y+v5Y+g5Yqg55qE5pqX56S677yJIC0tPgogIDxyZWN0IHg9IjEzLjUiIHk9IjEzLjUiIHdpZHRoPSIxNyIgaGVpZ2h0PSIxNyIgcng9IjQuNSIgZmlsbD0idXJsKCN3YmctYmFjaykiLz4KICA8IS0tIOWJjeWxgu+8muWjgee6uOWNoeeJh++8mui/nOaZr++8iOWkqeepuiArIOWkqumYsyArIOWxseiEiu+8iSAtLT4KICA8cmVjdCB4PSI1IiB5PSI1IiB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHJ4PSI1LjIiIGZpbGw9InVybCgjd2JnLWZyb250KSIvPgogIDxnIGNsaXAtcGF0aD0idXJsKCN3YmctY2xpcCkiPgogICAgPGNpcmNsZSBjeD0iMTMuOCIgY3k9IjEyLjQiIHI9IjIuOSIgZmlsbD0iI0ZGRDk4QSIvPgogICAgPHBhdGggZD0iTTUgMjYgTDEyLjYgMTYuNiBMMTcuNCAyMS44IEwyMS44IDE4LjYgTDI2IDIzLjIgVjI2IFoiIGZpbGw9IiNGRkZGRkYiIGZpbGwtb3BhY2l0eT0iMC45NSIvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.5.20",
+            "publishTimestamp": 1794830660,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a3710355aead864fd979351254e46d4c4a178091ba87b11cfed6f7da6ef27c24",
+      "evidence": [
+        {
+          "name": "dsh-wallpaper-bg",
+          "version": "0.5.20",
+          "tarball": "https://registry.npmjs.org/dsh-wallpaper-bg/-/dsh-wallpaper-bg-0.5.20.tgz",
+          "integrity": "sha512-0GTZVmEBhI08hA/zRX0hJNjciwdRjI4pdyaZnZ0Vmm9CC9aAPqWyQw41qW7M8B00nQi4rToklb4R6ev6QXzeRg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-wallpaper-bg@latest",
+      "origin": "npm",
+      "name": "dsh-wallpaper-bg",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-wallpaper-bg",
+        "title": "dsh-wallpaper-bg",
+        "description": "DeepSeek Harness（dsh web 网页界面与 0.2 桌面端）独立壁纸背景插件：内置壁纸 / 自定义上传 / Wallpaper Engine 壁纸库（只读）三种来源，支持图片、视频、网页与场景工坊预览图，含遮罩·模糊·亮度·安全放大调节。WE 壁纸库来源需安装配套插件 dsh-wallpaper-engine-api（一条命令，随 DSH 启停，无需独立服务）。",
+        "author": "nishuoyang",
+        "homepage": "https://github.com/nishuoyang/dsh-wallpaper-bg#readme",
+        "repository": {
+          "url": "https://github.com/nishuoyang/dsh-wallpaper-bg"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "desktop",
+            "wallpaper",
+            "wallpaper-engine",
+            "theme",
+            "themes",
+            "appearance",
+            "background",
+            "ui",
+            "cordis",
+            "plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8dGl0bGU+ZHNoLXdhbGxwYXBlci1iZzwvdGl0bGU+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9IndiZy1mcm9udCIgeDE9IjUiIHkxPSI1IiB4Mj0iMjYiIHkyPSIyNiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNkM4QkZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzNBNTRFMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0id2JnLWJhY2siIHgxPSIxNCIgeTE9IjE0IiB4Mj0iMzEiIHkyPSIzMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjOUI4Q0ZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzVBNDZFMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxjbGlwUGF0aCBpZD0id2JnLWNsaXAiPgogICAgICA8cmVjdCB4PSI1IiB5PSI1IiB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHJ4PSI1LjIiLz4KICAgIDwvY2xpcFBhdGg+CiAgPC9kZWZzPgogIDwhLS0g5ZCO5bGC77ya5aOB57q45bGC77yI5aSa5p2l5rqQIC8g5Y+v5Y+g5Yqg55qE5pqX56S677yJIC0tPgogIDxyZWN0IHg9IjEzLjUiIHk9IjEzLjUiIHdpZHRoPSIxNyIgaGVpZ2h0PSIxNyIgcng9IjQuNSIgZmlsbD0idXJsKCN3YmctYmFjaykiLz4KICA8IS0tIOWJjeWxgu+8muWjgee6uOWNoeeJh++8mui/nOaZr++8iOWkqeepuiArIOWkqumYsyArIOWxseiEiu+8iSAtLT4KICA8cmVjdCB4PSI1IiB5PSI1IiB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHJ4PSI1LjIiIGZpbGw9InVybCgjd2JnLWZyb250KSIvPgogIDxnIGNsaXAtcGF0aD0idXJsKCN3YmctY2xpcCkiPgogICAgPGNpcmNsZSBjeD0iMTMuOCIgY3k9IjEyLjQiIHI9IjIuOSIgZmlsbD0iI0ZGRDk4QSIvPgogICAgPHBhdGggZD0iTTUgMjYgTDEyLjYgMTYuNiBMMTcuNCAyMS44IEwyMS44IDE4LjYgTDI2IDIzLjIgVjI2IFoiIGZpbGw9IiNGRkZGRkYiIGZpbGwtb3BhY2l0eT0iMC45NSIvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.5.20",
+            "publishTimestamp": 1794830660,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a3710355aead864fd979351254e46d4c4a178091ba87b11cfed6f7da6ef27c24",
+      "evidence": [
+        {
+          "name": "dsh-wallpaper-bg",
+          "version": "0.5.20",
+          "tarball": "https://registry.npmjs.org/dsh-wallpaper-bg/-/dsh-wallpaper-bg-0.5.20.tgz",
+          "integrity": "sha512-0GTZVmEBhI08hA/zRX0hJNjciwdRjI4pdyaZnZ0Vmm9CC9aAPqWyQw41qW7M8B00nQi4rToklb4R6ev6QXzeRg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-wallpaper-bg@0.5.20",
+      "origin": "npm",
+      "name": "dsh-wallpaper-bg",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-wallpaper-bg",
+        "title": "dsh-wallpaper-bg",
+        "description": "DeepSeek Harness（dsh web 网页界面与 0.2 桌面端）独立壁纸背景插件：内置壁纸 / 自定义上传 / Wallpaper Engine 壁纸库（只读）三种来源，支持图片、视频、网页与场景工坊预览图，含遮罩·模糊·亮度·安全放大调节。WE 壁纸库来源需安装配套插件 dsh-wallpaper-engine-api（一条命令，随 DSH 启停，无需独立服务）。",
+        "author": "nishuoyang",
+        "homepage": "https://github.com/nishuoyang/dsh-wallpaper-bg#readme",
+        "repository": {
+          "url": "https://github.com/nishuoyang/dsh-wallpaper-bg"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "desktop",
+            "wallpaper",
+            "wallpaper-engine",
+            "theme",
+            "themes",
+            "appearance",
+            "background",
+            "ui",
+            "cordis",
+            "plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8dGl0bGU+ZHNoLXdhbGxwYXBlci1iZzwvdGl0bGU+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9IndiZy1mcm9udCIgeDE9IjUiIHkxPSI1IiB4Mj0iMjYiIHkyPSIyNiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNkM4QkZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzNBNTRFMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0id2JnLWJhY2siIHgxPSIxNCIgeTE9IjE0IiB4Mj0iMzEiIHkyPSIzMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjOUI4Q0ZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzVBNDZFMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxjbGlwUGF0aCBpZD0id2JnLWNsaXAiPgogICAgICA8cmVjdCB4PSI1IiB5PSI1IiB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHJ4PSI1LjIiLz4KICAgIDwvY2xpcFBhdGg+CiAgPC9kZWZzPgogIDwhLS0g5ZCO5bGC77ya5aOB57q45bGC77yI5aSa5p2l5rqQIC8g5Y+v5Y+g5Yqg55qE5pqX56S677yJIC0tPgogIDxyZWN0IHg9IjEzLjUiIHk9IjEzLjUiIHdpZHRoPSIxNyIgaGVpZ2h0PSIxNyIgcng9IjQuNSIgZmlsbD0idXJsKCN3YmctYmFjaykiLz4KICA8IS0tIOWJjeWxgu+8muWjgee6uOWNoeeJh++8mui/nOaZr++8iOWkqeepuiArIOWkqumYsyArIOWxseiEiu+8iSAtLT4KICA8cmVjdCB4PSI1IiB5PSI1IiB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHJ4PSI1LjIiIGZpbGw9InVybCgjd2JnLWZyb250KSIvPgogIDxnIGNsaXAtcGF0aD0idXJsKCN3YmctY2xpcCkiPgogICAgPGNpcmNsZSBjeD0iMTMuOCIgY3k9IjEyLjQiIHI9IjIuOSIgZmlsbD0iI0ZGRDk4QSIvPgogICAgPHBhdGggZD0iTTUgMjYgTDEyLjYgMTYuNiBMMTcuNCAyMS44IEwyMS44IDE4LjYgTDI2IDIzLjIgVjI2IFoiIGZpbGw9IiNGRkZGRkYiIGZpbGwtb3BhY2l0eT0iMC45NSIvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.5.20",
+            "publishTimestamp": 1794830660,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a3710355aead864fd979351254e46d4c4a178091ba87b11cfed6f7da6ef27c24",
+      "evidence": [
+        {
+          "name": "dsh-wallpaper-bg",
+          "version": "0.5.20",
+          "tarball": "https://registry.npmjs.org/dsh-wallpaper-bg/-/dsh-wallpaper-bg-0.5.20.tgz",
+          "integrity": "sha512-0GTZVmEBhI08hA/zRX0hJNjciwdRjI4pdyaZnZ0Vmm9CC9aAPqWyQw41qW7M8B00nQi4rToklb4R6ev6QXzeRg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-wallpaper-bg",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-wallpaper-bg@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-wallpaper-bg@0.5.20",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/nishuoyang/dsh-wallpaper-bg",
+    "commit": "eb0eb24d2ef7f078de18d8433ac11eb64ce3f6fc",
+    "releaseTags": 27,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:09:35.052Z"
+}

@@ -1,0 +1,196 @@
+{
+  "full_name": "Yurzi/dsh-tool-web-enhanced",
+  "originalPosition": 171,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 171,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:25.625Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7cd960d434145671e78b4fad479d74cb137567eab70a03dc4d76d46b1e26f47a",
+      "url": "https://github.com/Yurzi/dsh-tool-web-enhanced/blob/4eeacc34e587c86a67ecce43d373030af54e5ce0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tool-web-enhanced-profile",
+          "command": "dsh plugin --profile <profile> add dsh-tool-web-enhanced-profile",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "packages/profile/README.md",
+      "sha256": "fc78000adb6c628c2831d1622287bff0654b0be3b38a01e2021a49184715946c",
+      "url": "https://github.com/Yurzi/dsh-tool-web-enhanced/blob/4eeacc34e587c86a67ecce43d373030af54e5ce0/packages/profile/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tool-web-enhanced-profile",
+          "command": "dsh plugin --profile <profile> add dsh-tool-web-enhanced-profile",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "packages/search-enhanced/README.md",
+      "sha256": "62ad254e1140665b9c87662624790ad6fac3684439b7a3d4dc22520175e494e0",
+      "url": "https://github.com/Yurzi/dsh-tool-web-enhanced/blob/4eeacc34e587c86a67ecce43d373030af54e5ce0/packages/search-enhanced/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/fetch-enhanced/README.md",
+      "sha256": "521d9922f1f4ff24e4ddc1afa2188ced4b5ac9ed4a1df3c22f7eda4e27cf5045",
+      "url": "https://github.com/Yurzi/dsh-tool-web-enhanced/blob/4eeacc34e587c86a67ecce43d373030af54e5ce0/packages/fetch-enhanced/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/ui/README.md",
+      "sha256": "a8b3171f8efc0300117961c3093ea1e49bc631b1cffa751f1a7e77661ef621f1",
+      "url": "https://github.com/Yurzi/dsh-tool-web-enhanced/blob/4eeacc34e587c86a67ecce43d373030af54e5ce0/packages/ui/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tool-web-enhanced-profile",
+      "version": "0.1.4",
+      "path": "packages/profile",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yurzi/dsh-tool-web-enhanced",
+        "commit": "4eeacc34e587c86a67ecce43d373030af54e5ce0",
+        "path": "packages/profile"
+      },
+      "manifestSha256": "d6cf02dc05007524934ea0f2b76fbe9d931a24454c500cbac568ceb9b57d3edf",
+      "manifestUrl": "https://github.com/Yurzi/dsh-tool-web-enhanced/blob/4eeacc34e587c86a67ecce43d373030af54e5ce0/packages/profile/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-tool-web-enhanced-profile",
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1793889836,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yurzi/dsh-tool-web-enhanced",
+              "commit": "4eeacc34e587c86a67ecce43d373030af54e5ce0",
+              "path": "packages/profile"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-tool-web-enhanced-profile",
+      "origin": "npm",
+      "name": "dsh-tool-web-enhanced-profile",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tool-web-enhanced-profile",
+        "title": {
+          "en": "Web Tools Enhanced",
+          "zh": "增强网页工具"
+        },
+        "description": {
+          "en": "Serves web_search and web_fetch from switchable backends. Each conversation chooses its search and fetch connections from the composer; operators configure services, keys and the fetch allowlist in the plugin settings.",
+          "zh": "用可切换的后端提供 web_search 与 web_fetch。每个会话在输入框里选择搜索与抓取连接；服务、密钥与抓取白名单由运维在插件设置里配置。"
+        },
+        "author": "Yurzi",
+        "homepage": "https://github.com/Yurzi/dsh-tool-web-enhanced#readme",
+        "repository": {
+          "url": "https://github.com/Yurzi/dsh-tool-web-enhanced",
+          "directory": "packages/profile"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh-bundle",
+            "web-search",
+            "web-fetch"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxMCIgc3Ryb2tlPSJ1cmwoI3d0ZS1nbG9iZSkiIHN0cm9rZS13aWR0aD0iMi4yIi8+CiAgPGVsbGlwc2UgY3g9IjE2IiBjeT0iMTYiIHJ4PSI0LjIiIHJ5PSIxMCIgc3Ryb2tlPSJ1cmwoI3d0ZS1nbG9iZSkiIHN0cm9rZS13aWR0aD0iMi4yIi8+CiAgPHBhdGggZD0iTTYuMiAxNmgxOS42IiBzdHJva2U9InVybCgjd3RlLWdsb2JlKSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjI2IiBjeT0iMjYiIHI9IjciIGZpbGw9InVybCgjd3RlLWJhZGdlKSIvPgogIDxwYXRoIGQ9Ik0yMyAyNmg2TTI2LjYgMjMuNEwyOS4yIDI2bC0yLjYgMi42IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS42IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0id3RlLWdsb2JlIiB4MT0iNiIgeTE9IjYiIHgyPSIyNiIgeTI9IjI2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM2N0M3RkUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjM0Y3N0Q4Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ3dGUtYmFkZ2UiIHgxPSIyNiIgeTE9IjE5IiB4Mj0iMjYiIHkyPSIzMyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNDVFN0E0Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA1OTA5RCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1793890217,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          },
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1793084871,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f488c0c6a5fcda84377b309ee5ed516137b549ea5f974eda35a4f7669d4e0e9f",
+      "evidence": [
+        {
+          "name": "dsh-tool-web-enhanced-profile",
+          "version": "0.1.4",
+          "tarball": "https://registry.npmjs.org/dsh-tool-web-enhanced-profile/-/dsh-tool-web-enhanced-profile-0.1.4.tgz",
+          "integrity": "sha512-ueZOyzcGxTsPyPGqmI0HNI6Ue3c6/8kKZLIn5ym+Gx605tvcJZlDK5QvWiWJN+ALUIPirRPoCa+o5KheWBTy+w=="
+        },
+        {
+          "name": "dsh-tool-web-enhanced-profile",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-tool-web-enhanced-profile/-/dsh-tool-web-enhanced-profile-0.1.3.tgz",
+          "integrity": "sha512-JSF9WI/+6+kos7ZdDh9wEne1U1dwS+qZh2aY1VfQqcNHA0Axh2TQ6rWVyg4J2ppeP9iv0R94wdauAB6JdkqbwA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tool-web-enhanced-profile",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yurzi/dsh-tool-web-enhanced",
+    "commit": "4eeacc34e587c86a67ecce43d373030af54e5ce0",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:49.744Z"
+}

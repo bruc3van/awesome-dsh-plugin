@@ -1,0 +1,109 @@
+{
+  "full_name": "chipweaver/veripower",
+  "originalPosition": 134,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 134,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:10.547Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "deebd2bde55334141a1466d572f2277e4a2209f90c368ec3ffac5ba46ca83cda",
+      "url": "https://github.com/chipweaver/veripower/blob/bb24efe1b7692cdd743e4adb03b7f7bf296baa89/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "4e27a3f5a46b712fab43bbce258204256187b693ad032ef84ee53e308fb64014",
+      "url": "https://github.com/chipweaver/veripower/blob/bb24efe1b7692cdd743e4adb03b7f7bf296baa89/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": ".claude/README.md",
+      "sha256": "36131c1218fa025e985e197c8fe02a863e1e47aa6b9d8fd726d682a064df61ff",
+      "url": "https://github.com/chipweaver/veripower/blob/bb24efe1b7692cdd743e4adb03b7f7bf296baa89/.claude/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": ".opencode/README.md",
+      "sha256": "a3798297cd7b9d8da676adf72d75409d0f09fea32504a8506dd67b771f1d7266",
+      "url": "https://github.com/chipweaver/veripower/blob/bb24efe1b7692cdd743e4adb03b7f7bf296baa89/.opencode/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": ".dsh/README.md",
+      "sha256": "e9794b750f853934c989db4d9666bac4b88448bc0b8b953c6bcabf323a0500a3",
+      "url": "https://github.com/chipweaver/veripower/blob/bb24efe1b7692cdd743e4adb03b7f7bf296baa89/.dsh/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": ".codex-plugin/README.md",
+      "sha256": "1755d9b0b341663c685331bf2c48f52419781d2dd3025715b7b4d2d11f2e5ba2",
+      "url": "https://github.com/chipweaver/veripower/blob/bb24efe1b7692cdd743e4adb03b7f7bf296baa89/.codex-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "veripower",
+      "version": "0.2.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chipweaver/veripower",
+        "commit": "bb24efe1b7692cdd743e4adb03b7f7bf296baa89"
+      },
+      "manifestSha256": "be0178161fe59c61c253bb6165aed9169576f8b17f6216c2628faac29910ba87",
+      "manifestUrl": "https://github.com/chipweaver/veripower/blob/bb24efe1b7692cdd743e4adb03b7f7bf296baa89/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "veripower",
+        "versions": [
+          {
+            "version": "0.2.10",
+            "publishTimestamp": 1794466739,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chipweaver/veripower",
+              "commit": "bb24efe1b7692cdd743e4adb03b7f7bf296baa89"
+            },
+            "engines": {
+              "dsh": "^0.2.1-alpha.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chipweaver/veripower",
+    "commit": "bb24efe1b7692cdd743e4adb03b7f7bf296baa89",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:27.228Z"
+}

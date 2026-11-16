@@ -1,0 +1,150 @@
+{
+  "full_name": "eghrhegpe/dsh-connect-sensenova-token-plan",
+  "originalPosition": 188,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:12.949Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1ae6f1e5c30ce49a31beb2982024062889895d24dd76e69e6a1c8298c8475c95",
+      "url": "https://github.com/eghrhegpe/dsh-connect-sensenova-token-plan/blob/73b6d48e893406e14619270bd919685f1de52b2b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-connect-sensenova-token-plan",
+          "command": "dsh plugin --profile web add dsh-connect-sensenova-token-plan",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-connect-sensenova-token-plan",
+          "command": "dsh plugin --profile desktop add dsh-connect-sensenova-token-plan",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "171001fc468cc444660486b62cd88c9bd3cbc029990b9684c24da0200c4ec367",
+      "url": "https://github.com/eghrhegpe/dsh-connect-sensenova-token-plan/blob/73b6d48e893406e14619270bd919685f1de52b2b/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-connect-sensenova-token-plan",
+      "version": "0.8.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/eghrhegpe/dsh-connect-sensenova-token-plan",
+        "commit": "73b6d48e893406e14619270bd919685f1de52b2b"
+      },
+      "manifestSha256": "fd08e8b3de20237d6b12a4fe5ddf4822f18946ac25fe136abc5bbc2bbf1bc542",
+      "manifestUrl": "https://github.com/eghrhegpe/dsh-connect-sensenova-token-plan/blob/73b6d48e893406e14619270bd919685f1de52b2b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5 <0.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-connect-sensenova-token-plan",
+        "versions": [
+          {
+            "version": "0.8.7",
+            "publishTimestamp": 1793904322,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/eghrhegpe/dsh-connect-sensenova-token-plan",
+              "commit": "73b6d48e893406e14619270bd919685f1de52b2b"
+            },
+            "engines": {
+              "dsh": ">=0.1.5 <0.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-connect-sensenova-token-plan",
+      "origin": "npm",
+      "name": "dsh-connect-sensenova-token-plan",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-connect-sensenova-token-plan",
+        "title": {
+          "en": "SenseNova Model Access",
+          "zh": "商汤模型接入"
+        },
+        "description": {
+          "en": "One-tap connect SenseNova Token Plan language and image models into DSH (off by default), with image recognition and thinking level filled in automatically. On a rate limit it backs off and retries on its own instead of misreading it as an exhausted quota. After signing in to the SenseNova console you can see the usage pill, credit pools and per-model consumption. Xiaohuanxiong can also be signed in by QR code, bringing in its models and their consumption multipliers, and taking over DSH web search.",
+          "zh": "一键接入商汤 Token Plan的语言、生图模型到 DSH（默认关），自动填入图片识别与思考强度；限频时自动退避重试，不会误判为额度耗尽；登录商汤控制台后，可查看用量胶囊、积分池、每模型消耗。也支持扫码登录小浣熊，接入其模型，查看模型消耗倍率，使用联网搜索。"
+        },
+        "repository": {
+          "url": "https://github.com/eghrhegpe/dsh-connect-sensenova-token-plan"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "sensenova",
+            "token-plan",
+            "credits",
+            "quota"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tCiAgICBTZW5zZVRpbWUtc3R5bGUgaW50ZXJsb2NraW5nIG1hcmsgZm9yIHRoZSBUb2tlbiBQbGFuIHBsdWdpbiBjYXJkLgoKICAgIExhbmd1YWdlOiDllYbmsaQgYnJhbmQgcHVycGxlICsgY3lhbiwgcm91bmRlZC1jb3JuZXIgYmxvY2tzIHRoYXQgaW50ZXJsb2NrCiAgICBhcm91bmQgYSBuZWdhdGl2ZS1zcGFjZSBjZW50cmUsIGFuZCBvbmUgZGlhZ29uYWwtaGF0Y2hlZCAid2luZG93Ii4KICAgIFRoZSBwdXJwbGUgY29ybmVyICh0b3AtbGVmdCkgYW5kIHRoZSBjeWFuIGNvcm5lciAoYm90dG9tLXJpZ2h0KSBzaGFyZSBhCiAgICByb3VuZGVkIG91dGVyIHJhZGl1cywgc28gdGhlIHR3byBoYWx2ZXMgcmVhZCBhcyBvbmUgY29udGludW91cyBmaWd1cmUuCiAgLS0+CiAgPGRlZnM+CiAgICA8cGF0aCBpZD0iY29ybmVyVEwiIGQ9Ik00MSA0SDE0UTUgNCA1IDEzVjQxLjNIMjNWMjIuN0g0MVoiIC8+CiAgICA8cGF0aCBpZD0iY29ybmVyQlIiIGQ9Ik00MSA0MS4zSDU5VjUxUTU5IDYwIDUwIDYwSDQxWiIgLz4KICAgIDxjbGlwUGF0aCBpZD0iY29ybmVyVEwtY2xpcCI+PHVzZSBocmVmPSIjY29ybmVyVEwiIC8+PC9jbGlwUGF0aD4KICAgIDxjbGlwUGF0aCBpZD0id2luZG93LWNsaXAiPjxyZWN0IHg9IjEwLjQiIHk9IjExLjgiIHdpZHRoPSIyMS4yIiBoZWlnaHQ9IjEzLjgiIHJ4PSIxLjYiIC8+PC9jbGlwUGF0aD4KICA8L2RlZnM+CgogIDwhLS0gUHVycGxlIGludGVybG9ja2luZyBibG9jayB3aXRoIGl0cyBoYXRjaGVkIHdpbmRvdyAtLT4KICA8ZyBjbGlwLXBhdGg9InVybCgjY29ybmVyVEwtY2xpcCkiPgogICAgPHVzZSBocmVmPSIjY29ybmVyVEwiIGZpbGw9IiM1NTMzRDYiIC8+CiAgICA8ZyBjbGlwLXBhdGg9InVybCgjd2luZG93LWNsaXApIj4KICAgICAgPGxpbmUgeDE9Ii0xOCIgeTE9IjAiIHgyPSI0NiIgeTI9IjY0IiBzdHJva2U9IiMwMEZBQzQiIHN0cm9rZS13aWR0aD0iMi42IiAvPgogICAgICA8bGluZSB4MT0iLTEyLjUiIHkxPSIwIiB4Mj0iNTEuNSIgeTI9IjY0IiBzdHJva2U9IiMwMEZBQzQiIHN0cm9rZS13aWR0aD0iMi42IiAvPgogICAgICA8bGluZSB4MT0iLTciIHkxPSIwIiB4Mj0iNTciIHkyPSI2NCIgc3Ryb2tlPSIjMDBGQUM0IiBzdHJva2Utd2lkdGg9IjIuNiIgLz4KICAgICAgPGxpbmUgeDE9Ii0xLjUiIHkxPSIwIiB4Mj0iNjIuNSIgeTI9IjY0IiBzdHJva2U9IiMwMEZBQzQiIHN0cm9rZS13aWR0aD0iMi42IiAvPgogICAgICA8bGluZSB4MT0iNCIgeTE9IjAiIHgyPSI2OCIgeTI9IjY0IiBzdHJva2U9IiMwMEZBQzQiIHN0cm9rZS13aWR0aD0iMi42IiAvPgogICAgICA8bGluZSB4MT0iOS41IiB5MT0iMCIgeDI9IjczLjUiIHkyPSI2NCIgc3Ryb2tlPSIjMDBGQUM0IiBzdHJva2Utd2lkdGg9IjIuNiIgLz4KICAgICAgPGxpbmUgeDE9IjE1IiB5MT0iMCIgeDI9Ijc5IiB5Mj0iNjQiIHN0cm9rZT0iIzAwRkFDNCIgc3Ryb2tlLXdpZHRoPSIyLjYiIC8+CiAgICAgIDxsaW5lIHgxPSIyMC41IiB5MT0iMCIgeDI9Ijg0LjUiIHkyPSI2NCIgc3Ryb2tlPSIjMDBGQUM0IiBzdHJva2Utd2lkdGg9IjIuNiIgLz4KICAgIDwvZz4KICA8L2c+CgogIDwhLS0gQ3lhbiBpbnRlcmxvY2tpbmcgdGlsZSwgdG9wIHJpZ2h0IC0tPgogIDxyZWN0IHg9IjQxIiB5PSIyMi43IiB3aWR0aD0iMTgiIGhlaWdodD0iMTguNiIgZmlsbD0iIzAwRkFDNCIgLz4KCiAgPCEtLSBDeWFuIGludGVybG9ja2luZyB0aWxlLCBib3R0b20gbGVmdCAtLT4KICA8cmVjdCB4PSIyMyIgeT0iNDEuMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4LjciIGZpbGw9IiMwMEZBQzQiIC8+CgogIDwhLS0gUHVycGxlIGludGVybG9ja2luZyB0aWxlIHdpdGggcm91bmRlZCBvdXRlciBjb3JuZXIgLS0+CiAgPHVzZSBocmVmPSIjY29ybmVyQlIiIGZpbGw9IiM1NTMzRDYiIC8+Cjwvc3ZnPg==",
+        "versions": [
+          {
+            "version": "0.8.7",
+            "publishTimestamp": 1793924216,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5 <0.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d59077a05c2de741fb95210a87997ea70218879fe9db5d566030549f2ca7b2aa",
+      "evidence": [
+        {
+          "name": "dsh-connect-sensenova-token-plan",
+          "version": "0.8.7",
+          "tarball": "https://registry.npmjs.org/dsh-connect-sensenova-token-plan/-/dsh-connect-sensenova-token-plan-0.8.7.tgz",
+          "integrity": "sha512-pJ7NE4CxlJmm4rQIYZ9lO83UUzhSEF2mcJakcnF+IAty6iwnn+WWSiDfLDJLNacJ5Nt/em+dCqv0FiDPHMojxw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-connect-sensenova-token-plan",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/eghrhegpe/dsh-connect-sensenova-token-plan",
+    "commit": "73b6d48e893406e14619270bd919685f1de52b2b",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:23.473Z"
+}

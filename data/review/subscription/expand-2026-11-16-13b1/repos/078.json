@@ -1,0 +1,74 @@
+{
+  "full_name": "ZSeven-W/dsh-qa",
+  "originalPosition": 78,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 78,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:05:44.567Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c4dd7e863d00368944679494308b13a9d1a3b74448db64139e4d7d98e2290c32",
+      "url": "https://github.com/ZSeven-W/dsh-qa/blob/36b819203717641e104e75cfcafd06e7ec92edc9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "9c3cdfc1f08ab119c5d5e28ef94797471fc7a138fc3b682e87d6f244002320a1",
+      "url": "https://github.com/ZSeven-W/dsh-qa/blob/36b819203717641e104e75cfcafd06e7ec92edc9/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zseven-w/dsh-qa",
+      "version": "0.1.0-rc.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZSeven-W/dsh-qa",
+        "commit": "36b819203717641e104e75cfcafd06e7ec92edc9"
+      },
+      "manifestSha256": "cf21ddb93f44bb56742ca42a888b211be7915dccff3f81718e30de0d732efee3",
+      "manifestUrl": "https://github.com/ZSeven-W/dsh-qa/blob/36b819203717641e104e75cfcafd06e7ec92edc9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@zseven-w/dsh-qa",
+        "versions": [
+          {
+            "version": "0.1.0-rc.2",
+            "publishTimestamp": 1790286028,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ZSeven-W/dsh-qa",
+              "commit": "36b819203717641e104e75cfcafd06e7ec92edc9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZSeven-W/dsh-qa",
+    "commit": "36b819203717641e104e75cfcafd06e7ec92edc9",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:05:54.618Z"
+}

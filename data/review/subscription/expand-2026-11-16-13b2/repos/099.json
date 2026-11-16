@@ -1,0 +1,69 @@
+{
+  "full_name": "dat-lequoc/dsh-supervisor",
+  "originalPosition": 99,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 99,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:46.293Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8d1fac91bb91d6e628c051867b210ba17314cbc2fbd34ff81f59a2511051cc3a",
+      "url": "https://github.com/dat-lequoc/dsh-supervisor/blob/84cc8eeee85e800242d30ee15f9b672aa2aea9b9/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-supervisor",
+      "version": "0.9.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dat-lequoc/dsh-supervisor",
+        "commit": "84cc8eeee85e800242d30ee15f9b672aa2aea9b9"
+      },
+      "manifestSha256": "4e6866c43c6f3059957379e6d2f639562fd66cd7a8b8667f66d1e8c825f5f4f7",
+      "manifestUrl": "https://github.com/dat-lequoc/dsh-supervisor/blob/84cc8eeee85e800242d30ee15f9b672aa2aea9b9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.3.0 >=0.1.0-rc.8",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-supervisor",
+        "versions": [
+          {
+            "version": "0.9.1",
+            "publishTimestamp": 1787577970,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dat-lequoc/dsh-supervisor",
+              "commit": "84cc8eeee85e800242d30ee15f9b672aa2aea9b9"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0 >=0.1.0-rc.8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dat-lequoc/dsh-supervisor",
+    "commit": "84cc8eeee85e800242d30ee15f9b672aa2aea9b9",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:16:54.693Z"
+}

@@ -1,0 +1,151 @@
+{
+  "full_name": "Golden-Pigeon/dsh-remote",
+  "originalPosition": 162,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 162,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:48.413Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9b240466daf05f78bced95b712dfeb05ffc8f216a5ffee761acf70c4c324813e",
+      "url": "https://github.com/Golden-Pigeon/dsh-remote/blob/3733e257e29bfcc5011398a83df3840c22509fb4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "0caf25e4d0cd37406cb89c1e5806a0640965ecb1b81384165c9a2476b010f314",
+      "url": "https://github.com/Golden-Pigeon/dsh-remote/blob/3733e257e29bfcc5011398a83df3840c22509fb4/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remote-local-plugin",
+      "version": "0.8.21",
+      "path": "packages/local-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Golden-Pigeon/dsh-remote",
+        "commit": "3733e257e29bfcc5011398a83df3840c22509fb4",
+        "path": "packages/local-plugin"
+      },
+      "manifestSha256": "a1c2a6e3ec2356b9e2f29714da8202efb7f872dab4f0c841ea3f385a8d89630f",
+      "manifestUrl": "https://github.com/Golden-Pigeon/dsh-remote/blob/3733e257e29bfcc5011398a83df3840c22509fb4/packages/local-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-remote-local-plugin",
+        "versions": [
+          {
+            "version": "0.8.21",
+            "publishTimestamp": 1794711129,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Golden-Pigeon/dsh-remote",
+              "commit": "3733e257e29bfcc5011398a83df3840c22509fb4",
+              "path": "packages/local-plugin"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@goldenpigeon/dsh-remote-agent",
+      "version": "0.2.12",
+      "path": "packages/remote-agent",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Golden-Pigeon/dsh-remote",
+        "commit": "3733e257e29bfcc5011398a83df3840c22509fb4",
+        "path": "packages/remote-agent"
+      },
+      "manifestSha256": "252cdb8ff2218208a0535ac8a86d735571be5ebe7e931a4890f4c33291b87ede",
+      "manifestUrl": "https://github.com/Golden-Pigeon/dsh-remote/blob/3733e257e29bfcc5011398a83df3840c22509fb4/packages/remote-agent/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@goldenpigeon/dsh-remote-agent",
+        "versions": [
+          {
+            "version": "0.2.12",
+            "publishTimestamp": 1794711129,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Golden-Pigeon/dsh-remote",
+              "commit": "3733e257e29bfcc5011398a83df3840c22509fb4",
+              "path": "packages/remote-agent"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remote-terminal-controller",
+      "version": "0.1.3",
+      "path": "packages/terminal-controller",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Golden-Pigeon/dsh-remote",
+        "commit": "3733e257e29bfcc5011398a83df3840c22509fb4",
+        "path": "packages/terminal-controller"
+      },
+      "manifestSha256": "8216a66f59bed0294a082ed73f647fcd79906a304df98a5f8e9ff9143dd88a2d",
+      "manifestUrl": "https://github.com/Golden-Pigeon/dsh-remote/blob/3733e257e29bfcc5011398a83df3840c22509fb4/packages/terminal-controller/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-remote-terminal-controller",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794711129,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Golden-Pigeon/dsh-remote",
+              "commit": "3733e257e29bfcc5011398a83df3840c22509fb4",
+              "path": "packages/terminal-controller"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Golden-Pigeon/dsh-remote",
+    "commit": "3733e257e29bfcc5011398a83df3840c22509fb4",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:08.087Z"
+}

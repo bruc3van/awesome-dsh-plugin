@@ -1,0 +1,92 @@
+{
+  "full_name": "Altairpaca/dshelm",
+  "originalPosition": 138,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 138,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:17.445Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "04c9e5312873ea1b87c9869d715ae8ef24f6c7043b3200389667a24a24a77ac8",
+      "url": "https://github.com/Altairpaca/dshelm/blob/824c12436a1d6dd89800f12914c0399f57fa827e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "34a7952b61c3fb1eb9b80bab7078583b1587fe6e23449ba4c8fca114b6ddf520",
+      "url": "https://github.com/Altairpaca/dshelm/blob/824c12436a1d6dd89800f12914c0399f57fa827e/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "40122222c0bfff2ea503dad5c21d025654027bce62b071eced4410850c4b8d3a",
+      "url": "https://github.com/Altairpaca/dshelm/blob/824c12436a1d6dd89800f12914c0399f57fa827e/examples/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "02029950bef735623f87afbe0b7ff4359ea865e01fd7a96516b173a07f0c4e36",
+      "url": "https://github.com/Altairpaca/dshelm/blob/824c12436a1d6dd89800f12914c0399f57fa827e/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dshelm/dsh",
+      "version": "0.3.0-alpha.0",
+      "path": "packages/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Altairpaca/dshelm",
+        "commit": "824c12436a1d6dd89800f12914c0399f57fa827e",
+        "path": "packages/dsh"
+      },
+      "manifestSha256": "3ed12549625b1c9155356117b99342dbb70a68b13f3fba8807b3cc3e9a754e12",
+      "manifestUrl": "https://github.com/Altairpaca/dshelm/blob/824c12436a1d6dd89800f12914c0399f57fa827e/packages/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dshelm/dsh",
+        "versions": [
+          {
+            "version": "0.3.0-alpha.0",
+            "publishTimestamp": 1790239555,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Altairpaca/dshelm",
+              "commit": "824c12436a1d6dd89800f12914c0399f57fa827e",
+              "path": "packages/dsh"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Altairpaca/dshelm",
+    "commit": "824c12436a1d6dd89800f12914c0399f57fa827e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:40.154Z"
+}

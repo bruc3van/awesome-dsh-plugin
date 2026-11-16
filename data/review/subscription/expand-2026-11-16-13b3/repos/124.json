@@ -1,0 +1,162 @@
+{
+  "full_name": "vdnight89/InfiniteDSH",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:35.000Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b149fafc81891109f9fd22489536da76e2ebe9b4c13a43c683ac26b67be85eef",
+      "url": "https://github.com/vdnight89/InfiniteDSH/blob/b9716a43e1d396b71baf2b270ba33c5e92b944db/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/vdnight89/InfiniteDSH",
+          "command": "dsh plugin --profile web add github:vdnight89/InfiniteDSH",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/vdnight89/InfiniteDSH#v0.4.13",
+          "command": "dsh plugin --profile web add github:vdnight89/InfiniteDSH#v0.4.13",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-infinite",
+          "command": "dsh plugin add dsh-infinite",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-infinite",
+      "version": "0.4.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/vdnight89/InfiniteDSH",
+        "commit": "b9716a43e1d396b71baf2b270ba33c5e92b944db"
+      },
+      "manifestSha256": "b39127e25b993f6fbd3b3404c6a8b6346e63bfaffce58b710578168287109a6b",
+      "manifestUrl": "https://github.com/vdnight89/InfiniteDSH/blob/b9716a43e1d396b71baf2b270ba33c5e92b944db/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-infinite",
+        "versions": [
+          {
+            "version": "0.4.13",
+            "publishTimestamp": 1787040141,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/vdnight89/InfiniteDSH",
+              "commit": "b9716a43e1d396b71baf2b270ba33c5e92b944db"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/vdnight89/InfiniteDSH#v0.4.13",
+      "origin": "git_target",
+      "name": "dsh-infinite",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-infinite",
+        "title": "dsh-infinite",
+        "description": "诸天万界DSH——一会话，一扇门，一界命数。DeepSeek Harness 上的文字修罗场。不助手，不提纲，只写正文。点封面启程；誊出来的，是你活过的天书。",
+        "author": "InfiniteDSH contributors",
+        "homepage": "https://github.com/vdnight89/InfiniteDSH#readme",
+        "repository": {
+          "url": "https://github.com/vdnight89/InfiniteDSH"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "deepseek",
+            "cordis-plugin",
+            "ai-agents",
+            "plugins",
+            "interactive-fiction",
+            "text-adventure",
+            "ai-writing",
+            "worldbook",
+            "novel",
+            "chinese",
+            "诸天万界",
+            "诸天万界DSH"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.13",
+            "publishTimestamp": 1787035177,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/vdnight89/InfiniteDSH",
+              "commit": "1eff356e43515c111f7e71ccf734c08886f74b29"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "1eff356e43515c111f7e71ccf734c08886f74b29",
+          "name": "dsh-infinite",
+          "version": "0.4.13",
+          "url": "https://github.com/vdnight89/InfiniteDSH",
+          "manifestSha256": "33264f3cf96a580960666e518f58af5d5aa9c3115bdcb2c90d3de23709ae1545",
+          "publishTimestamp": 1787035177
+        }
+      ]
+    },
+    {
+      "target": "dsh-infinite",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/vdnight89/InfiniteDSH",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/vdnight89/InfiniteDSH#v0.4.13",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-infinite",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/vdnight89/InfiniteDSH",
+    "commit": "b9716a43e1d396b71baf2b270ba33c5e92b944db",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:51.297Z"
+}

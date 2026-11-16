@@ -1,0 +1,146 @@
+{
+  "full_name": "2710586329/dsh-qq",
+  "originalPosition": 137,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 137,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:16.877Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a22bbb8c368f0ead5e6f1521d657650fdfa3b677eb0e06f6a41953edbcbdf606",
+      "url": "https://github.com/2710586329/dsh-qq/blob/224ad59603b176580241b45d3f1b3ec53a5d7eeb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-qq-onebot",
+          "command": "dsh plugin --profile desktop add dsh-qq-onebot",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "e7dcb428ae7b1da7bef38330025b49a3ddca5637b2a4d37457b783363e393c89",
+      "url": "https://github.com/2710586329/dsh-qq/blob/224ad59603b176580241b45d3f1b3ec53a5d7eeb/tools/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qq-onebot",
+      "version": "1.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/2710586329/dsh-qq",
+        "commit": "224ad59603b176580241b45d3f1b3ec53a5d7eeb"
+      },
+      "manifestSha256": "233aeec8eae7a48c3ed4f93a33ea6144b62cbadc3cc302c14f9e9d1cc5a3f385",
+      "manifestUrl": "https://github.com/2710586329/dsh-qq/blob/224ad59603b176580241b45d3f1b3ec53a5d7eeb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-qq-onebot",
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1793970955,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/2710586329/dsh-qq",
+              "commit": "224ad59603b176580241b45d3f1b3ec53a5d7eeb"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-qq-onebot",
+      "origin": "npm",
+      "name": "dsh-qq-onebot",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-qq-onebot",
+        "title": "dsh-qq-onebot",
+        "description": "QQ channel plugin for DeepSeek Harness via OneBot 11 / NapCat — private chats and group chats with your agent.",
+        "author": "xier",
+        "homepage": "https://github.com/2710586329/dsh-qq#readme",
+        "repository": {
+          "url": "https://github.com/2710586329/dsh-qq"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "qq",
+            "qqbot",
+            "onebot",
+            "onebot11",
+            "napcat",
+            "cordis",
+            "plugin",
+            "chatbot",
+            "ai-agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1793971107,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b7887485b62c880d3d997258222ca38a549a485fbe8ea99d360386813b9312bd",
+      "evidence": [
+        {
+          "name": "dsh-qq-onebot",
+          "version": "1.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-qq-onebot/-/dsh-qq-onebot-1.3.0.tgz",
+          "integrity": "sha512-Pc54oAWZIl3jrs6vdE+0DTDJHbe3cqexjpkYcoR5ExWvqzMJtJBirz9n0VzU8e4yXqagt+ZMXPSthlrT8NuS3A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-qq-onebot",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/2710586329/dsh-qq",
+    "commit": "224ad59603b176580241b45d3f1b3ec53a5d7eeb",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:28.655Z"
+}

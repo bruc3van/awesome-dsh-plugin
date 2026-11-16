@@ -1,0 +1,270 @@
+{
+  "full_name": "Xiaofei-fei/dsh-prompt-history",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:36.226Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9c7aec117e55d594c440a434a9b66072e56c6538605479ed3c474490c7e7ae5e",
+      "url": "https://github.com/Xiaofei-fei/dsh-prompt-history/blob/843fdacec09cca55f09c21d3dccc4e9b72f1a64e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-history",
+          "command": "dsh plugin --profile web add dsh-prompt-history",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Xiaofei-fei/dsh-prompt-history#main",
+          "command": "dsh plugin --profile web add \"github:Xiaofei-fei/dsh-prompt-history#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "d78c40ea36bf77871fc674e0c20f3f23a8b5e49dd8f95c6673e5dcbc8e4079ba",
+      "url": "https://github.com/Xiaofei-fei/dsh-prompt-history/blob/843fdacec09cca55f09c21d3dccc4e9b72f1a64e/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-history",
+          "command": "dsh plugin --profile web add dsh-prompt-history",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Xiaofei-fei/dsh-prompt-history#main",
+          "command": "dsh plugin --profile web add \"github:Xiaofei-fei/dsh-prompt-history#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "3563eb387b0f6a181b6659945258524a8498b0630be15b707074f32f33b8b117",
+      "url": "https://github.com/Xiaofei-fei/dsh-prompt-history/blob/843fdacec09cca55f09c21d3dccc4e9b72f1a64e/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-history",
+          "command": "dsh plugin --profile web add dsh-prompt-history",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Xiaofei-fei/dsh-prompt-history#main",
+          "command": "dsh plugin --profile web add \"github:Xiaofei-fei/dsh-prompt-history#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.pt.md",
+      "sha256": "d97f67ab2aa5591fff8755da51eb51cfb6eec6a51da175f7d54caedf49d1fef2",
+      "url": "https://github.com/Xiaofei-fei/dsh-prompt-history/blob/843fdacec09cca55f09c21d3dccc4e9b72f1a64e/README.pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-history",
+          "command": "dsh plugin --profile web add dsh-prompt-history",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Xiaofei-fei/dsh-prompt-history#main",
+          "command": "dsh plugin --profile web add \"github:Xiaofei-fei/dsh-prompt-history#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "test/e2e/README.md",
+      "sha256": "e46b641d6e1b3445865aebebc81a8b766c68d20706e7ae8e957a0c54368b3065",
+      "url": "https://github.com/Xiaofei-fei/dsh-prompt-history/blob/843fdacec09cca55f09c21d3dccc4e9b72f1a64e/test/e2e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-history",
+      "version": "1.13.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Xiaofei-fei/dsh-prompt-history",
+        "commit": "843fdacec09cca55f09c21d3dccc4e9b72f1a64e"
+      },
+      "manifestSha256": "5e3df9bd77d27ca67e7e2025a9f1489bb5f498569c081c943cc78c6398ed2f8e",
+      "manifestUrl": "https://github.com/Xiaofei-fei/dsh-prompt-history/blob/843fdacec09cca55f09c21d3dccc4e9b72f1a64e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-prompt-history",
+        "versions": [
+          {
+            "version": "1.13.1",
+            "publishTimestamp": 1794810969,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Xiaofei-fei/dsh-prompt-history",
+              "commit": "843fdacec09cca55f09c21d3dccc4e9b72f1a64e"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-prompt-history",
+      "origin": "npm",
+      "name": "dsh-prompt-history",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-prompt-history",
+        "title": "dsh-prompt-history",
+        "description": "DSH web plugin for the composer: shell-style prompt history (Up/Down with prefix search, Ctrl+R reverse search), Codex-style completion ghosted after the caret — history first, then a model continuation of the half-written message — plus next-prompt prediction in the empty input (Tab or → to accept), a selection toolbar (copy / quote / ask in side chat), right-click paste, a saved prompt-template panel, a draggable chat TOC, and a side chat that runs a parallel agent thread in the right sidebar — forked with the full conversation, dockable/splittable/floatable, with bidirectional bridging to the main chat and a parallel-write guard. Fully internationalized (zh/en), no configuration required.",
+        "repository": {
+          "url": "https://github.com/Xiaofei-fei/dsh-prompt-history"
+        },
+        "metadata": {
+          "keywords": [
+            "autocomplete",
+            "composer",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "history",
+            "i18n",
+            "input",
+            "plugin",
+            "prediction",
+            "prompt",
+            "side-chat",
+            "terminal",
+            "toc"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.13.1",
+            "publishTimestamp": 1794811313,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "926866325b7498942a2b45a6b7d8800db9d5189d72611d2201561e10a5603d9a",
+      "evidence": [
+        {
+          "name": "dsh-prompt-history",
+          "version": "1.13.1",
+          "tarball": "https://registry.npmjs.org/dsh-prompt-history/-/dsh-prompt-history-1.13.1.tgz",
+          "integrity": "sha512-NldcRIVuFgfb4Z1JHHwvs8wfr0ZGNvHgZH3H8RHStqa4hvB6ElSglg/x7bZPta6KyicjjZtRzDzVKw5y2IjkmQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/Xiaofei-fei/dsh-prompt-history#main",
+      "origin": "git_target",
+      "name": "dsh-prompt-history",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-prompt-history",
+        "title": "dsh-prompt-history",
+        "description": "DSH web plugin for the composer: shell-style prompt history (Up/Down with prefix search, Ctrl+R reverse search), Codex-style completion ghosted after the caret — history first, then a model continuation of the half-written message — plus next-prompt prediction in the empty input (Tab or → to accept), a selection toolbar (copy / quote / ask in side chat), right-click paste, a saved prompt-template panel, a draggable chat TOC, and a side chat that runs a parallel agent thread in the right sidebar — forked with the full conversation, dockable/splittable/floatable, with bidirectional bridging to the main chat and a parallel-write guard. Fully internationalized (zh/en), no configuration required.",
+        "repository": {
+          "url": "https://github.com/Xiaofei-fei/dsh-prompt-history"
+        },
+        "metadata": {
+          "keywords": [
+            "autocomplete",
+            "composer",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "history",
+            "i18n",
+            "input",
+            "plugin",
+            "prediction",
+            "prompt",
+            "side-chat",
+            "terminal",
+            "toc"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.13.1",
+            "publishTimestamp": 1794810969,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Xiaofei-fei/dsh-prompt-history",
+              "commit": "843fdacec09cca55f09c21d3dccc4e9b72f1a64e"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "843fdacec09cca55f09c21d3dccc4e9b72f1a64e",
+          "name": "dsh-prompt-history",
+          "version": "1.13.1",
+          "url": "https://github.com/Xiaofei-fei/dsh-prompt-history",
+          "manifestSha256": "5e3df9bd77d27ca67e7e2025a9f1489bb5f498569c081c943cc78c6398ed2f8e",
+          "publishTimestamp": 1794810969
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-prompt-history",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Xiaofei-fei/dsh-prompt-history#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Xiaofei-fei/dsh-prompt-history",
+    "commit": "843fdacec09cca55f09c21d3dccc4e9b72f1a64e",
+    "releaseTags": 92,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:59.376Z"
+}

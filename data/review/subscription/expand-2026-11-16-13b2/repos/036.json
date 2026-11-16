@@ -1,0 +1,120 @@
+{
+  "full_name": "zebbkira/dsh-skills-mcp-manager",
+  "originalPosition": 36,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 36,
+  "batch": 1,
+  "stargazers_count": 23,
+  "startedAt": "2026-11-16T12:14:01.804Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "188943d788832802688a24e898d67d4e7238bd5f0274660956cded7e3957c8da",
+      "url": "https://github.com/zebbkira/dsh-skills-mcp-manager/blob/ab57b1c4265e13008b108de460a71680f3366223/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zebbkira/dsh-skills-mcp-manager@0.2.0",
+          "command": "dsh plugin --profile web add @zebbkira/dsh-skills-mcp-manager@0.2.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zebbkira/dsh-skills-mcp-manager",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zebbkira/dsh-skills-mcp-manager",
+        "commit": "ab57b1c4265e13008b108de460a71680f3366223"
+      },
+      "manifestSha256": "d0702f2b821f312b9998c3db0f045224bda0df0cb5bca19787ae3e3f0a573626",
+      "manifestUrl": "https://github.com/zebbkira/dsh-skills-mcp-manager/blob/ab57b1c4265e13008b108de460a71680f3366223/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@zebbkira/dsh-skills-mcp-manager",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787463016,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zebbkira/dsh-skills-mcp-manager",
+              "commit": "ab57b1c4265e13008b108de460a71680f3366223"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@zebbkira/dsh-skills-mcp-manager@0.2.0",
+      "origin": "npm",
+      "name": "@zebbkira/dsh-skills-mcp-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@zebbkira/dsh-skills-mcp-manager",
+        "title": "@zebbkira/dsh-skills-mcp-manager",
+        "description": "Skills & MCP manager for the dsh web GUI: browse/enable/import/delete skills across project and user roots, and manage MCP servers with a REAL connection through @deepseek-ai/dsh-mcp-client (enabled servers connect and register their tools on ctx.tools; enable/disable actually connects/disconnects). Hot-pluggable — mounted via a profile bundle patch + node_modules symlink, no dsh source changes.",
+        "repository": {
+          "url": "https://github.com/zebbkira/dsh-skills-mcp-manager"
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787463049,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "604eaa6a8f390d6cdf6f64b771bbf84ffbdc2e14944562430d3fc7b2b6661d8d",
+      "evidence": [
+        {
+          "name": "@zebbkira/dsh-skills-mcp-manager",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/@zebbkira/dsh-skills-mcp-manager/-/dsh-skills-mcp-manager-0.2.0.tgz",
+          "integrity": "sha512-eNMl6wt8HZQxVcdTzbuT0LoiPjsW8C5hMW6AedEY2CUHhdhJ4VfoCh6JOTGt6HegsF/S9AP/XZjJyTHmk7CCxQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@zebbkira/dsh-skills-mcp-manager@0.2.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zebbkira/dsh-skills-mcp-manager",
+    "commit": "ab57b1c4265e13008b108de460a71680f3366223",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:14:11.588Z"
+}

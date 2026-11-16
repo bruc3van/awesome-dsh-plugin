@@ -1,0 +1,145 @@
+{
+  "full_name": "boxeryao/dsh-mini-tui",
+  "originalPosition": 73,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 73,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:23:53.479Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "32a84fabbcb819b90c3b0b21bbae53ba437b235dc9985799ec2214a794cac6e6",
+      "url": "https://github.com/boxeryao/dsh-mini-tui/blob/6b37de9bb5a2231d053ee1fbd086f27a1a95d274/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mini-tui@latest",
+          "command": "dsh plugin --profile tui add dsh-mini-tui@latest",
+          "profile": "tui"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "96fe5019f8144218dce22629ac7a0bd2108b21a8bf030392a0b4dc85d7405aad",
+      "url": "https://github.com/boxeryao/dsh-mini-tui/blob/6b37de9bb5a2231d053ee1fbd086f27a1a95d274/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mini-tui@latest",
+          "command": "dsh plugin --profile tui add dsh-mini-tui@latest",
+          "profile": "tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mini-tui",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/boxeryao/dsh-mini-tui",
+        "commit": "6b37de9bb5a2231d053ee1fbd086f27a1a95d274"
+      },
+      "manifestSha256": "a257c06293b5af49f14c41001d4c8b07e1671dc74a287dba2fec05f3e5aa0d70",
+      "manifestUrl": "https://github.com/boxeryao/dsh-mini-tui/blob/6b37de9bb5a2231d053ee1fbd086f27a1a95d274/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-mini-tui",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1786891641,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/boxeryao/dsh-mini-tui",
+              "commit": "6b37de9bb5a2231d053ee1fbd086f27a1a95d274"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-mini-tui@latest",
+      "origin": "npm",
+      "name": "dsh-mini-tui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mini-tui",
+        "title": "dsh-mini-tui",
+        "description": "DSH Mini TUI: a minimalist terminal interface plugin for DeepSeek Harness",
+        "repository": {
+          "url": "https://github.com/boxeryao/dsh-mini-tui"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-tui",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "tui",
+            "terminal-ui",
+            "ai-agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1786866162,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7188afcea74e41fbfa52b5325288319e6001fe08c48649a07d7cf96b496c0697",
+      "evidence": [
+        {
+          "name": "dsh-mini-tui",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-mini-tui/-/dsh-mini-tui-0.2.1.tgz",
+          "integrity": "sha512-3lcau3FNp1r8BJ3a+Fx3K1F8vq1qU6efnt+qPXfYyobg68hgTLoP1/nQLa9GZnMroWwevLqKFENzHzG6nLS7Rg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mini-tui@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/boxeryao/dsh-mini-tui",
+    "commit": "6b37de9bb5a2231d053ee1fbd086f27a1a95d274",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:24:13.841Z"
+}

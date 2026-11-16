@@ -1,0 +1,238 @@
+{
+  "full_name": "dushudou/dsh-rea",
+  "originalPosition": 186,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 186,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:01.418Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1bc047c3a7ad247af69a3a8174e371eee4de92bb9d2373515f1a3bf769f8c915",
+      "url": "https://github.com/dushudou/dsh-rea/blob/2b543f265753c2a46fcdac8e9b18e313c0866ee1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-rea",
+          "command": "dsh plugin --profile <profile> add dsh-rea",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-rea@latest",
+          "command": "dsh plugin --profile <profile> add dsh-rea@latest",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "0400b5682f83e864dd2e7b1251510d94f7e546a8eba76b55211f76cad5239b94",
+      "url": "https://github.com/dushudou/dsh-rea/blob/2b543f265753c2a46fcdac8e9b18e313c0866ee1/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-rea",
+          "command": "dsh plugin --profile <profile> add dsh-rea",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-rea@latest",
+          "command": "dsh plugin --profile <profile> add dsh-rea@latest",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-rea",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dushudou/dsh-rea",
+        "commit": "2b543f265753c2a46fcdac8e9b18e313c0866ee1"
+      },
+      "manifestSha256": "3ccba7f6885e4f8bfe5d41bd1092afabc2e8207aa17edfba2dc90231263cd473",
+      "manifestUrl": "https://github.com/dushudou/dsh-rea/blob/2b543f265753c2a46fcdac8e9b18e313c0866ee1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-rea",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1792165817,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dushudou/dsh-rea",
+              "commit": "2b543f265753c2a46fcdac8e9b18e313c0866ee1"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-rea",
+      "origin": "npm",
+      "name": "dsh-rea",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-rea",
+        "title": {
+          "en": "REA reverse engineering",
+          "zh": "REA 逆向分析"
+        },
+        "description": {
+          "en": "Adds the REA (Reverse Engineer Anything) MCP server as mcp__rea__* tools: binaries, APKs, JavaScript/Electron, and .NET analysis. Requires rea-agents 6.3+.",
+          "zh": "接入 REA（Reverse Engineer Anything）MCP 服务，提供 mcp__rea__* 工具：分析二进制、APK、JavaScript/Electron 与 .NET。需要 rea-agents 6.3 及以上。"
+        },
+        "author": "tudamu",
+        "homepage": "https://github.com/dushudou/dsh-rea",
+        "repository": {
+          "url": "https://github.com/dushudou/dsh-rea"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "cordis-plugin",
+            "bundle",
+            "mcp",
+            "rea",
+            "reverse-engineering",
+            "ghidra",
+            "binary-analysis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icmVhLWJnIiB4MT0iNCIgeTE9IjQiIHgyPSIzMiIgeTI9IjMyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMyRTNBNEYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTRCOEE2Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI5IiBmaWxsPSJ1cmwoI3JlYS1iZykiLz4KICA8cGF0aCBkPSJNMTEgMTNMNy41IDE4TDExIDIzIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSIxOC41IiBjeT0iMTcuNSIgcj0iNSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjEuOCIvPgogIDxwYXRoIGQ9Ik0yMi4yIDIxLjJMMjYuNSAyNS41IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1792165882,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fa250dc0b7ed9b3daca2a4e88b9f1475e439d26690ad7c0637480da25e7c3f49",
+      "evidence": [
+        {
+          "name": "dsh-rea",
+          "version": "1.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-rea/-/dsh-rea-1.2.0.tgz",
+          "integrity": "sha512-nioBr1WqCACU9K7N6h6NLw9i03vAg/IWnJRtprTA7kdsGYRg/gptO70obW51ijtnZJw5dR5BjiV5R4KkcBfigA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-rea@latest",
+      "origin": "npm",
+      "name": "dsh-rea",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-rea",
+        "title": {
+          "en": "REA reverse engineering",
+          "zh": "REA 逆向分析"
+        },
+        "description": {
+          "en": "Adds the REA (Reverse Engineer Anything) MCP server as mcp__rea__* tools: binaries, APKs, JavaScript/Electron, and .NET analysis. Requires rea-agents 6.3+.",
+          "zh": "接入 REA（Reverse Engineer Anything）MCP 服务，提供 mcp__rea__* 工具：分析二进制、APK、JavaScript/Electron 与 .NET。需要 rea-agents 6.3 及以上。"
+        },
+        "author": "tudamu",
+        "homepage": "https://github.com/dushudou/dsh-rea",
+        "repository": {
+          "url": "https://github.com/dushudou/dsh-rea"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "cordis-plugin",
+            "bundle",
+            "mcp",
+            "rea",
+            "reverse-engineering",
+            "ghidra",
+            "binary-analysis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icmVhLWJnIiB4MT0iNCIgeTE9IjQiIHgyPSIzMiIgeTI9IjMyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMyRTNBNEYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTRCOEE2Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI5IiBmaWxsPSJ1cmwoI3JlYS1iZykiLz4KICA8cGF0aCBkPSJNMTEgMTNMNy41IDE4TDExIDIzIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSIxOC41IiBjeT0iMTcuNSIgcj0iNSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjEuOCIvPgogIDxwYXRoIGQ9Ik0yMi4yIDIxLjJMMjYuNSAyNS41IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1792165882,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fa250dc0b7ed9b3daca2a4e88b9f1475e439d26690ad7c0637480da25e7c3f49",
+      "evidence": [
+        {
+          "name": "dsh-rea",
+          "version": "1.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-rea/-/dsh-rea-1.2.0.tgz",
+          "integrity": "sha512-nioBr1WqCACU9K7N6h6NLw9i03vAg/IWnJRtprTA7kdsGYRg/gptO70obW51ijtnZJw5dR5BjiV5R4KkcBfigA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-rea",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-rea@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dushudou/dsh-rea",
+    "commit": "2b543f265753c2a46fcdac8e9b18e313c0866ee1",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:12.947Z"
+}

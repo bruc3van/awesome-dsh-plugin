@@ -1,0 +1,115 @@
+{
+  "full_name": "yuanstarstar/dsh-game-stack",
+  "originalPosition": 13,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 13,
+  "batch": 1,
+  "stargazers_count": 45,
+  "startedAt": "2026-11-16T12:13:03.352Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8c82bb37ea45c8d9f46af09c3b470e32542f463e820a5d2af69ebcdff884de14",
+      "url": "https://github.com/yuanstarstar/dsh-game-stack/blob/0ec5301c712c2f4394b1f0f7c01bc4990742ddb9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-coach-perceive-v3",
+      "version": "0.2.0",
+      "path": "01-coach-perceive/bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yuanstarstar/dsh-game-stack",
+        "commit": "0ec5301c712c2f4394b1f0f7c01bc4990742ddb9",
+        "path": "01-coach-perceive/bundle"
+      },
+      "manifestSha256": "7ada594ccb4ab9e2b65f3b893466b3c054338cebf1b21f28fc99e6bffdac984b",
+      "manifestUrl": "https://github.com/yuanstarstar/dsh-game-stack/blob/0ec5301c712c2f4394b1f0f7c01bc4990742ddb9/01-coach-perceive/bundle/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-game-learn-v2",
+      "version": "0.2.1",
+      "path": "02-game-learn/bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yuanstarstar/dsh-game-stack",
+        "commit": "0ec5301c712c2f4394b1f0f7c01bc4990742ddb9",
+        "path": "02-game-learn/bundle"
+      },
+      "manifestSha256": "ac24cb2a9d482d3e016e9a41aadc2c7d09ac67063677421592db7e9a4c28a493",
+      "manifestUrl": "https://github.com/yuanstarstar/dsh-game-stack/blob/0ec5301c712c2f4394b1f0f7c01bc4990742ddb9/02-game-learn/bundle/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-cv-recall",
+      "version": "0.1.0",
+      "path": "03-cv-recall/bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yuanstarstar/dsh-game-stack",
+        "commit": "0ec5301c712c2f4394b1f0f7c01bc4990742ddb9",
+        "path": "03-cv-recall/bundle"
+      },
+      "manifestSha256": "0a38b3af8d2966e95acb88f1be61fb99e0e1ce3ef4080ed0da36684a3429caaf",
+      "manifestUrl": "https://github.com/yuanstarstar/dsh-game-stack/blob/0ec5301c712c2f4394b1f0f7c01bc4990742ddb9/03-cv-recall/bundle/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-live-bridge",
+      "version": "0.1.0",
+      "path": "04-live-bridge/bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yuanstarstar/dsh-game-stack",
+        "commit": "0ec5301c712c2f4394b1f0f7c01bc4990742ddb9",
+        "path": "04-live-bridge/bundle"
+      },
+      "manifestSha256": "581a47c1712a10a997680f095ee9df832931e57d7e6f45cd004a8c598634ea13",
+      "manifestUrl": "https://github.com/yuanstarstar/dsh-game-stack/blob/0ec5301c712c2f4394b1f0f7c01bc4990742ddb9/04-live-bridge/bundle/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-launcher",
+      "version": "3.3.2",
+      "path": "05-launcher/bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yuanstarstar/dsh-game-stack",
+        "commit": "0ec5301c712c2f4394b1f0f7c01bc4990742ddb9",
+        "path": "05-launcher/bundle"
+      },
+      "manifestSha256": "b00a2986dc682d278dc5a017aedad8f62ca2fc203070053fc268a2a6e12963d7",
+      "manifestUrl": "https://github.com/yuanstarstar/dsh-game-stack/blob/0ec5301c712c2f4394b1f0f7c01bc4990742ddb9/05-launcher/bundle/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yuanstarstar/dsh-game-stack",
+    "commit": "0ec5301c712c2f4394b1f0f7c01bc4990742ddb9",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:13:17.592Z"
+}

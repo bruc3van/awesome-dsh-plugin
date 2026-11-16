@@ -1,0 +1,74 @@
+{
+  "full_name": "SuCriss/dsh-leekbox",
+  "originalPosition": 196,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 196,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:11:02.139Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ffb4d3ece2791e128c5ade0fd21e98f9e5169adfdc0af0765a44a4f11f7a557a",
+      "url": "https://github.com/SuCriss/dsh-leekbox/blob/1d47fb1bf8f0593b76a57fbfec77516ffe5f79fa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "8ea803e106b0a4a33e1b2900464a53e4e3426fc2463a2d8e68dbc3bf93649dd2",
+      "url": "https://github.com/SuCriss/dsh-leekbox/blob/1d47fb1bf8f0593b76a57fbfec77516ffe5f79fa/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-leekbox",
+      "version": "0.19.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SuCriss/dsh-leekbox",
+        "commit": "1d47fb1bf8f0593b76a57fbfec77516ffe5f79fa"
+      },
+      "manifestSha256": "a07dcc7c50337c3b4fdc102f96270a5afdd63aa16d5f072cef689657c7702c98",
+      "manifestUrl": "https://github.com/SuCriss/dsh-leekbox/blob/1d47fb1bf8f0593b76a57fbfec77516ffe5f79fa/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-leekbox",
+        "versions": [
+          {
+            "version": "0.19.5",
+            "publishTimestamp": 1793177051,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SuCriss/dsh-leekbox",
+              "commit": "1d47fb1bf8f0593b76a57fbfec77516ffe5f79fa"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SuCriss/dsh-leekbox",
+    "commit": "1d47fb1bf8f0593b76a57fbfec77516ffe5f79fa",
+    "releaseTags": 54,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:11:12.535Z"
+}

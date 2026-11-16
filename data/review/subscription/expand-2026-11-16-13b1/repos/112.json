@@ -1,0 +1,84 @@
+{
+  "full_name": "NNNOOOMII/dsh-codex-power-slider",
+  "originalPosition": 112,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 112,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:01.831Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "abfd4cdf753b4d8d301cac872ee5cc1b8042ae13da1192434aa2154242c94a78",
+      "url": "https://github.com/NNNOOOMII/dsh-codex-power-slider/blob/c7b9ff1963f55e810ec975e064aeaa6b27188502/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-power-slider",
+          "command": "dsh plugin --profile desktop add dsh-codex-power-slider",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-power-slider",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NNNOOOMII/dsh-codex-power-slider",
+        "commit": "c7b9ff1963f55e810ec975e064aeaa6b27188502"
+      },
+      "manifestSha256": "d7154403154711813d0d48073905dc5126ea7bb1e28eddae49f1295675028e74",
+      "manifestUrl": "https://github.com/NNNOOOMII/dsh-codex-power-slider/blob/c7b9ff1963f55e810ec975e064aeaa6b27188502/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-codex-power-slider",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792486479,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NNNOOOMII/dsh-codex-power-slider",
+              "commit": "c7b9ff1963f55e810ec975e064aeaa6b27188502"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-codex-power-slider",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-codex-power-slider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NNNOOOMII/dsh-codex-power-slider",
+    "commit": "c7b9ff1963f55e810ec975e064aeaa6b27188502",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:15.164Z"
+}

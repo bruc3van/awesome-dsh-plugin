@@ -1,0 +1,134 @@
+{
+  "full_name": "240xu/dsh-websearch",
+  "originalPosition": 136,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 136,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:13.873Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "98c1a19ac492580c01e678401ec3ab6ed3ac25e62c7a9f4c8d1f2cd8cc3bfe3f",
+      "url": "https://github.com/240xu/dsh-websearch/blob/da42e44a0f54913e132c5219174a3b6f267188fc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@240xu/dsh-websearch",
+          "command": "dsh plugin --profile web add @240xu/dsh-websearch",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@240xu/dsh-websearch",
+      "version": "2.8.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/240xu/dsh-websearch",
+        "commit": "da42e44a0f54913e132c5219174a3b6f267188fc"
+      },
+      "manifestSha256": "3256af4229072057d8cf3c073b26050811390042e47cd4e4cc34d1a822deb557",
+      "manifestUrl": "https://github.com/240xu/dsh-websearch/blob/da42e44a0f54913e132c5219174a3b6f267188fc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@240xu/dsh-websearch",
+        "versions": [
+          {
+            "version": "2.8.8",
+            "publishTimestamp": 1792591710,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/240xu/dsh-websearch",
+              "commit": "da42e44a0f54913e132c5219174a3b6f267188fc"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@240xu/dsh-websearch",
+      "origin": "npm",
+      "name": "@240xu/dsh-websearch",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@240xu/dsh-websearch",
+        "title": "@240xu/dsh-websearch",
+        "description": "Unified web search provider for DeepSeek Harness (ctx.web): 11 backends — Exa + Parallel + DDG + SearXNG (keyless), DeepSeek + Anthropic + OpenAI + Brave + Tavily + Serper + Mojeek (key-gated via Settings credentials). Registers provider id \"unified\" for zero-config web_search. 统一网页搜索聚合：11 后端并发扇出、去重合并，零依赖。See CHANGELOG.md for version history.",
+        "author": "240xu",
+        "repository": {
+          "url": "https://github.com/240xu/dsh-websearch"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "web-search",
+            "mcp",
+            "exa",
+            "parallel",
+            "brave",
+            "tavily",
+            "serper",
+            "searxng",
+            "mojeek",
+            "claude",
+            "codex",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.8.8",
+            "publishTimestamp": 1792591840,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5385a8c9f09122e19634ef9020c0af62a5e550a2375fef12c6e8eaab6a49d2d3",
+      "evidence": [
+        {
+          "name": "@240xu/dsh-websearch",
+          "version": "2.8.8",
+          "tarball": "https://registry.npmjs.org/@240xu/dsh-websearch/-/dsh-websearch-2.8.8.tgz",
+          "integrity": "sha512-sgDi0AMMAT0QCQodqZsbbstzTegDm6KfUSlsCNPORpPM773eUm+SNaSD02G1LJJK0OOg7WeOJJ2DKRp6e7nfSw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@240xu/dsh-websearch",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/240xu/dsh-websearch",
+    "commit": "da42e44a0f54913e132c5219174a3b6f267188fc",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:23.058Z"
+}

@@ -1,0 +1,68 @@
+{
+  "full_name": "Tlyer233/dsh-vscode-review",
+  "originalPosition": 120,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 120,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:07:23.759Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "98bad35dcc60d855b636c9ab3b3afcb89d8e3de1b029ee00edb0aa397e0d47cf",
+      "url": "https://github.com/Tlyer233/dsh-vscode-review/blob/d3cee509694c9af7c0633ff63c625530c0b53243/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-review",
+      "version": "2.1.31",
+      "path": "dsh-review",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tlyer233/dsh-vscode-review",
+        "commit": "d3cee509694c9af7c0633ff63c625530c0b53243",
+        "path": "dsh-review"
+      },
+      "manifestSha256": "b708eecf244fdb02e924ac1b530e4fe73b6d22ec2acb492e26581a4984090480",
+      "manifestUrl": "https://github.com/Tlyer233/dsh-vscode-review/blob/d3cee509694c9af7c0633ff63c625530c0b53243/dsh-review/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-review",
+        "versions": [
+          {
+            "version": "2.1.31",
+            "publishTimestamp": 1794705808,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tlyer233/dsh-vscode-review",
+              "commit": "d3cee509694c9af7c0633ff63c625530c0b53243",
+              "path": "dsh-review"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tlyer233/dsh-vscode-review",
+    "commit": "d3cee509694c9af7c0633ff63c625530c0b53243",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:07:34.022Z"
+}

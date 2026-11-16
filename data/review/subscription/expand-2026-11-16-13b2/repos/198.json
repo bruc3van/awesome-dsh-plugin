@@ -1,0 +1,92 @@
+{
+  "full_name": "justhalfbit/dsh-plugin-jev-effort-selector",
+  "originalPosition": 198,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 198,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:20:29.101Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f89ae5370f10b3517fa7ce933994137a66a94416e0e58413f03d6dd6cb9607e3",
+      "url": "https://github.com/justhalfbit/dsh-plugin-jev-effort-selector/blob/9b8ac7dd8668b936dbd3cde1c93c12eecbf3fca8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/justhalfbit/dsh-plugin-jev-effort-selector",
+          "command": "dsh plugin --profile web add github:justhalfbit/dsh-plugin-jev-effort-selector",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "9b8ea36f596c3332b0d62afecb5030fd3652bfe883b12202541607304b9ea5ca",
+      "url": "https://github.com/justhalfbit/dsh-plugin-jev-effort-selector/blob/9b8ac7dd8668b936dbd3cde1c93c12eecbf3fca8/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/justhalfbit/dsh-plugin-jev-effort-selector",
+          "command": "dsh plugin --profile web add github:justhalfbit/dsh-plugin-jev-effort-selector",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-jev-effort-selector",
+      "version": "0.3.20",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/justhalfbit/dsh-plugin-jev-effort-selector",
+        "commit": "9b8ac7dd8668b936dbd3cde1c93c12eecbf3fca8"
+      },
+      "manifestSha256": "628e3721f3de831c975c2f0d3225f7e6434537915ea9d1b9dc08da62f752c186",
+      "manifestUrl": "https://github.com/justhalfbit/dsh-plugin-jev-effort-selector/blob/9b8ac7dd8668b936dbd3cde1c93c12eecbf3fca8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-jev-effort-selector",
+        "versions": [
+          {
+            "version": "0.3.20",
+            "publishTimestamp": 1790880676,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/justhalfbit/dsh-plugin-jev-effort-selector",
+              "commit": "9b8ac7dd8668b936dbd3cde1c93c12eecbf3fca8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/justhalfbit/dsh-plugin-jev-effort-selector",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/justhalfbit/dsh-plugin-jev-effort-selector",
+    "commit": "9b8ac7dd8668b936dbd3cde1c93c12eecbf3fca8",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:40.911Z"
+}

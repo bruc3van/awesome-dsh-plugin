@@ -1,0 +1,81 @@
+{
+  "full_name": "liangdabiao/dsh-invest-radar",
+  "originalPosition": 100,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 100,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:24:49.051Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a6720a92e53b638304b276f273c0cd3d530f02edb73594643d858ec08dc0db1f",
+      "url": "https://github.com/liangdabiao/dsh-invest-radar/blob/af0e276327fab172f35ec35239c65f4b5599c423/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/liangdabiao/dsh-invest-radar",
+          "command": "dsh plugin --profile web add https://github.com/liangdabiao/dsh-invest-radar",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-invest-radar",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liangdabiao/dsh-invest-radar",
+        "commit": "af0e276327fab172f35ec35239c65f4b5599c423"
+      },
+      "manifestSha256": "f870cb9bd6e5037f544ac7a3dbc743f86c4046f5b81655375c02709b5730dcf9",
+      "manifestUrl": "https://github.com/liangdabiao/dsh-invest-radar/blob/af0e276327fab172f35ec35239c65f4b5599c423/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-invest-radar",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794794490,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liangdabiao/dsh-invest-radar",
+              "commit": "af0e276327fab172f35ec35239c65f4b5599c423"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/liangdabiao/dsh-invest-radar",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liangdabiao/dsh-invest-radar",
+    "commit": "af0e276327fab172f35ec35239c65f4b5599c423",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:24:56.646Z"
+}

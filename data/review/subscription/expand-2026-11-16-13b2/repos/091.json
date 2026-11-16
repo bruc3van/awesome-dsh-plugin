@@ -1,0 +1,69 @@
+{
+  "full_name": "Tikzen/dsh-agent-arena",
+  "originalPosition": 91,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 91,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:28.918Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7d4df95c94a31cc33c9f1d009028ddded1f17cdce7fb4f09cf83efdf3132c4ae",
+      "url": "https://github.com/Tikzen/dsh-agent-arena/blob/0e7f87ae2781b018571cd5cfe8ede7ae621707a2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agent-arena",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tikzen/dsh-agent-arena",
+        "commit": "0e7f87ae2781b018571cd5cfe8ede7ae621707a2"
+      },
+      "manifestSha256": "cdc7dbc97f74ca8edb077be8e462f3e4834b1bf5d54d2f6217922344f853d040",
+      "manifestUrl": "https://github.com/Tikzen/dsh-agent-arena/blob/0e7f87ae2781b018571cd5cfe8ede7ae621707a2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-agent-arena",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1791351528,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tikzen/dsh-agent-arena",
+              "commit": "0e7f87ae2781b018571cd5cfe8ede7ae621707a2"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tikzen/dsh-agent-arena",
+    "commit": "0e7f87ae2781b018571cd5cfe8ede7ae621707a2",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:16:36.677Z"
+}

@@ -268,3 +268,23 @@ test('outside pool is star-ranked unmapped approved plugins', () => {
   )
   assert.deepEqual(plan.map((row) => row.full_name), ['a/high', 'a/low'])
 })
+
+test('same-day terminal skips leave the plan so batches dig into fresh repositories', () => {
+  const plan = planOutsidePool(
+    {
+      snapshot: {
+        repositories: [
+          { id: 1, full_name: 'a/high', description: 'plugin', stargazers_count: 9 },
+          { id: 2, full_name: 'a/skipped-today', description: 'plugin', stargazers_count: 8 },
+          { id: 3, full_name: 'a/low', description: 'plugin', stargazers_count: 2 },
+        ],
+      },
+      curated: {},
+      approved: { 'a/high': '2026-10-01', 'a/skipped-today': '2026-10-01', 'a/low': '2026-10-01' },
+      packages: { entries: {} },
+      skipNames: new Set(['a/skipped-today']),
+    },
+    10,
+  )
+  assert.deepEqual(plan.map((row) => row.full_name), ['a/high', 'a/low'])
+})

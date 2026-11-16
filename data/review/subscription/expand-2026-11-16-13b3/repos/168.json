@@ -1,0 +1,156 @@
+{
+  "full_name": "IT-coder-Yy/dsh-lazygit-plugin",
+  "originalPosition": 168,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 168,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:04.054Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6cfebbae30998e887d19e4d78454aacc1eeab93a1dac93367bf260c146b143db",
+      "url": "https://github.com/IT-coder-Yy/dsh-lazygit-plugin/blob/6a8fa91298e72fe38c59c0ceab23a69a91937d07/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-lazygit-plugin@0.5.3",
+          "command": "dsh plugin --profile web add dsh-lazygit-plugin@0.5.3",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/IT-coder-Yy/dsh-lazygit-plugin",
+          "command": "dsh plugin --profile web add github:IT-coder-Yy/dsh-lazygit-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "bf96954f59eecad1b9c55001b2c1251a4b789ae4be65f3ac35649530a436012f",
+      "url": "https://github.com/IT-coder-Yy/dsh-lazygit-plugin/blob/6a8fa91298e72fe38c59c0ceab23a69a91937d07/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-lazygit-plugin@0.5.3",
+          "command": "dsh plugin --profile web add dsh-lazygit-plugin@0.5.3",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/IT-coder-Yy/dsh-lazygit-plugin",
+          "command": "dsh plugin --profile web add github:IT-coder-Yy/dsh-lazygit-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-lazygit-plugin",
+      "version": "0.5.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/IT-coder-Yy/dsh-lazygit-plugin",
+        "commit": "6a8fa91298e72fe38c59c0ceab23a69a91937d07"
+      },
+      "manifestSha256": "38b08f4e202b3055073fe8e6ab5f0d39873608e18c8f383a3f58ecef3ce6e51a",
+      "manifestUrl": "https://github.com/IT-coder-Yy/dsh-lazygit-plugin/blob/6a8fa91298e72fe38c59c0ceab23a69a91937d07/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-lazygit-plugin",
+        "versions": [
+          {
+            "version": "0.5.3",
+            "publishTimestamp": 1793933809,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/IT-coder-Yy/dsh-lazygit-plugin",
+              "commit": "6a8fa91298e72fe38c59c0ceab23a69a91937d07"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-lazygit-plugin@0.5.3",
+      "origin": "npm",
+      "name": "dsh-lazygit-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-lazygit-plugin",
+        "title": "dsh-lazygit-plugin",
+        "description": "面向 DeepSeek Harness Web 的可视化 Git 工作台，支持查看仓库状态与提交记录、快捷执行常用 Git 操作，以及安全运行自然语言生成的分步骤命令提议。",
+        "homepage": "https://github.com/IT-coder-Yy/dsh-lazygit-plugin#readme",
+        "repository": {
+          "url": "https://github.com/IT-coder-Yy/dsh-lazygit-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "git",
+            "git-assistant",
+            "ai"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.3",
+            "publishTimestamp": 1793934098,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e16877bda72f347f26d11dd49a7d4bd84e5eeb4292913581822acc31852d02c2",
+      "evidence": [
+        {
+          "name": "dsh-lazygit-plugin",
+          "version": "0.5.3",
+          "tarball": "https://registry.npmjs.org/dsh-lazygit-plugin/-/dsh-lazygit-plugin-0.5.3.tgz",
+          "integrity": "sha512-JckJ/TLA0dMLw7A5pxhygU97im34cLGWTzdBZ52jHigqSOrjRht70R+5LOYeQD0iEigiFpHCZDuISOczp2GorA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-lazygit-plugin@0.5.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/IT-coder-Yy/dsh-lazygit-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/IT-coder-Yy/dsh-lazygit-plugin",
+    "commit": "6a8fa91298e72fe38c59c0ceab23a69a91937d07",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:14.277Z"
+}

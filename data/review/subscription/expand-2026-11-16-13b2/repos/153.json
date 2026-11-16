@@ -1,0 +1,170 @@
+{
+  "full_name": "KannaKuron/dsh-ptc-cordis-preset",
+  "originalPosition": 153,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 153,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:49.747Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1bbcfc2bac433076bdb163b15daabb169399ebf81fa102191a5f4a0492267203",
+      "url": "https://github.com/KannaKuron/dsh-ptc-cordis-preset/blob/0340907efd2117865a84eb479dc0be91b470ff72/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ptc-cordis-preset",
+          "command": "dsh plugin --profile web add dsh-ptc-cordis-preset",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "039f1e4ceaccbb1a007c34b3def1fbb9166cb7e73678e9ecfb66d51ffc5c1267",
+      "url": "https://github.com/KannaKuron/dsh-ptc-cordis-preset/blob/0340907efd2117865a84eb479dc0be91b470ff72/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ptc-cordis-preset",
+          "command": "dsh plugin --profile web add dsh-ptc-cordis-preset",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ptc-cordis-preset",
+      "version": "0.27.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KannaKuron/dsh-ptc-cordis-preset",
+        "commit": "0340907efd2117865a84eb479dc0be91b470ff72"
+      },
+      "manifestSha256": "11b4b8ed2459d2218a77c5aea04594e02e2365051609eab0a8eae93df8a58a08",
+      "manifestUrl": "https://github.com/KannaKuron/dsh-ptc-cordis-preset/blob/0340907efd2117865a84eb479dc0be91b470ff72/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ptc-cordis-preset",
+        "versions": [
+          {
+            "version": "0.27.0",
+            "publishTimestamp": 1794474718,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KannaKuron/dsh-ptc-cordis-preset",
+              "commit": "0340907efd2117865a84eb479dc0be91b470ff72"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ptc-cordis-preset",
+      "origin": "npm",
+      "name": "dsh-ptc-cordis-preset",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ptc-cordis-preset",
+        "title": {
+          "en": "PTC Creator Mode",
+          "zh": "PTC 创造模式"
+        },
+        "description": {
+          "en": "The union the shipped presets never shipped: PTC mode (run_code as the orchestration surface) plus the Creation-mode Cordis toolset and authoring skills, declared live on the preset roster. The workflow tool is never offered; the run_code backend switch chooses the official Node/TypeScript backend or the experimental CPython one. Requires dsh >=0.2.2-rc.1.",
+          "zh": "内置预设从未组合过的并集:PTC 模式(run_code 作为编排面)+ 创造模式的 Cordis 工具集与编写技能,以声明式预设活在模式名录里。workflow 工具恒不提供;设置卡的 run_code 后端开关可在官方 Node/TypeScript 与实验性 CPython 之间切换。仅支持 dsh >=0.2.2-rc.1。"
+        },
+        "homepage": "https://github.com/KannaKuron/dsh-ptc-cordis-preset",
+        "repository": {
+          "url": "https://github.com/KannaKuron/dsh-ptc-cordis-preset"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "agent-preset",
+            "ptc",
+            "code-mode",
+            "cordis",
+            "dsh-plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSI+CiAgPHJlY3QgeD0iNCIgeT0iNyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiByeD0iMi41IiBzdHJva2U9IiM0NDkzZjgiIHN0cm9rZS13aWR0aD0iMS43Ii8+CiAgPHBhdGggZD0iTTkgMTIuNWgxME05IDE2aDYiIHN0cm9rZT0iIzQ0OTNmOCIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0xNCAyNS41aDEzYTMgMyAwIDAgMCAzLTNWMTQiIHN0cm9rZT0iIzQ0OTNmOCIgc3Ryb2tlLXdpZHRoPSIxLjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxwYXRoIGQ9Ik0yNi41IDI1bDUtNW0wIDVsLTUtNSIgc3Ryb2tlPSIjZjA4ODNlIiBzdHJva2Utd2lkdGg9IjEuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMyA0KSIvPgogIDxjaXJjbGUgY3g9IjI2LjUiIGN5PSIyNi41IiByPSIxLjYiIGZpbGw9IiNmMDg4M2UiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.27.0",
+            "publishTimestamp": 1794475093,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          },
+          {
+            "version": "0.24.2",
+            "publishTimestamp": 1793800276,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7209f436a36a58b7025cc25df7a38c6154a99e9e4a985861af13b5cbe80b5f72",
+      "evidence": [
+        {
+          "name": "dsh-ptc-cordis-preset",
+          "version": "0.27.0",
+          "tarball": "https://registry.npmjs.org/dsh-ptc-cordis-preset/-/dsh-ptc-cordis-preset-0.27.0.tgz",
+          "integrity": "sha512-Is9ecO1rc22ScKa+ndhXGs/ZVatLxVCgSnSxhAXxtFA4rMgcsGgcPI3RK8bueZwkR8IQ+bcxy+GGyT/jbdXBrQ=="
+        },
+        {
+          "name": "dsh-ptc-cordis-preset",
+          "version": "0.24.2",
+          "tarball": "https://registry.npmjs.org/dsh-ptc-cordis-preset/-/dsh-ptc-cordis-preset-0.24.2.tgz",
+          "integrity": "sha512-hG3xhJ7iCgubK5oecrBQ/eF0uuItWhYKo7Xh/ZJ5p+N6XJNjdINUNdft9AI9YKngDqABis4KbSvv7epXFS3ikA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ptc-cordis-preset",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KannaKuron/dsh-ptc-cordis-preset",
+    "commit": "0340907efd2117865a84eb479dc0be91b470ff72",
+    "releaseTags": 53,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:02.847Z"
+}

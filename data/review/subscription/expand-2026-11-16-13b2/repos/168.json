@@ -1,0 +1,161 @@
+{
+  "full_name": "TaoruiLiu19/dsh-gsv",
+  "originalPosition": 168,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 168,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:18.092Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "32c76cae214629433c1d8455a2157f511832ca3d9daabd36a6c3dc51e596019a",
+      "url": "https://github.com/TaoruiLiu19/dsh-gsv/blob/5239dad93adb2e34f85bc16c05eb9b277c869168/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TaoruiLiu19/dsh-gsv",
+          "command": "dsh plugin --profile web add \"github:TaoruiLiu19/dsh-gsv\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-gsv-tts",
+          "command": "dsh plugin --profile web add dsh-gsv-tts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "b4d0c380836d4c86ce6f2efd4af8a7643f51c8ed614685e605b978da71d61431",
+      "url": "https://github.com/TaoruiLiu19/dsh-gsv/blob/5239dad93adb2e34f85bc16c05eb9b277c869168/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TaoruiLiu19/dsh-gsv",
+          "command": "dsh plugin --profile web add \"github:TaoruiLiu19/dsh-gsv\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-gsv-tts",
+          "command": "dsh plugin --profile web add dsh-gsv-tts",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-gsv-tts",
+      "version": "5.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TaoruiLiu19/dsh-gsv",
+        "commit": "5239dad93adb2e34f85bc16c05eb9b277c869168"
+      },
+      "manifestSha256": "41c35f957f65116799e92aff2818d13cf2858d3efbb4ce0196e2f1243ec1e938",
+      "manifestUrl": "https://github.com/TaoruiLiu19/dsh-gsv/blob/5239dad93adb2e34f85bc16c05eb9b277c869168/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-gsv-tts",
+        "versions": [
+          {
+            "version": "5.3.0",
+            "publishTimestamp": 1794659990,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TaoruiLiu19/dsh-gsv",
+              "commit": "5239dad93adb2e34f85bc16c05eb9b277c869168"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-gsv-tts",
+      "origin": "npm",
+      "name": "dsh-gsv-tts",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-gsv-tts",
+        "title": "dsh-gsv-tts",
+        "description": "DSH plugin for local GSV-TTS-Lite voice cloning + Edge cloud simple mode: voice presets, auto-read, engine setup assistant, read-aloud button, settings panel",
+        "homepage": "https://github.com/TaoruiLiu19/dsh-gsv#readme",
+        "repository": {
+          "url": "https://github.com/TaoruiLiu19/dsh-gsv"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "tts",
+            "voice",
+            "voice-cloning",
+            "text-to-speech",
+            "speech-synthesis",
+            "deepseek-harness"
+          ]
+        },
+        "versions": [
+          {
+            "version": "5.3.0",
+            "publishTimestamp": 1794647200,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9f76bb042bd24d50b4556c062d4408d66f8acdc0ec8622acc6bd956d8082ee6c",
+      "evidence": [
+        {
+          "name": "dsh-gsv-tts",
+          "version": "5.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-gsv-tts/-/dsh-gsv-tts-5.3.0.tgz",
+          "integrity": "sha512-LJdaqZiWT2yZbEhmsilW7dBb0UhgFl7IYiLS+CGXr/V2gPlnEdgVhPGTEqPtt/WFq9ahW27l+Yh6vAjsncaXFQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/TaoruiLiu19/dsh-gsv",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-gsv-tts",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TaoruiLiu19/dsh-gsv",
+    "commit": "5239dad93adb2e34f85bc16c05eb9b277c869168",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:31.443Z"
+}

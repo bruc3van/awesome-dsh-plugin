@@ -1,0 +1,69 @@
+{
+  "full_name": "oxmumu3/dsh-family-assistant",
+  "originalPosition": 149,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 149,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:52.045Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "015c83000f168f582a8b2d18b2671941afae946b36a6f41f9f301822ef172c3a",
+      "url": "https://github.com/oxmumu3/dsh-family-assistant/blob/0ba38d9b35954796d59949f1317cfd7a29579380/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@oxmumu3/dsh-family-assistant",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/oxmumu3/dsh-family-assistant",
+        "commit": "0ba38d9b35954796d59949f1317cfd7a29579380"
+      },
+      "manifestSha256": "fa067c11aa6e9c3d0cb0ca56a6c1763ce14fd98fb0855f4986875a3b1c608350",
+      "manifestUrl": "https://github.com/oxmumu3/dsh-family-assistant/blob/0ba38d9b35954796d59949f1317cfd7a29579380/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2 || 0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@oxmumu3/dsh-family-assistant",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794752208,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/oxmumu3/dsh-family-assistant",
+              "commit": "0ba38d9b35954796d59949f1317cfd7a29579380"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2 || 0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/oxmumu3/dsh-family-assistant",
+    "commit": "0ba38d9b35954796d59949f1317cfd7a29579380",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:09:02.425Z"
+}

@@ -1,0 +1,122 @@
+{
+  "full_name": "cyijun/dsh-surfing-plugin",
+  "originalPosition": 45,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 45,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-11-16T12:04:23.794Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d861226cb146eb1d1c8fa013ab9db2af60194ce8e61543f5978f377fe1b220e1",
+      "url": "https://github.com/cyijun/dsh-surfing-plugin/blob/40041327e552157bafcc9bba866925b775c1469d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-surfing-plugin",
+          "command": "dsh plugin --profile web add dsh-surfing-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/cyijun/surfing-plugin#COMMIT_SHA",
+          "command": "dsh plugin --profile web add github:cyijun/surfing-plugin#COMMIT_SHA",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "a9e85438c4eaa1cbc2531a8c192a1ffced71e97f5f229e5d61920346340d244b",
+      "url": "https://github.com/cyijun/dsh-surfing-plugin/blob/40041327e552157bafcc9bba866925b775c1469d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-surfing-plugin",
+          "command": "dsh plugin --profile web add dsh-surfing-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/cyijun/surfing-plugin#COMMIT_SHA",
+          "command": "dsh plugin --profile web add github:cyijun/surfing-plugin#COMMIT_SHA",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-surfing-plugin",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cyijun/dsh-surfing-plugin",
+        "commit": "40041327e552157bafcc9bba866925b775c1469d"
+      },
+      "manifestSha256": "87a181a0d0a5f9ed03d738df946321093cc532ed476cf86b51e7f340b54500f3",
+      "manifestUrl": "https://github.com/cyijun/dsh-surfing-plugin/blob/40041327e552157bafcc9bba866925b775c1469d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-surfing-plugin",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786700416,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/cyijun/dsh-surfing-plugin",
+              "commit": "40041327e552157bafcc9bba866925b775c1469d"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-surfing-plugin",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    },
+    {
+      "target": "https://github.com/cyijun/surfing-plugin#COMMIT_SHA",
+      "status": "mapping_needs_review",
+      "code": "git_ref_not_found",
+      "reason": "指定 Git 引用不存在"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-surfing-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/cyijun/surfing-plugin#COMMIT_SHA",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cyijun/dsh-surfing-plugin",
+    "commit": "40041327e552157bafcc9bba866925b775c1469d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:04:37.924Z"
+}

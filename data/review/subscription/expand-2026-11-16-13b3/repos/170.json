@@ -1,0 +1,117 @@
+{
+  "full_name": "Jason-skd/dsh-session-fork",
+  "originalPosition": 170,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 170,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:07.445Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e440a71581460521c39151bb53d1951da5cc93d964e9b503e806a8e7c95ad0e2",
+      "url": "https://github.com/Jason-skd/dsh-session-fork/blob/b0d4ba5ad9d9ee193ce1e6d71bfedb384c4ab495/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-session-fork",
+          "command": "dsh plugin --profile web add dsh-session-fork",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-fork",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jason-skd/dsh-session-fork",
+        "commit": "b0d4ba5ad9d9ee193ce1e6d71bfedb384c4ab495"
+      },
+      "manifestSha256": "577ce4cdfce5ef8c2b038e10d72f49f36256f2dc49b273b8e47eb11c33481d09",
+      "manifestUrl": "https://github.com/Jason-skd/dsh-session-fork/blob/b0d4ba5ad9d9ee193ce1e6d71bfedb384c4ab495/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-session-fork",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1794148169,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jason-skd/dsh-session-fork",
+              "commit": "b0d4ba5ad9d9ee193ce1e6d71bfedb384c4ab495"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-session-fork",
+      "origin": "npm",
+      "name": "dsh-session-fork",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-session-fork",
+        "title": "dsh-session-fork",
+        "description": "dsh plugin: git-like conversation forking (branch refs on sessions)",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1792744692,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7fb4b92ac941a84f509ca5c059215f626bd11ab11b03310f78857b2aa6174652",
+      "evidence": [
+        {
+          "name": "dsh-session-fork",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-session-fork/-/dsh-session-fork-0.4.0.tgz",
+          "integrity": "sha512-gjKF3mnkQ4+mrdaYN4nAsvTrcLAHDjcd5wjyf816Qi7c5xkx0EzudWS4PmNRmZLIc+vh8XmuMgrXdcAhg4szXQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-session-fork",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jason-skd/dsh-session-fork",
+    "commit": "b0d4ba5ad9d9ee193ce1e6d71bfedb384c4ab495",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:18.181Z"
+}

@@ -1,0 +1,147 @@
+{
+  "full_name": "mokuyoaxis/dsh-iris",
+  "originalPosition": 83,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 83,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:16:07.509Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7c3ca8b5101d7cc16ec39c800b2b311a6b73bc612a7935d09b006f22534e139e",
+      "url": "https://github.com/mokuyoaxis/dsh-iris/blob/e832e2fed08c463a983ee75e8eb2e0887b10ee8d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@mokuyoaxis/dsh-iris@0.3.0",
+          "command": "dsh plugin --profile web add @mokuyoaxis/dsh-iris@0.3.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "templates/provider-starter/README.md",
+      "sha256": "c6ed720377647ed0229d43e4ec0fdff5a2271a23442ee12a366c41162ec5609d",
+      "url": "https://github.com/mokuyoaxis/dsh-iris/blob/e832e2fed08c463a983ee75e8eb2e0887b10ee8d/templates/provider-starter/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@mokuyoaxis/dsh-iris",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mokuyoaxis/dsh-iris",
+        "commit": "e832e2fed08c463a983ee75e8eb2e0887b10ee8d"
+      },
+      "manifestSha256": "a858d289452fa990d11dd9f466f7cfd010d7135d748239346508d8da2db9fd65",
+      "manifestUrl": "https://github.com/mokuyoaxis/dsh-iris/blob/e832e2fed08c463a983ee75e8eb2e0887b10ee8d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@mokuyoaxis/dsh-iris",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794795633,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/mokuyoaxis/dsh-iris",
+              "commit": "e832e2fed08c463a983ee75e8eb2e0887b10ee8d"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@mokuyoaxis/dsh-iris@0.3.0",
+      "origin": "npm",
+      "name": "@mokuyoaxis/dsh-iris",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@mokuyoaxis/dsh-iris",
+        "title": "@mokuyoaxis/dsh-iris",
+        "description": "A multimodal workspace for Agents: Core Web, MCP, CLI and native DSH tools with model pools, durable media tasks, ComfyUI and explicit plugins.",
+        "homepage": "https://github.com/mokuyoaxis/dsh-iris#readme",
+        "repository": {
+          "url": "https://github.com/mokuyoaxis/dsh-iris"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "image-generation",
+            "video-generation",
+            "music-generation",
+            "text-to-speech",
+            "transcription",
+            "vision",
+            "dashscope",
+            "prompt-optimization",
+            "media-workbench",
+            "mcp",
+            "comfyui",
+            "agent-tools"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794797013,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.5-rc.3 || 0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4"
+            }
+          }
+        ]
+      },
+      "registrySha256": "bc9638c2803c94d9b025b10d273e57dde2ed95ee5d9fd1b359c2cf5f28a05bca",
+      "evidence": [
+        {
+          "name": "@mokuyoaxis/dsh-iris",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/@mokuyoaxis/dsh-iris/-/dsh-iris-0.3.0.tgz",
+          "integrity": "sha512-IJWDVZdMBeb0+Fih9SASbXLT8B+HoVXs5WiWS4CL8Bs53YjQcAhlKXzmfCuZcvkC9hpNc73rkxzw8ofckQf7sw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@mokuyoaxis/dsh-iris@0.3.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mokuyoaxis/dsh-iris",
+    "commit": "e832e2fed08c463a983ee75e8eb2e0887b10ee8d",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:16:28.913Z"
+}

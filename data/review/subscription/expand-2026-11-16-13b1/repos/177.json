@@ -1,0 +1,138 @@
+{
+  "full_name": "Instant-KING/dsh-ai-library",
+  "originalPosition": 177,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 177,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:14.976Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ca1fbb85e28a3be83645bad1d70ea3aabf2140cea92610966f15fe368abc703b",
+      "url": "https://github.com/Instant-KING/dsh-ai-library/blob/811775da9495f746da884e49fe6b2ef577977bdc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ai-library",
+          "command": "dsh plugin --profile desktop add dsh-ai-library",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Instant-KING/dsh-ai-library",
+          "command": "dsh plugin --profile desktop add github:Instant-KING/dsh-ai-library",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ai-library",
+      "version": "0.3.54",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Instant-KING/dsh-ai-library",
+        "commit": "811775da9495f746da884e49fe6b2ef577977bdc"
+      },
+      "manifestSha256": "ac25c0b2dfb206696f4055e7fa623563767390a4c36c272f66359dcdcc0625f5",
+      "manifestUrl": "https://github.com/Instant-KING/dsh-ai-library/blob/811775da9495f746da884e49fe6b2ef577977bdc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ai-library",
+        "versions": [
+          {
+            "version": "0.3.54",
+            "publishTimestamp": 1792503021,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Instant-KING/dsh-ai-library",
+              "commit": "811775da9495f746da884e49fe6b2ef577977bdc"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ai-library",
+      "origin": "npm",
+      "name": "dsh-ai-library",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ai-library",
+        "title": "dsh-ai-library",
+        "description": "资料馆：把本地多源资料库渲染成 DeepSeek Harness 原生面板。内置 11 种预览器（pdf.js / 代码高亮 / 3D / 表格 / 字体 / 压缩包 / 音频…）、论文多平台检索、GitHub 仓库卡与一键安装。",
+        "author": "Instant-KING",
+        "homepage": "https://github.com/Instant-KING/dsh-ai-library#readme",
+        "repository": {
+          "url": "https://github.com/Instant-KING/dsh-ai-library"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "library",
+            "knowledge-base",
+            "pdfjs",
+            "paper-search",
+            "code-viewer"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.39",
+            "publishTimestamp": 1792387034,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a9c4fdfa7ee16b7aff1e75cfedb9c84d41eac41edcb129423affc0824e048cef",
+      "evidence": [
+        {
+          "name": "dsh-ai-library",
+          "version": "0.3.39",
+          "tarball": "https://registry.npmjs.org/dsh-ai-library/-/dsh-ai-library-0.3.39.tgz",
+          "integrity": "sha512-PnQQ+V4BSlpaH9ni7Q9taEsvs0sXpBr71gHe4ORMGgqdfYY5aM1jY9YwuJLeBWJB4ZF0iJ8d+T4fPd3p0GKbcQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ai-library",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Instant-KING/dsh-ai-library",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Instant-KING/dsh-ai-library",
+    "commit": "811775da9495f746da884e49fe6b2ef577977bdc",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:29.687Z"
+}

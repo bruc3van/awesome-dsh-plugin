@@ -1,0 +1,264 @@
+{
+  "full_name": "MichengAI/dsh-codex-pet",
+  "originalPosition": 176,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 176,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:27:19.670Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "30bd1e8ff2d08f207d01d055aefb89a5109197e88d58dc7ae7db162dcf80ae8b",
+      "url": "https://github.com/MichengAI/dsh-codex-pet/blob/8175311307cc35dd69666ee9fffd9a0ff31e1900/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-codex-pet@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-pet@latest --registry=https://registry.npmjs.org/ --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "30bd1e8ff2d08f207d01d055aefb89a5109197e88d58dc7ae7db162dcf80ae8b",
+      "url": "https://github.com/MichengAI/dsh-codex-pet/blob/8175311307cc35dd69666ee9fffd9a0ff31e1900/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-codex-pet@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-pet@latest --registry=https://registry.npmjs.org/ --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "5d590ba45759972827c9fe4b3e70722d47aa84d6e23c3da80e444401952db22a",
+      "url": "https://github.com/MichengAI/dsh-codex-pet/blob/8175311307cc35dd69666ee9fffd9a0ff31e1900/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-codex-pet@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-pet@latest --registry=https://registry.npmjs.org/ --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "22f0e0c9150e269a9d9ccd6213e7268ad446c649f2c7a93292a57ff79b028b1d",
+      "url": "https://github.com/MichengAI/dsh-codex-pet/blob/8175311307cc35dd69666ee9fffd9a0ff31e1900/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-codex-pet@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-pet@latest --registry=https://registry.npmjs.org/ --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "2eda4833dea5785c8821122ee66ae2d6e0ea30b39266ca99cdd9e2159da93392",
+      "url": "https://github.com/MichengAI/dsh-codex-pet/blob/8175311307cc35dd69666ee9fffd9a0ff31e1900/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-codex-pet@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-pet@latest --registry=https://registry.npmjs.org/ --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "fdf5e45b6924c34fcc74013c2a964a02003979f1fe4a7b78c27853b502172f54",
+      "url": "https://github.com/MichengAI/dsh-codex-pet/blob/8175311307cc35dd69666ee9fffd9a0ff31e1900/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-codex-pet@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-pet@latest --registry=https://registry.npmjs.org/ --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "b75c25233aa87b20513b2cdc7d7ffdaa64c9dd7c4a68c8f273e6047c8cf9c485",
+      "url": "https://github.com/MichengAI/dsh-codex-pet/blob/8175311307cc35dd69666ee9fffd9a0ff31e1900/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-codex-pet@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-pet@latest --registry=https://registry.npmjs.org/ --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "c51e912d2d119f35244c7af349a386a39f132320db6053d7bab103c8e24901d6",
+      "url": "https://github.com/MichengAI/dsh-codex-pet/blob/8175311307cc35dd69666ee9fffd9a0ff31e1900/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-codex-pet@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-pet@latest --registry=https://registry.npmjs.org/ --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.pt.md",
+      "sha256": "24f905ac7f6e070d698dee62db50938e2b3842ae75ec5383d008bf5d451f9aac",
+      "url": "https://github.com/MichengAI/dsh-codex-pet/blob/8175311307cc35dd69666ee9fffd9a0ff31e1900/README.pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@michengai/dsh-codex-pet@latest",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-pet@latest --registry=https://registry.npmjs.org/ --ignore-scripts",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@michengai/dsh-codex-pet",
+      "version": "1.0.19",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MichengAI/dsh-codex-pet",
+        "commit": "8175311307cc35dd69666ee9fffd9a0ff31e1900"
+      },
+      "manifestSha256": "5131447505f83040f6ef12450410014da26e1b13b42f6299924da6f2575e49dc",
+      "manifestUrl": "https://github.com/MichengAI/dsh-codex-pet/blob/8175311307cc35dd69666ee9fffd9a0ff31e1900/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@michengai/dsh-codex-pet",
+        "versions": [
+          {
+            "version": "1.0.19",
+            "publishTimestamp": 1794638088,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MichengAI/dsh-codex-pet",
+              "commit": "8175311307cc35dd69666ee9fffd9a0ff31e1900"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@michengai/dsh-codex-pet@latest",
+      "origin": "npm",
+      "name": "@michengai/dsh-codex-pet",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@michengai/dsh-codex-pet",
+        "title": {
+          "en": "Codex Pet",
+          "de": "Codex Pet",
+          "es": "Codex Pet",
+          "fr": "Codex Pet",
+          "ja": "Codex Pet",
+          "pt": "Codex Pet",
+          "ru": "Codex Pet",
+          "zh": "Codex Pet"
+        },
+        "description": {
+          "en": "A pet companion with multi-task notifications, interactions, and Skill-based custom pets.",
+          "de": "Ein Haustierbegleiter mit Multitask-Benachrichtigungen, Interaktionen und Skill-basierten benutzerdefinierten Begleitern.",
+          "es": "Compañero mascota con notificaciones multitarea, interacciones y mascotas personalizadas mediante Skill.",
+          "fr": "Compagnon virtuel avec notifications multitâches, interactions et animaux personnalisés via Skill.",
+          "ja": "ペットの同伴、マルチタスク通知とインタラクション、Skill によるカスタムペット。",
+          "pt": "Mascote de companhia com notificações multitarefa, interações e mascotes personalizados via Skill.",
+          "ru": "Виртуальный питомец с уведомлениями о задачах, интерактивными действиями и поддержкой создания питомцев через Skill.",
+          "zh": "宠物陪伴、多任务提醒与交互，以及 Skill 自定义宠物。"
+        },
+        "author": "MichengAI",
+        "homepage": "https://github.com/MichengAI/dsh-codex-pet#readme",
+        "repository": {
+          "url": "https://github.com/MichengAI/dsh-codex-pet"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "codex-pet",
+            "pet",
+            "desktop-pet",
+            "companion",
+            "cordis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3N2Z19wZXRfZWFyIiB4MT0iNiIgeTE9IjYiIHgyPSIzMCIgeTI9IjMwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNGNDNGNUUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRkI3MTg1Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJkc2hfc3ZnX3BldF9oZWFkIiB4MT0iNiIgeTE9IjEwIiB4Mj0iMzAiIHkyPSIyOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRUM0ODk5Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0Y0M0Y1RSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPCEtLSBDeWJlciBDYXQgRWFycyAtLT4KICA8cGF0aCBkPSJNOSAxNkw2LjUgOEwxNSAxMiIgZmlsbD0idXJsKCNkc2hfc3ZnX3BldF9lYXIpIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0iTTI3IDE2TDI5LjUgOEwyMSAxMiIgZmlsbD0idXJsKCNkc2hfc3ZnX3BldF9lYXIpIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBvbHlnb24gcG9pbnRzPSI5LDEzIDcuOCw5LjUgMTIsMTEuNSIgZmlsbD0iI0ZGRTRFNiIvPgogIDxwb2x5Z29uIHBvaW50cz0iMjcsMTMgMjguMiw5LjUgMjQsMTEuNSIgZmlsbD0iI0ZGRTRFNiIvPgogIDwhLS0gUm91bmRlZCBDYXQgSGVhZCBTaGVsbCAtLT4KICA8cmVjdCB4PSI2LjUiIHk9IjExLjUiIHdpZHRoPSIyMyIgaGVpZ2h0PSIxOC41IiByeD0iOSIgZmlsbD0idXJsKCNkc2hfc3ZnX3BldF9oZWFkKSIvPgogIDwhLS0gQ3liZXIgVmlzb3IgR2xhc3NlcyAtLT4KICA8cmVjdCB4PSI5IiB5PSIxNS41IiB3aWR0aD0iMTgiIGhlaWdodD0iNy41IiByeD0iMy43NSIgZmlsbD0iIzFFMjkzQiIvPgogIDwhLS0gQ2hlZXJmdWwgQ3lhbiBMRUQgRXllcyAtLT4KICA8cGF0aCBkPSJNMTIgMTlDMTIuNSAxNy44IDE0IDE3LjggMTQuNSAxOSIgc3Ryb2tlPSIjMDZCNkQ0IiBzdHJva2Utd2lkdGg9IjEuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTIxLjUgMTlDMjIgMTcuOCAyMy41IDE3LjggMjQgMTkiIHN0cm9rZT0iIzA2QjZENCIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwhLS0gQ3V0ZSBNb3V0aCAtLT4KICA8cGF0aCBkPSJNMTYgMjUuNUMxNi44IDI2LjUgMTcuNSAyNi41IDE4IDI1LjVDMTguNSAyNi41IDE5LjIgMjYuNSAyMCAyNS41IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+",
+        "versions": [
+          {
+            "version": "1.0.19",
+            "publishTimestamp": 1794638489,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0af98a86fe4e2045f99aef98e614d87dee3287b727dd0c179b823dad6daa00e4",
+      "evidence": [
+        {
+          "name": "@michengai/dsh-codex-pet",
+          "version": "1.0.19",
+          "tarball": "https://registry.npmjs.org/@michengai/dsh-codex-pet/-/dsh-codex-pet-1.0.19.tgz",
+          "integrity": "sha512-2meckrwBLY3X3dMe660LAB4WvOOYh2ZHfxZMtKdRpRcoqDIM0ADMlgNykNheE6V3j8bTW4DKqxGvTjfWhU0LSw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@michengai/dsh-codex-pet@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MichengAI/dsh-codex-pet",
+    "commit": "8175311307cc35dd69666ee9fffd9a0ff31e1900",
+    "releaseTags": 40,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:28:13.791Z"
+}

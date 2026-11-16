@@ -1,0 +1,505 @@
+{
+  "full_name": "JustGenius-s/DSH-Plugs",
+  "originalPosition": 152,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 152,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:47.269Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "358f46dfcebd8f24c4a247d6f4dcd683bfa82ab93da6090178d5eb33dbb1b6ff",
+      "url": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/ui/README.md",
+      "sha256": "af0eb62c424f1302ad817d4bfec85311fc32d3864e80252ec69ed48a71ea82dd",
+      "url": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/packages/ui/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-codex",
+      "version": "0.2.1",
+      "path": "plugins/dsh-codex",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-codex"
+      },
+      "manifestSha256": "7baf2bd0afaba339f04862cb25f35ad39ca1b7a251071b6dd04baf8e4936e529",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-codex/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-codex",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-codex"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-computer-tools",
+      "version": "0.1.0",
+      "path": "plugins/dsh-computer-tools",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-computer-tools"
+      },
+      "manifestSha256": "df251a216ad2a55962010f45255e3ab10f5bbea3a5c469c23d18ca4fb94844b8",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-computer-tools/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-computer-tools",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-computer-tools"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-cua-pip",
+      "version": "0.1.0",
+      "path": "plugins/dsh-cua-pip",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-cua-pip"
+      },
+      "manifestSha256": "1f5b4d8fd58f96748ca2c2f83eca3cef0e4b049efe43be65b3b1c1ec9dbbc98d",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-cua-pip/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-cua-pip",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-cua-pip"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-debug-mode",
+      "version": "0.1.0",
+      "path": "plugins/dsh-debug-mode",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-debug-mode"
+      },
+      "manifestSha256": "90729184a309f43704b7eb78be97bd2e4aa485260da644598e2ec7bd69846fcd",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-debug-mode/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-debug-mode",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-debug-mode"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-flow",
+      "version": "0.1.0",
+      "path": "plugins/dsh-flow",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-flow"
+      },
+      "manifestSha256": "be578d94e25e02277a48dc09727d7de1a5b9a225542b186bd00da01d0919994f",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-flow/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-flow",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-flow"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-model-custom-ex",
+      "version": "0.1.0",
+      "path": "plugins/dsh-model-custom-ex",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-model-custom-ex"
+      },
+      "manifestSha256": "ab893e1043eb9c70541139c3c2469901e98df2a094eeb3b83fa183600f386364",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-model-custom-ex/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-model-custom-ex",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-model-custom-ex"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-notify-jump",
+      "version": "0.1.0",
+      "path": "plugins/dsh-notify-jump",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-notify-jump"
+      },
+      "manifestSha256": "f07e97e56f84f825fdef02216f293989514e1ea4d0bc8571f38b25d23399a027",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-notify-jump/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-notify-jump",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-notify-jump"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-plugin-config",
+      "version": "0.1.0",
+      "path": "plugins/dsh-plugin-config",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-plugin-config"
+      },
+      "manifestSha256": "324591578dc236732488082b00546756e0c59b60610d2e94d8ae241cae9a4c53",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-plugin-config/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-plugin-config",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-plugin-config"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-quick-notes",
+      "version": "0.1.0",
+      "path": "plugins/dsh-quick-notes",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-quick-notes"
+      },
+      "manifestSha256": "4f7b1a0ff1ade752b664d163809e4935105989254424f1ef72d15d86dbbf0d5b",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-quick-notes/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-quick-notes",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-quick-notes"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-session-archive",
+      "version": "0.1.0",
+      "path": "plugins/dsh-session-archive",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-session-archive"
+      },
+      "manifestSha256": "a3368d2912288a93c38c4ca88c66a816460acfe6ebc8d602e80a3205e4b7bf65",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-session-archive/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-session-archive",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-session-archive"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-synapse",
+      "version": "0.4.1",
+      "path": "plugins/dsh-synapse",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-synapse"
+      },
+      "manifestSha256": "5af02a6e7f0eac9f49d05cacbb61681c1710eb9ea61437100bacc9797f3d4789",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-synapse/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-synapse",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-synapse"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-sync",
+      "version": "0.1.0",
+      "path": "plugins/dsh-sync",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-sync"
+      },
+      "manifestSha256": "be1414390c6e44f7ab4862db5919b72269213b79368278f1eddadf439a90af61",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-sync/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-sync",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-sync"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-whale-girl",
+      "version": "0.1.0",
+      "path": "plugins/dsh-whale-girl",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-whale-girl"
+      },
+      "manifestSha256": "131805efd6471e0c1f79d91b321dbce60b8efed632d238962fd6670aab40bcda",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-whale-girl/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-whale-girl",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-whale-girl"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@just-genius/dsh-workspace-plus",
+      "version": "0.1.0",
+      "path": "plugins/dsh-workspace-plus",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JustGenius-s/DSH-Plugs",
+        "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+        "path": "plugins/dsh-workspace-plus"
+      },
+      "manifestSha256": "5e741c6fec3624b50060097fdf6e18c3d68078ae8096cbe1a282aa397fdbe58f",
+      "manifestUrl": "https://github.com/JustGenius-s/DSH-Plugs/blob/81f83d39a2f868bdbdf7f389d4d210e9743781d2/plugins/dsh-workspace-plus/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@just-genius/dsh-workspace-plus",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792143974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JustGenius-s/DSH-Plugs",
+              "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+              "path": "plugins/dsh-workspace-plus"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JustGenius-s/DSH-Plugs",
+    "commit": "81f83d39a2f868bdbdf7f389d4d210e9743781d2",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:23.950Z"
+}

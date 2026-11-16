@@ -1,0 +1,131 @@
+{
+  "full_name": "rogerdigital/dsh-searxng",
+  "originalPosition": 152,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 152,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:09:06.183Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d383d9a68ea6d18c7b4959eb58241772a1d53256ef1043e6ea3750185fdc6a2c",
+      "url": "https://github.com/rogerdigital/dsh-searxng/blob/9b8f54496294db471f3f657d59daa9adb6185098/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-searxng",
+          "command": "dsh plugin add dsh-searxng",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-searxng",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/rogerdigital/dsh-searxng",
+        "commit": "9b8f54496294db471f3f657d59daa9adb6185098"
+      },
+      "manifestSha256": "997ae0f167a2aab86f044b7f7c802d2cd3325ad41199903143ad08b06cec9fdf",
+      "manifestUrl": "https://github.com/rogerdigital/dsh-searxng/blob/9b8f54496294db471f3f657d59daa9adb6185098/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc.3 <0.2.0 >=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-searxng",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1789924558,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/rogerdigital/dsh-searxng",
+              "commit": "9b8f54496294db471f3f657d59daa9adb6185098"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.3 <0.2.0 >=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-searxng",
+      "origin": "npm",
+      "name": "dsh-searxng",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-searxng",
+        "title": "dsh-searxng",
+        "description": "SearXNG-backed search provider for the DeepSeek Harness web capability seam (ctx.web)",
+        "repository": {
+          "url": "https://github.com/rogerdigital/dsh-searxng"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "searxng",
+            "search",
+            "metasearch",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1789287654,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.2.0 >=0.0.1-rc.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e79ea4997a9b2d2541ff2e27e978eea8150c11bb3888ecd465e31bf8595ecb2e",
+      "evidence": [
+        {
+          "name": "dsh-searxng",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-searxng/-/dsh-searxng-0.4.0.tgz",
+          "integrity": "sha512-FZmCKyza/mlyCMDp2rulcb0f+3BHUTrxFD38X+NnU+2xxyuC6vnM4EMn5jdMsCNdr1IPPkv9JiunTbD/xbBcaw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-searxng",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/rogerdigital/dsh-searxng",
+    "commit": "9b8f54496294db471f3f657d59daa9adb6185098",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:09:15.968Z"
+}

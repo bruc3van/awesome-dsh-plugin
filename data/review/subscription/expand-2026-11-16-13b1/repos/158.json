@@ -1,0 +1,135 @@
+{
+  "full_name": "wings1848/dsh-mcp-lazy",
+  "originalPosition": 158,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 158,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:09:33.554Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d574aa3c6d6431d463bb18af6d1c3c4e83eaa715290aea69c1c9e3ba1c39e263",
+      "url": "https://github.com/wings1848/dsh-mcp-lazy/blob/2899342f096c64eaed639ccc9c41bc58d356626f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mcp-lazy",
+          "command": "dsh plugin --profile <your-profile> add dsh-mcp-lazy",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mcp-lazy",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wings1848/dsh-mcp-lazy",
+        "commit": "2899342f096c64eaed639ccc9c41bc58d356626f"
+      },
+      "manifestSha256": "0fa0f548495d507f8deb139d88224f0d6be24f133f0227a67b1de477e6b1dcc7",
+      "manifestUrl": "https://github.com/wings1848/dsh-mcp-lazy/blob/2899342f096c64eaed639ccc9c41bc58d356626f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-mcp-lazy",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1791020327,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wings1848/dsh-mcp-lazy",
+              "commit": "2899342f096c64eaed639ccc9c41bc58d356626f"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-mcp-lazy",
+      "origin": "npm",
+      "name": "dsh-mcp-lazy",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mcp-lazy",
+        "title": "dsh-mcp-lazy",
+        "description": "Lazy MCP gateway for DeepSeek Harness: one stable proxy tool instead of N tool schemas, servers connect on first use and idle out, metadata cached to disk.",
+        "author": "wings1848",
+        "homepage": "https://github.com/wings1848/dsh-mcp-lazy#readme",
+        "repository": {
+          "url": "https://github.com/wings1848/dsh-mcp-lazy"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "mcp",
+            "model-context-protocol",
+            "lazy",
+            "token-efficient",
+            "context-engineering"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1791020444,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d443d0e8c41934927fe3e46b2a87c5c8095e2cfc266e3b992158a931170fe677",
+      "evidence": [
+        {
+          "name": "dsh-mcp-lazy",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-mcp-lazy/-/dsh-mcp-lazy-0.4.1.tgz",
+          "integrity": "sha512-YMyxrplOkillNGL19unE3olGkXR0lxV+Fy8J34TY6Yb7EDVGVq4k+BizU2UgTxeD6Sn2Mim8oFTTLsX9njr8UQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mcp-lazy",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wings1848/dsh-mcp-lazy",
+    "commit": "2899342f096c64eaed639ccc9c41bc58d356626f",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:09:43.917Z"
+}

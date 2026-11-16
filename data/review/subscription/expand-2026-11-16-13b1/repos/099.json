@@ -1,0 +1,66 @@
+{
+  "full_name": "xinxing1708/DSH-Codex-Style",
+  "originalPosition": 99,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 99,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:06:32.838Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7e29f4bdfaceb4e5821a360d69ad51898162fade2cf92cd92cb63ea0ffb9ebcd",
+      "url": "https://github.com/xinxing1708/DSH-Codex-Style/blob/151cbbba49ec6bf76cda9b30eb959a43405fd7e1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xinxing1708/dsh-codex-style",
+      "version": "0.2.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xinxing1708/DSH-Codex-Style",
+        "commit": "151cbbba49ec6bf76cda9b30eb959a43405fd7e1"
+      },
+      "manifestSha256": "9544e82208b2a5ced77acbc7ea01f83a06c364cd5b117bfc6a41a94993391fde",
+      "manifestUrl": "https://github.com/xinxing1708/DSH-Codex-Style/blob/151cbbba49ec6bf76cda9b30eb959a43405fd7e1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@xinxing1708/dsh-codex-style",
+        "versions": [
+          {
+            "version": "0.2.7",
+            "publishTimestamp": 1794727175,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xinxing1708/DSH-Codex-Style",
+              "commit": "151cbbba49ec6bf76cda9b30eb959a43405fd7e1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xinxing1708/DSH-Codex-Style",
+    "commit": "151cbbba49ec6bf76cda9b30eb959a43405fd7e1",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:06:43.704Z"
+}

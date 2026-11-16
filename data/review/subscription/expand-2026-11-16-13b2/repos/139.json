@@ -1,0 +1,84 @@
+{
+  "full_name": "Anarcadia/chuanban-dsh-writingset",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:18.407Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a62c0f0fc843d29239b5783d71af7cab2749abeb26c73bd810fff85e6020d121",
+      "url": "https://github.com/Anarcadia/chuanban-dsh-writingset/blob/1ce7cb4f010705d1c3b9348e5a287e61933dd6fb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Anarcadia/chuanban-dsh-writingset/releases/latest/download/chuanban-dsh-writingset.tgz",
+          "command": "dsh plugin --profile web add https://github.com/Anarcadia/chuanban-dsh-writingset/releases/latest/download/chuanban-dsh-writingset.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "chuanban-dsh-writingset",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Anarcadia/chuanban-dsh-writingset",
+        "commit": "1ce7cb4f010705d1c3b9348e5a287e61933dd6fb"
+      },
+      "manifestSha256": "083fa74ffa904740adc15fe2cb301450ab3050de0889922ba8c6d7ddd1aecbbb",
+      "manifestUrl": "https://github.com/Anarcadia/chuanban-dsh-writingset/blob/1ce7cb4f010705d1c3b9348e5a287e61933dd6fb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "chuanban-dsh-writingset",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1793761875,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Anarcadia/chuanban-dsh-writingset",
+              "commit": "1ce7cb4f010705d1c3b9348e5a287e61933dd6fb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Anarcadia/chuanban-dsh-writingset/releases/latest/download/chuanban-dsh-writingset.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Anarcadia/chuanban-dsh-writingset/releases/latest/download/chuanban-dsh-writingset.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Anarcadia/chuanban-dsh-writingset",
+    "commit": "1ce7cb4f010705d1c3b9348e5a287e61933dd6fb",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:26.526Z"
+}

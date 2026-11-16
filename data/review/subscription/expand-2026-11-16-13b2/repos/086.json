@@ -1,0 +1,58 @@
+{
+  "full_name": "x2802490130-prog/dsh-tool-writing",
+  "originalPosition": 86,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 86,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:16:11.291Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "12158f4a0e9f80ae71ec2b9750aee4dc05b07b2fd367a9cf5813effbaaa2cae7",
+      "url": "https://github.com/x2802490130-prog/dsh-tool-writing/blob/08a3e41164f94cde3de6f64ec42ac11c1cbf406e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-tool-writing",
+          "command": "dsh plugin --profile web add dsh-tool-writing",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-tool-writing",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "install_target",
+      "target": "dsh-tool-writing",
+      "reason": "dsh-tool-writing@0.8.1: tarball package.json does not name dsh-tool-writing@0.8.1"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/x2802490130-prog/dsh-tool-writing",
+    "commit": "08a3e41164f94cde3de6f64ec42ac11c1cbf406e",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T12:16:20.806Z"
+}

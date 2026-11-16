@@ -1,0 +1,272 @@
+{
+  "full_name": "bloodarea/dsh-agent-team-presets",
+  "originalPosition": 93,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 93,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:30.998Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8ba6efcd1342949a639224e31f3044cb847040878321c2f8c01705bff03db8e0",
+      "url": "https://github.com/bloodarea/dsh-agent-team-presets/blob/c33ba37ca7fcd216ac81ee770eae8670ff16f1de/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-agent-team-presets",
+          "command": "dsh plugin --profile <profile> add dsh-agent-team-presets",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-agent-team-presets",
+          "command": "dsh plugin --profile web add dsh-agent-team-presets",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/bloodarea/dsh-agent-team-presets",
+          "command": "dsh plugin --profile <profile> add github:bloodarea/dsh-agent-team-presets",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/bloodarea/dsh-agent-team-presets#v0.3.1",
+          "command": "dsh plugin --profile <profile> add github:bloodarea/dsh-agent-team-presets#v0.3.1",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "303b643ad90dfc94d2f7e089920e4a7b41c28c1ad629a667c0aa32a141d7c12b",
+      "url": "https://github.com/bloodarea/dsh-agent-team-presets/blob/c33ba37ca7fcd216ac81ee770eae8670ff16f1de/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-agent-team-presets",
+          "command": "dsh plugin --profile <profile> add dsh-agent-team-presets",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-agent-team-presets",
+          "command": "dsh plugin --profile web add dsh-agent-team-presets",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/bloodarea/dsh-agent-team-presets",
+          "command": "dsh plugin --profile <profile> add github:bloodarea/dsh-agent-team-presets",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/bloodarea/dsh-agent-team-presets#v0.3.1",
+          "command": "dsh plugin --profile <profile> add github:bloodarea/dsh-agent-team-presets#v0.3.1",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "contrib/agent-card-badges/README.md",
+      "sha256": "89ca48ea1287d1640e041a0e598d74b7ed96f1106303ed5d45e76b52fb8b6bb5",
+      "url": "https://github.com/bloodarea/dsh-agent-team-presets/blob/c33ba37ca7fcd216ac81ee770eae8670ff16f1de/contrib/agent-card-badges/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agent-team-presets",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bloodarea/dsh-agent-team-presets",
+        "commit": "c33ba37ca7fcd216ac81ee770eae8670ff16f1de"
+      },
+      "manifestSha256": "93b2415c745cb653d51406c0940d5cc7f027d584147b4b8a7b8173d6430a63e6",
+      "manifestUrl": "https://github.com/bloodarea/dsh-agent-team-presets/blob/c33ba37ca7fcd216ac81ee770eae8670ff16f1de/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-agent-team-presets",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1794571578,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bloodarea/dsh-agent-team-presets",
+              "commit": "c33ba37ca7fcd216ac81ee770eae8670ff16f1de"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-agent-team-presets",
+      "origin": "npm",
+      "name": "dsh-agent-team-presets",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-agent-team-presets",
+        "title": {
+          "en": "Agent team presets",
+          "zh": "智能体团队预设"
+        },
+        "description": {
+          "en": "Reusable Agent Team presets for DeepSeek Harness: a captain plus members with their own prompt, model, reasoning effort, and tools.",
+          "zh": "为 DeepSeek Harness 配置可复用的智能体团队预设：队长 + 队员，每个队员有自己的提示词、模型、思考强度和工具。"
+        },
+        "repository": {
+          "url": "https://github.com/bloodarea/dsh-agent-team-presets"
+        },
+        "metadata": {
+          "keywords": [
+            "agent-presets",
+            "agent-teams",
+            "ai-agents",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "multi-agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1794572179,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.3.0"
+            }
+          },
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1793101776,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "57dc2d2fcf47f5652a985b9f1131555135eb186df3d61e8cf801ffb13c050ab5",
+      "evidence": [
+        {
+          "name": "dsh-agent-team-presets",
+          "version": "0.3.2",
+          "tarball": "https://registry.npmjs.org/dsh-agent-team-presets/-/dsh-agent-team-presets-0.3.2.tgz",
+          "integrity": "sha512-s8adRqmicXLax1KGKzi1UVIG+FsFWmCIpF3DH1Iu5lYoM1bgwv/tliwS7jeTkfFwdc8ONAB995dY2AxG3Z0MWQ=="
+        },
+        {
+          "name": "dsh-agent-team-presets",
+          "version": "0.1.8",
+          "tarball": "https://registry.npmjs.org/dsh-agent-team-presets/-/dsh-agent-team-presets-0.1.8.tgz",
+          "integrity": "sha512-s+BWKvqnNVELk6dNNvaEN6nZMGzQkBTI9bCdnPyGKv46FY5EOhxct0bqBqAEqhuLAkVyE7muVV+JXAbREpy9lA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/bloodarea/dsh-agent-team-presets#v0.3.1",
+      "origin": "git_target",
+      "name": "dsh-agent-team-presets",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-agent-team-presets",
+        "title": {
+          "en": "Agent team presets",
+          "zh": "智能体团队预设"
+        },
+        "description": {
+          "en": "Reusable Agent Team presets for DeepSeek Harness: a captain plus members with their own prompt, model, reasoning effort, and tools.",
+          "zh": "为 DeepSeek Harness 配置可复用的智能体团队预设：队长 + 队员，每个队员有自己的提示词、模型、思考强度和工具。"
+        },
+        "repository": {
+          "url": "https://github.com/bloodarea/dsh-agent-team-presets"
+        },
+        "metadata": {
+          "keywords": [
+            "agent-presets",
+            "agent-teams",
+            "ai-agents",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "multi-agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794549248,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bloodarea/dsh-agent-team-presets",
+              "commit": "3aefc363d6b85f35229dba96a10995cd30e3a7c3"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "3aefc363d6b85f35229dba96a10995cd30e3a7c3",
+          "name": "dsh-agent-team-presets",
+          "version": "0.3.1",
+          "url": "https://github.com/bloodarea/dsh-agent-team-presets",
+          "manifestSha256": "56d0f7cb8808e45d4ec38616378fddea04d03e6fd857dd4f2dd754984117701c",
+          "publishTimestamp": 1794549248
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-agent-team-presets",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/bloodarea/dsh-agent-team-presets",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/bloodarea/dsh-agent-team-presets#v0.3.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bloodarea/dsh-agent-team-presets",
+    "commit": "c33ba37ca7fcd216ac81ee770eae8670ff16f1de",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:02.267Z"
+}

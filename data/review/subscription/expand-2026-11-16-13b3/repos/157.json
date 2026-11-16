@@ -1,0 +1,79 @@
+{
+  "full_name": "Dogwind221/img2img-studio",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:39.404Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a9db126a6e7e25181a5a226126e2f66319f90c37b08d69a56da924c5ad07425b",
+      "url": "https://github.com/Dogwind221/img2img-studio/blob/93646be569df59bcbc783f146dd8bb81754d663c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-img2img-config/README.md",
+      "sha256": "ef5dcb92aba45c445ee6b9a88a2fb3dc3856af0d3e7141926549927ad62ab102",
+      "url": "https://github.com/Dogwind221/img2img-studio/blob/93646be569df59bcbc783f146dd8bb81754d663c/plugins/dsh-img2img-config/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-img2img-config",
+      "version": "0.6.0",
+      "path": "plugins/dsh-img2img-config",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Dogwind221/img2img-studio",
+        "commit": "93646be569df59bcbc783f146dd8bb81754d663c",
+        "path": "plugins/dsh-img2img-config"
+      },
+      "manifestSha256": "3f563661b93e59a168326a6e62f0d901dd527313ed2504962de0a2db9ddd3c70",
+      "manifestUrl": "https://github.com/Dogwind221/img2img-studio/blob/93646be569df59bcbc783f146dd8bb81754d663c/plugins/dsh-img2img-config/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-img2img-config",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1794291224,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Dogwind221/img2img-studio",
+              "commit": "93646be569df59bcbc783f146dd8bb81754d663c",
+              "path": "plugins/dsh-img2img-config"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Dogwind221/img2img-studio",
+    "commit": "93646be569df59bcbc783f146dd8bb81754d663c",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:48.331Z"
+}

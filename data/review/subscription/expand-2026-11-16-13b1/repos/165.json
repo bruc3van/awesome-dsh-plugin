@@ -1,0 +1,69 @@
+{
+  "full_name": "Bingtang1019/dsh-ppt-fusion",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:09:46.956Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2b15c29a4a69d042309d4ec377b1690776d446211d932c4d678af007d9b5e291",
+      "url": "https://github.com/Bingtang1019/dsh-ppt-fusion/blob/a19f4d3832e92b4c722e305c7b9b67cae9ad8153/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ppt-flashmade",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bingtang1019/dsh-ppt-fusion",
+        "commit": "a19f4d3832e92b4c722e305c7b9b67cae9ad8153"
+      },
+      "manifestSha256": "1a120488631e63b945679cbecf61cfec4d4309ff937449f8dc08f76a859f7fda",
+      "manifestUrl": "https://github.com/Bingtang1019/dsh-ppt-fusion/blob/a19f4d3832e92b4c722e305c7b9b67cae9ad8153/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.1.3 || >=0.1.3-rc.1 <0.1.4 || >=0.1.4-rc.1 <0.1.5 || >=0.1.5-rc.1 <0.1.6 || >=0.1.6-rc.1 <0.1.7 || >=0.1.7-rc.1 <0.1.8 || >=0.1.8 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ppt-flashmade",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1791469974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Bingtang1019/dsh-ppt-fusion",
+              "commit": "a19f4d3832e92b4c722e305c7b9b67cae9ad8153"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.1.3 || >=0.1.3-rc.1 <0.1.4 || >=0.1.4-rc.1 <0.1.5 || >=0.1.5-rc.1 <0.1.6 || >=0.1.6-rc.1 <0.1.7 || >=0.1.7-rc.1 <0.1.8 || >=0.1.8 <0.2.0-0 || >=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Bingtang1019/dsh-ppt-fusion",
+    "commit": "a19f4d3832e92b4c722e305c7b9b67cae9ad8153",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:09:56.300Z"
+}

@@ -1,0 +1,150 @@
+{
+  "full_name": "bloodtmai-cmyk/dsh-harness-enterprise",
+  "originalPosition": 82,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 82,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:05:51.493Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0156ef1f7afd922fd2f6c418a024a6cb76683884e9da4f25dc939f7d713bae48",
+      "url": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise/blob/3427dbcc49a8d841222219bcfffc632c87a958bd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "f8c902bb564caddeb5c142d113e5d68c2192eebfe08dad1265ecb7adc38c903b",
+      "url": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise/blob/3427dbcc49a8d841222219bcfffc632c87a958bd/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/desktop/README.md",
+      "sha256": "d15428846549586aa95dfbd6dac105def5c9110ae00a67a2b23baa96ab050bbb",
+      "url": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise/blob/3427dbcc49a8d841222219bcfffc632c87a958bd/apps/desktop/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-base",
+      "version": "0.1.0-rc.7",
+      "path": "packages/bundle/base",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise",
+        "commit": "3427dbcc49a8d841222219bcfffc632c87a958bd",
+        "path": "packages/bundle/base"
+      },
+      "manifestSha256": "05f8bcf6f5fcbe25edf53d27ccec6bdcf07a7d40438ca6173eb9e13fb5de9161",
+      "manifestUrl": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise/blob/3427dbcc49a8d841222219bcfffc632c87a958bd/packages/bundle/base/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-base",
+        "versions": [
+          {
+            "version": "0.1.0-rc.7",
+            "publishTimestamp": 1792125077,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise",
+              "commit": "3427dbcc49a8d841222219bcfffc632c87a958bd",
+              "path": "packages/bundle/base"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-headless",
+      "version": "0.1.0-rc.7",
+      "path": "packages/bundle/headless",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise",
+        "commit": "3427dbcc49a8d841222219bcfffc632c87a958bd",
+        "path": "packages/bundle/headless"
+      },
+      "manifestSha256": "3345dfa0bce553b3fc007ddc73a41085309704264d0f64091f807c8209dfffe9",
+      "manifestUrl": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise/blob/3427dbcc49a8d841222219bcfffc632c87a958bd/packages/bundle/headless/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-headless",
+        "versions": [
+          {
+            "version": "0.1.0-rc.7",
+            "publishTimestamp": 1792125077,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise",
+              "commit": "3427dbcc49a8d841222219bcfffc632c87a958bd",
+              "path": "packages/bundle/headless"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-web-app",
+      "version": "0.1.0-rc.7",
+      "path": "packages/bundle/web-app",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise",
+        "commit": "3427dbcc49a8d841222219bcfffc632c87a958bd",
+        "path": "packages/bundle/web-app"
+      },
+      "manifestSha256": "7d75a8decc08372d570bd1550110997b5616148b00422525ee851a3612af68b2",
+      "manifestUrl": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise/blob/3427dbcc49a8d841222219bcfffc632c87a958bd/packages/bundle/web-app/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-web-app",
+        "versions": [
+          {
+            "version": "0.1.0-rc.7",
+            "publishTimestamp": 1792125077,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise",
+              "commit": "3427dbcc49a8d841222219bcfffc632c87a958bd",
+              "path": "packages/bundle/web-app"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bloodtmai-cmyk/dsh-harness-enterprise",
+    "commit": "3427dbcc49a8d841222219bcfffc632c87a958bd",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:12:29.404Z"
+}

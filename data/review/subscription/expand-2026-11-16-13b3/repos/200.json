@@ -1,0 +1,74 @@
+{
+  "full_name": "Zzzzkd/dsh-prompt-rail",
+  "originalPosition": 200,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:28:33.288Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "71f8689283b1258dc7f7c73597ad685c2fcbb58d927d368e50419640cf44fed1",
+      "url": "https://github.com/Zzzzkd/dsh-prompt-rail/blob/0c70be6821c2a8523487c0eae06f3a6aaf429d26/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e8375f071681a17b9bca4eb5035742b2a9b9dc6c592f8b159cb4bfa56d5cfc42",
+      "url": "https://github.com/Zzzzkd/dsh-prompt-rail/blob/0c70be6821c2a8523487c0eae06f3a6aaf429d26/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-rail",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Zzzzkd/dsh-prompt-rail",
+        "commit": "0c70be6821c2a8523487c0eae06f3a6aaf429d26"
+      },
+      "manifestSha256": "52cdd05a12def27b66f252439889083a4a38f08457374204ce98cd362927a5e0",
+      "manifestUrl": "https://github.com/Zzzzkd/dsh-prompt-rail/blob/0c70be6821c2a8523487c0eae06f3a6aaf429d26/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-prompt-rail",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786802421,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Zzzzkd/dsh-prompt-rail",
+              "commit": "0c70be6821c2a8523487c0eae06f3a6aaf429d26"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zzzzkd/dsh-prompt-rail",
+    "commit": "0c70be6821c2a8523487c0eae06f3a6aaf429d26",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:28:43.571Z"
+}

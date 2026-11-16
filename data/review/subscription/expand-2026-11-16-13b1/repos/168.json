@@ -1,0 +1,128 @@
+{
+  "full_name": "ChenyuHeee/dsh-browser-playwright",
+  "originalPosition": 168,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 168,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:09:56.301Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d54b38e0a139d609c6f9026cc9c92700da186dade12de6d3d3dac8bbba860dca",
+      "url": "https://github.com/ChenyuHeee/dsh-browser-playwright/blob/57ebe45fb906b6977312a0c7562d407faee4b449/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-browser-playwright",
+          "command": "dsh plugin --profile <name> add dsh-browser-playwright",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-browser-playwright",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ChenyuHeee/dsh-browser-playwright",
+        "commit": "57ebe45fb906b6977312a0c7562d407faee4b449"
+      },
+      "manifestSha256": "0862cccbd8cd6709bcd6f4a7332cb6d0a6308464d9dae607689ad835727314a0",
+      "manifestUrl": "https://github.com/ChenyuHeee/dsh-browser-playwright/blob/57ebe45fb906b6977312a0c7562d407faee4b449/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.1.0-rc.7",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-browser-playwright",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786721347,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ChenyuHeee/dsh-browser-playwright",
+              "commit": "57ebe45fb906b6977312a0c7562d407faee4b449"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.1.0-rc.7"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-browser-playwright",
+      "origin": "npm",
+      "name": "dsh-browser-playwright",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-browser-playwright",
+        "title": "dsh-browser-playwright",
+        "description": "Playwright-powered browser capability for DeepSeek Harness: accessibility-snapshot interaction with stable element refs, session-scoped browser sessions, screenshots as attachments.",
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "browser",
+            "playwright",
+            "web-automation",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786721369,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.1.0-rc.7"
+            }
+          }
+        ]
+      },
+      "registrySha256": "747dd51e968de6146c2b6cc502ceab0c73a819adc33cf740f5d31ebdd9096852",
+      "evidence": [
+        {
+          "name": "dsh-browser-playwright",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-browser-playwright/-/dsh-browser-playwright-0.1.1.tgz",
+          "integrity": "sha512-CRMlGzLs2QipIX5kraPWpmyOUGnkHZ1mf+7ySALrxH/ZrbZsTAgHKN1dBFlDudC/drmxQDj9a9N7HdzBaPbQ7w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-browser-playwright",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ChenyuHeee/dsh-browser-playwright",
+    "commit": "57ebe45fb906b6977312a0c7562d407faee4b449",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:06.928Z"
+}

@@ -1,0 +1,73 @@
+{
+  "full_name": "Ebony-Vinyl/EAC-skin-loader",
+  "originalPosition": 18,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 18,
+  "batch": 1,
+  "stargazers_count": 39,
+  "startedAt": "2026-11-16T12:13:17.594Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "29d7c40defb8ef055e2e56c20037f668bc93e23712e070f9d250941645a5fde1",
+      "url": "https://github.com/Ebony-Vinyl/EAC-skin-loader/blob/43e9236c162332058754c7e84dc76aefa8ac40b7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/DSH-EAC/EAC-skin-loader",
+          "command": "dsh plugin --profile web add github:DSH-EAC/EAC-skin-loader",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-eac/skin-loader-pack",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ebony-Vinyl/EAC-skin-loader",
+        "commit": "43e9236c162332058754c7e84dc76aefa8ac40b7"
+      },
+      "manifestSha256": "631f0e942e579a131d7c2812005ad85a13e2452bc51bdea1ee73489a492afdbd",
+      "manifestUrl": "https://github.com/Ebony-Vinyl/EAC-skin-loader/blob/43e9236c162332058754c7e84dc76aefa8ac40b7/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "target": "https://github.com/DSH-EAC/EAC-skin-loader",
+      "origin": "git_target",
+      "path": "",
+      "commit": "43e9236c162332058754c7e84dc76aefa8ac40b7",
+      "name": "@dsh-eac/skin-loader-pack",
+      "version": "1.2.0",
+      "code": "private_package",
+      "status": "invalid_manifest",
+      "reason": "包声明 private: true，不作为可订阅插件收录"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/DSH-EAC/EAC-skin-loader",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ebony-Vinyl/EAC-skin-loader",
+    "commit": "43e9236c162332058754c7e84dc76aefa8ac40b7",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T12:13:34.112Z"
+}

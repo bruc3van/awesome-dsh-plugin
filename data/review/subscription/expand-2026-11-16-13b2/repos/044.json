@@ -1,0 +1,232 @@
+{
+  "full_name": "Lzh3070/dsh-session-cost",
+  "originalPosition": 44,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 44,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-11-16T12:14:24.098Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a4511092ece37ef2d9ee555163333e8169da17013f9d29af44f81163d62abcc0",
+      "url": "https://github.com/Lzh3070/dsh-session-cost/blob/986c34e1445ca5012d32e2d9d02768c5cb0cb12c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@phynez_1103/dsh-session-cost",
+          "command": "dsh plugin --profile web add @phynez_1103/dsh-session-cost",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-session-cost",
+          "command": "dsh plugin add dsh-session-cost",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/Lzh3070/dsh-session-cost",
+          "command": "dsh plugin --profile web add github:Lzh3070/dsh-session-cost",
+          "profile": "web"
+        },
+        {
+          "install": "https://gitee.com/lzh10602042_gitee/dsh-session-cost/repository/archive/master.zip",
+          "command": "dsh plugin --profile web add https://gitee.com/lzh10602042_gitee/dsh-session-cost/repository/archive/master.zip",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "38ab69ae0fa94cf2412b3ec9577e90c8f698a8854fb340fe92552f610f45354c",
+      "url": "https://github.com/Lzh3070/dsh-session-cost/blob/986c34e1445ca5012d32e2d9d02768c5cb0cb12c/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@phynez_1103/dsh-session-cost",
+          "command": "dsh plugin --profile web add @phynez_1103/dsh-session-cost",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-session-cost",
+          "command": "dsh plugin add dsh-session-cost",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/Lzh3070/dsh-session-cost",
+          "command": "dsh plugin --profile web add github:Lzh3070/dsh-session-cost",
+          "profile": "web"
+        },
+        {
+          "install": "https://gitee.com/lzh10602042_gitee/dsh-session-cost/repository/archive/master.zip",
+          "command": "dsh plugin --profile web add https://gitee.com/lzh10602042_gitee/dsh-session-cost/repository/archive/master.zip",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@phynez_1103/dsh-session-cost",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lzh3070/dsh-session-cost",
+        "commit": "986c34e1445ca5012d32e2d9d02768c5cb0cb12c"
+      },
+      "manifestSha256": "5a7bd810744241b9d5671dc5f227c5ba0971a967385692d8e948c677692faf48",
+      "manifestUrl": "https://github.com/Lzh3070/dsh-session-cost/blob/986c34e1445ca5012d32e2d9d02768c5cb0cb12c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@phynez_1103/dsh-session-cost",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1787197842,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Lzh3070/dsh-session-cost",
+              "commit": "986c34e1445ca5012d32e2d9d02768c5cb0cb12c"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@phynez_1103/dsh-session-cost",
+      "origin": "npm",
+      "name": "@phynez_1103/dsh-session-cost",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@phynez_1103/dsh-session-cost",
+        "title": "@phynez_1103/dsh-session-cost",
+        "description": "DSH web plugin: shows the current session's DeepSeek API cost as a small chip in the composer button row (conversation.input.right). Prices every assistant/message by its timestamp with the official DeepSeek pricing table, including the 2026-08-17 peak/off-peak policy.",
+        "repository": {
+          "url": "https://github.com/Lzh3070/dsh-session-cost"
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1787197851,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "514ec7ef42be5c8432fc1bd4ba6c6f25c079cb2dc42482ab2107c13c66a592a5",
+      "evidence": [
+        {
+          "name": "@phynez_1103/dsh-session-cost",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/@phynez_1103/dsh-session-cost/-/dsh-session-cost-0.1.1.tgz",
+          "integrity": "sha512-pCtiMspD2AhDeIOBqladVpcuMiIyDO0QiWtDRqMrfu/4AWiQT4gcs8+y91XitPhUn8ot6/yBmcDIS5HGEVmMVg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-session-cost",
+      "origin": "npm",
+      "name": "dsh-session-cost",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-session-cost",
+        "title": "dsh-session-cost",
+        "description": "dsh plugin: show the estimated DeepSeek API cost of the current session in the web GUI stats strip (token usage × official pricing, peak/off-peak aware)",
+        "author": "ChengChe106",
+        "homepage": "https://github.com/ChengChe106/dsh-session-cost",
+        "repository": {
+          "url": "https://github.com/ChengChe106/dsh-session-cost"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "client",
+            "cost",
+            "token",
+            "billing",
+            "pricing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1786696805,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "752cc878a7a1abe3193dc68ea3e7436ba312e37f4de1458b001edbdac3d38037",
+      "evidence": [
+        {
+          "name": "dsh-session-cost",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-session-cost/-/dsh-session-cost-0.1.3.tgz",
+          "integrity": "sha512-94UxJajxnWsPu7DLimkAlOZzzb6oVWPaccmmxOu7SoentiLJ1ZwHtM4Clh4KEmFJCsM46rVgLcRt0OO701YIjQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@phynez_1103/dsh-session-cost",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-session-cost",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Lzh3070/dsh-session-cost",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://gitee.com/lzh10602042_gitee/dsh-session-cost/repository/archive/master.zip",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "install_target",
+      "target": "https://gitee.com/lzh10602042_gitee/dsh-session-cost/repository/archive/master.zip",
+      "reason": "Command failed: git -c core.hooksPath=/dev/null -c core.fsmonitor=false -c submodule.recurse=false -c gc.auto=0 -c maintenance.auto=false -c protocol.allow=never -c protocol.https.allow=always ls-remote -- https://gitee.com/lzh10602042_gitee/dsh-session-cost/repository/archive/master.zip HEAD refs/tags/*\nfatal: could not read Username for 'https://gitee.com': terminal prompts disabled\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Lzh3070/dsh-session-cost",
+    "commit": "986c34e1445ca5012d32e2d9d02768c5cb0cb12c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T12:14:36.105Z"
+}

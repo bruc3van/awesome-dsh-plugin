@@ -1,0 +1,149 @@
+{
+  "full_name": "GooDAnDReaDY/dsh-lanmode",
+  "originalPosition": 164,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 164,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:51.892Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3f1dcb0f458e8fb1aacabca6079ab9def6839447b25adacba21bc4038bbf1f9e",
+      "url": "https://github.com/GooDAnDReaDY/dsh-lanmode/blob/423b71f6835c03df1560206a8b125b0d3a6a53e0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-lanmode",
+          "command": "dsh plugin --profile web add @goodandready/dsh-lanmode",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "795f1b7e5b231cb279386c2efab7dccff442b7f09cb64b07c9f506bf5570a510",
+      "url": "https://github.com/GooDAnDReaDY/dsh-lanmode/blob/423b71f6835c03df1560206a8b125b0d3a6a53e0/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-lanmode",
+          "command": "dsh plugin --profile web add @goodandready/dsh-lanmode",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@goodandready/dsh-lanmode",
+      "version": "0.8.53",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GooDAnDReaDY/dsh-lanmode",
+        "commit": "423b71f6835c03df1560206a8b125b0d3a6a53e0"
+      },
+      "manifestSha256": "55d6c2d92eb7e0d140f9d71ba01469f4be75f7544e1de4d71d2e9c3c3878373d",
+      "manifestUrl": "https://github.com/GooDAnDReaDY/dsh-lanmode/blob/423b71f6835c03df1560206a8b125b0d3a6a53e0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-rc.2 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@goodandready/dsh-lanmode",
+        "versions": [
+          {
+            "version": "0.8.53",
+            "publishTimestamp": 1793275720,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GooDAnDReaDY/dsh-lanmode",
+              "commit": "423b71f6835c03df1560206a8b125b0d3a6a53e0"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@goodandready/dsh-lanmode",
+      "origin": "npm",
+      "name": "@goodandready/dsh-lanmode",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@goodandready/dsh-lanmode",
+        "title": "@goodandready/dsh-lanmode",
+        "description": "LAN and reverse-proxy access for the DeepSeek Harness Web UI: returns the settings service on pages that are not localhost, fills in the Web APIs the browser withholds on plain HTTP, and can open a listener of its own so nothing else is needed. Requires DeepSeek Harness 0.1.7+.",
+        "homepage": "https://github.com/GooDAnDReaDY/dsh-lanmode",
+        "repository": {
+          "url": "https://github.com/GooDAnDReaDY/dsh-lanmode"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "settings",
+            "lan",
+            "remote",
+            "proxy",
+            "nginx",
+            "pwa",
+            "mdns"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.8.60",
+            "publishTimestamp": 1794571886,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "47e2eff2a136951bba2cd648c7b4ed30aa6fc4427f76693fe8caa0ed7d9102f4",
+      "evidence": [
+        {
+          "name": "@goodandready/dsh-lanmode",
+          "version": "0.8.60",
+          "tarball": "https://registry.npmjs.org/@goodandready/dsh-lanmode/-/dsh-lanmode-0.8.60.tgz",
+          "integrity": "sha512-gLF9uwn1Fud9chCRx9pzke7OKnwKH0g1KJvWoTT1vgSoKyeY6rXHffQftRknjHXZDHYsMYJGnXMwHwPeNkq/Ow=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@goodandready/dsh-lanmode",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GooDAnDReaDY/dsh-lanmode",
+    "commit": "423b71f6835c03df1560206a8b125b0d3a6a53e0",
+    "releaseTags": 79,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:27:07.444Z"
+}

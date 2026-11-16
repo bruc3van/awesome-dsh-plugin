@@ -1,0 +1,66 @@
+{
+  "full_name": "Morgiana-V3/dsh-feed-the-seek",
+  "originalPosition": 76,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 76,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:05:40.672Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "62781028014eb55ee537ac72aaa5499250ed6d0393abde98423e962402ffb1cd",
+      "url": "https://github.com/Morgiana-V3/dsh-feed-the-seek/blob/9f3907696d3c78290d8d88123b4131c833fc0934/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-feed-the-seek",
+      "version": "1.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Morgiana-V3/dsh-feed-the-seek",
+        "commit": "9f3907696d3c78290d8d88123b4131c833fc0934"
+      },
+      "manifestSha256": "6338f29bba4d50102d9878c375c0c2ca6b2246081fb0883c37e55c3c8250e741",
+      "manifestUrl": "https://github.com/Morgiana-V3/dsh-feed-the-seek/blob/9f3907696d3c78290d8d88123b4131c833fc0934/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-feed-the-seek",
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1793696993,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Morgiana-V3/dsh-feed-the-seek",
+              "commit": "9f3907696d3c78290d8d88123b4131c833fc0934"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Morgiana-V3/dsh-feed-the-seek",
+    "commit": "9f3907696d3c78290d8d88123b4131c833fc0934",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:05:50.157Z"
+}

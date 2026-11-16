@@ -1,0 +1,87 @@
+{
+  "full_name": "MoonlitDropOfBlood/dsh-memory-manager",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:54.779Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fb0f118b1960393f6b29d30e2cf691bf59455ba1a533c07109a161cc73ef2925",
+      "url": "https://github.com/MoonlitDropOfBlood/dsh-memory-manager/blob/c3c76d5b53b47057719e6c708db1117a4fe834c5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MoonlitDropOfBlood/dsh-memory-manager/releases/download/v1.5.0/dsh-memory-manager-1.5.0.tgz",
+          "command": "dsh plugin --profile web add https://github.com/MoonlitDropOfBlood/dsh-memory-manager/releases/download/v1.5.0/dsh-memory-manager-1.5.0.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@duke-dsh-plugins/dsh-memory-manager",
+      "version": "1.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MoonlitDropOfBlood/dsh-memory-manager",
+        "commit": "c3c76d5b53b47057719e6c708db1117a4fe834c5"
+      },
+      "manifestSha256": "5f7f7415a8859756fe0a973fab88dadb11568df8a1e94f8441a136451cfec73d",
+      "manifestUrl": "https://github.com/MoonlitDropOfBlood/dsh-memory-manager/blob/c3c76d5b53b47057719e6c708db1117a4fe834c5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.7 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@duke-dsh-plugins/dsh-memory-manager",
+        "versions": [
+          {
+            "version": "1.5.0",
+            "publishTimestamp": 1794294672,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MoonlitDropOfBlood/dsh-memory-manager",
+              "commit": "c3c76d5b53b47057719e6c708db1117a4fe834c5"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.7 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/MoonlitDropOfBlood/dsh-memory-manager/releases/download/v1.5.0/dsh-memory-manager-1.5.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/MoonlitDropOfBlood/dsh-memory-manager/releases/download/v1.5.0/dsh-memory-manager-1.5.0.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MoonlitDropOfBlood/dsh-memory-manager",
+    "commit": "c3c76d5b53b47057719e6c708db1117a4fe834c5",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:02.732Z"
+}

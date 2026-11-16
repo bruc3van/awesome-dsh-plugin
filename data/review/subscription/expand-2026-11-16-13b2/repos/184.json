@@ -1,0 +1,233 @@
+{
+  "full_name": "drscrewdriver/dsh-llm-openai-completions",
+  "originalPosition": 184,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 184,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:53.604Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6603236c93488f2c288380590bbfaa2694e252cab6be47b5637c81ffc7326210",
+      "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions/blob/7fe8a5358bedf48acfc5e5c9a1fb766587146c90/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-openai-completions",
+          "command": "dsh plugin --profile web add dsh-llm-openai-completions -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "58109baf7247bbebb1b41b0b9d42bb58c80de020cca47dcca8d36bd0cb8bb940",
+      "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions/blob/7fe8a5358bedf48acfc5e5c9a1fb766587146c90/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-openai-completions",
+          "command": "dsh plugin --profile web add dsh-llm-openai-completions -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "bf4b966da6f2089e3d4a238468d192aee2a81f82a8c40d032bcd98e85a770fef",
+      "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions/blob/7fe8a5358bedf48acfc5e5c9a1fb766587146c90/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-openai-completions",
+          "command": "dsh plugin --profile web add dsh-llm-openai-completions -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ko.md",
+      "sha256": "36dcf2a94653b63b87e2ced78105731ec8f337b20b9a0db0c84f467069dad233",
+      "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions/blob/7fe8a5358bedf48acfc5e5c9a1fb766587146c90/README.ko.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-openai-completions",
+          "command": "dsh plugin --profile web add dsh-llm-openai-completions -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "293b3daafd7e7435482eba97a05bc6dcd4be74417a80be7c3df0abd5f05b8e8b",
+      "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions/blob/7fe8a5358bedf48acfc5e5c9a1fb766587146c90/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-openai-completions",
+          "command": "dsh plugin --profile web add dsh-llm-openai-completions -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "803cb245b1aaf3571c28195d3aaa0c8d7eceefec8eb363b6fc6af6b5cc8a77ce",
+      "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions/blob/7fe8a5358bedf48acfc5e5c9a1fb766587146c90/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-openai-completions",
+          "command": "dsh plugin --profile web add dsh-llm-openai-completions -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "697b49a33488d425969d33137f4bf0d55b955dfb3714a4cef8159241e73f3783",
+      "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions/blob/7fe8a5358bedf48acfc5e5c9a1fb766587146c90/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-openai-completions",
+          "command": "dsh plugin --profile web add dsh-llm-openai-completions -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.it.md",
+      "sha256": "5da6fd7e97e0015bfb183c7607cb99f80d3e54ccae2f38505e9f60ecf8df0e54",
+      "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions/blob/7fe8a5358bedf48acfc5e5c9a1fb766587146c90/README.it.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-openai-completions",
+          "command": "dsh plugin --profile web add dsh-llm-openai-completions -w",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "675f33da5357cb1af44cf4da2ac48d41cc06e9b961a9a2f0acfb8449c0a4a1f5",
+      "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions/blob/7fe8a5358bedf48acfc5e5c9a1fb766587146c90/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-llm-openai-completions",
+          "command": "dsh plugin --profile web add dsh-llm-openai-completions -w",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-llm-openai-completions",
+      "version": "0.4.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions",
+        "commit": "7fe8a5358bedf48acfc5e5c9a1fb766587146c90"
+      },
+      "manifestSha256": "6b93efd256c7363451eff4ba06cebf383369935f72edb6e5127b0a781969fe4f",
+      "manifestUrl": "https://github.com/drscrewdriver/dsh-llm-openai-completions/blob/7fe8a5358bedf48acfc5e5c9a1fb766587146c90/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-llm-openai-completions",
+        "versions": [
+          {
+            "version": "0.4.8",
+            "publishTimestamp": 1794649374,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions",
+              "commit": "7fe8a5358bedf48acfc5e5c9a1fb766587146c90"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-llm-openai-completions",
+      "origin": "npm",
+      "name": "dsh-llm-openai-completions",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-llm-openai-completions",
+        "title": "dsh-llm-openai-completions",
+        "description": "OpenAI-completions-compatible transport takeover for custom gateways (vLLM / LM Studio / self-hosted proxies): always role:\"system\", enable_thinking / chat_template_kwargs / reasoning_effort driven by the llm-pi-ai model config, a </think> split on the receive side, multimodal true-send (image/audio/video/PDF) with a modality gate, and an llmOpenaiCompletions prompt-source seam — no pi-ai behavior guessing.",
+        "homepage": "https://github.com/drscrewdriver/dsh-llm-openai-completions#readme",
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions"
+        },
+        "versions": [
+          {
+            "version": "0.4.9",
+            "publishTimestamp": 1794653575,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "faf17a135d7c11e27d33a187150de7819b5ca44ddd997c8a6f02dcfea97b3871",
+      "evidence": [
+        {
+          "name": "dsh-llm-openai-completions",
+          "version": "0.4.9",
+          "tarball": "https://registry.npmjs.org/dsh-llm-openai-completions/-/dsh-llm-openai-completions-0.4.9.tgz",
+          "integrity": "sha512-As9XaiiN6Id9cNFunvX3vlcv48jfe0eZjie+TzF9OGC2z5dvjHnB3BLbMQws38tg7XpFmPAOE6tFNf4w0PYxag=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-llm-openai-completions",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/drscrewdriver/dsh-llm-openai-completions",
+    "commit": "7fe8a5358bedf48acfc5e5c9a1fb766587146c90",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:20:18.791Z"
+}

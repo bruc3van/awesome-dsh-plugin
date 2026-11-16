@@ -1,0 +1,66 @@
+{
+  "full_name": "BiBoyang/dsh-im-bridge",
+  "originalPosition": 105,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 105,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:06:47.132Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5bd5fab76319631cce95055a0912117cd98889059b4a0a3712fe2eb7b5afca08",
+      "url": "https://github.com/BiBoyang/dsh-im-bridge/blob/d5bcb1d27d1341b7d85a4f20917405c8e78ac8f9/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-im-bridge",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BiBoyang/dsh-im-bridge",
+        "commit": "d5bcb1d27d1341b7d85a4f20917405c8e78ac8f9"
+      },
+      "manifestSha256": "ab59d6cd6090a5b9e6313601406ef8b4507c2cfe7dd08750f4cd0950e6d07a70",
+      "manifestUrl": "https://github.com/BiBoyang/dsh-im-bridge/blob/d5bcb1d27d1341b7d85a4f20917405c8e78ac8f9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-im-bridge",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786663973,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BiBoyang/dsh-im-bridge",
+              "commit": "d5bcb1d27d1341b7d85a4f20917405c8e78ac8f9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BiBoyang/dsh-im-bridge",
+    "commit": "d5bcb1d27d1341b7d85a4f20917405c8e78ac8f9",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:06:55.339Z"
+}

@@ -1,0 +1,81 @@
+{
+  "full_name": "yzxxy010/dsh-workspace-write-plus",
+  "originalPosition": 134,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 134,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:51.297Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "09562fa171fb1b0d1d12f383ec340d013f51b75de2eaf49d878d5b6f51e45e5c",
+      "url": "https://github.com/yzxxy010/dsh-workspace-write-plus/blob/d881e7ef7927f5ea1327be1df3a78afd496869a7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yzxxy010/dsh-workspace-write-plus",
+          "command": "dsh plugin --profile web add https://github.com/yzxxy010/dsh-workspace-write-plus",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workspace-write-plus",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yzxxy010/dsh-workspace-write-plus",
+        "commit": "d881e7ef7927f5ea1327be1df3a78afd496869a7"
+      },
+      "manifestSha256": "546349f63be6a5e6d11eeb4a12cbd9d18275b7c690e5b19834ac2af4a288114c",
+      "manifestUrl": "https://github.com/yzxxy010/dsh-workspace-write-plus/blob/d881e7ef7927f5ea1327be1df3a78afd496869a7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-workspace-write-plus",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1788747529,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yzxxy010/dsh-workspace-write-plus",
+              "commit": "d881e7ef7927f5ea1327be1df3a78afd496869a7"
+            },
+            "engines": {
+              "dsh": ">=0.1.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yzxxy010/dsh-workspace-write-plus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yzxxy010/dsh-workspace-write-plus",
+    "commit": "d881e7ef7927f5ea1327be1df3a78afd496869a7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:01.446Z"
+}

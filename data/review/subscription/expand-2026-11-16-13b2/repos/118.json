@@ -1,0 +1,78 @@
+{
+  "full_name": "liangzz1998/dsh-thinking-language",
+  "originalPosition": 118,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 118,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:35.715Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "613a606cec1101636c245937da6c355836ab20823e8bb6531e145da2477b1748",
+      "url": "https://github.com/liangzz1998/dsh-thinking-language/blob/da9f28b29822c2a6a2228778c6449e8e47adc230/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/liangzz1998/dsh-thinking-language",
+          "command": "dsh plugin --profile desktop add github:liangzz1998/dsh-thinking-language",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-thinking-language",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liangzz1998/dsh-thinking-language",
+        "commit": "da9f28b29822c2a6a2228778c6449e8e47adc230"
+      },
+      "manifestSha256": "f998908e5e131603d16bf63e240dd4dc99f04f42f263531376995beb5f5a8483",
+      "manifestUrl": "https://github.com/liangzz1998/dsh-thinking-language/blob/da9f28b29822c2a6a2228778c6449e8e47adc230/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-thinking-language",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793014740,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liangzz1998/dsh-thinking-language",
+              "commit": "da9f28b29822c2a6a2228778c6449e8e47adc230"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/liangzz1998/dsh-thinking-language",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liangzz1998/dsh-thinking-language",
+    "commit": "da9f28b29822c2a6a2228778c6449e8e47adc230",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:17:43.288Z"
+}

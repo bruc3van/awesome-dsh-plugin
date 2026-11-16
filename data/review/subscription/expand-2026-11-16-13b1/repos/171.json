@@ -1,0 +1,139 @@
+{
+  "full_name": "EL4CTEO/roblox-devforum-mcp",
+  "originalPosition": 171,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 171,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:10:03.280Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5beb854d60cc7e66f96e318b5c3ae30c69e0d5c8e9be4a2272a46eda0beee6e8",
+      "url": "https://github.com/EL4CTEO/roblox-devforum-mcp/blob/b50b79444f3025143851d32f1d545b4c16c068aa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "roblox-devforum-mcp",
+          "command": "dsh plugin --profile web add roblox-devforum-mcp",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "roblox-devforum-mcp",
+      "version": "1.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/EL4CTEO/roblox-devforum-mcp",
+        "commit": "b50b79444f3025143851d32f1d545b4c16c068aa"
+      },
+      "manifestSha256": "af71f3667575bc243ee9593e4358e6f49e271b51edc3083e5b98c63318649dc2",
+      "manifestUrl": "https://github.com/EL4CTEO/roblox-devforum-mcp/blob/b50b79444f3025143851d32f1d545b4c16c068aa/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "roblox-devforum-mcp",
+        "versions": [
+          {
+            "version": "1.4.0",
+            "publishTimestamp": 1794229837,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/EL4CTEO/roblox-devforum-mcp",
+              "commit": "b50b79444f3025143851d32f1d545b4c16c068aa"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "roblox-devforum-mcp",
+      "origin": "npm",
+      "name": "roblox-devforum-mcp",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "roblox-devforum-mcp",
+        "title": "roblox-devforum-mcp",
+        "description": "MCP server that searches the Roblox DevForum and official creator docs so AI coding agents can debug Roblox games against real community and engine knowledge.",
+        "author": "EL4CTEO",
+        "homepage": "https://github.com/EL4CTEO/roblox-devforum-mcp#readme",
+        "repository": {
+          "url": "https://github.com/EL4CTEO/roblox-devforum-mcp"
+        },
+        "metadata": {
+          "keywords": [
+            "mcp",
+            "mcp-server",
+            "model-context-protocol",
+            "roblox",
+            "roblox-studio",
+            "roblox-development",
+            "devforum",
+            "luau",
+            "ai",
+            "ai-agents",
+            "llm",
+            "claude",
+            "claude-code",
+            "game-development",
+            "rust",
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.4.0",
+            "publishTimestamp": 1794230307,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9af4ce5eeb17ad485feac92ec8843a8bfe240577014e36ad6814858ffdfabd2e",
+      "evidence": [
+        {
+          "name": "roblox-devforum-mcp",
+          "version": "1.4.0",
+          "tarball": "https://registry.npmjs.org/roblox-devforum-mcp/-/roblox-devforum-mcp-1.4.0.tgz",
+          "integrity": "sha512-zfMvqOzM9w6X7sXLHYOfVCZGNesjnhSSuPUrrGs0lt2dpGw+Gy3h0qTW9TbyPKTd8TJzIBKRC/cyr+7MmpbEHA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "roblox-devforum-mcp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EL4CTEO/roblox-devforum-mcp",
+    "commit": "b50b79444f3025143851d32f1d545b4c16c068aa",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:13.117Z"
+}

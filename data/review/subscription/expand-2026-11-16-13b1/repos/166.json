@@ -1,0 +1,132 @@
+{
+  "full_name": "CaiZongyuan/dsh-ag-ui",
+  "originalPosition": 166,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 166,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:09:51.230Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2daa96b2b39ff637889e6158b6b4a32cbfab89c0e5b970606532d5f2c96f6912",
+      "url": "https://github.com/CaiZongyuan/dsh-ag-ui/blob/86d7c5fc7bc524c01bacfa560e311d0868de58f8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ag-ui",
+          "command": "dsh plugin --profile web add dsh-ag-ui",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/CaiZongyuan/dsh-ag-ui",
+          "command": "dsh plugin --profile web add github:CaiZongyuan/dsh-ag-ui",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "1d2bd34e61d1ac86f572535edfa17367e9f1ac7d103ed6bb3d6687f35c3ab224",
+      "url": "https://github.com/CaiZongyuan/dsh-ag-ui/blob/86d7c5fc7bc524c01bacfa560e311d0868de58f8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ag-ui",
+          "command": "dsh plugin --profile web add dsh-ag-ui",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/CaiZongyuan/dsh-ag-ui",
+          "command": "dsh plugin --profile web add github:CaiZongyuan/dsh-ag-ui",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "examples/dojo/README.md",
+      "sha256": "6e5aec4c6b864371fe477b070f658e7b4025e971ed44df61750548d5ba0ae0aa",
+      "url": "https://github.com/CaiZongyuan/dsh-ag-ui/blob/86d7c5fc7bc524c01bacfa560e311d0868de58f8/examples/dojo/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "examples/dojo/README.zh.md",
+      "sha256": "a10397cc36827fed1333dddafac6dd4b34e62deb9152cd0b8cb9bd75061dad5a",
+      "url": "https://github.com/CaiZongyuan/dsh-ag-ui/blob/86d7c5fc7bc524c01bacfa560e311d0868de58f8/examples/dojo/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ag-ui",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CaiZongyuan/dsh-ag-ui",
+        "commit": "86d7c5fc7bc524c01bacfa560e311d0868de58f8"
+      },
+      "manifestSha256": "e7113d1b670a5259deee282cdf09fecccaea4fadcf3e139c921ed679503323a1",
+      "manifestUrl": "https://github.com/CaiZongyuan/dsh-ag-ui/blob/86d7c5fc7bc524c01bacfa560e311d0868de58f8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ag-ui",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792373675,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CaiZongyuan/dsh-ag-ui",
+              "commit": "86d7c5fc7bc524c01bacfa560e311d0868de58f8"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ag-ui",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ag-ui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/CaiZongyuan/dsh-ag-ui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CaiZongyuan/dsh-ag-ui",
+    "commit": "86d7c5fc7bc524c01bacfa560e311d0868de58f8",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:10:06.483Z"
+}

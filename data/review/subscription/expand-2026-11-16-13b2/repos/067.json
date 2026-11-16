@@ -1,0 +1,81 @@
+{
+  "full_name": "YTxue/dsh-skill-manager-ytxue",
+  "originalPosition": 67,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 67,
+  "batch": 1,
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T12:15:30.797Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "264818229f3aadeaab766ccab3425420785744db075555d7b1dfa321576eeb19",
+      "url": "https://github.com/YTxue/dsh-skill-manager-ytxue/blob/f254f3005a446062e312144f27ed0820d38d4654/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/YTxue/dsh-skill-manager-ytxue",
+          "command": "dsh plugin --profile web add git+https://github.com/YTxue/dsh-skill-manager-ytxue",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skill-manager-ytxue",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YTxue/dsh-skill-manager-ytxue",
+        "commit": "f254f3005a446062e312144f27ed0820d38d4654"
+      },
+      "manifestSha256": "eb4441a2646863f29de628c645a38e4637c76f708bde30fb4cff01e232ae24ea",
+      "manifestUrl": "https://github.com/YTxue/dsh-skill-manager-ytxue/blob/f254f3005a446062e312144f27ed0820d38d4654/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-skill-manager-ytxue",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1786717062,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YTxue/dsh-skill-manager-ytxue",
+              "commit": "f254f3005a446062e312144f27ed0820d38d4654"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/YTxue/dsh-skill-manager-ytxue",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YTxue/dsh-skill-manager-ytxue",
+    "commit": "f254f3005a446062e312144f27ed0820d38d4654",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:15:39.907Z"
+}

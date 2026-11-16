@@ -1,0 +1,95 @@
+{
+  "full_name": "dawnliming/dsh-chinese-mode",
+  "originalPosition": 94,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 94,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:24:37.824Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3601cb7a79a1a037264bab4f53ea1382044a03b124fd8493c823a35a0b38e1ca",
+      "url": "https://github.com/dawnliming/dsh-chinese-mode/blob/830f1fce7f199c0683311c3c5afe251a5d869af0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dawnliming/dsh-chinese-mode",
+          "command": "dsh plugin --profile web add github:dawnliming/dsh-chinese-mode",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "17edc8f1bdcfa1a5bee0dff5a8fac6094561e1d31265f13e05b1ab412cb2fbb7",
+      "url": "https://github.com/dawnliming/dsh-chinese-mode/blob/830f1fce7f199c0683311c3c5afe251a5d869af0/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dawnliming/dsh-chinese-mode",
+          "command": "dsh plugin --profile web add github:dawnliming/dsh-chinese-mode",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chinese-mode",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dawnliming/dsh-chinese-mode",
+        "commit": "830f1fce7f199c0683311c3c5afe251a5d869af0"
+      },
+      "manifestSha256": "19016a707bb743563d51009c4a1de3135a888be780365fed2c49043d4903f010",
+      "manifestUrl": "https://github.com/dawnliming/dsh-chinese-mode/blob/830f1fce7f199c0683311c3c5afe251a5d869af0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-chinese-mode",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787016734,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dawnliming/dsh-chinese-mode",
+              "commit": "830f1fce7f199c0683311c3c5afe251a5d869af0"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/dawnliming/dsh-chinese-mode",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dawnliming/dsh-chinese-mode",
+    "commit": "830f1fce7f199c0683311c3c5afe251a5d869af0",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:24:47.808Z"
+}

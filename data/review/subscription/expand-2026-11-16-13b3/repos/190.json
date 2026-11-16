@@ -1,0 +1,92 @@
+{
+  "full_name": "SherUnlocked-4869/dsh-plugin-msg-nav",
+  "originalPosition": 190,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 190,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:28:13.352Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a0c36bcb62289ba5c3389728a6e9cf36d3e5e2b05510a9f3abbd8a266007e325",
+      "url": "https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav/blob/193a488a013c97e0c760af1103f5757d0255874a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav",
+          "command": "dsh plugin --profile web add github:SherUnlocked-4869/dsh-plugin-msg-nav",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "2a3baff7afd2f9518cb3ac01ae6c63be8ad73fb84738a6c30a68f704b49a737e",
+      "url": "https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav/blob/193a488a013c97e0c760af1103f5757d0255874a/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav",
+          "command": "dsh plugin --profile web add github:SherUnlocked-4869/dsh-plugin-msg-nav",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-msg-nav",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav",
+        "commit": "193a488a013c97e0c760af1103f5757d0255874a"
+      },
+      "manifestSha256": "9da99827042089ad019ffc30a0be7f3f6d8caafd90644674825b40336ac851e8",
+      "manifestUrl": "https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav/blob/193a488a013c97e0c760af1103f5757d0255874a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-msg-nav",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1788015864,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav",
+              "commit": "193a488a013c97e0c760af1103f5757d0255874a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SherUnlocked-4869/dsh-plugin-msg-nav",
+    "commit": "193a488a013c97e0c760af1103f5757d0255874a",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:28:22.158Z"
+}

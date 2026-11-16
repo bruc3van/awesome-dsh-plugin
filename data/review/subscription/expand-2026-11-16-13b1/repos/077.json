@@ -1,0 +1,66 @@
+{
+  "full_name": "Vikrant-Aleph/dshmarket-update-helper",
+  "originalPosition": 77,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 77,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T12:05:42.984Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "610e50817e48cc9dd14a1b653129ca27cbe8394d85b96426313711510c5ed614",
+      "url": "https://github.com/Vikrant-Aleph/dshmarket-update-helper/blob/6689f10b125385de16631c04c212211d1c60d6d0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dshmarket-update-helper",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Vikrant-Aleph/dshmarket-update-helper",
+        "commit": "6689f10b125385de16631c04c212211d1c60d6d0"
+      },
+      "manifestSha256": "06d03e3b64dd0505c68ca59900d0fbfece22f63ea20713c3234d488d3c3fa95b",
+      "manifestUrl": "https://github.com/Vikrant-Aleph/dshmarket-update-helper/blob/6689f10b125385de16631c04c212211d1c60d6d0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dshmarket-update-helper",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1793028806,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Vikrant-Aleph/dshmarket-update-helper",
+              "commit": "6689f10b125385de16631c04c212211d1c60d6d0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Vikrant-Aleph/dshmarket-update-helper",
+    "commit": "6689f10b125385de16631c04c212211d1c60d6d0",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:05:50.823Z"
+}

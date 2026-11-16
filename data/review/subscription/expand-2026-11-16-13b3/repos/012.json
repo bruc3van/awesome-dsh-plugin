@@ -1,0 +1,130 @@
+{
+  "full_name": "omdsh-dev/dsh-gomoku",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "stargazers_count": 32,
+  "startedAt": "2026-11-16T12:21:07.929Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c22bcd7216e6b22a598997e5c444e3890de9143f2623db7bcbe4d9be583aca30",
+      "url": "https://github.com/omdsh-dev/dsh-gomoku/blob/26fdf6e99c95447f250ab51478fbc694b6024e8d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yejiming/dsh-gomoku",
+          "command": "dsh plugin --profile demo add @yejiming/dsh-gomoku",
+          "profile": "demo"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-gomoku",
+          "command": "dsh plugin --profile demo add github:omdsh-dev/dsh-gomoku",
+          "profile": "demo"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yejiming/dsh-gomoku",
+      "version": "0.0.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-gomoku",
+        "commit": "26fdf6e99c95447f250ab51478fbc694b6024e8d"
+      },
+      "manifestSha256": "6701de55e421a6d92c920c54a157d1ea9f9d624154096bcc2dabcf0b8e2605ef",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-gomoku/blob/26fdf6e99c95447f250ab51478fbc694b6024e8d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@yejiming/dsh-gomoku",
+        "versions": [
+          {
+            "version": "0.0.3",
+            "publishTimestamp": 1791039833,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/omdsh-dev/dsh-gomoku",
+              "commit": "26fdf6e99c95447f250ab51478fbc694b6024e8d"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@yejiming/dsh-gomoku",
+      "origin": "npm",
+      "name": "@yejiming/dsh-gomoku",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@yejiming/dsh-gomoku",
+        "title": "@yejiming/dsh-gomoku",
+        "description": "Gomoku (five-in-a-row) for the dsh web GUI: AI move routes, model catalog, and default prompt (node half) plus the conversation-view tab with the board (browser half)",
+        "repository": {
+          "url": "https://github.com/omdsh-dev/dsh-gomoku"
+        },
+        "versions": [
+          {
+            "version": "0.0.3",
+            "publishTimestamp": 1791039903,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "27adcbbcd69a300d974e470e4579cb082fcb8b36fec5d79d66ce48036b50fd34",
+      "evidence": [
+        {
+          "name": "@yejiming/dsh-gomoku",
+          "version": "0.0.3",
+          "tarball": "https://registry.npmjs.org/@yejiming/dsh-gomoku/-/dsh-gomoku-0.0.3.tgz",
+          "integrity": "sha512-Hotrg6fFRlX8dQ4G86f7u1UXQbFvDhZpZ7CSbATBfxkkQdgGdWM1Lpy2K5VJD6eLvXTNEBO9iVWN58TKCqji7A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@yejiming/dsh-gomoku",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/omdsh-dev/dsh-gomoku",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-gomoku",
+    "commit": "26fdf6e99c95447f250ab51478fbc694b6024e8d",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:21:18.177Z"
+}

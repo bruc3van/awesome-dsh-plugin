@@ -1,0 +1,164 @@
+{
+  "full_name": "chendefine/dsh-web-fetch-playwright",
+  "originalPosition": 94,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 94,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:16:33.664Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "688788d84b459e0cf875692e39d30c730cf7448f1d51093904bd126d3b296f38",
+      "url": "https://github.com/chendefine/dsh-web-fetch-playwright/blob/f46ae9f4c2ba0617ff880e163faec90348650040/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-fetch-playwright",
+          "command": "dsh plugin --profile web add dsh-web-fetch-playwright",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/chendefine/dsh-web-fetch-playwright",
+          "command": "dsh plugin --profile web add github:chendefine/dsh-web-fetch-playwright",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "05608aefe3936e81d5c51a60671c626476bbb52820e3962ea0af6ba53abd2435",
+      "url": "https://github.com/chendefine/dsh-web-fetch-playwright/blob/f46ae9f4c2ba0617ff880e163faec90348650040/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-fetch-playwright",
+          "command": "dsh plugin --profile web add dsh-web-fetch-playwright",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/chendefine/dsh-web-fetch-playwright",
+          "command": "dsh plugin --profile web add github:chendefine/dsh-web-fetch-playwright",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-fetch-playwright",
+      "version": "0.2.22",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chendefine/dsh-web-fetch-playwright",
+        "commit": "f46ae9f4c2ba0617ff880e163faec90348650040"
+      },
+      "manifestSha256": "1c1fd915bdc147e77877ec36ce7f537e3460d78042e130633b87145fe4775657",
+      "manifestUrl": "https://github.com/chendefine/dsh-web-fetch-playwright/blob/f46ae9f4c2ba0617ff880e163faec90348650040/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.2.0 || >=0.1.1-rc.1 <1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-web-fetch-playwright",
+        "versions": [
+          {
+            "version": "0.2.22",
+            "publishTimestamp": 1794382359,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chendefine/dsh-web-fetch-playwright",
+              "commit": "f46ae9f4c2ba0617ff880e163faec90348650040"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.2.0 || >=0.1.1-rc.1 <1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-web-fetch-playwright",
+      "origin": "npm",
+      "name": "dsh-web-fetch-playwright",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-web-fetch-playwright",
+        "title": "dsh-web-fetch-playwright",
+        "description": "Playwright/CDP web-fetch provider for DeepSeek Harness: renders pages in a real browser, denoises them (Readability + DOMPurify), and returns markdown.",
+        "homepage": "https://github.com/chendefine/dsh-web-fetch-playwright#readme",
+        "repository": {
+          "url": "https://github.com/chendefine/dsh-web-fetch-playwright"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "playwright",
+            "cdp",
+            "web-fetch",
+            "fetch-provider",
+            "markdown",
+            "bundle"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.22",
+            "publishTimestamp": 1794382662,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.2.0 || >=0.1.1-rc.1 <1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "960ea8789d9f00180c131b4ebb2ba1f8743ce3d753ece90c8ddc09f4c28cb41f",
+      "evidence": [
+        {
+          "name": "dsh-web-fetch-playwright",
+          "version": "0.2.22",
+          "tarball": "https://registry.npmjs.org/dsh-web-fetch-playwright/-/dsh-web-fetch-playwright-0.2.22.tgz",
+          "integrity": "sha512-6NfQUQlvs3BFwyjSre3Bgc/65ZxK8GDSxGqV5wtKyISR6lCCsBlQ8xiYnTmJCefy6QLfHnm6yOOivm4bISkInQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-web-fetch-playwright",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/chendefine/dsh-web-fetch-playwright",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chendefine/dsh-web-fetch-playwright",
+    "commit": "f46ae9f4c2ba0617ff880e163faec90348650040",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:16:49.065Z"
+}

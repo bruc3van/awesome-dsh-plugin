@@ -1,0 +1,50 @@
+{
+  "full_name": "tvrpdfe/dsh-chat-manager",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T12:17:51.688Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4357ffea65df998ce92ce75019b0513e61f7345d312a37d81d4792fced333095",
+      "url": "https://github.com/tvrpdfe/dsh-chat-manager/blob/976a0e8c2806fcc906da31af9f2d1c25ca4adaf8/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chat-manager",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tvrpdfe/dsh-chat-manager",
+        "commit": "976a0e8c2806fcc906da31af9f2d1c25ca4adaf8"
+      },
+      "manifestSha256": "2d385278734ba9dab8dc86557b37d8a19a5517ec520762e12248ac5d077b2494",
+      "manifestUrl": "https://github.com/tvrpdfe/dsh-chat-manager/blob/976a0e8c2806fcc906da31af9f2d1c25ca4adaf8/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tvrpdfe/dsh-chat-manager",
+    "commit": "976a0e8c2806fcc906da31af9f2d1c25ca4adaf8",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-16T12:17:59.577Z"
+}

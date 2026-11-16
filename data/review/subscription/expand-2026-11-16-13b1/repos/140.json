@@ -1,0 +1,87 @@
+{
+  "full_name": "kgmkm/dsh-rustxng",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:27.229Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ef0cbbbce741cf7706b5c88c345f76ec0ee4d7998df78e0d46e9ae78da22978e",
+      "url": "https://github.com/kgmkm/dsh-rustxng/blob/ab2d4fc2194969853a93d5d4249d3534783199e4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-rustxng",
+          "command": "dsh plugin --profile web add dsh-rustxng",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-rustxng",
+      "version": "0.5.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kgmkm/dsh-rustxng",
+        "commit": "ab2d4fc2194969853a93d5d4249d3534783199e4"
+      },
+      "manifestSha256": "0f9ebae018959b19f2e2d7864ea7af875e652ccbf9ca2e6865363268ec701236",
+      "manifestUrl": "https://github.com/kgmkm/dsh-rustxng/blob/ab2d4fc2194969853a93d5d4249d3534783199e4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-rustxng",
+        "versions": [
+          {
+            "version": "0.5.5",
+            "publishTimestamp": 1793878730,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kgmkm/dsh-rustxng",
+              "commit": "ab2d4fc2194969853a93d5d4249d3534783199e4"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-rustxng",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-rustxng",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kgmkm/dsh-rustxng",
+    "commit": "ab2d4fc2194969853a93d5d4249d3534783199e4",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:35.521Z"
+}

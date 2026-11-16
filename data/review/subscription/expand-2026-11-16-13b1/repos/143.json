@@ -1,0 +1,66 @@
+{
+  "full_name": "lty-hongsejinwei/dsh-luotianyi-skin",
+  "originalPosition": 143,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 143,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T12:08:35.522Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "651ff3c93e96016da1e9fb3ec50dda4576a59f5213ef9adc76f80f169d443686",
+      "url": "https://github.com/lty-hongsejinwei/dsh-luotianyi-skin/blob/9219ca03542f1f0a755c43917f6ccd5f9d28a846/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-luotianyi-skin",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lty-hongsejinwei/dsh-luotianyi-skin",
+        "commit": "9219ca03542f1f0a755c43917f6ccd5f9d28a846"
+      },
+      "manifestSha256": "7c0d7a9d232c9778f8c94ea78c16ab126d44875eeacebdaf6abe18a81fb9e7c5",
+      "manifestUrl": "https://github.com/lty-hongsejinwei/dsh-luotianyi-skin/blob/9219ca03542f1f0a755c43917f6ccd5f9d28a846/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-luotianyi-skin",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1794397006,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lty-hongsejinwei/dsh-luotianyi-skin",
+              "commit": "9219ca03542f1f0a755c43917f6ccd5f9d28a846"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lty-hongsejinwei/dsh-luotianyi-skin",
+    "commit": "9219ca03542f1f0a755c43917f6ccd5f9d28a846",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:08:45.146Z"
+}

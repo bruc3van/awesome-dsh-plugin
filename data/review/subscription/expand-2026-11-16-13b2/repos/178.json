@@ -1,0 +1,50 @@
+{
+  "full_name": "cheems135/dsh-qq-bridge",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:42.005Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7b925d7a2a4e2b1a5d339a36a45797d877eb6f7650b4489785edd2e7c1dc07ad",
+      "url": "https://github.com/cheems135/dsh-qq-bridge/blob/035edda5189395db770743414d2b7e621b444f1f/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-im-bridge",
+      "version": "1.59.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cheems135/dsh-qq-bridge",
+        "commit": "035edda5189395db770743414d2b7e621b444f1f"
+      },
+      "manifestSha256": "f77e0c63815e2d82fcf639180bd527798c5f518a69293975908716c5e64bd141",
+      "manifestUrl": "https://github.com/cheems135/dsh-qq-bridge/blob/035edda5189395db770743414d2b7e621b444f1f/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cheems135/dsh-qq-bridge",
+    "commit": "035edda5189395db770743414d2b7e621b444f1f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-16T12:19:51.386Z"
+}

@@ -1,0 +1,184 @@
+{
+  "full_name": "CWNU-Open-Source-Community/dsh-webgate",
+  "originalPosition": 149,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 149,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:26:22.392Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d10b927b6bb80ee9e49e547e8c7416e5cfbdc5c6fa44e1bf92525cf2e267dac4",
+      "url": "https://github.com/CWNU-Open-Source-Community/dsh-webgate/blob/4d69e43b7e1f9073c9c11ce068a24e330cb46a1c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-webgate",
+          "command": "dsh plugin --profile web add dsh-webgate",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/pppolf/dsh-webgate",
+          "command": "dsh plugin --profile web add github:pppolf/dsh-webgate",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-webgate",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CWNU-Open-Source-Community/dsh-webgate",
+        "commit": "4d69e43b7e1f9073c9c11ce068a24e330cb46a1c"
+      },
+      "manifestSha256": "39b571ccc8b3b99aedc3617744c3a390e631c064734e2b1bb91bd9139178ef71",
+      "manifestUrl": "https://github.com/CWNU-Open-Source-Community/dsh-webgate/blob/4d69e43b7e1f9073c9c11ce068a24e330cb46a1c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-webgate",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1786848138,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CWNU-Open-Source-Community/dsh-webgate",
+              "commit": "4d69e43b7e1f9073c9c11ce068a24e330cb46a1c"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-webgate",
+      "origin": "npm",
+      "name": "dsh-webgate",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-webgate",
+        "title": "dsh-webgate",
+        "description": "DSH 远程访问插件：局域网直连（二维码）、cloudflared 快速隧道、frp + 自有服务器反代（含登录门户）",
+        "repository": {
+          "url": "https://github.com/pppolf/dsh-webgate"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "dsh-plugin",
+            "lan",
+            "tunnel",
+            "frp",
+            "cloudflared"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1786847492,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6791355933ec3d887e0a596874601be2a7c3f28b920e68b8e1369ed4904e3e8c",
+      "evidence": [
+        {
+          "name": "dsh-webgate",
+          "version": "0.2.3",
+          "tarball": "https://registry.npmjs.org/dsh-webgate/-/dsh-webgate-0.2.3.tgz",
+          "integrity": "sha512-xabdUlR+4PsG4+bT7gyogV5HHhXefmazNnom/4X9X1A7posLE592QM6XnS4GTzYTBM6wA5nbZg4MdfPFUY2VFA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/pppolf/dsh-webgate",
+      "origin": "git_target",
+      "name": "dsh-webgate",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-webgate",
+        "title": "dsh-webgate",
+        "description": "DSH 远程访问插件：局域网直连（二维码）、cloudflared 快速隧道、frp + 自有服务器反代（含登录门户）",
+        "repository": {
+          "url": "https://github.com/pppolf/dsh-webgate"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "dsh-plugin",
+            "lan",
+            "tunnel",
+            "frp",
+            "cloudflared"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1786848138,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/pppolf/dsh-webgate",
+              "commit": "4d69e43b7e1f9073c9c11ce068a24e330cb46a1c"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "4d69e43b7e1f9073c9c11ce068a24e330cb46a1c",
+          "name": "dsh-webgate",
+          "version": "0.2.3",
+          "url": "https://github.com/pppolf/dsh-webgate",
+          "manifestSha256": "39b571ccc8b3b99aedc3617744c3a390e631c064734e2b1bb91bd9139178ef71",
+          "publishTimestamp": 1786848138
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-webgate",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/pppolf/dsh-webgate",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CWNU-Open-Source-Community/dsh-webgate",
+    "commit": "4d69e43b7e1f9073c9c11ce068a24e330cb46a1c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:26:42.175Z"
+}

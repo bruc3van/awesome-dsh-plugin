@@ -1,0 +1,92 @@
+{
+  "full_name": "WovenJunct/dsh-plugin-simple-delete-session",
+  "originalPosition": 170,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 170,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:23.952Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4f531248c82858564b23a1c4417a21355497629a29e01e4dd4dec13f20a094ff",
+      "url": "https://github.com/WovenJunct/dsh-plugin-simple-delete-session/blob/c71462cbd93ee0cc0bdc68aef3734a230318664b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/WovenJunct/dsh-plugin-simple-delete-session",
+          "command": "dsh plugin --profile desktop add github:WovenJunct/dsh-plugin-simple-delete-session",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "d734c497d9627402d934cd4f152821a88748aba40d5d4b777ea0e94ae5f412cf",
+      "url": "https://github.com/WovenJunct/dsh-plugin-simple-delete-session/blob/c71462cbd93ee0cc0bdc68aef3734a230318664b/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/WovenJunct/dsh-plugin-simple-delete-session",
+          "command": "dsh plugin --profile desktop add github:WovenJunct/dsh-plugin-simple-delete-session",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-simple-delete-session",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WovenJunct/dsh-plugin-simple-delete-session",
+        "commit": "c71462cbd93ee0cc0bdc68aef3734a230318664b"
+      },
+      "manifestSha256": "4c0941b43504442661a2ea577fde8c3f674129d32d97040510ad3bf8a244057e",
+      "manifestUrl": "https://github.com/WovenJunct/dsh-plugin-simple-delete-session/blob/c71462cbd93ee0cc0bdc68aef3734a230318664b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-simple-delete-session",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1791253874,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WovenJunct/dsh-plugin-simple-delete-session",
+              "commit": "c71462cbd93ee0cc0bdc68aef3734a230318664b"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/WovenJunct/dsh-plugin-simple-delete-session",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WovenJunct/dsh-plugin-simple-delete-session",
+    "commit": "c71462cbd93ee0cc0bdc68aef3734a230318664b",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:32.803Z"
+}

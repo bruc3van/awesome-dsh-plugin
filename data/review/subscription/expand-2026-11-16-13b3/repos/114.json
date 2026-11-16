@@ -1,0 +1,141 @@
+{
+  "full_name": "python3603/dsh-weather-panel",
+  "originalPosition": 114,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 114,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:25:16.762Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "88619d868bf313c9be9a79f880953fa9faaacb7169b440b7b0c62327faea39cf",
+      "url": "https://github.com/python3603/dsh-weather-panel/blob/e878e41289e994d084ef50801c7e0134806f0fb1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-weather-panel",
+          "command": "dsh plugin add dsh-weather-panel",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-weather-panel",
+          "command": "dsh plugin --profile web add dsh-weather-panel",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-weather-panel",
+      "version": "1.8.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/python3603/dsh-weather-panel",
+        "commit": "e878e41289e994d084ef50801c7e0134806f0fb1"
+      },
+      "manifestSha256": "8ff9bf0fb6a2d99c2c519b30693be5be903d4ac8c19669ace9043486f546e902",
+      "manifestUrl": "https://github.com/python3603/dsh-weather-panel/blob/e878e41289e994d084ef50801c7e0134806f0fb1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-weather-panel",
+        "versions": [
+          {
+            "version": "1.8.2",
+            "publishTimestamp": 1794583627,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/python3603/dsh-weather-panel",
+              "commit": "e878e41289e994d084ef50801c7e0134806f0fb1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-weather-panel",
+      "origin": "npm",
+      "name": "dsh-weather-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-weather-panel",
+        "title": {
+          "en": "Weather Panel",
+          "zh": "天气面板"
+        },
+        "description": {
+          "en": "A sidebar weather panel: network location, current conditions, 3-day and 24-hour forecasts, hourly precipitation, CMA weather alerts and typhoon tracks — with a startup notice when it rains or an alert is active.",
+          "zh": "侧边栏天气面板：按网络自动定位，显示当前气象参数、未来 3 天与 24 小时预报、逐小时降水、中央气象台预警与台风路径；开 DSH 时有雨或预警会弹窗提醒。"
+        },
+        "author": "python3603",
+        "homepage": "https://github.com/python3603/dsh-weather-panel#readme",
+        "repository": {
+          "url": "https://github.com/python3603/dsh-weather-panel"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "weather",
+            "weather-forecast",
+            "typhoon",
+            "alerts",
+            "sidebar",
+            "open-meteo"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IldlYXRoZXIgcGFuZWwiPgogIDx0aXRsZT5XZWF0aGVyIHBhbmVsPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNody1za3kiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNWY5YmY4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzJiNTZjOCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNody1jbG91ZCIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZGNlOGZkIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNiIgZmlsbD0idXJsKCNkc2h3LXNreSkiLz4KICA8ZyBzdHJva2U9IiNmZmQxNjYiIHN0cm9rZS13aWR0aD0iMi42IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgPHBhdGggZD0iTTQ1IDguNXYtMyIvPgogICAgPHBhdGggZD0iTTQ1IDMyLjV2MyIvPgogICAgPHBhdGggZD0iTTUzLjUgMTcuNWgzIi8+CiAgICA8cGF0aCBkPSJNMzMuNSAxNy41aDMiLz4KICAgIDxwYXRoIGQ9Ik01MSAxMS41bDIuMS0yLjEiLz4KICAgIDxwYXRoIGQ9Ik01MSAyMy41bDIuMSAyLjEiLz4KICAgIDxwYXRoIGQ9Ik0zOSAxMS41bC0yLjEtMi4xIi8+CiAgICA8cGF0aCBkPSJNMzkgMjMuNWwtMi4xIDIuMSIvPgogIDwvZz4KICA8Y2lyY2xlIGN4PSI0NSIgY3k9IjIwIiByPSI4IiBmaWxsPSIjZmZkMTY2Ii8+CiAgPGcgZmlsbD0idXJsKCNkc2h3LWNsb3VkKSI+CiAgICA8Y2lyY2xlIGN4PSIyNCIgY3k9IjM2IiByPSI5Ii8+CiAgICA8Y2lyY2xlIGN4PSIzNCIgY3k9IjMyIiByPSIxMSIvPgogICAgPGNpcmNsZSBjeD0iNDIiIGN5PSIzOCIgcj0iOCIvPgogICAgPHJlY3QgeD0iMTgiIHk9IjM5IiB3aWR0aD0iMjgiIGhlaWdodD0iOSIgcng9IjQuNSIvPgogIDwvZz4KICA8ZyBzdHJva2U9IiNiZmUwZmYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj4KICAgIDxwYXRoIGQ9Ik0yNCA1MS41bC0xLjYgNSIvPgogICAgPHBhdGggZD0iTTMzLjUgNTEuNWwtMS42IDUiLz4KICAgIDxwYXRoIGQ9Ik00MyA1MS41bC0xLjYgNSIvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "1.8.2",
+            "publishTimestamp": 1794583937,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8ce5637dc61e075ffece8f650da682b13f4dc3468780d2a5a6e9d4e78eff4522",
+      "evidence": [
+        {
+          "name": "dsh-weather-panel",
+          "version": "1.8.2",
+          "tarball": "https://registry.npmjs.org/dsh-weather-panel/-/dsh-weather-panel-1.8.2.tgz",
+          "integrity": "sha512-+SELdDK3wA/A8cdIremJRVLCm6Esa2bMR2VLphJN7cNg2LKqHhhHxGIdGeu/QfEgfwIOfRM8Nj+vPOFV28KSYA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-weather-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/python3603/dsh-weather-panel",
+    "commit": "e878e41289e994d084ef50801c7e0134806f0fb1",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:25:29.714Z"
+}

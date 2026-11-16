@@ -1,0 +1,182 @@
+{
+  "full_name": "HeathHe/dsh-worktree-panel",
+  "originalPosition": 148,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 148,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:18:40.154Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e47a98f5f6086b1718fa502909f7705c3f4ac8a6c9d06f62675ecbb762a63296",
+      "url": "https://github.com/HeathHe/dsh-worktree-panel/blob/adf481e99e0298787360bf58324bc6623b8892c4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-worktree-panel",
+          "command": "dsh plugin --profile web add dsh-worktree-panel",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-worktree-panel@0.1.6",
+          "command": "dsh plugin --profile web add dsh-worktree-panel@0.1.6",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "7c7ede9afe2b8962c5e4d549cb171cfb05833694ad7c9153743065d2e0d5802a",
+      "url": "https://github.com/HeathHe/dsh-worktree-panel/blob/adf481e99e0298787360bf58324bc6623b8892c4/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-worktree-panel",
+          "command": "dsh plugin --profile web add dsh-worktree-panel",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-worktree-panel@0.1.6",
+          "command": "dsh plugin --profile web add dsh-worktree-panel@0.1.6",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-worktree-panel",
+      "version": "0.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HeathHe/dsh-worktree-panel",
+        "commit": "adf481e99e0298787360bf58324bc6623b8892c4"
+      },
+      "manifestSha256": "90d2cd678bdef86854d65dbacb2927bf3147ba829d7c2b0e24b9dcc0c48bec2f",
+      "manifestUrl": "https://github.com/HeathHe/dsh-worktree-panel/blob/adf481e99e0298787360bf58324bc6623b8892c4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.2 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-worktree-panel",
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1789456858,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HeathHe/dsh-worktree-panel",
+              "commit": "adf481e99e0298787360bf58324bc6623b8892c4"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.2.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-worktree-panel",
+      "origin": "npm",
+      "name": "dsh-worktree-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-worktree-panel",
+        "title": "dsh-worktree-panel",
+        "description": "Worktree + git branch management panel for the DSH Web GUI: orca-style project -> worktree -> sessions tree in the sidebar, with branch/worktree create, open and cleanup backed by real git worktrees and the DSH workspace registry.",
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1789528370,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "64387bc5771bb286f3a2e6bac5a9950930908eb32b3e6df5cbf0bd8674de8363",
+      "evidence": [
+        {
+          "name": "dsh-worktree-panel",
+          "version": "0.1.6",
+          "tarball": "https://registry.npmjs.org/dsh-worktree-panel/-/dsh-worktree-panel-0.1.6.tgz",
+          "integrity": "sha512-/qG5EFahAhpRoMxUfHAfsR+gxoni7jbzv6adbZtTV7Gp4B1z+zRmIkH3MciijHARP5lt8j6hmE8CnqHKPdsgQA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "dsh-worktree-panel@0.1.6",
+      "origin": "npm",
+      "name": "dsh-worktree-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-worktree-panel",
+        "title": "dsh-worktree-panel",
+        "description": "Worktree + git branch management panel for the DSH Web GUI: orca-style project -> worktree -> sessions tree in the sidebar, with branch/worktree create, open and cleanup backed by real git worktrees and the DSH workspace registry.",
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1789528370,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "64387bc5771bb286f3a2e6bac5a9950930908eb32b3e6df5cbf0bd8674de8363",
+      "evidence": [
+        {
+          "name": "dsh-worktree-panel",
+          "version": "0.1.6",
+          "tarball": "https://registry.npmjs.org/dsh-worktree-panel/-/dsh-worktree-panel-0.1.6.tgz",
+          "integrity": "sha512-/qG5EFahAhpRoMxUfHAfsR+gxoni7jbzv6adbZtTV7Gp4B1z+zRmIkH3MciijHARP5lt8j6hmE8CnqHKPdsgQA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-worktree-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-worktree-panel@0.1.6",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HeathHe/dsh-worktree-panel",
+    "commit": "adf481e99e0298787360bf58324bc6623b8892c4",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:18:52.927Z"
+}

@@ -1,0 +1,188 @@
+{
+  "full_name": "Sur-Cai/macos-computer-use-kit",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T12:28:15.719Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9b95418790b1619fd98ef70204f5aab2b43a3b962b09eba8ffc521872a56153d",
+      "url": "https://github.com/Sur-Cai/macos-computer-use-kit/blob/2d40a8ee9c903bdddcd7a9792fca0e8ea78b0352/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-macos-computer-use",
+          "command": "dsh plugin --profile <name> add dsh-macos-computer-use",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "844d686167ffd97476b3d0ab5fd9afca150febf932a162582828c2b29fff8658",
+      "url": "https://github.com/Sur-Cai/macos-computer-use-kit/blob/2d40a8ee9c903bdddcd7a9792fca0e8ea78b0352/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-macos-computer-use",
+          "command": "dsh plugin --profile <名称> add dsh-macos-computer-use",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "packages/pi/README.md",
+      "sha256": "8555a6724871b5c5f284cf14fef059576c96d520fbdcff6c0ca1f97dee402cc8",
+      "url": "https://github.com/Sur-Cai/macos-computer-use-kit/blob/2d40a8ee9c903bdddcd7a9792fca0e8ea78b0352/packages/pi/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/dsh/README.md",
+      "sha256": "f6a607490018d353de7d2391f812967d1df1053c4dbcdce26a89d9ef880a8845",
+      "url": "https://github.com/Sur-Cai/macos-computer-use-kit/blob/2d40a8ee9c903bdddcd7a9792fca0e8ea78b0352/packages/dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Sur-Cai/macos-computer-use-kit#packages/dsh",
+          "command": "dsh plugin --profile <name> add github:Sur-Cai/macos-computer-use-kit#packages/dsh",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-macos-computer-use",
+          "command": "dsh plugin --profile <name> add dsh-macos-computer-use",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-macos-computer-use",
+      "version": "0.3.2",
+      "path": "packages/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Sur-Cai/macos-computer-use-kit",
+        "commit": "2d40a8ee9c903bdddcd7a9792fca0e8ea78b0352",
+        "path": "packages/dsh"
+      },
+      "manifestSha256": "e9b18ef1307eee2dc479a685f5777c356b5d2cba63aaad8d725dbb9194be8216",
+      "manifestUrl": "https://github.com/Sur-Cai/macos-computer-use-kit/blob/2d40a8ee9c903bdddcd7a9792fca0e8ea78b0352/packages/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-macos-computer-use",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1791038177,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Sur-Cai/macos-computer-use-kit",
+              "commit": "2d40a8ee9c903bdddcd7a9792fca0e8ea78b0352",
+              "path": "packages/dsh"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-macos-computer-use",
+      "origin": "npm",
+      "name": "dsh-macos-computer-use",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-macos-computer-use",
+        "title": "dsh-macos-computer-use",
+        "description": "AX-first macOS computer use for DeepSeek Harness: accessibility snapshots with stable refs, background input, Unicode typing, menus, apps, set-of-mark screenshots, on-device OCR, verified actions, and optional Jev (TypeSafe System One) semantic guards — 11 tools bridged to the macos-cu CLI.",
+        "homepage": "https://github.com/Sur-Cai/macos-computer-use-kit#readme",
+        "repository": {
+          "url": "https://github.com/Sur-Cai/macos-computer-use-kit",
+          "directory": "packages/dsh"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "macos",
+            "computer-use",
+            "computer-use-agent",
+            "accessibility",
+            "accessibility-tree",
+            "automation",
+            "gui-automation",
+            "agent-tools",
+            "jev",
+            "typesafe-ai",
+            "system-one-models"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1791038101,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "688f644c6ce130fdaccd2e56f651d281f238ce8c3fffaee47a600c5e2db7bcf9",
+      "evidence": [
+        {
+          "name": "dsh-macos-computer-use",
+          "version": "0.3.2",
+          "tarball": "https://registry.npmjs.org/dsh-macos-computer-use/-/dsh-macos-computer-use-0.3.2.tgz",
+          "integrity": "sha512-rbOlZRwRlPXLaI9I/Fe+0B6oyvYjSS6IDMtz86wCqcfpnatX+AUDQS4+6eRl0iUeJdndP6g47LioMB7rr/jAVA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/Sur-Cai/macos-computer-use-kit#packages/dsh",
+      "status": "mapping_needs_review",
+      "code": "git_ref_not_found",
+      "reason": "指定 Git 引用不存在"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-macos-computer-use",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Sur-Cai/macos-computer-use-kit#packages/dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Sur-Cai/macos-computer-use-kit",
+    "commit": "2d40a8ee9c903bdddcd7a9792fca0e8ea78b0352",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:28:35.525Z"
+}

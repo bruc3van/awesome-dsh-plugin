@@ -1,0 +1,81 @@
+{
+  "full_name": "bowang-lab/dsh-medomni",
+  "originalPosition": 176,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 176,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T12:19:41.855Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4764a3018f427ecf0610ae183df262ed21de74ecc7cfc4c76fc765529a84ace3",
+      "url": "https://github.com/bowang-lab/dsh-medomni/blob/d23df4f9f5e93a6f8f582984a620c693a339decd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/bowang-lab/dsh-medomni",
+          "command": "dsh plugin --profile web add github:bowang-lab/dsh-medomni",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-medomni",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bowang-lab/dsh-medomni",
+        "commit": "d23df4f9f5e93a6f8f582984a620c693a339decd"
+      },
+      "manifestSha256": "2f9216c8deebea540ce3bae4f01247f410c5db2866917e40481bdac6ee6839cb",
+      "manifestUrl": "https://github.com/bowang-lab/dsh-medomni/blob/d23df4f9f5e93a6f8f582984a620c693a339decd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.5 >=0.1.0-rc.6 >=0.1.0-rc.8",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-medomni",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787951832,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bowang-lab/dsh-medomni",
+              "commit": "d23df4f9f5e93a6f8f582984a620c693a339decd"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5 >=0.1.0-rc.6 >=0.1.0-rc.8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/bowang-lab/dsh-medomni",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bowang-lab/dsh-medomni",
+    "commit": "d23df4f9f5e93a6f8f582984a620c693a339decd",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T12:19:49.495Z"
+}
