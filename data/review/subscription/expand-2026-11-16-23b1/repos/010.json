@@ -1,0 +1,134 @@
+{
+  "full_name": "dsh-tui/dsh-tui",
+  "originalPosition": 10,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 10,
+  "batch": 1,
+  "stargazers_count": 48,
+  "startedAt": "2026-11-16T23:53:18.722Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6bdd8d4a34ed579574bfec58b20ca130be33b56b03c843a94254a20125a4a446",
+      "url": "https://github.com/dsh-tui/dsh-tui/blob/8bdc850732464e2c10278f47b4f2b82da38d801e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-tui/dsh-tui",
+          "command": "dsh plugin --profile tui add @dsh-tui/dsh-tui",
+          "profile": "tui"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "be71bdc26d844468ae10d6e4e48678be58e3de328b234eb45ba64a723294a641",
+      "url": "https://github.com/dsh-tui/dsh-tui/blob/8bdc850732464e2c10278f47b4f2b82da38d801e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-tui/dsh-tui",
+          "command": "dsh plugin --profile tui add @dsh-tui/dsh-tui",
+          "profile": "tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-tui/dsh-tui",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dsh-tui/dsh-tui",
+        "commit": "8bdc850732464e2c10278f47b4f2b82da38d801e"
+      },
+      "manifestSha256": "00009d54b6bee8e2e55859ade75973e3b264b5282956210f7bcac10975c5d0b6",
+      "manifestUrl": "https://github.com/dsh-tui/dsh-tui/blob/8bdc850732464e2c10278f47b4f2b82da38d801e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-tui/dsh-tui",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786675326,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dsh-tui/dsh-tui",
+              "commit": "8bdc850732464e2c10278f47b4f2b82da38d801e"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@dsh-tui/dsh-tui",
+      "origin": "npm",
+      "name": "@dsh-tui/dsh-tui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dsh-tui/dsh-tui",
+        "title": "@dsh-tui/dsh-tui",
+        "description": "Claude Code-style interactive terminal UI for DeepSeek Harness agents",
+        "repository": {
+          "url": "https://github.com/dsh-tui/dsh-tui"
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786674189,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "349ddc7e0ee79bd38b558d883fa2036b7cceffb9dd886f02bd27597670a733ef",
+      "evidence": [
+        {
+          "name": "@dsh-tui/dsh-tui",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/@dsh-tui/dsh-tui/-/dsh-tui-0.1.2.tgz",
+          "integrity": "sha512-nbxryAR+OvwxEcbaJJwEJODPXe2Aknx+FHKXsi/mWfDu3NGOkAAD2C35X0odfCsTkiVCIrt0QiWZ7w4qUhH2Jg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dsh-tui/dsh-tui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dsh-tui/dsh-tui",
+    "commit": "8bdc850732464e2c10278f47b4f2b82da38d801e",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T23:53:22.115Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "edusrez/dsh-smart-restart",
+  "originalPosition": 148,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 148,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:53:47.354Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/edusrez/dsh-smart-restart/git/commits/dbceb31183cbab5c4ee99dcd6b8cda755d549695\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A843:31B915:608BD2:135B806:6AFB978B and timestamp 2026-11-16 23:53:47 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/edusrez/dsh-smart-restart",
+    "commit": "dbceb31183cbab5c4ee99dcd6b8cda755d549695",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:47.811Z"
+}

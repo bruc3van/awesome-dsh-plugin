@@ -1,0 +1,29 @@
+{
+  "full_name": "lilyblessing/dsh-mcp-skill-panel",
+  "originalPosition": 172,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 172,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:53:49.242Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/lilyblessing/dsh-mcp-skill-panel/git/commits/3c060253d1e007d4e15865e231d4774c90a4ab92\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A853:16D642:5F9E5C:1322865:6AFB978D and timestamp 2026-11-16 23:53:49 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/lilyblessing/dsh-mcp-skill-panel",
+    "commit": "3c060253d1e007d4e15865e231d4774c90a4ab92",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:49.699Z"
+}

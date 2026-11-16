@@ -1,0 +1,29 @@
+{
+  "full_name": "lihang-lh/dsh-task-panel",
+  "originalPosition": 169,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 169,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:54:05.656Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/lihang-lh/dsh-task-panel/git/commits/7c0c3d8aff808488735b318578221b94cde9ef8a\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A875:1464EF:5BB46C:1260195:6AFB979D and timestamp 2026-11-16 23:54:06 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/lihang-lh/dsh-task-panel",
+    "commit": "7c0c3d8aff808488735b318578221b94cde9ef8a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:06.080Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "DietCokewithSugar/dsh-user-experience",
+  "originalPosition": 30,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 30,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T23:53:55.947Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/DietCokewithSugar/dsh-user-experience/git/commits/bba21e6a634844b448b34aae4e7c8af1d8bbd9d4\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A85D:2E9B60:5ACF28:123FA8B:6AFB9794 and timestamp 2026-11-16 23:53:56 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/DietCokewithSugar/dsh-user-experience",
+    "commit": "bba21e6a634844b448b34aae4e7c8af1d8bbd9d4",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:56.378Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "polarskicpl/dsh-codex-migrate",
+  "originalPosition": 65,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 65,
+  "batch": 1,
+  "stargazers_count": 13,
+  "startedAt": "2026-11-16T23:53:40.724Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/polarskicpl/dsh-codex-migrate/git/commits/7403f3997bdc31b5e14e42bbc3b2d5d0de22580a\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A848:296466:59F5D3:1203433:6AFB9785 and timestamp 2026-11-16 23:53:41 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/polarskicpl/dsh-codex-migrate",
+    "commit": "7403f3997bdc31b5e14e42bbc3b2d5d0de22580a",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:41.187Z"
+}

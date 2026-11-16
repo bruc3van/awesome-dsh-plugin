@@ -1,0 +1,150 @@
+{
+  "full_name": "hanzhangzzz/dsh-diagram",
+  "originalPosition": 32,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 32,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T23:53:28.752Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "04d913b31487f10950341f3a8ace57a844de4fbaf6153d4cd0f2209162f08cf0",
+      "url": "https://github.com/hanzhangzzz/dsh-diagram/blob/2311a14141e35c451372d5ef4803063abf26602e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-diagram@0.6.1",
+          "command": "pnpm dsh plugin --profile web add dsh-diagram@0.6.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "d23cc818f1cbde2e7be71f24a46e631a64626c0c225b35d787bbe09bc70074b7",
+      "url": "https://github.com/hanzhangzzz/dsh-diagram/blob/2311a14141e35c451372d5ef4803063abf26602e/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-diagram@0.6.1",
+          "command": "pnpm dsh plugin --profile web add dsh-diagram@0.6.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-diagram",
+      "version": "0.7.0-visual.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hanzhangzzz/dsh-diagram",
+        "commit": "2311a14141e35c451372d5ef4803063abf26602e"
+      },
+      "manifestSha256": "2f72d6a2eadeced035b0c139c1ec7bb617001f2c5a6b6f306a52d3a8462bf5bd",
+      "manifestUrl": "https://github.com/hanzhangzzz/dsh-diagram/blob/2311a14141e35c451372d5ef4803063abf26602e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-diagram",
+        "versions": [
+          {
+            "version": "0.7.0-visual.10",
+            "publishTimestamp": 1790600641,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hanzhangzzz/dsh-diagram",
+              "commit": "2311a14141e35c451372d5ef4803063abf26602e"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-diagram@0.6.1",
+      "origin": "npm",
+      "name": "dsh-diagram",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-diagram",
+        "title": "dsh-diagram",
+        "description": "Turn articles in DeepSeek Harness into editable Excalidraw canvases",
+        "homepage": "https://github.com/hanzhangzzz/dsh-diagram#readme",
+        "repository": {
+          "url": "https://github.com/hanzhangzzz/dsh-diagram"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "canvas",
+            "diagram",
+            "diagram-editor",
+            "excalidraw",
+            "flowchart",
+            "visualization",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1790582427,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.2-rc.1 || 0.1.5-rc.1 || 0.1.5-rc.2 || 0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6be7b35ddb8596e116b6920539720f4473deabf95ea9960d00fcb6a78eb38071",
+      "evidence": [
+        {
+          "name": "dsh-diagram",
+          "version": "0.6.1",
+          "tarball": "https://registry.npmjs.org/dsh-diagram/-/dsh-diagram-0.6.1.tgz",
+          "integrity": "sha512-kJWBSBvtGI26USXQQnM/Vl6xh2CvKTr5bmXD4q/V846HivMV4vLnKCb6RNbNzIbUNcAkGgQZudKt5gG1Ppwdpw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-diagram@0.6.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hanzhangzzz/dsh-diagram",
+    "commit": "2311a14141e35c451372d5ef4803063abf26602e",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T23:53:31.198Z"
+}

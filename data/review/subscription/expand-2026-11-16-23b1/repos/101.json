@@ -1,0 +1,29 @@
+{
+  "full_name": "bufan528/dsh-longterm-memory",
+  "originalPosition": 101,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 101,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T23:53:43.564Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/bufan528/dsh-longterm-memory/git/commits/b54b061daf7ec8b94172ce85b28ee2851e42600d\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A85B:30B6B9:66B3EB:14DEB17:6AFB9787 and timestamp 2026-11-16 23:53:44 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/bufan528/dsh-longterm-memory",
+    "commit": "b54b061daf7ec8b94172ce85b28ee2851e42600d",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:44.054Z"
+}

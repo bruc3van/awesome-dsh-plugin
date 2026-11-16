@@ -1,0 +1,29 @@
+{
+  "full_name": "zenx0x/allinluna",
+  "originalPosition": 8,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 8,
+  "batch": 1,
+  "stargazers_count": 65,
+  "startedAt": "2026-11-16T23:53:54.552Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/zenx0x/allinluna/git/commits/b471713089d8352c1c97e05fe3d25907a4164b1a\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A841:C4C66:5B9005:126C868:6AFB9792 and timestamp 2026-11-16 23:53:54 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/zenx0x/allinluna",
+    "commit": "b471713089d8352c1c97e05fe3d25907a4164b1a",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:54.938Z"
+}

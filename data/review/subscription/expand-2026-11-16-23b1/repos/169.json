@@ -1,0 +1,29 @@
+{
+  "full_name": "lhmd/dsh-promotion-toolkit",
+  "originalPosition": 169,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 169,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:53:48.908Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/lhmd/dsh-promotion-toolkit/git/commits/c4e19742d4399e0282ab70829e412fb47bbb42a7\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A851:3742E9:629A37:13FE7AF:6AFB978D and timestamp 2026-11-16 23:53:49 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/lhmd/dsh-promotion-toolkit",
+    "commit": "c4e19742d4399e0282ab70829e412fb47bbb42a7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:49.442Z"
+}

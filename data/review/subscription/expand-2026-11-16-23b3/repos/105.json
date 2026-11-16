@@ -1,0 +1,29 @@
+{
+  "full_name": "sakuraqqq/dsh-auto-paste",
+  "originalPosition": 105,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 105,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T23:54:18.015Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/sakuraqqq/dsh-auto-paste/git/commits/98176704d14f8748a96b808a46b16a6ca3e83395\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A83E:188A15:60B7F0:136DE09:6AFB97AA and timestamp 2026-11-16 23:54:18 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/sakuraqqq/dsh-auto-paste",
+    "commit": "98176704d14f8748a96b808a46b16a6ca3e83395",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:18.497Z"
+}

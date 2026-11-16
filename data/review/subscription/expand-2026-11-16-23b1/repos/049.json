@@ -1,0 +1,136 @@
+{
+  "full_name": "dsh-ssh/dsh-ssh",
+  "originalPosition": 49,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 49,
+  "batch": 1,
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T23:53:35.036Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1398d1297a484e45032ef0cf66e376be24a74900f522a36ef2054902f9063898",
+      "url": "https://github.com/dsh-ssh/dsh-ssh/blob/17764146e474b44222d12a95c585b5de782f9daa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-ssh/dsh-ssh",
+          "command": "dsh plugin --profile web add @dsh-ssh/dsh-ssh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "d681354ceb229ea77db78f11bf6c6654e8a5f4b0779f43f70872a42771aac7f5",
+      "url": "https://github.com/dsh-ssh/dsh-ssh/blob/17764146e474b44222d12a95c585b5de782f9daa/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-ssh/dsh-ssh",
+          "command": "dsh plugin --profile web add @dsh-ssh/dsh-ssh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-ssh/dsh-ssh",
+      "version": "0.1.3",
+      "path": "packages/dsh-ssh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dsh-ssh/dsh-ssh",
+        "commit": "17764146e474b44222d12a95c585b5de782f9daa",
+        "path": "packages/dsh-ssh"
+      },
+      "manifestSha256": "a26d74d9cb9c017b75390f512af89aaeb981dbfa54d6a4df13ddfcb52b91701d",
+      "manifestUrl": "https://github.com/dsh-ssh/dsh-ssh/blob/17764146e474b44222d12a95c585b5de782f9daa/packages/dsh-ssh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-ssh/dsh-ssh",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1787820946,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dsh-ssh/dsh-ssh",
+              "commit": "17764146e474b44222d12a95c585b5de782f9daa",
+              "path": "packages/dsh-ssh"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@dsh-ssh/dsh-ssh",
+      "origin": "npm",
+      "name": "@dsh-ssh/dsh-ssh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dsh-ssh/dsh-ssh",
+        "title": "@dsh-ssh/dsh-ssh",
+        "description": "SSH remote workspace for DeepSeek Harness: ssh2 connection pool, host settings, and routed bash/fs/search tools",
+        "repository": {
+          "url": "https://github.com/dsh-ssh/dsh-ssh"
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1787308271,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "708dc635ed5188facd0e590f7ecf570a173a6ceef1c5c6ac9f151e04905d2d36",
+      "evidence": [
+        {
+          "name": "@dsh-ssh/dsh-ssh",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/@dsh-ssh/dsh-ssh/-/dsh-ssh-0.1.3.tgz",
+          "integrity": "sha512-iqDlT/3jgS0EscYc4eA93BSDojQA4KS0VRDXz/PMrL2zfXWrmAWGx7eO2KYphC65x+WsZwQU/mmpi4NyB3Nk0A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dsh-ssh/dsh-ssh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dsh-ssh/dsh-ssh",
+    "commit": "17764146e474b44222d12a95c585b5de782f9daa",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T23:53:38.653Z"
+}

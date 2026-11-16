@@ -1,0 +1,29 @@
+{
+  "full_name": "biggerboy/dsh-conversation-anchors",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:54:02.971Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/biggerboy/dsh-conversation-anchors/git/commits/f6057c4c202d5f7614de8ff5c2c546486da259c3\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A831:16BF2B:61EF0B:139D9F3:6AFB979B and timestamp 2026-11-16 23:54:03 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/biggerboy/dsh-conversation-anchors",
+    "commit": "f6057c4c202d5f7614de8ff5c2c546486da259c3",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:03.408Z"
+}

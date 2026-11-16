@@ -1,0 +1,29 @@
+{
+  "full_name": "akira399/dsh-novel-writer",
+  "originalPosition": 4,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 4,
+  "batch": 1,
+  "stargazers_count": 120,
+  "startedAt": "2026-11-16T23:54:10.896Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/akira399/dsh-novel-writer/git/commits/b9e49227aa70f7e42d8a348fc104180d2fe497e7\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A85A:32C813:60E14D:135E547:6AFB97A3 and timestamp 2026-11-16 23:54:11 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/akira399/dsh-novel-writer",
+    "commit": "b9e49227aa70f7e42d8a348fc104180d2fe497e7",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:11.342Z"
+}

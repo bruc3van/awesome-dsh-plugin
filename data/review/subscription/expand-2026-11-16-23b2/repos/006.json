@@ -1,0 +1,29 @@
+{
+  "full_name": "wang1299/dsh-reforge",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "stargazers_count": 104,
+  "startedAt": "2026-11-16T23:53:54.119Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/wang1299/dsh-reforge/git/commits/1df95d732d57cdc7be34b18dcd75bbfbbc85c8be\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A82A:3C60BE:5DF0E5:12D015D:6AFB9792 and timestamp 2026-11-16 23:53:54 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/wang1299/dsh-reforge",
+    "commit": "1df95d732d57cdc7be34b18dcd75bbfbbc85c8be",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:54.584Z"
+}

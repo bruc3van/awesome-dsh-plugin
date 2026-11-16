@@ -1,0 +1,29 @@
+{
+  "full_name": "PeterTXPan/dsh-unreal-mcp",
+  "originalPosition": 42,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 42,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T23:54:13.548Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/PeterTXPan/dsh-unreal-mcp/git/commits/607acf199d87239b439481829facc2cc4d46235f\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A883:F5CBB:60A3F5:136DDCA:6AFB97A5 and timestamp 2026-11-16 23:54:13 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/PeterTXPan/dsh-unreal-mcp",
+    "commit": "607acf199d87239b439481829facc2cc4d46235f",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:13.938Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "yyyy231209/ai-company-framework",
+  "originalPosition": 90,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 90,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T23:54:16.904Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/yyyy231209/ai-company-framework/git/commits/465d08361dfcb03cf5958c648c4d3551189803e0\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A83C:3C60BE:5E5BE8:12E5736:6AFB97A9 and timestamp 2026-11-16 23:54:17 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/yyyy231209/ai-company-framework",
+    "commit": "465d08361dfcb03cf5958c648c4d3551189803e0",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:17.301Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "WangPaoPaoLab/dsh-font",
+  "originalPosition": 74,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 74,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-16T23:54:15.963Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/WangPaoPaoLab/dsh-font/git/commits/d299f56bde1e10e7fef152848e74cff2eecd7917\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A86F:30B6B9:676193:1502536:6AFB97A8 and timestamp 2026-11-16 23:54:16 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/WangPaoPaoLab/dsh-font",
+    "commit": "d299f56bde1e10e7fef152848e74cff2eecd7917",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:16.327Z"
+}

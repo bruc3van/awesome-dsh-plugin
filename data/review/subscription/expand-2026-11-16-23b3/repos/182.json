@@ -1,0 +1,29 @@
+{
+  "full_name": "omdsh-dev/dsh-science",
+  "originalPosition": 182,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 182,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:54:23.797Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/omdsh-dev/dsh-science/git/commits/dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A842:C4C66:5C1DC3:128923C:6AFB97B0 and timestamp 2026-11-16 23:54:24 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-science",
+    "commit": "dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:24.220Z"
+}

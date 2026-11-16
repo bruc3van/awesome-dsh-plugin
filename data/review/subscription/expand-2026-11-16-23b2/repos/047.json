@@ -1,0 +1,29 @@
+{
+  "full_name": "Ghost011118/dsh-balance-meter",
+  "originalPosition": 47,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 47,
+  "batch": 1,
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T23:53:57.164Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/Ghost011118/dsh-balance-meter/git/commits/1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A868:3B27DB:5D23B1:12AC322:6AFB9795 and timestamp 2026-11-16 23:53:57 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Ghost011118/dsh-balance-meter",
+    "commit": "1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:57.564Z"
+}

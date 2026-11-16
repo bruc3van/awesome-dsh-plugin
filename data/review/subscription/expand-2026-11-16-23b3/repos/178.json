@@ -1,0 +1,29 @@
+{
+  "full_name": "mrzturn/dsh-switchman",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:54:23.426Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/mrzturn/dsh-switchman/git/commits/b21687119c857c500570341225d931be228413a4\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A871:3742E9:634037:1420063:6AFB97AF and timestamp 2026-11-16 23:54:23 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/mrzturn/dsh-switchman",
+    "commit": "b21687119c857c500570341225d931be228413a4",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:23.849Z"
+}

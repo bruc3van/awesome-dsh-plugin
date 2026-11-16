@@ -1,0 +1,29 @@
+{
+  "full_name": "chenjrastro-tech/github-release-download-acceleration",
+  "originalPosition": 134,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 134,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:53:46.087Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/chenjrastro-tech/github-release-download-acceleration/git/commits/17539f09a5eca1648d4100c26defa42504c2b63d\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A82D:647C5:65228A:1466483:6AFB978A and timestamp 2026-11-16 23:53:46 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/chenjrastro-tech/github-release-download-acceleration",
+    "commit": "17539f09a5eca1648d4100c26defa42504c2b63d",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:46.580Z"
+}

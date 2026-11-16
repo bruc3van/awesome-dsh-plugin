@@ -1,0 +1,29 @@
+{
+  "full_name": "tr1v3r/dsh-proxy",
+  "originalPosition": 107,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 107,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T23:54:01.326Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/tr1v3r/dsh-proxy/git/commits/627714dc06a5c37714b134a91cc887628265effd\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A84B:890ED:5D12D1:12B8441:6AFB9799 and timestamp 2026-11-16 23:54:01 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/tr1v3r/dsh-proxy",
+    "commit": "627714dc06a5c37714b134a91cc887628265effd",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:01.758Z"
+}

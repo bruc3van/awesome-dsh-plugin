@@ -1,0 +1,29 @@
+{
+  "full_name": "juntaoding/Flowboard",
+  "originalPosition": 67,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 67,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-16T23:54:15.458Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/juntaoding/Flowboard/git/commits/0122200e5a42e32491d42163a134ce02a514a563\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A860:2E9B60:5B2471:1250C31:6AFB97A7 and timestamp 2026-11-16 23:54:15 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/juntaoding/Flowboard",
+    "commit": "0122200e5a42e32491d42163a134ce02a514a563",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:15.828Z"
+}

@@ -1,0 +1,136 @@
+{
+  "full_name": "fengshenx/dsh-leader-agent",
+  "originalPosition": 54,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 54,
+  "batch": 1,
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T23:53:37.022Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "189f151955fd85d30eb1aa278edc3dc66f6ce23e07de49f94feb3150d508af03",
+      "url": "https://github.com/fengshenx/dsh-leader-agent/blob/7cd537b169146c34025a0f33ecd8d456c3846c99/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-leader-agent",
+          "command": "dsh plugin --profile web add dsh-leader-agent",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-leader-agent",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fengshenx/dsh-leader-agent",
+        "commit": "7cd537b169146c34025a0f33ecd8d456c3846c99"
+      },
+      "manifestSha256": "0ff1c09f59f98802d913759c718c4fe5397936ecf1bbac777e47169630072f15",
+      "manifestUrl": "https://github.com/fengshenx/dsh-leader-agent/blob/7cd537b169146c34025a0f33ecd8d456c3846c99/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-leader-agent",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1794824601,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fengshenx/dsh-leader-agent",
+              "commit": "7cd537b169146c34025a0f33ecd8d456c3846c99"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-leader-agent",
+      "origin": "npm",
+      "name": "dsh-leader-agent",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-leader-agent",
+        "title": {
+          "en": "Leader Agent",
+          "zh": "队长 Agent"
+        },
+        "description": {
+          "en": "Leader-driven dispatch for DeepSeek Harness: protocol skills, project bootstrap, and a delivery board.",
+          "zh": "DeepSeek Harness 的队长/执行者编排：协议层 skill、项目初始化与交付看板。"
+        },
+        "homepage": "https://github.com/fengshenx/dsh-leader-agent#readme",
+        "repository": {
+          "url": "https://github.com/fengshenx/dsh-leader-agent"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "leader",
+            "dispatch",
+            "delivery-board"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1794766545,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "53e13eb90f854ea89fc0340f3e715301fc76279293fad565dca43ecec84109b4",
+      "evidence": [
+        {
+          "name": "dsh-leader-agent",
+          "version": "0.5.0",
+          "tarball": "https://registry.npmjs.org/dsh-leader-agent/-/dsh-leader-agent-0.5.0.tgz",
+          "integrity": "sha512-AKEWMFQmcvHLRahBMhj6SmTcBpkhUcWVZ5oqjaYwrE83w8mr1qPm1En2U2EmyCXAQUwIcUyPgw5dIfHq7FYHSQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-leader-agent",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fengshenx/dsh-leader-agent",
+    "commit": "7cd537b169146c34025a0f33ecd8d456c3846c99",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T23:53:38.781Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "AnacondaKC/dsh-stock-market",
+  "originalPosition": 29,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 29,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T23:53:27.447Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c9c84638dc9e6b1b2458eed69d6b12d0e0622d4eb3fd6cad9ad58772df4cc892",
+      "url": "https://github.com/AnacondaKC/dsh-stock-market/blob/02278af12330102c534c843a668d1c8407dbde1b/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-stock-market",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AnacondaKC/dsh-stock-market",
+        "commit": "02278af12330102c534c843a668d1c8407dbde1b"
+      },
+      "manifestSha256": "52e7260e1282c61b552fb4c2ac49b728601ffe83b6551fbe36a3fe7863359600",
+      "manifestUrl": "https://github.com/AnacondaKC/dsh-stock-market/blob/02278af12330102c534c843a668d1c8407dbde1b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.0.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-stock-market",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1786602388,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AnacondaKC/dsh-stock-market",
+              "commit": "02278af12330102c534c843a668d1c8407dbde1b"
+            },
+            "engines": {
+              "dsh": "^0.0.1-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AnacondaKC/dsh-stock-market",
+    "commit": "02278af12330102c534c843a668d1c8407dbde1b",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T23:53:28.961Z"
+}

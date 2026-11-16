@@ -1,0 +1,87 @@
+{
+  "full_name": "zenx0x/allinluna",
+  "originalPosition": 8,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 8,
+  "batch": 1,
+  "stargazers_count": 65,
+  "startedAt": "2026-11-16T23:53:18.048Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "87c30ff8582c4a78622ad00b54eedb474a2269d64381b853de29fbf3fab6bef9",
+      "url": "https://github.com/zenx0x/allinluna/blob/b471713089d8352c1c97e05fe3d25907a4164b1a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "aa723608b6fa1f6e8d56ce14ed44e3702b60633d9b76ee01a48f165970466fd2",
+      "url": "https://github.com/zenx0x/allinluna/blob/b471713089d8352c1c97e05fe3d25907a4164b1a/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/deepseek-harness/README.md",
+      "sha256": "5ee5110c75d7b7a21a2f20181fc75a251d5972c94e21e085ee3e255bc3c6b7f0",
+      "url": "https://github.com/zenx0x/allinluna/blob/b471713089d8352c1c97e05fe3d25907a4164b1a/plugins/deepseek-harness/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zenx0x/allinflash",
+      "version": "0.2.0",
+      "path": "plugins/deepseek-harness",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zenx0x/allinluna",
+        "commit": "b471713089d8352c1c97e05fe3d25907a4164b1a",
+        "path": "plugins/deepseek-harness"
+      },
+      "manifestSha256": "03bcf3b52619e4beeb46ae5f968002faba9874bf60b5dfb82724c47bdaa1f8ff",
+      "manifestUrl": "https://github.com/zenx0x/allinluna/blob/b471713089d8352c1c97e05fe3d25907a4164b1a/plugins/deepseek-harness/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@zenx0x/allinflash",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1788259672,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zenx0x/allinluna",
+              "commit": "b471713089d8352c1c97e05fe3d25907a4164b1a",
+              "path": "plugins/deepseek-harness"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zenx0x/allinluna",
+    "commit": "b471713089d8352c1c97e05fe3d25907a4164b1a",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T23:53:21.524Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "copylee711/dsh-proxy",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:54:20.500Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/copylee711/dsh-proxy/git/commits/1e8f6b0c409855539c6de55909354172d1651210\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A85D:2E9B60:5B3AAE:125531A:6AFB97AC and timestamp 2026-11-16 23:54:20 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/copylee711/dsh-proxy",
+    "commit": "1e8f6b0c409855539c6de55909354172d1651210",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:20.982Z"
+}

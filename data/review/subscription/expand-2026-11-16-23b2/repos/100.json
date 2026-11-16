@@ -1,0 +1,29 @@
+{
+  "full_name": "cxv117793-blip/dsh-step-pause",
+  "originalPosition": 100,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 100,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T23:54:00.893Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/cxv117793-blip/dsh-step-pause/git/commits/4b30e4ae79de94f83678ece2e48fc292816ead7a\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A847:69064:63CA92:13EEA86:6AFB9799 and timestamp 2026-11-16 23:54:01 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/cxv117793-blip/dsh-step-pause",
+    "commit": "4b30e4ae79de94f83678ece2e48fc292816ead7a",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:01.280Z"
+}

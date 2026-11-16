@@ -1,0 +1,29 @@
+{
+  "full_name": "lightsifter/sift-light",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "stargazers_count": 104,
+  "startedAt": "2026-11-16T23:54:10.900Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/lightsifter/sift-light/git/commits/31034b9cc7b66bdd14943d1fcaf5095cfe5a6d99\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A857:6A699:5915C9:11E8B12:6AFB97A3 and timestamp 2026-11-16 23:54:11 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/lightsifter/sift-light",
+    "commit": "31034b9cc7b66bdd14943d1fcaf5095cfe5a6d99",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:11.365Z"
+}

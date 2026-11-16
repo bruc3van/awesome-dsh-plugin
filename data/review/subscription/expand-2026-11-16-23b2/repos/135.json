@@ -1,0 +1,29 @@
+{
+  "full_name": "cindyguyuehu123/dsh-webchatlike",
+  "originalPosition": 135,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 135,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:54:03.409Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/cindyguyuehu123/dsh-webchatlike/git/commits/365c7077b2c0125c9bbd8691ec7fbb5b8e8aa268\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A863:1D609F:5F7000:1326DC9:6AFB979B and timestamp 2026-11-16 23:54:03 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/cindyguyuehu123/dsh-webchatlike",
+    "commit": "365c7077b2c0125c9bbd8691ec7fbb5b8e8aa268",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:03.858Z"
+}

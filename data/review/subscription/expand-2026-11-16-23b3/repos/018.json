@@ -1,0 +1,29 @@
+{
+  "full_name": "jiezeng2004-design/dsh-chatgpt-bridge",
+  "originalPosition": 18,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 18,
+  "batch": 1,
+  "stargazers_count": 28,
+  "startedAt": "2026-11-16T23:54:11.831Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/jiezeng2004-design/dsh-chatgpt-bridge/git/commits/9ad1844f0532b00ba5b1bdb459046abe9ba9f679\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A82E:3B27DB:5D6AF8:12BA82C:6AFB97A4 and timestamp 2026-11-16 23:54:12 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/jiezeng2004-design/dsh-chatgpt-bridge",
+    "commit": "9ad1844f0532b00ba5b1bdb459046abe9ba9f679",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:12.293Z"
+}

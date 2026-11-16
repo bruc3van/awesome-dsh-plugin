@@ -1,0 +1,29 @@
+{
+  "full_name": "a961282799-crypto/dsh-island",
+  "originalPosition": 125,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 125,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:54:02.626Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/a961282799-crypto/dsh-island/git/commits/36b7b1ea31e904dcbe22d3e7f64510c69982dcdd\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A864:647C5:657102:1475E88:6AFB979A and timestamp 2026-11-16 23:54:03 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/a961282799-crypto/dsh-island",
+    "commit": "36b7b1ea31e904dcbe22d3e7f64510c69982dcdd",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:03.035Z"
+}

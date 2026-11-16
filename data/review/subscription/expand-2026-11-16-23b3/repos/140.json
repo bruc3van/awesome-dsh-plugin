@@ -1,0 +1,29 @@
+{
+  "full_name": "corrinehu/dsh-chat-imagine",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:54:20.697Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/corrinehu/dsh-chat-imagine/git/commits/2b54498963382690703692c3397c3f11723674d5\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A84D:16BF2B:6244AB:13AEDE8:6AFB97AD and timestamp 2026-11-16 23:54:21 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/corrinehu/dsh-chat-imagine",
+    "commit": "2b54498963382690703692c3397c3f11723674d5",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:21.152Z"
+}

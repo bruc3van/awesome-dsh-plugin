@@ -1,0 +1,29 @@
+{
+  "full_name": "xiaozhe7772222/dsh-api-key-pool",
+  "originalPosition": 110,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 110,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T23:53:44.172Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/xiaozhe7772222/dsh-api-key-pool/git/commits/ce5fbe534d0e7e95c960eddc29e527dd2fd5256c\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A836:890ED:5CC3E2:12A88C3:6AFB9788 and timestamp 2026-11-16 23:53:44 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/xiaozhe7772222/dsh-api-key-pool",
+    "commit": "ce5fbe534d0e7e95c960eddc29e527dd2fd5256c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:44.625Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "Leo3-7/dsh-obsidian-inbox",
+  "originalPosition": 36,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 36,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-11-16T23:53:56.379Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/Leo3-7/dsh-obsidian-inbox/git/commits/126d7558050e4ba687235bf09c149101ea5436aa\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A82F:3C60BE:5DFAF6:12D20C4:6AFB9794 and timestamp 2026-11-16 23:53:56 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Leo3-7/dsh-obsidian-inbox",
+    "commit": "126d7558050e4ba687235bf09c149101ea5436aa",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:56.777Z"
+}

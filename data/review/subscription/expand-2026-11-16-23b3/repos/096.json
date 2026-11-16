@@ -1,0 +1,29 @@
+{
+  "full_name": "Ryu6Zero/dsh-hindsight",
+  "originalPosition": 96,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 96,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T23:54:17.332Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/Ryu6Zero/dsh-hindsight/git/commits/200eab8ab5cf395e86d0ddb3cc809061f6ee09c4\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A82A:3C60BE:5E5E00:12E5E1F:6AFB97A9 and timestamp 2026-11-16 23:54:17 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Ryu6Zero/dsh-hindsight",
+    "commit": "200eab8ab5cf395e86d0ddb3cc809061f6ee09c4",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:17.811Z"
+}

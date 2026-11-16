@@ -1,0 +1,135 @@
+{
+  "full_name": "ds-hu/dsh-acp-paseo",
+  "originalPosition": 57,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 57,
+  "batch": 1,
+  "stargazers_count": 14,
+  "startedAt": "2026-11-16T23:53:37.928Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "07efd529a02070b347e0d04ef9a93db49ca8d541bb3bbf3ed47df61bdbf3effb",
+      "url": "https://github.com/ds-hu/dsh-acp-paseo/blob/03ecc2161c49a05297d3c1646af81767f1a39004/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ds-hu/dsh-acp-plus",
+          "command": "dsh plugin --profile acp-plus add @ds-hu/dsh-acp-plus",
+          "profile": "acp-plus"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ds-hu/dsh-acp-plus",
+      "version": "0.3.0",
+      "path": "packages/dsh-acp-plus",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ds-hu/dsh-acp-paseo",
+        "commit": "03ecc2161c49a05297d3c1646af81767f1a39004",
+        "path": "packages/dsh-acp-plus"
+      },
+      "manifestSha256": "514f8b9c1cedda2a74290003acefd0cf34f1c9ac491f74d9a798b2ddd68e1138",
+      "manifestUrl": "https://github.com/ds-hu/dsh-acp-paseo/blob/03ecc2161c49a05297d3c1646af81767f1a39004/packages/dsh-acp-plus/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@ds-hu/dsh-acp-plus",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1792399535,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ds-hu/dsh-acp-paseo",
+              "commit": "03ecc2161c49a05297d3c1646af81767f1a39004",
+              "path": "packages/dsh-acp-plus"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@ds-hu/dsh-acp-plus",
+      "origin": "npm",
+      "name": "@ds-hu/dsh-acp-plus",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@ds-hu/dsh-acp-plus",
+        "title": "@ds-hu/dsh-acp-plus",
+        "description": "DSH bundle for the most feature-complete DeepSeek Harness – Paseo integration project.",
+        "homepage": "https://github.com/ds-hu/dsh-acp-paseo#readme",
+        "repository": {
+          "url": "https://github.com/ds-hu/dsh-acp-paseo",
+          "directory": "packages/dsh-acp-plus"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "paseo",
+            "acp",
+            "agent-client-protocol",
+            "cordis-plugin",
+            "dsh-bundle"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1792399011,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cf9e05cd175a23a16763b4b5bd50f9bb84f3239db8a5c9871ec4012b202195f1",
+      "evidence": [
+        {
+          "name": "@ds-hu/dsh-acp-plus",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/@ds-hu/dsh-acp-plus/-/dsh-acp-plus-0.3.0.tgz",
+          "integrity": "sha512-eI7KOEu3B+MV8XAsj2pDAE/yjdz5WUW3dRg8f4vioYOmVXaNi6wL4pV+kU9oZv4OadB9vv2HhenZHaEEy9NLpQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@ds-hu/dsh-acp-plus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ds-hu/dsh-acp-paseo",
+    "commit": "03ecc2161c49a05297d3c1646af81767f1a39004",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T23:53:40.887Z"
+}

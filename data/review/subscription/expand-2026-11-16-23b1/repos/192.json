@@ -1,0 +1,29 @@
+{
+  "full_name": "shine-233/dsh-waimao",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:53:50.689Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/shine-233/dsh-waimao/git/commits/4fa797a2c9fdd58ec8eeacb9436f3f8ca020cdc8\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A868:3B27DB:5D04B1:12A605C:6AFB978F and timestamp 2026-11-16 23:53:51 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/shine-233/dsh-waimao",
+    "commit": "4fa797a2c9fdd58ec8eeacb9436f3f8ca020cdc8",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:51.187Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "yhlooo/dsh-bridges",
+  "originalPosition": 90,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 90,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T23:53:42.704Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/yhlooo/dsh-bridges/git/commits/977a1fc8b7fe0d37e304c81526774be1d5a64b7f\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A851:3742E9:627C64:13F8702:6AFB9787 and timestamp 2026-11-16 23:53:43 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/yhlooo/dsh-bridges",
+    "commit": "977a1fc8b7fe0d37e304c81526774be1d5a64b7f",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:43.150Z"
+}

@@ -1,0 +1,62 @@
+{
+  "full_name": "liangdabiao/dsh-amazon-image-studio",
+  "originalPosition": 38,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 38,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-11-16T23:53:31.406Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dea4913d2b01f87b938325af26abf5c10818d183cdc83bbe9b61d1ed181083df",
+      "url": "https://github.com/liangdabiao/dsh-amazon-image-studio/blob/6c3e58d4e16f226205850c3bfba1d5b1abcf3959/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/liangdabiao/dsh-amazon-image-studio",
+          "command": "dsh plugin --profile web add https://github.com/liangdabiao/dsh-amazon-image-studio",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-amazon-image-studio",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liangdabiao/dsh-amazon-image-studio",
+        "commit": "6c3e58d4e16f226205850c3bfba1d5b1abcf3959"
+      },
+      "manifestSha256": "29ff04cd2426e28b192b9933834105507448771594202034060272c95891c026",
+      "manifestUrl": "https://github.com/liangdabiao/dsh-amazon-image-studio/blob/6c3e58d4e16f226205850c3bfba1d5b1abcf3959/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/liangdabiao/dsh-amazon-image-studio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liangdabiao/dsh-amazon-image-studio",
+    "commit": "6c3e58d4e16f226205850c3bfba1d5b1abcf3959",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T23:53:33.004Z"
+}

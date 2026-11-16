@@ -1,0 +1,29 @@
+{
+  "full_name": "Xiaxin1235/WhaleMaid",
+  "originalPosition": 98,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 98,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T23:54:17.527Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/Xiaxin1235/WhaleMaid/git/commits/ada393caf75eb0260b7713160565b3347a9ff5e4\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A82E:3B27DB:5D85D9:12BFE9C:6AFB97A9 and timestamp 2026-11-16 23:54:17 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Xiaxin1235/WhaleMaid",
+    "commit": "ada393caf75eb0260b7713160565b3347a9ff5e4",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:17.997Z"
+}

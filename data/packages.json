@@ -23226,6 +23226,19 @@
       "verified_date": "2026-11-16",
       "verified_via": "manifest@0c70be6821c2",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "fengshenx/dsh-leader-agent": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-leader-agent",
+          "install": "dsh-leader-agent",
+          "command": "dsh plugin --profile web add dsh-leader-agent"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
     }
   }
 }

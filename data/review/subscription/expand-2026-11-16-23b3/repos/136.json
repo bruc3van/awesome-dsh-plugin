@@ -1,0 +1,29 @@
+{
+  "full_name": "clarknu/dsh-gateway",
+  "originalPosition": 136,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 136,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:54:20.313Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/clarknu/dsh-gateway/git/commits/84bc39a23e15a2a2b65a1f3cb022727590cc5427\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A849:6A699:593F5D:11F11B1:6AFB97AC and timestamp 2026-11-16 23:54:20 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/clarknu/dsh-gateway",
+    "commit": "84bc39a23e15a2a2b65a1f3cb022727590cc5427",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:20.761Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "Mars-Sea/dsh-deeppilot",
+  "originalPosition": 41,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 41,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T23:53:56.749Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/Mars-Sea/dsh-deeppilot/git/commits/6e60ffcc7422256ea8151518411576dc81f0789d\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A832:17430B:5C7981:1293381:6AFB9795 and timestamp 2026-11-16 23:53:57 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Mars-Sea/dsh-deeppilot",
+    "commit": "6e60ffcc7422256ea8151518411576dc81f0789d",
+    "releaseTags": 44,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:57.184Z"
+}

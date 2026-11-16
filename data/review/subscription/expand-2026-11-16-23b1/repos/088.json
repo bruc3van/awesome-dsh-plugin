@@ -1,0 +1,29 @@
+{
+  "full_name": "sj244/dsh-qq-bridge",
+  "originalPosition": 88,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 88,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T23:53:42.385Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/sj244/dsh-qq-bridge/git/commits/29fb383e06f17b497ac7924c62052dc80bc19b02\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A83E:188A15:6005C1:134A6C7:6AFB9786 and timestamp 2026-11-16 23:53:42 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/sj244/dsh-qq-bridge",
+    "commit": "29fb383e06f17b497ac7924c62052dc80bc19b02",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:42.865Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "Lzh3070/dsh-session-cost",
+  "originalPosition": 34,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 34,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-11-16T23:53:56.277Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/Lzh3070/dsh-session-cost/git/commits/986c34e1445ca5012d32e2d9d02768c5cb0cb12c\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A864:647C5:655172:146FA9C:6AFB9794 and timestamp 2026-11-16 23:53:56 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Lzh3070/dsh-session-cost",
+    "commit": "986c34e1445ca5012d32e2d9d02768c5cb0cb12c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:56.677Z"
+}

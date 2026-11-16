@@ -1,0 +1,29 @@
+{
+  "full_name": "luoshuizhiwei/dsh-desktop-restart",
+  "originalPosition": 175,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 175,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:53:49.407Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/luoshuizhiwei/dsh-desktop-restart/git/commits/c0d54cd92bdc0bdf487570a125612962dbeb9b01\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A85D:2E9B60:5AB298:1239F4F:6AFB978D and timestamp 2026-11-16 23:53:49 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/luoshuizhiwei/dsh-desktop-restart",
+    "commit": "c0d54cd92bdc0bdf487570a125612962dbeb9b01",
+    "releaseTags": 21,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:49.884Z"
+}

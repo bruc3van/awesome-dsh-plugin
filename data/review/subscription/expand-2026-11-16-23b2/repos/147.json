@@ -1,0 +1,29 @@
+{
+  "full_name": "forget6610/dsh-theme-clove",
+  "originalPosition": 147,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:54:04.264Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/forget6610/dsh-theme-clove/git/commits/e8a6df935de979353443b529c9697a6a9ffe4bd5\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A84D:16BF2B:61F530:139ED75:6AFB979C and timestamp 2026-11-16 23:54:04 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/forget6610/dsh-theme-clove",
+    "commit": "e8a6df935de979353443b529c9697a6a9ffe4bd5",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:04.710Z"
+}

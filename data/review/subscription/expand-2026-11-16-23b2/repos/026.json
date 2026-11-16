@@ -1,0 +1,29 @@
+{
+  "full_name": "IWAIBAOLI/dsh-with-pencil",
+  "originalPosition": 26,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 26,
+  "batch": 1,
+  "stargazers_count": 24,
+  "startedAt": "2026-11-16T23:53:55.775Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/IWAIBAOLI/dsh-with-pencil/git/commits/4a8f42f8a15d7caa298239d334871e02a4ec153b\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A838:16D642:5FBE01:1328B79:6AFB9794 and timestamp 2026-11-16 23:53:56 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/IWAIBAOLI/dsh-with-pencil",
+    "commit": "4a8f42f8a15d7caa298239d334871e02a4ec153b",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:56.201Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "Da0Mine/dsh-talk-map",
+  "originalPosition": 118,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 118,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:53:44.851Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/Da0Mine/dsh-talk-map/git/commits/662f334487d5788a0bbc44623b5cb921446e999f\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A86D:1862DE:65AA06:14696B6:6AFB9789 and timestamp 2026-11-16 23:53:45 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Da0Mine/dsh-talk-map",
+    "commit": "662f334487d5788a0bbc44623b5cb921446e999f",
+    "releaseTags": 25,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:45.489Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "hoyyang/dsh-project-manager",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-16T23:54:17.803Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/hoyyang/dsh-project-manager/git/commits/d2b92499d1cd300cd6b7af4add61dc5cd9bcbb62\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A87C:17430B:5CDC16:12A6E94:6AFB97AA and timestamp 2026-11-16 23:54:18 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/hoyyang/dsh-project-manager",
+    "commit": "d2b92499d1cd300cd6b7af4add61dc5cd9bcbb62",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:18.240Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "yuna78/dsh-plugin-yushe",
+  "originalPosition": 89,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 89,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T23:54:00.082Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/yuna78/dsh-plugin-yushe/git/commits/4fedb98c5f7c0061304d0fdbe9f39845f68fc77e\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A879:3216B1:649814:1423492:6AFB9798 and timestamp 2026-11-16 23:54:00 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/yuna78/dsh-plugin-yushe",
+    "commit": "4fedb98c5f7c0061304d0fdbe9f39845f68fc77e",
+    "releaseTags": 29,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:00.513Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "photon-hq/dsh-imessage",
+  "originalPosition": 21,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 21,
+  "batch": 1,
+  "stargazers_count": 27,
+  "startedAt": "2026-11-16T23:54:12.224Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/photon-hq/dsh-imessage/git/commits/545e9da28785cb32cbe883d98a6a46fd700992e4\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A875:1464EF:5BD29E:126615C:6AFB97A4 and timestamp 2026-11-16 23:54:12 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/photon-hq/dsh-imessage",
+    "commit": "545e9da28785cb32cbe883d98a6a46fd700992e4",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:12.688Z"
+}

@@ -1,0 +1,29 @@
+{
+  "full_name": "988hj7tczd-oss/dsh-computer-use",
+  "originalPosition": 7,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 7,
+  "batch": 1,
+  "stargazers_count": 69,
+  "startedAt": "2026-11-16T23:53:54.533Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/988hj7tczd-oss/dsh-computer-use/git/commits/3cf9bd8ae60271512f263bfa75485cb242ca0892\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A840:2E4B12:61BF56:13EE71E:6AFB9792 and timestamp 2026-11-16 23:53:54 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/988hj7tczd-oss/dsh-computer-use",
+    "commit": "3cf9bd8ae60271512f263bfa75485cb242ca0892",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:54.954Z"
+}

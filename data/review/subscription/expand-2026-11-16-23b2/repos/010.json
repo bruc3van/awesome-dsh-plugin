@@ -1,0 +1,29 @@
+{
+  "full_name": "dsh-tui/dsh-tui",
+  "originalPosition": 10,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 10,
+  "batch": 1,
+  "stargazers_count": 48,
+  "startedAt": "2026-11-16T23:53:54.584Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/dsh-tui/dsh-tui/git/commits/8bdc850732464e2c10278f47b4f2b82da38d801e\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A844:122E16:5C0E12:12767E1:6AFB9792 and timestamp 2026-11-16 23:53:55 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/dsh-tui/dsh-tui",
+    "commit": "8bdc850732464e2c10278f47b4f2b82da38d801e",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:55.052Z"
+}

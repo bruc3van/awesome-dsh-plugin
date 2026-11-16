@@ -1,0 +1,29 @@
+{
+  "full_name": "haoranwang0921/dsh-session-cleaner",
+  "originalPosition": 151,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 151,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:54:04.342Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/haoranwang0921/dsh-session-cleaner/git/commits/32ad4f03474bc6b655e9bc18fb5bb9ecd5ed65ed\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A858:29DFDF:6520EE:143329C:6AFB979C and timestamp 2026-11-16 23:54:04 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/haoranwang0921/dsh-session-cleaner",
+    "commit": "32ad4f03474bc6b655e9bc18fb5bb9ecd5ed65ed",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:04.755Z"
+}

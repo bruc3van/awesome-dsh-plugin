@@ -1,0 +1,29 @@
+{
+  "full_name": "MutaLucem/dsh-plugin-integration",
+  "originalPosition": 82,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 82,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-16T23:54:16.451Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/MutaLucem/dsh-plugin-integration/git/commits/0f720b7e53c0633b77e48c04c8bb8e06d16b7a37\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A86E:E4A7E:5DFF48:12EACBD:6AFB97A8 and timestamp 2026-11-16 23:54:16 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/MutaLucem/dsh-plugin-integration",
+    "commit": "0f720b7e53c0633b77e48c04c8bb8e06d16b7a37",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:54:16.847Z"
+}

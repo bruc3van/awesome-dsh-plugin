@@ -1,0 +1,29 @@
+{
+  "full_name": "radres/dsh-plugin-call-me",
+  "originalPosition": 188,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-16T23:53:50.318Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/radres/dsh-plugin-call-me/git/commits/d1a0ecd22580d781ca8e8b5ffca3a0530f7af601\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID A864:647C5:6536A5:146A426:6AFB978E and timestamp 2026-11-16 23:53:50 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/radres/dsh-plugin-call-me",
+    "commit": "d1a0ecd22580d781ca8e8b5ffca3a0530f7af601",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-16T23:53:50.833Z"
+}
