@@ -1,74 +1,134 @@
 {
-  "full_name": "NeoHotaru/dsh-knowledge-canvas",
+  "full_name": "Sacredbluedragon/dsh-bili-watch",
   "originalPosition": 163,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 163,
   "batch": 1,
-  "stargazers_count": 20,
-  "startedAt": "2026-11-16T05:22:36.518Z",
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T05:29:44.727Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "5101d3c7fc0d7d37c2b6f1c961a1c9a5a16d0fdc66a8bb440d75652bbf51d741",
-      "url": "https://github.com/NeoHotaru/dsh-knowledge-canvas/blob/b14f1ea26af5a4edfc5fa1e414f48ba7e320a425/README.md",
+      "sha256": "57f9f59e31cc09b2d657589c390fc8572e61d816f5ef423848fc9ee5b0f41880",
+      "url": "https://github.com/Sacredbluedragon/dsh-bili-watch/blob/cee80fd100cc112ad6beccf4ad6d12aa7a0c88d9/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": []
-    },
-    {
-      "path": "README.zh.md",
-      "sha256": "819a9bc6c2f90cb50b3558c38a0f689c522677b94149631a58915fbf5014e0d0",
-      "url": "https://github.com/NeoHotaru/dsh-knowledge-canvas/blob/b14f1ea26af5a4edfc5fa1e414f48ba7e320a425/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": []
+      "targets": [
+        {
+          "install": "dsh-bili-watch",
+          "command": "dsh plugin --profile web add dsh-bili-watch",
+          "profile": "web"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-knowledge-canvas",
-      "version": "0.4.6",
+      "name": "dsh-bili-watch",
+      "version": "0.4.12",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/NeoHotaru/dsh-knowledge-canvas",
-        "commit": "b14f1ea26af5a4edfc5fa1e414f48ba7e320a425"
+        "url": "https://github.com/Sacredbluedragon/dsh-bili-watch",
+        "commit": "cee80fd100cc112ad6beccf4ad6d12aa7a0c88d9"
       },
-      "manifestSha256": "75ebecd36bee58d3cb47ac0659c58f47eeef99f6cd2ea30feff8df3e236b70c4",
-      "manifestUrl": "https://github.com/NeoHotaru/dsh-knowledge-canvas/blob/b14f1ea26af5a4edfc5fa1e414f48ba7e320a425/package.json",
+      "manifestSha256": "fe227c95fe54c8d494439d2e9d9549c69f836421c69c9015581b359aa6ffb3ff",
+      "manifestUrl": "https://github.com/Sacredbluedragon/dsh-bili-watch/blob/cee80fd100cc112ad6beccf4ad6d12aa7a0c88d9/package.json",
       "status": "eligible_metadata",
-      "declaredRange": null,
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null,
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-knowledge-canvas",
+        "name": "dsh-bili-watch",
         "versions": [
           {
-            "version": "0.4.6",
-            "publishTimestamp": 1793964784,
+            "version": "0.4.12",
+            "publishTimestamp": 1794748295,
             "source": {
               "type": "git",
-              "url": "https://github.com/NeoHotaru/dsh-knowledge-canvas",
-              "commit": "b14f1ea26af5a4edfc5fa1e414f48ba7e320a425"
+              "url": "https://github.com/Sacredbluedragon/dsh-bili-watch",
+              "commit": "cee80fd100cc112ad6beccf4ad6d12aa7a0c88d9"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
             }
           }
         ]
       }
+    },
+    {
+      "target": "dsh-bili-watch",
+      "origin": "npm",
+      "name": "dsh-bili-watch",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bili-watch",
+        "title": "dsh-bili-watch",
+        "description": "把 B 站视频读成文本给 AI 用：元数据、评论、弹幕、字幕、本地 ASR 转写、抽帧 OCR；支持 b23.tv 短链与 av 号，抽帧缓存目录可换。本地跑不上传、内容一致性检查、二次读瞬时、为 AI 设计落盘+摘要。",
+        "author": "Sacredbluedragon",
+        "homepage": "https://github.com/Sacredbluedragon/dsh-bili-watch#readme",
+        "repository": {
+          "url": "https://github.com/Sacredbluedragon/dsh-bili-watch"
+        },
+        "metadata": {
+          "keywords": [
+            "bilibili",
+            "video",
+            "asr",
+            "ocr",
+            "danmaku",
+            "dsh",
+            "deepseek",
+            "subtitles"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.12",
+            "publishTimestamp": 1794748389,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "33b381a0916d0379a561bfb35433fcfc15a90ca7d965ce8d8cdfd48a93cd00a7",
+      "evidence": [
+        {
+          "name": "dsh-bili-watch",
+          "version": "0.4.12",
+          "tarball": "https://registry.npmjs.org/dsh-bili-watch/-/dsh-bili-watch-0.4.12.tgz",
+          "integrity": "sha512-5bl68Gpq6qZ3UOAaFC1j1wL4MX4FmDwYm3n0QlwtrpvMNmBB8m/I03RUjD82Njmiq/hNSdpBQ+YDogyIc8pyBw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-bili-watch",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/NeoHotaru/dsh-knowledge-canvas",
-    "commit": "b14f1ea26af5a4edfc5fa1e414f48ba7e320a425",
-    "releaseTags": 7,
+    "url": "https://github.com/Sacredbluedragon/dsh-bili-watch",
+    "commit": "cee80fd100cc112ad6beccf4ad6d12aa7a0c88d9",
+    "releaseTags": 53,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:22:45.185Z"
+  "finishedAt": "2026-11-16T05:29:53.451Z"
 }

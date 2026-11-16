@@ -1,35 +1,25 @@
 {
-  "full_name": "NEETnina/dsh-model-master",
+  "full_name": "RestRegular/dsh-memory",
   "originalPosition": 162,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 162,
   "batch": 1,
-  "stargazers_count": 20,
-  "startedAt": "2026-11-16T05:22:31.536Z",
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T05:29:39.743Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "fa11f1d9bd725816b724c324ae4390d42a667a1a23271ee1cca5d9593e8e9ff8",
-      "url": "https://github.com/NEETnina/dsh-model-master/blob/28b010e5fbce008e8634401909299c74634d0237/README.md",
+      "sha256": "e00e683fced4b3ecac800777d56819d16001dae28f039f60c7233325fcfd8531",
+      "url": "https://github.com/RestRegular/dsh-memory/blob/5557303d5f2d66860dc280195830de75817c0b7f/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-model-master",
-          "command": "dsh plugin --profile web add dsh-model-master",
-          "profile": "web"
-        },
-        {
-          "install": "dsh-model-master",
-          "command": "dsh plugin --profile <your-profile> add dsh-model-master",
-          "profile": "default"
-        },
-        {
-          "install": "https://github.com/NEETnina/dsh-model-master",
-          "command": "dsh plugin --profile web add github:NEETnina/dsh-model-master",
+          "install": "@restregular/dsh-memory",
+          "command": "dsh plugin --profile web add @restregular/dsh-memory",
           "profile": "web"
         }
       ]
@@ -38,126 +28,90 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-model-master",
-      "version": "1.1.2",
+      "name": "@restregular/dsh-memory",
+      "version": "0.34.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/NEETnina/dsh-model-master",
-        "commit": "28b010e5fbce008e8634401909299c74634d0237"
+        "url": "https://github.com/RestRegular/dsh-memory",
+        "commit": "5557303d5f2d66860dc280195830de75817c0b7f"
       },
-      "manifestSha256": "b77e6e1f89892113ab06459ec2635765fb59c24ca3f211558a452eb1a4112f26",
-      "manifestUrl": "https://github.com/NEETnina/dsh-model-master/blob/28b010e5fbce008e8634401909299c74634d0237/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": ">=0.2.0 <0.3.0",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true,
-      "plugin": {
-        "name": "dsh-model-master",
-        "versions": [
-          {
-            "version": "1.1.2",
-            "publishTimestamp": 1793451778,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/NEETnina/dsh-model-master",
-              "commit": "28b010e5fbce008e8634401909299c74634d0237"
-            },
-            "engines": {
-              "dsh": ">=0.2.0 <0.3.0"
-            }
-          }
-        ]
-      }
+      "manifestSha256": "049607ef1820c795ce253d624bf13116022c81356778a6f48df7c1e82531e4e7",
+      "manifestUrl": "https://github.com/RestRegular/dsh-memory/blob/5557303d5f2d66860dc280195830de75817c0b7f/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
     },
     {
-      "target": "dsh-model-master",
+      "target": "@restregular/dsh-memory",
       "origin": "npm",
-      "name": "dsh-model-master",
+      "name": "@restregular/dsh-memory",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "dsh-model-master",
-        "title": "dsh-model-master",
-        "description": "dsh-model-master（模型选择大师）for DeepSeek Harness — 15-language UI (top-15 world languages) — 保留 DSH 原生模型按钮与菜单，在原版狭小下拉列表即将弹出时无缝接管为 Spotlight 大面板。集成 TTFT/TPS 流式测速（失败如实展示、绝不编造数据）、原生渠道分组、⚡ 智能优选、全球百强榜（点击行搜本机渠道）；内置推理档位 FX（官方菜单推理等级行滑条 + 档位切换芯片能量闪动）；原生模型位被其它插件占用时自动出现工具行备用入口（防顶掉）。",
-        "author": "NEETnina",
-        "homepage": "https://github.com/NEETnina/dsh-model-master#readme",
+        "name": "@restregular/dsh-memory",
+        "title": {
+          "en": "Memory System",
+          "zh": "记忆系统"
+        },
+        "description": {
+          "en": "Local memory system: automatic recall, hard rules, seven memory tools (including proactive blocking and scope archiving), JSONL storage and local vector search.",
+          "zh": "本地记忆系统：自动召回、硬性规则、七个记忆工具（含主动屏蔽与作用域归档），JSONL 落盘 + 本地向量检索。"
+        },
         "repository": {
-          "url": "https://github.com/NEETnina/dsh-model-master"
+          "url": "https://github.com/RestRegular/dsh-memory",
+          "directory": "packages/dsh-memory"
         },
         "metadata": {
           "keywords": [
-            "deepseek",
-            "deepseek-harness",
-            "dsh",
             "dsh-plugin",
-            "dsh-plugins",
-            "model-selector",
-            "model-picker",
-            "model-switcher",
-            "llm",
-            "llm-tools",
-            "speed-test",
-            "latency-benchmark",
-            "ttft",
-            "tps",
-            "llm-benchmark",
-            "benchmark",
-            "leaderboard",
-            "openrouter",
-            "artificial-analysis",
-            "spotlight",
-            "i18n"
+            "deepseek-harness",
+            "memory",
+            "bge-m3",
+            "embeddings",
+            "recall",
+            "panel"
           ]
         },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxODAgMTgwIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjE4MCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLmqKHlnovpgInmi6nlpKfluIgiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMTgwIiB5Mj0iMTgwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzYzNjZGMSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwRUE1RTkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiByeD0iNDAiIGZpbGw9InVybCgjYmcpIi8+CiAgPCEtLSBNIOeahOWbm+eslO+8m+S4reWkriBWIOWQkeS4i+W7tuWHuuaIkOeureWktO+8jOS4gOS4quW9oueKtuS4pOenjeivu+azlSAtLT4KICA8ZyBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICA8cGF0aCBkPSJNNDggMTMwIFY1OCIvPgogICAgPHBhdGggZD0iTTQ4IDU4IEw5MCAxMDYiLz4KICAgIDxwYXRoIGQ9Ik05MCAxMDYgTDEzMiA1OCIvPgogICAgPHBhdGggZD0iTTEzMiA1OCBWMTMwIi8+CiAgPC9nPgogIDxwYXRoIGQ9Ik03OSAxMDAgTDkwIDE1MCBMMTAxIDEwMCBaIiBmaWxsPSIjRkZGRkZGIi8+Cjwvc3ZnPg==",
+        "icon": "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzYgMzYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPCEtLQogICAg6K6w5b+G57O757uf5Zu+5qCHOuW5tOi9ruOAggoKICAgIOiusOW/huaYr+aXtumXtOe0r+enr+WHuuadpeeahOS4nOilvyDigJTigJQg5LiA5ZyI5LiA5ZyI6ZW/5Ye65p2l55qE5bm06L2uLOavlCLlhoXlrZjmnaEv6Iqv54mHIuabtOi0tAogICAgIumVv+acnyI76YeR6Imy5bm06L2u5Y6L5Zyo5rex5ZKW5bqV5LiKLOWDj+S4gOaemuWwgeicoeWNsOeroOOAgumFjeiJsuWIu+aEj+mBv+W8gOaPkuS7tuWIl+ihqOmHjOWkp+mHjwogICAg5Ye6546w55qE6JOd6ImyIC8g55m95bqVOua3seWSliAjM0IyRDIwIOKGkiAjMTIwRTBBICsg6aaZ5qef6YeRICNGOEUyQjQg4oaSICNCRjgyMzDjgIIKCiAgICDmsr/nlKjlrr/kuLvmj5Lku7bnvo7mnK/nmoTop4TojIM6MzbDlzM2IOeUu+W4g+OAgeWGhee8qSA0IOeahCAyOMOXMjgg5ZyG6KeS55Om54mHKHJ4IDgpOwogICAg5LiN5YaZ5q27IHdpZHRoL2hlaWdodCzmmL7npLrlsLrlr7jkuqTnu5nmtojotLnmlrko5o+S5Lu2566h55CG5Zmo6KGMIDMwIC8g5Y2h54mHIDM2KeOAggogICAg6K6w5Y+35piv5LiA5p2hIDIuNTUg5o+P6L6555qE6J665peLLOeUqCA3IOauteWchuW8p+i/keS8vCjogIzkuI3mmK/lh6Dnmb7kuKrngrnnmoTmipjnur8pOgogICAgMzBweCDkuIvlsLHmmK/kuIDmnaHlrozmlbTnmoTnur8sMTI4cHgg5LiL5Lmf5LiN6Zyy5oqY6KeS44CC5aSW5ZyI5YaN5Y6L5LiA5ZyIIDAuOXB4IOeahAogICAg5pqW6YeR5YaF6L65LOa3seiJsuW6leS4jeS8muaVtOS4queziuaIkOm7keaWueWdl+OAggoKICAgIOaUueWQjSAvIOaNoumFjeiJsuaXtueahOaKpOagjzrlm77moIflv4XpobvmmK/ljIXlhoXmlofku7bjgIFTVkcvUE5HL0pQRUcvV2ViUOOAgeKJpDI1NiBLaUIKICAgICjlrr/kuLsgcmVhZFBsdWdpbk1ldGEg55qE6K+75Y+W5p2h5Lu2KSzop4Egc291cmNlL21lbW9yeS1wbHVnaW4vdGVzdC9wYWNrYWdlZC1hcnRpZmFjdC50ZXN0LnRz44CCCiAgLS0+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjI4IiByeD0iOCIgZmlsbD0idXJsKCNtZW1vcnlfdGlsZSkiIC8+CiAgPHJlY3QgeD0iNC40NSIgeT0iNC40NSIgd2lkdGg9IjI3LjEiIGhlaWdodD0iMjcuMSIgcng9IjcuNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDI0MCwyMDAsMTQwLDAuMjApIiBzdHJva2Utd2lkdGg9IjAuOSIgLz4KICA8cGF0aCBkPSJNMTguOTkgMTYuNzUgQTIuMTkgMi4xOSAwIDAgMSAxOS45OSAxOS45NSBBMy4zOCAzLjM4IDAgMCAxIDE0Ljk0IDIwLjUzIEE0LjU2IDQuNTYgMCAwIDEgMTUuMTUgMTMuNzEgQTUuNzQgNS43NCAwIDAgMSAyMy42MSAxNS4wNyBBNi45MiA2LjkyIDAgMCAxIDIwLjc2IDI0Ljk5IEE4LjExIDguMTEgMCAwIDEgOS42MiAyMC4zMyIgc3Ryb2tlPSJ1cmwoI21lbW9yeV9yaW5nKSIgc3Ryb2tlLXdpZHRoPSIyLjU1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9Im1lbW9yeV90aWxlIiB4MT0iMTgiIHkxPSI0IiB4Mj0iMTgiIHkyPSIzMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjM0IyRDIwIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxMjBFMEEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJtZW1vcnlfcmluZyIgeDE9IjE4IiB5MT0iOSIgeDI9IjE4IiB5Mj0iMjciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0Y4RTJCNCIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjQkY4MjMwIiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
         "versions": [
           {
-            "version": "1.1.2",
-            "publishTimestamp": 1793447554,
+            "version": "0.34.0",
+            "publishTimestamp": 1794787966,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.0 <0.3.0"
             }
           }
         ]
       },
-      "registrySha256": "99083ce3dccabb6164aba71874d570261cf7e69fab9aa72daf0b62e230f7096a",
+      "registrySha256": "e1fde9399ed98c02787b47cedf5ebdb2c867bdfa954fdc8181cf915dc57593a7",
       "evidence": [
         {
-          "name": "dsh-model-master",
-          "version": "1.1.2",
-          "tarball": "https://registry.npmjs.org/dsh-model-master/-/dsh-model-master-1.1.2.tgz",
-          "integrity": "sha512-5ByGXK+5Op5ZScHCg4seR7d9x6S6tREHkzerIbNq6IpSOHaQ2y6ObN/G+zWZTSHAClT66TtVc6D14lom3O9DDA=="
+          "name": "@restregular/dsh-memory",
+          "version": "0.34.0",
+          "tarball": "https://registry.npmjs.org/@restregular/dsh-memory/-/dsh-memory-0.34.0.tgz",
+          "integrity": "sha512-bN1pEzKhKcJ1urHZ5yh6qpFHdlzYCHKnq41caqEp61BOkZnD2eXCIc4ydJ7rFoFTLoBiZXVI+7jSAI/9dncafA=="
         }
       ],
       "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-model-master",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    },
-    {
-      "code": "documented_target_not_mapped",
-      "target": "https://github.com/NEETnina/dsh-model-master",
+      "target": "@restregular/dsh-memory",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/NEETnina/dsh-model-master",
-    "commit": "28b010e5fbce008e8634401909299c74634d0237",
-    "releaseTags": 4,
+    "url": "https://github.com/RestRegular/dsh-memory",
+    "commit": "5557303d5f2d66860dc280195830de75817c0b7f",
+    "releaseTags": 101,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:22:40.614Z"
+  "finishedAt": "2026-11-16T05:29:49.477Z"
 }

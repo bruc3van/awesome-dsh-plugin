@@ -1,26 +1,26 @@
 {
-  "full_name": "KinGao294/dsh-skin",
+  "full_name": "ZelinW1/dsh-cosplay",
   "originalPosition": 182,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 182,
   "batch": 1,
-  "stargazers_count": 18,
-  "startedAt": "2026-11-16T05:23:10.356Z",
+  "stargazers_count": 16,
+  "startedAt": "2026-11-16T05:30:30.633Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "2cd676d8e7c07c5e7126c6e3be1a0b826abf519e496c2bc4bca8dabe662bd653",
-      "url": "https://github.com/KinGao294/dsh-skin/blob/0a571a27adcc5f780b7b72386c9c294243eec5b3/README.md",
+      "sha256": "1ae69a1bea20522414cf607f013d308dc27ed3e0ea204cbdd9194ac7a0d63f02",
+      "url": "https://github.com/ZelinW1/dsh-cosplay/blob/11a7245e801d5f5b4b5b0d7fbfff3c29fcccf2bd/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "@yourscope/dsh-skin",
-          "command": "dsh plugin --profile web add -w @yourscope/dsh-skin",
-          "profile": "web"
+          "install": "dsh-cosplay",
+          "command": "dsh plugin --profile <profile> add dsh-cosplay",
+          "profile": "default"
         }
       ]
     }
@@ -28,60 +28,103 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-skin",
-      "version": "0.4.0",
+      "name": "dsh-cosplay",
+      "version": "0.5.1",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/KinGao294/dsh-skin",
-        "commit": "0a571a27adcc5f780b7b72386c9c294243eec5b3"
+        "url": "https://github.com/ZelinW1/dsh-cosplay",
+        "commit": "11a7245e801d5f5b4b5b0d7fbfff3c29fcccf2bd"
       },
-      "manifestSha256": "d6299142b3872305aeb8c24f66d4d37e7a55a87de48bab9cdd493e5223a7a519",
-      "manifestUrl": "https://github.com/KinGao294/dsh-skin/blob/0a571a27adcc5f780b7b72386c9c294243eec5b3/package.json",
+      "manifestSha256": "28f515ab4b2e94cf4c19085e48c04f6780b80197d33ebbe409697fbf88569bdc",
+      "manifestUrl": "https://github.com/ZelinW1/dsh-cosplay/blob/11a7245e801d5f5b4b5b0d7fbfff3c29fcccf2bd/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.1.0-rc.6",
+      "declaredRange": "^0.2.0-rc.2",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-skin",
+        "name": "dsh-cosplay",
         "versions": [
           {
-            "version": "0.4.0",
-            "publishTimestamp": 1787052204,
+            "version": "0.5.1",
+            "publishTimestamp": 1791265694,
             "source": {
               "type": "git",
-              "url": "https://github.com/KinGao294/dsh-skin",
-              "commit": "0a571a27adcc5f780b7b72386c9c294243eec5b3"
+              "url": "https://github.com/ZelinW1/dsh-cosplay",
+              "commit": "11a7245e801d5f5b4b5b0d7fbfff3c29fcccf2bd"
             },
             "engines": {
-              "dsh": "^0.1.0-rc.6"
+              "dsh": "^0.2.0-rc.2"
             }
           }
         ]
       }
     },
     {
-      "target": "@yourscope/dsh-skin",
+      "target": "dsh-cosplay",
       "origin": "npm",
-      "status": "source_not_found",
-      "reason": "npm registry 404"
+      "name": "dsh-cosplay",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-cosplay",
+        "title": "dsh-cosplay",
+        "description": "Cosplay mode for DeepSeek Harness: a global switch turns the agent into any character you define, with a settings UI for role configuration and management.",
+        "repository": {
+          "url": "https://github.com/ZelinW1/dsh-cosplay"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cosplay",
+            "roleplay",
+            "persona",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1791265838,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a9eefc3a6c65b6ae47b60a2e47ae5cd085bb28a8a57ad1309d4c79a4c2b5bc18",
+      "evidence": [
+        {
+          "name": "dsh-cosplay",
+          "version": "0.5.1",
+          "tarball": "https://registry.npmjs.org/dsh-cosplay/-/dsh-cosplay-0.5.1.tgz",
+          "integrity": "sha512-Q7Bxn1cUfTETLdiUkB1VK7UP0F2ciWUPO2oCf7iOTtTiDgnKf9TO7/GyXqJeJ8hqOZr6HhSVpeouNT/ULM273Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "@yourscope/dsh-skin",
+      "target": "dsh-cosplay",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/KinGao294/dsh-skin",
-    "commit": "0a571a27adcc5f780b7b72386c9c294243eec5b3",
-    "releaseTags": 0,
+    "url": "https://github.com/ZelinW1/dsh-cosplay",
+    "commit": "11a7245e801d5f5b4b5b0d7fbfff3c29fcccf2bd",
+    "releaseTags": 1,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:23:18.073Z"
+  "finishedAt": "2026-11-16T05:30:38.489Z"
 }

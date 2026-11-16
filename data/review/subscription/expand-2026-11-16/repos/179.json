@@ -1,25 +1,25 @@
 {
-  "full_name": "wee-b/disk-sentinel",
+  "full_name": "Miyazawai/dsh-client-pricing",
   "originalPosition": 179,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 179,
   "batch": 1,
-  "stargazers_count": 19,
-  "startedAt": "2026-11-16T05:23:03.347Z",
+  "stargazers_count": 16,
+  "startedAt": "2026-11-16T05:30:26.949Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "23c6e90cd83634953a20dad3a7f4d5ea0aedeac3cae4b72bcd7d38ebca985dd6",
-      "url": "https://github.com/wee-b/disk-sentinel/blob/e6e8c051e3be54cc409d8897ea7020a3c0d1f203/README.md",
+      "sha256": "997eb2a5f278eb05087000f1d5e2d71c605ee2498dfc348bb6985652aea0440f",
+      "url": "https://github.com/Miyazawai/dsh-client-pricing/blob/32abdf803c339dab06b9e46c6a31349e5221b2ed/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "git+https://github.com/wee-b/disk-sentinel.git",
-          "command": "dsh plugin --profile web add git+https://github.com/wee-b/disk-sentinel.git",
+          "install": "dsh-client-pricing",
+          "command": "dsh plugin --profile web add dsh-client-pricing",
           "profile": "web"
         }
       ]
@@ -27,55 +27,48 @@
   ],
   "candidates": [
     {
-      "origin": "repository_discovery",
-      "name": "@dsh-plugin/disk-sentinel",
-      "version": "0.1.1",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/wee-b/disk-sentinel",
-        "commit": "e6e8c051e3be54cc409d8897ea7020a3c0d1f203"
-      },
-      "manifestSha256": "28b55da92bf9530ccecf4df7ceffb6c81393bd6e22e92623f3577703f1106b65",
-      "manifestUrl": "https://github.com/wee-b/disk-sentinel/blob/e6e8c051e3be54cc409d8897ea7020a3c0d1f203/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": "^0.1.1-rc.2 || 0.1.5-rc.2 || 0.2.0-rc.2",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
-      "plugin": {
-        "name": "@dsh-plugin/disk-sentinel",
-        "versions": [
-          {
-            "version": "0.1.1",
-            "publishTimestamp": 1790842097,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/wee-b/disk-sentinel",
-              "commit": "e6e8c051e3be54cc409d8897ea7020a3c0d1f203"
-            },
-            "engines": {
-              "dsh": "^0.1.1-rc.2 || 0.1.5-rc.2 || 0.2.0-rc.2"
-            }
-          }
-        ]
-      }
+      "target": "dsh-client-pricing",
+      "origin": "npm",
+      "name": "dsh-client-pricing",
+      "version": "0.1.0",
+      "code": "not_dsh_bundle",
+      "status": "invalid_manifest",
+      "reason": "not a declared DSH bundle",
+      "statusCode": "not_dsh_bundle",
+      "registrySha256": "2cb659be30ae109d04e3933872bd553c01c83190e87c6d6658e33fac155064d2"
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "git+https://github.com/wee-b/disk-sentinel.git",
+      "target": "dsh-client-pricing",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/wee-b/disk-sentinel",
-    "commit": "e6e8c051e3be54cc409d8897ea7020a3c0d1f203",
+    "url": "https://github.com/Miyazawai/dsh-client-pricing",
+    "commit": "32abdf803c339dab06b9e46c6a31349e5221b2ed",
     "releaseTags": 1,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:23:10.356Z"
+  "rootManifest": {
+    "name": "dsh-client-pricing",
+    "version": "0.1.0",
+    "dsh": {
+      "client": {
+        "inject": [
+          "@deepseek-ai/dsh-client-locale",
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-ui-conversation",
+          "@deepseek-ai/dsh-client-ui-model-selection"
+        ],
+        "platform": "web"
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:30:35.193Z"
 }

@@ -1,39 +1,39 @@
 {
-  "full_name": "Ghost011118/dsh-balance-meter",
+  "full_name": "Letter2025/dsh-tool-search",
   "originalPosition": 199,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 199,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:23:40.764Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:31:07.111Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "48537be8d6ef603c9f7b3838138012c2085e2af0d72254b74f1cdb1856feacbe",
-      "url": "https://github.com/Ghost011118/dsh-balance-meter/blob/1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11/README.md",
+      "sha256": "5fe12f59a486a354053b26e6875ff848548c8acbe0a70f0039e9e9ba4f6a4200",
+      "url": "https://github.com/Letter2025/dsh-tool-search/blob/bb79135c5fcc5ae742badc2ef1b5c2432d7b02fa/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/Ghost011118/dsh-balance-meter",
-          "command": "dsh plugin --profile web add https://github.com/Ghost011118/dsh-balance-meter",
+          "install": "dsh-tool-search",
+          "command": "dsh plugin --profile web add dsh-tool-search",
           "profile": "web"
         }
       ]
     },
     {
       "path": "README.zh.md",
-      "sha256": "af48d2eab7323cb0cf9aa21fb2867c69b44a04fde9dd3840dfa16a9e6d682073",
-      "url": "https://github.com/Ghost011118/dsh-balance-meter/blob/1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11/README.zh.md",
+      "sha256": "05306add8d51da21d6d8ec2dccef751cc452a29a996af92a0b1d96ffbf430f80",
+      "url": "https://github.com/Letter2025/dsh-tool-search/blob/bb79135c5fcc5ae742badc2ef1b5c2432d7b02fa/README.zh.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/Ghost011118/dsh-balance-meter",
-          "command": "dsh plugin --profile web add https://github.com/Ghost011118/dsh-balance-meter",
+          "install": "dsh-tool-search",
+          "command": "dsh plugin --profile web add dsh-tool-search",
           "profile": "web"
         }
       ]
@@ -42,54 +42,125 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-balance-meter",
-      "version": "0.1.0",
+      "name": "dsh-tool-search",
+      "version": "0.1.10",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/Ghost011118/dsh-balance-meter",
-        "commit": "1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11"
+        "url": "https://github.com/Letter2025/dsh-tool-search",
+        "commit": "bb79135c5fcc5ae742badc2ef1b5c2432d7b02fa"
       },
-      "manifestSha256": "261cd26e1a6f0d5acc6f1181d673eb953a2b4463b32df4545e709e2931dcad78",
-      "manifestUrl": "https://github.com/Ghost011118/dsh-balance-meter/blob/1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11/package.json",
+      "manifestSha256": "94fee29b88b2e95f7b77742d01e2bec0a78110562d9f294fcbd5695c02403332",
+      "manifestUrl": "https://github.com/Letter2025/dsh-tool-search/blob/bb79135c5fcc5ae742badc2ef1b5c2432d7b02fa/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.1.0-rc.6",
+      "declaredRange": "^0.2.1-rc.4 || ^0.2.2-alpha.2 || ^0.2.2-rc.1",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "dsh-balance-meter",
+        "name": "dsh-tool-search",
         "versions": [
           {
-            "version": "0.1.0",
-            "publishTimestamp": 1787225648,
+            "version": "0.1.10",
+            "publishTimestamp": 1793849458,
             "source": {
               "type": "git",
-              "url": "https://github.com/Ghost011118/dsh-balance-meter",
-              "commit": "1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11"
+              "url": "https://github.com/Letter2025/dsh-tool-search",
+              "commit": "bb79135c5fcc5ae742badc2ef1b5c2432d7b02fa"
             },
             "engines": {
-              "dsh": "^0.1.0-rc.6"
+              "dsh": "^0.2.1-rc.4 || ^0.2.2-alpha.2 || ^0.2.2-rc.1"
             }
           }
         ]
       }
+    },
+    {
+      "target": "dsh-tool-search",
+      "origin": "npm",
+      "name": "dsh-tool-search",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-tool-search",
+        "title": "dsh-tool-search",
+        "description": "Tool search & slimming for DeepSeek Harness: Hermes-style progressive disclosure — search, describe, and call long-tail tools on demand while keeping core tools eager",
+        "author": "Letter2025",
+        "homepage": "https://github.com/Letter2025/dsh-tool-search",
+        "repository": {
+          "url": "https://github.com/Letter2025/dsh-tool-search"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "tool-search",
+            "tool-slimming",
+            "hermes",
+            "semantic-search",
+            "rerank",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.10",
+            "publishTimestamp": 1793857744,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.4 || ^0.2.2-alpha.2 || ^0.2.2-rc.1"
+            }
+          },
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1792562060,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c4333af24eb98122950dc93c9d168a646b3bf72f9e3318e03b235bedd6bed01b",
+      "evidence": [
+        {
+          "name": "dsh-tool-search",
+          "version": "0.1.10",
+          "tarball": "https://registry.npmjs.org/dsh-tool-search/-/dsh-tool-search-0.1.10.tgz",
+          "integrity": "sha512-Y6SE5cFGi8QJrtKG76ifonwhHJTNmK8Yqbnevs44kw5JM5QTpAlcnl2rsCLfLPc3y6a3suY+KdZN9IbByIJU1Q=="
+        },
+        {
+          "name": "dsh-tool-search",
+          "version": "0.1.8",
+          "tarball": "https://registry.npmjs.org/dsh-tool-search/-/dsh-tool-search-0.1.8.tgz",
+          "integrity": "sha512-/SJdI5Kx1LEgj+cGQ72X1QfvTtU2Tiqqr0+6SrUSBHMnAvf3X6xkbzm1fVwHnicZt6Mi2kRLvpNy1aXORIV4vQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "https://github.com/Ghost011118/dsh-balance-meter",
+      "target": "dsh-tool-search",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/Ghost011118/dsh-balance-meter",
-    "commit": "1a277e8eb9ee5ebbf8589e6bbb96bfe9ac282c11",
+    "url": "https://github.com/Letter2025/dsh-tool-search",
+    "commit": "bb79135c5fcc5ae742badc2ef1b5c2432d7b02fa",
     "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:23:49.757Z"
+  "finishedAt": "2026-11-16T05:31:17.016Z"
 }

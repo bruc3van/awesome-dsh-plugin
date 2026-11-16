@@ -1,147 +1,69 @@
 {
-  "full_name": "suntianc/dsh-codex-auth",
+  "full_name": "firecrawl/dsh-firecrawl",
   "originalPosition": 167,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 167,
   "batch": 1,
-  "stargazers_count": 20,
-  "startedAt": "2026-11-16T05:22:42.406Z",
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T05:29:53.652Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "d98bce87c8a582422596eb387e69ecdbbdaf850d2181ac465b4ee0e7c7ae2997",
-      "url": "https://github.com/suntianc/dsh-codex-auth/blob/6604d271a47a1cdf4d70b31c08af2e673ae536ba/README.md",
+      "sha256": "ab25f34f90f495c669b93936690626e2363aae57c058232f004d6ed0631c925c",
+      "url": "https://github.com/firecrawl/dsh-firecrawl/blob/2204a7ec9cbcf814601182de64204a6ce525b5ff/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-codex-auth@0.3.4-rc.2",
-          "command": "dsh plugin --profile web add dsh-codex-auth@0.3.4-rc.2",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.zh.md",
-      "sha256": "3c9adad6c62fe39e43add7d404afe38c29e3e57b051494050aa78ce5cf61fcaf",
-      "url": "https://github.com/suntianc/dsh-codex-auth/blob/6604d271a47a1cdf4d70b31c08af2e673ae536ba/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "dsh-codex-auth@0.3.4-rc.2",
-          "command": "dsh plugin --profile web add dsh-codex-auth@0.3.4-rc.2",
-          "profile": "web"
-        }
-      ]
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-codex-auth",
-      "version": "0.3.4-rc.2",
+      "name": "@firecrawl/dsh-firecrawl",
+      "version": "0.1.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/suntianc/dsh-codex-auth",
-        "commit": "6604d271a47a1cdf4d70b31c08af2e673ae536ba"
+        "url": "https://github.com/firecrawl/dsh-firecrawl",
+        "commit": "2204a7ec9cbcf814601182de64204a6ce525b5ff"
       },
-      "manifestSha256": "2299e52fe6a54866453193c284c1de982f68ada92ec0359efbd6d67bdcea981f",
-      "manifestUrl": "https://github.com/suntianc/dsh-codex-auth/blob/6604d271a47a1cdf4d70b31c08af2e673ae536ba/package.json",
+      "manifestSha256": "7c28f7c03813dda072f3401797f09c70882158eae24b5cf1bb3922f30fec9441",
+      "manifestUrl": "https://github.com/firecrawl/dsh-firecrawl/blob/2204a7ec9cbcf814601182de64204a6ce525b5ff/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.1 <0.3.0-0 0.2.1-rc.1 || >=0.2.1-rc.1 <0.3.0-0 0.2.1-rc.2",
+      "declaredRange": "0.1.0-rc.6",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "dsh-codex-auth",
+        "name": "@firecrawl/dsh-firecrawl",
         "versions": [
           {
-            "version": "0.3.4-rc.2",
-            "publishTimestamp": 1792236884,
+            "version": "0.1.0",
+            "publishTimestamp": 1786936797,
             "source": {
               "type": "git",
-              "url": "https://github.com/suntianc/dsh-codex-auth",
-              "commit": "6604d271a47a1cdf4d70b31c08af2e673ae536ba"
+              "url": "https://github.com/firecrawl/dsh-firecrawl",
+              "commit": "2204a7ec9cbcf814601182de64204a6ce525b5ff"
             },
             "engines": {
-              "dsh": ">=0.2.1-rc.1 <0.3.0-0 0.2.1-rc.1 || >=0.2.1-rc.1 <0.3.0-0 0.2.1-rc.2"
+              "dsh": "0.1.0-rc.6"
             }
           }
         ]
       }
-    },
-    {
-      "target": "dsh-codex-auth@0.3.4-rc.2",
-      "origin": "npm",
-      "name": "dsh-codex-auth",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-codex-auth",
-        "title": "dsh-codex-auth",
-        "description": "One DeepSeek Harness Codex capability bundle for ChatGPT login, LLM access, Web Search, and durable Image Creation",
-        "homepage": "https://github.com/suntianc/dsh-codex-auth#readme",
-        "repository": {
-          "url": "https://github.com/suntianc/dsh-codex-auth"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek-harness",
-            "dsh-plugin",
-            "codex",
-            "chatgpt",
-            "oauth",
-            "web-search",
-            "image-generation",
-            "context-compaction"
-          ]
-        },
-        "versions": [
-          {
-            "version": "0.3.4-rc.2",
-            "publishTimestamp": 1792237086,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.1-rc.1 <0.3.0-0 0.2.1-rc.1 || >=0.2.1-rc.1 <0.3.0-0 0.2.1-rc.2"
-            }
-          }
-        ]
-      },
-      "registrySha256": "5a90ea1d3a8b144d08d328485f382b414d34ee974d5e20a529549aff66283520",
-      "evidence": [
-        {
-          "name": "dsh-codex-auth",
-          "version": "0.3.4-rc.2",
-          "tarball": "https://registry.npmjs.org/dsh-codex-auth/-/dsh-codex-auth-0.3.4-rc.2.tgz",
-          "integrity": "sha512-V8ZzJudv62FJNt6XbDCD4jOplh3yg/LDQbSFniK9dxo/Eh9wq2CVowbiOXYGpE4IWf24nW8KFuqcxuxi6OO78Q=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "dsh-codex-auth@0.3.4-rc.2",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/suntianc/dsh-codex-auth",
-    "commit": "6604d271a47a1cdf4d70b31c08af2e673ae536ba",
-    "releaseTags": 17,
+    "url": "https://github.com/firecrawl/dsh-firecrawl",
+    "commit": "2204a7ec9cbcf814601182de64204a6ce525b5ff",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:22:52.208Z"
+  "finishedAt": "2026-11-16T05:30:01.056Z"
 }

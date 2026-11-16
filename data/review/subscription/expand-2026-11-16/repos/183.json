@@ -1,25 +1,25 @@
 {
-  "full_name": "Lphehe/dsh-composer-assist",
+  "full_name": "ash-qw/dsh-theme-prts",
   "originalPosition": 183,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 183,
   "batch": 1,
-  "stargazers_count": 18,
-  "startedAt": "2026-11-16T05:23:10.557Z",
+  "stargazers_count": 16,
+  "startedAt": "2026-11-16T05:30:31.786Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "90cd3fc45815e43c2609f0c0ff184aa61d4dc0af768ae867e7c8c6583a0b537e",
-      "url": "https://github.com/Lphehe/dsh-composer-assist/blob/2aef8fcdec18eff85c53893329360f2631b5f575/README.md",
+      "sha256": "03107b27a0a4d5e3ad174356c94b28a7bd6c1e0612fbb5530b4c972d576807d2",
+      "url": "https://github.com/ash-qw/dsh-theme-prts/blob/2576442647da5ed66bc84b4d0c757fa525b27df7/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/Lphehe/dsh-composer-assist/releases/download/v0.1.1/dsh-composer-assist.tgz",
-          "command": "dsh plugin --profile web add https://github.com/Lphehe/dsh-composer-assist/releases/download/v0.1.1/dsh-composer-assist.tgz",
+          "install": "@ash-qw/dsh-theme-prts",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @ash-qw/dsh-theme-prts",
           "profile": "web"
         }
       ]
@@ -28,57 +28,122 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-composer-assist",
-      "version": "0.1.1",
+      "name": "@ash-qw/dsh-theme-prts",
+      "version": "4.1.1",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/Lphehe/dsh-composer-assist",
-        "commit": "2aef8fcdec18eff85c53893329360f2631b5f575"
+        "url": "https://github.com/ash-qw/dsh-theme-prts",
+        "commit": "2576442647da5ed66bc84b4d0c757fa525b27df7"
       },
-      "manifestSha256": "cd623e29e4520f5eefa85ef304665969407fc383282b7e61a738c8c2005ab04b",
-      "manifestUrl": "https://github.com/Lphehe/dsh-composer-assist/blob/2aef8fcdec18eff85c53893329360f2631b5f575/package.json",
+      "manifestSha256": "ff120ecb56181310117e9bf38ea94c7fa1179fc0ecb9f26938cfb0d0765c1e65",
+      "manifestUrl": "https://github.com/ash-qw/dsh-theme-prts/blob/2576442647da5ed66bc84b4d0c757fa525b27df7/package.json",
       "status": "eligible_metadata",
-      "declaredRange": null,
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null,
+      "declaredRange": "0.2.2-rc.2 || 0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "dsh-composer-assist",
+        "name": "@ash-qw/dsh-theme-prts",
         "versions": [
           {
-            "version": "0.1.1",
-            "publishTimestamp": 1793715481,
+            "version": "4.1.1",
+            "publishTimestamp": 1794797336,
             "source": {
               "type": "git",
-              "url": "https://github.com/Lphehe/dsh-composer-assist",
-              "commit": "2aef8fcdec18eff85c53893329360f2631b5f575"
+              "url": "https://github.com/ash-qw/dsh-theme-prts",
+              "commit": "2576442647da5ed66bc84b4d0c757fa525b27df7"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.2 || 0.2.2-rc.3"
             }
           }
         ]
       }
     },
     {
-      "target": "https://github.com/Lphehe/dsh-composer-assist/releases/download/v0.1.1/dsh-composer-assist.tgz",
-      "status": "unsupported_source",
-      "code": "unsupported_tarball",
-      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+      "target": "@ash-qw/dsh-theme-prts",
+      "origin": "npm",
+      "name": "@ash-qw/dsh-theme-prts",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@ash-qw/dsh-theme-prts",
+        "title": "@ash-qw/dsh-theme-prts",
+        "description": "Unofficial Arknights P.R.T.S.-inspired UI theme for DeepSeek Harness Web and the official desktop client",
+        "homepage": "https://github.com/ash-qw/dsh-theme-prts#readme",
+        "repository": {
+          "url": "https://github.com/ash-qw/dsh-theme-prts"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "theme",
+            "ui",
+            "arknights",
+            "prts"
+          ]
+        },
+        "versions": [
+          {
+            "version": "4.1.1",
+            "publishTimestamp": 1794719102,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.2 || 0.2.2-rc.3"
+            }
+          },
+          {
+            "version": "2.7.2",
+            "publishTimestamp": 1793929371,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cfc6b231e7380412d47a3841b1515ce337697a2384a4d2ff647768d5d3e65d9f",
+      "evidence": [
+        {
+          "name": "@ash-qw/dsh-theme-prts",
+          "version": "4.1.1",
+          "tarball": "https://registry.npmjs.org/@ash-qw/dsh-theme-prts/-/dsh-theme-prts-4.1.1.tgz",
+          "integrity": "sha512-hi7YSpU+yEYKzz4SLe96gWz4StmEPJi5qiwdae5MoimptyJ5ZBJIEUEOAsDETY/gNNLnHWnw7jLW+fpJ+o/w9Q=="
+        },
+        {
+          "name": "@ash-qw/dsh-theme-prts",
+          "version": "2.7.2",
+          "tarball": "https://registry.npmjs.org/@ash-qw/dsh-theme-prts/-/dsh-theme-prts-2.7.2.tgz",
+          "integrity": "sha512-UjtRYZiW1UmmBFhV3U6gzxGhdL1G/M1OvmemfE6GYRgcH8TG0WpqPtU5v06EKi2MPX1TiAEqQpog4ZyLp3M/Fw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "https://github.com/Lphehe/dsh-composer-assist/releases/download/v0.1.1/dsh-composer-assist.tgz",
+      "target": "@ash-qw/dsh-theme-prts",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/Lphehe/dsh-composer-assist",
-    "commit": "2aef8fcdec18eff85c53893329360f2631b5f575",
-    "releaseTags": 1,
+    "url": "https://github.com/ash-qw/dsh-theme-prts",
+    "commit": "2576442647da5ed66bc84b4d0c757fa525b27df7",
+    "releaseTags": 53,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:23:19.740Z"
+  "finishedAt": "2026-11-16T05:30:45.259Z"
 }

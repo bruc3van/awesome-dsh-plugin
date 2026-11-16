@@ -1,31 +1,26 @@
 {
-  "full_name": "ItQianChen/dsh-github-flow",
+  "full_name": "pointylab/pointy",
   "originalPosition": 171,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 171,
   "batch": 1,
-  "stargazers_count": 19,
-  "startedAt": "2026-11-16T05:22:52.209Z",
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T05:30:06.612Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "e4c24cf31f01dddaeeb47dec956124ad025292cc7ecf5800d402dc7bcd330fb9",
-      "url": "https://github.com/ItQianChen/dsh-github-flow/blob/eba6c30fc3f272a7427b76aaf6f879780212fa7d/README.md",
+      "sha256": "5b6562d1f048edadf72ea194c845b18d4ae7553825beaabb52e6d834001f720a",
+      "url": "https://github.com/pointylab/pointy/blob/4265ab01fd700c88df5a73ab6e03d3376db1895e/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-github-flow",
-          "command": "dsh plugin --profile desktop add dsh-github-flow",
+          "install": "@pointylab/dsh",
+          "command": "dsh plugin --profile desktop add @pointylab/dsh",
           "profile": "desktop"
-        },
-        {
-          "install": "dsh-github-flow",
-          "command": "dsh plugin --profile web add dsh-github-flow",
-          "profile": "web"
         }
       ]
     }
@@ -33,63 +28,69 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-github-flow",
-      "version": "0.7.1",
-      "path": "",
+      "name": "@pointylab/dsh",
+      "version": "0.5.1",
+      "path": "plugin",
       "source": {
         "type": "git",
-        "url": "https://github.com/ItQianChen/dsh-github-flow",
-        "commit": "eba6c30fc3f272a7427b76aaf6f879780212fa7d"
+        "url": "https://github.com/pointylab/pointy",
+        "commit": "4265ab01fd700c88df5a73ab6e03d3376db1895e",
+        "path": "plugin"
       },
-      "manifestSha256": "677277c79c0dd5569aba660d23649987e3de96f39ddd17a35fab218dec318f59",
-      "manifestUrl": "https://github.com/ItQianChen/dsh-github-flow/blob/eba6c30fc3f272a7427b76aaf6f879780212fa7d/package.json",
+      "manifestSha256": "c1deb76f69d1eb9740ed323410080b1e0b2ba0e136072a48cca884520c40bba2",
+      "manifestUrl": "https://github.com/pointylab/pointy/blob/4265ab01fd700c88df5a73ab6e03d3376db1895e/plugin/package.json",
       "status": "eligible_metadata",
       "declaredRange": null,
       "compatibilityUnconstrained": true,
       "declaredCompatibleWithHost": null,
       "plugin": {
-        "name": "dsh-github-flow",
+        "name": "@pointylab/dsh",
         "versions": [
           {
-            "version": "0.7.1",
-            "publishTimestamp": 1793861466,
+            "version": "0.5.1",
+            "publishTimestamp": 1794632038,
             "source": {
               "type": "git",
-              "url": "https://github.com/ItQianChen/dsh-github-flow",
-              "commit": "eba6c30fc3f272a7427b76aaf6f879780212fa7d"
+              "url": "https://github.com/pointylab/pointy",
+              "commit": "4265ab01fd700c88df5a73ab6e03d3376db1895e",
+              "path": "plugin"
             }
           }
         ]
       }
     },
     {
-      "target": "dsh-github-flow",
+      "target": "@pointylab/dsh",
       "origin": "npm",
-      "name": "dsh-github-flow",
+      "name": "@pointylab/dsh",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "dsh-github-flow",
-        "title": "dsh-github-flow",
-        "description": "GitHub 工作流引擎：为 DeepSeek Harness 提供原生 GitHub CLI (gh) 集成——19 大 Agent 领域工具（PR 审查合并、Issue 任务流转、CI 失败诊断、发版交付、密钥管理、Agent Skills、标签与保护规则集、构建缓存治理、代码片段 Gist、跨仓待办大盘、Copilot 智能体调度、社区 Discussions、Projects v2 看板、云端 Codespaces、运行时遥测与自愈健康度）、/gh 人类快捷指令、Web UI 全景驾驶舱与一键跨平台自动升级；零凭证侵入复用宿主机 gh 登录态，内置 Token 防溢出截断、高危操作二次确认与密文安全输入通道。",
-        "author": "DSH Contributor",
-        "homepage": "https://github.com/ItQianChen/dsh-github-flow#readme",
+        "name": "@pointylab/dsh",
+        "title": {
+          "en": "Pointy",
+          "zh": "Pointy 指哪问哪"
+        },
+        "description": {
+          "en": "Shake the mouse, point at anything on screen and ask DSH. The answer appears in a small card right where you are.",
+          "zh": "晃一下鼠标，指住屏幕上的任何内容直接问 DSH，回答就在原地的小卡片里。"
+        },
+        "homepage": "https://github.com/pointylab/pointy#readme",
         "repository": {
-          "url": "https://github.com/ItQianChen/dsh-github-flow"
+          "url": "https://github.com/pointylab/pointy",
+          "directory": "plugin"
         },
         "metadata": {
           "keywords": [
             "dsh-plugin",
             "deepseek-harness",
-            "github",
-            "gh-cli",
-            "cordis"
+            "pointy"
           ]
         },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMyZWEwNDMiIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMWY2ZmViIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4OTU3ZTUiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGZpbHRlciBpZD0ic2hhZG93IiB4PSItMjAlIiB5PSItMjAlIiB3aWR0aD0iMTQwJSIgaGVpZ2h0PSIxNDAlIj4KICAgICAgPGZlRHJvcFNoYWRvdyBkeD0iMCIgZHk9IjQiIHN0ZERldmlhdGlvbj0iNiIgZmxvb2QtY29sb3I9IiMwMDAiIGZsb29kLW9wYWNpdHk9IjAuMyIgLz4KICAgIDwvZmlsdGVyPgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgcng9IjI4IiBmaWxsPSJ1cmwoI2JnR3JhZCkiIC8+CiAgPHJlY3Qgd2lkdGg9IjEyNiIgaGVpZ2h0PSIxMjYiIHg9IjEiIHk9IjEiIHJ4PSIyNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMikiIHN0cm9rZS13aWR0aD0iMiIgLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNCwgMjQpIHNjYWxlKDUpIiBmaWx0ZXI9InVybCgjc2hhZG93KSIgZmlsbD0iI2ZmZmZmZiI+CiAgICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTggMEMzLjU4IDAgMCAzLjU4IDAgOEMwIDExLjU0IDIuMjkgMTQuNTMgNS40NyAxNS41OUM1Ljg3IDE1LjY2IDYuMDIgMTUuNDIgNi4wMiAxNS4yMUM2LjAyIDE1LjAyIDYuMDEgMTQuMzkgNi4wMSAxMy43MkM0IDE0LjA5IDMuNDggMTMuMjMgMy4zMiAxMi43OEMzLjIzIDEyLjU1IDIuODQgMTEuODQgMi41IDExLjY1QzIuMjIgMTEuNSAxLjgyIDExLjEzIDIuNDkgMTEuMTJDMy4xMiAxMS4xMSAzLjU3IDExLjcgMy43MiAxMS45NEM0LjQ0IDEzLjE1IDUuNTkgMTIuODEgNi4wNSAxMi42QzYuMTIgMTIuMDggNi4zMyAxMS43MiA2LjU2IDExLjUyQzQuNzggMTEuMzIgMi45MiAxMC42MyAyLjkyIDcuNThDMi45MiA2LjcxIDMuMjMgNS45OSAzLjc0IDUuNDNDMy42NiA1LjIzIDMuMzggNC40MSAzLjgyIDMuMzFDMy44MiAzLjMxIDQuNDkgMy4xIDYuMDIgNC4xM0M2LjY2IDMuOTUgNy4zNCAzLjg2IDguMDIgMy44NkM4LjcgMy44NiA5LjM4IDMuOTUgMTAuMDIgNC4xM0MxMS41NSAzLjA5IDEyLjIyIDMuMzEgMTIuMjIgMy4zMUMxMi42NiA0LjQxIDEyLjM4IDUuMjMgMTIuMyA1LjQzQzEyLjgxIDUuOTkgMTMuMTIgNi43IDEzLjEyIDcuNThDMTMuMTIgMTAuNjUgMTEuMjUgMTEuMzIgOS40NyAxMS41MkM5Ljc2IDExLjc3IDEwLjAxIDEyLjI1IDEwLjAxIDEzQzEwLjAxIDE0LjA4IDEwIDE0Ljk1IDEwIDE1LjIxQzEwIDE1LjQyIDEwLjE1IDE1LjY3IDEwLjU1IDE1LjU5QzEzLjcxIDE0LjUzIDE2IDExLjUzIDE2IDhDMTYgMy41OCAxMi40MiAwIDggMFoiIC8+CiAgPC9nPgo8L3N2Zz4K",
+        "icon": "data:image/webp;base64,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",
         "versions": [
           {
-            "version": "0.7.1",
-            "publishTimestamp": 1793861616,
+            "version": "0.5.1",
+            "publishTimestamp": 1794529255,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
@@ -97,16 +98,27 @@
           }
         ]
       },
-      "registrySha256": "5faba1634154713def749277b5985817635422c6be52af3a9a31d1c6348167f8",
+      "registrySha256": "40854d4f2333b41564a610771bed21174723b982a7d781b449014738b26ffa66",
       "evidence": [
         {
-          "name": "dsh-github-flow",
-          "version": "0.7.1",
-          "tarball": "https://registry.npmjs.org/dsh-github-flow/-/dsh-github-flow-0.7.1.tgz",
-          "integrity": "sha512-JdTwlqpNx2XsLSkrUn0upGUSLknsNUy1F/NLUy88Gq0kc7LyQppPvJNadwyuKCduNx1mtxEe3NARS3e36XjSaQ=="
+          "name": "@pointylab/dsh",
+          "version": "0.5.1",
+          "tarball": "https://registry.npmjs.org/@pointylab/dsh/-/dsh-0.5.1.tgz",
+          "integrity": "sha512-QYnIFbFbLBerB8krqaj5+pgRtnNp0Zy5a4AVjNeg0sjabRkYZ+DOTkDj2oHZHzjkp1JyKkV9/x8kpltDZg3/EQ=="
         }
       ],
-      "diagnostics": [],
+      "diagnostics": [
+        {
+          "name": "@pointylab/dsh",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "bab593ee75685ceacdceb8440cd6b58bf068c87520e8ea776b47b2cc35088bbd",
+          "outputSha256": "746e95a0d341bf868ee3f0c308d83648658df8e8d9cee0d01523922c8fe9a07f",
+          "inputBytes": 59970,
+          "outputBytes": 2872
+        }
+      ],
       "compatibilityUnconstrained": true,
       "declaredCompatibleWithHost": null
     }
@@ -114,18 +126,18 @@
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-github-flow",
+      "target": "@pointylab/dsh",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/ItQianChen/dsh-github-flow",
-    "commit": "eba6c30fc3f272a7427b76aaf6f879780212fa7d",
-    "releaseTags": 17,
+    "url": "https://github.com/pointylab/pointy",
+    "commit": "4265ab01fd700c88df5a73ab6e03d3376db1895e",
+    "releaseTags": 2,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:23:03.345Z"
+  "finishedAt": "2026-11-16T05:31:14.598Z"
 }

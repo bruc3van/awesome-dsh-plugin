@@ -7,7 +7,7 @@
   "ordinal": 100,
   "batch": 1,
   "stargazers_count": 28,
-  "startedAt": "2026-11-16T05:20:11.909Z",
+  "startedAt": "2026-11-16T05:27:20.805Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
@@ -69,54 +69,6 @@
           }
         ]
       }
-    },
-    {
-      "target": "dsh-bigfish",
-      "origin": "npm",
-      "name": "dsh-bigfish",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-bigfish",
-        "title": "dsh-bigfish",
-        "description": "Adaptive DSH companion with replaceable, extensible character packs",
-        "homepage": "https://github.com/gosomea/dsh-bigfish#readme",
-        "repository": {
-          "url": "https://github.com/gosomea/dsh-bigfish"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek",
-            "deepseek-harness",
-            "dsh",
-            "virtual-pet",
-            "companion",
-            "skills",
-            "animation"
-          ]
-        },
-        "versions": [
-          {
-            "version": "0.6.0",
-            "publishTimestamp": 1791467395,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            }
-          }
-        ]
-      },
-      "registrySha256": "de857fc43586eeedb2f4a62970d065a44f85f3e852b9a078aa69d9601b7effaf",
-      "evidence": [
-        {
-          "name": "dsh-bigfish",
-          "version": "0.6.0",
-          "tarball": "https://registry.npmjs.org/dsh-bigfish/-/dsh-bigfish-0.6.0.tgz",
-          "integrity": "sha512-IEzM/+PPpuzHsf5i3aI8mMzF1cGlqSQrKXMHGatOijfVxxV6cLJkY1J/zazAB4ADHMZn+8AX3H4JbK8NzNCnpQ=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null
     }
   ],
   "mappingFindings": [
@@ -134,6 +86,11 @@
   "errors": [
     {
       "stage": "install_target",
+      "target": "dsh-bigfish",
+      "reason": "The operation was aborted due to timeout"
+    },
+    {
+      "stage": "install_target",
       "target": "dsh-bigfish@0.7.0-next.1",
       "reason": "The operation was aborted due to timeout"
     }
@@ -146,5 +103,5 @@
   },
   "discoveryWarnings": [],
   "outcome": "retry_required",
-  "finishedAt": "2026-11-16T05:22:21.745Z"
+  "finishedAt": "2026-11-16T05:29:30.291Z"
 }

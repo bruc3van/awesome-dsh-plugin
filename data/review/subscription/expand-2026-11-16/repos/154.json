@@ -1,47 +1,33 @@
 {
-  "full_name": "harrylabsj/kiwi",
+  "full_name": "takboo/dsh-coopanion",
   "originalPosition": 154,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 154,
   "batch": 1,
-  "stargazers_count": 21,
-  "startedAt": "2026-11-16T05:22:12.184Z",
+  "stargazers_count": 18,
+  "startedAt": "2026-11-16T05:29:14.967Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "7077d1101953d7623a0485c7b861e6ae5da99314ce3943cdb14ec9fd66306074",
-      "url": "https://github.com/harrylabsj/kiwi/blob/366ef681800322446db21bd1b510c1d810964508/README.md",
+      "sha256": "fcd16302ec43deb7d90a9466a2f3dfb9e0ccf3268af027934ed29cb83c6c5598",
+      "url": "https://github.com/takboo/dsh-coopanion/blob/ebc612b98302c7d8b1835fdccb3bc3abf4232f27/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "@harrylabsj/kiwi-dsh-plugin",
-          "command": "dsh plugin --profile web add @harrylabsj/kiwi-dsh-plugin",
-          "profile": "web"
+          "install": "@takboo/dsh-coopanion@0.4.24",
+          "command": "dsh plugin --profile desktop add @takboo/dsh-coopanion@0.4.24",
+          "profile": "desktop"
         }
       ]
     },
     {
-      "path": "integrations/plugins/kiwi-dsh-plugin/README.md",
-      "sha256": "92507ef122843e22fc16ebfa34b1d38d66cd088ac18136e9388160ade1a2f24d",
-      "url": "https://github.com/harrylabsj/kiwi/blob/366ef681800322446db21bd1b510c1d810964508/integrations/plugins/kiwi-dsh-plugin/README.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@harrylabsj/kiwi-dsh-plugin",
-          "command": "dsh plugin --profile web add @harrylabsj/kiwi-dsh-plugin",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "integrations/hosts/workbuddy/kiwi-sourcing/README.md",
-      "sha256": "29a4ad9a4e23d44e9436061513b1d16c4c6a1b09ee9aa4b3be8ae5eec367670c",
-      "url": "https://github.com/harrylabsj/kiwi/blob/366ef681800322446db21bd1b510c1d810964508/integrations/hosts/workbuddy/kiwi-sourcing/README.md",
+      "path": "docs/README.md",
+      "sha256": "243b59973ec0af8e37a43581a77d526757dfc4108581f2c9f48a8fd407514dd3",
+      "url": "https://github.com/takboo/dsh-coopanion/blob/ebc612b98302c7d8b1835fdccb3bc3abf4232f27/docs/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": []
@@ -50,86 +36,87 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@harrylabsj/kiwi-dsh-plugin",
-      "version": "0.1.4",
-      "path": "integrations/plugins/kiwi-dsh-plugin",
+      "name": "@takboo/dsh-coopanion",
+      "version": "0.4.24",
+      "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/harrylabsj/kiwi",
-        "commit": "366ef681800322446db21bd1b510c1d810964508",
-        "path": "integrations/plugins/kiwi-dsh-plugin"
+        "url": "https://github.com/takboo/dsh-coopanion",
+        "commit": "ebc612b98302c7d8b1835fdccb3bc3abf4232f27"
       },
-      "manifestSha256": "616feba7050fafd08c987761f1a78c6c7381a475f012d6220518e17c27ae106b",
-      "manifestUrl": "https://github.com/harrylabsj/kiwi/blob/366ef681800322446db21bd1b510c1d810964508/integrations/plugins/kiwi-dsh-plugin/package.json",
+      "manifestSha256": "be1f543709a78cafd478a737dc1c8c3776a9de57a31544887b91aad42e81d791",
+      "manifestUrl": "https://github.com/takboo/dsh-coopanion/blob/ebc612b98302c7d8b1835fdccb3bc3abf4232f27/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.1.0-rc.7 || >=0.2.1-rc.1 <0.3.0",
+      "declaredRange": "0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "@harrylabsj/kiwi-dsh-plugin",
+        "name": "@takboo/dsh-coopanion",
         "versions": [
           {
-            "version": "0.1.4",
-            "publishTimestamp": 1794722218,
+            "version": "0.4.24",
+            "publishTimestamp": 1794481441,
             "source": {
               "type": "git",
-              "url": "https://github.com/harrylabsj/kiwi",
-              "commit": "366ef681800322446db21bd1b510c1d810964508",
-              "path": "integrations/plugins/kiwi-dsh-plugin"
+              "url": "https://github.com/takboo/dsh-coopanion",
+              "commit": "ebc612b98302c7d8b1835fdccb3bc3abf4232f27"
             },
             "engines": {
-              "dsh": "^0.1.0-rc.7 || >=0.2.1-rc.1 <0.3.0"
+              "dsh": "0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2"
             }
           }
         ]
       }
     },
     {
-      "target": "@harrylabsj/kiwi-dsh-plugin",
+      "target": "@takboo/dsh-coopanion@0.4.24",
       "origin": "npm",
-      "name": "@harrylabsj/kiwi-dsh-plugin",
+      "name": "@takboo/dsh-coopanion",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "@harrylabsj/kiwi-dsh-plugin",
-        "title": "@harrylabsj/kiwi-dsh-plugin",
-        "description": "Kiwi Buyer plugin for DeepSeek Harness — kiwi-buyer-mcp as an MCP plugin + kiwi-buyer skill. Install: dsh plugin --profile web add @harrylabsj/kiwi-dsh-plugin",
-        "author": "harrylabsj",
+        "name": "@takboo/dsh-coopanion",
+        "title": {
+          "en": "Coopanion · Desk Pet Pal",
+          "zh": "Coopanion · 桌宠搭子"
+        },
+        "description": {
+          "en": "A desk pet that keeps you company while you work. Catch up on Harness replies and pending actions, then pick up the conversation from your desktop.",
+          "zh": "一只陪你工作的桌宠，帮你收好 Harness 的回复和待办，想接着聊时就在手边。"
+        },
+        "homepage": "https://github.com/takboo/dsh-coopanion#readme",
         "repository": {
-          "url": "https://github.com/harrylabsj/kiwi"
+          "url": "https://github.com/takboo/dsh-coopanion"
         },
         "metadata": {
           "keywords": [
-            "dsh",
             "dsh-plugin",
             "deepseek-harness",
-            "kiwi",
-            "commerce",
-            "sourcing",
-            "rfq",
-            "negotiation"
+            "desktop-pet",
+            "notifications"
           ]
         },
+        "icon": "data:image/png;base64,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",
         "versions": [
           {
-            "version": "0.1.4",
-            "publishTimestamp": 1794238525,
+            "version": "0.4.24",
+            "publishTimestamp": 1794481163,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
             },
             "engines": {
-              "dsh": "^0.1.0-rc.7 || >=0.2.1-rc.1 <0.3.0"
+              "dsh": "0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || 0.2.2-rc.1 || 0.2.2-rc.2"
             }
           }
         ]
       },
-      "registrySha256": "a202f961d6ce36ff25db6d33d21b1d62c138b60eda5f5eed6620debd0c8777b6",
+      "registrySha256": "0ebbf62e825c6dab58fdf08ed18f18ce4c94af17b3226fcc074f0315b9507db4",
       "evidence": [
         {
-          "name": "@harrylabsj/kiwi-dsh-plugin",
-          "version": "0.1.4",
-          "tarball": "https://registry.npmjs.org/@harrylabsj/kiwi-dsh-plugin/-/kiwi-dsh-plugin-0.1.4.tgz",
-          "integrity": "sha512-LjujKa/EkVv3y9KtD/YsBX5vaZNagiTkbgKOGryuMSUrbRXxZuHgXpYQfRoLBc9xVxCrEQ8+jugTbhWzfF52LA=="
+          "name": "@takboo/dsh-coopanion",
+          "version": "0.4.24",
+          "tarball": "https://registry.npmjs.org/@takboo/dsh-coopanion/-/dsh-coopanion-0.4.24.tgz",
+          "integrity": "sha512-YG7lwxQSySOXd4E5KkrI71a+gYwXTrm2I/DcNHxwmr6eSIXAlVEwcn5xsZF45CFcX4pq4uGwqvPeLoIbX4o6LQ=="
         }
       ],
       "diagnostics": [],
@@ -140,18 +127,18 @@
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "@harrylabsj/kiwi-dsh-plugin",
+      "target": "@takboo/dsh-coopanion@0.4.24",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/harrylabsj/kiwi",
-    "commit": "366ef681800322446db21bd1b510c1d810964508",
-    "releaseTags": 30,
+    "url": "https://github.com/takboo/dsh-coopanion",
+    "commit": "ebc612b98302c7d8b1835fdccb3bc3abf4232f27",
+    "releaseTags": 31,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:22:29.391Z"
+  "finishedAt": "2026-11-16T05:29:44.725Z"
 }

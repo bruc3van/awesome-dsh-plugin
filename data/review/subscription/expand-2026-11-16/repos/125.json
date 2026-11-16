@@ -1,82 +1,98 @@
 {
-  "full_name": "QuestMeet/questmeet-skill",
+  "full_name": "zebbkira/dsh-skills-mcp-manager",
   "originalPosition": 125,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 125,
   "batch": 1,
-  "stargazers_count": 24,
-  "startedAt": "2026-11-16T05:21:05.319Z",
+  "stargazers_count": 23,
+  "startedAt": "2026-11-16T05:28:11.299Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "674d7873f33ad5d592b2c5a92e01bcbeed34b5ae5df865007b8dcdd69c377730",
-      "url": "https://github.com/QuestMeet/questmeet-skill/blob/5ee04544ab23ca3433d0b3c0895afe5199447c94/README.md",
+      "sha256": "188943d788832802688a24e898d67d4e7238bd5f0274660956cded7e3957c8da",
+      "url": "https://github.com/zebbkira/dsh-skills-mcp-manager/blob/ab57b1c4265e13008b108de460a71680f3366223/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "@questmeet/questmeet-skill",
-          "command": "dsh plugin add @questmeet/questmeet-skill",
-          "profile": "default"
+          "install": "@zebbkira/dsh-skills-mcp-manager@0.2.0",
+          "command": "dsh plugin --profile web add @zebbkira/dsh-skills-mcp-manager@0.2.0",
+          "profile": "web"
         }
       ]
     }
   ],
   "candidates": [
     {
-      "target": "@questmeet/questmeet-skill",
-      "origin": "npm",
-      "name": "@questmeet/questmeet-skill",
+      "origin": "repository_discovery",
+      "name": "@zebbkira/dsh-skills-mcp-manager",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zebbkira/dsh-skills-mcp-manager",
+        "commit": "ab57b1c4265e13008b108de460a71680f3366223"
+      },
+      "manifestSha256": "d0702f2b821f312b9998c3db0f045224bda0df0cb5bca19787ae3e3f0a573626",
+      "manifestUrl": "https://github.com/zebbkira/dsh-skills-mcp-manager/blob/ab57b1c4265e13008b108de460a71680f3366223/package.json",
       "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "@questmeet/questmeet-skill",
-        "title": {
-          "en": "QuestMeet Skill",
-          "zh": "QuestMeet 技能"
-        },
-        "description": {
-          "en": "Connect your AI agent with the right people and their bots in the QuestMeet opportunity network.",
-          "zh": "让 AI 代理把用户连接到 QuestMeet 机会网络里合适的人或他们的机器人。"
-        },
-        "homepage": "https://questmeet.ai",
-        "repository": {
-          "url": "https://github.com/QuestMeet/questmeet-skill"
-        },
-        "metadata": {
-          "keywords": [
-            "deepseek-harness",
-            "dsh",
-            "skill",
-            "agent",
-            "networking",
-            "opportunity"
-          ]
-        },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM0ZjdjZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjN2I1Y2ZmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNCIgZmlsbD0idXJsKCNnKSIvPgogIDxjaXJjbGUgY3g9IjIyIiBjeT0iMjQiIHI9IjgiIGZpbGw9IiNmZmZmZmYiLz4KICA8Y2lyY2xlIGN4PSI0MiIgY3k9IjQwIiByPSI4IiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTI3IDI5IEwzNyAzNSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTM3IDM1IEwyNyA0MSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBvcGFjaXR5PSIwLjU1Ii8+Cjwvc3ZnPgo=",
+        "name": "@zebbkira/dsh-skills-mcp-manager",
         "versions": [
           {
-            "version": "3.1.1",
-            "publishTimestamp": 1794201755,
+            "version": "0.2.0",
+            "publishTimestamp": 1787463016,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zebbkira/dsh-skills-mcp-manager",
+              "commit": "ab57b1c4265e13008b108de460a71680f3366223"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@zebbkira/dsh-skills-mcp-manager@0.2.0",
+      "origin": "npm",
+      "name": "@zebbkira/dsh-skills-mcp-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@zebbkira/dsh-skills-mcp-manager",
+        "title": "@zebbkira/dsh-skills-mcp-manager",
+        "description": "Skills & MCP manager for the dsh web GUI: browse/enable/import/delete skills across project and user roots, and manage MCP servers with a REAL connection through @deepseek-ai/dsh-mcp-client (enabled servers connect and register their tools on ctx.tools; enable/disable actually connects/disconnects). Hot-pluggable — mounted via a profile bundle patch + node_modules symlink, no dsh source changes.",
+        "repository": {
+          "url": "https://github.com/zebbkira/dsh-skills-mcp-manager"
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787463049,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
             },
             "engines": {
-              "dsh": "0.2.2-rc.1"
+              "dsh": "^0.1.1-rc.2"
             }
           }
         ]
       },
-      "registrySha256": "5de812cc1d7fd8aa61ae6c4a2a9573812cd64452b15289fbfe7d36615cef4f17",
+      "registrySha256": "604eaa6a8f390d6cdf6f64b771bbf84ffbdc2e14944562430d3fc7b2b6661d8d",
       "evidence": [
         {
-          "name": "@questmeet/questmeet-skill",
-          "version": "3.1.1",
-          "tarball": "https://registry.npmjs.org/@questmeet/questmeet-skill/-/questmeet-skill-3.1.1.tgz",
-          "integrity": "sha512-p+TcvJQ5C1AqYC4RAEN4tORhwI7ZFzToEUsfCoPgDYXH0CT5P4X/+/Pjluq62C4DogTWNDabYcmn7bOFnmrUoA=="
+          "name": "@zebbkira/dsh-skills-mcp-manager",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/@zebbkira/dsh-skills-mcp-manager/-/dsh-skills-mcp-manager-0.2.0.tgz",
+          "integrity": "sha512-eNMl6wt8HZQxVcdTzbuT0LoiPjsW8C5hMW6AedEY2CUHhdhJ4VfoCh6JOTGt6HegsF/S9AP/XZjJyTHmk7CCxQ=="
         }
       ],
       "diagnostics": [],
@@ -87,24 +103,18 @@
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "@questmeet/questmeet-skill",
+      "target": "@zebbkira/dsh-skills-mcp-manager@0.2.0",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/QuestMeet/questmeet-skill",
-    "commit": "5ee04544ab23ca3433d0b3c0895afe5199447c94",
-    "releaseTags": 1,
+    "url": "https://github.com/zebbkira/dsh-skills-mcp-manager",
+    "commit": "ab57b1c4265e13008b108de460a71680f3366223",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "rootManifest": {
-    "name": null,
-    "version": null,
-    "dsh": null,
-    "engines": null
-  },
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:21:12.240Z"
+  "finishedAt": "2026-11-16T05:28:19.632Z"
 }

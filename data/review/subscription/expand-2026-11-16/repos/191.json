@@ -1,229 +1,272 @@
 {
-  "full_name": "hunmer/dsh-team-control",
+  "full_name": "openbkn-ai/bkn-dsh",
   "originalPosition": 191,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 191,
   "batch": 1,
-  "stargazers_count": 18,
-  "startedAt": "2026-11-16T05:23:24.710Z",
+  "stargazers_count": 16,
+  "startedAt": "2026-11-16T05:30:47.323Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "488d63732c59b228b429aa4f5e5917628dbdccca558999c31e227f9f3cb051d3",
-      "url": "https://github.com/hunmer/dsh-team-control/blob/3bbafd866777dd9097f2d03d3bb6e85aeead5b2b/README.md",
+      "sha256": "b710570e561bce6452a8960dc51a0d0415d429175d521cfd731bc863ad0ea221",
+      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-team-control",
-          "command": "dsh plugin --profile web add dsh-team-control",
-          "profile": "web"
-        },
-        {
-          "install": "dsh-team-control-ui",
-          "command": "dsh plugin --profile web add dsh-team-control-ui",
+          "install": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
+          "command": "dsh plugin --profile web add @openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
           "profile": "web"
         }
       ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "33258bd9ac1e84d5958d18e0905155591a8bbcafc5cc21b91ebe9f59071032df",
+      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
+          "command": "dsh plugin --profile web add @openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/openbkn-business-context/README.md",
+      "sha256": "d0762472f3f833603c66d643455da7176dd6042d6e705475f181259bb213563e",
+      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/packages/openbkn-business-context/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-2",
+          "command": "dsh plugin --profile <desktop|web> add @openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-2",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/user-guide/README.en.md",
+      "sha256": "911f634c8010b132df6f7b916db15aaf9166610015b2c0473fb4abdafa3c69a2",
+      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/docs/user-guide/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/user-guide/README.zh.md",
+      "sha256": "56eb4f00e55eb912e379c25f3554f09b4ece4f3764240741a3d66f62658a20e7",
+      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/docs/user-guide/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/evidence/2026-11-03-platform021-compat/README.zh.md",
+      "sha256": "af018a5e424a376e5be180d90094fa95e0ec8c04124e39500a47ae0d8202c62c",
+      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/docs/evidence/2026-11-03-platform021-compat/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "compat/dsh-0.2.0-rc.2/README.md",
+      "sha256": "f4f5b47dd33e69b2c3959a290bb9fa705a3479f1a315fe36a23655cff5287154",
+      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/compat/dsh-0.2.0-rc.2/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/openbkn-business-context/README.zh.md",
+      "sha256": "1bd46ac6dff9fdc41720a2fc594b01c8456196119cf9ba9cd50fb2b93b255cd5",
+      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/packages/openbkn-business-context/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-2",
+          "command": "dsh plugin --profile <desktop|web> add @openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-2",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "compat/dsh-0.2.0-rc.2/README.zh.md",
+      "sha256": "83c8c94316106bee1cb5a5a8654eee5faa3a8b87d2de1a966ef792dc3d318a13",
+      "url": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/compat/dsh-0.2.0-rc.2/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-team-control",
-      "version": "0.2.7",
-      "path": "dsh-plugin",
+      "name": "@openbkn/dsh-business-context",
+      "version": "0.2.1-rc.3-openbkn.0.2.1-3",
+      "path": "packages/openbkn-business-context",
       "source": {
         "type": "git",
-        "url": "https://github.com/hunmer/dsh-team-control",
-        "commit": "3bbafd866777dd9097f2d03d3bb6e85aeead5b2b",
-        "path": "dsh-plugin"
+        "url": "https://github.com/openbkn-ai/bkn-dsh",
+        "commit": "b8491a4747364455c03f3567b564d548c6fc06e9",
+        "path": "packages/openbkn-business-context"
       },
-      "manifestSha256": "6a8af2e8383b929b4309ab0d74c30c948623a10b8979340e155f7a1aec4003ce",
-      "manifestUrl": "https://github.com/hunmer/dsh-team-control/blob/3bbafd866777dd9097f2d03d3bb6e85aeead5b2b/dsh-plugin/package.json",
+      "manifestSha256": "0b121c66f76e409f8b2ba986cd7a2d7aff34db332d926307c3a9b2693b794aa8",
+      "manifestUrl": "https://github.com/openbkn-ai/bkn-dsh/blob/b8491a4747364455c03f3567b564d548c6fc06e9/packages/openbkn-business-context/package.json",
       "status": "eligible_metadata",
-      "declaredRange": null,
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null,
+      "declaredRange": "0.2.0-rc.2 || >=0.2.1-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "dsh-team-control",
+        "name": "@openbkn/dsh-business-context",
         "versions": [
           {
-            "version": "0.2.7",
-            "publishTimestamp": 1794716274,
+            "version": "0.2.1-rc.3-openbkn.0.2.1-3",
+            "publishTimestamp": 1793943703,
             "source": {
               "type": "git",
-              "url": "https://github.com/hunmer/dsh-team-control",
-              "commit": "3bbafd866777dd9097f2d03d3bb6e85aeead5b2b",
-              "path": "dsh-plugin"
+              "url": "https://github.com/openbkn-ai/bkn-dsh",
+              "commit": "b8491a4747364455c03f3567b564d548c6fc06e9",
+              "path": "packages/openbkn-business-context"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || >=0.2.1-rc.3"
             }
           }
         ]
       }
     },
     {
-      "origin": "repository_discovery",
-      "name": "dsh-team-control-ui",
-      "version": "0.2.4",
-      "path": "dsh-plugin-ui",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/hunmer/dsh-team-control",
-        "commit": "3bbafd866777dd9097f2d03d3bb6e85aeead5b2b",
-        "path": "dsh-plugin-ui"
-      },
-      "manifestSha256": "9d9de930b04677035b349e890584d23e07d3b36a4f3b3cf99255a2a94b33f5a8",
-      "manifestUrl": "https://github.com/hunmer/dsh-team-control/blob/3bbafd866777dd9097f2d03d3bb6e85aeead5b2b/dsh-plugin-ui/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": null,
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null,
-      "plugin": {
-        "name": "dsh-team-control-ui",
-        "versions": [
-          {
-            "version": "0.2.4",
-            "publishTimestamp": 1794716274,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/hunmer/dsh-team-control",
-              "commit": "3bbafd866777dd9097f2d03d3bb6e85aeead5b2b",
-              "path": "dsh-plugin-ui"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "dsh-team-control",
+      "target": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
       "origin": "npm",
-      "name": "dsh-team-control",
+      "name": "@openbkn/dsh-business-context",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "dsh-team-control",
-        "title": {
-          "en": "dsh-team Orchestration",
-          "zh": "dsh-team 编排协同开发"
-        },
-        "description": {
-          "en": "Exposes the local dsh-team sidecar as model-callable tools: teams and members, DAG tasks and dependencies, live status and blockers, messaging, four-domain scope approvals, interrupt/resume, and run reports.",
-          "zh": "把本地 dsh-team sidecar 暴露为模型可调用的工具：建队/加成员、DAG 任务与依赖、实时状态与阻塞、消息、四域越界审批、中断恢复与运行报告。"
-        },
-        "homepage": "https://github.com/hunmer/dsh-team-control#readme",
+        "name": "@openbkn/dsh-business-context",
+        "title": "@openbkn/dsh-business-context",
+        "description": "OpenBKN business knowledge-network context for DeepSeek Harness",
+        "homepage": "https://github.com/openbkn-ai/bkn-dsh#readme",
         "repository": {
-          "url": "https://github.com/hunmer/dsh-team-control"
+          "url": "https://github.com/openbkn-ai/bkn-dsh"
         },
         "metadata": {
           "keywords": [
-            "dsh",
             "deepseek-harness",
-            "agent-team",
-            "orchestration",
-            "tools"
+            "dsh",
+            "dsh-plugin",
+            "openbkn",
+            "knowledge-network",
+            "business-context",
+            "provenance"
           ]
         },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC10ZWFtIj4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNCIgZmlsbD0iIzFiMjQzMCIvPgogIDxnIHN0cm9rZT0iIzVhZDFjOCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiPgogICAgPHBhdGggZD0iTTMyIDE1djEwIi8+CiAgICA8cGF0aCBkPSJNMzIgMjUgMTcgMzQiLz4KICAgIDxwYXRoIGQ9Ik0zMiAyNWwxNSA5Ii8+CiAgICA8cGF0aCBkPSJNMTcgNDJoMzAiLz4KICAgIDxwYXRoIGQ9Ik0xNyAzNHY4Ii8+CiAgICA8cGF0aCBkPSJNNDcgMzR2OCIvPgogIDwvZz4KICA8ZyBmaWxsPSIjNWFkMWM4Ij4KICAgIDxjaXJjbGUgY3g9IjMyIiBjeT0iMTMiIHI9IjUiLz4KICAgIDxjaXJjbGUgY3g9IjE3IiBjeT0iMzQiIHI9IjQuNSIvPgogICAgPGNpcmNsZSBjeD0iNDciIGN5PSIzNCIgcj0iNC41Ii8+CiAgPC9nPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iNTAiIHI9IjUiIGZpbGw9IiNmMGI0MjkiLz4KPC9zdmc+Cg==",
         "versions": [
           {
-            "version": "0.2.7",
-            "publishTimestamp": 1794483438,
+            "version": "0.2.1-rc.3-openbkn.0.2.1-3",
+            "publishTimestamp": 1793943888,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || >=0.2.1-rc.3"
             }
           }
         ]
       },
-      "registrySha256": "61c2eeb8a448f4ccb0615f9f00e6f773ba19788bfd972c712525957aecd081fe",
+      "registrySha256": "b6761036212aa8389bf7874c3202d2dd07efe3f04c4069affce9d0fcada79cfc",
       "evidence": [
         {
-          "name": "dsh-team-control",
-          "version": "0.2.7",
-          "tarball": "https://registry.npmjs.org/dsh-team-control/-/dsh-team-control-0.2.7.tgz",
-          "integrity": "sha512-reAGTzN1zaarHML6HJxtAGIXwGcmGUkw+dSpWqwiP1cKqflnNgPI9J3p6uFgeTZTgnVOJ/87MUyqie06WfZZyQ=="
+          "name": "@openbkn/dsh-business-context",
+          "version": "0.2.1-rc.3-openbkn.0.2.1-3",
+          "tarball": "https://registry.npmjs.org/@openbkn/dsh-business-context/-/dsh-business-context-0.2.1-rc.3-openbkn.0.2.1-3.tgz",
+          "integrity": "sha512-1w0sJJ9DPWZSDFI+RdyiaBaUBfwKMnC3HsM4+39SSaIYORo/UuLSUXRktOrMzrwlLoexhi6/1RJtlyZ7hT2MlA=="
         }
       ],
       "diagnostics": [],
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
     },
     {
-      "target": "dsh-team-control-ui",
+      "target": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-2",
       "origin": "npm",
-      "name": "dsh-team-control-ui",
+      "name": "@openbkn/dsh-business-context",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "dsh-team-control-ui",
-        "title": {
-          "en": "dsh-team Dashboard",
-          "zh": "dsh-team 仪表盘"
-        },
-        "description": {
-          "en": "Inspect the dsh-team run inside DSH: member board, DAG, event timeline, permission matrix, and scope approvals. Data is proxied same-origin through the Host to the local sidecar.",
-          "zh": "在 DSH 内查看 dsh-team 编排现场：成员看板、DAG、事件时间线、权限矩阵与越界审批。数据经 Host 同源代理读取本地 sidecar。"
-        },
-        "homepage": "https://github.com/hunmer/dsh-team-control#readme",
+        "name": "@openbkn/dsh-business-context",
+        "title": "@openbkn/dsh-business-context",
+        "description": "OpenBKN business knowledge-network context for DeepSeek Harness",
+        "homepage": "https://github.com/openbkn-ai/bkn-dsh#readme",
         "repository": {
-          "url": "https://github.com/hunmer/dsh-team-control"
+          "url": "https://github.com/openbkn-ai/bkn-dsh"
         },
         "metadata": {
           "keywords": [
-            "dsh",
             "deepseek-harness",
-            "agent-team",
-            "dashboard",
-            "ui"
+            "dsh",
+            "dsh-plugin",
+            "openbkn",
+            "knowledge-network",
+            "business-context",
+            "provenance"
           ]
         },
-        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC10ZWFtIGRhc2hib2FyZCI+CiAgPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiByeD0iMTQiIGZpbGw9IiMxYjI0MzAiLz4KICA8cmVjdCB4PSIxMiIgeT0iMTQiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNCIgcng9IjMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzVhZDFjOCIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPHJlY3QgeD0iMzQiIHk9IjE0IiB3aWR0aD0iMTgiIGhlaWdodD0iMTQiIHJ4PSIzIiBmaWxsPSJub25lIiBzdHJva2U9IiM1YWQxYzgiIHN0cm9rZS13aWR0aD0iMyIvPgogIDxyZWN0IHg9IjEyIiB5PSIzNiIgd2lkdGg9IjQwIiBoZWlnaHQ9IjE0IiByeD0iMyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjBiNDI5IiBzdHJva2Utd2lkdGg9IjMiLz4KICA8Y2lyY2xlIGN4PSIyMSIgY3k9IjIxIiByPSIyLjQiIGZpbGw9IiM1YWQxYzgiLz4KICA8Y2lyY2xlIGN4PSI0MyIgY3k9IjIxIiByPSIyLjQiIGZpbGw9IiM1YWQxYzgiLz4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjQzIiByPSIyLjQiIGZpbGw9IiNmMGI0MjkiLz4KPC9zdmc+Cg==",
         "versions": [
           {
-            "version": "0.2.4",
-            "publishTimestamp": 1794650181,
+            "version": "0.2.1-rc.3-openbkn.0.2.1-2",
+            "publishTimestamp": 1793356811,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2 || >=0.2.1-rc.3"
             }
           }
         ]
       },
-      "registrySha256": "10a0345214529d5864d28c07493bc693ab8f614c41c112dcb6a3856e6ce18312",
+      "registrySha256": "b6761036212aa8389bf7874c3202d2dd07efe3f04c4069affce9d0fcada79cfc",
       "evidence": [
         {
-          "name": "dsh-team-control-ui",
-          "version": "0.2.4",
-          "tarball": "https://registry.npmjs.org/dsh-team-control-ui/-/dsh-team-control-ui-0.2.4.tgz",
-          "integrity": "sha512-5HIHwKkrzcMRHTooy+dl53m1jypaC+QHAb+oWnNuu5j1gAiTWAWvRFGet2qp4RPLagwjVD0LqzSYzOGU/RQAyg=="
+          "name": "@openbkn/dsh-business-context",
+          "version": "0.2.1-rc.3-openbkn.0.2.1-2",
+          "tarball": "https://registry.npmjs.org/@openbkn/dsh-business-context/-/dsh-business-context-0.2.1-rc.3-openbkn.0.2.1-2.tgz",
+          "integrity": "sha512-bQRiKmCMTcKuiZ+jhprtDS5mK0A8iiN+nL/zEiAm9demNaUqP3jNaxSPgLPO5HtOCiVlbQD2HyIb6vpDy7I2OQ=="
         }
       ],
       "diagnostics": [],
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-team-control",
+      "target": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     },
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-team-control-ui",
+      "target": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-2",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/hunmer/dsh-team-control",
-    "commit": "3bbafd866777dd9097f2d03d3bb6e85aeead5b2b",
-    "releaseTags": 3,
+    "url": "https://github.com/openbkn-ai/bkn-dsh",
+    "commit": "b8491a4747364455c03f3567b564d548c6fc06e9",
+    "releaseTags": 23,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:23:39.071Z"
+  "finishedAt": "2026-11-16T05:31:12.677Z"
 }

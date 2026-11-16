@@ -1,39 +1,30 @@
 {
-  "full_name": "Mars-Sea/dsh-deeppilot",
+  "full_name": "john-walks-slow/dsh-proactive",
   "originalPosition": 185,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 185,
   "batch": 1,
-  "stargazers_count": 18,
-  "startedAt": "2026-11-16T05:23:12.440Z",
+  "stargazers_count": 16,
+  "startedAt": "2026-11-16T05:30:36.198Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "b148223897bbab178a8c13eedfd7d439b9e89cba1a7fe66a9537b519a4d1acdf",
-      "url": "https://github.com/Mars-Sea/dsh-deeppilot/blob/6e60ffcc7422256ea8151518411576dc81f0789d/README.md",
+      "sha256": "fa3831a05f71e4e7b4acbd1af388721fb0193517d95ec2e7e8f7b86869d1ec42",
+      "url": "https://github.com/john-walks-slow/dsh-proactive/blob/cae01f36b8aa6af2979ef138e9f8b2b62e6af0f9/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-deeppilot",
-          "command": "dsh plugin --profile web add dsh-deeppilot",
+          "install": "dsh-proactive",
+          "command": "dsh plugin --profile web add dsh-proactive",
           "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.zh-CN.md",
-      "sha256": "e8be119a5ef24cb433d31285dd6227ebc88640ac886cd35e682ba1b8ca674c3f",
-      "url": "https://github.com/Mars-Sea/dsh-deeppilot/blob/6e60ffcc7422256ea8151518411576dc81f0789d/README.zh-CN.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
+        },
         {
-          "install": "dsh-deeppilot",
-          "command": "dsh plugin --profile web add dsh-deeppilot",
+          "install": "https://github.com/john-walks-slow/dsh-proactive#path:/packages/dsh-proactive",
+          "command": "dsh plugin --profile web add github:john-walks-slow/dsh-proactive#path:/packages/dsh-proactive",
           "profile": "web"
         }
       ]
@@ -42,60 +33,198 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-deeppilot",
-      "version": "0.9.24",
-      "path": "",
+      "name": "dsh-proactive",
+      "version": "0.3.2",
+      "path": "packages/dsh-proactive",
       "source": {
         "type": "git",
-        "url": "https://github.com/Mars-Sea/dsh-deeppilot",
-        "commit": "6e60ffcc7422256ea8151518411576dc81f0789d"
+        "url": "https://github.com/john-walks-slow/dsh-proactive",
+        "commit": "cae01f36b8aa6af2979ef138e9f8b2b62e6af0f9",
+        "path": "packages/dsh-proactive"
       },
-      "manifestSha256": "96aeb02af713e9445c9453370ffba4c15b45477895e127745f083acbe354bdb9",
-      "manifestUrl": "https://github.com/Mars-Sea/dsh-deeppilot/blob/6e60ffcc7422256ea8151518411576dc81f0789d/package.json",
+      "manifestSha256": "3a3f47660c12cb30e1a3f24e00d31c93e2c8bec9a456da6c6df8b3ca8dfe51bb",
+      "manifestUrl": "https://github.com/john-walks-slow/dsh-proactive/blob/cae01f36b8aa6af2979ef138e9f8b2b62e6af0f9/packages/dsh-proactive/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.1-rc.5 <0.3.0-0",
+      "declaredRange": "^0.2.0-rc.1 || ^0.2.1-rc.2",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-deeppilot",
+        "name": "dsh-proactive",
         "versions": [
           {
-            "version": "0.9.24",
-            "publishTimestamp": 1794800180,
+            "version": "0.3.2",
+            "publishTimestamp": 1792983772,
             "source": {
               "type": "git",
-              "url": "https://github.com/Mars-Sea/dsh-deeppilot",
-              "commit": "6e60ffcc7422256ea8151518411576dc81f0789d"
+              "url": "https://github.com/john-walks-slow/dsh-proactive",
+              "commit": "cae01f36b8aa6af2979ef138e9f8b2b62e6af0f9",
+              "path": "packages/dsh-proactive"
             },
             "engines": {
-              "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+              "dsh": "^0.2.0-rc.1 || ^0.2.1-rc.2"
             }
           }
         ]
       }
+    },
+    {
+      "target": "dsh-proactive",
+      "origin": "npm",
+      "name": "dsh-proactive",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-proactive",
+        "title": "dsh-proactive",
+        "description": "Host-level proactive wake-ups for DeepSeek Harness: let the model schedule its own alarms (once / interval / cron with random jitter), wake cold sessions on time, gate model-initiated follow-ups with quiet hours and a daily budget, and reclaim silent wake turns with tombstone compaction; ships a web panel for alarm and history management. dsh-proactive：为 DeepSeek Harness 提供 host 级主动唤醒——模型自订闹钟（单次/循环/cron+随机抖动），冷会话到点自动 resume，安静时段与每日投递预算约束自主跟进，静默唤醒折叠压缩不污染上下文，自带 Web 面板管理闹钟与唤醒历史。",
+        "author": "johnnren",
+        "homepage": "https://github.com/john-walks-slow/dsh-proactive/tree/main/packages/dsh-proactive#readme",
+        "repository": {
+          "url": "https://github.com/john-walks-slow/dsh-proactive",
+          "directory": "packages/dsh-proactive"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "proactive",
+            "scheduler",
+            "agent",
+            "reminder",
+            "alarm",
+            "cron",
+            "timer",
+            "heartbeat",
+            "wake-up",
+            "automation",
+            "主动唤醒",
+            "定时任务",
+            "定时提醒",
+            "闹钟",
+            "提醒",
+            "定时器",
+            "心跳",
+            "计划任务",
+            "自动化"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1792984161,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "605c0d1d949a2ae9fee30d63ab0249e6d641719e7f0fabb94af1ec1b3f4f9759",
+      "evidence": [
+        {
+          "name": "dsh-proactive",
+          "version": "0.3.2",
+          "tarball": "https://registry.npmjs.org/dsh-proactive/-/dsh-proactive-0.3.2.tgz",
+          "integrity": "sha512-d0CBaPXswbc2UKBzUW+yQy+4+flydqjS/yXAncRhxy0h4ZHTGp+XVtDG9kiF1awT34vqDG5dol3ZEXecFFe1aA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/john-walks-slow/dsh-proactive#path:/packages/dsh-proactive",
+      "origin": "git_target",
+      "name": "dsh-proactive",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-proactive",
+        "title": "dsh-proactive",
+        "description": "Host-level proactive wake-ups for DeepSeek Harness: let the model schedule its own alarms (once / interval / cron with random jitter), wake cold sessions on time, gate model-initiated follow-ups with quiet hours and a daily budget, and reclaim silent wake turns with tombstone compaction; ships a web panel for alarm and history management. dsh-proactive：为 DeepSeek Harness 提供 host 级主动唤醒——模型自订闹钟（单次/循环/cron+随机抖动），冷会话到点自动 resume，安静时段与每日投递预算约束自主跟进，静默唤醒折叠压缩不污染上下文，自带 Web 面板管理闹钟与唤醒历史。",
+        "author": "johnnren",
+        "homepage": "https://github.com/john-walks-slow/dsh-proactive/tree/main/packages/dsh-proactive#readme",
+        "repository": {
+          "url": "https://github.com/john-walks-slow/dsh-proactive",
+          "directory": "packages/dsh-proactive"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "proactive",
+            "scheduler",
+            "agent",
+            "reminder",
+            "alarm",
+            "cron",
+            "timer",
+            "heartbeat",
+            "wake-up",
+            "automation",
+            "主动唤醒",
+            "定时任务",
+            "定时提醒",
+            "闹钟",
+            "提醒",
+            "定时器",
+            "心跳",
+            "计划任务",
+            "自动化"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1792983772,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/john-walks-slow/dsh-proactive",
+              "commit": "cae01f36b8aa6af2979ef138e9f8b2b62e6af0f9",
+              "path": "packages/dsh-proactive"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "packages/dsh-proactive",
+          "commit": "cae01f36b8aa6af2979ef138e9f8b2b62e6af0f9",
+          "name": "dsh-proactive",
+          "version": "0.3.2",
+          "url": "https://github.com/john-walks-slow/dsh-proactive",
+          "manifestSha256": "3a3f47660c12cb30e1a3f24e00d31c93e2c8bec9a456da6c6df8b3ca8dfe51bb",
+          "publishTimestamp": 1792983772
+        }
+      ]
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-deeppilot",
+      "target": "dsh-proactive",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/john-walks-slow/dsh-proactive#path:/packages/dsh-proactive",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
-  "errors": [
-    {
-      "stage": "install_target",
-      "target": "dsh-deeppilot",
-      "reason": "The operation was aborted due to timeout"
-    }
-  ],
+  "errors": [],
   "repository": {
-    "url": "https://github.com/Mars-Sea/dsh-deeppilot",
-    "commit": "6e60ffcc7422256ea8151518411576dc81f0789d",
-    "releaseTags": 44,
+    "url": "https://github.com/john-walks-slow/dsh-proactive",
+    "commit": "cae01f36b8aa6af2979ef138e9f8b2b62e6af0f9",
+    "releaseTags": 6,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "retry_required",
-  "finishedAt": "2026-11-16T05:24:21.631Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:30:52.624Z"
 }

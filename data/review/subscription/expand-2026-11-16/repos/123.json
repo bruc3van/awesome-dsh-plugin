@@ -1,144 +1,95 @@
 {
-  "full_name": "tdcq9594/dsh-roost",
+  "full_name": "mangfufu/dsh-comfyui-web",
   "originalPosition": 123,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 123,
   "batch": 1,
-  "stargazers_count": 25,
-  "startedAt": "2026-11-16T05:21:02.574Z",
+  "stargazers_count": 23,
+  "startedAt": "2026-11-16T05:28:07.901Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "a991c903edfb40acd946688bd6df5f4479e47119b98af648b657089c094aa906",
-      "url": "https://github.com/tdcq9594/dsh-roost/blob/5bd7864f7292e726c499c53ef6b9983cad3f5c36/README.md",
+      "sha256": "0885bfb12c87129cc8e3214e65064072c9d56142ff97acec2001ef48c9107be8",
+      "url": "https://github.com/mangfufu/dsh-comfyui-web/blob/4cef1af66645fbc00a7aebeaed98327021db3062/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-roost",
-          "command": "dsh plugin --profile web add dsh-roost",
+          "install": "https://github.com/mangfufu/dsh-comfyui-web",
+          "command": "dsh plugin --profile web add github:mangfufu/dsh-comfyui-web",
           "profile": "web"
         }
       ]
     },
     {
-      "path": "docs/images/README.md",
-      "sha256": "bed8be0ba66ecdd845c7e8823bf0e61265dd38f9b0aed621928bf689a34165f1",
-      "url": "https://github.com/tdcq9594/dsh-roost/blob/5bd7864f7292e726c499c53ef6b9983cad3f5c36/docs/images/README.md",
+      "path": "README.en.md",
+      "sha256": "089168dd932dda5ea25af4d23e4f85f7b59a054b76183745d6c4d93e587826d7",
+      "url": "https://github.com/mangfufu/dsh-comfyui-web/blob/4cef1af66645fbc00a7aebeaed98327021db3062/README.en.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": []
+      "targets": [
+        {
+          "install": "https://github.com/mangfufu/dsh-comfyui-web",
+          "command": "dsh plugin --profile web add github:mangfufu/dsh-comfyui-web",
+          "profile": "web"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-roost",
-      "version": "1.3.2",
+      "name": "dsh-comfyui-web",
+      "version": "0.5.18",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/tdcq9594/dsh-roost",
-        "commit": "5bd7864f7292e726c499c53ef6b9983cad3f5c36"
+        "url": "https://github.com/mangfufu/dsh-comfyui-web",
+        "commit": "4cef1af66645fbc00a7aebeaed98327021db3062"
       },
-      "manifestSha256": "865a75c507f0edf347debf546a2b1eb76cc407d140127272dffd2a5e201e80ec",
-      "manifestUrl": "https://github.com/tdcq9594/dsh-roost/blob/5bd7864f7292e726c499c53ef6b9983cad3f5c36/package.json",
+      "manifestSha256": "ff7f2b8b64803b97d036ebfc61e57cacd599ef99c61c85b2aa660e7e08e5be72",
+      "manifestUrl": "https://github.com/mangfufu/dsh-comfyui-web/blob/4cef1af66645fbc00a7aebeaed98327021db3062/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.2.0",
+      "declaredRange": "0.2.0-rc.2 || 0.2.1-rc.2",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true,
+      "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "dsh-roost",
+        "name": "dsh-comfyui-web",
         "versions": [
           {
-            "version": "1.3.2",
-            "publishTimestamp": 1794767005,
+            "version": "0.5.18",
+            "publishTimestamp": 1792812649,
             "source": {
               "type": "git",
-              "url": "https://github.com/tdcq9594/dsh-roost",
-              "commit": "5bd7864f7292e726c499c53ef6b9983cad3f5c36"
+              "url": "https://github.com/mangfufu/dsh-comfyui-web",
+              "commit": "4cef1af66645fbc00a7aebeaed98327021db3062"
             },
             "engines": {
-              "dsh": ">=0.2.0"
+              "dsh": "0.2.0-rc.2 || 0.2.1-rc.2"
             }
           }
         ]
       }
-    },
-    {
-      "target": "dsh-roost",
-      "origin": "npm",
-      "name": "dsh-roost",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-roost",
-        "title": "dsh-roost",
-        "description": "把 QQ 开放平台的官方机器人接进 DeepSeek Harness：接入向导一键装好内核与对话插件，每个会话独立持久上下文，三层记忆（事实/日记/图谱），情绪状态影响主动搭话，按说话人分档收放本地工具，扩展以 MCP server 形式装载。",
-        "homepage": "https://github.com/tdcq9594/dsh-roost",
-        "repository": {
-          "url": "https://github.com/tdcq9594/dsh-roost"
-        },
-        "metadata": {
-          "keywords": [
-            "dsh",
-            "dsh-plugin",
-            "deepseek-harness",
-            "qq",
-            "qq-bot",
-            "qqbot",
-            "im-bridge",
-            "memory",
-            "agent",
-            "ai-companion",
-            "roost"
-          ]
-        },
-        "versions": [
-          {
-            "version": "1.3.2",
-            "publishTimestamp": 1794767388,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": ">=0.2.0"
-            }
-          }
-        ]
-      },
-      "registrySha256": "bebe01e40ec22531192e320ca66e1939b02ddfa96d120ec6e2abbf4b386f3873",
-      "evidence": [
-        {
-          "name": "dsh-roost",
-          "version": "1.3.2",
-          "tarball": "https://registry.npmjs.org/dsh-roost/-/dsh-roost-1.3.2.tgz",
-          "integrity": "sha512-TtH+CtcGZfw7waN7xkP1aI22PFNcsHYbFBoSmcLYh7yfKU1PRRXNdV/mlZz0PrqOAJu97BV10wafmEl3jFKPlA=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-roost",
+      "target": "https://github.com/mangfufu/dsh-comfyui-web",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/tdcq9594/dsh-roost",
-    "commit": "5bd7864f7292e726c499c53ef6b9983cad3f5c36",
-    "releaseTags": 37,
+    "url": "https://github.com/mangfufu/dsh-comfyui-web",
+    "commit": "4cef1af66645fbc00a7aebeaed98327021db3062",
+    "releaseTags": 6,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:21:16.402Z"
+  "finishedAt": "2026-11-16T05:28:16.503Z"
 }

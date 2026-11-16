@@ -7,7 +7,7 @@
   "ordinal": 57,
   "batch": 1,
   "stargazers_count": 54,
-  "startedAt": "2026-11-16T05:18:58.379Z",
+  "startedAt": "2026-11-16T05:26:08.000Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
@@ -65,5 +65,5 @@
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:19:06.014Z"
+  "finishedAt": "2026-11-16T05:26:15.520Z"
 }

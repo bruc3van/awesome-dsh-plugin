@@ -7,7 +7,7 @@
   "ordinal": 48,
   "batch": 1,
   "stargazers_count": 67,
-  "startedAt": "2026-11-16T05:18:46.844Z",
+  "startedAt": "2026-11-16T05:25:57.429Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
@@ -46,5 +46,5 @@
   },
   "discoveryWarnings": [],
   "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:18:54.378Z"
+  "finishedAt": "2026-11-16T05:26:05.303Z"
 }

@@ -1,25 +1,39 @@
 {
-  "full_name": "giter00/dsh-headroom",
+  "full_name": "lukeinx/dsh-workboard",
   "originalPosition": 189,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 189,
   "batch": 1,
-  "stargazers_count": 18,
-  "startedAt": "2026-11-16T05:23:19.743Z",
+  "stargazers_count": 16,
+  "startedAt": "2026-11-16T05:30:44.844Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "1614d75e2d5768470318dd793cc089b3c4d805dad1dea971471350bf008213d3",
-      "url": "https://github.com/giter00/dsh-headroom/blob/ca5de630fd9a4be1b0e0f900cc3260f52052019d/README.md",
+      "sha256": "f46862c1adc383452493e3170e718261373b97af68681e03266d615f920b55b8",
+      "url": "https://github.com/lukeinx/dsh-workboard/blob/6d59a7f08e68a56b526bbca6f301a07b0e82dd77/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/giter00/dsh-headroom",
-          "command": "dsh plugin --profile web add github:giter00/dsh-headroom",
+          "install": "dsh-workboard",
+          "command": "dsh plugin --profile web add dsh-workboard",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "4a1a2ac8cf1f14b0f5fe79301c0eed7d60bccc61b3db4a6c5c2dc820c1e4a1a2",
+      "url": "https://github.com/lukeinx/dsh-workboard/blob/6d59a7f08e68a56b526bbca6f301a07b0e82dd77/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workboard",
+          "command": "dsh plugin --profile web add dsh-workboard",
           "profile": "web"
         }
       ]
@@ -28,54 +42,117 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-headroom",
-      "version": "0.3.0",
+      "name": "dsh-workboard",
+      "version": "0.4.1",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/giter00/dsh-headroom",
-        "commit": "ca5de630fd9a4be1b0e0f900cc3260f52052019d"
+        "url": "https://github.com/lukeinx/dsh-workboard",
+        "commit": "6d59a7f08e68a56b526bbca6f301a07b0e82dd77"
       },
-      "manifestSha256": "513c94d8f96d2b7d8be4eb6df6be06e7777ea3b8a51b592c0ee005652368fd49",
-      "manifestUrl": "https://github.com/giter00/dsh-headroom/blob/ca5de630fd9a4be1b0e0f900cc3260f52052019d/package.json",
+      "manifestSha256": "f435a2f1db22caf2657af6f703a0bbed2997a87e456f4f7daacbf90bf23dfeaf",
+      "manifestUrl": "https://github.com/lukeinx/dsh-workboard/blob/6d59a7f08e68a56b526bbca6f301a07b0e82dd77/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.0.1-rc.5 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0",
+      "declaredRange": ">=0.2.0",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-headroom",
+        "name": "dsh-workboard",
         "versions": [
           {
-            "version": "0.3.0",
-            "publishTimestamp": 1787512803,
+            "version": "0.4.1",
+            "publishTimestamp": 1794656966,
             "source": {
               "type": "git",
-              "url": "https://github.com/giter00/dsh-headroom",
-              "commit": "ca5de630fd9a4be1b0e0f900cc3260f52052019d"
+              "url": "https://github.com/lukeinx/dsh-workboard",
+              "commit": "6d59a7f08e68a56b526bbca6f301a07b0e82dd77"
             },
             "engines": {
-              "dsh": ">=0.0.1-rc.5 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0"
+              "dsh": ">=0.2.0"
             }
           }
         ]
       }
+    },
+    {
+      "target": "dsh-workboard",
+      "origin": "npm",
+      "name": "dsh-workboard",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workboard",
+        "title": {
+          "en": "Workboard",
+          "zh": "工作台"
+        },
+        "description": {
+          "en": "A modular dashboard panel: clock, weather, quotes, todos, notes and calendar widgets that other plugins can extend.",
+          "zh": "模块化工作台面板：时钟、天气、格言、待办、速记、日历等 widget，可由其他插件扩展。"
+        },
+        "author": "lukeinx",
+        "homepage": "https://github.com/lukeinx/dsh-workboard#readme",
+        "repository": {
+          "url": "https://github.com/lukeinx/dsh-workboard"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek-desktop",
+            "dashboard",
+            "widgets",
+            "todo",
+            "calendar",
+            "deepseek",
+            "dsh",
+            "ai-agent",
+            "工作台"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxRjI0MzAiLz4KICA8cmVjdCB4PSIxMCIgeT0iMTAiIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiIgcng9IjUiIGZpbGw9IiM0RDZCRkUiLz4KICA8cmVjdCB4PSI0MCIgeT0iMTAiIHdpZHRoPSIxNCIgaGVpZ2h0PSIyNiIgcng9IjUiIGZpbGw9IiM4QTk0QTYiLz4KICA8cmVjdCB4PSIxMCIgeT0iNDAiIHdpZHRoPSI0NCIgaGVpZ2h0PSIxNCIgcng9IjUiIGZpbGw9IiM1QzY1NzciLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1794657163,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "63ed4cbd8a51db92a6beca8a871048da28ba571025532d70dd326acaa94ad2c2",
+      "evidence": [
+        {
+          "name": "dsh-workboard",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-workboard/-/dsh-workboard-0.4.1.tgz",
+          "integrity": "sha512-Ow1zMxW1fjeQiDenLlW+5p2uIEdGGRF/jEv3tcG/x6YcSMzAoVZiDgy1cotgFlz329GUYoz60cBuHrsVqhkU+Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "https://github.com/giter00/dsh-headroom",
+      "target": "dsh-workboard",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/giter00/dsh-headroom",
-    "commit": "ca5de630fd9a4be1b0e0f900cc3260f52052019d",
-    "releaseTags": 0,
+    "url": "https://github.com/lukeinx/dsh-workboard",
+    "commit": "6d59a7f08e68a56b526bbca6f301a07b0e82dd77",
+    "releaseTags": 6,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:23:27.093Z"
+  "finishedAt": "2026-11-16T05:30:54.547Z"
 }

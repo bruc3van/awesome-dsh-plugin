@@ -1,150 +1,71 @@
 {
-  "full_name": "temotee2103/dsh-overdrive",
+  "full_name": "MarioZZJ/cc-notify-hooks",
   "originalPosition": 133,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 133,
   "batch": 1,
-  "stargazers_count": 23,
-  "startedAt": "2026-11-16T05:21:19.742Z",
+  "stargazers_count": 21,
+  "startedAt": "2026-11-16T05:28:31.209Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "9ba2fea4cc7fdf9c28bb21d72638d87b7998a05638d074320822c787e6906dfe",
-      "url": "https://github.com/temotee2103/dsh-overdrive/blob/b551e3d1f91230108901aa644ae1960156a9712f/README.md",
+      "sha256": "23234573f49bac83c2b4162d3f88c2ccb3521b587cf5474e86228d09d62a2c0b",
+      "url": "https://github.com/MarioZZJ/cc-notify-hooks/blob/8ee94aebb7b4fe47c92f9b1f8192be9e79ae5364/README.md",
       "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@dsh-overdrive/gateway-core",
-          "command": "dsh plugin --profile web add @dsh-overdrive/gateway-core",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.zh-CN.md",
-      "sha256": "d1744658d1eb0d8e04f2e9bf0ceec705ad6f15ad37e78e352d4dd00c1d8ae75b",
-      "url": "https://github.com/temotee2103/dsh-overdrive/blob/b551e3d1f91230108901aa644ae1960156a9712f/README.zh-CN.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@dsh-overdrive/gateway-core",
-          "command": "dsh plugin --profile web add @dsh-overdrive/gateway-core",
-          "profile": "web"
-        }
-      ]
+      "localOnly": true,
+      "targets": []
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@dsh-overdrive/gateway-core",
-      "version": "0.2.1",
-      "path": "packages/gateway-core",
+      "name": "dsh-notify-hooks",
+      "version": "2.5.0",
+      "path": "plugins/cc-notify-hooks",
       "source": {
         "type": "git",
-        "url": "https://github.com/temotee2103/dsh-overdrive",
-        "commit": "b551e3d1f91230108901aa644ae1960156a9712f",
-        "path": "packages/gateway-core"
+        "url": "https://github.com/MarioZZJ/cc-notify-hooks",
+        "commit": "8ee94aebb7b4fe47c92f9b1f8192be9e79ae5364",
+        "path": "plugins/cc-notify-hooks"
       },
-      "manifestSha256": "f80334cbd795ab37d8d637ae9b9bc8ee69949dc4d3a111269840907645f331e8",
-      "manifestUrl": "https://github.com/temotee2103/dsh-overdrive/blob/b551e3d1f91230108901aa644ae1960156a9712f/packages/gateway-core/package.json",
+      "manifestSha256": "3a20941e3fe81799fa4e0cf728b8275c97040687efbafd2538c498ba064a50f9",
+      "manifestUrl": "https://github.com/MarioZZJ/cc-notify-hooks/blob/8ee94aebb7b4fe47c92f9b1f8192be9e79ae5364/plugins/cc-notify-hooks/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.1.0-rc.6",
+      "declaredRange": ">=0.2.2-rc.3",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "@dsh-overdrive/gateway-core",
+        "name": "dsh-notify-hooks",
         "versions": [
           {
-            "version": "0.2.1",
-            "publishTimestamp": 1788598081,
+            "version": "2.5.0",
+            "publishTimestamp": 1794679708,
             "source": {
               "type": "git",
-              "url": "https://github.com/temotee2103/dsh-overdrive",
-              "commit": "b551e3d1f91230108901aa644ae1960156a9712f",
-              "path": "packages/gateway-core"
+              "url": "https://github.com/MarioZZJ/cc-notify-hooks",
+              "commit": "8ee94aebb7b4fe47c92f9b1f8192be9e79ae5364",
+              "path": "plugins/cc-notify-hooks"
             },
             "engines": {
-              "dsh": "^0.1.0-rc.6"
+              "dsh": ">=0.2.2-rc.3"
             }
           }
         ]
       }
-    },
-    {
-      "target": "@dsh-overdrive/gateway-core",
-      "origin": "npm",
-      "name": "@dsh-overdrive/gateway-core",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "@dsh-overdrive/gateway-core",
-        "title": "@dsh-overdrive/gateway-core",
-        "description": "dsh-overdrive: DeepSeek Harness plugin - multi-platform chat bridge core (trajectory / approval / multi-agent)",
-        "repository": {
-          "url": "https://github.com/temotee2103/dsh-overdrive"
-        },
-        "versions": [
-          {
-            "version": "0.2.1",
-            "publishTimestamp": 1788598011,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            },
-            "engines": {
-              "dsh": "^0.1.0-rc.6"
-            }
-          },
-          {
-            "version": "0.2.0",
-            "publishTimestamp": 1788596734,
-            "source": {
-              "type": "npm",
-              "registry": "https://registry.npmjs.org/"
-            }
-          }
-        ]
-      },
-      "registrySha256": "51c0fc84cd7a3add7e2513fe8a4ae95aaa2664a5417a0e1539ae41c19d09545b",
-      "evidence": [
-        {
-          "name": "@dsh-overdrive/gateway-core",
-          "version": "0.2.1",
-          "tarball": "https://registry.npmjs.org/@dsh-overdrive/gateway-core/-/gateway-core-0.2.1.tgz",
-          "integrity": "sha512-JLy1YQTIEjjTneFsk5Xu0148XgEq+m7QsQFbsNcARsxXsXpBr6qz1Pi3bsNCqIR6jMLsWsbLtfRU1JD2INvCSA=="
-        },
-        {
-          "name": "@dsh-overdrive/gateway-core",
-          "version": "0.2.0",
-          "tarball": "https://registry.npmjs.org/@dsh-overdrive/gateway-core/-/gateway-core-0.2.0.tgz",
-          "integrity": "sha512-9BvWW0W91LTg8Zi0tS4FTFlDRW/+PIkrLSr83voZOfsD3oMTCcXOG2iknb++z9NQASkXeiwA33evU8OECjlvAQ=="
-        }
-      ],
-      "diagnostics": [],
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null
     }
   ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "@dsh-overdrive/gateway-core",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/temotee2103/dsh-overdrive",
-    "commit": "b551e3d1f91230108901aa644ae1960156a9712f",
-    "releaseTags": 4,
+    "url": "https://github.com/MarioZZJ/cc-notify-hooks",
+    "commit": "8ee94aebb7b4fe47c92f9b1f8192be9e79ae5364",
+    "releaseTags": 11,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:21:35.401Z"
+  "finishedAt": "2026-11-16T05:28:41.178Z"
 }

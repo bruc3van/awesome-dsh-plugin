@@ -17338,6 +17338,302 @@
       "status": "readme-verified",
       "verified_date": "2026-11-16",
       "verified_via": "README + npm registry"
+    },
+    "restregular/dsh-memory": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@restregular/dsh-memory",
+          "install": "@restregular/dsh-memory",
+          "command": "dsh plugin --profile web add \"@restregular/dsh-memory\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "michengai/dsh-code-review": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@michengai/dsh-code-review",
+          "install": "@michengai/dsh-code-review",
+          "command": "dsh plugin --profile web add \"@michengai/dsh-code-review\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "sacredbluedragon/dsh-bili-watch": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-bili-watch",
+          "install": "dsh-bili-watch",
+          "command": "dsh plugin --profile web add dsh-bili-watch"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "neohotaru/dsh-read-animation": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-read-animation",
+          "install": "dsh-read-animation",
+          "command": "dsh plugin --profile web add dsh-read-animation"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "iarxic/dsh-agents-notch": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-agents-notch",
+          "install": "dsh-agents-notch",
+          "command": "dsh plugin --profile web add dsh-agents-notch"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "drscrewdriver/dsh-context-compression-improved": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-context-compression-improved",
+          "install": "dsh-context-compression-improved",
+          "command": "dsh plugin --profile web add dsh-context-compression-improved"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "wall1234567/dsh-rofm": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:wall1234567/dsh-rofm",
+          "install": "https://github.com/wall1234567/dsh-rofm",
+          "command": "dsh plugin --profile web add github:wall1234567/dsh-rofm"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@276334867516",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "xichen-62/dsh-power-menu": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:xichen-62/dsh-power-menu",
+          "install": "https://github.com/xichen-62/dsh-power-menu",
+          "command": "dsh plugin --profile web add github:xichen-62/dsh-power-menu"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + Git commit"
+    },
+    "weibaohui/dsh-sync": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@weibaohui/dsh-sync",
+          "install": "@weibaohui/dsh-sync",
+          "command": "dsh plugin --profile web add \"@weibaohui/dsh-sync\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "awoodwhale/dsh-agent-persona": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-agent-persona",
+          "install": "dsh-agent-persona",
+          "command": "dsh plugin --profile web add dsh-agent-persona"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "derek-y-jq/knowledge-galaxy": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Derek-Y-JQ/knowledge-galaxy",
+          "install": "https://github.com/Derek-Y-JQ/knowledge-galaxy",
+          "command": "dsh plugin --profile web add github:Derek-Y-JQ/knowledge-galaxy"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@1e16863b6cc2",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "zelinw1/dsh-cosplay": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-cosplay",
+          "install": "dsh-cosplay",
+          "command": "dsh plugin --profile web add dsh-cosplay"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "kelemiao/dsh-animation-optimization": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:kelemiao/dsh-animation-optimization",
+          "install": "https://github.com/kelemiao/dsh-animation-optimization",
+          "command": "dsh plugin --profile web add github:kelemiao/dsh-animation-optimization"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@dc5808e7a0df",
+      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
+    },
+    "liaoangbo-droid/dsh-notewall": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:liaoangbo-droid/dsh-notewall",
+          "install": "https://github.com/liaoangbo-droid/dsh-notewall",
+          "command": "dsh plugin --profile web add github:liaoangbo-droid/dsh-notewall"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@322d3460f902",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "john-walks-slow/dsh-proactive": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-proactive",
+          "install": "dsh-proactive",
+          "command": "dsh plugin --profile web add dsh-proactive"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "linyp/dsh-plugin-langfuse": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-langfuse",
+          "install": "dsh-plugin-langfuse",
+          "command": "dsh plugin --profile web add dsh-plugin-langfuse"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "lukeinx/dsh-workboard": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-workboard",
+          "install": "dsh-workboard",
+          "command": "dsh plugin --profile web add dsh-workboard"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "tasuma-qwq/baifanyu-ofm-bridge": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:baifanyu-ofm@0.3.3",
+          "install": "baifanyu-ofm@0.3.3",
+          "command": "dsh plugin --profile web add \"baifanyu-ofm@0.3.3\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
+    },
+    "vinkwork/dsh-psd-batch-studio": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:vinkwork/dsh-psd-batch-studio",
+          "install": "https://github.com/vinkwork/dsh-psd-batch-studio",
+          "command": "dsh plugin --profile web add github:vinkwork/dsh-psd-batch-studio"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@bedc613d9dd4",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "lyl-z/dsh-armorbreak": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:LYL-Z/dsh-armorbreak",
+          "install": "https://github.com/LYL-Z/dsh-armorbreak",
+          "command": "dsh plugin --profile web add github:LYL-Z/dsh-armorbreak"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-16",
+      "verified_via": "manifest@fa493b527ce0",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "pointylab/pointy": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@pointylab/dsh",
+          "install": "@pointylab/dsh",
+          "command": "dsh plugin --profile web add \"@pointylab/dsh\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "chenjun25/dsh-console-hm": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-console-hm",
+          "install": "dsh-console-hm",
+          "command": "dsh plugin --profile web add dsh-console-hm"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README + npm registry"
     }
   }
 }

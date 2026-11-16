@@ -1,66 +1,129 @@
 {
-  "full_name": "liangzz1998/dsh-doubao-painter",
+  "full_name": "tasuma-qwq/baifanyu-ofm-bridge",
   "originalPosition": 193,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 193,
   "batch": 1,
-  "stargazers_count": 18,
-  "startedAt": "2026-11-16T05:23:28.279Z",
+  "stargazers_count": 16,
+  "startedAt": "2026-11-16T05:30:53.207Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "e7c99422a834697ecaa1e288fffc3a3c0f6dab9becf912a621333259fffbc829",
-      "url": "https://github.com/liangzz1998/dsh-doubao-painter/blob/084670254bdf3f3213e683659600ecfa82d0e163/README.md",
+      "sha256": "e3168d4463e1a9caf0d0729da0d47e2f8a703a6e6204e47b5a429aaff56e8a01",
+      "url": "https://github.com/tasuma-qwq/baifanyu-ofm-bridge/blob/8eaca53acef35ceaab8a4c9a5659a1e6d0585b84/README.md",
       "ambiguous": false,
-      "localOnly": true,
-      "targets": []
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "baifanyu-ofm@0.3.3",
+          "command": "dsh plugin --profile web add baifanyu-ofm@0.3.3",
+          "profile": "web"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-doubao-painter",
-      "version": "0.5.1",
+      "name": "baifanyu-ofm",
+      "version": "0.3.3",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/liangzz1998/dsh-doubao-painter",
-        "commit": "084670254bdf3f3213e683659600ecfa82d0e163"
+        "url": "https://github.com/tasuma-qwq/baifanyu-ofm-bridge",
+        "commit": "8eaca53acef35ceaab8a4c9a5659a1e6d0585b84"
       },
-      "manifestSha256": "8cf18d4290991e6a714edff287c68309abdbe15ba72fb83f55689542b35ef818",
-      "manifestUrl": "https://github.com/liangzz1998/dsh-doubao-painter/blob/084670254bdf3f3213e683659600ecfa82d0e163/package.json",
+      "manifestSha256": "6e76beb09aad5467193eb8e643d1c3f752fcd8b30f5b49336fbe25547b4bed2f",
+      "manifestUrl": "https://github.com/tasuma-qwq/baifanyu-ofm-bridge/blob/8eaca53acef35ceaab8a4c9a5659a1e6d0585b84/package.json",
       "status": "eligible_metadata",
-      "declaredRange": null,
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null,
+      "declaredRange": ">=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-doubao-painter",
+        "name": "baifanyu-ofm",
         "versions": [
           {
-            "version": "0.5.1",
-            "publishTimestamp": 1793448290,
+            "version": "0.3.3",
+            "publishTimestamp": 1794202297,
             "source": {
               "type": "git",
-              "url": "https://github.com/liangzz1998/dsh-doubao-painter",
-              "commit": "084670254bdf3f3213e683659600ecfa82d0e163"
+              "url": "https://github.com/tasuma-qwq/baifanyu-ofm-bridge",
+              "commit": "8eaca53acef35ceaab8a4c9a5659a1e6d0585b84"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
             }
           }
         ]
       }
+    },
+    {
+      "target": "baifanyu-ofm@0.3.3",
+      "origin": "npm",
+      "name": "baifanyu-ofm",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "baifanyu-ofm",
+        "title": "baifanyu-ofm",
+        "description": "白饭鱼 OFM：DeepSeek 一句话接入、原思考档位保持与账号轮换回执，不限制手动选模",
+        "homepage": "https://github.com/tasuma-qwq/baifanyu-ofm-bridge#readme",
+        "repository": {
+          "url": "https://github.com/tasuma-qwq/baifanyu-ofm-bridge"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "ofm",
+            "model-routing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1794200578,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "48e00e528511a5d26084eeb6fd7ec5ae7c76e13f10779227d9f23dbef862dbfb",
+      "evidence": [
+        {
+          "name": "baifanyu-ofm",
+          "version": "0.3.3",
+          "tarball": "https://registry.npmjs.org/baifanyu-ofm/-/baifanyu-ofm-0.3.3.tgz",
+          "integrity": "sha512-PBhZYLT4ZAttmE41KmutoJbMp57NPTA3hTCfRAM0Al8EGggsK42dF8pioVa3p1ieP4LkkCmE+gYGjGVnAQ0Z9g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "baifanyu-ofm@0.3.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/liangzz1998/dsh-doubao-painter",
-    "commit": "084670254bdf3f3213e683659600ecfa82d0e163",
-    "releaseTags": 0,
+    "url": "https://github.com/tasuma-qwq/baifanyu-ofm-bridge",
+    "commit": "8eaca53acef35ceaab8a4c9a5659a1e6d0585b84",
+    "releaseTags": 4,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:23:35.457Z"
+  "finishedAt": "2026-11-16T05:31:01.047Z"
 }

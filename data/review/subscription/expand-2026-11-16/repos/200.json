@@ -1,40 +1,40 @@
 {
-  "full_name": "GooDAnDReaDY/dsh-cron",
+  "full_name": "MatriQ/rea-gp",
   "originalPosition": 200,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 200,
   "batch": 1,
-  "stargazers_count": 17,
-  "startedAt": "2026-11-16T05:23:43.648Z",
+  "stargazers_count": 15,
+  "startedAt": "2026-11-16T05:31:11.565Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "a58756a9c436d000c7f6e6803e22af47519b210e8de3e0f34f5ad65d38d8ef83",
-      "url": "https://github.com/GooDAnDReaDY/dsh-cron/blob/34e209cb12f699f0fc165ceb8a111c8c56f0f463/README.md",
+      "sha256": "2bf34d0537909e71a9ef230f0c72eaf64e235df3ee70871b27fb0c88b46989d2",
+      "url": "https://github.com/MatriQ/rea-gp/blob/84e1ffa00b01ff6a925076cb856c27da5837b6e1/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "@goodandready/dsh-cron",
-          "command": "dsh plugin --profile web add @goodandready/dsh-cron",
-          "profile": "web"
+          "install": "dsh-rea-gp@0.1.0",
+          "command": "dsh plugin --profile demo add dsh-rea-gp@0.1.0",
+          "profile": "demo"
         }
       ]
     },
     {
-      "path": "README.zh.md",
-      "sha256": "8c5894c7bb0fedc85558bc269825fff85aadb425e90fc289f5e93506ff4c0058",
-      "url": "https://github.com/GooDAnDReaDY/dsh-cron/blob/34e209cb12f699f0fc165ceb8a111c8c56f0f463/README.zh.md",
+      "path": "README.zh-CN.md",
+      "sha256": "7b280d4e64cf550885b22e654036f87a637d49c6d9bea01fc20b20b6af4cd21e",
+      "url": "https://github.com/MatriQ/rea-gp/blob/84e1ffa00b01ff6a925076cb856c27da5837b6e1/README.zh-CN.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "@goodandready/dsh-cron",
-          "command": "dsh plugin --profile web add @goodandready/dsh-cron",
-          "profile": "web"
+          "install": "dsh-rea-gp@0.1.0",
+          "command": "dsh plugin --profile demo add dsh-rea-gp@0.1.0",
+          "profile": "demo"
         }
       ]
     }
@@ -42,104 +42,103 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@goodandready/dsh-cron",
-      "version": "0.3.47",
+      "name": "dsh-rea-gp",
+      "version": "0.1.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/GooDAnDReaDY/dsh-cron",
-        "commit": "34e209cb12f699f0fc165ceb8a111c8c56f0f463"
+        "url": "https://github.com/MatriQ/rea-gp",
+        "commit": "84e1ffa00b01ff6a925076cb856c27da5837b6e1"
       },
-      "manifestSha256": "0f1b7d2ed3b52dde583e5ba251c7342b1660c8f86b5e501463f895e3cd422829",
-      "manifestUrl": "https://github.com/GooDAnDReaDY/dsh-cron/blob/34e209cb12f699f0fc165ceb8a111c8c56f0f463/package.json",
+      "manifestSha256": "a8225af1f173c96b81bb3f68110b47ac0d30e208f76ae90f87771cb9039d573a",
+      "manifestUrl": "https://github.com/MatriQ/rea-gp/blob/84e1ffa00b01ff6a925076cb856c27da5837b6e1/package.json",
       "status": "eligible_metadata",
-      "declaredRange": ">=0.1.0-rc.6 <0.1.1 || >=0.1.1-rc.1 <0.1.2 || >=0.1.2-alpha.1 <1.0.0",
+      "declaredRange": "^0.2.2-rc.1",
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true,
+      "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "@goodandready/dsh-cron",
+        "name": "dsh-rea-gp",
         "versions": [
           {
-            "version": "0.3.47",
-            "publishTimestamp": 1794678327,
+            "version": "0.1.0",
+            "publishTimestamp": 1794279940,
             "source": {
               "type": "git",
-              "url": "https://github.com/GooDAnDReaDY/dsh-cron",
-              "commit": "34e209cb12f699f0fc165ceb8a111c8c56f0f463"
+              "url": "https://github.com/MatriQ/rea-gp",
+              "commit": "84e1ffa00b01ff6a925076cb856c27da5837b6e1"
             },
             "engines": {
-              "dsh": ">=0.1.0-rc.6 <0.1.1 || >=0.1.1-rc.1 <0.1.2 || >=0.1.2-alpha.1 <1.0.0"
+              "dsh": "^0.2.2-rc.1"
             }
           }
         ]
       }
     },
     {
-      "target": "@goodandready/dsh-cron",
+      "target": "dsh-rea-gp@0.1.0",
       "origin": "npm",
-      "name": "@goodandready/dsh-cron",
+      "name": "dsh-rea-gp",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "@goodandready/dsh-cron",
-        "title": "@goodandready/dsh-cron",
-        "description": "Background automation runner for DSH: isolated agent runs, script/HTTP/SSH/Docker runtimes, cost guard, notifications, heartbeats.",
-        "homepage": "https://github.com/GooDAnDReaDY/dsh-cron#readme",
+        "name": "dsh-rea-gp",
+        "title": "dsh-rea-gp",
+        "description": "Android game package acquisition and Google Play dependency workflows for DeepSeek Harness",
+        "author": "Matri Qi",
+        "homepage": "https://github.com/MatriQ/rea-gp#readme",
         "repository": {
-          "url": "https://github.com/GooDAnDReaDY/dsh-cron"
+          "url": "https://github.com/MatriQ/rea-gp"
         },
         "metadata": {
           "keywords": [
-            "dsh",
             "dsh-plugin",
-            "cron",
-            "scheduler",
-            "automation",
-            "deepseek-harness"
+            "deepseek-harness",
+            "android",
+            "agent-skill"
           ]
         },
         "versions": [
           {
-            "version": "0.3.47",
-            "publishTimestamp": 1794675884,
+            "version": "0.1.0",
+            "publishTimestamp": 1794281465,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
             },
             "engines": {
-              "dsh": ">=0.1.0-rc.6 <0.1.1 || >=0.1.1-rc.1 <0.1.2 || >=0.1.2-alpha.1 <1.0.0"
+              "dsh": "^0.2.2-rc.1"
             }
           }
         ]
       },
-      "registrySha256": "a0e422c83fbf533053ee7b44a149a93d7c4c19e37f828ee6ebbeb154bf221376",
+      "registrySha256": "e273b5df9a1847361b3bbb9e070038713ec0d57222633983f4a2cf8958249fc7",
       "evidence": [
         {
-          "name": "@goodandready/dsh-cron",
-          "version": "0.3.47",
-          "tarball": "https://registry.npmjs.org/@goodandready/dsh-cron/-/dsh-cron-0.3.47.tgz",
-          "integrity": "sha512-lJKRJby+jxPwTMHjhtrVgC7+iDpSfBb+KwC2Nn+XxChFgEkB1DaFGRc+kWnrZZAil6LY0A20b6GhJ/u9Ci+d6Q=="
+          "name": "dsh-rea-gp",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-rea-gp/-/dsh-rea-gp-0.1.0.tgz",
+          "integrity": "sha512-TFnMtWIhMmmCGUxw09aNfhlo0ngWTQ0e7+Emnw5oxAE0J8FOvrlIOOjjKR3O3Wz2eMoB3J6FZQCMjA9B3hPkmw=="
         }
       ],
       "diagnostics": [],
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true
+      "declaredCompatibleWithHost": false
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "@goodandready/dsh-cron",
+      "target": "dsh-rea-gp@0.1.0",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/GooDAnDReaDY/dsh-cron",
-    "commit": "34e209cb12f699f0fc165ceb8a111c8c56f0f463",
-    "releaseTags": 119,
+    "url": "https://github.com/MatriQ/rea-gp",
+    "commit": "84e1ffa00b01ff6a925076cb856c27da5837b6e1",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:23:54.660Z"
+  "finishedAt": "2026-11-16T05:31:20.833Z"
 }

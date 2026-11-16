@@ -1,39 +1,49 @@
 {
-  "full_name": "Chael-Chael/dsh-ascii-whales",
+  "full_name": "NeoHotaru/dsh-read-animation",
   "originalPosition": 161,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 161,
   "batch": 1,
-  "stargazers_count": 20,
-  "startedAt": "2026-11-16T05:22:29.392Z",
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T05:29:37.847Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "8142f1ad97cfbe78ecb82cacdcbb9800dd289eb6b17b345eda092dde36a153d3",
-      "url": "https://github.com/Chael-Chael/dsh-ascii-whales/blob/df873d4f4532c0b96730034076c43bcba60a6107/README.md",
+      "sha256": "9fa9ca58d8be15fdfc9ee0e7f91fa7b03487282f630f63b5ba04e929738dcdd1",
+      "url": "https://github.com/NeoHotaru/dsh-read-animation/blob/d3b92f1a666970cbb2be2ba6b2c9115048390960/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-ascii-whales",
-          "command": "dsh plugin --profile web add dsh-ascii-whales",
+          "install": "dsh-read-animation",
+          "command": "dsh plugin --profile web add dsh-read-animation",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/NeoHotaru/dsh-read-animation#v0.1.0",
+          "command": "dsh plugin --profile web add github:NeoHotaru/dsh-read-animation#v0.1.0",
           "profile": "web"
         }
       ]
     },
     {
-      "path": "README.en.md",
-      "sha256": "2090a961141ec05f49fa83e9420b055730816487c4625cde8772a230bbe485e5",
-      "url": "https://github.com/Chael-Chael/dsh-ascii-whales/blob/df873d4f4532c0b96730034076c43bcba60a6107/README.en.md",
+      "path": "README.zh.md",
+      "sha256": "f46e95638cd2c5c795f2e003e47dff32bd77fc2e76e0af6437c6ac2081457f03",
+      "url": "https://github.com/NeoHotaru/dsh-read-animation/blob/d3b92f1a666970cbb2be2ba6b2c9115048390960/README.zh.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "dsh-ascii-whales",
-          "command": "dsh plugin --profile web add dsh-ascii-whales",
+          "install": "dsh-read-animation",
+          "command": "dsh plugin --profile web add dsh-read-animation",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/NeoHotaru/dsh-read-animation#v0.1.0",
+          "command": "dsh plugin --profile web add github:NeoHotaru/dsh-read-animation#v0.1.0",
           "profile": "web"
         }
       ]
@@ -42,97 +52,170 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-ascii-whales",
-      "version": "0.1.7",
+      "name": "dsh-read-animation",
+      "version": "0.1.2",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/Chael-Chael/dsh-ascii-whales",
-        "commit": "df873d4f4532c0b96730034076c43bcba60a6107"
+        "url": "https://github.com/NeoHotaru/dsh-read-animation",
+        "commit": "d3b92f1a666970cbb2be2ba6b2c9115048390960"
       },
-      "manifestSha256": "d66dd8f067fdd6fa199035c5f36bcbffeb8ea7f93eed1b74654a8b1dd2961337",
-      "manifestUrl": "https://github.com/Chael-Chael/dsh-ascii-whales/blob/df873d4f4532c0b96730034076c43bcba60a6107/package.json",
+      "manifestSha256": "1c412ae2102ad111c805931f20c8c01299db055738123f1283df8ef491eb791f",
+      "manifestUrl": "https://github.com/NeoHotaru/dsh-read-animation/blob/d3b92f1a666970cbb2be2ba6b2c9115048390960/package.json",
       "status": "eligible_metadata",
-      "declaredRange": null,
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null,
+      "declaredRange": ">=0.1.3-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
       "plugin": {
-        "name": "dsh-ascii-whales",
+        "name": "dsh-read-animation",
         "versions": [
           {
-            "version": "0.1.7",
-            "publishTimestamp": 1794741153,
+            "version": "0.1.2",
+            "publishTimestamp": 1794145098,
             "source": {
               "type": "git",
-              "url": "https://github.com/Chael-Chael/dsh-ascii-whales",
-              "commit": "df873d4f4532c0b96730034076c43bcba60a6107"
+              "url": "https://github.com/NeoHotaru/dsh-read-animation",
+              "commit": "d3b92f1a666970cbb2be2ba6b2c9115048390960"
+            },
+            "engines": {
+              "dsh": ">=0.1.3-alpha.2"
             }
           }
         ]
       }
     },
     {
-      "target": "dsh-ascii-whales",
+      "target": "dsh-read-animation",
       "origin": "npm",
-      "name": "dsh-ascii-whales",
+      "name": "dsh-read-animation",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "dsh-ascii-whales",
-        "title": "dsh-ascii-whales",
-        "description": "Let whales drift through the quiet. An ASCII ocean and neutral frosted glass for DeepSeek Harness.",
+        "name": "dsh-read-animation",
+        "title": "dsh-read-animation",
+        "description": "Let a DeepSeek Harness agent actually see an animated GIF or animated WebP: decode every frame, sample the animation across time, and hand the model a labelled sequence of real frames instead of the single first frame the harness otherwise delivers.",
+        "author": "NeoHotaru",
+        "homepage": "https://github.com/NeoHotaru/dsh-read-animation#readme",
         "repository": {
-          "url": "https://github.com/Chael-Chael/dsh-ascii-whales"
+          "url": "https://github.com/NeoHotaru/dsh-read-animation"
         },
         "metadata": {
           "keywords": [
+            "dsh",
             "dsh-plugin",
             "deepseek-harness",
-            "deepseek",
-            "ascii",
-            "whales",
-            "theme"
+            "deepseek-harness-plugin",
+            "gif",
+            "animation",
+            "animated-webp",
+            "frames",
+            "vision",
+            "multimodal"
           ]
         },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkZvdXIgZnJhbWVzIG9mIG9uZSBhbmltYXRpb24sIHdpdGggdGhlIHN1YmplY3QgZ3Jvd2luZyBhY3Jvc3MgdGhlbSI+CiAgPCEtLQogICAgVGhlIHBsdWdpbidzIHdob2xlIGlkZWEgaW4gb25lIG1hcms6IG9uZSBhbmltYXRpb24gc2hvd24gYXMgYSBncmlkIG9mIGZyYW1lcwogICAgb3ZlciB0aW1lLCB3aXRoIHRoZSBzdWJqZWN0IGNoYW5naW5nIGFjcm9zcyB0aGVtLgoKICAgIERyYXduIGZvciB0aGUgc2l6ZSBpdCBpcyBhY3R1YWxseSByZW5kZXJlZCBhdCwgcm91Z2hseSA0MHB4IG9uIGEgYnVuZGxlIGNhcmQ6CiAgICBmb3VyIGJvbGQgc2hhcGVzLCBubyBncmFkaWVudHMsIG5vIHRleHQsIG5vdGhpbmcgdGhhdCB0dXJucyB0byBtdXNoLiBUaGUKICAgIGJhY2tncm91bmQgaXMgYSBtaWQtdG9uZSB0aWxlIHNvIHRoZSBtYXJrIHJlYWRzIG9uIGJvdGggYSBsaWdodCBhbmQgYSBkYXJrCiAgICBjYXJkLCBhbmQgdGhlIGZyYW1lcyBpbnNpZGUgY2FycnkgdGhlIGNvbnRyYXN0LgogIC0tPgogIDxyZWN0IHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgcng9IjIxIiBmaWxsPSIjMjYzMzNGIi8+CiAgPGcgZmlsbD0iI0VERjJGOCI+CiAgICA8cmVjdCB4PSIxMCIgeT0iMTAiIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgcng9IjciLz4KICAgIDxyZWN0IHg9IjUwIiB5PSIxMCIgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByeD0iNyIvPgogICAgPHJlY3QgeD0iMTAiIHk9IjUwIiB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHJ4PSI3Ii8+CiAgICA8cmVjdCB4PSI1MCIgeT0iNTAiIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgcng9IjciLz4KICA8L2c+CiAgPCEtLQogICAgVGhlIHN1YmplY3QgZ3Jvd3MgYWNyb3NzIHRoZSBmb3VyIG1vbWVudHMuIFNpemUgaXMgYSBwcm9wZXJ0eSB0aGUgZXllIHJlYWRzCiAgICBldmVuIHdoZW4gaXQgc2NhbnMgYSBncmlkIG91dCBvZiBvcmRlciwgd2hpY2ggYSBwb3NpdGlvbiBjaGFuZ2UgaXMgbm90OiBpbiBhCiAgICAyeDIgbGF5b3V0LCByZWFkaW5nIG9yZGVyIGp1bXBzIGZyb20gdGhlIHRvcCByaWdodCBiYWNrIHRvIHRoZSBib3R0b20gbGVmdCwgc28KICAgIGZvdXIgZG90cyBlYWNoIG1vdmluZyBpbnNpZGUgdGhlaXIgb3duIGZyYW1lIHJlYWQgYXMgZm91ciB1bnJlbGF0ZWQgdGhpbmdzLgogIC0tPgogIDxnIGZpbGw9IiMyNjMzM0YiPgogICAgPGNpcmNsZSBjeD0iMjgiIGN5PSIyOCIgcj0iNSIvPgogICAgPGNpcmNsZSBjeD0iNjgiIGN5PSIyOCIgcj0iNyIvPgogICAgPGNpcmNsZSBjeD0iMjgiIGN5PSI2OCIgcj0iOSIvPgogIDwvZz4KICA8IS0tIFRoZSBsYXN0IHNhbXBsZWQgbW9tZW50IGlzIHRoZSBvbmUgdGhlIHNoZWV0IGNhbGxzIG91dCwgc28gaXQgaXMgdGhlIG9uZQogICAgICAgc2hhcGUgaW4gdGhlIG1hcmsgdGhhdCBpcyBub3QgZ3JleXNjYWxlLiAtLT4KICA8Y2lyY2xlIGN4PSI2OCIgY3k9IjY4IiByPSIxMSIgZmlsbD0iI0M5NzYxQiIvPgo8L3N2Zz4K",
         "versions": [
           {
-            "version": "0.1.7",
-            "publishTimestamp": 1794741265,
+            "version": "0.1.2",
+            "publishTimestamp": 1794145422,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.3-alpha.2"
             }
           }
         ]
       },
-      "registrySha256": "246ab0e7e4f781c270207a8d84176cec07aea1f6aebc6692baa7ece14f8ef824",
+      "registrySha256": "11ea8a3a104d92ec91e42a36e850e0fa5c26cbe41060c520e2cb94f39f3fd958",
       "evidence": [
         {
-          "name": "dsh-ascii-whales",
-          "version": "0.1.7",
-          "tarball": "https://registry.npmjs.org/dsh-ascii-whales/-/dsh-ascii-whales-0.1.7.tgz",
-          "integrity": "sha512-BbXCZT3cijRYCQYXQpp5CIbzrmZ0aPJCBcBtoLukg0nZa/tAJn9dhtkNofWVqBf8qqckWCtOA9RQg3Z5ds0CYQ=="
+          "name": "dsh-read-animation",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-read-animation/-/dsh-read-animation-0.1.2.tgz",
+          "integrity": "sha512-Hgdwb0epp1y6lzcI/ZZcarHOmpAd5ednsQNzesvrWabW9X+lisCsky5a67KHbeGoR/TqD5ImTMTsZHGOFtMPrQ=="
         }
       ],
       "diagnostics": [],
-      "compatibilityUnconstrained": true,
-      "declaredCompatibleWithHost": null
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/NeoHotaru/dsh-read-animation#v0.1.0",
+      "origin": "git_target",
+      "name": "dsh-read-animation",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-read-animation",
+        "title": "dsh-read-animation",
+        "description": "Let a DeepSeek Harness agent actually see an animated GIF or animated WebP: decode every frame, sample the animation across time, and hand the model a labelled sequence of real frames instead of the single first frame the harness otherwise delivers.",
+        "author": "NeoHotaru",
+        "homepage": "https://github.com/NeoHotaru/dsh-read-animation#readme",
+        "repository": {
+          "url": "https://github.com/NeoHotaru/dsh-read-animation"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek-harness-plugin",
+            "gif",
+            "animation",
+            "animated-webp",
+            "frames",
+            "vision",
+            "multimodal"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791983749,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NeoHotaru/dsh-read-animation",
+              "commit": "9931b380439bc0344845dfe8a0da59c5c5e296a7"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "9931b380439bc0344845dfe8a0da59c5c5e296a7",
+          "name": "dsh-read-animation",
+          "version": "0.1.0",
+          "url": "https://github.com/NeoHotaru/dsh-read-animation",
+          "manifestSha256": "009a2d82306a5d07a8695d29f8831e24bf09bb11b572cfb3aea82b81c8dbda19",
+          "publishTimestamp": 1791983749
+        }
+      ]
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "dsh-ascii-whales",
+      "target": "dsh-read-animation",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/NeoHotaru/dsh-read-animation#v0.1.0",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/Chael-Chael/dsh-ascii-whales",
-    "commit": "df873d4f4532c0b96730034076c43bcba60a6107",
-    "releaseTags": 8,
+    "url": "https://github.com/NeoHotaru/dsh-read-animation",
+    "commit": "d3b92f1a666970cbb2be2ba6b2c9115048390960",
+    "releaseTags": 3,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:22:38.961Z"
+  "finishedAt": "2026-11-16T05:29:53.650Z"
 }

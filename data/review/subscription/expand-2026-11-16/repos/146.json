@@ -1,39 +1,25 @@
 {
-  "full_name": "LuYanFCP/dsh-kicad",
+  "full_name": "wee-b/disk-sentinel",
   "originalPosition": 146,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 146,
   "batch": 1,
-  "stargazers_count": 21,
-  "startedAt": "2026-11-16T05:21:50.484Z",
+  "stargazers_count": 19,
+  "startedAt": "2026-11-16T05:28:59.495Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "cfcdd847070648505edfc25b1c1fcb3939cf7327c52dab761248cb5e288d18c6",
-      "url": "https://github.com/LuYanFCP/dsh-kicad/blob/e0f1d21a5de694eed1a9571f6440692543dc5970/README.md",
+      "sha256": "23c6e90cd83634953a20dad3a7f4d5ea0aedeac3cae4b72bcd7d38ebca985dd6",
+      "url": "https://github.com/wee-b/disk-sentinel/blob/e6e8c051e3be54cc409d8897ea7020a3c0d1f203/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/LuYanFCP/dsh-kicad",
-          "command": "dsh plugin --profile web add https://github.com/LuYanFCP/dsh-kicad",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "README.zh.md",
-      "sha256": "5977820904a715da9ff527d637701cc06822d1ec42943486711d1b54c535bc8c",
-      "url": "https://github.com/LuYanFCP/dsh-kicad/blob/e0f1d21a5de694eed1a9571f6440692543dc5970/README.zh.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "https://github.com/LuYanFCP/dsh-kicad",
-          "command": "dsh plugin --profile web add https://github.com/LuYanFCP/dsh-kicad",
+          "install": "git+https://github.com/wee-b/disk-sentinel.git",
+          "command": "dsh plugin --profile web add git+https://github.com/wee-b/disk-sentinel.git",
           "profile": "web"
         }
       ]
@@ -42,35 +28,54 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-kicad",
-      "version": "0.6.0",
+      "name": "@dsh-plugin/disk-sentinel",
+      "version": "0.1.1",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/LuYanFCP/dsh-kicad",
-        "commit": "e0f1d21a5de694eed1a9571f6440692543dc5970"
+        "url": "https://github.com/wee-b/disk-sentinel",
+        "commit": "e6e8c051e3be54cc409d8897ea7020a3c0d1f203"
       },
-      "manifestSha256": "de61df21d62e6513bd6cd7a69edfa5110c1a8ac7ac6bd97a5c15db9ff32e48bc",
-      "manifestUrl": "https://github.com/LuYanFCP/dsh-kicad/blob/e0f1d21a5de694eed1a9571f6440692543dc5970/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
+      "manifestSha256": "28b55da92bf9530ccecf4df7ceffb6c81393bd6e22e92623f3577703f1106b65",
+      "manifestUrl": "https://github.com/wee-b/disk-sentinel/blob/e6e8c051e3be54cc409d8897ea7020a3c0d1f203/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2 || 0.1.5-rc.2 || 0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-plugin/disk-sentinel",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1790842097,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wee-b/disk-sentinel",
+              "commit": "e6e8c051e3be54cc409d8897ea7020a3c0d1f203"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2 || 0.1.5-rc.2 || 0.2.0-rc.2"
+            }
+          }
+        ]
+      }
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "https://github.com/LuYanFCP/dsh-kicad",
+      "target": "git+https://github.com/wee-b/disk-sentinel.git",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/LuYanFCP/dsh-kicad",
-    "commit": "e0f1d21a5de694eed1a9571f6440692543dc5970",
-    "releaseTags": 0,
+    "url": "https://github.com/wee-b/disk-sentinel",
+    "commit": "e6e8c051e3be54cc409d8897ea7020a3c0d1f203",
+    "releaseTags": 1,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "no_eligible_bundle_found",
-  "finishedAt": "2026-11-16T05:21:59.437Z"
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-16T05:29:06.809Z"
 }

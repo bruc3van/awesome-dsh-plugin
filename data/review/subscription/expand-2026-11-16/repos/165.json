@@ -1,140 +1,226 @@
 {
-  "full_name": "huliux/dsh-asr-plugin",
+  "full_name": "drscrewdriver/dsh-context-compression-improved",
   "originalPosition": 165,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 165,
   "batch": 1,
-  "stargazers_count": 20,
-  "startedAt": "2026-11-16T05:22:40.630Z",
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T05:29:53.163Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "d7720f7fb9e54441783ea2e245bc2521c6530d89c7fb9989e9436af965307ef5",
-      "url": "https://github.com/huliux/dsh-asr-plugin/blob/547669c03fd98469e94c69ea181ec8ada9291605/README.md",
+      "sha256": "f35e34263f2c19c2de9ad84f67a74c703e4f3aee2b6743336048d10050e17d32",
+      "url": "https://github.com/drscrewdriver/dsh-context-compression-improved/blob/16fa5cacb9f87fbd17c1261519b7e1489e9b822c/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "@huliux/dsh-asr-plugin@0.1.6",
-          "command": "dsh plugin --profile web add --ignore-scripts @huliux/dsh-asr-plugin@0.1.6",
+          "install": "dsh-context-compression-improved@latest",
+          "command": "dsh plugin --profile web add dsh-context-compression-improved@latest",
           "profile": "web"
         }
       ]
     },
     {
-      "path": "README.zh-CN.md",
-      "sha256": "4480561060735e80cdb7545dd7b22fed2633716ed6a16a23cdc133ec50727414",
-      "url": "https://github.com/huliux/dsh-asr-plugin/blob/547669c03fd98469e94c69ea181ec8ada9291605/README.zh-CN.md",
-      "ambiguous": false,
-      "localOnly": false,
-      "targets": [
-        {
-          "install": "@huliux/dsh-asr-plugin@0.1.6",
-          "command": "dsh plugin --profile web add --ignore-scripts @huliux/dsh-asr-plugin@0.1.6",
-          "profile": "web"
-        }
-      ]
-    },
-    {
-      "path": "assets/screenshots/README.md",
-      "sha256": "f3da6a456a8fd8be724efb4b535a6aefe5bca19d6ab664b904e7c88b850717ac",
-      "url": "https://github.com/huliux/dsh-asr-plugin/blob/547669c03fd98469e94c69ea181ec8ada9291605/assets/screenshots/README.md",
+      "path": "README.zh.md",
+      "sha256": "c05ccaec1161b1ede56e4578954aec8aaded89f307255b4407ea182fa81bd13d",
+      "url": "https://github.com/drscrewdriver/dsh-context-compression-improved/blob/16fa5cacb9f87fbd17c1261519b7e1489e9b822c/README.zh.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": []
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "962bc7ac54c2b30e1f18b15ddc479ba2e0617c34048fda6d718f39f0f059ad4d",
+      "url": "https://github.com/drscrewdriver/dsh-context-compression-improved/blob/16fa5cacb9f87fbd17c1261519b7e1489e9b822c/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.ko.md",
+      "sha256": "e9e1f4de5ffc430b74825356ddb4084111b8679ea0db2ced351ee3c2e467e68c",
+      "url": "https://github.com/drscrewdriver/dsh-context-compression-improved/blob/16fa5cacb9f87fbd17c1261519b7e1489e9b822c/README.ko.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.fr.md",
+      "sha256": "86d03e5506068af6979a20355ac8a749631f7ce59fce91d83e58f2dbcbae8ada",
+      "url": "https://github.com/drscrewdriver/dsh-context-compression-improved/blob/16fa5cacb9f87fbd17c1261519b7e1489e9b822c/README.fr.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-context-compression-improved@latest",
+          "command": "dsh plugin --profile web add dsh-context-compression-improved@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.de.md",
+      "sha256": "e7564e180a231559fec38f45cda0d350ce11a54ea3afad4d89d180c5faacd482",
+      "url": "https://github.com/drscrewdriver/dsh-context-compression-improved/blob/16fa5cacb9f87fbd17c1261519b7e1489e9b822c/README.de.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-context-compression-improved@latest",
+          "command": "dsh plugin --profile web add dsh-context-compression-improved@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.it.md",
+      "sha256": "a07f777ed4e11291250367020a2e688649a847d89cc9e475396eb1749ab705ae",
+      "url": "https://github.com/drscrewdriver/dsh-context-compression-improved/blob/16fa5cacb9f87fbd17c1261519b7e1489e9b822c/README.it.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-context-compression-improved@latest",
+          "command": "dsh plugin --profile web add dsh-context-compression-improved@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "4e27fee4e5fdd70a60c8923f97ff9adffdd14e39dfbd0b733ea2ffb2673a958f",
+      "url": "https://github.com/drscrewdriver/dsh-context-compression-improved/blob/16fa5cacb9f87fbd17c1261519b7e1489e9b822c/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-context-compression-improved@latest",
+          "command": "dsh plugin --profile web add dsh-context-compression-improved@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "98b639b0b92e34d668c896f2834cb4b904750a954b0e29fac942a51332880901",
+      "url": "https://github.com/drscrewdriver/dsh-context-compression-improved/blob/16fa5cacb9f87fbd17c1261519b7e1489e9b822c/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-context-compression-improved@latest",
+          "command": "dsh plugin --profile web add dsh-context-compression-improved@latest",
+          "profile": "web"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "@huliux/dsh-asr-plugin",
-      "version": "0.1.6",
+      "name": "dsh-context-compression-improved",
+      "version": "0.11.3",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/huliux/dsh-asr-plugin",
-        "commit": "547669c03fd98469e94c69ea181ec8ada9291605"
+        "url": "https://github.com/drscrewdriver/dsh-context-compression-improved",
+        "commit": "16fa5cacb9f87fbd17c1261519b7e1489e9b822c"
       },
-      "manifestSha256": "0220049e7360f7b92daae0ed3996baeb45ff5c8990377f3533256c4f841284aa",
-      "manifestUrl": "https://github.com/huliux/dsh-asr-plugin/blob/547669c03fd98469e94c69ea181ec8ada9291605/package.json",
-      "status": "private_package",
-      "reason": "包声明 private: true，不作为订阅安装候选"
+      "manifestSha256": "d418c9d0e24ac1be8aa52bcb3e172e71b457b6a422c064f036eaac14ecf46de9",
+      "manifestUrl": "https://github.com/drscrewdriver/dsh-context-compression-improved/blob/16fa5cacb9f87fbd17c1261519b7e1489e9b822c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-context-compression-improved",
+        "versions": [
+          {
+            "version": "0.11.3",
+            "publishTimestamp": 1794748046,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-context-compression-improved",
+              "commit": "16fa5cacb9f87fbd17c1261519b7e1489e9b822c"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
     },
     {
-      "target": "@huliux/dsh-asr-plugin@0.1.6",
+      "target": "dsh-context-compression-improved@latest",
       "origin": "npm",
-      "name": "@huliux/dsh-asr-plugin",
+      "name": "dsh-context-compression-improved",
       "status": "eligible_metadata",
       "plugin": {
-        "name": "@huliux/dsh-asr-plugin",
-        "title": {
-          "en": "DSH ASR (macOS)",
-          "zh": "DSH ASR（macOS）"
-        },
-        "description": {
-          "en": "Local recording and meeting transcription. Apple Silicon Mac only.",
-          "zh": "本地录音与会议转写，仅支持 Apple Silicon Mac。"
-        },
-        "author": "huliux",
-        "homepage": "https://huliux.github.io/dsh-asr-plugin/",
+        "name": "dsh-context-compression-improved",
+        "title": "dsh-context-compression-improved",
+        "description": "One-install context-compression selector bundle for DeepSeek Harness",
+        "author": "WilliamShi666",
+        "homepage": "https://github.com/drscrewdriver/dsh-context-compression-improved#readme",
         "repository": {
-          "url": "https://github.com/huliux/dsh-asr-plugin"
+          "url": "https://github.com/drscrewdriver/dsh-context-compression-improved",
+          "directory": "packages/selector"
         },
         "metadata": {
           "keywords": [
-            "dsh-plugin",
-            "deepseek-harness",
-            "asr",
-            "meeting-transcription",
-            "local-transcription"
+            "deepseek",
+            "harness",
+            "context",
+            "compression",
+            "plugin"
           ]
         },
         "versions": [
           {
-            "version": "0.1.6",
-            "publishTimestamp": 1793891938,
+            "version": "0.11.3",
+            "publishTimestamp": 1794748181,
             "source": {
               "type": "npm",
               "registry": "https://registry.npmjs.org/"
             },
             "engines": {
-              "dsh": "0.2.0-rc.2 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.5 || >=0.2.2-rc.1 <0.2.3-0"
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
             }
           }
         ]
       },
-      "registrySha256": "5eead6f6605bf94aa84b947c57c0b0406581a4217ce758281b1fad9f5abf1243",
+      "registrySha256": "c0ceeaaa6bad0347182889eb934f5bf03649a03d5a603dd36b9c6c55dba95e23",
       "evidence": [
         {
-          "name": "@huliux/dsh-asr-plugin",
-          "version": "0.1.6",
-          "tarball": "https://registry.npmjs.org/@huliux/dsh-asr-plugin/-/dsh-asr-plugin-0.1.6.tgz",
-          "integrity": "sha512-lVSVTjxkmzhX7aTwhAEVD70+AothQWm2fJTGDyGmFDzhiOwy2FnyxBOracHo1CrzjAPStpb9iLV4aMAHRPCqOA=="
+          "name": "dsh-context-compression-improved",
+          "version": "0.11.3",
+          "tarball": "https://registry.npmjs.org/dsh-context-compression-improved/-/dsh-context-compression-improved-0.11.3.tgz",
+          "integrity": "sha512-VWLv9erjchhzijV/W/3nvyy/dNW+R1O/7scCJ2yaWR5ZBeWls9ddzXEqvT0Fcix0XZkS/zLgoXhE75wCMTMjXw=="
         }
       ],
       "diagnostics": [],
       "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": false
+      "declaredCompatibleWithHost": true
     }
   ],
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "@huliux/dsh-asr-plugin@0.1.6",
+      "target": "dsh-context-compression-improved@latest",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/huliux/dsh-asr-plugin",
-    "commit": "547669c03fd98469e94c69ea181ec8ada9291605",
-    "releaseTags": 6,
+    "url": "https://github.com/drscrewdriver/dsh-context-compression-improved",
+    "commit": "16fa5cacb9f87fbd17c1261519b7e1489e9b822c",
+    "releaseTags": 13,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:22:54.449Z"
+  "finishedAt": "2026-11-16T05:30:19.214Z"
 }

@@ -1,69 +1,81 @@
 {
-  "full_name": "AnacondaKC/dsh-stock-market",
+  "full_name": "yinhcao/yinchao-ai-music-skill",
   "originalPosition": 143,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 143,
   "batch": 1,
-  "stargazers_count": 21,
-  "startedAt": "2026-11-16T05:21:42.900Z",
+  "stargazers_count": 20,
+  "startedAt": "2026-11-16T05:28:53.806Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "c9c84638dc9e6b1b2458eed69d6b12d0e0622d4eb3fd6cad9ad58772df4cc892",
-      "url": "https://github.com/AnacondaKC/dsh-stock-market/blob/02278af12330102c534c843a668d1c8407dbde1b/README.md",
+      "sha256": "d8aa21a3bacc9b982c2059be6defa47e3ec1069ffe33010c8222f9e2ffbeafed",
+      "url": "https://github.com/yinhcao/yinchao-ai-music-skill/blob/4f7b013d9ea07559a1875ad2db330c4f6de27b00/README.md",
       "ambiguous": false,
-      "localOnly": true,
-      "targets": []
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yinhcao/yinchao-ai-music-skill",
+          "command": "dsh plugin --profile web add github:yinhcao/yinchao-ai-music-skill",
+          "profile": "web"
+        }
+      ]
     }
   ],
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "dsh-stock-market",
-      "version": "0.2.0",
+      "name": "yinchao-ai-music",
+      "version": "1.6.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/AnacondaKC/dsh-stock-market",
-        "commit": "02278af12330102c534c843a668d1c8407dbde1b"
+        "url": "https://github.com/yinhcao/yinchao-ai-music-skill",
+        "commit": "4f7b013d9ea07559a1875ad2db330c4f6de27b00"
       },
-      "manifestSha256": "52e7260e1282c61b552fb4c2ac49b728601ffe83b6551fbe36a3fe7863359600",
-      "manifestUrl": "https://github.com/AnacondaKC/dsh-stock-market/blob/02278af12330102c534c843a668d1c8407dbde1b/package.json",
+      "manifestSha256": "4c6281246ebd36d6c71198d4bf9d5c381d403fc92cda9d51ab0815c8063605dc",
+      "manifestUrl": "https://github.com/yinhcao/yinchao-ai-music-skill/blob/4f7b013d9ea07559a1875ad2db330c4f6de27b00/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.0.1-rc.5",
+      "declaredRange": "^0.1.0-rc.6 || ^0.1.1-rc.1",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "dsh-stock-market",
+        "name": "yinchao-ai-music",
         "versions": [
           {
-            "version": "0.2.0",
-            "publishTimestamp": 1786602388,
+            "version": "1.6.0",
+            "publishTimestamp": 1792120821,
             "source": {
               "type": "git",
-              "url": "https://github.com/AnacondaKC/dsh-stock-market",
-              "commit": "02278af12330102c534c843a668d1c8407dbde1b"
+              "url": "https://github.com/yinhcao/yinchao-ai-music-skill",
+              "commit": "4f7b013d9ea07559a1875ad2db330c4f6de27b00"
             },
             "engines": {
-              "dsh": "^0.0.1-rc.5"
+              "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1"
             }
           }
         ]
       }
     }
   ],
-  "mappingFindings": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yinhcao/yinchao-ai-music-skill",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/AnacondaKC/dsh-stock-market",
-    "commit": "02278af12330102c534c843a668d1c8407dbde1b",
-    "releaseTags": 1,
+    "url": "https://github.com/yinhcao/yinchao-ai-music-skill",
+    "commit": "4f7b013d9ea07559a1875ad2db330c4f6de27b00",
+    "releaseTags": 7,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:21:50.192Z"
+  "finishedAt": "2026-11-16T05:29:01.676Z"
 }

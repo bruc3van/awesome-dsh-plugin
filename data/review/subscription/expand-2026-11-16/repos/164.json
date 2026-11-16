@@ -1,123 +1,42 @@
 {
-  "full_name": "anye-99/dsh-codearts-auth",
+  "full_name": "YMRYMR/deepseek-peak",
   "originalPosition": 164,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 164,
   "batch": 1,
-  "stargazers_count": 20,
-  "startedAt": "2026-11-16T05:22:38.963Z",
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T05:29:49.479Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "634bdc612feca86e141ae15e2a3296a2113620b48cd413eb7ea9758f2bdec759",
-      "url": "https://github.com/anye-99/dsh-codearts-auth/blob/686658793c982cd0e1baedbcfa10a396ce5d1a09/README.md",
+      "sha256": "d19af0e9139fc52b268e192f4e26141a87ff6b3d937762b1dcfacf51e7630d39",
+      "url": "https://github.com/YMRYMR/deepseek-peak/blob/07fd9ff6106b671dbcfbb9efac4b433c779491d3/README.md",
       "ambiguous": false,
       "localOnly": false,
-      "targets": [
-        {
-          "install": "https://gitee.com/iJetLi/deepseek-harness-codearts.git",
-          "command": "dsh plugin --profile <name> add \"https://gitee.com/iJetLi/deepseek-harness-codearts.git\"",
-          "profile": "default"
-        }
-      ]
+      "targets": []
     }
   ],
-  "candidates": [
-    {
-      "origin": "repository_discovery",
-      "name": "dsh-codearts-auth",
-      "version": "0.1.0",
-      "path": "",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/anye-99/dsh-codearts-auth",
-        "commit": "686658793c982cd0e1baedbcfa10a396ce5d1a09"
-      },
-      "manifestSha256": "feef2ba54cf178f7edd007cc79e3e4dd95aa2085a213b6af1eb16606c8ced37f",
-      "manifestUrl": "https://github.com/anye-99/dsh-codearts-auth/blob/686658793c982cd0e1baedbcfa10a396ce5d1a09/package.json",
-      "status": "eligible_metadata",
-      "declaredRange": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1",
-      "compatibilityUnconstrained": false,
-      "declaredCompatibleWithHost": true,
-      "plugin": {
-        "name": "dsh-codearts-auth",
-        "versions": [
-          {
-            "version": "0.1.0",
-            "publishTimestamp": 1791890152,
-            "source": {
-              "type": "git",
-              "url": "https://github.com/anye-99/dsh-codearts-auth",
-              "commit": "686658793c982cd0e1baedbcfa10a396ce5d1a09"
-            },
-            "engines": {
-              "dsh": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "target": "https://gitee.com/iJetLi/deepseek-harness-codearts.git",
-      "origin": "git_target",
-      "name": "dsh-providers-hub",
-      "status": "eligible_metadata",
-      "plugin": {
-        "name": "dsh-providers-hub",
-        "title": {
-          "en": "Jet Hub",
-          "zh": "Jet Hub"
-        },
-        "description": {
-          "en": "Sign in and manage accounts across multiple providers, with multi-account pools, silent credential refresh, per-model list toggles, credit balances and daily check-in.",
-          "zh": "登录并管理多家渠道账号，支持多账号池、凭据静默续期、模型列表开关、积分余额与每日签到。"
-        },
-        "versions": [
-          {
-            "version": "0.2.1-rc.3",
-            "publishTimestamp": 1794787519,
-            "source": {
-              "type": "git",
-              "url": "https://gitee.com/iJetLi/deepseek-harness-codearts",
-              "commit": "664db471f2e1b0a5507a6039c16162c2b11a402b"
-            },
-            "engines": {
-              "dsh": "^0.1.2-rc.1 || ^0.1.7-rc.2 || ^0.2.0-rc.1 || ^0.2.1-rc.2 || ^0.2.2-rc.1"
-            }
-          }
-        ]
-      },
-      "evidence": [
-        {
-          "path": "",
-          "commit": "664db471f2e1b0a5507a6039c16162c2b11a402b",
-          "name": "dsh-providers-hub",
-          "version": "0.2.1-rc.3",
-          "url": "https://gitee.com/iJetLi/deepseek-harness-codearts",
-          "manifestSha256": "b38ae7407bc683bcd604a9267ca33ebe89fa880df6e4b576ce1da8976cf37024",
-          "publishTimestamp": 1794787519
-        }
-      ]
-    }
-  ],
-  "mappingFindings": [
-    {
-      "code": "documented_target_not_mapped",
-      "target": "https://gitee.com/iJetLi/deepseek-harness-codearts.git",
-      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
-    }
-  ],
+  "candidates": [],
+  "mappingFindings": [],
   "errors": [],
   "repository": {
-    "url": "https://github.com/anye-99/dsh-codearts-auth",
-    "commit": "686658793c982cd0e1baedbcfa10a396ce5d1a09",
+    "url": "https://github.com/YMRYMR/deepseek-peak",
+    "commit": "07fd9ff6106b671dbcfbb9efac4b433c779491d3",
     "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
-  "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:22:54.860Z"
+  "rootManifest": {
+    "name": "deepseek-peak",
+    "version": "0.1.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=18"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-16T05:29:58.166Z"
 }

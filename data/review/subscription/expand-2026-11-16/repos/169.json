@@ -1,25 +1,25 @@
 {
-  "full_name": "yinhcao/yinchao-ai-music-skill",
+  "full_name": "hachimi-ai/dsh-aemeath",
   "originalPosition": 169,
   "inputMode": "unmapped",
   "mappedTargets": [],
   "manualNote": null,
   "ordinal": 169,
   "batch": 1,
-  "stargazers_count": 20,
-  "startedAt": "2026-11-16T05:22:48.688Z",
+  "stargazers_count": 17,
+  "startedAt": "2026-11-16T05:30:01.056Z",
   "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
   "readmes": [
     {
       "path": "README.md",
-      "sha256": "d8aa21a3bacc9b982c2059be6defa47e3ec1069ffe33010c8222f9e2ffbeafed",
-      "url": "https://github.com/yinhcao/yinchao-ai-music-skill/blob/4f7b013d9ea07559a1875ad2db330c4f6de27b00/README.md",
+      "sha256": "3d6fea90fffe4c643f402f9775cf1b6fe2df164cf14821bdcbbe5a7b1417c6be",
+      "url": "https://github.com/hachimi-ai/dsh-aemeath/blob/f58eef75dcadb5aeaee9e78542e7e1d9ba43f821/README.md",
       "ambiguous": false,
       "localOnly": false,
       "targets": [
         {
-          "install": "https://github.com/yinhcao/yinchao-ai-music-skill",
-          "command": "dsh plugin --profile web add github:yinhcao/yinchao-ai-music-skill",
+          "install": "git+https://github.com/hachimi-ai/dsh-aemeath",
+          "command": "dsh plugin --profile web add git+https://github.com/hachimi-ai/dsh-aemeath",
           "profile": "web"
         }
       ]
@@ -28,33 +28,33 @@
   "candidates": [
     {
       "origin": "repository_discovery",
-      "name": "yinchao-ai-music",
-      "version": "1.6.0",
+      "name": "dsh-aemeath",
+      "version": "0.1.0",
       "path": "",
       "source": {
         "type": "git",
-        "url": "https://github.com/yinhcao/yinchao-ai-music-skill",
-        "commit": "4f7b013d9ea07559a1875ad2db330c4f6de27b00"
+        "url": "https://github.com/hachimi-ai/dsh-aemeath",
+        "commit": "f58eef75dcadb5aeaee9e78542e7e1d9ba43f821"
       },
-      "manifestSha256": "4c6281246ebd36d6c71198d4bf9d5c381d403fc92cda9d51ab0815c8063605dc",
-      "manifestUrl": "https://github.com/yinhcao/yinchao-ai-music-skill/blob/4f7b013d9ea07559a1875ad2db330c4f6de27b00/package.json",
+      "manifestSha256": "8e1c21786f5cbca030c24e5624c3c4e8b0c995091da2f67d9a6a2b3887e26862",
+      "manifestUrl": "https://github.com/hachimi-ai/dsh-aemeath/blob/f58eef75dcadb5aeaee9e78542e7e1d9ba43f821/package.json",
       "status": "eligible_metadata",
-      "declaredRange": "^0.1.0-rc.6 || ^0.1.1-rc.1",
+      "declaredRange": "^0.1.0-rc.6",
       "compatibilityUnconstrained": false,
       "declaredCompatibleWithHost": false,
       "plugin": {
-        "name": "yinchao-ai-music",
+        "name": "dsh-aemeath",
         "versions": [
           {
-            "version": "1.6.0",
-            "publishTimestamp": 1792120821,
+            "version": "0.1.0",
+            "publishTimestamp": 1786898271,
             "source": {
               "type": "git",
-              "url": "https://github.com/yinhcao/yinchao-ai-music-skill",
-              "commit": "4f7b013d9ea07559a1875ad2db330c4f6de27b00"
+              "url": "https://github.com/hachimi-ai/dsh-aemeath",
+              "commit": "f58eef75dcadb5aeaee9e78542e7e1d9ba43f821"
             },
             "engines": {
-              "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1"
+              "dsh": "^0.1.0-rc.6"
             }
           }
         ]
@@ -64,18 +64,18 @@
   "mappingFindings": [
     {
       "code": "documented_target_not_mapped",
-      "target": "https://github.com/yinhcao/yinchao-ai-music-skill",
+      "target": "git+https://github.com/hachimi-ai/dsh-aemeath",
       "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
     }
   ],
   "errors": [],
   "repository": {
-    "url": "https://github.com/yinhcao/yinchao-ai-music-skill",
-    "commit": "4f7b013d9ea07559a1875ad2db330c4f6de27b00",
-    "releaseTags": 7,
+    "url": "https://github.com/hachimi-ai/dsh-aemeath",
+    "commit": "f58eef75dcadb5aeaee9e78542e7e1d9ba43f821",
+    "releaseTags": 0,
     "reader": "github_objects_api"
   },
   "discoveryWarnings": [],
   "outcome": "mapping_can_be_added",
-  "finishedAt": "2026-11-16T05:22:55.808Z"
+  "finishedAt": "2026-11-16T05:30:08.271Z"
 }
