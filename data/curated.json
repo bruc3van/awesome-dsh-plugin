@@ -208,7 +208,8 @@
     "Fengdan123-123/film-showcase": "成片展示工作台：把 AI 视频的提示词、场景图、白模、调度图、成片五个环节放进 DSH Desktop 侧栏的同一块面板，素材仍是磁盘上的普通文件夹。",
     "SuShuoran/dsh-wechat-135": "在 135 编辑器里生产公众号推文：把「135 编辑器 + 微信公众号排版」链路变成 agent 可调用的工具，浏览器操作全部走本机 Chrome DevTools Protocol。",
     "Yixianqzm/dsh-go-memory-panel": "可塑性记忆 · DSH Go 手机面板：把 deepseek-plastic-memory 的记忆库搬进 DSH Go 手机 App 原生界面，对话里即可翻分区、处理待审、跑遗忘曲线，与网页版共用同一份数据文件。",
-    "jiaxusummer/dsh-window-mem": "让 DeepSeek Harness 桌面版记住主窗口的尺寸、位置与最大化状态：怎么关，下次启动就什么样；窗口一出现即套用，可分别关闭某项记忆。Windows only。"
+    "jiaxusummer/dsh-window-mem": "让 DeepSeek Harness 桌面版记住主窗口的尺寸、位置与最大化状态：怎么关，下次启动就什么样；窗口一出现即套用，可分别关闭某项记忆。Windows only。",
+    "liangzz1998/dsh-desktop-restart": "让 Agent 自己重启 DeepSeek Harness 桌面端（restart_dsh 工具 + 优雅/WMI 兜底两条重启通道），并给托盘右键菜单加一项「重启 DeepSeek Harness」。"
   },
   "leaderboard_exclusions": {
     "01men/kizuna": "Kept out of the star board: a self-hosted agent relay/delivery network (hub+box+web console, Docker/Caddy); the DSH plugin is its console panel — dual-host distribution. Stays in the catalog.",
@@ -399,7 +400,6 @@
     "Diluka/dsh-agent-plugin-market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "dingchenhui0618-arch/dsh-market-sidebar": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "divisioncassini05-lab/find-nyaa-anime-release": "Kept out of the star board: dual-host — the same core ships as a Codex Skill and a DSH plugin side by side. Stays in the catalog.",
-    "Djokovical5294/DeepSeek-Harness-Token-Free": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "dlssjdyka0019/dsh-launcher": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "DoctorxPriestess/dsh-status-indicator": "Kept out of the star board: a Windows system-tray companion (PowerShell) for a local dsh web instance, not an installable DSH plugin. Stays in the catalog.",
     "DolphinMiner/deepseek-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -753,7 +753,6 @@
     "MoonlitDropOfBlood/DSH-Desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "MoonlitDropOfBlood/dsh-remote-control": "Kept out of the star board: a multi-part system — HarmonyOS remote app + relay + the DSH plugin; the phone app is the main deliverable. Stays in the catalog.",
     "MoonLoordSaMa/dsh-starr": "Kept out of the star board: a remote/IM form — a two-way QQ (SnowLuma) + Bilibili companion-bot face with shared character memory. Stays in the catalog.",
-    "moonwellxh/DSH-Launcher": "Kept out of the star board: a desktop launcher/tray form — a one-click launcher generator plus system tray for starting DSH, not a host plugin. Stays in the catalog.",
     "moyuqing-man/dsh-plugin-community-source": "Kept out of the star board: a community/ratings layer rendering plugin detail pages inside DSH — a plugin-center experience; the market cannot include another market. Stays in the catalog.",
     "mrbbbaixue/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "MRevenger/dsh-skillhub-market": "Kept out of the star board: a DSH plugin market / directory / store — the market cannot include another market. Stays in the catalog.",
@@ -1313,7 +1312,10 @@
     "LeoAndJellyfish/dsh-plugin-index": "Kept out of the star board: a hand-maintained plugin index published as a Discover-tab index source — the market cannot include another market. Stays in the catalog.",
     "jiyuchen1/dsh-pluginmarket-plus": "Kept out of the star board: a plugin-market index cache/mirror for the in-client Discover tab — the market cannot include another market. Stays in the catalog.",
     "jusspound-netizen/dsh-edge-market": "Kept out of the star board: a curated plugin-market index source for the Discover tab (top-20 from the dsh.so registry) — the market cannot include another market. Stays in the catalog.",
-    "mysteriousPldq/dsh-market-seed": "Kept out of the star board: a plugin-market index seeder — installs community market index sources into the in-client Discover tab — the market cannot include another market. Stays in the catalog."
+    "mysteriousPldq/dsh-market-seed": "Kept out of the star board: a plugin-market index seeder — installs community market index sources into the in-client Discover tab — the market cannot include another market. Stays in the catalog.",
+    "scarletkc/Hatoba": "Kept out of the star board: an open-source desktop SSH client (Tauri product with its own site and Scoop/AUR packages); its DSH plugin (hatoba-agent-plugin) is a companion skill host and the ~6.5★/day growth accrued as a general-purpose SSH client, not via the DSH plugin. Stays in the catalog.",
+    "bruc3van/dsh-desktop-pro": "Kept out of the star board: a third-party Electron desktop client wrapping the official Web UI (desktop shell/client form). Stays in the catalog.",
+    "haiwenxiang061-dev/dsh-plugins": "Kept out of the star board: a plugin-market index (format-1 market.json) published as a Discover-tab index source — the market cannot include another market. Stays in the catalog."
   },
   "excluded_repos": {
     "01men/CDPP": "Not a DSH plugin — a cross-border document-processing platform repo (no README, no DSH install path).",
@@ -2950,7 +2952,13 @@
     "panda11445/dsh-purge-go": "不是常规插件——dsh-purge 破甲家族的 dsh-Go / Android 移植版（自述原作者 YuJunZhiXue）；沿家族剔除先例",
     "ssacko510-stack/dsh-purge-fork": "不是常规插件——dsh-purge 破甲家族社区分支（自述「破甲」插件、86 条宿主补丁、徽章指向已剔除的 kingcharleslzy-ai/dsh-purge）；沿家族剔除先例",
     "jusspound-netizen/dsh-trends-finder": "Not a DSH plugin — a standalone zero-dependency Python CLI that prints dsh.so registry trend reports (top downloads / top stars); no DSH install path.",
-    "ADWMC/helm-d": "不是常规插件——破甲（jailbreak）插件：README 自述「DeepSeek Harness 的破甲安全分析插件」，四档破甲人格热切换（ds4.1f / stealth / redteam-max / gpt-6x）+ 流式拒绝拦截计数 + 工作台「破甲」页，topics 自带 jailbreak / llm-jailbreak；「安全分析」为委婉包装，与 chs-1108/dsh-purge 同型，2026-08-17 的核准早于家族剔除先例，本轮以 1283★ 冲入 Top 20（#20）触发告警复查；沿 dsh-purge 破甲家族剔除先例"
+    "ADWMC/helm-d": "不是常规插件——破甲（jailbreak）插件：README 自述「DeepSeek Harness 的破甲安全分析插件」，四档破甲人格热切换（ds4.1f / stealth / redteam-max / gpt-6x）+ 流式拒绝拦截计数 + 工作台「破甲」页，topics 自带 jailbreak / llm-jailbreak；「安全分析」为委婉包装，与 chs-1108/dsh-purge 同型，2026-08-17 的核准早于家族剔除先例，本轮以 1283★ 冲入 Top 20（#20）触发告警复查；沿 dsh-purge 破甲家族剔除先例",
+    "Bytedesk/bytedesk": "Not a DSH plugin — a self-hosted omnichannel customer-service / team-IM platform (Java/Spring Boot monorepo; MySQL + Elasticsearch + Artemis, Docker Compose deploy) that lists DeepSeek only as one of its LLM providers; no DSH install path (topic rider).",
+    "huajikano/dsh-feibi-breaker": "不是常规插件——破限（jailbreak）插件：系统提示词层注入塑形规则（内置规则打包为 payload.bin 不以明文分发）+ llm/stream 拒绝流拦截（命中即把回复扣在会话之外）+ 破限成功率自测（真实模型调用测「通过率」）；与 ADWMC/helm-d、chs-1108/dsh-purge 同型，沿破甲家族剔除先例",
+    "show-thesky/bing": "不是常规插件——README 自述「破dsh甲」学习仓库：安装的 pierce 工具做提示词组装层注入与探测（persona 探测 / 端点探测 / 历史污染），「仅供研究」声明不改变其破甲形态；沿破甲家族剔除先例",
+    "xiaotianya14/apk-reverse-skill": "Not a DSH plugin — an Android APK reverse-engineering toolkit of standalone bash scripts (decode / decompile / ad-cleanup / patch / re-sign); no DSH plugin install path documented.",
+    "awychoi/cue9": "Not a DSH plugin — a macOS control app for the cue9 ESP-32 desk-companion hardware (companion tooling); the DSH plugin body lives in the sibling repo dsh-cue9-mote, approved separately.",
+    "admin6a/dsh-sidebar-extension": "Not a DSH plugin — a Chrome side-panel extension plus a local proxy that embeds the DSH web page in the browser (companion browser extension); no installable DSH plugin."
   },
   "market_exclusions": {
     "0326/dsh-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -3096,7 +3104,6 @@
     "diamondfsd/deepseek-harness-desktop": "Not an installable DSH plugin — an Electron desktop packaging of the official Web app; stays in the catalog and leaderboard, excluded from the downstream market.",
     "Diluka/dsh-agent-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "dingchenhui0618-arch/dsh-market-sidebar": "A plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market.",
-    "Djokovical5294/DeepSeek-Harness-Token-Free": "Not an installable DSH plugin — a desktop shell/Electron GUI wrapper; stays in the catalog and leaderboard, excluded from the downstream market.",
     "dlssjdyka0019/dsh-launcher": "Not an installable DSH plugin — a Windows desktop launcher managing multiple DSH instances; stays in the catalog and leaderboard, excluded from the downstream market.",
     "dmsobtl/star-harness": "Not an installable DSH plugin — an independent NPC-agent game framework that embeds dsh as its runtime; stays in the catalog and leaderboard, excluded from the downstream market.",
     "DolphinMiner/deepseek-desktop": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -3729,6 +3736,7 @@
     "LeoAndJellyfish/dsh-plugin-index": "A hand-maintained plugin index published as a Discover-tab index source (index.json for 插件 → 发现) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "jiyuchen1/dsh-pluginmarket-plus": "Caches and serves a local mirror of the plugin-market index JSON to the in-client Discover tab — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "jusspound-netizen/dsh-edge-market": "A curated plugin-market index source for the Discover tab (top-20 from the dsh.so registry) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "mysteriousPldq/dsh-market-seed": "A plugin-market index seeder for the in-client Discover tab (installs community market index sources) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    "mysteriousPldq/dsh-market-seed": "A plugin-market index seeder for the in-client Discover tab (installs community market index sources) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "haiwenxiang061-dev/dsh-plugins": "Publishes a plugin-market index (format-1 market.json) for the in-client Discover tab covering its own dsh-arcgispro / dsh-envi / dsh-prompt-complete plugins — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
   }
 }

@@ -66,5 +66,6 @@
   "op7418/dsh-guizang-design": "Guizang design suite: four skills — web slides, image-text cards, web typography and de-AI-flavor rewriting — sharing one design system, with a work gallery, content workflow and tone profiles.",
   "SAOS-3624/dsh-see-now": "See Now real-time vision plugin: lets the AI actually see your screen, camera or video files — frames are filtered by change volume and packed into one stitched image for the model, so a still screen costs almost nothing while motion earns frames.",
   "aureth-labs/dsh-aurabot-qq": "Aurabot (Big Fat Fish): moves the AI in DSH into QQ as a persona with moods and memory — chat, image understanding, voice, stickers, singing, QZone posts, Bilibili; every capability is a pluggable module and all are off by default — not a word goes out until you switch them on.",
-  "fourzkw/dsh-drawai": "DrawAI canvas: an editable drawing canvas in the DSH right sidebar, with two extra tools that let the model redraw and edit images directly."
+  "fourzkw/dsh-drawai": "DrawAI canvas: an editable drawing canvas in the DSH right sidebar, with two extra tools that let the model redraw and edit images directly.",
+  "Nwflower/dsh-claude-style": "Theme plugin that recreates the Claude Code Desktop look and interaction feel inside DeepSeek Harness."
 }
