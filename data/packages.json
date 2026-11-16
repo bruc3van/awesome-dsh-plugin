@@ -10659,6 +10659,29 @@
       "verified_via": "README + npm registry",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
+    "realroc/dsh-screensaver": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-screensaver",
+          "source": "npm:dsh-screensaver",
+          "command": "dsh plugin --profile web add dsh-screensaver"
+        },
+        {
+          "profile": "web",
+          "install": "dsh-screensaver-theme-subspace",
+          "source": "npm:dsh-screensaver-theme-subspace",
+          "command": "dsh plugin --profile web add dsh-screensaver-theme-subspace"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README@main + npm registry",
+      "requirements": [
+        "仅支持 macOS 12+，Node.js 22+；摸一下解锁需要 Touch ID 和 Xcode 命令行工具。",
+        "dsh-screensaver-theme-subspace 是可选主题包，依赖 dsh-screensaver。"
+      ]
+    },
     "realyujie/dsh-us-stocks": {
       "packages": [
         {
