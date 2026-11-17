@@ -1,0 +1,144 @@
+{
+  "full_name": "LiuMengxuan04/oh-my-dsh",
+  "originalPosition": 61,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 61,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-17T08:12:31.775Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4e65096ec0b5198b0609978bb15bc94650029f873acd105106575d8e30b06d2b",
+      "url": "https://github.com/LiuMengxuan04/oh-my-dsh/blob/fa770d7ab2a5a393952d7e11ed59d016e7ccaa55/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-autopilot@next",
+          "command": "dsh plugin --profile web add dsh-autopilot@next",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "d835cedfaad0a155c81e65ca4b7c46c8ce78c0768bf1595c7150c3538ea661f9",
+      "url": "https://github.com/LiuMengxuan04/oh-my-dsh/blob/fa770d7ab2a5a393952d7e11ed59d016e7ccaa55/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-autopilot@next",
+          "command": "dsh plugin --profile web add dsh-autopilot@next",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-autopilot",
+      "version": "0.1.0-alpha.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LiuMengxuan04/oh-my-dsh",
+        "commit": "fa770d7ab2a5a393952d7e11ed59d016e7ccaa55"
+      },
+      "manifestSha256": "2b8054d4b8d196aed21ce11d1abeae534ab223186426fd1fd1b6257bc3435fec",
+      "manifestUrl": "https://github.com/LiuMengxuan04/oh-my-dsh/blob/fa770d7ab2a5a393952d7e11ed59d016e7ccaa55/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-autopilot",
+        "versions": [
+          {
+            "version": "0.1.0-alpha.3",
+            "publishTimestamp": 1786770188,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LiuMengxuan04/oh-my-dsh",
+              "commit": "fa770d7ab2a5a393952d7e11ed59d016e7ccaa55"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-autopilot@next",
+      "origin": "npm",
+      "name": "dsh-autopilot",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-autopilot",
+        "title": "dsh-autopilot",
+        "description": "Bounded autonomous orchestration and dynamic Cordis self-extension for DeepSeek Harness",
+        "homepage": "https://github.com/LiuMengxuan04/dsh-autopilot#readme",
+        "repository": {
+          "url": "https://github.com/LiuMengxuan04/dsh-autopilot"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "cordis",
+            "autonomous-agents",
+            "developer-tools"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0-alpha.3",
+            "publishTimestamp": 1786768017,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "89220c1bbf44579deb1512eb84e87d219c8835306f7184752ccb18d46c24bd23",
+      "evidence": [
+        {
+          "name": "dsh-autopilot",
+          "version": "0.1.0-alpha.3",
+          "tarball": "https://registry.npmjs.org/dsh-autopilot/-/dsh-autopilot-0.1.0-alpha.3.tgz",
+          "integrity": "sha512-jVEoP7GLHU5aWlTWYJxnTrZj19d3drt3wm6PiVtTyoJQ12nD90Ilv/AzGmrh1xQj/IC0GDxSPbokEgZIykyezQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-autopilot@next",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LiuMengxuan04/oh-my-dsh",
+    "commit": "fa770d7ab2a5a393952d7e11ed59d016e7ccaa55",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:34.483Z"
+}

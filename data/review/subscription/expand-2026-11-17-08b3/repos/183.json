@@ -1,0 +1,170 @@
+{
+  "full_name": "Linjiangxian0203/dsh-remote-tunnel",
+  "originalPosition": 183,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 183,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:21.704Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "90f0e88f36d3b2cc7838af15b6e8c86adcc7ecfc1f2e86d35941cb54347af665",
+      "url": "https://github.com/Linjiangxian0203/dsh-remote-tunnel/blob/1aa98d00cc496477815b85b0fab5eac7eafa6024/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remote-tunnel",
+          "command": "dsh plugin --profile remote add dsh-remote-tunnel",
+          "profile": "remote"
+        },
+        {
+          "install": "dsh-remote-tunnel",
+          "command": "dsh plugin --profile web add dsh-remote-tunnel",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-remote-tunnel",
+          "command": "dsh plugin --profile desktop add dsh-remote-tunnel",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "406d2e7178c7f82ba7e6a7ec27c63b5075582f2b3e355e3eb5a6918355e824c2",
+      "url": "https://github.com/Linjiangxian0203/dsh-remote-tunnel/blob/1aa98d00cc496477815b85b0fab5eac7eafa6024/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-remote-tunnel",
+          "command": "dsh plugin --profile remote add dsh-remote-tunnel",
+          "profile": "remote"
+        },
+        {
+          "install": "dsh-remote-tunnel",
+          "command": "dsh plugin --profile web add dsh-remote-tunnel",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-remote-tunnel",
+          "command": "dsh plugin --profile desktop add dsh-remote-tunnel",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remote-tunnel",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Linjiangxian0203/dsh-remote-tunnel",
+        "commit": "1aa98d00cc496477815b85b0fab5eac7eafa6024"
+      },
+      "manifestSha256": "c95a8d1de255404723a53d6f57e2d5bcb782372b71ecc550d5ea45ec05e9628f",
+      "manifestUrl": "https://github.com/Linjiangxian0203/dsh-remote-tunnel/blob/1aa98d00cc496477815b85b0fab5eac7eafa6024/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.2-alpha.3 || ^0.1.7-rc.1 || ^0.2.0-rc.2 || ^0.2.1-rc.1 || ^0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-remote-tunnel",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1793893048,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Linjiangxian0203/dsh-remote-tunnel",
+              "commit": "1aa98d00cc496477815b85b0fab5eac7eafa6024"
+            },
+            "engines": {
+              "dsh": "^0.1.2-alpha.3 || ^0.1.7-rc.1 || ^0.2.0-rc.2 || ^0.2.1-rc.1 || ^0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-remote-tunnel",
+      "origin": "npm",
+      "name": "dsh-remote-tunnel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-remote-tunnel",
+        "title": {
+          "en": "Remote Tunnel (dsh-remote-tunnel)",
+          "zh": "远程隧道 (dsh-remote-tunnel)"
+        },
+        "description": {
+          "en": "Remote host tunnel manager: allocate a port on the server, run dsh web there via systemd, keep a self-healing SSH tunnel, and open the remote workspace in the sidebar Browser panel.",
+          "zh": "远程主机隧道管理:在服务器上分配端口并用 systemd 跑 dsh web,维持可自愈的 SSH 隧道,并把远端工作区开进侧边栏「浏览器」面板。"
+        },
+        "repository": {
+          "url": "https://github.com/Linjiangxian0203/dsh-remote-tunnel"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "ssh",
+            "tunnel",
+            "remote"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1793894124,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.2-alpha.3 || ^0.1.7-rc.1 || ^0.2.0-rc.2 || ^0.2.1-rc.1 || ^0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e0a3f1a2408e951315bd5b2bada7ce81e757c916d860617711a9ce251fc395e9",
+      "evidence": [
+        {
+          "name": "dsh-remote-tunnel",
+          "version": "0.2.2",
+          "tarball": "https://registry.npmjs.org/dsh-remote-tunnel/-/dsh-remote-tunnel-0.2.2.tgz",
+          "integrity": "sha512-dMvpn2toz5Gv3Apry1KM1Eya7Cvzk3hgIdwJkvsat18am/7N1OzfrDJIpDeTmbYxEBU1jz9CbTXGUUO0nnbE2Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-remote-tunnel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Linjiangxian0203/dsh-remote-tunnel",
+    "commit": "1aa98d00cc496477815b85b0fab5eac7eafa6024",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:24.243Z"
+}

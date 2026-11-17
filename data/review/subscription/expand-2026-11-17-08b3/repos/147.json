@@ -1,0 +1,105 @@
+{
+  "full_name": "CJYLZS/dsh-remote-development",
+  "originalPosition": 147,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:04.156Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7c79a150e328a533add83bc4c479b823966e54b335a1a5aeb6fa92b06349cffc",
+      "url": "https://github.com/CJYLZS/dsh-remote-development/blob/89b6b6c98a37001b3caded9ee2d6ecd9b9f16ac2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/CJYLZS/dsh-remote-development",
+          "command": "dsh plugin --profile web add github:CJYLZS/dsh-remote-development",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/CJYLZS/dsh-remote-development",
+          "command": "dsh plugin --profile desktop add github:CJYLZS/dsh-remote-development",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "4ec62288d769e63a088b23d2417ef49f99bfb60a1272b508aacb193af4950664",
+      "url": "https://github.com/CJYLZS/dsh-remote-development/blob/89b6b6c98a37001b3caded9ee2d6ecd9b9f16ac2/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/CJYLZS/dsh-remote-development",
+          "command": "dsh plugin --profile web add github:CJYLZS/dsh-remote-development",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/CJYLZS/dsh-remote-development",
+          "command": "dsh plugin --profile desktop add github:CJYLZS/dsh-remote-development",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-remote-development",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CJYLZS/dsh-remote-development",
+        "commit": "89b6b6c98a37001b3caded9ee2d6ecd9b9f16ac2"
+      },
+      "manifestSha256": "6e3ced7243974ca025b9d4dbe46e62d1b8ed5893b37ab610f427f5781b7e9c75",
+      "manifestUrl": "https://github.com/CJYLZS/dsh-remote-development/blob/89b6b6c98a37001b3caded9ee2d6ecd9b9f16ac2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-remote-development",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794638132,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CJYLZS/dsh-remote-development",
+              "commit": "89b6b6c98a37001b3caded9ee2d6ecd9b9f16ac2"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/CJYLZS/dsh-remote-development",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CJYLZS/dsh-remote-development",
+    "commit": "89b6b6c98a37001b3caded9ee2d6ecd9b9f16ac2",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:06.582Z"
+}

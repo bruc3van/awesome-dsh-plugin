@@ -1,0 +1,134 @@
+{
+  "full_name": "kc0ed/dsh-bottom-bar",
+  "originalPosition": 150,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 150,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:09.213Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b32a9371f0be942048962c5f8e1201a704dc3d288335fc551d5a6815f7b34938",
+      "url": "https://github.com/kc0ed/dsh-bottom-bar/blob/67abae5f49d0d2796d8bfe1fc6791d16119f2024/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@kc0ed/dsh-bottom-bar",
+          "command": "dsh plugin --profile web add @kc0ed/dsh-bottom-bar",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/kc0ed/dsh-bottom-bar",
+          "command": "dsh plugin --profile web add github:kc0ed/dsh-bottom-bar",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@kc0ed/dsh-bottom-bar",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kc0ed/dsh-bottom-bar",
+        "commit": "67abae5f49d0d2796d8bfe1fc6791d16119f2024"
+      },
+      "manifestSha256": "5fd6718ce7b67c262fd7fc9e8ebe341c6430e300891075d9215a1498c68fd0f1",
+      "manifestUrl": "https://github.com/kc0ed/dsh-bottom-bar/blob/67abae5f49d0d2796d8bfe1fc6791d16119f2024/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@kc0ed/dsh-bottom-bar",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1788414912,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kc0ed/dsh-bottom-bar",
+              "commit": "67abae5f49d0d2796d8bfe1fc6791d16119f2024"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@kc0ed/dsh-bottom-bar",
+      "origin": "npm",
+      "name": "@kc0ed/dsh-bottom-bar",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@kc0ed/dsh-bottom-bar",
+        "title": "@kc0ed/dsh-bottom-bar",
+        "description": "底栏统计设置：可组装的输入框下方统计行 + 预估费用（含 DeepSeek 峰谷定价）+ 自研持久化账本（客户端全量对账）+ 设置页（底栏）。",
+        "repository": {
+          "url": "https://github.com/kc0ed/dsh-bottom-bar"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "stats",
+            "cost-estimate",
+            "plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1787122639,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "58da453cc7f2cc0e787461dd49a5e75668c87262c7b55e5c0e2adbe69cbbc452",
+      "evidence": [
+        {
+          "name": "@kc0ed/dsh-bottom-bar",
+          "version": "1.1.0",
+          "tarball": "https://registry.npmjs.org/@kc0ed/dsh-bottom-bar/-/dsh-bottom-bar-1.1.0.tgz",
+          "integrity": "sha512-yH4WUay6PhLKmDRy3zUyBZ2+ZU9qqRFX8UKDnbgE/vVYEP6rNiblPeVqZBrW7/govnr8QHGKrlBcjl++a5z3Fw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@kc0ed/dsh-bottom-bar",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/kc0ed/dsh-bottom-bar",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kc0ed/dsh-bottom-bar",
+    "commit": "67abae5f49d0d2796d8bfe1fc6791d16119f2024",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:11.652Z"
+}

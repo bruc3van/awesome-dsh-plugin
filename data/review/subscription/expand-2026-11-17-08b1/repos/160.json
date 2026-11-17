@@ -1,0 +1,77 @@
+{
+  "full_name": "kvmem/dsh-super-advisor",
+  "originalPosition": 160,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 160,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-17T08:11:44.372Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "17576d9ca17db1236b762b08523d987028d3704ea26a875343df8894e347a295",
+      "url": "https://github.com/kvmem/dsh-super-advisor/blob/dc47128a7401550567eb25e5f6eea2636e0c2c24/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "be93e219348aa77954aaf12dbb485cc013953bd3d4b6e414a133912fb7b960f2",
+      "url": "https://github.com/kvmem/dsh-super-advisor/blob/dc47128a7401550567eb25e5f6eea2636e0c2c24/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-super-advisor",
+      "version": "0.1.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kvmem/dsh-super-advisor",
+        "commit": "dc47128a7401550567eb25e5f6eea2636e0c2c24"
+      },
+      "manifestSha256": "eeb1bf19642afa78262c6d0609981446b3422b94143e5a533109eaf4223863b9",
+      "manifestUrl": "https://github.com/kvmem/dsh-super-advisor/blob/dc47128a7401550567eb25e5f6eea2636e0c2c24/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-alpha.4 || 0.1.2-alpha.5 || 0.1.2-rc.1 || 0.1.3-alpha.2 || 0.1.5-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-super-advisor",
+        "versions": [
+          {
+            "version": "0.1.11",
+            "publishTimestamp": 1789098615,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kvmem/dsh-super-advisor",
+              "commit": "dc47128a7401550567eb25e5f6eea2636e0c2c24"
+            },
+            "engines": {
+              "dsh": "0.1.2-alpha.4 || 0.1.2-alpha.5 || 0.1.2-rc.1 || 0.1.3-alpha.2 || 0.1.5-alpha.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kvmem/dsh-super-advisor",
+    "commit": "dc47128a7401550567eb25e5f6eea2636e0c2c24",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:11:46.845Z"
+}

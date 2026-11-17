@@ -1,0 +1,48 @@
+{
+  "full_name": "dclichang2022/dsh-green-meter",
+  "originalPosition": 16,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 16,
+  "batch": 1,
+  "stargazers_count": 92,
+  "startedAt": "2026-11-17T08:10:43.008Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "84a8bc85b3157415bca7b0e0e1970c497967259ab2adf43fe458eb2f97ae36d2",
+      "url": "https://github.com/dclichang2022/dsh-green-meter/blob/73b61dd3b5e0fc165310d0dfb85ff8673b87958c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b1e3deb96cfc74dcb0c2e09903d863631eb7061c9e3f5edfac339476f7dcb564",
+      "url": "https://github.com/dclichang2022/dsh-green-meter/blob/73b61dd3b5e0fc165310d0dfb85ff8673b87958c/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dclichang2022/dsh-green-meter",
+    "commit": "73b61dd3b5e0fc165310d0dfb85ff8673b87958c",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "green-dsh-desktop",
+    "version": "0.1.3",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:10:45.694Z"
+}

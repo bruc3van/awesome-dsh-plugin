@@ -1,0 +1,40 @@
+{
+  "full_name": "Bin-hy/dsh",
+  "originalPosition": 58,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 58,
+  "batch": 1,
+  "stargazers_count": 26,
+  "startedAt": "2026-11-17T08:10:59.752Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "016896e45daffe037e86dd3db6604f4f4bbdf6e94c8140c6e07e23d2232a32ed",
+      "url": "https://github.com/Bin-hy/dsh/blob/185c657aa2b0e5903d27c2c9e400047c0e46664e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Bin-hy/dsh",
+    "commit": "185c657aa2b0e5903d27c2c9e400047c0e46664e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-deep-dive",
+    "version": "1.0.0",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:01.723Z"
+}

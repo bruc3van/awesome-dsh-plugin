@@ -1,0 +1,146 @@
+{
+  "full_name": "luoshuizhiwei/dsh-desktop-restart",
+  "originalPosition": 160,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 160,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:12.719Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6d0db6bfb2357819a1cec04cad3588596961a8ae572937b4c378aeb5f99ec768",
+      "url": "https://github.com/luoshuizhiwei/dsh-desktop-restart/blob/c0d54cd92bdc0bdf487570a125612962dbeb9b01/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@luoshuizhiwei/dsh-desktop-restart",
+          "command": "dsh plugin add @luoshuizhiwei/dsh-desktop-restart",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "359d8bf9532da96237944f7bb12d88ea4da2f011f2a0692e3171829f2361b2cb",
+      "url": "https://github.com/luoshuizhiwei/dsh-desktop-restart/blob/c0d54cd92bdc0bdf487570a125612962dbeb9b01/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@luoshuizhiwei/dsh-desktop-restart",
+          "command": "dsh plugin add @luoshuizhiwei/dsh-desktop-restart",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@luoshuizhiwei/dsh-desktop-restart",
+      "version": "0.4.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/luoshuizhiwei/dsh-desktop-restart",
+        "commit": "c0d54cd92bdc0bdf487570a125612962dbeb9b01"
+      },
+      "manifestSha256": "2808f54f042a8c0a5c5db61f6e91cf4fc3da24b97ae2f7d1dc4576e3b03dd2ff",
+      "manifestUrl": "https://github.com/luoshuizhiwei/dsh-desktop-restart/blob/c0d54cd92bdc0bdf487570a125612962dbeb9b01/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@luoshuizhiwei/dsh-desktop-restart",
+        "versions": [
+          {
+            "version": "0.4.11",
+            "publishTimestamp": 1794743944,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/luoshuizhiwei/dsh-desktop-restart",
+              "commit": "c0d54cd92bdc0bdf487570a125612962dbeb9b01"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@luoshuizhiwei/dsh-desktop-restart",
+      "origin": "npm",
+      "name": "@luoshuizhiwei/dsh-desktop-restart",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@luoshuizhiwei/dsh-desktop-restart",
+        "title": "@luoshuizhiwei/dsh-desktop-restart",
+        "description": "给 DSH 桌面版加一键重启：只结束 Electron 主进程，宿主优雅退出、会话照常落盘；有任务在跑先问你，装插件时硬拦；重启完告诉你停机多久。六个入口可关，另带登录体检、临时文件预览、隐藏反馈项。 One-click restart for DSH Desktop: ends only the main process so sessions flush, asks before interrupting, reports the downtime.",
+        "author": "luoshuizhiwei",
+        "homepage": "https://github.com/luoshuizhiwei/dsh-desktop-restart#readme",
+        "repository": {
+          "url": "https://github.com/luoshuizhiwei/dsh-desktop-restart"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "restart",
+            "desktop",
+            "electron"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.11",
+            "publishTimestamp": 1794744168,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "13261911e99b00eca1d0cc1dd0ed08d56697ca962d02072d39083c76e2be773b",
+      "evidence": [
+        {
+          "name": "@luoshuizhiwei/dsh-desktop-restart",
+          "version": "0.4.11",
+          "tarball": "https://registry.npmjs.org/@luoshuizhiwei/dsh-desktop-restart/-/dsh-desktop-restart-0.4.11.tgz",
+          "integrity": "sha512-QAyl3iO5bURW8ad+QAbD1975Oznyfon+eoyOR1ohIfbYE45IiGwsfIdBn3az5mn6+3/6BbhFp5q79wWDkQXJ5g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@luoshuizhiwei/dsh-desktop-restart",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/luoshuizhiwei/dsh-desktop-restart",
+    "commit": "c0d54cd92bdc0bdf487570a125612962dbeb9b01",
+    "releaseTags": 21,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:15.232Z"
+}

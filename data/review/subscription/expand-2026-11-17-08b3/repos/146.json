@@ -1,0 +1,50 @@
+{
+  "full_name": "CH3SH-LC/dsh-better-wechat",
+  "originalPosition": 146,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 146,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:04.091Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ace05da619e173ac4741e10151c7b861804071a5fb8991994aeab2306fb348d5",
+      "url": "https://github.com/CH3SH-LC/dsh-better-wechat/blob/f5e273af1f75b0b0e1a20447035def3ba9904393/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-wechat",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CH3SH-LC/dsh-better-wechat",
+        "commit": "f5e273af1f75b0b0e1a20447035def3ba9904393"
+      },
+      "manifestSha256": "0b97ed1705b87f14d436ce7f2434bc1d427a4df2e31f0aa1c805362f1dfe04af",
+      "manifestUrl": "https://github.com/CH3SH-LC/dsh-better-wechat/blob/f5e273af1f75b0b0e1a20447035def3ba9904393/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CH3SH-LC/dsh-better-wechat",
+    "commit": "f5e273af1f75b0b0e1a20447035def3ba9904393",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:16:06.176Z"
+}

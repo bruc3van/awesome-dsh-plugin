@@ -1,0 +1,58 @@
+{
+  "full_name": "Burns1028/moa-plus",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "stargazers_count": 167,
+  "startedAt": "2026-11-17T08:10:35.469Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1ed5cffc32eaeafd39c86b46b21426c9fe2115f2c01f9ee4247f4dbe15079dd6",
+      "url": "https://github.com/Burns1028/moa-plus/blob/6124b16760edded87dfec61313963d0fe11ed9f3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c239fd36363484eb56c52253d888988a6e446fefb65e194e2388980b769de882",
+      "url": "https://github.com/Burns1028/moa-plus/blob/6124b16760edded87dfec61313963d0fe11ed9f3/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-project-mode",
+      "version": "0.2.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Burns1028/moa-plus",
+        "commit": "6124b16760edded87dfec61313963d0fe11ed9f3"
+      },
+      "manifestSha256": "066ee431137cd36a790e17acd4204449c6eef3eb84a0c8ebfa4a05b23608b414",
+      "manifestUrl": "https://github.com/Burns1028/moa-plus/blob/6124b16760edded87dfec61313963d0fe11ed9f3/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Burns1028/moa-plus",
+    "commit": "6124b16760edded87dfec61313963d0fe11ed9f3",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:10:38.546Z"
+}

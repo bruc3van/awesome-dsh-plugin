@@ -1,0 +1,81 @@
+{
+  "full_name": "dhicoc/dsh-wuyun-liuqi",
+  "originalPosition": 130,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 130,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:01.194Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6bdd2c9736ac3831540bb353a8a231e4c9d7a90ce1d029758d51f3b486c37082",
+      "url": "https://github.com/dhicoc/dsh-wuyun-liuqi/blob/e4277a2455f4898dd51c4d39962f48b87b9fb00d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dhicoc/dsh-wuyun-liuqi",
+          "command": "dsh plugin add github:dhicoc/dsh-wuyun-liuqi",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dhicoc/dsh-wuyun-liuqi",
+      "version": "1.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dhicoc/dsh-wuyun-liuqi",
+        "commit": "e4277a2455f4898dd51c4d39962f48b87b9fb00d"
+      },
+      "manifestSha256": "373467c873169e75f9186834dbf681bf7b69614e7a5af0b35489a1f093eb4fca",
+      "manifestUrl": "https://github.com/dhicoc/dsh-wuyun-liuqi/blob/e4277a2455f4898dd51c4d39962f48b87b9fb00d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dhicoc/dsh-wuyun-liuqi",
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1791455906,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dhicoc/dsh-wuyun-liuqi",
+              "commit": "e4277a2455f4898dd51c4d39962f48b87b9fb00d"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/dhicoc/dsh-wuyun-liuqi",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dhicoc/dsh-wuyun-liuqi",
+    "commit": "e4277a2455f4898dd51c4d39962f48b87b9fb00d",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:03.324Z"
+}

@@ -1,0 +1,141 @@
+{
+  "full_name": "higekibaka/dsh-vertex-argon",
+  "originalPosition": 142,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:05.714Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e1fc756bc482ae067a98e995b88ace6cdca474ccf566220eb2662c5671506369",
+      "url": "https://github.com/higekibaka/dsh-vertex-argon/blob/cc0ea21cbdd2a1bfa84cb44aae2794bf3aa7da0f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-vertex-argon",
+          "command": "dsh plugin --profile desktop add dsh-vertex-argon",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vertex-argon",
+      "version": "2.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/higekibaka/dsh-vertex-argon",
+        "commit": "cc0ea21cbdd2a1bfa84cb44aae2794bf3aa7da0f"
+      },
+      "manifestSha256": "379ce70dbbb66358bf31b2e02428889e5668da5833dbdc2b8edcfdf32fc0a19d",
+      "manifestUrl": "https://github.com/higekibaka/dsh-vertex-argon/blob/cc0ea21cbdd2a1bfa84cb44aae2794bf3aa7da0f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-vertex-argon",
+        "versions": [
+          {
+            "version": "2.1.0",
+            "publishTimestamp": 1794687568,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/higekibaka/dsh-vertex-argon",
+              "commit": "cc0ea21cbdd2a1bfa84cb44aae2794bf3aa7da0f"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-vertex-argon",
+      "origin": "npm",
+      "name": "dsh-vertex-argon",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-vertex-argon",
+        "title": {
+          "en": "Gemini 4 Adapter",
+          "zh": "Gemini 4 Adapter"
+        },
+        "description": {
+          "en": "Official Vertex AI and Gemini API Gemini 4 adapter for DSH (Argon, Carbon and Hydrogen): resilient multi-hop long decode, explicit protocols and service tiers, background recovery, and request diagnostics.",
+          "zh": "面向 DSH 的 Gemini 4 官方双通道适配器（Vertex AI 与 Gemini API，覆盖 Argon、Carbon 与 Hydrogen 模型），支持 65K+ 多跳长解码、显式协议与服务层级、后台任务恢复及请求级诊断。"
+        },
+        "homepage": "https://github.com/higekibaka/dsh-vertex-argon#readme",
+        "repository": {
+          "url": "https://github.com/higekibaka/dsh-vertex-argon"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "vertex-ai",
+            "gemini",
+            "gemini-4-argon",
+            "gemini-4-carbon",
+            "gemini-4-hydrogen",
+            "plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTYiIGZpbGw9IiMxODIyMzIiLz48cG9seWdvbiBwb2ludHM9IjMyLDEwIDUxLDIxIDUxLDQzIDMyLDU0IDEzLDQzIDEzLDIxIiBmaWxsPSJub25lIiBzdHJva2U9IiM0ZGEzZmYiIHN0cm9rZS13aWR0aD0iMy41IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTMyIDE3IEMzMy44IDI1LjUgMzguNSAzMC4yIDQ3IDMyIEMzOC41IDMzLjggMzMuOCAzOC41IDMyIDQ3IEMzMC4yIDM4LjUgMjUuNSAzMy44IDE3IDMyIEMyNS41IDMwLjIgMzAuMiAyNS41IDMyIDE3IFoiIGZpbGw9IiM4YWI0ZjgiLz48L3N2Zz4K",
+        "versions": [
+          {
+            "version": "2.1.0",
+            "publishTimestamp": 1794687775,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "90f763c7e8b2b5ed662c778cef99fb98e257d0c3e963de807bab372474ae8c2d",
+      "evidence": [
+        {
+          "name": "dsh-vertex-argon",
+          "version": "2.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-vertex-argon/-/dsh-vertex-argon-2.1.0.tgz",
+          "integrity": "sha512-FpVTlxmJu0VLPzrwti5okjnWpLMAzERW9SP6QTNQDwCUJRUyCj7Vw7ewLUCd0f2ithWWs5naMNun+eAM9Qo53w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-vertex-argon",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/higekibaka/dsh-vertex-argon",
+    "commit": "cc0ea21cbdd2a1bfa84cb44aae2794bf3aa7da0f",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:07.891Z"
+}

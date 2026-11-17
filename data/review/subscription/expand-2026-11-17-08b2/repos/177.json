@@ -1,0 +1,95 @@
+{
+  "full_name": "sliverp/DeepSeek-harness-qqbot",
+  "originalPosition": 177,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 177,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:22.304Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "21cfafc1a4c736c4167ea7039845db39332e77cbdfe44bafb14d546bb973be55",
+      "url": "https://github.com/sliverp/DeepSeek-harness-qqbot/blob/691af8ca2ffc9a1d67784d49744565b08d936f5e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/sliverp/DeepSeek-harness-qqbot",
+          "command": "pnpm dsh plugin --profile web add github:sliverp/DeepSeek-harness-qqbot",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e0de462b19ac0f4cc9124278f7b56bf056f5eab13f5f3f78cac61b8660876dc2",
+      "url": "https://github.com/sliverp/DeepSeek-harness-qqbot/blob/691af8ca2ffc9a1d67784d49744565b08d936f5e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/sliverp/DeepSeek-harness-qqbot",
+          "command": "pnpm dsh plugin --profile web add github:sliverp/DeepSeek-harness-qqbot",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-harness-qqbot",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sliverp/DeepSeek-harness-qqbot",
+        "commit": "691af8ca2ffc9a1d67784d49744565b08d936f5e"
+      },
+      "manifestSha256": "b17d2b5df6acf45ed6311503a3d6ec6405ec1538c4e4696732482e58c317e6e3",
+      "manifestUrl": "https://github.com/sliverp/DeepSeek-harness-qqbot/blob/691af8ca2ffc9a1d67784d49744565b08d936f5e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.7",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "deepseek-harness-qqbot",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1787141579,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sliverp/DeepSeek-harness-qqbot",
+              "commit": "691af8ca2ffc9a1d67784d49744565b08d936f5e"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/sliverp/DeepSeek-harness-qqbot",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sliverp/DeepSeek-harness-qqbot",
+    "commit": "691af8ca2ffc9a1d67784d49744565b08d936f5e",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:24.626Z"
+}

@@ -1,0 +1,117 @@
+{
+  "full_name": "FeatherHunter/dsh-plugin-ui-debug",
+  "originalPosition": 158,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 158,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:10.480Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5a7a46b0092301fa13db596d0065e19bd2367476888fcf377167081f96a1a2f3",
+      "url": "https://github.com/FeatherHunter/dsh-plugin-ui-debug/blob/334b251b8e3d54883155b66b395a45a258847c17/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@feather_wch/dsh-plugin-ui-debug",
+          "command": "dsh plugin --profile web add @feather_wch/dsh-plugin-ui-debug",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@feather_wch/dsh-plugin-ui-debug",
+      "version": "0.0.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FeatherHunter/dsh-plugin-ui-debug",
+        "commit": "334b251b8e3d54883155b66b395a45a258847c17"
+      },
+      "manifestSha256": "ee866af529ab56a41741478e14e2da7a3a67ed7aa2981bec1cbd61e1b8c10fa7",
+      "manifestUrl": "https://github.com/FeatherHunter/dsh-plugin-ui-debug/blob/334b251b8e3d54883155b66b395a45a258847c17/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc <2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@feather_wch/dsh-plugin-ui-debug",
+        "versions": [
+          {
+            "version": "0.0.3",
+            "publishTimestamp": 1787399189,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/FeatherHunter/dsh-plugin-ui-debug",
+              "commit": "334b251b8e3d54883155b66b395a45a258847c17"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc <2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@feather_wch/dsh-plugin-ui-debug",
+      "origin": "npm",
+      "name": "@feather_wch/dsh-plugin-ui-debug",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@feather_wch/dsh-plugin-ui-debug",
+        "title": "@feather_wch/dsh-plugin-ui-debug",
+        "description": "DSH 插件 UI 调试器：给开发/测试 DSH 插件的 AI 提供真实浏览器驱动（Playwright）+ UI 查看/测试/验证/问题解决闭环工具(ui_shot/ui_drive)（dsh-plugin-ui-debug）",
+        "versions": [
+          {
+            "version": "0.0.2",
+            "publishTimestamp": 1787217055,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc <2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e2f9d4888e65add7eb075871ce51e03233a78495eb64f8dc3cfc63265b40f282",
+      "evidence": [
+        {
+          "name": "@feather_wch/dsh-plugin-ui-debug",
+          "version": "0.0.2",
+          "tarball": "https://registry.npmjs.org/@feather_wch/dsh-plugin-ui-debug/-/dsh-plugin-ui-debug-0.0.2.tgz",
+          "integrity": "sha512-hO8KWTQ15Qf191gETlMkz0acyuwI7aHcYWIdotwURGiU7Ygr0X2yDtGyO0tviNhYfKVrA3Jpe84FprSnw45e7A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@feather_wch/dsh-plugin-ui-debug",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FeatherHunter/dsh-plugin-ui-debug",
+    "commit": "334b251b8e3d54883155b66b395a45a258847c17",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:12.645Z"
+}

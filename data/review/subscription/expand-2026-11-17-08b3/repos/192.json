@@ -1,0 +1,66 @@
+{
+  "full_name": "MukiyoU/dsh-music-analyze",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:26.317Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "aa4ad7dced834f2bc63808daea48e51f7096fbfcc5506dbbc49f9762d5a10f61",
+      "url": "https://github.com/MukiyoU/dsh-music-analyze/blob/07792b7792ade95315f68cad33e8d7ab5ff303ea/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-music-analyze",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MukiyoU/dsh-music-analyze",
+        "commit": "07792b7792ade95315f68cad33e8d7ab5ff303ea"
+      },
+      "manifestSha256": "0de791d17db26934196d70c08325743069d5a76190e92aeb6a5427934db7056c",
+      "manifestUrl": "https://github.com/MukiyoU/dsh-music-analyze/blob/07792b7792ade95315f68cad33e8d7ab5ff303ea/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-music-analyze",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792553167,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MukiyoU/dsh-music-analyze",
+              "commit": "07792b7792ade95315f68cad33e8d7ab5ff303ea"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MukiyoU/dsh-music-analyze",
+    "commit": "07792b7792ade95315f68cad33e8d7ab5ff303ea",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:28.278Z"
+}

@@ -1,0 +1,48 @@
+{
+  "full_name": "bloodtmai-cmyk/dsh-ai-hub",
+  "originalPosition": 130,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 130,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-17T08:11:31.754Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6fc2ccabef5d27297db717d5e2324bf3289f83419a2e4cd66c44547be9a17882",
+      "url": "https://github.com/bloodtmai-cmyk/dsh-ai-hub/blob/3682721d488caae72e17daa47243e0616e301d06/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "3683b2c6b38c901d13c15bc491cb33af89ae0981a19867fb80fb64b31b838f02",
+      "url": "https://github.com/bloodtmai-cmyk/dsh-ai-hub/blob/3682721d488caae72e17daa47243e0616e301d06/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bloodtmai-cmyk/dsh-ai-hub",
+    "commit": "3682721d488caae72e17daa47243e0616e301d06",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:34.502Z"
+}

@@ -1,0 +1,81 @@
+{
+  "full_name": "Yui-Little/dsh-mobile-shell",
+  "originalPosition": 115,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 115,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:55.272Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "054046ccd14d48fa870c97b0158ff7ebd53ebcc48bf3d83fbefe8a5d655ee2be",
+      "url": "https://github.com/Yui-Little/dsh-mobile-shell/blob/145b283bfd645ae130fdb15abd6ced1c241a51f9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Yui-Little/dsh-mobile-shell",
+          "command": "dsh plugin --profile web add github:Yui-Little/dsh-mobile-shell",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mobile-shell",
+      "version": "0.1.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yui-Little/dsh-mobile-shell",
+        "commit": "145b283bfd645ae130fdb15abd6ced1c241a51f9"
+      },
+      "manifestSha256": "5398611aef2919d09262992e2f5325989b053831554ff42fcf9752a8a7a17610",
+      "manifestUrl": "https://github.com/Yui-Little/dsh-mobile-shell/blob/145b283bfd645ae130fdb15abd6ced1c241a51f9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-mobile-shell",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1787301812,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yui-Little/dsh-mobile-shell",
+              "commit": "145b283bfd645ae130fdb15abd6ced1c241a51f9"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Yui-Little/dsh-mobile-shell",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yui-Little/dsh-mobile-shell",
+    "commit": "145b283bfd645ae130fdb15abd6ced1c241a51f9",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:57.187Z"
+}

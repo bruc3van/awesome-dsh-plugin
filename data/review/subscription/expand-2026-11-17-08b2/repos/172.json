@@ -1,0 +1,95 @@
+{
+  "full_name": "radres/dsh-plugin-call-me",
+  "originalPosition": 172,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 172,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:18.987Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "950356b67119208c713a8a2359a9f051a24fcc4b468ea73bde098afe6dda2bbc",
+      "url": "https://github.com/radres/dsh-plugin-call-me/blob/d1a0ecd22580d781ca8e8b5ffca3a0530f7af601/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/radres/dsh-plugin-call-me",
+          "command": "dsh plugin --profile web add github:radres/dsh-plugin-call-me",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "579fe30c675338681371fc3e204376f070e8cd0f3af5ed667c10a422810c584b",
+      "url": "https://github.com/radres/dsh-plugin-call-me/blob/d1a0ecd22580d781ca8e8b5ffca3a0530f7af601/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/radres/dsh-plugin-call-me",
+          "command": "dsh plugin --profile web add github:radres/dsh-plugin-call-me",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-call-me",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/radres/dsh-plugin-call-me",
+        "commit": "d1a0ecd22580d781ca8e8b5ffca3a0530f7af601"
+      },
+      "manifestSha256": "965c895e4552f0160bb29a49823522cc76de284bcff55d62e4c93e5caf1e6203",
+      "manifestUrl": "https://github.com/radres/dsh-plugin-call-me/blob/d1a0ecd22580d781ca8e8b5ffca3a0530f7af601/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-call-me",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1793889452,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/radres/dsh-plugin-call-me",
+              "commit": "d1a0ecd22580d781ca8e8b5ffca3a0530f7af601"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/radres/dsh-plugin-call-me",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/radres/dsh-plugin-call-me",
+    "commit": "d1a0ecd22580d781ca8e8b5ffca3a0530f7af601",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:21.378Z"
+}

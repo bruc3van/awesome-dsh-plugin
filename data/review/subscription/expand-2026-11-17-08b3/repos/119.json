@@ -1,0 +1,92 @@
+{
+  "full_name": "yuzi-ska/DSH-Chrome-devtools",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:15:52.476Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cce913ed29f50cac9fa39cf91d1b209371b36b4f35ff2397c49ef41dd768a253",
+      "url": "https://github.com/yuzi-ska/DSH-Chrome-devtools/blob/56c6ca863f3dc88f9c43e278e393c7aacc8a3411/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yuzi-ska/DSH-Chrome-devtools",
+          "command": "dsh plugin --profile web add github:yuzi-ska/DSH-Chrome-devtools",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "5457ac3509e374e86fcd244f3ec6faf58194df70526bad510cee4fcb3440946a",
+      "url": "https://github.com/yuzi-ska/DSH-Chrome-devtools/blob/56c6ca863f3dc88f9c43e278e393c7aacc8a3411/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yuzi-ska/DSH-Chrome-devtools",
+          "command": "dsh plugin --profile web add github:yuzi-ska/DSH-Chrome-devtools",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chrome-devtools",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yuzi-ska/DSH-Chrome-devtools",
+        "commit": "56c6ca863f3dc88f9c43e278e393c7aacc8a3411"
+      },
+      "manifestSha256": "3fd2a0a4d308ff792b230f586c05f0fc1023da07a6d80557911d414b045c0cc1",
+      "manifestUrl": "https://github.com/yuzi-ska/DSH-Chrome-devtools/blob/56c6ca863f3dc88f9c43e278e393c7aacc8a3411/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-chrome-devtools",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1790073178,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yuzi-ska/DSH-Chrome-devtools",
+              "commit": "56c6ca863f3dc88f9c43e278e393c7aacc8a3411"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yuzi-ska/DSH-Chrome-devtools",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yuzi-ska/DSH-Chrome-devtools",
+    "commit": "56c6ca863f3dc88f9c43e278e393c7aacc8a3411",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:54.683Z"
+}

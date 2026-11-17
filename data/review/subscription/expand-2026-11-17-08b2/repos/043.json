@@ -1,0 +1,69 @@
+{
+  "full_name": "yembors64632/dsh-connect",
+  "originalPosition": 43,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 43,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-17T08:12:23.726Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "575cda63dc10fa29b1a342291fd790aae80f298850214f14540ef95222699638",
+      "url": "https://github.com/yembors64632/dsh-connect/blob/86a6968614d43712bc310f047d52da5c08ffdb13/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-connect",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yembors64632/dsh-connect",
+        "commit": "86a6968614d43712bc310f047d52da5c08ffdb13"
+      },
+      "manifestSha256": "a590c2d73a3fb53463ef51c437794c0848a80fa0a5e2e6b8fab97cfd4740cda9",
+      "manifestUrl": "https://github.com/yembors64632/dsh-connect/blob/86a6968614d43712bc310f047d52da5c08ffdb13/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-connect",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1790585115,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yembors64632/dsh-connect",
+              "commit": "86a6968614d43712bc310f047d52da5c08ffdb13"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.1.6-alpha.1 || ^0.1.7-alpha.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yembors64632/dsh-connect",
+    "commit": "86a6968614d43712bc310f047d52da5c08ffdb13",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:26.115Z"
+}

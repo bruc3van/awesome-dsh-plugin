@@ -1,0 +1,78 @@
+{
+  "full_name": "mengyun233/dsh-codex-pet",
+  "originalPosition": 163,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 163,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:15.232Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5ad30cf711d3dfee549ff38ce9be42188f55f5bdad0cd2ca283869cf645628d5",
+      "url": "https://github.com/mengyun233/dsh-codex-pet/blob/5ee4abe0c4ef37082a9dd6cfd794c9a5473e26e4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/mengyun233/dsh-codex-pet",
+          "command": "dsh plugin --profile web add github:mengyun233/dsh-codex-pet",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-pet",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mengyun233/dsh-codex-pet",
+        "commit": "5ee4abe0c4ef37082a9dd6cfd794c9a5473e26e4"
+      },
+      "manifestSha256": "58d835e99bb2046fd7b33b45191f7269df0f5b7a5d6780901a1b1d4b3a229297",
+      "manifestUrl": "https://github.com/mengyun233/dsh-codex-pet/blob/5ee4abe0c4ef37082a9dd6cfd794c9a5473e26e4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-codex-pet",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786953839,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/mengyun233/dsh-codex-pet",
+              "commit": "5ee4abe0c4ef37082a9dd6cfd794c9a5473e26e4"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/mengyun233/dsh-codex-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mengyun233/dsh-codex-pet",
+    "commit": "5ee4abe0c4ef37082a9dd6cfd794c9a5473e26e4",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:17.213Z"
+}

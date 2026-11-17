@@ -1,0 +1,66 @@
+{
+  "full_name": "ridistant8-art/dsh-cookie-meter",
+  "originalPosition": 174,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 174,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:20.586Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "713839cc0cf4781ed497c142e391cc25574c12d08f32b13ff7dc40fb4bd0fbf1",
+      "url": "https://github.com/ridistant8-art/dsh-cookie-meter/blob/db3aec30d56a1ee2e2f03784e1cc8de4052a0210/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cookie-meter",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ridistant8-art/dsh-cookie-meter",
+        "commit": "db3aec30d56a1ee2e2f03784e1cc8de4052a0210"
+      },
+      "manifestSha256": "aec023acc2be5607b37130a129854a2c34715cbe3e054cbd8c67de6bb4d6f395",
+      "manifestUrl": "https://github.com/ridistant8-art/dsh-cookie-meter/blob/db3aec30d56a1ee2e2f03784e1cc8de4052a0210/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cookie-meter",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793588364,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ridistant8-art/dsh-cookie-meter",
+              "commit": "db3aec30d56a1ee2e2f03784e1cc8de4052a0210"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ridistant8-art/dsh-cookie-meter",
+    "commit": "db3aec30d56a1ee2e2f03784e1cc8de4052a0210",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:22.541Z"
+}

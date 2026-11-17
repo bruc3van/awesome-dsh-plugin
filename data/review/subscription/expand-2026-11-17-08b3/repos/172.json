@@ -1,0 +1,77 @@
+{
+  "full_name": "JKZeng-cell/moki-canvas-for-dsh",
+  "originalPosition": 172,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 172,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:17.174Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1fcc36ff9c59f3ef07393c7bba6f5804006efbe102c018cb872f8fd9c337add4",
+      "url": "https://github.com/JKZeng-cell/moki-canvas-for-dsh/blob/912e38bbb103777dd0b87e548356eeae4d313a4a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "62fc28c128a546181582cf63c5bb03264e22b732f232884dd3e0da7c8982c4a3",
+      "url": "https://github.com/JKZeng-cell/moki-canvas-for-dsh/blob/912e38bbb103777dd0b87e548356eeae4d313a4a/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-moki-canvas",
+      "version": "1.8.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/JKZeng-cell/moki-canvas-for-dsh",
+        "commit": "912e38bbb103777dd0b87e548356eeae4d313a4a"
+      },
+      "manifestSha256": "77a9948a527d6f83a69dad106d710fa0c5c7008c671a3b80e9876bdb8abfb608",
+      "manifestUrl": "https://github.com/JKZeng-cell/moki-canvas-for-dsh/blob/912e38bbb103777dd0b87e548356eeae4d313a4a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-moki-canvas",
+        "versions": [
+          {
+            "version": "1.8.1",
+            "publishTimestamp": 1794478003,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/JKZeng-cell/moki-canvas-for-dsh",
+              "commit": "912e38bbb103777dd0b87e548356eeae4d313a4a"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/JKZeng-cell/moki-canvas-for-dsh",
+    "commit": "912e38bbb103777dd0b87e548356eeae4d313a4a",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:19.723Z"
+}

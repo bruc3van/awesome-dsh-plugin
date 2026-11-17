@@ -1,0 +1,42 @@
+{
+  "full_name": "YMRYMR/deepseek-peak",
+  "originalPosition": 89,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 89,
+  "batch": 1,
+  "stargazers_count": 17,
+  "startedAt": "2026-11-17T08:11:14.146Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d19af0e9139fc52b268e192f4e26141a87ff6b3d937762b1dcfacf51e7630d39",
+      "url": "https://github.com/YMRYMR/deepseek-peak/blob/07fd9ff6106b671dbcfbb9efac4b433c779491d3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YMRYMR/deepseek-peak",
+    "commit": "07fd9ff6106b671dbcfbb9efac4b433c779491d3",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "deepseek-peak",
+    "version": "0.1.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=18"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:16.479Z"
+}

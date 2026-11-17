@@ -1,0 +1,138 @@
+{
+  "full_name": "domitor-syh/dsh-ui-skin-switcher",
+  "originalPosition": 131,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 131,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:01.248Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f3167c16aefdd0e4b9f531bcfd17b734758d7fb845560844766dea6005b60b69",
+      "url": "https://github.com/domitor-syh/dsh-ui-skin-switcher/blob/2ef6a1acbba1fddcbd31af51a7d9b3129dbc2f05/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@domitor-syh/dsh-ui-skin-switcher",
+          "command": "dsh plugin --profile web add @domitor-syh/dsh-ui-skin-switcher",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@domitor-syh/dsh-ui-skin-switcher",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/domitor-syh/dsh-ui-skin-switcher",
+        "commit": "2ef6a1acbba1fddcbd31af51a7d9b3129dbc2f05"
+      },
+      "manifestSha256": "474ce52574f5b3c132d3093153ca3d27dd821fe0db81fcef023ecede5618c883",
+      "manifestUrl": "https://github.com/domitor-syh/dsh-ui-skin-switcher/blob/2ef6a1acbba1fddcbd31af51a7d9b3129dbc2f05/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@domitor-syh/dsh-ui-skin-switcher",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794652627,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/domitor-syh/dsh-ui-skin-switcher",
+              "commit": "2ef6a1acbba1fddcbd31af51a7d9b3129dbc2f05"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-alpha.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@domitor-syh/dsh-ui-skin-switcher",
+      "origin": "npm",
+      "name": "@domitor-syh/dsh-ui-skin-switcher",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@domitor-syh/dsh-ui-skin-switcher",
+        "title": {
+          "en": "Claude-style reasoning picker",
+          "zh": "Claude风格 · 推理配置选择器"
+        },
+        "description": {
+          "en": "A Claude Desktop-style model and reasoning-effort switcher that feels great to use.",
+          "zh": "Claude Desktop同款风格切换器：换模型、调思考强度，手感好极了。"
+        },
+        "repository": {
+          "url": "https://github.com/domitor-syh/dsh-ui-skin-switcher"
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794578433,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-alpha.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1afa488e2cae3784860fdbc6cbe6dde2e4e1f97b4d67cf918e9ddd9e70225c6a",
+      "evidence": [
+        {
+          "name": "@domitor-syh/dsh-ui-skin-switcher",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/@domitor-syh/dsh-ui-skin-switcher/-/dsh-ui-skin-switcher-0.3.1.tgz",
+          "integrity": "sha512-MTYKdpqQ+Q3CqkFxeMvAEPPuD5o9dtwkSHfMBNIcn9fNq6hSOjbl3mgysye9cRYhqvLZtNltBGSLf1W4nivCMw=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "@domitor-syh/dsh-ui-skin-switcher",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "ee8fec3e66daf70d2c73c550f3889bd04cb33d362697a97617eab3ba161e116e",
+          "outputSha256": "6737a42cf05d793fed795b1ac5a5017e90466c03c8ec6a16683f398df3bd0f67",
+          "inputBytes": 80148,
+          "outputBytes": 2076
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@domitor-syh/dsh-ui-skin-switcher",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/domitor-syh/dsh-ui-skin-switcher",
+    "commit": "2ef6a1acbba1fddcbd31af51a7d9b3129dbc2f05",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:03.635Z"
+}

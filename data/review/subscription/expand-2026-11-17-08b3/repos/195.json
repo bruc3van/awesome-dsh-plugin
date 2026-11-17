@@ -1,0 +1,77 @@
+{
+  "full_name": "NoProblUm/dsh-codexlike-projectless",
+  "originalPosition": 195,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 195,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:28.099Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ff90629ee537fb17a7e5deade2414fce5ff3066a11dd7faf40968f95e8b4db40",
+      "url": "https://github.com/NoProblUm/dsh-codexlike-projectless/blob/4c818d4ffa6682432b2e6773bde4430edc799e2e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "ad861650568a464cda4c1c9f9395593f7e562e2134911367bf545c40936eb92c",
+      "url": "https://github.com/NoProblUm/dsh-codexlike-projectless/blob/4c818d4ffa6682432b2e6773bde4430edc799e2e/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codexlike-projectless",
+      "version": "1.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NoProblUm/dsh-codexlike-projectless",
+        "commit": "4c818d4ffa6682432b2e6773bde4430edc799e2e"
+      },
+      "manifestSha256": "24fd5c395b644085e333b45593aafbcdb554fc465feec0e0ebd3fc5f7227fc2d",
+      "manifestUrl": "https://github.com/NoProblUm/dsh-codexlike-projectless/blob/4c818d4ffa6682432b2e6773bde4430edc799e2e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-codexlike-projectless",
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1793461539,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NoProblUm/dsh-codexlike-projectless",
+              "commit": "4c818d4ffa6682432b2e6773bde4430edc799e2e"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NoProblUm/dsh-codexlike-projectless",
+    "commit": "4c818d4ffa6682432b2e6773bde4430edc799e2e",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:30.614Z"
+}

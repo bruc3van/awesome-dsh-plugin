@@ -1,0 +1,228 @@
+{
+  "full_name": "Ceelog/dsh-plugins",
+  "originalPosition": 84,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 84,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:15:37.953Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c120dddcdd829f729070180d6f900b56807ad537c4d8de74b9e5596328d50f26",
+      "url": "https://github.com/Ceelog/dsh-plugins/blob/dc4f88670c0e73f1db31799b818cad708c448afa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "src/plugins/dsh-plugin-scheduled-tasks/README.md",
+      "sha256": "ee0a51c15d073824dbee117031cc0e6536dfc7d90247db2725630a0daac635e0",
+      "url": "https://github.com/Ceelog/dsh-plugins/blob/dc4f88670c0e73f1db31799b818cad708c448afa/src/plugins/dsh-plugin-scheduled-tasks/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@opendsh/dsh-plugin-scheduled-tasks",
+          "command": "dsh plugin --profile web add @opendsh/dsh-plugin-scheduled-tasks",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "src/plugins/dsh-plugin-setting-mcp/README.md",
+      "sha256": "ba64c397b8fb433d3a43bf32224cd3066018070cde26dda2ba7e6483e89a88ff",
+      "url": "https://github.com/Ceelog/dsh-plugins/blob/dc4f88670c0e73f1db31799b818cad708c448afa/src/plugins/dsh-plugin-setting-mcp/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@opendsh/dsh-plugin-setting-mcp",
+          "command": "dsh plugin --profile web add @opendsh/dsh-plugin-setting-mcp",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@opendsh/dsh-plugin-scheduled-tasks",
+      "version": "0.2.3",
+      "path": "src/plugins/dsh-plugin-scheduled-tasks",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ceelog/dsh-plugins",
+        "commit": "dc4f88670c0e73f1db31799b818cad708c448afa",
+        "path": "src/plugins/dsh-plugin-scheduled-tasks"
+      },
+      "manifestSha256": "3db1d6f36076bd683896446877eb4c0390db5cd32fd3a63c8821c27ba4511008",
+      "manifestUrl": "https://github.com/Ceelog/dsh-plugins/blob/dc4f88670c0e73f1db31799b818cad708c448afa/src/plugins/dsh-plugin-scheduled-tasks/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@opendsh/dsh-plugin-scheduled-tasks",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1787468702,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ceelog/dsh-plugins",
+              "commit": "dc4f88670c0e73f1db31799b818cad708c448afa",
+              "path": "src/plugins/dsh-plugin-scheduled-tasks"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@opendsh/dsh-plugin-setting-mcp",
+      "version": "0.1.2",
+      "path": "src/plugins/dsh-plugin-setting-mcp",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ceelog/dsh-plugins",
+        "commit": "dc4f88670c0e73f1db31799b818cad708c448afa",
+        "path": "src/plugins/dsh-plugin-setting-mcp"
+      },
+      "manifestSha256": "28cb97ce9ccfa8223f48ea59a360cb1dd8d1bd35b2f5680279027fb44e85b767",
+      "manifestUrl": "https://github.com/Ceelog/dsh-plugins/blob/dc4f88670c0e73f1db31799b818cad708c448afa/src/plugins/dsh-plugin-setting-mcp/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@opendsh/dsh-plugin-setting-mcp",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1787468702,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ceelog/dsh-plugins",
+              "commit": "dc4f88670c0e73f1db31799b818cad708c448afa",
+              "path": "src/plugins/dsh-plugin-setting-mcp"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@opendsh/dsh-plugin-scheduled-tasks",
+      "origin": "npm",
+      "name": "@opendsh/dsh-plugin-scheduled-tasks",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@opendsh/dsh-plugin-scheduled-tasks",
+        "title": "@opendsh/dsh-plugin-scheduled-tasks",
+        "description": "DSH web plugin: per-project scheduled tasks with prompts, executed as headless agent sessions in the project directory, with durable run history",
+        "homepage": "https://github.com/Ceelog/dsh-plugins#readme",
+        "repository": {
+          "url": "https://github.com/Ceelog/dsh-plugins",
+          "directory": "src/plugins/dsh-plugin-scheduled-tasks"
+        },
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1787468787,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3fc7a9df2883a82c7e4fcb4ecd1cd7a42d2c26d973061b8e448a19f58764a433",
+      "evidence": [
+        {
+          "name": "@opendsh/dsh-plugin-scheduled-tasks",
+          "version": "0.2.4",
+          "tarball": "https://registry.npmjs.org/@opendsh/dsh-plugin-scheduled-tasks/-/dsh-plugin-scheduled-tasks-0.2.4.tgz",
+          "integrity": "sha512-HqyEtefrl2+R+Ae5L0PBCykpqcHne8/pZCsY/cKKrmM8luY21tMB/RoGK57cHCazytBgzPWPfr4QInF0uKtUmQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "@opendsh/dsh-plugin-setting-mcp",
+      "origin": "npm",
+      "name": "@opendsh/dsh-plugin-setting-mcp",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@opendsh/dsh-plugin-setting-mcp",
+        "title": "@opendsh/dsh-plugin-setting-mcp",
+        "description": "DSH web plugin: manage MCP servers from the settings panel (view, edit, remove, enable/disable) with hot reload on save",
+        "homepage": "https://github.com/Ceelog/dsh-plugins#readme",
+        "repository": {
+          "url": "https://github.com/Ceelog/dsh-plugins",
+          "directory": "src/plugins/dsh-plugin-setting-mcp"
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1787152328,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4cd68ba646ee5ee3f7d57a868d79811dfcbd6b0393f9ff3c8efab2c57160dfb6",
+      "evidence": [
+        {
+          "name": "@opendsh/dsh-plugin-setting-mcp",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/@opendsh/dsh-plugin-setting-mcp/-/dsh-plugin-setting-mcp-0.1.2.tgz",
+          "integrity": "sha512-xEq80d0IykKcASOb00OXK2nKTX6r7kDi42l/7r1KzM0tlScP/sv7wLfgejkHLqrlfVD7waALFUG+S/svNcY4yg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@opendsh/dsh-plugin-scheduled-tasks",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@opendsh/dsh-plugin-setting-mcp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ceelog/dsh-plugins",
+    "commit": "dc4f88670c0e73f1db31799b818cad708c448afa",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:42.198Z"
+}

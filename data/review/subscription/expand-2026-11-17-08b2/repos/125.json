@@ -1,0 +1,130 @@
+{
+  "full_name": "clarknu/dsh-gateway",
+  "originalPosition": 125,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 125,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:59.128Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b9e0377b2e405f72b2a990da38925471185aa7141a57272fe828aedaa915840f",
+      "url": "https://github.com/clarknu/dsh-gateway/blob/84bc39a23e15a2a2b65a1f3cb022727590cc5427/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-gateway",
+          "command": "dsh plugin --profile web add dsh-gateway",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-gateway",
+      "version": "1.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/clarknu/dsh-gateway",
+        "commit": "84bc39a23e15a2a2b65a1f3cb022727590cc5427"
+      },
+      "manifestSha256": "e9fee22d752116a87af3956441a1d498fdd03d0d73136a41401d029210ad6c7a",
+      "manifestUrl": "https://github.com/clarknu/dsh-gateway/blob/84bc39a23e15a2a2b65a1f3cb022727590cc5427/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-gateway",
+        "versions": [
+          {
+            "version": "1.7.0",
+            "publishTimestamp": 1789018703,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/clarknu/dsh-gateway",
+              "commit": "84bc39a23e15a2a2b65a1f3cb022727590cc5427"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-gateway",
+      "origin": "npm",
+      "name": "dsh-gateway",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-gateway",
+        "title": "dsh-gateway",
+        "description": "HTTPS + login gateway for the DeepSeek Harness web surface: securely access your DSH Web UI from another machine on your LAN, or from the internet via port forwarding. Fail-closed defaults (loopback-only listener, no accounts until configured); setup and security notes in the README.",
+        "homepage": "https://github.com/clarknu/dsh-gateway#readme",
+        "repository": {
+          "url": "https://github.com/clarknu/dsh-gateway"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "gateway",
+            "https",
+            "tls",
+            "auth",
+            "remote",
+            "reverse-proxy",
+            "websocket"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.7.0",
+            "publishTimestamp": 1787966329,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "66eb24fd9c7d76e519c53cbf4146fa28e3d298c615f063b61d12f6e645566661",
+      "evidence": [
+        {
+          "name": "dsh-gateway",
+          "version": "1.7.0",
+          "tarball": "https://registry.npmjs.org/dsh-gateway/-/dsh-gateway-1.7.0.tgz",
+          "integrity": "sha512-xF6G/L8rsrBJqpUMyM8uV7iggw736Eh+xQuDwWZcP0NzAuIPHwd9o7OSIiRsptz8kXFvlamZ6GXhddmvUof2Aw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-gateway",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/clarknu/dsh-gateway",
+    "commit": "84bc39a23e15a2a2b65a1f3cb022727590cc5427",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:01.194Z"
+}

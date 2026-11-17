@@ -1,0 +1,42 @@
+{
+  "full_name": "offzen/dsh-gitea-search",
+  "originalPosition": 167,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 167,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:16.449Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "500c13bc7c12087ee4fe6f533f3e5e1162e964df10ded9b368add6686a0a5b86",
+      "url": "https://github.com/offzen/dsh-gitea-search/blob/c65f71c28e873a0932923d5fdfb931aa24b99e0a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/offzen/dsh-gitea-search",
+    "commit": "c65f71c28e873a0932923d5fdfb931aa24b99e0a",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-gitea-search",
+    "version": "1.2.3",
+    "dsh": null,
+    "engines": {
+      "node": ">=20.11.0"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:13:18.318Z"
+}

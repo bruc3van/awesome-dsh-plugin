@@ -1,0 +1,135 @@
+{
+  "full_name": "wang-bool/travel-story-dsh",
+  "originalPosition": 191,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 191,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:31.442Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bb7a07f43f14fe92adb875cc283a56d8a4183594ecc79c5755733c1e512d5767",
+      "url": "https://github.com/wang-bool/travel-story-dsh/blob/7076f12039ec82fd5b2d511e2d5c83e82c900f1f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/wang-bool/travel-story-dsh#main",
+          "command": "dsh plugin --profile web add \"github:wang-bool/travel-story-dsh#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "travel-agent",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wang-bool/travel-story-dsh",
+        "commit": "7076f12039ec82fd5b2d511e2d5c83e82c900f1f"
+      },
+      "manifestSha256": "eeba40e8ada55252059fea63d69b8ed1e53ce0094d57540bb07094af933a0286",
+      "manifestUrl": "https://github.com/wang-bool/travel-story-dsh/blob/7076f12039ec82fd5b2d511e2d5c83e82c900f1f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "travel-agent",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794887826,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wang-bool/travel-story-dsh",
+              "commit": "7076f12039ec82fd5b2d511e2d5c83e82c900f1f"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/wang-bool/travel-story-dsh#main",
+      "origin": "git_target",
+      "name": "travel-agent",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "travel-agent",
+        "title": "travel-agent",
+        "description": "DSH plugin: the full Travel Story app (planning map, timeline, playback, recording) bundled into the DSH web page, plus 18 agent tools (create_trip … apply_plan) that let the model plan and drive trips directly.",
+        "author": "wang-bool",
+        "homepage": "https://github.com/wang-bool/travel-story-dsh#readme",
+        "repository": {
+          "url": "https://github.com/wang-bool/travel-story-dsh"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "travel-story",
+            "plugin",
+            "travel",
+            "itinerary",
+            "trip",
+            "map",
+            "geocode"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794887826,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wang-bool/travel-story-dsh",
+              "commit": "7076f12039ec82fd5b2d511e2d5c83e82c900f1f"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "7076f12039ec82fd5b2d511e2d5c83e82c900f1f",
+          "name": "travel-agent",
+          "version": "0.2.1",
+          "url": "https://github.com/wang-bool/travel-story-dsh",
+          "manifestSha256": "eeba40e8ada55252059fea63d69b8ed1e53ce0094d57540bb07094af933a0286",
+          "publishTimestamp": 1794887826
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/wang-bool/travel-story-dsh#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wang-bool/travel-story-dsh",
+    "commit": "7076f12039ec82fd5b2d511e2d5c83e82c900f1f",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:34.882Z"
+}

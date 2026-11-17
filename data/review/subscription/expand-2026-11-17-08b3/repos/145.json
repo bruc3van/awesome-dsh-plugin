@@ -1,0 +1,140 @@
+{
+  "full_name": "Binaryinject/dsh-review-checkout",
+  "originalPosition": 145,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 145,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:03.786Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b242960afc66aee831870bca4fc93aa1891796023ef943d962af991d44c2c628",
+      "url": "https://github.com/Binaryinject/dsh-review-checkout/blob/695bb2f0b2871b3a874758514c384c4216ae8d15/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-review-checkout",
+          "command": "dsh plugin add dsh-review-checkout",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "f6e32edb9da9f9b543b50825d5a9b5e6539a8d34e8b457afca69e0fc5f1cb8d3",
+      "url": "https://github.com/Binaryinject/dsh-review-checkout/blob/695bb2f0b2871b3a874758514c384c4216ae8d15/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-review-checkout",
+          "command": "dsh plugin add dsh-review-checkout",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-review-checkout",
+      "version": "1.0.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Binaryinject/dsh-review-checkout",
+        "commit": "695bb2f0b2871b3a874758514c384c4216ae8d15"
+      },
+      "manifestSha256": "5a42c16311c10a09ee3d5335f47072ae92ff7b1c217941970777908c326dd846",
+      "manifestUrl": "https://github.com/Binaryinject/dsh-review-checkout/blob/695bb2f0b2871b3a874758514c384c4216ae8d15/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-review-checkout",
+        "versions": [
+          {
+            "version": "1.0.5",
+            "publishTimestamp": 1794853476,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Binaryinject/dsh-review-checkout",
+              "commit": "695bb2f0b2871b3a874758514c384c4216ae8d15"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-review-checkout",
+      "origin": "npm",
+      "name": "dsh-review-checkout",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-review-checkout",
+        "title": "dsh-review-checkout",
+        "description": "File-change review for DeepSeek Harness sessions: per-turn change cards styled like the official deliverables card with one-click per-turn revert, a turn-scoped review tab (draggable split diff, syntax highlighting, real line numbers), and a three-step open chain (chosen editor at the line -> OS default app -> built-in preview).",
+        "author": "dsh-review-checkout contributors",
+        "homepage": "https://github.com/Binaryinject/dsh-review-checkout#readme",
+        "repository": {
+          "url": "https://github.com/Binaryinject/dsh-review-checkout"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "diff",
+            "review"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.5",
+            "publishTimestamp": 1794853641,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4332765bcd39c97a55ff8166c03581406bea1373be610e0eb831d5a3031c5680",
+      "evidence": [
+        {
+          "name": "dsh-review-checkout",
+          "version": "1.0.5",
+          "tarball": "https://registry.npmjs.org/dsh-review-checkout/-/dsh-review-checkout-1.0.5.tgz",
+          "integrity": "sha512-OwU7oeKwbCQD0hiaXhvLRc8TI3R8yUvJzYDtM712U+Up7rcs68ReTE3cKM/xXT+THnoRILz7se4fXsNSu3ehxw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-review-checkout",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Binaryinject/dsh-review-checkout",
+    "commit": "695bb2f0b2871b3a874758514c384c4216ae8d15",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:06.297Z"
+}

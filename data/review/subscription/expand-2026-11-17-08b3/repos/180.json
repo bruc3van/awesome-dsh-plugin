@@ -1,0 +1,92 @@
+{
+  "full_name": "LeemanCheung/dsh-whale-animation",
+  "originalPosition": 180,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 180,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:21.479Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "75afb08233f390cd6063a531d9be9dc9a1c90bc474424e9b94acfe700d305eb0",
+      "url": "https://github.com/LeemanCheung/dsh-whale-animation/blob/ba3a88969420eb540746eedea4511c645ad71af7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LeemanCheung/dsh-whale-animation",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-whale-animation",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "b8e033331f31482b4e11e7c56947a0f1993abc2d2aaad0693f4fa1b7fa1fc1f3",
+      "url": "https://github.com/LeemanCheung/dsh-whale-animation/blob/ba3a88969420eb540746eedea4511c645ad71af7/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LeemanCheung/dsh-whale-animation",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-whale-animation",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-animation",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LeemanCheung/dsh-whale-animation",
+        "commit": "ba3a88969420eb540746eedea4511c645ad71af7"
+      },
+      "manifestSha256": "cd779387fdd5de38b9dd75b19db3f034652c0b6447ecc3f8aeb5ed7359644cf1",
+      "manifestUrl": "https://github.com/LeemanCheung/dsh-whale-animation/blob/ba3a88969420eb540746eedea4511c645ad71af7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-whale-animation",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1790523103,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LeemanCheung/dsh-whale-animation",
+              "commit": "ba3a88969420eb540746eedea4511c645ad71af7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LeemanCheung/dsh-whale-animation",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LeemanCheung/dsh-whale-animation",
+    "commit": "ba3a88969420eb540746eedea4511c645ad71af7",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:23.825Z"
+}

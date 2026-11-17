@@ -1,0 +1,66 @@
+{
+  "full_name": "fatwang2/dsh-projects",
+  "originalPosition": 136,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 136,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:03.610Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5ae10fe322f8a442eddc49c5f23b910aef5bf1ab4756a2cd78baace65a90ac9f",
+      "url": "https://github.com/fatwang2/dsh-projects/blob/3c448246b29cc58c8ef9314fc986531afc8e29db/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@fatwang2/dsh-projects",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fatwang2/dsh-projects",
+        "commit": "3c448246b29cc58c8ef9314fc986531afc8e29db"
+      },
+      "manifestSha256": "b12ce43b2386c32be465fc6621991e98d753b3c2fc55971f31161bb38da5c10f",
+      "manifestUrl": "https://github.com/fatwang2/dsh-projects/blob/3c448246b29cc58c8ef9314fc986531afc8e29db/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@fatwang2/dsh-projects",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794847014,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fatwang2/dsh-projects",
+              "commit": "3c448246b29cc58c8ef9314fc986531afc8e29db"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fatwang2/dsh-projects",
+    "commit": "3c448246b29cc58c8ef9314fc986531afc8e29db",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:05.493Z"
+}

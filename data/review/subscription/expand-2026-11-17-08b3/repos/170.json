@@ -1,0 +1,132 @@
+{
+  "full_name": "HuanLinOTO/dsh-plugin-merge-tool-calls",
+  "originalPosition": 170,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 170,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:17.140Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e305a5399ceadb8a56e4918df126fe8d6ba7113ba8f3eab910e14c3f6e3ecb57",
+      "url": "https://github.com/HuanLinOTO/dsh-plugin-merge-tool-calls/blob/6e14d41504bceece336cdb3b3c14c75f73d62b4e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/huanlinoto/dsh-plugin-merge-tool-calls",
+          "command": "dsh plugin --profile web add \"github:huanlinoto/dsh-plugin-merge-tool-calls\"",
+          "profile": "web"
+        },
+        {
+          "install": "@huanlin/dsh-plugin-merge-tool-calls",
+          "command": "dsh plugin --profile web add \"@huanlin/dsh-plugin-merge-tool-calls\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huanlin/dsh-plugin-merge-tool-calls",
+      "version": "0.4.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HuanLinOTO/dsh-plugin-merge-tool-calls",
+        "commit": "6e14d41504bceece336cdb3b3c14c75f73d62b4e"
+      },
+      "manifestSha256": "afdc8d854d5dd1a553a7360e4aff6595dbcc860d14c04932621aabe729b2b5ae",
+      "manifestUrl": "https://github.com/HuanLinOTO/dsh-plugin-merge-tool-calls/blob/6e14d41504bceece336cdb3b3c14c75f73d62b4e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-alpha.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@huanlin/dsh-plugin-merge-tool-calls",
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1792163391,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HuanLinOTO/dsh-plugin-merge-tool-calls",
+              "commit": "6e14d41504bceece336cdb3b3c14c75f73d62b4e"
+            },
+            "engines": {
+              "dsh": "^0.2.1-alpha.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@huanlin/dsh-plugin-merge-tool-calls",
+      "origin": "npm",
+      "name": "@huanlin/dsh-plugin-merge-tool-calls",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@huanlin/dsh-plugin-merge-tool-calls",
+        "title": "@huanlin/dsh-plugin-merge-tool-calls",
+        "description": "Merge consecutive same-tool calls in the DSH WebUI chat flow into one card with compact child rows (all built-in tools by default).",
+        "metadata": {
+          "keywords": [
+            "dsh-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1792307588,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-alpha.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "94c11a1e763a93c5a393b9f68091532f724a220b57a75059f1d4c741e90570d3",
+      "evidence": [
+        {
+          "name": "@huanlin/dsh-plugin-merge-tool-calls",
+          "version": "0.4.4",
+          "tarball": "https://registry.npmjs.org/@huanlin/dsh-plugin-merge-tool-calls/-/dsh-plugin-merge-tool-calls-0.4.4.tgz",
+          "integrity": "sha512-I6HzgVNNH3cygOyQDhAUq+AgAXWlv4Fb0sK46W/L0nlMNvFf1ZfwHqrpcngzG05Tf0QzbnMbHM4GylsgMF50GA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/huanlinoto/dsh-plugin-merge-tool-calls",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@huanlin/dsh-plugin-merge-tool-calls",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HuanLinOTO/dsh-plugin-merge-tool-calls",
+    "commit": "6e14d41504bceece336cdb3b3c14c75f73d62b4e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:19.536Z"
+}

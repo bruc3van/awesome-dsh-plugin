@@ -1,0 +1,87 @@
+{
+  "full_name": "zzhzz/dsh-ask-peer",
+  "originalPosition": 123,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 123,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:15:54.335Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8ddab6fa89fa4d3bc9744398458edec4fd35785222a9f8fc70c7fda243ebfe62",
+      "url": "https://github.com/zzhzz/dsh-ask-peer/blob/e706e82c5203fc8a4f0f6af13a4c947125ab6524/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ask-peer",
+          "command": "dsh plugin --profile web add dsh-ask-peer",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ask-peer",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zzhzz/dsh-ask-peer",
+        "commit": "e706e82c5203fc8a4f0f6af13a4c947125ab6524"
+      },
+      "manifestSha256": "c09288696126c9f60440289f669977be526a49bdfee7e8965a8112cd120dfdf0",
+      "manifestUrl": "https://github.com/zzhzz/dsh-ask-peer/blob/e706e82c5203fc8a4f0f6af13a4c947125ab6524/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ask-peer",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788497843,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zzhzz/dsh-ask-peer",
+              "commit": "e706e82c5203fc8a4f0f6af13a4c947125ab6524"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ask-peer",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ask-peer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zzhzz/dsh-ask-peer",
+    "commit": "e706e82c5203fc8a4f0f6af13a4c947125ab6524",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:56.341Z"
+}

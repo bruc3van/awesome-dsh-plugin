@@ -1,0 +1,87 @@
+{
+  "full_name": "Ornn8/dsh-fishbowl-town",
+  "originalPosition": 108,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 108,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:52.455Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "565a369714e386dd64e2fe8f4a152dbc201add627761b4164d1a3e8e09221809",
+      "url": "https://github.com/Ornn8/dsh-fishbowl-town/blob/ba1a8ba57a6e4d9ea540c9240060c7fad302c6ed/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://fishbowltown.com/dsh/pkg/dsh-fishbowl-town-latest.tgz",
+          "command": "dsh plugin --profile desktop add https://fishbowltown.com/dsh/pkg/dsh-fishbowl-town-latest.tgz",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fishbowl-town",
+      "version": "0.8.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ornn8/dsh-fishbowl-town",
+        "commit": "ba1a8ba57a6e4d9ea540c9240060c7fad302c6ed"
+      },
+      "manifestSha256": "83d8664e4e28d32f698460d958165abd45ed947463e3fffae99b04326dc94d00",
+      "manifestUrl": "https://github.com/Ornn8/dsh-fishbowl-town/blob/ba1a8ba57a6e4d9ea540c9240060c7fad302c6ed/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-fishbowl-town",
+        "versions": [
+          {
+            "version": "0.8.3",
+            "publishTimestamp": 1794897718,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ornn8/dsh-fishbowl-town",
+              "commit": "ba1a8ba57a6e4d9ea540c9240060c7fad302c6ed"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://fishbowltown.com/dsh/pkg/dsh-fishbowl-town-latest.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://fishbowltown.com/dsh/pkg/dsh-fishbowl-town-latest.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ornn8/dsh-fishbowl-town",
+    "commit": "ba1a8ba57a6e4d9ea540c9240060c7fad302c6ed",
+    "releaseTags": 49,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:54.488Z"
+}

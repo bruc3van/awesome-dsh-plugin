@@ -1,0 +1,59 @@
+{
+  "full_name": "LoserFox/telegram",
+  "originalPosition": 184,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 184,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:22.198Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a5d43d0b6e3ac7a27c70e8fa7a7b1cbf6421fbf220b50d775dcfcf51fec72cf0",
+      "url": "https://github.com/LoserFox/telegram/blob/a0a9ca11e427b62217250e2e561f6ad3c49d13f2/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "examples/telegram-agent/README.zh.md",
+      "sha256": "acc81aaba615c488565dd9cc0ca409031de25f1004a2d0595850ec070567de35",
+      "url": "https://github.com/LoserFox/telegram/blob/a0a9ca11e427b62217250e2e561f6ad3c49d13f2/examples/telegram-agent/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@loserfox/telegram",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LoserFox/telegram",
+        "commit": "a0a9ca11e427b62217250e2e561f6ad3c49d13f2"
+      },
+      "manifestSha256": "4af7abf38439aa47697c21bebcd730b74a92c2498a7510b9735dbaa3da6978c7",
+      "manifestUrl": "https://github.com/LoserFox/telegram/blob/a0a9ca11e427b62217250e2e561f6ad3c49d13f2/package.json",
+      "status": "needs_upstream_declaration",
+      "reason": "no DSH version satisfies every DSH peer range: ^0.1.0-rc.6, ^0.0.1-rc.1",
+      "declaredRange": null
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LoserFox/telegram",
+    "commit": "a0a9ca11e427b62217250e2e561f6ad3c49d13f2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "needs_upstream_declaration",
+  "finishedAt": "2026-11-17T08:16:24.432Z"
+}

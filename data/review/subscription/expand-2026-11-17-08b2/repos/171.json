@@ -1,0 +1,152 @@
+{
+  "full_name": "peng456/dsh-plugin-mesh",
+  "originalPosition": 171,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 171,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:18.635Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cde4403f491f8d9dc9b204043531d787db2bbeef149e10561fcc0885de390206",
+      "url": "https://github.com/peng456/dsh-plugin-mesh/blob/34a3372e46bb6f016778a1f6045c4dd948d5104d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-mesh",
+          "command": "dsh plugin add dsh-plugin-mesh",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "5d7660f52734d43d5f96ff96e6ee50d95bdb10d7aed695a4d711fe701017c764",
+      "url": "https://github.com/peng456/dsh-plugin-mesh/blob/34a3372e46bb6f016778a1f6045c4dd948d5104d/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-mesh",
+          "command": "dsh plugin add dsh-plugin-mesh",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-plugin-mesh",
+          "command": "dsh plugin --profile web add dsh-plugin-mesh",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-mesh",
+      "version": "0.5.20",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/peng456/dsh-plugin-mesh",
+        "commit": "34a3372e46bb6f016778a1f6045c4dd948d5104d"
+      },
+      "manifestSha256": "4dbdcfb793240c91eb9a3c98c8029ed3e7502d5f1b8ca3150fb16a1bcceda280",
+      "manifestUrl": "https://github.com/peng456/dsh-plugin-mesh/blob/34a3372e46bb6f016778a1f6045c4dd948d5104d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-mesh",
+        "versions": [
+          {
+            "version": "0.5.20",
+            "publishTimestamp": 1794756186,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/peng456/dsh-plugin-mesh",
+              "commit": "34a3372e46bb6f016778a1f6045c4dd948d5104d"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-mesh",
+      "origin": "npm",
+      "name": "dsh-plugin-mesh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-mesh",
+        "title": "dsh-plugin-mesh",
+        "description": "把跑不完的活交给另一台电脑；跑完，结果回到你面前。两台装了 DSH 的电脑各装一次，自动互相发现，任务派过去由对端的 agent 执行，结果派回来。Hand a long task to another machine: your DSH instances find each other, the peer runs it, and the result comes back. No pairing codes, no IPs, no Tailscale client.",
+        "author": "peng456",
+        "homepage": "https://github.com/peng456/dsh-plugin-mesh#readme",
+        "repository": {
+          "url": "https://github.com/peng456/dsh-plugin-mesh"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh-desktop",
+            "mesh",
+            "remote",
+            "multi-machine",
+            "long-task",
+            "second-machine",
+            "lan",
+            "tailscale",
+            "tailnet",
+            "discovery"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.20",
+            "publishTimestamp": 1794756336,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "622609eaab60fe6666e537766ae3e6b3a435bbe7aefcbd29e1abcf4ea45a8d07",
+      "evidence": [
+        {
+          "name": "dsh-plugin-mesh",
+          "version": "0.5.20",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-mesh/-/dsh-plugin-mesh-0.5.20.tgz",
+          "integrity": "sha512-95HgQUEyJe2J4p1G6k7EXjjiAmA/68/qW+PmTcaYprW1FeFh2Lgsaaq0F/jwUbiWk1svvn2UxOuZvN1WhUkHPA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-mesh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/peng456/dsh-plugin-mesh",
+    "commit": "34a3372e46bb6f016778a1f6045c4dd948d5104d",
+    "releaseTags": 40,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:21.041Z"
+}

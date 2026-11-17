@@ -1,0 +1,68 @@
+{
+  "full_name": "wdsjwzl/session-seed-plugin",
+  "originalPosition": 59,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 59,
+  "batch": 1,
+  "stargazers_count": 13,
+  "startedAt": "2026-11-17T08:15:25.796Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "df19ea6b325d624da597b5c4ade38f04ed921805d217baffc8ca89f554938446",
+      "url": "https://github.com/wdsjwzl/session-seed-plugin/blob/95c2e8fbc14b04c57e1aa90d4c0c88e0774801d3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/wdsjwzl/dsh-session-seed",
+          "command": "dsh plugin --profile web add github:wdsjwzl/dsh-session-seed",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/wdsjwzl/dsh-session-seed",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "install_target",
+      "target": "https://github.com/wdsjwzl/dsh-session-seed",
+      "reason": "Command failed: git -c core.hooksPath=/dev/null -c core.fsmonitor=false -c submodule.recurse=false -c gc.auto=0 -c maintenance.auto=false -c protocol.allow=never -c protocol.https.allow=always ls-remote -- https://github.com/wdsjwzl/dsh-session-seed HEAD refs/tags/*\nremote: Repository not found.\nfatal: repository 'https://github.com/wdsjwzl/dsh-session-seed/' not found\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/wdsjwzl/session-seed-plugin",
+    "commit": "95c2e8fbc14b04c57e1aa90d4c0c88e0774801d3",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-session-seed",
+    "version": "0.1.4",
+    "dsh": {
+      "client": {
+        "platform": "web",
+        "inject": [
+          "@deepseek-ai/dsh-client-connection",
+          "@deepseek-ai/dsh-client-ui-settings"
+        ]
+      }
+    },
+    "engines": {
+      "node": ">=20"
+    }
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-17T08:15:27.818Z"
+}

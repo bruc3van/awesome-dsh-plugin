@@ -1,0 +1,132 @@
+{
+  "full_name": "sakuraqqq/dsh-auto-paste",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:11:58.378Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2c92beccbc03af6b6ac425d426268fa4d4871ed0cfc90dca19f74fda2681dc10",
+      "url": "https://github.com/sakuraqqq/dsh-auto-paste/blob/98176704d14f8748a96b808a46b16a6ca3e83395/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-auto-paste",
+          "command": "dsh plugin --profile web add dsh-auto-paste",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-auto-paste",
+      "version": "0.3.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sakuraqqq/dsh-auto-paste",
+        "commit": "98176704d14f8748a96b808a46b16a6ca3e83395"
+      },
+      "manifestSha256": "a0cceeb6a4d0e28c63eddbd1cb4958d54474095497eb4ae7e292a71a3b3dd561",
+      "manifestUrl": "https://github.com/sakuraqqq/dsh-auto-paste/blob/98176704d14f8748a96b808a46b16a6ca3e83395/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1 || ^0.2.0-rc.2 || ^0.2.1-rc.2 || ^0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-auto-paste",
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1794597364,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sakuraqqq/dsh-auto-paste",
+              "commit": "98176704d14f8748a96b808a46b16a6ca3e83395"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.2.0-rc.2 || ^0.2.1-rc.2 || ^0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-auto-paste",
+      "origin": "npm",
+      "name": "dsh-auto-paste",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auto-paste",
+        "title": "dsh-auto-paste",
+        "description": "dsh-auto-paste — 长文粘贴自动落盘为工作区文件，输入框只留一张引用卡片，模型只收到一行引用。A DeepSeek Harness plugin: long pastes become workspace files plus one reference chip.",
+        "author": "misakamaster",
+        "homepage": "https://github.com/sakuraqqq/dsh-auto-paste",
+        "repository": {
+          "url": "https://github.com/sakuraqqq/dsh-auto-paste"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "better-sidebar",
+            "paste",
+            "attachment"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1793948154,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1 || ^0.2.0-rc.2 || ^0.2.1-rc.2 || ^0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "213f3f4d207fc7472581e70bfc2063919d743ec31e236eff1cdfe41b44b5638e",
+      "evidence": [
+        {
+          "name": "dsh-auto-paste",
+          "version": "0.3.4",
+          "tarball": "https://registry.npmjs.org/dsh-auto-paste/-/dsh-auto-paste-0.3.4.tgz",
+          "integrity": "sha512-NclhEBGTpcVZVpL6k93G9aPQZhqhWCXYuw0Mtr8DoNMmdafWVOhk6XBfqMI/4xMgREbCsgwbIrGZ/cQNv4mN2Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-auto-paste",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sakuraqqq/dsh-auto-paste",
+    "commit": "98176704d14f8748a96b808a46b16a6ca3e83395",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:00.522Z"
+}

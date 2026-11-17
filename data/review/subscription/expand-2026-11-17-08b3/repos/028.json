@@ -1,0 +1,189 @@
+{
+  "full_name": "TFboy1/dsh-minecraft-ui",
+  "originalPosition": 28,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 28,
+  "batch": 1,
+  "stargazers_count": 21,
+  "startedAt": "2026-11-17T08:15:12.932Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e5310a67857dbd856378afb0487a7a12a2bc183ce5241205984e18e83c297f94",
+      "url": "https://github.com/TFboy1/dsh-minecraft-ui/blob/ec5313b87f8688b82421f124cc2f3887c84b3a8c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-minecraft-ui",
+          "command": "dsh plugin --profile <canary> add dsh-minecraft-ui",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/README_EN.md",
+      "sha256": "e87996ad96ee09fb56295edd4c8ece3940dd330df6b2554b0abe93145fff7c43",
+      "url": "https://github.com/TFboy1/dsh-minecraft-ui/blob/ec5313b87f8688b82421f124cc2f3887c84b3a8c/docs/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-minecraft-ui",
+          "command": "dsh plugin --profile <canary> add dsh-minecraft-ui",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/README_JA.md",
+      "sha256": "8684de89594271e30f23d9809ea6aaa0072d3847761243e94c061a84b4f169b6",
+      "url": "https://github.com/TFboy1/dsh-minecraft-ui/blob/ec5313b87f8688b82421f124cc2f3887c84b3a8c/docs/README_JA.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-minecraft-ui",
+          "command": "dsh plugin --profile <canary> add dsh-minecraft-ui",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/README_FR.md",
+      "sha256": "6f3771351d771927098d08e844cbd0ae04cc16fad77104ae2ab933ab7ad3b91f",
+      "url": "https://github.com/TFboy1/dsh-minecraft-ui/blob/ec5313b87f8688b82421f124cc2f3887c84b3a8c/docs/README_FR.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-minecraft-ui",
+          "command": "dsh plugin --profile <canary> add dsh-minecraft-ui",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/README_DE.md",
+      "sha256": "8380dad77d852cef2b87b55b932bc772cb3c9d96eef8f2ece8bdb3003b934cc3",
+      "url": "https://github.com/TFboy1/dsh-minecraft-ui/blob/ec5313b87f8688b82421f124cc2f3887c84b3a8c/docs/README_DE.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-minecraft-ui",
+          "command": "dsh plugin --profile <canary> add dsh-minecraft-ui",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-minecraft-ui",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TFboy1/dsh-minecraft-ui",
+        "commit": "ec5313b87f8688b82421f124cc2f3887c84b3a8c"
+      },
+      "manifestSha256": "03f9432233afde33757ffce047a48eac06c6da6ee7cc62dc80ba443ea47da212",
+      "manifestUrl": "https://github.com/TFboy1/dsh-minecraft-ui/blob/ec5313b87f8688b82421f124cc2f3887c84b3a8c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.8 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-minecraft-ui",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1787295570,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TFboy1/dsh-minecraft-ui",
+              "commit": "ec5313b87f8688b82421f124cc2f3887c84b3a8c"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.8 <0.2.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-minecraft-ui",
+      "origin": "npm",
+      "name": "dsh-minecraft-ui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-minecraft-ui",
+        "title": "dsh-minecraft-ui",
+        "description": "A playable Minecraft-inspired voxel workspace overlay for DeepSeek Harness Web",
+        "author": "TFboy1",
+        "homepage": "https://github.com/TFboy1/dsh-minecraft-ui#readme",
+        "repository": {
+          "url": "https://github.com/TFboy1/dsh-minecraft-ui"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "cordis",
+            "minecraft",
+            "voxel",
+            "theme",
+            "agent-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1787287726,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.8 <0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "467033659f417f01a2b4ec69bb822e8a97b753c1a3e7afe0d5b28eb1b9c2b4ae",
+      "evidence": [
+        {
+          "name": "dsh-minecraft-ui",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-minecraft-ui/-/dsh-minecraft-ui-0.3.0.tgz",
+          "integrity": "sha512-lIc2gsdnoCZrNn7C1bWqJ9aarP+yWnFB/+6aTiorqcoC2siqFnxVs5f/KN0WjGK4kR2TbTZ/6bevlYkfULvcww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-minecraft-ui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TFboy1/dsh-minecraft-ui",
+    "commit": "ec5313b87f8688b82421f124cc2f3887c84b3a8c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:16.469Z"
+}

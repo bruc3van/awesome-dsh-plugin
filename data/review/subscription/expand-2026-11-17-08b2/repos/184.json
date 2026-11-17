@@ -1,0 +1,132 @@
+{
+  "full_name": "superfish058/dsh-llm-proxy",
+  "originalPosition": 184,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 184,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:27.062Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "243d6b6b2f34d41e78230894ce876ace10c6d28c01e5a71de97f2af38f6f9485",
+      "url": "https://github.com/superfish058/dsh-llm-proxy/blob/a0aa646474037e30b8354fb85b598103507b7f6f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@superfish058/dsh-llm-proxy",
+          "command": "dsh plugin --profile web add @superfish058/dsh-llm-proxy",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@superfish058/dsh-llm-proxy",
+      "version": "1.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/superfish058/dsh-llm-proxy",
+        "commit": "a0aa646474037e30b8354fb85b598103507b7f6f"
+      },
+      "manifestSha256": "f668ee25b58e5cacf3dd93f46981f6e9abb5d776d75011c376600c1ff1b08414",
+      "manifestUrl": "https://github.com/superfish058/dsh-llm-proxy/blob/a0aa646474037e30b8354fb85b598103507b7f6f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@superfish058/dsh-llm-proxy",
+        "versions": [
+          {
+            "version": "1.5.0",
+            "publishTimestamp": 1790565151,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/superfish058/dsh-llm-proxy",
+              "commit": "a0aa646474037e30b8354fb85b598103507b7f6f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@superfish058/dsh-llm-proxy",
+      "origin": "npm",
+      "name": "@superfish058/dsh-llm-proxy",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@superfish058/dsh-llm-proxy",
+        "title": "@superfish058/dsh-llm-proxy",
+        "description": "DSH 模型代理插件：按模型走代理（Clash 等），有官方出站代理包时复用其传输层，设置 → 插件 页实时生效（dsh 0.1.7）。",
+        "author": "superfish058",
+        "homepage": "https://github.com/superfish058/dsh-llm-proxy",
+        "repository": {
+          "url": "https://github.com/superfish058/dsh-llm-proxy"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "llm",
+            "proxy",
+            "clash",
+            "undici",
+            "rate-limit",
+            "token-bucket",
+            "cordis",
+            "settings",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.5.0",
+            "publishTimestamp": 1790565275,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2aab57a5c96557a57e380fd5a01e91d94aa3a4fce89aa1dd8a04fcb40aea0563",
+      "evidence": [
+        {
+          "name": "@superfish058/dsh-llm-proxy",
+          "version": "1.5.0",
+          "tarball": "https://registry.npmjs.org/@superfish058/dsh-llm-proxy/-/dsh-llm-proxy-1.5.0.tgz",
+          "integrity": "sha512-wyG9euCnHFQjB8rbvCwq/gapnUcygwh36zXT+0pE5iF+e+8/t8+6DQtAVJ1XgwzPL4Egd7Q0zTf9XncoIiezXQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@superfish058/dsh-llm-proxy",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/superfish058/dsh-llm-proxy",
+    "commit": "a0aa646474037e30b8354fb85b598103507b7f6f",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:29.432Z"
+}

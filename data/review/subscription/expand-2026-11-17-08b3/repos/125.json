@@ -1,0 +1,155 @@
+{
+  "full_name": "27painter/dsh-moli",
+  "originalPosition": 125,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 125,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:15:54.687Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bc30763e744d04046d0a353d05b4e42be3581b12732c6531f6a374d47c6b1b4b",
+      "url": "https://github.com/27painter/dsh-moli/blob/56a28721fc2977f450d3ada9f03acad50e9b97d4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-moli",
+          "command": "dsh plugin --profile web add dsh-moli",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/27painter/dsh-moli",
+          "command": "dsh plugin --profile web add github:27painter/dsh-moli",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "f4ee613a262619af2d8ec5791b7cb39ab0c01ac14a07206aaf47188ec2a45de0",
+      "url": "https://github.com/27painter/dsh-moli/blob/56a28721fc2977f450d3ada9f03acad50e9b97d4/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-moli",
+          "command": "dsh plugin --profile web add dsh-moli",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/27painter/dsh-moli",
+          "command": "dsh plugin --profile web add github:27painter/dsh-moli",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-moli",
+      "version": "1.1.20",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/27painter/dsh-moli",
+        "commit": "56a28721fc2977f450d3ada9f03acad50e9b97d4"
+      },
+      "manifestSha256": "676630d0e4110bb3dc5225a4a496f3ab288ebf29f9d0a1d91698078a2f50b7ac",
+      "manifestUrl": "https://github.com/27painter/dsh-moli/blob/56a28721fc2977f450d3ada9f03acad50e9b97d4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-moli",
+        "versions": [
+          {
+            "version": "1.1.20",
+            "publishTimestamp": 1793075462,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/27painter/dsh-moli",
+              "commit": "56a28721fc2977f450d3ada9f03acad50e9b97d4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-moli",
+      "origin": "npm",
+      "name": "dsh-moli",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-moli",
+        "title": "dsh-moli",
+        "description": "DeepSeek Harness tools for the local Moli headless browser: rendered fetches, markdown, semantic trees, screenshots, and PDFs.",
+        "author": "27painter",
+        "homepage": "https://github.com/27painter/dsh-moli#readme",
+        "repository": {
+          "url": "https://github.com/27painter/dsh-moli"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "moli",
+            "headless-browser",
+            "screenshot",
+            "markdown"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.20",
+            "publishTimestamp": 1793078978,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9a7cea53f16ec4faa953c73b7befc63e900d37fc65afdcca92c367ef360a0bda",
+      "evidence": [
+        {
+          "name": "dsh-moli",
+          "version": "1.1.20",
+          "tarball": "https://registry.npmjs.org/dsh-moli/-/dsh-moli-1.1.20.tgz",
+          "integrity": "sha512-0U3CAbdiIq6VmKnvgn7W/bcc5gszp6hjGYHeHyKV9E4UUrk7jcQwpZwRY9hHvwnjA8RuokKf6Wiq+uqXJ0Kq4w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-moli",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/27painter/dsh-moli",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/27painter/dsh-moli",
+    "commit": "56a28721fc2977f450d3ada9f03acad50e9b97d4",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:57.382Z"
+}

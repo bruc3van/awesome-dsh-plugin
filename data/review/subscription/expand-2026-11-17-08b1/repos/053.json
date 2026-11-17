@@ -1,0 +1,50 @@
+{
+  "full_name": "joeseesun/qiaomu-home-dsh",
+  "originalPosition": 53,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 53,
+  "batch": 1,
+  "stargazers_count": 27,
+  "startedAt": "2026-11-17T08:10:59.258Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "045c62d9b623a3715f44aa2688f811a1fcc93d436926a71abe0a3a355404a677",
+      "url": "https://github.com/joeseesun/qiaomu-home-dsh/blob/de2e9e1f7e3de1f198aa96cef5e5530ac93b88b5/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "qiaomu-home-dsh",
+      "version": "0.3.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/joeseesun/qiaomu-home-dsh",
+        "commit": "de2e9e1f7e3de1f198aa96cef5e5530ac93b88b5"
+      },
+      "manifestSha256": "3cc45f4511f2588edef9332720637391cb39de9d2ae216384e9b2eb0a1a6e2b6",
+      "manifestUrl": "https://github.com/joeseesun/qiaomu-home-dsh/blob/de2e9e1f7e3de1f198aa96cef5e5530ac93b88b5/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/joeseesun/qiaomu-home-dsh",
+    "commit": "de2e9e1f7e3de1f198aa96cef5e5530ac93b88b5",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-17T08:11:01.301Z"
+}

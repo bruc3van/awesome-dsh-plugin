@@ -1,0 +1,132 @@
+{
+  "full_name": "meto-ventus/dsh-ventus-whale",
+  "originalPosition": 115,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 115,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:15:50.415Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8dc3bd4918780a8828c3c0a122424b409a1380e6bf040d2166ee87c14527221f",
+      "url": "https://github.com/meto-ventus/dsh-ventus-whale/blob/c439211835930e9876d8130887543b033ae8f327/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/mmzm0808/dsh-ventus-whale#v0.1.0",
+          "command": "dsh plugin --profile web add github:mmzm0808/dsh-ventus-whale#v0.1.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ventus-whale",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/meto-ventus/dsh-ventus-whale",
+        "commit": "c439211835930e9876d8130887543b033ae8f327"
+      },
+      "manifestSha256": "903cd255ce960e7f404831b607f91d344b166c412bd1d93eeb88e3d4214a7828",
+      "manifestUrl": "https://github.com/meto-ventus/dsh-ventus-whale/blob/c439211835930e9876d8130887543b033ae8f327/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ventus-whale",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787557287,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/meto-ventus/dsh-ventus-whale",
+              "commit": "c439211835930e9876d8130887543b033ae8f327"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/mmzm0808/dsh-ventus-whale#v0.1.0",
+      "origin": "git_target",
+      "name": "dsh-ventus-whale",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ventus-whale",
+        "title": "dsh-ventus-whale",
+        "description": "Ventus 虎鲸 3D 桌宠：一个可交互的 DeepSeek 虎鲸 3D 模型浮窗（透明背景），支持拖拽移动/旋转查看/右键菜单，设置页提供大小、灵敏度、显示文字配置。",
+        "homepage": "https://github.com/mmzm0808/dsh-ventus-whale",
+        "repository": {
+          "url": "https://github.com/mmzm0808/dsh-ventus-whale"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "pet",
+            "whale",
+            "threejs",
+            "3d"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786815391,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/mmzm0808/dsh-ventus-whale",
+              "commit": "9e77e958df0fa1157f980f7a7ac8a027ec0b8a09"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "9e77e958df0fa1157f980f7a7ac8a027ec0b8a09",
+          "name": "dsh-ventus-whale",
+          "version": "0.1.0",
+          "url": "https://github.com/mmzm0808/dsh-ventus-whale",
+          "manifestSha256": "8a6d5f6118c96ba5d522840d659b3c852f5b25c495e1799d2aa562401bbe3b8a",
+          "publishTimestamp": 1786815391
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/mmzm0808/dsh-ventus-whale#v0.1.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/meto-ventus/dsh-ventus-whale",
+    "commit": "c439211835930e9876d8130887543b033ae8f327",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:54.335Z"
+}

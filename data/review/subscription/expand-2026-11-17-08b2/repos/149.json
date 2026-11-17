@@ -1,0 +1,129 @@
+{
+  "full_name": "karina2256/dsh-codex-excellent-slider",
+  "originalPosition": 149,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 149,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:08.203Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "52e390d9ccc6c93261a2ee26e3ab19ee243bac224f3dc7dbd790d8e8b3c931e3",
+      "url": "https://github.com/karina2256/dsh-codex-excellent-slider/blob/fae12adf2c872e4ab885eb26e3f02be72afcac9e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-excellent-slider",
+          "command": "dsh plugin --profile web add dsh-codex-excellent-slider",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-excellent-slider",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/karina2256/dsh-codex-excellent-slider",
+        "commit": "fae12adf2c872e4ab885eb26e3f02be72afcac9e"
+      },
+      "manifestSha256": "2021ba87a485544364bc5417adfa9a5640f566a842a23eed04aa64e61ce56973",
+      "manifestUrl": "https://github.com/karina2256/dsh-codex-excellent-slider/blob/fae12adf2c872e4ab885eb26e3f02be72afcac9e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-codex-excellent-slider",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792402959,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/karina2256/dsh-codex-excellent-slider",
+              "commit": "fae12adf2c872e4ab885eb26e3f02be72afcac9e"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-codex-excellent-slider",
+      "origin": "npm",
+      "name": "dsh-codex-excellent-slider",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-codex-excellent-slider",
+        "title": "dsh-codex-excellent-slider",
+        "description": "DSH Web 客户端的 Codex 风格「思考强度」滑条：power-slider 的卡片 UI（模型列表 + 强度滑杆）+ effort-slider 的连续动效（动态色板、流动星尘、跟手拖动）。",
+        "author": "karina2256",
+        "homepage": "https://github.com/karina2256/dsh-codex-excellent-slider#readme",
+        "repository": {
+          "url": "https://github.com/karina2256/dsh-codex-excellent-slider"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "reasoning",
+            "thinking",
+            "effort",
+            "codex",
+            "power-slider",
+            "effort-slider"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792402439,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "71aacac40ca5fbd64c52d7525f4872363d98c478cc822595de75932bd2043c76",
+      "evidence": [
+        {
+          "name": "dsh-codex-excellent-slider",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-codex-excellent-slider/-/dsh-codex-excellent-slider-0.2.0.tgz",
+          "integrity": "sha512-WQg4nTDbMoBtvXyfO3z1lMzzsFPmSrAX5xNZwthBMyy2e5ttoaFVxgKKaVWkDOvAqIhjj0Li/jBMIOcYaree1g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-codex-excellent-slider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/karina2256/dsh-codex-excellent-slider",
+    "commit": "fae12adf2c872e4ab885eb26e3f02be72afcac9e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:10.226Z"
+}

@@ -1,0 +1,124 @@
+{
+  "full_name": "bubbleptr/dsh-holdem",
+  "originalPosition": 120,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 120,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:57.116Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "66d09fde77f9141078ce743fcc30772e4c6d9510db62d51128e01bd48fe47a4c",
+      "url": "https://github.com/bubbleptr/dsh-holdem/blob/23c476efb0bd52e0472610942e248b7db12f3372/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-holdem",
+          "command": "dsh plugin --profile web add dsh-holdem",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-holdem",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bubbleptr/dsh-holdem",
+        "commit": "23c476efb0bd52e0472610942e248b7db12f3372"
+      },
+      "manifestSha256": "5544a8ffc6b4c956f26505780a29c32246f150c6743b610a97a2f8e451017521",
+      "manifestUrl": "https://github.com/bubbleptr/dsh-holdem/blob/23c476efb0bd52e0472610942e248b7db12f3372/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-holdem",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1791726393,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bubbleptr/dsh-holdem",
+              "commit": "23c476efb0bd52e0472610942e248b7db12f3372"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-holdem",
+      "origin": "npm",
+      "name": "dsh-holdem",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-holdem",
+        "title": "dsh-holdem",
+        "description": "Six-max No-Limit Hold'em for DeepSeek Harness: one human and five LLM agents.",
+        "homepage": "https://github.com/BubblePtr/dsh-holdem",
+        "repository": {
+          "url": "https://github.com/BubblePtr/dsh-holdem"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "texas-holdem",
+            "poker"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1789962530,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d9fb2dfef1308e0cd8926a04a7f110798f7dcc08183939692d73a42856d7286f",
+      "evidence": [
+        {
+          "name": "dsh-holdem",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-holdem/-/dsh-holdem-0.4.0.tgz",
+          "integrity": "sha512-Hlj5johwPpFINEUgpJ25wDuve+vjZCb1QODn7R6C77q+Xh7MgsFYjVPNB6iLcMMHGjXB9kVkj1e0eqf5WtN0pw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-holdem",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bubbleptr/dsh-holdem",
+    "commit": "23c476efb0bd52e0472610942e248b7db12f3372",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:59.252Z"
+}

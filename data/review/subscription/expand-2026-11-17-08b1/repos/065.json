@@ -1,0 +1,40 @@
+{
+  "full_name": "Jensen-Yao/deepseek-harness-android-app",
+  "originalPosition": 65,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 65,
+  "batch": 1,
+  "stargazers_count": 23,
+  "startedAt": "2026-11-17T08:11:03.507Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "68ea9060de1efb6efd363039449c968fc8a151ce001295037ea30a7869d55d05",
+      "url": "https://github.com/Jensen-Yao/deepseek-harness-android-app/blob/c27eb2dbef83d707a4979371a4713d84ebd4c10d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jensen-Yao/deepseek-harness-android-app",
+    "commit": "c27eb2dbef83d707a4979371a4713d84ebd4c10d",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:05.066Z"
+}

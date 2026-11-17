@@ -1,0 +1,74 @@
+{
+  "full_name": "darker2016/WorkbuddySkillGroups4DSH",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-17T08:11:43.371Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e5c72cfcb45beb5c219b9b6b98779d52441ab563075def4870f99b65b2228a1c",
+      "url": "https://github.com/darker2016/WorkbuddySkillGroups4DSH/blob/d813e89e40335e6531bcfc1489b67a48cec20e6c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "workbuddy-skillgroups-4dsh",
+          "command": "dsh plugin --profile web add workbuddy-skillgroups-4dsh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "sop/README.md",
+      "sha256": "41c9af1165589e028e8774112d6fe36c1e925f7fcfd04f13f75a40e58a132a11",
+      "url": "https://github.com/darker2016/WorkbuddySkillGroups4DSH/blob/d813e89e40335e6531bcfc1489b67a48cec20e6c/sop/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "target": "workbuddy-skillgroups-4dsh",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "workbuddy-skillgroups-4dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/darker2016/WorkbuddySkillGroups4DSH",
+    "commit": "d813e89e40335e6531bcfc1489b67a48cec20e6c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "workbuddy-skillgroups-4dsh",
+    "version": "1.0.0",
+    "dsh": {
+      "plugin": {
+        "pluginName": "workbuddy-skillgroups",
+        "description": "Registers all WorkBuddy expert-team skill bundles into ctx.skills at runtime."
+      }
+    },
+    "engines": {
+      "node": ">=18"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:45.836Z"
+}

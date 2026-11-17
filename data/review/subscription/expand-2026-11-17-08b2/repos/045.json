@@ -1,0 +1,81 @@
+{
+  "full_name": "hachimi-ai/dsh-aemeath",
+  "originalPosition": 45,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 45,
+  "batch": 1,
+  "stargazers_count": 17,
+  "startedAt": "2026-11-17T08:12:24.532Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3d6fea90fffe4c643f402f9775cf1b6fe2df164cf14821bdcbbe5a7b1417c6be",
+      "url": "https://github.com/hachimi-ai/dsh-aemeath/blob/f58eef75dcadb5aeaee9e78542e7e1d9ba43f821/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/hachimi-ai/dsh-aemeath",
+          "command": "dsh plugin --profile web add git+https://github.com/hachimi-ai/dsh-aemeath",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-aemeath",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hachimi-ai/dsh-aemeath",
+        "commit": "f58eef75dcadb5aeaee9e78542e7e1d9ba43f821"
+      },
+      "manifestSha256": "8e1c21786f5cbca030c24e5624c3c4e8b0c995091da2f67d9a6a2b3887e26862",
+      "manifestUrl": "https://github.com/hachimi-ai/dsh-aemeath/blob/f58eef75dcadb5aeaee9e78542e7e1d9ba43f821/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-aemeath",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786898271,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hachimi-ai/dsh-aemeath",
+              "commit": "f58eef75dcadb5aeaee9e78542e7e1d9ba43f821"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/hachimi-ai/dsh-aemeath",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hachimi-ai/dsh-aemeath",
+    "commit": "f58eef75dcadb5aeaee9e78542e7e1d9ba43f821",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:26.790Z"
+}

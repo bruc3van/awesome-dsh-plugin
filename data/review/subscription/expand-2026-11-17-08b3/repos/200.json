@@ -1,0 +1,118 @@
+{
+  "full_name": "Pasumao/dsh-plugin-workbench",
+  "originalPosition": 200,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:29.817Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d68f32d1595e973623826434b62861b6a90c27b813bc14d80e6aeb3a69636871",
+      "url": "https://github.com/Pasumao/dsh-plugin-workbench/blob/c669b42057b54c7bb30eab801cfbd6bd0417a92c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-workbench",
+          "command": "dsh plugin --profile web add dsh-plugin-workbench",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Pasumao/dsh-plugin-workbench",
+          "command": "dsh plugin --profile web add github:Pasumao/dsh-plugin-workbench",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6777245152c7c47683e273905269a1cbb2ce3bf4824d1ae0d05ade667e8fa513",
+      "url": "https://github.com/Pasumao/dsh-plugin-workbench/blob/c669b42057b54c7bb30eab801cfbd6bd0417a92c/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-workbench",
+          "command": "dsh plugin --profile web add dsh-plugin-workbench",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Pasumao/dsh-plugin-workbench",
+          "command": "dsh plugin --profile web add github:Pasumao/dsh-plugin-workbench",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-workbench",
+      "version": "0.0.25",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Pasumao/dsh-plugin-workbench",
+        "commit": "c669b42057b54c7bb30eab801cfbd6bd0417a92c"
+      },
+      "manifestSha256": "315cd4877356fba411e8c8fde7d83edb900ad9dbac2063fa25a6b6cfd918cafd",
+      "manifestUrl": "https://github.com/Pasumao/dsh-plugin-workbench/blob/c669b42057b54c7bb30eab801cfbd6bd0417a92c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-workbench",
+        "versions": [
+          {
+            "version": "0.0.25",
+            "publishTimestamp": 1789128559,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Pasumao/dsh-plugin-workbench",
+              "commit": "c669b42057b54c7bb30eab801cfbd6bd0417a92c"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-workbench",
+      "origin": "npm",
+      "name": "dsh-plugin-workbench",
+      "version": null,
+      "code": "invalid_manifest",
+      "status": "invalid_manifest",
+      "reason": "missing or mismatched manifest",
+      "statusCode": "invalid_manifest",
+      "registrySha256": "d639618c9a02ee60c529dd6496c8d782aa4bd3c4bdbedfbca7a557a0f345cb07"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Pasumao/dsh-plugin-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Pasumao/dsh-plugin-workbench",
+    "commit": "c669b42057b54c7bb30eab801cfbd6bd0417a92c",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:32.129Z"
+}

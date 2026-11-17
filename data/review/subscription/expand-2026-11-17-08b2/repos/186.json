@@ -1,0 +1,202 @@
+{
+  "full_name": "timwhitez/dsh-self-evolving",
+  "originalPosition": 186,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 186,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:28.080Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c89ff87979ee24b850c3205d9276f8984edd0d98a01f312764ee51975f49c25c",
+      "url": "https://github.com/timwhitez/dsh-self-evolving/blob/d0f3c80473df1c21a6c8fb011aae6b7767669317/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-self-evolving/core@0.2.3",
+          "command": "dsh plugin --profile headless add @dsh-self-evolving/core@0.2.3",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "9e3e8414b675a9f9a991c4f944b817e0c956be3c738ff1e0ca11d8c578a3a023",
+      "url": "https://github.com/timwhitez/dsh-self-evolving/blob/d0f3c80473df1c21a6c8fb011aae6b7767669317/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-self-evolving/core@0.2.3",
+          "command": "dsh plugin --profile headless add @dsh-self-evolving/core@0.2.3",
+          "profile": "headless"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "dc1faa6818441ebf27e3aa8e19e6093bdf58b9bda57be309252dbea54a04874e",
+      "url": "https://github.com/timwhitez/dsh-self-evolving/blob/d0f3c80473df1c21a6c8fb011aae6b7767669317/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-self-evolving/candidate-baseline",
+      "version": "0.2.0",
+      "path": "packages/candidate-baseline",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/timwhitez/dsh-self-evolving",
+        "commit": "d0f3c80473df1c21a6c8fb011aae6b7767669317",
+        "path": "packages/candidate-baseline"
+      },
+      "manifestSha256": "80d2561d765f122953cce983ef19f91893ce086b4d78e8161bd828d785bccc54",
+      "manifestUrl": "https://github.com/timwhitez/dsh-self-evolving/blob/d0f3c80473df1c21a6c8fb011aae6b7767669317/packages/candidate-baseline/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-self-evolving/candidate-baseline",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1788004530,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/timwhitez/dsh-self-evolving",
+              "commit": "d0f3c80473df1c21a6c8fb011aae6b7767669317",
+              "path": "packages/candidate-baseline"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-self-evolving/candidate-v011-baseline",
+      "version": "0.2.0",
+      "path": "packages/candidate-v011-baseline",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/timwhitez/dsh-self-evolving",
+        "commit": "d0f3c80473df1c21a6c8fb011aae6b7767669317",
+        "path": "packages/candidate-v011-baseline"
+      },
+      "manifestSha256": "80832854767491c3a0fc3af16b02169d41f3bc308e6c2c7ae680f11580be318f",
+      "manifestUrl": "https://github.com/timwhitez/dsh-self-evolving/blob/d0f3c80473df1c21a6c8fb011aae6b7767669317/packages/candidate-v011-baseline/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-self-evolving/core",
+      "version": "0.2.3",
+      "path": "packages/dsh-self-evolving",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/timwhitez/dsh-self-evolving",
+        "commit": "d0f3c80473df1c21a6c8fb011aae6b7767669317",
+        "path": "packages/dsh-self-evolving"
+      },
+      "manifestSha256": "81d08b291f7ce7a5b7b3bdfb22eb8fa4ecd82921cdf36cc33888bb9043af5c2c",
+      "manifestUrl": "https://github.com/timwhitez/dsh-self-evolving/blob/d0f3c80473df1c21a6c8fb011aae6b7767669317/packages/dsh-self-evolving/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-self-evolving/core",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1788004530,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/timwhitez/dsh-self-evolving",
+              "commit": "d0f3c80473df1c21a6c8fb011aae6b7767669317",
+              "path": "packages/dsh-self-evolving"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@dsh-self-evolving/core@0.2.3",
+      "origin": "npm",
+      "name": "@dsh-self-evolving/core",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dsh-self-evolving/core",
+        "title": "@dsh-self-evolving/core",
+        "description": "Trusted durable RSI controller: content-addressed object store, hash-chain journal, pure state reducer + snapshot, action saga, budget double-entry ledger. Crash-safe by construction; the filesystem is the source of truth (spec 06).",
+        "homepage": "https://github.com/timwhitez/dsh-self-evolving#readme",
+        "repository": {
+          "url": "https://github.com/timwhitez/dsh-self-evolving",
+          "directory": "packages/dsh-self-evolving"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "bundle",
+            "self-evolving",
+            "rsi",
+            "controller",
+            "journal"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1786904955,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8641a54fbc8d8456b8791fd8741b17321eab3c00604113a194241ae42aba08ce",
+      "evidence": [
+        {
+          "name": "@dsh-self-evolving/core",
+          "version": "0.2.3",
+          "tarball": "https://registry.npmjs.org/@dsh-self-evolving/core/-/core-0.2.3.tgz",
+          "integrity": "sha512-FoOt/YVhpEZXCsQU/wfBk60IiBnwfn/TfKuHz9neKhFlmIbxQW2iJ7cPRa3hHkyZhkrJ+iQkp5VEYPRGIR/HOg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dsh-self-evolving/core@0.2.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/timwhitez/dsh-self-evolving",
+    "commit": "d0f3c80473df1c21a6c8fb011aae6b7767669317",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:36.218Z"
+}

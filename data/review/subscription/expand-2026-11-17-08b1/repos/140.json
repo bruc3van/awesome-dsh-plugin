@@ -1,0 +1,51 @@
+{
+  "full_name": "Yeshengsheng416/mbcc-console-dsh-theme",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-17T08:11:36.514Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fe7850cdb9b52efd25510764ab3ef52ce635910bcae1decf54de608e4503e797",
+      "url": "https://github.com/Yeshengsheng416/mbcc-console-dsh-theme/blob/8641179d176bcddda30e1ac8b7cc396322316aba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-mbcc-console",
+      "version": "0.50.0",
+      "path": "mbcc-console-theme",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yeshengsheng416/mbcc-console-dsh-theme",
+        "commit": "8641179d176bcddda30e1ac8b7cc396322316aba",
+        "path": "mbcc-console-theme"
+      },
+      "manifestSha256": "b4538bb176fb74d8078093eb8769ac7e65cd72a07f26fc86c29e015c244d0c60",
+      "manifestUrl": "https://github.com/Yeshengsheng416/mbcc-console-dsh-theme/blob/8641179d176bcddda30e1ac8b7cc396322316aba/mbcc-console-theme/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yeshengsheng416/mbcc-console-dsh-theme",
+    "commit": "8641179d176bcddda30e1ac8b7cc396322316aba",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:38.465Z"
+}

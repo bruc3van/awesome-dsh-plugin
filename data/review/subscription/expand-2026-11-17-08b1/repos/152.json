@@ -1,0 +1,200 @@
+{
+  "full_name": "Horizon215/dsh-plugins",
+  "originalPosition": 152,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 152,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-17T08:11:40.915Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f857693de1167b4a4bfb4451ad6c239b273fdb4c9699a753f516b23b3e4bed14",
+      "url": "https://github.com/Horizon215/dsh-plugins/blob/47c61d624358f92d2f229dd981ef3883ee2af6a1/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@your-scope/dsh-mode-switcher",
+      "version": "0.1.0",
+      "path": "packages/mode-switcher",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Horizon215/dsh-plugins",
+        "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+        "path": "packages/mode-switcher"
+      },
+      "manifestSha256": "d99b995f590d0a8eb8a713a5f07cb0fbac9416db35b1e2fa41b5728997069124",
+      "manifestUrl": "https://github.com/Horizon215/dsh-plugins/blob/47c61d624358f92d2f229dd981ef3883ee2af6a1/packages/mode-switcher/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@your-scope/dsh-mode-switcher",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787576465,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Horizon215/dsh-plugins",
+              "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+              "path": "packages/mode-switcher"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@your-scope/dsh-previously-on",
+      "version": "0.2.5",
+      "path": "packages/previously-on",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Horizon215/dsh-plugins",
+        "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+        "path": "packages/previously-on"
+      },
+      "manifestSha256": "fb7b0d2c521e4d8b5ede6906d3d6e767a8826f8ff394cd24dc1ec1bd03a26eb0",
+      "manifestUrl": "https://github.com/Horizon215/dsh-plugins/blob/47c61d624358f92d2f229dd981ef3883ee2af6a1/packages/previously-on/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@your-scope/dsh-previously-on",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1787576465,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Horizon215/dsh-plugins",
+              "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+              "path": "packages/previously-on"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@your-scope/dsh-prompt-templates",
+      "version": "0.1.0",
+      "path": "packages/prompt-templates",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Horizon215/dsh-plugins",
+        "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+        "path": "packages/prompt-templates"
+      },
+      "manifestSha256": "3925078eaaac694fc7b3e9c6285a097891027e08ca024a1fa2ead4d3cb8b7d45",
+      "manifestUrl": "https://github.com/Horizon215/dsh-plugins/blob/47c61d624358f92d2f229dd981ef3883ee2af6a1/packages/prompt-templates/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@your-scope/dsh-prompt-templates",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787576465,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Horizon215/dsh-plugins",
+              "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+              "path": "packages/prompt-templates"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@your-scope/dsh-quest-mascot",
+      "version": "0.1.1",
+      "path": "packages/quest-mascot",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Horizon215/dsh-plugins",
+        "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+        "path": "packages/quest-mascot"
+      },
+      "manifestSha256": "993da57d1653529cd544246e6e3db3ccbb7cb2e9ddfaed0349da1d9ce96723ed",
+      "manifestUrl": "https://github.com/Horizon215/dsh-plugins/blob/47c61d624358f92d2f229dd981ef3883ee2af6a1/packages/quest-mascot/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@your-scope/dsh-quest-mascot",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1787576465,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Horizon215/dsh-plugins",
+              "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+              "path": "packages/quest-mascot"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@your-scope/dsh-token-stats",
+      "version": "0.1.0",
+      "path": "packages/token-stats",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Horizon215/dsh-plugins",
+        "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+        "path": "packages/token-stats"
+      },
+      "manifestSha256": "bb02e30e53b132ad7fce1e299574ef0dd6b5f46c02524b393bd6b7226f44f708",
+      "manifestUrl": "https://github.com/Horizon215/dsh-plugins/blob/47c61d624358f92d2f229dd981ef3883ee2af6a1/packages/token-stats/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@your-scope/dsh-token-stats",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787576465,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Horizon215/dsh-plugins",
+              "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+              "path": "packages/token-stats"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Horizon215/dsh-plugins",
+    "commit": "47c61d624358f92d2f229dd981ef3883ee2af6a1",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "template_or_example_review",
+  "finishedAt": "2026-11-17T08:11:45.065Z"
+}

@@ -1,0 +1,58 @@
+{
+  "full_name": "OrinVoss/dsh-math-team",
+  "originalPosition": 197,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 197,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:28.554Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "70e2345a116d3a1d9a157260d7017b1127e3d9938a873f6154723714bed58e50",
+      "url": "https://github.com/OrinVoss/dsh-math-team/blob/341fff27409db34edbe2984ee8d32ad799b2d755/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_en.md",
+      "sha256": "bbadf2b9b16eb09d6be1e4978d7b545f2b0803dd0af4e01ae7fd4611429ba464",
+      "url": "https://github.com/OrinVoss/dsh-math-team/blob/341fff27409db34edbe2984ee8d32ad799b2d755/README_en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-math-team-presets",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/OrinVoss/dsh-math-team",
+        "commit": "341fff27409db34edbe2984ee8d32ad799b2d755"
+      },
+      "manifestSha256": "3458e32609ea0717dbfeb1205e963d4b70c491192a723e4d2ec820ce238d39ff",
+      "manifestUrl": "https://github.com/OrinVoss/dsh-math-team/blob/341fff27409db34edbe2984ee8d32ad799b2d755/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/OrinVoss/dsh-math-team",
+    "commit": "341fff27409db34edbe2984ee8d32ad799b2d755",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:16:31.060Z"
+}

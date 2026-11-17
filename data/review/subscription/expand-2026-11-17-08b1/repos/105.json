@@ -1,0 +1,48 @@
+{
+  "full_name": "omdsh-dev/dsh-plugin-skills",
+  "originalPosition": 105,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 105,
+  "batch": 1,
+  "stargazers_count": 14,
+  "startedAt": "2026-11-17T08:11:20.304Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "039a8beed235cebc976be44df3a01be52b1a43125cbcc0b9e8ec99bf339c46f4",
+      "url": "https://github.com/omdsh-dev/dsh-plugin-skills/blob/32d22f03490cdf8a1845b811542583fccf6f6e94/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "00f985df8b0d0cbf3ceb9caad20f96798a81bf2622bb9d4998c5583ff2efb424",
+      "url": "https://github.com/omdsh-dev/dsh-plugin-skills/blob/32d22f03490cdf8a1845b811542583fccf6f6e94/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-plugin-skills",
+    "commit": "32d22f03490cdf8a1845b811542583fccf6f6e94",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:22.397Z"
+}

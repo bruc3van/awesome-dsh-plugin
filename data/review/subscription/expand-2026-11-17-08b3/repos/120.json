@@ -1,0 +1,182 @@
+{
+  "full_name": "zh-xx/Antu",
+  "originalPosition": 120,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 120,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:15:52.985Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a2c28c981b7512f4f3689c9f8f506fb9b42bbb7efa96cfc4e684110109f147bc",
+      "url": "https://github.com/zh-xx/Antu/blob/f654af778d4418c55f2e47158d70a2197be6f364/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zh-xx/antu-dsh",
+          "command": "dsh plugin --profile <name> add @zh-xx/antu-dsh",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "b8abc98f3471e1a55c46da5977de55b6e39c52e48c00d859c78e9307dd78b970",
+      "url": "https://github.com/zh-xx/Antu/blob/f654af778d4418c55f2e47158d70a2197be6f364/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zh-xx/antu-dsh",
+          "command": "dsh plugin --profile <名> add @zh-xx/antu-dsh",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "tools/dsh/README.md",
+      "sha256": "9e489dec035188d4b07d67bb86056fcff82d862753a07c6e094821f0c3fe75fe",
+      "url": "https://github.com/zh-xx/Antu/blob/f654af778d4418c55f2e47158d70a2197be6f364/tools/dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zh-xx/antu-dsh",
+          "command": "dsh plugin --profile <配置名> add @zh-xx/antu-dsh",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "tools/dsh/README.zh-CN.md",
+      "sha256": "aa5c6d0b3cdc6b99af883236edb3d9ca6df5f1222e32e69d43a5f79ac803dbf1",
+      "url": "https://github.com/zh-xx/Antu/blob/f654af778d4418c55f2e47158d70a2197be6f364/tools/dsh/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@zh-xx/antu-dsh",
+          "command": "dsh plugin --profile <name> add @zh-xx/antu-dsh",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@zh-xx/antu-dsh",
+      "version": "0.19.0",
+      "path": "tools/dsh/package",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zh-xx/Antu",
+        "commit": "f654af778d4418c55f2e47158d70a2197be6f364",
+        "path": "tools/dsh/package"
+      },
+      "manifestSha256": "3598a4549ee9751aa63564b07f55061d0647720cf2e6ae3ee5ffa71053edfbb5",
+      "manifestUrl": "https://github.com/zh-xx/Antu/blob/f654af778d4418c55f2e47158d70a2197be6f364/tools/dsh/package/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2 || ^0.2.1-rc.0 || ^0.2.2-rc.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@zh-xx/antu-dsh",
+        "versions": [
+          {
+            "version": "0.19.0",
+            "publishTimestamp": 1794902356,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zh-xx/Antu",
+              "commit": "f654af778d4418c55f2e47158d70a2197be6f364",
+              "path": "tools/dsh/package"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2 || ^0.2.1-rc.0 || ^0.2.2-rc.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@zh-xx/antu-dsh",
+      "origin": "npm",
+      "name": "@zh-xx/antu-dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@zh-xx/antu-dsh",
+        "title": {
+          "en": "Antu · Legal Diagrams",
+          "zh": "案图 · 诉讼可视化"
+        },
+        "description": {
+          "en": "Native Host tools and an interactive chat card for Antu · Legal Diagrams.",
+          "zh": "在 DeepSeek Harness 中用原生 Host 工具与交互卡片画法律图。"
+        },
+        "author": "Ji Cheng",
+        "homepage": "https://github.com/zh-xx/Antu/tree/main/tools/dsh",
+        "repository": {
+          "url": "https://github.com/zh-xx/Antu",
+          "directory": "tools/dsh"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "legal",
+            "diagram",
+            "antu"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.19.0",
+            "publishTimestamp": 1793767978,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2 || ^0.2.1-rc.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f266c4a635eedb8d6162733047d9c1e75c2127150d106f90ecfc9f87d604352b",
+      "evidence": [
+        {
+          "name": "@zh-xx/antu-dsh",
+          "version": "0.19.0",
+          "tarball": "https://registry.npmjs.org/@zh-xx/antu-dsh/-/antu-dsh-0.19.0.tgz",
+          "integrity": "sha512-SG/0/mTR80LSooapIAi6jvMUdB7phMHr0gBmPil+X7rZy3ZkYpN6hho8I63r4h+YNP7RHbQID/W5Z9/UgBcntA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@zh-xx/antu-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zh-xx/Antu",
+    "commit": "f654af778d4418c55f2e47158d70a2197be6f364",
+    "releaseTags": 29,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:56.975Z"
+}

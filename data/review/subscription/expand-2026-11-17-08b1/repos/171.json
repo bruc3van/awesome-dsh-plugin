@@ -1,0 +1,50 @@
+{
+  "full_name": "zoe1nan/windowseat",
+  "originalPosition": 171,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 171,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-17T08:11:48.780Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "977714abdb00e51ed8b181259d209f85a19aa0778ba47eeee059dc0052316e12",
+      "url": "https://github.com/zoe1nan/windowseat/blob/75c748bfff11a0f4a60a2e9919842105ec618aaf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "windowseat-bridge",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zoe1nan/windowseat",
+        "commit": "75c748bfff11a0f4a60a2e9919842105ec618aaf"
+      },
+      "manifestSha256": "44708e4eb44aeb43126a1abef9a83b38934a805a6cc776933d265db11e3935f4",
+      "manifestUrl": "https://github.com/zoe1nan/windowseat/blob/75c748bfff11a0f4a60a2e9919842105ec618aaf/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zoe1nan/windowseat",
+    "commit": "75c748bfff11a0f4a60a2e9919842105ec618aaf",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:50.713Z"
+}

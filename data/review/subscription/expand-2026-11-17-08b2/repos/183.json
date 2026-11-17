@@ -1,0 +1,152 @@
+{
+  "full_name": "sunshine-lang/dsh-weather",
+  "originalPosition": 183,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 183,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:25.752Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "10ac3f69ba3c02fb16e00cdfd6dbc823502a19814be7052e648c9972c5f20cae",
+      "url": "https://github.com/sunshine-lang/dsh-weather/blob/9f85d87ac58402d5864aa7bdbd8346c136589458/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/sunshine-lang/dsh-weather",
+          "command": "dsh plugin --profile web add \"github:sunshine-lang/dsh-weather\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-weather",
+          "command": "dsh plugin --profile web add dsh-weather",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "1e069c9d035f0caf1544fe5456973cfc93f045eaf571183c040356ddc0004a1c",
+      "url": "https://github.com/sunshine-lang/dsh-weather/blob/9f85d87ac58402d5864aa7bdbd8346c136589458/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/sunshine-lang/dsh-weather",
+          "command": "dsh plugin --profile web add \"github:sunshine-lang/dsh-weather\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-weather",
+          "command": "dsh plugin --profile web add dsh-weather",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-weather",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sunshine-lang/dsh-weather",
+        "commit": "9f85d87ac58402d5864aa7bdbd8346c136589458"
+      },
+      "manifestSha256": "4c8c7e28cc4c2d504e6a6fd8f8a718a91d615437ca77e0d7aefb89eeb7cec449",
+      "manifestUrl": "https://github.com/sunshine-lang/dsh-weather/blob/9f85d87ac58402d5864aa7bdbd8346c136589458/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-weather",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786687512,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sunshine-lang/dsh-weather",
+              "commit": "9f85d87ac58402d5864aa7bdbd8346c136589458"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-weather",
+      "origin": "npm",
+      "name": "dsh-weather",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-weather",
+        "title": "dsh-weather",
+        "description": "Weather tool for DeepSeek Harness: current conditions and multi-day forecasts via Open-Meteo (free, no API key).",
+        "homepage": "https://github.com/sunshine-lang/dsh-weather",
+        "repository": {
+          "url": "https://github.com/sunshine-lang/dsh-weather"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "weather",
+            "open-meteo"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786687124,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5d8cea27e42e742ba5a5a61278bbb0444100328afb9b83d3388dd6783f8212e5",
+      "evidence": [
+        {
+          "name": "dsh-weather",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-weather/-/dsh-weather-0.1.0.tgz",
+          "integrity": "sha512-0GJuZxJR9p+i/w/O5FYS2Grq2AkEWiN4WtWlamyjtOwYMxy57YfTejPlem/Iqb2oucL7y3tNx/DbH6ymHVQkcQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/sunshine-lang/dsh-weather",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-weather",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sunshine-lang/dsh-weather",
+    "commit": "9f85d87ac58402d5864aa7bdbd8346c136589458",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:28.273Z"
+}

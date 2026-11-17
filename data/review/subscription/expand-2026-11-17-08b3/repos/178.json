@@ -1,0 +1,78 @@
+{
+  "full_name": "LaoQianwocao/dsh-sound-player",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:19.723Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5fb3ed9e041d9e45ea77f998b112bd9150c8006add5231400c69d37cbe3d9ddd",
+      "url": "https://github.com/LaoQianwocao/dsh-sound-player/blob/4197960588f4d9d6f033387fa0cb606ea19ebd2f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LaoQianwocao/dsh-sound-player",
+          "command": "dsh plugin add github:LaoQianwocao/dsh-sound-player",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sound-player",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LaoQianwocao/dsh-sound-player",
+        "commit": "4197960588f4d9d6f033387fa0cb606ea19ebd2f"
+      },
+      "manifestSha256": "2d93ec71fdff5d461467ef4465b4e0973bcd6e74a31832c072f903fe16028531",
+      "manifestUrl": "https://github.com/LaoQianwocao/dsh-sound-player/blob/4197960588f4d9d6f033387fa0cb606ea19ebd2f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-sound-player",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1793041241,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LaoQianwocao/dsh-sound-player",
+              "commit": "4197960588f4d9d6f033387fa0cb606ea19ebd2f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LaoQianwocao/dsh-sound-player",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LaoQianwocao/dsh-sound-player",
+    "commit": "4197960588f4d9d6f033387fa0cb606ea19ebd2f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:21.703Z"
+}

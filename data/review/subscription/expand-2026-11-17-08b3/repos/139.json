@@ -1,0 +1,102 @@
+{
+  "full_name": "Anarrogantcat/dsh-identity",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:01.177Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "45afe7d88b69af74e94a96a85cee68799c9bdc4eecdc5a3e5e76cbc767386745",
+      "url": "https://github.com/Anarrogantcat/dsh-identity/blob/2763233afbf1f2064a4aa3876403e6e5bdd663ba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Anarrogantcat/dsh-identity",
+          "command": "dsh plugin --profile desktop add github:Anarrogantcat/dsh-identity",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-identity",
+          "command": "dsh plugin --profile desktop add dsh-identity",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-identity",
+      "version": "1.9.275",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Anarrogantcat/dsh-identity",
+        "commit": "2763233afbf1f2064a4aa3876403e6e5bdd663ba"
+      },
+      "manifestSha256": "5d3cc84842e1e20f53d986526b73203154b6b890f281266d1278b8b68cec37cf",
+      "manifestUrl": "https://github.com/Anarrogantcat/dsh-identity/blob/2763233afbf1f2064a4aa3876403e6e5bdd663ba/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-identity",
+        "versions": [
+          {
+            "version": "1.9.275",
+            "publishTimestamp": 1794050528,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Anarrogantcat/dsh-identity",
+              "commit": "2763233afbf1f2064a4aa3876403e6e5bdd663ba"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-identity",
+      "origin": "npm",
+      "name": "dsh-identity",
+      "version": "0.0.1",
+      "code": "not_dsh_bundle",
+      "status": "invalid_manifest",
+      "reason": "not a declared DSH bundle",
+      "statusCode": "not_dsh_bundle",
+      "registrySha256": "c1516c9116f978a71a3c22ecb61dc5293c0255956b530babaa1ee9dc0a53722e"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Anarrogantcat/dsh-identity",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-identity",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Anarrogantcat/dsh-identity",
+    "commit": "2763233afbf1f2064a4aa3876403e6e5bdd663ba",
+    "releaseTags": 197,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:03.303Z"
+}

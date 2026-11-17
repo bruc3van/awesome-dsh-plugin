@@ -1,0 +1,74 @@
+{
+  "full_name": "xiaobbl/dsh-opencode-go-model-list",
+  "originalPosition": 196,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 196,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:36.232Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "020906854d8431598547da0cff85fefdcd30be95c44a4e4a8c184d3e92e0ab7e",
+      "url": "https://github.com/xiaobbl/dsh-opencode-go-model-list/blob/fdf887e2009627aff22d22f3ca932919266755a3/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "763d434384b1ac75684c3db8d5278491735bb832c2b4456e53d6a1d4fd35139d",
+      "url": "https://github.com/xiaobbl/dsh-opencode-go-model-list/blob/fdf887e2009627aff22d22f3ca932919266755a3/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-opencode-go-model-list",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaobbl/dsh-opencode-go-model-list",
+        "commit": "fdf887e2009627aff22d22f3ca932919266755a3"
+      },
+      "manifestSha256": "05032faa6c596f937db434d3b85cc5417c0e66d893f8bd821515a13026bac0f8",
+      "manifestUrl": "https://github.com/xiaobbl/dsh-opencode-go-model-list/blob/fdf887e2009627aff22d22f3ca932919266755a3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-opencode-go-model-list",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1789712516,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiaobbl/dsh-opencode-go-model-list",
+              "commit": "fdf887e2009627aff22d22f3ca932919266755a3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaobbl/dsh-opencode-go-model-list",
+    "commit": "fdf887e2009627aff22d22f3ca932919266755a3",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:38.555Z"
+}

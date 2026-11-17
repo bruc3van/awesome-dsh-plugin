@@ -1,0 +1,79 @@
+{
+  "full_name": "Fisfzy/dsh-cae-agent",
+  "originalPosition": 159,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 159,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:11.519Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d5919a684d818ef5c3a8c705bb35da78fa9a0035fd5048cb197967cdf6f7e2f5",
+      "url": "https://github.com/Fisfzy/dsh-cae-agent/blob/6b50742d3b9d25cca8535ea47ece85653fdc0a27/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "7e8a88551c3485cee89a7a6355508bf95bf2631a857f9db83b1500c01c4991e4",
+      "url": "https://github.com/Fisfzy/dsh-cae-agent/blob/6b50742d3b9d25cca8535ea47ece85653fdc0a27/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cae-agent",
+      "version": "0.2.3",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fisfzy/dsh-cae-agent",
+        "commit": "6b50742d3b9d25cca8535ea47ece85653fdc0a27",
+        "path": "plugin"
+      },
+      "manifestSha256": "931b7e47e814ad5a0754a75e91337aceef3696d7dea4bd6a4722f9af0824450f",
+      "manifestUrl": "https://github.com/Fisfzy/dsh-cae-agent/blob/6b50742d3b9d25cca8535ea47ece85653fdc0a27/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-cae-agent",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1787726681,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Fisfzy/dsh-cae-agent",
+              "commit": "6b50742d3b9d25cca8535ea47ece85653fdc0a27",
+              "path": "plugin"
+            },
+            "engines": {
+              "dsh": "0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fisfzy/dsh-cae-agent",
+    "commit": "6b50742d3b9d25cca8535ea47ece85653fdc0a27",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:13.951Z"
+}

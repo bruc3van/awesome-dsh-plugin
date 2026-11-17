@@ -1,0 +1,154 @@
+{
+  "full_name": "drscrewdriver/dsh-manage-session",
+  "originalPosition": 132,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 132,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:02.813Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4ee0821598c9ed6d8e2eef721f9655ab10762d041315a702a725ffb74d5c2b36",
+      "url": "https://github.com/drscrewdriver/dsh-manage-session/blob/16447fedf81316b9e60240c5c86aace62ab20857/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-manage-session",
+          "command": "dsh plugin --profile web add dsh-manage-session",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-manage-session",
+      "version": "2.0.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/drscrewdriver/dsh-manage-session",
+        "commit": "16447fedf81316b9e60240c5c86aace62ab20857"
+      },
+      "manifestSha256": "bee9bada73345392d8b3086c60420f367dd2b6b95e6b3380dc3e873c0871d185",
+      "manifestUrl": "https://github.com/drscrewdriver/dsh-manage-session/blob/16447fedf81316b9e60240c5c86aace62ab20857/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-manage-session",
+        "versions": [
+          {
+            "version": "2.0.11",
+            "publishTimestamp": 1794806593,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-manage-session",
+              "commit": "16447fedf81316b9e60240c5c86aace62ab20857"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-manage-session",
+      "origin": "npm",
+      "name": "dsh-manage-session",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-manage-session",
+        "title": {
+          "en": "Session Manager",
+          "de": "Sitzungsmanager",
+          "es": "Gestor de sesiones",
+          "fr": "Gestionnaire de sessions",
+          "it": "Gestore sessioni",
+          "ja": "セッションマネージャー",
+          "ko": "세션 매니저",
+          "ru": "Менеджер сессий",
+          "zh": "会话管理"
+        },
+        "description": {
+          "en": "One console for active and archived sessions (browse, filter, favorite, archive/unarchive, batch purge, delete) plus a four-gate health checkup. The entry prefers the sidebar top tool slot and falls back to the footer. No search/index of its own and no DRS dependency.",
+          "de": "Eine Konsole für aktive und archivierte Sitzungen (Ansehen, Filtern, Favoriten, Archivieren/Zurückholen, Sammelbereinigung, Löschen) plus Sitzungs-Check. Der Eintrag nutzt bevorzugt den oberen Werkzeugplatz der Seitenleiste, sonst den Fußbereich. Keine eigene Suche, keine DRS-Abhängigkeit.",
+          "es": "Una consola para sesiones activas y archivadas (explorar, filtrar, favoritos, archivar/desarchivar, limpieza por lotes, eliminar) y revisión de salud. La entrada usa la ranura de herramientas superior y, si no existe, el pie. Sin búsqueda propia ni dependencia de DRS.",
+          "fr": "Une console pour les sessions actives et archivées (parcourir, filtrer, favoris, archiver/désarchiver, nettoyage par lot, supprimer) et un bilan de santé. L’entrée privilégie l’emplacement d’outils en haut de la barre latérale, sinon le pied. Pas de recherche propre, aucune dépendance DRS.",
+          "it": "Una console per sessioni attive e archiviate (sfoglia, filtra, preferiti, archivia/ripristina, pulizia in blocco, elimina) e controllo di salute. La voce usa lo slot strumenti in alto nella barra laterale, altrimenti il piè di pagina. Nessuna ricerca propria, nessuna dipendenza DRS.",
+          "ja": "アクティブ／アーカイブ済みセッションの統合管理（閲覧・絞り込み・お気に入り・アーカイブ／解除・一括整理・削除）とセッション健診。入口はサイドバー上部のツール枠を優先し、無い場合は下部に配置。検索・索引は含まず DRS 依存もありません。",
+          "ko": "활성·보관 세션 통합 관리(탐색·필터·즐겨찾기·보관/해제·일괄 정리·삭제)와 세션 건강 점검. 진입점은 사이드바 상단 도구 슬롯을 우선하며 없으면 하단으로 대체. 검색·색인은 없고 DRS 의존도 없습니다.",
+          "ru": "Единая консоль для активных и архивных сессий (просмотр, фильтры, избранное, архивация/разархивация, пакетная очистка, удаление) и проверка сессий. Пункт занимает верхний слот инструментов боковой панели, иначе — нижнюю область. Своего поиска нет, зависимости от DRS нет.",
+          "zh": "活跃与归档会话的一体化管理台（浏览、筛选、收藏、归档与取消归档、批量清理、删除）与四门会话体检；侧栏入口优先落顶部工具槽位，无该槽位时回落底栏。不含搜索/索引、不依赖 DRS。"
+        },
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-manage-session"
+        },
+        "metadata": {
+          "keywords": [
+            "archive",
+            "deepseek-harness",
+            "doctor",
+            "dsh",
+            "dsh-plugin",
+            "health",
+            "manage",
+            "manager",
+            "session",
+            "sessions"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.0.11",
+            "publishTimestamp": 1794677127,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d4663ee315223abafcc9605b8a5f8bada4fcbeaafc1960d2307ecb9cf76884bf",
+      "evidence": [
+        {
+          "name": "dsh-manage-session",
+          "version": "2.0.11",
+          "tarball": "https://registry.npmjs.org/dsh-manage-session/-/dsh-manage-session-2.0.11.tgz",
+          "integrity": "sha512-i8CszsVWKghvHGKpLn6uA8T9JwLnp6iYugeR/+qwXGYZXxZS8Y0AQIgISGjepTNpW1jGr5Cfc9fMtHQloaV/2A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-manage-session",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/drscrewdriver/dsh-manage-session",
+    "commit": "16447fedf81316b9e60240c5c86aace62ab20857",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:04.892Z"
+}

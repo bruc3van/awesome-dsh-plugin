@@ -1,0 +1,138 @@
+{
+  "full_name": "K-W7/dsh-memory-layer",
+  "originalPosition": 175,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 175,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:19.179Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "14ab55616564bae5b840ef418cb1a7182e247c90fabb0e3665aa53eb20ef98b1",
+      "url": "https://github.com/K-W7/dsh-memory-layer/blob/215e1f7c20d319a83d2f05265a03f806a9c8e3c7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-memory-layer",
+          "command": "dsh plugin --profile desktop add dsh-memory-layer",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memory-layer",
+      "version": "0.11.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/K-W7/dsh-memory-layer",
+        "commit": "215e1f7c20d319a83d2f05265a03f806a9c8e3c7"
+      },
+      "manifestSha256": "09a51dd5cc5535e2511e303e93dfaff326d1f837f6c8b6d2c6fb8db7ea479c81",
+      "manifestUrl": "https://github.com/K-W7/dsh-memory-layer/blob/215e1f7c20d319a83d2f05265a03f806a9c8e3c7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-memory-layer",
+        "versions": [
+          {
+            "version": "0.11.3",
+            "publishTimestamp": 1794717934,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/K-W7/dsh-memory-layer",
+              "commit": "215e1f7c20d319a83d2f05265a03f806a9c8e3c7"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-memory-layer",
+      "origin": "npm",
+      "name": "dsh-memory-layer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-memory-layer",
+        "title": {
+          "en": "Memory Layer",
+          "zh": "记忆层"
+        },
+        "description": {
+          "en": "Remembers preferences and decisions across sessions and brings them back in new ones; data stays on your machine.",
+          "zh": "跨会话记住你的偏好和决定，开新会话自动带上；数据只存本机，/memory 可查可改。"
+        },
+        "homepage": "https://github.com/KLRSL/dsh-memory-layer#readme",
+        "repository": {
+          "url": "https://github.com/KLRSL/dsh-memory-layer"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "memory",
+            "plugin",
+            "memory-layer",
+            "sqlite",
+            "local-first"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.11.3",
+            "publishTimestamp": 1793720817,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3a6569ace19cbf52bb85c5be58a92f096923b6eb9453343e010357d387b4e66f",
+      "evidence": [
+        {
+          "name": "dsh-memory-layer",
+          "version": "0.11.3",
+          "tarball": "https://registry.npmjs.org/dsh-memory-layer/-/dsh-memory-layer-0.11.3.tgz",
+          "integrity": "sha512-CnsrWoW6ZAQlSPZpCFzjOZIWQv5+0h6LcDP8oby/2j5QXSXiywgKWIAIufejIoeQYSGErHbSM8Zz/iRKx4yHfQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-memory-layer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/K-W7/dsh-memory-layer",
+    "commit": "215e1f7c20d319a83d2f05265a03f806a9c8e3c7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:21.492Z"
+}

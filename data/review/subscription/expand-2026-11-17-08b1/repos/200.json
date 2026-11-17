@@ -1,0 +1,154 @@
+{
+  "full_name": "863683348/dsh-plugin-academic-writing",
+  "originalPosition": 200,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:01.075Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f6516c1679181006966bfdea4e536a292692078d928a31e96a3c10540473a20e",
+      "url": "https://github.com/863683348/dsh-plugin-academic-writing/blob/cbeb4db61d11cc327092f5e7f56d333693e52bde/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-academic-writing",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-academic-writing",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "21e8f7a581d65163099433d4bdbb2304998d60907eb2cf39dee4a97fe9e18115",
+      "url": "https://github.com/863683348/dsh-plugin-academic-writing/blob/cbeb4db61d11cc327092f5e7f56d333693e52bde/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-academic-writing",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-academic-writing",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-academic-writing",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/863683348/dsh-plugin-academic-writing",
+        "commit": "cbeb4db61d11cc327092f5e7f56d333693e52bde"
+      },
+      "manifestSha256": "e8499eb3d38b07d30decfc43b649e1a0f1d0d077d30e49fc656372f03c9fc8bd",
+      "manifestUrl": "https://github.com/863683348/dsh-plugin-academic-writing/blob/cbeb4db61d11cc327092f5e7f56d333693e52bde/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-academic-writing",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1789097267,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/863683348/dsh-plugin-academic-writing",
+              "commit": "cbeb4db61d11cc327092f5e7f56d333693e52bde"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-academic-writing",
+      "origin": "npm",
+      "name": "dsh-plugin-academic-writing",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-academic-writing",
+        "title": "dsh-plugin-academic-writing",
+        "description": "Academic writing toolkit for DeepSeek Harness agents: paper outlines, title/abstract skeletons, GB/T 7714 / APA / MLA citations and reference lists, LaTeX snippets, structure checks, term glossaries, phrasing QA, and a pre-submission checklist",
+        "homepage": "https://github.com/863683348/dsh-plugin-academic-writing#readme",
+        "repository": {
+          "url": "https://github.com/863683348/dsh-plugin-academic-writing"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "plugin",
+            "bundle",
+            "academic",
+            "writing",
+            "paper",
+            "citation",
+            "latex",
+            "references",
+            "bibliography",
+            "structure",
+            "glossary"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1789094779,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f97f46d58b843d325c4ea1ada3423fd2b6a5a384952d3506726ea05c04448bc7",
+      "evidence": [
+        {
+          "name": "dsh-plugin-academic-writing",
+          "version": "0.3.2",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-academic-writing/-/dsh-plugin-academic-writing-0.3.2.tgz",
+          "integrity": "sha512-bTdc/ZAOzvklSMBjVUK0cm+0Kp/xgQqJXV7/stADl6ZrH+B+IWy+AigK3/30P4O8P9zaJN/0rib/VSxqoMNSaQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-academic-writing",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/863683348/dsh-plugin-academic-writing",
+    "commit": "cbeb4db61d11cc327092f5e7f56d333693e52bde",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:03.422Z"
+}

@@ -1,0 +1,179 @@
+{
+  "full_name": "HiWhaleW/dsh-toolbox",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "stargazers_count": 29,
+  "startedAt": "2026-11-17T08:12:10.039Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "84d3bf8b207eb41647523448f435f4af54a7755c9af1be7be38829d90e41bf1f",
+      "url": "https://github.com/HiWhaleW/dsh-toolbox/blob/4106c27b1a9ba3d81bedcf714e769d233032f892/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-toolbox/compatibility-radar",
+      "version": "0.2.1",
+      "path": "packages/compatibility-radar",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HiWhaleW/dsh-toolbox",
+        "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
+        "path": "packages/compatibility-radar"
+      },
+      "manifestSha256": "c871bc40108688f9dd5bba5524dd447387c6d9fe35e7b3889c8438694be5a5ae",
+      "manifestUrl": "https://github.com/HiWhaleW/dsh-toolbox/blob/4106c27b1a9ba3d81bedcf714e769d233032f892/packages/compatibility-radar/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-toolbox/compatibility-radar",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787660787,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HiWhaleW/dsh-toolbox",
+              "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
+              "path": "packages/compatibility-radar"
+            },
+            "engines": {
+              "dsh": "0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-toolbox/context-switchboard",
+      "version": "0.2.1",
+      "path": "packages/context-switchboard",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HiWhaleW/dsh-toolbox",
+        "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
+        "path": "packages/context-switchboard"
+      },
+      "manifestSha256": "3aec517e9deb7c1fc7abb797dac91cb84e25bb6577b0b6d958e63cccfc86fef6",
+      "manifestUrl": "https://github.com/HiWhaleW/dsh-toolbox/blob/4106c27b1a9ba3d81bedcf714e769d233032f892/packages/context-switchboard/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-toolbox/context-switchboard",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787660787,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HiWhaleW/dsh-toolbox",
+              "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
+              "path": "packages/context-switchboard"
+            },
+            "engines": {
+              "dsh": "0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-toolbox/plugin-preflight",
+      "version": "0.2.1",
+      "path": "packages/plugin-preflight",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HiWhaleW/dsh-toolbox",
+        "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
+        "path": "packages/plugin-preflight"
+      },
+      "manifestSha256": "812368984eb256f5deaac8a6025ef6f574fdb10fdaee8c181a309b7c983a361d",
+      "manifestUrl": "https://github.com/HiWhaleW/dsh-toolbox/blob/4106c27b1a9ba3d81bedcf714e769d233032f892/packages/plugin-preflight/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-toolbox/plugin-preflight",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787660787,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HiWhaleW/dsh-toolbox",
+              "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
+              "path": "packages/plugin-preflight"
+            },
+            "engines": {
+              "dsh": "0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-toolbox/product-research-workbench",
+      "version": "0.2.1",
+      "path": "packages/product-research-workbench",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HiWhaleW/dsh-toolbox",
+        "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
+        "path": "packages/product-research-workbench"
+      },
+      "manifestSha256": "ea999fa8b883079d160df9ff111c8ad93c5cf4cdad3112475e4ecfeb4e4e8b9d",
+      "manifestUrl": "https://github.com/HiWhaleW/dsh-toolbox/blob/4106c27b1a9ba3d81bedcf714e769d233032f892/packages/product-research-workbench/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-toolbox/product-research-workbench",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787660787,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HiWhaleW/dsh-toolbox",
+              "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
+              "path": "packages/product-research-workbench"
+            },
+            "engines": {
+              "dsh": "0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HiWhaleW/dsh-toolbox",
+    "commit": "4106c27b1a9ba3d81bedcf714e769d233032f892",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:15.094Z"
+}

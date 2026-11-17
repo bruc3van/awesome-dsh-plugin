@@ -1,0 +1,120 @@
+{
+  "full_name": "urzeye/dsh-outline",
+  "originalPosition": 42,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 42,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-17T08:12:22.834Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e643fdebb1b4404d2ca19e998019ad0971871490ed8e214c653a48c51f092be5",
+      "url": "https://github.com/urzeye/dsh-outline/blob/8f2c3e0a17c1d6e2c10394ffdaed7c1eb81cef9f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-outline@latest",
+          "command": "dsh plugin --profile web add dsh-outline@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-outline",
+      "version": "0.1.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/urzeye/dsh-outline",
+        "commit": "8f2c3e0a17c1d6e2c10394ffdaed7c1eb81cef9f"
+      },
+      "manifestSha256": "6f565cce7839d254942e81e94dcc2d02c936c638cd2d3f3e6b62724faa2d4a07",
+      "manifestUrl": "https://github.com/urzeye/dsh-outline/blob/8f2c3e0a17c1d6e2c10394ffdaed7c1eb81cef9f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-outline",
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1787734951,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/urzeye/dsh-outline",
+              "commit": "8f2c3e0a17c1d6e2c10394ffdaed7c1eb81cef9f"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-outline@latest",
+      "origin": "npm",
+      "name": "dsh-outline",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-outline",
+        "title": "dsh-outline",
+        "description": "DSH web plugin: a realtime conversation outline panel (user questions + markdown headings) for the DeepSeek Harness Web GUI.",
+        "repository": {
+          "url": "https://github.com/urzeye/dsh-outline"
+        },
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1787735002,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "21e07af02422953ce6042027d53ef1d5e8b3bfd4eb3aef1cc9fa9c8692189804",
+      "evidence": [
+        {
+          "name": "dsh-outline",
+          "version": "0.1.6",
+          "tarball": "https://registry.npmjs.org/dsh-outline/-/dsh-outline-0.1.6.tgz",
+          "integrity": "sha512-e00B/v4PHxRKgagsviwMSde18oFZxf3XQ2cR85Fa76QIIu8+v1LAPIKMsRDc6Ktxu3GSfK63DCmVyoHrFwcWZA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-outline@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/urzeye/dsh-outline",
+    "commit": "8f2c3e0a17c1d6e2c10394ffdaed7c1eb81cef9f",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:25.327Z"
+}

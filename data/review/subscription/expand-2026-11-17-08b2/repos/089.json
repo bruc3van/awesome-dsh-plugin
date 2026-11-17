@@ -1,0 +1,77 @@
+{
+  "full_name": "lhmd/dsh-director-toolkit",
+  "originalPosition": 89,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 89,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:12:44.533Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "38b4356249b18ac00e37a862cc69cbb60e9dc67aca36202fb627df61a8a768e9",
+      "url": "https://github.com/lhmd/dsh-director-toolkit/blob/806b7d9b26cecc6524bc6abcc283b0adb5cde7e6/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "d5968f86e09fe01cc29b578bef7f4296dbad6ee2ab3fdc84832741de2d8744c1",
+      "url": "https://github.com/lhmd/dsh-director-toolkit/blob/806b7d9b26cecc6524bc6abcc283b0adb5cde7e6/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@lhmd/dsh-director-toolkit",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lhmd/dsh-director-toolkit",
+        "commit": "806b7d9b26cecc6524bc6abcc283b0adb5cde7e6"
+      },
+      "manifestSha256": "53ba15b488dc0a8ea5feee02329d3d5723db4a236a7b29a57b092b0a0fea8a46",
+      "manifestUrl": "https://github.com/lhmd/dsh-director-toolkit/blob/806b7d9b26cecc6524bc6abcc283b0adb5cde7e6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.0.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@lhmd/dsh-director-toolkit",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786649600,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lhmd/dsh-director-toolkit",
+              "commit": "806b7d9b26cecc6524bc6abcc283b0adb5cde7e6"
+            },
+            "engines": {
+              "dsh": "^0.0.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lhmd/dsh-director-toolkit",
+    "commit": "806b7d9b26cecc6524bc6abcc283b0adb5cde7e6",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:46.821Z"
+}

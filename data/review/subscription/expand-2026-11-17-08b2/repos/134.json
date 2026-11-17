@@ -1,0 +1,125 @@
+{
+  "full_name": "dsh-plugins/dsh-thought-buddy",
+  "originalPosition": 134,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 134,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:03.325Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ead3ddc14e540a5ac55099721e98c785081d1eade9955ce3c5ee8c86a700ecb5",
+      "url": "https://github.com/dsh-plugins/dsh-thought-buddy/blob/3ea93d3ef02a66d8ded607577fcc724e8d452ef4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-plugin/dsh-thought-buddy",
+          "command": "dsh plugin --profile <PROFILE> add @dsh-plugin/dsh-thought-buddy",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-plugin/dsh-thought-buddy",
+      "version": "2.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dsh-plugins/dsh-thought-buddy",
+        "commit": "3ea93d3ef02a66d8ded607577fcc724e8d452ef4"
+      },
+      "manifestSha256": "24497fa9007807f8504346e3bdc079fe6f860861314b911b5dedfb060f7c79b1",
+      "manifestUrl": "https://github.com/dsh-plugins/dsh-thought-buddy/blob/3ea93d3ef02a66d8ded607577fcc724e8d452ef4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-plugin/dsh-thought-buddy",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1794796084,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dsh-plugins/dsh-thought-buddy",
+              "commit": "3ea93d3ef02a66d8ded607577fcc724e8d452ef4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@dsh-plugin/dsh-thought-buddy",
+      "origin": "npm",
+      "name": "@dsh-plugin/dsh-thought-buddy",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dsh-plugin/dsh-thought-buddy",
+        "title": "@dsh-plugin/dsh-thought-buddy",
+        "description": "DSH web 鎻掍欢锛氬湪銆孌eep diving...銆嶇姸鎬佸墠鎻掑叆涓€涓姩鎬佸皬琛ㄦ儏 鈥斺€?GrokBot 椋庢牸鍔ㄧ敾澶村儚锛堢函 SVG + rAF锛岀Щ妞嶈嚜 nasawz/GrokBot锛屾棤浠讳綍杩愯鏃朵緷璧栵級锛屼篃鍙垏鎹负 emoji 杞挱妯″紡",
+        "homepage": "https://github.com/dsh-plugins/dsh-thought-buddy",
+        "repository": {
+          "url": "https://github.com/dsh-plugins/dsh-thought-buddy"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "plugin",
+            "deep-diving",
+            "grokbot",
+            "avatar",
+            "emoji"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.3",
+            "publishTimestamp": 1788417415,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fdd4f3fa778f882dd4ccfbb7130a549f3e55bc87b71f4655f0861a847b2e4d04",
+      "evidence": [
+        {
+          "name": "@dsh-plugin/dsh-thought-buddy",
+          "version": "0.3.3",
+          "tarball": "https://registry.npmjs.org/@dsh-plugin/dsh-thought-buddy/-/dsh-thought-buddy-0.3.3.tgz",
+          "integrity": "sha512-LaZnr1jWmlYhQ2f4csypvj/rPpL2clLFHuX8PLYLPiyygw6xHLcGYhB+CEZsGVOw6Y5jujnOlLA4t+c0W3Eadw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dsh-plugin/dsh-thought-buddy",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dsh-plugins/dsh-thought-buddy",
+    "commit": "3ea93d3ef02a66d8ded607577fcc724e8d452ef4",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:05.655Z"
+}

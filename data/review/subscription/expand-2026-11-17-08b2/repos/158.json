@@ -1,0 +1,150 @@
+{
+  "full_name": "lonelycrab888/roundtable-bots",
+  "originalPosition": 158,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 158,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:12.228Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f6dbdb1598c97effb8a739c54a154558133e118a2ba3fbeb4641516f78ac2f93",
+      "url": "https://github.com/lonelycrab888/roundtable-bots/blob/aaf8bc6d0e336e05ee9f9f6772735452a4bbac02/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/lonelycrab888/roundtable-bots.git#main",
+          "command": "dsh plugin --profile web add 'git+https://github.com/lonelycrab888/roundtable-bots.git#main'",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "260ec9f1ffdcf03129d42ea7066c2193cdf86140c7672dc2c68942d3c2c699d6",
+      "url": "https://github.com/lonelycrab888/roundtable-bots/blob/aaf8bc6d0e336e05ee9f9f6772735452a4bbac02/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/lonelycrab888/roundtable-bots.git#main",
+          "command": "dsh plugin --profile web add 'git+https://github.com/lonelycrab888/roundtable-bots.git#main'",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "roundtable-bots",
+      "version": "0.4.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lonelycrab888/roundtable-bots",
+        "commit": "aaf8bc6d0e336e05ee9f9f6772735452a4bbac02"
+      },
+      "manifestSha256": "23e189c9bcc01bd6fa5dc6618671527b2e13cb78b9cfd070a572f910366a4609",
+      "manifestUrl": "https://github.com/lonelycrab888/roundtable-bots/blob/aaf8bc6d0e336e05ee9f9f6772735452a4bbac02/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "roundtable-bots",
+        "versions": [
+          {
+            "version": "0.4.6",
+            "publishTimestamp": 1794884541,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lonelycrab888/roundtable-bots",
+              "commit": "aaf8bc6d0e336e05ee9f9f6772735452a4bbac02"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "git+https://github.com/lonelycrab888/roundtable-bots.git#main",
+      "origin": "git_target",
+      "name": "roundtable-bots",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "roundtable-bots",
+        "title": "roundtable-bots",
+        "description": "Named Bots and group conversations for DeepSeek Harness.",
+        "repository": {
+          "url": "https://github.com/lonelycrab888/roundtable-bots"
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "0.4.6",
+            "publishTimestamp": 1794884541,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lonelycrab888/roundtable-bots",
+              "commit": "aaf8bc6d0e336e05ee9f9f6772735452a4bbac02"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "aaf8bc6d0e336e05ee9f9f6772735452a4bbac02",
+          "name": "roundtable-bots",
+          "version": "0.4.6",
+          "url": "https://github.com/lonelycrab888/roundtable-bots",
+          "manifestSha256": "23e189c9bcc01bd6fa5dc6618671527b2e13cb78b9cfd070a572f910366a4609",
+          "publishTimestamp": 1794884541
+        }
+      ]
+    },
+    {
+      "target": "git+https://github.com/lonelycrab888/roundtable-bots.git#main",
+      "origin": "git_target",
+      "path": "",
+      "commit": "aaf8bc6d0e336e05ee9f9f6772735452a4bbac02",
+      "name": "roundtable-bots",
+      "version": "0.4.6",
+      "code": "icon_optimized",
+      "status": "invalid_manifest",
+      "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+      "inputSha256": "d7ba06cde1ed2768d6dfb3125c7ea6b590f8e309589086b4b50f167ecd9af525",
+      "outputSha256": "0fb526ba4ee98a67e7d421c946fe3d81b54c09898d5f651dc4024699e17429aa",
+      "inputBytes": 55462,
+      "outputBytes": 2672
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/lonelycrab888/roundtable-bots.git#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lonelycrab888/roundtable-bots",
+    "commit": "aaf8bc6d0e336e05ee9f9f6772735452a4bbac02",
+    "releaseTags": 24,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:16.804Z"
+}

@@ -1,0 +1,81 @@
+{
+  "full_name": "MutaLucem/dsh-plugin-integration",
+  "originalPosition": 76,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 76,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-17T08:12:38.949Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3a57ecaa91a60c2229759181ad20390833b5e5a57f581d3602a1bc10f4f51157",
+      "url": "https://github.com/MutaLucem/dsh-plugin-integration/blob/0f720b7e53c0633b77e48c04c8bb8e06d16b7a37/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MutaLucem/dsh-plugin-integration",
+          "command": "dsh plugin --profile web add github:MutaLucem/dsh-plugin-integration",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-integration",
+      "version": "1.3.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MutaLucem/dsh-plugin-integration",
+        "commit": "0f720b7e53c0633b77e48c04c8bb8e06d16b7a37"
+      },
+      "manifestSha256": "344bfed53880115ebf75de8590bdebcc22a27c759af07abf71a12c1793ca517a",
+      "manifestUrl": "https://github.com/MutaLucem/dsh-plugin-integration/blob/0f720b7e53c0633b77e48c04c8bb8e06d16b7a37/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-integration",
+        "versions": [
+          {
+            "version": "1.3.10",
+            "publishTimestamp": 1786886947,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MutaLucem/dsh-plugin-integration",
+              "commit": "0f720b7e53c0633b77e48c04c8bb8e06d16b7a37"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/MutaLucem/dsh-plugin-integration",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MutaLucem/dsh-plugin-integration",
+    "commit": "0f720b7e53c0633b77e48c04c8bb8e06d16b7a37",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:40.856Z"
+}

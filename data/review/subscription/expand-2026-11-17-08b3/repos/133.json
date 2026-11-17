@@ -1,0 +1,485 @@
+{
+  "full_name": "988hj7tczd-oss/dsh-lsp-packs",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:15:58.978Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c8c62be955b0e0b5302a7d5ebf32b2d914b1cb485c5d60e4bffbb298c771aa96",
+      "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@dsh-lsp-packs/dsh-lsp-pyright",
+          "command": "dsh plugin add @dsh-lsp-packs/dsh-lsp-pyright",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-lsp-packs/dsh-lsp-cpp",
+      "version": "0.1.0",
+      "path": "dsh-lsp-cpp",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+        "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+        "path": "dsh-lsp-cpp"
+      },
+      "manifestSha256": "1df96aaf5fd22e5653fee87850a354b41e09bbf8ac10923dcb8394bace8e15ce",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/dsh-lsp-cpp/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.3 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-lsp-packs/dsh-lsp-cpp",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788223888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+              "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+              "path": "dsh-lsp-cpp"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.3 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-lsp-packs/dsh-lsp-csharp",
+      "version": "0.1.0",
+      "path": "dsh-lsp-csharp",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+        "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+        "path": "dsh-lsp-csharp"
+      },
+      "manifestSha256": "b214845014d4ba9ce5f6cb8994e9c0cc7c0603aee1d16465f870230e159a31aa",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/dsh-lsp-csharp/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.3 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-lsp-packs/dsh-lsp-csharp",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788223888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+              "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+              "path": "dsh-lsp-csharp"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.3 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-lsp-packs/dsh-lsp-go",
+      "version": "0.1.0",
+      "path": "dsh-lsp-go",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+        "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+        "path": "dsh-lsp-go"
+      },
+      "manifestSha256": "06ee00b7bad2f457b8ff2bc4449c0b169963f6d97b8ada69aaaeca4a9aa14e2e",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/dsh-lsp-go/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.3 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-lsp-packs/dsh-lsp-go",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788223888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+              "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+              "path": "dsh-lsp-go"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.3 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-lsp-packs/dsh-lsp-java",
+      "version": "0.1.0",
+      "path": "dsh-lsp-java",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+        "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+        "path": "dsh-lsp-java"
+      },
+      "manifestSha256": "23d394681726f2322fc03038c8e6c6e51d4587b788bd8c7ae57aa8a1109c147d",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/dsh-lsp-java/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.3 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-lsp-packs/dsh-lsp-java",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788223888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+              "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+              "path": "dsh-lsp-java"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.3 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-lsp-packs/dsh-lsp-kotlin",
+      "version": "0.1.0",
+      "path": "dsh-lsp-kotlin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+        "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+        "path": "dsh-lsp-kotlin"
+      },
+      "manifestSha256": "c7dce321b0cd820857a769d330c0261fd4c6cfc080ee788939dc9f158d610082",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/dsh-lsp-kotlin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.3 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-lsp-packs/dsh-lsp-kotlin",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788223888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+              "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+              "path": "dsh-lsp-kotlin"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.3 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-lsp-packs/dsh-lsp-lua",
+      "version": "0.1.0",
+      "path": "dsh-lsp-lua",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+        "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+        "path": "dsh-lsp-lua"
+      },
+      "manifestSha256": "3a563555ba807a5ffbf1f1f6765fe48bfd89c433505d36861050cba1619f5e18",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/dsh-lsp-lua/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.3 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-lsp-packs/dsh-lsp-lua",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788223888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+              "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+              "path": "dsh-lsp-lua"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.3 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-lsp-packs/dsh-lsp-php",
+      "version": "0.1.0",
+      "path": "dsh-lsp-php",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+        "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+        "path": "dsh-lsp-php"
+      },
+      "manifestSha256": "c2e140b39e8938c1506e34088c9f66b9752bd1bb25380a931e3ac6b4edb0eeb2",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/dsh-lsp-php/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.3 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-lsp-packs/dsh-lsp-php",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788223888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+              "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+              "path": "dsh-lsp-php"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.3 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-lsp-packs/dsh-lsp-pyright",
+      "version": "0.1.0",
+      "path": "dsh-lsp-pyright",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+        "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+        "path": "dsh-lsp-pyright"
+      },
+      "manifestSha256": "6177dae2c10bda7840f8462c1a6583a1b140a952c3dbdd513cd00632fd2d32f3",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/dsh-lsp-pyright/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.3 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-lsp-packs/dsh-lsp-pyright",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788223888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+              "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+              "path": "dsh-lsp-pyright"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.3 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-lsp-packs/dsh-lsp-ruby",
+      "version": "0.1.0",
+      "path": "dsh-lsp-ruby",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+        "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+        "path": "dsh-lsp-ruby"
+      },
+      "manifestSha256": "67bbce2cdb4cf1dc4f14148957fb614dd2e6ce288ed062616af77e3cbca8f8ce",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/dsh-lsp-ruby/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.3 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-lsp-packs/dsh-lsp-ruby",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788223888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+              "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+              "path": "dsh-lsp-ruby"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.3 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-lsp-packs/dsh-lsp-rust",
+      "version": "0.1.0",
+      "path": "dsh-lsp-rust",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+        "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+        "path": "dsh-lsp-rust"
+      },
+      "manifestSha256": "7a55677f993fab7d6b96cc268207dfd93846d8746fd8c32bbf88a654b23d9226",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/dsh-lsp-rust/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.3 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-lsp-packs/dsh-lsp-rust",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788223888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+              "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+              "path": "dsh-lsp-rust"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.3 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-lsp-packs/dsh-lsp-swift",
+      "version": "0.1.0",
+      "path": "dsh-lsp-swift",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+        "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+        "path": "dsh-lsp-swift"
+      },
+      "manifestSha256": "e60f59b54d2b680880e076d52e4f4754c9cbcd586be12c2202f8aee22946308f",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/dsh-lsp-swift/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.3 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-lsp-packs/dsh-lsp-swift",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788223888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+              "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+              "path": "dsh-lsp-swift"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.3 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-lsp-packs/dsh-lsp-ts",
+      "version": "0.1.0",
+      "path": "dsh-lsp-ts",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+        "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+        "path": "dsh-lsp-ts"
+      },
+      "manifestSha256": "990e4c9f4fca7eeb1c47431ebc3e8e076ef9a0784506970642559926ad97a711",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-lsp-packs/blob/258bb6409c504fa1eed20b6f70d13009522ca0ce/dsh-lsp-ts/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.3 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-lsp-packs/dsh-lsp-ts",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788223888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+              "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+              "path": "dsh-lsp-ts"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.3 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@dsh-lsp-packs/dsh-lsp-pyright",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@dsh-lsp-packs/dsh-lsp-pyright",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/988hj7tczd-oss/dsh-lsp-packs",
+    "commit": "258bb6409c504fa1eed20b6f70d13009522ca0ce",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:05.856Z"
+}

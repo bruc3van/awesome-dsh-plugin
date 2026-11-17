@@ -1,0 +1,59 @@
+{
+  "full_name": "InariNGT-Ofiicial/dsh-anime-voice",
+  "originalPosition": 91,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 91,
+  "batch": 1,
+  "stargazers_count": 16,
+  "startedAt": "2026-11-17T08:11:14.972Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4580d492c4f21a8f3e655d1e32381fa92e76d92f9b62786d75a61413fe815fe4",
+      "url": "https://github.com/InariNGT-Ofiicial/dsh-anime-voice/blob/ace605e5c8ae845f3bda66d3ff1bb59606e4f41e/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "plugins/tts-train-pipeline/README.md",
+      "sha256": "c0cd29686a784c88b195134a1a493bf88bc446d94e3b257c1e83b92613255e98",
+      "url": "https://github.com/InariNGT-Ofiicial/dsh-anime-voice/blob/ace605e5c8ae845f3bda66d3ff1bb59606e4f41e/plugins/tts-train-pipeline/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-tts-train-pipeline",
+      "version": "0.2.0",
+      "path": "plugins/tts-train-pipeline",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/InariNGT-Ofiicial/dsh-anime-voice",
+        "commit": "ace605e5c8ae845f3bda66d3ff1bb59606e4f41e",
+        "path": "plugins/tts-train-pipeline"
+      },
+      "manifestSha256": "6dfc7f459a6fb9bf54acddac74d36d7125408ba79e63890437b34435830b38dd",
+      "manifestUrl": "https://github.com/InariNGT-Ofiicial/dsh-anime-voice/blob/ace605e5c8ae845f3bda66d3ff1bb59606e4f41e/plugins/tts-train-pipeline/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/InariNGT-Ofiicial/dsh-anime-voice",
+    "commit": "ace605e5c8ae845f3bda66d3ff1bb59606e4f41e",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-17T08:11:17.482Z"
+}

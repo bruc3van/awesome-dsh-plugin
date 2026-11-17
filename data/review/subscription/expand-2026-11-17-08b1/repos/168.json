@@ -1,0 +1,161 @@
+{
+  "full_name": "yuna78/dsh-plugin-yushe",
+  "originalPosition": 168,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 168,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-17T08:11:47.904Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f81bab8ee93e2ff9b92d82ead16c98bb0b78698ab5897fbbac052679bb352ff7",
+      "url": "https://github.com/yuna78/dsh-plugin-yushe/blob/4fedb98c5f7c0061304d0fdbe9f39845f68fc77e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-yushe",
+          "command": "dsh plugin --profile desktop add dsh-plugin-yushe",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-plugin-yushe",
+          "command": "dsh plugin --profile <你的 profile> add dsh-plugin-yushe",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-yushe",
+      "version": "0.53.0",
+      "path": "plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yuna78/dsh-plugin-yushe",
+        "commit": "4fedb98c5f7c0061304d0fdbe9f39845f68fc77e",
+        "path": "plugin"
+      },
+      "manifestSha256": "e78b15261a8a16734f792ff1a6f130c5619e4b8303aaa6fb64ce81fec3b3b41d",
+      "manifestUrl": "https://github.com/yuna78/dsh-plugin-yushe/blob/4fedb98c5f7c0061304d0fdbe9f39845f68fc77e/plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-yushe",
+        "versions": [
+          {
+            "version": "0.53.0",
+            "publishTimestamp": 1794839332,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yuna78/dsh-plugin-yushe",
+              "commit": "4fedb98c5f7c0061304d0fdbe9f39845f68fc77e",
+              "path": "plugin"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-yushe",
+      "origin": "npm",
+      "name": "dsh-plugin-yushe",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-yushe",
+        "title": {
+          "en": "YuShe · 大肥鱼 Virtual Pet",
+          "zh": "鱼社 · 大肥鱼虚拟养成系统"
+        },
+        "description": {
+          "en": "Raise your own 大肥鱼 (Big Fat Fish) AI pet in a few clicks: a guided visual setup, then she chats with you, helps with your work, grows up learning on Bilibili in her own way, and sends you a daily diary, letters and photos.",
+          "zh": "点几下就能养一条自己的大肥鱼：可视化引导一键上手，她陪你聊天、替你干活、按自己的性格去 B站学习长大，每天写日记汇报，还会写信、拍照片回来给你看。"
+        },
+        "author": "Yuna",
+        "homepage": "https://github.com/yuna78/dsh-plugin-yushe#readme",
+        "repository": {
+          "url": "https://github.com/yuna78/dsh-plugin-yushe"
+        },
+        "metadata": {
+          "keywords": [
+            "大肥鱼",
+            "dafeiyu",
+            "鱼社",
+            "yushe",
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "ai-pet",
+            "bilibili",
+            "game"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "0.52.0",
+            "publishTimestamp": 1794494384,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "eec03aa65fdb15bc7e2f1f4b387b0d992741c83d0fea9ca1e0ea9a9c7de4bd6e",
+      "evidence": [
+        {
+          "name": "dsh-plugin-yushe",
+          "version": "0.52.0",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-yushe/-/dsh-plugin-yushe-0.52.0.tgz",
+          "integrity": "sha512-aFnQGRH6E9SUNijHHzgzNvFCksdTXWUcgKuFE+RiW4HDe/iVp0NIaIOH0juay+KHnJgenV4skuPu6QPCHsVrjg=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-plugin-yushe",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "d9e142beae8367f203ac570878b5ef4bae9435413f156669f2f513646c874555",
+          "outputSha256": "cc7f1b0031947af334e315a3ed629cd5c585de079010fcffe1caaab8fa780913",
+          "inputBytes": 90252,
+          "outputBytes": 4118
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-yushe",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yuna78/dsh-plugin-yushe",
+    "commit": "4fedb98c5f7c0061304d0fdbe9f39845f68fc77e",
+    "releaseTags": 29,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:11:50.728Z"
+}

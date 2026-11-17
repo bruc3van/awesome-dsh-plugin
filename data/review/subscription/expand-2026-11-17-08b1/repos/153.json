@@ -1,0 +1,40 @@
+{
+  "full_name": "MCshamrock/dsh-cookie-431",
+  "originalPosition": 153,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 153,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-17T08:11:41.164Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "87d3ad8434d7e229063e2209f0bdd47cd3681bae4113872a45f4e603a34fc141",
+      "url": "https://github.com/MCshamrock/dsh-cookie-431/blob/a3e04105a3752ec881b3cd2d9ea6dfe44cec0d0d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MCshamrock/dsh-cookie-431",
+    "commit": "a3e04105a3752ec881b3cd2d9ea6dfe44cec0d0d",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:42.745Z"
+}

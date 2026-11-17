@@ -1,0 +1,47 @@
+{
+  "full_name": "CraZY222123/dsh-self-evolve",
+  "originalPosition": 100,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 100,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:48.943Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8407fed9aa35815b87580a6f276f194f1f6be523825864c524580740207dab3e",
+      "url": "https://github.com/CraZY222123/dsh-self-evolve/blob/9e81c5ade0d83dba2208a913e33c0a48d7df3c28/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CraZY222123/dsh-self-evolve",
+    "commit": "9e81c5ade0d83dba2208a913e33c0a48d7df3c28",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-self-evolve",
+    "version": "0.7.3",
+    "dsh": {
+      "client": {
+        "platform": "web",
+        "immediately": true
+      }
+    },
+    "engines": {
+      "node": ">=18"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:12:50.837Z"
+}

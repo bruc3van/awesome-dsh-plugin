@@ -1,0 +1,78 @@
+{
+  "full_name": "2877905731/dsh-think-autoexpand",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:15:56.341Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "012d17e934476d3b3a28a055889e505be70096cc9b5c08ca95841ebfd0fc949b",
+      "url": "https://github.com/2877905731/dsh-think-autoexpand/blob/877665c137325111bb84c304847687dd43ee56bf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/2877905731/dsh-think-autoexpand",
+          "command": "dsh plugin --profile web-desktop add github:2877905731/dsh-think-autoexpand",
+          "profile": "web-desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-think-autoexpand",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/2877905731/dsh-think-autoexpand",
+        "commit": "877665c137325111bb84c304847687dd43ee56bf"
+      },
+      "manifestSha256": "0ea19cb43487103bad5210aa486873b6e081dca73b34ab55f04f01fd8eb4bf21",
+      "manifestUrl": "https://github.com/2877905731/dsh-think-autoexpand/blob/877665c137325111bb84c304847687dd43ee56bf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-think-autoexpand",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1788234979,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/2877905731/dsh-think-autoexpand",
+              "commit": "877665c137325111bb84c304847687dd43ee56bf"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/2877905731/dsh-think-autoexpand",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/2877905731/dsh-think-autoexpand",
+    "commit": "877665c137325111bb84c304847687dd43ee56bf",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:58.230Z"
+}

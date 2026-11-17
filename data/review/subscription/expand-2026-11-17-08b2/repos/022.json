@@ -1,0 +1,422 @@
+{
+  "full_name": "StvLi/dsh-ros2",
+  "originalPosition": 22,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 22,
+  "batch": 1,
+  "stargazers_count": 25,
+  "startedAt": "2026-11-17T08:12:14.275Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bf3bf2d12f4af6ecbe5e384d04613e648173703d55b774591a67933a003b642d",
+      "url": "https://github.com/StvLi/dsh-ros2/blob/704e35fe6d03de18ade4931337b4fc55136e0447/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ros2",
+          "command": "dsh plugin --profile <profile> add dsh-ros2",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-ros2-core",
+          "command": "dsh plugin --profile <profile> add dsh-ros2-core",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "060ddd8143690a95e9f697ced67549cf675b99ef476dfb4798439e938002af92",
+      "url": "https://github.com/StvLi/dsh-ros2/blob/704e35fe6d03de18ade4931337b4fc55136e0447/README_CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ros2",
+          "command": "dsh plugin --profile <profile> add dsh-ros2",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-ros2-core",
+          "command": "dsh plugin --profile <profile> add dsh-ros2-core",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ros2-core",
+      "version": "0.1.5",
+      "path": "packages/core",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+        "path": "packages/core"
+      },
+      "manifestSha256": "9d6dc2b8947ed7b771df058d56735be8119a46919f250a1faab609a3447178ef",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/704e35fe6d03de18ade4931337b4fc55136e0447/packages/core/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2-core",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1794860989,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+              "path": "packages/core"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ros2",
+      "version": "0.1.0",
+      "path": "packages/dsh-ros2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+        "path": "packages/dsh-ros2"
+      },
+      "manifestSha256": "196e3e24512680b813659a70ff3f6dd0e3a873fe456d846095cae48e7e7478d7",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/704e35fe6d03de18ade4931337b4fc55136e0447/packages/dsh-ros2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794860989,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+              "path": "packages/dsh-ros2"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ros2-state",
+      "version": "0.1.0",
+      "path": "packages/dsh-ros2-state",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+        "path": "packages/dsh-ros2-state"
+      },
+      "manifestSha256": "72f3679e0161b48c2c068a90ff69c6cf7d989bcf70ff0bc26b3509f4134b1265",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/704e35fe6d03de18ade4931337b4fc55136e0447/packages/dsh-ros2-state/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2-state",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794860989,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+              "path": "packages/dsh-ros2-state"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ros2-moveit",
+      "version": "0.1.0",
+      "path": "packages/moveit",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+        "path": "packages/moveit"
+      },
+      "manifestSha256": "a41a4482cf0b9caab42b499106386d943342f20489d5ed0e3fc44314e7621977",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/704e35fe6d03de18ade4931337b4fc55136e0447/packages/moveit/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2-moveit",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794860989,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+              "path": "packages/moveit"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ros2-profile",
+      "version": "0.1.0",
+      "path": "packages/profile",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+        "path": "packages/profile"
+      },
+      "manifestSha256": "184aa36834be027fa0fe174a92b667455fbbf420081c4faa249202bc20b24c92",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/704e35fe6d03de18ade4931337b4fc55136e0447/packages/profile/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2-profile",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794860989,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+              "path": "packages/profile"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ros2-safety",
+      "version": "0.1.0",
+      "path": "packages/safety",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+        "path": "packages/safety"
+      },
+      "manifestSha256": "fc4bd618de294abaaab71d75bae6a4810258f387ee029e7067e60ac990ddfec1",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/704e35fe6d03de18ade4931337b4fc55136e0447/packages/safety/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2-safety",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794860989,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+              "path": "packages/safety"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ros2-vision",
+      "version": "0.1.3",
+      "path": "packages/vision",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/StvLi/dsh-ros2",
+        "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+        "path": "packages/vision"
+      },
+      "manifestSha256": "672a77f978ee358e8470acc3899250f328ca570434b139979456bdef24565555",
+      "manifestUrl": "https://github.com/StvLi/dsh-ros2/blob/704e35fe6d03de18ade4931337b4fc55136e0447/packages/vision/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ros2-vision",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794860989,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/StvLi/dsh-ros2",
+              "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+              "path": "packages/vision"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ros2",
+      "origin": "npm",
+      "name": "dsh-ros2",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ros2",
+        "title": "dsh-ros2",
+        "description": "Aggregate cordis bundle for the dsh-ros2 plugin family — depends on core/profile/moveit/safety/vision/common; empty apply for backward compatibility (install this to get all 51 tools + 4 skills).",
+        "repository": {
+          "url": "https://github.com/StvLi/dsh-ros2"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "ros2"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788108130,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "070eea655f08a190d21d8feaa2025c2a1e0668b9e464162e67f1698b8e6b13a3",
+      "evidence": [
+        {
+          "name": "dsh-ros2",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-ros2/-/dsh-ros2-0.1.0.tgz",
+          "integrity": "sha512-C3o3WWVrjFwrZIAKYxPeHjTz0JKvi73bGDc148ygkrpdSWftvmrUxT3gnXqsJQW8hKJaCIJWds15QszuksLyeA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "dsh-ros2-core",
+      "origin": "npm",
+      "name": "dsh-ros2-core",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ros2-core",
+        "title": "dsh-ros2-core",
+        "description": "dsh-ros2 core: ROS2 diagnostics (L1), management (L2) and GUI (L3) tools (33) + the ros2-diagnostics skill. Cordis bundle.",
+        "repository": {
+          "url": "https://github.com/StvLi/dsh-ros2"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "ros2"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1788256579,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "30d3f1334191f44cf24aa0bb522af23483301f723eeb7458cedb6fe5ea5b4781",
+      "evidence": [
+        {
+          "name": "dsh-ros2-core",
+          "version": "0.1.5",
+          "tarball": "https://registry.npmjs.org/dsh-ros2-core/-/dsh-ros2-core-0.1.5.tgz",
+          "integrity": "sha512-aRTgEsM+DeKj+kbw+4kqnNPEjAl8F50s2Vz/faM9X/7/9+0X0kKa8YkRYCSHGLsyX7+kLnbMQ4zQIfqRExz76g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ros2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ros2-core",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/StvLi/dsh-ros2",
+    "commit": "704e35fe6d03de18ade4931337b4fc55136e0447",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:20.637Z"
+}

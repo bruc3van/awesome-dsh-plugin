@@ -1,0 +1,153 @@
+{
+  "full_name": "KKL08/dsh-plastic-memory",
+  "originalPosition": 176,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 176,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:19.487Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "76d3c31cadf5ec0d0060ca6f6bcf7ef74d7e0644b24a9c967b861e4c545e1c36",
+      "url": "https://github.com/KKL08/dsh-plastic-memory/blob/4cbdb597f45a7d8382f0218c732bb8fb6f21e688/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plastic-memory@0.2.0-beta.3",
+          "command": "dsh plugin --profile web add dsh-plastic-memory@0.2.0-beta.3",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "d37e08e49102104a2226fb7878b095fc170c3d12bd62e6f2b5045bc4227ce49b",
+      "url": "https://github.com/KKL08/dsh-plastic-memory/blob/4cbdb597f45a7d8382f0218c732bb8fb6f21e688/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plastic-memory@0.2.0-beta.3",
+          "command": "dsh plugin --profile web add dsh-plastic-memory@0.2.0-beta.3",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plastic-memory",
+      "version": "0.2.0-beta.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KKL08/dsh-plastic-memory",
+        "commit": "4cbdb597f45a7d8382f0218c732bb8fb6f21e688"
+      },
+      "manifestSha256": "dd34154c60750299851ae02d3fe51d3c4435276bc81f9466852fcf0db612053c",
+      "manifestUrl": "https://github.com/KKL08/dsh-plastic-memory/blob/4cbdb597f45a7d8382f0218c732bb8fb6f21e688/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plastic-memory",
+        "versions": [
+          {
+            "version": "0.2.0-beta.3",
+            "publishTimestamp": 1794874926,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KKL08/dsh-plastic-memory",
+              "commit": "4cbdb597f45a7d8382f0218c732bb8fb6f21e688"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plastic-memory@0.2.0-beta.3",
+      "origin": "npm",
+      "name": "dsh-plastic-memory",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plastic-memory",
+        "title": {
+          "en": "Plastic Memory",
+          "zh": "可塑性记忆"
+        },
+        "description": {
+          "en": "A memory plugin that saves automatically, recalls on demand and keeps memories healthy.",
+          "zh": "一款集记忆的自动沉淀、按需唤起与质量维护于一体的记忆插件。"
+        },
+        "homepage": "https://github.com/KKL08/dsh-plastic-memory#readme",
+        "repository": {
+          "url": "https://github.com/KKL08/dsh-plastic-memory"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "agent-memory",
+            "memory",
+            "llm",
+            "plastic-memory"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTggMjAuMkMxNC4yIDE5LjggOS40IDE3LjYgNS4yIDExLjZDOSAxMyAxMi44IDEzLjQgMTYuNSAxNS4zTDE4IDE2LjlMMTkuNSAxNS4zQzIzLjIgMTMuNCAyNyAxMyAzMC44IDExLjZDMjYuNiAxNy42IDIxLjggMTkuOCAxOCAyMC4yWiIgZmlsbD0iIzg4N0ZBOCIvPgogIDxwYXRoIGQ9Ik0xNi41IDE5LjZMMTcuMSAyNi42SDE4LjlMMTkuNSAxOS42WiIgZmlsbD0iIzg4N0ZBOCIvPgogIDxwYXRoIGQ9Ik00LjUgMjguNGMxLjUgMCAyLjMtMS4xIDMuOC0xLjFzMi4zIDEuMSAzLjggMS4xTTIzLjkgMjguNGMxLjUgMCAyLjMtMS4xIDMuOC0xLjFzMi4zIDEuMSAzLjggMS4xIiBzdHJva2U9IiM4ODdGQTgiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.2.0-beta.3",
+            "publishTimestamp": 1794821651,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "be6459e9923efbbc8d4face13b262220ee299cb37eb031c66ee36c705432d494",
+      "evidence": [
+        {
+          "name": "dsh-plastic-memory",
+          "version": "0.2.0-beta.3",
+          "tarball": "https://registry.npmjs.org/dsh-plastic-memory/-/dsh-plastic-memory-0.2.0-beta.3.tgz",
+          "integrity": "sha512-Hc+c3q3UVz0sq9fN14S6rC8+0HsimRvWkM5DxkFcsUpXED67IVRP0GykwIee1l9jPSZivKoktAdMpSj+vqgJZw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plastic-memory@0.2.0-beta.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KKL08/dsh-plastic-memory",
+    "commit": "4cbdb597f45a7d8382f0218c732bb8fb6f21e688",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:22.191Z"
+}

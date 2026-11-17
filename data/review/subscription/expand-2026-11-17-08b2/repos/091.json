@@ -1,0 +1,85 @@
+{
+  "full_name": "shuaweng/DSH_xieshujing",
+  "originalPosition": 91,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 91,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:12:46.244Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6d02c884d01fc62ccf9d94bd18faa83c0b6b8388067f50e0a6c21999ee64e8f7",
+      "url": "https://github.com/shuaweng/DSH_xieshujing/blob/f6f747dd547102cc571b72ecc1ca0cd4dfca76ad/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "76641442fcd0a4768f3250e97edc727b7b9b0e4783120619bd1f01bdeb1304b5",
+      "url": "https://github.com/shuaweng/DSH_xieshujing/blob/f6f747dd547102cc571b72ecc1ca0cd4dfca76ad/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "69c1cd19c5d5404e117b82596d394c5dfda3497d7f69113bfe44924e05f70cd7",
+      "url": "https://github.com/shuaweng/DSH_xieshujing/blob/f6f747dd547102cc571b72ecc1ca0cd4dfca76ad/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xieshujing/dsh-plugin",
+      "version": "0.1.3-alpha.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shuaweng/DSH_xieshujing",
+        "commit": "f6f747dd547102cc571b72ecc1ca0cd4dfca76ad"
+      },
+      "manifestSha256": "82e7d0bd09bce2eaa68ff672b487dc76228570f86c598a6dd30aff81c991359f",
+      "manifestUrl": "https://github.com/shuaweng/DSH_xieshujing/blob/f6f747dd547102cc571b72ecc1ca0cd4dfca76ad/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.3-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@xieshujing/dsh-plugin",
+        "versions": [
+          {
+            "version": "0.1.3-alpha.1",
+            "publishTimestamp": 1788750122,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/shuaweng/DSH_xieshujing",
+              "commit": "f6f747dd547102cc571b72ecc1ca0cd4dfca76ad"
+            },
+            "engines": {
+              "dsh": "^0.1.3-alpha.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shuaweng/DSH_xieshujing",
+    "commit": "f6f747dd547102cc571b72ecc1ca0cd4dfca76ad",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:48.942Z"
+}

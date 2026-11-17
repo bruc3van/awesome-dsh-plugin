@@ -1,0 +1,207 @@
+{
+  "full_name": "DEEP-IOS/dsh-humanizer",
+  "originalPosition": 175,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 175,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:11:50.730Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f9566cff080590a452b2f9bab85536587624e5ba6dd3410c77e9189b803d5ec9",
+      "url": "https://github.com/DEEP-IOS/dsh-humanizer/blob/1ba235e05d77df03551e776faaee10d2b62f8505/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-humanizer@next",
+          "command": "dsh plugin --profile web add dsh-humanizer@next",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/DEEP-IOS/dsh-humanizer",
+          "command": "dsh plugin --profile web add \"github:DEEP-IOS/dsh-humanizer\"",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-humanizer@0.4.0-alpha.2",
+          "command": "dsh plugin --profile web add dsh-humanizer@0.4.0-alpha.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "c2b67fabf23fcad26db960207f902dd6655404670be9ad39195cf5b33d1e102e",
+      "url": "https://github.com/DEEP-IOS/dsh-humanizer/blob/1ba235e05d77df03551e776faaee10d2b62f8505/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-humanizer",
+      "version": "0.4.0-alpha.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DEEP-IOS/dsh-humanizer",
+        "commit": "1ba235e05d77df03551e776faaee10d2b62f8505"
+      },
+      "manifestSha256": "76ce15a8db57a3617b4c2ba57fd9f9f8625974a007361a0c9a49e482384bf876",
+      "manifestUrl": "https://github.com/DEEP-IOS/dsh-humanizer/blob/1ba235e05d77df03551e776faaee10d2b62f8505/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.2-0 || ^0.1.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-humanizer",
+        "versions": [
+          {
+            "version": "0.4.0-alpha.2",
+            "publishTimestamp": 1788689215,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DEEP-IOS/dsh-humanizer",
+              "commit": "1ba235e05d77df03551e776faaee10d2b62f8505"
+            },
+            "engines": {
+              "dsh": "^0.1.2-0 || ^0.1.3-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-humanizer@next",
+      "origin": "npm",
+      "name": "dsh-humanizer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-humanizer",
+        "title": "dsh-humanizer",
+        "description": "中文写作与润色工作台：本地证据记忆图谱、任务恢复、按需完整理论与内容忠实守卫。不评分、不检测、不设文风配额。",
+        "repository": {
+          "url": "https://github.com/DEEP-IOS/dsh-humanizer"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "humanizer",
+            "chinese-writing",
+            "novel",
+            "去AI味"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0-alpha.2",
+            "publishTimestamp": 1788689343,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.2-0 || ^0.1.3-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "255750b5169c34692cfa9ce7438ec411714fdccc3de602f947aa8e225baa40d2",
+      "evidence": [
+        {
+          "name": "dsh-humanizer",
+          "version": "0.4.0-alpha.2",
+          "tarball": "https://registry.npmjs.org/dsh-humanizer/-/dsh-humanizer-0.4.0-alpha.2.tgz",
+          "integrity": "sha512-eytsGAe0IskKprOV48tn7C7UoU7lJBbDVYtAVvXeaBwzoOqa5FC0kUW5r9YLXbN90fHQ1Q8tXPU0u4XtrFWUgQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "dsh-humanizer@0.4.0-alpha.2",
+      "origin": "npm",
+      "name": "dsh-humanizer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-humanizer",
+        "title": "dsh-humanizer",
+        "description": "中文写作与润色工作台：本地证据记忆图谱、任务恢复、按需完整理论与内容忠实守卫。不评分、不检测、不设文风配额。",
+        "repository": {
+          "url": "https://github.com/DEEP-IOS/dsh-humanizer"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "humanizer",
+            "chinese-writing",
+            "novel",
+            "去AI味"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0-alpha.2",
+            "publishTimestamp": 1788689343,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.2-0 || ^0.1.3-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "255750b5169c34692cfa9ce7438ec411714fdccc3de602f947aa8e225baa40d2",
+      "evidence": [
+        {
+          "name": "dsh-humanizer",
+          "version": "0.4.0-alpha.2",
+          "tarball": "https://registry.npmjs.org/dsh-humanizer/-/dsh-humanizer-0.4.0-alpha.2.tgz",
+          "integrity": "sha512-eytsGAe0IskKprOV48tn7C7UoU7lJBbDVYtAVvXeaBwzoOqa5FC0kUW5r9YLXbN90fHQ1Q8tXPU0u4XtrFWUgQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-humanizer@next",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/DEEP-IOS/dsh-humanizer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-humanizer@0.4.0-alpha.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DEEP-IOS/dsh-humanizer",
+    "commit": "1ba235e05d77df03551e776faaee10d2b62f8505",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:11:53.348Z"
+}

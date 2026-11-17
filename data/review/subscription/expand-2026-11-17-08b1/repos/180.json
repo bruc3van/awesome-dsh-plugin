@@ -1,0 +1,111 @@
+{
+  "full_name": "Xiaxin1235/WhaleMaid",
+  "originalPosition": 180,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 180,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:11:53.348Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "358e517dbde461a9426621928449aa3fa9191129d4fca1e571830a61915c5105",
+      "url": "https://github.com/Xiaxin1235/WhaleMaid/blob/ada393caf75eb0260b7713160565b3347a9ff5e4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Xiaxin1235/WhaleMaid/releases/download/v1.6.5/dsh-whalemaid-full-1.6.5.tgz",
+          "command": "dsh plugin --profile desktop add 'https://github.com/Xiaxin1235/WhaleMaid/releases/download/v1.6.5/dsh-whalemaid-full-1.6.5.tgz'",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "f1deefb9b3d2be29db6002db6e0fce7dfcb8e71c8de85592c2b7c006809ea3f4",
+      "url": "https://github.com/Xiaxin1235/WhaleMaid/blob/ada393caf75eb0260b7713160565b3347a9ff5e4/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Xiaxin1235/WhaleMaid/releases/download/v1.6.5/dsh-whalemaid-full-1.6.5.tgz",
+          "command": "dsh plugin --profile desktop add 'https://github.com/Xiaxin1235/WhaleMaid/releases/download/v1.6.5/dsh-whalemaid-full-1.6.5.tgz'",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "9d1e52ec1d8db5a2c2bbde505d2571dc573d07e7394029f211335b70da98eb7c",
+      "url": "https://github.com/Xiaxin1235/WhaleMaid/blob/ada393caf75eb0260b7713160565b3347a9ff5e4/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whalemaid",
+      "version": "1.6.5",
+      "path": "packages/host",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Xiaxin1235/WhaleMaid",
+        "commit": "ada393caf75eb0260b7713160565b3347a9ff5e4",
+        "path": "packages/host"
+      },
+      "manifestSha256": "5a9219c65abb70530669f66b761f6c453344c444fff0c2085e8895d445ed65bd",
+      "manifestUrl": "https://github.com/Xiaxin1235/WhaleMaid/blob/ada393caf75eb0260b7713160565b3347a9ff5e4/packages/host/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-whalemaid",
+        "versions": [
+          {
+            "version": "1.6.5",
+            "publishTimestamp": 1794800914,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Xiaxin1235/WhaleMaid",
+              "commit": "ada393caf75eb0260b7713160565b3347a9ff5e4",
+              "path": "packages/host"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Xiaxin1235/WhaleMaid/releases/download/v1.6.5/dsh-whalemaid-full-1.6.5.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Xiaxin1235/WhaleMaid/releases/download/v1.6.5/dsh-whalemaid-full-1.6.5.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Xiaxin1235/WhaleMaid",
+    "commit": "ada393caf75eb0260b7713160565b3347a9ff5e4",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:11:57.373Z"
+}

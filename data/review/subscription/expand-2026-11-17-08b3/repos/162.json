@@ -1,0 +1,163 @@
+{
+  "full_name": "GCS-ZHN/mcp-sentinel",
+  "originalPosition": 162,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 162,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:12.039Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d072ad9662862eda70dfeb4aacb87432eb107e063ada6f87ffd910078a5e9791",
+      "url": "https://github.com/GCS-ZHN/mcp-sentinel/blob/ba3815a0f115914f5f549e14bffdd9d532601a33/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/opencode/README.md",
+      "sha256": "dbae2da9f4369d0955bd926c4a3c6ff8f5421242dd92adce9514cc4af847c751",
+      "url": "https://github.com/GCS-ZHN/mcp-sentinel/blob/ba3815a0f115914f5f549e14bffdd9d532601a33/packages/opencode/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/opencode2/README.md",
+      "sha256": "acc661acdc3ffd8d06beb578ed5c7a90ddd93c236a280e58769afa1c7aef894f",
+      "url": "https://github.com/GCS-ZHN/mcp-sentinel/blob/ba3815a0f115914f5f549e14bffdd9d532601a33/packages/opencode2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/deepseek-harness/README.md",
+      "sha256": "33eb642009b901fc041bf1c24cbea672b5bceae96147ab2927b1c816abcb994a",
+      "url": "https://github.com/GCS-ZHN/mcp-sentinel/blob/ba3815a0f115914f5f549e14bffdd9d532601a33/packages/deepseek-harness/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@gcszhn/mcp-sentinel-deepseek-harness-plugin",
+          "command": "dsh plugin --profile <name> add @gcszhn/mcp-sentinel-deepseek-harness-plugin",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "packages/cli/README.md",
+      "sha256": "b83f9fff05084fa8b49305f9b55eb6850ee30aaddb74c725c10c024ae3ed5ca9",
+      "url": "https://github.com/GCS-ZHN/mcp-sentinel/blob/ba3815a0f115914f5f549e14bffdd9d532601a33/packages/cli/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/core/README.md",
+      "sha256": "814eaf201107e80344b2c6005e1416b2f03d6d7945f3c235e5360ae9234d79f5",
+      "url": "https://github.com/GCS-ZHN/mcp-sentinel/blob/ba3815a0f115914f5f549e14bffdd9d532601a33/packages/core/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@gcszhn/mcp-sentinel-deepseek-harness-plugin",
+      "version": "1.6.0",
+      "path": "packages/deepseek-harness",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GCS-ZHN/mcp-sentinel",
+        "commit": "ba3815a0f115914f5f549e14bffdd9d532601a33",
+        "path": "packages/deepseek-harness"
+      },
+      "manifestSha256": "c171f1a11f8730a0704c5fa3ebdc20e91d88ee5c3a01ce931f4101cc93327036",
+      "manifestUrl": "https://github.com/GCS-ZHN/mcp-sentinel/blob/ba3815a0f115914f5f549e14bffdd9d532601a33/packages/deepseek-harness/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@gcszhn/mcp-sentinel-deepseek-harness-plugin",
+        "versions": [
+          {
+            "version": "1.6.0",
+            "publishTimestamp": 1794706529,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GCS-ZHN/mcp-sentinel",
+              "commit": "ba3815a0f115914f5f549e14bffdd9d532601a33",
+              "path": "packages/deepseek-harness"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@gcszhn/mcp-sentinel-deepseek-harness-plugin",
+      "origin": "npm",
+      "name": "@gcszhn/mcp-sentinel-deepseek-harness-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@gcszhn/mcp-sentinel-deepseek-harness-plugin",
+        "title": "@gcszhn/mcp-sentinel-deepseek-harness-plugin",
+        "description": "DeepSeek Harness plugin that acts as a sentinel between the AI agent and MCP servers — polling long-running tasks on the agent's behalf so that token-costly status loops never enter the LLM inference path",
+        "repository": {
+          "url": "https://github.com/GCS-ZHN/mcp-sentinel",
+          "directory": "packages/deepseek-harness"
+        },
+        "versions": [
+          {
+            "version": "1.6.0",
+            "publishTimestamp": 1794706759,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b19704a45156ba188fed70e99f65e8b23f702df9a272887afa08c327e528765c",
+      "evidence": [
+        {
+          "name": "@gcszhn/mcp-sentinel-deepseek-harness-plugin",
+          "version": "1.6.0",
+          "tarball": "https://registry.npmjs.org/@gcszhn/mcp-sentinel-deepseek-harness-plugin/-/mcp-sentinel-deepseek-harness-plugin-1.6.0.tgz",
+          "integrity": "sha512-DgxDmPDc2Kk8fjAuxd41PsBTO8eNporVyI66kFlV3TmB/8+hN851dI5+yDm+BIjMebcSeXOfLc4/qp3bh73RIw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@gcszhn/mcp-sentinel-deepseek-harness-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GCS-ZHN/mcp-sentinel",
+    "commit": "ba3815a0f115914f5f549e14bffdd9d532601a33",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:18.356Z"
+}

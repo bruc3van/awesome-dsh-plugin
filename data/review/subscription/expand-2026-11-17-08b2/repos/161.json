@@ -1,0 +1,95 @@
+{
+  "full_name": "lxfu1/dsh-plugin-chart",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:13.258Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "86a3585afc2cfe9c13164836ca69d307074157fdf680c07f7695e2ec982169f6",
+      "url": "https://github.com/lxfu1/dsh-plugin-chart/blob/469445d0fc374431aed6ca19107941db2d63f419/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lxfu1/dsh-plugin-chart",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:lxfu1/dsh-plugin-chart",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "78027d78484990fba884b24228d64a69803fa7dcfb02ad4f67532a6c7f327a7f",
+      "url": "https://github.com/lxfu1/dsh-plugin-chart/blob/469445d0fc374431aed6ca19107941db2d63f419/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lxfu1/dsh-plugin-chart",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:lxfu1/dsh-plugin-chart",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-chart",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lxfu1/dsh-plugin-chart",
+        "commit": "469445d0fc374431aed6ca19107941db2d63f419"
+      },
+      "manifestSha256": "63f1085ff7e2f8db7b59c217ce3be196ab588b289ef3e957fb82c8daf86e0419",
+      "manifestUrl": "https://github.com/lxfu1/dsh-plugin-chart/blob/469445d0fc374431aed6ca19107941db2d63f419/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.7 <0.1.1 || >=0.1.1-rc.1 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-chart",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787748423,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lxfu1/dsh-plugin-chart",
+              "commit": "469445d0fc374431aed6ca19107941db2d63f419"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.7 <0.1.1 || >=0.1.1-rc.1 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lxfu1/dsh-plugin-chart",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lxfu1/dsh-plugin-chart",
+    "commit": "469445d0fc374431aed6ca19107941db2d63f419",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:15.599Z"
+}

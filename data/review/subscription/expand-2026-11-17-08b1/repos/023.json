@@ -1,0 +1,40 @@
+{
+  "full_name": "Yts1919/dsh-vision-complete",
+  "originalPosition": 23,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 23,
+  "batch": 1,
+  "stargazers_count": 60,
+  "startedAt": "2026-11-17T08:10:45.424Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "34f52602ebb11b2b27a4d65da5bc4270f08a9e30cb61951209f0334161c093b4",
+      "url": "https://github.com/Yts1919/dsh-vision-complete/blob/9526ccd4ddeb50ba245b693f137ff4ee0432d5a4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yts1919/dsh-vision-complete",
+    "commit": "9526ccd4ddeb50ba245b693f137ff4ee0432d5a4",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:10:46.916Z"
+}

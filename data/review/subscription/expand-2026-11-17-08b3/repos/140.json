@@ -1,0 +1,140 @@
+{
+  "full_name": "AngelosZou/dsh-pdf-reader",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:01.638Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9d62411609e35a473f5abe3efce500767f557859ff415e8e5c0c0d0537f4c7cc",
+      "url": "https://github.com/AngelosZou/dsh-pdf-reader/blob/ffecd361b7f2803fdccd1cf92149aad3e11a3271/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-pdf-reader",
+          "command": "dsh plugin --profile web add dsh-pdf-reader",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "a460283e15b31da35a70c767b72ba1616978abb9b3bac46b902d3d3de5cd229d",
+      "url": "https://github.com/AngelosZou/dsh-pdf-reader/blob/ffecd361b7f2803fdccd1cf92149aad3e11a3271/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-pdf-reader",
+          "command": "dsh plugin --profile web add dsh-pdf-reader",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pdf-reader",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AngelosZou/dsh-pdf-reader",
+        "commit": "ffecd361b7f2803fdccd1cf92149aad3e11a3271"
+      },
+      "manifestSha256": "31d3628b8e63e3a576e97c28869743dfde48430199a18be530f471f8a0e064d2",
+      "manifestUrl": "https://github.com/AngelosZou/dsh-pdf-reader/blob/ffecd361b7f2803fdccd1cf92149aad3e11a3271/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-pdf-reader",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787732831,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AngelosZou/dsh-pdf-reader",
+              "commit": "ffecd361b7f2803fdccd1cf92149aad3e11a3271"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-pdf-reader",
+      "origin": "npm",
+      "name": "dsh-pdf-reader",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-pdf-reader",
+        "title": "dsh-pdf-reader",
+        "description": "DeepSeek Harness plugin: content-aware PDF reading tools for vision models (pdf_scan / pdf_read_page / pdf_render_region). Detects figures (vector+raster), tables, math, and two-column layout per page, then routes text pages to extraction and figure/table/math pages to high-DPI region crops rendered for read_image — avoiding DeepSeek's ~800x800 whole-page token ceiling. Backed by PyMuPDF; returns a clear warning (with the exact install command) when Python or a dependency is missing.",
+        "author": "Yutong Zou",
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "pdf",
+            "vision",
+            "pdf-reader",
+            "ocr",
+            "figure",
+            "table",
+            "pymupdf"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787732879,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e4b966ac4b11217adf2f22f5a60c6052601b36414b99c47377f2b5c97fd3d44c",
+      "evidence": [
+        {
+          "name": "dsh-pdf-reader",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-pdf-reader/-/dsh-pdf-reader-0.2.0.tgz",
+          "integrity": "sha512-f8y3pp6eVobnqNHhWUwYRS13CzSxvbwifD2OSeaQNP+cCLd8wLGD4tOILlL3RLD3MPcmzyo0rxJz8+Jg8S1mQw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-pdf-reader",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AngelosZou/dsh-pdf-reader",
+    "commit": "ffecd361b7f2803fdccd1cf92149aad3e11a3271",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:04.091Z"
+}

@@ -1,0 +1,48 @@
+{
+  "full_name": "lhh010/dsh-bash-encoding",
+  "originalPosition": 154,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 154,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:10.437Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cf514b3a0396023c355ab46798f29d2df8b7e895a5851ea613a2d46e5aed92eb",
+      "url": "https://github.com/lhh010/dsh-bash-encoding/blob/5dfa04c29591ba257be40cd72749710586a14aeb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "880c838e4c700dadc17ffb0ddae2b4176e0e7296795a2f3677c5af52ae97e6d6",
+      "url": "https://github.com/lhh010/dsh-bash-encoding/blob/5dfa04c29591ba257be40cd72749710586a14aeb/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lhh010/dsh-bash-encoding",
+    "commit": "5dfa04c29591ba257be40cd72749710586a14aeb",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@dsh-external/dsh-bash-encoding",
+    "version": "0.2.0",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:13:12.719Z"
+}

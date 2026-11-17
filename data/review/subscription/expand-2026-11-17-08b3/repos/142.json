@@ -1,0 +1,71 @@
+{
+  "full_name": "AvalonskyAfar/MahoutsukaiNoYoru-DSH-Skin",
+  "originalPosition": 142,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:01.708Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "939b4697280d8bae0292d67c18d832dabad8349017262f3250e7dbb709e9e825",
+      "url": "https://github.com/AvalonskyAfar/MahoutsukaiNoYoru-DSH-Skin/blob/372ce12620f05f30a6e5a5669cba94d8baf7e02c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skin-mahoyo",
+      "version": "0.1.1",
+      "path": "skin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AvalonskyAfar/MahoutsukaiNoYoru-DSH-Skin",
+        "commit": "372ce12620f05f30a6e5a5669cba94d8baf7e02c",
+        "path": "skin"
+      },
+      "manifestSha256": "7927837869a369783537b4b9493d2f6d902288f8ac71e23ffb2236338b6cd589",
+      "manifestUrl": "https://github.com/AvalonskyAfar/MahoutsukaiNoYoru-DSH-Skin/blob/372ce12620f05f30a6e5a5669cba94d8baf7e02c/skin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-skin-mahoyo",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1792552209,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AvalonskyAfar/MahoutsukaiNoYoru-DSH-Skin",
+              "commit": "372ce12620f05f30a6e5a5669cba94d8baf7e02c",
+              "path": "skin"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AvalonskyAfar/MahoutsukaiNoYoru-DSH-Skin",
+    "commit": "372ce12620f05f30a6e5a5669cba94d8baf7e02c",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:03.785Z"
+}

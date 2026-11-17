@@ -1,0 +1,189 @@
+{
+  "full_name": "qimidandapigu/dsh-xiaotangyuan-game",
+  "originalPosition": 71,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 71,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-17T08:12:36.540Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a588dba3cb5927221f65b6ade7d8e33e59121f8f178c005c1a054f0b13492230",
+      "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/blob/a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/releases/download/plugin-v0.5.1/qimidandapigu-dsh-xiaotangyuan-game-0.5.1.tgz",
+          "command": "dsh plugin --profile web add \"https://github.com/qimidandapigu/dsh-xiaotangyuan-game/releases/download/plugin-v0.5.1/qimidandapigu-dsh-xiaotangyuan-game-0.5.1.tgz\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/releases/download/oni-v0.6.1/qimidandapigu-oni-adapter-0.1.3.tgz",
+          "command": "dsh plugin --profile web add \"https://github.com/qimidandapigu/dsh-xiaotangyuan-game/releases/download/oni-v0.6.1/qimidandapigu-oni-adapter-0.1.3.tgz\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "games/stardew-valley/README.md",
+      "sha256": "770838732945bf4c16a030788ee7160418ace81b424240704a74a239260176bf",
+      "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/blob/a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba/games/stardew-valley/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "games/dont-starve-together/README.md",
+      "sha256": "79532ec1b3820fa8983361a0b5710d732383b797d3070a01aff53d9f4b117834",
+      "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/blob/a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba/games/dont-starve-together/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "games/oxygen-not-included/README.md",
+      "sha256": "3f9115d9e77cce89e42730b138fd3761965a13cc90729abb2a0107f6e8b0deed",
+      "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/blob/a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba/games/oxygen-not-included/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/feedback-receiver/README.md",
+      "sha256": "4ae4c1257f72cb6987e0f5b5b509a52467052b537bc7e11371d95b04f932802b",
+      "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/blob/a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba/apps/feedback-receiver/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/harness-plugin/README.md",
+      "sha256": "950ff62f19b380a2468e134f45210afed41470ebe86e9134b1f446a0e9b01b4c",
+      "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/blob/a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba/apps/harness-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "protocol/v1/README.md",
+      "sha256": "8b49b6ed988891d4a92f1c514ef85a47125c33ef689b86a18bb55ad8ad3570e9",
+      "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/blob/a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba/protocol/v1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@qimidandapigu/dsh-xiaotangyuan-game",
+      "version": "0.7.6",
+      "path": "apps/harness-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game",
+        "commit": "a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba",
+        "path": "apps/harness-plugin"
+      },
+      "manifestSha256": "e6da65d55dd0e212fc7f5fe72c048eb2fec41115d9ccfd78797427384102c6d6",
+      "manifestUrl": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/blob/a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba/apps/harness-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@qimidandapigu/dsh-xiaotangyuan-game",
+        "versions": [
+          {
+            "version": "0.7.6",
+            "publishTimestamp": 1787759598,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game",
+              "commit": "a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba",
+              "path": "apps/harness-plugin"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@qimidandapigu/oni-adapter",
+      "version": "0.1.4",
+      "path": "games/oxygen-not-included/adapter",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game",
+        "commit": "a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba",
+        "path": "games/oxygen-not-included/adapter"
+      },
+      "manifestSha256": "b21b42d95eedd354f4b30d25addea306fa21c59245a6d000af75a16f104cc2ab",
+      "manifestUrl": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/blob/a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba/games/oxygen-not-included/adapter/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@qimidandapigu/oni-adapter",
+        "versions": [
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1787759598,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game",
+              "commit": "a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba",
+              "path": "games/oxygen-not-included/adapter"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/releases/download/plugin-v0.5.1/qimidandapigu-dsh-xiaotangyuan-game-0.5.1.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/releases/download/oni-v0.6.1/qimidandapigu-oni-adapter-0.1.3.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/releases/download/plugin-v0.5.1/qimidandapigu-dsh-xiaotangyuan-game-0.5.1.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game/releases/download/oni-v0.6.1/qimidandapigu-oni-adapter-0.1.3.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/qimidandapigu/dsh-xiaotangyuan-game",
+    "commit": "a7a0f39cc2678a867ed0f8df7fec5f913a1ac8ba",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:42.374Z"
+}

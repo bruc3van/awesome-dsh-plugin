@@ -1,0 +1,134 @@
+{
+  "full_name": "Funny1Potato/dsh-outsourcing-expert",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:11.836Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "64a0e33f4fc11f779b90a7a62d6bf11bfc0d0b9b3e4247673e150f39a6caa1e0",
+      "url": "https://github.com/Funny1Potato/dsh-outsourcing-expert/blob/dc944ecef5a2dfd89fe067cc9944483b83e2934b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-outsourcing-expert",
+          "command": "dsh plugin --profile <profile> add dsh-outsourcing-expert",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/Funny1Potato/dsh-outsourcing-expert",
+          "command": "dsh plugin --profile <profile> add github:Funny1Potato/dsh-outsourcing-expert",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-outsourcing-expert",
+      "version": "1.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Funny1Potato/dsh-outsourcing-expert",
+        "commit": "dc944ecef5a2dfd89fe067cc9944483b83e2934b"
+      },
+      "manifestSha256": "7a756402476a5e1694d1ac323e59684b4b904968437ef98d0ab878fe261e031b",
+      "manifestUrl": "https://github.com/Funny1Potato/dsh-outsourcing-expert/blob/dc944ecef5a2dfd89fe067cc9944483b83e2934b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-outsourcing-expert",
+        "versions": [
+          {
+            "version": "1.2.5",
+            "publishTimestamp": 1794829763,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Funny1Potato/dsh-outsourcing-expert",
+              "commit": "dc944ecef5a2dfd89fe067cc9944483b83e2934b"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-outsourcing-expert",
+      "origin": "npm",
+      "name": "dsh-outsourcing-expert",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-outsourcing-expert",
+        "title": "dsh-outsourcing-expert",
+        "description": "DeepSeek Harness agent presets whose leader does no work itself: every non-management tool call is denied at the harness boundary and the task goes to a subagent instead, after a one-time research pass over the available subagent models and a per-task model choice (a second preset deliberately picks the model least suited to the task).",
+        "repository": {
+          "url": "https://github.com/Funny1Potato/dsh-outsourcing-expert"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "agent-preset",
+            "subagent",
+            "delegation"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.2.5",
+            "publishTimestamp": 1794829956,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "df8d5c1e3f6029cabede3ae5adce5b997f01566325817c4eb033d4af7924fe1f",
+      "evidence": [
+        {
+          "name": "dsh-outsourcing-expert",
+          "version": "1.2.5",
+          "tarball": "https://registry.npmjs.org/dsh-outsourcing-expert/-/dsh-outsourcing-expert-1.2.5.tgz",
+          "integrity": "sha512-xrA3NzqAQ7UbDgeKX+ej4vuAwU2AcNFYfqghPZRc366CrXnTp0QgLN23HNG2b9LP1+c0BSvBvfyFOUXM95VhAQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-outsourcing-expert",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Funny1Potato/dsh-outsourcing-expert",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Funny1Potato/dsh-outsourcing-expert",
+    "commit": "dc944ecef5a2dfd89fe067cc9944483b83e2934b",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:14.366Z"
+}

@@ -1,0 +1,77 @@
+{
+  "full_name": "MoRanYue/dsh-openrouter-providers",
+  "originalPosition": 189,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:24.432Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "97ffc30d17dfdd2c002405cb25ee5a4d337bf2af031f0f2eaa7019401d009bf6",
+      "url": "https://github.com/MoRanYue/dsh-openrouter-providers/blob/0408c93520d16fd8f1678f8020e1966d12284187/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "0be67c4999d6a59d438d6af03f9fb02d36ade672dd9319fe0ef22ab98cc79307",
+      "url": "https://github.com/MoRanYue/dsh-openrouter-providers/blob/0408c93520d16fd8f1678f8020e1966d12284187/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-openrouter-providers",
+      "version": "1.8.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MoRanYue/dsh-openrouter-providers",
+        "commit": "0408c93520d16fd8f1678f8020e1966d12284187"
+      },
+      "manifestSha256": "2c63c9f021eea14130f367b324b5746e52987410dd6c7a078150de1ba9330c00",
+      "manifestUrl": "https://github.com/MoRanYue/dsh-openrouter-providers/blob/0408c93520d16fd8f1678f8020e1966d12284187/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-openrouter-providers",
+        "versions": [
+          {
+            "version": "1.8.1",
+            "publishTimestamp": 1794625661,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MoRanYue/dsh-openrouter-providers",
+              "commit": "0408c93520d16fd8f1678f8020e1966d12284187"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MoRanYue/dsh-openrouter-providers",
+    "commit": "0408c93520d16fd8f1678f8020e1966d12284187",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:26.845Z"
+}

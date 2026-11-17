@@ -1,0 +1,123 @@
+{
+  "full_name": "CooStack/dsh-code-review",
+  "originalPosition": 150,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 150,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:06.177Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c846517ad7f952b12a7535f20423fbac963ef89dd58651cf2e92715b148bb417",
+      "url": "https://github.com/CooStack/dsh-code-review/blob/c6e914712f6b90d0d09031d39b578278fa3ed315/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dsh-plugins/dsh-code-review#main",
+          "command": "dsh plugin --profile web add github:dsh-plugins/dsh-code-review#main",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-plugin/dsh-code-review",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CooStack/dsh-code-review",
+        "commit": "c6e914712f6b90d0d09031d39b578278fa3ed315"
+      },
+      "manifestSha256": "592373cd35b69b0decd03c16cd4a1946adc30d8d143ac8a9d65c619553ba33b7",
+      "manifestUrl": "https://github.com/CooStack/dsh-code-review/blob/c6e914712f6b90d0d09031d39b578278fa3ed315/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-plugin/dsh-code-review",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1789106050,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CooStack/dsh-code-review",
+              "commit": "c6e914712f6b90d0d09031d39b578278fa3ed315"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/dsh-plugins/dsh-code-review#main",
+      "origin": "git_target",
+      "name": "@dsh-plugin/dsh-code-review",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@dsh-plugin/dsh-code-review",
+        "title": "@dsh-plugin/dsh-code-review",
+        "description": "Codex-style per-turn code change summaries, review tab, and guarded undo for DeepSeek Harness",
+        "repository": {
+          "url": "https://github.com/dsh-plugins/dsh-code-review"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "diff",
+            "review",
+            "undo"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1788418190,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dsh-plugins/dsh-code-review",
+              "commit": "afef92017e21d9ab1cb08b16466e5b96fcfb0508"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "afef92017e21d9ab1cb08b16466e5b96fcfb0508",
+          "name": "@dsh-plugin/dsh-code-review",
+          "version": "0.3.2",
+          "url": "https://github.com/dsh-plugins/dsh-code-review",
+          "manifestSha256": "086fbabc18bd5c72b84f576ae4a964a9d5192e5a677fd43210479b30cec5b1d1",
+          "publishTimestamp": 1788418190
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/dsh-plugins/dsh-code-review#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CooStack/dsh-code-review",
+    "commit": "c6e914712f6b90d0d09031d39b578278fa3ed315",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:09.834Z"
+}

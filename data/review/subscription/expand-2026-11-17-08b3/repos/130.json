@@ -1,0 +1,84 @@
+{
+  "full_name": "534119219/chicheng-push",
+  "originalPosition": 130,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 130,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:15:57.383Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a92486c25a279b354e5dde110933d90122a7bef5bc157e5e1abc712a08bb9607",
+      "url": "https://github.com/534119219/chicheng-push/blob/2aa2b8273183bc91f4cf6d12b1f7121bbee751da/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "chicheng-push",
+          "command": "dsh plugin --profile web add chicheng-push",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "chicheng-push",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/534119219/chicheng-push",
+        "commit": "2aa2b8273183bc91f4cf6d12b1f7121bbee751da"
+      },
+      "manifestSha256": "f15e3529b45d253efaab04fd4c394f0ea637f55af3e074ba27f9a89a0972cd5e",
+      "manifestUrl": "https://github.com/534119219/chicheng-push/blob/2aa2b8273183bc91f4cf6d12b1f7121bbee751da/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "chicheng-push",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786894634,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/534119219/chicheng-push",
+              "commit": "2aa2b8273183bc91f4cf6d12b1f7121bbee751da"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "chicheng-push",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "chicheng-push",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/534119219/chicheng-push",
+    "commit": "2aa2b8273183bc91f4cf6d12b1f7121bbee751da",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:59.317Z"
+}

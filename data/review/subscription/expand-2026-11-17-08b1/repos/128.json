@@ -1,0 +1,73 @@
+{
+  "full_name": "LeoEthanZ/dsh-beyond-glass",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-17T08:11:30.823Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7816606d4c3fb7d546af752effc065c31b91cc94e66a118ff0bf95e136968760",
+      "url": "https://github.com/LeoEthanZ/dsh-beyond-glass/blob/9e9bf023625fa41a35ffe793fd4128a56b120ca5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/beyond-glass-harness-0.1.6-alpha.2.tgz",
+          "command": "dsh plugin --profile glass add https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/beyond-glass-harness-0.1.6-alpha.2.tgz https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/beyond-glass-ui-layout-0.1.5-rc.2.tgz https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/beyond-glass-ui-sidebar-0.1.5-rc.2.tgz https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/beyond-glass-ui-sidebar-right-0.1.5-rc.2.tgz https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/deepseek-ai-dsh-client-ui-wallpaper-0.1.2-rc.1.tgz https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/deepseek-ai-dsh-client-ui-workbench-0.1.2-rc.1.tgz",
+          "profile": "glass"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "dab8cef9c507717bfd1c824488ae579ca9c78a2f1fa26537ee6d2988a292afbc",
+      "url": "https://github.com/LeoEthanZ/dsh-beyond-glass/blob/9e9bf023625fa41a35ffe793fd4128a56b120ca5/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/beyond-glass-harness-0.1.6-alpha.2.tgz",
+          "command": "dsh plugin --profile glass add https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/beyond-glass-harness-0.1.6-alpha.2.tgz https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/beyond-glass-ui-layout-0.1.5-rc.2.tgz https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/beyond-glass-ui-sidebar-0.1.5-rc.2.tgz https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/beyond-glass-ui-sidebar-right-0.1.5-rc.2.tgz https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/deepseek-ai-dsh-client-ui-wallpaper-0.1.2-rc.1.tgz https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/deepseek-ai-dsh-client-ui-workbench-0.1.2-rc.1.tgz",
+          "profile": "glass"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "target": "https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/beyond-glass-harness-0.1.6-alpha.2.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LeoEthanZ/dsh-beyond-glass/releases/download/v0.1.3/beyond-glass-harness-0.1.6-alpha.2.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LeoEthanZ/dsh-beyond-glass",
+    "commit": "9e9bf023625fa41a35ffe793fd4128a56b120ca5",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:32.829Z"
+}

@@ -1,0 +1,166 @@
+{
+  "full_name": "hoyyang/dsh-project-manager",
+  "originalPosition": 186,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 186,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:11:56.310Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0903c30b52c9f468fddfdeaeda7998d18053976349470402d4b19f1fe7305e00",
+      "url": "https://github.com/hoyyang/dsh-project-manager/blob/6e7d78e45a6db01a955da5d09e6af230b162773b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-project-manager",
+          "command": "dsh plugin add dsh-project-manager",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/hoyyang/dsh-project-manager",
+          "command": "dsh plugin add github:hoyyang/dsh-project-manager",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "aed8a192092e2c1f3da5c539b66e92fef5bedf5bf2d5d5bde7286dd31d84d45f",
+      "url": "https://github.com/hoyyang/dsh-project-manager/blob/6e7d78e45a6db01a955da5d09e6af230b162773b/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-project-manager",
+          "command": "dsh plugin add dsh-project-manager",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/hoyyang/dsh-project-manager",
+          "command": "dsh plugin add github:hoyyang/dsh-project-manager",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-project-manager",
+      "version": "0.79.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hoyyang/dsh-project-manager",
+        "commit": "6e7d78e45a6db01a955da5d09e6af230b162773b"
+      },
+      "manifestSha256": "c21873fe728446cfe2db2f4d35c2a73fa1f5009c96debe2e0e6d7496bf403214",
+      "manifestUrl": "https://github.com/hoyyang/dsh-project-manager/blob/6e7d78e45a6db01a955da5d09e6af230b162773b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc <2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-project-manager",
+        "versions": [
+          {
+            "version": "0.79.0",
+            "publishTimestamp": 1794880231,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hoyyang/dsh-project-manager",
+              "commit": "6e7d78e45a6db01a955da5d09e6af230b162773b"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc <2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-project-manager",
+      "origin": "npm",
+      "name": "dsh-project-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-project-manager",
+        "title": "dsh-project-manager",
+        "description": "Project board, task schedule (gantt) and project memory for DeepSeek Harness: sessions opened from a card auto-load it.",
+        "author": "hoyyang",
+        "homepage": "https://github.com/hoyyang/dsh-project-manager#readme",
+        "repository": {
+          "url": "https://github.com/hoyyang/dsh-project-manager"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "kanban",
+            "project-board",
+            "project-management",
+            "project-memory",
+            "memory",
+            "session",
+            "task-schedule",
+            "gantt",
+            "landfill-project"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.79.0",
+            "publishTimestamp": 1794880502,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc <2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "56166c590628806a30261b6cb894c9c3e861b865526dd7e954bc6e6ee8835b0d",
+      "evidence": [
+        {
+          "name": "dsh-project-manager",
+          "version": "0.79.0",
+          "tarball": "https://registry.npmjs.org/dsh-project-manager/-/dsh-project-manager-0.79.0.tgz",
+          "integrity": "sha512-eCK1Ie4S+Z2zEF4w00EUiZhTcoITSFfvZoNB0QKdpZHXY2oRfGXTHufqwTIZAda4950QL98DSS6ip1dFLGwaLA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-project-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/hoyyang/dsh-project-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hoyyang/dsh-project-manager",
+    "commit": "6e7d78e45a6db01a955da5d09e6af230b162773b",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:11:58.779Z"
+}

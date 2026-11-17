@@ -1,0 +1,65 @@
+{
+  "full_name": "Culeot/dsh-agent-memory",
+  "originalPosition": 101,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 101,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:49.266Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "df8e18a82bd6d77f8861b65727b39934a8a2d4f0b79e310818a6e92983fc7892",
+      "url": "https://github.com/Culeot/dsh-agent-memory/blob/73411b69ccca31cff974314de48c3273ef51c363/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "f8b700a0c76eac9c2d3dcd50ea73e866f9998323e7b73ee764360035002b4af5",
+      "url": "https://github.com/Culeot/dsh-agent-memory/blob/73411b69ccca31cff974314de48c3273ef51c363/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "training/README.md",
+      "sha256": "bfb01671dc80076d93307d890189cc086ea7900296344d7c2c8aa408c0bce209",
+      "url": "https://github.com/Culeot/dsh-agent-memory/blob/73411b69ccca31cff974314de48c3273ef51c363/training/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Culeot/dsh-agent-memory",
+    "commit": "73411b69ccca31cff974314de48c3273ef51c363",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-agent-memory",
+    "version": "0.9.0",
+    "dsh": {
+      "client": {
+        "inject": [
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-locale",
+          "@deepseek-ai/dsh-client-ui-slots"
+        ],
+        "platform": "web"
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:12:52.048Z"
+}

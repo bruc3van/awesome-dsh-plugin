@@ -1,0 +1,48 @@
+{
+  "full_name": "green-dalii/dsh-plugin-dev-skill",
+  "originalPosition": 159,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 159,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-17T08:11:44.008Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4592cc72824b0827630c526f580108124d925b729e77392f7019b0010f1adb50",
+      "url": "https://github.com/green-dalii/dsh-plugin-dev-skill/blob/05df252fef4ffc71a9a19e7bbb9573215098892f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "b2ee190cbb07cde968dedadb240822e4fcc52aaaf6b0f55528b26f493bac4571",
+      "url": "https://github.com/green-dalii/dsh-plugin-dev-skill/blob/05df252fef4ffc71a9a19e7bbb9573215098892f/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/green-dalii/dsh-plugin-dev-skill",
+    "commit": "05df252fef4ffc71a9a19e7bbb9573215098892f",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:46.091Z"
+}

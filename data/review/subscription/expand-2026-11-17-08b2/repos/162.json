@@ -1,0 +1,77 @@
+{
+  "full_name": "mengqi1436/dsh-db-tool",
+  "originalPosition": 162,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 162,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:13.691Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "11cc16a9b5e83e0a4b1da52f55a14c6118b95e5a0cd5e7e326ff3518afe06906",
+      "url": "https://github.com/mengqi1436/dsh-db-tool/blob/c3b19f2962e5665fb9f7b17c27915ae2f025a627/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "eeea74126b5d5021c2a5817c1885c425fe352fdb51ef2e6fc6e2faf669b3bf2a",
+      "url": "https://github.com/mengqi1436/dsh-db-tool/blob/c3b19f2962e5665fb9f7b17c27915ae2f025a627/README_EN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-db-tool",
+      "version": "1.9.15",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/mengqi1436/dsh-db-tool",
+        "commit": "c3b19f2962e5665fb9f7b17c27915ae2f025a627"
+      },
+      "manifestSha256": "8f477ae0b0ca68b55cb1d88067d7b47153689e2d61a85d1bbc8267c413ec3972",
+      "manifestUrl": "https://github.com/mengqi1436/dsh-db-tool/blob/c3b19f2962e5665fb9f7b17c27915ae2f025a627/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.7-rc.2 || >=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.2 <0.3.0-0 || >=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-db-tool",
+        "versions": [
+          {
+            "version": "1.9.15",
+            "publishTimestamp": 1794898970,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/mengqi1436/dsh-db-tool",
+              "commit": "c3b19f2962e5665fb9f7b17c27915ae2f025a627"
+            },
+            "engines": {
+              "dsh": "0.1.7-rc.2 || >=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-rc.2 <0.3.0-0 || >=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/mengqi1436/dsh-db-tool",
+    "commit": "c3b19f2962e5665fb9f7b17c27915ae2f025a627",
+    "releaseTags": 55,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:16.066Z"
+}

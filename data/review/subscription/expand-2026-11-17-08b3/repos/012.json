@@ -1,0 +1,152 @@
+{
+  "full_name": "Walvez/dsh-codex-sync",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "stargazers_count": 31,
+  "startedAt": "2026-11-17T08:15:05.074Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "eb1d919fe3c3aa91008a069018c793ed5e19f1a7f5528790601a02079d1125fa",
+      "url": "https://github.com/Walvez/dsh-codex-sync/blob/75bbca80457eb5743a8fd293e1315f45a0771427/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-sync",
+          "command": "dsh plugin --profile web add dsh-codex-sync",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "49f087ee9db2d2b4ee05b3d18fc523d6972e8c91dd4a805f474441c17d597b3c",
+      "url": "https://github.com/Walvez/dsh-codex-sync/blob/75bbca80457eb5743a8fd293e1315f45a0771427/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-sync",
+          "command": "dsh plugin --profile web add dsh-codex-sync",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-sync",
+      "version": "1.6.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Walvez/dsh-codex-sync",
+        "commit": "75bbca80457eb5743a8fd293e1315f45a0771427"
+      },
+      "manifestSha256": "6e9dbe798d9a8db5946791b30fd4b1cdb9d11b229bea2979f84db4bbeb2d4359",
+      "manifestUrl": "https://github.com/Walvez/dsh-codex-sync/blob/75bbca80457eb5743a8fd293e1315f45a0771427/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.0.1-rc.1 || 0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-codex-sync",
+        "versions": [
+          {
+            "version": "1.6.2",
+            "publishTimestamp": 1791204274,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Walvez/dsh-codex-sync",
+              "commit": "75bbca80457eb5743a8fd293e1315f45a0771427"
+            },
+            "engines": {
+              "dsh": "^0.0.1-rc.1 || 0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-codex-sync",
+      "origin": "npm",
+      "name": "dsh-codex-sync",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-codex-sync",
+        "title": "dsh-codex-sync",
+        "description": "Two-way Codex↔DSH bridge: skills from ~/.codex/skills, session import with workspace attach, live MCP mirroring of mcp_servers, and a Codex-side reverse MCP installer.",
+        "homepage": "https://github.com/Walvez/dsh-codex-sync",
+        "repository": {
+          "url": "https://github.com/Walvez/dsh-codex-sync"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "codex",
+            "openai-codex",
+            "deepseek-harness",
+            "mcp",
+            "skills",
+            "sync",
+            "import",
+            "export",
+            "migration",
+            "chat-sync",
+            "subagents"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.6.2",
+            "publishTimestamp": 1791204791,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.0.1-rc.1 || 0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1e0250046014ed9c498a7296e393492600a7ab505707d8bcacc2fea58de4ce8d",
+      "evidence": [
+        {
+          "name": "dsh-codex-sync",
+          "version": "1.6.2",
+          "tarball": "https://registry.npmjs.org/dsh-codex-sync/-/dsh-codex-sync-1.6.2.tgz",
+          "integrity": "sha512-lCsG8/w30PWmzGHVntEayMHf2cL28ffNM+sMxaVudauekHhkOh4XtmGRsdmhcPcO3PeJhbne4FB/6nsldWrmvA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-codex-sync",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Walvez/dsh-codex-sync",
+    "commit": "75bbca80457eb5743a8fd293e1315f45a0771427",
+    "releaseTags": 27,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:07.431Z"
+}

@@ -1,0 +1,78 @@
+{
+  "full_name": "Edwardpch/maodie-pet",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:09.906Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "796af5749eccd53657557ac9be614e97d73c7dc305198ec743022a9daa279a67",
+      "url": "https://github.com/Edwardpch/maodie-pet/blob/0d80240c16012c9a8d9338d065ccb5b145476f1c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Edwardpch/maodie-pet",
+          "command": "dsh plugin add https://github.com/Edwardpch/maodie-pet",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "maodie-pet",
+      "version": "0.3.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Edwardpch/maodie-pet",
+        "commit": "0d80240c16012c9a8d9338d065ccb5b145476f1c"
+      },
+      "manifestSha256": "9eef47a18d040772c48a9efb602e1c6349d3a76e01918a401b6a23048799c447",
+      "manifestUrl": "https://github.com/Edwardpch/maodie-pet/blob/0d80240c16012c9a8d9338d065ccb5b145476f1c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "maodie-pet",
+        "versions": [
+          {
+            "version": "0.3.11",
+            "publishTimestamp": 1794886314,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Edwardpch/maodie-pet",
+              "commit": "0d80240c16012c9a8d9338d065ccb5b145476f1c"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Edwardpch/maodie-pet",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Edwardpch/maodie-pet",
+    "commit": "0d80240c16012c9a8d9338d065ccb5b145476f1c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:11.836Z"
+}

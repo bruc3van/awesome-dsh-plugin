@@ -1,0 +1,146 @@
+{
+  "full_name": "polarskicpl/dsh-codex-migrate",
+  "originalPosition": 58,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 58,
+  "batch": 1,
+  "stargazers_count": 13,
+  "startedAt": "2026-11-17T08:15:25.655Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6d4332456636c8be285679933f0e9be6f6cd3b252ae61777d0662dc85746ad37",
+      "url": "https://github.com/polarskicpl/dsh-codex-migrate/blob/7403f3997bdc31b5e14e42bbc3b2d5d0de22580a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-migrate",
+          "command": "dsh plugin --profile web add dsh-codex-migrate",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "244ab1dffdc2806d7755d2bc14151ef88c372157205ab29b210265982e293a1b",
+      "url": "https://github.com/polarskicpl/dsh-codex-migrate/blob/7403f3997bdc31b5e14e42bbc3b2d5d0de22580a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-codex-migrate",
+          "command": "dsh plugin --profile web add dsh-codex-migrate",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-migrate",
+      "version": "2.0.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/polarskicpl/dsh-codex-migrate",
+        "commit": "7403f3997bdc31b5e14e42bbc3b2d5d0de22580a"
+      },
+      "manifestSha256": "304d1dde3a659d0d972c0a049587a096bf67f1a082b56fdbe052ae22152ffef3",
+      "manifestUrl": "https://github.com/polarskicpl/dsh-codex-migrate/blob/7403f3997bdc31b5e14e42bbc3b2d5d0de22580a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-codex-migrate",
+        "versions": [
+          {
+            "version": "2.0.4",
+            "publishTimestamp": 1790178626,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/polarskicpl/dsh-codex-migrate",
+              "commit": "7403f3997bdc31b5e14e42bbc3b2d5d0de22580a"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-codex-migrate",
+      "origin": "npm",
+      "name": "dsh-codex-migrate",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-codex-migrate",
+        "title": "dsh-codex-migrate",
+        "description": "One-way structured conversation, project, MCP, memory, and context migration between Codex and DeepSeek Harness. Codex 与 DSH 的单向结构化迁移插件。",
+        "repository": {
+          "url": "https://github.com/polarskicpl/dsh-codex-migrate"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "codex",
+            "migration",
+            "conversation-import",
+            "mcp",
+            "plugin",
+            "dsh-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.0.4",
+            "publishTimestamp": 1790176722,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "23d9c0c31b93dd0c0adbc9cc4d980da9c65e9937c535733244ce40cc624c5a5b",
+      "evidence": [
+        {
+          "name": "dsh-codex-migrate",
+          "version": "2.0.4",
+          "tarball": "https://registry.npmjs.org/dsh-codex-migrate/-/dsh-codex-migrate-2.0.4.tgz",
+          "integrity": "sha512-V5ahz/VT4Prlx0NV5CrB4RVWPakOX4NE3mPHdmHJhjL1k0Z4my4ImxCbFErWP8WyVlzmw9tP1WtNqCKe3uDdSA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-codex-migrate",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/polarskicpl/dsh-codex-migrate",
+    "commit": "7403f3997bdc31b5e14e42bbc3b2d5d0de22580a",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:28.013Z"
+}

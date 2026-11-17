@@ -1,0 +1,159 @@
+{
+  "full_name": "v587d/dsh-opencode-go-usage",
+  "originalPosition": 63,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 63,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-17T08:12:32.288Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "37e9bd1705b34ebbb05e263196e4b114d2e29d6bd7cbb11d48d7f9e896b51071",
+      "url": "https://github.com/v587d/dsh-opencode-go-usage/blob/682a7872e6a3bf9313f08b9337319678b8a25895/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/v587d/dsh-opencode-go-usage",
+          "command": "dsh plugin --profile web add github:v587d/dsh-opencode-go-usage",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ocgo-usage",
+          "command": "dsh plugin --profile web add dsh-ocgo-usage",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "dd20c43c86967a0081fd7b3271ca73c1056cff4318393e72a28b80e91b92a961",
+      "url": "https://github.com/v587d/dsh-opencode-go-usage/blob/682a7872e6a3bf9313f08b9337319678b8a25895/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/v587d/dsh-opencode-go-usage",
+          "command": "dsh plugin --profile web add github:v587d/dsh-opencode-go-usage",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-ocgo-usage",
+          "command": "dsh plugin --profile web add dsh-ocgo-usage",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ocgo-usage",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/v587d/dsh-opencode-go-usage",
+        "commit": "682a7872e6a3bf9313f08b9337319678b8a25895"
+      },
+      "manifestSha256": "df0a91ad842fd6728a89d8fa9509853f1772c69dd1cd866ef05d254c45e1ef5a",
+      "manifestUrl": "https://github.com/v587d/dsh-opencode-go-usage/blob/682a7872e6a3bf9313f08b9337319678b8a25895/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-ocgo-usage",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1787647208,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/v587d/dsh-opencode-go-usage",
+              "commit": "682a7872e6a3bf9313f08b9337319678b8a25895"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ocgo-usage",
+      "origin": "npm",
+      "name": "dsh-ocgo-usage",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ocgo-usage",
+        "title": "dsh-ocgo-usage",
+        "description": "OpenCode Go subscription usage readout for the dsh web GUI: rolling (5h), weekly, and monthly usage windows with reset countdowns in the composer dock.",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "bundle",
+            "opencode",
+            "opencode-go",
+            "usage",
+            "subscription",
+            "composer-dock"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786879763,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fa29c5cf67d029e48717b5517be4ea161909d4b4cc37fc0a0e01ae2105af7f8a",
+      "evidence": [
+        {
+          "name": "dsh-ocgo-usage",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-ocgo-usage/-/dsh-ocgo-usage-0.1.1.tgz",
+          "integrity": "sha512-c26g0aWiObPEu9B8IjQbg/s2zIFkfG0Phm/WIKEKWB2qLWweJ98Zgpmo1XFLC02U2eYS2twXReq8vytKVQD28g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/v587d/dsh-opencode-go-usage",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ocgo-usage",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/v587d/dsh-opencode-go-usage",
+    "commit": "682a7872e6a3bf9313f08b9337319678b8a25895",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:34.667Z"
+}

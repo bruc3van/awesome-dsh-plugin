@@ -1,0 +1,147 @@
+{
+  "full_name": "WongYuYe/dsh-appshots",
+  "originalPosition": 113,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 113,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:54.489Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a8c8decf48ecb0052dd584477d668945d6b33f18d51a3dd4f9674e3a04bcae15",
+      "url": "https://github.com/WongYuYe/dsh-appshots/blob/41db2252958e7766a6053c4575a273c50db0cdc9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-appshots",
+          "command": "dsh plugin --profile desktop add dsh-appshots",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "f9d60ad7bdc59e29ef9ef1017b2e3eacca6339ff9ce6a9ea1d1750942655bd3e",
+      "url": "https://github.com/WongYuYe/dsh-appshots/blob/41db2252958e7766a6053c4575a273c50db0cdc9/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-appshots",
+          "command": "dsh plugin --profile desktop add dsh-appshots",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-appshots",
+      "version": "0.1.8",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WongYuYe/dsh-appshots",
+        "commit": "41db2252958e7766a6053c4575a273c50db0cdc9"
+      },
+      "manifestSha256": "958c42ed0010030ed87916dc2f04d80610db8dffce47a68a0445157702ebb5d5",
+      "manifestUrl": "https://github.com/WongYuYe/dsh-appshots/blob/41db2252958e7766a6053c4575a273c50db0cdc9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc.1 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-appshots",
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1789697099,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WongYuYe/dsh-appshots",
+              "commit": "41db2252958e7766a6053c4575a273c50db0cdc9"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-appshots",
+      "origin": "npm",
+      "name": "dsh-appshots",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-appshots",
+        "title": "dsh-appshots",
+        "description": "Codex-style window capture for DSH Desktop: press both Command/Ctrl keys (or the camera button) to grab the frontmost window on macOS or Windows, attach it to the current chat, and inject available window text as hidden context.",
+        "author": "WongYuYe",
+        "homepage": "https://github.com/WongYuYe/dsh-appshots#readme",
+        "repository": {
+          "url": "https://github.com/WongYuYe/dsh-appshots"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "appshots",
+            "screenshot",
+            "macos",
+            "windows"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.8",
+            "publishTimestamp": 1789697180,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1 <0.2.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ad2d6b4ab8415d316c1f28de8ef2e9f38ecb1cbc615199d6d52d686fe7bcfd1b",
+      "evidence": [
+        {
+          "name": "dsh-appshots",
+          "version": "0.1.8",
+          "tarball": "https://registry.npmjs.org/dsh-appshots/-/dsh-appshots-0.1.8.tgz",
+          "integrity": "sha512-vq+Cpqo/BQBIO6TCKeqlrwSMopH9j7QfIXdLHBtyqUYTWJtrxSLuEO2z2+LF8UKZX5QROi7uprHgcf/+nwlQHg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-appshots",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WongYuYe/dsh-appshots",
+    "commit": "41db2252958e7766a6053c4575a273c50db0cdc9",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:57.029Z"
+}

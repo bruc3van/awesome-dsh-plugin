@@ -1,0 +1,95 @@
+{
+  "full_name": "BeiZi6/dsh-opencodego-usage",
+  "originalPosition": 97,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 97,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:48.332Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b356bf214596bf08ab1bc2badcb4b37bee1f17a58c77db70177c903957a05871",
+      "url": "https://github.com/BeiZi6/dsh-opencodego-usage/blob/0990d71ccb0965c758b86a048a8a2614d082a14f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/BeiZi6/dsh-opencodego-usage",
+          "command": "dsh plugin --profile web add github:BeiZi6/dsh-opencodego-usage",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "213caa3163f4541da407f9ff165c3241ae7383b7a7ca7ff250a478b39f3d2373",
+      "url": "https://github.com/BeiZi6/dsh-opencodego-usage/blob/0990d71ccb0965c758b86a048a8a2614d082a14f/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/BeiZi6/dsh-opencodego-usage",
+          "command": "dsh plugin --profile web add github:BeiZi6/dsh-opencodego-usage",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-opencodego-usage",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BeiZi6/dsh-opencodego-usage",
+        "commit": "0990d71ccb0965c758b86a048a8a2614d082a14f"
+      },
+      "manifestSha256": "1bfab29170ee6ffcbdd8e89f4971882804d3ac1fd84db877f9a1fda9ce874aca",
+      "manifestUrl": "https://github.com/BeiZi6/dsh-opencodego-usage/blob/0990d71ccb0965c758b86a048a8a2614d082a14f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-opencodego-usage",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786725214,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BeiZi6/dsh-opencodego-usage",
+              "commit": "0990d71ccb0965c758b86a048a8a2614d082a14f"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/BeiZi6/dsh-opencodego-usage",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BeiZi6/dsh-opencodego-usage",
+    "commit": "0990d71ccb0965c758b86a048a8a2614d082a14f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:50.684Z"
+}

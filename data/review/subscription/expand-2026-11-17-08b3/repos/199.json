@@ -1,0 +1,142 @@
+{
+  "full_name": "PHoenixs57/deepseek-aix",
+  "originalPosition": 199,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 199,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:29.806Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "24594c2791c3c6a141cbf110b9d743ae351d5e4028088445fe677fb7e58ae3ed",
+      "url": "https://github.com/PHoenixs57/deepseek-aix/blob/d6e05492e9dae39a96de774abde6870aca0ced15/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8055f37f785e01617273dc26f4a7e173e56234411a41bdaf56a7dbe7bcbfbd86",
+      "url": "https://github.com/PHoenixs57/deepseek-aix/blob/d6e05492e9dae39a96de774abde6870aca0ced15/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-base",
+      "version": "0.1.0-rc.5",
+      "path": "packages/bundle/base",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PHoenixs57/deepseek-aix",
+        "commit": "d6e05492e9dae39a96de774abde6870aca0ced15",
+        "path": "packages/bundle/base"
+      },
+      "manifestSha256": "9199fac428e298444f7c111b0a96e77474ce48cbf8544e191b79b70a0dda197f",
+      "manifestUrl": "https://github.com/PHoenixs57/deepseek-aix/blob/d6e05492e9dae39a96de774abde6870aca0ced15/packages/bundle/base/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-base",
+        "versions": [
+          {
+            "version": "0.1.0-rc.5",
+            "publishTimestamp": 1787134456,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PHoenixs57/deepseek-aix",
+              "commit": "d6e05492e9dae39a96de774abde6870aca0ced15",
+              "path": "packages/bundle/base"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-headless",
+      "version": "0.1.0-rc.5",
+      "path": "packages/bundle/headless",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PHoenixs57/deepseek-aix",
+        "commit": "d6e05492e9dae39a96de774abde6870aca0ced15",
+        "path": "packages/bundle/headless"
+      },
+      "manifestSha256": "f4bacd6de47033457e083c63dd1c624fc63ac7510fbca9ed6786e7dad0340c42",
+      "manifestUrl": "https://github.com/PHoenixs57/deepseek-aix/blob/d6e05492e9dae39a96de774abde6870aca0ced15/packages/bundle/headless/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-headless",
+        "versions": [
+          {
+            "version": "0.1.0-rc.5",
+            "publishTimestamp": 1787134456,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PHoenixs57/deepseek-aix",
+              "commit": "d6e05492e9dae39a96de774abde6870aca0ced15",
+              "path": "packages/bundle/headless"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-web-app",
+      "version": "0.1.0-rc.5",
+      "path": "packages/bundle/web-app",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PHoenixs57/deepseek-aix",
+        "commit": "d6e05492e9dae39a96de774abde6870aca0ced15",
+        "path": "packages/bundle/web-app"
+      },
+      "manifestSha256": "0d87a71a4a9a0ba09fabdf578126adb2f890c3708d85f1f72fe4918ec40b2a54",
+      "manifestUrl": "https://github.com/PHoenixs57/deepseek-aix/blob/d6e05492e9dae39a96de774abde6870aca0ced15/packages/bundle/web-app/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-web-app",
+        "versions": [
+          {
+            "version": "0.1.0-rc.5",
+            "publishTimestamp": 1787134456,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PHoenixs57/deepseek-aix",
+              "commit": "d6e05492e9dae39a96de774abde6870aca0ced15",
+              "path": "packages/bundle/web-app"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PHoenixs57/deepseek-aix",
+    "commit": "d6e05492e9dae39a96de774abde6870aca0ced15",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:18:10.478Z"
+}
