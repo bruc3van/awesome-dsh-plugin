@@ -5,6 +5,7 @@ import { tmpdir } from 'node:os';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
+import { createHash } from 'node:crypto';
 
 const repo = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 async function fixture(t) {
@@ -12,7 +13,7 @@ async function fixture(t) {
   t.after(() => rm(root, { recursive: true, force: true }));
   await mkdir(resolve(root, 'scripts'));
   await cp(resolve(repo, 'data'), resolve(root, 'data'), { recursive: true });
-  for (const name of ['publish-npm-feed', 'validate-packages', 'validate-market-v2', 'market-v2', 'readme-install', 'market-pool', 'categories', 'markdown', 'validate-market-entries']) {
+  for (const name of ['publish-npm-feed', 'safe-market-catalog', 'render', 'star-anomaly', 'validate-packages', 'validate-market-v2', 'market-v2', 'readme-install', 'market-pool', 'categories', 'markdown', 'validate-market-entries']) {
     await cp(resolve(repo, `scripts/${name}.mjs`), resolve(root, `scripts/${name}.mjs`));
   }
   return root;
@@ -62,7 +63,7 @@ test('first publication, version bump and digest no-op', async (t) => {
   const first = await run(root, 'return {status:404,ok:false}');
   assert.equal(first.status, 0, first.stderr);
   assert.match(first.stdout, /MOCK_NPM_PUBLISH/);
-  assert.deepEqual((await readdir(resolve(root, 'dist-npm/data'))).sort(), ['market-v2.json', 'packages.json']);
+  assert.deepEqual((await readdir(resolve(root, 'dist-npm/data'))).sort(), ['market-catalog.json', 'market-v2.json', 'packages.json']);
   const manifest = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
   const doc = { 'dist-tags': { latest: manifest.version }, versions: { [manifest.version]: manifest } };
   const response = () => `return {ok:true,status:200,json:async()=>(${JSON.stringify(doc)})}`;
@@ -74,6 +75,33 @@ test('first publication, version bump and digest no-op', async (t) => {
   assert.equal(bump.status, 0, bump.stderr);
   const next = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
   assert.equal(next.version, manifest.version.replace(/\.0$/, '.1'));
+  const catalog = JSON.parse(await readFile(resolve(root, 'dist-npm/data/market-catalog.json'), 'utf8'));
+  const index = JSON.parse(await readFile(resolve(root, 'data/dsh-market-index.json'), 'utf8'));
+  assert.deepEqual(catalog.subscription, index);
+  assert.ok(catalog.entries.length > 1000);
+});
+
+test('a subscription-only publication changes the npm digest and retains its logos', async t => {
+  const root = await fixture(t);
+  const first = await run(root, 'return {status:404,ok:false}');
+  assert.equal(first.status, 0, first.stderr);
+  const manifest = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
+  const indexFile = resolve(root, 'data/dsh-market-index.json');
+  const index = JSON.parse(await readFile(indexFile, 'utf8'));
+  index.plugins[0].title.zh += ' 更新';
+  const raw = JSON.stringify(index);
+  await writeFile(indexFile, raw);
+  const reportFile = resolve(root, 'data/dsh-market-index.report.json');
+  const report = JSON.parse(await readFile(reportFile, 'utf8'));
+  report.indexSha256 = createHash('sha256').update(raw).digest('hex');
+  await writeFile(reportFile, JSON.stringify(report));
+  const doc = { 'dist-tags': { latest: manifest.version }, versions: { [manifest.version]: manifest } };
+  const next = await run(root, `return {ok:true,status:200,json:async()=>(${JSON.stringify(doc)})}`);
+  assert.equal(next.status, 0, next.stderr);
+  assert.match(next.stdout, /MOCK_NPM_PUBLISH/);
+  const catalog = JSON.parse(await readFile(resolve(root, 'dist-npm/data/market-catalog.json'), 'utf8'));
+  assert.deepEqual(catalog.subscription, index);
+  assert.equal(catalog.subscription.plugins[0].icon, index.plugins[0].icon);
 });
 
 test('an E409 version collision retries once with a bumped patch', async (t) => {

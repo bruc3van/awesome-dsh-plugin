@@ -80,3 +80,11 @@ Cloudflare Pages Function 读取 `market-release` 指向的不可变发布记录
 生成报告同时统计 DSH `0.2.1-rc.2`、`0.2.2-rc.1` 和 `0.2.2-rc.3` 的声明匹配覆盖，主目标是 `0.2.2-rc.3`。这不替代实机验证；缺少兼容范围仍按官方规则省略，不猜测补造范围。报告另列多版本条目和用途标签覆盖数量。
 
 可选的 `metadata.sortKeys.npm_weekly_downloads` 提供「npm 周下载量」排序，使用官方 npm `last-week` 统计窗口。按 [npm 官方批量接口约定](https://github.com/npm/registry/blob/main/docs/download-counts.md#bulk-queries)，无 scope 的包每批最多 128 个，带 scope 的包单独读取，请求之间至少间隔 1.5 秒以避免突发限流。只读取公共 npm 来源，不给 Git 或自定义 registry 包赋值；真实零值保留，读取失败省略并记录警告，不阻止安装来源已核实的索引发布。`npmDownloadEvidence` 记录包名、计数和统计起止日期。现有 `stars` 与 `repositoryUpdated` 排序键继续保留。
+
+## 安全市场的完整目录与订阅精选
+
+独立安全市场使用 npm 包里的 `data/market-catalog.json`（schema 3）。`scripts/safe-market-catalog.mjs` 在打包时复用完整目录的 `catalogRepositories` 规则，携带全部已审核仓库，以及已发布的整个 format-1 订阅索引，不再由原来 1000 条的社区 feed 决定展示范围。精选包含订阅里的所有插件，保留包身份、顺序、分类、关键词、Logo 和安装来源；全部目录按仓库计数，保留归档状态，并补充关联订阅包的检索词与图标。数量从当前数据生成，不固定为某个版本的数量。
+
+npm 打包核对订阅文件 SHA-256、报告数量和零读取失败；目录、订阅或 Logo 的变化均参与 npm 数据摘要。发布工作流在官方订阅发布完成后运行，再刷新两个 CDN 别名的新目录文件。原 `market-v2.json` 保持原协议供旧消费者使用。生成文件只进入 npm 包，不在 Git 中复制一份大型目录。
+
+本地运行 `node --test scripts/test-safe-market-catalog.mjs scripts/test-publish-npm-feed.mjs`；在安全市场项目运行 `node scripts/verify-upstream-catalog.mjs ../awesome-dsh-plugin` 可核对真实生成器与消费解析器的完整集合、分类、Logo 和固定安装目标。

@@ -23,9 +23,8 @@ test('bot mapping commits reach both publishers without relying on push events',
   const expansion = workflows.get('expand-subscription-mappings.yml')
   const v2 = workflows.get('refresh-market-v2.yml')
   assert.ok(v2.on.workflow_run.workflows.includes(expansion.name))
-  for (const file of ['refresh-host-market.yml', 'publish-npm-feed.yml']) {
-    assert.ok(workflows.get(file).on.workflow_run.workflows.includes(v2.name))
-  }
+  assert.ok(workflows.get('refresh-host-market.yml').on.workflow_run.workflows.includes(v2.name))
+  assert.ok(workflows.get('publish-npm-feed.yml').on.workflow_run.workflows.includes(workflows.get('refresh-host-market.yml').name))
   assert.ok(!expansion.on.workflow_run, 'expansion must not form a publication feedback loop')
 })
 
