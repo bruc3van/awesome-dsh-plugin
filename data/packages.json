@@ -22824,6 +22824,840 @@
         "健身跟练",
         "喝水提醒"
       ]
+    },
+    "xcisxc29/dsh-wechat": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "https://github.com/xcisxc29/dsh-wechat",
+          "source": "url:https://github.com/xcisxc29/dsh-wechat",
+          "command": "dsh plugin --profile desktop add https://github.com/xcisxc29/dsh-wechat"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "01men/ybkkasi": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/01men/ybkkasi",
+          "source": "github:01men/ybkkasi",
+          "command": "dsh plugin --profile web add github:01men/ybkkasi"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "a86582751/dsh-nexttavern": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-nexttavern",
+          "source": "npm:dsh-nexttavern",
+          "command": "dsh plugin --profile web add dsh-nexttavern"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "frostming/dsh-hongguo": {
+      "packages": [
+        {
+          "profile": "default",
+          "install": "https://github.com/frostming/dsh-hongguo",
+          "source": "github:frostming/dsh-hongguo",
+          "command": "dsh plugin add github:frostming/dsh-hongguo"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "wang1299/dsh-reforge": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-reforge@0.1.0-alpha.2",
+          "source": "npm:dsh-reforge@0.1.0-alpha.2",
+          "command": "dsh plugin --profile web add dsh-reforge@0.1.0-alpha.2"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "jiuaiwo/dsh-expert": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-expert",
+          "source": "npm:dsh-expert",
+          "command": "dsh plugin --profile web add dsh-expert"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "aa1355721445-lgtm/dsh-image-studio": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "https://github.com/aa1355721445-lgtm/dsh-image-studio",
+          "source": "url:https://github.com/aa1355721445-lgtm/dsh-image-studio",
+          "command": "dsh plugin --profile desktop add https://github.com/aa1355721445-lgtm/dsh-image-studio"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "mrzturn/dsh-switchman": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-switchman",
+          "source": "npm:dsh-switchman",
+          "command": "dsh plugin --profile web add dsh-switchman"
+        },
+        {
+          "profile": "desktop",
+          "install": "dsh-switchman",
+          "source": "npm:dsh-switchman",
+          "command": "dsh plugin --profile desktop add dsh-switchman"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "a961282799-crypto/dsh-island": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "dsh-island",
+          "source": "npm:dsh-island",
+          "command": "dsh plugin --profile desktop add dsh-island"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "nico-zhuang/dsh-nav-fold": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "https://github.com/nico-zhuang/dsh-nav-fold/releases/download/v0.4.22/dsh-nav-fold-0.4.22.tgz",
+          "source": "url:https://github.com/nico-zhuang/dsh-nav-fold/releases/download/v0.4.22/dsh-nav-fold-0.4.22.tgz",
+          "command": "dsh plugin --profile desktop add https://github.com/nico-zhuang/dsh-nav-fold/releases/download/v0.4.22/dsh-nav-fold-0.4.22.tgz"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "zslzxy/aitoubiaoling-bid-review": {
+      "packages": [
+        {
+          "profile": "headless",
+          "install": "https://github.com/zslzxy/aitoubiaoling-bid-review",
+          "source": "github:zslzxy/aitoubiaoling-bid-review",
+          "command": "dsh plugin --profile headless add github:zslzxy/aitoubiaoling-bid-review"
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/zslzxy/aitoubiaoling-bid-review",
+          "source": "github:zslzxy/aitoubiaoling-bid-review",
+          "command": "dsh plugin --profile web add github:zslzxy/aitoubiaoling-bid-review"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "luyanfcp/dsh-kicad": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/LuYanFCP/dsh-kicad",
+          "source": "url:https://github.com/LuYanFCP/dsh-kicad",
+          "command": "dsh plugin --profile web add https://github.com/LuYanFCP/dsh-kicad"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "zekaishi/dsh-evo-subagent": {
+      "packages": [
+        {
+          "profile": "default",
+          "install": "dsh-evo-subagent",
+          "source": "npm:dsh-evo-subagent",
+          "command": "dsh plugin add dsh-evo-subagent"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "lifangjin/dsh-paoding": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-paoding",
+          "source": "npm:dsh-paoding",
+          "command": "dsh plugin --profile web add dsh-paoding"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "achenjins/dsh-runninghub-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-runninghub-plugin",
+          "source": "npm:dsh-runninghub-plugin",
+          "command": "dsh plugin --profile web add dsh-runninghub-plugin"
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/achenjins/dsh-runninghub-plugin",
+          "source": "github:achenjins/dsh-runninghub-plugin",
+          "command": "dsh plugin --profile web add github:achenjins/dsh-runninghub-plugin"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "drqrts/dsh-cds-mode": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/DRQRTS/dsh-cds-mode",
+          "source": "url:https://github.com/DRQRTS/dsh-cds-mode",
+          "command": "dsh plugin --profile web add https://github.com/DRQRTS/dsh-cds-mode"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "openvulcan/dsh-vulcancode": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@openvulcan/dsh-vulcancode",
+          "source": "npm:@openvulcan/dsh-vulcancode",
+          "command": "dsh plugin --profile web add @openvulcan/dsh-vulcancode"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "northgatechat/dsh-think-game": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "https://github.com/NorthGateChat/dsh-think-game",
+          "source": "github:NorthGateChat/dsh-think-game",
+          "command": "dsh plugin --profile desktop add github:NorthGateChat/dsh-think-game"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "liangdabiao/dsh-amazon-image-studio": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/liangdabiao/dsh-amazon-image-studio",
+          "source": "url:https://github.com/liangdabiao/dsh-amazon-image-studio",
+          "command": "dsh plugin --profile web add https://github.com/liangdabiao/dsh-amazon-image-studio"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "chenqianyu486-sys/dsh-zju-lecture-note": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "dsh-zju-lecture-note",
+          "source": "npm:dsh-zju-lecture-note",
+          "command": "dsh plugin --profile desktop add dsh-zju-lecture-note"
+        },
+        {
+          "profile": "desktop",
+          "install": "https://github.com/chenqianyu486-sys/dsh-zju-lecture-note",
+          "source": "github:chenqianyu486-sys/dsh-zju-lecture-note",
+          "command": "dsh plugin --profile desktop add github:chenqianyu486-sys/dsh-zju-lecture-note"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "green-dalii/dsh-shift-router": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-shift-router",
+          "source": "npm:dsh-shift-router",
+          "command": "dsh plugin --profile web add dsh-shift-router"
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/green-dalii/dsh-shift-router#v0.8.0",
+          "source": "github:green-dalii/dsh-shift-router#v0.8.0",
+          "command": "dsh plugin --profile web add github:green-dalii/dsh-shift-router#v0.8.0"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "dsh-ssh/dsh-ssh": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@dsh-ssh/dsh-ssh",
+          "source": "npm:@dsh-ssh/dsh-ssh",
+          "command": "dsh plugin --profile web add @dsh-ssh/dsh-ssh"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "haoyanzhang123/dsh-plugin-control-your-capture": {
+      "packages": [
+        {
+          "profile": "default",
+          "install": "dsh-plugin-control-your-capture",
+          "source": "npm:dsh-plugin-control-your-capture",
+          "command": "dsh plugin add dsh-plugin-control-your-capture"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "1373700184/dsh-subagent": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/1373700184/dsh-subagent",
+          "source": "github:1373700184/dsh-subagent",
+          "command": "dsh plugin --profile web add github:1373700184/dsh-subagent"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@master + npm registry"
+    },
+    "louifinn/dsh-tower": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-tower",
+          "source": "npm:dsh-tower",
+          "command": "dsh plugin --profile web add dsh-tower"
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/louifinn/dsh-tower",
+          "source": "github:louifinn/dsh-tower",
+          "command": "dsh plugin --profile web add github:louifinn/dsh-tower"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "ycet/dsh-awesome-hud": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-awesome-hud@0.21.1",
+          "source": "npm:dsh-awesome-hud@0.21.1",
+          "command": "dsh plugin --profile web add dsh-awesome-hud@0.21.1"
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/Ycet/dsh-awesome-hud#v0.21.1",
+          "source": "github:Ycet/dsh-awesome-hud#v0.21.1",
+          "command": "dsh plugin --profile web add \"github:Ycet/dsh-awesome-hud#v0.21.1\""
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/Ycet/dsh-awesome-hud/releases/download/v0.21.1/dsh-awesome-hud-0.21.1.tgz",
+          "source": "url:https://github.com/Ycet/dsh-awesome-hud/releases/download/v0.21.1/dsh-awesome-hud-0.21.1.tgz",
+          "command": "dsh plugin --profile web add \"https://github.com/Ycet/dsh-awesome-hud/releases/download/v0.21.1/dsh-awesome-hud-0.21.1.tgz\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "xialermoies/dsh-prompt-easymanager": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/XialerMoies/dsh-prompt-easymanager#v0.3.9",
+          "source": "github:XialerMoies/dsh-prompt-easymanager#v0.3.9",
+          "command": "dsh plugin --profile web add github:XialerMoies/dsh-prompt-easymanager#v0.3.9"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "yusaltyfish/dsh-bongo-fish": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/YUsaltyfish/dsh-bongo-fish",
+          "source": "github:YUsaltyfish/dsh-bongo-fish",
+          "command": "dsh plugin --profile web add github:YUsaltyfish/dsh-bongo-fish"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "pasumao/dsh-plugin-dev-kb": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-plugin-dev-kb",
+          "source": "npm:dsh-plugin-dev-kb",
+          "command": "dsh plugin --profile web add dsh-plugin-dev-kb"
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/Pasumao/dsh-plugin-dev-kb",
+          "source": "github:Pasumao/dsh-plugin-dev-kb",
+          "command": "dsh plugin --profile web add github:Pasumao/dsh-plugin-dev-kb"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "himleoing/dsh-progress": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@himleoing/dsh-progress@0.1.1-rc3",
+          "source": "npm:@himleoing/dsh-progress@0.1.1-rc3",
+          "command": "dsh plugin --profile web add \"@himleoing/dsh-progress@0.1.1-rc3\""
+        },
+        {
+          "profile": "web",
+          "install": "https://github.com/HimLeoing/dsh-progress#v0.1.1-rc3",
+          "source": "github:HimLeoing/dsh-progress#v0.1.1-rc3",
+          "command": "dsh plugin --profile web add \"github:HimLeoing/dsh-progress#v0.1.1-rc3\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "shyuan-hub/dsh-compact-button": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-compact-button@latest",
+          "source": "npm:dsh-compact-button@latest",
+          "command": "dsh plugin --profile web add dsh-compact-button@latest"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "neomei/dsh-roundtable": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "https://github.com/NeoMei/dsh-roundtable",
+          "source": "github:NeoMei/dsh-roundtable",
+          "command": "dsh plugin --profile desktop add github:NeoMei/dsh-roundtable"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "keer1024/dsh-native": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/keer1024/dsh-native#path:/packages/dsh-rust-exec",
+          "source": "github:keer1024/dsh-native#path:/packages/dsh-rust-exec",
+          "command": "dsh plugin --profile web add github:keer1024/dsh-native#path:/packages/dsh-rust-exec"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "ds-hu/dsh-acp-paseo": {
+      "packages": [
+        {
+          "profile": "acp-plus",
+          "install": "@ds-hu/dsh-acp-plus",
+          "source": "npm:@ds-hu/dsh-acp-plus",
+          "command": "dsh plugin --profile acp-plus add @ds-hu/dsh-acp-plus"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "heathhe/dsh-worktree-panel": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-worktree-panel",
+          "source": "npm:dsh-worktree-panel",
+          "command": "dsh plugin --profile web add dsh-worktree-panel"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "jiezeng2004-design/dsh-chatgpt-bridge": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-chatgpt-bridge@0.6.0",
+          "source": "npm:dsh-chatgpt-bridge@0.6.0",
+          "command": "dsh plugin --profile web add dsh-chatgpt-bridge@0.6.0"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "gxx182/dsh-vision-bridge": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry",
+      "install_mode": "manual",
+      "manual_instructions": "README 以 github:GXX182/dsh-vision-bridge#semver:* 形态文档化安装（semver 通配 ref），不在粘贴安全白名单内；请按上游 README 现行说明安装。"
+    },
+    "zhang787jun/dsh-finance": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/zhang787jun/dsh-finance",
+          "source": "github:zhang787jun/dsh-finance",
+          "command": "dsh plugin --profile web add github:zhang787jun/dsh-finance"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "mengzhongjie/dsh-superagent-local": {
+      "packages": [
+        {
+          "profile": "default",
+          "install": "https://github.com/mengzhongjie/dsh-superagent-local",
+          "source": "github:mengzhongjie/dsh-superagent-local",
+          "command": "dsh plugin add github:mengzhongjie/dsh-superagent-local"
+        },
+        {
+          "profile": "default",
+          "install": "https://github.com/mengzhongjie/dsh-superagent-local/releases/download/v0.2.1/dsh-superagent-0.2.1.tgz",
+          "source": "url:https://github.com/mengzhongjie/dsh-superagent-local/releases/download/v0.2.1/dsh-superagent-0.2.1.tgz",
+          "command": "dsh plugin add https://github.com/mengzhongjie/dsh-superagent-local/releases/download/v0.2.1/dsh-superagent-0.2.1.tgz"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "whning0513/awesome-deepseek-skills": {
+      "packages": [
+        {
+          "profile": "demo",
+          "install": "https://github.com/Whning0513/awesome-deepseek-skills",
+          "source": "github:Whning0513/awesome-deepseek-skills",
+          "command": "dsh plugin --profile demo add github:Whning0513/awesome-deepseek-skills"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "zbzbhs/dsh-remote-agent": {
+      "packages": [
+        {
+          "profile": "default",
+          "install": "https://github.com/zbzbhs/dsh-remote-agent",
+          "source": "github:zbzbhs/dsh-remote-agent",
+          "command": "dsh plugin add github:zbzbhs/dsh-remote-agent"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "martindelophy/dsh-timeline-studio-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/MartinDelophy/dsh-timeline-studio-plugin#main",
+          "source": "github:MartinDelophy/dsh-timeline-studio-plugin#main",
+          "command": "dsh plugin --profile web add \"github:MartinDelophy/dsh-timeline-studio-plugin#main\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "ljy-yl/dsh-workbuddy-connect": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-workbuddy-connect@0.7.9",
+          "source": "npm:dsh-workbuddy-connect@0.7.9",
+          "command": "dsh plugin --profile web add dsh-workbuddy-connect@0.7.9"
+        },
+        {
+          "profile": "dsh-tui",
+          "install": "dsh-workbuddy-connect@0.6.5",
+          "source": "npm:dsh-workbuddy-connect@0.6.5",
+          "command": "dsh plugin --profile dsh-tui add dsh-workbuddy-connect@0.6.5"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "pm25000/dsh-ths-holdings": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-ths-holdings",
+          "source": "npm:dsh-ths-holdings",
+          "command": "dsh plugin --profile web add dsh-ths-holdings"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@master + npm registry"
+    },
+    "fbbdirge/dsh-xiaoheihe": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/fbbDirge/dsh-xiaoheihe",
+          "source": "github:fbbDirge/dsh-xiaoheihe",
+          "command": "dsh plugin --profile web add github:fbbDirge/dsh-xiaoheihe"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "duyanta123/dsh-data-insight": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "https://github.com/duyanta123/dsh-data-insight#v0.1.7",
+          "source": "github:duyanta123/dsh-data-insight#v0.1.7",
+          "command": "dsh plugin --profile web add \"github:duyanta123/dsh-data-insight#v0.1.7\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "ding112/moneypal": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-moneypal",
+          "source": "npm:dsh-moneypal",
+          "command": "dsh plugin --profile web add dsh-moneypal"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "xia28zhi/dsh-douyin-scroll": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "https://github.com/Xia28zhi/dsh-douyin-scroll",
+          "source": "github:Xia28zhi/dsh-douyin-scroll",
+          "command": "dsh plugin --profile desktop add github:Xia28zhi/dsh-douyin-scroll"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "aa1355721445-lgtm/dsh-daily-schedule": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "install": "https://github.com/aa1355721445-lgtm/dsh-daily-schedule",
+          "source": "url:https://github.com/aa1355721445-lgtm/dsh-daily-schedule",
+          "command": "dsh plugin --profile desktop add https://github.com/aa1355721445-lgtm/dsh-daily-schedule"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "jorinyang/dsh-doctor": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@jorinyang/dsh-doctor",
+          "source": "npm:@jorinyang/dsh-doctor",
+          "command": "dsh plugin --profile web add @jorinyang/dsh-doctor"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "kaiji-z/dsh-plugin-stardeck": {
+      "packages": [
+        {
+          "profile": "default",
+          "install": "dsh-plugin-stardeck",
+          "source": "npm:dsh-plugin-stardeck",
+          "command": "dsh plugin add dsh-plugin-stardeck"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "lznnnnn1998/dsh-artcraft": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-artcraft-plugin-gridcraft",
+          "source": "npm:dsh-artcraft-plugin-gridcraft",
+          "command": "dsh plugin --profile web add dsh-artcraft-plugin-gridcraft"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "antonio-mastropaolo/dsh-model-hub": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-model-hub",
+          "source": "npm:dsh-model-hub",
+          "command": "dsh plugin --profile web add -w dsh-model-hub"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "epsirom/braid": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@chrok/dsh-braid",
+          "source": "npm:@chrok/dsh-braid",
+          "command": "dsh plugin --profile web add @chrok/dsh-braid"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "jeremy9682/dsh-cursor-codex": {
+      "packages": [
+        {
+          "profile": "acp",
+          "install": "@jeremy9682/dsh-acp",
+          "source": "npm:@jeremy9682/dsh-acp",
+          "command": "dsh plugin --profile acp add @jeremy9682/dsh-acp"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "goodandready/dsh-agent-loop-guard": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@goodandready/dsh-agent-loop-guard",
+          "source": "npm:@goodandready/dsh-agent-loop-guard",
+          "command": "dsh plugin --profile web add @goodandready/dsh-agent-loop-guard"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "pzchenhui/teacher-workbench": {
+      "packages": [
+        {
+          "profile": "default",
+          "install": "@pzchenhui/dsh-extension-tai-teacher-workbench",
+          "source": "npm:@pzchenhui/dsh-extension-tai-teacher-workbench",
+          "command": "dsh plugin add @pzchenhui/dsh-extension-tai-teacher-workbench"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "alice-marx/dsh-boot-animation": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@ljwei-stak/dsh-boot-animation@0.6.6",
+          "source": "npm:@ljwei-stak/dsh-boot-animation@0.6.6",
+          "command": "dsh plugin --profile web add @ljwei-stak/dsh-boot-animation@0.6.6 --save-exact"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
+    },
+    "goodandready/dsh-gitea": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@goodandready/dsh-gitea",
+          "source": "npm:@goodandready/dsh-gitea",
+          "command": "dsh plugin --profile web add @goodandready/dsh-gitea"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-17",
+      "verified_via": "README@main + npm registry"
     }
   }
 }
