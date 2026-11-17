@@ -25404,8 +25404,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLmlofmuIrpmIEiPgogIDwhLS0g6YeN5qqQ77yI5LiK5bGC5bGL6aG277yJIC0tPgogIDxwYXRoIGQ9Ik01IDhsNy00IDcgNCIgLz4KICA8cGF0aCBkPSJNNyAxMWgxMCIgLz4KICA8IS0tIOWHuuaqkO+8iOS4i+WxguWxi+aqkO+8iSAtLT4KICA8cGF0aCBkPSJNNCAxNGgxNiIgLz4KICA8IS0tIOeri+afse+8iOS4ieW8gOmXtO+8iSAtLT4KICA8cGF0aCBkPSJNOSAxNHYzIiAvPgogIDxwYXRoIGQ9Ik0xNSAxNHYzIiAvPgogIDwhLS0g5riK5rC077yI5bqV6YOo5rOi57q577yJIC0tPgogIDxwYXRoIGQ9Ik00IDIwYzIuNS0xLjUgNS41LTEuNSA4IDBzNS41IDEuNSA4IDAiIC8+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "0.4.114",
-          "publishTimestamp": 1794845550,
+          "version": "0.4.116",
+          "publishTimestamp": 1794879309,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -31020,12 +31020,12 @@
       },
       "versions": [
         {
-          "version": "0.3.14",
-          "publishTimestamp": 1794802050,
+          "version": "0.3.15",
+          "publishTimestamp": 1794874577,
           "source": {
             "type": "git",
             "url": "https://github.com/islibaodong/dsh-login",
-            "commit": "c782a0fb5fa12e2adc380221658e382adab7b21a"
+            "commit": "b001a5bca6a13d3e8f1ae37c95f7f3b4c368d333"
           },
           "engines": {
             "dsh": ">=0.1.5-alpha.1 <0.2.0-0 || >=0.1.6-alpha.1 <0.2.0-0 || >=0.1.7-alpha.2 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0 || >=0.2.1-alpha.1 <0.3.0-0 || >=0.2.2-alpha.2 <0.3.0-0"
@@ -31301,7 +31301,8 @@
         ],
         "sortKeys": {
           "stars": 24,
-          "repositoryUpdated": 1794845991
+          "repositoryUpdated": 1794845991,
+          "npm_weekly_downloads": 332
         }
       },
       "versions": [
@@ -61255,7 +61256,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 10,
