@@ -6,11 +6,12 @@
 // published to npmjs.org and mirrors over within minutes; consumers behind
 // the GFW fetch from npmmirror instead of raw.githubusercontent.com.
 //
-// Package contents: data/market-v2.json (current feed with install targets)
-// and data/packages.json (the hand-maintained mapping). Versioning is calver 0.YYYYMMDD.N — one data snapshot per day,
+// Package contents: legacy market-v2, install mappings, and market-catalog
+// (complete reviewed repositories plus the published subscription).
+// Versioning is calver 0.YYYYMMDD.N — one data snapshot per day,
 // patch bumps for intraday republications.
 //
-// Idempotency: the data digest (sha256 over the two files) rides along as
+// Idempotency: the data digest (sha256 over all three files) rides along as
 // a `feedDigest` field in package.json. Before publishing, the registry's
 // latest version is checked — same digest means nothing changed and the run
 // is a no-op, so the daily workflow hook never piles up empty versions.
@@ -20,6 +21,7 @@ import { spawnSync } from 'node:child_process';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { readSafeMarketCatalog } from './safe-market-catalog.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLISH = process.argv.includes('--publish');
@@ -33,8 +35,9 @@ for (const script of ['validate-packages.mjs', 'validate-market-v2.mjs']) {
   if (result.status !== 0) process.exit(result.status ?? 1);
 }
 
-const files = ['data/market-v2.json', 'data/packages.json'];
-const reads = await Promise.all(files.map((f) => readFile(resolve(root, f), 'utf8')));
+const files = ['data/market-v2.json', 'data/packages.json', 'data/market-catalog.json'];
+const reads = await Promise.all(files.slice(0, 2).map((f) => readFile(resolve(root, f), 'utf8')));
+reads.push(`${JSON.stringify(await readSafeMarketCatalog(new URL('../', import.meta.url)))}\n`);
 const digest = createHash('sha256').update(reads.join('\n')).digest('hex');
 
 const v2 = JSON.parse(reads[0]);
@@ -120,7 +123,8 @@ async function writeReadme(version) {
     '| File | What it is |',
     '| --- | --- |',
     '| `data/market-v2.json` | Current feed (schema 2) — mapped entries carry a `packages` block with `install` (paste-ready into the official 插件→添加插件 box: npm name or repo URL), `command`, requirements and verification |',
-    '| `data/packages.json` | the hand-maintained install-target source of truth (includes entries outside the 600-entry feed) |',
+    '| `data/market-catalog.json` | Complete reviewed repository catalog (schema 3) plus every published official subscription plugin and its discovery categories. Counts follow the source data automatically. |',
+    '| `data/packages.json` | the hand-maintained install-target source of truth, including entries outside the legacy shortlist |',
     '',
     '## Fetching',
     '',

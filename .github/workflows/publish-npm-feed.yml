@@ -6,7 +6,7 @@ name: Publish the feed to npm (mirrored by npmmirror)
 # awesome-dsh-plugin-feed npm package. Consumers fetch
 # https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-v2.json
 #
-# Runs only after the market generation has completed successfully and
+# Runs after the official subscription publication has completed successfully and
 # can be triggered manually. The publish script's feedDigest gate makes this
 # idempotent: same data = no-op without burning a version. Publishing uses
 # npm Trusted Publishing (OIDC). After the first authenticated local release,
@@ -16,10 +16,17 @@ name: Publish the feed to npm (mirrored by npmmirror)
 on:
   workflow_run:
     workflows:
-      - 'Refresh the v2 market feed'
+      - 'Refresh the official DSH market index'
     types:
       - completed
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/safe-market-catalog.mjs'
+      - 'scripts/publish-npm-feed.mjs'
+      - 'scripts/test-safe-market-catalog.mjs'
+      - '.github/workflows/publish-npm-feed.yml'
 
 permissions:
   contents: read
@@ -49,7 +56,7 @@ jobs:
       - name: Install npm with Trusted Publishing support
         run: npm install --global npm@11.15.0
       - name: Run feed publication and extraction regression tests
-        run: node --test scripts/test-publish-npm-feed.mjs scripts/test-readme-install.mjs scripts/test-market-v2.mjs
+        run: node --test scripts/test-publish-npm-feed.mjs scripts/test-readme-install.mjs scripts/test-market-v2.mjs scripts/test-safe-market-catalog.mjs
       # The script itself decides whether anything needs publishing: same
       # feedDigest as the registry's latest version → "nothing to do", exit 0.
       - name: Build and publish the feed package
@@ -59,4 +66,5 @@ jobs:
         run: |
           for feed_alias in awesome-dsh-plugin-feed@latest awesome-dsh-plugin-feed; do
             curl --fail --silent --show-error "https://purge.jsdelivr.net/npm/$feed_alias/data/market-v2.json"
+            curl --fail --silent --show-error "https://purge.jsdelivr.net/npm/$feed_alias/data/market-catalog.json"
           done
