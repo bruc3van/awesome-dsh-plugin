@@ -23262,6 +23262,29 @@
       "status": "readme-verified",
       "verified_date": "2026-11-16",
       "verified_via": "README + npm registry"
+    },
+    "realroc/dsh-pet-workout": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-pet-workout",
+          "source": "npm:dsh-pet-workout",
+          "command": "dsh plugin --profile web add dsh-pet-workout"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-16",
+      "verified_via": "README@main + npm registry",
+      "requirements": [
+        "需要先装 dsh-pet 0.4.8 及以上（dsh plugin --profile web add dsh-pet）；本插件不带宠物，只通过 dsh-pet 的 HTTP 接口指挥它。",
+        "Node.js 22+。",
+        "喝水提醒按键鼠空闲判断人在不在：macOS / Windows 自带，Linux 需要安装 xprintidle（没有就当人一直在）。"
+      ],
+      "tasks": [
+        "桌面宠物",
+        "健身跟练",
+        "喝水提醒"
+      ]
     }
   }
 }
