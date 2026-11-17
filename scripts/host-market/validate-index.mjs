@@ -34,7 +34,7 @@ function fail(message) {
 assertPublishable({ index, indexBytes: Buffer.byteLength(indexText, 'utf8'), fetchFailures: report.fetchFailures, featuredRepositoryCount: report.summary.featuredRepositories, expectedFeaturedRepositoryCount: featured.expected_repository_count })
 
 if (index.plugins.length > MAX_PLUGINS)
-  fail(`index contains ${index.plugins.length} plugins, cap is ${MAX_PLUGINS}`)
+  fail(`index contains ${index.plugins.length} plugins, sanity ceiling is ${MAX_PLUGINS}`)
 if (report.included !== index.plugins.length)
   fail(`report included=${report.included}, index plugins=${index.plugins.length}`)
 if (report.indexSha256 !== createHash('sha256').update(indexText).digest('hex'))
@@ -90,7 +90,7 @@ for (const plugin of index.plugins) {
 }
 
 console.log(
-  `Index policy OK: ${index.plugins.length}/${MAX_PLUGINS} plugins, ` +
+  `Index policy OK: ${index.plugins.length} plugins within the gateway byte budget (${Buffer.byteLength(indexText, 'utf8')} bytes), ` +
     `report hash matches, stars are non-increasing, no blacklisted package sources` +
     (report.selection
       ? `, ${report.selection.droppedByLimit} verified plugins beyond the cap`

@@ -1,6 +1,6 @@
-name: Expand subscription mappings toward 2000
+name: Expand subscription mappings
 
-# While the published Discover index is below the 2000-plugin cap, keep turning
+# Keep turning
 # already audited eligible sources — and fresh batches of unmapped high-star
 # repos — into new packages.json entries. Runs every three hours, three batches
 # per run (each batch is its own evidence dir under data/review/subscription/):
@@ -8,7 +8,8 @@ name: Expand subscription mappings toward 2000
 # templates) are remembered so every batch digs into fresh repositories instead
 # of re-probing yesterday's answers. Existing keys are never rewritten.
 # Identity-opaque npm packages go to mapping-pending.md for AI review. The cap
-# gate self-terminates the expansion once the published index reaches 2000.
+# mapping evidence into data/packages.json while the gateway byte budget has
+# room; batches self-terminate when nothing new maps.
 # refresh-market-v2 and refresh-host-market then follow via workflow_run
 # (bot pushes do not trigger push).
 
@@ -45,8 +46,8 @@ jobs:
           from pathlib import Path
           index = json.loads(Path('data/dsh-market-index.json').read_text())
           count = len(index.get('plugins') or [])
-          need = count < 2000
-          print(f'published_plugins={count} cap=2000 need={need}')
+          print(f'published_plugins={count} cap=index byte budget (5 MiB gateway)')
+          out.write('need=true\n')
           with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as out:
               out.write(f'need={str(need).lower()}\ncount={count}\n')
           PY

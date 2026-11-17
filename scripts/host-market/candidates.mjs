@@ -64,7 +64,7 @@ export function buildCandidates({ market, snapshot, curated, approved, packages 
       outsideDirectoryWithoutMapping: pending.length,
       pendingPreview: pending.slice(0, 200),
       pendingPreviewLimit: 200,
-      note: `Missing mappings are pending evidence, not incompatibility. Every candidate is source-verified before the final top-${MAX_PLUGINS}-by-stars selection; repository and package counts differ.`,
+      note: `Missing mappings are pending evidence, not incompatibility. Every candidate is source-verified before the final size-budget selection; repository and package counts differ.`,
     },
   }
 }

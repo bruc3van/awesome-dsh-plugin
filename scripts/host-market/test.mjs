@@ -9,6 +9,7 @@ import {
   npmTarget,
   projectPackage,
   selectTopPlugins,
+  trimIndexToBudget,
 } from './generate.mjs'
 import { MAX_PLUGINS } from './policy.mjs'
 import {
@@ -178,7 +179,7 @@ test('publication preserves existing data on network failure, empty output or a 
   )
   assert.throws(
     () => assertPublishable({ index: index(MAX_PLUGINS + 1) }),
-    /published cap/,
+    /sanity ceiling/,
   )
   assert.throws(
     () => assertPublishable({ index: index(10), indexBytes: 5 * 1024 * 1024 + 1 }),
@@ -322,6 +323,66 @@ test('selection caps only after verification and keeps the highest-star plugins'
   assert.equal(selection.cutoffStars, 5)
   assert.equal(selection.plugins[0].name, `plugin-${String(MAX_PLUGINS + 4).padStart(3, '0')}`)
   assert.equal(selection.plugins.at(-1).name, 'plugin-005')
+})
+
+test('byte-budget trim drops the lowest-starred non-featured plugins first', () => {
+  const makePlugin = (name, stars, repo, filler) => ({
+    name,
+    description: filler.repeat(120),
+  })
+  const plugins = [
+    makePlugin('huge-top', 900, 'owner/huge-top', 'x'),
+    makePlugin('mid-a', 500, 'owner/mid-a', 'y'),
+    makePlugin('mid-b', 400, 'owner/mid-b', 'z'),
+    makePlugin('low-tail', 10, 'owner/low-tail', 'w'),
+    makePlugin('featured-low', 5, 'owner/featured-low', 'f'),
+  ]
+  const ranks = new Map(
+    plugins.map((plugin) => [plugin.name, { stars: 0, repo: '' }]),
+  )
+  for (const plugin of plugins) ranks.set(plugin.name, {
+    stars: plugin.description ? { 'huge-top': 900, 'mid-a': 500, 'mid-b': 400, 'low-tail': 10, 'featured-low': 5 }[plugin.name] : -1,
+    repo: plugin.name.replace(/^[^/]*/, 'owner').replace('owner-', 'owner/').replace(/^owner\//, ''),
+  })
+  // build ranks explicitly to keep the test readable
+  ranks.set('huge-top', { stars: 900, repo: 'owner/huge-top' })
+  ranks.set('mid-a', { stars: 500, repo: 'owner/mid-a' })
+  ranks.set('mid-b', { stars: 400, repo: 'owner/mid-b' })
+  ranks.set('low-tail', { stars: 10, repo: 'owner/low-tail' })
+  ranks.set('featured-low', { stars: 5, repo: 'owner/featured-low' })
+  const featured = new Set(['owner/featured-low'])
+  const index = { format: 1, plugins }
+  const text = JSON.stringify(index, null, 2) + '\n'
+  const target = Math.floor(text.length * 0.7)
+  const trimmed = trimIndexToBudget(index, text, ranks, featured, target)
+  assert.ok(trimmed.dropped > 0, 'trim must drop at least one plugin')
+  assert.ok(Buffer.byteLength(trimmed.text) <= target, 'trimmed text must fit the budget')
+  const names = trimmed.index.plugins.map((p) => p.name)
+  assert.ok(!names.includes('low-tail'), 'lowest-starred non-featured plugin drops first')
+  assert.ok(names.includes('huge-top'), 'highest-starred plugin survives')
+  assert.ok(names.includes('featured-low'), 'featured plugin survives the budget trim')
+})
+
+test('byte-budget trim keeps featured entries when only they remain', () => {
+  const plugins = [
+    { name: 'solo', description: 'x'.repeat(400) },
+  ]
+  const ranks = new Map([['solo', { stars: 1, repo: 'owner/solo' }]])
+  const index = { format: 1, plugins }
+  const text = JSON.stringify(index, null, 2) + '\n'
+  const trimmed = trimIndexToBudget(index, text, ranks, new Set(['owner/solo']), 100)
+  assert.equal(trimmed.dropped, 0)
+  assert.equal(trimmed.index.plugins.length, 1)
+})
+
+test('byte-budget trim is a no-op when the text already fits', () => {
+  const plugins = [{ name: 'a', description: 'small' }]
+  const ranks = new Map([['a', { stars: 3, repo: 'owner/a' }]])
+  const index = { format: 1, plugins }
+  const text = JSON.stringify(index, null, 2) + '\n'
+  const trimmed = trimIndexToBudget(index, text, ranks, new Set(), 1024 * 1024)
+  assert.equal(trimmed.dropped, 0)
+  assert.equal(trimmed.text, text)
 })
 
 test('featured plugins stay in the selection even when they rank below the star cap', () => {

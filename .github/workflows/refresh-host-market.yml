@@ -110,7 +110,7 @@ jobs:
               payloads.append(path.read_bytes())
           index, report = map(json.loads, payloads)
           hashes = [hashlib.sha256(body).hexdigest() for body in payloads]
-          if report['indexSha256'] != hashes[0] or report['fetchFailures'] != 0 or not 0 < len(index['plugins']) <= 2000 or report['included'] != len(index['plugins']):
+          if report['indexSha256'] != hashes[0] or report['fetchFailures'] != 0 or not 0 < len(index['plugins']) <= 20000 or report['included'] != len(index['plugins']):
               raise SystemExit('Artifact consistency check failed')
           for name, body in zip(names, payloads):
               (Path('data') / name).write_bytes(body)

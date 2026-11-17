@@ -13,7 +13,7 @@ import { verifyNpmPlugin } from './npm.mjs'
 import { classifyTarget, readGitTarget } from './git.mjs'
 import { blockedPluginRepository } from './repository-policy.mjs'
 import { isBundle, isPrivate, dshRange } from './vendor/packages.ts'
-import { assertPublishable, MAX_PLUGINS, SELECTION_POLICY } from './policy.mjs'
+import { assertPublishable, MAX_PLUGINS, SELECTION_POLICY, INDEX_TARGET_BYTES } from './policy.mjs'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
 
 const REGISTRY = 'https://registry.npmjs.org/'
@@ -58,7 +58,9 @@ export function npmTarget(spec) {
   return { name: match[1], selector }
 }
 
-/** Rank verified plugins by repository stars, then cap the published selection. */
+/** Rank verified plugins by repository stars, then cap the published selection.
+ * `max` is a sanity ceiling only — the binding limit is the serialized byte
+ * budget applied by {@link trimIndexToBudget} after presentation/icon work. */
 export function selectTopPlugins(plugins, ranks, max = MAX_PLUGINS, featured = new Set()) {
   const compareText = (a, b) => (a < b ? -1 : a > b ? 1 : 0)
   const rankOf = (plugin) => ranks.get(plugin.name) ?? { stars: -1, repo: '' }
@@ -88,6 +90,35 @@ export function selectTopPlugins(plugins, ranks, max = MAX_PLUGINS, featured = n
     droppedByLimit: Math.max(0, ordered.length - selected.length),
     cutoffStars: last ? (rankOf(last).stars ?? -1) : null,
   }
+}
+
+/** Trim the serialized index down to the gateway byte budget: drop the
+ * lowest-starred, non-featured plugins one at a time (same stable order as
+ * selection) and re-serialize until the text fits. Featured entries survive
+ * unless nothing else remains; `dropped` feeds the selection report. */
+export function trimIndexToBudget(index, text, ranks, featured, targetBytes = INDEX_TARGET_BYTES) {
+  if (Buffer.byteLength(text) <= targetBytes) return { index, text, dropped: 0 }
+  const compareText = (a, b) => (a < b ? -1 : a > b ? 1 : 0)
+  const rankOf = (name) => ranks.get(name) ?? { stars: -1, repo: '' }
+  const featuredRepos = new Set(
+    [...featured].map((name) => String(name).toLowerCase()),
+  )
+  const isFeatured = (plugin) => featuredRepos.has(rankOf(plugin.name).repo.toLowerCase())
+  let current = index
+  let currentText = text
+  let dropped = 0
+  while (Buffer.byteLength(currentText) > targetBytes && current.plugins.length > 0) {
+    const pool = current.plugins.filter((plugin) => !isFeatured(plugin))
+    if (pool.length === 0) break
+    const victim = [...pool].sort((x, y) => {
+      const a = rankOf(x.name), b = rankOf(y.name)
+      return a.stars - b.stars || compareText(a.repo, b.repo) || compareText(x.name, y.name)
+    })[0]
+    current = { ...current, plugins: current.plugins.filter((plugin) => plugin !== victim) }
+    currentText = JSON.stringify(current, null, 2) + '\n'
+    dropped++
+  }
+  return { index: current, text: currentText, dropped }
 }
 
 /** Validate registry identity, availability and runtime requirements for one exact version. */
@@ -442,7 +473,25 @@ async function main() {
   await mkdir(dirname(resolve(outputPath)), { recursive: true })
   const downloadMetrics = await applyDownloadMetrics(result.index)
   result.diagnostics.push(...downloadMetrics.diagnostics)
-  const serialized = JSON.stringify(result.index, null, 2) + '\n'
+  let serialized = JSON.stringify(result.index, null, 2) + '\n'
+  // Byte-budget selection: the gateway serves the whole JSON, so inclusion is
+  // bounded by serialized size, not a plugin count. Verified plugins entered
+  // by stars above; here the tail is trimmed (lowest-starred non-featured
+  // first) until the text fits the working budget below the 5 MiB gateway cap.
+  {
+    const trimmed = trimIndexToBudget(result.index, serialized, ranks, featured)
+    if (trimmed.dropped > 0) {
+      result.index = trimmed.index
+      serialized = trimmed.text
+      result.selection.droppedByBudget = trimmed.dropped
+      result.selection.droppedByLimit =
+        result.selection.eligiblePlugins - result.index.plugins.length
+      const last = result.index.plugins.at(-1)
+      result.selection.cutoffStars = last
+        ? (ranks.get(last.name)?.stars ?? -1)
+        : null
+    }
+  }
   const reasons = Object.fromEntries(
     [...new Set(result.diagnostics.map((d) => d.code))]
       .sort()
@@ -545,7 +594,7 @@ async function main() {
   assertPublishable(result)
   console.log(
     `Generated ${result.index.plugins.length}/${result.selection.eligiblePlugins} verified plugins ` +
-      `(${result.selection.droppedByLimit} beyond the ${MAX_PLUGINS}-plugin cap) ` +
+      `(${result.selection.droppedByLimit} beyond the index byte budget) ` +
       `from ${result.candidates} sources; ${result.diagnostics.length} diagnostics. ${outputPath}`,
   )
 }

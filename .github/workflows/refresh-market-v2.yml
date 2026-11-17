@@ -8,7 +8,7 @@ on:
   workflow_run:
     workflows:
       - 'Refresh snapshot and review queue'
-      - 'Expand subscription mappings toward 2000'
+      - 'Expand subscription mappings'
     types:
       - completed
   push:

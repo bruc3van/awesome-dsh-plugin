@@ -1,10 +1,19 @@
-export const MAX_PLUGINS = 2000
-export const SELECTION_POLICY = `top-${MAX_PLUGINS}-verified-plugins-by-stars-v1`
+export const MAX_PLUGINS = 20000
+export const SELECTION_POLICY = 'size-budget-verified-plugins-by-stars-v2'
 
 /** The subscription JSON is downloaded in whole by the host (50 per batch is
  * display-only), so the published index must stay under the gateway's 5 MiB
- * snapshot limit — the same bound the publish workflow enforces on artifacts. */
+ * snapshot limit — the same bound the publish workflow enforces on artifacts.
+ * Inclusion is therefore bounded by serialized bytes, not a plugin count
+ * (2026-11-17): verified plugins enter by stars until the index approaches
+ * this budget, lowest-starred non-featured entries dropping first. If the
+ * gateway limit is ever raised, raising MAX_INDEX_BYTES alone lets the
+ * budget — and the published count — grow with it. */
 export const MAX_INDEX_BYTES = 5 * 1024 * 1024
+
+/** Working target for generation: the gateway hard limit minus headroom for
+ * serialization variance, metadata growth and icon re-encoding drift. */
+export const INDEX_TARGET_BYTES = MAX_INDEX_BYTES - 384 * 1024
 
 /** Refuse publishing incomplete reads, an oversized index, or a suspiciously collapsed catalog. */
 export function assertPublishable({ index, indexBytes, fetchFailures = 0, featuredRepositoryCount, expectedFeaturedRepositoryCount }, previous) {
@@ -23,7 +32,7 @@ export function assertPublishable({ index, indexBytes, fetchFailures = 0, featur
     )
   if (index.plugins.length > MAX_PLUGINS) {
     throw new Error(
-      `Index contains ${index.plugins.length} plugins; the published cap is ${MAX_PLUGINS}.`,
+      `Index contains ${index.plugins.length} plugins; the sanity ceiling is ${MAX_PLUGINS}.`,
     )
   }
   if (expectedFeaturedRepositoryCount !== undefined &&
