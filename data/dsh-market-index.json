@@ -1808,8 +1808,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJ2ci1icmFuZCIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzZFNThGNyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzE3OUVENiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE1IiBmaWxsPSJ1cmwoI3ZyLWJyYW5kKSIvPjxwYXRoIGQ9Ik0xMCAzMkMxNyAyMiAyNCAxNyAzMiAxN1M0NyAyMiA1NCAzMkM0NyA0MiA0MCA0NyAzMiA0N1MxNyA0MiAxMCAzMloiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48Y2lyY2xlIGN4PSIzMiIgY3k9IjMyIiByPSIxMCIgZmlsbD0iI0ZGRkZGRiIvPjxjaXJjbGUgY3g9IjMyIiBjeT0iMzIiIHI9IjUuNSIgZmlsbD0iIzI4M0M4OSIvPjxjaXJjbGUgY3g9IjM1IiBjeT0iMjkiIHI9IjIuMiIgZmlsbD0iI0E4RjJGRiIvPjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "3.3.0",
-          "publishTimestamp": 1794842754,
+          "version": "3.4.0",
+          "publishTimestamp": 1794885637,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -7466,12 +7466,12 @@
       },
       "versions": [
         {
-          "version": "0.20.0",
-          "publishTimestamp": 1794809342,
+          "version": "0.20.1",
+          "publishTimestamp": 1794884273,
           "source": {
             "type": "git",
             "url": "https://github.com/HsiangNianian/dsh-auto-continue",
-            "commit": "7c2ff64002f12571d828b3ab21c76cd60fe31a31"
+            "commit": "dea916849980f2d65e09018589c7d6fed859f141"
           },
           "engines": {
             "dsh": "^0.1.0-rc.7 || ^0.1.7-0 || ^0.2.0-rc.1"
@@ -10422,8 +10422,14 @@
     },
     {
       "name": "dsh-super-kanban",
-      "title": "dsh-super-kanban",
-      "description": "AI project board for DeepSeek Harness: turns sessions into tasks, with live status, acceptance review, full/side/floating views and quick chat.",
+      "title": {
+        "en": "Super Kanban",
+        "zh": "Super Kanban 任务看板"
+      },
+      "description": {
+        "en": "AI task board for DSH: turn sessions into tasks, track progress, and review deliverables.",
+        "zh": "DSH AI 任务看板：从会话提取任务，跟踪进度和验收。"
+      },
       "author": "topmindspace",
       "homepage": "https://github.com/topmindspace/dsh-super-kanban#readme",
       "repository": {
@@ -10455,15 +10461,15 @@
           "repositoryUpdated": 1794735948
         }
       },
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgZmlsbD0ibm9uZSI+CiAgPHJlY3QgeD0iNiIgeT0iNiIgd2lkdGg9IjExNiIgaGVpZ2h0PSIxMTYiIHJ4PSIyOCIgZmlsbD0iIzE1MTUxNyIvPgogIDxyZWN0IHg9IjQ2IiB5PSI0NiIgd2lkdGg9IjEyIiBoZWlnaHQ9IjQ2IiByeD0iMy41IiBmaWxsPSIjZjlmYWZiIi8+CiAgPHJlY3QgeD0iNjQiIHk9IjQ2IiB3aWR0aD0iMTIiIGhlaWdodD0iMzAiIHJ4PSIzLjUiIGZpbGw9IiNmOWZhZmIiIG9wYWNpdHk9IjAuNzIiLz4KICA8cmVjdCB4PSI4MiIgeT0iNDYiIHdpZHRoPSIxMiIgaGVpZ2h0PSIxOCIgcng9IjMuNSIgZmlsbD0iI2Y5ZmFmYiIgb3BhY2l0eT0iMC40NSIvPgogIDxyZWN0IHg9IjQ2IiB5PSIzNiIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSIjZjlmYWZiIiBvcGFjaXR5PSIwLjkiLz4KPC9zdmc+Cg==",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic3VwZXIta2FuYmFuLWNhcmRzIiB4MT0iOCIgeTE9IjgiIHgyPSIyNSIgeTI9IjI4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM2OUM4RkEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNTA2REYwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJzdXBlci1rYW5iYW4tYWN0aXZlIiB4MT0iMjMiIHkxPSIxOSIgeDI9IjI5IiB5Mj0iMjgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzUxRDhCRCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0MTlERTgiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxnIGZpbGw9InVybCgjc3VwZXIta2FuYmFuLWNhcmRzKSI+CiAgICA8cmVjdCB4PSI3LjUiIHk9IjgiIHdpZHRoPSI1Ljc1IiBoZWlnaHQ9IjExIiByeD0iMS43Ii8+CiAgICA8cmVjdCB4PSI3LjUiIHk9IjIxLjI1IiB3aWR0aD0iNS43NSIgaGVpZ2h0PSI2Ljc1IiByeD0iMS43IiBvcGFjaXR5PSIuNzIiLz4KICAgIDxyZWN0IHg9IjE1LjEyNSIgeT0iOCIgd2lkdGg9IjUuNzUiIGhlaWdodD0iMTUuNSIgcng9IjEuNyIvPgogICAgPHJlY3QgeD0iMjIuNzUiIHk9IjgiIHdpZHRoPSI1Ljc1IiBoZWlnaHQ9IjguNzUiIHJ4PSIxLjciIG9wYWNpdHk9Ii43OCIvPgogIDwvZz4KICA8cmVjdCB4PSIyMi43NSIgeT0iMTkiIHdpZHRoPSI1Ljc1IiBoZWlnaHQ9IjkiIHJ4PSIxLjciIGZpbGw9InVybCgjc3VwZXIta2FuYmFuLWFjdGl2ZSkiLz4KICA8cGF0aCBkPSJNOS40NSAxMWgxLjg1bTUuNzc1IDBoMS44NW01Ljc3NSAwaDEuODUiIHN0cm9rZT0iI0ZGRiIgc3Ryb2tlLXdpZHRoPSIxLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9Ii45Ii8+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "0.10.2",
-          "publishTimestamp": 1794735908,
+          "version": "0.10.4",
+          "publishTimestamp": 1794882034,
           "source": {
             "type": "git",
             "url": "https://github.com/topmindspace/dsh-super-kanban",
-            "commit": "98aca9f30e9d9093eee3db8aef74f136bb6480fa"
+            "commit": "746dd9c76b79fe907a124618c5b43c36309fdb40"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5 <0.3.0"
@@ -10942,7 +10948,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "stars-100"
         ],
         "sortKeys": {
@@ -12692,11 +12698,11 @@
       "versions": [
         {
           "version": "0.7.4",
-          "publishTimestamp": 1794832790,
+          "publishTimestamp": 1794890141,
           "source": {
             "type": "git",
             "url": "https://github.com/NoNameLeGo/dsh-catppuccin-theme",
-            "commit": "3b449a8f296c72a56daa2c4382862855c41c8ffa"
+            "commit": "cf2aa173b4af34f1adb50246af1809989abc0062"
           },
           "engines": {
             "dsh": ">=0.1.7-rc.1"
@@ -15931,7 +15937,6 @@
         ],
         "labels": [
           "git",
-          "updated-month",
           "stars-50"
         ],
         "sortKeys": {
@@ -20958,7 +20963,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week",
+          "updated-month",
           "backup"
         ],
         "sortKeys": {
@@ -25404,8 +25409,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSLmlofmuIrpmIEiPgogIDwhLS0g6YeN5qqQ77yI5LiK5bGC5bGL6aG277yJIC0tPgogIDxwYXRoIGQ9Ik01IDhsNy00IDcgNCIgLz4KICA8cGF0aCBkPSJNNyAxMWgxMCIgLz4KICA8IS0tIOWHuuaqkO+8iOS4i+WxguWxi+aqkO+8iSAtLT4KICA8cGF0aCBkPSJNNCAxNGgxNiIgLz4KICA8IS0tIOeri+afse+8iOS4ieW8gOmXtO+8iSAtLT4KICA8cGF0aCBkPSJNOSAxNHYzIiAvPgogIDxwYXRoIGQ9Ik0xNSAxNHYzIiAvPgogIDwhLS0g5riK5rC077yI5bqV6YOo5rOi57q577yJIC0tPgogIDxwYXRoIGQ9Ik00IDIwYzIuNS0xLjUgNS41LTEuNSA4IDBzNS41IDEuNSA4IDAiIC8+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "0.4.116",
-          "publishTimestamp": 1794879309,
+          "version": "0.4.117",
+          "publishTimestamp": 1794881193,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -26253,8 +26258,8 @@
       },
       "versions": [
         {
-          "version": "0.2.11",
-          "publishTimestamp": 1793934934,
+          "version": "0.2.12",
+          "publishTimestamp": 1794888451,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -31021,11 +31026,11 @@
       "versions": [
         {
           "version": "0.3.15",
-          "publishTimestamp": 1794874577,
+          "publishTimestamp": 1794888622,
           "source": {
             "type": "git",
             "url": "https://github.com/islibaodong/dsh-login",
-            "commit": "b001a5bca6a13d3e8f1ae37c95f7f3b4c368d333"
+            "commit": "7666edb69d1e4c994c3b59979cf89ee3ea28c894"
           },
           "engines": {
             "dsh": ">=0.1.5-alpha.1 <0.2.0-0 || >=0.1.6-alpha.1 <0.2.0-0 || >=0.1.7-alpha.2 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0 || >=0.2.1-alpha.1 <0.3.0-0 || >=0.2.2-alpha.2 <0.3.0-0"
@@ -31086,8 +31091,8 @@
       },
       "versions": [
         {
-          "version": "2.19.8",
-          "publishTimestamp": 1794799994,
+          "version": "2.20.0",
+          "publishTimestamp": 1794890289,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -36621,8 +36626,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIGRzaC1hdXRoLWdhdGUncyBtYXJrIGZvciB0aGUgUGx1Z2lucyBwYWdlOiB0aGUgYWNjb3VudCByb3cncyBzaGllbGQgYW5kCiAgICAgICBrZXlob2xlLCByZWRyYXduIGFzIGEgZmlsbGVkIGJhZGdlIHNvIGl0IHJlYWRzIGF0IDMwcHggYW5kIGF0IDM2cHguCiAgICAgICBDb2xvdXJzIGFyZSBleHBsaWNpdCBvbiBwdXJwb3NlOiB0aGUgSG9zdCBpbmxpbmVzIHRoaXMgZmlsZSBhcyBhIGRhdGEgVVJMCiAgICAgICBhbmQgdGhlIG1hbmFnZXIgZHJhd3MgaXQgaW4gYW4gPGltZz4sIHdoZXJlIGN1cnJlbnRDb2xvciBhbmQgdGhlIHRoZW1lCiAgICAgICB0b2tlbnMgb2YgdGhlIHBhZ2UgZG8gbm90IHJlYWNoLiAtLT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic2hpZWxkIiB4MT0iNyIgeTE9IjQiIHgyPSIzMCIgeTI9IjMzIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM2RDhCRkYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMkYzQkM4Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBkPSJNMTggMy40IDMwLjIgOHYxMC40YzAgNy41LTUuMSAxMy40LTEyLjIgMTUuOC03LjEtMi40LTEyLjItOC4zLTEyLjItMTUuOFY4WiIgZmlsbD0idXJsKCNzaGllbGQpIi8+CiAgPGNpcmNsZSBjeD0iMTgiIGN5PSIxNS40IiByPSIzIiBmaWxsPSIjRkZGRkZGIi8+CiAgPHBhdGggZD0iTTE4IDE3LjR2NS40IiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMy44IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
       "versions": [
         {
-          "version": "0.22.0",
-          "publishTimestamp": 1794817157,
+          "version": "0.23.0",
+          "publishTimestamp": 1794884682,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -42655,7 +42660,7 @@
         ],
         "labels": [
           "git",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 16,
@@ -43568,8 +43573,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlpvdGVybyBMaWJyYXJ5IGZvciBEU0giPgogIDxkZWZzPgogICAgPCEtLSBVc2VyLXBpY2tlZCBibHVlIGJhZGdlIChzYW1wbGUgIzJlOWRmMik6IGRlZXAgZW5vdWdoIGZvciB0aGUgd2hpdGUgc2hlZXQgdG8gcmVhZCBhcyBwYXBlci4gLS0+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InpwLWJnIiB4MT0iOCIgeTE9IjQiIHgyPSI1NiIgeTI9IjYwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzM1OWZmMiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyNzlhZjIiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InpwLXBhcGVyIiB4MT0iMTgiIHkxPSIxNCIgeDI9IjQ0IiB5Mj0iNTAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2VhZjFmYiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ienAteiIgeDE9IjAiIHkxPSIwIiB4Mj0iMC4zNSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZjVhNGIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZGYyMDMwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KCiAgPCEtLSBTZWxmLWNvbnRhaW5lZCBiYWRnZTogcmVhZGFibGUgb24gYm90aCBsaWdodCBhbmQgZGFyayBob3N0IHRoZW1lcy4gLS0+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTUiIGZpbGw9InVybCgjenAtYmcpIi8+CgogIDwhLS0gQSBzZWNvbmQgc2hlZXQgYmVoaW5kIHRoZSBmcm9udCBwYWdlOiBhIGxpYnJhcnksIG5vdCBvbmUgZG9jdW1lbnQuIC0tPgogIDxwYXRoIGQ9Ik0yNSAxNmgxN2EzIDMgMCAwIDEgMyAzdjI2IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS1vcGFjaXR5PSIuNiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KCiAgPCEtLSBGcm9udCBwYWdlLiAtLT4KICA8cmVjdCB4PSIxNiIgeT0iMTMiIHdpZHRoPSIyNyIgaGVpZ2h0PSIzOCIgcng9IjMuNSIgZmlsbD0idXJsKCN6cC1wYXBlcikiLz4KICA8cmVjdCB4PSIyMCIgeT0iMTguNSIgd2lkdGg9IjE0IiBoZWlnaHQ9IjIuOCIgcng9IjEuNCIgZmlsbD0iIzRhODZlOCIvPgoKICA8IS0tIFRleHQgbGluZXMgYWJvdmUgdGhlIFo6IHRoZSBwYWdlIG11c3Qgc3RpbGwgcmVhZCBhcyBhIGRvY3VtZW50LiAtLT4KICA8cmVjdCB4PSIyMCIgeT0iMjQiIHdpZHRoPSIxOSIgaGVpZ2h0PSIyIiByeD0iMSIgZmlsbD0iIzlkYjJjZSIvPgoKICA8IS0tIFpvdGVybydzIFosIHNjYWxlZCBkb3duIHRvIHNpdCBiZXR3ZWVuIHRoZSB0ZXh0IGxpbmVzLiBMb2NhbCB6ZXJvLWJhc2VkCiAgICAgICBwYXRoIGtlZXBzIHRoZSB0cmFuc2Zvcm0gcmVhZGFibGU7IG9iamVjdEJvdW5kaW5nQm94IGdyYWRpZW50IGtlZXBzIHRoZQogICAgICAgcmVkcyBpbiBwbGFjZSB1bmRlciB0aGUgc2NhbGUuIFRoZSBvcmFuZ2UtcmVkIGJvb2ttYXJrIHRhYiBpcyBnb25lLiAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNCAyOC41KSBzY2FsZSgwLjYyKSB0cmFuc2xhdGUoMC44IDApIHNrZXdYKC01KSI+CiAgICA8cGF0aCBkPSJNMC41IDBIMTdMMTggNC41TDUuNSAxM0gxOFYxNy41SDFMMCAxM0wxMi41IDQuNUgwLjVaIiBmaWxsPSJ1cmwoI3pwLXopIi8+CiAgPC9nPgoKICA8IS0tIFJlbWFpbmluZyB0ZXh0IGxpbmVzIGJlbG93IHRoZSBaLCB0YXBlcmluZyBvZmYgbGlrZSBhIHBhcmFncmFwaC4gLS0+CiAgPGcgZmlsbD0iIzlkYjJjZSI+CiAgICA8cmVjdCB4PSIyMCIgeT0iNDIiIHdpZHRoPSIxNyIgaGVpZ2h0PSIyIiByeD0iMSIvPgogICAgPHJlY3QgeD0iMjAiIHk9IjQ2IiB3aWR0aD0iMTEiIGhlaWdodD0iMiIgcng9IjEiLz4KICA8L2c+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "0.9.3",
-          "publishTimestamp": 1794837933,
+          "version": "0.9.5",
+          "publishTimestamp": 1794885664,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -44356,7 +44361,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 15,
@@ -45150,8 +45155,7 @@
           "workflow"
         ],
         "labels": [
-          "npm",
-          "updated-month"
+          "npm"
         ],
         "sortKeys": {
           "stars": 15,
@@ -45813,8 +45817,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8cmVjdCB4PSI0IiB5PSI0IiB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHJ4PSIxNCIgZmlsbD0iIzBkMTExNyIvPgogIDxwYXRoIGQ9Ik0xOCA0NlYyMmwxNCAxMiAxNC0xMnYyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNThhNmZmIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iNDUiIHI9IjMiIGZpbGw9IiMzZmI5NTAiLz4KPC9zdmc+Cg==",
       "versions": [
         {
-          "version": "0.9.26",
-          "publishTimestamp": 1794822557,
+          "version": "0.9.29",
+          "publishTimestamp": 1794889116,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -48550,8 +48554,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkRTSCDlo4HnurjlvJXmk44iPgogIDx0aXRsZT5EU0gg5aOB57q45byV5pOOPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0id3BJY29uU2t5IiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzJiM2Y2ZSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTUiIHN0b3AtY29sb3I9IiMxNjIzM2YiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMGIxMjIwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJ3cEljb25TdW4iIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZkODhhIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmOWQ1YyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0id3BJY29uRmFyIiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzRiN2ZiMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyYzUzNzgiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9IndwSWNvbk5lYXIiIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMWQzNTUwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzBkMTgyNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxjbGlwUGF0aCBpZD0id3BJY29uQ2xpcCI+CiAgICAgIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE0IiByeT0iMTQiLz4KICAgIDwvY2xpcFBhdGg+CiAgPC9kZWZzPgogIDxnIGNsaXAtcGF0aD0idXJsKCN3cEljb25DbGlwKSI+CiAgICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9InVybCgjd3BJY29uU2t5KSIvPgogICAgPGNpcmNsZSBjeD0iNDUiIGN5PSIyMSIgcj0iNy41IiBmaWxsPSJ1cmwoI3dwSWNvblN1bikiLz4KICAgIDxjaXJjbGUgY3g9IjEzLjUiIGN5PSIxNS41IiByPSIxLjYiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9IjAuODUiLz4KICAgIDxjaXJjbGUgY3g9IjIxIiBjeT0iMjciIHI9IjEuMSIgZmlsbD0iI2ZmZmZmZiIgb3BhY2l0eT0iMC41NSIvPgogICAgPGNpcmNsZSBjeD0iMzMuNSIgY3k9IjExLjUiIHI9IjEuMiIgZmlsbD0iI2ZmZmZmZiIgb3BhY2l0eT0iMC43Ii8+CiAgICA8cGF0aCBkPSJNLTIgNDcgTDEzIDMwIEwyNCA0MyBMMzQgMzMgTDQ3IDQ3IFoiIGZpbGw9InVybCgjd3BJY29uRmFyKSIvPgogICAgPHBhdGggZD0iTS0yIDU2IEwxMCA0NCBMMTkgNTAgTDMwIDM3IEw0MyA1MiBMNTIgNDQgTDY2IDU2IEw2NiA2NiBMLTIgNjYgWiIgZmlsbD0idXJsKCN3cEljb25OZWFyKSIvPgogIDwvZz4KICA8cmVjdCB4PSIwLjc1IiB5PSIwLjc1IiB3aWR0aD0iNjIuNSIgaGVpZ2h0PSI2Mi41IiByeD0iMTMuMjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLW9wYWNpdHk9IjAuMTQiIHN0cm9rZS13aWR0aD0iMS41Ii8+Cjwvc3ZnPgo=",
       "versions": [
         {
-          "version": "1.0.1",
-          "publishTimestamp": 1794533066,
+          "version": "1.0.2",
+          "publishTimestamp": 1794884778,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -49577,8 +49581,8 @@
       },
       "versions": [
         {
-          "version": "0.7.0",
-          "publishTimestamp": 1794717008,
+          "version": "0.7.1",
+          "publishTimestamp": 1794889106,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -50257,8 +50261,7 @@
           "user interface"
         ],
         "labels": [
-          "git",
-          "updated-month"
+          "git"
         ],
         "sortKeys": {
           "stars": 13,
@@ -56000,6 +56003,17 @@
       },
       "versions": [
         {
+          "version": "0.50.0",
+          "publishTimestamp": 1794887747,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3 <0.2.3-0"
+          }
+        },
+        {
           "version": "0.49.0",
           "publishTimestamp": 1794758332,
           "source": {
@@ -56478,8 +56492,8 @@
       },
       "versions": [
         {
-          "version": "0.8.2",
-          "publishTimestamp": 1794658224,
+          "version": "0.8.3",
+          "publishTimestamp": 1794888186,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -57023,7 +57037,7 @@
         ],
         "labels": [
           "npm",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 11,
@@ -60164,8 +60178,8 @@
       },
       "versions": [
         {
-          "version": "0.1.31",
-          "publishTimestamp": 1794318691,
+          "version": "0.1.32",
+          "publishTimestamp": 1794884533,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -62608,12 +62622,12 @@
       },
       "versions": [
         {
-          "version": "0.27.0",
-          "publishTimestamp": 1794761672,
+          "version": "0.28.0",
+          "publishTimestamp": 1794889731,
           "source": {
             "type": "git",
             "url": "https://github.com/Anmulzhao/DSH-AGINT",
-            "commit": "2a91dd92f032d0117804f1121f50a188d6f5a091"
+            "commit": "9618f9e364e87d604203562e980f396ab368ecd5"
           }
         }
       ]
@@ -64195,8 +64209,8 @@
       },
       "versions": [
         {
-          "version": "0.14.5",
-          "publishTimestamp": 1793245551,
+          "version": "0.14.6",
+          "publishTimestamp": 1794884917,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -65388,8 +65402,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIGRzaC1kZWVwc2Vlay11c2FnZe+8muS9meminSDCpSDnoazluIEgKyDls7DosLfmjIfnpLrnga/jgIIKICAgICAgIOehrOW4geS4jiDCpSDlsLHmmK/ljaHniYfkuIrmlL7lpKfnmoTkvZnpop3vvIzlj7PkuIrop5LnmoTnu7/oibLlnIbngrnmmK/ljaHniYflj7PkuIrop5LnmoTls7DosLfmjIfnpLrnga8KICAgICAgIO+8iOe7vz3nqbrpl7LjgIHmqZk96auY5bOw77yJ77yM6L+Z5Lik5qC35q2j5piv5Y2h54mH5pi+56S655qE5YWo6YOo5YaF5a6544CCIC0tPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjb2luIiB4MT0iNyIgeTE9IjkiIHgyPSIyNyIgeTI9IjMwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM2OUI5RkYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzI0REUyIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJpZGxlIiB4MT0iMjUuNiIgeTE9IjQuOCIgeDI9IjMxLjQiIHkyPSIxMC42IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM3RkUzOUIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMUY5RTUyIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8Y2lyY2xlIGN4PSIxNiIgY3k9IjE5LjYiIHI9IjEwIiBzdHJva2U9InVybCgjY29pbikiIHN0cm9rZS13aWR0aD0iMi4xIi8+CiAgPHBhdGggZD0iTTEyLjYgMTQuNCAxNiAxOC4yIDE5LjQgMTQuNCIgc3Ryb2tlPSJ1cmwoI2NvaW4pIiBzdHJva2Utd2lkdGg9IjIuMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0iTTE2IDE4LjJWMjUuMiIgc3Ryb2tlPSJ1cmwoI2NvaW4pIiBzdHJva2Utd2lkdGg9IjIuMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTEyLjkgMjAuNEgxOS4xIiBzdHJva2U9InVybCgjY29pbikiIHN0cm9rZS13aWR0aD0iMi4xIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMTIuOSAyMy4ySDE5LjEiIHN0cm9rZT0idXJsKCNjb2luKSIgc3Ryb2tlLXdpZHRoPSIyLjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjI4LjUiIGN5PSI3LjciIHI9IjMuMSIgZmlsbD0idXJsKCNpZGxlKSIvPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "0.20.0",
-          "publishTimestamp": 1793872035,
+          "version": "0.20.1",
+          "publishTimestamp": 1794882344,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -67649,11 +67663,11 @@
       "versions": [
         {
           "version": "1.9.2",
-          "publishTimestamp": 1794872624,
+          "publishTimestamp": 1794888311,
           "source": {
             "type": "git",
             "url": "https://github.com/viztor/dsh-opencode-patch",
-            "commit": "1c380df10b19e17caf3931f082876a6924e17224"
+            "commit": "56725be15f448988dee322579748f42a72a097d7"
           },
           "engines": {
             "dsh": ">=0.2.1-alpha.1 <0.3.0 || >=0.2.2-0 <0.3.0"
@@ -73462,6 +73476,157 @@
           },
           "engines": {
             "dsh": ">=0.2.1-0 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-pet-workout",
+      "title": "dsh-pet-workout",
+      "description": "一起锻炼 + 喝水提醒：让 dsh-pet 里的大肥鱼带你做腿部训练、到点催你喝水（不理她就一级级加码）。需要先装 dsh-pet。",
+      "repository": {
+        "url": "https://github.com/realRoc/dsh-pet-workout"
+      },
+      "metadata": {
+        "category": "ui-experience",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "dsh-pet",
+          "desktop-pet",
+          "workout",
+          "fitness",
+          "water-reminder",
+          "hydration",
+          "health",
+          "桌面宠物",
+          "健身跟练",
+          "喝水提醒",
+          "界面体验",
+          "界面增强",
+          "user interface"
+        ],
+        "labels": [
+          "npm",
+          "updated-week"
+        ],
+        "sortKeys": {
+          "stars": 0,
+          "repositoryUpdated": 1794833191
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794831908,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-screensaver",
+      "title": {
+        "en": "Screen Saver for AI Agents",
+        "zh": "AI agent 屏保"
+      },
+      "description": {
+        "en": "Cover your Mac's screen while Claude Code, Codex and DeepSeek Harness keep running: Touch ID unlock, no sleep, optional lid-closed awake, live agent session themes. /screensaver to start.",
+        "zh": "人走开，agent 接着跑：盖住 Mac 屏幕，摸 Touch ID 解锁，不休眠、可合盖不睡，主题实时显示 Claude Code、Codex、DeepSeek Harness 会话。输入 /screensaver 开启。"
+      },
+      "author": "realRoc",
+      "homepage": "https://github.com/realRoc/dsh-screensaver#readme",
+      "repository": {
+        "url": "https://github.com/realRoc/dsh-screensaver"
+      },
+      "metadata": {
+        "category": "ui-experience",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "screensaver",
+          "screen-saver",
+          "lock-screen",
+          "macos",
+          "touch-id",
+          "ai-agent",
+          "coding-agent",
+          "claude-code",
+          "codex",
+          "keep-awake",
+          "caffeinate",
+          "electron",
+          "界面体验",
+          "界面增强",
+          "user interface"
+        ],
+        "labels": [
+          "npm",
+          "updated-week"
+        ],
+        "sortKeys": {
+          "stars": 0,
+          "repositoryUpdated": 1794837680
+        }
+      },
+      "icon": "data:image/webp;base64,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",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794808123,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-screensaver-theme-subspace",
+      "title": "dsh-screensaver-theme-subspace",
+      "description": "Subspace Jump theme for dsh-screensaver: a three.js warp-tunnel screen saver that jumps into subspace while your Claude Code, Codex or DeepSeek Harness agents are running and lists each live session.",
+      "author": "realRoc",
+      "repository": {
+        "url": "https://github.com/realRoc/dsh-screensaver",
+        "directory": "themes/subspace"
+      },
+      "metadata": {
+        "category": "ui-experience",
+        "keywords": [
+          "dsh-screensaver",
+          "dsh-screensaver-theme",
+          "screensaver",
+          "three.js",
+          "warp",
+          "subspace",
+          "ai-agent",
+          "claude-code",
+          "codex",
+          "deepseek-harness",
+          "界面体验",
+          "界面增强",
+          "user interface"
+        ],
+        "labels": [
+          "npm",
+          "updated-week"
+        ],
+        "sortKeys": {
+          "stars": 0,
+          "repositoryUpdated": 1794837680
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794808120,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
           }
         }
       ]
