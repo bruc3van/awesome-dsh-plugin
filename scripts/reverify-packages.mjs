@@ -125,6 +125,31 @@ async function reverifyEntry(slug, record) {
       }
     }
   }
+  // Paste-string presence: a README may document the install target only as a
+  // paste name — plugin-panel prose ("Add plugin, enter `ds-bot`"), a bare
+  // fence with the package/version or GitHub URL, or an inline-code name —
+  // with no extractable `dsh plugin … add` line at all (2026-11-17). For
+  // those pure-prose READMEs, an inline-code span or fence line carrying the
+  // recorded install name / npm base / GitHub owner-repo slug counts as
+  // documented. Command freshness is meaningless there (no candidates), so
+  // only presence is checked.
+  const proseTokens = new Set();
+  if (segments.length === 0) {
+    let fenceM;
+    const fenceRe = /```[^\n]*\n([\s\S]*?)```/g;
+    while ((fenceM = fenceRe.exec(text))) {
+      for (const line of fenceM[1].split('\n')) if (line.trim()) proseTokens.add(line.trim());
+    }
+    let inlineM;
+    const inlineRe = /`([^`\n]+)`/g;
+    while ((inlineM = inlineRe.exec(text))) proseTokens.add(inlineM[1]);
+  }
+  const mentionsNeedle = (needle, tokens) => {
+    if (!needle) return false;
+    const re = new RegExp(`(^|[^\\w@/.-])${needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}($|[^\\w-])`);
+    for (const token of tokens) if (re.test(token)) return true;
+    return false;
+  };
 
   for (const pkg of record.packages ?? []) {
     const key = normalKey(pkg.source);
@@ -138,16 +163,42 @@ async function reverifyEntry(slug, record) {
       record.status === 'repo-fallback' &&
       pkg.source.startsWith('github:') &&
       pkg.source.slice(7).split('#')[0].toLowerCase() === slug;
+    const githubSlug = pkg.source.startsWith('github:')
+      ? payload.split('#')[0]
+      : null;
+    const proseDocumented =
+      segments.length === 0 &&
+      (mentionsNeedle(pkg.install, proseTokens) ||
+        mentionsNeedle(npmBase(payload), proseTokens) ||
+        mentionsNeedle(payload, proseTokens) ||
+        mentionsNeedle(githubSlug, proseTokens));
     const stillDocumented =
-      selfRepo || extractedKeys.has(key) || upstreamTokens.has(payload) || upstreamTokens.has(npmBase(payload));
+      selfRepo ||
+      extractedKeys.has(key) ||
+      upstreamTokens.has(payload) ||
+      upstreamTokens.has(npmBase(payload)) ||
+      proseDocumented;
     if (!stillDocumented) {
       problems.push(`${slug}: recorded target ${pkg.source} is no longer documented in the upstream README — update or drop the mapping`);
       continue;
     }
     if (extractedCommands.has(key) && !extractedCommands.get(key).has(pkg.command)) {
-      problems.push(
-        `${slug}: command for ${pkg.source} changed upstream — recorded "${pkg.command}", README now shows ${[...extractedCommands.get(key)].map((c) => `"${c}"`).join(' / ')}`,
+      // Profile-placeholder equivalence: a README that switched its command
+      // to the `--profile <profile>` placeholder form documents the same
+      // install as our concrete-profile record — the placeholder names
+      // whichever profile the reader runs, and the official add box takes the
+      // bare package name regardless (2026-11-17). Cosmetic quote differences
+      // are likewise equivalent.
+      const normalize = (command) =>
+        command.replace(/"/g, '').replace(/(--profile\s+)(<[^>]*>|\S+)/gi, '$1<profile>');
+      const equivalent = [...extractedCommands.get(key)].some(
+        (candidate) => normalize(candidate) === normalize(pkg.command),
       );
+      if (!equivalent) {
+        problems.push(
+          `${slug}: command for ${pkg.source} changed upstream — recorded "${pkg.command}", README now shows ${[...extractedCommands.get(key)].map((c) => `"${c}"`).join(' / ')}`,
+        );
+      }
     }
   }
   for (const pick of picks) {
