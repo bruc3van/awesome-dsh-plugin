@@ -1,0 +1,188 @@
+{
+  "full_name": "xiayh0107/hoploom",
+  "originalPosition": 197,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 197,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:36.394Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "00df30b7ac117136d29e14f65a31ded26fe0ccd4c5f4edaca077ae66a9cfa9b5",
+      "url": "https://github.com/xiayh0107/hoploom/blob/826bfc661f1924d7a69e3206046d551a3e9afb22/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-hoploom",
+          "command": "dsh plugin --profile web add dsh-hoploom",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "ssh-server-manager/README.md",
+      "sha256": "173f4741285f8dfb845b15def436b07dc6da63a6995f991d3b3f709c95e5450a",
+      "url": "https://github.com/xiayh0107/hoploom/blob/826bfc661f1924d7a69e3206046d551a3e9afb22/ssh-server-manager/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "ssh-server-manager/README.zh-CN.md",
+      "sha256": "94ec1612543ed0ba7fa6b20061faf811fad38b64ffd91270c21e7243edc05eab",
+      "url": "https://github.com/xiayh0107/hoploom/blob/826bfc661f1924d7a69e3206046d551a3e9afb22/ssh-server-manager/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "dsh-hoploom/README.md",
+      "sha256": "b59f6e3a94b9052da12853ea5942bbbeb6f93a375cf35b36a85994031480c2a0",
+      "url": "https://github.com/xiayh0107/hoploom/blob/826bfc661f1924d7a69e3206046d551a3e9afb22/dsh-hoploom/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-hoploom",
+          "command": "dsh plugin --profile web add dsh-hoploom",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "dsh-hoploom/README.zh-CN.md",
+      "sha256": "69ea4040bffc7741eb56b1b193fa86099df0c33cbc8e2dfa46d8e7a5b5ed7c44",
+      "url": "https://github.com/xiayh0107/hoploom/blob/826bfc661f1924d7a69e3206046d551a3e9afb22/dsh-hoploom/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-hoploom",
+          "command": "dsh plugin --profile web add dsh-hoploom",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-hoploom",
+      "version": "0.3.1",
+      "path": "dsh-hoploom",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiayh0107/hoploom",
+        "commit": "826bfc661f1924d7a69e3206046d551a3e9afb22",
+        "path": "dsh-hoploom"
+      },
+      "manifestSha256": "9df7751245b678fe6fc4bf71a9eec140c66d7d860387b68fe7048ddcb75c896a",
+      "manifestUrl": "https://github.com/xiayh0107/hoploom/blob/826bfc661f1924d7a69e3206046d551a3e9afb22/dsh-hoploom/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-hoploom",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794612462,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiayh0107/hoploom",
+              "commit": "826bfc661f1924d7a69e3206046d551a3e9afb22",
+              "path": "dsh-hoploom"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-hoploom",
+      "origin": "npm",
+      "name": "dsh-hoploom",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-hoploom",
+        "title": {
+          "en": "Hoploom",
+          "zh": "Hoploom"
+        },
+        "description": {
+          "en": "Local SSH inventory and host context, with optional remote checks and allowlisted commands. Credentials stay in the OS vault.",
+          "zh": "本地 SSH 主机与专属上下文管理；按需开启连通性检查和白名单命令，凭据留在操作系统保险库。"
+        },
+        "author": "xiayh0107",
+        "homepage": "https://github.com/xiayh0107/hoploom/tree/main/dsh-hoploom",
+        "repository": {
+          "url": "https://github.com/xiayh0107/hoploom",
+          "directory": "dsh-hoploom"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis-plugin",
+            "hoploom",
+            "ssh",
+            "mcp",
+            "keychain"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTggMTZ2MzJtMjgtMzJ2MzJNMTggMzJoMjgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjMyIiByPSI3IiBmaWxsPSIjMGY3NjZlIiBzdHJva2U9IiM5OWY2ZTQiIHN0cm9rZS13aWR0aD0iNCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1794528056,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d6d34932fbceec91b9c6f1877491e145146692a07581b336a2f95f00cbe1edca",
+      "evidence": [
+        {
+          "name": "dsh-hoploom",
+          "version": "0.3.1",
+          "tarball": "https://registry.npmjs.org/dsh-hoploom/-/dsh-hoploom-0.3.1.tgz",
+          "integrity": "sha512-J4ciWfBAfIVGsDi5dEYhIUBdxzzBbPL6K3Z9a2TddpdARPkf2wazdZ0EgJSnGY5TcCa95S6et68tZkJuuC9V3A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-hoploom",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiayh0107/hoploom",
+    "commit": "826bfc661f1924d7a69e3206046d551a3e9afb22",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:40.800Z"
+}

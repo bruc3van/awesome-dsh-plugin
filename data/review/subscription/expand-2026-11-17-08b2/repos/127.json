@@ -1,0 +1,145 @@
+{
+  "full_name": "cnChenKai/dsh-web-search-brave",
+  "originalPosition": 127,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 127,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:00.551Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bb818a8fecaee8aba1c4e1caab31f37e2d8afdc222d383947464ef4eefa0fe62",
+      "url": "https://github.com/cnChenKai/dsh-web-search-brave/blob/a65e18a0ed0134da297baecaa2d49f758ada1de8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-search-brave@0.2.5",
+          "command": "dsh plugin --profile web add dsh-web-search-brave@0.2.5",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8287a5257c068eae9511a7be9b58e730846048621495aa185d75db863200b4c3",
+      "url": "https://github.com/cnChenKai/dsh-web-search-brave/blob/a65e18a0ed0134da297baecaa2d49f758ada1de8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-search-brave@0.2.5",
+          "command": "dsh plugin --profile web add dsh-web-search-brave@0.2.5",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-search-brave",
+      "version": "0.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cnChenKai/dsh-web-search-brave",
+        "commit": "a65e18a0ed0134da297baecaa2d49f758ada1de8"
+      },
+      "manifestSha256": "9a41606f5e41a63339c8644a87307ce5a7e7aa5ea8a106875eab89c87f9d73c2",
+      "manifestUrl": "https://github.com/cnChenKai/dsh-web-search-brave/blob/a65e18a0ed0134da297baecaa2d49f758ada1de8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-web-search-brave",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1794321748,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/cnChenKai/dsh-web-search-brave",
+              "commit": "a65e18a0ed0134da297baecaa2d49f758ada1de8"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-web-search-brave@0.2.5",
+      "origin": "npm",
+      "name": "dsh-web-search-brave",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-web-search-brave",
+        "title": "dsh-web-search-brave",
+        "description": "Brave Search-backed WebSearchProvider for the DeepSeek Harness web seam (ctx.web)",
+        "repository": {
+          "url": "https://github.com/cnChenKai/dsh-web-search-brave"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "web-search",
+            "brave",
+            "search",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1794321804,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "305f0191355c9b0404e9bf0e688e97fc0075ad2165389a0961f80fa57059d1ae",
+      "evidence": [
+        {
+          "name": "dsh-web-search-brave",
+          "version": "0.2.5",
+          "tarball": "https://registry.npmjs.org/dsh-web-search-brave/-/dsh-web-search-brave-0.2.5.tgz",
+          "integrity": "sha512-xhRYF7Ezw7KLYXF7vzKDag2o2yj8hvWxU/7ZVbTFA5H0AQwb2gjlPdr4AYreWBVsWrhCxIe38veJy6bXIS4NKQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-web-search-brave@0.2.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cnChenKai/dsh-web-search-brave",
+    "commit": "a65e18a0ed0134da297baecaa2d49f758ada1de8",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:03.015Z"
+}

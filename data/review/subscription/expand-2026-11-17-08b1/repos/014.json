@@ -1,0 +1,69 @@
+{
+  "full_name": "WforEvery/dsh-runtime-log",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "stargazers_count": 93,
+  "startedAt": "2026-11-17T08:10:41.111Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2aa115027b85644910f061806fc758f6798914f908567dd64a7e739a5173821a",
+      "url": "https://github.com/WforEvery/dsh-runtime-log/blob/cafd83d14301546ba924114c79d62e4445c51da0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-runtime-log",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WforEvery/dsh-runtime-log",
+        "commit": "cafd83d14301546ba924114c79d62e4445c51da0"
+      },
+      "manifestSha256": "fd917da768693364bda9fd6bdfb5affaeb68fe4e38450e0a55ba121e3fde6d2c",
+      "manifestUrl": "https://github.com/WforEvery/dsh-runtime-log/blob/cafd83d14301546ba924114c79d62e4445c51da0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-runtime-log",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1794887620,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WforEvery/dsh-runtime-log",
+              "commit": "cafd83d14301546ba924114c79d62e4445c51da0"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WforEvery/dsh-runtime-log",
+    "commit": "cafd83d14301546ba924114c79d62e4445c51da0",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:10:43.073Z"
+}

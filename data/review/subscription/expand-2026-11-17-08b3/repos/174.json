@@ -1,0 +1,74 @@
+{
+  "full_name": "Jesse-njx/dsh-chatnode-wechat",
+  "originalPosition": 174,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 174,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:19.165Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7888f317251959682ee88e383328e66d8f2b419f90395d218b84317329397da6",
+      "url": "https://github.com/Jesse-njx/dsh-chatnode-wechat/blob/2bd4c15e28c4ca8285817297bd76dc19489cd567/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "74da27af8072a280976ace7db5a6a1ca0b97955e3056f179751794b4114fa158",
+      "url": "https://github.com/Jesse-njx/dsh-chatnode-wechat/blob/2bd4c15e28c4ca8285817297bd76dc19489cd567/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-cowork/chatnode-wechat",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jesse-njx/dsh-chatnode-wechat",
+        "commit": "2bd4c15e28c4ca8285817297bd76dc19489cd567"
+      },
+      "manifestSha256": "b04ea45fdfe9aa444696b7f80818d3d1f62913e1cf451ccb181a387dbca5dc99",
+      "manifestUrl": "https://github.com/Jesse-njx/dsh-chatnode-wechat/blob/2bd4c15e28c4ca8285817297bd76dc19489cd567/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-cowork/chatnode-wechat",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787953061,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jesse-njx/dsh-chatnode-wechat",
+              "commit": "2bd4c15e28c4ca8285817297bd76dc19489cd567"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jesse-njx/dsh-chatnode-wechat",
+    "commit": "2bd4c15e28c4ca8285817297bd76dc19489cd567",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:21.478Z"
+}

@@ -1,0 +1,226 @@
+{
+  "full_name": "jinsiyu/dsh-code-server-app",
+  "originalPosition": 147,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:08.048Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4e362327b15e450110fcb1a521653fc31aac83e406e83504b3d555731898ee69",
+      "url": "https://github.com/jinsiyu/dsh-code-server-app/blob/d6f8cd26d5251bcfd9cb989618db285cdf010afc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-code-server-app@0.3.69",
+          "command": "dsh plugin --profile web add dsh-code-server-app@0.3.69",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-code-server-app",
+          "command": "dsh plugin add dsh-code-server-app",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-code-server-app@0.2.1",
+          "command": "dsh plugin --profile web add dsh-code-server-app@0.2.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-code-server-app",
+      "version": "0.3.75",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jinsiyu/dsh-code-server-app",
+        "commit": "d6f8cd26d5251bcfd9cb989618db285cdf010afc"
+      },
+      "manifestSha256": "4a34af03931b0583acf353adfa3fb1132e26d215ccc2ef84ba474307eb3d4d73",
+      "manifestUrl": "https://github.com/jinsiyu/dsh-code-server-app/blob/d6f8cd26d5251bcfd9cb989618db285cdf010afc/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-code-server-app",
+        "versions": [
+          {
+            "version": "0.3.75",
+            "publishTimestamp": 1794466461,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jinsiyu/dsh-code-server-app",
+              "commit": "d6f8cd26d5251bcfd9cb989618db285cdf010afc"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-code-server-app@0.3.69",
+      "origin": "npm",
+      "name": "dsh-code-server-app",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-code-server-app",
+        "title": {
+          "en": "Code Server",
+          "zh": "Code Server"
+        },
+        "description": {
+          "en": "VS Code in DSH's right sidebar, following the session workspace; the agent reads unsaved buffers, diagnostics and the active selection.",
+          "zh": "在 DSH 右侧栏运行 VS Code 网页版，跟随会话工作区；agent 可读未保存缓冲区、诊断与选区，编辑器手势可驱动会话。"
+        },
+        "homepage": "https://github.com/jinsiyu/dsh-code-server-app",
+        "repository": {
+          "url": "https://github.com/jinsiyu/dsh-code-server-app"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMTQ3IDE0NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8c3R5bGU+QG1lZGlhIChwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykgeyogeyBmaWxsOiB3aGl0ZTsgfX08L3N0eWxlPgogIDxwYXRoIGQ9Im00Mi40MjE0LDM5LjY1NWMtMjQuNDA1NywwIC00Mi4xNTU0LDEzLjE3MjEgLTQyLjE1NTQsMzMuODQ1YzAsMjAuNTgxNCAxOC40ODkyLDMzLjg0NSA0Mi4xNTU0LDMzLjg0NWMyMy42NjYyLDAgMzguMTgwMywtMTEuNjE3MSAzOC43MzQ5LC0yOC43MjI1bC0yMS4wNzc3LC0wLjQ1NzRjLTAuOTI0NCw5LjMzMDMgLTkuMTA1OSwxNS4xODQ1IC0xNy42NTcyLDE1LjE4NDVjLTExLjc0MDYsMCAtMjAuNDMwNiwtNy41OTIyIC0yMC40MzA2LC0xOS44NDk2YzAsLTEyLjI1NzQgOC42OSwtMTkuOTg2OCAyMC40MzA2LC0yMC4yMTU1YzguNTUxMywtMC4xODMgMTYuOTE3Nyw1Ljk0NTcgMTcuNDcyMywxNS4yNzZsMjEuMDc3NywtMC42NDAzYy0wLjQ2MjIsLTE2LjgzMTEgLTE0LjE0NDIsLTI4LjI2NTIgLTM4LjU1LC0yOC4yNjUyem00OC44NDQ2LDJsNTUuNDY4LDBsMCw2NC4wMzExbC01NS40NjgsMGwwLC02NC4wMzExeiIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.3.69",
+            "publishTimestamp": 1790740170,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "af0ae1267bdd746460a81f4fd34d6ee4114b75df712a8c641aea65784965c465",
+      "evidence": [
+        {
+          "name": "dsh-code-server-app",
+          "version": "0.3.69",
+          "tarball": "https://registry.npmjs.org/dsh-code-server-app/-/dsh-code-server-app-0.3.69.tgz",
+          "integrity": "sha512-Hc7WCNkvqjvmj3UMtMoHyVJRsPoAukXwqLa8tyTuUueYLMCYmqeE8AAFSX3wYsQ7Z/epIpzBXyyyLmkN7otFxg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-code-server-app",
+      "origin": "npm",
+      "name": "dsh-code-server-app",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-code-server-app",
+        "title": {
+          "en": "Code Server",
+          "zh": "Code Server"
+        },
+        "description": {
+          "en": "VS Code in DSH's right sidebar, following the session workspace; the agent reads unsaved buffers, diagnostics and the active selection.",
+          "zh": "在 DSH 右侧栏运行 VS Code 网页版，跟随会话工作区；agent 可读未保存缓冲区、诊断与选区，编辑器手势可驱动会话。"
+        },
+        "homepage": "https://github.com/jinsiyu/dsh-code-server-app",
+        "repository": {
+          "url": "https://github.com/jinsiyu/dsh-code-server-app"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMTQ3IDE0NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8c3R5bGU+QG1lZGlhIChwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykgeyogeyBmaWxsOiB3aGl0ZTsgfX08L3N0eWxlPgogIDxwYXRoIGQ9Im00Mi40MjE0LDM5LjY1NWMtMjQuNDA1NywwIC00Mi4xNTU0LDEzLjE3MjEgLTQyLjE1NTQsMzMuODQ1YzAsMjAuNTgxNCAxOC40ODkyLDMzLjg0NSA0Mi4xNTU0LDMzLjg0NWMyMy42NjYyLDAgMzguMTgwMywtMTEuNjE3MSAzOC43MzQ5LC0yOC43MjI1bC0yMS4wNzc3LC0wLjQ1NzRjLTAuOTI0NCw5LjMzMDMgLTkuMTA1OSwxNS4xODQ1IC0xNy42NTcyLDE1LjE4NDVjLTExLjc0MDYsMCAtMjAuNDMwNiwtNy41OTIyIC0yMC40MzA2LC0xOS44NDk2YzAsLTEyLjI1NzQgOC42OSwtMTkuOTg2OCAyMC40MzA2LC0yMC4yMTU1YzguNTUxMywtMC4xODMgMTYuOTE3Nyw1Ljk0NTcgMTcuNDcyMywxNS4yNzZsMjEuMDc3NywtMC42NDAzYy0wLjQ2MjIsLTE2LjgzMTEgLTE0LjE0NDIsLTI4LjI2NTIgLTM4LjU1LC0yOC4yNjUyem00OC44NDQ2LDJsNTUuNDY4LDBsMCw2NC4wMzExbC01NS40NjgsMGwwLC02NC4wMzExeiIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.3.75",
+            "publishTimestamp": 1794467317,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "af0ae1267bdd746460a81f4fd34d6ee4114b75df712a8c641aea65784965c465",
+      "evidence": [
+        {
+          "name": "dsh-code-server-app",
+          "version": "0.3.75",
+          "tarball": "https://registry.npmjs.org/dsh-code-server-app/-/dsh-code-server-app-0.3.75.tgz",
+          "integrity": "sha512-6b4/q9Dhj7LEobpNAGN+yNgnLi+AH1aQi6lJeyWJ9oaYp2xg7PDvi7I0/Eysyl35eLfqG/5MIg1eMZSP6wMhmw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-code-server-app@0.2.1",
+      "origin": "npm",
+      "name": "dsh-code-server-app",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-code-server-app",
+        "title": "dsh-code-server-app",
+        "description": "VS Code (from a code-server release) inside DSH Web and Desktop: right-sidebar tab with a floating-ball fallback, driven by the plugin's own launcher over the in-process VS Code server (lib/launcher.mjs). Two serving modes: loopback port (default) or same-origin mount on DSH's own webServer (/code-server, protected by ctx.connection.requestRejection). No code-server Node layer, no argon2, no C++ toolchain.",
+        "homepage": "https://github.com/jinsiyu/dsh-code-server-app",
+        "repository": {
+          "url": "https://github.com/jinsiyu/dsh-code-server-app"
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1789030961,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "af0ae1267bdd746460a81f4fd34d6ee4114b75df712a8c641aea65784965c465",
+      "evidence": [
+        {
+          "name": "dsh-code-server-app",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-code-server-app/-/dsh-code-server-app-0.2.1.tgz",
+          "integrity": "sha512-2e04Hjygjxv9vjxaHVdQSF0WygP/LWUXLg++/zhYs+AubPeDj0HSi/UUZp1sU46hx7jqFznno0wXp7hhkAJmxA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-code-server-app@0.3.69",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-code-server-app",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-code-server-app@0.2.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jinsiyu/dsh-code-server-app",
+    "commit": "d6f8cd26d5251bcfd9cb989618db285cdf010afc",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:10.551Z"
+}

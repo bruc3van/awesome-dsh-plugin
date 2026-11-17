@@ -1,0 +1,69 @@
+{
+  "full_name": "firecrawl/dsh-firecrawl",
+  "originalPosition": 40,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 40,
+  "batch": 1,
+  "stargazers_count": 18,
+  "startedAt": "2026-11-17T08:15:18.792Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ab25f34f90f495c669b93936690626e2363aae57c058232f004d6ed0631c925c",
+      "url": "https://github.com/firecrawl/dsh-firecrawl/blob/2204a7ec9cbcf814601182de64204a6ce525b5ff/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@firecrawl/dsh-firecrawl",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/firecrawl/dsh-firecrawl",
+        "commit": "2204a7ec9cbcf814601182de64204a6ce525b5ff"
+      },
+      "manifestSha256": "7c28f7c03813dda072f3401797f09c70882158eae24b5cf1bb3922f30fec9441",
+      "manifestUrl": "https://github.com/firecrawl/dsh-firecrawl/blob/2204a7ec9cbcf814601182de64204a6ce525b5ff/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@firecrawl/dsh-firecrawl",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786936797,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/firecrawl/dsh-firecrawl",
+              "commit": "2204a7ec9cbcf814601182de64204a6ce525b5ff"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/firecrawl/dsh-firecrawl",
+    "commit": "2204a7ec9cbcf814601182de64204a6ce525b5ff",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:20.698Z"
+}

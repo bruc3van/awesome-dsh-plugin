@@ -1,0 +1,50 @@
+{
+  "full_name": "uson1x/dsh-plugin-llm-verifier",
+  "originalPosition": 189,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:29.451Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d69cc3040b2b9e8388e0d8de1b811616570764f6749668f600cdee1515fe262c",
+      "url": "https://github.com/uson1x/dsh-plugin-llm-verifier/blob/5bd2a6704e679f2eb88a2146d2c6d459edc5d1e5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/uson1x/dsh-plugin-llm-verifier",
+    "commit": "5bd2a6704e679f2eb88a2146d2c6d459edc5d1e5",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-plugin-llm-verifier",
+    "version": "0.8.0",
+    "dsh": {
+      "client": {
+        "inject": [
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-ui-tool"
+        ],
+        "platform": "web"
+      }
+    },
+    "engines": {
+      "node": ">=20"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:13:31.441Z"
+}

@@ -1,0 +1,81 @@
+{
+  "full_name": "yoli-mi/dsh-client-ui-custom",
+  "originalPosition": 9,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 9,
+  "batch": 1,
+  "stargazers_count": 39,
+  "startedAt": "2026-11-17T08:15:03.654Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bbe8406ce24b066703704efde9ac4d9c092b2cb847c07c56522f30ef72ccdf18",
+      "url": "https://github.com/yoli-mi/dsh-client-ui-custom/blob/edf1ef701e360577ddde1a5c6d79fdce17a1744e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/yoli-mi/dsh-client-ui-custom.git",
+          "command": "dsh plugin --profile web add git+https://github.com/yoli-mi/dsh-client-ui-custom.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ha-na-bi/dsh-client-ui-custom",
+      "version": "0.1.0-rc.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yoli-mi/dsh-client-ui-custom",
+        "commit": "edf1ef701e360577ddde1a5c6d79fdce17a1744e"
+      },
+      "manifestSha256": "ce4394b6b08d59e7573d7a080e9e8f884231ba0d28755c41bdcc441e4840e192",
+      "manifestUrl": "https://github.com/yoli-mi/dsh-client-ui-custom/blob/edf1ef701e360577ddde1a5c6d79fdce17a1744e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@ha-na-bi/dsh-client-ui-custom",
+        "versions": [
+          {
+            "version": "0.1.0-rc.7",
+            "publishTimestamp": 1790592932,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yoli-mi/dsh-client-ui-custom",
+              "commit": "edf1ef701e360577ddde1a5c6d79fdce17a1744e"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/yoli-mi/dsh-client-ui-custom.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yoli-mi/dsh-client-ui-custom",
+    "commit": "edf1ef701e360577ddde1a5c6d79fdce17a1744e",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:05.762Z"
+}

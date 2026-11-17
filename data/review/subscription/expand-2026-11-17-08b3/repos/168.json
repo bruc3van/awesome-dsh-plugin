@@ -1,0 +1,93 @@
+{
+  "full_name": "Guojiz/gitlearnos",
+  "originalPosition": 168,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 168,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:15.905Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1fca338cc4cc94151dc5841263ab75f06c6f6ce53d4f70076f573ce61644a100",
+      "url": "https://github.com/Guojiz/gitlearnos/blob/3db0bac03ff655fe7c833f941486a7db3ecde264/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "zh-CN/README.md",
+      "sha256": "f5a05d122a80a2fba9e06173e39e0e0d4f758ba8e7768727178f90482e88c574",
+      "url": "https://github.com/Guojiz/gitlearnos/blob/3db0bac03ff655fe7c833f941486a7db3ecde264/zh-CN/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "adapters/deepseek-harness/README.md",
+      "sha256": "1f6217a5d8192617bea081263ff96590185e2553cc873399ef17624ff3199343",
+      "url": "https://github.com/Guojiz/gitlearnos/blob/3db0bac03ff655fe7c833f941486a7db3ecde264/adapters/deepseek-harness/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "evals/README.md",
+      "sha256": "7bd2d36850bdf7bba2db9e7ebca61e2286603416de6bf8f465dab56c08f8198d",
+      "url": "https://github.com/Guojiz/gitlearnos/blob/3db0bac03ff655fe7c833f941486a7db3ecde264/evals/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "gitlearnos",
+      "version": "2.0.0-alpha.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Guojiz/gitlearnos",
+        "commit": "3db0bac03ff655fe7c833f941486a7db3ecde264"
+      },
+      "manifestSha256": "901284ef59943be467a088da2ad66e8ee402b3f608a4a86f06d231f129c134b5",
+      "manifestUrl": "https://github.com/Guojiz/gitlearnos/blob/3db0bac03ff655fe7c833f941486a7db3ecde264/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "gitlearnos",
+        "versions": [
+          {
+            "version": "2.0.0-alpha.3",
+            "publishTimestamp": 1790431803,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Guojiz/gitlearnos",
+              "commit": "3db0bac03ff655fe7c833f941486a7db3ecde264"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Guojiz/gitlearnos",
+    "commit": "3db0bac03ff655fe7c833f941486a7db3ecde264",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:19.164Z"
+}

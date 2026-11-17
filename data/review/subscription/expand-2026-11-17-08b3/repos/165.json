@@ -1,0 +1,145 @@
+{
+  "full_name": "GooDAnDReaDY/dsh-messenger-gateway",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:14.274Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3e72c1134edf532a6e96ea533309112ac545ead1d64cd0d7b27ae632e3bdfa29",
+      "url": "https://github.com/GooDAnDReaDY/dsh-messenger-gateway/blob/9d57c932b5276a2e5e86c98ae8874c9f91595ed4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-messenger-gateway",
+          "command": "dsh plugin --profile web add @goodandready/dsh-messenger-gateway",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3f900db21f39b42edab80314631e3156157db62dc645689ebf617c40e63c236f",
+      "url": "https://github.com/GooDAnDReaDY/dsh-messenger-gateway/blob/9d57c932b5276a2e5e86c98ae8874c9f91595ed4/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-messenger-gateway",
+          "command": "dsh plugin --profile web add @goodandready/dsh-messenger-gateway",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@goodandready/dsh-messenger-gateway",
+      "version": "0.4.37",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GooDAnDReaDY/dsh-messenger-gateway",
+        "commit": "9d57c932b5276a2e5e86c98ae8874c9f91595ed4"
+      },
+      "manifestSha256": "b985ab1483430442cbd30eacd948efc8b6b1785db7c1f466cb1dd9e10c8358fb",
+      "manifestUrl": "https://github.com/GooDAnDReaDY/dsh-messenger-gateway/blob/9d57c932b5276a2e5e86c98ae8874c9f91595ed4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-rc.2 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@goodandready/dsh-messenger-gateway",
+        "versions": [
+          {
+            "version": "0.4.37",
+            "publishTimestamp": 1794864247,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GooDAnDReaDY/dsh-messenger-gateway",
+              "commit": "9d57c932b5276a2e5e86c98ae8874c9f91595ed4"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@goodandready/dsh-messenger-gateway",
+      "origin": "npm",
+      "name": "@goodandready/dsh-messenger-gateway",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@goodandready/dsh-messenger-gateway",
+        "title": "@goodandready/dsh-messenger-gateway",
+        "description": "Telegram messenger bridge for DeepSeek Harness: sessions, steer, homes, inline asks, notify bridge, and optional TTS voice notes.",
+        "homepage": "https://github.com/GooDAnDReaDY/dsh-messenger-gateway#readme",
+        "repository": {
+          "url": "https://github.com/GooDAnDReaDY/dsh-messenger-gateway"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "telegram",
+            "messenger",
+            "deepseek-harness",
+            "bot"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.37",
+            "publishTimestamp": 1794864331,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "deb6f457cde6fd479afa3bbfb21a4879ae5b2593d5b14ff4910502e101e40446",
+      "evidence": [
+        {
+          "name": "@goodandready/dsh-messenger-gateway",
+          "version": "0.4.37",
+          "tarball": "https://registry.npmjs.org/@goodandready/dsh-messenger-gateway/-/dsh-messenger-gateway-0.4.37.tgz",
+          "integrity": "sha512-ADSYlh1okYNlTqd7ZEhFBxsO/zCqRvYlgo4r9s/iMl5lJAfNy+18MHAPykaGFmnGfRdgh3cIb64ONsz+oPJJ9g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@goodandready/dsh-messenger-gateway",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GooDAnDReaDY/dsh-messenger-gateway",
+    "commit": "9d57c932b5276a2e5e86c98ae8874c9f91595ed4",
+    "releaseTags": 54,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:17.121Z"
+}

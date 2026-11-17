@@ -1,0 +1,66 @@
+{
+  "full_name": "lihang-lh/dsh-task-panel",
+  "originalPosition": 156,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 156,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:11.653Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "466cf77db7072d5e1de2dcf90354b3a24843138650d9063bac3b056690d88834",
+      "url": "https://github.com/lihang-lh/dsh-task-panel/blob/7c0c3d8aff808488735b318578221b94cde9ef8a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-task-panel",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lihang-lh/dsh-task-panel",
+        "commit": "7c0c3d8aff808488735b318578221b94cde9ef8a"
+      },
+      "manifestSha256": "cf4d33172c52de14a36cf75db2a77d98ce67cb21c2c604603e7654382b51bb2c",
+      "manifestUrl": "https://github.com/lihang-lh/dsh-task-panel/blob/7c0c3d8aff808488735b318578221b94cde9ef8a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-task-panel",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789719630,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lihang-lh/dsh-task-panel",
+              "commit": "7c0c3d8aff808488735b318578221b94cde9ef8a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lihang-lh/dsh-task-panel",
+    "commit": "7c0c3d8aff808488735b318578221b94cde9ef8a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:13.691Z"
+}

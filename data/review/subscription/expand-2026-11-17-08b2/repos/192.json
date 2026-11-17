@@ -1,0 +1,162 @@
+{
+  "full_name": "wbb316/dsh-comfyui-image",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:31.893Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4643639907311f7dba6cf53ecc6d24836c404b729cac664c30ed254ae92474c6",
+      "url": "https://github.com/wbb316/dsh-comfyui-image/blob/eddc3f6ccad005dff7e9a11746948f42c0998583/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-comfyui-image",
+          "command": "dsh plugin --profile <你的 profile> add dsh-comfyui-image",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/wbb316/dsh-comfyui-image",
+          "command": "dsh plugin --profile <你的 profile> add github:wbb316/dsh-comfyui-image",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "68808b751a252071c4328b007d0ec2ba8aad66ff4a887e45d489115b657a0a0e",
+      "url": "https://github.com/wbb316/dsh-comfyui-image/blob/eddc3f6ccad005dff7e9a11746948f42c0998583/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-comfyui-image",
+          "command": "dsh plugin --profile <your profile> add dsh-comfyui-image",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/wbb316/dsh-comfyui-image",
+          "command": "dsh plugin --profile <your profile> add github:wbb316/dsh-comfyui-image",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-comfyui-image",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wbb316/dsh-comfyui-image",
+        "commit": "eddc3f6ccad005dff7e9a11746948f42c0998583"
+      },
+      "manifestSha256": "24d8253a5308fad46806356bc57053254f33cefd99ca372c419f9c0066879092",
+      "manifestUrl": "https://github.com/wbb316/dsh-comfyui-image/blob/eddc3f6ccad005dff7e9a11746948f42c0998583/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-comfyui-image",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1791118549,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wbb316/dsh-comfyui-image",
+              "commit": "eddc3f6ccad005dff7e9a11746948f42c0998583"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-comfyui-image",
+      "origin": "npm",
+      "name": "dsh-comfyui-image",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-comfyui-image",
+        "title": "dsh-comfyui-image",
+        "description": "DSH 图片生成插件：本地 ComfyUI 后端，对外只暴露一个统一的 generate_image 工具（文生图 / 图生图 / 局部重绘 / 背景移除）。A DSH image-generation plugin backed by a local ComfyUI server.",
+        "author": "dsh-comfyui-image contributors",
+        "homepage": "https://github.com/wbb316/dsh-comfyui-image#readme",
+        "repository": {
+          "url": "https://github.com/wbb316/dsh-comfyui-image"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "comfyui",
+            "image-generation",
+            "text2img",
+            "img2img",
+            "inpaint",
+            "remove-background",
+            "stable-diffusion",
+            "图片生成"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkNvbWZ5VUkgaW1hZ2UgZ2VuZXJhdGlvbiI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNGY4Y2ZmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzhiNWNmNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9InVybCgjZykiLz4KICA8Y2lyY2xlIGN4PSIyNCIgY3k9IjI0IiByPSI1IiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIwLjk1Ii8+CiAgPHBhdGggZD0iTTEyIDQ4bDEzLTE1IDkgMTAgNy03IDExIDEyeiIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iMC45NSIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1791118642,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0d41d9d201b0f854df951d0bd00456cf110f297a63add719e9e7853058be0e0e",
+      "evidence": [
+        {
+          "name": "dsh-comfyui-image",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-comfyui-image/-/dsh-comfyui-image-0.1.1.tgz",
+          "integrity": "sha512-aEGi9OPQ995kHyrSBLYNOZ4b5Nd2/5BzEBnzUOZ7l1C2oK1Mia5SpwGqvr/+EtZf9g59O/5W4z70/naaGopGzQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-comfyui-image",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/wbb316/dsh-comfyui-image",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wbb316/dsh-comfyui-image",
+    "commit": "eddc3f6ccad005dff7e9a11746948f42c0998583",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:34.443Z"
+}

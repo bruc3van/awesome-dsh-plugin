@@ -1,0 +1,69 @@
+{
+  "full_name": "xiaozhe7772222/dsh-api-key-pool",
+  "originalPosition": 92,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 92,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:12:46.501Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1881ab07c3593dbe78016f26b4ff938b9a834710f5f678f90f1ba764558fc69e",
+      "url": "https://github.com/xiaozhe7772222/dsh-api-key-pool/blob/ce5fbe534d0e7e95c960eddc29e527dd2fd5256c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-api-key-pool",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaozhe7772222/dsh-api-key-pool",
+        "commit": "ce5fbe534d0e7e95c960eddc29e527dd2fd5256c"
+      },
+      "manifestSha256": "53efbf48e4f73114531d0a065a6ae1b94b4f892312911b1ed8efedc19afd466d",
+      "manifestUrl": "https://github.com/xiaozhe7772222/dsh-api-key-pool/blob/ce5fbe534d0e7e95c960eddc29e527dd2fd5256c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-api-key-pool",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1786959888,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiaozhe7772222/dsh-api-key-pool",
+              "commit": "ce5fbe534d0e7e95c960eddc29e527dd2fd5256c"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaozhe7772222/dsh-api-key-pool",
+    "commit": "ce5fbe534d0e7e95c960eddc29e527dd2fd5256c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:48.332Z"
+}

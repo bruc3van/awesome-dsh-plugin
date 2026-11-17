@@ -1,0 +1,128 @@
+{
+  "full_name": "DDDMUC/dsh-as-aistudio",
+  "originalPosition": 151,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 151,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:06.298Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5621395b16398960f39474c09d4d74ff2a42f8d760c3e24c5b47d167496e42e2",
+      "url": "https://github.com/DDDMUC/dsh-as-aistudio/blob/8392e29973c36f99ff1e6600f64d553480f432c1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-as-aistudio",
+          "command": "dsh plugin --profile web add dsh-as-aistudio",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-as-aistudio",
+      "version": "0.5.23",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DDDMUC/dsh-as-aistudio",
+        "commit": "8392e29973c36f99ff1e6600f64d553480f432c1"
+      },
+      "manifestSha256": "0de3349fe59c567ecd9abf97fcbeb3da39fe7bdccf5de91b5663ec557340bc79",
+      "manifestUrl": "https://github.com/DDDMUC/dsh-as-aistudio/blob/8392e29973c36f99ff1e6600f64d553480f432c1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-as-aistudio",
+        "versions": [
+          {
+            "version": "0.5.23",
+            "publishTimestamp": 1794333660,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DDDMUC/dsh-as-aistudio",
+              "commit": "8392e29973c36f99ff1e6600f64d553480f432c1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-as-aistudio",
+      "origin": "npm",
+      "name": "dsh-as-aistudio",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-as-aistudio",
+        "title": "dsh-as-aistudio",
+        "description": "Google-AI-Studio-style turn controls for DeepSeek Harness, in one install: edit a prompt and re-run it, re-run a reply in place, delete a turn from the model context, render sent prompts as Markdown, and trim idle session logs on boot. Self-contained: the plugin list shows this one row, and the five components (four actions + one maintenance) are vendored inside it - installing the studio installs nothing else.",
+        "repository": {
+          "url": "https://github.com/DDDMUC/dsh-as-aistudio"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "aistudio",
+            "ai-studio",
+            "edit",
+            "rerun",
+            "delete",
+            "markdown",
+            "turn"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1794598522,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "482296b5ad08a70c0d34bd5ffedd2fda4c16524e0c5ea049d825d93010d0ed11",
+      "evidence": [
+        {
+          "name": "dsh-as-aistudio",
+          "version": "0.6.1",
+          "tarball": "https://registry.npmjs.org/dsh-as-aistudio/-/dsh-as-aistudio-0.6.1.tgz",
+          "integrity": "sha512-YM6o9eysztjANPbDmQ1JVnoKRBrsgbo1CX/J1sKP780tRTX9P+16UbZLDv8CdAvNWrIje8CxAmMIXoDOjRQ8qQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-as-aistudio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DDDMUC/dsh-as-aistudio",
+    "commit": "8392e29973c36f99ff1e6600f64d553480f432c1",
+    "releaseTags": 50,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:08.572Z"
+}

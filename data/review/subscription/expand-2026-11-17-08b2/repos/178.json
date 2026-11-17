@@ -1,0 +1,175 @@
+{
+  "full_name": "soolaugust/deepseek-harness-cli",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:22.541Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8c1e8bbdab18da1568eb555d5e75e5004b956321d09543aed5a7c627ea481fa6",
+      "url": "https://github.com/soolaugust/deepseek-harness-cli/blob/16acd8438b8494e45d010fe2d1a3950d854c8762/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "70bcacbcd44fde6a6895beb94432020c470f80844a489a0c04138ea7d522bd42",
+      "url": "https://github.com/soolaugust/deepseek-harness-cli/blob/16acd8438b8494e45d010fe2d1a3950d854c8762/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-base",
+      "version": "0.1.0",
+      "path": "packages/bundle/base",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/soolaugust/deepseek-harness-cli",
+        "commit": "16acd8438b8494e45d010fe2d1a3950d854c8762",
+        "path": "packages/bundle/base"
+      },
+      "manifestSha256": "6a673cffb0ffc4390151b53235661cbf8a820c10ae60d958be97ba7ca4d27f0e",
+      "manifestUrl": "https://github.com/soolaugust/deepseek-harness-cli/blob/16acd8438b8494e45d010fe2d1a3950d854c8762/packages/bundle/base/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-base",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786978745,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/soolaugust/deepseek-harness-cli",
+              "commit": "16acd8438b8494e45d010fe2d1a3950d854c8762",
+              "path": "packages/bundle/base"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-cli",
+      "version": "0.1.0",
+      "path": "packages/bundle/cli",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/soolaugust/deepseek-harness-cli",
+        "commit": "16acd8438b8494e45d010fe2d1a3950d854c8762",
+        "path": "packages/bundle/cli"
+      },
+      "manifestSha256": "5890b2777c9dfa3caf4ab766e889b3154294b301d2ff66fe7ec360a8d4ccc728",
+      "manifestUrl": "https://github.com/soolaugust/deepseek-harness-cli/blob/16acd8438b8494e45d010fe2d1a3950d854c8762/packages/bundle/cli/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-cli",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786978745,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/soolaugust/deepseek-harness-cli",
+              "commit": "16acd8438b8494e45d010fe2d1a3950d854c8762",
+              "path": "packages/bundle/cli"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-headless",
+      "version": "0.1.0",
+      "path": "packages/bundle/headless",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/soolaugust/deepseek-harness-cli",
+        "commit": "16acd8438b8494e45d010fe2d1a3950d854c8762",
+        "path": "packages/bundle/headless"
+      },
+      "manifestSha256": "fab03478dd0e6591e8b55f77e82f56f42c480bc4ab5f9de6ea73a15f6bf264d5",
+      "manifestUrl": "https://github.com/soolaugust/deepseek-harness-cli/blob/16acd8438b8494e45d010fe2d1a3950d854c8762/packages/bundle/headless/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-headless",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786978745,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/soolaugust/deepseek-harness-cli",
+              "commit": "16acd8438b8494e45d010fe2d1a3950d854c8762",
+              "path": "packages/bundle/headless"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-web-app",
+      "version": "0.1.0",
+      "path": "packages/bundle/web-app",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/soolaugust/deepseek-harness-cli",
+        "commit": "16acd8438b8494e45d010fe2d1a3950d854c8762",
+        "path": "packages/bundle/web-app"
+      },
+      "manifestSha256": "ec2b8edd9283e81c9096b010024dc01fd44a772fb7a5d9b657d69569c5d61f86",
+      "manifestUrl": "https://github.com/soolaugust/deepseek-harness-cli/blob/16acd8438b8494e45d010fe2d1a3950d854c8762/packages/bundle/web-app/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-web-app",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786978745,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/soolaugust/deepseek-harness-cli",
+              "commit": "16acd8438b8494e45d010fe2d1a3950d854c8762",
+              "path": "packages/bundle/web-app"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/soolaugust/deepseek-harness-cli",
+    "commit": "16acd8438b8494e45d010fe2d1a3950d854c8762",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:14:59.089Z"
+}

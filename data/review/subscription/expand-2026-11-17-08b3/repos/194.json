@@ -1,0 +1,74 @@
+{
+  "full_name": "NINKCH/dsh-artcraft",
+  "originalPosition": 194,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 194,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:26.846Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c1791aab1e71f58cea496a72bb9092ff2f80f4ab220ab1ac13408c3d403d4891",
+      "url": "https://github.com/NINKCH/dsh-artcraft/blob/489437736cdaf2139210df57f17819128b6156b0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "807d7251dceb423d968c28a34254b249e9baf5f8171078e364857c4402744971",
+      "url": "https://github.com/NINKCH/dsh-artcraft/blob/489437736cdaf2139210df57f17819128b6156b0/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ninkch/dsh-artcraft",
+      "version": "0.3.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NINKCH/dsh-artcraft",
+        "commit": "489437736cdaf2139210df57f17819128b6156b0"
+      },
+      "manifestSha256": "2094daaa8582acd01fb5a36a6c5b064bd1004aa22579166f0bbbbc6ba0816072",
+      "manifestUrl": "https://github.com/NINKCH/dsh-artcraft/blob/489437736cdaf2139210df57f17819128b6156b0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@ninkch/dsh-artcraft",
+        "versions": [
+          {
+            "version": "0.3.6",
+            "publishTimestamp": 1794282802,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NINKCH/dsh-artcraft",
+              "commit": "489437736cdaf2139210df57f17819128b6156b0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NINKCH/dsh-artcraft",
+    "commit": "489437736cdaf2139210df57f17819128b6156b0",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:29.171Z"
+}

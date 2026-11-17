@@ -1,0 +1,160 @@
+{
+  "full_name": "117BS/dsh-perlica-ding",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:15:54.379Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "225f7765d003d5dc45cd1d06b5082f3188dc815608d8c56a3d70e6022e397c07",
+      "url": "https://github.com/117BS/dsh-perlica-ding/blob/f9db75c3cff13919659e81311a2b3d62f9af8aab/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-perlica-ding",
+          "command": "dsh plugin --profile web add dsh-perlica-ding",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/117BS/dsh-perlica-ding",
+          "command": "dsh plugin --profile web add https://github.com/117BS/dsh-perlica-ding",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e45b52fa7d1ba34b27b9492a78a8f7723160749e3bd1d0c820eb6cb9c835fd12",
+      "url": "https://github.com/117BS/dsh-perlica-ding/blob/f9db75c3cff13919659e81311a2b3d62f9af8aab/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-perlica-ding",
+          "command": "dsh plugin --profile web add dsh-perlica-ding",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/117BS/dsh-perlica-ding",
+          "command": "dsh plugin --profile web add https://github.com/117BS/dsh-perlica-ding",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-perlica-ding",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/117BS/dsh-perlica-ding",
+        "commit": "f9db75c3cff13919659e81311a2b3d62f9af8aab"
+      },
+      "manifestSha256": "f4ca570a1a16cde9df95f49335333542aafa8409688186a145b5758df693e3e2",
+      "manifestUrl": "https://github.com/117BS/dsh-perlica-ding/blob/f9db75c3cff13919659e81311a2b3d62f9af8aab/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-perlica-ding",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1791380328,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/117BS/dsh-perlica-ding",
+              "commit": "f9db75c3cff13919659e81311a2b3d62f9af8aab"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-perlica-ding",
+      "origin": "npm",
+      "name": "dsh-perlica-ding",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-perlica-ding",
+        "title": "dsh-perlica-ding",
+        "description": "佩丽卡终端 (Perlica Terminal)：明日方舟终末地佩丽卡主题的分级任务提示音插件。计划出方案、任务完成、需要你回应、出错时播放不同提示音，普通问答静音。Perlica-themed tiered sound notifications for DeepSeek Harness: plan ready, task done, needs your input, error tones.",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "deepseek",
+            "plugin",
+            "notification",
+            "sound",
+            "beep",
+            "ding",
+            "task-complete",
+            "arknights",
+            "endfield",
+            "perlica",
+            "佩丽卡",
+            "明日方舟",
+            "终末地",
+            "提示音"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1791380281,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e7316b02ff3323e9795b6c4841727afc1806aa7195c3ba54fbab54b51a60f5e6",
+      "evidence": [
+        {
+          "name": "dsh-perlica-ding",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-perlica-ding/-/dsh-perlica-ding-0.2.1.tgz",
+          "integrity": "sha512-c8/OYwumHnDVaXs6ZIsfO56BpN0dE3CxB9BdbpRlGxcovYYuu12N4X80D02cTmMJg0+4ispPknuc2kFflECaDw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-perlica-ding",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/117BS/dsh-perlica-ding",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/117BS/dsh-perlica-ding",
+    "commit": "f9db75c3cff13919659e81311a2b3d62f9af8aab",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:56.883Z"
+}

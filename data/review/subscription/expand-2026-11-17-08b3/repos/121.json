@@ -1,0 +1,179 @@
+{
+  "full_name": "zhijun-dai/Solarized-dsh-theme",
+  "originalPosition": 121,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 121,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:15:53.857Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "da80d6f7b2f969d2ad1547fe10a5d811a10e5c6ebbbd277a71229db7a16378ba",
+      "url": "https://github.com/zhijun-dai/Solarized-dsh-theme/blob/a5b4bd74062688f3de805050422e6168091952f8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/zhijun-dai/Solarized-dsh-theme",
+          "command": "dsh plugin --profile web add github:zhijun-dai/Solarized-dsh-theme",
+          "profile": "web"
+        },
+        {
+          "install": "@yuquexianzhou/solarized-dsh-theme",
+          "command": "dsh plugin --profile web add @yuquexianzhou/solarized-dsh-theme",
+          "profile": "web"
+        },
+        {
+          "install": "@yuquexianzhou/solarized-dsh-theme",
+          "command": "dsh plugin --profile desktop add @yuquexianzhou/solarized-dsh-theme",
+          "profile": "desktop"
+        },
+        {
+          "install": "@yuquexianzhou/solarized-dsh-theme",
+          "command": "dsh plugin --profile dsh-tui add @yuquexianzhou/solarized-dsh-theme",
+          "profile": "dsh-tui"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6345fb82c852b85cf6920aeaa6086ccfe8adc3ecaeca7797d47be76223081514",
+      "url": "https://github.com/zhijun-dai/Solarized-dsh-theme/blob/a5b4bd74062688f3de805050422e6168091952f8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/zhijun-dai/Solarized-dsh-theme",
+          "command": "dsh plugin --profile web add github:zhijun-dai/Solarized-dsh-theme",
+          "profile": "web"
+        },
+        {
+          "install": "@yuquexianzhou/solarized-dsh-theme",
+          "command": "dsh plugin --profile web add @yuquexianzhou/solarized-dsh-theme",
+          "profile": "web"
+        },
+        {
+          "install": "@yuquexianzhou/solarized-dsh-theme",
+          "command": "dsh plugin --profile desktop add @yuquexianzhou/solarized-dsh-theme",
+          "profile": "desktop"
+        },
+        {
+          "install": "@yuquexianzhou/solarized-dsh-theme",
+          "command": "dsh plugin --profile dsh-tui add @yuquexianzhou/solarized-dsh-theme",
+          "profile": "dsh-tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yuquexianzhou/solarized-dsh-theme",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zhijun-dai/Solarized-dsh-theme",
+        "commit": "a5b4bd74062688f3de805050422e6168091952f8"
+      },
+      "manifestSha256": "2db4e207d39e7e0099be4f6a552c03accf52e831e4f28513ae210c65308036d6",
+      "manifestUrl": "https://github.com/zhijun-dai/Solarized-dsh-theme/blob/a5b4bd74062688f3de805050422e6168091952f8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@yuquexianzhou/solarized-dsh-theme",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1792497063,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zhijun-dai/Solarized-dsh-theme",
+              "commit": "a5b4bd74062688f3de805050422e6168091952f8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@yuquexianzhou/solarized-dsh-theme",
+      "origin": "npm",
+      "name": "@yuquexianzhou/solarized-dsh-theme",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@yuquexianzhou/solarized-dsh-theme",
+        "title": "@yuquexianzhou/solarized-dsh-theme",
+        "description": "Solarized + Selenized themes for DeepSeek Harness: four faithful palettes (Solarized Dark/Light, Selenized Dark/Light) registered into DSH's theme runtime with a picker row in Settings, including the canonical syntax colors for markdown code blocks",
+        "author": "zhijun-dai",
+        "repository": {
+          "url": "https://github.com/zhijun-dai/Solarized-dsh-theme"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "dsh-plugin",
+            "theme",
+            "solarized",
+            "selenized",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1788434454,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7e0a9fd80a6edfcdd4c91f9ba9065367238cef4c73a4e0b0c14c4867682a805f",
+      "evidence": [
+        {
+          "name": "@yuquexianzhou/solarized-dsh-theme",
+          "version": "0.2.2",
+          "tarball": "https://registry.npmjs.org/@yuquexianzhou/solarized-dsh-theme/-/solarized-dsh-theme-0.2.2.tgz",
+          "integrity": "sha512-aRZTgCYrIeSf3xuevqtrikiCmX3j5+DfMSuUr9mdZAZ1XNGHqSehBbevZtDjEfh7xnMYfFZWKkuH9ula1+PEdA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/zhijun-dai/Solarized-dsh-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@yuquexianzhou/solarized-dsh-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zhijun-dai/Solarized-dsh-theme",
+    "commit": "a5b4bd74062688f3de805050422e6168091952f8",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:56.714Z"
+}

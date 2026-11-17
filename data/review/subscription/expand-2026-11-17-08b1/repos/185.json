@@ -1,0 +1,74 @@
+{
+  "full_name": "dennisyang1986/polymarket-proxy",
+  "originalPosition": 185,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 185,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:11:55.438Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9778ad88558e66df197fb58bf1e07a76c332de0f44a2942c9c1407f09100e66f",
+      "url": "https://github.com/dennisyang1986/polymarket-proxy/blob/d61df1ac9f2bad1bc79668b3d963c2f0f90c6003/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "352504ce0218995949714ec8d672596743cdb8f805f906263c57097863cb44c4",
+      "url": "https://github.com/dennisyang1986/polymarket-proxy/blob/d61df1ac9f2bad1bc79668b3d963c2f0f90c6003/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-polymarket-proxy",
+      "version": "1.0.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dennisyang1986/polymarket-proxy",
+        "commit": "d61df1ac9f2bad1bc79668b3d963c2f0f90c6003"
+      },
+      "manifestSha256": "643d11162954d2070c2c16f3288df6577d8338f61c8ef7ba0067c260015a2241",
+      "manifestUrl": "https://github.com/dennisyang1986/polymarket-proxy/blob/d61df1ac9f2bad1bc79668b3d963c2f0f90c6003/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-polymarket-proxy",
+        "versions": [
+          {
+            "version": "1.0.4",
+            "publishTimestamp": 1794898904,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dennisyang1986/polymarket-proxy",
+              "commit": "d61df1ac9f2bad1bc79668b3d963c2f0f90c6003"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dennisyang1986/polymarket-proxy",
+    "commit": "d61df1ac9f2bad1bc79668b3d963c2f0f90c6003",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:11:57.516Z"
+}

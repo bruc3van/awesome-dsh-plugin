@@ -1,0 +1,223 @@
+{
+  "full_name": "LeemanCheung/dsh-image-gen",
+  "originalPosition": 179,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 179,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:21.133Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4034ab79cba379f766026d02bac75ee633bffeb312ec7c3eb381d6454d589a24",
+      "url": "https://github.com/LeemanCheung/dsh-image-gen/blob/627642acb027051dfde2eb0e91ad45dbb70c0d8d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LeemanCheung/dsh-image-gen#v0.4.1",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-image-gen#v0.4.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-image-gen",
+          "command": "dsh plugin add dsh-image-gen",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e2aa91d4265c386e6f9f096a878c1edf5ec25a5cb4f073cbac32e16ad9e54308",
+      "url": "https://github.com/LeemanCheung/dsh-image-gen/blob/627642acb027051dfde2eb0e91ad45dbb70c0d8d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LeemanCheung/dsh-image-gen#v0.4.1",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-image-gen#v0.4.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-image-gen",
+          "command": "dsh plugin add dsh-image-gen",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-image-gen",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LeemanCheung/dsh-image-gen",
+        "commit": "627642acb027051dfde2eb0e91ad45dbb70c0d8d"
+      },
+      "manifestSha256": "9ce652f97f429d01497a2c2d74c579f9f5cbe2ecce02e4c4c39d0b3a7536df7c",
+      "manifestUrl": "https://github.com/LeemanCheung/dsh-image-gen/blob/627642acb027051dfde2eb0e91ad45dbb70c0d8d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-image-gen",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1790524026,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LeemanCheung/dsh-image-gen",
+              "commit": "627642acb027051dfde2eb0e91ad45dbb70c0d8d"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/LeemanCheung/dsh-image-gen#v0.4.1",
+      "origin": "git_target",
+      "name": "dsh-image-gen",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-image-gen",
+        "title": "dsh-image-gen",
+        "description": "GPT Image 2.5 generation through Codex subscriptions or API keys, with progressive previews for DeepSeek Harness",
+        "homepage": "https://github.com/LeemanCheung/dsh-image-gen#readme",
+        "repository": {
+          "url": "https://github.com/LeemanCheung/dsh-image-gen"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "gpt-image-2.5",
+            "gpt-image-2",
+            "image-generation",
+            "openai"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1789136350,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LeemanCheung/dsh-image-gen",
+              "commit": "c5ee1a98fd392c312de25cf3a9b1458326178d15"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "c5ee1a98fd392c312de25cf3a9b1458326178d15",
+          "name": "dsh-image-gen",
+          "version": "0.4.1",
+          "url": "https://github.com/LeemanCheung/dsh-image-gen",
+          "manifestSha256": "eba8ca4a44319532d8d0c88a17e929805c6530f584f398446d3150251a644dbc",
+          "publishTimestamp": 1789136350
+        }
+      ]
+    },
+    {
+      "target": "dsh-image-gen",
+      "origin": "npm",
+      "name": "dsh-image-gen",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-image-gen",
+        "title": "dsh-image-gen",
+        "description": "Bring ChatGPT-like image generation to DeepSeek Harness — Gemini, OpenAI, Seedream, DashScope, local ComfyUI & more.",
+        "author": "shanliuling",
+        "homepage": "https://github.com/shanliuling/dsh-image-gen#readme",
+        "repository": {
+          "url": "https://github.com/shanliuling/dsh-image-gen"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "ai-agent",
+            "image-generation",
+            "ai-image-generation",
+            "multimodal",
+            "gemini",
+            "openai",
+            "openai-compatible",
+            "seedream",
+            "dashscope",
+            "comfyui",
+            "local-image-generation",
+            "wanx",
+            "aliyun",
+            "volcengine",
+            "byok",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.11.3",
+            "publishTimestamp": 1794813545,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "33df670faea03a219bc03b7fcfb7f42b2c3962ec0f200de55427ce1ad7563c49",
+      "evidence": [
+        {
+          "name": "dsh-image-gen",
+          "version": "0.11.3",
+          "tarball": "https://registry.npmjs.org/dsh-image-gen/-/dsh-image-gen-0.11.3.tgz",
+          "integrity": "sha512-eVJ6KwO5LbmcwuMU18hmv/yX2rvy0aebvhk6aH7p4QFMbg4y9FEywSPG6c4pltAHPcgznD/4BQFwE788ajHe3A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LeemanCheung/dsh-image-gen#v0.4.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-image-gen",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LeemanCheung/dsh-image-gen",
+    "commit": "627642acb027051dfde2eb0e91ad45dbb70c0d8d",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:25.449Z"
+}

@@ -1,0 +1,77 @@
+{
+  "full_name": "xlennart/dsh-side-chat",
+  "originalPosition": 199,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 199,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:37.430Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7cf857bf92ce5d025491ae083459d0dd7d338f9d6e18ebb8464bbc9c9b151106",
+      "url": "https://github.com/xlennart/dsh-side-chat/blob/acb3e676fa138cc844ef15fbedd96a6a8076f8d7/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "a1fbb0fb2793e252244b7593e1c80a29b12ddb79c2962ea9668b7b20c7d4211a",
+      "url": "https://github.com/xlennart/dsh-side-chat/blob/acb3e676fa138cc844ef15fbedd96a6a8076f8d7/README_EN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-side-chat",
+      "version": "1.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xlennart/dsh-side-chat",
+        "commit": "acb3e676fa138cc844ef15fbedd96a6a8076f8d7"
+      },
+      "manifestSha256": "5bbc9ba92ca8de51db3c937bd8e29e4a82b84c33d31c01f90158a62b5c186deb",
+      "manifestUrl": "https://github.com/xlennart/dsh-side-chat/blob/acb3e676fa138cc844ef15fbedd96a6a8076f8d7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-side-chat",
+        "versions": [
+          {
+            "version": "1.2.2",
+            "publishTimestamp": 1793892458,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xlennart/dsh-side-chat",
+              "commit": "acb3e676fa138cc844ef15fbedd96a6a8076f8d7"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xlennart/dsh-side-chat",
+    "commit": "acb3e676fa138cc844ef15fbedd96a6a8076f8d7",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:39.786Z"
+}

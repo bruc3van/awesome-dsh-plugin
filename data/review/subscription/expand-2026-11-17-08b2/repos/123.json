@@ -1,0 +1,161 @@
+{
+  "full_name": "chiro2001/dsh-oc",
+  "originalPosition": 123,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 123,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:57.610Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5f2caf536c6cb2701f155a613e3ad35d73385925b6a7064f148e6ab841612ccf",
+      "url": "https://github.com/chiro2001/dsh-oc/blob/d2c4c7ce6d8125dc0a2ce6ea53cfe406662c9f7b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/chiro2001/dsh-oc#v0.2.0-rc.4",
+          "command": "dsh plugin --profile oc add 'github:chiro2001/dsh-oc#v0.2.0-rc.4'",
+          "profile": "oc"
+        },
+        {
+          "install": "https://github.com/chiro2001/dsh-oc#develop",
+          "command": "dsh plugin --profile oc add 'github:chiro2001/dsh-oc#develop'",
+          "profile": "oc"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@chiro2001/dsh-oc",
+      "version": "0.2.0-rc.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chiro2001/dsh-oc",
+        "commit": "d2c4c7ce6d8125dc0a2ce6ea53cfe406662c9f7b"
+      },
+      "manifestSha256": "75d779c7f73ee0936c6553fa65fe508443288c1ce9057ba426d9bb52b90ce5cb",
+      "manifestUrl": "https://github.com/chiro2001/dsh-oc/blob/d2c4c7ce6d8125dc0a2ce6ea53cfe406662c9f7b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@chiro2001/dsh-oc",
+        "versions": [
+          {
+            "version": "0.2.0-rc.4",
+            "publishTimestamp": 1789121994,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chiro2001/dsh-oc",
+              "commit": "d2c4c7ce6d8125dc0a2ce6ea53cfe406662c9f7b"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/chiro2001/dsh-oc#v0.2.0-rc.4",
+      "origin": "git_target",
+      "name": "@chiro2001/dsh-oc",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@chiro2001/dsh-oc",
+        "title": "@chiro2001/dsh-oc",
+        "versions": [
+          {
+            "version": "0.2.0-rc.4",
+            "publishTimestamp": 1789121994,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chiro2001/dsh-oc",
+              "commit": "d2c4c7ce6d8125dc0a2ce6ea53cfe406662c9f7b"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "d2c4c7ce6d8125dc0a2ce6ea53cfe406662c9f7b",
+          "name": "@chiro2001/dsh-oc",
+          "version": "0.2.0-rc.4",
+          "url": "https://github.com/chiro2001/dsh-oc",
+          "manifestSha256": "75d779c7f73ee0936c6553fa65fe508443288c1ce9057ba426d9bb52b90ce5cb",
+          "publishTimestamp": 1789121994
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/chiro2001/dsh-oc#develop",
+      "origin": "git_target",
+      "name": "@chiro2001/dsh-oc",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@chiro2001/dsh-oc",
+        "title": "@chiro2001/dsh-oc",
+        "versions": [
+          {
+            "version": "0.2.0-rc.4",
+            "publishTimestamp": 1789122308,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chiro2001/dsh-oc",
+              "commit": "b453a252f25af94753b1655bbc1ce7643322eb00"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "b453a252f25af94753b1655bbc1ce7643322eb00",
+          "name": "@chiro2001/dsh-oc",
+          "version": "0.2.0-rc.4",
+          "url": "https://github.com/chiro2001/dsh-oc",
+          "manifestSha256": "75d779c7f73ee0936c6553fa65fe508443288c1ce9057ba426d9bb52b90ce5cb",
+          "publishTimestamp": 1789122308
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/chiro2001/dsh-oc#v0.2.0-rc.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/chiro2001/dsh-oc#develop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chiro2001/dsh-oc",
+    "commit": "d2c4c7ce6d8125dc0a2ce6ea53cfe406662c9f7b",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:02.812Z"
+}

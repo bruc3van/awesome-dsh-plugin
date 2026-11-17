@@ -1,0 +1,95 @@
+{
+  "full_name": "xiaozhe7772222/dsh-opencode-zen",
+  "originalPosition": 44,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 44,
+  "batch": 1,
+  "stargazers_count": 30,
+  "startedAt": "2026-11-17T08:10:53.963Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0bb47607b9bbdc17ccc7201a557cda103dcae9f58a90bededa27879d4e95abd3",
+      "url": "https://github.com/xiaozhe7772222/dsh-opencode-zen/blob/62e90514d64aaf3920a27e7fab6678e13ccf810a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xiaozhe7772222/dsh-opencode-zen",
+          "command": "dsh plugin --profile web add github:xiaozhe7772222/dsh-opencode-zen",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "a51ba7f8440b1946308bbdc4b9ba244199247f80de285ea63ae29fab7641704a",
+      "url": "https://github.com/xiaozhe7772222/dsh-opencode-zen/blob/62e90514d64aaf3920a27e7fab6678e13ccf810a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/xiaozhe7772222/dsh-opencode-zen",
+          "command": "dsh plugin --profile web add github:xiaozhe7772222/dsh-opencode-zen",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-opencode-zen",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xiaozhe7772222/dsh-opencode-zen",
+        "commit": "62e90514d64aaf3920a27e7fab6678e13ccf810a"
+      },
+      "manifestSha256": "05bceb16c147fa3c837097588fb742dfad86c610eae0bbf3dcec0c270abc1c3d",
+      "manifestUrl": "https://github.com/xiaozhe7772222/dsh-opencode-zen/blob/62e90514d64aaf3920a27e7fab6678e13ccf810a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-opencode-zen",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787249202,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xiaozhe7772222/dsh-opencode-zen",
+              "commit": "62e90514d64aaf3920a27e7fab6678e13ccf810a"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xiaozhe7772222/dsh-opencode-zen",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xiaozhe7772222/dsh-opencode-zen",
+    "commit": "62e90514d64aaf3920a27e7fab6678e13ccf810a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:10:56.332Z"
+}

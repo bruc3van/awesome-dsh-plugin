@@ -1,0 +1,152 @@
+{
+  "full_name": "Ansellwan/DeepSeekHarness-Session-Delete",
+  "originalPosition": 141,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 141,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:01.690Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1470b0a7b9d7e3c890b30f1232217cd68adbfdad533700d3aa850c43a89abc90",
+      "url": "https://github.com/Ansellwan/DeepSeekHarness-Session-Delete/blob/475c26f859622957a2f53254af0bdf98b46dd98f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ansellwan/DeepSeekHarness-Session-Delete",
+          "command": "dsh plugin --profile desktop add github:Ansellwan/DeepSeekHarness-Session-Delete",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-session-clean",
+          "command": "dsh plugin --profile desktop add dsh-session-clean",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "1b819278019baa60fc004ac403ea6295282247d5cf46073c85fc09517f925bd4",
+      "url": "https://github.com/Ansellwan/DeepSeekHarness-Session-Delete/blob/475c26f859622957a2f53254af0bdf98b46dd98f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Ansellwan/DeepSeekHarness-Session-Delete",
+          "command": "dsh plugin --profile desktop add github:Ansellwan/DeepSeekHarness-Session-Delete",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-session-clean",
+          "command": "dsh plugin --profile desktop add dsh-session-clean",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-clean",
+      "version": "1.6.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ansellwan/DeepSeekHarness-Session-Delete",
+        "commit": "475c26f859622957a2f53254af0bdf98b46dd98f"
+      },
+      "manifestSha256": "9ed5cfa7c441c27d8e6ac80d9cc2d74b23c63f5a63be0b717f29ed51920aeab0",
+      "manifestUrl": "https://github.com/Ansellwan/DeepSeekHarness-Session-Delete/blob/475c26f859622957a2f53254af0bdf98b46dd98f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-session-clean",
+        "versions": [
+          {
+            "version": "1.6.4",
+            "publishTimestamp": 1794886265,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ansellwan/DeepSeekHarness-Session-Delete",
+              "commit": "475c26f859622957a2f53254af0bdf98b46dd98f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-session-clean",
+      "origin": "npm",
+      "name": "dsh-session-clean",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-session-clean",
+        "title": "dsh-session-clean",
+        "description": "为 DeepSeek Harness 侧栏会话补上官方缺失的「删除会话」：运行中置灰、二次确认、真正删除（列表、登记与磁盘数据一并清除，做不到时如实告知）；侧栏底部另有「清理分组」面板，可批量清空整组会话或清空并移除分组。Adds the missing per-session Delete action and a workspace cleanup panel to the DeepSeek Harness sidebar.",
+        "author": "Ansellwan",
+        "homepage": "https://github.com/Ansellwan/DeepSeekHarness-Session-Delete#readme",
+        "repository": {
+          "url": "https://github.com/Ansellwan/DeepSeekHarness-Session-Delete"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "session-management"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.6.4",
+            "publishTimestamp": 1794886842,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fc974ddd312cc24021c78cd04997b9db10dd88e58f30af4d57c18bd5e4b7f426",
+      "evidence": [
+        {
+          "name": "dsh-session-clean",
+          "version": "1.6.4",
+          "tarball": "https://registry.npmjs.org/dsh-session-clean/-/dsh-session-clean-1.6.4.tgz",
+          "integrity": "sha512-6Ezk9iD98t2DWTZcZd0WpWMAInKmbQPoVca2jIGuKvlfajyNuy+xKjSWE+oVOCciggVDGO+Q2R5gYonXHCI4SQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Ansellwan/DeepSeekHarness-Session-Delete",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-session-clean",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ansellwan/DeepSeekHarness-Session-Delete",
+    "commit": "475c26f859622957a2f53254af0bdf98b46dd98f",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:04.155Z"
+}

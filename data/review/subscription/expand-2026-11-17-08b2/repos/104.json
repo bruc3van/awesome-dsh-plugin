@@ -1,0 +1,42 @@
+{
+  "full_name": "Fisfzy/zotero-harvest",
+  "originalPosition": 104,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 104,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:50.822Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bab339d83bf4d5d3fc7d531d8e36573df5f0cdfaa9ed8ebda0e57d0263775fc1",
+      "url": "https://github.com/Fisfzy/zotero-harvest/blob/9635a4f27ba186f414d3ba23042bd12ee176cddc/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fisfzy/zotero-harvest",
+    "commit": "9635a4f27ba186f414d3ba23042bd12ee176cddc",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@dsh-external/zotero-harvest",
+    "version": "0.2.0",
+    "dsh": null,
+    "engines": {
+      "dsh": ">=0.0.1"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:12:53.068Z"
+}

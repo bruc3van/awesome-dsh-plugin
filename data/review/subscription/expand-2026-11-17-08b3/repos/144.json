@@ -1,0 +1,66 @@
+{
+  "full_name": "BertramWang12399/dsh-projects-mode",
+  "originalPosition": 144,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:03.304Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a810436f0da11efa39786cf7265cb7bc87154291b80e1b73f52109dceb5e561a",
+      "url": "https://github.com/BertramWang12399/dsh-projects-mode/blob/1bf2083b01564f09a665d06b7e74003b1f2c1029/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-projects-mode",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BertramWang12399/dsh-projects-mode",
+        "commit": "1bf2083b01564f09a665d06b7e74003b1f2c1029"
+      },
+      "manifestSha256": "923be1ec438482b17027ad01bfccc9dfdf74aa413894f391cd7d99ac7c0ae043",
+      "manifestUrl": "https://github.com/BertramWang12399/dsh-projects-mode/blob/1bf2083b01564f09a665d06b7e74003b1f2c1029/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-projects-mode",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1788407577,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BertramWang12399/dsh-projects-mode",
+              "commit": "1bf2083b01564f09a665d06b7e74003b1f2c1029"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BertramWang12399/dsh-projects-mode",
+    "commit": "1bf2083b01564f09a665d06b7e74003b1f2c1029",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:05.159Z"
+}

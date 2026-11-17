@@ -1,0 +1,81 @@
+{
+  "full_name": "L3n3L/dsh-resume",
+  "originalPosition": 177,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 177,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:19.536Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6241a88b7b5a9fba8187cbb87e75f4a8e792c1e2df9ba4af997c7885776849af",
+      "url": "https://github.com/L3n3L/dsh-resume/blob/26403f653f60a40c9d3d08b95486501b18869cdd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/L3n3L/dsh-resume",
+          "command": "dsh plugin --profile web add github:L3n3L/dsh-resume",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-resume",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/L3n3L/dsh-resume",
+        "commit": "26403f653f60a40c9d3d08b95486501b18869cdd"
+      },
+      "manifestSha256": "56e85dc969d0064e88fe548f77397585edd5d044f448394e941712a0704f88be",
+      "manifestUrl": "https://github.com/L3n3L/dsh-resume/blob/26403f653f60a40c9d3d08b95486501b18869cdd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-resume",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1791451221,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/L3n3L/dsh-resume",
+              "commit": "26403f653f60a40c9d3d08b95486501b18869cdd"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/L3n3L/dsh-resume",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/L3n3L/dsh-resume",
+    "commit": "26403f653f60a40c9d3d08b95486501b18869cdd",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:21.611Z"
+}

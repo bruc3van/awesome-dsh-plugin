@@ -1,0 +1,140 @@
+{
+  "full_name": "leaforbook/dsh-mcp-lazy",
+  "originalPosition": 152,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 152,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:10.148Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f592cc88525c31adf14bd6a8c1f12397ea542a25e97e9b02e19d7be95550386b",
+      "url": "https://github.com/leaforbook/dsh-mcp-lazy/blob/91b68dcf3e0291bea6acc336720e9b6d305a79a5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@yilinxiao/dsh-mcp-lazy",
+          "command": "dsh plugin --profile web add @yilinxiao/dsh-mcp-lazy",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yilinxiao/dsh-mcp-lazy",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/leaforbook/dsh-mcp-lazy",
+        "commit": "91b68dcf3e0291bea6acc336720e9b6d305a79a5"
+      },
+      "manifestSha256": "8874b58529586e4bf3a5cb27edcd229d75f4bc434458baf19e91e2f0ef001d69",
+      "manifestUrl": "https://github.com/leaforbook/dsh-mcp-lazy/blob/91b68dcf3e0291bea6acc336720e9b6d305a79a5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@yilinxiao/dsh-mcp-lazy",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1787212030,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/leaforbook/dsh-mcp-lazy",
+              "commit": "91b68dcf3e0291bea6acc336720e9b6d305a79a5"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@yilinxiao/dsh-mcp-lazy",
+      "origin": "npm",
+      "name": "@yilinxiao/dsh-mcp-lazy",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@yilinxiao/dsh-mcp-lazy",
+        "title": "@yilinxiao/dsh-mcp-lazy",
+        "description": "MCP lazy-loading, dynamic tool-loading, and Tool Router plugin for DeepSeek Harness with fail-open schema progressive disclosure: hide compatible MCP tool schemas until routed to reduce context bloat and save tokens, while explicit lazy connections stay warm. · DSH 的 MCP懒加载、动态加载工具与 Tool Router 插件：按需披露兼容 MCP Schema，减少工具过多造成的上下文膨胀和 Token 浪费；不兼容时保持直通，显式懒加载连接继续保温。",
+        "homepage": "https://github.com/leaforbook/dsh-mcp-lazy#readme",
+        "repository": {
+          "url": "https://github.com/leaforbook/dsh-mcp-lazy"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "mcp",
+            "model-context-protocol",
+            "lazy-loading",
+            "token-saving",
+            "token-savings",
+            "context-optimization",
+            "tool-schema",
+            "tool-router",
+            "mcp-router",
+            "on-demand-tools",
+            "progressive-disclosure"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1787212166,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "91543ba0322af9df76ca75d621945e4772153603ae07c108baff021702e6708f",
+      "evidence": [
+        {
+          "name": "@yilinxiao/dsh-mcp-lazy",
+          "version": "0.5.1",
+          "tarball": "https://registry.npmjs.org/@yilinxiao/dsh-mcp-lazy/-/dsh-mcp-lazy-0.5.1.tgz",
+          "integrity": "sha512-R/XtiN2DQfVBwPdb4ylVLbwVsJ+Emr74238iMUM7SUrDiYZgGws9ololUQc1rOCOUd2yDR6y998qksmcBrV+PA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@yilinxiao/dsh-mcp-lazy",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/leaforbook/dsh-mcp-lazy",
+    "commit": "91b68dcf3e0291bea6acc336720e9b6d305a79a5",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:12.515Z"
+}

@@ -1,0 +1,139 @@
+{
+  "full_name": "ClassicXTx/dsh-plugin-ctf",
+  "originalPosition": 149,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 149,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:05.857Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b64d13b80a64a930b50cf20b659ff29e1a38ddc5dc7b6c5ff5da042ef5753603",
+      "url": "https://github.com/ClassicXTx/dsh-plugin-ctf/blob/e0f131bfe48a852816ef301b134409f8564c409d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/ClassicXTx/dsh-plugin-ctf#v1.2.1",
+          "command": "dsh plugin --profile web add github:ClassicXTx/dsh-plugin-ctf#v1.2.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "tests/README.md",
+      "sha256": "302451ef742a69fa593f7f1b3147231f9ce7d8c5b1e69225e45cc90ad9ccf154",
+      "url": "https://github.com/ClassicXTx/dsh-plugin-ctf/blob/e0f131bfe48a852816ef301b134409f8564c409d/tests/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-ctf",
+      "version": "1.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ClassicXTx/dsh-plugin-ctf",
+        "commit": "e0f131bfe48a852816ef301b134409f8564c409d"
+      },
+      "manifestSha256": "cf7dc594bc339bf0beefd94d0e67cd76c736357d3387822b7df52b6272474ec9",
+      "manifestUrl": "https://github.com/ClassicXTx/dsh-plugin-ctf/blob/e0f131bfe48a852816ef301b134409f8564c409d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-ctf",
+        "versions": [
+          {
+            "version": "1.2.1",
+            "publishTimestamp": 1792293292,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ClassicXTx/dsh-plugin-ctf",
+              "commit": "e0f131bfe48a852816ef301b134409f8564c409d"
+            },
+            "engines": {
+              "dsh": "=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/ClassicXTx/dsh-plugin-ctf#v1.2.1",
+      "origin": "git_target",
+      "name": "dsh-plugin-ctf",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-ctf",
+        "title": "dsh-plugin-ctf",
+        "description": "CTF mode for DeepSeek Harness.",
+        "author": "ClassicXTx",
+        "homepage": "https://github.com/ClassicXTx/dsh-plugin-ctf#readme",
+        "repository": {
+          "url": "https://github.com/ClassicXTx/dsh-plugin-ctf"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "ctf",
+            "skills",
+            "mcp"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.2.1",
+            "publishTimestamp": 1792293292,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ClassicXTx/dsh-plugin-ctf",
+              "commit": "e0f131bfe48a852816ef301b134409f8564c409d"
+            },
+            "engines": {
+              "dsh": "=0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "e0f131bfe48a852816ef301b134409f8564c409d",
+          "name": "dsh-plugin-ctf",
+          "version": "1.2.1",
+          "url": "https://github.com/ClassicXTx/dsh-plugin-ctf",
+          "manifestSha256": "cf7dc594bc339bf0beefd94d0e67cd76c736357d3387822b7df52b6272474ec9",
+          "publishTimestamp": 1792293292
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ClassicXTx/dsh-plugin-ctf#v1.2.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ClassicXTx/dsh-plugin-ctf",
+    "commit": "e0f131bfe48a852816ef301b134409f8564c409d",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:09.905Z"
+}

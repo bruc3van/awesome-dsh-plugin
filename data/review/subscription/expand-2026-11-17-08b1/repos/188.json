@@ -1,0 +1,77 @@
+{
+  "full_name": "kun2-5code/dsh-plugin-template",
+  "originalPosition": 188,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:11:56.582Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dceb300e3330994f877f20695ef639c698531064334827a3ea3c861796e8c560",
+      "url": "https://github.com/kun2-5code/dsh-plugin-template/blob/dc45ae1d23a7c20adefc24e40da8d8a103a9c8cd/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e2aabb83f25cc34d1290529f9b82dfb3a47fab81b78ae25844c966d5d72fc0bc",
+      "url": "https://github.com/kun2-5code/dsh-plugin-template/blob/dc45ae1d23a7c20adefc24e40da8d8a103a9c8cd/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-template",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kun2-5code/dsh-plugin-template",
+        "commit": "dc45ae1d23a7c20adefc24e40da8d8a103a9c8cd"
+      },
+      "manifestSha256": "5b080c9054162247425ac2e5957a4b0107bc5747707935d8008e5a1234a36d02",
+      "manifestUrl": "https://github.com/kun2-5code/dsh-plugin-template/blob/dc45ae1d23a7c20adefc24e40da8d8a103a9c8cd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-template",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1790588830,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kun2-5code/dsh-plugin-template",
+              "commit": "dc45ae1d23a7c20adefc24e40da8d8a103a9c8cd"
+            },
+            "engines": {
+              "dsh": "0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kun2-5code/dsh-plugin-template",
+    "commit": "dc45ae1d23a7c20adefc24e40da8d8a103a9c8cd",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "template_or_example_review",
+  "finishedAt": "2026-11-17T08:11:58.921Z"
+}

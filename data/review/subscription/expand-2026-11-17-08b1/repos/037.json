@@ -1,0 +1,42 @@
+{
+  "full_name": "morluto/gitcontribute",
+  "originalPosition": 37,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 37,
+  "batch": 1,
+  "stargazers_count": 37,
+  "startedAt": "2026-11-17T08:10:51.508Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "69f85df6d110a85e9d1d445f808886e2a2e50750badb53170f9c1643165e37d8",
+      "url": "https://github.com/morluto/gitcontribute/blob/2c719afc0b0ebd34e3fcf833076bdd82c4ac6443/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/morluto/gitcontribute",
+    "commit": "2c719afc0b0ebd34e3fcf833076bdd82c4ac6443",
+    "releaseTags": 28,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "gitcontribute",
+    "version": "3.0.2",
+    "dsh": null,
+    "engines": {
+      "node": ">=18"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:10:53.553Z"
+}

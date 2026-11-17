@@ -1,0 +1,85 @@
+{
+  "full_name": "lhmd/dsh-promotion-toolkit",
+  "originalPosition": 155,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 155,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:10.552Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5cee33828124f48c904c63b74c389a84aed8c71ca2f76f0484f3972c7870933b",
+      "url": "https://github.com/lhmd/dsh-promotion-toolkit/blob/c4e19742d4399e0282ab70829e412fb47bbb42a7/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "560de6513511aca97f19f17596693e446eec187b6d4c41f133f08ac0648bd868",
+      "url": "https://github.com/lhmd/dsh-promotion-toolkit/blob/c4e19742d4399e0282ab70829e412fb47bbb42a7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "04c80d135f465e8c16393ed63ec0fde056baab9d7fb3bbede0aed1a79d40e47b",
+      "url": "https://github.com/lhmd/dsh-promotion-toolkit/blob/c4e19742d4399e0282ab70829e412fb47bbb42a7/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@lhmd/dsh-promotion-toolkit",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lhmd/dsh-promotion-toolkit",
+        "commit": "c4e19742d4399e0282ab70829e412fb47bbb42a7"
+      },
+      "manifestSha256": "d129c815d3e9c06fecb28d7701704e30b1c34a7101e9d563e35eeb60b0a80010",
+      "manifestUrl": "https://github.com/lhmd/dsh-promotion-toolkit/blob/c4e19742d4399e0282ab70829e412fb47bbb42a7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.0.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@lhmd/dsh-promotion-toolkit",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786648637,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lhmd/dsh-promotion-toolkit",
+              "commit": "c4e19742d4399e0282ab70829e412fb47bbb42a7"
+            },
+            "engines": {
+              "dsh": "^0.0.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lhmd/dsh-promotion-toolkit",
+    "commit": "c4e19742d4399e0282ab70829e412fb47bbb42a7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:13.258Z"
+}

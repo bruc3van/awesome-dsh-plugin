@@ -1,0 +1,159 @@
+{
+  "full_name": "copylee711/dsh-proxy",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:00.866Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fb3996edddfa90720b3ca60b173f9fc36757caf39950800e0983e879741917b5",
+      "url": "https://github.com/copylee711/dsh-proxy/blob/1e8f6b0c409855539c6de55909354172d1651210/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@copylee/dsh-proxy",
+          "command": "dsh plugin --profile web add @copylee/dsh-proxy",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/copylee711/dsh-proxy",
+          "command": "dsh plugin --profile web add github:copylee711/dsh-proxy",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "1236cfa1851b27f024093ae4630595ee2eab5ca017c00d5f6118eaf1d9bac21b",
+      "url": "https://github.com/copylee711/dsh-proxy/blob/1e8f6b0c409855539c6de55909354172d1651210/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@copylee/dsh-proxy",
+          "command": "dsh plugin --profile web add @copylee/dsh-proxy",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/copylee711/dsh-proxy",
+          "command": "dsh plugin --profile web add github:copylee711/dsh-proxy",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@copylee/dsh-proxy",
+      "version": "0.4.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/copylee711/dsh-proxy",
+        "commit": "1e8f6b0c409855539c6de55909354172d1651210"
+      },
+      "manifestSha256": "a968621120f6fda664cb8d86c8a9416f63bbeeabcb1a7abf2db9b03eaab464d0",
+      "manifestUrl": "https://github.com/copylee711/dsh-proxy/blob/1e8f6b0c409855539c6de55909354172d1651210/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@copylee/dsh-proxy",
+        "versions": [
+          {
+            "version": "0.4.6",
+            "publishTimestamp": 1794831092,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/copylee711/dsh-proxy",
+              "commit": "1e8f6b0c409855539c6de55909354172d1651210"
+            },
+            "engines": {
+              "dsh": ">=0.1.3-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@copylee/dsh-proxy",
+      "origin": "npm",
+      "name": "@copylee/dsh-proxy",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@copylee/dsh-proxy",
+        "title": "@copylee/dsh-proxy",
+        "description": "DeepSeek Harness 代理插件：在设置中配置全局 HTTP(S) 代理，或为单个 LLM 提供商单独配置代理 / 直连",
+        "homepage": "https://github.com/copylee711/dsh-proxy#readme",
+        "repository": {
+          "url": "https://github.com/copylee711/dsh-proxy"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "proxy",
+            "llm"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.6",
+            "publishTimestamp": 1794831244,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.3-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5d77719f9cb897ddc77dbe0b1038c0d6a38318cdbea44a590162d89fe0b425f8",
+      "evidence": [
+        {
+          "name": "@copylee/dsh-proxy",
+          "version": "0.4.6",
+          "tarball": "https://registry.npmjs.org/@copylee/dsh-proxy/-/dsh-proxy-0.4.6.tgz",
+          "integrity": "sha512-GDLJIWQjgpcSsTdRMCPQQ3jIEcEjk6ZFTQm1aSPYFZmOoOfxnRufGgjJtQB+7y7P11lTO7nMj67xqPzFOnmfyg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@copylee/dsh-proxy",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/copylee711/dsh-proxy",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/copylee711/dsh-proxy",
+    "commit": "1e8f6b0c409855539c6de55909354172d1651210",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:03.610Z"
+}

@@ -1,0 +1,160 @@
+{
+  "full_name": "maple-pwn/paperlab",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-17T08:11:45.065Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d14766272b93e4e7993ea245089cf143c69f1c24d7d1317f26022aee2a483348",
+      "url": "https://github.com/maple-pwn/paperlab/blob/2792dc632634835f81b2d1cac27daa2a28bf4491/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/maple-pwn/paperlab",
+          "command": "dsh plugin --profile paperlab add github:maple-pwn/paperlab",
+          "profile": "paperlab"
+        },
+        {
+          "install": "dsh-paperlab",
+          "command": "dsh plugin --profile paperlab add dsh-paperlab",
+          "profile": "paperlab"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "f20d705a693c05049be4fd24ff9bbd3939257bb7fe1c55a9364caaa662bfc0fb",
+      "url": "https://github.com/maple-pwn/paperlab/blob/2792dc632634835f81b2d1cac27daa2a28bf4491/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/maple-pwn/paperlab",
+          "command": "dsh plugin --profile paperlab add github:maple-pwn/paperlab",
+          "profile": "paperlab"
+        },
+        {
+          "install": "dsh-paperlab",
+          "command": "dsh plugin --profile paperlab add dsh-paperlab",
+          "profile": "paperlab"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-paperlab",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/maple-pwn/paperlab",
+        "commit": "2792dc632634835f81b2d1cac27daa2a28bf4491"
+      },
+      "manifestSha256": "87e979825e6495ad4fb49c9d6fad15fc44bedfb2813b3ff85b4faa11b308fa57",
+      "manifestUrl": "https://github.com/maple-pwn/paperlab/blob/2792dc632634835f81b2d1cac27daa2a28bf4491/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-paperlab",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786818506,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/maple-pwn/paperlab",
+              "commit": "2792dc632634835f81b2d1cac27daa2a28bf4491"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-paperlab",
+      "origin": "npm",
+      "name": "dsh-paperlab",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-paperlab",
+        "title": "dsh-paperlab",
+        "description": "DeepSeek Harness bundle for PaperLab: an Overleaf-style workbench where you annotate a rendered PDF and a dsh agent revises the LaTeX sources.",
+        "homepage": "https://github.com/maple-pwn/paperlab",
+        "repository": {
+          "url": "https://github.com/maple-pwn/paperlab"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "latex",
+            "paper",
+            "revision",
+            "annotation"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786818575,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "24ad552acf9626a6a9566d5d12bc58664d9abe291e85bba80c4a20dc2d982161",
+      "evidence": [
+        {
+          "name": "dsh-paperlab",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-paperlab/-/dsh-paperlab-0.1.2.tgz",
+          "integrity": "sha512-SFTP73ijZg2biVEd+EXUtC1HrpM1ScKith1PngmI92lZ/LkAR9QScj7cZc4A7Q2HYviLB4yGGyjL1hqE9ZjNTA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/maple-pwn/paperlab",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-paperlab",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/maple-pwn/paperlab",
+    "commit": "2792dc632634835f81b2d1cac27daa2a28bf4491",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:11:47.586Z"
+}

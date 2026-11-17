@@ -1,0 +1,81 @@
+{
+  "full_name": "yoke233/dsh-openai-codex-auth",
+  "originalPosition": 52,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 52,
+  "batch": 1,
+  "stargazers_count": 14,
+  "startedAt": "2026-11-17T08:12:27.417Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "61646686ce0f87e67583eedda4b8e805a3a8ad67434eebd1d6d73c481f35f31d",
+      "url": "https://github.com/yoke233/dsh-openai-codex-auth/blob/4a986d2b842181184565e4bc66428d6709b13ec7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yoke233/dsh-openai-codex-auth",
+          "command": "dsh plugin --profile web add github:yoke233/dsh-openai-codex-auth",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-openai-codex-auth",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yoke233/dsh-openai-codex-auth",
+        "commit": "4a986d2b842181184565e4bc66428d6709b13ec7"
+      },
+      "manifestSha256": "b31a3acb3feeb1edf00fceab81a09b2bf5a4233ea1427127b452939f7cc14f38",
+      "manifestUrl": "https://github.com/yoke233/dsh-openai-codex-auth/blob/4a986d2b842181184565e4bc66428d6709b13ec7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-openai-codex-auth",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1790599095,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yoke233/dsh-openai-codex-auth",
+              "commit": "4a986d2b842181184565e4bc66428d6709b13ec7"
+            },
+            "engines": {
+              "dsh": "0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yoke233/dsh-openai-codex-auth",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yoke233/dsh-openai-codex-auth",
+    "commit": "4a986d2b842181184565e4bc66428d6709b13ec7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:29.496Z"
+}

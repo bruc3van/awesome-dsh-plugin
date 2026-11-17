@@ -1,0 +1,135 @@
+{
+  "full_name": "huguangyu666/dsh-plugin-session-import",
+  "originalPosition": 143,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 143,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:06.092Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2df27d3d00fe5527b33c6da906b0b82f2a55e5dad75b3732054db820699303db",
+      "url": "https://github.com/huguangyu666/dsh-plugin-session-import/blob/ff421f64e1e72eec8d977f20fa8bb1b2e9a16537/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-session-import",
+          "command": "dsh plugin --profile web add dsh-plugin-session-import",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-session-import",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/huguangyu666/dsh-plugin-session-import",
+        "commit": "ff421f64e1e72eec8d977f20fa8bb1b2e9a16537"
+      },
+      "manifestSha256": "81c22b59cf9045c3bffd3ef5b133bb27f5a9d805c8cd4e53d05087f2db8c3b3b",
+      "manifestUrl": "https://github.com/huguangyu666/dsh-plugin-session-import/blob/ff421f64e1e72eec8d977f20fa8bb1b2e9a16537/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-session-import",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794374756,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/huguangyu666/dsh-plugin-session-import",
+              "commit": "ff421f64e1e72eec8d977f20fa8bb1b2e9a16537"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-session-import",
+      "origin": "npm",
+      "name": "dsh-plugin-session-import",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-session-import",
+        "title": "dsh-plugin-session-import",
+        "description": "DeepSeek Harness 插件：导入 claude-code / codex / reasonix / zcode 的聊天记录为 dsh 会话（含工作区绑定）。",
+        "author": "huguangyu666",
+        "repository": {
+          "url": "https://github.com/huguangyu666/dsh-plugin-session-import"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "harness",
+            "session",
+            "import",
+            "claude-code",
+            "codex",
+            "reasonix",
+            "zcode"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1793933483,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6136317697836bf8a78bce0eee9fa321731664326dad3a3d4201141ee4859f86",
+      "evidence": [
+        {
+          "name": "dsh-plugin-session-import",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-session-import/-/dsh-plugin-session-import-0.1.2.tgz",
+          "integrity": "sha512-wRIfw/ZGRwsXUnbkUAftLa10WFVPmNkeBotGqRCiMNMEPljvwA9H53XIDJfZ5HAevKD9ITgXhkwAryNRLhN/7w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-session-import",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/huguangyu666/dsh-plugin-session-import",
+    "commit": "ff421f64e1e72eec8d977f20fa8bb1b2e9a16537",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:08.202Z"
+}

@@ -1,0 +1,105 @@
+{
+  "full_name": "stushansusu/dsh-web-start-ui",
+  "originalPosition": 182,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 182,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:25.732Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7ab0b2d52a8c2e4f25d2fa71740ec7f9abe3502c0cc555232a72dfd4bc825280",
+      "url": "https://github.com/stushansusu/dsh-web-start-ui/blob/00eaa6f75788cd2c4eecda79e1344d3dd73d8eee/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/stushansusu/dsh-web-start-ui",
+          "command": "dsh plugin --profile web add https://github.com/stushansusu/dsh-web-start-ui",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/stushansusu/dsh-web-start-ui",
+          "command": "dsh plugin --profile desktop add https://github.com/stushansusu/dsh-web-start-ui",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3c4ca8da1fa396c7884d6baf345c59febe7fb657bec0b9e37a2cb2158440b91a",
+      "url": "https://github.com/stushansusu/dsh-web-start-ui/blob/00eaa6f75788cd2c4eecda79e1344d3dd73d8eee/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/stushansusu/dsh-web-start-ui",
+          "command": "dsh plugin --profile web add https://github.com/stushansusu/dsh-web-start-ui",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/stushansusu/dsh-web-start-ui",
+          "command": "dsh plugin --profile desktop add https://github.com/stushansusu/dsh-web-start-ui",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@linxin666/dsh-web-start-ui",
+      "version": "0.4.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/stushansusu/dsh-web-start-ui",
+        "commit": "00eaa6f75788cd2c4eecda79e1344d3dd73d8eee"
+      },
+      "manifestSha256": "78252459b89f25e0b67b1d08781c5807fb9559c2cc683f2b84b5637ca77aa7a4",
+      "manifestUrl": "https://github.com/stushansusu/dsh-web-start-ui/blob/00eaa6f75788cd2c4eecda79e1344d3dd73d8eee/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@linxin666/dsh-web-start-ui",
+        "versions": [
+          {
+            "version": "0.4.7",
+            "publishTimestamp": 1792203038,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/stushansusu/dsh-web-start-ui",
+              "commit": "00eaa6f75788cd2c4eecda79e1344d3dd73d8eee"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/stushansusu/dsh-web-start-ui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/stushansusu/dsh-web-start-ui",
+    "commit": "00eaa6f75788cd2c4eecda79e1344d3dd73d8eee",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:28.079Z"
+}

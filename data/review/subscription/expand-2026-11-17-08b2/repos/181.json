@@ -1,0 +1,92 @@
+{
+  "full_name": "sqfcyily/dsh-workspace-files",
+  "originalPosition": 181,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 181,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:24.627Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7769a049970657527faad38cb1556bce8a2b48db31fdec56127fd61f8868c5b7",
+      "url": "https://github.com/sqfcyily/dsh-workspace-files/blob/9416837cea5c3451f18c9fdc7577e28dd5e32855/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/sqfcyily/dsh-workspace-files",
+          "command": "dsh plugin --profile web add github:sqfcyily/dsh-workspace-files",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "967f9d14e42e18122ea460ebd89abd8a17c8ed6f6fb68648f9fce1486c66bf7e",
+      "url": "https://github.com/sqfcyily/dsh-workspace-files/blob/9416837cea5c3451f18c9fdc7577e28dd5e32855/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/sqfcyily/dsh-workspace-files",
+          "command": "dsh plugin --profile web add github:sqfcyily/dsh-workspace-files",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workspace-files",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sqfcyily/dsh-workspace-files",
+        "commit": "9416837cea5c3451f18c9fdc7577e28dd5e32855"
+      },
+      "manifestSha256": "41322da9f14beea0b3fd5b20c57996a7b11fc8f2c71bfd824d165770e1ee36fb",
+      "manifestUrl": "https://github.com/sqfcyily/dsh-workspace-files/blob/9416837cea5c3451f18c9fdc7577e28dd5e32855/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-workspace-files",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1788417103,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sqfcyily/dsh-workspace-files",
+              "commit": "9416837cea5c3451f18c9fdc7577e28dd5e32855"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/sqfcyily/dsh-workspace-files",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sqfcyily/dsh-workspace-files",
+    "commit": "9416837cea5c3451f18c9fdc7577e28dd5e32855",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:27.061Z"
+}

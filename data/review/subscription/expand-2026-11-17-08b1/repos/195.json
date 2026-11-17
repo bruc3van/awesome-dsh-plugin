@@ -1,0 +1,40 @@
+{
+  "full_name": "wssfk12138/dsh-wechat-notify",
+  "originalPosition": 195,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 195,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:11:58.921Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9d5a161a0e93676b9486deec828e8271582a68f3723d11e1785fc4fb5872ae67",
+      "url": "https://github.com/wssfk12138/dsh-wechat-notify/blob/44734ae870aada65767247d0949c0c53a9c2018a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wssfk12138/dsh-wechat-notify",
+    "commit": "44734ae870aada65767247d0949c0c53a9c2018a",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-wechat-notify",
+    "version": "0.2.0",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:12:00.874Z"
+}

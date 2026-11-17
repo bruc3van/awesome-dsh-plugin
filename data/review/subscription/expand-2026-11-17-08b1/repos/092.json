@@ -1,0 +1,74 @@
+{
+  "full_name": "Miyazawai/dsh-client-pricing",
+  "originalPosition": 92,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 92,
+  "batch": 1,
+  "stargazers_count": 16,
+  "startedAt": "2026-11-17T08:11:15.331Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "997eb2a5f278eb05087000f1d5e2d71c605ee2498dfc348bb6985652aea0440f",
+      "url": "https://github.com/Miyazawai/dsh-client-pricing/blob/32abdf803c339dab06b9e46c6a31349e5221b2ed/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-client-pricing",
+          "command": "dsh plugin --profile web add dsh-client-pricing",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "target": "dsh-client-pricing",
+      "origin": "npm",
+      "name": "dsh-client-pricing",
+      "version": "0.1.0",
+      "code": "not_dsh_bundle",
+      "status": "invalid_manifest",
+      "reason": "not a declared DSH bundle",
+      "statusCode": "not_dsh_bundle",
+      "registrySha256": "2cb659be30ae109d04e3933872bd553c01c83190e87c6d6658e33fac155064d2"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-client-pricing",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Miyazawai/dsh-client-pricing",
+    "commit": "32abdf803c339dab06b9e46c6a31349e5221b2ed",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-client-pricing",
+    "version": "0.1.0",
+    "dsh": {
+      "client": {
+        "inject": [
+          "@deepseek-ai/dsh-client-locale",
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-ui-conversation",
+          "@deepseek-ai/dsh-client-ui-model-selection"
+        ],
+        "platform": "web"
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:17.483Z"
+}

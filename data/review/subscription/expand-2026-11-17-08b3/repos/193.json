@@ -1,0 +1,143 @@
+{
+  "full_name": "MuyuYanran/dsh-rea-mcp-lite",
+  "originalPosition": 193,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 193,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:26.509Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23c31e343b5ee5cda75db54783506fac9a879e735110eab6c8cbfedbc51bf191",
+      "url": "https://github.com/MuyuYanran/dsh-rea-mcp-lite/blob/d3a8636789fbaffc4c7da95bc4c5902c866afa73/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MuyuYanran/dsh-rea-mcp-lite/releases/latest/download/dsh-rea-lite-panel.tgz",
+          "command": "dsh plugin --profile desktop add \"https://github.com/MuyuYanran/dsh-rea-mcp-lite/releases/latest/download/dsh-rea-lite-panel.tgz\"",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-rea-lite-panel",
+          "command": "dsh plugin --profile desktop add dsh-rea-lite-panel",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "aa1a8c7242dcf683efaac581ee26353b459f082fe83acadd0aca2b88c1e73a07",
+      "url": "https://github.com/MuyuYanran/dsh-rea-mcp-lite/blob/d3a8636789fbaffc4c7da95bc4c5902c866afa73/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MuyuYanran/dsh-rea-mcp-lite/releases/latest/download/dsh-rea-lite-panel.tgz",
+          "command": "dsh plugin --profile desktop add \"https://github.com/MuyuYanran/dsh-rea-mcp-lite/releases/latest/download/dsh-rea-lite-panel.tgz\"",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-rea-lite-panel",
+          "command": "dsh plugin --profile desktop add dsh-rea-lite-panel",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "dsh-plugin/README.md",
+      "sha256": "6f40b9bbff8f129c6d5df36f76722ba378274bbe75fce9e33ac146b396b677b2",
+      "url": "https://github.com/MuyuYanran/dsh-rea-mcp-lite/blob/d3a8636789fbaffc4c7da95bc4c5902c866afa73/dsh-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MuyuYanran/dsh-rea-mcp-lite/releases/latest/download/dsh-rea-lite-panel.tgz",
+          "command": "dsh plugin --profile desktop add \"https://github.com/MuyuYanran/dsh-rea-mcp-lite/releases/latest/download/dsh-rea-lite-panel.tgz\"",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-rea-lite-panel",
+          "command": "dsh plugin --profile desktop add dsh-rea-lite-panel",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-rea-lite-panel",
+      "version": "0.3.1",
+      "path": "dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MuyuYanran/dsh-rea-mcp-lite",
+        "commit": "d3a8636789fbaffc4c7da95bc4c5902c866afa73",
+        "path": "dsh-plugin"
+      },
+      "manifestSha256": "15dbbece00cdee6e12a8113a8afb61ecbbecacb0190f957b95e2439aff18a039",
+      "manifestUrl": "https://github.com/MuyuYanran/dsh-rea-mcp-lite/blob/d3a8636789fbaffc4c7da95bc4c5902c866afa73/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-alpha.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-rea-lite-panel",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1793335918,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MuyuYanran/dsh-rea-mcp-lite",
+              "commit": "d3a8636789fbaffc4c7da95bc4c5902c866afa73",
+              "path": "dsh-plugin"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/MuyuYanran/dsh-rea-mcp-lite/releases/latest/download/dsh-rea-lite-panel.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "dsh-rea-lite-panel",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/MuyuYanran/dsh-rea-mcp-lite/releases/latest/download/dsh-rea-lite-panel.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-rea-lite-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MuyuYanran/dsh-rea-mcp-lite",
+    "commit": "d3a8636789fbaffc4c7da95bc4c5902c866afa73",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:29.816Z"
+}

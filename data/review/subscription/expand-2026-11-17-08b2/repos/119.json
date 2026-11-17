@@ -1,0 +1,69 @@
+{
+  "full_name": "br1nosense/dsh-wxauto-plugin",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:57.030Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "60f903a3e6c95829acf75c61eb1bf67a3b9986a108f7cb5f26400061848d016d",
+      "url": "https://github.com/br1nosense/dsh-wxauto-plugin/blob/52e1b6e319b372289edcd3c79be66b7937b33481/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-user/dsh-wxauto",
+      "version": "0.3.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/br1nosense/dsh-wxauto-plugin",
+        "commit": "52e1b6e319b372289edcd3c79be66b7937b33481"
+      },
+      "manifestSha256": "bb1fb831bde7f7d58a3dddb49dc39842740c048fda5617d7513c61a793d4d265",
+      "manifestUrl": "https://github.com/br1nosense/dsh-wxauto-plugin/blob/52e1b6e319b372289edcd3c79be66b7937b33481/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-user/dsh-wxauto",
+        "versions": [
+          {
+            "version": "0.3.7",
+            "publishTimestamp": 1786993088,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/br1nosense/dsh-wxauto-plugin",
+              "commit": "52e1b6e319b372289edcd3c79be66b7937b33481"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/br1nosense/dsh-wxauto-plugin",
+    "commit": "52e1b6e319b372289edcd3c79be66b7937b33481",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:58.910Z"
+}

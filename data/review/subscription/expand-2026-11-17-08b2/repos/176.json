@@ -1,0 +1,78 @@
+{
+  "full_name": "shine-233/dsh-waimao",
+  "originalPosition": 176,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 176,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:21.378Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2a6447bc4085cbcb56ae96fac075e6f9e0deae4ff623a387b123d4e6695785db",
+      "url": "https://github.com/shine-233/dsh-waimao/blob/4fa797a2c9fdd58ec8eeacb9436f3f8ca020cdc8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/shine-233/dsh-waimao",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add github:shine-233/dsh-waimao",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-waimao",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/shine-233/dsh-waimao",
+        "commit": "4fa797a2c9fdd58ec8eeacb9436f3f8ca020cdc8"
+      },
+      "manifestSha256": "ee15b460949555a9cb28c2d20ac5bc51e26952e3178c8242fafa78d1f2d31cea",
+      "manifestUrl": "https://github.com/shine-233/dsh-waimao/blob/4fa797a2c9fdd58ec8eeacb9436f3f8ca020cdc8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-waimao",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1789223582,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/shine-233/dsh-waimao",
+              "commit": "4fa797a2c9fdd58ec8eeacb9436f3f8ca020cdc8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/shine-233/dsh-waimao",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/shine-233/dsh-waimao",
+    "commit": "4fa797a2c9fdd58ec8eeacb9436f3f8ca020cdc8",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:23.360Z"
+}

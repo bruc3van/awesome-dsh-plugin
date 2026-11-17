@@ -1,0 +1,163 @@
+{
+  "full_name": "bufan528/dsh-longterm-memory",
+  "originalPosition": 181,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 181,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:11:54.049Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2814d5db3bcd0dfe3ca0d9d20ca663a20b50cae9f0ad13155db18bf6f8a928f0",
+      "url": "https://github.com/bufan528/dsh-longterm-memory/blob/b54b061daf7ec8b94172ce85b28ee2851e42600d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-longterm-memory@latest",
+          "command": "dsh plugin add dsh-longterm-memory@latest",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-longterm-memory@latest",
+          "command": "dsh plugin --profile web add dsh-longterm-memory@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-longterm-memory",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bufan528/dsh-longterm-memory",
+        "commit": "b54b061daf7ec8b94172ce85b28ee2851e42600d"
+      },
+      "manifestSha256": "2a734fec6dd2a48bd5c4d467af037a2e94d2a555b0d4e1283d9cc2c4e8a4e731",
+      "manifestUrl": "https://github.com/bufan528/dsh-longterm-memory/blob/b54b061daf7ec8b94172ce85b28ee2851e42600d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3 <0.2.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-longterm-memory",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794718517,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bufan528/dsh-longterm-memory",
+              "commit": "b54b061daf7ec8b94172ce85b28ee2851e42600d"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.2.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-longterm-memory@latest",
+      "origin": "npm",
+      "name": "dsh-longterm-memory",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-longterm-memory",
+        "title": {
+          "en": "Long-term Memory",
+          "zh": "长期记忆"
+        },
+        "description": {
+          "en": "DSH Memory Vault: keep durable memory as a local Obsidian-compatible Markdown vault, manage it from a sidebar page, and recall it into later sessions under a token budget.",
+          "zh": "DSH Memory Vault：把长期记忆保存为本机 Obsidian 兼容的 Markdown 仓库，提供侧边栏管理页面，并在后续会话中按预算检索与注入。"
+        },
+        "author": "DSH Memory Vault contributors",
+        "homepage": "https://github.com/bufan528/dsh-longterm-memory#readme",
+        "repository": {
+          "url": "https://github.com/bufan528/dsh-longterm-memory"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "memory",
+            "long-term-memory",
+            "obsidian",
+            "markdown",
+            "agent-memory"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkRTSCBNZW1vcnkgVmF1bHQiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsbXYtc2hlbGYiIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNWI5YmQ1Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzJmNmZhOCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iNiIgeT0iMTAiIHdpZHRoPSI1MiIgaGVpZ2h0PSI0NCIgcng9IjciIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNsbXYtc2hlbGYpIiBzdHJva2Utd2lkdGg9IjMuNSIvPgogIDxwYXRoIGQ9Ik0zMiAxMHY0NCIgc3Ryb2tlPSJ1cmwoI2xtdi1zaGVsZikiIHN0cm9rZS13aWR0aD0iMy41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMTUgMjJoOU0xNSAzMGg5TTE1IDM4aDkiIHN0cm9rZT0idXJsKCNsbXYtc2hlbGYpIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjQzIiBjeT0iMjgiIHI9IjciIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNsbXYtc2hlbGYpIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8cGF0aCBkPSJNNDguNSAzMy41IDU0IDM5IiBzdHJva2U9InVybCgjbG12LXNoZWxmKSIgc3Ryb2tlLXdpZHRoPSIzLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794716753,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.2.2"
+            }
+          },
+          {
+            "version": "0.1.4",
+            "publishTimestamp": 1792499548,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.2.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "afa13f686f7f41fbc872c78cc849f0adae130457b613d7013d99bd080970ac44",
+      "evidence": [
+        {
+          "name": "dsh-longterm-memory",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-longterm-memory/-/dsh-longterm-memory-0.2.0.tgz",
+          "integrity": "sha512-SHsZfFhPoMOlpyPqEZ7PCI2h91TQIBBxXeS1+EwMrFDWnPDpzQ2Ea154fUqSa8d+al0+DQGPpJm4xRp5OyIxnA=="
+        },
+        {
+          "name": "dsh-longterm-memory",
+          "version": "0.1.4",
+          "tarball": "https://registry.npmjs.org/dsh-longterm-memory/-/dsh-longterm-memory-0.1.4.tgz",
+          "integrity": "sha512-0CG8ujanYk5tInnN01Zw5vdoJMj6Kci2uBVLnGgTEMR7ioWwazNPPWeq2iRqBdd0/tj4XHKMwjwMeQeg3DbXdQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-longterm-memory@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bufan528/dsh-longterm-memory",
+    "commit": "b54b061daf7ec8b94172ce85b28ee2851e42600d",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:11:56.413Z"
+}

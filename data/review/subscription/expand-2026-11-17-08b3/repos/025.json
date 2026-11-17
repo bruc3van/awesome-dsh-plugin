@@ -1,0 +1,77 @@
+{
+  "full_name": "yangbobo2021/relay-dsh-plugin-codex",
+  "originalPosition": 25,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 25,
+  "batch": 1,
+  "stargazers_count": 22,
+  "startedAt": "2026-11-17T08:15:11.302Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cae0b577f795ff5434562b6bccfc226edd1e130066d4ef7d225642e681a129a7",
+      "url": "https://github.com/yangbobo2021/relay-dsh-plugin-codex/blob/2fd9430181eb442c47b9cdb8faff6035fa3f803e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7d6847906beff2f32adf4f99972162256f2ffc3cb0d0b78a5c84bfbc8e7b53e2",
+      "url": "https://github.com/yangbobo2021/relay-dsh-plugin-codex/blob/2fd9430181eb442c47b9cdb8faff6035fa3f803e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "relay-dsh-plugin-codex",
+      "version": "0.2.5-rc.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yangbobo2021/relay-dsh-plugin-codex",
+        "commit": "2fd9430181eb442c47b9cdb8faff6035fa3f803e"
+      },
+      "manifestSha256": "36f793fda02b1b54faa9bd9de377f50253df8d174dc62272ef48661458e1a5e1",
+      "manifestUrl": "https://github.com/yangbobo2021/relay-dsh-plugin-codex/blob/2fd9430181eb442c47b9cdb8faff6035fa3f803e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.2 <0.1.2-0 || >=0.1.2-alpha.2 <0.1.3-0 || 0.1.5-rc.2 || 0.1.6-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "relay-dsh-plugin-codex",
+        "versions": [
+          {
+            "version": "0.2.5-rc.1",
+            "publishTimestamp": 1789823015,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yangbobo2021/relay-dsh-plugin-codex",
+              "commit": "2fd9430181eb442c47b9cdb8faff6035fa3f803e"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.2 <0.1.2-0 || >=0.1.2-alpha.2 <0.1.3-0 || 0.1.5-rc.2 || 0.1.6-alpha.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yangbobo2021/relay-dsh-plugin-codex",
+    "commit": "2fd9430181eb442c47b9cdb8faff6035fa3f803e",
+    "releaseTags": 25,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:13.983Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "Dofang-C/dsh-file-integrity-check",
+  "originalPosition": 156,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 156,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:09.834Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3fad90d40f1945024eb14e8216ab9102ee14cffbd4d7638cee0ba6933eb2e5d7",
+      "url": "https://github.com/Dofang-C/dsh-file-integrity-check/blob/59438ca0dd5a8cdcc4ac7a38820fea20e818f66f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-file-integrity-check",
+      "version": "1.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Dofang-C/dsh-file-integrity-check",
+        "commit": "59438ca0dd5a8cdcc4ac7a38820fea20e818f66f"
+      },
+      "manifestSha256": "089311616c9ae345877c74fa8fc4f191059bd60111045e2ee496404e637e5aa0",
+      "manifestUrl": "https://github.com/Dofang-C/dsh-file-integrity-check/blob/59438ca0dd5a8cdcc4ac7a38820fea20e818f66f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@local/dsh-file-integrity-check",
+        "versions": [
+          {
+            "version": "1.2.0",
+            "publishTimestamp": 1793457920,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Dofang-C/dsh-file-integrity-check",
+              "commit": "59438ca0dd5a8cdcc4ac7a38820fea20e818f66f"
+            },
+            "engines": {
+              "dsh": ">=0.2.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Dofang-C/dsh-file-integrity-check",
+    "commit": "59438ca0dd5a8cdcc4ac7a38820fea20e818f66f",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:11.823Z"
+}

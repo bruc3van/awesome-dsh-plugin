@@ -1,0 +1,68 @@
+{
+  "full_name": "swyaoguai/dsh-taptap-maker-dev",
+  "originalPosition": 185,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 185,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:27.191Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "99901cf27be17bc5924b0a30c69ad659d4d086e8818484181117d992deb16681",
+      "url": "https://github.com/swyaoguai/dsh-taptap-maker-dev/blob/30a47c2ff88ed2af0b38322ad51e83de809dec56/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-game-forge",
+          "command": "dsh plugin --profile <profile> add dsh-game-forge",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-game-forge",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/swyaoguai/dsh-taptap-maker-dev",
+        "commit": "30a47c2ff88ed2af0b38322ad51e83de809dec56"
+      },
+      "manifestSha256": "ab5a9e2b9ef2fbbc2cd0f7187bc157e72b8b9a1c7bd0396cdfafc6eb17b83643",
+      "manifestUrl": "https://github.com/swyaoguai/dsh-taptap-maker-dev/blob/30a47c2ff88ed2af0b38322ad51e83de809dec56/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "target": "dsh-game-forge",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-game-forge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/swyaoguai/dsh-taptap-maker-dev",
+    "commit": "30a47c2ff88ed2af0b38322ad51e83de809dec56",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:13:29.407Z"
+}

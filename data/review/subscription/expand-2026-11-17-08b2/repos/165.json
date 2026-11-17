@@ -1,0 +1,189 @@
+{
+  "full_name": "nanxfu/dsh-our-imagen",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:15.925Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8bfd62e5ba772195709d9acbcfe1d19f8ee4ece86154f02c50fafe30e93f59f8",
+      "url": "https://github.com/nanxfu/dsh-our-imagen/blob/39e0131c637c5e8f4ef4ef88f23c7524fb47078f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-our-imagen",
+          "command": "dsh plugin --profile web add dsh-our-imagen",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/nanxfu/dsh-our-imagen",
+          "command": "dsh plugin --profile web add github:nanxfu/dsh-our-imagen",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/nanxfu/dsh-our-imagen/releases/download/v0.11.0/dsh-our-imagen-0.11.0.tgz",
+          "command": "dsh plugin --profile web add https://github.com/nanxfu/dsh-our-imagen/releases/download/v0.11.0/dsh-our-imagen-0.11.0.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "0ca28fd015763ef572088e10153213765c323f7ff4b55596a13b5bb46a14ba48",
+      "url": "https://github.com/nanxfu/dsh-our-imagen/blob/39e0131c637c5e8f4ef4ef88f23c7524fb47078f/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-our-imagen",
+          "command": "dsh plugin --profile web add dsh-our-imagen",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/nanxfu/dsh-our-imagen",
+          "command": "dsh plugin --profile web add github:nanxfu/dsh-our-imagen",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/nanxfu/dsh-our-imagen/releases/download/v0.11.0/dsh-our-imagen-0.11.0.tgz",
+          "command": "dsh plugin --profile web add https://github.com/nanxfu/dsh-our-imagen/releases/download/v0.11.0/dsh-our-imagen-0.11.0.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-our-imagen",
+      "version": "0.11.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/nanxfu/dsh-our-imagen",
+        "commit": "39e0131c637c5e8f4ef4ef88f23c7524fb47078f"
+      },
+      "manifestSha256": "2783c589b7b4173fda6f977d8fcfceb218bb3fdf15606041b0f79a12dfed2f86",
+      "manifestUrl": "https://github.com/nanxfu/dsh-our-imagen/blob/39e0131c637c5e8f4ef4ef88f23c7524fb47078f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-our-imagen",
+        "versions": [
+          {
+            "version": "0.11.0",
+            "publishTimestamp": 1794814772,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/nanxfu/dsh-our-imagen",
+              "commit": "39e0131c637c5e8f4ef4ef88f23c7524fb47078f"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-our-imagen",
+      "origin": "npm",
+      "name": "dsh-our-imagen",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-our-imagen",
+        "title": {
+          "en": "Imagen Studio",
+          "zh": "生图工作台"
+        },
+        "description": {
+          "en": "Run open image models on free Kaggle GPUs: creation panel, prompt ideas and refinement, a natural-language assistant, and a gallery; outputs stay in your workspace.",
+          "zh": "借用 Kaggle 免费 GPU 运行开源文生图模型：创作面板、灵感预设与润色、自然语言创作助手、作品画廊，产物保存在当前工作区。"
+        },
+        "author": "nanxfu",
+        "homepage": "https://github.com/nanxfu/dsh-our-imagen#readme",
+        "repository": {
+          "url": "https://github.com/nanxfu/dsh-our-imagen"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "kaggle",
+            "image-generation",
+            "stable-diffusion",
+            "sdxl",
+            "flux"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkZyZWUgSW1hZ2VuIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZmktYmciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjM2I2ZmQ0Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzdiM2ZkNCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiByeD0iMTQiIGZpbGw9InVybCgjZmktYmcpIi8+CiAgPHBhdGggZD0iTTE0IDQ0YzYtMiAxMC0yIDE1IDBzMTAgMiAyMS0xIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS1vcGFjaXR5PSIwLjU1IiBzdHJva2Utd2lkdGg9IjIuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTIyIDQwYzAtOSA1LTE2IDEzLTE5IDEgNCAwIDctMiAxMCA1LTIgOC0xIDEwIDEtMyAxLTUgMy02IDUgMyAwIDUgMSA2IDMtNiAxLTEwIDAtMTMtMiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iNDQiIGN5PSIyMSIgcj0iMy4yIiBmaWxsPSIjZmZkNjZiIi8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.11.0",
+            "publishTimestamp": 1794755525,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9cace9ca71ad4be311c61f2d01e3a6d06d06bd7d31060afe686a6fb825e6382b",
+      "evidence": [
+        {
+          "name": "dsh-our-imagen",
+          "version": "0.11.0",
+          "tarball": "https://registry.npmjs.org/dsh-our-imagen/-/dsh-our-imagen-0.11.0.tgz",
+          "integrity": "sha512-PEpNuvUELJMzpb171+Lj6HA60mIH8X1NlEgW+vVFO9DcYEsqqFyRuVQS0HqgtqIMZwcZUMAKJIqMUSX8WRcv7w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/nanxfu/dsh-our-imagen/releases/download/v0.11.0/dsh-our-imagen-0.11.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-our-imagen",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/nanxfu/dsh-our-imagen",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/nanxfu/dsh-our-imagen/releases/download/v0.11.0/dsh-our-imagen-0.11.0.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/nanxfu/dsh-our-imagen",
+    "commit": "39e0131c637c5e8f4ef4ef88f23c7524fb47078f",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:18.632Z"
+}

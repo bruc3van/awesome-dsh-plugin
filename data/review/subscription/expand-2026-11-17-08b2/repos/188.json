@@ -1,0 +1,160 @@
+{
+  "full_name": "tr1v3r/dsh-quote-followup",
+  "originalPosition": 188,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:29.408Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a5c47fb7362be178dec9dbc6088457455ab3cbc1d36c094d7c1006105d7cff48",
+      "url": "https://github.com/tr1v3r/dsh-quote-followup/blob/060cf48e447f2b6d2796193f0537ac04c01d6158/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-quote-followup",
+          "command": "dsh plugin --profile web add dsh-quote-followup",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "699831545a1ec3c69ea9d7bbcff22c3fd7d1f7e0d6fe0d9385b35f592bc88fdc",
+      "url": "https://github.com/tr1v3r/dsh-quote-followup/blob/060cf48e447f2b6d2796193f0537ac04c01d6158/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-quote-followup",
+          "command": "dsh plugin --profile web add dsh-quote-followup",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-quote-followup",
+      "version": "0.2.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tr1v3r/dsh-quote-followup",
+        "commit": "060cf48e447f2b6d2796193f0537ac04c01d6158"
+      },
+      "manifestSha256": "6d7a301e1dd1771a060001f7eb9b39af8368da7d51e7a6c3bdf49926ea5e5510",
+      "manifestUrl": "https://github.com/tr1v3r/dsh-quote-followup/blob/060cf48e447f2b6d2796193f0537ac04c01d6158/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.2-0 || 0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-quote-followup",
+        "versions": [
+          {
+            "version": "0.2.11",
+            "publishTimestamp": 1794231053,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tr1v3r/dsh-quote-followup",
+              "commit": "060cf48e447f2b6d2796193f0537ac04c01d6158"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.2-0 || 0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-quote-followup",
+      "origin": "npm",
+      "name": "dsh-quote-followup",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-quote-followup",
+        "title": "dsh-quote-followup",
+        "description": "Quote selected Web conversation text into the DeepSeek Harness composer for targeted follow-up turns.",
+        "author": "tr1v3r",
+        "homepage": "https://github.com/tr1v3r/dsh-quote-followup#readme",
+        "repository": {
+          "url": "https://github.com/tr1v3r/dsh-quote-followup"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "web",
+            "quote",
+            "follow-up"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.11",
+            "publishTimestamp": 1794231247,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.2-0 || 0.2.2-rc.1"
+            }
+          },
+          {
+            "version": "0.2.10",
+            "publishTimestamp": 1790585990,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "77ac8e6272e6f1b5327702314743d917385a87675f77b30144d5e7285c3f56c2",
+      "evidence": [
+        {
+          "name": "dsh-quote-followup",
+          "version": "0.2.11",
+          "tarball": "https://registry.npmjs.org/dsh-quote-followup/-/dsh-quote-followup-0.2.11.tgz",
+          "integrity": "sha512-vfCOmUWAKT9LR+/VsnIH0ZRZLN4wWPkVWR585T1K3x4BPW4OERp6bRhT+IrB80ebMwq/T167MDkFz1338MP5Jw=="
+        },
+        {
+          "name": "dsh-quote-followup",
+          "version": "0.2.10",
+          "tarball": "https://registry.npmjs.org/dsh-quote-followup/-/dsh-quote-followup-0.2.10.tgz",
+          "integrity": "sha512-jRWZfGdj1VPLJwCtSQrF1T9DkkidKTFAQNo70NrvJ96zQIYRJ0FjAZ8oYlGVojPg9GV+J4lMS3sgyxTkNe+l8A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-quote-followup",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tr1v3r/dsh-quote-followup",
+    "commit": "060cf48e447f2b6d2796193f0537ac04c01d6158",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:31.892Z"
+}

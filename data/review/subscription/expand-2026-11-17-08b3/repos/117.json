@@ -1,0 +1,167 @@
+{
+  "full_name": "yunyv/dsh-intelligent-ui",
+  "originalPosition": 117,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 117,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:15:51.318Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4dc79f70954422617b8349830f49747aee9b3b9d77c668519f11d772f2851e82",
+      "url": "https://github.com/yunyv/dsh-intelligent-ui/blob/c4920ad2327ee5dfdfb42744e4696286868d934e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-intelligent-ui",
+          "command": "dsh plugin --profile <profile> add dsh-intelligent-ui",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/yunyv/dsh-intelligent-ui",
+          "command": "dsh plugin --profile <profile> add github:yunyv/dsh-intelligent-ui",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c87c0af7ee1c972863bacbc9cbd104236b06d72f22caed8541744362c080dc0b",
+      "url": "https://github.com/yunyv/dsh-intelligent-ui/blob/c4920ad2327ee5dfdfb42744e4696286868d934e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-intelligent-ui",
+          "command": "dsh plugin --profile desktop add dsh-intelligent-ui",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/yunyv/dsh-intelligent-ui",
+          "command": "dsh plugin --profile desktop add github:yunyv/dsh-intelligent-ui",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-intelligent-ui",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yunyv/dsh-intelligent-ui",
+        "commit": "c4920ad2327ee5dfdfb42744e4696286868d934e"
+      },
+      "manifestSha256": "bf0896b54478f35e17ba4a88f1fb19cd4b01a372eaf7898810ffe02dc1f03200",
+      "manifestUrl": "https://github.com/yunyv/dsh-intelligent-ui/blob/c4920ad2327ee5dfdfb42744e4696286868d934e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-intelligent-ui",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1792229069,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yunyv/dsh-intelligent-ui",
+              "commit": "c4920ad2327ee5dfdfb42744e4696286868d934e"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-intelligent-ui",
+      "origin": "npm",
+      "name": "dsh-intelligent-ui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-intelligent-ui",
+        "title": "dsh-intelligent-ui",
+        "description": "DSH plugin for generative UI: the model writes an interface instead of describing one. Declarative DSL compiled and executed in a DOM-less Worker sandbox, then drawn by the host with native DOM; a sandboxed-frame escape hatch for anything the component inventory cannot express. Patched in place, persisted with version history.",
+        "author": "yunyv",
+        "homepage": "https://github.com/yunyv/dsh-intelligent-ui#readme",
+        "repository": {
+          "url": "https://github.com/yunyv/dsh-intelligent-ui"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "generative-ui",
+            "genui",
+            "intelligent-ui",
+            "artifacts",
+            "dil",
+            "sandbox",
+            "worker",
+            "llm",
+            "agent",
+            "ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1792229159,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a8fb7345904a6169dd35c939b32c7f051fabed46076ea4dcd6dab23c1b516497",
+      "evidence": [
+        {
+          "name": "dsh-intelligent-ui",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-intelligent-ui/-/dsh-intelligent-ui-0.1.1.tgz",
+          "integrity": "sha512-TIFA0iFmYsy6XQzCwtLfP2qZtGlDM8ERb2Nh/uQuMVHfLdDl/wOJWl9P3FYh6KRgZIVBkSjGxc8QINOriMlklw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-intelligent-ui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yunyv/dsh-intelligent-ui",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yunyv/dsh-intelligent-ui",
+    "commit": "c4920ad2327ee5dfdfb42744e4696286868d934e",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:53.853Z"
+}

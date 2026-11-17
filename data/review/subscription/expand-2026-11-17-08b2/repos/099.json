@@ -1,0 +1,40 @@
+{
+  "full_name": "CSlawyer1985/dsh-desktop",
+  "originalPosition": 99,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 99,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:48.798Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b58400b952c1ac298ece4def56e17cf12c8358bb6886054175ccfec15f19d21d",
+      "url": "https://github.com/CSlawyer1985/dsh-desktop/blob/70eb6b2c01a5e2c4a600fffbbf6222c0ccdbcb63/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CSlawyer1985/dsh-desktop",
+    "commit": "70eb6b2c01a5e2c4a600fffbbf6222c0ccdbcb63",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-desktop",
+    "version": "0.3.1",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:12:50.821Z"
+}

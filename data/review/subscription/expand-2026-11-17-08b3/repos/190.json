@@ -1,0 +1,91 @@
+{
+  "full_name": "MuQY1818/ds-bot-mobile-web",
+  "originalPosition": 190,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 190,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:25.452Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "09f589ea6775597a64821921d40ca7dd61a5a0960d6685c4e8104526302d3828",
+      "url": "https://github.com/MuQY1818/ds-bot-mobile-web/blob/9b8ab54ab1bb1c810d45a6715f9cb528d9567402/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/images/README.md",
+      "sha256": "e6e8228a9037bd06c8947df03376267f0a237316e5355a47e93ef38d09bfb99c",
+      "url": "https://github.com/MuQY1818/ds-bot-mobile-web/blob/9b8ab54ab1bb1c810d45a6715f9cb528d9567402/docs/images/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "d251a2989963d472bca6a0467f54b56eb43e6bf7acb5467a66e7486dcd6363fd",
+      "url": "https://github.com/MuQY1818/ds-bot-mobile-web/blob/9b8ab54ab1bb1c810d45a6715f9cb528d9567402/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "84bf4eabc88df6c204812fb0dd53c1c28084027ace0df43d9ac84c94db893905",
+      "url": "https://github.com/MuQY1818/ds-bot-mobile-web/blob/9b8ab54ab1bb1c810d45a6715f9cb528d9567402/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "ds-bot-mobile-web",
+      "version": "0.4.18",
+      "path": "mobile-web-prototype/plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MuQY1818/ds-bot-mobile-web",
+        "commit": "9b8ab54ab1bb1c810d45a6715f9cb528d9567402",
+        "path": "mobile-web-prototype/plugin"
+      },
+      "manifestSha256": "4adfeed4b0de5a761ca68207fda97540736f49d7ec05b34cd1177d5724dababc",
+      "manifestUrl": "https://github.com/MuQY1818/ds-bot-mobile-web/blob/9b8ab54ab1bb1c810d45a6715f9cb528d9567402/mobile-web-prototype/plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "ds-bot-mobile-startup-diagnostics",
+      "version": "0.0.1",
+      "path": "scripts/startup-diagnostics",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MuQY1818/ds-bot-mobile-web",
+        "commit": "9b8ab54ab1bb1c810d45a6715f9cb528d9567402",
+        "path": "scripts/startup-diagnostics"
+      },
+      "manifestSha256": "63cfd2cc8d4c7f6ba4ade9240d5f658f0d17bf2735d4745ec5574b13ab16c267",
+      "manifestUrl": "https://github.com/MuQY1818/ds-bot-mobile-web/blob/9b8ab54ab1bb1c810d45a6715f9cb528d9567402/scripts/startup-diagnostics/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MuQY1818/ds-bot-mobile-web",
+    "commit": "9b8ab54ab1bb1c810d45a6715f9cb528d9567402",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:16:29.805Z"
+}

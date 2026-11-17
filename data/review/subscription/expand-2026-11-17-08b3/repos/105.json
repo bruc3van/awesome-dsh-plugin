@@ -1,0 +1,69 @@
+{
+  "full_name": "cindyguyuehu123/dsh-webchatlike",
+  "originalPosition": 105,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 105,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:15:47.145Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "35fa314b098242cc2becf5406a5db26990cfcc40c023929586716a1bac6a3578",
+      "url": "https://github.com/cindyguyuehu123/dsh-webchatlike/blob/365c7077b2c0125c9bbd8691ec7fbb5b8e8aa268/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-webchatlike",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cindyguyuehu123/dsh-webchatlike",
+        "commit": "365c7077b2c0125c9bbd8691ec7fbb5b8e8aa268"
+      },
+      "manifestSha256": "8ceb1bf5659c3d9e2aaa3bc4c192192254bcda4efe93472903760631bcd2a8db",
+      "manifestUrl": "https://github.com/cindyguyuehu123/dsh-webchatlike/blob/365c7077b2c0125c9bbd8691ec7fbb5b8e8aa268/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-webchatlike",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786871170,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/cindyguyuehu123/dsh-webchatlike",
+              "commit": "365c7077b2c0125c9bbd8691ec7fbb5b8e8aa268"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cindyguyuehu123/dsh-webchatlike",
+    "commit": "365c7077b2c0125c9bbd8691ec7fbb5b8e8aa268",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:49.118Z"
+}

@@ -1,0 +1,48 @@
+{
+  "full_name": "AnkoCD/dsh-server-deployment",
+  "originalPosition": 33,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 33,
+  "batch": 1,
+  "stargazers_count": 40,
+  "startedAt": "2026-11-17T08:10:49.562Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c16f7b3bb2670b986043f1f9b06656056ac2250aeabdca24f8d67af08ec977d6",
+      "url": "https://github.com/AnkoCD/dsh-server-deployment/blob/c6a6f120bc44199a6f2736714900e636ea3c7419/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "962c5e785ed3d7d4272dc1c9bda0b2e4ca070188ba91f3b3b45754533f708adc",
+      "url": "https://github.com/AnkoCD/dsh-server-deployment/blob/c6a6f120bc44199a6f2736714900e636ea3c7419/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AnkoCD/dsh-server-deployment",
+    "commit": "c6a6f120bc44199a6f2736714900e636ea3c7419",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:10:51.508Z"
+}

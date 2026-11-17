@@ -1,0 +1,123 @@
+{
+  "full_name": "caomengxuan666/dsh-niu",
+  "originalPosition": 121,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 121,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:57.187Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d9ed03850f5f766c4fe0c4b41532d22ebc6d8beea329f8a211d8783df9355745",
+      "url": "https://github.com/caomengxuan666/dsh-niu/blob/61e88681a0ceae8f17016e2b77e6af4cc573beaa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@cmx666/dsh-niu-bundle@0.2.1-rc.1",
+          "command": "dsh plugin --profile web add @cmx666/dsh-niu-bundle@0.2.1-rc.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@cmx666/dsh-niu-bundle",
+      "version": "0.2.1-rc.1",
+      "path": "packages/bundle/niu",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/caomengxuan666/dsh-niu",
+        "commit": "61e88681a0ceae8f17016e2b77e6af4cc573beaa",
+        "path": "packages/bundle/niu"
+      },
+      "manifestSha256": "0b2ea6f277f7e19479071efcbf23d68ecc36ffc31a6c06769ce091df66592525",
+      "manifestUrl": "https://github.com/caomengxuan666/dsh-niu/blob/61e88681a0ceae8f17016e2b77e6af4cc573beaa/packages/bundle/niu/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@cmx666/dsh-niu-bundle",
+        "versions": [
+          {
+            "version": "0.2.1-rc.1",
+            "publishTimestamp": 1792405813,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/caomengxuan666/dsh-niu",
+              "commit": "61e88681a0ceae8f17016e2b77e6af4cc573beaa",
+              "path": "packages/bundle/niu"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@cmx666/dsh-niu-bundle@0.2.1-rc.1",
+      "origin": "npm",
+      "name": "@cmx666/dsh-niu-bundle",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@cmx666/dsh-niu-bundle",
+        "title": "@cmx666/dsh-niu-bundle",
+        "description": "DeepSeek Harness profile bundle that enables Niubash sandbox and tool-bash on Windows",
+        "repository": {
+          "url": "https://github.com/caomengxuan666/dsh-niu",
+          "directory": "packages/bundle/niu"
+        },
+        "versions": [
+          {
+            "version": "0.2.1-rc.1",
+            "publishTimestamp": 1792407348,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "786fa6275d6a2f61c70f126ca85925a7e20bde022eaccca8d992292ace450898",
+      "evidence": [
+        {
+          "name": "@cmx666/dsh-niu-bundle",
+          "version": "0.2.1-rc.1",
+          "tarball": "https://registry.npmjs.org/@cmx666/dsh-niu-bundle/-/dsh-niu-bundle-0.2.1-rc.1.tgz",
+          "integrity": "sha512-4DtYBKtGycqKTCduHKtPwqdRcqiAGcbCC7Ks02iOSponc7SrqsYpdcfWwPEA6wnqD4Azqg7kFU+IQEjOqlg93w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@cmx666/dsh-niu-bundle@0.2.1-rc.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/caomengxuan666/dsh-niu",
+    "commit": "61e88681a0ceae8f17016e2b77e6af4cc573beaa",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:00.865Z"
+}

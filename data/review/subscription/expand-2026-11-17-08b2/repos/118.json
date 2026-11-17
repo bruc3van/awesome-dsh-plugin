@@ -1,0 +1,209 @@
+{
+  "full_name": "biggerboy/dsh-conversation-anchors",
+  "originalPosition": 118,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 118,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:56.804Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a7c6a0f9396e7e109faf61015a23f4861a4a68b23a003f7ee77ab8e1d0c1ce18",
+      "url": "https://github.com/biggerboy/dsh-conversation-anchors/blob/f6057c4c202d5f7614de8ff5c2c546486da259c3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@biggerboy123/dsh-conversation-anchors",
+          "command": "dsh plugin --profile web add @biggerboy123/dsh-conversation-anchors",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/biggerboy/dsh-conversation-anchors",
+          "command": "dsh plugin --profile web add github:biggerboy/dsh-conversation-anchors",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/biggerboy/dsh-conversation-anchors#master",
+          "command": "dsh plugin --profile web add github:biggerboy/dsh-conversation-anchors#master",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@biggerboy123/dsh-conversation-anchors",
+      "version": "0.1.21",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/biggerboy/dsh-conversation-anchors",
+        "commit": "f6057c4c202d5f7614de8ff5c2c546486da259c3"
+      },
+      "manifestSha256": "d1b34611412e02f7e21a3c574654c21f5698fafee9708358f1dd1eac4780ace6",
+      "manifestUrl": "https://github.com/biggerboy/dsh-conversation-anchors/blob/f6057c4c202d5f7614de8ff5c2c546486da259c3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@biggerboy123/dsh-conversation-anchors",
+        "versions": [
+          {
+            "version": "0.1.21",
+            "publishTimestamp": 1791954817,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/biggerboy/dsh-conversation-anchors",
+              "commit": "f6057c4c202d5f7614de8ff5c2c546486da259c3"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@biggerboy123/dsh-conversation-anchors",
+      "origin": "npm",
+      "name": "@biggerboy123/dsh-conversation-anchors",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@biggerboy123/dsh-conversation-anchors",
+        "title": "@biggerboy123/dsh-conversation-anchors",
+        "description": "Conversation tick rail and thinking-process fold for the DeepSeek Harness web GUI. Codex-style left rail by default; optional DeepSeek right rail in Settings. Click-to-scroll, eager history load, collapsed Think/tool rows.",
+        "author": "biggerboy123",
+        "homepage": "https://github.com/biggerboy/dsh-conversation-anchors#readme",
+        "repository": {
+          "url": "https://github.com/biggerboy/dsh-conversation-anchors"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "conversation",
+            "anchors",
+            "navigation",
+            "outline",
+            "thinking",
+            "web-gui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.21",
+            "publishTimestamp": 1791955330,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5cb3d3c20ba770926640ceab1ee0f5b0c318c0e5f98cb8fa301db3db3dbb16f6",
+      "evidence": [
+        {
+          "name": "@biggerboy123/dsh-conversation-anchors",
+          "version": "0.1.21",
+          "tarball": "https://registry.npmjs.org/@biggerboy123/dsh-conversation-anchors/-/dsh-conversation-anchors-0.1.21.tgz",
+          "integrity": "sha512-UhgEtDUlPmU/rDBZEXBkOKWHlrpbdtyViLCTq4UDf8A+BhHHpDGcHMwhEZc39TTALkuLH+RjfmCwGte9zqcW1Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/biggerboy/dsh-conversation-anchors#master",
+      "origin": "git_target",
+      "name": "@biggerboy123/dsh-conversation-anchors",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@biggerboy123/dsh-conversation-anchors",
+        "title": "@biggerboy123/dsh-conversation-anchors",
+        "description": "Conversation tick rail and thinking-process fold for the DeepSeek Harness web GUI. Codex-style left rail by default; optional DeepSeek right rail in Settings. Click-to-scroll, eager history load, collapsed Think/tool rows.",
+        "author": "biggerboy123",
+        "homepage": "https://github.com/biggerboy/dsh-conversation-anchors#readme",
+        "repository": {
+          "url": "https://github.com/biggerboy/dsh-conversation-anchors"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "conversation",
+            "anchors",
+            "navigation",
+            "outline",
+            "thinking",
+            "web-gui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.21",
+            "publishTimestamp": 1791954817,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/biggerboy/dsh-conversation-anchors",
+              "commit": "f6057c4c202d5f7614de8ff5c2c546486da259c3"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "f6057c4c202d5f7614de8ff5c2c546486da259c3",
+          "name": "@biggerboy123/dsh-conversation-anchors",
+          "version": "0.1.21",
+          "url": "https://github.com/biggerboy/dsh-conversation-anchors",
+          "manifestSha256": "d1b34611412e02f7e21a3c574654c21f5698fafee9708358f1dd1eac4780ace6",
+          "publishTimestamp": 1791954817
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@biggerboy123/dsh-conversation-anchors",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/biggerboy/dsh-conversation-anchors",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/biggerboy/dsh-conversation-anchors#master",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/biggerboy/dsh-conversation-anchors",
+    "commit": "f6057c4c202d5f7614de8ff5c2c546486da259c3",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:00.550Z"
+}

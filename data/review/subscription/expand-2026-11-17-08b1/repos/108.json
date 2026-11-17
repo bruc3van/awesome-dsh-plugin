@@ -1,0 +1,40 @@
+{
+  "full_name": "yyh-001/dsh-companion",
+  "originalPosition": 108,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 108,
+  "batch": 1,
+  "stargazers_count": 14,
+  "startedAt": "2026-11-17T08:11:21.979Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0aaa1c26244d05f9543566d3cb4ad1dd28d8cf544485d2369a51227594b579c3",
+      "url": "https://github.com/yyh-001/dsh-companion/blob/787c8a0c4ed9a2dcae67e15544bfab0d69b219a3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yyh-001/dsh-companion",
+    "commit": "787c8a0c4ed9a2dcae67e15544bfab0d69b219a3",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-companion",
+    "version": "0.1.0",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:23.936Z"
+}

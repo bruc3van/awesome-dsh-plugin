@@ -1,0 +1,78 @@
+{
+  "full_name": "GongYuanCaiJi/dsh-agency-agents-zh",
+  "originalPosition": 164,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 164,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:13.952Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f38131959e9d8da04161879906e1ba036543ac92572963a2232608ffe950318a",
+      "url": "https://github.com/GongYuanCaiJi/dsh-agency-agents-zh/blob/e2ad4449b18f3d9facc7d4ccd2c948e561f48760/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/GongYuanCaiJi/dsh-agency-agents-zh",
+          "command": "dsh plugin --profile <name> add github:GongYuanCaiJi/dsh-agency-agents-zh",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agency-agents-zh",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GongYuanCaiJi/dsh-agency-agents-zh",
+        "commit": "e2ad4449b18f3d9facc7d4ccd2c948e561f48760"
+      },
+      "manifestSha256": "f3b0845ded39f4ead113417da503bbb2c5ea7a3e149fab4fa442a97427300e34",
+      "manifestUrl": "https://github.com/GongYuanCaiJi/dsh-agency-agents-zh/blob/e2ad4449b18f3d9facc7d4ccd2c948e561f48760/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-agency-agents-zh",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786817673,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GongYuanCaiJi/dsh-agency-agents-zh",
+              "commit": "e2ad4449b18f3d9facc7d4ccd2c948e561f48760"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/GongYuanCaiJi/dsh-agency-agents-zh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GongYuanCaiJi/dsh-agency-agents-zh",
+    "commit": "e2ad4449b18f3d9facc7d4ccd2c948e561f48760",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:15.904Z"
+}

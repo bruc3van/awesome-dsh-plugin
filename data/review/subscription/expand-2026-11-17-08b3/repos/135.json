@@ -1,0 +1,138 @@
+{
+  "full_name": "AKS1st/model-usage-plugin",
+  "originalPosition": 135,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 135,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:15:59.052Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e0e86715348009d2fac533e83118935cfb0cad5eabe199379d36e4bc0263a8df",
+      "url": "https://github.com/AKS1st/model-usage-plugin/blob/a8d1a444ffb02faa2818d12d6f0f1a1c22df1e57/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "model-usage-plugin",
+          "command": "dsh plugin --profile web add model-usage-plugin",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AKS1st/model-usage-plugin",
+          "command": "dsh plugin --profile web add github:AKS1st/model-usage-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "model-usage-plugin",
+      "version": "0.17.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AKS1st/model-usage-plugin",
+        "commit": "a8d1a444ffb02faa2818d12d6f0f1a1c22df1e57"
+      },
+      "manifestSha256": "6ba09047dc5ddb6416bbbc42e6072f502fda25758336186b13ccbd5d3663887a",
+      "manifestUrl": "https://github.com/AKS1st/model-usage-plugin/blob/a8d1a444ffb02faa2818d12d6f0f1a1c22df1e57/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "model-usage-plugin",
+        "versions": [
+          {
+            "version": "0.17.0",
+            "publishTimestamp": 1789356097,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AKS1st/model-usage-plugin",
+              "commit": "a8d1a444ffb02faa2818d12d6f0f1a1c22df1e57"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "model-usage-plugin",
+      "origin": "npm",
+      "name": "model-usage-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "model-usage-plugin",
+        "title": "model-usage-plugin",
+        "description": "Per-model token usage, cost estimation and DeepSeek account balance for the DeepSeek Harness Web settings panel.",
+        "homepage": "https://github.com/AKS1st/model-usage-plugin#readme",
+        "repository": {
+          "url": "https://github.com/AKS1st/model-usage-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "dsh-plugin",
+            "tokens",
+            "usage",
+            "cost",
+            "balance",
+            "settings-panel"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.17.0",
+            "publishTimestamp": 1789356249,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "67898a936d18e86417cb5b9c027175fece7c65d31cd8d39fa2c7e08e1708468d",
+      "evidence": [
+        {
+          "name": "model-usage-plugin",
+          "version": "0.17.0",
+          "tarball": "https://registry.npmjs.org/model-usage-plugin/-/model-usage-plugin-0.17.0.tgz",
+          "integrity": "sha512-IUhhnIB4aIuw+If1iBQqiKGmpEUma5XYi1Y+zMQb1PbL+fz6633bB61w7xm6idGAMHWdgdmkB7uf9D6f+dhS5Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "model-usage-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AKS1st/model-usage-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AKS1st/model-usage-plugin",
+    "commit": "a8d1a444ffb02faa2818d12d6f0f1a1c22df1e57",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:01.176Z"
+}

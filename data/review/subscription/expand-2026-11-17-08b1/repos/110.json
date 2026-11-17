@@ -1,0 +1,58 @@
+{
+  "full_name": "InariNGT-Ofiicial/dsh-train-pipeline",
+  "originalPosition": 110,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 110,
+  "batch": 1,
+  "stargazers_count": 13,
+  "startedAt": "2026-11-17T08:11:22.397Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e4db7932f09d804c7d9c3456d3462141012fe70462ff091c670070d62bc3287c",
+      "url": "https://github.com/InariNGT-Ofiicial/dsh-train-pipeline/blob/81a55fbb6522f3e0313c07a4f52a964958d205be/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "materials/README.md",
+      "sha256": "3f56581b97373620790ee1caac46fb7e6680c7628de1dbce482ec29b73909bc3",
+      "url": "https://github.com/InariNGT-Ofiicial/dsh-train-pipeline/blob/81a55fbb6522f3e0313c07a4f52a964958d205be/materials/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-train-pipeline",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/InariNGT-Ofiicial/dsh-train-pipeline",
+        "commit": "81a55fbb6522f3e0313c07a4f52a964958d205be"
+      },
+      "manifestSha256": "27f2bf5f1d8ff5a6db83141b0cb92fe8643728447f866f188f26f58f47323112",
+      "manifestUrl": "https://github.com/InariNGT-Ofiicial/dsh-train-pipeline/blob/81a55fbb6522f3e0313c07a4f52a964958d205be/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/InariNGT-Ofiicial/dsh-train-pipeline",
+    "commit": "81a55fbb6522f3e0313c07a4f52a964958d205be",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-17T08:11:24.811Z"
+}

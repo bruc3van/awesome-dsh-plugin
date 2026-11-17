@@ -1,0 +1,74 @@
+{
+  "full_name": "AnakinCao/dsh-md-export",
+  "originalPosition": 138,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 138,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:00.595Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "078c44a0b7fbcbda424aa89c4cf647aa85aa813eed98aa1bb466285360e22324",
+      "url": "https://github.com/AnakinCao/dsh-md-export/blob/5619392300540e9e2dc59c5ed3ed87091d09225d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "34ba631d5c4b4d4882a17fbbeeb95a08c8a6c145bf5a2c4c12af37bed36b478c",
+      "url": "https://github.com/AnakinCao/dsh-md-export/blob/5619392300540e9e2dc59c5ed3ed87091d09225d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-md-export",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AnakinCao/dsh-md-export",
+        "commit": "5619392300540e9e2dc59c5ed3ed87091d09225d"
+      },
+      "manifestSha256": "e206a13a98e70778d422b8eb28f4c6f83dec2a5e49afda7c480055fd06f4b958",
+      "manifestUrl": "https://github.com/AnakinCao/dsh-md-export/blob/5619392300540e9e2dc59c5ed3ed87091d09225d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-md-export",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787721357,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AnakinCao/dsh-md-export",
+              "commit": "5619392300540e9e2dc59c5ed3ed87091d09225d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AnakinCao/dsh-md-export",
+    "commit": "5619392300540e9e2dc59c5ed3ed87091d09225d",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:02.892Z"
+}

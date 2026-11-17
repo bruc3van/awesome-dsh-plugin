@@ -1,0 +1,171 @@
+{
+  "full_name": "chunsi-w/dsh-trajectory-governor",
+  "originalPosition": 56,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 56,
+  "batch": 1,
+  "stargazers_count": 13,
+  "startedAt": "2026-11-17T08:12:29.474Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d751ea95510b3ee1afbe733e1c1a2f2578f2ad55f2bf2a671aa78be19bada6c2",
+      "url": "https://github.com/chunsi-w/dsh-trajectory-governor/blob/ce53de0e420dc06bcafecfa448ec71e580b9bbb0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@chunsi-m/dsh-trajectory-governor",
+          "command": "dsh plugin --profile web add @chunsi-m/dsh-trajectory-governor",
+          "profile": "web"
+        },
+        {
+          "install": "@chunsi-m/dsh-trajectory-governor@0.2.0",
+          "command": "dsh plugin --profile web add @chunsi-m/dsh-trajectory-governor@0.2.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@chunsi-m/dsh-trajectory-governor",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chunsi-w/dsh-trajectory-governor",
+        "commit": "ce53de0e420dc06bcafecfa448ec71e580b9bbb0"
+      },
+      "manifestSha256": "6df27b19a82ff05cd64029d577f599a59af5eb163849ba602c7e974b0922470b",
+      "manifestUrl": "https://github.com/chunsi-w/dsh-trajectory-governor/blob/ce53de0e420dc06bcafecfa448ec71e580b9bbb0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.5 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@chunsi-m/dsh-trajectory-governor",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787012213,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chunsi-w/dsh-trajectory-governor",
+              "commit": "ce53de0e420dc06bcafecfa448ec71e580b9bbb0"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5 <0.2.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@chunsi-m/dsh-trajectory-governor",
+      "origin": "npm",
+      "name": "@chunsi-m/dsh-trajectory-governor",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@chunsi-m/dsh-trajectory-governor",
+        "title": "@chunsi-m/dsh-trajectory-governor",
+        "description": "Closed-loop trajectory policy plane for DeepSeek Harness: task episodes, revision-aware verification debt, benchmark-aware stop control, adaptive effort, and scoped capability control.",
+        "homepage": "https://github.com/chunsi-w/dsh-trajectory-governor#readme",
+        "repository": {
+          "url": "https://github.com/chunsi-w/dsh-trajectory-governor"
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1786991043,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5 <0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "655808b66356f0d75f550e896749233f85ebe7dbe31723f66ca7650e62deee0e",
+      "evidence": [
+        {
+          "name": "@chunsi-m/dsh-trajectory-governor",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/@chunsi-m/dsh-trajectory-governor/-/dsh-trajectory-governor-0.2.0.tgz",
+          "integrity": "sha512-ndA74AJA4rXCR6JCo7ugtbc7TYzSAHm/KyrKRmgzZBB4N73UCLwpMFerNqA1LLINLItDSsqPzJ9mT9NmffSfGg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "@chunsi-m/dsh-trajectory-governor@0.2.0",
+      "origin": "npm",
+      "name": "@chunsi-m/dsh-trajectory-governor",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@chunsi-m/dsh-trajectory-governor",
+        "title": "@chunsi-m/dsh-trajectory-governor",
+        "description": "Closed-loop trajectory policy plane for DeepSeek Harness: task episodes, revision-aware verification debt, benchmark-aware stop control, adaptive effort, and scoped capability control.",
+        "homepage": "https://github.com/chunsi-w/dsh-trajectory-governor#readme",
+        "repository": {
+          "url": "https://github.com/chunsi-w/dsh-trajectory-governor"
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1786991043,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5 <0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "655808b66356f0d75f550e896749233f85ebe7dbe31723f66ca7650e62deee0e",
+      "evidence": [
+        {
+          "name": "@chunsi-m/dsh-trajectory-governor",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/@chunsi-m/dsh-trajectory-governor/-/dsh-trajectory-governor-0.2.0.tgz",
+          "integrity": "sha512-ndA74AJA4rXCR6JCo7ugtbc7TYzSAHm/KyrKRmgzZBB4N73UCLwpMFerNqA1LLINLItDSsqPzJ9mT9NmffSfGg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@chunsi-m/dsh-trajectory-governor",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@chunsi-m/dsh-trajectory-governor@0.2.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chunsi-w/dsh-trajectory-governor",
+    "commit": "ce53de0e420dc06bcafecfa448ec71e580b9bbb0",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:31.774Z"
+}

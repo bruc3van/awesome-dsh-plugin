@@ -1,0 +1,156 @@
+{
+  "full_name": "863683348/dsh-plugin-finance-data",
+  "originalPosition": 132,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 132,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:15:58.231Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2d9c2d534a130783cd469ab343499c5bd791965d9ecfaa43e960df20664f3a02",
+      "url": "https://github.com/863683348/dsh-plugin-finance-data/blob/0a10267fa6f8f75da68005406b899894b60dd796/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-finance-data",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-finance-data",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "49fc14cf6c4a44afb1083cb67b5adf30efe1960104824df6d6dd7e7c8e57cc20",
+      "url": "https://github.com/863683348/dsh-plugin-finance-data/blob/0a10267fa6f8f75da68005406b899894b60dd796/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-finance-data",
+          "command": "dsh plugin --profile <profile> add dsh-plugin-finance-data",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-finance-data",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/863683348/dsh-plugin-finance-data",
+        "commit": "0a10267fa6f8f75da68005406b899894b60dd796"
+      },
+      "manifestSha256": "3c0e5cd4c316c47a6519f66e14dff8d8c8784d0aadd0ef853206905202de06d7",
+      "manifestUrl": "https://github.com/863683348/dsh-plugin-finance-data/blob/0a10267fa6f8f75da68005406b899894b60dd796/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-finance-data",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1789095756,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/863683348/dsh-plugin-finance-data",
+              "commit": "0a10267fa6f8f75da68005406b899894b60dd796"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-finance-data",
+      "origin": "npm",
+      "name": "dsh-plugin-finance-data",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-finance-data",
+        "title": "dsh-plugin-finance-data",
+        "description": "Finance data toolkit for DeepSeek Harness agents: number/currency formatting (incl. Chinese wan/yi units), return & CAGR math, valuation and profitability ratios, PV/FV, DCA/compound projections, portfolio rebalancing, metric trend analysis, peer percentile comparison, risk metrics, and a data-quality checklist",
+        "homepage": "https://github.com/863683348/dsh-plugin-finance-data#readme",
+        "repository": {
+          "url": "https://github.com/863683348/dsh-plugin-finance-data"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "plugin",
+            "bundle",
+            "finance",
+            "data",
+            "ratio",
+            "risk",
+            "dca",
+            "compound",
+            "portfolio",
+            "rebalance",
+            "trend",
+            "percentile",
+            "peer"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1789094601,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "39024b4364af9b9230d538dd1a27f39d0f3d62ac4b5037fe80c723e77381737e",
+      "evidence": [
+        {
+          "name": "dsh-plugin-finance-data",
+          "version": "0.3.2",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-finance-data/-/dsh-plugin-finance-data-0.3.2.tgz",
+          "integrity": "sha512-q899tjEu6w3fRATEs0S945hJQC26v+et47dUsbo13f6bb1egfYpvIZt1dTq0/tQ1du9/9+qc7NS8HATNLAmHzQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-finance-data",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/863683348/dsh-plugin-finance-data",
+    "commit": "0a10267fa6f8f75da68005406b899894b60dd796",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:00.595Z"
+}

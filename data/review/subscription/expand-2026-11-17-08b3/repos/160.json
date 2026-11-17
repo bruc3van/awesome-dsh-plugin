@@ -1,0 +1,139 @@
+{
+  "full_name": "Freakz2z/dsh-catgirl-plugin",
+  "originalPosition": 160,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 160,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:11.823Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ab8dcefa24eaf8ae9813d5b16f2f08c1a3310df3dd80d4b842b6e6bb322c348e",
+      "url": "https://github.com/Freakz2z/dsh-catgirl-plugin/blob/7d2c898124043318713689dd5f3733712f04a5b4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-catgirl-plugin",
+          "command": "dsh plugin --profile demo add dsh-catgirl-plugin",
+          "profile": "demo"
+        }
+      ]
+    },
+    {
+      "path": "README_en.md",
+      "sha256": "ee3e8df6ad31a715dcc843d687d7ae5f9718ccb2bd0c2091ca4f7e307063aaa2",
+      "url": "https://github.com/Freakz2z/dsh-catgirl-plugin/blob/7d2c898124043318713689dd5f3733712f04a5b4/README_en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-catgirl-plugin",
+          "command": "dsh plugin --profile demo add dsh-catgirl-plugin",
+          "profile": "demo"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-catgirl-plugin",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Freakz2z/dsh-catgirl-plugin",
+        "commit": "7d2c898124043318713689dd5f3733712f04a5b4"
+      },
+      "manifestSha256": "369ea8307e06445f5eb223192e42b3d7b349612a484cc4422d586948d88911ff",
+      "manifestUrl": "https://github.com/Freakz2z/dsh-catgirl-plugin/blob/7d2c898124043318713689dd5f3733712f04a5b4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-catgirl-plugin",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1788661661,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Freakz2z/dsh-catgirl-plugin",
+              "commit": "7d2c898124043318713689dd5f3733712f04a5b4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-catgirl-plugin",
+      "origin": "npm",
+      "name": "dsh-catgirl-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-catgirl-plugin",
+        "title": "dsh-catgirl-plugin",
+        "description": "Token-efficient catgirl persona runtime for DeepSeek Harness",
+        "homepage": "https://github.com/Freakz2z/dsh-catgirl-plugin#readme",
+        "repository": {
+          "url": "https://github.com/Freakz2z/dsh-catgirl-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "dsh",
+            "plugin",
+            "persona",
+            "catgirl",
+            "token-optimization"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1788661480,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "28bb18564004b6f50ae1525a21fe43f62c9d90f9c2fbe1d75b865ff723cf8b1f",
+      "evidence": [
+        {
+          "name": "dsh-catgirl-plugin",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-catgirl-plugin/-/dsh-catgirl-plugin-0.2.0.tgz",
+          "integrity": "sha512-SXVhJRynLHUukn8qPbPspNkuD4OpxHTc3j5VgxW9dWSWDAfxMQ32ngC8yIQHVK5TsLLaxig/n4Z3VN6TvuJj6w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-catgirl-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Freakz2z/dsh-catgirl-plugin",
+    "commit": "7d2c898124043318713689dd5f3733712f04a5b4",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:14.273Z"
+}

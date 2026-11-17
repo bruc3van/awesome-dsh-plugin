@@ -1,0 +1,142 @@
+{
+  "full_name": "omdsh-dev/dsh-science",
+  "originalPosition": 168,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 168,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:16.804Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "56d143f81cf6d8ea754af1aad3e8ca5901f1e2b59e38e8321968d1fa0e83eb72",
+      "url": "https://github.com/omdsh-dev/dsh-science/blob/dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "1e92ce02663c88cb7455f9c8031cb40fc5871c47ee8603c8c5966d64b302290f",
+      "url": "https://github.com/omdsh-dev/dsh-science/blob/dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-base",
+      "version": "0.1.0-rc.5",
+      "path": "packages/bundle/base",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-science",
+        "commit": "dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa",
+        "path": "packages/bundle/base"
+      },
+      "manifestSha256": "9199fac428e298444f7c111b0a96e77474ce48cbf8544e191b79b70a0dda197f",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-science/blob/dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa/packages/bundle/base/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-base",
+        "versions": [
+          {
+            "version": "0.1.0-rc.5",
+            "publishTimestamp": 1786814097,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/omdsh-dev/dsh-science",
+              "commit": "dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa",
+              "path": "packages/bundle/base"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-headless",
+      "version": "0.1.0-rc.5",
+      "path": "packages/bundle/headless",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-science",
+        "commit": "dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa",
+        "path": "packages/bundle/headless"
+      },
+      "manifestSha256": "f4bacd6de47033457e083c63dd1c624fc63ac7510fbca9ed6786e7dad0340c42",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-science/blob/dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa/packages/bundle/headless/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-headless",
+        "versions": [
+          {
+            "version": "0.1.0-rc.5",
+            "publishTimestamp": 1786814097,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/omdsh-dev/dsh-science",
+              "commit": "dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa",
+              "path": "packages/bundle/headless"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-web-app",
+      "version": "0.1.0-rc.5",
+      "path": "packages/bundle/web-app",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-science",
+        "commit": "dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa",
+        "path": "packages/bundle/web-app"
+      },
+      "manifestSha256": "e7a78c64bd743fbe32fbeffb83202eaaf4952329bbff6b385943051f0e43a919",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-science/blob/dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa/packages/bundle/web-app/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-web-app",
+        "versions": [
+          {
+            "version": "0.1.0-rc.5",
+            "publishTimestamp": 1786814097,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/omdsh-dev/dsh-science",
+              "commit": "dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa",
+              "path": "packages/bundle/web-app"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-science",
+    "commit": "dba4c1cdaaed209c8996e1a1bebca9b38c62d8aa",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:14:53.342Z"
+}

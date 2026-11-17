@@ -1,0 +1,78 @@
+{
+  "full_name": "Gjs9178U/dsh-pet-indesktop",
+  "originalPosition": 163,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 163,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:12.646Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8729f000fc522d94218006327adbb9be95e9c6ebd3dfd0d185239adce204e54b",
+      "url": "https://github.com/Gjs9178U/dsh-pet-indesktop/blob/2741abeaafa1973cf2564c2d7e1e8eb7132358ba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Gjs9178U/dsh-pet-indesktop",
+          "command": "dsh plugin --profile web add github:Gjs9178U/dsh-pet-indesktop",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pet-indesktop",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Gjs9178U/dsh-pet-indesktop",
+        "commit": "2741abeaafa1973cf2564c2d7e1e8eb7132358ba"
+      },
+      "manifestSha256": "e181f369bb7dce4033fa9f4811bceba444721258c4ac48142440fea4a5484047",
+      "manifestUrl": "https://github.com/Gjs9178U/dsh-pet-indesktop/blob/2741abeaafa1973cf2564c2d7e1e8eb7132358ba/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-pet-indesktop",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1792474994,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Gjs9178U/dsh-pet-indesktop",
+              "commit": "2741abeaafa1973cf2564c2d7e1e8eb7132358ba"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Gjs9178U/dsh-pet-indesktop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Gjs9178U/dsh-pet-indesktop",
+    "commit": "2741abeaafa1973cf2564c2d7e1e8eb7132358ba",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:14.732Z"
+}

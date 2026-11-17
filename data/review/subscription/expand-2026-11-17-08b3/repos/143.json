@@ -1,0 +1,383 @@
+{
+  "full_name": "Bcy2020/dsh-cc-ecosystem",
+  "originalPosition": 143,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 143,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:02.893Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a6fc5084854503e64e85d77f7a04cb2780f8a64c86cd0b048498ec8557b335a1",
+      "url": "https://github.com/Bcy2020/dsh-cc-ecosystem/blob/7fa643b08e5a2c261c3dc5c15a9f1f624a072049/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cc-ecosystem@0.7.0",
+          "command": "dsh plugin --profile <name> add dsh-cc-ecosystem@0.7.0",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "207460f69e421f28b0a1eac3f96cafb8cf33e046071e503927d9e96e36234201",
+      "url": "https://github.com/Bcy2020/dsh-cc-ecosystem/blob/7fa643b08e5a2c261c3dc5c15a9f1f624a072049/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cc-ecosystem@0.7.0",
+          "command": "dsh plugin --profile <name> add dsh-cc-ecosystem@0.7.0",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cc-agents",
+      "version": "0.7.0",
+      "path": "packages/cc-agents",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+        "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+        "path": "packages/cc-agents"
+      },
+      "manifestSha256": "1d2960f4c3fff66f33f213746c96b992a6bf5de708ef4b5030a769ad73a95565",
+      "manifestUrl": "https://github.com/Bcy2020/dsh-cc-ecosystem/blob/7fa643b08e5a2c261c3dc5c15a9f1f624a072049/packages/cc-agents/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-cc-agents",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1794673707,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+              "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+              "path": "packages/cc-agents"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cc-ecosystem",
+      "version": "0.7.0",
+      "path": "packages/cc-ecosystem",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+        "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+        "path": "packages/cc-ecosystem"
+      },
+      "manifestSha256": "c47d0aeaad31fdce245221d2c839b435ceb9794e63123e6d8d2ea079cd435916",
+      "manifestUrl": "https://github.com/Bcy2020/dsh-cc-ecosystem/blob/7fa643b08e5a2c261c3dc5c15a9f1f624a072049/packages/cc-ecosystem/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cc-ecosystem",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1794673707,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+              "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+              "path": "packages/cc-ecosystem"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cc-hooks",
+      "version": "0.7.0",
+      "path": "packages/cc-hooks",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+        "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+        "path": "packages/cc-hooks"
+      },
+      "manifestSha256": "24d3ebd400920be2bd407da0b98455c000493a1f005bcbc48b3fae5129656ecf",
+      "manifestUrl": "https://github.com/Bcy2020/dsh-cc-ecosystem/blob/7fa643b08e5a2c261c3dc5c15a9f1f624a072049/packages/cc-hooks/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-cc-hooks",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1794673707,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+              "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+              "path": "packages/cc-hooks"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cc-loader",
+      "version": "0.7.0",
+      "path": "packages/cc-loader",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+        "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+        "path": "packages/cc-loader"
+      },
+      "manifestSha256": "3454b3f400a2a39e61496fbd7a950ab2dbe57218396af56684c29461435d587a",
+      "manifestUrl": "https://github.com/Bcy2020/dsh-cc-ecosystem/blob/7fa643b08e5a2c261c3dc5c15a9f1f624a072049/packages/cc-loader/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cc-loader",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1794673707,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+              "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+              "path": "packages/cc-loader"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cc-mcp",
+      "version": "0.7.0",
+      "path": "packages/cc-mcp",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+        "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+        "path": "packages/cc-mcp"
+      },
+      "manifestSha256": "90b54e062bed0e45f2a6b122433f9c018a910fa16d8acebdfd4cabe82f5663ea",
+      "manifestUrl": "https://github.com/Bcy2020/dsh-cc-ecosystem/blob/7fa643b08e5a2c261c3dc5c15a9f1f624a072049/packages/cc-mcp/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-cc-mcp",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1794673707,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+              "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+              "path": "packages/cc-mcp"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cc-memory",
+      "version": "0.3.0",
+      "path": "packages/cc-memory",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+        "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+        "path": "packages/cc-memory"
+      },
+      "manifestSha256": "ffb5ff7c163dcb67861c030ce2a84b156c8088abc0dcaa17683ef2b9f451d15f",
+      "manifestUrl": "https://github.com/Bcy2020/dsh-cc-ecosystem/blob/7fa643b08e5a2c261c3dc5c15a9f1f624a072049/packages/cc-memory/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cc-memory",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794673707,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+              "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+              "path": "packages/cc-memory"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cc-permissions",
+      "version": "0.8.0",
+      "path": "packages/cc-permissions",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+        "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+        "path": "packages/cc-permissions"
+      },
+      "manifestSha256": "ba46a7843d21fc6de77975417ad1350b74d9c08d59c28a3f50cdbf162430f295",
+      "manifestUrl": "https://github.com/Bcy2020/dsh-cc-ecosystem/blob/7fa643b08e5a2c261c3dc5c15a9f1f624a072049/packages/cc-permissions/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-cc-permissions",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1794673707,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+              "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+              "path": "packages/cc-permissions"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cc-skills",
+      "version": "0.7.0",
+      "path": "packages/cc-skills",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+        "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+        "path": "packages/cc-skills"
+      },
+      "manifestSha256": "e557be7d56bcd37ef1522ad9e09aa90df17e3a372a2ed961cb62328116f223ae",
+      "manifestUrl": "https://github.com/Bcy2020/dsh-cc-ecosystem/blob/7fa643b08e5a2c261c3dc5c15a9f1f624a072049/packages/cc-skills/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2 || ^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-cc-skills",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1794673707,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+              "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+              "path": "packages/cc-skills"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2 || ^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-cc-ecosystem@0.7.0",
+      "origin": "npm",
+      "name": "dsh-cc-ecosystem",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-cc-ecosystem",
+        "title": "dsh-cc-ecosystem",
+        "description": "One-install bundle for the whole dsh-cc ecosystem: pulls in dsh-cc-loader plus the six Claude Code adapters (skills, permissions, agents, hooks, mcp, memory) and mounts all of them in one profile layer.",
+        "homepage": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+        "repository": {
+          "url": "https://github.com/Bcy2020/dsh-cc-ecosystem"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "claude-code",
+            "bundle",
+            "meta"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1794672594,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0089ac4dacf622b899a64eceadf59cb32b73a1996fe422be6da266a863723fb1",
+      "evidence": [
+        {
+          "name": "dsh-cc-ecosystem",
+          "version": "0.7.0",
+          "tarball": "https://registry.npmjs.org/dsh-cc-ecosystem/-/dsh-cc-ecosystem-0.7.0.tgz",
+          "integrity": "sha512-EgomahZAByl5tMBHm3Jp369NRHLVluL35v/LPO3DgGmyM8JQrdqva7Wlzi6tAy7LqebqJt89rDSH75bQpC8HgQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-cc-ecosystem@0.7.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Bcy2020/dsh-cc-ecosystem",
+    "commit": "7fa643b08e5a2c261c3dc5c15a9f1f624a072049",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:08.483Z"
+}

@@ -1,0 +1,62 @@
+{
+  "full_name": "wz20/dsh-dafeiyu-dot",
+  "originalPosition": 195,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 195,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:35.515Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "83a08b9956c15b693fc8f4e685c9acb82e2e5c9c399606308fc2be0b391f98f6",
+      "url": "https://github.com/wz20/dsh-dafeiyu-dot/blob/ff288f57a25becfe195201b02e4fc4726ae71a5b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/wz20/dsh-dafeiyu-dot",
+          "command": "dsh plugin --profile desktop add \"https://github.com/wz20/dsh-dafeiyu-dot\" --ignore-scripts",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-dafeiyu-dot",
+      "version": "0.11.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wz20/dsh-dafeiyu-dot",
+        "commit": "ff288f57a25becfe195201b02e4fc4726ae71a5b"
+      },
+      "manifestSha256": "b3ffe431576cfcf16f3642dc841800a75445e669ce8d6dc72b7af7f26ce72991",
+      "manifestUrl": "https://github.com/wz20/dsh-dafeiyu-dot/blob/ff288f57a25becfe195201b02e4fc4726ae71a5b/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/wz20/dsh-dafeiyu-dot",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wz20/dsh-dafeiyu-dot",
+    "commit": "ff288f57a25becfe195201b02e4fc4726ae71a5b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:13:37.430Z"
+}

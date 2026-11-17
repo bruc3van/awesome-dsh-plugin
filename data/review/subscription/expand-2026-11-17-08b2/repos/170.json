@@ -1,0 +1,251 @@
+{
+  "full_name": "peiyucn/dsh-sparrow",
+  "originalPosition": 170,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 170,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:18.318Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "311d652b20e0e578bd5c8c8725aec766cac8e71c1c17906e3296f56ec833d289",
+      "url": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "5a3e9262aeb5d41780e4e798eaebfb8af5d8520e86ab09521ccabb5c509fbe75",
+      "url": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-desk-one/README.md",
+      "sha256": "78d37d39fc0dee0cfd5c358db758ad2e36e0011ba3b430abfa092a6e46d16a7e",
+      "url": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/plugins/dsh-desk-one/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-chat-fim/README.md",
+      "sha256": "c5ae7ae8b36accb818dceb9196ac2b1534eb3b9e26c1dbd4fafd53cf8d0efc03",
+      "url": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/plugins/dsh-chat-fim/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-codebuddy-credits/README.md",
+      "sha256": "7679aa120838ef8c0790a642e5572f71a9ea7d764a19070561abdad4e169e635",
+      "url": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/plugins/dsh-codebuddy-credits/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-theme-tone/README.md",
+      "sha256": "79a8a659901cf77394e59389e5c709b288fa5e3cc76d99641c32c6693e4f6b19",
+      "url": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/plugins/dsh-theme-tone/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-desk-one/README.zh-CN.md",
+      "sha256": "ff3878eae3983ee8673d28caac78548ddd521bfec3f14f681b23d2d7e208e967",
+      "url": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/plugins/dsh-desk-one/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-chat-fim/README.zh-CN.md",
+      "sha256": "3836cc21ababf4946db345b2ed278fc0ffa50fa469872f1e20ca89fbdc1019b6",
+      "url": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/plugins/dsh-chat-fim/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-codebuddy-credits/README.zh-CN.md",
+      "sha256": "0d3aa347d5d83386362bf4465ca0099592fd72efc397fd562b8ed19a0c6206cd",
+      "url": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/plugins/dsh-codebuddy-credits/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-theme-tone/README.zh-CN.md",
+      "sha256": "af631c76facce55a6ecccc9f5e1cae83a79c645b47d78df95d881d067327b4dd",
+      "url": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/plugins/dsh-theme-tone/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-sparrow/dsh-chat-fim",
+      "version": "0.2.2-rc.3",
+      "path": "plugins/dsh-chat-fim",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/peiyucn/dsh-sparrow",
+        "commit": "e834846e28dadd91eae039ee2d189eb5bb54e911",
+        "path": "plugins/dsh-chat-fim"
+      },
+      "manifestSha256": "514813d780da6976e1ef37a3c35ae6ad5ff05dd2dd4f08185f7aa03579d00011",
+      "manifestUrl": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/plugins/dsh-chat-fim/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-sparrow/dsh-chat-fim",
+        "versions": [
+          {
+            "version": "0.2.2-rc.3",
+            "publishTimestamp": 1794795066,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/peiyucn/dsh-sparrow",
+              "commit": "e834846e28dadd91eae039ee2d189eb5bb54e911",
+              "path": "plugins/dsh-chat-fim"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-sparrow/dsh-codebuddy-credits",
+      "version": "0.2.2-rc.3",
+      "path": "plugins/dsh-codebuddy-credits",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/peiyucn/dsh-sparrow",
+        "commit": "e834846e28dadd91eae039ee2d189eb5bb54e911",
+        "path": "plugins/dsh-codebuddy-credits"
+      },
+      "manifestSha256": "785f26ac7d533321713696799ca9f969502733cc36a95ff63ab2d06e28519cbc",
+      "manifestUrl": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/plugins/dsh-codebuddy-credits/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-sparrow/dsh-codebuddy-credits",
+        "versions": [
+          {
+            "version": "0.2.2-rc.3",
+            "publishTimestamp": 1794795066,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/peiyucn/dsh-sparrow",
+              "commit": "e834846e28dadd91eae039ee2d189eb5bb54e911",
+              "path": "plugins/dsh-codebuddy-credits"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-sparrow/dsh-desk-one",
+      "version": "0.2.2-rc.3",
+      "path": "plugins/dsh-desk-one",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/peiyucn/dsh-sparrow",
+        "commit": "e834846e28dadd91eae039ee2d189eb5bb54e911",
+        "path": "plugins/dsh-desk-one"
+      },
+      "manifestSha256": "2889c19b22340928e150cec0214854adc7f398c974aa22d1bc0c31953dfe1c75",
+      "manifestUrl": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/plugins/dsh-desk-one/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-sparrow/dsh-desk-one",
+        "versions": [
+          {
+            "version": "0.2.2-rc.3",
+            "publishTimestamp": 1794795066,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/peiyucn/dsh-sparrow",
+              "commit": "e834846e28dadd91eae039ee2d189eb5bb54e911",
+              "path": "plugins/dsh-desk-one"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-sparrow/dsh-theme-tone",
+      "version": "0.2.2-rc.3",
+      "path": "plugins/dsh-theme-tone",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/peiyucn/dsh-sparrow",
+        "commit": "e834846e28dadd91eae039ee2d189eb5bb54e911",
+        "path": "plugins/dsh-theme-tone"
+      },
+      "manifestSha256": "dee129ea85eb042ea41bb0a903421fac633944a788ac0dd0f195a502ee004e0b",
+      "manifestUrl": "https://github.com/peiyucn/dsh-sparrow/blob/e834846e28dadd91eae039ee2d189eb5bb54e911/plugins/dsh-theme-tone/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-sparrow/dsh-theme-tone",
+        "versions": [
+          {
+            "version": "0.2.2-rc.3",
+            "publishTimestamp": 1794795066,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/peiyucn/dsh-sparrow",
+              "commit": "e834846e28dadd91eae039ee2d189eb5bb54e911",
+              "path": "plugins/dsh-theme-tone"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/peiyucn/dsh-sparrow",
+    "commit": "e834846e28dadd91eae039ee2d189eb5bb54e911",
+    "releaseTags": 80,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:25.751Z"
+}

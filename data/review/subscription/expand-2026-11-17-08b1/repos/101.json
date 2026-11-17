@@ -1,0 +1,66 @@
+{
+  "full_name": "xx-hub/dsh-craft-your-textbook",
+  "originalPosition": 101,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 101,
+  "batch": 1,
+  "stargazers_count": 15,
+  "startedAt": "2026-11-17T08:11:18.373Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b88e67c51173cee71327193a172f3bd1da222e15363f267dd608e5f1be787aee",
+      "url": "https://github.com/xx-hub/dsh-craft-your-textbook/blob/eb57e47ae599804179c3f950711ccb4c48b8ec05/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-craft-your-textbook",
+      "version": "2.0.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xx-hub/dsh-craft-your-textbook",
+        "commit": "eb57e47ae599804179c3f950711ccb4c48b8ec05"
+      },
+      "manifestSha256": "e2b2359ce8c12f5502980ab47cb4761de36baebe5a9bd2a3fdbebffa8332de73",
+      "manifestUrl": "https://github.com/xx-hub/dsh-craft-your-textbook/blob/eb57e47ae599804179c3f950711ccb4c48b8ec05/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-craft-your-textbook",
+        "versions": [
+          {
+            "version": "2.0.2",
+            "publishTimestamp": 1794883408,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xx-hub/dsh-craft-your-textbook",
+              "commit": "eb57e47ae599804179c3f950711ccb4c48b8ec05"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xx-hub/dsh-craft-your-textbook",
+    "commit": "eb57e47ae599804179c3f950711ccb4c48b8ec05",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:11:20.302Z"
+}

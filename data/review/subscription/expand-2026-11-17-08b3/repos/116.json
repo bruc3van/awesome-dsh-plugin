@@ -1,0 +1,181 @@
+{
+  "full_name": "nonewind/dsh-spend",
+  "originalPosition": 116,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 116,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:15:50.513Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f395e5e8bb09bac6bf39c96fb53a463fabf88a3e225889faf37095d4c4ad4654",
+      "url": "https://github.com/nonewind/dsh-spend/blob/d621227bc878c748905743e1fde454979af10000/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-spend",
+          "command": "dsh plugin --profile web add dsh-spend",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/nonewind/dsh-spend",
+          "command": "dsh plugin --profile web add github:nonewind/dsh-spend",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "4336b2d6287f1b32c989ae93e264c9be5b3afdaf94da2afb3b1df56d320e4ae2",
+      "url": "https://github.com/nonewind/dsh-spend/blob/d621227bc878c748905743e1fde454979af10000/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-spend",
+          "command": "dsh plugin --profile web add dsh-spend",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/nonewind/dsh-spend",
+          "command": "dsh plugin --profile web add github:nonewind/dsh-spend",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-spend",
+      "version": "0.6.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/nonewind/dsh-spend",
+        "commit": "d621227bc878c748905743e1fde454979af10000"
+      },
+      "manifestSha256": "a5da92bc4654d893edf6f356f926c57772bd2d072f89ef078ab876fed815de7e",
+      "manifestUrl": "https://github.com/nonewind/dsh-spend/blob/d621227bc878c748905743e1fde454979af10000/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.2.0 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-spend",
+        "versions": [
+          {
+            "version": "0.6.3",
+            "publishTimestamp": 1788748764,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/nonewind/dsh-spend",
+              "commit": "d621227bc878c748905743e1fde454979af10000"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.2.0 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-spend",
+      "origin": "npm",
+      "name": "dsh-spend",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-spend",
+        "title": "dsh-spend",
+        "description": "Token usage, multi-dimensional statistics, auto-detected billing plans (Code/Token) and estimated spend for the dsh web UI",
+        "author": "ziheng",
+        "homepage": "https://github.com/nonewind/dsh-spend#readme",
+        "repository": {
+          "url": "https://github.com/nonewind/dsh-spend"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "token",
+            "usage",
+            "tokens",
+            "billing",
+            "cost",
+            "spend",
+            "monitoring",
+            "plugin",
+            "codex",
+            "opencode"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.3",
+            "publishTimestamp": 1788748802,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.2.0 <0.2.0-0"
+            }
+          },
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1786687831,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1a7bc83f8fa46887d54405fe3cd5a19ddd45aa62581a6c7e7d8af2496e1d97ef",
+      "evidence": [
+        {
+          "name": "dsh-spend",
+          "version": "0.6.3",
+          "tarball": "https://registry.npmjs.org/dsh-spend/-/dsh-spend-0.6.3.tgz",
+          "integrity": "sha512-VT18s/aY8RlMJpxsJaSfLurQbvqurxIPz6qvYUGZXf4jsUFynTgKwPf3mm0Uv/CnRkWqrqkaKrnWFN8PTQydPw=="
+        },
+        {
+          "name": "dsh-spend",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-spend/-/dsh-spend-0.2.0.tgz",
+          "integrity": "sha512-jd8vH2v0DuR8qw7QnMmrOYJmUNkQIeZ96DGsfSr3mBYCpeJWCmcWrXAbR61Q7X1y8Z+ShYWG0EWz36oksGkRmw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-spend",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/nonewind/dsh-spend",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/nonewind/dsh-spend",
+    "commit": "d621227bc878c748905743e1fde454979af10000",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:52.985Z"
+}

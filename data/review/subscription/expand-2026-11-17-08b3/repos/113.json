@@ -1,0 +1,133 @@
+{
+  "full_name": "lilyblessing/dsh-mcp-skill-panel",
+  "originalPosition": 113,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 113,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:15:50.311Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "39d98caedb61a738e45ceedb3de68ea40418f8dea795fb544354961d17c73124",
+      "url": "https://github.com/lilyblessing/dsh-mcp-skill-panel/blob/3c060253d1e007d4e15865e231d4774c90a4ab92/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/lilyblessing/dsh-mcp-skill-panel#main",
+          "command": "dsh plugin --profile web add \"github:lilyblessing/dsh-mcp-skill-panel#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mcp-skill-panel",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lilyblessing/dsh-mcp-skill-panel",
+        "commit": "3c060253d1e007d4e15865e231d4774c90a4ab92"
+      },
+      "manifestSha256": "a6e145ae422c8d61938104e623fcc33ea02cfb5c4504c53be622f0ae53f6a64f",
+      "manifestUrl": "https://github.com/lilyblessing/dsh-mcp-skill-panel/blob/3c060253d1e007d4e15865e231d4774c90a4ab92/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-mcp-skill-panel",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1789572182,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lilyblessing/dsh-mcp-skill-panel",
+              "commit": "3c060253d1e007d4e15865e231d4774c90a4ab92"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/lilyblessing/dsh-mcp-skill-panel#main",
+      "origin": "git_target",
+      "name": "dsh-mcp-skill-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mcp-skill-panel",
+        "title": "dsh-mcp-skill-panel",
+        "description": "MCP 与技能管理面板：设置页展示 MCP 服务器与 Skill 目录，随时启停释放上下文占用；可选 AI 中间层（dsh_mcp_search/dsh_mcp_call）按需使用 MCP。",
+        "homepage": "https://github.com/lilyblessing/dsh-mcp-skill-panel#readme",
+        "repository": {
+          "url": "https://github.com/lilyblessing/dsh-mcp-skill-panel"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "mcp",
+            "skill",
+            "panel",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1789572182,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lilyblessing/dsh-mcp-skill-panel",
+              "commit": "3c060253d1e007d4e15865e231d4774c90a4ab92"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "3c060253d1e007d4e15865e231d4774c90a4ab92",
+          "name": "dsh-mcp-skill-panel",
+          "version": "0.6.0",
+          "url": "https://github.com/lilyblessing/dsh-mcp-skill-panel",
+          "manifestSha256": "a6e145ae422c8d61938104e623fcc33ea02cfb5c4504c53be622f0ae53f6a64f",
+          "publishTimestamp": 1789572182
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lilyblessing/dsh-mcp-skill-panel#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lilyblessing/dsh-mcp-skill-panel",
+    "commit": "3c060253d1e007d4e15865e231d4774c90a4ab92",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:54.082Z"
+}

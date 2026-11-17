@@ -1,0 +1,132 @@
+{
+  "full_name": "zjl88858/dsh-huadongbianzuqi",
+  "originalPosition": 122,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:15:54.082Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fc1bb21ff4d4321adcca48bfc9fb429563676ecbcae608017280b212e72173fb",
+      "url": "https://github.com/zjl88858/dsh-huadongbianzuqi/blob/19a359e8280fb63dd5c4695cd5d539de05abaf78/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/zjl88858/dsh-huadongbianzuqi/releases/download/v0.1.0/dsh-huadong-bianzuqi-0.1.0.tgz",
+          "command": "dsh plugin --profile web add https://github.com/zjl88858/dsh-huadongbianzuqi/releases/download/v0.1.0/dsh-huadong-bianzuqi-0.1.0.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/zjl88858/dsh-huadongbianzuqi#v0.1.0",
+          "command": "dsh plugin --profile web add github:zjl88858/dsh-huadongbianzuqi#v0.1.0",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-huadong-bianzuqi",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zjl88858/dsh-huadongbianzuqi",
+        "commit": "19a359e8280fb63dd5c4695cd5d539de05abaf78"
+      },
+      "manifestSha256": "5e9d99e1f4c60b5ea359967851f39ac4aa467a2d9237df99d3208a1aa1b2292e",
+      "manifestUrl": "https://github.com/zjl88858/dsh-huadongbianzuqi/blob/19a359e8280fb63dd5c4695cd5d539de05abaf78/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-huadong-bianzuqi",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786645804,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zjl88858/dsh-huadongbianzuqi",
+              "commit": "19a359e8280fb63dd5c4695cd5d539de05abaf78"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/zjl88858/dsh-huadongbianzuqi/releases/download/v0.1.0/dsh-huadong-bianzuqi-0.1.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "https://github.com/zjl88858/dsh-huadongbianzuqi#v0.1.0",
+      "origin": "git_target",
+      "name": "dsh-huadong-bianzuqi",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-huadong-bianzuqi",
+        "title": "dsh-huadong-bianzuqi",
+        "description": "DeepSeek Harness 前端插件：滑动变祖器",
+        "author": "zjl88858",
+        "homepage": "https://github.com/zjl88858/dsh-huadongbianzuqi#readme",
+        "repository": {
+          "url": "https://github.com/zjl88858/dsh-huadongbianzuqi"
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786645804,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zjl88858/dsh-huadongbianzuqi",
+              "commit": "19a359e8280fb63dd5c4695cd5d539de05abaf78"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "19a359e8280fb63dd5c4695cd5d539de05abaf78",
+          "name": "dsh-huadong-bianzuqi",
+          "version": "0.1.0",
+          "url": "https://github.com/zjl88858/dsh-huadongbianzuqi",
+          "manifestSha256": "5e9d99e1f4c60b5ea359967851f39ac4aa467a2d9237df99d3208a1aa1b2292e",
+          "publishTimestamp": 1786645804
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/zjl88858/dsh-huadongbianzuqi/releases/download/v0.1.0/dsh-huadong-bianzuqi-0.1.0.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/zjl88858/dsh-huadongbianzuqi#v0.1.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zjl88858/dsh-huadongbianzuqi",
+    "commit": "19a359e8280fb63dd5c4695cd5d539de05abaf78",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:57.580Z"
+}

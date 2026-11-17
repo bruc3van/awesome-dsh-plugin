@@ -1,0 +1,69 @@
+{
+  "full_name": "988hj7tczd-oss/dsh-computer-use",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "stargazers_count": 69,
+  "startedAt": "2026-11-17T08:12:05.417Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c0175e2d81496c6f3e0d2b391ef35f6349f17793d3af2c5086cb66583e386a57",
+      "url": "https://github.com/988hj7tczd-oss/dsh-computer-use/blob/3cf9bd8ae60271512f263bfa75485cb242ca0892/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-computer-use",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/988hj7tczd-oss/dsh-computer-use",
+        "commit": "3cf9bd8ae60271512f263bfa75485cb242ca0892"
+      },
+      "manifestSha256": "469da8e23cd2da0c41e6099e1fffec98b1894a0819dc45c8d4a17155a1404f40",
+      "manifestUrl": "https://github.com/988hj7tczd-oss/dsh-computer-use/blob/3cf9bd8ae60271512f263bfa75485cb242ca0892/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-computer-use",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1791184332,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/988hj7tczd-oss/dsh-computer-use",
+              "commit": "3cf9bd8ae60271512f263bfa75485cb242ca0892"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/988hj7tczd-oss/dsh-computer-use",
+    "commit": "3cf9bd8ae60271512f263bfa75485cb242ca0892",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:07.323Z"
+}

@@ -1,0 +1,201 @@
+{
+  "full_name": "lucky8197/dsh-devquest",
+  "originalPosition": 159,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 159,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:12.515Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3c722459403026fac899204875b53d64b5837c9a93663a88ae9142ed651515ca",
+      "url": "https://github.com/lucky8197/dsh-devquest/blob/1a9388bbdb2078c311bc192d8e77a2ce4d3f5744/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-devquest",
+          "command": "dsh plugin --profile web add \"dsh-devquest\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lucky8197/dsh-devquest#main",
+          "command": "dsh plugin --profile web add \"github:lucky8197/dsh-devquest#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "1767a8568d250a1aec7679d6c26c63426a88dac225d06d0a4c81858a82d4251b",
+      "url": "https://github.com/lucky8197/dsh-devquest/blob/1a9388bbdb2078c311bc192d8e77a2ce4d3f5744/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-devquest",
+          "command": "dsh plugin --profile web add \"dsh-devquest\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/lucky8197/dsh-devquest#main",
+          "command": "dsh plugin --profile web add \"github:lucky8197/dsh-devquest#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-devquest",
+      "version": "1.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lucky8197/dsh-devquest",
+        "commit": "1a9388bbdb2078c311bc192d8e77a2ce4d3f5744"
+      },
+      "manifestSha256": "dfe2f7cc6dc35dc8c0884825f2192862ca46dc36b4b223cf0564a6d1987082a1",
+      "manifestUrl": "https://github.com/lucky8197/dsh-devquest/blob/1a9388bbdb2078c311bc192d8e77a2ce4d3f5744/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-devquest",
+        "versions": [
+          {
+            "version": "1.4.1",
+            "publishTimestamp": 1788616640,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lucky8197/dsh-devquest",
+              "commit": "1a9388bbdb2078c311bc192d8e77a2ce4d3f5744"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-devquest",
+      "origin": "npm",
+      "name": "dsh-devquest",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-devquest",
+        "title": "dsh-devquest",
+        "description": "把开发变成 RPG：回合/工具/todo 积累 XP、成就徽章、等级与赛季。事件流驱动，纯函数计分。",
+        "homepage": "https://github.com/lucky8197/dsh-devquest",
+        "repository": {
+          "url": "https://github.com/lucky8197/dsh-devquest"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "plugin",
+            "game",
+            "rpg",
+            "gamification",
+            "productivity"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1786889683,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "959e26b61f0a0475d33dc995534ad9029ea088869511740a95caa89f97f12b1a",
+      "evidence": [
+        {
+          "name": "dsh-devquest",
+          "version": "1.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-devquest/-/dsh-devquest-1.3.0.tgz",
+          "integrity": "sha512-ql++oTBwS7GJrEKFtTv3DFnUHi7T7d9grikPQCAK7MVT6vVRKnJIyEQjh8G+FSGsxOP5i7kMaTwyCCSTcdZLcQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "https://github.com/lucky8197/dsh-devquest#main",
+      "origin": "git_target",
+      "name": "dsh-devquest",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-devquest",
+        "title": "dsh-devquest",
+        "description": "把开发变成 RPG：回合/工具/todo 积累 XP、成就徽章、等级与赛季。事件流驱动，纯函数计分。",
+        "homepage": "https://github.com/lucky8197/dsh-devquest",
+        "repository": {
+          "url": "https://github.com/lucky8197/dsh-devquest"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "plugin",
+            "game",
+            "rpg",
+            "gamification",
+            "productivity"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.4.1",
+            "publishTimestamp": 1788616640,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lucky8197/dsh-devquest",
+              "commit": "1a9388bbdb2078c311bc192d8e77a2ce4d3f5744"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "1a9388bbdb2078c311bc192d8e77a2ce4d3f5744",
+          "name": "dsh-devquest",
+          "version": "1.4.1",
+          "url": "https://github.com/lucky8197/dsh-devquest",
+          "manifestSha256": "dfe2f7cc6dc35dc8c0884825f2192862ca46dc36b4b223cf0564a6d1987082a1",
+          "publishTimestamp": 1788616640
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-devquest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/lucky8197/dsh-devquest#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lucky8197/dsh-devquest",
+    "commit": "1a9388bbdb2078c311bc192d8e77a2ce4d3f5744",
+    "releaseTags": 39,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:16.448Z"
+}

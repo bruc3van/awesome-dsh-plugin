@@ -1,0 +1,58 @@
+{
+  "full_name": "RorschachXR/dsh-full-throttle",
+  "originalPosition": 109,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 109,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:52.823Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "244c53003102e3314c378cd6cc070216d0f8e182e6afcd654678152bdca3d660",
+      "url": "https://github.com/RorschachXR/dsh-full-throttle/blob/8a11821282eadb9eb46d3a17963ec49c38589956/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "46a4df94aaf38b5ce220d90916bc6f20e0d0e028297dbe3ce5ca4a7c0751922c",
+      "url": "https://github.com/RorschachXR/dsh-full-throttle/blob/8a11821282eadb9eb46d3a17963ec49c38589956/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-full-throttle",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/RorschachXR/dsh-full-throttle",
+        "commit": "8a11821282eadb9eb46d3a17963ec49c38589956"
+      },
+      "manifestSha256": "3be9fc20cefeadc4ae7a0b73274f0d997e0fe5bcfa54500aed3cbadb7eff7789",
+      "manifestUrl": "https://github.com/RorschachXR/dsh-full-throttle/blob/8a11821282eadb9eb46d3a17963ec49c38589956/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/RorschachXR/dsh-full-throttle",
+    "commit": "8a11821282eadb9eb46d3a17963ec49c38589956",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:12:55.317Z"
+}

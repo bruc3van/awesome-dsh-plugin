@@ -1,0 +1,66 @@
+{
+  "full_name": "wilburli/onlyMemory-plugin",
+  "originalPosition": 193,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 193,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:34.443Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fdebad7ae9d2a92b35942aaa167505007058817b9db40a349304019b36cb4463",
+      "url": "https://github.com/wilburli/onlyMemory-plugin/blob/c775a722823a9aed3368d42e4539f7ecd4d19949/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "only-memory",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wilburli/onlyMemory-plugin",
+        "commit": "c775a722823a9aed3368d42e4539f7ecd4d19949"
+      },
+      "manifestSha256": "4015a02412ef038362fdd471eff7f19e978b5bd61f0b74c0b2e355dac65f7b8f",
+      "manifestUrl": "https://github.com/wilburli/onlyMemory-plugin/blob/c775a722823a9aed3368d42e4539f7ecd4d19949/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "only-memory",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787846562,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wilburli/onlyMemory-plugin",
+              "commit": "c775a722823a9aed3368d42e4539f7ecd4d19949"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wilburli/onlyMemory-plugin",
+    "commit": "c775a722823a9aed3368d42e4539f7ecd4d19949",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:36.394Z"
+}

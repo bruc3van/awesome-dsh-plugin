@@ -1,0 +1,89 @@
+{
+  "full_name": "yuxino/dsh-blue-whale-maid",
+  "originalPosition": 118,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 118,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:15:52.182Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "50c1ce25836f8bd4a6513fdd661ac47482a0f239e1dde328a0a9e32bcc4ff30c",
+      "url": "https://github.com/yuxino/dsh-blue-whale-maid/blob/81cb92bd16f8a8aacc189b3c5f8249c42de13468/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/yuxino/dsh-blue-whale-maid",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:yuxino/dsh-blue-whale-maid",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "01ce1b092a4d77b210c63ea5ee3ed2d564c7c41a420654316633cae01756e879",
+      "url": "https://github.com/yuxino/dsh-blue-whale-maid/blob/81cb92bd16f8a8aacc189b3c5f8249c42de13468/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-blue-whale-maid",
+      "version": "1.10.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yuxino/dsh-blue-whale-maid",
+        "commit": "81cb92bd16f8a8aacc189b3c5f8249c42de13468"
+      },
+      "manifestSha256": "b049111f405899e6c8d352c4032e16523b2ef3ac7adbb6c78d7a33de68f11d3a",
+      "manifestUrl": "https://github.com/yuxino/dsh-blue-whale-maid/blob/81cb92bd16f8a8aacc189b3c5f8249c42de13468/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-blue-whale-maid",
+        "versions": [
+          {
+            "version": "1.10.7",
+            "publishTimestamp": 1789876922,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yuxino/dsh-blue-whale-maid",
+              "commit": "81cb92bd16f8a8aacc189b3c5f8249c42de13468"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/yuxino/dsh-blue-whale-maid",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yuxino/dsh-blue-whale-maid",
+    "commit": "81cb92bd16f8a8aacc189b3c5f8249c42de13468",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:54.379Z"
+}

@@ -1,0 +1,177 @@
+{
+  "full_name": "xingzhen199186/dsh-mini-remote",
+  "originalPosition": 198,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 198,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:36.924Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23a5914e0fa90456f87e9f81df4e195739d5dfcf0d7bb3e533f568202bbdc888",
+      "url": "https://github.com/xingzhen199186/dsh-mini-remote/blob/75ca00198302bc714cf54d45c9a6ce2d9fd0faa6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mini-remote",
+          "command": "dsh plugin --profile web add dsh-mini-remote",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/xingzhen199186/dsh-mini-remote",
+          "command": "dsh plugin --profile web add github:xingzhen199186/dsh-mini-remote",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "340b72113b0c7d324f7f5360f89dd27e99cf501b0cb817dd1eb2be94e31d1a79",
+      "url": "https://github.com/xingzhen199186/dsh-mini-remote/blob/75ca00198302bc714cf54d45c9a6ce2d9fd0faa6/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mini-remote",
+          "command": "dsh plugin --profile web add dsh-mini-remote",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/xingzhen199186/dsh-mini-remote",
+          "command": "dsh plugin --profile web add github:xingzhen199186/dsh-mini-remote",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "relay-server/README.md",
+      "sha256": "72accf0c19c92a6e785212bb11c18c44072be99662db91b4fd095c7bb08a2796",
+      "url": "https://github.com/xingzhen199186/dsh-mini-remote/blob/75ca00198302bc714cf54d45c9a6ce2d9fd0faa6/relay-server/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "relay-multi/README.md",
+      "sha256": "31e1751246e0126c6487dff1b073fc7df94c5be541b9d3a63eb2cb98dd69a410",
+      "url": "https://github.com/xingzhen199186/dsh-mini-remote/blob/75ca00198302bc714cf54d45c9a6ce2d9fd0faa6/relay-multi/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mini-remote",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xingzhen199186/dsh-mini-remote",
+        "commit": "75ca00198302bc714cf54d45c9a6ce2d9fd0faa6"
+      },
+      "manifestSha256": "42e60dc684b90e43747c8f0686f73373a9edbf54a8047dcb6403f921c95bfe4c",
+      "manifestUrl": "https://github.com/xingzhen199186/dsh-mini-remote/blob/75ca00198302bc714cf54d45c9a6ce2d9fd0faa6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-mini-remote",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794884625,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xingzhen199186/dsh-mini-remote",
+              "commit": "75ca00198302bc714cf54d45c9a6ce2d9fd0faa6"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-mini-remote",
+      "origin": "npm",
+      "name": "dsh-mini-remote",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mini-remote",
+        "title": "dsh-mini-remote",
+        "description": "适应多种使用场景，将注意力支配权交还给用户。移动端提供「单帧」、「聊天」和「完整」三种模式，用户可以选择彻底屏蔽执行噪声，也可随时展开完整轨迹；PC 端提供远程窗口功能，可在多台设备上以桌面端原生 UI 界面操作核心设备上的 DeepSeek Harness。",
+        "author": "xingzhen199186",
+        "homepage": "https://github.com/xingzhen199186/dsh-mini-remote#readme",
+        "repository": {
+          "url": "https://github.com/xingzhen199186/dsh-mini-remote"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "mobile",
+            "remote",
+            "minimal"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.7",
+            "publishTimestamp": 1793628755,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "797d182d9dfe7a5289ad62e1284f61c4688613cdd3caf7f889db89fcb2c1e2f8",
+      "evidence": [
+        {
+          "name": "dsh-mini-remote",
+          "version": "0.2.7",
+          "tarball": "https://registry.npmjs.org/dsh-mini-remote/-/dsh-mini-remote-0.2.7.tgz",
+          "integrity": "sha512-g7VxY1wnit3Ofa1aoSoEgazKzKJGNkOmRw377Ti5bmXlyyE6OhbQSL6/IG05OdkPj4Y/W8tMpIfBnQumRXxVfA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mini-remote",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xingzhen199186/dsh-mini-remote",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xingzhen199186/dsh-mini-remote",
+    "commit": "75ca00198302bc714cf54d45c9a6ce2d9fd0faa6",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:40.456Z"
+}

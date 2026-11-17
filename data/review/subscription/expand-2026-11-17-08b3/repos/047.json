@@ -1,0 +1,69 @@
+{
+  "full_name": "lusblead/dsh-Kingdom",
+  "originalPosition": 47,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 47,
+  "batch": 1,
+  "stargazers_count": 16,
+  "startedAt": "2026-11-17T08:15:20.877Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ea7ff79e3b13296849f4b93856085f796a68e2d45eb03056cfff303308ac4035",
+      "url": "https://github.com/lusblead/dsh-Kingdom/blob/8d6a3f5e97af8878e30b4cc734e4762f15439fcd/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-kingdom",
+      "version": "3.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/lusblead/dsh-Kingdom",
+        "commit": "8d6a3f5e97af8878e30b4cc734e4762f15439fcd"
+      },
+      "manifestSha256": "95beb86e00400257373a21cef46545282bac204b1ecf7fd78e23cfaf769f8f22",
+      "manifestUrl": "https://github.com/lusblead/dsh-Kingdom/blob/8d6a3f5e97af8878e30b4cc734e4762f15439fcd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1 <0.1.6-0 >=0.1.5-rc.2 || >=0.1.7-0 <0.1.8-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-kingdom",
+        "versions": [
+          {
+            "version": "3.3.0",
+            "publishTimestamp": 1791897450,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/lusblead/dsh-Kingdom",
+              "commit": "8d6a3f5e97af8878e30b4cc734e4762f15439fcd"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1 <0.1.6-0 >=0.1.5-rc.2 || >=0.1.7-0 <0.1.8-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lusblead/dsh-Kingdom",
+    "commit": "8d6a3f5e97af8878e30b4cc734e4762f15439fcd",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:23.520Z"
+}

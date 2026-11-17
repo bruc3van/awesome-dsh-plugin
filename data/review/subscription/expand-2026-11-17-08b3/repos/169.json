@@ -1,0 +1,161 @@
+{
+  "full_name": "HaoyueQin/dsh-diff-stat",
+  "originalPosition": 169,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 169,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:16.701Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "964e7ae02b962e2bb2628c5b30405bae32207cdbf792d2511c221c3d3a581097",
+      "url": "https://github.com/HaoyueQin/dsh-diff-stat/blob/f2eae89cb8f6db301f383a84c7f05f25a37cdc7e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-diff-stat",
+          "command": "dsh plugin --profile web add dsh-diff-stat",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/HaoyueQin/dsh-diff-stat",
+          "command": "dsh plugin --profile web add github:HaoyueQin/dsh-diff-stat",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "93894c73ac457558cb425d2c7307c8c0869503c415ebefa6be75aebd7e44c37c",
+      "url": "https://github.com/HaoyueQin/dsh-diff-stat/blob/f2eae89cb8f6db301f383a84c7f05f25a37cdc7e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-diff-stat",
+          "command": "dsh plugin --profile web add dsh-diff-stat",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/HaoyueQin/dsh-diff-stat",
+          "command": "dsh plugin --profile web add github:HaoyueQin/dsh-diff-stat",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-diff-stat",
+      "version": "0.1.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HaoyueQin/dsh-diff-stat",
+        "commit": "f2eae89cb8f6db301f383a84c7f05f25a37cdc7e"
+      },
+      "manifestSha256": "970570d409ddc6969b2881231b70083b8382a43a2573aaddfa08dfeebe54ab64",
+      "manifestUrl": "https://github.com/HaoyueQin/dsh-diff-stat/blob/f2eae89cb8f6db301f383a84c7f05f25a37cdc7e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-diff-stat",
+        "versions": [
+          {
+            "version": "0.1.9",
+            "publishTimestamp": 1790425741,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HaoyueQin/dsh-diff-stat",
+              "commit": "f2eae89cb8f6db301f383a84c7f05f25a37cdc7e"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-diff-stat",
+      "origin": "npm",
+      "name": "dsh-diff-stat",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-diff-stat",
+        "title": "dsh-diff-stat",
+        "description": "Inline +N −M diff badges on edit/write tool rows and a per-turn file change summary card for DeepSeek Harness. PTC dispatch fallback (code-dispatch/ptc-dispatch), no git required.",
+        "author": "HaoyueQin",
+        "homepage": "https://github.com/HaoyueQin/dsh-diff-stat",
+        "repository": {
+          "url": "https://github.com/HaoyueQin/dsh-diff-stat"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "dsh-plugin",
+            "diff",
+            "code-review"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.9",
+            "publishTimestamp": 1789041303,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "dcd09d5b9a7b59f5c294a56a161371c7e13e09d51ab496741fddb4560d227ce2",
+      "evidence": [
+        {
+          "name": "dsh-diff-stat",
+          "version": "0.1.9",
+          "tarball": "https://registry.npmjs.org/dsh-diff-stat/-/dsh-diff-stat-0.1.9.tgz",
+          "integrity": "sha512-pQFNQylplTZ2Lb4X78LN+wruZE1Grcs1UggmLNT4eygkefqXWwUTW59oaGmBFvZO0iew/muEzt7/2LoM1L2LAg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-diff-stat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/HaoyueQin/dsh-diff-stat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HaoyueQin/dsh-diff-stat",
+    "commit": "f2eae89cb8f6db301f383a84c7f05f25a37cdc7e",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:19.178Z"
+}

@@ -1,0 +1,220 @@
+{
+  "full_name": "grunmin/dsh-acp-enhanced",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:05.052Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "05d59bc67371f015fca1716ff835a1e7809c954b02819236506d6f14b9addff1",
+      "url": "https://github.com/grunmin/dsh-acp-enhanced/blob/2790ead7969744b82152ced27e242118be87267c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-acp-enhanced",
+          "command": "dsh plugin --profile acp-enhanced add dsh-acp-enhanced",
+          "profile": "acp-enhanced"
+        },
+        {
+          "install": "dsh-acp-enhanced@0.11.2",
+          "command": "dsh plugin --profile acp-enhanced add dsh-acp-enhanced@0.11.2",
+          "profile": "acp-enhanced"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "991923e7a3b67cf2fb8939aae1bf4588b5eaff522ef5f3de77248b36aefabe9b",
+      "url": "https://github.com/grunmin/dsh-acp-enhanced/blob/2790ead7969744b82152ced27e242118be87267c/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-acp-enhanced",
+          "command": "dsh plugin --profile acp-enhanced add dsh-acp-enhanced",
+          "profile": "acp-enhanced"
+        },
+        {
+          "install": "dsh-acp-enhanced@0.11.2",
+          "command": "dsh plugin --profile acp-enhanced add dsh-acp-enhanced@0.11.2",
+          "profile": "acp-enhanced"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-acp-enhanced",
+      "version": "0.11.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/grunmin/dsh-acp-enhanced",
+        "commit": "2790ead7969744b82152ced27e242118be87267c"
+      },
+      "manifestSha256": "89149eb2e18464c118fe42d160a7f8294da8d902a0196cbf8265ea370711cb57",
+      "manifestUrl": "https://github.com/grunmin/dsh-acp-enhanced/blob/2790ead7969744b82152ced27e242118be87267c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.2 || ^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-acp-enhanced",
+        "versions": [
+          {
+            "version": "0.11.2",
+            "publishTimestamp": 1793800937,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/grunmin/dsh-acp-enhanced",
+              "commit": "2790ead7969744b82152ced27e242118be87267c"
+            },
+            "engines": {
+              "dsh": "^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.2 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-acp-enhanced",
+      "origin": "npm",
+      "name": "dsh-acp-enhanced",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-acp-enhanced",
+        "title": "dsh-acp-enhanced",
+        "description": "Enhanced ACP server for DeepSeek Harness: token-level streaming, usage/stat telemetry (cache hit rate, token speed, input/output tokens, context length, turns, tool timing), model & reasoning-effort switching, and permission-preset control over the ACP wire (Zed-friendly)",
+        "author": "grunmin",
+        "homepage": "https://github.com/grunmin/dsh-acp-enhanced",
+        "repository": {
+          "url": "https://github.com/grunmin/dsh-acp-enhanced"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "acp",
+            "agent-client-protocol",
+            "zed",
+            "zed-editor",
+            "ai-agent",
+            "coding-assistant",
+            "llm"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.11.2",
+            "publishTimestamp": 1793801381,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.2 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6fe32f6ddb44ca4bdcd5dcfc6f16f7f44923e0edccc601639bb96c9bf513a58c",
+      "evidence": [
+        {
+          "name": "dsh-acp-enhanced",
+          "version": "0.11.2",
+          "tarball": "https://registry.npmjs.org/dsh-acp-enhanced/-/dsh-acp-enhanced-0.11.2.tgz",
+          "integrity": "sha512-oijsZ9IVeM9lUA9vTUYGAkiQKWUgIkNUWPvBAje+3YYRMMwysEi3NzbaDRt09TrYKzXA7MmZNUFphqh2lPjXlg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-acp-enhanced@0.11.2",
+      "origin": "npm",
+      "name": "dsh-acp-enhanced",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-acp-enhanced",
+        "title": "dsh-acp-enhanced",
+        "description": "Enhanced ACP server for DeepSeek Harness: token-level streaming, usage/stat telemetry (cache hit rate, token speed, input/output tokens, context length, turns, tool timing), model & reasoning-effort switching, and permission-preset control over the ACP wire (Zed-friendly)",
+        "author": "grunmin",
+        "homepage": "https://github.com/grunmin/dsh-acp-enhanced",
+        "repository": {
+          "url": "https://github.com/grunmin/dsh-acp-enhanced"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "acp",
+            "agent-client-protocol",
+            "zed",
+            "zed-editor",
+            "ai-agent",
+            "coding-assistant",
+            "llm"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.11.2",
+            "publishTimestamp": 1793801381,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.6-alpha.1 || ^0.1.7-alpha.1 || ^0.2.0-rc.2 || ^0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6fe32f6ddb44ca4bdcd5dcfc6f16f7f44923e0edccc601639bb96c9bf513a58c",
+      "evidence": [
+        {
+          "name": "dsh-acp-enhanced",
+          "version": "0.11.2",
+          "tarball": "https://registry.npmjs.org/dsh-acp-enhanced/-/dsh-acp-enhanced-0.11.2.tgz",
+          "integrity": "sha512-oijsZ9IVeM9lUA9vTUYGAkiQKWUgIkNUWPvBAje+3YYRMMwysEi3NzbaDRt09TrYKzXA7MmZNUFphqh2lPjXlg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-acp-enhanced",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-acp-enhanced@0.11.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/grunmin/dsh-acp-enhanced",
+    "commit": "2790ead7969744b82152ced27e242118be87267c",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:07.758Z"
+}

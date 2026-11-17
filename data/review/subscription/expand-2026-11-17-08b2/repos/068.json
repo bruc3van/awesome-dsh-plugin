@@ -1,0 +1,69 @@
+{
+  "full_name": "WangPaoPaoLab/dsh-font",
+  "originalPosition": 68,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 68,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-17T08:12:34.573Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "580a8fc1795b4bffdfe77a9367e96efcb81bfcfe0a4d3cdf8255dd86399c2ef6",
+      "url": "https://github.com/WangPaoPaoLab/dsh-font/blob/d299f56bde1e10e7fef152848e74cff2eecd7917/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-font",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WangPaoPaoLab/dsh-font",
+        "commit": "d299f56bde1e10e7fef152848e74cff2eecd7917"
+      },
+      "manifestSha256": "2f3acdc62c3c8e0d02080dee9b01afdd6684e54669b925caad15abde5307ccc0",
+      "manifestUrl": "https://github.com/WangPaoPaoLab/dsh-font/blob/d299f56bde1e10e7fef152848e74cff2eecd7917/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-font",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1786724603,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WangPaoPaoLab/dsh-font",
+              "commit": "d299f56bde1e10e7fef152848e74cff2eecd7917"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WangPaoPaoLab/dsh-font",
+    "commit": "d299f56bde1e10e7fef152848e74cff2eecd7917",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:36.540Z"
+}

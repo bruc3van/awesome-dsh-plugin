@@ -1,0 +1,131 @@
+{
+  "full_name": "jiezeng2004-design/dsh-requirements-alignment",
+  "originalPosition": 146,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 146,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:07.892Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dd95d4f42ae549bdaecf87025c95f6c9af807595a2c7821c3280a97e2203ae30",
+      "url": "https://github.com/jiezeng2004-design/dsh-requirements-alignment/blob/31cf94f38ff4e1e961dfca51098967e861e49cc4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-requirements-alignment@0.5.0-rc.1",
+          "command": "dsh plugin --profile web add dsh-requirements-alignment@0.5.0-rc.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-requirements-alignment",
+      "version": "0.5.0-rc.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiezeng2004-design/dsh-requirements-alignment",
+        "commit": "31cf94f38ff4e1e961dfca51098967e861e49cc4"
+      },
+      "manifestSha256": "115c89634826d57e3d941f382322fbe4581991aa848f782bbf6cf2bf35533da4",
+      "manifestUrl": "https://github.com/jiezeng2004-design/dsh-requirements-alignment/blob/31cf94f38ff4e1e961dfca51098967e861e49cc4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.7-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-requirements-alignment",
+        "versions": [
+          {
+            "version": "0.5.0-rc.1",
+            "publishTimestamp": 1790689817,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jiezeng2004-design/dsh-requirements-alignment",
+              "commit": "31cf94f38ff4e1e961dfca51098967e861e49cc4"
+            },
+            "engines": {
+              "dsh": "0.1.7-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-requirements-alignment@0.5.0-rc.1",
+      "origin": "npm",
+      "name": "dsh-requirements-alignment",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-requirements-alignment",
+        "title": "dsh-requirements-alignment",
+        "description": "Runtime requirement drift guard for DeepSeek Harness — keeps long-running agents aligned with user intent while they work.",
+        "homepage": "https://github.com/jiezeng2004-design/dsh-requirements-alignment#readme",
+        "repository": {
+          "url": "https://github.com/jiezeng2004-design/dsh-requirements-alignment"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "requirement-alignment",
+            "agent",
+            "ai-agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.0-rc.1",
+            "publishTimestamp": 1790691625,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a03a6de16183e6a207122b9252f9352bf953539f566ce77b9b9a3ab97edce4d7",
+      "evidence": [
+        {
+          "name": "dsh-requirements-alignment",
+          "version": "0.5.0-rc.1",
+          "tarball": "https://registry.npmjs.org/dsh-requirements-alignment/-/dsh-requirements-alignment-0.5.0-rc.1.tgz",
+          "integrity": "sha512-q8oP1VbcXzX5zL2b2CCG2voQ2THIcm6xeUfI2/eA/xEkP4QdiVhlVWxn16+vXGQDHjNK5mqsD0tYg63FCESsUw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-requirements-alignment@0.5.0-rc.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jiezeng2004-design/dsh-requirements-alignment",
+    "commit": "31cf94f38ff4e1e961dfca51098967e861e49cc4",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:10.129Z"
+}

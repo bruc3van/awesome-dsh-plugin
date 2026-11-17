@@ -1,0 +1,77 @@
+{
+  "full_name": "tr1v3r/dsh-proxy",
+  "originalPosition": 194,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 194,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:11:58.909Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "87fbc38440b84e8d862d18c2b042fbb17c5ccefd92524ff0fce62bbfb56efaea",
+      "url": "https://github.com/tr1v3r/dsh-proxy/blob/627714dc06a5c37714b134a91cc887628265effd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "07b6be5916cc2e5a96bb421eaed73cd75b40b1e84b1021ec9606e2e732f892c9",
+      "url": "https://github.com/tr1v3r/dsh-proxy/blob/627714dc06a5c37714b134a91cc887628265effd/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@tr1v3r/dsh-proxy",
+      "version": "0.2.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tr1v3r/dsh-proxy",
+        "commit": "627714dc06a5c37714b134a91cc887628265effd"
+      },
+      "manifestSha256": "3396188715b85e39fc1680f736074b99e79e52e0471eb2e2306477749d5f59f1",
+      "manifestUrl": "https://github.com/tr1v3r/dsh-proxy/blob/627714dc06a5c37714b134a91cc887628265effd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1 <0.2.2-0 || 0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@tr1v3r/dsh-proxy",
+        "versions": [
+          {
+            "version": "0.2.6",
+            "publishTimestamp": 1794231046,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tr1v3r/dsh-proxy",
+              "commit": "627714dc06a5c37714b134a91cc887628265effd"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.2.2-0 || 0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tr1v3r/dsh-proxy",
+    "commit": "627714dc06a5c37714b134a91cc887628265effd",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:01.074Z"
+}

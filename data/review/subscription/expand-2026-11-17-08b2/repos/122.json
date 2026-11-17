@@ -1,0 +1,78 @@
+{
+  "full_name": "chenjrastro-tech/github-release-download-acceleration",
+  "originalPosition": 122,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:57.249Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ed80fc0c7f02e9093e3620bb2d3455816ff623f0085c3706c83590fad8cb32b6",
+      "url": "https://github.com/chenjrastro-tech/github-release-download-acceleration/blob/17539f09a5eca1648d4100c26defa42504c2b63d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/chenjrastro-tech/github-release-download-acceleration",
+          "command": "dsh plugin add github:chenjrastro-tech/github-release-download-acceleration",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "github-release-accelerator",
+      "version": "0.3.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chenjrastro-tech/github-release-download-acceleration",
+        "commit": "17539f09a5eca1648d4100c26defa42504c2b63d"
+      },
+      "manifestSha256": "3ce3b47a82c16f2b5252382babd285767bce882621f1636eef4abe40e4bed067",
+      "manifestUrl": "https://github.com/chenjrastro-tech/github-release-download-acceleration/blob/17539f09a5eca1648d4100c26defa42504c2b63d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "github-release-accelerator",
+        "versions": [
+          {
+            "version": "0.3.5",
+            "publishTimestamp": 1793429773,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/chenjrastro-tech/github-release-download-acceleration",
+              "commit": "17539f09a5eca1648d4100c26defa42504c2b63d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/chenjrastro-tech/github-release-download-acceleration",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chenjrastro-tech/github-release-download-acceleration",
+    "commit": "17539f09a5eca1648d4100c26defa42504c2b63d",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:59.128Z"
+}

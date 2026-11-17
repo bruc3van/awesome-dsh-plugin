@@ -1,0 +1,107 @@
+{
+  "full_name": "omdsh-dev/dsh-tool-calculator",
+  "originalPosition": 90,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 90,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:12:45.435Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6f2e00379f478359703d834914c563727804e17973a908ef2f0a6d80f7c8af28",
+      "url": "https://github.com/omdsh-dev/dsh-tool-calculator/blob/b2007a13f06bcf75bf07b9d277ee8d434a316490/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-tool-calculator",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-tool-calculator",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-tool-calculator",
+          "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-tool-calculator",
+          "profile": "headless"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/...",
+          "command": "dsh plugin add github:omdsh-dev/...",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "2c786e62edffa9793138cc069d6d88bfa3a36e0ae2d2d7cb64b2be9c2043a3a2",
+      "url": "https://github.com/omdsh-dev/dsh-tool-calculator/blob/b2007a13f06bcf75bf07b9d277ee8d434a316490/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/omdsh-dev/dsh-tool-calculator",
+          "command": "dsh plugin --profile web add github:omdsh-dev/dsh-tool-calculator",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/dsh-tool-calculator",
+          "command": "dsh plugin --profile headless add github:omdsh-dev/dsh-tool-calculator",
+          "profile": "headless"
+        },
+        {
+          "install": "https://github.com/omdsh-dev/...",
+          "command": "dsh plugin add github:omdsh-dev/...",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-tool-calculator",
+      "version": "0.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-tool-calculator",
+        "commit": "b2007a13f06bcf75bf07b9d277ee8d434a316490"
+      },
+      "manifestSha256": "d139ea27436ead18c9495b24a0fd8ab3e32b3f948f273e0374301bb3f3a9c0bc",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-tool-calculator/blob/b2007a13f06bcf75bf07b9d277ee8d434a316490/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/omdsh-dev/dsh-tool-calculator",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/omdsh-dev/...",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "install_target",
+      "target": "https://github.com/omdsh-dev/...",
+      "reason": "Command failed: git -c core.hooksPath=/dev/null -c core.fsmonitor=false -c submodule.recurse=false -c gc.auto=0 -c maintenance.auto=false -c protocol.allow=never -c protocol.https.allow=always ls-remote -- https://github.com/omdsh-dev/... HEAD refs/tags/*\nremote: Repository not found.\nfatal: repository 'https://github.com/omdsh-dev/.../' not found\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-tool-calculator",
+    "commit": "b2007a13f06bcf75bf07b9d277ee8d434a316490",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-17T08:12:48.004Z"
+}

@@ -1,0 +1,74 @@
+{
+  "full_name": "Abyss-Seeker/dsh-plugin-working-status",
+  "originalPosition": 136,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 136,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:15:59.318Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "aee124a382912840ba826b914c50abb18eee334333bfcc6ee1e3adfc02464080",
+      "url": "https://github.com/Abyss-Seeker/dsh-plugin-working-status/blob/125422f599e820190cfb2738e1809312eb5632b7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Abyss-Seeker/dsh-plugin-working-status",
+          "command": "dsh plugin --profile web add github:Abyss-Seeker/dsh-plugin-working-status",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "3835d09135382734535d2d7bf504bb98a4efc35118ef5948ac322544762f352f",
+      "url": "https://github.com/Abyss-Seeker/dsh-plugin-working-status/blob/125422f599e820190cfb2738e1809312eb5632b7/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Abyss-Seeker/dsh-plugin-working-status",
+          "command": "dsh plugin --profile web add github:Abyss-Seeker/dsh-plugin-working-status",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Abyss-Seeker/dsh-plugin-working-status",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Abyss-Seeker/dsh-plugin-working-status",
+    "commit": "125422f599e820190cfb2738e1809312eb5632b7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-plugin-working-status",
+    "version": "0.1.0",
+    "dsh": {
+      "client": {
+        "inject": [
+          "@deepseek-ai/dsh-client-runtime"
+        ],
+        "platform": "web",
+        "immediately": true
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:16:01.689Z"
+}

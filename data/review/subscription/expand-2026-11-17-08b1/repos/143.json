@@ -1,0 +1,40 @@
+{
+  "full_name": "goatbroai/dsh-plugin-scaffold",
+  "originalPosition": 143,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 143,
+  "batch": 1,
+  "stargazers_count": 11,
+  "startedAt": "2026-11-17T08:11:37.528Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3b2145f51176010f45748630a37db3fe9fe548682c6d8d176b95cbcc813db034",
+      "url": "https://github.com/goatbroai/dsh-plugin-scaffold/blob/542837335baa487f66c0641efd423b4de94619ff/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/goatbroai/dsh-plugin-scaffold",
+    "commit": "542837335baa487f66c0641efd423b4de94619ff",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:39.160Z"
+}

@@ -1,0 +1,81 @@
+{
+  "full_name": "GooodWei/context-vista",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-17T08:11:29.840Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "487fa1d939768c7aeac17a49f6935997f13adec0170d01ac18936f7d0de8f4ac",
+      "url": "https://github.com/GooodWei/context-vista/blob/c57a4954639c63ccac2744d6c66ec2a67dd5b892/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/GooodWei/context-vista",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:GooodWei/context-vista",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "context-vista",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GooodWei/context-vista",
+        "commit": "c57a4954639c63ccac2744d6c66ec2a67dd5b892"
+      },
+      "manifestSha256": "12c16d02f5f5cbc44c79a280a6c05f29899ac641d112057e654166111b590c78",
+      "manifestUrl": "https://github.com/GooodWei/context-vista/blob/c57a4954639c63ccac2744d6c66ec2a67dd5b892/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "context-vista",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1788871894,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GooodWei/context-vista",
+              "commit": "c57a4954639c63ccac2744d6c66ec2a67dd5b892"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/GooodWei/context-vista",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GooodWei/context-vista",
+    "commit": "c57a4954639c63ccac2744d6c66ec2a67dd5b892",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:11:31.754Z"
+}

@@ -1,0 +1,99 @@
+{
+  "full_name": "omdsh-dev/dsh-browser",
+  "originalPosition": 2,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 2,
+  "batch": 1,
+  "stargazers_count": 1081,
+  "startedAt": "2026-11-17T08:10:35.455Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e3cba75a66e4f35f3744702e65b3d5367969c4d1bce2a21371b936f7b9ecf1ee",
+      "url": "https://github.com/omdsh-dev/dsh-browser/blob/2e9a55ff306eb12692bd76ad14cd12b521bc890c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "848cc4ba06c93b8d898d2069f6dda099f7386959780d4f976442fb2891abc47d",
+      "url": "https://github.com/omdsh-dev/dsh-browser/blob/2e9a55ff306eb12692bd76ad14cd12b521bc890c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "benchmark/README.md",
+      "sha256": "7c4e1d3c9830268faf153c0b0969c8fd4725cbe7c9635f9ec49f8853ad7dc67c",
+      "url": "https://github.com/omdsh-dev/dsh-browser/blob/2e9a55ff306eb12692bd76ad14cd12b521bc890c/benchmark/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/browser/bridge-browser/README.md",
+      "sha256": "56906f6c0257a6ba161fe5a6bdb937f99032501dcc68032247fd99069c9e0987",
+      "url": "https://github.com/omdsh-dev/dsh-browser/blob/2e9a55ff306eb12692bd76ad14cd12b521bc890c/packages/browser/bridge-browser/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "extensions/dsh-browser/README.md",
+      "sha256": "7411a8bf8770b266f49dba2aecc2821c89deee09ce80f07b0713b677851ceb99",
+      "url": "https://github.com/omdsh-dev/dsh-browser/blob/2e9a55ff306eb12692bd76ad14cd12b521bc890c/extensions/dsh-browser/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/browser/bridge-browser/README.zh.md",
+      "sha256": "cbf948134f7f5ed220dd273548c4397bf89adf113d0c41a4c2241dc134f55b7f",
+      "url": "https://github.com/omdsh-dev/dsh-browser/blob/2e9a55ff306eb12692bd76ad14cd12b521bc890c/packages/browser/bridge-browser/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "extensions/dsh-browser/README.zh.md",
+      "sha256": "43286ffd446ff9088e7fa16837342ccbc72d6d9a1d791daa0964f5eca179f320",
+      "url": "https://github.com/omdsh-dev/dsh-browser/blob/2e9a55ff306eb12692bd76ad14cd12b521bc890c/extensions/dsh-browser/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yuxianglin/dsh-bridge-browser",
+      "version": "0.0.7",
+      "path": "packages/browser/bridge-browser",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/omdsh-dev/dsh-browser",
+        "commit": "2e9a55ff306eb12692bd76ad14cd12b521bc890c",
+        "path": "packages/browser/bridge-browser"
+      },
+      "manifestSha256": "14f1ffa7d6c6996bc4d1e871424da36ad080b9a1e4c4b1523a299fcc7bd37af6",
+      "manifestUrl": "https://github.com/omdsh-dev/dsh-browser/blob/2e9a55ff306eb12692bd76ad14cd12b521bc890c/packages/browser/bridge-browser/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/omdsh-dev/dsh-browser",
+    "commit": "2e9a55ff306eb12692bd76ad14cd12b521bc890c",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:10:41.943Z"
+}

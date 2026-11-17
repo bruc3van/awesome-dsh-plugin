@@ -1,0 +1,77 @@
+{
+  "full_name": "haoranwang0921/dsh-session-cleaner",
+  "originalPosition": 109,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 109,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:15:48.105Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "040398b7454961245736922301178660db8597c81fb3d60ffc4ab45f634c40f7",
+      "url": "https://github.com/haoranwang0921/dsh-session-cleaner/blob/32ad4f03474bc6b655e9bc18fb5bb9ecd5ed65ed/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "eae3ff6e5832bf666adeb130ac4684270852449d47ea4c255cac4bb5fa2b1cfa",
+      "url": "https://github.com/haoranwang0921/dsh-session-cleaner/blob/32ad4f03474bc6b655e9bc18fb5bb9ecd5ed65ed/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@haoranwang0921/dsh-session-cleaner",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/haoranwang0921/dsh-session-cleaner",
+        "commit": "32ad4f03474bc6b655e9bc18fb5bb9ecd5ed65ed"
+      },
+      "manifestSha256": "6f48b104a935321d1d66c4495d5cb0c3b6a89b60e573c004584835b0575d56b4",
+      "manifestUrl": "https://github.com/haoranwang0921/dsh-session-cleaner/blob/32ad4f03474bc6b655e9bc18fb5bb9ecd5ed65ed/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@haoranwang0921/dsh-session-cleaner",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1788624125,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/haoranwang0921/dsh-session-cleaner",
+              "commit": "32ad4f03474bc6b655e9bc18fb5bb9ecd5ed65ed"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/haoranwang0921/dsh-session-cleaner",
+    "commit": "32ad4f03474bc6b655e9bc18fb5bb9ecd5ed65ed",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:50.325Z"
+}

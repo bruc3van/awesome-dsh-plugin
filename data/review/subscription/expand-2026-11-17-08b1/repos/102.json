@@ -1,0 +1,74 @@
+{
+  "full_name": "KingsleyAsher/Personal-Knowledge-Base",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "stargazers_count": 14,
+  "startedAt": "2026-11-17T08:11:18.733Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "635a4b7132d5e94e13c57accc69116797fac9112f420a202c52b2127546f3c84",
+      "url": "https://github.com/KingsleyAsher/Personal-Knowledge-Base/blob/137359e865658b465e74fd607b9d1fd673ded07e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "55133bdcc80a02685edfeaec83b4f81edb16ae12a85479e7bec445a77213a90f",
+      "url": "https://github.com/KingsleyAsher/Personal-Knowledge-Base/blob/137359e865658b465e74fd607b9d1fd673ded07e/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/client/README.md",
+      "sha256": "23bd557a2edc731387371b7bb13b273e461a92a18ee0effb588f0174635962cb",
+      "url": "https://github.com/KingsleyAsher/Personal-Knowledge-Base/blob/137359e865658b465e74fd607b9d1fd673ded07e/docs/client/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/client/README.zh-CN.md",
+      "sha256": "30deee567f111808f4de3a052a497d64d5348eae3c5d7fe520b614f682f4725d",
+      "url": "https://github.com/KingsleyAsher/Personal-Knowledge-Base/blob/137359e865658b465e74fd607b9d1fd673ded07e/docs/client/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-knowledge-base",
+      "version": "3.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KingsleyAsher/Personal-Knowledge-Base",
+        "commit": "137359e865658b465e74fd607b9d1fd673ded07e"
+      },
+      "manifestSha256": "2f15f1dfb39d4ba1f191eab00f1bf52a114a0c1f509fa6df9435aba3df39a9cb",
+      "manifestUrl": "https://github.com/KingsleyAsher/Personal-Knowledge-Base/blob/137359e865658b465e74fd607b9d1fd673ded07e/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KingsleyAsher/Personal-Knowledge-Base",
+    "commit": "137359e865658b465e74fd607b9d1fd673ded07e",
+    "releaseTags": 48,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:22.378Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "azwosile/dsh-highres-vision",
+  "originalPosition": 116,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 116,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:55.317Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "60a482d1cdcada5fcb74b9c84569a98428b8c697264d2dc991560eb1edbdd65f",
+      "url": "https://github.com/azwosile/dsh-highres-vision/blob/9638230e59d6c997814946d9523532713f650b0d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-highres-vision",
+      "version": "0.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/azwosile/dsh-highres-vision",
+        "commit": "9638230e59d6c997814946d9523532713f650b0d"
+      },
+      "manifestSha256": "4fbe87d2243129d591a66dace78906a89689bdf10b2cc8fba5d69ed08936efb3",
+      "manifestUrl": "https://github.com/azwosile/dsh-highres-vision/blob/9638230e59d6c997814946d9523532713f650b0d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-highres-vision",
+        "versions": [
+          {
+            "version": "0.3.2",
+            "publishTimestamp": 1789120281,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/azwosile/dsh-highres-vision",
+              "commit": "9638230e59d6c997814946d9523532713f650b0d"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/azwosile/dsh-highres-vision",
+    "commit": "9638230e59d6c997814946d9523532713f650b0d",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:57.115Z"
+}

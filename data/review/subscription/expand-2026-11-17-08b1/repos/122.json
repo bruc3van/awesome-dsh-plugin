@@ -1,0 +1,48 @@
+{
+  "full_name": "42ch-dev/dsh-rust-sdk",
+  "originalPosition": 122,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-17T08:11:27.680Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c9ed5869db1e7519009862f3839698a16d55554f1c9caf923fc9f68d6c9948b7",
+      "url": "https://github.com/42ch-dev/dsh-rust-sdk/blob/a14200969d590cc8e51316b01e04cf6fbbf51ce9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "87933c3b6dce2ff65feb268f5acc8bb63a841364cf3970b57c8e0f6fbdf48b92",
+      "url": "https://github.com/42ch-dev/dsh-rust-sdk/blob/a14200969d590cc8e51316b01e04cf6fbbf51ce9/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/42ch-dev/dsh-rust-sdk",
+    "commit": "a14200969d590cc8e51316b01e04cf6fbbf51ce9",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:29.840Z"
+}

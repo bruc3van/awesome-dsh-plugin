@@ -1,0 +1,87 @@
+{
+  "full_name": "YUEYUEXYS/dsh-think-ultra",
+  "originalPosition": 114,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 114,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:54.611Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "32b2c88fe67f5e531421bb796992ee61467b44f901e170ec2986bd5daab24d0a",
+      "url": "https://github.com/YUEYUEXYS/dsh-think-ultra/blob/f406136bddbbf13635975e57f3cd99d49e244cec/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/YUEYUEXYS/dsh-think-ultra/tarball/main",
+          "command": "dsh plugin --profile web add https://github.com/YUEYUEXYS/dsh-think-ultra/tarball/main",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-think-ultra",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YUEYUEXYS/dsh-think-ultra",
+        "commit": "f406136bddbbf13635975e57f3cd99d49e244cec"
+      },
+      "manifestSha256": "43b067a0f2aeaead33af4ede5beb6440a66cb3ea5693d6bdca89e2bd70403f85",
+      "manifestUrl": "https://github.com/YUEYUEXYS/dsh-think-ultra/blob/f406136bddbbf13635975e57f3cd99d49e244cec/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-alpha.2 <0.1.6 || >=0.1.6-alpha.2 <0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-think-ultra",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789889113,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YUEYUEXYS/dsh-think-ultra",
+              "commit": "f406136bddbbf13635975e57f3cd99d49e244cec"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-alpha.2 <0.1.6 || >=0.1.6-alpha.2 <0.2.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/YUEYUEXYS/dsh-think-ultra/tarball/main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "install_target",
+      "target": "https://github.com/YUEYUEXYS/dsh-think-ultra/tarball/main",
+      "reason": "Command failed: git -c core.hooksPath=/dev/null -c core.fsmonitor=false -c submodule.recurse=false -c gc.auto=0 -c maintenance.auto=false -c protocol.allow=never -c protocol.https.allow=always ls-remote -- https://github.com/YUEYUEXYS/dsh-think-ultra/tarball/main HEAD refs/tags/*\nremote: 404: Not Found\nfatal: repository 'https://github.com/YUEYUEXYS/dsh-think-ultra/tarball/main/' not found\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/YUEYUEXYS/dsh-think-ultra",
+    "commit": "f406136bddbbf13635975e57f3cd99d49e244cec",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-17T08:12:57.249Z"
+}

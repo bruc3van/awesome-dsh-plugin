@@ -1,0 +1,66 @@
+{
+  "full_name": "eee1723/dsh-houdini",
+  "originalPosition": 7,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 7,
+  "batch": 1,
+  "stargazers_count": 124,
+  "startedAt": "2026-11-17T08:10:38.160Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0a10e807f5db3286a0d169da8583fa8995870138df1f3229be36b665f754766b",
+      "url": "https://github.com/eee1723/dsh-houdini/blob/6db79c50cfaa057c5c4fde015f511169a7d8d724/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "811bd88291232ab15a39c23d88ba85724a4c37508775af631fe26fa6809bbfd2",
+      "url": "https://github.com/eee1723/dsh-houdini/blob/6db79c50cfaa057c5c4fde015f511169a7d8d724/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "1d154369bcaf2b2de15fdadcf103c5e7a0d2afff01fb93e39ef88041e3269196",
+      "url": "https://github.com/eee1723/dsh-houdini/blob/6db79c50cfaa057c5c4fde015f511169a7d8d724/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-houdini",
+      "version": "0.1.12",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/eee1723/dsh-houdini",
+        "commit": "6db79c50cfaa057c5c4fde015f511169a7d8d724"
+      },
+      "manifestSha256": "b45a5a665a6984603366ea56c3571bc55c6d76223b5b3748f5e5ba8d343bdca3",
+      "manifestUrl": "https://github.com/eee1723/dsh-houdini/blob/6db79c50cfaa057c5c4fde015f511169a7d8d724/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/eee1723/dsh-houdini",
+    "commit": "6db79c50cfaa057c5c4fde015f511169a7d8d724",
+    "releaseTags": 24,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:10:41.110Z"
+}

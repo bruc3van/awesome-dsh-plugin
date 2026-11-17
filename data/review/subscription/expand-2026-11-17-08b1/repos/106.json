@@ -1,0 +1,53 @@
+{
+  "full_name": "pazz11/Jnpz",
+  "originalPosition": 106,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 106,
+  "batch": 1,
+  "stargazers_count": 14,
+  "startedAt": "2026-11-17T08:11:20.984Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d4fd95d5ab215936d7f86e9aa568cb6673dd11b909878df6430696665f089be1",
+      "url": "https://github.com/pazz11/Jnpz/blob/e4a1b72756ec786a5f750bc75a1131eeefe7d6cb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/pazz11/Jnpz",
+    "commit": "e4a1b72756ec786a5f750bc75a1131eeefe7d6cb",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "Jnpz",
+    "version": "0.1.4",
+    "dsh": {
+      "client": {
+        "inject": [
+          "@deepseek-ai/dsh-client-connection",
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-locale",
+          "@deepseek-ai/dsh-client-ui-settings",
+          "@deepseek-ai/dsh-client-ui-slots",
+          "@deepseek-ai/dsh-client-ui-theme"
+        ],
+        "platform": "web",
+        "immediately": true
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:22.839Z"
+}

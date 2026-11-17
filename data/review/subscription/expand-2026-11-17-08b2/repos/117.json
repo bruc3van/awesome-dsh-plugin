@@ -1,0 +1,144 @@
+{
+  "full_name": "better-er/dsh-peak-block",
+  "originalPosition": 117,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 117,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:55.442Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5dd2b0e3df82e7a1113f673ed3086d37a619049107fb9e86099fc6dac62835f6",
+      "url": "https://github.com/better-er/dsh-peak-block/blob/1617da15472d31f948ede1a56c74b69fbc49f803/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/better-er/dsh-peak-block",
+          "command": "dsh plugin --profile web add github:better-er/dsh-peak-block",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-peak-block",
+          "command": "dsh plugin --profile web add dsh-peak-block",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-peak-block",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/better-er/dsh-peak-block",
+        "commit": "1617da15472d31f948ede1a56c74b69fbc49f803"
+      },
+      "manifestSha256": "a737995e66e11869bae0f08a40cd50209ecc178287f8bf9d433232060db7b2e4",
+      "manifestUrl": "https://github.com/better-er/dsh-peak-block/blob/1617da15472d31f948ede1a56c74b69fbc49f803/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-peak-block",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794470305,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/better-er/dsh-peak-block",
+              "commit": "1617da15472d31f948ede1a56c74b69fbc49f803"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-peak-block",
+      "origin": "npm",
+      "name": "dsh-peak-block",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-peak-block",
+        "title": "dsh-peak-block",
+        "description": "「DSH·禁止梁文峰」：拦截官方 DeepSeek API 请求：北京时间工作日高峰时段 09:00-12:00、14:00-18:00，中国法定节假日全天谷价不拦截，自动拦截发往官方 provider `deepseek-official` 与 `deepseek-account` 的模型请求，可切换到第三方中转或预留的本机转 API 端口，未配置则阻止并把未发出的消息放回输入框；非高峰不拦、正常走官方，避开高峰双倍计价。标准可安装 dsh 插件，host 与浏览器双半身，设置经 cordis 配置文件注入。",
+        "author": "betterer",
+        "repository": {
+          "url": "https://github.com/better-er/dsh-peak-block"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "peak-hours",
+            "rate-limit",
+            "official",
+            "provider",
+            "routing"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794470475,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f4b5d30e123b5cae982298bc6ab5c57721f1191ea56ff784a66e75f82325fda7",
+      "evidence": [
+        {
+          "name": "dsh-peak-block",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-peak-block/-/dsh-peak-block-0.3.0.tgz",
+          "integrity": "sha512-d1ZG0gn4/t6aRpZKI6G2kMQtjY61kjsE0mXrljzngw9hKB9ispWGtZQcsg/8dgW+sjR9SYSrV/X5ZFICtisDaA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/better-er/dsh-peak-block",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-peak-block",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/better-er/dsh-peak-block",
+    "commit": "1617da15472d31f948ede1a56c74b69fbc49f803",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:57.609Z"
+}

@@ -1,0 +1,40 @@
+{
+  "full_name": "isolat-3k/dsh-kanban",
+  "originalPosition": 187,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 187,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:11:56.416Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "40296b9f01ddf7cd06cb1295f5e822550489b99ff738217cbba740d7f351895f",
+      "url": "https://github.com/isolat-3k/dsh-kanban/blob/d69f368e81289422a4d99c5da7ffb342e1f90a84/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/isolat-3k/dsh-kanban",
+    "commit": "d69f368e81289422a4d99c5da7ffb342e1f90a84",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:58.377Z"
+}

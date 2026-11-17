@@ -1,0 +1,74 @@
+{
+  "full_name": "3ChatAI-NCT/3chatai-deepseek-harness-plugin",
+  "originalPosition": 127,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 127,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:15:56.715Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fcdc3d5297e56dec625010027ab1977fae4a5a9ae797048a5fafaf8dc5fbd284",
+      "url": "https://github.com/3ChatAI-NCT/3chatai-deepseek-harness-plugin/blob/d741956969f0adcd523c13d682e9ca8d7b313cb0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "c6234a137f22e3442231b85a42745f1c9fc29bcee19f3a8081e0b3e89cfe74d2",
+      "url": "https://github.com/3ChatAI-NCT/3chatai-deepseek-harness-plugin/blob/d741956969f0adcd523c13d682e9ca8d7b313cb0/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "3chat-customer-growth",
+      "version": "2.1.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/3ChatAI-NCT/3chatai-deepseek-harness-plugin",
+        "commit": "d741956969f0adcd523c13d682e9ca8d7b313cb0"
+      },
+      "manifestSha256": "1ce4e21135b733bb4d582e83f4e223e54cb3bce7f155edb4fc8bd7e1a40afac7",
+      "manifestUrl": "https://github.com/3ChatAI-NCT/3chatai-deepseek-harness-plugin/blob/d741956969f0adcd523c13d682e9ca8d7b313cb0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "3chat-customer-growth",
+        "versions": [
+          {
+            "version": "2.1.4",
+            "publishTimestamp": 1792395344,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/3ChatAI-NCT/3chatai-deepseek-harness-plugin",
+              "commit": "d741956969f0adcd523c13d682e9ca8d7b313cb0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/3ChatAI-NCT/3chatai-deepseek-harness-plugin",
+    "commit": "d741956969f0adcd523c13d682e9ca8d7b313cb0",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:59.051Z"
+}

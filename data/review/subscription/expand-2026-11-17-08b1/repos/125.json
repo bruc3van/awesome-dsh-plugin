@@ -1,0 +1,48 @@
+{
+  "full_name": "FlytoMAYDAY80/dsh-pet",
+  "originalPosition": 125,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 125,
+  "batch": 1,
+  "stargazers_count": 12,
+  "startedAt": "2026-11-17T08:11:29.618Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0389ed998036ca47325c7b73baf24b451122ecf9b40a6d6fdacbaba672dd7970",
+      "url": "https://github.com/FlytoMAYDAY80/dsh-pet/blob/6741135eb90dca28bf527b2950212dcdb246ad65/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "custom/README.md",
+      "sha256": "2a5999ef9c96836877570517a8082c5f1ccf715b439ffa1fd0ef735ade8f73e1",
+      "url": "https://github.com/FlytoMAYDAY80/dsh-pet/blob/6741135eb90dca28bf527b2950212dcdb246ad65/custom/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FlytoMAYDAY80/dsh-pet",
+    "commit": "6741135eb90dca28bf527b2950212dcdb246ad65",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-pet",
+    "version": "0.1.1",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:31.883Z"
+}

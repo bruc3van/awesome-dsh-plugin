@@ -1,0 +1,231 @@
+{
+  "full_name": "raphael-y7/dsh-desktop-statusbar",
+  "originalPosition": 173,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 173,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:19.796Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "91953948f45dee80400b693db49e389f69a424e06d9df9e0bf8901fdc5682c55",
+      "url": "https://github.com/raphael-y7/dsh-desktop-statusbar/blob/1ad88ecb8221e312a61731c82ff1add14ea54ddd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-desktop-statusbar",
+          "command": "dsh plugin --profile desktop add dsh-desktop-statusbar",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-desktop-statusbar@3.0.5",
+          "command": "dsh plugin --profile desktop add dsh-desktop-statusbar@3.0.5",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-desktop-statusbar",
+      "version": "3.0.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/raphael-y7/dsh-desktop-statusbar",
+        "commit": "1ad88ecb8221e312a61731c82ff1add14ea54ddd"
+      },
+      "manifestSha256": "ab0472c218f224bc681ac64a37009ddf29ba771b10ba47d55ebbae69ac135128",
+      "manifestUrl": "https://github.com/raphael-y7/dsh-desktop-statusbar/blob/1ad88ecb8221e312a61731c82ff1add14ea54ddd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-desktop-statusbar",
+        "versions": [
+          {
+            "version": "3.0.5",
+            "publishTimestamp": 1794708602,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/raphael-y7/dsh-desktop-statusbar",
+              "commit": "1ad88ecb8221e312a61731c82ff1add14ea54ddd"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-desktop-statusbar",
+      "origin": "npm",
+      "name": "dsh-desktop-statusbar",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-desktop-statusbar",
+        "title": {
+          "en": "Desktop Status Bar",
+          "de": "Desktop-Statusleiste",
+          "es": "Barra de estado de escritorio",
+          "fr": "Barre d'état de bureau",
+          "ja": "デスクトップステータスバー",
+          "pt": "Barra de Estado do Ambiente de Trabalho",
+          "ru": "Строка состояния рабочего стола",
+          "zh": "桌面状态栏"
+        },
+        "description": {
+          "en": "Replaces the stats line under the DSH desktop conversation with a configurable status bar: 9 optional reorderable fields plus the context ring at the head of the bar, official peak/off-peak cost estimates, custom model prices and account balance.",
+          "de": "Ersetzt die Statistikzeile unter der DSH-Desktop-Konversation durch eine konfigurierbare Statusleiste: 9 optionale, sortierbare Felder plus der Kontextring am Anfang der Leiste, offizielle Spitzen-/Nebenzeiten-Kostenschätzungen, eigene Modellpreise und Kontoguthaben.",
+          "es": "Sustituye la línea de estadísticas bajo la conversación del escritorio de DSH por una barra de estado configurable: 9 campos opcionales reordenables más el anillo de contexto al inicio de la barra, estimaciones oficiales de coste en horas punta y valle, precios personalizados de modelos y saldo de la cuenta.",
+          "fr": "Remplace la ligne de statistiques sous la conversation du bureau DSH par une barre d'état configurable : 9 champs facultatifs réorganisables, plus l'anneau de contexte en tête de barre, estimation officielle des coûts heures pleines / creuses, prix de modèles personnalisés et solde du compte.",
+          "ja": "DSH デスクトップ版の会話エリア下部の統計行を、設定可能なステータスバーに置き換えます：並べ替え可能な 9 個の任意フィールドとバー先頭のコンテキストリング、公式のピーク／オフピーク料金による費用推定、カスタムモデル価格、アカウント残高に対応。",
+          "pt": "Substitui a linha de estatísticas por baixo da conversa do ambiente de trabalho do DSH por uma barra de estado configurável: 9 campos opcionais reordenáveis, mais o anel de contexto no início da barra, estimativas oficiais de custo de ponta/fora de ponta, preços de modelos personalizados e saldo da conta.",
+          "ru": "Заменяет строку статистики под диалогом DSH на рабочем столе на настраиваемую строку состояния: 9 необязательных полей с изменяемым порядком плюс кольцо контекста в начале строки, оценка стоимости по официальным пиковым/непиковым тарифам, свои цены моделей и баланс аккаунта.",
+          "zh": "把 DSH 桌面端对话区底部的统计行换成可配置状态栏：9 个可选字段可排序 + 栏首上下文圆环，按官方峰谷口径估算费用，支持自定义模型单价与账户余额。"
+        },
+        "author": "北浮森屿",
+        "homepage": "https://github.com/raphael-y7/dsh-desktop-statusbar#readme",
+        "repository": {
+          "url": "https://github.com/raphael-y7/dsh-desktop-statusbar"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "statusbar",
+            "token-usage",
+            "cost"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNNS4wMSAyOC41QTE1IDE1IDAgMSAxIDMwLjk5IDI4LjUiIHN0cm9rZT0idXJsKCNnYXVnZSkiIHN0cm9rZS13aWR0aD0iMi44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIC8+CiAgPHBhdGggZD0iTTE4IDIxbDYtNiIgc3Ryb2tlPSJ1cmwoI2dhdWdlKSIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgLz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ2F1Z2UiIHgxPSI1IiB5MT0iMTIiIHgyPSIzMSIgeTI9IjI5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM1NEVDRTciIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzY1OEVGRiIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "3.0.5",
+            "publishTimestamp": 1794710218,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f0577e1c92d3643d724a9a8821046bfb6594198c04ab291324d398d192d82a9b",
+      "evidence": [
+        {
+          "name": "dsh-desktop-statusbar",
+          "version": "3.0.5",
+          "tarball": "https://registry.npmjs.org/dsh-desktop-statusbar/-/dsh-desktop-statusbar-3.0.5.tgz",
+          "integrity": "sha512-hDEhh5pc1vW7HjsZZqd9qS8gCAP0LA9s4JDgtlSehtROH3S/iUEjJN98yfj2UooeGwhcQS74p9HHSEnw1d32Tg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-desktop-statusbar@3.0.5",
+      "origin": "npm",
+      "name": "dsh-desktop-statusbar",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-desktop-statusbar",
+        "title": {
+          "en": "Desktop Status Bar",
+          "de": "Desktop-Statusleiste",
+          "es": "Barra de estado de escritorio",
+          "fr": "Barre d'état de bureau",
+          "ja": "デスクトップステータスバー",
+          "pt": "Barra de Estado do Ambiente de Trabalho",
+          "ru": "Строка состояния рабочего стола",
+          "zh": "桌面状态栏"
+        },
+        "description": {
+          "en": "Replaces the stats line under the DSH desktop conversation with a configurable status bar: 9 optional reorderable fields plus the context ring at the head of the bar, official peak/off-peak cost estimates, custom model prices and account balance.",
+          "de": "Ersetzt die Statistikzeile unter der DSH-Desktop-Konversation durch eine konfigurierbare Statusleiste: 9 optionale, sortierbare Felder plus der Kontextring am Anfang der Leiste, offizielle Spitzen-/Nebenzeiten-Kostenschätzungen, eigene Modellpreise und Kontoguthaben.",
+          "es": "Sustituye la línea de estadísticas bajo la conversación del escritorio de DSH por una barra de estado configurable: 9 campos opcionales reordenables más el anillo de contexto al inicio de la barra, estimaciones oficiales de coste en horas punta y valle, precios personalizados de modelos y saldo de la cuenta.",
+          "fr": "Remplace la ligne de statistiques sous la conversation du bureau DSH par une barre d'état configurable : 9 champs facultatifs réorganisables, plus l'anneau de contexte en tête de barre, estimation officielle des coûts heures pleines / creuses, prix de modèles personnalisés et solde du compte.",
+          "ja": "DSH デスクトップ版の会話エリア下部の統計行を、設定可能なステータスバーに置き換えます：並べ替え可能な 9 個の任意フィールドとバー先頭のコンテキストリング、公式のピーク／オフピーク料金による費用推定、カスタムモデル価格、アカウント残高に対応。",
+          "pt": "Substitui a linha de estatísticas por baixo da conversa do ambiente de trabalho do DSH por uma barra de estado configurável: 9 campos opcionais reordenáveis, mais o anel de contexto no início da barra, estimativas oficiais de custo de ponta/fora de ponta, preços de modelos personalizados e saldo da conta.",
+          "ru": "Заменяет строку статистики под диалогом DSH на рабочем столе на настраиваемую строку состояния: 9 необязательных полей с изменяемым порядком плюс кольцо контекста в начале строки, оценка стоимости по официальным пиковым/непиковым тарифам, свои цены моделей и баланс аккаунта.",
+          "zh": "把 DSH 桌面端对话区底部的统计行换成可配置状态栏：9 个可选字段可排序 + 栏首上下文圆环，按官方峰谷口径估算费用，支持自定义模型单价与账户余额。"
+        },
+        "author": "北浮森屿",
+        "homepage": "https://github.com/raphael-y7/dsh-desktop-statusbar#readme",
+        "repository": {
+          "url": "https://github.com/raphael-y7/dsh-desktop-statusbar"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "statusbar",
+            "token-usage",
+            "cost"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNNS4wMSAyOC41QTE1IDE1IDAgMSAxIDMwLjk5IDI4LjUiIHN0cm9rZT0idXJsKCNnYXVnZSkiIHN0cm9rZS13aWR0aD0iMi44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIC8+CiAgPHBhdGggZD0iTTE4IDIxbDYtNiIgc3Ryb2tlPSJ1cmwoI2dhdWdlKSIgc3Ryb2tlLXdpZHRoPSIyLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgLz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ2F1Z2UiIHgxPSI1IiB5MT0iMTIiIHgyPSIzMSIgeTI9IjI5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM1NEVDRTciIC8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzY1OEVGRiIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "3.0.5",
+            "publishTimestamp": 1794710218,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f0577e1c92d3643d724a9a8821046bfb6594198c04ab291324d398d192d82a9b",
+      "evidence": [
+        {
+          "name": "dsh-desktop-statusbar",
+          "version": "3.0.5",
+          "tarball": "https://registry.npmjs.org/dsh-desktop-statusbar/-/dsh-desktop-statusbar-3.0.5.tgz",
+          "integrity": "sha512-hDEhh5pc1vW7HjsZZqd9qS8gCAP0LA9s4JDgtlSehtROH3S/iUEjJN98yfj2UooeGwhcQS74p9HHSEnw1d32Tg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-desktop-statusbar",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-desktop-statusbar@3.0.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/raphael-y7/dsh-desktop-statusbar",
+    "commit": "1ad88ecb8221e312a61731c82ff1add14ea54ddd",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:22.285Z"
+}

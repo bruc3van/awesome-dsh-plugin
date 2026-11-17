@@ -1,0 +1,190 @@
+{
+  "full_name": "vlln/dsh-loop",
+  "originalPosition": 190,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 190,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:30.838Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "14e5b145a76ea2a06f966f7c0b2a5dedd3b0061c83750ccce463766ddc928c06",
+      "url": "https://github.com/vlln/dsh-loop/blob/6bbf4a571b8d1fc06cd915d9737e081e7f25f912/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@vlln/dsh-loop",
+          "command": "dsh plugin --profile web add @vlln/dsh-loop",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/vlln/dsh-loop#main",
+          "command": "dsh plugin --profile web add \"github:vlln/dsh-loop#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "0dce3170fe6d88407844dfd8628aca7a9dfd9358c9705c857cb9ffa95c50fbd1",
+      "url": "https://github.com/vlln/dsh-loop/blob/6bbf4a571b8d1fc06cd915d9737e081e7f25f912/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@vlln/dsh-loop",
+          "command": "dsh plugin --profile web add @vlln/dsh-loop",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/vlln/dsh-loop#main",
+          "command": "dsh plugin --profile web add \"github:vlln/dsh-loop#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@vlln/dsh-loop",
+      "version": "0.4.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/vlln/dsh-loop",
+        "commit": "6bbf4a571b8d1fc06cd915d9737e081e7f25f912"
+      },
+      "manifestSha256": "e3f1188f735912f77f30b0031ee66437b5bf0c5d6cc2377f243c12ea5d1dff14",
+      "manifestUrl": "https://github.com/vlln/dsh-loop/blob/6bbf4a571b8d1fc06cd915d9737e081e7f25f912/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@vlln/dsh-loop",
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1794414126,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/vlln/dsh-loop",
+              "commit": "6bbf4a571b8d1fc06cd915d9737e081e7f25f912"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@vlln/dsh-loop",
+      "origin": "npm",
+      "name": "@vlln/dsh-loop",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@vlln/dsh-loop",
+        "title": "@vlln/dsh-loop",
+        "description": "定时循环插件：/loop 命令 + loop 工具 + 活动状态条（官方 dock 槽）+ 设置页（工具暴露开关）",
+        "repository": {
+          "url": "https://github.com/vlln/dsh-loop"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibG9vcCIgeDE9IjgiIHkxPSI2IiB4Mj0iMjgiIHkyPSIzMCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNEQ2QkZFIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzJCQzREOCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHBhdGggZD0iTTI5LjUgMThhMTEuNSAxMS41IDAgMSAxLTExLjUtMTEuNWMzLjIyIDAgNi4zIDEuMjggOC42IDMuNUwyOS41IDEzIiBzdHJva2U9InVybCgjbG9vcCkiIHN0cm9rZS13aWR0aD0iMi44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNMjkuNSA2LjVWMTNoLTYuNSIgc3Ryb2tlPSJ1cmwoI2xvb3ApIiBzdHJva2Utd2lkdGg9IjIuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1793363079,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "63d60688f1ba70edfab5a9308bfdc95f48f52ac683ce88a81d569caf38b4ff33",
+      "evidence": [
+        {
+          "name": "@vlln/dsh-loop",
+          "version": "0.4.4",
+          "tarball": "https://registry.npmjs.org/@vlln/dsh-loop/-/dsh-loop-0.4.4.tgz",
+          "integrity": "sha512-BSaYQzcmp9IVdwebGwup3yqKDcboDzO7uaKQQT5uxZcqwQI8swsa2Nb4jEp57dVctXfz7bjvWmO3wNYqm4z4iA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/vlln/dsh-loop#main",
+      "origin": "git_target",
+      "name": "@vlln/dsh-loop",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@vlln/dsh-loop",
+        "title": "@vlln/dsh-loop",
+        "description": "定时循环插件：/loop 命令 + loop 工具 + 活动状态条（官方 dock 槽）+ 设置页（工具暴露开关）",
+        "repository": {
+          "url": "https://github.com/vlln/dsh-loop"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibG9vcCIgeDE9IjgiIHkxPSI2IiB4Mj0iMjgiIHkyPSIzMCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNEQ2QkZFIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzJCQzREOCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHBhdGggZD0iTTI5LjUgMThhMTEuNSAxMS41IDAgMSAxLTExLjUtMTEuNWMzLjIyIDAgNi4zIDEuMjggOC42IDMuNUwyOS41IDEzIiBzdHJva2U9InVybCgjbG9vcCkiIHN0cm9rZS13aWR0aD0iMi44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNMjkuNSA2LjVWMTNoLTYuNSIgc3Ryb2tlPSJ1cmwoI2xvb3ApIiBzdHJva2Utd2lkdGg9IjIuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1794414126,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/vlln/dsh-loop",
+              "commit": "6bbf4a571b8d1fc06cd915d9737e081e7f25f912"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "6bbf4a571b8d1fc06cd915d9737e081e7f25f912",
+          "name": "@vlln/dsh-loop",
+          "version": "0.4.4",
+          "url": "https://github.com/vlln/dsh-loop",
+          "manifestSha256": "e3f1188f735912f77f30b0031ee66437b5bf0c5d6cc2377f243c12ea5d1dff14",
+          "publishTimestamp": 1794414126
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@vlln/dsh-loop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/vlln/dsh-loop#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/vlln/dsh-loop",
+    "commit": "6bbf4a571b8d1fc06cd915d9737e081e7f25f912",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:35.514Z"
+}

@@ -1,0 +1,42 @@
+{
+  "full_name": "gtaifu/dsh-wechat-bridge",
+  "originalPosition": 94,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 94,
+  "batch": 1,
+  "stargazers_count": 16,
+  "startedAt": "2026-11-17T08:11:16.157Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "883fb0e79ef96c75ed35135bf2d6f3a08f6c1d28010c0826168b108ad27660cc",
+      "url": "https://github.com/gtaifu/dsh-wechat-bridge/blob/425f5d221065f953eba75190d935576bdfb6e55d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/gtaifu/dsh-wechat-bridge",
+    "commit": "425f5d221065f953eba75190d935576bdfb6e55d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-wechat-bridge",
+    "version": "1.1.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=18"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:18.131Z"
+}

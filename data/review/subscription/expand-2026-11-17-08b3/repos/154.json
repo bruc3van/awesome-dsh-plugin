@@ -1,0 +1,624 @@
+{
+  "full_name": "DamonBao/dsh-codex-suite",
+  "originalPosition": 154,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 154,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:08.572Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "321ebbadccd7cb218f24149fe5b9b09172f639b54f96325f0f303db081b59dfc",
+      "url": "https://github.com/DamonBao/dsh-codex-suite/blob/15370669b0f19ca846695f3ad00a31f6b33586a9/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jcy2387/dsh-suite@0.2.2-rc.1",
+          "command": "dsh plugin --profile web add @jcy2387/dsh-suite@0.2.2-rc.1",
+          "profile": "web"
+        },
+        {
+          "install": "@jcy2387/dsh-codex-provider@0.2.2-rc.1",
+          "command": "dsh plugin --profile web add @jcy2387/dsh-codex-provider@0.2.2-rc.1",
+          "profile": "web"
+        },
+        {
+          "install": "@jcy2387/dsh-conversation-ui@0.2.2-rc.1",
+          "command": "dsh plugin --profile web add @jcy2387/dsh-conversation-ui@0.2.2-rc.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "73c779e3769c24840f260da62a6399679379517443f3708bd8e03961ecd2e4d6",
+      "url": "https://github.com/DamonBao/dsh-codex-suite/blob/15370669b0f19ca846695f3ad00a31f6b33586a9/README.zh.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jcy2387/dsh-suite@0.2.2-rc.1",
+          "command": "dsh plugin --profile web add @jcy2387/dsh-suite@0.2.2-rc.1",
+          "profile": "web"
+        },
+        {
+          "install": "@jcy2387/dsh-codex-provider@0.2.2-rc.1",
+          "command": "dsh plugin --profile web add @jcy2387/dsh-codex-provider@0.2.2-rc.1",
+          "profile": "web"
+        },
+        {
+          "install": "@jcy2387/dsh-conversation-ui@0.2.2-rc.1",
+          "command": "dsh plugin --profile web add @jcy2387/dsh-conversation-ui@0.2.2-rc.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/codex-provider/README.md",
+      "sha256": "e39689a7ef7a31a0e01213e708f547b56b44395574f7f443288b76681bf3fd89",
+      "url": "https://github.com/DamonBao/dsh-codex-suite/blob/15370669b0f19ca846695f3ad00a31f6b33586a9/packages/codex-provider/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jcy2387/dsh-codex-provider",
+          "command": "dsh plugin --profile web add @jcy2387/dsh-codex-provider",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/conversation-ui/README.en.md",
+      "sha256": "d62f4c1265bdd3d67dc0b965e010dd04805b87e736ff6937c9597e6b34d1d735",
+      "url": "https://github.com/DamonBao/dsh-codex-suite/blob/15370669b0f19ca846695f3ad00a31f6b33586a9/packages/conversation-ui/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jcy2387/dsh-conversation-ui@0.2.2-rc.1",
+          "command": "dsh plugin --profile web add @jcy2387/dsh-conversation-ui@0.2.2-rc.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/all/README.md",
+      "sha256": "28b471a9ae9cc172eb326eb45aec02695f335b7baf58d084367c28727268985f",
+      "url": "https://github.com/DamonBao/dsh-codex-suite/blob/15370669b0f19ca846695f3ad00a31f6b33586a9/packages/all/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jcy2387/dsh-suite",
+          "command": "dsh plugin --profile web add @jcy2387/dsh-suite",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/codex-provider/README.zh.md",
+      "sha256": "2f06981284551261dbe1eb19269564e27d132c0cbc8a75cbf2db702f6827b806",
+      "url": "https://github.com/DamonBao/dsh-codex-suite/blob/15370669b0f19ca846695f3ad00a31f6b33586a9/packages/codex-provider/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jcy2387/dsh-codex-provider",
+          "command": "dsh plugin --profile web add @jcy2387/dsh-codex-provider",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/conversation-ui/README.md",
+      "sha256": "1f2111578b02a833346fddfe05a07e92fef36fb1223b154fd7f306895ea652c2",
+      "url": "https://github.com/DamonBao/dsh-codex-suite/blob/15370669b0f19ca846695f3ad00a31f6b33586a9/packages/conversation-ui/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@jcy2387/dsh-conversation-ui@0.2.2-rc.1",
+          "command": "dsh plugin --profile web add @jcy2387/dsh-conversation-ui@0.2.2-rc.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@jcy2387/dsh-suite",
+      "version": "0.2.2-rc.1",
+      "path": "packages/all",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DamonBao/dsh-codex-suite",
+        "commit": "15370669b0f19ca846695f3ad00a31f6b33586a9",
+        "path": "packages/all"
+      },
+      "manifestSha256": "8ec8e5548e7b3583692c4c61a2fc0a454b6da8d67871c15711b1850b0c9bf459",
+      "manifestUrl": "https://github.com/DamonBao/dsh-codex-suite/blob/15370669b0f19ca846695f3ad00a31f6b33586a9/packages/all/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@jcy2387/dsh-suite",
+        "versions": [
+          {
+            "version": "0.2.2-rc.1",
+            "publishTimestamp": 1793847492,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DamonBao/dsh-codex-suite",
+              "commit": "15370669b0f19ca846695f3ad00a31f6b33586a9",
+              "path": "packages/all"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@jcy2387/dsh-codex-provider",
+      "version": "0.2.2-rc.1",
+      "path": "packages/codex-provider",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DamonBao/dsh-codex-suite",
+        "commit": "15370669b0f19ca846695f3ad00a31f6b33586a9",
+        "path": "packages/codex-provider"
+      },
+      "manifestSha256": "ec504f9f935c34260bd6bd583c2ae5dfafae57c5282260488cc95d45f3e95023",
+      "manifestUrl": "https://github.com/DamonBao/dsh-codex-suite/blob/15370669b0f19ca846695f3ad00a31f6b33586a9/packages/codex-provider/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@jcy2387/dsh-codex-provider",
+        "versions": [
+          {
+            "version": "0.2.2-rc.1",
+            "publishTimestamp": 1793847492,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DamonBao/dsh-codex-suite",
+              "commit": "15370669b0f19ca846695f3ad00a31f6b33586a9",
+              "path": "packages/codex-provider"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@jcy2387/dsh-conversation-ui",
+      "version": "0.2.2-rc.1",
+      "path": "packages/conversation-ui",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DamonBao/dsh-codex-suite",
+        "commit": "15370669b0f19ca846695f3ad00a31f6b33586a9",
+        "path": "packages/conversation-ui"
+      },
+      "manifestSha256": "af1a15750bd7a551298103ddf4f6e5e6e0560fa68202a51a88104080d2f06e3b",
+      "manifestUrl": "https://github.com/DamonBao/dsh-codex-suite/blob/15370669b0f19ca846695f3ad00a31f6b33586a9/packages/conversation-ui/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@jcy2387/dsh-conversation-ui",
+        "versions": [
+          {
+            "version": "0.2.2-rc.1",
+            "publishTimestamp": 1793847492,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DamonBao/dsh-codex-suite",
+              "commit": "15370669b0f19ca846695f3ad00a31f6b33586a9",
+              "path": "packages/conversation-ui"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@jcy2387/dsh-suite@0.2.2-rc.1",
+      "origin": "npm",
+      "name": "@jcy2387/dsh-suite",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@jcy2387/dsh-suite",
+        "title": {
+          "en": "DSH Codex Suite",
+          "de": "DSH Codex Suite",
+          "es": "DSH Codex Suite",
+          "fr": "DSH Codex Suite",
+          "ja": "DSH Codex Suite",
+          "pt": "DSH Codex Suite",
+          "ru": "DSH Codex Suite",
+          "zh": "DSH Codex 套件"
+        },
+        "description": {
+          "en": "Use ChatGPT accounts with Codex models and a Codex-style conversation view.",
+          "de": "Nutzen Sie ChatGPT-Konten mit Codex-Modellen und einer Konversationsansicht im Codex-Stil.",
+          "es": "Use cuentas de ChatGPT con modelos Codex y una vista de conversación al estilo Codex.",
+          "fr": "Utilisez des comptes ChatGPT avec les modèles Codex et une vue de conversation de style Codex.",
+          "ja": "ChatGPT アカウントで Codex モデルを使用し、Codex 風の会話ビューを利用できます。",
+          "pt": "Use contas ChatGPT com modelos Codex e uma visualização de conversa no estilo Codex.",
+          "ru": "Используйте аккаунты ChatGPT с моделями Codex и интерфейсом чата в стиле Codex.",
+          "zh": "通过 ChatGPT 账号使用 Codex 模型，并提供 Codex 风格的对话界面。"
+        },
+        "author": "jcy2387",
+        "homepage": "https://github.com/DamonBao/dsh-codex-suite#readme",
+        "repository": {
+          "url": "https://github.com/DamonBao/dsh-codex-suite"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh-bundle",
+            "codex",
+            "conversation-ui"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjgiIHkxPSI0IiB4Mj0iNTgiIHkyPSI2NCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiMxNjg1NzciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNzU0NEIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNiIgZmlsbD0idXJsKCNiZykiLz4KICA8cGF0aCBkPSJtMjMgMjMtMTAgOSAxMCA5bTE4LTE4IDEwIDktMTAgOSIgc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0ibTM1IDE5LTYgMjYiIHN0cm9rZT0iI0JFRjRERSIgc3Ryb2tlLXdpZHRoPSI0LjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.2.2-rc.1",
+            "publishTimestamp": 1793847769,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "997fa1c5f2880134b11e9fa347025880477c3d4036b103aa626fdbe8977aed8b",
+      "evidence": [
+        {
+          "name": "@jcy2387/dsh-suite",
+          "version": "0.2.2-rc.1",
+          "tarball": "https://registry.npmjs.org/@jcy2387/dsh-suite/-/dsh-suite-0.2.2-rc.1.tgz",
+          "integrity": "sha512-0hEtL9UrxWNex5ZOZrXYa1sh2vJHbF4p6a9BNonLAWTPPTyuZqjXtqwMQrS9smgocH0k4zNDrGxj9jsfI944sw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@jcy2387/dsh-codex-provider@0.2.2-rc.1",
+      "origin": "npm",
+      "name": "@jcy2387/dsh-codex-provider",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@jcy2387/dsh-codex-provider",
+        "title": {
+          "en": "OpenAI Codex",
+          "de": "OpenAI Codex",
+          "es": "OpenAI Codex",
+          "fr": "OpenAI Codex",
+          "ja": "OpenAI Codex",
+          "pt": "OpenAI Codex",
+          "ru": "OpenAI Codex",
+          "zh": "OpenAI Codex"
+        },
+        "description": {
+          "en": "Connect a ChatGPT account, choose a proxy, and view usage and reset credits.",
+          "de": "Verbinden Sie ein ChatGPT-Konto, wählen Sie einen Proxy und rufen Sie Nutzung und Guthaben für Zurücksetzungen ab.",
+          "es": "Conecte una cuenta de ChatGPT, elija un proxy y consulte el uso y los créditos de restablecimiento.",
+          "fr": "Connectez un compte ChatGPT, choisissez un proxy et consultez l’utilisation et les réinitialisations disponibles.",
+          "ja": "ChatGPT アカウントを接続し、プロキシを選択して、使用量とリセットクレジットを確認できます。",
+          "pt": "Conecte uma conta ChatGPT, escolha um proxy e veja o uso e os créditos de redefinição.",
+          "ru": "Подключите аккаунт ChatGPT, выберите прокси и просматривайте использование и кредиты для сбросов.",
+          "zh": "连接 ChatGPT 账号、配置代理，查看用量与重置次数。"
+        },
+        "author": "jcy2387",
+        "homepage": "https://github.com/DamonBao/dsh-codex-suite#readme",
+        "repository": {
+          "url": "https://github.com/DamonBao/dsh-codex-suite"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "codex",
+            "chatgpt",
+            "oauth",
+            "llm-provider"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjgiIHkxPSI0IiB4Mj0iNTgiIHkyPSI2NCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiMxNjg1NzciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNzU0NEIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNiIgZmlsbD0idXJsKCNiZykiLz4KICA8cGF0aCBkPSJtMjMgMjMtMTAgOSAxMCA5bTE4LTE4IDEwIDktMTAgOSIgc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0ibTM1IDE5LTYgMjYiIHN0cm9rZT0iI0JFRjRERSIgc3Ryb2tlLXdpZHRoPSI0LjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.2.2-rc.1",
+            "publishTimestamp": 1793847739,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "01cad8e34a67314b34fcac2ac95f1ee6456887e3e6eda8c47c87ef2ce4f9ea3a",
+      "evidence": [
+        {
+          "name": "@jcy2387/dsh-codex-provider",
+          "version": "0.2.2-rc.1",
+          "tarball": "https://registry.npmjs.org/@jcy2387/dsh-codex-provider/-/dsh-codex-provider-0.2.2-rc.1.tgz",
+          "integrity": "sha512-MYYqSThoUa0+TDH1o0Ka5OCROwilwTjA75znw/1ldinMk7K52wsuVfZ9haIAAsJhPw7gy/5OF4xA7EpFOSOrlg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@jcy2387/dsh-conversation-ui@0.2.2-rc.1",
+      "origin": "npm",
+      "name": "@jcy2387/dsh-conversation-ui",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@jcy2387/dsh-conversation-ui",
+        "title": {
+          "en": "Conversation UI",
+          "de": "Konversationsoberfläche",
+          "es": "Interfaz de conversación",
+          "fr": "Interface de conversation",
+          "ja": "会話 UI",
+          "pt": "Interface do chat",
+          "ru": "Интерфейс чата",
+          "zh": "对话界面"
+        },
+        "description": {
+          "en": "Assistant reveal, thinking preferences, and deliverables integrated with native DSH chat.",
+          "de": "Schrittweise Assistentenausgabe, Denkprozess-Einstellungen und Lieferungen, integriert in den nativen DSH-Chat.",
+          "es": "Revelado del asistente, preferencias de razonamiento y entregables integrados en el chat nativo de DSH.",
+          "fr": "Révélation de l’assistant, préférences de raisonnement et livrables intégrés au chat natif de DSH.",
+          "ja": "アシスタントの表示、思考設定、成果物を DSH ネイティブチャットに統合します。",
+          "pt": "Revelação do assistente, preferências de raciocínio e entregas integradas ao chat nativo do DSH.",
+          "ru": "Раскрытие ответов помощника, настройки размышлений и доставка результатов, встроенные в нативный чат DSH.",
+          "zh": "在 DSH 原生对话中增强助手揭示、思考偏好和产物展示。"
+        },
+        "homepage": "https://github.com/DamonBao/dsh-codex-suite#readme",
+        "repository": {
+          "url": "https://github.com/DamonBao/dsh-codex-suite"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "dsh",
+            "cordis",
+            "streaming",
+            "conversation-ui",
+            "typewriter",
+            "typewriter-effect",
+            "markdown",
+            "chat-ui",
+            "web-ui",
+            "plugin",
+            "react"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjgiIHkxPSI0IiB4Mj0iNTgiIHkyPSI2NCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiMxNjg1NzciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNzU0NEIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNiIgZmlsbD0idXJsKCNiZykiLz4KICA8cGF0aCBkPSJtMjMgMjMtMTAgOSAxMCA5bTE4LTE4IDEwIDktMTAgOSIgc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0ibTM1IDE5LTYgMjYiIHN0cm9rZT0iI0JFRjRERSIgc3Ryb2tlLXdpZHRoPSI0LjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.2.2-rc.1",
+            "publishTimestamp": 1793847764,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7315c3d5da5244aff0fef0f74f606e5e681274011198f7e57f3be5019639e4ac",
+      "evidence": [
+        {
+          "name": "@jcy2387/dsh-conversation-ui",
+          "version": "0.2.2-rc.1",
+          "tarball": "https://registry.npmjs.org/@jcy2387/dsh-conversation-ui/-/dsh-conversation-ui-0.2.2-rc.1.tgz",
+          "integrity": "sha512-yPLm7CmueByxAx5CC95JwvdgXFbeSjHzXNgCieAtrrL1P8MM/jObW2mlf65uwKCrkBqr9IhRgcc2xPs9oPIAvA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@jcy2387/dsh-codex-provider",
+      "origin": "npm",
+      "name": "@jcy2387/dsh-codex-provider",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@jcy2387/dsh-codex-provider",
+        "title": {
+          "en": "OpenAI Codex",
+          "zh": "OpenAI Codex"
+        },
+        "description": {
+          "en": "Connect a ChatGPT account, choose a proxy, and view usage and reset credits.",
+          "zh": "连接 ChatGPT 账号、配置代理，查看用量与重置次数。"
+        },
+        "author": "jcy2387",
+        "homepage": "https://github.com/DamonBao/dsh-codex-suite#readme",
+        "repository": {
+          "url": "https://github.com/DamonBao/dsh-codex-suite"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "codex",
+            "chatgpt",
+            "oauth",
+            "llm-provider"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjgiIHkxPSI0IiB4Mj0iNTgiIHkyPSI2NCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiMxNjg1NzciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNzU0NEIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNiIgZmlsbD0idXJsKCNiZykiLz4KICA8cGF0aCBkPSJtMjMgMjMtMTAgOSAxMCA5bTE4LTE4IDEwIDktMTAgOSIgc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0ibTM1IDE5LTYgMjYiIHN0cm9rZT0iI0JFRjRERSIgc3Ryb2tlLXdpZHRoPSI0LjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.1.7-rc.2.1",
+            "publishTimestamp": 1790430532,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.1.8-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "01cad8e34a67314b34fcac2ac95f1ee6456887e3e6eda8c47c87ef2ce4f9ea3a",
+      "evidence": [
+        {
+          "name": "@jcy2387/dsh-codex-provider",
+          "version": "0.1.7-rc.2.1",
+          "tarball": "https://registry.npmjs.org/@jcy2387/dsh-codex-provider/-/dsh-codex-provider-0.1.7-rc.2.1.tgz",
+          "integrity": "sha512-pxU+sQpcv48q6BPtwkQG1ednzFGnLqvZtjkSTgNdr/5yv2dhTXwhSJeT2IYRzGt64qOtFvuYavJHre9jNiLBgQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "@jcy2387/dsh-suite",
+      "origin": "npm",
+      "name": "@jcy2387/dsh-suite",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@jcy2387/dsh-suite",
+        "title": {
+          "en": "DSH Codex Suite",
+          "zh": "DSH Codex 套件"
+        },
+        "description": {
+          "en": "Use ChatGPT accounts with Codex models and a Codex-style conversation view.",
+          "zh": "通过 ChatGPT 账号使用 Codex 模型，并提供 Codex 风格的对话界面。"
+        },
+        "author": "jcy2387",
+        "homepage": "https://github.com/DamonBao/dsh-codex-suite#readme",
+        "repository": {
+          "url": "https://github.com/DamonBao/dsh-codex-suite"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "dsh-bundle",
+            "codex",
+            "conversation-ui"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjgiIHkxPSI0IiB4Mj0iNTgiIHkyPSI2NCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiMxNjg1NzciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNzU0NEIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNiIgZmlsbD0idXJsKCNiZykiLz4KICA8cGF0aCBkPSJtMjMgMjMtMTAgOSAxMCA5bTE4LTE4IDEwIDktMTAgOSIgc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0ibTM1IDE5LTYgMjYiIHN0cm9rZT0iI0JFRjRERSIgc3Ryb2tlLXdpZHRoPSI0LjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.1.7-rc.2.1",
+            "publishTimestamp": 1790430521,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.1.8-0"
+            }
+          },
+          {
+            "version": "0.1.6-alpha.2",
+            "publishTimestamp": 1789875005,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "997fa1c5f2880134b11e9fa347025880477c3d4036b103aa626fdbe8977aed8b",
+      "evidence": [
+        {
+          "name": "@jcy2387/dsh-suite",
+          "version": "0.1.7-rc.2.1",
+          "tarball": "https://registry.npmjs.org/@jcy2387/dsh-suite/-/dsh-suite-0.1.7-rc.2.1.tgz",
+          "integrity": "sha512-XwW16WnQUfgi3CVLAhC7MM/fxl8h4cOCC70o/8Koe4W7mkMHrHfR+elECVzGClOCSrCsnj2EJ+dQ4kR3N9qqTQ=="
+        },
+        {
+          "name": "@jcy2387/dsh-suite",
+          "version": "0.1.6-alpha.2",
+          "tarball": "https://registry.npmjs.org/@jcy2387/dsh-suite/-/dsh-suite-0.1.6-alpha.2.tgz",
+          "integrity": "sha512-uK/jw9agcdvcyCtFNSdVFSVsMeMrwM8N395XVvimjnJ1GvbU6iNReA0LabD56gYSGYI6jVk8t0VqriAdk3yboA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@jcy2387/dsh-suite@0.2.2-rc.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@jcy2387/dsh-codex-provider@0.2.2-rc.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@jcy2387/dsh-conversation-ui@0.2.2-rc.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@jcy2387/dsh-codex-provider",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@jcy2387/dsh-suite",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DamonBao/dsh-codex-suite",
+    "commit": "15370669b0f19ca846695f3ad00a31f6b33586a9",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:16.699Z"
+}

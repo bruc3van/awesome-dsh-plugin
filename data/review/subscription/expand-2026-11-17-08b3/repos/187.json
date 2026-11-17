@@ -1,0 +1,133 @@
+{
+  "full_name": "Max-Null/dsh-chat-rail",
+  "originalPosition": 187,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 187,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:23.825Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "de365219978b0a2fcd307674ff20a514eddec18c8c54b5d6acae750b952dc726",
+      "url": "https://github.com/Max-Null/dsh-chat-rail/blob/6d9376a6513af8c8ff47d07732ae547a43d1b450/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@max-null/dsh-chat-rail",
+          "command": "dsh plugin --profile <name> add @max-null/dsh-chat-rail",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@max-null/dsh-chat-rail",
+      "version": "0.6.13",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Max-Null/dsh-chat-rail",
+        "commit": "6d9376a6513af8c8ff47d07732ae547a43d1b450"
+      },
+      "manifestSha256": "d3459a148e16dca46df0244e3867a826fcf250834092b9e71587bf4b72ec301e",
+      "manifestUrl": "https://github.com/Max-Null/dsh-chat-rail/blob/6d9376a6513af8c8ff47d07732ae547a43d1b450/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@max-null/dsh-chat-rail",
+        "versions": [
+          {
+            "version": "0.6.13",
+            "publishTimestamp": 1792516964,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Max-Null/dsh-chat-rail",
+              "commit": "6d9376a6513af8c8ff47d07732ae547a43d1b450"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@max-null/dsh-chat-rail",
+      "origin": "npm",
+      "name": "@max-null/dsh-chat-rail",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@max-null/dsh-chat-rail",
+        "title": "@max-null/dsh-chat-rail",
+        "description": "画卷式消息导航栏：右侧竖条 hover 展开画卷，scroll-spy 高亮居中跟随，编号+时间+完整预览，锚定会话列右缘避让侧边栏，收藏过滤，tip 内嵌提问&回答直达",
+        "homepage": "https://github.com/Max-Null/dsh-chat-rail#readme",
+        "repository": {
+          "url": "https://github.com/Max-Null/dsh-chat-rail"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "ssid",
+            "conversation",
+            "navigation",
+            "timeline",
+            "rail"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.13",
+            "publishTimestamp": 1790933492,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ee272f13d5484edc238b3dcc8cad46ac1ff46ab0378ce0854d5780838c247af4",
+      "evidence": [
+        {
+          "name": "@max-null/dsh-chat-rail",
+          "version": "0.6.13",
+          "tarball": "https://registry.npmjs.org/@max-null/dsh-chat-rail/-/dsh-chat-rail-0.6.13.tgz",
+          "integrity": "sha512-l0/KskiZvIu2qt4XlZUUYkant7nP8Lggt8EzfZZLcLTJF5Q0FvhPS62nh33WUc1gn3fGc6n2vo3xiaQDHF0NRA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@max-null/dsh-chat-rail",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Max-Null/dsh-chat-rail",
+    "commit": "6d9376a6513af8c8ff47d07732ae547a43d1b450",
+    "releaseTags": 23,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:26.316Z"
+}

@@ -1,0 +1,145 @@
+{
+  "full_name": "GooDAnDReaDY/dsh-model-sync",
+  "originalPosition": 166,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 166,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:14.367Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "08fd26b5142ab86a84dad9205fb79ed310727acf0501b8e164faddbb29737368",
+      "url": "https://github.com/GooDAnDReaDY/dsh-model-sync/blob/3d26bfa1f2e4b7cd518c16620c17f32fcf6319e5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-model-sync",
+          "command": "dsh plugin --profile web add @goodandready/dsh-model-sync",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "82e5c80c83d59fb105ee014d5029387cb374f01ac7ee60447bd96e4f24f06937",
+      "url": "https://github.com/GooDAnDReaDY/dsh-model-sync/blob/3d26bfa1f2e4b7cd518c16620c17f32fcf6319e5/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-model-sync",
+          "command": "dsh plugin --profile web add @goodandready/dsh-model-sync",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@goodandready/dsh-model-sync",
+      "version": "0.5.29",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GooDAnDReaDY/dsh-model-sync",
+        "commit": "3d26bfa1f2e4b7cd518c16620c17f32fcf6319e5"
+      },
+      "manifestSha256": "cf46a74569c97bc1caa0309f0e63a45703767b38c075277f289f50a41efce0f2",
+      "manifestUrl": "https://github.com/GooDAnDReaDY/dsh-model-sync/blob/3d26bfa1f2e4b7cd518c16620c17f32fcf6319e5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-rc.2 || ^0.2.0-rc.1 || >=0.2.1-alpha.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@goodandready/dsh-model-sync",
+        "versions": [
+          {
+            "version": "0.5.29",
+            "publishTimestamp": 1794658592,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GooDAnDReaDY/dsh-model-sync",
+              "commit": "3d26bfa1f2e4b7cd518c16620c17f32fcf6319e5"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1 || >=0.2.1-alpha.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@goodandready/dsh-model-sync",
+      "origin": "npm",
+      "name": "@goodandready/dsh-model-sync",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@goodandready/dsh-model-sync",
+        "title": "@goodandready/dsh-model-sync",
+        "description": "Automatic model catalog synchronization for API-key DeepSeek Harness providers.",
+        "homepage": "https://github.com/GooDAnDReaDY/dsh-model-sync",
+        "repository": {
+          "url": "https://github.com/GooDAnDReaDY/dsh-model-sync"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "models",
+            "api-key",
+            "catalog"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.29",
+            "publishTimestamp": 1794658764,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1 || >=0.2.1-alpha.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "73e6c3dbdb5a98424a01314277ed4aa8e5a6ccaba6d1c6e23b0de7c4396ea9ee",
+      "evidence": [
+        {
+          "name": "@goodandready/dsh-model-sync",
+          "version": "0.5.29",
+          "tarball": "https://registry.npmjs.org/@goodandready/dsh-model-sync/-/dsh-model-sync-0.5.29.tgz",
+          "integrity": "sha512-zO0JBvTxWBQIRHpfB9Fbm8Zf1GGxGYna0ytshTdnMBL3vVwvWNaSf1CbtJFqtSykq/9X4Yi2jHIJXp08pERhxQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@goodandready/dsh-model-sync",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GooDAnDReaDY/dsh-model-sync",
+    "commit": "3d26bfa1f2e4b7cd518c16620c17f32fcf6319e5",
+    "releaseTags": 67,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:17.126Z"
+}

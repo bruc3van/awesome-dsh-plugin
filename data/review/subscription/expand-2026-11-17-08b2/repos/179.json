@@ -1,0 +1,77 @@
+{
+  "full_name": "spark-ai-boy/dsh-obsidian-bridge",
+  "originalPosition": 179,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 179,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:23.360Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "712493f3c22c5e57d2f4d80768560eca589c9cbace8ca9d15634e4e65dfe832e",
+      "url": "https://github.com/spark-ai-boy/dsh-obsidian-bridge/blob/26bd5117be4ee4077e638c0345b06afbb6b0ea84/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "69ba5bd6d07917d50eecc7ec2570f63ce0a33d927dc4391e05de9f291b30537f",
+      "url": "https://github.com/spark-ai-boy/dsh-obsidian-bridge/blob/26bd5117be4ee4077e638c0345b06afbb6b0ea84/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-obsidian-bridge",
+      "version": "0.1.18",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/spark-ai-boy/dsh-obsidian-bridge",
+        "commit": "26bd5117be4ee4077e638c0345b06afbb6b0ea84"
+      },
+      "manifestSha256": "4d2d8bba842078e00ea2f253bee969b5981f08baf967efd40cc41af0ade4d0af",
+      "manifestUrl": "https://github.com/spark-ai-boy/dsh-obsidian-bridge/blob/26bd5117be4ee4077e638c0345b06afbb6b0ea84/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-obsidian-bridge",
+        "versions": [
+          {
+            "version": "0.1.18",
+            "publishTimestamp": 1794070471,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/spark-ai-boy/dsh-obsidian-bridge",
+              "commit": "26bd5117be4ee4077e638c0345b06afbb6b0ea84"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/spark-ai-boy/dsh-obsidian-bridge",
+    "commit": "26bd5117be4ee4077e638c0345b06afbb6b0ea84",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:25.732Z"
+}

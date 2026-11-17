@@ -1,0 +1,69 @@
+{
+  "full_name": "DaiYiqq/dsh-daiyi-aimy-skill",
+  "originalPosition": 153,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 153,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:08.484Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a67eacb66004244ff5fa21af5f9afad9fc75fc2069921892292604fc165a3c89",
+      "url": "https://github.com/DaiYiqq/dsh-daiyi-aimy-skill/blob/93f888410bdb9d61c7482ad4a9835c2ff4a144c4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-daiyi-aimy-skill",
+      "version": "3.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DaiYiqq/dsh-daiyi-aimy-skill",
+        "commit": "93f888410bdb9d61c7482ad4a9835c2ff4a144c4"
+      },
+      "manifestSha256": "e12ebdffbccef7b605da8b3ea122ecd620cb600734a41693f0b7683b6db6df56",
+      "manifestUrl": "https://github.com/DaiYiqq/dsh-daiyi-aimy-skill/blob/93f888410bdb9d61c7482ad4a9835c2ff4a144c4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-daiyi-aimy-skill",
+        "versions": [
+          {
+            "version": "3.0.0",
+            "publishTimestamp": 1792770209,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DaiYiqq/dsh-daiyi-aimy-skill",
+              "commit": "93f888410bdb9d61c7482ad4a9835c2ff4a144c4"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DaiYiqq/dsh-daiyi-aimy-skill",
+    "commit": "93f888410bdb9d61c7482ad4a9835c2ff4a144c4",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:10.479Z"
+}

@@ -1,0 +1,142 @@
+{
+  "full_name": "439436269-ctrl/dsh-video-pipeline",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:15:56.890Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a7be0cbac80a799962d3eb0ced6197f04894251d0f2188ba28f1d10cad550a77",
+      "url": "https://github.com/439436269-ctrl/dsh-video-pipeline/blob/724918df8ed70a73784f48d18c6232bed3ce99b5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-video-pipeline",
+          "command": "dsh plugin --profile web add dsh-video-pipeline",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/439436269-ctrl/dsh-video-pipeline",
+          "command": "dsh plugin --profile web add github:439436269-ctrl/dsh-video-pipeline",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-video-pipeline",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/439436269-ctrl/dsh-video-pipeline",
+        "commit": "724918df8ed70a73784f48d18c6232bed3ce99b5"
+      },
+      "manifestSha256": "25a8811fa2d5a4568684dfb38f22991d56ef8917f29442c230972661df5a9f2f",
+      "manifestUrl": "https://github.com/439436269-ctrl/dsh-video-pipeline/blob/724918df8ed70a73784f48d18c6232bed3ce99b5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-video-pipeline",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794013323,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/439436269-ctrl/dsh-video-pipeline",
+              "commit": "724918df8ed70a73784f48d18c6232bed3ce99b5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-video-pipeline",
+      "origin": "npm",
+      "name": "dsh-video-pipeline",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-video-pipeline",
+        "title": "dsh-video-pipeline",
+        "description": "短视频流水线 skill 包：把一条「编排 skill + 原子 skill」的 AI 短剧生产流水线（TTS 读音校正、文生图/文生视频、图片运镜、成片合成、封面、成片核验、多平台发布）作为内置 skill 装进 DeepSeek Harness，装完即出现在 agent 的技能目录里。Bundled skill pack for DSH: one orchestration skill plus its atomic production skills, shipped inside the plugin and served through a built-in skill provider.",
+        "author": "vfvrpq",
+        "homepage": "https://github.com/439436269-ctrl/dsh-video-pipeline",
+        "repository": {
+          "url": "https://github.com/439436269-ctrl/dsh-video-pipeline"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "skill",
+            "skills",
+            "video",
+            "ffmpeg",
+            "tts",
+            "short-drama",
+            "pipeline",
+            "seedance",
+            "seedream"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794013399,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c297ad285cf60b411284c48369144ef0bf0847ea8dbd44b9decfc83105abc5d3",
+      "evidence": [
+        {
+          "name": "dsh-video-pipeline",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-video-pipeline/-/dsh-video-pipeline-0.1.3.tgz",
+          "integrity": "sha512-RRjWI338AhtcZvA0btp6CwJhHXs7oRC9H6b7mTo/2aeZrhBsOwcveO6X73vA7YizxL4zbNVIkVWtxTUUekK0vQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-video-pipeline",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/439436269-ctrl/dsh-video-pipeline",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/439436269-ctrl/dsh-video-pipeline",
+    "commit": "724918df8ed70a73784f48d18c6232bed3ce99b5",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:59.002Z"
+}

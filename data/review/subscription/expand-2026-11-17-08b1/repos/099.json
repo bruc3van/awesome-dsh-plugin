@@ -1,0 +1,76 @@
+{
+  "full_name": "havingautism/dsh-deepresearch",
+  "originalPosition": 99,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 99,
+  "batch": 1,
+  "stargazers_count": 15,
+  "startedAt": "2026-11-17T08:11:17.553Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4b4bdf2949a3bf98090cf32bc001f3dd539284302b402b24dda6454afaefb6a0",
+      "url": "https://github.com/havingautism/dsh-deepresearch/blob/addf906aae8bc5a2daa3fd660d8801b11591b4cf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/havingautism/dsh-deepresearch",
+          "command": "dsh plugin --profile web add github:havingautism/dsh-deepresearch",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6cc52ff6391173b31ad59ef81f63a431cd01cf8b949d909311791ab62218037c",
+      "url": "https://github.com/havingautism/dsh-deepresearch/blob/addf906aae8bc5a2daa3fd660d8801b11591b4cf/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/havingautism/dsh-deepresearch",
+          "command": "dsh plugin --profile web add github:havingautism/dsh-deepresearch",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-deepresearch",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/havingautism/dsh-deepresearch",
+        "commit": "addf906aae8bc5a2daa3fd660d8801b11591b4cf"
+      },
+      "manifestSha256": "8f19f280a1f9d669984ff0516a4747b029dc38d5b93ce5b59b9f85480087b334",
+      "manifestUrl": "https://github.com/havingautism/dsh-deepresearch/blob/addf906aae8bc5a2daa3fd660d8801b11591b4cf/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/havingautism/dsh-deepresearch",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/havingautism/dsh-deepresearch",
+    "commit": "addf906aae8bc5a2daa3fd660d8801b11591b4cf",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:19.932Z"
+}

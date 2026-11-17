@@ -1,0 +1,78 @@
+{
+  "full_name": "534119219/chicheng-cron",
+  "originalPosition": 129,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 129,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:15:56.982Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "594c3e982203d5f06650f6f48db37a6fd474a656dd98ee111261ef451a09a01f",
+      "url": "https://github.com/534119219/chicheng-cron/blob/99a223edfa090afa2f1f05c77526a53a0f277961/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/534119219/chicheng-cron",
+          "command": "dsh plugin --profile web add github:534119219/chicheng-cron",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "chicheng-cron",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/534119219/chicheng-cron",
+        "commit": "99a223edfa090afa2f1f05c77526a53a0f277961"
+      },
+      "manifestSha256": "17c82e460a9ec080b37c1941e0233deec2717017d0cf96f7bfb7602b54e0815d",
+      "manifestUrl": "https://github.com/534119219/chicheng-cron/blob/99a223edfa090afa2f1f05c77526a53a0f277961/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "chicheng-cron",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1787748421,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/534119219/chicheng-cron",
+              "commit": "99a223edfa090afa2f1f05c77526a53a0f277961"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/534119219/chicheng-cron",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/534119219/chicheng-cron",
+    "commit": "99a223edfa090afa2f1f05c77526a53a0f277961",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:15:58.977Z"
+}

@@ -1,0 +1,48 @@
+{
+  "full_name": "Ottohere-Mourn/TeachReplay",
+  "originalPosition": 198,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 198,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:16:29.171Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "af854e637ea648c2eed72f8415ba9dfb6c5b0a31ffabbd73c6b232a3863abdeb",
+      "url": "https://github.com/Ottohere-Mourn/TeachReplay/blob/95125420c6134cc8ca27f19d9fb01297c8622d54/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/adapter-dsh/README.md",
+      "sha256": "0c430312c449558e8f103c93ebbe1b42abf1c8ad46278156014b3e0e2e6d0afc",
+      "url": "https://github.com/Ottohere-Mourn/TeachReplay/blob/95125420c6134cc8ca27f19d9fb01297c8622d54/packages/adapter-dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ottohere-Mourn/TeachReplay",
+    "commit": "95125420c6134cc8ca27f19d9fb01297c8622d54",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "teachreplay-monorepo",
+    "version": "0.2.0",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:16:33.588Z"
+}

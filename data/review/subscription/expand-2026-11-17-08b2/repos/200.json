@@ -1,0 +1,66 @@
+{
+  "full_name": "yoiizesdev-crypto/DSH-Balance-display",
+  "originalPosition": 200,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 200,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:38.555Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0515f77df82ac54bbf028c1d76b0b35481fc726ab727751d7470d6db833d5935",
+      "url": "https://github.com/yoiizesdev-crypto/DSH-Balance-display/blob/32c7fc7b8bd40b52f81de82bb9b13464be3e4dc2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-quota-badge",
+      "version": "1.6.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yoiizesdev-crypto/DSH-Balance-display",
+        "commit": "32c7fc7b8bd40b52f81de82bb9b13464be3e4dc2"
+      },
+      "manifestSha256": "84885ef2a37200cde3be75eb1713924546576cc0c4a07865747bdcfcce2feafc",
+      "manifestUrl": "https://github.com/yoiizesdev-crypto/DSH-Balance-display/blob/32c7fc7b8bd40b52f81de82bb9b13464be3e4dc2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-quota-badge",
+        "versions": [
+          {
+            "version": "1.6.3",
+            "publishTimestamp": 1792153662,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/yoiizesdev-crypto/DSH-Balance-display",
+              "commit": "32c7fc7b8bd40b52f81de82bb9b13464be3e4dc2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/yoiizesdev-crypto/DSH-Balance-display",
+    "commit": "32c7fc7b8bd40b52f81de82bb9b13464be3e4dc2",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:40.489Z"
+}

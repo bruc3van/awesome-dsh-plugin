@@ -1,0 +1,142 @@
+{
+  "full_name": "DDDMUC/dsh-chat-export",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:12:50.238Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4fa8401681558971dd3adc44a56a689d00fcde55c6718b92633e87c7bee5a63d",
+      "url": "https://github.com/DDDMUC/dsh-chat-export/blob/700733cf050d80dfe89a815126b304d8707bdbf2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chat-export",
+          "command": "dsh plugin --profile web add dsh-chat-export",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/DDDMUC/dsh-chat-export",
+          "command": "dsh plugin --profile web add github:DDDMUC/dsh-chat-export",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chat-export",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DDDMUC/dsh-chat-export",
+        "commit": "700733cf050d80dfe89a815126b304d8707bdbf2"
+      },
+      "manifestSha256": "f4117689f81cea49ae1f7b849b28ab0589ff9fdbf4226cf33d1bfec22e22c9ac",
+      "manifestUrl": "https://github.com/DDDMUC/dsh-chat-export/blob/700733cf050d80dfe89a815126b304d8707bdbf2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-chat-export",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794603216,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DDDMUC/dsh-chat-export",
+              "commit": "700733cf050d80dfe89a815126b304d8707bdbf2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-chat-export",
+      "origin": "npm",
+      "name": "dsh-chat-export",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-chat-export",
+        "title": "dsh-chat-export",
+        "description": "Readable transcript export AND replayable import for DeepSeek Harness: turn any Session into a Markdown / HTML / ZIP transcript or a JSONL event log, and turn that log back into a real, continuable Session — from the Session header, /export-md, or /import-session.",
+        "repository": {
+          "url": "https://github.com/DDDMUC/dsh-chat-export"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "transcript",
+            "chat-export",
+            "chat-import",
+            "对话导出",
+            "导出文字稿",
+            "导入会话",
+            "markdown",
+            "jsonl",
+            "session",
+            "export",
+            "import"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1794603457,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a4ad73c9f9bb54870d561f5e29a5be170764d8832e9475b036e6149ad3a6dfcc",
+      "evidence": [
+        {
+          "name": "dsh-chat-export",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-chat-export/-/dsh-chat-export-0.3.0.tgz",
+          "integrity": "sha512-LBbX2fcT27Cm3TuyHVbdO6g2tR/9T75nTzVBh1bwWosy8DA4ZsPCDnCwxVv05XKExMHWq2QLm4mVcLKc1h+Aug=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-chat-export",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/DDDMUC/dsh-chat-export",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DDDMUC/dsh-chat-export",
+    "commit": "700733cf050d80dfe89a815126b304d8707bdbf2",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:52.333Z"
+}

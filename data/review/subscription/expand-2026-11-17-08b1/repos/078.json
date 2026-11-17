@@ -1,0 +1,81 @@
+{
+  "full_name": "wee-b/disk-sentinel",
+  "originalPosition": 78,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 78,
+  "batch": 1,
+  "stargazers_count": 19,
+  "startedAt": "2026-11-17T08:11:09.036Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23c6e90cd83634953a20dad3a7f4d5ea0aedeac3cae4b72bcd7d38ebca985dd6",
+      "url": "https://github.com/wee-b/disk-sentinel/blob/e6e8c051e3be54cc409d8897ea7020a3c0d1f203/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/wee-b/disk-sentinel.git",
+          "command": "dsh plugin --profile web add git+https://github.com/wee-b/disk-sentinel.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-plugin/disk-sentinel",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wee-b/disk-sentinel",
+        "commit": "e6e8c051e3be54cc409d8897ea7020a3c0d1f203"
+      },
+      "manifestSha256": "28b55da92bf9530ccecf4df7ceffb6c81393bd6e22e92623f3577703f1106b65",
+      "manifestUrl": "https://github.com/wee-b/disk-sentinel/blob/e6e8c051e3be54cc409d8897ea7020a3c0d1f203/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2 || 0.1.5-rc.2 || 0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-plugin/disk-sentinel",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1790842097,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wee-b/disk-sentinel",
+              "commit": "e6e8c051e3be54cc409d8897ea7020a3c0d1f203"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2 || 0.1.5-rc.2 || 0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/wee-b/disk-sentinel.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wee-b/disk-sentinel",
+    "commit": "e6e8c051e3be54cc409d8897ea7020a3c0d1f203",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:11:10.934Z"
+}

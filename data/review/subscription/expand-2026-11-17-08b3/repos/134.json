@@ -1,0 +1,173 @@
+{
+  "full_name": "AIcivilization/dsh-vps-manager",
+  "originalPosition": 134,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 134,
+  "batch": 1,
+  "stargazers_count": 7,
+  "startedAt": "2026-11-17T08:15:59.015Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1bb4e508a551dcbb8c5009d472bff5cccd61ecc2cba4f948e63369e7fdb41f31",
+      "url": "https://github.com/AIcivilization/dsh-vps-manager/blob/1973ad4e956cf3babf5c4525e4d1ac6028005024/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-vps-manager",
+          "command": "dsh plugin --profile desktop add dsh-vps-manager",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-vps-manager",
+          "command": "dsh plugin --profile web add dsh-vps-manager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "bb49643985de460ad349f54cb8c5e416c00060b633485dd439e5edb65eb505f8",
+      "url": "https://github.com/AIcivilization/dsh-vps-manager/blob/1973ad4e956cf3babf5c4525e4d1ac6028005024/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-vps-manager",
+          "command": "dsh plugin --profile desktop add dsh-vps-manager",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-vps-manager",
+          "command": "dsh plugin --profile web add dsh-vps-manager",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vps-manager",
+      "version": "0.6.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AIcivilization/dsh-vps-manager",
+        "commit": "1973ad4e956cf3babf5c4525e4d1ac6028005024"
+      },
+      "manifestSha256": "d5a23f514f46bf8640a9bb32adc339826fa618c60e13279446a34d73e5092719",
+      "manifestUrl": "https://github.com/AIcivilization/dsh-vps-manager/blob/1973ad4e956cf3babf5c4525e4d1ac6028005024/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-vps-manager",
+        "versions": [
+          {
+            "version": "0.6.11",
+            "publishTimestamp": 1794675891,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AIcivilization/dsh-vps-manager",
+              "commit": "1973ad4e956cf3babf5c4525e4d1ac6028005024"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-vps-manager",
+      "origin": "npm",
+      "name": "dsh-vps-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-vps-manager",
+        "title": "dsh-vps-manager",
+        "description": "Manage your VPS from DeepSeek Harness over SSH: zero-token commands, an in-conversation terminal, AI tools with risk-tiered confirmation, and a recipe library. · 在 DSH 里通过 SSH 管理 VPS：不花 token 的命令、对话里的终端、按风险分级确认的 AI 工具、菜谱库。",
+        "author": "AIcivilization",
+        "homepage": "https://github.com/AIcivilization/dsh-vps-manager#readme",
+        "repository": {
+          "url": "https://github.com/AIcivilization/dsh-vps-manager"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek-harness-plugin",
+            "dsh",
+            "dsh-plugins",
+            "deepseek",
+            "cordis",
+            "vps",
+            "ssh",
+            "server-management",
+            "sysadmin",
+            "devops",
+            "self-hosted",
+            "linux",
+            "terminal",
+            "web-terminal",
+            "xterm",
+            "ssh-terminal",
+            "aiops",
+            "ai-agent",
+            "llm-tools",
+            "remote-server",
+            "server-admin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.10",
+            "publishTimestamp": 1794567738,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "75a1fecf7e812fa6145fed2a812163f5872ccbf9dfd8b8339cea34e702e417cc",
+      "evidence": [
+        {
+          "name": "dsh-vps-manager",
+          "version": "0.6.10",
+          "tarball": "https://registry.npmjs.org/dsh-vps-manager/-/dsh-vps-manager-0.6.10.tgz",
+          "integrity": "sha512-t7WpBsDDQYJC/Sk+Ld3axjUx1gmqz+R94SeBkEgNPXqLwVY4A+YJuiUfINrcJEDhB+d1oL8/WykGOWGnv/l4JQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-vps-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AIcivilization/dsh-vps-manager",
+    "commit": "1973ad4e956cf3babf5c4525e4d1ac6028005024",
+    "releaseTags": 32,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:16:01.635Z"
+}

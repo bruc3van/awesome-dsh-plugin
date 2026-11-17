@@ -1,0 +1,78 @@
+{
+  "full_name": "kyo615/dsh-browser-control",
+  "originalPosition": 151,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 151,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:10.131Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "60f662574dc8cee7384d2cc061287fd4ce20a2d68fd7ef2a1b5897efeffd1d90",
+      "url": "https://github.com/kyo615/dsh-browser-control/blob/9c10f2c42999947a2c8009443994f6297d472b8c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/kyo615/dsh-browser-control",
+          "command": "dsh plugin add https://github.com/kyo615/dsh-browser-control",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-browser-control",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kyo615/dsh-browser-control",
+        "commit": "9c10f2c42999947a2c8009443994f6297d472b8c"
+      },
+      "manifestSha256": "b8b894a355873f317764385acb26591da4a3bb26a739a60caab2953989a55b5f",
+      "manifestUrl": "https://github.com/kyo615/dsh-browser-control/blob/9c10f2c42999947a2c8009443994f6297d472b8c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-browser-control",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1786775455,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kyo615/dsh-browser-control",
+              "commit": "9c10f2c42999947a2c8009443994f6297d472b8c"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/kyo615/dsh-browser-control",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kyo615/dsh-browser-control",
+    "commit": "9c10f2c42999947a2c8009443994f6297d472b8c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:12.069Z"
+}

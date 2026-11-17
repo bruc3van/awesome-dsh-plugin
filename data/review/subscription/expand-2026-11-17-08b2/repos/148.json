@@ -1,0 +1,66 @@
+{
+  "full_name": "jiuyou-7411/dsh-rea-plugin",
+  "originalPosition": 148,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 148,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:08.063Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "043ad6c777bb3fe3550f97a73efbec28b4480967a460ed43f8d5da0c4518c130",
+      "url": "https://github.com/jiuyou-7411/dsh-rea-plugin/blob/a2b983997411be6d9fb29a13edb3a73a10aa01ce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-rea-plugin",
+      "version": "4.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/jiuyou-7411/dsh-rea-plugin",
+        "commit": "a2b983997411be6d9fb29a13edb3a73a10aa01ce"
+      },
+      "manifestSha256": "6c6346b1e989ee7812185e4894b7bf22b767e1b119f31e539091606aa4a92d8a",
+      "manifestUrl": "https://github.com/jiuyou-7411/dsh-rea-plugin/blob/a2b983997411be6d9fb29a13edb3a73a10aa01ce/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-rea-plugin",
+        "versions": [
+          {
+            "version": "4.4.1",
+            "publishTimestamp": 1793633919,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/jiuyou-7411/dsh-rea-plugin",
+              "commit": "a2b983997411be6d9fb29a13edb3a73a10aa01ce"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/jiuyou-7411/dsh-rea-plugin",
+    "commit": "a2b983997411be6d9fb29a13edb3a73a10aa01ce",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:10.131Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "zjl1989-li/dsh-harness-zh-cn",
+  "originalPosition": 198,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 198,
+  "batch": 1,
+  "stargazers_count": 9,
+  "startedAt": "2026-11-17T08:12:00.523Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a39048394b20fdcb14fdde71faf04027753e795c51d27d7864bf25d33df3c204",
+      "url": "https://github.com/zjl1989-li/dsh-harness-zh-cn/blob/7b282c4d6665d149f81a37059921a9108251167f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-harness-zh-cn",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zjl1989-li/dsh-harness-zh-cn",
+        "commit": "7b282c4d6665d149f81a37059921a9108251167f"
+      },
+      "manifestSha256": "eb65f3cd8720d55863c7e44b19fab2959e9239f78d12e32c2e5fa7a90767dd04",
+      "manifestUrl": "https://github.com/zjl1989-li/dsh-harness-zh-cn/blob/7b282c4d6665d149f81a37059921a9108251167f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-harness-zh-cn",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787805555,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zjl1989-li/dsh-harness-zh-cn",
+              "commit": "7b282c4d6665d149f81a37059921a9108251167f"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zjl1989-li/dsh-harness-zh-cn",
+    "commit": "7b282c4d6665d149f81a37059921a9108251167f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:12:02.353Z"
+}

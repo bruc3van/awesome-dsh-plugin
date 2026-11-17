@@ -1,0 +1,152 @@
+{
+  "full_name": "drscrewdriver/dsh-paste-dock",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-17T08:13:03.015Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c3904a04481c77576468b787c3d0387a68de12cefc02bd0db51a52248bdf7e99",
+      "url": "https://github.com/drscrewdriver/dsh-paste-dock/blob/89594b52938742cf38a67daf04449b69ff6bebb8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-paste-dock",
+          "command": "dsh plugin --profile <p> add dsh-paste-dock",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-paste-dock",
+      "version": "0.1.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/drscrewdriver/dsh-paste-dock",
+        "commit": "89594b52938742cf38a67daf04449b69ff6bebb8"
+      },
+      "manifestSha256": "7209a2549ba4afefb1f0a196161ff81d75dfa857e7a8efe6eeaa6efabad53536",
+      "manifestUrl": "https://github.com/drscrewdriver/dsh-paste-dock/blob/89594b52938742cf38a67daf04449b69ff6bebb8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-paste-dock",
+        "versions": [
+          {
+            "version": "0.1.11",
+            "publishTimestamp": 1794649399,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/drscrewdriver/dsh-paste-dock",
+              "commit": "89594b52938742cf38a67daf04449b69ff6bebb8"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-paste-dock",
+      "origin": "npm",
+      "name": "dsh-paste-dock",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-paste-dock",
+        "title": {
+          "en": "Paste Dock",
+          "de": "Einfüge-Dock",
+          "es": "Dock de pegado",
+          "fr": "Dock de collage",
+          "it": "Dock incolla",
+          "ja": "ペーストドック",
+          "ko": "붙여넣기 독",
+          "ru": "Док вставки",
+          "zh": "粘贴坞"
+        },
+        "description": {
+          "en": "Large pastes are saved as pastes/*.txt and managed from a dock card above the composer, leaving only a minimal chip in the draft.",
+          "de": "Große Einfügungen werden als pastes/*.txt gespeichert und über eine Dock-Karte über dem Eingabefeld verwaltet; im Entwurf bleibt nur ein minimaler Chip.",
+          "es": "Los pegados largos se guardan en pastes/*.txt y se gestionan desde una tarjeta dock sobre el campo de entrada; el borrador solo conserva una insignia mínima.",
+          "fr": "Les gros collages sont enregistrés dans pastes/*.txt et gérés depuis une carte dock au-dessus du champ de saisie ; le brouillon ne garde qu'une puce minimale.",
+          "it": "I testi incollati di grandi dimensioni vengono salvati in pastes/*.txt e gestiti da una scheda dock sopra il campo di input; nella bozza resta solo un chip minimo.",
+          "ja": "大きな貼り付けは pastes/*.txt として保存され、入力欄の上のドックカードで管理します。下書きには最小限のチップだけが残ります。",
+          "ko": "큰 붙여넣기는 pastes/*.txt로 저장되고 입력창 위의 독 카드에서 관리하며, 초안에는 최소한의 칩만 남습니다.",
+          "ru": "Большие вставки сохраняются в pastes/*.txt и управляются карточкой дока над полем ввода; в черновике остаётся только минимальный чип.",
+          "zh": "大段粘贴自动存为 pastes/*.txt，输入框上方的 dock 卡片统一管理，草稿里只留最小徽标。"
+        },
+        "author": "drscrewdriver",
+        "homepage": "https://github.com/drscrewdriver/dsh-paste-dock",
+        "repository": {
+          "url": "https://github.com/drscrewdriver/dsh-paste-dock"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "paste",
+            "attachment",
+            "dock"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.12",
+            "publishTimestamp": 1794653150,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5c096ba5ec0609465a2a9903971c9b7e9cbc5342d353faae1516ba52e6593752",
+      "evidence": [
+        {
+          "name": "dsh-paste-dock",
+          "version": "0.1.12",
+          "tarball": "https://registry.npmjs.org/dsh-paste-dock/-/dsh-paste-dock-0.1.12.tgz",
+          "integrity": "sha512-uE9WXTOPYcmSaM7e3RJIGhgc9J+aJdGk57L+e+bEiTf/PgEeHUGBS3x/OnAAN7UllAdx77PBezo5V5XtVbWkYw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-paste-dock",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/drscrewdriver/dsh-paste-dock",
+    "commit": "89594b52938742cf38a67daf04449b69ff6bebb8",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-17T08:13:05.037Z"
+}

@@ -1,0 +1,40 @@
+{
+  "full_name": "Samuka007/dsh-nix",
+  "originalPosition": 155,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 155,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-17T08:11:42.425Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "634db1e6e167aacc47ffc4b10ec7562f74356bec2a772529b24ce9083b77197d",
+      "url": "https://github.com/Samuka007/dsh-nix/blob/090ed51b27e65af7c0aadf64dcd7b208030aa3a9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Samuka007/dsh-nix",
+    "commit": "090ed51b27e65af7c0aadf64dcd7b208030aa3a9",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-17T08:11:44.007Z"
+}
