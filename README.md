@@ -359,7 +359,7 @@ mindmap
 - **[dsh-sieve](https://github.com/Sev7eEn7/dsh-sieve)**（[@Sev7eEn7](https://github.com/Sev7eEn7) · 2026-10-10）— 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪历史上下文并按需披露技能。
 - **[dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude)**（[@lcestou](https://github.com/lcestou) · 2026-10-13）— 把 Claude Code CLI 接入 DSH 作为模型提供方：用 `claude` 登录一次，在会话的模型选择器里选 Claude 模型即可，CLI 自带的权限模式、图片、续接与压缩都在 DSH 聊天里可用；DSH 的子智能体、后台任务和技能以 MCP 工具交给 Claude。工作区可通过 SSH 在另一台机器上运行 Claude。
 - **[dsh-zhihu-search](https://github.com/dsh-plugin-lab/dsh-zhihu-search)**（[@zlZayn](https://github.com/zlZayn) · 2026-10-27）— 把知乎检索接进 DSH：站内检索、全网检索与直答三个工具，走知乎开放平台官方 API 而非爬虫抓取，结果附带可引用的原始链接（站内结果另带点赞数），适合需要中文实时语料的研究与核查。
-- **[AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare)**（[@lijiaqi-AI-Product-Manager](https://github.com/lijiaqi-AI-Product-Manager) · 2026-11-04）— 在 DSH 主对话中体验两版 Vite 应用、执行统一检查并盲选，再结合项目当前改动审查采用结果；模型、时长与示例通过界面设置，复用已有模型配置，面向需要比较前端方案的开发者。
+- **[AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare)**（[@lijiaqi-AI-Product-Manager](https://github.com/lijiaqi-AI-Product-Manager) · 2026-11-04）— 鲸挑细选 AgentCompare：在 DSH Desktop/Web 主对话中比较 2–4 版回答、文件或网页；中英双语，同步主对话上下文，保留选择理由并审查采用。 [界面与演示](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare/blob/v3.1.1/docs/storefront-gallery.md)
 - **[BloomTutor](https://github.com/Li-Evan/BloomTutor)**（[@Li-Evan](https://github.com/Li-Evan) · 2026-11-16）— 一对一 AI 导师 Skill 包：bloom-tutor 先写学习大纲，再在工作区每次写一篇 Markdown 课文，下一篇按你标的 ??? 和反馈来调整；另带六个 learn-* 学习方法 Skill。
 <!-- dsh:showcase:end -->
 
