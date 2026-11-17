@@ -416,6 +416,8 @@ export async function generateIndex(
   parseMarketIndex(index, INDEX_URL)
   return {
     index,
+    ranks,
+    featured,
     featuredRepositoryCount: featured.size,
     expectedFeaturedRepositoryCount: feed.featured?.expected_repository_count,
     diagnostics,
@@ -479,7 +481,7 @@ async function main() {
   // by stars above; here the tail is trimmed (lowest-starred non-featured
   // first) until the text fits the working budget below the 5 MiB gateway cap.
   {
-    const trimmed = trimIndexToBudget(result.index, serialized, ranks, featured)
+    const trimmed = trimIndexToBudget(result.index, serialized, result.ranks, result.featured)
     if (trimmed.dropped > 0) {
       result.index = trimmed.index
       serialized = trimmed.text
@@ -488,7 +490,7 @@ async function main() {
         result.selection.eligiblePlugins - result.index.plugins.length
       const last = result.index.plugins.at(-1)
       result.selection.cutoffStars = last
-        ? (ranks.get(last.name)?.stars ?? -1)
+        ? (result.ranks.get(last.name)?.stars ?? -1)
         : null
     }
   }

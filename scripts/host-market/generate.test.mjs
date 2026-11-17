@@ -4,7 +4,32 @@
  * repository a real tarball manifest would declare. */
 import test from 'node:test'
 import assert from 'node:assert/strict'
+import { spawnSync } from 'node:child_process'
+import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
+import { tmpdir } from 'node:os'
+import { join } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { generateIndex, projectPackage } from './generate.mjs'
+
+test('the real generator CLI completes budget processing before rejecting an empty publication', async () => {
+  const directory = await mkdtemp(join(tmpdir(), 'dsh-market-cli-'))
+  try {
+    const input = join(directory, 'feed.json')
+    const output = join(directory, 'index.json')
+    await writeFile(input, JSON.stringify({ schema_version: 2, entries: [] }))
+    const result = spawnSync(process.execPath, [
+      '--import', new URL('./node_modules/tsx/dist/loader.mjs', import.meta.url).href,
+      fileURLToPath(new URL('./generate.mjs', import.meta.url)), input, output,
+    ], { encoding: 'utf8' })
+    assert.equal(result.status, 1)
+    assert.match(result.stderr, /No eligible bundles; see staging report/)
+    const report = JSON.parse(await readFile(`${output}.report.json`, 'utf8'))
+    assert.equal(report.included, 0)
+    assert.equal(report.selection.included, 0)
+  } finally {
+    await rm(directory, { recursive: true, force: true })
+  }
+})
 
 const manifest = (name) => ({
   name,
