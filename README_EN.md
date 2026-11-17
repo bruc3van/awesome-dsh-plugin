@@ -1,12 +1,14 @@
-# 🐳 Awesome DSH Plugins
+# 🐳 Awesome DSH Plugins Pro
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Verified repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbruc3van%2Fawesome-dsh-plugin%2Fmain%2Fdata%2Fstats.json&query=%24.repositories&label=verified%20repos&color=2563eb)](./CATALOG.md)
-[![Snapshot & review queue](https://github.com/bruc3van/awesome-dsh-plugin/actions/workflows/update-catalog.yml/badge.svg)](https://github.com/bruc3van/awesome-dsh-plugin/actions/workflows/update-catalog.yml)
-[![Refreshed](https://img.shields.io/github/last-commit/bruc3van/awesome-dsh-plugin?label=refreshed&color=10b981)](./CATALOG.md)
+[![Verified repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbruc3van%2Fawesome-dsh-plugin-pro%2Fmain%2Fdata%2Fstats.json&query=%24.repositories&label=verified%20repos&color=2563eb)](./CATALOG.md)
+[![Snapshot & review queue](https://github.com/bruc3van/awesome-dsh-plugin-pro/actions/workflows/update-catalog.yml/badge.svg)](https://github.com/bruc3van/awesome-dsh-plugin-pro/actions/workflows/update-catalog.yml)
+[![Refreshed](https://img.shields.io/github/last-commit/bruc3van/awesome-dsh-plugin-pro?label=refreshed&color=10b981)](./CATALOG.md)
 ![License](https://img.shields.io/badge/license-MIT-f59e0b)
 
 [中文](./README.md) · [Full catalog](./CATALOG.md) · [Star Top 200](./TOP200.md) · [Author showcase](./SHOWCASE.md) · [Recommend a plugin](./CONTRIBUTING.md) · [Machine-readable data](./data/repositories.json)
+
+This project is now **Awesome DSH Plugins Pro** (`awesome-dsh-plugin-pro`). Pro reflects maintainer-reviewed inclusion, removal of unrelated and topic-spam repositories, practical categories and picks, and subscription data with verified installation targets. A topic alone does not qualify a repository for inclusion. Existing subscription URLs and the `awesome-dsh-plugin-feed` npm package remain compatible.
 
 ## Subscribe in DSH Discover
 
@@ -18,11 +20,11 @@
 2. **Add the subscription:** open **Discover**, click **Add index source** (or open the top-left market dropdown → **Manage index sources…**), paste the URL above, and click **Add**.
 3. **Browse and install:** pick **Bruce's Plugin Picks** in the market dropdown; filter by task category, keyword or labels (Editor's Picks, npm/Git, recency and stars), and check each plugin's version requirements before installing. Use **Refresh** to reload data.
 
-If the Discover tab is missing, check that DSH is ≥ V0.2.1-rc.2 and Custom plugin markets is enabled; the switch only unlocks the feature — the subscription URL still needs to be added manually. Subscribing in Discover **does not require `safer-dsh-market`** (that plugin is for a standalone interface, multiple-target installation, and post-install AI review), and the two switches are separate controls.
+If the Discover tab is missing, check that DSH is ≥ V0.2.1-rc.2 and Custom plugin markets is enabled; the switch only unlocks the feature — the subscription URL still needs to be added manually. Subscribing in Discover **does not require `dsh-market-pro`** (that plugin is for a standalone interface, multiple-target installation, and post-install AI review), and the two switches are separate controls.
 
 Inclusion criteria: only verified npm targets and Git bundles pinned to full commits are listed (unapproved, archived, disabled, blacklisted, and invalid-install-source repos are excluded), plugins ranked by stars until the index fits the gateway 5 MiB byte budget. Inclusion is not a security audit or proof of runtime compatibility.
 
-[DSH Plugin Directory and subscription guide](https://bruc3van.com/dsh-plugins/#subscribe) · [Index generation and exclusions report](https://bruc3van.com/markets/dsh/audit.json) · [Latest market plugin](https://www.npmjs.com/package/safer-dsh-market)
+[DSH Plugin Directory and subscription guide](https://bruc3van.com/dsh-plugins/#subscribe) · [Index generation and exclusions report](https://bruc3van.com/markets/dsh/audit.json) · [Latest market plugin](https://www.npmjs.com/package/dsh-market-pro)
 
 ## 🗺️ Ecosystem at a glance
 
@@ -85,7 +87,7 @@ To browse every project in a category, see [CATALOG.md](./CATALOG.md) — the ca
 | Browse the full ranking by stars | [Community leaderboard](#-community-leaderboard) (home Top 50) · [TOP200.md](./TOP200.md) (full Top 200) |
 | Browse everything by category | [CATALOG.md](./CATALOG.md) (full catalog) · [Ecosystem at a glance](#-ecosystem-at-a-glance) |
 | See what authors are submitting themselves | [Author showcase](#-author-showcase) (10 most recent on the home page) · [SHOWCASE.md](./SHOWCASE.md) (all entries) |
-| Consume plugin data programmatically | [data/market-v2.json](./data/market-v2.json) — the curated downstream-market file (≤1000 rows, ≤1 MB, see the [interface spec]）(https://github.com/bruc3van/safer-dsh-market/blob/master/docs/market-json-spec.md)); [data/repositories.json](./data/repositories.json) — daily automated snapshot with stars, license, and activity metadata |
+| Consume plugin data programmatically | [data/market-v2.json](./data/market-v2.json) — the curated downstream-market file (≤1000 rows, ≤1 MB, see the [interface spec]）(https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)); [data/repositories.json](./data/repositories.json) — daily automated snapshot with stars, license, and activity metadata |
 | List or recommend your own plugin | [Recommend or correct an entry](#-recommend-or-correct-an-entry) / [CONTRIBUTING](./CONTRIBUTING.md) |
 
 ## ⭐ Featured picks
@@ -245,12 +247,12 @@ To browse every project in a category, see [CATALOG.md](./CATALOG.md) — the ca
 
 ### 🌱 Ecosystem entry points
 
-- **Want to review before you install (security first)**: [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) — a review-before-install DSH marketplace: the feed comes from this list's daily snapshot plus human curation, and "Safe install" executes nothing — it hands a security-review prompt to the agent, which actually reads the plugin's code, and only after it comes back clean do you decide whether to run the official install command. Off by default — it goes online only once you enable it, and the plugin itself has no interface that can run an install.
+- **Want browsing, installation, updates, and AI review in one place**: [DSH Market Pro](https://github.com/bruc3van/dsh-market-pro) — curated plugins with official-manager installation and updates, plus optional read-only AI review of the installed version, started only after you send the draft.
 - **Want a plugin market right inside the DSH UI**: the official DSH client (0.2.1+) ships a built-in **Plugin market** tab whose catalog is this list's daily snapshot; third-party options are [dsh-market](https://github.com/dsh-market/dsh-market) · [dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) — dsh-market adds browse, search, and workshop-style distribution; dsh-plugin-gating-hub focuses on framework-upgrade safety and plugin gating — contract pre-checks, rollback points, auto-rollback on failure, evidence-gated auto-disable — plus a multi-source plugin market.
 
 | | | |
 | :---: | :---: | :---: |
-| <a href="https://github.com/bruc3van/safer-dsh-market"><img src="https://raw.githubusercontent.com/bruc3van/safer-dsh-market/master/assets/screenshots/marketplace.png" alt="safer-dsh-market" width="280"></a><br>[safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) | <a href="https://github.com/dsh-market/dsh-market"><img src="https://raw.githubusercontent.com/dsh-market/dsh-market/main/assets/demo-en.png" alt="dsh-market" width="280"></a><br>[dsh-market](https://github.com/dsh-market/dsh-market) | <a href="https://github.com/Noob-stupid/dsh-plugin-gating-hub"><img src="https://raw.githubusercontent.com/Noob-stupid/dsh-plugin-gating-hub/main/docs/images/upgrade-safety-panel.png" alt="dsh-plugin-gating-hub · upgrade safety panel" width="280"></a><br>[dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) |
+| <a href="https://github.com/bruc3van/dsh-market-pro"><img src="https://raw.githubusercontent.com/bruc3van/dsh-market-pro/master/assets/screenshots/marketplace.png" alt="dsh-market-pro" width="280"></a><br>[dsh-market-pro](https://github.com/bruc3van/dsh-market-pro) | <a href="https://github.com/dsh-market/dsh-market"><img src="https://raw.githubusercontent.com/dsh-market/dsh-market/main/assets/demo-en.png" alt="dsh-market" width="280"></a><br>[dsh-market](https://github.com/dsh-market/dsh-market) | <a href="https://github.com/Noob-stupid/dsh-plugin-gating-hub"><img src="https://raw.githubusercontent.com/Noob-stupid/dsh-plugin-gating-hub/main/docs/images/upgrade-safety-panel.png" alt="dsh-plugin-gating-hub · upgrade safety panel" width="280"></a><br>[dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) |
 
 ### 🚀 Starter kits
 
@@ -259,7 +261,7 @@ You do not need to install everything. Start with the kit closest to the problem
 | Kit | For | Combination |
 | --- | --- | --- |
 | Everyday experience | First install: start with the desktop client, then turn the sidebar into a workbench | [DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) · [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) |
-| Review-before-install market | Review first, then install. Bundled in the desktop client; on plain Web, search-install `bruc3van/safer-dsh-market` | [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) |
+| Pro plugin marketplace | Curated picks, browsing, installation, updates, and post-install AI review; install `dsh-market-pro@1.0.0` on demand | [DSH Market Pro](https://github.com/bruc3van/dsh-market-pro) |
 | Terminal lover | Command-line fans who want a full-screen terminal (pick one) | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) |
 | Search & image gen | Search the web in-chat and generate images (official models already see images; no vision plugin required) | [modsearch](https://github.com/liustack/modsearch) · [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) |
 | Look & feel | Skins, frosted glass, and desktop pets | [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) · [DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) · [whale-girl](https://github.com/vlln/whale-girl) |
@@ -372,7 +374,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Automated data, human pages:** the raw snapshot and the review queue refresh daily by script; the catalog and Top 200 leaderboard are regenerated only after a human review merge (generators: [scripts/merge.mjs](./scripts/merge.mjs), [scripts/top.mjs](./scripts/top.mjs), switchable back to Top 100); the home-page featured picks, showcase, and recently-joined sections are edited by hand, so polluted API data (star inflation, topic riders) never rewrites recommendations automatically.
 - **Riders removed:** repositories carrying the `dsh-plugin` topic without being DSH plugins (the platform itself, other agent tools, competing catalogs) and editorially blacklisted repositories are excluded from the catalog and leaderboard, with per-repo reasons recorded in [data/curated.json](./data/curated.json) (the leaderboard additionally honors `leaderboard_exclusions` for repos that stay in the catalog but do not rank) — auditable and contestable at any time.
 - **Auditable review trail:** every inclusion decision can be checked — approval dates live in [data/approved.json](./data/approved.json), and each removal or leaderboard exclusion carries its reason in [data/curated.json](./data/curated.json); bulk reviews additionally keep a narrative record (e.g. the [2026-11-16 review log](./data/review/2026-11-16.md)), and the whole workflow is documented in [data/review/README.md](./data/review/README.md).
-- **Downstream market file:** [data/market-v2.json](./data/market-v2.json) is the curated file downstream markets consume (e.g. the DSH desktop plugin market): the snapshot plus curation, filtered, cleaned, and dealt round-robin across categories (≤1000 rows, ≤1 MB). It is rebuilt on every daily snapshot refresh and immediately after every curation merge; the field and generation rules live in the downstream [publishing spec](https://github.com/bruc3van/safer-dsh-market/blob/master/docs/market-json-spec.md). The same runs also publish [MARKET.md](./MARKET.md), a read-only star-ranked rendering of the file for previewing the market on GitHub without installing anything.
+- **Downstream market file:** [data/market-v2.json](./data/market-v2.json) is the curated file downstream markets consume (e.g. the DSH desktop plugin market): the snapshot plus curation, filtered, cleaned, and dealt round-robin across categories (≤1000 rows, ≤1 MB). It is rebuilt on every daily snapshot refresh and immediately after every curation merge; the field and generation rules live in the downstream [publishing spec](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md). The same runs also publish [MARKET.md](./MARKET.md), a read-only star-ranked rendering of the file for previewing the market on GitHub without installing anything.
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
 As of 2026-11-16, the catalog lists **28,440** repositories across **41** primary languages; **26,154** declare a license and **28,121** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
@@ -393,14 +395,14 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
 ## 📈 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=bruc3van/awesome-dsh-plugin&type=Date)](https://star-history.com/#bruc3van/awesome-dsh-plugin&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=bruc3van/awesome-dsh-plugin-pro&type=Date)](https://star-history.com/#bruc3van/awesome-dsh-plugin-pro&Date)
 
 ## 🔗 Related projects
 
 **Maintained by the author**
 
 - **[dsh-desktop-pro](https://github.com/bruc3van/dsh-desktop-pro)** — DSH Desktop Pro: a professional DeepSeek Harness desktop client built around organization-wide configuration. For personal use it works out of the box: the window loads the authentic official Web UI, closing the window doesn't stop your task — it stays resident in the tray until you open it again — and the installer bundles the official runtime, so you just double-click to launch; on first launch it subscribes to a curated plugin index. In a company, IT configures the model gateway, plugin subscriptions, skills and tool permissions once through the open-source management server, and employees sign in with their company account — with usage limits and a tamper-evident audit log. Runs on macOS, Windows, and Linux. (The preset plugin subscription's list data comes from this repository's [`market-v2.json`](./data/market-v2.json).)
-- **[safer-dsh-market](https://github.com/bruc3van/safer-dsh-market)** — the review-before-install DSH marketplace. (The downstream market consuming this repository's [`market-v2.json`](./data/market-v2.json); it shipped bundled with DSH Desktop Pro through 0.5.x, and since 0.6.0 it is installed on demand.)
+- **[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** — curated plugin browsing, installation, updates, and optional post-install AI review. It consumes the complete reviewed catalog and subscription picks in the npm feed's `market-catalog.json`. DSH Desktop Pro bundled the old market through 0.5.x; since 0.6.0 it is installed on demand.
 - **[bruce-md2word](https://github.com/bruc3van/bruce-md2word)** — a Markdown-to-Word tool built for AI agents: Chinese typography, Mermaid diagrams rendered to images and editable math formulas, shipped in three forms — a Skill, a standalone CLI and a DSH plugin. (Also listed in the [agents-workflows volume](./catalog/agents-workflows.md) of this catalog.)
 
 **Official repositories**

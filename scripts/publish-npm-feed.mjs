@@ -99,8 +99,8 @@ function writeDist(version) {
     version,
     description: 'DSH plugin market feeds — current feed with paste-ready install targets, and the packages mapping. China-reachable via registry.npmmirror.com.',
     license: 'MIT',
-    repository: { type: 'git', url: 'git+https://github.com/bruc3van/awesome-dsh-plugin.git' },
-    homepage: 'https://github.com/bruc3van/awesome-dsh-plugin#readme',
+    repository: { type: 'git', url: 'git+https://github.com/bruc3van/awesome-dsh-plugin-pro.git' },
+    homepage: 'https://github.com/bruc3van/awesome-dsh-plugin-pro#readme',
     files: ['data', 'README.md'],
     feedDigest: digest,
     feedGeneratedAt: v2.generated_at,
@@ -112,7 +112,7 @@ async function writeReadme(version) {
   const readme = [
     '# awesome-dsh-plugin-feed',
     '',
-    `Market data snapshot for the [awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) catalog, published so consumers can fetch it from an npm registry — including the China-reachable mirror registry.npmmirror.com — when raw.githubusercontent.com is unreachable.`,
+    `Market data snapshot for the [awesome-dsh-plugin-pro](https://github.com/bruc3van/awesome-dsh-plugin-pro) catalog, published so consumers can fetch it from an npm registry — including the China-reachable mirror registry.npmmirror.com — when raw.githubusercontent.com is unreachable.`,
     '',
     `- version: \`${version}\` (calver \`0.YYYYMMDD.N\`)`,
     `- feed generated at: \`${v2.generated_at}\``,
@@ -141,7 +141,7 @@ async function writeReadme(version) {
     '',
     'Check freshness with `npm view awesome-dsh-plugin-feed feedDigest feedGeneratedAt` and compare against this repo\u2019s latest commit.',
     '',
-    'Data is generated and validated in [bruc3van/awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin); see data/review/README.md there for schemas and curation rules.',
+    'Data is generated and validated in [bruc3van/awesome-dsh-plugin-pro](https://github.com/bruc3van/awesome-dsh-plugin-pro); see data/review/README.md there for schemas and curation rules.',
     '',
   ].join('\n');
   await writeFile(resolve(DIST, 'README.md'), `${readme}\n`);

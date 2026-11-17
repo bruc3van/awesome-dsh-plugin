@@ -28,12 +28,15 @@ export const STALE_SNAPSHOT_MS = 26 * 60 * 60 * 1000;
 // Repositories the publisher itself never lists (spec §4).
 export const SELF_EXCLUDED_REPOS = [
   'bruc3van/dsh-desktop-pro',
+  'bruc3van/dsh-market-pro',
+  'bruc3van/awesome-dsh-plugin-pro',
+  // Published old package metadata can still point to the former repositories.
   'bruc3van/safer-dsh-market',
   'bruc3van/awesome-dsh-plugin',
 ];
 
 // Verbatim copies of the downstream wire rules (src/contract.ts in
-// safer-dsh-market) — the two sides must never drift.
+// dsh-market-pro) — the two sides must never drift.
 export const REPOSITORY_SLUG_PATTERN = /^[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+$/;
 export const BRANCH_PATTERN = /^[A-Za-z0-9][A-Za-z0-9._/-]*$/;
 
@@ -332,9 +335,9 @@ export function renderMarketMarkdown(envelope) {
     '',
     '[返回中文首页](./README.md) · [Back to English home](./README_EN.md) · [完整目录 / Full catalog](./CATALOG.md) · [Star 榜单 / Star board](./TOP200.md) · [JSON data](./data/market-v2.json)',
     '',
-    '[data/market-v2.json](./data/market-v2.json) 的人类可读镜像——即 [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) 插件在桌面端渲染的同一份市场数据，由 `scripts/market-v2.mjs` 随市场文件一同生成，供在 GitHub 上直接预览确认，无需安装插件；请勿手工编辑。下表按 Star 数排名，与插件「全部插件」视图一致；文件本身按类目均衡发牌顺序存储，插件默认仅展示其配置条数。',
+    '[data/market-v2.json](./data/market-v2.json) 的人类可读镜像——这是供下游消费的精选仓库数据；[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro) 的完整目录与订阅精选另由 `market-catalog.json` 提供，由 `scripts/market-v2.mjs` 随市场文件一同生成，供在 GitHub 上直接预览确认，无需安装插件；请勿手工编辑。下表按 Star 数排名，与插件「全部插件」视图一致；文件本身按类目均衡发牌顺序存储，插件默认仅展示其配置条数。',
     '',
-    'The human-readable twin of [data/market-v2.json](./data/market-v2.json) — the same market data the [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) plugin renders in the desktop app, generated alongside the feed by `scripts/market-v2.mjs` so it can be previewed on GitHub without installing anything. Do not edit by hand. The table ranks by stars, matching the plugin\u2019s "All plugins" view; the feed itself is stored in balanced deal order, and the plugin shows only its configured prefix by default.',
+    'The human-readable twin of [data/market-v2.json](./data/market-v2.json) — the curated repository feed for downstream consumers; [DSH Market Pro](https://github.com/bruc3van/dsh-market-pro) reads the complete catalog and subscription picks from `market-catalog.json`, generated alongside the feed by `scripts/market-v2.mjs` so it can be previewed on GitHub without installing anything. Do not edit by hand. The table ranks by stars, matching the plugin\u2019s "All plugins" view; the feed itself is stored in balanced deal order, and the plugin shows only its configured prefix by default.',
     '',
     `- 生成时间 / Feed generated: **${envelope.generated_at}**`,
     `- 来源快照 / Source snapshot: **${envelope.source_fetched_at}**（${envelope.source_repo_count} 个仓库 / repositories scanned）`,

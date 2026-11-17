@@ -1,12 +1,14 @@
-# 🐳 Awesome DSH Plugins
+# 🐳 Awesome DSH Plugins Pro
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Verified repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbruc3van%2Fawesome-dsh-plugin%2Fmain%2Fdata%2Fstats.json&query=%24.repositories&label=verified%20repos&color=2563eb)](./CATALOG.md)
-[![Snapshot & review queue](https://github.com/bruc3van/awesome-dsh-plugin/actions/workflows/update-catalog.yml/badge.svg)](https://github.com/bruc3van/awesome-dsh-plugin/actions/workflows/update-catalog.yml)
-[![Refreshed](https://img.shields.io/github/last-commit/bruc3van/awesome-dsh-plugin?label=refreshed&color=10b981)](./CATALOG.md)
+[![Verified repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbruc3van%2Fawesome-dsh-plugin-pro%2Fmain%2Fdata%2Fstats.json&query=%24.repositories&label=verified%20repos&color=2563eb)](./CATALOG.md)
+[![Snapshot & review queue](https://github.com/bruc3van/awesome-dsh-plugin-pro/actions/workflows/update-catalog.yml/badge.svg)](https://github.com/bruc3van/awesome-dsh-plugin-pro/actions/workflows/update-catalog.yml)
+[![Refreshed](https://img.shields.io/github/last-commit/bruc3van/awesome-dsh-plugin-pro?label=refreshed&color=10b981)](./CATALOG.md)
 ![License](https://img.shields.io/badge/license-MIT-f59e0b)
 
 [English](./README_EN.md) · [全量目录](./CATALOG.md) · [Star Top 200](./TOP200.md) · [作者自荐](./SHOWCASE.md) · [推荐一个插件](./CONTRIBUTING.md) · [机器可读数据](./data/repositories.json)
+
+本项目已更名为 **Awesome DSH Plugins Pro**（`awesome-dsh-plugin-pro`）。Pro 的依据是人工核实收录、剔除蹭标签与非插件仓库、场景分类与精选推荐，以及可核实安装目标的订阅数据；贴上标签不会自动进入目录。原有订阅地址和 npm 数据包 `awesome-dsh-plugin-feed` 保持兼容。
 
 ## 订阅到 DSH 官方「发现」页
 
@@ -18,11 +20,11 @@
 2. **添加订阅**：进入 **发现**，首次点击 **添加索引源**（已有市场则从左上角下拉菜单选 **管理索引源…**），粘贴上面的地址后 **添加**。
 3. **浏览和安装**：在市场下拉菜单选择 **Bruce 的精选插件**，按用途分类、关键词或标签（编辑推荐、npm/Git、更新时间、Star 等）筛选，查看版本要求后再安装；数据未更新时点 **刷新**。
 
-看不到「发现」标签：确认 DSH ≥ V0.2.1-rc.2 且已开启「自定义插件市场」；该开关只解锁功能，订阅源仍需按上面步骤手动添加。仅订阅发现页无需安装 `safer-dsh-market`（独立市场界面、多选安装、安装后 AI 审查才需要），它与「自定义插件市场」是两个独立入口。
+看不到「发现」标签：确认 DSH ≥ V0.2.1-rc.2 且已开启「自定义插件市场」；该开关只解锁功能，订阅源仍需按上面步骤手动添加。仅订阅发现页无需安装 `dsh-market-pro`（独立市场界面、多选安装、安装后 AI 审查才需要），它与「自定义插件市场」是两个独立入口。
 
 收录口径：仅收经核验的 npm 目标与固定完整提交的 Git 组合包（排除未审批、归档、禁用、黑名单及无效安装来源），按 Star 降序收录至网关 5 MiB 索引体积预算内；收录不代表安全审查或实机兼容保证。
 
-[DSH 插件导航与订阅指南](https://bruc3van.com/dsh-plugins/#subscribe) · [索引生成与排除报告](https://bruc3van.com/markets/dsh/audit.json) · [最新版市场插件](https://www.npmjs.com/package/safer-dsh-market)
+[DSH 插件导航与订阅指南](https://bruc3van.com/dsh-plugins/#subscribe) · [索引生成与排除报告](https://bruc3van.com/markets/dsh/audit.json) · [最新版市场插件](https://www.npmjs.com/package/dsh-market-pro)
 
 ## 🗺️ 生态全景
 
@@ -85,7 +87,7 @@ mindmap
 | 按热度翻完整榜单 | [社区热度榜](#-社区热度榜)（首页 Top 50）· [TOP200.md](./TOP200.md)（完整 Top 200） |
 | 按分类浏览全部项目 | [CATALOG.md](./CATALOG.md)（全量目录）· [生态全景](#-生态全景)（分类概览） |
 | 看看作者们自己提交的新插件 | [作者自荐](#-作者自荐)（首页最近 10 条）· [SHOWCASE.md](./SHOWCASE.md)（全部） |
-| 用程序消费插件数据 | [data/market-v2.json](./data/market-v2.json)——面向下游市场的精选文件（≤1000 条、≤1 MB，见[接口规范](https://github.com/bruc3van/safer-dsh-market/blob/master/docs/market-json-spec.md)）；[data/repositories.json](./data/repositories.json)——每日自动快照，含星数、许可证、活跃度等元数据 |
+| 用程序消费插件数据 | [data/market-v2.json](./data/market-v2.json)——面向下游市场的精选文件（≤1000 条、≤1 MB，见[接口规范](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)）；[data/repositories.json](./data/repositories.json)——每日自动快照，含星数、许可证、活跃度等元数据 |
 | 收录或推荐你自己的插件 | [推荐或修正插件](#-推荐或修正插件) / [CONTRIBUTING](./CONTRIBUTING.md) |
 
 ## ⭐ 精选推荐
@@ -245,12 +247,12 @@ mindmap
 
 ### 🌱 生态入口
 
-- **想先审查、再安装插件（安全第一）**：[safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) —— 先审查再安装的 DSH 市场：目录来自本清单每日快照 + 人工精选，「安全安装」不执行任何命令——把安全审查提示词交给 Agent 实际读仓库代码，确认干净后由你决定是否用官方命令安装；市场默认关闭、开启才联网，插件自身没有任何执行安装的接口。
+- **想集中浏览、安装、更新并审查插件**：[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro) —— DSH 插件市场专业版：精选真插件，集浏览、安装、更新及安装后 AI 安全审查于一体。安装和更新通过宿主官方管理器执行，AI 审查只读、可选，由你发送草稿后开始。
 - **想在 DSH 界面里直接逛插件市场**：官方 DSH 0.2.1 起 Web/桌面端已内置「插件市场」标签页（目录即本清单每日快照）；第三方可装 [dsh-market](https://github.com/dsh-market/dsh-market) · [dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) —— dsh-market 提供浏览、搜索与创意工坊式分发；dsh-plugin-gating-hub 主打框架升级安全与插件门控（升级前契约预检、回滚点、失败自动回滚、有确证才自动禁用），附多源插件市场。
 
 | | | |
 | :---: | :---: | :---: |
-| <a href="https://github.com/bruc3van/safer-dsh-market"><img src="https://raw.githubusercontent.com/bruc3van/safer-dsh-market/master/assets/screenshots/marketplace.png" alt="safer-dsh-market" width="280"></a><br>[safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) | <a href="https://github.com/dsh-market/dsh-market"><img src="https://raw.githubusercontent.com/dsh-market/dsh-market/main/assets/demo-en.png" alt="dsh-market" width="280"></a><br>[dsh-market](https://github.com/dsh-market/dsh-market) | <a href="https://github.com/Noob-stupid/dsh-plugin-gating-hub"><img src="https://raw.githubusercontent.com/Noob-stupid/dsh-plugin-gating-hub/main/docs/images/upgrade-safety-panel.png" alt="dsh-plugin-gating-hub · 升级安全面板" width="280"></a><br>[dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) |
+| <a href="https://github.com/bruc3van/dsh-market-pro"><img src="https://raw.githubusercontent.com/bruc3van/dsh-market-pro/master/assets/screenshots/marketplace.png" alt="dsh-market-pro" width="280"></a><br>[dsh-market-pro](https://github.com/bruc3van/dsh-market-pro) | <a href="https://github.com/dsh-market/dsh-market"><img src="https://raw.githubusercontent.com/dsh-market/dsh-market/main/assets/demo-en.png" alt="dsh-market" width="280"></a><br>[dsh-market](https://github.com/dsh-market/dsh-market) | <a href="https://github.com/Noob-stupid/dsh-plugin-gating-hub"><img src="https://raw.githubusercontent.com/Noob-stupid/dsh-plugin-gating-hub/main/docs/images/upgrade-safety-panel.png" alt="dsh-plugin-gating-hub · 升级安全面板" width="280"></a><br>[dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) |
 
 ### 🚀 新手入门组合
 
@@ -259,7 +261,7 @@ mindmap
 | 套装 | 适合 | 组合 |
 | --- | --- | --- |
 | 日常体验 | 第一次装插件：先装桌面客户端，再把侧边栏变成工作台 | [DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) · [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) |
-| 安全逛市场 | 先审查再安装；桌面端已内置，纯 Web 用户搜索安装 `bruc3van/safer-dsh-market` | [safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) |
+| 专业插件市场 | 精选、浏览、安装、更新及安装后 AI 审查；按需安装 `dsh-market-pro@1.0.0` | [DSH Market Pro](https://github.com/bruc3van/dsh-market-pro) |
 | 终端控 | 喜欢命令行，想要全屏交互终端（二选一） | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) |
 | 搜索与生图 | 对话里搜网页、直接出图（官方已能看图，不必再装视觉插件） | [modsearch](https://github.com/liustack/modsearch) · [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) |
 | 界面美化 | 换皮肤、玻璃质感、桌面宠物 | [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) · [DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) · [whale-girl](https://github.com/vlln/whale-girl) |
@@ -372,7 +374,7 @@ mindmap
 - **数据自动、页面人工：** 原始快照与待审核队列每天由脚本自动刷新；全量目录与 Top 200 热度榜只在人工核实合并后重新生成（生成逻辑见 [scripts/merge.mjs](./scripts/merge.mjs) 与 [scripts/top.mjs](./scripts/top.mjs)，可随时切回 Top 100）；首页精选推荐、自荐与最近加入由人工维护，避免刷星、蹭 Topic 等被污染的接口数据直接改写推荐内容。
 - **剔除蹭热度条目：** 带 `dsh-plugin` Topic 但并非 DSH 插件的仓库（平台本体、其他 Agent 工具、同名目录站等）以及编辑部拉黑的仓库不计入目录与榜单，理由逐条记录在 [data/curated.json](./data/curated.json)（榜单另有 `leaderboard_exclusions`：保留在目录中、但不参与榜单排序的仓库），可随时复查与质疑。
 - **审核留痕：** 每个收录决定都可回查——核准日期在 [data/approved.json](./data/approved.json)，剔除与榜单排除理由逐条记录在 [data/curated.json](./data/curated.json)；大批量复核另附叙述性存档（如 [2026-11-16 审核记录](./data/review/2026-11-16.md)），全流程约定见 [data/review/README.md](./data/review/README.md)。
-- **下游市场文件：** [data/market-v2.json](./data/market-v2.json) 是给下游市场（如 DSH 桌面端插件市场）消费的精选小文件——在快照与 curation 之上过滤、清洗并按类目均衡发牌（≤1000 条、≤1 MB），每日快照刷新与 curation 合并后自动重建；字段与生成规则见下游的[发布规范](https://github.com/bruc3van/safer-dsh-market/blob/master/docs/market-json-spec.md)。同一时序下同步生成根目录 [MARKET.md](./MARKET.md)——这份文件的只读可视化（按 Star 数排名），可在 GitHub 上直接预览市场内容，无需安装下游插件。
+- **下游市场文件：** [data/market-v2.json](./data/market-v2.json) 是给下游市场（如 DSH 桌面端插件市场）消费的精选小文件——在快照与 curation 之上过滤、清洗并按类目均衡发牌（≤1000 条、≤1 MB），每日快照刷新与 curation 合并后自动重建；字段与生成规则见下游的[发布规范](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)。同一时序下同步生成根目录 [MARKET.md](./MARKET.md)——这份文件的只读可视化（按 Star 数排名），可在 GitHub 上直接预览市场内容，无需安装下游插件。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
 截至 2026-11-16，全量目录收录 **28440** 个仓库、**41** 种主要语言；其中 **26154** 个声明了许可证，**28121** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
@@ -393,14 +395,14 @@ mindmap
 
 ## 📈 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=bruc3van/awesome-dsh-plugin&type=Date)](https://star-history.com/#bruc3van/awesome-dsh-plugin&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=bruc3van/awesome-dsh-plugin-pro&type=Date)](https://star-history.com/#bruc3van/awesome-dsh-plugin-pro&Date)
 
 ## 🔗 相关项目
 
 **作者维护**
 
 - **[dsh-desktop-pro](https://github.com/bruc3van/dsh-desktop-pro)** — DSH Desktop Pro：DeepSeek Harness 的专业版桌面客户端，主打企业级配置。个人装好就能用：窗口加载原汁原味的官方 Web UI，关窗任务照跑、常驻托盘随点随开，安装包自带官方运行时双击即用，首次启动自动订阅精选插件列表；企业场景由配套的开源管理服务端完成：IT 统一配置模型网关、插件订阅、Skill 和工具权限，员工公司账号登录即得，带用量额度与防篡改审计。支持 macOS、Windows、Linux。（其预置插件订阅的列表数据即来自本仓库的 [`market-v2.json`](./data/market-v2.json)。）
-- **[safer-dsh-market](https://github.com/bruc3van/safer-dsh-market)** — 先审查再安装的 DSH 市场（review-before-install DSH marketplace）。（消费本仓库 [`market-v2.json`](./data/market-v2.json) 的下游市场；DSH Desktop Pro 0.5.x 曾内置它，0.6.0 起改为按需自行安装。）
+- **[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** — DSH 插件市场专业版：精选真插件，集浏览、安装、更新及安装后 AI 安全审查于一体；通过 npm 数据包的 `market-catalog.json` 读取完整已审核目录与订阅精选。DSH Desktop Pro 0.5.x 曾内置旧市场，0.6.0 起按需自行安装。
 - **[bruce-md2word](https://github.com/bruc3van/bruce-md2word)** — 面向 AI Agent 的 Markdown 转 Word 工具：中文排版、Mermaid 图表转图片、可编辑数学公式，同一份内容提供 Skill、独立 CLI 与 DSH 插件三种形态。（同见目录 [agents-workflows 分册](./catalog/agents-workflows.md)。）
 
 **官方仓库**

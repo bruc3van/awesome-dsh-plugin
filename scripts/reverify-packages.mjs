@@ -58,7 +58,7 @@ async function fetchReadme(slug) {
       try {
         const res = await fetch(`https://raw.githubusercontent.com/${slug}/${branch}/${name}`, {
           signal: AbortSignal.timeout(20000),
-          headers: { 'User-Agent': 'awesome-dsh-plugin packages-reverify' },
+          headers: { 'User-Agent': 'awesome-dsh-plugin-pro packages-reverify' },
         });
         if (!res.ok) continue;
         const text = await res.text();

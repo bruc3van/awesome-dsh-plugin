@@ -37,7 +37,7 @@ import process from 'node:process';
 
 const prNumber = process.env.PR_NUMBER;
 const prTitle = (process.env.PR_TITLE ?? '').trim();
-const repoSlug = process.env.GITHUB_REPOSITORY || 'bruc3van/awesome-dsh-plugin';
+const repoSlug = process.env.GITHUB_REPOSITORY || 'bruc3van/awesome-dsh-plugin-pro';
 const starThreshold = 10;
 
 const errors = [];
@@ -55,7 +55,7 @@ if (/(\?){4,}/.test(prTitle)) {
 
 // --- 2. Stars of the repositories introduced in the showcase diff -------------
 const headers = {
-  'User-Agent': 'awesome-dsh-plugin',
+  'User-Agent': 'awesome-dsh-plugin-pro',
   'X-GitHub-Api-Version': '2022-11-28',
 };
 if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;

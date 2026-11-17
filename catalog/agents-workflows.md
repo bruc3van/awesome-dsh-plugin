@@ -170,7 +170,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（A–F）」分册 / 
 | [appthin/dsh-rea-agents](https://github.com/appthin/dsh-rea-agents) | DeepSeek Harness的REA插件。Pinned-version REA for DeepSeek Harness: installs rea-agents locally, starts its MCP server from that pinned copy, and upgrades only when you press Update. | JavaScript | 9 | MIT | 2026-11-13 |
 | [BJ1919810/dsh-rea](https://github.com/BJ1919810/dsh-rea) | One DSH plugin switch for REA: the REA MCP server (207 reverse-engineering tools) and REA's three workflow skills, enabled and disabled together. | JavaScript | 9 | MIT | 2026-11-11 |
 | [booondenz/dsh-thesis](https://github.com/booondenz/dsh-thesis) | 毕业论文全流程 DSH 插件 | TypeScript | 9 | MIT | 2026-11-11 |
-| [bruc3van/safer-dsh-market](https://github.com/bruc3van/safer-dsh-market) | 主打安全，提倡先审查再安装的DeepSeek Harness市场。深度扫描 5 分钟，放心使用每一天。 | TypeScript | 9 | MIT | 2026-11-05 |
+| [bruc3van/dsh-market-pro](https://github.com/bruc3van/dsh-market-pro) | DSH 插件市场专业版：精选真插件，集浏览、安装、更新及安装后 AI 安全审查于一体。 | TypeScript | 9 | MIT | 2026-11-17 |
 | [burning-frappuccino/dsh-turbo](https://github.com/burning-frappuccino/dsh-turbo) | DSH OVERDRIVE — Fast/Max execution gears for DeepSeek Harness. 少走弯路，火力全开。 | TypeScript | 9 | MIT | 2026-11-13 |
 | [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) | 把 DeepSeek Harness(DSH) agent 实时状态桥接到 CodeIsland 刘海面板 — sessions/tools/approvals on the Dynamic Island | Swift | 9 | — | 2026-11-06 |
 | [Ceelog/dsh-plugins](https://github.com/Ceelog/dsh-plugins) | deepseek harness plugins | TypeScript | 9 | — | 2026-10-25 |

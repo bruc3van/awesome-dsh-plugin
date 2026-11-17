@@ -18,7 +18,7 @@
 3. 在 **索引 URL** 中填入 `https://bruc3van.com/dsh-plugins/index.json`，点击 **添加**，确认其出现在列表后关闭弹窗。
 4. 选择 **Bruce 的精选插件**，按需刷新、检索并安装插件。索引源保存在当前 profile 中。
 
-[DSH 插件导航](https://bruc3van.com/dsh-plugins/) 用于网页浏览，不是要填写的 JSON 索引 URL。仅订阅官方「发现」页不需要安装 `safer-dsh-market`。完整用户说明见[仓库 README](../../README.md#订阅到-dsh-官方发现页)。
+[DSH 插件导航](https://bruc3van.com/dsh-plugins/) 用于网页浏览，不是要填写的 JSON 索引 URL。仅订阅官方「发现」页不需要安装 `dsh-market-pro`。完整用户说明见[仓库 README](../../README.md#订阅到-dsh-官方发现页)。
 
 ## 生成与来源
 
@@ -87,4 +87,4 @@ Cloudflare Pages Function 读取 `market-release` 指向的不可变发布记录
 
 npm 打包核对订阅文件 SHA-256、报告数量和零读取失败；目录、订阅或 Logo 的变化均参与 npm 数据摘要。发布工作流在官方订阅发布完成后运行，再刷新两个 CDN 别名的新目录文件。原 `market-v2.json` 保持原协议供旧消费者使用。生成文件只进入 npm 包，不在 Git 中复制一份大型目录。
 
-本地运行 `node --test scripts/test-safe-market-catalog.mjs scripts/test-publish-npm-feed.mjs`；在安全市场项目运行 `node scripts/verify-upstream-catalog.mjs ../awesome-dsh-plugin` 可核对真实生成器与消费解析器的完整集合、分类、Logo 和固定安装目标。
+本地运行 `node --test scripts/test-safe-market-catalog.mjs scripts/test-publish-npm-feed.mjs`；在安全市场项目运行 `node scripts/verify-upstream-catalog.mjs ../awesome-dsh-plugin-pro` 可核对真实生成器与消费解析器的完整集合、分类、Logo 和固定安装目标。

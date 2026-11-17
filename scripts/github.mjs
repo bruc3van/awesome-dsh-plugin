@@ -25,7 +25,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 export function githubHeaders(extra = {}) {
   const headers = {
     Accept: 'application/vnd.github+json',
-    'User-Agent': 'awesome-dsh-plugin',
+    'User-Agent': 'awesome-dsh-plugin-pro',
     'X-GitHub-Api-Version': '2022-11-28',
     ...extra,
   };

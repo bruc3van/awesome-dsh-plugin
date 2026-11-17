@@ -39,7 +39,7 @@
   "anysearch-team/anysearch-dsh": "面向 DeepSeek Harness 的 AnySearch 联网搜索提供方与高级搜索工具。",
   "beiyege-01/dsh-voice-ai-girlfriend": "语音 AI 女友陪伴插件：集成 Whisper 语音输入、Qwen3-TTS 声音克隆、句子级流式朗读与数字人动画窗，支持插话与排队双模式及说话打断。",
   "bowenliang123/dsh-context": "一站式 DeepSeek Harness 上下文可视化插件：Context 面板与命令，透视上下文组成、演进、压缩、剪枝等事件。",
-  "bruc3van/awesome-dsh-plugin": "30 秒找到适合你的 DeepSeek Harness 插件：自动抓取并复核 `dsh-plugin` 项目，场景化分类、精选推荐与热度排行。",
+  "bruc3van/awesome-dsh-plugin-pro": "30 秒找到适合你的 DeepSeek Harness 插件：自动抓取并复核 `dsh-plugin` 项目，场景化分类、精选推荐与热度排行。",
   "c1overzz/dsh-bili-scroll": "DSH 插件：每天替你刷一轮 B 站——自动搜视频、逐条读字幕原文再判断，把值得的写成 Markdown 报告，特别值得的会留一条评论 @ 你，可配峰谷时段自动跑。",
   "ccch1mneyyy/dsh-TUI": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏、实时状态、流式思考、双击 Esc 回滚、上下文进度+TPS。",
   "ccch1mneyyy/working-activity": "为 pi CLI 与 DSH 打造的 Lively Working-line 工作状态动态线条扩展。",

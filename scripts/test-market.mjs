@@ -116,7 +116,10 @@ test('filterPool applies every exclusion rule', () => {
     repo({ id: 4, full_name: 'dis/abled', disabled: true }),
     repo({ id: 5, full_name: 'Case/Excluded', description: 'a' }),
     repo({ id: 6, full_name: 'Board/Excluded', description: 'a' }),
-    repo({ id: 7, full_name: 'bruc3van/awesome-dsh-plugin', description: 'a' }),
+    repo({ id: 7, full_name: 'bruc3van/awesome-dsh-plugin-pro', description: 'a' }),
+    repo({ id: 10, full_name: 'bruc3van/awesome-dsh-plugin', description: 'a' }),
+    repo({ id: 11, full_name: 'bruc3van/dsh-market-pro', description: 'a' }),
+    repo({ id: 12, full_name: 'bruc3van/safer-dsh-market', description: 'a' }),
     repo({ id: 8, full_name: 'By/Id', description: 'a' }),
     repo({ id: 9, full_name: 'keep/me', description: 'a' }),
   ];

@@ -1,5 +1,5 @@
 {
-  "source": "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json",
+  "source": "https://raw.githubusercontent.com/bruc3van/awesome-dsh-plugin-pro/ea118a5e7d5358f893f43e662a78b0ef5b4482f9/data/dsh-market-index.json",
   "plugins": [
     {
       "name": "dsh-omi-voice",

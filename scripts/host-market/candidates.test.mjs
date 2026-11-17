@@ -12,7 +12,7 @@ test('candidate pool expands beyond the community cap before the final verified 
   const result = buildCandidates(input)
   assert.deepEqual(result.entries.map(r => r.full_name), ['owner/base', 'owner/low'])
   assert.ok(result.excludedRepositories.includes('owner/blocked'))
-  assert.ok(result.excludedRepositories.includes('bruc3van/awesome-dsh-plugin'))
+  assert.ok(result.excludedRepositories.includes('bruc3van/awesome-dsh-plugin-pro'))
   assert.equal(result.subscriptionCandidates.selectionPolicy, SELECTION_POLICY)
   assert.deepEqual(result.featuredRepositories, ['owner/base'])
   assert.deepEqual(result.featured.entries, [])
