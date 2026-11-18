@@ -1545,8 +1545,8 @@
       },
       "versions": [
         {
-          "version": "0.11.3",
-          "publishTimestamp": 1794813545,
+          "version": "0.11.4",
+          "publishTimestamp": 1794996649,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -23283,8 +23283,7 @@
         ],
         "sortKeys": {
           "stars": 38,
-          "repositoryUpdated": 1794908677,
-          "npm_weekly_downloads": 2812
+          "repositoryUpdated": 1794908677
         }
       }
     },
@@ -38247,11 +38246,11 @@
       "versions": [
         {
           "version": "1.1.56",
-          "publishTimestamp": 1794976682,
+          "publishTimestamp": 1794997560,
           "source": {
             "type": "git",
             "url": "https://github.com/guohwa/dsh-plugin-image-workbench",
-            "commit": "b48f4f19f1eac672060fc327ab97954e354f02fb"
+            "commit": "ede14e2411dc376f5d30b27c38afbc15e78e1b9d"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.3"
@@ -75255,8 +75254,7 @@
           "user interface"
         ],
         "labels": [
-          "npm",
-          "updated-month"
+          "npm"
         ],
         "sortKeys": {
           "stars": 8,
@@ -83454,7 +83452,7 @@
         ],
         "labels": [
           "git",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 7,
@@ -86877,7 +86875,7 @@
         ],
         "labels": [
           "git",
-          "updated-week"
+          "updated-month"
         ],
         "sortKeys": {
           "stars": 7,
