@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17",
+  "updated_at": "2026-11-18",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -19319,20 +19319,6 @@
       "verified_date": "2026-11-17",
       "verified_via": "README + Git commit"
     },
-    "aicivilization/dsh-vps": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-vps",
-          "install": "dsh-vps",
-          "command": "dsh plugin add dsh-vps"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-17",
-      "verified_via": "README + npm registry",
-      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
-    },
     "27painter/dsh-sw-cad": {
       "packages": [
         {
@@ -19550,20 +19536,6 @@
       "verified_date": "2026-11-16",
       "verified_via": "manifest@0b08749c9969",
       "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
-    },
-    "lubanqihao9875/dsh-figma-mcp": {
-      "packages": [
-        {
-          "profile": "default",
-          "source": "npm:dsh-figma-mcp",
-          "install": "dsh-figma-mcp",
-          "command": "dsh plugin add dsh-figma-mcp"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-17",
-      "verified_via": "README + npm registry",
-      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
     "keyiadiannao/dsh-power-button": {
       "packages": [
