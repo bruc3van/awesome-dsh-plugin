@@ -6,9 +6,9 @@
 
 The human-readable twin of [data/market-v2.json](./data/market-v2.json) — the curated repository feed for downstream consumers; [DSH Market Pro](https://github.com/bruc3van/dsh-market-pro) reads the complete catalog and subscription picks from `market-catalog.json`, generated alongside the feed by `scripts/market-v2.mjs` so it can be previewed on GitHub without installing anything. Do not edit by hand. The table ranks by stars, matching the plugin’s "All plugins" view; the feed itself is stored in balanced deal order, and the plugin shows only its configured prefix by default.
 
-- 生成时间 / Feed generated: **2026-11-18T01:32:41.704Z**
+- 生成时间 / Feed generated: **2026-11-18T02:44:25.182Z**
 - 来源快照 / Source snapshot: **2026-11-17T22:20:48.235Z**（32315 个仓库 / repositories scanned）
-- 过滤后候选池 / Candidate pool after filtering: **27228**
+- 过滤后候选池 / Candidate pool after filtering: **27221**
 - 发布条目 / Published entries: **1000**（上限 / cap: 1000）
 
 ## 分类 / Categories

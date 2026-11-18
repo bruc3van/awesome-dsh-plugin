@@ -35,6 +35,14 @@ export const SELF_EXCLUDED_REPOS = [
   'bruc3van/awesome-dsh-plugin',
 ];
 
+// Repository-level market exclusions shared by the legacy pool and schema 3.
+export function marketExcludedRepoNames(curated) {
+  return new Set([
+    ...Object.keys(curated.market_exclusions || {}),
+    ...SELF_EXCLUDED_REPOS,
+  ].map((key) => key.toLowerCase()));
+}
+
 // Verbatim copies of the downstream wire rules (src/contract.ts in
 // dsh-market-pro) — the two sides must never drift.
 export const REPOSITORY_SLUG_PATTERN = /^[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+$/;
@@ -114,14 +122,7 @@ export function filterPool(snapshot, curated, approved) {
   const leaderboard = new Set(
     Object.keys(curated.leaderboard_exclusions || {}).map((key) => key.toLowerCase()),
   );
-  // Non-plugin forms (desktop shells, launchers, docs, Docker packaging, VS Code
-  // extensions, …) and competing plugin markets / directories / stores
-  // (market-in-market conflict) stay in the catalog and leaderboard but must
-  // not reach the downstream market — spec §4.2, editorial list in curated.json.
-  const marketExcluded = new Set(
-    Object.keys(curated.market_exclusions || {}).map((key) => key.toLowerCase()),
-  );
-  const self = new Set(SELF_EXCLUDED_REPOS.map((key) => key.toLowerCase()));
+  const marketExcluded = marketExcludedRepoNames(curated);
   const excludedIds = new Set(
     Object.keys(curated.excluded_repo_ids || {}).map(Number).filter((id) => Number.isInteger(id)),
   );
@@ -137,7 +138,7 @@ export function filterPool(snapshot, curated, approved) {
     if (repo.archived === true || repo.disabled === true) continue;
     const lower = String(repo.full_name).toLowerCase();
     if (!approvedNames.has(lower)) continue;
-    if (excluded.has(lower) || leaderboard.has(lower) || self.has(lower) || marketExcluded.has(lower)) continue;
+    if (excluded.has(lower) || leaderboard.has(lower) || marketExcluded.has(lower)) continue;
     if (excludedIds.has(repo.id)) continue;
     const category = categoryForRepo(curated, repo);
     if (!category) continue; // unreachable with the fallback rule; defensive

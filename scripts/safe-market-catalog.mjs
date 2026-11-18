@@ -1,9 +1,9 @@
-// One delivery snapshot for the standalone market: the complete reviewed
-// repository catalog and the exact published subscription plugin list.
+// One delivery snapshot for the standalone market: the reviewed repository
+// catalog after market exclusions, and the exact published subscription plugin list.
 import { createHash } from 'node:crypto'
 import { readFile } from 'node:fs/promises'
 import { catalogRepositories, loadState } from './render.mjs'
-import { buildEntry, categoryForRepo } from './market-pool.mjs'
+import { buildEntry, categoryForRepo, marketExcludedRepoNames } from './market-pool.mjs'
 import { packagesBlockFor } from './market-v2.mjs'
 
 export function buildSafeMarketCatalog(state, packages, index, report, indexRaw) {
@@ -23,21 +23,25 @@ export function buildSafeMarketCatalog(state, packages, index, report, indexRaw)
     searchByRepo.set(key, words)
     if (plugin.icon && !iconsByRepo.has(key)) iconsByRepo.set(key, plugin.icon)
   }
-  const entries = catalogRepositories(state).map(repo => {
-    const record = mappings.get(repo.full_name.toLowerCase())
+  const marketExcluded = marketExcludedRepoNames(state.curated)
+  const entries = []
+  for (const repo of catalogRepositories(state)) {
+    const key = repo.full_name.toLowerCase()
+    if (marketExcluded.has(key)) continue
+    const record = mappings.get(key)
     const row = buildEntry(repo, categoryForRepo(state.curated, repo))
     const categoryTitle = index.metadata?.categories?.[row.category]?.title
-    return {
+    entries.push({
       ...row,
       category_zh: categoryTitle?.zh || row.category_zh,
       category_en: categoryTitle?.en || row.category_en,
-      ...(iconsByRepo.has(repo.full_name.toLowerCase()) ? { icon: iconsByRepo.get(repo.full_name.toLowerCase()) } : {}),
-      ...(searchByRepo.has(repo.full_name.toLowerCase()) ? { keywords: [...searchByRepo.get(repo.full_name.toLowerCase())] } : {}),
+      ...(iconsByRepo.has(key) ? { icon: iconsByRepo.get(key) } : {}),
+      ...(searchByRepo.has(key) ? { keywords: [...searchByRepo.get(key)] } : {}),
       ...(repo.archived ? { archived: true } : {}),
       ...(repo.disabled ? { disabled: true } : {}),
       ...(record ? { packages: packagesBlockFor(record) } : {}),
-    }
-  })
+    })
+  }
   if (!entries.length) throw new Error('The reviewed repository catalog is empty')
   return {
     schema_version: 3,

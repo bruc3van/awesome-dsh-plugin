@@ -83,8 +83,10 @@ Cloudflare Pages Function 读取 `market-release` 指向的不可变发布记录
 
 ## 安全市场的完整目录与订阅精选
 
-独立安全市场使用 npm 包里的 `data/market-catalog.json`（schema 3）。`scripts/safe-market-catalog.mjs` 在打包时复用完整目录的 `catalogRepositories` 规则，携带全部已审核仓库，以及已发布的整个 format-1 订阅索引，不再由原来 1000 条的社区 feed 决定展示范围。精选包含订阅里的所有插件，保留包身份、顺序、分类、关键词、Logo 和安装来源；全部目录按仓库计数，保留归档状态，并补充关联订阅包的检索词与图标。数量从当前数据生成，不固定为某个版本的数量。
+独立安全市场使用 npm 包里的 `data/market-catalog.json`（schema 3）。「全部」从 GitHub 已审核目录取仓库，再按 `data/curated.json` 的 `market_exclusions` 和 `SELF_EXCLUDED_REPOS` 排除条目。仅因 Star 来源或双宿主分发而被榜单排除的插件仍可进入「全部」。目录按仓库计数，保留归档和禁用状态，并补充关联订阅包的检索词与图标。
+
+「精选」使用整个已发布的 format-1 订阅索引，保留包身份、顺序、分类、关键词、Logo 和安装来源。带有已核验独立插件的混合仓库可以保留，例如 `WZZNNE/DSH-CyberWorkStation` 提供了已核验的子插件 `dsh-vision-bridge-zh`。
 
 npm 打包核对订阅文件 SHA-256、报告数量和零读取失败；目录、订阅或 Logo 的变化均参与 npm 数据摘要。发布工作流在官方订阅发布完成后运行，再刷新两个 CDN 别名的新目录文件。原 `market-v2.json` 保持原协议供旧消费者使用。生成文件只进入 npm 包，不在 Git 中复制一份大型目录。
 
-本地运行 `node --test scripts/test-safe-market-catalog.mjs scripts/test-publish-npm-feed.mjs`；在安全市场项目运行 `node scripts/verify-upstream-catalog.mjs ../awesome-dsh-plugin-pro` 可核对真实生成器与消费解析器的完整集合、分类、Logo 和固定安装目标。
+本地运行 `node --test scripts/test-safe-market-catalog.mjs scripts/test-publish-npm-feed.mjs` 可核对真实生成器的仓库范围、精选顺序和 npm 打包。
