@@ -117,7 +117,8 @@ test('generation deduplicates npm targets, processes Git and skips manual instru
       ],
     }),
   )
-  assert.deepEqual(calls.sort(), ['demo', 'missing'])
+  assert.deepEqual(calls.sort(), ['demo', 'missing', 'missing'])
+  // The failing registry lookup is attempted twice: one bounded retry per target.
   assert.equal(result.index.plugins.length, 1)
   assert.equal(result.diagnostics.length, 2)
   for (const spec of [
@@ -467,4 +468,36 @@ test('a package.json saved with a UTF-8 BOM still declares its identity', async 
     version: '0.8.1',
     dsh: { bundle: { patch: './cordis.patch.yml' } },
   })
+})
+
+test('a transient lookup failure is retried once, a permanent one is not', async () => {
+  const { retryOnce } = await import('./retry.mjs')
+  let attempts = 0
+  const value = await retryOnce(async () => {
+    attempts += 1
+    if (attempts === 1) throw new Error('tarball answered HTTP 503')
+    return 'ok'
+  }, { delayMs: 0 })
+  assert.equal(value, 'ok')
+  assert.equal(attempts, 2)
+
+  attempts = 0
+  await assert.rejects(
+    retryOnce(async () => {
+      attempts += 1
+      throw new Error('tarball exceeds 10 bytes')
+    }, { delayMs: 0, shouldRetry: (error) => !/exceeds/.test(error.message) }),
+    /exceeds/,
+  )
+  assert.equal(attempts, 1, 'a permanent failure is not retried')
+
+  attempts = 0
+  await assert.rejects(
+    retryOnce(async () => {
+      attempts += 1
+      throw new Error('still down')
+    }, { delayMs: 0 }),
+    /still down/,
+  )
+  assert.equal(attempts, 2, 'the retry is bounded to one extra attempt')
 })

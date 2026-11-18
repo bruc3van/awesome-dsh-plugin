@@ -10,6 +10,7 @@ import { applyPresentation } from './presentation.mjs'
 import { presentationQuality, DISCOVERY_HOST_VERSION, DISCOVERY_HOST_VERSIONS } from './quality.mjs'
 import { applyDownloadMetrics } from './metrics.mjs'
 import { verifyNpmPlugin } from './npm.mjs'
+import { retryOnce } from './retry.mjs'
 import { classifyTarget, readGitTarget } from './git.mjs'
 import { blockedPluginRepository } from './repository-policy.mjs'
 import { isBundle, isPrivate, dshRange } from './vendor/packages.ts'
@@ -271,7 +272,10 @@ export async function generateIndex(
         const i = cursor++
         const [name, selectors] = entries[i]
         try {
-          const packument = await fetchPackument(name)
+          // A registry edge 5xx/timeout must not cost the whole publication.
+          const packument = await retryOnce(() => fetchPackument(name), {
+            onRetry: (error) => console.warn(`retrying packument ${name} after: ${error.message}`),
+          })
           const result = projectPackage(name, [...selectors], packument)
           if (result.plugin && verifyNpm) {
             const verified = await verifyNpm(result.plugin, packument)
@@ -315,7 +319,13 @@ export async function generateIndex(
         const i = nextGit++,
           target = gitEntries[i]
         try {
-          gitResults[i] = await fetchGit(target)
+          // Transient clone/timeout failures get one more attempt; permanent
+          // source problems (missing ref/repo, temp-dir permission) do not.
+          gitResults[i] = await retryOnce(() => fetchGit(target), {
+            shouldRetry: (error) => !classifyGitFailure(error).permanent,
+            onRetry: (error) =>
+              console.warn(`retrying git ${target.target} after: ${error.message}`),
+          })
         } catch (error) {
           const failure = classifyGitFailure(error)
           gitResults[i] = {

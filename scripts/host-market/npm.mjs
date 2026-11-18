@@ -4,6 +4,14 @@ import { npmTarball } from './vendor/fetchers.ts'
 import { isBundle, isPrivate, dshRange } from './vendor/packages.ts'
 import { readDisplayMetadata } from './vendor/metadata.ts'
 import { inlineIcon } from './icons.mjs'
+import { retryOnce } from './retry.mjs'
+/** Bounded size and "no tarball in the registry entry" are policy/input failures, not transient. */
+function permanentTarballFailure(error) {
+  return /(?:^|: )(?:registry lists no tarball with integrity|(?:unpacked )?tarball exceeds \d+ bytes)$/.test(
+    String(error?.message ?? ''),
+  )
+}
+
 export async function verifyNpmPlugin(
   plugin,
   packument,
@@ -14,11 +22,13 @@ export async function verifyNpmPlugin(
   let highest
   for (const version of plugin.versions) {
     const registryManifest = packument.versions[version.version]
-    const { files, manifest } = await npmTarball(
-      plugin.name,
-      version.version,
-      registryManifest.dist,
-      limits,
+    const { files, manifest } = await retryOnce(
+      () => npmTarball(plugin.name, version.version, registryManifest.dist, limits),
+      {
+        shouldRetry: (error) => !permanentTarballFailure(error),
+        onRetry: (error) =>
+          console.warn(`retrying tarball ${plugin.name}@${version.version} after: ${error.message}`),
+      },
     )
     const range = dshRange(manifest)
     const expected = version.engines?.dsh
