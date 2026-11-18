@@ -8,23 +8,36 @@
 
 [中文](./README.md) · [Full catalog](./CATALOG.md) · [Star Top 200](./TOP200.md) · [Author showcase](./SHOWCASE.md) · [Recommend a plugin](./CONTRIBUTING.md) · [Machine-readable data](./data/repositories.json)
 
-This project is now **Awesome DSH Plugins Pro** (`awesome-dsh-plugin-pro`). Pro reflects maintainer-reviewed inclusion, removal of unrelated and topic-spam repositories, practical categories and picks, and subscription data with verified installation targets. A topic alone does not qualify a repository for inclusion. Existing subscription URLs and the `awesome-dsh-plugin-feed` npm package remain compatible.
+A reviewed DeepSeek Harness (DSH) plugin directory and subscription feed: unrelated and topic-spam repositories are filtered out, with practical category picks, a full catalog, and verified install targets for both the plugin marketplace and the official Discover subscription.
 
-## Subscribe in DSH Discover
+## 🏪 Plugin Marketplace & DSH Discover Subscription
 
-**Required version: DSH V0.2.1-rc.2 or later** (for third-party subscriptions in the official Discover tab; individual plugins still have their own host requirements).
+Two ways to browse and install plugins from this catalog inside DSH (both install through the official host plugin manager):
+
+### Option 1: Install `dsh-market-pro` Marketplace (Recommended)
+
+**[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** (npm: [`dsh-market-pro`](https://www.npmjs.com/package/dsh-market-pro)) is the dedicated plugin marketplace backed by the full reviewed catalog (`awesome-dsh-plugin-feed`):
+
+- **Full catalog + curated picks:** covers both official subscription picks and 28,000+ reviewed repositories (with one-click install commands or manual guidance), searchable by category, tags, and keywords.
+- **Install, update & multi-target selection:** installs and updates via the official host manager with multi-package selection.
+- **Post-install AI security review:** optional read-only AI code review of installed plugins (drafted for your confirmation before sending).
+
+```bash
+dsh plugin --profile web add dsh-market-pro
+```
+
+### Option 2: Subscribe in DSH Official Discover
+
+No extra plugin required — add the curated index directly to DSH's built-in Discover tab (**DSH ≥ V0.2.1-rc.2**):
 
 **Subscription URL: [`https://bruc3van.com/dsh-plugins/index.json`](https://bruc3van.com/dsh-plugins/index.json)**
 
-1. **Enable custom markets:** **Plugins** in the left sidebar → **More** beside **Experimental plugins** → switch on **Custom plugin markets**; the Plugins page then shows the **Installed / Discover** tabs.
-2. **Add the subscription:** open **Discover**, click **Add index source** (or open the top-left market dropdown → **Manage index sources…**), paste the URL above, and click **Add**.
-3. **Browse and install:** pick **Bruce's Plugin Picks** in the market dropdown; filter by task category, keyword or labels (Editor's Picks, npm/Git, recency and stars), and check each plugin's version requirements before installing. Use **Refresh** to reload data.
+1. **Enable custom markets:** **Plugins** → **More** beside **Experimental plugins** → enable **Custom plugin markets**.
+2. **Add subscription:** open the **Discover** tab → **Add index source** (or top-left dropdown → **Manage index sources…**), paste the URL above, and click **Add**.
+3. **Browse & install:** select **Bruce's Plugin Picks** from the dropdown to filter and install.
 
-If the Discover tab is missing, check that DSH is ≥ V0.2.1-rc.2 and Custom plugin markets is enabled; the switch only unlocks the feature — the subscription URL still needs to be added manually. Subscribing in Discover **does not require `dsh-market-pro`** (that plugin is for a standalone interface, multiple-target installation, and post-install AI review), and the two switches are separate controls.
-
-Inclusion criteria: only verified npm targets and Git bundles pinned to full commits are listed (unapproved, archived, disabled, blacklisted, and invalid-install-source repos are excluded), plugins ranked by stars until the index fits the gateway 5 MiB byte budget. Inclusion is not a security audit or proof of runtime compatibility.
-
-[DSH Plugin Directory and subscription guide](https://bruc3van.com/dsh-plugins/#subscribe) · [Index generation and exclusions report](https://bruc3van.com/markets/dsh/audit.json) · [Latest market plugin](https://www.npmjs.com/package/dsh-market-pro)
+> Inclusion scope: verified npm packages and Git bundles pinned to full commits (ranked by stars within the gateway 5 MiB budget). Inclusion is not a security or runtime-compatibility guarantee.
+> [Subscription guide](https://bruc3van.com/dsh-plugins/#subscribe) · [Index audit report](https://bruc3van.com/markets/dsh/audit.json) · [DSH Market Pro repo](https://github.com/bruc3van/dsh-market-pro)
 
 ## 🗺️ Ecosystem at a glance
 
@@ -273,7 +286,7 @@ You do not need to install everything. Start with the kit closest to the problem
 
 ## 🏆 Community leaderboard
 
-Community popularity by stars, from the 2026-11-17 snapshot. Repositories riding the `dsh-plugin` topic without being plugins, and editorially blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json); new repositories first enter the [review queue](./data/review/pending.md) and rank only after the maintainer has verified them ([data/approved.json](./data/approved.json)). The home page shows the Top 50; the full Top 200 is in [TOP200.md](./TOP200.md). Ranking reflects popularity only — not quality, compatibility, or security.
+Community popularity by stars, from the 2026-11-17 snapshot. Repositories riding the `dsh-plugin` topic without being plugins, and blacklisted repositories, are excluded — see [data/curated.json](./data/curated.json); new repositories first enter the [review queue](./data/review/pending.md) and rank only after review ([data/approved.json](./data/approved.json)). The home page shows the Top 50; the full Top 200 is in [TOP200.md](./TOP200.md). Ranking reflects popularity only — not quality, compatibility, or security.
 
 <!-- dsh:leaderboard:start -->
 | # | Project | Description | ⭐ Stars | License |
@@ -334,7 +347,7 @@ Community popularity by stars, from the 2026-11-17 snapshot. Repositories riding
 
 ## 🆕 Recently joined
 
-Manually screened recent projects, updated from time to time:
+Screened recent projects, updated from time to time:
 
 | Project | Description | Created |
 | --- | --- | --- |
@@ -369,14 +382,14 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 ## 🔍 How this list is maintained
 
 - **Built for users, not crawlers:** the front page is organized around "what I want to get done", not hundreds of repo names.
-- **Layered: human picks + full index:** the front page carries only hand-screened featured picks and the showcase preview; [CATALOG.md](./CATALOG.md) and its per-category volumes list every verified repository; new repositories first enter the [review queue](./data/review/pending.md) and appear after verification and merge (convention: [data/review/README.md](./data/review/README.md)).
-- **Automated data, human pages:** the raw snapshot and the review queue refresh daily by script; the catalog and Top 200 leaderboard are regenerated only after a human review merge (generators: [scripts/merge.mjs](./scripts/merge.mjs), [scripts/top.mjs](./scripts/top.mjs), switchable back to Top 100); the home-page featured picks, showcase, and recently-joined sections are edited by hand, so polluted API data (star inflation, topic riders) never rewrites recommendations automatically.
-- **Riders removed:** repositories carrying the `dsh-plugin` topic without being DSH plugins (the platform itself, other agent tools, competing catalogs) and editorially blacklisted repositories are excluded from the catalog and leaderboard, with per-repo reasons recorded in [data/curated.json](./data/curated.json) (the leaderboard additionally honors `leaderboard_exclusions` for repos that stay in the catalog but do not rank) — auditable and contestable at any time.
+- **Layered: curated picks + full index:** the front page carries curated featured picks and the showcase preview; [CATALOG.md](./CATALOG.md) and its per-category volumes list every reviewed repository; new repositories first enter the [review queue](./data/review/pending.md) and appear after review and merge (convention: [data/review/README.md](./data/review/README.md)).
+- **Automated data, curated recommendations:** the raw snapshot and the review queue refresh daily by script; the catalog and Top 200 leaderboard are regenerated only after a review merge (generators: [scripts/merge.mjs](./scripts/merge.mjs), [scripts/top.mjs](./scripts/top.mjs), switchable back to Top 100); the home-page featured picks, showcase, and recently-joined sections are maintained separately, so polluted API data (star inflation, topic riders) never rewrites recommendations automatically.
+- **Riders removed:** repositories carrying the `dsh-plugin` topic without being DSH plugins (the platform itself, other agent tools, competing catalogs) and blacklisted repositories are excluded from the catalog and leaderboard, with per-repo reasons recorded in [data/curated.json](./data/curated.json) (the leaderboard additionally honors `leaderboard_exclusions` for repos that stay in the catalog but do not rank) — auditable and contestable at any time.
 - **Auditable review trail:** every inclusion decision can be checked — approval dates live in [data/approved.json](./data/approved.json), and each removal or leaderboard exclusion carries its reason in [data/curated.json](./data/curated.json); bulk reviews additionally keep a narrative record (e.g. the [2026-11-18 review log](./data/review/2026-11-18.md)), and the whole workflow is documented in [data/review/README.md](./data/review/README.md).
-- **Market data (npm feed):** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) publishes `market-catalog.json` (schema 3: the complete reviewed catalog, each row carrying `install_status` and its install mapping, plus the official subscription and the editorial picks) and `packages.json` (the install-mapping source). It is projected by `scripts/safe-market-catalog.mjs`, packaged by `publish-npm-feed.mjs`, and mirrored through npmmirror. The legacy market-v2 (≤1000 rows) and MARKET.md were retired on 2026-11-18; schema 2 survives only as a compatibility format for self-hosted consumer URLs.
+- **Market data (npm feed):** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) publishes `market-catalog.json` (schema 3: the complete reviewed catalog, each row carrying `install_status` and its install mapping, plus the official subscription and the editorial picks) and `packages.json` (the install-mapping source). It is projected by `scripts/safe-market-catalog.mjs`, packaged by `publish-npm-feed.mjs`, and mirrored through npmmirror.
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-11-17, the catalog lists **28,724** repositories across **41** primary languages; **26,413** declare a license and **28,404** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-11-17, the catalog lists **28,724** repositories across **41** primary languages; **26,413** declare a license and **28,404** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 
@@ -386,9 +399,9 @@ Third-party plugins can read conversations, files, network traffic, or system re
 
 Spot a miss, a wrong category, or stale wording? Open an Issue or Pull Request:
 
-- **Get your plugin listed:** a public repo tagged `dsh-plugin` that is actually a DSH plugin enters the [review queue](./data/review/pending.md) on the next daily refresh and appears in the full catalog after we verify it — **no PR to this repo needed**. Topic riders are removed, with reasons recorded in [data/curated.json](./data/curated.json).
+- **Get your plugin listed:** a public repo tagged `dsh-plugin` that is actually a DSH plugin enters the [review queue](./data/review/pending.md) on the next daily refresh and appears in the full catalog after review — **no PR to this repo needed**. Topic riders are removed, with reasons recorded in [data/curated.json](./data/curated.json).
 - **Self-promote as an author:** if you own the plugin, append one entry (Chinese and English) to [SHOWCASE.md](./SHOWCASE.md) following the [contributing rules](./CONTRIBUTING.md#作者自荐--self-promotion) — no editorial review needed. Once merged, the home-page showcase preview is refreshed automatically by a workflow; do not hand-edit it.
-- **Get on the front page:** the featured picks and recently-joined sections are hand-maintained — open an Issue telling us what problem it solves and for whom, or edit the corresponding Markdown directly with your reasoning. The leaderboard [TOP200.md](./TOP200.md) is generated by script; to keep a repository out of the board, register it under `leaderboard_exclusions` in [data/curated.json](./data/curated.json) with a reason.
+- **Get on the front page:** the featured picks and recently-joined sections are maintained separately — open an Issue telling us what problem it solves and for whom, or edit the corresponding Markdown directly with your reasoning. The leaderboard [TOP200.md](./TOP200.md) is generated by script; to keep a repository out of the board, register it under `leaderboard_exclusions` in [data/curated.json](./data/curated.json) with a reason.
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
@@ -400,8 +413,8 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
 **Maintained by the author**
 
-- **[dsh-desktop-pro](https://github.com/bruc3van/dsh-desktop-pro)** — DSH Desktop Pro: a professional DeepSeek Harness desktop client built around organization-wide configuration. For personal use it works out of the box: the window loads the authentic official Web UI, closing the window doesn't stop your task — it stays resident in the tray until you open it again — and the installer bundles the official runtime, so you just double-click to launch; on first launch it subscribes to a curated plugin index. In a company, IT configures the model gateway, plugin subscriptions, skills and tool permissions once through the open-source management server, and employees sign in with their company account — with usage limits and a tamper-evident audit log. Runs on macOS, Windows, and Linux. (The preset plugin subscription's list data comes from this repository's [`market-v2.json`](./data/market-v2.json).)
-- **[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** — curated plugin browsing, installation, updates, and optional post-install AI review. It consumes the complete reviewed catalog and subscription picks in the npm feed's `market-catalog.json`. DSH Desktop Pro bundled the old market through 0.5.x; since 0.6.0 it is installed on demand.
+- **[dsh-desktop-pro](https://github.com/bruc3van/dsh-desktop-pro)** — DSH Desktop Pro: a professional DeepSeek Harness desktop client built around organization-wide configuration. For personal use it works out of the box: the window loads the authentic official Web UI, closing the window doesn't stop your task — it stays resident in the tray until you open it again — and the installer bundles the official runtime, so you just double-click to launch; on first launch it subscribes to a curated plugin index. In a company, IT configures the model gateway, plugin subscriptions, skills and tool permissions once through the open-source management server, and employees sign in with their company account — with usage limits and a tamper-evident audit log. Runs on macOS, Windows, and Linux.
+- **[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** — curated plugin browsing, installation, updates, and optional post-install AI review. It consumes the complete reviewed catalog and subscription picks in the npm feed's `market-catalog.json`.
 - **[bruce-md2word](https://github.com/bruc3van/bruce-md2word)** — a Markdown-to-Word tool built for AI agents: Chinese typography, Mermaid diagrams rendered to images and editable math formulas, shipped in three forms — a Skill, a standalone CLI and a DSH plugin. (Also listed in the [agents-workflows volume](./catalog/agents-workflows.md) of this catalog.)
 
 **Official repositories**
@@ -414,4 +427,4 @@ This list is published under the [MIT License](./LICENSE); each listed project r
 
 ## Community index for DSH Discover
 
-This repository also owns a format-1 index and its generation and exclusions report, served through a fixed HTTPS route on bruc3van.com. See [generation and delivery details](scripts/host-market/README.md). Existing market-v2 and npm feed publication remain independent.
+This repository also owns a format-1 index and its generation and exclusions report, served through a fixed HTTPS route on bruc3van.com. See [generation and delivery details](scripts/host-market/README.md).

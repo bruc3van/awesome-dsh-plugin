@@ -8,23 +8,36 @@
 
 [English](./README_EN.md) · [全量目录](./CATALOG.md) · [Star Top 200](./TOP200.md) · [作者自荐](./SHOWCASE.md) · [推荐一个插件](./CONTRIBUTING.md) · [机器可读数据](./data/repositories.json)
 
-本项目已更名为 **Awesome DSH Plugins Pro**（`awesome-dsh-plugin-pro`）。Pro 的依据是人工核实收录、剔除蹭标签与非插件仓库、场景分类与精选推荐，以及可核实安装目标的订阅数据；贴上标签不会自动进入目录。原有订阅地址和 npm 数据包 `awesome-dsh-plugin-feed` 保持兼容。
+经过审核的 DeepSeek Harness（DSH）插件目录与订阅源：剔除蹭标签与非插件仓库，提供按场景整理的精选推荐、全量分类目录，以及经核验安装目标的插件市场与官方「发现」页订阅数据。
 
-## 订阅到 DSH 官方「发现」页
+## 🏪 插件市场与官方「发现」页订阅
 
-**适用版本：DSH V0.2.1-rc.2 及以上**（针对「发现」页的第三方订阅功能；各插件仍需满足其声明的宿主版本要求）。
+提供两种在 DSH 内浏览与安装本目录插件的方式（均通过宿主官方插件管理器执行安装）：
+
+### 方式一：安装 `dsh-market-pro` 插件市场（推荐）
+
+**[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)**（npm：[`dsh-market-pro`](https://www.npmjs.com/package/dsh-market-pro)）是配套的独立插件市场，直接消费完整已审核目录（`awesome-dsh-plugin-feed`），适合深度浏览、管理与审查：
+
+- **全量目录 + 精选推荐**：同时覆盖官方订阅精选与两万余个已审核仓库（标注一键安装命令或手动安装指引），支持分类、标签与关键词检索。
+- **安装、更新与多选管理**：调用宿主官方管理器安装与更新，支持多目标包选择。
+- **安装后 AI 安全审查**：可选对已安装版本发起只读 AI 代码审查（生成审查草稿，由你确认发送后才开始）。
+
+```bash
+dsh plugin --profile web add dsh-market-pro
+```
+
+### 方式二：订阅到 DSH 官方「发现」页
+
+无需额外安装插件，直接把精选索引接入 DSH 内置「发现」页（需 **DSH ≥ V0.2.1-rc.2**）：
 
 **订阅链接：[`https://bruc3van.com/dsh-plugins/index.json`](https://bruc3van.com/dsh-plugins/index.json)**
 
-1. **开启自定义市场**：左侧 **插件** → **实验性插件** 旁 **更多** → 打开 **自定义插件市场**，插件页即出现 **已安装 / 发现** 两个标签页。
-2. **添加订阅**：进入 **发现**，首次点击 **添加索引源**（已有市场则从左上角下拉菜单选 **管理索引源…**），粘贴上面的地址后 **添加**。
-3. **浏览和安装**：在市场下拉菜单选择 **Bruce 的精选插件**，按用途分类、关键词或标签（编辑推荐、npm/Git、更新时间、Star 等）筛选，查看版本要求后再安装；数据未更新时点 **刷新**。
+1. **开启自定义市场**：左侧 **插件** → **实验性插件** 旁 **更多** → 打开 **自定义插件市场**。
+2. **添加订阅源**：切到 **发现** 标签 → 点击 **添加索引源**（或左上角下拉菜单 **管理索引源…**），粘贴上方链接并添加。
+3. **浏览安装**：在下拉菜单选择 **Bruce 的精选插件** 即可按分类与标签筛选安装。
 
-看不到「发现」标签：确认 DSH ≥ V0.2.1-rc.2 且已开启「自定义插件市场」；该开关只解锁功能，订阅源仍需按上面步骤手动添加。仅订阅发现页无需安装 `dsh-market-pro`（独立市场界面、多选安装、安装后 AI 审查才需要），它与「自定义插件市场」是两个独立入口。
-
-收录口径：仅收经核验的 npm 目标与固定完整提交的 Git 组合包（排除未审批、归档、禁用、黑名单及无效安装来源），按 Star 降序收录至网关 5 MiB 索引体积预算内；收录不代表安全审查或实机兼容保证。
-
-[DSH 插件导航与订阅指南](https://bruc3van.com/dsh-plugins/#subscribe) · [索引生成与排除报告](https://bruc3van.com/markets/dsh/audit.json) · [最新版市场插件](https://www.npmjs.com/package/dsh-market-pro)
+> 收录口径：仅含经核验的 npm 包与固定完整 commit 的 Git 插件（按 Star 降序收录至网关 5 MiB 体积预算内）。收录不代表安全或实机兼容背书。
+> [订阅指南](https://bruc3van.com/dsh-plugins/#subscribe) · [索引生成与排除报告](https://bruc3van.com/markets/dsh/audit.json) · [DSH Market Pro 仓库](https://github.com/bruc3van/dsh-market-pro)
 
 ## 🗺️ 生态全景
 
@@ -274,7 +287,7 @@ mindmap
 
 ## 🏆 社区热度榜
 
-按 Star 排序的社区热度参考，数据取自 2026-11-17 快照；蹭 `dsh-plugin` Topic 的非插件仓库与编辑部拉黑的仓库均已剔除，新仓库先进入[待审核队列](./data/review/pending.md)、经人工核实（[data/approved.json](./data/approved.json)）后才进入榜单，剔除清单见 [data/curated.json](./data/curated.json)。首页展示前 50 名，完整 Top 200 见 [TOP200.md](./TOP200.md)。排名反映受欢迎程度，不代表质量、兼容性或安全背书。
+按 Star 排序的社区热度参考，数据取自 2026-11-17 快照；蹭 `dsh-plugin` Topic 的非插件仓库与拉黑仓库均已剔除，新仓库先进入[待审核队列](./data/review/pending.md)、经审核（[data/approved.json](./data/approved.json)）后才进入榜单，剔除清单见 [data/curated.json](./data/curated.json)。首页展示前 50 名，完整 Top 200 见 [TOP200.md](./TOP200.md)。排名反映受欢迎程度，不代表质量、兼容性或安全背书。
 
 <!-- dsh:leaderboard:start -->
 | # | 项目 | 简介 | ⭐ Stars | License |
@@ -335,7 +348,7 @@ mindmap
 
 ## 🆕 最近加入生态
 
-人工筛选的近期新项目，不定期更新：
+近期筛选收录的新项目，不定期更新：
 
 | 项目 | 简介 | 创建日期 |
 | --- | --- | --- |
@@ -370,14 +383,14 @@ mindmap
 ## 🔍 我们如何维护这个列表
 
 - **面向使用者，而不是爬虫：** 从「我想完成什么」出发组织首页，而不是让你阅读几百行仓库名称。
-- **人工推荐 + 全量索引分层：** 首页只放经过人工筛选的精选推荐与自荐预览；[CATALOG.md](./CATALOG.md) 及其分类分册收录全部经核实的仓库；新增仓库先进入[待审核队列](./data/review/pending.md)，核实后合并（约定见 [data/review/README.md](./data/review/README.md)）。
-- **数据自动、页面人工：** 原始快照与待审核队列每天由脚本自动刷新；全量目录与 Top 200 热度榜只在人工核实合并后重新生成（生成逻辑见 [scripts/merge.mjs](./scripts/merge.mjs) 与 [scripts/top.mjs](./scripts/top.mjs)，可随时切回 Top 100）；首页精选推荐、自荐与最近加入由人工维护，避免刷星、蹭 Topic 等被污染的接口数据直接改写推荐内容。
-- **剔除蹭热度条目：** 带 `dsh-plugin` Topic 但并非 DSH 插件的仓库（平台本体、其他 Agent 工具、同名目录站等）以及编辑部拉黑的仓库不计入目录与榜单，理由逐条记录在 [data/curated.json](./data/curated.json)（榜单另有 `leaderboard_exclusions`：保留在目录中、但不参与榜单排序的仓库），可随时复查与质疑。
-- **审核留痕：** 每个收录决定都可回查——核准日期在 [data/approved.json](./data/approved.json)，剔除与榜单排除理由逐条记录在 [data/curated.json](./data/curated.json)；大批量复核另附叙述性存档（如 [2026-11-18 审核记录](./data/review/2026-11-18.md)），全流程约定见 [data/review/README.md](./data/review/README.md)。
-- **市场数据（npm feed）：** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) 发布 `market-catalog.json`（schema 3：完整已审核目录，每行带 `install_status` 与安装映射，另含官方订阅与编辑精选）和 `packages.json`（安装映射源）；由 `scripts/safe-market-catalog.mjs` 投影、`publish-npm-feed.mjs` 打包，国内经 npmmirror 镜像分发。旧的 market-v2（≤1000 条）与 MARKET.md 已于 2026-11-18 退役，schema 2 仅作为下游自定义地址的兼容格式保留。字段见下游的[消费协议](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)。
+- **精选推荐 + 全量索引分层：** 首页只放经过筛选的精选推荐与自荐预览；[CATALOG.md](./CATALOG.md) 及其分类分册收录全部经审核的仓库；新增仓库先进入[待审核队列](./data/review/pending.md)，审核后合并（约定见 [data/review/README.md](./data/review/README.md)）。
+- **数据自动、推荐受控：** 原始快照与待审核队列每天由脚本自动刷新；全量目录与 Top 200 热度榜只在审核合并后重新生成（生成逻辑见 [scripts/merge.mjs](./scripts/merge.mjs) 与 [scripts/top.mjs](./scripts/top.mjs)，可随时切回 Top 100）；首页精选推荐、自荐与最近加入独立维护，避免刷星、蹭 Topic 等被污染的接口数据直接改写推荐内容。
+- **剔除蹭热度条目：** 带 `dsh-plugin` Topic 但并非 DSH 插件的仓库（平台本体、其他 Agent 工具、同名目录站等）以及拉黑仓库不计入目录与榜单，理由逐条记录在 [data/curated.json](./data/curated.json)（榜单另有 `leaderboard_exclusions`：保留在目录中、但不参与榜单排序的仓库），可随时复查与质疑。
+- **审核留痕：** 每个收录决定都可回查——核准日期在 [data/approved.json](./data/approved.json)，剔除与榜单排除理由逐条记录在 [data/curated.json](./data/curated.json)；大批量审核另附存档记录（如 [2026-11-18 审核记录](./data/review/2026-11-18.md)），全流程约定见 [data/review/README.md](./data/review/README.md)。
+- **市场数据（npm feed）：** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) 发布 `market-catalog.json`（schema 3：完整已审核目录，每行带 `install_status` 与安装映射，另含官方订阅与编辑精选）和 `packages.json`（安装映射源）；由 `scripts/safe-market-catalog.mjs` 投影、`publish-npm-feed.mjs` 打包，国内经 npmmirror 镜像分发。字段见下游的[消费协议](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
-截至 2026-11-17，全量目录收录 **28724** 个仓库、**41** 种主要语言；其中 **26413** 个声明了许可证，**28404** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
+截至 2026-11-17，全量目录收录 **28724** 个仓库、**41** 种主要语言；其中 **26413** 个声明了许可证，**28404** 个未归档且未禁用（目录随审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
 
 ## ⚠️ 使用与安全
 
@@ -387,9 +400,9 @@ mindmap
 
 发现遗漏、分类不准确或说明过时？欢迎提交 Issue 或 Pull Request：
 
-- **收录你的插件：** 公开仓库只要带上 `dsh-plugin` Topic 且确实是 DSH 插件，就会在每日刷新时进入[待审核队列](./data/review/pending.md)，经我们核实后进入全量目录——**不需要给我们提 PR**。蹭 Topic 的条目会被剔除，理由记录在 [data/curated.json](./data/curated.json)。
+- **收录你的插件：** 公开仓库只要带上 `dsh-plugin` Topic 且确实是 DSH 插件，就会在每日刷新时进入[待审核队列](./data/review/pending.md)，经审核后进入全量目录——**不需要给我们提 PR**。蹭 Topic 的条目会被剔除，理由记录在 [data/curated.json](./data/curated.json)。
 - **作者自荐上首页：** 如果你是插件作者，可以按 [CONTRIBUTING](./CONTRIBUTING.md#作者自荐--self-promotion) 的自荐规范在 [SHOWCASE.md](./SHOWCASE.md) 末尾追加一条自荐（中英各一行）即可，无需编辑部审核；合入后首页自荐预览由脚本自动刷新，请勿手工同步。
-- **上首页推荐：** 首页的精选推荐与最近加入为人工维护页面，提 Issue 告诉我们它解决什么问题、适合谁，或直接编辑对应 Markdown 并附上理由；热度榜 [TOP200.md](./TOP200.md) 由脚本生成，如需把某仓库排除出榜单，请在 [data/curated.json](./data/curated.json) 登记 `leaderboard_exclusions` 并注明理由。
+- **上首页推荐：** 首页的精选推荐与最近加入独立维护，提 Issue 告诉我们它解决什么问题、适合谁，或直接编辑对应 Markdown 并附上理由；热度榜 [TOP200.md](./TOP200.md) 由脚本生成，如需把某仓库排除出榜单，请在 [data/curated.json](./data/curated.json) 登记 `leaderboard_exclusions` 并注明理由。
 
 详见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
@@ -401,8 +414,8 @@ mindmap
 
 **作者维护**
 
-- **[dsh-desktop-pro](https://github.com/bruc3van/dsh-desktop-pro)** — DSH Desktop Pro：DeepSeek Harness 的专业版桌面客户端，主打企业级配置。个人装好就能用：窗口加载原汁原味的官方 Web UI，关窗任务照跑、常驻托盘随点随开，安装包自带官方运行时双击即用，首次启动自动订阅精选插件列表；企业场景由配套的开源管理服务端完成：IT 统一配置模型网关、插件订阅、Skill 和工具权限，员工公司账号登录即得，带用量额度与防篡改审计。支持 macOS、Windows、Linux。（其预置插件订阅的列表数据即来自本仓库的 [`market-v2.json`](./data/market-v2.json)。）
-- **[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** — DSH 插件市场专业版：精选真插件，集浏览、安装、更新及安装后 AI 安全审查于一体；通过 npm 数据包的 `market-catalog.json` 读取完整已审核目录与订阅精选。DSH Desktop Pro 0.5.x 曾内置旧市场，0.6.0 起按需自行安装。
+- **[dsh-desktop-pro](https://github.com/bruc3van/dsh-desktop-pro)** — DSH Desktop Pro：DeepSeek Harness 的专业版桌面客户端，主打企业级配置。个人装好就能用：窗口加载原汁原味的官方 Web UI，关窗任务照跑、常驻托盘随点随开，安装包自带官方运行时双击即用，首次启动自动订阅精选插件列表；企业场景由配套的开源管理服务端完成：IT 统一配置模型网关、插件订阅、Skill 和工具权限，员工公司账号登录即得，带用量额度与防篡改审计。支持 macOS、Windows、Linux。
+- **[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** — DSH 插件市场专业版：精选真插件，集浏览、安装、更新及安装后 AI 安全审查于一体；通过 npm 数据包的 `market-catalog.json` 读取完整已审核目录与订阅精选。
 - **[bruce-md2word](https://github.com/bruc3van/bruce-md2word)** — 面向 AI Agent 的 Markdown 转 Word 工具：中文排版、Mermaid 图表转图片、可编辑数学公式，同一份内容提供 Skill、独立 CLI 与 DSH 插件三种形态。（同见目录 [agents-workflows 分册](./catalog/agents-workflows.md)。）
 
 **官方仓库**
@@ -415,4 +428,4 @@ mindmap
 
 ## DSH「发现」页社区索引
 
-本仓库同时维护符合 DSH format-1 的社区索引及生成与排除报告，供个人站点的固定 HTTPS 路由分发。接入地址、生成和更新规则见 [官方索引说明](scripts/host-market/README.md)。现有 market-v2 与 npm feed 保持独立。
+本仓库同时维护符合 DSH format-1 的社区索引及生成与排除报告，供固定 HTTPS 路由分发。接入地址、生成和更新规则见 [官方索引说明](scripts/host-market/README.md)。

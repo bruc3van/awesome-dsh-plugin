@@ -754,8 +754,8 @@ export async function updateReadmePages(state) {
     }
   }
   const fmt = (value) => value.toLocaleString('en-US');
-  const statsZh = `截至 ${state.date}，全量目录收录 **${repositories.length}** 个仓库、**${totals.languages}** 种主要语言；其中 **${totals.licenses}** 个声明了许可证，**${totals.active}** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。`;
-  const statsEn = `As of ${state.date}, the catalog lists **${fmt(repositories.length)}** repositories across **${totals.languages}** primary languages; **${fmt(totals.licenses)}** declare a license and **${fmt(totals.active)}** are neither archived nor disabled (the catalog updates after each human review merge — see [CATALOG.md](./CATALOG.md) for current numbers).`;
+  const statsZh = `截至 ${state.date}，全量目录收录 **${repositories.length}** 个仓库、**${totals.languages}** 种主要语言；其中 **${totals.licenses}** 个声明了许可证，**${totals.active}** 个未归档且未禁用（目录随审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。`;
+  const statsEn = `As of ${state.date}, the catalog lists **${fmt(repositories.length)}** repositories across **${totals.languages}** primary languages; **${fmt(totals.licenses)}** declare a license and **${fmt(totals.active)}** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).`;
   const showcase = await loadShowcase(warnings);
 
   const pages = [
