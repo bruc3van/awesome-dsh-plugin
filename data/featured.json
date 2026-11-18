@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14",
+  "updated_at": "2026-11-18",
   "title_zh": "编辑精选",
   "title_en": "Editor's Picks",
   "entries": [
@@ -203,7 +203,207 @@
     {
       "full_name": "SeaOf0/dsh-redteam-model",
       "description": "用于授权安全研究的 DeepSeek Harness 红队工作台，整合渗透测试、红队评估和代码审计工作模式。"
+    },
+    {
+      "full_name": "Fei2411/DS-Bot",
+      "description": "创建长期运行的 DSH Bot 团队，支持主 Bot、Bot 之间互发消息以及群聊。"
+    },
+    {
+      "full_name": "sixtysevenlf/dsh-blender-plugin",
+      "description": "在 DSH 中操作 Blender，支持视口观察、Python 脚本、无头作业、装配和导出。"
+    },
+    {
+      "full_name": "Miaotofu01/Study-Mate",
+      "description": "提供学习技能和课程引擎，适配 DeepSeek Harness、Google Antigravity、Codex 和 ChatGPT Work。"
+    },
+    {
+      "full_name": "Alice-Marx/dsh-model-router",
+      "description": "在 DSH 中集中配置模型路由。"
+    },
+    {
+      "full_name": "6shenhonghong9/dsh-startup-screen",
+      "description": "为 DSH 桌面端和 Web 端添加带配音与音效的全屏启动动画。"
+    },
+    {
+      "full_name": "Yu-tao-Li/dsh-computer-use-win",
+      "description": "通过 MCP 和 Windows UI 自动化连接桌面应用，支持窗口操作、输入、截图和 OCR。"
+    },
+    {
+      "full_name": "fourzkw/dsh-drawai",
+      "description": "DSH 右侧栏的可编辑画布 + AI 语义绘图工具（diagram_apply / diagram_read），直接读写原生 .drawio 文件"
+    },
+    {
+      "full_name": "FuRongJun-1999/dsh-memory",
+      "description": "灵枢（Lingshu·líng shū）DeepSeek Harness 插件：完整大脑——长期记忆/知识飞轮/自我认知/递归反思接入 DSH，对话自动沉淀进 md_cg 认知图（md 文档）"
+    },
+    {
+      "full_name": "SAOS-3624/dsh-see-now",
+      "description": "让 AI 实时看见屏幕或摄像头，只保留画面变化够大的帧，压成一张图，静止画面几乎不花钱。"
+    },
+    {
+      "full_name": "yyh-001/dsh-meme",
+      "description": "输入框一键斗图：多图库开关、情绪与关键词搜图、AI 学图；图库能从市场一键安装，也能导入/导出 ZIP 分享。"
+    },
+    {
+      "full_name": "MichengAI/dsh-skills-manager",
+      "description": "在 DSH 中统一加载和管理本机 Agent Skills。"
+    },
+    {
+      "full_name": "ZSeven-W/dsh-game-studio",
+      "description": "说一句话做出能玩的小游戏，在右栏试玩，再换上你自己生成的美术。"
+    },
+    {
+      "full_name": "1692775560/dsh-Mimir-Academic-research",
+      "description": "提供文献检索、研究 Wiki、LaTeX 编译与独立子 Agent 审阅工具。"
+    },
+    {
+      "full_name": "SAOS-3624/dsh-video-storyboard",
+      "description": "把一段视频变成可引用的分镜图：每个镜头一帧，按切点密度排进尽量少的图，再配一份带时间码的台词清单。"
+    },
+    {
+      "full_name": "EthanYoQ/Invoice-Downloader",
+      "description": "通过 IMAP 下载发票附件，在本地识别并导出 Excel 汇总。"
+    },
+    {
+      "full_name": "Fisfzy/dsh-ego-browser",
+      "description": "将 ego-browser 的浏览器自动化工具接入 DSH，Web 界面支持实时查看画面和接管交互。"
+    },
+    {
+      "full_name": "Yuuyuko-uu/dsh-fish-memory",
+      "description": "给 DSH 里的会话一份会淡忘的长期记忆，每条都带时间。"
+    },
+    {
+      "full_name": "WSL043/dsh-codex-subscription",
+      "description": "在 DSH 中使用 ChatGPT / Codex 订阅：模型、额度、搜索与生图，无需 API Key。支持语音对话和手机远程控制（Beta）。"
+    },
+    {
+      "full_name": "lijiaqi-AI-Product-Manager/dsh-agent-compare",
+      "description": "在 DSH 中并排比较两到四个回答、文件或网页，支持盲选、公开对比和审查采用。"
+    },
+    {
+      "full_name": "d-dev0101/open-sea-skin",
+      "description": "为 DeepSeek Harness 桌面端和 Web 端提供实时海洋主题。"
+    },
+    {
+      "full_name": "Phant0Meow/dsh-meow-memory",
+      "description": "将项目记忆存入本机 SQLite，支持跨会话检索、首轮注入和空闲时整理。"
+    },
+    {
+      "full_name": "MichengAI/dsh-archive-manager",
+      "description": "归档、恢复、收藏和永久删除会话，并诊断损坏的会话日志。"
+    },
+    {
+      "full_name": "xiajiajun516/dsh-config-manager",
+      "description": "DSH 配置的备份、恢复、导出、导入、迁移与同步：设置、插件、MCP 服务器、技能、Agent 预设与工作区，一键搬到新机器。"
+    },
+    {
+      "full_name": "lxj5820/dsh-boot-animation",
+      "description": "DSH 启动动画与屏保：全屏短片片尾交叉溶解进界面；闲置后全屏盖住界面，点击或按键收回。支持视频/图片/动图/Live2D，设置全在界面里。不改 DSH 本体源码。"
+    },
+    {
+      "full_name": "Duskriver/dsh-opencode-go",
+      "description": "将 OpenCode Go 模型接入 DSH，并提供设置界面。"
+    },
+    {
+      "full_name": "YUsaltyfish/dsh-onebot-qq",
+      "description": "通用 QQ 机器人插件：微内核 + 可插拔子插件，经 OneBot v11 协议端运行在 DeepSeek Harness 进程内，支持 Linux 与 Windows。"
+    },
+    {
+      "full_name": "toolclub/dsh-agent-team-gui",
+      "description": "提供持久化的多模型团队、DAG 工作流、运行历史与提供方报告的 token 用量。"
+    },
+    {
+      "full_name": "Fishquito7/dsh-skill-mcp-panel",
+      "description": "在 DSH Web 侧栏和 dsh-panel 命令行中管理技能与 MCP 服务器。"
+    },
+    {
+      "full_name": "InariNGT-Ofiicial/dsh-bili-humanism",
+      "description": "用多彩的人类世界训练 DSH 人格：证据信笺、专用人格札记与人类授权的账号写入"
+    },
+    {
+      "full_name": "zaofan-make/dsh-qqbot",
+      "description": "为 DeepSeek Harness 接入 QQ 机器人消息渠道。"
+    },
+    {
+      "full_name": "wenbin-wb/dsh-bridge",
+      "description": "手机扫码即可在移动端/公网继续用 DeepSeek Harness，人不在电脑前也能接着干。一键局域网二维码、Cloudflare 公网隧道、自建隧道与微信 / QQ / 飞书 / Telegram Bot（多工作区/会话持久化/媒体/卡片审批/流式输出），无需自己搭公网服务器。"
+    },
+    {
+      "full_name": "dingminhua/dsh-connect-trae",
+      "description": "把本机登录的 Trae 模型接入 DeepSeek Harness：国内版与国际版双供应商并行，提供用量/积分概览与每日签到领取。"
+    },
+    {
+      "full_name": "PerryLink/dsh-auto-review",
+      "description": "用只读子代理或本地决策模型审阅审批请求；失败时拒绝放行，并记录会话日志。"
+    },
+    {
+      "full_name": "JialaoLiu/dsh-baton",
+      "description": "将 Claude Code 或 Codex 中的编码任务交给 DSH 执行，接回文件改动和测试结果。"
+    },
+    {
+      "full_name": "slow-stack/mneme",
+      "description": "跨会话记忆：自动把会话沉淀进本机 SQLite，需要时按需注入，空闲时巩固（做梦）。"
+    },
+    {
+      "full_name": "a86582751/dsh-nexttavern",
+      "description": "面向长篇角色扮演的 DSH 插件，提供角色卡、世界线、长期记忆和混合检索，兼容 SillyTavern。"
+    },
+    {
+      "full_name": "ZSeven-W/dsh-crew",
+      "description": "从 Claude Code 或 Codex 向 DSH 原生子代理分派任务并查看实时进度。"
+    },
+    {
+      "full_name": "dickpy/dsh-imagegen",
+      "description": "在 DSH Web 界面生成和编辑图片，支持多模型渠道、节点画布和商品图模板。"
+    },
+    {
+      "full_name": "EricWang1358/dsh-web-studyhub",
+      "description": "把课程资料变成带出处的闪卡、测验和间隔复习。"
+    },
+    {
+      "full_name": "Yuuyuko-uu/dsh-qq-link",
+      "description": "通到 QQ：DSH 里的 AI 伙伴和 QQ 双向互通 —— 它说完话自动发到 QQ，你在 QQ 里说的话自动转进 DSH。走 OneBot 11 HTTP（SnowLuma / NapCat 都行）。"
+    },
+    {
+      "full_name": "sjh9714/dsh-win32",
+      "description": "诊断和修复原生 Windows 上的 DSH 配置，涵盖 PowerShell、工作区写入、快捷方式和旧预设。"
+    },
+    {
+      "full_name": "FeatherHunter/dsh-prompt",
+      "description": "管理预制和自定义提示词模板，并从 DSH 输入栏或浮窗一键插入当前对话。"
+    },
+    {
+      "full_name": "a1exsun/dsh-council",
+      "description": "在 DSH 中组织多个模型协作讨论同一问题。"
+    },
+    {
+      "full_name": "iJetLi/dsh-providers-hub",
+      "description": "登录并管理多家渠道账号，支持多账号池、凭据静默续期、模型列表开关、积分余额与每日签到。"
+    },
+    {
+      "full_name": "xuzhougeng/ScientificFigureLibrary",
+      "description": "在本地管理科学绘图示例和代码，提供 macOS、Web、MCP 和技能入口。"
+    },
+    {
+      "full_name": "PerryLink/dsh-permission-rules",
+      "description": "为 DSH 工具和网络请求配置允许、拒绝与询问规则，支持按命令、工作区路径和网络目标匹配。"
+    },
+    {
+      "full_name": "Tabbit-Browser/dsh-tabbit",
+      "description": "将 Tabbit 浏览器工具接入 DSH，支持网页读取、输入框引用和页面访问权限。"
+    },
+    {
+      "full_name": "Contexera/dsh-agent-team",
+      "description": "把任务交给 DSH 多代理团队全程执行，主会话可跟进进度。"
+    },
+    {
+      "full_name": "tonyzdev/dsh-session-messaging",
+      "description": "查找、创建 DSH 会话并在会话之间传递消息，可唤醒空闲或已保存的会话。"
+    },
+    {
+      "full_name": "SteelUnion/dsh-confirm-gate",
+      "description": "统计每轮执行的持久化操作，达到阈值时暂停并请求用户确认。"
     }
   ],
-  "expected_repository_count": 50
+  "expected_repository_count": 100
 }
