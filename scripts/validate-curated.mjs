@@ -297,11 +297,42 @@ if (fromSnapshot) {
     }
   }
 } else {
-  // Live mode: transient API failures (rate limit / 504) are retried with
-  // backoff inside fetchWithRetry (scripts/github.mjs, shared with update.mjs),
-  // and degrade to warnings only when GitHub itself stays unavailable — a
-  // repository that is really gone still hard-fails with 404.
-  await Promise.all([...referenced.keys()].map(async (fullName) => {
+  // Live mode. The 2026-11-18 category recalibration pushed category_overrides
+  // past 5,000 entries — far beyond what one unbounded API burst can vouch for
+  // (and secondary rate limits would turn most of the calls into 403 warnings).
+  // So references the stored snapshot can vouch for are checked locally first
+  // (existence, the dsh-plugin topic, archived/disabled); only references the
+  // snapshot does not hold go to the live API, which is exactly what a freshly
+  // added repository needs. A rename that landed after the last crawl is the
+  // one case the snapshot cannot catch — scripts/rename-sync.mjs moves every
+  // curated.json key on the next crawl, so the exposure is one day.
+  let snapshotNames = null;
+  try {
+    const snapshot = JSON.parse(await readFile(resolve(root, 'data/repositories.json'), 'utf8'));
+    snapshotNames = new Map(snapshot.repositories.map((repo) => [repo.full_name.toLowerCase(), repo]));
+  } catch (error) {
+    warnings.push(`data/repositories.json unreadable (${error.message}) — every reference checked against the live API instead`);
+  }
+  const snapshotVouched = [];
+  const apiChecked = [];
+  for (const fullName of referenced.keys()) {
+    (snapshotNames?.has(fullName.toLowerCase()) ? snapshotVouched : apiChecked).push(fullName);
+  }
+  for (const fullName of snapshotVouched) {
+    const repo = snapshotNames.get(fullName.toLowerCase());
+    const label = referenced.get(fullName);
+    if (!(repo.topics || []).includes('dsh-plugin')) {
+      errors.push(`${fullName}: missing the "dsh-plugin" topic in the stored snapshot (${label})`);
+    }
+    if (repo.archived || repo.disabled) {
+      warnings.push(`${fullName}: archived or disabled in the stored snapshot (${label})`);
+    }
+  }
+  // Transient API failures (rate limit / 504) are retried with backoff inside
+  // fetchWithRetry (scripts/github.mjs, shared with update.mjs), and degrade to
+  // warnings only when GitHub itself stays unavailable — a repository that is
+  // really gone still hard-fails with 404.
+  await Promise.all(apiChecked.map(async (fullName) => {
     const label = referenced.get(fullName);
     let response;
     try {

@@ -403,10 +403,15 @@ const VOLUME_SPLITS = {
     { key: 'web-browser', upTo: 'm', label: 'A–M' },
     { key: 'web-browser-n-z', upTo: 'z', label: 'N–Z' },
   ],
-  // Owner-letter byte share as of 2026-10-15: A–L 52% / M–Z 48%.
+  // Re-split as of 2026-11-19 (the recalibration made ui-experience the
+  // largest category — 9,115 entries / ~2.6 MB; both former A–L and M–Z
+  // volumes crossed the 850 KB mark, A–L past GitHub's 1 MB render cliff).
+  // Owner-letter byte share: A–F 27.7% / G–L 24.0% / M–S 24.3% / T–Z 24.0%.
   'ui-experience': [
-    { key: 'ui-experience', upTo: 'l', label: 'A–L' },
-    { key: 'ui-experience-m-z', upTo: 'z', label: 'M–Z' },
+    { key: 'ui-experience', upTo: 'f', label: 'A–F' },
+    { key: 'ui-experience-g-l', upTo: 'l', label: 'G–L' },
+    { key: 'ui-experience-m-s', upTo: 's', label: 'M–S' },
+    { key: 'ui-experience-t-z', upTo: 'z', label: 'T–Z' },
   ],
 };
 

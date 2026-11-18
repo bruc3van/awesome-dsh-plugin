@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:30:33.822Z",
+  "generated_at": "2026-11-18T23:59:28.521Z",
   "snapshot_date": "2026-11-18",
   "pending": [
     {
@@ -4640,29 +4640,6 @@
     },
     {
       "first_seen": "2026-11-18",
-      "full_name": "museav-ai/dsh-museav-assets",
-      "html_url": "https://github.com/museav-ai/dsh-museav-assets",
-      "description": "DeepSeek Harness 素材浏览插件：按工作区查看 MUSE AV 素材与出图记录，复制素材直链。DSH asset browser for MUSE AV workspaces, image libraries and generation history.",
-      "language": "JavaScript",
-      "stargazers_count": 1,
-      "forks_count": 0,
-      "license": "MIT",
-      "created_at": "2026-10-02T05:58:22Z",
-      "pushed_at": "2026-11-10T10:25:46Z",
-      "topics": [
-        "ai-tools",
-        "asset-browser",
-        "cli-integration",
-        "deepseek-harness",
-        "dsh-plugin",
-        "image-assets",
-        "media-library",
-        "museav",
-        "workspaces"
-      ]
-    },
-    {
-      "first_seen": "2026-11-18",
       "full_name": "mustarddaddy/dsh-serial-proto",
       "html_url": "https://github.com/mustarddaddy/dsh-serial-proto",
       "description": "DSH 右侧栏的串口调试面板：按 JSON 协议模型把串口字节流切成帧、校验并解码，也能按模型组帧发送。fork 自 dsh-serial-debugger。",
@@ -6743,7 +6720,6 @@
     "01men/ybkkasi",
     "108943962/dsh-plugin-rpa-center",
     "13711018663/DeepSeek-Harness-BT-",
-    "best0127/dsh-session-workbench",
     "CQin04/dsh-playwright-mcp",
     "CQin04/dsh-usage-timer",
     "daerwen122/dsh-cpp-compiler",
@@ -6758,12 +6734,9 @@
     "OldQin-Aurora/PortWrench",
     "oykb58246/dsh-desktop",
     "pengtang1024/dsh-clipboard-png",
-    "RitchieLeung/dsh-plugin-bot-issue",
     "RitchieLeung/dsh-plugin-bot-knowledge",
-    "royenheart/dsh-plugin-perf",
     "shawnyuxuan/dsh-subagent-guide",
     "songzhou666/gov-hub",
-    "webkubor/dsh-museav-assets",
     "weichi-ai/dshd",
     "WSL043/dsh-chat-manager",
     "zeki520/dsh-boot-nexus",
@@ -6771,264 +6744,35 @@
     "Zhang-Eli/dsh-matrix-todo",
     "Zhang-Eli/dsh-one-pack"
   ],
-  "star_anomalies": {
-    "snapshot_date": "2026-11-18",
-    "previous_snapshot_date": "2026-11-17",
-    "alerts": [
-      {
-        "full_name": "onehumanbeing/esp32-iphone-agent",
-        "html_url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-        "description": "Manina AI: let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
-        "queue": "pending",
-        "stars": 5067,
-        "previous_stars": null,
-        "delta": null,
-        "forks": 694,
-        "created_at": "2026-10-11T19:10:25Z",
-        "age_days": 37,
-        "star_fork_ratio": 7.3,
-        "rank": null,
-        "previous_rank": null,
-        "would_rank": 8,
-        "already_board_excluded": false,
-        "signals": [
-          "pending_high"
-        ],
-        "hints": [
-          "核准即 Top 8"
-        ],
-        "reviewer_note": "Pending: 5067 stars. approving would place it around Top 8. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
-      },
-      {
-        "full_name": "Ebony-Vinyl/dsh-our-free-model",
-        "html_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-        "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-        "queue": "approved",
-        "stars": 79758,
-        "previous_stars": 78501,
-        "delta": 1257,
-        "forks": 2247,
-        "created_at": "2026-09-24T16:17:19Z",
-        "age_days": 54,
-        "star_fork_ratio": 35.5,
-        "rank": null,
-        "previous_rank": null,
-        "would_rank": null,
-        "already_board_excluded": true,
-        "signals": [
-          "star_surge"
-        ],
-        "hints": [
-          "日增 +1257★",
-          "已不进榜单"
-        ],
-        "reviewer_note": "Approved: 79758 stars. +1257 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
-      },
-      {
-        "full_name": "nexu-io/openmotion",
-        "html_url": "https://github.com/nexu-io/openmotion",
-        "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.",
-        "queue": "approved",
-        "stars": 11775,
-        "previous_stars": 10876,
-        "delta": 899,
-        "forks": 1176,
-        "created_at": "2026-05-11T09:40:38Z",
-        "age_days": 190,
-        "star_fork_ratio": 10,
-        "rank": null,
-        "previous_rank": null,
-        "would_rank": null,
-        "already_board_excluded": true,
-        "signals": [
-          "star_surge"
-        ],
-        "hints": [
-          "日增 +899★",
-          "已不进榜单"
-        ],
-        "reviewer_note": "Approved: 11775 stars. +899 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
-      },
-      {
-        "full_name": "dataelement/dsh-desktop",
-        "html_url": "https://github.com/dataelement/dsh-desktop",
-        "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
-        "queue": "approved",
-        "stars": 19813,
-        "previous_stars": 19589,
-        "delta": 224,
-        "forks": 676,
-        "created_at": "2026-08-13T13:45:50Z",
-        "age_days": 96,
-        "star_fork_ratio": 29.3,
-        "rank": null,
-        "previous_rank": null,
-        "would_rank": null,
-        "already_board_excluded": true,
-        "signals": [
-          "star_surge"
-        ],
-        "hints": [
-          "日增 +224★",
-          "已不进榜单"
-        ],
-        "reviewer_note": "Approved: 19813 stars. +224 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
-      },
-      {
-        "full_name": "helloHub1212/dsh-windows-mcp",
-        "html_url": "https://github.com/helloHub1212/dsh-windows-mcp",
-        "description": "Windows desktop automation for DeepSeek Harness: the in-box MCP client bridge mounted against CursorTouch/Windows-MCP, with an off-by-default Computer Use switch and an in-app dependency installer.",
-        "queue": "approved",
-        "stars": 1727,
-        "previous_stars": 1588,
-        "delta": 139,
-        "forks": 8,
-        "created_at": "2026-10-11T02:20:53Z",
-        "age_days": 37,
-        "star_fork_ratio": 215.9,
-        "rank": null,
-        "previous_rank": null,
-        "would_rank": null,
-        "already_board_excluded": true,
-        "signals": [
-          "star_surge"
-        ],
-        "hints": [
-          "日增 +139★",
-          "★/fork 215.9",
-          "已不进榜单"
-        ],
-        "reviewer_note": "Approved: 1727 stars. +139 vs previous snapshot. star/fork 215.9. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
-      },
-      {
-        "full_name": "tw93/Mole",
-        "html_url": "https://github.com/tw93/Mole",
-        "description": "🐹 Open-source Mac and PC cleaner. Keep your machine clean, light, and running like new. Fast CLI, plus native Mac and Windows apps.",
-        "queue": "approved",
-        "stars": 75512,
-        "previous_stars": 75400,
-        "delta": 112,
-        "forks": 2721,
-        "created_at": "2025-09-23T06:38:40Z",
-        "age_days": 420,
-        "star_fork_ratio": 27.8,
-        "rank": null,
-        "previous_rank": null,
-        "would_rank": null,
-        "already_board_excluded": true,
-        "signals": [
-          "star_surge"
-        ],
-        "hints": [
-          "日增 +112★",
-          "已不进榜单"
-        ],
-        "reviewer_note": "Approved: 75512 stars. +112 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
-      },
-      {
-        "full_name": "Fei2411/DS-Bot",
-        "html_url": "https://github.com/Fei2411/DS-Bot",
-        "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
-        "queue": "approved",
-        "stars": 8340,
-        "previous_stars": 8231,
-        "delta": 109,
-        "forks": 827,
-        "created_at": "2026-10-07T15:37:36Z",
-        "age_days": 41,
-        "star_fork_ratio": 10.1,
-        "rank": 1,
-        "previous_rank": 1,
-        "would_rank": null,
-        "already_board_excluded": false,
-        "signals": [
-          "star_surge"
-        ],
-        "hints": [
-          "日增 +109★"
-        ],
-        "reviewer_note": "Approved: 8340 stars. +109 vs previous snapshot. board 1 → 1. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
-      },
-      {
-        "full_name": "dsh-market/dsh-market",
-        "html_url": "https://github.com/dsh-market/dsh-market",
-        "description": "The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场",
-        "queue": "approved",
-        "stars": 12869,
-        "previous_stars": 12763,
-        "delta": 106,
-        "forks": 490,
-        "created_at": "2026-08-14T04:58:15Z",
-        "age_days": 95,
-        "star_fork_ratio": 26.3,
-        "rank": null,
-        "previous_rank": null,
-        "would_rank": null,
-        "already_board_excluded": true,
-        "signals": [
-          "star_surge"
-        ],
-        "hints": [
-          "日增 +106★",
-          "已不进榜单"
-        ],
-        "reviewer_note": "Approved: 12869 stars. +106 vs previous snapshot. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
-      },
-      {
-        "full_name": "elysia395/dsh-wallpaper-engine",
-        "html_url": "https://github.com/elysia395/dsh-wallpaper-engine",
-        "description": "把本机 Wallpaper Engine 的壁纸搬进 DSH 网页界面：场景壁纸由内置 MIT 开源引擎 WebWallGL 实时 WebGL 渲染（粒子 / puppet 骨骼 / SceneScript / 音频反应 / 鼠标交互），失败自动降级内嵌 MP4 与场景静态帧；Web 壁纸严格沙箱 + WE API；iOS 风格液态玻璃 UI 高度自定义，遮挡暂停省电、ffmpeg 帧率上限转码、系统音频频谱与 Now Playing、自定义上传与自动轮播；设置存宿主端，对 agent 零 token 开销。Windows / macOS / Linux 三平台原生（同一个包、同一条命令）。",
-        "queue": "approved",
-        "stars": 7445,
-        "previous_stars": 7342,
-        "delta": 103,
-        "forks": 121,
-        "created_at": "2026-08-16T16:04:08Z",
-        "age_days": 93,
-        "star_fork_ratio": 61.5,
-        "rank": 3,
-        "previous_rank": 3,
-        "would_rank": null,
-        "already_board_excluded": false,
-        "signals": [
-          "star_surge"
-        ],
-        "hints": [
-          "日增 +103★"
-        ],
-        "reviewer_note": "Approved: 7445 stars. +103 vs previous snapshot. board 3 → 3. Do extra analysis before putting this on the star board (leaderboard_exclusions if the stars are not from the DSH plugin itself)."
-      }
-    ]
-  },
   "rename_reviews": [
     {
-      "from": "13711018663/DeepSeek-Harness-BT-",
-      "to": "QIU-KKKK/DeepSeek-Harness-BT",
+      "from": "2228293026/dsh-model-usage",
+      "to": "HitMargin/dsh-model-usage",
       "reason": "owner changed — transfer needs review"
     },
     {
-      "from": "Zhang-Eli/dsh-github-trending-masonry",
-      "to": "wzvx/dsh-github-trending-masonry",
+      "from": "FlashPoint007/dsh-wecom-soul-bot",
+      "to": "clickyotter/dsh-wecom-soul-bot",
       "reason": "owner changed — transfer needs review"
     },
     {
-      "from": "Zhang-Eli/dsh-matrix-todo",
-      "to": "wzvx/dsh-matrix-todo",
+      "from": "Jidaron/dsh-browser-bridge",
+      "to": "C4Hy0/dsh-browser-bridge",
       "reason": "owner changed — transfer needs review"
     },
     {
-      "from": "Zhang-Eli/dsh-one-pack",
-      "to": "wzvx/dsh-one-pack",
+      "from": "Saikel-Orado-Liu/dsh-archive-manager",
+      "to": "GameGeek-Saikel/dsh-archive-manager",
       "reason": "owner changed — transfer needs review"
     },
     {
-      "from": "webkubor/dsh-museav-assets",
-      "to": "museav-ai/dsh-museav-assets",
+      "from": "Saikel-Orado-Liu/dsh-coding-preset",
+      "to": "GameGeek-Saikel/dsh-coding-preset",
       "reason": "owner changed — transfer needs review"
     },
     {
-      "from": "weichi-ai/dshd",
-      "to": "chuchenai/dshd",
+      "from": "Saikel-Orado-Liu/dsh-cost-meter",
+      "to": "GameGeek-Saikel/dsh-cost-meter",
       "reason": "owner changed — transfer needs review"
     },
     {
@@ -7165,11 +6909,6 @@
       "from": "zendev-lab/spark",
       "to": "zendev-lab/ulota",
       "reason": "target slug already exists with different data — needs review"
-    },
-    {
-      "from": "wsqwsq735/dsh-run-progress",
-      "to": "wsqwsq735/dsh-run-progress",
-      "reason": "identity change: repository id 1458672932 → 1462604134 under the same slug — approval needs review"
     }
   ]
 }

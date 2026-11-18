@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-19",
+  "type": "category-recalibration",
+  "summary": "Removed the harness trigger word from agents-workflows, semantically re-reviewed all 9,980 displaced entries in 15 parallel batches, mined v2.1 keywords from the decisions, and landed 5,729 category_overrides in data/curated.json.",
+  "root_cause": "The agents-workflows pattern matched 'harness', boilerplate in nearly every DSH plugin description; 7,427 of 9,982 entries (74.4%) matched on it alone.",
+  "reviewed_entries": 9980,
+  "batches": 15,
+  "review_rubric": "Temp/category-recalibration/RUBRIC.md (10 categories, boilerplate words carry no category signal, core function decides)",
+  "decisions_file": "data/review/2026-11-19-category-recalibration-decisions.json",
+  "keyword_mining": {
+    "script": "Temp/category-recalibration/mine-keywords.mjs",
+    "thresholds": "precision >= 0.93, capture >= 15, corpus collateral <= 20, manual sample verification",
+    "promoted": {
+      "ui-experience": ["usage", "token", "composer", "cost", "balance", "quota", "billing", "meter", "pricing", "price", "spend", "dashboard", "widget", "badge", "picker", "selector", "splash", "slider", "dock", "输入框", "用量", "余额", "费用", "花费", "计费", "额度", "峰谷", "时段", "悬浮", "按钮", "状态栏"],
+      "ecosystem-resources": ["插件管理", "技能管理", "plugin-manager", "skills-manager"],
+      "media-vision": ["tts", "asr", "speech"],
+      "integrations-sharing": ["lark", "feishu", "飞书", "微信", "wechat"],
+      "developer-tools": ["proxy", "failover", "auth", "oauth", "secrets"],
+      "agents-workflows": ["compaction", "compression"]
+    },
+    "rejected_notables": ["harness", "实时", "plan", "screen", "window", "bar", "auth (unanchored)", "statistics", "消息", "聊天", "思考", "推理", "动画", "显示", "账户", "monitor", "animation", "skill (bare)", "install (bare)", "update (bare)"],
+    "corpus_regression": "non-suspect repo movement reduced from 4,195 (first draft) to 1,995; residual flow sampled ~80-85% semantically correct"
+  },
+  "overrides": {
+    "added": 5729,
+    "total_after": 5807,
+    "backup": "Temp/category-recalibration/curated.backup.json",
+    "conflicts_resolved_per_review": [
+      "lcestou/dsh-oh-my-claude: agents-workflows -> developer-tools (Claude Code CLI as model provider — provider/gateway management)",
+      "chumingjun/dsh-harness-one: agents-workflows -> multi-agents (multi-agent DAG orchestrator, topic multi-agent)"
+    ]
+  },
+  "distribution_before": {
+    "agents-workflows": 9982,
+    "ui-experience": 5978,
+    "web-browser": 3363,
+    "utilities": 1623,
+    "media-vision": 1365,
+    "developer-tools": 1261,
+    "knowledge-research": 1249,
+    "integrations-sharing": 1208,
+    "ecosystem-resources": 620,
+    "multi-agents": 571
+  },
+  "distribution_after": {
+    "ui-experience": 9115,
+    "utilities": 3459,
+    "developer-tools": 2882,
+    "web-browser": 2799,
+    "agents-workflows": 2222,
+    "media-vision": 1726,
+    "integrations-sharing": 1558,
+    "knowledge-research": 1467,
+    "ecosystem-resources": 1329,
+    "multi-agents": 663
+  },
+  "companion_changes": [
+    "scripts/validate-curated.mjs: live mode now checks snapshot-vouched references locally and only queries the GitHub API for references the snapshot does not hold (5,807 overrides would burst secondary rate limits otherwise)",
+    "scripts/render.mjs VOLUME_SPLITS: ui-experience re-split A-F / G-L / M-S / T-Z (9,115 entries / ~2.6 MB; the old M-Z and A-L volumes crossed the 850 KB warn line, A-L crossed GitHub's 1 MB render cliff)"
+  ],
+  "verification": [
+    "validate-curated.mjs --from-snapshot: 0 errors",
+    "merge.mjs: 28,724 repositories across 17 volumes, no size warnings; merge.mjs --check passed",
+    "validate-packages.mjs and validate-market-catalog.mjs passed (27,514 market entries)",
+    "publish-npm-feed.mjs dry run: awesome-dsh-plugin-feed@0.20261118.9 carries calibrated categories (spot checks: dsh-api-monitor -> developer-tools, hn-cli / zhihu-search -> web-browser)",
+    "data/dsh-market-index.json needs no rebuild: plugin entries carry no per-plugin category and metadata.categories covers all 10 keys"
+  ]
+}

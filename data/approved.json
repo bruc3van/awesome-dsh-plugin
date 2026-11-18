@@ -11791,7 +11791,6 @@
   "bernardleex526/oh_my_deepseek_harness": "2026-08-15",
   "berserk0501/dsh-soundscape": "2026-08-27",
   "bescriptkiddie/dsh-wechat-collector": "2026-08-26",
-  "best0127/dsh-session-workbench": "2026-11-13",
   "bestGi/dsh-rf-toolkit": "2026-10-19",
   "bestlike093/dsh-cyrene-balance": "2026-10-26",
   "betsunninda9-lgtm/dsh-model-groups": "2026-11-10",
@@ -21286,7 +21285,6 @@
   "rouyiemei/dsh-smart-router": "2026-08-17",
   "royenheart/dsh-plugin-mcp-support": "2026-08-17",
   "royenheart/dsh-plugin-opencode-omo": "2026-08-17",
-  "royenheart/dsh-plugin-perf": "2026-08-17",
   "royenheart/dsh-plugin-skills-manager": "2026-08-21",
   "royenheart/dsh-plugin-structured-output": "2026-08-17",
   "royrao2007/dsh-montagex": "2026-11-13",
@@ -25004,7 +25002,6 @@
   "webkubor/dsh-bloom-theme": "2026-08-18",
   "webkubor/dsh-env-inspector": "2026-09-23",
   "webkubor/dsh-llm-hub": "2026-09-14",
-  "webkubor/dsh-museav-assets": "2026-10-21",
   "webmanufaktur/dsh-opencode-usage-plugin": "2026-11-07",
   "webstorm-dxy/GorgePluginForDSH": "2026-11-05",
   "wecode-ai/Wegent": "2026-08-31",
@@ -28498,7 +28495,6 @@
   "QianChang927/dsh-quotaline": "2026-11-18",
   "Richology/dsh-starharbor": "2026-11-18",
   "Ritanlisa/dsh-opencode-go-pool": "2026-11-18",
-  "RitchieLeung/dsh-plugin-bot-issue": "2026-11-18",
   "RitchieLeung/dsh-plugin-bot-knowledge": "2026-11-18",
   "RitchieLeung/dsh-plugin-bot-restart": "2026-11-18",
   "Roxy-DD/fatfish-heart": "2026-11-18",
@@ -28728,5 +28724,6 @@
   "TBAOT/dsh-persona-kit": "2026-11-07",
   "ZenithJoyH/dsh-session-actions": "2026-11-07",
   "imnotRiv3r/dsh-transfer-dock": "2026-11-13",
-  "yeweiliang7063/dsh-tcm-xueli": "2026-11-15"
+  "yeweiliang7063/dsh-tcm-xueli": "2026-11-15",
+  "museav-ai/dsh-museav-assets": "2026-10-21"
 }

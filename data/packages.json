@@ -13022,20 +13022,6 @@
       "manual_instructions": "README 安装命令为「npx @deepseek-ai/dsh plugin --profile <你的 profile> add @dsh-plugins/dsh-llm-hub」——尖括号内是占位符，需替换为实际 profile 名（如 web）。",
       "install_mode": "manual"
     },
-    "webkubor/dsh-museav-assets": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:webkubor/dsh-museav-assets#9429b56d8ac60dea8690bd63c6663ce43dc5a635",
-          "install": "https://github.com/webkubor/dsh-museav-assets#9429b56d8ac60dea8690bd63c6663ce43dc5a635",
-          "command": "dsh plugin --profile web add \"github:webkubor/dsh-museav-assets#9429b56d8ac60dea8690bd63c6663ce43dc5a635\""
-        }
-      ],
-      "status": "repo-fallback",
-      "verified_date": "2026-10-22",
-      "verified_via": "manifest@9429b56d8ac6",
-      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
-    },
     "weibaohui/dsh-tasks": {
       "packages": [
         {
@@ -13441,19 +13427,6 @@
       "status": "readme-verified",
       "verified_date": "2026-09-26",
       "verified_via": "README@master"
-    },
-    "wsl043/dsh-chat-manager": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "dsh-chat-manager@2.0.1",
-          "source": "npm:dsh-chat-manager@2.0.1",
-          "command": "dsh plugin --profile web add dsh-chat-manager@2.0.1"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-17",
-      "verified_via": "README + npm registry 2026-10-17"
     },
     "wsl043/dsh-codex-subscription": {
       "packages": [
@@ -23129,19 +23102,6 @@
           "install": "https://github.com/xcisxc29/dsh-wechat",
           "source": "url:https://github.com/xcisxc29/dsh-wechat",
           "command": "dsh plugin --profile desktop add https://github.com/xcisxc29/dsh-wechat"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-17",
-      "verified_via": "README@main + npm registry"
-    },
-    "01men/ybkkasi": {
-      "packages": [
-        {
-          "profile": "web",
-          "install": "https://github.com/01men/ybkkasi",
-          "source": "github:01men/ybkkasi",
-          "command": "dsh plugin --profile web add github:01men/ybkkasi"
         }
       ],
       "status": "readme-verified",
@@ -41841,6 +41801,20 @@
       "verified_by": "review",
       "install_mode": "manual",
       "manual_instructions": "README「方式二：bundle 全局安装」：先 `git clone` 仓库并 cd 进去，再 `dsh plugin --profile web add ./gitbash-tool`（./gitbash-tool 是仓库内相对目录，必须先克隆）；方式一是直接复制 preset/minimal-windows 到 $DSH_HOME/.agent-presets/，不涉及插件安装。"
+    },
+    "museav-ai/dsh-museav-assets": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:museav-ai/dsh-museav-assets#9429b56d8ac60dea8690bd63c6663ce43dc5a635",
+          "install": "https://github.com/museav-ai/dsh-museav-assets#9429b56d8ac60dea8690bd63c6663ce43dc5a635",
+          "command": "dsh plugin --profile web add \"github:museav-ai/dsh-museav-assets#9429b56d8ac60dea8690bd63c6663ce43dc5a635\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-10-22",
+      "verified_via": "manifest@9429b56d8ac6",
+      "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     }
   }
 }
