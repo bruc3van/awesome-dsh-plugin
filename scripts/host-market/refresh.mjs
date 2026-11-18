@@ -49,7 +49,25 @@ try {
 } catch (error) {
   if (error.code !== 'ENOENT') throw error
 }
-assertPublishable({ index: next, indexBytes: candidateBytes.byteLength, featuredRepositoryCount: feed.featuredRepositories.length, expectedFeaturedRepositoryCount: values.market.featured?.expected_repository_count }, previous)
+try {
+  assertPublishable({ index: next, indexBytes: candidateBytes.byteLength, featuredRepositoryCount: feed.featuredRepositories.length, expectedFeaturedRepositoryCount: values.market.featured?.expected_repository_count }, previous)
+} catch (error) {
+  // The generic policy message hides which source lookups failed; surface them
+  // from the staging report so a transient registry/Git failure is debuggable
+  // without a local 20-minute regeneration.
+  try {
+    const staging = JSON.parse(await readFile(`${candidate}.report.json`, 'utf8'))
+    console.error('staging diagnostics by code:', JSON.stringify(staging.summary?.diagnosticsByCode ?? {}))
+    const failed = (staging.diagnostics ?? []).filter((entry) => /fetch_failed|not_found|cleanup_failed/.test(String(entry.code)))
+    console.error(`source lookups that failed: ${failed.length}`)
+    for (const entry of failed.slice(0, 25)) console.error(' -', entry.code, entry.name ?? '', entry.target ?? '', entry.reason ?? '')
+    const evidenceFailures = [...(staging.npmEvidence ?? []), ...(staging.gitEvidence ?? [])].filter((entry) => entry?.fetchFailed || entry?.status === 'failed' || entry?.ok === false)
+    for (const entry of evidenceFailures.slice(0, 10)) console.error(' - evidence:', JSON.stringify(entry).slice(0, 300))
+  } catch (reportError) {
+    console.error(`staging report unreadable: ${reportError instanceof Error ? reportError.message : String(reportError)}`)
+  }
+  throw error
+}
 await copyFile(candidate, target)
 await copyFile(
   `${candidate}.report.json`,
