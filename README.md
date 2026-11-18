@@ -16,15 +16,11 @@
 
 ### 方式一：安装 `dsh-market-pro` 插件市场（推荐）
 
-**[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)**（npm：[`dsh-market-pro`](https://www.npmjs.com/package/dsh-market-pro)）是配套的独立插件市场，直接消费完整已审核目录（`awesome-dsh-plugin-feed`），适合深度浏览、管理与审查：
+**[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)**（npm：[`dsh-market-pro`](https://www.npmjs.com/package/dsh-market-pro)）是基于本目录的第三方插件市场，在同一界面内完成插件发现（编辑精选 + 全量目录）、一键安装/AI 辅助核实安装、已安装启用/停用与检查更新、技能浏览，以及安装后 AI 安全审查。
 
-- **全量目录 + 精选推荐**：同时覆盖官方订阅精选与两万余个已审核仓库（标注一键安装命令或手动安装指引），支持分类、标签与关键词检索。
-- **安装、更新与多选管理**：调用宿主官方管理器安装与更新，支持多目标包选择。
-- **安装后 AI 安全审查**：可选对已安装版本发起只读 AI 代码审查（生成审查草稿，由你确认发送后才开始）。
-
-```bash
-dsh plugin --profile web add dsh-market-pro
-```
+1. 打开 DSH 左侧导航栏的 **插件** 页面。
+2. 在官方插件安装界面中输入 **`dsh-market-pro`** 进行安装并启用。
+3. 安装完成后，即可从左侧导航栏的 **插件市场Pro**、插件页顶部标签或会话右侧边栏打开市场。
 
 ### 方式二：订阅到 DSH 官方「发现」页
 
@@ -35,9 +31,6 @@ dsh plugin --profile web add dsh-market-pro
 1. **开启自定义市场**：左侧 **插件** → **实验性插件** 旁 **更多** → 打开 **自定义插件市场**。
 2. **添加订阅源**：切到 **发现** 标签 → 点击 **添加索引源**（或左上角下拉菜单 **管理索引源…**），粘贴上方链接并添加。
 3. **浏览安装**：在下拉菜单选择 **Bruce 的精选插件** 即可按分类与标签筛选安装。
-
-> 收录口径：仅含经核验的 npm 包与固定完整 commit 的 Git 插件（按 Star 降序收录至网关 5 MiB 体积预算内）。收录不代表安全或实机兼容背书。
-> [订阅指南](https://bruc3van.com/dsh-plugins/#subscribe) · [索引生成与排除报告](https://bruc3van.com/markets/dsh/audit.json) · [DSH Market Pro 仓库](https://github.com/bruc3van/dsh-market-pro)
 
 ## 🗺️ 生态全景
 
@@ -109,7 +102,7 @@ mindmap
 
 ### 🖥️ 桌面与终端
 
-- **想要独立的桌面客户端**，而不是浏览器标签页：优先使用[官方客户端](https://www.deepseek.com/harness/)。也可以考虑本列表作者开发的 [DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) —— DeepSeek Harness 的专业版桌面客户端，主打企业级配置：个人装好就能用，窗口加载原汁原味的官方 Web UI，关闭窗口任务照跑、常驻托盘随点随开；安装包自带官方运行时，双击即用，不用装 Node.js、也不用敲命令，首次启动自动订阅本清单的精选插件列表，在「发现」页浏览和按需安装。放进公司用也合适：IT 部署开源管理服务端（或只放一份配置文件），统一配置模型网关、插件订阅、Skill 和工具权限，员工用公司账号登录即得，带用量额度与防篡改审计。支持 macOS、Windows、Linux 三大平台，其中 Linux 是官方客户端之外独有的差异化特色；安全上逐层加固——窗口沙箱、导航锁定、更新链路校验、权限最小化。
+- **想要独立的桌面客户端**，而不是浏览器标签页：[DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) —— DeepSeek Harness 的专业版桌面客户端，主打企业级配置：个人装好就能用，窗口加载原汁原味的官方 Web UI，关闭窗口任务照跑、常驻托盘随点随开；安装包自带官方运行时，双击即用，不用装 Node.js、也不用敲命令，首次启动自动订阅本清单的精选插件列表，在「发现」页浏览和按需安装。放进公司用也合适：IT 部署开源管理服务端（或只放一份配置文件），统一配置模型网关、插件订阅、Skill 和工具权限，员工用公司账号登录即得，带用量额度与防篡改审计。支持 macOS、Windows、Linux 三大平台；安全上逐层加固——窗口沙箱、导航锁定、更新链路校验、权限最小化。
 - **想在终端里用 Claude Code 风格界面**：[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) —— 全屏交互终端：状态行、思考流展开、上下文/TPS 仪表；tianshu 版本还内置 TDD 与证据门工作流。
 - **想在 Windows 上少折腾终端**：[dsh-ops](https://github.com/T-Auto/dsh-ops) —— Windows 提效套装：可选自带 Bash 接管反复报错的内置终端，配原生 Rust 低 token 读取工具，提升 token 效率。
 - **想在安卓手机上本地跑 DSH**：[dsh-mobile-apk](https://github.com/kelai141/dsh-mobile-apk) —— 安卓壳 APK：WebView UI + 内嵌 Termux 运行时、SAF 目录桥、保活服务与看门狗。只想用手机遥控电脑上已在跑的 DSH，见下方 [dsh-pocket](https://github.com/shaobeichen/dsh-pocket)。

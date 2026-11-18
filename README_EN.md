@@ -16,15 +16,11 @@ Two ways to browse and install plugins from this catalog inside DSH (both instal
 
 ### Option 1: Install `dsh-market-pro` Marketplace (Recommended)
 
-**[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** (npm: [`dsh-market-pro`](https://www.npmjs.com/package/dsh-market-pro)) is the dedicated plugin marketplace backed by the full reviewed catalog (`awesome-dsh-plugin-feed`):
+**[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** (npm: [`dsh-market-pro`](https://www.npmjs.com/package/dsh-market-pro)) is a third-party plugin marketplace powered by this catalog — discover plugins (editor's picks + full catalog), install in one click or with AI-assisted verification, manage and update installed plugins, browse session skills, and run post-install AI security reviews in one place.
 
-- **Full catalog + curated picks:** covers both official subscription picks and 28,000+ reviewed repositories (with one-click install commands or manual guidance), searchable by category, tags, and keywords.
-- **Install, update & multi-target selection:** installs and updates via the official host manager with multi-package selection.
-- **Post-install AI security review:** optional read-only AI code review of installed plugins (drafted for your confirmation before sending).
-
-```bash
-dsh plugin --profile web add dsh-market-pro
-```
+1. Open the **Plugins** page from the left navigation bar in DSH.
+2. Enter **`dsh-market-pro`** in the official plugin installation interface to install and enable it.
+3. Once installed, open **DSH Market Pro** anytime from the left navigation bar, the Plugins page tab, or the right sidebar inside a conversation.
 
 ### Option 2: Subscribe in DSH Official Discover
 
@@ -35,9 +31,6 @@ No extra plugin required — add the curated index directly to DSH's built-in Di
 1. **Enable custom markets:** **Plugins** → **More** beside **Experimental plugins** → enable **Custom plugin markets**.
 2. **Add subscription:** open the **Discover** tab → **Add index source** (or top-left dropdown → **Manage index sources…**), paste the URL above, and click **Add**.
 3. **Browse & install:** select **Bruce's Plugin Picks** from the dropdown to filter and install.
-
-> Inclusion scope: verified npm packages and Git bundles pinned to full commits (ranked by stars within the gateway 5 MiB budget). Inclusion is not a security or runtime-compatibility guarantee.
-> [Subscription guide](https://bruc3van.com/dsh-plugins/#subscribe) · [Index audit report](https://bruc3van.com/markets/dsh/audit.json) · [DSH Market Pro repo](https://github.com/bruc3van/dsh-market-pro)
 
 ## 🗺️ Ecosystem at a glance
 
@@ -108,7 +101,7 @@ To browse every project in a category, see [CATALOG.md](./CATALOG.md) — the ca
 
 ### 🖥️ Desktop & terminal
 
-- **Want a standalone desktop client** instead of a browser tab: prefer the [official client](https://www.deepseek.com/harness/). You can also consider [DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro), developed by this list's author — a professional DeepSeek Harness desktop client built around organization-wide configuration. For personal use it works out of the box: the window loads the authentic official Web UI, closing the window doesn't stop your task — it stays resident in the tray until you open it again — and the installer bundles the official runtime, so you just double-click to launch, no Node.js, no commands to type; on first launch it subscribes to this list's curated plugin index, ready to browse and install from the Discover page. In a company it goes further: IT deploys the open-source management server (or places a single configuration file) to set up the model gateway, plugin subscriptions, skills and tool permissions once, and employees sign in with their company account — with usage limits and a tamper-evident audit log. It runs on macOS, Windows, and Linux alike, and Linux support is its differentiator beyond the official client; security is hardened layer by layer — window sandboxing, navigation locking, a verified update chain, and least privilege.
+- **Want a standalone desktop client** instead of a browser tab: [DSH Desktop Pro](https://github.com/bruc3van/dsh-desktop-pro) — a professional DeepSeek Harness desktop client built around organization-wide configuration. For personal use it works out of the box: the window loads the authentic official Web UI, closing the window doesn't stop your task — it stays resident in the tray until you open it again — and the installer bundles the official runtime, so you just double-click to launch, no Node.js, no commands to type; on first launch it subscribes to this list's curated plugin index, ready to browse and install from the Discover page. In a company it goes further: IT deploys the open-source management server (or places a single configuration file) to set up the model gateway, plugin subscriptions, skills and tool permissions once, and employees sign in with their company account — with usage limits and a tamper-evident audit log. It runs on macOS, Windows, and Linux alike; security is hardened layer by layer — window sandboxing, navigation locking, a verified update chain, and least privilege.
 - **Want a Claude Code-style terminal UI**: [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — Full-screen interactive terminals with a live status line, thought streaming, and context/TPS gauges; the tianshu build adds TDD and evidence-gate workflows.
 - **Want fewer terminal headaches on Windows**: [dsh-ops](https://github.com/T-Auto/dsh-ops) — A Windows productivity kit: an optional bundled Bash takes over the error-prone built-in terminal, with native Rust low-token readers for token efficiency.
 - **Want to run DSH locally on an Android phone**: [dsh-mobile-apk](https://github.com/kelai141/dsh-mobile-apk) — An Android APK shell: WebView UI + embedded Termux runtime, SAF directory bridge, keep-alive service, and watchdog. To remote-control DSH already running on your computer, see [dsh-pocket](https://github.com/shaobeichen/dsh-pocket) below.
