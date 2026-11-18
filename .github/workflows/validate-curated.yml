@@ -6,7 +6,6 @@ on:
       - 'data/curated.json'
       - 'data/approved.json'
       - 'data/packages.json'
-      - 'data/market-v2.json'
       - 'CATALOG.md'
       - 'catalog/**'
       - 'README.md'
@@ -48,13 +47,13 @@ jobs:
           go install github.com/rhysd/actionlint/cmd/actionlint@v1.7.7
           "$GOBIN/actionlint"
       # Every pipeline test, before anything is merged — main-only workflows
-      # used to be the first place market-v2 / extractor / star-anomaly
+      # used to be the first place catalog / extractor / star-anomaly
       # regressions surfaced.
       - name: Run the test suite
         run: >-
           node --test
-          scripts/test-market.mjs
-          scripts/test-market-v2.mjs
+          scripts/test-safe-market-catalog.mjs
+          scripts/test-catalog-mappings.mjs
           scripts/test-publish-npm-feed.mjs
           scripts/test-readme-install.mjs
           scripts/test-render.mjs
@@ -86,12 +85,9 @@ jobs:
         run: node scripts/update.mjs --from-snapshot
       - name: Regenerate the leaderboard from the stored snapshot
         run: node scripts/top.mjs
-      # The feeds are regenerated from the PR's own curation state so the
-      # validators check what main would publish after this PR merges (the
-      # committed files are refreshed by refresh-market-v2.yml on push to main).
+      # The feeds are rebuilt from the PR's own curation state so the validators
+      # check what main would publish after this PR merges.
       - name: Validate the packages mapping
         run: node scripts/validate-packages.mjs
-      - name: Rebuild the v2 market feed
-        run: node scripts/market-v2.mjs
-      - name: Validate the v2 market feed
-        run: node scripts/validate-market-v2.mjs
+      - name: Validate the market catalog projection
+        run: node scripts/validate-market-catalog.mjs

@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-18",
+  "entries": {
+    "daha1216/dsh-adult-tension": {
+      "reason": "Agent Skill（原生 SKILL）：`skill/adult-tension/` 含 SKILL.md + references + 运行时，安装方式是把该目录复制进 ~/.dsh/skills/，没有 cordis 插件或 dsh bundle 清单",
+      "date": "2026-11-18"
+    },
+    "cpj-dev/dsh-plugin-cc": {
+      "reason": "Claude Code 插件（`/plugin marketplace add cpj-dev/dsh-plugin-cc`），作用是在 Claude Code 里调用 dsh CLI/SDK，不是可装入 DSH 的插件/bundle",
+      "date": "2026-11-18"
+    },
+    "techysy/deepseek-harness-fnos": {
+      "reason": "飞牛 fnOS 的 dsh 打包应用：从 GitHub Release 下载 .fpk 后在应用中心手动安装，属 NAS 部署发行包，不是 DSH 插件/bundle",
+      "date": "2026-11-18"
+    },
+    "dclichang2022/dsh-green-meter": {
+      "reason": "Green DSH Desktop：Electron 桌面发行版（Windows Setup exe / zip 便携版），自带 dsh 与 green-meter 计量插件，安装是桌面安装包而非 DSH 插件",
+      "date": "2026-11-18"
+    },
+    "sepinetam/cnki-mcp": {
+      "reason": "知网 CNKI 的 MCP server / CLI / Skill（Python + uv：`uv run cnki-mcp init/serve`），与 DSH 插件无关",
+      "date": "2026-11-18"
+    },
+    "yts1919/dsh-vision-complete": {
+      "reason": "Windows 侧 skill 包：`skills/vision-multimodal` 的 SKILL.md + install.bat 把 skill 复制进 ~/.dsh/skills 并注册 qwen-mm-plugins MCP，没有 cordis 插件或 dsh bundle 清单",
+      "date": "2026-11-18"
+    },
+    "liangdabiao/dsh-plugin-developer-skill": {
+      "reason": "Agent Skill（SKILL.md + references，教 Agent 开发 dsh 插件）；README 里的 `dsh plugin --profile web add <包名|tgz|file:目录>` 只是通用语法说明，不是本仓库的安装目标",
+      "date": "2026-11-18"
+    },
+    "ankocd/dsh-server-deployment": {
+      "reason": "服务器端多用户部署方案：零依赖 Node 网关 + systemd 单元 + sudoers 助手 + nginx 反代，不是 DSH 插件/bundle",
+      "date": "2026-11-18"
+    },
+    "hakunm/dsh-android-app": {
+      "reason": "DSH 的原生 Android 客户端：从 GitHub Releases 下载 `DeepSeek-Harness-v1.0.0.apk` 安装，不是 DSH 插件",
+      "date": "2026-11-18"
+    },
+    "lbwnb666-ai/deepseekharnessremotegateway": {
+      "reason": "Cloudflare 隧道 sidecar 网关：独立 Node 进程（start_Windows.bat / start.ps1 等）把本机 dsh web 反代成手机可访问地址，不是 DSH 插件/bundle",
+      "date": "2026-11-18"
+    },
+    "bin-hy/dsh": {
+      "reason": "VitePress 中文学习资料站（15+ 篇文章、research 笔记，Cloudflare Pages 部署），package.json 是 vitepress 文档项目，非 DSH 插件/bundle。",
+      "date": "2026-11-18"
+    },
+    "jensen-yao/deepseek-harness-android-app": {
+      "reason": "安卓客户端 App（Termux 引导安装 + 一键部署 + 内置 WebView），把 DSH 装到手机上使用；不是 DSH 插件/主题。",
+      "date": "2026-11-18"
+    },
+    "zimodzh/dsh-plugin-dev-skills": {
+      "reason": "DSH 插件开发 Agent Skill（SKILL.md + references/ + examples/），安装方式是 git clone 到 ~/.claude/skills 或 .dsh/skills；无 cordis 插件/bundle。",
+      "date": "2026-11-18"
+    },
+    "omdsh-dev/dsh-plugin-skills": {
+      "reason": "两个 Agent Skill（dsh-write-plugin / dsh-test-plugin，仅 SKILL.md 目录），安装是 cp -r 到 .agents/skills；无 cordis 插件或 dsh manifest。",
+      "date": "2026-11-18"
+    },
+    "hootandy321/dsh-agentlink": {
+      "reason": "caller 侧桥接 CLI/MCP（让 Codex/Claude Code 调用 DSH），README 明确「not a DSH Cordis bundle，不要用 dsh plugin add 安装」；安装走 npm run setup 写入其它 agent 配置。",
+      "date": "2026-11-18"
+    },
+    "jayzz210l/deepseek-harness-for-ide": {
+      "reason": "JetBrains IDE 插件（Settings → Plugins → Marketplace 或本地 ZIP 安装，内置 Windows x64 DSH 运行时），在 IDE 内驱动 DSH；不是 DSH 插件/bundle。",
+      "date": "2026-11-18"
+    },
+    "42ch-dev/dsh-rust-sdk": {
+      "reason": "Rust 客户端 SDK（cargo add deepseek-harness-sdk），以子进程启动 dsh CLI 走 stdio JSON-RPC；不是 DSH 插件/bundle。",
+      "date": "2026-11-18"
+    },
+    "bloodtmai-cmyk/dsh-ai-hub": {
+      "reason": "企业控制面 Web 应用（Spring Boot 后端 + React 管理端 + extension-host），配套 Harness Enterprise 桌面端；本地 npm/mvn 起服务，非 DSH 插件安装目标。",
+      "date": "2026-11-18"
+    },
+    "cristallin2006/ghidra-skill-for-dsh": {
+      "reason": "逆向工程 agent skill 家族（九个 SKILL 目录拷到 ~/.dsh/skills + Ghidra RPC 引擎 venv），另附可选 dsh-hooks 手改 cordis.patch.yml；无 DSH 插件/bundle 安装目标。",
+      "date": "2026-11-18"
+    },
+    "flytomayday80/dsh-pet": {
+      "reason": "独立 Electron 桌面应用（macOS 桌宠，electron-builder 打 dmg/zip，npm start 起 electron），用本地文件反映会话状态；不是 DSH 插件。",
+      "date": "2026-11-18"
+    },
+    "goatbroai/dsh-plugin-scaffold": {
+      "reason": "生成 DSH 插件脚手架的 Agent Skill（SKILL.md + references/ + scripts/scaffold.py），无 cordis 插件或 dsh manifest，非可安装插件。",
+      "date": "2026-11-18"
+    },
+    "green-dalii/dsh-plugin-dev-skill": {
+      "reason": "DSH 插件开发 Agent Skill（SKILL.md + References/，按 Agent Skills 标准 symlink/clone 到各宿主 skills 目录，支持多宿主），无 cordis 插件或 dsh manifest。",
+      "date": "2026-11-18"
+    },
+    "mcshamrock/dsh-cookie-431": {
+      "reason": "DSH 桌面版 cookie 431 故障诊断仓库：病因分析 + PowerShell 清理脚本（只删 dsh-auth-* 并先备份），不是 DSH 插件，无插件安装目标。",
+      "date": "2026-11-18"
+    },
+    "samuka007/dsh-nix": {
+      "reason": "Nix 打包/部署仓库：把 dsh CLI 打成 pkgs.dsh，并提供 Home Manager 的 programs.dsh 插件组合模块，安装走 nix build，不是 DSH 插件，无 dsh plugin 目标。",
+      "date": "2026-11-18"
+    },
+    "caoran1314/apple-cn-checkout": {
+      "reason": "Agent skill 包（SKILL.md + 抢购 shell 脚本），安装方式是复制到 ~/.dsh/skills，无 cordis 插件或 dsh 清单，不是可安装插件。",
+      "date": "2026-11-18"
+    },
+    "enoughpower/dsh-harmony": {
+      "reason": "HarmonyOS 原生客户端 App（ArkWeb 扫码连电脑端 DSH，配合 dsh-pocket 插件），构建/安装走 HAP + hdc install，不是 DSH 插件，无 dsh plugin 安装目标。",
+      "date": "2026-11-18"
+    },
+    "haniubub/seo-toolkit": {
+      "reason": "Python SEO 审计 CLI 工具包（./seo audit + 53 个脚本 + 提示词技能包），无 cordis 插件、无 package.json/dsh 清单，安装是 ./setup.sh，不是 dsh 插件。",
+      "date": "2026-11-18"
+    },
+    "hrygo/heluo-forge": {
+      "reason": "河洛产品方案与扩展工程仓库（UNLICENSED / private:true）：README 为价值主张、路线图与设计链接，无安装命令，仅内部构建/检查脚本，不是可安装 DSH 插件。",
+      "date": "2026-11-18"
+    },
+    "huaqian695-sudo/dsh-wechat-bot": {
+      "reason": "独立 Python 微信机器人应用（wechatauto-replica + Web 控制台，python -m wechat_agent.main 启动），借用 DSH 凭据/接口，不是 DSH 插件，无 dsh plugin 目标。",
+      "date": "2026-11-18"
+    },
+    "kaijia323/create-dsh-plugin": {
+      "reason": "Agent skill（create-dsh-plugin，SKILL.md + references/），安装方式是 git clone 到 ~/.agents/skills，无 cordis 插件/dsh 清单，不是可安装插件。",
+      "date": "2026-11-18"
+    },
+    "kui123456789/dsh-codex-workflow": {
+      "reason": "独立 agent skill（codex-workflow）；2.x 已从 DSH 插件退役，安装是把 codex-workflow.zip 解压目录复制到宿主 Skill 目录，无 cordis 插件/dsh 清单。",
+      "date": "2026-11-18"
+    },
+    "thatgfsj-dsh/dsh-plugin-skills": {
+      "reason": "agent skill 包：只有 dsh-plugin-construction / dsh-skill-authoring 等 SKILL.md 技能，安装靠 bash scripts/install.sh 复制到 $DSH_HOME/skills，无 cordis 插件、无 dsh bundle。",
+      "date": "2026-11-18"
+    },
+    "wozoulesky/dsh-obsidian": {
+      "reason": "Obsidian 社区插件「DSH Bridge」（manifest.json + main.js），安装走 Obsidian 设置→第三方插件→Browse 搜 DSH Bridge，不是 DSH 插件；registry 上的 dsh-obsidian 包属于 mingzeng21/dsh-obsidian。",
+      "date": "2026-11-18"
+    },
+    "baihejiangnan/dsh-plugin-pack-web": {
+      "reason": "profile/web 插件包清单（32 项第三方插件 + dsh-plugin-pack.json 清单），本身不含插件代码，不是可安装的 DSH 插件。",
+      "date": "2026-11-18"
+    },
+    "jamesxxx-ai/ashare-agent": {
+      "reason": "A 股研究/复盘 Python 工作台（python3.11 venv + pip install -r requirements.txt + 三大技能脚本），没有 DSH 插件或 dsh bundle 安装目标。",
+      "date": "2026-11-18"
+    },
+    "kiwi233333/dsh-creator": {
+      "reason": "agent skill（dsh-creator）：用 `npx skills add KiWi233333/dsh-creator --skill dsh-creator` 安装到技能目录，无 cordis 插件 / dsh bundle。",
+      "date": "2026-11-18"
+    },
+    "lkhfrgc/scholar-llm-wiki": {
+      "reason": "科研文献知识库工具包：`.dsh/skills` + AGENTS.md + Python 脚本，安装=把 .dsh/、AGENTS.md 复制到工作区并跑 setup_wiki.py，纯 skill/脚本体，无 cordis 插件或 dsh bundle。",
+      "date": "2026-11-18"
+    },
+    "loopwithai/loopwithai": {
+      "reason": "本地多智能体 Web 工作台（clone + npm install + npm run dev 启动独立 Web UI，WorkBench 形态），不是 DSH 插件，无 dsh plugin 安装目标。",
+      "date": "2026-11-18"
+    },
+    "lusipad/rocketx": {
+      "reason": "Rocket.Chat 团队协作桌面客户端（Electron，安装包/DMG/AppImage，内置 Codex/DSH 运行时探测），是独立桌面应用，不是 DSH 插件。",
+      "date": "2026-11-18"
+    },
+    "oitsukiii/deepseek-harness-lan": {
+      "reason": "对 dsh 源码的 3 处最小 diff + apply.sh/revert.sh，用于把 Web UI 绑到局域网 IP；README 明说它是打补丁工具而非插件，仓库无 plugin/bundle 安装目标。",
+      "date": "2026-11-18"
+    },
+    "online111111/whalechan-dsh-theme": {
+      "reason": "静态 Web 主题：install.ps1/uninstall.ps1 直接改写 dsh-web-frontend/dist 的前端资源，不是 cordis 插件；README 里唯一的 dsh plugin add 指向他人仓库的皮肤中心。",
+      "date": "2026-11-18"
+    },
+    "arcanepivot/dsh-api-balance": {
+      "reason": "面向 dsh@0.1.0-rc.6 的版本锁定补丁：install.ps1/install.sh 备份并覆盖两个官方编译文件（SHA-256 校验），卸载靠恢复原件；无 cordis 插件安装目标。",
+      "date": "2026-11-18"
+    },
+    "curtiseng/cordis-course": {
+      "reason": "Cordis 论文的交互式中文课程/译文（Vite + React 静态站点），是文档站不是 DSH 插件，无 cordis.patch.yml、无 dsh 清单字段。",
+      "date": "2026-11-18"
+    },
+    "itmoqing/deepseek-harness-skill": {
+      "reason": "Windows .bat/.ps1 启动器 + 发送桥 + Codex/Claude 技能包（SKILL.md），用于驱动 DSH 页面智能体；仓库没有 cordis plugin 或 dsh bundle，DSH 只是被驱动的对象",
+      "date": "2026-11-18"
+    },
+    "leawind/dsh-minecraft-dev": {
+      "reason": "DSH Agent 预设（persona + 6 个 SKILL.md 技能手册），安装方式是把 agent-presets/minecraft-dev 复制到 $DSH_HOME/.agent-presets/；无 cordis plugin 或 dsh bundle",
+      "date": "2026-11-18"
+    },
+    "linyufeng123456/dsh_plugins": {
+      "reason": "main 分支上抓不到 README，也没有 package.json / cordis.patch.yml 等清单证据，无法证明是 DSH 插件",
+      "date": "2026-11-18"
+    },
+    "mikeyoubeach/dsh-minimal-v3": {
+      "reason": "DSH Agent 预设（Windows 友好版 minimal：persona + 工具集），安装是把 preset 目录复制到 ~/.dsh/.agent-presets/minimal-v3；无插件安装目标",
+      "date": "2026-11-18"
+    },
+    "nomicore-ai/nomicore": {
+      "reason": "面向 Agent 的数据库（含 DSH 持久化集成包），是独立服务/库，按 INSTALL.md 部署；仓库无 cordis plugin 或 dsh bundle，不是 DSH 插件",
+      "date": "2026-11-18"
+    },
+    "soyoungzsy/soya": {
+      "reason": "Soya 个人董事会：多视角决策 Skill 集合（skills/personal-board 等，SKILL.md 形式），按宿主 Skill 机制把目录交给宿主安装；无 DSH 插件或 dsh bundle",
+      "date": "2026-11-18"
+    },
+    "vithrive/deepseek-harness-for-chrome": {
+      "reason": "Chrome 侧边栏扩展（把 DSH Web GUI 内嵌进 Chrome Side Panel），安装走 Chrome Web Store 或 chrome://extensions 加载已解压扩展；不是 DSH 插件，无插件安装目标",
+      "date": "2026-11-18"
+    },
+    "windyslime/deepsee": {
+      "reason": "Python 视觉网关服务（pip install seedeep + deepsee-server）加 curl 一键配置脚本 install-dsh-dsv.sh；不是 DSH 插件，没有 dsh plugin add 目标",
+      "date": "2026-11-18"
+    },
+    "zoria-lind/behavior-enhancer-generic": {
+      "reason": "跨宿主行为规范产品（Claude Code / Codex / Pi 适配器 + SOFT SKILL.md）；README 注明其 DSH 适配器只是指回原仓库的指针，本仓库没有 DSH 插件安装目标",
+      "date": "2026-11-18"
+    }
+  }
+}

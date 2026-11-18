@@ -1,29 +1,13 @@
-// Shared market pool selection and Markdown preview; no legacy feed is published.
+// Shared catalog projection helpers: the review gate's exclusion set, the
+// category assignment, and the display-field cleaning/build rules the schema-3
+// market catalog reads. The legacy schema-2 pool/deal/Markdown-preview code
+// lived here until market-v2 was retired (2026-11-18); only what the catalog
+// projection needs remains.
 //
-// The file is a pure projection of data/repositories.json (the raw topic
-// snapshot) + data/approved.json (the review gate) + data/curated.json (the
-// editorial decisions): filter (description set, maintainer-approved, not
-// archived/disabled, not excluded, category determinable), clean every
-// text field, dedup by id, then deal the pool round-robin across categories so
-// any prefix of the file is a balanced list. No fetching happens here — the
-// snapshot is always read from disk; the daily workflow runs scripts/update.mjs
-// first, and the curation path passes --from-snapshot to declare that the
-// stored snapshot is the intended input.
-//
-// Safety valves (§6 of the spec): the file is only written when the new pool is
-// not empty and holds at least 60% of the previously published pool, and only
-// when the payload actually changed (same snapshot + same curation = keep the
-// old file, old generated_at included, so nothing gets re-committed).
+// The input is always the stored snapshot (data/repositories.json) plus
+// data/approved.json and data/curated.json; no fetching happens here.
 
 import { assignableCategories, categoryFallback, categoryRules } from './categories.mjs';
-import { escapeCell } from './markdown.mjs';
-
-export const SCHEMA_VERSION = 2;
-export const MAX_ENTRIES = 1000;
-export const MAX_FILE_BYTES = 1024 * 1024;
-export const MARKDOWN_OUTPUT = 'MARKET.md';
-export const BREAKER_RATIO = 0.6;
-export const STALE_SNAPSHOT_MS = 26 * 60 * 60 * 1000;
 
 // Repositories the publisher itself never lists (spec §4).
 export const SELF_EXCLUDED_REPOS = [
@@ -35,10 +19,16 @@ export const SELF_EXCLUDED_REPOS = [
   'bruc3van/awesome-dsh-plugin',
 ];
 
-// Repository-level market exclusions shared by the legacy pool and schema 3.
-export function marketExcludedRepoNames(curated) {
+// Repositories that must not reach any downstream market. Both editorial
+// lists belong here: market_exclusions (non-plugin shapes and other markets)
+// and leaderboard_exclusions (desktop clients / shells, star-inflated repos,
+// catalog-only entries) — the review convention states that a board exclusion
+// also drops the repository from the downstream market, so every projection
+// reads this one set and the feeds cannot drift again.
+export function marketBlockedRepoNames(curated) {
   return new Set([
     ...Object.keys(curated.market_exclusions || {}),
+    ...Object.keys(curated.leaderboard_exclusions || {}),
     ...SELF_EXCLUDED_REPOS,
   ].map((key) => key.toLowerCase()));
 }
@@ -56,6 +46,7 @@ export function isSafeBranchName(value) {
 
 export const TEXT_LIMITS = {
   description: 300,
+  title: 60,
   language: 40,
   license: 40,
   pushed_at: 30,
@@ -73,10 +64,6 @@ export function cleanText(value, limit) {
   const points = [...trimmed];
   return points.length > limit ? `${points.slice(0, limit - 1).join('')}…` : trimmed;
 }
-
-// Code-point comparison — localeCompare is environment-dependent and must not
-// decide the published order (spec §4.4).
-export const codepointCompare = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
 
 const starsOf = (value) =>
   typeof value === 'number' && Number.isFinite(value) && value >= 0 ? Math.floor(value) : 0;
@@ -106,23 +93,21 @@ export function categoryForRepo(curated, repo) {
   return categoryRules.find((rule) => rule[3].test(haystack)) || categoryFallback;
 }
 
-// Spec §4.1: filter, in rule order. Returns the surviving repos (with their
-// assigned category) plus warnings about category_overrides values that name
-// an unknown category (those fall back to pattern matching, as in render.mjs).
+// The review gate over the stored snapshot: description set, approved, not
+// archived/disabled, not excluded in any list, category determinable. Returns
+// the surviving repos (with their assigned category) plus warnings about
+// category_overrides values that name an unknown category.
 //
-// `approved` is data/approved.json and is required: the feed reaches users'
-// desktop market, so an unreviewed repository must never ride into it just
-// because it carries the topic — the same gate CATALOG.md / TOP200.md use.
+// `approved` is data/approved.json and is required: the catalog and the
+// subscription both reach users, so an unreviewed repository must never ride
+// into them just because it carries the topic.
 export function filterPool(snapshot, curated, approved) {
   if (approved === null || typeof approved !== 'object' || Array.isArray(approved)) {
     throw new TypeError('filterPool needs data/approved.json (an owner/name -> date object) — the market is review-gated');
   }
   const approvedNames = new Set(Object.keys(approved).map((key) => key.toLowerCase()));
   const excluded = new Set(Object.keys(curated.excluded_repos || {}).map((key) => key.toLowerCase()));
-  const leaderboard = new Set(
-    Object.keys(curated.leaderboard_exclusions || {}).map((key) => key.toLowerCase()),
-  );
-  const marketExcluded = marketExcludedRepoNames(curated);
+  const blocked = marketBlockedRepoNames(curated);
   const excludedIds = new Set(
     Object.keys(curated.excluded_repo_ids || {}).map(Number).filter((id) => Number.isInteger(id)),
   );
@@ -138,10 +123,10 @@ export function filterPool(snapshot, curated, approved) {
     if (repo.archived === true || repo.disabled === true) continue;
     const lower = String(repo.full_name).toLowerCase();
     if (!approvedNames.has(lower)) continue;
-    if (excluded.has(lower) || leaderboard.has(lower) || marketExcluded.has(lower)) continue;
+    if (excluded.has(lower) || blocked.has(lower)) continue;
     if (excludedIds.has(repo.id)) continue;
     const category = categoryForRepo(curated, repo);
-    if (!category) continue; // unreachable with the fallback rule; defensive
+    if (!category) continue;
     repos.push({ repo, category });
   }
   return { repos, warnings };
@@ -163,198 +148,4 @@ export function buildEntry(repo, category) {
     category_zh: cleanText(category[1], TEXT_LIMITS.category_zh),
     category_en: cleanText(category[2], TEXT_LIMITS.category_en),
   };
-}
-
-// Defensive dedup by id — the snapshot is already id-deduped; first (highest-
-// star, snapshot order) wins.
-export function dedupById(entries) {
-  const seen = new Set();
-  return entries.filter((entry) => {
-    if (seen.has(entry.id)) return false;
-    seen.add(entry.id);
-    return true;
-  });
-}
-
-// Spec §4.4: the balanced deal. Bucket by category; within a bucket sort by
-// stars desc then full_name asc (code-point order); order the buckets by their
-// strongest entry's stars desc, ties by category key asc; then deal round-robin
-// — round r takes each bucket's r-th entry in bucket order — until maxEntries
-// rows are dealt or every bucket is exhausted. The result is the published
-// order and must NOT be re-sorted.
-export function dealEntries(entries, maxEntries = MAX_ENTRIES) {
-  const buckets = new Map();
-  for (const entry of entries) {
-    const list = buckets.get(entry.category) ?? [];
-    list.push(entry);
-    buckets.set(entry.category, list);
-  }
-  for (const list of buckets.values()) {
-    list.sort((a, b) => b.stargazers_count - a.stargazers_count || codepointCompare(a.full_name, b.full_name));
-  }
-  const keys = [...buckets.keys()].sort(
-    (a, b) =>
-      buckets.get(b)[0].stargazers_count - buckets.get(a)[0].stargazers_count || codepointCompare(a, b),
-  );
-  const lists = keys.map((key) => buckets.get(key));
-  const dealt = [];
-  let round = 0;
-  while (dealt.length < maxEntries) {
-    let placed = false;
-    for (let i = 0; i < lists.length; i++) {
-      if (round < lists[i].length) {
-        dealt.push(lists[i][round]);
-        placed = true;
-        if (dealt.length >= maxEntries) break;
-      }
-    }
-    if (!placed) break;
-    round++;
-  }
-  return dealt;
-}
-
-// The full generation decision. Returns one of:
-//   { outcome: 'written', envelope, poolCount, warnings, trimmedCount }
-//   { outcome: 'unchanged', envelope, poolCount, warnings }  — nothing to do
-//   { outcome: 'aborted', reason, poolCount }                — breaker fired
-export function buildMarket({ snapshot, curated, approved, previous = null, now = new Date(), maxBytes = MAX_FILE_BYTES }) {
-  const overrides = new Map(Object.entries(curated.description_overrides || {}).map(([slug, value]) => [slug.toLowerCase(), value]));
-  const effectiveSnapshot = { ...snapshot, repositories: snapshot.repositories.map((repo) => {
-    const description = overrides.get(repo.full_name.toLowerCase());
-    return typeof description === 'string' && description.trim() ? { ...repo, description } : repo;
-  }) };
-  const { repos, warnings } = filterPool(effectiveSnapshot, curated, approved);
-  const pool = dedupById(repos.map(({ repo, category }) => buildEntry(repo, category)));
-  const poolCount = pool.length;
-  const dealt = dealEntries(pool);
-
-  // Breaker (§6): never publish an empty market or one whose pool collapsed to
-  // under 60% of the last published pool — that smells like a half-failed
-  // crawl, and yesterday's file is the better answer.
-  if (dealt.length === 0) {
-    return { outcome: 'aborted', reason: 'the filtered pool is empty — refusing to publish an empty market', poolCount };
-  }
-  if (previous && poolCount < previous.pool_count * BREAKER_RATIO) {
-    return {
-      outcome: 'aborted',
-      reason: `pool_count ${poolCount} is below ${Math.round(BREAKER_RATIO * 100)}% of the previously published pool (${previous.pool_count}) — keeping the previous market-v2.json`,
-      poolCount,
-    };
-  }
-
-  const nowIso = now.toISOString();
-  // generated_at must be monotonically non-decreasing (§6); clock skew between
-  // machines must never move it backwards.
-  const generatedAt =
-    previous && typeof previous.generated_at === 'string' && nowIso < previous.generated_at
-      ? previous.generated_at
-      : nowIso;
-  const envelopeWith = (list) => ({
-    schema_version: SCHEMA_VERSION,
-    generated_at: generatedAt,
-    source_fetched_at: snapshot.fetched_at,
-    source_repo_count: snapshot.total_count,
-    pool_count: poolCount,
-    entries: list,
-  });
-
-  // The artifact cap wins over the deal cap (1000): when the full deal does
-  // not fit, publish the largest prefix of it that does. A prefix keeps every
-  // structural property the consumer relies on — the §5 star-order invariant
-  // and the category balance — and the consumer's default truncation
-  // (marketSize 1000) is untouched. 1000 is the deal's upper bound, and the
-  // published entry count may legally be anywhere in 1–1000. The budget is
-  // injectable so the trim path stays testable at a smaller size.
-  const fits = (list) => Buffer.byteLength(`${JSON.stringify(envelopeWith(list))}\n`, 'utf8') <= maxBytes;
-  let entries = dealt;
-  let trimmedCount = 0;
-  if (!fits(dealt)) {
-    let lo = 1;
-    let hi = dealt.length;
-    while (lo < hi) {
-      const mid = Math.floor((lo + hi + 1) / 2);
-      if (fits(dealt.slice(0, mid))) lo = mid;
-      else hi = mid - 1;
-    }
-    if (!fits(dealt.slice(0, lo))) {
-      return {
-        outcome: 'aborted',
-        reason: `even a single entry exceeds the ${maxBytes}-byte cap — refusing to publish`,
-        poolCount,
-      };
-    }
-    entries = dealt.slice(0, lo);
-    trimmedCount = dealt.length - lo;
-  }
-
-  // Same source, same curation, same payload: keep the previous file bit for
-  // bit (its generated_at included) so the daily run stays a no-op commit.
-  if (
-    previous &&
-    previous.schema_version === SCHEMA_VERSION &&
-    previous.source_fetched_at === snapshot.fetched_at &&
-    previous.source_repo_count === snapshot.total_count &&
-    previous.pool_count === poolCount &&
-    JSON.stringify(previous.entries) === JSON.stringify(entries)
-  ) {
-    return { outcome: 'unchanged', envelope: previous, poolCount, warnings };
-  }
-
-  return { outcome: 'written', envelope: envelopeWith(entries), poolCount, warnings, trimmedCount };
-}
-
-// Same cell escaping as scripts/render.mjs (scripts/markdown.mjs): the wire
-// text is whitespace-collapsed and length-capped, but descriptions are still
-// owner-written, so markup must render as literal text.
-const mdCell = escapeCell;
-
-// MARKET.md — the readable twin of data/market-v2.json. Bilingual, like
-// CATALOG.md / TOP200.md. Ranked by stars because that is the order the
-// consumer's "All plugins" view shows; the feed itself stays in deal order
-// (§4.4), and the consumer truncates it to its configured size — every row
-// here is published, the tail may not be shown in the app.
-export function renderMarketMarkdown(envelope) {
-  const labels = new Map();
-  const counts = new Map();
-  for (const entry of envelope.entries) {
-    labels.set(entry.category, `${entry.category_en} · ${entry.category_zh}`);
-    counts.set(entry.category, (counts.get(entry.category) ?? 0) + 1);
-  }
-  const categories = [...counts.keys()].sort(
-    (a, b) => counts.get(b) - counts.get(a) || codepointCompare(a, b),
-  );
-  const byStars = [...envelope.entries].sort(
-    (a, b) => b.stargazers_count - a.stargazers_count || codepointCompare(a.full_name, b.full_name),
-  );
-  const rows = byStars.map((entry, index) => {
-    const pushed = String(entry.pushed_at ?? '').slice(0, 10);
-    return `| ${index + 1} | [${mdCell(entry.full_name)}](https://github.com/${entry.full_name}) | ${mdCell(entry.description)} | ${mdCell(labels.get(entry.category))} | ${mdCell(entry.language)} | ${entry.stargazers_count} | ${mdCell(entry.license)} | ${mdCell(pushed)} |`;
-  });
-  return [
-    '# 下游市场文件预览 / Downstream market feed preview',
-    '',
-    '[返回中文首页](./README.md) · [Back to English home](./README_EN.md) · [完整目录 / Full catalog](./CATALOG.md) · [Star 榜单 / Star board](./TOP200.md) · [JSON data](./data/market-v2.json)',
-    '',
-    '[data/market-v2.json](./data/market-v2.json) 的人类可读镜像——这是供下游消费的精选仓库数据；[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro) 的完整目录与订阅精选另由 `market-catalog.json` 提供，由 `scripts/market-v2.mjs` 随市场文件一同生成，供在 GitHub 上直接预览确认，无需安装插件；请勿手工编辑。下表按 Star 数排名，与插件「全部插件」视图一致；文件本身按类目均衡发牌顺序存储，插件默认仅展示其配置条数。',
-    '',
-    'The human-readable twin of [data/market-v2.json](./data/market-v2.json) — the curated repository feed for downstream consumers; [DSH Market Pro](https://github.com/bruc3van/dsh-market-pro) reads the complete catalog and subscription picks from `market-catalog.json`, generated alongside the feed by `scripts/market-v2.mjs` so it can be previewed on GitHub without installing anything. Do not edit by hand. The table ranks by stars, matching the plugin\u2019s "All plugins" view; the feed itself is stored in balanced deal order, and the plugin shows only its configured prefix by default.',
-    '',
-    `- 生成时间 / Feed generated: **${envelope.generated_at}**`,
-    `- 来源快照 / Source snapshot: **${envelope.source_fetched_at}**（${envelope.source_repo_count} 个仓库 / repositories scanned）`,
-    `- 过滤后候选池 / Candidate pool after filtering: **${envelope.pool_count}**`,
-    `- 发布条目 / Published entries: **${envelope.entries.length}**（上限 / cap: ${MAX_ENTRIES}）`,
-    '',
-    '## 分类 / Categories',
-    '',
-    '| Category | Entries |',
-    '| --- | ---: |',
-    ...categories.map((key) => `| ${mdCell(labels.get(key))} | ${counts.get(key)} |`),
-    '',
-    '## 全部插件（按 Star 排名）/ All plugins (ranked by stars)',
-    '',
-    '| # | Repository | Description | Category | Language | Stars | License | Updated |',
-    '| ---: | --- | --- | --- | --- | ---: | --- | --- |',
-    ...rows,
-  ].join('\n');
 }

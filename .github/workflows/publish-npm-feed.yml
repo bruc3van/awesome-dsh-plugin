@@ -4,7 +4,7 @@ name: Publish the feed to npm (mirrored by npmmirror)
 # registry.npmjs.org, and raw.githubusercontent.com is unreliable from inside
 # the GFW — so the market feed and packages mapping ship as the
 # awesome-dsh-plugin-feed npm package. Consumers fetch
-# https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-v2.json
+# https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-catalog.json
 #
 # Runs after the official subscription publication has completed successfully and
 # can be triggered manually. The publish script's feedDigest gate makes this
@@ -17,14 +17,23 @@ on:
   workflow_run:
     workflows:
       - 'Refresh the official DSH market index'
+      - 'Fill catalog install mappings'
     types:
       - completed
   workflow_dispatch:
   push:
     branches: [main]
     paths:
+      - 'data/packages.json'
+      - 'data/featured.json'
+      - 'data/approved.json'
+      - 'data/curated.json'
+      - 'data/catalog-mapping-skips.json'
       - 'scripts/safe-market-catalog.mjs'
+      - 'scripts/market-wire.mjs'
+      - 'scripts/market-pool.mjs'
       - 'scripts/publish-npm-feed.mjs'
+      - 'scripts/validate-market-catalog.mjs'
       - 'scripts/test-safe-market-catalog.mjs'
       - '.github/workflows/publish-npm-feed.yml'
 
@@ -56,7 +65,7 @@ jobs:
       - name: Install npm with Trusted Publishing support
         run: npm install --global npm@11.15.0
       - name: Run feed publication and extraction regression tests
-        run: node --test scripts/test-publish-npm-feed.mjs scripts/test-readme-install.mjs scripts/test-market-v2.mjs scripts/test-safe-market-catalog.mjs
+        run: node --test scripts/test-publish-npm-feed.mjs scripts/test-readme-install.mjs scripts/test-safe-market-catalog.mjs scripts/test-catalog-mappings.mjs
       # The script itself decides whether anything needs publishing: same
       # feedDigest as the registry's latest version → "nothing to do", exit 0.
       - name: Build and publish the feed package
@@ -65,6 +74,5 @@ jobs:
         timeout-minutes: 2
         run: |
           for feed_alias in awesome-dsh-plugin-feed@latest awesome-dsh-plugin-feed; do
-            curl --fail --silent --show-error "https://purge.jsdelivr.net/npm/$feed_alias/data/market-v2.json"
             curl --fail --silent --show-error "https://purge.jsdelivr.net/npm/$feed_alias/data/market-catalog.json"
           done

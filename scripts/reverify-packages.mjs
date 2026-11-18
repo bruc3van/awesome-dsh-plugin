@@ -16,38 +16,31 @@
 //       audit: 14 of 384 npm targets were documented-but-never-published)
 //   WARNING (summary only)
 //     - upstream documents extra targets we don't record yet
-//     - an unmapped feed entry has become extractable (new install docs)
 //     - a README could not be fetched, or the registry lookup errored (network)
 //
 // Report-only by design: packages.json is hand-maintained and never rewritten
 // by scripts — this output is a review queue, the same philosophy as
-// data/review/pending.md. `--write-pending` additionally (re)generates
-// data/review/packages-pending.md, the work list of unmapped feed entries
-// bucketed by why they are unmapped, with the README hint that a human needs
-// to resolve them.
+// data/review/pending.md. The coverage work list (unmapped catalog entries and
+// how to resolve them) is scripts/catalog-mappings.mjs now; the retired
+// --write-pending pass only ever saw the old 1000-entry schema-2 feed.
 
-import { appendFile, readFile, writeFile } from 'node:fs/promises';
+import { appendFile, readFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { escapeCell } from './markdown.mjs';
 import { extractInstallTargets, npmBase } from './readme-install.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const WRITE_PENDING = process.argv.includes('--write-pending');
 const README_NAMES = ['README.md', 'readme.md', 'README.zh-CN.md', 'README_zh.md', 'README_CN.md', 'README.zh.md', 'README-EN.md', 'README_EN.md'];
 const CONCURRENCY = 10;
 
-const [packages, market, snapshot] = await Promise.all([
+const [packages, snapshot] = await Promise.all([
   readFile(resolve(root, 'data/packages.json'), 'utf8').then(JSON.parse),
-  readFile(resolve(root, 'data/market-v2.json'), 'utf8').then(JSON.parse),
   readFile(resolve(root, 'data/repositories.json'), 'utf8').then(JSON.parse),
 ]);
 
 const branchBySlug = new Map(
   (snapshot.repositories || []).map((repo) => [String(repo.full_name).toLowerCase(), repo.default_branch]),
 );
-const marketBySlug = new Map(market.entries.map((entry) => [String(entry.full_name).toLowerCase(), entry]));
-const starsOf = (slug) => marketBySlug.get(slug)?.stargazers_count ?? 0;
 
 const readmeCache = new Map();
 async function fetchReadme(slug) {
@@ -214,8 +207,6 @@ async function summaryBlock(title, body) {
   await appendFile(process.env.GITHUB_STEP_SUMMARY, `### ${title}\n\n${body}\n\n`);
 }
 
-const mdEscape = escapeCell;
-
 // ---------------------------------------------------------------------------
 // Pass 1: every mapped entry, feed or not.
 const problems = [];
@@ -280,32 +271,6 @@ await Promise.all(registryWorkers);
 problems.push(...registryProblems);
 
 // ---------------------------------------------------------------------------
-// Pass 3: unmapped feed entries — the coverage work list.
-const gaps = [];
-const pendingBuckets = { ambiguous: [], localOnly: [], noCommand: [] };
-const pendingQueue = market.entries
-  .map((entry) => String(entry.full_name).toLowerCase())
-  .filter((slug) => !packages.entries[slug]);
-const pendingWorkers = Array.from({ length: CONCURRENCY }, async () => {
-  while (pendingQueue.length) {
-    const slug = pendingQueue.shift();
-    const text = await fetchReadme(slug);
-    if (text === null) {
-      pendingBuckets.noCommand.push({ slug, hint: 'README unreachable or missing' });
-      continue;
-    }
-    const [owner, repo] = slug.split('/');
-    const { picks, ambiguous, localOnly, segments } = extractInstallTargets(text, { owner, repo });
-    const hint = segments[0]?.command ?? segments[0]?.seg ?? text.split(/\r?\n/).find((l) => /install|安装/i.test(l)) ?? '';
-    if (picks.length > 0) gaps.push({ slug, picks, hint });
-    else if (ambiguous) pendingBuckets.ambiguous.push({ slug, hint });
-    else if (localOnly) pendingBuckets.localOnly.push({ slug, hint });
-    else pendingBuckets.noCommand.push({ slug, hint });
-  }
-});
-await Promise.all(pendingWorkers);
-
-// ---------------------------------------------------------------------------
 // Report.
 console.log(`re-verified ${mappedSlugs.length} mapped entries against upstream READMEs`);
 if (problems.length) {
@@ -317,35 +282,5 @@ if (notes.length) {
   for (const note of notes) console.warn(`Warning: ${note}`);
   await summaryBlock('Packages re-verification notes', notes.map((n) => `- ${n}`).join('\n'));
 }
-const gapLines = gaps.map((g) => `- ${g.slug}: ${g.picks.map((p) => p.source).join(', ')}`);
-if (gapLines.length) {
-  for (const line of gapLines) console.warn(`Gap (now extractable): ${line}`);
-  await summaryBlock('Unmapped feed entries that became extractable', gapLines.join('\n'));
-}
-
-if (WRITE_PENDING) {
-  const today = new Date().toISOString().slice(0, 10);
-  const row = ({ slug, hint }) =>
-    `| [${slug}](https://github.com/${slug}) | ${starsOf(slug)} | ${mdEscape(String(hint).slice(0, 140))} |`;
-  const bucketTable = (title, rows) =>
-    [`## ${title}（${rows.length}）`, '', '| 仓库 / Repo | ★ | Hint |', '| --- | ---: | --- |', ...rows.sort((a, b) => starsOf(b.slug) - starsOf(a.slug)).map(row), ''].join('\n');
-  const page = [
-    '# packages 映射待补清单 / Packages mapping work list',
-    '',
-    `市场 feed 中尚无安装映射的仓库，按“为什么没映射”分桶。由 \`node scripts/reverify-packages.mjs --write-pending\` 生成于 ${today}；人工核实后把结论写入 \`data/packages.json\`（命令逐字来自 README 的标 readme-verified；占位符/特殊形态用 install_mode: manual），再重建 \`market-v2.json\`。本清单是快照不是门控——重建前的新增仓库不会自动出现。`,
-    '',
-    bucketTable('README 有多个候选包，需人工裁决 / Ambiguous', pendingBuckets.ambiguous),
-    bucketTable('仅本地或 link: 安装 / Local-only installs', pendingBuckets.localOnly),
-    bucketTable('无 dsh plugin 安装命令 / No install command', pendingBuckets.noCommand),
-  ].join('\n');
-  await writeFile(resolve(root, 'data/review/packages-pending.md'), `${page}\n`);
-  console.log(`\nwrote data/review/packages-pending.md — ${pendingBuckets.ambiguous.length} ambiguous, ${pendingBuckets.localOnly.length} local-only, ${pendingBuckets.noCommand.length} without a command`);
-}
-
-const mappedInFeed = market.entries.filter((e) => packages.entries[String(e.full_name).toLowerCase()]).length;
-console.log(
-  `\nfeed coverage: ${mappedInFeed}/${market.entries.length} feed entries mapped` +
-    (gaps.length ? `, ${gaps.length} newly extractable` : ''),
-);
 
 if (problems.length) process.exit(1);

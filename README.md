@@ -85,9 +85,9 @@ mindmap
 | 30 秒选出一个插件 | [精选推荐](#-精选推荐)：从「我想让 DSH 做什么」出发，按场景分组列出社区优秀插件 |
 | 第一次装插件 | [新手入门组合](#-新手入门组合)：按当前问题选一套组合，不用一次装很多 |
 | 按热度翻完整榜单 | [社区热度榜](#-社区热度榜)（首页 Top 50）· [TOP200.md](./TOP200.md)（完整 Top 200） |
+| 用程序消费插件数据 | npm feed `awesome-dsh-plugin-feed` 的 [market-catalog.json](https://cdn.jsdelivr.net/npm/awesome-dsh-plugin-feed/data/market-catalog.json)——完整已审核目录（每行带 `install_status` 与安装映射）+ 官方订阅 + 编辑精选，字段见[消费协议](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)；[data/repositories.json](./data/repositories.json)——每日自动快照，含星数、许可证、活跃度等元数据 |
 | 按分类浏览全部项目 | [CATALOG.md](./CATALOG.md)（全量目录）· [生态全景](#-生态全景)（分类概览） |
 | 看看作者们自己提交的新插件 | [作者自荐](#-作者自荐)（首页最近 10 条）· [SHOWCASE.md](./SHOWCASE.md)（全部） |
-| 用程序消费插件数据 | [data/market-v2.json](./data/market-v2.json)——面向下游市场的精选文件（≤1000 条、≤1 MB，见[接口规范](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)）；[data/repositories.json](./data/repositories.json)——每日自动快照，含星数、许可证、活跃度等元数据 |
 | 收录或推荐你自己的插件 | [推荐或修正插件](#-推荐或修正插件) / [CONTRIBUTING](./CONTRIBUTING.md) |
 
 ## ⭐ 精选推荐
@@ -374,7 +374,7 @@ mindmap
 - **数据自动、页面人工：** 原始快照与待审核队列每天由脚本自动刷新；全量目录与 Top 200 热度榜只在人工核实合并后重新生成（生成逻辑见 [scripts/merge.mjs](./scripts/merge.mjs) 与 [scripts/top.mjs](./scripts/top.mjs)，可随时切回 Top 100）；首页精选推荐、自荐与最近加入由人工维护，避免刷星、蹭 Topic 等被污染的接口数据直接改写推荐内容。
 - **剔除蹭热度条目：** 带 `dsh-plugin` Topic 但并非 DSH 插件的仓库（平台本体、其他 Agent 工具、同名目录站等）以及编辑部拉黑的仓库不计入目录与榜单，理由逐条记录在 [data/curated.json](./data/curated.json)（榜单另有 `leaderboard_exclusions`：保留在目录中、但不参与榜单排序的仓库），可随时复查与质疑。
 - **审核留痕：** 每个收录决定都可回查——核准日期在 [data/approved.json](./data/approved.json)，剔除与榜单排除理由逐条记录在 [data/curated.json](./data/curated.json)；大批量复核另附叙述性存档（如 [2026-11-18 审核记录](./data/review/2026-11-18.md)），全流程约定见 [data/review/README.md](./data/review/README.md)。
-- **下游市场文件：** [data/market-v2.json](./data/market-v2.json) 是给下游市场（如 DSH 桌面端插件市场）消费的精选小文件——在快照与 curation 之上过滤、清洗并按类目均衡发牌（≤1000 条、≤1 MB），每日快照刷新与 curation 合并后自动重建；字段与生成规则见下游的[发布规范](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)。同一时序下同步生成根目录 [MARKET.md](./MARKET.md)——这份文件的只读可视化（按 Star 数排名），可在 GitHub 上直接预览市场内容，无需安装下游插件。
+- **市场数据（npm feed）：** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) 发布 `market-catalog.json`（schema 3：完整已审核目录，每行带 `install_status` 与安装映射，另含官方订阅与编辑精选）和 `packages.json`（安装映射源）；由 `scripts/safe-market-catalog.mjs` 投影、`publish-npm-feed.mjs` 打包，国内经 npmmirror 镜像分发。旧的 market-v2（≤1000 条）与 MARKET.md 已于 2026-11-18 退役，schema 2 仅作为下游自定义地址的兼容格式保留。字段见下游的[消费协议](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
 截至 2026-11-17，全量目录收录 **28724** 个仓库、**41** 种主要语言；其中 **26413** 个声明了许可证，**28404** 个未归档且未禁用（目录随人工审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。

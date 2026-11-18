@@ -1,0 +1,82 @@
+name: Fill catalog install mappings
+
+# The schema-3 market catalog carries the reviewed repository list, most of
+# which has no install target yet. This job closes that gap from the upstream
+# READMEs, daily and in star order: the extractor picks the documented
+# `dsh plugin … add` command, the registry proves the npm package belongs to
+# the repository, and only then is the mapping appended to data/packages.json.
+# Anything ambiguous (renamed package, local-only install, placeholder
+# profile, poisoned bare-name npm package) is left in
+# data/review/catalog-mapping.md for the review pass — exceptions are an
+# editorial decision, not a crawl decision.
+#
+# Runs after the daily snapshot so stars, default branches and pushed_at are
+# fresh. A packages.json push re-triggers the market feed rebuild, so the
+# catalog publishes the new install_status the same day.
+
+on:
+  schedule:
+    # 15:40 UTC — after the 14:17 snapshot and its review-queue refresh.
+    - cron: '40 15 * * *'
+  workflow_dispatch:
+    inputs:
+      min_stars:
+        description: 'Only map repositories at or above this star count'
+        required: false
+        default: '5'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-fill-catalog-mappings
+  cancel-in-progress: false
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: 22
+      - name: Extract and verify catalog mappings
+        env:
+          MIN_STARS: ${{ github.event.inputs.min_stars || '5' }}
+        run: node scripts/catalog-mappings.mjs --min-stars "$MIN_STARS" --apply --write-report
+      - name: Validate the packages mapping
+        run: node scripts/validate-packages.mjs
+      - name: Run the mapping-rule tests
+        run: node --test scripts/test-catalog-mappings.mjs scripts/test-safe-market-catalog.mjs
+      - name: Commit the new mappings and the exception queue
+        env:
+          MIN_STARS: ${{ github.event.inputs.min_stars || '5' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          stage() {
+            git add data/packages.json data/review/catalog-mapping.md data/review/catalog-mapping.json
+            if git diff --cached --quiet; then
+              echo "No mapping changed this run — every confident target was already recorded."
+              return 1
+            fi
+            git commit -m "data: fill catalog install mappings (>=${MIN_STARS} stars)"
+          }
+          if ! stage; then exit 0; fi
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then break; fi
+            echo "Push rejected (attempt $attempt) — re-extracting on top of origin/main."
+            git fetch --depth=1 origin main
+            git reset --hard FETCH_HEAD
+            node scripts/catalog-mappings.mjs --min-stars "$MIN_STARS" --apply --write-report
+            node scripts/validate-packages.mjs
+            if ! stage; then exit 0; fi
+          done
+          echo "Push still rejected after 3 attempts."
+          exit 1

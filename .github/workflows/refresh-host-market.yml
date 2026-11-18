@@ -4,14 +4,15 @@ on:
   schedule:
     - cron: '47 14 * * *'
   workflow_run:
-    workflows: ['Refresh the v2 market feed']
+    workflows:
+      - 'Refresh snapshot and review queue'
+      - 'Expand subscription mappings'
     types: [completed]
   push:
     branches: [main]
     paths:
       - 'scripts/host-market/**'
       - '.github/workflows/refresh-host-market.yml'
-      - 'data/market-v2.json'
   workflow_dispatch:
     inputs:
       retry_count:

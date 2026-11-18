@@ -13,7 +13,7 @@ async function fixture(t) {
   t.after(() => rm(root, { recursive: true, force: true }));
   await mkdir(resolve(root, 'scripts'));
   await cp(resolve(repo, 'data'), resolve(root, 'data'), { recursive: true });
-  for (const name of ['publish-npm-feed', 'safe-market-catalog', 'render', 'star-anomaly', 'validate-packages', 'validate-market-v2', 'market-v2', 'readme-install', 'market-pool', 'categories', 'markdown', 'validate-market-entries']) {
+  for (const name of ['publish-npm-feed', 'safe-market-catalog', 'market-shadow', 'render', 'star-anomaly', 'validate-packages', 'validate-market-catalog', 'market-wire', 'readme-install', 'market-pool', 'categories', 'markdown']) {
     await cp(resolve(repo, `scripts/${name}.mjs`), resolve(root, `scripts/${name}.mjs`));
   }
   return root;
@@ -47,12 +47,13 @@ test('registry errors block publishing but permit an explicitly offline build', 
   assert.equal((await run(root, "throw new Error('timeout')", false)).status, 0);
 });
 
-test('invalid market snapshots never reach npm', async (t) => {
+test('invalid install mappings never reach npm', async (t) => {
   const root = await fixture(t);
-  const file = resolve(root, 'data/market-v2.json');
-  const v2 = JSON.parse(await readFile(file, 'utf8'));
-  v2.entries = [];
-  await writeFile(file, JSON.stringify(v2));
+  const file = resolve(root, 'data/packages.json');
+  const packages = JSON.parse(await readFile(file, 'utf8'));
+  const [slug] = Object.keys(packages.entries);
+  packages.entries[slug].packages[0].install = 'not-the-source';
+  await writeFile(file, JSON.stringify(packages));
   const result = await run(root, 'return {status:404,ok:false}');
   assert.notEqual(result.status, 0);
   assert.doesNotMatch(result.stdout, /MOCK_NPM_PUBLISH/);
@@ -63,7 +64,7 @@ test('first publication, version bump and digest no-op', async (t) => {
   const first = await run(root, 'return {status:404,ok:false}');
   assert.equal(first.status, 0, first.stderr);
   assert.match(first.stdout, /MOCK_NPM_PUBLISH/);
-  assert.deepEqual((await readdir(resolve(root, 'dist-npm/data'))).sort(), ['market-catalog.json', 'market-v2.json', 'packages.json']);
+  assert.deepEqual((await readdir(resolve(root, 'dist-npm/data'))).sort(), ['market-catalog.json', 'packages.json']);
   const manifest = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
   const doc = { 'dist-tags': { latest: manifest.version }, versions: { [manifest.version]: manifest } };
   const response = () => `return {ok:true,status:200,json:async()=>(${JSON.stringify(doc)})}`;
@@ -108,9 +109,7 @@ test('an E409 version collision retries once with a bumped patch', async (t) => 
   const root = await fixture(t);
   // The raced packument read never lists the colliding version — the retry
   // must recover it from the 409 body alone.
-  const day = JSON.parse(await readFile(resolve(root, 'data/market-v2.json'), 'utf8')).generated_at
-    .slice(0, 10)
-    .replaceAll('-', '');
+  const day = new Date().toISOString().slice(0, 10).replaceAll('-', '');
   await writeFile(resolve(root, 'mock.mjs'), `
     import cp from 'node:child_process';
     import { syncBuiltinESMExports } from 'node:module';

@@ -1,5 +1,5 @@
 // Shared Markdown escaping for every generated table (CATALOG volumes,
-// TOP200.md, the README data islands, pending.md, MARKET.md, the packages
+// TOP200.md, the README data islands, pending.md, the packages
 // work list).
 //
 // Repository descriptions are written by repository owners and can change at

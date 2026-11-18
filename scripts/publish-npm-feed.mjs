@@ -6,8 +6,11 @@
 // published to npmjs.org and mirrors over within minutes; consumers behind
 // the GFW fetch from npmmirror instead of raw.githubusercontent.com.
 //
-// Package contents: legacy market-v2, install mappings, and market-catalog
-// (complete reviewed repositories plus the published subscription).
+// Package contents: install mappings and market-catalog (the reviewed catalog
+// after every market exclusion, each row carrying an explicit install_status,
+// plus the published subscription and the editorial shortlist). market-v2 was
+// retired on 2026-11-18 — schema 2 stays readable by dsh-market-pro for
+// self-hosted legacy URLs, but this repository no longer ships one.
 // Versioning is calver 0.YYYYMMDD.N — one data snapshot per day,
 // patch bumps for intraday republications.
 //
@@ -30,18 +33,21 @@ const REGISTRY = 'https://registry.npmjs.org';
 const DIST = resolve(root, 'dist-npm');
 
 // Validate before reading or publishing: manual runs must obey the same gate as CI.
-for (const script of ['validate-packages.mjs', 'validate-market-v2.mjs']) {
+for (const script of ['validate-packages.mjs', 'validate-market-catalog.mjs']) {
   const result = spawnSync(process.execPath, [resolve(root, 'scripts', script)], { stdio: 'inherit' });
   if (result.status !== 0) process.exit(result.status ?? 1);
 }
 
-const files = ['data/market-v2.json', 'data/packages.json', 'data/market-catalog.json'];
-const reads = await Promise.all(files.slice(0, 2).map((f) => readFile(resolve(root, f), 'utf8')));
-reads.push(`${JSON.stringify(await readSafeMarketCatalog(new URL('../', import.meta.url)))}\n`);
+const files = ['data/packages.json', 'data/market-catalog.json'];
+const catalog = await readSafeMarketCatalog(new URL('../', import.meta.url));
+const reads = [
+  await readFile(resolve(root, 'data/packages.json'), 'utf8'),
+  `${JSON.stringify(catalog)}\n`,
+];
 const digest = createHash('sha256').update(reads.join('\n')).digest('hex');
 
-const v2 = JSON.parse(reads[0]);
-const day = String(v2.generated_at ?? new Date().toISOString()).slice(0, 10).replaceAll('-', '');
+const generatedAt = new Date().toISOString();
+const day = generatedAt.slice(0, 10).replaceAll('-', '');
 
 async function latestInfo() {
   try {
@@ -97,13 +103,13 @@ function writeDist(version) {
   const packageJson = {
     name: PKG_NAME,
     version,
-    description: 'DSH plugin market feeds — current feed with paste-ready install targets, and the packages mapping. China-reachable via registry.npmmirror.com.',
+    description: 'DSH plugin market catalog — every reviewed repository with its install status, the published subscription, and the packages mapping. China-reachable via registry.npmmirror.com.',
     license: 'MIT',
     repository: { type: 'git', url: 'git+https://github.com/bruc3van/awesome-dsh-plugin-pro.git' },
     homepage: 'https://github.com/bruc3van/awesome-dsh-plugin-pro#readme',
     files: ['data', 'README.md'],
     feedDigest: digest,
-    feedGeneratedAt: v2.generated_at,
+    feedGeneratedAt: generatedAt,
   };
   return writeFile(resolve(DIST, 'package.json'), `${JSON.stringify(packageJson, null, 2)}\n`);
 }
@@ -115,25 +121,24 @@ async function writeReadme(version) {
     `Market data snapshot for the [awesome-dsh-plugin-pro](https://github.com/bruc3van/awesome-dsh-plugin-pro) catalog, published so consumers can fetch it from an npm registry — including the China-reachable mirror registry.npmmirror.com — when raw.githubusercontent.com is unreachable.`,
     '',
     `- version: \`${version}\` (calver \`0.YYYYMMDD.N\`)`,
-    `- feed generated at: \`${v2.generated_at}\``,
+    `- feed generated at: \`${generatedAt}\``,
     `- data digest (sha256): \`${digest}\``,
     '',
     '## Files',
     '',
     '| File | What it is |',
     '| --- | --- |',
-    '| `data/market-v2.json` | Current feed (schema 2) — mapped entries carry a `packages` block with `install` (paste-ready into the official 插件→添加插件 box: npm name or repo URL), `command`, requirements and verification |',
-    '| `data/market-catalog.json` | Complete reviewed repository catalog (schema 3) plus every published official subscription plugin and its discovery categories. Counts follow the source data automatically. |',
-    '| `data/packages.json` | the hand-maintained install-target source of truth, including entries outside the legacy shortlist |',
+    '| `data/market-catalog.json` | The market catalog (schema 3): the reviewed repository catalog after every market exclusion (board exclusions included), each row carrying `install_status` (`command` / `manual` / `none`) and, for a repository that publishes a subscription plugin, that plugin\u2019s `title_zh` / `title_en` / `description_en`; plus the complete published subscription and the editorial shortlist. market-v2 (schema 2) was retired on 2026-11-18. |',
+    '| `data/packages.json` | the hand-maintained install-target source of truth behind every `packages` block |',
     '',
     '## Fetching',
     '',
     '```bash',
     '# npmmirror (China): direct file access, 302-redirected — follow redirects',
-    'curl -L -O https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-v2.json',
+    'curl -L -O https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-catalog.json',
     '',
     '# or via jsDelivr\'s npm CDN',
-    'curl -O https://cdn.jsdelivr.net/npm/awesome-dsh-plugin-feed/data/market-v2.json',
+    'curl -O https://cdn.jsdelivr.net/npm/awesome-dsh-plugin-feed/data/market-catalog.json',
     '',
     '# or the classic way: packument → dist.tarball',
     'npm view awesome-dsh-plugin-feed dist.tarball --registry=https://registry.npmmirror.com',

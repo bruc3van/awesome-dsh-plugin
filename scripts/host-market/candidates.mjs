@@ -5,7 +5,7 @@ import {
   categoryForRepo,
   filterPool,
 } from '../market-pool.mjs'
-import { packagesBlockFor } from '../market-v2.mjs'
+import { packagesBlockFor } from '../market-wire.mjs'
 import { MAX_PLUGINS, SELECTION_POLICY } from './policy.mjs'
 const compare = (a, b) => b.stargazers_count - a.stargazers_count || (a.full_name < b.full_name ? -1 : a.full_name > b.full_name ? 1 : 0)
 export function buildCandidates({ market, snapshot, curated, approved, packages }) {

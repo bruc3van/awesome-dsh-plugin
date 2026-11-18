@@ -6,17 +6,24 @@ import { spawnSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
 import { buildCandidates } from './candidates.mjs'
 import { assertPublishable } from './policy.mjs'
+import { buildMarketShadow } from '../market-shadow.mjs'
 
 const root = fileURLToPath(new URL('../../', import.meta.url))
 const candidate = resolve(root, '.output/host-market/index.json')
 const target = resolve(root, 'data/dsh-market-index.json')
-const inputs = { market: 'market-v2', snapshot: 'repositories', curated: 'curated', approved: 'approved', packages: 'packages' }
+// The index generator predates schema 3: build its schema-2-shaped input in
+// memory (the published market-v2 file was retired on 2026-11-18).
+const inputs = { snapshot: 'repositories', curated: 'curated', approved: 'approved', packages: 'packages' }
 const values = {}, hashes = {}
 for (const [key, name] of Object.entries(inputs)) {
   const raw = await readFile(resolve(root, `data/${name}.json`))
   values[key] = JSON.parse(raw)
   hashes[`data/${name}.json`] = createHash('sha256').update(raw).digest('hex')
 }
+const featuredRaw = await readFile(resolve(root, 'data/featured.json'))
+const featured = JSON.parse(featuredRaw)
+hashes['data/featured.json'] = createHash('sha256').update(featuredRaw).digest('hex')
+values.market = buildMarketShadow({ ...values, featured })
 const feed = buildCandidates(values)
 feed.subscriptionCandidates.sourceSha256 = hashes
 const input = resolve(root, '.output/host-market/candidates.json')

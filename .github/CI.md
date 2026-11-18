@@ -4,30 +4,29 @@
 
 ```mermaid
 flowchart TD
-  Daily[每日 22:17 抓取快照与 review queue] --> V2[Refresh v2 market feed]
-  Curation[审批 / 策展 / 生成器变更] --> V2
-  Expand[每日 00:12 / 手动扩容映射] --> V2
-  Mapping[packages / featured 变更] --> V2
-  V2 --> Feed[data/market-v2.json + MARKET.md]
-  V2 --> NPM[npm OIDC 发布]
-  V2 --> Host[宿主索引生成与验证]
+  Daily[每日 22:17 抓取快照与 review queue] --> Host[宿主索引生成与验证]
+  Curation[审批 / 策展 / 生成器变更] --> NPM[npm OIDC 发布]
+  Expand[每日 00:12 / 手动扩容映射] --> Host
+  Mapping[packages / featured 变更] --> NPM
+  Fill[每日 15:40 目录映射补齐] --> NPM
   HostCode[宿主生成器变更 / 每日 22:47 / 手动] --> Host
   Host --> Artifact[本次运行的 validated-market artifact]
   Artifact --> Publish[原子推送 main 与 market-release]
   Publish -. main 前进时最多两次重新生成 .-> Host
+  Host --> NPM
+  NPM --> Feed[npm feed: market-catalog.json + packages.json]
 ```
 
-图中的跨工作流箭头使用 `workflow_run`，只接受成功的 main 运行。扩容是独立入口，不再跟在宿主发布之后，避免形成循环或超过 GitHub 的三层级联限制。最长正常链为「快照/扩容 → v2 → npm、宿主」。
+图中的跨工作流箭头使用 `workflow_run`，只接受成功的 main 运行。扩容是独立入口，不再跟在宿主发布之后，避免形成循环或超过 GitHub 的三层级联限制。最长正常链为「快照/扩容 → 宿主索引 → npm feed」；market-v2 已退役，feed 只有 schema 3 目录。
 
 `GITHUB_TOKEN` 提交不会触发一般的 `push` 工作流，因此不能用「扩容提交 packages.json → push」衔接发布。显式 `workflow_dispatch` 可以使用该 token，宿主冲突恢复用它发起全新运行。
 
 | 工作流文件 | 触发 | 职责 |
 | --- | --- | --- |
 | `update-catalog.yml` | 每日 22:17、手动 | 更新快照、待审核队列；不自动审批或更新人工目录 |
-| `expand-subscription-mappings.yml` | 每日 00:12、手动 | 未满 1000 时补充可核实映射、保存待复核项目；成功后衔接 v2 |
-| `refresh-market-v2.yml` | 快照或扩容成功、策展/映射/精选/生成依赖变更、手动 | 从快照、审批、策展、安装映射与精选直接生成并校验 v2 和预览 |
-| `refresh-host-market.yml` | v2 成功、宿主代码/索引变更、每日 22:47、手动 | 无写凭证生成；独立发布 job 验证 artifact 后原子发布 |
-| `publish-npm-feed.yml` | v2 成功、手动 | 回归测试、digest 去重、OIDC 发布，并刷新 jsDelivr 的 latest 与无版本别名缓存；不取消进行中的发布 |
+| `expand-subscription-mappings.yml` | 每日 00:12、手动 | 在网关字节预算内补充可核实映射、保存待复核项目；成功后衔接宿主索引 |
+| `refresh-host-market.yml` | 快照或扩容成功、宿主代码/索引变更、每日 22:47、手动 | 从快照、审批、策展、安装映射与精选重建官方索引；无写凭证生成，独立发布 job 验证 artifact 后原子发布 |
+| `publish-npm-feed.yml` | 宿主索引成功、目录映射补齐成功、手动 | 回归测试、digest 去重、OIDC 发布，并刷新 jsDelivr 的 latest 与无版本别名缓存；不取消进行中的发布 |
 | `refresh-showcase.yml` | SHOWCASE.md 变更、手动 | 更新中英文 README 展示区 |
 | `reverify-packages.yml` | 每周一 23:33、手动 | 在线复核映射；仅报告，不改映射 |
 | `validate-pr.yml` | PR 打开、更新、改标题/标签等 | 从 base 执行规则校验，不执行 PR 代码 |
@@ -37,7 +36,7 @@ flowchart TD
 ## 并发和故障恢复
 
 - 各写入工作流保留独立 concurrency group；共享一个组会让不同类型的 pending 任务相互淘汰。工作流开始时读取最新 main，避免队列中旧事件生成旧数据。
-- v2、展示页、快照和扩容推送最多尝试三次。遇到 main 前进时，从新 tip 重新生成；扩容重试保留 GitHub API token。最后一次失败后不再生成一份不会推送的数据。
+- npm feed、展示页、快照和扩容推送最多尝试三次。遇到 main 前进时，从新 tip 重新生成；扩容重试保留 GitHub API token。最后一次失败后不再生成一份不会推送的数据。
 - 宿主发布始终使用本次验证的 artifact，`main` 和 `market-release` 同时推进；不 rebase 或强推旧产物。main 前进导致失败时，显式排队全新生成，最多自动重试两次。权限错误、dispatch 失败、重试耗尽仍报红。排队成功只表示已交接，需查看后续运行确认最终发布。
 - npm 发布串行完成；digest 相同则退出，版本冲突由现有脚本重新读取 registry 并重试。取消运行不能撤销已经发送的 registry 请求。
 - 工作流校验不等于发布前统一审批门：独立的 main 校验和发布入口可能并行。保护规则、npm trusted publisher 配置、外部服务可用性仍由实际远端运行确认。

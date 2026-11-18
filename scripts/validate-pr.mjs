@@ -14,10 +14,9 @@
 //        curated.json) — a curation change that moves catalog membership must
 //        ship its regenerated pages, which validate-curated.yml enforces with
 //        `merge.mjs --check`;
-//      - feed files (MARKET.md, data/market-v2.json,
-//        data/review/packages-pending.md) are accepted only alongside
-//        scripts/ changes — on main they are rebuilt by refresh-market /
-//        refresh-market-v2 after the merge.
+//      - the market feed (market-catalog.json / packages.json) is generated
+//        at release time by publish-npm-feed and never committed, so no feed
+//        file is accepted from a PR;
 //    The daily-pipeline files (data/repositories.json, data/review/pending.*)
 //    are never accepted. Anything else — e.g. a made-up data/plugins/*.yml
 //    submission — is rejected: no lane consumes it. Maintainers can bypass
@@ -89,15 +88,13 @@ const handMaintainedPaths = new Set([
   'SHOWCASE.md', 'README.md', 'README_EN.md', 'CONTRIBUTING.md', 'LICENSE',
   '.gitattributes', '.gitignore',
   ...curationPaths, 'data/leaderboard-descriptions-zh.json', 'data/packages.json',
-  'data/review/README.md',
+  'data/featured.json', 'data/catalog-mapping-skips.json', 'data/review/README.md',
 ]);
 const touchesScripts = (path) => path === 'scripts' || path.startsWith('scripts/');
 const touchesWorkflow = (path) => path === '.github' || path.startsWith('.github/');
 const isCatalogPage = (path) =>
   path === 'CATALOG.md' || path === 'TOP200.md' || path === 'catalog' || path.startsWith('catalog/');
 const isFeedFile = (path) =>
-  path === 'MARKET.md' || path === 'data/market-v2.json' ||
-  path === 'data/review/packages-pending.md' ||
   path === 'data/dsh-market-index.json' || path === 'data/dsh-market-index.report.json';
 const isPipeline = (path) =>
   path === 'data/repositories.json' ||

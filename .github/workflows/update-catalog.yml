@@ -44,8 +44,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update.mjs
-      # The successful snapshot run triggers refresh-market-v2.yml, the sole
-      # producer of the market feed and MARKET.md.
+      # The successful snapshot run triggers refresh-host-market.yml, which
+      # republishes the official index and in turn triggers the npm feed build.
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"

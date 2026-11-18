@@ -23,7 +23,7 @@
 4. 身份可追溯（npm `repository`/`homepage` 对上 GitHub、包名与仓库一致、或 README 写明该包；Git 来源经本仓库固定提交取证）的条目自动写入；未声明 `engines.dsh` 按官方 dshRange 视为不受限，可以自动映射；
 5. 模板/占位包名、npm 身份对不上仓库的条目写入 `mapping-pending.md`，不自动上架。
 
-随后 `refresh-market-v2` / `refresh-host-market` 会再做安装来源核验；自动映射不是安全审查或实机兼容保证。
+随后 `refresh-host-market` 会再做安装来源核验；自动映射不是安全审查或实机兼容保证。
 
 ## AI 核实映射
 
@@ -33,4 +33,4 @@
 - 核对该 npm 包是否就是这个 GitHub 仓库（维护者/作者、包名、README 安装目标、repository 重定向）。对得上再写入映射；对不上保持待审，不要猜。
 - 不要给上游代填 `engines.dsh`。未声明范围可以按官方不受限规则映射，并在 `verified_via` / `note` 写明依据。
 - 模板、示例、占位 `@your-scope` 不要写入。
-- 写入后运行 `node scripts/validate-packages.mjs`，不要手改 `market-v2.json` 或订阅索引。
+- 写入后运行 `node scripts/validate-packages.mjs`，不要手改订阅索引或 `packages.json` 之外的生成物。

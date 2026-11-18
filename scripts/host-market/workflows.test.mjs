@@ -21,19 +21,27 @@ test('workflow_run publication graph has no cycles, unknown parents, or chains o
 
 test('bot mapping commits reach both publishers without relying on push events', () => {
   const expansion = workflows.get('expand-subscription-mappings.yml')
-  const v2 = workflows.get('refresh-market-v2.yml')
-  assert.ok(v2.on.workflow_run.workflows.includes(expansion.name))
-  assert.ok(workflows.get('refresh-host-market.yml').on.workflow_run.workflows.includes(v2.name))
-  assert.ok(workflows.get('publish-npm-feed.yml').on.workflow_run.workflows.includes(workflows.get('refresh-host-market.yml').name))
+  const fill = workflows.get('fill-catalog-mappings.yml')
+  const host = workflows.get('refresh-host-market.yml')
+  const publish = workflows.get('publish-npm-feed.yml')
+  assert.ok(host.on.workflow_run.workflows.includes(expansion.name), 'mapping expansion refreshes the index')
+  assert.ok(publish.on.workflow_run.workflows.includes(host.name), 'the published index triggers the feed build')
+  assert.ok(publish.on.workflow_run.workflows.includes(fill.name), 'catalog mapping fills reach the feed')
   assert.ok(!expansion.on.workflow_run, 'expansion must not form a publication feedback loop')
+  assert.ok(!fill.on.workflow_run, 'catalog mapping must not form a publication feedback loop')
 })
 
 test('reviewed source changes reach the sole market producer', () => {
   assert.ok(!workflows.has('refresh-market.yml'))
-  const feed = workflows.get('refresh-market-v2.yml')
-  assert.ok(feed.on.workflow_run.workflows.includes(workflows.get('update-catalog.yml').name))
-  for (const path of ['data/approved.json', 'data/curated.json', 'data/packages.json', 'data/featured.json', 'scripts/market-pool.mjs', 'scripts/categories.mjs', 'scripts/markdown.mjs']) {
-    assert.ok(feed.on.push.paths.includes(path), `${path} must regenerate the current feed`)
+  assert.ok(!workflows.has('refresh-market-v2.yml'), 'the schema-2 feed was retired')
+  const host = workflows.get('refresh-host-market.yml')
+  assert.ok(host.on.workflow_run.workflows.includes(workflows.get('update-catalog.yml').name), 'snapshots refresh the index')
+  const publish = workflows.get('publish-npm-feed.yml')
+  for (const path of [
+    'data/approved.json', 'data/curated.json', 'data/packages.json', 'data/featured.json',
+    'scripts/market-pool.mjs', 'scripts/market-wire.mjs', 'scripts/safe-market-catalog.mjs',
+  ]) {
+    assert.ok(publish.on.push.paths.includes(path), `${path} must regenerate the catalog feed`)
   }
 })
 
@@ -43,14 +51,14 @@ test('publishers follow main and npm publication is not cancelled midway', () =>
       if (w.on.workflow_run) assert.match(job.if ?? (job.needs ? 'head_branch' : ''), /head_branch/)
     }
   }
-  for (const name of ['expand-subscription-mappings', 'refresh-market-v2', 'refresh-showcase', 'update-catalog', 'publish-npm-feed']) {
+  for (const name of ['expand-subscription-mappings', 'refresh-host-market', 'refresh-showcase', 'update-catalog', 'publish-npm-feed']) {
     const job = Object.values(workflows.get(`${name}.yml`).jobs)[0]
     assert.equal(job.steps[0].with.ref, 'main')
   }
   assert.equal(workflows.get('publish-npm-feed.yml').concurrency['cancel-in-progress'], false)
   const hostPaths = workflows.get('refresh-host-market.yml').on.push.paths
-  for (const p of ['data/packages.json', 'data/approved.json', 'data/curated.json', 'scripts/market-v2.mjs']) {
-    assert.ok(!hostPaths.includes(p), `${p} must flow through v2 before host publication`)
+  for (const p of ['data/packages.json', 'data/approved.json', 'data/curated.json']) {
+    assert.ok(!hostPaths.includes(p), `${p} must flow through the publication graph before host publication`)
   }
 })
 

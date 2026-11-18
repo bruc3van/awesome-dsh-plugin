@@ -20,6 +20,7 @@ import { npmTarget, projectPackage } from './generate.mjs'
 import { classifyTarget, readGitTarget } from './git.mjs'
 import { withGitHubObjects } from './audit-github.mjs'
 import { verifyNpmPlugin } from './npm.mjs'
+import { buildMarketShadow } from '../market-shadow.mjs'
 const root = fileURLToPath(new URL('../../', import.meta.url))
 const timeoutIndex = process.argv.indexOf('--timeout-ms')
 const timeoutMs =
@@ -613,9 +614,21 @@ async function main() {
     concurrency > 12
   )
     throw Error('Invalid batch/concurrency')
-  const raw = await readFile(resolve(root, 'data/market-v2.json')),
-    feed = JSON.parse(raw),
-    feedSha256 = hash(raw)
+  const [snapshotRaw, curatedRaw, approvedRaw, packagesRaw, featuredRaw] = await Promise.all([
+    readFile(resolve(root, 'data/repositories.json')),
+    readFile(resolve(root, 'data/curated.json')),
+    readFile(resolve(root, 'data/approved.json')),
+    readFile(resolve(root, 'data/packages.json')),
+    readFile(resolve(root, 'data/featured.json')),
+  ]),
+    feed = buildMarketShadow({
+      snapshot: JSON.parse(snapshotRaw),
+      curated: JSON.parse(curatedRaw),
+      approved: JSON.parse(approvedRaw),
+      packages: JSON.parse(packagesRaw),
+      featured: JSON.parse(featuredRaw),
+    }),
+    feedSha256 = hash(JSON.stringify(feed))
   const dir = resolve(root, 'data/review/subscription', feedSha256.slice(0, 12))
   const planFile = resolve(dir, 'plan.json')
   let plan
