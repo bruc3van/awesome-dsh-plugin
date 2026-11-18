@@ -39591,8 +39591,14 @@
     },
     {
       "name": "dsh-pi-mode",
-      "title": "dsh-pi-mode",
-      "description": "DSH 的 Pi 模式插件：精简工具与中文提示词，同包提供 Pi、Pi+、Pi-IM，内置低频静默提醒、主动查证与随包文档入口。",
+      "title": {
+        "en": "DSH-Pi",
+        "zh": "DSH-Pi"
+      },
+      "description": {
+        "en": "Choose Pi, Pi+, or Pi-IM for a new conversation. Pi+ adds patch editing and Code Mode for composing tools and filtering their results.",
+        "zh": "新建会话时选择 Pi、Pi+ 或 Pi-IM。Pi+ 可用 apply_patch 编辑文件，用 codemode 批量调用工具并筛选结果。"
+      },
       "author": "youxia",
       "homepage": "https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-pi-mode#readme",
       "repository": {
@@ -39625,8 +39631,8 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0IDQiIHNoYXBlLXJlbmRlcmluZz0iY3Jpc3BFZGdlcyI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjMiIGhlaWdodD0iMSIgZmlsbD0icmdiKDIyOCAxMzggMTIyKSIvPjxyZWN0IHg9IjIiIHk9IjEiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InJnYigyMjggMTM4IDEyMikiLz48cmVjdCB4PSIwIiB5PSIxIiB3aWR0aD0iMSIgaGVpZ2h0PSIzIiBmaWxsPSJyZ2IoNzkgMTQyIDE3OSkiLz48cmVjdCB4PSIxIiB5PSIyIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJyZ2IoNzkgMTQyIDE3OSkiLz48cmVjdCB4PSIzIiB5PSIyIiB3aWR0aD0iMSIgaGVpZ2h0PSIyIiBmaWxsPSJyZ2IoMjM0IDE4MiA5MykiLz48L3N2Zz4K",
       "versions": [
         {
-          "version": "0.4.4",
-          "publishTimestamp": 1794496702,
+          "version": "0.5.0",
+          "publishTimestamp": 1794971418,
           "source": {
             "type": "npm",
             "registry": "https://registry.npmjs.org/"
@@ -57692,6 +57698,17 @@
         }
       },
       "versions": [
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1794971608,
+          "source": {
+            "type": "npm",
+            "registry": "https://registry.npmjs.org/"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.4 <0.3.0"
+          }
+        },
         {
           "version": "0.3.1",
           "publishTimestamp": 1791128088,
