@@ -41,6 +41,8 @@ node scripts/host-market/refresh.mjs
 
 ## 编辑推荐数量
 
+`dsh-market-pro` 通过 npm 安装映射进入官方「发现」页的编辑推荐，核验通过后排在索引第一条，其余插件继续按 Star 排序。订阅源的推荐仓库计数在 `data/featured.json` 的基础上加一。发布前先部署支持置顶策略的站点网关，网关也接受旧索引供回滚使用。
+
 `data/featured.json` 维护推荐仓库，`expected_repository_count` 指定推荐来源应有的仓库数，实际名单以该文件为准。仓库与插件分别计数；手动安装、超出包体积上限或声明 `private: true` 的包不会被伪造为订阅安装项。Mole 通过官方 npm 包 `dsh-mole` 加入编辑推荐；实际可安装插件数以生成报告的 `summary.featuredPlugins` 为准，一个仓库发布多个合格插件时，线上插件数可以多于仓库数。
 
 生成、覆盖 data 和发布前校验都检查推荐来源的仓库数；与配置值不符时保留旧发布并报错，防止仅更新首页或部分数据却被报告为升级完成。生成报告的 `summary.featuredRepositories / featuredPlugins / expectedFeaturedRepositories` 分别记录来源仓库数、实际插件数和预期仓库数。数量要求不放宽安装来源、bundle、完整性和兼容范围的检查。

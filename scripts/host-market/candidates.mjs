@@ -6,7 +6,7 @@ import {
   filterPool,
 } from '../market-pool.mjs'
 import { packagesBlockFor } from '../market-wire.mjs'
-import { MAX_PLUGINS, SELECTION_POLICY } from './policy.mjs'
+import { SELECTION_POLICY, PINNED_SELECTION_POLICY, SUBSCRIPTION_PICK } from './policy.mjs'
 const compare = (a, b) => b.stargazers_count - a.stargazers_count || (a.full_name < b.full_name ? -1 : a.full_name > b.full_name ? 1 : 0)
 export function buildCandidates({ market, snapshot, curated, approved, packages }) {
   if (market.schema_version !== 2 || packages.schema_version !== 1)
@@ -56,7 +56,8 @@ export function buildCandidates({ market, snapshot, curated, approved, packages 
     featuredRepositories: [...new Set((market.featured?.entries ?? []).map(row => row.full_name).filter(Boolean))],
     subscriptionCandidates: {
       policy: 'approved-mapped-pool-v1',
-      selectionPolicy: SELECTION_POLICY,
+      selectionPolicy: market.featured?.entries.some(row => row.full_name === SUBSCRIPTION_PICK.full_name)
+        ? PINNED_SELECTION_POLICY : SELECTION_POLICY,
       communityRepositories: market.entries.length,
       eligiblePoolRepositories: repos.length,
       additionalMappedRepositories: extra.map(row => row.full_name),

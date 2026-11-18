@@ -5,7 +5,7 @@ import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
 import { SELF_EXCLUDED_REPOS } from '../market-pool.mjs'
-import { assertPublishable, MAX_PLUGINS } from './policy.mjs'
+import { assertPublishable, MAX_PLUGINS, PINNED_SELECTION_POLICY, SUBSCRIPTION_PICK } from './policy.mjs'
 import { repositorySlug } from './repository-policy.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
@@ -31,7 +31,15 @@ function fail(message) {
   throw new Error(`${message}; published data must not be committed`)
 }
 
-assertPublishable({ index, indexBytes: Buffer.byteLength(indexText, 'utf8'), fetchFailures: report.fetchFailures, featuredRepositoryCount: report.summary.featuredRepositories, expectedFeaturedRepositoryCount: featured.expected_repository_count })
+const hasPinnedPick = report.selection?.policy === PINNED_SELECTION_POLICY
+assertPublishable({
+  index,
+  indexBytes: Buffer.byteLength(indexText, 'utf8'),
+  fetchFailures: report.fetchFailures,
+  featuredRepositoryCount: report.summary.featuredRepositories,
+  expectedFeaturedRepositoryCount: featured.expected_repository_count + Number(hasPinnedPick),
+  selectionPolicy: report.selection?.policy,
+})
 
 if (index.plugins.length > MAX_PLUGINS)
   fail(`index contains ${index.plugins.length} plugins, sanity ceiling is ${MAX_PLUGINS}`)
@@ -63,17 +71,20 @@ const featuredRepositories = new Set(
     .map((entry) => String(entry?.full_name ?? '').toLowerCase())
     .filter(Boolean),
 )
+if (hasPinnedPick) featuredRepositories.add(SUBSCRIPTION_PICK.full_name)
 
 let previousStars = Infinity
 const names = new Set()
-for (const plugin of index.plugins) {
+for (const [position, plugin] of index.plugins.entries()) {
   if (names.has(plugin.name))
     fail(`duplicate plugin name in index: ${plugin.name}`)
   names.add(plugin.name)
   const stars = plugin.metadata?.sortKeys?.stars ?? -1
-  if (stars > previousStars)
-    fail(`index is not sorted by stars: ${plugin.name}`)
-  previousStars = stars
+  if (!hasPinnedPick || position > 0) {
+    if (stars > previousStars)
+      fail(`index is not sorted by stars: ${plugin.name}`)
+    previousStars = stars
+  }
   for (const reference of [
     plugin.repository?.url,
     ...plugin.versions.map((version) =>
@@ -91,7 +102,7 @@ for (const plugin of index.plugins) {
 
 console.log(
   `Index policy OK: ${index.plugins.length} plugins within the gateway byte budget (${Buffer.byteLength(indexText, 'utf8')} bytes), ` +
-    `report hash matches, stars are non-increasing, no blacklisted package sources` +
+    `report hash matches, Star ordering and package sources pass validation` +
     (report.selection
       ? `, ${report.selection.droppedByLimit} verified plugins beyond the cap`
       : ''),

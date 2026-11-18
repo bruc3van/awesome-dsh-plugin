@@ -11,7 +11,7 @@ import {
   selectTopPlugins,
   trimIndexToBudget,
 } from './generate.mjs'
-import { MAX_PLUGINS } from './policy.mjs'
+import { MAX_PLUGINS, SUBSCRIPTION_PICK, assertPublishable } from './policy.mjs'
 import {
   blockedPluginRepository,
   repositorySlug,
@@ -305,6 +305,25 @@ test('default order mixes npm and Git by repository stars with stable repository
     evidence: [], diagnostics: [] }))
   assert.deepEqual(result.index.plugins.map(p => p.name),
     ['git-high', 'tie-a', 'tie-z', 'tie-b', 'low', 'unknown'])
+})
+
+test('the subscription pick is first while other verified plugins keep their Star order', async () => {
+  const row = (full_name, stargazers_count, install) => ({
+    full_name, stargazers_count, packages: { mode: 'command', targets: [{ install }] },
+  })
+  const pick = row(SUBSCRIPTION_PICK.full_name, 2, SUBSCRIPTION_PICK.name)
+  const result = await generateIndex({
+    schema_version: 2,
+    entries: [row('owner/high', 90, 'high'), row('owner/mid', 20, 'mid')],
+    featured: { entries: [pick] },
+  }, async name => metadata(name))
+  assertPublishable(result)
+  assert.deepEqual(result.index.plugins.map(plugin => plugin.name), [SUBSCRIPTION_PICK.name, 'high', 'mid'])
+  assert.equal(result.index.plugins[0].metadata.sortKeys.stars, 2)
+  assert.ok(result.index.plugins[0].metadata.labels.includes('featured'))
+
+  result.index.plugins.shift()
+  assert.throws(() => assertPublishable(result), /DSH Market Pro must be the first plugin/)
 })
 
 

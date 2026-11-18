@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url'
 import { spawnSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
 import { buildCandidates } from './candidates.mjs'
-import { assertPublishable } from './policy.mjs'
+import { assertPublishable, PINNED_SELECTION_POLICY, SUBSCRIPTION_PICK } from './policy.mjs'
 import { buildMarketShadow } from '../market-shadow.mjs'
 
 const root = fileURLToPath(new URL('../../', import.meta.url))
@@ -23,7 +23,14 @@ for (const [key, name] of Object.entries(inputs)) {
 const featuredRaw = await readFile(resolve(root, 'data/featured.json'))
 const featured = JSON.parse(featuredRaw)
 hashes['data/featured.json'] = createHash('sha256').update(featuredRaw).digest('hex')
-values.market = buildMarketShadow({ ...values, featured })
+values.market = buildMarketShadow({
+  ...values,
+  featured: {
+    ...featured,
+    entries: [SUBSCRIPTION_PICK, ...featured.entries],
+    expected_repository_count: featured.expected_repository_count + 1,
+  },
+})
 const feed = buildCandidates(values)
 feed.subscriptionCandidates.sourceSha256 = hashes
 const input = resolve(root, '.output/host-market/candidates.json')
@@ -50,7 +57,7 @@ try {
   if (error.code !== 'ENOENT') throw error
 }
 try {
-  assertPublishable({ index: next, indexBytes: candidateBytes.byteLength, featuredRepositoryCount: feed.featuredRepositories.length, expectedFeaturedRepositoryCount: values.market.featured?.expected_repository_count }, previous)
+  assertPublishable({ index: next, indexBytes: candidateBytes.byteLength, featuredRepositoryCount: feed.featuredRepositories.length, expectedFeaturedRepositoryCount: values.market.featured.expected_repository_count, selectionPolicy: PINNED_SELECTION_POLICY }, previous)
 } catch (error) {
   // The generic policy message hides which source lookups failed; surface them
   // from the staging report so a transient registry/Git failure is debuggable

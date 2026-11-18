@@ -14,7 +14,7 @@ import { retryOnce } from './retry.mjs'
 import { classifyTarget, readGitTarget } from './git.mjs'
 import { blockedPluginRepository } from './repository-policy.mjs'
 import { isBundle, isPrivate, dshRange } from './vendor/packages.ts'
-import { assertPublishable, MAX_PLUGINS, SELECTION_POLICY, INDEX_TARGET_BYTES } from './policy.mjs'
+import { assertPublishable, MAX_PLUGINS, SELECTION_POLICY, PINNED_SELECTION_POLICY, SUBSCRIPTION_PICK, INDEX_TARGET_BYTES } from './policy.mjs'
 import { parseMarketIndex } from '@deepseek-ai/dsh-plugin-market-index'
 
 const REGISTRY = 'https://registry.npmjs.org/'
@@ -411,7 +411,14 @@ export async function generateIndex(
     })
   }
   const selection = selectTopPlugins(eligiblePlugins, ranks, MAX_PLUGINS, featured)
-  const selectedPlugins = selection.plugins
+  const hasPinnedPick = featured.has(SUBSCRIPTION_PICK.full_name)
+  const selectedPlugins = [...selection.plugins]
+  if (hasPinnedPick) {
+    const position = selectedPlugins.findIndex(plugin =>
+      plugin.name === SUBSCRIPTION_PICK.name &&
+      ranks.get(plugin.name).repo.toLowerCase() === SUBSCRIPTION_PICK.full_name)
+    if (position > 0) selectedPlugins.unshift(...selectedPlugins.splice(position, 1))
+  }
   diagnostics.push(...applyPresentation(selectedPlugins))
   const index = {
     format: 1,
@@ -430,6 +437,7 @@ export async function generateIndex(
     featured,
     featuredRepositoryCount: featured.size,
     expectedFeaturedRepositoryCount: feed.featured?.expected_repository_count,
+    selectionPolicy: hasPinnedPick ? PINNED_SELECTION_POLICY : SELECTION_POLICY,
     diagnostics,
     candidates: entries.length + gitEntries.length,
     npmCandidates: entries.length,
@@ -498,10 +506,9 @@ async function main() {
       result.selection.droppedByBudget = trimmed.dropped
       result.selection.droppedByLimit =
         result.selection.eligiblePlugins - result.index.plugins.length
-      const last = result.index.plugins.at(-1)
-      result.selection.cutoffStars = last
-        ? (result.ranks.get(last.name)?.stars ?? -1)
-        : null
+      result.selection.cutoffStars = Math.min(
+        ...result.index.plugins.map(plugin => result.ranks.get(plugin.name)?.stars ?? -1),
+      )
     }
   }
   const reasons = Object.fromEntries(
@@ -575,7 +582,7 @@ async function main() {
         '候选按 npm 包或 Git 目标去重；诊断可按版本/路径多条记录，不等于独立插件数量',
     },
     selection: {
-      policy: SELECTION_POLICY,
+      policy: result.selectionPolicy,
       eligiblePlugins: result.selection.eligiblePlugins,
       included: result.index.plugins.length,
       droppedByLimit: result.selection.eligiblePlugins - result.index.plugins.length,

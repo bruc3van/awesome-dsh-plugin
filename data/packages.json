@@ -2258,6 +2258,19 @@
       "verified_date": "2026-11-17",
       "verified_via": "README@main"
     },
+    "bruc3van/dsh-market-pro": {
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-market-pro",
+          "source": "npm:dsh-market-pro",
+          "command": "dsh plugin --profile web add dsh-market-pro"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-18",
+      "verified_via": "README@master"
+    },
     "btspoony/mstar-harness": {
       "status": "readme-verified",
       "verified_date": "2026-09-26",
