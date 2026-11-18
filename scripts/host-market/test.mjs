@@ -16,6 +16,7 @@ import {
   blockedPluginRepository,
   repositorySlug,
 } from './repository-policy.mjs'
+import { readManifest } from './vendor/packages.ts'
 
 const metadata = (name = 'demo') => ({
   'dist-tags': { latest: '1.2.3' },
@@ -456,4 +457,14 @@ test('official compatibility rules resolve peers and omit unrestricted engines',
   delete m.engines
   m.peerDependencies = { '@deepseek-ai/dsh': 'workspace:*', '@deepseek-ai/dsh-tools': '*' }
   assert.equal(Object.hasOwn(result().plugin.versions[0], 'engines'), false)
+})
+
+test('a package.json saved with a UTF-8 BOM still declares its identity', async () => {
+  const manifest = '\uFEFF' + JSON.stringify({ name: 'dsh-tool-writing', version: '0.8.1', dsh: { bundle: { patch: './cordis.patch.yml' } } })
+  const files = { read: async (path) => (path === 'package.json' ? new TextEncoder().encode(manifest) : undefined) }
+  assert.deepEqual(await readManifest(files, ''), {
+    name: 'dsh-tool-writing',
+    version: '0.8.1',
+    dsh: { bundle: { patch: './cordis.patch.yml' } },
+  })
 })

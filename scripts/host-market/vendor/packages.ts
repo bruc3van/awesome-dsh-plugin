@@ -45,7 +45,9 @@ export async function readManifest(files: PackageFiles, dir: string): Promise<Ma
   if (bytes === undefined) return undefined
   let value: unknown
   try {
-    value = JSON.parse(Buffer.from(bytes).toString('utf8'))
+    // Some publishers save package.json as UTF-8 with a BOM (dsh-tool-writing
+    // does); JSON.parse rejects the BOM, so strip it before parsing.
+    value = JSON.parse(Buffer.from(bytes).toString('utf8').replace(/^\uFEFF/, ''))
   } catch (_malformed) {
     // A malformed manifest declares no package.
     return undefined

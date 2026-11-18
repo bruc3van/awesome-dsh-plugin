@@ -1,10 +1,13 @@
 {
   "repository": "https://github.com/deepseek-ai/deepseek-harness",
   "commit": "39163dd30f703a79079e2d2446545cff3c453738",
+  "localPatches": {
+    "packages.ts": "strip a UTF-8 BOM from a tarball package.json before JSON.parse — dsh-tool-writing@0.8.1 ships one, and rejecting it as an identity mismatch would freeze the whole index"
+  },
   "files": {
     "fetchers.ts": "ab9ce88a5007d265c321c86b0369ca13981c43d7ea1b124161bd24cdbcc4cf05",
     "files.ts": "d82d24ebc0c8e6e26d0c43e3e4c5ffbd4a425510733e00a33ff7850e7a0ced84",
-    "packages.ts": "be2f988a1ad86bd3a49aa33719590a0792a5dc697e98f4866afe5a80eec37f2f",
+    "packages.ts": "5c84d3011e817897f278264189b222ca7f75b02435c4b5d045f0227f011e5fd5",
     "metadata.ts": "909ade88e6238160de24e5989b5124b3b6e860d69fa4dd14a7c7afbec3062de0"
   }
 }
