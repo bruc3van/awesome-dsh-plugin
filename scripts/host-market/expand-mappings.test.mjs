@@ -2,6 +2,7 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import {
   applyProposals,
+  evidenceProposals,
   githubSlugFromUrl,
   identityClear,
   planOutsidePool,
@@ -287,4 +288,34 @@ test('same-day terminal skips leave the plan so batches dig into fresh repositor
     10,
   )
   assert.deepEqual(plan.map((row) => row.full_name), ['a/high', 'a/low'])
+})
+
+test('replaying stored evidence never re-adds a reviewed catalog-mapping skip', () => {
+  const record = (fullName) => ({
+    full_name: fullName,
+    errors: [],
+    readmes: [],
+    candidates: [{
+      origin: 'repository_discovery',
+      name: 'demo',
+      status: 'eligible_metadata',
+      compatibilityUnconstrained: true,
+      declaredCompatibleWithHost: null,
+      plugin: gitPlugin(),
+    }],
+    repository: { commit },
+    outcome: 'mapping_can_be_added',
+  })
+  const eligible = new Set(['owner/demo', 'owner/gone'])
+  const mapped = new Set()
+  const proposals = evidenceProposals([record('Owner/Demo'), record('Owner/Gone')], {
+    mapped,
+    eligible,
+    skipNames: new Set(['owner/gone']),
+  })
+  assert.deepEqual(proposals.map((p) => p.repository), ['Owner/Demo'])
+  assert.ok(mapped.has('owner/demo') && !mapped.has('owner/gone'))
+  // Already-mapped and ineligible repositories stay out too.
+  assert.equal(evidenceProposals([record('Owner/Demo')], { mapped, eligible }).length, 0)
+  assert.equal(evidenceProposals([record('Other/Repo')], { mapped: new Set(), eligible }).length, 0)
 })

@@ -276,6 +276,23 @@ export function planOutsidePool(
   }))
 }
 
+/**
+ * Replay stored evidence into proposals. Already-mapped, ineligible and
+ * reviewed-skip repositories are never proposed again; `mapped` is updated so
+ * one repository is applied at most once.
+ */
+export function evidenceProposals(records, { mapped, eligible, skipNames = new Set() }) {
+  const proposals = []
+  for (const record of records) {
+    const key = String(record.full_name).toLowerCase()
+    if (mapped.has(key) || !eligible.has(key) || skipNames.has(key)) continue
+    const proposal = proposeRecord(record)
+    proposals.push(proposal)
+    if (proposal.decision === 'apply') mapped.add(key)
+  }
+  return proposals
+}
+
 export function applyProposals(packages, proposals, date) {
   if (!DATE.test(date)) throw new Error('verified_date must be YYYY-MM-DD')
   const entries = { ...packages.entries }
@@ -429,20 +446,17 @@ async function main() {
       String(repo.full_name).toLowerCase(),
     ),
   )
+  // Reviewed skips bind every path that can add a mapping: stored evidence
+  // predates a skip decision, so replaying it must not undo that decision.
+  const mappingSkips = await catalogMappingSkipNames()
   if (args.includes('--from-evidence') || args.includes('--fill')) {
-    for (const record of await evidenceRecords()) {
-      const key = String(record.full_name).toLowerCase()
-      if (mapped.has(key) || !eligible.has(key)) continue
-      const proposal = proposeRecord(record)
-      proposals.push(proposal)
-      if (proposal.decision === 'apply') mapped.add(key)
-    }
+    proposals.push(...evidenceProposals(await evidenceRecords(), { mapped, eligible, skipNames: mappingSkips }))
   }
   const inspect = args.includes('--inspect') || args.includes('--fill')
   if (inspect && indexCount < MAX_PLUGINS) {
     const skipNames = new Set([
       ...(await sameDaySkipNames(date)),
-      ...(await catalogMappingSkipNames()),
+      ...mappingSkips,
     ])
     const plan = planOutsidePool(
       {
