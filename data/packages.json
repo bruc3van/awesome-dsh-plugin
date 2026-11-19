@@ -2486,9 +2486,9 @@
       "packages": [
         {
           "profile": "dsh-tui",
-          "install": "@deepseek-harness-tui/dsh-tui",
-          "source": "npm:@deepseek-harness-tui/dsh-tui",
-          "command": "dsh plugin --profile dsh-tui add @deepseek-harness-tui/dsh-tui"
+          "install": "@deepseek-harness-tui/dsh-tui@0.20.1",
+          "source": "npm:@deepseek-harness-tui/dsh-tui@0.20.1",
+          "command": "dsh plugin --profile dsh-tui add @deepseek-harness-tui/dsh-tui@0.20.1"
         }
       ],
       "status": "readme-verified",
@@ -3840,20 +3840,6 @@
       "verified_date": "2026-11-17",
       "verified_via": "README + npm registry",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
-    },
-    "ericwang1358/dsh-web-studyhub": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:EricWang1358/dsh-web-studyhub#f09eb08399908211b54c7cba899c5ec1d93e6b3c",
-          "install": "https://github.com/EricWang1358/dsh-web-studyhub#f09eb08399908211b54c7cba899c5ec1d93e6b3c",
-          "command": "dsh plugin --profile web add \"github:EricWang1358/dsh-web-studyhub#f09eb08399908211b54c7cba899c5ec1d93e6b3c\""
-        }
-      ],
-      "status": "repo-fallback",
-      "verified_date": "2026-10-22",
-      "verified_via": "manifest@f09eb0839990",
-      "note": "README 未提供可用的固定发行版本；按已核验来源固定安装目标。"
     },
     "errorcode7/dsh-prompt-manager": {
       "packages": [
