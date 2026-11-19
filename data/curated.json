@@ -1220,7 +1220,6 @@
     "dienlanhvietnam-lang/deepseek-harness-vietnamese": "ui-experience",
     "DietCokewithSugar/dsh-user-experience": "developer-tools",
     "difaandailisi/dsh-capability-router": "ecosystem-resources",
-    "Digiforge6688/zipx-dsh-plugin": "media-vision",
     "Diluka/dsh-afk": "agents-workflows",
     "dingchenhui0618-arch/dsh-adaptive": "ecosystem-resources",
     "dingchenhui0618-arch/dsh-daily": "ecosystem-resources",
@@ -4587,7 +4586,6 @@
     "Tzh0109/dsh-chat-projects": "agents-workflows",
     "tzy502/dsh-maplestory-wz": "ui-experience",
     "TZYCeng/dsh-model-visibility": "developer-tools",
-    "tzzs/dsh-idle-power": "utilities",
     "U1s1-king/dsh-live2d-mygo": "ui-experience",
     "U1s1-king/dsh-live2d-poppinparty": "ui-experience",
     "ubik-dsh/deepseek-mods": "ecosystem-resources",
@@ -5803,7 +5801,9 @@
     "zzzzyppp/dsh-skill-desc-zh": "ecosystem-resources",
     "ZZZZZZZ-ZZZZZ/dsh-session-trash": "agents-workflows",
     "yeweiliang7063/dsh-tcm-xueli": "knowledge-research",
-    "DanceElephant/dsh-codex-skill-bridge": "ecosystem-resources"
+    "DanceElephant/dsh-codex-skill-bridge": "ecosystem-resources",
+    "tzzs/dsh-goodnight": "utilities",
+    "Digiforge6688/dsh-director": "media-vision"
   },
   "description_overrides": {
     "43456-awa/dsh-notepad": "钉在 DeepSeek Harness Web GUI 的常驻记事本插件，可拖动、可固定。",
@@ -6775,7 +6775,6 @@
     "openfcp/dsh-financial-skills": "Kept out of the star board: an in-client skill directory with one-click install over an external catalog (awesome-financial-skills) — the market cannot include another market. Stays in the catalog.",
     "openpilotcc/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "opentandem/dsh-phone": "Kept out of the star board: a remote/mobile client form — a QR-paired phone client for DSH. Stays in the catalog.",
-    "oscarka/deepseekharness-remotecontrol": "Kept out of the star board: a remote/two-way face — phone + Feishu long-connection + self-hosted web console reading local session dirs (DSH/Codex/Claude) and driving approvals, steering and multi-machine switching inbound. Stays in the catalog.",
     "osmondlee/dsh-shell": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "ouyangyipeng/dsh-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "ouyangyipeng/dsh-marketplace": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
@@ -7055,7 +7054,8 @@
     "sungatetop/HiBuddy": "Not an installable DSH plugin — a desktop shell/client: butler/coworker app over DSH: Electron NSIS desktop shell embedding full dsh runtime + own `profiles/hibuddy`; no `dsh plugin add` path into an existing harness. Stays in the catalog.",
     "oneclickvirt/oneclickvirt": "Kept out of the star board: stars accrued as a standalone universal virtualization-management platform (Proxmox VE / LXD / Incus / Docker / QEMU / KubeVirt, 421 days old, 1,258 commits, Docker/binary/1Panel installs); the DSH plugin panel landed 2026-11-17 and fronts an existing deployment. Stays in the catalog.",
     "dennisyang1986/polymarket-proxy": "Kept out of the star board: stars accrued as day-one Polymarket trading-group promotion — 137 stars and 23 forks (crypto-trader accounts, drip across all hours) within 26 hours of repo creation against 4 commits, one contributor, zero issues and zero releases, with a referral-linked README; growth is not attributable to DSH plugin adoption. Stays in the catalog.",
-    "clickyotter/dsh-wecom-soul-bot": "Kept out of the star board: a remote/mobile client form — a WeCom bot chat surface for DSH with persona and long-term memory over a persistent connection. Stays in the catalog."
+    "clickyotter/dsh-wecom-soul-bot": "Kept out of the star board: a remote/mobile client form — a WeCom bot chat surface for DSH with persona and long-term memory over a persistent connection. Stays in the catalog.",
+    "oscarka/pocketagent": "Kept out of the star board: a remote/two-way face — phone + Feishu long-connection + self-hosted web console reading local session dirs (DSH/Codex/Claude) and driving approvals, steering and multi-machine switching inbound. Stays in the catalog."
   },
   "excluded_repos": {
     "01men/CDPP": "Not a DSH plugin — a cross-border document-processing platform repo (no README, no DSH install path).",
