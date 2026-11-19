@@ -56,12 +56,18 @@ jobs:
           mkdir -p "$crawl"
           cp data/repositories.json data/review/pending.json "$crawl/"
           stage() {
+            # If same-owner renames moved keys in approved.json or curated.json,
+            # rebuild the generated catalog pages so merge.mjs --check never drifts
+            # on the next PR or curation push.
+            if ! git diff --quiet -- data/approved.json data/curated.json; then
+              node scripts/merge.mjs
+            fi
             git add data/repositories.json data/review
             # Same-owner renames are synced automatically into the curation
             # files (scripts/rename-sync.mjs); stage whatever moved today.
             git add data/approved.json data/curated.json data/packages.json \
               data/leaderboard-descriptions-zh.json data/leaderboard-descriptions-en.json \
-              data/featured.json
+              data/featured.json data/stats.json CATALOG.md TOP200.md catalog README.md README_EN.md
             if git diff --cached --quiet; then
               echo "Snapshot and review queue are already current — nothing to commit."
               exit 0

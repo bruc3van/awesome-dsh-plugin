@@ -40739,7 +40739,7 @@
           "install": "https://github.com/ankesu/dsh-live2d-pet"
         }
       ],
-      "status": "readme-verified",
+      "status": "repo-fallback",
       "verified_date": "2026-11-18",
       "verified_via": "manifest@package.json#dsh @main",
       "verified_by": "ci-auto"
@@ -40753,7 +40753,7 @@
           "install": "https://github.com/yauntyour/dsh-encrypt"
         }
       ],
-      "status": "readme-verified",
+      "status": "repo-fallback",
       "verified_date": "2026-11-18",
       "verified_via": "manifest@package.json#dsh @master",
       "verified_by": "ci-auto"
@@ -40767,7 +40767,7 @@
           "install": "https://github.com/beijingwahw/dsh-computer-use-plugin"
         }
       ],
-      "status": "readme-verified",
+      "status": "repo-fallback",
       "verified_date": "2026-11-18",
       "verified_via": "manifest@package.json#dsh @main",
       "verified_by": "ci-auto"

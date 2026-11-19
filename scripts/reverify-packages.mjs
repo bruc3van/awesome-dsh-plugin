@@ -147,15 +147,19 @@ async function reverifyEntry(slug, record) {
   for (const pkg of record.packages ?? []) {
     const key = normalKey(pkg.source);
     const payload = pkg.source.replace(/^(npm|github|url):/, '');
-    // The README-documentation requirement is waived ONLY for repo-fallback
-    // entries: there the github target pointing at this very repo IS the
-    // curated decision (the documented npm package 404s), vouched for by the
-    // snapshot. A readme-verified entry loses that exemption — if the README
-    // drops or retags its install line, that is drift and must be reported.
+    // The README-documentation requirement is waived for repo-fallback entries:
+    // - self-repo github targets (documented npm package 404s, or manifest-backed repo fallback)
+    // - manifest-verified npm/git fallbacks (verified_via starts with `manifest@`),
+    //   where the root package.json / cordis.patch.yml is the source of truth rather
+    //   than a copyable README command (Pass 2 still verifies npm registry existence).
     const selfRepo =
       record.status === 'repo-fallback' &&
       pkg.source.startsWith('github:') &&
       pkg.source.slice(7).split('#')[0].toLowerCase() === slug;
+    const manifestFallback =
+      record.status === 'repo-fallback' &&
+      typeof record.verified_via === 'string' &&
+      record.verified_via.startsWith('manifest@');
     const githubSlug = pkg.source.startsWith('github:')
       ? payload.split('#')[0]
       : null;
@@ -167,6 +171,7 @@ async function reverifyEntry(slug, record) {
         mentionsNeedle(githubSlug, proseTokens));
     const stillDocumented =
       selfRepo ||
+      manifestFallback ||
       extractedKeys.has(key) ||
       upstreamTokens.has(payload) ||
       upstreamTokens.has(npmBase(payload)) ||

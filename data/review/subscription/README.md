@@ -11,11 +11,11 @@
 
 每批 200；固定输入、逐仓库证据、人工分发判断和映射修正均可追溯。来源取证不等于安装测试或安全认证。
 
-## 自动补映射（凑满 2000）——持续扩容
+## 自动补映射（5 MiB 网关字节预算）——持续扩容
 
-`scripts/host-market/expand-mappings.mjs` 与工作流 `expand-subscription-mappings.yml` 在订阅索引不足 2000 时**每 3 小时自动运行一次，每次连跑 3 批**（每批 200 仓、独立证据目录 `expand-<日期>-<时分>b<批号>`）；同一天的终局结论（无可安装证据 / 仅手动安装 / 旧版声明 / 模板占位）会被记住，后续批次直接跳过这些仓库深挖新仓，达标后由 `need` 门限自动停止扩容。
+`scripts/host-market/expand-mappings.mjs` 与工作流 `expand-subscription-mappings.yml` 在网关 5 MiB 字节预算机制下**每 3 小时自动运行一次，每次连跑 3 批**（每批 200 仓、独立证据目录 `expand-<日期>-<时>b<批号>`）；同一天的终局结论（无可安装证据 / 仅手动安装 / 旧版声明 / 模板占位）以及 `data/catalog-mapping-skips.json` 中的已裁决跳过项均会被记住，后续批次直接跳过这些仓库深挖新仓。
 
-`scripts/host-market/expand-mappings.mjs` 与工作流 `expand-subscription-mappings.yml` 在订阅索引不足 2000 时：
+`scripts/host-market/expand-mappings.mjs` 与工作流 `expand-subscription-mappings.yml` 的执行流程：
 
 1. 读取已有分批证据中仍未映射、且元数据合格的仓库；
 2. 按 Star 再核验下一批最多 200 个未映射已核准仓库；

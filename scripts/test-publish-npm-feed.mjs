@@ -64,7 +64,7 @@ test('first publication, version bump and digest no-op', async (t) => {
   const first = await run(root, 'return {status:404,ok:false}');
   assert.equal(first.status, 0, first.stderr);
   assert.match(first.stdout, /MOCK_NPM_PUBLISH/);
-  assert.deepEqual((await readdir(resolve(root, 'dist-npm/data'))).sort(), ['market-catalog.json', 'packages.json']);
+  assert.deepEqual((await readdir(resolve(root, 'dist-npm/data'))).sort(), ['market-catalog-v4.json', 'market-catalog.json', 'packages.json']);
   const manifest = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
   const doc = { 'dist-tags': { latest: manifest.version }, versions: { [manifest.version]: manifest } };
   const response = () => `return {ok:true,status:200,json:async()=>(${JSON.stringify(doc)})}`;

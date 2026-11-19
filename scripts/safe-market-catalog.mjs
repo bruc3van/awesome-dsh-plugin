@@ -90,6 +90,10 @@ export function buildSafeMarketCatalog(state, packages, index, report, indexRaw,
     const categoryTitle = index.metadata?.categories?.[row.category]?.title
     const titleZh = plugin?.titleZh || plugin?.titleEn || ''
     const titleEn = plugin?.titleEn || plugin?.titleZh || ''
+    // Schema 3 is what every released dsh-market-pro (<= 1.2.4) reads: the row
+    // shape — including the per-row `icon` and `keywords` those clients render
+    // and search from — must stay exactly as it was. Slimming lives in schema 4
+    // (buildCompactMarketCatalog), which drops the duplicated icons/keywords.
     entries.push({
       ...row,
       // A repository that publishes a subscription plugin is a plugin first
@@ -124,13 +128,74 @@ export function buildSafeMarketCatalog(state, packages, index, report, indexRaw,
   }
 }
 
+/**
+ * Schema 4 compact projection (`data/market-catalog-v4.json`): dictionary-indexes
+ * categories, uses short row keys, omits default values (`install_status: none`,
+ * `default_branch: main`, empty language/license), trims `pushed_at` to YYYY-MM-DD,
+ * and relies on the embedded `subscription` for plugin icons & keywords. Cuts
+ * uncompressed JSON size by >40% to keep plenty of headroom below CDN caps.
+ */
+export function buildCompactMarketCatalog(catalog) {
+  if (catalog?.schema_version !== 3 || !Array.isArray(catalog.entries)) {
+    throw new Error('buildCompactMarketCatalog requires a schema-3 catalog')
+  }
+  const categoryTable = []
+  const categoryIndex = new Map()
+  const entries = catalog.entries.map((row) => {
+    let idx = categoryIndex.get(row.category)
+    if (idx === undefined) {
+      idx = categoryTable.length
+      categoryIndex.set(row.category, idx)
+      categoryTable.push([row.category, row.category_zh || row.category, row.category_en || row.category])
+    }
+    const compact = {
+      n: row.full_name,
+      d: row.description,
+      s: row.stargazers_count,
+      c: idx,
+    }
+    if (row.pushed_at) compact.p = row.pushed_at.slice(0, 10)
+    if (row.language) compact.l = row.language
+    if (row.license) compact.lic = row.license
+    if (row.default_branch && row.default_branch !== 'main') compact.b = row.default_branch
+    if (row.install_status && row.install_status !== 'none') compact.is = row.install_status
+    if (row.packages) compact.pkg = row.packages
+    if (row.title_zh) compact.tz = row.title_zh
+    if (row.title_en) compact.te = row.title_en
+    if (row.description_en) compact.de = row.description_en
+    if (row.archived) compact.ar = 1
+    if (row.disabled) compact.di = 1
+    return compact
+  })
+  return {
+    schema_version: 4,
+    source_fetched_at: catalog.source_fetched_at,
+    source_repo_count: catalog.source_repo_count,
+    repository_count: entries.length,
+    subscription_sha256: catalog.subscription_sha256,
+    subscription_updated_at: catalog.subscription_updated_at,
+    category_table: categoryTable,
+    entries,
+    ...(catalog.featured === undefined ? {} : { featured: catalog.featured }),
+    subscription: catalog.subscription,
+  }
+}
+
 export async function readSafeMarketCatalog(root) {
+  const readOptionalFeatured = async () => {
+    try {
+      return JSON.parse(await readFile(new URL('data/featured.json', root), 'utf8'))
+    } catch (error) {
+      if (error?.code === 'ENOENT') return null
+      throw error
+    }
+  }
   const [state, packages, indexRaw, report, featured] = await Promise.all([
     loadState(),
     readFile(new URL('data/packages.json', root), 'utf8').then(JSON.parse),
     readFile(new URL('data/dsh-market-index.json', root), 'utf8'),
     readFile(new URL('data/dsh-market-index.report.json', root), 'utf8').then(JSON.parse),
-    readFile(new URL('data/featured.json', root), 'utf8').then(JSON.parse).catch(() => null),
+    readOptionalFeatured(),
   ])
   return buildSafeMarketCatalog(state, packages, JSON.parse(indexRaw), report, indexRaw, featured)
 }
