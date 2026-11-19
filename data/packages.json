@@ -41795,20 +41795,6 @@
       "verified_via": "manifest@9429b56d8ac6",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
     },
-    "ericwang1358/dsh-web-studyhub": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:EricWang1358/dsh-web-studyhub",
-          "install": "https://github.com/EricWang1358/dsh-web-studyhub",
-          "command": "dsh plugin --profile web add github:EricWang1358/dsh-web-studyhub"
-        }
-      ],
-      "status": "repo-fallback",
-      "verified_date": "2026-11-19",
-      "verified_via": "manifest@f09eb0839990",
-      "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
-    },
     "john-20260101/zgs-ppt": {
       "packages": [
         {
