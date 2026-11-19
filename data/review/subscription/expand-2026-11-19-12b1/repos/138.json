@@ -1,0 +1,76 @@
+{
+  "full_name": "Jarad-z/dsh-goalmesh",
+  "originalPosition": 138,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 138,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:43.365Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e94c5a704518c9460fde1850c0fe7c92daa1e73ca138fdc5c60d443d76cb8830",
+      "url": "https://github.com/Jarad-z/dsh-goalmesh/blob/e342c5350bbb4a8c3b43d804d564a379ea3afb8f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "71fc9568e5ddef32ddd4617e3dfecc8faa83a3701b24aed99eb8281c303068d5",
+      "url": "https://github.com/Jarad-z/dsh-goalmesh/blob/e342c5350bbb4a8c3b43d804d564a379ea3afb8f/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-goalmesh-plugin",
+      "version": "0.3.0",
+      "path": "packages/goalmesh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jarad-z/dsh-goalmesh",
+        "commit": "e342c5350bbb4a8c3b43d804d564a379ea3afb8f",
+        "path": "packages/goalmesh-plugin"
+      },
+      "manifestSha256": "29f579b1146d39055529ea6d4a73d970b082e9f60f1c5af14799c4730b9217d6",
+      "manifestUrl": "https://github.com/Jarad-z/dsh-goalmesh/blob/e342c5350bbb4a8c3b43d804d564a379ea3afb8f/packages/goalmesh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-goalmesh-plugin",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1788075001,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jarad-z/dsh-goalmesh",
+              "commit": "e342c5350bbb4a8c3b43d804d564a379ea3afb8f",
+              "path": "packages/goalmesh-plugin"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jarad-z/dsh-goalmesh",
+    "commit": "e342c5350bbb4a8c3b43d804d564a379ea3afb8f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:46.979Z"
+}

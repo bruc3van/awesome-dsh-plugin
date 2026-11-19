@@ -1,0 +1,66 @@
+{
+  "full_name": "Cicero010/dsh-whale-atelier",
+  "originalPosition": 82,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 82,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:19.700Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "76db8236efa58f4d1e93ac4c8c01b09bdc8f57e2255610840966195ad9ffa3a5",
+      "url": "https://github.com/Cicero010/dsh-whale-atelier/blob/e8433fbb90504374a532ff8d5141e7c4e8bff37e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-atelier",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Cicero010/dsh-whale-atelier",
+        "commit": "e8433fbb90504374a532ff8d5141e7c4e8bff37e"
+      },
+      "manifestSha256": "d616ca1d66cc52e3adaa36ce26583e2e54838f8cfd2153631185c1bc0adbc765",
+      "manifestUrl": "https://github.com/Cicero010/dsh-whale-atelier/blob/e8433fbb90504374a532ff8d5141e7c4e8bff37e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-whale-atelier",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1791228129,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Cicero010/dsh-whale-atelier",
+              "commit": "e8433fbb90504374a532ff8d5141e7c4e8bff37e"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Cicero010/dsh-whale-atelier",
+    "commit": "e8433fbb90504374a532ff8d5141e7c4e8bff37e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:21.726Z"
+}

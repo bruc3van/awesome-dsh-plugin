@@ -1,0 +1,132 @@
+{
+  "full_name": "SA1992X/dsh-ctrl-enter-submit",
+  "originalPosition": 8,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 8,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:47.753Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8be8f8febf5155fc93fde9a423419592c3a13a85210afe14d9f3905b975e28b2",
+      "url": "https://github.com/SA1992X/dsh-ctrl-enter-submit/blob/a5eb1c312eb5cf5bbb4283ad4c650107d7b1c89a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ctrl-enter-submit",
+          "command": "dsh plugin --profile web add dsh-ctrl-enter-submit",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ctrl-enter-submit",
+      "version": "1.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SA1992X/dsh-ctrl-enter-submit",
+        "commit": "a5eb1c312eb5cf5bbb4283ad4c650107d7b1c89a"
+      },
+      "manifestSha256": "f420110d12cdd60bf849f53822139964345aa6d156306edf59154a1f75c9fe14",
+      "manifestUrl": "https://github.com/SA1992X/dsh-ctrl-enter-submit/blob/a5eb1c312eb5cf5bbb4283ad4c650107d7b1c89a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ctrl-enter-submit",
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1789372671,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SA1992X/dsh-ctrl-enter-submit",
+              "commit": "a5eb1c312eb5cf5bbb4283ad4c650107d7b1c89a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ctrl-enter-submit",
+      "origin": "npm",
+      "name": "dsh-ctrl-enter-submit",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ctrl-enter-submit",
+        "title": "dsh-ctrl-enter-submit",
+        "description": "DeepSeek Harness 插件：将对话框提交快捷键改为 Ctrl/Cmd+Enter，普通 Enter 换行，可在设置中随时开关。 / A DSH plugin that makes Enter insert a newline and Ctrl/Cmd+Enter submit, toggleable in settings.",
+        "author": "SA1992X",
+        "homepage": "https://github.com/SA1992X/dsh-ctrl-enter-submit#readme",
+        "repository": {
+          "url": "https://github.com/SA1992X/dsh-ctrl-enter-submit"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "dsh-client-plugin",
+            "keyboard",
+            "shortcut",
+            "ctrl-enter",
+            "submit",
+            "textarea",
+            "composer"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.1",
+            "publishTimestamp": 1789373956,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6ed8851e623aa1a7b5e0f9f1105fe775e41d7ec7d48cc96677cf0ed6c4f90fa5",
+      "evidence": [
+        {
+          "name": "dsh-ctrl-enter-submit",
+          "version": "1.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-ctrl-enter-submit/-/dsh-ctrl-enter-submit-1.1.1.tgz",
+          "integrity": "sha512-PQ/X7Xw69bN1Mcazj14q42FxbXmImUOtCYC2C+LDVmiEt6F5A4goofi+E4XKIPLUxjoGSNwQi6llRNuO8xCEew=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ctrl-enter-submit",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SA1992X/dsh-ctrl-enter-submit",
+    "commit": "a5eb1c312eb5cf5bbb4283ad4c650107d7b1c89a",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:49.861Z"
+}

@@ -1,0 +1,77 @@
+{
+  "full_name": "Toctsu/dsh-full-life-memory",
+  "originalPosition": 78,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 78,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:30.595Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5b41ca15621ffa13ef119d54c32e0a31e6b5d1e0ce4cd30f47008c99d33a5427",
+      "url": "https://github.com/Toctsu/dsh-full-life-memory/blob/4da62b237618f0ba4fc0d873e5bca074b918116b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "astrbot/README.md",
+      "sha256": "fbd552854abd5d554ed419826f9f59564a41f789f5339cd264130bf431380763",
+      "url": "https://github.com/Toctsu/dsh-full-life-memory/blob/4da62b237618f0ba4fc0d873e5bca074b918116b/astrbot/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@tuhengyu/dsh-full-life-memory",
+      "version": "0.8.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Toctsu/dsh-full-life-memory",
+        "commit": "4da62b237618f0ba4fc0d873e5bca074b918116b"
+      },
+      "manifestSha256": "5f8e92b4db1bea7a7ab91b29ca562b9020a481bcd9cce32f9c415a8ad5623b73",
+      "manifestUrl": "https://github.com/Toctsu/dsh-full-life-memory/blob/4da62b237618f0ba4fc0d873e5bca074b918116b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@tuhengyu/dsh-full-life-memory",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1794581138,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Toctsu/dsh-full-life-memory",
+              "commit": "4da62b237618f0ba4fc0d873e5bca074b918116b"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Toctsu/dsh-full-life-memory",
+    "commit": "4da62b237618f0ba4fc0d873e5bca074b918116b",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:32.757Z"
+}

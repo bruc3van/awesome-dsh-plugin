@@ -1,0 +1,66 @@
+{
+  "full_name": "Spark-Matt/dsh-free-deepseek",
+  "originalPosition": 66,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 66,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:25.416Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5d67f6992d2899f0b01905bc852df41eca52a5fe387908e0790387b9b7add6e2",
+      "url": "https://github.com/Spark-Matt/dsh-free-deepseek/blob/6e0b5a77d67f4f1e5424b59b2b8ea55a8df1a357/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-free-deepseek",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Spark-Matt/dsh-free-deepseek",
+        "commit": "6e0b5a77d67f4f1e5424b59b2b8ea55a8df1a357"
+      },
+      "manifestSha256": "1b4051f67734c14369906be4d367cd30d6441b77e795c75dad743707f838d7f7",
+      "manifestUrl": "https://github.com/Spark-Matt/dsh-free-deepseek/blob/6e0b5a77d67f4f1e5424b59b2b8ea55a8df1a357/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-free-deepseek",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1794557302,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Spark-Matt/dsh-free-deepseek",
+              "commit": "6e0b5a77d67f4f1e5424b59b2b8ea55a8df1a357"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Spark-Matt/dsh-free-deepseek",
+    "commit": "6e0b5a77d67f4f1e5424b59b2b8ea55a8df1a357",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:27.276Z"
+}

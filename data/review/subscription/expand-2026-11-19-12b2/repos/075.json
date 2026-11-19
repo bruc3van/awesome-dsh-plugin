@@ -1,0 +1,101 @@
+{
+  "full_name": "Tianyu209/dsh-browser-companion",
+  "originalPosition": 75,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 75,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:29.482Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a9c1c10685500496137c547e0ab660a1f004a19238e1e7230fd05ce36084f525",
+      "url": "https://github.com/Tianyu209/dsh-browser-companion/blob/02860d005494d9294d3ad4b95ad373a746b2c69d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-browser-companion",
+          "command": "dsh plugin --profile web add dsh-browser-companion",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "285c592e16afae73b9e5301b4fdacc4948ac308d7e10eca8187410029f8ee8eb",
+      "url": "https://github.com/Tianyu209/dsh-browser-companion/blob/02860d005494d9294d3ad4b95ad373a746b2c69d/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-browser-companion",
+          "command": "dsh plugin --profile web add dsh-browser-companion",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-browser-companion",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tianyu209/dsh-browser-companion",
+        "commit": "02860d005494d9294d3ad4b95ad373a746b2c69d"
+      },
+      "manifestSha256": "91273e83d855c87df2f9912dbe7dff54b7b407c6f0db1039426a8ed8867eeafb",
+      "manifestUrl": "https://github.com/Tianyu209/dsh-browser-companion/blob/02860d005494d9294d3ad4b95ad373a746b2c69d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-browser-companion",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786813273,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tianyu209/dsh-browser-companion",
+              "commit": "02860d005494d9294d3ad4b95ad373a746b2c69d"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-browser-companion",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-browser-companion",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tianyu209/dsh-browser-companion",
+    "commit": "02860d005494d9294d3ad4b95ad373a746b2c69d",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:31.797Z"
+}

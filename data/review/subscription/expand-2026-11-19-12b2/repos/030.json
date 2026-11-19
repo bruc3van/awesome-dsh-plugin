@@ -1,0 +1,146 @@
+{
+  "full_name": "Ndsanes/dsh-rules",
+  "originalPosition": 30,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 30,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:09.764Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e28afc6dc7060ecf36cb2129361cd7b57e6d0faffa7ca351d6922bc1a66b4390",
+      "url": "https://github.com/Ndsanes/dsh-rules/blob/62d0d37fda8ab5a5fd4debd3dd5a218cb8840e16/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ndsanes/dsh-rules",
+          "command": "dsh plugin --profile <name> add @ndsanes/dsh-rules",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "0f3f6888f75c7fde40b010674792a193c82f2bf8fff221d3429efe1f52d77e5c",
+      "url": "https://github.com/Ndsanes/dsh-rules/blob/62d0d37fda8ab5a5fd4debd3dd5a218cb8840e16/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ndsanes/dsh-rules",
+          "command": "dsh plugin --profile <name> add @ndsanes/dsh-rules",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ndsanes/dsh-rules",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ndsanes/dsh-rules",
+        "commit": "62d0d37fda8ab5a5fd4debd3dd5a218cb8840e16"
+      },
+      "manifestSha256": "42bcd8f0cf1c590450d67e29750512241db972069625362b39b9037892fe47f1",
+      "manifestUrl": "https://github.com/Ndsanes/dsh-rules/blob/62d0d37fda8ab5a5fd4debd3dd5a218cb8840e16/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@ndsanes/dsh-rules",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1791041783,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ndsanes/dsh-rules",
+              "commit": "62d0d37fda8ab5a5fd4debd3dd5a218cb8840e16"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@ndsanes/dsh-rules",
+      "origin": "npm",
+      "name": "@ndsanes/dsh-rules",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@ndsanes/dsh-rules",
+        "title": "@ndsanes/dsh-rules",
+        "description": "OMP rules port for DeepSeek Harness: rulebook, always-apply injection, rule:// addressing, and time-traveling stream rules that interrupt violating model output",
+        "homepage": "https://github.com/Ndsanes/dsh-rules#readme",
+        "repository": {
+          "url": "https://github.com/Ndsanes/dsh-rules"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "cordis",
+            "plugin",
+            "rules",
+            "rulebook",
+            "ttsr"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1790963820,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1ca596a7e94d4655010aaa3f603eba4557c210316b3a64f14ef005ca24cc072b",
+      "evidence": [
+        {
+          "name": "@ndsanes/dsh-rules",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/@ndsanes/dsh-rules/-/dsh-rules-0.2.1.tgz",
+          "integrity": "sha512-jeOMc4ea2L+n7u65q+xf/X5HaCbWbU+tKS8WlMZVToGvssqkt9oUIapOlytFzJ2GfYZT2IZb6EyRHRSMKBFSyg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@ndsanes/dsh-rules",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ndsanes/dsh-rules",
+    "commit": "62d0d37fda8ab5a5fd4debd3dd5a218cb8840e16",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:12.475Z"
+}

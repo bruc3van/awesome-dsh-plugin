@@ -1,0 +1,95 @@
+{
+  "full_name": "RyensX/dsh-message-fold",
+  "originalPosition": 47,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 47,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:18.252Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9e9f52c9438146162ffd16ddd98509400599735d0389b9fb2c0b512b16c4f645",
+      "url": "https://github.com/RyensX/dsh-message-fold/blob/b40619079758a949a73c6c91507a14a07d72d8b0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/RyensX/dsh-message-fold",
+          "command": "dsh plugin --profile web add github:RyensX/dsh-message-fold",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README_EN.md",
+      "sha256": "a49894caff5bd6134bc853526303420bd4d4bf2e90a6da97706fad1de956545d",
+      "url": "https://github.com/RyensX/dsh-message-fold/blob/b40619079758a949a73c6c91507a14a07d72d8b0/docs/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/RyensX/dsh-message-fold",
+          "command": "dsh plugin --profile web add github:RyensX/dsh-message-fold",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-message-fold",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/RyensX/dsh-message-fold",
+        "commit": "b40619079758a949a73c6c91507a14a07d72d8b0"
+      },
+      "manifestSha256": "726cd3e673c077da07264ce35cc9241d3cc56424df06a9ee7860f1a909337641",
+      "manifestUrl": "https://github.com/RyensX/dsh-message-fold/blob/b40619079758a949a73c6c91507a14a07d72d8b0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.0-rc.8",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-message-fold",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1787573989,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/RyensX/dsh-message-fold",
+              "commit": "b40619079758a949a73c6c91507a14a07d72d8b0"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/RyensX/dsh-message-fold",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/RyensX/dsh-message-fold",
+    "commit": "b40619079758a949a73c6c91507a14a07d72d8b0",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:20.704Z"
+}

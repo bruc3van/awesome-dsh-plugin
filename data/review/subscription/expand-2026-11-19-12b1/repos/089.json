@@ -1,0 +1,355 @@
+{
+  "full_name": "Delthin/dsh-plugins",
+  "originalPosition": 89,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 89,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:22.286Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "05371ef7f22aea7686178ec6f157a96f48e154a1942d971305eb957b60804184",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "f44a9d8c47d3e424eee21d0c3dbc1a47834fb68059683567cde1867c9b2d3ba3",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/feishu-notify/README.md",
+      "sha256": "76de0bef16ce43d9a5c62e1c34452395b70c66df69b2652285bbed4c71b8499a",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/feishu-notify/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/agent-roles/README.md",
+      "sha256": "4bdb9e5c1f68aa2764b1dbc30d1b2853368044eac90cba180f6258918b3b3a99",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/agent-roles/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/fast/README.md",
+      "sha256": "753533dcbeca52df60ef09be2f40f8135724477068e84c2566af3d3f0538793d",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/fast/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/tool-wrap/README.md",
+      "sha256": "955fde484a638c1da58c2ae5aa1ea73cb9d6fb38cf083ffea7020b1cb8d2296d",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/tool-wrap/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/global-pins/README.md",
+      "sha256": "5b4ab95c298dec07365bc0f175ce17cd962ac05d4c8e1cfff6c77049f1b3ced0",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/global-pins/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/cardex/README.md",
+      "sha256": "0716bfd3ee43a34d098a8a4ae42e2e92e6b2edd1cfc7114584cc690bdf4a3280",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/cardex/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/feishu-notify/README.en.md",
+      "sha256": "129f7b4366b299dcfb6a286ac53c7a8b69a30d317be38f65059ca18ded056641",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/feishu-notify/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/agent-roles/README.en.md",
+      "sha256": "eb92f1b9920e3b1b0a91e8ef214aa21fb15df93ae8dc0c099e1398b04a80ca22",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/agent-roles/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/fast/README.en.md",
+      "sha256": "96f22c95c4daec8d7607d88857d47bf9a30767ae35a455d1be9974870d7b80b0",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/fast/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/tool-wrap/README.en.md",
+      "sha256": "cafbcede0422eaa80c79304b3a9c1393fbc2d7bd6affbc4fcc69f336ee63e2b2",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/tool-wrap/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/global-pins/README.en.md",
+      "sha256": "93346154d6e61e5dafc7deea02d1532d1e9cc051cfd84c419dcda35cd425acbe",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/global-pins/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/cardex/README.en.md",
+      "sha256": "66132ebb9d9163a97e038e731538b1c4f6cfb28f114ddd4247eab6e463c67b6a",
+      "url": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/cardex/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@delthin/dsh-agent-roles",
+      "version": "0.6.1",
+      "path": "packages/agent-roles",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Delthin/dsh-plugins",
+        "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+        "path": "packages/agent-roles"
+      },
+      "manifestSha256": "0345249f63a3dcbf8a163ac8898ce162906857b005b811cc825ffc10d6a60d9c",
+      "manifestUrl": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/agent-roles/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@delthin/dsh-agent-roles",
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1794996394,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Delthin/dsh-plugins",
+              "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+              "path": "packages/agent-roles"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@delthin/dsh-cardex",
+      "version": "0.1.1",
+      "path": "packages/cardex",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Delthin/dsh-plugins",
+        "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+        "path": "packages/cardex"
+      },
+      "manifestSha256": "1441f7908e7860df125a44321f78978a3a475ab4bc8c43e3d9356c337cbd3854",
+      "manifestUrl": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/cardex/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@delthin/dsh-cardex",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1794996394,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Delthin/dsh-plugins",
+              "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+              "path": "packages/cardex"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@delthin/dsh-fast",
+      "version": "0.1.6",
+      "path": "packages/fast",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Delthin/dsh-plugins",
+        "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+        "path": "packages/fast"
+      },
+      "manifestSha256": "55c95b76eaa33091459155939d48330f77d80270d0d2d28707b9c794395fa189",
+      "manifestUrl": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/fast/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 || >=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@delthin/dsh-fast",
+        "versions": [
+          {
+            "version": "0.1.6",
+            "publishTimestamp": 1794996394,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Delthin/dsh-plugins",
+              "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+              "path": "packages/fast"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 || >=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@delthin/dsh-feishu-notify",
+      "version": "1.1.2",
+      "path": "packages/feishu-notify",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Delthin/dsh-plugins",
+        "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+        "path": "packages/feishu-notify"
+      },
+      "manifestSha256": "75b60f85f4e4592681df2c0c35f2765a404f2f8a69fec7d9aae1f47e7db9b9c2",
+      "manifestUrl": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/feishu-notify/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 || >=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@delthin/dsh-feishu-notify",
+        "versions": [
+          {
+            "version": "1.1.2",
+            "publishTimestamp": 1794996394,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Delthin/dsh-plugins",
+              "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+              "path": "packages/feishu-notify"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 || >=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@delthin/dsh-global-pins",
+      "version": "0.2.2",
+      "path": "packages/global-pins",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Delthin/dsh-plugins",
+        "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+        "path": "packages/global-pins"
+      },
+      "manifestSha256": "43a3fbc537ca53b9e260c5391dd45265799e7b240bacb3db262b715b73dd1e97",
+      "manifestUrl": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/global-pins/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@delthin/dsh-global-pins",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1794996394,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Delthin/dsh-plugins",
+              "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+              "path": "packages/global-pins"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@delthin/dsh-tool-wrap",
+      "version": "1.3.3",
+      "path": "packages/tool-wrap",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Delthin/dsh-plugins",
+        "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+        "path": "packages/tool-wrap"
+      },
+      "manifestSha256": "67451d87d46bd59b9af49bd876e7caf6467fffb42a501b5fd322038484dc7dbd",
+      "manifestUrl": "https://github.com/Delthin/dsh-plugins/blob/6b4f4b82b2e727ffb78d1e04fc328937f35e1983/packages/tool-wrap/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@delthin/dsh-tool-wrap",
+        "versions": [
+          {
+            "version": "1.3.3",
+            "publishTimestamp": 1794996394,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Delthin/dsh-plugins",
+              "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+              "path": "packages/tool-wrap"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Delthin/dsh-plugins",
+    "commit": "6b4f4b82b2e727ffb78d1e04fc328937f35e1983",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:31.678Z"
+}

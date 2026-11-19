@@ -1,0 +1,113 @@
+{
+  "full_name": "ZhuFrank/dsh-master-plugin",
+  "originalPosition": 11,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 11,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:48.244Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f1661e02eca50d0a5b65a81e9c716ed30d892ef986bd0685e2ac80a1e2f28ae2",
+      "url": "https://github.com/ZhuFrank/dsh-master-plugin/blob/9f61344002651330ca979f0cb157239480ecd638/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/ZhuFrank/dsh-master-plugin/releases/download/v0.2.1/dsh-master-0.2.1.tgz",
+          "command": "dsh plugin --profile web add https://github.com/ZhuFrank/dsh-master-plugin/releases/download/v0.2.1/dsh-master-0.2.1.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ZhuFrank/dsh-master-plugin/releases/download/v0.2.1/dsh-master-0.2.1.tgz",
+          "command": "dsh plugin --profile master add https://github.com/ZhuFrank/dsh-master-plugin/releases/download/v0.2.1/dsh-master-0.2.1.tgz",
+          "profile": "master"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "df92ba34e7b4c0af3a6f702ce679d56019f1b82c1102e18ce6e568311788bd55",
+      "url": "https://github.com/ZhuFrank/dsh-master-plugin/blob/9f61344002651330ca979f0cb157239480ecd638/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/ZhuFrank/dsh-master-plugin/releases/download/v0.2.1/dsh-master-0.2.1.tgz",
+          "command": "dsh plugin --profile web add https://github.com/ZhuFrank/dsh-master-plugin/releases/download/v0.2.1/dsh-master-0.2.1.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ZhuFrank/dsh-master-plugin/releases/download/v0.2.1/dsh-master-0.2.1.tgz",
+          "command": "dsh plugin --profile master add https://github.com/ZhuFrank/dsh-master-plugin/releases/download/v0.2.1/dsh-master-0.2.1.tgz",
+          "profile": "master"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-master",
+      "version": "0.2.1",
+      "path": "packages/dsh-master",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZhuFrank/dsh-master-plugin",
+        "commit": "9f61344002651330ca979f0cb157239480ecd638",
+        "path": "packages/dsh-master"
+      },
+      "manifestSha256": "d595192cd6d362ebac986a22730880222154c3c94f7e169443672e9ddd220ecc",
+      "manifestUrl": "https://github.com/ZhuFrank/dsh-master-plugin/blob/9f61344002651330ca979f0cb157239480ecd638/packages/dsh-master/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-master",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1795009469,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ZhuFrank/dsh-master-plugin",
+              "commit": "9f61344002651330ca979f0cb157239480ecd638",
+              "path": "packages/dsh-master"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/ZhuFrank/dsh-master-plugin/releases/download/v0.2.1/dsh-master-0.2.1.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ZhuFrank/dsh-master-plugin/releases/download/v0.2.1/dsh-master-0.2.1.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZhuFrank/dsh-master-plugin",
+    "commit": "9f61344002651330ca979f0cb157239480ecd638",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:52.138Z"
+}

@@ -1,0 +1,70 @@
+{
+  "full_name": "Sama05/dsh-download-progress",
+  "originalPosition": 52,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 52,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:20.409Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "647b4ecfda298e90544c6ec7d75dba5a02abe07bacf6728d43edc6b21dac1402",
+      "url": "https://github.com/Sama05/dsh-download-progress/blob/0030d323ec6865f71e3738c5ab50de0790fbe314/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Sama05/dsh-download-progress",
+          "command": "dsh plugin --profile web add github:Sama05/dsh-download-progress",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "lab/README.md",
+      "sha256": "0d056200912da2c915ed830847401b5045b85d3f8ab4626e6353015c800e87f3",
+      "url": "https://github.com/Sama05/dsh-download-progress/blob/0030d323ec6865f71e3738c5ab50de0790fbe314/lab/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-download-progress",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Sama05/dsh-download-progress",
+        "commit": "0030d323ec6865f71e3738c5ab50de0790fbe314"
+      },
+      "manifestSha256": "17f8e2661bb638450ea6e533fc93b3a39db47482573a312c011a318933a595a1",
+      "manifestUrl": "https://github.com/Sama05/dsh-download-progress/blob/0030d323ec6865f71e3738c5ab50de0790fbe314/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Sama05/dsh-download-progress",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Sama05/dsh-download-progress",
+    "commit": "0030d323ec6865f71e3738c5ab50de0790fbe314",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:22.751Z"
+}

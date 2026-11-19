@@ -1,0 +1,84 @@
+{
+  "full_name": "PiedPiper911/dsh-workflow-canvas",
+  "originalPosition": 199,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 199,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:09.354Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f9966d6d2f36347f40fb0c280fcae5a4170c745013876f19b67e15421cb41a75",
+      "url": "https://github.com/PiedPiper911/dsh-workflow-canvas/blob/2abc2538d3d204ebad66069341684592c548d6bb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@piedpiper911/dsh-workflow-canvas",
+          "command": "dsh plugin add @piedpiper911/dsh-workflow-canvas",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@piedpiper911/dsh-workflow-canvas",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PiedPiper911/dsh-workflow-canvas",
+        "commit": "2abc2538d3d204ebad66069341684592c548d6bb"
+      },
+      "manifestSha256": "4a25dcc51d08d6fcbc318a95b65c342fe87c68a32bd60741b6fd34fa311b42b8",
+      "manifestUrl": "https://github.com/PiedPiper911/dsh-workflow-canvas/blob/2abc2538d3d204ebad66069341684592c548d6bb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@piedpiper911/dsh-workflow-canvas",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786972230,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PiedPiper911/dsh-workflow-canvas",
+              "commit": "2abc2538d3d204ebad66069341684592c548d6bb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@piedpiper911/dsh-workflow-canvas",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@piedpiper911/dsh-workflow-canvas",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PiedPiper911/dsh-workflow-canvas",
+    "commit": "2abc2538d3d204ebad66069341684592c548d6bb",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:11.205Z"
+}

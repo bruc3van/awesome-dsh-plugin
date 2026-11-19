@@ -1,0 +1,293 @@
+{
+  "full_name": "FiretrUCK666/dsh-task-board",
+  "originalPosition": 105,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 105,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:29.811Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ad19cd477bf267a111560becfcba3a0efec7cf9948c172422a913c17ca276ce4",
+      "url": "https://github.com/FiretrUCK666/dsh-task-board/blob/807e777c0ee7f165aef54aa906b825574664767b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@firetruck666/dsh-task-board",
+          "command": "dsh plugin --profile desktop add @firetruck666/dsh-task-board",
+          "profile": "desktop"
+        },
+        {
+          "install": "@firetruck666/dsh-task-board",
+          "command": "dsh plugin --profile web add @firetruck666/dsh-task-board",
+          "profile": "web"
+        },
+        {
+          "install": "@firetruck666/dsh-task-board",
+          "command": "dsh plugin --profile <profile> add @firetruck666/dsh-task-board",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/FiretrUCK666/dsh-task-board",
+          "command": "dsh plugin --profile <profile> add github:FiretrUCK666/dsh-task-board",
+          "profile": "default"
+        },
+        {
+          "install": "@firetruck666/dsh-task-board@latest",
+          "command": "dsh plugin --profile <profile> add @firetruck666/dsh-task-board@latest",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "b77714b475af410b54d1d72bb4d6290c369bebe64ab56076782845650a35cab9",
+      "url": "https://github.com/FiretrUCK666/dsh-task-board/blob/807e777c0ee7f165aef54aa906b825574664767b/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@firetruck666/dsh-task-board",
+          "command": "dsh plugin --profile desktop add @firetruck666/dsh-task-board",
+          "profile": "desktop"
+        },
+        {
+          "install": "@firetruck666/dsh-task-board",
+          "command": "dsh plugin --profile web add @firetruck666/dsh-task-board",
+          "profile": "web"
+        },
+        {
+          "install": "@firetruck666/dsh-task-board",
+          "command": "dsh plugin --profile <profile> add @firetruck666/dsh-task-board",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/FiretrUCK666/dsh-task-board",
+          "command": "dsh plugin --profile <profile> add github:FiretrUCK666/dsh-task-board",
+          "profile": "default"
+        },
+        {
+          "install": "@firetruck666/dsh-task-board@latest",
+          "command": "dsh plugin --profile <profile> add @firetruck666/dsh-task-board@latest",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@firetruck666/dsh-task-board",
+      "version": "1.4.67",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FiretrUCK666/dsh-task-board",
+        "commit": "807e777c0ee7f165aef54aa906b825574664767b"
+      },
+      "manifestSha256": "0020933ea62fe30e3f1c542fbaa7e0c7fceed8bb02e8622881d5f9ca15a1b8f3",
+      "manifestUrl": "https://github.com/FiretrUCK666/dsh-task-board/blob/807e777c0ee7f165aef54aa906b825574664767b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@firetruck666/dsh-task-board",
+        "versions": [
+          {
+            "version": "1.4.67",
+            "publishTimestamp": 1794388501,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/FiretrUCK666/dsh-task-board",
+              "commit": "807e777c0ee7f165aef54aa906b825574664767b"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@firetruck666/dsh-task-board",
+      "origin": "npm",
+      "name": "@firetruck666/dsh-task-board",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@firetruck666/dsh-task-board",
+        "title": {
+          "en": "Task Board",
+          "zh": "任务看板"
+        },
+        "description": {
+          "en": "Board and list panels: tasks run for real through DSH sessions and report their status back. Data lives on the host, so every device sees one copy.",
+          "zh": "看板与清单两个面板：任务交给 DSH 会话真实执行，状态自动回写；数据存在 host 端，电脑和手机看到同一份。"
+        },
+        "homepage": "https://github.com/FiretrUCK666/dsh-task-board#readme",
+        "repository": {
+          "url": "https://github.com/FiretrUCK666/dsh-task-board"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "task-board",
+            "kanban",
+            "cordis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSI1IiB5PSI2IiB3aWR0aD0iNy41IiBoZWlnaHQ9IjI0IiByeD0iMi40IiBmaWxsPSIjMTQ1QUYzIiAvPgogIDxyZWN0IHg9IjE0LjI1IiB5PSI2IiB3aWR0aD0iNy41IiBoZWlnaHQ9IjE2IiByeD0iMi40IiBmaWxsPSIjN0NCN0ZGIiAvPgogIDxyZWN0IHg9IjIzLjUiIHk9IjYiIHdpZHRoPSI3LjUiIGhlaWdodD0iMjEiIHJ4PSIyLjQiIGZpbGw9IiM0NUQ5RTciIC8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "1.4.62",
+            "publishTimestamp": 1794249613,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-alpha.2"
+            }
+          },
+          {
+            "version": "1.3.21",
+            "publishTimestamp": 1792561293,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ef54fc940522eda33c4b70e3d4a85eb1b5311fa8303450bd6eaa8e26c24446ce",
+      "evidence": [
+        {
+          "name": "@firetruck666/dsh-task-board",
+          "version": "1.4.62",
+          "tarball": "https://registry.npmjs.org/@firetruck666/dsh-task-board/-/dsh-task-board-1.4.62.tgz",
+          "integrity": "sha512-MPXy44HSKTFCNJKgJ5FXnCoT6yYnqKbTyoypGJ0UnFmYYjtdCOAPGfm7s6kYNZXBdAD4XrZ2gGjiQU3jshfDFg=="
+        },
+        {
+          "name": "@firetruck666/dsh-task-board",
+          "version": "1.3.21",
+          "tarball": "https://registry.npmjs.org/@firetruck666/dsh-task-board/-/dsh-task-board-1.3.21.tgz",
+          "integrity": "sha512-XOINO28GB8hVZNjgz7BSAhwThpAEqHzYa8uOE2PItfzQV5lUbVRrussrtpAi+VANumtmRmnIj2H4jnUCcbJXLg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@firetruck666/dsh-task-board@latest",
+      "origin": "npm",
+      "name": "@firetruck666/dsh-task-board",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@firetruck666/dsh-task-board",
+        "title": {
+          "en": "Task Board",
+          "zh": "任务看板"
+        },
+        "description": {
+          "en": "Board and list panels: tasks run for real through DSH sessions and report their status back. Data lives on the host, so every device sees one copy.",
+          "zh": "看板与清单两个面板：任务交给 DSH 会话真实执行，状态自动回写；数据存在 host 端，电脑和手机看到同一份。"
+        },
+        "homepage": "https://github.com/FiretrUCK666/dsh-task-board#readme",
+        "repository": {
+          "url": "https://github.com/FiretrUCK666/dsh-task-board"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "task-board",
+            "kanban",
+            "cordis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSI1IiB5PSI2IiB3aWR0aD0iNy41IiBoZWlnaHQ9IjI0IiByeD0iMi40IiBmaWxsPSIjMTQ1QUYzIiAvPgogIDxyZWN0IHg9IjE0LjI1IiB5PSI2IiB3aWR0aD0iNy41IiBoZWlnaHQ9IjE2IiByeD0iMi40IiBmaWxsPSIjN0NCN0ZGIiAvPgogIDxyZWN0IHg9IjIzLjUiIHk9IjYiIHdpZHRoPSI3LjUiIGhlaWdodD0iMjEiIHJ4PSIyLjQiIGZpbGw9IiM0NUQ5RTciIC8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "1.4.62",
+            "publishTimestamp": 1794249613,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-alpha.2"
+            }
+          },
+          {
+            "version": "1.3.21",
+            "publishTimestamp": 1792561293,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ef54fc940522eda33c4b70e3d4a85eb1b5311fa8303450bd6eaa8e26c24446ce",
+      "evidence": [
+        {
+          "name": "@firetruck666/dsh-task-board",
+          "version": "1.4.62",
+          "tarball": "https://registry.npmjs.org/@firetruck666/dsh-task-board/-/dsh-task-board-1.4.62.tgz",
+          "integrity": "sha512-MPXy44HSKTFCNJKgJ5FXnCoT6yYnqKbTyoypGJ0UnFmYYjtdCOAPGfm7s6kYNZXBdAD4XrZ2gGjiQU3jshfDFg=="
+        },
+        {
+          "name": "@firetruck666/dsh-task-board",
+          "version": "1.3.21",
+          "tarball": "https://registry.npmjs.org/@firetruck666/dsh-task-board/-/dsh-task-board-1.3.21.tgz",
+          "integrity": "sha512-XOINO28GB8hVZNjgz7BSAhwThpAEqHzYa8uOE2PItfzQV5lUbVRrussrtpAi+VANumtmRmnIj2H4jnUCcbJXLg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@firetruck666/dsh-task-board",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/FiretrUCK666/dsh-task-board",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@firetruck666/dsh-task-board@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FiretrUCK666/dsh-task-board",
+    "commit": "807e777c0ee7f165aef54aa906b825574664767b",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:33.556Z"
+}

@@ -1,0 +1,148 @@
+{
+  "full_name": "btspoony/dsh-supervision",
+  "originalPosition": 164,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 164,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:05.067Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2da7a02862b9b1568233a6bf5c2242e8fce472e670d465a8c344fbd0a3b25c11",
+      "url": "https://github.com/btspoony/dsh-supervision/blob/4d8b86cba052073f9a2de2599fae0c9d847af972/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-supervision",
+          "command": "dsh plugin --profile web add dsh-supervision",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "82c8c3c3ead8f69fe98788bf73a9d1a6fc8acbf46efd5caef98fbc43bcb01c0f",
+      "url": "https://github.com/btspoony/dsh-supervision/blob/4d8b86cba052073f9a2de2599fae0c9d847af972/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-supervision",
+          "command": "dsh plugin --profile web add dsh-supervision",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-supervision",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/btspoony/dsh-supervision",
+        "commit": "4d8b86cba052073f9a2de2599fae0c9d847af972"
+      },
+      "manifestSha256": "f1c71b8aa64f6c622e7cd64a06380dd0470f6c7b426c0e0165555bd254ef8461",
+      "manifestUrl": "https://github.com/btspoony/dsh-supervision/blob/4d8b86cba052073f9a2de2599fae0c9d847af972/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-supervision",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794992282,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/btspoony/dsh-supervision",
+              "commit": "4d8b86cba052073f9a2de2599fae0c9d847af972"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-supervision",
+      "origin": "npm",
+      "name": "dsh-supervision",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-supervision",
+        "title": {
+          "en": "Supervision",
+          "zh": "会话监督"
+        },
+        "description": {
+          "en": "Bridge a running dsh web session to any terminal supervisor that reads OSC 7501: the plugin reports state on the terminal and relays operator input for steering, cancelling, session switching and parked tool approvals.",
+          "zh": "把正在运行的 dsh web 会话桥接到任意读 OSC 7501 的终端 supervisor：插件在终端上报状态，并转发操作者输入，用于 steer、取消、切换会话以及应答挂起的工具审批（如 herdr-core）。"
+        },
+        "homepage": "https://github.com/btspoony/dsh-supervision#readme",
+        "repository": {
+          "url": "https://github.com/btspoony/dsh-supervision"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoLXN1cGVydmlzaW9uLWljb24tcmluZyIgeDE9IjYiIHkxPSIxOCIgeDI9IjMwIiB5Mj0iMTgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzMxMkU4MSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNBMjFDQUYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImRzaC1zdXBlcnZpc2lvbi1pY29uLWNvcmUiIHgxPSIxNC4xIiB5MT0iMTQuMSIgeDI9IjIxLjkiIHkyPSIyMS45IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNGNTlFMEIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRUE1ODBDIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8IS0tIHN1cGVydmlzb3I6IGFuIG9wZW4gcmluZywgdGhlIGdhcCBpcyB0aGUgd2F5IGluIC0tPgogIDxwYXRoIGQ9Ik0yOC4wNSAyMy44QTExLjYgMTEuNiAwIDEgMSAyOC4wNSAxMi4yIiBzdHJva2U9InVybCgjZHNoLXN1cGVydmlzaW9uLWljb24tcmluZykiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8IS0tIHRoZSBvbmUgc3VwZXJ2aXNlZCBzZXNzaW9uOiB0aGUgc2luZ2xlIHZpc3VhbCB3ZWlnaHQgLS0+CiAgPGNpcmNsZSBjeD0iMTgiIGN5PSIxOCIgcj0iNC4zIiBmaWxsPSJ1cmwoI2RzaC1zdXBlcnZpc2lvbi1pY29uLWNvcmUpIi8+CiAgPCEtLSB0YWtlb3ZlciBpbnB1dDogcmVhY2ggaW4gdGhyb3VnaCB0aGUgZ2FwLCBpbnRvIHRoZSBydW5uaW5nIHNlc3Npb24gLS0+CiAgPHBhdGggZD0iTTMyLjggMThIMjUuOE0yNy44IDE2LjJMMjUuNiAxOEwyNy44IDE5LjgiIHN0cm9rZT0iIzFFMUI0QiIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDwhLS0gcmVwb3J0ZWQgc3RhdGU6IGEgc2lnbmFsIGxlYXZpbmcgdGhlIHJpbmcgLS0+CiAgPHBhdGggZD0iTTYuNCA2LjRMMy44NyAzLjg3IiBzdHJva2U9IiNDMDI2RDMiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794992429,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f2bc1ab3f387ec5068ea719b068f83027d91773569cec3cbf25862023cd551dd",
+      "evidence": [
+        {
+          "name": "dsh-supervision",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-supervision/-/dsh-supervision-0.2.0.tgz",
+          "integrity": "sha512-9lNN6n25g+e7dlYRzSYRTP5QNVBn0b8J5n8AJQz2sr+PQ/X6pWYdugC13rYe8/FWPgD/6c1H6ln1Gr88r8qSyg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-supervision",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/btspoony/dsh-supervision",
+    "commit": "4d8b86cba052073f9a2de2599fae0c9d847af972",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:07.574Z"
+}

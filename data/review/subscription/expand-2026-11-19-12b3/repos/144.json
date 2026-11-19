@@ -1,0 +1,29 @@
+{
+  "full_name": "jerryqx/dsh-ximalaya",
+  "originalPosition": 144,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:14.643Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/jerryqx/dsh-ximalaya/git/commits/2fbd8296e3032fe626f41e8ea2f56605ecf48d15\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D48C:3F9DA5:11635B6:380BA80:6AFEE7DB and timestamp 2026-11-19 12:13:15 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/jerryqx/dsh-ximalaya",
+    "commit": "2fbd8296e3032fe626f41e8ea2f56605ecf48d15",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:15.220Z"
+}

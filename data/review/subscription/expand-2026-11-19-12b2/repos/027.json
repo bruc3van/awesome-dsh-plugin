@@ -1,0 +1,77 @@
+{
+  "full_name": "MrMaii/knotline",
+  "originalPosition": 27,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 27,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:09.184Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e2f56a6d5374344446e8a049616783ecc86d4f68107add6f4bed8650616ba40f",
+      "url": "https://github.com/MrMaii/knotline/blob/1775b051dc21714a6d1de71827e2d00e4da64b28/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "b77c3925064beb15012e07ac43abbc7f77b17e52a0113fd81ec24b95c309215a",
+      "url": "https://github.com/MrMaii/knotline/blob/1775b051dc21714a6d1de71827e2d00e4da64b28/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "knotline-dsh",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MrMaii/knotline",
+        "commit": "1775b051dc21714a6d1de71827e2d00e4da64b28"
+      },
+      "manifestSha256": "155d7375e92fa236d0b2ce86bbb22b9366d386c5d9c24e5d355b0091b2d79e3d",
+      "manifestUrl": "https://github.com/MrMaii/knotline/blob/1775b051dc21714a6d1de71827e2d00e4da64b28/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "knotline-dsh",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1787023871,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MrMaii/knotline",
+              "commit": "1775b051dc21714a6d1de71827e2d00e4da64b28"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MrMaii/knotline",
+    "commit": "1775b051dc21714a6d1de71827e2d00e4da64b28",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:11.595Z"
+}

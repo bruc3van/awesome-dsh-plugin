@@ -1,0 +1,78 @@
+{
+  "full_name": "TreasureGooldove/dsh-easycode",
+  "originalPosition": 80,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 80,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:31.544Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "870805d1af285cbf000b417023ff3c55a7c2fc7de07cabb73a3727fa5afe708f",
+      "url": "https://github.com/TreasureGooldove/dsh-easycode/blob/635fcc0a46152552b14727375aa03617e31aeab9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TreasureGooldove/dsh-easycode",
+          "command": "dsh plugin --profile web add github:TreasureGooldove/dsh-easycode",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-easycode",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TreasureGooldove/dsh-easycode",
+        "commit": "635fcc0a46152552b14727375aa03617e31aeab9"
+      },
+      "manifestSha256": "d91ef5abacb028bb13666003aee4a0ca61f3c65d3cae78f9477a0a7cf6ed79bf",
+      "manifestUrl": "https://github.com/TreasureGooldove/dsh-easycode/blob/635fcc0a46152552b14727375aa03617e31aeab9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-easycode",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786902272,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TreasureGooldove/dsh-easycode",
+              "commit": "635fcc0a46152552b14727375aa03617e31aeab9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/TreasureGooldove/dsh-easycode",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TreasureGooldove/dsh-easycode",
+    "commit": "635fcc0a46152552b14727375aa03617e31aeab9",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:33.440Z"
+}

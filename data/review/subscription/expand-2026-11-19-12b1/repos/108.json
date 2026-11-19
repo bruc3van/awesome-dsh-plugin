@@ -1,0 +1,208 @@
+{
+  "full_name": "Fouxiuan/dsh-free-xianyu",
+  "originalPosition": 108,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 108,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:31.483Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "16fb85d19b2db1588a0e1cf5ce1c952bdfb999438e914532d3886f24980853de",
+      "url": "https://github.com/Fouxiuan/dsh-free-xianyu/blob/18d81c25f5a3facfd4c38cece2cf5ba7787bc938/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-free-xianyu",
+          "command": "dsh plugin --profile desktop add dsh-free-xianyu",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Fouxiuan/dsh-free-xianyu",
+          "command": "dsh plugin --profile desktop add github:Fouxiuan/dsh-free-xianyu",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-free-xianyu@1.1.0",
+          "command": "dsh plugin --profile desktop add dsh-free-xianyu@1.1.0",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-free-xianyu",
+      "version": "1.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fouxiuan/dsh-free-xianyu",
+        "commit": "18d81c25f5a3facfd4c38cece2cf5ba7787bc938"
+      },
+      "manifestSha256": "5c3029d8fba84461acaee6dbefa6f4a25cd9d094d033dca025f098af5104b819",
+      "manifestUrl": "https://github.com/Fouxiuan/dsh-free-xianyu/blob/18d81c25f5a3facfd4c38cece2cf5ba7787bc938/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-free-xianyu",
+        "versions": [
+          {
+            "version": "1.1.2",
+            "publishTimestamp": 1794641858,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Fouxiuan/dsh-free-xianyu",
+              "commit": "18d81c25f5a3facfd4c38cece2cf5ba7787bc938"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-free-xianyu",
+      "origin": "npm",
+      "name": "dsh-free-xianyu",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-free-xianyu",
+        "title": {
+          "en": "Free Xianyu monitor",
+          "zh": "闲鱼免费监控"
+        },
+        "description": {
+          "en": "Xianyu second-hand marketplace monitor for DeepSeek Harness: hosts the ai-goofish-monitor backend, adds goofish_* tools and a sidebar panel, and analyzes listings with dsh-our-free-model free lanes.",
+          "zh": "DeepSeek Harness 内的闲鱼商品监控插件：托管 ai-goofish-monitor 后端、提供 goofish_* 工具与侧边栏面板，并用 dsh-our-free-model 的免费模型分析商品。"
+        },
+        "homepage": "https://github.com/Fouxiuan/dsh-free-xianyu#readme",
+        "repository": {
+          "url": "https://github.com/Fouxiuan/dsh-free-xianyu"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "xianyu",
+            "goofish",
+            "second-hand",
+            "ai-analysis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ikdvb2Zpc2ggbW9uaXRvciI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdtLWJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmYjE1YyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmNzZiM2MiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdtLWZpc2giIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZmOGVmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZTNjNCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjkyIiBoZWlnaHQ9IjkyIiByeD0iMjIiIGZpbGw9InVybCgjZ20tYmcpIi8+CiAgPHBhdGggZD0iTTE4IDU2YzgtMTMgMjItMjAgMzYtMTggNiAxIDEwIDMgMTQgN2wxMC05YzEgOC0xIDE0LTUgMTkgMyA0IDUgOCA2IDEzLTYtMi0xMS0zLTE2LTItNiA4LTE3IDEzLTI4IDEwQzI1IDczIDE3IDY2IDE4IDU2eiIgZmlsbD0idXJsKCNnbS1maXNoKSIvPgogIDxjaXJjbGUgY3g9IjQwIiBjeT0iNTIiIHI9IjMuNCIgZmlsbD0iIzViM2EyOCIvPgogIDxwYXRoIGQ9Ik01MCA0NGMzIDQgMyAxMiAwIDE2IiBzdHJva2U9IiNmMGE0NjgiIHN0cm9rZS13aWR0aD0iMi40IiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiLz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9IiMyZjZmOGYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICA8Y2lyY2xlIGN4PSI2NCIgY3k9IjQwIiByPSIxMiIgc3Ryb2tlLXdpZHRoPSI0LjYiLz4KICAgIDxwYXRoIGQ9Ik03MyA0OWwxMCAxMCIgc3Ryb2tlLXdpZHRoPSI1LjIiLz4KICA8L2c+CiAgPHBhdGggZD0iTTU4IDQwYTYgNiAwIDAgMSA2LTYiIHN0cm9rZT0iI2JjZGZmMCIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "1.1.2",
+            "publishTimestamp": 1794642008,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "bab74f7b7b7ba20c945aa1a76f51b36c427299b5b65dc87d398a52e219011cb8",
+      "evidence": [
+        {
+          "name": "dsh-free-xianyu",
+          "version": "1.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-free-xianyu/-/dsh-free-xianyu-1.1.2.tgz",
+          "integrity": "sha512-V+pepnSOaqWeKRiqWQJ70m8/eKsGp3s8tYevNkyu6jdz8DnNbweF6bsS/u1RKsXz+3dO4o8LMPYp+ELxyV4kVA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-free-xianyu@1.1.0",
+      "origin": "npm",
+      "name": "dsh-free-xianyu",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-free-xianyu",
+        "title": {
+          "en": "Free Xianyu monitor",
+          "zh": "闲鱼免费监控"
+        },
+        "description": {
+          "en": "Xianyu second-hand marketplace monitor for DeepSeek Harness: hosts the ai-goofish-monitor backend, adds goofish_* tools and a sidebar panel, and analyzes listings with dsh-our-free-model free lanes.",
+          "zh": "DeepSeek Harness 内的闲鱼商品监控插件：托管 ai-goofish-monitor 后端、提供 goofish_* 工具与侧边栏面板，并用 dsh-our-free-model 的免费模型分析商品。"
+        },
+        "homepage": "https://github.com/Fouxiuan/dsh-free-xianyu#readme",
+        "repository": {
+          "url": "https://github.com/Fouxiuan/dsh-free-xianyu"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "xianyu",
+            "goofish",
+            "second-hand",
+            "ai-analysis"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ikdvb2Zpc2ggbW9uaXRvciI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdtLWJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmYjE1YyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmNzZiM2MiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdtLWZpc2giIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZmOGVmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZTNjNCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjkyIiBoZWlnaHQ9IjkyIiByeD0iMjIiIGZpbGw9InVybCgjZ20tYmcpIi8+CiAgPHBhdGggZD0iTTE4IDU2YzgtMTMgMjItMjAgMzYtMTggNiAxIDEwIDMgMTQgN2wxMC05YzEgOC0xIDE0LTUgMTkgMyA0IDUgOCA2IDEzLTYtMi0xMS0zLTE2LTItNiA4LTE3IDEzLTI4IDEwQzI1IDczIDE3IDY2IDE4IDU2eiIgZmlsbD0idXJsKCNnbS1maXNoKSIvPgogIDxjaXJjbGUgY3g9IjQwIiBjeT0iNTIiIHI9IjMuNCIgZmlsbD0iIzViM2EyOCIvPgogIDxwYXRoIGQ9Ik01MCA0NGMzIDQgMyAxMiAwIDE2IiBzdHJva2U9IiNmMGE0NjgiIHN0cm9rZS13aWR0aD0iMi40IiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiLz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2U9IiMyZjZmOGYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICA8Y2lyY2xlIGN4PSI2NCIgY3k9IjQwIiByPSIxMiIgc3Ryb2tlLXdpZHRoPSI0LjYiLz4KICAgIDxwYXRoIGQ9Ik03MyA0OWwxMCAxMCIgc3Ryb2tlLXdpZHRoPSI1LjIiLz4KICA8L2c+CiAgPHBhdGggZD0iTTU4IDQwYTYgNiAwIDAgMSA2LTYiIHN0cm9rZT0iI2JjZGZmMCIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1794500386,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "bab74f7b7b7ba20c945aa1a76f51b36c427299b5b65dc87d398a52e219011cb8",
+      "evidence": [
+        {
+          "name": "dsh-free-xianyu",
+          "version": "1.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-free-xianyu/-/dsh-free-xianyu-1.1.0.tgz",
+          "integrity": "sha512-hLoPxTuXFNrQLMwXOCHjI/WfS5VfZxMCukBCsNsTeyZx+xmhXU541Yv+QOfpHQrVh9lrN3TS8CBsEed2QxbuKw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-free-xianyu",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Fouxiuan/dsh-free-xianyu",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-free-xianyu@1.1.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fouxiuan/dsh-free-xianyu",
+    "commit": "18d81c25f5a3facfd4c38cece2cf5ba7787bc938",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:33.652Z"
+}

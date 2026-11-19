@@ -1,0 +1,100 @@
+{
+  "full_name": "IThinkItsaName/dsh-lore",
+  "originalPosition": 131,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 131,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:39.799Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d03f1b68561a736db70787987e796aecd3fe710f509d8ae4d9666ce36af8c85d",
+      "url": "https://github.com/IThinkItsaName/dsh-lore/blob/6072716f9671f0b5f5b4b93423c68289bf768ecd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-lore@v0.9.5",
+          "command": "dsh plugin --profile <profile> add dsh-lore@v0.9.5",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "0ade2e2c8221752b54511384b9a14b4972f9c774e1e2d7d8331392738335fd3c",
+      "url": "https://github.com/IThinkItsaName/dsh-lore/blob/6072716f9671f0b5f5b4b93423c68289bf768ecd/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-lore",
+      "version": "0.9.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/IThinkItsaName/dsh-lore",
+        "commit": "6072716f9671f0b5f5b4b93423c68289bf768ecd"
+      },
+      "manifestSha256": "9860683534e8c69bf7fca8f3dd35ca8b43f3a43d55b398b7a595cba2af40573e",
+      "manifestUrl": "https://github.com/IThinkItsaName/dsh-lore/blob/6072716f9671f0b5f5b4b93423c68289bf768ecd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-alpha.1 >=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-lore",
+        "versions": [
+          {
+            "version": "0.9.5",
+            "publishTimestamp": 1792762931,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/IThinkItsaName/dsh-lore",
+              "commit": "6072716f9671f0b5f5b4b93423c68289bf768ecd"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.1 >=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-lore@v0.9.5",
+      "origin": "npm",
+      "name": "dsh-lore",
+      "version": "v0.9.5",
+      "code": "invalid_manifest",
+      "status": "invalid_manifest",
+      "reason": "missing or mismatched manifest",
+      "statusCode": "invalid_manifest",
+      "registrySha256": "0ff30c3f07c821854fc114a9049abc5a5f696b4559f1abef5b6f9a3e0a95ccec"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-lore@v0.9.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/IThinkItsaName/dsh-lore",
+    "commit": "6072716f9671f0b5f5b4b93423c68289bf768ecd",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:42.265Z"
+}

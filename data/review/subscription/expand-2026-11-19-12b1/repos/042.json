@@ -1,0 +1,320 @@
+{
+  "full_name": "58fly/dsh-language-guard",
+  "originalPosition": 42,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 42,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:02.870Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "be46e21a5d777ff748223fcfc6e8c83b4d65556496ba98f05c1580e40c77ab2d",
+      "url": "https://github.com/58fly/dsh-language-guard/blob/63ebc95b5ba7845248fbff83d8b88e1996482dc2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-language-guard",
+          "command": "dsh plugin add dsh-language-guard",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/58fly/dsh-language-guard",
+          "command": "dsh plugin add https://github.com/58fly/dsh-language-guard",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/58fly/dsh-language-guard#v0.3.5",
+          "command": "dsh plugin add \"github:58fly/dsh-language-guard#v0.3.5\"",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-language-guard@0.3.5",
+          "command": "dsh plugin add dsh-language-guard@0.3.5",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "75a1e2879085c0464db022b1a89558340017ac89738e0bafa9eba480e11dfd0b",
+      "url": "https://github.com/58fly/dsh-language-guard/blob/63ebc95b5ba7845248fbff83d8b88e1996482dc2/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-language-guard",
+          "command": "dsh plugin add dsh-language-guard",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/58fly/dsh-language-guard",
+          "command": "dsh plugin add https://github.com/58fly/dsh-language-guard",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/58fly/dsh-language-guard#v0.3.5",
+          "command": "dsh plugin add \"github:58fly/dsh-language-guard#v0.3.5\"",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-language-guard@0.3.5",
+          "command": "dsh plugin add dsh-language-guard@0.3.5",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-language-guard",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/58fly/dsh-language-guard",
+        "commit": "63ebc95b5ba7845248fbff83d8b88e1996482dc2"
+      },
+      "manifestSha256": "b6e804329897cc249939767f57c0ca4dce552937bcf2b2bbb273e4b630cc2fd1",
+      "manifestUrl": "https://github.com/58fly/dsh-language-guard/blob/63ebc95b5ba7845248fbff83d8b88e1996482dc2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-language-guard",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1794874808,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/58fly/dsh-language-guard",
+              "commit": "63ebc95b5ba7845248fbff83d8b88e1996482dc2"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-language-guard",
+      "origin": "npm",
+      "name": "dsh-language-guard",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-language-guard",
+        "title": {
+          "en": "Language Guard",
+          "zh": "语言守卫"
+        },
+        "description": {
+          "en": "Locks model reasoning and replies to a target language (Simplified Chinese by default): three strength levels, configurable prompt placement, periodic reminders, and a /language switch. If you also use dsh-context, consider clearing its promptPrefix / promptSuffix — its sections share this plugin's order and duplicate token cost.",
+          "zh": "把模型的思考过程与回复语言锁定为指定语言（默认简体中文）：基础 / 强化 / 周期三档强度、可配置的约束落点、周期性自检提醒，并支持 /language 快速切换。若同时安装 dsh-context，建议清空它的 promptPrefix / promptSuffix —— 它注入的 section 与本插件同序，会重复消耗 token。"
+        },
+        "author": "sunjingzhi",
+        "homepage": "https://github.com/58fly/dsh-language-guard#readme",
+        "repository": {
+          "url": "https://github.com/58fly/dsh-language-guard"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "chinese",
+            "language",
+            "locale",
+            "system-prompt",
+            "i18n"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0i6K+t6KiA5a6I5Y2rIC8gTGFuZ3VhZ2UgR3VhcmQiPgogIDxyZWN0IHg9IjMyIiB5PSIzMiIgd2lkdGg9Ijk2MCIgaGVpZ2h0PSI5NjAiIHJ4PSIyMTYiIGZpbGw9IiMyRjZGRUQiLz4KICA8cmVjdCB4PSIyNzYiIHk9IjMxNiIgd2lkdGg9IjQ3MiIgaGVpZ2h0PSIzOTIiIHJ4PSI3MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9Ijc2Ii8+CiAgPHJlY3QgeD0iNDY4IiB5PSIxNzYiIHdpZHRoPSI4OCIgaGVpZ2h0PSI2NzIiIHJ4PSI0NCIgZmlsbD0iI0ZGRkZGRiIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1794875038,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "41e8a969366f2c916c2b53275b22ac1cc531c60674ec33de5f4d166b64775b01",
+      "evidence": [
+        {
+          "name": "dsh-language-guard",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-language-guard/-/dsh-language-guard-0.4.0.tgz",
+          "integrity": "sha512-gkiY1am6oOKKQuFEOydfJID3RXxhN93bO169b+PSERr3xKzJs8sksBM5qua9AFYVDxa0TbqreMMqgBppfJbuMw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/58fly/dsh-language-guard#v0.3.5",
+      "origin": "git_target",
+      "name": "dsh-language-guard",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-language-guard",
+        "title": {
+          "en": "Language Guard",
+          "zh": "语言守卫"
+        },
+        "description": {
+          "en": "Locks model reasoning and replies to a target language (Simplified Chinese by default): three strength levels, configurable prompt placement, periodic reminders, and a /language switch. If you also use dsh-context, consider clearing its promptPrefix / promptSuffix — its sections share this plugin's order and duplicate token cost.",
+          "zh": "把模型的思考过程与回复语言锁定为指定语言（默认简体中文）：基础 / 强化 / 周期三档强度、可配置的约束落点、周期性自检提醒，并支持 /language 快速切换。若同时安装 dsh-context，建议清空它的 promptPrefix / promptSuffix —— 它注入的 section 与本插件同序，会重复消耗 token。"
+        },
+        "author": "sunjingzhi",
+        "homepage": "https://github.com/58fly/dsh-language-guard#readme",
+        "repository": {
+          "url": "https://github.com/58fly/dsh-language-guard"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "chinese",
+            "language",
+            "locale",
+            "system-prompt",
+            "i18n"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0i6K+t6KiA5a6I5Y2rIC8gTGFuZ3VhZ2UgR3VhcmQiPgogIDxyZWN0IHg9IjMyIiB5PSIzMiIgd2lkdGg9Ijk2MCIgaGVpZ2h0PSI5NjAiIHJ4PSIyMTYiIGZpbGw9IiMyRjZGRUQiLz4KICA8cmVjdCB4PSIyNzYiIHk9IjMxNiIgd2lkdGg9IjQ3MiIgaGVpZ2h0PSIzOTIiIHJ4PSI3MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9Ijc2Ii8+CiAgPHJlY3QgeD0iNDY4IiB5PSIxNzYiIHdpZHRoPSI4OCIgaGVpZ2h0PSI2NzIiIHJ4PSI0NCIgZmlsbD0iI0ZGRkZGRiIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.3.5",
+            "publishTimestamp": 1792889680,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/58fly/dsh-language-guard",
+              "commit": "624469079dbd5ea26def2f6be4d70b5891c97096"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "624469079dbd5ea26def2f6be4d70b5891c97096",
+          "name": "dsh-language-guard",
+          "version": "0.3.5",
+          "url": "https://github.com/58fly/dsh-language-guard",
+          "manifestSha256": "958ab52c8567c8bc4be60a6ac0ba4225cdca5b85e3a61eb2caac8290c8bc6c0b",
+          "publishTimestamp": 1792889680
+        }
+      ]
+    },
+    {
+      "target": "dsh-language-guard@0.3.5",
+      "origin": "npm",
+      "name": "dsh-language-guard",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-language-guard",
+        "title": {
+          "en": "Language Guard",
+          "zh": "语言守卫"
+        },
+        "description": {
+          "en": "Locks model reasoning and replies to a target language (Simplified Chinese by default): three strength levels, configurable prompt placement, periodic reminders, and a /language switch. If you also use dsh-context, consider clearing its promptPrefix / promptSuffix — its sections share this plugin's order and duplicate token cost.",
+          "zh": "把模型的思考过程与回复语言锁定为指定语言（默认简体中文）：基础 / 强化 / 周期三档强度、可配置的约束落点、周期性自检提醒，并支持 /language 快速切换。若同时安装 dsh-context，建议清空它的 promptPrefix / promptSuffix —— 它注入的 section 与本插件同序，会重复消耗 token。"
+        },
+        "author": "sunjingzhi",
+        "homepage": "https://github.com/58fly/dsh-language-guard#readme",
+        "repository": {
+          "url": "https://github.com/58fly/dsh-language-guard"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "chinese",
+            "language",
+            "locale",
+            "system-prompt",
+            "i18n"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0i6K+t6KiA5a6I5Y2rIC8gTGFuZ3VhZ2UgR3VhcmQiPgogIDxyZWN0IHg9IjMyIiB5PSIzMiIgd2lkdGg9Ijk2MCIgaGVpZ2h0PSI5NjAiIHJ4PSIyMTYiIGZpbGw9IiMyRjZGRUQiLz4KICA8cmVjdCB4PSIyNzYiIHk9IjMxNiIgd2lkdGg9IjQ3MiIgaGVpZ2h0PSIzOTIiIHJ4PSI3MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9Ijc2Ii8+CiAgPHJlY3QgeD0iNDY4IiB5PSIxNzYiIHdpZHRoPSI4OCIgaGVpZ2h0PSI2NzIiIHJ4PSI0NCIgZmlsbD0iI0ZGRkZGRiIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.3.5",
+            "publishTimestamp": 1792889808,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "41e8a969366f2c916c2b53275b22ac1cc531c60674ec33de5f4d166b64775b01",
+      "evidence": [
+        {
+          "name": "dsh-language-guard",
+          "version": "0.3.5",
+          "tarball": "https://registry.npmjs.org/dsh-language-guard/-/dsh-language-guard-0.3.5.tgz",
+          "integrity": "sha512-UeiknjmY5JYYve+iZbSvSFY6pU4YXjJXowWhpUunaQr9NElZoG+ov3vSMXmXKbB3ffSYRJeBwFqT1NE46dGc7g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-language-guard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/58fly/dsh-language-guard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/58fly/dsh-language-guard#v0.3.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-language-guard@0.3.5",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/58fly/dsh-language-guard",
+    "commit": "63ebc95b5ba7845248fbff83d8b88e1996482dc2",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:08.001Z"
+}

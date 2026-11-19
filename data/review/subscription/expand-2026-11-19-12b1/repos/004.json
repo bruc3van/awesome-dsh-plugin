@@ -1,0 +1,145 @@
+{
+  "full_name": "GooDAnDReaDY/dsh-grok-xsearch",
+  "originalPosition": 4,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 4,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:45.056Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cd3687e5f79853dcf2e16e10bb3ee42e6b58ab8a4f591f97330a27c68ac8d6cc",
+      "url": "https://github.com/GooDAnDReaDY/dsh-grok-xsearch/blob/30a9affef8056c25da6992c80716407318b4f124/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-grok-xsearch",
+          "command": "dsh plugin --profile web add @goodandready/dsh-grok-xsearch",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "220ff31d7abfd0137ebce0920952964289413411162d998cef171227fe4ad9bf",
+      "url": "https://github.com/GooDAnDReaDY/dsh-grok-xsearch/blob/30a9affef8056c25da6992c80716407318b4f124/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@goodandready/dsh-grok-xsearch",
+          "command": "dsh plugin --profile web add @goodandready/dsh-grok-xsearch",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@goodandready/dsh-grok-xsearch",
+      "version": "0.3.32",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GooDAnDReaDY/dsh-grok-xsearch",
+        "commit": "30a9affef8056c25da6992c80716407318b4f124"
+      },
+      "manifestSha256": "7ef5cbc58c7ca235246eebd3e432396ccc0396928099e80659b771c47f2c6fce",
+      "manifestUrl": "https://github.com/GooDAnDReaDY/dsh-grok-xsearch/blob/30a9affef8056c25da6992c80716407318b4f124/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-rc.2 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@goodandready/dsh-grok-xsearch",
+        "versions": [
+          {
+            "version": "0.3.32",
+            "publishTimestamp": 1794494184,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GooDAnDReaDY/dsh-grok-xsearch",
+              "commit": "30a9affef8056c25da6992c80716407318b4f124"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@goodandready/dsh-grok-xsearch",
+      "origin": "npm",
+      "name": "@goodandready/dsh-grok-xsearch",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@goodandready/dsh-grok-xsearch",
+        "title": "@goodandready/dsh-grok-xsearch",
+        "description": "Real-time X (Twitter) search, author profiling, trends, and fact-checking tool suite powered by SuperGrok OAuth for DeepSeek Harness.",
+        "homepage": "https://github.com/GooDAnDReaDY/dsh-grok-xsearch",
+        "repository": {
+          "url": "https://github.com/GooDAnDReaDY/dsh-grok-xsearch"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "grok",
+            "x-search",
+            "xai"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.32",
+            "publishTimestamp": 1794494331,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "73c94b2093f1ed17bad64e60ff958ec6addee710078184b8b61c4766b1f07b3b",
+      "evidence": [
+        {
+          "name": "@goodandready/dsh-grok-xsearch",
+          "version": "0.3.32",
+          "tarball": "https://registry.npmjs.org/@goodandready/dsh-grok-xsearch/-/dsh-grok-xsearch-0.3.32.tgz",
+          "integrity": "sha512-e0S+2yvGfrZe0vd2sWQyL4Nhb6TbRzXYnSif8TpFHLE5Z8aDI+qKssBn5h6jW9w+22Z7PLP4MxHqja6LrSizjw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@goodandready/dsh-grok-xsearch",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GooDAnDReaDY/dsh-grok-xsearch",
+    "commit": "30a9affef8056c25da6992c80716407318b4f124",
+    "releaseTags": 34,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:47.951Z"
+}

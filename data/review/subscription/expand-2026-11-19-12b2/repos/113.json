@@ -1,0 +1,66 @@
+{
+  "full_name": "ZCX26324/dsh-gold-card",
+  "originalPosition": 113,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 113,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:44.706Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dbb4518a55132117dea4a3640ebc1b1a0c59822434bb6e4b85db99b2eb4e9c70",
+      "url": "https://github.com/ZCX26324/dsh-gold-card/blob/de629af6c6ba259a54e876300c75dfcdd9ceeaeb/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-gold-card",
+      "version": "1.9.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZCX26324/dsh-gold-card",
+        "commit": "de629af6c6ba259a54e876300c75dfcdd9ceeaeb"
+      },
+      "manifestSha256": "68f1ba4d4b6d87ecf4a6af7b3a681a62c2ca3931f42f0f9c67b45cda2dfc12e9",
+      "manifestUrl": "https://github.com/ZCX26324/dsh-gold-card/blob/de629af6c6ba259a54e876300c75dfcdd9ceeaeb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-gold-card",
+        "versions": [
+          {
+            "version": "1.9.3",
+            "publishTimestamp": 1794104021,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ZCX26324/dsh-gold-card",
+              "commit": "de629af6c6ba259a54e876300c75dfcdd9ceeaeb"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZCX26324/dsh-gold-card",
+    "commit": "de629af6c6ba259a54e876300c75dfcdd9ceeaeb",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:46.724Z"
+}

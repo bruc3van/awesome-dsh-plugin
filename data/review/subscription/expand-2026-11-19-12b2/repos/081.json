@@ -1,0 +1,50 @@
+{
+  "full_name": "TritiumWang/dsh-universal-worldbook",
+  "originalPosition": 81,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 81,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:31.798Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "73b2bcf5f18c9186b574f0182cc853db48aa477867b642924bc1fea501565b89",
+      "url": "https://github.com/TritiumWang/dsh-universal-worldbook/blob/10808578147d53942775f34b01ba3a8a035172e7/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-universal-worldbook",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TritiumWang/dsh-universal-worldbook",
+        "commit": "10808578147d53942775f34b01ba3a8a035172e7"
+      },
+      "manifestSha256": "b9557647b4db9c1a106892a21fc1e012ea86ecccc0005881d91108fa27df3610",
+      "manifestUrl": "https://github.com/TritiumWang/dsh-universal-worldbook/blob/10808578147d53942775f34b01ba3a8a035172e7/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TritiumWang/dsh-universal-worldbook",
+    "commit": "10808578147d53942775f34b01ba3a8a035172e7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:33.594Z"
+}

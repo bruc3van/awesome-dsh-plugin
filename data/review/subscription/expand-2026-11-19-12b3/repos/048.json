@@ -1,0 +1,29 @@
+{
+  "full_name": "a740411040/dsh-assist",
+  "originalPosition": 48,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 48,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:05.020Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/a740411040/dsh-assist/git/commits/725fdb4f733c8b2ee8fe6a8d34de5aa983aba433\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D48E:34BED:116DD0D:3825044:6AFEE7D1 and timestamp 2026-11-19 12:13:05 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/a740411040/dsh-assist",
+    "commit": "725fdb4f733c8b2ee8fe6a8d34de5aa983aba433",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:05.619Z"
+}

@@ -1,0 +1,92 @@
+{
+  "full_name": "MicroHEROX/dsh-exa-mcp",
+  "originalPosition": 174,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 174,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:58.571Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23d7c3c224bd7e458bf8cbfbf9133276788f8e8c968eea7a5ffc62ab4d836597",
+      "url": "https://github.com/MicroHEROX/dsh-exa-mcp/blob/7ab62d2a43e8902792a07b5e89dd56ad602af4d4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MicroHEROX/dsh-exa-mcp",
+          "command": "dsh plugin --profile web add github:MicroHEROX/dsh-exa-mcp",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "3224ee8a8402995f2c5de0f115aa6ab55fd17fb24f32022bd0e90954025fe361",
+      "url": "https://github.com/MicroHEROX/dsh-exa-mcp/blob/7ab62d2a43e8902792a07b5e89dd56ad602af4d4/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MicroHEROX/dsh-exa-mcp",
+          "command": "dsh plugin --profile web add github:MicroHEROX/dsh-exa-mcp",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-exa-mcp",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MicroHEROX/dsh-exa-mcp",
+        "commit": "7ab62d2a43e8902792a07b5e89dd56ad602af4d4"
+      },
+      "manifestSha256": "9a600b845467a7f221d6cdbb39d5e8a4627dd27733a1f91c403e7aaaa2006d9d",
+      "manifestUrl": "https://github.com/MicroHEROX/dsh-exa-mcp/blob/7ab62d2a43e8902792a07b5e89dd56ad602af4d4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-exa-mcp",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794779536,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MicroHEROX/dsh-exa-mcp",
+              "commit": "7ab62d2a43e8902792a07b5e89dd56ad602af4d4"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/MicroHEROX/dsh-exa-mcp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MicroHEROX/dsh-exa-mcp",
+    "commit": "7ab62d2a43e8902792a07b5e89dd56ad602af4d4",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:00.821Z"
+}

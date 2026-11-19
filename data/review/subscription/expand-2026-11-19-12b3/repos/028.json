@@ -1,0 +1,29 @@
+{
+  "full_name": "Nagi-ovo/dsh-music-tui",
+  "originalPosition": 28,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 28,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:03.095Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/Nagi-ovo/dsh-music-tui/git/commits/60426f0d6239dc8cd5a9e1dd217971a79a9cb2eb\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D43B:DB66D:11AF043:38DBD08:6AFEE7CF and timestamp 2026-11-19 12:13:03 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Nagi-ovo/dsh-music-tui",
+    "commit": "60426f0d6239dc8cd5a9e1dd217971a79a9cb2eb",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:03.695Z"
+}

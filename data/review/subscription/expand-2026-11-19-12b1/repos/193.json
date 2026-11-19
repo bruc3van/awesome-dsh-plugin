@@ -1,0 +1,58 @@
+{
+  "full_name": "OpenSaozi/dsh-antigravity",
+  "originalPosition": 193,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 193,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:06.818Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1c382ff635a5c7c7e10e2d5e7c9a75379af11948ed812da74ae4520bedc7aa9e",
+      "url": "https://github.com/OpenSaozi/dsh-antigravity/blob/1cb901002683cb7517b910a25a466d400b2429aa/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "23594d0be7111a1835deedda73ad20bf86ac0d8488f33804c8d3b27a6ccaa3a9",
+      "url": "https://github.com/OpenSaozi/dsh-antigravity/blob/1cb901002683cb7517b910a25a466d400b2429aa/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-llm-pi-ai-antigravity",
+      "version": "0.1.0-rc.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/OpenSaozi/dsh-antigravity",
+        "commit": "1cb901002683cb7517b910a25a466d400b2429aa"
+      },
+      "manifestSha256": "ab41bc40a22e5931429fbbaaf32208d141ecd8f7bd08e8e7cc81c1a52f015635",
+      "manifestUrl": "https://github.com/OpenSaozi/dsh-antigravity/blob/1cb901002683cb7517b910a25a466d400b2429aa/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/OpenSaozi/dsh-antigravity",
+    "commit": "1cb901002683cb7517b910a25a466d400b2429aa",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-19T12:08:09.348Z"
+}

@@ -1,0 +1,59 @@
+{
+  "full_name": "Heath96/dsh-heath-mcp",
+  "originalPosition": 123,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 123,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:37.469Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5e749b8164398cecc6f4453da290d58a30567eb39062f7e5aae90df8f4109edd",
+      "url": "https://github.com/Heath96/dsh-heath-mcp/blob/c834c34fedff6bae3c52b5a65d1671ecb823f537/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Heath96/dsh-heath-mcp",
+          "command": "dsh plugin --profile web add github:Heath96/dsh-heath-mcp",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Heath96/dsh-heath-mcp",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Heath96/dsh-heath-mcp",
+    "commit": "c834c34fedff6bae3c52b5a65d1671ecb823f537",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-heath-mcp",
+    "version": "3.0.0",
+    "dsh": {
+      "client": {
+        "platform": "web",
+        "inject": [
+          "@deepseek-ai/dsh-client-ui-settings"
+        ]
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:07:39.324Z"
+}

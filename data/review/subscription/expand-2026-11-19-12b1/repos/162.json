@@ -1,0 +1,94 @@
+{
+  "full_name": "Lixiuxiu559/AgentForge",
+  "originalPosition": 162,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 162,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:54.671Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ea740537aedf2b069924224c8bafeff807f77a217eb6f066f7c6220b0ee42b16",
+      "url": "https://github.com/Lixiuxiu559/AgentForge/blob/459eb5daf345e58da34ed43975e300912daddfc9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Lixiuxiu559/AgentForge",
+          "command": "dsh plugin --profile web add github:Lixiuxiu559/AgentForge",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/wiki/README.md",
+      "sha256": "92805fb66857ad4424806650ad03e99735b544263a4be712a7f39e0f323aa8f4",
+      "url": "https://github.com/Lixiuxiu559/AgentForge/blob/459eb5daf345e58da34ed43975e300912daddfc9/docs/wiki/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/assets/README.md",
+      "sha256": "bafb82dd257aa69dba1343d2f8d2e40c34aa64450b85315f634b272cccf3b7fd",
+      "url": "https://github.com/Lixiuxiu559/AgentForge/blob/459eb5daf345e58da34ed43975e300912daddfc9/docs/assets/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agentforge",
+      "version": "0.19.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lixiuxiu559/AgentForge",
+        "commit": "459eb5daf345e58da34ed43975e300912daddfc9"
+      },
+      "manifestSha256": "271f837a733bd59d8832e28bb8fe8931b06c6b12d3ea2c77c45a18671a897717",
+      "manifestUrl": "https://github.com/Lixiuxiu559/AgentForge/blob/459eb5daf345e58da34ed43975e300912daddfc9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-agentforge",
+        "versions": [
+          {
+            "version": "0.19.1",
+            "publishTimestamp": 1795078544,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Lixiuxiu559/AgentForge",
+              "commit": "459eb5daf345e58da34ed43975e300912daddfc9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Lixiuxiu559/AgentForge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lixiuxiu559/AgentForge",
+    "commit": "459eb5daf345e58da34ed43975e300912daddfc9",
+    "releaseTags": 36,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:57.631Z"
+}

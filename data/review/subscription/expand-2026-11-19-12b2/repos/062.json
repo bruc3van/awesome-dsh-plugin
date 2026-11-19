@@ -1,0 +1,175 @@
+{
+  "full_name": "Small-tailqwq/dsh-internet-angel-desktop",
+  "originalPosition": 62,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 62,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:24.383Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dd39fac401357d135280618c6151604d514eabe5796d437047c55071136460b8",
+      "url": "https://github.com/Small-tailqwq/dsh-internet-angel-desktop/blob/334c955be972b78553b57ddfc293a467253c8a58/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#path:/skin-manager'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-internet-angel-desktop",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-internet-angel-desktop'",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "77966e0e96f79fdc7ec12d0e9036783da7cc9301e6ec6f93d6772db6c9b81c6c",
+      "url": "https://github.com/Small-tailqwq/dsh-internet-angel-desktop/blob/334c955be972b78553b57ddfc293a467253c8a58/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#path:/skin-manager'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-internet-angel-desktop",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-internet-angel-desktop'",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "9b4201d949190a905dcc4bc3cdd8c8681cd3d84ffe6c9e075ef9fb18f204584c",
+      "url": "https://github.com/Small-tailqwq/dsh-internet-angel-desktop/blob/334c955be972b78553b57ddfc293a467253c8a58/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-deep-whale#path:/skin-manager'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Small-tailqwq/dsh-internet-angel-desktop",
+          "command": "dsh plugin --profile web add 'github:Small-tailqwq/dsh-internet-angel-desktop'",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@smalltailqwq/dsh-client-ui-skin-internet-angel-desktop",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Small-tailqwq/dsh-internet-angel-desktop",
+        "commit": "334c955be972b78553b57ddfc293a467253c8a58"
+      },
+      "manifestSha256": "c949c8b9e629534b9687ddd2965b1141728dbf8aec98223d7b7a6e6de082ff8b",
+      "manifestUrl": "https://github.com/Small-tailqwq/dsh-internet-angel-desktop/blob/334c955be972b78553b57ddfc293a467253c8a58/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@smalltailqwq/dsh-client-ui-skin-internet-angel-desktop",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791715974,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Small-tailqwq/dsh-internet-angel-desktop",
+              "commit": "334c955be972b78553b57ddfc293a467253c8a58"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
+      "origin": "git_target",
+      "name": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
+        "title": {
+          "en": "Skin Manager",
+          "zh": "皮肤管理器"
+        },
+        "description": {
+          "en": "Switch between installed skins and tune each skin's own options. Find it under Settings → Skins.",
+          "zh": "切换已安装的皮肤，调整各皮肤自带的选项。在「设置 → 皮肤管理」中打开。"
+        },
+        "homepage": "https://github.com/Small-tailqwq/dsh-deep-whale/tree/main/skin-manager#readme",
+        "repository": {
+          "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
+          "directory": "skin-manager"
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iMTIiIHkxPSI3IiB4Mj0iMTIiIHkyPSIyMyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiM3ZjljZmYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxZjNhOGEiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZiIgeDE9IjIyIiB5MT0iMTMiIHgyPSIyMiIgeTI9IjI5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2YzZGZhOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2M1YTQ2OCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjYiIHk9IjciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNyIgcng9IjMiIGZpbGw9InVybCgjYikiLz48cmVjdCB4PSIxNS41IiB5PSIxMi41IiB3aWR0aD0iMTQuNSIgaGVpZ2h0PSIxNyIgcng9IjMiIGZpbGw9InVybCgjZikiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48cGF0aCBkPSJNMTkgMjMuNWMyLjIgMS40IDQuNiAxLjQgNyAwIiBzdHJva2U9IiMxZjNhOGEiIHN0cm9rZS13aWR0aD0iMS42IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48Y2lyY2xlIGN4PSIyMC41IiBjeT0iMTkiIHI9IjEuMyIgZmlsbD0iIzFmM2E4YSIvPjxjaXJjbGUgY3g9IjI1IiBjeT0iMTkiIHI9IjEuMyIgZmlsbD0iIzFmM2E4YSIvPjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.10",
+            "publishTimestamp": 1794582330,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
+              "commit": "811fa53b712a16ce5f5278529bb76d5a033a1d13",
+              "path": "skin-manager"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "skin-manager",
+          "commit": "811fa53b712a16ce5f5278529bb76d5a033a1d13",
+          "name": "@smalltailqwq/dsh-client-ui-skin-deep-whale-manager",
+          "version": "0.1.10",
+          "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
+          "manifestSha256": "471a596967e8436d19d117826e557908c97b8428ae60eafac5faf1dc3bc41e62",
+          "publishTimestamp": 1794582330
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Small-tailqwq/dsh-deep-whale#path:/skin-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Small-tailqwq/dsh-internet-angel-desktop",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Small-tailqwq/dsh-internet-angel-desktop",
+    "commit": "334c955be972b78553b57ddfc293a467253c8a58",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:29.675Z"
+}

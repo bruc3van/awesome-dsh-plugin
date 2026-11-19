@@ -1,0 +1,95 @@
+{
+  "full_name": "Chloride233/dsh-cot-profile",
+  "originalPosition": 8,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 8,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:01.686Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fa25b63518627253e11ff74ab26b433aef07a0dfc2cbd6e97fe6a6e576858a14",
+      "url": "https://github.com/Chloride233/dsh-cot-profile/blob/c6b5bb6ae56727c4c5c330f94f4ac5c09506e0ca/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Chloride233/dsh-cot-profile",
+          "command": "dsh plugin --profile web add github:Chloride233/dsh-cot-profile",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7f88c8af3267b57b88611e6ea81039b6959b5200c960a95784739e5c7a407a99",
+      "url": "https://github.com/Chloride233/dsh-cot-profile/blob/c6b5bb6ae56727c4c5c330f94f4ac5c09506e0ca/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Chloride233/dsh-cot-profile",
+          "command": "dsh plugin --profile web add github:Chloride233/dsh-cot-profile",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-cot-profile",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Chloride233/dsh-cot-profile",
+        "commit": "c6b5bb6ae56727c4c5c330f94f4ac5c09506e0ca"
+      },
+      "manifestSha256": "71afb74a2ff565c79d3784a7def4de50b3c20ec9c68a20560446ca20c8a60557",
+      "manifestUrl": "https://github.com/Chloride233/dsh-cot-profile/blob/c6b5bb6ae56727c4c5c330f94f4ac5c09506e0ca/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-cot-profile",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786886524,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Chloride233/dsh-cot-profile",
+              "commit": "c6b5bb6ae56727c4c5c330f94f4ac5c09506e0ca"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Chloride233/dsh-cot-profile",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Chloride233/dsh-cot-profile",
+    "commit": "c6b5bb6ae56727c4c5c330f94f4ac5c09506e0ca",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:04.076Z"
+}

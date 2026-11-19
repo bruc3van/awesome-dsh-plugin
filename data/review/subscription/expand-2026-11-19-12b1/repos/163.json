@@ -1,0 +1,78 @@
+{
+  "full_name": "Luke-Yong/dsh-plugin-knowledge-graph",
+  "originalPosition": 163,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 163,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:54.746Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "577bd05b83cee71fc2317f76d91d451300f7618765e2538946b0a552786629eb",
+      "url": "https://github.com/Luke-Yong/dsh-plugin-knowledge-graph/blob/30bb1305027bcba773dc241834935f290d7336f0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Luke-Yong/dsh-plugin-knowledge-graph",
+          "command": "dsh plugin --profile web add github:Luke-Yong/dsh-plugin-knowledge-graph",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-knowledge-graph",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Luke-Yong/dsh-plugin-knowledge-graph",
+        "commit": "30bb1305027bcba773dc241834935f290d7336f0"
+      },
+      "manifestSha256": "4f63b1c892b362778d39a2176370cc253d581d6f302c7d53532a6265644d16b5",
+      "manifestUrl": "https://github.com/Luke-Yong/dsh-plugin-knowledge-graph/blob/30bb1305027bcba773dc241834935f290d7336f0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-knowledge-graph",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1786945312,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Luke-Yong/dsh-plugin-knowledge-graph",
+              "commit": "30bb1305027bcba773dc241834935f290d7336f0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Luke-Yong/dsh-plugin-knowledge-graph",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Luke-Yong/dsh-plugin-knowledge-graph",
+    "commit": "30bb1305027bcba773dc241834935f290d7336f0",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:56.540Z"
+}

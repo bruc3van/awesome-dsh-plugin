@@ -1,0 +1,243 @@
+{
+  "full_name": "weiaisuyan/dsh-split-view",
+  "originalPosition": 24,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 24,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:55.104Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6d45fa16e5cc953e1d7bea0a2336790a84712d568a9300ecc75dca9fa8d393d0",
+      "url": "https://github.com/weiaisuyan/dsh-split-view/blob/daa133b8ae17bcb0beaa6eb33731e5c2354b1f5c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/weiaisuyan/dsh-split-view",
+          "command": "npx @deepseek-ai/dsh plugin --profile desktop add github:weiaisuyan/dsh-split-view",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-multipane",
+          "command": "npx @deepseek-ai/dsh plugin --profile desktop add dsh-multipane",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-multipane@latest",
+          "command": "npx @deepseek-ai/dsh plugin --profile desktop add dsh-multipane@latest",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "485084f7fba6968ec18b2eefd03d728ba13b1cbad1809b22f8de360c7121ab5a",
+      "url": "https://github.com/weiaisuyan/dsh-split-view/blob/daa133b8ae17bcb0beaa6eb33731e5c2354b1f5c/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/weiaisuyan/dsh-split-view",
+          "command": "npx @deepseek-ai/dsh plugin --profile desktop add github:weiaisuyan/dsh-split-view",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-multipane",
+          "command": "npx @deepseek-ai/dsh plugin --profile desktop add dsh-multipane",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-multipane@latest",
+          "command": "npx @deepseek-ai/dsh plugin --profile desktop add dsh-multipane@latest",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-multipane",
+      "version": "1.0.54",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/weiaisuyan/dsh-split-view",
+        "commit": "daa133b8ae17bcb0beaa6eb33731e5c2354b1f5c"
+      },
+      "manifestSha256": "88c2d62f284f136888f452d02380232c989e21d4c68009e1f38f60b2946e215d",
+      "manifestUrl": "https://github.com/weiaisuyan/dsh-split-view/blob/daa133b8ae17bcb0beaa6eb33731e5c2354b1f5c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-multipane",
+        "versions": [
+          {
+            "version": "1.0.54",
+            "publishTimestamp": 1795076484,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/weiaisuyan/dsh-split-view",
+              "commit": "daa133b8ae17bcb0beaa6eb33731e5c2354b1f5c"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-multipane",
+      "origin": "npm",
+      "name": "dsh-multipane",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-multipane",
+        "title": {
+          "en": "Multi-pane",
+          "zh": "多栏视图 (dsh-multipane)"
+        },
+        "description": {
+          "en": "Turn the DSH main area into up to four side-by-side panes, each with its own tab strip, composer and view switcher. Drag a tab to a pane edge to split.",
+          "zh": "把 DSH 主区换成多栏标签工作区：最多四栏会话并排，每栏自带标签条、输入框与视图切换条，拖标签即分栏。"
+        },
+        "author": "weiaisuyan",
+        "homepage": "https://github.com/weiaisuyan/dsh-split-view#readme",
+        "repository": {
+          "url": "https://github.com/weiaisuyan/dsh-split-view"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek",
+            "harness",
+            "workspace",
+            "split-view",
+            "tabs",
+            "multi-pane"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.54",
+            "publishTimestamp": 1795078628,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ed3252c3d71056788cf30b0c50aea73bc9429fc41583557c3d5ec12eff85dc8a",
+      "evidence": [
+        {
+          "name": "dsh-multipane",
+          "version": "1.0.54",
+          "tarball": "https://registry.npmjs.org/dsh-multipane/-/dsh-multipane-1.0.54.tgz",
+          "integrity": "sha512-ku8pU/1Ooa1RmbP8XiR8OCEK+7rDrB1wsbGHuAs7mtvZXKHGB8a9TixxeTnK+YRtIrWFEKOq6vC+xIYRP8zsAg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-multipane@latest",
+      "origin": "npm",
+      "name": "dsh-multipane",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-multipane",
+        "title": {
+          "en": "Multi-pane",
+          "zh": "多栏视图 (dsh-multipane)"
+        },
+        "description": {
+          "en": "Turn the DSH main area into up to four side-by-side panes, each with its own tab strip, composer and view switcher. Drag a tab to a pane edge to split.",
+          "zh": "把 DSH 主区换成多栏标签工作区：最多四栏会话并排，每栏自带标签条、输入框与视图切换条，拖标签即分栏。"
+        },
+        "author": "weiaisuyan",
+        "homepage": "https://github.com/weiaisuyan/dsh-split-view#readme",
+        "repository": {
+          "url": "https://github.com/weiaisuyan/dsh-split-view"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek",
+            "harness",
+            "workspace",
+            "split-view",
+            "tabs",
+            "multi-pane"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.54",
+            "publishTimestamp": 1795078628,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ed3252c3d71056788cf30b0c50aea73bc9429fc41583557c3d5ec12eff85dc8a",
+      "evidence": [
+        {
+          "name": "dsh-multipane",
+          "version": "1.0.54",
+          "tarball": "https://registry.npmjs.org/dsh-multipane/-/dsh-multipane-1.0.54.tgz",
+          "integrity": "sha512-ku8pU/1Ooa1RmbP8XiR8OCEK+7rDrB1wsbGHuAs7mtvZXKHGB8a9TixxeTnK+YRtIrWFEKOq6vC+xIYRP8zsAg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/weiaisuyan/dsh-split-view",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-multipane",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-multipane@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/weiaisuyan/dsh-split-view",
+    "commit": "daa133b8ae17bcb0beaa6eb33731e5c2354b1f5c",
+    "releaseTags": 29,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:57.772Z"
+}

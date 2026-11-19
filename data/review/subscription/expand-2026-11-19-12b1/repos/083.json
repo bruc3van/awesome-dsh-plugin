@@ -1,0 +1,154 @@
+{
+  "full_name": "Cyberbolt/dsh-snapcompact",
+  "originalPosition": 83,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 83,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:19.867Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3f08ecae878766132d9e4353c997ff0b35c98b5a273ec6e45205928030fcdade",
+      "url": "https://github.com/Cyberbolt/dsh-snapcompact/blob/9c10baff52a0903bd1ebbeeeaa8149fce88238f2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-snapcompact",
+          "command": "dsh plugin --profile <your profile name> add dsh-snapcompact",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8de1a9dc159690052adca1d1c9104ec82503b6f87f8e76b19702245d0c91ef8d",
+      "url": "https://github.com/Cyberbolt/dsh-snapcompact/blob/9c10baff52a0903bd1ebbeeeaa8149fce88238f2/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-snapcompact",
+          "command": "dsh plugin --profile <你的 profile 名> add dsh-snapcompact",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-snapcompact",
+      "version": "0.7.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Cyberbolt/dsh-snapcompact",
+        "commit": "9c10baff52a0903bd1ebbeeeaa8149fce88238f2"
+      },
+      "manifestSha256": "8891b938df3347270ab78d82088ffe6a2bb8798e97f7c6d5c38b3384c7167515",
+      "manifestUrl": "https://github.com/Cyberbolt/dsh-snapcompact/blob/9c10baff52a0903bd1ebbeeeaa8149fce88238f2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-snapcompact",
+        "versions": [
+          {
+            "version": "0.7.2",
+            "publishTimestamp": 1794552573,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Cyberbolt/dsh-snapcompact",
+              "commit": "9c10baff52a0903bd1ebbeeeaa8149fce88238f2"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-snapcompact",
+      "origin": "npm",
+      "name": "dsh-snapcompact",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-snapcompact",
+        "title": {
+          "en": "Snapcompact",
+          "zh": "Snapcompact"
+        },
+        "description": {
+          "en": "A DeepSeek Harness context compaction plugin: renders DSH session history as images instead of text summaries, keeping more information while using fewer tokens.",
+          "zh": "DeepSeek Harness 上下文压缩插件：将 DSH 的会话历史渲染为图片，用图片代替文本摘要，保留更多信息并减少 token 消耗。"
+        },
+        "author": "Cyberbolt",
+        "homepage": "https://github.com/Cyberbolt/dsh-snapcompact#readme",
+        "repository": {
+          "url": "https://github.com/Cyberbolt/dsh-snapcompact"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "compaction",
+            "context-compaction",
+            "plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIj48dGl0bGUgaWQ9InRpdGxlIj5TbmFwY29tcGFjdCBhcmNoaXZlIGZyYW1lPC90aXRsZT48cmVjdCB4PSI1IiB5PSI1IiB3aWR0aD0iNTQiIGhlaWdodD0iNTQiIHJ4PSIxNCIgZmlsbD0iIzFmNDg1YyIvPjxwYXRoIGQ9Ik0xNyAxNmgyM2w3IDd2MjVIMTd6IiBmaWxsPSIjZWZmOGYzIi8+PHBhdGggZD0iTTQwIDE2djloNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMWY0ODVjIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMjQgMjdoOU0yNCAzM2gxNk0yNCAzOWg5IiBzdHJva2U9IiMxZjQ4NWMiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTM5IDM5aDE0djE0SDM5eiIgZmlsbD0iIzczZDNhZSIgc3Ryb2tlPSIjMWY0ODVjIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSJtNDIgNDggMy00IDMgMyAyLTIgMiA0IiBmaWxsPSJub25lIiBzdHJva2U9IiMxZjQ4NWMiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.7.2",
+            "publishTimestamp": 1794507708,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8e934d15b61d3bf1982f7d3e040452e4162e61517770df2d10078acce22e24f5",
+      "evidence": [
+        {
+          "name": "dsh-snapcompact",
+          "version": "0.7.2",
+          "tarball": "https://registry.npmjs.org/dsh-snapcompact/-/dsh-snapcompact-0.7.2.tgz",
+          "integrity": "sha512-gAjVxhUHxEX3f1VJTic+KqX1JzmoXviQa4iafdhbS0i5KWN4kZMkIcQjlJ0DmeKS0lHDaG87g/ME1PvSpUOOdA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-snapcompact",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Cyberbolt/dsh-snapcompact",
+    "commit": "9c10baff52a0903bd1ebbeeeaa8149fce88238f2",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:22.429Z"
+}

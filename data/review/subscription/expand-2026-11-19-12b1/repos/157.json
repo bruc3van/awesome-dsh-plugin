@@ -1,0 +1,69 @@
+{
+  "full_name": "LeonhardJY/dsh-teacher-kit",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:52.696Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "77a035852402d3c5bf1cbdd52d519386d77a5aba684379a2204656e51e8d1321",
+      "url": "https://github.com/LeonhardJY/dsh-teacher-kit/blob/4e0d7e90ba1d7442ea2c382d11b4220280020a49/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-teacher-kit",
+      "version": "0.18.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LeonhardJY/dsh-teacher-kit",
+        "commit": "4e0d7e90ba1d7442ea2c382d11b4220280020a49"
+      },
+      "manifestSha256": "b453ab8264114cc45b9900ed1f28f8476fa5a80abb4b44eb9d21382d58d2c1b8",
+      "manifestUrl": "https://github.com/LeonhardJY/dsh-teacher-kit/blob/4e0d7e90ba1d7442ea2c382d11b4220280020a49/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2 <0.3.0 || >=0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-teacher-kit",
+        "versions": [
+          {
+            "version": "0.18.0",
+            "publishTimestamp": 1793196615,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LeonhardJY/dsh-teacher-kit",
+              "commit": "4e0d7e90ba1d7442ea2c382d11b4220280020a49"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0 || >=0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LeonhardJY/dsh-teacher-kit",
+    "commit": "4e0d7e90ba1d7442ea2c382d11b4220280020a49",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:54.670Z"
+}

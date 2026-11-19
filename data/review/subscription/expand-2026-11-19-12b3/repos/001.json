@@ -1,0 +1,29 @@
+{
+  "full_name": "030611/dsh-verification-receipt",
+  "originalPosition": 1,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 1,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:00.447Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/030611/dsh-verification-receipt/git/commits/ee3c6167f1b323f66f9412907f1ef6697cbf488d\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D420:30B46E:115AB39:37FC0C1:6AFEE7CC and timestamp 2026-11-19 12:13:01 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/030611/dsh-verification-receipt",
+    "commit": "ee3c6167f1b323f66f9412907f1ef6697cbf488d",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:01.123Z"
+}

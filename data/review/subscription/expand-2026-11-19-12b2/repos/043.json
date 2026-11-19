@@ -1,0 +1,177 @@
+{
+  "full_name": "RUO-MO/DSH-Plugin",
+  "originalPosition": 43,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 43,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:16.956Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "78a8ee4d4ebf513034e6355bf0ad8ec3461b95b6ddb79f29399236443fbff788",
+      "url": "https://github.com/RUO-MO/DSH-Plugin/blob/595762592ab379d128493b29063f828da9f2b707/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-token-usage",
+          "command": "pnpm dsh plugin --profile web add dsh-plugin-token-usage",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugin/dsh-deepseek-web/README.zh.md",
+      "sha256": "e886123b520a3240d8c0c447d73b715464861ed9005df6a8f61b19c4b300437c",
+      "url": "https://github.com/RUO-MO/DSH-Plugin/blob/595762592ab379d128493b29063f828da9f2b707/plugin/dsh-deepseek-web/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "plugin/token-usage/README.md",
+      "sha256": "9abecb5406152a3c4e077da514119f7a712f869c890c2308ea825e185262fd85",
+      "url": "https://github.com/RUO-MO/DSH-Plugin/blob/595762592ab379d128493b29063f828da9f2b707/plugin/token-usage/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-token-usage",
+          "command": "pnpm dsh plugin --profile web add dsh-plugin-token-usage",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepseek-web",
+      "version": "0.1.0",
+      "path": "plugin/dsh-deepseek-web",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/RUO-MO/DSH-Plugin",
+        "commit": "595762592ab379d128493b29063f828da9f2b707",
+        "path": "plugin/dsh-deepseek-web"
+      },
+      "manifestSha256": "d28b72bef5baa9c2c9f9b09df0fa18522e7a0e018c8674c0123fa3c8952033af",
+      "manifestUrl": "https://github.com/RUO-MO/DSH-Plugin/blob/595762592ab379d128493b29063f828da9f2b707/plugin/dsh-deepseek-web/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-deepseek-web",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789464247,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/RUO-MO/DSH-Plugin",
+              "commit": "595762592ab379d128493b29063f828da9f2b707",
+              "path": "plugin/dsh-deepseek-web"
+            },
+            "engines": {
+              "dsh": ">=0.1.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-token-usage",
+      "version": "0.1.0",
+      "path": "plugin/token-usage",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/RUO-MO/DSH-Plugin",
+        "commit": "595762592ab379d128493b29063f828da9f2b707",
+        "path": "plugin/token-usage"
+      },
+      "manifestSha256": "fb93c98088b3c3cb5e7c2cc8738d36265798b424759a26f8b5a335637cf534bb",
+      "manifestUrl": "https://github.com/RUO-MO/DSH-Plugin/blob/595762592ab379d128493b29063f828da9f2b707/plugin/token-usage/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-token-usage",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789464247,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/RUO-MO/DSH-Plugin",
+              "commit": "595762592ab379d128493b29063f828da9f2b707",
+              "path": "plugin/token-usage"
+            },
+            "engines": {
+              "dsh": ">=0.1.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-token-usage",
+      "origin": "npm",
+      "name": "dsh-plugin-token-usage",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-token-usage",
+        "title": "dsh-plugin-token-usage",
+        "description": "Daily and per-model Token usage statistics for DeepSeek Harness",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787155756,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a542acd722bbbcded136f71c7596fe60af0b4f56b4c8965b49b36d6c088d8929",
+      "evidence": [
+        {
+          "name": "dsh-plugin-token-usage",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-token-usage/-/dsh-plugin-token-usage-0.1.0.tgz",
+          "integrity": "sha512-gqyHOjK5ByAXAT6cFort0J5QZcb70RRmW2rvJUjwILFwl/jN83VCJ3ROOsVv2u58FpP4j1H8++zAEwrToyhWiQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-token-usage",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/RUO-MO/DSH-Plugin",
+    "commit": "595762592ab379d128493b29063f828da9f2b707",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:20.408Z"
+}

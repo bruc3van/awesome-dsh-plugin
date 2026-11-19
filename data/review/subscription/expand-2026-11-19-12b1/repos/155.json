@@ -1,0 +1,66 @@
+{
+  "full_name": "LeiYuXingZhou/dsh-preview-extra",
+  "originalPosition": 155,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 155,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:51.243Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "18bbfdcfc11a4b39ddd18ffd6cfc2b04713dff65be07552a000d9ebf5c6f9a6c",
+      "url": "https://github.com/LeiYuXingZhou/dsh-preview-extra/blob/899ee6da13aa4aa87d3b84c988cca6f7ad091e2d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-preview-extra",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LeiYuXingZhou/dsh-preview-extra",
+        "commit": "899ee6da13aa4aa87d3b84c988cca6f7ad091e2d"
+      },
+      "manifestSha256": "a7154836d9ebd9abdf62e431c56010da3e3fe0dacd602f73cc2efcedf19fac17",
+      "manifestUrl": "https://github.com/LeiYuXingZhou/dsh-preview-extra/blob/899ee6da13aa4aa87d3b84c988cca6f7ad091e2d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-preview-extra",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793637742,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LeiYuXingZhou/dsh-preview-extra",
+              "commit": "899ee6da13aa4aa87d3b84c988cca6f7ad091e2d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LeiYuXingZhou/dsh-preview-extra",
+    "commit": "899ee6da13aa4aa87d3b84c988cca6f7ad091e2d",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:53.117Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "LipingAn04/dsh-index-fund-guide",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:53.797Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7bef7b190d0281ae8222c7e419595a5214143534ae5e456c8e9d68c514d3484b",
+      "url": "https://github.com/LipingAn04/dsh-index-fund-guide/blob/ee3f0f7da3468bd240f04aa07b4eca09604dc356/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-index-fund-guide",
+      "version": "2.7.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LipingAn04/dsh-index-fund-guide",
+        "commit": "ee3f0f7da3468bd240f04aa07b4eca09604dc356"
+      },
+      "manifestSha256": "bc08f8a4bd71adfcc6c861b2175056da3f551e3b551124b1872014c8f0362e7c",
+      "manifestUrl": "https://github.com/LipingAn04/dsh-index-fund-guide/blob/ee3f0f7da3468bd240f04aa07b4eca09604dc356/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-index-fund-guide",
+        "versions": [
+          {
+            "version": "2.7.2",
+            "publishTimestamp": 1792473367,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LipingAn04/dsh-index-fund-guide",
+              "commit": "ee3f0f7da3468bd240f04aa07b4eca09604dc356"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LipingAn04/dsh-index-fund-guide",
+    "commit": "ee3f0f7da3468bd240f04aa07b4eca09604dc356",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:55.664Z"
+}

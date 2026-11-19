@@ -1,0 +1,69 @@
+{
+  "full_name": "CJXIAO0718/dsh-plugin-session-share",
+  "originalPosition": 76,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 76,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:17.376Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ad8a11c808bf1854321ccad13b976ab0c47c8a3674b3b76ffdd2ae4305eeca4b",
+      "url": "https://github.com/CJXIAO0718/dsh-plugin-session-share/blob/e1ffc0ea7b3da0cea7093aee9bd0302dc5595775/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-session-share",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CJXIAO0718/dsh-plugin-session-share",
+        "commit": "e1ffc0ea7b3da0cea7093aee9bd0302dc5595775"
+      },
+      "manifestSha256": "cd2a7e6ba06fa71c7d1b12a39471051eef9e3484a11500cc8d004ff7c9c8666b",
+      "manifestUrl": "https://github.com/CJXIAO0718/dsh-plugin-session-share/blob/e1ffc0ea7b3da0cea7093aee9bd0302dc5595775/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-session-share",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793010101,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CJXIAO0718/dsh-plugin-session-share",
+              "commit": "e1ffc0ea7b3da0cea7093aee9bd0302dc5595775"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CJXIAO0718/dsh-plugin-session-share",
+    "commit": "e1ffc0ea7b3da0cea7093aee9bd0302dc5595775",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:19.352Z"
+}

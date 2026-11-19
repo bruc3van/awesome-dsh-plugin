@@ -1,0 +1,29 @@
+{
+  "full_name": "RyensX/dsh-message-fold",
+  "originalPosition": 35,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 35,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:03.700Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/RyensX/dsh-message-fold/git/commits/b40619079758a949a73c6c91507a14a07d72d8b0\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D483:5F0F6:115E47E:37E83BC:6AFEE7D0 and timestamp 2026-11-19 12:13:04 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/RyensX/dsh-message-fold",
+    "commit": "b40619079758a949a73c6c91507a14a07d72d8b0",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:04.336Z"
+}

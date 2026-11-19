@@ -1,0 +1,29 @@
+{
+  "full_name": "liceses/dsh-showme-html",
+  "originalPosition": 193,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 193,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:19.636Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/liceses/dsh-showme-html/git/commits/f6f67de972d4e2777a2aceb5e0d4f8791a06b51a\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D42A:2717FD:1235A83:3AB4792:6AFEE7E0 and timestamp 2026-11-19 12:13:20 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/liceses/dsh-showme-html",
+    "commit": "f6f67de972d4e2777a2aceb5e0d4f8791a06b51a",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:20.173Z"
+}

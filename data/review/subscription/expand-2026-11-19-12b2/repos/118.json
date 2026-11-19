@@ -1,0 +1,69 @@
+{
+  "full_name": "Zhu755873628/intent-navigator-dsh",
+  "originalPosition": 118,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 118,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:46.497Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ef46918c472a82107b376d215008ab045f6879d6aeb5bf8f4ca778b28e06ad23",
+      "url": "https://github.com/Zhu755873628/intent-navigator-dsh/blob/b90396e7b404d783c3543b0f213bb7c2ac2bb8e6/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@intent-navigator/dsh-plugin",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Zhu755873628/intent-navigator-dsh",
+        "commit": "b90396e7b404d783c3543b0f213bb7c2ac2bb8e6"
+      },
+      "manifestSha256": "48697fa49d244f3f452f998f5b776a14c439865400275d070e2dbaf66764e9c8",
+      "manifestUrl": "https://github.com/Zhu755873628/intent-navigator-dsh/blob/b90396e7b404d783c3543b0f213bb7c2ac2bb8e6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@intent-navigator/dsh-plugin",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793018358,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Zhu755873628/intent-navigator-dsh",
+              "commit": "b90396e7b404d783c3543b0f213bb7c2ac2bb8e6"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zhu755873628/intent-navigator-dsh",
+    "commit": "b90396e7b404d783c3543b0f213bb7c2ac2bb8e6",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:48.292Z"
+}

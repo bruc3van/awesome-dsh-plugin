@@ -1,0 +1,74 @@
+{
+  "full_name": "acanzaima/dsh-code-review",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:50.086Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3f7532e9a39c006f7d9349c7493458c9213be62d21bebdfad827892d364b78d4",
+      "url": "https://github.com/acanzaima/dsh-code-review/blob/be2a48f54ea2f158cf9597fca3bc8393305151e8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "e075ee7c4615a509873d0aed2dc5a491df57cc307093375c0fb199dd8cd33479",
+      "url": "https://github.com/acanzaima/dsh-code-review/blob/be2a48f54ea2f158cf9597fca3bc8393305151e8/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@acanzaima/dsh-code-review",
+      "version": "0.2.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/acanzaima/dsh-code-review",
+        "commit": "be2a48f54ea2f158cf9597fca3bc8393305151e8"
+      },
+      "manifestSha256": "200b22b253543326e86b1a07fa1aec0106fd6d1bbdfd57f25f00a9ed0a8173f9",
+      "manifestUrl": "https://github.com/acanzaima/dsh-code-review/blob/be2a48f54ea2f158cf9597fca3bc8393305151e8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@acanzaima/dsh-code-review",
+        "versions": [
+          {
+            "version": "0.2.6",
+            "publishTimestamp": 1794923541,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/acanzaima/dsh-code-review",
+              "commit": "be2a48f54ea2f158cf9597fca3bc8393305151e8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/acanzaima/dsh-code-review",
+    "commit": "be2a48f54ea2f158cf9597fca3bc8393305151e8",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:52.401Z"
+}

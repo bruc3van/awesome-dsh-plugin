@@ -1,0 +1,81 @@
+{
+  "full_name": "acttk/dsh-bili-interactor",
+  "originalPosition": 129,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 129,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:50.094Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ad019371dd97215de6189e43dc729fcbadbd338263549362b9e692c95d16edb4",
+      "url": "https://github.com/acttk/dsh-bili-interactor/blob/d5f368514295bdad1521ec69bb15af7febe477d4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/acttk/dsh-bili-interactor",
+          "command": "dsh plugin --profile desktop add github:acttk/dsh-bili-interactor",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bili-interactor",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/acttk/dsh-bili-interactor",
+        "commit": "d5f368514295bdad1521ec69bb15af7febe477d4"
+      },
+      "manifestSha256": "e9d48d004e35be23bedc58d5ec73e039351711e33adfe27c6293731901e146de",
+      "manifestUrl": "https://github.com/acttk/dsh-bili-interactor/blob/d5f368514295bdad1521ec69bb15af7febe477d4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-bili-interactor",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1793112201,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/acttk/dsh-bili-interactor",
+              "commit": "d5f368514295bdad1521ec69bb15af7febe477d4"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/acttk/dsh-bili-interactor",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/acttk/dsh-bili-interactor",
+    "commit": "d5f368514295bdad1521ec69bb15af7febe477d4",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:51.990Z"
+}

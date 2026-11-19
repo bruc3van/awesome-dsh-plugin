@@ -1,0 +1,66 @@
+{
+  "full_name": "CC19990113/dsh-plugin-soul",
+  "originalPosition": 74,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 74,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:16.092Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8a1dbb242dd0c9560563e92dbb63232a2bad576e5cbee1b5a74e8ab8ab3f7922",
+      "url": "https://github.com/CC19990113/dsh-plugin-soul/blob/488395a76e0abddf494fd7d6567f7c3467012bce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-soul",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CC19990113/dsh-plugin-soul",
+        "commit": "488395a76e0abddf494fd7d6567f7c3467012bce"
+      },
+      "manifestSha256": "ccda759c4f55c9f4df1416901a72073f3f699b2333ffc355890de6c0e28b8978",
+      "manifestUrl": "https://github.com/CC19990113/dsh-plugin-soul/blob/488395a76e0abddf494fd7d6567f7c3467012bce/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-soul",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1793770791,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CC19990113/dsh-plugin-soul",
+              "commit": "488395a76e0abddf494fd7d6567f7c3467012bce"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CC19990113/dsh-plugin-soul",
+    "commit": "488395a76e0abddf494fd7d6567f7c3467012bce",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:17.949Z"
+}

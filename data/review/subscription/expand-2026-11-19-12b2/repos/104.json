@@ -1,0 +1,165 @@
+{
+  "full_name": "YMRwithNoworry/dsh-niubash-only",
+  "originalPosition": 104,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 104,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:40.845Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fa5cd7ab79ee0648635be7792f6be36abd8cec409b6cecf4e01686d1427d3c93",
+      "url": "https://github.com/YMRwithNoworry/dsh-niubash-only/blob/f574b0d8d420361ea043f80f1e3f8604d7ac13dd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-niubash-only",
+          "command": "dsh plugin --profile web add dsh-niubash-only",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/YMRwithNoworry/dsh-niubash-only",
+          "command": "dsh plugin --profile web add github:YMRwithNoworry/dsh-niubash-only",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "5c50b2c453e35dc3edaadcd2fc579c35b2c915fde2f654be37c18c331503fe1a",
+      "url": "https://github.com/YMRwithNoworry/dsh-niubash-only/blob/f574b0d8d420361ea043f80f1e3f8604d7ac13dd/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-niubash-only",
+          "command": "dsh plugin --profile web add dsh-niubash-only",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/YMRwithNoworry/dsh-niubash-only",
+          "command": "dsh plugin --profile web add github:YMRwithNoworry/dsh-niubash-only",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-niubash-only",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YMRwithNoworry/dsh-niubash-only",
+        "commit": "f574b0d8d420361ea043f80f1e3f8604d7ac13dd"
+      },
+      "manifestSha256": "d49e796b3c3e731e93c74c1a72351c4807f82be7823a778bc0b5466816576088",
+      "manifestUrl": "https://github.com/YMRwithNoworry/dsh-niubash-only/blob/f574b0d8d420361ea043f80f1e3f8604d7ac13dd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-niubash-only",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1790693371,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YMRwithNoworry/dsh-niubash-only",
+              "commit": "f574b0d8d420361ea043f80f1e3f8604d7ac13dd"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-niubash-only",
+      "origin": "npm",
+      "name": "dsh-niubash-only",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-niubash-only",
+        "title": "dsh-niubash-only",
+        "description": "Niubash-only shell executor and Bash-dialect teaching for DeepSeek Harness (dsh 0.2.0-rc.2, and the 0.1.7-rc.x line it shares its shell seam with): every ctx.shell execution runs as `niu -c`, PowerShell/cmd/WSL/nu handoffs are refused, PowerShell habits are refused before they spawn, a failed call carries an actionable hint, and the model is taught what Niubash on Windows actually supports.",
+        "author": "dsh-niubash-only contributors",
+        "repository": {
+          "url": "https://github.com/YMRwithNoworry/dsh-niubash-only"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "niubash",
+            "niu",
+            "winuxcmd",
+            "bash",
+            "shell",
+            "windows",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1790693208,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cc70c23bfedc83f0a364a32741fd2e4c06e20dc00504262a2f9de48914fd11b2",
+      "evidence": [
+        {
+          "name": "dsh-niubash-only",
+          "version": "0.3.0",
+          "tarball": "https://registry.npmjs.org/dsh-niubash-only/-/dsh-niubash-only-0.3.0.tgz",
+          "integrity": "sha512-Y+IPY+a1+6bUhpAzZ05dS1LVhyWXXYkZ7cgR0GaBkBv6su6JKI6yjoftSGsYlLyyHWVgrvfMq+YN+YTqysx7Aw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-niubash-only",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/YMRwithNoworry/dsh-niubash-only",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YMRwithNoworry/dsh-niubash-only",
+    "commit": "f574b0d8d420361ea043f80f1e3f8604d7ac13dd",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:43.284Z"
+}

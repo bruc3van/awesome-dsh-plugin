@@ -1,0 +1,58 @@
+{
+  "full_name": "ShawnRen57/dsh-whale-trail",
+  "originalPosition": 55,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 55,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:21.804Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "164a85bc20b0c8d12a0e0e5b9a295929037ed16cf2325978d1d10905a236bf49",
+      "url": "https://github.com/ShawnRen57/dsh-whale-trail/blob/9d54b1d2148f10d84fa799e66c2e40f19c92205d/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "assets/brand/README.md",
+      "sha256": "da026010b63cb44769e81db61d458e4663c0285e69246cfb03dd0ef3e1082851",
+      "url": "https://github.com/ShawnRen57/dsh-whale-trail/blob/9d54b1d2148f10d84fa799e66c2e40f19c92205d/assets/brand/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whale-trail",
+      "version": "1.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ShawnRen57/dsh-whale-trail",
+        "commit": "9d54b1d2148f10d84fa799e66c2e40f19c92205d"
+      },
+      "manifestSha256": "a6d2cdb7c4a5944251c777a9af45e336a24221be32e80cdde4817086e0264895",
+      "manifestUrl": "https://github.com/ShawnRen57/dsh-whale-trail/blob/9d54b1d2148f10d84fa799e66c2e40f19c92205d/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ShawnRen57/dsh-whale-trail",
+    "commit": "9d54b1d2148f10d84fa799e66c2e40f19c92205d",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-19T12:10:24.383Z"
+}

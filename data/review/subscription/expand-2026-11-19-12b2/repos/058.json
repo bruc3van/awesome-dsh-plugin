@@ -1,0 +1,95 @@
+{
+  "full_name": "Sim-xia/dsh-vscode-theme",
+  "originalPosition": 58,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 58,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:22.752Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e373f41545ae77fed98723d7d865f9f9b9d0daae67fbb1f7d4b993098b5442e7",
+      "url": "https://github.com/Sim-xia/dsh-vscode-theme/blob/1e22fa74783f5f84e7ecb8d7b96fb2997dc9d4f8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Sim-xia/dsh-vscode-theme",
+          "command": "dsh plugin --profile web add github:Sim-xia/dsh-vscode-theme",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b4d9653e1f1c450b5ec386ad30374d62cf08243d1857c15ca141a404a0dbd191",
+      "url": "https://github.com/Sim-xia/dsh-vscode-theme/blob/1e22fa74783f5f84e7ecb8d7b96fb2997dc9d4f8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Sim-xia/dsh-vscode-theme",
+          "command": "dsh plugin --profile web add github:Sim-xia/dsh-vscode-theme",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vscode-theme",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Sim-xia/dsh-vscode-theme",
+        "commit": "1e22fa74783f5f84e7ecb8d7b96fb2997dc9d4f8"
+      },
+      "manifestSha256": "9eef12821ee68ff6058c42c5fcf450ace9b23f87881a7b62030f27ea3a87e1b3",
+      "manifestUrl": "https://github.com/Sim-xia/dsh-vscode-theme/blob/1e22fa74783f5f84e7ecb8d7b96fb2997dc9d4f8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-vscode-theme",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786787996,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Sim-xia/dsh-vscode-theme",
+              "commit": "1e22fa74783f5f84e7ecb8d7b96fb2997dc9d4f8"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Sim-xia/dsh-vscode-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Sim-xia/dsh-vscode-theme",
+    "commit": "1e22fa74783f5f84e7ecb8d7b96fb2997dc9d4f8",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:24.914Z"
+}

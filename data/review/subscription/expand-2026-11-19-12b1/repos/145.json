@@ -1,0 +1,120 @@
+{
+  "full_name": "Khellendros97/dsh-subscription-auth",
+  "originalPosition": 145,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 145,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:46.979Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "682f0a0e431301877d978630de04814ae16fe8932ec66e3d36265fb0093e26d9",
+      "url": "https://github.com/Khellendros97/dsh-subscription-auth/blob/338c02ea814af0d3579bf323cff491104f16f3ea/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-subscription-auth",
+          "command": "dsh plugin --profile web add dsh-subscription-auth",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-subscription-auth",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Khellendros97/dsh-subscription-auth",
+        "commit": "338c02ea814af0d3579bf323cff491104f16f3ea"
+      },
+      "manifestSha256": "55df832dc9ecfee09bca34ce9e93a6bdc9f96766074c72365f1e99c64ff904c3",
+      "manifestUrl": "https://github.com/Khellendros97/dsh-subscription-auth/blob/338c02ea814af0d3579bf323cff491104f16f3ea/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-subscription-auth",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1786766528,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Khellendros97/dsh-subscription-auth",
+              "commit": "338c02ea814af0d3579bf323cff491104f16f3ea"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-subscription-auth",
+      "origin": "npm",
+      "name": "dsh-subscription-auth",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-subscription-auth",
+        "title": "dsh-subscription-auth",
+        "description": "订阅会员 OAuth 登录（ChatGPT 等）：配置中心「订阅服务」页登录/注销，自动发现订阅模型列表，按登录状态注册提供商，支持思考强度选择",
+        "repository": {
+          "url": "https://github.com/Khellendros97/dsh-subscription-auth"
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1786766324,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.0.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "df6700c4b1074cd50fbe5979a08bab5f32aae7ac745bbd9810ae743efe3929fb",
+      "evidence": [
+        {
+          "name": "dsh-subscription-auth",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-subscription-auth/-/dsh-subscription-auth-0.2.1.tgz",
+          "integrity": "sha512-QlQCT9zjeG69RX0LLddwRnXgA5qIWPCoSlFIDIGWX6V7LxtwwoVxo/9UXSVvbyek0idf4lD6Vjggrp6IYCPSrw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-subscription-auth",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Khellendros97/dsh-subscription-auth",
+    "commit": "338c02ea814af0d3579bf323cff491104f16f3ea",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:49.027Z"
+}

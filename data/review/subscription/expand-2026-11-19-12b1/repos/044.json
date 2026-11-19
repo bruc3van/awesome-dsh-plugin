@@ -1,0 +1,78 @@
+{
+  "full_name": "764475881/dsh-chat-width",
+  "originalPosition": 44,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 44,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:03.392Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4f0d84eb65b30d7fffbcc8f11b8f8be568e12bca1d259072e46df2bcb951ee90",
+      "url": "https://github.com/764475881/dsh-chat-width/blob/5d61f65224b1d811047d5eb1d9d4772dbf0e7bfd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/764475881/dsh-chat-width",
+          "command": "dsh plugin --profile web add github:764475881/dsh-chat-width",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chat-width",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/764475881/dsh-chat-width",
+        "commit": "5d61f65224b1d811047d5eb1d9d4772dbf0e7bfd"
+      },
+      "manifestSha256": "d1e65a1dfe3c9bf8ddc3dbb81b61638c4d23afd7bfa2b54e751e5984ee4c6278",
+      "manifestUrl": "https://github.com/764475881/dsh-chat-width/blob/5d61f65224b1d811047d5eb1d9d4772dbf0e7bfd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-chat-width",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790576299,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/764475881/dsh-chat-width",
+              "commit": "5d61f65224b1d811047d5eb1d9d4772dbf0e7bfd"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/764475881/dsh-chat-width",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/764475881/dsh-chat-width",
+    "commit": "5d61f65224b1d811047d5eb1d9d4772dbf0e7bfd",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:05.322Z"
+}

@@ -1,0 +1,154 @@
+{
+  "full_name": "QingJ01/dsh-prompt-prediction",
+  "originalPosition": 36,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 36,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:12.476Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "79bf57a06c258b6a02f6b35a19b56ff82e98e066412d78756ec2c4999ed141bf",
+      "url": "https://github.com/QingJ01/dsh-prompt-prediction/blob/50a339fc518cc29fd615caa92c428e7f9496a24d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-prediction",
+          "command": "dsh plugin --profile desktop add dsh-prompt-prediction",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "946ea5270182e7400715d3a965ccdc1e0789b8e44dcc6a6b21ea4d8376c79b07",
+      "url": "https://github.com/QingJ01/dsh-prompt-prediction/blob/50a339fc518cc29fd615caa92c428e7f9496a24d/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-prediction",
+          "command": "dsh plugin --profile desktop add dsh-prompt-prediction",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-prediction",
+      "version": "0.2.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QingJ01/dsh-prompt-prediction",
+        "commit": "50a339fc518cc29fd615caa92c428e7f9496a24d"
+      },
+      "manifestSha256": "028deb2902d71527997c9ef693bfca3ceb34b0662ec02db11ec60daf36a100c6",
+      "manifestUrl": "https://github.com/QingJ01/dsh-prompt-prediction/blob/50a339fc518cc29fd615caa92c428e7f9496a24d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-prompt-prediction",
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1793860712,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QingJ01/dsh-prompt-prediction",
+              "commit": "50a339fc518cc29fd615caa92c428e7f9496a24d"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-prompt-prediction",
+      "origin": "npm",
+      "name": "dsh-prompt-prediction",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-prompt-prediction",
+        "title": {
+          "en": "Prompt Prediction",
+          "zh": "提示词预测"
+        },
+        "description": {
+          "en": "Predict your next message after an Agent reply and show it as ghost text in the empty composer. Tab or ArrowRight fills an editable draft; Escape dismisses it. Never sends automatically. Predictions make additional, potentially billable model requests.",
+          "zh": "Agent 回复完成后，预测你可能输入的下一句话，在空输入框中显示灰字建议；按 Tab 或 → 填入可编辑草稿，按 Esc 忽略，不会自动发送。预测会额外请求模型，可能计费。"
+        },
+        "author": "QingJ",
+        "homepage": "https://github.com/QingJ01/dsh-prompt-prediction#readme",
+        "repository": {
+          "url": "https://github.com/QingJ01/dsh-prompt-prediction"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "composer",
+            "prediction",
+            "ghost-text",
+            "prompt-prediction",
+            "autocomplete"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1793860865,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "db64db4d9bc8233bcb031fedbc50af0edf217d89e5894277ec227df51f44b7ab",
+      "evidence": [
+        {
+          "name": "dsh-prompt-prediction",
+          "version": "0.2.4",
+          "tarball": "https://registry.npmjs.org/dsh-prompt-prediction/-/dsh-prompt-prediction-0.2.4.tgz",
+          "integrity": "sha512-ZvtNME2TUdMk0uenGBuILgq8dBjcsvE5uvHj0xogrbnSfZQcmBrLYAz5O+eV3IwE3AvdDAwJLy3vArNSBrOMzw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-prompt-prediction",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QingJ01/dsh-prompt-prediction",
+    "commit": "50a339fc518cc29fd615caa92c428e7f9496a24d",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:15.103Z"
+}

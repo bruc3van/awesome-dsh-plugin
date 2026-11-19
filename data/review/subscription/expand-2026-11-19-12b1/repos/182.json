@@ -1,0 +1,77 @@
+{
+  "full_name": "NOirBRight/dsh-llm-opencode-go",
+  "originalPosition": 182,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 182,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:02.417Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f165aa0a2a7afa0ce54746f9a1718260251eebe24fe6312f630147185e575930",
+      "url": "https://github.com/NOirBRight/dsh-llm-opencode-go/blob/46db6af34e0da6ba738979e76dd6c8153178de3f/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e38fa6d0e6c395cd3f8ad45cc53ca1c82cf1bea971d18a034305a82a8ae164f1",
+      "url": "https://github.com/NOirBRight/dsh-llm-opencode-go/blob/46db6af34e0da6ba738979e76dd6c8153178de3f/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-llm-opencode-go",
+      "version": "0.1.34",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NOirBRight/dsh-llm-opencode-go",
+        "commit": "46db6af34e0da6ba738979e76dd6c8153178de3f"
+      },
+      "manifestSha256": "6164b11c1026c6a01ac48cb0b192771974db5a345a2734fe49b5d584a86c1e06",
+      "manifestUrl": "https://github.com/NOirBRight/dsh-llm-opencode-go/blob/46db6af34e0da6ba738979e76dd6c8153178de3f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-llm-opencode-go",
+        "versions": [
+          {
+            "version": "0.1.34",
+            "publishTimestamp": 1790645476,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NOirBRight/dsh-llm-opencode-go",
+              "commit": "46db6af34e0da6ba738979e76dd6c8153178de3f"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-alpha.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NOirBRight/dsh-llm-opencode-go",
+    "commit": "46db6af34e0da6ba738979e76dd6c8153178de3f",
+    "releaseTags": 40,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:04.958Z"
+}

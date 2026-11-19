@@ -1,0 +1,148 @@
+{
+  "full_name": "3likofj/dsh-anagenesis",
+  "originalPosition": 39,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 39,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:01.561Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f58866839aa0346af374c5fde0ef6db137b6b957ede0bae495c67730c8dd2b0a",
+      "url": "https://github.com/3likofj/dsh-anagenesis/blob/bfc313961eca9da2be80f994e30efb5ff9007e80/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-anagenesis",
+          "command": "dsh plugin add dsh-anagenesis",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "6b3447db981ca5da7562cdf5788f1292a8e7291c9ef708a7c8ac97fb1846bafd",
+      "url": "https://github.com/3likofj/dsh-anagenesis/blob/bfc313961eca9da2be80f994e30efb5ff9007e80/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-anagenesis",
+          "command": "dsh plugin add dsh-anagenesis",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-anagenesis",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/3likofj/dsh-anagenesis",
+        "commit": "bfc313961eca9da2be80f994e30efb5ff9007e80"
+      },
+      "manifestSha256": "cfd97b7c46cbd6e369cec2d0f1474411c1247d7c9ced37fb1e7f829b94bb2af0",
+      "manifestUrl": "https://github.com/3likofj/dsh-anagenesis/blob/bfc313961eca9da2be80f994e30efb5ff9007e80/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-anagenesis",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1794576207,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/3likofj/dsh-anagenesis",
+              "commit": "bfc313961eca9da2be80f994e30efb5ff9007e80"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-anagenesis",
+      "origin": "npm",
+      "name": "dsh-anagenesis",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-anagenesis",
+        "title": "dsh-anagenesis",
+        "description": "给 Agent 一套它自己管得住、你也看得见的记忆：20 个语义工具、7 种意图召回、可切换策略栈、项目隔离、预设即权限、事件溯源与可回滚、离线检索基准；零运行时依赖、离线、单文件 JSONL，并自带设施仪表盘与终端可视化。",
+        "author": "dsh-anagenesis contributors",
+        "homepage": "https://github.com/3likofj/dsh-anagenesis#readme",
+        "repository": {
+          "url": "https://github.com/3likofj/dsh-anagenesis"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "cordis-plugin",
+            "memory",
+            "agent-memory",
+            "local-first",
+            "anagenesis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1794576390,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "eea17f376b275d47fbea7e7b5f84f77b3754520f56f55175e8de479746535f5d",
+      "evidence": [
+        {
+          "name": "dsh-anagenesis",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-anagenesis/-/dsh-anagenesis-0.4.1.tgz",
+          "integrity": "sha512-EEoK/Dpw7AIYEzEsS8/ojvtWGBAzmM1sJ0QvgilgqIcKnpTk+t+6OXCKIf1WhSWlyOBIcgSkxiiB3OVif8zbKQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-anagenesis",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/3likofj/dsh-anagenesis",
+    "commit": "bfc313961eca9da2be80f994e30efb5ff9007e80",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:04.337Z"
+}

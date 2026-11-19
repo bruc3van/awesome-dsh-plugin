@@ -1,0 +1,29 @@
+{
+  "full_name": "full-aigc-plugins/photocraft-plugin",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:10.450Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/full-aigc-plugins/photocraft-plugin/git/commits/af4d9b002ef150a8fec36c7a79c309b07f881286\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D4B7:68254:12269A3:3AA8E0F:6AFEE7D6 and timestamp 2026-11-19 12:13:11 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/full-aigc-plugins/photocraft-plugin",
+    "commit": "af4d9b002ef150a8fec36c7a79c309b07f881286",
+    "releaseTags": 95,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:11.067Z"
+}

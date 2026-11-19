@@ -1,0 +1,29 @@
+{
+  "full_name": "hoshinoick811/dsh-tool-ssh",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:12.757Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/hoshinoick811/dsh-tool-ssh/git/commits/cd3b908d3f97f3175793eede349f97b3919bd356\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D43A:24FAE9:11A8B17:38EDC21:6AFEE7D9 and timestamp 2026-11-19 12:13:13 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/hoshinoick811/dsh-tool-ssh",
+    "commit": "cd3b908d3f97f3175793eede349f97b3919bd356",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:13.358Z"
+}

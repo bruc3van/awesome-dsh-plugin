@@ -1,0 +1,133 @@
+{
+  "full_name": "Gaudi-XIX/dsh-agy-cli",
+  "originalPosition": 113,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 113,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:33.652Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "69550f4ab780e60189c55d169f01ac8059e2c64fe6bb3638d1b9a3e2d4d1be9c",
+      "url": "https://github.com/Gaudi-XIX/dsh-agy-cli/blob/9dbb54799aaabbddbfa18541d4b1fc294864930c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-agy-cli",
+          "command": "dsh plugin --profile <你的 profile> add dsh-agy-cli",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agy-cli",
+      "version": "0.14.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Gaudi-XIX/dsh-agy-cli",
+        "commit": "9dbb54799aaabbddbfa18541d4b1fc294864930c"
+      },
+      "manifestSha256": "421075ee64a712865d7c1c245b49f467065cc6e1540f2947b15ad56b2ec7a327",
+      "manifestUrl": "https://github.com/Gaudi-XIX/dsh-agy-cli/blob/9dbb54799aaabbddbfa18541d4b1fc294864930c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-agy-cli",
+        "versions": [
+          {
+            "version": "0.14.0",
+            "publishTimestamp": 1795009898,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Gaudi-XIX/dsh-agy-cli",
+              "commit": "9dbb54799aaabbddbfa18541d4b1fc294864930c"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-agy-cli",
+      "origin": "npm",
+      "name": "dsh-agy-cli",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-agy-cli",
+        "title": "dsh-agy-cli",
+        "description": "Run the locally authenticated AGY CLI as a DSH model provider. Official-binary-only transport; lean prompts, adaptive tool projection, and DSH-governed security boundary.",
+        "homepage": "https://github.com/Gaudi-XIX/dsh-agy-cli#readme",
+        "repository": {
+          "url": "https://github.com/Gaudi-XIX/dsh-agy-cli"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "agy",
+            "antigravity",
+            "provider",
+            "cli",
+            "lean-prompt",
+            "tool-projection"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.14.0",
+            "publishTimestamp": 1795006697,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "06174ab82085671db2cb8acb1096878573f07e1ab52997e1ab0ac3f913f457df",
+      "evidence": [
+        {
+          "name": "dsh-agy-cli",
+          "version": "0.14.0",
+          "tarball": "https://registry.npmjs.org/dsh-agy-cli/-/dsh-agy-cli-0.14.0.tgz",
+          "integrity": "sha512-73YXV4/s7VumrqZm7rcj7e6EN51Jvq1s5s+ziA1DfYR8MiULwNpDxhfez4Vg0++wA3QGNXvMdaRJaJYdUsRnHg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-agy-cli",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Gaudi-XIX/dsh-agy-cli",
+    "commit": "9dbb54799aaabbddbfa18541d4b1fc294864930c",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:35.648Z"
+}

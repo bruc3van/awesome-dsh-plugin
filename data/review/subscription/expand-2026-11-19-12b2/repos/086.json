@@ -1,0 +1,134 @@
+{
+  "full_name": "Visol-456/dsh-llm-fallback",
+  "originalPosition": 86,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 86,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:33.595Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "098cd0d2ddc1e084c4b25a0d8dad09c58d0eaab2049cabeb50cfa35273b83a20",
+      "url": "https://github.com/Visol-456/dsh-llm-fallback/blob/c90188ba7bd4241feb62a2174445a69c09b27342/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@visol-456/dsh-llm-fallback",
+          "command": "dsh plugin --profile web add @visol-456/dsh-llm-fallback",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_en.md",
+      "sha256": "3ff789364e348b75d6cf10a77834d3bd8cdb47f83cdfad68a286c555ea209a81",
+      "url": "https://github.com/Visol-456/dsh-llm-fallback/blob/c90188ba7bd4241feb62a2174445a69c09b27342/README_en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@visol-456/dsh-llm-fallback",
+          "command": "dsh plugin --profile web add @visol-456/dsh-llm-fallback",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@visol-456/dsh-llm-fallback",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Visol-456/dsh-llm-fallback",
+        "commit": "c90188ba7bd4241feb62a2174445a69c09b27342"
+      },
+      "manifestSha256": "270fb77f1fcc954396721e9c13928dcc1271f47b7ad0f16342d599014064a96e",
+      "manifestUrl": "https://github.com/Visol-456/dsh-llm-fallback/blob/c90188ba7bd4241feb62a2174445a69c09b27342/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@visol-456/dsh-llm-fallback",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1790702356,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Visol-456/dsh-llm-fallback",
+              "commit": "c90188ba7bd4241feb62a2174445a69c09b27342"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@visol-456/dsh-llm-fallback",
+      "origin": "npm",
+      "name": "@visol-456/dsh-llm-fallback",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@visol-456/dsh-llm-fallback",
+        "title": "@visol-456/dsh-llm-fallback",
+        "description": "Provider fallback chain for the DeepSeek Harness LLM seam",
+        "repository": {
+          "url": "https://github.com/visol-456/dsh-llm-fallback"
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1790699988,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4399b396df06a8f5177a6b047496369b48922ab988d81eb31da78b6d8c49b0d0",
+      "evidence": [
+        {
+          "name": "@visol-456/dsh-llm-fallback",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/@visol-456/dsh-llm-fallback/-/dsh-llm-fallback-0.2.0.tgz",
+          "integrity": "sha512-EwNVaBwSHauDYf/vN4fX5jA+TKRgECimdSdfr6ZRIvoc8k4UXa+fsr+0ytUiORrZ3VGBm1KwKlzw1JJ9D3+CeQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@visol-456/dsh-llm-fallback",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Visol-456/dsh-llm-fallback",
+    "commit": "c90188ba7bd4241feb62a2174445a69c09b27342",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:36.210Z"
+}

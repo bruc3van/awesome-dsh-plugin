@@ -1,0 +1,73 @@
+{
+  "full_name": "ZoeHao2026/dsh-ui-model-selection-collapsible",
+  "originalPosition": 122,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:48.258Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "98280f05ad4de6efdcc0112840f21e65a2010b49321e6bec331cd93b00fdd731",
+      "url": "https://github.com/ZoeHao2026/dsh-ui-model-selection-collapsible/blob/4027064b5f6540d98033441bedc921a67ce35023/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/ZoeHao2026/dsh-ui-model-selection-collapsible.git#v0.2.2",
+          "command": "dsh plugin --profile web add 'https://github.com/ZoeHao2026/dsh-ui-model-selection-collapsible.git#v0.2.2'",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@local/dsh-ui-model-selection-collapsible",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ZoeHao2026/dsh-ui-model-selection-collapsible",
+        "commit": "4027064b5f6540d98033441bedc921a67ce35023"
+      },
+      "manifestSha256": "35a12b21307456e2bc8a9e0f71094c9163de002b5ea17ec6d0b5d97962ec63b6",
+      "manifestUrl": "https://github.com/ZoeHao2026/dsh-ui-model-selection-collapsible/blob/4027064b5f6540d98033441bedc921a67ce35023/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "target": "https://github.com/ZoeHao2026/dsh-ui-model-selection-collapsible.git#v0.2.2",
+      "origin": "git_target",
+      "path": "",
+      "commit": "4027064b5f6540d98033441bedc921a67ce35023",
+      "name": "@local/dsh-ui-model-selection-collapsible",
+      "version": "0.2.2",
+      "code": "private_package",
+      "status": "invalid_manifest",
+      "reason": "包声明 private: true，不作为可订阅插件收录"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ZoeHao2026/dsh-ui-model-selection-collapsible.git#v0.2.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ZoeHao2026/dsh-ui-model-selection-collapsible",
+    "commit": "4027064b5f6540d98033441bedc921a67ce35023",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:51.652Z"
+}

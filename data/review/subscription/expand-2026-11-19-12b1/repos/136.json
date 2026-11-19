@@ -1,0 +1,162 @@
+{
+  "full_name": "ItBayMax/dsh-replay-theater",
+  "originalPosition": 136,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 136,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:42.029Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e4ea4da06121d33457f40580e6c6e86f57f0ad4cf54ef225cd1580c0f0e51ef4",
+      "url": "https://github.com/ItBayMax/dsh-replay-theater/blob/b210eb847ed0c2770a8516f83693fbe461c7b647/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-replay-theater",
+          "command": "dsh plugin --profile web add dsh-replay-theater",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ItBayMax/dsh-replay-theater#main",
+          "command": "dsh plugin --profile web add \"github:ItBayMax/dsh-replay-theater#main\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ce2ed9cd77378d542fc97f57eac60a16d9ec87ed766839cf257dd01a04a1f1de",
+      "url": "https://github.com/ItBayMax/dsh-replay-theater/blob/b210eb847ed0c2770a8516f83693fbe461c7b647/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-replay-theater",
+          "command": "dsh plugin --profile web add dsh-replay-theater",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ItBayMax/dsh-replay-theater#main",
+          "command": "dsh plugin --profile web add \"github:ItBayMax/dsh-replay-theater#main\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-replay-theater",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ItBayMax/dsh-replay-theater",
+        "commit": "b210eb847ed0c2770a8516f83693fbe461c7b647"
+      },
+      "manifestSha256": "c8433360f19fc0cb92ee028c4bdffa7d3abfa87c4d1b1bcbd1be4fb6422a7ef0",
+      "manifestUrl": "https://github.com/ItBayMax/dsh-replay-theater/blob/b210eb847ed0c2770a8516f83693fbe461c7b647/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-replay-theater",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792748419,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ItBayMax/dsh-replay-theater",
+              "commit": "b210eb847ed0c2770a8516f83693fbe461c7b647"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-replay-theater",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    },
+    {
+      "target": "https://github.com/ItBayMax/dsh-replay-theater#main",
+      "origin": "git_target",
+      "name": "dsh-replay-theater",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-replay-theater",
+        "title": "dsh-replay-theater",
+        "description": "Replay a DeepSeek Harness session at its original token cadence — an in-app playback theater with play/pause/step/speed/seek.",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "replay",
+            "session",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792748419,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ItBayMax/dsh-replay-theater",
+              "commit": "b210eb847ed0c2770a8516f83693fbe461c7b647"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "b210eb847ed0c2770a8516f83693fbe461c7b647",
+          "name": "dsh-replay-theater",
+          "version": "0.2.0",
+          "url": "https://github.com/ItBayMax/dsh-replay-theater",
+          "manifestSha256": "c8433360f19fc0cb92ee028c4bdffa7d3abfa87c4d1b1bcbd1be4fb6422a7ef0",
+          "publishTimestamp": 1792748419
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-replay-theater",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ItBayMax/dsh-replay-theater#main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ItBayMax/dsh-replay-theater",
+    "commit": "b210eb847ed0c2770a8516f83693fbe461c7b647",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:45.761Z"
+}

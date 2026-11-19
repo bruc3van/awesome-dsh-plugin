@@ -1,0 +1,87 @@
+{
+  "full_name": "Zephyr-vibe/dsh-personalize",
+  "originalPosition": 115,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 115,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:45.432Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "250bbe651d5bbfa381e9e81fd872741b6e44516b71cbb38da4b79e76593dc37b",
+      "url": "https://github.com/Zephyr-vibe/dsh-personalize/blob/96f5525c0b65819fdb12c88cf1a9309747095c1f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://codeload.github.com/Zephyr-vibe/dsh-personalize/tar.gz/refs/heads/main",
+          "command": "dsh plugin --profile web add https://codeload.github.com/Zephyr-vibe/dsh-personalize/tar.gz/refs/heads/main",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-personalize",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Zephyr-vibe/dsh-personalize",
+        "commit": "96f5525c0b65819fdb12c88cf1a9309747095c1f"
+      },
+      "manifestSha256": "fa3998c69fd8072b8919944bf593a86364a035d1c1eba6c8996eb8bfff90176d",
+      "manifestUrl": "https://github.com/Zephyr-vibe/dsh-personalize/blob/96f5525c0b65819fdb12c88cf1a9309747095c1f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-personalize",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1786717913,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Zephyr-vibe/dsh-personalize",
+              "commit": "96f5525c0b65819fdb12c88cf1a9309747095c1f"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://codeload.github.com/Zephyr-vibe/dsh-personalize/tar.gz/refs/heads/main",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "GitHub codeload 是归档下载地址，不是 Git 仓库；format-1 需要 npm 包或经核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://codeload.github.com/Zephyr-vibe/dsh-personalize/tar.gz/refs/heads/main",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zephyr-vibe/dsh-personalize",
+    "commit": "96f5525c0b65819fdb12c88cf1a9309747095c1f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:47.314Z"
+}

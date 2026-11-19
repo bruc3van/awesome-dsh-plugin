@@ -1,0 +1,77 @@
+{
+  "full_name": "Voyager77Twt/dsh-folder-search",
+  "originalPosition": 87,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 87,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:34.929Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c7a9e7b54ce50d0d2f459e95332fd5fb46f30895b4cc69cccdc9a3ce79b3f924",
+      "url": "https://github.com/Voyager77Twt/dsh-folder-search/blob/fe18d835ae41f3f85efd0de3dcf4939ea364a80d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "5038e8b97141d6f7e44e5a567e3183a4249d7b3b13dd79a6f8f325ca55199845",
+      "url": "https://github.com/Voyager77Twt/dsh-folder-search/blob/fe18d835ae41f3f85efd0de3dcf4939ea364a80d/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-folder-search",
+      "version": "0.6.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Voyager77Twt/dsh-folder-search",
+        "commit": "fe18d835ae41f3f85efd0de3dcf4939ea364a80d"
+      },
+      "manifestSha256": "2452117c133c70dc59806f113e7b6c952989ec4386fa4a0feddef592c89a3b37",
+      "manifestUrl": "https://github.com/Voyager77Twt/dsh-folder-search/blob/fe18d835ae41f3f85efd0de3dcf4939ea364a80d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-folder-search",
+        "versions": [
+          {
+            "version": "0.6.6",
+            "publishTimestamp": 1794825151,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Voyager77Twt/dsh-folder-search",
+              "commit": "fe18d835ae41f3f85efd0de3dcf4939ea364a80d"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Voyager77Twt/dsh-folder-search",
+    "commit": "fe18d835ae41f3f85efd0de3dcf4939ea364a80d",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:37.338Z"
+}

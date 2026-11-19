@@ -1,0 +1,137 @@
+{
+  "full_name": "Talone22/dsh-notify-tone",
+  "originalPosition": 73,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 73,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:29.184Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "77521824222d16e2f265179c3d3b246fe1af009fbde7ee9555b84b523713b19d",
+      "url": "https://github.com/Talone22/dsh-notify-tone/blob/d00249ca21d3ecaf43277fa00a60803ea7455937/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-notify-tone",
+          "command": "dsh plugin --profile web add dsh-notify-tone",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/Talone22/dsh-notify-tone.git",
+          "command": "dsh plugin --profile web add git+https://github.com/Talone22/dsh-notify-tone.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-notify-tone",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Talone22/dsh-notify-tone",
+        "commit": "d00249ca21d3ecaf43277fa00a60803ea7455937"
+      },
+      "manifestSha256": "9383891be046f9a082ec50abec08a01e76f8d89d3219f39a168d19834156c6f0",
+      "manifestUrl": "https://github.com/Talone22/dsh-notify-tone/blob/d00249ca21d3ecaf43277fa00a60803ea7455937/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-notify-tone",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1787402068,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Talone22/dsh-notify-tone",
+              "commit": "d00249ca21d3ecaf43277fa00a60803ea7455937"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-notify-tone",
+      "origin": "npm",
+      "name": "dsh-notify-tone",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-notify-tone",
+        "title": "dsh-notify-tone",
+        "description": "dsh web GUI 提示音插件：AI 需要用户授权/选择时与每轮回答结束时播放提示音提醒用户。多套内置音色可选（经典双音/清脆叮咚/明亮三连/柔和轻音），悬停铃铛按钮可开关、选音色并试听，状态持久化。",
+        "homepage": "https://github.com/Talone22/dsh-notify-tone#readme",
+        "repository": {
+          "url": "https://github.com/Talone22/dsh-notify-tone"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "notification",
+            "sound",
+            "tone",
+            "beep",
+            "alert"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1787401241,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8eb5321c968efc0481aabdc21cefc5d902d5bd928ee985b023dc58f2e0615cdd",
+      "evidence": [
+        {
+          "name": "dsh-notify-tone",
+          "version": "0.2.3",
+          "tarball": "https://registry.npmjs.org/dsh-notify-tone/-/dsh-notify-tone-0.2.3.tgz",
+          "integrity": "sha512-zVjA8nDJhKf0HClhhM8TMBGk6ivd1DFQFfZa9ohGq0u9HW4CYzYo6fQxyxPsAc3fwN3aDhyRW7K0GqhBii6myA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-notify-tone",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/Talone22/dsh-notify-tone.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Talone22/dsh-notify-tone",
+    "commit": "d00249ca21d3ecaf43277fa00a60803ea7455937",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:31.169Z"
+}

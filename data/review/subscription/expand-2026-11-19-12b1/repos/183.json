@@ -1,0 +1,77 @@
+{
+  "full_name": "Nagi-ovo/dsh-music-tui",
+  "originalPosition": 183,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 183,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:02.472Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2f5758f0955c4b00453a963696823c36109448879bb0437a19bc72fbb56ba518",
+      "url": "https://github.com/Nagi-ovo/dsh-music-tui/blob/60426f0d6239dc8cd5a9e1dd217971a79a9cb2eb/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "2bd76bcee20fdb145c84ccdcf84003a572817822b42b524ba701273e9ca2d629",
+      "url": "https://github.com/Nagi-ovo/dsh-music-tui/blob/60426f0d6239dc8cd5a9e1dd217971a79a9cb2eb/README_EN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-tui-ecosystem/music",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nagi-ovo/dsh-music-tui",
+        "commit": "60426f0d6239dc8cd5a9e1dd217971a79a9cb2eb"
+      },
+      "manifestSha256": "b8257e5c213c7f92da81e1f6aac937a0e3740daa2974ffd7a4a7c23c4e4de8f7",
+      "manifestUrl": "https://github.com/Nagi-ovo/dsh-music-tui/blob/60426f0d6239dc8cd5a9e1dd217971a79a9cb2eb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6 || ^0.1.1-rc.1 || ^0.1.2-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-tui-ecosystem/music",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788202625,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Nagi-ovo/dsh-music-tui",
+              "commit": "60426f0d6239dc8cd5a9e1dd217971a79a9cb2eb"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6 || ^0.1.1-rc.1 || ^0.1.2-alpha.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nagi-ovo/dsh-music-tui",
+    "commit": "60426f0d6239dc8cd5a9e1dd217971a79a9cb2eb",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:04.860Z"
+}

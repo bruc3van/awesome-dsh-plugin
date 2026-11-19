@@ -1,0 +1,149 @@
+{
+  "full_name": "beings-labs/dsh-domain-manager",
+  "originalPosition": 154,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 154,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:00.651Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6fb1f09161dd1835fe418c82a2cb37b8e0ab11b81ea6e29d6341d38dd442171f",
+      "url": "https://github.com/beings-labs/dsh-domain-manager/blob/49a3b47045a2f9dc37761d8a2f93dad90a7dd0b2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@beings-labs/dsh-domain-manager",
+          "command": "dsh plugin --profile <profile> add @beings-labs/dsh-domain-manager",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/beings-labs/dsh-domain-manager",
+          "command": "dsh plugin --profile <profile> add github:beings-labs/dsh-domain-manager",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@beings-labs/dsh-domain-manager",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/beings-labs/dsh-domain-manager",
+        "commit": "49a3b47045a2f9dc37761d8a2f93dad90a7dd0b2"
+      },
+      "manifestSha256": "9f2f0a3b1fc447f0b5a4e0687ef128fe14c786bdde3abd24a6e8bbddddf0e9b0",
+      "manifestUrl": "https://github.com/beings-labs/dsh-domain-manager/blob/49a3b47045a2f9dc37761d8a2f93dad90a7dd0b2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@beings-labs/dsh-domain-manager",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794692489,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/beings-labs/dsh-domain-manager",
+              "commit": "49a3b47045a2f9dc37761d8a2f93dad90a7dd0b2"
+            },
+            "engines": {
+              "dsh": ">=0.2.0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@beings-labs/dsh-domain-manager",
+      "origin": "npm",
+      "name": "@beings-labs/dsh-domain-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@beings-labs/dsh-domain-manager",
+        "title": "@beings-labs/dsh-domain-manager",
+        "description": "Manage a domain portfolio in DeepSeek Harness: sync registrations from Namecheap and Cloudflare (API token or MCP browser login), track expiry dates, auto-renewal and yearly renewal costs, and check domain availability.",
+        "author": "beingsone",
+        "homepage": "https://github.com/beings-labs/dsh-domain-manager#readme",
+        "repository": {
+          "url": "https://github.com/beings-labs/dsh-domain-manager"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "domains",
+            "domain-portfolio",
+            "namecheap",
+            "cloudflare",
+            "registrar",
+            "availability",
+            "cloudflare-mcp",
+            "mcp"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iOSIvPgogIDxwYXRoIGQ9Ik0zIDEyaDE4TTEyIDNjMi42IDIuNiA0IDUuNiA0IDlzLTEuNCA2LjQtNCA5Yy0yLjYtMi42LTQtNS42LTQtOXMxLjQtNi40IDQtOXoiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794559004,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e3467cbe5ac5bd03a6be9089521f88ad29f492b305c94226a554f47968ac46cc",
+      "evidence": [
+        {
+          "name": "@beings-labs/dsh-domain-manager",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/@beings-labs/dsh-domain-manager/-/dsh-domain-manager-0.2.1.tgz",
+          "integrity": "sha512-B1hR61iPfwjS5t/ObbGnbY1alWRZ6YBpk3lpPksf8EIBkszl71rB17+0Yvr4/9Fcu4koJmrdKVP7C0+92PiUQA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@beings-labs/dsh-domain-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/beings-labs/dsh-domain-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/beings-labs/dsh-domain-manager",
+    "commit": "49a3b47045a2f9dc37761d8a2f93dad90a7dd0b2",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:03.080Z"
+}

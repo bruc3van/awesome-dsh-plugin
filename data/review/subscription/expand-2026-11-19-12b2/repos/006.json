@@ -1,0 +1,95 @@
+{
+  "full_name": "BeiZi6/dsh-theme-plugin",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:09:59.056Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9c8262033020afe256ccf639aa317ee7bc0ad653bbbfa1da9aac6cae566f64ae",
+      "url": "https://github.com/BeiZi6/dsh-theme-plugin/blob/b3e7e143532c4b6df71da753d2336bb018949d2a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/BeiZi6/dsh-theme-plugin",
+          "command": "dsh plugin --profile web add github:BeiZi6/dsh-theme-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "6cf99b6790018e873337a1057063bf8be345fd89f7a58c6f701dce56cc21dd7f",
+      "url": "https://github.com/BeiZi6/dsh-theme-plugin/blob/b3e7e143532c4b6df71da753d2336bb018949d2a/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/BeiZi6/dsh-theme-plugin",
+          "command": "dsh plugin --profile web add github:BeiZi6/dsh-theme-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-plugin",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BeiZi6/dsh-theme-plugin",
+        "commit": "b3e7e143532c4b6df71da753d2336bb018949d2a"
+      },
+      "manifestSha256": "09e1ce69b76f0a9ab084c9256f89b5836f3dbfaa909a2b31c4951617b5bed1dd",
+      "manifestUrl": "https://github.com/BeiZi6/dsh-theme-plugin/blob/b3e7e143532c4b6df71da753d2336bb018949d2a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-theme-plugin",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786725209,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BeiZi6/dsh-theme-plugin",
+              "commit": "b3e7e143532c4b6df71da753d2336bb018949d2a"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/BeiZi6/dsh-theme-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BeiZi6/dsh-theme-plugin",
+    "commit": "b3e7e143532c4b6df71da753d2336bb018949d2a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:01.683Z"
+}

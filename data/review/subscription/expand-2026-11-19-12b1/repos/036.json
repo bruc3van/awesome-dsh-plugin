@@ -1,0 +1,40 @@
+{
+  "full_name": "21hbguo/dsh-feishu-bridge-plugin",
+  "originalPosition": 36,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 36,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:01.009Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "afebee10afc77920c4e61b79ffe6f6b05e468435a5b8a18d8c80906e45e3bd59",
+      "url": "https://github.com/21hbguo/dsh-feishu-bridge-plugin/blob/ad7db09cb853ed2ab860d1e48910dfc1ab56b576/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/21hbguo/dsh-feishu-bridge-plugin",
+    "commit": "ad7db09cb853ed2ab860d1e48910dfc1ab56b576",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "@dsh-external/dsh-feishu-bridge",
+    "version": "0.3.0",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:07:02.869Z"
+}

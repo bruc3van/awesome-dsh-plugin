@@ -1,0 +1,132 @@
+{
+  "full_name": "beings-labs/dsh-cloudflare-connector",
+  "originalPosition": 153,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 153,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:00.155Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e3ab206cead21ea007bc1fa5f072e3c9c3d897eb2bc0e9253f57c68e1e01cd17",
+      "url": "https://github.com/beings-labs/dsh-cloudflare-connector/blob/c12cf52622184df841a9011a25af170f4b423f09/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@beings-labs/dsh-cloudflare-connector",
+          "command": "dsh plugin --profile <profile> add @beings-labs/dsh-cloudflare-connector",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@beings-labs/dsh-cloudflare-connector",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/beings-labs/dsh-cloudflare-connector",
+        "commit": "c12cf52622184df841a9011a25af170f4b423f09"
+      },
+      "manifestSha256": "91127cab6c62284584b74b5d3ce6ae909ed06b332cdf8c61b3d2864342622e10",
+      "manifestUrl": "https://github.com/beings-labs/dsh-cloudflare-connector/blob/c12cf52622184df841a9011a25af170f4b423f09/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@beings-labs/dsh-cloudflare-connector",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1794760900,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/beings-labs/dsh-cloudflare-connector",
+              "commit": "c12cf52622184df841a9011a25af170f4b423f09"
+            },
+            "engines": {
+              "dsh": ">=0.2.0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@beings-labs/dsh-cloudflare-connector",
+      "origin": "npm",
+      "name": "@beings-labs/dsh-cloudflare-connector",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@beings-labs/dsh-cloudflare-connector",
+        "title": "@beings-labs/dsh-cloudflare-connector",
+        "description": "Shared Cloudflare access for DeepSeek Harness agents and plugins, using official MCP tools and browser OAuth.",
+        "homepage": "https://github.com/beings-labs/dsh-cloudflare-connector#readme",
+        "repository": {
+          "url": "https://github.com/beings-labs/dsh-cloudflare-connector"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "cloudflare",
+            "connector",
+            "mcp",
+            "oauth",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1794558396,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e4d1f9e05b65a1a194eee9daa06536aabd5579337082cacfd802644de4ea0420",
+      "evidence": [
+        {
+          "name": "@beings-labs/dsh-cloudflare-connector",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/@beings-labs/dsh-cloudflare-connector/-/dsh-cloudflare-connector-0.1.1.tgz",
+          "integrity": "sha512-DGj8QB1lH0IZZnNOALcGrYN7Hol+IJTWjriTbt3qzXeGgjrd4nwY5PbnKZ5KhS4FZnRW9q25ri8rA6Kjy+E/EQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@beings-labs/dsh-cloudflare-connector",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/beings-labs/dsh-cloudflare-connector",
+    "commit": "c12cf52622184df841a9011a25af170f4b423f09",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:02.385Z"
+}

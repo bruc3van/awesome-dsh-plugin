@@ -1,0 +1,142 @@
+{
+  "full_name": "58catmiao/dsh-sciwork",
+  "originalPosition": 41,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 41,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:01.985Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b585f634afaaa0b55ef8579fe06a0bf18980bf90630b8ca6c6778b688f5963e0",
+      "url": "https://github.com/58catmiao/dsh-sciwork/blob/3cf1578304993e42959afc7f0c880c07c3f8be56/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@58catmiao/dsh-sciwork",
+          "command": "dsh plugin --profile <profile> add @58catmiao/dsh-sciwork",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "1babc150c5b863ff805868978d397db0a9983e869dbfa53b94b2fc3fc5f8ad9f",
+      "url": "https://github.com/58catmiao/dsh-sciwork/blob/3cf1578304993e42959afc7f0c880c07c3f8be56/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@58catmiao/dsh-sciwork",
+          "command": "dsh plugin --profile <profile> add @58catmiao/dsh-sciwork",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@58catmiao/dsh-sciwork",
+      "version": "0.4.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/58catmiao/dsh-sciwork",
+        "commit": "3cf1578304993e42959afc7f0c880c07c3f8be56"
+      },
+      "manifestSha256": "3358d3aedb8175d202b5d035dfa8685af74b487c4a56f21e0a59bcb3a1b9cc5e",
+      "manifestUrl": "https://github.com/58catmiao/dsh-sciwork/blob/3cf1578304993e42959afc7f0c880c07c3f8be56/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@58catmiao/dsh-sciwork",
+        "versions": [
+          {
+            "version": "0.4.11",
+            "publishTimestamp": 1794672119,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/58catmiao/dsh-sciwork",
+              "commit": "3cf1578304993e42959afc7f0c880c07c3f8be56"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@58catmiao/dsh-sciwork",
+      "origin": "npm",
+      "name": "@58catmiao/dsh-sciwork",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@58catmiao/dsh-sciwork",
+        "title": "@58catmiao/dsh-sciwork",
+        "description": "DSH 科研模式：给 DeepSeek Harness 装一套科研工作台——「科研模式」agent 预设 + 本机实体科研库（Python 引擎与登记索引）+ 12 份期刊投稿档案 + 投稿闸门（期刊合规体检 / 投稿包导出 / 递归全文索引）+ 绘图/写作/文献/期刊技能 + 「科研库」面板。0.3 起动作走「能力清单 + 确认令牌 + 回执」：课题是一等公民（七阶段机），面板与 agent 共用同一套动作，旧面板与 24 个旧动作名继续可用。出图由智能体经上游 dsh-origin-plugin（Origin MCP）完成。",
+        "author": "58catmiao",
+        "homepage": "https://github.com/58catmiao/dsh-sciwork#readme",
+        "repository": {
+          "url": "https://github.com/58catmiao/dsh-sciwork"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "research",
+            "science",
+            "scientific-writing",
+            "origin",
+            "科研"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.10",
+            "publishTimestamp": 1794129026,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2a693f06a9c1e63ba7959dbca7da0996d9c496bcb4328e4215faf74d72b0558b",
+      "evidence": [
+        {
+          "name": "@58catmiao/dsh-sciwork",
+          "version": "0.4.10",
+          "tarball": "https://registry.npmjs.org/@58catmiao/dsh-sciwork/-/dsh-sciwork-0.4.10.tgz",
+          "integrity": "sha512-KchUbPtuSyntLO2u2Okk1osSQryWi0XQ9Ad0IVEPTxNwaj6uLZpXgb8uF2WeseUWzt+pNJs9sX8sOHYl36SfOQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@58catmiao/dsh-sciwork",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/58catmiao/dsh-sciwork",
+    "commit": "3cf1578304993e42959afc7f0c880c07c3f8be56",
+    "releaseTags": 32,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:04.756Z"
+}

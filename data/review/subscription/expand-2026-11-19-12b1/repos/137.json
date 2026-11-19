@@ -1,0 +1,78 @@
+{
+  "full_name": "Jackbessaliuz/dsh-market-expand",
+  "originalPosition": 137,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 137,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:42.266Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "28886ff3c4e0c3a1de8399baa62ee0b678d08cda8e08e898dc61ffbbe882aad9",
+      "url": "https://github.com/Jackbessaliuz/dsh-market-expand/blob/22b4befc8e811d27f5e92aedcaafa368b8df2c9b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Jackbessaliuz/dsh-market-expand",
+          "command": "dsh plugin --profile <profile> add github:Jackbessaliuz/dsh-market-expand",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-market-expand",
+      "version": "1.4.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jackbessaliuz/dsh-market-expand",
+        "commit": "22b4befc8e811d27f5e92aedcaafa368b8df2c9b"
+      },
+      "manifestSha256": "39b604616edaec39b973a768074bf25b9db2f9d40521febf589cbf35cfbd77d0",
+      "manifestUrl": "https://github.com/Jackbessaliuz/dsh-market-expand/blob/22b4befc8e811d27f5e92aedcaafa368b8df2c9b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-market-expand",
+        "versions": [
+          {
+            "version": "1.4.4",
+            "publishTimestamp": 1795085641,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jackbessaliuz/dsh-market-expand",
+              "commit": "22b4befc8e811d27f5e92aedcaafa368b8df2c9b"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Jackbessaliuz/dsh-market-expand",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jackbessaliuz/dsh-market-expand",
+    "commit": "22b4befc8e811d27f5e92aedcaafa368b8df2c9b",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:44.108Z"
+}

@@ -1,0 +1,74 @@
+{
+  "full_name": "b8yg7vjstj-ctrl/dsh-llamacpp-bridge",
+  "originalPosition": 146,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 146,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:56.547Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e5fc07ad3b5d6a104a3c5ecd807e8fc40e27b547e1bb6c88e6fc31dc33d78857",
+      "url": "https://github.com/b8yg7vjstj-ctrl/dsh-llamacpp-bridge/blob/d60429f6e61c4d2f192ef5ea479d4f80694e4d1b/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "5f524784aa5b32a54c502fcacd040a485ba91cf8685e06b2f98d016a9d53976b",
+      "url": "https://github.com/b8yg7vjstj-ctrl/dsh-llamacpp-bridge/blob/d60429f6e61c4d2f192ef5ea479d4f80694e4d1b/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-llamacpp-bridge",
+      "version": "1.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/b8yg7vjstj-ctrl/dsh-llamacpp-bridge",
+        "commit": "d60429f6e61c4d2f192ef5ea479d4f80694e4d1b"
+      },
+      "manifestSha256": "b180a08d2f229a1e29cd3ea695ced5d480bd9a57b439cbc666e84a23c01a636a",
+      "manifestUrl": "https://github.com/b8yg7vjstj-ctrl/dsh-llamacpp-bridge/blob/d60429f6e61c4d2f192ef5ea479d4f80694e4d1b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-llamacpp-bridge",
+        "versions": [
+          {
+            "version": "1.6.0",
+            "publishTimestamp": 1792682687,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/b8yg7vjstj-ctrl/dsh-llamacpp-bridge",
+              "commit": "d60429f6e61c4d2f192ef5ea479d4f80694e4d1b"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/b8yg7vjstj-ctrl/dsh-llamacpp-bridge",
+    "commit": "d60429f6e61c4d2f192ef5ea479d4f80694e4d1b",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:58.868Z"
+}

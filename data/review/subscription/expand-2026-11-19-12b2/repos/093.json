@@ -1,0 +1,149 @@
+{
+  "full_name": "Weidows/dsh-whalechan-herself",
+  "originalPosition": 93,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 93,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:37.348Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f9a911fc70f2ae7f1148e3a9a2298093b1d4d740e349e3501c0e0189ad7925c4",
+      "url": "https://github.com/Weidows/dsh-whalechan-herself/blob/4555b4d34a4eaad04351eed045f94112e550c94c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-whalechan-herself",
+          "command": "dsh plugin --profile web add dsh-whalechan-herself",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Weidows/dsh-whalechan-herself",
+          "command": "dsh plugin --profile web add github:Weidows/dsh-whalechan-herself",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-whalechan-herself",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Weidows/dsh-whalechan-herself",
+        "commit": "4555b4d34a4eaad04351eed045f94112e550c94c"
+      },
+      "manifestSha256": "5ade9dca56cedadbe3bd766bfad8113d510c5dc21a953e3691b842770a13b36b",
+      "manifestUrl": "https://github.com/Weidows/dsh-whalechan-herself/blob/4555b4d34a4eaad04351eed045f94112e550c94c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-whalechan-herself",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1793695368,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Weidows/dsh-whalechan-herself",
+              "commit": "4555b4d34a4eaad04351eed045f94112e550c94c"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-whalechan-herself",
+      "origin": "npm",
+      "name": "dsh-whalechan-herself",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-whalechan-herself",
+        "title": {
+          "en": "Whale-chan Agent Preset",
+          "zh": "鲸鱼娘 Agent 预设"
+        },
+        "description": {
+          "en": "Adds the whalechan agent preset: full working capability with a DeepSeek whale-girl persona, start/end-of-work banter, and stickers matched to the moment.",
+          "zh": "添加「鲸鱼娘」Agent 预设：完整干活能力 + DeepSeek 鲸鱼娘人设，开工吐槽、收工讨饭，还会按场景发表情包。"
+        },
+        "repository": {
+          "url": "https://github.com/Weidows/dsh-whalechan-herself"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "agent-preset",
+            "whalechan",
+            "deepseek-chan",
+            "sticker",
+            "memory"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic2VhIiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzEyM2E2MyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwODE5MmIiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InNraW4iIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjY2ZlOWZmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzRkOWJlNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9InVybCgjc2VhKSIvPgogIDxwYXRoIGQ9Ik0xNCAzNGMwLTcgNi0xMiAxNC0xMiA5IDAgMTQgNSAxNCAxMSAwIDgtNiAxMy0xNSAxMy04IDAtMTMtNC0xMy0xMnoiIGZpbGw9InVybCgjc2tpbikiLz4KICA8cGF0aCBkPSJNNDIgMzNjNC0xIDYtNCA3LTggMSA1IDMgOCA3IDktNCAxLTYgNC03IDktMS00LTMtNy03LTEweiIgZmlsbD0iIzhmZDBmZiIvPgogIDxjaXJjbGUgY3g9IjI0IiBjeT0iMzEiIHI9IjIuNCIgZmlsbD0iIzBiMmE0YSIvPgogIDxjaXJjbGUgY3g9IjI0LjgiIGN5PSIzMC4yIiByPSIwLjgiIGZpbGw9IiNmZmZmZmYiLz4KICA8cGF0aCBkPSJNMTggNDBjMyAzIDggNCAxMyAzIiBzdHJva2U9IiMwYjJhNGEiIHN0cm9rZS1vcGFjaXR5PSIuMzUiIHN0cm9rZS13aWR0aD0iMS42IiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMjAgMjFjMi00IDYtNiAxMS02IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS1vcGFjaXR5PSIuNTUiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1793635685,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ed023689982dc37ceb0bfce5311ef8416ab6f3c153e5b8ccf86e5078d5789e81",
+      "evidence": [
+        {
+          "name": "dsh-whalechan-herself",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-whalechan-herself/-/dsh-whalechan-herself-0.4.0.tgz",
+          "integrity": "sha512-KzCOGhmRTn//jr6HLetdbMdNLa5qqJb2uxpZSl1l1S2y+W+nc/LEYVpgX3PICQfouIXcBJi4b9O7o+IYjYqrfw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-whalechan-herself",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Weidows/dsh-whalechan-herself",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Weidows/dsh-whalechan-herself",
+    "commit": "4555b4d34a4eaad04351eed045f94112e550c94c",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:39.517Z"
+}

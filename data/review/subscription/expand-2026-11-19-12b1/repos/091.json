@@ -1,0 +1,50 @@
+{
+  "full_name": "DreamRift/dsh-memory-context-lab",
+  "originalPosition": 91,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 91,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:22.987Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "67ad3eceb968597d9af484c167780c4551ab1063695915d414cadfbd361663b7",
+      "url": "https://github.com/DreamRift/dsh-memory-context-lab/blob/995e13782b947b8a45de83f11efee449c4d35d53/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memory-context-lab",
+      "version": "0.15.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DreamRift/dsh-memory-context-lab",
+        "commit": "995e13782b947b8a45de83f11efee449c4d35d53"
+      },
+      "manifestSha256": "1d1433dcac7ed598e0f2e76fd6740121e232b8d9f7ae74a80dcab141ac6b1d05",
+      "manifestUrl": "https://github.com/DreamRift/dsh-memory-context-lab/blob/995e13782b947b8a45de83f11efee449c4d35d53/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DreamRift/dsh-memory-context-lab",
+    "commit": "995e13782b947b8a45de83f11efee449c4d35d53",
+    "releaseTags": 41,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:07:25.003Z"
+}

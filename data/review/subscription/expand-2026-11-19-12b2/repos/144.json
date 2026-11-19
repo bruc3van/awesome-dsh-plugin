@@ -1,0 +1,146 @@
+{
+  "full_name": "astra3294/dsh-doctor",
+  "originalPosition": 144,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:56.473Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0264464f26246c6ad1175bc1834df409708e3edb10d8607618ff93222915e995",
+      "url": "https://github.com/astra3294/dsh-doctor/blob/15ad9a2f57f380bcbe336628029086c6124650b0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-doctor",
+          "command": "dsh plugin --profile web add dsh-doctor",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "82aa07d25f409bb84dd2ae8263d3c93634846622043d675d2a1269a7b1ef1bd4",
+      "url": "https://github.com/astra3294/dsh-doctor/blob/15ad9a2f57f380bcbe336628029086c6124650b0/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-doctor",
+          "command": "dsh plugin --profile web add dsh-doctor",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-doctor",
+      "version": "0.4.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/astra3294/dsh-doctor",
+        "commit": "15ad9a2f57f380bcbe336628029086c6124650b0"
+      },
+      "manifestSha256": "84be6eb65cd16e36aea5076de07dc468ac5ae2315e6c15e4b1936921947acab2",
+      "manifestUrl": "https://github.com/astra3294/dsh-doctor/blob/15ad9a2f57f380bcbe336628029086c6124650b0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-doctor",
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1795072877,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/astra3294/dsh-doctor",
+              "commit": "15ad9a2f57f380bcbe336628029086c6124650b0"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-doctor",
+      "origin": "npm",
+      "name": "dsh-doctor",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-doctor",
+        "title": "dsh-doctor",
+        "description": "Deterministic diagnostics and recovery for DeepSeek Harness",
+        "author": "astra3294",
+        "homepage": "https://github.com/astra3294/dsh-doctor#readme",
+        "repository": {
+          "url": "https://github.com/astra3294/dsh-doctor"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "doctor",
+            "diagnostics",
+            "recovery"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1786810716,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1702e9ab4cce714b7ac171def626cd4d154adc635d07b767319d12458a378ca1",
+      "evidence": [
+        {
+          "name": "dsh-doctor",
+          "version": "0.4.3",
+          "tarball": "https://registry.npmjs.org/dsh-doctor/-/dsh-doctor-0.4.3.tgz",
+          "integrity": "sha512-awf+wye0mqvWtkT4Cndgu0Xczclc+Z9pr5mZbczYP5MKWWnN8VAemSM0aflrvH9g0cf2+ZV9nzz31RZK5eiToQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-doctor",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/astra3294/dsh-doctor",
+    "commit": "15ad9a2f57f380bcbe336628029086c6124650b0",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:58.923Z"
+}

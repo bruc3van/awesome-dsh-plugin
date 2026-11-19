@@ -1,0 +1,47 @@
+{
+  "full_name": "StyleJeke/dsh-tunnel-plugin",
+  "originalPosition": 70,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 70,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:27.432Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "497ea6e38672b02bd8ce2f3e356879ef9abef3d374e6fbdf98543beb66edc9f6",
+      "url": "https://github.com/StyleJeke/dsh-tunnel-plugin/blob/e37fa0f87ce4fa09dc829e41117faf84de85c683/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/StyleJeke/dsh-tunnel-plugin",
+    "commit": "e37fa0f87ce4fa09dc829e41117faf84de85c683",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-tunnel-plugin",
+    "version": "1.0.0",
+    "dsh": {
+      "client": {
+        "inject": [
+          "@deepseek-ai/dsh-client-ui-layout"
+        ],
+        "platform": "web"
+      }
+    },
+    "engines": null
+  },
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-19T12:10:29.344Z"
+}

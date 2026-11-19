@@ -1,0 +1,111 @@
+{
+  "full_name": "CanglongCl/dsh-tool-retry",
+  "originalPosition": 78,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 78,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:17.838Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f6f5b6446cfddf08c7403335a2790574a00910c32dbaa13773676096b17721b0",
+      "url": "https://github.com/CanglongCl/dsh-tool-retry/blob/ec6fe80863402c851b80c87b7ccf5b09b6e68a6a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@canglongcl/dsh-tool-retry",
+          "command": "dsh plugin --profile web add @canglongcl/dsh-tool-retry",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_en.md",
+      "sha256": "bf9910c4d49851af676b0b8c9342a5c001d9c32d29a54acbf94c9dee04e8f6bc",
+      "url": "https://github.com/CanglongCl/dsh-tool-retry/blob/ec6fe80863402c851b80c87b7ccf5b09b6e68a6a/README_en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@canglongcl/dsh-tool-retry",
+          "command": "dsh plugin --profile web add @canglongcl/dsh-tool-retry",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "eval/README.md",
+      "sha256": "ef19c6d529e06cedf6e14ba45f609d9eb99812012cfed441cb5dfb93494b4ac5",
+      "url": "https://github.com/CanglongCl/dsh-tool-retry/blob/ec6fe80863402c851b80c87b7ccf5b09b6e68a6a/eval/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "target": "@canglongcl/dsh-tool-retry",
+      "origin": "npm",
+      "name": "@canglongcl/dsh-tool-retry",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@canglongcl/dsh-tool-retry",
+        "title": "@canglongcl/dsh-tool-retry",
+        "description": "DSH tool-call checkpoint & replay plugin: every model-direct tool call is auto-checkpointed (success or failure), failures inject a minimal notice, and native mode adds a one-call edit-and-replay tool",
+        "repository": {
+          "url": "https://github.com/CanglongCl/dsh-tool-retry"
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787120222,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "a7c049c2e722bea323d069378925eba9aba555b30305c5bce0293c47a061d416",
+      "evidence": [
+        {
+          "name": "@canglongcl/dsh-tool-retry",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/@canglongcl/dsh-tool-retry/-/dsh-tool-retry-0.2.1.tgz",
+          "integrity": "sha512-3xiDw9bjJywWxFcLWS4QJj9y3fqTh4QAIg5Oq1ivaSCVcI+nV/6sp4sdgBpzbLBItWMsk2xR7tUin8pDtlo1jA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@canglongcl/dsh-tool-retry",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CanglongCl/dsh-tool-retry",
+    "commit": "ec6fe80863402c851b80c87b7ccf5b09b6e68a6a",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-tool-retry",
+    "version": "0.2.1",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:22.226Z"
+}

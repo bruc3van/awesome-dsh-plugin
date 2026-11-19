@@ -1,0 +1,69 @@
+{
+  "full_name": "marsken88/dsh-studio",
+  "originalPosition": 20,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 20,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:52.308Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "997463749c0efc3f2194c11d11bd719121a1966f60e6aac0d450bf7803ee5ede",
+      "url": "https://github.com/marsken88/dsh-studio/blob/c2953d4af61fb01397b800f242e07146aee929ba/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@marsken/dsh-studio",
+      "version": "0.9.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/marsken88/dsh-studio",
+        "commit": "c2953d4af61fb01397b800f242e07146aee929ba"
+      },
+      "manifestSha256": "e66d1adacc62cbffe8962f641f4d4f1e58dcd9c8595840323fda30e7673371d7",
+      "manifestUrl": "https://github.com/marsken88/dsh-studio/blob/c2953d4af61fb01397b800f242e07146aee929ba/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@marsken/dsh-studio",
+        "versions": [
+          {
+            "version": "0.9.1",
+            "publishTimestamp": 1795089015,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/marsken88/dsh-studio",
+              "commit": "c2953d4af61fb01397b800f242e07146aee929ba"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/marsken88/dsh-studio",
+    "commit": "c2953d4af61fb01397b800f242e07146aee929ba",
+    "releaseTags": 84,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:54.364Z"
+}

@@ -1,0 +1,255 @@
+{
+  "full_name": "makooslee/dsh-company",
+  "originalPosition": 19,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 19,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:52.139Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ee6ed880fa34324cd8b896f8b5775c739cba70fedb513c7cc01bf5e6b9a8c16e",
+      "url": "https://github.com/makooslee/dsh-company/blob/230708af7fc539950e4963cf8b5c5f2991b5b51b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-company",
+          "command": "dsh plugin --profile web add dsh-company",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-company@0.5.3",
+          "command": "dsh plugin --profile web add dsh-company@0.5.3",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "33540a43b3145b9898197a777b2122b0fe5e138b6dd96b66fcd5b26f41f7eeba",
+      "url": "https://github.com/makooslee/dsh-company/blob/230708af7fc539950e4963cf8b5c5f2991b5b51b/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-company",
+          "command": "dsh plugin --profile web add dsh-company",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-company@0.5.3",
+          "command": "dsh plugin --profile web add dsh-company@0.5.3",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "sha256": "6993529f6673d6e75d6300ddeeeb732d40d6d05f6ffc8456495221e8e047e85f",
+      "url": "https://github.com/makooslee/dsh-company/blob/230708af7fc539950e4963cf8b5c5f2991b5b51b/docs/architecture/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-company",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/makooslee/dsh-company",
+        "commit": "230708af7fc539950e4963cf8b5c5f2991b5b51b"
+      },
+      "manifestSha256": "567c9b8a6dda82ddc9a31ad77a1bb6930ee6ef09ad9b2fa3d9f35c5d8587d9e7",
+      "manifestUrl": "https://github.com/makooslee/dsh-company/blob/230708af7fc539950e4963cf8b5c5f2991b5b51b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-company",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1795031499,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/makooslee/dsh-company",
+              "commit": "230708af7fc539950e4963cf8b5c5f2991b5b51b"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-company",
+      "origin": "npm",
+      "name": "dsh-company",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-company",
+        "title": {
+          "en": "Company",
+          "zh": "公司"
+        },
+        "description": {
+          "en": "A tiny company with one CEO: seven built-in employees with their own identity, model and skills bid for work, run in parallel, and report into one team timeline.",
+          "zh": "一家只有一位 CEO 的小公司：七个内置员工各有身份、模型与技能，派单后他们自主认单、并行开工，产出汇成一条团队时间线。"
+        },
+        "author": "makooslee",
+        "homepage": "https://github.com/makooslee/dsh-company#readme",
+        "repository": {
+          "url": "https://github.com/makooslee/dsh-company"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "multi-agent",
+            "agent-team",
+            "ai-company",
+            "multi agent",
+            "agent team",
+            "subagent",
+            "sub-agent",
+            "workflow",
+            "orchestration",
+            "n8n",
+            "employee",
+            "team",
+            "ceo",
+            "company",
+            "agents",
+            "workflow-automation",
+            "drag-and-drop"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8cmVjdCB4PSIyNCIgeT0iNyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjEzIiByeD0iMy41IiBmaWxsPSJub25lIiBzdHJva2U9IiM0QzhERkYiIHN0cm9rZS13aWR0aD0iNCIvPgogIDxyZWN0IHg9IjciIHk9IjQ0IiB3aWR0aD0iMTYiIGhlaWdodD0iMTMiIHJ4PSIzLjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNFQ0ZBMCIgc3Ryb2tlLXdpZHRoPSI0Ii8+CiAgPHJlY3QgeD0iNDEiIHk9IjQ0IiB3aWR0aD0iMTYiIGhlaWdodD0iMTMiIHJ4PSIzLjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0YyQTY1QSIgc3Ryb2tlLXdpZHRoPSI0Ii8+CiAgPHBhdGggZD0iTTMyIDIwdjExTTE1IDQ0VjMxaDM0djEzIiBmaWxsPSJub25lIiBzdHJva2U9IiM4QTkzQTYiIHN0cm9rZS13aWR0aD0iMy41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1795032443,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "212eecb1566df94bbd08be5770a5ef25c3cba993063e48e91676a047a6e4f45d",
+      "evidence": [
+        {
+          "name": "dsh-company",
+          "version": "0.6.0",
+          "tarball": "https://registry.npmjs.org/dsh-company/-/dsh-company-0.6.0.tgz",
+          "integrity": "sha512-uLtRwEc+SrD1c3sarIwQIpi+IAxFVo9u0hyvVaJzS2ChEnmb/C/74k6yZbNEAi7uj5LK8JNdqusjliDQ1eq4MQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-company@0.5.3",
+      "origin": "npm",
+      "name": "dsh-company",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-company",
+        "title": {
+          "en": "Company",
+          "zh": "公司"
+        },
+        "description": {
+          "en": "A tiny company with one CEO: seven built-in employees with their own identity, model and skills bid for work, run in parallel, and report into one team timeline.",
+          "zh": "一家只有一位 CEO 的小公司：七个内置员工各有身份、模型与技能，派单后他们自主认单、并行开工，产出汇成一条团队时间线。"
+        },
+        "author": "makooslee",
+        "homepage": "https://github.com/makooslee/dsh-company#readme",
+        "repository": {
+          "url": "https://github.com/makooslee/dsh-company"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "multi-agent",
+            "agent-team",
+            "ai-company",
+            "multi agent",
+            "agent team",
+            "subagent",
+            "sub-agent",
+            "workflow",
+            "orchestration",
+            "n8n",
+            "employee",
+            "team",
+            "ceo",
+            "company",
+            "agents",
+            "workflow-automation",
+            "drag-and-drop"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8cmVjdCB4PSIyNCIgeT0iNyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjEzIiByeD0iMy41IiBmaWxsPSJub25lIiBzdHJva2U9IiM0QzhERkYiIHN0cm9rZS13aWR0aD0iNCIvPgogIDxyZWN0IHg9IjciIHk9IjQ0IiB3aWR0aD0iMTYiIGhlaWdodD0iMTMiIHJ4PSIzLjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNFQ0ZBMCIgc3Ryb2tlLXdpZHRoPSI0Ii8+CiAgPHJlY3QgeD0iNDEiIHk9IjQ0IiB3aWR0aD0iMTYiIGhlaWdodD0iMTMiIHJ4PSIzLjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0YyQTY1QSIgc3Ryb2tlLXdpZHRoPSI0Ii8+CiAgPHBhdGggZD0iTTMyIDIwdjExTTE1IDQ0VjMxaDM0djEzIiBmaWxsPSJub25lIiBzdHJva2U9IiM4QTkzQTYiIHN0cm9rZS13aWR0aD0iMy41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.5.3",
+            "publishTimestamp": 1794769250,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "212eecb1566df94bbd08be5770a5ef25c3cba993063e48e91676a047a6e4f45d",
+      "evidence": [
+        {
+          "name": "dsh-company",
+          "version": "0.5.3",
+          "tarball": "https://registry.npmjs.org/dsh-company/-/dsh-company-0.5.3.tgz",
+          "integrity": "sha512-8VgLoYx21SU1GhcMYCgDAhV0fJ+dRRk9H082ohNT+HBsTgi3SNZ1O6+EyfMcHh2jHg83oyMroPYgcuZfqdqx6w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-company",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-company@0.5.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/makooslee/dsh-company",
+    "commit": "230708af7fc539950e4963cf8b5c5f2991b5b51b",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:55.201Z"
+}

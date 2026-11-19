@@ -1,0 +1,29 @@
+{
+  "full_name": "leoan698-tom/dsh-sessivra",
+  "originalPosition": 189,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:19.191Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/leoan698-tom/dsh-sessivra/git/commits/062f545737062a23b1f47768ea24b760f52bc055\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D483:5F0F6:11646AC:37FBED6:6AFEE7DF and timestamp 2026-11-19 12:13:19 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/leoan698-tom/dsh-sessivra",
+    "commit": "062f545737062a23b1f47768ea24b760f52bc055",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:19.754Z"
+}

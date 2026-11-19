@@ -1,0 +1,29 @@
+{
+  "full_name": "cyanseek/dsh-tool-chaos",
+  "originalPosition": 186,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 186,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:09.847Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/cyanseek/dsh-tool-chaos/git/commits/24917ac7487b196c5b7587bc9d4bc8a427c75c7c\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D423:110F40:10B6A32:35EA4DC:6AFEE75E and timestamp 2026-11-19 12:11:10 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/cyanseek/dsh-tool-chaos",
+    "commit": "24917ac7487b196c5b7587bc9d4bc8a427c75c7c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:11:10.431Z"
+}

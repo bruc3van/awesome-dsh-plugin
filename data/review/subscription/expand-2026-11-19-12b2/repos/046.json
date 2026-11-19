@@ -1,0 +1,78 @@
+{
+  "full_name": "Retr67/dsh-opencode-models",
+  "originalPosition": 46,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 46,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:17.845Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bb1bbc468a4b3dd601ece6ca691b11d65a1ec5be3524d14890d1fb893ed19795",
+      "url": "https://github.com/Retr67/dsh-opencode-models/blob/fa712339d1900a9cc4d1d66f6648d8589f4fd468/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Retr67/dsh-opencode-models",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add https://github.com/Retr67/dsh-opencode-models",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-opencode-models",
+      "version": "0.5.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Retr67/dsh-opencode-models",
+        "commit": "fa712339d1900a9cc4d1d66f6648d8589f4fd468"
+      },
+      "manifestSha256": "3f5d96305f883c0a57421af70656273a5aef69c019080a0d4d9cbed41d4ec636",
+      "manifestUrl": "https://github.com/Retr67/dsh-opencode-models/blob/fa712339d1900a9cc4d1d66f6648d8589f4fd468/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-opencode-models",
+        "versions": [
+          {
+            "version": "0.5.3",
+            "publishTimestamp": 1793123562,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Retr67/dsh-opencode-models",
+              "commit": "fa712339d1900a9cc4d1d66f6648d8589f4fd468"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Retr67/dsh-opencode-models",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Retr67/dsh-opencode-models",
+    "commit": "fa712339d1900a9cc4d1d66f6648d8589f4fd468",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:19.781Z"
+}

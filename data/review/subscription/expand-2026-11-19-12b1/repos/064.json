@@ -1,0 +1,207 @@
+{
+  "full_name": "Asianfleet/dsh-message-copy-enhance",
+  "originalPosition": 64,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 64,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:12.728Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e725930a53bd1dc4da316c960f2f5276a2c6bf9478a006089a9cff644b5c4461",
+      "url": "https://github.com/Asianfleet/dsh-message-copy-enhance/blob/9d8595501224621db5942fadddcbdb0efceba686/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-message-copy-enhance",
+          "command": "dsh plugin --profile desktop add dsh-message-copy-enhance",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-message-copy-enhance@latest",
+          "command": "dsh plugin --profile desktop add dsh-message-copy-enhance@latest",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "7c0e5b1a7daee8777d6deefa7c44ffdeb7098d040f66a4673e20941dcc08883b",
+      "url": "https://github.com/Asianfleet/dsh-message-copy-enhance/blob/9d8595501224621db5942fadddcbdb0efceba686/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-message-copy-enhance",
+          "command": "dsh plugin --profile desktop add dsh-message-copy-enhance",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-message-copy-enhance@latest",
+          "command": "dsh plugin --profile desktop add dsh-message-copy-enhance@latest",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-message-copy-enhance",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Asianfleet/dsh-message-copy-enhance",
+        "commit": "9d8595501224621db5942fadddcbdb0efceba686"
+      },
+      "manifestSha256": "228d39cf5774ff998f16db874d529df5d12f7ca407b73165c1a0024aa2fbae68",
+      "manifestUrl": "https://github.com/Asianfleet/dsh-message-copy-enhance/blob/9d8595501224621db5942fadddcbdb0efceba686/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-message-copy-enhance",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787136763,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Asianfleet/dsh-message-copy-enhance",
+              "commit": "9d8595501224621db5942fadddcbdb0efceba686"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-message-copy-enhance",
+      "origin": "npm",
+      "name": "dsh-message-copy-enhance",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-message-copy-enhance",
+        "title": "dsh-message-copy-enhance",
+        "description": "Copy dsh assistant output as Markdown, preserving links, LaTeX sources and code fences.",
+        "author": "Asianfleet",
+        "homepage": "https://github.com/Asianfleet/dsh-message-copy-enhance#readme",
+        "repository": {
+          "url": "https://github.com/Asianfleet/dsh-message-copy-enhance"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "client-plugin",
+            "markdown",
+            "copy",
+            "clipboard",
+            "latex"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787136697,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "89eb6f9d44da8df670c44a87123166c76d588948e23a0f170eff903e2375a4ba",
+      "evidence": [
+        {
+          "name": "dsh-message-copy-enhance",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-message-copy-enhance/-/dsh-message-copy-enhance-0.2.1.tgz",
+          "integrity": "sha512-qhPX55oH1dvI2i6VddLnCSeQ5X9P4ZIkEMOOA2GNJ66lpGRE4VQ1qbB5rNA4oybtZ9KYVUnqIhB3skf5fqeWVw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    },
+    {
+      "target": "dsh-message-copy-enhance@latest",
+      "origin": "npm",
+      "name": "dsh-message-copy-enhance",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-message-copy-enhance",
+        "title": "dsh-message-copy-enhance",
+        "description": "Copy dsh assistant output as Markdown, preserving links, LaTeX sources and code fences.",
+        "author": "Asianfleet",
+        "homepage": "https://github.com/Asianfleet/dsh-message-copy-enhance#readme",
+        "repository": {
+          "url": "https://github.com/Asianfleet/dsh-message-copy-enhance"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "client-plugin",
+            "markdown",
+            "copy",
+            "clipboard",
+            "latex"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1787136697,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "89eb6f9d44da8df670c44a87123166c76d588948e23a0f170eff903e2375a4ba",
+      "evidence": [
+        {
+          "name": "dsh-message-copy-enhance",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-message-copy-enhance/-/dsh-message-copy-enhance-0.2.1.tgz",
+          "integrity": "sha512-qhPX55oH1dvI2i6VddLnCSeQ5X9P4ZIkEMOOA2GNJ66lpGRE4VQ1qbB5rNA4oybtZ9KYVUnqIhB3skf5fqeWVw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-message-copy-enhance",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-message-copy-enhance@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Asianfleet/dsh-message-copy-enhance",
+    "commit": "9d8595501224621db5942fadddcbdb0efceba686",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:15.265Z"
+}

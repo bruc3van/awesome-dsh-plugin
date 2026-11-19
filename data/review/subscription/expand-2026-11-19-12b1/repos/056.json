@@ -1,0 +1,69 @@
+{
+  "full_name": "Ame-Choo/dsh-study-coach",
+  "originalPosition": 56,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 56,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:08.948Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6d6cf83168ac317ce723569d902f71e3ed830d69bf4e20141e8d07b25847587a",
+      "url": "https://github.com/Ame-Choo/dsh-study-coach/blob/7c2c2d3f71cb49508e567674882eddb1b3a689ba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-study-coach",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ame-Choo/dsh-study-coach",
+        "commit": "7c2c2d3f71cb49508e567674882eddb1b3a689ba"
+      },
+      "manifestSha256": "47405cf95d854aa4964b3d31c3532bec1ab8278d61b39ed59a18cadc0ae9d361",
+      "manifestUrl": "https://github.com/Ame-Choo/dsh-study-coach/blob/7c2c2d3f71cb49508e567674882eddb1b3a689ba/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-study-coach",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791986411,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ame-Choo/dsh-study-coach",
+              "commit": "7c2c2d3f71cb49508e567674882eddb1b3a689ba"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ame-Choo/dsh-study-coach",
+    "commit": "7c2c2d3f71cb49508e567674882eddb1b3a689ba",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:10.831Z"
+}

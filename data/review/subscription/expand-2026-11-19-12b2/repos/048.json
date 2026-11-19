@@ -1,0 +1,77 @@
+{
+  "full_name": "S0ra233/DSH-game-translate",
+  "originalPosition": 48,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 48,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:18.603Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "aec03958ce77796917d61db01ac4803822595ad69f6d564df0828bda04df0116",
+      "url": "https://github.com/S0ra233/DSH-game-translate/blob/f9b24275a96501830bf1a2c82363e600d9bc4e69/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "0506a8daacf3910ab8ca7eec860f231544197d2ed71cfa0a9a921dad918cafbb",
+      "url": "https://github.com/S0ra233/DSH-game-translate/blob/f9b24275a96501830bf1a2c82363e600d9bc4e69/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-game-translate",
+      "version": "0.9.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/S0ra233/DSH-game-translate",
+        "commit": "f9b24275a96501830bf1a2c82363e600d9bc4e69"
+      },
+      "manifestSha256": "35259349bb27dd7fa4061458c649ee13f9542698bdce158a575b73188ceb64c3",
+      "manifestUrl": "https://github.com/S0ra233/DSH-game-translate/blob/f9b24275a96501830bf1a2c82363e600d9bc4e69/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-game-translate",
+        "versions": [
+          {
+            "version": "0.9.3",
+            "publishTimestamp": 1793073479,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/S0ra233/DSH-game-translate",
+              "commit": "f9b24275a96501830bf1a2c82363e600d9bc4e69"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/S0ra233/DSH-game-translate",
+    "commit": "f9b24275a96501830bf1a2c82363e600d9bc4e69",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:20.999Z"
+}

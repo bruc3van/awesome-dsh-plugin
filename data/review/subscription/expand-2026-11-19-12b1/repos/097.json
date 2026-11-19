@@ -1,0 +1,156 @@
+{
+  "full_name": "EricMoin/rolebox",
+  "originalPosition": 97,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 97,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:26.955Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1bd92f0252d2c150921d45587346efc8c53b765adfaf5874df791c4f093528ba",
+      "url": "https://github.com/EricMoin/rolebox/blob/3128dfdfd9d7d6ea3337532f91fd1929e3273236/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "rolebox",
+          "command": "dsh plugin --profile <name> add rolebox",
+          "profile": "default"
+        },
+        {
+          "install": "rolebox",
+          "command": "dsh plugin --profile web add rolebox",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "rolebox",
+      "version": "2.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/EricMoin/rolebox",
+        "commit": "3128dfdfd9d7d6ea3337532f91fd1929e3273236"
+      },
+      "manifestSha256": "452d9ec3bf699d2c7cf4ae2a987f80d88217a1820ce15d4f178bd20815fec985",
+      "manifestUrl": "https://github.com/EricMoin/rolebox/blob/3128dfdfd9d7d6ea3337532f91fd1929e3273236/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-alpha.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "rolebox",
+        "versions": [
+          {
+            "version": "2.5.0",
+            "publishTimestamp": 1794805907,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/EricMoin/rolebox",
+              "commit": "3128dfdfd9d7d6ea3337532f91fd1929e3273236"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "rolebox",
+      "origin": "npm",
+      "name": "rolebox",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "rolebox",
+        "title": "rolebox",
+        "description": "Agent plugin for major harnesses — DeepSeek Harness (DSH), OpenCode, Pi and Codex: define custom AI agent roles with per-role prompts, models, skills, permissions, memory and multi-agent orchestration.",
+        "repository": {
+          "url": "https://github.com/EricMoin/rolebox"
+        },
+        "metadata": {
+          "keywords": [
+            "opencode",
+            "opencode-plugin",
+            "pi-extension",
+            "pi-package",
+            "dsh",
+            "codex",
+            "deepseek",
+            "ai-agent",
+            "llm",
+            "agent-framework",
+            "multi-agent",
+            "agent-orchestration",
+            "subagents",
+            "role",
+            "yaml",
+            "skills",
+            "memory",
+            "lsp",
+            "workflow",
+            "cli",
+            "tui",
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh-bundle",
+            "cordis",
+            "cordis-plugin",
+            "deepseek-harness-plugin"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.5.0",
+            "publishTimestamp": 1794808574,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-alpha.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "af11d47203d0c62563ff75680a2dd3266b07affb35ade07c445d3285417680e4",
+      "evidence": [
+        {
+          "name": "rolebox",
+          "version": "2.5.0",
+          "tarball": "https://registry.npmjs.org/rolebox/-/rolebox-2.5.0.tgz",
+          "integrity": "sha512-rxFR50EQXhYNpit/9sNlRnXM/rgvsaQoG7/JxV52963pnd4q9EMQ72a0o4+epgdy6LSUq/6HSGCSxSH3oCA2yA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "rolebox",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EricMoin/rolebox",
+    "commit": "3128dfdfd9d7d6ea3337532f91fd1929e3273236",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:29.696Z"
+}

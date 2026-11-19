@@ -1,0 +1,78 @@
+{
+  "full_name": "Jolly-J/dsh-deepseek-billing",
+  "originalPosition": 142,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:45.762Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d334ca483a34652ec7270b3f77281211469589f0b3f53bfa88f5da3cbb6fac1b",
+      "url": "https://github.com/Jolly-J/dsh-deepseek-billing/blob/408e9428c2f3f73c82506818857e825e21ef7c95/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Jolly-J/dsh-deepseek-billing.git",
+          "command": "dsh plugin --profile web add https://github.com/Jolly-J/dsh-deepseek-billing.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepseek-billing",
+      "version": "0.1.0-rc.11",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jolly-J/dsh-deepseek-billing",
+        "commit": "408e9428c2f3f73c82506818857e825e21ef7c95"
+      },
+      "manifestSha256": "8dd016f46544c4e5d8a7bc14e6e7a05368d44e91b330d9e75938189c98bd3cf1",
+      "manifestUrl": "https://github.com/Jolly-J/dsh-deepseek-billing/blob/408e9428c2f3f73c82506818857e825e21ef7c95/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-deepseek-billing",
+        "versions": [
+          {
+            "version": "0.1.0-rc.11",
+            "publishTimestamp": 1790040646,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jolly-J/dsh-deepseek-billing",
+              "commit": "408e9428c2f3f73c82506818857e825e21ef7c95"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Jolly-J/dsh-deepseek-billing.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jolly-J/dsh-deepseek-billing",
+    "commit": "408e9428c2f3f73c82506818857e825e21ef7c95",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:47.645Z"
+}

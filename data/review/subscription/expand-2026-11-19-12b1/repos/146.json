@@ -1,0 +1,69 @@
+{
+  "full_name": "Kiru-Sama/dsh-progress-reminder",
+  "originalPosition": 146,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 146,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:47.646Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6733a58d2d7e7fc852fe44e739201ce0c5b13a223aba09fa595c3e21cb98f8ec",
+      "url": "https://github.com/Kiru-Sama/dsh-progress-reminder/blob/d4da318d35526aeded22477c1232c454f8f7c36a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-progress-reminder",
+      "version": "3.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Kiru-Sama/dsh-progress-reminder",
+        "commit": "d4da318d35526aeded22477c1232c454f8f7c36a"
+      },
+      "manifestSha256": "bc48a2613073745d5850677206dd021e68a6f3e86d2fba3c8fd4d5a17091db15",
+      "manifestUrl": "https://github.com/Kiru-Sama/dsh-progress-reminder/blob/d4da318d35526aeded22477c1232c454f8f7c36a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-progress-reminder",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "publishTimestamp": 1794302598,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Kiru-Sama/dsh-progress-reminder",
+              "commit": "d4da318d35526aeded22477c1232c454f8f7c36a"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Kiru-Sama/dsh-progress-reminder",
+    "commit": "d4da318d35526aeded22477c1232c454f8f7c36a",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:49.539Z"
+}

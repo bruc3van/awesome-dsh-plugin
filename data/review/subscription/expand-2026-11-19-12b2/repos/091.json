@@ -1,0 +1,143 @@
+{
+  "full_name": "Wangxiaolu0716/ctf-solve-teach",
+  "originalPosition": 91,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 91,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:35.653Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b0fc0c60297dbbb4edbfdc2b09c636dd53e1c031a8aec966ce78576795790325",
+      "url": "https://github.com/Wangxiaolu0716/ctf-solve-teach/blob/7d0851db5cd0d7f374fc8d004d0a3e83ee5aaa35/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Wangxiaolu0716/ctf-solve-teach",
+          "command": "dsh plugin add github:Wangxiaolu0716/ctf-solve-teach",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-ctf-solve-teach",
+          "command": "dsh plugin add dsh-ctf-solve-teach",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ctf-solve-teach",
+      "version": "1.0.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Wangxiaolu0716/ctf-solve-teach",
+        "commit": "7d0851db5cd0d7f374fc8d004d0a3e83ee5aaa35"
+      },
+      "manifestSha256": "0d10e32721c119e935108c3e320355d1e8801b5b27f3639b41511962f691f6de",
+      "manifestUrl": "https://github.com/Wangxiaolu0716/ctf-solve-teach/blob/7d0851db5cd0d7f374fc8d004d0a3e83ee5aaa35/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ctf-solve-teach",
+        "versions": [
+          {
+            "version": "1.0.5",
+            "publishTimestamp": 1793107103,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Wangxiaolu0716/ctf-solve-teach",
+              "commit": "7d0851db5cd0d7f374fc8d004d0a3e83ee5aaa35"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ctf-solve-teach",
+      "origin": "npm",
+      "name": "dsh-ctf-solve-teach",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ctf-solve-teach",
+        "title": "dsh-ctf-solve-teach",
+        "description": "DSH 教学式 CTF 解题技能插件：边解边讲套路/工具/知识点，收尾在 solves/<题目名>/ 生成可复现 Writeup。",
+        "author": "Wangxiaolu0716",
+        "homepage": "https://github.com/Wangxiaolu0716/ctf-solve-teach#readme",
+        "repository": {
+          "url": "https://github.com/Wangxiaolu0716/ctf-solve-teach"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "skills",
+            "skill",
+            "ctf",
+            "writeup",
+            "security",
+            "forensics",
+            "steganography",
+            "教学",
+            "网络安全"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.5",
+            "publishTimestamp": 1793107189,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7524947880f61a2bd95c2e040288bd63aecb3644449326688f5e8906504ca7ce",
+      "evidence": [
+        {
+          "name": "dsh-ctf-solve-teach",
+          "version": "1.0.5",
+          "tarball": "https://registry.npmjs.org/dsh-ctf-solve-teach/-/dsh-ctf-solve-teach-1.0.5.tgz",
+          "integrity": "sha512-mc4eX1j2rzEHU5IhsZOo32tpbc9PiNWAOXsKulxztuzTQksLsphO17gy/fs/sMs3Xoa8xbAt5xoJyJpEUA2+5Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Wangxiaolu0716/ctf-solve-teach",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ctf-solve-teach",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Wangxiaolu0716/ctf-solve-teach",
+    "commit": "7d0851db5cd0d7f374fc8d004d0a3e83ee5aaa35",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:37.598Z"
+}

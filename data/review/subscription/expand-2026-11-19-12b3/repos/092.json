@@ -1,0 +1,29 @@
+{
+  "full_name": "feiyang-dev/dsh-vault",
+  "originalPosition": 92,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 92,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:09.632Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/feiyang-dev/dsh-vault/git/commits/ab47231c0fd45bc7dcddc6b02498598cc3909806\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D4B2:2717FD:12317B5:3AA70E5:6AFEE7D6 and timestamp 2026-11-19 12:13:10 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/feiyang-dev/dsh-vault",
+    "commit": "ab47231c0fd45bc7dcddc6b02498598cc3909806",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:10.224Z"
+}

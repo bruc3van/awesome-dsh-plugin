@@ -1,0 +1,29 @@
+{
+  "full_name": "LingLambda/dsh-undo",
+  "originalPosition": 23,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 23,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:02.530Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/LingLambda/dsh-undo/git/commits/6948396fc0e71171fa26d9979c81bc7591571288\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D437:10C78E:1262ECF:3B523CD:6AFEE7CE and timestamp 2026-11-19 12:13:03 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/LingLambda/dsh-undo",
+    "commit": "6948396fc0e71171fa26d9979c81bc7591571288",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:03.157Z"
+}

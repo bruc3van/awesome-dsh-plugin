@@ -1,0 +1,184 @@
+{
+  "full_name": "Neptune810/dsh-model-router",
+  "originalPosition": 188,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 188,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:04.860Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "51d1c37b0a41cad755091cda921ed8b84fef66e7d548ed3aab9276408f749b46",
+      "url": "https://github.com/Neptune810/dsh-model-router/blob/2d00d8555854abcb4adf577ee59d2169518ca3d1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@neptune810/dsh-model-router",
+          "command": "dsh plugin --profile web add @neptune810/dsh-model-router",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Neptune810/dsh-model-router",
+          "command": "dsh plugin --profile web add github:Neptune810/dsh-model-router",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "7c24aff47074668cb9a7332491574389b5d712d413529a11eca4572d3e37727e",
+      "url": "https://github.com/Neptune810/dsh-model-router/blob/2d00d8555854abcb4adf577ee59d2169518ca3d1/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@neptune810/dsh-model-router",
+          "command": "dsh plugin --profile web add @neptune810/dsh-model-router",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Neptune810/dsh-model-router",
+          "command": "dsh plugin --profile web add github:Neptune810/dsh-model-router",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@neptune810/dsh-model-router",
+      "version": "1.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Neptune810/dsh-model-router",
+        "commit": "2d00d8555854abcb4adf577ee59d2169518ca3d1"
+      },
+      "manifestSha256": "3783047b70bc73ccbd8ef25449a77067c59436ce30dcee5dfb213e167bc816f9",
+      "manifestUrl": "https://github.com/Neptune810/dsh-model-router/blob/2d00d8555854abcb4adf577ee59d2169518ca3d1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@neptune810/dsh-model-router",
+        "versions": [
+          {
+            "version": "1.1.2",
+            "publishTimestamp": 1794031183,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Neptune810/dsh-model-router",
+              "commit": "2d00d8555854abcb4adf577ee59d2169518ca3d1"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.2.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@neptune810/dsh-model-router",
+      "origin": "npm",
+      "name": "@neptune810/dsh-model-router",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@neptune810/dsh-model-router",
+        "title": "@neptune810/dsh-model-router",
+        "description": "Model router for DeepSeek Harness: keep a pool of models and every step is routed to one of them with its reasoning effort set — a click-only composer panel, three authorization scopes (a manual pick only counts in the scope that owns it, and effort scope is bound to the one model you choose), task presets with per-model weights, vision routing for image steps, session signals (todo, context pressure, token budget, subagents) and an optional semantic task classifier. Thinking stays on, because DeepSeek rejects a tool call made with thinking off.",
+        "author": "Neptune810",
+        "homepage": "https://github.com/Neptune810/dsh-model-router#readme",
+        "repository": {
+          "url": "https://github.com/Neptune810/dsh-model-router"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek",
+            "harness",
+            "plugin",
+            "cordis",
+            "model-router",
+            "reasoning-effort",
+            "flash",
+            "routing",
+            "model-pool",
+            "task-presets",
+            "vision-routing",
+            "composer-ui",
+            "task-classifier"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.1.2",
+            "publishTimestamp": 1794020419,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.2.0"
+            }
+          },
+          {
+            "version": "0.14.2",
+            "publishTimestamp": 1791110381,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c0fe2a8a037c72050b0e3ee1921918c63e4e63ecc0193b43f71759703ce4c6ea",
+      "evidence": [
+        {
+          "name": "@neptune810/dsh-model-router",
+          "version": "1.1.2",
+          "tarball": "https://registry.npmjs.org/@neptune810/dsh-model-router/-/dsh-model-router-1.1.2.tgz",
+          "integrity": "sha512-BGCqQMs7RuLsUoK7UViZ0DSpjY4YN0OxRQWJlr3FzRkJ4rck9AncFlevOcpIP3psbYhDgVQit1+VtjVlOxRf4Q=="
+        },
+        {
+          "name": "@neptune810/dsh-model-router",
+          "version": "0.14.2",
+          "tarball": "https://registry.npmjs.org/@neptune810/dsh-model-router/-/dsh-model-router-0.14.2.tgz",
+          "integrity": "sha512-vbARWUzpTuYUaBunnbX/vtoeMyNRod7nD/s98IiME/eg1HQwwvwsjODJQoJv3XaOinsp2qwB/IerpYTNfqLtZg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@neptune810/dsh-model-router",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Neptune810/dsh-model-router",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Neptune810/dsh-model-router",
+    "commit": "2d00d8555854abcb4adf577ee59d2169518ca3d1",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:07.719Z"
+}

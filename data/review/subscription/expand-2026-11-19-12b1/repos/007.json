@@ -1,0 +1,78 @@
+{
+  "full_name": "Rannist/balance-dsh",
+  "originalPosition": 7,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 7,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:47.039Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4beae2f73583ec231de5960fdc88341c7a12b46e295a613559f5735240b0d635",
+      "url": "https://github.com/Rannist/balance-dsh/blob/5a85a2f41c4de77fa9acd9ee002ee2423cbc734f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Rannist/balance-dsh",
+          "command": "dsh plugin --profile desktop add github:Rannist/balance-dsh",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "balance-dsh",
+      "version": "2.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Rannist/balance-dsh",
+        "commit": "5a85a2f41c4de77fa9acd9ee002ee2423cbc734f"
+      },
+      "manifestSha256": "526d2f0975de89fcb2333ad69f4f4a4ae9b332fd68a0086a45b289ed17e0e5fd",
+      "manifestUrl": "https://github.com/Rannist/balance-dsh/blob/5a85a2f41c4de77fa9acd9ee002ee2423cbc734f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "balance-dsh",
+        "versions": [
+          {
+            "version": "2.3.1",
+            "publishTimestamp": 1795018175,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Rannist/balance-dsh",
+              "commit": "5a85a2f41c4de77fa9acd9ee002ee2423cbc734f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Rannist/balance-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Rannist/balance-dsh",
+    "commit": "5a85a2f41c4de77fa9acd9ee002ee2423cbc734f",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:49.042Z"
+}

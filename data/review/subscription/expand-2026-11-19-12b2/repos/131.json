@@ -1,0 +1,143 @@
+{
+  "full_name": "acus9345/dsh-protect-generated-files",
+  "originalPosition": 131,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 131,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:51.469Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0e545fde2095ea3ccee36876d849579f85b66d4a66232c41cc0c7c559bec590e",
+      "url": "https://github.com/acus9345/dsh-protect-generated-files/blob/6c183245adf67a92ae8cf653f09c629c25d1aa6c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-protect-generated-files",
+          "command": "dsh plugin --profile web add dsh-protect-generated-files",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "a839d467befa96081d8eedfab2da7e1500e70f583212635dbf8c17fe93b52ae7",
+      "url": "https://github.com/acus9345/dsh-protect-generated-files/blob/6c183245adf67a92ae8cf653f09c629c25d1aa6c/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-protect-generated-files",
+          "command": "dsh plugin --profile web add dsh-protect-generated-files",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-protect-generated-files",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/acus9345/dsh-protect-generated-files",
+        "commit": "6c183245adf67a92ae8cf653f09c629c25d1aa6c"
+      },
+      "manifestSha256": "09267045abb870f46a945e9198e6ee26a4a70b43dac67481fdb72d79add3d288",
+      "manifestUrl": "https://github.com/acus9345/dsh-protect-generated-files/blob/6c183245adf67a92ae8cf653f09c629c25d1aa6c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-protect-generated-files",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1792846322,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/acus9345/dsh-protect-generated-files",
+              "commit": "6c183245adf67a92ae8cf653f09c629c25d1aa6c"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-protect-generated-files",
+      "origin": "npm",
+      "name": "dsh-protect-generated-files",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-protect-generated-files",
+        "title": "dsh-protect-generated-files",
+        "description": "DeepSeek Harness plugin that stops hand edits to generated files (lockfiles, protobuf/codegen output, files marked @generated or DO NOT EDIT) and tells the model which source to edit and what to run instead.",
+        "author": "acus9345",
+        "homepage": "https://github.com/acus9345/dsh-protect-generated-files#readme",
+        "repository": {
+          "url": "https://github.com/acus9345/dsh-protect-generated-files"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "agent",
+            "guard",
+            "codegen",
+            "generated",
+            "lockfile"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1792155698,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "da4ef68dc5327004eba71f0c497c1889ff169f2d3225015975a537518a72a7b0",
+      "evidence": [
+        {
+          "name": "dsh-protect-generated-files",
+          "version": "0.2.3",
+          "tarball": "https://registry.npmjs.org/dsh-protect-generated-files/-/dsh-protect-generated-files-0.2.3.tgz",
+          "integrity": "sha512-Qu27VsmGJqOF+BCqkGNTmrhDcurdOxmkfd8kaw0IelTYkPMhisrF26q31tJdenHkLwwjxfdwA7jQZIOCzSK5wQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-protect-generated-files",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/acus9345/dsh-protect-generated-files",
+    "commit": "6c183245adf67a92ae8cf653f09c629c25d1aa6c",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:53.832Z"
+}

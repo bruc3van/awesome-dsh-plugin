@@ -1,0 +1,77 @@
+{
+  "full_name": "appthin/dsh-skills-manager-plus",
+  "originalPosition": 141,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 141,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:54.337Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "72af458dcc37527d87b1dcfcd3bf1933006901dbd993cfa73a14183f2d95884d",
+      "url": "https://github.com/appthin/dsh-skills-manager-plus/blob/aef54323a2126375e26d84ab005d58680bf9bfd3/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e0f12971e424e49b57eb00dfdbb2ab9f8ea1546d72580cc29069d5c3d5289e31",
+      "url": "https://github.com/appthin/dsh-skills-manager-plus/blob/aef54323a2126375e26d84ab005d58680bf9bfd3/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skills-manager-plus",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/appthin/dsh-skills-manager-plus",
+        "commit": "aef54323a2126375e26d84ab005d58680bf9bfd3"
+      },
+      "manifestSha256": "7dc46ad6b965372c1a946f8c0ad536c07a12164ed3dbf0d36823820206ae3f05",
+      "manifestUrl": "https://github.com/appthin/dsh-skills-manager-plus/blob/aef54323a2126375e26d84ab005d58680bf9bfd3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-skills-manager-plus",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1794114455,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/appthin/dsh-skills-manager-plus",
+              "commit": "aef54323a2126375e26d84ab005d58680bf9bfd3"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/appthin/dsh-skills-manager-plus",
+    "commit": "aef54323a2126375e26d84ab005d58680bf9bfd3",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:56.532Z"
+}

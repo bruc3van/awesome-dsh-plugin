@@ -1,0 +1,29 @@
+{
+  "full_name": "jackuh105/dsh-message-edit",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:14.466Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/jackuh105/dsh-message-edit/git/commits/2b6d1c6f8a2bb02b00f1fe0c12797725b2d3ce2b\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D490:34BED:1171704:3830C5B:6AFEE7DA and timestamp 2026-11-19 12:13:14 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/jackuh105/dsh-message-edit",
+    "commit": "2b6d1c6f8a2bb02b00f1fe0c12797725b2d3ce2b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:14.987Z"
+}

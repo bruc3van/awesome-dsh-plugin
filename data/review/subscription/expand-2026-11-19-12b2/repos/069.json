@@ -1,0 +1,66 @@
+{
+  "full_name": "Streamfish-lab/dsh-splash-fish",
+  "originalPosition": 69,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 69,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:27.276Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1c44c31fe0fa41ec41c48f213df422b066aa96be0f83634d9ed0cdeada6e3c76",
+      "url": "https://github.com/Streamfish-lab/dsh-splash-fish/blob/e3400e6f6d8dfadcfb9cd2cbadf8bab2910eb596/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-splash-fish",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Streamfish-lab/dsh-splash-fish",
+        "commit": "e3400e6f6d8dfadcfb9cd2cbadf8bab2910eb596"
+      },
+      "manifestSha256": "9ffc3e61d25ab7b3a19d9877cea2860bef7cccbced239a8a1e1ea0d4fd029168",
+      "manifestUrl": "https://github.com/Streamfish-lab/dsh-splash-fish/blob/e3400e6f6d8dfadcfb9cd2cbadf8bab2910eb596/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-splash-fish",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1793639244,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Streamfish-lab/dsh-splash-fish",
+              "commit": "e3400e6f6d8dfadcfb9cd2cbadf8bab2910eb596"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Streamfish-lab/dsh-splash-fish",
+    "commit": "e3400e6f6d8dfadcfb9cd2cbadf8bab2910eb596",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:29.183Z"
+}

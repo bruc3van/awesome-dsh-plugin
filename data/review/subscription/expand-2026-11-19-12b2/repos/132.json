@@ -1,0 +1,144 @@
+{
+  "full_name": "acus9345/dsh-protect-tests",
+  "originalPosition": 132,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 132,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:51.652Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f8bf57e9ef680be76896143a00211a68b37ef8a3b5d37eae28c4c3075fab79b7",
+      "url": "https://github.com/acus9345/dsh-protect-tests/blob/a59e2da991667692e01fd40574474b7929774a27/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-protect-tests",
+          "command": "dsh plugin --profile web add dsh-protect-tests",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "1f3b8ae9d931d958670c4dcc2c3c0101e483eb62bfb04f1b74c6e8f9954728b9",
+      "url": "https://github.com/acus9345/dsh-protect-tests/blob/a59e2da991667692e01fd40574474b7929774a27/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-protect-tests",
+          "command": "dsh plugin --profile web add dsh-protect-tests",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-protect-tests",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/acus9345/dsh-protect-tests",
+        "commit": "a59e2da991667692e01fd40574474b7929774a27"
+      },
+      "manifestSha256": "a3b8322bca4bb8013914476f0839f9b71c24a4e36de57c9e4b14a136840d9bcf",
+      "manifestUrl": "https://github.com/acus9345/dsh-protect-tests/blob/a59e2da991667692e01fd40574474b7929774a27/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-protect-tests",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1792846322,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/acus9345/dsh-protect-tests",
+              "commit": "a59e2da991667692e01fd40574474b7929774a27"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-protect-tests",
+      "origin": "npm",
+      "name": "dsh-protect-tests",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-protect-tests",
+        "title": "dsh-protect-tests",
+        "description": "DeepSeek Harness plugin that catches an agent weakening tests to make them pass: added skips, deleted assertions or test cases, trivial asserts, swallowed failures, and deleted test files.",
+        "author": "acus9345",
+        "homepage": "https://github.com/acus9345/dsh-protect-tests#readme",
+        "repository": {
+          "url": "https://github.com/acus9345/dsh-protect-tests"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "agent",
+            "guard",
+            "testing",
+            "tests",
+            "reward-hacking",
+            "skip"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1792155849,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "061f0c49589dfcf6f0e7838c5e3bac536ebd5aaf5d748238576fb94b1c2be40c",
+      "evidence": [
+        {
+          "name": "dsh-protect-tests",
+          "version": "0.2.3",
+          "tarball": "https://registry.npmjs.org/dsh-protect-tests/-/dsh-protect-tests-0.2.3.tgz",
+          "integrity": "sha512-7Dx1Cs7qIGPc21fikHBsQQC8LgV7ZjKEEqfp2TpqrzPfz/3ylkvWXeqvCj4/KiUhAXk6QPHEJsUrfcSslVUuQA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-protect-tests",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/acus9345/dsh-protect-tests",
+    "commit": "a59e2da991667692e01fd40574474b7929774a27",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:54.077Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "Ebony-Vinyl/dsh-augment",
+  "originalPosition": 94,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 94,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:25.003Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "946da404e962288e332ca1bf66934fae4267ffe7a39356d87571f900d09375fa",
+      "url": "https://github.com/Ebony-Vinyl/dsh-augment/blob/776ac7df37754c4309938bed1571b90851a964e5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-augment",
+      "version": "0.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ebony-Vinyl/dsh-augment",
+        "commit": "776ac7df37754c4309938bed1571b90851a964e5"
+      },
+      "manifestSha256": "8977eafad8337fbfd44156a740da8adf80d79d037aa5a9cef1cead5c3cfb2976",
+      "manifestUrl": "https://github.com/Ebony-Vinyl/dsh-augment/blob/776ac7df37754c4309938bed1571b90851a964e5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-augment",
+        "versions": [
+          {
+            "version": "0.0.1",
+            "publishTimestamp": 1793411617,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ebony-Vinyl/dsh-augment",
+              "commit": "776ac7df37754c4309938bed1571b90851a964e5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ebony-Vinyl/dsh-augment",
+    "commit": "776ac7df37754c4309938bed1571b90851a964e5",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:26.955Z"
+}

@@ -1,0 +1,132 @@
+{
+  "full_name": "Aurum807/dsh-bilibili-video-summary",
+  "originalPosition": 66,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 66,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:13.100Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d45f50b15dd923df098e23687f7ebd597ca44c45d746841e7bb28a97f79172b3",
+      "url": "https://github.com/Aurum807/dsh-bilibili-video-summary/blob/e3103a36857d4d8e7d43e6f308d6035c1bacdc07/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-bilibili-video-summary",
+          "command": "dsh plugin --profile web add dsh-bilibili-video-summary",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bilibili-video-summary",
+      "version": "0.3.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Aurum807/dsh-bilibili-video-summary",
+        "commit": "e3103a36857d4d8e7d43e6f308d6035c1bacdc07"
+      },
+      "manifestSha256": "159dbc72ec4a8ef7d460569fb30e3afc4651aa93884f10ec469ec8ff8ae64718",
+      "manifestUrl": "https://github.com/Aurum807/dsh-bilibili-video-summary/blob/e3103a36857d4d8e7d43e6f308d6035c1bacdc07/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-bilibili-video-summary",
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1793793099,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Aurum807/dsh-bilibili-video-summary",
+              "commit": "e3103a36857d4d8e7d43e6f308d6035c1bacdc07"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-bilibili-video-summary",
+      "origin": "npm",
+      "name": "dsh-bilibili-video-summary",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-bilibili-video-summary",
+        "title": "dsh-bilibili-video-summary",
+        "description": "DSH 插件：发 B 站（或任意 yt-dlp 支持的站点）视频链接时自动准备可总结素材（转写 + 关键帧接触印相纸），并按方法论产出总结",
+        "homepage": "https://github.com/Aurum807/dsh-bilibili-video-summary#readme",
+        "repository": {
+          "url": "https://github.com/Aurum807/dsh-bilibili-video-summary"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "bilibili",
+            "video",
+            "summary",
+            "transcript"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1793793551,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0d8204ab62a6d3916b54ab4d5b3b009d2a79891a297c723b1de648514b3a765a",
+      "evidence": [
+        {
+          "name": "dsh-bilibili-video-summary",
+          "version": "0.3.4",
+          "tarball": "https://registry.npmjs.org/dsh-bilibili-video-summary/-/dsh-bilibili-video-summary-0.3.4.tgz",
+          "integrity": "sha512-MXbrbKcWFdVZnKrMvtBsBfnM/8d1FnqhAl1agCIbFxnPExLSbWQfKILNtK25eY+MTB86u8jhnRI7tRNVmTby+w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-bilibili-video-summary",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Aurum807/dsh-bilibili-video-summary",
+    "commit": "e3103a36857d4d8e7d43e6f308d6035c1bacdc07",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:15.244Z"
+}

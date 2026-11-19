@@ -1,0 +1,79 @@
+{
+  "full_name": "Lukeknow0/dsh-side-chat",
+  "originalPosition": 24,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 24,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:07.264Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2b884e1103bde9779a4433c1e51851c26635110ffe922a083373f5219202dbb1",
+      "url": "https://github.com/Lukeknow0/dsh-side-chat/blob/c4fb69a469803e0a94aab0b2f85fa8b3102c74e1/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "461df7b35032ee26fb30863a60746e37e058816551751c39916bc660adc5e026",
+      "url": "https://github.com/Lukeknow0/dsh-side-chat/blob/c4fb69a469803e0a94aab0b2f85fa8b3102c74e1/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@lukeknow0/dsh-side-chat",
+      "version": "1.0.0-rc.1",
+      "path": "packages/dsh-sidechat",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Lukeknow0/dsh-side-chat",
+        "commit": "c4fb69a469803e0a94aab0b2f85fa8b3102c74e1",
+        "path": "packages/dsh-sidechat"
+      },
+      "manifestSha256": "4c8b39896291b7f1b8cfe1e9f438a76f2ca7ca6b68c437005a995b70c6145857",
+      "manifestUrl": "https://github.com/Lukeknow0/dsh-side-chat/blob/c4fb69a469803e0a94aab0b2f85fa8b3102c74e1/packages/dsh-sidechat/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@lukeknow0/dsh-side-chat",
+        "versions": [
+          {
+            "version": "1.0.0-rc.1",
+            "publishTimestamp": 1790828905,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Lukeknow0/dsh-side-chat",
+              "commit": "c4fb69a469803e0a94aab0b2f85fa8b3102c74e1",
+              "path": "packages/dsh-sidechat"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Lukeknow0/dsh-side-chat",
+    "commit": "c4fb69a469803e0a94aab0b2f85fa8b3102c74e1",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:10.530Z"
+}

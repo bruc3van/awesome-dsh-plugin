@@ -1,0 +1,127 @@
+{
+  "full_name": "smj-1680/dsh-plugin-liquid-glass",
+  "originalPosition": 23,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 23,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:54.364Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6635cb8440e859a94753f7c9596d172ba1947a090828fc2037aeb60d03b7218e",
+      "url": "https://github.com/smj-1680/dsh-plugin-liquid-glass/blob/6d015b919f02b1a3b701f0eb09dee99bb339ca6c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-liquid-glass",
+          "command": "dsh plugin --profile desktop add dsh-plugin-liquid-glass",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-liquid-glass",
+      "version": "0.1.81",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/smj-1680/dsh-plugin-liquid-glass",
+        "commit": "6d015b919f02b1a3b701f0eb09dee99bb339ca6c"
+      },
+      "manifestSha256": "6e9e94383f12107d64d523742208d2a240088a21258ee20e8a2948fc5cf53cda",
+      "manifestUrl": "https://github.com/smj-1680/dsh-plugin-liquid-glass/blob/6d015b919f02b1a3b701f0eb09dee99bb339ca6c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-liquid-glass",
+        "versions": [
+          {
+            "version": "0.1.81",
+            "publishTimestamp": 1794319664,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/smj-1680/dsh-plugin-liquid-glass",
+              "commit": "6d015b919f02b1a3b701f0eb09dee99bb339ca6c"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-liquid-glass",
+      "origin": "npm",
+      "name": "dsh-plugin-liquid-glass",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-liquid-glass",
+        "title": "dsh-plugin-liquid-glass",
+        "description": "Liquid-glass beautification for DSH desktop: the composer, message bubbles, sidebar, top bar and menus get a liquid-glass material, and it works alongside wallpaper plugins. Dark mode only. · 适用于 DSH 桌面端的液态玻璃美化插件，输入框、消息气泡、侧栏与顶栏等主要界面元素改为液态玻璃材质，可搭配各类壁纸插件使用（需深色模式）。",
+        "author": "神猫君",
+        "homepage": "https://github.com/smj-1680/dsh-plugin-liquid-glass#readme",
+        "repository": {
+          "url": "https://github.com/smj-1680/dsh-plugin-liquid-glass"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "liquid-glass",
+            "glass",
+            "backdrop-filter",
+            "theme"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.81",
+            "publishTimestamp": 1794319698,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ca605607da0aaf7afa449b2a995a7877ed5c06ca1db69b51fcd190ca5fafb704",
+      "evidence": [
+        {
+          "name": "dsh-plugin-liquid-glass",
+          "version": "0.1.81",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-liquid-glass/-/dsh-plugin-liquid-glass-0.1.81.tgz",
+          "integrity": "sha512-kBoNvKL+MEkmKQmYdSCcYhBD/UsOPcsrWr42LhZkA2TeASIzthlUItw5FBTLk9zxv1U9CkbmlRiqP5E8h/qq1g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-liquid-glass",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/smj-1680/dsh-plugin-liquid-glass",
+    "commit": "6d015b919f02b1a3b701f0eb09dee99bb339ca6c",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:56.648Z"
+}

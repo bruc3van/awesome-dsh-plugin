@@ -1,0 +1,124 @@
+{
+  "full_name": "CyberryRe/lx_music-for-dsh",
+  "originalPosition": 84,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 84,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:20.182Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a8bb92c5e186b05630dfee24bd8d81994cdb24391289037c9700fa98ef83380d",
+      "url": "https://github.com/CyberryRe/lx_music-for-dsh/blob/27e56fc720e9887f4ff697e85e314089c0e7160f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "lx-music-for-dsh@latest",
+          "command": "dsh plugin --profile <你的profile> add lx-music-for-dsh@latest",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "lx-music-for-dsh",
+      "version": "1.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CyberryRe/lx_music-for-dsh",
+        "commit": "27e56fc720e9887f4ff697e85e314089c0e7160f"
+      },
+      "manifestSha256": "4403450187ae55642b84539db9e004930997767a76324c50dad1666157de75d6",
+      "manifestUrl": "https://github.com/CyberryRe/lx_music-for-dsh/blob/27e56fc720e9887f4ff697e85e314089c0e7160f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "lx-music-for-dsh",
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1791110671,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CyberryRe/lx_music-for-dsh",
+              "commit": "27e56fc720e9887f4ff697e85e314089c0e7160f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "lx-music-for-dsh@latest",
+      "origin": "npm",
+      "name": "lx-music-for-dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "lx-music-for-dsh",
+        "title": "lx-music-for-dsh",
+        "description": "LX Music 增强控制插件：内置音源引擎（SDK 搜索 + 音源脚本隔离子进程）、侧边栏迷你播放卡（音量调节 + 播放模式切换）、滚动歌词（逐字卡拉OK，五平台歌词 + 音源脚本 lyric）、系统媒体控件（SMTC）元数据与媒体键、细粒度 LLM 音乐工具集、设置窗口音源管理。（实验性音乐画像默认关闭；安装/更新后请彻底退出并重启 DSH 才会生效，已知问题下个大版本修复）",
+        "repository": {
+          "url": "https://github.com/CyberryRe/lx_music-for-dsh"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "lx-music",
+            "music",
+            "plugin",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1791111315,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9ca3b7f909dd424a84c58a3293f45496d3b39ab0af6514e50043b33710a422fe",
+      "evidence": [
+        {
+          "name": "lx-music-for-dsh",
+          "version": "1.3.0",
+          "tarball": "https://registry.npmjs.org/lx-music-for-dsh/-/lx-music-for-dsh-1.3.0.tgz",
+          "integrity": "sha512-w6dQImQk7mVQ7JsHRcUGYZPW93mEcG1YyO7rO1yn1gEJ6xlHL5J0iePS6TM6wZ8u14/W3eJnBnLYdQlHxB6n9Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "lx-music-for-dsh@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CyberryRe/lx_music-for-dsh",
+    "commit": "27e56fc720e9887f4ff697e85e314089c0e7160f",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:22.286Z"
+}

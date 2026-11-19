@@ -1,0 +1,142 @@
+{
+  "full_name": "HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio",
+  "originalPosition": 128,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 128,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:39.325Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fc059ffb69bffed0d3cfd5c4a916efbcc97fc59e499f121ee6ae86b081ebd1df",
+      "url": "https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio/blob/9566aee377ada2cb862e8bfd194b2d33bb4fe23c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/huanlinoto/dsh-plugin-better-sidebar-plugin-audio",
+          "command": "dsh plugin --profile web add \"github:huanlinoto/dsh-plugin-better-sidebar-plugin-audio\"",
+          "profile": "web"
+        },
+        {
+          "install": "@huanlin/dsh-plugin-better-sidebar-plugin-audio",
+          "command": "dsh plugin --profile web add \"@huanlin/dsh-plugin-better-sidebar-plugin-audio\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huanlin/dsh-plugin-better-sidebar-plugin-audio",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio",
+        "commit": "9566aee377ada2cb862e8bfd194b2d33bb4fe23c"
+      },
+      "manifestSha256": "3a32bc4bdcee989ecbe426be46384640dd304f92992d6f62aaffa0d85956280c",
+      "manifestUrl": "https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio/blob/9566aee377ada2cb862e8bfd194b2d33bb4fe23c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@huanlin/dsh-plugin-better-sidebar-plugin-audio",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794063921,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio",
+              "commit": "9566aee377ada2cb862e8bfd194b2d33bb4fe23c"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@huanlin/dsh-plugin-better-sidebar-plugin-audio",
+      "origin": "npm",
+      "name": "@huanlin/dsh-plugin-better-sidebar-plugin-audio",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@huanlin/dsh-plugin-better-sidebar-plugin-audio",
+        "title": {
+          "en": "Audio preview",
+          "zh": "音频预览"
+        },
+        "description": {
+          "en": "Sidebar audio player: a zoomable waveform (click/drag seek, A-B loop, playback rate, channel switch) plus a live spectrum (bars / line / waterfall), backed by its own HTTP Range media route so any size plays and seeks.",
+          "zh": "侧边栏音频播放器：可缩放波形（点击/拖拽定位、A-B 循环、倍速、声道切换）与实时频谱（柱状 / 折线 / 瀑布），自带 HTTP Range 媒体路由，任意大小文件都能边播边拖动。"
+        },
+        "repository": {
+          "url": "https://github.com/huanlinoto/dsh-plugin-better-sidebar-plugin-audio"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh-better-sidebar",
+            "deepseek-harness",
+            "audio",
+            "waveform",
+            "spectrum",
+            "file-viewer"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkF1ZGlvIHByZXZpZXciPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJkc2hBdWRpb0JnIiB4MT0iNCIgeTE9IjIiIHgyPSIzMiIgeTI9IjM0IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM2QkE0RkYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMkVEM0E2Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHJ4PSIxMCIgZmlsbD0idXJsKCNkc2hBdWRpb0JnKSIvPgogIDxnIGZpbGw9IiMwQjEyMjAiIGZpbGwtb3BhY2l0eT0iMC43NCI+CiAgICA8cmVjdCB4PSI3IiB5PSIxNSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSI2IiByeD0iMS4zIi8+CiAgICA8cmVjdCB4PSIxMS40IiB5PSIxMSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSIxNCIgcng9IjEuMyIvPgogICAgPHJlY3QgeD0iMTUuOCIgeT0iNyIgd2lkdGg9IjIuNiIgaGVpZ2h0PSIyMiIgcng9IjEuMyIvPgogICAgPHJlY3QgeD0iMjAuMiIgeT0iMTIiIHdpZHRoPSIyLjYiIGhlaWdodD0iMTIiIHJ4PSIxLjMiLz4KICAgIDxyZWN0IHg9IjI0LjYiIHk9IjE2IiB3aWR0aD0iMi42IiBoZWlnaHQ9IjQiIHJ4PSIxLjMiLz4KICA8L2c+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791289130,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "fd107900f80de061a7857b84ba3af15cff4cd1419224468bb1f632d8b3652300",
+      "evidence": [
+        {
+          "name": "@huanlin/dsh-plugin-better-sidebar-plugin-audio",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/@huanlin/dsh-plugin-better-sidebar-plugin-audio/-/dsh-plugin-better-sidebar-plugin-audio-0.1.0.tgz",
+          "integrity": "sha512-c7i3QlWljT+tb0I5VcU0DlmsL5WC6mo+6MSnnLudZF3h4MWe7jclcWXbSh09ZmqVXacaTqF396gfUtu9RLhIkg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/huanlinoto/dsh-plugin-better-sidebar-plugin-audio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@huanlin/dsh-plugin-better-sidebar-plugin-audio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio",
+    "commit": "9566aee377ada2cb862e8bfd194b2d33bb4fe23c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:41.524Z"
+}

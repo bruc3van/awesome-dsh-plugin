@@ -1,0 +1,29 @@
+{
+  "full_name": "Eridani075/deepseek-harness-antigravity-oauth",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:01.196Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/Eridani075/deepseek-harness-antigravity-oauth/git/commits/ed5213940c91e9b6e1a144ce51984664645dd2ff\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D429:10E880:114E776:37CCCFE:6AFEE7CD and timestamp 2026-11-19 12:13:01 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Eridani075/deepseek-harness-antigravity-oauth",
+    "commit": "ed5213940c91e9b6e1a144ce51984664645dd2ff",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:01.847Z"
+}

@@ -1,0 +1,163 @@
+{
+  "full_name": "xrn1997/dsh-novel",
+  "originalPosition": 26,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 26,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:56.455Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "52a781abd986c93927ffad37c6c39044bf19c68aa34392fe151fdaa48eb590d1",
+      "url": "https://github.com/xrn1997/dsh-novel/blob/20bfda70516121461d378e72261b3b42c1995121/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@xrn1997/dsh-novel",
+          "command": "dsh plugin --profile <profile> add @xrn1997/dsh-novel",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/xrn1997/dsh-novel/releases/latest/download/dsh-novel.tgz",
+          "command": "dsh plugin --profile <profile> add https://github.com/xrn1997/dsh-novel/releases/latest/download/dsh-novel.tgz",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "docs/adr/README.md",
+      "sha256": "45a3004250fbe0b3b0b9584afaf4299b601d819fa6ce495dd5fdb6086f3fa3e7",
+      "url": "https://github.com/xrn1997/dsh-novel/blob/20bfda70516121461d378e72261b3b42c1995121/docs/adr/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@xrn1997/dsh-novel",
+      "version": "0.11.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/xrn1997/dsh-novel",
+        "commit": "20bfda70516121461d378e72261b3b42c1995121"
+      },
+      "manifestSha256": "1383dc9e10155692c94a5278d75bf05b55637e817cb2e422ad0056c2b99a3a67",
+      "manifestUrl": "https://github.com/xrn1997/dsh-novel/blob/20bfda70516121461d378e72261b3b42c1995121/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@xrn1997/dsh-novel",
+        "versions": [
+          {
+            "version": "0.11.1",
+            "publishTimestamp": 1795074594,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/xrn1997/dsh-novel",
+              "commit": "20bfda70516121461d378e72261b3b42c1995121"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@xrn1997/dsh-novel",
+      "origin": "npm",
+      "name": "@xrn1997/dsh-novel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@xrn1997/dsh-novel",
+        "title": {
+          "en": "Novel",
+          "zh": "小说"
+        },
+        "description": {
+          "en": "Read web novels in DeepSeek Harness (DSH): import legado book sources, search across them, keep a bookshelf, read with continuous scrolling, and have it read aloud to you, with six AI assistant tools for search and reading.",
+          "zh": "在 DeepSeek Harness（DSH）里读网络小说：legado 书源导入、聚合搜索、书架与连续滚动阅读，也能让它念给你听，并提供六个 AI 助手工具。"
+        },
+        "author": "xrn1997",
+        "homepage": "https://github.com/xrn1997/dsh-novel#readme",
+        "repository": {
+          "url": "https://github.com/xrn1997/dsh-novel"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "novel",
+            "ebook",
+            "legado",
+            "reader"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PCEtLQogIOaPkuS7tuWNoeeJhy/nu4Tku7booYzlm77moIfvvIhwYWNrYWdlLmpzb24g6aG25bGCIGBpY29uYO+8m+Wuv+S4u+aMieWbvueJh+ivu++8jOS4jeWGheiBlCBIVE1M77yJ44CCCiAg5Li75L2T5rK/55So5L6n5qCP44CM5bCP6K+044CN6Z2i5p2/55qE44CM5Lmm44CN5a2X5b2i77yb6Lev5b6E5LiO5L6n5qCP57uE5Lu25YWx55SoIGBOT1ZFTF9HTFlQSF9QQVRIYAogIOWNleeCue+8jOmdmeaAgei1hOa6kOS4jeiDvSBpbXBvcnTvvIznlLEgcGFja2FnaW5nIOa1i+ivleWvuem9kOOAguWbvueJh+S4jee7p+aJvyBjdXJyZW50Q29sb3LvvIwKICDnlKggU1ZHIOWGhemDqOeahCBwcmVmZXJzLWNvbG9yLXNjaGVtZSDot5/pmo/lrr/kuLvmoLnoioLngrnnmoQgY29sb3Itc2NoZW1lCiAg77yIRFNIIOeahCBUaGVtZVByZXNlbnRlciDkvJrmjInop6PmnpDlkI7nmoTkuLvpopjlhpnlhaUgZG9jdW1lbnRFbGVtZW50LnN0eWxlLmNvbG9yU2NoZW1l77yJ44CCCi0tPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEwMjUgMTAyNSI+CiAgPHN0eWxlPgogICAgLmluayB7IGZpbGw6ICMyNDI3MkU7IH0KICAgIEBtZWRpYSAocHJlZmVycy1jb2xvci1zY2hlbWU6IGRhcmspIHsgLmluayB7IGZpbGw6ICNGMEYzRjg7IH0gfQogIDwvc3R5bGU+CiAgPHBhdGggY2xhc3M9ImluayIgZD0iTTQxMC43NCwxOS42bDgxLjcsMCAwLDE3MS41NCAzNDMuMDYsMCAtMjAuNDMsMjg1LjcgMTQyLjk0LDBjLTUuNDQsNjguMDggLTEwLjksMTQwLjI0IC0xNi4zNCwyMTYuNDYgLTUuNDQsMTE0LjM3IC02Mi42MiwxNzAuMTggLTE3MS41MiwxNjcuNDYgLTUxLjc0LDAgLTEwMC43NSwwIC0xNDcuMDIsMCAwLC0xMy42MiAtNS40NiwtNDAuODUgLTE2LjM0LC04MS42OCA1MS43MSw1LjQ0IDEwMi4wOCw4LjE2IDE1MS4xLDguMTYgNjguMDYsOC4xOCAxMDQuODIsLTI1Ljg2IDExMC4yNywtMTAyLjEgMi43MiwtNTEuNzMgNS40NCwtOTguMDIgOC4xNiwtMTM4Ljg2TDQ5Mi40Myw1NDYuMjdsMCw0MzIuOTEgLTgxLjcsMEw0MTAuNzQsNTQ2LjI3IDM5LjA5LDU0Ni4yN2wwLC02OS40NCAzNzEuNjUsMEw0MTAuNzQsMjY0LjY3IDEwNC40MywyNjQuNjdsMCwtNzMuNTQgMzA2LjMsMEw0MTAuNzQsMTkuNnpNNzQ5LjcxLDI2NC42N2wtMjU3LjI4LDAgMCwyMTIuMTYgMjQ1LjA0LDBMNzQ5LjcxLDI2NC42N3pNNzE2LjcyLDc2LjYybDUzLjEsLTUzLjFjODQuMzgsNTQuNDYgMTU2LjU0LDEwMy40NyAyMTYuNDUsMTQ3LjAybC01My4wOSw2NS4zNEM4ODkuNjIsMTk3Ljc4IDgxNy40NiwxNDQuNjkgNzE2LjcyLDc2LjYyeiIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.11.1",
+            "publishTimestamp": 1794796409,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8e882abae5a13006f1f0a5cd64d77232d9488b5635623094b9a773e38b296c2c",
+      "evidence": [
+        {
+          "name": "@xrn1997/dsh-novel",
+          "version": "0.11.1",
+          "tarball": "https://registry.npmjs.org/@xrn1997/dsh-novel/-/dsh-novel-0.11.1.tgz",
+          "integrity": "sha512-eTlInB4QU4upMO7b0vnchK21MX2zaOGAP3YzioTMyNqACDy3DIngfBIRH4L2ivI29i6lGoTQmvXQTt8fjVAkGQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/xrn1997/dsh-novel/releases/latest/download/dsh-novel.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@xrn1997/dsh-novel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/xrn1997/dsh-novel/releases/latest/download/dsh-novel.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/xrn1997/dsh-novel",
+    "commit": "20bfda70516121461d378e72261b3b42c1995121",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:59.483Z"
+}

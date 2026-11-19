@@ -1,0 +1,113 @@
+{
+  "full_name": "FuncWei/dsh-wechat-mp-studio",
+  "originalPosition": 111,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 111,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:33.312Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "840035a97f5dd3c48580305128aeab6cd8f0111afe696851b89c039d4b5a9bc7",
+      "url": "https://github.com/FuncWei/dsh-wechat-mp-studio/blob/d5341aeaaf67830f0193cd004ade402b99de93d9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/FuncWei/dsh-wechat-mp-studio",
+          "command": "dsh plugin --profile web add github:FuncWei/dsh-wechat-mp-studio",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-wechat-mp-studio",
+          "command": "dsh plugin --profile web add dsh-wechat-mp-studio",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "bf593d4c76f1e8b826d5dee33960f379ae3fc2d8469c2e36168fb4c910fb1075",
+      "url": "https://github.com/FuncWei/dsh-wechat-mp-studio/blob/d5341aeaaf67830f0193cd004ade402b99de93d9/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/FuncWei/dsh-wechat-mp-studio",
+          "command": "dsh plugin --profile web add github:FuncWei/dsh-wechat-mp-studio",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-wechat-mp-studio",
+          "command": "dsh plugin --profile web add dsh-wechat-mp-studio",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wechat-mp-studio",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FuncWei/dsh-wechat-mp-studio",
+        "commit": "d5341aeaaf67830f0193cd004ade402b99de93d9"
+      },
+      "manifestSha256": "29103eeabbffc81602b5825899620f530aca6ed6326714716fd3bfb66b3e8ce6",
+      "manifestUrl": "https://github.com/FuncWei/dsh-wechat-mp-studio/blob/d5341aeaaf67830f0193cd004ade402b99de93d9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-wechat-mp-studio",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1786869668,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/FuncWei/dsh-wechat-mp-studio",
+              "commit": "d5341aeaaf67830f0193cd004ade402b99de93d9"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-wechat-mp-studio",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/FuncWei/dsh-wechat-mp-studio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-wechat-mp-studio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FuncWei/dsh-wechat-mp-studio",
+    "commit": "d5341aeaaf67830f0193cd004ade402b99de93d9",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:35.660Z"
+}

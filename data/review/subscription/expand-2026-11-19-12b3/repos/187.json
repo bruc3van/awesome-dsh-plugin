@@ -1,0 +1,29 @@
+{
+  "full_name": "lemonhall/dsh-media-dock",
+  "originalPosition": 187,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 187,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:19.096Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/lemonhall/dsh-media-dock/git/commits/e4148fb30046abd4bfa4907f87a9d677f2a0d6aa\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D440:536E7:115C979:37D3B30:6AFEE7DF and timestamp 2026-11-19 12:13:19 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/lemonhall/dsh-media-dock",
+    "commit": "e4148fb30046abd4bfa4907f87a9d677f2a0d6aa",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:19.636Z"
+}

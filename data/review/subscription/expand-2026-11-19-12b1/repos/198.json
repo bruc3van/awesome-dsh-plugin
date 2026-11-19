@@ -1,0 +1,251 @@
+{
+  "full_name": "PerryLink/dsh-reach",
+  "originalPosition": 198,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 198,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:09.237Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "07ea589b14e5d726a633cd2785b02d1a5ea277d29b25903c178c7e117d41bc5b",
+      "url": "https://github.com/PerryLink/dsh-reach/blob/b3020755453b152a2fc21adff85f9fd64757a536/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-reach",
+          "command": "dsh plugin --profile <name> add dsh-reach",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-reach",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-reach",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-reach",
+          "command": "dsh plugin --profile web add dsh-reach",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-zh.md",
+      "sha256": "2b9bdba66c6fd593446d2745d9736f20ca8ab3979616ac7db2c0683cbbb3f638",
+      "url": "https://github.com/PerryLink/dsh-reach/blob/b3020755453b152a2fc21adff85f9fd64757a536/README-zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-reach",
+          "command": "dsh plugin --profile <name> add dsh-reach",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-reach",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-reach",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-reach",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-reach",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-es.md",
+      "sha256": "db40d6df8798dffbc1e54866540a8b37c3ee456098ee4852a47e8f5ccbad700b",
+      "url": "https://github.com/PerryLink/dsh-reach/blob/b3020755453b152a2fc21adff85f9fd64757a536/README-es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-reach",
+          "command": "dsh plugin --profile <name> add dsh-reach",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-reach",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-reach",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-reach",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-reach",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-pt.md",
+      "sha256": "6210523dea4e8f7137af6266829c20aa293339f88d27b1e7e9646b1211e44f71",
+      "url": "https://github.com/PerryLink/dsh-reach/blob/b3020755453b152a2fc21adff85f9fd64757a536/README-pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-reach",
+          "command": "dsh plugin --profile <name> add dsh-reach",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-reach",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-reach",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-reach",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-reach",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README-hi.md",
+      "sha256": "51aea22902cc686c694c09df83b3a8dd33da1318c2f6967bc55c5c6fc1bab044",
+      "url": "https://github.com/PerryLink/dsh-reach/blob/b3020755453b152a2fc21adff85f9fd64757a536/README-hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-reach",
+          "command": "dsh plugin --profile <name> add dsh-reach",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-reach",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-reach",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-reach",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-reach",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-reach",
+      "version": "0.1.25",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-reach",
+        "commit": "b3020755453b152a2fc21adff85f9fd64757a536"
+      },
+      "manifestSha256": "78b3e480e483c24814235949fa3838240fd502da50823faa148306148e7cc81a",
+      "manifestUrl": "https://github.com/PerryLink/dsh-reach/blob/b3020755453b152a2fc21adff85f9fd64757a536/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-reach",
+        "versions": [
+          {
+            "version": "0.1.25",
+            "publishTimestamp": 1795011423,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-reach",
+              "commit": "b3020755453b152a2fc21adff85f9fd64757a536"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-reach",
+      "origin": "npm",
+      "name": "dsh-reach",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-reach",
+        "title": "dsh-reach",
+        "description": "Multi-channel decision & remote-control bridge for DeepSeek Harness: pushes any workspace's approval/question cards to IM channels (WeChat iLink first) and answers them from chat, with a session console, per-channel security, and an open push service.",
+        "author": "PerryLink",
+        "homepage": "https://github.com/PerryLink/dsh-reach#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-reach"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "cordis",
+            "wechat",
+            "ilink",
+            "clawbot",
+            "im",
+            "bridge",
+            "approval",
+            "notify",
+            "remote-control"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1yZWFjaCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNCIgZmlsbD0iIzBmMTcyYSIvPjxjaXJjbGUgY3g9IjY0IiBjeT0iNjQiIHI9IjQ0IiBmaWxsPSJub25lIiBzdHJva2U9IiNhZjdkZTUiIHN0cm9rZS13aWR0aD0iNiIvPjx0ZXh0IHg9IjY0IiB5PSI3OCIgZmlsbD0iI2Y4ZmFmYyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InVpLW1vbm9zcGFjZSxtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMzgiIGZvbnQtd2VpZ2h0PSI3MDAiPlI8L3RleHQ+PC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.1.25",
+            "publishTimestamp": 1795008376,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6b92298db071e42123f2ee2e2aee3d2d9a2f37dc85b12ecd75d4219875d9369d",
+      "evidence": [
+        {
+          "name": "dsh-reach",
+          "version": "0.1.25",
+          "tarball": "https://registry.npmjs.org/dsh-reach/-/dsh-reach-0.1.25.tgz",
+          "integrity": "sha512-B2hHGGVVdOTjltgBkXKVItOqKtrmBFBBijRvzV7uOCbjgl0O/F3tRBr7GsyyiWApS1CGSKcdFWXA2TYDN/zUtA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-reach",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-reach",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-reach",
+    "commit": "b3020755453b152a2fc21adff85f9fd64757a536",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:12.834Z"
+}

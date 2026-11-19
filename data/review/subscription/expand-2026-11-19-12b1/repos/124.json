@@ -1,0 +1,105 @@
+{
+  "full_name": "Hilbert-beinghappy/dsh-plugin-clarify",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:37.577Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5e3bb2c1d531053ea6ed22a3ca796fff7082043ca9f4e11c316597212e5705fc",
+      "url": "https://github.com/Hilbert-beinghappy/dsh-plugin-clarify/blob/8bd3c24c413f3a293f5821beb1549cad06bd2f8e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Hilbert-beinghappy/dsh-plugin-clarify/releases/download/v0.2.1/dsh-plugin-clarify-0.2.1.tgz",
+          "command": "dsh plugin --profile tui add https://github.com/Hilbert-beinghappy/dsh-plugin-clarify/releases/download/v0.2.1/dsh-plugin-clarify-0.2.1.tgz",
+          "profile": "tui"
+        },
+        {
+          "install": "https://github.com/Hilbert-beinghappy/dsh-plugin-clarify/releases/download/v0.2.1/dsh-plugin-clarify-0.2.1.tgz",
+          "command": "dsh plugin --profile web add https://github.com/Hilbert-beinghappy/dsh-plugin-clarify/releases/download/v0.2.1/dsh-plugin-clarify-0.2.1.tgz",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Hilbert-beinghappy/dsh-plugin-clarify/releases/download/v0.2.2/dsh-plugin-clarify-0.2.2.tgz",
+          "command": "dsh plugin --profile web add https://github.com/Hilbert-beinghappy/dsh-plugin-clarify/releases/download/v0.2.2/dsh-plugin-clarify-0.2.2.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-clarify",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hilbert-beinghappy/dsh-plugin-clarify",
+        "commit": "8bd3c24c413f3a293f5821beb1549cad06bd2f8e"
+      },
+      "manifestSha256": "c539bec5caba58c564ebb67ced0c0495c72ab73115685ad56dcd944796e2badd",
+      "manifestUrl": "https://github.com/Hilbert-beinghappy/dsh-plugin-clarify/blob/8bd3c24c413f3a293f5821beb1549cad06bd2f8e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-clarify",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1787507843,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Hilbert-beinghappy/dsh-plugin-clarify",
+              "commit": "8bd3c24c413f3a293f5821beb1549cad06bd2f8e"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Hilbert-beinghappy/dsh-plugin-clarify/releases/download/v0.2.1/dsh-plugin-clarify-0.2.1.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    },
+    {
+      "target": "https://github.com/Hilbert-beinghappy/dsh-plugin-clarify/releases/download/v0.2.2/dsh-plugin-clarify-0.2.2.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Hilbert-beinghappy/dsh-plugin-clarify/releases/download/v0.2.1/dsh-plugin-clarify-0.2.1.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Hilbert-beinghappy/dsh-plugin-clarify/releases/download/v0.2.2/dsh-plugin-clarify-0.2.2.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hilbert-beinghappy/dsh-plugin-clarify",
+    "commit": "8bd3c24c413f3a293f5821beb1549cad06bd2f8e",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:39.398Z"
+}

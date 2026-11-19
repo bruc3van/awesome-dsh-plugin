@@ -1,0 +1,92 @@
+{
+  "full_name": "Hoemr/dsh-better-overleaf",
+  "originalPosition": 125,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 125,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:37.816Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "74682f0027155f9e2f73469bffc1a7c1a54f9c44d9a5eb442b31c16cec1c22b3",
+      "url": "https://github.com/Hoemr/dsh-better-overleaf/blob/faa32e8d74972865133145396355c987960a3a06/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-overleaf@0.2.4",
+          "command": "dsh plugin --profile desktop add dsh-better-overleaf@0.2.4",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-overleaf",
+      "version": "0.2.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hoemr/dsh-better-overleaf",
+        "commit": "faa32e8d74972865133145396355c987960a3a06"
+      },
+      "manifestSha256": "9ee129b133df86cf329bfdbffcc8d48b5d79f901233e102ac0787a502f369608",
+      "manifestUrl": "https://github.com/Hoemr/dsh-better-overleaf/blob/faa32e8d74972865133145396355c987960a3a06/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-better-overleaf",
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1790704140,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Hoemr/dsh-better-overleaf",
+              "commit": "faa32e8d74972865133145396355c987960a3a06"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-better-overleaf@0.2.4",
+      "origin": "npm",
+      "name": "dsh-better-overleaf",
+      "version": "0.2.4",
+      "code": "invalid_manifest",
+      "status": "invalid_manifest",
+      "reason": "missing or mismatched manifest",
+      "statusCode": "invalid_manifest",
+      "registrySha256": "f0c708e3ff8b44a26d84a4aa2d8f84e0bbc2f6ba280f397a642761b6542ce346"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-overleaf@0.2.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hoemr/dsh-better-overleaf",
+    "commit": "faa32e8d74972865133145396355c987960a3a06",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:39.798Z"
+}

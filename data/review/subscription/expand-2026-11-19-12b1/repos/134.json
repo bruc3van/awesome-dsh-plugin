@@ -1,0 +1,74 @@
+{
+  "full_name": "InkDemon911/dsh-theme-miyabi",
+  "originalPosition": 134,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 134,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:41.447Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0a1544a416fe039f3d42ebf7d29cd206a4e4b0801bb8526b513025c4c51e9b34",
+      "url": "https://github.com/InkDemon911/dsh-theme-miyabi/blob/f189b810ee62db6bca66d9acaa6cdadeabac3710/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "assets/README.md",
+      "sha256": "85e3f144a3eeb4d2fb9af7a0b09592c6e4a6f5d892e5948bb1b7599843b07479",
+      "url": "https://github.com/InkDemon911/dsh-theme-miyabi/blob/f189b810ee62db6bca66d9acaa6cdadeabac3710/assets/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-miyabi",
+      "version": "4.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/InkDemon911/dsh-theme-miyabi",
+        "commit": "f189b810ee62db6bca66d9acaa6cdadeabac3710"
+      },
+      "manifestSha256": "9521c00e534228f78b137c753389bfa485c90b3f974b8e2ff63f3f510a3b1c19",
+      "manifestUrl": "https://github.com/InkDemon911/dsh-theme-miyabi/blob/f189b810ee62db6bca66d9acaa6cdadeabac3710/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-theme-miyabi",
+        "versions": [
+          {
+            "version": "4.1.3",
+            "publishTimestamp": 1791052156,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/InkDemon911/dsh-theme-miyabi",
+              "commit": "f189b810ee62db6bca66d9acaa6cdadeabac3710"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/InkDemon911/dsh-theme-miyabi",
+    "commit": "f189b810ee62db6bca66d9acaa6cdadeabac3710",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:44.123Z"
+}

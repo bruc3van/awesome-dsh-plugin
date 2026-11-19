@@ -1,0 +1,66 @@
+{
+  "full_name": "Mahiru0427/dsh-vesna-theme",
+  "originalPosition": 167,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 167,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:56.155Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "18652c688c67869358e373adcd0715222c097dbc391f4e4a1d39ebd3ce291ad4",
+      "url": "https://github.com/Mahiru0427/dsh-vesna-theme/blob/1852deef122467180d76c32fb86ad62308f5f09f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-vesna-theme",
+      "version": "0.3.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Mahiru0427/dsh-vesna-theme",
+        "commit": "1852deef122467180d76c32fb86ad62308f5f09f"
+      },
+      "manifestSha256": "cb70ae58fbc9513de6144b0099fc1565437cc099d8e0c582c28616e3de37c356",
+      "manifestUrl": "https://github.com/Mahiru0427/dsh-vesna-theme/blob/1852deef122467180d76c32fb86ad62308f5f09f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-vesna-theme",
+        "versions": [
+          {
+            "version": "0.3.6",
+            "publishTimestamp": 1793714812,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Mahiru0427/dsh-vesna-theme",
+              "commit": "1852deef122467180d76c32fb86ad62308f5f09f"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mahiru0427/dsh-vesna-theme",
+    "commit": "1852deef122467180d76c32fb86ad62308f5f09f",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:58.053Z"
+}

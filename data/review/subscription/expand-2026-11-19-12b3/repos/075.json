@@ -1,0 +1,29 @@
+{
+  "full_name": "david-zdw/dsh-image-studio",
+  "originalPosition": 75,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 75,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:07.818Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/david-zdw/dsh-image-studio/git/commits/f0235f6a79b673d7b01b6e367c73f394b67799be\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D4A4:68254:1225524:3AA4BC2:6AFEE7D4 and timestamp 2026-11-19 12:13:08 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/david-zdw/dsh-image-studio",
+    "commit": "f0235f6a79b673d7b01b6e367c73f394b67799be",
+    "releaseTags": 62,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:08.407Z"
+}

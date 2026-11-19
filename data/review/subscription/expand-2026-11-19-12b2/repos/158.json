@@ -1,0 +1,148 @@
+{
+  "full_name": "better-er/dsh-write-rule-guard",
+  "originalPosition": 158,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 158,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:02.229Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d5a83484b910dcada7b76ad2228bd3a31b6551401a783562e72bf7c1376f9a55",
+      "url": "https://github.com/better-er/dsh-write-rule-guard/blob/95c3f4cb38377a8a86251415202f1b89ae889a5e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/better-er/dsh-write-rule-guard",
+          "command": "dsh plugin --profile web add github:better-er/dsh-write-rule-guard",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-write-rule-guard",
+          "command": "dsh plugin --profile web add dsh-write-rule-guard",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-write-rule-guard",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/better-er/dsh-write-rule-guard",
+        "commit": "95c3f4cb38377a8a86251415202f1b89ae889a5e"
+      },
+      "manifestSha256": "8bb71631ca5672ae85dfff1661d787164a5be784888374ecdaeb110c0605f508",
+      "manifestUrl": "https://github.com/better-er/dsh-write-rule-guard/blob/95c3f4cb38377a8a86251415202f1b89ae889a5e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-write-rule-guard",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1794469784,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/better-er/dsh-write-rule-guard",
+              "commit": "95c3f4cb38377a8a86251415202f1b89ae889a5e"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-write-rule-guard",
+      "origin": "npm",
+      "name": "dsh-write-rule-guard",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-write-rule-guard",
+        "title": "dsh-write-rule-guard",
+        "description": "「DSH·写入规则守卫」：禁止在 edit/write 写入内容中使用匹配正则的字符，extraTools 可额外配置拦截更多工具。可在设置页逐条开关规则，也可在会话视图的「写入规则」页只给当前会话关掉条目。",
+        "author": "betterer",
+        "repository": {
+          "url": "https://github.com/better-er/dsh-write-rule-guard"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "settings",
+            "fullwidth",
+            "paren",
+            "regex",
+            "edit",
+            "edit_remote",
+            "extraTools",
+            "write",
+            "write_remote",
+            "拦截"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1794469978,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3b4cf1fbc3d663b2b8d19ed9641cd8dd55bc6edd5442bfbf9e0e8b966818e48c",
+      "evidence": [
+        {
+          "name": "dsh-write-rule-guard",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-write-rule-guard/-/dsh-write-rule-guard-0.4.1.tgz",
+          "integrity": "sha512-JEne08cXult+E5qpfCm3RvbGMP2dYAg4GCJmt9RFd9sdmv064VNFqjNCHlIg/+EWbHdUuP4SQPG389JDhuuydw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/better-er/dsh-write-rule-guard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-write-rule-guard",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/better-er/dsh-write-rule-guard",
+    "commit": "95c3f4cb38377a8a86251415202f1b89ae889a5e",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:04.392Z"
+}

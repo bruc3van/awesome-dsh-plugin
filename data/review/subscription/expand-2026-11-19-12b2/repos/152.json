@@ -1,0 +1,77 @@
+{
+  "full_name": "beijingwahw/dsh-companion-enterprise",
+  "originalPosition": 152,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 152,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:59.919Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d3e493a9cf518aead4fcf96e53499c2bdb1fda7929a21a9ce2c4e072eb6e4998",
+      "url": "https://github.com/beijingwahw/dsh-companion-enterprise/blob/363e8be7df31fbe7a6b09282bbd4b79e1af415dd/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "5e55751b2113e2d172eb29bd51ad1fb23810d22ec42290ef3d3a4fc51f7e1849",
+      "url": "https://github.com/beijingwahw/dsh-companion-enterprise/blob/363e8be7df31fbe7a6b09282bbd4b79e1af415dd/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-companion-enterprise",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/beijingwahw/dsh-companion-enterprise",
+        "commit": "363e8be7df31fbe7a6b09282bbd4b79e1af415dd"
+      },
+      "manifestSha256": "2bb98d2b32005e84b22dd25ac898d252610a7c5f822a1656bf697ede5afbe06a",
+      "manifestUrl": "https://github.com/beijingwahw/dsh-companion-enterprise/blob/363e8be7df31fbe7a6b09282bbd4b79e1af415dd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-companion-enterprise",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788386531,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/beijingwahw/dsh-companion-enterprise",
+              "commit": "363e8be7df31fbe7a6b09282bbd4b79e1af415dd"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/beijingwahw/dsh-companion-enterprise",
+    "commit": "363e8be7df31fbe7a6b09282bbd4b79e1af415dd",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:02.227Z"
+}

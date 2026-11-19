@@ -1,0 +1,101 @@
+{
+  "full_name": "FuSheng-cs/Trae2api-dsh",
+  "originalPosition": 110,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 110,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:31.679Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c4f7d86f2b1f2941e59bfd06fc3a6cc2e30a5d629a244f3d0035237fe6196aa2",
+      "url": "https://github.com/FuSheng-cs/Trae2api-dsh/blob/7750117025c1f76b9db8f590479242a8dddc78a4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/FuSheng-cs/Trae2api-dsh/releases/latest/download/trae2api-dsh.tgz",
+          "command": "dsh plugin --profile web add https://github.com/FuSheng-cs/Trae2api-dsh/releases/latest/download/trae2api-dsh.tgz",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "25b688619cf279652623be40d521ea180696e364d689ceb3abaaded15a6dd76c",
+      "url": "https://github.com/FuSheng-cs/Trae2api-dsh/blob/7750117025c1f76b9db8f590479242a8dddc78a4/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/FuSheng-cs/Trae2api-dsh/releases/latest/download/trae2api-dsh.tgz",
+          "command": "dsh plugin --profile web add https://github.com/FuSheng-cs/Trae2api-dsh/releases/latest/download/trae2api-dsh.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "trae2api-dsh",
+      "version": "1.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FuSheng-cs/Trae2api-dsh",
+        "commit": "7750117025c1f76b9db8f590479242a8dddc78a4"
+      },
+      "manifestSha256": "87beb6cbbd8e88fe8dda85e05e13f2b0a383f5a9d1356608fb8323d33e4967b2",
+      "manifestUrl": "https://github.com/FuSheng-cs/Trae2api-dsh/blob/7750117025c1f76b9db8f590479242a8dddc78a4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-alpha.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "trae2api-dsh",
+        "versions": [
+          {
+            "version": "1.3.1",
+            "publishTimestamp": 1792237681,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/FuSheng-cs/Trae2api-dsh",
+              "commit": "7750117025c1f76b9db8f590479242a8dddc78a4"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.2.1-0 || >=0.2.1-alpha.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/FuSheng-cs/Trae2api-dsh/releases/latest/download/trae2api-dsh.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/FuSheng-cs/Trae2api-dsh/releases/latest/download/trae2api-dsh.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FuSheng-cs/Trae2api-dsh",
+    "commit": "7750117025c1f76b9db8f590479242a8dddc78a4",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:33.983Z"
+}

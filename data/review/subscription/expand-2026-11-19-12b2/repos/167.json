@@ -1,0 +1,66 @@
+{
+  "full_name": "caelricluo/dsh-peer",
+  "originalPosition": 167,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 167,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:06.374Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8838ca84387135f6ce7379ea265612bbceddb427f8f183049add3da128e5e39c",
+      "url": "https://github.com/caelricluo/dsh-peer/blob/e6cc6dd025c859ff93a261e8a54b35ffaf707ed2/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@caelricluo/dsh-peer",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/caelricluo/dsh-peer",
+        "commit": "e6cc6dd025c859ff93a261e8a54b35ffaf707ed2"
+      },
+      "manifestSha256": "7d29a28783d6f794da5b1c131bbbeaea61d7ca338bf556376d05e23148d8d12e",
+      "manifestUrl": "https://github.com/caelricluo/dsh-peer/blob/e6cc6dd025c859ff93a261e8a54b35ffaf707ed2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@caelricluo/dsh-peer",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1792717449,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/caelricluo/dsh-peer",
+              "commit": "e6cc6dd025c859ff93a261e8a54b35ffaf707ed2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/caelricluo/dsh-peer",
+    "commit": "e6cc6dd025c859ff93a261e8a54b35ffaf707ed2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:08.382Z"
+}

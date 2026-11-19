@@ -1,0 +1,81 @@
+{
+  "full_name": "Icstick/dsh-adaptive-context",
+  "originalPosition": 132,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 132,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:40.153Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "473d5dec5a7039aad47c1cc0f1196beed56f33571a99604589c7f9b1900a99b7",
+      "url": "https://github.com/Icstick/dsh-adaptive-context/blob/7fe010a81b8ed5ec2d8e6aaf6a5a39918b39436f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Icstick/dsh-adaptive-context",
+          "command": "dsh plugin --profile <profile> add github:Icstick/dsh-adaptive-context",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-adaptive-context",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Icstick/dsh-adaptive-context",
+        "commit": "7fe010a81b8ed5ec2d8e6aaf6a5a39918b39436f"
+      },
+      "manifestSha256": "b8c207cade691d448b971344e30f9a592e8d48410d91cbec0693da928a5e6044",
+      "manifestUrl": "https://github.com/Icstick/dsh-adaptive-context/blob/7fe010a81b8ed5ec2d8e6aaf6a5a39918b39436f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-alpha.0 <1.0.0 >=0.1.0-rc.8 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-adaptive-context",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1794049150,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Icstick/dsh-adaptive-context",
+              "commit": "7fe010a81b8ed5ec2d8e6aaf6a5a39918b39436f"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-alpha.0 <1.0.0 >=0.1.0-rc.8 <0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Icstick/dsh-adaptive-context",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Icstick/dsh-adaptive-context",
+    "commit": "7fe010a81b8ed5ec2d8e6aaf6a5a39918b39436f",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:42.029Z"
+}

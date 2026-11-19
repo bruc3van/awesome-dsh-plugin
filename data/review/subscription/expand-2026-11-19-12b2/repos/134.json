@@ -1,0 +1,532 @@
+{
+  "full_name": "ai-eks/dsh-auth-tunnel",
+  "originalPosition": 134,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 134,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:52.183Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ae6b91c6b870c9d530377edbc282ea139c2b8f960fbe6d3071fe457b4a84c5a9",
+      "url": "https://github.com/ai-eks/dsh-auth-tunnel/blob/cf3558ec4f12df74bf1ac067e885a6797e80a8f5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-auth-tunnel@next",
+          "command": "dsh plugin --profile web add dsh-auth-tunnel@next",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ai-eks/dsh-auth-tunnel",
+          "command": "dsh plugin --profile web add github:ai-eks/dsh-auth-tunnel",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ai-eks/dsh-auth-tunnel#6e521da3a4899849937411dd1c341369205c96d6",
+          "command": "dsh plugin --profile web add 'github:ai-eks/dsh-auth-tunnel#6e521da3a4899849937411dd1c341369205c96d6'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ai-eks/dsh-auth-tunnel#v0.1.0-rc.8",
+          "command": "dsh plugin --profile web add 'github:ai-eks/dsh-auth-tunnel#v0.1.0-rc.8'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ai-eks/dsh-auth-tunnel#b4baea7c47f5c245da789d3553d41938df89b311",
+          "command": "dsh plugin --profile web add 'github:ai-eks/dsh-auth-tunnel#b4baea7c47f5c245da789d3553d41938df89b311'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ai-eks/dsh-auth-tunnel#v0.1.0-rc.6",
+          "command": "dsh plugin --profile web add 'github:ai-eks/dsh-auth-tunnel#v0.1.0-rc.6'",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auth-tunnel@0.2.0-rc.2",
+          "command": "dsh plugin --profile web add dsh-auth-tunnel@0.2.0-rc.2",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auth-tunnel@0.1.7-rc.1",
+          "command": "dsh plugin --profile web add dsh-auth-tunnel@0.1.7-rc.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auth-tunnel@0.1.5-rc.1",
+          "command": "dsh plugin --profile web add dsh-auth-tunnel@0.1.5-rc.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auth-tunnel@0.1.1-rc.2.1",
+          "command": "dsh plugin --profile web add dsh-auth-tunnel@0.1.1-rc.2.1",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "f43fb301034d946a417e8bdd66ef58a9309bc89813761efec58555ea20094404",
+      "url": "https://github.com/ai-eks/dsh-auth-tunnel/blob/cf3558ec4f12df74bf1ac067e885a6797e80a8f5/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-auth-tunnel@next",
+          "command": "dsh plugin --profile web add dsh-auth-tunnel@next",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ai-eks/dsh-auth-tunnel",
+          "command": "dsh plugin --profile web add github:ai-eks/dsh-auth-tunnel",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ai-eks/dsh-auth-tunnel#6e521da3a4899849937411dd1c341369205c96d6",
+          "command": "dsh plugin --profile web add 'github:ai-eks/dsh-auth-tunnel#6e521da3a4899849937411dd1c341369205c96d6'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ai-eks/dsh-auth-tunnel#v0.1.0-rc.8",
+          "command": "dsh plugin --profile web add 'github:ai-eks/dsh-auth-tunnel#v0.1.0-rc.8'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ai-eks/dsh-auth-tunnel#b4baea7c47f5c245da789d3553d41938df89b311",
+          "command": "dsh plugin --profile web add 'github:ai-eks/dsh-auth-tunnel#b4baea7c47f5c245da789d3553d41938df89b311'",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ai-eks/dsh-auth-tunnel#v0.1.0-rc.6",
+          "command": "dsh plugin --profile web add 'github:ai-eks/dsh-auth-tunnel#v0.1.0-rc.6'",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auth-tunnel@0.2.0-rc.2",
+          "command": "dsh plugin --profile web add dsh-auth-tunnel@0.2.0-rc.2",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auth-tunnel@0.1.7-rc.1",
+          "command": "dsh plugin --profile web add dsh-auth-tunnel@0.1.7-rc.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auth-tunnel@0.1.5-rc.1",
+          "command": "dsh plugin --profile web add dsh-auth-tunnel@0.1.5-rc.1",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-auth-tunnel@0.1.1-rc.2.1",
+          "command": "dsh plugin --profile web add dsh-auth-tunnel@0.1.1-rc.2.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-auth-tunnel",
+      "version": "0.2.2-rc.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ai-eks/dsh-auth-tunnel",
+        "commit": "cf3558ec4f12df74bf1ac067e885a6797e80a8f5"
+      },
+      "manifestSha256": "d2d143f0e366b38f4610d7390fb4907f8c5a15a96b64b2cb344d7899aadef0f3",
+      "manifestUrl": "https://github.com/ai-eks/dsh-auth-tunnel/blob/cf3558ec4f12df74bf1ac067e885a6797e80a8f5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-auth-tunnel",
+        "versions": [
+          {
+            "version": "0.2.2-rc.1",
+            "publishTimestamp": 1794229717,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ai-eks/dsh-auth-tunnel",
+              "commit": "cf3558ec4f12df74bf1ac067e885a6797e80a8f5"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-auth-tunnel@next",
+      "origin": "npm",
+      "name": "dsh-auth-tunnel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auth-tunnel",
+        "title": "dsh-auth-tunnel",
+        "description": "Password-gated public access for the Web GUI via Cloudflare Tunnel: a loopback password gate (login page + HMAC cookie) in front of the webserver, published by spawning cloudflared in quick or named-tunnel mode - tells the shell and the model the public URL",
+        "homepage": "https://github.com/ai-eks/dsh-auth-tunnel#readme",
+        "repository": {
+          "url": "https://github.com/ai-eks/dsh-auth-tunnel"
+        },
+        "versions": [
+          {
+            "version": "0.2.2-rc.1",
+            "publishTimestamp": 1794230006,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9fe5c6b5a674e5c06806be5bdae69e3aa2e715ae492a0c1de9f5f4e4d87b6ba2",
+      "evidence": [
+        {
+          "name": "dsh-auth-tunnel",
+          "version": "0.2.2-rc.1",
+          "tarball": "https://registry.npmjs.org/dsh-auth-tunnel/-/dsh-auth-tunnel-0.2.2-rc.1.tgz",
+          "integrity": "sha512-VTgIYUITYo9yc0salanGn9ac0d/R8LX9mgBVG4gmYagoPXRAupNeKbLxYGaF//zqfNQ1ALTa/1FcDioOId0Wng=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/ai-eks/dsh-auth-tunnel#6e521da3a4899849937411dd1c341369205c96d6",
+      "origin": "git_target",
+      "name": "dsh-auth-tunnel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auth-tunnel",
+        "title": "dsh-auth-tunnel",
+        "description": "Password-gated public access for the Web GUI via Cloudflare Tunnel: a loopback password gate (login page + HMAC cookie) in front of the webserver, published by spawning cloudflared in quick or named-tunnel mode - tells the shell and the model the public URL",
+        "homepage": "https://github.com/ai-eks/dsh-auth-tunnel#readme",
+        "repository": {
+          "url": "https://github.com/ai-eks/dsh-auth-tunnel"
+        },
+        "versions": [
+          {
+            "version": "0.1.7-rc.1",
+            "publishTimestamp": 1790317216,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ai-eks/dsh-auth-tunnel",
+              "commit": "6e521da3a4899849937411dd1c341369205c96d6"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "6e521da3a4899849937411dd1c341369205c96d6",
+          "name": "dsh-auth-tunnel",
+          "version": "0.1.7-rc.1",
+          "url": "https://github.com/ai-eks/dsh-auth-tunnel",
+          "manifestSha256": "ed4e6d035013c0ce5ac88ef460e812ed68520be317c347f21bd5148ec352a7c9",
+          "publishTimestamp": 1790317216
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/ai-eks/dsh-auth-tunnel#v0.1.0-rc.8",
+      "origin": "git_target",
+      "name": "dsh-auth-tunnel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auth-tunnel",
+        "title": "dsh-auth-tunnel",
+        "description": "Password-gated public access for the Web GUI via Cloudflare Tunnel: a loopback password gate (login page + HMAC cookie) in front of the webserver, published by spawning cloudflared in quick or named-tunnel mode - tells the shell and the model the public URL",
+        "homepage": "https://github.com/ai-eks/dsh-auth-tunnel#readme",
+        "repository": {
+          "url": "https://github.com/ai-eks/dsh-auth-tunnel"
+        },
+        "versions": [
+          {
+            "version": "0.1.0-rc.8",
+            "publishTimestamp": 1787202339,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ai-eks/dsh-auth-tunnel",
+              "commit": "b791495ace54ef82d2793e6f88f86465ed6433af"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.8"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "b791495ace54ef82d2793e6f88f86465ed6433af",
+          "name": "dsh-auth-tunnel",
+          "version": "0.1.0-rc.8",
+          "url": "https://github.com/ai-eks/dsh-auth-tunnel",
+          "manifestSha256": "cd07d6c6fb85ac7981910671787fa5b1b656a1816b6b6c154330efdcea6a9b03",
+          "publishTimestamp": 1787202339
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/ai-eks/dsh-auth-tunnel#b4baea7c47f5c245da789d3553d41938df89b311",
+      "origin": "git_target",
+      "path": "",
+      "commit": "b4baea7c47f5c245da789d3553d41938df89b311",
+      "name": "dsh-auth-tunnel",
+      "version": "0.1.0-rc.7",
+      "code": "private_package",
+      "status": "invalid_manifest",
+      "reason": "包声明 private: true，不作为可订阅插件收录"
+    },
+    {
+      "target": "https://github.com/ai-eks/dsh-auth-tunnel#v0.1.0-rc.6",
+      "origin": "git_target",
+      "path": "",
+      "commit": "e4793a1a153d5ba95dbc98eda799bfe01379751c",
+      "name": "dsh-auth-tunnel",
+      "version": "0.1.0-rc.6",
+      "code": "private_package",
+      "status": "invalid_manifest",
+      "reason": "包声明 private: true，不作为可订阅插件收录"
+    },
+    {
+      "target": "dsh-auth-tunnel@0.2.0-rc.2",
+      "origin": "npm",
+      "name": "dsh-auth-tunnel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auth-tunnel",
+        "title": "dsh-auth-tunnel",
+        "description": "Password-gated public access for the Web GUI via Cloudflare Tunnel: a loopback password gate (login page + HMAC cookie) in front of the webserver, published by spawning cloudflared in quick or named-tunnel mode - tells the shell and the model the public URL",
+        "homepage": "https://github.com/ai-eks/dsh-auth-tunnel#readme",
+        "repository": {
+          "url": "https://github.com/ai-eks/dsh-auth-tunnel"
+        },
+        "versions": [
+          {
+            "version": "0.2.0-rc.2",
+            "publishTimestamp": 1791429629,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9fe5c6b5a674e5c06806be5bdae69e3aa2e715ae492a0c1de9f5f4e4d87b6ba2",
+      "evidence": [
+        {
+          "name": "dsh-auth-tunnel",
+          "version": "0.2.0-rc.2",
+          "tarball": "https://registry.npmjs.org/dsh-auth-tunnel/-/dsh-auth-tunnel-0.2.0-rc.2.tgz",
+          "integrity": "sha512-XP7OPsy9i3dSSpS8vfWoEt60aN7MzOELd0it8kFVU9dHqwnH0rPSGWA8G+cKST7Zpfa3vf7sk0WRrXCbIgt6Aw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-auth-tunnel@0.1.7-rc.1",
+      "origin": "npm",
+      "name": "dsh-auth-tunnel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auth-tunnel",
+        "title": "dsh-auth-tunnel",
+        "description": "Password-gated public access for the Web GUI via Cloudflare Tunnel: a loopback password gate (login page + HMAC cookie) in front of the webserver, published by spawning cloudflared in quick or named-tunnel mode - tells the shell and the model the public URL",
+        "homepage": "https://github.com/ai-eks/dsh-auth-tunnel#readme",
+        "repository": {
+          "url": "https://github.com/ai-eks/dsh-auth-tunnel"
+        },
+        "versions": [
+          {
+            "version": "0.1.7-rc.1",
+            "publishTimestamp": 1790250111,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9fe5c6b5a674e5c06806be5bdae69e3aa2e715ae492a0c1de9f5f4e4d87b6ba2",
+      "evidence": [
+        {
+          "name": "dsh-auth-tunnel",
+          "version": "0.1.7-rc.1",
+          "tarball": "https://registry.npmjs.org/dsh-auth-tunnel/-/dsh-auth-tunnel-0.1.7-rc.1.tgz",
+          "integrity": "sha512-6MRIi1lyeqWeUCAw6QZY2/biz1XIWYKjs0IzBPkIIPP/GHSyJRd4T48rKpv7nPNbdCdqbmNvpPXdZ83jkvXu7g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "dsh-auth-tunnel@0.1.5-rc.1",
+      "origin": "npm",
+      "name": "dsh-auth-tunnel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auth-tunnel",
+        "title": "dsh-auth-tunnel",
+        "description": "Password-gated public access for the Web GUI via Cloudflare Tunnel: a loopback password gate (login page + HMAC cookie) in front of the webserver, published by spawning cloudflared in quick or named-tunnel mode - tells the shell and the model the public URL",
+        "homepage": "https://github.com/ai-eks/dsh-auth-tunnel#readme",
+        "repository": {
+          "url": "https://github.com/ai-eks/dsh-auth-tunnel"
+        },
+        "versions": [
+          {
+            "version": "0.1.5-rc.1",
+            "publishTimestamp": 1789100906,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1 || ^0.1.3-alpha.2 || ^0.1.5-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9fe5c6b5a674e5c06806be5bdae69e3aa2e715ae492a0c1de9f5f4e4d87b6ba2",
+      "evidence": [
+        {
+          "name": "dsh-auth-tunnel",
+          "version": "0.1.5-rc.1",
+          "tarball": "https://registry.npmjs.org/dsh-auth-tunnel/-/dsh-auth-tunnel-0.1.5-rc.1.tgz",
+          "integrity": "sha512-oeveF5OvswLdjGZbdXRsAYsKA8qax/E3Z6jXagPE9gh9D0lSPbONUI67cJHB8kLo75vPLtLwktvwTPLvcM2+og=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    },
+    {
+      "target": "dsh-auth-tunnel@0.1.1-rc.2.1",
+      "origin": "npm",
+      "name": "dsh-auth-tunnel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-auth-tunnel",
+        "title": "dsh-auth-tunnel",
+        "description": "Password-gated public access for the Web GUI via Cloudflare Tunnel: a loopback password gate (login page + HMAC cookie) in front of the webserver, published by spawning cloudflared in quick or named-tunnel mode - tells the shell and the model the public URL",
+        "homepage": "https://github.com/ai-eks/dsh-auth-tunnel#readme",
+        "repository": {
+          "url": "https://github.com/ai-eks/dsh-auth-tunnel"
+        },
+        "versions": [
+          {
+            "version": "0.1.1-rc.2.1",
+            "publishTimestamp": 1787393769,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9fe5c6b5a674e5c06806be5bdae69e3aa2e715ae492a0c1de9f5f4e4d87b6ba2",
+      "evidence": [
+        {
+          "name": "dsh-auth-tunnel",
+          "version": "0.1.1-rc.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-auth-tunnel/-/dsh-auth-tunnel-0.1.1-rc.2.1.tgz",
+          "integrity": "sha512-a3rFrpYnSuZO+4UxzPNjx5WwkSBOmzWIyD8z9LZBMSIkLhrD32jP6YWUx16k3KoNPq1pCCeYimcdsSuLJExk/w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-auth-tunnel@next",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ai-eks/dsh-auth-tunnel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ai-eks/dsh-auth-tunnel#6e521da3a4899849937411dd1c341369205c96d6",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ai-eks/dsh-auth-tunnel#v0.1.0-rc.8",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ai-eks/dsh-auth-tunnel#b4baea7c47f5c245da789d3553d41938df89b311",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ai-eks/dsh-auth-tunnel#v0.1.0-rc.6",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-auth-tunnel@0.2.0-rc.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-auth-tunnel@0.1.7-rc.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-auth-tunnel@0.1.5-rc.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-auth-tunnel@0.1.1-rc.2.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ai-eks/dsh-auth-tunnel",
+    "commit": "cf3558ec4f12df74bf1ac067e885a6797e80a8f5",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:00.154Z"
+}

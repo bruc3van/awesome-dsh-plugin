@@ -1,0 +1,139 @@
+{
+  "full_name": "boogoo619/dsh-focus-overlay",
+  "originalPosition": 162,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 162,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:04.249Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7880fdd9cd78d910e64abdb92bab424a5fac6ee55dbd971c5d96343ba238a3ee",
+      "url": "https://github.com/boogoo619/dsh-focus-overlay/blob/4b0d6683278e40e408a77868e8bd251218175374/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-focus-overlay",
+          "command": "dsh plugin --profile web add dsh-focus-overlay",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/boogoo619/dsh-focus-overlay",
+          "command": "dsh plugin --profile web add github:boogoo619/dsh-focus-overlay",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-focus-overlay",
+      "version": "0.13.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/boogoo619/dsh-focus-overlay",
+        "commit": "4b0d6683278e40e408a77868e8bd251218175374"
+      },
+      "manifestSha256": "9bdb7d0ffe550d329827c5a9d1cb7ab10aa6ba8955f73de2b16058b46b1f1d24",
+      "manifestUrl": "https://github.com/boogoo619/dsh-focus-overlay/blob/4b0d6683278e40e408a77868e8bd251218175374/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-focus-overlay",
+        "versions": [
+          {
+            "version": "0.13.2",
+            "publishTimestamp": 1794648222,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/boogoo619/dsh-focus-overlay",
+              "commit": "4b0d6683278e40e408a77868e8bd251218175374"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-focus-overlay",
+      "origin": "npm",
+      "name": "dsh-focus-overlay",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-focus-overlay",
+        "title": "dsh-focus-overlay",
+        "description": "Focus Mode for the dsh web GUI: a full-screen reading overlay that hides chrome and folds the AI tool-call flow into summaries, reusing the official Markdown / image primitives.",
+        "repository": {
+          "url": "https://github.com/boogoo619/dsh-focus-overlay"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "focus-mode",
+            "bundle"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.13.2",
+            "publishTimestamp": 1794648404,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "306bfa93dd63664367cd55cfe2229e43020cd2aff14a098e595c2ce3bb3b7ee5",
+      "evidence": [
+        {
+          "name": "dsh-focus-overlay",
+          "version": "0.13.2",
+          "tarball": "https://registry.npmjs.org/dsh-focus-overlay/-/dsh-focus-overlay-0.13.2.tgz",
+          "integrity": "sha512-mE8COlKZ0pLkl6e/geZQZkmp/pMZS8AbaLKVIf9b1YYt+5qwWh/RbsJrg519stVFyqkufaG8jvb8w9IJUZI2BA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-focus-overlay",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/boogoo619/dsh-focus-overlay",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/boogoo619/dsh-focus-overlay",
+    "commit": "4b0d6683278e40e408a77868e8bd251218175374",
+    "releaseTags": 25,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:06.373Z"
+}

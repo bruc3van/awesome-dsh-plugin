@@ -1,0 +1,40 @@
+{
+  "full_name": "AllDurham/foreman-dsh",
+  "originalPosition": 55,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 55,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:08.709Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1219ac1b1ee71267ed2438e3ea2bf9b349e19125895a6b0d32041721c636b682",
+      "url": "https://github.com/AllDurham/foreman-dsh/blob/7b359c38ec98c6533f215f51bf807f768680a84f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AllDurham/foreman-dsh",
+    "commit": "7b359c38ec98c6533f215f51bf807f768680a84f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:07:10.536Z"
+}

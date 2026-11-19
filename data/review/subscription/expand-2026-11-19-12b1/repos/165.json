@@ -1,0 +1,85 @@
+{
+  "full_name": "MCviseron/dsh-matlab-mcp",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:55.436Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9ad8060b9dc4ad5fe34e85110c690bc736e46cdb286c57ff1a779d19561bf580",
+      "url": "https://github.com/MCviseron/dsh-matlab-mcp/blob/c4e052b1170a61d69461601de2e1754786db3806/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "043cbfe3038f390f045663e4a90abfe83dcd5dd0ea70362c5590db6b4ef4612e",
+      "url": "https://github.com/MCviseron/dsh-matlab-mcp/blob/c4e052b1170a61d69461601de2e1754786db3806/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "deploy/README.md",
+      "sha256": "ba4a06cf153645c2d634688a1f2c97f9f2c380351671bedda894daa257114324",
+      "url": "https://github.com/MCviseron/dsh-matlab-mcp/blob/c4e052b1170a61d69461601de2e1754786db3806/deploy/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-matlab-mcp",
+      "version": "0.9.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MCviseron/dsh-matlab-mcp",
+        "commit": "c4e052b1170a61d69461601de2e1754786db3806"
+      },
+      "manifestSha256": "fd7df25185b31058f76020e24a989102df7a5f8bfdff06e6a0b6c6478a274dab",
+      "manifestUrl": "https://github.com/MCviseron/dsh-matlab-mcp/blob/c4e052b1170a61d69461601de2e1754786db3806/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2 || ^0.1.5-rc.2 || ^0.2.0-rc.2 || ^0.2.1-rc.2 || ^0.2.2-rc.1 || ^0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-matlab-mcp",
+        "versions": [
+          {
+            "version": "0.9.7",
+            "publishTimestamp": 1794706461,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MCviseron/dsh-matlab-mcp",
+              "commit": "c4e052b1170a61d69461601de2e1754786db3806"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2 || ^0.1.5-rc.2 || ^0.2.0-rc.2 || ^0.2.1-rc.2 || ^0.2.2-rc.1 || ^0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MCviseron/dsh-matlab-mcp",
+    "commit": "c4e052b1170a61d69461601de2e1754786db3806",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:58.196Z"
+}

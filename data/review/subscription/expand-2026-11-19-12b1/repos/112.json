@@ -1,0 +1,146 @@
+{
+  "full_name": "FuzzySoul/dsh-chatvoice",
+  "originalPosition": 112,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 112,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:33.573Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "056d08388fe8f9e378aeb33cc1f566d4101b44f9d7840c25bca0fe07981f4ede",
+      "url": "https://github.com/FuzzySoul/dsh-chatvoice/blob/3911aba9f7a008bd086b2c306c489dfc0ffbe1c6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chatvoice",
+          "command": "dsh plugin --profile web add dsh-chatvoice",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "08de043b66f24e8861e9d354d6b07344dfb9bc3843460991797b1889f237ea29",
+      "url": "https://github.com/FuzzySoul/dsh-chatvoice/blob/3911aba9f7a008bd086b2c306c489dfc0ffbe1c6/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chatvoice",
+          "command": "dsh plugin --profile web add dsh-chatvoice",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chatvoice",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FuzzySoul/dsh-chatvoice",
+        "commit": "3911aba9f7a008bd086b2c306c489dfc0ffbe1c6"
+      },
+      "manifestSha256": "a44af9055ec5c07d9e11bb2547990a1d6623fbc2f860ad86b00302b294941cf9",
+      "manifestUrl": "https://github.com/FuzzySoul/dsh-chatvoice/blob/3911aba9f7a008bd086b2c306c489dfc0ffbe1c6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-chatvoice",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1786855939,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/FuzzySoul/dsh-chatvoice",
+              "commit": "3911aba9f7a008bd086b2c306c489dfc0ffbe1c6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-chatvoice",
+      "origin": "npm",
+      "name": "dsh-chatvoice",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-chatvoice",
+        "title": "dsh-chatvoice",
+        "description": "ChatVoice — free voice input + AI reply read-aloud for DeepSeek Harness (dsh). Zero config, zero cost, no API key, built on the browser's native Web Speech API. 给 DSH 装上「免费、免 API key、开箱即用」的语音输入 + 回复朗读闭环（中文优先）。",
+        "author": "FuzzySoul",
+        "homepage": "https://github.com/FuzzySoul/dsh-chatvoice#readme",
+        "repository": {
+          "url": "https://github.com/FuzzySoul/dsh-chatvoice"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "plugin",
+            "voice",
+            "speech",
+            "tts",
+            "speech-recognition",
+            "speech-synthesis",
+            "voice-input",
+            "read-aloud",
+            "free",
+            "zh-CN"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1786855037,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "47a47fdf40b559b54cfd1b672260bfbd12ebda82a7a78bde40ce194ddcd3b005",
+      "evidence": [
+        {
+          "name": "dsh-chatvoice",
+          "version": "0.1.7",
+          "tarball": "https://registry.npmjs.org/dsh-chatvoice/-/dsh-chatvoice-0.1.7.tgz",
+          "integrity": "sha512-QUR8biVjKlfJxEhW8J+WnoVq2jSzUB14DxEb9LdiXj50EiL68f4y27oGRF2CVCiBlTHlVpSTtDbjWJCXt5hpaA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-chatvoice",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FuzzySoul/dsh-chatvoice",
+    "commit": "3911aba9f7a008bd086b2c306c489dfc0ffbe1c6",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:36.066Z"
+}

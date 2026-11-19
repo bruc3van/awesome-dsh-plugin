@@ -1,0 +1,29 @@
+{
+  "full_name": "km5473/dsh-customizable-theme",
+  "originalPosition": 175,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 175,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:17.935Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/km5473/dsh-customizable-theme/git/commits/8721d8c2718380043f84cd61e1d8e49ea56bddb4\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D431:27D3EF:11C9F0D:39546D8:6AFEE7DE and timestamp 2026-11-19 12:13:18 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/km5473/dsh-customizable-theme",
+    "commit": "8721d8c2718380043f84cd61e1d8e49ea56bddb4",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:18.562Z"
+}

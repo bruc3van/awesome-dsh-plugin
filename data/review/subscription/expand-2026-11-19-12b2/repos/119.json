@@ -1,0 +1,78 @@
+{
+  "full_name": "Zhuang-A/dsh-go-sensei",
+  "originalPosition": 119,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 119,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:46.597Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2354b72ea5d03612248152577a36afb2bfd65d3215400457ab27b6c32708e52a",
+      "url": "https://github.com/Zhuang-A/dsh-go-sensei/blob/b206647cbf634d7142fad9c767e6d65e9b1442bf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Zhuang-A/dsh-go-sensei",
+          "command": "dsh plugin --profile web add github:Zhuang-A/dsh-go-sensei",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-go-sensei",
+      "version": "0.2.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Zhuang-A/dsh-go-sensei",
+        "commit": "b206647cbf634d7142fad9c767e6d65e9b1442bf"
+      },
+      "manifestSha256": "f51851fd38e2a86b5503bf4f46102995c3de3e87425110b566de2a81941b3423",
+      "manifestUrl": "https://github.com/Zhuang-A/dsh-go-sensei/blob/b206647cbf634d7142fad9c767e6d65e9b1442bf/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-go-sensei",
+        "versions": [
+          {
+            "version": "0.2.14",
+            "publishTimestamp": 1792255084,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Zhuang-A/dsh-go-sensei",
+              "commit": "b206647cbf634d7142fad9c767e6d65e9b1442bf"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Zhuang-A/dsh-go-sensei",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zhuang-A/dsh-go-sensei",
+    "commit": "b206647cbf634d7142fad9c767e6d65e9b1442bf",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:48.495Z"
+}

@@ -1,0 +1,126 @@
+{
+  "full_name": "DDDMUC/dsh-markdown-bubble",
+  "originalPosition": 85,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 85,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:20.774Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "247ed6c214bc5f56c5763dae13b3ee4990fcfb0cc1a63080bf639ff1bce1aabf",
+      "url": "https://github.com/DDDMUC/dsh-markdown-bubble/blob/6d5097aea3a2f971cdbded0ad5e64eb0acfae22d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-markdown-bubble",
+          "command": "dsh plugin --profile web add dsh-markdown-bubble",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-markdown-bubble",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DDDMUC/dsh-markdown-bubble",
+        "commit": "6d5097aea3a2f971cdbded0ad5e64eb0acfae22d"
+      },
+      "manifestSha256": "fc69afb39ee0513d133b2da89399371fc13e76d4dc2968625e0ae5af985c30f1",
+      "manifestUrl": "https://github.com/DDDMUC/dsh-markdown-bubble/blob/6d5097aea3a2f971cdbded0ad5e64eb0acfae22d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-markdown-bubble",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794598263,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DDDMUC/dsh-markdown-bubble",
+              "commit": "6d5097aea3a2f971cdbded0ad5e64eb0acfae22d"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-markdown-bubble",
+      "origin": "npm",
+      "name": "dsh-markdown-bubble",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-markdown-bubble",
+        "title": "dsh-markdown-bubble",
+        "description": "Markdown rendering for DeepSeek Harness sent user messages: every message bubble renders lists, code, tables, quotes and inline formatting through the host's own Markdown pipeline, while queues, previews and the composer keep their plain projection.",
+        "repository": {
+          "url": "https://github.com/DDDMUC/dsh-markdown-bubble"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "markdown",
+            "user-message",
+            "bubble",
+            "chat",
+            "render"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794598498,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6713b43ff9c90db1ee5ad4419636ebcf3e42b2f1f07baad3af34eac75bc6fca4",
+      "evidence": [
+        {
+          "name": "dsh-markdown-bubble",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-markdown-bubble/-/dsh-markdown-bubble-0.2.1.tgz",
+          "integrity": "sha512-4xHn/hXZTDjuVsQXsIoIlAHXCWOoJ8DEE1KNbXe+lfTTBqhU0eD3rgORiKVOUPk710GO/Mw9uTTG3nzmyIvHQQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-markdown-bubble",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DDDMUC/dsh-markdown-bubble",
+    "commit": "6d5097aea3a2f971cdbded0ad5e64eb0acfae22d",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:22.986Z"
+}

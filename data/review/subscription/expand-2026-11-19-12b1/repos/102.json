@@ -1,0 +1,163 @@
+{
+  "full_name": "FAVKTOXIC/dsh-theme-liquid-glass",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:28.961Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "136586dd959dc76913113c0c4ea937eaa758c2e2cd1d2777d67b4c6e094fb841",
+      "url": "https://github.com/FAVKTOXIC/dsh-theme-liquid-glass/blob/1482dae64bbb0bafd09c2667e24c5679e12a77df/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-theme-liquid-glass",
+          "command": "dsh plugin --profile desktop add dsh-theme-liquid-glass",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-theme-liquid-glass",
+          "command": "dsh plugin add --profile web dsh-theme-liquid-glass",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c98d23b821c9b39ab0ff74c987deaeb9b5bf5f87ada69823646a8deb08d32d07",
+      "url": "https://github.com/FAVKTOXIC/dsh-theme-liquid-glass/blob/1482dae64bbb0bafd09c2667e24c5679e12a77df/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-theme-liquid-glass",
+          "command": "dsh plugin --profile desktop add dsh-theme-liquid-glass",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-theme-liquid-glass",
+          "command": "dsh plugin add --profile web dsh-theme-liquid-glass",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-theme-liquid-glass",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FAVKTOXIC/dsh-theme-liquid-glass",
+        "commit": "1482dae64bbb0bafd09c2667e24c5679e12a77df"
+      },
+      "manifestSha256": "ec5c9e4e4776f93ba59bd0ca37f5b08383325ba02c947be811b7da4423d40d7b",
+      "manifestUrl": "https://github.com/FAVKTOXIC/dsh-theme-liquid-glass/blob/1482dae64bbb0bafd09c2667e24c5679e12a77df/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.2-rc.1 || ^0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-theme-liquid-glass",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1792869693,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/FAVKTOXIC/dsh-theme-liquid-glass",
+              "commit": "1482dae64bbb0bafd09c2667e24c5679e12a77df"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1 || ^0.2.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-theme-liquid-glass",
+      "origin": "npm",
+      "name": "dsh-theme-liquid-glass",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-theme-liquid-glass",
+        "title": "dsh-theme-liquid-glass",
+        "description": "Liquid-glass theme for DeepSeek Harness (web GUI and desktop app): SVG edge refraction on the composer, bubbles, dock, menus and sidebar; translucent token overrides driven by live sliders; custom or built-in animated wallpapers; and desktop chrome extras such as the session bar merged into the system title bar and a fullscreen button.",
+        "author": "dsh-theme-liquid-glass contributors",
+        "homepage": "https://github.com/FAVKTOXIC/dsh-theme-liquid-glass#readme",
+        "repository": {
+          "url": "https://github.com/FAVKTOXIC/dsh-theme-liquid-glass"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "deepseek-harness-desktop",
+            "dsh",
+            "dsh-plugin",
+            "dsh-theme",
+            "plugin",
+            "theme",
+            "liquid-glass",
+            "frosted-glass",
+            "glass",
+            "wallpaper",
+            "desktop",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1792794152,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1 || ^0.2.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9db310b9ac6372aea02acc7fa87a86f0468e3c1bd9f02f6bece7c857553c71c5",
+      "evidence": [
+        {
+          "name": "dsh-theme-liquid-glass",
+          "version": "0.5.0",
+          "tarball": "https://registry.npmjs.org/dsh-theme-liquid-glass/-/dsh-theme-liquid-glass-0.5.0.tgz",
+          "integrity": "sha512-sARZtMStUF93nlhD6dEf3ievYnngW9ggCTrZheWTDGXtccd2Bl47dMXPMZOoGMCo5vM/g/zLNZvlWqjX2iCDjg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-theme-liquid-glass",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/FAVKTOXIC/dsh-theme-liquid-glass",
+    "commit": "1482dae64bbb0bafd09c2667e24c5679e12a77df",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:31.390Z"
+}

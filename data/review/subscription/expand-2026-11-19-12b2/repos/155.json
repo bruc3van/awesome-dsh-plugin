@@ -1,0 +1,213 @@
+{
+  "full_name": "bennett-dsh/dsh-plugin-usage",
+  "originalPosition": 155,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 155,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:00.774Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e49272a970a75105d75f56f7baabdcf08b037169b57377d23ee37244ed48a297",
+      "url": "https://github.com/bennett-dsh/dsh-plugin-usage/blob/08a45c29f965156732454dc3b7e581a484c5a4de/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-usage",
+          "command": "dsh plugin --profile <name> add dsh-plugin-usage",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/bennett-dsh/dsh-plugin-usage#v0.6.0",
+          "command": "dsh plugin --profile web add github:bennett-dsh/dsh-plugin-usage#v0.6.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "cf7f949fd8ff434e3a7dd7c42ce1f6ba8da9e3f696db2561ac3384504ed99658",
+      "url": "https://github.com/bennett-dsh/dsh-plugin-usage/blob/08a45c29f965156732454dc3b7e581a484c5a4de/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-usage",
+          "command": "dsh plugin --profile <name> add dsh-plugin-usage",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/bennett-dsh/dsh-plugin-usage#v0.6.0",
+          "command": "dsh plugin --profile web add github:bennett-dsh/dsh-plugin-usage#v0.6.0",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "9618767b445ffe13b50f25f40788b0bcbf59184490d78dc7b510a3355a0393de",
+      "url": "https://github.com/bennett-dsh/dsh-plugin-usage/blob/08a45c29f965156732454dc3b7e581a484c5a4de/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-usage",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bennett-dsh/dsh-plugin-usage",
+        "commit": "08a45c29f965156732454dc3b7e581a484c5a4de"
+      },
+      "manifestSha256": "4145d90129aba04f8cd1ffcfc4fd89203c7d37ca46ba47dff601469f23d4c242",
+      "manifestUrl": "https://github.com/bennett-dsh/dsh-plugin-usage/blob/08a45c29f965156732454dc3b7e581a484c5a4de/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-usage",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1795058913,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bennett-dsh/dsh-plugin-usage",
+              "commit": "08a45c29f965156732454dc3b7e581a484c5a4de"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-usage",
+      "origin": "npm",
+      "name": "dsh-plugin-usage",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-usage",
+        "title": {
+          "en": "Usage Statistics",
+          "de": "Nutzungsstatistik",
+          "es": "Estadísticas de uso",
+          "fr": "Statistiques d’usage",
+          "ja": "使用状況",
+          "pt": "Estatísticas de uso",
+          "ru": "Статистика использования",
+          "zh": "用量统计"
+        },
+        "description": {
+          "en": "Token usage, call counts and reference cost by day and by model, with model filters, price matching and a yearly heatmap.",
+          "de": "Token-Nutzung, Aufrufe und Referenzkosten nach Tag und Modell, mit Modellfilter, Preiszuordnung und Jahres-Heatmap.",
+          "es": "Uso de tokens, llamadas y coste de referencia por día y por modelo, con filtro de modelos, asignación de precios y mapa de calor anual.",
+          "fr": "Usage des jetons, appels et coût de référence par jour et par modèle, avec filtre de modèles, correspondance des prix et carte de chaleur annuelle.",
+          "ja": "Token の使用量・呼び出し回数・参考コストを日別・モデル別に表示。モデル絞り込み、価格マッチング、年間ヒートマップに対応。",
+          "pt": "Uso de tokens, chamadas e custo de referência por dia e por modelo, com filtro de modelos, correspondência de preços e mapa de calor anual.",
+          "ru": "Расход токенов, вызовы и справочная стоимость по дням и моделям, с фильтром моделей, сопоставлением цен и годовой тепловой картой.",
+          "zh": "按天、按模型查看 Token、调用次数与参考成本，支持模型筛选、定价匹配与年度热力图。"
+        },
+        "homepage": "https://github.com/bennett-dsh/dsh-plugin-usage",
+        "repository": {
+          "url": "https://github.com/bennett-dsh/dsh-plugin-usage"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "harness",
+            "plugin",
+            "usage",
+            "token",
+            "statistics",
+            "cost"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlVzYWdlIHN0YXRpc3RpY3MiPg0KICA8ZGVmcz4NCiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InVzYWdlLWJhcnMiIHgxPSI4IiB5MT0iNy41IiB4Mj0iMjgiIHkyPSIyOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzY3QzdGRSIvPg0KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjM0Y3N0Q4Ii8+DQogICAgPC9saW5lYXJHcmFkaWVudD4NCiAgPC9kZWZzPg0KICA8cmVjdCB4PSI4IiB5PSIyMC41IiB3aWR0aD0iNS41IiBoZWlnaHQ9IjcuNSIgcng9IjIuNCIgZmlsbD0idXJsKCN1c2FnZS1iYXJzKSIvPg0KICA8cmVjdCB4PSIxNS4yNSIgeT0iMTQiIHdpZHRoPSI1LjUiIGhlaWdodD0iMTQiIHJ4PSIyLjQiIGZpbGw9InVybCgjdXNhZ2UtYmFycykiLz4NCiAgPHJlY3QgeD0iMjIuNSIgeT0iNy41IiB3aWR0aD0iNS41IiBoZWlnaHQ9IjIwLjUiIHJ4PSIyLjQiIGZpbGw9InVybCgjdXNhZ2UtYmFycykiLz4NCjwvc3ZnPg0K",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1795058366,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3 <0.3.0"
+            }
+          },
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1792787158,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1785467077c1a31eb75fc2a4b27bd03e41cfb77ee9e2e7912f5909047712975d",
+      "evidence": [
+        {
+          "name": "dsh-plugin-usage",
+          "version": "0.7.0",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-usage/-/dsh-plugin-usage-0.7.0.tgz",
+          "integrity": "sha512-uQ8AO2JCGA4yMMe3LBJwYwyN9qRSkWpkE/IaQ2CgbzR0lbm7ue4BUc+3yRcji90lgJYcBWGt+NGeplWqYearZg=="
+        },
+        {
+          "name": "dsh-plugin-usage",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-usage/-/dsh-plugin-usage-0.4.0.tgz",
+          "integrity": "sha512-65XsSMdze8AK9T89Q/zlj1omjSPj6oLNfX7MBiEAYPHkQDISd2iQeh+xe5ov0UkxjY/6woTzv4Xoio/IH8zjpQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-usage",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/bennett-dsh/dsh-plugin-usage#v0.6.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "install_target",
+      "target": "https://github.com/bennett-dsh/dsh-plugin-usage#v0.6.0",
+      "reason": "Command failed: gh api --hostname github.com repos/bennett-dsh/dsh-plugin-usage/git/blobs/e107b7925f5a2e1026adcdf46962ad218f6b82b5\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D44A:289AF4:90B60F:1D318FC:6AFEE75C and timestamp 2026-11-19 12:11:08 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/bennett-dsh/dsh-plugin-usage",
+    "commit": "08a45c29f965156732454dc3b7e581a484c5a4de",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:11:08.649Z"
+}

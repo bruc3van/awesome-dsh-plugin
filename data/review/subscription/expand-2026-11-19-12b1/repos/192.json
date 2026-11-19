@@ -1,0 +1,149 @@
+{
+  "full_name": "Num86/dsh-functions",
+  "originalPosition": 192,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 192,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:05.620Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b54b0d46a590de772fb11148b7b81ac3d329a4ee6f0a0ad6415bc8462778c8c4",
+      "url": "https://github.com/Num86/dsh-functions/blob/ec157aa6d9e54cf7644e21b6475bc0582b8f2c77/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-functions",
+          "command": "dsh plugin --profile desktop add dsh-functions",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Num86/dsh-functions",
+          "command": "dsh plugin --profile desktop add github:Num86/dsh-functions",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/Num86/dsh-functions",
+          "command": "dsh plugin add github:Num86/dsh-functions",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-functions",
+      "version": "0.5.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Num86/dsh-functions",
+        "commit": "ec157aa6d9e54cf7644e21b6475bc0582b8f2c77"
+      },
+      "manifestSha256": "8cf0e5101838f8fb0d55c2c9b2b439f172c94907746881eea8aa2800aa0c6d5c",
+      "manifestUrl": "https://github.com/Num86/dsh-functions/blob/ec157aa6d9e54cf7644e21b6475bc0582b8f2c77/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-functions",
+        "versions": [
+          {
+            "version": "0.5.2",
+            "publishTimestamp": 1792864284,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Num86/dsh-functions",
+              "commit": "ec157aa6d9e54cf7644e21b6475bc0582b8f2c77"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-functions",
+      "origin": "npm",
+      "name": "dsh-functions",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-functions",
+        "title": {
+          "en": "Functions bar",
+          "zh": "功能栏"
+        },
+        "description": {
+          "en": "Adds a Functions tab to the DSH title bar where plugins register one-click actions.",
+          "zh": "给 DSH 客户端顶端加一个「功能」标签：插件注册一下就能往里加一键功能，用户点一下就能用。"
+        },
+        "author": "Num86",
+        "homepage": "https://github.com/Num86/dsh-functions#readme",
+        "repository": {
+          "url": "https://github.com/Num86/dsh-functions"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "functions",
+            "menu",
+            "命令面板",
+            "restart"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiByeD0iMTUiIGZpbGw9IiMxNDFEMkUiLz4KICA8cmVjdCB4PSIyLjc1IiB5PSIyLjc1IiB3aWR0aD0iNTguNSIgaGVpZ2h0PSI1OC41IiByeD0iMTQuMjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzJDM0E1MiIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICA8cmVjdCB4PSIxMiIgeT0iMTIiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjUiIGZpbGw9IiNFQUYwRjgiLz4KICA8cmVjdCB4PSIzNCIgeT0iMTIiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjUiIGZpbGw9IiNFQUYwRjgiLz4KICA8cmVjdCB4PSIxMiIgeT0iMzQiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjUiIGZpbGw9IiNFQUYwRjgiLz4KICA8cmVjdCB4PSIzNCIgeT0iMzQiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjUiIGZpbGw9IiMzOEJERjgiLz4KICA8cGF0aCBkPSJNNDMgMzkuNHY3LjJNMzkuNCA0M2g3LjIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBDMTYyMiIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.5.2",
+            "publishTimestamp": 1792864374,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cd4718386c0155f26f1f9243c371b2252b22876c7f0503790b45cf7772c8b43a",
+      "evidence": [
+        {
+          "name": "dsh-functions",
+          "version": "0.5.2",
+          "tarball": "https://registry.npmjs.org/dsh-functions/-/dsh-functions-0.5.2.tgz",
+          "integrity": "sha512-Ihq57TQycPEBcMRg6emnXnmlpMm89oWpl3QnevqyDIGusugIO2Ab6j+NSzKYQ9/t2BkMHxut2OQFtW9p/6tLpw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-functions",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Num86/dsh-functions",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Num86/dsh-functions",
+    "commit": "ec157aa6d9e54cf7644e21b6475bc0582b8f2c77",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:07.614Z"
+}

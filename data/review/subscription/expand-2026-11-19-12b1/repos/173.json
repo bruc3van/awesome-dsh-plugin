@@ -1,0 +1,125 @@
+{
+  "full_name": "Melody-max114/dsh-excel-panel",
+  "originalPosition": 173,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 173,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:58.197Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "513b072b772e52a0d40b7675918aa9cb29a8d6533cdf48c35fc167610f9b5c74",
+      "url": "https://github.com/Melody-max114/dsh-excel-panel/blob/177dc4515da8e036431bdb3609438a77f74e7d40/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-excel-panel",
+          "command": "dsh plugin --profile web add dsh-excel-panel",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-excel-panel",
+      "version": "0.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Melody-max114/dsh-excel-panel",
+        "commit": "177dc4515da8e036431bdb3609438a77f74e7d40"
+      },
+      "manifestSha256": "99cde6e6f2c77fdf2a0ac48112bf4dbd421375a3bbad62704a38331651777d08",
+      "manifestUrl": "https://github.com/Melody-max114/dsh-excel-panel/blob/177dc4515da8e036431bdb3609438a77f74e7d40/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-excel-panel",
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1786934948,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Melody-max114/dsh-excel-panel",
+              "commit": "177dc4515da8e036431bdb3609438a77f74e7d40"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-excel-panel",
+      "origin": "npm",
+      "name": "dsh-excel-panel",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-excel-panel",
+        "title": "dsh-excel-panel",
+        "description": "DSH 右侧栏 Excel 编辑插件 v2：支持多工作表、单击选中/双击编辑、多选批量格式、色盘单步撤销、选中动画，并保存回原文件。",
+        "homepage": "https://github.com/Melody-max114/dsh-excel-panel#readme",
+        "repository": {
+          "url": "https://github.com/Melody-max114/dsh-excel-panel"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "excel",
+            "xlsx",
+            "editor",
+            "better-sidebar"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1786934975,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9b0ffdc2ec9a61eea9cca077af0bdc17b80d8cc835bb6ddb4b6cfdd896426aee",
+      "evidence": [
+        {
+          "name": "dsh-excel-panel",
+          "version": "0.6.1",
+          "tarball": "https://registry.npmjs.org/dsh-excel-panel/-/dsh-excel-panel-0.6.1.tgz",
+          "integrity": "sha512-V0sJ3Vbc+3qOZHxjNTdFRTQ6cPXElUu0Ybr0gCMblq5vUF9QEDoTMh/3r2B+6quWTfOzLj+HXpHZG2XOWMSh+g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-excel-panel",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Melody-max114/dsh-excel-panel",
+    "commit": "177dc4515da8e036431bdb3609438a77f74e7d40",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:00.212Z"
+}

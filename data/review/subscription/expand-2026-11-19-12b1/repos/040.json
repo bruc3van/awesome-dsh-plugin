@@ -1,0 +1,66 @@
+{
+  "full_name": "534119219/dsh-custom-provider-reasoning",
+  "originalPosition": 40,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 40,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:01.575Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c1f5e60e3f04d16270b73380b45efbc1595ce93a9f74963dac270723ffeb0f40",
+      "url": "https://github.com/534119219/dsh-custom-provider-reasoning/blob/3050da23846df37a51131af41616a093ada59514/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-custom-provider-reasoning",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/534119219/dsh-custom-provider-reasoning",
+        "commit": "3050da23846df37a51131af41616a093ada59514"
+      },
+      "manifestSha256": "f6c12e04306a5f7f50c0f1050725078bbb67e64b2820b9c74fdc8d74aeb4927e",
+      "manifestUrl": "https://github.com/534119219/dsh-custom-provider-reasoning/blob/3050da23846df37a51131af41616a093ada59514/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-custom-provider-reasoning",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1788192389,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/534119219/dsh-custom-provider-reasoning",
+              "commit": "3050da23846df37a51131af41616a093ada59514"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/534119219/dsh-custom-provider-reasoning",
+    "commit": "3050da23846df37a51131af41616a093ada59514",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:03.457Z"
+}

@@ -1,0 +1,74 @@
+{
+  "full_name": "AyanamiiiRei/agent-interactive-terminal",
+  "originalPosition": 70,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 70,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:15.244Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "392bd71e0a34bcc74cfc6fba79f68228e449c368c31438fc294c87893e3101eb",
+      "url": "https://github.com/AyanamiiiRei/agent-interactive-terminal/blob/85c58f2f3338faa715afbc72987c70421e6cf7ee/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c07871619266f4674a0a3cf26b6a644b8542bd95397f2655a0b773122d3858ee",
+      "url": "https://github.com/AyanamiiiRei/agent-interactive-terminal/blob/85c58f2f3338faa715afbc72987c70421e6cf7ee/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "agent-interactive-terminal",
+      "version": "0.6.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AyanamiiiRei/agent-interactive-terminal",
+        "commit": "85c58f2f3338faa715afbc72987c70421e6cf7ee"
+      },
+      "manifestSha256": "e76d8dff0cffbf3cc1b0fd6285696f8905262d6c0da19603bebcb066a9d7bef3",
+      "manifestUrl": "https://github.com/AyanamiiiRei/agent-interactive-terminal/blob/85c58f2f3338faa715afbc72987c70421e6cf7ee/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "agent-interactive-terminal",
+        "versions": [
+          {
+            "version": "0.6.9",
+            "publishTimestamp": 1794910556,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AyanamiiiRei/agent-interactive-terminal",
+              "commit": "85c58f2f3338faa715afbc72987c70421e6cf7ee"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AyanamiiiRei/agent-interactive-terminal",
+    "commit": "85c58f2f3338faa715afbc72987c70421e6cf7ee",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:17.837Z"
+}

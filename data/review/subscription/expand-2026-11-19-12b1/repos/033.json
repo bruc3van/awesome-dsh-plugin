@@ -1,0 +1,50 @@
+{
+  "full_name": "17-qxm/dsh-virtual-coding-plan",
+  "originalPosition": 33,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 33,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:06:59.112Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3c929d634624f819188ec3ff66e385d54740427374d1f1aedf18d522fdce1720",
+      "url": "https://github.com/17-qxm/dsh-virtual-coding-plan/blob/63ddf649a4f52e0876c382f676a6855cfd78a077/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-virtual-coding-plan",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/17-qxm/dsh-virtual-coding-plan",
+        "commit": "63ddf649a4f52e0876c382f676a6855cfd78a077"
+      },
+      "manifestSha256": "6cb1743028b2441d9a7f19c381fbaaf69c03ddf91d288b1823613c130aea6836",
+      "manifestUrl": "https://github.com/17-qxm/dsh-virtual-coding-plan/blob/63ddf649a4f52e0876c382f676a6855cfd78a077/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/17-qxm/dsh-virtual-coding-plan",
+    "commit": "63ddf649a4f52e0876c382f676a6855cfd78a077",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:07:01.105Z"
+}

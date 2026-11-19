@@ -1,0 +1,40 @@
+{
+  "full_name": "a1141171521/dsh-plugin-conflict-guard",
+  "originalPosition": 123,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 123,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:48.280Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "31ae5d8cd66deb8067aa091a77f39a22b47b312e9505898ec359b6d6a88c43b0",
+      "url": "https://github.com/a1141171521/dsh-plugin-conflict-guard/blob/713008af42bc72500def533094de47a8678444cd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/a1141171521/dsh-plugin-conflict-guard",
+    "commit": "713008af42bc72500def533094de47a8678444cd",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-plugin-conflict-guard",
+    "version": "1.0.0",
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:50.085Z"
+}

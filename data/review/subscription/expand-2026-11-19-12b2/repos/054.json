@@ -1,0 +1,140 @@
+{
+  "full_name": "ShanJun-pro-max/dsh-novel-workbench",
+  "originalPosition": 54,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 54,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:20.999Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "571767dc6049ddc98e700b59f98b33534abf5856c1fb01104cd9282a2917e62b",
+      "url": "https://github.com/ShanJun-pro-max/dsh-novel-workbench/blob/1c728bbca362c99dd379c26894008b56d4122460/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-novel-workbench",
+          "command": "dsh plugin --profile web add dsh-novel-workbench",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/ShanJun-pro-max/dsh-novel-workbench",
+          "command": "dsh plugin --profile web add github:ShanJun-pro-max/dsh-novel-workbench",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-novel-workbench",
+      "version": "3.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ShanJun-pro-max/dsh-novel-workbench",
+        "commit": "1c728bbca362c99dd379c26894008b56d4122460"
+      },
+      "manifestSha256": "00d00fdb65640cddb2e666c5a7761a665b6eda03e04162ff739487f50fef3142",
+      "manifestUrl": "https://github.com/ShanJun-pro-max/dsh-novel-workbench/blob/1c728bbca362c99dd379c26894008b56d4122460/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-novel-workbench",
+        "versions": [
+          {
+            "version": "3.4.2",
+            "publishTimestamp": 1793853696,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ShanJun-pro-max/dsh-novel-workbench",
+              "commit": "1c728bbca362c99dd379c26894008b56d4122460"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-novel-workbench",
+      "origin": "npm",
+      "name": "dsh-novel-workbench",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-novel-workbench",
+        "title": "dsh-novel-workbench",
+        "description": "小说工坊：DSH 的一页式小说创作工作台。章节看板、候选稿抽卡与合稿、素材回收站、偏好档案与类型库、剧情总结索引与别称识别、情节体检，以及读几本成品书提炼写法、写稿时照着用的成品书库。",
+        "homepage": "https://github.com/ShanJun-pro-max/dsh-novel-workbench#readme",
+        "repository": {
+          "url": "https://github.com/ShanJun-pro-max/dsh-novel-workbench"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "cordis",
+            "plugin",
+            "novel",
+            "writing",
+            "chinese",
+            "web-novel",
+            "写作",
+            "网文",
+            "小说"
+          ]
+        },
+        "versions": [
+          {
+            "version": "3.4.2",
+            "publishTimestamp": 1792807436,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "27745d0a3852c5f9251222af7b59a994e47104f069eb302d5ee8bfa67813b345",
+      "evidence": [
+        {
+          "name": "dsh-novel-workbench",
+          "version": "3.4.2",
+          "tarball": "https://registry.npmjs.org/dsh-novel-workbench/-/dsh-novel-workbench-3.4.2.tgz",
+          "integrity": "sha512-WM6KbGDSSJJdK+2R5MWK+v+2/7Q2csSK2m2UtXMjOYrMw0GOwK74eZsUah9rFFxCbsiZIXb83mVH9gKMwUfyXg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-novel-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/ShanJun-pro-max/dsh-novel-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ShanJun-pro-max/dsh-novel-workbench",
+    "commit": "1c728bbca362c99dd379c26894008b56d4122460",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:23.212Z"
+}

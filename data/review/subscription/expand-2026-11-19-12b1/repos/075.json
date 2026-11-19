@@ -1,0 +1,69 @@
+{
+  "full_name": "CII-Joint-Lab-BIGC/dsh-collaborator",
+  "originalPosition": 75,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 75,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:16.768Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c7a1c04982bb748d580c9ce7d41842e30f5590b4f5ae8fd049679c6c755e9068",
+      "url": "https://github.com/CII-Joint-Lab-BIGC/dsh-collaborator/blob/6941d139a5965d2d57c56464db3b8225e3ace0e7/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-collaborator",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/CII-Joint-Lab-BIGC/dsh-collaborator",
+        "commit": "6941d139a5965d2d57c56464db3b8225e3ace0e7"
+      },
+      "manifestSha256": "33cd00abb2436d946ce71731e089d28a4c4bd3744ee32c6606a20e2efe888a07",
+      "manifestUrl": "https://github.com/CII-Joint-Lab-BIGC/dsh-collaborator/blob/6941d139a5965d2d57c56464db3b8225e3ace0e7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.2.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-collaborator",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1794907191,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/CII-Joint-Lab-BIGC/dsh-collaborator",
+              "commit": "6941d139a5965d2d57c56464db3b8225e3ace0e7"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.2.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/CII-Joint-Lab-BIGC/dsh-collaborator",
+    "commit": "6941d139a5965d2d57c56464db3b8225e3ace0e7",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:18.569Z"
+}

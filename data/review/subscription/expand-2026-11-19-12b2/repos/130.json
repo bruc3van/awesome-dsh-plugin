@@ -1,0 +1,148 @@
+{
+  "full_name": "acus9345/dsh-enforce-package-manager",
+  "originalPosition": 130,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 130,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:50.337Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9e6ebfe92ae43e2e038cf695a71f16858674e4570349928c12d9eb559bb4ff82",
+      "url": "https://github.com/acus9345/dsh-enforce-package-manager/blob/8d5e88e718bdeac7df11ce753851ed4f328d1f20/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-enforce-package-manager",
+          "command": "dsh plugin --profile web add dsh-enforce-package-manager",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "07ade521c30958000e4e9e9c9141a831f511b38e072f85de0619ba53596320ea",
+      "url": "https://github.com/acus9345/dsh-enforce-package-manager/blob/8d5e88e718bdeac7df11ce753851ed4f328d1f20/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-enforce-package-manager",
+          "command": "dsh plugin --profile web add dsh-enforce-package-manager",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-enforce-package-manager",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/acus9345/dsh-enforce-package-manager",
+        "commit": "8d5e88e718bdeac7df11ce753851ed4f328d1f20"
+      },
+      "manifestSha256": "f71c3d3ec9947de7eaff4fc022c88364a0302827f8502247036df05f4a93ba95",
+      "manifestUrl": "https://github.com/acus9345/dsh-enforce-package-manager/blob/8d5e88e718bdeac7df11ce753851ed4f328d1f20/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-enforce-package-manager",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1792846321,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/acus9345/dsh-enforce-package-manager",
+              "commit": "8d5e88e718bdeac7df11ce753851ed4f328d1f20"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-enforce-package-manager",
+      "origin": "npm",
+      "name": "dsh-enforce-package-manager",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-enforce-package-manager",
+        "title": "dsh-enforce-package-manager",
+        "description": "DeepSeek Harness plugin that catches the wrong package manager for the repo (npm install in a pnpm repo, pip install in a uv/poetry project, and so on) and gives the model the exact right command.",
+        "author": "acus9345",
+        "homepage": "https://github.com/acus9345/dsh-enforce-package-manager#readme",
+        "repository": {
+          "url": "https://github.com/acus9345/dsh-enforce-package-manager"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "agent",
+            "guard",
+            "package-manager",
+            "npm",
+            "pnpm",
+            "yarn",
+            "bun",
+            "uv",
+            "poetry",
+            "pip"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1792155742,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "773d9a60ea152c7f89526ba3e35c967dac65581d0f888a8976b501024ea7db54",
+      "evidence": [
+        {
+          "name": "dsh-enforce-package-manager",
+          "version": "0.2.3",
+          "tarball": "https://registry.npmjs.org/dsh-enforce-package-manager/-/dsh-enforce-package-manager-0.2.3.tgz",
+          "integrity": "sha512-gORm4DZIku4Wt/hGbdrPJWU8FGQyp+B6QQCxKN3hE2oCqwd4GwgH32HjPVtA5l2EV6ueYQxiw/Sivxj8kdDzRg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-enforce-package-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/acus9345/dsh-enforce-package-manager",
+    "commit": "8d5e88e718bdeac7df11ce753851ed4f328d1f20",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:52.590Z"
+}

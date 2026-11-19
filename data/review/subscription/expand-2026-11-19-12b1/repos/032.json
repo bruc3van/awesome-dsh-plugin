@@ -1,0 +1,147 @@
+{
+  "full_name": "1624318455/dsh-plugin-adapter",
+  "originalPosition": 32,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 32,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:06:59.088Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4c8902cfb814117159c5e55578162a58625b28c629799da62605df1b9012802b",
+      "url": "https://github.com/1624318455/dsh-plugin-adapter/blob/a0a716f3b3c5e8b6df90b00a0d5b40330a257503/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/1624318455/dsh-plugin-adapter",
+          "command": "dsh plugin --profile web add github:1624318455/dsh-plugin-adapter",
+          "profile": "web"
+        },
+        {
+          "install": "@memef1f1y/dsh-plugin-adapter",
+          "command": "dsh plugin --profile web add @memef1f1y/dsh-plugin-adapter",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "c98cd63e28a0f33464ad7c54018123e5039b1979cb83e904e4a31779454a41fd",
+      "url": "https://github.com/1624318455/dsh-plugin-adapter/blob/a0a716f3b3c5e8b6df90b00a0d5b40330a257503/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/1624318455/dsh-plugin-adapter",
+          "command": "dsh plugin --profile web add github:1624318455/dsh-plugin-adapter",
+          "profile": "web"
+        },
+        {
+          "install": "@memef1f1y/dsh-plugin-adapter",
+          "command": "dsh plugin --profile web add @memef1f1y/dsh-plugin-adapter",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-adapter",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1624318455/dsh-plugin-adapter",
+        "commit": "a0a716f3b3c5e8b6df90b00a0d5b40330a257503"
+      },
+      "manifestSha256": "7c0e806a09fed1fc34906badcc73acc063ac4d1def9087ad0007c6f483bd4827",
+      "manifestUrl": "https://github.com/1624318455/dsh-plugin-adapter/blob/a0a716f3b3c5e8b6df90b00a0d5b40330a257503/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "target": "@memef1f1y/dsh-plugin-adapter",
+      "origin": "npm",
+      "name": "@memef1f1y/dsh-plugin-adapter",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@memef1f1y/dsh-plugin-adapter",
+        "title": "@memef1f1y/dsh-plugin-adapter",
+        "description": "Free OpenCode Zen models for DeepSeek Harness (DSH): native dsh-llm adapter plugin, no API key.",
+        "author": "1624318455",
+        "homepage": "https://github.com/1624318455/dsh-plugin-adapter#readme",
+        "repository": {
+          "url": "https://github.com/1624318455/dsh-plugin-adapter"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "opencode",
+            "opencode-zen",
+            "cordis",
+            "cordis-plugin",
+            "llm-adapter",
+            "llm-provider",
+            "free-models",
+            "free-llm",
+            "llm",
+            "ai-models",
+            "typescript",
+            "nodejs"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1792607292,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6d53668a9cb7e8f170c6aae29207e1bc0caf1f6af4db09fb6d1d6faf6c5194dc",
+      "evidence": [
+        {
+          "name": "@memef1f1y/dsh-plugin-adapter",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/@memef1f1y/dsh-plugin-adapter/-/dsh-plugin-adapter-0.4.0.tgz",
+          "integrity": "sha512-Cc18Sc7tk+b71fu6qefznEmBmWBv50WP1nnlfVIUPgkQC2qLj2NfG7JaeJ1udD4OJdnEejx9MOUcn89Rl8Yo/A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/1624318455/dsh-plugin-adapter",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@memef1f1y/dsh-plugin-adapter",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1624318455/dsh-plugin-adapter",
+    "commit": "a0a716f3b3c5e8b6df90b00a0d5b40330a257503",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:01.984Z"
+}

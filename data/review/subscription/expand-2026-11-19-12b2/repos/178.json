@@ -1,0 +1,29 @@
+{
+  "full_name": "ciky20171114/dsh-plugin-midscene",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:08.962Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/ciky20171114/dsh-plugin-midscene/git/commits/158f751a9cd64ba7ac0204c914474abccedf8649\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D424:DDE04:1222ED6:3A7E9D3:6AFEE75D and timestamp 2026-11-19 12:11:09 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/ciky20171114/dsh-plugin-midscene",
+    "commit": "158f751a9cd64ba7ac0204c914474abccedf8649",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:11:09.554Z"
+}

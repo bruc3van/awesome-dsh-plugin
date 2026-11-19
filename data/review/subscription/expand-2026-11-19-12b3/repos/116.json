@@ -1,0 +1,29 @@
+{
+  "full_name": "hangdingding/breezetts-dsh",
+  "originalPosition": 116,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 116,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:12.098Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/hangdingding/breezetts-dsh/git/commits/a2f1cd515b467e512b6e3952a836793ee8a94d99\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D427:5F0F6:1161A1B:37F2F68:6AFEE7D8 and timestamp 2026-11-19 12:13:12 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/hangdingding/breezetts-dsh",
+    "commit": "a2f1cd515b467e512b6e3952a836793ee8a94d99",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:12.687Z"
+}

@@ -1,0 +1,74 @@
+{
+  "full_name": "cogito0823/dsh-motion",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:49.043Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ca486c254f94d428d4b77b18a429c4e77eee4a78ac22da838943eded40bb9967",
+      "url": "https://github.com/cogito0823/dsh-motion/blob/54a55a612ce2111184c1c029c9808dbf5bd259ab/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "showcase/README.md",
+      "sha256": "8061a595564eb0ceb28d86ca5b9de3d9b909dbf8cd54cd484a053c895f596a2f",
+      "url": "https://github.com/cogito0823/dsh-motion/blob/54a55a612ce2111184c1c029c9808dbf5bd259ab/showcase/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-motion",
+      "version": "0.10.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cogito0823/dsh-motion",
+        "commit": "54a55a612ce2111184c1c029c9808dbf5bd259ab"
+      },
+      "manifestSha256": "5c497dcd393dc3fb48aeae7291560190c5e003fae57d28a1f04caca1947003d6",
+      "manifestUrl": "https://github.com/cogito0823/dsh-motion/blob/54a55a612ce2111184c1c029c9808dbf5bd259ab/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-motion",
+        "versions": [
+          {
+            "version": "0.10.3",
+            "publishTimestamp": 1793214256,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/cogito0823/dsh-motion",
+              "commit": "54a55a612ce2111184c1c029c9808dbf5bd259ab"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/cogito0823/dsh-motion",
+    "commit": "54a55a612ce2111184c1c029c9808dbf5bd259ab",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:51.559Z"
+}

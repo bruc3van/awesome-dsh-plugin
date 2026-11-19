@@ -1,0 +1,156 @@
+{
+  "full_name": "X-C1811/dsh-web-search-plugin",
+  "originalPosition": 99,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 99,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:39.517Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "843ebe49aa9fb027034e08d524bade03e2dafa706c6cb8786e8afbff27096a88",
+      "url": "https://github.com/X-C1811/dsh-web-search-plugin/blob/789c5da5f34c9bc6b5fc13c592a6cbe29fb329f8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-search-plugin",
+          "command": "dsh plugin --profile web add dsh-web-search-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "71a9384681e5f88d4abc7a787a29d803139cebe6e2b206779187d650981b9aaa",
+      "url": "https://github.com/X-C1811/dsh-web-search-plugin/blob/789c5da5f34c9bc6b5fc13c592a6cbe29fb329f8/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-web-search-plugin",
+          "command": "dsh plugin --profile web add dsh-web-search-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-web-search-plugin",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/X-C1811/dsh-web-search-plugin",
+        "commit": "789c5da5f34c9bc6b5fc13c592a6cbe29fb329f8"
+      },
+      "manifestSha256": "5e71f6711c7ca6446082047f2d9905beee9ed2491fcd8b3611f7d8a995ab50f2",
+      "manifestUrl": "https://github.com/X-C1811/dsh-web-search-plugin/blob/789c5da5f34c9bc6b5fc13c592a6cbe29fb329f8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.2 || ^0.2.2-alpha.3 || ^0.2.2-rc.4",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-web-search-plugin",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1795006492,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/X-C1811/dsh-web-search-plugin",
+              "commit": "789c5da5f34c9bc6b5fc13c592a6cbe29fb329f8"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2 || ^0.2.2-alpha.3 || ^0.2.2-rc.4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-web-search-plugin",
+      "origin": "npm",
+      "name": "dsh-web-search-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-web-search-plugin",
+        "title": {
+          "en": "Web search & fetch",
+          "zh": "网页搜索与获取"
+        },
+        "description": {
+          "en": "Web search providers and web fetch in one page: DeepSeek Search API (default), legacy Messages, eight third-party engines, local fetch and optional DeepSeek Fetch API.",
+          "zh": "在一个页面独立配置网页搜索提供方与网页获取：DeepSeek Search API（默认）、旧版 Messages、8 个第三方引擎、本机直接获取和可选 DeepSeek Fetch API。"
+        },
+        "homepage": "https://github.com/X-C1811/dsh-web-search-plugin",
+        "repository": {
+          "url": "https://github.com/X-C1811/dsh-web-search-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "tavily",
+            "brave",
+            "brave-search",
+            "web-search",
+            "websearch",
+            "search",
+            "plugin"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ2xvYmUiIHgxPSI5IiB5MT0iOCIgeDI9IjI0IiB5Mj0iMjUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzQxRTFBQyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNDUiIHN0b3AtY29sb3I9IiM1NEVDRTciLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNjU4RUZGIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBkPSJNMjIuNSAyMi41IDI3LjUgMjcuNSIgc3Ryb2tlPSIjNjU4RUZGIiBzdHJva2Utd2lkdGg9IjMuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iOC41IiBzdHJva2U9InVybCgjZ2xvYmUpIiBzdHJva2Utd2lkdGg9IjIuOCIvPgogIDxlbGxpcHNlIGN4PSIxNiIgY3k9IjE2IiByeD0iMy41IiByeT0iOCIgc3Ryb2tlPSJ1cmwoI2dsb2JlKSIgc3Ryb2tlLXdpZHRoPSIxLjMiLz4KICA8cGF0aCBkPSJNOCAxNmgxNiIgc3Ryb2tlPSJ1cmwoI2dsb2JlKSIgc3Ryb2tlLXdpZHRoPSIxLjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1795006665,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2 || ^0.2.2-alpha.3 || ^0.2.2-rc.4"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d4f312bc978633c1e439bdc6b7b71b45f49443e950a3f0db1badd8c5bfaab911",
+      "evidence": [
+        {
+          "name": "dsh-web-search-plugin",
+          "version": "0.7.1",
+          "tarball": "https://registry.npmjs.org/dsh-web-search-plugin/-/dsh-web-search-plugin-0.7.1.tgz",
+          "integrity": "sha512-OuvLQSm6MHBogH92mEe0AzuQGS7exjXClpNWz8cMHNuZNpG48fUMwKl/c+Pcc2DeJGoDO8292+0tIRKG3SO1FQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-web-search-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/X-C1811/dsh-web-search-plugin",
+    "commit": "789c5da5f34c9bc6b5fc13c592a6cbe29fb329f8",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:42.162Z"
+}

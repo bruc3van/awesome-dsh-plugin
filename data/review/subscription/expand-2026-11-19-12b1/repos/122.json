@@ -1,0 +1,137 @@
+{
+  "full_name": "Harm0ny-AI/DSH-Video2Agent",
+  "originalPosition": 122,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 122,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:36.202Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f82a147621222fae42499563c36ec31ffeaec064f6288f32b2745ccd86d158bc",
+      "url": "https://github.com/Harm0ny-AI/DSH-Video2Agent/blob/e91b7038550bdf76302f05bb9d93240773ce9844/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-video2agent",
+          "command": "dsh plugin --profile web add dsh-video2agent",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-video2agent",
+      "version": "0.2.0",
+      "path": "packages/dsh-video2agent",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Harm0ny-AI/DSH-Video2Agent",
+        "commit": "e91b7038550bdf76302f05bb9d93240773ce9844",
+        "path": "packages/dsh-video2agent"
+      },
+      "manifestSha256": "e5568b4c9175c267caba3a7f84e58b458686e09f982b97ad70c0af8d1b7ea063",
+      "manifestUrl": "https://github.com/Harm0ny-AI/DSH-Video2Agent/blob/e91b7038550bdf76302f05bb9d93240773ce9844/packages/dsh-video2agent/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-video2agent",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794882513,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Harm0ny-AI/DSH-Video2Agent",
+              "commit": "e91b7038550bdf76302f05bb9d93240773ce9844",
+              "path": "packages/dsh-video2agent"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-video2agent",
+      "origin": "npm",
+      "name": "dsh-video2agent",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-video2agent",
+        "title": "dsh-video2agent",
+        "description": "DSH-Video2Agent for DeepSeek Harness: index a video locally, search what was said and shown, cite exact frames, and optionally manage a logged-in Bilibili library.",
+        "homepage": "https://github.com/Harm0ny-AI/DSH-Video2Agent#readme",
+        "repository": {
+          "url": "https://github.com/Harm0ny-AI/DSH-Video2Agent"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "video",
+            "bilibili",
+            "video-qa",
+            "video-search",
+            "timestamp",
+            "asr",
+            "ocr",
+            "local-first"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794882869,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.2.1-0 || >=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "80a3ccb516b6e22f2dc3e6971e94a44c51683e2c311e2d406e4b7e16667a6175",
+      "evidence": [
+        {
+          "name": "dsh-video2agent",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-video2agent/-/dsh-video2agent-0.2.0.tgz",
+          "integrity": "sha512-omY8DSYDSbbeYU4RN0PC0nJHVftPp9uiNzhVjFjLw7KDKgzxyt9NW3WvPH0iS1qD40igFCK4yD5qSRjU6r4Agw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-video2agent",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Harm0ny-AI/DSH-Video2Agent",
+    "commit": "e91b7038550bdf76302f05bb9d93240773ce9844",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:38.312Z"
+}

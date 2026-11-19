@@ -1,0 +1,57 @@
+{
+  "full_name": "Motuo24/dsh-thinking-slider",
+  "originalPosition": 179,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 179,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:00.571Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "63f41a57cdde322cc0431802ea09bcf07cda7ffd3f8ddbaf8b60ae7b369bc539",
+      "url": "https://github.com/Motuo24/dsh-thinking-slider/blob/f19c17f9a618e045d9750d8a00f89ada00bfd8ce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "843f1493f87c1609722858edd2a8aa5106f88fe95cd6e3d327bc83c4da2872f2",
+      "url": "https://github.com/Motuo24/dsh-thinking-slider/blob/f19c17f9a618e045d9750d8a00f89ada00bfd8ce/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Motuo24/dsh-thinking-slider",
+    "commit": "f19c17f9a618e045d9750d8a00f89ada00bfd8ce",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "thinking-slider",
+    "version": "1.2.0",
+    "dsh": {
+      "client": {
+        "inject": [
+          "@deepseek-ai/dsh-client-locale",
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-ui-model-selection"
+        ],
+        "platform": "web"
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:08:02.823Z"
+}

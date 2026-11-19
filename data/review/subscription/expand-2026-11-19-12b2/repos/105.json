@@ -1,0 +1,125 @@
+{
+  "full_name": "YYTbit/dsh-plugin-opencode-bridge",
+  "originalPosition": 105,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 105,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:42.016Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e20889ed011f27e136a688ab464aa14f645c07714d08897a9250301115a29efa",
+      "url": "https://github.com/YYTbit/dsh-plugin-opencode-bridge/blob/87327a2847092794057721187adb1e980414110b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-opencode-bridge",
+          "command": "dsh plugin --profile your-profile add dsh-plugin-opencode-bridge",
+          "profile": "your-profile"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-opencode-bridge",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/YYTbit/dsh-plugin-opencode-bridge",
+        "commit": "87327a2847092794057721187adb1e980414110b"
+      },
+      "manifestSha256": "9faf8559854d5bc400c7440f8488ef1b4ea2044e00e9011a00074485728bad3a",
+      "manifestUrl": "https://github.com/YYTbit/dsh-plugin-opencode-bridge/blob/87327a2847092794057721187adb1e980414110b/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-opencode-bridge",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1786693720,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/YYTbit/dsh-plugin-opencode-bridge",
+              "commit": "87327a2847092794057721187adb1e980414110b"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-opencode-bridge",
+      "origin": "npm",
+      "name": "dsh-plugin-opencode-bridge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-opencode-bridge",
+        "title": "dsh-plugin-opencode-bridge",
+        "description": "Bridge OpenCode's skills and configuration into DeepSeek Harness",
+        "author": "YYTbit",
+        "repository": {
+          "url": "https://github.com/YYTbit/dsh-plugin-opencode-bridge"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "opencode",
+            "memory",
+            "skills",
+            "bridge"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1787366846,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ffaf74ce4ad9e276bf4143a4892f106748fae4b939a8eec98c2c872e416d3f56",
+      "evidence": [
+        {
+          "name": "dsh-plugin-opencode-bridge",
+          "version": "0.1.1",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-opencode-bridge/-/dsh-plugin-opencode-bridge-0.1.1.tgz",
+          "integrity": "sha512-QBwJeljk2HlNfOPmSfUmGk7KfYEYG+r3bXBV7t7kWzB2Bi5IdojiJ58jLidTKWdCQRNNrvLLBfrrfzX3gaMJLA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-opencode-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/YYTbit/dsh-plugin-opencode-bridge",
+    "commit": "87327a2847092794057721187adb1e980414110b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:43.947Z"
+}

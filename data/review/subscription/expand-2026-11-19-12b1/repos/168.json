@@ -1,0 +1,138 @@
+{
+  "full_name": "MakerFlyFly/DSH-better-classifier",
+  "originalPosition": 168,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 168,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:56.540Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "18ed3dbc9150b9b439ca67e7a3da99e28d51cdb3be688e63fd4f83780d5fd0aa",
+      "url": "https://github.com/MakerFlyFly/DSH-better-classifier/blob/e42a0756c0b63440f069dfebea403fe8fa02e714/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-classifier@0.2.1",
+          "command": "dsh plugin --profile web add dsh-better-classifier@0.2.1",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-classifier",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MakerFlyFly/DSH-better-classifier",
+        "commit": "e42a0756c0b63440f069dfebea403fe8fa02e714"
+      },
+      "manifestSha256": "79b6f67e39d38a0ee37d7b6f1cfa85c367c16f7ec431d4c73cf983cedfe572f3",
+      "manifestUrl": "https://github.com/MakerFlyFly/DSH-better-classifier/blob/e42a0756c0b63440f069dfebea403fe8fa02e714/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-better-classifier",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794632476,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MakerFlyFly/DSH-better-classifier",
+              "commit": "e42a0756c0b63440f069dfebea403fe8fa02e714"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-better-classifier@0.2.1",
+      "origin": "npm",
+      "name": "dsh-better-classifier",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-better-classifier",
+        "title": {
+          "en": "BetterClassifier",
+          "zh": "BetterClassifier"
+        },
+        "description": {
+          "en": "Organize sidebar projects and conversations with nested folders, colored tags, and tree search.",
+          "zh": "用嵌套文件夹、彩色标签和树形搜索整理左侧项目与会话。"
+        },
+        "author": "MakerFly",
+        "homepage": "https://github.com/MakerFlyFly/DSH-better-classifier#readme",
+        "repository": {
+          "url": "https://github.com/MakerFlyFly/DSH-better-classifier"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "sessions",
+            "folders",
+            "tags"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSI+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTYiIGZpbGw9IiNFRUYxRkYiLz4KICA8cGF0aCBkPSJNMTIgMjFhNCA0IDAgMCAxIDQtNGgxMmw1IDZoMTVhNCA0IDAgMCAxIDQgNHYxOGE0IDQgMCAwIDEtNCA0SDE2YTQgNCAwIDAgMS00LTRWMjFaIiBmaWxsPSIjNEQ2QkZFIi8+CiAgPHBhdGggZD0iTTE2IDI5aDMyIiBzdHJva2U9IiNBOUI3RkYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHJlY3QgeD0iMjQiIHk9IjM1IiB3aWR0aD0iMjEiIGhlaWdodD0iOCIgcng9IjQiIGZpbGw9IndoaXRlIi8+CiAgPGNpcmNsZSBjeD0iMjkiIGN5PSIzOSIgcj0iMiIgZmlsbD0iIzRENkJGRSIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794586530,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b1b8bc25e3bf45f9db9e053acf9ccc9d5d9ef404c753391abf7057fbc2f610e3",
+      "evidence": [
+        {
+          "name": "dsh-better-classifier",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-better-classifier/-/dsh-better-classifier-0.2.1.tgz",
+          "integrity": "sha512-n8emfquEUNyRXsZMPSp+HoBF+uHJpysP+XisTvlTA0O8NzoXqHEJ+iFMpAnQL62OAZ1OIsvH9igo/zY+rcM2Xw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-classifier@0.2.1",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MakerFlyFly/DSH-better-classifier",
+    "commit": "e42a0756c0b63440f069dfebea403fe8fa02e714",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:58.548Z"
+}

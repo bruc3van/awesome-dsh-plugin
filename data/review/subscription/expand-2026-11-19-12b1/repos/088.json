@@ -1,0 +1,143 @@
+{
+  "full_name": "Dbi-Eshuh/dsh-thinking-status-customizer",
+  "originalPosition": 88,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 88,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:22.227Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f443ebf1cecd184b1369fa1e3b140b82ef45872f0cebfeee1d0d0a925eb2f370",
+      "url": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer/blob/97f9fd6d86c178d567182128e4185022e4ea3beb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer#v0.2.2",
+          "command": "dsh plugin --profile web add github:Dbi-Eshuh/dsh-thinking-status-customizer#v0.2.2",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "eafa18f3a4d8bc7cf2ddaed487bcf91c38f2b0fab7279a9982d0f5656ced0037",
+      "url": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer/blob/97f9fd6d86c178d567182128e4185022e4ea3beb/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer#v0.2.2",
+          "command": "dsh plugin --profile web add github:Dbi-Eshuh/dsh-thinking-status-customizer#v0.2.2",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-thinking-status-customizer",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer",
+        "commit": "97f9fd6d86c178d567182128e4185022e4ea3beb"
+      },
+      "manifestSha256": "016789d5d005c541e1466133b7e30deb48a5ebbf2b6453f64766ef253d7a3eef",
+      "manifestUrl": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer/blob/97f9fd6d86c178d567182128e4185022e4ea3beb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-thinking-status-customizer",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1786795504,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer",
+              "commit": "97f9fd6d86c178d567182128e4185022e4ea3beb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer#v0.2.2",
+      "origin": "git_target",
+      "name": "dsh-thinking-status-customizer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-thinking-status-customizer",
+        "title": "dsh-thinking-status-customizer",
+        "description": "Customize DSH Web thinking status with custom flowing text, animated GIF/APNG/WebP, or combined image-and-text modes.",
+        "author": "Dbi-Eshuh",
+        "homepage": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer#readme",
+        "repository": {
+          "url": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "thinking-status",
+            "animated-gif",
+            "localization",
+            "cordis",
+            "web-ui",
+            "css"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1786795504,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer",
+              "commit": "97f9fd6d86c178d567182128e4185022e4ea3beb"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "97f9fd6d86c178d567182128e4185022e4ea3beb",
+          "name": "dsh-thinking-status-customizer",
+          "version": "0.2.2",
+          "url": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer",
+          "manifestSha256": "016789d5d005c541e1466133b7e30deb48a5ebbf2b6453f64766ef253d7a3eef",
+          "publishTimestamp": 1786795504
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer#v0.2.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer",
+    "commit": "97f9fd6d86c178d567182128e4185022e4ea3beb",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:25.837Z"
+}

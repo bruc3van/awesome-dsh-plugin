@@ -1,0 +1,69 @@
+{
+  "full_name": "Eridani075/deepseek-harness-antigravity-oauth",
+  "originalPosition": 98,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 98,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:27.074Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "80319f6338d50dd31ab27942f3a31ca509062b2987d79e227d8d9177ecec638d",
+      "url": "https://github.com/Eridani075/deepseek-harness-antigravity-oauth/blob/ed5213940c91e9b6e1a144ce51984664645dd2ff/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-antigravity-oauth",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Eridani075/deepseek-harness-antigravity-oauth",
+        "commit": "ed5213940c91e9b6e1a144ce51984664645dd2ff"
+      },
+      "manifestSha256": "eb24377862e1e551eea577ca7a02e8068520a585dd211810e698d2f6ed619908",
+      "manifestUrl": "https://github.com/Eridani075/deepseek-harness-antigravity-oauth/blob/ed5213940c91e9b6e1a144ce51984664645dd2ff/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-antigravity-oauth",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1789614260,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Eridani075/deepseek-harness-antigravity-oauth",
+              "commit": "ed5213940c91e9b6e1a144ce51984664645dd2ff"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Eridani075/deepseek-harness-antigravity-oauth",
+    "commit": "ed5213940c91e9b6e1a144ce51984664645dd2ff",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:28.958Z"
+}

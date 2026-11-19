@@ -1,0 +1,123 @@
+{
+  "full_name": "apify/apify-deepseek-harness-plugin",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:54.316Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "61d70f09a59889f6f514e1a8da972aad59653ce44d80930ac05194c9ac44f12b",
+      "url": "https://github.com/apify/apify-deepseek-harness-plugin/blob/36adc7f6fcb987fef0a825e6dfe116411434fa82/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-apify-plugin",
+          "command": "dsh plugin --profile web add dsh-apify-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-apify-plugin",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/apify/apify-deepseek-harness-plugin",
+        "commit": "36adc7f6fcb987fef0a825e6dfe116411434fa82"
+      },
+      "manifestSha256": "d0b43c4d8d01697aaad3073a555743342d6a2771cb0543cacd81d482553d1beb",
+      "manifestUrl": "https://github.com/apify/apify-deepseek-harness-plugin/blob/36adc7f6fcb987fef0a825e6dfe116411434fa82/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-apify-plugin",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794305354,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/apify/apify-deepseek-harness-plugin",
+              "commit": "36adc7f6fcb987fef0a825e6dfe116411434fa82"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-apify-plugin",
+      "origin": "npm",
+      "name": "dsh-apify-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-apify-plugin",
+        "title": "dsh-apify-plugin",
+        "description": "Apify Actors for DeepSeek Harness: adds the Apify MCP server to your profile.",
+        "homepage": "https://apify.com",
+        "repository": {
+          "url": "https://github.com/apify/apify-deepseek-harness-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "apify",
+            "mcp",
+            "web-scraping"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794305540,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "017f717affba4e49c294ad3af125fe2fe4600ff1b896d393c018a949376f36ef",
+      "evidence": [
+        {
+          "name": "dsh-apify-plugin",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-apify-plugin/-/dsh-apify-plugin-0.1.3.tgz",
+          "integrity": "sha512-Y2JM0HJF2NtPgHg9uefIIlH93GThRtcaRU/IJ/2cft+eKJaSYyZKLwd98m8uid9Bxcn5UdiDv1YGfh68DbyDAw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-apify-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/apify/apify-deepseek-harness-plugin",
+    "commit": "36adc7f6fcb987fef0a825e6dfe116411434fa82",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:56.470Z"
+}

@@ -1,0 +1,77 @@
+{
+  "full_name": "Spirtxiaoqi7/mindspace-dsh-session-memory",
+  "originalPosition": 67,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 67,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:26.163Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4d7c29d9359b9439db3ced77af8f10be06bc10bd817304bb3455cdb4ca271444",
+      "url": "https://github.com/Spirtxiaoqi7/mindspace-dsh-session-memory/blob/a7d6eeae3c2026f460e0fb6f72ecbf499c191e46/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "bf17ccaaa69580ab0558a345f08130bfc835bdc6b600949970a89080e0e58dd0",
+      "url": "https://github.com/Spirtxiaoqi7/mindspace-dsh-session-memory/blob/a7d6eeae3c2026f460e0fb6f72ecbf499c191e46/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "mindspace-dsh-session-memory",
+      "version": "0.7.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Spirtxiaoqi7/mindspace-dsh-session-memory",
+        "commit": "a7d6eeae3c2026f460e0fb6f72ecbf499c191e46"
+      },
+      "manifestSha256": "234240fa732a518dfc98955c2735e67ae750aced0a30c3039a679952b9e8268c",
+      "manifestUrl": "https://github.com/Spirtxiaoqi7/mindspace-dsh-session-memory/blob/a7d6eeae3c2026f460e0fb6f72ecbf499c191e46/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "mindspace-dsh-session-memory",
+        "versions": [
+          {
+            "version": "0.7.1",
+            "publishTimestamp": 1791543495,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Spirtxiaoqi7/mindspace-dsh-session-memory",
+              "commit": "a7d6eeae3c2026f460e0fb6f72ecbf499c191e46"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Spirtxiaoqi7/mindspace-dsh-session-memory",
+    "commit": "a7d6eeae3c2026f460e0fb6f72ecbf499c191e46",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:28.291Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "SkanderBog/dsh-pdf-reader",
+  "originalPosition": 61,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 61,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:24.235Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b6d0169afeca3c070e0cb50e0b87d1a0921a1bc6357df38ba4f7a5d83d6b31b5",
+      "url": "https://github.com/SkanderBog/dsh-pdf-reader/blob/bed4a7228714ddef96f0f34a39223d1699dd4a23/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pdf-reader",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SkanderBog/dsh-pdf-reader",
+        "commit": "bed4a7228714ddef96f0f34a39223d1699dd4a23"
+      },
+      "manifestSha256": "16502831e8c5aa3dbc839c3ff037cf0c0cef2b4dddcee04b1c81b95e960b1846",
+      "manifestUrl": "https://github.com/SkanderBog/dsh-pdf-reader/blob/bed4a7228714ddef96f0f34a39223d1699dd4a23/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-rc.2 || 0.2.1-rc.5 || 0.2.2-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-pdf-reader",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1793626157,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SkanderBog/dsh-pdf-reader",
+              "commit": "bed4a7228714ddef96f0f34a39223d1699dd4a23"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-rc.2 || 0.2.1-rc.5 || 0.2.2-alpha.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SkanderBog/dsh-pdf-reader",
+    "commit": "bed4a7228714ddef96f0f34a39223d1699dd4a23",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:26.163Z"
+}

@@ -1,0 +1,117 @@
+{
+  "full_name": "BB-84C/deepseek-harness-mobile-solution",
+  "originalPosition": 71,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 71,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:15.265Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "23b873913e5de8e005d9edece907a078ae1694ac43d094cc6e98239da9a9c796",
+      "url": "https://github.com/BB-84C/deepseek-harness-mobile-solution/blob/cbf1a1ad7145ecfbe5a745e63bc7f79321aaa183/README.md",
+      "ambiguous": true,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@bb-84c/dsh-mobile-cli",
+          "command": "dsh plugin --profile mobile add @bb-84c/dsh-mobile-cli",
+          "profile": "mobile"
+        },
+        {
+          "install": "@bb-84c/dsh-mobile-server",
+          "command": "dsh plugin --profile web add @bb-84c/dsh-mobile-server",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@bb-84c/hello-bundle",
+      "version": "0.0.1",
+      "path": "packages/dev/hello-bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BB-84C/deepseek-harness-mobile-solution",
+        "commit": "cbf1a1ad7145ecfbe5a745e63bc7f79321aaa183",
+        "path": "packages/dev/hello-bundle"
+      },
+      "manifestSha256": "d7ac20d9429ffc69269d501da5237d376fd781781f19a945c9bc40fa1af7a0d8",
+      "manifestUrl": "https://github.com/BB-84C/deepseek-harness-mobile-solution/blob/cbf1a1ad7145ecfbe5a745e63bc7f79321aaa183/packages/dev/hello-bundle/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@bb-84c/dsh-mobile-cli",
+      "version": "0.1.0",
+      "path": "packages/dsh-mobile-cli",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BB-84C/deepseek-harness-mobile-solution",
+        "commit": "cbf1a1ad7145ecfbe5a745e63bc7f79321aaa183",
+        "path": "packages/dsh-mobile-cli"
+      },
+      "manifestSha256": "2ad27ca155557ac025d3625e8a1d1ea2f01cd44aaeac94e7bb2a34b969e3fe73",
+      "manifestUrl": "https://github.com/BB-84C/deepseek-harness-mobile-solution/blob/cbf1a1ad7145ecfbe5a745e63bc7f79321aaa183/packages/dsh-mobile-cli/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@bb-84c/dsh-mobile-server",
+      "version": "0.1.0",
+      "path": "packages/dsh-mobile-server",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BB-84C/deepseek-harness-mobile-solution",
+        "commit": "cbf1a1ad7145ecfbe5a745e63bc7f79321aaa183",
+        "path": "packages/dsh-mobile-server"
+      },
+      "manifestSha256": "db1d8609370ada1e6f3241514088b9add09300d6710117eb5ca340e5b7a5e4ca",
+      "manifestUrl": "https://github.com/BB-84C/deepseek-harness-mobile-solution/blob/cbf1a1ad7145ecfbe5a745e63bc7f79321aaa183/packages/dsh-mobile-server/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "target": "@bb-84c/dsh-mobile-cli",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    },
+    {
+      "target": "@bb-84c/dsh-mobile-server",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@bb-84c/dsh-mobile-cli",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@bb-84c/dsh-mobile-server",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BB-84C/deepseek-harness-mobile-solution",
+    "commit": "cbf1a1ad7145ecfbe5a745e63bc7f79321aaa183",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:07:20.180Z"
+}

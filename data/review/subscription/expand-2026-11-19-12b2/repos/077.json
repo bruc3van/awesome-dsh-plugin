@@ -1,0 +1,232 @@
+{
+  "full_name": "TinyNian/dsh-harness-os",
+  "originalPosition": 77,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 77,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:29.676Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f6ee02317f1239b193d460c2bda6c48655e1543df25de82faa67b2760bc3bd8c",
+      "url": "https://github.com/TinyNian/dsh-harness-os/blob/41646817d7c83db8cbd4108ad57bfe7805f8bd4c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TinyNian/dsh-harness-os#path:packages/dsh-startup-screen",
+          "command": "dsh plugin --profile desktop add \"github:TinyNian/dsh-harness-os#path:packages/dsh-startup-screen\"",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/TinyNian/dsh-harness-os#path:packages/dsh-harness-os",
+          "command": "dsh plugin --profile desktop add \"github:TinyNian/dsh-harness-os#path:packages/dsh-harness-os\"",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "packages/dsh-startup-screen/README.md",
+      "sha256": "cca3f96c2c481272fda92a737c35a7052e16bbe518090ee046a1cbf879e0d1a6",
+      "url": "https://github.com/TinyNian/dsh-harness-os/blob/41646817d7c83db8cbd4108ad57bfe7805f8bd4c/packages/dsh-startup-screen/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-harness-os",
+      "version": "0.2.2",
+      "path": "packages/dsh-harness-os",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TinyNian/dsh-harness-os",
+        "commit": "41646817d7c83db8cbd4108ad57bfe7805f8bd4c",
+        "path": "packages/dsh-harness-os"
+      },
+      "manifestSha256": "e6cbbc1336acaa0583159dfcc559bf3341155581adf85d2687d1343cd6b83bef",
+      "manifestUrl": "https://github.com/TinyNian/dsh-harness-os/blob/41646817d7c83db8cbd4108ad57bfe7805f8bd4c/packages/dsh-harness-os/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-harness-os",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1792985433,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TinyNian/dsh-harness-os",
+              "commit": "41646817d7c83db8cbd4108ad57bfe7805f8bd4c",
+              "path": "packages/dsh-harness-os"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-startup-screen",
+      "version": "1.6.0-hos.3",
+      "path": "packages/dsh-startup-screen",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TinyNian/dsh-harness-os",
+        "commit": "41646817d7c83db8cbd4108ad57bfe7805f8bd4c",
+        "path": "packages/dsh-startup-screen"
+      },
+      "manifestSha256": "6d38a3ddb6044c808b278ae868a69b70a45658ef8cd07a8e42a279843aaa32e8",
+      "manifestUrl": "https://github.com/TinyNian/dsh-harness-os/blob/41646817d7c83db8cbd4108ad57bfe7805f8bd4c/packages/dsh-startup-screen/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-startup-screen",
+        "versions": [
+          {
+            "version": "1.6.0-hos.3",
+            "publishTimestamp": 1792985433,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TinyNian/dsh-harness-os",
+              "commit": "41646817d7c83db8cbd4108ad57bfe7805f8bd4c",
+              "path": "packages/dsh-startup-screen"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/TinyNian/dsh-harness-os#path:packages/dsh-startup-screen",
+      "origin": "git_target",
+      "name": "dsh-startup-screen",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-startup-screen",
+        "title": "dsh-startup-screen",
+        "description": "（dsh-harness-os fork）DeepSeek Harness 启动界面与启动动画：黑幕 DeepSeek 标识 → 过曝洗白 → 暖白档案底板 → 交互式访问授权序列（需要访问许可 / 身份资料确认 / 接收访问需求 / 开始读取权限 / 读取完毕·核验通过 / 欢迎访问）。中文主字 + 英文等宽副标题，真声素材 + 界面音效，身份名称等参数在 DSH 设置页可改。web profile 与 DeepSeek Harness Desktop 桌面端通用。",
+        "author": "沈宏宏",
+        "homepage": "https://github.com/TinyNian/dsh-harness-os/tree/main/packages/dsh-startup-screen",
+        "repository": {
+          "url": "https://github.com/TinyNian/dsh-harness-os",
+          "directory": "packages/dsh-startup-screen"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek-harness-desktop",
+            "startup",
+            "splash",
+            "boot-animation"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.6.0-hos.3",
+            "publishTimestamp": 1792985433,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TinyNian/dsh-harness-os",
+              "commit": "41646817d7c83db8cbd4108ad57bfe7805f8bd4c",
+              "path": "packages/dsh-startup-screen"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "packages/dsh-startup-screen",
+          "commit": "41646817d7c83db8cbd4108ad57bfe7805f8bd4c",
+          "name": "dsh-startup-screen",
+          "version": "1.6.0-hos.3",
+          "url": "https://github.com/TinyNian/dsh-harness-os",
+          "manifestSha256": "6d38a3ddb6044c808b278ae868a69b70a45658ef8cd07a8e42a279843aaa32e8",
+          "publishTimestamp": 1792985433
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/TinyNian/dsh-harness-os#path:packages/dsh-harness-os",
+      "origin": "git_target",
+      "name": "dsh-harness-os",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-harness-os",
+        "title": "dsh-harness-os",
+        "description": "DeepSeek Harness 主界面皮肤「Harness OS」：沿用 dsh-startup-screen 开机动画的技术档案版式——暖白 / 暗色底板、发丝机框、等宽读数、准星罗盘。开机动画揭幕时原地接住常驻件，其余部件按同一节奏装配。纯客户端插件，不改 DSH 源码。",
+        "author": "TinyNian",
+        "homepage": "https://github.com/TinyNian/dsh-harness-os#readme",
+        "repository": {
+          "url": "https://github.com/TinyNian/dsh-harness-os",
+          "directory": "packages/dsh-harness-os"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "skin",
+            "theme",
+            "ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1792985433,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TinyNian/dsh-harness-os",
+              "commit": "41646817d7c83db8cbd4108ad57bfe7805f8bd4c",
+              "path": "packages/dsh-harness-os"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "packages/dsh-harness-os",
+          "commit": "41646817d7c83db8cbd4108ad57bfe7805f8bd4c",
+          "name": "dsh-harness-os",
+          "version": "0.2.2",
+          "url": "https://github.com/TinyNian/dsh-harness-os",
+          "manifestSha256": "e6cbbc1336acaa0583159dfcc559bf3341155581adf85d2687d1343cd6b83bef",
+          "publishTimestamp": 1792985433
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/TinyNian/dsh-harness-os#path:packages/dsh-startup-screen",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/TinyNian/dsh-harness-os#path:packages/dsh-harness-os",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TinyNian/dsh-harness-os",
+    "commit": "41646817d7c83db8cbd4108ad57bfe7805f8bd4c",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:35.530Z"
+}

@@ -1,0 +1,145 @@
+{
+  "full_name": "WJZ-P/dsh-model-capabilities",
+  "originalPosition": 88,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 88,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:35.270Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f5aefedf290771e3fea5f77fe59541413451bb77e217998ebaee97a77947001f",
+      "url": "https://github.com/WJZ-P/dsh-model-capabilities/blob/4b351a8890170caa85c9b5c4e6ed4ad0dd6599e8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-model-capability",
+          "command": "dsh plugin --profile web add dsh-model-capability",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "d2cc59e5fc2ea214b399dc5bc1c6b07d479f75439e7611072193d02e34f9e457",
+      "url": "https://github.com/WJZ-P/dsh-model-capabilities/blob/4b351a8890170caa85c9b5c4e6ed4ad0dd6599e8/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-model-capability",
+          "command": "dsh plugin --profile web add dsh-model-capability",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-model-capability",
+      "version": "1.0.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WJZ-P/dsh-model-capabilities",
+        "commit": "4b351a8890170caa85c9b5c4e6ed4ad0dd6599e8"
+      },
+      "manifestSha256": "489071218629d0d59b4d7ff1ec80fe9892bed2ea8e9734da14fc3caa6a3c699b",
+      "manifestUrl": "https://github.com/WJZ-P/dsh-model-capabilities/blob/4b351a8890170caa85c9b5c4e6ed4ad0dd6599e8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-model-capability",
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1787155749,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WJZ-P/dsh-model-capabilities",
+              "commit": "4b351a8890170caa85c9b5c4e6ed4ad0dd6599e8"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-model-capability",
+      "origin": "npm",
+      "name": "dsh-model-capability",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-model-capability",
+        "title": "dsh-model-capability",
+        "description": "Explicit model input-modality selection for the DeepSeek Harness Web UI",
+        "homepage": "https://github.com/WJZ-P/dsh-model-capabilities#readme",
+        "repository": {
+          "url": "https://github.com/WJZ-P/dsh-model-capabilities"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "models",
+            "multimodal"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyNHB4IiBmaWxsPSIjNWY2MzY4Ij48cGF0aCBkPSJNMjAwLTEyMHEtMzMgMC01Ni41LTIzLjVUMTIwLTIwMHYtNTYwcTAtMzMgMjMuNS01Ni41VDIwMC04NDBoNTYwcTMzIDAgNTYuNSAyMy41VDg0MC03NjB2NTYwcTAgMzMtMjMuNSA1Ni41VDc2MC0xMjBIMjAwWm0zMjAtMzIwdjI0MGgyNDB2LTI0MEg1MjBabTAtODBoMjQwdi0yNDBINTIwdjI0MFptLTgwIDB2LTI0MEgyMDB2MjQwaDI0MFptMCA4MEgyMDB2MjQwaDI0MHYtMjQwWiIvPjwvc3ZnPg==",
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1787154994,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.5"
+            }
+          }
+        ]
+      },
+      "registrySha256": "307be2bd2fc97242027b4558968764452041682480876c9c910aea87811b5e89",
+      "evidence": [
+        {
+          "name": "dsh-model-capability",
+          "version": "1.0.1",
+          "tarball": "https://registry.npmjs.org/dsh-model-capability/-/dsh-model-capability-1.0.1.tgz",
+          "integrity": "sha512-G5413jd85ELcdpu3+3PQQrzVOBKywj3lasETq3RWqDFgdTVn4w21AP5psGv+evLIL6CegXG1vbuiVJyHVKHIcQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-model-capability",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WJZ-P/dsh-model-capabilities",
+    "commit": "4b351a8890170caa85c9b5c4e6ed4ad0dd6599e8",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:37.816Z"
+}

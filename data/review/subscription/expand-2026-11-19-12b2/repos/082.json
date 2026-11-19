@@ -1,0 +1,77 @@
+{
+  "full_name": "Tulipe1735/dsh-plugin-kefu",
+  "originalPosition": 82,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 82,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:32.757Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "66a9e23c2381992a9f2d3cfd02f6316945358bc2131c21a97e649148704ba4e6",
+      "url": "https://github.com/Tulipe1735/dsh-plugin-kefu/blob/8671f94db33a6ab524489df8ecbd0389b91dce6d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "daemon/README.md",
+      "sha256": "0041aaa02f9cb4cb627af1498bc872b1c30f11e299c0a51612408cff962eb59c",
+      "url": "https://github.com/Tulipe1735/dsh-plugin-kefu/blob/8671f94db33a6ab524489df8ecbd0389b91dce6d/daemon/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-kefu",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tulipe1735/dsh-plugin-kefu",
+        "commit": "8671f94db33a6ab524489df8ecbd0389b91dce6d"
+      },
+      "manifestSha256": "2397754207c3f115706130d562b0b080b0a680f4ec2b21825cd9f30d370c38e2",
+      "manifestUrl": "https://github.com/Tulipe1735/dsh-plugin-kefu/blob/8671f94db33a6ab524489df8ecbd0389b91dce6d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-kefu",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1793364491,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tulipe1735/dsh-plugin-kefu",
+              "commit": "8671f94db33a6ab524489df8ecbd0389b91dce6d"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tulipe1735/dsh-plugin-kefu",
+    "commit": "8671f94db33a6ab524489df8ecbd0389b91dce6d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:34.928Z"
+}

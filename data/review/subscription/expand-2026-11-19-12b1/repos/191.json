@@ -1,0 +1,50 @@
+{
+  "full_name": "Nothree-code/folder-tree-sh",
+  "originalPosition": 191,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 191,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:05.500Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "45dd4b4b1f8b231b04487644fa658b8964000cc875403df10843cdb7d9d351a6",
+      "url": "https://github.com/Nothree-code/folder-tree-sh/blob/9b1aaaa7a2c19ab74d386e2964ea45bf2ec08a3b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "folder-tree-sh",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nothree-code/folder-tree-sh",
+        "commit": "9b1aaaa7a2c19ab74d386e2964ea45bf2ec08a3b"
+      },
+      "manifestSha256": "9e79f7d17b3d8cb27923b2b303efd5e77408f2bcd50bf588852e3198bbf519b4",
+      "manifestUrl": "https://github.com/Nothree-code/folder-tree-sh/blob/9b1aaaa7a2c19ab74d386e2964ea45bf2ec08a3b/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nothree-code/folder-tree-sh",
+    "commit": "9b1aaaa7a2c19ab74d386e2964ea45bf2ec08a3b",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:08:07.304Z"
+}

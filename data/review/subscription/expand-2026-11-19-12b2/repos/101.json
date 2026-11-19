@@ -1,0 +1,81 @@
+{
+  "full_name": "XHToken/dsh-intelligent-router",
+  "originalPosition": 101,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 101,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:40.468Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "faa73e79038d45fb1c1ec889b7ac4ab90e93cf06dc61caeba08b1ccb9a7c6ef0",
+      "url": "https://github.com/XHToken/dsh-intelligent-router/blob/a61e5153c3ad28722c334cf0bc7a48ee61620c73/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/XHToken/dsh-intelligent-router",
+          "command": "dsh plugin --profile web add github:XHToken/dsh-intelligent-router",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-llm-router",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XHToken/dsh-intelligent-router",
+        "commit": "a61e5153c3ad28722c334cf0bc7a48ee61620c73"
+      },
+      "manifestSha256": "3956039f55ab268f046bb37e1c86b23f19b649519e3312ec041be089e6fcd23f",
+      "manifestUrl": "https://github.com/XHToken/dsh-intelligent-router/blob/a61e5153c3ad28722c334cf0bc7a48ee61620c73/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-llm-router",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794801711,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/XHToken/dsh-intelligent-router",
+              "commit": "a61e5153c3ad28722c334cf0bc7a48ee61620c73"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/XHToken/dsh-intelligent-router",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XHToken/dsh-intelligent-router",
+    "commit": "a61e5153c3ad28722c334cf0bc7a48ee61620c73",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:42.334Z"
+}

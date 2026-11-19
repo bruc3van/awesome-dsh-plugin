@@ -1,0 +1,78 @@
+{
+  "full_name": "burningg/dsh-workspace-categories",
+  "originalPosition": 165,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 165,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:05.681Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "43d401cb80f1f13978964b129d2594b2ccf741b5dace0784ea0391eb8e427b2e",
+      "url": "https://github.com/burningg/dsh-workspace-categories/blob/86ffcbfb49b12799d66380b4462966cbc74e341a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/burningg/dsh-workspace-categories",
+          "command": "dsh plugin --profile web add github:burningg/dsh-workspace-categories",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@burningg/dsh-workspace-categories",
+      "version": "2.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/burningg/dsh-workspace-categories",
+        "commit": "86ffcbfb49b12799d66380b4462966cbc74e341a"
+      },
+      "manifestSha256": "0e2b73c202ce8e0677826d46e99600a4cd28fc7c8763f658c4781dd86d644447",
+      "manifestUrl": "https://github.com/burningg/dsh-workspace-categories/blob/86ffcbfb49b12799d66380b4462966cbc74e341a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@burningg/dsh-workspace-categories",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1793351558,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/burningg/dsh-workspace-categories",
+              "commit": "86ffcbfb49b12799d66380b4462966cbc74e341a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/burningg/dsh-workspace-categories",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/burningg/dsh-workspace-categories",
+    "commit": "86ffcbfb49b12799d66380b4462966cbc74e341a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:07.599Z"
+}

@@ -1,0 +1,141 @@
+{
+  "full_name": "QinpanWan/dsh-sky-skin",
+  "originalPosition": 38,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 38,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:13.576Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9420b38172b28d51736a3fa6fc76243cb2e0132f158a4a562abea0b06713e0ad",
+      "url": "https://github.com/QinpanWan/dsh-sky-skin/blob/107538f90757073b3d5ccce9e0300be0cafaa5e3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Entity-Him/dsh-sky-skin",
+          "command": "dsh plugin --profile web add github:Entity-Him/dsh-sky-skin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "523ba7b28e155ff409bb7fbc4a94d891f3cfcba674a5e53289e78faeaf44e932",
+      "url": "https://github.com/QinpanWan/dsh-sky-skin/blob/107538f90757073b3d5ccce9e0300be0cafaa5e3/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Entity-Him/dsh-sky-skin",
+          "command": "dsh plugin --profile web add github:Entity-Him/dsh-sky-skin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sky-skin",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QinpanWan/dsh-sky-skin",
+        "commit": "107538f90757073b3d5ccce9e0300be0cafaa5e3"
+      },
+      "manifestSha256": "a074244042696e80a642b9bd265fd25513ac5e9cd2ecd1fe552171331008e236",
+      "manifestUrl": "https://github.com/QinpanWan/dsh-sky-skin/blob/107538f90757073b3d5ccce9e0300be0cafaa5e3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-sky-skin",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787665647,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QinpanWan/dsh-sky-skin",
+              "commit": "107538f90757073b3d5ccce9e0300be0cafaa5e3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Entity-Him/dsh-sky-skin",
+      "origin": "git_target",
+      "name": "dsh-sky-skin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-sky-skin",
+        "title": "dsh-sky-skin",
+        "description": "光遇·遇境 (Sky: Children of the Light) 主题皮肤 — 七大地图主题(遇境/晨岛/云野/雨林/霞谷/暮土/禁阁)随心切换,设置页一键热切换",
+        "homepage": "https://github.com/Entity-Him/dsh-sky-skin",
+        "repository": {
+          "url": "https://github.com/Entity-Him/dsh-sky-skin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "skin",
+            "theme",
+            "sky",
+            "cotl",
+            "harmonyos"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1787665647,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Entity-Him/dsh-sky-skin",
+              "commit": "107538f90757073b3d5ccce9e0300be0cafaa5e3"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "107538f90757073b3d5ccce9e0300be0cafaa5e3",
+          "name": "dsh-sky-skin",
+          "version": "0.2.0",
+          "url": "https://github.com/Entity-Him/dsh-sky-skin",
+          "manifestSha256": "a074244042696e80a642b9bd265fd25513ac5e9cd2ecd1fe552171331008e236",
+          "publishTimestamp": 1787665647
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Entity-Him/dsh-sky-skin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QinpanWan/dsh-sky-skin",
+    "commit": "107538f90757073b3d5ccce9e0300be0cafaa5e3",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:17.845Z"
+}

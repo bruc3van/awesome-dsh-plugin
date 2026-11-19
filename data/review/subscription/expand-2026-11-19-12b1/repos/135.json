@@ -1,0 +1,68 @@
+{
+  "full_name": "InterPSS-Project/ipss-agent",
+  "originalPosition": 135,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 135,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:41.524Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d96dbbb537feb51e5f39b160c9c2221042c15c47432d47cc9e830c018414ec91",
+      "url": "https://github.com/InterPSS-Project/ipss-agent/blob/36713e412230f3dee9cbf93252a159630aa96749/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@deepseek-ai/dsh-interpss",
+      "version": "0.8.0",
+      "path": "interpss-persistent",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/InterPSS-Project/ipss-agent",
+        "commit": "36713e412230f3dee9cbf93252a159630aa96749",
+        "path": "interpss-persistent"
+      },
+      "manifestSha256": "caaccad5b544f74c07e335ea229092d79f5409d452471d38bccec3f6502d40ba",
+      "manifestUrl": "https://github.com/InterPSS-Project/ipss-agent/blob/36713e412230f3dee9cbf93252a159630aa96749/interpss-persistent/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@deepseek-ai/dsh-interpss",
+        "versions": [
+          {
+            "version": "0.8.0",
+            "publishTimestamp": 1794183578,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/InterPSS-Project/ipss-agent",
+              "commit": "36713e412230f3dee9cbf93252a159630aa96749",
+              "path": "interpss-persistent"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/InterPSS-Project/ipss-agent",
+    "commit": "36713e412230f3dee9cbf93252a159630aa96749",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:43.862Z"
+}

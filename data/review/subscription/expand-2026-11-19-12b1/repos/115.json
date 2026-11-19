@@ -1,0 +1,78 @@
+{
+  "full_name": "GongYuanCaiJi/dsh-understand-anything",
+  "originalPosition": 115,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 115,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:33.901Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e11cfd0aed9643a2150afd0ce20815153c045f86722f429a2a151d7e1ae1a05f",
+      "url": "https://github.com/GongYuanCaiJi/dsh-understand-anything/blob/51fa7f14e060d5940b39b608e81226b98e7a9646/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/GongYuanCaiJi/dsh-understand-anything",
+          "command": "dsh plugin --profile <你的 profile> add github:GongYuanCaiJi/dsh-understand-anything",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-understand-anything",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GongYuanCaiJi/dsh-understand-anything",
+        "commit": "51fa7f14e060d5940b39b608e81226b98e7a9646"
+      },
+      "manifestSha256": "5d006657590ddc8af1e486621c70c81526330f5ed22866efac3117aac0131089",
+      "manifestUrl": "https://github.com/GongYuanCaiJi/dsh-understand-anything/blob/51fa7f14e060d5940b39b608e81226b98e7a9646/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-understand-anything",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786804851,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GongYuanCaiJi/dsh-understand-anything",
+              "commit": "51fa7f14e060d5940b39b608e81226b98e7a9646"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/GongYuanCaiJi/dsh-understand-anything",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GongYuanCaiJi/dsh-understand-anything",
+    "commit": "51fa7f14e060d5940b39b608e81226b98e7a9646",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:35.819Z"
+}

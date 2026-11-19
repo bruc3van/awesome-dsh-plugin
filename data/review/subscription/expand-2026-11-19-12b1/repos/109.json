@@ -1,0 +1,77 @@
+{
+  "full_name": "Frog755/dsh-client-auto-retry",
+  "originalPosition": 109,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 109,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:31.654Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e5f6479e9bbb73665a57a460b18f34262d1ba4abf45acf6116253bc88d0bb17a",
+      "url": "https://github.com/Frog755/dsh-client-auto-retry/blob/3ffab63905166bfeb9a3434bfe7f20e049e72c62/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README-EN.md",
+      "sha256": "85892288b59750247131bc7b21ebb6145f285e91dfdc7291679d9f87aba17ad6",
+      "url": "https://github.com/Frog755/dsh-client-auto-retry/blob/3ffab63905166bfeb9a3434bfe7f20e049e72c62/README-EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@frog755/dsh-client-auto-retry",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Frog755/dsh-client-auto-retry",
+        "commit": "3ffab63905166bfeb9a3434bfe7f20e049e72c62"
+      },
+      "manifestSha256": "f52b0d11f98b591bff68f6cbebac35e275b1dac5f81fa37d735ca5705f6f06e6",
+      "manifestUrl": "https://github.com/Frog755/dsh-client-auto-retry/blob/3ffab63905166bfeb9a3434bfe7f20e049e72c62/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.7",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@frog755/dsh-client-auto-retry",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1789009256,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Frog755/dsh-client-auto-retry",
+              "commit": "3ffab63905166bfeb9a3434bfe7f20e049e72c62"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Frog755/dsh-client-auto-retry",
+    "commit": "3ffab63905166bfeb9a3434bfe7f20e049e72c62",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:33.814Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "Witherwithwinter/dsh-ccx",
+  "originalPosition": 10,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 10,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:48.097Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "57e07a851a28d304056714ad8a78f7f194e3ef46861f01001703543011786f11",
+      "url": "https://github.com/Witherwithwinter/dsh-ccx/blob/8fcf6b4edc4b146378b48cd56ccafd3ea141604a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ccx",
+      "version": "0.8.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Witherwithwinter/dsh-ccx",
+        "commit": "8fcf6b4edc4b146378b48cd56ccafd3ea141604a"
+      },
+      "manifestSha256": "9b5c95eb3b86ac20acaf8e8d33c47174ef8e21bb892d70f20fd616a9d8ed19b7",
+      "manifestUrl": "https://github.com/Witherwithwinter/dsh-ccx/blob/8fcf6b4edc4b146378b48cd56ccafd3ea141604a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ccx",
+        "versions": [
+          {
+            "version": "0.8.9",
+            "publishTimestamp": 1792676418,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Witherwithwinter/dsh-ccx",
+              "commit": "8fcf6b4edc4b146378b48cd56ccafd3ea141604a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Witherwithwinter/dsh-ccx",
+    "commit": "8fcf6b4edc4b146378b48cd56ccafd3ea141604a",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:50.024Z"
+}

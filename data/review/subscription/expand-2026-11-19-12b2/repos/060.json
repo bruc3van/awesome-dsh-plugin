@@ -1,0 +1,69 @@
+{
+  "full_name": "SkanderBog/dsh-context-manager",
+  "originalPosition": 60,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 60,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:23.428Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "baa46f0486ed7693feda8dd756c6c1989d0abd28b8a6b6e80bdba2a13e528008",
+      "url": "https://github.com/SkanderBog/dsh-context-manager/blob/d097f628ef6f70f225a5a021c1530298d6919d9e/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-context-manager",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SkanderBog/dsh-context-manager",
+        "commit": "d097f628ef6f70f225a5a021c1530298d6919d9e"
+      },
+      "manifestSha256": "aa8a04302738a2627e3d70b40543f0b3798933c0c2c44561a76f9a61aaad26e9",
+      "manifestUrl": "https://github.com/SkanderBog/dsh-context-manager/blob/d097f628ef6f70f225a5a021c1530298d6919d9e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-rc.2 || 0.2.1-rc.5 || 0.2.2-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-context-manager",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1793623876,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SkanderBog/dsh-context-manager",
+              "commit": "d097f628ef6f70f225a5a021c1530298d6919d9e"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-rc.2 || 0.2.1-rc.5 || 0.2.2-alpha.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SkanderBog/dsh-context-manager",
+    "commit": "d097f628ef6f70f225a5a021c1530298d6919d9e",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:25.276Z"
+}

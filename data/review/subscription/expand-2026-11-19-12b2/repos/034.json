@@ -1,0 +1,69 @@
+{
+  "full_name": "QiE2035/dsh-llm-headers",
+  "originalPosition": 34,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 34,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:11.707Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c1d6bcbe1dab7d6858255307f8a458bf8374c52874e263e435bde318a0a93534",
+      "url": "https://github.com/QiE2035/dsh-llm-headers/blob/9565595b15ec864eb3e523c567798ebd940dad4a/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-llm-headers",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QiE2035/dsh-llm-headers",
+        "commit": "9565595b15ec864eb3e523c567798ebd940dad4a"
+      },
+      "manifestSha256": "dc351e983e86840c82abb5854c4c455d08323e51d60cf1fb7b0954d89b0732c9",
+      "manifestUrl": "https://github.com/QiE2035/dsh-llm-headers/blob/9565595b15ec864eb3e523c567798ebd940dad4a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-llm-headers",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786848150,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QiE2035/dsh-llm-headers",
+              "commit": "9565595b15ec864eb3e523c567798ebd940dad4a"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QiE2035/dsh-llm-headers",
+    "commit": "9565595b15ec864eb3e523c567798ebd940dad4a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:13.575Z"
+}

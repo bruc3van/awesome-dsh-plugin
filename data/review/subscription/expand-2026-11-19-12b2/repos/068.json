@@ -1,0 +1,134 @@
+{
+  "full_name": "SpookyWaste/dsh-plan-compact-execute",
+  "originalPosition": 68,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 68,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:27.168Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f227bdf7881233ee05c1c34814f5899a0bab9b8d1132b21c8df8f47a821489d5",
+      "url": "https://github.com/SpookyWaste/dsh-plan-compact-execute/blob/373a269300d1a0aa72306e5893b7767f4de7b302/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plan-compact-execute",
+          "command": "dsh plugin --profile web add dsh-plan-compact-execute",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "9006b70df39fd4e635e002c8221fce80d66633bfc30223d581d6691fa701e6fd",
+      "url": "https://github.com/SpookyWaste/dsh-plan-compact-execute/blob/373a269300d1a0aa72306e5893b7767f4de7b302/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plan-compact-execute",
+          "command": "dsh plugin --profile web add dsh-plan-compact-execute",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plan-compact-execute",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SpookyWaste/dsh-plan-compact-execute",
+        "commit": "373a269300d1a0aa72306e5893b7767f4de7b302"
+      },
+      "manifestSha256": "be6464ca0fc0ae7622fa6010164411fabbf3756572b98b01e8f8034492e586f9",
+      "manifestUrl": "https://github.com/SpookyWaste/dsh-plan-compact-execute/blob/373a269300d1a0aa72306e5893b7767f4de7b302/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plan-compact-execute",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790938621,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SpookyWaste/dsh-plan-compact-execute",
+              "commit": "373a269300d1a0aa72306e5893b7767f4de7b302"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plan-compact-execute",
+      "origin": "npm",
+      "name": "dsh-plan-compact-execute",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plan-compact-execute",
+        "title": "dsh-plan-compact-execute",
+        "description": "Adds a Compact-and-run option to the DSH Web plan-review card: compact the history submitted before the plan, then approve it.",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "plan-mode",
+            "compaction"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790938838,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0b17310dc1b883b186e246d353a5a7afe5f47aeefd645d218394203a5052edd1",
+      "evidence": [
+        {
+          "name": "dsh-plan-compact-execute",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-plan-compact-execute/-/dsh-plan-compact-execute-0.1.2.tgz",
+          "integrity": "sha512-5eVZwBTN5Xdmmr+husim1i/3bCTydCeiM4YMml7HBF7QGTsJr4BHdzi78VHagjPO9hG9M5DkVOn6xFhEotbuiA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plan-compact-execute",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SpookyWaste/dsh-plan-compact-execute",
+    "commit": "373a269300d1a0aa72306e5893b7767f4de7b302",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:29.622Z"
+}

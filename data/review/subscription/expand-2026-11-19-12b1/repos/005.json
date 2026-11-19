@@ -1,0 +1,78 @@
+{
+  "full_name": "John-20260101/zgs-ppt",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:45.061Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "87247c98f7546419590a5ed1fd6ba68fb9dcfe3fb85d007661c373f50fa75132",
+      "url": "https://github.com/John-20260101/zgs-ppt/blob/95a60560f097746d8c33dd8a28516db3e9f6c641/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/John-20260101/zgs-ppt",
+          "command": "dsh plugin --profile default add github:John-20260101/zgs-ppt",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "zgs-ppt",
+      "version": "0.4.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/John-20260101/zgs-ppt",
+        "commit": "95a60560f097746d8c33dd8a28516db3e9f6c641"
+      },
+      "manifestSha256": "8c8d36bd2dce9954dda8e1c9229d324f5904fd13d0f436e6c56cc6fe3026bdb0",
+      "manifestUrl": "https://github.com/John-20260101/zgs-ppt/blob/95a60560f097746d8c33dd8a28516db3e9f6c641/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "zgs-ppt",
+        "versions": [
+          {
+            "version": "0.4.3",
+            "publishTimestamp": 1793635382,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/John-20260101/zgs-ppt",
+              "commit": "95a60560f097746d8c33dd8a28516db3e9f6c641"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/John-20260101/zgs-ppt",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/John-20260101/zgs-ppt",
+    "commit": "95a60560f097746d8c33dd8a28516db3e9f6c641",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:47.038Z"
+}

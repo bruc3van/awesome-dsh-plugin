@@ -1,0 +1,84 @@
+{
+  "full_name": "LINinLIN-0079/godot-asset-planner-public",
+  "originalPosition": 149,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 149,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:48.546Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ca2d957495e5032919c10f381e9ca69be96971c7d71aaf8f25a300b0a7d9c1dc",
+      "url": "https://github.com/LINinLIN-0079/godot-asset-planner-public/blob/a0e70b004a51c216bd98358ccb5021f1a696f470/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "godot-asset-planner",
+          "command": "dsh plugin --profile web add godot-asset-planner",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "godot-asset-planner",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LINinLIN-0079/godot-asset-planner-public",
+        "commit": "a0e70b004a51c216bd98358ccb5021f1a696f470"
+      },
+      "manifestSha256": "7950a5f3e57bbc5dcde834fd682b97aeeac634e69d45107efc0aae41ee086bb3",
+      "manifestUrl": "https://github.com/LINinLIN-0079/godot-asset-planner-public/blob/a0e70b004a51c216bd98358ccb5021f1a696f470/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "godot-asset-planner",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787806566,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LINinLIN-0079/godot-asset-planner-public",
+              "commit": "a0e70b004a51c216bd98358ccb5021f1a696f470"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "godot-asset-planner",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "godot-asset-planner",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LINinLIN-0079/godot-asset-planner-public",
+    "commit": "a0e70b004a51c216bd98358ccb5021f1a696f470",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:50.484Z"
+}

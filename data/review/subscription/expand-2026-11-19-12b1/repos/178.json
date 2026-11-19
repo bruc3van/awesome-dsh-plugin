@@ -1,0 +1,146 @@
+{
+  "full_name": "MoonCoder-HAPPY/SpecWorkflow",
+  "originalPosition": 178,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 178,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:00.365Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e4bb1399f8050d6565968acbf18047e2aa81822e142b1295d352d0eb92ea2005",
+      "url": "https://github.com/MoonCoder-HAPPY/SpecWorkflow/blob/4b070cf8c8875619480cf211ef10879ebffd821c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "specworkflow",
+          "command": "dsh plugin --profile web add specworkflow",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "2d753424e40db3362ffeee4339f8d451eb1eb72b81c496a0991e3d281d30dc7d",
+      "url": "https://github.com/MoonCoder-HAPPY/SpecWorkflow/blob/4b070cf8c8875619480cf211ef10879ebffd821c/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "specworkflow",
+          "command": "dsh plugin --profile web add specworkflow",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "specworkflow",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MoonCoder-HAPPY/SpecWorkflow",
+        "commit": "4b070cf8c8875619480cf211ef10879ebffd821c"
+      },
+      "manifestSha256": "d7a383b569b580c1d54bd752a7ff98a87a7dfde85e538b8bccf54ef06fb9e6c1",
+      "manifestUrl": "https://github.com/MoonCoder-HAPPY/SpecWorkflow/blob/4b070cf8c8875619480cf211ef10879ebffd821c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "specworkflow",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1794819718,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MoonCoder-HAPPY/SpecWorkflow",
+              "commit": "4b070cf8c8875619480cf211ef10879ebffd821c"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "specworkflow",
+      "origin": "npm",
+      "name": "specworkflow",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "specworkflow",
+        "title": "specworkflow",
+        "description": "Workflow skill pack for DeepSeek Harness: requirement grilling, specs, implementation, delivery review, repair planning, bug diagnosis, and source-backed research.",
+        "homepage": "https://github.com/MoonCoder-HAPPY/SpecWorkflow#readme",
+        "repository": {
+          "url": "https://github.com/MoonCoder-HAPPY/SpecWorkflow"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "skills",
+            "agent-skills",
+            "workflow",
+            "spec"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1794034792,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "88d4ff4b622090c622447d8139e415abc97e3af0fb3e260660f18ac9ff20376b",
+      "evidence": [
+        {
+          "name": "specworkflow",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/specworkflow/-/specworkflow-0.1.2.tgz",
+          "integrity": "sha512-s5l+MUWhsVxCEp8/AerAxgdfQG+Ud7BFF8ih6VZPxU5RrjzFBQrkNj/oRQX2aFQkQx3oqWw+8yLSNq12vYIV6A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "specworkflow",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MoonCoder-HAPPY/SpecWorkflow",
+    "commit": "4b070cf8c8875619480cf211ef10879ebffd821c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:02.986Z"
+}

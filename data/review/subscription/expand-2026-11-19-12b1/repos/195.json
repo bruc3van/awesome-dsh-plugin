@@ -1,0 +1,128 @@
+{
+  "full_name": "Paimonshen/dsh-coding-plugin",
+  "originalPosition": 195,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 195,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:07.404Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f323989b1519e7fd7179e9571d63b7982e1ac72de723ea04b4d174fda171bd5f",
+      "url": "https://github.com/Paimonshen/dsh-coding-plugin/blob/f0dbd9c0f224a60de94288b36ef7fb32a7ce89b4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-coding-plugin",
+          "command": "dsh plugin add dsh-coding-plugin",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-coding-plugin",
+      "version": "1.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Paimonshen/dsh-coding-plugin",
+        "commit": "f0dbd9c0f224a60de94288b36ef7fb32a7ce89b4"
+      },
+      "manifestSha256": "34b8ee1963e92b6922d5f62226267c30ed90392de677997b5d3454e8aa354372",
+      "manifestUrl": "https://github.com/Paimonshen/dsh-coding-plugin/blob/f0dbd9c0f224a60de94288b36ef7fb32a7ce89b4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-coding-plugin",
+        "versions": [
+          {
+            "version": "1.2.1",
+            "publishTimestamp": 1791090046,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Paimonshen/dsh-coding-plugin",
+              "commit": "f0dbd9c0f224a60de94288b36ef7fb32a7ce89b4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-coding-plugin",
+      "origin": "npm",
+      "name": "dsh-coding-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-coding-plugin",
+        "title": "dsh-coding-plugin",
+        "description": "代码学习插件 — DSH 悬浮窗代码编辑器 / 多语言执行 / 课程关卡评判 / 进度笔记片段 / 分析直投对话",
+        "author": "Paimonshen",
+        "homepage": "https://github.com/Paimonshen/dsh-coding-plugin#readme",
+        "repository": {
+          "url": "https://github.com/Paimonshen/dsh-coding-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "plugin",
+            "coding",
+            "learning",
+            "code-runner",
+            "deepseek"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.2.1",
+            "publishTimestamp": 1791090064,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e24de0d7dcbbf24d73e817ac32203820a66a73dc65b6462960682c3560380582",
+      "evidence": [
+        {
+          "name": "dsh-coding-plugin",
+          "version": "1.2.1",
+          "tarball": "https://registry.npmjs.org/dsh-coding-plugin/-/dsh-coding-plugin-1.2.1.tgz",
+          "integrity": "sha512-VcgFKCPkCjxq7qwDixPX2uJC9o4AhFwmQXTszXbGD8w2mIMdHbABwfPO/AO3udPyn6NnuXwNXItZY5Dh1jOYjA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-coding-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Paimonshen/dsh-coding-plugin",
+    "commit": "f0dbd9c0f224a60de94288b36ef7fb32a7ce89b4",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:09.348Z"
+}

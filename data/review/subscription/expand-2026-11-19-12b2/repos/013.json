@@ -1,0 +1,81 @@
+{
+  "full_name": "Estellalee/dsh-outdoor-theme",
+  "originalPosition": 13,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 13,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:03.341Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c08b3d2807cc019a94cf52594088b4ff01f7a583b907de2e90de552aa68d07d0",
+      "url": "https://github.com/Estellalee/dsh-outdoor-theme/blob/236e5426f9a833191dd57758caef1fcd076d51ad/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Estellalee/dsh-outdoor-theme",
+          "command": "dsh plugin --profile web add github:Estellalee/dsh-outdoor-theme",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-outdoor-theme",
+      "version": "2.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Estellalee/dsh-outdoor-theme",
+        "commit": "236e5426f9a833191dd57758caef1fcd076d51ad"
+      },
+      "manifestSha256": "abc300575c9a9ffc7a8a27f71b7996de63006c4c7bdd26ce8f23b8d45571f62e",
+      "manifestUrl": "https://github.com/Estellalee/dsh-outdoor-theme/blob/236e5426f9a833191dd57758caef1fcd076d51ad/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-outdoor-theme",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1786722324,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Estellalee/dsh-outdoor-theme",
+              "commit": "236e5426f9a833191dd57758caef1fcd076d51ad"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Estellalee/dsh-outdoor-theme",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Estellalee/dsh-outdoor-theme",
+    "commit": "236e5426f9a833191dd57758caef1fcd076d51ad",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:05.258Z"
+}

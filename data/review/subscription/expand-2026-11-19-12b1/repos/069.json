@@ -1,0 +1,137 @@
+{
+  "full_name": "Awu12277/dsh-sleep-send",
+  "originalPosition": 69,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 69,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:14.845Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d8591eee2141ce1bb79063fa2f0f5d7eb21c1a1c0cc8dbe4be1ebb21d0b4acae",
+      "url": "https://github.com/Awu12277/dsh-sleep-send/blob/44022a70f7b6090b939b41fad67a1f0e9f39fa23/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-sleep-send",
+          "command": "dsh plugin --profile web add dsh-sleep-send",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Awu12277/dsh-sleep-send",
+          "command": "dsh plugin --profile web add github:Awu12277/dsh-sleep-send",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sleep-send",
+      "version": "1.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Awu12277/dsh-sleep-send",
+        "commit": "44022a70f7b6090b939b41fad67a1f0e9f39fa23"
+      },
+      "manifestSha256": "71553bad49fdb5e3c271d064852e2aca8d2f5fb756829a373457e1c55aef1313",
+      "manifestUrl": "https://github.com/Awu12277/dsh-sleep-send/blob/44022a70f7b6090b939b41fad67a1f0e9f39fa23/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-sleep-send",
+        "versions": [
+          {
+            "version": "1.2.3",
+            "publishTimestamp": 1787110363,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Awu12277/dsh-sleep-send",
+              "commit": "44022a70f7b6090b939b41fad67a1f0e9f39fa23"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-sleep-send",
+      "origin": "npm",
+      "name": "dsh-sleep-send",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-sleep-send",
+        "title": "dsh-sleep-send",
+        "description": "DSH Web 定时发送插件：在输入框旁提供定时发送按钮与配置，支持智能时段（12:00–14:00 / 18:00–次日 08:00 内最近时间）、自定义日期时间、多个定时任务，并通过 localStorage 持久化任务。清新天蓝主题。",
+        "repository": {
+          "url": "https://github.com/Awu12277/dsh-sleep-send"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "deepseek-harness",
+            "cordis",
+            "plugin",
+            "dsh-plugin",
+            "scheduled-send",
+            "timer",
+            "chat"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.2.3",
+            "publishTimestamp": 1786958509,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "29d40129ded704839ec325af3a3621cbe6d156cb7e3429cd825ace8c566f7219",
+      "evidence": [
+        {
+          "name": "dsh-sleep-send",
+          "version": "1.2.3",
+          "tarball": "https://registry.npmjs.org/dsh-sleep-send/-/dsh-sleep-send-1.2.3.tgz",
+          "integrity": "sha512-KOEEhdeAvWDnL/UF9OUo5idKIUx6bvqpgS/8gU6wH5qgIku4Dnn54olkts+/UidhYgu2YX+SrJNPSa3MMqgBbA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-sleep-send",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Awu12277/dsh-sleep-send",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Awu12277/dsh-sleep-send",
+    "commit": "44022a70f7b6090b939b41fad67a1f0e9f39fa23",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:16.768Z"
+}

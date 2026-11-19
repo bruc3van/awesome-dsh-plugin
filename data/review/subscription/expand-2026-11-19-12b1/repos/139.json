@@ -1,0 +1,112 @@
+{
+  "full_name": "Jesse-njx/dsh-cowork",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:43.862Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8182c667e98c8ab30844ed0faf34a9a1749f4303ef779b98f3ede0f348c790c5",
+      "url": "https://github.com/Jesse-njx/dsh-cowork/blob/2ae5cf755c4294a1e988eebf3b12dd062425d84c/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ec164cfc60469d5473fda9336067bd1ad5ac1e650b7c5684f9bd9c917f5c375d",
+      "url": "https://github.com/Jesse-njx/dsh-cowork/blob/2ae5cf755c4294a1e988eebf3b12dd062425d84c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-cowork/chatnode-wechat",
+      "version": "0.1.0",
+      "path": "packages/chatnode-wechat",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jesse-njx/dsh-cowork",
+        "commit": "2ae5cf755c4294a1e988eebf3b12dd062425d84c",
+        "path": "packages/chatnode-wechat"
+      },
+      "manifestSha256": "cd23c253fc54a71f96b1e6b16b8e92c7793b0ddcaee8b7102528f0d180cb00e2",
+      "manifestUrl": "https://github.com/Jesse-njx/dsh-cowork/blob/2ae5cf755c4294a1e988eebf3b12dd062425d84c/packages/chatnode-wechat/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@dsh-cowork/chatnode-wechat",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786640316,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jesse-njx/dsh-cowork",
+              "commit": "2ae5cf755c4294a1e988eebf3b12dd062425d84c",
+              "path": "packages/chatnode-wechat"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-cowork/plugin",
+      "version": "0.1.0",
+      "path": "packages/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jesse-njx/dsh-cowork",
+        "commit": "2ae5cf755c4294a1e988eebf3b12dd062425d84c",
+        "path": "packages/dsh"
+      },
+      "manifestSha256": "469dff73df2af96152e06a69b9c09eeb0ab3096f1cd8d7d7584e42ca781b2b6a",
+      "manifestUrl": "https://github.com/Jesse-njx/dsh-cowork/blob/2ae5cf755c4294a1e988eebf3b12dd062425d84c/packages/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@dsh-cowork/plugin",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786640316,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jesse-njx/dsh-cowork",
+              "commit": "2ae5cf755c4294a1e988eebf3b12dd062425d84c",
+              "path": "packages/dsh"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jesse-njx/dsh-cowork",
+    "commit": "2ae5cf755c4294a1e988eebf3b12dd062425d84c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:48.283Z"
+}

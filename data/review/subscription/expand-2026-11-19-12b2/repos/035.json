@@ -1,0 +1,71 @@
+{
+  "full_name": "QinLuza/dsh-aisketch",
+  "originalPosition": 35,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 35,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:12.106Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7db23e4ed0bc68ef8126db8e491311041046982ea7d429e4543ac4869db42478",
+      "url": "https://github.com/QinLuza/dsh-aisketch/blob/370936cc1fbf08514a28bacab5c077a344c7a617/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@aisketch/sketch-bundle",
+      "version": "0.3.0",
+      "path": "packages/sketch-bundle",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QinLuza/dsh-aisketch",
+        "commit": "370936cc1fbf08514a28bacab5c077a344c7a617",
+        "path": "packages/sketch-bundle"
+      },
+      "manifestSha256": "08379a8e572829aa5b1721bdb470bdba0e662cf3c0d01ec20c0f4ce582675635",
+      "manifestUrl": "https://github.com/QinLuza/dsh-aisketch/blob/370936cc1fbf08514a28bacab5c077a344c7a617/packages/sketch-bundle/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@aisketch/sketch-bundle",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1792925598,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QinLuza/dsh-aisketch",
+              "commit": "370936cc1fbf08514a28bacab5c077a344c7a617",
+              "path": "packages/sketch-bundle"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QinLuza/dsh-aisketch",
+    "commit": "370936cc1fbf08514a28bacab5c077a344c7a617",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:17.018Z"
+}

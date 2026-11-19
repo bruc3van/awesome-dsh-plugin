@@ -1,0 +1,296 @@
+{
+  "full_name": "Nikodem5/dsh-web-terminal",
+  "originalPosition": 190,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 190,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:05.411Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c86c3fd1e91529bbcdc9b7bd5341393976eabdc159da753e40116a9007e86d56",
+      "url": "https://github.com/Nikodem5/dsh-web-terminal/blob/af776280c6fb2826065f741f1b5b8016a9245250/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nikodem5/dsh-web-terminal",
+          "command": "dsh plugin --profile desktop add @nikodem5/dsh-web-terminal",
+          "profile": "desktop"
+        },
+        {
+          "install": "@nikodem5/dsh-web-terminal",
+          "command": "dsh plugin --profile web add @nikodem5/dsh-web-terminal",
+          "profile": "web"
+        },
+        {
+          "install": "@nikodem5/dsh-code-editor",
+          "command": "dsh plugin --profile desktop add @nikodem5/dsh-code-editor",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "packages/terminal/README.md",
+      "sha256": "f08b6e3eab208657258c9fd38e001019db3f2f17a86d6c92be151b328020bedc",
+      "url": "https://github.com/Nikodem5/dsh-web-terminal/blob/af776280c6fb2826065f741f1b5b8016a9245250/packages/terminal/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nikodem5/dsh-web-terminal",
+          "command": "dsh plugin --profile desktop add @nikodem5/dsh-web-terminal",
+          "profile": "desktop"
+        },
+        {
+          "install": "@nikodem5/dsh-web-terminal",
+          "command": "dsh plugin --profile web add @nikodem5/dsh-web-terminal",
+          "profile": "web"
+        },
+        {
+          "install": "@nikodem5/dsh-code-editor",
+          "command": "dsh plugin --profile web add @nikodem5/dsh-code-editor",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/code-editor/README.md",
+      "sha256": "a11c291e40dd2610a8186c3725e9f5b83ba33288a6dc1d32712b35e75349f96a",
+      "url": "https://github.com/Nikodem5/dsh-web-terminal/blob/af776280c6fb2826065f741f1b5b8016a9245250/packages/code-editor/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@nikodem5/dsh-code-editor",
+          "command": "dsh plugin --profile desktop add @nikodem5/dsh-code-editor",
+          "profile": "desktop"
+        },
+        {
+          "install": "@nikodem5/dsh-code-editor",
+          "command": "dsh plugin --profile web add @nikodem5/dsh-code-editor",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/shared/README.md",
+      "sha256": "093f4ced6bd95cc4256881a01b3166c297c0ea7db1e8835e9b54b0474afc308d",
+      "url": "https://github.com/Nikodem5/dsh-web-terminal/blob/af776280c6fb2826065f741f1b5b8016a9245250/packages/shared/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@nikodem5/dsh-code-editor",
+      "version": "0.2.1",
+      "path": "packages/code-editor",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nikodem5/dsh-web-terminal",
+        "commit": "af776280c6fb2826065f741f1b5b8016a9245250",
+        "path": "packages/code-editor"
+      },
+      "manifestSha256": "5fc43d820f0e2ab50083eb4110c7907c06227eef1fe0d6bd535cd8be17a0073f",
+      "manifestUrl": "https://github.com/Nikodem5/dsh-web-terminal/blob/af776280c6fb2826065f741f1b5b8016a9245250/packages/code-editor/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@nikodem5/dsh-code-editor",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794688946,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Nikodem5/dsh-web-terminal",
+              "commit": "af776280c6fb2826065f741f1b5b8016a9245250",
+              "path": "packages/code-editor"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "@nikodem5/dsh-web-terminal",
+      "version": "0.2.1",
+      "path": "packages/terminal",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Nikodem5/dsh-web-terminal",
+        "commit": "af776280c6fb2826065f741f1b5b8016a9245250",
+        "path": "packages/terminal"
+      },
+      "manifestSha256": "3c3b23cd60e8f25897eafc7df27d0e5ded3ef3bda56066c470d2e217c9329248",
+      "manifestUrl": "https://github.com/Nikodem5/dsh-web-terminal/blob/af776280c6fb2826065f741f1b5b8016a9245250/packages/terminal/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@nikodem5/dsh-web-terminal",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794688946,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Nikodem5/dsh-web-terminal",
+              "commit": "af776280c6fb2826065f741f1b5b8016a9245250",
+              "path": "packages/terminal"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@nikodem5/dsh-web-terminal",
+      "origin": "npm",
+      "name": "@nikodem5/dsh-web-terminal",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@nikodem5/dsh-web-terminal",
+        "title": "@nikodem5/dsh-web-terminal",
+        "description": "Multi-terminal workspace inside the DeepSeek Harness web GUI: draggable PTY windows for running several coding agents side by side, with one-click Claude Code and Antigravity CLI launchers, attention states, usage stats, command blocks and SSH.",
+        "author": "Nikodem Marcinkiewicz",
+        "homepage": "https://github.com/Nikodem5/dsh-web-terminal/tree/main/packages/terminal#readme",
+        "repository": {
+          "url": "https://github.com/Nikodem5/dsh-web-terminal",
+          "directory": "packages/terminal"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "terminal",
+            "xterm",
+            "pty",
+            "web-terminal",
+            "claude-code",
+            "antigravity",
+            "ai-agents"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794689464,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "51fc94cb6b1f50cf23939443e1ad1009bac89675f2bf7b645b130065f064a379",
+      "evidence": [
+        {
+          "name": "@nikodem5/dsh-web-terminal",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/@nikodem5/dsh-web-terminal/-/dsh-web-terminal-0.2.1.tgz",
+          "integrity": "sha512-gVRw6cuMNgXDc79wdR9DzyJnZmEsrj+Xq88/1fbj5b8xj46mr+2e6Tu4SST+9ucMOgPuUkpWrt3pxypGrZnnGg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "@nikodem5/dsh-code-editor",
+      "origin": "npm",
+      "name": "@nikodem5/dsh-code-editor",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@nikodem5/dsh-code-editor",
+        "title": "@nikodem5/dsh-code-editor",
+        "description": "Monaco-based code editor and reviewer inside the DeepSeek Harness web GUI: explorer, git tools, search in files and Markdown preview.",
+        "author": "Nikodem Marcinkiewicz",
+        "homepage": "https://github.com/Nikodem5/dsh-web-terminal/tree/main/packages/code-editor#readme",
+        "repository": {
+          "url": "https://github.com/Nikodem5/dsh-web-terminal",
+          "directory": "packages/code-editor"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "code-editor",
+            "monaco-editor",
+            "code-review",
+            "git"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794689539,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d2ca8ef79693805aeada8732396f38d8426a152e8d9272ddebd5d562d69d6d86",
+      "evidence": [
+        {
+          "name": "@nikodem5/dsh-code-editor",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/@nikodem5/dsh-code-editor/-/dsh-code-editor-0.2.1.tgz",
+          "integrity": "sha512-Tp5EQxpLYK1sEVh07fGIZcDnW+YOU+K+bEUofe2SHxDAAS61wMDjSAQx77+4ofI37pr1h01bI+/lg9QG5MlieA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@nikodem5/dsh-web-terminal",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@nikodem5/dsh-code-editor",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nikodem5/dsh-web-terminal",
+    "commit": "af776280c6fb2826065f741f1b5b8016a9245250",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:10.682Z"
+}

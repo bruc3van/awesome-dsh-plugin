@@ -1,0 +1,95 @@
+{
+  "full_name": "DamonKoy/dsh-plugin-toggle",
+  "originalPosition": 9,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 9,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:01.921Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c85624ff9feb05ebd774e706940ca7ceace523fd1fbcbe2af0272de561cc14df",
+      "url": "https://github.com/DamonKoy/dsh-plugin-toggle/blob/be4d811aebbc9aa972383dd713ed81b48195b181/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/DamonKoy/dsh-plugin-toggle",
+          "command": "dsh plugin --profile web add github:DamonKoy/dsh-plugin-toggle",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "8d83756cd1151199ea860971235a06f04c18820b3c1eb4f16c67ecb2b770650f",
+      "url": "https://github.com/DamonKoy/dsh-plugin-toggle/blob/be4d811aebbc9aa972383dd713ed81b48195b181/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/DamonKoy/dsh-plugin-toggle",
+          "command": "dsh plugin --profile web add github:DamonKoy/dsh-plugin-toggle",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-toggle",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DamonKoy/dsh-plugin-toggle",
+        "commit": "be4d811aebbc9aa972383dd713ed81b48195b181"
+      },
+      "manifestSha256": "1eebd16dd0e9f575d20d5548a47253ddef7ba17b7df84b0da14118fbdab6dfe5",
+      "manifestUrl": "https://github.com/DamonKoy/dsh-plugin-toggle/blob/be4d811aebbc9aa972383dd713ed81b48195b181/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-toggle",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786810153,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DamonKoy/dsh-plugin-toggle",
+              "commit": "be4d811aebbc9aa972383dd713ed81b48195b181"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/DamonKoy/dsh-plugin-toggle",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DamonKoy/dsh-plugin-toggle",
+    "commit": "be4d811aebbc9aa972383dd713ed81b48195b181",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:04.208Z"
+}

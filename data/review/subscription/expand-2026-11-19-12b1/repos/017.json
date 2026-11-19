@@ -1,0 +1,81 @@
+{
+  "full_name": "linsport/dsh-persona-manager",
+  "originalPosition": 17,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 17,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:51.560Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ff8e2d7328229641419dfc98968cefc4a86304fec43bd951c9a457ec49ed995f",
+      "url": "https://github.com/linsport/dsh-persona-manager/blob/451bfe11400cc2ef226110a2a7a806580d456613/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/linsport/dsh-persona-manager",
+          "command": "dsh plugin --profile <profile> add github:linsport/dsh-persona-manager",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-persona-manager",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/linsport/dsh-persona-manager",
+        "commit": "451bfe11400cc2ef226110a2a7a806580d456613"
+      },
+      "manifestSha256": "4cbdad4121d4d075b09aff4cbb7ce847ccc422504588694aedefd956815f0a5d",
+      "manifestUrl": "https://github.com/linsport/dsh-persona-manager/blob/451bfe11400cc2ef226110a2a7a806580d456613/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-persona-manager",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1795063143,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/linsport/dsh-persona-manager",
+              "commit": "451bfe11400cc2ef226110a2a7a806580d456613"
+            },
+            "engines": {
+              "dsh": ">=0.1.7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/linsport/dsh-persona-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/linsport/dsh-persona-manager",
+    "commit": "451bfe11400cc2ef226110a2a7a806580d456613",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:53.523Z"
+}

@@ -1,0 +1,245 @@
+{
+  "full_name": "PerryLink/dsh-github-bot",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:45.065Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "89be9b38df45b81dcde56d25f454de61c4411b5b6c675c802f2820289e70318e",
+      "url": "https://github.com/PerryLink/dsh-github-bot/blob/ef3ca145650a841360d66f62b48f9d9c4fb75dcb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-github-bot",
+          "command": "dsh plugin --profile <name> add dsh-github-bot",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-github-bot",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-github-bot",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-github-bot",
+          "command": "dsh plugin --profile web add dsh-github-bot",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "85fad3dac1b1c311716d48b0d1b3c78f12854dec439a4e54d16870b24af35bf1",
+      "url": "https://github.com/PerryLink/dsh-github-bot/blob/ef3ca145650a841360d66f62b48f9d9c4fb75dcb/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-github-bot",
+          "command": "dsh plugin --profile <name> add dsh-github-bot",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-github-bot",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-github-bot",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-github-bot",
+          "command": "dsh plugin --profile web add dsh-github-bot",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "c49fae945cd612a2dc84c500e95496a0efcca34b6a54a59f1ef5e27059a941c5",
+      "url": "https://github.com/PerryLink/dsh-github-bot/blob/ef3ca145650a841360d66f62b48f9d9c4fb75dcb/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-github-bot",
+          "command": "dsh plugin --profile <name> add dsh-github-bot",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-github-bot",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-github-bot",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-github-bot",
+          "command": "dsh plugin --profile web add dsh-github-bot",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.pt.md",
+      "sha256": "25047a9102d275fa95f8f64e522f8dd1f1216ec0844ab62c31cad6545277f0e3",
+      "url": "https://github.com/PerryLink/dsh-github-bot/blob/ef3ca145650a841360d66f62b48f9d9c4fb75dcb/README.pt.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-github-bot",
+          "command": "dsh plugin --profile <name> add dsh-github-bot",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-github-bot",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-github-bot",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-github-bot",
+          "command": "dsh plugin --profile web add dsh-github-bot",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.hi.md",
+      "sha256": "be4c30fa5512fd964d51b396e6b1786606ca7ff643a5c227e3271eba9a2d15db",
+      "url": "https://github.com/PerryLink/dsh-github-bot/blob/ef3ca145650a841360d66f62b48f9d9c4fb75dcb/README.hi.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-github-bot",
+          "command": "dsh plugin --profile <name> add dsh-github-bot",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/PerryLink/dsh-github-bot",
+          "command": "dsh plugin --profile web add github:PerryLink/dsh-github-bot",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-github-bot",
+          "command": "dsh plugin --profile web add dsh-github-bot",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-github-bot",
+      "version": "0.8.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PerryLink/dsh-github-bot",
+        "commit": "ef3ca145650a841360d66f62b48f9d9c4fb75dcb"
+      },
+      "manifestSha256": "0e5cafb744455d5f6c0057703ba228e8ec2a425bae6bdeda3a1cb9e0ab66ad40",
+      "manifestUrl": "https://github.com/PerryLink/dsh-github-bot/blob/ef3ca145650a841360d66f62b48f9d9c4fb75dcb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-github-bot",
+        "versions": [
+          {
+            "version": "0.8.2",
+            "publishTimestamp": 1795011672,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PerryLink/dsh-github-bot",
+              "commit": "ef3ca145650a841360d66f62b48f9d9c4fb75dcb"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-github-bot",
+      "origin": "npm",
+      "name": "dsh-github-bot",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-github-bot",
+        "title": "dsh-github-bot",
+        "description": "GitHub PRs, reviews, issues and CI for DeepSeek Harness: approval-gated write tools, a CI composite action, a polling review bot and a status-check gate.",
+        "homepage": "https://github.com/PerryLink/dsh-github-bot#readme",
+        "repository": {
+          "url": "https://github.com/PerryLink/dsh-github-bot"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "github",
+            "github-actions",
+            "pull-request",
+            "code-review",
+            "ci",
+            "issue-tracker"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.8.2",
+            "publishTimestamp": 1793806426,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-0 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8b57c84a1a06b5bff52064936b9caaab382559d84f85454874e635806d5e04ac",
+      "evidence": [
+        {
+          "name": "dsh-github-bot",
+          "version": "0.8.2",
+          "tarball": "https://registry.npmjs.org/dsh-github-bot/-/dsh-github-bot-0.8.2.tgz",
+          "integrity": "sha512-O2KVReciC6PvLudb1UB7F+LDx7HvNUA1K31TUJZWtn+gHz7okMN4v1yxMkIQLkt5Lq3rQ/40QobbjYlSxiy3RQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-github-bot",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PerryLink/dsh-github-bot",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PerryLink/dsh-github-bot",
+    "commit": "ef3ca145650a841360d66f62b48f9d9c4fb75dcb",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:49.415Z"
+}

@@ -1,0 +1,66 @@
+{
+  "full_name": "Tongyu3/dsh-pet-android",
+  "originalPosition": 79,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 79,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:31.171Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5117b5d986a9b316240cc94205669658669a1700464495abcbaa875232ab2e26",
+      "url": "https://github.com/Tongyu3/dsh-pet-android/blob/a85b67e1aee7975be80dcdaac4b4c705b045182e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pet-android",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Tongyu3/dsh-pet-android",
+        "commit": "a85b67e1aee7975be80dcdaac4b4c705b045182e"
+      },
+      "manifestSha256": "8ceb67e42ff4cb14a449d52fba248a7aef1e8bca94a4858f7a713c2c4778e68a",
+      "manifestUrl": "https://github.com/Tongyu3/dsh-pet-android/blob/a85b67e1aee7975be80dcdaac4b4c705b045182e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-pet-android",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1792329095,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Tongyu3/dsh-pet-android",
+              "commit": "a85b67e1aee7975be80dcdaac4b4c705b045182e"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Tongyu3/dsh-pet-android",
+    "commit": "a85b67e1aee7975be80dcdaac4b4c705b045182e",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:32.994Z"
+}

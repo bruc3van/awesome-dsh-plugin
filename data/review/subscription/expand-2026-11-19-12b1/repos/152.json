@@ -1,0 +1,153 @@
+{
+  "full_name": "LSHCoding/dsh-promptx",
+  "originalPosition": 152,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 152,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:50.152Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4169292b280df77dae928298fd100a881badca05a25c55e4d8d1057c35d73d28",
+      "url": "https://github.com/LSHCoding/dsh-promptx/blob/e7f10920494840b0556fce9c99dc4e210733cfe0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-promptx@0.1.7",
+          "command": "dsh plugin --profile <your-profile> add dsh-promptx@0.1.7",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "bf59404087897024d784e3b63e8a7e03e00e71de4555ac56031090fce4e6b3fc",
+      "url": "https://github.com/LSHCoding/dsh-promptx/blob/e7f10920494840b0556fce9c99dc4e210733cfe0/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-promptx@0.1.7",
+          "command": "dsh plugin --profile <你的-profile> add dsh-promptx@0.1.7",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-promptx",
+      "version": "0.1.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LSHCoding/dsh-promptx",
+        "commit": "e7f10920494840b0556fce9c99dc4e210733cfe0"
+      },
+      "manifestSha256": "a97a898621c076d86e58d9ae518da3693dce323f91708e631153dcd477f3a760",
+      "manifestUrl": "https://github.com/LSHCoding/dsh-promptx/blob/e7f10920494840b0556fce9c99dc4e210733cfe0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-promptx",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1794748457,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LSHCoding/dsh-promptx",
+              "commit": "e7f10920494840b0556fce9c99dc4e210733cfe0"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-promptx@0.1.7",
+      "origin": "npm",
+      "name": "dsh-promptx",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-promptx",
+        "title": {
+          "en": "PromptX",
+          "zh": "PromptX"
+        },
+        "description": {
+          "en": "A prompt editor that floats above every app. Press a global shortcut, write or reuse a prompt from your Markdown library, refine it with your dsh model, copy it, and the window hides.",
+          "zh": "浮在所有应用上方的 Prompt 编辑小窗。按全局快捷键呼出，从 Markdown Prompt 库取模板、用 dsh 的模型改写，复制后小窗隐藏，回到原来的应用直接粘贴。"
+        },
+        "author": "Shuai Ling",
+        "homepage": "https://github.com/LSHCoding/dsh-promptx#readme",
+        "repository": {
+          "url": "https://github.com/LSHCoding/dsh-promptx"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "prompt",
+            "prompt-library",
+            "electron"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHJvbGU9ImltZyIgYXJpYS1sYWJlbGxlZGJ5PSJ0aXRsZSBkZXNjIj4KICA8dGl0bGU+UHJvbXB0WCBQIGljb248L3RpdGxlPgogIDxkZXNjPkEgcm91bmRlZCBtYWNPUy1zdHlsZSBQcm9tcHRYIGFwcCBpY29uIHdpdGggYSBjbGVhciBQIG1vbm9ncmFtIGFuZCBwcm9tcHQgY3Vyc29yIGFjY2VudC48L2Rlc2M+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMTkyIiB5MT0iMTI4IiB4Mj0iODMyIiB5Mj0iODk2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNDgiIHN0b3AtY29sb3I9IiNGM0Y3RkYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRERFN0Y2Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJwLWZpbGwiIHgxPSIyOTQiIHkxPSIyMjYiIHgyPSI3OTQiIHkyPSI4MDYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMTExMTEzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC42OCIgc3RvcC1jb2xvcj0iIzJCMkQzMSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0RjU2NjEiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9IjQ4IiB5PSI1MiIgd2lkdGg9IjkyOCIgaGVpZ2h0PSI5NDQiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KICAgICAgPGZlRHJvcFNoYWRvdyBkeD0iMCIgZHk9IjI0IiBzdGREZXZpYXRpb249IjI4IiBmbG9vZC1jb2xvcj0iIzFEMUQxRiIgZmxvb2Qtb3BhY2l0eT0iMC4xNiIvPgogICAgPC9maWx0ZXI+CiAgPC9kZWZzPgogIDxyZWN0IHg9Ijk2IiB5PSI5NiIgd2lkdGg9IjgzMiIgaGVpZ2h0PSI4MzIiIHJ4PSIxOTYiIGZpbGw9InVybCgjYmcpIiBmaWx0ZXI9InVybCgjc2hhZG93KSIvPgogIDxyZWN0IHg9IjEwOCIgeT0iMTA4IiB3aWR0aD0iODA4IiBoZWlnaHQ9IjgwOCIgcng9IjE4NCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utb3BhY2l0eT0iMC42OCIgc3Ryb2tlLXdpZHRoPSIxOCIvPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU0NCA1MTYpIHNjYWxlKDEuMDgpIHRyYW5zbGF0ZSgtNTQ0IC01MTYpIj4KICAgIDxwYXRoCiAgICAgIGQ9Ik0zNDIgODA2QzMxNSA4MDYgMjk0IDc4NSAyOTQgNzU4VjI3NEMyOTQgMjQ3IDMxNSAyMjYgMzQyIDIyNkg1NTJDNzA1IDIyNiA3OTQgMzIyIDc5NCA0NjJDNzk0IDYwMiA3MDIgNjk2IDU0OCA2OTZINDMwVjc1OEM0MzAgNzg1IDQwOSA4MDYgMzgyIDgwNkgzNDJaTTQzMCAzMjJWNjAwSDU0OEM2NDQgNjAwIDY5OCA1NDYgNjk4IDQ2MkM2OTggMzc4IDY0NCAzMjIgNTQ4IDMyMkg0MzBaIgogICAgICBmaWxsPSJ1cmwoI3AtZmlsbCkiCiAgICAgIGZpbGwtcnVsZT0iZXZlbm9kZCIvPgogICAgPHBhdGgKICAgICAgZD0iTTU5MCAzOTh2MTMyIgogICAgICBmaWxsPSJub25lIgogICAgICBzdHJva2U9IiMwQTg0RkYiCiAgICAgIHN0cm9rZS13aWR0aD0iNDIiCiAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1794748916,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "27292a13d655ef700b33d63905fa2deb175967d8c88d0f19da412a7255b83e76",
+      "evidence": [
+        {
+          "name": "dsh-promptx",
+          "version": "0.1.7",
+          "tarball": "https://registry.npmjs.org/dsh-promptx/-/dsh-promptx-0.1.7.tgz",
+          "integrity": "sha512-StXS40wFj9OGYbLC1m0+k9hTJSf+Ey86bJHDlCeg58TPxIA7uptUSicovL+/Y2koeMfYlsq4ozIwTKIFoTYlPw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-promptx@0.1.7",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LSHCoding/dsh-promptx",
+    "commit": "e7f10920494840b0556fce9c99dc4e210733cfe0",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:52.925Z"
+}

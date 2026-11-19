@@ -1,0 +1,132 @@
+{
+  "full_name": "Flan246/dsh-lit-search",
+  "originalPosition": 15,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 15,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:04.209Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5d4767735a2768905f5f3b18f00e9b24e818cd05464a60ccea8b50185422e6eb",
+      "url": "https://github.com/Flan246/dsh-lit-search/blob/2a377b1fc0f930362a18b8e0c4851bcfd9807c38/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-lit-search",
+          "command": "dsh plugin add dsh-lit-search",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-lit-search",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Flan246/dsh-lit-search",
+        "commit": "2a377b1fc0f930362a18b8e0c4851bcfd9807c38"
+      },
+      "manifestSha256": "fcc5ca7773acd2ee1f3da82266396c4112406316e2bb4f40557ac5160ed5c904",
+      "manifestUrl": "https://github.com/Flan246/dsh-lit-search/blob/2a377b1fc0f930362a18b8e0c4851bcfd9807c38/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-lit-search",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1791881449,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Flan246/dsh-lit-search",
+              "commit": "2a377b1fc0f930362a18b8e0c4851bcfd9807c38"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-lit-search",
+      "origin": "npm",
+      "name": "dsh-lit-search",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-lit-search",
+        "title": "dsh-lit-search",
+        "description": "Academic literature search, citation and BibTeX tools for DeepSeek Harness and any agent (Crossref + OpenAlex + Semantic Scholar).",
+        "repository": {
+          "url": "https://github.com/Flan246/dsh-lit-search"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "literature",
+            "citation",
+            "bibtex",
+            "crossref",
+            "openalex",
+            "semantic-scholar"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1791881669,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "65cb89dbe2ba879b530471f525e86fc2f977f2579f496a39eb52fc31f9c08d43",
+      "evidence": [
+        {
+          "name": "dsh-lit-search",
+          "version": "0.2.2",
+          "tarball": "https://registry.npmjs.org/dsh-lit-search/-/dsh-lit-search-0.2.2.tgz",
+          "integrity": "sha512-oMl+1TxZUXcIPyXPZDNQHka8gzQhIQo3xwodJRMFVvbKV6dJxVaid+ykULSWn6ReAa8utJ2+A+O7Rb16ieQNnA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-lit-search",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Flan246/dsh-lit-search",
+    "commit": "2a377b1fc0f930362a18b8e0c4851bcfd9807c38",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:06.211Z"
+}

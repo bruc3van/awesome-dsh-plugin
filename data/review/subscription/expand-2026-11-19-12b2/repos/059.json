@@ -1,0 +1,89 @@
+{
+  "full_name": "SiriusWJ/dsh-rp-tools",
+  "originalPosition": 59,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 59,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:23.213Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4ef7e794c44afcd72ee5a298fcccdbf15a994f5a2aeb7529a849ce3cb7e16368",
+      "url": "https://github.com/SiriusWJ/dsh-rp-tools/blob/bcb9825d33af7fb8162119b6d4e9c04f0686cc7f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/SiriusWJ/dsh-rp-tools",
+          "command": "dsh plugin --profile desktop add github:SiriusWJ/dsh-rp-tools",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "market/README.md",
+      "sha256": "6b131aa017ee7076cea43d62f7e2c5a9ce645aac8878682f9c3cc14a4eaceb9c",
+      "url": "https://github.com/SiriusWJ/dsh-rp-tools/blob/bcb9825d33af7fb8162119b6d4e9c04f0686cc7f/market/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-rp-tools",
+      "version": "1.37.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SiriusWJ/dsh-rp-tools",
+        "commit": "bcb9825d33af7fb8162119b6d4e9c04f0686cc7f"
+      },
+      "manifestSha256": "2a8e2a16beab1f01fa7b62ffa9d0361f676228fd06c98ea431f7e98d2a4282a3",
+      "manifestUrl": "https://github.com/SiriusWJ/dsh-rp-tools/blob/bcb9825d33af7fb8162119b6d4e9c04f0686cc7f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-rp-tools",
+        "versions": [
+          {
+            "version": "1.37.0",
+            "publishTimestamp": 1792949776,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SiriusWJ/dsh-rp-tools",
+              "commit": "bcb9825d33af7fb8162119b6d4e9c04f0686cc7f"
+            },
+            "engines": {
+              "dsh": "^0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/SiriusWJ/dsh-rp-tools",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SiriusWJ/dsh-rp-tools",
+    "commit": "bcb9825d33af7fb8162119b6d4e9c04f0686cc7f",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:25.415Z"
+}

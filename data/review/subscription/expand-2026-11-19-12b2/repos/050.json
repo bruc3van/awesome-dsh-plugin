@@ -1,0 +1,141 @@
+{
+  "full_name": "SSShooter/dsh-mindmap-live",
+  "originalPosition": 50,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 50,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:20.240Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2629b135061773282617484efd26e528ac6492fe561e2def3dd2b97473fa2a4b",
+      "url": "https://github.com/SSShooter/dsh-mindmap-live/blob/c95eda2db571f3ab9ec1346eb8e357b278db5336/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mindmap-live",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-mindmap-live",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/SSShooter/dsh-mindmap-live.git",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add git+https://github.com/SSShooter/dsh-mindmap-live.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mindmap-live",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SSShooter/dsh-mindmap-live",
+        "commit": "c95eda2db571f3ab9ec1346eb8e357b278db5336"
+      },
+      "manifestSha256": "9c9f998852876fce8b8742267159dcf136a88d9d5aabc7f81a54a53b03053850",
+      "manifestUrl": "https://github.com/SSShooter/dsh-mindmap-live/blob/c95eda2db571f3ab9ec1346eb8e357b278db5336/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-mindmap-live",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1787644201,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SSShooter/dsh-mindmap-live",
+              "commit": "c95eda2db571f3ab9ec1346eb8e357b278db5336"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-mindmap-live",
+      "origin": "npm",
+      "name": "dsh-mindmap-live",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mindmap-live",
+        "title": "dsh-mindmap-live",
+        "description": "DSH web plugin: a live, bidirectional mind map built on the mind-elixir-core kernel. The agent and the user edit the same tree in real time through a session projection and a Connection RPC channel.",
+        "author": "SSShooter",
+        "homepage": "https://github.com/SSShooter/dsh-mindmap-live#readme",
+        "repository": {
+          "url": "https://github.com/SSShooter/dsh-mindmap-live"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-client-plugin",
+            "mindmap",
+            "mind-elixir"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1787565833,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6f96765e431b920282372f445c725a53838c707dcf37909f0073373cd5494dd6",
+      "evidence": [
+        {
+          "name": "dsh-mindmap-live",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-mindmap-live/-/dsh-mindmap-live-0.4.0.tgz",
+          "integrity": "sha512-GAkRqk06xDbPHHU8qVkOLHkKAdsSJqfxMOOv1DyD5mE9YF1MOs1bsmYkZU8i3QdHQUjp2vUiiH+858lPJnzCCA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mindmap-live",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/SSShooter/dsh-mindmap-live.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SSShooter/dsh-mindmap-live",
+    "commit": "c95eda2db571f3ab9ec1346eb8e357b278db5336",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:22.327Z"
+}

@@ -1,0 +1,132 @@
+{
+  "full_name": "baconbao/dsh-mermaid-image-preview",
+  "originalPosition": 148,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 148,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:58.641Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c0a0a3a2adf232265fcabc72043a8be2ff02f08d10c11959b5c11738c41de78e",
+      "url": "https://github.com/baconbao/dsh-mermaid-image-preview/blob/b8cc6ea851463fdaa848132bd651eeb6990fd374/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/baconbao/dsh-mermaid-image-preview",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:baconbao/dsh-mermaid-image-preview",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/baconbao/dsh-mermaid-image-preview#dev",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:baconbao/dsh-mermaid-image-preview#dev",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@baconbao/dsh-mermaid-image-preview",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baconbao/dsh-mermaid-image-preview",
+        "commit": "b8cc6ea851463fdaa848132bd651eeb6990fd374"
+      },
+      "manifestSha256": "58acb0c98e2215f4b708a85894374f4cd136fc526a71e1497e272f973bb7530f",
+      "manifestUrl": "https://github.com/baconbao/dsh-mermaid-image-preview/blob/b8cc6ea851463fdaa848132bd651eeb6990fd374/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.6-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@baconbao/dsh-mermaid-image-preview",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1791053434,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/baconbao/dsh-mermaid-image-preview",
+              "commit": "b8cc6ea851463fdaa848132bd651eeb6990fd374"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/baconbao/dsh-mermaid-image-preview#dev",
+      "origin": "git_target",
+      "name": "@baconbao/dsh-mermaid-image-preview",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@baconbao/dsh-mermaid-image-preview",
+        "title": "@baconbao/dsh-mermaid-image-preview",
+        "description": "A DeepSeek Harness Plugin for Previewing Mermaid Diagram by Images in Chat Sessions. View on GitHub (https://github.com/baconbao/dsh-mermaid-image-preview).",
+        "author": "baconbao",
+        "homepage": "https://github.com/baconbao/dsh-mermaid-image-preview",
+        "repository": {
+          "url": "https://github.com/baconbao/dsh-mermaid-image-preview"
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1791053434,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/baconbao/dsh-mermaid-image-preview",
+              "commit": "b8cc6ea851463fdaa848132bd651eeb6990fd374"
+            },
+            "engines": {
+              "dsh": ">=0.1.6-alpha.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "b8cc6ea851463fdaa848132bd651eeb6990fd374",
+          "name": "@baconbao/dsh-mermaid-image-preview",
+          "version": "0.4.0",
+          "url": "https://github.com/baconbao/dsh-mermaid-image-preview",
+          "manifestSha256": "58acb0c98e2215f4b708a85894374f4cd136fc526a71e1497e272f973bb7530f",
+          "publishTimestamp": 1791053434
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/baconbao/dsh-mermaid-image-preview",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/baconbao/dsh-mermaid-image-preview#dev",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/baconbao/dsh-mermaid-image-preview",
+    "commit": "b8cc6ea851463fdaa848132bd651eeb6990fd374",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:01.887Z"
+}

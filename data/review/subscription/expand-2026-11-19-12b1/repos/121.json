@@ -1,0 +1,87 @@
+{
+  "full_name": "Han-1413141/dsh-wsl-native",
+  "originalPosition": 121,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 121,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:36.067Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6c8b33407901f3b2f03643fac4d20db7e98c38a84ed890a267e6cb0a323b1a1d",
+      "url": "https://github.com/Han-1413141/dsh-wsl-native/blob/d4a35ddcde3e39744fd9c9a7c43d1c6c39e922fe/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Han-1413141/dsh-wsl-native/releases/download/v0.7.0/dsh-wsl-native-0.7.0.tgz",
+          "command": "dsh plugin --profile desktop add https://github.com/Han-1413141/dsh-wsl-native/releases/download/v0.7.0/dsh-wsl-native-0.7.0.tgz",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wsl-native",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Han-1413141/dsh-wsl-native",
+        "commit": "d4a35ddcde3e39744fd9c9a7c43d1c6c39e922fe"
+      },
+      "manifestSha256": "b26011f067348c75e793811dde910add5964627a32e87bdf84a1330d3c624a98",
+      "manifestUrl": "https://github.com/Han-1413141/dsh-wsl-native/blob/d4a35ddcde3e39744fd9c9a7c43d1c6c39e922fe/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-wsl-native",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1790915569,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Han-1413141/dsh-wsl-native",
+              "commit": "d4a35ddcde3e39744fd9c9a7c43d1c6c39e922fe"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/Han-1413141/dsh-wsl-native/releases/download/v0.7.0/dsh-wsl-native-0.7.0.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Han-1413141/dsh-wsl-native/releases/download/v0.7.0/dsh-wsl-native-0.7.0.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Han-1413141/dsh-wsl-native",
+    "commit": "d4a35ddcde3e39744fd9c9a7c43d1c6c39e922fe",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:37.815Z"
+}

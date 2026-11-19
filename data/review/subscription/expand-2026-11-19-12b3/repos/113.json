@@ -1,0 +1,29 @@
+{
+  "full_name": "guoliyuan97-png/dsh-game-hud",
+  "originalPosition": 113,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 113,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:11.556Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/guoliyuan97-png/dsh-game-hud/git/commits/62a9c8f6b12dda7bea01d6f12a044fb1ad9d5f14\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D435:34BED:1170569:382D281:6AFEE7D7 and timestamp 2026-11-19 12:13:12 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/guoliyuan97-png/dsh-game-hud",
+    "commit": "62a9c8f6b12dda7bea01d6f12a044fb1ad9d5f14",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:12.137Z"
+}

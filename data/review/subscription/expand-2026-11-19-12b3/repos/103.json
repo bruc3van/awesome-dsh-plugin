@@ -1,0 +1,29 @@
+{
+  "full_name": "future007s/dsh-peak-indicator",
+  "originalPosition": 103,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 103,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:10.800Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/future007s/dsh-peak-indicator/git/commits/a37cb1864df7db5cd4ae5c8fc3ae435c0acd1168\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D481:536E7:1159424:37C8E6D:6AFEE7D7 and timestamp 2026-11-19 12:13:11 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/future007s/dsh-peak-indicator",
+    "commit": "a37cb1864df7db5cd4ae5c8fc3ae435c0acd1168",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:11.454Z"
+}

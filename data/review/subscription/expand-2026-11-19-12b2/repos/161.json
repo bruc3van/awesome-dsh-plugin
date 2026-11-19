@@ -1,0 +1,66 @@
+{
+  "full_name": "bobcat848/dsh-calculator",
+  "originalPosition": 161,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 161,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:04.025Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2720e417b08d206f91f097d828d96c969cf07d192a57de5af5bebee900e1daad",
+      "url": "https://github.com/bobcat848/dsh-calculator/blob/5d0829c666dde281a9334ef593bd7538493654b1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-calculator",
+      "version": "2.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bobcat848/dsh-calculator",
+        "commit": "5d0829c666dde281a9334ef593bd7538493654b1"
+      },
+      "manifestSha256": "14df45860fb62f289f8a357c98756a519c2da23f07cf7ac795e7296abb6e38fc",
+      "manifestUrl": "https://github.com/bobcat848/dsh-calculator/blob/5d0829c666dde281a9334ef593bd7538493654b1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-calculator",
+        "versions": [
+          {
+            "version": "2.1.1",
+            "publishTimestamp": 1792417314,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bobcat848/dsh-calculator",
+              "commit": "5d0829c666dde281a9334ef593bd7538493654b1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bobcat848/dsh-calculator",
+    "commit": "5d0829c666dde281a9334ef593bd7538493654b1",
+    "releaseTags": 15,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:05.890Z"
+}

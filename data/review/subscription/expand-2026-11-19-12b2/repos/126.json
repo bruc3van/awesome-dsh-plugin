@@ -1,0 +1,160 @@
+{
+  "full_name": "a792883583/dsh-chat-toc",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:49.311Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0645f59d9218abcef20084bb99c4970a85c013b357652bf47ebd6e83dc6b792c",
+      "url": "https://github.com/a792883583/dsh-chat-toc/blob/f6d43a9b381bcd08171cbc6f073d26561b9d9317/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chat-toc",
+          "command": "dsh plugin --profile web add dsh-chat-toc",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "ffb1e7c310e1011213b5f4dbdb7a9010fa4f07da6669c444243ed82b5e067f07",
+      "url": "https://github.com/a792883583/dsh-chat-toc/blob/f6d43a9b381bcd08171cbc6f073d26561b9d9317/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chat-toc",
+          "command": "dsh plugin --profile web add dsh-chat-toc",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.es.md",
+      "sha256": "8d5ca0480b42b3e59edc0d7af16d0f548479b16f3077d7939d396d2b7cb9ee90",
+      "url": "https://github.com/a792883583/dsh-chat-toc/blob/f6d43a9b381bcd08171cbc6f073d26561b9d9317/README.es.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-chat-toc",
+          "command": "dsh plugin --profile web add dsh-chat-toc",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-chat-toc",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/a792883583/dsh-chat-toc",
+        "commit": "f6d43a9b381bcd08171cbc6f073d26561b9d9317"
+      },
+      "manifestSha256": "c4aa6604a10d41c03b259ed15908644ef5cb9460c06fcb62dab50fa305a3eb25",
+      "manifestUrl": "https://github.com/a792883583/dsh-chat-toc/blob/f6d43a9b381bcd08171cbc6f073d26561b9d9317/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-chat-toc",
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1790733689,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a792883583/dsh-chat-toc",
+              "commit": "f6d43a9b381bcd08171cbc6f073d26561b9d9317"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-chat-toc",
+      "origin": "npm",
+      "name": "dsh-chat-toc",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-chat-toc",
+        "title": "dsh-chat-toc",
+        "description": "DSH web GUI chat table-of-contents: native Turn Rail enhancer with rich previews, bookmarks, search, and Markdown outline export.",
+        "author": "Jaden Tang",
+        "homepage": "https://github.com/a792883583/dsh-chat-toc",
+        "repository": {
+          "url": "https://github.com/a792883583/dsh-chat-toc"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "plugin",
+            "chat",
+            "toc",
+            "outline",
+            "conversation"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.5.1",
+            "publishTimestamp": 1790733865,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "1325d27385ea041f18fd4e7174f33fdcab916cbcdcecac014dc931260f22c74e",
+      "evidence": [
+        {
+          "name": "dsh-chat-toc",
+          "version": "0.5.1",
+          "tarball": "https://registry.npmjs.org/dsh-chat-toc/-/dsh-chat-toc-0.5.1.tgz",
+          "integrity": "sha512-/u4PYYjLuzWcRmLMMXQmF4KGQuIzOvaKXSbaYeEEULg2/SrKKYiyBMJ/W4LvxeeHccXplXvkg80bKZKpRd+5UQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-chat-toc",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/a792883583/dsh-chat-toc",
+    "commit": "f6d43a9b381bcd08171cbc6f073d26561b9d9317",
+    "releaseTags": 24,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:52.183Z"
+}

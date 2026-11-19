@@ -1,0 +1,66 @@
+{
+  "full_name": "Celebrate-W/dsh-topic-trail",
+  "originalPosition": 79,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 79,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:17.949Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "eed81b2a126cdfdaa4163b1a5b6eb9263c3bf62197f6f5b1beb7ab7b34b3ea17",
+      "url": "https://github.com/Celebrate-W/dsh-topic-trail/blob/5a22c1f001f81289f3e577364cba943a0c7022a7/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-topic-trail",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Celebrate-W/dsh-topic-trail",
+        "commit": "5a22c1f001f81289f3e577364cba943a0c7022a7"
+      },
+      "manifestSha256": "5eb5938ffd7a269ab1f30d70b383430931fc7504d69fbaa4d6fd2883e4280c8a",
+      "manifestUrl": "https://github.com/Celebrate-W/dsh-topic-trail/blob/5a22c1f001f81289f3e577364cba943a0c7022a7/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-topic-trail",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1791461318,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Celebrate-W/dsh-topic-trail",
+              "commit": "5a22c1f001f81289f3e577364cba943a0c7022a7"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Celebrate-W/dsh-topic-trail",
+    "commit": "5a22c1f001f81289f3e577364cba943a0c7022a7",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:19.866Z"
+}

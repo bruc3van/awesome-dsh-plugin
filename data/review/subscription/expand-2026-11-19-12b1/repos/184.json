@@ -1,0 +1,164 @@
+{
+  "full_name": "NaivG/dsh-network",
+  "originalPosition": 184,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 184,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:02.824Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "86310ea031ea81b4bfdd2d55204043dd426527d9fe8f855b4eeec4571aec117a",
+      "url": "https://github.com/NaivG/dsh-network/blob/9203408ab989810134153dd96eda8c882e19b9fd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@naivg/dsh-network",
+          "command": "dsh plugin --profile web add @naivg/dsh-network",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/NaivG/dsh-network",
+          "command": "dsh plugin --profile web add github:NaivG/dsh-network --allow-build=@naivg/dsh-network",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.ZH.md",
+      "sha256": "d2f4972a7f0768f7d405a709941521e5556e318e0e36f95555f53fd84c4d9b5f",
+      "url": "https://github.com/NaivG/dsh-network/blob/9203408ab989810134153dd96eda8c882e19b9fd/README.ZH.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@naivg/dsh-network",
+          "command": "dsh plugin --profile web add @naivg/dsh-network",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/NaivG/dsh-network",
+          "command": "dsh plugin --profile web add github:NaivG/dsh-network --allow-build=@naivg/dsh-network",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@naivg/dsh-network",
+      "version": "1.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NaivG/dsh-network",
+        "commit": "9203408ab989810134153dd96eda8c882e19b9fd"
+      },
+      "manifestSha256": "c039284560aaa91cf7db090d8dedb716e60a6302337cf0e6c2a58b2219ee9ed0",
+      "manifestUrl": "https://github.com/NaivG/dsh-network/blob/9203408ab989810134153dd96eda8c882e19b9fd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@naivg/dsh-network",
+        "versions": [
+          {
+            "version": "1.4.0",
+            "publishTimestamp": 1792047594,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NaivG/dsh-network",
+              "commit": "9203408ab989810134153dd96eda8c882e19b9fd"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@naivg/dsh-network",
+      "origin": "npm",
+      "name": "@naivg/dsh-network",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@naivg/dsh-network",
+        "title": "@naivg/dsh-network",
+        "description": "dsh-native web suite (CLI + host plugin). Let DeepSeek Harness access the internet seamlessly. Designed with the official CSS style in mind.",
+        "author": "NaivG",
+        "homepage": "https://github.com/NaivG/dsh-network",
+        "repository": {
+          "url": "https://github.com/NaivG/dsh-network"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-network",
+            "web-search",
+            "web-fetch",
+            "http-request",
+            "undici",
+            "ssrf-protection",
+            "officeparser"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.4.0",
+            "publishTimestamp": 1792037747,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7df6a543863e200eedf63009710bf60bcc63b45bb58fbed7658008df5d651770",
+      "evidence": [
+        {
+          "name": "@naivg/dsh-network",
+          "version": "1.4.0",
+          "tarball": "https://registry.npmjs.org/@naivg/dsh-network/-/dsh-network-1.4.0.tgz",
+          "integrity": "sha512-VwIeZSGNGtvLJrV9lpBwFhQTACDklCjOEAk4N8H0FwaS6m+PsJ5kb3B575JD61tbeXeGztiZmVtWpG061bzc9g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@naivg/dsh-network",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/NaivG/dsh-network",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NaivG/dsh-network",
+    "commit": "9203408ab989810134153dd96eda8c882e19b9fd",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:05.619Z"
+}

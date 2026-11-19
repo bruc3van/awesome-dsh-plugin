@@ -1,0 +1,99 @@
+{
+  "full_name": "2NF/dsh-profile-bridge",
+  "originalPosition": 37,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 37,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:01.108Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fa9514e6721058e23c8a24e90bdbb220a634b4b1d8fa78079dc353dda2eee937",
+      "url": "https://github.com/2NF/dsh-profile-bridge/blob/6917177806fcff7d9def83a881c47f8936a70278/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/2NF/dsh-profile-bridge",
+          "command": "dsh plugin --profile desktop add github:2NF/dsh-profile-bridge",
+          "profile": "desktop"
+        },
+        {
+          "install": "dsh-profile-bridge",
+          "command": "dsh plugin --profile desktop add dsh-profile-bridge",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/2NF/dsh-profile-bridge",
+          "command": "dsh plugin --profile web add github:2NF/dsh-profile-bridge",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-profile-bridge",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/2NF/dsh-profile-bridge",
+        "commit": "6917177806fcff7d9def83a881c47f8936a70278"
+      },
+      "manifestSha256": "877a8686ef041da023c8666edcabd921d6e62ceae62810fcbfcb2bde5405a45a",
+      "manifestUrl": "https://github.com/2NF/dsh-profile-bridge/blob/6917177806fcff7d9def83a881c47f8936a70278/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-profile-bridge",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1791309967,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/2NF/dsh-profile-bridge",
+              "commit": "6917177806fcff7d9def83a881c47f8936a70278"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-profile-bridge",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/2NF/dsh-profile-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-profile-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/2NF/dsh-profile-bridge",
+    "commit": "6917177806fcff7d9def83a881c47f8936a70278",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:03.391Z"
+}

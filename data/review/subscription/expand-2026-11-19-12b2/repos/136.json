@@ -1,0 +1,48 @@
+{
+  "full_name": "alybg/dsh-angelina-pet",
+  "originalPosition": 136,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 136,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:52.591Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1d6a3b47cf92a49b27b9b2c0744413409140681fb0724f006cde7ad7490cf1e0",
+      "url": "https://github.com/alybg/dsh-angelina-pet/blob/b34d3ca43e1eb0dc2f42d39e09d6052918a357c2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/alybg/dsh-angelina-pet",
+    "commit": "b34d3ca43e1eb0dc2f42d39e09d6052918a357c2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-pet",
+    "version": "1.0.0",
+    "dsh": {
+      "client": {
+        "platform": "web",
+        "inject": [
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-ui-slots"
+        ]
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:54.300Z"
+}

@@ -1,0 +1,92 @@
+{
+  "full_name": "GptsApp/dsh-stylevault",
+  "originalPosition": 116,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 116,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:33.983Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0ce695377e4c9b8770f3345d568085f9451620c087c9f9b54889269b91030ab8",
+      "url": "https://github.com/GptsApp/dsh-stylevault/blob/b627f3a40c86cee9016d3749368479c08b5443b9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/GptsApp/dsh-stylevault",
+          "command": "dsh plugin --profile web add github:GptsApp/dsh-stylevault",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "e6c6fb870e5c7df9784d7a226ab34578a48768f23d839bae296171731a57e1f3",
+      "url": "https://github.com/GptsApp/dsh-stylevault/blob/b627f3a40c86cee9016d3749368479c08b5443b9/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/GptsApp/dsh-stylevault",
+          "command": "dsh plugin --profile web add github:GptsApp/dsh-stylevault",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-stylevault",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/GptsApp/dsh-stylevault",
+        "commit": "b627f3a40c86cee9016d3749368479c08b5443b9"
+      },
+      "manifestSha256": "ca2f0030e85b8ff5fa14b54ad8dce9970132496cbe9aa09fb022d7cd6682908b",
+      "manifestUrl": "https://github.com/GptsApp/dsh-stylevault/blob/b627f3a40c86cee9016d3749368479c08b5443b9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-stylevault",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1786893405,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GptsApp/dsh-stylevault",
+              "commit": "b627f3a40c86cee9016d3749368479c08b5443b9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/GptsApp/dsh-stylevault",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GptsApp/dsh-stylevault",
+    "commit": "b627f3a40c86cee9016d3749368479c08b5443b9",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:36.201Z"
+}

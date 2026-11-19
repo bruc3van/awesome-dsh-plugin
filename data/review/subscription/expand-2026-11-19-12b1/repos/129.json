@@ -1,0 +1,87 @@
+{
+  "full_name": "HuanLinOTO/dsh-plugin-mcp-manager",
+  "originalPosition": 129,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 129,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:39.398Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dfcb292469e4b8968b86040af1f6583808f4f9b3bec622c2ddc407a981e6c2af",
+      "url": "https://github.com/HuanLinOTO/dsh-plugin-mcp-manager/blob/5746af1d30852e7deb30eacff28cd8b89158ec76/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/dsh-external/dsh-mcp-manager",
+          "command": "dsh plugin --profile web add \"github:dsh-external/dsh-mcp-manager\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@huanlin/dsh-plugin-mcp-manager",
+      "version": "0.5.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HuanLinOTO/dsh-plugin-mcp-manager",
+        "commit": "5746af1d30852e7deb30eacff28cd8b89158ec76"
+      },
+      "manifestSha256": "8a6dec170cf01d6491e6c1ca721f87099bcc26cb044730345826846376ee7fca",
+      "manifestUrl": "https://github.com/HuanLinOTO/dsh-plugin-mcp-manager/blob/5746af1d30852e7deb30eacff28cd8b89158ec76/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@huanlin/dsh-plugin-mcp-manager",
+        "versions": [
+          {
+            "version": "0.5.0",
+            "publishTimestamp": 1794063959,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HuanLinOTO/dsh-plugin-mcp-manager",
+              "commit": "5746af1d30852e7deb30eacff28cd8b89158ec76"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/dsh-external/dsh-mcp-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "install_target",
+      "target": "https://github.com/dsh-external/dsh-mcp-manager",
+      "reason": "Command failed: git -c core.hooksPath=/dev/null -c core.fsmonitor=false -c submodule.recurse=false -c gc.auto=0 -c maintenance.auto=false -c protocol.allow=never -c protocol.https.allow=always ls-remote -- https://github.com/dsh-external/dsh-mcp-manager HEAD refs/tags/*\nremote: Repository not found.\nfatal: repository 'https://github.com/dsh-external/dsh-mcp-manager/' not found\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/HuanLinOTO/dsh-plugin-mcp-manager",
+    "commit": "5746af1d30852e7deb30eacff28cd8b89158ec76",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:07:41.446Z"
+}

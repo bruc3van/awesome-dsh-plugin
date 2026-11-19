@@ -1,0 +1,42 @@
+{
+  "full_name": "SherlockGougou/dsh-plugins-fix",
+  "originalPosition": 56,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 56,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:22.328Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7f76f7e35a143a1f678ff627d1f9f3dc3e08757908a8f0ec085cf11654060d92",
+      "url": "https://github.com/SherlockGougou/dsh-plugins-fix/blob/5b6830a4049d1c46496701cddaef1721cc1fef21/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SherlockGougou/dsh-plugins-fix",
+    "commit": "5b6830a4049d1c46496701cddaef1721cc1fef21",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-fix",
+    "version": "0.2.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=18.0.0"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:24.234Z"
+}

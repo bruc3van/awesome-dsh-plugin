@@ -1,0 +1,154 @@
+{
+  "full_name": "Edge-Echo/dsh-win-toolkit",
+  "originalPosition": 96,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 96,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:25.839Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6f3f5d6f5ccc396413139daf5831f6a0040925c0b326e39db903ee8a413ff1c2",
+      "url": "https://github.com/Edge-Echo/dsh-win-toolkit/blob/2b1444c5f75889b418d04a23f5a22bac13170d81/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-win-toolkit",
+          "command": "dsh plugin --profile web add dsh-win-toolkit",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b7eb14764bf5748aaf3a3e5455a879888f4d0d4c60d2ba6d11c889f8bacbaad8",
+      "url": "https://github.com/Edge-Echo/dsh-win-toolkit/blob/2b1444c5f75889b418d04a23f5a22bac13170d81/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-win-toolkit",
+          "command": "dsh plugin --profile web add dsh-win-toolkit",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-win-toolkit",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Edge-Echo/dsh-win-toolkit",
+        "commit": "2b1444c5f75889b418d04a23f5a22bac13170d81"
+      },
+      "manifestSha256": "547d558b025e2b89a4d1ee5a2c781e4e708f0714db5d6d59e9a07a7c88a45bd9",
+      "manifestUrl": "https://github.com/Edge-Echo/dsh-win-toolkit/blob/2b1444c5f75889b418d04a23f5a22bac13170d81/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-win-toolkit",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1792497446,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Edge-Echo/dsh-win-toolkit",
+              "commit": "2b1444c5f75889b418d04a23f5a22bac13170d81"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-win-toolkit",
+      "origin": "npm",
+      "name": "dsh-win-toolkit",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-win-toolkit",
+        "title": "dsh-win-toolkit",
+        "description": "Windows-native capability pack for DeepSeek Harness (dsh): clipboard, notifications, hosts file, network diagnostics and more — safe PowerShell-backed tools for Windows users.",
+        "author": "dsh-win-toolkit contributors",
+        "repository": {
+          "url": "https://github.com/Edge-Echo/dsh-win-toolkit"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "deepseek-harness",
+            "windows",
+            "powershell",
+            "cordis",
+            "clipboard",
+            "notify",
+            "windows-tools",
+            "wsl",
+            "automation",
+            "hosts-file",
+            "notification",
+            "native-tools"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1790084662,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "241e1bd0325095525bbb87d7a629521beaa0fb145f17d20f47a5a5a5a1c1a71b",
+      "evidence": [
+        {
+          "name": "dsh-win-toolkit",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-win-toolkit/-/dsh-win-toolkit-0.1.3.tgz",
+          "integrity": "sha512-gfwGiH9ocXu24GJXIZKb3yl8ulboi5nrUY0rxpijI7lwUGnAsX9eU5Ix6tHOwZ6+Z3SMokXScBy6C+di7V870Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-win-toolkit",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Edge-Echo/dsh-win-toolkit",
+    "commit": "2b1444c5f75889b418d04a23f5a22bac13170d81",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:28.230Z"
+}

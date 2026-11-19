@@ -1,0 +1,145 @@
+{
+  "full_name": "Ziminli/dsh-session-search",
+  "originalPosition": 120,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 120,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:46.725Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6f58c2a5b0b4499f0e50df7eea5a9e066603cfd9c97e8eb6e935a96e696074dd",
+      "url": "https://github.com/Ziminli/dsh-session-search/blob/9cb7ff2e7270cfd59aebb562bd5d9846edae55c2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@lizimin/dsh-session-search",
+          "command": "dsh plugin --profile <your-profile> add @lizimin/dsh-session-search",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "cce33462a4cfcf7aabd8d7b41bb40219f4b9d617497591877b5383e7a080eb34",
+      "url": "https://github.com/Ziminli/dsh-session-search/blob/9cb7ff2e7270cfd59aebb562bd5d9846edae55c2/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@lizimin/dsh-session-search",
+          "command": "dsh plugin --profile <你的配置档> add @lizimin/dsh-session-search",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@lizimin/dsh-session-search",
+      "version": "1.4.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ziminli/dsh-session-search",
+        "commit": "9cb7ff2e7270cfd59aebb562bd5d9846edae55c2"
+      },
+      "manifestSha256": "888a3da7cfac10778d51da9ce93ea083881c5942eaef3c648ebbb779087abddf",
+      "manifestUrl": "https://github.com/Ziminli/dsh-session-search/blob/9cb7ff2e7270cfd59aebb562bd5d9846edae55c2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@lizimin/dsh-session-search",
+        "versions": [
+          {
+            "version": "1.4.2",
+            "publishTimestamp": 1795078128,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ziminli/dsh-session-search",
+              "commit": "9cb7ff2e7270cfd59aebb562bd5d9846edae55c2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@lizimin/dsh-session-search",
+      "origin": "npm",
+      "name": "@lizimin/dsh-session-search",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@lizimin/dsh-session-search",
+        "title": {
+          "en": "Session Search",
+          "zh": "会话搜索"
+        },
+        "description": {
+          "en": "Search stored DSH conversation text across all or selected workspaces and sessions, with exact, regular-expression, typo-tolerant or word-internal subsequence matching. Open with Ctrl+F or ⌘F.",
+          "zh": "在所有或指定工作区、会话中搜索已存储的 DSH 对话文本，支持精确、正则表达式、拼写容错及词内子序列匹配。使用 Ctrl+F 或 ⌘F 打开。"
+        },
+        "author": "Zimin Li",
+        "homepage": "https://github.com/Ziminli/dsh-session-search#readme",
+        "repository": {
+          "url": "https://github.com/Ziminli/dsh-session-search"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "session-search",
+            "conversation-search"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cmVjdCB4PSIzIiB5PSIzIiB3aWR0aD0iNTgiIGhlaWdodD0iNTgiIHJ4PSIxNSIgZmlsbD0iIzMxNzRlZiIvPjxwYXRoIGQ9Ik0xNyAxN2gyM00xNyAyNWgxM00xNyAzM2g5IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMzYiIGN5PSIzNyIgcj0iMTEiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI0Ii8+PHBhdGggZD0ibTQ0IDQ1IDggOCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "1.4.2",
+            "publishTimestamp": 1795079037,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cd49bce5ab0c945250aad2a67dac0f4d8847dfd39eb1706d59446dc604eeac3b",
+      "evidence": [
+        {
+          "name": "@lizimin/dsh-session-search",
+          "version": "1.4.2",
+          "tarball": "https://registry.npmjs.org/@lizimin/dsh-session-search/-/dsh-session-search-1.4.2.tgz",
+          "integrity": "sha512-ZEOVNhnoPEHDuvfQXN40QCgSKbFn36/0QT0fTzjrGgISfLPcSp0idZbcHvtuvc/kK06k2ZKejyC+mToeTJKWuQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@lizimin/dsh-session-search",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ziminli/dsh-session-search",
+    "commit": "9cb7ff2e7270cfd59aebb562bd5d9846edae55c2",
+    "releaseTags": 17,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:49.310Z"
+}

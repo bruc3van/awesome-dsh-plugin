@@ -1,0 +1,95 @@
+{
+  "full_name": "MlittleFriend/dsh-character-profiler",
+  "originalPosition": 177,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 177,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:00.212Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "de12b4e95b45495240d6d19dc063d336ba0975bb1eb8816012d472150297f8e5",
+      "url": "https://github.com/MlittleFriend/dsh-character-profiler/blob/9417ad1a6d084a29c7e050c39afb823cbbce3273/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MlittleFriend/dsh-character-profiler",
+          "command": "dsh plugin --profile web add github:MlittleFriend/dsh-character-profiler",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "83f1502449d2fd30e8cf23808c4797363eae1d799da07e570e0618d05934c802",
+      "url": "https://github.com/MlittleFriend/dsh-character-profiler/blob/9417ad1a6d084a29c7e050c39afb823cbbce3273/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/MlittleFriend/dsh-character-profiler",
+          "command": "dsh plugin --profile web add github:MlittleFriend/dsh-character-profiler",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-character-profiler",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MlittleFriend/dsh-character-profiler",
+        "commit": "9417ad1a6d084a29c7e050c39afb823cbbce3273"
+      },
+      "manifestSha256": "4505a100283f7158884b1f404b19592a49ac7625b472934260e718b0f20e2af8",
+      "manifestUrl": "https://github.com/MlittleFriend/dsh-character-profiler/blob/9417ad1a6d084a29c7e050c39afb823cbbce3273/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-character-profiler",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787012713,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MlittleFriend/dsh-character-profiler",
+              "commit": "9417ad1a6d084a29c7e050c39afb823cbbce3273"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/MlittleFriend/dsh-character-profiler",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MlittleFriend/dsh-character-profiler",
+    "commit": "9417ad1a6d084a29c7e050c39afb823cbbce3273",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:02.471Z"
+}

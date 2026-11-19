@@ -1,0 +1,77 @@
+{
+  "full_name": "Yan-Zero/dsh-progressive-tools",
+  "originalPosition": 106,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 106,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:42.163Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9d8c36ad19bac254174f255615f9ba55ca96981b0a7f6d239cff083a8e419452",
+      "url": "https://github.com/Yan-Zero/dsh-progressive-tools/blob/23f4253e81a38fee1e56e9853c93b1ae1fa6a21d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "63ca06c8cc78ae4ea5590ac634acda6963c279829eeec992d536a03c93caa003",
+      "url": "https://github.com/Yan-Zero/dsh-progressive-tools/blob/23f4253e81a38fee1e56e9853c93b1ae1fa6a21d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-progressive-tools",
+      "version": "0.2.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Yan-Zero/dsh-progressive-tools",
+        "commit": "23f4253e81a38fee1e56e9853c93b1ae1fa6a21d"
+      },
+      "manifestSha256": "2989929101cecd6838e4f24d3c196b45f60326d88eabd389b740fe4feb9f2a0e",
+      "manifestUrl": "https://github.com/Yan-Zero/dsh-progressive-tools/blob/23f4253e81a38fee1e56e9853c93b1ae1fa6a21d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-progressive-tools",
+        "versions": [
+          {
+            "version": "0.2.3",
+            "publishTimestamp": 1786702587,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Yan-Zero/dsh-progressive-tools",
+              "commit": "23f4253e81a38fee1e56e9853c93b1ae1fa6a21d"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Yan-Zero/dsh-progressive-tools",
+    "commit": "23f4253e81a38fee1e56e9853c93b1ae1fa6a21d",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:44.346Z"
+}

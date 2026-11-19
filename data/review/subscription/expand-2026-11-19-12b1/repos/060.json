@@ -1,0 +1,68 @@
+{
+  "full_name": "AppliedYuu/dsh-WallpaperAndCost",
+  "originalPosition": 60,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 60,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:10.832Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bb00f857f8661f038bbcf940cd79fc25d8d5cbd91d4e5743964fad6a7345f957",
+      "url": "https://github.com/AppliedYuu/dsh-WallpaperAndCost/blob/5fa96d0a8f11240b625d79f515b924d11042d151/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-WallpaperAndCost",
+          "command": "dsh plugin --profile web add dsh-WallpaperAndCost",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-WallpaperAndCost",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AppliedYuu/dsh-WallpaperAndCost",
+        "commit": "5fa96d0a8f11240b625d79f515b924d11042d151"
+      },
+      "manifestSha256": "de39375e151732918baf1d43c23b5f4ad7586d5d770457143df1adef4f0ddfd1",
+      "manifestUrl": "https://github.com/AppliedYuu/dsh-WallpaperAndCost/blob/5fa96d0a8f11240b625d79f515b924d11042d151/package.json",
+      "status": "invalid_manifest",
+      "reason": "$.plugins[0].name must be a valid npm package name"
+    },
+    {
+      "target": "dsh-WallpaperAndCost",
+      "status": "unsupported_source",
+      "code": "unsupported_target",
+      "reason": "不是受支持的 npm 精确版本、标签或 HTTPS Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-WallpaperAndCost",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AppliedYuu/dsh-WallpaperAndCost",
+    "commit": "5fa96d0a8f11240b625d79f515b924d11042d151",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:07:12.792Z"
+}

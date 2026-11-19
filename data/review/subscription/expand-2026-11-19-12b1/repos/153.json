@@ -1,0 +1,74 @@
+{
+  "full_name": "LanFeng97/dsh-bottom-cost",
+  "originalPosition": 153,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 153,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:50.288Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0de59e097b905621bb49aaf54982ab85ee3153ff42dfac622608d677cbeb3ec1",
+      "url": "https://github.com/LanFeng97/dsh-bottom-cost/blob/4a79a68513ae7834fca30f460a85e032133c2544/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "a836aa2e1a2c9b46c733588c63b69b2f7cbbc2b9252c824ee0345ce89d865344",
+      "url": "https://github.com/LanFeng97/dsh-bottom-cost/blob/4a79a68513ae7834fca30f460a85e032133c2544/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-bottom-cost",
+      "version": "0.6.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LanFeng97/dsh-bottom-cost",
+        "commit": "4a79a68513ae7834fca30f460a85e032133c2544"
+      },
+      "manifestSha256": "18689b22ad2fba3ebcc80cabe66bb11067be119cdd8fc10b9d0b6d733c33a61a",
+      "manifestUrl": "https://github.com/LanFeng97/dsh-bottom-cost/blob/4a79a68513ae7834fca30f460a85e032133c2544/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-bottom-cost",
+        "versions": [
+          {
+            "version": "0.6.1",
+            "publishTimestamp": 1794726488,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LanFeng97/dsh-bottom-cost",
+              "commit": "4a79a68513ae7834fca30f460a85e032133c2544"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LanFeng97/dsh-bottom-cost",
+    "commit": "4a79a68513ae7834fca30f460a85e032133c2544",
+    "releaseTags": 9,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:52.696Z"
+}

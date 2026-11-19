@@ -1,0 +1,78 @@
+{
+  "full_name": "Sunrisepeak/dsh-index",
+  "originalPosition": 71,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 71,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:27.531Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "78146e0e5762fa68a7ebf040926e6f0de31940a2aa94381ea5a59f62cbdfd61b",
+      "url": "https://github.com/Sunrisepeak/dsh-index/blob/f5b8a176c8eb09949408bb80cff1fc848b059555/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cc-tui@0.1.6",
+          "command": "dsh plugin --profile web add dsh-cc-tui@0.1.6",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "4873246120dee6ce0375e24d4dfe7fca1653321d17ac869ec25530847765b37d",
+      "url": "https://github.com/Sunrisepeak/dsh-index/blob/f5b8a176c8eb09949408bb80cff1fc848b059555/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-cc-tui@0.1.6",
+          "command": "dsh plugin --profile web add dsh-cc-tui@0.1.6",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "target": "dsh-cc-tui@0.1.6",
+      "origin": "npm",
+      "name": "dsh-cc-tui",
+      "version": "0.1.6",
+      "code": "deprecated_version",
+      "status": "invalid_manifest",
+      "reason": "已更名为 @deepseek-harness-tui/dsh-tui。请迁移：npm install -g @deepseek-ai/dsh @deepseek-harness-tui/dsh-tui && dsh-tui（详见 https://github.com/ccch1mneyyy/dsh-TUI ）",
+      "statusCode": "deprecated_version",
+      "registrySha256": "23b6fbf982c726286921ed84a084add1c44a03ec5448a832734602935f15f16a"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-cc-tui@0.1.6",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Sunrisepeak/dsh-index",
+    "commit": "f5b8a176c8eb09949408bb80cff1fc848b059555",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:29.480Z"
+}

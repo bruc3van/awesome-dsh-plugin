@@ -1,0 +1,74 @@
+{
+  "full_name": "Chruix/dsh-team-model",
+  "originalPosition": 81,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 81,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:19.352Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8c221df37989aa57e87d689778bac9d3df2e203006f67d05306fbb6af3736423",
+      "url": "https://github.com/Chruix/dsh-team-model/blob/9ccd31b7ec718ad8ebf14bbc3e21e5599386ecd9/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e0d7dec6172f181df8ce99357819e256570ff1f182000193dfe280837a62c528",
+      "url": "https://github.com/Chruix/dsh-team-model/blob/9ccd31b7ec718ad8ebf14bbc3e21e5599386ecd9/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-team-model",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Chruix/dsh-team-model",
+        "commit": "9ccd31b7ec718ad8ebf14bbc3e21e5599386ecd9"
+      },
+      "manifestSha256": "125298e4cb104cd74b5c5193a004508fee5df52a4043904dccce68f67c3ba612",
+      "manifestUrl": "https://github.com/Chruix/dsh-team-model/blob/9ccd31b7ec718ad8ebf14bbc3e21e5599386ecd9/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-team-model",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793932604,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Chruix/dsh-team-model",
+              "commit": "9ccd31b7ec718ad8ebf14bbc3e21e5599386ecd9"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Chruix/dsh-team-model",
+    "commit": "9ccd31b7ec718ad8ebf14bbc3e21e5599386ecd9",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:21.691Z"
+}

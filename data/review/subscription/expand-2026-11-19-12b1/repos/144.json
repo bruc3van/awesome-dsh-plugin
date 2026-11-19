@@ -1,0 +1,69 @@
+{
+  "full_name": "KexinCC/dsh-kimi-assemble",
+  "originalPosition": 144,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 144,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:46.541Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fbbb70567e7ec6118fd94ed3b4354441663b0d7c77ca12ad5c4954d51d048b28",
+      "url": "https://github.com/KexinCC/dsh-kimi-assemble/blob/8ab6592ed4a28c4d0363d53abd6e842a8e9e297e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-kimi-assemble",
+      "version": "1.3.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KexinCC/dsh-kimi-assemble",
+        "commit": "8ab6592ed4a28c4d0363d53abd6e842a8e9e297e"
+      },
+      "manifestSha256": "c21e3abfb51025e352abc565898ec50bfae9dcce9731f77c7658ef7e992e994c",
+      "manifestUrl": "https://github.com/KexinCC/dsh-kimi-assemble/blob/8ab6592ed4a28c4d0363d53abd6e842a8e9e297e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-kimi-assemble",
+        "versions": [
+          {
+            "version": "1.3.2",
+            "publishTimestamp": 1794533953,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KexinCC/dsh-kimi-assemble",
+              "commit": "8ab6592ed4a28c4d0363d53abd6e842a8e9e297e"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KexinCC/dsh-kimi-assemble",
+    "commit": "8ab6592ed4a28c4d0363d53abd6e842a8e9e297e",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:48.546Z"
+}

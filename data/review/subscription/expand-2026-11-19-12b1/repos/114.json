@@ -1,0 +1,40 @@
+{
+  "full_name": "GinerYard/dsh-chords",
+  "originalPosition": 114,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 114,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:33.814Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2411f1035dfbd349edba84d0ddeffec8629a783ed81a718a47618ce5b0138825",
+      "url": "https://github.com/GinerYard/dsh-chords/blob/95c1d0051ddc41354020d64a09a9325d0d544399/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/GinerYard/dsh-chords",
+    "commit": "95c1d0051ddc41354020d64a09a9325d0d544399",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-19T12:07:35.671Z"
+}

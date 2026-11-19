@@ -1,0 +1,143 @@
+{
+  "full_name": "AL-Yichen/dsh-fullscreen-input",
+  "originalPosition": 49,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 49,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:05.614Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6b51a2c3acf825ea8801a69900c9e9517156116be05b08306dae34a11d5fb969",
+      "url": "https://github.com/AL-Yichen/dsh-fullscreen-input/blob/0e211595f4f07289ba3b713b67d47b90498fa082/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-fullscreen-input",
+          "command": "dsh plugin --profile web add dsh-fullscreen-input",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "3bc5d79cd8d1199e97c9fc98ae3372c13efcbdda10a78225089e7f1e02083862",
+      "url": "https://github.com/AL-Yichen/dsh-fullscreen-input/blob/0e211595f4f07289ba3b713b67d47b90498fa082/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-fullscreen-input",
+          "command": "dsh plugin --profile web add dsh-fullscreen-input",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fullscreen-input",
+      "version": "1.2.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AL-Yichen/dsh-fullscreen-input",
+        "commit": "0e211595f4f07289ba3b713b67d47b90498fa082"
+      },
+      "manifestSha256": "bf197ae5db665916a85c1e896376b70258ff36b4742226dc4f37381943cfb484",
+      "manifestUrl": "https://github.com/AL-Yichen/dsh-fullscreen-input/blob/0e211595f4f07289ba3b713b67d47b90498fa082/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-fullscreen-input",
+        "versions": [
+          {
+            "version": "1.2.4",
+            "publishTimestamp": 1792208881,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AL-Yichen/dsh-fullscreen-input",
+              "commit": "0e211595f4f07289ba3b713b67d47b90498fa082"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-fullscreen-input",
+      "origin": "npm",
+      "name": "dsh-fullscreen-input",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-fullscreen-input",
+        "title": "dsh-fullscreen-input",
+        "description": "给 DSH 的输入框加一个全屏输入面板：在整屏空间里写多行文本，可拖动标题栏移动、可拖边框改大小，引用与附件都与主输入框共用同一份草稿。Enter 换行、仅 Ctrl+Enter 发送，因此中文输入法下 Shift+Enter 也不会被误判成发送。",
+        "author": "AL_Yichen",
+        "homepage": "https://github.com/AL-Yichen/dsh-fullscreen-input#readme",
+        "repository": {
+          "url": "https://github.com/AL-Yichen/dsh-fullscreen-input"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "cordis",
+            "composer",
+            "ime",
+            "input",
+            "fullscreen",
+            "multiline"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.2.4",
+            "publishTimestamp": 1791376072,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "da7303b9c251bc4077925287a6dc8f3c501f5524bcb2095fad7a9305843fdb7a",
+      "evidence": [
+        {
+          "name": "dsh-fullscreen-input",
+          "version": "1.2.4",
+          "tarball": "https://registry.npmjs.org/dsh-fullscreen-input/-/dsh-fullscreen-input-1.2.4.tgz",
+          "integrity": "sha512-ctXWFyH/vjdUdg3c5xpCFpr/O6vMQw6yCaXIuQfwSQplXyhE5uvCtLyv3vhSYd5VIbq/arosmMD0yUv4UX5nwA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-fullscreen-input",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AL-Yichen/dsh-fullscreen-input",
+    "commit": "0e211595f4f07289ba3b713b67d47b90498fa082",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:08.218Z"
+}

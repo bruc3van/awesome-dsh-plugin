@@ -1,0 +1,42 @@
+{
+  "full_name": "baochaofan0404/gpt-dsh-bridge",
+  "originalPosition": 150,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 150,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:58.926Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7b2dbe073d87f842434266ff6915e1cafc63a2f41c2cf194d4658cba75d75a45",
+      "url": "https://github.com/baochaofan0404/gpt-dsh-bridge/blob/513076112b2560f1bc9b09a0a88660e57629b089/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/baochaofan0404/gpt-dsh-bridge",
+    "commit": "513076112b2560f1bc9b09a0a88660e57629b089",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "gpt-dsh-bridge",
+    "version": "0.1.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=22.0.0"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:11:00.774Z"
+}

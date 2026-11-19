@@ -1,0 +1,74 @@
+{
+  "full_name": "MistRain-1/dsh-reconnect",
+  "originalPosition": 176,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 176,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:59.661Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "749620624e050cdbaf2f040346e28bdfef82f631f00b9148cdb6b1799d6575dd",
+      "url": "https://github.com/MistRain-1/dsh-reconnect/blob/168b0dd51baca08088b300441bf5a9833fb866c4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "f50737f187861b1b7abd2bc84e14cb06ef015ac1b4b29c7f95c0c0f6a4c9a92a",
+      "url": "https://github.com/MistRain-1/dsh-reconnect/blob/168b0dd51baca08088b300441bf5a9833fb866c4/README_CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-reconnect",
+      "version": "2.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/MistRain-1/dsh-reconnect",
+        "commit": "168b0dd51baca08088b300441bf5a9833fb866c4"
+      },
+      "manifestSha256": "6062d20a3e38e06b25bc73d92d201e5550db9765a2ae9b86a4be0479b9bee63f",
+      "manifestUrl": "https://github.com/MistRain-1/dsh-reconnect/blob/168b0dd51baca08088b300441bf5a9833fb866c4/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-reconnect",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "publishTimestamp": 1787302734,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/MistRain-1/dsh-reconnect",
+              "commit": "168b0dd51baca08088b300441bf5a9833fb866c4"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/MistRain-1/dsh-reconnect",
+    "commit": "168b0dd51baca08088b300441bf5a9833fb866c4",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:01.975Z"
+}

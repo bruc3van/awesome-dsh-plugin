@@ -1,0 +1,29 @@
+{
+  "full_name": "lesliechowsh/dsh-weniger-theme",
+  "originalPosition": 190,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 190,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:19.227Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/lesliechowsh/dsh-weniger-theme/git/commits/51d9f31f7dae3e119b610227b75bea9bd99f6ffa\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D48D:EE5A:119314E:38A944E:6AFEE7DF and timestamp 2026-11-19 12:13:19 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/lesliechowsh/dsh-weniger-theme",
+    "commit": "51d9f31f7dae3e119b610227b75bea9bd99f6ffa",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:19.833Z"
+}

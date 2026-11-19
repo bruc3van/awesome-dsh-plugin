@@ -1,0 +1,148 @@
+{
+  "full_name": "metal-huang/dsh-workspace-split",
+  "originalPosition": 21,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 21,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:53.513Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3e8afe430e27bb5030040b4abd55ef75cffbf2ec451f148f3a71aa4c21de5a62",
+      "url": "https://github.com/metal-huang/dsh-workspace-split/blob/b7669893e3831e28459ab39a100d9e08acda0800/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@metal-huang/dsh-workspace-split",
+          "command": "dsh plugin add @metal-huang/dsh-workspace-split",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "a90dd3bcbcedf4ac3e056ebdb1934e24f9ea6cde7c70736f618cea87e58871d6",
+      "url": "https://github.com/metal-huang/dsh-workspace-split/blob/b7669893e3831e28459ab39a100d9e08acda0800/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@metal-huang/dsh-workspace-split",
+          "command": "dsh plugin add @metal-huang/dsh-workspace-split",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@metal-huang/dsh-workspace-split",
+      "version": "0.1.16",
+      "path": "packages/dsh-workspace-split",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/metal-huang/dsh-workspace-split",
+        "commit": "b7669893e3831e28459ab39a100d9e08acda0800",
+        "path": "packages/dsh-workspace-split"
+      },
+      "manifestSha256": "e0a5a8635d99a2184613f46a18fd6f5fe2d7ce18fcef4509991e61c56702cb3a",
+      "manifestUrl": "https://github.com/metal-huang/dsh-workspace-split/blob/b7669893e3831e28459ab39a100d9e08acda0800/packages/dsh-workspace-split/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@metal-huang/dsh-workspace-split",
+        "versions": [
+          {
+            "version": "0.1.16",
+            "publishTimestamp": 1794998161,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/metal-huang/dsh-workspace-split",
+              "commit": "b7669893e3831e28459ab39a100d9e08acda0800",
+              "path": "packages/dsh-workspace-split"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@metal-huang/dsh-workspace-split",
+      "origin": "npm",
+      "name": "@metal-huang/dsh-workspace-split",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@metal-huang/dsh-workspace-split",
+        "title": {
+          "en": "Workspace Split",
+          "zh": "多会话并置"
+        },
+        "description": {
+          "en": "Watch several sessions side by side in a split grid.",
+          "zh": "在分屏网格里并排查看多个会话的实时进展。"
+        },
+        "homepage": "https://github.com/metal-huang/dsh-workspace-split#readme",
+        "repository": {
+          "url": "https://github.com/metal-huang/dsh-workspace-split"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "split-view",
+            "dashboard",
+            "multi-session"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8cmVjdCB4PSI2IiB5PSI2IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHJ4PSI0IiBmaWxsPSIjMjQ3YmJmIi8+CiAgPHJlY3QgeD0iMzQiIHk9IjYiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgcng9IjQiIGZpbGw9IiM0YTlmZDgiLz4KICA8cmVjdCB4PSI2IiB5PSIzNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByeD0iNCIgZmlsbD0iIzRhOWZkOCIvPgogIDxyZWN0IHg9IjM0IiB5PSIzNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByeD0iNCIgZmlsbD0iIzI0N2JiZiIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.1.16",
+            "publishTimestamp": 1794998366,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5c9603150aace1882b954b678e39c9e41e61184575357d9d8cac7f1c32b85093",
+      "evidence": [
+        {
+          "name": "@metal-huang/dsh-workspace-split",
+          "version": "0.1.16",
+          "tarball": "https://registry.npmjs.org/@metal-huang/dsh-workspace-split/-/dsh-workspace-split-0.1.16.tgz",
+          "integrity": "sha512-kVwQzEd/RjJ+5UmikF4YVDfP2oj33uOnciBY/K6mvE+g570YmDYs5cyaR0b49TYpWrKlJbJDuNFgVz5PqX749A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@metal-huang/dsh-workspace-split",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/metal-huang/dsh-workspace-split",
+    "commit": "b7669893e3831e28459ab39a100d9e08acda0800",
+    "releaseTags": 12,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:56.753Z"
+}

@@ -1,0 +1,163 @@
+{
+  "full_name": "LeemanCheung/dsh-qq2007-skin",
+  "originalPosition": 21,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 21,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:06.212Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "25a8baa187c818843a4d41562a10bf97627f0c50818f63bbf2ac1f5b295d9eb9",
+      "url": "https://github.com/LeemanCheung/dsh-qq2007-skin/blob/48fefe6ef0dc7d6abdf76235740bfb16f41eb426/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LeemanCheung/dsh-qq2007-skin",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-qq2007-skin",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/LeemanCheung/dsh-qq2007-skin#537edbb672fc0eea8412252cb6a0ed7d661479cb",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-qq2007-skin#537edbb672fc0eea8412252cb6a0ed7d661479cb",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "4808e24f7f09168da1e69d739a9cc0db82d702e7d2c6dcf44e3525b7a61186e5",
+      "url": "https://github.com/LeemanCheung/dsh-qq2007-skin/blob/48fefe6ef0dc7d6abdf76235740bfb16f41eb426/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/LeemanCheung/dsh-qq2007-skin",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-qq2007-skin",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/LeemanCheung/dsh-qq2007-skin#537edbb672fc0eea8412252cb6a0ed7d661479cb",
+          "command": "dsh plugin --profile web add github:LeemanCheung/dsh-qq2007-skin#537edbb672fc0eea8412252cb6a0ed7d661479cb",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qq2007-skin",
+      "version": "0.3.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LeemanCheung/dsh-qq2007-skin",
+        "commit": "48fefe6ef0dc7d6abdf76235740bfb16f41eb426"
+      },
+      "manifestSha256": "4f87d6be001d2d65a7f22ea5aac39e62ff96b2b3a810fcfbb60034c886c96b03",
+      "manifestUrl": "https://github.com/LeemanCheung/dsh-qq2007-skin/blob/48fefe6ef0dc7d6abdf76235740bfb16f41eb426/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-qq2007-skin",
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1790416910,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LeemanCheung/dsh-qq2007-skin",
+              "commit": "48fefe6ef0dc7d6abdf76235740bfb16f41eb426"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/LeemanCheung/dsh-qq2007-skin#537edbb672fc0eea8412252cb6a0ed7d661479cb",
+      "origin": "git_target",
+      "name": "dsh-qq2007-skin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-qq2007-skin",
+        "title": "dsh-qq2007-skin",
+        "description": "QQ 2007-inspired retro messenger skin for the DeepSeek Harness Web GUI, with Codex-generated original artwork, compact desktop chrome, an account card, optional original send chime, and reversible settings.",
+        "author": "LeemanCheung",
+        "homepage": "https://github.com/LeemanCheung/dsh-qq2007-skin#readme",
+        "repository": {
+          "url": "https://github.com/LeemanCheung/dsh-qq2007-skin"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "theme",
+            "skin",
+            "retro-ui",
+            "qq2007",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.1",
+            "publishTimestamp": 1788584466,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LeemanCheung/dsh-qq2007-skin",
+              "commit": "537edbb672fc0eea8412252cb6a0ed7d661479cb"
+            },
+            "engines": {
+              "dsh": "^0.1.2-rc.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "537edbb672fc0eea8412252cb6a0ed7d661479cb",
+          "name": "dsh-qq2007-skin",
+          "version": "0.3.1",
+          "url": "https://github.com/LeemanCheung/dsh-qq2007-skin",
+          "manifestSha256": "0a31a8163990c34c5e416669e014b6a09956ea74d1cf54dc78b1f99114a3d01b",
+          "publishTimestamp": 1788584466
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LeemanCheung/dsh-qq2007-skin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/LeemanCheung/dsh-qq2007-skin#537edbb672fc0eea8412252cb6a0ed7d661479cb",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LeemanCheung/dsh-qq2007-skin",
+    "commit": "48fefe6ef0dc7d6abdf76235740bfb16f41eb426",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:09.678Z"
+}

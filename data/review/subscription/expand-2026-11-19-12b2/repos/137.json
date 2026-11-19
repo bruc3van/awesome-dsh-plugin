@@ -1,0 +1,145 @@
+{
+  "full_name": "anticbv/dsh-preset-deep",
+  "originalPosition": 137,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 137,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:53.833Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e2f4c93929edb1dedc7b84d4d66f4e77dab5e724e3db11060c7ccb9bc2896962",
+      "url": "https://github.com/anticbv/dsh-preset-deep/blob/17484081b41459ba1d34a879974c9d764ad3a35e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-preset-deep",
+          "command": "dsh plugin --profile <profile> add dsh-preset-deep",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "46665c8b51e363018e54010d5c5d789cb095f9520978a65e1f5309d747448d00",
+      "url": "https://github.com/anticbv/dsh-preset-deep/blob/17484081b41459ba1d34a879974c9d764ad3a35e/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-preset-deep",
+          "command": "dsh plugin --profile <profile> add dsh-preset-deep",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-preset-deep",
+      "version": "0.1.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/anticbv/dsh-preset-deep",
+        "commit": "17484081b41459ba1d34a879974c9d764ad3a35e"
+      },
+      "manifestSha256": "0afc94e7337f7abf2ba6ce9241b945ef4c31ed43d5af542e5ee4b8ee91f7eb1c",
+      "manifestUrl": "https://github.com/anticbv/dsh-preset-deep/blob/17484081b41459ba1d34a879974c9d764ad3a35e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-preset-deep",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1794404958,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/anticbv/dsh-preset-deep",
+              "commit": "17484081b41459ba1d34a879974c9d764ad3a35e"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-preset-deep",
+      "origin": "npm",
+      "name": "dsh-preset-deep",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-preset-deep",
+        "title": {
+          "en": "Liangsheng Mode",
+          "zh": "梁圣模式"
+        },
+        "description": {
+          "en": "A work mode where plans must be falsifiable and every conclusion carries an evidence grade.",
+          "zh": "计划必须可证伪、结论必须带证据等级的工作模式。"
+        },
+        "author": "anticbv",
+        "homepage": "https://github.com/anticbv/dsh-preset-deep#readme",
+        "repository": {
+          "url": "https://github.com/anticbv/dsh-preset-deep"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh-bundle",
+            "deepseek-harness",
+            "agent-preset"
+          ]
+        },
+        "icon": "data:image/png;base64,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",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1794405727,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "3a4e9efafb19462c4e9ed7c028c44d0a1cce84d3b019014b7c04c1708e5f618f",
+      "evidence": [
+        {
+          "name": "dsh-preset-deep",
+          "version": "0.1.5",
+          "tarball": "https://registry.npmjs.org/dsh-preset-deep/-/dsh-preset-deep-0.1.5.tgz",
+          "integrity": "sha512-6nEbUEUE3ye9nrTgZBryNMD3M9fVQwVpjkhBqvNjVNT9nBdYrrJSNe1ByddC/FuWPoZbMHeF4F9+r91iMDCuNg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-preset-deep",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/anticbv/dsh-preset-deep",
+    "commit": "17484081b41459ba1d34a879974c9d764ad3a35e",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:56.349Z"
+}

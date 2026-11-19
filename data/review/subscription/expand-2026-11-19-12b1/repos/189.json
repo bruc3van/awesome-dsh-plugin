@@ -1,0 +1,95 @@
+{
+  "full_name": "Nichts0v0/dsh-mcp-manager",
+  "originalPosition": 189,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 189,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:04.959Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e527457e04caadbc5846cf4d99e6e05bb92b4d52a349b8ace8f202ef7a219e44",
+      "url": "https://github.com/Nichts0v0/dsh-mcp-manager/blob/335f797c30b9c3880d997c27343c609c8019f040/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mcp-manager",
+          "command": "dsh plugin --profile web add dsh-mcp-manager",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mcp-manager",
+          "command": "dsh plugin --profile <profile> add dsh-mcp-manager",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ccd3a12dd69b6003b056252f5a6487cda3f48066ad2b06b38e1fe5efd917f74b",
+      "url": "https://github.com/Nichts0v0/dsh-mcp-manager/blob/335f797c30b9c3880d997c27343c609c8019f040/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mcp-manager",
+          "command": "dsh plugin --profile web add dsh-mcp-manager",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-mcp-manager",
+          "command": "dsh plugin --profile <profile> add dsh-mcp-manager",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "target": "dsh-mcp-manager",
+      "origin": "npm",
+      "name": "dsh-mcp-manager",
+      "version": "0.6.0",
+      "code": "not_dsh_bundle",
+      "status": "invalid_manifest",
+      "reason": "not a declared DSH bundle",
+      "statusCode": "not_dsh_bundle",
+      "registrySha256": "4faa6b53a8bec8bdbf09b178a9385282d0d51abd4d3d6b3725726070a874be5e"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mcp-manager",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Nichts0v0/dsh-mcp-manager",
+    "commit": "335f797c30b9c3880d997c27343c609c8019f040",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-mcp-manager",
+    "version": "0.6.0",
+    "dsh": {
+      "client": {
+        "platform": "web",
+        "inject": [
+          "@deepseek-ai/dsh-client-locale"
+        ]
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:08:07.404Z"
+}

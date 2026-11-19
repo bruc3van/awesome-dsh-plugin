@@ -1,0 +1,78 @@
+{
+  "full_name": "back4app/back4app-plugin",
+  "originalPosition": 147,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:57.919Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "92f74a2b827756f013d1161af4a2a16e503063479d5667f2bce823b2df23b22c",
+      "url": "https://github.com/back4app/back4app-plugin/blob/53b8d8c58e0140dcc33aede37002e4c423fb2249/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/back4app/back4app-plugin",
+          "command": "dsh plugin --profile tui add github:back4app/back4app-plugin",
+          "profile": "tui"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "back4app",
+      "version": "0.1.23",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/back4app/back4app-plugin",
+        "commit": "53b8d8c58e0140dcc33aede37002e4c423fb2249"
+      },
+      "manifestSha256": "2f200b6c522889e9fe269fbf37da33ba1a824b8057b4b9576d10609a13d858de",
+      "manifestUrl": "https://github.com/back4app/back4app-plugin/blob/53b8d8c58e0140dcc33aede37002e4c423fb2249/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "back4app",
+        "versions": [
+          {
+            "version": "0.1.23",
+            "publishTimestamp": 1793973211,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/back4app/back4app-plugin",
+              "commit": "53b8d8c58e0140dcc33aede37002e4c423fb2249"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/back4app/back4app-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/back4app/back4app-plugin",
+    "commit": "53b8d8c58e0140dcc33aede37002e4c423fb2249",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:59.919Z"
+}

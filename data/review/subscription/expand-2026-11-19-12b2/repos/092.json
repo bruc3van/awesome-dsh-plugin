@@ -1,0 +1,92 @@
+{
+  "full_name": "Wattson-Law/Xiaobai-Reasearch",
+  "originalPosition": 92,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 92,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:36.211Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "46a2949063f63f09c28bf28e5db0d36b985bdbbf42d082b936146a1f5f63ec31",
+      "url": "https://github.com/Wattson-Law/Xiaobai-Reasearch/blob/6052dd405765b1559d0fe5fcdc27e31c9e49811a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Wattson-Law/Xiaobai-Reasearch",
+          "command": "dsh plugin add github:Wattson-Law/Xiaobai-Reasearch",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "21a2b18c76d2bc7a662b1e3c0dae4ca259abcb1f9d1920aabffbe92dca545676",
+      "url": "https://github.com/Wattson-Law/Xiaobai-Reasearch/blob/6052dd405765b1559d0fe5fcdc27e31c9e49811a/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Wattson-Law/Xiaobai-Reasearch",
+          "command": "dsh plugin add github:Wattson-Law/Xiaobai-Reasearch",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-research-report",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Wattson-Law/Xiaobai-Reasearch",
+        "commit": "6052dd405765b1559d0fe5fcdc27e31c9e49811a"
+      },
+      "manifestSha256": "f09875fe8cef15dd00a4cb0f833d209230df9c52f45cf859c38a7396b34bc001",
+      "manifestUrl": "https://github.com/Wattson-Law/Xiaobai-Reasearch/blob/6052dd405765b1559d0fe5fcdc27e31c9e49811a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-research-report",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1793842193,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Wattson-Law/Xiaobai-Reasearch",
+              "commit": "6052dd405765b1559d0fe5fcdc27e31c9e49811a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Wattson-Law/Xiaobai-Reasearch",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Wattson-Law/Xiaobai-Reasearch",
+    "commit": "6052dd405765b1559d0fe5fcdc27e31c9e49811a",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:38.556Z"
+}

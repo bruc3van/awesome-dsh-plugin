@@ -1,0 +1,167 @@
+{
+  "full_name": "DreamsTOF/dsh-prompt-customizer",
+  "originalPosition": 2,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 2,
+  "batch": 1,
+  "stargazers_count": 6,
+  "startedAt": "2026-11-19T12:06:45.046Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c1cb8c9240c09308a1d7970bd5f5a084e5a8439909a09cfb1e51e09928cee0e8",
+      "url": "https://github.com/DreamsTOF/dsh-prompt-customizer/blob/d5893f3b7fb933daed5bb750a0d22ec45a249cf2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-prompt-customizer",
+          "command": "dsh plugin --profile web add dsh-prompt-customizer",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-prompt-customizer",
+          "command": "dsh plugin --profile desktop add dsh-prompt-customizer",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "docs/upgrades/README.md",
+      "sha256": "7bea6781dca9df63693d371ae6026fe33bb95bc2921db1d9d3ed109299959035",
+      "url": "https://github.com/DreamsTOF/dsh-prompt-customizer/blob/d5893f3b7fb933daed5bb750a0d22ec45a249cf2/docs/upgrades/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-prompt-customizer",
+      "version": "2.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DreamsTOF/dsh-prompt-customizer",
+        "commit": "d5893f3b7fb933daed5bb750a0d22ec45a249cf2"
+      },
+      "manifestSha256": "a8dc25713b8b047ce69b78aed7a4f2bbe921cad55658a6ba2cf2b40d4219c4fd",
+      "manifestUrl": "https://github.com/DreamsTOF/dsh-prompt-customizer/blob/d5893f3b7fb933daed5bb750a0d22ec45a249cf2/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-prompt-customizer",
+        "versions": [
+          {
+            "version": "2.2.2",
+            "publishTimestamp": 1794671574,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DreamsTOF/dsh-prompt-customizer",
+              "commit": "d5893f3b7fb933daed5bb750a0d22ec45a249cf2"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-prompt-customizer",
+      "origin": "npm",
+      "name": "dsh-prompt-customizer",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-prompt-customizer",
+        "title": "dsh-prompt-customizer",
+        "description": "DeepSeek Harness 的三合一能力台：提示词定制（按名称屏蔽 / 替换 / 注入 / 排序，按会话阶段与 agent 预设分层）+ 技能集合管理（导入 / 分组 / 开关）+ MCP Server 接入（分层遮蔽与工具级启停）。纯插件注入，不动官方源码。",
+        "author": "DreamsTOF",
+        "homepage": "https://github.com/DreamsTOF/dsh-prompt-customizer#readme",
+        "repository": {
+          "url": "https://github.com/DreamsTOF/dsh-prompt-customizer"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "system-prompt",
+            "prompt-engineering",
+            "skills",
+            "mcp",
+            "tool-filter",
+            "cordis",
+            "plugin",
+            "agent"
+          ]
+        },
+        "versions": [
+          {
+            "version": "2.2.0",
+            "publishTimestamp": 1794492532,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          },
+          {
+            "version": "0.9.2",
+            "publishTimestamp": 1791470068,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "d8e7bd2e7b3d96cf02a31cbfc7b30f4bb72370dfa34e0fab582830651eaa0b13",
+      "evidence": [
+        {
+          "name": "dsh-prompt-customizer",
+          "version": "2.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-prompt-customizer/-/dsh-prompt-customizer-2.2.0.tgz",
+          "integrity": "sha512-OqI3XHE2xCOpfN50GvYA8/Qc5omay4WpBMzAEA2opFsh6BqK0O4NVEBQa8IrM494NEdd6XGfamECCzqKfr7tXQ=="
+        },
+        {
+          "name": "dsh-prompt-customizer",
+          "version": "0.9.2",
+          "tarball": "https://registry.npmjs.org/dsh-prompt-customizer/-/dsh-prompt-customizer-0.9.2.tgz",
+          "integrity": "sha512-rAHeBFGjG9kean4RBwmGSML7p91niVYlA5n2ZSoXutx/v8HI5am71gbmdCuFDrzjdQknoVFc1PGyJFJEmO5Hkw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-prompt-customizer",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DreamsTOF/dsh-prompt-customizer",
+    "commit": "d5893f3b7fb933daed5bb750a0d22ec45a249cf2",
+    "releaseTags": 40,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:48.243Z"
+}

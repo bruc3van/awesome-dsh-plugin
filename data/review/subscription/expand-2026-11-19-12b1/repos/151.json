@@ -1,0 +1,133 @@
+{
+  "full_name": "LONGSASASASASA/dsh-issue2pr",
+  "originalPosition": 151,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 151,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:49.540Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f341010db247bcc84edac8736e6f979fb47135b63f2aada7dfcbfc008f7a06c2",
+      "url": "https://github.com/LONGSASASASASA/dsh-issue2pr/blob/71f398373544ced002ff499fec57d28e642917bd/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-issue2pr",
+          "command": "dsh plugin --profile web add dsh-issue2pr",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-issue2pr",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LONGSASASASASA/dsh-issue2pr",
+        "commit": "71f398373544ced002ff499fec57d28e642917bd"
+      },
+      "manifestSha256": "35b25e01d750d4c5733f407632770e96532bc2b3ac4ec53097d6bc104de0b353",
+      "manifestUrl": "https://github.com/LONGSASASASASA/dsh-issue2pr/blob/71f398373544ced002ff499fec57d28e642917bd/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-issue2pr",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1788398073,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LONGSASASASASA/dsh-issue2pr",
+              "commit": "71f398373544ced002ff499fec57d28e642917bd"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-issue2pr",
+      "origin": "npm",
+      "name": "dsh-issue2pr",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-issue2pr",
+        "title": "dsh-issue2pr",
+        "description": "Issue-to-PR 可验证交付链：项目配置 → 11 阶段流水线 → 人工复核 → PR 说明（DSH 全局插件）",
+        "author": "LONGSASASASASA",
+        "repository": {
+          "url": "https://github.com/LONGSASASASASA/dsh-issue2pr"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "issue",
+            "pull-request",
+            "pipeline",
+            "code-review",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1788398131,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "25c1503f5f658530493dc8509c55f65cca3d1dfa0a05aa59dc1a485c357e5216",
+      "evidence": [
+        {
+          "name": "dsh-issue2pr",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-issue2pr/-/dsh-issue2pr-0.4.0.tgz",
+          "integrity": "sha512-LkmoYYHZjLf8u0n/lILUh5vWGA1lg4trZHmdgZ+gC7YqLi4PVyeOvoQ6gCDrrrk8cqVAXxXNJ/I2pOGO1+kPlQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-issue2pr",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LONGSASASASASA/dsh-issue2pr",
+    "commit": "71f398373544ced002ff499fec57d28e642917bd",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:51.507Z"
+}

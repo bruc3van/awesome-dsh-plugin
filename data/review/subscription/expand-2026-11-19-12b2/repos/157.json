@@ -1,0 +1,142 @@
+{
+  "full_name": "better-er/dsh-write-create-only",
+  "originalPosition": 157,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 157,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:02.090Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d0944e7b88c8ad035803ab9293cfa5283eff21c89d264f09451761a532a791b1",
+      "url": "https://github.com/better-er/dsh-write-create-only/blob/167e4356c1d07821f6a77bbff6e8c9541ec3aa7a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/better-er/dsh-write-create-only",
+          "command": "dsh plugin --profile web add github:better-er/dsh-write-create-only",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-write-create-only",
+          "command": "dsh plugin --profile web add dsh-write-create-only",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-write-create-only",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/better-er/dsh-write-create-only",
+        "commit": "167e4356c1d07821f6a77bbff6e8c9541ec3aa7a"
+      },
+      "manifestSha256": "559e1ad9f59f7ef7c531d44332d5ee411498a0ca61a82729c4ba09a876a2fbea",
+      "manifestUrl": "https://github.com/better-er/dsh-write-create-only/blob/167e4356c1d07821f6a77bbff6e8c9541ec3aa7a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-write-create-only",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1793724023,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/better-er/dsh-write-create-only",
+              "commit": "167e4356c1d07821f6a77bbff6e8c9541ec3aa7a"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-write-create-only",
+      "origin": "npm",
+      "name": "dsh-write-create-only",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-write-create-only",
+        "title": "dsh-write-create-only",
+        "description": "「DSH·write 仅创建」：write 只允许创建新文件，目标已存在时在工具执行前直接拒绝并提示改用 edit，全局所有会话生效，防止模型用 write 整体覆写已有内容。纯 host 端 dsh 插件。",
+        "author": "betterer",
+        "repository": {
+          "url": "https://github.com/better-er/dsh-write-create-only"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "write",
+            "edit",
+            "create-only",
+            "no-overwrite"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1790768231,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "caced297bb920dce66588a68d64c29d55ff7d6f35a244433470e23d815a23ac1",
+      "evidence": [
+        {
+          "name": "dsh-write-create-only",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/dsh-write-create-only/-/dsh-write-create-only-0.1.2.tgz",
+          "integrity": "sha512-RMVlXFYnLxZ2Zb9R/8oRNmEBuE63kWf+VuI9HrzGU+S230o/CVFqdj4damFN3ub7QlopI8eAa1jS9vZ4NlKU3w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/better-er/dsh-write-create-only",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-write-create-only",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/better-er/dsh-write-create-only",
+    "commit": "167e4356c1d07821f6a77bbff6e8c9541ec3aa7a",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:04.249Z"
+}

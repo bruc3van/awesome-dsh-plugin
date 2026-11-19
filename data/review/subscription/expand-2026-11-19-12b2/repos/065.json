@@ -1,0 +1,95 @@
+{
+  "full_name": "Sorwcyra/ds-vision-plugin",
+  "originalPosition": 65,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 65,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:25.277Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "436c8933ead1c8e8f9d0b33fbb658e9557e9461dbb2df1d5eea0693baa0c4d05",
+      "url": "https://github.com/Sorwcyra/ds-vision-plugin/blob/55967fad750f86d0826068cb9cd228be03c943ba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Sorwcyra/ds-vision-plugin",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add \"github:Sorwcyra/ds-vision-plugin\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "e9f8a7ea8362f7bc7f5e9f0ff66fb377f0508cdbbb6e3ec42dc1eb6a667280bb",
+      "url": "https://github.com/Sorwcyra/ds-vision-plugin/blob/55967fad750f86d0826068cb9cd228be03c943ba/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Sorwcyra/ds-vision-plugin",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add \"github:Sorwcyra/ds-vision-plugin\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "ds-vision-plugin",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Sorwcyra/ds-vision-plugin",
+        "commit": "55967fad750f86d0826068cb9cd228be03c943ba"
+      },
+      "manifestSha256": "048be21d96d0fe18fc49e73c957b0e0aa65821d6f1eaeb4489cb6b84c3139ca1",
+      "manifestUrl": "https://github.com/Sorwcyra/ds-vision-plugin/blob/55967fad750f86d0826068cb9cd228be03c943ba/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "ds-vision-plugin",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1786691272,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Sorwcyra/ds-vision-plugin",
+              "commit": "55967fad750f86d0826068cb9cd228be03c943ba"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 <0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Sorwcyra/ds-vision-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Sorwcyra/ds-vision-plugin",
+    "commit": "55967fad750f86d0826068cb9cd228be03c943ba",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:27.530Z"
+}

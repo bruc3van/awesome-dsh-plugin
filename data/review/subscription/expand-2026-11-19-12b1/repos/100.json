@@ -1,0 +1,74 @@
+{
+  "full_name": "EvangeliMo/dsh-computer-use-mode",
+  "originalPosition": 100,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 100,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:27.595Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c49363fee49076ae6939c1c395a3d98b6f3575361b36385b6622a1e52660a69b",
+      "url": "https://github.com/EvangeliMo/dsh-computer-use-mode/blob/8fd77d6b86b34ef9845f4c61a088f0f3de218de6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "bcfa726a8fd0099eb5e370b8419fb8f4a5a17031fd7c26d42d2b2f6ff2691bb6",
+      "url": "https://github.com/EvangeliMo/dsh-computer-use-mode/blob/8fd77d6b86b34ef9845f4c61a088f0f3de218de6/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-computer-use-mode",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/EvangeliMo/dsh-computer-use-mode",
+        "commit": "8fd77d6b86b34ef9845f4c61a088f0f3de218de6"
+      },
+      "manifestSha256": "ef97730d8333f73ea638546f3faf1efc5f2f366d832f860071bb6c57ff05dace",
+      "manifestUrl": "https://github.com/EvangeliMo/dsh-computer-use-mode/blob/8fd77d6b86b34ef9845f4c61a088f0f3de218de6/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-computer-use-mode",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1791333642,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/EvangeliMo/dsh-computer-use-mode",
+              "commit": "8fd77d6b86b34ef9845f4c61a088f0f3de218de6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EvangeliMo/dsh-computer-use-mode",
+    "commit": "8fd77d6b86b34ef9845f4c61a088f0f3de218de6",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:29.811Z"
+}

@@ -1,0 +1,95 @@
+{
+  "full_name": "NattoCB/dsh-plugin-wechat-bridge",
+  "originalPosition": 29,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 29,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:09.679Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "275ac33fc55d5385bf27401328430708b683c1c5c0e75da1229857c3b3f7d540",
+      "url": "https://github.com/NattoCB/dsh-plugin-wechat-bridge/blob/88257abad5bd3c676c1c2528fb8e2d1d97a5f50e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/NattoCB/dsh-plugin-wechat-bridge",
+          "command": "dsh plugin --profile web add github:NattoCB/dsh-plugin-wechat-bridge",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "998a4a0b7d6addfc6f5712902d963791d3c26f5eff0b0193ba74fe71201c73a2",
+      "url": "https://github.com/NattoCB/dsh-plugin-wechat-bridge/blob/88257abad5bd3c676c1c2528fb8e2d1d97a5f50e/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/NattoCB/dsh-plugin-wechat-bridge",
+          "command": "dsh plugin --profile web add github:NattoCB/dsh-plugin-wechat-bridge",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-wechat-bridge",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/NattoCB/dsh-plugin-wechat-bridge",
+        "commit": "88257abad5bd3c676c1c2528fb8e2d1d97a5f50e"
+      },
+      "manifestSha256": "db5dabe36104ab26aa247b17f4ce7e672a8f60c095e7f56d392d832af0c27df2",
+      "manifestUrl": "https://github.com/NattoCB/dsh-plugin-wechat-bridge/blob/88257abad5bd3c676c1c2528fb8e2d1d97a5f50e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-plugin-wechat-bridge",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787488666,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/NattoCB/dsh-plugin-wechat-bridge",
+              "commit": "88257abad5bd3c676c1c2528fb8e2d1d97a5f50e"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/NattoCB/dsh-plugin-wechat-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/NattoCB/dsh-plugin-wechat-bridge",
+    "commit": "88257abad5bd3c676c1c2528fb8e2d1d97a5f50e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:12.106Z"
+}

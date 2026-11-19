@@ -1,0 +1,94 @@
+{
+  "full_name": "BetterZflyee/dsh-jev-adapter",
+  "originalPosition": 73,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 73,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:15.354Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b8e128487dee2fd16a2eabd616ee9e3f54c4996c0f10b65497cd9c8550e27ed2",
+      "url": "https://github.com/BetterZflyee/dsh-jev-adapter/blob/211feceb88ecdc3ab500906d865a2152697c2a50/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/BetterZflyee/dsh-jev-adapter",
+          "command": "dsh plugin --profile <profile> add github:BetterZflyee/dsh-jev-adapter",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-jev-adapter",
+          "command": "dsh plugin --profile <profile> add dsh-jev-adapter",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-jev-adapter",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/BetterZflyee/dsh-jev-adapter",
+        "commit": "211feceb88ecdc3ab500906d865a2152697c2a50"
+      },
+      "manifestSha256": "6d8e7505fbce81e0dc9ac12258004bfb2afe0ab1894cea0fac356c2c4bdea8ff",
+      "manifestUrl": "https://github.com/BetterZflyee/dsh-jev-adapter/blob/211feceb88ecdc3ab500906d865a2152697c2a50/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-jev-adapter",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1789994121,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/BetterZflyee/dsh-jev-adapter",
+              "commit": "211feceb88ecdc3ab500906d865a2152697c2a50"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-jev-adapter",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/BetterZflyee/dsh-jev-adapter",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-jev-adapter",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/BetterZflyee/dsh-jev-adapter",
+    "commit": "211feceb88ecdc3ab500906d865a2152697c2a50",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:17.375Z"
+}

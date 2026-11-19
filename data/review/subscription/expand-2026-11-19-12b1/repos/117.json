@@ -1,0 +1,78 @@
+{
+  "full_name": "Guard42/dsh-humanize",
+  "originalPosition": 117,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 117,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:35.649Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "28b49097b4a67919c16fd398d568583af6985a345b547ad3d83bfbabef16e85a",
+      "url": "https://github.com/Guard42/dsh-humanize/blob/18adeaf0f25862c21a0943539fda16345504deed/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Guard42/dsh-humanize",
+          "command": "dsh plugin --profile web add github:Guard42/dsh-humanize",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-humanize",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Guard42/dsh-humanize",
+        "commit": "18adeaf0f25862c21a0943539fda16345504deed"
+      },
+      "manifestSha256": "e5fa630163461cb9b46729eb9058092c1b3d2bf8d4c70c0884d97c0b3b16f428",
+      "manifestUrl": "https://github.com/Guard42/dsh-humanize/blob/18adeaf0f25862c21a0943539fda16345504deed/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-humanize",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1787723473,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Guard42/dsh-humanize",
+              "commit": "18adeaf0f25862c21a0943539fda16345504deed"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Guard42/dsh-humanize",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Guard42/dsh-humanize",
+    "commit": "18adeaf0f25862c21a0943539fda16345504deed",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:37.468Z"
+}

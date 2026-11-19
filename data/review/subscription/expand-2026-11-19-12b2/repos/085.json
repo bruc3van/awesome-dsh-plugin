@@ -1,0 +1,92 @@
+{
+  "full_name": "V-Reason/dsh-task-notify",
+  "originalPosition": 85,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 85,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:33.441Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fddb47b4f07f6918a1c6e4055009225ba05813c5f9be89ed0a97df1a38323845",
+      "url": "https://github.com/V-Reason/dsh-task-notify/blob/b97804656326e3326e787ef10c8e5218a84fa4b8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/V-Reason/dsh-task-notify.git",
+          "command": "dsh plugin --profile web add git+https://github.com/V-Reason/dsh-task-notify.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "a225c518a1eebecf78f32846e01e96a9a8e66b7ad11cc29adfaf9106f0c537f9",
+      "url": "https://github.com/V-Reason/dsh-task-notify/blob/b97804656326e3326e787ef10c8e5218a84fa4b8/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/V-Reason/dsh-task-notify.git",
+          "command": "dsh plugin --profile web add git+https://github.com/V-Reason/dsh-task-notify.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-task-notify",
+      "version": "1.8.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/V-Reason/dsh-task-notify",
+        "commit": "b97804656326e3326e787ef10c8e5218a84fa4b8"
+      },
+      "manifestSha256": "3dd2221f2a53f16cdc1916a5216aaf7e17dbc4db5c93db5ed9065ab36e8ea8f2",
+      "manifestUrl": "https://github.com/V-Reason/dsh-task-notify/blob/b97804656326e3326e787ef10c8e5218a84fa4b8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-task-notify",
+        "versions": [
+          {
+            "version": "1.8.2",
+            "publishTimestamp": 1790229935,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/V-Reason/dsh-task-notify",
+              "commit": "b97804656326e3326e787ef10c8e5218a84fa4b8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/V-Reason/dsh-task-notify.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/V-Reason/dsh-task-notify",
+    "commit": "b97804656326e3326e787ef10c8e5218a84fa4b8",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:35.646Z"
+}

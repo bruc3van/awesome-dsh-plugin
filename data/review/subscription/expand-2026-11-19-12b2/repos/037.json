@@ -1,0 +1,87 @@
+{
+  "full_name": "QingJ01/dsh-side-tasks",
+  "originalPosition": 37,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 37,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:12.785Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c7a757a24588b24de519ddc7e9468b215a0e75de949cbcafe8093f9796c08e4e",
+      "url": "https://github.com/QingJ01/dsh-side-tasks/blob/63db7accce1058281eccd310c7eaaac1c58ca5e7/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "faff0073794ead26b9ca21de2ee1e5eb223e9d55c6297c25b2dc4d8998627efd",
+      "url": "https://github.com/QingJ01/dsh-side-tasks/blob/63db7accce1058281eccd310c7eaaac1c58ca5e7/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "compat/README.md",
+      "sha256": "3908c7e921ec0b959bc8068e653118c2365331b0e5c161ab3edb0e7fabd0fe49",
+      "url": "https://github.com/QingJ01/dsh-side-tasks/blob/63db7accce1058281eccd310c7eaaac1c58ca5e7/compat/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-side-tasks",
+      "version": "0.1.0",
+      "path": "packages/plugins/side-tasks",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QingJ01/dsh-side-tasks",
+        "commit": "63db7accce1058281eccd310c7eaaac1c58ca5e7",
+        "path": "packages/plugins/side-tasks"
+      },
+      "manifestSha256": "5f72fd17006157d66f688b9d48ead8aa21507ae8c3d070e5224e4d1df40effd5",
+      "manifestUrl": "https://github.com/QingJ01/dsh-side-tasks/blob/63db7accce1058281eccd310c7eaaac1c58ca5e7/packages/plugins/side-tasks/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-side-tasks",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1793780615,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QingJ01/dsh-side-tasks",
+              "commit": "63db7accce1058281eccd310c7eaaac1c58ca5e7",
+              "path": "packages/plugins/side-tasks"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/QingJ01/dsh-side-tasks",
+    "commit": "63db7accce1058281eccd310c7eaaac1c58ca5e7",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:16.199Z"
+}

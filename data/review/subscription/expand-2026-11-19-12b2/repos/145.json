@@ -1,0 +1,142 @@
+{
+  "full_name": "athif23/dsh-context-rollover",
+  "originalPosition": 145,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 145,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:56.533Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1ad012866068b69c79dbe9b1a2eb61685c6fb5b48442a2681f5c6ccf2e327138",
+      "url": "https://github.com/athif23/dsh-context-rollover/blob/d74876a90968bd5498b5af0bcc2f327c3131f007/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-context-rollover",
+          "command": "dsh plugin --profile <profile> add dsh-context-rollover",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/athif23/dsh-context-rollover",
+          "command": "dsh plugin --profile <profile> add github:athif23/dsh-context-rollover",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-context-rollover",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/athif23/dsh-context-rollover",
+        "commit": "d74876a90968bd5498b5af0bcc2f327c3131f007"
+      },
+      "manifestSha256": "0544fc037dcd6c3d8c148585e76f5528fa76e8397e6600ae40f8de8e6110504b",
+      "manifestUrl": "https://github.com/athif23/dsh-context-rollover/blob/d74876a90968bd5498b5af0bcc2f327c3131f007/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.1 >=0.0.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-context-rollover",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1789631810,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/athif23/dsh-context-rollover",
+              "commit": "d74876a90968bd5498b5af0bcc2f327c3131f007"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.1 >=0.0.1-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-context-rollover",
+      "origin": "npm",
+      "name": "dsh-context-rollover",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-context-rollover",
+        "title": "dsh-context-rollover",
+        "description": "Model-driven context-window rollover bundle for the DeepSeek Harness: fresh working context, durable model-managed notes, a small verbatim recent tail, and targeted history recovery — no summarization.",
+        "homepage": "https://github.com/athif23/dsh-context-rollover#readme",
+        "repository": {
+          "url": "https://github.com/athif23/dsh-context-rollover"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "context-window",
+            "compaction",
+            "context-management"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1789543070,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.1 >=0.0.1-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "f80d0f07c9bc1f7fe46bfe3bb14cd49385801c751869967a476151f1a8cf416c",
+      "evidence": [
+        {
+          "name": "dsh-context-rollover",
+          "version": "0.2.2",
+          "tarball": "https://registry.npmjs.org/dsh-context-rollover/-/dsh-context-rollover-0.2.2.tgz",
+          "integrity": "sha512-0my4ufJkO0zcmDuzXuiEmb9nRulCjmFNQQ+KZIYPunTamP33GwpvlDlPf1Z8TE95jvXzAiLDft5EGgeW9+Q1ww=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-context-rollover",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/athif23/dsh-context-rollover",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/athif23/dsh-context-rollover",
+    "commit": "d74876a90968bd5498b5af0bcc2f327c3131f007",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:58.639Z"
+}

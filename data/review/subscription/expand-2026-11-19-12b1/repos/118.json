@@ -1,0 +1,68 @@
+{
+  "full_name": "Guyao146/dsh-better-model-thinking-control",
+  "originalPosition": 118,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 118,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:35.661Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "60dc4b0a2309b005842834e4fb17c0adf02027fedd42f297328e9a051500cf4a",
+      "url": "https://github.com/Guyao146/dsh-better-model-thinking-control/blob/81df11f007060b9aa2900d8038d0321294cbdeeb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-better-model-thinking-control@latest",
+          "command": "dsh plugin --profile web add dsh-better-model-thinking-control@latest",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-better-model-thinking-control",
+      "version": "0.2.10",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Guyao146/dsh-better-model-thinking-control",
+        "commit": "81df11f007060b9aa2900d8038d0321294cbdeeb"
+      },
+      "manifestSha256": "7ed093dad2323078ef4956dc5403213121828951709e2edb7ef2e6d235f8a7e9",
+      "manifestUrl": "https://github.com/Guyao146/dsh-better-model-thinking-control/blob/81df11f007060b9aa2900d8038d0321294cbdeeb/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "target": "dsh-better-model-thinking-control@latest",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-better-model-thinking-control@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Guyao146/dsh-better-model-thinking-control",
+    "commit": "81df11f007060b9aa2900d8038d0321294cbdeeb",
+    "releaseTags": 31,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:07:37.576Z"
+}

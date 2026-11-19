@@ -1,0 +1,29 @@
+{
+  "full_name": "elementor-i/dsh-agentmemory",
+  "originalPosition": 85,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 85,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:08.896Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/elementor-i/dsh-agentmemory/git/commits/c91ec7fa45ca3a2dd0b06c723d896f6265270e45\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D430:11A862:1215144:3A23EAB:6AFEE7D5 and timestamp 2026-11-19 12:13:09 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/elementor-i/dsh-agentmemory",
+    "commit": "c91ec7fa45ca3a2dd0b06c723d896f6265270e45",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:09.536Z"
+}

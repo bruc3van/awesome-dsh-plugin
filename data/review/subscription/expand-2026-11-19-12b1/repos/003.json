@@ -1,0 +1,82 @@
+{
+  "full_name": "ChisaAlter/dsh-acp-agents",
+  "originalPosition": 3,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 3,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:45.051Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2caf2bcf94870e7a737046fbf895edc5323ea002c6d6583fcd8540c0bef6d49d",
+      "url": "https://github.com/ChisaAlter/dsh-acp-agents/blob/5fb4cdc5f21d3da3354983918bdcc0f35ffe8592/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "02191d71bb7ed141799bab176b4967cec5ef7551d9d62dd7616841975948b09d",
+      "url": "https://github.com/ChisaAlter/dsh-acp-agents/blob/5fb4cdc5f21d3da3354983918bdcc0f35ffe8592/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "tools/host-compat/README.md",
+      "sha256": "de5e5aef71a3e92842457cba487fcb8e2585cce0fd437c3fddbd948a1d9cf02a",
+      "url": "https://github.com/ChisaAlter/dsh-acp-agents/blob/5fb4cdc5f21d3da3354983918bdcc0f35ffe8592/tools/host-compat/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-acp-agents",
+      "version": "0.4.9",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ChisaAlter/dsh-acp-agents",
+        "commit": "5fb4cdc5f21d3da3354983918bdcc0f35ffe8592"
+      },
+      "manifestSha256": "364ff624517183f41b367b2878bfd435ffd038320f02e18fe9e42b79c2366542",
+      "manifestUrl": "https://github.com/ChisaAlter/dsh-acp-agents/blob/5fb4cdc5f21d3da3354983918bdcc0f35ffe8592/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-acp-agents",
+        "versions": [
+          {
+            "version": "0.4.9",
+            "publishTimestamp": 1794897934,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/ChisaAlter/dsh-acp-agents",
+              "commit": "5fb4cdc5f21d3da3354983918bdcc0f35ffe8592"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ChisaAlter/dsh-acp-agents",
+    "commit": "5fb4cdc5f21d3da3354983918bdcc0f35ffe8592",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:48.094Z"
+}

@@ -1,0 +1,106 @@
+{
+  "full_name": "Fish-under-sea/dsh-agent-teams-fish",
+  "originalPosition": 106,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 106,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:31.092Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f5b39bde48bb559e343293b2eb21ae40d5873eb0d986db4e500aa4e9721d4041",
+      "url": "https://github.com/Fish-under-sea/dsh-agent-teams-fish/blob/b010548b1dcc0710d95ba4e39cb353a505b86140/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@fish-under-sea/dsh-agent-teams-fish@1.1.0",
+          "command": "dsh plugin --profile <profile> add @fish-under-sea/dsh-agent-teams-fish@1.1.0",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "d12fcda29b612d1ca376acb8ca7984197fce9298a20016cfc79424814823f9f1",
+      "url": "https://github.com/Fish-under-sea/dsh-agent-teams-fish/blob/b010548b1dcc0710d95ba4e39cb353a505b86140/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@fish-under-sea/dsh-agent-teams-fish@1.1.0",
+          "command": "dsh plugin --profile <profile> add @fish-under-sea/dsh-agent-teams-fish@1.1.0",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@fish-under-sea/dsh-agent-teams-fish",
+      "version": "1.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fish-under-sea/dsh-agent-teams-fish",
+        "commit": "b010548b1dcc0710d95ba4e39cb353a505b86140"
+      },
+      "manifestSha256": "70162bfd8fb4fc913a04f2ce5b8cb48450cd168827aa672703ca3a57daeaf314",
+      "manifestUrl": "https://github.com/Fish-under-sea/dsh-agent-teams-fish/blob/b010548b1dcc0710d95ba4e39cb353a505b86140/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.1 || 0.2.1-alpha.2 || 0.2.0-rc.2 || 0.1.7-rc.2 || 0.1.5-rc.3 || 0.1.5-rc.2 || 0.1.5-rc.1 || 0.1.2-rc.1 || 0.1.2-alpha.5 || 0.1.2-alpha.2 || 0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@fish-under-sea/dsh-agent-teams-fish",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1794136957,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Fish-under-sea/dsh-agent-teams-fish",
+              "commit": "b010548b1dcc0710d95ba4e39cb353a505b86140"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.1 || 0.2.1-alpha.2 || 0.2.0-rc.2 || 0.1.7-rc.2 || 0.1.5-rc.3 || 0.1.5-rc.2 || 0.1.5-rc.1 || 0.1.2-rc.1 || 0.1.2-alpha.5 || 0.1.2-alpha.2 || 0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@fish-under-sea/dsh-agent-teams-fish@1.1.0",
+      "origin": "npm",
+      "name": "@fish-under-sea/dsh-agent-teams-fish",
+      "version": "1.1.0",
+      "code": "deprecated_version",
+      "status": "invalid_manifest",
+      "reason": "2.0.0 已发布，请安装 @fish-under-sea/dsh-fish@2.0.0",
+      "statusCode": "deprecated_version",
+      "registrySha256": "aa75810365222eb87a3a17fd10049b3fc3744e47a6302781952660693108fffc"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@fish-under-sea/dsh-agent-teams-fish@1.1.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fish-under-sea/dsh-agent-teams-fish",
+    "commit": "b010548b1dcc0710d95ba4e39cb353a505b86140",
+    "releaseTags": 16,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:33.901Z"
+}

@@ -1,0 +1,78 @@
+{
+  "full_name": "SOH4C4759/dsh-ui-sound",
+  "originalPosition": 49,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 49,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:19.782Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b8b8021b22700310d10b085cfca0ff1e1e89f6401b38b514bb5120d95d8a9f81",
+      "url": "https://github.com/SOH4C4759/dsh-ui-sound/blob/a54bc32d8e4810c8ae5d68b47086b535d8438dea/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/SOH4C4759/dsh-ui-sound",
+          "command": "dsh plugin --profile <你的 profile> add github:SOH4C4759/dsh-ui-sound",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ui-sound",
+      "version": "0.1.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/SOH4C4759/dsh-ui-sound",
+        "commit": "a54bc32d8e4810c8ae5d68b47086b535d8438dea"
+      },
+      "manifestSha256": "e1f5595c7db6e5d1f5a4e65d9945aea285d5958d135c94e84199992757dc818f",
+      "manifestUrl": "https://github.com/SOH4C4759/dsh-ui-sound/blob/a54bc32d8e4810c8ae5d68b47086b535d8438dea/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-ui-sound",
+        "versions": [
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1792298444,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/SOH4C4759/dsh-ui-sound",
+              "commit": "a54bc32d8e4810c8ae5d68b47086b535d8438dea"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/SOH4C4759/dsh-ui-sound",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/SOH4C4759/dsh-ui-sound",
+    "commit": "a54bc32d8e4810c8ae5d68b47086b535d8438dea",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:21.803Z"
+}

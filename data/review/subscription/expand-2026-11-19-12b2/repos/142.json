@@ -1,0 +1,154 @@
+{
+  "full_name": "arcmosin/dsh-wordbox",
+  "originalPosition": 142,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 142,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:55.499Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "75123764c882efa006b373879b9b8088e60ddbb875f818f9508e361e39db21a1",
+      "url": "https://github.com/arcmosin/dsh-wordbox/blob/747a6ef921e37df2ec9d194276efcf0d615ecb04/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wordbox",
+          "command": "dsh plugin --profile web add dsh-wordbox",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/arcmosin/dsh-wordbox",
+          "command": "dsh plugin --profile web add github:arcmosin/dsh-wordbox",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "9a75b550ba3127e58a31e18f8901197df74cf6d611b16957b2b7b5e7c176cd79",
+      "url": "https://github.com/arcmosin/dsh-wordbox/blob/747a6ef921e37df2ec9d194276efcf0d615ecb04/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-wordbox",
+          "command": "dsh plugin --profile web add dsh-wordbox",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/arcmosin/dsh-wordbox",
+          "command": "dsh plugin --profile web add github:arcmosin/dsh-wordbox",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-wordbox",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/arcmosin/dsh-wordbox",
+        "commit": "747a6ef921e37df2ec9d194276efcf0d615ecb04"
+      },
+      "manifestSha256": "a440b8e33043adb9095a6df6a0043cd9dc16f9e1a78277f8519a3c27c7f21521",
+      "manifestUrl": "https://github.com/arcmosin/dsh-wordbox/blob/747a6ef921e37df2ec9d194276efcf0d615ecb04/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-wordbox",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786691374,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/arcmosin/dsh-wordbox",
+              "commit": "747a6ef921e37df2ec9d194276efcf0d615ecb04"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-wordbox",
+      "origin": "npm",
+      "name": "dsh-wordbox",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-wordbox",
+        "title": "dsh-wordbox",
+        "description": "Common Word Box (常用词盒子) — DeepSeek Harness web client plugin: a persistent slide-up word/phrase panel next to the composer input, with global/current-project buckets and one-click insert. Works in every workspace.",
+        "repository": {
+          "url": "https://github.com/arcmosin/dsh-wordbox"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "client-plugin",
+            "common-words",
+            "snippets",
+            "composer"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786691772,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "6e6bbfe29b69ecae89de783505e98702bf66e40d7b7ac6be2f9326f30b95f8ae",
+      "evidence": [
+        {
+          "name": "dsh-wordbox",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-wordbox/-/dsh-wordbox-0.1.0.tgz",
+          "integrity": "sha512-i8Xpfsp809NAc6b9EnAxKRyCbnBjJkGRu3RRL8Iy9rFyPppK2a2Tk7+o5fQ8KYBTevfDEWsDwQi1H/7sP2dL+w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-wordbox",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/arcmosin/dsh-wordbox",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/arcmosin/dsh-wordbox",
+    "commit": "747a6ef921e37df2ec9d194276efcf0d615ecb04",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:57.918Z"
+}

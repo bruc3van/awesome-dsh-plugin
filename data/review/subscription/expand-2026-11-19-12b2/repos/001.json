@@ -1,0 +1,144 @@
+{
+  "full_name": "030611/dsh-verification-receipt",
+  "originalPosition": 1,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 1,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:09:59.029Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "97aab8f40556cf0b2b4cd249c23372d9fd8190782321652d6b7d08d5ccbd76ea",
+      "url": "https://github.com/030611/dsh-verification-receipt/blob/ee3c6167f1b323f66f9412907f1ef6697cbf488d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-verification-receipt",
+          "command": "dsh plugin --profile web add dsh-verification-receipt",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "67ff7031baf7bb3008015efec4827292be6a247feb38f8a21c6f41ed01ff9d1f",
+      "url": "https://github.com/030611/dsh-verification-receipt/blob/ee3c6167f1b323f66f9412907f1ef6697cbf488d/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-verification-receipt",
+          "command": "dsh plugin --profile web add dsh-verification-receipt",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-verification-receipt",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/030611/dsh-verification-receipt",
+        "commit": "ee3c6167f1b323f66f9412907f1ef6697cbf488d"
+      },
+      "manifestSha256": "38905b9fc5e5b10434000be75ff05a7a9108b6494d8100967629837cf95f9bfd",
+      "manifestUrl": "https://github.com/030611/dsh-verification-receipt/blob/ee3c6167f1b323f66f9412907f1ef6697cbf488d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.1.2-alpha.3 || 0.1.2-alpha.4 || 0.1.2-alpha.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-verification-receipt",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793330616,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/030611/dsh-verification-receipt",
+              "commit": "ee3c6167f1b323f66f9412907f1ef6697cbf488d"
+            },
+            "engines": {
+              "dsh": "0.1.2-alpha.3 || 0.1.2-alpha.4 || 0.1.2-alpha.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-verification-receipt",
+      "origin": "npm",
+      "name": "dsh-verification-receipt",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-verification-receipt",
+        "title": "dsh-verification-receipt",
+        "description": "Privacy-minimal heuristic per-turn execution summaries for DeepSeek Harness",
+        "homepage": "https://github.com/030611/dsh-verification-receipt#readme",
+        "repository": {
+          "url": "https://github.com/030611/dsh-verification-receipt"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "verification",
+            "observability",
+            "privacy"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1786684679,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5 <0.1.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "bc98ab7086e427059e465b94cf7d06bcd5365218a43b2ec43c72e6383edd167b",
+      "evidence": [
+        {
+          "name": "dsh-verification-receipt",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-verification-receipt/-/dsh-verification-receipt-0.1.0.tgz",
+          "integrity": "sha512-V/gAvMeSMvaE52WK3BnJlEmfXiKkZH+/YJB0gKTzTsQY+AeWSEUkwc5iCaHBXjxyCk/agnVs9wxrOvkMk9iKmA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-verification-receipt",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/030611/dsh-verification-receipt",
+    "commit": "ee3c6167f1b323f66f9412907f1ef6697cbf488d",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:01.907Z"
+}

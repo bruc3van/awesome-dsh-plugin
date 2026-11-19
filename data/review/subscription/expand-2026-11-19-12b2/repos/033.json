@@ -1,0 +1,76 @@
+{
+  "full_name": "Prokint/WhaleDraw",
+  "originalPosition": 33,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 33,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:11.595Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3973b0bf39e76a3a307158b410ac1d2765c14916b1e97b558f50ab2f980415a7",
+      "url": "https://github.com/Prokint/WhaleDraw/blob/974dbf1692c39c06de024987253e9077ed041c92/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-infinite-canvas/README.md",
+      "sha256": "6b38e34c4e34615d4b8b224d79fbd7507130e7955ca4e88e61c566b34e91cf6a",
+      "url": "https://github.com/Prokint/WhaleDraw/blob/974dbf1692c39c06de024987253e9077ed041c92/plugins/dsh-infinite-canvas/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-infinite-canvas",
+      "version": "0.2.7",
+      "path": "plugins/dsh-infinite-canvas",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Prokint/WhaleDraw",
+        "commit": "974dbf1692c39c06de024987253e9077ed041c92",
+        "path": "plugins/dsh-infinite-canvas"
+      },
+      "manifestSha256": "d4dbd2ab0f4baa39539ccb9a7a49a9ae3e188c30dbec3333feb583ea79a34b66",
+      "manifestUrl": "https://github.com/Prokint/WhaleDraw/blob/974dbf1692c39c06de024987253e9077ed041c92/plugins/dsh-infinite-canvas/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-infinite-canvas",
+        "versions": [
+          {
+            "version": "0.2.7",
+            "publishTimestamp": 1792377962,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Prokint/WhaleDraw",
+              "commit": "974dbf1692c39c06de024987253e9077ed041c92",
+              "path": "plugins/dsh-infinite-canvas"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Prokint/WhaleDraw",
+    "commit": "974dbf1692c39c06de024987253e9077ed041c92",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:18.602Z"
+}

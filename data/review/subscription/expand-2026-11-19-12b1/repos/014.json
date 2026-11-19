@@ -1,0 +1,227 @@
+{
+  "full_name": "goatliamia/trajectory-tree",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:49.862Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "53e7116cbdcd9f365c10694bdc8fe6835f2c48dee5cf3a3e4da8a0f021b80473",
+      "url": "https://github.com/goatliamia/trajectory-tree/blob/9668fc83ad50f93fd8fd2cdb8b1897bb8d242739/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/goatliamia/trajectory-tree#path:/plugin/trajectory-tools",
+          "command": "dsh plugin --profile web add \"https://github.com/goatliamia/trajectory-tree#path:/plugin/trajectory-tools\" \"https://github.com/goatliamia/trajectory-tree#path:/plugin/analysis-view\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/media/README.md",
+      "sha256": "0eafa5b13985198c7559f8ca4d554af7b31c0202e10ee35d2aebf16ae6e7352f",
+      "url": "https://github.com/goatliamia/trajectory-tree/blob/9668fc83ad50f93fd8fd2cdb8b1897bb8d242739/docs/media/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugin/antigravity/README.md",
+      "sha256": "b0791cbb3964f364004c4f15fc0dc5d6637f0d11b568be28a30f183e499c2a24",
+      "url": "https://github.com/goatliamia/trajectory-tree/blob/9668fc83ad50f93fd8fd2cdb8b1897bb8d242739/plugin/antigravity/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugin/analysis-view/README.md",
+      "sha256": "b2588e2d4376e6a207a25e7b7b569bcbcf9a6cd64197f8c816de00b1ee07ecce",
+      "url": "https://github.com/goatliamia/trajectory-tree/blob/9668fc83ad50f93fd8fd2cdb8b1897bb8d242739/plugin/analysis-view/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/goatliamia/trajectory-tree#path:/plugin/analysis-view",
+          "command": "dsh plugin --profile web add \"https://github.com/goatliamia/trajectory-tree#path:/plugin/analysis-view\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugin/trajectory-tools/README.md",
+      "sha256": "9d0e0e0bd93e91ee7192ad0770e29dd3462aa504eb22ed11479959f3c3f368c1",
+      "url": "https://github.com/goatliamia/trajectory-tree/blob/9668fc83ad50f93fd8fd2cdb8b1897bb8d242739/plugin/trajectory-tools/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/goatliamia/trajectory-tree#path:/plugin/trajectory-tools",
+          "command": "dsh plugin --profile web add \"https://github.com/goatliamia/trajectory-tree#path:/plugin/trajectory-tools\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "plugin/portable-tools/README.md",
+      "sha256": "6c2981dfac1b5f9c0b295a119be69417b34cf28d4beb27cb1fe4a39320aed651",
+      "url": "https://github.com/goatliamia/trajectory-tree/blob/9668fc83ad50f93fd8fd2cdb8b1897bb8d242739/plugin/portable-tools/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugin/claude/README.md",
+      "sha256": "7a0ddd2ea2483c78fdbd0645238382247ae3017b00f75b76aab605d63094dac6",
+      "url": "https://github.com/goatliamia/trajectory-tree/blob/9668fc83ad50f93fd8fd2cdb8b1897bb8d242739/plugin/claude/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/archive/README.md",
+      "sha256": "ea852aa40bbb6ebe884bb60619342a9bf594f066f2e9774f9f698fed64f73d5a",
+      "url": "https://github.com/goatliamia/trajectory-tree/blob/9668fc83ad50f93fd8fd2cdb8b1897bb8d242739/docs/archive/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-analysis-view",
+      "version": "0.11.1",
+      "path": "plugin/analysis-view",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/trajectory-tree",
+        "commit": "9668fc83ad50f93fd8fd2cdb8b1897bb8d242739",
+        "path": "plugin/analysis-view"
+      },
+      "manifestSha256": "33be7403d3b65e6e9c597af0f2267cc23b7a1e08f168ab701dfaac9ed930e5e5",
+      "manifestUrl": "https://github.com/goatliamia/trajectory-tree/blob/9668fc83ad50f93fd8fd2cdb8b1897bb8d242739/plugin/analysis-view/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-trajectory-tools",
+      "version": "0.6.10",
+      "path": "plugin/trajectory-tools",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/goatliamia/trajectory-tree",
+        "commit": "9668fc83ad50f93fd8fd2cdb8b1897bb8d242739",
+        "path": "plugin/trajectory-tools"
+      },
+      "manifestSha256": "02763158cd24a5e8d47f964a202fcab44269b8711a399cb1382f17eb491e1af0",
+      "manifestUrl": "https://github.com/goatliamia/trajectory-tree/blob/9668fc83ad50f93fd8fd2cdb8b1897bb8d242739/plugin/trajectory-tools/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-trajectory-tools",
+        "versions": [
+          {
+            "version": "0.6.10",
+            "publishTimestamp": 1795071870,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/goatliamia/trajectory-tree",
+              "commit": "9668fc83ad50f93fd8fd2cdb8b1897bb8d242739",
+              "path": "plugin/trajectory-tools"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/goatliamia/trajectory-tree#path:/plugin/trajectory-tools",
+      "origin": "git_target",
+      "name": "dsh-trajectory-tools",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-trajectory-tools",
+        "title": "dsh-trajectory-tools",
+        "description": "面向模型的会话轨迹查询与诊断取证：逐字检索、窗口、关系链及官方统计证据。只读，不改写日志；附带可选的压缩后对账。",
+        "repository": {
+          "url": "https://github.com/goatliamia/trajectory-tree"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "dsh",
+            "session",
+            "trajectory",
+            "query"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.10",
+            "publishTimestamp": 1795071870,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/goatliamia/trajectory-tree",
+              "commit": "9668fc83ad50f93fd8fd2cdb8b1897bb8d242739",
+              "path": "plugin/trajectory-tools"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "plugin/trajectory-tools",
+          "commit": "9668fc83ad50f93fd8fd2cdb8b1897bb8d242739",
+          "name": "dsh-trajectory-tools",
+          "version": "0.6.10",
+          "url": "https://github.com/goatliamia/trajectory-tree",
+          "manifestSha256": "02763158cd24a5e8d47f964a202fcab44269b8711a399cb1382f17eb491e1af0",
+          "publishTimestamp": 1795071870
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/goatliamia/trajectory-tree#path:/plugin/analysis-view",
+      "origin": "git_target",
+      "path": "plugin/analysis-view",
+      "commit": "9668fc83ad50f93fd8fd2cdb8b1897bb8d242739",
+      "name": "dsh-analysis-view",
+      "version": "0.11.1",
+      "code": "private_package",
+      "status": "invalid_manifest",
+      "reason": "包声明 private: true，不作为可订阅插件收录"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/goatliamia/trajectory-tree#path:/plugin/trajectory-tools",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/goatliamia/trajectory-tree#path:/plugin/analysis-view",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/goatliamia/trajectory-tree",
+    "commit": "9668fc83ad50f93fd8fd2cdb8b1897bb8d242739",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:59.053Z"
+}

@@ -1,0 +1,135 @@
+{
+  "full_name": "Ultroncn/dsh-liquid-glass",
+  "originalPosition": 84,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 84,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:32.994Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b83d1a08e96ddbcde4f7ec0eefc4182a63a63d43d360c5b9bb604f3484ee409f",
+      "url": "https://github.com/Ultroncn/dsh-liquid-glass/blob/f1062106ac67a00ba22452edbf495db9ce19acc1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-liquid-glass@0.6.0",
+          "command": "dsh plugin --profile web add dsh-liquid-glass@0.6.0 --registry=https://registry.npmjs.org/",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e0434284c88fb6bf62918f571e91ecf10f534c8aa93aadbe7790f829b522ab80",
+      "url": "https://github.com/Ultroncn/dsh-liquid-glass/blob/f1062106ac67a00ba22452edbf495db9ce19acc1/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-liquid-glass",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ultroncn/dsh-liquid-glass",
+        "commit": "f1062106ac67a00ba22452edbf495db9ce19acc1"
+      },
+      "manifestSha256": "037cee5c4db824e6b03fbc87bafdcfa66a9684681d5477560edf856b1d30ec40",
+      "manifestUrl": "https://github.com/Ultroncn/dsh-liquid-glass/blob/f1062106ac67a00ba22452edbf495db9ce19acc1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-liquid-glass",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1795033611,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ultroncn/dsh-liquid-glass",
+              "commit": "f1062106ac67a00ba22452edbf495db9ce19acc1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-liquid-glass@0.6.0",
+      "origin": "npm",
+      "name": "dsh-liquid-glass",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-liquid-glass",
+        "title": "dsh-liquid-glass",
+        "description": "Theme backgrounds for DeepSeek Harness: native-style collapsible settings, translucent surfaces, and local image/video wallpapers. 主题背景：官方风格折叠设置、通透界面与本地图片/视频背景。",
+        "author": "Ultroncn",
+        "homepage": "https://github.com/Ultroncn/dsh-liquid-glass",
+        "repository": {
+          "url": "https://github.com/Ultroncn/dsh-liquid-glass"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "theme",
+            "skin",
+            "wallpaper",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1795032709,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8ea29029e62751c5ac34330ab87af37ae824bcb23ad1329352c76ef1ef02a8bb",
+      "evidence": [
+        {
+          "name": "dsh-liquid-glass",
+          "version": "0.6.0",
+          "tarball": "https://registry.npmjs.org/dsh-liquid-glass/-/dsh-liquid-glass-0.6.0.tgz",
+          "integrity": "sha512-mZYS8dym7X64GbOKfRBbEliGmwUEScE4wXFm+UhA+03jOBmEobFR3K28LnxWgnExuAComF7236caOdfRflIgJw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-liquid-glass@0.6.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ultroncn/dsh-liquid-glass",
+    "commit": "f1062106ac67a00ba22452edbf495db9ce19acc1",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:35.268Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "AlLHHH/dsh-perf-boost",
+  "originalPosition": 53,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 53,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:08.219Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d34643e4b3b5cb44b3f31ddfed49870703e8a30df6c6f9767cbfb1e9a83cda74",
+      "url": "https://github.com/AlLHHH/dsh-perf-boost/blob/360ea42136d7745ce3b286643f5c60b955bb454e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-perf-boost",
+      "version": "0.2.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AlLHHH/dsh-perf-boost",
+        "commit": "360ea42136d7745ce3b286643f5c60b955bb454e"
+      },
+      "manifestSha256": "2dd8aa16b457b6ef9ff5664f21c6ac1a80e434133d40a9aed982d1e66293582e",
+      "manifestUrl": "https://github.com/AlLHHH/dsh-perf-boost/blob/360ea42136d7745ce3b286643f5c60b955bb454e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-perf-boost",
+        "versions": [
+          {
+            "version": "0.2.5",
+            "publishTimestamp": 1794062570,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AlLHHH/dsh-perf-boost",
+              "commit": "360ea42136d7745ce3b286643f5c60b955bb454e"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AlLHHH/dsh-perf-boost",
+    "commit": "360ea42136d7745ce3b286643f5c60b955bb454e",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:10.091Z"
+}

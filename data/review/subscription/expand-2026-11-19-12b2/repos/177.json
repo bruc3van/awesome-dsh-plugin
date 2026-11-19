@@ -1,0 +1,29 @@
+{
+  "full_name": "ciceroyang/dsh-plugin-starter",
+  "originalPosition": 177,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 177,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:08.853Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/ciceroyang/dsh-plugin-starter/git/commits/a1a222e2c0b9882179e248e13a0d789a5af4cd2c\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D48C:3F9DA5:1130741:37675EC:6AFEE75D and timestamp 2026-11-19 12:11:09 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/ciceroyang/dsh-plugin-starter",
+    "commit": "a1a222e2c0b9882179e248e13a0d789a5af4cd2c",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:11:09.476Z"
+}

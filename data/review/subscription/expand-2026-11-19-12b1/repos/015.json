@@ -1,0 +1,133 @@
+{
+  "full_name": "hanhan9999999999999999999/dsh-memory-nebula",
+  "originalPosition": 15,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 15,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:50.025Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7f4174f07efbd617ad4a7a4c8c6f152b7e5b7c05375893ca13a77cdf19b1ed90",
+      "url": "https://github.com/hanhan9999999999999999999/dsh-memory-nebula/blob/d3cc051b91d8e20c6690b45749218efd2f293385/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-memory-nebula",
+          "command": "dsh plugin --profile web add dsh-memory-nebula",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-memory-nebula",
+      "version": "1.11.75",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hanhan9999999999999999999/dsh-memory-nebula",
+        "commit": "d3cc051b91d8e20c6690b45749218efd2f293385"
+      },
+      "manifestSha256": "8eb24c481311b19cb9bb03e101fb08e873207ac474974e8e5a9c2450b41982ff",
+      "manifestUrl": "https://github.com/hanhan9999999999999999999/dsh-memory-nebula/blob/d3cc051b91d8e20c6690b45749218efd2f293385/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-memory-nebula",
+        "versions": [
+          {
+            "version": "1.11.75",
+            "publishTimestamp": 1795012444,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hanhan9999999999999999999/dsh-memory-nebula",
+              "commit": "d3cc051b91d8e20c6690b45749218efd2f293385"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-memory-nebula",
+      "origin": "npm",
+      "name": "dsh-memory-nebula",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-memory-nebula",
+        "title": "dsh-memory-nebula",
+        "description": "Local-first memory nebula for DeepSeek Harness — read-only graph, spreading recall, evidence chains, offline snapshots. 记忆星图：把 DSH 各工作区的记忆只读连成一张可交互星云。",
+        "author": "主人 & 小代码酱",
+        "homepage": "https://github.com/hanhan9999999999999999999/dsh-memory-nebula#readme",
+        "repository": {
+          "url": "https://github.com/hanhan9999999999999999999/dsh-memory-nebula"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "memory",
+            "nebula",
+            "graph",
+            "relational-memory",
+            "spreading-activation",
+            "memory-adapter",
+            "visualization",
+            "dsh",
+            "memory-graph",
+            "knowledge-graph",
+            "offline-snapshot"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.11.75",
+            "publishTimestamp": 1795012436,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0312e64d617b5ff3537db3a6da4f0a58e16a626834461b23c202639af4de0c1f",
+      "evidence": [
+        {
+          "name": "dsh-memory-nebula",
+          "version": "1.11.75",
+          "tarball": "https://registry.npmjs.org/dsh-memory-nebula/-/dsh-memory-nebula-1.11.75.tgz",
+          "integrity": "sha512-6OKxRaHPwcLPyIlS54zb96MshotNw3mv77CuUyIuRTfgYhWcXbf2zczSK5eoJA5bfIpj4jwnEwjmC7UhQNKelg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-memory-nebula",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hanhan9999999999999999999/dsh-memory-nebula",
+    "commit": "d3cc051b91d8e20c6690b45749218efd2f293385",
+    "releaseTags": 57,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:52.282Z"
+}

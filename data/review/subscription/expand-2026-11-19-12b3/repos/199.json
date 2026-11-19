@@ -1,0 +1,29 @@
+{
+  "full_name": "linkingoscar/dsh-attachment-formats",
+  "originalPosition": 199,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 199,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:20.174Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/linkingoscar/dsh-attachment-formats/git/commits/4bcfae40dbd69116125ab13f88efc1b65232110f\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D49D:1FB9A5:118E77E:38A4575:6AFEE7E0 and timestamp 2026-11-19 12:13:20 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/linkingoscar/dsh-attachment-formats",
+    "commit": "4bcfae40dbd69116125ab13f88efc1b65232110f",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:20.765Z"
+}

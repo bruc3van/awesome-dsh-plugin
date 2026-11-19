@@ -1,0 +1,159 @@
+{
+  "full_name": "XiLuovo/dsh-session-timeline",
+  "originalPosition": 102,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 102,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:40.634Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "85b3ecd929be5c389aaaf38ad4d3a3d28af1b01a7825a81559d6d3462f1232c8",
+      "url": "https://github.com/XiLuovo/dsh-session-timeline/blob/a06e80b43f9b1612454f0a3069d2ec94a6c727df/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-session-timeline",
+          "command": "dsh plugin --profile web add dsh-session-timeline",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/XiLuovo/dsh-session-timeline",
+          "command": "dsh plugin --profile web add github:XiLuovo/dsh-session-timeline",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e2d3dd83d1b8d768762123bd36e5d8d9319c35d3aea968c7772b9884585aed47",
+      "url": "https://github.com/XiLuovo/dsh-session-timeline/blob/a06e80b43f9b1612454f0a3069d2ec94a6c727df/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-session-timeline",
+          "command": "dsh plugin --profile web add dsh-session-timeline",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/XiLuovo/dsh-session-timeline",
+          "command": "dsh plugin --profile web add github:XiLuovo/dsh-session-timeline",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-session-timeline",
+      "version": "1.0.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/XiLuovo/dsh-session-timeline",
+        "commit": "a06e80b43f9b1612454f0a3069d2ec94a6c727df"
+      },
+      "manifestSha256": "b7a2a80874153ea06099bcba769eaedece3e5535f7e2c4d9c592a1610db5bf31",
+      "manifestUrl": "https://github.com/XiLuovo/dsh-session-timeline/blob/a06e80b43f9b1612454f0a3069d2ec94a6c727df/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-session-timeline",
+        "versions": [
+          {
+            "version": "1.0.2",
+            "publishTimestamp": 1787559215,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/XiLuovo/dsh-session-timeline",
+              "commit": "a06e80b43f9b1612454f0a3069d2ec94a6c727df"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-session-timeline",
+      "origin": "npm",
+      "name": "dsh-session-timeline",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-session-timeline",
+        "title": "dsh-session-timeline",
+        "description": "DeepSeek Harness 会话左侧虚线时间轴：横短横线波浪、当前消息定位（scroll-spy）、点击跳转、圆角预览 tooltip、可收起/展开。",
+        "repository": {
+          "url": "https://github.com/XiLuovo/dsh-session-timeline"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "plugin",
+            "session",
+            "timeline",
+            "ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.2",
+            "publishTimestamp": 1787559996,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0c00a0ecff347fbfc62ca0d13837c6b2f012885031c499858583b32cb551556b",
+      "evidence": [
+        {
+          "name": "dsh-session-timeline",
+          "version": "1.0.2",
+          "tarball": "https://registry.npmjs.org/dsh-session-timeline/-/dsh-session-timeline-1.0.2.tgz",
+          "integrity": "sha512-6Lm9YoSUS+eB8bWBWKq8HLQoEz/gFc4ksLNi3U49oq3S5dvSMCYRxcDwXPfmg5UBGr+WRCgXLrHWFmjMj7AsGw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-session-timeline",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/XiLuovo/dsh-session-timeline",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/XiLuovo/dsh-session-timeline",
+    "commit": "a06e80b43f9b1612454f0a3069d2ec94a6c727df",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:42.926Z"
+}

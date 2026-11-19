@@ -1,0 +1,233 @@
+{
+  "full_name": "Ycet/dsh-notifications",
+  "originalPosition": 107,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 107,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:42.340Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d740face32e7ae84ce6e52eb5f72767bf4a3bc466559e25e1fba39f36f8947c3",
+      "url": "https://github.com/Ycet/dsh-notifications/blob/6b42bcc63eb3fe4845da73fa89da02eaa8c59ef1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ycet/dsh-notifications@0.3.4",
+          "command": "dsh plugin --profile web add @ycet/dsh-notifications@0.3.4",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Ycet/dsh-notifications#v0.3.4",
+          "command": "dsh plugin --profile web add \"github:Ycet/dsh-notifications#v0.3.4\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Ycet/dsh-notifications/releases/download/v0.3.4/dsh-notifications-0.3.4.tgz",
+          "command": "dsh plugin --profile web add \"https://github.com/Ycet/dsh-notifications/releases/download/v0.3.4/dsh-notifications-0.3.4.tgz\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_en.md",
+      "sha256": "8a236fa0eb5df3bd666dc456a2031fcbde2ed01d9ab4a6e28065933a5312dba3",
+      "url": "https://github.com/Ycet/dsh-notifications/blob/6b42bcc63eb3fe4845da73fa89da02eaa8c59ef1/README_en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@ycet/dsh-notifications@0.3.4",
+          "command": "dsh plugin --profile web add @ycet/dsh-notifications@0.3.4",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Ycet/dsh-notifications#v0.3.4",
+          "command": "dsh plugin --profile web add \"github:Ycet/dsh-notifications#v0.3.4\"",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Ycet/dsh-notifications/releases/download/v0.3.4/dsh-notifications-0.3.4.tgz",
+          "command": "dsh plugin --profile web add \"https://github.com/Ycet/dsh-notifications/releases/download/v0.3.4/dsh-notifications-0.3.4.tgz\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@ycet/dsh-notifications",
+      "version": "0.3.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ycet/dsh-notifications",
+        "commit": "6b42bcc63eb3fe4845da73fa89da02eaa8c59ef1"
+      },
+      "manifestSha256": "1dc97340d866199c5d8f4ae152d560091cff9e214a15564e3e7164e5494e0478",
+      "manifestUrl": "https://github.com/Ycet/dsh-notifications/blob/6b42bcc63eb3fe4845da73fa89da02eaa8c59ef1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@ycet/dsh-notifications",
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1795084738,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ycet/dsh-notifications",
+              "commit": "6b42bcc63eb3fe4845da73fa89da02eaa8c59ef1"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@ycet/dsh-notifications@0.3.4",
+      "origin": "npm",
+      "name": "@ycet/dsh-notifications",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@ycet/dsh-notifications",
+        "title": "@ycet/dsh-notifications",
+        "description": "DeepSeek Harness desktop and web notifications for approvals, structured questions, and task outcomes.",
+        "author": "Ycet",
+        "homepage": "https://github.com/Ycet/dsh-notifications#readme",
+        "repository": {
+          "url": "https://github.com/Ycet/dsh-notifications"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "notifications",
+            "approval",
+            "web",
+            "desktop"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1795085959,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "ad1fd8734a176d5d9e0f8153e5968abdc83e5b004b586d087d6b567ba874da8f",
+      "evidence": [
+        {
+          "name": "@ycet/dsh-notifications",
+          "version": "0.3.4",
+          "tarball": "https://registry.npmjs.org/@ycet/dsh-notifications/-/dsh-notifications-0.3.4.tgz",
+          "integrity": "sha512-It/DmW/98BjngbbUDf8hodZwjMAE5adZ6opqAc9liVBOf859hPHgVwoDmzgHPKLDcOurYpdhd+pcCWStNsX+/Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "https://github.com/Ycet/dsh-notifications#v0.3.4",
+      "origin": "git_target",
+      "name": "@ycet/dsh-notifications",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@ycet/dsh-notifications",
+        "title": "@ycet/dsh-notifications",
+        "description": "DeepSeek Harness desktop and web notifications for approvals, structured questions, and task outcomes.",
+        "author": "Ycet",
+        "homepage": "https://github.com/Ycet/dsh-notifications#readme",
+        "repository": {
+          "url": "https://github.com/Ycet/dsh-notifications"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "notifications",
+            "approval",
+            "web",
+            "desktop"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.4",
+            "publishTimestamp": 1795084738,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ycet/dsh-notifications",
+              "commit": "6b42bcc63eb3fe4845da73fa89da02eaa8c59ef1"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "6b42bcc63eb3fe4845da73fa89da02eaa8c59ef1",
+          "name": "@ycet/dsh-notifications",
+          "version": "0.3.4",
+          "url": "https://github.com/Ycet/dsh-notifications",
+          "manifestSha256": "1dc97340d866199c5d8f4ae152d560091cff9e214a15564e3e7164e5494e0478",
+          "publishTimestamp": 1795084738
+        }
+      ]
+    },
+    {
+      "target": "https://github.com/Ycet/dsh-notifications/releases/download/v0.3.4/dsh-notifications-0.3.4.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@ycet/dsh-notifications@0.3.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Ycet/dsh-notifications#v0.3.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Ycet/dsh-notifications/releases/download/v0.3.4/dsh-notifications-0.3.4.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ycet/dsh-notifications",
+    "commit": "6b42bcc63eb3fe4845da73fa89da02eaa8c59ef1",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:46.450Z"
+}

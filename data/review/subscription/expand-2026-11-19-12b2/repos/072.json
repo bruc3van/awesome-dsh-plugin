@@ -1,0 +1,129 @@
+{
+  "full_name": "TGYD-helige/dsh-pi",
+  "originalPosition": 72,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 72,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:28.292Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "544ed111f533153496b2d49da6ef59eb883a50f16dd5345fc62dd51764e70eee",
+      "url": "https://github.com/TGYD-helige/dsh-pi/blob/be0e579983655eaed544ed4ececf9241a01c58f3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-pi-host",
+          "command": "dsh plugin --profile demo add dsh-pi-host",
+          "profile": "demo"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-pi-host",
+      "version": "0.1.0-rc.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TGYD-helige/dsh-pi",
+        "commit": "be0e579983655eaed544ed4ececf9241a01c58f3"
+      },
+      "manifestSha256": "9484bccbb19eb2c31f00c523619b724527ef0dbc71307a4e9fe10abe460051f1",
+      "manifestUrl": "https://github.com/TGYD-helige/dsh-pi/blob/be0e579983655eaed544ed4ececf9241a01c58f3/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-pi-host",
+        "versions": [
+          {
+            "version": "0.1.0-rc.3",
+            "publishTimestamp": 1794130435,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/TGYD-helige/dsh-pi",
+              "commit": "be0e579983655eaed544ed4ececf9241a01c58f3"
+            },
+            "engines": {
+              "dsh": "^0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-pi-host",
+      "origin": "npm",
+      "name": "dsh-pi-host",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-pi-host",
+        "title": "dsh-pi-host",
+        "description": "Run Pi extensions as agent-scoped DeepSeek Harness plugins",
+        "homepage": "https://github.com/TGYD-helige/dsh-pi#readme",
+        "repository": {
+          "url": "https://github.com/TGYD-helige/dsh-pi"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "pi-extension",
+            "ai-agents"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0-rc.2",
+            "publishTimestamp": 1786718585,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "645721eff1648eade4b78c68cf9437d0b2ea493dec7621f6de8612aa6dba2b7f",
+      "evidence": [
+        {
+          "name": "dsh-pi-host",
+          "version": "0.1.0-rc.2",
+          "tarball": "https://registry.npmjs.org/dsh-pi-host/-/dsh-pi-host-0.1.0-rc.2.tgz",
+          "integrity": "sha512-L8wfnbRa3vDFAZg2glbZ+XQ6Hj2ijckb9RgCwp6J6b9q8Rv9nAEdgYKvkxLegbUzeOCQx2m0x7cUbr0t2mXYAg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-pi-host",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TGYD-helige/dsh-pi",
+    "commit": "be0e579983655eaed544ed4ececf9241a01c58f3",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:30.595Z"
+}

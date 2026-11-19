@@ -1,0 +1,77 @@
+{
+  "full_name": "Arborsm/dsh-plugin-devin-bridge",
+  "originalPosition": 61,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 61,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:10.882Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cf49b68b0c182084a33e4fcd13cffe7653a87390ff43f5701709ea22156990f3",
+      "url": "https://github.com/Arborsm/dsh-plugin-devin-bridge/blob/71f13a06973ea18bb02b2d699ee8eb54f8389623/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "c747ea9ea4ee9e7a88e31745052cbcf29866e4aeeeffe44296da52dbb47d41e2",
+      "url": "https://github.com/Arborsm/dsh-plugin-devin-bridge/blob/71f13a06973ea18bb02b2d699ee8eb54f8389623/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-devin-bridge",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Arborsm/dsh-plugin-devin-bridge",
+        "commit": "71f13a06973ea18bb02b2d699ee8eb54f8389623"
+      },
+      "manifestSha256": "8559eaeb6d2549bb97ad0ce3661254e405b57f0dd5a52a85f6387a28c7a5df0c",
+      "manifestUrl": "https://github.com/Arborsm/dsh-plugin-devin-bridge/blob/71f13a06973ea18bb02b2d699ee8eb54f8389623/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-devin-bridge",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794647395,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Arborsm/dsh-plugin-devin-bridge",
+              "commit": "71f13a06973ea18bb02b2d699ee8eb54f8389623"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Arborsm/dsh-plugin-devin-bridge",
+    "commit": "71f13a06973ea18bb02b2d699ee8eb54f8389623",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:13.383Z"
+}

@@ -1,0 +1,137 @@
+{
+  "full_name": "PandaPolo/dsh-voice-call",
+  "originalPosition": 197,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 197,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:07.731Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c20d552cdc7260920051717a7c6c1a0a85c6d7c172991f3824bb5d7d21b823fb",
+      "url": "https://github.com/PandaPolo/dsh-voice-call/blob/7fd029e19183b6dc304bc63f652696682b04dc71/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-voice-call",
+          "command": "dsh plugin --profile web add dsh-voice-call",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-voice-call",
+      "version": "0.3.14",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PandaPolo/dsh-voice-call",
+        "commit": "7fd029e19183b6dc304bc63f652696682b04dc71"
+      },
+      "manifestSha256": "152a0c1595b809e51d47b43953ec4142c35b6f10ec65bd96968f4c1c18bcb708",
+      "manifestUrl": "https://github.com/PandaPolo/dsh-voice-call/blob/7fd029e19183b6dc304bc63f652696682b04dc71/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.7-rc.2 || ^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-voice-call",
+        "versions": [
+          {
+            "version": "0.3.14",
+            "publishTimestamp": 1793957223,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PandaPolo/dsh-voice-call",
+              "commit": "7fd029e19183b6dc304bc63f652696682b04dc71"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-voice-call",
+      "origin": "npm",
+      "name": "dsh-voice-call",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-voice-call",
+        "title": "dsh-voice-call",
+        "description": "让智能体拥有自己的声音：它决定什么时候开口说话，你决定接不接（接听/拒接/稍后再说）。语音全部在本机合成，首次使用需要在设置卡里一键部署本地运行环境。",
+        "homepage": "https://github.com/PandaPolo/dsh-voice-call#readme",
+        "repository": {
+          "url": "https://github.com/PandaPolo/dsh-voice-call"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "voice",
+            "tts",
+            "text-to-speech",
+            "call",
+            "call-card",
+            "qwen3-tts",
+            "crispasr",
+            "local-first",
+            "audio"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.14",
+            "publishTimestamp": 1793956993,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.2 || ^0.2.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "0689d51351a1704344b0f9b54a1081f2cb561fc9d43a370e77a523c993622f60",
+      "evidence": [
+        {
+          "name": "dsh-voice-call",
+          "version": "0.3.14",
+          "tarball": "https://registry.npmjs.org/dsh-voice-call/-/dsh-voice-call-0.3.14.tgz",
+          "integrity": "sha512-2A5dWd6nC/Sx4iVk8tYM3dlCM7QPoLvnMOrd9pLW2+ikggrp3HHmYmCCISJTH07cHbaUU+0iijBN+T4cYhSGYw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-voice-call",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PandaPolo/dsh-voice-call",
+    "commit": "7fd029e19183b6dc304bc63f652696682b04dc71",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:09.906Z"
+}

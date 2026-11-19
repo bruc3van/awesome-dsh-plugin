@@ -1,0 +1,156 @@
+{
+  "full_name": "Jiangsubei/dsh-napcat-bridge",
+  "originalPosition": 140,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 140,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:44.109Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b26abc6042248a7f0ab7ca3e638dd6162b6c778c5d89cb59f5b65b6d33402493",
+      "url": "https://github.com/Jiangsubei/dsh-napcat-bridge/blob/ee4dba74bb5fc21b054858550c78af3a006c603d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-napcat-bridge",
+          "command": "dsh plugin --profile web add dsh-napcat-bridge",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-napcat-bridge",
+          "command": "dsh plugin add dsh-napcat-bridge",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-napcat-bridge",
+      "version": "0.3.6",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jiangsubei/dsh-napcat-bridge",
+        "commit": "ee4dba74bb5fc21b054858550c78af3a006c603d"
+      },
+      "manifestSha256": "d81324f7b119ed219c6ba2a6b12a0d3ed7f4e1ed80f590ff058013b6817fed47",
+      "manifestUrl": "https://github.com/Jiangsubei/dsh-napcat-bridge/blob/ee4dba74bb5fc21b054858550c78af3a006c603d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-napcat-bridge",
+        "versions": [
+          {
+            "version": "0.3.6",
+            "publishTimestamp": 1794757118,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jiangsubei/dsh-napcat-bridge",
+              "commit": "ee4dba74bb5fc21b054858550c78af3a006c603d"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-napcat-bridge",
+      "origin": "npm",
+      "name": "dsh-napcat-bridge",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-napcat-bridge",
+        "title": "dsh-napcat-bridge",
+        "description": "DeepSeek Harness × OneBot 11 QQ 桥接套件：既是随叫随到的专业助手，也是懂梗斗图、能学黑话、主动冒泡的灵魂群友。群聊/私聊开箱即用，内置两层记忆、表情资产库与全 WebUI 可视化配置",
+        "author": "nyara",
+        "homepage": "https://github.com/Jiangsubei/dsh-napcat-bridge#readme",
+        "repository": {
+          "url": "https://github.com/Jiangsubei/dsh-napcat-bridge"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "napcat",
+            "onebot",
+            "qq",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.6",
+            "publishTimestamp": 1794757258,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-0"
+            }
+          },
+          {
+            "version": "0.3.5",
+            "publishTimestamp": 1794142006,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "aa0fd4af1cb7cb030a830b28858e76b3c9c6d32efc3adff1de614a3b5e0e6a98",
+      "evidence": [
+        {
+          "name": "dsh-napcat-bridge",
+          "version": "0.3.6",
+          "tarball": "https://registry.npmjs.org/dsh-napcat-bridge/-/dsh-napcat-bridge-0.3.6.tgz",
+          "integrity": "sha512-WE9Qf633iQRnXEnYg4u3LRKubJLgS+WYarK5p9NMwtfH7ZBa3fWiU3xx7rjsAmoGBGn7WKuAQFyQUeGroQfUGw=="
+        },
+        {
+          "name": "dsh-napcat-bridge",
+          "version": "0.3.5",
+          "tarball": "https://registry.npmjs.org/dsh-napcat-bridge/-/dsh-napcat-bridge-0.3.5.tgz",
+          "integrity": "sha512-5ZLkiaAxQDxIAXF60Ic3s2j4uqm+gcCk2zKaaQPs5uNt3+Ar67U+4ENwijHX6G+yHCHALo9QsKKljts7HSv2Fw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-napcat-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jiangsubei/dsh-napcat-bridge",
+    "commit": "ee4dba74bb5fc21b054858550c78af3a006c603d",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:46.540Z"
+}

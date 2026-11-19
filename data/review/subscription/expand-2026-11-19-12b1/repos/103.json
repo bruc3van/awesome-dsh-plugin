@@ -1,0 +1,124 @@
+{
+  "full_name": "Fakek0f3sT/dsh-mcp-diff",
+  "originalPosition": 103,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 103,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:29.732Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "49675df39ff4ff354ee458eeb1cd2e9d7a1f11c1fe1ad3616c08f77687702002",
+      "url": "https://github.com/Fakek0f3sT/dsh-mcp-diff/blob/42ae60c234bfa81a71be124db025f30119d46cc0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-mcp-diff",
+          "command": "dsh plugin --profile web add dsh-mcp-diff",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Fakek0f3sT/dsh-mcp-diff",
+          "command": "dsh plugin --profile web add github:Fakek0f3sT/dsh-mcp-diff",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-mcp-diff",
+      "version": "0.7.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Fakek0f3sT/dsh-mcp-diff",
+        "commit": "42ae60c234bfa81a71be124db025f30119d46cc0"
+      },
+      "manifestSha256": "ec0f1ae17ad232570b2bae87107072f69f71516b021403782f5992926d505df6",
+      "manifestUrl": "https://github.com/Fakek0f3sT/dsh-mcp-diff/blob/42ae60c234bfa81a71be124db025f30119d46cc0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-mcp-diff",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1788388165,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Fakek0f3sT/dsh-mcp-diff",
+              "commit": "42ae60c234bfa81a71be124db025f30119d46cc0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-mcp-diff",
+      "origin": "npm",
+      "name": "dsh-mcp-diff",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-mcp-diff",
+        "title": "dsh-mcp-diff",
+        "description": "Diff cards in the DeepSeek Harness web chat for recognizable file mutations — MCP filesystem calls (edit_file, write_file), built-in edit/write, and file-mutating bash commands (heredoc replaces, sed -i, cat/tee/redirect writes).",
+        "repository": {
+          "url": "https://github.com/Fakek0f3sT/dsh-mcp-diff"
+        },
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1788423270,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "54e9fb6008235400ebcc0ea79316612c1412fea392ce422636da292b0d30a890",
+      "evidence": [
+        {
+          "name": "dsh-mcp-diff",
+          "version": "0.7.0",
+          "tarball": "https://registry.npmjs.org/dsh-mcp-diff/-/dsh-mcp-diff-0.7.0.tgz",
+          "integrity": "sha512-X8x/4uJVVpA4PQpzFemtFmj9MoqTuEscIgMkHwjwO2/sQy1tM+hROkqK+lAUhaz/Q/l3qjyYooLLcRUio3B5Sg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-mcp-diff",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Fakek0f3sT/dsh-mcp-diff",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Fakek0f3sT/dsh-mcp-diff",
+    "commit": "42ae60c234bfa81a71be124db025f30119d46cc0",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:31.653Z"
+}

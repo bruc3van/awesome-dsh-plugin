@@ -1,0 +1,199 @@
+{
+  "full_name": "Ez4p1xEL/deepseek-instagram",
+  "originalPosition": 101,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 101,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:28.231Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "daf8ead9d19f771fff76bece81114658b84d7478880ca4da51ec52a4563ade10",
+      "url": "https://github.com/Ez4p1xEL/deepseek-instagram/blob/43136fff33d7dccc2055b64d7fc0f636c98e5eed/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "deepseek-instagram",
+          "command": "dsh plugin --profile desktop add deepseek-instagram",
+          "profile": "desktop"
+        },
+        {
+          "install": "deepseek-instagram",
+          "command": "dsh plugin --profile web add deepseek-instagram",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Ez4p1xEL/deepseek-instagram",
+          "command": "dsh plugin --profile desktop add github:Ez4p1xEL/deepseek-instagram",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "ccdb85b1dd8835cc9f98160a239eda870f78ae93b83e08cddc2ce47a36d7bbd0",
+      "url": "https://github.com/Ez4p1xEL/deepseek-instagram/blob/43136fff33d7dccc2055b64d7fc0f636c98e5eed/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "deepseek-instagram",
+          "command": "dsh plugin --profile desktop add deepseek-instagram",
+          "profile": "desktop"
+        },
+        {
+          "install": "deepseek-instagram",
+          "command": "dsh plugin --profile web add deepseek-instagram",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Ez4p1xEL/deepseek-instagram",
+          "command": "dsh plugin --profile desktop add github:Ez4p1xEL/deepseek-instagram",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-TW.md",
+      "sha256": "e7af71f92ba0a06f5e8cd20baceead670a3e21d8870b8cf96a4835742cc18a25",
+      "url": "https://github.com/Ez4p1xEL/deepseek-instagram/blob/43136fff33d7dccc2055b64d7fc0f636c98e5eed/README.zh-TW.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "deepseek-instagram",
+          "command": "dsh plugin --profile desktop add deepseek-instagram",
+          "profile": "desktop"
+        },
+        {
+          "install": "deepseek-instagram",
+          "command": "dsh plugin --profile web add deepseek-instagram",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Ez4p1xEL/deepseek-instagram",
+          "command": "dsh plugin --profile desktop add github:Ez4p1xEL/deepseek-instagram",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "deepseek-instagram",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Ez4p1xEL/deepseek-instagram",
+        "commit": "43136fff33d7dccc2055b64d7fc0f636c98e5eed"
+      },
+      "manifestSha256": "82e82ef0f67f9b10641d404179d99c78f62914ed3f4162f4c5eb80fc50a75eea",
+      "manifestUrl": "https://github.com/Ez4p1xEL/deepseek-instagram/blob/43136fff33d7dccc2055b64d7fc0f636c98e5eed/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "deepseek-instagram",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792964219,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Ez4p1xEL/deepseek-instagram",
+              "commit": "43136fff33d7dccc2055b64d7fc0f636c98e5eed"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "deepseek-instagram",
+      "origin": "npm",
+      "name": "deepseek-instagram",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "deepseek-instagram",
+        "title": "deepseek-instagram",
+        "description": "A resident Instagram assistant for DeepSeek Harness — persona-driven Stories and Notes from your DSH usage, controlled only by the owner's DMs.",
+        "author": "Ez4p1xEL",
+        "homepage": "https://github.com/Ez4p1xEL/deepseek-instagram#readme",
+        "repository": {
+          "url": "https://github.com/Ez4p1xEL/deepseek-instagram"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "harness",
+            "dsh",
+            "dsh-plugin",
+            "instagram",
+            "instagram-assistant",
+            "assistant",
+            "story",
+            "note"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1792964764,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "5032620f9dbcbb26ac4b2119d3b00d57fcd17cb0f6242f624f1aad918cf3d02b",
+      "evidence": [
+        {
+          "name": "deepseek-instagram",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/deepseek-instagram/-/deepseek-instagram-0.2.0.tgz",
+          "integrity": "sha512-DdI+MgIY+vlvW9nYoTphdAR1+YUEReBR85bL/lZQL3skFF7A8x/8vWtkMkgc9vCi4sy9E0K2g0Ss/g2S8t5Cvw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "deepseek-instagram",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Ez4p1xEL/deepseek-instagram",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Ez4p1xEL/deepseek-instagram",
+    "commit": "43136fff33d7dccc2055b64d7fc0f636c98e5eed",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:31.091Z"
+}

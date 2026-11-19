@@ -1,0 +1,29 @@
+{
+  "full_name": "cfanzx/dsh-compact-relay",
+  "originalPosition": 171,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 171,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:08.261Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/cfanzx/dsh-compact-relay/git/commits/ad0c3c0a043af4cca24e1dbc36a96ec1871adc53\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D43A:BFE9B:57024E5:11703654:6AFEE75C and timestamp 2026-11-19 12:11:08 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/cfanzx/dsh-compact-relay",
+    "commit": "ad0c3c0a043af4cca24e1dbc36a96ec1871adc53",
+    "releaseTags": 18,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:11:08.852Z"
+}

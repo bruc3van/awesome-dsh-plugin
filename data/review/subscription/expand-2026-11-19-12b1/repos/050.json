@@ -1,0 +1,179 @@
+{
+  "full_name": "AbcdefgXW/dsh-toolbox-web",
+  "originalPosition": 50,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 50,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:06.320Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f157dcf59599bd449aa38a364c2592844d94c65ef3926e7559c8a1007cb3440b",
+      "url": "https://github.com/AbcdefgXW/dsh-toolbox-web/blob/c915fdb857bea9380ed0c181169d43c8350c4d7e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/AbcdefgXW/dsh-toolbox-web",
+          "command": "dsh plugin --profile web add github:AbcdefgXW/dsh-toolbox-web",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-toolbox-web",
+          "command": "dsh plugin --profile web add dsh-toolbox-web",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "568be85bb6dea20ebaf958f8f675400a293bcc52d127aabafeea71d95a752370",
+      "url": "https://github.com/AbcdefgXW/dsh-toolbox-web/blob/c915fdb857bea9380ed0c181169d43c8350c4d7e/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/AbcdefgXW/dsh-toolbox-web",
+          "command": "dsh plugin --profile web add github:AbcdefgXW/dsh-toolbox-web",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-toolbox-web",
+          "command": "dsh plugin --profile web add dsh-toolbox-web",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-toolbox-web",
+      "version": "0.1.29",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AbcdefgXW/dsh-toolbox-web",
+        "commit": "c915fdb857bea9380ed0c181169d43c8350c4d7e"
+      },
+      "manifestSha256": "9cd033bfb2bd48c21ccd4a78dfe810d83d4de528226cd5a981b13cf33e7ca474",
+      "manifestUrl": "https://github.com/AbcdefgXW/dsh-toolbox-web/blob/c915fdb857bea9380ed0c181169d43c8350c4d7e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-toolbox-web",
+        "versions": [
+          {
+            "version": "0.1.29",
+            "publishTimestamp": 1789497815,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AbcdefgXW/dsh-toolbox-web",
+              "commit": "c915fdb857bea9380ed0c181169d43c8350c4d7e"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-toolbox-web",
+      "origin": "npm",
+      "name": "dsh-toolbox-web",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-toolbox-web",
+        "title": "dsh-toolbox-web",
+        "description": "dsh 工具箱：会话/回收站/子目录/搜索/预设/配置管理 + 定时心跳（IM 渠道推送）+ 长消息折叠 | Toolbox plugin for dsh: session/trash/subdir/search/preset/config management + scheduled heartbeat (IM push) + long-message collapse",
+        "homepage": "https://github.com/AbcdefgXW/dsh-toolbox-web",
+        "repository": {
+          "url": "https://github.com/AbcdefgXW/dsh-toolbox-web"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "plugin",
+            "toolbox",
+            "session",
+            "search",
+            "heartbeat",
+            "chat",
+            "回收站",
+            "工具箱",
+            "语义搜索"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.29",
+            "publishTimestamp": 1789501599,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.0-rc.6"
+            }
+          },
+          {
+            "version": "0.1.13",
+            "publishTimestamp": 1787317339,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cd2c7bde2d59bff72f4f819a2f83b9d9da7aae16112d25bb814d250eed9edb0d",
+      "evidence": [
+        {
+          "name": "dsh-toolbox-web",
+          "version": "0.1.29",
+          "tarball": "https://registry.npmjs.org/dsh-toolbox-web/-/dsh-toolbox-web-0.1.29.tgz",
+          "integrity": "sha512-6fVW9tBJ9rqchK9apKvfIPwgwQLXKhPFwKwLHYd8I34jT7WM69Sd649+W2uPtAG++8kj87dC8zLmJ//kevCDog=="
+        },
+        {
+          "name": "dsh-toolbox-web",
+          "version": "0.1.13",
+          "tarball": "https://registry.npmjs.org/dsh-toolbox-web/-/dsh-toolbox-web-0.1.13.tgz",
+          "integrity": "sha512-YsBCn81l9VHjIQTE7RhKT0nmZEm3vjMipiPCbgc889HwRnoifGW4atgpSIi7oYEXCMJtJj2sU8q+q+MRbi5gTA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AbcdefgXW/dsh-toolbox-web",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-toolbox-web",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AbcdefgXW/dsh-toolbox-web",
+    "commit": "c915fdb857bea9380ed0c181169d43c8350c4d7e",
+    "releaseTags": 27,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:08.948Z"
+}

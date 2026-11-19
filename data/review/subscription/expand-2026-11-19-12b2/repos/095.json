@@ -1,0 +1,142 @@
+{
+  "full_name": "WindyPro-rourou/dsh-code-studio",
+  "originalPosition": 95,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 95,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:37.712Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "fe3b0bcf63f4529301db9035c4c135e6d650cf6e9d7ca54e6e11b17c06e0c66e",
+      "url": "https://github.com/WindyPro-rourou/dsh-code-studio/blob/50aed54dea4b7ed65f9980a31e9fb5afb8c40bc1/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@windypro-rourou/dsh-code-studio",
+          "command": "dsh plugin --profile web add @windypro-rourou/dsh-code-studio",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/WindyPro-rourou/dsh-code-studio",
+          "command": "dsh plugin --profile web add github:WindyPro-rourou/dsh-code-studio",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@windypro-rourou/dsh-code-studio",
+      "version": "0.2.18",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WindyPro-rourou/dsh-code-studio",
+        "commit": "50aed54dea4b7ed65f9980a31e9fb5afb8c40bc1"
+      },
+      "manifestSha256": "47bb4893b091bd8d625802cfd709e0bd82e2ff7317e658d51afbd0ba3b5a4e80",
+      "manifestUrl": "https://github.com/WindyPro-rourou/dsh-code-studio/blob/50aed54dea4b7ed65f9980a31e9fb5afb8c40bc1/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.0.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@windypro-rourou/dsh-code-studio",
+        "versions": [
+          {
+            "version": "0.2.18",
+            "publishTimestamp": 1793957383,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WindyPro-rourou/dsh-code-studio",
+              "commit": "50aed54dea4b7ed65f9980a31e9fb5afb8c40bc1"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@windypro-rourou/dsh-code-studio",
+      "origin": "npm",
+      "name": "@windypro-rourou/dsh-code-studio",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@windypro-rourou/dsh-code-studio",
+        "title": "@windypro-rourou/dsh-code-studio",
+        "description": "File-change monitor & code editor for the DSH Web UI: watch agent edits land as line-by-line diffs in real time, right beside your conversation, then view and edit any workspace file without leaving the browser.",
+        "repository": {
+          "url": "https://github.com/windypro-rourou/dsh-code-studio"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "deepseek-harness",
+            "code-studio",
+            "cline",
+            "diff",
+            "editor",
+            "web-ui"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.18",
+            "publishTimestamp": 1793957297,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.0.1-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cf5a68c3f2dafce10ddedb7644daf0ad4bc1d44a25df173a96f3ab2b738043f5",
+      "evidence": [
+        {
+          "name": "@windypro-rourou/dsh-code-studio",
+          "version": "0.2.18",
+          "tarball": "https://registry.npmjs.org/@windypro-rourou/dsh-code-studio/-/dsh-code-studio-0.2.18.tgz",
+          "integrity": "sha512-T8NMXYE/Zf3GbNIFZ45inXH891X8nMwHRhUQSZucv8lFdKX3vALfLOfRrahM/gTNvIEu2WbjPretJg+yV5c8CA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@windypro-rourou/dsh-code-studio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/WindyPro-rourou/dsh-code-studio",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WindyPro-rourou/dsh-code-studio",
+    "commit": "50aed54dea4b7ed65f9980a31e9fb5afb8c40bc1",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:40.012Z"
+}

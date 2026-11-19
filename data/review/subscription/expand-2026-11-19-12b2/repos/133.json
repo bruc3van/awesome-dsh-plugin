@@ -1,0 +1,157 @@
+{
+  "full_name": "adithyanraj03/dsh-graft-plugin",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:51.990Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "2d42dd7406028a4694d85aeed0b12776d73b327c58123b1df59a34867f28f65d",
+      "url": "https://github.com/adithyanraj03/dsh-graft-plugin/blob/820f98666a4a5cd941b268bd6f63d5ace23555d0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-graft-plugin",
+          "command": "dsh plugin --profile web add dsh-graft-plugin",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "a3ede6ed5a2041ff590b1f40c6f840dc497b973d32254125cdf21b50f7c4beff",
+      "url": "https://github.com/adithyanraj03/dsh-graft-plugin/blob/820f98666a4a5cd941b268bd6f63d5ace23555d0/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-graft-plugin",
+          "command": "dsh plugin --profile web add dsh-graft-plugin",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-graft-plugin",
+      "version": "0.3.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/adithyanraj03/dsh-graft-plugin",
+        "commit": "820f98666a4a5cd941b268bd6f63d5ace23555d0"
+      },
+      "manifestSha256": "81d1a5345f55b74e9805c8a97c3475df496c33614d89945506756460003a9730",
+      "manifestUrl": "https://github.com/adithyanraj03/dsh-graft-plugin/blob/820f98666a4a5cd941b268bd6f63d5ace23555d0/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-graft-plugin",
+        "versions": [
+          {
+            "version": "0.3.5",
+            "publishTimestamp": 1794387460,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/adithyanraj03/dsh-graft-plugin",
+              "commit": "820f98666a4a5cd941b268bd6f63d5ace23555d0"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-graft-plugin",
+      "origin": "npm",
+      "name": "dsh-graft-plugin",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-graft-plugin",
+        "title": "dsh-graft-plugin",
+        "description": "Shows which graft index a dsh session is serving and whether it still matches the code, and gives the model graft_ask, graft_grep, graft_callers, graft_skeleton and graft_map as native tools.",
+        "homepage": "https://adithyanraj03.github.io/dsh-graft-plugin/",
+        "repository": {
+          "url": "https://github.com/adithyanraj03/dsh-graft-plugin"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "dsh",
+            "graft",
+            "code-graph",
+            "context",
+            "tools"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "0.3.5",
+            "publishTimestamp": 1794387982,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6"
+            }
+          }
+        ]
+      },
+      "registrySha256": "e97d431e839c18a846da1991ed65b3d31d647793722c3eb2486eec845f3a12af",
+      "evidence": [
+        {
+          "name": "dsh-graft-plugin",
+          "version": "0.3.5",
+          "tarball": "https://registry.npmjs.org/dsh-graft-plugin/-/dsh-graft-plugin-0.3.5.tgz",
+          "integrity": "sha512-bdTJziaV7kadt8roYHgEnU+YivOXZ59zOcAZYkHhUVT1RpnKCuERIanSjIK399Qz59bZ1/gSdWwonTWPBbJqLg=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-graft-plugin",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "999fa5302fa7bab245e1fa91208c3cf8548698c7ff0e8f30108154593621ea2d",
+          "outputSha256": "557f6bb186dabdfa7f742931e3356519ee3f452ca79cdabdf017541f75069186",
+          "inputBytes": 88185,
+          "outputBytes": 1558
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-graft-plugin",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/adithyanraj03/dsh-graft-plugin",
+    "commit": "820f98666a4a5cd941b268bd6f63d5ace23555d0",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:54.336Z"
+}

@@ -1,0 +1,69 @@
+{
+  "full_name": "AusertDream/TravelPlanner",
+  "originalPosition": 67,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 67,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:13.367Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "433560da5555aa6d1ca9120a2fa7b92473faf337a3449d7d9b9c198bf334f8b4",
+      "url": "https://github.com/AusertDream/TravelPlanner/blob/b13bdae368f760b50be79cd5c609b27269e373a8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-travel-planner",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AusertDream/TravelPlanner",
+        "commit": "b13bdae368f760b50be79cd5c609b27269e373a8"
+      },
+      "manifestSha256": "c18b9616d115d0013ad98d3429ff6b2fbfeb1bf7fdba08b9c188e5a4f3e018b1",
+      "manifestUrl": "https://github.com/AusertDream/TravelPlanner/blob/b13bdae368f760b50be79cd5c609b27269e373a8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-travel-planner",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1791428012,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AusertDream/TravelPlanner",
+              "commit": "b13bdae368f760b50be79cd5c609b27269e373a8"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AusertDream/TravelPlanner",
+    "commit": "b13bdae368f760b50be79cd5c609b27269e373a8",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:15.352Z"
+}

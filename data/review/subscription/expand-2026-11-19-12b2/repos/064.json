@@ -1,0 +1,58 @@
+{
+  "full_name": "Socialist-Sister/dsh-collaboration",
+  "originalPosition": 64,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 64,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:24.915Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b4c03451cc2d0f85eb91d1f57d5e4c1d18d8e6a227a5a341934bf3d3800eee29",
+      "url": "https://github.com/Socialist-Sister/dsh-collaboration/blob/fd3e10e1ff3ba8c2ca10addde8326a4274a3a576/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "15be4c3496bd070fe55cef617e71d5859a4af580c64ab64a945cc751c4d25029",
+      "url": "https://github.com/Socialist-Sister/dsh-collaboration/blob/fd3e10e1ff3ba8c2ca10addde8326a4274a3a576/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-collaboration",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Socialist-Sister/dsh-collaboration",
+        "commit": "fd3e10e1ff3ba8c2ca10addde8326a4274a3a576"
+      },
+      "manifestSha256": "4e1ed6dd3a12f4eb022f96f6659ca08fceba4f5e11259d9409617367a91d558d",
+      "manifestUrl": "https://github.com/Socialist-Sister/dsh-collaboration/blob/fd3e10e1ff3ba8c2ca10addde8326a4274a3a576/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Socialist-Sister/dsh-collaboration",
+    "commit": "fd3e10e1ff3ba8c2ca10addde8326a4274a3a576",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:27.168Z"
+}

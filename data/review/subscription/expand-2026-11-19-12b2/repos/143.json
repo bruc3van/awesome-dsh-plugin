@@ -1,0 +1,270 @@
+{
+  "full_name": "arnen7000/DSH-Workbuddy-WebSearch",
+  "originalPosition": 143,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 143,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:56.350Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "175f465584606bcabcee3b75bf050cfa3f637401a5d8330c23e894aef3a04033",
+      "url": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch/blob/7fcaf0f261117536fdb1c9101d315d93c2a51a0a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-workbuddy-websearch",
+          "command": "dsh plugin --profile web add dsh-workbuddy-websearch",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-workbuddy-websearch@0.3.7",
+          "command": "dsh plugin --profile web add dsh-workbuddy-websearch@0.3.7",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-workbuddy-websearch@latest",
+          "command": "dsh plugin --profile web add dsh-workbuddy-websearch@latest",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "contrib/README.md",
+      "sha256": "6956a31b241e37bb0c002cb442b9b6b9245c9695791ba5cb389ee03cc1e1462a",
+      "url": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch/blob/7fcaf0f261117536fdb1c9101d315d93c2a51a0a/contrib/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch",
+          "command": "dsh plugin add github:arnen7000/DSH-Workbuddy-WebSearch",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-workbuddy-websearch",
+      "version": "0.3.7",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch",
+        "commit": "7fcaf0f261117536fdb1c9101d315d93c2a51a0a"
+      },
+      "manifestSha256": "1ea0cd2bda17582d122265a922347135b48701a18b2447cfd1a6129ccde6747c",
+      "manifestUrl": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch/blob/7fcaf0f261117536fdb1c9101d315d93c2a51a0a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-workbuddy-websearch",
+        "versions": [
+          {
+            "version": "0.3.7",
+            "publishTimestamp": 1793429622,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch",
+              "commit": "7fcaf0f261117536fdb1c9101d315d93c2a51a0a"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-workbuddy-websearch",
+      "origin": "npm",
+      "name": "dsh-workbuddy-websearch",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workbuddy-websearch",
+        "title": "dsh-workbuddy-websearch",
+        "description": "将 WorkBuddy 桌面 App 的网络搜索接入 DeepSeek Harness 的 web_search 工具（零配置、零硬依赖）",
+        "author": "XingLang & WorkBuddy",
+        "homepage": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch#readme",
+        "repository": {
+          "url": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "workbuddy",
+            "web-search"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.7",
+            "publishTimestamp": 1793367185,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4381eb095892e62e99cd938b8203a825327da81ff07e4a3ab00e5363d56265d0",
+      "evidence": [
+        {
+          "name": "dsh-workbuddy-websearch",
+          "version": "0.3.7",
+          "tarball": "https://registry.npmjs.org/dsh-workbuddy-websearch/-/dsh-workbuddy-websearch-0.3.7.tgz",
+          "integrity": "sha512-XP/tHIJXa7NARr5KKwlWgOethPnniWhSIqJ6E54iaBPtH7NXxAkeWU7gjnHvWFDZK2i4LOu8fcawRM6Un6QYHg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-workbuddy-websearch@0.3.7",
+      "origin": "npm",
+      "name": "dsh-workbuddy-websearch",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workbuddy-websearch",
+        "title": "dsh-workbuddy-websearch",
+        "description": "将 WorkBuddy 桌面 App 的网络搜索接入 DeepSeek Harness 的 web_search 工具（零配置、零硬依赖）",
+        "author": "XingLang & WorkBuddy",
+        "homepage": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch#readme",
+        "repository": {
+          "url": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "workbuddy",
+            "web-search"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.7",
+            "publishTimestamp": 1793367185,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4381eb095892e62e99cd938b8203a825327da81ff07e4a3ab00e5363d56265d0",
+      "evidence": [
+        {
+          "name": "dsh-workbuddy-websearch",
+          "version": "0.3.7",
+          "tarball": "https://registry.npmjs.org/dsh-workbuddy-websearch/-/dsh-workbuddy-websearch-0.3.7.tgz",
+          "integrity": "sha512-XP/tHIJXa7NARr5KKwlWgOethPnniWhSIqJ6E54iaBPtH7NXxAkeWU7gjnHvWFDZK2i4LOu8fcawRM6Un6QYHg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-workbuddy-websearch@latest",
+      "origin": "npm",
+      "name": "dsh-workbuddy-websearch",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-workbuddy-websearch",
+        "title": "dsh-workbuddy-websearch",
+        "description": "将 WorkBuddy 桌面 App 的网络搜索接入 DeepSeek Harness 的 web_search 工具（零配置、零硬依赖）",
+        "author": "XingLang & WorkBuddy",
+        "homepage": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch#readme",
+        "repository": {
+          "url": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "deepseek",
+            "workbuddy",
+            "web-search"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.3.7",
+            "publishTimestamp": 1793367185,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "4381eb095892e62e99cd938b8203a825327da81ff07e4a3ab00e5363d56265d0",
+      "evidence": [
+        {
+          "name": "dsh-workbuddy-websearch",
+          "version": "0.3.7",
+          "tarball": "https://registry.npmjs.org/dsh-workbuddy-websearch/-/dsh-workbuddy-websearch-0.3.7.tgz",
+          "integrity": "sha512-XP/tHIJXa7NARr5KKwlWgOethPnniWhSIqJ6E54iaBPtH7NXxAkeWU7gjnHvWFDZK2i4LOu8fcawRM6Un6QYHg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workbuddy-websearch",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workbuddy-websearch@0.3.7",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-workbuddy-websearch@latest",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/arnen7000/DSH-Workbuddy-WebSearch",
+    "commit": "7fcaf0f261117536fdb1c9101d315d93c2a51a0a",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:59.015Z"
+}

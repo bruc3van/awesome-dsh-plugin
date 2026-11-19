@@ -1,0 +1,111 @@
+{
+  "full_name": "Zhang9628/qixi-plugin",
+  "originalPosition": 116,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 116,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:46.250Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "625d4e2add7fa465a1ed3617d7a00780d51a038a650497665526a188cd34c5dd",
+      "url": "https://github.com/Zhang9628/qixi-plugin/blob/581794ac36116e7d576d9270f1996b486bf6a8aa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-qixi",
+          "command": "dsh plugin --profile web add dsh-qixi",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-qixi",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Zhang9628/qixi-plugin",
+        "commit": "581794ac36116e7d576d9270f1996b486bf6a8aa"
+      },
+      "manifestSha256": "40d4132718bfe0a981dda0c377283ac45f3f36f6c8734fc145389aad7710d1aa",
+      "manifestUrl": "https://github.com/Zhang9628/qixi-plugin/blob/581794ac36116e7d576d9270f1996b486bf6a8aa/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-qixi",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787131789,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Zhang9628/qixi-plugin",
+              "commit": "581794ac36116e7d576d9270f1996b486bf6a8aa"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-qixi",
+      "origin": "npm",
+      "name": "dsh-qixi",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-qixi",
+        "title": "dsh-qixi",
+        "description": "Qixi — DeepSeek Harness Web UI 七夕情人节彩蛋插件：氛围换肤、告白弹幕、藏头情书与病毒式分享卡片。",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1790586059,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "b7d0e45eed378b7dc08073d53ef21b246e2d9407ec47668a6d72c2734d10ad9d",
+      "evidence": [
+        {
+          "name": "dsh-qixi",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/dsh-qixi/-/dsh-qixi-0.1.0.tgz",
+          "integrity": "sha512-C0pGpCRDz6r0svtbLH0P3I/WxELhQenR6bBPzskqLnjKXYrUNh7eTba6vJ8LQeNSqtFcsq/i5H7fRf5Kd04miQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-qixi",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zhang9628/qixi-plugin",
+    "commit": "581794ac36116e7d576d9270f1996b486bf6a8aa",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:48.274Z"
+}

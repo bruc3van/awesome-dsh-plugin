@@ -1,0 +1,98 @@
+{
+  "full_name": "6-debug-6/dsh-thinking-notifier",
+  "originalPosition": 43,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 43,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:03.235Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6058410103f0f66e591ce3fa364a53859591d4a52ac883f37dd95b816896fb65",
+      "url": "https://github.com/6-debug-6/dsh-thinking-notifier/blob/7f12b7411bc660906bfdae0f5294175724ea785a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-thinking-notifier",
+          "command": "dsh plugin --profile web add dsh-thinking-notifier",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "2642f542d6629e64e96220d8ee157987086e6e03dde31d34f78f3d29bee28046",
+      "url": "https://github.com/6-debug-6/dsh-thinking-notifier/blob/7f12b7411bc660906bfdae0f5294175724ea785a/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-thinking-notifier",
+          "command": "dsh plugin --profile web add dsh-thinking-notifier",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-thinking-notifier",
+      "version": "1.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/6-debug-6/dsh-thinking-notifier",
+        "commit": "7f12b7411bc660906bfdae0f5294175724ea785a"
+      },
+      "manifestSha256": "d585e5c6039cf0db814a05a198a6dd390d0756c66f9139563cb63da31fa3eee7",
+      "manifestUrl": "https://github.com/6-debug-6/dsh-thinking-notifier/blob/7f12b7411bc660906bfdae0f5294175724ea785a/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-thinking-notifier",
+        "versions": [
+          {
+            "version": "1.3.0",
+            "publishTimestamp": 1791375473,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/6-debug-6/dsh-thinking-notifier",
+              "commit": "7f12b7411bc660906bfdae0f5294175724ea785a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-thinking-notifier",
+      "origin": "npm",
+      "status": "source_not_found",
+      "reason": "npm registry 404"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-thinking-notifier",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/6-debug-6/dsh-thinking-notifier",
+    "commit": "7f12b7411bc660906bfdae0f5294175724ea785a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:05.613Z"
+}

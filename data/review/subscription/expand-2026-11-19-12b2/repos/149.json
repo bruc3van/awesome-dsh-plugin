@@ -1,0 +1,78 @@
+{
+  "full_name": "baisama-cloud/dsh-omni-bridge",
+  "originalPosition": 149,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 149,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:58.868Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c64a6cc5fb414d9b8a1518ac789adede139f8d1cd80584a4e8b94205d36fe544",
+      "url": "https://github.com/baisama-cloud/dsh-omni-bridge/blob/de46a1b44558f733a7ddb329d686c6735252fd28/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/baisama-cloud/dsh-omni-bridge",
+          "command": "dsh plugin --profile <p> add https://github.com/baisama-cloud/dsh-omni-bridge",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-omni-bridge",
+      "version": "0.3.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/baisama-cloud/dsh-omni-bridge",
+        "commit": "de46a1b44558f733a7ddb329d686c6735252fd28"
+      },
+      "manifestSha256": "b041bd0409b45bfec0cc0d14a59ca093627bd161e903a227a94a0bc688090079",
+      "manifestUrl": "https://github.com/baisama-cloud/dsh-omni-bridge/blob/de46a1b44558f733a7ddb329d686c6735252fd28/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-omni-bridge",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1788501911,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/baisama-cloud/dsh-omni-bridge",
+              "commit": "de46a1b44558f733a7ddb329d686c6735252fd28"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/baisama-cloud/dsh-omni-bridge",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/baisama-cloud/dsh-omni-bridge",
+    "commit": "de46a1b44558f733a7ddb329d686c6735252fd28",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:00.651Z"
+}

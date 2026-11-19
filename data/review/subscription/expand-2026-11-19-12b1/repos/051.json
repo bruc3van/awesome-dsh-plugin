@@ -1,0 +1,81 @@
+{
+  "full_name": "Abeskandr/dsh-ue-db",
+  "originalPosition": 51,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 51,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:06.566Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "669a5e744bd7cc9fd818c703c6812cc250b28662bcb15d402feb89f561b28039",
+      "url": "https://github.com/Abeskandr/dsh-ue-db/blob/e3eb0e739fb11ba39a00279424db7be550629d40/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Abeskandr/dsh-ue-db",
+          "command": "dsh plugin --profile web add https://github.com/Abeskandr/dsh-ue-db",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ue-db",
+      "version": "1.0.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Abeskandr/dsh-ue-db",
+        "commit": "e3eb0e739fb11ba39a00279424db7be550629d40"
+      },
+      "manifestSha256": "d1d1ed75cf58300a2979585df5d78dd0f6414ccc5febe4d60cafed1885b3f6f5",
+      "manifestUrl": "https://github.com/Abeskandr/dsh-ue-db/blob/e3eb0e739fb11ba39a00279424db7be550629d40/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ue-db",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792887759,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Abeskandr/dsh-ue-db",
+              "commit": "e3eb0e739fb11ba39a00279424db7be550629d40"
+            },
+            "engines": {
+              "dsh": "^0.2.0-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Abeskandr/dsh-ue-db",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Abeskandr/dsh-ue-db",
+    "commit": "e3eb0e739fb11ba39a00279424db7be550629d40",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:08.519Z"
+}

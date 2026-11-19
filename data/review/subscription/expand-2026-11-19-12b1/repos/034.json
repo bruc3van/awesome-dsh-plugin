@@ -1,0 +1,50 @@
+{
+  "full_name": "1parado/dsh-deepseek-web-search",
+  "originalPosition": 34,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 34,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:06:59.491Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "284ba1496ade86d1643941fac98684a579f4a4e7d35db5c11f22b1a646773714",
+      "url": "https://github.com/1parado/dsh-deepseek-web-search/blob/d224c7246ae74105c5559f8f297512eed943f770/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-deepseek-web-search",
+      "version": "0.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1parado/dsh-deepseek-web-search",
+        "commit": "d224c7246ae74105c5559f8f297512eed943f770"
+      },
+      "manifestSha256": "119ce1617fbdeb0438e0e5635701a90fb459a2f05834185035ddb7e09df7b2f0",
+      "manifestUrl": "https://github.com/1parado/dsh-deepseek-web-search/blob/d224c7246ae74105c5559f8f297512eed943f770/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1parado/dsh-deepseek-web-search",
+    "commit": "d224c7246ae74105c5559f8f297512eed943f770",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-19T12:07:01.407Z"
+}

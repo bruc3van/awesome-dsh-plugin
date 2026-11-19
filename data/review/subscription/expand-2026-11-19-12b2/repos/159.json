@@ -1,0 +1,170 @@
+{
+  "full_name": "bingoogolapple/bga-dsh-workbench",
+  "originalPosition": 159,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 159,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:02.389Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b62f14c9aaf926f0ec9d01fa2cb77b31d93e974c509bebf82f92defedc7f2e10",
+      "url": "https://github.com/bingoogolapple/bga-dsh-workbench/blob/fc2e1411ada6092492e80203ecd522c713cf7f9c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "bga-dsh-workbench",
+          "command": "dsh plugin --profile <你的 profile 名> add bga-dsh-workbench",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/bingoogolapple/bga-dsh-workbench",
+          "command": "dsh plugin --profile <你的 profile 名> add github:bingoogolapple/bga-dsh-workbench",
+          "profile": "default"
+        },
+        {
+          "install": "bga-dsh-workbench",
+          "command": "dsh plugin --profile web add bga-dsh-workbench",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "f614452ab4b1b8d6c6fc1183f9e295b953adac4b5b0e2a3685489ade84e82686",
+      "url": "https://github.com/bingoogolapple/bga-dsh-workbench/blob/fc2e1411ada6092492e80203ecd522c713cf7f9c/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "bga-dsh-workbench",
+          "command": "dsh plugin --profile <your profile name> add bga-dsh-workbench",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/bingoogolapple/bga-dsh-workbench",
+          "command": "dsh plugin --profile <your profile name> add github:bingoogolapple/bga-dsh-workbench",
+          "profile": "default"
+        },
+        {
+          "install": "bga-dsh-workbench",
+          "command": "dsh plugin --profile web add bga-dsh-workbench",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "bga-dsh-workbench",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bingoogolapple/bga-dsh-workbench",
+        "commit": "fc2e1411ada6092492e80203ecd522c713cf7f9c"
+      },
+      "manifestSha256": "33b09e5177ba93e4375974e1226f94a29b11bdf9f7889062f2b6891f01a2699d",
+      "manifestUrl": "https://github.com/bingoogolapple/bga-dsh-workbench/blob/fc2e1411ada6092492e80203ecd522c713cf7f9c/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "bga-dsh-workbench",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794844471,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bingoogolapple/bga-dsh-workbench",
+              "commit": "fc2e1411ada6092492e80203ecd522c713cf7f9c"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "bga-dsh-workbench",
+      "origin": "npm",
+      "name": "bga-dsh-workbench",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "bga-dsh-workbench",
+        "title": "bga-dsh-workbench",
+        "description": "Personal Harness workbench: hero banner, completed-turn confetti, and a built-in task board",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1794844758,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.3"
+            }
+          },
+          {
+            "version": "0.1.2",
+            "publishTimestamp": 1788351700,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "50a083687bb779f4c73ebb12d0c4657e796ce8bc591db8c5ad4390b45abf6ec1",
+      "evidence": [
+        {
+          "name": "bga-dsh-workbench",
+          "version": "0.2.1",
+          "tarball": "https://registry.npmjs.org/bga-dsh-workbench/-/bga-dsh-workbench-0.2.1.tgz",
+          "integrity": "sha512-d2iZh7JrNJBza7Qjjgr93Oix+u7y5Ou5WWuOvwss0y5Lg0XEPu36Xjphb9+SNoU2u9sy6FG0QwjrkbIv48SBRw=="
+        },
+        {
+          "name": "bga-dsh-workbench",
+          "version": "0.1.2",
+          "tarball": "https://registry.npmjs.org/bga-dsh-workbench/-/bga-dsh-workbench-0.1.2.tgz",
+          "integrity": "sha512-0L7a2ieRcw00VvylIti0MJKHGMf4w8cCuYf/r66vxT8AmK4OBb6Pk75ZwHL6D5D17lMHus4qtX+gs7tsseq4MQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "bga-dsh-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/bingoogolapple/bga-dsh-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bingoogolapple/bga-dsh-workbench",
+    "commit": "fc2e1411ada6092492e80203ecd522c713cf7f9c",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:05.044Z"
+}

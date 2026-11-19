@@ -1,0 +1,58 @@
+{
+  "full_name": "WhichWitchWin/character-archives",
+  "originalPosition": 94,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 94,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:37.602Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "812de620a8d247dfa4b4d7a69494fbc8fe98768eb9d12575c1603d5d9257b466",
+      "url": "https://github.com/WhichWitchWin/character-archives/blob/a706dda568fac39eac4a9e72516b3397f84fa9ac/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "28504a880484bd47f08d8b9ccdf228724cdcd9003e662b59a6f5aecd7bcf9f78",
+      "url": "https://github.com/WhichWitchWin/character-archives/blob/a706dda568fac39eac4a9e72516b3397f84fa9ac/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/adr/README.md",
+      "sha256": "990bf899d7e5a5e1580644b57e881f818bc01479b8492bc2906dc9de098cd8d4",
+      "url": "https://github.com/WhichWitchWin/character-archives/blob/a706dda568fac39eac4a9e72516b3397f84fa9ac/docs/adr/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WhichWitchWin/character-archives",
+    "commit": "a706dda568fac39eac4a9e72516b3397f84fa9ac",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "character-archives-workspace",
+    "version": "0.0.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=20.11"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:40.771Z"
+}

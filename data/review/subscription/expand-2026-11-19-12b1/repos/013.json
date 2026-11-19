@@ -1,0 +1,170 @@
+{
+  "full_name": "dsh-plugin-lab/dsh-ds-balance",
+  "originalPosition": 13,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 13,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:49.421Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "38cffacce4ca8dc8fb3d17d6d752093ea613e9f9b0878c80ad789790669f6f4e",
+      "url": "https://github.com/dsh-plugin-lab/dsh-ds-balance/blob/339a120d39440e6a97dcb3a32893c6aedec08256/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ds-balance",
+          "command": "dsh plugin --profile web add dsh-ds-balance",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "dd5d837c73a397a2a11903761fb944d0bcbf5eead363445183f245b4aecd4128",
+      "url": "https://github.com/dsh-plugin-lab/dsh-ds-balance/blob/339a120d39440e6a97dcb3a32893c6aedec08256/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-ds-balance",
+          "command": "dsh plugin --profile web add dsh-ds-balance",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ds-balance",
+      "version": "3.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dsh-plugin-lab/dsh-ds-balance",
+        "commit": "339a120d39440e6a97dcb3a32893c6aedec08256"
+      },
+      "manifestSha256": "d8da76e13b3c245c38fd3ceeecd89973c5e91ffc2636c2b4e299e24b0b1d819d",
+      "manifestUrl": "https://github.com/dsh-plugin-lab/dsh-ds-balance/blob/339a120d39440e6a97dcb3a32893c6aedec08256/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ds-balance",
+        "versions": [
+          {
+            "version": "3.2.2",
+            "publishTimestamp": 1794659526,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/dsh-plugin-lab/dsh-ds-balance",
+              "commit": "339a120d39440e6a97dcb3a32893c6aedec08256"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-ds-balance",
+      "origin": "npm",
+      "name": "dsh-ds-balance",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-ds-balance",
+        "title": {
+          "en": "DeepSeek Balance",
+          "zh": "DeepSeek 余额"
+        },
+        "description": {
+          "en": "Shows the DeepSeek account balance in the sidebar: a status ring at a glance, the exact amounts in its popover.",
+          "zh": "在左边栏底部显示 DeepSeek 账户余额：状态环一眼看个大概，点开浮层看确切金额。"
+        },
+        "author": "zlZayn",
+        "homepage": "https://github.com/dsh-plugin-lab/dsh-ds-balance#readme",
+        "repository": {
+          "url": "https://github.com/dsh-plugin-lab/dsh-ds-balance"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "deepseek",
+            "balance",
+            "usage"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tCiAgICBkc2gtZHMtYmFsYW5jZSDnmoTmj5Lku7bpobXlm77moIfvvJrlsLHmmK/lt6bovrnmoI/pgqPkuKrnirbmgIHnjq/vvIjovajpgZMgKyDkuIPmiJDlvKfvvInvvIznrYnmr5TmlL7lpKfjgIIKCiAgICDlh6DkvZXnhacgc3JjL2NsaWVudC9zaWRlYmFyL1BlcmNlbnRSaW5nLnRzeO+8iHZpZXdCb3ggMTYgLyDnrJTnlLsgMSAvIOWNiuW+hCA2LjUgLyDkuK3lv4MgOO+8ie+8jAogICAg5pW057uE55SoIHRyYW5zbGF0ZSgxOCAxOCkgc2NhbGUoOS83KSB0cmFuc2xhdGUoLTggLTgpIOaQrOi/myAzNiDmoLzvvJoKICAgIOWiqOi/ueWkluW+hCAxNCDmlL7lpKfmiJAgMTjvvIzlpJbmjqXmoYYgOeKAkzI377yM5Zub5ZGo5ZCE55WZIDnvvIjlrpjmlrnphY3mlrkgOOKAkznvvInjgIIKICAgIOW8p+mVvyA3MCXvvIxkYXNoYXJyYXkg5LiO57uE5Lu25ZyoIHJhdGlvPTAuNyDml7bnrpflh7rmnaXnmoTpgJDlrZfnm7jlkIzvvJvnur/luL3nhafnjq/nlKjlnIblpLTjgIIKCiAgICDkuKTlpITpopzoibLpg73lj6rog73lhpnmrbvvvIjlrr/kuLvmjInlm77niYfmuLLmn5PvvIxjdXJyZW50Q29sb3Ig5LiO5Li76aKY5Y+Y6YeP6YO95LiN6LW35L2c55So77yJ77yaCgogICAg5bynICNGNTlFMELvvJrlrr/kuLvpgqPmnaEgd2FybiDmoaPor63kuYnoibLvvIhhbWJlci01MDDvvInnmoTlgLzvvIzkuq7mmpfkuKTlnZfooajpgJDlrZfnm7jlkIzvvIwKICAgIOS5n+WwseaYr+eOr+WcqCB3YXJuaW5nIOaho+eUu+WHuuadpeeahOminOiJsuOAggoKICAgIOi9qOmBkyAjN0Y4Mjg3ICsgNDUl77ya546v55qE6L2o6YGT55So55qE5piv44CM6Lef6ZqP5Li76aKY55qE5Y2K6YCP5piO6Imy44CN77yI5LquIDEyJSDpu5EgLyDmmpcgMTYlIOeZve+8ie+8jAogICAg6Z2Z5oCB6LWE5rqQ54OY5LiN5LqG5Li76aKY77yM5omA5Lul5Y+W5Lit5oCn55qEIG5ldXRyYWwtNTAw77yI5Lqu5pqX5ZCM5YC877yJ5Yqg5Zub5oiQ5Y2K5LiN6YCP5piO5bqmIOKAlOKAlAogICAg5a6D6JC95Zyo55m95bqV5LiK57qm562J5LqO5Lqu5qGj6L2o6YGT55qE6KeC5oSf44CB6JC95Zyo5rex6Imy5bqV5LiK57qm562J5LqO5pqX5qGj55qE6KeC5oSf77yM5Lik56eN5Li76aKY6YO955yL5b6X6KeB77yMCiAgICDlj4jmmI7mmL7mr5TlvKfovbvjgIIKCiAgICDms6jmhI/vvJpYTUwg5rOo6YeK6YeM5LiN6K645Ye6546w6L+e57ut5Lik5Liq6L+e5a2X56ym77yM5omA5Lul6L+Z6YeM5LiN5YaZ6YKj5Yeg5p2hIHRva2VuIOeahOWOn+WQjSDigJTigJQKICAgIOesrOS4gOeJiOWwseaYr+i/meS5iOWdj+aOieeahO+8iOa1j+iniOWZqOW9k+WbvueJh+ino+aekOWksei0pe+8jOaPkuS7tumhtemdmem7mOWbnuiQveaIkOm7mOiupOWbvuW9ou+8ieOAggogIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE4IDE4KSBzY2FsZSgxLjI4NTcxNDI4NTcxNDI4NTgpIHRyYW5zbGF0ZSgtOCAtOCkiPgogICAgPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjYuNSIgc3Ryb2tlPSIjN0Y4Mjg3IiBzdHJva2Utb3BhY2l0eT0iMC40NSIgc3Ryb2tlLXdpZHRoPSIxIiAvPgogICAgPGNpcmNsZQogICAgICBjeD0iOCIKICAgICAgY3k9IjgiCiAgICAgIHI9IjYuNSIKICAgICAgc3Ryb2tlPSIjRjU5RTBCIgogICAgICBzdHJva2Utd2lkdGg9IjEiCiAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgc3Ryb2tlLWRhc2hhcnJheT0iMjguNTg4IDQwLjg0MSIKICAgICAgdHJhbnNmb3JtPSJyb3RhdGUoLTkwIDggOCkiCiAgICAvPgogIDwvZz4KPC9zdmc+Cg==",
+        "versions": [
+          {
+            "version": "3.2.2",
+            "publishTimestamp": 1794642467,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.2.2-rc.1"
+            }
+          },
+          {
+            "version": "3.2.0",
+            "publishTimestamp": 1794553797,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.7-rc.1 || ^0.2.0-rc.1 || ^0.2.1-rc.1 || ^0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "788fe5058165faac06fd0d2f10491f75cdc8259e53806e98a65696c1af929e06",
+      "evidence": [
+        {
+          "name": "dsh-ds-balance",
+          "version": "3.2.2",
+          "tarball": "https://registry.npmjs.org/dsh-ds-balance/-/dsh-ds-balance-3.2.2.tgz",
+          "integrity": "sha512-Cuaz2s7M9wXCEpW2m4K079MyFNbfGu5R3HoQL6sh1D/pY+wu/Ez1XVjQiuSU5zDKfpN+bIoQ9wTclxZ/mrNQCw=="
+        },
+        {
+          "name": "dsh-ds-balance",
+          "version": "3.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-ds-balance/-/dsh-ds-balance-3.2.0.tgz",
+          "integrity": "sha512-xwDgz9bTlVS70XXMqiVPSDctsncx+GNRtYBaN+FfszXsKPHzNRxtA0bk/g8v/9cqY9Gd0cyk8TLnW2qEKIWX6g=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-ds-balance",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/dsh-plugin-lab/dsh-ds-balance",
+    "commit": "339a120d39440e6a97dcb3a32893c6aedec08256",
+    "releaseTags": 19,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:52.001Z"
+}

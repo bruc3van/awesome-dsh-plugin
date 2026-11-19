@@ -1,0 +1,126 @@
+{
+  "full_name": "KunIsMe/dsh-filescope",
+  "originalPosition": 147,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 147,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:48.173Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "ea0a47758e33ab57b5e094cd84f04d259d899f780c8dd16252e71f8b1ab532d0",
+      "url": "https://github.com/KunIsMe/dsh-filescope/blob/25c5385f42a1802bdc93dc621952650923bfe101/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-filescope",
+          "command": "dsh plugin --profile web add dsh-filescope",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-filescope",
+      "version": "0.1.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/KunIsMe/dsh-filescope",
+        "commit": "25c5385f42a1802bdc93dc621952650923bfe101"
+      },
+      "manifestSha256": "fb353dda51b65fdce7ffc9340fd684fc074ddc736f12505a34d4735b6605ec8e",
+      "manifestUrl": "https://github.com/KunIsMe/dsh-filescope/blob/25c5385f42a1802bdc93dc621952650923bfe101/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-filescope",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1786888026,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/KunIsMe/dsh-filescope",
+              "commit": "25c5385f42a1802bdc93dc621952650923bfe101"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-filescope",
+      "origin": "npm",
+      "name": "dsh-filescope",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-filescope",
+        "title": "dsh-filescope",
+        "description": "FileScope · 文件视界: workspace file-explorer drawer with live file preview for DeepSeek Harness",
+        "homepage": "https://github.com/KunIsMe/dsh-filescope#readme",
+        "repository": {
+          "url": "https://github.com/KunIsMe/dsh-filescope"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "dsh-plugin",
+            "file-explorer",
+            "workspace",
+            "drawer",
+            "file-preview"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1786888021,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "cc9d3deb3b609de5b8160844c4cef95b7d0d9900741f049cf16718b659934042",
+      "evidence": [
+        {
+          "name": "dsh-filescope",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-filescope/-/dsh-filescope-0.1.3.tgz",
+          "integrity": "sha512-k5yW3RM8vcMY2QFcLFIwPZpxjFk7ncgQaeNuaV2g+AgUIdDbnmKMm9Vs2Lv3OoW+i4bsrhVOyemXMtmjkRW88w=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-filescope",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/KunIsMe/dsh-filescope",
+    "commit": "25c5385f42a1802bdc93dc621952650923bfe101",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:50.288Z"
+}

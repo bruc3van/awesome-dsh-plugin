@@ -1,0 +1,50 @@
+{
+  "full_name": "aaz111/dsh-nx",
+  "originalPosition": 127,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 127,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:49.600Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c67e83f52e8f21363dc126dcb266a1d59836b6cd27c6f488cc05ccff1b7dadcf",
+      "url": "https://github.com/aaz111/dsh-nx/blob/e549b1fbd143051a6f0f16dc4ffed4e1556e5477/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-nx",
+      "version": "0.5.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aaz111/dsh-nx",
+        "commit": "e549b1fbd143051a6f0f16dc4ffed4e1556e5477"
+      },
+      "manifestSha256": "b065fb23a90dc96c699f7e2a176f1f7df9350f0a8d80f552e48a790143e0ac8a",
+      "manifestUrl": "https://github.com/aaz111/dsh-nx/blob/e549b1fbd143051a6f0f16dc4ffed4e1556e5477/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aaz111/dsh-nx",
+    "commit": "e549b1fbd143051a6f0f16dc4ffed4e1556e5477",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:51.469Z"
+}

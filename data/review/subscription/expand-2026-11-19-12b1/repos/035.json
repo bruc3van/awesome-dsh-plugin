@@ -1,0 +1,69 @@
+{
+  "full_name": "2006spy/dsh-token-billing",
+  "originalPosition": 35,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 35,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:06:59.706Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "21064375a55e8bc536d230e2a2acc81fb80437968980f0c97f082f46910fc98d",
+      "url": "https://github.com/2006spy/dsh-token-billing/blob/098b9e8164bd66a6f2bdbc204ece186c6ca52060/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-token-billing",
+      "version": "0.8.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/2006spy/dsh-token-billing",
+        "commit": "098b9e8164bd66a6f2bdbc204ece186c6ca52060"
+      },
+      "manifestSha256": "e1943464f505566e52a11e885e82ea8c18efcf4fb97ae366ea7d1471fcca3d2b",
+      "manifestUrl": "https://github.com/2006spy/dsh-token-billing/blob/098b9e8164bd66a6f2bdbc204ece186c6ca52060/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.8 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-token-billing",
+        "versions": [
+          {
+            "version": "0.8.1",
+            "publishTimestamp": 1789142682,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/2006spy/dsh-token-billing",
+              "commit": "098b9e8164bd66a6f2bdbc204ece186c6ca52060"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.8 <0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/2006spy/dsh-token-billing",
+    "commit": "098b9e8164bd66a6f2bdbc204ece186c6ca52060",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:01.575Z"
+}

@@ -1,0 +1,155 @@
+{
+  "full_name": "Relistencode/dsh-recall",
+  "originalPosition": 45,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 45,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:17.817Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8947876bbacf145c09aab3ab73a30e4fa55c7e28e80f13eb62b5371a48b41d01",
+      "url": "https://github.com/Relistencode/dsh-recall/blob/225b940b7a361e57d9ddb495e04cef2580539d08/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-recall@0.2.2",
+          "command": "dsh plugin --profile web add dsh-recall@0.2.2",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/Relistencode/dsh-recall.git",
+          "command": "dsh plugin --profile web add git+https://github.com/Relistencode/dsh-recall.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ff93a5b52096475c20313f780462f82261196191971cac87b0e0085e3127feb6",
+      "url": "https://github.com/Relistencode/dsh-recall/blob/225b940b7a361e57d9ddb495e04cef2580539d08/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-recall@0.2.2",
+          "command": "dsh plugin --profile web add dsh-recall@0.2.2",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://github.com/Relistencode/dsh-recall.git",
+          "command": "dsh plugin --profile web add git+https://github.com/Relistencode/dsh-recall.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-recall",
+      "version": "0.2.2",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Relistencode/dsh-recall",
+        "commit": "225b940b7a361e57d9ddb495e04cef2580539d08"
+      },
+      "manifestSha256": "38a78cc347faacf3f626c2054dcc67ad478e9d6c6ac9f276a7271d76eb863975",
+      "manifestUrl": "https://github.com/Relistencode/dsh-recall/blob/225b940b7a361e57d9ddb495e04cef2580539d08/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-recall",
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1786873127,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Relistencode/dsh-recall",
+              "commit": "225b940b7a361e57d9ddb495e04cef2580539d08"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-recall@0.2.2",
+      "origin": "npm",
+      "name": "dsh-recall",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-recall",
+        "title": "dsh-recall",
+        "description": "Conversation history recall for DeepSeek Harness: search the original text of every session (like searching chat records) — literal/fuzzy/semantic retrieval, fully local & offline. AI never forgets what you told it.",
+        "repository": {
+          "url": "https://github.com/Relistencode/dsh-recall"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek-harness",
+            "recall",
+            "memory",
+            "history",
+            "search",
+            "semantic-search",
+            "cordis"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.2",
+            "publishTimestamp": 1786873119,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "360ad29c9af2798c592db2e090ed17769b307b489023ab3ba67d76c19c409067",
+      "evidence": [
+        {
+          "name": "dsh-recall",
+          "version": "0.2.2",
+          "tarball": "https://registry.npmjs.org/dsh-recall/-/dsh-recall-0.2.2.tgz",
+          "integrity": "sha512-dF7Upw0fFh6MjJett2T6DDz4s21EjALlgQxyDSRY1KeM0G7dzBjXGYQuIPDqKTm3P4vhd9rtvXeAnH4KLuhr4Q=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-recall@0.2.2",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/Relistencode/dsh-recall.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Relistencode/dsh-recall",
+    "commit": "225b940b7a361e57d9ddb495e04cef2580539d08",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:20.200Z"
+}

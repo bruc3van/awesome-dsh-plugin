@@ -1,0 +1,29 @@
+{
+  "full_name": "coderPerseus/dsh-hub",
+  "originalPosition": 64,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 64,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:06.710Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/coderPerseus/dsh-hub/git/commits/61c6e5c70df02efff181808e0f76d93c1a76cf13\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D4A2:2B9BB3:11CB840:3944D23:6AFEE7D3 and timestamp 2026-11-19 12:13:07 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/coderPerseus/dsh-hub",
+    "commit": "61c6e5c70df02efff181808e0f76d93c1a76cf13",
+    "releaseTags": 122,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:07.363Z"
+}

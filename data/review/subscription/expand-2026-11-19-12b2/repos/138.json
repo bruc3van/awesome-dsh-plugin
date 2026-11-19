@@ -1,0 +1,40 @@
+{
+  "full_name": "anweat/dsh-plugin-dev-guide",
+  "originalPosition": 138,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 138,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:54.078Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "cf3cae112dd3e2dbc31bcda1c00bef8bca344a385d0f00e7eae84412e418ccbe",
+      "url": "https://github.com/anweat/dsh-plugin-dev-guide/blob/187ddf16f761de0747b3f92a0f4ceaf227a65e63/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/anweat/dsh-plugin-dev-guide",
+    "commit": "187ddf16f761de0747b3f92a0f4ceaf227a65e63",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:55.499Z"
+}

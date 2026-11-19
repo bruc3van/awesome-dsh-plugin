@@ -1,0 +1,53 @@
+{
+  "full_name": "ShuiHan268/dsh-qwen-mm-plugins",
+  "originalPosition": 57,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 57,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:22.634Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "41fa522641c19e6cf3a34894a930a82283f076af532f4324ca7b502a7fc53cc5",
+      "url": "https://github.com/ShuiHan268/dsh-qwen-mm-plugins/blob/df6a99305a3471bf789ee6c160c295f30de2fbaa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "53d26fd40095163baed43e6a8aa7d407d73de517526b9ae6d53c1a50dafaede9",
+      "url": "https://github.com/ShuiHan268/dsh-qwen-mm-plugins/blob/df6a99305a3471bf789ee6c160c295f30de2fbaa/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/ShuiHan268/dsh-qwen-mm-plugins",
+    "commit": "df6a99305a3471bf789ee6c160c295f30de2fbaa",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-qwen-mm-plugins",
+    "version": "0.1.0",
+    "dsh": {
+      "client": {
+        "inject": [],
+        "platform": "web"
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:24.819Z"
+}

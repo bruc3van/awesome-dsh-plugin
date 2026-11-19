@@ -1,0 +1,217 @@
+{
+  "full_name": "DEVbyQIN/dsh-quote-to-chat",
+  "originalPosition": 86,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 86,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:21.692Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "76c46fb8f9a53ddb667386bdcf9d8b292364fc96dd098c60d950246baa2e31d7",
+      "url": "https://github.com/DEVbyQIN/dsh-quote-to-chat/blob/457468a52e43f1cf4cc17cd2203ae162c1d73c9f/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/QIN-SMART/dsh-quote-to-chat",
+          "command": "dsh plugin --profile web add github:QIN-SMART/dsh-quote-to-chat",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-quote-to-chat",
+          "command": "dsh plugin --profile web add dsh-quote-to-chat",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "6c27ed7ce430622b3873e75ee92148613f7415da9c09e73b7f4ae6d8357fb010",
+      "url": "https://github.com/DEVbyQIN/dsh-quote-to-chat/blob/457468a52e43f1cf4cc17cd2203ae162c1d73c9f/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/QIN-SMART/dsh-quote-to-chat",
+          "command": "dsh plugin --profile web add github:QIN-SMART/dsh-quote-to-chat",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-quote-to-chat",
+          "command": "dsh plugin --profile web add dsh-quote-to-chat",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-quote-to-chat",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DEVbyQIN/dsh-quote-to-chat",
+        "commit": "457468a52e43f1cf4cc17cd2203ae162c1d73c9f"
+      },
+      "manifestSha256": "960ef990166e3bf52339696863082703b288d90cc9d6b4649125d17963fcc826",
+      "manifestUrl": "https://github.com/DEVbyQIN/dsh-quote-to-chat/blob/457468a52e43f1cf4cc17cd2203ae162c1d73c9f/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-quote-to-chat",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1790933407,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DEVbyQIN/dsh-quote-to-chat",
+              "commit": "457468a52e43f1cf4cc17cd2203ae162c1d73c9f"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/QIN-SMART/dsh-quote-to-chat",
+      "origin": "git_target",
+      "name": "dsh-quote-to-chat",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-quote-to-chat",
+        "title": {
+          "en": "Select to Quote (dsh-quote-to-chat)",
+          "zh": "划选引用 (dsh-quote-to-chat)"
+        },
+        "description": {
+          "en": "Select text in a reply, then quote it into the composer, ask about it in a side chat, or copy the original.",
+          "zh": "在回复里选中文字，浮出工具条：一键把引用写进输入框、就这段内容开侧边线程提问，或复制原文。"
+        },
+        "author": "QIN-SMART",
+        "homepage": "https://github.com/QIN-SMART/dsh-quote-to-chat#readme",
+        "repository": {
+          "url": "https://github.com/QIN-SMART/dsh-quote-to-chat"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "selection",
+            "quote",
+            "side-chat"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSI0LjUiIHk9IjQuNSIgd2lkdGg9IjI3IiBoZWlnaHQ9IjI3IiByeD0iNy41IiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjcsLTAuMikiPgogICAgPHBhdGggZD0iTTEzLjEgMTIuNmg0LjZ2NC42YzAgMi45LTEuNyA0LjktNC42IDUuOWwtLjktMS43YzEuNy0uNyAyLjctMS43IDMtM2gtMi4xeiIgZmlsbD0iI2ZmZiIvPgogICAgPHBhdGggZD0iTTIwLjYgMTIuNmg0LjZ2NC42YzAgMi45LTEuNyA0LjktNC42IDUuOWwtLjktMS43YzEuNy0uNyAyLjctMS43IDMtM2gtMi4xeiIgZmlsbD0iI2ZmZiIvPgogIDwvZz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSI0LjUiIHkxPSI0LjUiIHgyPSIzMS41IiB5Mj0iMzEuNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjN0NDNEZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzMyNDZFMiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1790933407,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/QIN-SMART/dsh-quote-to-chat",
+              "commit": "457468a52e43f1cf4cc17cd2203ae162c1d73c9f"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "457468a52e43f1cf4cc17cd2203ae162c1d73c9f",
+          "name": "dsh-quote-to-chat",
+          "version": "0.2.0",
+          "url": "https://github.com/QIN-SMART/dsh-quote-to-chat",
+          "manifestSha256": "960ef990166e3bf52339696863082703b288d90cc9d6b4649125d17963fcc826",
+          "publishTimestamp": 1790933407
+        }
+      ]
+    },
+    {
+      "target": "dsh-quote-to-chat",
+      "origin": "npm",
+      "name": "dsh-quote-to-chat",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-quote-to-chat",
+        "title": {
+          "en": "Select to Quote (dsh-quote-to-chat)",
+          "zh": "划选引用 (dsh-quote-to-chat)"
+        },
+        "description": {
+          "en": "Select text in a reply, then quote it into the composer, ask about it in a side chat, or copy the original.",
+          "zh": "在回复里选中文字，浮出工具条：一键把引用写进输入框、就这段内容开侧边线程提问，或复制原文。"
+        },
+        "author": "QIN-SMART",
+        "homepage": "https://github.com/QIN-SMART/dsh-quote-to-chat#readme",
+        "repository": {
+          "url": "https://github.com/QIN-SMART/dsh-quote-to-chat"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "selection",
+            "quote",
+            "side-chat"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB4PSI0LjUiIHk9IjQuNSIgd2lkdGg9IjI3IiBoZWlnaHQ9IjI3IiByeD0iNy41IiBmaWxsPSJ1cmwoI2JnKSIvPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjcsLTAuMikiPgogICAgPHBhdGggZD0iTTEzLjEgMTIuNmg0LjZ2NC42YzAgMi45LTEuNyA0LjktNC42IDUuOWwtLjktMS43YzEuNy0uNyAyLjctMS43IDMtM2gtMi4xeiIgZmlsbD0iI2ZmZiIvPgogICAgPHBhdGggZD0iTTIwLjYgMTIuNmg0LjZ2NC42YzAgMi45LTEuNyA0LjktNC42IDUuOWwtLjktMS43YzEuNy0uNyAyLjctMS43IDMtM2gtMi4xeiIgZmlsbD0iI2ZmZiIvPgogIDwvZz4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSI0LjUiIHkxPSI0LjUiIHgyPSIzMS41IiB5Mj0iMzEuNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjN0NDNEZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzMyNDZFMiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+Cjwvc3ZnPgo=",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1790933666,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "9954d1326d4a0be8270a98aeabd5d6f2cb580af1cffdc87e9651f33288e2e550",
+      "evidence": [
+        {
+          "name": "dsh-quote-to-chat",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/dsh-quote-to-chat/-/dsh-quote-to-chat-0.2.0.tgz",
+          "integrity": "sha512-ZqxlAspzDY6TNZdknd9CoFcjSOFz8nmDMkk6oXpYAhzOlRVLOkez7woWk4f7F9TwdzoGnnqb/8r/v2ezk2S++A=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/QIN-SMART/dsh-quote-to-chat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-quote-to-chat",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DEVbyQIN/dsh-quote-to-chat",
+    "commit": "457468a52e43f1cf4cc17cd2203ae162c1d73c9f",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:27.595Z"
+}

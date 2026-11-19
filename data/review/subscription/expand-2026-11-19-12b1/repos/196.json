@@ -1,0 +1,163 @@
+{
+  "full_name": "PandaBoby/dsh-rea",
+  "originalPosition": 196,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 196,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:08:07.627Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1afe8d0b88543ba70934426b9bbabf1e98069ca0d1fd2d3e19911bf73d40c9ac",
+      "url": "https://github.com/PandaBoby/dsh-rea/blob/6630423e746839f0fd9213d7be80030cb12ec147/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@panda-boby/dsh-rea",
+          "command": "dsh plugin --profile desktop add @panda-boby/dsh-rea",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/PandaBoby/dsh-rea",
+          "command": "dsh plugin --profile desktop add github:PandaBoby/dsh-rea",
+          "profile": "desktop"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "b98f01f1a72e807348d0a877f742c2a382db55e20bba763c3862dd38b43c9237",
+      "url": "https://github.com/PandaBoby/dsh-rea/blob/6630423e746839f0fd9213d7be80030cb12ec147/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "@panda-boby/dsh-rea",
+          "command": "dsh plugin --profile desktop add @panda-boby/dsh-rea",
+          "profile": "desktop"
+        },
+        {
+          "install": "https://github.com/PandaBoby/dsh-rea",
+          "command": "dsh plugin --profile desktop add github:PandaBoby/dsh-rea",
+          "profile": "desktop"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@panda-boby/dsh-rea",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/PandaBoby/dsh-rea",
+        "commit": "6630423e746839f0fd9213d7be80030cb12ec147"
+      },
+      "manifestSha256": "2486f7a07cd6968d7bd450950aefd74cfcfd9e5882a09d1c11d6e34ddd8e3d65",
+      "manifestUrl": "https://github.com/PandaBoby/dsh-rea/blob/6630423e746839f0fd9213d7be80030cb12ec147/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@panda-boby/dsh-rea",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1795050300,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/PandaBoby/dsh-rea",
+              "commit": "6630423e746839f0fd9213d7be80030cb12ec147"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@panda-boby/dsh-rea",
+      "origin": "npm",
+      "name": "@panda-boby/dsh-rea",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@panda-boby/dsh-rea",
+        "title": {
+          "en": "REA reverse-engineering tools (dsh-rea)",
+          "zh": "REA 逆向分析工具 (dsh-rea)"
+        },
+        "description": {
+          "en": "Mounts the REA (Reverse Engineer Anything) MCP server as the `rea` tool namespace: 255 analysis tools for binaries, firmware, Electron/JavaScript, browsers and managed runtimes. Their schemas cost roughly 200K tokens of context in every request, so keep this off outside reverse-engineering sessions. One switch turns it on, and npx fetches the newest rea-agents release.",
+          "zh": "把 REA（Reverse Engineer Anything）MCP 服务器挂载成 `rea` 工具命名空间：255 个分析二进制、固件、Electron/JavaScript、浏览器与托管运行时的工具。它们的 schema 会在每次请求里占用约 20 万 tokens 上下文，非逆向会话请保持关闭。一个开关即可启用，由 npx 自动拉取最新 rea-agents 版本。"
+        },
+        "author": "PandaBoby",
+        "homepage": "https://github.com/PandaBoby/dsh-rea#readme",
+        "repository": {
+          "url": "https://github.com/PandaBoby/dsh-rea"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "dsh-bundle",
+            "deepseek-harness",
+            "mcp",
+            "rea",
+            "reverse-engineering"
+          ]
+        },
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlJFQSI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InJlYS1iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMmExZjU3Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBlMTEyMiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icmVhLWNoaXAiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2IzOWJmYiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1YjljZjgiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgcng9IjIyIiBmaWxsPSJ1cmwoI3JlYS1iZykiLz4KICA8ZyBzdHJva2U9IiM4ZjdmZTAiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBvcGFjaXR5PSIwLjkiPgogICAgPHBhdGggZD0iTTM2IDI2di04Ii8+CiAgICA8cGF0aCBkPSJNNjAgMjZ2LTgiLz4KICAgIDxwYXRoIGQ9Ik0zNiA3MHY4Ii8+CiAgICA8cGF0aCBkPSJNNjAgNzB2OCIvPgogICAgPHBhdGggZD0iTTI2IDM2aC04Ii8+CiAgICA8cGF0aCBkPSJNMjYgNjBoLTgiLz4KICAgIDxwYXRoIGQ9Ik03MCAzNmg4Ii8+CiAgICA8cGF0aCBkPSJNNzAgNjBoOCIvPgogIDwvZz4KICA8cmVjdCB4PSIyNiIgeT0iMjYiIHdpZHRoPSI0NCIgaGVpZ2h0PSI0NCIgcng9IjEwIiBmaWxsPSJ1cmwoI3JlYS1jaGlwKSIvPgogIDxyZWN0IHg9IjMzIiB5PSIzMyIgd2lkdGg9IjMwIiBoZWlnaHQ9IjMwIiByeD0iNiIgZmlsbD0iIzExMTQyYyIvPgogIDxjaXJjbGUgY3g9IjQ1LjUiIGN5PSI0NS41IiByPSI5IiBmaWxsPSJub25lIiBzdHJva2U9IiNlY2U5ZmYiIHN0cm9rZS13aWR0aD0iNCIvPgogIDxwYXRoIGQ9Ik01MiA1MiA2MCA2MCIgc3Ryb2tlPSIjZWNlOWZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1795050084,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            }
+          }
+        ]
+      },
+      "registrySha256": "8a459ba75e94380b0ff5a5f1ef81026e9f11df28f0fae37acd1cf30a1a588b39",
+      "evidence": [
+        {
+          "name": "@panda-boby/dsh-rea",
+          "version": "0.2.0",
+          "tarball": "https://registry.npmjs.org/@panda-boby/dsh-rea/-/dsh-rea-0.2.0.tgz",
+          "integrity": "sha512-oDKCn60hwcz5fjSV3Vm+B6vedB/BEHMs0ZtFckeoAiemn59V2xc4SThAEeNDGxHkg5aYKpmJwACJ0LegCCK9MA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@panda-boby/dsh-rea",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/PandaBoby/dsh-rea",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/PandaBoby/dsh-rea",
+    "commit": "6630423e746839f0fd9213d7be80030cb12ec147",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:08:10.217Z"
+}

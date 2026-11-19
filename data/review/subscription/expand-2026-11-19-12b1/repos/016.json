@@ -1,0 +1,159 @@
+{
+  "full_name": "kookoolive/dsh-plugin-telleru",
+  "originalPosition": 16,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 16,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T12:06:50.856Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b0ef62c380a2f5802bd8d9f80e86ef958f205027777e6dcf85b3625b99d5e395",
+      "url": "https://github.com/kookoolive/dsh-plugin-telleru/blob/cf3551722485489eb9b0155d17de7dec269c134d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-plugin-telleru",
+          "command": "dsh plugin add dsh-plugin-telleru",
+          "profile": "default"
+        },
+        {
+          "install": "https://github.com/kookoolive/dsh-plugin-telleru",
+          "command": "dsh plugin add github:kookoolive/dsh-plugin-telleru",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-telleru",
+      "version": "1.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kookoolive/dsh-plugin-telleru",
+        "commit": "cf3551722485489eb9b0155d17de7dec269c134d"
+      },
+      "manifestSha256": "703ddf4104b28485bf7856fa82d2be50604e3b9c74ba7b963bf3e5b4915d9982",
+      "manifestUrl": "https://github.com/kookoolive/dsh-plugin-telleru/blob/cf3551722485489eb9b0155d17de7dec269c134d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-telleru",
+        "versions": [
+          {
+            "version": "1.3.3",
+            "publishTimestamp": 1794472670,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/kookoolive/dsh-plugin-telleru",
+              "commit": "cf3551722485489eb9b0155d17de7dec269c134d"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-plugin-telleru",
+      "origin": "npm",
+      "name": "dsh-plugin-telleru",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-telleru",
+        "title": {
+          "en": "TellerU",
+          "zh": "TellerU"
+        },
+        "description": {
+          "en": "Type /telleru in any conversation and TellerU's AI tutor teaches it on a whiteboard in the right sidebar.",
+          "zh": "在任何对话里输入 /telleru，TellerU 的 AI 老师在右侧白板边写边讲。"
+        },
+        "author": "TellerU",
+        "homepage": "https://github.com/kookoolive/dsh-plugin-telleru#readme",
+        "repository": {
+          "url": "https://github.com/kookoolive/dsh-plugin-telleru"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "telleru",
+            "whiteboard",
+            "learning"
+          ]
+        },
+        "icon": "data:image/webp;base64,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",
+        "versions": [
+          {
+            "version": "1.3.3",
+            "publishTimestamp": 1794468190,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "bcee2216a05ec9bc76f849c1b5146e9e5612b57f83434d9ac9f6f1b9b0a2d3e0",
+      "evidence": [
+        {
+          "name": "dsh-plugin-telleru",
+          "version": "1.3.3",
+          "tarball": "https://registry.npmjs.org/dsh-plugin-telleru/-/dsh-plugin-telleru-1.3.3.tgz",
+          "integrity": "sha512-9WjIF+yyjWoqWrRUJQFHjQUJVcSYJwrfeV052NbHQaHnAR6gdXoVe6BOpoELKnuAmpMRtmfUY6seF/TqfdeFIA=="
+        }
+      ],
+      "diagnostics": [
+        {
+          "name": "dsh-plugin-telleru",
+          "code": "icon_optimized",
+          "status": "info",
+          "reason": "包内原始图标压缩为不超过 96px 的 WebP 后内联",
+          "inputSha256": "6083eb8488d9a07ffe0b5748a5bd79091e612f88c3f158a931382bced1689e3f",
+          "outputSha256": "7343b52bf885326c1899b325fd88a4698fd8a5830f7e2d838aa07b42d7a44935",
+          "inputBytes": 47388,
+          "outputBytes": 3364
+        }
+      ],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-plugin-telleru",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/kookoolive/dsh-plugin-telleru",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kookoolive/dsh-plugin-telleru",
+    "commit": "cf3551722485489eb9b0155d17de7dec269c134d",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:53.506Z"
+}

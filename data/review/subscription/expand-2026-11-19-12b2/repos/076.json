@@ -1,0 +1,62 @@
+{
+  "full_name": "TianzeLuo/dsh-super-agent",
+  "originalPosition": 76,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 76,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:29.622Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8a987cba1a812983a2ec96f0b58d0b4f58911a7a8dfc14e418948dfa0591b49b",
+      "url": "https://github.com/TianzeLuo/dsh-super-agent/blob/9083ce6361afa193f58d8b797554ad20d97f9fcf/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/TianzeLuo/dsh-super-agent",
+          "command": "dsh plugin --profile web add github:TianzeLuo/dsh-super-agent",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-super-agent",
+      "version": "0.18.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/TianzeLuo/dsh-super-agent",
+        "commit": "9083ce6361afa193f58d8b797554ad20d97f9fcf"
+      },
+      "manifestSha256": "a6b0afa104b5227229cd474419f190450d937cd800e94ee38d2141bfc5644e86",
+      "manifestUrl": "https://github.com/TianzeLuo/dsh-super-agent/blob/9083ce6361afa193f58d8b797554ad20d97f9fcf/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/TianzeLuo/dsh-super-agent",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/TianzeLuo/dsh-super-agent",
+    "commit": "9083ce6361afa193f58d8b797554ad20d97f9fcf",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:31.543Z"
+}

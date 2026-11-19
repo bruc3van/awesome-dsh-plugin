@@ -1,0 +1,95 @@
+{
+  "full_name": "Asheblog/dsh-ollama-cloud",
+  "originalPosition": 63,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 63,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:12.571Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bc3c2f7e373804215b6a8bff33b13af032a476cd6b38e2746d064a988823d6dc",
+      "url": "https://github.com/Asheblog/dsh-ollama-cloud/blob/daa47dd6e2061e9481e6ff500743d9ace00ac191/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Asheblog/dsh-ollama-cloud",
+          "command": "dsh plugin --profile web add github:Asheblog/dsh-ollama-cloud",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ff93a159510fbe432c9559a3dbe5c6742c5faae1f666f481081e171dae7b345c",
+      "url": "https://github.com/Asheblog/dsh-ollama-cloud/blob/daa47dd6e2061e9481e6ff500743d9ace00ac191/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/Asheblog/dsh-ollama-cloud",
+          "command": "dsh plugin --profile web add github:Asheblog/dsh-ollama-cloud",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-ollama-cloud",
+      "version": "0.5.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Asheblog/dsh-ollama-cloud",
+        "commit": "daa47dd6e2061e9481e6ff500743d9ace00ac191"
+      },
+      "manifestSha256": "ef34a72e66d451c1d9a94f5052e66d3d99de325fe312d8d39de1ad40c885d2d7",
+      "manifestUrl": "https://github.com/Asheblog/dsh-ollama-cloud/blob/daa47dd6e2061e9481e6ff500743d9ace00ac191/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-ollama-cloud",
+        "versions": [
+          {
+            "version": "0.5.3",
+            "publishTimestamp": 1794624177,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Asheblog/dsh-ollama-cloud",
+              "commit": "daa47dd6e2061e9481e6ff500743d9ace00ac191"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Asheblog/dsh-ollama-cloud",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Asheblog/dsh-ollama-cloud",
+    "commit": "daa47dd6e2061e9481e6ff500743d9ace00ac191",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:14.844Z"
+}

@@ -1,0 +1,78 @@
+{
+  "full_name": "a1141171521/dsh-thinking-effort",
+  "originalPosition": 124,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 124,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:48.306Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a727d4b8091fe83ba2acfa8013441ecfb65a1fbf89ee5f8113c43603735f41c0",
+      "url": "https://github.com/a1141171521/dsh-thinking-effort/blob/94cc096b8d03591fd8bcb4337068cc42c274e282/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/a1141171521/dsh-thinking-effort",
+          "command": "dsh plugin --profile demo add github:a1141171521/dsh-thinking-effort",
+          "profile": "demo"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-thinking-effort",
+      "version": "0.6.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/a1141171521/dsh-thinking-effort",
+        "commit": "94cc096b8d03591fd8bcb4337068cc42c274e282"
+      },
+      "manifestSha256": "2a71bc2b51d767813766ffc017450432cdc94766200f570d94e55a7a97809f2b",
+      "manifestUrl": "https://github.com/a1141171521/dsh-thinking-effort/blob/94cc096b8d03591fd8bcb4337068cc42c274e282/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-thinking-effort",
+        "versions": [
+          {
+            "version": "0.6.0",
+            "publishTimestamp": 1793425747,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/a1141171521/dsh-thinking-effort",
+              "commit": "94cc096b8d03591fd8bcb4337068cc42c274e282"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/a1141171521/dsh-thinking-effort",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/a1141171521/dsh-thinking-effort",
+    "commit": "94cc096b8d03591fd8bcb4337068cc42c274e282",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:50.093Z"
+}

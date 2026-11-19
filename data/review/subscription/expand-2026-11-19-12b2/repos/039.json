@@ -1,0 +1,58 @@
+{
+  "full_name": "Qiongkura/dsh-usage-plugin",
+  "originalPosition": 39,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 39,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:13.625Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5a037153dd4186247fb3006c15273ae917db0596e2e5ca6cc20d5a3adfe95ba8",
+      "url": "https://github.com/Qiongkura/dsh-usage-plugin/blob/23c9d1165d005303d6d41cb00824a7395e7a8b78/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "aaca14214939c5e42eb4f83f804841001249b7a062596f61b69c4bb8b345dc38",
+      "url": "https://github.com/Qiongkura/dsh-usage-plugin/blob/23c9d1165d005303d6d41cb00824a7395e7a8b78/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Qiongkura/dsh-usage-plugin",
+    "commit": "23c9d1165d005303d6d41cb00824a7395e7a8b78",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-usage-plugin",
+    "version": "0.1.1",
+    "dsh": {
+      "client": {
+        "inject": [
+          "@deepseek-ai/dsh-client-locale",
+          "@deepseek-ai/dsh-client-runtime",
+          "@deepseek-ai/dsh-client-ui-primitives",
+          "@deepseek-ai/dsh-client-ui-sidebar"
+        ],
+        "platform": "web"
+      }
+    },
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:10:15.943Z"
+}

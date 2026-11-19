@@ -1,0 +1,66 @@
+{
+  "full_name": "Awesome-AI-Pedia/Awesome-DSH-Pet",
+  "originalPosition": 68,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 68,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:13.383Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d611b4602485376fbc2dbec60896629492e04d90bdb571437420fa02dd45419e",
+      "url": "https://github.com/Awesome-AI-Pedia/Awesome-DSH-Pet/blob/1764a69ba520a4bcae42f54ee8dd4eb895e151bb/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "awesome-dsh-pet",
+      "version": "0.1.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Awesome-AI-Pedia/Awesome-DSH-Pet",
+        "commit": "1764a69ba520a4bcae42f54ee8dd4eb895e151bb"
+      },
+      "manifestSha256": "3db1446e7c1f1485bb86c1de315881c613103b6d866c8e825306bbb1b3e123c7",
+      "manifestUrl": "https://github.com/Awesome-AI-Pedia/Awesome-DSH-Pet/blob/1764a69ba520a4bcae42f54ee8dd4eb895e151bb/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "awesome-dsh-pet",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1787111374,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Awesome-AI-Pedia/Awesome-DSH-Pet",
+              "commit": "1764a69ba520a4bcae42f54ee8dd4eb895e151bb"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Awesome-AI-Pedia/Awesome-DSH-Pet",
+    "commit": "1764a69ba520a4bcae42f54ee8dd4eb895e151bb",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:15.310Z"
+}

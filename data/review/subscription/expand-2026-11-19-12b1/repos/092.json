@@ -1,0 +1,40 @@
+{
+  "full_name": "EachSheep/dsh-mario-pixel-skin",
+  "originalPosition": 92,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 92,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:23.887Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "284417d29710538960bf25972198c73cf9779c1ced44ed2a8ca4d4e3ddfd4bbe",
+      "url": "https://github.com/EachSheep/dsh-mario-pixel-skin/blob/990466177305a334552007c56f5fffc7bc321482/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/EachSheep/dsh-mario-pixel-skin",
+    "commit": "990466177305a334552007c56f5fffc7bc321482",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:07:25.344Z"
+}

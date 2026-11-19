@@ -1,0 +1,58 @@
+{
+  "full_name": "Mikuzjc/dsh-office-for-mso",
+  "originalPosition": 175,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 175,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:59.606Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "760ba3e84756751a3a6a72ba3ae12c4bed4501f31e34ad2031f3676d4c97a173",
+      "url": "https://github.com/Mikuzjc/dsh-office-for-mso/blob/5500bfe38aaf00b5d70b3833db072338ad5b7f87/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "ab1dcea58991b408d38affac7c138d06b9c2449de997e20e79221b971b97cde6",
+      "url": "https://github.com/Mikuzjc/dsh-office-for-mso/blob/5500bfe38aaf00b5d70b3833db072338ad5b7f87/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.ja.md",
+      "sha256": "9a0ea4f9c89b6289864f20f1a9ec121e33ac9271876651407701e258b81119ed",
+      "url": "https://github.com/Mikuzjc/dsh-office-for-mso/blob/5500bfe38aaf00b5d70b3833db072338ad5b7f87/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Mikuzjc/dsh-office-for-mso",
+    "commit": "5500bfe38aaf00b5d70b3833db072338ad5b7f87",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "dsh-office-for-mso",
+    "version": "1.3.0",
+    "dsh": null,
+    "engines": {
+      "node": ">=18"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-19T12:08:02.416Z"
+}

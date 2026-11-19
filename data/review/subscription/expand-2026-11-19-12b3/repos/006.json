@@ -1,0 +1,29 @@
+{
+  "full_name": "BeiZi6/dsh-theme-plugin",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:00.480Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/BeiZi6/dsh-theme-plugin/git/commits/b3e7e143532c4b6df71da753d2336bb018949d2a\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D423:110F40:10E154C:367436D:6AFEE7CC and timestamp 2026-11-19 12:13:01 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/BeiZi6/dsh-theme-plugin",
+    "commit": "b3e7e143532c4b6df71da753d2336bb018949d2a",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:01.170Z"
+}

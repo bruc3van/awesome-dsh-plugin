@@ -1,0 +1,85 @@
+{
+  "full_name": "Adkid-Zephyr/Liltloom",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:09:59.051Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "02a35d862a4bb3a9eb3bc1d4ca961bd29aa174e49c4349ef356693f80f206bb7",
+      "url": "https://github.com/Adkid-Zephyr/Liltloom/blob/514f853c8f072d892aee59b12f54b8ee56f5a6c5/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "spec/schemas/README.md",
+      "sha256": "fff5dcdce533ce4cf5900479a22c600c9462a9766c69fa2afd6019d51a0a743d",
+      "url": "https://github.com/Adkid-Zephyr/Liltloom/blob/514f853c8f072d892aee59b12f54b8ee56f5a6c5/spec/schemas/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "assets/media/README.md",
+      "sha256": "417d27ac764e120a108ec389048eba1879cbb28565d9cd83c98e64a45ebf53d2",
+      "url": "https://github.com/Adkid-Zephyr/Liltloom/blob/514f853c8f072d892aee59b12f54b8ee56f5a6c5/assets/media/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "liltloom",
+      "version": "0.2.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Adkid-Zephyr/Liltloom",
+        "commit": "514f853c8f072d892aee59b12f54b8ee56f5a6c5"
+      },
+      "manifestSha256": "b184a92f0f96ce6fe305bb1aab80b655e18b36ec5021f657a0d838630a9d703c",
+      "manifestUrl": "https://github.com/Adkid-Zephyr/Liltloom/blob/514f853c8f072d892aee59b12f54b8ee56f5a6c5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.5 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "liltloom",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1786714234,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Adkid-Zephyr/Liltloom",
+              "commit": "514f853c8f072d892aee59b12f54b8ee56f5a6c5"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.5 <0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Adkid-Zephyr/Liltloom",
+    "commit": "514f853c8f072d892aee59b12f54b8ee56f5a6c5",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:02.125Z"
+}

@@ -1,0 +1,107 @@
+{
+  "full_name": "AIFireForAll/dsh-enter-lock",
+  "originalPosition": 46,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 46,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:04.337Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f480f1a33232d27e47af9276f9b99e4194efa4ff8fd04bdfca0ae24740c87830",
+      "url": "https://github.com/AIFireForAll/dsh-enter-lock/blob/2c7dfa10f6d97ce99acb9bc52bcdcbafc216839d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/AIFireForAll/dsh-enter-lock",
+          "command": "dsh plugin --profile web add github:AIFireForAll/dsh-enter-lock",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AIFireForAll/dsh-enter-lock.git",
+          "command": "dsh plugin --profile web add https://github.com/AIFireForAll/dsh-enter-lock.git",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "08cfbd5dec223abc9f4630a2796cbf957d71be0ca5020538019f33be2872f385",
+      "url": "https://github.com/AIFireForAll/dsh-enter-lock/blob/2c7dfa10f6d97ce99acb9bc52bcdcbafc216839d/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/AIFireForAll/dsh-enter-lock",
+          "command": "dsh plugin --profile web add github:AIFireForAll/dsh-enter-lock",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/AIFireForAll/dsh-enter-lock.git",
+          "command": "dsh plugin --profile web add https://github.com/AIFireForAll/dsh-enter-lock.git",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-enter-lock",
+      "version": "0.4.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AIFireForAll/dsh-enter-lock",
+        "commit": "2c7dfa10f6d97ce99acb9bc52bcdcbafc216839d"
+      },
+      "manifestSha256": "8af5604ca4bf992acf4be70091b8f3189f63d1b9397b369eedbb11fb3ddad3b3",
+      "manifestUrl": "https://github.com/AIFireForAll/dsh-enter-lock/blob/2c7dfa10f6d97ce99acb9bc52bcdcbafc216839d/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-enter-lock",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1787240404,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AIFireForAll/dsh-enter-lock",
+              "commit": "2c7dfa10f6d97ce99acb9bc52bcdcbafc216839d"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AIFireForAll/dsh-enter-lock",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/AIFireForAll/dsh-enter-lock.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AIFireForAll/dsh-enter-lock",
+    "commit": "2c7dfa10f6d97ce99acb9bc52bcdcbafc216839d",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:06.565Z"
+}

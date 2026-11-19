@@ -1,0 +1,74 @@
+{
+  "full_name": "aoilang/dsh-english-cards",
+  "originalPosition": 139,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 139,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:54.301Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "77f8e59764083d34fee07e6efab968793e46d4e7cc7eb0d9cad00c71998f3dfa",
+      "url": "https://github.com/aoilang/dsh-english-cards/blob/4aed741ce064e3daa099f3296334285213e02db8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "731ec97df2550b1ec59136b90936f8ef80a478adbb0e2302a97b720852b33204",
+      "url": "https://github.com/aoilang/dsh-english-cards/blob/4aed741ce064e3daa099f3296334285213e02db8/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-english-cards",
+      "version": "0.1.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aoilang/dsh-english-cards",
+        "commit": "4aed741ce064e3daa099f3296334285213e02db8"
+      },
+      "manifestSha256": "ae81d118de96f86b217be8e845e9e931b0e58650234203a1fb64f609f6ee2a18",
+      "manifestUrl": "https://github.com/aoilang/dsh-english-cards/blob/4aed741ce064e3daa099f3296334285213e02db8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-english-cards",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1794232336,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/aoilang/dsh-english-cards",
+              "commit": "4aed741ce064e3daa099f3296334285213e02db8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aoilang/dsh-english-cards",
+    "commit": "4aed741ce064e3daa099f3296334285213e02db8",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:56.546Z"
+}

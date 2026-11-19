@@ -1,0 +1,163 @@
+{
+  "full_name": "bvcvb/dsh-baize-rules",
+  "originalPosition": 166,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 166,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:11:05.890Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "dfbb61809707ca916e40a75d65888d5997db662b5022dcbee3d3e2165f9445fb",
+      "url": "https://github.com/bvcvb/dsh-baize-rules/blob/a7aae0f37e8cac19766614a81f190c519880e4af/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-baize-rules@0.2.4",
+          "command": "dsh plugin --profile web add dsh-baize-rules@0.2.4",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-baize-rules@0.2.4",
+          "command": "dsh plugin --profile smoke add dsh-baize-rules@0.2.4",
+          "profile": "smoke"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "36fc5682def4921011479f29a4bb8731cd2fee05031b76e2c481cbebb5b7ba2c",
+      "url": "https://github.com/bvcvb/dsh-baize-rules/blob/a7aae0f37e8cac19766614a81f190c519880e4af/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-baize-rules@0.2.4",
+          "command": "dsh plugin --profile web add dsh-baize-rules@0.2.4",
+          "profile": "web"
+        },
+        {
+          "install": "dsh-baize-rules@0.2.4",
+          "command": "dsh plugin --profile smoke add dsh-baize-rules@0.2.4",
+          "profile": "smoke"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-baize-rules",
+      "version": "0.2.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/bvcvb/dsh-baize-rules",
+        "commit": "a7aae0f37e8cac19766614a81f190c519880e4af"
+      },
+      "manifestSha256": "a04fb3868e4b6d8baff86f8f08fac1272b87f6af27e53d3e5159fd7ec4134cb0",
+      "manifestUrl": "https://github.com/bvcvb/dsh-baize-rules/blob/a7aae0f37e8cac19766614a81f190c519880e4af/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.1.1-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-baize-rules",
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1790092385,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/bvcvb/dsh-baize-rules",
+              "commit": "a7aae0f37e8cac19766614a81f190c519880e4af"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-baize-rules@0.2.4",
+      "origin": "npm",
+      "name": "dsh-baize-rules",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-baize-rules",
+        "title": "dsh-baize-rules",
+        "description": "User-set session/global must-do and must-not requirements injected at conversation start (Baize).",
+        "author": "bvcvb",
+        "homepage": "https://github.com/bvcvb/dsh-baize-rules",
+        "repository": {
+          "url": "https://github.com/bvcvb/dsh-baize-rules"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "plugin",
+            "rules",
+            "requirements",
+            "session",
+            "baize",
+            "must-do",
+            "must-not",
+            "deepseek-harness",
+            "agent-rules",
+            "system-reminder",
+            "developer"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.2.4",
+            "publishTimestamp": 1790092493,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "^0.1.1-rc.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "7b9b4195ff229d21e2ae5f2785f8f66098143fff44639d58aa0ee991d9e6be9f",
+      "evidence": [
+        {
+          "name": "dsh-baize-rules",
+          "version": "0.2.4",
+          "tarball": "https://registry.npmjs.org/dsh-baize-rules/-/dsh-baize-rules-0.2.4.tgz",
+          "integrity": "sha512-LDw3TtKyFpqm7q6uZiuLC1mVZzSNmg08iiU0IROeHybYIBU+5JIpJ7cAC2VEOYjDEsQFu9x/ZWrxAd9+9LYOig=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-baize-rules@0.2.4",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/bvcvb/dsh-baize-rules",
+    "commit": "a7aae0f37e8cac19766614a81f190c519880e4af",
+    "releaseTags": 11,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:11:08.354Z"
+}

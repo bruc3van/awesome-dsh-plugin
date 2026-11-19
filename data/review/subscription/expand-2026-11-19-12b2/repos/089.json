@@ -1,0 +1,74 @@
+{
+  "full_name": "WODE25500/dsh-skillopt",
+  "originalPosition": 89,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 89,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:10:35.531Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b9b1ac593e5a0b06828fd469d554ee44f68ec20af15546ed918ff0c50db237c6",
+      "url": "https://github.com/WODE25500/dsh-skillopt/blob/5a4cae6781521bad2d793595980e78e07f2b0e8e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "ac5cb8bc71382e8380350bec622a555b0107615d1a626165500a623e8126cecf",
+      "url": "https://github.com/WODE25500/dsh-skillopt/blob/5a4cae6781521bad2d793595980e78e07f2b0e8e/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skillopt",
+      "version": "0.2.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WODE25500/dsh-skillopt",
+        "commit": "5a4cae6781521bad2d793595980e78e07f2b0e8e"
+      },
+      "manifestSha256": "33098f19aed99c4cdb2ec01f564a704210e504feeb445e1ae76f533c4bd244cc",
+      "manifestUrl": "https://github.com/WODE25500/dsh-skillopt/blob/5a4cae6781521bad2d793595980e78e07f2b0e8e/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-skillopt",
+        "versions": [
+          {
+            "version": "0.2.1",
+            "publishTimestamp": 1791556977,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WODE25500/dsh-skillopt",
+              "commit": "5a4cae6781521bad2d793595980e78e07f2b0e8e"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WODE25500/dsh-skillopt",
+    "commit": "5a4cae6781521bad2d793595980e78e07f2b0e8e",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:10:37.711Z"
+}

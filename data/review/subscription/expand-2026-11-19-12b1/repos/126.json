@@ -1,0 +1,229 @@
+{
+  "full_name": "Hou-DL/dsh-token-pulse",
+  "originalPosition": 126,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 126,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:37.833Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "855b1cabbdf6c66b43345432e2cbb2413caa83ec1423fa1807076d86586e12d8",
+      "url": "https://github.com/Hou-DL/dsh-token-pulse/blob/066d6a2add409a485a343a92f49ddb27e7889ff5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-token-pulse",
+          "command": "dsh plugin --profile web add dsh-token-pulse",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Hou-DL/dsh-token-pulse",
+          "command": "dsh plugin --profile web add github:Hou-DL/dsh-token-pulse",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://gitee.com/HouDL/dsh-token-pulse.git",
+          "command": "dsh plugin --profile web add \"git+https://gitee.com/HouDL/dsh-token-pulse.git\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "32a6237cecb474bb5accaa6948efd90e4449ff96fab82cdc80a354840cf132d6",
+      "url": "https://github.com/Hou-DL/dsh-token-pulse/blob/066d6a2add409a485a343a92f49ddb27e7889ff5/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-token-pulse",
+          "command": "dsh plugin --profile web add dsh-token-pulse",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Hou-DL/dsh-token-pulse",
+          "command": "dsh plugin --profile web add github:Hou-DL/dsh-token-pulse",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://gitee.com/HouDL/dsh-token-pulse.git",
+          "command": "dsh plugin --profile web add \"git+https://gitee.com/HouDL/dsh-token-pulse.git\"",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e71d4b81eae62807c3be3b731acc4dfce80b657237b1739181e7733a33a83463",
+      "url": "https://github.com/Hou-DL/dsh-token-pulse/blob/066d6a2add409a485a343a92f49ddb27e7889ff5/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-token-pulse",
+          "command": "dsh plugin --profile web add dsh-token-pulse",
+          "profile": "web"
+        },
+        {
+          "install": "https://github.com/Hou-DL/dsh-token-pulse",
+          "command": "dsh plugin --profile web add github:Hou-DL/dsh-token-pulse",
+          "profile": "web"
+        },
+        {
+          "install": "git+https://gitee.com/HouDL/dsh-token-pulse.git",
+          "command": "dsh plugin --profile web add \"git+https://gitee.com/HouDL/dsh-token-pulse.git\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-token-pulse",
+      "version": "0.4.5",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Hou-DL/dsh-token-pulse",
+        "commit": "066d6a2add409a485a343a92f49ddb27e7889ff5"
+      },
+      "manifestSha256": "478560f05c40ba7e23a18a773b14185f1fc7ec30c4a74856ddd893f22831f65a",
+      "manifestUrl": "https://github.com/Hou-DL/dsh-token-pulse/blob/066d6a2add409a485a343a92f49ddb27e7889ff5/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-token-pulse",
+        "versions": [
+          {
+            "version": "0.4.5",
+            "publishTimestamp": 1794901217,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Hou-DL/dsh-token-pulse",
+              "commit": "066d6a2add409a485a343a92f49ddb27e7889ff5"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-token-pulse",
+      "origin": "npm",
+      "name": "dsh-token-pulse",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-token-pulse",
+        "title": "dsh-token-pulse",
+        "description": "设置内独立栏的本地 Token 热图：周/月/季度/年视图 + 日周月总统计 + 按模型/供应商 Top5",
+        "homepage": "https://github.com/Hou-DL/dsh-token-pulse#readme",
+        "repository": {
+          "url": "https://github.com/Hou-DL/dsh-token-pulse"
+        },
+        "versions": [
+          {
+            "version": "0.4.5",
+            "publishTimestamp": 1794660347,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "909eda5b390308b8614322eba722530bb82f9dc5559eb5660109a3fabb0cb155",
+      "evidence": [
+        {
+          "name": "dsh-token-pulse",
+          "version": "0.4.5",
+          "tarball": "https://registry.npmjs.org/dsh-token-pulse/-/dsh-token-pulse-0.4.5.tgz",
+          "integrity": "sha512-efNulroPC22W/dsq91rxfWclUQ2yOoV9TGSpAgtID+O4rMmreIyOtnq9n4E9mevawjxCwoo+mvjyfRbdSMOWMg=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "git+https://gitee.com/HouDL/dsh-token-pulse.git",
+      "origin": "git_target",
+      "name": "dsh-token-pulse",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-token-pulse",
+        "title": "dsh-token-pulse",
+        "description": "设置内独立栏的本地 Token 热图：周/月/季度/年视图 + 日周月总统计 + 按模型/供应商 Top5",
+        "homepage": "https://github.com/Hou-DL/dsh-token-pulse#readme",
+        "repository": {
+          "url": "https://github.com/Hou-DL/dsh-token-pulse"
+        },
+        "versions": [
+          {
+            "version": "0.4.5",
+            "publishTimestamp": 1794901217,
+            "source": {
+              "type": "git",
+              "url": "https://gitee.com/HouDL/dsh-token-pulse",
+              "commit": "066d6a2add409a485a343a92f49ddb27e7889ff5"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.1"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "",
+          "commit": "066d6a2add409a485a343a92f49ddb27e7889ff5",
+          "name": "dsh-token-pulse",
+          "version": "0.4.5",
+          "url": "https://gitee.com/HouDL/dsh-token-pulse",
+          "manifestSha256": "478560f05c40ba7e23a18a773b14185f1fc7ec30c4a74856ddd893f22831f65a",
+          "publishTimestamp": 1794901217
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-token-pulse",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/Hou-DL/dsh-token-pulse",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://gitee.com/HouDL/dsh-token-pulse.git",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Hou-DL/dsh-token-pulse",
+    "commit": "066d6a2add409a485a343a92f49ddb27e7889ff5",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:55.017Z"
+}

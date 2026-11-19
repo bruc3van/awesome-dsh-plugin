@@ -1,0 +1,211 @@
+{
+  "full_name": "Jestions-dev/dsh-download-server",
+  "originalPosition": 1,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 1,
+  "batch": 1,
+  "stargazers_count": 51,
+  "startedAt": "2026-11-19T12:06:45.036Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6920a199c9ee2caf4cb2b0edd9f8f7080f05859ed9f9a72da2113cee09774247",
+      "url": "https://github.com/Jestions-dev/dsh-download-server/blob/e49f7bf96edfd9541d7da600729b6b975eadfe54/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-dl-server@0.4.0",
+          "command": "dsh plugin add dsh-dl-server@0.4.0",
+          "profile": "default"
+        }
+      ]
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6dcb52c9464c4f5357e1a1beef91673df948355b690e6c3c593a1c2f8d0c8c86",
+      "url": "https://github.com/Jestions-dev/dsh-download-server/blob/e49f7bf96edfd9541d7da600729b6b975eadfe54/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-dl-server",
+          "command": "dsh plugin add dsh-dl-server",
+          "profile": "default"
+        },
+        {
+          "install": "dsh-dl-server@0.4.0",
+          "command": "dsh plugin add dsh-dl-server@0.4.0",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-dl-server",
+      "version": "0.4.1",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Jestions-dev/dsh-download-server",
+        "commit": "e49f7bf96edfd9541d7da600729b6b975eadfe54"
+      },
+      "manifestSha256": "df182484b5e28be59a9c0f113de51d468a90eb9e352aecc5347ecf0b4a64b60b",
+      "manifestUrl": "https://github.com/Jestions-dev/dsh-download-server/blob/e49f7bf96edfd9541d7da600729b6b975eadfe54/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.1 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-dl-server",
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1794725114,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Jestions-dev/dsh-download-server",
+              "commit": "e49f7bf96edfd9541d7da600729b6b975eadfe54"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-dl-server@0.4.0",
+      "origin": "npm",
+      "name": "dsh-dl-server",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-dl-server",
+        "title": "dsh-dl-server",
+        "description": "DLS — DSH Download Server: a global, session-aware, persistent download queue for DeepSeek Harness.",
+        "author": "Jestions",
+        "homepage": "https://github.com/Jestions-dev/dsh-download-server#readme",
+        "repository": {
+          "url": "https://github.com/Jestions-dev/dsh-download-server"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "download",
+            "downloader",
+            "queue",
+            "aria2",
+            "dls"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1794657463,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "579bd319dceee66d2f79127092c8c51e9af02892ff24534fee80a25dae09a0dc",
+      "evidence": [
+        {
+          "name": "dsh-dl-server",
+          "version": "0.4.0",
+          "tarball": "https://registry.npmjs.org/dsh-dl-server/-/dsh-dl-server-0.4.0.tgz",
+          "integrity": "sha512-vyX9eNo1BKoTloqx2FyjH7nYzWsoUBET16Hn1cHx8r6EoSL+HhOQPQx21lFj6GwWBVtq7EQcUP1cd0v9yU0OUQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    },
+    {
+      "target": "dsh-dl-server",
+      "origin": "npm",
+      "name": "dsh-dl-server",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-dl-server",
+        "title": "dsh-dl-server",
+        "description": "DLS — DSH Download Server: a global, session-aware, persistent download queue for DeepSeek Harness.",
+        "author": "Jestions",
+        "homepage": "https://github.com/Jestions-dev/dsh-download-server#readme",
+        "repository": {
+          "url": "https://github.com/Jestions-dev/dsh-download-server"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "download",
+            "downloader",
+            "queue",
+            "aria2",
+            "dls"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1794725247,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "579bd319dceee66d2f79127092c8c51e9af02892ff24534fee80a25dae09a0dc",
+      "evidence": [
+        {
+          "name": "dsh-dl-server",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-dl-server/-/dsh-dl-server-0.4.1.tgz",
+          "integrity": "sha512-FUYb1bCyT0Kh2uMUaGBlja491WCwe37LRTqr+yHAiFrb/A4GOWzj7IS6fm7M7/dsaQ2ZM2sPWsMAMlfTuumAsQ=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dl-server@0.4.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-dl-server",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Jestions-dev/dsh-download-server",
+    "commit": "e49f7bf96edfd9541d7da600729b6b975eadfe54",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:06:47.751Z"
+}

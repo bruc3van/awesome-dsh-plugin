@@ -1,0 +1,66 @@
+{
+  "full_name": "1344738825/ai-look-up",
+  "originalPosition": 31,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 31,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:06:59.054Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b4d3383183e7f1ba4c4440d4079f132684bcd05615ae820446934138a15db536",
+      "url": "https://github.com/1344738825/ai-look-up/blob/1166db306e92663571285881f79d68cfd538f7d8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "ai-look-up",
+      "version": "0.9.0",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/1344738825/ai-look-up",
+        "commit": "1166db306e92663571285881f79d68cfd538f7d8"
+      },
+      "manifestSha256": "59736dd9d15b15f5357bcb7475e35ab7b63c1494d9962a56ba9f88ff2952206c",
+      "manifestUrl": "https://github.com/1344738825/ai-look-up/blob/1166db306e92663571285881f79d68cfd538f7d8/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "ai-look-up",
+        "versions": [
+          {
+            "version": "0.9.0",
+            "publishTimestamp": 1794943498,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/1344738825/ai-look-up",
+              "commit": "1166db306e92663571285881f79d68cfd538f7d8"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/1344738825/ai-look-up",
+    "commit": "1166db306e92663571285881f79d68cfd538f7d8",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:01.009Z"
+}

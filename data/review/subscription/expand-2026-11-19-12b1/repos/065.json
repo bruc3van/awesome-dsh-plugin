@@ -1,0 +1,87 @@
+{
+  "full_name": "AstroLiao/dsh-memory-core",
+  "originalPosition": 65,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 65,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:12.793Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d8933e7e47361a2b275142ff5b677b509054bcfc77e92fde7aa5910933dbeef1",
+      "url": "https://github.com/AstroLiao/dsh-memory-core/blob/d18b9f0e39cbedc323a61825b411e7c30e26d2a0/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "core/README.md",
+      "sha256": "b8a6ec5d4545a3e43fc058f1ddd3e228f2e116c73cb82e5d7465d1bc92a65119",
+      "url": "https://github.com/AstroLiao/dsh-memory-core/blob/d18b9f0e39cbedc323a61825b411e7c30e26d2a0/core/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "ui/README.md",
+      "sha256": "e8df3b8e6bd3050ae0c60a78791d4571f5507e8ed662167f6e47b80378a648d5",
+      "url": "https://github.com/AstroLiao/dsh-memory-core/blob/d18b9f0e39cbedc323a61825b411e7c30e26d2a0/ui/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-external/dsh-memory-core",
+      "version": "0.1.0",
+      "path": "core",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AstroLiao/dsh-memory-core",
+        "commit": "d18b9f0e39cbedc323a61825b411e7c30e26d2a0",
+        "path": "core"
+      },
+      "manifestSha256": "cedae3f04924b8d0759b94ae27a3c6509291c331223847368d1e40b73d6ca335",
+      "manifestUrl": "https://github.com/AstroLiao/dsh-memory-core/blob/d18b9f0e39cbedc323a61825b411e7c30e26d2a0/core/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.1-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-external/dsh-memory-core",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1788244381,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AstroLiao/dsh-memory-core",
+              "commit": "d18b9f0e39cbedc323a61825b411e7c30e26d2a0",
+              "path": "core"
+            },
+            "engines": {
+              "dsh": ">=0.1.1-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AstroLiao/dsh-memory-core",
+    "commit": "d18b9f0e39cbedc323a61825b411e7c30e26d2a0",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:16.091Z"
+}

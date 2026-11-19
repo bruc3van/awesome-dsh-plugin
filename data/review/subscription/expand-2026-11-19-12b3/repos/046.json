@@ -1,0 +1,29 @@
+{
+  "full_name": "Zephyr-vibe/dsh-personalize",
+  "originalPosition": 46,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 46,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:13:04.918Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [
+    {
+      "stage": "repository",
+      "reason": "Command failed: gh api --hostname github.com repos/Zephyr-vibe/dsh-personalize/git/commits/96f5525c0b65819fdb12c88cf1a9309747095c1f\ngh: API rate limit exceeded for installation. If you reach out to GitHub Support for help, please include the request ID D48D:EE5A:118D513:3896DB9:6AFEE7D1 and timestamp 2026-11-19 12:13:05 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)\n"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Zephyr-vibe/dsh-personalize",
+    "commit": "96f5525c0b65819fdb12c88cf1a9309747095c1f",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "outcome": "retry_required",
+  "finishedAt": "2026-11-19T12:13:05.511Z"
+}

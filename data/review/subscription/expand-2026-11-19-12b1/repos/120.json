@@ -1,0 +1,69 @@
+{
+  "full_name": "HERO476/dsh-sidecard-ask",
+  "originalPosition": 120,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 120,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:35.822Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1b5fccd7960198f8fc84d1e075c33bc1f9d1de1e7b9b8247541f5b232676f5d3",
+      "url": "https://github.com/HERO476/dsh-sidecard-ask/blob/c3986f358909d4c11f19cf89b5b6920f9a19cc44/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sidecard-ask",
+      "version": "2.3.3",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HERO476/dsh-sidecard-ask",
+        "commit": "c3986f358909d4c11f19cf89b5b6920f9a19cc44"
+      },
+      "manifestSha256": "0189d21212e7ded2999279ca6139af3fb3f7b94c67eff7043da49ff5df2f354b",
+      "manifestUrl": "https://github.com/HERO476/dsh-sidecard-ask/blob/c3986f358909d4c11f19cf89b5b6920f9a19cc44/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-sidecard-ask",
+        "versions": [
+          {
+            "version": "2.3.3",
+            "publishTimestamp": 1795062010,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/HERO476/dsh-sidecard-ask",
+              "commit": "c3986f358909d4c11f19cf89b5b6920f9a19cc44"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HERO476/dsh-sidecard-ask",
+    "commit": "c3986f358909d4c11f19cf89b5b6920f9a19cc44",
+    "releaseTags": 38,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:37.833Z"
+}

@@ -1,0 +1,152 @@
+{
+  "full_name": "Imzl-zl/dsh-redo",
+  "originalPosition": 133,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 133,
+  "batch": 1,
+  "stargazers_count": 4,
+  "startedAt": "2026-11-19T12:07:41.293Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "302e512d14dfeaa0daa4437fc3cf9d8dbaab1c5cdc4a819b4308abf85637320f",
+      "url": "https://github.com/Imzl-zl/dsh-redo/blob/3850bf3a23ed511f0d1540186422a97128088592/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-redo",
+          "command": "dsh plugin --profile <profile> add dsh-redo",
+          "profile": "default"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-redo",
+      "version": "0.4.4",
+      "path": "",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Imzl-zl/dsh-redo",
+        "commit": "3850bf3a23ed511f0d1540186422a97128088592"
+      },
+      "manifestSha256": "f30f630ddb9f8a43f2214d372c6691bd12093e0adaa33e22ef2d7300df5b5022",
+      "manifestUrl": "https://github.com/Imzl-zl/dsh-redo/blob/3850bf3a23ed511f0d1540186422a97128088592/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-redo",
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1794490807,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Imzl-zl/dsh-redo",
+              "commit": "3850bf3a23ed511f0d1540186422a97128088592"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-redo",
+      "origin": "npm",
+      "name": "dsh-redo",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-redo",
+        "title": "dsh-redo",
+        "description": "Edit or retry an already-sent user message and regenerate in place: rewinds the model context to that message without leaving the session",
+        "author": "Imzl-zl",
+        "homepage": "https://github.com/Imzl-zl/dsh-redo#readme",
+        "repository": {
+          "url": "https://github.com/Imzl-zl/dsh-redo"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "cordis",
+            "edit-message",
+            "regenerate",
+            "rewind",
+            "chat-ui",
+            "deepseek"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.4.4",
+            "publishTimestamp": 1794490932,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0"
+            }
+          },
+          {
+            "version": "0.4.1",
+            "publishTimestamp": 1793878313,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.2 <0.3.0"
+            }
+          }
+        ]
+      },
+      "registrySha256": "995baea94f318fa517cb027675fea1ace0b7f7da38cf23d4b6b9c4658cb16ff4",
+      "evidence": [
+        {
+          "name": "dsh-redo",
+          "version": "0.4.4",
+          "tarball": "https://registry.npmjs.org/dsh-redo/-/dsh-redo-0.4.4.tgz",
+          "integrity": "sha512-qN138zDOKlJudd1pzGBnB82IxLQJQIRCVrZCkyEBKgGSAajpfdC7lnYNpAhOeCSbYBNh7mQzJPz8GyUQS1DMlQ=="
+        },
+        {
+          "name": "dsh-redo",
+          "version": "0.4.1",
+          "tarball": "https://registry.npmjs.org/dsh-redo/-/dsh-redo-0.4.1.tgz",
+          "integrity": "sha512-Jh2PsojYQD1rcQQYyKJ887BInVlD58qEoIiTle7RolIB1VZdRngbtKr+XlMDoB0p7iUeWPChq5Kx0O2PZyVnpA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-redo",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Imzl-zl/dsh-redo",
+    "commit": "3850bf3a23ed511f0d1540186422a97128088592",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T12:07:43.364Z"
+}
