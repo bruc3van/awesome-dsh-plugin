@@ -89,6 +89,9 @@ const handMaintainedPaths = new Set([
   '.gitattributes', '.gitignore',
   ...curationPaths, 'data/leaderboard-descriptions-zh.json', 'data/leaderboard-descriptions-en.json',
   'data/packages.json', 'data/featured.json', 'data/catalog-mapping-skips.json', 'data/review/README.md',
+  // The subscription-review convention is hand-written like data/review/README.md.
+  // Only this file: the expansion evidence under data/review/subscription/ is bot output.
+  'data/review/subscription/README.md',
 ]);
 const touchesScripts = (path) => path === 'scripts' || path.startsWith('scripts/');
 const touchesWorkflow = (path) => path === '.github' || path.startsWith('.github/');
