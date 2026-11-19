@@ -367,6 +367,19 @@ export async function inspectRepository(row) {
           packument,
           limits,
         )
+        if (!verified.plugin) {
+          // Every candidate version was excluded by tarball verification.
+          for (const d of verified.diagnostics)
+            result.candidates.push({
+              target,
+              origin: 'npm',
+              ...d,
+              status: 'invalid_manifest',
+              statusCode: d.code,
+              registrySha256: hash(body),
+            })
+          continue
+        }
         result.candidates.push({
           target,
           origin: 'npm',

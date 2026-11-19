@@ -10,6 +10,9 @@ import {
 } from './expand-mappings.mjs'
 
 const commit = 'b'.repeat(40)
+const SNAPSHOT = '2026-11-18T21:54:53Z'
+const FRESH = '2026-11-01T00:00:00Z' // 17 days before the snapshot
+const STALE = '2026-08-01T00:00:00Z' // 109 days before the snapshot
 const gitPlugin = (name = 'demo') => ({
   name,
   versions: [
@@ -254,40 +257,45 @@ test('outside pool is star-ranked unmapped approved plugins', () => {
   const plan = planOutsidePool(
     {
       snapshot: {
+        fetched_at: SNAPSHOT,
         repositories: [
-          { id: 1, full_name: 'a/high', description: 'plugin', stargazers_count: 9 },
-          { id: 2, full_name: 'a/mapped', description: 'plugin', stargazers_count: 90 },
-          { id: 3, full_name: 'a/low', description: 'plugin', stargazers_count: 2 },
-          { id: 4, full_name: 'a/archived', description: 'plugin', stargazers_count: 80, archived: true },
+          { id: 1, full_name: 'a/high', description: 'plugin', stargazers_count: 9, pushed_at: FRESH },
+          { id: 2, full_name: 'a/mapped', description: 'plugin', stargazers_count: 90, pushed_at: FRESH },
+          { id: 5, full_name: 'a/five', description: 'plugin', stargazers_count: 5, pushed_at: FRESH },
+          { id: 3, full_name: 'a/low', description: 'plugin', stargazers_count: 2, pushed_at: FRESH },
+          { id: 6, full_name: 'a/stale', description: 'plugin', stargazers_count: 70, pushed_at: STALE },
+          { id: 4, full_name: 'a/archived', description: 'plugin', stargazers_count: 80, archived: true, pushed_at: FRESH },
         ],
       },
       curated: {},
-      approved: { 'a/high': '2026-10-01', 'a/mapped': '2026-10-01', 'a/low': '2026-10-01', 'a/archived': '2026-10-01' },
+      approved: { 'a/high': '2026-10-01', 'a/mapped': '2026-10-01', 'a/five': '2026-10-01', 'a/low': '2026-10-01', 'a/stale': '2026-10-01', 'a/archived': '2026-10-01' },
       packages: { entries: { 'a/mapped': {} } },
     },
     10,
   )
-  assert.deepEqual(plan.map((row) => row.full_name), ['a/high', 'a/low'])
+  // <5 stars (a/low) and no push in the 90 days before the snapshot (a/stale) never get a new mapping.
+  assert.deepEqual(plan.map((row) => row.full_name), ['a/high', 'a/five'])
 })
 
 test('same-day terminal skips leave the plan so batches dig into fresh repositories', () => {
   const plan = planOutsidePool(
     {
       snapshot: {
+        fetched_at: SNAPSHOT,
         repositories: [
-          { id: 1, full_name: 'a/high', description: 'plugin', stargazers_count: 9 },
-          { id: 2, full_name: 'a/skipped-today', description: 'plugin', stargazers_count: 8 },
-          { id: 3, full_name: 'a/low', description: 'plugin', stargazers_count: 2 },
+          { id: 1, full_name: 'a/high', description: 'plugin', stargazers_count: 9, pushed_at: FRESH },
+          { id: 2, full_name: 'a/skipped-today', description: 'plugin', stargazers_count: 8, pushed_at: FRESH },
+          { id: 3, full_name: 'a/next', description: 'plugin', stargazers_count: 6, pushed_at: FRESH },
         ],
       },
       curated: {},
-      approved: { 'a/high': '2026-10-01', 'a/skipped-today': '2026-10-01', 'a/low': '2026-10-01' },
+      approved: { 'a/high': '2026-10-01', 'a/skipped-today': '2026-10-01', 'a/next': '2026-10-01' },
       packages: { entries: {} },
       skipNames: new Set(['a/skipped-today']),
     },
     10,
   )
-  assert.deepEqual(plan.map((row) => row.full_name), ['a/high', 'a/low'])
+  assert.deepEqual(plan.map((row) => row.full_name), ['a/high', 'a/next'])
 })
 
 test('replaying stored evidence never re-adds a reviewed catalog-mapping skip', () => {

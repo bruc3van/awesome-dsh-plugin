@@ -58,6 +58,7 @@ jobs:
           node --test
           scripts/test-safe-market-catalog.mjs
           scripts/test-catalog-mappings.mjs
+          scripts/test-mapping-gate.mjs
           scripts/test-publish-npm-feed.mjs
           scripts/test-readme-install.mjs
           scripts/test-rename-sync.mjs

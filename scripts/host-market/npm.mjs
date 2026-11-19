@@ -18,8 +18,13 @@ export async function verifyNpmPlugin(
   limits = { timeoutMs: 60000, maxTarballBytes: 64 * 1024 * 1024 },
 ) {
   const diagnostics = [],
-    evidence = []
+    evidence = [],
+    kept = []
   let highest
+  // Integrity, network and size failures stay fatal (thrown). A tarball that
+  // disagrees with its own registry metadata is a permanent property of that
+  // one release: exclude just that version and keep the package's good ones,
+  // so one broken upstream publish never freezes the whole index.
   for (const version of plugin.versions) {
     const registryManifest = packument.versions[version.version]
     const { files, manifest } = await retryOnce(
@@ -38,11 +43,20 @@ export async function verifyNpmPlugin(
       semver.subset(range, expected, { includePrerelease: true }) &&
       semver.subset(expected, range, { includePrerelease: true })
     )
-    if (isPrivate(manifest)) throw Error(`${plugin.name}@${version.version}: tarball declares private: true`)
-    if (!isBundle(manifest) || range instanceof Error || !matches)
-      throw Error(
-        `${plugin.name}@${version.version}: tarball bundle/engines differ from registry metadata`,
-      )
+    if (isPrivate(manifest) || !isBundle(manifest) || range instanceof Error || !matches) {
+      const isPrivateTarball = isPrivate(manifest)
+      diagnostics.push({
+        name: plugin.name,
+        version: version.version,
+        code: isPrivateTarball ? 'private_package' : 'tarball_metadata_mismatch',
+        status: 'excluded',
+        reason: isPrivateTarball
+          ? `${plugin.name}@${version.version}: tarball declares private: true`
+          : `${plugin.name}@${version.version}: tarball bundle/engines differ from registry metadata`,
+      })
+      continue
+    }
+    kept.push(version)
     if (!highest) highest = { files, manifest }
     evidence.push({
       name: plugin.name,
@@ -51,6 +65,8 @@ export async function verifyNpmPlugin(
       integrity: registryManifest.dist.integrity,
     })
   }
+  // Every listed version was excluded: no plugin, diagnostics only (not a fetch failure).
+  if (!kept.length) return { diagnostics, evidence }
   const { display, iconFile } = await readDisplayMetadata(
     highest.files,
     highest.manifest,
@@ -67,7 +83,7 @@ export async function verifyNpmPlugin(
   )
   await inlineIcon(display, iconFile, (detail) => diagnostics.push({ name: plugin.name, ...detail }))
   return {
-    plugin: { name: plugin.name, ...display, versions: plugin.versions },
+    plugin: { name: plugin.name, ...display, versions: kept },
     diagnostics,
     evidence,
   }

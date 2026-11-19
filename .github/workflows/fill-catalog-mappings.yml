@@ -1,18 +1,22 @@
 name: Fill catalog install mappings
 
-# The schema-3 market catalog carries the reviewed repository list, most of
-# which has no install target yet. This job closes that gap from the upstream
-# READMEs, daily and in star order: the extractor picks the documented
-# `dsh plugin … add` command, the registry proves the npm package belongs to
-# the repository, and only then is the mapping appended to data/packages.json.
-# Anything ambiguous (renamed package, local-only install, placeholder
-# profile, poisoned bare-name npm package) is left in
-# data/review/catalog-mapping.md for the review pass — exceptions are an
-# editorial decision, not a crawl decision.
+# The single daily install-mapping job. It closes catalog gaps from upstream
+# READMEs (catalog-mappings.mjs: the documented `dsh plugin … add` command, an
+# npm package that provably belongs to the repository) and then runs one
+# subscription-expansion batch (expand-mappings.mjs: stored evidence plus the
+# next unmapped approved repositories, identity-checked) — then commits once,
+# so refresh-host-market follows exactly once via workflow_run.
+#
+# Both paths share scripts/mapping-gate.mjs: a repository with fewer than 5
+# stars or no push in the 90 days before the snapshot gets no new mapping.
+# Existing mappings are never rewritten. Ambiguous catalog cases go to
+# data/review/catalog-mapping.md and identity-opaque subscription candidates to
+# data/review/subscription/mapping-pending.md, both for the daily AI review.
 #
 # Runs after the daily snapshot so stars, default branches and pushed_at are
-# fresh. A packages.json push re-triggers the market feed rebuild, so the
-# catalog publishes the new install_status the same day.
+# fresh. The expansion workflow that used to run every three hours is folded
+# in here: the eligible pool changes once a day, and fewer bot pushes keep
+# main from moving under an in-flight host refresh.
 
 on:
   schedule:
@@ -21,7 +25,7 @@ on:
   workflow_dispatch:
     inputs:
       min_stars:
-        description: 'Only map repositories at or above this star count'
+        description: 'Only map repositories at or above this star count (never below the 5-star gate)'
         required: false
         default: '5'
 
@@ -35,7 +39,7 @@ concurrency:
 jobs:
   fill:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -43,27 +47,41 @@ jobs:
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
           node-version: 22
-      - name: Extract and verify catalog mappings
-        env:
-          MIN_STARS: ${{ github.event.inputs.min_stars || '5' }}
-        run: node scripts/catalog-mappings.mjs --min-stars "$MIN_STARS" --apply --write-report
-      - name: Validate the packages mapping
-        run: node scripts/validate-packages.mjs
+      - run: npm ci --ignore-scripts --prefix scripts/host-market
       - name: Run the mapping-rule tests
-        run: node --test scripts/test-catalog-mappings.mjs scripts/test-safe-market-catalog.mjs
-      - name: Commit the new mappings and the exception queue
+        run: |
+          node --test scripts/test-mapping-gate.mjs scripts/test-catalog-mappings.mjs scripts/test-safe-market-catalog.mjs
+          node --import ./scripts/host-market/node_modules/tsx/dist/loader.mjs --test scripts/host-market/expand-mappings.test.mjs
+      - name: Map catalog gaps and expand subscription candidates
         env:
           MIN_STARS: ${{ github.event.inputs.min_stars || '5' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          map_all() {
+            node scripts/catalog-mappings.mjs --min-stars "$MIN_STARS" --apply --write-report
+            node --import ./scripts/host-market/node_modules/tsx/dist/loader.mjs               scripts/host-market/expand-mappings.mjs --fill --size 200 --github-api               --write-pending --label "-$(date -u +%H)b1"
+            node scripts/validate-packages.mjs
+          }
+          map_all
+          declare -f map_all > "$RUNNER_TEMP/map_all.sh"
+      - name: Commit the new mappings and the review queues
+        env:
+          MIN_STARS: ${{ github.event.inputs.min_stars || '5' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # shellcheck source=/dev/null
+          . "$RUNNER_TEMP/map_all.sh"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           stage() {
-            git add data/packages.json data/review/catalog-mapping.md data/review/catalog-mapping.json
+            git add data/packages.json data/review/catalog-mapping.md data/review/catalog-mapping.json data/review/subscription
             if git diff --cached --quiet; then
               echo "No mapping changed this run — every confident target was already recorded."
               return 1
             fi
-            git commit -m "data: fill catalog install mappings (>=${MIN_STARS} stars)"
+            git commit -m "data: fill catalog and subscription install mappings (>=${MIN_STARS} stars, pushed within 90 days)"
           }
           if ! stage; then exit 0; fi
           for attempt in 1 2 3; do
@@ -71,11 +89,10 @@ jobs:
               exit 0
             fi
             if [ "$attempt" -eq 3 ]; then break; fi
-            echo "Push rejected (attempt $attempt) — re-extracting on top of origin/main."
+            echo "Push rejected (attempt $attempt) — re-mapping on top of origin/main."
             git fetch --depth=1 origin main
             git reset --hard FETCH_HEAD
-            node scripts/catalog-mappings.mjs --min-stars "$MIN_STARS" --apply --write-report
-            node scripts/validate-packages.mjs
+            map_all
             if ! stage; then exit 0; fi
           done
           echo "Push still rejected after 3 attempts."

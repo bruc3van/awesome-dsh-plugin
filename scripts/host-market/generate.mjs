@@ -545,6 +545,8 @@ async function main() {
         '安装包或 Git 来源指向目录黑名单、市场竞品或平台自身仓库；需要改用独立、可审查的插件仓库。',
       npm_fetch_failed:
         '检查网络、registry 和安装包完整性；失败时保留已发布索引。',
+      tarball_metadata_mismatch:
+        '该版本 tarball 内的 package.json（bundle 声明或 engines.dsh）与 registry 元数据不一致；只排除这一版，同包其他通过核验的版本照常收录，作者发布一致的新版本后自动恢复。',
       git_fetch_failed:
         '检查仓库访问权限和网络；不能据此判断插件兼容性或安全性。',
       git_repository_not_found:
