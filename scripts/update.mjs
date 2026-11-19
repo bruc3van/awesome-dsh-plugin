@@ -219,6 +219,19 @@ async function fetchRepo(fullName) {
   return { ok: true, repo: await response.json() };
 }
 
+// A missing optional file is fine; a malformed one is a real error and must
+// stop the run instead of silently dropping its names from reconciliation.
+async function readOptionalJson(path, fallback) {
+  let text;
+  try {
+    text = await readFile(resolve(root, path), 'utf8');
+  } catch (error) {
+    if (error?.code === 'ENOENT') return fallback;
+    throw error;
+  }
+  return JSON.parse(text);
+}
+
 async function reconcileSnapshot(items, previousRepositories) {
   const seenIds = new Set(items.map((item) => item.id));
   const seenNames = new Set(items.map((item) => item.full_name.toLowerCase()));
@@ -226,13 +239,19 @@ async function reconcileSnapshot(items, previousRepositories) {
   const addCandidate = (name) => {
     if (!seenNames.has(name.toLowerCase())) candidates.set(name.toLowerCase(), name);
   };
-  const [approved, curated] = await Promise.all([
+  const [approved, curated, packages, featured] = await Promise.all([
     readFile(resolve(root, 'data/approved.json'), 'utf8').then(JSON.parse),
     readFile(resolve(root, 'data/curated.json'), 'utf8').then(JSON.parse),
+    readOptionalJson('data/packages.json', { entries: {} }),
+    readOptionalJson('data/featured.json', { entries: [] }),
   ]);
   for (const name of Object.keys(approved)) addCandidate(name);
   for (const section of Object.values(curated)) {
     for (const name of Object.keys(section)) addCandidate(name);
+  }
+  for (const name of Object.keys(packages?.entries ?? {})) addCandidate(name);
+  for (const entry of featured?.entries ?? []) {
+    if (typeof entry?.full_name === 'string' && entry.full_name) addCandidate(entry.full_name);
   }
   for (const repo of previousRepositories) {
     if (repo.stargazers_count >= PREVIOUS_SNAPSHOT_STAR_FLOOR) addCandidate(repo.full_name);

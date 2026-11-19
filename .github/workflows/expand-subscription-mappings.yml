@@ -46,8 +46,8 @@ jobs:
           from pathlib import Path
           index = json.loads(Path('data/dsh-market-index.json').read_text())
           count = len(index.get('plugins') or [])
+          need = True
           print(f'published_plugins={count} cap=index byte budget (5 MiB gateway)')
-          out.write('need=true\n')
           with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as out:
               out.write(f'need={str(need).lower()}\ncount={count}\n')
           PY

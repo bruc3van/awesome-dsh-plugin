@@ -14,6 +14,9 @@ on:
       - 'scripts/**'
       - '.github/workflows/**'
       - 'data/featured.json'
+      - 'data/catalog-mapping-skips.json'
+      - 'data/leaderboard-descriptions-zh.json'
+      - 'data/leaderboard-descriptions-en.json'
       - 'data/stats.json'
       - 'TOP200.md'
 
@@ -48,7 +51,8 @@ jobs:
           "$GOBIN/actionlint"
       # Every pipeline test, before anything is merged — main-only workflows
       # used to be the first place catalog / extractor / star-anomaly
-      # regressions surfaced.
+      # regressions surfaced. This is also the only place the feed regression
+      # suite runs: publish-npm-feed.yml keeps just the fast data validators.
       - name: Run the test suite
         run: >-
           node --test
@@ -56,6 +60,7 @@ jobs:
           scripts/test-catalog-mappings.mjs
           scripts/test-publish-npm-feed.mjs
           scripts/test-readme-install.mjs
+          scripts/test-rename-sync.mjs
           scripts/test-render.mjs
           scripts/test-star-anomaly.mjs
       - name: Test the DSH subscription generator

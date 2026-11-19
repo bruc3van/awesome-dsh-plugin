@@ -6,7 +6,8 @@ name: Publish the feed to npm (mirrored by npmmirror)
 # awesome-dsh-plugin-feed npm package. Consumers fetch
 # https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-catalog.json
 #
-# Runs after the official subscription publication has completed successfully and
+# Runs after every completed official subscription refresh (success, or failure so
+# landed source changes are never held back) and
 # can be triggered manually. The publish script's feedDigest gate makes this
 # idempotent: same data = no-op without burning a version. Publishing uses
 # npm Trusted Publishing (OIDC). After the first authenticated local release,
@@ -17,21 +18,14 @@ on:
   workflow_run:
     workflows:
       - 'Refresh the official DSH market index'
-      - 'Fill catalog install mappings'
     types:
       - completed
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - 'data/packages.json'
-      - 'data/featured.json'
-      - 'data/approved.json'
-      - 'data/curated.json'
       - 'data/catalog-mapping-skips.json'
       - 'scripts/safe-market-catalog.mjs'
-      - 'scripts/market-wire.mjs'
-      - 'scripts/market-pool.mjs'
       - 'scripts/publish-npm-feed.mjs'
       - 'scripts/validate-market-catalog.mjs'
       - 'scripts/test-safe-market-catalog.mjs'
@@ -51,13 +45,18 @@ jobs:
     permissions:
       contents: read
       id-token: write
-    if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main') }}
+    # A failed host refresh must not hold back packages/featured/curation changes
+    # that already landed on main: the feed then ships with the last published index
+    # (validate-market-catalog still checks index ↔ report), and the next successful
+    # refresh re-aligns entries[] and subscription. (A failed publish-r2 job does
+    # not fail the run: it is continue-on-error.) Cancelled/skipped runs are superseded by a newer run and stay ignored.
+    if: ${{ github.event_name != 'workflow_run' || ((github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.conclusion == 'failure') && github.event.workflow_run.head_branch == 'main') }}
     runs-on: ubuntu-latest
-    # The regression suite runs ~14 mocked npm publishes at ~90 s each (~20 min
-    # on hosted runners). The 15-minute cap predates the suite ever completing
-    # on CI — it used to crash midway — so it was never exercised until the
-    # string-title crash was fixed (2026-11-19).
-    timeout-minutes: 30
+    # Only the fast data gates (validate-packages / validate-market-catalog,
+    # spawned by publish-npm-feed.mjs) and the npm publish run here. The heavy
+    # regression suite (~14 mocked npm publishes, ~20 min) gates code changes in
+    # validate-curated.yml on PRs and on pushes to scripts/** and workflows.
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -68,15 +67,22 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install npm with Trusted Publishing support
         run: npm install --global npm@11.15.0
-      - name: Run feed publication and extraction regression tests
-        run: node --test scripts/test-publish-npm-feed.mjs scripts/test-readme-install.mjs scripts/test-safe-market-catalog.mjs scripts/test-catalog-mappings.mjs
-      # The script itself decides whether anything needs publishing: same
-      # feedDigest as the registry's latest version → "nothing to do", exit 0.
+      # The script validates the data first (validate-packages /
+      # validate-market-catalog) and then decides whether anything needs
+      # publishing: same feedDigest as the registry's latest → "nothing to do".
       - name: Build and publish the feed package
         run: node scripts/publish-npm-feed.mjs --publish
-      - name: Refresh jsDelivr feed aliases
+      - name: Refresh jsDelivr feed aliases and trigger npmmirror sync
         timeout-minutes: 2
         run: |
           for feed_alias in awesome-dsh-plugin-feed@latest awesome-dsh-plugin-feed; do
-            curl --fail --silent --show-error "https://purge.jsdelivr.net/npm/$feed_alias/data/market-catalog.json"
+            for feed_file in data/market-catalog-v4.json data/market-catalog.json; do
+              curl --fail --silent --show-error "https://purge.jsdelivr.net/npm/$feed_alias/$feed_file"
+            done
           done
+          # Best-effort sync ping so China consumers on registry.npmmirror.com get the
+          # new release immediately (cnpmcore's sync-task route). npmmirror also syncs
+          # on its own schedule, so a failure only warns, but it is never silent.
+          if ! curl --fail --silent --show-error -X PUT "https://registry-direct.npmmirror.com/-/package/awesome-dsh-plugin-feed/syncs"; then
+            echo "::warning::npmmirror sync request failed; registry.npmmirror.com will pick the release up on its own schedule."
+          fi

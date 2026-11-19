@@ -116,7 +116,7 @@ export function trimIndexToBudget(index, text, ranks, featured, targetBytes = IN
       return a.stars - b.stars || compareText(a.repo, b.repo) || compareText(x.name, y.name)
     })[0]
     current = { ...current, plugins: current.plugins.filter((plugin) => plugin !== victim) }
-    currentText = JSON.stringify(current, null, 2) + '\n'
+    currentText = JSON.stringify(current) + '\n'
     dropped++
   }
   return { index: current, text: currentText, dropped }
@@ -493,7 +493,9 @@ async function main() {
   await mkdir(dirname(resolve(outputPath)), { recursive: true })
   const downloadMetrics = await applyDownloadMetrics(result.index)
   result.diagnostics.push(...downloadMetrics.diagnostics)
-  let serialized = JSON.stringify(result.index, null, 2) + '\n'
+  // Compact JSON serialization eliminates ~20% indentation whitespace, reclaiming
+  // ~1 MiB of the 5 MiB gateway byte budget for verified plugins.
+  let serialized = JSON.stringify(result.index) + '\n'
   // Byte-budget selection: the gateway serves the whole JSON, so inclusion is
   // bounded by serialized size, not a plugin count. Verified plugins entered
   // by stars above; here the tail is trimmed (lowest-starred non-featured
@@ -602,7 +604,7 @@ async function main() {
     npmEvidence: result.npmEvidence,
     npmDownloadEvidence: downloadMetrics.evidence,
   }
-  const reportText = JSON.stringify(report, null, 2) + '\n'
+  const reportText = JSON.stringify(report) + '\n'
   if (
     Buffer.byteLength(serialized) > 5 * 1024 * 1024 ||
     Buffer.byteLength(reportText) > 5 * 1024 * 1024

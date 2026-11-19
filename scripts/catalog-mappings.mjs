@@ -177,8 +177,10 @@ async function hasCordisPatch(slug) {
   return found;
 }
 
-const npmCache = new Map();async function checkNpm(spec, slug) {
-  if (npmCache.has(spec)) return npmCache.get(spec);
+const npmCache = new Map();
+async function checkNpm(spec, slug) {
+  const cacheKey = `${slug} ${spec}`;
+  if (npmCache.has(cacheKey)) return npmCache.get(cacheKey);
   const at = spec.lastIndexOf('@');
   const name = at > 0 ? spec.slice(0, at) : spec;
   const pin = at > 0 ? spec.slice(at + 1) : null;
@@ -207,7 +209,7 @@ const npmCache = new Map();async function checkNpm(spec, slug) {
   } catch (error) {
     result = { ok: false, reason: `npm lookup for ${name} failed (${error.message})` };
   }
-  npmCache.set(spec, result);
+  npmCache.set(cacheKey, result);
   return result;
 }
 
@@ -304,7 +306,7 @@ if (APPLY && applied.length > 0) {
     if (packages.entries[slug] !== undefined) continue;
     packages.entries[slug] = {
       packages: item.packages.map((pkg) => ({ profile: pkg.profile, source: pkg.source, command: pkg.command, install: pkg.install })),
-      status: 'readme-verified',
+      status: item.via === 'manifest' ? 'repo-fallback' : 'readme-verified',
       verified_date: TODAY,
       verified_via: item.via === 'manifest' ? `${item.evidence} @${item.branches}` : `README@${item.branches}`,
       verified_by: 'ci-auto',

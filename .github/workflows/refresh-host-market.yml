@@ -7,10 +7,19 @@ on:
     workflows:
       - 'Refresh snapshot and review queue'
       - 'Expand subscription mappings'
+      - 'Fill catalog install mappings'
     types: [completed]
   push:
     branches: [main]
     paths:
+      - 'data/approved.json'
+      - 'data/curated.json'
+      - 'data/packages.json'
+      - 'data/featured.json'
+      - 'scripts/market-pool.mjs'
+      - 'scripts/market-shadow.mjs'
+      - 'scripts/market-wire.mjs'
+      - 'scripts/categories.mjs'
       - 'scripts/host-market/**'
       - '.github/workflows/refresh-host-market.yml'
   workflow_dispatch:
@@ -72,6 +81,9 @@ jobs:
     needs: refresh
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    outputs:
+      published: ${{ steps.publish.outputs.published }}
+      revision: ${{ steps.publish.outputs.revision }}
     permissions:
       contents: write
       actions: write
@@ -85,7 +97,8 @@ jobs:
         with:
           name: validated-market
           path: release-data
-      - name: Publish only validated data from this run
+      - id: publish
+        name: Publish only validated data from this run
         env:
           GH_TOKEN: ${{ github.token }}
           SOURCE_SHA: ${{ needs.refresh.outputs.source-sha }}
@@ -126,6 +139,12 @@ jobs:
           gh auth setup-git
           # Never rebase validated artifacts onto different source inputs.
           if git push --atomic origin HEAD:refs/heads/main HEAD:refs/heads/market-release; then
+            if [ -n "${GITHUB_OUTPUT:-}" ]; then
+              {
+                echo "published=true"
+                echo "revision=$(git rev-parse HEAD)"
+              } >> "$GITHUB_OUTPUT"
+            fi
             exit 0
           fi
           git fetch --depth=1 origin main
@@ -139,3 +158,41 @@ jobs:
           fi
           gh workflow run refresh-host-market.yml --ref main -f retry_count="$((RETRY_COUNT + 1))"
           echo "::notice::main moved; queued fresh generation instead of publishing stale artifacts."
+
+  publish-r2:
+    needs: [refresh, publish]
+    if: ${{ needs.publish.outputs.published == 'true' }}
+    # main and market-release have already advanced when this job runs. The
+    # gateway's GitHub path only promotes a release whose run concluded
+    # `success`, so an R2 hiccup must not fail the run and strand the new
+    # release; the gateway's freshness probe then serves it from GitHub until
+    # the next successful upload. The failure stays visible as an ::error::
+    # annotation on the job.
+    continue-on-error: true
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ needs.publish.outputs.revision }}
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: 22
+      - name: Push validated snapshot to Cloudflare R2
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_R2_BUCKET: ${{ vars.CLOUDFLARE_R2_BUCKET || 'bruc3van-dsh-market' }}
+          RELEASE_REVISION: ${{ needs.publish.outputs.revision }}
+        run: |
+          if [ -z "$CLOUDFLARE_ACCOUNT_ID" ] || [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::notice::CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN not configured; skipping R2 mirror upload."
+            exit 0
+          fi
+          if ! node scripts/host-market/publish-r2.mjs --revision "$RELEASE_REVISION"; then
+            echo "::error::R2 upload for $RELEASE_REVISION failed; the gateway keeps serving this release from GitHub until the next successful upload."
+            exit 1
+          fi

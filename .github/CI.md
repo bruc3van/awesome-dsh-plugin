@@ -4,33 +4,33 @@
 
 ```mermaid
 flowchart TD
-  Daily[每日 22:17 抓取快照与 review queue] --> Host[宿主索引生成与验证]
-  Curation[审批 / 策展 / 生成器变更] --> NPM[npm OIDC 发布]
-  Expand[每日 00:12 / 手动扩容映射] --> Host
-  Mapping[packages / featured 变更] --> NPM
-  Fill[每日 15:40 目录映射补齐] --> NPM
-  HostCode[宿主生成器变更 / 每日 22:47 / 手动] --> Host
-  Host --> Artifact[本次运行的 validated-market artifact]
-  Artifact --> Publish[原子推送 main 与 market-release]
+  Daily["每日 22:17 抓取快照与 review queue"] --> Host["宿主索引生成与验证"]
+  Expand["每 3 小时 / 手动扩容映射"] --> Host
+  Fill["每日 23:40 目录映射补齐"] --> Host
+  Curation["审批 / 策展 / packages / featured / 宿主代码变更"] --> Host
+  Host --> Artifact["本次运行的 validated-market artifact"]
+  Artifact --> Publish["原子推送 main 与 market-release"]
   Publish -. main 前进时最多两次重新生成 .-> Host
-  Host --> NPM
-  NPM --> Feed[npm feed: market-catalog.json + packages.json]
+  Publish --> R2["推送 index / audit / release 快照到 Cloudflare R2 (Plan A)"]
+  Host --> NPM["npm OIDC 发布"]
+  NPM --> Feed["npm feed: market-catalog-v4.json (schema 4) + market-catalog.json (schema 3) + packages.json"]
 ```
 
-图中的跨工作流箭头使用 `workflow_run`，只接受成功的 main 运行。扩容是独立入口，不再跟在宿主发布之后，避免形成循环或超过 GitHub 的三层级联限制。最长正常链为「快照/扩容 → 宿主索引 → npm feed」；market-v2 已退役，feed 只有 schema 3 目录。
+图中的跨工作流箭头使用 `workflow_run`，只接受成功的 main 运行。所有数据源变更与补映射任务均先汇入宿主索引，再由宿主索引串联 Cloudflare R2 镜像与 npm feed 发布，避免 `entries[]` 与 `subscription` 口径分裂。最长正常链为「快照/扩容/补齐 → 宿主索引 → npm feed」（深度 2，低于 GitHub 三层级联限制）。`publish-r2` 是 `continue-on-error`：上传失败只留 `::error::` 标注，不会让宿主运行变红、导致网关的 GitHub 路径拒绝已发布的新版本；上传后会逐个回读校验，全部一致才翻转 `latest.json`。宿主索引运行失败时 npm feed 仍按 main 上已发布的索引发布，避免已合入的映射/精选改动被挡住；下一次成功刷新会重新对齐两者。
 
-`GITHUB_TOKEN` 提交不会触发一般的 `push` 工作流，因此不能用「扩容提交 packages.json → push」衔接发布。显式 `workflow_dispatch` 可以使用该 token，宿主冲突恢复用它发起全新运行。
+`GITHUB_TOKEN` 提交不会触发一般的 `push` 工作流，因此不能用「扩容/补齐提交 packages.json → push」衔接发布。显式 `workflow_dispatch` 可以使用该 token，宿主冲突恢复用它发起全新运行。
 
 | 工作流文件 | 触发 | 职责 |
 | --- | --- | --- |
-| `update-catalog.yml` | 每日 22:17、手动 | 更新快照、待审核队列；不自动审批或更新人工目录 |
-| `expand-subscription-mappings.yml` | 每日 00:12、手动 | 在网关字节预算内补充可核实映射、保存待复核项目；成功后衔接宿主索引 |
-| `refresh-host-market.yml` | 快照或扩容成功、宿主代码/索引变更、每日 22:47、手动 | 从快照、审批、策展、安装映射与精选重建官方索引；无写凭证生成，独立发布 job 验证 artifact 后原子发布 |
-| `publish-npm-feed.yml` | 宿主索引成功、目录映射补齐成功、手动 | 回归测试、digest 去重、OIDC 发布，并刷新 jsDelivr 的 latest 与无版本别名缓存；不取消进行中的发布 |
+| `update-catalog.yml` | 每日 22:17、手动 | 更新快照、待审核队列；同 owner 改名触及策展时自动同步目录页面；不自动审批 |
+| `expand-subscription-mappings.yml` | 每 3 小时、手动 | 在网关字节预算内补充可核实映射（共享 skips 清单）、去重保存待复核项目；成功后衔接宿主索引 |
+| `fill-catalog-mappings.yml` | 每日 23:40、手动 | 按星级补齐目录安装映射；成功后衔接宿主索引 |
+| `refresh-host-market.yml` | 快照/扩容/补齐成功、策展/映射/宿主代码变更、每日 22:47、手动 | 重建紧凑格式官方索引；独立 publish job 验证 artifact 后原子发布 `main` 与 `market-release`，随后 `publish-r2` 推送 index、audit、release 快照至 Cloudflare R2（网页 catalog 由网关派生） |
+| `publish-npm-feed.yml` | 宿主索引成功、feed 脚本变更、手动 | 仅跑快速数据校验（validate-packages / validate-market-catalog）、digest 去重、OIDC 发布（含 schema 4 精简版与 schema 3 兼容版），刷新 jsDelivr 缓存并触发 npmmirror 同步（失败只告警）；超时 10 分钟。重型回归测试只在 `validate-curated.yml` 中运行 |
 | `refresh-showcase.yml` | SHOWCASE.md 变更、手动 | 更新中英文 README 展示区 |
 | `reverify-packages.yml` | 每周一 23:33、手动 | 在线复核映射；仅报告，不改映射 |
 | `validate-pr.yml` | PR 打开、更新、改标题/标签等 | 从 base 执行规则校验，不执行 PR 代码 |
-| `validate-curated.yml` | 相关 PR、main 脚本/工作流变更、手动 | actionlint、两组测试、在线策展校验、目录同步及 feed 生成验证 |
+| `validate-curated.yml` | 相关 PR、main 脚本/工作流变更、手动 | actionlint、两组测试（含 feed 发布/提取回归测试，publish-npm-feed 不再重复运行）、在线策展校验、目录同步及 feed 生成验证 |
 | `validate-curation-push.yml` | main 审批/策展变更、手动 | 直接合入 main 时的策展与目录同步兜底 |
 
 ## 并发和故障恢复

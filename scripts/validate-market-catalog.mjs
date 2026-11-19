@@ -11,7 +11,7 @@ import { readFile } from 'node:fs/promises';
 import { categoryKeys } from './categories.mjs';
 import { TEXT_LIMITS, cleanText, marketBlockedRepoNames } from './market-pool.mjs';
 import { loadState } from './render.mjs';
-import { readSafeMarketCatalog } from './safe-market-catalog.mjs';
+import { buildCompactMarketCatalog, readSafeMarketCatalog } from './safe-market-catalog.mjs';
 
 const errors = [];
 const warnings = [];
@@ -26,6 +26,9 @@ const blocked = marketBlockedRepoNames(state.curated);
 const excluded = new Set(Object.keys(state.curated.excluded_repos || {}).map((key) => key.toLowerCase()));
 const excludedIds = new Set(
   Object.keys(state.curated.excluded_repo_ids || {}).map(Number).filter((id) => Number.isInteger(id)),
+);
+const snapshotIdsBySlug = new Map(
+  (state.snapshot.repositories || []).map((repo) => [String(repo.full_name).toLowerCase(), repo.id]),
 );
 const categories = new Set(categoryKeys);
 const SLUG = /^[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+$/;
@@ -87,7 +90,8 @@ for (const [index, row] of catalog.entries.entries()) {
   if (!approved.has(lower)) errors.push(`${where}: "${row.full_name}" is not in data/approved.json — the market is review-gated`);
   if (excluded.has(lower)) errors.push(`${where}: "${row.full_name}" is in curated.json excluded_repos`);
   if (blocked.has(lower)) errors.push(`${where}: "${row.full_name}" is on a market exclusion list (market_exclusions / leaderboard_exclusions / self)`);
-  if (excludedIds.has(row.id)) errors.push(`${where}: id ${row.id} is in curated.json excluded_repo_ids`);
+  const repoId = row.id ?? snapshotIdsBySlug.get(lower);
+  if (excludedIds.has(repoId)) errors.push(`${where}: id ${repoId} is in curated.json excluded_repo_ids`);
   if (!categories.has(row.category)) errors.push(`${where}: category ${JSON.stringify(row.category)} is not a valid category key`);
   if (!STATUSES.has(row.install_status)) {
     errors.push(`${where}: install_status ${JSON.stringify(row.install_status)} is not command/manual/none`);
@@ -120,17 +124,34 @@ for (const [index, row] of catalog.entries.entries()) {
   }
 }
 
-// The CDN serves this file uncompressed to its per-file cap (jsDelivr is
+// Validate the compact schema-4 projection alongside schema 3.
+const compactCatalog = buildCompactMarketCatalog(catalog);
+if (compactCatalog.schema_version !== 4) {
+  errors.push(`compact schema_version must be 4, got ${JSON.stringify(compactCatalog.schema_version)}`);
+}
+if (!Array.isArray(compactCatalog.category_table) || compactCatalog.category_table.length === 0) {
+  errors.push('compact catalog category_table must be non-empty');
+}
+if (compactCatalog.entries.length !== catalog.entries.length) {
+  errors.push(`compact catalog entries (${compactCatalog.entries.length}) disagree with schema-3 entries (${catalog.entries.length})`);
+}
+
+// The CDN serves each file uncompressed to its per-file cap (jsDelivr is
 // documented at 20 MB, measured at 50 MiB; unpkg mirrors are less predictable),
-// so the payload gets an explicit byte budget instead of an entry count. The
-// client also asks for gzip/br, which brings the transfer down to ~1/3.
+// so both payloads get explicit byte budgets.
 const catalogBytes = Buffer.byteLength(`${JSON.stringify(catalog)}\n`, 'utf8');
-const WARN_BYTES = 20 * 1000 * 1000;
-const MAX_BYTES = 24 * 1000 * 1000;
-if (catalogBytes > MAX_BYTES) {
-  errors.push(`market catalog is ${catalogBytes} bytes — over the ${MAX_BYTES}-byte budget; split or slim it before the CDN refuses it`);
-} else if (catalogBytes > WARN_BYTES) {
-  warnings.push(`market catalog is ${catalogBytes} bytes — past the ${WARN_BYTES}-byte warning line; headroom to the CDN limit is small`);
+const compactBytes = Buffer.byteLength(`${JSON.stringify(compactCatalog)}\n`, 'utf8');
+const WARN_BYTES = 18 * 1000 * 1000;
+const MAX_BYTES = 20 * 1000 * 1000;
+if (compactBytes > MAX_BYTES) {
+  errors.push(`compact market-catalog-v4.json is ${compactBytes} bytes — over the ${MAX_BYTES}-byte CDN cap; split or slim it before publishing`);
+} else if (compactBytes > WARN_BYTES) {
+  warnings.push(`compact market-catalog-v4.json is ${compactBytes} bytes — past the ${WARN_BYTES}-byte warning line`);
+}
+if (catalogBytes > 24 * 1000 * 1000) {
+  errors.push(`legacy market-catalog.json is ${catalogBytes} bytes — over the 24 MB ceiling`);
+} else if (catalogBytes > MAX_BYTES) {
+  warnings.push(`legacy market-catalog.json is ${catalogBytes} bytes — past the 20 MB CDN documented cap`);
 }
 if (indexBytes > 0) {
   const INDEX_LIMIT = 5 * 1024 * 1024;
@@ -149,5 +170,6 @@ const total = catalog.entries.length;
 console.log(
   `market catalog is valid — ${total} repositories ` +
     `(${counts.command} installable, ${counts.manual} manual, ${counts.none} catalog-only), ` +
-    `${catalog.subscription.plugins.length} subscription plugins, snapshot ${catalog.source_fetched_at}.`,
+    `${catalog.subscription.plugins.length} subscription plugins, ` +
+    `v4=${(compactBytes / 1e6).toFixed(2)} MB / v3=${(catalogBytes / 1e6).toFixed(2)} MB, snapshot ${catalog.source_fetched_at}.`,
 );

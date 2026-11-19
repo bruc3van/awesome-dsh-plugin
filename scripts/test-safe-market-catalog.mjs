@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
-import { buildSafeMarketCatalog, readSafeMarketCatalog } from './safe-market-catalog.mjs'
+import { buildCompactMarketCatalog, buildSafeMarketCatalog, readSafeMarketCatalog } from './safe-market-catalog.mjs'
 import { marketBlockedRepoNames, SELF_EXCLUDED_REPOS, TEXT_LIMITS } from './market-pool.mjs'
 import { catalogRepositories, loadState } from './render.mjs'
 
@@ -52,8 +52,19 @@ test('delivery applies every market exclusion and preserves subscription order',
   const monorepo = index.plugins.find(plugin => index.plugins.some(other => other !== plugin && other.repository?.url && other.repository.url === plugin.repository?.url))
   assert.ok(monorepo, 'real data must exercise distinct packages from one repository')
   assert.ok(index.plugins.some(plugin => !plugin.repository), 'npm-only plugins are not dropped')
+  // Schema 3 keeps the row shape released clients (dsh-market-pro <= 1.2.4) read.
   assert.ok(catalog.entries.some(row => row.keywords?.includes(monorepo.name)), 'subscription package names are searchable from the repository catalog')
   assert.ok(catalog.entries.some(row => row.icon), 'repository cards borrow their published plugin icon when available')
+  assert.ok(catalog.entries.every(row => Number.isInteger(row.id)), 'schema-3 rows keep their repository id')
+
+  // Verify schema-4 compact projection stays lossless and dramatically smaller.
+  const compact = buildCompactMarketCatalog(catalog)
+  assert.equal(compact.schema_version, 4)
+  assert.equal(compact.entries.length, catalog.entries.length)
+  assert.ok(compact.category_table.length > 0)
+  assert.equal(compact.entries[0].n, catalog.entries[0].full_name)
+  assert.ok(compact.entries.every(row => row.icon === undefined && row.keywords === undefined), 'schema 4 leaves icons/keywords on subscription.plugins only')
+  assert.ok(Buffer.byteLength(JSON.stringify(compact)) < Buffer.byteLength(JSON.stringify(catalog)) * 0.8)
 })
 
 test('every row carries an install_status consistent with its packages block', async () => {

@@ -87,15 +87,17 @@ const curationPaths = new Set(['data/approved.json', 'data/curated.json']);
 const handMaintainedPaths = new Set([
   'SHOWCASE.md', 'README.md', 'README_EN.md', 'CONTRIBUTING.md', 'LICENSE',
   '.gitattributes', '.gitignore',
-  ...curationPaths, 'data/leaderboard-descriptions-zh.json', 'data/packages.json',
-  'data/featured.json', 'data/catalog-mapping-skips.json', 'data/review/README.md',
+  ...curationPaths, 'data/leaderboard-descriptions-zh.json', 'data/leaderboard-descriptions-en.json',
+  'data/packages.json', 'data/featured.json', 'data/catalog-mapping-skips.json', 'data/review/README.md',
 ]);
 const touchesScripts = (path) => path === 'scripts' || path.startsWith('scripts/');
 const touchesWorkflow = (path) => path === '.github' || path.startsWith('.github/');
 const isCatalogPage = (path) =>
-  path === 'CATALOG.md' || path === 'TOP200.md' || path === 'catalog' || path.startsWith('catalog/');
+  path === 'CATALOG.md' || path === 'TOP200.md' || path === 'data/stats.json' ||
+  path === 'catalog' || path.startsWith('catalog/');
 const isFeedFile = (path) =>
-  path === 'data/dsh-market-index.json' || path === 'data/dsh-market-index.report.json';
+  path === 'data/dsh-market-index.json' || path === 'data/dsh-market-index.report.json' ||
+  path === 'data/dsh-market-release.json';
 const isPipeline = (path) =>
   path === 'data/repositories.json' ||
   path === 'data/review/pending.json' || path === 'data/review/pending.md';

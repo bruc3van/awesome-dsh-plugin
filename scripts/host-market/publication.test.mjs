@@ -2,7 +2,7 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync, mkdtempSync, mkdirSync, writeFileSync, rmSync, existsSync } from 'node:fs'
 import { tmpdir } from 'node:os'
-import { join } from 'node:path'
+import { delimiter, join } from 'node:path'
 import { spawnSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
 import YAML from 'yaml'
@@ -62,18 +62,26 @@ test('atomic publication retries moved main with fresh generation, but not permi
       const index = JSON.stringify({ plugins: [{ name: 'demo' }] })
       writeFileSync(join(repo, 'release-data/dsh-market-index.json'), index)
       writeFileSync(join(repo, 'release-data/dsh-market-index.report.json'), JSON.stringify({ indexSha256: createHash('sha256').update(index).digest('hex'), included: 1, fetchFailures: 0 }))
+      // Windows ships a Store stub named python3 that exits 49; point the step at the real interpreter.
+      if (process.platform === 'win32') writeFileSync(join(bin, 'python3'), '#!/bin/sh\nexec python "$@"\n', { mode: 0o755 })
       writeFileSync(join(bin, 'gh'), '#!/bin/sh\nif [ "$1" = auth ]; then exit 0; fi\nprintf "%s\\n" "$*" > "$DISPATCH_LOG"\nexit "$DISPATCH_STATUS"\n', { mode: 0o755 })
       const log = join(dir, 'dispatch.log')
+      const output = join(dir, 'github-output.txt')
       const result = spawnSync('bash', ['-e', '-o', 'pipefail', '-c', step], {
-        cwd: repo, encoding: 'utf8', env: { ...process.env, PATH: `${bin}:${process.env.PATH}`, SOURCE_SHA: source, TRIGGER_SHA: source, RUN_ID: '123', RETRY_COUNT: scenario === 'exhausted' ? '2' : '0', DISPATCH_LOG: log, DISPATCH_STATUS: scenario === 'dispatch-failed' ? '1' : '0' },
+        cwd: repo, encoding: 'utf8', env: { ...process.env, GITHUB_OUTPUT: output, PATH: `${bin}${delimiter}${process.env.PATH}`, SOURCE_SHA: source, TRIGGER_SHA: source, RUN_ID: '123', RETRY_COUNT: scenario === 'exhausted' ? '2' : '0', DISPATCH_LOG: log, DISPATCH_STATUS: scenario === 'dispatch-failed' ? '1' : '0' },
       })
-      assert.equal(result.status === 0, ['success', 'moved'].includes(scenario), result.stderr)
+      assert.equal(result.status === 0, ['success', 'moved'].includes(scenario), `${scenario}: ${result.stderr}${result.stdout}`)
       const remoteMain = git('--git-dir', remote, 'rev-parse', 'main')
       const release = git('--git-dir', remote, 'rev-parse', 'market-release')
       if (scenario === 'success') {
         assert.notEqual(remoteMain, source)
         assert.equal(release, remoteMain)
+        // publish-r2 keys off these outputs: it must upload exactly the revision that was pushed.
+        const outputs = readFileSync(output, 'utf8')
+        assert.match(outputs, /^published=true$/m)
+        assert.match(outputs, new RegExp(`^revision=${remoteMain}$`, 'm'))
       } else {
+        assert.ok(!existsSync(output) || !/published=true/.test(readFileSync(output, 'utf8')), 'R2 must not publish when the push did not land')
         assert.equal(remoteMain, mainBefore, 'failed atomic publication must not change main')
         assert.equal(release, source, 'failed atomic publication must not change market-release')
       }

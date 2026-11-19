@@ -24,7 +24,7 @@ import { spawnSync } from 'node:child_process';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { readSafeMarketCatalog } from './safe-market-catalog.mjs';
+import { buildCompactMarketCatalog, readSafeMarketCatalog } from './safe-market-catalog.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLISH = process.argv.includes('--publish');
@@ -38,11 +38,13 @@ for (const script of ['validate-packages.mjs', 'validate-market-catalog.mjs']) {
   if (result.status !== 0) process.exit(result.status ?? 1);
 }
 
-const files = ['data/packages.json', 'data/market-catalog.json'];
+const files = ['data/packages.json', 'data/market-catalog.json', 'data/market-catalog-v4.json'];
 const catalog = await readSafeMarketCatalog(new URL('../', import.meta.url));
+const compactCatalog = buildCompactMarketCatalog(catalog);
 const reads = [
   await readFile(resolve(root, 'data/packages.json'), 'utf8'),
   `${JSON.stringify(catalog)}\n`,
+  `${JSON.stringify(compactCatalog)}\n`,
 ];
 const digest = createHash('sha256').update(reads.join('\n')).digest('hex');
 
@@ -128,17 +130,18 @@ async function writeReadme(version) {
     '',
     '| File | What it is |',
     '| --- | --- |',
-    '| `data/market-catalog.json` | The market catalog (schema 3): the reviewed repository catalog after every market exclusion (board exclusions included), each row carrying `install_status` (`command` / `manual` / `none`) and, for a repository that publishes a subscription plugin, that plugin\u2019s `title_zh` / `title_en` / `description_en`; plus the complete published subscription and the editorial shortlist. market-v2 (schema 2) was retired on 2026-11-18. |',
+    '| `data/market-catalog-v4.json` | Primary compact market catalog (schema 4): dictionary-indexed categories, short row keys, omitted defaults, and no duplicated subscription icons/keywords (~40% smaller than schema 3) plus the embedded subscription and editorial shortlist. |',
+    '| `data/market-catalog.json` | Backward-compatible market catalog (schema 3, row shape unchanged — per-row `icon` / `keywords` included) for released `dsh-market-pro <= 1.2.4` clients. |',
     '| `data/packages.json` | the hand-maintained install-target source of truth behind every `packages` block |',
     '',
     '## Fetching',
     '',
     '```bash',
     '# npmmirror (China): direct file access, 302-redirected — follow redirects',
-    'curl -L -O https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-catalog.json',
+    'curl -L -O https://registry.npmmirror.com/awesome-dsh-plugin-feed/latest/files/data/market-catalog-v4.json',
     '',
     '# or via jsDelivr\'s npm CDN',
-    'curl -O https://cdn.jsdelivr.net/npm/awesome-dsh-plugin-feed/data/market-catalog.json',
+    'curl -O https://cdn.jsdelivr.net/npm/awesome-dsh-plugin-feed/data/market-catalog-v4.json',
     '',
     '# or the classic way: packument → dist.tarball',
     'npm view awesome-dsh-plugin-feed dist.tarball --registry=https://registry.npmmirror.com',

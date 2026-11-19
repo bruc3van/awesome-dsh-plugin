@@ -300,7 +300,14 @@ export function applyProposals(packages, proposals, date) {
 }
 
 export function renderPendingMarkdown(queue, date) {
-  const rows = queue.filter((item) => item.decision === 'identity_review')
+  const seen = new Set()
+  const rows = queue.filter((item) => {
+    if (item.decision !== 'identity_review') return false
+    const key = String(item.repository || '').toLowerCase()
+    if (!key || seen.has(key)) return false
+    seen.add(key)
+    return true
+  })
   const lines = [
     '# 订阅映射待 AI 核实',
     '',
@@ -322,17 +329,25 @@ export function renderPendingMarkdown(queue, date) {
 async function evidenceRecords() {
   const base = resolve(root, 'data/review/subscription')
   if (!existsSync(base)) return []
-  const records = []
-  for (const run of await readdir(base, { withFileTypes: true })) {
-    if (!run.isDirectory()) continue
+  const bySlug = new Map()
+  const dirs = (await readdir(base, { withFileTypes: true }))
+    .filter((entry) => entry.isDirectory())
+    .sort((a, b) => a.name.localeCompare(b.name))
+  for (const run of dirs) {
     const repos = resolve(base, run.name, 'repos')
     if (!existsSync(repos)) continue
-    for (const name of await readdir(repos)) {
+    for (const name of (await readdir(repos)).sort()) {
       if (!name.endsWith('.json')) continue
-      records.push(JSON.parse(await readFile(resolve(repos, name), 'utf8')))
+      try {
+        const record = JSON.parse(await readFile(resolve(repos, name), 'utf8'))
+        const key = String(record.full_name || '').toLowerCase()
+        if (key) bySlug.set(key, record)
+      } catch {
+        // Ignore torn evidence files so one corrupt record never stalls expansion.
+      }
     }
   }
-  return records
+  return [...bySlug.values()]
 }
 
 // Same-day terminal outcomes: evidence gathered today concluded these repos
@@ -367,6 +382,16 @@ async function sameDaySkipNames(date) {
     }
   }
   return skips
+}
+
+async function catalogMappingSkipNames() {
+  try {
+    const skips = await loadJson('data/catalog-mapping-skips.json')
+    return new Set(Object.keys(skips?.entries || {}).map((key) => key.toLowerCase()))
+  } catch (error) {
+    if (error?.code === 'ENOENT') return new Set()
+    throw error
+  }
 }
 
 async function loadJson(name) {
@@ -415,13 +440,17 @@ async function main() {
   }
   const inspect = args.includes('--inspect') || args.includes('--fill')
   if (inspect && indexCount < MAX_PLUGINS) {
+    const skipNames = new Set([
+      ...(await sameDaySkipNames(date)),
+      ...(await catalogMappingSkipNames()),
+    ])
     const plan = planOutsidePool(
       {
         snapshot,
         curated,
         approved,
         packages: { entries: Object.fromEntries([...mapped].map((key) => [key, true])) },
-        skipNames: await sameDaySkipNames(date),
+        skipNames,
       },
       size,
     )
