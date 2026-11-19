@@ -8,6 +8,7 @@ import semver from 'semver'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { filterPool } from '../market-pool.mjs'
+import { mappingGate } from '../mapping-gate.mjs'
 import { installRef, isPasteSafeCommand, npmBase } from '../readme-install.mjs'
 import {
   classifyRepository,
@@ -246,6 +247,12 @@ export function proposeRecord(record) {
   }
 }
 
+/** Approved pool repositories that pass the shared mapping gate (>=5 stars, pushed within 90 days). */
+export function gatedPool(snapshot, curated, approved) {
+  return filterPool(snapshot, curated, approved).repos
+    .filter(({ repo }) => mappingGate(repo, snapshot.fetched_at).ok)
+}
+
 export function planOutsidePool(
   { snapshot, curated, approved, packages, skipNames },
   size = 200,
@@ -253,8 +260,7 @@ export function planOutsidePool(
   const mapped = new Set(
     Object.keys(packages.entries || {}).map((key) => key.toLowerCase()),
   )
-  const { repos } = filterPool(snapshot, curated, approved)
-  const pending = repos
+  const pending = gatedPool(snapshot, curated, approved)
     .filter(({ repo }) => {
       const name = String(repo.full_name).toLowerCase()
       return !mapped.has(name) && !skipNames?.has(name)
@@ -442,7 +448,7 @@ async function main() {
   )
   const proposals = []
   const eligible = new Set(
-    filterPool(snapshot, curated, approved).repos.map(({ repo }) =>
+    gatedPool(snapshot, curated, approved).map(({ repo }) =>
       String(repo.full_name).toLowerCase(),
     ),
   )

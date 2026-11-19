@@ -19,16 +19,20 @@ test('workflow_run publication graph has no cycles, unknown parents, or chains o
   for (const w of workflows.values()) visit(w)
 })
 
-test('bot mapping commits reach host index first, then npm feed without split-brain', () => {
-  const expansion = workflows.get('expand-subscription-mappings.yml')
+test('one daily mapping job feeds the host index once, then the npm feed', () => {
+  assert.ok(!workflows.has('expand-subscription-mappings.yml'), 'expansion is folded into the daily mapping job')
   const fill = workflows.get('fill-catalog-mappings.yml')
   const host = workflows.get('refresh-host-market.yml')
   const publish = workflows.get('publish-npm-feed.yml')
-  assert.ok(host.on.workflow_run.workflows.includes(expansion.name), 'mapping expansion refreshes the index')
-  assert.ok(host.on.workflow_run.workflows.includes(fill.name), 'catalog mapping fills refresh the index before publishing feed')
+  assert.ok(host.on.workflow_run.workflows.includes(fill.name), 'the daily mapping job refreshes the index')
   assert.ok(publish.on.workflow_run.workflows.includes(host.name), 'the published index triggers the feed build')
-  assert.ok(!expansion.on.workflow_run, 'expansion must not form a publication feedback loop')
-  assert.ok(!fill.on.workflow_run, 'catalog mapping must not form a publication feedback loop')
+  assert.ok(!fill.on.workflow_run, 'the mapping job must not form a publication feedback loop')
+  assert.deepEqual(fill.on.schedule.map((entry) => entry.cron), ['40 15 * * *'], 'mapping runs once a day, after the snapshot')
+  const runs = fill.jobs.fill.steps.map((step) => step.run ?? '').join('\n')
+  assert.match(runs, /catalog-mappings\.mjs/)
+  assert.match(runs, /expand-mappings\.mjs --fill --size 200/)
+  assert.doesNotMatch(runs, /for batch in/, 'one expansion batch per day')
+  assert.match(runs, /git add [^\n]*data\/review\/subscription/, 'the subscription review queue is committed with the mappings')
 })
 
 test('reviewed source changes reach host index first, then cascade to npm feed and R2', () => {
@@ -57,48 +61,21 @@ test('publishers follow main and npm publication is not cancelled midway', () =>
       if (w.on.workflow_run) assert.match(job.if ?? (job.needs ? 'head_branch' : ''), /head_branch|published/)
     }
   }
-  for (const name of ['expand-subscription-mappings', 'refresh-host-market', 'refresh-showcase', 'update-catalog', 'publish-npm-feed']) {
+  for (const name of ['fill-catalog-mappings', 'refresh-host-market', 'refresh-showcase', 'update-catalog', 'publish-npm-feed']) {
     const job = Object.values(workflows.get(`${name}.yml`).jobs)[0]
     assert.equal(job.steps[0].with.ref, 'main')
   }
   assert.equal(workflows.get('publish-npm-feed.yml').concurrency['cancel-in-progress'], false)
 })
 
-test('cap literals stay in lockstep with policy.mjs and embedded expansion python executes cleanly', async () => {
-  const { readFileSync, mkdtempSync, mkdirSync, writeFileSync, rmSync } = await import('node:fs')
-  const { tmpdir } = await import('node:os')
-  const { join } = await import('node:path')
-  const { spawnSync } = await import('node:child_process')
+test('cap literals stay in lockstep with policy.mjs across CI gates', async () => {
+  const { readFileSync } = await import('node:fs')
   const { MAX_PLUGINS } = await import('../host-market/policy.mjs')
-  const expansion = readFileSync(new URL('../../.github/workflows/expand-subscription-mappings.yml', import.meta.url), 'utf8')
+  const mapping = readFileSync(new URL('../../.github/workflows/fill-catalog-mappings.yml', import.meta.url), 'utf8')
   const publication = readFileSync(new URL('../../.github/workflows/refresh-host-market.yml', import.meta.url), 'utf8')
-  assert.ok(!/count\s*<\s*\d+/.test(expansion), 'expansion must not gate on a plugin count')
+  assert.ok(!/count\s*<\s*\d+/.test(mapping), 'mapping must not gate on a plugin count')
   assert.ok(publication.includes(`<= ${MAX_PLUGINS}`), 'publish artifact gate must use the sanity ceiling')
-  assert.ok(!expansion.includes('toward 1000') && !publication.includes('<= 1000'), 'stale cap literals must not survive')
-
-  // Execute the embedded Python gate in expand-subscription-mappings.yml so syntax/NameError bugs cannot land.
-  const expandYaml = workflows.get('expand-subscription-mappings.yml')
-  const needStep = expandYaml.jobs.expand.steps.find(step => step.id === 'need')
-  assert.ok(needStep?.run, 'need step must exist')
-  const pyCode = needStep.run.split("python3 - <<'PY'\n")[1].split('\nPY')[0]
-  const tempDir = mkdtempSync(join(tmpdir(), 'expand-gate-'))
-  try {
-    mkdirSync(join(tempDir, 'data'))
-    writeFileSync(join(tempDir, 'data/dsh-market-index.json'), JSON.stringify({ plugins: [{ name: 'a' }, { name: 'b' }] }))
-    const outFile = join(tempDir, 'github_output.txt')
-    const result = spawnSync(process.platform === 'win32' ? 'python' : 'python3', ['-c', pyCode], {
-      cwd: tempDir,
-      encoding: 'utf8',
-      env: { ...process.env, GITHUB_OUTPUT: outFile },
-    })
-    assert.ifError(result.error)
-    assert.equal(result.status, 0, result.stderr)
-    const out = readFileSync(outFile, 'utf8')
-    assert.match(out, /^need=true$/m)
-    assert.match(out, /^count=2$/m)
-  } finally {
-    rmSync(tempDir, { recursive: true, force: true })
-  }
+  assert.ok(!mapping.includes('toward 1000') && !publication.includes('<= 1000'), 'stale cap literals must not survive')
 })
 
 test('the feed publisher runs only fast data gates; the heavy regression suite gates code in validate-curated', () => {

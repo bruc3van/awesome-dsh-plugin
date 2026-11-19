@@ -6,7 +6,6 @@ on:
   workflow_run:
     workflows:
       - 'Refresh snapshot and review queue'
-      - 'Expand subscription mappings'
       - 'Fill catalog install mappings'
     types: [completed]
   push:

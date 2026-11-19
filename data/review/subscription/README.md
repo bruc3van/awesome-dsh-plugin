@@ -13,9 +13,9 @@
 
 ## 自动补映射（5 MiB 网关字节预算）——持续扩容
 
-`scripts/host-market/expand-mappings.mjs` 与工作流 `expand-subscription-mappings.yml` 在网关 5 MiB 字节预算机制下**每 3 小时自动运行一次，每次连跑 3 批**（每批 200 仓、独立证据目录 `expand-<日期>-<时>b<批号>`）；同一天的终局结论（无可安装证据 / 仅手动安装 / 旧版声明 / 模板占位）以及 `data/catalog-mapping-skips.json` 中的已裁决跳过项均会被记住，后续批次直接跳过这些仓库深挖新仓。
+`scripts/host-market/expand-mappings.mjs` 由每日映射任务 `fill-catalog-mappings.yml` 在目录补齐之后**每天运行 1 批**（200 仓、独立证据目录 `expand-<日期>-<时>b1`；原每 3 小时的 `expand-subscription-mappings.yml` 已并入）；只考虑通过 `scripts/mapping-gate.mjs` 的仓库——**≥5★ 且快照前 90 天内有 push**；同一天的终局结论（无可安装证据 / 仅手动安装 / 旧版声明 / 模板占位）以及 `data/catalog-mapping-skips.json` 中的已裁决跳过项均会被记住，后续批次直接跳过这些仓库深挖新仓。
 
-`scripts/host-market/expand-mappings.mjs` 与工作流 `expand-subscription-mappings.yml` 的执行流程：
+`scripts/host-market/expand-mappings.mjs`（由 `fill-catalog-mappings.yml` 调用）的执行流程：
 
 1. 读取已有分批证据中仍未映射、且元数据合格的仓库；
 2. 按 Star 再核验下一批最多 200 个未映射已核准仓库；

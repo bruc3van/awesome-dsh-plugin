@@ -252,14 +252,27 @@ test('npm tarball verification checks integrity, identity and declared compatibi
     assert.equal((await verifyNpmPlugin(plugin, p)).plugin.name, 'demo')
     const bad = structuredClone(plugin)
     bad.versions[0].engines.dsh = '*'
-    await assert.rejects(verifyNpmPlugin(bad, p), /differ/)
+    // A tarball that disagrees with its registry metadata excludes only that
+    // version; with no version left there is no plugin, and no fetch failure.
+    const onlyBad = await verifyNpmPlugin(bad, p)
+    assert.equal(onlyBad.plugin, undefined)
+    assert.deepEqual(onlyBad.diagnostics.map((d) => [d.code, d.status, d.version]), [['tarball_metadata_mismatch', 'excluded', '1.2.3']])
+    const mixed = structuredClone(plugin)
+    mixed.versions = [bad.versions[0], ...structuredClone(plugin.versions)]
+    const kept = await verifyNpmPlugin(mixed, p)
+    assert.equal(kept.plugin.versions.length, 1, 'the good version of the same package is still published')
+    assert.equal(kept.plugin.versions[0].engines.dsh, plugin.versions[0].engines.dsh)
+    assert.ok(kept.diagnostics.some((d) => d.code === 'tarball_metadata_mismatch'))
     manifest.dist.integrity = 'sha512-' + Buffer.alloc(64).toString('base64')
     await assert.rejects(verifyNpmPlugin(plugin, p), /integrity/)
     await writeFile(join(dir, 'package/package.json'), JSON.stringify({ ...manifest, private: true }))
     execFileSync('tar', ['-czf', join(dir, 'test.tgz'), '-C', dir, 'package'])
     bytes = await readFile(join(dir, 'test.tgz'))
     manifest.dist.integrity = 'sha512-' + createHash('sha512').update(bytes).digest('base64')
-    await assert.rejects(verifyNpmPlugin(plugin, p), /private: true/)
+    const privateTarball = await verifyNpmPlugin(plugin, p)
+    assert.equal(privateTarball.plugin, undefined)
+    assert.match(privateTarball.diagnostics[0].reason, /private: true/)
+    assert.equal(privateTarball.diagnostics[0].status, 'excluded')
   } finally {
     if (server) await new Promise((resolve) => server.close(resolve))
     await rm(dir, { recursive: true, force: true })

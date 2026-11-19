@@ -32,6 +32,7 @@ import { escapeCell } from './markdown.mjs';
 import { decideMapping, manifestFallbackTarget, npmRepositorySlug } from './catalog-mapping-rules.mjs';
 import { extractInstallTargets } from './readme-install.mjs';
 import { readSafeMarketCatalog } from './safe-market-catalog.mjs';
+import { MAPPING_MIN_STARS, mappingGate } from './mapping-gate.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const has = (flag) => process.argv.includes(flag);
@@ -94,7 +95,9 @@ if (SHARD !== '') {
 
 const allGaps = catalog.entries
   .filter((row) => row.install_status === 'none' && !row.archived && !row.disabled)
-  .filter((row) => row.stargazers_count >= MIN_STARS)
+  .filter((row) => row.stargazers_count >= Math.max(MIN_STARS, MAPPING_MIN_STARS))
+  // Shared gate: <5 stars or no push in the 90 days before the snapshot → no new mapping.
+  .filter((row) => mappingGate(row, catalog.source_fetched_at).ok)
   .filter((row) => packages.entries[row.full_name.toLowerCase()] === undefined)
   .filter((row) => !skipped.has(row.full_name.toLowerCase()))
   .sort((a, b) => b.stargazers_count - a.stargazers_count || a.full_name.localeCompare(b.full_name))
