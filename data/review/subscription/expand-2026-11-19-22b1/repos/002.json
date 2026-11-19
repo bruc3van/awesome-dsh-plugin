@@ -1,0 +1,123 @@
+{
+  "full_name": "playinginzzz/Fairy-DSH-compat",
+  "originalPosition": 2,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 2,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T22:49:44.848Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1b9fef8cc61a484e653eba5169c4cdfaa5a0a9d656642031daefc8e38537fa18",
+      "url": "https://github.com/playinginzzz/Fairy-DSH-compat/blob/e841e8eb9455ff4615a891c2c310d61ee5c3cfdd/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "legacy/README.md",
+      "sha256": "e74f46797ed628c658739a07abe6668c624f485cc605077dd1445d9d60afeb05",
+      "url": "https://github.com/playinginzzz/Fairy-DSH-compat/blob/e841e8eb9455ff4615a891c2c310d61ee5c3cfdd/legacy/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-balance-meter",
+      "version": "0.2.0",
+      "path": "balance-meter/dsh-balance-meter",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/playinginzzz/Fairy-DSH-compat",
+        "commit": "e841e8eb9455ff4615a891c2c310d61ee5c3cfdd",
+        "path": "balance-meter/dsh-balance-meter"
+      },
+      "manifestSha256": "9a22cebbf0e4618559a87f9f9e638d18852ee7ff19767547ea422a84c35a6200",
+      "manifestUrl": "https://github.com/playinginzzz/Fairy-DSH-compat/blob/e841e8eb9455ff4615a891c2c310d61ee5c3cfdd/balance-meter/dsh-balance-meter/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-browser-dock",
+      "version": "0.1.0",
+      "path": "browser-dock/dsh-browser-dock",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/playinginzzz/Fairy-DSH-compat",
+        "commit": "e841e8eb9455ff4615a891c2c310d61ee5c3cfdd",
+        "path": "browser-dock/dsh-browser-dock"
+      },
+      "manifestSha256": "5979c279a334c81e79a4ae416eb285601df66c21f8f3a5d6e7a35bbeb1d7ad52",
+      "manifestUrl": "https://github.com/playinginzzz/Fairy-DSH-compat/blob/e841e8eb9455ff4615a891c2c310d61ee5c3cfdd/browser-dock/dsh-browser-dock/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fairy-startup",
+      "version": "1.0.0",
+      "path": "fairy-startup/dsh-fairy-startup",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/playinginzzz/Fairy-DSH-compat",
+        "commit": "e841e8eb9455ff4615a891c2c310d61ee5c3cfdd",
+        "path": "fairy-startup/dsh-fairy-startup"
+      },
+      "manifestSha256": "6c6291ab9a093c6ab489c43d8f224a20562ca34ab3cdce4d0a9c25b5fb02e13a",
+      "manifestUrl": "https://github.com/playinginzzz/Fairy-DSH-compat/blob/e841e8eb9455ff4615a891c2c310d61ee5c3cfdd/fairy-startup/dsh-fairy-startup/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fairy-visual",
+      "version": "0.1.8",
+      "path": "fairy-visual/dsh-fairy-visual",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/playinginzzz/Fairy-DSH-compat",
+        "commit": "e841e8eb9455ff4615a891c2c310d61ee5c3cfdd",
+        "path": "fairy-visual/dsh-fairy-visual"
+      },
+      "manifestSha256": "12cf1d63006fbca75d1620efa9acd49e225e2dc4a55f5024122719dd30ec8137",
+      "manifestUrl": "https://github.com/playinginzzz/Fairy-DSH-compat/blob/e841e8eb9455ff4615a891c2c310d61ee5c3cfdd/fairy-visual/dsh-fairy-visual/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-fairy-voice",
+      "version": "1.0.5",
+      "path": "fairy-voice/dsh-fairy-voice",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/playinginzzz/Fairy-DSH-compat",
+        "commit": "e841e8eb9455ff4615a891c2c310d61ee5c3cfdd",
+        "path": "fairy-voice/dsh-fairy-voice"
+      },
+      "manifestSha256": "081cf2e98535e708e803c6349979ab1d65eed1444bc81601a91a4463f124455e",
+      "manifestUrl": "https://github.com/playinginzzz/Fairy-DSH-compat/blob/e841e8eb9455ff4615a891c2c310d61ee5c3cfdd/fairy-voice/dsh-fairy-voice/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/playinginzzz/Fairy-DSH-compat",
+    "commit": "e841e8eb9455ff4615a891c2c310d61ee5c3cfdd",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-19T22:49:48.695Z"
+}

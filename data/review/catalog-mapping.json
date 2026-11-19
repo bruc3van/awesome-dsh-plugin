@@ -1,7 +1,308 @@
 {
-  "generated_at": "2026-11-18T07:57:45.690Z",
+  "generated_at": "2026-11-19T22:48:31.857Z",
   "min_stars": 5,
-  "scanned": 0,
-  "applied": [],
-  "review": []
+  "scanned": 21,
+  "applied": [
+    {
+      "slug": "keli-wen/cospan",
+      "stars": 21,
+      "branches": "master",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:keli-wen/cospan",
+          "command": "dsh plugin --profile desktop add github:keli-wen/cospan",
+          "install": "https://github.com/keli-wen/cospan"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "Jaylor-Wang/dsh-awesome-optimizer",
+      "stars": 10,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-awesome-optimizer",
+          "command": "dsh plugin --profile web add dsh-awesome-optimizer",
+          "install": "dsh-awesome-optimizer"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "stallenlu/dsh-freellmapi",
+      "stars": 6,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:stallenlu/dsh-freellmapi",
+          "command": "dsh plugin --profile web add github:stallenlu/dsh-freellmapi",
+          "install": "https://github.com/stallenlu/dsh-freellmapi"
+        }
+      ],
+      "via": "readme",
+      "note": "unsupported source url:https://github.com/stallenlu/dsh-freellmapi/releases/download/v1.2.12/dsh-freellmapi-1.2.12.tgz"
+    },
+    {
+      "slug": "taxueseek/dsh-suggestion-chips",
+      "stars": 6,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-suggestion-chips",
+          "command": "dsh plugin --profile desktop add dsh-suggestion-chips",
+          "install": "dsh-suggestion-chips"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "bennett-dsh/dsh-plugin-usage",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:bennett-dsh/dsh-plugin-usage#v0.6.0",
+          "command": "dsh plugin --profile web add github:bennett-dsh/dsh-plugin-usage#v0.6.0",
+          "install": "https://github.com/bennett-dsh/dsh-plugin-usage#v0.6.0"
+        }
+      ],
+      "via": "readme",
+      "note": "command is not a concrete paste-safe `dsh plugin` invocation"
+    },
+    {
+      "slug": "ChimeSky/dsh-a2ui",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:ChimeSky/dsh-a2ui#v0.3.1",
+          "command": "dsh plugin --profile desktop add github:ChimeSky/dsh-a2ui#v0.3.1",
+          "install": "https://github.com/ChimeSky/dsh-a2ui#v0.3.1"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "cinderzhan/dsh-media-workbench",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:cinderzhan/dsh-media-workbench",
+          "command": "dsh plugin --profile web add github:cinderzhan/dsh-media-workbench",
+          "install": "https://github.com/cinderzhan/dsh-media-workbench"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "contraliz/dsh-occlick",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:contraliz/dsh-occlick",
+          "command": "dsh plugin --profile desktop add github:contraliz/dsh-occlick",
+          "install": "https://github.com/contraliz/dsh-occlick"
+        },
+        {
+          "profile": "web",
+          "source": "github:contraliz/dsh-occlick",
+          "command": "dsh plugin --profile web add github:contraliz/dsh-occlick",
+          "install": "https://github.com/contraliz/dsh-occlick"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "dusbin/dsh-multi-tenant",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:dusbin/dsh-multi-tenant",
+          "command": "dsh plugin --profile web add github:dusbin/dsh-multi-tenant",
+          "install": "https://github.com/dusbin/dsh-multi-tenant"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "Lng-ux/dsh-nebula-mind",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-nebula-mind",
+          "command": "dsh plugin --profile web add dsh-nebula-mind",
+          "install": "dsh-nebula-mind"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "lonelycrab888/dsh-remote-dc",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-remote-dc@0.1.1",
+          "command": "dsh plugin --profile web add dsh-remote-dc@0.1.1",
+          "install": "dsh-remote-dc@0.1.1"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "lqshow/dsh-wechat-studio",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-wechat-studio",
+          "command": "dsh plugin --profile desktop add dsh-wechat-studio",
+          "install": "dsh-wechat-studio"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-wechat-studio",
+          "command": "dsh plugin --profile web add dsh-wechat-studio",
+          "install": "dsh-wechat-studio"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "seewhydee/dsh-emacs-bridge",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-emacs-bridge",
+          "command": "dsh plugin --profile web add dsh-emacs-bridge",
+          "install": "dsh-emacs-bridge"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "seolhw/dsh-guild",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:seolhw/dsh-guild",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:seolhw/dsh-guild",
+          "install": "https://github.com/seolhw/dsh-guild"
+        }
+      ],
+      "via": "readme",
+      "note": "npm dsh-guild declares no repository (authorship unproven)"
+    },
+    {
+      "slug": "shenkonghui/dsh-llm-acp",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "my-acp",
+          "source": "github:shenkonghui/dsh-llm-acp",
+          "command": "dsh plugin --profile my-acp add github:shenkonghui/dsh-llm-acp",
+          "install": "https://github.com/shenkonghui/dsh-llm-acp"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "TianzeLuo/dsh-super-agent",
+      "stars": 5,
+      "branches": "master",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:TianzeLuo/dsh-super-agent",
+          "command": "dsh plugin --profile web add github:TianzeLuo/dsh-super-agent",
+          "install": "https://github.com/TianzeLuo/dsh-super-agent"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "timho1047/dsh-stream-focus",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-stream-focus",
+          "command": "dsh plugin --profile web add dsh-stream-focus",
+          "install": "dsh-stream-focus"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "xCube007/dsh-message-rewind",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-message-rewind",
+          "command": "dsh plugin --profile web add dsh-message-rewind",
+          "install": "dsh-message-rewind"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "zyd232/dsh-compaction-policy",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-compaction-policy",
+          "command": "dsh plugin --profile web add dsh-compaction-policy",
+          "install": "dsh-compaction-policy"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    }
+  ],
+  "review": [
+    {
+      "slug": "playinginzzz/Fairy-DSH-compat",
+      "stars": 5,
+      "reason": "no install command extracted; no package.json",
+      "hint": "dsh plugin --profile web add <文件路径> 装",
+      "candidates": []
+    },
+    {
+      "slug": "WaterDJiang/wtt-dsh-plugin",
+      "stars": 5,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    }
+  ]
 }

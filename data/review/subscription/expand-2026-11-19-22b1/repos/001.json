@@ -1,0 +1,144 @@
+{
+  "full_name": "WaterDJiang/wtt-dsh-plugin",
+  "originalPosition": 1,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 1,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-19T22:49:44.843Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "420059653449455b72416743f6b779578315421568dd8be786903f386e0c23b5",
+      "url": "https://github.com/WaterDJiang/wtt-dsh-plugin/blob/3e482a18369b62d28d38713342ade86302586aeb/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-creation-workbench/README.md",
+      "sha256": "e732a7b6f74f866e23ab895f089b40c927906a1c6baa06b7deb7bb40cdae5a05",
+      "url": "https://github.com/WaterDJiang/wtt-dsh-plugin/blob/3e482a18369b62d28d38713342ade86302586aeb/plugins/dsh-creation-workbench/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/WaterDJiang/wtt-dsh-plugin#path:/plugins/dsh-creation-workbench",
+          "command": "dsh plugin --profile web add 'github:WaterDJiang/wtt-dsh-plugin#path:/plugins/dsh-creation-workbench'",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@wtt/dsh-creation-workbench",
+      "version": "0.58.9",
+      "path": "plugins/dsh-creation-workbench",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/WaterDJiang/wtt-dsh-plugin",
+        "commit": "3e482a18369b62d28d38713342ade86302586aeb",
+        "path": "plugins/dsh-creation-workbench"
+      },
+      "manifestSha256": "9a7170368ccb7fa4986d2f507c7356a7ba1159fc1289d376ab03015b8f59617c",
+      "manifestUrl": "https://github.com/WaterDJiang/wtt-dsh-plugin/blob/3e482a18369b62d28d38713342ade86302586aeb/plugins/dsh-creation-workbench/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 || >=0.2.2-rc.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@wtt/dsh-creation-workbench",
+        "versions": [
+          {
+            "version": "0.58.9",
+            "publishTimestamp": 1795111530,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WaterDJiang/wtt-dsh-plugin",
+              "commit": "3e482a18369b62d28d38713342ade86302586aeb",
+              "path": "plugins/dsh-creation-workbench"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 || >=0.2.2-rc.0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/WaterDJiang/wtt-dsh-plugin#path:/plugins/dsh-creation-workbench",
+      "origin": "git_target",
+      "name": "@wtt/dsh-creation-workbench",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@wtt/dsh-creation-workbench",
+        "title": "@wtt/dsh-creation-workbench",
+        "description": "DeepSeek Harness 的 AI 创作画布。在同一个项目里整理资料、引用卡片与文件、调用本机 Skill，并管理文本、演示文稿、图片和视频的成果版本。",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "deepseek",
+            "deepseek-harness",
+            "plugin",
+            "canvas",
+            "creation-workbench",
+            "ai-workflow",
+            "wtt-dsh-plugin",
+            "创作画布",
+            "AI 创作",
+            "项目资料",
+            "工作台"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.58.9",
+            "publishTimestamp": 1795111530,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/WaterDJiang/wtt-dsh-plugin",
+              "commit": "3e482a18369b62d28d38713342ade86302586aeb",
+              "path": "plugins/dsh-creation-workbench"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 || >=0.2.2-rc.0"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "plugins/dsh-creation-workbench",
+          "commit": "3e482a18369b62d28d38713342ade86302586aeb",
+          "name": "@wtt/dsh-creation-workbench",
+          "version": "0.58.9",
+          "url": "https://github.com/WaterDJiang/wtt-dsh-plugin",
+          "manifestSha256": "9a7170368ccb7fa4986d2f507c7356a7ba1159fc1289d376ab03015b8f59617c",
+          "publishTimestamp": 1795111530
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/WaterDJiang/wtt-dsh-plugin#path:/plugins/dsh-creation-workbench",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/WaterDJiang/wtt-dsh-plugin",
+    "commit": "3e482a18369b62d28d38713342ade86302586aeb",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-19T22:49:48.832Z"
+}

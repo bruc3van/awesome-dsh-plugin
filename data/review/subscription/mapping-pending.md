@@ -6,4 +6,3 @@
 
 | 仓库 | 原因 |
 | --- | --- |
-| liangdabiao/dsh-plugin-developer-skill | template_or_example_review |

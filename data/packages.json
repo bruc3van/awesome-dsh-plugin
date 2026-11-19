@@ -45149,6 +45149,297 @@
       "verified_date": "2026-11-19",
       "verified_via": "manifest@e6cc6dd025c8",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "keli-wen/cospan": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:keli-wen/cospan",
+          "command": "dsh plugin --profile desktop add github:keli-wen/cospan",
+          "install": "https://github.com/keli-wen/cospan"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@master",
+      "verified_by": "ci-auto"
+    },
+    "jaylor-wang/dsh-awesome-optimizer": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-awesome-optimizer",
+          "command": "dsh plugin --profile web add dsh-awesome-optimizer",
+          "install": "dsh-awesome-optimizer"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "stallenlu/dsh-freellmapi": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:stallenlu/dsh-freellmapi",
+          "command": "dsh plugin --profile web add github:stallenlu/dsh-freellmapi",
+          "install": "https://github.com/stallenlu/dsh-freellmapi"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "taxueseek/dsh-suggestion-chips": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-suggestion-chips",
+          "command": "dsh plugin --profile desktop add dsh-suggestion-chips",
+          "install": "dsh-suggestion-chips"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "bennett-dsh/dsh-plugin-usage": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:bennett-dsh/dsh-plugin-usage#v0.6.0",
+          "command": "dsh plugin --profile web add github:bennett-dsh/dsh-plugin-usage#v0.6.0",
+          "install": "https://github.com/bennett-dsh/dsh-plugin-usage#v0.6.0"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "chimesky/dsh-a2ui": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:ChimeSky/dsh-a2ui#v0.3.1",
+          "command": "dsh plugin --profile desktop add github:ChimeSky/dsh-a2ui#v0.3.1",
+          "install": "https://github.com/ChimeSky/dsh-a2ui#v0.3.1"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "cinderzhan/dsh-media-workbench": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:cinderzhan/dsh-media-workbench",
+          "command": "dsh plugin --profile web add github:cinderzhan/dsh-media-workbench",
+          "install": "https://github.com/cinderzhan/dsh-media-workbench"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-19",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "contraliz/dsh-occlick": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:contraliz/dsh-occlick",
+          "command": "dsh plugin --profile desktop add github:contraliz/dsh-occlick",
+          "install": "https://github.com/contraliz/dsh-occlick"
+        },
+        {
+          "profile": "web",
+          "source": "github:contraliz/dsh-occlick",
+          "command": "dsh plugin --profile web add github:contraliz/dsh-occlick",
+          "install": "https://github.com/contraliz/dsh-occlick"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "dusbin/dsh-multi-tenant": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:dusbin/dsh-multi-tenant",
+          "command": "dsh plugin --profile web add github:dusbin/dsh-multi-tenant",
+          "install": "https://github.com/dusbin/dsh-multi-tenant"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-19",
+      "verified_via": "manifest@package.json#dsh @main",
+      "verified_by": "ci-auto"
+    },
+    "lng-ux/dsh-nebula-mind": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-nebula-mind",
+          "command": "dsh plugin --profile web add dsh-nebula-mind",
+          "install": "dsh-nebula-mind"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-19",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "lonelycrab888/dsh-remote-dc": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-remote-dc@0.1.1",
+          "command": "dsh plugin --profile web add dsh-remote-dc@0.1.1",
+          "install": "dsh-remote-dc@0.1.1"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "lqshow/dsh-wechat-studio": {
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-wechat-studio",
+          "command": "dsh plugin --profile desktop add dsh-wechat-studio",
+          "install": "dsh-wechat-studio"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-wechat-studio",
+          "command": "dsh plugin --profile web add dsh-wechat-studio",
+          "install": "dsh-wechat-studio"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "seewhydee/dsh-emacs-bridge": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-emacs-bridge",
+          "command": "dsh plugin --profile web add dsh-emacs-bridge",
+          "install": "dsh-emacs-bridge"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "seolhw/dsh-guild": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:seolhw/dsh-guild",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:seolhw/dsh-guild",
+          "install": "https://github.com/seolhw/dsh-guild"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "shenkonghui/dsh-llm-acp": {
+      "packages": [
+        {
+          "profile": "my-acp",
+          "source": "github:shenkonghui/dsh-llm-acp",
+          "command": "dsh plugin --profile my-acp add github:shenkonghui/dsh-llm-acp",
+          "install": "https://github.com/shenkonghui/dsh-llm-acp"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "tianzeluo/dsh-super-agent": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:TianzeLuo/dsh-super-agent",
+          "command": "dsh plugin --profile web add github:TianzeLuo/dsh-super-agent",
+          "install": "https://github.com/TianzeLuo/dsh-super-agent"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@master",
+      "verified_by": "ci-auto"
+    },
+    "timho1047/dsh-stream-focus": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-stream-focus",
+          "command": "dsh plugin --profile web add dsh-stream-focus",
+          "install": "dsh-stream-focus"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "xcube007/dsh-message-rewind": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-message-rewind",
+          "command": "dsh plugin --profile web add dsh-message-rewind",
+          "install": "dsh-message-rewind"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README@main",
+      "verified_by": "ci-auto"
+    },
+    "zyd232/dsh-compaction-policy": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-compaction-policy",
+          "command": "dsh plugin --profile web add dsh-compaction-policy",
+          "install": "dsh-compaction-policy"
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-11-19",
+      "verified_via": "manifest@package.json (npm repository match) @main",
+      "verified_by": "ci-auto"
+    },
+    "waterdjiang/wtt-dsh-plugin": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:WaterDJiang/wtt-dsh-plugin#path:/plugins/dsh-creation-workbench",
+          "install": "https://github.com/WaterDJiang/wtt-dsh-plugin#path:/plugins/dsh-creation-workbench",
+          "command": "dsh plugin --profile web add \"github:WaterDJiang/wtt-dsh-plugin#path:/plugins/dsh-creation-workbench\""
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-19",
+      "verified_via": "README + Git commit"
     }
   }
 }
