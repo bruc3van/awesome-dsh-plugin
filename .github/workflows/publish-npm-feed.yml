@@ -53,7 +53,11 @@ jobs:
       id-token: write
     if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main') }}
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # The regression suite runs ~14 mocked npm publishes at ~90 s each (~20 min
+    # on hosted runners). The 15-minute cap predates the suite ever completing
+    # on CI — it used to crash midway — so it was never exercised until the
+    # string-title crash was fixed (2026-11-19).
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
