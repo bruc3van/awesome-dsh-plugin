@@ -89,7 +89,12 @@ test('a subscription-only publication changes the npm digest and retains its log
   const manifest = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
   const indexFile = resolve(root, 'data/dsh-market-index.json');
   const index = JSON.parse(await readFile(indexFile, 'utf8'));
-  index.plugins[0].title.zh += ' 更新';
+  // Titles are strings unless a plugin manifest localizes them ({zh, en});
+  // the pinned first plugin usually carries a plain string, so mutate a
+  // localized one to move the digest.
+  const localized = index.plugins.find((p) => p.title && typeof p.title === 'object' && typeof p.title.zh === 'string');
+  assert.ok(localized, 'the fixture needs a plugin with a localized title');
+  localized.title.zh += ' 更新';
   const raw = JSON.stringify(index);
   await writeFile(indexFile, raw);
   const reportFile = resolve(root, 'data/dsh-market-index.report.json');
