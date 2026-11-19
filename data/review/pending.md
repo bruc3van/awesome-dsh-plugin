@@ -4,7 +4,7 @@
 >
 > Repositories newly added to the `dsh-plugin` topic that the maintainer has not verified yet. Refreshed daily by `scripts/update.mjs`; review-only, not a user-facing page.
 
-- 生成时间 / Generated: **2026-11-18**
+- 生成时间 / Generated: **2026-11-19**
 - 快照日期 / Snapshot date: **2026-11-18 (UTC)**
 - 待审核 / Pending: **346**
 - 从快照消失的已核准仓库 / Approved repositories missing from the snapshot: **26**

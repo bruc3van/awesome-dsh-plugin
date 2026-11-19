@@ -579,27 +579,31 @@ export const SHOWCASE_END = '<!-- dsh:showcase:end -->';
 // Labels intentionally drop the "、" separator used in category_zh and keep the
 // wording that already lives on the README pages.
 const MINDMAP_NODES = [
+  // Bullets re-checked against the 2026-11-19 category recalibration: memory
+  // moved to knowledge-research, usage/cost meters became the ui-experience
+  // mainstay, model gateways/keys and speech grew inside developer-tools and
+  // media-vision, and skill libraries/managers anchor ecosystem-resources.
   ['agents-workflows', 'Agent 自动化与工作流', 'Agents automation workflows',
-    ['定时循环与事件唤醒', '长期记忆与自我进化', '审批、预算与检查点'],
-    ['Scheduled loops and event wakeups', 'Long-term memory and self-evolution', 'Approval budget and checkpoints']],
+    ['会话与上下文管理', '定时循环与事件唤醒', '审批、预算与检查点'],
+    ['Session and context management', 'Scheduled loops and event wakeups', 'Approval budget and checkpoints']],
   ['multi-agents', '多 Agent 编排协作', 'Multi-agent orchestration',
     ['子代理与编排看板', '舰队与团队协作', '角色分工与任务验收'],
     ['Subagents and orchestration boards', 'Fleets and agent teams', 'Role division and acceptance checks']],
   ['ui-experience', '界面与体验', 'UI and experience',
-    ['桌面客户端与终端 TUI', '侧边栏工作台', '皮肤与桌面宠物', '通知与输入增强'],
-    ['Desktop clients and terminal TUI', 'Sidebar workbenches', 'Skins and desktop pets', 'Notifications and input']],
+    ['用量与计费面板', '侧边栏工作台', '皮肤与桌面宠物', '通知与输入增强'],
+    ['Usage and billing panels', 'Sidebar workbenches', 'Skins and desktop pets', 'Notifications and input']],
   ['web-browser', '网页与浏览器', 'Web and browser',
     ['浏览器桥接与页面操作', '网页搜索与引用', '归档与网页取证'],
     ['Browser bridge and page control', 'Web search with citations', 'Archiving and web forensics']],
   ['media-vision', '设计媒体与视觉', 'Design media and vision',
-    ['图片理解与 OCR', '设计画布与 UI 还原'],
-    ['Image understanding and OCR', 'Design canvas and UI restoration']],
+    ['图片理解与 OCR', '设计画布与 UI 还原', '语音合成与识别'],
+    ['Image understanding and OCR', 'Design canvas and UI restoration', 'Speech synthesis and recognition']],
   ['ecosystem-resources', '生态与资源', 'Ecosystem and resources',
-    ['插件市场与注册表', '开发模板与脚手架', '教程与手册'],
-    ['Plugin markets and registries', 'Templates and scaffolds', 'Guides and handbooks']],
+    ['插件市场与注册表', '技能库与插件管家', '开发模板与脚手架'],
+    ['Plugin markets and registries', 'Skill libraries and plugin managers', 'Templates and scaffolds']],
   ['developer-tools', '开发者工具', 'Developer tools',
-    ['Git 与 diff', '沙箱与运行时', '调试与诊断'],
-    ['Git and diff', 'Sandbox and runtimes', 'Debugging and diagnostics']],
+    ['Git 与 diff', '模型网关与密钥', '调试与诊断'],
+    ['Git and diff', 'Model gateways and keys', 'Debugging and diagnostics']],
   ['knowledge-research', '知识与研究', 'Knowledge and research',
     ['知识库与跨会话记忆', '深度研究', '学术与数学'],
     ['Knowledge bases and cross-session memory', 'Deep research', 'Academia and math']],

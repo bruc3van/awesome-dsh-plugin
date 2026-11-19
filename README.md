@@ -41,7 +41,7 @@
 mindmap
   root((DSH 插件生态 28695))
     界面与体验 · 9435
-      桌面客户端与终端 TUI
+      用量与计费面板
       侧边栏工作台
       皮肤与桌面宠物
       通知与输入增强
@@ -54,23 +54,24 @@ mindmap
       归档与网页取证
     开发者工具 · 2932
       Git 与 diff
-      沙箱与运行时
+      模型网关与密钥
       调试与诊断
     Agent 自动化与工作流 · 2317
+      会话与上下文管理
       定时循环与事件唤醒
-      长期记忆与自我进化
       审批、预算与检查点
     设计媒体与视觉 · 1764
       图片理解与 OCR
       设计画布与 UI 还原
+      语音合成与识别
     集成与分享 · 1701
       会话导入与分享
       远程访问
       IM 与外部集成
     生态与资源 · 1511
       插件市场与注册表
+      技能库与插件管家
       开发模板与脚手架
-      教程与手册
     知识与研究 · 1504
       知识库与跨会话记忆
       深度研究
@@ -409,7 +410,7 @@ mindmap
 
 - **[dsh-desktop-pro](https://github.com/bruc3van/dsh-desktop-pro)** — DSH Desktop Pro：DeepSeek Harness 的专业版桌面客户端，主打企业级配置。个人装好就能用：窗口加载原汁原味的官方 Web UI，关窗任务照跑、常驻托盘随点随开，安装包自带官方运行时双击即用，首次启动自动订阅精选插件列表；企业场景由配套的开源管理服务端完成：IT 统一配置模型网关、插件订阅、Skill 和工具权限，员工公司账号登录即得，带用量额度与防篡改审计。支持 macOS、Windows、Linux。
 - **[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** — DSH 插件市场专业版：精选真插件，集浏览、安装、更新及安装后 AI 安全审查于一体；通过 npm 数据包的 `market-catalog.json` 读取完整已审核目录与订阅精选。
-- **[bruce-md2word](https://github.com/bruc3van/bruce-md2word)** — 面向 AI Agent 的 Markdown 转 Word 工具：中文排版、Mermaid 图表转图片、可编辑数学公式，同一份内容提供 Skill、独立 CLI 与 DSH 插件三种形态。（同见目录 [agents-workflows 分册](./catalog/agents-workflows.md)。）
+- **[bruce-md2word](https://github.com/bruc3van/bruce-md2word)** — 面向 AI Agent 的 Markdown 转 Word 工具：中文排版、Mermaid 图表转图片、可编辑数学公式，同一份内容提供 Skill、独立 CLI 与 DSH 插件三种形态。（同见目录 [utilities 分册](./catalog/utilities.md)。）
 
 **官方仓库**
 

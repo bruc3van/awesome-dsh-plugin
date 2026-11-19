@@ -41,7 +41,7 @@ As of 2026-11-18 the catalog lists **28,695** verified repositories. Here is the
 mindmap
   root((DSH ecosystem 28695))
     UI and experience · 9435
-      Desktop clients and terminal TUI
+      Usage and billing panels
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
@@ -54,23 +54,24 @@ mindmap
       Archiving and web forensics
     Developer tools · 2932
       Git and diff
-      Sandbox and runtimes
+      Model gateways and keys
       Debugging and diagnostics
     Agents automation workflows · 2317
+      Session and context management
       Scheduled loops and event wakeups
-      Long-term memory and self-evolution
       Approval budget and checkpoints
     Design media and vision · 1764
       Image understanding and OCR
       Design canvas and UI restoration
+      Speech synthesis and recognition
     Integrations and sharing · 1701
       Chat import and sharing
       Remote access
       IM and external integrations
     Ecosystem and resources · 1511
       Plugin markets and registries
+      Skill libraries and plugin managers
       Templates and scaffolds
-      Guides and handbooks
     Knowledge and research · 1504
       Knowledge bases and cross-session memory
       Deep research
@@ -408,7 +409,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
 - **[dsh-desktop-pro](https://github.com/bruc3van/dsh-desktop-pro)** — DSH Desktop Pro: a professional DeepSeek Harness desktop client built around organization-wide configuration. For personal use it works out of the box: the window loads the authentic official Web UI, closing the window doesn't stop your task — it stays resident in the tray until you open it again — and the installer bundles the official runtime, so you just double-click to launch; on first launch it subscribes to a curated plugin index. In a company, IT configures the model gateway, plugin subscriptions, skills and tool permissions once through the open-source management server, and employees sign in with their company account — with usage limits and a tamper-evident audit log. Runs on macOS, Windows, and Linux.
 - **[DSH Market Pro](https://github.com/bruc3van/dsh-market-pro)** — curated plugin browsing, installation, updates, and optional post-install AI review. It consumes the complete reviewed catalog and subscription picks in the npm feed's `market-catalog.json`.
-- **[bruce-md2word](https://github.com/bruc3van/bruce-md2word)** — a Markdown-to-Word tool built for AI agents: Chinese typography, Mermaid diagrams rendered to images and editable math formulas, shipped in three forms — a Skill, a standalone CLI and a DSH plugin. (Also listed in the [agents-workflows volume](./catalog/agents-workflows.md) of this catalog.)
+- **[bruce-md2word](https://github.com/bruc3van/bruce-md2word)** — a Markdown-to-Word tool built for AI agents: Chinese typography, Mermaid diagrams rendered to images and editable math formulas, shipped in three forms — a Skill, a standalone CLI and a DSH plugin. (Also listed in the [utilities volume](./catalog/utilities.md) of this catalog.)
 
 **Official repositories**
 
