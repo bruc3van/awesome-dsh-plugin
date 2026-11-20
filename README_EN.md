@@ -35,48 +35,48 @@ No extra plugin required — add the curated index directly to DSH's built-in Di
 ## 🗺️ Ecosystem at a glance
 
 <!-- dsh:panorama:start -->
-As of 2026-11-19 the catalog lists **28,678** verified repositories. Here is the shape of it:
+As of 2026-11-19 the catalog lists **29,362** verified repositories. Here is the shape of it:
 
 ```mermaid
 mindmap
-  root((DSH ecosystem 28678))
-    UI and experience · 9427
+  root((DSH ecosystem 29362))
+    UI and experience · 9669
       Usage and billing panels
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Utilities and more · 3672
+    Utilities and more · 3834
       Files and encodings
       Format conversion
-    Web and browser · 3184
+    Web and browser · 3249
       Browser bridge and page control
       Web search with citations
       Archiving and web forensics
-    Developer tools · 2931
+    Developer tools · 2962
       Git and diff
       Model gateways and keys
       Debugging and diagnostics
-    Agents automation workflows · 2314
+    Agents automation workflows · 2373
       Session and context management
       Scheduled loops and event wakeups
       Approval budget and checkpoints
-    Design media and vision · 1764
+    Design media and vision · 1804
       Image understanding and OCR
       Design canvas and UI restoration
       Speech synthesis and recognition
-    Integrations and sharing · 1700
+    Integrations and sharing · 1726
       Chat import and sharing
       Remote access
       IM and external integrations
-    Ecosystem and resources · 1511
-      Plugin markets and registries
-      Skill libraries and plugin managers
-      Templates and scaffolds
-    Knowledge and research · 1502
+    Knowledge and research · 1530
       Knowledge bases and cross-session memory
       Deep research
       Academia and math
-    Multi-agent orchestration · 673
+    Ecosystem and resources · 1529
+      Plugin markets and registries
+      Skill libraries and plugin managers
+      Templates and scaffolds
+    Multi-agent orchestration · 686
       Subagents and orchestration boards
       Fleets and agent teams
       Role division and acceptance checks
@@ -345,14 +345,14 @@ Screened recent projects, updated from time to time:
 
 | Project | Description | Created |
 | --- | --- | --- |
-| [Merziller/dsh-video-workbench](https://github.com/Merziller/dsh-video-workbench) | Dual-engine (HTML/GSAP & Remotion) video workbench with custom voice packs and AI voice matching. | 2026-11-14 |
-| [slimeball2026/DSH-Coach-mode](https://github.com/slimeball2026/DSH-Coach-mode) | A "reverse" agentic coach: instead of doing the work, the agent makes YOU do it. | 2026-10-18 |
-| [soso-deepseek-harness-plugins/dsh-context-track](https://github.com/soso-deepseek-harness-plugins/dsh-context-track) | Context-chain tracking: collapse an agent session into an expandable tree. | 2026-10-17 |
-| [LSHCoding/dsh-promptx](https://github.com/LSHCoding/dsh-promptx) | Global-hotkey prompt editor with a Markdown prompt library and model-assisted rewriting. | 2026-11-15 |
-| [ECHOUniverse/dsh-zoteroplugin](https://github.com/ECHOUniverse/dsh-zoteroplugin) | Browse and operate your Zotero library in the right sidebar — search, item details, a PDF reader with annotations, citations and 19 agent tools. | 2026-11-01 |
-| [junrui-li/dsh-agent-db-studio](https://github.com/junrui-li/dsh-agent-db-studio) | GUI-and-agent database studio in one: 20 db_* tools, ticket-gated writes with approval and forced outbound masking. | 2026-11-17 |
-| [Stars-XK/dsh-bitwarden](https://github.com/Stars-XK/dsh-bitwarden) | Bitwarden / Vaultwarden plugin: the AI sees metadata only, plaintext secrets never leave the vault, execution runs through a controlled channel. | 2026-11-17 |
-| [NiuVector/dsh-pcbagent](https://github.com/NiuVector/dsh-pcbagent) | Dual KiCad schematic & PCB views with KiCanvas rendering and local Freerouting. | 2026-11-17 |
+| [chenkezhen480/dsh-world](https://github.com/chenkezhen480/dsh-world) | A complete world for the whale companion: long-term memory, a paired compaction strategy, persona cards, WeChat/QQ channels, computer use and multi-world instances. | 2026-10-24 |
+| [liangdabiao/dsh-realman-studio](https://github.com/liangdabiao/dsh-realman-studio) | Realman Studio: a Seedance storyboard skill wired to the Jimeng CLI — one sentence in, a live-action-feel short film out, all inside the conversation. | 2026-11-17 |
+| [YinkaiYu/chat-in-dsh](https://github.com/YinkaiYu/chat-in-dsh) | The authentic DeepSeek web chat, inside DeepSeek Harness. | 2026-11-18 |
+| [kadaliao/dsh-bots](https://github.com/kadaliao/dsh-bots) | Grok-style bot teams: each bot has its own persona, model, skills and memory, plus a dispatcher that hands out the work. | 2026-11-18 |
+| [klarkxy/ds-dot](https://github.com/klarkxy/ds-dot) | Dorothy — an always-on coordinator that manages workspaces, steers sessions, handles approvals and reminders, and reports back. | 2026-11-14 |
+| [liaty8/dsh-muteki-preset](https://github.com/liaty8/dsh-muteki-preset) | Muteki swarm agent preset: blackboard fact graph, evidence gates, per-problem isolation, programmatic dispatch and heterogeneous models. | 2026-11-15 |
+| [Panmax/dsh-next-step-suggestion](https://github.com/Panmax/dsh-next-step-suggestion) | Codex-style ghost next-step suggestions: one clickable hint after every finished answer. | 2026-11-18 |
+| [ziui1008/dsh-chat-pro](https://github.com/ziui1008/dsh-chat-pro) | Chat through the official web interface, switching providers, models and reasoning effort configured in DSH. | 2026-11-19 |
 
 ## 📣 Author showcase
 
@@ -383,7 +383,7 @@ Self-submitted recommendations from plugin authors, following the [contributing 
 - **Market data (npm feed):** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) publishes `market-catalog.json` (schema 3: the complete reviewed catalog, each row carrying `install_status` and its install mapping, plus the official subscription and the editorial picks) and `packages.json` (the install-mapping source). It is projected by `scripts/safe-market-catalog.mjs`, packaged by `publish-npm-feed.mjs`, and mirrored through npmmirror.
 - **Chinese by default, bilingual:** native readability for the main audience, with a dedicated English entry point.
 
-As of 2026-11-19, the catalog lists **28,678** repositories across **40** primary languages; **26,385** declare a license and **28,350** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
+As of 2026-11-19, the catalog lists **29,362** repositories across **41** primary languages; **27,025** declare a license and **29,033** are neither archived nor disabled (the catalog updates after each review merge — see [CATALOG.md](./CATALOG.md) for current numbers).
 
 ## ⚠️ Usage & safety
 

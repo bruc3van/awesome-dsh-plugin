@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19",
+  "updated_at": "2026-11-20",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -45440,6 +45440,15 @@
       "status": "readme-verified",
       "verified_date": "2026-11-19",
       "verified_via": "README + Git commit"
+    },
+    "playinginzzz/fairy-dsh-compat": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-20",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "Fork-republication of Fairy-DSH (Apache-2.0) distributed via GitHub Releases install.cmd / uninstall.cmd, or download the five .tgz bundles and run `dsh plugin --profile web add <文件路径>` for each; no paste-safe single install command exists upstream."
     }
   }
 }

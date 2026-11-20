@@ -35,48 +35,48 @@
 ## 🗺️ 生态全景
 
 <!-- dsh:panorama:start -->
-截至 2026-11-19 共收录 **28678** 个经核实的仓库。它们长这样：
+截至 2026-11-19 共收录 **29362** 个经核实的仓库。它们长这样：
 
 ```mermaid
 mindmap
-  root((DSH 插件生态 28678))
-    界面与体验 · 9427
+  root((DSH 插件生态 29362))
+    界面与体验 · 9669
       用量与计费面板
       侧边栏工作台
       皮肤与桌面宠物
       通知与输入增强
-    实用工具与其他 · 3672
+    实用工具与其他 · 3834
       文件与编码
       格式转换
-    网页与浏览器 · 3184
+    网页与浏览器 · 3249
       浏览器桥接与页面操作
       网页搜索与引用
       归档与网页取证
-    开发者工具 · 2931
+    开发者工具 · 2962
       Git 与 diff
       模型网关与密钥
       调试与诊断
-    Agent 自动化与工作流 · 2314
+    Agent 自动化与工作流 · 2373
       会话与上下文管理
       定时循环与事件唤醒
       审批、预算与检查点
-    设计媒体与视觉 · 1764
+    设计媒体与视觉 · 1804
       图片理解与 OCR
       设计画布与 UI 还原
       语音合成与识别
-    集成与分享 · 1700
+    集成与分享 · 1726
       会话导入与分享
       远程访问
       IM 与外部集成
-    生态与资源 · 1511
-      插件市场与注册表
-      技能库与插件管家
-      开发模板与脚手架
-    知识与研究 · 1502
+    知识与研究 · 1530
       知识库与跨会话记忆
       深度研究
       学术与数学
-    多 Agent 编排协作 · 673
+    生态与资源 · 1529
+      插件市场与注册表
+      技能库与插件管家
+      开发模板与脚手架
+    多 Agent 编排协作 · 686
       子代理与编排看板
       舰队与团队协作
       角色分工与任务验收
@@ -346,14 +346,14 @@ mindmap
 
 | 项目 | 简介 | 创建日期 |
 | --- | --- | --- |
-| [Merziller/dsh-video-workbench](https://github.com/Merziller/dsh-video-workbench) | 双引擎（HTML/GSAP 与 Remotion）视频工作台，带自定义语音包与 AI 配音匹配。 | 2026-11-14 |
-| [slimeball2026/DSH-Coach-mode](https://github.com/slimeball2026/DSH-Coach-mode) | 「反向」教练模式：agent 不替你干活，而是盯着你把事情做完。 | 2026-10-18 |
-| [soso-deepseek-harness-plugins/dsh-context-track](https://github.com/soso-deepseek-harness-plugins/dsh-context-track) | 上下文链路追踪：把一次 agent 会话收成可展开的树。 | 2026-10-17 |
-| [LSHCoding/dsh-promptx](https://github.com/LSHCoding/dsh-promptx) | 全局快捷键提示词编辑器：Markdown 提示词库 + 模型辅助改写。 | 2026-11-15 |
-| [ECHOUniverse/dsh-zoteroplugin](https://github.com/ECHOUniverse/dsh-zoteroplugin) | 在右栏直接浏览与操作 Zotero 文献库：检索、条目详情、PDF 批注高亮、引文与 19 个 agent 工具。 | 2026-11-01 |
-| [junrui-li/dsh-agent-db-studio](https://github.com/junrui-li/dsh-agent-db-studio) | GUI 与 Agent 一体的数据库管理工作台：20 个 db_* 工具，写操作走工单审批、出站强制脱敏。 | 2026-11-17 |
-| [Stars-XK/dsh-bitwarden](https://github.com/Stars-XK/dsh-bitwarden) | Bitwarden / Vaultwarden 密码库插件：AI 只拿元数据、密码明文不出仓、受控执行通道。 | 2026-11-17 |
-| [NiuVector/dsh-pcbagent](https://github.com/NiuVector/dsh-pcbagent) | KiCad 原理图与 PCB 双视图：KiCanvas 渲染与本地 Freerouting 布线。 | 2026-11-17 |
+| [chenkezhen480/dsh-world](https://github.com/chenkezhen480/dsh-world) | 给鲸鲸一个完整的世界：长期记忆、配套压缩策略、人设卡、微信/QQ 渠道、电脑操作与多世界实例。 | 2026-10-24 |
+| [liangdabiao/dsh-realman-studio](https://github.com/liangdabiao/dsh-realman-studio) | 真人剧工坊：Seedance 分镜 skill 接即梦官方 CLI 出图出片，一句话故事到成片全程在对话里完成。 | 2026-11-17 |
+| [YinkaiYu/chat-in-dsh](https://github.com/YinkaiYu/chat-in-dsh) | 在 DeepSeek Harness 里使用 DeepSeek 网页版聊天，原汁原味的官方网页体验。 | 2026-11-18 |
+| [kadaliao/dsh-bots](https://github.com/kadaliao/dsh-bots) | Grok 式 bot 团队：每个 bot 有自己的人设、模型、技能与记忆，外加一个派单器分发工作。 | 2026-11-18 |
+| [klarkxy/ds-dot](https://github.com/klarkxy/ds-dot) | Dorothy 常驻协调插件：管理工作区、引导会话、处理审批与提醒并向你汇报。 | 2026-11-14 |
+| [liaty8/dsh-muteki-preset](https://github.com/liaty8/dsh-muteki-preset) | Muteki 蜂群 Agent 预设：黑板事实图、证据门、按题隔离、程序化派单与异构模型。 | 2026-11-15 |
+| [Panmax/dsh-next-step-suggestion](https://github.com/Panmax/dsh-next-step-suggestion) | Codex 风格的「下一步」幽灵建议：每轮回答后给出可点击的下一步提示。 | 2026-11-18 |
+| [ziui1008/dsh-chat-pro](https://github.com/ziui1008/dsh-chat-pro) | 用官方网页版界面聊天：可切换 DSH 里已配置的供应商、模型与思考档位。 | 2026-11-19 |
 
 ## 📣 作者自荐
 
@@ -384,7 +384,7 @@ mindmap
 - **市场数据（npm feed）：** [awesome-dsh-plugin-feed](https://www.npmjs.com/package/awesome-dsh-plugin-feed) 发布 `market-catalog.json`（schema 3：完整已审核目录，每行带 `install_status` 与安装映射，另含官方订阅与编辑精选）和 `packages.json`（安装映射源）；由 `scripts/safe-market-catalog.mjs` 投影、`publish-npm-feed.mjs` 打包，国内经 npmmirror 镜像分发。字段见下游的[消费协议](https://github.com/bruc3van/dsh-market-pro/blob/master/docs/market-json-spec.md)。
 - **中文默认，中英双语：** 普通用户可以直接理解，英文读者也有独立入口。
 
-截至 2026-11-19，全量目录收录 **28678** 个仓库、**40** 种主要语言；其中 **26385** 个声明了许可证，**28350** 个未归档且未禁用（目录随审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
+截至 2026-11-19，全量目录收录 **29362** 个仓库、**41** 种主要语言；其中 **27025** 个声明了许可证，**29033** 个未归档且未禁用（目录随审核合并更新，最新统计以 [CATALOG.md](./CATALOG.md) 为准）。
 
 ## ⚠️ 使用与安全
 

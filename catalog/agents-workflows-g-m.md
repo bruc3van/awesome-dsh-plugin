@@ -4,9 +4,9 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 
 [← 目录总览 / Catalog index](../CATALOG.md) · [中文首页](../README.md) · [English home](../README_EN.md) · [Star Top 200](../TOP200.md) · [JSON data](../data/repositories.json)
 
-- 本册收录 / Entries in this volume: **723**
+- 本册收录 / Entries in this volume: **745**
 - 快照日期 / Snapshot date: **2026-11-19 UTC**
-- 最近人工复核 / Last review merge: **2026-11-18**
+- 最近人工复核 / Last review merge: **2026-11-20**
 
 | Project | Description | Language | Stars | License | Updated |
 | --- | --- | --- | ---: | --- | --- |
@@ -111,10 +111,13 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [Lukeknow0/dsh-side-chat](https://github.com/Lukeknow0/dsh-side-chat) | Read-only side chat plugin for DeepSeek Harness (DSH) — ask temporary questions with inherited context while the parent agent keeps running. | JavaScript | 4 | MIT | 2026-10-01 |
 | [lulu23316/dsh-mood](https://github.com/lulu23316/dsh-mood) | 为 DeepSeek Harness 增加心情引擎与赛博日记的插件 | JavaScript | 4 | MIT | 2026-11-05 |
 | [lw24-1936/dsh-agent-prompts](https://github.com/lw24-1936/dsh-agent-prompts) | DeepSeek Harness 技能包：7 个按场景加载的技能（全栈单体/微服务 × 开发/排查 + 阿里 Java/前端规约 + 软件工程流程自动选择），带 P0 红线扫描、章节渐进披露与提交前门禁；技术版本跟随项目，不硬绑。 | JavaScript | 4 | MIT | 2026-11-14 |
+| [maptec-api/agent-plugins](https://github.com/maptec-api/agent-plugins) | Maptec Maps plugin for AI Agent. Quickly add map rendering, place search, route planning, geocoding, and more. | JavaScript | 4 | MIT | 2026-11-19 |
 | [G57651/dsh-dual-checkin](https://github.com/G57651/dsh-dual-checkin) | DeepSeek Harness 插件 — Trae、Qoder、WorkBuddy 每日自动签到（本机登录态、多平台互不阻塞、积分与到期提醒） | JavaScript | 3 | MIT | 2026-10-30 |
 | [gameswu/dsh-human-coding](https://github.com/gameswu/dsh-human-coding) | DeepSeek Harness 增加古法编程模式，让模型监督你写代码！ | TypeScript | 3 | MIT | 2026-09-16 |
+| [GhabiX/spine-plugin](https://github.com/GhabiX/spine-plugin) | Spine context-management plugins for Pi (@spinejit/pi-spinejit) and DeepSeek Harness (@spinejit/dsh-spinejit), backed by the portable Spine SDK. | JavaScript | 3 | Apache-2.0 | 2026-11-19 |
 | [GongYuanCaiJi/dsh-chinese-thinking](https://github.com/GongYuanCaiJi/dsh-chinese-thinking) | DeepSeek Harness 插件：让 agent 默认用中文思考与回复（移植自 superpowers-zh） | JavaScript | 3 | MIT | 2026-10-27 |
 | [GongYuanCaiJi/dsh-mattpocock-skills](https://github.com/GongYuanCaiJi/dsh-mattpocock-skills) | DeepSeek Harness 插件：Matt Pocock 工程技能包——grilling、spec/ticket 流程、TDD、code review、domain modeling 等工程技能（移植自 mattpocock/skills） | JavaScript | 3 | MIT | 2026-10-09 |
+| [HomoLand/dsh-trellis](https://github.com/HomoLand/dsh-trellis) | Trellis workflow integration for DeepSeek Harness | JavaScript | 3 | MIT | 2026-11-19 |
 | [hoyyang/dsh-concise](https://github.com/hoyyang/dsh-concise) | Concise output style for dsh: per-session toggle + digest card with clickable files. 简洁输出、每轮附摘要卡、路径可点。 | TypeScript | 3 | MIT | 2026-11-08 |
 | [iasiv5/skills](https://github.com/iasiv5/skills) | Agent Skills · 𝓲-Collection | JavaScript | 3 | MIT | 2026-11-12 |
 | [Icstick/dsh-context-maid](https://github.com/Icstick/dsh-context-maid) | DeepSeek Harness 自动上下文策展插件：tool 输出内容感知瘦身 + 无效日志清理 + 工作流/记忆钉扎保护 + 先归档后压缩 + 摘要模型可配 | JavaScript | 3 | MIT | 2026-11-09 |
@@ -133,6 +136,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [lizhecome/deepseek-harness-prompt-optimizer](https://github.com/lizhecome/deepseek-harness-prompt-optimizer) | LLM-backed prompt optimization bundle for DeepSeek Harness | TypeScript | 3 | MIT | 2026-09-16 |
 | [loadingvx/deepseeh-harness-ultra-slash](https://github.com/loadingvx/deepseeh-harness-ultra-slash) | /steer commands for deepseek-harness | TypeScript | 3 | MIT | 2026-09-13 |
 | [maxy1817/dsh-inline-edit](https://github.com/maxy1817/dsh-inline-edit) | DeepSeek Harness 原生消息编辑插件，支持修改文字和附件，可选择新建分支或在当前对话重新生成。 | JavaScript | 3 | MIT | 2026-11-07 |
+| [misaki-rx/dsh-inplace-annotate](https://github.com/misaki-rx/dsh-inplace-annotate) | A DSH (DeepSeek Harness) plugin for annotating agent replies: select text to mark Agree/Disagree/Question/Comment, then send all review notes with your next prompt. | JavaScript | 3 | MIT | 2026-11-19 |
 | [MJorgin/dsh-skill-router](https://github.com/MJorgin/dsh-skill-router) | Rule-first pre-step skill router for DeepSeek Harness — pours matched skills on high-confidence hits, stays silent otherwise. Deterministic: zero LLM calls, zero token cost until a rule pours, one pour per session, broken YAML never breaks the session. 规则路由 · 高置信命中 · 静默放行 · 零 Token 消耗 | JavaScript | 3 | MIT | 2026-11-03 |
 | [MkaliezZ/dsh-agentfuse-plugin](https://github.com/MkaliezZ/dsh-agentfuse-plugin) | Deterministic fail-closed tool-call authorization for DSH with evidence: allow/block/ask policy gate plus approval-chain deferral. | TypeScript | 3 | Apache-2.0 | 2026-10-11 |
 | [MountBatten718/dsh-session-handoff](https://github.com/MountBatten718/dsh-session-handoff) | DSH 会话接力插件 · 长会话到点先问你一句，把需求/进度/下一步写成交接文档，开个干净新会话接着干（手动 /handoff 或自动触发）。 Session handoff for DeepSeek Harness. | JavaScript | 3 | MIT | 2026-10-24 |
@@ -183,6 +187,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [lcx9451/dsh-engineering-skill-pack](https://github.com/lcx9451/dsh-engineering-skill-pack) | DeepSeek Harness 技能包：28 个工程 / 技术栈 / 界面设计 / 写作技能，dsh plugin add 一条命令装完（含上游署名与许可证） | JavaScript | 2 | MIT | 2026-11-02 |
 | [LeemanCheung/dsh-agent-preset-recommender](https://github.com/LeemanCheung/dsh-agent-preset-recommender) | Privacy-safe local Codex, Claude Code, WorkBuddy and CodeBuddy activity scanner that recommends DSH agent presets. | JavaScript | 2 | MIT | 2026-09-12 |
 | [leolee9086/dsh-context-care](https://github.com/leolee9086/dsh-context-care) | DeepSeek Harness 的疲劳度、唤醒值与自主上下文压缩 Cordis 插件 | JavaScript | 2 | AGPL-3.0 | 2026-11-01 |
+| [liangdabiao/dsh-seekword](https://github.com/liangdabiao/dsh-seekword) | 捕获英语生词 · AI 驱动的生词预习与闪卡学习 dsh 插件：多来源捕获（粘贴/YouTube 字幕/本地字幕/网页）→ agent 筛选制卡 → 单词本面板。移植自 SeekWord。deepseek harness插件，先学再看（Pre-exposure）：从任意语言内容里先捕获高价值生词、生成学习卡片，再带着上下文去阅读/观看——学得更快、记得更牢。 | JavaScript | 2 | MIT | 2026-11-19 |
 | [lij0000-arch/dsh-workspace-migrate](https://github.com/lij0000-arch/dsh-workspace-migrate) | Workspace-scoped DeepSeek Harness migration: conversations, project files and attachments with path remapping | JavaScript | 2 | MIT | 2026-11-14 |
 | [limlnx523/dsh-plus-plus](https://github.com/limlnx523/dsh-plus-plus) | DSH++ — a local-first control plane for DeepSeek Harness. Plugin security auditing and workflow regression testing. | JavaScript | 2 | MIT | 2026-11-02 |
 | [linbin-mk/dsh-session-sync](https://github.com/linbin-mk/dsh-session-sync) | deepseek-harness 会话同步 | TypeScript | 2 | MIT | 2026-11-17 |
@@ -253,6 +258,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [jingmei2/dsh-session-bin](https://github.com/jingmei2/dsh-session-bin) | Physically delete DeepSeek Harness Sessions through an undoable recycle bin: trash, restore, or purge for good. | JavaScript | 1 | MIT | 2026-11-02 |
 | [jipika/dsh-preset-hotswap](https://github.com/jipika/dsh-preset-hotswap) | Switch the agent preset (standard / PTC / cordis) of an already-started conversation from the session header. DSH host+client plugin. | JavaScript | 1 | MIT | 2026-11-10 |
 | [Jisiyong-A/dsh-plugin-background-compaction](https://github.com/Jisiyong-A/dsh-plugin-background-compaction) | Zero-latency compaction for DeepSeek Harness: background speculative summaries cut the compaction stall from 16 s to 7 ms for ~2% extra tokens (measured). 零等待上下文压缩——16s 降到 7ms，只多花 2% token。 | TypeScript | 1 | MIT | 2026-11-02 |
+| [jixishi/dsh-tools-manage](https://github.com/jixishi/dsh-tools-manage) | DeepSeek Harness 工具档位插件：按来源插件分组的工具档位、PTC 提示同步、AI 分配。Source-aware tool profiles for DeepSeek Harness. | JavaScript | 1 | MIT | 2026-11-19 |
 | [JJJACKsong/dsh-plugin-context-cleanup-master](https://github.com/JJJACKsong/dsh-plugin-context-cleanup-master) | 上下文清理大师：DSH 整蛊插件——一键清理悬浮球，扫描近期会话真实 token 消耗后开一个全新会话。A prank one-click context cleaner for DeepSeek Harness. | JavaScript | 1 | MIT | 2026-11-10 |
 | [johnnycls/dsh-no-setup-mode](https://github.com/johnnycls/dsh-no-setup-mode) | DeepSeek Harness 免設置模式 — 安裝後開箱即用，幫你做出最好的設置（No-Setup Mode for DeepSeek Harness: out-of-the-box, best setup automatically） | JavaScript | 1 | MIT | 2026-09-12 |
 | [jonah791/dsh-agent-compact-self](https://github.com/jonah791/dsh-agent-compact-self) | DSH self-built plugin | TypeScript | 1 | — | 2026-08-21 |
@@ -267,6 +273,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [Justin-Mai/dsh-role-prompts](https://github.com/Justin-Mai/dsh-role-prompts) | DSH 插件：把岗位角色指令固定注入整个对话，避免 AI 跑偏 | JavaScript | 1 | MIT | 2026-10-20 |
 | [JuwanXu/dsh-camel](https://github.com/JuwanXu/dsh-camel) | DeepSeek Harness plugin for provider/model-aware adaptive rate-limit pacing, visible retries, and free-model recovery. | TypeScript | 1 | MIT | 2026-09-14 |
 | [JuwanXu/dsh-continue](https://github.com/JuwanXu/dsh-continue) | DeepSeek Harness plugin for fail-closed network recovery, recommended answers, decision learning, and unattended continuation. | TypeScript | 1 | MIT | 2026-09-14 |
+| [jwitmann/opencode-dev-framework](https://github.com/jwitmann/opencode-dev-framework) | Enforcement gates for AI coding agents on OpenCode and DeepSeek Harness — guardrails, per-edit lint, and a completion gate that requires proof of done. | TypeScript | 1 | MIT | 2026-11-19 |
 | [Kadima-code/dsh-session-mirror](https://github.com/Kadima-code/dsh-session-mirror) | Per-conversation backup / restore / cleanup plugin for DeepSeek Harness (DSH). | JavaScript | 1 | NOASSERTION | 2026-10-25 |
 | [kaijia323/dsh-plugin-jev](https://github.com/kaijia323/dsh-plugin-jev) | TypeSafe Jev (System One decision model) as a native jev_decide tool plugin for DeepSeek Harness | JavaScript | 1 | MIT | 2026-10-21 |
 | [KakaruHayate/dsh-degen-heal](https://github.com/KakaruHayate/dsh-degen-heal) | Detect and self-heal LLM output degeneration loops inside a DeepSeek Harness agent session.（有死锁，别用） | TypeScript | 1 | BSD-3-Clause | 2026-08-27 |
@@ -330,6 +337,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [lxchapu/dsh-session-purge](https://github.com/lxchapu/dsh-session-purge) | DSH（DeepSeek Harness）插件：把会话从磁盘上彻底删除。任意会话的「…」菜单里可删单条，侧边栏切到「仅显示已归档」时可一键删除全部已归档会话；两者都先弹二次确认，正在运行的会话会被拒绝删除。 | JavaScript | 1 | MIT | 2026-10-13 |
 | [lxy0714/dsh-omni-mode](https://github.com/lxy0714/dsh-omni-mode) | 全能模式：跨项目、质量优先的 DeepSeek Harness 预设，支持能力感知推理和自适应信息保留。 / Omni mode: a quality-first, cross-project DeepSeek Harness preset with capability-aware reasoning and adaptive retention. | JavaScript | 1 | MIT | 2026-11-12 |
 | [lycheelink/dsh-workbench](https://github.com/lycheelink/dsh-workbench) | Enterprise Agent Workbench for DeepSeek Harness (DSH)  | HTML | 1 | MIT | 2026-10-26 |
+| [lyhue1991/dsh-pi-preset](https://github.com/lyhue1991/dsh-pi-preset) | DSH agent preset running pi's system prompt and tools, with pi-codex's non-blocking bash | JavaScript | 1 | — | 2026-11-18 |
 | [maci0/dsh-ponytail](https://github.com/maci0/dsh-ponytail) | Ponytail (lazy senior dev mode) for DeepSeek Harness: six skills, an always-on anti-over-engineering ruleset, and a Plugin configuration card. | TypeScript | 1 | MIT | 2026-11-12 |
 | [mailmrcai/dsh-hermes-session](https://github.com/mailmrcai/dsh-hermes-session) | Import sessions from a local Hermes Agent into the current DeepSeek Harness conversation as bounded, untrusted background context. | JavaScript | 1 | MIT | 2026-10-26 |
 | [majia007/dsh-session-context-config](https://github.com/majia007/dsh-session-context-config) | Context profiles for DSH (deepseek-harness): pick which tools and which system prompt each new conversation receives. | TypeScript | 1 | MIT | 2026-11-19 |
@@ -367,6 +375,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [GemChance/dsh-chinese-minimal-mode](https://github.com/GemChance/dsh-chinese-minimal-mode) | DeepSeek Harness Minimal preset with an editable Markdown system prompt | JavaScript | 0 | MIT | 2026-10-07 |
 | [geml-spec/gemworks](https://github.com/geml-spec/gemworks) | GEML workflows for coding agents: a Claude Code plugin (a band above the prompt, a board), DeepSeek Harness and Pi adapters, an MCP server and a CLI. | TypeScript | 0 | AGPL-3.0 | 2026-11-12 |
 | [GenXGSS/dsh-capywarm](https://github.com/GenXGSS/dsh-capywarm) | 卡皮暖暖 CapyWarm — original capybara emotional-support plugin for DeepSeek Harness (DSH). 原创水豚情绪陪伴插件。 | JavaScript | 0 | MIT | 2026-10-30 |
+| [GhabiX/dsh-spinejit](https://github.com/GhabiX/dsh-spinejit) | Spine context management plugin for DeepSeek Harness (@spinejit/dsh-spinejit) — persistent subtask tree &amp; prefix-cache-friendly context compilation | TypeScript | 0 | Apache-2.0 | 2026-11-19 |
 | [ghbhiee/dsh-plugin-cli-session](https://github.com/ghbhiee/dsh-plugin-cli-session) | Resume-capable headless CLI session runner for DeepSeek Harness | TypeScript | 0 | MIT | 2026-08-18 |
 | [Ghost233/GhostAgentSentinel](https://github.com/Ghost233/GhostAgentSentinel) | 面向各类 AI agent 的通用任务与运行状态监控工具 | JavaScript | 0 | — | 2026-11-12 |
 | [Giauzihau/dsh-harness-zh](https://github.com/Giauzihau/dsh-harness-zh) | 把 DeepSeek Harness 面向模型的提示词译成简体中文的 DSH 插件 | JavaScript | 0 | MIT | 2026-11-04 |
@@ -398,6 +407,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [hanhan9999999999999999999/dsh-token-lock](https://github.com/hanhan9999999999999999999/dsh-token-lock) | Multi-dimensional token guard for DSH 2.0: measures what a session spends and what it produces, then nudges or blocks only the wasteful part. | JavaScript | 0 | MIT | 2026-11-16 |
 | [HanneLEE/dsh-agent-state](https://github.com/HanneLEE/dsh-agent-state) | DSH 外置状态机插件 · 幻觉抑制守卫 + 证据背书验证 + 上下文经济 · Structured state machine for long-horizon autonomous agents | TypeScript | 0 | — | 2026-10-09 |
 | [Hanochhu/dsh-context-offload](https://github.com/Hanochhu/dsh-context-offload) | Context offloading for DeepSeek Harness: consumed tool calls and their results are replaced in the model-visible history by a short stub, while the originals stay in the session log for replay. | JavaScript | 0 | MIT | 2026-09-24 |
+| [HanQing404/dsh-liuyao](https://github.com/HanQing404/dsh-liuyao) | 六爻纳甲解卦 for DeepSeek Harness：侧栏面板 + 三个 agent 工具（起卦 / 解卦 / 查典）。 | JavaScript | 0 | MIT | 2026-11-19 |
 | [hansjone/netxops](https://github.com/hansjone/netxops) | DeepSeek Harness Netx Ops agent preset (UME alarms, NE, managed CLI) | JavaScript | 0 | MIT | 2026-10-16 |
 | [Hao0311/dsh-deferred-approvals](https://github.com/Hao0311/dsh-deferred-approvals) | Non-blocking approvals and timed questions for DeepSeek Harness: permission requests park as pending items while the model keeps working, and ask_user_question runs in timed mode. | JavaScript | 0 | MIT | 2026-11-10 |
 | [harness-home/harness-ai-app](https://github.com/harness-home/harness-ai-app) | Mobile client for Harness AI — follow, answer and approve your hosted agent sessions from your phone. Expo + React Native, talks only to your own server. | TypeScript | 0 | MIT | 2026-08-26 |
@@ -422,6 +432,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [hhl123hhl/dsh-privacy-shield](https://github.com/hhl123hhl/dsh-privacy-shield) | 送模型前自动给手机号/身份证等隐私打码、回来再还原的 DeepSeek Harness 插件 | JavaScript | 0 | MIT | 2026-10-29 |
 | [hhuangpanda/dsh-tool-deny](https://github.com/hhuangpanda/dsh-tool-deny) | Hide or refuse named tools per agent preset in DeepSeek Harness. Can also hide system prompts added by tools. Useful when plugins force tools on all agent presets. dsh-tool-deny reduces context bloat. | JavaScript | 0 | MIT | 2026-11-08 |
 | [Hieupt1904/dsh-tvkt-vi](https://github.com/Hieupt1904/dsh-tvkt-vi) | Chuẩn tiếng Việt kỹ thuật TVKT-100 cho DeepSeek Harness: prompt contract cho mọi mode, skill tvkt-vi, linter L001-L007, agent mode DRAFT/REVIEW/REWRITE | JavaScript | 0 | MIT | 2026-11-17 |
+| [Hieupt1904/project-flow-explainer](https://github.com/Hieupt1904/project-flow-explainer) | Skill agent: đọc repository mã nguồn và dựng sơ đồ quy trình HTML tương tác, mở offline, có căn cứ file/dòng \| Read a codebase, trace a flow, render a self-contained interactive HTML workflow diagram | Python | 0 | — | 2026-11-19 |
 | [HildebrandYu/dsh-session-chains](https://github.com/HildebrandYu/dsh-session-chains) | DSH 交接鏈面板：把互相交接的對話聚成一條鏈（卡片／編號／面板／HUD／門檻提醒／自動交接） | JavaScript | 0 | MIT | 2026-11-07 |
 | [himoew/dsh-user-style](https://github.com/himoew/dsh-user-style) | 让 AI 记住「你喜欢怎么被对待」：可编辑的用户工作风格档案，在每次对话开始前注入系统提示词。悬浮面板 + 三层作用域（全局/工作区/仅本会话）+ 4 套内置预设 + 一键安装脚本。 | JavaScript | 0 | MIT | 2026-10-06 |
 | [HitMargin/dsh-kilo-prompt](https://github.com/HitMargin/dsh-kilo-prompt) | 把 Kilo Code 的内置系统提示词（soul + default）移植到 DSH，侧栏一键开关。 | JavaScript | 0 | MIT | 2026-11-17 |
@@ -431,6 +442,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [hluica/dsh-parent-instructions](https://github.com/hluica/dsh-parent-instructions) | Parent-workspace AGENTS.md guidance for nested workspaces in DeepSeek Harness. | JavaScript | 0 | MIT | 2026-11-17 |
 | [hluica/dsh-session-deleater](https://github.com/hluica/dsh-session-deleater) | Safely delete a local DeepSeek Harness session, its projection cache, workspace references, and optional media. | JavaScript | 0 | MIT | 2026-11-17 |
 | [HMYDK/ai-native-sdlc-dsh](https://github.com/HMYDK/ai-native-sdlc-dsh) | AI 原生 SDLC 作为 DeepSeek Harness 插件：任务状态机、制品链、独立验证、问题闭环与 RSI | TypeScript | 0 | MIT | 2026-11-11 |
+| [hningy/dsh-session-auto-title](https://github.com/hningy/dsh-session-auto-title) | Automatic conversation-wide session titles for DeepSeek Harness — retitles sessions as the topic evolves, with a Settings page for the switch and cadence. | JavaScript | 0 | MIT | 2026-11-19 |
 | [hollis-openlab/dsh-matt-skills-flow](https://github.com/hollis-openlab/dsh-matt-skills-flow) | Matt Skills engineering workflow plugin for DeepSeek Harness | JavaScript | 0 | MIT | 2026-08-25 |
 | [houyongsheng/deepseek-harness-molt](https://github.com/houyongsheng/deepseek-harness-molt) | The coding agent that grows its own tools. It reflects after each task, writes a reusable tool, tests it, and keeps it in a skill library that compounds. | Python | 0 | MIT | 2026-08-25 |
 | [HQ1995/deepseek-code](https://github.com/HQ1995/deepseek-code) | DeepSeek Code: Use the DeepSeek Harness via the Grok Build TUI | TypeScript | 0 | Apache-2.0 | 2026-09-26 |
@@ -483,6 +495,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [jalllychun/dsh-managed-approval](https://github.com/jalllychun/dsh-managed-approval) | Codex-inspired managed approval for DeepSeek Harness | TypeScript | 0 | MIT | 2026-08-17 |
 | [JasperGuWP/dsh-plugin-market](https://github.com/JasperGuWP/dsh-plugin-market) | DeepSeek Harness 插件技能库：浏览/预检/一键安装/更新/卸载 dsh 插件与 Skill 技能包，设置页一键重启与 harness 本体自更新。Plugin &amp; skill marketplace for deepseek-harness. | JavaScript | 0 | — | 2026-08-23 |
 | [JayDong9130/dsh-evolution-lab](https://github.com/JayDong9130/dsh-evolution-lab) | Proof-carrying Skill self-evolution for DeepSeek Harness | TypeScript | 0 | MIT | 2026-09-12 |
+| [JayF4n/dsh-poe-cn-guide](https://github.com/JayF4n/dsh-poe-cn-guide) | DeepSeek Harness 技能：用流亡编年史（poedb.tw）术语把流放之路构筑攻略译成中文。内置 3134 条中英对照、宝石真实插槽颜色（红/绿/蓝/白），可一键导出 Excel。 | JavaScript | 0 | NOASSERTION | 2026-11-18 |
 | [jcs130/dsh-harness2](https://github.com/jcs130/dsh-harness2) | Harness² experiments for DeepSeek Harness: isolated adapters, measured comparisons, native experiment views and evidence-linked lessons. | JavaScript | 0 | MIT | 2026-10-20 |
 | [jensentsts/dsh-steer-merge](https://github.com/jensentsts/dsh-steer-merge) | Combine closely spaced steering messages in DeepSeek Harness. | JavaScript | 0 | MIT | 2026-11-15 |
 | [jeremytenjo/dsh-plugin-backlog-md](https://github.com/jeremytenjo/dsh-plugin-backlog-md) | Native Backlog.md task management for DeepSeek Harness | TypeScript | 0 | MIT | 2026-10-24 |
@@ -542,6 +555,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [kemomimi12/dsh-auto-continue](https://github.com/kemomimi12/dsh-auto-continue) | Automatic turn-level resume for DeepSeek Harness: continues after transient model-request failures, merges provider outages into one storm, and always yields to a manual stop.DeepSeek Harness 自动续行插件：模型请求临时失败导致轮次中断后自动接着做；同一次网关故障只重试一次；手动停止永远优先。 | JavaScript | 0 | MIT | 2026-10-23 |
 | [kenjoe41/dsh-autocontinue](https://github.com/kenjoe41/dsh-autocontinue) | Automatic same-session continuation, retry with backoff, goal revival, and restart recovery for the DeepSeek Harness. | JavaScript | 0 | MIT | 2026-10-17 |
 | [kermars39-web/dsh-conversation-import](https://github.com/kermars39-web/dsh-conversation-import) | Import a local Codex conversation thread into a DeepSeek Harness Session, filed under its original working directory, with optional auto-sync. | JavaScript | 0 | MIT | 2026-11-02 |
+| [keycapai/dsh-prompt-aio](https://github.com/keycapai/dsh-prompt-aio) | DSH Prompt AIO — one command installs four DeepSeek Harness control plugins: tool surface, system prompt, and skill catalog. | JavaScript | 0 | MIT | 2026-11-19 |
 | [keyiadiannao/dsh-queue-merge](https://github.com/keyiadiannao/dsh-queue-merge) | Queue Consolidation for DeepSeek Harness: merge queued follow-up messages into one consolidated formal prompt for the next turn instead of piecemeal one-message-per-turn rework. | TypeScript | 0 | MIT | 2026-09-30 |
 | [kiiiiile/dsh-approval-ai-review](https://github.com/kiiiiile/dsh-approval-ai-review) | AI-reviewed auto-approval for DeepSeek Harness: safe tool asks granted automatically, risky ones escalated with the review attached | TypeScript | 0 | MIT | 2026-09-14 |
 | [kikiler114514/dsh-think-chinese](https://github.com/kikiler114514/dsh-think-chinese) | 强制 DeepSeek Harness 的所有对话用简体中文思考与回复：系统提示词硬约定 + 逐轮中文锚点双保险 | JavaScript | 0 | MIT | 2026-10-29 |
@@ -585,6 +599,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [Lequait/dsh-context-rescue](https://github.com/Lequait/dsh-context-rescue) | 给“上下文爆窗”的 DSH 会话叫救护车：识别溢出、把最老历史折叠成结构化摘要、原步重试；运行时零模型调用，可与任何压缩插件共存。 | JavaScript | 0 | MIT | 2026-11-05 |
 | [Leslie2-11/dsh-minimal-fix](https://github.com/Leslie2-11/dsh-minimal-fix) | Windows platform fix for the DeepSeek Harness (dsh) minimal agent preset: pwsh instead of bash on win32 | PowerShell | 0 | NOASSERTION | 2026-08-15 |
 | [letterk/dsh-adhd-mode](https://github.com/letterk/dsh-adhd-mode) | ADHD-friendly output style for DeepSeek Harness: a system-prompt hook, a live switch, and a settings page. | JavaScript | 0 | MIT | 2026-10-11 |
+| [lfys/dsh-wsl-overlay](https://github.com/lfys/dsh-wsl-overlay) | Transparent WSL takeover for DSH - agent bash, file and search tools run inside the distro under the same tool names.dsh-plugin | JavaScript | 0 | MIT | 2026-11-18 |
 | [Liang-HZ/dsh-plugin-mcp-session-meta](https://github.com/Liang-HZ/dsh-plugin-mcp-session-meta) | DeepSeek Harness MCP client bridge that carries the calling Agent's session id in tools/call params._meta | JavaScript | 0 | MIT | 2026-10-12 |
 | [liangminhua/agent-notes-toolkit](https://github.com/liangminhua/agent-notes-toolkit) | Agent Notes mechanism as a portable toolkit: verification gates, scaffolding CLI, and the AN dsh preset/bundle | JavaScript | 0 | MIT | 2026-09-02 |
 | [liaoli-hero/dsh-prompt-plus](https://github.com/liaoli-hero/dsh-prompt-plus) | Prompt rewriting button for DeepSeek Harness | JavaScript | 0 | — | 2026-11-01 |
@@ -653,6 +668,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [luxueliu/luxueliu-agent-discipline-skills](https://github.com/luxueliu/luxueliu-agent-discipline-skills) | AI 不缺聪明，缺纪律！交付前自检（没从磁盘回读不算完成）/跑偏纠偏（一句「你偏了」就停）/系统化调试（同一个修复猜三次不收敛时用）/多 agent 接力（防旧状态盖掉新写入）——4 个单文件技能零依赖，每条都来自真实翻车事故，DeepSeek Harness / Claude Code / Codex 通用 | JavaScript | 0 | MIT | 2026-08-27 |
 | [lvguqingyou/dsh-project-anchor](https://github.com/lvguqingyou/dsh-project-anchor) | 项目锚定 / Project anchor — 新会话首句自动判定项目归属并注入项目上下文（DeepSeek Harness 插件） | JavaScript | 0 | MIT | 2026-11-15 |
 | [LXinH3RT/dsh-auto-relay](https://github.com/LXinH3RT/dsh-auto-relay) | DSH Host plugin: open a continuation session when a conversation keeps compressing near its context limit, and increment the session title's trailing number. | JavaScript | 0 | MIT | 2026-11-13 |
+| [LXMH1982/dsh-windows-agents](https://github.com/LXMH1982/dsh-windows-agents) | DeepSeek Harness 插件：在设置里编辑每个会话都会加载的用户全局 AGENTS.md。 | JavaScript | 0 | MIT | 2026-11-18 |
 | [ly14278/dsh-prompt-brief](https://github.com/ly14278/dsh-prompt-brief) | 给 DeepSeek Harness 输入框加「优化」按钮：口语需求 → 结构化产品需求（定位 / 核心功能 / 视觉参考 / 设计规范） | JavaScript | 0 | MIT | 2026-10-25 |
 | [ly6170/dsh-session-title](https://github.com/ly6170/dsh-session-title) | A DeepSeek Harness plugin that gives the model a tool to set the session title using rules you define. DeepSeek Harness 插件：给模型一个按你自己定义的规则设置会话标题的工具。 | JavaScript | 0 | MIT | 2026-09-24 |
 | [lyc0110/dsh-agent-guard](https://github.com/lyc0110/dsh-agent-guard) | DSH pre-execute gate: ask before a tool call leaks a credential, stops a service, or rewrites host network/registry state. | JavaScript | 0 | MIT | 2026-10-26 |
@@ -661,6 +677,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [lyuwen/dsh-agent-relay](https://github.com/lyuwen/dsh-agent-relay) | Relay messages between agent harness's native sessions | JavaScript | 0 | MIT | 2026-10-28 |
 | [lzlrt/dsh-auto-wake](https://github.com/lzlrt/dsh-auto-wake) | DSH 会话自动唤醒插件：给任意会话挂唤醒规则，检测结束异常后真正叫醒它继续干活 | JavaScript | 0 | MIT | 2026-11-16 |
 | [lzxcs/btw-pro](https://github.com/lzxcs/btw-pro) | /btw 旁路问答：不打断当前会话（含流式输出中），基于当前上下文回答一个问题；答案以「旁答」命令结果行显示在主会话里，不进入主模型上下文。 | JavaScript | 0 | MIT | 2026-08-26 |
+| [m-f-vip/ugi-font](https://github.com/m-f-vip/ugi-font) | 中文标题字 text-mask 批量出图：智能 tag 选字体，32 位 RGBA 白字透明底 PNG，按「国」字光学校正，自动裁边后四周精确补 3px。Chinese title text mask batch drawing: intelligent tag font selection, 32-bit RGBA white text transparent background PNG, press the "country" character to highlight the school, automatically trim the edges and accurately fill in 3px around the edges. | — | 0 | — | 2026-11-19 |
 | [m-guo-2/dsh-delayed-task](https://github.com/m-guo-2/dsh-delayed-task) | Durable delayed decisions for DeepSeek Harness | TypeScript | 0 | MIT | 2026-09-12 |
 | [m3159584479/dsh-workspace-studio](https://github.com/m3159584479/dsh-workspace-studio) | 为 DeepSeek Harness 提供嵌套工作区管理、首次安装交互式引导、专注模式、健康检查，以及对话式插件调整的社区插件。 | JavaScript | 0 | MIT | 2026-10-21 |
 | [M4rkzzz/dsh-decisiontools](https://github.com/M4rkzzz/dsh-decisiontools) | Optional bounded Decision API assistance for DeepSeek Harness: tool discovery, per-session DecisionBoost and search-source prefetch. | JavaScript | 0 | MIT | 2026-10-25 |
@@ -688,6 +705,8 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [MathieuPortmann/dsh-tool-result-pruner-plus](https://github.com/MathieuPortmann/dsh-tool-result-pruner-plus) | DSH plugin: pruned tool results start with a notice saying what is missing and exactly how to read it back (drop-in replacement for the stock pruner). | JavaScript | 0 | MIT | 2026-10-25 |
 | [MaudieHakimi/dsh-entry-shaper](https://github.com/MaudieHakimi/dsh-entry-shaper) | A Deepseek Harness Plugin to Shape The Entry of LLM. | JavaScript | 0 | MIT | 2026-11-08 |
 | [MauricioPerera/kdd-gates](https://github.com/MauricioPerera/kdd-gates) | KDD methodology gates as DeepSeek Harness (dsh) plugin tools | JavaScript | 0 | MIT | 2026-08-27 |
+| [MBSF-Yifan/mbsf-compaction](https://github.com/MBSF-Yifan/mbsf-compaction) | 结构即语义——未必科幻压缩引擎 \| DSH 插件（dsh-plugin）· DeepSeek Harness 上下文压缩 | JavaScript | 0 | Apache-2.0 | 2026-11-18 |
+| [McMorsh/ChipDeck](https://github.com/McMorsh/ChipDeck) | Always-on-top Windows overlay with pluggable features and a DSH agent panel. | PowerShell | 0 | MIT | 2026-11-19 |
 | [mdl233/dsh-staging-guard](https://github.com/mdl233/dsh-staging-guard) | DSH pre-execute hook: deny writes under a read-only result zone of protected roots. | JavaScript | 0 | MIT | 2026-10-29 |
 | [MeirinRuan/dsh-model-interruption-notifier](https://github.com/MeirinRuan/dsh-model-interruption-notifier) | DSH 模型运行失败后自动继续，也可切换为应用内提醒并手动确认。 | JavaScript | 0 | MIT | 2026-11-06 |
 | [MeloFang/dsh-prompt-sharpen](https://github.com/MeloFang/dsh-prompt-sharpen) | Pre-send checkup for prompts: a zero-token lint tells you which of output format, constraints, acceptance criteria and context your draft is missing, then one click fills exactly those gaps. | JavaScript | 0 | MIT | 2026-10-29 |
@@ -714,7 +733,9 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [mmojie/dsh-goal-autostart](https://github.com/mmojie/dsh-goal-autostart) | Emit a user-source message so the next turn can pass the create_goal human-turn guard. DEFAULT OFF; read the README first. | JavaScript | 0 | MIT | 2026-11-13 |
 | [Modole/dsh-plugin-workflow-laoboshi](https://github.com/Modole/dsh-plugin-workflow-laoboshi) | 面向 DSH Agent 的 DAG 工作流创建、测试、发布和执行插件。 | JavaScript | 0 | MIT | 2026-08-15 |
 | [Moeblack/dsh-preset-kit](https://github.com/Moeblack/dsh-preset-kit) | DSH 插件：把 agent preset 作为插件包发布——软链接安装、热更新、归属登记、干净卸载 \| Publish DeepSeek Harness agent presets as plugins: symlink installs, hot reload, ownership records, clean uninstall | TypeScript | 0 | — | 2026-08-15 |
+| [MokoKing666/dsh-davinci-qing](https://github.com/MokoKing666/dsh-davinci-qing) | 让青青住进你的dsh —— 连接 DeepSeek Harness 与 DaVinci Resolve Studio 的全流程工作流自动化桥梁，从媒体池归档、时间线粗剪到节点树调色与视觉审片，让创作者把时间留给创作。 | Python | 0 | MIT | 2026-11-19 |
 | [MOLMOORE/dsh-mode-switch](https://github.com/MOLMOORE/dsh-mode-switch) | Tool profiles for DeepSeek Harness: pick the tools a session carries, edit profiles and their tool sets in the panel | JavaScript | 0 | MIT | 2026-11-04 |
+| [moltocantabile/dsh-auto-model-router](https://github.com/moltocantabile/dsh-auto-model-router) | System One decision model routes every DSH agent request; tiers are envelopes, not model lists. | JavaScript | 0 | BSD-3-Clause | 2026-11-19 |
 | [monkey-sking/dsh-boot-resume](https://github.com/monkey-sking/dsh-boot-resume) | Resume the conversation a DSH restart interrupted — auto-continue the unfinished turn on boot. | JavaScript | 0 | MIT | 2026-10-31 |
 | [monkey-sking/dsh-noagent-schedule](https://github.com/monkey-sking/dsh-noagent-schedule) | Zero-token scheduled script runner for DeepSeek Harness (dsh-plugin): cron in the Host, no model calls, wake-on-change | JavaScript | 0 | MIT | 2026-10-31 |
 | [morcoan/ligui](https://github.com/morcoan/ligui) | Ligui — a thin, model-agnostic agent built on DeepSeek Harness | C | 0 | — | 2026-10-30 |
@@ -729,6 +750,7 @@ DSH 插件全量目录的「Agent、自动化与工作流（G–M）」分册 / 
 | [mubaid/dsh-fluent-korean](https://github.com/mubaid/dsh-fluent-korean) | DeepSeek Harness plugin that makes the model write fluent, natural Korean. Port of snflkd/fluent-korean. | JavaScript | 0 | MIT | 2026-10-02 |
 | [Muninn-and-Zmx/dsh-subtext](https://github.com/Muninn-and-Zmx/dsh-subtext) | 让 AI 在日常对话里听懂字面底下的一层：这句话传什么情感、此刻要什么、为什么不能直说；一旦进入工作整层暂停。只改「怎么听」，不改「怎么说」。 | JavaScript | 0 | MIT | 2026-11-10 |
 | [musria5001/dsh-conversation-forward](https://github.com/musria5001/dsh-conversation-forward) | 摘选 DSH 对话，原文或摘要转发到其他工作区的新会话。Pick, summarize, forward. | JavaScript | 0 | MIT | 2026-11-07 |
+| [mxxz11/dsh-autocontest](https://github.com/mxxz11/dsh-autocontest) | AutoConsent 自动审批插件，DeepSeek Harness一键自动放行Shell、文件权限审批，支持黑名单、裁决优先级管控 | JavaScript | 0 | MIT | 2026-11-19 |
 | [my-dsh-plugin/agent-mode-switcher](https://github.com/my-dsh-plugin/agent-mode-switcher) | Switch the current session's agent preset (mode) after the model answers and keep chatting. DeepSeek Harness 插件：模型回答后切换模式，继续当前对话。 | TypeScript | 0 | Apache-2.0 | 2026-09-18 |
 | [MycatQieZi/dsh-persona-shaoxin](https://github.com/MycatQieZi/dsh-persona-shaoxin) | 给 DeepSeek Harness 挂一个烧心体人格：改 Markdown 就是改人格，保存即生效。 | JavaScript | 0 | MIT | 2026-10-14 |
 | [myhylijp/my-dsh-message-search](https://github.com/myhylijp/my-dsh-message-search) | 按当前会话、工作区或全部会话检索消息正文 | JavaScript | 0 | MIT | 2026-11-16 |
