@@ -62,7 +62,6 @@ if (report.selection) {
 }
 const blockedRepositories = new Set([
   ...Object.keys(curated.excluded_repos || {}),
-  ...Object.keys(curated.leaderboard_exclusions || {}),
   ...Object.keys(curated.market_exclusions || {}),
   ...SELF_EXCLUDED_REPOS,
 ].map((name) => name.toLowerCase()))

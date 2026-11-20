@@ -19,16 +19,14 @@ export const SELF_EXCLUDED_REPOS = [
   'bruc3van/awesome-dsh-plugin',
 ];
 
-// Repositories that must not reach any downstream market. Both editorial
-// lists belong here: market_exclusions (non-plugin shapes and other markets)
-// and leaderboard_exclusions (desktop clients / shells, star-inflated repos,
-// catalog-only entries) — the review convention states that a board exclusion
-// also drops the repository from the downstream market, so every projection
-// reads this one set and the feeds cannot drift again.
+// Repositories that must not reach any downstream market: market_exclusions
+// (non-plugin shapes, desktop shells, other markets, and broken/giveaway repos)
+// plus SELF_EXCLUDED_REPOS. leaderboard_exclusions only governs the Star
+// leaderboard, so genuine DSH plugins from pre-existing high-star projects can
+// still reach the market without skewing the Star board.
 export function marketBlockedRepoNames(curated) {
   return new Set([
     ...Object.keys(curated.market_exclusions || {}),
-    ...Object.keys(curated.leaderboard_exclusions || {}),
     ...SELF_EXCLUDED_REPOS,
   ].map((key) => key.toLowerCase()));
 }

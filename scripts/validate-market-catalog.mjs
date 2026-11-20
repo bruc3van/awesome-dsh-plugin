@@ -4,7 +4,7 @@
 // market-v2 has its own validator; this one guards the other artifact, because
 // the two feeds read different projections and only a gate on each can keep
 // them from drifting. Rules: repository identity, the review gate, every
-// exclusion list (a board exclusion is a market exclusion), the install_status
+// market exclusion list (market_exclusions / self), the install_status
 // contract, plugin-level copy limits, and the subscription envelope.
 
 import { readFile } from 'node:fs/promises';
@@ -89,7 +89,7 @@ for (const [index, row] of catalog.entries.entries()) {
   seen.add(lower);
   if (!approved.has(lower)) errors.push(`${where}: "${row.full_name}" is not in data/approved.json — the market is review-gated`);
   if (excluded.has(lower)) errors.push(`${where}: "${row.full_name}" is in curated.json excluded_repos`);
-  if (blocked.has(lower)) errors.push(`${where}: "${row.full_name}" is on a market exclusion list (market_exclusions / leaderboard_exclusions / self)`);
+  if (blocked.has(lower)) errors.push(`${where}: "${row.full_name}" is on a market exclusion list (market_exclusions / self)`);
   const repoId = row.id ?? snapshotIdsBySlug.get(lower);
   if (excludedIds.has(repoId)) errors.push(`${where}: id ${repoId} is in curated.json excluded_repo_ids`);
   if (!categories.has(row.category)) errors.push(`${where}: category ${JSON.stringify(row.category)} is not a valid category key`);

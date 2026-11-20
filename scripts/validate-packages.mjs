@@ -57,9 +57,6 @@ const snapshotNames = new Set(
 const excludedNames = new Set(
   Object.keys(curated.excluded_repos || {}).map((key) => key.toLowerCase()),
 );
-const leaderboardNames = new Set(
-  Object.keys(curated.leaderboard_exclusions || {}).map((key) => key.toLowerCase()),
-);
 const marketExcludedNames = new Set(
   Object.keys(curated.market_exclusions || {}).map((key) => key.toLowerCase()),
 );
@@ -193,8 +190,8 @@ for (const [slug, entry] of Object.entries(entries)) {
   if (excludedNames.has(slug)) {
     errors.push(`${slug}: excluded_repos entry must not carry a packages mapping`);
   }
-  if (leaderboardNames.has(slug) || marketExcludedNames.has(slug)) {
-    warnings.push(`${slug}: catalog-only repo (leaderboard/market-excluded) — recorded, but it will not appear in the market catalog`);
+  if (marketExcludedNames.has(slug)) {
+    warnings.push(`${slug}: market-excluded repo — recorded, but it will not appear in the market catalog`);
   }
 }
 

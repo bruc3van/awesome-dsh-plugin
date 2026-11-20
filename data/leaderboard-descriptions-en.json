@@ -14,6 +14,7 @@
   "FuRongJun-1999/dsh-memory": "White-box AGI architecture exploration: metacognition loop, knowledge flywheel, and world model, with auditable trust guardrails.",
   "Han-1413141/dsh-cost-meter": "Session cost meter: per-session and daily costs, budgets, provider balances, a token heatmap, and peak/off-peak pricing alerts.",
   "Mars-Sea/dsh-commandcode-provider": "Command Code provider plugin: direct models with a live catalog, plan-aware model selection, reasoning effort, image input, web search, and account rotation.",
+  "MeteorNOX/DeepSeek-Balance-Whale-Widget": "A bouncy whale-girl widget in the bottom-right corner of the DSH UI tracking your DeepSeek API balance, with drag-and-snap edges, left-edge flip, and rolling number animations.",
   "Miaotofu01/Study-Mate": "AI study partner that plans, explains, and builds projects with you — learn a subject by doing, as a DSH mode preset.",
   "Minglink/dsh-infinite-gen-4": "Red-team security testing plugin for DeepSeek V4.1/Flash: a dual-layer prompt-injection core, 60+ black-box break lanes, and a live client status bar.",
   "Nagi-ovo/dsh-ads": "Turn DSH into a 2005 web portal: parody ads, fake games, and pop-ups.",

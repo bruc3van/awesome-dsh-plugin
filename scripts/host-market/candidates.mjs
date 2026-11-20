@@ -17,7 +17,6 @@ export function buildCandidates({ market, snapshot, curated, approved, packages 
   const { repos } = filterPool(snapshot, curated, approved)
   const excludedRepositories = [...new Set([
     ...Object.keys(curated.excluded_repos || {}),
-    ...Object.keys(curated.leaderboard_exclusions || {}),
     ...Object.keys(curated.market_exclusions || {}),
     ...SELF_EXCLUDED_REPOS,
   ].map((name) => name.toLowerCase()))].sort()

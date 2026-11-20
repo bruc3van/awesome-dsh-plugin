@@ -41,3 +41,5 @@ jobs:
         run: node scripts/validate-curated.mjs
       - name: Check the published catalog against the curation data
         run: node scripts/merge.mjs --check
+      - name: Validate the market catalog projection
+        run: node scripts/validate-market-catalog.mjs

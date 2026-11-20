@@ -24,28 +24,31 @@ test('delivery applies every market exclusion and preserves subscription order',
   }
 
   const deliveredNames = new Set(catalog.entries.map(row => row.full_name))
-  // Market-class and self-excluded repositories never reach the market.
+  // Market-class, non-plugin shells, giveaway/broken repos and self-excluded
+  // repositories never reach the market.
   for (const name of [
     'dsh-market/dsh-market',
     'dataelement/dsh-desktop',
     'CSlawyer1985/dsh-desktop',
     'shutongX/dsh-plugins-index',
+    'Ebony-Vinyl/dsh-our-free-model',
+    'yjh051108/dsh-routing-suite',
     ...SELF_EXCLUDED_REPOS,
   ]) {
     assert.ok(!deliveredNames.has(name), `${name} is excluded from the market`)
   }
-  // A board exclusion is a market exclusion: desktop clients and
-  // star-inflated repositories must not appear in either feed.
+  // leaderboard_exclusions only governs the Star board: genuine DSH plugins
+  // kept off the board due to pre-existing/cross-host stars stay available in
+  // the market catalog unless they are also in market_exclusions.
   for (const name of [
     'tw93/Mole',
     'reactive-resume/reactive-resume',
     'alchaincyf/nuwa-skill',
-    'Ebony-Vinyl/dsh-our-free-model',
   ]) {
-    assert.ok(!deliveredNames.has(name), `${name} is board-excluded and must not reach the market`)
+    assert.ok(deliveredNames.has(name), `${name} is board-only excluded and should remain available in the market`)
   }
-  for (const [name, reason] of Object.entries(state.curated.leaderboard_exclusions)) {
-    assert.ok(!deliveredNames.has(name), `${name} is in leaderboard_exclusions (${reason})`)
+  for (const [name, reason] of Object.entries(state.curated.market_exclusions)) {
+    assert.ok(!deliveredNames.has(name), `${name} is in market_exclusions (${reason})`)
   }
 
   assert.ok(catalog.subscription.plugins.some(plugin => plugin.name === 'dsh-vision-bridge-zh'))

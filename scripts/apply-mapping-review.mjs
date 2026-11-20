@@ -57,10 +57,9 @@ const [packages, snapshot, curated, skipRaw] = await Promise.all([
 ]);
 const snapshotNames = new Set((snapshot.repositories || []).map((repo) => String(repo.full_name).toLowerCase()));
 const excluded = new Set(Object.keys(curated.excluded_repos || {}).map((key) => key.toLowerCase()));
-const blocked = new Set([
-  ...Object.keys(curated.leaderboard_exclusions || {}),
-  ...Object.keys(curated.market_exclusions || {}),
-].map((key) => key.toLowerCase()));
+const blocked = new Set(
+  Object.keys(curated.market_exclusions || {}).map((key) => key.toLowerCase()),
+);
 
 const files = (await readdir(resolve(root, FROM))).filter((name) => name.endsWith('.json')).sort();
 if (files.length === 0) {
