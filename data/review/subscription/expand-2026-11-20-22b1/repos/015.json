@@ -1,0 +1,103 @@
+{
+  "full_name": "AIpRoBuilder/FlowX",
+  "originalPosition": 15,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 15,
+  "batch": 1,
+  "stargazers_count": 204,
+  "startedAt": "2026-11-20T22:22:56.849Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "c4e14928bbd3e00b764305d3df4706e7a29e4aa773608f16e2fbb18b4b1fdc26",
+      "url": "https://github.com/AIpRoBuilder/FlowX/blob/b1d0c1f26e0e94e6bf003f04000eb940873f70c8/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "ff9a21fdfca4eac34b19adbd23d68dd4be6c19b5597d5f93b700b6d37085728d",
+      "url": "https://github.com/AIpRoBuilder/FlowX/blob/b1d0c1f26e0e94e6bf003f04000eb940873f70c8/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/hermes-flowx/README.md",
+      "sha256": "8ae0d919481c9637f5d72fadb7fc73b6f734627715baf36086da6144cb76e8bd",
+      "url": "https://github.com/AIpRoBuilder/FlowX/blob/b1d0c1f26e0e94e6bf003f04000eb940873f70c8/plugins/hermes-flowx/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/deepseek-harness-flowx/README.md",
+      "sha256": "1375e97ca178fec2c0277ad0575e633532be4acd92b9e1e037bcb6ca2ecd0a0b",
+      "url": "https://github.com/AIpRoBuilder/FlowX/blob/b1d0c1f26e0e94e6bf003f04000eb940873f70c8/plugins/deepseek-harness-flowx/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "assets/README-picture-demo.md",
+      "sha256": "b1b1ddaadddf2f772bd8d993a8573529eb4b38ad0936ef8aeb2b24b1ce8645e0",
+      "url": "https://github.com/AIpRoBuilder/FlowX/blob/b1d0c1f26e0e94e6bf003f04000eb940873f70c8/assets/README-picture-demo.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-flowx-plugin",
+      "version": "0.1.0",
+      "path": "plugins/deepseek-harness-flowx",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/AIpRoBuilder/FlowX",
+        "commit": "b1d0c1f26e0e94e6bf003f04000eb940873f70c8",
+        "path": "plugins/deepseek-harness-flowx"
+      },
+      "manifestSha256": "e0fd7800664c42fc9f54a589330cb7b9b1823ff99728e2ed65f77e296738b9a5",
+      "manifestUrl": "https://github.com/AIpRoBuilder/FlowX/blob/b1d0c1f26e0e94e6bf003f04000eb940873f70c8/plugins/deepseek-harness-flowx/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-flowx-plugin",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795163199,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/AIpRoBuilder/FlowX",
+              "commit": "b1d0c1f26e0e94e6bf003f04000eb940873f70c8",
+              "path": "plugins/deepseek-harness-flowx"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/AIpRoBuilder/FlowX",
+    "commit": "b1d0c1f26e0e94e6bf003f04000eb940873f70c8",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:22:59.170Z"
+}

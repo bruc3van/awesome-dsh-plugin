@@ -1,0 +1,79 @@
+{
+  "full_name": "wudidiandian/dsh-solo",
+  "originalPosition": 30,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 30,
+  "batch": 1,
+  "stargazers_count": 8,
+  "startedAt": "2026-11-20T22:23:02.587Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "8811063f3d0156026d61286be1282a85c94190aa0d656f9d31d8b19be20511c9",
+      "url": "https://github.com/wudidiandian/dsh-solo/blob/c5e258a339fd71452f87f264a694d2a99bd33681/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "a89fd7142ccd683a81620ef23181f8497bed70c2a21f235f684d7a245572d0e8",
+      "url": "https://github.com/wudidiandian/dsh-solo/blob/c5e258a339fd71452f87f264a694d2a99bd33681/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-solo-agent",
+      "version": "0.1.7",
+      "path": "packages/agent",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/wudidiandian/dsh-solo",
+        "commit": "c5e258a339fd71452f87f264a694d2a99bd33681",
+        "path": "packages/agent"
+      },
+      "manifestSha256": "5262e081d6afedde79fca2bc625fcb7f0027c1bee29b4006b9b8dbe8a53c429c",
+      "manifestUrl": "https://github.com/wudidiandian/dsh-solo/blob/c5e258a339fd71452f87f264a694d2a99bd33681/packages/agent/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-solo-agent",
+        "versions": [
+          {
+            "version": "0.1.7",
+            "publishTimestamp": 1795190633,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/wudidiandian/dsh-solo",
+              "commit": "c5e258a339fd71452f87f264a694d2a99bd33681",
+              "path": "packages/agent"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/wudidiandian/dsh-solo",
+    "commit": "c5e258a339fd71452f87f264a694d2a99bd33681",
+    "releaseTags": 5,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:04.720Z"
+}

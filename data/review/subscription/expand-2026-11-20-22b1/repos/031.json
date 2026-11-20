@@ -1,0 +1,103 @@
+{
+  "full_name": "Zoragyx/dsh-phone-pair",
+  "originalPosition": 31,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 31,
+  "batch": 1,
+  "stargazers_count": 6,
+  "startedAt": "2026-11-20T22:23:02.907Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9c34b32ba47b2eacbdb81b12b99ab7547238aefc8c1ce96fd45f55caaa853151",
+      "url": "https://github.com/Zoragyx/dsh-phone-pair/blob/eac3b65aae9778af530f4a523dc18fda8253cec3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "android/README.md",
+      "sha256": "d39055317a563d2cd6577e1d9113659c7a4233efe5b69b2dd0d4c6620cbafae3",
+      "url": "https://github.com/Zoragyx/dsh-phone-pair/blob/eac3b65aae9778af530f4a523dc18fda8253cec3/android/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "video/README.md",
+      "sha256": "4017d4058630012c684fc093f991f95c0cffd975059460db891d63b5f270d71e",
+      "url": "https://github.com/Zoragyx/dsh-phone-pair/blob/eac3b65aae9778af530f4a523dc18fda8253cec3/video/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "market/README.md",
+      "sha256": "0a905406d3f9c9e48566ab51b30bfbf8296eef7581b28aea8d855829a9b661de",
+      "url": "https://github.com/Zoragyx/dsh-phone-pair/blob/eac3b65aae9778af530f4a523dc18fda8253cec3/market/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugin/dsh-phone-pair-kit/README.md",
+      "sha256": "1dff3719cc9a0b1fbc01a20da0d81035de8953017c5d6453046d1f182112a93d",
+      "url": "https://github.com/Zoragyx/dsh-phone-pair/blob/eac3b65aae9778af530f4a523dc18fda8253cec3/plugin/dsh-phone-pair-kit/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-phone-pair-kit",
+      "version": "1.0.0",
+      "path": "plugin/dsh-phone-pair-kit",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Zoragyx/dsh-phone-pair",
+        "commit": "eac3b65aae9778af530f4a523dc18fda8253cec3",
+        "path": "plugin/dsh-phone-pair-kit"
+      },
+      "manifestSha256": "25e5268f324bb274867b4750b038f3d2c7d076185b922de0b4d3aaccba2cd932",
+      "manifestUrl": "https://github.com/Zoragyx/dsh-phone-pair/blob/eac3b65aae9778af530f4a523dc18fda8253cec3/plugin/dsh-phone-pair-kit/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-phone-pair-kit",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1792233850,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Zoragyx/dsh-phone-pair",
+              "commit": "eac3b65aae9778af530f4a523dc18fda8253cec3",
+              "path": "plugin/dsh-phone-pair-kit"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Zoragyx/dsh-phone-pair",
+    "commit": "eac3b65aae9778af530f4a523dc18fda8253cec3",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:05.251Z"
+}

@@ -1,0 +1,124 @@
+{
+  "full_name": "alibaba-damo-academy/yugoo-design",
+  "originalPosition": 29,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 29,
+  "batch": 1,
+  "stargazers_count": 10,
+  "startedAt": "2026-11-20T22:23:02.397Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9e33e9a2e256c4d7cdec71378bd151832a98d4ef9c5b4d355c2a7790fd31caa8",
+      "url": "https://github.com/alibaba-damo-academy/yugoo-design/blob/4533d2e85032639db9eae0a68563ffa1ab56e795/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "c96698f708cb23c4d88598b736c48262f2170671bd722fde4a5f5aa028706e8c",
+      "url": "https://github.com/alibaba-damo-academy/yugoo-design/blob/4533d2e85032639db9eae0a68563ffa1ab56e795/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/companion/hosts/codex-desktop/README.md",
+      "sha256": "ca97fc883f2494297e7bdb90adc29b4555175cb5588d56a44e7d3fad5b9ad2c3",
+      "url": "https://github.com/alibaba-damo-academy/yugoo-design/blob/4533d2e85032639db9eae0a68563ffa1ab56e795/packages/companion/hosts/codex-desktop/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/wiki/README.md",
+      "sha256": "ade6c8a52f4ffefe3f2dc3eac62dde5c8cfe080afb006f9ca60041eba1baecde",
+      "url": "https://github.com/alibaba-damo-academy/yugoo-design/blob/4533d2e85032639db9eae0a68563ffa1ab56e795/docs/wiki/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/design-team-delivery/README.md",
+      "sha256": "d433dedb1e8fde74191df4c4bc87fc36c63e6bd6788dfa61a0384eb6d60b3571",
+      "url": "https://github.com/alibaba-damo-academy/yugoo-design/blob/4533d2e85032639db9eae0a68563ffa1ab56e795/examples/design-team-delivery/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "examples/community-workshop-delivery/README.md",
+      "sha256": "03941aeb69c995adcdc27bedbdeae5e9a4ef9f91e231acb02806ff1c0b2448bf",
+      "url": "https://github.com/alibaba-damo-academy/yugoo-design/blob/4533d2e85032639db9eae0a68563ffa1ab56e795/examples/community-workshop-delivery/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "19a3b305db097a91b091402066f1939f72eacd42d9cb46e65c0df102cb3b444e",
+      "url": "https://github.com/alibaba-damo-academy/yugoo-design/blob/4533d2e85032639db9eae0a68563ffa1ab56e795/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/wiki/README.en.md",
+      "sha256": "f5563c526703559242c35ac06ffa0db246e9c4af5908b4066c35a80988b0a80f",
+      "url": "https://github.com/alibaba-damo-academy/yugoo-design/blob/4533d2e85032639db9eae0a68563ffa1ab56e795/docs/wiki/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@yugoo-design/dsh-design-system-dsh",
+      "version": "0.0.0",
+      "path": "packages/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/alibaba-damo-academy/yugoo-design",
+        "commit": "4533d2e85032639db9eae0a68563ffa1ab56e795",
+        "path": "packages/dsh"
+      },
+      "manifestSha256": "e80ae4744cea34ca71aea3cf06640ee86444c83d8a0977190b7e39560e9aa54a",
+      "manifestUrl": "https://github.com/alibaba-damo-academy/yugoo-design/blob/4533d2e85032639db9eae0a68563ffa1ab56e795/packages/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@yugoo-design/dsh-design-system-dsh",
+        "versions": [
+          {
+            "version": "0.0.0",
+            "publishTimestamp": 1794950512,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/alibaba-damo-academy/yugoo-design",
+              "commit": "4533d2e85032639db9eae0a68563ffa1ab56e795",
+              "path": "packages/dsh"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/alibaba-damo-academy/yugoo-design",
+    "commit": "4533d2e85032639db9eae0a68563ffa1ab56e795",
+    "releaseTags": 33,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:08.999Z"
+}

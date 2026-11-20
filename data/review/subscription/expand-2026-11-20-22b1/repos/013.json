@@ -1,0 +1,67 @@
+{
+  "full_name": "LiarMTTT/TavernWeave",
+  "originalPosition": 13,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 13,
+  "batch": 1,
+  "stargazers_count": 226,
+  "startedAt": "2026-11-20T22:22:55.144Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "5edb1c8d43a119e25d7b364df15857f036c8aa6f5441806322d604653d2642af",
+      "url": "https://github.com/LiarMTTT/TavernWeave/blob/f9863d2b05305457fe9ed8b0c5688d52aca400a5/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "host-adapters/antigravity/README.md",
+      "sha256": "daaf2052e822dd1887e74fa68d722cfdf9f164a541060c77b25d9e2701c30be7",
+      "url": "https://github.com/LiarMTTT/TavernWeave/blob/f9863d2b05305457fe9ed8b0c5688d52aca400a5/host-adapters/antigravity/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "host-adapters/dsh/README.md",
+      "sha256": "77af1a881923b2e5ebdbfcc721bc7230e73eac5fd5eaf8eab63faede16cc8fe5",
+      "url": "https://github.com/LiarMTTT/TavernWeave/blob/f9863d2b05305457fe9ed8b0c5688d52aca400a5/host-adapters/dsh/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "liarmttt-tavernweave-dsh",
+      "version": "2.4.0",
+      "path": "host-adapters/dsh/plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LiarMTTT/TavernWeave",
+        "commit": "f9863d2b05305457fe9ed8b0c5688d52aca400a5",
+        "path": "host-adapters/dsh/plugin"
+      },
+      "manifestSha256": "2b04398af7db269a846b44ec104ba3725c59fcfa986cedc58b905159ace4657a",
+      "manifestUrl": "https://github.com/LiarMTTT/TavernWeave/blob/f9863d2b05305457fe9ed8b0c5688d52aca400a5/host-adapters/dsh/plugin/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LiarMTTT/TavernWeave",
+    "commit": "f9863d2b05305457fe9ed8b0c5688d52aca400a5",
+    "releaseTags": 22,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-20T22:22:56.848Z"
+}

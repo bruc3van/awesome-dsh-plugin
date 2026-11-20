@@ -1,0 +1,71 @@
+{
+  "full_name": "stlin256/DSH-Harmony",
+  "originalPosition": 27,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 27,
+  "batch": 1,
+  "stargazers_count": 20,
+  "startedAt": "2026-11-20T22:23:02.108Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "29fddf0595bb0139c8084dddac4d318b113021a450ca59b7043e5e136e562a00",
+      "url": "https://github.com/stlin256/DSH-Harmony/blob/28a079caf30986feab7423a596171d8eb2d08c63/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@dsh-harmony/plugin",
+      "version": "0.4.0",
+      "path": "plugins/dsh-harmony",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/stlin256/DSH-Harmony",
+        "commit": "28a079caf30986feab7423a596171d8eb2d08c63",
+        "path": "plugins/dsh-harmony"
+      },
+      "manifestSha256": "32f8f3272d214df38017ef73c4facd5fccce162306b907fa9163b59e32d29be3",
+      "manifestUrl": "https://github.com/stlin256/DSH-Harmony/blob/28a079caf30986feab7423a596171d8eb2d08c63/plugins/dsh-harmony/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@dsh-harmony/plugin",
+        "versions": [
+          {
+            "version": "0.4.0",
+            "publishTimestamp": 1794257913,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/stlin256/DSH-Harmony",
+              "commit": "28a079caf30986feab7423a596171d8eb2d08c63",
+              "path": "plugins/dsh-harmony"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/stlin256/DSH-Harmony",
+    "commit": "28a079caf30986feab7423a596171d8eb2d08c63",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:04.859Z"
+}

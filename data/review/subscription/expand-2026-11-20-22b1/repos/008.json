@@ -1,0 +1,67 @@
+{
+  "full_name": "chuspeeism/dashi-taskboard",
+  "originalPosition": 8,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 8,
+  "batch": 1,
+  "stargazers_count": 3510,
+  "startedAt": "2026-11-20T22:22:51.086Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "4a7d3ad3ab751dc0165942570d596617488ba15e129855d78caf76b634f490a8",
+      "url": "https://github.com/chuspeeism/dashi-taskboard/blob/bc25451c5c49a14abb6c4e8250b62c626b007f8a/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "60eaf497b39847ff486780bc89b907b63dc95f1559d736f230dc9fca55455aef",
+      "url": "https://github.com/chuspeeism/dashi-taskboard/blob/bc25451c5c49a14abb6c4e8250b62c626b007f8a/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "tools/windows/README.md",
+      "sha256": "47f70f587ff92e414de690c79f8f49cda915998b27134c3e0d5f03924326cf62",
+      "url": "https://github.com/chuspeeism/dashi-taskboard/blob/bc25451c5c49a14abb6c4e8250b62c626b007f8a/tools/windows/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-codex-taskboard",
+      "version": "1.0.0",
+      "path": "integrations/deepseek-harness",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/chuspeeism/dashi-taskboard",
+        "commit": "bc25451c5c49a14abb6c4e8250b62c626b007f8a",
+        "path": "integrations/deepseek-harness"
+      },
+      "manifestSha256": "5785fab6631d1afd7d0f490f10da53fd8cbff42024bd58c1a42187a1a6cf02fa",
+      "manifestUrl": "https://github.com/chuspeeism/dashi-taskboard/blob/bc25451c5c49a14abb6c4e8250b62c626b007f8a/integrations/deepseek-harness/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chuspeeism/dashi-taskboard",
+    "commit": "bc25451c5c49a14abb6c4e8250b62c626b007f8a",
+    "releaseTags": 78,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-20T22:22:53.330Z"
+}

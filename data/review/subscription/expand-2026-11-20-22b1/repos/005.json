@@ -1,0 +1,115 @@
+{
+  "full_name": "kunkundi/crossdesk",
+  "originalPosition": 5,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 5,
+  "batch": 1,
+  "stargazers_count": 5073,
+  "startedAt": "2026-11-20T22:22:48.297Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "f69709e1fa6c9f4cc4a83aeab190b384be53aa9b38a6a6efd225a3ee228004a4",
+      "url": "https://github.com/kunkundi/crossdesk/blob/ff369cd023b7b0481ee94a54570fb9793bb24079/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_EN.md",
+      "sha256": "7cbf6b3b24cf6f4198642eb382995ad0ed23160665f1ed0342b074febee219b3",
+      "url": "https://github.com/kunkundi/crossdesk/blob/ff369cd023b7b0481ee94a54570fb9793bb24079/README_EN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "1bab3b02e980a36966328cc17e9f6fedd920baf698781fb81afa5b7bc2b933a2",
+      "url": "https://github.com/kunkundi/crossdesk/blob/ff369cd023b7b0481ee94a54570fb9793bb24079/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/cli/README.md",
+      "sha256": "a125e440ec583e184aa638f57b298aab36fae32cae79baa71461e07de702f657",
+      "url": "https://github.com/kunkundi/crossdesk/blob/ff369cd023b7b0481ee94a54570fb9793bb24079/apps/cli/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/mcp/README.md",
+      "sha256": "07431c259075cfe1e7c550f0014c9ff57037d05ca61b6d6b76cfd214d0a67684",
+      "url": "https://github.com/kunkundi/crossdesk/blob/ff369cd023b7b0481ee94a54570fb9793bb24079/apps/mcp/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "apps/ios/README.md",
+      "sha256": "7c10b713d6d1d0c3107981ae64a304d319432a059fd2b0b30ed295ebbaf20b13",
+      "url": "https://github.com/kunkundi/crossdesk/blob/ff369cd023b7b0481ee94a54570fb9793bb24079/apps/ios/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/harmony/README.md",
+      "sha256": "62fc075742aaba19bc57163edca3adbda50d2db123cc076a4584555b48a10cc7",
+      "url": "https://github.com/kunkundi/crossdesk/blob/ff369cd023b7b0481ee94a54570fb9793bb24079/apps/harmony/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/android/README.md",
+      "sha256": "790c1494334416b6c54b4d83f0c04616c9546b83d690651667e48b9454c35a99",
+      "url": "https://github.com/kunkundi/crossdesk/blob/ff369cd023b7b0481ee94a54570fb9793bb24079/apps/android/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "apps/harmony/desktop-port/README.md",
+      "sha256": "6173e1fb384c64ed4994393f975665b00d071aa6f63bee90714842d556a7160e",
+      "url": "https://github.com/kunkundi/crossdesk/blob/ff369cd023b7b0481ee94a54570fb9793bb24079/apps/harmony/desktop-port/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@chunkdash/crossdesk-mcp",
+      "version": "0.2.0",
+      "path": "apps/mcp",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/kunkundi/crossdesk",
+        "commit": "ff369cd023b7b0481ee94a54570fb9793bb24079",
+        "path": "apps/mcp"
+      },
+      "manifestSha256": "3cadaf73d2227411132c5490cb641e731725e2ee2c64932cdd9abc5aa74b2230",
+      "manifestUrl": "https://github.com/kunkundi/crossdesk/blob/ff369cd023b7b0481ee94a54570fb9793bb24079/apps/mcp/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/kunkundi/crossdesk",
+    "commit": "ff369cd023b7b0481ee94a54570fb9793bb24079",
+    "releaseTags": 128,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-20T22:22:52.387Z"
+}

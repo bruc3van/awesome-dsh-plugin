@@ -1,304 +1,1124 @@
 {
-  "generated_at": "2026-11-19T22:48:31.857Z",
+  "generated_at": "2026-11-20T22:21:42.597Z",
   "min_stars": 5,
-  "scanned": 21,
+  "scanned": 93,
   "applied": [
     {
-      "slug": "keli-wen/cospan",
-      "stars": 21,
-      "branches": "master",
+      "slug": "alchaincyf/nuwa-skill",
+      "stars": 38643,
+      "branches": "main",
       "packages": [
         {
-          "profile": "desktop",
-          "source": "github:keli-wen/cospan",
-          "command": "dsh plugin --profile desktop add github:keli-wen/cospan",
-          "install": "https://github.com/keli-wen/cospan"
+          "profile": "web",
+          "source": "github:alchaincyf/nuwa-skill",
+          "command": "dsh plugin --profile web add github:alchaincyf/nuwa-skill",
+          "install": "https://github.com/alchaincyf/nuwa-skill"
         }
       ],
       "via": "readme"
     },
     {
-      "slug": "Jaylor-Wang/dsh-awesome-optimizer",
+      "slug": "alchaincyf/huashu-design",
+      "stars": 29883,
+      "branches": "master",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:alchaincyf/huashu-design",
+          "command": "dsh plugin --profile desktop add github:alchaincyf/huashu-design",
+          "install": "https://github.com/alchaincyf/huashu-design"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "Tencent/BrowserSkill",
+      "stars": 10590,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@wxg-prc-cpg/browser-skill-dsh-plugin",
+          "command": "dsh plugin --profile web add @wxg-prc-cpg/browser-skill-dsh-plugin",
+          "install": "@wxg-prc-cpg/browser-skill-dsh-plugin"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "MeteorNOX/DeepSeek-Balance-Whale-Widget",
+      "stars": 7363,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:MeteorNOX/DeepSeek-Balance-Whale-Widget",
+          "command": "dsh plugin --profile web add github:MeteorNOX/DeepSeek-Balance-Whale-Widget",
+          "install": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "QingYunA/answer-me-with-html",
+      "stars": 6555,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:QingYunA/answer-me-with-html",
+          "command": "dsh plugin --profile web add github:QingYunA/answer-me-with-html",
+          "install": "https://github.com/QingYunA/answer-me-with-html"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "onehumanbeing/esp32-iphone-agent",
+      "stars": 5106,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-esp32agent",
+          "command": "dsh plugin --profile web add dsh-esp32agent",
+          "install": "dsh-esp32agent"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "agentscope-ai/ReMe",
+      "stars": 3827,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@agentscope-ai/reme-dsh-plugin",
+          "command": "dsh plugin --profile web add @agentscope-ai/reme-dsh-plugin",
+          "install": "@agentscope-ai/reme-dsh-plugin"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "zilliztech/memsearch",
+      "stars": 2909,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@zilliz/memsearch-dsh",
+          "command": "dsh plugin --profile web add @zilliz/memsearch-dsh",
+          "install": "@zilliz/memsearch-dsh"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "oneclickvirt/ecs",
+      "stars": 2481,
+      "branches": "master",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-plugin-goecs",
+          "command": "dsh plugin --profile web add dsh-plugin-goecs",
+          "install": "dsh-plugin-goecs"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "kenryu42/cc-safety-net",
+      "stars": 2078,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:cc-safety-net",
+          "command": "dsh plugin --profile web add cc-safety-net",
+          "install": "cc-safety-net"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "helloHub1212/dsh-windows-mcp",
+      "stars": 1864,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-windows-mcp",
+          "command": "dsh plugin --profile web add dsh-windows-mcp",
+          "install": "dsh-windows-mcp"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "woniuniuniu/dsh-media-desk",
+      "stars": 1570,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-media-desk",
+          "command": "dsh plugin --profile desktop add dsh-media-desk",
+          "install": "dsh-media-desk"
+        },
+        {
+          "profile": "web",
+          "source": "npm:dsh-media-desk",
+          "command": "dsh plugin --profile web add dsh-media-desk",
+          "install": "dsh-media-desk"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "LiPu-jpg/Openwrite",
+      "stars": 999,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-openwrite",
+          "command": "dsh plugin --profile web add dsh-openwrite",
+          "install": "dsh-openwrite"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "keli-wen/agy-staff",
+      "stars": 900,
+      "branches": "master",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:keli-wen/agy-staff",
+          "command": "dsh plugin --profile desktop add github:keli-wen/agy-staff",
+          "install": "https://github.com/keli-wen/agy-staff"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "Roland0511/dsh-marktext",
+      "stars": 846,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-marktext",
+          "command": "dsh plugin --profile web add dsh-marktext",
+          "install": "dsh-marktext"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "chenxiachan/thoughtdag",
+      "stars": 797,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-thoughtdag",
+          "command": "dsh plugin --profile web add dsh-thoughtdag",
+          "install": "dsh-thoughtdag"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "Clearailhc/clearai-dsh",
+      "stars": 702,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:clearai-dsh@0.6.0",
+          "command": "dsh plugin --profile web add clearai-dsh@0.6.0",
+          "install": "clearai-dsh@0.6.0"
+        },
+        {
+          "profile": "web",
+          "source": "github:Clearailhc/clearai-dsh",
+          "command": "dsh plugin --profile web add github:Clearailhc/clearai-dsh",
+          "install": "https://github.com/Clearailhc/clearai-dsh"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "adoresever/graph-memory",
+      "stars": 678,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:adoresever/graph-memory#v1.6.0-beta.17",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add github:adoresever/graph-memory#v1.6.0-beta.17",
+          "install": "https://github.com/adoresever/graph-memory#v1.6.0-beta.17"
+        }
+      ],
+      "via": "readme",
+      "note": "npm graph-memory declares no repository (authorship unproven)"
+    },
+    {
+      "slug": "gitroomhq/postiz-agent",
+      "stars": 579,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:gitroomhq/postiz-agent#path:/plugins/dsh-postiz",
+          "command": "dsh plugin --profile web add \"github:gitroomhq/postiz-agent#path:/plugins/dsh-postiz\"",
+          "install": "https://github.com/gitroomhq/postiz-agent#path:/plugins/dsh-postiz"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "alchaincyf/huashu-excel",
+      "stars": 474,
+      "branches": "master",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:alchaincyf/huashu-excel",
+          "command": "dsh plugin --profile desktop add github:alchaincyf/huashu-excel",
+          "install": "https://github.com/alchaincyf/huashu-excel"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "zhuzhaoyun/Molio",
+      "stars": 451,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "default",
+          "source": "npm:dsh-plugin-molio",
+          "command": "dsh plugin add dsh-plugin-molio",
+          "install": "dsh-plugin-molio"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "oneclickvirt/oneclickvirt",
+      "stars": 384,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:oneclickvirt/oneclickvirt",
+          "command": "dsh plugin --profile web add github:oneclickvirt/oneclickvirt",
+          "install": "https://github.com/oneclickvirt/oneclickvirt"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "omagents/omagents",
+      "stars": 360,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@omagents/omagents-dsh",
+          "command": "dsh plugin --profile web add @omagents/omagents-dsh",
+          "install": "@omagents/omagents-dsh"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "chenkezhen480/dsh-world",
+      "stars": 350,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-world",
+          "command": "dsh plugin --profile web add dsh-world",
+          "install": "dsh-world"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "Li-Evan/BloomTutor",
+      "stars": 323,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:Li-Evan/BloomTutor",
+          "command": "dsh plugin --profile web add github:Li-Evan/BloomTutor",
+          "install": "https://github.com/Li-Evan/BloomTutor"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "huaguoxingkong/dsh-prompt-rewriter",
+      "stars": 289,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-prompt-rewriter",
+          "command": "dsh plugin --profile web add dsh-prompt-rewriter",
+          "install": "dsh-prompt-rewriter"
+        },
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-prompt-rewriter",
+          "command": "dsh plugin --profile desktop add dsh-prompt-rewriter",
+          "install": "dsh-prompt-rewriter"
+        },
+        {
+          "profile": "web",
+          "source": "github:huaguoxingkong/dsh-prompt-rewriter",
+          "command": "dsh plugin --profile web add github:huaguoxingkong/dsh-prompt-rewriter",
+          "install": "https://github.com/huaguoxingkong/dsh-prompt-rewriter"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "Devin-AXIS/jev-dsh-decision",
+      "stars": 274,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:devin-axis/jev-dsh-decision",
+          "command": "dsh plugin --profile web add github:devin-axis/jev-dsh-decision",
+          "install": "https://github.com/devin-axis/jev-dsh-decision"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "JayCRL/MobileVC",
+      "stars": 213,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:JayCRL/MobileVC",
+          "command": "dsh plugin --profile web add \"github:JayCRL/MobileVC\"",
+          "install": "https://github.com/JayCRL/MobileVC"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "jaccen/Awesome-Gaussian-Skills",
+      "stars": 189,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:jaccen/awesome-gaussian-skills",
+          "command": "dsh plugin --profile web add github:jaccen/awesome-gaussian-skills",
+          "install": "https://github.com/jaccen/awesome-gaussian-skills"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "AI4XE/Parallax",
+      "stars": 136,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:parallax-dsh",
+          "command": "dsh plugin --profile web add parallax-dsh",
+          "install": "parallax-dsh"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "SISCHOI/daruma",
+      "stars": 121,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-daruma",
+          "command": "dsh plugin --profile web add dsh-daruma",
+          "install": "dsh-daruma"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "Elio896/dsh-familiar-memory",
+      "stars": 107,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:elio896/dsh-familiar-memory",
+          "command": "dsh plugin --profile web add github:elio896/dsh-familiar-memory",
+          "install": "https://github.com/elio896/dsh-familiar-memory"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "Ethereal-Space-one/code2kb-agent-toolkit",
+      "stars": 85,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:code2kb-dsh",
+          "command": "dsh plugin --profile desktop add code2kb-dsh",
+          "install": "code2kb-dsh"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "fysh1010/mcp-server-fanqie",
+      "stars": 57,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@fysh925/mcp-server-fanqie",
+          "command": "dsh plugin --profile web add @fysh925/mcp-server-fanqie",
+          "install": "@fysh925/mcp-server-fanqie"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "KurutoDenzeru/tersio",
+      "stars": 35,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@krtclcdy/tersio",
+          "command": "dsh plugin --profile web add @krtclcdy/tersio",
+          "install": "@krtclcdy/tersio"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "liangdabiao/dsh-realman-studio",
+      "stars": 32,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:liangdabiao/dsh-realman-studio",
+          "command": "dsh plugin --profile web add github:liangdabiao/dsh-realman-studio",
+          "install": "https://github.com/liangdabiao/dsh-realman-studio"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "YinkaiYu/chat-in-dsh",
+      "stars": 30,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:chat-in-dsh",
+          "command": "dsh plugin --profile web add chat-in-dsh",
+          "install": "chat-in-dsh"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "Darianliu23/dsh-stardew-blind-whale-farmer",
+      "stars": 28,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:darianliu23/dsh-stardew-blind-whale-farmer",
+          "command": "dsh plugin --profile web add github:darianliu23/dsh-stardew-blind-whale-farmer",
+          "install": "https://github.com/darianliu23/dsh-stardew-blind-whale-farmer"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "PivisYYY/pivis-health",
+      "stars": 24,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "phealth",
+          "source": "github:PivisYYY/pivis-health",
+          "command": "dsh plugin --profile phealth add github:PivisYYY/pivis-health",
+          "install": "https://github.com/PivisYYY/pivis-health"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "LinYanZhi/dsh-mesh",
+      "stars": 22,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@linyanzhi/dsh-mesh",
+          "command": "dsh plugin --profile web add @linyanzhi/dsh-mesh",
+          "install": "@linyanzhi/dsh-mesh"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "thawline/dsh-wechat-bridge",
+      "stars": 22,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "github:thawline/dsh-wechat-bridge",
+          "command": "dsh plugin --profile desktop add github:thawline/dsh-wechat-bridge",
+          "install": "https://github.com/thawline/dsh-wechat-bridge"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "hyun20202023-ui/dsh-qfish",
+      "stars": 20,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "default",
+          "source": "npm:qfish",
+          "command": "dsh plugin add qfish",
+          "install": "qfish"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "kadaliao/dsh-bots",
+      "stars": 18,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:@kadaliao/dsh-bots",
+          "command": "dsh plugin --profile web add @kadaliao/dsh-bots",
+          "install": "@kadaliao/dsh-bots"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "02TJS/ProgressTarget",
+      "stars": 15,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-progress-target",
+          "command": "dsh plugin --profile web add dsh-progress-target",
+          "install": "dsh-progress-target"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "antibrow/dsh-antibrow",
+      "stars": 13,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:antibrow/dsh-antibrow",
+          "command": "dsh plugin --profile web add github:antibrow/dsh-antibrow",
+          "install": "https://github.com/antibrow/dsh-antibrow"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "Memorial-coder/dsh-remote-plugin",
+      "stars": 12,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "default",
+          "source": "github:Memorial-coder/dsh-remote-plugin",
+          "command": "dsh plugin add github:Memorial-coder/dsh-remote-plugin",
+          "install": "https://github.com/Memorial-coder/dsh-remote-plugin"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "JiamingShi-JsPhys/chelate-shell",
+      "stars": 11,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:chelate-shell",
+          "command": "dsh plugin --profile web add chelate-shell",
+          "install": "chelate-shell"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "martinbear1/dsh-wechat-remote",
+      "stars": 11,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:martinbear1/dsh-wechat-remote",
+          "command": "dsh plugin --profile web add github:martinbear1/dsh-wechat-remote",
+          "install": "https://github.com/martinbear1/dsh-wechat-remote"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "dsh-labs/kivotos",
       "stars": 10,
       "branches": "main",
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-awesome-optimizer",
-          "command": "dsh plugin --profile web add dsh-awesome-optimizer",
-          "install": "dsh-awesome-optimizer"
+          "source": "npm:kivotos",
+          "command": "dsh plugin --profile web add kivotos",
+          "install": "kivotos"
         }
       ],
       "via": "readme"
     },
     {
-      "slug": "stallenlu/dsh-freellmapi",
-      "stars": 6,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:stallenlu/dsh-freellmapi",
-          "command": "dsh plugin --profile web add github:stallenlu/dsh-freellmapi",
-          "install": "https://github.com/stallenlu/dsh-freellmapi"
-        }
-      ],
-      "via": "readme",
-      "note": "unsupported source url:https://github.com/stallenlu/dsh-freellmapi/releases/download/v1.2.12/dsh-freellmapi-1.2.12.tgz"
-    },
-    {
-      "slug": "taxueseek/dsh-suggestion-chips",
-      "stars": 6,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "desktop",
-          "source": "npm:dsh-suggestion-chips",
-          "command": "dsh plugin --profile desktop add dsh-suggestion-chips",
-          "install": "dsh-suggestion-chips"
-        }
-      ],
-      "via": "readme"
-    },
-    {
-      "slug": "bennett-dsh/dsh-plugin-usage",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:bennett-dsh/dsh-plugin-usage#v0.6.0",
-          "command": "dsh plugin --profile web add github:bennett-dsh/dsh-plugin-usage#v0.6.0",
-          "install": "https://github.com/bennett-dsh/dsh-plugin-usage#v0.6.0"
-        }
-      ],
-      "via": "readme",
-      "note": "command is not a concrete paste-safe `dsh plugin` invocation"
-    },
-    {
-      "slug": "ChimeSky/dsh-a2ui",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "desktop",
-          "source": "github:ChimeSky/dsh-a2ui#v0.3.1",
-          "command": "dsh plugin --profile desktop add github:ChimeSky/dsh-a2ui#v0.3.1",
-          "install": "https://github.com/ChimeSky/dsh-a2ui#v0.3.1"
-        }
-      ],
-      "via": "readme"
-    },
-    {
-      "slug": "cinderzhan/dsh-media-workbench",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:cinderzhan/dsh-media-workbench",
-          "command": "dsh plugin --profile web add github:cinderzhan/dsh-media-workbench",
-          "install": "https://github.com/cinderzhan/dsh-media-workbench"
-        }
-      ],
-      "via": "manifest",
-      "evidence": "manifest@package.json#dsh"
-    },
-    {
-      "slug": "contraliz/dsh-occlick",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "desktop",
-          "source": "github:contraliz/dsh-occlick",
-          "command": "dsh plugin --profile desktop add github:contraliz/dsh-occlick",
-          "install": "https://github.com/contraliz/dsh-occlick"
-        },
-        {
-          "profile": "web",
-          "source": "github:contraliz/dsh-occlick",
-          "command": "dsh plugin --profile web add github:contraliz/dsh-occlick",
-          "install": "https://github.com/contraliz/dsh-occlick"
-        }
-      ],
-      "via": "readme"
-    },
-    {
-      "slug": "dusbin/dsh-multi-tenant",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:dusbin/dsh-multi-tenant",
-          "command": "dsh plugin --profile web add github:dusbin/dsh-multi-tenant",
-          "install": "https://github.com/dusbin/dsh-multi-tenant"
-        }
-      ],
-      "via": "manifest",
-      "evidence": "manifest@package.json#dsh"
-    },
-    {
-      "slug": "Lng-ux/dsh-nebula-mind",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-nebula-mind",
-          "command": "dsh plugin --profile web add dsh-nebula-mind",
-          "install": "dsh-nebula-mind"
-        }
-      ],
-      "via": "manifest",
-      "evidence": "manifest@package.json (npm repository match)"
-    },
-    {
-      "slug": "lonelycrab888/dsh-remote-dc",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-remote-dc@0.1.1",
-          "command": "dsh plugin --profile web add dsh-remote-dc@0.1.1",
-          "install": "dsh-remote-dc@0.1.1"
-        }
-      ],
-      "via": "readme"
-    },
-    {
-      "slug": "lqshow/dsh-wechat-studio",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "desktop",
-          "source": "npm:dsh-wechat-studio",
-          "command": "dsh plugin --profile desktop add dsh-wechat-studio",
-          "install": "dsh-wechat-studio"
-        },
-        {
-          "profile": "web",
-          "source": "npm:dsh-wechat-studio",
-          "command": "dsh plugin --profile web add dsh-wechat-studio",
-          "install": "dsh-wechat-studio"
-        }
-      ],
-      "via": "readme"
-    },
-    {
-      "slug": "seewhydee/dsh-emacs-bridge",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-emacs-bridge",
-          "command": "dsh plugin --profile web add dsh-emacs-bridge",
-          "install": "dsh-emacs-bridge"
-        }
-      ],
-      "via": "readme"
-    },
-    {
-      "slug": "seolhw/dsh-guild",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:seolhw/dsh-guild",
-          "command": "npx @deepseek-ai/dsh plugin --profile web add github:seolhw/dsh-guild",
-          "install": "https://github.com/seolhw/dsh-guild"
-        }
-      ],
-      "via": "readme",
-      "note": "npm dsh-guild declares no repository (authorship unproven)"
-    },
-    {
-      "slug": "shenkonghui/dsh-llm-acp",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "my-acp",
-          "source": "github:shenkonghui/dsh-llm-acp",
-          "command": "dsh plugin --profile my-acp add github:shenkonghui/dsh-llm-acp",
-          "install": "https://github.com/shenkonghui/dsh-llm-acp"
-        }
-      ],
-      "via": "readme"
-    },
-    {
-      "slug": "TianzeLuo/dsh-super-agent",
-      "stars": 5,
+      "slug": "LUgABeEEE/minas-webdav",
+      "stars": 9,
       "branches": "master",
       "packages": [
         {
-          "profile": "web",
-          "source": "github:TianzeLuo/dsh-super-agent",
-          "command": "dsh plugin --profile web add github:TianzeLuo/dsh-super-agent",
-          "install": "https://github.com/TianzeLuo/dsh-super-agent"
+          "profile": "default",
+          "source": "npm:dsh-minas-webdav",
+          "command": "dsh plugin add dsh-minas-webdav",
+          "install": "dsh-minas-webdav"
         }
       ],
       "via": "readme"
     },
     {
-      "slug": "timho1047/dsh-stream-focus",
-      "stars": 5,
+      "slug": "chanyuenpang/dsh-cindy-host",
+      "stars": 8,
       "branches": "main",
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-stream-focus",
-          "command": "dsh plugin --profile web add dsh-stream-focus",
-          "install": "dsh-stream-focus"
-        }
-      ],
-      "via": "readme"
-    },
-    {
-      "slug": "xCube007/dsh-message-rewind",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-message-rewind",
-          "command": "dsh plugin --profile web add dsh-message-rewind",
-          "install": "dsh-message-rewind"
-        }
-      ],
-      "via": "readme"
-    },
-    {
-      "slug": "zyd232/dsh-compaction-policy",
-      "stars": 5,
-      "branches": "main",
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-compaction-policy",
-          "command": "dsh plugin --profile web add dsh-compaction-policy",
-          "install": "dsh-compaction-policy"
+          "source": "npm:dsh-cindy-host",
+          "command": "dsh plugin --profile web add dsh-cindy-host",
+          "install": "dsh-cindy-host"
         }
       ],
       "via": "manifest",
       "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "Imzl-zl/deepseek-harness-mobile",
+      "stars": 8,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "default",
+          "source": "npm:dsh-mobile-connector",
+          "command": "dsh plugin add dsh-mobile-connector",
+          "install": "dsh-mobile-connector"
+        },
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-mobile-connector",
+          "command": "dsh plugin --profile desktop add dsh-mobile-connector",
+          "install": "dsh-mobile-connector"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "klarkxy/ds-dot",
+      "stars": 7,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:ds-dot",
+          "command": "dsh plugin --profile web add ds-dot",
+          "install": "ds-dot"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "meat-daemon-404/agent-immune",
+      "stars": 6,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-immune-system",
+          "command": "dsh plugin --profile web add dsh-immune-system",
+          "install": "dsh-immune-system"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json (npm repository match)"
+    },
+    {
+      "slug": "Panmax/dsh-next-step-suggestion",
+      "stars": 6,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-next-step-suggestion",
+          "command": "dsh plugin --profile web add dsh-next-step-suggestion",
+          "install": "dsh-next-step-suggestion"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "ziui1008/dsh-chat-pro",
+      "stars": 6,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:ziui1008/dsh-chat-pro",
+          "command": "dsh plugin --profile web add github:ziui1008/dsh-chat-pro",
+          "install": "https://github.com/ziui1008/dsh-chat-pro"
+        }
+      ],
+      "via": "manifest",
+      "evidence": "manifest@package.json#dsh"
+    },
+    {
+      "slug": "321sssrt-bit/STOP-PUSHING-SHIT",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-stop-pushing-shit@0.1.3",
+          "command": "dsh plugin --profile web add dsh-stop-pushing-shit@0.1.3",
+          "install": "dsh-stop-pushing-shit@0.1.3"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "afeack/dsh-mobile-harness",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-mobile-harness",
+          "command": "dsh plugin --profile desktop add dsh-mobile-harness",
+          "install": "dsh-mobile-harness"
+        }
+      ],
+      "via": "readme"
+    },
+    {
+      "slug": "Hariketsu/dsh-herdr-bridge",
+      "stars": 5,
+      "branches": "main",
+      "packages": [
+        {
+          "profile": "desktop",
+          "source": "npm:dsh-herdr-bridge",
+          "command": "dsh plugin --profile desktop add dsh-herdr-bridge",
+          "install": "dsh-herdr-bridge"
+        }
+      ],
+      "via": "readme"
     }
   ],
   "review": [
     {
-      "slug": "playinginzzz/Fairy-DSH-compat",
-      "stars": 5,
-      "reason": "no install command extracted; no package.json",
-      "hint": "dsh plugin --profile web add <文件路径> 装",
+      "slug": "reactive-resume/reactive-resume",
+      "stars": 45922,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
       "candidates": []
     },
     {
-      "slug": "WaterDJiang/wtt-dsh-plugin",
+      "slug": "DayuanJiang/next-ai-draw-io",
+      "stars": 37073,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "nexu-io/openmotion",
+      "stars": 12818,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "lingfengQAQ/webnovel-writer",
+      "stars": 8022,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "kunkundi/crossdesk",
+      "stars": 5073,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "strukto-ai/mirage",
+      "stars": 3796,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "anywhere-labs/Agents-Anywhere",
+      "stars": 3585,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "chuspeeism/dashi-taskboard",
+      "stars": 3510,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "agentic-os-org/ANOLISA",
+      "stars": 682,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "chainbase-labs/Agentkey",
+      "stars": 652,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "aerovato/operator-memory",
+      "stars": 519,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "runzhliu/welink",
+      "stars": 325,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "LiarMTTT/TavernWeave",
+      "stars": 226,
+      "reason": "no install command extracted; no package.json",
+      "hint": "dsh plugin --profile <profile> add <本地路径|tarball|git 地址|包名> ； desktop profile 由 Desktop shell 管理，不要直接调用 CLI。",
+      "candidates": []
+    },
+    {
+      "slug": "tencentmusic/modus",
+      "stars": 217,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "AIpRoBuilder/FlowX",
+      "stars": 204,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "Finderchangchang/brewreel",
+      "stars": 189,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "regrevia/Envoy",
+      "stars": 158,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "tiwe0/GeoChat",
+      "stars": 128,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "fangqian616/consensus-pipeline",
+      "stars": 120,
+      "reason": "no install command extracted; no package.json",
+      "hint": "npx -p @deepseek-ai/dsh dsh plugin --profile web add file:./consensus-pipeline/dsh-plugin",
+      "candidates": []
+    },
+    {
+      "slug": "sysevol-ai/CodeNib",
+      "stars": 102,
+      "reason": "unsupported source url:git+https://github.com/sysevol-ai/CodeNib.git#main&path:/plugins/dsh; no package.json",
+      "hint": "dsh plugin --profile web add \"git+https://github.com/sysevol-ai/CodeNib.git#main&path:/plugins/dsh\"",
+      "candidates": [
+        "url:git+https://github.com/sysevol-ai/CodeNib.git#main&path:/plugins/dsh"
+      ]
+    },
+    {
+      "slug": "Old-Friends-Gathering/sedimem",
+      "stars": 101,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "justlovemaki/PrismFlowAgent",
+      "stars": 98,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "dsh plugin --profile web add --allow-build=sharp <path-or-url-to-prismflow-dsh.tgz>",
+      "candidates": []
+    },
+    {
+      "slug": "0xLyn77/ProMentor",
+      "stars": 82,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "HiSeax/dsh-windows-superagent",
+      "stars": 28,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "dsh plugin --profile superagent add \"link:$PWD\\packages\\dsh-windows-superagent\"",
+      "candidates": []
+    },
+    {
+      "slug": "oceanjustinlin/qimen",
+      "stars": 28,
+      "reason": "npm xuanxue-dsh declares no repository (authorship unproven); package.json declares no dsh bundle",
+      "hint": "dsh plugin --profile web add xuanxue-dsh 安装；同样尚未发布到 npm。",
+      "candidates": [
+        "npm:xuanxue-dsh"
+      ]
+    },
+    {
+      "slug": "zzzgydi/verge-browser",
+      "stars": 28,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "stlin256/DSH-Harmony",
+      "stars": 20,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "Chenamel/deterministic-pixel-art",
+      "stars": 16,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "alibaba-damo-academy/yugoo-design",
+      "stars": 10,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "wudidiandian/dsh-solo",
+      "stars": 8,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "liaty8/dsh-muteki-preset",
+      "stars": 6,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "Zoragyx/dsh-phone-pair",
+      "stars": 6,
+      "reason": "no install command extracted; no package.json",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "hongmaple0820/radarforge",
+      "stars": 5,
+      "reason": "no install command extracted; package.json declares no dsh bundle",
+      "hint": "",
+      "candidates": []
+    },
+    {
+      "slug": "LeoLourson/MacroStress-DSH",
       "stars": 5,
       "reason": "no install command extracted; no package.json",
       "hint": "",

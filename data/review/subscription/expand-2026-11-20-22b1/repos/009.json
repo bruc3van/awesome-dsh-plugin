@@ -1,0 +1,111 @@
+{
+  "full_name": "agentic-os-org/ANOLISA",
+  "originalPosition": 9,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 9,
+  "batch": 1,
+  "stargazers_count": 682,
+  "startedAt": "2026-11-20T22:22:52.387Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "bb2d1b225d453f62c018b1a61de2da33c56270d4e55650f85aa4c18efed7c25c",
+      "url": "https://github.com/agentic-os-org/ANOLISA/blob/308473e0eb1be6cfa9cf002918b31a37cdfc7d3b/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README_zh.md",
+      "sha256": "eb354a349bbe2233cb2f683b48f52cf2aa5870608ea00b5e8571a0a4606cd503",
+      "url": "https://github.com/agentic-os-org/ANOLISA/blob/308473e0eb1be6cfa9cf002918b31a37cdfc7d3b/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "distribution/anolisa/README.md",
+      "sha256": "1f84021370e93b820aa9a195382e6cfab5d434eae121be627118fd0bd6af4b8e",
+      "url": "https://github.com/agentic-os-org/ANOLISA/blob/308473e0eb1be6cfa9cf002918b31a37cdfc7d3b/distribution/anolisa/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "providers/README.md",
+      "sha256": "366915725342a22a4636da9e3ea1eef50fbffc18a92d8d76e385d42e08ef1e14",
+      "url": "https://github.com/agentic-os-org/ANOLISA/blob/308473e0eb1be6cfa9cf002918b31a37cdfc7d3b/providers/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "distribution/anolisa/README_zh.md",
+      "sha256": "68863def487d456de55807366def8cbf511453e683ac38e4ac1d889a7016f41a",
+      "url": "https://github.com/agentic-os-org/ANOLISA/blob/308473e0eb1be6cfa9cf002918b31a37cdfc7d3b/distribution/anolisa/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "providers/README_zh.md",
+      "sha256": "ac1008f4e0515eef5d02aa527e11538b2d22f4613b60ab1ed01eb9aa7d8fdce6",
+      "url": "https://github.com/agentic-os-org/ANOLISA/blob/308473e0eb1be6cfa9cf002918b31a37cdfc7d3b/providers/README_zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@agentsight/dsh-plugin",
+      "version": "0.1.0",
+      "path": "src/agentsight/dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/agentic-os-org/ANOLISA",
+        "commit": "308473e0eb1be6cfa9cf002918b31a37cdfc7d3b",
+        "path": "src/agentsight/dsh-plugin"
+      },
+      "manifestSha256": "9b9bf69a4dcac98f3813cdfa2ca60d58218a98a1cbc18a0b3a5b24bfeb5455a4",
+      "manifestUrl": "https://github.com/agentic-os-org/ANOLISA/blob/308473e0eb1be6cfa9cf002918b31a37cdfc7d3b/src/agentsight/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.2 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@agentsight/dsh-plugin",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795171460,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/agentic-os-org/ANOLISA",
+              "commit": "308473e0eb1be6cfa9cf002918b31a37cdfc7d3b",
+              "path": "src/agentsight/dsh-plugin"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.2 <0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/agentic-os-org/ANOLISA",
+    "commit": "308473e0eb1be6cfa9cf002918b31a37cdfc7d3b",
+    "releaseTags": 259,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:22:57.441Z"
+}

@@ -1,0 +1,151 @@
+{
+  "full_name": "runzhliu/welink",
+  "originalPosition": 12,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 12,
+  "batch": 1,
+  "stargazers_count": 325,
+  "startedAt": "2026-11-20T22:22:54.598Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "a16cf5663d65d1875d49fd87c033926bbb62ef3a4b2001a4553586c924d3f8f7",
+      "url": "https://github.com/runzhliu/welink/blob/477f83aaaa6249e1feff784b59531c6da3257653/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "mcp-server/README.md",
+      "sha256": "8bae547b43e58c89f5d970815667a38adc55422b61e5473a65f03ff6f2fc8c66",
+      "url": "https://github.com/runzhliu/welink/blob/477f83aaaa6249e1feff784b59531c6da3257653/mcp-server/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/dsh-welink/README.md",
+      "sha256": "dbc39d7b7096650b2ea0ed163041c3024b79e09d9b162b907a82c0e035a58931",
+      "url": "https://github.com/runzhliu/welink/blob/477f83aaaa6249e1feff784b59531c6da3257653/plugins/dsh-welink/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/runzhliu/welink#v0.4.1&path:/plugins/dsh-welink",
+          "command": "dsh plugin --profile web add 'github:runzhliu/welink#v0.4.1&path:/plugins/dsh-welink'",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "c031a9013d387c7dce0663803e72a929ef9cc6638c92d41cd51d41e113604368",
+      "url": "https://github.com/runzhliu/welink/blob/477f83aaaa6249e1feff784b59531c6da3257653/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@runzhliu/dsh-welink",
+      "version": "0.1.0",
+      "path": "plugins/dsh-welink",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/runzhliu/welink",
+        "commit": "477f83aaaa6249e1feff784b59531c6da3257653",
+        "path": "plugins/dsh-welink"
+      },
+      "manifestSha256": "02c2e9e1541c5458983a9dae97d9db4b604f1206548530aed347de8e64a47f5f",
+      "manifestUrl": "https://github.com/runzhliu/welink/blob/477f83aaaa6249e1feff784b59531c6da3257653/plugins/dsh-welink/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.2-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@runzhliu/dsh-welink",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794791103,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/runzhliu/welink",
+              "commit": "477f83aaaa6249e1feff784b59531c6da3257653",
+              "path": "plugins/dsh-welink"
+            },
+            "engines": {
+              "dsh": "^0.2.2-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/runzhliu/welink#v0.4.1&path:/plugins/dsh-welink",
+      "origin": "git_target",
+      "name": "@runzhliu/dsh-welink",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@runzhliu/dsh-welink",
+        "title": "@runzhliu/dsh-welink",
+        "description": "Scoped read-only WeLink tools for DeepSeek Harness.",
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh-plugin",
+            "welink"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794216487,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/runzhliu/welink",
+              "commit": "72bcffd71bb2d1f36d20b848875e4cbe5aac073c",
+              "path": "plugins/dsh-welink"
+            },
+            "engines": {
+              "dsh": "^0.2.2-alpha.2"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "plugins/dsh-welink",
+          "commit": "72bcffd71bb2d1f36d20b848875e4cbe5aac073c",
+          "name": "@runzhliu/dsh-welink",
+          "version": "0.1.0",
+          "url": "https://github.com/runzhliu/welink",
+          "manifestSha256": "6c97366ab3a12171f5203d1f194580245dea155601aba773e8438c40750d60d9",
+          "publishTimestamp": 1794216487
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/runzhliu/welink#v0.4.1&path:/plugins/dsh-welink",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/runzhliu/welink",
+    "commit": "477f83aaaa6249e1feff784b59531c6da3257653",
+    "releaseTags": 43,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:22:57.867Z"
+}

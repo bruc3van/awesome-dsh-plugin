@@ -1,0 +1,71 @@
+{
+  "full_name": "liaty8/dsh-muteki-preset",
+  "originalPosition": 32,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 32,
+  "batch": 1,
+  "stargazers_count": 6,
+  "startedAt": "2026-11-20T22:23:03.711Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b7d8975fc8e5272d7a0e95336e17f7399e08a3d9fd92436b0788688050f99764",
+      "url": "https://github.com/liaty8/dsh-muteki-preset/blob/bb1c9c14773be1791ff02f2eb08e61715aec94b5/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "muteki-workbench",
+      "version": "1.0.1",
+      "path": "plugins/muteki-workbench",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/liaty8/dsh-muteki-preset",
+        "commit": "bb1c9c14773be1791ff02f2eb08e61715aec94b5",
+        "path": "plugins/muteki-workbench"
+      },
+      "manifestSha256": "ecfe73035e93af99b4c009e113a37fc2e1ed3da41005b2e9e153bc95fffae397",
+      "manifestUrl": "https://github.com/liaty8/dsh-muteki-preset/blob/bb1c9c14773be1791ff02f2eb08e61715aec94b5/plugins/muteki-workbench/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.3 <0.2.3-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "muteki-workbench",
+        "versions": [
+          {
+            "version": "1.0.1",
+            "publishTimestamp": 1795183379,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/liaty8/dsh-muteki-preset",
+              "commit": "bb1c9c14773be1791ff02f2eb08e61715aec94b5",
+              "path": "plugins/muteki-workbench"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.3 <0.2.3-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/liaty8/dsh-muteki-preset",
+    "commit": "bb1c9c14773be1791ff02f2eb08e61715aec94b5",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:05.205Z"
+}

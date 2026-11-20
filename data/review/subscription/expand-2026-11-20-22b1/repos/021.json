@@ -1,0 +1,84 @@
+{
+  "full_name": "Old-Friends-Gathering/sedimem",
+  "originalPosition": 21,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 21,
+  "batch": 1,
+  "stargazers_count": 101,
+  "startedAt": "2026-11-20T22:22:59.550Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "e8b7242e743c05f2550f7f141889688c581dfd4a6af9a63d1b4622a69d79ef1a",
+      "url": "https://github.com/Old-Friends-Gathering/sedimem/blob/5b2d84f3166c4ab463a45fa9fe18a41ebcd9fbbe/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "efc4fdd4fbc6975fe5dff1abc239abc3c4fe02a1663f4859f15c584d1309d5b9",
+      "url": "https://github.com/Old-Friends-Gathering/sedimem/blob/5b2d84f3166c4ab463a45fa9fe18a41ebcd9fbbe/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/research/README.md",
+      "sha256": "267fd7b5e5dd1e69e89a8ce4cc8471c5aec8ad6acd0d0a4b90346ebdd4c61d65",
+      "url": "https://github.com/Old-Friends-Gathering/sedimem/blob/5b2d84f3166c4ab463a45fa9fe18a41ebcd9fbbe/docs/research/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-sedimem",
+      "version": "0.2.0",
+      "path": "plugin/dsh-sedimem",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Old-Friends-Gathering/sedimem",
+        "commit": "5b2d84f3166c4ab463a45fa9fe18a41ebcd9fbbe",
+        "path": "plugin/dsh-sedimem"
+      },
+      "manifestSha256": "a540036ba4e9eb18572e0ec8822d28ed47df0042ab1660715b14a09d8a337d2d",
+      "manifestUrl": "https://github.com/Old-Friends-Gathering/sedimem/blob/5b2d84f3166c4ab463a45fa9fe18a41ebcd9fbbe/plugin/dsh-sedimem/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-sedimem",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1795107996,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Old-Friends-Gathering/sedimem",
+              "commit": "5b2d84f3166c4ab463a45fa9fe18a41ebcd9fbbe",
+              "path": "plugin/dsh-sedimem"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Old-Friends-Gathering/sedimem",
+    "commit": "5b2d84f3166c4ab463a45fa9fe18a41ebcd9fbbe",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:02.108Z"
+}

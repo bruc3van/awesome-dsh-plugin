@@ -1,0 +1,79 @@
+{
+  "full_name": "aerovato/operator-memory",
+  "originalPosition": 11,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 11,
+  "batch": 1,
+  "stargazers_count": 519,
+  "startedAt": "2026-11-20T22:22:54.554Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "b579421d90310b45bbafd002df812abc1a350d018e75ad89bfffbbc47d8e547f",
+      "url": "https://github.com/aerovato/operator-memory/blob/93c3fce64f0a72adeb89fa868600eb418548ec07/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "d061a1932544e964823cb35561182dec189d0afe85928dabc3b45aa11a39f395",
+      "url": "https://github.com/aerovato/operator-memory/blob/93c3fce64f0a72adeb89fa868600eb418548ec07/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@aerovato/operator-deepseek",
+      "version": "0.3.0",
+      "path": "packages/deepseek",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/aerovato/operator-memory",
+        "commit": "93c3fce64f0a72adeb89fa868600eb418548ec07",
+        "path": "packages/deepseek"
+      },
+      "manifestSha256": "50f81dc3622e8299022a5c2ec894079c20a2ad130887f3bc0e1e84fc1552d0b1",
+      "manifestUrl": "https://github.com/aerovato/operator-memory/blob/93c3fce64f0a72adeb89fa868600eb418548ec07/packages/deepseek/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.0-rc.2 <0.3.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@aerovato/operator-deepseek",
+        "versions": [
+          {
+            "version": "0.3.0",
+            "publishTimestamp": 1793897737,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/aerovato/operator-memory",
+              "commit": "93c3fce64f0a72adeb89fa868600eb418548ec07",
+              "path": "packages/deepseek"
+            },
+            "engines": {
+              "dsh": ">=0.2.0-rc.2 <0.3.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/aerovato/operator-memory",
+    "commit": "93c3fce64f0a72adeb89fa868600eb418548ec07",
+    "releaseTags": 47,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:22:58.271Z"
+}

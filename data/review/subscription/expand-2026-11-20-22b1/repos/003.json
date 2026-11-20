@@ -1,0 +1,122 @@
+{
+  "full_name": "nexu-io/openmotion",
+  "originalPosition": 3,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 3,
+  "batch": 1,
+  "stargazers_count": 12818,
+  "startedAt": "2026-11-20T22:22:48.291Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "6619b558d4b49fbf45a5a83230cfb6c8dc1014d4227630797e63c08f41db1508",
+      "url": "https://github.com/nexu-io/openmotion/blob/c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "b538c7fec335a6f393925dfe18cf2166c2c44365bc2dc4578019ab580b0ece36",
+      "url": "https://github.com/nexu-io/openmotion/blob/c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.zh-CN.md",
+      "sha256": "b75d525b4409cf7941d5796f59d168d047a94bd3208b17e863b90f9f2417744c",
+      "url": "https://github.com/nexu-io/openmotion/blob/c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6/docs/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.ja.md",
+      "sha256": "535c95e4546e94f25f0ba66cc9b0126bddb0a5b3c6ace44c27ef5477e20337bc",
+      "url": "https://github.com/nexu-io/openmotion/blob/c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6/docs/README.ja.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/motion-package/README.md",
+      "sha256": "709846f7a60fd4b873b6201c7af2f61f87215d4c75eb906a9ca2930162aef87e",
+      "url": "https://github.com/nexu-io/openmotion/blob/c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6/packages/motion-package/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "library/README.md",
+      "sha256": "b5fcd8959d364be751de7fcbcc4c57e6e4ef1b321350d553180b7387c056f636",
+      "url": "https://github.com/nexu-io/openmotion/blob/c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6/library/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "library/components/README.md",
+      "sha256": "88dbd4ae5846336bc1d82595a9d936d2ddf22332ee6eb795a49b5d8911a6fa42",
+      "url": "https://github.com/nexu-io/openmotion/blob/c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6/library/components/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "studio/README.md",
+      "sha256": "ec3d05e4543ab7acca08c572dd4325ae83e621c3ddadf6250f9561bbee79fb7d",
+      "url": "https://github.com/nexu-io/openmotion/blob/c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6/studio/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/readme/models/README.md",
+      "sha256": "b5025b39ac823621d3359195eb404a558efdf0d3e02e1c0bdb80bf437d0af48b",
+      "url": "https://github.com/nexu-io/openmotion/blob/c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6/docs/readme/models/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/readme/brand-showcase/README.md",
+      "sha256": "65e4d771d3fbc507c592c26e8db63d789d9a51828494351fc602711ed7456730",
+      "url": "https://github.com/nexu-io/openmotion/blob/c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6/docs/readme/brand-showcase/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "library/README.zh-CN.md",
+      "sha256": "70da73f9435d4b131dbccef2e12a14ffb8b36e827673012498521ec4eefc4b6e",
+      "url": "https://github.com/nexu-io/openmotion/blob/c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6/library/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/nexu-io/openmotion",
+    "commit": "c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "openmotion",
+    "version": "0.0.1",
+    "dsh": null,
+    "engines": {
+      "node": ">=22.18.0"
+    }
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-20T22:22:54.554Z"
+}

@@ -1,0 +1,76 @@
+{
+  "full_name": "fangqian616/consensus-pipeline",
+  "originalPosition": 19,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 19,
+  "batch": 1,
+  "stargazers_count": 120,
+  "startedAt": "2026-11-20T22:22:58.271Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "64d6393e1f0a3df56b6dfbfd36e74681cf88bc2c1b09c7a870af22c716857e50",
+      "url": "https://github.com/fangqian616/consensus-pipeline/blob/4c210e2507f58da5eed4add83389ad097ab157a0/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "969708481081986954bab6194c2a6593180b55c7807fd8f8698738bd4b57dde6",
+      "url": "https://github.com/fangqian616/consensus-pipeline/blob/4c210e2507f58da5eed4add83389ad097ab157a0/README_CN.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@fangqian616/dsh-consensus-pipeline",
+      "version": "0.2.0",
+      "path": "dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/fangqian616/consensus-pipeline",
+        "commit": "4c210e2507f58da5eed4add83389ad097ab157a0",
+        "path": "dsh-plugin"
+      },
+      "manifestSha256": "e3a096fd0e297883bb530fbe3e292946d3d1745af0a0f17845e0c59ac1bef6dd",
+      "manifestUrl": "https://github.com/fangqian616/consensus-pipeline/blob/4c210e2507f58da5eed4add83389ad097ab157a0/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@fangqian616/dsh-consensus-pipeline",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794112581,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/fangqian616/consensus-pipeline",
+              "commit": "4c210e2507f58da5eed4add83389ad097ab157a0",
+              "path": "dsh-plugin"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/fangqian616/consensus-pipeline",
+    "commit": "4c210e2507f58da5eed4add83389ad097ab157a0",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:22:59.895Z"
+}

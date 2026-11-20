@@ -1,0 +1,75 @@
+{
+  "full_name": "HiSeax/dsh-windows-superagent",
+  "originalPosition": 24,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 24,
+  "batch": 1,
+  "stargazers_count": 28,
+  "startedAt": "2026-11-20T22:23:00.358Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "7e31a583a961e3d98537cc6c15597a0f38f8a7271bb6f7ae2571a62dc22a55a5",
+      "url": "https://github.com/HiSeax/dsh-windows-superagent/blob/2f3dd46ee30ff7994f36c7c46410b29d453d5bae/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "e5fcb384cddc26bc1b869e4a7e61e76f4d81424abd8f5d6c33355c9414fd34a6",
+      "url": "https://github.com/HiSeax/dsh-windows-superagent/blob/2f3dd46ee30ff7994f36c7c46410b29d453d5bae/README.en.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-windows-superagent",
+      "version": "0.2.6",
+      "path": "packages/dsh-windows-superagent",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HiSeax/dsh-windows-superagent",
+        "commit": "2f3dd46ee30ff7994f36c7c46410b29d453d5bae",
+        "path": "packages/dsh-windows-superagent"
+      },
+      "manifestSha256": "723aa464586d4ed333da58c020514759abda30acecd1cb2ccd9ced504533a799",
+      "manifestUrl": "https://github.com/HiSeax/dsh-windows-superagent/blob/2f3dd46ee30ff7994f36c7c46410b29d453d5bae/packages/dsh-windows-superagent/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-windows-superagent-board",
+      "version": "0.2.6",
+      "path": "packages/dsh-windows-superagent-board",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/HiSeax/dsh-windows-superagent",
+        "commit": "2f3dd46ee30ff7994f36c7c46410b29d453d5bae",
+        "path": "packages/dsh-windows-superagent-board"
+      },
+      "manifestSha256": "2be0deb1149a9deac32bffe3516d7d4e5573f783f63c19ec44d51a07b7c54020",
+      "manifestUrl": "https://github.com/HiSeax/dsh-windows-superagent/blob/2f3dd46ee30ff7994f36c7c46410b29d453d5bae/packages/dsh-windows-superagent-board/package.json",
+      "status": "private_package",
+      "reason": "包声明 private: true，不作为订阅安装候选"
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/HiSeax/dsh-windows-superagent",
+    "commit": "2f3dd46ee30ff7994f36c7c46410b29d453d5bae",
+    "releaseTags": 6,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "manual_install_review",
+  "finishedAt": "2026-11-20T22:23:02.586Z"
+}

@@ -1,0 +1,40 @@
+{
+  "full_name": "chainbase-labs/Agentkey",
+  "originalPosition": 10,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 10,
+  "batch": 1,
+  "stargazers_count": 652,
+  "startedAt": "2026-11-20T22:22:53.330Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d7699012070123d704d75eebd65de37cbcfd20a2b9b8c2d9fb8d38f007ebca7a",
+      "url": "https://github.com/chainbase-labs/Agentkey/blob/69818c307a9c146045791dd6ca37f2c8d68360ba/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/chainbase-labs/Agentkey",
+    "commit": "69818c307a9c146045791dd6ca37f2c8d68360ba",
+    "releaseTags": 26,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": "agentkey-skill",
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-20T22:22:54.597Z"
+}

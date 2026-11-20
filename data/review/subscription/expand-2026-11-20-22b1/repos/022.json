@@ -1,0 +1,79 @@
+{
+  "full_name": "justlovemaki/PrismFlowAgent",
+  "originalPosition": 22,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 22,
+  "batch": 1,
+  "stargazers_count": 98,
+  "startedAt": "2026-11-20T22:22:59.895Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "70ce8260ebf5d6126dcacb5445ebbea753142902c405bbf97af5829a2399102d",
+      "url": "https://github.com/justlovemaki/PrismFlowAgent/blob/fb65a6be22b19b713343135413c95e2b0ee787f2/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "integrations/dsh/README.md",
+      "sha256": "196b9c527d8df98ed175746956560c09ace27df4469fc63f7028569f7b35bf36",
+      "url": "https://github.com/justlovemaki/PrismFlowAgent/blob/fb65a6be22b19b713343135413c95e2b0ee787f2/integrations/dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@prismflow/dsh",
+      "version": "0.24.132",
+      "path": "integrations/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/justlovemaki/PrismFlowAgent",
+        "commit": "fb65a6be22b19b713343135413c95e2b0ee787f2",
+        "path": "integrations/dsh"
+      },
+      "manifestSha256": "1d02cf255f6d4cc15cd6ac83599c86456540f2da6c247276e4042d9c1ec00b92",
+      "manifestUrl": "https://github.com/justlovemaki/PrismFlowAgent/blob/fb65a6be22b19b713343135413c95e2b0ee787f2/integrations/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.0-rc.6 || >=0.1.7-rc.1 <0.1.8-0 || >=0.2.0-0 || >=0.2.1-0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@prismflow/dsh",
+        "versions": [
+          {
+            "version": "0.24.132",
+            "publishTimestamp": 1792995785,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/justlovemaki/PrismFlowAgent",
+              "commit": "fb65a6be22b19b713343135413c95e2b0ee787f2",
+              "path": "integrations/dsh"
+            },
+            "engines": {
+              "dsh": ">=0.1.0-rc.6 || >=0.1.7-rc.1 <0.1.8-0 || >=0.2.0-0 || >=0.2.1-0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/justlovemaki/PrismFlowAgent",
+    "commit": "fb65a6be22b19b713343135413c95e2b0ee787f2",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:02.287Z"
+}

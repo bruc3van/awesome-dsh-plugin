@@ -1,0 +1,196 @@
+{
+  "full_name": "Chenamel/deterministic-pixel-art",
+  "originalPosition": 28,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 28,
+  "batch": 1,
+  "stargazers_count": 16,
+  "startedAt": "2026-11-20T22:23:02.287Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d0fade95eb570f0dc3701859c54c10947ff394ecfdc81d502be9d7459c5ba609",
+      "url": "https://github.com/Chenamel/deterministic-pixel-art/blob/a2a21b6aebc354ae5ff4daab35a374699ca9c5f2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "6d29d9a22f8f97c85d7be33de9941e9749ec47286ad7b9ad6b53bd4c86a25ad8",
+      "url": "https://github.com/Chenamel/deterministic-pixel-art/blob/a2a21b6aebc354ae5ff4daab35a374699ca9c5f2/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "demos/travel-kit/README.md",
+      "sha256": "43d8966a278b1b43535701182b31af8022d8be6f22158ffe4b4d59c21eae3c3f",
+      "url": "https://github.com/Chenamel/deterministic-pixel-art/blob/a2a21b6aebc354ae5ff4daab35a374699ca9c5f2/demos/travel-kit/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "integrations/dsh/README.md",
+      "sha256": "16d49ee2ff432177078aca763c413e7cd4b2975df078da73db879dbd2f3f9abf",
+      "url": "https://github.com/Chenamel/deterministic-pixel-art/blob/a2a21b6aebc354ae5ff4daab35a374699ca9c5f2/integrations/dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-skill-deterministic-pixel-art@0.1.3",
+          "command": "dsh plugin --profile YOUR-PROFILE add dsh-skill-deterministic-pixel-art@0.1.3",
+          "profile": "YOUR-PROFILE"
+        },
+        {
+          "install": "dsh-skill-deterministic-pixel-art@0.1.3",
+          "command": "dsh plugin --profile pixel-art add dsh-skill-deterministic-pixel-art@0.1.3",
+          "profile": "pixel-art"
+        }
+      ]
+    },
+    {
+      "path": "demos/chunk-scene/README.md",
+      "sha256": "ac8d86979b69f5aae50e7258f4f82f42eb87a02ee19ef3ced606d1dd38664575",
+      "url": "https://github.com/Chenamel/deterministic-pixel-art/blob/a2a21b6aebc354ae5ff4daab35a374699ca9c5f2/demos/chunk-scene/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "demos/pixel-ui/README.md",
+      "sha256": "cd3373df81e95d9dedba176765c51342fb1a79c8347361a0902c8b1ccdab8b1e",
+      "url": "https://github.com/Chenamel/deterministic-pixel-art/blob/a2a21b6aebc354ae5ff4daab35a374699ca9c5f2/demos/pixel-ui/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "assets/brand/font-notices/README.md",
+      "sha256": "0d911eec6334a5dd7ab03a31fe67163d7fe61618e032b2ec1367b3efedd5f19c",
+      "url": "https://github.com/Chenamel/deterministic-pixel-art/blob/a2a21b6aebc354ae5ff4daab35a374699ca9c5f2/assets/brand/font-notices/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "integrations/dsh/README.zh-CN.md",
+      "sha256": "50a0eaef226f227547f7fc38a23a5e2a27a3e067f39e9ae0458ee8a100524ff8",
+      "url": "https://github.com/Chenamel/deterministic-pixel-art/blob/a2a21b6aebc354ae5ff4daab35a374699ca9c5f2/integrations/dsh/README.zh-CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "dsh-skill-deterministic-pixel-art@0.1.3",
+          "command": "dsh plugin --profile YOUR-PROFILE add dsh-skill-deterministic-pixel-art@0.1.3",
+          "profile": "YOUR-PROFILE"
+        },
+        {
+          "install": "dsh-skill-deterministic-pixel-art@0.1.3",
+          "command": "dsh plugin --profile pixel-art add dsh-skill-deterministic-pixel-art@0.1.3",
+          "profile": "pixel-art"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-skill-deterministic-pixel-art",
+      "version": "0.1.3",
+      "path": "integrations/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Chenamel/deterministic-pixel-art",
+        "commit": "a2a21b6aebc354ae5ff4daab35a374699ca9c5f2",
+        "path": "integrations/dsh"
+      },
+      "manifestSha256": "7cac86308b5d4da14c80aaac5af1f0afbc02ac1e99b093e99260d8334aeb3d6c",
+      "manifestUrl": "https://github.com/Chenamel/deterministic-pixel-art/blob/a2a21b6aebc354ae5ff4daab35a374699ca9c5f2/integrations/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1 <=0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-skill-deterministic-pixel-art",
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794888030,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Chenamel/deterministic-pixel-art",
+              "commit": "a2a21b6aebc354ae5ff4daab35a374699ca9c5f2",
+              "path": "integrations/dsh"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <=0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "dsh-skill-deterministic-pixel-art@0.1.3",
+      "origin": "npm",
+      "name": "dsh-skill-deterministic-pixel-art",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-skill-deterministic-pixel-art",
+        "title": "dsh-skill-deterministic-pixel-art",
+        "description": "在 DSH 对话中用自然语言创作像素图、修改现有 PNG，导出 PNG 和可编辑 JSON，也可按指定区域改色。 Create and edit pixel art in DSH with natural-language requests; export PNG and editable JSON, or recolor a selected area.",
+        "homepage": "https://github.com/Chenamel/deterministic-pixel-art/tree/main/integrations/dsh",
+        "repository": {
+          "url": "https://github.com/Chenamel/deterministic-pixel-art",
+          "directory": "integrations/dsh"
+        },
+        "versions": [
+          {
+            "version": "0.1.3",
+            "publishTimestamp": 1794723360,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1 <=0.2.2-rc.3"
+            }
+          }
+        ]
+      },
+      "registrySha256": "2e52bc3299d45b31cd38a5b1e9d7a74224d540a52f6650e058d2080dbad229b7",
+      "evidence": [
+        {
+          "name": "dsh-skill-deterministic-pixel-art",
+          "version": "0.1.3",
+          "tarball": "https://registry.npmjs.org/dsh-skill-deterministic-pixel-art/-/dsh-skill-deterministic-pixel-art-0.1.3.tgz",
+          "integrity": "sha512-m1GVX2OOKqKfEO8UYIH0M+lMbdO74se2PfhH4dgX8bcDfwEWKR2/8HO271vJZ4lFO5u/Aj0WUHXVflxxPcG/SA=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "dsh-skill-deterministic-pixel-art@0.1.3",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Chenamel/deterministic-pixel-art",
+    "commit": "a2a21b6aebc354ae5ff4daab35a374699ca9c5f2",
+    "releaseTags": 10,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:05.843Z"
+}

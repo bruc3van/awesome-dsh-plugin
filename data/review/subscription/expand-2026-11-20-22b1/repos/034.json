@@ -1,0 +1,112 @@
+{
+  "full_name": "hongmaple0820/radarforge",
+  "originalPosition": 34,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 34,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-20T22:23:04.859Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "53b8457298c1ab771f564a3a3628d1b604e66a14b80dbf97d664ad72a0f1d0b2",
+      "url": "https://github.com/hongmaple0820/radarforge/blob/e70d54f69de0e73680f895a0b3365dbafa8c4327/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "3fc9fe4229efca256cb721bf4d442d1244715b65f96f4679f6b649d7a6d1bd51",
+      "url": "https://github.com/hongmaple0820/radarforge/blob/e70d54f69de0e73680f895a0b3365dbafa8c4327/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-radar",
+      "version": "0.2.0",
+      "path": "plugins/dsh-radar",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hongmaple0820/radarforge",
+        "commit": "e70d54f69de0e73680f895a0b3365dbafa8c4327",
+        "path": "plugins/dsh-radar"
+      },
+      "manifestSha256": "09aa1b5d5f65a5e195f4f53e8a8d1baf1a42c9dd623811be8ec007b9736e53fc",
+      "manifestUrl": "https://github.com/hongmaple0820/radarforge/blob/e70d54f69de0e73680f895a0b3365dbafa8c4327/plugins/dsh-radar/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.1-rc.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-radar",
+        "versions": [
+          {
+            "version": "0.2.0",
+            "publishTimestamp": 1794448677,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hongmaple0820/radarforge",
+              "commit": "e70d54f69de0e73680f895a0b3365dbafa8c4327",
+              "path": "plugins/dsh-radar"
+            },
+            "engines": {
+              "dsh": ">=0.2.1-rc.5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-agnes-multimodal",
+      "version": "1.0.0",
+      "path": "repos/dsh-agnes-multimodal",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/hongmaple0820/radarforge",
+        "commit": "e70d54f69de0e73680f895a0b3365dbafa8c4327",
+        "path": "repos/dsh-agnes-multimodal"
+      },
+      "manifestSha256": "7b9fa9ffbe7db1f36c85146841c68f7d19568609830be3a6af4bdcb8612590c4",
+      "manifestUrl": "https://github.com/hongmaple0820/radarforge/blob/e70d54f69de0e73680f895a0b3365dbafa8c4327/repos/dsh-agnes-multimodal/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-agnes-multimodal",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1794448677,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/hongmaple0820/radarforge",
+              "commit": "e70d54f69de0e73680f895a0b3365dbafa8c4327",
+              "path": "repos/dsh-agnes-multimodal"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/hongmaple0820/radarforge",
+    "commit": "e70d54f69de0e73680f895a0b3365dbafa8c4327",
+    "releaseTags": 1,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:07.513Z"
+}

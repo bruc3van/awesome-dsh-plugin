@@ -1,0 +1,180 @@
+{
+  "full_name": "tencentmusic/modus",
+  "originalPosition": 14,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 14,
+  "batch": 1,
+  "stargazers_count": 217,
+  "startedAt": "2026-11-20T22:22:56.701Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "3a8eaff31f676a1d54039a96f5bd0403bf06e16d59ca40895d50d6fd0af0b5b9",
+      "url": "https://github.com/tencentmusic/modus/blob/eb266f82f8d11b6d47abbbdb3161d5d67f80896d/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "READMEs/README.en.md",
+      "sha256": "2ba8d9cbd3408ab3e7457464a377e4d71aa882858c85e958118268c791dea2a3",
+      "url": "https://github.com/tencentmusic/modus/blob/eb266f82f8d11b6d47abbbdb3161d5d67f80896d/READMEs/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "src/modus/machine/packet/README.md",
+      "sha256": "9f9484f7ebd03cff1d5072a43d3b364d8fe37511e14555492aed4b62fb83d20f",
+      "url": "https://github.com/tencentmusic/modus/blob/eb266f82f8d11b6d47abbbdb3161d5d67f80896d/src/modus/machine/packet/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "src/modus/retrieval/README.md",
+      "sha256": "9df498b9b8ba1375475d8b406482315a2d1747c5acd7c306d169ec7d9227ef58",
+      "url": "https://github.com/tencentmusic/modus/blob/eb266f82f8d11b6d47abbbdb3161d5d67f80896d/src/modus/retrieval/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "src/modus/machine/README.md",
+      "sha256": "15d99d7e60f43fe19ba771ed1e7e16691c064cbcb018dcb27c148cbf50658a1c",
+      "url": "https://github.com/tencentmusic/modus/blob/eb266f82f8d11b6d47abbbdb3161d5d67f80896d/src/modus/machine/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "integrations/dsh/README.md",
+      "sha256": "2001f59e6c6c93427db69a86203639e2e84e61720e07153d3ee70779321c922a",
+      "url": "https://github.com/tencentmusic/modus/blob/eb266f82f8d11b6d47abbbdb3161d5d67f80896d/integrations/dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tencentmusic/modus",
+          "command": "dsh plugin add github:tencentmusic/modus",
+          "profile": "default"
+        },
+        {
+          "install": "@modus-ai/modus@1.0.0",
+          "command": "dsh plugin --profile modus add @modus-ai/modus@1.0.0 --ignore-scripts",
+          "profile": "modus"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@modus-ai/modus",
+      "version": "1.0.0",
+      "path": "integrations/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tencentmusic/modus",
+        "commit": "eb266f82f8d11b6d47abbbdb3161d5d67f80896d",
+        "path": "integrations/dsh"
+      },
+      "manifestSha256": "5ef5c3341d097196af27e2ee0fc456a3ee92e9acf3e7d99cb72f49d102d5e5f6",
+      "manifestUrl": "https://github.com/tencentmusic/modus/blob/eb266f82f8d11b6d47abbbdb3161d5d67f80896d/integrations/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.1-rc.3 || 0.2.2-alpha.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "@modus-ai/modus",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1793952529,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tencentmusic/modus",
+              "commit": "eb266f82f8d11b6d47abbbdb3161d5d67f80896d",
+              "path": "integrations/dsh"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.3 || 0.2.2-alpha.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "@modus-ai/modus@1.0.0",
+      "origin": "npm",
+      "name": "@modus-ai/modus",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "@modus-ai/modus",
+        "title": "@modus-ai/modus",
+        "description": "Modus project knowledge, business constraints and source evidence for DeepSeek Harness",
+        "repository": {
+          "url": "https://github.com/tencentmusic/modus",
+          "directory": "integrations/dsh"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "modus",
+            "project-knowledge"
+          ]
+        },
+        "versions": [
+          {
+            "version": "1.0.0",
+            "publishTimestamp": 1793282181,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": "0.2.1-rc.3 || 0.2.2-alpha.2"
+            }
+          }
+        ]
+      },
+      "registrySha256": "c042769d0f6020470c5000a8274d2a93aec05957405b5d53ca5e3a10c374492c",
+      "evidence": [
+        {
+          "name": "@modus-ai/modus",
+          "version": "1.0.0",
+          "tarball": "https://registry.npmjs.org/@modus-ai/modus/-/modus-1.0.0.tgz",
+          "integrity": "sha512-bu8dghOEJ2aIOnJSmkQMShWIn2A+Tihx4vnkoqpwKkqRSJce9QeWXLB9tJbDWMljHoy6FU3vjtD1VYAv9nCsog=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/tencentmusic/modus",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    },
+    {
+      "code": "documented_target_not_mapped",
+      "target": "@modus-ai/modus@1.0.0",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tencentmusic/modus",
+    "commit": "eb266f82f8d11b6d47abbbdb3161d5d67f80896d",
+    "releaseTags": 2,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:00.135Z"
+}

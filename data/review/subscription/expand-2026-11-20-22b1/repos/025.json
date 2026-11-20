@@ -1,0 +1,139 @@
+{
+  "full_name": "oceanjustinlin/qimen",
+  "originalPosition": 25,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 25,
+  "batch": 1,
+  "stargazers_count": 28,
+  "startedAt": "2026-11-20T22:23:00.388Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "0f2cc74b88252baa224cacaeb33be603b908cc19ffdb2345cef98c3d22c47eda",
+      "url": "https://github.com/oceanjustinlin/qimen/blob/42f6ae1390aa0ff0f481f0640af04c46d0cf89fe/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "xuanxue-dsh",
+          "command": "dsh plugin --profile web add xuanxue-dsh",
+          "profile": "web"
+        }
+      ]
+    },
+    {
+      "path": "packages/xuanxue-mcp/README.md",
+      "sha256": "0328457fc13cc5d5499b8e0ef137b46e0927c87af60b6ab63a303ae1f47377ca",
+      "url": "https://github.com/oceanjustinlin/qimen/blob/42f6ae1390aa0ff0f481f0640af04c46d0cf89fe/packages/xuanxue-mcp/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "xuanxue-dsh",
+      "version": "0.1.0",
+      "path": "packages/xuanxue-dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/oceanjustinlin/qimen",
+        "commit": "42f6ae1390aa0ff0f481f0640af04c46d0cf89fe",
+        "path": "packages/xuanxue-dsh"
+      },
+      "manifestSha256": "5081cf8411153a62d53462eebbce71bed23ff3b3deb5d6f8fb6381361fd35fb5",
+      "manifestUrl": "https://github.com/oceanjustinlin/qimen/blob/42f6ae1390aa0ff0f481f0640af04c46d0cf89fe/packages/xuanxue-dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.2.2-rc.1",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "xuanxue-dsh",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1795057404,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/oceanjustinlin/qimen",
+              "commit": "42f6ae1390aa0ff0f481f0640af04c46d0cf89fe",
+              "path": "packages/xuanxue-dsh"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "xuanxue-dsh",
+      "origin": "npm",
+      "name": "xuanxue-dsh",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "xuanxue-dsh",
+        "title": "xuanxue-dsh",
+        "description": "DeepSeek Harness (dsh) plugin: Bazi, Zi Wei, Qimen and Western natal chart engines via xuanxue-mcp, plus reading-guide skills",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "mcp",
+            "bazi",
+            "ziwei",
+            "qimen",
+            "astrology"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794301780,
+            "source": {
+              "type": "npm",
+              "registry": "https://registry.npmjs.org/"
+            },
+            "engines": {
+              "dsh": ">=0.2.2-rc.1"
+            }
+          }
+        ]
+      },
+      "registrySha256": "070fb71e33588a89e1fb9a47ad2b7e526e5ca76587b4184b2ec7446ec7ebbf9d",
+      "evidence": [
+        {
+          "name": "xuanxue-dsh",
+          "version": "0.1.0",
+          "tarball": "https://registry.npmjs.org/xuanxue-dsh/-/xuanxue-dsh-0.1.0.tgz",
+          "integrity": "sha512-IYeZyIthnwxBx6hR4hIOsLRNxWW3ugsN055Rkb46SWr6l4xETggBdqprqfVo8WRebNP3qY3wLQ9EjVkkVGY0Hw=="
+        }
+      ],
+      "diagnostics": [],
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "xuanxue-dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/oceanjustinlin/qimen",
+    "commit": "42f6ae1390aa0ff0f481f0640af04c46d0cf89fe",
+    "releaseTags": 0,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:02.396Z"
+}

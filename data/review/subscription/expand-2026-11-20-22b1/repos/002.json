@@ -1,0 +1,84 @@
+{
+  "full_name": "DayuanJiang/next-ai-draw-io",
+  "originalPosition": 2,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 2,
+  "batch": 1,
+  "stargazers_count": 37073,
+  "startedAt": "2026-11-20T22:22:48.288Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "83a6c1cca8f6ec1a0ec1afaad9f425914bc7ad8eb8c7052fc9c2828004ea42f4",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/9534a668e3bd53f9c08aa5b8d2d77f409ccd09d4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/cn/README_CN.md",
+      "sha256": "0105f0796f9eaf6b474a1ed0b6a0cf78c3dfd7356feafd25eda63c0370b25040",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/9534a668e3bd53f9c08aa5b8d2d77f409ccd09d4/docs/cn/README_CN.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/ja/README_JA.md",
+      "sha256": "e1d64b3de3418fc72aeed9c3ad674693b5e7f8401dd250d4169e8df918e8a8aa",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/9534a668e3bd53f9c08aa5b8d2d77f409ccd09d4/docs/ja/README_JA.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@next-ai-drawio/dsh",
+      "version": "0.1.0",
+      "path": "packages/dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+        "commit": "9534a668e3bd53f9c08aa5b8d2d77f409ccd09d4",
+        "path": "packages/dsh-plugin"
+      },
+      "manifestSha256": "12b6026ce9c3e6a40d9825d0df3f352c8cfaabd4885f1b04375f17cd36ec6378",
+      "manifestUrl": "https://github.com/DayuanJiang/next-ai-draw-io/blob/9534a668e3bd53f9c08aa5b8d2d77f409ccd09d4/packages/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "@next-ai-drawio/dsh",
+        "versions": [
+          {
+            "version": "0.1.0",
+            "publishTimestamp": 1794615223,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+              "commit": "9534a668e3bd53f9c08aa5b8d2d77f409ccd09d4",
+              "path": "packages/dsh-plugin"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+    "commit": "9534a668e3bd53f9c08aa5b8d2d77f409ccd09d4",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:22:51.084Z"
+}

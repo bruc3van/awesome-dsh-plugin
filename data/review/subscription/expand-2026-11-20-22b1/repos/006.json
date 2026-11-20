@@ -1,0 +1,71 @@
+{
+  "full_name": "strukto-ai/mirage",
+  "originalPosition": 6,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 6,
+  "batch": 1,
+  "stargazers_count": 3796,
+  "startedAt": "2026-11-20T22:22:48.301Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "419ce17507914c7a3759573f146da8fdbbc10b53e092053b40d3355decc6f148",
+      "url": "https://github.com/strukto-ai/mirage/blob/8fbac374fce01ae5286efd1496f9207cd400ca5e/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "@struktoai/mirage-dsh",
+      "version": "0.1.0-alpha.3",
+      "path": "typescript/packages/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/strukto-ai/mirage",
+        "commit": "8fbac374fce01ae5286efd1496f9207cd400ca5e",
+        "path": "typescript/packages/dsh"
+      },
+      "manifestSha256": "196949875a40c4082098d7bb1c9d767973ebe65416d935f4bbd9b9ca84baef24",
+      "manifestUrl": "https://github.com/strukto-ai/mirage/blob/8fbac374fce01ae5286efd1496f9207cd400ca5e/typescript/packages/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.2-rc.3",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "@struktoai/mirage-dsh",
+        "versions": [
+          {
+            "version": "0.1.0-alpha.3",
+            "publishTimestamp": 1795209249,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/strukto-ai/mirage",
+              "commit": "8fbac374fce01ae5286efd1496f9207cd400ca5e",
+              "path": "typescript/packages/dsh"
+            },
+            "engines": {
+              "dsh": "0.2.2-rc.3"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/strukto-ai/mirage",
+    "commit": "8fbac374fce01ae5286efd1496f9207cd400ca5e",
+    "releaseTags": 8,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:22:55.142Z"
+}

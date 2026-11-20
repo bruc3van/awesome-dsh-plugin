@@ -1,0 +1,95 @@
+{
+  "full_name": "zzzgydi/verge-browser",
+  "originalPosition": 26,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 26,
+  "batch": 1,
+  "stargazers_count": 28,
+  "startedAt": "2026-11-20T22:23:01.040Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "d6936249fab4bcf5cf944b9fc8b302c8ae00697177c4c13300c9f78ee4814a73",
+      "url": "https://github.com/zzzgydi/verge-browser/blob/97706906f8926661a84b837d5b746daad06bb925/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "e063f27b6c30c707ea3cda9ba2f43d11d00e5b3c2290239e73f51e4e676d9531",
+      "url": "https://github.com/zzzgydi/verge-browser/blob/97706906f8926661a84b837d5b746daad06bb925/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "packages/dsh-plugin/README.md",
+      "sha256": "6b2a0960097339273c79b5cb201ea559c9519dbe734533c53642ea7d7a7b9d2c",
+      "url": "https://github.com/zzzgydi/verge-browser/blob/97706906f8926661a84b837d5b746daad06bb925/packages/dsh-plugin/README.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    },
+    {
+      "path": "packages/dsh-plugin/README.zh.md",
+      "sha256": "3f2bffa97bbd78e3643b1ca81478851d1d808b8ba41bb30a9ec14b08474452a6",
+      "url": "https://github.com/zzzgydi/verge-browser/blob/97706906f8926661a84b837d5b746daad06bb925/packages/dsh-plugin/README.zh.md",
+      "ambiguous": false,
+      "localOnly": true,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-verge-browser",
+      "version": "0.1.1",
+      "path": "packages/dsh-plugin",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zzzgydi/verge-browser",
+        "commit": "97706906f8926661a84b837d5b746daad06bb925",
+        "path": "packages/dsh-plugin"
+      },
+      "manifestSha256": "9d1254c4cb8f3da99c6834ab97ded0016a386c9cdf62d3d7cf3c180b7a7ecc2d",
+      "manifestUrl": "https://github.com/zzzgydi/verge-browser/blob/97706906f8926661a84b837d5b746daad06bb925/packages/dsh-plugin/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "^0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "dsh-plugin-verge-browser",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1793895812,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/zzzgydi/verge-browser",
+              "commit": "97706906f8926661a84b837d5b746daad06bb925",
+              "path": "packages/dsh-plugin"
+            },
+            "engines": {
+              "dsh": "^0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/zzzgydi/verge-browser",
+    "commit": "97706906f8926661a84b837d5b746daad06bb925",
+    "releaseTags": 3,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:03.710Z"
+}

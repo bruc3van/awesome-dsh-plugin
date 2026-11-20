@@ -1,0 +1,40 @@
+{
+  "full_name": "0xLyn77/ProMentor",
+  "originalPosition": 23,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 23,
+  "batch": 1,
+  "stargazers_count": 82,
+  "startedAt": "2026-11-20T22:23:00.135Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9aa12b7a797f7592f7eaa72e9af5145bb665dd776da258779d34f88ebcf91a90",
+      "url": "https://github.com/0xLyn77/ProMentor/blob/f9e642091c1a49938b63ea3608adb445c1ccced4/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/0xLyn77/ProMentor",
+    "commit": "f9e642091c1a49938b63ea3608adb445c1ccced4",
+    "releaseTags": 4,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-20T22:23:01.035Z"
+}

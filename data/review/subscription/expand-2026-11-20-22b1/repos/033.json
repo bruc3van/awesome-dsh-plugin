@@ -1,0 +1,100 @@
+{
+  "full_name": "LeoLourson/MacroStress-DSH",
+  "originalPosition": 33,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 33,
+  "batch": 1,
+  "stargazers_count": 5,
+  "startedAt": "2026-11-20T22:23:04.721Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "997b176644aee6e528874b0182bee2e2a0c1b7247d6bf1f9cd6a75f3d5972ccf",
+      "url": "https://github.com/LeoLourson/MacroStress-DSH/blob/1231fe8d8e3876903aff05a12b8ea692be38e28c/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.zh.md",
+      "sha256": "6648a32f3454df6aec833f0563ab498ad0f288817d150a7595167d220739c921",
+      "url": "https://github.com/LeoLourson/MacroStress-DSH/blob/1231fe8d8e3876903aff05a12b8ea692be38e28c/README.zh.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.ru.md",
+      "sha256": "0932b3cb0a41632a2a0bfa8c48de72dd190de9e21418b8df12c4b74166fa5c94",
+      "url": "https://github.com/LeoLourson/MacroStress-DSH/blob/1231fe8d8e3876903aff05a12b8ea692be38e28c/README.ru.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "bench/README.en.md",
+      "sha256": "6dbccdbc2645ce629dba2937f41aaf10fd59bd081462b0316b65e1bd4a50bff3",
+      "url": "https://github.com/LeoLourson/MacroStress-DSH/blob/1231fe8d8e3876903aff05a12b8ea692be38e28c/bench/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.en.md",
+      "sha256": "d962efd911f150265f6d06a1fd463b14fddea1e5e997762e8f446b3131c41afe",
+      "url": "https://github.com/LeoLourson/MacroStress-DSH/blob/1231fe8d8e3876903aff05a12b8ea692be38e28c/docs/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-macrostress",
+      "version": "1.1.0",
+      "path": "dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/LeoLourson/MacroStress-DSH",
+        "commit": "1231fe8d8e3876903aff05a12b8ea692be38e28c",
+        "path": "dsh"
+      },
+      "manifestSha256": "ab52d43a24d9f7c7ad8eb6959edbc31b8e4cc655a26f543023244eea27247779",
+      "manifestUrl": "https://github.com/LeoLourson/MacroStress-DSH/blob/1231fe8d8e3876903aff05a12b8ea692be38e28c/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-macrostress",
+        "versions": [
+          {
+            "version": "1.1.0",
+            "publishTimestamp": 1794936051,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/LeoLourson/MacroStress-DSH",
+              "commit": "1231fe8d8e3876903aff05a12b8ea692be38e28c",
+              "path": "dsh"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/LeoLourson/MacroStress-DSH",
+    "commit": "1231fe8d8e3876903aff05a12b8ea692be38e28c",
+    "releaseTags": 7,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:07.157Z"
+}

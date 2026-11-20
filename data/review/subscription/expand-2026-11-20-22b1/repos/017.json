@@ -1,0 +1,111 @@
+{
+  "full_name": "regrevia/Envoy",
+  "originalPosition": 17,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 17,
+  "batch": 1,
+  "stargazers_count": 158,
+  "startedAt": "2026-11-20T22:22:57.503Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "1ae7fd74f396144c0971c199fc11ca868cb685b315626718ed7e3b1cd6d7d134",
+      "url": "https://github.com/regrevia/Envoy/blob/7af65c0629c76ad00eed2fc576404dbeae269ec3/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/demo/README.md",
+      "sha256": "512415959b5138b9393876d014b750dbecfd9b3589ef32c68f4f18c161622c15",
+      "url": "https://github.com/regrevia/Envoy/blob/7af65c0629c76ad00eed2fc576404dbeae269ec3/docs/demo/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "benchmarks/README.md",
+      "sha256": "0b8f5933b93a3312633323fcc83b0d5814e93a633f645ea3a6e7b7e6781900c8",
+      "url": "https://github.com/regrevia/Envoy/blob/7af65c0629c76ad00eed2fc576404dbeae269ec3/benchmarks/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "integrations/claude-code/envoy/README.md",
+      "sha256": "3b45af2d72afe15325be0a0879186a705c89c682c1ee4d26d898a360eaff3d8b",
+      "url": "https://github.com/regrevia/Envoy/blob/7af65c0629c76ad00eed2fc576404dbeae269ec3/integrations/claude-code/envoy/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "integrations/codex/envoy/README.md",
+      "sha256": "2dd95eff014597b3e9bbd82081f3f38caaa7bbdfbd12fa68161a286b56565c3b",
+      "url": "https://github.com/regrevia/Envoy/blob/7af65c0629c76ad00eed2fc576404dbeae269ec3/integrations/codex/envoy/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "integrations/dsh/README.md",
+      "sha256": "0e373b4b5c1950505051577df3622fbee24ec73139161fa53a6e509586d0834e",
+      "url": "https://github.com/regrevia/Envoy/blob/7af65c0629c76ad00eed2fc576404dbeae269ec3/integrations/dsh/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "envoy-dsh",
+      "version": "0.1.62",
+      "path": "integrations/dsh/envoy-dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/regrevia/Envoy",
+        "commit": "7af65c0629c76ad00eed2fc576404dbeae269ec3",
+        "path": "integrations/dsh/envoy-dsh"
+      },
+      "manifestSha256": "7b7dab9ae88b165896e4532ac4c00ea0ef12ecb393002e6cda1eb2633defb4cc",
+      "manifestUrl": "https://github.com/regrevia/Envoy/blob/7af65c0629c76ad00eed2fc576404dbeae269ec3/integrations/dsh/envoy-dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.5",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": true,
+      "plugin": {
+        "name": "envoy-dsh",
+        "versions": [
+          {
+            "version": "0.1.62",
+            "publishTimestamp": 1795209690,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/regrevia/Envoy",
+              "commit": "7af65c0629c76ad00eed2fc576404dbeae269ec3",
+              "path": "integrations/dsh/envoy-dsh"
+            },
+            "engines": {
+              "dsh": ">=0.1.5"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/regrevia/Envoy",
+    "commit": "7af65c0629c76ad00eed2fc576404dbeae269ec3",
+    "releaseTags": 53,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:00.357Z"
+}

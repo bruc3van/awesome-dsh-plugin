@@ -1,0 +1,48 @@
+{
+  "full_name": "lingfengQAQ/webnovel-writer",
+  "originalPosition": 4,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 4,
+  "batch": 1,
+  "stargazers_count": 8022,
+  "startedAt": "2026-11-20T22:22:48.294Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "19594c5b45a69ea4dfdc503d68141fe32a2cff9b1ab6df8d20ca10f85b948eb3",
+      "url": "https://github.com/lingfengQAQ/webnovel-writer/blob/04e485d0d4d34524b83e219be5d0482557c53334/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "484715b2c159b90c5af6e713b58fa9b8980673487760cccdd256ac7426094555",
+      "url": "https://github.com/lingfengQAQ/webnovel-writer/blob/04e485d0d4d34524b83e219be5d0482557c53334/docs/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/lingfengQAQ/webnovel-writer",
+    "commit": "04e485d0d4d34524b83e219be5d0482557c53334",
+    "releaseTags": 27,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "rootManifest": {
+    "name": null,
+    "version": null,
+    "dsh": null,
+    "engines": null
+  },
+  "outcome": "no_eligible_bundle_found",
+  "finishedAt": "2026-11-20T22:22:50.197Z"
+}

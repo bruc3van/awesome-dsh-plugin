@@ -1,0 +1,130 @@
+{
+  "full_name": "sysevol-ai/CodeNib",
+  "originalPosition": 20,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 20,
+  "batch": 1,
+  "stargazers_count": 102,
+  "startedAt": "2026-11-20T22:22:59.170Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "78d3c8699780da1bd4a014413b2622abc73a96c03f7359867d1c5495dcf78d06",
+      "url": "https://github.com/sysevol-ai/CodeNib/blob/89f2944a6e1add2b501571096af11fcf4c952dd6/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "git+https://github.com/sysevol-ai/CodeNib.git#main&path:/plugins/dsh",
+          "command": "dsh plugin --profile web add \"git+https://github.com/sysevol-ai/CodeNib.git#main&path:/plugins/dsh\"",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-plugin-codenib",
+      "version": "0.1.1",
+      "path": "plugins/dsh",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sysevol-ai/CodeNib",
+        "commit": "89f2944a6e1add2b501571096af11fcf4c952dd6",
+        "path": "plugins/dsh"
+      },
+      "manifestSha256": "b956a1277be5ebc3c226a26f4691751a0b59da02af7abb352ca3044f8201b876",
+      "manifestUrl": "https://github.com/sysevol-ai/CodeNib/blob/89f2944a6e1add2b501571096af11fcf4c952dd6/plugins/dsh/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": null,
+      "compatibilityUnconstrained": true,
+      "declaredCompatibleWithHost": null,
+      "plugin": {
+        "name": "dsh-plugin-codenib",
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1795136465,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sysevol-ai/CodeNib",
+              "commit": "89f2944a6e1add2b501571096af11fcf4c952dd6",
+              "path": "plugins/dsh"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "git+https://github.com/sysevol-ai/CodeNib.git#main&path:/plugins/dsh",
+      "origin": "git_target",
+      "name": "dsh-plugin-codenib",
+      "status": "eligible_metadata",
+      "plugin": {
+        "name": "dsh-plugin-codenib",
+        "title": "dsh-plugin-codenib",
+        "description": "CodeNib for DeepSeek Harness: ranked, source-linked search and compiler-indexed calls and references for the checkout you open, over MCP.",
+        "author": "CodeNib Contributors",
+        "homepage": "https://docs.codenib.ai/codegraph/",
+        "repository": {
+          "url": "https://github.com/sysevol-ai/CodeNib",
+          "directory": "plugins/dsh"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh-plugin",
+            "deepseek-harness",
+            "codenib",
+            "mcp",
+            "code-search",
+            "code-graph"
+          ]
+        },
+        "versions": [
+          {
+            "version": "0.1.1",
+            "publishTimestamp": 1795136465,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sysevol-ai/CodeNib",
+              "commit": "89f2944a6e1add2b501571096af11fcf4c952dd6",
+              "path": "plugins/dsh"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "plugins/dsh",
+          "commit": "89f2944a6e1add2b501571096af11fcf4c952dd6",
+          "name": "dsh-plugin-codenib",
+          "version": "0.1.1",
+          "url": "https://github.com/sysevol-ai/CodeNib",
+          "manifestSha256": "b956a1277be5ebc3c226a26f4691751a0b59da02af7abb352ca3044f8201b876",
+          "publishTimestamp": 1795136465
+        }
+      ]
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "git+https://github.com/sysevol-ai/CodeNib.git#main&path:/plugins/dsh",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/sysevol-ai/CodeNib",
+    "commit": "89f2944a6e1add2b501571096af11fcf4c952dd6",
+    "releaseTags": 13,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:02.885Z"
+}

@@ -1,0 +1,97 @@
+{
+  "full_name": "tiwe0/GeoChat",
+  "originalPosition": 18,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 18,
+  "batch": 1,
+  "stargazers_count": 128,
+  "startedAt": "2026-11-20T22:22:57.868Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "9f896782967a10e4d1928dcb47514af855ac0e7b9fb8b5160f3007a44491fefa",
+      "url": "https://github.com/tiwe0/GeoChat/blob/288b3b15be39312b2baf771eaf015f67b9f841a2/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "plugins/deepseek-harness/README.md",
+      "sha256": "d203366da6f1975c6052e60a8ead69b8ce84fac917a7ebb125b23b764f7e88a6",
+      "url": "https://github.com/tiwe0/GeoChat/blob/288b3b15be39312b2baf771eaf015f67b9f841a2/plugins/deepseek-harness/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": [
+        {
+          "install": "https://github.com/tiwe0/GeoChat/releases/download/dsh-plugin-v0.1.5/dsh-geochat-plugin-0.1.5.tgz",
+          "command": "dsh plugin --profile web add https://github.com/tiwe0/GeoChat/releases/download/dsh-plugin-v0.1.5/dsh-geochat-plugin-0.1.5.tgz",
+          "profile": "web"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-geochat-plugin",
+      "version": "0.1.5",
+      "path": "plugins/deepseek-harness",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tiwe0/GeoChat",
+        "commit": "288b3b15be39312b2baf771eaf015f67b9f841a2",
+        "path": "plugins/deepseek-harness"
+      },
+      "manifestSha256": "1d4d5d2474f28d014946095ca7366d1e85de0a5cce4995aca1b47e6540d0610e",
+      "manifestUrl": "https://github.com/tiwe0/GeoChat/blob/288b3b15be39312b2baf771eaf015f67b9f841a2/plugins/deepseek-harness/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": "0.2.0-rc.2",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-geochat-plugin",
+        "versions": [
+          {
+            "version": "0.1.5",
+            "publishTimestamp": 1792120398,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/tiwe0/GeoChat",
+              "commit": "288b3b15be39312b2baf771eaf015f67b9f841a2",
+              "path": "plugins/deepseek-harness"
+            },
+            "engines": {
+              "dsh": "0.2.0-rc.2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "target": "https://github.com/tiwe0/GeoChat/releases/download/dsh-plugin-v0.1.5/dsh-geochat-plugin-0.1.5.tgz",
+      "status": "unsupported_source",
+      "code": "unsupported_tarball",
+      "reason": "format-1 不支持直接 tarball 来源；需提供 npm 包或可核实的 Git 来源"
+    }
+  ],
+  "mappingFindings": [
+    {
+      "code": "documented_target_not_mapped",
+      "target": "https://github.com/tiwe0/GeoChat/releases/download/dsh-plugin-v0.1.5/dsh-geochat-plugin-0.1.5.tgz",
+      "action": "核实下列来源结果后由维护者补录，不自动覆盖映射"
+    }
+  ],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/tiwe0/GeoChat",
+    "commit": "288b3b15be39312b2baf771eaf015f67b9f841a2",
+    "releaseTags": 14,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:23:00.388Z"
+}

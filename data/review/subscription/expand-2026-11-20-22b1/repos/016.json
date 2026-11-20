@@ -1,0 +1,79 @@
+{
+  "full_name": "Finderchangchang/brewreel",
+  "originalPosition": 16,
+  "inputMode": "unmapped",
+  "mappedTargets": [],
+  "manualNote": null,
+  "ordinal": 16,
+  "batch": 1,
+  "stargazers_count": 189,
+  "startedAt": "2026-11-20T22:22:57.442Z",
+  "scope": "默认分支、README 已提取目标及已有安装映射；不穷举历史版本、不安装或执行插件",
+  "readmes": [
+    {
+      "path": "README.md",
+      "sha256": "eeeb6437d4c75bb50c5e2228907450759432153d74bc84ae81b69baa0a658ce5",
+      "url": "https://github.com/Finderchangchang/brewreel/blob/217eb1f9c6c047b908bfa95ec03f729bec1247ce/README.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    },
+    {
+      "path": "README.en.md",
+      "sha256": "96a06e7edb58a501bbb914f909d54dbd35ebea9666f3c242630d774fb21ddc56",
+      "url": "https://github.com/Finderchangchang/brewreel/blob/217eb1f9c6c047b908bfa95ec03f729bec1247ce/README.en.md",
+      "ambiguous": false,
+      "localOnly": false,
+      "targets": []
+    }
+  ],
+  "candidates": [
+    {
+      "origin": "repository_discovery",
+      "name": "dsh-brewreel",
+      "version": "0.7.0",
+      "path": "integrations/deepseek-harness",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Finderchangchang/brewreel",
+        "commit": "217eb1f9c6c047b908bfa95ec03f729bec1247ce",
+        "path": "integrations/deepseek-harness"
+      },
+      "manifestSha256": "94beb0c2055f07cd20214ba4862ef78cfc65329418f65da345a242f716d8af44",
+      "manifestUrl": "https://github.com/Finderchangchang/brewreel/blob/217eb1f9c6c047b908bfa95ec03f729bec1247ce/integrations/deepseek-harness/package.json",
+      "status": "eligible_metadata",
+      "declaredRange": ">=0.1.7-rc.2 <0.2.0",
+      "compatibilityUnconstrained": false,
+      "declaredCompatibleWithHost": false,
+      "plugin": {
+        "name": "dsh-brewreel",
+        "versions": [
+          {
+            "version": "0.7.0",
+            "publishTimestamp": 1791792953,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/Finderchangchang/brewreel",
+              "commit": "217eb1f9c6c047b908bfa95ec03f729bec1247ce",
+              "path": "integrations/deepseek-harness"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.2 <0.2.0"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "mappingFindings": [],
+  "errors": [],
+  "repository": {
+    "url": "https://github.com/Finderchangchang/brewreel",
+    "commit": "217eb1f9c6c047b908bfa95ec03f729bec1247ce",
+    "releaseTags": 20,
+    "reader": "github_objects_api"
+  },
+  "discoveryWarnings": [],
+  "outcome": "mapping_can_be_added",
+  "finishedAt": "2026-11-20T22:22:59.549Z"
+}
