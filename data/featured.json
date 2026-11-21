@@ -265,7 +265,7 @@
       "description": "通过 IMAP 下载发票附件，在本地识别并导出 Excel 汇总。"
     },
     {
-      "full_name": "Fisfzy/dsh-ego-browser",
+      "full_name": "omdsh-dev/dsh-ego-browser",
       "description": "将 ego-browser 的浏览器自动化工具接入 DSH，Web 界面支持实时查看画面和接管交互。"
     },
     {
@@ -725,7 +725,7 @@
       "description": "AI 编程助手效率复盘插件：本地记录任务耗时分布，并将可验证的改进建议沉淀回指令、技能与工具配置。"
     },
     {
-      "full_name": "tdcq9594/dsh-roost",
+      "full_name": "roost-qq/dsh-roost",
       "description": "DSH 插件：让 AI 通过 Roost 住进 QQ —— 官方接口，不用 hook 客户端"
     },
     {

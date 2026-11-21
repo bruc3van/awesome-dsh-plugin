@@ -210,16 +210,16 @@
       "reason": "跨宿主行为规范产品（Claude Code / Codex / Pi 适配器 + SOFT SKILL.md）；README 注明其 DSH 适配器只是指回原仓库的指针，本仓库没有 DSH 插件安装目标",
       "date": "2026-11-18"
     },
-    "ericwang1358/dsh-web-studyhub": {
-      "reason": "源仓库已不可访问（GitHub 404，2026-11-19）：固定的 git 安装目标无法拉取或核验，会让每次订阅刷新失败；仓库恢复后再重新核验映射",
-      "date": "2026-11-19"
-    },
     "chuspeeism/dashi-taskboard": {
       "reason": "Local-first browser issue board embedded in Codex via CDP launcher / HTTP API + taskctl CLI; README documents no DSH integration or install path.",
       "date": "2026-11-21"
     },
     "agentic-os-org/anolisa": {
       "reason": "System software stack (agentic OS layer) for AI agent workloads, installed as its own stack; no DSH plugin or DSH install path documented.",
+      "date": "2026-11-21"
+    },
+    "ai4xe/ai4ai": {
+      "reason": "多宿主扩展套件：`npx ai4ai init` CLI 检测并注册本地 harness（DSH 为注册目标之一），非 dsh plugin 安装目标",
       "date": "2026-11-21"
     }
   }
