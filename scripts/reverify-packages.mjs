@@ -103,8 +103,23 @@ async function reverifyEntry(slug, record) {
   // Presence check: a recorded target still counts as documented when it
   // appears as any token after an `add` — covers multi-package single-line
   // installs (`add dsh-shared dsh-md-render`) and suites beyond the pick cap.
+  // Tokens are additionally indexed by their bare form: 2026-11-21 policy has
+  // npm targets unversioned and github targets as bare repo addresses, so a
+  // recorded `github:o/r` must match a README token `github:o/r#v1.2.3` the
+  // same way `dsh-foo` matches `dsh-foo@0.9.6`. `#path:` fragments are kept —
+  // they locate a monorepo subpackage, they are not version content.
+  const githubBare = (s) => s.split('#').filter((part, i) => i === 0 || /path/i.test(part)).join('#');
+  // Canonical github form for comparison: repo (lowercase) + only `path:`
+  // fragments — branch pins (`#main`), `&`-joined branch prefixes, version
+  // tags and SHAs all normalize away; path fragments lose leading/trailing
+  // slashes (`#path:/x` ≡ `#path:x`).
+  const githubNorm = (s) => {
+    const [repo, ...refs] = githubBare(s).replace(/^github:/i, '').split('#');
+    const paths = refs.flatMap((r) => r.split('&')).filter((p) => /path/i.test(p)).map((p) => p.replace(/^path:\/*/i, 'path:').replace(/\/+$/, ''));
+    return paths.length ? repo.toLowerCase() + '#' + paths.join('&') : repo.toLowerCase();
+  };
   const upstreamTokens = new Set(
-    found.flatMap((f) => [f.target, npmBase(f.target)]),
+    found.flatMap((f) => [f.target, npmBase(f.target), githubNorm(f.target)]),
   );
   for (const { command } of segments) {
     const addM = /(?:^|\s)add\s+/.exec(command);
@@ -115,6 +130,7 @@ async function reverifyEntry(slug, record) {
       if (stripped !== '' && !/[<>{}"'`$\\|]/.test(stripped)) {
         upstreamTokens.add(stripped);
         upstreamTokens.add(npmBase(stripped));
+        upstreamTokens.add(githubNorm(stripped));
       }
     }
   }
@@ -175,6 +191,7 @@ async function reverifyEntry(slug, record) {
       extractedKeys.has(key) ||
       upstreamTokens.has(payload) ||
       upstreamTokens.has(npmBase(payload)) ||
+      upstreamTokens.has(githubNorm(payload)) ||
       proseDocumented;
     if (!stillDocumented) {
       problems.push(`${slug}: recorded target ${pkg.source} is no longer documented in the upstream README — update or drop the mapping`);
@@ -192,13 +209,33 @@ async function reverifyEntry(slug, record) {
       // vice versa). Pin-stripping applies only to the targets after `add`,
       // so host-compat pins in a runner prefix (npx … dsh@0.1.1-rc.2) stay
       // meaningful, and non-@latest dist-tags (@next channels) survive.
+      // Profiles compare profile-agnostically (2026-11-17: the official add
+      // box takes the bare package name regardless of profile).
       const normalize = (command) => {
-        const flat = command.replace(/"/g, '').replace(/(--profile\s+)(<[^>]*>|\S+)/gi, '$1<profile>');
+        // Compare the token SET after `add` (order- and prefix-insensitive):
+        //   - runner prefixes (npx/pnpm/@deepseek-ai/dsh wrappers, installer
+        //     aliases, `dsh` vs `manage-dsh.bat`) never enter the tail;
+        //   - `--profile <anything>` (before or after `add`, placeholder or
+        //     concrete, CJK or not) is dropped — profile-agnostic;
+        //   - other flags (-w, --ignore-scripts, --config.*) are dropped;
+        //   - npm tokens collapse to their base name (versions/dist-tags are
+        //     the registry's call — 2026-11-21 policy);
+        //   - github tokens collapse to the bare repo address + path
+        //     fragments (tags/SHAs/branch pins stripped — same policy).
+        const flat = command.replace(/["']/g, '');
         const at = flat.indexOf(' add ');
         if (at === -1) return flat;
-        const head = flat.slice(0, at + 5);
-        const tail = flat.slice(at + 5).replace(/(\S)@(latest|\d+\.\d+\.\d+[-+.\w]*)/g, '$1');
-        return head + tail;
+        const raw = flat.slice(at + 5).split(/\s+/);
+        const out = [];
+        for (let i = 0; i < raw.length; i++) {
+          const t = raw[i];
+          if (t === '') continue;
+          if (/^--profile$/i.test(t)) { i++; continue; }
+          if (/^-/.test(t)) continue;
+          if (/^github:/i.test(t)) { out.push('gh:' + githubNorm(t)); continue; }
+          out.push('npm:' + npmBase(t));
+        }
+        return out.sort().join('|');
       };
       const equivalent = [...extractedCommands.get(key)].some(
         (candidate) => normalize(candidate) === normalize(pkg.command),
