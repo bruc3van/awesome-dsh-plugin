@@ -11894,5 +11894,16 @@
     "innocces/dsh-mac-intel": "A desktop distribution/shell of the DeepSeek Harness app, not an installable DSH plugin. Excluded from the downstream market; stays in the catalog.",
     "doushabao2026/dsh-skill-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
   },
-  "updated_at": "2026-11-22"
+  "updated_at": {
+    "0": "2",
+    "1": "0",
+    "2": "2",
+    "3": "6",
+    "4": "-",
+    "5": "1",
+    "6": "1",
+    "7": "-",
+    "8": "2",
+    "9": "2"
+  }
 }

@@ -30185,20 +30185,6 @@
       "verified_via": "review",
       "verified_by": "review"
     },
-    "offzen/dsh-gitea-search": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-gitea-search",
-          "command": "dsh plugin --profile web add dsh-gitea-search",
-          "install": "dsh-gitea-search"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-18",
-      "verified_via": "review",
-      "verified_by": "review"
-    },
     "soso-deepseek-harness-plugins/dsh-context-track": {
       "packages": [],
       "status": "readme-verified",
@@ -214695,15 +214681,6 @@
       "install_mode": "manual",
       "manual_instructions": "npm 名 dsh-at-handoff 在 registry 无 repository 声明（作者身份未证，corpus sweep 2026-11-21 核验）——按策略不录。"
     },
-    "jminn0/dsh-go-plugin-adb": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "README 文档化 npm 名 dsh-go-plugin-adb，registry 404（corpus sweep 2026-11-21 核验）；发布后可恢复 npm 映射。"
-    },
     "hotkong/dsh-home-assistant-panel": {
       "packages": [],
       "status": "readme-verified",
@@ -220849,15 +220826,6 @@
       "install_mode": "manual",
       "manual_instructions": "README 文档化 npm 名 @johnson1662/dsh-inbox，registry 404（corpus sweep 2026-11-21 核验）；发布后可恢复 npm 映射。"
     },
-    "interested3041/dsh-bailian-auto-router": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "README 文档化的 github 目标 interested3041/dsh-auto-router 非本仓库（跨仓引用）。"
-    },
     "loftspire/dsh-github-inventory": {
       "packages": [
         {
@@ -222312,15 +222280,6 @@
       "install_mode": "manual",
       "manual_instructions": "README 安装目标未能通过自动核验；转人工说明。"
     },
-    "samuelchung2010/dsh-chat": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "README 文档化的 github 目标 samuelchung2010/dshift 非本仓库（跨仓引用）。"
-    },
     "tongjieyang/dsh-skill-hub": {
       "packages": [
         {
@@ -222811,15 +222770,6 @@
       "verified_by": "review",
       "install_mode": "manual",
       "manual_instructions": "README 文档化 npm 名 dsh-plugin-skill-distiller，registry 404（corpus sweep 2026-11-21 核验）；发布后可恢复 npm 映射。"
-    },
-    "xiaowill/dsh-server-monitor": {
-      "packages": [],
-      "status": "readme-verified",
-      "verified_date": "2026-11-21",
-      "verified_via": "review",
-      "verified_by": "review",
-      "install_mode": "manual",
-      "manual_instructions": "README 文档化的 github 目标 xiaowill/dsh-server-pulse 非本仓库（跨仓引用）。"
     },
     "woodtong/dsh-ghostscreen-mcp": {
       "packages": [],
@@ -241854,6 +241804,56 @@
       "verified_date": "2026-11-21",
       "verified_via": "review",
       "verified_by": "review"
+    },
+    "offzen/gitea-search-mcp": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-gitea-search",
+          "command": "dsh plugin --profile web add dsh-gitea-search",
+          "install": "dsh-gitea-search"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-18",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "interested3041/dsh-auto-router": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "README 文档化的 github 目标 interested3041/dsh-auto-router 非本仓库（跨仓引用）。"
+    },
+    "jminn0/android-adb-direct": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "README 文档化 npm 名 dsh-go-plugin-adb，registry 404（corpus sweep 2026-11-21 核验）；发布后可恢复 npm 映射。"
+    },
+    "samuelchung2010/dshift": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "README 文档化的 github 目标 samuelchung2010/dshift 非本仓库（跨仓引用）。"
+    },
+    "xiaowill/dsh-server-pulse": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "README 文档化的 github 目标 xiaowill/dsh-server-pulse 非本仓库（跨仓引用）。"
     }
   }
 }
