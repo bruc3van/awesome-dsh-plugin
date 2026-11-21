@@ -38,12 +38,11 @@ for (const script of ['validate-packages.mjs', 'validate-market-catalog.mjs']) {
   if (result.status !== 0) process.exit(result.status ?? 1);
 }
 
-const files = ['data/packages.json', 'data/market-catalog.json', 'data/market-catalog-v4.json'];
+const files = ['data/packages.json', 'data/market-catalog-v4.json'];
 const catalog = await readSafeMarketCatalog(new URL('../', import.meta.url));
 const compactCatalog = buildCompactMarketCatalog(catalog);
 const reads = [
   await readFile(resolve(root, 'data/packages.json'), 'utf8'),
-  `${JSON.stringify(catalog)}\n`,
   `${JSON.stringify(compactCatalog)}\n`,
 ];
 const digest = createHash('sha256').update(reads.join('\n')).digest('hex');
@@ -130,8 +129,7 @@ async function writeReadme(version) {
     '',
     '| File | What it is |',
     '| --- | --- |',
-    '| `data/market-catalog-v4.json` | Primary compact market catalog (schema 4): dictionary-indexed categories, short row keys, omitted defaults, and no duplicated subscription icons/keywords (~40% smaller than schema 3) plus the embedded subscription and editorial shortlist. |',
-    '| `data/market-catalog.json` | Backward-compatible market catalog (schema 3, row shape unchanged — per-row `icon` / `keywords` included) for released `dsh-market-pro <= 1.2.4` clients. |',
+    '| `data/market-catalog-v4.json` | Primary compact market catalog (schema 4): dictionary-indexed categories, short row keys, omitted defaults, and no duplicated subscription icons/keywords plus the embedded subscription and editorial shortlist. Sole catalog feed — schema 3 was retired on 2026-11-22 when the projection crossed the 24 MB ceiling (see AGENTS.md). |',
     '| `data/packages.json` | the hand-maintained install-target source of truth behind every `packages` block |',
     '',
     '## Fetching',

@@ -64,7 +64,7 @@ test('first publication, version bump and digest no-op', async (t) => {
   const first = await run(root, 'return {status:404,ok:false}');
   assert.equal(first.status, 0, first.stderr);
   assert.match(first.stdout, /MOCK_NPM_PUBLISH/);
-  assert.deepEqual((await readdir(resolve(root, 'dist-npm/data'))).sort(), ['market-catalog-v4.json', 'market-catalog.json', 'packages.json']);
+  assert.deepEqual((await readdir(resolve(root, 'dist-npm/data'))).sort(), ['market-catalog-v4.json', 'packages.json']);
   const manifest = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
   const doc = { 'dist-tags': { latest: manifest.version }, versions: { [manifest.version]: manifest } };
   const response = () => `return {ok:true,status:200,json:async()=>(${JSON.stringify(doc)})}`;
@@ -76,9 +76,10 @@ test('first publication, version bump and digest no-op', async (t) => {
   assert.equal(bump.status, 0, bump.stderr);
   const next = JSON.parse(await readFile(resolve(root, 'dist-npm/package.json'), 'utf8'));
   assert.equal(next.version, manifest.version.replace(/\.0$/, '.1'));
-  const catalog = JSON.parse(await readFile(resolve(root, 'dist-npm/data/market-catalog.json'), 'utf8'));
+  const catalog = JSON.parse(await readFile(resolve(root, 'dist-npm/data/market-catalog-v4.json'), 'utf8'));
   const index = JSON.parse(await readFile(resolve(root, 'data/dsh-market-index.json'), 'utf8'));
-  assert.deepEqual(catalog.subscription, index);
+  assert.equal(catalog.schema_version, 4);
+  assert.equal(catalog.subscription?.plugins?.length, index.plugins.length);
   assert.ok(catalog.entries.length > 1000);
 });
 
@@ -105,9 +106,11 @@ test('a subscription-only publication changes the npm digest and retains its log
   const next = await run(root, `return {ok:true,status:200,json:async()=>(${JSON.stringify(doc)})}`);
   assert.equal(next.status, 0, next.stderr);
   assert.match(next.stdout, /MOCK_NPM_PUBLISH/);
-  const catalog = JSON.parse(await readFile(resolve(root, 'dist-npm/data/market-catalog.json'), 'utf8'));
-  assert.deepEqual(catalog.subscription, index);
-  assert.equal(catalog.subscription.plugins[0].icon, index.plugins[0].icon);
+  const catalog = JSON.parse(await readFile(resolve(root, 'dist-npm/data/market-catalog-v4.json'), 'utf8'));
+  assert.equal(catalog.subscription?.plugins?.length, index.plugins.length);
+  // v4 folds subscription icons/keywords into dictionaries — the logo must
+  // survive somewhere in the shipped payload.
+  assert.ok(JSON.stringify(catalog).includes(index.plugins[0].icon), 'the first subscription icon must be retained');
 });
 
 test('an E409 version collision retries once with a bumped patch', async (t) => {

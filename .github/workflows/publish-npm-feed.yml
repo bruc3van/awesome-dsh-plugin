@@ -76,7 +76,7 @@ jobs:
         timeout-minutes: 2
         run: |
           for feed_alias in awesome-dsh-plugin-feed@latest awesome-dsh-plugin-feed; do
-            for feed_file in data/market-catalog-v4.json data/market-catalog.json; do
+            for feed_file in data/market-catalog-v4.json data/packages.json; do
               curl --fail --silent --show-error "https://purge.jsdelivr.net/npm/$feed_alias/$feed_file"
             done
           done

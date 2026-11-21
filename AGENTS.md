@@ -29,4 +29,5 @@ npm test --prefix scripts/host-market
 
 ## 运维备忘
 
-- **Schema 3（`data/market-catalog.json`）下线触发条件**：当 `market-catalog.json` 体积触达 `scripts/validate-market-catalog.mjs` 中的 24 MB 硬上限导致 `publish-npm-feed.yml` 报红时，**直接下线 schema 3 兼容版**，仅保留紧凑的 schema 4 主源 `data/market-catalog-v4.json`（与 `data/packages.json`）。
+- **Schema 3（`data/market-catalog.json`）已下线（2026-11-22）**：install 映射全量清洗（+7,459 条）使 schema 3 投影突破 24 MB 硬上限，按既有协议直接下线，**仅保留 schema 4 主源 `data/market-catalog-v4.json`**（与 `data/packages.json`）。npm feed（`awesome-dsh-plugin-feed`）不再携带 schema 3 文件；`dsh-market-pro <= 1.2.4` 的旧客户端需升级到 v4 消费。schema 2 于 2026-11-18 下线，schema 3 于 2026-11-22 下线——此后唯一目录源即 schema 4。
+- **npm 安装目标版本策略（2026-11-21）**：npm 目标一律**无版本钉**（registry 决定装 latest；`@next` 等 channel dist-tag 保留，`@latest` 归一为无版本）；github/url 目标逐字遵循项目 README（tag/SHA/路径原样）。`reverify-packages.mjs` 的命令等价性对 add 目标做版本钉不敏感比较（宿主兼容性 runner 钉不受影响）。

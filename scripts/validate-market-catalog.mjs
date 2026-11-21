@@ -138,8 +138,9 @@ if (compactCatalog.entries.length !== catalog.entries.length) {
 
 // The CDN serves each file uncompressed to its per-file cap (jsDelivr is
 // documented at 20 MB, measured at 50 MiB; unpkg mirrors are less predictable),
-// so both payloads get explicit byte budgets.
-const catalogBytes = Buffer.byteLength(`${JSON.stringify(catalog)}\n`, 'utf8');
+// so the shipped payload gets an explicit byte budget. The legacy schema-3
+// file was retired on 2026-11-22 (its projection crossed the 24 MB ceiling —
+// AGENTS.md); only the compact schema-4 feed ships.
 const compactBytes = Buffer.byteLength(`${JSON.stringify(compactCatalog)}\n`, 'utf8');
 const WARN_BYTES = 18 * 1000 * 1000;
 const MAX_BYTES = 20 * 1000 * 1000;
@@ -147,11 +148,6 @@ if (compactBytes > MAX_BYTES) {
   errors.push(`compact market-catalog-v4.json is ${compactBytes} bytes — over the ${MAX_BYTES}-byte CDN cap; split or slim it before publishing`);
 } else if (compactBytes > WARN_BYTES) {
   warnings.push(`compact market-catalog-v4.json is ${compactBytes} bytes — past the ${WARN_BYTES}-byte warning line`);
-}
-if (catalogBytes > 24 * 1000 * 1000) {
-  errors.push(`legacy market-catalog.json is ${catalogBytes} bytes — over the 24 MB ceiling`);
-} else if (catalogBytes > MAX_BYTES) {
-  warnings.push(`legacy market-catalog.json is ${catalogBytes} bytes — past the 20 MB CDN documented cap`);
 }
 if (indexBytes > 0) {
   const INDEX_LIMIT = 5 * 1024 * 1024;
@@ -171,5 +167,5 @@ console.log(
   `market catalog is valid — ${total} repositories ` +
     `(${counts.command} installable, ${counts.manual} manual, ${counts.none} catalog-only), ` +
     `${catalog.subscription.plugins.length} subscription plugins, ` +
-    `v4=${(compactBytes / 1e6).toFixed(2)} MB / v3=${(catalogBytes / 1e6).toFixed(2)} MB, snapshot ${catalog.source_fetched_at}.`,
+    `v4=${(compactBytes / 1e6).toFixed(2)} MB (schema 3 retired 2026-11-22), snapshot ${catalog.source_fetched_at}.`,
 );
