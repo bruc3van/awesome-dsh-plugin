@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20",
+  "updated_at": "2026-11-21",
   "entries": {
     "00080000/dsh-project-memory": {
       "packages": [
@@ -4211,20 +4211,6 @@
       "verified_date": "2026-11-17",
       "verified_via": "README + npm registry",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
-    },
-    "fisfzy/dsh-ego-browser": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "github:Fisfzy/dsh-ego-browser#35ff8648ef0186e08be41fd26e849a258351994b",
-          "install": "https://github.com/Fisfzy/dsh-ego-browser#35ff8648ef0186e08be41fd26e849a258351994b",
-          "command": "dsh plugin --profile web add \"github:Fisfzy/dsh-ego-browser#35ff8648ef0186e08be41fd26e849a258351994b\""
-        }
-      ],
-      "status": "repo-fallback",
-      "verified_date": "2026-10-22",
-      "verified_via": "manifest@35ff8648ef01",
-      "note": "README 未提供可用的固定发行版本；按已核验来源固定安装目标。"
     },
     "fishbottle7/opencode2dsh": {
       "packages": [
@@ -16658,19 +16644,6 @@
       ],
       "status": "readme-verified",
       "verified_date": "2026-11-17",
-      "verified_via": "README + npm registry"
-    },
-    "tdcq9594/dsh-roost": {
-      "packages": [
-        {
-          "profile": "web",
-          "source": "npm:dsh-roost",
-          "install": "dsh-roost",
-          "command": "dsh plugin --profile web add dsh-roost"
-        }
-      ],
-      "status": "readme-verified",
-      "verified_date": "2026-11-16",
       "verified_via": "README + npm registry"
     },
     "linner1224/dsh-video-coursemap": {
@@ -46614,6 +46587,116 @@
       "verified_date": "2026-11-20",
       "verified_via": "manifest@4533d2e85032",
       "note": "官方 dshRange 下未声明 engines.dsh 视为不受限；身份由仓库/包名/README 对应关系核实，不是实机兼容验收。"
+    },
+    "omdsh-dev/dsh-ego-browser": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "github:omdsh-dev/dsh-ego-browser#35ff8648ef0186e08be41fd26e849a258351994b",
+          "install": "https://github.com/omdsh-dev/dsh-ego-browser#35ff8648ef0186e08be41fd26e849a258351994b",
+          "command": "dsh plugin --profile web add \"github:omdsh-dev/dsh-ego-browser#35ff8648ef0186e08be41fd26e849a258351994b\""
+        }
+      ],
+      "status": "repo-fallback",
+      "verified_date": "2026-10-22",
+      "verified_via": "manifest@35ff8648ef01",
+      "note": "README 未提供可用的固定发行版本；按已核验来源固定安装目标。"
+    },
+    "tencentmusic/modus": {
+      "packages": [
+        {
+          "profile": "modus",
+          "source": "npm:@modus-ai/modus@1.0.0",
+          "command": "dsh plugin --profile modus add @modus-ai/modus@1.0.0 --ignore-scripts",
+          "install": "@modus-ai/modus@1.0.0"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "finderchangchang/brewreel": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "npm:dsh-brewreel",
+          "command": "dsh plugin --profile web add dsh-brewreel",
+          "install": "dsh-brewreel"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "tiwe0/geochat": {
+      "packages": [
+        {
+          "profile": "web",
+          "source": "url:https://github.com/tiwe0/GeoChat/releases/download/dsh-plugin-v0.1.5/dsh-geochat-plugin-0.1.5.tgz",
+          "command": "dsh plugin --profile web add https://github.com/tiwe0/GeoChat/releases/download/dsh-plugin-v0.1.5/dsh-geochat-plugin-0.1.5.tgz",
+          "install": "https://github.com/tiwe0/GeoChat/releases/download/dsh-plugin-v0.1.5/dsh-geochat-plugin-0.1.5.tgz"
+        }
+      ],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review"
+    },
+    "lingfengqaq/webnovel-writer": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "DeepSeek Harness 写作工作台为 v8 分支（默认分支 master 是 Claude Code v6 插件）：按产品主页新手教程安装——https://lingfengqaq.github.io/webnovel-writer/docs/install.html（v8 公开产品源码、运行技能与使用教程，无 paste-safe 单条安装命令）。"
+    },
+    "nexu-io/openmotion": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "OpenMotion 是多宿主动效视频工作室：DeepSeek Harness 侧按 docs/agent-adapters.md#deepseek-harness 以 Cordis 配置接入 OpenMotion MCP 工具（无 dsh plugin add 形式的安装命令）。"
+    },
+    "kunkundi/crossdesk": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "CrossDesk（跨端远控）DSH 侧只安装一个对应平台的 MCP 插件包（由 CrossDesk 安装包自动注册服务），安装与配置见 apps/mcp/README.md#install-dsh；无 paste-safe 命令。"
+    },
+    "chainbase-labs/agentkey": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "AgentKey 是 CLI 管理的 DSH MCP 集成（README 自述非原生可安装 DSH 插件）。DSH 手动安装两步逐字命令：`npx -y skills add chainbase-labs/agentkey -g -a universal -s agentkey -y` 然后 `npx -y @agentkey/cli --auth-login --only dsh`；CLI 在 ${DSH_HOME:-~/.dsh}/cordis.patch.yml 写入受管 Loader 块。"
+    },
+    "liarmttt/tavernweave": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "TavernWeave X DSH 插件包以 Release 资产分发：从 v2.4.0 发布页下载 TavernWeave-DSH-v2.4.0.tgz 与 SHA-256 校验文件，`dsh plugin --profile <profile> add <tgz 本地路径>` 安装；desktop profile 由 Desktop shell 管理，不要直接调用 CLI。"
+    },
+    "hiseax/dsh-windows-superagent": {
+      "packages": [],
+      "status": "readme-verified",
+      "verified_date": "2026-11-21",
+      "verified_via": "review",
+      "verified_by": "review",
+      "install_mode": "manual",
+      "manual_instructions": "Windows 本地开发安装（PowerShell）：`dsh plugin --profile superagent add \"link:$PWD\\packages\\dsh-windows-superagent\"`，看板包 packages/dsh-windows-superagent-board 同法；无 npm/远端安装目标。"
     }
   }
 }

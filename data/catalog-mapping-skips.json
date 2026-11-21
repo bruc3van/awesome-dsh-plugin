@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-21",
   "entries": {
     "daha1216/dsh-adult-tension": {
       "reason": "Agent Skill（原生 SKILL）：`skill/adult-tension/` 含 SKILL.md + references + 运行时，安装方式是把该目录复制进 ~/.dsh/skills/，没有 cordis 插件或 dsh bundle 清单",
@@ -213,6 +213,14 @@
     "ericwang1358/dsh-web-studyhub": {
       "reason": "源仓库已不可访问（GitHub 404，2026-11-19）：固定的 git 安装目标无法拉取或核验，会让每次订阅刷新失败；仓库恢复后再重新核验映射",
       "date": "2026-11-19"
+    },
+    "chuspeeism/dashi-taskboard": {
+      "reason": "Local-first browser issue board embedded in Codex via CDP launcher / HTTP API + taskctl CLI; README documents no DSH integration or install path.",
+      "date": "2026-11-21"
+    },
+    "agentic-os-org/anolisa": {
+      "reason": "System software stack (agentic OS layer) for AI agent workloads, installed as its own stack; no DSH plugin or DSH install path documented.",
+      "date": "2026-11-21"
     }
   }
 }

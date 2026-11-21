@@ -189,7 +189,6 @@
     "203-11/dsh-fat-fish": "ui-experience",
     "2031814001yuyue-tech/dsh-side-chat": "agents-workflows",
     "2033453490/dsh-plugin-supervisor": "ecosystem-resources",
-    "2090003781/bridge": "integrations-sharing",
     "2189166478-bot/dsh-zh-cn": "ui-experience",
     "22-ai-00/dsh-enhanced": "utilities",
     "2233heorbrin/fish-brain": "agents-workflows",
@@ -948,7 +947,6 @@
     "ChisaAlter/dsh-plugin-message-edit": "agents-workflows",
     "chjinhuu/dsh-zh-thinking": "agents-workflows",
     "Chloride233/dsh-cot-profile": "developer-tools",
-    "Chlyz621/dsh-unstuck": "agents-workflows",
     "chocobo77/adaptive-effort-scheduler": "developer-tools",
     "Choi-Peng/dsh-tenancy": "developer-tools",
     "chongyi/dsh-notify": "ui-experience",
@@ -1344,7 +1342,6 @@
     "dsh-labs/dsh-omp-retry": "developer-tools",
     "dsh-plugin-collection/dsh-herdr-site": "integrations-sharing",
     "dsh-plugin-collection/dsh-later": "agents-workflows",
-    "dsh-plugin-collection/dsh-wakatime-plugin": "integrations-sharing",
     "dsh-plugin-evaluation/dsh-agent-observe": "developer-tools",
     "dsh-plugin-lab/dsh-workbuddy-bridge": "developer-tools",
     "dsh-plugin-lab/dsh-zhihu-search": "web-browser",
@@ -2390,7 +2387,6 @@
     "JungleYXu/dsh-minichat": "ui-experience",
     "junjundesk/dsh-default-reasoning-efforts": "developer-tools",
     "JunWan666/dsh-plugins": "ecosystem-resources",
-    "junwei529/work-charter-dsh": "agents-workflows",
     "JunyuZhan/dsh-privmask": "developer-tools",
     "jusspound-netizen/dsh-plugin-scanner": "ecosystem-resources",
     "jusspound-netizen/dsh-token-optimizer": "developer-tools",
@@ -3639,7 +3635,6 @@
     "Phantomcyber-ai/dsh-skill-router": "agents-workflows",
     "philipho01/dsh-llm-fidelity": "developer-tools",
     "philo-max/dsh-local-llm": "developer-tools",
-    "PhilYue/dsh-llm-manage": "developer-tools",
     "Phocinae/dsh-batch-triage": "agents-workflows",
     "Phoeky/dsh-sensenova-pool": "developer-tools",
     "phoenixlucky/dsh-session-norms": "ui-experience",
@@ -5057,7 +5052,6 @@
     "x402/dsh-fail-fast": "agents-workflows",
     "x5427876/dsh-opencode-free": "developer-tools",
     "xanderVIA/dsh-session-organizer": "agents-workflows",
-    "Xantares330/dsh-codex-consult": "multi-agents",
     "XavierMarquis93/dsh-auto-review-default": "agents-workflows",
     "xbqn/AgentCenter": "agents-workflows",
     "xCube007/dsh-message-rewind": "agents-workflows",
@@ -5800,7 +5794,11 @@
     "yeweiliang7063/dsh-tcm-xueli": "knowledge-research",
     "DanceElephant/dsh-codex-skill-bridge": "ecosystem-resources",
     "tzzs/dsh-goodnight": "utilities",
-    "Digiforge6688/dsh-director": "media-vision"
+    "Digiforge6688/dsh-director": "media-vision",
+    "Charliewhale/bridge": "integrations-sharing",
+    "dsh-plugin-collection/dsh-wakatime": "integrations-sharing",
+    "eddiez529/work-charter-dsh": "agents-workflows",
+    "X1A0ME111/dsh-codex-consult": "multi-agents"
   },
   "description_overrides": {
     "43456-awa/dsh-notepad": "钉在 DeepSeek Harness Web GUI 的常驻记事本插件，可拖动、可固定。",
@@ -5824,7 +5822,6 @@
     "LuZhouheng/dsh-gen3d": "DSH 的 3D 角色生成插件：一句需求或一张参考图变成带贴图、游戏可用的 3D 角色资产，直连 Meshy / 腾讯混元 3D / Tripo3D / Rodin 四家官方 API，凭证由用户自配。",
     "Magelovania/dsh-branch-notes": "枝条笔记 DSH 插件：左侧栏枝条图标展开整块笔记面板——一层一列的枝条卡片、包络色带、长按拖动换父枝；AI 抽屉与一键总结直接使用 Harness 内置模型，无需任何 API Key。",
     "Muninn-and-Zmx/dsh-subtext": "让 AI 在日常对话里听懂字面底下的一层：这句话传什么情感、此刻要什么、为什么不能直说；一旦进入工作整层暂停。只改「怎么听」，不改「怎么说」。",
-    "Nounoumm/course-handout-studio": "学生给主题即扩展成模块化讲义并一键生成 DOCX+PDF 的 Harness 插件",
     "OolongBlackCoffee/dsh-wuwa-pet": "把 DeepSeek 余额 / 今日消耗 / 每轮花费弹在 WuwaTappo 桌宠头顶的 DSH 插件。",
     "PandaBlessing/dsh-user-sync": "DSH 用户级配置同步插件：把技能、插件清单、配置、记忆在设备间对齐，新机器装一次即与老机器一致。",
     "PerryLink/dsh-aqua-input-check": "水产养殖投入品记录检查：记录完整性（塘口、品种、投入品、数量）与日期推算一致性。",
@@ -5935,7 +5932,10 @@
     "zyzzyzyzyzzy/chat-to-persona": "把导出的聊天记录（QQ/微信 txt、DeepSeek 导出包）蒸馏成可导入的角色卡（chara_card_v2 / 爱语信封）：先统计语感——句长中位数、标点习惯、emoji 频率，再把原话与硬规则一起打包进卡里。零依赖 Node CLI + dsh 插件 + 技能。",
     "adengou/dsh-kumquat": "DSH 媒体插件：视频/音频格式转换与 GIF 片段制作。",
     "yehuoshun/dsh-media-ledger": "DSH 自媒体台账插件：汇总抖音、小红书、B站、视频号的作品数据，做数据复盘并整理发布物料。",
-    "callaumyan-design/dshx-plugin-hub": "把 dshmarket 插件市场并进「设置 → 内置插件」标签页，与宿主插件列表和市场设置卡并列。"
+    "callaumyan-design/dshx-plugin-hub": "把 dshmarket 插件市场并进「设置 → 内置插件」标签页，与宿主插件列表和市场设置卡并列。",
+    "Nounoumm/-": "学生给主题即扩展成模块化讲义并一键生成 DOCX+PDF 的 Harness 插件",
+    "DogEgg-alR/dsh-scan-to-pdf": "把拍照/扫描的图片逐页抄录成文字并排版成 PDF——在 DeepSeek Harness 插件页内直接完成；支持图片、ZIP、Word 与 PDF 导入，逐页校对后导出。",
+    "CoolrfulDARkness/dsh-handover-protocol": "会话头部的标准化交接手续开关按钮，按会话记忆开关状态，注入交接协议指针与全套触发词手续。"
   },
   "leaderboard_exclusions": {
     "091022yyj/deepseek-harness-desktop": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -5947,7 +5947,6 @@
     "1e0zj/dsh-plugin-mall": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
     "2026heshao/dsh-armory": "Kept out of the star board: a plugin with a built-in skill mall (SkillHub) and connector market — the market cannot include another market. Stays in the catalog.",
     "250shiwo/dsh-plugin-market": "Kept out of the star board: a plugin market / store / directory — the market cannot include another market. Stays in the catalog.",
-    "2869949486/dsh-skill-market": "A local build of montersy123/dsh-skill-market that browses and installs SkillHub skills in-host — the market cannot include another market; stays in the catalog, kept out of the star board and the downstream market.",
     "2BingLing/dsh-market": "Kept out of the star board: a DSH plugin market / directory / store — the market cannot include another market. Stays in the catalog.",
     "2DogsLee/dsh_whalebuddy": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "386842536/dsh-launcher": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
@@ -6772,7 +6771,12 @@
     "mcmorsh/chipdeck": "Desktop client form — an always-on-top Windows overlay application with a DSH agent panel registered via dsh.profile.bundles; absent from TOP200 and the downstream market.",
     "callaumyan-design/dshx-plugin-hub": "Market class — embeds the dshmarket plugin market into the client Settings as a tab; kept out of the star board.",
     "plugin-academy/dsh-plugin-academy": "Market class — a plugin-center that browses and adds third-party plugin indexes inside DeepSeek Harness; kept out of the star board.",
-    "chuchenai/dshd": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    "chuchenai/dshd": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
+    "zz12hui/dsh-radar": "Kept out of the star board: a plugin/skill ecosystem radar — an in-host ranking and navigation directory over the whole plugin catalog with generated install prompts — the market cannot include another market. Stays in the catalog.",
+    "WOchovy233/dsh-cyber-egg": "Kept out of the star board: stars accrue as a free-token giveaway aggregator (anonymous free model pools, relay-station auto check-in, one-click model install) — the draw is the free tokens, not the DSH plugin itself. Stays in the catalog.",
+    "K1-lihongrong/dsh-multiver": "Kept out of the star board: a standalone DSH multi-version manager/launcher (Windows releases, embedded instance runs, instance isolation); the DSH side is the bundled dsh-multiver-bridge plugin. Stays in the catalog.",
+    "innocces/dsh-mac-intel": "Kept out of the star board: an unofficial macOS Intel desktop distribution of the DeepSeek Harness app itself — an installer/shell, not an installable DSH plugin. Stays in the catalog.",
+    "doushabao2026/dsh-skill-market": "A local build of montersy123/dsh-skill-market that browses and installs SkillHub skills in-host — the market cannot include another market; stays in the catalog, kept out of the star board and the downstream market."
   },
   "excluded_repos": {
     "01men/CDPP": "Not a DSH plugin — a cross-border document-processing platform repo (no README, no DSH install path).",
@@ -8437,7 +8441,13 @@
     "edsml-jz2321/quotemem": "Not a DSH plugin — a standalone auditable long-term memory service (uv sync + HTTP serve); no DSH install path.",
     "mizar-silexeth/opencode-free-lane-tls-gate": "Not a DSH plugin — a research write-up with an optional patch for the dsh-our-free-model plugin's free-lane TLS gate; owner transfer of the excluded windy-0-0/opencode-free-lane-tls-gate (same repository), exclusion inherited.",
     "yichuai/deepseek-harness-vscode": "Not an installable DSH plugin — a VS Code extension; owner transfer of the excluded liangwythu/deepseek-harness-vscode (same repository), exclusion inherited.",
-    "wenston-dev/awesome-dsh-plugin": "Not a DSH plugin — a curated plugin list/directory; owner transfer of the excluded wgd753/awesome-dsh-plugin (same repository), exclusion inherited."
+    "wenston-dev/awesome-dsh-plugin": "Not a DSH plugin — a curated plugin list/directory; owner transfer of the excluded wgd753/awesome-dsh-plugin (same repository), exclusion inherited.",
+    "yushang657/DSH-YS-pojia": "Not a DSH plugin — a DeepSeek Harness jailbreak/armor-break kit (self-described DSH 破甲 解限 越狱: 96 host patches over 70 files with refusal purge); follows the YuJunZhiXue/dsh-purge family precedent",
+    "EternalNight996/autokill-purge": "Not a DSH plugin — an armor-break console across DSH/MengBot/AutoKill hosts (83 host patches, payload generation, strips approval and sandbox gates); follows the YuJunZhiXue/dsh-purge family precedent",
+    "KINGs74/dsh-vendor": "Not a DSH plugin — a public offline mirror redistributing third-party DSH plugin tarballs (dshmarket, dsh-ops, billion-context etc.) for re-install after upstream takedowns; no plugin body of its own",
+    "ILVACM/DSH-HUAWEI-CodeArt2API": "Not a DSH plugin — a placeholder repo (56-char README plus LICENSE only, no code, manifest or install path)",
+    "ILVACM/DSH-SetModel-for-ContextCompression": "Not a DSH plugin — a placeholder repo (86-char README plus LICENSE only, no code, manifest or install path)",
+    "yjrqz777/dsh-stock-bbar": "Not a DSH plugin — an empty placeholder repo (title-only README, no code, manifest or install path)"
   },
   "market_exclusions": {
     "0326/dsh-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -8451,7 +8461,6 @@
     "1e0zj/dsh-plugin-mall": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "2026heshao/dsh-armory": "A plugin with a built-in SkillHub skill mall (190k+ skills, one-click install) and WorkBuddy connector market — the market cannot include another market; stays in the catalog, excluded from the board and the downstream market.",
     "250shiwo/dsh-plugin-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
-    "2869949486/dsh-skill-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "2BingLing/dsh-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market.",
     "2DogsLee/dsh_whalebuddy": "Excluded from the downstream market: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog.",
     "386842536/dsh-launcher": "Not an installable DSH plugin — a desktop client/launcher; stays in the catalog and leaderboard, excluded from the downstream market.",
@@ -9354,6 +9363,11 @@
     "ztmajor/DSCoder": "Not an installable DSH plugin — a Tauri desktop shell for DSH; stays in the catalog and leaderboard, excluded from the downstream market.",
     "zx19491001/dsh-plugin-hub": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
     "zx2021210538/dsh-skills-mcp-manager": "A DSH skills/MCP manager with a built-in online skill market (skills.sh / ClawHub remote catalogs for search, rankings and install) — the market cannot include another market; stays in the catalog, excluded from the board and the downstream market.",
-    "zxheyi/dsh-work": "Not an installable DSH plugin — a plugin-native AI desktop product built on DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market."
+    "zxheyi/dsh-work": "Not an installable DSH plugin — a plugin-native AI desktop product built on DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "zz12hui/dsh-radar": "A plugin/skill directory and navigation center inside DSH — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market.",
+    "WOchovy233/dsh-cyber-egg": "Excluded from the downstream market: a free-token/model giveaway aggregator — the draw is the free tokens, not the DSH plugin itself; stays in the catalog.",
+    "K1-lihongrong/dsh-multiver": "A desktop launcher/shell managing and embedding DSH instances, not an installable DSH plugin. Excluded from the downstream market; stays in the catalog.",
+    "innocces/dsh-mac-intel": "A desktop distribution/shell of the DeepSeek Harness app, not an installable DSH plugin. Excluded from the downstream market; stays in the catalog.",
+    "doushabao2026/dsh-skill-market": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
   }
 }
