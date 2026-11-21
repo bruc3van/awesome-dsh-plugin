@@ -157,9 +157,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@banana-peeljj12/dsh-trellis@latest",
-          "source": "npm:@banana-peeljj12/dsh-trellis@latest",
-          "command": "dsh plugin --profile web add @banana-peeljj12/dsh-trellis@latest"
+          "install": "@banana-peeljj12/dsh-trellis",
+          "source": "npm:@banana-peeljj12/dsh-trellis",
+          "command": "dsh plugin --profile web add @banana-peeljj12/dsh-trellis"
         }
       ],
       "status": "readme-verified",
@@ -326,9 +326,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-mimir@latest",
-          "source": "npm:dsh-mimir@latest",
-          "command": "dsh plugin --profile web add dsh-mimir@latest"
+          "install": "dsh-mimir",
+          "source": "npm:dsh-mimir",
+          "command": "dsh plugin --profile web add dsh-mimir"
         }
       ],
       "status": "readme-verified",
@@ -626,9 +626,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-skill-picker@0.5.28",
-          "source": "npm:dsh-skill-picker@0.5.28",
-          "command": "dsh plugin --profile web add dsh-skill-picker@0.5.28"
+          "install": "dsh-skill-picker",
+          "source": "npm:dsh-skill-picker",
+          "command": "dsh plugin --profile web add dsh-skill-picker"
         }
       ],
       "status": "readme-verified",
@@ -733,9 +733,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@aa2246740/dsh-skillhub@1.0.9",
-          "source": "npm:@aa2246740/dsh-skillhub@1.0.9",
-          "command": "dsh plugin --profile web add @aa2246740/dsh-skillhub@1.0.9"
+          "install": "@aa2246740/dsh-skillhub",
+          "source": "npm:@aa2246740/dsh-skillhub",
+          "command": "dsh plugin --profile web add @aa2246740/dsh-skillhub"
         }
       ],
       "status": "readme-verified",
@@ -886,9 +886,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@awiki/dsh-plugin@latest",
-          "source": "npm:@awiki/dsh-plugin@latest",
-          "command": "dsh plugin --profile web add @awiki/dsh-plugin@latest"
+          "install": "@awiki/dsh-plugin",
+          "source": "npm:@awiki/dsh-plugin",
+          "command": "dsh plugin --profile web add @awiki/dsh-plugin"
         }
       ],
       "note": "主包不再内置 AWiki 托管模型；需要该能力时另行安装 @awiki/dsh-model-proxy@latest（独立版本）。",
@@ -1326,9 +1326,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-lark-link@latest",
-          "command": "dsh plugin --profile web add dsh-lark-link@latest --ignore-scripts",
-          "install": "dsh-lark-link@latest"
+          "source": "npm:dsh-lark-link",
+          "command": "dsh plugin --profile web add dsh-lark-link --ignore-scripts",
+          "install": "dsh-lark-link"
         },
         {
           "profile": "web",
@@ -1465,9 +1465,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "install": "fanframe@1.10.0-beta.23",
-          "source": "npm:fanframe@1.10.0-beta.23",
-          "command": "dsh plugin --profile web add fanframe@1.10.0-beta.23"
+          "install": "fanframe",
+          "source": "npm:fanframe",
+          "command": "dsh plugin --profile web add fanframe"
         }
       ],
       "status": "readme-verified",
@@ -1535,9 +1535,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@anweat/dsh-browser@0.2.3",
-          "source": "npm:@anweat/dsh-browser@0.2.3",
-          "command": "dsh plugin --profile web add @anweat/dsh-browser@0.2.3"
+          "install": "@anweat/dsh-browser",
+          "source": "npm:@anweat/dsh-browser",
+          "command": "dsh plugin --profile web add @anweat/dsh-browser"
         }
       ],
       "status": "readme-verified",
@@ -1548,15 +1548,15 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-web-search-pro@0.2.4",
-          "source": "npm:dsh-web-search-pro@0.2.4",
-          "command": "dsh plugin --profile web add dsh-web-search-pro@0.2.4"
+          "install": "dsh-web-search-pro",
+          "source": "npm:dsh-web-search-pro",
+          "command": "dsh plugin --profile web add dsh-web-search-pro"
         },
         {
           "profile": "web",
-          "install": "@anweat/dsh-browser@0.2.3",
-          "source": "npm:@anweat/dsh-browser@0.2.3",
-          "command": "dsh plugin --profile web add @anweat/dsh-browser@0.2.3 dsh-web-search-pro@0.2.4"
+          "install": "@anweat/dsh-browser",
+          "source": "npm:@anweat/dsh-browser",
+          "command": "dsh plugin --profile web add @anweat/dsh-browser dsh-web-search-pro@0.2.4"
         }
       ],
       "status": "readme-verified",
@@ -1765,9 +1765,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@axiaohungry/dsh-llm-workbuddy@latest",
-          "source": "npm:@axiaohungry/dsh-llm-workbuddy@latest",
-          "command": "dsh plugin --profile web add @axiaohungry/dsh-llm-workbuddy@latest"
+          "install": "@axiaohungry/dsh-llm-workbuddy",
+          "source": "npm:@axiaohungry/dsh-llm-workbuddy",
+          "command": "dsh plugin --profile web add @axiaohungry/dsh-llm-workbuddy"
         }
       ],
       "status": "readme-verified",
@@ -2130,9 +2130,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-remote-plugin@latest",
-          "source": "npm:dsh-remote-plugin@latest",
-          "command": "dsh plugin --profile web add dsh-remote-plugin@latest"
+          "install": "dsh-remote-plugin",
+          "source": "npm:dsh-remote-plugin",
+          "command": "dsh plugin --profile web add dsh-remote-plugin"
         }
       ],
       "status": "readme-verified",
@@ -2183,9 +2183,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-custom-mode@2.3.1",
-          "source": "npm:dsh-custom-mode@2.3.1",
-          "command": "dsh plugin --profile web add dsh-custom-mode@2.3.1"
+          "install": "dsh-custom-mode",
+          "source": "npm:dsh-custom-mode",
+          "command": "dsh plugin --profile web add dsh-custom-mode"
         }
       ],
       "status": "readme-verified",
@@ -2251,9 +2251,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "bruce-md2word@0.7.1",
-          "source": "npm:bruce-md2word@0.7.1",
-          "command": "dsh plugin --profile web add bruce-md2word@0.7.1"
+          "install": "bruce-md2word",
+          "source": "npm:bruce-md2word",
+          "command": "dsh plugin --profile web add bruce-md2word"
         }
       ],
       "requirements": [
@@ -2425,9 +2425,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "https://github.com/caoyiwei850/dsh-ssh-ops#v0.4.12",
-          "source": "github:caoyiwei850/dsh-ssh-ops#v0.4.12",
-          "command": "dsh plugin --profile web add github:caoyiwei850/dsh-ssh-ops#v0.4.12"
+          "install": "https://github.com/caoyiwei850/dsh-ssh-ops#v0.4.13",
+          "source": "github:caoyiwei850/dsh-ssh-ops#v0.4.13",
+          "command": "dsh plugin --profile web add github:caoyiwei850/dsh-ssh-ops#v0.4.13"
         }
       ],
       "status": "readme-verified",
@@ -2662,9 +2662,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-ui-ux-pro-max@1.4.1",
-          "source": "npm:dsh-ui-ux-pro-max@1.4.1",
-          "command": "dsh plugin --profile web add --save-exact dsh-ui-ux-pro-max@1.4.1"
+          "install": "dsh-ui-ux-pro-max",
+          "source": "npm:dsh-ui-ux-pro-max",
+          "command": "dsh plugin --profile web add --save-exact dsh-ui-ux-pro-max"
         }
       ],
       "status": "readme-verified",
@@ -2931,9 +2931,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-plugin-mobile-gateway@latest",
-          "source": "npm:dsh-plugin-mobile-gateway@latest",
-          "command": "dsh plugin --profile web add dsh-plugin-mobile-gateway@latest"
+          "install": "dsh-plugin-mobile-gateway",
+          "source": "npm:dsh-plugin-mobile-gateway",
+          "command": "dsh plugin --profile web add dsh-plugin-mobile-gateway"
         }
       ],
       "status": "readme-verified",
@@ -2970,9 +2970,9 @@
         },
         {
           "profile": "web",
-          "source": "npm:omaseek-themes@latest",
-          "install": "omaseek-themes@latest",
-          "command": "npx @deepseek-ai/dsh plugin --profile web add omaseek-themes@latest omaseek-pixel@latest omaseek-music@latest"
+          "source": "npm:omaseek-themes",
+          "install": "omaseek-themes",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add omaseek-themes omaseek-pixel@latest omaseek-music@latest"
         }
       ],
       "status": "repo-fallback",
@@ -3093,9 +3093,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@contexera/dsh-agent-team@0.2.8",
-          "source": "npm:@contexera/dsh-agent-team@0.2.8",
-          "command": "dsh plugin --profile web add @contexera/dsh-agent-team@0.2.8"
+          "install": "@contexera/dsh-agent-team",
+          "source": "npm:@contexera/dsh-agent-team",
+          "command": "dsh plugin --profile web add @contexera/dsh-agent-team"
         }
       ],
       "status": "readme-verified",
@@ -3256,9 +3256,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "open-sea-skin@1.2.7",
-          "source": "npm:open-sea-skin@1.2.7",
-          "command": "dsh plugin --profile web add open-sea-skin@1.2.7"
+          "install": "open-sea-skin",
+          "source": "npm:open-sea-skin",
+          "command": "dsh plugin --profile web add open-sea-skin"
         }
       ],
       "status": "readme-verified",
@@ -3515,9 +3515,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@dingtalk-real-ai/dsh-dingtalk@latest",
-          "source": "npm:@dingtalk-real-ai/dsh-dingtalk@latest",
-          "command": "dsh plugin --profile web add @dingtalk-real-ai/dsh-dingtalk@latest"
+          "install": "@dingtalk-real-ai/dsh-dingtalk",
+          "source": "npm:@dingtalk-real-ai/dsh-dingtalk",
+          "command": "dsh plugin --profile web add @dingtalk-real-ai/dsh-dingtalk"
         }
       ],
       "status": "readme-verified",
@@ -4062,9 +4062,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-pentester@latest",
-          "source": "npm:dsh-pentester@latest",
-          "command": "dsh plugin --profile web add dsh-pentester@latest"
+          "install": "dsh-pentester",
+          "source": "npm:dsh-pentester",
+          "command": "dsh plugin --profile web add dsh-pentester"
         },
         {
           "profile": "web",
@@ -4170,9 +4170,9 @@
         },
         {
           "profile": "web",
-          "source": "npm:ds-bot@0.2.0",
-          "install": "ds-bot@0.2.0",
-          "command": "dsh plugin --profile web add \"ds-bot@0.2.0\""
+          "source": "npm:ds-bot",
+          "install": "ds-bot",
+          "command": "dsh plugin --profile web add \"ds-bot\""
         }
       ],
       "status": "repo-fallback",
@@ -4340,9 +4340,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "source": "npm:dsh-drawai@0.4.6",
-          "install": "dsh-drawai@0.4.6",
-          "command": "dsh plugin --profile desktop add dsh-drawai@0.4.6"
+          "source": "npm:dsh-drawai",
+          "install": "dsh-drawai",
+          "command": "dsh plugin --profile desktop add dsh-drawai"
         }
       ],
       "status": "readme-verified",
@@ -4353,9 +4353,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-codex-connect@0.2.0-alpha.15",
-          "source": "npm:dsh-codex-connect@0.2.0-alpha.15",
-          "command": "dsh plugin --profile web add dsh-codex-connect@0.2.0-alpha.15"
+          "install": "dsh-codex-connect",
+          "source": "npm:dsh-codex-connect",
+          "command": "dsh plugin --profile web add dsh-codex-connect"
         }
       ],
       "status": "readme-verified",
@@ -4464,9 +4464,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-mcp-studio@latest",
-          "install": "dsh-mcp-studio@latest",
-          "command": "dsh plugin --profile web add dsh-mcp-studio@latest"
+          "source": "npm:dsh-mcp-studio",
+          "install": "dsh-mcp-studio",
+          "command": "dsh plugin --profile web add dsh-mcp-studio"
         }
       ],
       "status": "readme-verified",
@@ -4544,9 +4544,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@fylar/dsh-fylar-office-editor@latest",
-          "source": "npm:@fylar/dsh-fylar-office-editor@latest",
-          "command": "npx @deepseek-ai/dsh plugin --profile web add @fylar/dsh-fylar-office-editor@latest"
+          "install": "@fylar/dsh-fylar-office-editor",
+          "source": "npm:@fylar/dsh-fylar-office-editor",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @fylar/dsh-fylar-office-editor"
         }
       ],
       "status": "readme-verified",
@@ -4571,9 +4571,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-web-startup-auth@latest",
-          "source": "npm:dsh-web-startup-auth@latest",
-          "command": "dsh plugin --profile web add dsh-web-startup-auth@latest"
+          "install": "dsh-web-startup-auth",
+          "source": "npm:dsh-web-startup-auth",
+          "command": "dsh plugin --profile web add dsh-web-startup-auth"
         }
       ],
       "status": "readme-verified",
@@ -4616,9 +4616,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@ggboy123/dsh-paper-reader@latest",
-          "install": "@ggboy123/dsh-paper-reader@latest",
-          "command": "dsh plugin --profile web add @ggboy123/dsh-paper-reader@latest"
+          "source": "npm:@ggboy123/dsh-paper-reader",
+          "install": "@ggboy123/dsh-paper-reader",
+          "command": "dsh plugin --profile web add @ggboy123/dsh-paper-reader"
         }
       ],
       "status": "readme-verified",
@@ -4792,9 +4792,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@graysilver/dsh-evolve-modes@0.5.0",
-          "source": "npm:@graysilver/dsh-evolve-modes@0.5.0",
-          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @graysilver/dsh-evolve-modes@0.5.0"
+          "install": "@graysilver/dsh-evolve-modes",
+          "source": "npm:@graysilver/dsh-evolve-modes",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @graysilver/dsh-evolve-modes"
         }
       ],
       "status": "readme-verified",
@@ -4911,15 +4911,15 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-sandbox-escalation-fix@latest",
-          "source": "npm:dsh-sandbox-escalation-fix@latest",
-          "command": "dsh plugin --profile web add dsh-sandbox-escalation-fix@latest"
+          "install": "dsh-sandbox-escalation-fix",
+          "source": "npm:dsh-sandbox-escalation-fix",
+          "command": "dsh plugin --profile web add dsh-sandbox-escalation-fix"
         },
         {
           "profile": "headless",
-          "install": "dsh-sandbox-escalation-fix@latest",
-          "source": "npm:dsh-sandbox-escalation-fix@latest",
-          "command": "dsh plugin --profile headless add dsh-sandbox-escalation-fix@latest"
+          "install": "dsh-sandbox-escalation-fix",
+          "source": "npm:dsh-sandbox-escalation-fix",
+          "command": "dsh plugin --profile headless add dsh-sandbox-escalation-fix"
         }
       ],
       "status": "readme-verified",
@@ -4968,9 +4968,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@ayanehana/dsh-reasoning-effort@1.0.0",
-          "source": "npm:@ayanehana/dsh-reasoning-effort@1.0.0",
-          "command": "dsh plugin --profile web add @ayanehana/dsh-reasoning-effort@1.0.0"
+          "install": "@ayanehana/dsh-reasoning-effort",
+          "source": "npm:@ayanehana/dsh-reasoning-effort",
+          "command": "dsh plugin --profile web add @ayanehana/dsh-reasoning-effort"
         }
       ],
       "status": "readme-verified",
@@ -5007,9 +5007,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-plugin-yolo@0.5.0",
-          "source": "npm:dsh-plugin-yolo@0.5.0",
-          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-plugin-yolo@0.5.0"
+          "install": "dsh-plugin-yolo",
+          "source": "npm:dsh-plugin-yolo",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-plugin-yolo"
         }
       ],
       "status": "readme-verified",
@@ -5058,9 +5058,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@hanxuanliang/dsh-chaos@0.1.2",
-          "source": "npm:@hanxuanliang/dsh-chaos@0.1.2",
-          "command": "dsh plugin --profile web add @hanxuanliang/dsh-chaos@0.1.2"
+          "install": "@hanxuanliang/dsh-chaos",
+          "source": "npm:@hanxuanliang/dsh-chaos",
+          "command": "dsh plugin --profile web add @hanxuanliang/dsh-chaos"
         }
       ],
       "status": "readme-verified",
@@ -5292,9 +5292,9 @@
       "packages": [
         {
           "profile": "tui",
-          "install": "seektty@1.2.6",
-          "source": "npm:seektty@1.2.6",
-          "command": "dsh plugin --profile tui add --config.enable-global-virtual-store=false seektty@1.2.6"
+          "install": "seektty",
+          "source": "npm:seektty",
+          "command": "dsh plugin --profile tui add --config.enable-global-virtual-store=false seektty"
         }
       ],
       "status": "readme-verified",
@@ -5305,9 +5305,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dingtalk-dsh-assistant@2.0.0",
-          "source": "npm:dingtalk-dsh-assistant@2.0.0",
-          "command": "dsh plugin --profile web add dingtalk-dsh-assistant@2.0.0 --save-exact"
+          "install": "dingtalk-dsh-assistant",
+          "source": "npm:dingtalk-dsh-assistant",
+          "command": "dsh plugin --profile web add dingtalk-dsh-assistant --save-exact"
         }
       ],
       "status": "readme-verified",
@@ -5484,9 +5484,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "prts-terrarchive@0.2.3",
-          "source": "npm:prts-terrarchive@0.2.3",
-          "command": "dsh plugin --profile web add prts-terrarchive@0.2.3"
+          "install": "prts-terrarchive",
+          "source": "npm:prts-terrarchive",
+          "command": "dsh plugin --profile web add prts-terrarchive"
         }
       ],
       "status": "readme-verified",
@@ -5820,9 +5820,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@orbisapp/remote-dsh@latest",
-          "source": "npm:@orbisapp/remote-dsh@latest",
-          "command": "npx @deepseek-ai/dsh plugin --profile web add @orbisapp/remote-dsh@latest"
+          "install": "@orbisapp/remote-dsh",
+          "source": "npm:@orbisapp/remote-dsh",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add @orbisapp/remote-dsh"
         }
       ],
       "status": "readme-verified",
@@ -5948,9 +5948,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-flowglass@0.7.4",
-          "source": "npm:dsh-flowglass@0.7.4",
-          "command": "dsh plugin --profile web add dsh-flowglass@0.7.4"
+          "install": "dsh-flowglass",
+          "source": "npm:dsh-flowglass",
+          "command": "dsh plugin --profile web add dsh-flowglass"
         }
       ],
       "status": "readme-verified",
@@ -6166,9 +6166,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@jingyi0605/codingns4dsh@0.2.2-rc.10",
-          "source": "npm:@jingyi0605/codingns4dsh@0.2.2-rc.10",
-          "command": "dsh plugin --profile web add @jingyi0605/codingns4dsh@0.2.2-rc.10"
+          "install": "@jingyi0605/codingns4dsh",
+          "source": "npm:@jingyi0605/codingns4dsh",
+          "command": "dsh plugin --profile web add @jingyi0605/codingns4dsh"
         }
       ],
       "status": "readme-verified",
@@ -6205,9 +6205,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@jiyr0119/dsh-workspace-explorer@latest",
-          "install": "@jiyr0119/dsh-workspace-explorer@latest",
-          "command": "dsh plugin --profile web add -w @jiyr0119/dsh-workspace-explorer@latest"
+          "source": "npm:@jiyr0119/dsh-workspace-explorer",
+          "install": "@jiyr0119/dsh-workspace-explorer",
+          "command": "dsh plugin --profile web add -w @jiyr0119/dsh-workspace-explorer"
         }
       ],
       "status": "readme-verified",
@@ -6744,9 +6744,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@kirkchinese/dsh-citeciter@0.9.0-beta.12",
-          "source": "npm:@kirkchinese/dsh-citeciter@0.9.0-beta.12",
-          "command": "dsh plugin --profile web add @kirkchinese/dsh-citeciter@0.9.0-beta.12"
+          "install": "@kirkchinese/dsh-citeciter",
+          "source": "npm:@kirkchinese/dsh-citeciter",
+          "command": "dsh plugin --profile web add @kirkchinese/dsh-citeciter"
         }
       ],
       "status": "readme-verified",
@@ -6879,9 +6879,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-mcp-lens@0.1.0-rc.9",
-          "source": "npm:dsh-mcp-lens@0.1.0-rc.9",
-          "command": "dsh plugin --profile web add dsh-mcp-lens@0.1.0-rc.9"
+          "install": "dsh-mcp-lens",
+          "source": "npm:dsh-mcp-lens",
+          "command": "dsh plugin --profile web add dsh-mcp-lens"
         }
       ],
       "status": "readme-verified",
@@ -7185,9 +7185,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@lemoncat7/dsh-knowledge@latest",
-          "source": "npm:@lemoncat7/dsh-knowledge@latest",
-          "command": "dsh plugin --profile web add @lemoncat7/dsh-knowledge@latest"
+          "install": "@lemoncat7/dsh-knowledge",
+          "source": "npm:@lemoncat7/dsh-knowledge",
+          "command": "dsh plugin --profile web add @lemoncat7/dsh-knowledge"
         }
       ],
       "status": "readme-verified",
@@ -7221,9 +7221,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-vscode-mode@0.31.0",
-          "install": "dsh-vscode-mode@0.31.0",
-          "command": "dsh plugin --profile web add dsh-vscode-mode@0.31.0"
+          "source": "npm:dsh-vscode-mode",
+          "install": "dsh-vscode-mode",
+          "command": "dsh plugin --profile web add dsh-vscode-mode"
         }
       ],
       "status": "readme-verified",
@@ -7407,9 +7407,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "install": "ds-harness-remote@0.6.5",
-          "source": "npm:ds-harness-remote@0.6.5",
-          "command": "dsh plugin --profile desktop add -w ds-harness-remote@0.6.5"
+          "install": "ds-harness-remote",
+          "source": "npm:ds-harness-remote",
+          "command": "dsh plugin --profile desktop add -w ds-harness-remote"
         }
       ],
       "status": "readme-verified",
@@ -7466,9 +7466,9 @@
         },
         {
           "profile": "default",
-          "install": "@limuyang2/dsh-agent-team@0.1.4",
-          "source": "npm:@limuyang2/dsh-agent-team@0.1.4",
-          "command": "dsh plugin add --save-exact @limuyang2/dsh-agent-team@0.1.4"
+          "install": "@limuyang2/dsh-agent-team",
+          "source": "npm:@limuyang2/dsh-agent-team",
+          "command": "dsh plugin add --save-exact @limuyang2/dsh-agent-team"
         }
       ],
       "status": "readme-verified",
@@ -7569,9 +7569,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@liustack/modlens@3.27.5",
-          "source": "npm:@liustack/modlens@3.27.5",
-          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modlens@3.27.5"
+          "install": "@liustack/modlens",
+          "source": "npm:@liustack/modlens",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modlens"
         }
       ],
       "status": "readme-verified",
@@ -7582,9 +7582,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@liustack/modsearch@5.10.14",
-          "source": "npm:@liustack/modsearch@5.10.14",
-          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modsearch@5.10.14"
+          "install": "@liustack/modsearch",
+          "source": "npm:@liustack/modsearch",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modsearch"
         }
       ],
       "status": "readme-verified",
@@ -7918,9 +7918,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-subagent-library@latest",
-          "source": "npm:dsh-subagent-library@latest",
-          "command": "dsh plugin --profile web add dsh-subagent-library@latest"
+          "install": "dsh-subagent-library",
+          "source": "npm:dsh-subagent-library",
+          "command": "dsh plugin --profile web add dsh-subagent-library"
         },
         {
           "profile": "web",
@@ -7937,9 +7937,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@mars-sea/dsh-commandcode-provider@latest",
-          "source": "npm:@mars-sea/dsh-commandcode-provider@latest",
-          "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider@latest"
+          "install": "@mars-sea/dsh-commandcode-provider",
+          "source": "npm:@mars-sea/dsh-commandcode-provider",
+          "command": "dsh plugin --profile web add @mars-sea/dsh-commandcode-provider"
         }
       ],
       "status": "readme-verified",
@@ -8152,9 +8152,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@michengai/dsh-agency-agents@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-agency-agents@latest --registry=https://registry.npmjs.org/",
-          "install": "@michengai/dsh-agency-agents@latest"
+          "source": "npm:@michengai/dsh-agency-agents",
+          "command": "dsh plugin --profile web add @michengai/dsh-agency-agents --registry=https://registry.npmjs.org/",
+          "install": "@michengai/dsh-agency-agents"
         }
       ],
       "status": "readme-verified",
@@ -8165,9 +8165,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@michengai/dsh-archive-manager@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-archive-manager@latest --registry=https://registry.npmjs.org/",
-          "install": "@michengai/dsh-archive-manager@latest"
+          "source": "npm:@michengai/dsh-archive-manager",
+          "command": "dsh plugin --profile web add @michengai/dsh-archive-manager --registry=https://registry.npmjs.org/",
+          "install": "@michengai/dsh-archive-manager"
         }
       ],
       "status": "readme-verified",
@@ -8178,9 +8178,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@michengai/dsh-codex-ui@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-codex-ui@latest --registry=https://registry.npmjs.org/",
-          "install": "@michengai/dsh-codex-ui@latest"
+          "source": "npm:@michengai/dsh-codex-ui",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-ui --registry=https://registry.npmjs.org/",
+          "install": "@michengai/dsh-codex-ui"
         }
       ],
       "status": "readme-verified",
@@ -8191,9 +8191,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@michengai/dsh-im-connect@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-im-connect@latest --registry=https://registry.npmjs.org/",
-          "install": "@michengai/dsh-im-connect@latest"
+          "source": "npm:@michengai/dsh-im-connect",
+          "command": "dsh plugin --profile web add @michengai/dsh-im-connect --registry=https://registry.npmjs.org/",
+          "install": "@michengai/dsh-im-connect"
         }
       ],
       "status": "readme-verified",
@@ -8204,9 +8204,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@michengai/dsh-skills-manager@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-skills-manager@latest --registry=https://registry.npmjs.org/",
-          "install": "@michengai/dsh-skills-manager@latest"
+          "source": "npm:@michengai/dsh-skills-manager",
+          "command": "dsh plugin --profile web add @michengai/dsh-skills-manager --registry=https://registry.npmjs.org/",
+          "install": "@michengai/dsh-skills-manager"
         }
       ],
       "status": "readme-verified",
@@ -8447,9 +8447,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-factory@latest",
-          "source": "npm:dsh-factory@latest",
-          "command": "dsh plugin --profile web add dsh-factory@latest"
+          "install": "dsh-factory",
+          "source": "npm:dsh-factory",
+          "command": "dsh plugin --profile web add dsh-factory"
         }
       ],
       "status": "readme-verified",
@@ -8673,9 +8673,9 @@
       "packages": [
         {
           "profile": "tui",
-          "install": "@dsh-std/adapter-dsh@0.1.1-rc.4",
-          "source": "npm:@dsh-std/adapter-dsh@0.1.1-rc.4",
-          "command": "dsh plugin --profile tui add @dsh-std/adapter-dsh@0.1.1-rc.4"
+          "install": "@dsh-std/adapter-dsh",
+          "source": "npm:@dsh-std/adapter-dsh",
+          "command": "dsh plugin --profile tui add @dsh-std/adapter-dsh"
         }
       ],
       "status": "readme-verified",
@@ -8737,9 +8737,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@nanmicoder/dsh-agent-teams@0.1.31",
-          "source": "npm:@nanmicoder/dsh-agent-teams@0.1.31",
-          "command": "dsh plugin --profile web add --save-exact @nanmicoder/dsh-agent-teams@0.1.31"
+          "install": "@nanmicoder/dsh-agent-teams",
+          "source": "npm:@nanmicoder/dsh-agent-teams",
+          "command": "dsh plugin --profile web add --save-exact @nanmicoder/dsh-agent-teams"
         }
       ],
       "status": "readme-verified",
@@ -8763,9 +8763,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-theme-plugin@latest",
-          "install": "dsh-theme-plugin@latest",
-          "command": "npx -y @deepseek-ai/dsh plugin --profile web add dsh-theme-plugin@latest"
+          "source": "npm:dsh-theme-plugin",
+          "install": "dsh-theme-plugin",
+          "command": "npx -y @deepseek-ai/dsh plugin --profile web add dsh-theme-plugin"
         }
       ],
       "status": "readme-verified",
@@ -9003,9 +9003,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-better-sidebar@latest",
-          "source": "npm:dsh-better-sidebar@latest",
-          "command": "dsh plugin --profile web add dsh-better-sidebar@latest"
+          "install": "dsh-better-sidebar",
+          "source": "npm:dsh-better-sidebar",
+          "command": "dsh plugin --profile web add dsh-better-sidebar"
         }
       ],
       "status": "readme-verified",
@@ -9077,9 +9077,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-lark-channel@latest",
-          "source": "npm:dsh-lark-channel@latest",
-          "command": "dsh plugin --profile web add dsh-lark-channel@latest"
+          "install": "dsh-lark-channel",
+          "source": "npm:dsh-lark-channel",
+          "command": "dsh plugin --profile web add dsh-lark-channel"
         }
       ],
       "status": "readme-verified",
@@ -9339,9 +9339,9 @@
       "packages": [
         {
           "profile": "martty",
-          "install": "martty@latest",
-          "source": "npm:martty@latest",
-          "command": "dsh plugin --profile martty add martty@latest"
+          "install": "martty",
+          "source": "npm:martty",
+          "command": "dsh plugin --profile martty add martty"
         }
       ],
       "status": "readme-verified",
@@ -9378,9 +9378,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-plugin-tool-management@latest",
-          "install": "dsh-plugin-tool-management@latest",
-          "command": "dsh plugin --profile web add dsh-plugin-tool-management@latest"
+          "source": "npm:dsh-plugin-tool-management",
+          "install": "dsh-plugin-tool-management",
+          "command": "dsh plugin --profile web add dsh-plugin-tool-management"
         }
       ],
       "status": "readme-verified",
@@ -10078,9 +10078,9 @@
       "packages": [
         {
           "profile": "feishu",
-          "install": "@dsh-feishu/dsh-feishu@latest",
-          "source": "npm:@dsh-feishu/dsh-feishu@latest",
-          "command": "npx @deepseek-ai/dsh plugin --profile feishu add @dsh-feishu/dsh-feishu@latest --allow-build=protobufjs"
+          "install": "@dsh-feishu/dsh-feishu",
+          "source": "npm:@dsh-feishu/dsh-feishu",
+          "command": "npx @deepseek-ai/dsh plugin --profile feishu add @dsh-feishu/dsh-feishu --allow-build=protobufjs"
         }
       ],
       "status": "readme-verified",
@@ -10259,9 +10259,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-lark-bot@0.19.16",
-          "install": "dsh-lark-bot@0.19.16",
-          "command": "dsh plugin --profile web add \"dsh-lark-bot@0.19.16\""
+          "source": "npm:dsh-lark-bot",
+          "install": "dsh-lark-bot",
+          "command": "dsh plugin --profile web add \"dsh-lark-bot\""
         }
       ],
       "status": "readme-verified",
@@ -10380,9 +10380,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-xiaomi-tts@latest",
-          "source": "npm:dsh-xiaomi-tts@latest",
-          "command": "dsh plugin --profile web add dsh-xiaomi-tts@latest"
+          "install": "dsh-xiaomi-tts",
+          "source": "npm:dsh-xiaomi-tts",
+          "command": "dsh plugin --profile web add dsh-xiaomi-tts"
         }
       ],
       "status": "readme-verified",
@@ -10460,9 +10460,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-memoir@0.9.6",
-          "source": "npm:dsh-memoir@0.9.6",
-          "command": "dsh plugin --profile web add dsh-memoir@0.9.6"
+          "install": "dsh-memoir",
+          "source": "npm:dsh-memoir",
+          "command": "dsh plugin --profile web add dsh-memoir"
         }
       ],
       "status": "readme-verified",
@@ -10500,9 +10500,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-run2skill@1.0.0",
-          "source": "npm:dsh-run2skill@1.0.0",
-          "command": "dsh plugin --profile web add dsh-run2skill@1.0.0"
+          "install": "dsh-run2skill",
+          "source": "npm:dsh-run2skill",
+          "command": "dsh plugin --profile web add dsh-run2skill"
         }
       ],
       "status": "readme-verified",
@@ -10745,9 +10745,9 @@
         },
         {
           "profile": "desktop",
-          "source": "npm:dsh-better-sidebar@0.24.1",
-          "install": "dsh-better-sidebar@0.24.1",
-          "command": "dsh plugin --profile desktop add dsh-better-sidebar@0.24.1"
+          "source": "npm:dsh-better-sidebar",
+          "install": "dsh-better-sidebar",
+          "command": "dsh plugin --profile desktop add dsh-better-sidebar"
         }
       ],
       "status": "repo-fallback",
@@ -10807,9 +10807,9 @@
       "packages": [
         {
           "profile": "default",
-          "source": "npm:dsh-whale-catch@0.5.0",
-          "install": "dsh-whale-catch@0.5.0",
-          "command": "dsh plugin --profile web add dsh-whale-catch@0.5.0"
+          "source": "npm:dsh-whale-catch",
+          "install": "dsh-whale-catch",
+          "command": "dsh plugin --profile web add dsh-whale-catch"
         }
       ],
       "status": "readme-verified",
@@ -10950,9 +10950,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-mobile@latest",
-          "source": "npm:dsh-mobile@latest",
-          "command": "dsh plugin --profile web add dsh-mobile@latest"
+          "install": "dsh-mobile",
+          "source": "npm:dsh-mobile",
+          "command": "dsh plugin --profile web add dsh-mobile"
         }
       ],
       "status": "readme-verified",
@@ -11049,15 +11049,15 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-sieve-web@0.4.1",
-          "source": "npm:dsh-sieve-web@0.4.1",
-          "command": "dsh plugin --profile web add dsh-sieve@0.4.1 dsh-sieve-web@0.4.1"
+          "install": "dsh-sieve-web",
+          "source": "npm:dsh-sieve-web",
+          "command": "dsh plugin --profile web add dsh-sieve@0.4.1 dsh-sieve-web"
         },
         {
           "profile": "web",
-          "install": "dsh-sieve@0.4.1",
-          "source": "npm:dsh-sieve@0.4.1",
-          "command": "dsh plugin --profile web add dsh-sieve@0.4.1 dsh-sieve-web@0.4.1"
+          "install": "dsh-sieve",
+          "source": "npm:dsh-sieve",
+          "command": "dsh plugin --profile web add dsh-sieve dsh-sieve-web@0.4.1"
         },
         {
           "profile": "web",
@@ -11120,9 +11120,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-image-gen@latest",
-          "source": "npm:dsh-image-gen@latest",
-          "command": "pnpm dsh plugin --profile web add dsh-image-gen@latest"
+          "install": "dsh-image-gen",
+          "source": "npm:dsh-image-gen",
+          "command": "pnpm dsh plugin --profile web add dsh-image-gen"
         },
         {
           "profile": "web",
@@ -11399,9 +11399,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-nested-followups@0.2.3",
-          "source": "npm:dsh-nested-followups@0.2.3",
-          "command": "dsh plugin --profile web add dsh-nested-followups@0.2.3"
+          "install": "dsh-nested-followups",
+          "source": "npm:dsh-nested-followups",
+          "command": "dsh plugin --profile web add dsh-nested-followups"
         }
       ],
       "status": "readme-verified",
@@ -12004,9 +12004,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-antigravity-auth@0.1.13",
-          "source": "npm:dsh-antigravity-auth@0.1.13",
-          "command": "dsh plugin --profile web add --save-exact dsh-antigravity-auth@0.1.13"
+          "install": "dsh-antigravity-auth",
+          "source": "npm:dsh-antigravity-auth",
+          "command": "dsh plugin --profile web add --save-exact dsh-antigravity-auth"
         }
       ],
       "status": "readme-verified",
@@ -12036,9 +12036,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "source": "npm:dsh-cliworker-now@latest",
-          "install": "dsh-cliworker-now@latest",
-          "command": "dsh plugin --profile desktop add dsh-cliworker-now@latest"
+          "source": "npm:dsh-cliworker-now",
+          "install": "dsh-cliworker-now",
+          "command": "dsh plugin --profile desktop add dsh-cliworker-now"
         }
       ],
       "status": "readme-verified",
@@ -12147,9 +12147,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "deepseek-harness-auth@latest",
-          "source": "npm:deepseek-harness-auth@latest",
-          "command": "dsh plugin --profile web add deepseek-harness-auth@latest"
+          "install": "deepseek-harness-auth",
+          "source": "npm:deepseek-harness-auth",
+          "command": "dsh plugin --profile web add deepseek-harness-auth"
         }
       ],
       "status": "readme-verified",
@@ -12354,15 +12354,15 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-approve-for-me@latest",
-          "source": "npm:dsh-approve-for-me@latest",
-          "command": "dsh plugin --profile web add dsh-approve-for-me@latest"
+          "install": "dsh-approve-for-me",
+          "source": "npm:dsh-approve-for-me",
+          "command": "dsh plugin --profile web add dsh-approve-for-me"
         },
         {
           "profile": "headless",
-          "install": "dsh-approve-for-me@latest",
-          "source": "npm:dsh-approve-for-me@latest",
-          "command": "dsh plugin --profile headless add dsh-approve-for-me@latest"
+          "install": "dsh-approve-for-me",
+          "source": "npm:dsh-approve-for-me",
+          "command": "dsh plugin --profile headless add dsh-approve-for-me"
         }
       ],
       "status": "readme-verified",
@@ -12659,9 +12659,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-browser-firefox@latest",
-          "source": "npm:dsh-browser-firefox@latest",
-          "command": "dsh plugin --profile web add dsh-browser-firefox@latest"
+          "install": "dsh-browser-firefox",
+          "source": "npm:dsh-browser-firefox",
+          "command": "dsh plugin --profile web add dsh-browser-firefox"
         }
       ],
       "status": "readme-verified",
@@ -12725,9 +12725,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-archived-chats@latest",
-          "source": "npm:dsh-archived-chats@latest",
-          "command": "dsh plugin --profile web add dsh-archived-chats@latest"
+          "install": "dsh-archived-chats",
+          "source": "npm:dsh-archived-chats",
+          "command": "dsh plugin --profile web add dsh-archived-chats"
         }
       ],
       "status": "readme-verified",
@@ -12778,9 +12778,9 @@
       "packages": [
         {
           "profile": "cli",
-          "install": "dsh-code@2.1.0",
-          "source": "npm:dsh-code@2.1.0",
-          "command": "dsh plugin --profile cli add dsh-code@2.1.0"
+          "install": "dsh-code",
+          "source": "npm:dsh-code",
+          "command": "dsh plugin --profile cli add dsh-code"
         },
         {
           "profile": "cli",
@@ -12870,9 +12870,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-commandcode-provider@0.2.0",
-          "source": "npm:dsh-commandcode-provider@0.2.0",
-          "command": "dsh plugin --profile web add dsh-commandcode-provider@0.2.0"
+          "install": "dsh-commandcode-provider",
+          "source": "npm:dsh-commandcode-provider",
+          "command": "dsh plugin --profile web add dsh-commandcode-provider"
         }
       ],
       "status": "readme-verified",
@@ -13377,9 +13377,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-git-worktree@0.12.3",
-          "source": "npm:dsh-git-worktree@0.12.3",
-          "command": "dsh plugin --profile web add dsh-git-worktree@0.12.3"
+          "install": "dsh-git-worktree",
+          "source": "npm:dsh-git-worktree",
+          "command": "dsh plugin --profile web add dsh-git-worktree"
         }
       ],
       "status": "readme-verified",
@@ -13417,9 +13417,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@wnjxyk/dsh-codex-oauth@latest",
-          "source": "npm:@wnjxyk/dsh-codex-oauth@latest",
-          "command": "dsh plugin --profile web add -w @wnjxyk/dsh-codex-oauth@latest"
+          "install": "@wnjxyk/dsh-codex-oauth",
+          "source": "npm:@wnjxyk/dsh-codex-oauth",
+          "command": "dsh plugin --profile web add -w @wnjxyk/dsh-codex-oauth"
         },
         {
           "profile": "web",
@@ -13446,21 +13446,27 @@
       "verified_via": "README@master"
     },
     "wsl043/dsh-codex-subscription": {
-      "packages": [],
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-codex-subscription",
+          "source": "npm:dsh-codex-subscription",
+          "command": "dsh plugin --profile web add dsh-codex-subscription"
+        }
+      ],
       "status": "readme-verified",
       "verified_date": "2026-11-21",
       "verified_via": "review",
-      "install_mode": "manual",
-      "manual_instructions": "README 钉 dsh-codex-subscription@3.2.28（web + headless 两 profile），registry 2026-11-21 latest 仍落后（3.2.28 未发布）——npm 同步后恢复双 profile 钉版映射。",
-      "verified_by": "review"
+      "verified_by": "review",
+      "note": "2026-11-21 策略：npm 交由 registry 决定版本（registry latest 3.2.28 已同步）；归属已证。README 另文档化 headless profile 同名安装。"
     },
     "wssfk12138/dsh-damage-pulse": {
       "packages": [
         {
           "profile": "desktop",
-          "install": "dsh-damage-pulse@4.3.5",
-          "source": "npm:dsh-damage-pulse@4.3.5",
-          "command": "dsh plugin --profile desktop add dsh-damage-pulse@4.3.5"
+          "install": "dsh-damage-pulse",
+          "source": "npm:dsh-damage-pulse",
+          "command": "dsh plugin --profile desktop add dsh-damage-pulse"
         }
       ],
       "status": "readme-verified",
@@ -13484,9 +13490,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@wsz987/dsh-channels@latest",
-          "source": "npm:@wsz987/dsh-channels@latest",
-          "command": "npx @deepseek-ai/dsh plugin --profile web add -w @wsz987/dsh-channels@latest"
+          "install": "@wsz987/dsh-channels",
+          "source": "npm:@wsz987/dsh-channels",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add -w @wsz987/dsh-channels"
         }
       ],
       "status": "readme-verified",
@@ -13724,9 +13730,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@xbzbing/dsh-git-panel@latest",
-          "install": "@xbzbing/dsh-git-panel@latest",
-          "command": "dsh plugin --profile web add @xbzbing/dsh-git-panel@latest"
+          "source": "npm:@xbzbing/dsh-git-panel",
+          "install": "@xbzbing/dsh-git-panel",
+          "command": "dsh plugin --profile web add @xbzbing/dsh-git-panel"
         }
       ],
       "status": "readme-verified",
@@ -13816,9 +13822,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-config-manager@latest",
-          "source": "npm:dsh-config-manager@latest",
-          "command": "dsh plugin --profile web add dsh-config-manager@latest"
+          "install": "dsh-config-manager",
+          "source": "npm:dsh-config-manager",
+          "command": "dsh plugin --profile web add dsh-config-manager"
         }
       ],
       "status": "readme-verified",
@@ -14122,9 +14128,9 @@
       "packages": [
         {
           "profile": "pi-tui",
-          "install": "@xmoon76/dsh-pi-tui@latest",
-          "source": "npm:@xmoon76/dsh-pi-tui@latest",
-          "command": "dsh plugin --profile pi-tui -- add @xmoon76/dsh-pi-tui@latest"
+          "install": "@xmoon76/dsh-pi-tui",
+          "source": "npm:@xmoon76/dsh-pi-tui",
+          "command": "dsh plugin --profile pi-tui -- add @xmoon76/dsh-pi-tui"
         }
       ],
       "status": "readme-verified",
@@ -14363,9 +14369,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@ychris12138/dsh-usage-stats@0.3.8",
-          "source": "npm:@ychris12138/dsh-usage-stats@0.3.8",
-          "command": "dsh plugin --profile web add \"@ychris12138/dsh-usage-stats@0.3.8\""
+          "install": "@ychris12138/dsh-usage-stats",
+          "source": "npm:@ychris12138/dsh-usage-stats",
+          "command": "dsh plugin --profile web add \"@ychris12138/dsh-usage-stats\""
         }
       ],
       "status": "readme-verified",
@@ -14865,9 +14871,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:multisim-mcp-dsh-plugin@1.1.0",
-          "install": "multisim-mcp-dsh-plugin@1.1.0",
-          "command": "dsh plugin --profile web add multisim-mcp-dsh-plugin@1.1.0"
+          "source": "npm:multisim-mcp-dsh-plugin",
+          "install": "multisim-mcp-dsh-plugin",
+          "command": "dsh plugin --profile web add multisim-mcp-dsh-plugin"
         }
       ],
       "status": "readme-verified",
@@ -15133,9 +15139,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@linxin666/dsh-web-all@latest",
-          "source": "npm:@linxin666/dsh-web-all@latest",
-          "command": "dsh plugin --profile web add @linxin666/dsh-web-all@latest"
+          "install": "@linxin666/dsh-web-all",
+          "source": "npm:@linxin666/dsh-web-all",
+          "command": "dsh plugin --profile web add @linxin666/dsh-web-all"
         },
         {
           "profile": "web",
@@ -15202,9 +15208,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@ziduup/dsh-programming-mode@0.5.1",
-          "source": "npm:@ziduup/dsh-programming-mode@0.5.1",
-          "command": "dsh plugin --profile web add @ziduup/dsh-programming-mode@0.5.1"
+          "install": "@ziduup/dsh-programming-mode",
+          "source": "npm:@ziduup/dsh-programming-mode",
+          "command": "dsh plugin --profile web add @ziduup/dsh-programming-mode"
         }
       ],
       "status": "readme-verified",
@@ -15319,9 +15325,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@zseven-w/dsh-android@latest",
-          "source": "npm:@zseven-w/dsh-android@latest",
-          "command": "dsh plugin --profile web add @zseven-w/dsh-android@latest"
+          "install": "@zseven-w/dsh-android",
+          "source": "npm:@zseven-w/dsh-android",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-android"
         }
       ],
       "status": "readme-verified",
@@ -15332,9 +15338,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@zseven-w/dsh-crew@latest",
-          "source": "npm:@zseven-w/dsh-crew@latest",
-          "command": "dsh plugin --profile web add @zseven-w/dsh-crew@latest"
+          "install": "@zseven-w/dsh-crew",
+          "source": "npm:@zseven-w/dsh-crew",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-crew"
         },
         {
           "profile": "default",
@@ -15364,9 +15370,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@zseven-w/dsh-ios@latest",
-          "source": "npm:@zseven-w/dsh-ios@latest",
-          "command": "dsh plugin --profile web add @zseven-w/dsh-ios@latest"
+          "install": "@zseven-w/dsh-ios",
+          "source": "npm:@zseven-w/dsh-ios",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-ios"
         }
       ],
       "status": "readme-verified",
@@ -15377,9 +15383,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@zseven-w/dsh-noema@latest",
-          "source": "npm:@zseven-w/dsh-noema@latest",
-          "command": "dsh plugin --profile web add @zseven-w/dsh-noema@latest"
+          "install": "@zseven-w/dsh-noema",
+          "source": "npm:@zseven-w/dsh-noema",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-noema"
         }
       ],
       "status": "readme-verified",
@@ -15390,9 +15396,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@zseven-w/dsh-openpencil@latest",
-          "source": "npm:@zseven-w/dsh-openpencil@latest",
-          "command": "dsh plugin --profile web add @zseven-w/dsh-openpencil@latest"
+          "install": "@zseven-w/dsh-openpencil",
+          "source": "npm:@zseven-w/dsh-openpencil",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-openpencil"
         }
       ],
       "status": "readme-verified",
@@ -15577,9 +15583,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@zseven-w/dsh-game-studio@latest",
-          "install": "@zseven-w/dsh-game-studio@latest",
-          "command": "dsh plugin --profile web add @zseven-w/dsh-game-studio@latest"
+          "source": "npm:@zseven-w/dsh-game-studio",
+          "install": "@zseven-w/dsh-game-studio",
+          "command": "dsh plugin --profile web add @zseven-w/dsh-game-studio"
         }
       ],
       "status": "readme-verified",
@@ -15618,9 +15624,9 @@
       "packages": [
         {
           "profile": "headless",
-          "source": "npm:dsh-live-compact@1.1.12",
-          "install": "dsh-live-compact@1.1.12",
-          "command": "dsh plugin --profile headless add dsh-live-compact@1.1.12"
+          "source": "npm:dsh-live-compact",
+          "install": "dsh-live-compact",
+          "command": "dsh plugin --profile headless add dsh-live-compact"
         }
       ],
       "status": "readme-verified",
@@ -15700,9 +15706,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-flash-presets@0.3.2",
-          "source": "npm:dsh-flash-presets@0.3.2",
-          "command": "dsh plugin --profile web add dsh-flash-presets@0.3.2"
+          "install": "dsh-flash-presets",
+          "source": "npm:dsh-flash-presets",
+          "command": "dsh plugin --profile web add dsh-flash-presets"
         },
         {
           "profile": "web",
@@ -15770,9 +15776,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-ntr@latest",
-          "install": "dsh-ntr@latest",
-          "command": "dsh plugin --profile web add dsh-ntr@latest"
+          "source": "npm:dsh-ntr",
+          "install": "dsh-ntr",
+          "command": "dsh plugin --profile web add dsh-ntr"
         }
       ],
       "status": "readme-verified",
@@ -15817,9 +15823,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-to-figma@latest",
-          "install": "dsh-to-figma@latest",
-          "command": "dsh plugin --profile web add dsh-to-figma@latest"
+          "source": "npm:dsh-to-figma",
+          "install": "dsh-to-figma",
+          "command": "dsh plugin --profile web add dsh-to-figma"
         }
       ],
       "status": "readme-verified",
@@ -15980,9 +15986,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@michengai/dsh-pua@latest",
-          "install": "@michengai/dsh-pua@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-pua@latest --registry=https://registry.npmjs.org/"
+          "source": "npm:@michengai/dsh-pua",
+          "install": "@michengai/dsh-pua",
+          "command": "dsh plugin --profile web add @michengai/dsh-pua --registry=https://registry.npmjs.org/"
         }
       ],
       "status": "readme-verified",
@@ -16034,9 +16040,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@michengai/dsh-btw@latest",
-          "install": "@michengai/dsh-btw@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-btw@latest --registry=https://registry.npmjs.org/"
+          "source": "npm:@michengai/dsh-btw",
+          "install": "@michengai/dsh-btw",
+          "command": "dsh plugin --profile web add @michengai/dsh-btw --registry=https://registry.npmjs.org/"
         }
       ],
       "status": "readme-verified",
@@ -16204,9 +16210,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@michengai/dsh-automation@latest",
-          "install": "@michengai/dsh-automation@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-automation@latest --registry=https://registry.npmjs.org/"
+          "source": "npm:@michengai/dsh-automation",
+          "install": "@michengai/dsh-automation",
+          "command": "dsh plugin --profile web add @michengai/dsh-automation --registry=https://registry.npmjs.org/"
         }
       ],
       "status": "readme-verified",
@@ -16494,9 +16500,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-coding-subscription-oauth@0.8.8",
-          "source": "npm:dsh-coding-subscription-oauth@0.8.8",
-          "command": "dsh plugin --profile web add dsh-coding-subscription-oauth@0.8.8"
+          "install": "dsh-coding-subscription-oauth",
+          "source": "npm:dsh-coding-subscription-oauth",
+          "command": "dsh plugin --profile web add dsh-coding-subscription-oauth"
         }
       ],
       "status": "readme-verified",
@@ -16632,9 +16638,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@copylee/dsh-office@latest",
-          "install": "@copylee/dsh-office@latest",
-          "command": "dsh plugin --profile web add @copylee/dsh-office@latest"
+          "source": "npm:@copylee/dsh-office",
+          "install": "@copylee/dsh-office",
+          "command": "dsh plugin --profile web add @copylee/dsh-office"
         }
       ],
       "status": "readme-verified",
@@ -16939,9 +16945,9 @@
       "packages": [
         {
           "profile": "default",
-          "source": "npm:dsh-reel-studio@latest",
-          "install": "dsh-reel-studio@latest",
-          "command": "dsh plugin --profile web add dsh-reel-studio@latest"
+          "source": "npm:dsh-reel-studio",
+          "install": "dsh-reel-studio",
+          "command": "dsh plugin --profile web add dsh-reel-studio"
         }
       ],
       "status": "readme-verified",
@@ -16966,9 +16972,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-process-tree@latest",
-          "install": "dsh-process-tree@latest",
-          "command": "dsh plugin --profile web add dsh-process-tree@latest"
+          "source": "npm:dsh-process-tree",
+          "install": "dsh-process-tree",
+          "command": "dsh plugin --profile web add dsh-process-tree"
         }
       ],
       "status": "readme-verified",
@@ -17246,9 +17252,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@michengai/dsh-code-review@latest",
-          "install": "@michengai/dsh-code-review@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-code-review@latest --registry=https://registry.npmjs.org/"
+          "source": "npm:@michengai/dsh-code-review",
+          "install": "@michengai/dsh-code-review",
+          "command": "dsh plugin --profile web add @michengai/dsh-code-review --registry=https://registry.npmjs.org/"
         }
       ],
       "status": "readme-verified",
@@ -17299,9 +17305,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-context-compression-improved@latest",
-          "install": "dsh-context-compression-improved@latest",
-          "command": "dsh plugin --profile web add dsh-context-compression-improved@latest"
+          "source": "npm:dsh-context-compression-improved",
+          "install": "dsh-context-compression-improved",
+          "command": "dsh plugin --profile web add dsh-context-compression-improved"
         }
       ],
       "status": "readme-verified",
@@ -17352,9 +17358,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-agent-persona@latest",
-          "source": "npm:dsh-agent-persona@latest",
-          "command": "dsh plugin --profile web add dsh-agent-persona@latest"
+          "install": "dsh-agent-persona",
+          "source": "npm:dsh-agent-persona",
+          "command": "dsh plugin --profile web add dsh-agent-persona"
         }
       ],
       "status": "readme-verified",
@@ -17462,9 +17468,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:baifanyu-ofm@0.3.3",
-          "install": "baifanyu-ofm@0.3.3",
-          "command": "dsh plugin --profile web add baifanyu-ofm@0.3.3"
+          "source": "npm:baifanyu-ofm",
+          "install": "baifanyu-ofm",
+          "command": "dsh plugin --profile web add baifanyu-ofm"
         }
       ],
       "status": "readme-verified",
@@ -17558,9 +17564,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "install": "@ljwei-stak/dsh-model-router@0.81.0",
-          "source": "npm:@ljwei-stak/dsh-model-router@0.81.0",
-          "command": "dsh plugin --profile desktop add @ljwei-stak/dsh-model-router@0.81.0"
+          "install": "@ljwei-stak/dsh-model-router",
+          "source": "npm:@ljwei-stak/dsh-model-router",
+          "command": "dsh plugin --profile desktop add @ljwei-stak/dsh-model-router"
         }
       ],
       "status": "readme-verified",
@@ -17571,9 +17577,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-deepcanary@0.1.9-rc.1",
-          "install": "dsh-deepcanary@0.1.9-rc.1",
-          "command": "dsh plugin --profile web add dsh-deepcanary@0.1.9-rc.1 --registry=https://registry.npmjs.org/"
+          "source": "npm:dsh-deepcanary",
+          "install": "dsh-deepcanary",
+          "command": "dsh plugin --profile web add dsh-deepcanary --registry=https://registry.npmjs.org/"
         }
       ],
       "status": "readme-verified",
@@ -17636,9 +17642,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@pinkbanana/dsh-balance@latest",
-          "install": "@pinkbanana/dsh-balance@latest",
-          "command": "dsh plugin --profile web add @pinkbanana/dsh-balance@latest"
+          "source": "npm:@pinkbanana/dsh-balance",
+          "install": "@pinkbanana/dsh-balance",
+          "command": "dsh plugin --profile web add @pinkbanana/dsh-balance"
         }
       ],
       "status": "readme-verified",
@@ -17649,9 +17655,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@huliux/dsh-asr-plugin@0.1.6",
-          "install": "@huliux/dsh-asr-plugin@0.1.6",
-          "command": "dsh plugin --profile web add --ignore-scripts @huliux/dsh-asr-plugin@0.1.6"
+          "source": "npm:@huliux/dsh-asr-plugin",
+          "install": "@huliux/dsh-asr-plugin",
+          "command": "dsh plugin --profile web add --ignore-scripts @huliux/dsh-asr-plugin"
         }
       ],
       "status": "readme-verified",
@@ -17688,9 +17694,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "source": "npm:@xxxyz/dsh-mcp-manager@latest",
-          "install": "@xxxyz/dsh-mcp-manager@latest",
-          "command": "dsh plugin --profile desktop add @xxxyz/dsh-mcp-manager@latest"
+          "source": "npm:@xxxyz/dsh-mcp-manager",
+          "install": "@xxxyz/dsh-mcp-manager",
+          "command": "dsh plugin --profile desktop add @xxxyz/dsh-mcp-manager"
         }
       ],
       "status": "readme-verified",
@@ -17701,9 +17707,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-codex-auth@0.3.4-rc.2",
-          "install": "dsh-codex-auth@0.3.4-rc.2",
-          "command": "dsh plugin --profile web add dsh-codex-auth@0.3.4-rc.2"
+          "source": "npm:dsh-codex-auth",
+          "install": "dsh-codex-auth",
+          "command": "dsh plugin --profile web add dsh-codex-auth"
         }
       ],
       "status": "readme-verified",
@@ -17728,9 +17734,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "source": "npm:@zaimokuza/dsh-acp-adapter@0.2.2-rc.5.4",
-          "install": "@zaimokuza/dsh-acp-adapter@0.2.2-rc.5.4",
-          "command": "dsh plugin --profile desktop add @zaimokuza/dsh-acp-adapter@0.2.2-rc.5.4"
+          "source": "npm:@zaimokuza/dsh-acp-adapter",
+          "install": "@zaimokuza/dsh-acp-adapter",
+          "command": "dsh plugin --profile desktop add @zaimokuza/dsh-acp-adapter"
         }
       ],
       "status": "readme-verified",
@@ -17967,9 +17973,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-douyin-browser-local@1.4.7",
-          "install": "dsh-douyin-browser-local@1.4.7",
-          "command": "dsh plugin --profile web add dsh-douyin-browser-local@1.4.7"
+          "source": "npm:dsh-douyin-browser-local",
+          "install": "dsh-douyin-browser-local",
+          "command": "dsh plugin --profile web add dsh-douyin-browser-local"
         }
       ],
       "status": "readme-verified",
@@ -18016,13 +18022,19 @@
       "verified_via": "README + npm registry"
     },
     "lain-in-coding/dsh-grok-search": {
-      "packages": [],
+      "packages": [
+        {
+          "profile": "web",
+          "install": "dsh-grok-search",
+          "source": "npm:dsh-grok-search",
+          "command": "dsh plugin --profile web add dsh-grok-search"
+        }
+      ],
       "status": "readme-verified",
       "verified_date": "2026-11-21",
       "verified_via": "review",
-      "install_mode": "manual",
-      "manual_instructions": "README 钉 dsh-grok-search@0.4.2（v0.4.2 Release 已出），registry 2026-11-21 latest 仍 0.4.1——待 npm 同步后恢复 npm 钉版映射；期间可下载 Release tgz 本地导入。",
-      "verified_by": "review"
+      "verified_by": "review",
+      "note": "2026-11-21 策略：npm 交由 registry 决定版本（registry latest 0.4.2 已同步）；归属已证。"
     },
     "lovenndme/dsh-profile-stats": {
       "packages": [
@@ -18077,9 +18089,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-ccgui@1.0.2",
-          "install": "dsh-ccgui@1.0.2",
-          "command": "dsh plugin --profile web add dsh-ccgui@1.0.2"
+          "source": "npm:dsh-ccgui",
+          "install": "dsh-ccgui",
+          "command": "dsh plugin --profile web add dsh-ccgui"
         }
       ],
       "status": "readme-verified",
@@ -18170,9 +18182,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "source": "npm:dsh-deepseek-chat@0.2.31",
-          "install": "dsh-deepseek-chat@0.2.31",
-          "command": "dsh plugin --profile desktop add dsh-deepseek-chat@0.2.31"
+          "source": "npm:dsh-deepseek-chat",
+          "install": "dsh-deepseek-chat",
+          "command": "dsh plugin --profile desktop add dsh-deepseek-chat"
         }
       ],
       "status": "readme-verified",
@@ -18357,9 +18369,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "source": "npm:@takboo/dsh-coopanion@0.4.27",
-          "install": "@takboo/dsh-coopanion@0.4.27",
-          "command": "dsh plugin --profile desktop add @takboo/dsh-coopanion@0.4.27"
+          "source": "npm:@takboo/dsh-coopanion",
+          "install": "@takboo/dsh-coopanion",
+          "command": "dsh plugin --profile desktop add @takboo/dsh-coopanion"
         }
       ],
       "status": "readme-verified",
@@ -18477,9 +18489,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
-          "install": "@openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3",
-          "command": "dsh plugin --profile web add @openbkn/dsh-business-context@0.2.1-rc.3-openbkn.0.2.1-3"
+          "source": "npm:@openbkn/dsh-business-context",
+          "install": "@openbkn/dsh-business-context",
+          "command": "dsh plugin --profile web add @openbkn/dsh-business-context"
         }
       ],
       "status": "readme-verified",
@@ -18529,9 +18541,9 @@
       "packages": [
         {
           "profile": "demo",
-          "source": "npm:dsh-rea-gp@0.1.0",
-          "install": "dsh-rea-gp@0.1.0",
-          "command": "dsh plugin --profile demo add dsh-rea-gp@0.1.0"
+          "source": "npm:dsh-rea-gp",
+          "install": "dsh-rea-gp",
+          "command": "dsh plugin --profile demo add dsh-rea-gp"
         }
       ],
       "status": "readme-verified",
@@ -18769,9 +18781,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-logistics@0.8.2",
-          "install": "dsh-logistics@0.8.2",
-          "command": "dsh plugin --profile web add dsh-logistics@0.8.2"
+          "source": "npm:dsh-logistics",
+          "install": "dsh-logistics",
+          "command": "dsh plugin --profile web add dsh-logistics"
         }
       ],
       "status": "readme-verified",
@@ -18797,9 +18809,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@ahggg/dsh-side-chat@1.0.3",
-          "install": "@ahggg/dsh-side-chat@1.0.3",
-          "command": "dsh plugin --profile web add @ahggg/dsh-side-chat@1.0.3 --save-exact"
+          "source": "npm:@ahggg/dsh-side-chat",
+          "install": "@ahggg/dsh-side-chat",
+          "command": "dsh plugin --profile web add @ahggg/dsh-side-chat --save-exact"
         }
       ],
       "status": "readme-verified",
@@ -19374,9 +19386,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@infinitepersistence/dsh-serial-console@0.1.0-rc.6",
-          "install": "@infinitepersistence/dsh-serial-console@0.1.0-rc.6",
-          "command": "dsh plugin --profile web add '@infinitepersistence/dsh-serial-console@0.1.0-rc.6' --save-exact"
+          "source": "npm:@infinitepersistence/dsh-serial-console",
+          "install": "@infinitepersistence/dsh-serial-console",
+          "command": "dsh plugin --profile web add '@infinitepersistence/dsh-serial-console' --save-exact"
         }
       ],
       "status": "readme-verified",
@@ -19766,9 +19778,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@michengai/dsh-simplify@1.0.9",
-          "install": "@michengai/dsh-simplify@1.0.9",
-          "command": "dsh plugin --profile web add @michengai/dsh-simplify@1.0.9 --registry=https://registry.npmjs.org/"
+          "source": "npm:@michengai/dsh-simplify",
+          "install": "@michengai/dsh-simplify",
+          "command": "dsh plugin --profile web add @michengai/dsh-simplify --registry=https://registry.npmjs.org/"
         }
       ],
       "status": "readme-verified",
@@ -19954,9 +19966,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@zephinel/dsh-intelligent-ui@0.6.2",
-          "source": "npm:@zephinel/dsh-intelligent-ui@0.6.2",
-          "command": "dsh plugin --profile web add @zephinel/dsh-intelligent-ui@0.6.2"
+          "install": "@zephinel/dsh-intelligent-ui",
+          "source": "npm:@zephinel/dsh-intelligent-ui",
+          "command": "dsh plugin --profile web add @zephinel/dsh-intelligent-ui"
         }
       ],
       "status": "readme-verified",
@@ -20021,13 +20033,19 @@
       "note": "README 未提供可用的安装命令；按已核验来源写入跟踪式目标，每日重新核验并把线上输出固定到精确版本或 commit。"
     },
     "gehennawu/dsh-service": {
-      "packages": [],
+      "packages": [
+        {
+          "profile": "web",
+          "install": "@gehennawu/dsh-service",
+          "source": "npm:@gehennawu/dsh-service",
+          "command": "dsh plugin --profile web add @gehennawu/dsh-service"
+        }
+      ],
       "status": "readme-verified",
       "verified_date": "2026-11-21",
       "verified_via": "review",
-      "install_mode": "manual",
-      "manual_instructions": "README 钉 @gehennawu/dsh-service@2.1.7，registry 尚未发布该版本（latest 2.1.6，2026-11-21 核验）；发布后恢复钉版映射。",
-      "verified_by": "review"
+      "verified_by": "review",
+      "note": "2026-11-21 策略：npm 交由 registry 决定版本（无版本钉）；归属已证。README 钉 2.1.7，registry latest 2.1.6 起步。"
     },
     "lincong1987/dsh-model-switch": {
       "packages": [
@@ -20293,9 +20311,9 @@
       "packages": [
         {
           "profile": "default",
-          "source": "npm:dsh-kimi-subscription@latest",
-          "install": "dsh-kimi-subscription@latest",
-          "command": "dsh plugin --profile web add dsh-kimi-subscription@latest"
+          "source": "npm:dsh-kimi-subscription",
+          "install": "dsh-kimi-subscription",
+          "command": "dsh plugin --profile web add dsh-kimi-subscription"
         }
       ],
       "status": "readme-verified",
@@ -20361,9 +20379,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:roblox-devforum-mcp",
-          "install": "roblox-devforum-mcp",
-          "command": "dsh plugin --profile web add roblox-devforum-mcp"
+          "source": "npm:@el4cteo/roblox-devforum-mcp",
+          "install": "@el4cteo/roblox-devforum-mcp",
+          "command": "dsh plugin --profile web add @el4cteo/roblox-devforum-mcp"
         }
       ],
       "status": "readme-verified",
@@ -20482,9 +20500,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-whale-bongo@0.3.5",
-          "install": "dsh-whale-bongo@0.3.5",
-          "command": "dsh plugin --profile web add dsh-whale-bongo@0.3.5"
+          "source": "npm:dsh-whale-bongo",
+          "install": "dsh-whale-bongo",
+          "command": "dsh plugin --profile web add dsh-whale-bongo"
         }
       ],
       "status": "readme-verified",
@@ -20702,9 +20720,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@benz-ai-x/dsh-research-graph@0.2.2-rc.3.5",
-          "install": "@benz-ai-x/dsh-research-graph@0.2.2-rc.3.5",
-          "command": "dsh plugin --profile web add @benz-ai-x/dsh-research-graph@0.2.2-rc.3.5"
+          "source": "npm:@benz-ai-x/dsh-research-graph",
+          "install": "@benz-ai-x/dsh-research-graph",
+          "command": "dsh plugin --profile web add @benz-ai-x/dsh-research-graph"
         }
       ],
       "status": "readme-verified",
@@ -20891,9 +20909,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-structured@1.1.5",
-          "source": "npm:dsh-structured@1.1.5",
-          "command": "dsh plugin --profile web add dsh-structured@1.1.5"
+          "install": "dsh-structured",
+          "source": "npm:dsh-structured",
+          "command": "dsh plugin --profile web add dsh-structured"
         }
       ],
       "status": "readme-verified",
@@ -21058,9 +21076,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-project-mcp-manager@latest",
-          "install": "dsh-project-mcp-manager@latest",
-          "command": "dsh plugin --profile web add dsh-project-mcp-manager@latest"
+          "source": "npm:dsh-project-mcp-manager",
+          "install": "dsh-project-mcp-manager",
+          "command": "dsh plugin --profile web add dsh-project-mcp-manager"
         }
       ],
       "status": "readme-verified",
@@ -21221,9 +21239,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-telegram-bot@latest",
-          "install": "dsh-telegram-bot@latest",
-          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-telegram-bot@latest"
+          "source": "npm:dsh-telegram-bot",
+          "install": "dsh-telegram-bot",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-telegram-bot"
         }
       ],
       "status": "readme-verified",
@@ -21744,9 +21762,9 @@
       "packages": [
         {
           "profile": "default",
-          "source": "npm:dsh-canvas-tsx-sidebar@latest",
-          "install": "dsh-canvas-tsx-sidebar@latest",
-          "command": "dsh plugin --profile web add dsh-canvas-tsx-sidebar@latest"
+          "source": "npm:dsh-canvas-tsx-sidebar",
+          "install": "dsh-canvas-tsx-sidebar",
+          "command": "dsh plugin --profile web add dsh-canvas-tsx-sidebar"
         }
       ],
       "status": "readme-verified",
@@ -21996,9 +22014,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "source": "npm:dsh-code-index@0.13.0",
-          "install": "dsh-code-index@0.13.0",
-          "command": "dsh plugin --profile desktop add dsh-code-index@0.13.0"
+          "source": "npm:dsh-code-index",
+          "install": "dsh-code-index",
+          "command": "dsh plugin --profile desktop add dsh-code-index"
         }
       ],
       "status": "readme-verified",
@@ -22022,9 +22040,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@lemoncat7/dsh-ssh@latest",
-          "install": "@lemoncat7/dsh-ssh@latest",
-          "command": "dsh plugin --profile web add @lemoncat7/dsh-ssh@latest"
+          "source": "npm:@lemoncat7/dsh-ssh",
+          "install": "@lemoncat7/dsh-ssh",
+          "command": "dsh plugin --profile web add @lemoncat7/dsh-ssh"
         }
       ],
       "status": "readme-verified",
@@ -22389,9 +22407,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-opencode-free@0.6.0",
-          "install": "dsh-opencode-free@0.6.0",
-          "command": "dsh plugin --profile web add dsh-opencode-free@0.6.0"
+          "source": "npm:dsh-opencode-free",
+          "install": "dsh-opencode-free",
+          "command": "dsh plugin --profile web add dsh-opencode-free"
         }
       ],
       "status": "readme-verified",
@@ -22715,9 +22733,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-lazygit-plugin@0.5.3",
-          "install": "dsh-lazygit-plugin@0.5.3",
-          "command": "dsh plugin --profile web add dsh-lazygit-plugin@0.5.3"
+          "source": "npm:dsh-lazygit-plugin",
+          "install": "dsh-lazygit-plugin",
+          "command": "dsh plugin --profile web add dsh-lazygit-plugin"
         }
       ],
       "status": "readme-verified",
@@ -22889,9 +22907,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@nexus-aethra/dshell-bundle@latest",
-          "install": "@nexus-aethra/dshell-bundle@latest",
-          "command": "dsh plugin --profile web add -w @nexus-aethra/dshell-bundle@latest"
+          "source": "npm:@nexus-aethra/dshell-bundle",
+          "install": "@nexus-aethra/dshell-bundle",
+          "command": "dsh plugin --profile web add -w @nexus-aethra/dshell-bundle"
         }
       ],
       "status": "readme-verified",
@@ -22934,9 +22952,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@michengai/dsh-codex-pet@latest",
-          "install": "@michengai/dsh-codex-pet@latest",
-          "command": "dsh plugin --profile web add @michengai/dsh-codex-pet@latest --registry=https://registry.npmjs.org/ --ignore-scripts"
+          "source": "npm:@michengai/dsh-codex-pet",
+          "install": "@michengai/dsh-codex-pet",
+          "command": "dsh plugin --profile web add @michengai/dsh-codex-pet --registry=https://registry.npmjs.org/ --ignore-scripts"
         }
       ],
       "status": "readme-verified",
@@ -22989,9 +23007,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@starryhui/dsh-background@latest",
-          "install": "@starryhui/dsh-background@latest",
-          "command": "dsh plugin --profile web add @starryhui/dsh-background@latest"
+          "source": "npm:@starryhui/dsh-background",
+          "install": "@starryhui/dsh-background",
+          "command": "dsh plugin --profile web add @starryhui/dsh-background"
         }
       ],
       "status": "readme-verified",
@@ -23122,9 +23140,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-nexttavern@0.3.0-rc.1",
-          "source": "npm:dsh-nexttavern@0.3.0-rc.1",
-          "command": "dsh plugin --profile web add dsh-nexttavern@0.3.0-rc.1"
+          "install": "dsh-nexttavern",
+          "source": "npm:dsh-nexttavern",
+          "command": "dsh plugin --profile web add dsh-nexttavern"
         }
       ],
       "status": "readme-verified",
@@ -23148,9 +23166,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-reforge@0.1.0-alpha.2",
-          "source": "npm:dsh-reforge@0.1.0-alpha.2",
-          "command": "dsh plugin --profile web add dsh-reforge@0.1.0-alpha.2"
+          "install": "dsh-reforge",
+          "source": "npm:dsh-reforge",
+          "command": "dsh plugin --profile web add dsh-reforge"
         }
       ],
       "status": "readme-verified",
@@ -23458,15 +23476,15 @@
       "packages": [
         {
           "profile": "web",
-          "install": "https://github.com/Ycet/dsh-awesome-hud#v0.21.5",
-          "source": "github:Ycet/dsh-awesome-hud#v0.21.5",
-          "command": "dsh plugin --profile web add \"github:Ycet/dsh-awesome-hud#v0.21.5\""
+          "install": "https://github.com/Ycet/dsh-awesome-hud#v0.21.6",
+          "source": "github:Ycet/dsh-awesome-hud#v0.21.6",
+          "command": "dsh plugin --profile web add \"github:Ycet/dsh-awesome-hud#v0.21.6\""
         },
         {
           "profile": "web",
-          "install": "dsh-awesome-hud@0.21.5",
-          "source": "npm:dsh-awesome-hud@0.21.5",
-          "command": "dsh plugin --profile web add dsh-awesome-hud@0.21.5"
+          "install": "dsh-awesome-hud",
+          "source": "npm:dsh-awesome-hud",
+          "command": "dsh plugin --profile web add dsh-awesome-hud"
         }
       ],
       "status": "readme-verified",
@@ -23524,9 +23542,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@himleoing/dsh-progress@0.1.1-rc3",
-          "source": "npm:@himleoing/dsh-progress@0.1.1-rc3",
-          "command": "dsh plugin --profile web add \"@himleoing/dsh-progress@0.1.1-rc3\""
+          "install": "@himleoing/dsh-progress",
+          "source": "npm:@himleoing/dsh-progress",
+          "command": "dsh plugin --profile web add \"@himleoing/dsh-progress\""
         },
         {
           "profile": "web",
@@ -23543,9 +23561,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-compact-button@latest",
-          "source": "npm:dsh-compact-button@latest",
-          "command": "dsh plugin --profile web add dsh-compact-button@latest"
+          "install": "dsh-compact-button",
+          "source": "npm:dsh-compact-button",
+          "command": "dsh plugin --profile web add dsh-compact-button"
         }
       ],
       "status": "readme-verified",
@@ -23608,9 +23626,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-chatgpt-bridge@0.6.0",
-          "source": "npm:dsh-chatgpt-bridge@0.6.0",
-          "command": "dsh plugin --profile web add dsh-chatgpt-bridge@0.6.0"
+          "install": "dsh-chatgpt-bridge",
+          "source": "npm:dsh-chatgpt-bridge",
+          "command": "dsh plugin --profile web add dsh-chatgpt-bridge"
         }
       ],
       "status": "readme-verified",
@@ -23700,15 +23718,15 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-workbuddy-connect@0.7.9",
-          "source": "npm:dsh-workbuddy-connect@0.7.9",
-          "command": "dsh plugin --profile web add dsh-workbuddy-connect@0.7.9"
+          "install": "dsh-workbuddy-connect",
+          "source": "npm:dsh-workbuddy-connect",
+          "command": "dsh plugin --profile web add dsh-workbuddy-connect"
         },
         {
           "profile": "dsh-tui",
-          "install": "dsh-workbuddy-connect@0.6.5",
-          "source": "npm:dsh-workbuddy-connect@0.6.5",
-          "command": "dsh plugin --profile dsh-tui add dsh-workbuddy-connect@0.6.5"
+          "install": "dsh-workbuddy-connect",
+          "source": "npm:dsh-workbuddy-connect",
+          "command": "dsh plugin --profile dsh-tui add dsh-workbuddy-connect"
         }
       ],
       "status": "readme-verified",
@@ -23901,9 +23919,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "@ljwei-stak/dsh-boot-animation@0.6.7",
-          "source": "npm:@ljwei-stak/dsh-boot-animation@0.6.7",
-          "command": "dsh plugin --profile web add @ljwei-stak/dsh-boot-animation@0.6.7 --save-exact"
+          "install": "@ljwei-stak/dsh-boot-animation",
+          "source": "npm:@ljwei-stak/dsh-boot-animation",
+          "command": "dsh plugin --profile web add @ljwei-stak/dsh-boot-animation --save-exact"
         }
       ],
       "status": "readme-verified",
@@ -24216,9 +24234,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@cmx666/dsh-niu-bundle@0.2.1-rc.1",
-          "install": "@cmx666/dsh-niu-bundle@0.2.1-rc.1",
-          "command": "dsh plugin --profile web add \"@cmx666/dsh-niu-bundle@0.2.1-rc.1\""
+          "source": "npm:@cmx666/dsh-niu-bundle",
+          "install": "@cmx666/dsh-niu-bundle",
+          "command": "dsh plugin --profile web add \"@cmx666/dsh-niu-bundle\""
         }
       ],
       "status": "readme-verified",
@@ -24256,9 +24274,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-web-search-brave@0.2.5",
-          "install": "dsh-web-search-brave@0.2.5",
-          "command": "dsh plugin --profile web add \"dsh-web-search-brave@0.2.5\""
+          "source": "npm:dsh-web-search-brave",
+          "install": "dsh-web-search-brave",
+          "command": "dsh plugin --profile web add \"dsh-web-search-brave\""
         }
       ],
       "status": "readme-verified",
@@ -24637,9 +24655,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-riskproof@0.7.0",
-          "install": "dsh-riskproof@0.7.0",
-          "command": "dsh plugin --profile web add \"dsh-riskproof@0.7.0\""
+          "source": "npm:dsh-riskproof",
+          "install": "dsh-riskproof",
+          "command": "dsh plugin --profile web add \"dsh-riskproof\""
         }
       ],
       "status": "readme-verified",
@@ -24846,9 +24864,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-web-service@0.6.2",
-          "install": "dsh-web-service@0.6.2",
-          "command": "dsh plugin --profile web add \"dsh-web-service@0.6.2\""
+          "source": "npm:dsh-web-service",
+          "install": "dsh-web-service",
+          "command": "dsh plugin --profile web add \"dsh-web-service\""
         }
       ],
       "status": "readme-verified",
@@ -24919,9 +24937,9 @@
         },
         {
           "profile": "web",
-          "source": "npm:@dsh-self-evolving/core@0.2.3",
-          "install": "@dsh-self-evolving/core@0.2.3",
-          "command": "dsh plugin --profile web add \"@dsh-self-evolving/core@0.2.3\""
+          "source": "npm:@dsh-self-evolving/core",
+          "install": "@dsh-self-evolving/core",
+          "command": "dsh plugin --profile web add \"@dsh-self-evolving/core\""
         }
       ],
       "status": "repo-fallback",
@@ -25409,9 +25427,9 @@
         },
         {
           "profile": "web",
-          "source": "npm:dsh-cc-ecosystem@0.7.1",
-          "install": "dsh-cc-ecosystem@0.7.1",
-          "command": "dsh plugin --profile web add dsh-cc-ecosystem@0.7.1"
+          "source": "npm:dsh-cc-ecosystem",
+          "install": "dsh-cc-ecosystem",
+          "command": "dsh plugin --profile web add dsh-cc-ecosystem"
         },
         {
           "profile": "web",
@@ -25906,9 +25924,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-webgis@0.2.2",
-          "install": "dsh-webgis@0.2.2",
-          "command": "dsh plugin --profile web add \"dsh-webgis@0.2.2\""
+          "source": "npm:dsh-webgis",
+          "install": "dsh-webgis",
+          "command": "dsh plugin --profile web add \"dsh-webgis\""
         }
       ],
       "status": "readme-verified",
@@ -26220,9 +26238,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-branchmark@0.1.2-rc.2",
-          "command": "dsh plugin --profile web add dsh-branchmark@0.1.2-rc.2",
-          "install": "dsh-branchmark@0.1.2-rc.2"
+          "source": "npm:dsh-branchmark",
+          "command": "dsh plugin --profile web add dsh-branchmark",
+          "install": "dsh-branchmark"
         }
       ],
       "status": "readme-verified",
@@ -26234,9 +26252,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@zebbkira/dsh-skills-mcp-manager@0.2.0",
-          "command": "dsh plugin --profile web add @zebbkira/dsh-skills-mcp-manager@0.2.0",
-          "install": "@zebbkira/dsh-skills-mcp-manager@0.2.0"
+          "source": "npm:@zebbkira/dsh-skills-mcp-manager",
+          "command": "dsh plugin --profile web add @zebbkira/dsh-skills-mcp-manager",
+          "install": "@zebbkira/dsh-skills-mcp-manager"
         }
       ],
       "status": "readme-verified",
@@ -26276,9 +26294,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-user-experience@0.4.2",
-          "command": "dsh plugin --profile web add dsh-user-experience@0.4.2",
-          "install": "dsh-user-experience@0.4.2"
+          "source": "npm:dsh-user-experience",
+          "command": "dsh plugin --profile web add dsh-user-experience",
+          "install": "dsh-user-experience"
         },
         {
           "profile": "default",
@@ -26296,9 +26314,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-diagram@0.6.1",
-          "command": "pnpm dsh plugin --profile web add dsh-diagram@0.6.1",
-          "install": "dsh-diagram@0.6.1"
+          "source": "npm:dsh-diagram",
+          "command": "pnpm dsh plugin --profile web add dsh-diagram",
+          "install": "dsh-diagram"
         }
       ],
       "status": "readme-verified",
@@ -26420,9 +26438,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-outline@latest",
-          "command": "dsh plugin --profile web add dsh-outline@latest",
-          "install": "dsh-outline@latest"
+          "source": "npm:dsh-outline",
+          "command": "dsh plugin --profile web add dsh-outline",
+          "install": "dsh-outline"
         }
       ],
       "status": "readme-verified",
@@ -26602,9 +26620,9 @@
       "packages": [
         {
           "profile": "tui",
-          "source": "npm:dsh-mini-tui@latest",
-          "command": "dsh plugin --profile tui add dsh-mini-tui@latest",
-          "install": "dsh-mini-tui@latest"
+          "source": "npm:dsh-mini-tui",
+          "command": "dsh plugin --profile tui add dsh-mini-tui",
+          "install": "dsh-mini-tui"
         }
       ],
       "status": "readme-verified",
@@ -26616,9 +26634,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-fate-spectrum@0.1.0",
-          "command": "dsh plugin --profile web add dsh-fate-spectrum@0.1.0",
-          "install": "dsh-fate-spectrum@0.1.0"
+          "source": "npm:dsh-fate-spectrum",
+          "command": "dsh plugin --profile web add dsh-fate-spectrum",
+          "install": "dsh-fate-spectrum"
         }
       ],
       "status": "readme-verified",
@@ -26630,9 +26648,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@mokuyoaxis/dsh-iris@0.3.0",
-          "command": "dsh plugin --profile web add @mokuyoaxis/dsh-iris@0.3.0",
-          "install": "@mokuyoaxis/dsh-iris@0.3.0"
+          "source": "npm:@mokuyoaxis/dsh-iris",
+          "command": "dsh plugin --profile web add @mokuyoaxis/dsh-iris",
+          "install": "@mokuyoaxis/dsh-iris"
         }
       ],
       "status": "readme-verified",
@@ -27002,9 +27020,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-requirements-alignment@0.5.0-rc.1",
-          "command": "dsh plugin --profile web add dsh-requirements-alignment@0.5.0-rc.1",
-          "install": "dsh-requirements-alignment@0.5.0-rc.1"
+          "source": "npm:dsh-requirements-alignment",
+          "command": "dsh plugin --profile web add dsh-requirements-alignment",
+          "install": "dsh-requirements-alignment"
         }
       ],
       "status": "readme-verified",
@@ -27566,9 +27584,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-jev-prune@0.1.1",
-          "command": "dsh plugin --profile web add dsh-jev-prune@0.1.1",
-          "install": "dsh-jev-prune@0.1.1"
+          "source": "npm:dsh-jev-prune",
+          "command": "dsh plugin --profile web add dsh-jev-prune",
+          "install": "dsh-jev-prune"
         },
         {
           "profile": "web",
@@ -27921,9 +27939,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-http-proxy@0.1.3",
-          "command": "dsh plugin --profile web add dsh-http-proxy@0.1.3",
-          "install": "dsh-http-proxy@0.1.3"
+          "source": "npm:dsh-http-proxy",
+          "command": "dsh plugin --profile web add dsh-http-proxy",
+          "install": "dsh-http-proxy"
         },
         {
           "profile": "web",
@@ -28086,9 +28104,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-token-panel@0.4.7",
-          "command": "dsh plugin --profile web add dsh-token-panel@0.4.7",
-          "install": "dsh-token-panel@0.4.7"
+          "source": "npm:dsh-token-panel",
+          "command": "dsh plugin --profile web add dsh-token-panel",
+          "install": "dsh-token-panel"
         },
         {
           "profile": "web",
@@ -28115,9 +28133,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-plugin-autoevo@1.4.0",
-          "command": "npx @deepseek-ai/dsh plugin --profile web add --save-exact dsh-plugin-autoevo@1.4.0",
-          "install": "dsh-plugin-autoevo@1.4.0"
+          "source": "npm:dsh-plugin-autoevo",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add --save-exact dsh-plugin-autoevo",
+          "install": "dsh-plugin-autoevo"
         }
       ],
       "status": "readme-verified",
@@ -28217,9 +28235,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@mazov2love/dsh-remote-control@1.0.0",
-          "command": "dsh plugin --profile web add '@mazov2love/dsh-remote-control@1.0.0'",
-          "install": "@mazov2love/dsh-remote-control@1.0.0"
+          "source": "npm:@mazov2love/dsh-remote-control",
+          "command": "dsh plugin --profile web add '@mazov2love/dsh-remote-control'",
+          "install": "@mazov2love/dsh-remote-control"
         },
         {
           "profile": "web",
@@ -28316,9 +28334,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-better-sidebar-lite@1.0.0-rs.1",
-          "command": "dsh plugin add dsh-better-sidebar-lite@1.0.0-rs.1 --profile web",
-          "install": "dsh-better-sidebar-lite@1.0.0-rs.1"
+          "source": "npm:dsh-better-sidebar-lite",
+          "command": "dsh plugin add dsh-better-sidebar-lite --profile web",
+          "install": "dsh-better-sidebar-lite"
         }
       ],
       "status": "readme-verified",
@@ -28554,9 +28572,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:ast-mcp-server@0.13.0",
-          "command": "dsh plugin --profile web add ast-mcp-server@0.13.0",
-          "install": "ast-mcp-server@0.13.0"
+          "source": "npm:ast-mcp-server",
+          "command": "dsh plugin --profile web add ast-mcp-server",
+          "install": "ast-mcp-server"
         }
       ],
       "status": "readme-verified",
@@ -28699,9 +28717,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-lark-plus@latest",
-          "command": "dsh plugin --profile web add dsh-lark-plus@latest --ignore-scripts",
-          "install": "dsh-lark-plus@latest"
+          "source": "npm:dsh-lark-plus",
+          "command": "dsh plugin --profile web add dsh-lark-plus --ignore-scripts",
+          "install": "dsh-lark-plus"
         }
       ],
       "status": "readme-verified",
@@ -28834,9 +28852,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-recover-context@latest",
-          "command": "dsh plugin --profile web add dsh-recover-context@latest",
-          "install": "dsh-recover-context@latest"
+          "source": "npm:dsh-recover-context",
+          "command": "dsh plugin --profile web add dsh-recover-context",
+          "install": "dsh-recover-context"
         }
       ],
       "status": "readme-verified",
@@ -28927,9 +28945,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "source": "npm:sapbuddy-dsh@0.1.7",
-          "command": "dsh plugin --profile desktop add sapbuddy-dsh@0.1.7",
-          "install": "sapbuddy-dsh@0.1.7"
+          "source": "npm:sapbuddy-dsh",
+          "command": "dsh plugin --profile desktop add sapbuddy-dsh",
+          "install": "sapbuddy-dsh"
         }
       ],
       "status": "readme-verified",
@@ -29006,9 +29024,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-lan-guard@latest",
-          "command": "dsh plugin --profile web add dsh-lan-guard@latest",
-          "install": "dsh-lan-guard@latest"
+          "source": "npm:dsh-lan-guard",
+          "command": "dsh plugin --profile web add dsh-lan-guard",
+          "install": "dsh-lan-guard"
         },
         {
           "profile": "web",
@@ -29097,9 +29115,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@kbpoyo/dsh-image-bridge@0.1.0",
-          "command": "dsh plugin --profile web add @kbpoyo/dsh-image-bridge@0.1.0",
-          "install": "@kbpoyo/dsh-image-bridge@0.1.0"
+          "source": "npm:@kbpoyo/dsh-image-bridge",
+          "command": "dsh plugin --profile web add @kbpoyo/dsh-image-bridge",
+          "install": "@kbpoyo/dsh-image-bridge"
         }
       ],
       "status": "readme-verified",
@@ -29131,9 +29149,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@kirkchinese/dsh-recollect@0.6.0",
-          "command": "dsh plugin --profile web add @kirkchinese/dsh-recollect@0.6.0",
-          "install": "@kirkchinese/dsh-recollect@0.6.0"
+          "source": "npm:@kirkchinese/dsh-recollect",
+          "command": "dsh plugin --profile web add @kirkchinese/dsh-recollect",
+          "install": "@kirkchinese/dsh-recollect"
         }
       ],
       "status": "readme-verified",
@@ -29273,9 +29291,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@mistymoon/dsh-mmem@0.0.1-alpha.3",
-          "command": "dsh plugin --profile web add @mistymoon/dsh-mmem@0.0.1-alpha.3",
-          "install": "@mistymoon/dsh-mmem@0.0.1-alpha.3"
+          "source": "npm:@mistymoon/dsh-mmem",
+          "command": "dsh plugin --profile web add @mistymoon/dsh-mmem",
+          "install": "@mistymoon/dsh-mmem"
         }
       ],
       "status": "readme-verified",
@@ -29439,9 +29457,9 @@
         },
         {
           "profile": "desktop",
-          "source": "npm:dsh-trivium@0.9.2",
-          "command": "dsh plugin --profile desktop add dsh-trivium@0.9.2 --ignore-scripts",
-          "install": "dsh-trivium@0.9.2"
+          "source": "npm:dsh-trivium",
+          "command": "dsh plugin --profile desktop add dsh-trivium --ignore-scripts",
+          "install": "dsh-trivium"
         }
       ],
       "status": "readme-verified",
@@ -30100,9 +30118,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-grok-acp@latest",
-          "command": "dsh plugin --profile web add dsh-grok-acp@latest",
-          "install": "dsh-grok-acp@latest"
+          "source": "npm:dsh-grok-acp",
+          "command": "dsh plugin --profile web add dsh-grok-acp",
+          "install": "dsh-grok-acp"
         }
       ],
       "status": "readme-verified",
@@ -30120,9 +30138,9 @@
         },
         {
           "profile": "web",
-          "source": "npm:@beihaizb/dsh-notebook@0.4.2",
-          "command": "dsh plugin --profile web add @beihaizb/dsh-notebook@0.4.2",
-          "install": "@beihaizb/dsh-notebook@0.4.2"
+          "source": "npm:@beihaizb/dsh-notebook",
+          "command": "dsh plugin --profile web add @beihaizb/dsh-notebook",
+          "install": "@beihaizb/dsh-notebook"
         }
       ],
       "status": "readme-verified",
@@ -30250,9 +30268,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@ai-eks/dsh-docking-layout@latest",
-          "command": "dsh plugin --profile web add @ai-eks/dsh-docking-layout@latest",
-          "install": "@ai-eks/dsh-docking-layout@latest"
+          "source": "npm:@ai-eks/dsh-docking-layout",
+          "command": "dsh plugin --profile web add @ai-eks/dsh-docking-layout",
+          "install": "@ai-eks/dsh-docking-layout"
         },
         {
           "profile": "web",
@@ -30307,9 +30325,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-pdf-translator@1.1.3",
-          "command": "@deepseek-ai/dsh plugin --profile web add dsh-pdf-translator@1.1.3",
-          "install": "dsh-pdf-translator@1.1.3"
+          "source": "npm:dsh-pdf-translator",
+          "command": "@deepseek-ai/dsh plugin --profile web add dsh-pdf-translator",
+          "install": "dsh-pdf-translator"
         }
       ],
       "status": "readme-verified",
@@ -30882,9 +30900,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-bridge@latest",
-          "command": "dsh plugin --profile web add dsh-bridge@latest",
-          "install": "dsh-bridge@latest"
+          "source": "npm:dsh-bridge",
+          "command": "dsh plugin --profile web add dsh-bridge",
+          "install": "dsh-bridge"
         }
       ],
       "status": "readme-verified",
@@ -30998,9 +31016,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-web-network-optimizer@latest",
-          "command": "dsh plugin --profile web add dsh-web-network-optimizer@latest",
-          "install": "dsh-web-network-optimizer@latest"
+          "source": "npm:dsh-web-network-optimizer",
+          "command": "dsh plugin --profile web add dsh-web-network-optimizer",
+          "install": "dsh-web-network-optimizer"
         }
       ],
       "status": "readme-verified",
@@ -31831,9 +31849,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "source": "npm:dsh-timeband@1.3.10",
-          "command": "dsh plugin --profile desktop add dsh-timeband@1.3.10",
-          "install": "dsh-timeband@1.3.10"
+          "source": "npm:dsh-timeband",
+          "command": "dsh plugin --profile desktop add dsh-timeband",
+          "install": "dsh-timeband"
         }
       ],
       "status": "readme-verified",
@@ -33314,9 +33332,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-codex-timeline@0.5.5",
-          "command": "dsh plugin --profile web add \"dsh-codex-timeline@0.5.5\"",
-          "install": "dsh-codex-timeline@0.5.5"
+          "source": "npm:dsh-codex-timeline",
+          "command": "dsh plugin --profile web add \"dsh-codex-timeline\"",
+          "install": "dsh-codex-timeline"
         }
       ],
       "status": "readme-verified",
@@ -33851,9 +33869,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-custom-provider-settings@0.10.0",
-          "command": "dsh plugin --profile web add dsh-custom-provider-settings@0.10.0",
-          "install": "dsh-custom-provider-settings@0.10.0"
+          "source": "npm:dsh-custom-provider-settings",
+          "command": "dsh plugin --profile web add dsh-custom-provider-settings",
+          "install": "dsh-custom-provider-settings"
         }
       ],
       "status": "readme-verified",
@@ -34113,9 +34131,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-vaultwarden@latest",
-          "command": "dsh plugin --profile web add dsh-vaultwarden@latest",
-          "install": "dsh-vaultwarden@latest"
+          "source": "npm:dsh-vaultwarden",
+          "command": "dsh plugin --profile web add dsh-vaultwarden",
+          "install": "dsh-vaultwarden"
         }
       ],
       "status": "readme-verified",
@@ -34250,9 +34268,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@fffangchenghao/dsh-web-search@latest",
-          "command": "dsh plugin --profile web add @fffangchenghao/dsh-web-search@latest",
-          "install": "@fffangchenghao/dsh-web-search@latest"
+          "source": "npm:@fffangchenghao/dsh-web-search",
+          "command": "dsh plugin --profile web add @fffangchenghao/dsh-web-search",
+          "install": "@fffangchenghao/dsh-web-search"
         }
       ],
       "status": "readme-verified",
@@ -34780,9 +34798,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "source": "npm:dsh-opencode-bridge@1.2.1",
-          "command": "dsh plugin --profile desktop add dsh-opencode-bridge@1.2.1",
-          "install": "dsh-opencode-bridge@1.2.1"
+          "source": "npm:dsh-opencode-bridge",
+          "command": "dsh plugin --profile desktop add dsh-opencode-bridge",
+          "install": "dsh-opencode-bridge"
         }
       ],
       "status": "readme-verified",
@@ -34826,9 +34844,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "source": "npm:dsh-amphoreus@0.5.2",
-          "command": "dsh plugin --profile desktop add dsh-amphoreus@0.5.2",
-          "install": "dsh-amphoreus@0.5.2"
+          "source": "npm:dsh-amphoreus",
+          "command": "dsh plugin --profile desktop add dsh-amphoreus",
+          "install": "dsh-amphoreus"
         }
       ],
       "status": "readme-verified",
@@ -34919,9 +34937,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-web-search-multi@latest",
-          "command": "dsh plugin --profile web add dsh-web-search-multi@latest",
-          "install": "dsh-web-search-multi@latest"
+          "source": "npm:dsh-web-search-multi",
+          "command": "dsh plugin --profile web add dsh-web-search-multi",
+          "install": "dsh-web-search-multi"
         }
       ],
       "status": "readme-verified",
@@ -34998,9 +35016,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-pubmed@latest",
-          "command": "dsh plugin --profile web add dsh-pubmed@latest",
-          "install": "dsh-pubmed@latest"
+          "source": "npm:dsh-pubmed",
+          "command": "dsh plugin --profile web add dsh-pubmed",
+          "install": "dsh-pubmed"
         },
         {
           "profile": "web",
@@ -35713,15 +35731,15 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-nico-theme@latest",
-          "command": "dsh plugin --profile web add dsh-nico-theme@latest",
-          "install": "dsh-nico-theme@latest"
+          "source": "npm:dsh-nico-theme",
+          "command": "dsh plugin --profile web add dsh-nico-theme",
+          "install": "dsh-nico-theme"
         },
         {
           "profile": "nico-theme-test",
-          "source": "npm:dsh-nico-theme@latest",
-          "command": "dsh plugin --profile nico-theme-test add dsh-nico-theme@latest",
-          "install": "dsh-nico-theme@latest"
+          "source": "npm:dsh-nico-theme",
+          "command": "dsh plugin --profile nico-theme-test add dsh-nico-theme",
+          "install": "dsh-nico-theme"
         }
       ],
       "status": "readme-verified",
@@ -36606,9 +36624,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-annotate@0.1.15",
-          "command": "dsh plugin --profile web add dsh-annotate@0.1.15",
-          "install": "dsh-annotate@0.1.15"
+          "source": "npm:dsh-annotate",
+          "command": "dsh plugin --profile web add dsh-annotate",
+          "install": "dsh-annotate"
         }
       ],
       "status": "readme-verified",
@@ -37079,9 +37097,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-mcp-mgr@latest",
-          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-mcp-mgr@latest",
-          "install": "dsh-mcp-mgr@latest"
+          "source": "npm:dsh-mcp-mgr",
+          "command": "npx @deepseek-ai/dsh plugin --profile web add dsh-mcp-mgr",
+          "install": "dsh-mcp-mgr"
         }
       ],
       "status": "readme-verified",
@@ -37241,9 +37259,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@anonyjcy/dsh-j-space@1.2.6",
-          "command": "dsh plugin --profile web add @anonyjcy/dsh-j-space@1.2.6",
-          "install": "@anonyjcy/dsh-j-space@1.2.6"
+          "source": "npm:@anonyjcy/dsh-j-space",
+          "command": "dsh plugin --profile web add @anonyjcy/dsh-j-space",
+          "install": "@anonyjcy/dsh-j-space"
         }
       ],
       "status": "readme-verified",
@@ -37400,9 +37418,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-whale-pet@0.1.0",
-          "command": "dsh plugin --profile web add dsh-whale-pet@0.1.0",
-          "install": "dsh-whale-pet@0.1.0"
+          "source": "npm:dsh-whale-pet",
+          "command": "dsh plugin --profile web add dsh-whale-pet",
+          "install": "dsh-whale-pet"
         }
       ],
       "status": "readme-verified",
@@ -37735,9 +37753,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-lark-agent@0.6.3",
-          "command": "dsh plugin --profile web add dsh-lark-agent@0.6.3 --allow-build=protobufjs",
-          "install": "dsh-lark-agent@0.6.3"
+          "source": "npm:dsh-lark-agent",
+          "command": "dsh plugin --profile web add dsh-lark-agent --allow-build=protobufjs",
+          "install": "dsh-lark-agent"
         }
       ],
       "status": "readme-verified",
@@ -38446,9 +38464,9 @@
       "packages": [
         {
           "profile": "desktop",
-          "source": "npm:dsh-ppt-canvas@1.1.0",
-          "command": "dsh plugin --profile desktop add dsh-ppt-canvas@1.1.0",
-          "install": "dsh-ppt-canvas@1.1.0"
+          "source": "npm:dsh-ppt-canvas",
+          "command": "dsh plugin --profile desktop add dsh-ppt-canvas",
+          "install": "dsh-ppt-canvas"
         }
       ],
       "status": "readme-verified",
@@ -39831,9 +39849,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:meb-workbench@0.1.4",
-          "command": "dsh plugin --profile web add meb-workbench@0.1.4",
-          "install": "meb-workbench@0.1.4"
+          "source": "npm:meb-workbench",
+          "command": "dsh plugin --profile web add meb-workbench",
+          "install": "meb-workbench"
         }
       ],
       "status": "readme-verified",
@@ -40475,9 +40493,9 @@
       "packages": [
         {
           "profile": "default",
-          "install": "dsh-dl-server@0.4.0",
-          "source": "npm:dsh-dl-server@0.4.0",
-          "command": "dsh plugin add dsh-dl-server@0.4.0"
+          "install": "dsh-dl-server",
+          "source": "npm:dsh-dl-server",
+          "command": "dsh plugin add dsh-dl-server"
         }
       ],
       "status": "readme-verified",
@@ -40691,9 +40709,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-native-browser@0.2.4",
-          "install": "dsh-native-browser@0.2.4",
-          "command": "dsh plugin --profile web add \"dsh-native-browser@0.2.4\""
+          "source": "npm:dsh-native-browser",
+          "install": "dsh-native-browser",
+          "command": "dsh plugin --profile web add \"dsh-native-browser\""
         }
       ],
       "status": "readme-verified",
@@ -41048,9 +41066,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-knowledge-library@0.3.0",
-          "install": "dsh-knowledge-library@0.3.0",
-          "command": "dsh plugin --profile web add dsh-knowledge-library@0.3.0 --registry=https://registry.npmjs.org/"
+          "source": "npm:dsh-knowledge-library",
+          "install": "dsh-knowledge-library",
+          "command": "dsh plugin --profile web add dsh-knowledge-library --registry=https://registry.npmjs.org/"
         }
       ],
       "status": "readme-verified",
@@ -42072,9 +42090,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-promptx@0.1.7",
-          "install": "dsh-promptx@0.1.7",
-          "command": "dsh plugin --profile web add \"dsh-promptx@0.1.7\""
+          "source": "npm:dsh-promptx",
+          "install": "dsh-promptx",
+          "command": "dsh plugin --profile web add \"dsh-promptx\""
         }
       ],
       "status": "readme-verified",
@@ -42264,9 +42282,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-scout@0.9.4",
-          "install": "dsh-scout@0.9.4",
-          "command": "dsh plugin --profile web add \"dsh-scout@0.9.4\""
+          "source": "npm:dsh-scout",
+          "install": "dsh-scout",
+          "command": "dsh plugin --profile web add \"dsh-scout\""
         }
       ],
       "status": "readme-verified",
@@ -42593,9 +42611,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-recall@0.2.2",
-          "install": "dsh-recall@0.2.2",
-          "command": "dsh plugin --profile web add \"dsh-recall@0.2.2\""
+          "source": "npm:dsh-recall",
+          "install": "dsh-recall",
+          "command": "dsh plugin --profile web add \"dsh-recall\""
         }
       ],
       "status": "readme-verified",
@@ -42765,9 +42783,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-token-optimizer@0.2.6",
-          "install": "dsh-token-optimizer@0.2.6",
-          "command": "dsh plugin --profile web add \"dsh-token-optimizer@0.2.6\""
+          "source": "npm:dsh-token-optimizer",
+          "install": "dsh-token-optimizer",
+          "command": "dsh plugin --profile web add \"dsh-token-optimizer\""
         }
       ],
       "status": "readme-verified",
@@ -42904,9 +42922,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-liquid-glass@0.7.1",
-          "install": "dsh-liquid-glass@0.7.1",
-          "command": "dsh plugin --profile web add dsh-liquid-glass@0.7.1 --registry=https://registry.npmjs.org/"
+          "source": "npm:dsh-liquid-glass",
+          "install": "dsh-liquid-glass",
+          "command": "dsh plugin --profile web add dsh-liquid-glass --registry=https://registry.npmjs.org/"
         }
       ],
       "status": "readme-verified",
@@ -43060,9 +43078,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@wisdoverse/dsh-inline-media-viewer@1.0.15",
-          "install": "@wisdoverse/dsh-inline-media-viewer@1.0.15",
-          "command": "dsh plugin --profile web add \"@wisdoverse/dsh-inline-media-viewer@1.0.15\""
+          "source": "npm:@wisdoverse/dsh-inline-media-viewer",
+          "install": "@wisdoverse/dsh-inline-media-viewer",
+          "command": "dsh plugin --profile web add \"@wisdoverse/dsh-inline-media-viewer\""
         }
       ],
       "status": "readme-verified",
@@ -43207,9 +43225,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@ycet/dsh-notifications@0.3.4",
-          "install": "@ycet/dsh-notifications@0.3.4",
-          "command": "dsh plugin --profile web add \"@ycet/dsh-notifications@0.3.4\""
+          "source": "npm:@ycet/dsh-notifications",
+          "install": "@ycet/dsh-notifications",
+          "command": "dsh plugin --profile web add \"@ycet/dsh-notifications\""
         }
       ],
       "status": "readme-verified",
@@ -43946,9 +43964,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-remote-dc@0.1.1",
-          "command": "dsh plugin --profile web add dsh-remote-dc@0.1.1",
-          "install": "dsh-remote-dc@0.1.1"
+          "source": "npm:dsh-remote-dc",
+          "command": "dsh plugin --profile web add dsh-remote-dc",
+          "install": "dsh-remote-dc"
         }
       ],
       "status": "readme-verified",
@@ -44330,9 +44348,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:clearai-dsh@0.6.0",
-          "command": "dsh plugin --profile web add clearai-dsh@0.6.0",
-          "install": "clearai-dsh@0.6.0"
+          "source": "npm:clearai-dsh",
+          "command": "dsh plugin --profile web add clearai-dsh",
+          "install": "clearai-dsh"
         },
         {
           "profile": "web",
@@ -44909,9 +44927,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:dsh-stop-pushing-shit@0.1.3",
-          "command": "dsh plugin --profile web add dsh-stop-pushing-shit@0.1.3",
-          "install": "dsh-stop-pushing-shit@0.1.3"
+          "source": "npm:dsh-stop-pushing-shit",
+          "command": "dsh plugin --profile web add dsh-stop-pushing-shit",
+          "install": "dsh-stop-pushing-shit"
         }
       ],
       "status": "readme-verified",
@@ -45191,9 +45209,9 @@
       "packages": [
         {
           "profile": "web",
-          "install": "dsh-skill-deterministic-pixel-art@0.1.3",
-          "source": "npm:dsh-skill-deterministic-pixel-art@0.1.3",
-          "command": "dsh plugin --profile web add dsh-skill-deterministic-pixel-art@0.1.3"
+          "install": "dsh-skill-deterministic-pixel-art",
+          "source": "npm:dsh-skill-deterministic-pixel-art",
+          "command": "dsh plugin --profile web add dsh-skill-deterministic-pixel-art"
         }
       ],
       "status": "readme-verified",
@@ -45268,9 +45286,9 @@
       "packages": [
         {
           "profile": "modus",
-          "source": "npm:@modus-ai/modus@1.0.0",
-          "command": "dsh plugin --profile modus add @modus-ai/modus@1.0.0 --ignore-scripts",
-          "install": "@modus-ai/modus@1.0.0"
+          "source": "npm:@modus-ai/modus",
+          "command": "dsh plugin --profile modus add @modus-ai/modus --ignore-scripts",
+          "install": "@modus-ai/modus"
         }
       ],
       "status": "readme-verified",
@@ -45393,9 +45411,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@nanmicoder/dsh-auto-mode@0.2.0",
-          "command": "dsh plugin --profile web add @nanmicoder/dsh-auto-mode@0.2.0",
-          "install": "@nanmicoder/dsh-auto-mode@0.2.0"
+          "source": "npm:@nanmicoder/dsh-auto-mode",
+          "command": "dsh plugin --profile web add @nanmicoder/dsh-auto-mode",
+          "install": "@nanmicoder/dsh-auto-mode"
         }
       ],
       "status": "readme-verified",
@@ -45407,9 +45425,9 @@
       "packages": [
         {
           "profile": "web",
-          "source": "npm:@vlln/dsh-navbar@0.4.0",
-          "command": "dsh plugin --profile web add @vlln/dsh-navbar@0.4.0",
-          "install": "@vlln/dsh-navbar@0.4.0"
+          "source": "npm:@vlln/dsh-navbar",
+          "command": "dsh plugin --profile web add @vlln/dsh-navbar",
+          "install": "@vlln/dsh-navbar"
         },
         {
           "profile": "web",

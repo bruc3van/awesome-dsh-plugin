@@ -186,9 +186,20 @@ async function reverifyEntry(slug, record) {
       // install as our concrete-profile record — the placeholder names
       // whichever profile the reader runs, and the official add box takes the
       // bare package name regardless (2026-11-17). Cosmetic quote differences
-      // are likewise equivalent.
-      const normalize = (command) =>
-        command.replace(/"/g, '').replace(/(--profile\s+)(<[^>]*>|\S+)/gi, '$1<profile>');
+      // are likewise equivalent. Version pins on add-targets are equivalent
+      // too (2026-11-21 policy: npm installs let the registry decide, so a
+      // recorded unversioned target matches a README that pins @x.y.z — and
+      // vice versa). Pin-stripping applies only to the targets after `add`,
+      // so host-compat pins in a runner prefix (npx … dsh@0.1.1-rc.2) stay
+      // meaningful, and non-@latest dist-tags (@next channels) survive.
+      const normalize = (command) => {
+        const flat = command.replace(/"/g, '').replace(/(--profile\s+)(<[^>]*>|\S+)/gi, '$1<profile>');
+        const at = flat.indexOf(' add ');
+        if (at === -1) return flat;
+        const head = flat.slice(0, at + 5);
+        const tail = flat.slice(at + 5).replace(/(\S)@(latest|\d+\.\d+\.\d+[-+.\w]*)/g, '$1');
+        return head + tail;
+      };
       const equivalent = [...extractedCommands.get(key)].some(
         (candidate) => normalize(candidate) === normalize(pkg.command),
       );
