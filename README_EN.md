@@ -40,43 +40,43 @@ As of 2026-11-20 the catalog lists **29,694** verified repositories. Here is the
 ```mermaid
 mindmap
   root((DSH ecosystem 29694))
-    UI and experience · 9801
+    UI and experience · 8932
       Usage and billing panels
       Sidebar workbenches
       Skins and desktop pets
       Notifications and input
-    Utilities and more · 3915
+    Utilities and more · 3427
       Files and encodings
       Format conversion
-    Web and browser · 3273
-      Browser bridge and page control
-      Web search with citations
-      Archiving and web forensics
-    Developer tools · 2974
+    Developer tools · 3091
       Git and diff
       Model gateways and keys
       Debugging and diagnostics
-    Agents automation workflows · 2397
+    Agents automation workflows · 3088
       Session and context management
       Scheduled loops and event wakeups
       Approval budget and checkpoints
-    Design media and vision · 1819
-      Image understanding and OCR
-      Design canvas and UI restoration
-      Speech synthesis and recognition
-    Integrations and sharing · 1740
+    Web and browser · 3061
+      Browser bridge and page control
+      Web search with citations
+      Archiving and web forensics
+    Integrations and sharing · 2050
       Chat import and sharing
       Remote access
       IM and external integrations
-    Knowledge and research · 1545
+    Design media and vision · 1947
+      Image understanding and OCR
+      Design canvas and UI restoration
+      Speech synthesis and recognition
+    Knowledge and research · 1924
       Knowledge bases and cross-session memory
       Deep research
       Academia and math
-    Ecosystem and resources · 1538
+    Ecosystem and resources · 1398
       Plugin markets and registries
       Skill libraries and plugin managers
       Templates and scaffolds
-    Multi-agent orchestration · 692
+    Multi-agent orchestration · 776
       Subagents and orchestration boards
       Fleets and agent teams
       Role division and acceptance checks
